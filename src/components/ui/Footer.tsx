@@ -50,15 +50,19 @@ export const Footer = () => {
                     <ul className="space-y-4 text-sm">
                         <li className="flex gap-3">
                             <MapPin size={18} className="text-blue-400 shrink-0" />
-                            <span>Av. Insurgentes Sur 1234, Ciudad de México</span>
+                            <span>Ignacio Galvan 10 interior 11 Plaza Bonanza, Tizayuca Hidalgo (Junto a BBVA)</span>
                         </li>
                         <li className="flex gap-3">
                             <Phone size={18} className="text-blue-400 shrink-0" />
-                            <span>55 1234 5678</span>
+                            <a href="https://wa.me/527716854026" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                                771 685 4026 (WhatsApp)
+                            </a>
                         </li>
                         <li className="flex gap-3">
                             <Mail size={18} className="text-blue-400 shrink-0" />
-                            <span>contacto@bienestarlab.com.mx</span>
+                            <a href="mailto:contacto@delbienestar.com.mx" className="hover:text-white transition-colors">
+                                contacto@delbienestar.com.mx
+                            </a>
                         </li>
                     </ul>
                 </div>
