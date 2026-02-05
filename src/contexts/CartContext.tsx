@@ -1,0 +1,124 @@
+'use client';
+
+import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+
+interface CartItem {
+    id: string;
+    name: string;
+    price: number;
+    promotionalPrice?: number;
+    category: string;
+    slug: string;
+    quantity: number;
+}
+
+interface CartContextType {
+    items: CartItem[];
+    itemCount: number;
+    subtotal: number;
+    total: number;
+    addItem: (item: Omit<CartItem, 'quantity'>) => void;
+    removeItem: (id: string) => void;
+    updateQuantity: (id: string, quantity: number) => void;
+    clearCart: () => void;
+}
+
+const CartContext = createContext<CartContextType | undefined>(undefined);
+
+export function CartProvider({ children }: { children: ReactNode }) {
+    const [items, setItems] = useState<CartItem[]>([]);
+    const [isClient, setIsClient] = useState(false);
+
+    // Load from localStorage on mount
+    useEffect(() => {
+        setIsClient(true);
+        const savedCart = localStorage.getItem('lab-cart');
+        if (savedCart) {
+            try {
+                setItems(JSON.parse(savedCart));
+            } catch (e) {
+                console.error('Error loading cart:', e);
+            }
+        }
+    }, []);
+
+    // Save to localStorage whenever cart changes
+    useEffect(() => {
+        if (isClient) {
+            localStorage.setItem('lab-cart', JSON.stringify(items));
+        }
+    }, [items, isClient]);
+
+    const addItem = (newItem: Omit<CartItem, 'quantity'>) => {
+        setItems(prevItems => {
+            const existingItem = prevItems.find(item => item.id === newItem.id);
+
+            if (existingItem) {
+                // Increment quantity if already in cart
+                return prevItems.map(item =>
+                    item.id === newItem.id
+                        ? { ...item, quantity: item.quantity + 1 }
+                        : item
+                );
+            } else {
+                // Add new item
+                return [...prevItems, { ...newItem, quantity: 1 }];
+            }
+        });
+    };
+
+    const removeItem = (id: string) => {
+        setItems(prevItems => prevItems.filter(item => item.id !== id));
+    };
+
+    const updateQuantity = (id: string, quantity: number) => {
+        if (quantity <= 0) {
+            removeItem(id);
+            return;
+        }
+
+        setItems(prevItems =>
+            prevItems.map(item =>
+                item.id === id ? { ...item, quantity } : item
+            )
+        );
+    };
+
+    const clearCart = () => {
+        setItems([]);
+    };
+
+    const itemCount = items.reduce((total, item) => total + item.quantity, 0);
+
+    const subtotal = items.reduce((total, item) => {
+        const price = item.promotionalPrice || item.price;
+        return total + (price * item.quantity);
+    }, 0);
+
+    const total = subtotal; // Aquí puedes agregar descuentos, impuestos, etc.
+
+    return (
+        <CartContext.Provider
+            value={{
+                items,
+                itemCount,
+                subtotal,
+                total,
+                addItem,
+                removeItem,
+                updateQuantity,
+                clearCart,
+            }}
+        >
+            {children}
+        </CartContext.Provider>
+    );
+}
+
+export function useCart() {
+    const context = useContext(CartContext);
+    if (context === undefined) {
+        throw new Error('useCart must be used within a CartProvider');
+    }
+    return context;
+}

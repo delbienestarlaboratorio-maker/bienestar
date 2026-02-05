@@ -1,0 +1,48 @@
+{
+  "name": "laboratorio-bienestar",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 30200",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:seed": "tsx src/db/seed.ts",
+    "db:seed-subcategories": "tsx src/db/seed-subcategories.ts"
+  },
+  "dependencies": {
+    "@auth/drizzle-adapter": "^1.11.1",
+    "@google/generative-ai": "^0.24.1",
+    "@types/js-cookie": "^3.0.6",
+    "@types/pg": "^8.16.0",
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^12.6.2",
+    "clsx": "^2.1.1",
+    "dotenv": "^17.2.3",
+    "drizzle-kit": "^0.31.8",
+    "drizzle-orm": "^0.45.1",
+    "framer-motion": "^12.26.2",
+    "js-cookie": "^3.0.5",
+    "lucide-react": "^0.562.0",
+    "next": "16.1.2",
+    "next-auth": "^5.0.0-beta.30",
+    "ollama": "^0.6.3",
+    "pg": "^8.17.2",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "schema-dts": "^1.1.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.2",
+    "tailwindcss": "^4",
+    "tsx": "^4.21.0",
+    "typescript": "^5"
+  }
+}
