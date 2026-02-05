@@ -25,16 +25,16 @@ interface UrgencyIndicatorsProps {
 }
 
 export function UrgencyIndicators({
-    showTimer = true,
+    showTimer = false, // DESACTIVADO - parece presión falsa
     timerDuration = 2 * 60 * 60, // 2 hours default
     timerMessage = 'Este precio especial expira en:',
-    showScarcity = true,
+    showScarcity = false, // DESACTIVADO - información no real
     spotsLeft = 5,
     totalSpots = 20,
-    showSocialProof = true,
+    showSocialProof = false, // DESACTIVADO - números falsos
     recentPurchases = 12,
     viewingNow = 3,
-    showDemand = true,
+    showDemand = false, // DESACTIVADO - no es información real
     demandLevel = 'medium'
 }: UrgencyIndicatorsProps) {
     const [timeLeft, setTimeLeft] = useState(timerDuration);
@@ -160,10 +160,10 @@ export function UrgencyIndicators({
             {/* Demand Indicator */}
             {showDemand && (
                 <div className={`demand-indicator ${demandLevel === 'high'
-                        ? 'bg-gradient-to-r from-red-50 to-orange-50 dark:from-red-900/20 dark:to-orange-900/20 border-red-300 dark:border-red-700'
-                        : demandLevel === 'medium'
-                            ? 'bg-gradient-to-r from-yellow-50 to-amber-50 dark:from-yellow-900/20 dark:to-amber-900/20 border-yellow-300 dark:border-yellow-700'
-                            : 'bg-gradient-to-r from-blue-50 to-cyan-50 dark:from-blue-900/20 dark:to-cyan-900/20 border-blue-300 dark:border-blue-700'
+                    ? 'bg-gradient-to-r from-red-50 to-orange-50 dark:from-red-900/20 dark:to-orange-900/20 border-red-300 dark:border-red-700'
+                    : demandLevel === 'medium'
+                        ? 'bg-gradient-to-r from-yellow-50 to-amber-50 dark:from-yellow-900/20 dark:to-amber-900/20 border-yellow-300 dark:border-yellow-700'
+                        : 'bg-gradient-to-r from-blue-50 to-cyan-50 dark:from-blue-900/20 dark:to-cyan-900/20 border-blue-300 dark:border-blue-700'
                     } border rounded-lg p-3`}>
                     <div className="flex items-center gap-2">
                         {demandLevel === 'high' ? (
@@ -173,10 +173,10 @@ export function UrgencyIndicators({
                         )}
 
                         <p className={`text-sm font-semibold ${demandLevel === 'high'
-                                ? 'text-red-900 dark:text-red-100'
-                                : demandLevel === 'medium'
-                                    ? 'text-yellow-900 dark:text-yellow-100'
-                                    : 'text-blue-900 dark:text-blue-100'
+                            ? 'text-red-900 dark:text-red-100'
+                            : demandLevel === 'medium'
+                                ? 'text-yellow-900 dark:text-yellow-100'
+                                : 'text-blue-900 dark:text-blue-100'
                             }`}>
                             {demandLevel === 'high' && '🔥 Muy Alta Demanda - ¡Reserva ahora!'}
                             {demandLevel === 'medium' && '⚡ Demanda Moderada - ¡No esperes más!'}

@@ -186,48 +186,32 @@ export function StudyImageCard({ studyName, studyType = 'default', className = '
     const config = STUDY_CONFIGS[studyType as keyof typeof STUDY_CONFIGS] || STUDY_CONFIGS.default;
     const Icon = config.icon;
 
+    // Acortar nombre si es demasiado largo para mobile
+    const displayName = studyName.length > 35 ? studyName.substring(0, 32) + '...' : studyName;
+
     return (
-        <div className={`relative w-full aspect-square rounded-2xl overflow-hidden group ${className}`}>
-            {/* Gradiente de fondo */}
+        <div className={`relative w-full aspect-square rounded-xl overflow-hidden ${className}`}>
+            {/* Gradiente de fondo SIMPLIFICADO */}
             <div className={`absolute inset-0 bg-gradient-to-br ${config.gradient}`} />
 
-            {/* Patrón de fondo */}
-            <BackgroundPattern pattern={config.pattern} />
-
-            {/* Efecto de brillo animado */}
-            <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-
-            {/* Círculos decorativos */}
-            <div className="absolute top-10 right-10 w-32 h-32 bg-white/5 rounded-full blur-2xl" />
-            <div className="absolute bottom-10 left-10 w-40 h-40 bg-white/5 rounded-full blur-3xl" />
-
-            {/* Icono central con efecto de elevación */}
+            {/* Icono MÁS GRANDE Y CLARO */}
             <div className="absolute inset-0 flex items-center justify-center">
-                <div className={`relative transform group-hover:scale-110 transition-transform duration-300 ${config.shadow} shadow-2xl`}>
-                    {/* Sombra del icono */}
-                    <div className="absolute inset-0 bg-black/20 blur-xl rounded-full scale-90" />
-
-                    {/* Icono */}
-                    <Icon
-                        className={`relative ${config.iconColor} drop-shadow-2xl`}
-                        size={120}
-                        strokeWidth={1.5}
-                    />
-                </div>
+                <Icon
+                    className={`${config.iconColor} opacity-90`}
+                    size={100}
+                    strokeWidth={2}
+                />
             </div>
 
-            {/* Barra inferior con glassmorphism */}
-            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 via-black/40 to-transparent backdrop-blur-sm p-6">
-                <h3 className="text-white font-bold text-lg leading-tight drop-shadow-lg line-clamp-2">
-                    {studyName}
+            {/* Texto MÁS LEGIBLE Y GRANDE */}
+            <div className="absolute inset-0 flex flex-col items-center justify-center p-4 bg-black/30">
+                <h3 className="text-white font-bold text-xl md:text-2xl text-center leading-tight drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)] mb-2">
+                    {displayName}
                 </h3>
-                <p className="text-white/80 text-sm mt-1 uppercase tracking-wider font-medium">
+                <p className="text-white/90 font-semibold text-base md:text-lg uppercase tracking-wide drop-shadow-[0_2px_4px_rgba(0,0,0,0.6)]">
                     {studyType.replace('_', ' ')}
                 </p>
             </div>
-
-            {/* Borde brillante en hover */}
-            <div className="absolute inset-0 border-2 border-white/0 group-hover:border-white/20 rounded-2xl transition-colors duration-300" />
         </div>
     );
 }
