@@ -49,6 +49,7 @@ export const Header = () => {
                                 />
                             </Link>
                         </div>
+                        <Link href="/paquetes" className="text-gray-600 hover:text-green-600 font-medium transition-colors">Paquetes</Link>
                         <Link href="/sucursales" className="text-gray-600 hover:text-green-600 font-medium transition-colors">Sucursales</Link>
                         <Link href="/promociones" className="text-gray-600 hover:text-green-600 font-medium transition-colors">Promociones</Link>
                         <Link href="/resultados" className="bg-green-50 text-green-700 px-4 py-2 rounded-lg font-bold hover:bg-green-100 transition-colors">
