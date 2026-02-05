@@ -68,11 +68,11 @@ export const Header = () => {
 
                         {/* Phone */}
                         <a
-                            href="tel:5512345678"
+                            href="tel:7716854026"
                             className="hidden xl:flex items-center gap-2 text-gray-600 hover:text-green-600 transition-colors"
                         >
                             <Phone size={18} />
-                            <span className="font-medium">55 1234 5678</span>
+                            <span className="font-medium">771 685 4026</span>
                         </a>
 
                         {/* Cart Button */}

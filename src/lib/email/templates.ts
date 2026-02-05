@@ -2,28 +2,28 @@
 // Used for cart abandonment recovery and follow-ups
 
 export interface EmailTemplateData {
-    customerName?: string;
-    cartItems: Array<{
-        name: string;
-        price: number;
-        quantity: number;
-    }>;
-    totalValue: number;
-    discount?: number;
-    recoveryUrl: string;
-    expiresIn?: string; // e.g. "24 horas"
+  customerName?: string;
+  cartItems: Array<{
+    name: string;
+    price: number;
+    quantity: number;
+  }>;
+  totalValue: number;
+  discount?: number;
+  recoveryUrl: string;
+  expiresIn?: string; // e.g. "24 horas"
 }
 
 /**
  * Cart Abandonment Recovery Email (HTML)
  */
 export function generateCartAbandonmentEmail(data: EmailTemplateData): string {
-    const { customerName, cartItems, totalValue, discount = 10, recoveryUrl, expiresIn = "24 horas" } = data;
+  const { customerName, cartItems, totalValue, discount = 10, recoveryUrl, expiresIn = "24 horas" } = data;
 
-    const discountedTotal = totalValue * (1 - discount / 100);
-    const savings = totalValue - discountedTotal;
+  const discountedTotal = totalValue * (1 - discount / 100);
+  const savings = totalValue - discountedTotal;
 
-    return `
+  return `
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -262,12 +262,12 @@ export function generateCartAbandonmentEmail(data: EmailTemplateData): string {
     <!-- Footer -->
     <div class="footer">
       <p>
-        ¿Necesitas ayuda? <a href="tel:+525512345678">Llámanos</a> o 
-        <a href="https://wa.me/525512345678">escríbenos por WhatsApp</a>
+        ¿Necesitas ayuda? <a href="tel:+527716854026">Llámanos</a> o 
+        <a href="https://wa.me/527716854026">escríbenos por WhatsApp</a>
       </p>
       <p style="font-size: 12px; color: #9ca3af; margin-top: 20px;">
         Laboratorio Bienestar<br>
-        Av. Principal 123, Ciudad de México<br>
+        Ignacio Galvan 10 interior 11 Plaza Bonanza, Tizayuca Hidalgo (Junto a BBVA)<br>
         <a href="{unsubscribe_url}">Cancelar suscripción</a>
       </p>
     </div>
@@ -281,11 +281,11 @@ export function generateCartAbandonmentEmail(data: EmailTemplateData): string {
  * Follow-up Email (After purchase)
  */
 export function generateFollowUpEmail(data: {
-    customerName: string;
-    studiesCompleted: string[];
-    resultUrl?: string;
+  customerName: string;
+  studiesCompleted: string[];
+  resultUrl?: string;
 }): string {
-    return `
+  return `
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -326,10 +326,10 @@ export function generateFollowUpEmail(data: {
  * Plain text version for email clients that don't support HTML
  */
 export function generateCartAbandonmentTextEmail(data: EmailTemplateData): string {
-    const { customerName, cartItems, totalValue, discount = 10, recoveryUrl } = data;
-    const discountedTotal = totalValue * (1 - discount / 100);
+  const { customerName, cartItems, totalValue, discount = 10, recoveryUrl } = data;
+  const discountedTotal = totalValue * (1 - discount / 100);
 
-    return `
+  return `
 ${customerName ? `Hola ${customerName},` : 'Hola,'}
 
 Notamos que dejaste algunos estudios en tu carrito.
@@ -348,7 +348,8 @@ Esta oferta expira en 24 horas.
 
 --
 Laboratorio Bienestar
-Tel: +52 55 1234 5678
-WhatsApp: +52 55 1234 5678
+Tel: +52 771 685 4026
+WhatsApp: +52 771 685 4026
+Dirección: Ignacio Galvan 10 interior 11 Plaza Bonanza, Tizayuca Hidalgo (Junto a BBVA)
   `.trim();
 }

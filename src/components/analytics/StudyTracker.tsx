@@ -22,7 +22,7 @@ export function StudyTracker({ study, categoryName }: StudyTrackerProps) {
 
         // Open WhatsApp (example)
         const message = encodeURIComponent(`Hola, me interesa agendar ${study.name}`);
-        window.open(`https://wa.me/525512345678?text=${message}`, '_blank');
+        window.open(`https://wa.me/527716854026?text=${message}`, '_blank');
     };
 
     return (

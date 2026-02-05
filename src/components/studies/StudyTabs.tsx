@@ -231,13 +231,13 @@ export function StudyTabs({ study, showReviews = true }: StudyTabsProps) {
                             </p>
                             <div className="flex flex-wrap gap-3">
                                 <a
-                                    href="tel:+525512345678"
+                                    href="tel:+527716854026"
                                     className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg font-medium transition-colors"
                                 >
                                     📞 Llamar Ahora
                                 </a>
                                 <a
-                                    href="https://wa.me/525512345678"
+                                    href="https://wa.me/527716854026"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg font-medium transition-colors"
