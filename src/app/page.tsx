@@ -39,43 +39,61 @@ export default function Home() {
               {/* Acción 1: Explorar */}
               <Link
                 href="/estudios/analisis-clinicos"
-                className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all hover:-translate-y-1 border-2 border-gray-100 hover:border-blue-300 group"
+                className="relative h-48 rounded-xl shadow-lg hover:shadow-2xl transition-all hover:-translate-y-2 overflow-hidden group"
               >
-                <TestTube className="w-12 h-12 text-blue-600 mx-auto mb-4 group-hover:scale-110 transition-transform" />
-                <h3 className="text-xl font-bold text-gray-900 mb-2">
-                  Ver Estudios
-                </h3>
-                <p className="text-sm text-gray-600">
-                  Explora nuestro catálogo completo
-                </p>
+                <div
+                  className="absolute inset-0 bg-cover bg-center"
+                  style={{ backgroundImage: 'url(/images/hero/ver-estudios.png)' }}
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent group-hover:from-black/70 transition-all" />
+                <div className="relative h-full flex flex-col items-center justify-end p-6 text-center">
+                  <h3 className="text-2xl font-bold text-white mb-2 drop-shadow-lg">
+                    Ver Estudios
+                  </h3>
+                  <p className="text-sm text-white/90 drop-shadow-md">
+                    Explora nuestro catálogo completo
+                  </p>
+                </div>
               </Link>
 
               {/* Acción 2: Agendar */}
               <Link
                 href="/agendar"
-                className="bg-blue-600 p-8 rounded-xl shadow-lg hover:shadow-xl transition-all hover:-translate-y-1 group"
+                className="relative h-48 rounded-xl shadow-lg hover:shadow-2xl transition-all hover:-translate-y-2 overflow-hidden group"
               >
-                <Calendar className="w-12 h-12 text-white mx-auto mb-4 group-hover:scale-110 transition-transform" />
-                <h3 className="text-xl font-bold text-white mb-2">
-                  Agendar Cita
-                </h3>
-                <p className="text-sm text-blue-100">
-                  Reserva tu cita en línea
-                </p>
+                <div
+                  className="absolute inset-0 bg-cover bg-center"
+                  style={{ backgroundImage: 'url(/images/hero/agendar-cita.png)' }}
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-blue-900/40 via-blue-900/10 to-transparent group-hover:from-blue-900/60 transition-all" />
+                <div className="relative h-full flex flex-col items-center justify-end p-6 text-center">
+                  <h3 className="text-2xl font-bold text-white mb-2 drop-shadow-lg">
+                    Agendar Cita
+                  </h3>
+                  <p className="text-sm text-white/90 drop-shadow-md">
+                    Reserva tu cita en línea
+                  </p>
+                </div>
               </Link>
 
               {/* Acción 3: Ubicaciones */}
               <Link
                 href="/sucursales"
-                className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all hover:-translate-y-1 border-2 border-gray-100 hover:border-blue-300 group"
+                className="relative h-48 rounded-xl shadow-lg hover:shadow-2xl transition-all hover:-translate-y-2 overflow-hidden group"
               >
-                <MapPin className="w-12 h-12 text-blue-600 mx-auto mb-4 group-hover:scale-110 transition-transform" />
-                <h3 className="text-xl font-bold text-gray-900 mb-2">
-                  Sucursales
-                </h3>
-                <p className="text-sm text-gray-600">
-                  2 ubicaciones en Tizayuca
-                </p>
+                <div
+                  className="absolute inset-0 bg-cover bg-center"
+                  style={{ backgroundImage: 'url(/images/hero/sucursales.png)' }}
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent group-hover:from-black/70 transition-all" />
+                <div className="relative h-full flex flex-col items-center justify-end p-6 text-center">
+                  <h3 className="text-2xl font-bold text-white mb-2 drop-shadow-lg">
+                    Sucursales
+                  </h3>
+                  <p className="text-sm text-white/90 drop-shadow-md">
+                    2 ubicaciones en Tizayuca
+                  </p>
+                </div>
               </Link>
             </div>
           </div>
