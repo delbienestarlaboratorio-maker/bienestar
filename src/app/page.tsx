@@ -99,6 +99,120 @@ export default function Home() {
           </div>
         </div>
 
+        {/* Sección de Paquetes - NUEVA */}
+        <div className="bg-white py-16 px-4">
+          <div className="max-w-6xl mx-auto">
+            {/* Título de la Sección */}
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">
+                Paquetes de Estudios
+              </h2>
+              <p className="text-lg text-gray-600">
+                Ahorra hasta 29% con nuestros paquetes diseñados para ti
+              </p>
+            </div>
+
+            {/* Grid de 5 Paquetes */}
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-8">
+
+              {/* Para Ella */}
+              <Link
+                href="/paquetes?categoria=para-ella"
+                className="relative aspect-square rounded-xl shadow-lg hover:shadow-2xl transition-all hover:-translate-y-1 overflow-hidden group"
+              >
+                <div
+                  className="absolute inset-0 bg-cover bg-center"
+                  style={{ backgroundImage: 'url(/images/packages/para-ella.png)' }}
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-pink-900/60 via-pink-900/20 to-transparent group-hover:from-pink-900/70 transition-all" />
+                <div className="relative h-full flex items-end justify-center p-4">
+                  <h3 className="text-white font-bold text-base md:text-lg drop-shadow-lg text-center">
+                    Para Ella
+                  </h3>
+                </div>
+              </Link>
+
+              {/* Para Él */}
+              <Link
+                href="/paquetes?categoria=para-el"
+                className="relative aspect-square rounded-xl shadow-lg hover:shadow-2xl transition-all hover:-translate-y-1 overflow-hidden group"
+              >
+                <div
+                  className="absolute inset-0 bg-cover bg-center"
+                  style={{ backgroundImage: 'url(/images/packages/para-el.png)' }}
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-blue-900/60 via-blue-900/20 to-transparent group-hover:from-blue-900/70 transition-all" />
+                <div className="relative h-full flex items-end justify-center p-4">
+                  <h3 className="text-white font-bold text-base md:text-lg drop-shadow-lg text-center">
+                    Para Él
+                  </h3>
+                </div>
+              </Link>
+
+              {/* Por Edad */}
+              <Link
+                href="/paquetes?categoria=por-edad"
+                className="relative aspect-square rounded-xl shadow-lg hover:shadow-2xl transition-all hover:-translate-y-1 overflow-hidden group"
+              >
+                <div
+                  className="absolute inset-0 bg-cover bg-center"
+                  style={{ backgroundImage: 'url(/images/packages/por-edad.png)' }}
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-orange-900/60 via-orange-900/20 to-transparent group-hover:from-orange-900/70 transition-all" />
+                <div className="relative h-full flex items-end justify-center p-4">
+                  <h3 className="text-white font-bold text-base md:text-lg drop-shadow-lg text-center">
+                    Por Edad
+                  </h3>
+                </div>
+              </Link>
+
+              {/* Por Condición */}
+              <Link
+                href="/paquetes?categoria=por-condicion"
+                className="relative aspect-square rounded-xl shadow-lg hover:shadow-2xl transition-all hover:-translate-y-1 overflow-hidden group"
+              >
+                <div
+                  className="absolute inset-0 bg-cover bg-center"
+                  style={{ backgroundImage: 'url(/images/packages/por-condicion.png)' }}
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-green-900/60 via-green-900/20 to-transparent group-hover:from-green-900/70 transition-all" />
+                <div className="relative h-full flex items-end justify-center p-4">
+                  <h3 className="text-white font-bold text-base md:text-lg drop-shadow-lg text-center">
+                    Por Condición
+                  </h3>
+                </div>
+              </Link>
+
+              {/* Especiales */}
+              <Link
+                href="/paquetes?categoria=especiales"
+                className="relative aspect-square rounded-xl shadow-lg hover:shadow-2xl transition-all hover:-translate-y-1 overflow-hidden group"
+              >
+                <div
+                  className="absolute inset-0 bg-cover bg-center"
+                  style={{ backgroundImage: 'url(/images/packages/especiales.png)' }}
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-purple-900/60 via-purple-900/20 to-transparent group-hover:from-purple-900/70 transition-all" />
+                <div className="relative h-full flex items-end justify-center p-4">
+                  <h3 className="text-white font-bold text-base md:text-lg drop-shadow-lg text-center">
+                    Especiales
+                  </h3>
+                </div>
+              </Link>
+            </div>
+
+            {/* Botón Ver Todos */}
+            <div className="text-center">
+              <Link
+                href="/paquetes"
+                className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg transition-colors shadow-lg hover:shadow-xl"
+              >
+                Ver Todos los Paquetes →
+              </Link>
+            </div>
+          </div>
+        </div>
+
         {/* Sección de Información Mínima */}
         <div className="bg-gray-50 py-12 px-4">
           <div className="max-w-4xl mx-auto text-center">
