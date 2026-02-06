@@ -52,7 +52,7 @@ export class DelBienestarAPI {
     private baseUrl: string;
 
     constructor() {
-        this.baseUrl = process.env.NEXT_PUBLIC_DEL_BIENESTAR_API_URL || 'http://localhost:3000';
+        this.baseUrl = process.env.NEXT_PUBLIC_DEL_BIENESTAR_API_URL || 'http://localhost:3001';
     }
 
     // ==================== ESTUDIOS ====================

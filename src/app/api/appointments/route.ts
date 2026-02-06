@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { db } from '@/db';
 import { appointments } from '@/db/schema';
 import { eq, desc } from 'drizzle-orm';
+import { notifyNewAppointment } from '@/lib/webhooks';
 
 // POST - Crear nueva cita
 export async function POST(request: NextRequest) {
@@ -48,7 +49,7 @@ export async function POST(request: NextRequest) {
             );
         }
 
-        // Crear la cita
+        // Crear la cita en PostgreSQL
         const [newAppointment] = await db.insert(appointments).values({
             patientName,
             patientEmail,
@@ -60,6 +61,21 @@ export async function POST(request: NextRequest) {
             notes: notes || null,
             status: 'pending'
         }).returning();
+
+        // 🔔 NUEVO: Notificar al backend local (Laboratorio Manager)
+        // Esto no bloquea la respuesta al cliente
+        notifyNewAppointment({
+            paciente_nombre: patientName,
+            telefono: patientPhone,
+            email: patientEmail,
+            estudio_nombre: studyName,
+            fecha: preferredDate,
+            hora: preferredTime,
+            notas: notes || `Cita agendada desde web el ${new Date().toISOString()}`
+        }).catch(err => {
+            // Log error pero no fallar la operación
+            console.error('⚠️ Webhook notification failed (non-critical):', err);
+        });
 
         return NextResponse.json({
             success: true,
