@@ -101,8 +101,15 @@ export const SearchBar = ({
 
     const handleSearch = (e: React.FormEvent) => {
         e.preventDefault();
-        if (results.length > 0) {
-            window.location.href = `/estudios/${results[0].category}/${results[0].slug}`;
+        if (query.trim()) {
+            // Redirect to dedicated search results page
+            window.location.href = `/busqueda?q=${encodeURIComponent(query.trim())}`;
+        }
+    };
+
+    const handleViewAll = () => {
+        if (query.trim()) {
+            window.location.href = `/busqueda?q=${encodeURIComponent(query.trim())}`;
         }
     };
 
@@ -166,41 +173,50 @@ export const SearchBar = ({
                             <span>Buscando...</span>
                         </div>
                     ) : results.length > 0 ? (
-                        results.map((study) => (
-                            <Link
-                                key={study.id}
-                                href={`/estudios/${study.category}/${study.slug}`}
-                                onClick={() => {
-                                    setShowResults(false);
-                                    setQuery('');
-                                }}
-                                className="block p-4 hover:bg-green-50 transition-colors border-b border-gray-100 last:border-b-0"
-                            >
-                                <div className="flex items-start justify-between gap-4">
-                                    <div className="flex-1 min-w-0">
-                                        <h4 className="font-semibold text-gray-900 mb-1 truncate">
-                                            {study.name}
-                                        </h4>
-                                        <p className="text-sm text-gray-600 line-clamp-1">
-                                            {study.description || 'Sin descripción disponible'}
-                                        </p>
-                                        <span className="inline-block mt-1 text-xs text-green-700 bg-green-50 px-2 py-1 rounded">
-                                            {categories.find(c => c.id === study.category)?.name || study.category}
-                                        </span>
-                                    </div>
-                                    <div className="text-right flex-shrink-0">
-                                        <p className="font-bold text-green-900">
-                                            ${(study.price.promotional || study.price.regular).toLocaleString('es-MX')}
-                                        </p>
-                                        {study.price.promotional && (
-                                            <p className="text-xs text-gray-400 line-through">
-                                                ${study.price.regular.toLocaleString('es-MX')}
+                        <>
+                            {results.map((study) => (
+                                <Link
+                                    key={study.id}
+                                    href={`/estudios/${study.category}/${study.slug}`}
+                                    onClick={() => {
+                                        setShowResults(false);
+                                        setQuery('');
+                                    }}
+                                    className="block p-4 hover:bg-green-50 transition-colors border-b border-gray-100"
+                                >
+                                    <div className="flex items-start justify-between gap-4">
+                                        <div className="flex-1 min-w-0">
+                                            <h4 className="font-semibold text-gray-900 mb-1 truncate">
+                                                {study.name}
+                                            </h4>
+                                            <p className="text-sm text-gray-600 line-clamp-1">
+                                                {study.description || 'Sin descripción disponible'}
                                             </p>
-                                        )}
+                                            <span className="inline-block mt-1 text-xs text-green-700 bg-green-50 px-2 py-1 rounded">
+                                                {categories.find(c => c.id === study.category)?.name || study.category}
+                                            </span>
+                                        </div>
+                                        <div className="text-right flex-shrink-0">
+                                            <p className="font-bold text-green-900">
+                                                ${(study.price.promotional || study.price.regular).toLocaleString('es-MX')}
+                                            </p>
+                                            {study.price.promotional && (
+                                                <p className="text-xs text-gray-400 line-through">
+                                                    ${study.price.regular.toLocaleString('es-MX')}
+                                                </p>
+                                            )}
+                                        </div>
                                     </div>
-                                </div>
-                            </Link>
-                        ))
+                                </Link>
+                            ))}
+                            {/* "Ver todos" button */}
+                            <button
+                                onClick={handleViewAll}
+                                className="w-full p-4 bg-green-50 hover:bg-green-100 text-green-900 font-semibold text-center transition-colors flex items-center justify-center gap-2"
+                            >
+                                📋 Ver todos los resultados →
+                            </button>
+                        </>
                     ) : (
                         <div className="p-6 text-center">
                             <p className="text-gray-600">
