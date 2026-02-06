@@ -96,6 +96,11 @@ export function StudyImageCard({ studyName, studyType, className = '' }: StudyIm
         setHasError(false);
     }, [studyName]);
 
+    // Truncar nombre si es muy largo
+    const displayName = studyName.length > 40
+        ? studyName.substring(0, 37) + '...'
+        : studyName;
+
     return (
         <div className={`relative w-full h-full rounded-lg overflow-hidden shadow-md ${className}`}>
             <Image
