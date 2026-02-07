@@ -3,6 +3,8 @@ import { db } from '@/db';
 import { studies } from '@/db/schema';
 import { eq } from 'drizzle-orm';
 import { studyPackages } from '@/data/studyPackages';
+import { getAllBlogPosts } from '@/data/blog';
+import { BlogPost } from '@/data/blog-posts-base';
 
 const BASE_URL = 'https://laboratorio.delbienestar.com.mx';
 
@@ -69,5 +71,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     }));
     */
 
-    return [...staticRoutes, ...studyRoutes];
+    // 4. Blog Posts
+    const blogPosts = getAllBlogPosts();
+    const blogRoutes: MetadataRoute.Sitemap = blogPosts.map((post: any) => ({
+        url: `${BASE_URL}/blog/${post.slug}`,
+        lastModified: new Date(post.date),
+        changeFrequency: 'monthly', // Blog posts change less often than studies
+        priority: 0.6,
+    }));
+
+    return [...staticRoutes, ...studyRoutes, ...blogRoutes];
 }

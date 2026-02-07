@@ -3,15 +3,28 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { ArrowLeft, BookOpen, TrendingUp } from 'lucide-react';
-import { blogPosts } from '@/data/blog-posts';
+import { getAllBlogPosts } from '@/data/blog';
 import { BlogCard } from '@/components/blog/BlogCard';
 import { BlogFilters } from '@/components/blog/BlogFilters';
 
 export default function BlogPage() {
-    const [filteredPosts, setFilteredPosts] = useState(blogPosts);
+    const allPosts = getAllBlogPosts();
+    // Normalize posts for compatibility (mapping 'date' to 'publishDate' if needed)
+    const normalizedPosts = allPosts.map(post => ({
+        ...post,
+        publishDate: post.date || (post as any).publishDate, // Handle both key names
+        excerpt: (post as any).excerpt || `Artículo sobre ${post.title}`,
+        image: (post as any).image || '/images/blog/lab-generic.jpg',
+        author: (post as any).author || 'Dr. Carlos M.',
+        readTime: (post as any).readTime || 5,
+        tags: (post as any).tags || [],
+        featured: (post as any).featured || false
+    }));
+
+    const [filteredPosts, setFilteredPosts] = useState(normalizedPosts);
 
     // Get featured posts
-    const featuredPosts = blogPosts.filter(post => post.featured).slice(0, 2);
+    const featuredPosts = normalizedPosts.filter(post => post.featured).slice(0, 2);
 
     // Get recent posts (excluding featured)
     const recentPosts = filteredPosts
@@ -49,7 +62,7 @@ export default function BlogPage() {
                     <div className="grid md:grid-cols-3 gap-6 mt-12 max-w-3xl mx-auto">
                         <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center">
                             <div className="text-4xl font-bold text-white mb-2">
-                                {blogPosts.length}+
+                                {normalizedPosts.length}+
                             </div>
                             <p className="text-green-100">Artículos Publicados</p>
                         </div>
@@ -85,7 +98,7 @@ export default function BlogPage() {
                         </div>
 
                         <div className="grid md:grid-cols-2 gap-8">
-                            {featuredPosts.map(post => (
+                            {featuredPosts.map((post: any) => (
                                 <BlogCard key={post.id} post={post} featured />
                             ))}
                         </div>
@@ -94,7 +107,7 @@ export default function BlogPage() {
 
                 {/* Filters */}
                 <BlogFilters
-                    posts={blogPosts}
+                    posts={normalizedPosts as any}
                     onFilterChange={setFilteredPosts}
                 />
 
@@ -102,7 +115,7 @@ export default function BlogPage() {
                 <section>
                     {recentPosts.length > 0 ? (
                         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                            {recentPosts.map(post => (
+                            {recentPosts.map((post: any) => (
                                 <BlogCard key={post.id} post={post} />
                             ))}
                         </div>
@@ -149,11 +162,11 @@ export default function BlogPage() {
                         Explora por Categoría
                     </h3>
                     <div className="grid md:grid-cols-5 gap-4">
-                        {Array.from(new Set(blogPosts.map(p => p.category))).sort().map(category => (
+                        {Array.from(new Set(normalizedPosts.map(p => p.category))).sort().map(category => (
                             <button
                                 key={category}
                                 onClick={() => {
-                                    const filtered = blogPosts.filter(p => p.category === category);
+                                    const filtered = normalizedPosts.filter(p => p.category === category);
                                     setFilteredPosts(filtered);
                                     window.scrollTo({ top: 400, behavior: 'smooth' });
                                 }}
@@ -161,7 +174,7 @@ export default function BlogPage() {
                             >
                                 <div className="font-semibold text-gray-900 mb-1">{category}</div>
                                 <div className="text-sm text-gray-600">
-                                    {blogPosts.filter(p => p.category === category).length} artículos
+                                    {normalizedPosts.filter(p => p.category === category).length} artículos
                                 </div>
                             </button>
                         ))}

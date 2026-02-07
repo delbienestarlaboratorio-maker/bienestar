@@ -2,9 +2,12 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
 import { ArrowLeft, Calendar, Clock, Tag, BookOpen, TestTube } from 'lucide-react';
-import { blogPosts, getRelatedPosts } from '@/data/blog-posts';
+import { getRelatedPosts } from '@/data/blog-posts';
+import { getAllBlogPosts, getBlogPostBySlug } from '@/data/blog'; // Import new helpers
 import { BlogCard } from '@/components/blog/BlogCard';
 import ReactMarkdown from 'react-markdown';
+import fs from 'fs';
+import path from 'path';
 
 interface BlogPostPageProps {
     params: {
@@ -13,13 +16,14 @@ interface BlogPostPageProps {
 }
 
 export async function generateStaticParams() {
-    return blogPosts.map(post => ({
+    const posts = getAllBlogPosts();
+    return posts.map(post => ({
         slug: post.slug,
     }));
 }
 
 export async function generateMetadata({ params }: BlogPostPageProps) {
-    const post = blogPosts.find(p => p.slug === params.slug);
+    const post = getBlogPostBySlug(params.slug);
 
     if (!post) {
         return {
@@ -27,22 +31,124 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
         };
     }
 
+    let description = `Artículo sobre ${post.title} - Laboratorio Del Bienestar`;
+
+    // Try to get dynamic description from content
+    if (!post.isManual) {
+        const year = post.date.split('-')[0];
+        const content = await getPostContent(post.slug, year);
+
+        if (content) {
+            // Try to extract Resumen
+            const summaryMatch = content.match(/\*\*Resumen\*\*:\s*([^\n]+)/);
+            if (summaryMatch && summaryMatch[1]) {
+                description = summaryMatch[1].trim();
+            } else {
+                // Fallback: Strip markdown and take first 160 chars
+                const plainText = content
+                    .replace(/#+\s/g, '') // Remove headers
+                    .replace(/\*\*/g, '') // Remove bold
+                    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1') // Remove links
+                    .replace(/\n+/g, ' ') // Collapse newlines
+                    .slice(0, 160)
+                    .trim();
+                description = `${plainText}...`;
+            }
+        }
+    } else if (post.manualContent?.excerpt) {
+        description = post.manualContent.excerpt;
+    }
+
     return {
         title: `${post.title} | Blog de Salud`,
-        description: post.excerpt,
+        description: description,
+        openGraph: {
+            title: post.title,
+            description: description,
+            type: 'article',
+            publishedTime: post.date,
+            authors: [post.manualContent?.author || 'Dr. Carlos M.'],
+            images: [post.manualContent?.image || '/images/blog/lab-generic.jpg'],
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title: post.title,
+            description: description,
+        }
     };
 }
 
-export default function BlogPostPage({ params }: BlogPostPageProps) {
-    const post = blogPosts.find(p => p.slug === params.slug);
+// Function to read markdown content from file system
+async function getPostContent(slug: string, year: string) {
+    try {
+        const filePath = path.join(process.cwd(), 'src/data/blog/posts', year, `${slug}.md`);
+        if (fs.existsSync(filePath)) {
+            const fileContent = fs.readFileSync(filePath, 'utf-8');
+            // Remove frontmatter if present (simple regex)
+            return fileContent.replace(/---[\s\S]*?---/, '').trim();
+        }
+    } catch (error) {
+        console.error(`Error reading file for slug ${slug}:`, error);
+    }
+    return null;
+}
+
+export default async function BlogPostPage({ params }: BlogPostPageProps) {
+    const post = getBlogPostBySlug(params.slug);
 
     if (!post) {
         notFound();
     }
 
+    let content = "";
+    let excerpt = "";
+    let author = { name: "Dr. Carlos M.", role: "Director Médico", avatar: "/images/blog/authors/dr-carlos.jpg" };
+    let image = "/images/blog/default-medical.jpg"; // Default image
+    let readTime = 5; // Default read time
+
+    const categoryImages: Record<string, string> = {
+        'Salud Cardiovascular': '/images/blog/cardio-default.jpg',
+        'Salud de la Mujer': '/images/blog/mujer-default.jpg',
+        'Salud del Hombre': '/images/blog/hombre-default.jpg',
+        'Nutrición y Vitaminas': '/images/blog/nutricion-default.jpg',
+        'Análisis Clínicos': '/images/blog/microscope-default.jpg',
+    };
+
+    if (post.isManual && post.manualContent) {
+        content = post.manualContent.content;
+        excerpt = post.manualContent.excerpt;
+        author = {
+            name: post.manualContent.author,
+            role: "Colaborador Médico", // Default role for manual posts
+            avatar: "/images/blog/authors/default-doctor.jpg"
+        };
+        image = post.manualContent.image;
+        readTime = post.manualContent.readTime;
+    } else {
+        // Load from FS
+        const year = post.date.split('-')[0];
+        const fsContent = await getPostContent(post.slug, year);
+
+        if (fsContent) {
+            content = fsContent;
+            excerpt = `Descubre todo sobre ${post.title}. ${post.category} - Laboratorio Del Bienestar.`;
+        } else {
+            // Fallback if file not generated yet
+            content = `## Próximamente\n\nEstamos preparando este artículo sobre **${post.title}** para ti. ¡Vuelve pronto!`;
+            excerpt = `Próximamente: Artículo sobre ${post.title}.`;
+        }
+
+        // Select image based on category
+        if (categoryImages[post.category]) {
+            image = categoryImages[post.category];
+        } else {
+            image = '/images/blog/lab-generic.jpg';
+        }
+    }
+
     const relatedPosts = getRelatedPosts(post.id, 3);
 
-    const date = new Date(post.publishDate);
+    const date = new Date(post.date); // Use 'date' property from calendar
     const formattedDate = date.toLocaleDateString('es-MX', {
         year: 'numeric',
         month: 'long',
@@ -54,7 +160,7 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
             {/* Hero Image */}
             <div className="relative h-96 bg-gray-900">
                 <Image
-                    src={post.image}
+                    src={image}
                     alt={post.title}
                     fill
                     className="object-cover opacity-60"
@@ -86,11 +192,11 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
                             </div>
                             <div className="flex items-center gap-2">
                                 <Clock size={16} />
-                                <span>{post.readTime} minutos de lectura</span>
+                                <span>{readTime} minutos de lectura</span>
                             </div>
                             <div className="flex items-center gap-2">
                                 <BookOpen size={16} />
-                                <span>{post.author}</span>
+                                <span>{author.name}</span>
                             </div>
                         </div>
                     </div>
@@ -102,7 +208,7 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
                 {/* Excerpt */}
                 <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-lg mb-8">
                     <p className="text-lg text-gray-800 leading-relaxed">
-                        {post.excerpt}
+                        {excerpt}
                     </p>
                 </div>
 
@@ -127,19 +233,20 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
                             ),
                         }}
                     >
-                        {post.content}
+                        {content}
                     </ReactMarkdown>
                 </article>
 
                 {/* Tags */}
-                {post.tags.length > 0 && (
+                {/* Fallback tags if not present in calendar but present in manual */}
+                {(post.isManual && post.manualContent?.tags?.length > 0) && (
                     <div className="mb-12">
                         <h3 className="text-lg font-semibold text-gray-900 mb-4 flex items-center gap-2">
                             <Tag size={20} />
                             Etiquetas
                         </h3>
                         <div className="flex flex-wrap gap-3">
-                            {post.tags.map(tag => (
+                            {post.manualContent.tags.map(tag => (
                                 <span
                                     key={tag}
                                     className="px-4 py-2 bg-gray-100 text-gray-700 rounded-full text-sm hover:bg-gray-200 transition-colors"
@@ -152,7 +259,7 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
                 )}
 
                 {/* Related Studies */}
-                {post.relatedStudies.length > 0 && (
+                {(post as any).relatedStudies?.length > 0 && (
                     <div className="mb-12 bg-green-50 rounded-2xl p-8">
                         <h3 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
                             <TestTube className="text-green-900" size={24} />
@@ -162,7 +269,7 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
                             Estos análisis de laboratorio están directamente relacionados con el tema:
                         </p>
                         <div className="grid md:grid-cols-2 gap-4">
-                            {post.relatedStudies.map(studySlug => (
+                            {(post as any).relatedStudies?.map((studySlug: string) => (
                                 <Link
                                     key={studySlug}
                                     href={`/estudios/${studySlug}`}
@@ -195,6 +302,37 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
                             {relatedPosts.map(relatedPost => (
                                 <BlogCard key={relatedPost.id} post={relatedPost} />
                             ))}
+                            {/* JSON-LD Schema */}
+                            <script
+                                type="application/ld+json"
+                                dangerouslySetInnerHTML={{
+                                    __html: JSON.stringify({
+                                        '@context': 'https://schema.org',
+                                        '@type': 'Article',
+                                        headline: post.title,
+                                        description: excerpt,
+                                        image: [image],
+                                        author: {
+                                            '@type': 'Person',
+                                            name: author.name,
+                                        },
+                                        publisher: {
+                                            '@type': 'Organization',
+                                            name: 'Laboratorio Del Bienestar',
+                                            logo: {
+                                                '@type': 'ImageObject',
+                                                url: 'https://laboratorio.delbienestar.com.mx/images/logo.png', // Ensure this path is correct or generic
+                                            },
+                                        },
+                                        datePublished: post.date,
+                                        dateModified: post.date, // Assuming modify date is same as publish for now
+                                        mainEntityOfPage: {
+                                            '@type': 'WebPage',
+                                            '@id': `https://laboratorio.delbienestar.com.mx/blog/${post.slug}`,
+                                        },
+                                    }),
+                                }}
+                            />
                         </div>
                     </div>
                 )}
@@ -215,6 +353,6 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
                     </Link>
                 </div>
             </div>
-        </div>
+        </div >
     );
 }
