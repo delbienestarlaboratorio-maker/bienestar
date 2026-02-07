@@ -213,6 +213,101 @@ export default function Home() {
           </div>
         </div>
 
+        {/* Sección de Más Servicios - NUEVA */}
+        <div className="bg-gradient-to-b from-gray-50 to-white py-16 px-4">
+          <div className="max-w-6xl mx-auto">
+            {/* Título de la Sección */}
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">
+                Más Servicios
+              </h2>
+              <p className="text-lg text-gray-600">
+                Descubre todo lo que tenemos para ti
+              </p>
+            </div>
+
+            {/* Grid de 3 Servicios */}
+            <div className="grid md:grid-cols-3 gap-8">
+
+              {/* Blog de Salud */}
+              <Link
+                href="/blog"
+                className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all hover:-translate-y-2 overflow-hidden"
+              >
+                <div className="p-8">
+                  <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4 group-hover:bg-blue-200 transition-colors">
+                    <span className="text-3xl">📚</span>
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-3">
+                    Blog de Salud
+                  </h3>
+                  <p className="text-gray-600 mb-4">
+                    200+ artículos sobre análisis clínicos, prevención y bienestar
+                  </p>
+                  <div className="flex items-center text-blue-600 font-semibold group-hover:text-blue-700">
+                    Explorar artículos
+                    <svg className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </div>
+                </div>
+                <div className="h-2 bg-gradient-to-r from-blue-500 to-blue-600" />
+              </Link>
+
+              {/* Check-Ups */}
+              <Link
+                href="/check-ups"
+                className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all hover:-translate-y-2 overflow-hidden"
+              >
+                <div className="p-8">
+                  <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-4 group-hover:bg-green-200 transition-colors">
+                    <span className="text-3xl">✅</span>
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-3">
+                    Check-Ups
+                  </h3>
+                  <p className="text-gray-600 mb-4">
+                    8 paquetes médicos diseñados para tu salud preventiva
+                  </p>
+                  <div className="flex items-center text-green-600 font-semibold group-hover:text-green-700">
+                    Ver paquetes
+                    <svg className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </div>
+                </div>
+                <div className="h-2 bg-gradient-to-r from-green-500 to-green-600" />
+              </Link>
+
+              {/* Sueroterapia */}
+              <Link
+                href="/sueroterapia"
+                className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all hover:-translate-y-2 overflow-hidden"
+              >
+                <div className="p-8">
+                  <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-4 group-hover:bg-purple-200 transition-colors">
+                    <span className="text-3xl">💉</span>
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-3">
+                    Sueroterapia
+                  </h3>
+                  <p className="text-gray-600 mb-4">
+                    10 tratamientos IV vitamínicos para energía, belleza y bienestar
+                  </p>
+                  <div className="flex items-center text-purple-600 font-semibold group-hover:text-purple-700">
+                    Conocer tratamientos
+                    <svg className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </div>
+                </div>
+                <div className="h-2 bg-gradient-to-r from-purple-500 to-purple-600" />
+              </Link>
+
+            </div>
+          </div>
+        </div>
+
         {/* Sección de Información Mínima */}
         <div className="bg-gray-50 py-12 px-4">
           <div className="max-w-4xl mx-auto text-center">
