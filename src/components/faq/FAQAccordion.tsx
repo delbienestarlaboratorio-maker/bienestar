@@ -45,7 +45,7 @@ export const FAQAccordion = ({ faq, isOpen, onToggle }: FAQAccordionProps) => {
 
         // Guardar en localStorage
         const votes = JSON.parse(localStorage.getItem('faq-votes') || '{}');
-        votes[f.id] = type;
+        votes[faq.id] = type;
         localStorage.setItem('faq-votes', JSON.stringify(votes));
     };
 
@@ -140,8 +140,8 @@ export const FAQAccordion = ({ faq, isOpen, onToggle }: FAQAccordionProps) => {
                                 onClick={() => handleVote('helpful')}
                                 disabled={hasVoted}
                                 className={`flex items-center gap-1 px-3 py-1.5 rounded-lg transition-all ${voteType === 'helpful'
-                                        ? 'bg-green-100 text-green-900 font-semibold'
-                                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                                    ? 'bg-green-100 text-green-900 font-semibold'
+                                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                                     } disabled:cursor-not-allowed`}
                             >
                                 <span>👍</span>
@@ -151,8 +151,8 @@ export const FAQAccordion = ({ faq, isOpen, onToggle }: FAQAccordionProps) => {
                                 onClick={() => handleVote('not-helpful')}
                                 disabled={hasVoted}
                                 className={`flex items-center gap-1 px-3 py-1.5 rounded-lg transition-all ${voteType === 'not-helpful'
-                                        ? 'bg-red-100 text-red-900 font-semibold'
-                                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                                    ? 'bg-red-100 text-red-900 font-semibold'
+                                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                                     } disabled:cursor-not-allowed`}
                             >
                                 <span>👎</span>
