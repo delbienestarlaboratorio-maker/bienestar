@@ -6,6 +6,9 @@ export const metadata = {
     description: 'Aviso de Privacidad conforme a la Ley Federal de Protección de Datos Personales en Posesión de Particulares y normativas de COFEPRIS.',
 };
 
+// Force rebuild - 2026-02-08
+console.log('Privacidad page loaded');
+
 export default function PrivacidadPage() {
     return (
         <div className="min-h-screen bg-gray-50">
