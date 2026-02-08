@@ -7,6 +7,9 @@ export const metadata = {
     description: 'Solicita tu factura electrónica CFDI 4.0. Proceso rápido y seguro. Recibe tu factura en 24-48 horas.',
 };
 
+// Force rebuild - 2026-02-08
+console.log('Facturacion page loaded');
+
 export default function FacturacionPage() {
     return (
         <div className="min-h-screen bg-gray-50">

@@ -6,6 +6,9 @@ export const metadata = {
     description: 'Términos y Condiciones de Uso del sitio web y servicios de Laboratorio Del Bienestar. Derechos y obligaciones de los usuarios.',
 };
 
+// Force rebuild - 2026-02-08
+console.log('Terminos page loaded');
+
 export default function TerminosPage() {
     return (
         <div className="min-h-screen bg-gray-50">
