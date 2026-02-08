@@ -209,7 +209,7 @@ export const faqs: FAQ[] = [
         shortAnswer: 'Sí, siempre que respete protocolos sanitarios.',
         longAnswer: 'Sí, puedes venir acompañado. Solo pedimos que tu acompañante **use cubrebocas** si presenta síntomas respiratorios y respete las medidas sanitarias del laboratorio.',
         relatedStudies: [],
-        helpfulness: 201,
+        helpfulVotes: 201,
         notHelpfulVotes: 9,
         tags: ['acompañante', 'familia'],
     },

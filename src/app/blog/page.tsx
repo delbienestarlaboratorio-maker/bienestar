@@ -23,6 +23,11 @@ export default function BlogPage() {
 
     const [filteredPosts, setFilteredPosts] = useState(normalizedPosts);
 
+    // Handler function to fix type mismatch with BlogFilters
+    const handleFilterChange = (filtered: any[]) => {
+        setFilteredPosts(filtered);
+    };
+
     // Get featured posts
     const featuredPosts = normalizedPosts.filter(post => post.featured).slice(0, 2);
 
@@ -108,7 +113,7 @@ export default function BlogPage() {
                 {/* Filters */}
                 <BlogFilters
                     posts={normalizedPosts as any}
-                    onFilterChange={setFilteredPosts}
+                    onFilterChange={handleFilterChange}
                 />
 
                 {/* All Articles Grid */}
