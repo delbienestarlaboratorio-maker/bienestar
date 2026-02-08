@@ -1,0 +1,52 @@
+{
+    "buildCommand": "npm run build",
+    "devCommand": "npm run dev",
+    "installCommand": "npm install",
+    "framework": "nextjs",
+    "outputDirectory": ".next",
+    "regions": [
+        "iad1"
+    ],
+    "env": {
+        "NEXT_PUBLIC_APP_URL": "https://laboratorio.delbienestar.com.mx"
+    },
+    "build": {
+        "env": {
+            "NODE_ENV": "production",
+            "NEXT_TELEMETRY_DISABLED": "1"
+        }
+    },
+    "headers": [
+        {
+            "source": "/(.*)",
+            "headers": [
+                {
+                    "key": "X-Content-Type-Options",
+                    "value": "nosniff"
+                },
+                {
+                    "key": "X-Frame-Options",
+                    "value": "DENY"
+                },
+                {
+                    "key": "X-XSS-Protection",
+                    "value": "1; mode=block"
+                }
+            ]
+        }
+    ],
+    "rewrites": [
+        {
+            "source": "/privacidad",
+            "destination": "/privacidad"
+        },
+        {
+            "source": "/terminos",
+            "destination": "/terminos"
+        },
+        {
+            "source": "/facturacion",
+            "destination": "/facturacion"
+        }
+    ]
+}
