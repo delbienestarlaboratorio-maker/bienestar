@@ -44,6 +44,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ];
 
     // 2. Dynamic Study Routes (Database)
+    // TEMPORARY: Disabled DB query during build to allow Vercel deployment
+    // TODO: Re-enable after setting up Vercel environment variables for DATABASE_URL
+    /*
     const activeStudies = await db
         .select({
             slug: studies.slug,
@@ -58,6 +61,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         changeFrequency: 'weekly',
         priority: 0.7,
     }));
+    */
+
+    // Temporary: Empty array until DB is accessible in Vercel
+    const studyRoutes: MetadataRoute.Sitemap = [];
 
     // 3. Dynamic Package Routes (Data file)
     // Note: If you have individual pages for packages (e.g. /paquetes/check-up-basico), add them here.
