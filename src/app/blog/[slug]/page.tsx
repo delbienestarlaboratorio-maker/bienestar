@@ -84,7 +84,7 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
 // Function to read markdown content from file system
 async function getPostContent(slug: string, year: string) {
     try {
-        const filePath = path.join(process.cwd(), 'src/data/blog/posts', year, `${slug}.md`);
+        const filePath = path.join(process.cwd(), 'public/blog/posts', year, `${slug}.md`);
         if (fs.existsSync(filePath)) {
             const fileContent = fs.readFileSync(filePath, 'utf-8');
             // Remove frontmatter if present (simple regex)
