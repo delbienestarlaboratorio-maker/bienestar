@@ -9,6 +9,9 @@ import ReactMarkdown from 'react-markdown';
 import fs from 'fs';
 import path from 'path';
 
+// Allow on-demand rendering for slugs not pre-built
+export const dynamicParams = true;
+
 interface BlogPostPageProps {
     params: {
         slug: string;
