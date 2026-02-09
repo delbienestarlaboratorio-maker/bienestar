@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { Search, MapPin, TestTube, Calendar } from 'lucide-react';
 import { SearchBar } from '@/components/ui/SearchBar';
-import { Testimonials } from '@/components/social/Testimonials';
+import { TestimonialsCarousel } from '@/components/social/TestimonialsCarousel';
 
 export default function Home() {
   return (
@@ -338,7 +338,7 @@ export default function Home() {
         {/* Testimonials Section */}
         <div className="py-20 px-4 bg-gray-50">
           <div className="max-w-7xl mx-auto">
-            <Testimonials limit={3} showRating={true} />
+            <TestimonialsCarousel itemsToShow={3} autoPlay={true} interval={5000} />
           </div>
         </div>
 
