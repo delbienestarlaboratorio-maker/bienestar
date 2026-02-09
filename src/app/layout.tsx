@@ -59,6 +59,7 @@ import { AnalyticsProvider } from "@/components/analytics/AnalyticsProvider";
 import { AuthProvider } from "@/components/providers/AuthProvider";
 import { CartProvider } from "@/contexts/CartContext";
 import { CookieConsent } from "@/components/privacy/CookieConsent";
+import { OrganizationSchema, LocalBusinessSchema } from "@/components/seo/SchemaMarkup";
 
 export default function RootLayout({
   children,
@@ -67,6 +68,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
+      <head>
+        <OrganizationSchema />
+        <LocalBusinessSchema />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

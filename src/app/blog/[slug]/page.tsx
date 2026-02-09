@@ -7,6 +7,7 @@ import { getAllBlogPosts, getBlogPostBySlug } from '@/data/blog'; // Import new 
 import { BlogCard } from '@/components/blog/BlogCard';
 import ReactMarkdown from 'react-markdown';
 import { getBlogContent } from '@/data/blog/content-map';
+import { ArticleSchema } from '@/components/seo/SchemaMarkup';
 
 // Allow on-demand rendering for slugs not pre-built
 export const dynamicParams = true;
@@ -149,6 +150,16 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
     return (
         <div className="min-h-screen bg-gray-50">
+            {/* Article Schema for SEO */}
+            <ArticleSchema
+                title={post.title}
+                description={excerpt || `Artículo sobre ${post.title}`}
+                datePublished={post.date}
+                image={image}
+                url={`https://laboratorio.delbienestar.com.mx/blog/${slug}`}
+                keywords={post.keywords || []}
+            />
+
             {/* Hero Image */}
             <div className="relative h-96 bg-gray-900">
                 <Image
