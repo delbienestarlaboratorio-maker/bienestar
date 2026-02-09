@@ -335,6 +335,13 @@ export default function Home() {
           </div>
         </div>
 
+        {/* Testimonials Section */}
+        <div className="py-20 px-4 bg-gray-50">
+          <div className="max-w-7xl mx-auto">
+            <Testimonials limit={3} showRating={true} />
+          </div>
+        </div>
+
         {/* CTA WhatsApp - MUY SIMPLE */}
         <div className="bg-white py-16 px-4">
           <div className="max-w-2xl mx-auto text-center">
