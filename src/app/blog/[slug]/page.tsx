@@ -12,9 +12,9 @@ import { getBlogContent } from '@/data/blog/content-map';
 export const dynamicParams = true;
 
 interface BlogPostPageProps {
-    params: {
+    params: Promise<{
         slug: string;
-    };
+    }>;
 }
 
 export async function generateStaticParams() {
@@ -25,7 +25,8 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: BlogPostPageProps) {
-    const post = getBlogPostBySlug(params.slug);
+    const { slug } = await params;
+    const post = getBlogPostBySlug(slug);
 
     if (!post) {
         return {
@@ -85,7 +86,8 @@ function getPostContent(slug: string): string | null {
 }
 
 export default async function BlogPostPage({ params }: BlogPostPageProps) {
-    const post = getBlogPostBySlug(params.slug);
+    const { slug } = await params;
+    const post = getBlogPostBySlug(slug);
 
     if (!post) {
         notFound();
