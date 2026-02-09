@@ -6,8 +6,7 @@ import { getRelatedPosts } from '@/data/blog-posts';
 import { getAllBlogPosts, getBlogPostBySlug } from '@/data/blog'; // Import new helpers
 import { BlogCard } from '@/components/blog/BlogCard';
 import ReactMarkdown from 'react-markdown';
-import fs from 'fs';
-import path from 'path';
+import { getBlogContent } from '@/data/blog/content-map';
 
 // Allow on-demand rendering for slugs not pre-built
 export const dynamicParams = true;
@@ -38,8 +37,7 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
 
     // Try to get dynamic description from content
     if (!post.isManual) {
-        const year = post.date.split('-')[0];
-        const content = await getPostContent(post.slug, year);
+        const content = getPostContent(post.slug);
 
         if (content) {
             // Try to extract Resumen
@@ -81,19 +79,9 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
     };
 }
 
-// Function to read markdown content from file system
-async function getPostContent(slug: string, year: string) {
-    try {
-        const filePath = path.join(process.cwd(), 'public/blog/posts', year, `${slug}.md`);
-        if (fs.existsSync(filePath)) {
-            const fileContent = fs.readFileSync(filePath, 'utf-8');
-            // Remove frontmatter if present (simple regex)
-            return fileContent.replace(/---[\s\S]*?---/, '').trim();
-        }
-    } catch (error) {
-        console.error(`Error reading file for slug ${slug}:`, error);
-    }
-    return null;
+// Get blog content from the pre-built content map (works on Vercel)
+function getPostContent(slug: string): string | null {
+    return getBlogContent(slug);
 }
 
 export default async function BlogPostPage({ params }: BlogPostPageProps) {
@@ -128,9 +116,8 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         image = post.manualContent.image;
         readTime = post.manualContent.readTime;
     } else {
-        // Load from FS
-        const year = post.date.split('-')[0];
-        const fsContent = await getPostContent(post.slug, year);
+        // Load from content map
+        const fsContent = getPostContent(post.slug);
 
         if (fsContent) {
             content = fsContent;
