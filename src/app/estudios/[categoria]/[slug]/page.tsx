@@ -24,6 +24,10 @@ import { SchemaMarkup } from '@/lib/seo/schema-markup';
 import { RelatedStudies } from '@/components/studies/RelatedStudies';
 import { ComplementaryStudies } from '@/components/studies/ComplementaryStudies';
 
+// TESTIMONIALS
+import { StudyTestimonials } from '@/components/testimonials/StudyTestimonials';
+import { mapStudyCategoryToReviewCategory } from '@/data/testimonials/categories';
+
 interface PageProps {
     params: Promise<{
         categoria: string;
@@ -306,6 +310,12 @@ export default async function StudyDetailPage({ params }: PageProps) {
                                     </li>
                                 </ul>
                             </div>
+
+                            {/* Patient Testimonials */}
+                            <StudyTestimonials
+                                studyCategory={mapStudyCategoryToReviewCategory(categoria)}
+                                studyName={study.name}
+                            />
 
                             <StudyTracker study={mappedStudy as any} categoryName={categoryName} />
 
