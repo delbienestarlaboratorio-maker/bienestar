@@ -8,6 +8,7 @@ import { BlogCard } from '@/components/blog/BlogCard';
 import ReactMarkdown from 'react-markdown';
 import { getBlogContent } from '@/data/blog/content-map';
 import { ArticleSchema } from '@/components/seo/SchemaMarkup';
+import { SocialShare } from '@/components/social/SocialShare';
 
 // Allow on-demand rendering for slugs not pre-built
 export const dynamicParams = true;
@@ -260,6 +261,15 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                         </div>
                     </div>
                 )}
+
+                {/* Social Sharing */}
+                <div className="border-t border-b border-gray-200 py-8 my-12">
+                    <SocialShare
+                        url={`/blog/${slug}`}
+                        title={post.title}
+                        description={excerpt || `Artículo sobre ${post.title}`}
+                    />
+                </div>
 
                 {/* Related Studies */}
                 {(post as any).relatedStudies?.length > 0 && (

@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { Search, MapPin, TestTube, Calendar } from 'lucide-react';
 import { SearchBar } from '@/components/ui/SearchBar';
+import { Testimonials } from '@/components/social/Testimonials';
 
 export default function Home() {
   return (
