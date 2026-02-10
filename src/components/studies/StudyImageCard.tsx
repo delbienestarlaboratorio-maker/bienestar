@@ -1,6 +1,5 @@
 'use client';
 
-import Image from 'next/image';
 import { useState, useEffect } from 'react';
 
 interface StudyImageProps {
@@ -77,45 +76,47 @@ function detectStudyType(studyName: string): string {
     return 'default';
 }
 
-export function StudyImageCard({ studyName, studyType, className = '' }: StudyImageProps) {
-    // 1. Determinar imagen específica del estudio
-    const studySlug = slugify(studyName);
-    const uniqueImagePath = `/images/studies/${studySlug}.png`;
+// Only these studies have dedicated images
+const STUDIES_WITH_IMAGES = new Set([
+    'biometria-hematica',
+    'examen-general-orina-premium',
+    'examen-general-orina',
+    'quimica-sanguinea'
+]);
 
-    // 2. Determinar imagen de respaldo (categoría)
+export function StudyImageCard({ studyName, studyType, className = '' }: StudyImageProps) {
+    const studySlug = slugify(studyName);
+    const hasUniqueImage = STUDIES_WITH_IMAGES.has(studySlug);
+
+    // Use category image by default unless the study has a dedicated image
     const type = studyType || detectStudyType(studyName);
     const categoryImagePath = STUDY_CATEGORY_IMAGES[type] || STUDY_CATEGORY_IMAGES['default'];
+    const initialImage = hasUniqueImage ? `/images/studies/${studySlug}.png` : categoryImagePath;
 
-    // Estado para manejar el error de carga y cambiar al fallback
-    const [imgSrc, setImgSrc] = useState(uniqueImagePath);
-    const [hasError, setHasError] = useState(false);
+    const [imgSrc, setImgSrc] = useState(initialImage);
 
-    // Si cambia el nombre del estudio, reseteamos para intentar cargar la imagen única de nuevo
     useEffect(() => {
-        setImgSrc(`/images/studies/${slugify(studyName)}.png`);
-        setHasError(false);
-    }, [studyName]);
+        const slug = slugify(studyName);
+        const hasImage = STUDIES_WITH_IMAGES.has(slug);
+        const detectedType = studyType || detectStudyType(studyName);
+        const fallback = STUDY_CATEGORY_IMAGES[detectedType] || STUDY_CATEGORY_IMAGES['default'];
+        setImgSrc(hasImage ? `/images/studies/${slug}.png` : fallback);
+    }, [studyName, studyType]);
 
-    // Truncar nombre si es muy largo
     const displayName = studyName.length > 40
         ? studyName.substring(0, 37) + '...'
         : studyName;
 
     return (
         <div className={`relative w-full h-full rounded-lg overflow-hidden shadow-md ${className}`}>
-            <Image
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
                 src={imgSrc}
                 alt={studyName}
-                fill
-                className="object-cover transition-opacity duration-300"
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                priority={false}
+                className="absolute inset-0 w-full h-full object-cover transition-opacity duration-300"
+                loading="lazy"
                 onError={() => {
-                    // Si falla la imagen única, usar la de categoría
-                    if (!hasError) {
-                        setImgSrc(categoryImagePath);
-                        setHasError(true);
-                    }
+                    setImgSrc(categoryImagePath);
                 }}
             />
 

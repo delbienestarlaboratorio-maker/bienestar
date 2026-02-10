@@ -47,8 +47,11 @@ export function RelatedStudies({
     const fetchRelatedStudies = async () => {
         try {
             setLoading(true);
-            const typeParam = type !== 'all' ? `?type=${type}` : '';
-            const response = await fetch(`/api/studies/${studyId}/related${typeParam}&limit=${limit}`);
+            const params = new URLSearchParams();
+            if (type !== 'all') params.set('type', type);
+            params.set('limit', String(limit));
+            const queryString = params.toString();
+            const response = await fetch(`/api/studies/${studyId}/related?${queryString}`);
 
             if (!response.ok) throw new Error('Failed to fetch related studies');
 
