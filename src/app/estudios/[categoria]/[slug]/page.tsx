@@ -234,40 +234,44 @@ export default async function StudyDetailPage({ params }: PageProps) {
                             </div>
                         </div>
 
-                        {/* NEW: Study Tabs Component (organizes all content) */}
-                        <StudyTabs
-                            study={{
-                                id: study.id,
-                                name: study.name,
-                                description: study.description || '',
-                                whatIsIt: study.whatIsIt || undefined,
-                                whatDoesItDetect: mappedStudy.whatDoesItDetect || undefined,
-                                benefits: mappedStudy.benefits || undefined,
-                                preparation: study.preparation || undefined,
-                                detailedPreparation: mappedStudy.detailedPreparation || undefined,
-                                included: mappedStudy.included || undefined,
-                                faqs: mappedStudy.faqs || undefined,
-                                turnaroundTime: study.turnaroundTime || undefined
-                            } as any}
-                        />
+                        {/* TEMPORARILY DISABLED - React #310 and #418 errors
+                        <StudyTabs />
+                        <PriceComparison />
+                        <RecommendedPanels />
+                        <RelatedStudies />
+                        <ComplementaryStudies />
+                        */}
 
-                        {/* NEW: Price Comparison vs Competitors */}
-                        <PriceComparison
-                            ourPrice={study.pricePromotional || study.priceRegular}
-                            studyName={study.name}
-                        />
+                        {/* Simple Content Display */}
+                        <div className="space-y-6">
+                            {study.whatIsIt && (
+                                <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                                    <h2 className="text-2xl font-bold text-gray-900 mb-4">¿Qué es?</h2>
+                                    <p className="text-gray-600 leading-relaxed">{study.whatIsIt}</p>
+                                </div>
+                            )}
 
-                        {/* NEW: Recommended Panels (from Phase 2) */}
-                        <RecommendedPanels studyId={study.id} />
+                            {study.preparation && (
+                                <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                                    <h2 className="text-2xl font-bold text-gray-900 mb-4">Preparación</h2>
+                                    <p className="text-gray-600 leading-relaxed whitespace-pre-line">{study.preparation}</p>
+                                </div>
+                            )}
 
-                        {/* NEW: Related Studies from API (Phase 2) */}
-                        <RelatedStudies studyId={study.id} />
-
-                        {/* NEW: Complementary Studies with Medical Reasoning (Phase 3) */}
-                        <ComplementaryStudies
-                            studyId={study.id}
-                            studyName={study.name}
-                        />
+                            {mappedStudy.benefits && Array.isArray(mappedStudy.benefits) && mappedStudy.benefits.length > 0 && (
+                                <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                                    <h2 className="text-2xl font-bold text-gray-900 mb-4">Beneficios</h2>
+                                    <ul className="space-y-2">
+                                        {mappedStudy.benefits.map((benefit: string, index: number) => (
+                                            <li key={index} className="flex gap-2 text-gray-600">
+                                                <CheckCircle size={20} className="text-green-500 shrink-0 mt-0.5" />
+                                                {benefit}
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </div>
+                            )}
+                        </div>
                     </div>
 
                     {/* Sidebar / Pricing */}
@@ -322,11 +326,9 @@ export default async function StudyDetailPage({ params }: PageProps) {
                                 </ul>
                             </div>
 
-                            {/* Patient Testimonials */}
-                            <StudyTestimonials
-                                studyCategory={mapStudyCategoryToReviewCategory(categoria)}
-                                studyName={study.name}
-                            />
+                            {/* TEMPORARILY DISABLED - React errors
+                            <StudyTestimonials />
+                            */}
 
                             <StudyTracker study={mappedStudy as any} categoryName={categoryName} />
 
