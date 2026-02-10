@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import { analytics } from '@/lib/analytics';
 import type { Study } from '@/data/studies';
 
@@ -10,11 +10,16 @@ interface StudyTrackerProps {
 }
 
 export function StudyTracker({ study, categoryName }: StudyTrackerProps) {
+    const hasTracked = useRef(false);
+
     useEffect(() => {
-        // Track study view
+        // Only track once on mount
+        if (hasTracked.current) return;
+        hasTracked.current = true;
+
         const price = study.price.promotional || study.price.regular;
         analytics.viewStudy(study.name, categoryName, price);
-    }, [study, categoryName]);
+    }, []); // Empty deps - only run once
 
     const handleAppointmentClick = () => {
         const price = study.price.promotional || study.price.regular;
