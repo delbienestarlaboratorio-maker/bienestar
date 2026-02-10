@@ -13,10 +13,11 @@ import { StudyTracker } from '@/components/analytics/StudyTracker';
 import { StudyImageCard } from '@/components/studies/StudyImageCard';
 import { getStudyVisualType } from '@/lib/studyTypeClassifier';
 
-// NEW PHASE 1 & 2 COMPONENTS
-import { DynamicPrice } from '@/components/pricing/DynamicPrice';
+// NEW PHASE 3 - Client-only components (via wrapper)
+import { DynamicPrice, UrgencyIndicators } from '@/components/pricing/ClientComponents';
+
+// Standard imports
 import { PriceComparison } from '@/components/pricing/PriceComparison';
-import { UrgencyIndicators } from '@/components/pricing/UrgencyIndicators';
 import { RecommendedPanels } from '@/components/studies/RecommendedPanels';
 import { StudyTabs } from '@/components/studies/StudyTabs';
 import { Breadcrumbs } from '@/components/seo/Breadcrumbs';
@@ -234,52 +235,28 @@ export default async function StudyDetailPage({ params }: PageProps) {
                             </div>
                         </div>
 
-                        {/* TEMPORARILY DISABLED - React #310 and #418 errors
-                        <StudyTabs />
-                        <PriceComparison />
-                        <RecommendedPanels />
-                        <RelatedStudies />
-                        <ComplementaryStudies />
-                        */}
-
-                        {/* Simple Content Display */}
-                        <div className="space-y-6">
-                            {study.whatIsIt && (
-                                <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                                    <h2 className="text-2xl font-bold text-gray-900 mb-4">¿Qué es?</h2>
-                                    <p className="text-gray-600 leading-relaxed">{study.whatIsIt}</p>
-                                </div>
-                            )}
-
-                            {study.preparation && (
-                                <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                                    <h2 className="text-2xl font-bold text-gray-900 mb-4">Preparación</h2>
-                                    <p className="text-gray-600 leading-relaxed whitespace-pre-line">{study.preparation}</p>
-                                </div>
-                            )}
-
-                            {mappedStudy.benefits && Array.isArray(mappedStudy.benefits) && mappedStudy.benefits.length > 0 && (
-                                <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                                    <h2 className="text-2xl font-bold text-gray-900 mb-4">Beneficios</h2>
-                                    <ul className="space-y-2">
-                                        {mappedStudy.benefits.map((benefit: string, index: number) => (
-                                            <li key={index} className="flex gap-2 text-gray-600">
-                                                <CheckCircle size={20} className="text-green-500 shrink-0 mt-0.5" />
-                                                {benefit}
-                                            </li>
-                                        ))}
-                                    </ul>
-                                </div>
-                            )}
-                        </div>
+                        {/* RE-ENABLED - StudyTabs is safe (no useEffect) */}
+                        <StudyTabs
+                            study={{
+                                id: study.id,
+                                name: study.name,
+                                description: study.description || '',
+                                whatIsIt: study.whatIsIt || undefined,
+                                whatDoesItDetect: mappedStudy.whatDoesItDetect || undefined,
+                                benefits: mappedStudy.benefits || undefined,
+                                preparation: study.preparation || undefined,
+                                detailedPreparation: mappedStudy.detailedPreparation || undefined,
+                                included: mappedStudy.included || undefined,
+                                faqs: mappedStudy.faqs || undefined,
+                                turnaroundTime: study.turnaroundTime || undefined
+                            } as any}
+                        />
 
                         {/* RE-ENABLED SAFE COMPONENTS - Only use primitive dependencies */}
-                        {/* DISABLED - PriceComparison causes #418 due to new Date()
                         <PriceComparison
                             ourPrice={study.pricePromotional || study.priceRegular}
                             studyName={study.name}
                         />
-                        */}
 
                         <RecommendedPanels studyId={study.id} />
 
@@ -294,7 +271,7 @@ export default async function StudyDetailPage({ params }: PageProps) {
                     {/* Sidebar / Pricing */}
                     <div className="lg:col-span-1">
                         <div className="sticky top-24 space-y-6">
-                            {/* TEMPORARILY DISABLED - Causing React #418 (hydration) and #310 (infinite loop) errors
+                            {/* RE-ENABLED with dynamic import (client-only) */}
                             <DynamicPrice
                                 studyId={study.id}
                                 studyName={study.name}
@@ -306,18 +283,6 @@ export default async function StudyDetailPage({ params }: PageProps) {
                                 showScarcity={true}
                                 showSocialProof={true}
                             />
-                            */}
-
-                            {/* Simple Price Display (temporary replacement) */}
-                            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                                <div className="text-center">
-                                    <p className="text-sm text-gray-500 mb-2">Precio</p>
-                                    <div className="text-4xl font-bold text-gray-900">
-                                        ${(study.pricePromotional || study.priceRegular).toLocaleString('es-MX')}
-                                    </div>
-                                    <p className="text-sm text-gray-500 mt-1">MXN</p>
-                                </div>
-                            </div>
 
                             <StudyActions study={mappedStudy as any} />
 
