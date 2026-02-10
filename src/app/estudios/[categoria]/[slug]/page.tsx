@@ -273,19 +273,30 @@ export default async function StudyDetailPage({ params }: PageProps) {
                     {/* Sidebar / Pricing */}
                     <div className="lg:col-span-1">
                         <div className="sticky top-24 space-y-6">
-                            {/* NEW: Dynamic Pricing Component (11 factors) */}
+                            {/* TEMPORARILY DISABLED - Causing React #418 (hydration) and #310 (infinite loop) errors
                             <DynamicPrice
                                 studyId={study.id}
                                 studyName={study.name}
                                 basePrice={study.priceRegular}
                             />
 
-                            {/* NEW: Urgency Indicators */}
                             <UrgencyIndicators
                                 showTimer={true}
                                 showScarcity={true}
                                 showSocialProof={true}
                             />
+                            */}
+
+                            {/* Simple Price Display (temporary replacement) */}
+                            <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                                <div className="text-center">
+                                    <p className="text-sm text-gray-500 mb-2">Precio</p>
+                                    <div className="text-4xl font-bold text-gray-900">
+                                        ${(study.pricePromotional || study.priceRegular).toLocaleString('es-MX')}
+                                    </div>
+                                    <p className="text-sm text-gray-500 mt-1">MXN</p>
+                                </div>
+                            </div>
 
                             <StudyActions study={mappedStudy as any} />
 
