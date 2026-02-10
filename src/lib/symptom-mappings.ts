@@ -438,6 +438,8 @@ export const symptomMappings: SymptomMapping[] = [
         studyNames: [
             'PERFIL HORMONAL',
             'TESTOSTERONA',
+            '17 ALFA',
+            'HIDROXIPROGESTERONA',
             'GLUCOSA',
             'INSULINA',
             'HEMOGLOBINA GLUCOSILADA',
