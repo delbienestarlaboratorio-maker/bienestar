@@ -207,7 +207,7 @@ export default async function StudyDetailPage({ params }: PageProps) {
                                     <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4 leading-tight">
                                         {study.name}
                                     </h1>
-                                    <p className="text-lg text-gray-600 leading-relaxed mb-6">
+                                    <p className="text-lg text-gray-600 leading-relaxed mb-6 whitespace-pre-line">
                                         {study.description}
                                     </p>
 
