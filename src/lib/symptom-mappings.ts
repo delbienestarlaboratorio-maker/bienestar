@@ -425,6 +425,30 @@ export const symptomMappings: SymptomMapping[] = [
     },
 
     // ============================================
+    // WOMEN'S HEALTH - PCOS
+    // ============================================
+    {
+        category: 'ovario_poliquistico',
+        keywords: [
+            'ovario', 'ovarios', 'poliquistico', 'poliquístico', 'poliquistica', 'poliquística',
+            'sop', 'pcos', 'quistes', 'regla', 'menstruacion', 'menstruación', 'irregular',
+            'ciclo', 'acne', 'acné', 'vello', 'hirsutismo', 'barba', 'bigote',
+            'periodo', 'irregulares', 'ausente', 'amenorrea', 'infertilidad'
+        ],
+        studyNames: [
+            'PERFIL HORMONAL',
+            'TESTOSTERONA',
+            'GLUCOSA',
+            'INSULINA',
+            'HEMOGLOBINA GLUCOSILADA',
+            'PERFIL DE LIPIDOS',
+            'QUIMICA SANGUINEA'
+        ],
+        message: 'El síndrome de ovario poliquístico requiere evaluación hormonal y metabólica completa. Estos estudios ayudarán a confirmar el diagnóstico y prevenir complicaciones.',
+        priority: 5
+    },
+
+    // ============================================
     // GENERAL CHECKUP
     // ============================================
     {
