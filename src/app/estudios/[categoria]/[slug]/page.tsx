@@ -272,6 +272,21 @@ export default async function StudyDetailPage({ params }: PageProps) {
                                 </div>
                             )}
                         </div>
+
+                        {/* RE-ENABLED SAFE COMPONENTS - Only use primitive dependencies */}
+                        <PriceComparison
+                            ourPrice={study.pricePromotional || study.priceRegular}
+                            studyName={study.name}
+                        />
+
+                        <RecommendedPanels studyId={study.id} />
+
+                        <RelatedStudies studyId={study.id} />
+
+                        <ComplementaryStudies
+                            studyId={study.id}
+                            studyName={study.name}
+                        />
                     </div>
 
                     {/* Sidebar / Pricing */}
