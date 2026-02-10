@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import {
     TrendingDown,
     Info,
@@ -34,20 +34,25 @@ export function DynamicPrice({
     const [timeLeft, setTimeLeft] = useState<number>(0);
 
     const visitorData = useVisitorTracking();
+    const visitorDataRef = useRef(visitorData);
+    visitorDataRef.current = visitorData;
+    const [initialized, setInitialized] = useState(false);
 
     useEffect(() => {
-        // Calcular precio personalizado
-        const factors = DynamicPricingEngine.fromVisitorData(visitorData);
+        if (initialized) return;
+        // Calculate personalized price only once on mount
+        const factors = DynamicPricingEngine.fromVisitorData(visitorDataRef.current);
         const calculation = pricingEngine.calculatePrice(basePrice, factors);
 
         setPriceCalc(calculation);
+        setInitialized(true);
 
-        // Notificar al componente padre
+        // Notify parent
         if (onPriceCalculated) {
             onPriceCalculated(calculation);
         }
 
-        // Track precio personalizado
+        // Track personalized pricing
         if (calculation.discountPercentage < 0) {
             pixelTracker.trackCustomEvent('PersonalizedPricing', {
                 study_id: studyId,
@@ -55,16 +60,16 @@ export function DynamicPrice({
                 base_price: basePrice,
                 final_price: calculation.finalPrice,
                 discount_percentage: Math.abs(calculation.discountPercentage),
-                visited_competitor: visitorData.visitedCompetitor,
-                competitor_name: visitorData.competitorName
+                visited_competitor: visitorDataRef.current.visitedCompetitor,
+                competitor_name: visitorDataRef.current.competitorName
             });
         }
 
-        // Inicializar timer de urgencia
+        // Initialize urgency timer
         if (calculation.urgency.show && calculation.urgency.timeLeft) {
             setTimeLeft(calculation.urgency.timeLeft);
         }
-    }, [visitorData, basePrice, studyId, studyName, onPriceCalculated]);
+    }, [basePrice, studyId, studyName, initialized, onPriceCalculated]);
 
     // Countdown timer
     useEffect(() => {
