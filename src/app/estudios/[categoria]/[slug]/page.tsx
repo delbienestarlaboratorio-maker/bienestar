@@ -274,10 +274,12 @@ export default async function StudyDetailPage({ params }: PageProps) {
                         </div>
 
                         {/* RE-ENABLED SAFE COMPONENTS - Only use primitive dependencies */}
+                        {/* DISABLED - PriceComparison causes #418 due to new Date()
                         <PriceComparison
                             ourPrice={study.pricePromotional || study.priceRegular}
                             studyName={study.name}
                         />
+                        */}
 
                         <RecommendedPanels studyId={study.id} />
 
