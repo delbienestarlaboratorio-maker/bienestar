@@ -192,13 +192,9 @@ export function PriceComparison({
                 </div>
             )}
 
-            {/* Last Updated */}
+            {/* Last Updated - Static to avoid hydration mismatch */}
             <p className="text-xs text-gray-500 dark:text-gray-400 text-center mt-4">
-                Precios actualizados: {new Date().toLocaleDateString('es-MX', {
-                    day: 'numeric',
-                    month: 'long',
-                    year: 'numeric'
-                })}
+                Precios actualizados diariamente
             </p>
         </div>
     );
