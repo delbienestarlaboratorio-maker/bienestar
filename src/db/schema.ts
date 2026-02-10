@@ -48,6 +48,7 @@ export const studies = pgTable('studies', {
     detailedPreparation: jsonb('detailed_preparation'),
     included: jsonb('included'),
     faqs: jsonb('faqs'),
+    reviews: jsonb('reviews'),
     searchTerms: jsonb('search_terms'),
     createdAt: timestamp('created_at').notNull().defaultNow(),
     updatedAt: timestamp('updated_at').notNull().defaultNow(),
