@@ -21,10 +21,10 @@ export const symptomMappings: SymptomMapping[] = [
             'colico', 'cólico', 'retorcijones', 'punzadas', 'ardor', 'acidez'
         ],
         studyNames: [
-            'Coprocultivo',
-            'Coproparasitoscópico',
-            'Helicobacter pylori',
-            'Sangre Oculta en Heces'
+            'COPROCULTIVO',
+            'COPROPARASITOSCOPICO',
+            'HELICOBACTER',
+            'SANGRE OCULTA'
         ],
         message: 'El dolor abdominal puede indicar infecciones bacterianas, parásitos intestinales o problemas digestivos como gastritis. Estos estudios ayudarán a identificar la causa.',
         priority: 5
@@ -36,9 +36,9 @@ export const symptomMappings: SymptomMapping[] = [
             'frecuentes', 'aguadas', 'suelto', 'descompostura', 'chorro', 'chorros'
         ],
         studyNames: [
-            'Coprocultivo',
-            'Coproparasitoscópico',
-            'Examen General de Heces'
+            'COPROCULTIVO',
+            'COPROPARASITOSCOPICO',
+            'EXAMEN GENERAL DE HECES'
         ],
         message: 'La diarrea persistente puede ser causada por bacterias, virus o parásitos. Es importante identificar el agente causante para un tratamiento adecuado.',
         priority: 5
@@ -50,9 +50,9 @@ export const symptomMappings: SymptomMapping[] = [
             'no evacuo', 'no hago', 'tapado', 'duro', 'difícil', 'evacuar'
         ],
         studyNames: [
-            'Examen General de Heces',
-            'Química Sanguínea',
-            'Perfil Tiroideo'
+            'EXAMEN GENERAL DE HECES',
+            'QUIMICA SANGUINEA',
+            'PERFIL TIROIDEO'
         ],
         message: 'El estreñimiento crónico puede relacionarse con problemas digestivos, tiroides o metabólicos.',
         priority: 4
@@ -64,9 +64,9 @@ export const symptomMappings: SymptomMapping[] = [
             'devolver', 'mareo', 'asco', 'arcada', 'arcadas', 'revuelto'
         ],
         studyNames: [
-            'Química Sanguínea',
-            'Biometría Hemática',
-            'Examen General de Orina'
+            'QUIMICA SANGUINEA',
+            'BIOMETRIA HEMATICA',
+            'EXAMEN GENERAL DE ORINA'
         ],
         message: 'Las náuseas y vómitos pueden indicar problemas digestivos, metabólicos o infecciones.',
         priority: 4
@@ -84,12 +84,12 @@ export const symptomMappings: SymptomMapping[] = [
             'todo el tiempo', 'siempre cansado'
         ],
         studyNames: [
-            'Biometría Hemática Completa',
-            'Glucosa',
-            'Perfil Tiroideo',
-            'Hierro Sérico',
-            'Ferritina',
-            'Vitamina B12'
+            'BIOMETRIA HEMATICA',
+            'GLUCOSA',
+            'PERFIL TIROIDEO',
+            'HIERRO',
+            'FERRITINA',
+            'VITAMINA B12'
         ],
         message: 'El cansancio crónico puede ser señal de anemia, diabetes, problemas de tiroides o deficiencias nutricionales. Estos estudios ayudarán a identificar la causa.',
         priority: 5
@@ -101,10 +101,10 @@ export const symptomMappings: SymptomMapping[] = [
             'sin fuerza', 'brazos débiles', 'piernas débiles'
         ],
         studyNames: [
-            'Biometría Hemática',
+            'BIOMETRIA HEMATICA',
             'CPK',
-            'Electrolitos Séricos',
-            'Química Sanguínea'
+            'ELECTROLITOS',
+            'QUIMICA SANGUINEA'
         ],
         message: 'La debilidad muscular puede relacionarse con problemas metabólicos, electrolitos o musculares.',
         priority: 4
@@ -120,10 +120,10 @@ export const symptomMappings: SymptomMapping[] = [
             'punzadas', 'palpita', 'presión', 'presion', 'mareo', 'mareado'
         ],
         studyNames: [
-            'Biometría Hemática',
-            'Química Sanguínea',
-            'Perfil Tiroideo',
-            'Glucosa'
+            'BIOMETRIA HEMATICA',
+            'QUIMICA SANGUINEA',
+            'PERFIL TIROIDEO',
+            'GLUCOSA'
         ],
         message: 'Los dolores de cabeza frecuentes pueden relacionarse con anemia, presión arterial, problemas de tiroides o glucosa.',
         priority: 4
@@ -204,10 +204,10 @@ export const symptomMappings: SymptomMapping[] = [
             'infeccion', 'infección', 'urinaria', 'cistitis'
         ],
         studyNames: [
-            'Examen General de Orina',
-            'Urocultivo',
-            'Glucosa',
-            'Creatinina'
+            'EXAMEN GENERAL DE ORINA',
+            'UROCULTIVO',
+            'GLUCOSA',
+            'CREATININA'
         ],
         message: 'Los problemas urinarios pueden indicar infección, diabetes o problemas renales.',
         priority: 5
@@ -219,10 +219,10 @@ export const symptomMappings: SymptomMapping[] = [
             'tomo mucha', 'deshidratado', 'deshidratada'
         ],
         studyNames: [
-            'Glucosa',
-            'Hemoglobina Glucosilada',
-            'Química Sanguínea',
-            'Electrolitos Séricos'
+            'GLUCOSA',
+            'HEMOGLOBINA GLUCOSILADA',
+            'QUIMICA SANGUINEA',
+            'ELECTROLITOS'
         ],
         message: 'La sed excesiva puede ser señal de diabetes o problemas metabólicos.',
         priority: 5
