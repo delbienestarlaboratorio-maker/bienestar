@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { db } from '@/db';
+import { db } from '@/db/index';
 import { studies } from '@/db/schema';
-import { sql, inArray } from 'drizzle-orm';
+import { sql, or, ilike } from 'drizzle-orm';
 import { searchStudiesBySymptom } from '@/lib/symptom-search';
 
 export async function POST(request: NextRequest) {
@@ -30,13 +30,15 @@ export async function POST(request: NextRequest) {
             });
         }
 
-        // Get studies from database by name
+        // Get studies from database by name using fuzzy matching
+        const studyConditions = searchResult.studyNames.map(name =>
+            ilike(studies.name, `%${name}%`)
+        );
+
         const recommendedStudies = await db
             .select()
             .from(studies)
-            .where(
-                sql`${studies.name} = ANY(${sql`ARRAY[${sql.join(searchResult.studyNames.map(name => sql`${name}`), sql`, `)}]::text[]`})`
-            )
+            .where(or(...studyConditions))
             .limit(10);
 
         // Build response message
