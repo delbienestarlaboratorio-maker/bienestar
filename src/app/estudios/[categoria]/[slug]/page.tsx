@@ -3,6 +3,10 @@ import { db } from '@/db';
 import { studies } from '@/db/schema';
 import { eq, and } from 'drizzle-orm';
 
+// Force dynamic rendering - NO static generation, NO cache
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
+
 interface PageProps {
     params: Promise<{
         categoria: string;
