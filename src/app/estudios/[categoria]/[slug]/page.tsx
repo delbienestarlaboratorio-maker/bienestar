@@ -33,7 +33,7 @@ export default async function StudyDetailPage({ params }: PageProps) {
             notFound();
         }
 
-        const price = study.price_promotional || study.price_regular || 0;
+        const price = (study as any).price_promotional || (study as any).price_regular || 0;
         const formattedPrice = typeof price === 'number' ? price.toFixed(2) : '0.00';
 
         return (
@@ -71,11 +71,11 @@ export default async function StudyDetailPage({ params }: PageProps) {
                         )}
 
                         {/* Turnaround Time */}
-                        {study.turnaround_time && (
+                        {(study as any).turnaround_time && (
                             <div className="mb-6">
                                 <h2 className="text-2xl font-semibold text-gray-900 mb-3">Tiempo de Entrega</h2>
                                 <p className="text-gray-700">
-                                    {study.turnaround_time}
+                                    {(study as any).turnaround_time}
                                 </p>
                             </div>
                         )}
