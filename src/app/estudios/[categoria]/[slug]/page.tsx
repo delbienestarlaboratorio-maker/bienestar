@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation';
-import studiesData from '@/../../public/data/studies.json';
+import studiesData from '@/data/studies.json';
 
 // Generate static pages for all studies
 export const dynamic = 'force-static';
