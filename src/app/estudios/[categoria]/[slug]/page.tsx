@@ -1,7 +1,5 @@
 import { notFound } from 'next/navigation';
-import { db } from '@/db';
-import { studies } from '@/db/schema';
-import { eq, and } from 'drizzle-orm';
+import studiesData from '@/../../public/data/studies.json';
 
 // Generate static pages for all studies
 export const dynamic = 'force-static';
@@ -14,21 +12,28 @@ interface PageProps {
     }>;
 }
 
+// Generate static paths for all studies
+export async function generateStaticParams() {
+    return studiesData.map((study: any) => ({
+        categoria: study.category_id,
+        slug: study.slug,
+    }));
+}
+
 export default async function StudyDetailPage({ params }: PageProps) {
     try {
         const { categoria, slug } = await params;
 
-        const [study] = await db
-            .select()
-            .from(studies)
-            .where(and(eq(studies.slug, slug), eq(studies.categoryId, categoria)))
-            .limit(1);
+        // Find study from static JSON data
+        const study = studiesData.find((s: any) =>
+            s.slug === slug && s.category_id === categoria
+        );
 
         if (!study) {
             notFound();
         }
 
-        const price = study.pricePromotional || study.priceRegular || 0;
+        const price = study.price_promotional || study.price_regular || 0;
         const formattedPrice = typeof price === 'number' ? price.toFixed(2) : '0.00';
 
         return (
@@ -66,11 +71,11 @@ export default async function StudyDetailPage({ params }: PageProps) {
                         )}
 
                         {/* Turnaround Time */}
-                        {study.turnaroundTime && (
+                        {study.turnaround_time && (
                             <div className="mb-6">
                                 <h2 className="text-2xl font-semibold text-gray-900 mb-3">Tiempo de Entrega</h2>
                                 <p className="text-gray-700">
-                                    {study.turnaroundTime}
+                                    {study.turnaround_time}
                                 </p>
                             </div>
                         )}
