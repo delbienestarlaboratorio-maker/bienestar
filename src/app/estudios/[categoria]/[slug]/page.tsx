@@ -1,9 +1,9 @@
 import { notFound } from 'next/navigation';
 import studiesData from '@/data/studies.json';
 
-// Generate static pages for all studies
-export const dynamic = 'force-static';
-export const revalidate = 3600; // Regenerate every hour
+// Use ISR - pages generated on-demand and cached
+export const dynamic = 'force-dynamic';
+export const revalidate = false; // Cache permanently
 
 interface PageProps {
     params: Promise<{
@@ -12,13 +12,7 @@ interface PageProps {
     }>;
 }
 
-// Generate static paths for all studies
-export async function generateStaticParams() {
-    return studiesData.map((study: any) => ({
-        categoria: study.category_id,
-        slug: study.slug,
-    }));
-}
+
 
 export default async function StudyDetailPage({ params }: PageProps) {
     try {
@@ -26,14 +20,14 @@ export default async function StudyDetailPage({ params }: PageProps) {
 
         // Find study from static JSON data
         const study = studiesData.find((s: any) =>
-            s.slug === slug && s.category_id === categoria
+            s.slug === slug && s.categoryId === categoria
         );
 
         if (!study) {
             notFound();
         }
 
-        const price = (study as any).price_promotional || (study as any).price_regular || 0;
+        const price = study.pricePromotional || study.priceRegular || 0;
         const formattedPrice = typeof price === 'number' ? price.toFixed(2) : '0.00';
 
         return (
@@ -71,11 +65,11 @@ export default async function StudyDetailPage({ params }: PageProps) {
                         )}
 
                         {/* Turnaround Time */}
-                        {(study as any).turnaround_time && (
+                        {study.turnaroundTime && (
                             <div className="mb-6">
                                 <h2 className="text-2xl font-semibold text-gray-900 mb-3">Tiempo de Entrega</h2>
                                 <p className="text-gray-700">
-                                    {(study as any).turnaround_time}
+                                    {study.turnaroundTime}
                                 </p>
                             </div>
                         )}
