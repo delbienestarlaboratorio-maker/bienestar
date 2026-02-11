@@ -3,9 +3,9 @@ import { db } from '@/db';
 import { studies } from '@/db/schema';
 import { eq, and } from 'drizzle-orm';
 
-// Force dynamic rendering - NO static generation, NO cache
-export const dynamic = 'force-dynamic';
-export const revalidate = 0;
+// Generate static pages for all studies
+export const dynamic = 'force-static';
+export const revalidate = 3600; // Regenerate every hour
 
 interface PageProps {
     params: Promise<{
