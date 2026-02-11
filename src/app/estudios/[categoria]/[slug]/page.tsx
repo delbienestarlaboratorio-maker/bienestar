@@ -235,37 +235,31 @@ export default async function StudyDetailPage({ params }: PageProps) {
                             </div>
                         </div>
 
-                        {/* RE-ENABLED - StudyTabs is safe (no useEffect) */}
-                        <StudyTabs
-                            study={{
-                                id: study.id,
-                                name: study.name,
-                                description: study.description || '',
-                                whatIsIt: study.whatIsIt || undefined,
-                                whatDoesItDetect: mappedStudy.whatDoesItDetect || undefined,
-                                benefits: mappedStudy.benefits || undefined,
-                                preparation: study.preparation || undefined,
-                                detailedPreparation: mappedStudy.detailedPreparation || undefined,
-                                included: mappedStudy.included || undefined,
-                                faqs: mappedStudy.faqs || undefined,
-                                turnaroundTime: study.turnaroundTime || undefined
-                            } as any}
-                        />
+                        {/* SIMPLIFIED - Show essential info only */}
+                        <div className="bg-white rounded-lg shadow-sm p-6 mb-6">
+                            <h2 className="text-2xl font-bold text-gray-900 mb-4">Información del Estudio</h2>
 
-                        {/* RE-ENABLED SAFE COMPONENTS - Only use primitive dependencies */}
-                        <PriceComparison
-                            ourPrice={study.pricePromotional || study.priceRegular}
-                            studyName={study.name}
-                        />
+                            {study.description && (
+                                <div className="mb-6">
+                                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Descripción</h3>
+                                    <p className="text-gray-700 whitespace-pre-line">{study.description}</p>
+                                </div>
+                            )}
 
-                        <RecommendedPanels studyId={study.id} />
+                            {study.preparation && (
+                                <div className="mb-6">
+                                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Preparación</h3>
+                                    <p className="text-gray-700 whitespace-pre-line">{study.preparation}</p>
+                                </div>
+                            )}
 
-                        <RelatedStudies studyId={study.id} />
-
-                        <ComplementaryStudies
-                            studyId={study.id}
-                            studyName={study.name}
-                        />
+                            {study.turnaroundTime && (
+                                <div>
+                                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Tiempo de Entrega</h3>
+                                    <p className="text-gray-700">{study.turnaroundTime}</p>
+                                </div>
+                            )}
+                        </div>
                     </div>
 
                     {/* Sidebar / Pricing */}
