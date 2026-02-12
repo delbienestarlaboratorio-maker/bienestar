@@ -43,136 +43,177 @@ export default async function StudyDetailPage({ params }: PageProps) {
             console.error('Error parsing study data:', e);
         }
 
-
+        // Get benefits text (could be array with single text or just array of strings)
+        const benefitsText = Array.isArray(benefits) && benefits.length > 0
+            ? (typeof benefits[0] === 'string' ? benefits[0] : benefits.join(' '))
+            : '';
 
         return (
-            <div className="min-h-screen bg-gray-50 py-8">
-                <div className="max-w-4xl mx-auto px-4">
-                    {/* Header Card */}
-                    <div className="bg-white rounded-lg shadow-lg p-8 mb-6">
-                        <h1 className="text-4xl font-bold text-gray-900 mb-4">
-                            {study.name || 'Estudio'}
-                        </h1>
-
-                        {/* Price */}
-                        <div className="text-3xl font-bold text-blue-600 mb-6">
-                            ${formattedPrice} MXN
-                        </div>
-
-                        {/* CTA Buttons */}
-                        <div className="flex flex-wrap gap-4 mb-8">
-                            <a
-                                href="https://wa.me/527716854026"
-                                className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors inline-block"
-                            >
-                                📱 Agendar por WhatsApp
-                            </a>
-                            <a
-                                href="tel:7716854026"
-                                className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors inline-block"
-                            >
-                                📞 Llamar Ahora
-                            </a>
-                        </div>
-                    </div>
-
-                    {/* What Is It */}
-                    {study.whatIsIt && (
-                        <div className="bg-white rounded-lg shadow-lg p-8 mb-6">
-                            <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                                ¿Qué es?
-                            </h2>
-                            <div className="text-gray-700 leading-relaxed whitespace-pre-line">
-                                {study.whatIsIt}
+            <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
+                {/* Hero Section with Gradient */}
+                <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white py-12 mb-8">
+                    <div className="max-w-5xl mx-auto px-4">
+                        <div className="flex items-center gap-3 mb-4">
+                            <div className="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center text-2xl">
+                                🔬
+                            </div>
+                            <div>
+                                <div className="flex gap-2 mb-2">
+                                    <span className="px-3 py-1 bg-white/20 rounded-full text-xs font-semibold">
+                                        {study.categoryId}
+                                    </span>
+                                    {study.turnaroundTime && (
+                                        <span className="px-3 py-1 bg-green-500/30 rounded-full text-xs font-semibold flex items-center gap-1">
+                                            <span>⏱️</span> {study.turnaroundTime}
+                                        </span>
+                                    )}
+                                </div>
+                                <h1 className="text-3xl md:text-4xl font-bold">
+                                    {study.name || 'Estudio'}
+                                </h1>
                             </div>
                         </div>
-                    )}
 
-                    {/* Description (si no hay whatIsIt) */}
-                    {!study.whatIsIt && study.description && (
-                        <div className="bg-white rounded-lg shadow-lg p-8 mb-6">
-                            <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                                Descripción
-                            </h2>
-                            <div className="text-gray-700 leading-relaxed whitespace-pre-line">
-                                {study.description}
+                        <div className="flex flex-wrap items-center gap-4 mt-6">
+                            <div className="text-4xl font-bold">
+                                ${formattedPrice} <span className="text-xl font-normal text-blue-100">MXN</span>
+                            </div>
+                            <div className="flex gap-3 flex-1">
+                                <a
+                                    href="https://wa.me/527716854026"
+                                    className="flex-1 bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg font-semibold transition-all shadow-lg hover:shadow-xl inline-flex items-center justify-center gap-2"
+                                >
+                                    <span className="text-xl">📱</span>
+                                    <span>WhatsApp</span>
+                                </a>
+                                <a
+                                    href="tel:7716854026"
+                                    className="flex-1 bg-white text-blue-600 hover:bg-blue-50 px-6 py-3 rounded-lg font-semibold transition-all shadow-lg hover:shadow-xl inline-flex items-center justify-center gap-2"
+                                >
+                                    <span className="text-xl">📞</span>
+                                    <span>Llamar</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="max-w-5xl mx-auto px-4 pb-12">
+
+                    {/* What Is It / Description */}
+                    {(study.whatIsIt || study.description) && (
+                        <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 mb-6">
+                            <div className="flex items-center gap-3 mb-6">
+                                <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center text-xl">
+                                    ℹ️
+                                </div>
+                                <h2 className="text-2xl font-bold text-gray-900">
+                                    ¿Qué es este estudio?
+                                </h2>
+                            </div>
+                            <div className="prose prose-lg max-w-none">
+                                <p className="text-gray-700 leading-relaxed text-lg whitespace-pre-line">
+                                    {study.whatIsIt || study.description}
+                                </p>
                             </div>
                         </div>
                     )}
 
                     {/* What Does It Detect */}
                     {study.whatDoesItDetect && (
-                        <div className="bg-white rounded-lg shadow-lg p-8 mb-6">
-                            <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                                ¿Qué detecta?
-                            </h2>
-                            <div className="text-gray-700 leading-relaxed whitespace-pre-line">
+                        <div className="bg-gradient-to-br from-purple-50 to-blue-50 rounded-2xl shadow-sm border border-purple-100 p-8 mb-6">
+                            <div className="flex items-center gap-3 mb-6">
+                                <div className="w-10 h-10 bg-purple-500 rounded-lg flex items-center justify-center text-xl">
+                                    🔍
+                                </div>
+                                <h2 className="text-2xl font-bold text-gray-900">
+                                    ¿Qué detecta?
+                                </h2>
+                            </div>
+                            <div className="text-gray-700 leading-relaxed text-lg whitespace-pre-line">
                                 {study.whatDoesItDetect}
                             </div>
                         </div>
                     )}
 
-                    {/* Benefits */}
-                    {study.benefits && (
-                        <div className="bg-white rounded-lg shadow-lg p-8 mb-6">
-                            <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                                Beneficios
-                            </h2>
-                            <div className="text-gray-700 leading-relaxed whitespace-pre-line">
-                                {study.benefits}
+                    {/* Benefits - Visual Cards if available */}
+                    {benefitsText && (
+                        <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl shadow-sm border border-green-100 p-8 mb-6">
+                            <div className="flex items-center gap-3 mb-6">
+                                <div className="w-10 h-10 bg-green-500 rounded-lg flex items-center justify-center text-xl">
+                                    ✨
+                                </div>
+                                <h2 className="text-2xl font-bold text-gray-900">
+                                    Beneficios
+                                </h2>
+                            </div>
+                            <div className="text-gray-700 leading-relaxed text-lg whitespace-pre-line">
+                                {benefitsText}
                             </div>
                         </div>
                     )}
 
-                    {/* Preparation */}
+                    {/* Preparation with Icons */}
                     {(study.detailedPreparation || study.preparation) && (
-                        <div className="bg-white rounded-lg shadow-lg p-8 mb-6">
-                            <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                                Preparación
-                            </h2>
-                            <div className="text-gray-700 leading-relaxed whitespace-pre-line">
-                                {study.detailedPreparation || study.preparation}
+                        <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl shadow-sm border border-orange-100 p-8 mb-6">
+                            <div className="flex items-center gap-3 mb-6">
+                                <div className="w-10 h-10 bg-orange-500 rounded-lg flex items-center justify-center text-xl">
+                                    📋
+                                </div>
+                                <h2 className="text-2xl font-bold text-gray-900">
+                                    Preparación
+                                </h2>
+                            </div>
+                            <div className="space-y-3">
+                                {(study.detailedPreparation || study.preparation).split('\n').filter((line: string) => line.trim()).map((line: string, idx: number) => (
+                                    <div key={idx} className="flex items-start gap-3">
+                                        <span className="text-orange-500 text-xl mt-1">•</span>
+                                        <span className="text-gray-700 text-lg">{line.trim()}</span>
+                                    </div>
+                                ))}
                             </div>
                         </div>
                     )}
 
                     {/* What's Included */}
                     {study.included && (
-                        <div className="bg-white rounded-lg shadow-lg p-8 mb-6">
-                            <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                                ¿Qué incluye?
-                            </h2>
-                            <div className="text-gray-700 leading-relaxed whitespace-pre-line">
+                        <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 mb-6">
+                            <div className="flex items-center gap-3 mb-6">
+                                <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center text-xl">
+                                    📦
+                                </div>
+                                <h2 className="text-2xl font-bold text-gray-900">
+                                    ¿Qué incluye?
+                                </h2>
+                            </div>
+                            <div className="text-gray-700 leading-relaxed text-lg whitespace-pre-line">
                                 {study.included}
                             </div>
                         </div>
                     )}
 
-                    {/* Turnaround Time */}
-                    {study.turnaroundTime && (
-                        <div className="bg-white rounded-lg shadow-lg p-8 mb-6">
-                            <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                                Tiempo de Entrega
-                            </h2>
-                            <div className="text-gray-700">
-                                {study.turnaroundTime}
-                            </div>
-                        </div>
-                    )}
-
-                    {/* FAQs */}
+                    {/* FAQs - Enhanced Accordion */}
                     {faqs.length > 0 && (
-                        <div className="bg-white rounded-lg shadow-lg p-8 mb-6">
-                            <h2 className="text-2xl font-bold text-gray-900 mb-6">
-                                Preguntas Frecuentes
-                            </h2>
+                        <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 mb-6">
+                            <div className="flex items-center gap-3 mb-6">
+                                <div className="w-10 h-10 bg-indigo-100 rounded-lg flex items-center justify-center text-xl">
+                                    💬
+                                </div>
+                                <h2 className="text-2xl font-bold text-gray-900">
+                                    Preguntas Frecuentes
+                                </h2>
+                            </div>
                             <div className="space-y-4">
                                 {faqs.map((faq: any, index: number) => (
-                                    <details key={index} className="border-b border-gray-200 pb-4">
-                                        <summary className="font-semibold text-lg text-gray-900 cursor-pointer hover:text-blue-600 transition-colors">
-                                            {faq.question || faq.q}
+                                    <details key={index} className="group border-l-4 border-blue-500 bg-gray-50 rounded-lg p-4 hover:bg-blue-50 transition-colors">
+                                        <summary className="font-semibold text-lg text-gray-900 cursor-pointer flex items-center justify-between">
+                                            <span className="flex items-center gap-2">
+                                                <span className="text-blue-600">Q{index + 1}:</span>
+                                                <span>{faq.question || faq.q}</span>
+                                            </span>
+                                            <span className="text-blue-600 group-open:rotate-180 transition-transform">▼</span>
                                         </summary>
-                                        <div className="mt-3 text-gray-700 leading-relaxed pl-4">
+                                        <div className="mt-3 text-gray-700 leading-relaxed pl-8">
                                             {faq.answer || faq.a}
                                         </div>
                                     </details>
@@ -183,65 +224,54 @@ export default async function StudyDetailPage({ params }: PageProps) {
 
                     {/* Reviews */}
                     {reviews.length > 0 && (
-                        <div className="bg-white rounded-lg shadow-lg p-8 mb-6">
-                            <h2 className="text-2xl font-bold text-gray-900 mb-6">
-                                Opiniones de Pacientes
-                            </h2>
-                            <div className="space-y-6">
+                        <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 mb-6">
+                            <div className="flex items-center gap-3 mb-6">
+                                <div className="w-10 h-10 bg-yellow-100 rounded-lg flex items-center justify-center text-xl">
+                                    ⭐
+                                </div>
+                                <h2 className="text-2xl font-bold text-gray-900">
+                                    Opiniones de Pacientes
+                                </h2>
+                            </div>
+                            <div className="grid md:grid-cols-2 gap-4">
                                 {reviews.map((review: any, index: number) => (
-                                    <div key={index} className="border-l-4 border-blue-500 pl-4">
+                                    <div key={index} className="border-l-4 border-yellow-400 bg-yellow-50 rounded-lg p-4 hover:shadow-md transition-shadow">
                                         {/* Stars */}
                                         <div className="flex items-center mb-2">
                                             {[...Array(5)].map((_, i) => (
-                                                <span key={i} className={i < (review.rating || 5) ? 'text-yellow-400' : 'text-gray-300'}>
+                                                <span key={i} className={`text-2xl ${i < (review.rating || 5) ? 'text-yellow-400' : 'text-gray-300'}`}>
                                                     ★
                                                 </span>
                                             ))}
                                         </div>
-                                        {/* Review text */}
-                                        <p className="text-gray-700 italic mb-2">
-                                            "{review.text || review.comment}"
-                                        </p>
-                                        {/* Author */}
-                                        {review.author && (
-                                            <p className="text-sm text-gray-600">
-                                                — {review.author}
-                                            </p>
-                                        )}
+                                        <p className="text-gray-700 mb-3 italic">"{review.text || review.comment}"</p>
+                                        <div className="flex items-center gap-2">
+                                            <div className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center text-white font-semibold text-sm">
+                                                {(review.author || 'A')[0].toUpperCase()}
+                                            </div>
+                                            <span className="font-semibold text-gray-900">{review.author || 'Anónimo'}</span>
+                                        </div>
                                     </div>
                                 ))}
                             </div>
                         </div>
                     )}
 
-                    {/* Final CTA */}
-                    <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-lg shadow-lg p-8 text-center text-white">
-                        <h2 className="text-3xl font-bold mb-4">
-                            ¿Listo para agendar tu {study.name}?
-                        </h2>
-                        <p className="text-xl mb-6">
-                            Precio: ${formattedPrice} MXN
-                        </p>
-                        <div className="flex flex-wrap justify-center gap-4">
-                            <a
-                                href="https://wa.me/527716854026"
-                                className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-lg font-bold transition-colors inline-block text-lg"
-                            >
-                                📱 Agendar por WhatsApp
-                            </a>
-                            <a
-                                href="tel:7716854026"
-                                className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg font-bold transition-colors inline-block text-lg"
-                            >
-                                📞 Llamar: 771 685 4026
-                            </a>
-                        </div>
+                    {/* Floating CTA Button */}
+                    <div className="fixed bottom-6 right-6 z-50">
+                        <a
+                            href="https://wa.me/527716854026"
+                            className="bg-green-500 hover:bg-green-600 text-white px-6 py-4 rounded-full font-semibold shadow-2xl hover:shadow-3xl transition-all flex items-center gap-2 animate-pulse hover:animate-none"
+                        >
+                            <span className="text-2xl">📱</span>
+                            <span className="hidden md:inline">Agendar Ahora</span>
+                        </a>
                     </div>
                 </div>
             </div>
         );
     } catch (error) {
-        console.error('Error loading study:', error);
+        console.error('Error rendering study page:', error);
         notFound();
     }
 }
