@@ -17,26 +17,33 @@ export default async function StudyDetailPage({ params }: PageProps) {
         const { categoria, slug } = await params;
 
         // Find study from static JSON data
-        const study = studiesData.find((s: any) =>
+        const studyData: any = studiesData.find((s: any) =>
             s.slug === slug && s.categoryId === categoria
         );
 
-        if (!study) {
+        if (!studyData) {
             notFound();
         }
 
+        const study = studyData;
         const price = study.pricePromotional || study.priceRegular || 0;
         const formattedPrice = typeof price === 'number' ? price.toFixed(2) : '0.00';
 
-        // Parse FAQs and Reviews if they're JSON strings
-        let faqs = [];
-        let reviews = [];
+
+        // Parse FAQs, Reviews, and Benefits if they're JSON strings or arrays
+        let faqs: any[] = [];
+        let reviews: any[] = [];
+        let benefits: any[] = [];
         try {
-            faqs = typeof study.faqs === 'string' ? JSON.parse(study.faqs) : (study.faqs || []);
-            reviews = typeof study.reviews === 'string' ? JSON.parse(study.reviews) : (study.reviews || []);
+            faqs = typeof study.faqs === 'string' ? JSON.parse(study.faqs) : (Array.isArray(study.faqs) ? study.faqs : []);
+            reviews = typeof study.reviews === 'string' ? JSON.parse(study.reviews) : (Array.isArray(study.reviews) ? study.reviews : []);
+            benefits = typeof study.benefits === 'string' ? JSON.parse(study.benefits) : (Array.isArray(study.benefits) ? study.benefits : []);
         } catch (e) {
             // If parsing fails, use empty arrays
+            console.error('Error parsing study data:', e);
         }
+
+
 
         return (
             <div className="min-h-screen bg-gray-50 py-8">
