@@ -49,8 +49,8 @@ export default function BuyButton({ studyName, price }: BuyButtonProps) {
             onClick={handleBuyNow}
             className="flex-1 min-w-[200px] bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-3 rounded-lg font-semibold transition-all shadow-lg hover:shadow-xl inline-flex items-center justify-center gap-2"
         >
-            <span className="text-xl">💳</span>
-            <span>Comprar con Clip</span>
+            <span className="text-xl">🛒</span>
+            <span>Agregar al carrito</span>
         </button>
     );
 }
