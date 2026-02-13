@@ -50,34 +50,42 @@ export default async function StudyDetailPage({ params }: PageProps) {
             : '';
 
         return (
-            <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
-                {/* Hero Section with Gradient */}
-                <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white py-12 mb-8">
-                    <div className="max-w-5xl mx-auto px-4">
-                        <div className="flex items-center gap-3 mb-4">
-                            <div className="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center text-2xl">
+            <div className="min-h-screen bg-gradient-to-b from-gray-50 via-white to-gray-50">
+                {/* Hero Section with Premium Gradient */}
+                <div className="relative bg-gradient-to-br from-purple-600 via-blue-600 to-teal-500 text-white py-16 mb-12 overflow-hidden">
+                    {/* Decorative Background Elements */}
+                    <div className="absolute inset-0 bg-black/10"></div>
+                    <div className="absolute top-0 right-0 w-96 h-96 bg-white/5 rounded-full blur-3xl"></div>
+                    <div className="absolute bottom-0 left-0 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl"></div>
+
+                    <div className="relative max-w-6xl mx-auto px-4">
+                        <div className="flex items-start gap-5 mb-8">
+                            <div className="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center text-4xl shadow-2xl ring-2 ring-white/30">
                                 🔬
                             </div>
-                            <div>
-                                <div className="flex gap-2 mb-2">
-                                    <span className="px-3 py-1 bg-white/20 rounded-full text-xs font-semibold">
+                            <div className="flex-1">
+                                <div className="flex flex-wrap gap-2 mb-3">
+                                    <span className="px-4 py-1.5 bg-white/25 backdrop-blur-md rounded-full text-sm font-bold uppercase tracking-wide shadow-lg">
                                         {study.categoryId}
                                     </span>
                                     {study.turnaroundTime && (
-                                        <span className="px-3 py-1 bg-green-500/30 rounded-full text-xs font-semibold flex items-center gap-1">
-                                            <span>⏱️</span> {study.turnaroundTime}
+                                        <span className="px-4 py-1.5 bg-emerald-500/40 backdrop-blur-md rounded-full text-sm font-bold flex items-center gap-2 shadow-lg">
+                                            <span className="text-lg">⏱️</span> {study.turnaroundTime}
                                         </span>
                                     )}
                                 </div>
-                                <h1 className="text-3xl md:text-4xl font-bold">
+                                <h1 className="text-4xl md:text-5xl font-extrabold leading-tight tracking-tight drop-shadow-lg">
                                     {study.name || 'Estudio'}
                                 </h1>
                             </div>
                         </div>
 
-                        <div className="flex flex-wrap items-center gap-4 mt-6">
-                            <div className="text-4xl font-bold">
-                                ${formattedPrice} <span className="text-xl font-normal text-blue-100">MXN</span>
+                        <div className="flex flex-wrap items-center gap-6 mt-8">
+                            <div className="bg-white/15 backdrop-blur-md px-8 py-4 rounded-2xl shadow-2xl ring-2 ring-white/20">
+                                <div className="text-sm font-semibold text-white/80 uppercase tracking-wide mb-1">Precio</div>
+                                <div className="text-5xl font-extrabold">
+                                    ${formattedPrice} <span className="text-2xl font-semibold text-white/90">MXN</span>
+                                </div>
                             </div>
                             <div className="flex gap-3 flex-1 flex-wrap">
                                 <BuyButton studyName={study.name} price={price} />
@@ -123,56 +131,71 @@ export default async function StudyDetailPage({ params }: PageProps) {
 
                     {/* What Does It Detect */}
                     {study.whatDoesItDetect && (
-                        <div className="bg-gradient-to-br from-purple-50 to-blue-50 rounded-2xl shadow-sm border border-purple-100 p-8 mb-6">
-                            <div className="flex items-center gap-3 mb-6">
-                                <div className="w-10 h-10 bg-purple-500 rounded-lg flex items-center justify-center text-xl">
-                                    🔍
+                        <div className="mb-16 group">
+                            <div className="bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 p-10 border border-gray-100 hover:border-purple-200">
+                                <div className="flex items-center gap-4 mb-8">
+                                    <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-purple-500 to-fuchsia-500 flex items-center justify-center text-3xl shadow-lg group-hover:scale-110 transition-transform duration-300">
+                                        🔍
+                                    </div>
+                                    <div className="flex-1">
+                                        <h2 className="text-3xl font-bold bg-gradient-to-r from-purple-600 to-fuchsia-600 bg-clip-text text-transparent">
+                                            ¿Qué detecta?
+                                        </h2>
+                                        <div className="h-1 w-24 bg-gradient-to-r from-purple-500 to-fuchsia-500 rounded-full mt-2"></div>
+                                    </div>
                                 </div>
-                                <h2 className="text-2xl font-bold text-gray-900">
-                                    ¿Qué detecta?
-                                </h2>
-                            </div>
-                            <div className="text-gray-700 leading-relaxed text-lg whitespace-pre-line">
-                                {study.whatDoesItDetect}
+                                <div className="text-lg text-gray-700 leading-relaxed space-y-4 whitespace-pre-line">
+                                    {study.whatDoesItDetect}
+                                </div>
                             </div>
                         </div>
                     )}
 
                     {/* Benefits - Visual Cards if available */}
                     {benefitsText && (
-                        <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl shadow-sm border border-green-100 p-8 mb-6">
-                            <div className="flex items-center gap-3 mb-6">
-                                <div className="w-10 h-10 bg-green-500 rounded-lg flex items-center justify-center text-xl">
-                                    ✨
+                        <div className="mb-16 group">
+                            <div className="bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 p-10 border border-gray-100 hover:border-emerald-200">
+                                <div className="flex items-center gap-4 mb-8">
+                                    <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-emerald-500 to-green-500 flex items-center justify-center text-3xl shadow-lg group-hover:scale-110 transition-transform duration-300">
+                                        ✨
+                                    </div>
+                                    <div className="flex-1">
+                                        <h2 className="text-3xl font-bold bg-gradient-to-r from-emerald-600 to-green-600 bg-clip-text text-transparent">
+                                            Beneficios
+                                        </h2>
+                                        <div className="h-1 w-24 bg-gradient-to-r from-emerald-500 to-green-500 rounded-full mt-2"></div>
+                                    </div>
                                 </div>
-                                <h2 className="text-2xl font-bold text-gray-900">
-                                    Beneficios
-                                </h2>
-                            </div>
-                            <div className="text-gray-700 leading-relaxed text-lg whitespace-pre-line">
-                                {benefitsText}
+                                <div className="text-lg text-gray-700 leading-relaxed space-y-4 whitespace-pre-line">
+                                    {benefitsText}
+                                </div>
                             </div>
                         </div>
                     )}
 
                     {/* Preparation with Icons */}
                     {(study.detailedPreparation || study.preparation) && (
-                        <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl shadow-sm border border-orange-100 p-8 mb-6">
-                            <div className="flex items-center gap-3 mb-6">
-                                <div className="w-10 h-10 bg-orange-500 rounded-lg flex items-center justify-center text-xl">
-                                    📋
-                                </div>
-                                <h2 className="text-2xl font-bold text-gray-900">
-                                    Preparación
-                                </h2>
-                            </div>
-                            <div className="space-y-3">
-                                {(study.detailedPreparation || study.preparation).split('\n').filter((line: string) => line.trim()).map((line: string, idx: number) => (
-                                    <div key={idx} className="flex items-start gap-3">
-                                        <span className="text-orange-500 text-xl mt-1">•</span>
-                                        <span className="text-gray-700 text-lg">{line.trim()}</span>
+                        <div className="mb-16 group">
+                            <div className="bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 p-10 border border-gray-100 hover:border-amber-200">
+                                <div className="flex items-center gap-4 mb-8">
+                                    <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-amber-500 to-orange-500 flex items-center justify-center text-3xl shadow-lg group-hover:scale-110 transition-transform duration-300">
+                                        📋
                                     </div>
-                                ))}
+                                    <div className="flex-1">
+                                        <h2 className="text-3xl font-bold bg-gradient-to-r from-amber-600 to-orange-600 bg-clip-text text-transparent">
+                                            Preparación
+                                        </h2>
+                                        <div className="h-1 w-24 bg-gradient-to-r from-amber-500 to-orange-500 rounded-full mt-2"></div>
+                                    </div>
+                                </div>
+                                <div className="space-y-4">
+                                    {(study.detailedPreparation || study.preparation).split('\n').filter((line: string) => line.trim()).map((line: string, idx: number) => (
+                                        <div key={idx} className="flex items-start gap-4 bg-amber-50/50 rounded-xl p-4 hover:bg-amber-50 transition-colors">
+                                            <span className="text-amber-600 text-2xl mt-0.5">•</span>
+                                            <span className="text-lg text-gray-700 flex-1">{line.trim()}</span>
+                                        </div>
+                                    ))}
+                                </div>
                             </div>
                         </div>
                     )}
