@@ -6,10 +6,13 @@ interface CartItem {
     id: string;
     name: string;
     price: number;
+    priceRegular: number;
     promotionalPrice?: number;
     category: string;
     slug: string;
     quantity: number;
+    turnaroundTime?: string;
+    preparation?: string;
 }
 
 interface CartContextType {
@@ -21,6 +24,7 @@ interface CartContextType {
     removeItem: (id: string) => void;
     updateQuantity: (id: string, quantity: number) => void;
     clearCart: () => void;
+    isInCart: (id: string) => boolean;
 }
 
 const CartContext = createContext<CartContextType | undefined>(undefined);
@@ -97,6 +101,10 @@ export function CartProvider({ children }: { children: ReactNode }) {
 
     const total = subtotal; // Aquí puedes agregar descuentos, impuestos, etc.
 
+    const isInCart = (id: string) => {
+        return items.some(item => item.id === id);
+    };
+
     return (
         <CartContext.Provider
             value={{
@@ -108,6 +116,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
                 removeItem,
                 updateQuantity,
                 clearCart,
+                isInCart,
             }}
         >
             {children}

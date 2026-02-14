@@ -88,7 +88,17 @@ export default async function StudyDetailPage({ params }: PageProps) {
                                 </div>
                             </div>
                             <div className="flex gap-3 flex-1 flex-wrap">
-                                <BuyButton studyName={study.name} price={price} />
+                                <BuyButton
+                                    studyId={study.id}
+                                    studyName={study.name}
+                                    studySlug={slug}
+                                    category={categoria}
+                                    price={price}
+                                    priceRegular={study.priceRegular || price}
+                                    pricePromotional={study.pricePromotional}
+                                    turnaroundTime={study.turnaroundTime}
+                                    preparation={study.preparation}
+                                />
                                 <a
                                     href="https://wa.me/527716854026"
                                     className="flex-1 min-w-[150px] bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg font-semibold transition-all shadow-lg hover:shadow-xl inline-flex items-center justify-center gap-2"

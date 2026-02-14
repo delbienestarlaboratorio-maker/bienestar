@@ -1,52 +1,81 @@
 'use client';
 
+import { useState } from 'react';
+import { useCart } from '@/contexts/CartContext';
+import { Check } from 'lucide-react';
+
 interface BuyButtonProps {
+    studyId: string;
     studyName: string;
+    studySlug: string;
+    category: string;
     price: number;
+    priceRegular: number;
+    pricePromotional?: number;
+    turnaroundTime?: string;
+    preparation?: string;
 }
 
-export default function BuyButton({ studyName, price }: BuyButtonProps) {
-    const handleBuyNow = async () => {
-        const email = prompt('Por favor ingrese su correo electrónico:');
-        if (!email) return;
+export default function BuyButton({
+    studyId,
+    studyName,
+    studySlug,
+    category,
+    price,
+    priceRegular,
+    pricePromotional,
+    turnaroundTime,
+    preparation
+}: BuyButtonProps) {
+    const { addItem, isInCart } = useCart();
+    const [justAdded, setJustAdded] = useState(false);
+    const inCart = isInCart(studyId);
 
-        if (!email.includes('@')) {
-            alert('Por favor ingrese un correo electrónico válido');
-            return;
-        }
+    const handleAddToCart = () => {
+        addItem({
+            id: studyId,
+            name: studyName,
+            slug: studySlug,
+            category,
+            price,
+            priceRegular,
+            promotionalPrice: pricePromotional,
+            turnaroundTime,
+            preparation
+        });
 
-        try {
-            const response = await fetch('/api/pagos/crear', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({
-                    items: [{
-                        name: studyName,
-                        price: price,
-                    }],
-                    email: email,
-                    user_id: 'guest',
-                }),
-            });
-
-            const data = await response.json();
-
-            if (data.success && data.paymentUrl) {
-                window.location.href = data.paymentUrl;
-            } else {
-                alert('Error al crear el link de pago. Por favor intente de nuevo.');
-            }
-        } catch (error) {
-            console.error('Error:', error);
-            alert('Error al procesar el pago. Por favor intente de nuevo.');
-        }
+        // Show "Added!" feedback
+        setJustAdded(true);
+        setTimeout(() => setJustAdded(false), 2000);
     };
+
+    if (justAdded) {
+        return (
+            <button
+                disabled
+                className="flex-1 min-w-[200px] bg-gradient-to-r from-green-500 to-emerald-500 text-white px-6 py-3 rounded-lg font-semibold inline-flex items-center justify-center gap-2 shadow-lg"
+            >
+                <Check className="w-5 h-5" />
+                <span>¡Agregado!</span>
+            </button>
+        );
+    }
+
+    if (inCart) {
+        return (
+            <button
+                onClick={handleAddToCart}
+                className="flex-1 min-w-[200px] bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 text-white px-6 py-3 rounded-lg font-semibold transition-all shadow-lg hover:shadow-xl inline-flex items-center justify-center gap-2"
+            >
+                <span className="text-xl">➕</span>
+                <span>Agregar otro</span>
+            </button>
+        );
+    }
 
     return (
         <button
-            onClick={handleBuyNow}
+            onClick={handleAddToCart}
             className="flex-1 min-w-[200px] bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-3 rounded-lg font-semibold transition-all shadow-lg hover:shadow-xl inline-flex items-center justify-center gap-2"
         >
             <span className="text-xl">🛒</span>
