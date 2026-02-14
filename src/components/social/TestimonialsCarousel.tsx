@@ -171,7 +171,7 @@ export function TestimonialsCarousel({
                             <p className="text-gray-700 text-sm leading-relaxed mb-3">
                                 {review.text}
                             </p>
-                            <p className="text-xs text-gray-500">
+                            <p className="text-xs text-gray-500" suppressHydrationWarning>
                                 {new Date(review.date).toLocaleDateString('es-MX', {
                                     year: 'numeric',
                                     month: 'long',
@@ -206,8 +206,8 @@ export function TestimonialsCarousel({
                         key={index}
                         onClick={() => goToSlide(index)}
                         className={`w-3 h-3 rounded-full transition-all ${index === currentIndex
-                                ? 'bg-green-900 w-8'
-                                : 'bg-gray-300 hover:bg-gray-400'
+                            ? 'bg-green-900 w-8'
+                            : 'bg-gray-300 hover:bg-gray-400'
                             }`}
                         aria-label={`Ir a slide ${index + 1}`}
                     />

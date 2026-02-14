@@ -69,7 +69,7 @@ export const Footer = () => {
             </div>
 
             <div className="max-w-6xl mx-auto px-4 pt-8 border-t border-gray-800 text-center text-xs">
-                <p>&copy; {new Date().getFullYear()} Laboratorio Clínico Bienestar. Todos los derechos reservados.</p>
+                <p suppressHydrationWarning>&copy; {new Date().getFullYear()} Laboratorio Clínico Bienestar. Todos los derechos reservados.</p>
             </div>
         </footer>
     );

@@ -87,7 +87,7 @@ export function StudyTestimonials({ studyCategory, studyName }: StudyTestimonial
                                 <p className="text-sm font-semibold text-gray-900">
                                     {currentReview.author}
                                 </p>
-                                <p className="text-xs text-gray-500">
+                                <p className="text-xs text-gray-500" suppressHydrationWarning>
                                     {new Date(currentReview.date).toLocaleDateString('es-MX', {
                                         month: 'short',
                                         year: 'numeric'
