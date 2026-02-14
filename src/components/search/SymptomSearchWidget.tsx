@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Search, Loader2, Info, CheckCircle, Clock } from 'lucide-react';
 import Link from 'next/link';
 
@@ -28,8 +28,9 @@ export function SymptomSearchWidget() {
 
     const exampleSearches = ['me duele la panza', 'estoy muy cansado', 'tengo tos'];
 
-    const handleSearch = async () => {
-        if (!input.trim()) return;
+    const handleSearch = async (searchTerm?: string) => {
+        const term = searchTerm || input;
+        if (!term.trim() || term.trim().length < 3) return;
 
         setLoading(true);
         setResult(null);
@@ -38,7 +39,7 @@ export function SymptomSearchWidget() {
             const response = await fetch('/api/symptom-search', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ symptom: input })
+                body: JSON.stringify({ symptom: term })
             });
 
             if (response.ok) {
@@ -51,6 +52,17 @@ export function SymptomSearchWidget() {
             setLoading(false);
         }
     };
+
+    // Auto-search with debounce (buscar automáticamente mientras escribes)
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            if (input.trim().length >= 3) {
+                handleSearch(input);
+            }
+        }, 800); // Espera 800ms después de que el usuario deja de escribir
+
+        return () => clearTimeout(timer);
+    }, [input]);
 
     return (
         <div className="bg-gradient-to-r from-purple-600 to-blue-600 py-16 px-4">
@@ -78,14 +90,14 @@ export function SymptomSearchWidget() {
                                 value={input}
                                 onChange={(e) => setInput(e.target.value)}
                                 onKeyPress={(e) => e.key === 'Enter' && handleSearch()}
-                                placeholder="Ej: me duele la panza, estoy cansado..."
+                                placeholder="Escribe tu síntoma... (mínimo 3 letras)"
                                 className="w-full pl-12 pr-4 py-3 text-base border-2 border-gray-200 rounded-xl focus:border-purple-500 focus:outline-none transition-colors"
                                 disabled={loading}
                             />
                         </div>
                         <button
-                            onClick={handleSearch}
-                            disabled={!input.trim() || loading}
+                            onClick={() => handleSearch()}
+                            disabled={!input.trim() || input.trim().length < 3 || loading}
                             className="px-6 py-3 bg-purple-600 text-white font-semibold rounded-xl hover:bg-purple-700 disabled:bg-gray-300 disabled:cursor-not-allowed transition-colors flex items-center gap-2"
                         >
                             {loading ? (
@@ -94,7 +106,10 @@ export function SymptomSearchWidget() {
                                     Buscando...
                                 </>
                             ) : (
-                                'Buscar'
+                                <>
+                                    <Search size={18} />
+                                    Buscar ahora
+                                </>
                             )}
                         </button>
                     </div>
