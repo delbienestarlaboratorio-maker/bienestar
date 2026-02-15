@@ -58,10 +58,10 @@ export default function AgendarPage() {
                         ¿Prefieres agendar por teléfono?
                     </p>
                     <a
-                        href="tel:+525512345678"
+                        href="tel:+527716854026"
                         className="inline-block bg-green-600 hover:bg-green-700 text-white font-bold px-6 py-3 rounded-xl transition-colors"
                     >
-                        📞 Llámanos: +52 55 1234 5678
+                        📞 Llámanos: 771 685 4026
                     </a>
                     <div className="mt-6">
                         <Link

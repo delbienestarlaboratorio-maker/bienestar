@@ -87,34 +87,53 @@ export const InvoiceForm = () => {
         setSubmitStatus('idle');
 
         try {
-            const response = await fetch('/api/facturacion', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({
-                    ...formData,
-                    createdAt: new Date().toISOString(),
-                }),
-            });
+            // Find labels for selected values
+            const regimenLabel = regimenFiscal.find(r => r.value === formData.regimenFiscal)?.label || formData.regimenFiscal;
+            const usoLabel = usoCFDI.find(u => u.value === formData.usoCFDI)?.label || formData.usoCFDI;
 
-            if (!response.ok) {
-                throw new Error('Error al enviar solicitud');
-            }
+            // Build WhatsApp message with all billing data
+            const lines = [
+                '📋 *SOLICITUD DE FACTURA*',
+                '',
+                '🏢 *Datos Fiscales:*',
+                `• RFC: ${formData.rfc}`,
+                `• Razón Social: ${formData.razonSocial}`,
+                `• C.P.: ${formData.codigoPostal}`,
+                `• Régimen: ${regimenLabel}`,
+                `• Uso CFDI: ${usoLabel}`,
+                `• Email: ${formData.email}`,
+            ];
+
+            if (formData.folio) lines.push(`• Folio: ${formData.folio}`);
+            if (formData.monto) lines.push(`• Monto: $${Number(formData.monto).toFixed(2)} MXN`);
+            if (formData.fechaServicio) lines.push(`• Fecha servicio: ${formData.fechaServicio}`);
+            if (formData.telefono) lines.push(`• Teléfono: ${formData.telefono}`);
+
+            lines.push('', '✅ Solicito mi factura electrónica CFDI 4.0');
+
+            const message = lines.join('\n');
+            const whatsappUrl = `https://wa.me/527716854026?text=${encodeURIComponent(message)}`;
+
+            // Open WhatsApp
+            window.open(whatsappUrl, '_blank');
 
             setSubmitStatus('success');
 
-            // Limpiar formulario
-            setFormData({
-                rfc: '',
-                razonSocial: '',
-                codigoPostal: '',
-                regimenFiscal: '',
-                usoCFDI: 'D01',
-                email: '',
-                folio: '',
-                monto: undefined,
-                fechaServicio: '',
-                telefono: '',
-            });
+            // Reset form after delay
+            setTimeout(() => {
+                setFormData({
+                    rfc: '',
+                    razonSocial: '',
+                    codigoPostal: '',
+                    regimenFiscal: '',
+                    usoCFDI: 'D01',
+                    email: '',
+                    folio: '',
+                    monto: undefined,
+                    fechaServicio: '',
+                    telefono: '',
+                });
+            }, 3000);
 
         } catch (error) {
             console.error('Error:', error);
@@ -123,6 +142,7 @@ export const InvoiceForm = () => {
             setIsSubmitting(false);
         }
     };
+
 
     return (
         <form onSubmit={handleSubmit} className="max-w-3xl mx-auto space-y-8">

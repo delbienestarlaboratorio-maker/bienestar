@@ -167,7 +167,7 @@ export default function BookingForm({ preselectedStudy, onSuccess }: BookingForm
                                 onChange={handleChange}
                                 required
                                 className="w-full px-4 py-3 rounded-xl border-2 border-gray-200 focus:border-blue-500 focus:outline-none transition-colors"
-                                placeholder="5512345678"
+                                placeholder="7716854026"
                             />
                         </div>
                     </div>

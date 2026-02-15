@@ -1,9 +1,10 @@
 import Link from 'next/link';
-import { Mail, Phone, MapPin, Clock } from 'lucide-react';
+import { MapPin, Clock, Phone } from 'lucide-react';
+import { CONTACT_INFO, BRANCHES, getWhatsAppLink } from '@/lib/branches';
 
 export const metadata = {
-    title: 'Contacto | Laboratorio Bienestar',
-    description: 'Contáctanos para agendar tu cita o resolver tus dudas. WhatsApp, teléfono y ubicación.',
+    title: 'Contacto | Laboratorio Del Bienestar — Tizayuca, Hidalgo',
+    description: 'Contáctanos por WhatsApp al 771-685-4026 o visítanos en nuestras 2 sucursales en Tizayuca, Hidalgo. Atención personalizada.',
 };
 
 export default function ContactoPage() {
@@ -22,7 +23,9 @@ export default function ContactoPage() {
                 <div className="grid md:grid-cols-2 gap-8 mb-16">
                     {/* WhatsApp */}
                     <a
-                        href="https://wa.me/527716854026"
+                        href={getWhatsAppLink('Hola, necesito información')}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all p-10 border border-gray-100 hover:border-green-200 group"
                     >
                         <div className="flex items-center gap-4 mb-6">
@@ -36,13 +39,13 @@ export default function ContactoPage() {
                                 <div className="h-1 w-20 bg-gradient-to-r from-green-500 to-emerald-500 rounded-full mt-2"></div>
                             </div>
                         </div>
-                        <p className="text-xl text-gray-700 mb-4">771 685 4026</p>
+                        <p className="text-xl text-gray-700 mb-4">{CONTACT_INFO.mainPhoneFormatted}</p>
                         <p className="text-gray-600">Chatea con nosotros (más rápido)</p>
                     </a>
 
                     {/* Phone */}
                     <a
-                        href="tel:7716854026"
+                        href={`tel:${CONTACT_INFO.mainPhone}`}
                         className="bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all p-10 border border-gray-100 hover:border-blue-200 group"
                     >
                         <div className="flex items-center gap-4 mb-6">
@@ -56,12 +59,12 @@ export default function ContactoPage() {
                                 <div className="h-1 w-20 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full mt-2"></div>
                             </div>
                         </div>
-                        <p className="text-xl text-gray-700 mb-4">771 685 4026</p>
+                        <p className="text-xl text-gray-700 mb-4">{CONTACT_INFO.mainPhoneFormatted}</p>
                         <p className="text-gray-600">Llámanos directamente</p>
                     </a>
                 </div>
 
-                {/* Locations */}
+                {/* Locations - from centralized config */}
                 <div className="bg-white rounded-3xl shadow-xl p-10 border border-gray-100 mb-16">
                     <div className="flex items-center gap-4 mb-8">
                         <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-3xl shadow-lg">
@@ -76,29 +79,43 @@ export default function ContactoPage() {
                     </div>
 
                     <div className="grid md:grid-cols-2 gap-8">
-                        <div className="space-y-4">
-                            <h3 className="text-2xl font-bold text-gray-900">🏥 Sucursal Centro</h3>
-                            <p className="text-lg text-gray-700 flex items-start gap-3">
-                                <MapPin className="text-purple-500 flex-shrink-0 mt-1" />
-                                <span>Av. Juárez #123, Centro, Tizayuca, Hidalgo</span>
-                            </p>
-                            <p className="text-lg text-gray-700 flex items-start gap-3">
-                                <Clock className="text-purple-500 flex-shrink-0 mt-1" />
-                                <span>Lun-Vie: 7am-7pm | Sáb: 8am-2pm</span>
-                            </p>
-                        </div>
-
-                        <div className="space-y-4">
-                            <h3 className="text-2xl font-bold text-gray-900">🏥 Sucursal Norte</h3>
-                            <p className="text-lg text-gray-700 flex items-start gap-3">
-                                <MapPin className="text-pink-500 flex-shrink-0 mt-1" />
-                                <span>Calle Reforma #456, Tizayuca, Hidalgo</span>
-                            </p>
-                            <p className="text-lg text-gray-700 flex items-start gap-3">
-                                <Clock className="text-pink-500 flex-shrink-0 mt-1" />
-                                <span>Lun-Vie: 7am-7pm | Sáb: 8am-2pm</span>
-                            </p>
-                        </div>
+                        {BRANCHES.map((branch, index) => (
+                            <div key={branch.id} className="space-y-4">
+                                <h3 className="text-2xl font-bold text-gray-900">
+                                    🏥 {branch.name} {branch.isPrimary && <span className="text-sm bg-green-100 text-green-700 px-2 py-1 rounded-full ml-2">Principal</span>}
+                                </h3>
+                                <p className="text-lg text-gray-700 flex items-start gap-3">
+                                    <MapPin className={`${index === 0 ? 'text-purple-500' : 'text-pink-500'} flex-shrink-0 mt-1`} />
+                                    <span>{branch.address}</span>
+                                </p>
+                                <p className="text-lg text-gray-700 flex items-start gap-3">
+                                    <Clock className={`${index === 0 ? 'text-purple-500' : 'text-pink-500'} flex-shrink-0 mt-1`} />
+                                    <span>{branch.hours}</span>
+                                </p>
+                                <p className="text-lg text-gray-700 flex items-start gap-3">
+                                    <Phone className={`${index === 0 ? 'text-purple-500' : 'text-pink-500'} flex-shrink-0 mt-1`} />
+                                    <a href={`tel:${branch.phone}`} className="hover:underline">{branch.phoneFormatted}</a>
+                                </p>
+                                <div className="flex gap-3">
+                                    <a
+                                        href={branch.mapUrl}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-sm bg-blue-50 text-blue-700 px-4 py-2 rounded-xl hover:bg-blue-100 transition-colors"
+                                    >
+                                        📍 Ver en Google Maps
+                                    </a>
+                                    <a
+                                        href={getWhatsAppLink(`Hola, me gustaría agendar una cita en ${branch.name}`, branch.whatsapp)}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-sm bg-green-50 text-green-700 px-4 py-2 rounded-xl hover:bg-green-100 transition-colors"
+                                    >
+                                        💬 WhatsApp
+                                    </a>
+                                </div>
+                            </div>
+                        ))}
                     </div>
                 </div>
 

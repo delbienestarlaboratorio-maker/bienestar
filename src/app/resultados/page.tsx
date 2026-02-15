@@ -1,76 +1,66 @@
 import Link from 'next/link';
-import { FileText, Search, ShieldCheck, ArrowLeft, Download } from 'lucide-react';
+import { Construction, MessageCircle, ArrowLeft } from 'lucide-react';
+import { CONTACT_INFO, getWhatsAppLink } from '@/lib/branches';
+
+export const metadata = {
+    title: 'Resultados en Línea | Laboratorio Del Bienestar',
+    description: 'Próximamente podrás consultar tus resultados de laboratorio en línea. Mientras tanto, contáctanos por WhatsApp.',
+};
 
 export default function ResultadosPage() {
     return (
-        <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
-            <div className="max-w-3xl mx-auto">
+        <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white py-12 px-4 sm:px-6 lg:px-8">
+            <div className="max-w-2xl mx-auto">
                 <Link href="/" className="inline-flex items-center gap-2 text-green-700 hover:text-green-900 mb-8 transition-colors">
                     <ArrowLeft size={20} />
                     Volver al inicio
                 </Link>
 
-                <div className="bg-white rounded-3xl shadow-xl border border-gray-100 overflow-hidden">
-                    <div className="bg-green-900 p-8 text-center text-white">
-                        <div className="bg-white/20 w-fit p-4 rounded-2xl mx-auto mb-6">
-                            <FileText size={48} />
+                <div className="bg-white rounded-3xl shadow-xl border border-gray-100 overflow-hidden text-center">
+                    {/* Header */}
+                    <div className="bg-gradient-to-br from-amber-500 via-orange-500 to-amber-600 p-10 text-white">
+                        <div className="bg-white/20 w-fit p-5 rounded-2xl mx-auto mb-6">
+                            <Construction size={56} />
                         </div>
-                        <h1 className="text-3xl font-bold mb-2">Consulta de Resultados</h1>
-                        <p className="text-green-100">Ingresa tus datos para descargar tus estudios.</p>
+                        <h1 className="text-3xl md:text-4xl font-bold mb-3">
+                            Resultados en Línea
+                        </h1>
+                        <p className="text-amber-100 text-lg">
+                            Próximamente disponible
+                        </p>
                     </div>
 
+                    {/* Content */}
                     <div className="p-8 sm:p-12">
-                        <form className="space-y-6">
-                            <div>
-                                <label htmlFor="orderId" className="block text-sm font-medium text-gray-700 mb-2">
-                                    Número de Orden / Folio
-                                </label>
-                                <div className="relative">
-                                    <Search size={20} className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400" />
-                                    <input
-                                        type="text"
-                                        id="orderId"
-                                        placeholder="Ej: BJ-123456"
-                                        className="w-full pl-12 pr-4 py-4 border border-gray-300 rounded-2xl focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all"
-                                    />
-                                </div>
+                        <div className="max-w-md mx-auto">
+                            <p className="text-gray-700 text-lg leading-relaxed mb-8">
+                                Estamos trabajando para que puedas consultar y descargar tus resultados de laboratorio directamente desde aquí.
+                            </p>
+
+                            <div className="bg-green-50 rounded-2xl p-6 border border-green-100 mb-8">
+                                <h2 className="font-bold text-green-900 text-lg mb-2">
+                                    ¿Necesitas tus resultados ahora?
+                                </h2>
+                                <p className="text-green-800 text-sm mb-4">
+                                    Contáctanos por WhatsApp o teléfono y te los enviaremos a tu correo electrónico.
+                                </p>
+                                <a
+                                    href={getWhatsAppLink('Hola, necesito consultar mis resultados de laboratorio')}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="inline-flex items-center gap-3 bg-green-600 hover:bg-green-700 text-white font-bold px-8 py-4 rounded-2xl transition-all shadow-lg hover:shadow-xl text-lg"
+                                >
+                                    <MessageCircle size={24} />
+                                    WhatsApp: {CONTACT_INFO.mainPhoneFormatted}
+                                </a>
                             </div>
 
-                            <div>
-                                <label htmlFor="birthDate" className="block text-sm font-medium text-gray-700 mb-2">
-                                    Fecha de Nacimiento
-                                </label>
-                                <input
-                                    type="date"
-                                    id="birthDate"
-                                    className="w-full px-4 py-4 border border-gray-300 rounded-2xl focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all"
-                                />
-                            </div>
-
-                            <button
-                                type="submit"
-                                className="w-full bg-green-900 text-white py-4 rounded-2xl font-bold text-lg hover:bg-green-800 transition-all shadow-lg flex items-center justify-center gap-3"
-                            >
-                                <Download size={24} />
-                                Consultar Resultados
-                            </button>
-                        </form>
-
-                        <div className="mt-12 pt-8 border-t border-gray-100">
-                            <div className="flex items-start gap-4 p-4 bg-blue-50 rounded-2xl border border-blue-100">
-                                <ShieldCheck size={24} className="text-blue-600 shrink-0 mt-1" />
-                                <div>
-                                    <h3 className="font-bold text-blue-900 mb-1 text-sm">Tus datos están seguros</h3>
-                                    <p className="text-blue-800 text-xs leading-relaxed">
-                                        Cumplimos con los más altos estándares de seguridad y privacidad para proteger tu información médica confidencial.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="mt-8 text-center text-sm text-gray-500">
-                            <p>¿Tienes problemas para consultar tus resultados?</p>
-                            <a href="tel:5512345678" className="text-green-700 font-bold hover:underline">Contáctanos al 55 1234 5678</a>
+                            <p className="text-sm text-gray-500">
+                                ¿Prefieres llamar?{' '}
+                                <a href={`tel:${CONTACT_INFO.mainPhone}`} className="text-green-700 font-bold hover:underline">
+                                    {CONTACT_INFO.mainPhoneFormatted}
+                                </a>
+                            </p>
                         </div>
                     </div>
                 </div>

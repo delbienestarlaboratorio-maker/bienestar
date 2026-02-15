@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation';
+import { Metadata } from 'next';
 import studiesData from '@/data/studies.json';
 import BuyButton from '@/components/BuyButton';
 
@@ -11,6 +12,28 @@ interface PageProps {
         categoria: string;
         slug: string;
     }>;
+}
+
+// Dynamic SEO metadata for each study
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+    const { categoria, slug } = await params;
+    const study: any = (studiesData as any[]).find((s: any) => s.slug === slug && s.categoryId === categoria);
+
+    if (!study) return { title: 'Estudio no encontrado' };
+
+    const price = study.pricePromotional || study.priceRegular;
+    const description = study.metaDescription ||
+        `${study.name} desde $${Math.round(price)} MXN en Laboratorio Del Bienestar, Tizayuca, Hidalgo. Resultados confiables. WhatsApp 771-685-4026.`;
+
+    return {
+        title: `${study.name} | Laboratorio Del Bienestar — Tizayuca`,
+        description,
+        openGraph: {
+            title: `${study.name} — $${Math.round(price)} MXN`,
+            description,
+            type: 'website',
+        },
+    };
 }
 
 export default async function StudyDetailPage({ params }: PageProps) {
@@ -82,10 +105,18 @@ export default async function StudyDetailPage({ params }: PageProps) {
 
                         <div className="flex flex-wrap items-center gap-6 mt-8">
                             <div className="bg-white/15 backdrop-blur-md px-8 py-4 rounded-2xl shadow-2xl ring-2 ring-white/20">
-                                <div className="text-sm font-semibold text-white/80 uppercase tracking-wide mb-1">Precio</div>
+                                <div className="text-sm font-semibold text-white/80 uppercase tracking-wide mb-1">Nuestro Precio</div>
                                 <div className="text-5xl font-extrabold">
                                     ${formattedPrice} <span className="text-2xl font-semibold text-white/90">MXN</span>
                                 </div>
+                                {study.priceRegular && study.pricePromotional && study.priceRegular > study.pricePromotional && (
+                                    <div className="mt-2 flex items-center gap-3">
+                                        <span className="text-white/60 line-through text-lg">${study.priceRegular.toFixed(0)}</span>
+                                        <span className="bg-green-400/30 backdrop-blur-sm text-white px-3 py-1 rounded-full text-sm font-bold">
+                                            Ahorras ${(study.priceRegular - study.pricePromotional).toFixed(0)} MXN
+                                        </span>
+                                    </div>
+                                )}
                             </div>
                             <div className="flex gap-3 flex-1 flex-wrap">
                                 <BuyButton
