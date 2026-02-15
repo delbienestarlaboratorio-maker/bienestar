@@ -49,6 +49,8 @@ async function main() {
                 what_is_it,
                 what_does_it_detect,
                 detailed_preparation,
+                preparation,
+                turnaround_time,
                 benefits,
                 faqs,
                 search_terms
@@ -60,13 +62,23 @@ async function main() {
 
     console.log(`✅ ${studies.length} estudios activos encontrados`);
 
-    // Transform data: Ensure jsonb columns are objects, not strings (driver handles this but being safe)
-    // Also format price
+    // Transform: map snake_case DB columns to camelCase keys expected by page components
     const exportedStudies = studies.map(s => ({
-        ...s,
-        price_regular: Number(s.price_regular),
-        price_promotional: Number(s.price_promotional),
-        // jsonb fields are already objects thanks to neon driver
+        id: s.id,
+        name: s.name,
+        slug: s.slug,
+        description: s.description,
+        categoryId: s.category_id,
+        priceRegular: Number(s.price_regular),
+        pricePromotional: Number(s.price_promotional),
+        whatIsIt: s.what_is_it,
+        whatDoesItDetect: s.what_does_it_detect,
+        detailedPreparation: s.detailed_preparation,
+        preparation: s.preparation,
+        turnaroundTime: s.turnaround_time,
+        benefits: s.benefits,
+        faqs: s.faqs,
+        searchTerms: s.search_terms,
     }));
 
     const outputPath = path.resolve('./src/data/studies.json');

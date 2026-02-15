@@ -54,23 +54,21 @@ export default async function StudyDetailPage({ params }: PageProps) {
         const formattedPrice = typeof price === 'number' ? price.toFixed(2) : '0.00';
 
 
-        // Parse FAQs, Reviews, and Benefits if they're JSON strings or arrays
-        let faqs: any[] = [];
-        let reviews: any[] = [];
-        let benefits: any[] = [];
-        try {
-            faqs = typeof study.faqs === 'string' ? JSON.parse(study.faqs) : (Array.isArray(study.faqs) ? study.faqs : []);
-            reviews = typeof study.reviews === 'string' ? JSON.parse(study.reviews) : (Array.isArray(study.reviews) ? study.reviews : []);
-            benefits = typeof study.benefits === 'string' ? JSON.parse(study.benefits) : (Array.isArray(study.benefits) ? study.benefits : []);
-        } catch (e) {
-            // If parsing fails, use empty arrays
-            console.error('Error parsing study data:', e);
+        // Safely parse jsonb fields that can be arrays or strings
+        function safeParseArray(val: any): any[] {
+            if (!val) return [];
+            if (Array.isArray(val)) return val;
+            if (typeof val === 'string') {
+                try { const p = JSON.parse(val); return Array.isArray(p) ? p : [val]; } catch { return val.split('\n').filter((l: string) => l.trim()); }
+            }
+            return [];
         }
 
-        // Get benefits text (could be array with single text or just array of strings)
-        const benefitsText = Array.isArray(benefits) && benefits.length > 0
-            ? (typeof benefits[0] === 'string' ? benefits[0] : benefits.join(' '))
-            : '';
+        const faqs = safeParseArray(study.faqs);
+        const reviews = safeParseArray(study.reviews);
+        const benefits = safeParseArray(study.benefits);
+        const whatDetects = safeParseArray(study.what_does_it_detect || study.whatDoesItDetect);
+        const detailedPrep = safeParseArray(study.detailed_preparation || study.detailedPreparation);
 
         return (
             <div className="min-h-screen bg-gradient-to-b from-gray-50 via-white to-gray-50">
@@ -171,7 +169,7 @@ export default async function StudyDetailPage({ params }: PageProps) {
                     )}
 
                     {/* What Does It Detect */}
-                    {study.whatDoesItDetect && (
+                    {whatDetects.length > 0 && (
                         <div className="mb-16 group">
                             <div className="bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 p-10 border border-gray-100 hover:border-purple-200">
                                 <div className="flex items-center gap-4 mb-8">
@@ -185,15 +183,20 @@ export default async function StudyDetailPage({ params }: PageProps) {
                                         <div className="h-1 w-24 bg-gradient-to-r from-purple-500 to-fuchsia-500 rounded-full mt-2"></div>
                                     </div>
                                 </div>
-                                <div className="text-lg text-gray-700 leading-relaxed space-y-4 whitespace-pre-line">
-                                    {study.whatDoesItDetect}
-                                </div>
+                                <ul className="space-y-3">
+                                    {whatDetects.map((item: string, idx: number) => (
+                                        <li key={idx} className="flex items-start gap-3 text-lg text-gray-700">
+                                            <span className="text-purple-500 mt-1">•</span>
+                                            <span>{item}</span>
+                                        </li>
+                                    ))}
+                                </ul>
                             </div>
                         </div>
                     )}
 
                     {/* Benefits - Visual Cards if available */}
-                    {benefitsText && (
+                    {benefits.length > 0 && (
                         <div className="mb-16 group">
                             <div className="bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 p-10 border border-gray-100 hover:border-emerald-200">
                                 <div className="flex items-center gap-4 mb-8">
@@ -207,15 +210,20 @@ export default async function StudyDetailPage({ params }: PageProps) {
                                         <div className="h-1 w-24 bg-gradient-to-r from-emerald-500 to-green-500 rounded-full mt-2"></div>
                                     </div>
                                 </div>
-                                <div className="text-lg text-gray-700 leading-relaxed space-y-4 whitespace-pre-line">
-                                    {benefitsText}
-                                </div>
+                                <ul className="space-y-3">
+                                    {benefits.map((item: string, idx: number) => (
+                                        <li key={idx} className="flex items-start gap-3 text-lg text-gray-700">
+                                            <span className="text-emerald-500 mt-1">✓</span>
+                                            <span>{item}</span>
+                                        </li>
+                                    ))}
+                                </ul>
                             </div>
                         </div>
                     )}
 
                     {/* Preparation with Icons */}
-                    {(study.detailedPreparation || study.preparation) && (
+                    {(detailedPrep.length > 0 || study.preparation) && (
                         <div className="mb-16 group">
                             <div className="bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 p-10 border border-gray-100 hover:border-amber-200">
                                 <div className="flex items-center gap-4 mb-8">
@@ -230,10 +238,10 @@ export default async function StudyDetailPage({ params }: PageProps) {
                                     </div>
                                 </div>
                                 <div className="space-y-4">
-                                    {(study.detailedPreparation || study.preparation).split('\n').filter((line: string) => line.trim()).map((line: string, idx: number) => (
+                                    {(detailedPrep.length > 0 ? detailedPrep : (study.preparation || '').split('\n').filter((l: string) => l.trim())).map((line: string, idx: number) => (
                                         <div key={idx} className="flex items-start gap-4 bg-amber-50/50 rounded-xl p-4 hover:bg-amber-50 transition-colors">
-                                            <span className="text-amber-600 text-2xl mt-0.5">•</span>
-                                            <span className="text-lg text-gray-700 flex-1">{line.trim()}</span>
+                                            <span className="text-amber-600 text-2xl mt-0.5">✓</span>
+                                            <span className="text-lg text-gray-700 flex-1">{typeof line === 'string' ? line.trim() : String(line)}</span>
                                         </div>
                                     ))}
                                 </div>
