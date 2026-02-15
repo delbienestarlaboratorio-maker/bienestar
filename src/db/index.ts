@@ -1,23 +1,12 @@
-import { drizzle } from 'drizzle-orm/node-postgres';
-import { Pool } from 'pg';
+import { drizzle } from 'drizzle-orm/neon-http';
+import { neon } from '@neondatabase/serverless';
 import * as schema from './schema';
 
-// Cargar .env.local solo en desarrollo (no disponible en Vercel)
-if (process.env.NODE_ENV !== 'production') {
-    require('dotenv').config({ path: '.env.local' });
-}
+// Use Neon serverless driver for Vercel Edge/Serverless compatibility
+// This works in both Vercel serverless AND local development
 
-// Configuración de conexión PostgreSQL
 const connectionString = process.env.DATABASE_URL || 'postgresql://postgres:SecurePass2026!@localhost:5432/laboratorio_bienestar';
 
-const pool = new Pool({
-    connectionString,
-    ssl: process.env.DATABASE_URL?.includes('neon.tech')
-        ? { rejectUnauthorized: false }
-        : false,
-    max: 20,
-    idleTimeoutMillis: 30000,
-    connectionTimeoutMillis: 10000,
-});
+const sql = neon(connectionString);
 
-export const db = drizzle(pool, { schema });
+export const db = drizzle(sql, { schema });
