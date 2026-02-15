@@ -3,11 +3,14 @@ import { db } from '@/db/index';
 import { sql } from 'drizzle-orm';
 import { searchStudiesBySymptom } from '@/lib/symptom-search';
 
-// Force rebuild: 2026-02-14T08:42 - Fix symptom search with DATABASE_URL
+// Simplified version - 2026-02-14T20:40 - Test basic DB connection first
 
 export async function POST(request: NextRequest) {
     try {
         const { symptom } = await request.json();
+
+        console.log('[symptom-search] Received symptom:', symptom);
+        console.log('[symptom-search] DATABASE_URL exists:', !!process.env.DATABASE_URL);
 
         if (!symptom || typeof symptom !== 'string') {
             return NextResponse.json(
@@ -16,11 +19,29 @@ export async function POST(request: NextRequest) {
             );
         }
 
-        // Check if DATABASE_URL is configured
+        // Check DATABASE_URL
         if (!process.env.DATABASE_URL) {
-            console.error('[symptom-search] DATABASE_URL not configured');
+            console.error('[symptom-search] DATABASE_URL NOT CONFIGURED!');
             return NextResponse.json(
-                { error: 'Base de datos no configurada. Por favor contacta al administrador.' },
+                { error: 'DATABASE_URL not configured' },
+                { status: 500 }
+            );
+        }
+
+        // Test basic DB connection first
+        console.log('[symptom-search] Testing DB connection...');
+        let totalStudies = 0;
+        try {
+            const countResult = await db.execute(sql`SELECT COUNT(*) as count FROM studies`);
+            totalStudies = Number(countResult.rows[0]?.count || 0);
+            console.log('[symptom-search] DB connected! Total studies:', totalStudies);
+        } catch (dbError) {
+            console.error('[symptom-search] DB CONNECTION FAILED:', dbError);
+            return NextResponse.json(
+                {
+                    error: 'Database connection failed',
+                    details: dbError instanceof Error ? dbError.message : String(dbError)
+                },
                 { status: 500 }
             );
         }
@@ -30,51 +51,38 @@ export async function POST(request: NextRequest) {
 
         if (!searchResult) {
             return NextResponse.json({
-                message: 'No encontré estudios específicos para tu síntoma. Te recomiendo consultar con tu médico para una evaluación personalizada.',
-                recommendedStudies: [],
-                suggestions: [
-                    'Intenta describir tu síntoma de otra forma (ej: "me duele el estómago" en vez de "malestar")',
-                    'Sé más específico sobre tu síntoma principal',
-                    'Revisa nuestro catálogo completo de estudios'
-                ]
+                message: 'No encontré estudios específicos para tu síntoma.',
+                recommendedStudies: []
             });
         }
 
-        // Build WHERE clause with sql template for safety
-        let whereClause = sql`UPPER(name) LIKE ${`%${searchResult.studyNames[0].toUpperCase()}%`}`;
+        console.log('[symptom-search] Search result found:', searchResult.studyNames.length, 'study names');
 
-        for (let i = 1; i < searchResult.studyNames.length; i++) {
-            const pattern = `%${searchResult.studyNames[i].toUpperCase()}%`;
-            whereClause = sql`${whereClause} OR UPPER(name) LIKE ${pattern}`;
-        }
+        // Simple query - just search by first study name to test
+        const firstStudyName = searchResult.studyNames[0];
+        const pattern = `%${firstStudyName.toUpperCase()}%`;
 
-        console.log('[symptom-search] Searching for study names:', searchResult.studyNames);
+        console.log('[symptom-search] Querying for:', firstStudyName);
 
-        // Execute query with proper template literal
         const result = await db.execute(sql`
-            SELECT id, name, description, price_regular as "priceRegular", 
-                   price_promotional as "pricePromotional", slug, category_id as "categoryId", 
+            SELECT id, name, description, 
+                   price_regular as "priceRegular", 
+                   price_promotional as "pricePromotional", 
+                   slug, 
+                   category_id as "categoryId", 
                    turnaround_time as "turnaroundTime"
             FROM studies
-            WHERE (${whereClause})
+            WHERE UPPER(name) LIKE ${pattern}
               AND is_active = true
-            LIMIT 10
+            LIMIT 5
         `);
 
         const recommendedStudies = result.rows || [];
-
-        console.log('[symptom-search] Found studies:', recommendedStudies.length);
-
-        // Build response message
-        const message = `
-${searchResult.message}
-
-Basado en tu síntoma, te recomendamos los siguientes estudios:
-`.trim();
+        console.log('[symptom-search] Found', recommendedStudies.length, 'studies');
 
         return NextResponse.json({
-            message,
-            recommendedStudies: recommendedStudies.map(study => ({
+            message: searchResult.message,
+            recommendedStudies: recommendedStudies.map((study: any) => ({
                 id: study.id,
                 name: study.name,
                 description: study.description,
@@ -85,47 +93,37 @@ Basado en tu síntoma, te recomendamos los siguientes estudios:
             })),
             category: searchResult.category,
             confidence: searchResult.confidence,
-            matchedKeywords: searchResult.matchedKeywords
+            _debug: {
+                totalStudiesInDB: totalStudies,
+                searchedStudyNames: searchResult.studyNames,
+                foundCount: recommendedStudies.length
+            }
         });
 
     } catch (error) {
-        console.error('[symptom-search] ERROR:', error);
-        console.error('[symptom-search] Stack:', error instanceof Error ? error.stack : 'No stack trace');
-        console.error('[symptom-search] DATABASE_URL configured:', !!process.env.DATABASE_URL);
+        console.error('[symptom-search] FATAL ERROR:', error);
+        console.error('[symptom-search] Error stack:', error instanceof Error ? error.stack : 'No stack');
+        console.error('[symptom-search] Error type:', typeof error);
+        console.error('[symptom-search] Error keys:', error ? Object.keys(error) : 'null');
 
         return NextResponse.json(
             {
-                error: 'Error procesando tu consulta. Por favor intenta de nuevo.',
-                details: process.env.NODE_ENV === 'development' ? (error instanceof Error ? error.message : String(error)) : undefined
+                error: 'Error procesando tu consulta',
+                message: error instanceof Error ? error.message : String(error),
+                type: typeof error,
+                stack: error instanceof Error ? error.stack : undefined
             },
             { status: 500 }
         );
     }
 }
 
-// GET method for getting example searches
 export async function GET() {
-    const examples = [
-        'me duele la panza',
-        'estoy muy cansado todo el día',
-        'dolor de cabeza frecuente',
-        'tengo tos con flema',
-        'orino mucho y tengo sed',
-        'subí de peso sin razón',
-        'tengo fiebre y escalofríos',
-        'diarrea constante'
-    ];
-
     return NextResponse.json({
-        examples,
-        categories: [
-            'Síntomas digestivos',
-            'Cansancio y fatiga',
-            'Dolores persistentes',
-            'Síntomas respiratorios',
-            'Problemas urinarios',
-            'Cambios de peso',
-            'Síntomas de infección'
-        ]
+        status: 'ok',
+        endpoint: 'symptom-search',
+        version: '2.0-simplified',
+        timestamp: new Date().toISOString(),
+        databaseConfigured: !!process.env.DATABASE_URL
     });
 }
