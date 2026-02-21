@@ -1,7 +1,50 @@
-import { notFound } from 'next/navigation';
+import { notFound, redirect } from 'next/navigation';
 import { Metadata } from 'next';
 import studiesData from '@/data/studies.json';
 import BuyButton from '@/components/BuyButton';
+
+// Flexible study finder: exact match first, then fuzzy slug match
+function findStudy(slug: string, categoria: string): any {
+    const studies = studiesData as any[];
+    // 1. Exact match on slug + categoryId
+    let study = studies.find(s => s.slug === slug && s.categoryId === categoria);
+    if (study) return { study, redirect: false };
+
+    // 2. Exact match on slug only (ignore category)
+    study = studies.find(s => s.slug === slug);
+    if (study) return { study, redirect: true };
+
+    // 3. Normalize slug and try fuzzy match
+    const norm = slug.replace(/-/g, '').toLowerCase();
+    study = studies.find(s => s.slug.replace(/-/g, '').toLowerCase() === norm);
+    if (study) return { study, redirect: true };
+
+    // 4. Partial match: slug contains or is contained
+    study = studies.find(s => {
+        const sNorm = s.slug.replace(/-/g, '').toLowerCase();
+        return sNorm.includes(norm) || norm.includes(sNorm);
+    });
+    if (study) return { study, redirect: true };
+
+    // 5. Word-based matching (at least 70% of words match)
+    const slugWords = slug.split('-').filter(w => w.length > 2);
+    if (slugWords.length >= 2) {
+        let bestMatch: any = null;
+        let bestScore = 0;
+        for (const s of studies) {
+            const sWords = s.slug.split('-').filter((w: string) => w.length > 2);
+            const matches = slugWords.filter(w => sWords.includes(w)).length;
+            const score = matches / Math.max(slugWords.length, sWords.length);
+            if (score > bestScore && score >= 0.5) {
+                bestScore = score;
+                bestMatch = s;
+            }
+        }
+        if (bestMatch) return { study: bestMatch, redirect: true };
+    }
+
+    return { study: null, redirect: false };
+}
 
 // Use ISR - pages generated on-demand and cached
 export const dynamic = 'force-dynamic';
@@ -17,7 +60,8 @@ interface PageProps {
 // Dynamic SEO metadata for each study
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
     const { categoria, slug } = await params;
-    const study: any = (studiesData as any[]).find((s: any) => s.slug === slug && s.categoryId === categoria);
+    const result = findStudy(slug, categoria);
+    const study = result?.study;
 
     if (!study) return { title: 'Estudio no encontrado' };
 
@@ -40,14 +84,19 @@ export default async function StudyDetailPage({ params }: PageProps) {
     try {
         const { categoria, slug } = await params;
 
-        // Find study from static JSON data
-        const studyData: any = studiesData.find((s: any) =>
-            s.slug === slug && s.categoryId === categoria
-        );
+        // Find study with flexible matching (supports old URLs)
+        const result = findStudy(slug, categoria);
 
-        if (!studyData) {
+        if (!result?.study) {
             notFound();
         }
+
+        // If found via fuzzy match, redirect to canonical URL
+        if (result.redirect && result.study) {
+            redirect(`/estudios/${result.study.categoryId}/${result.study.slug}`);
+        }
+
+        const studyData = result.study;
 
         const study = studyData;
         const price = study.pricePromotional || study.priceRegular || 0;
