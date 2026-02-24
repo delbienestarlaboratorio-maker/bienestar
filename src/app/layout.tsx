@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -37,6 +38,14 @@ export const metadata: Metadata = {
     siteName: "Laboratorio Bienestar",
     locale: "es_MX",
     type: "website",
+    images: [
+      {
+        url: "/images/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Laboratorio Clínico Del Bienestar - Tizayuca, Hidalgo",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
@@ -55,6 +64,7 @@ export const metadata: Metadata = {
 
 import { Header } from "@/components/ui/Header";
 import { Footer } from "@/components/ui/Footer";
+import { WhatsAppFloat } from "@/components/ui/WhatsAppFloat";
 import { AnalyticsProvider } from "@/components/analytics/AnalyticsProvider";
 import { AuthProvider } from "@/components/providers/AuthProvider";
 import { CartProvider } from "@/contexts/CartContext";
@@ -69,8 +79,24 @@ export default function RootLayout({
   return (
     <html lang="es" suppressHydrationWarning>
       <head>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-2E7BK35JBV"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-2E7BK35JBV');
+          `}
+        </Script>
         <OrganizationSchema />
         <LocalBusinessSchema />
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#1B5E20" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
@@ -82,6 +108,7 @@ export default function RootLayout({
             <Header />
             {children}
             <Footer />
+            <WhatsAppFloat />
             <CookieConsent />
           </CartProvider>
         </AuthProvider>

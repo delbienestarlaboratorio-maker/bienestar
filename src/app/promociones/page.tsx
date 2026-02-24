@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Tag, Zap, Clock, ArrowLeft, Gift } from 'lucide-react';
+import { Tag, Zap, Clock, ArrowLeft, Gift, Sparkles } from 'lucide-react';
 
 export default function PromocionesPage() {
     return (
@@ -29,9 +29,9 @@ export default function PromocionesPage() {
                                 <Clock size={16} />
                                 Válido todos los lunes de 2026
                             </div>
-                            <button className="bg-white text-green-900 px-8 py-3 rounded-xl font-bold hover:bg-green-50 transition-colors">
+                            <Link href="/estudios" className="inline-block bg-white text-green-900 px-8 py-3 rounded-xl font-bold hover:bg-green-50 transition-colors">
                                 Ver estudios incluidos
-                            </button>
+                            </Link>
                         </div>
                     </div>
 
@@ -48,9 +48,9 @@ export default function PromocionesPage() {
                                 <Tag size={16} />
                                 Válido durante todo el mes de Marzo
                             </div>
-                            <button className="bg-white text-pink-700 px-8 py-3 rounded-xl font-bold hover:bg-pink-50 transition-colors">
+                            <Link href="/paquetes" className="inline-block bg-white text-pink-700 px-8 py-3 rounded-xl font-bold hover:bg-pink-50 transition-colors">
                                 Ver paquetes
-                            </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -58,9 +58,9 @@ export default function PromocionesPage() {
                 <div className="mt-12 bg-white rounded-3xl p-8 sm:p-12 border border-gray-100 shadow-sm text-center">
                     <h2 className="text-2xl font-bold text-gray-900 mb-4">¿Eres cliente frecuente?</h2>
                     <p className="text-gray-600 mb-8">Únete a nuestro programa de lealtad y obtén beneficios exclusivos en cada visita.</p>
-                    <button className="border-2 border-green-900 text-green-900 px-8 py-3 rounded-xl font-bold hover:bg-green-50 transition-colors">
+                    <Link href="/contacto" className="inline-block border-2 border-green-900 text-green-900 px-8 py-3 rounded-xl font-bold hover:bg-green-50 transition-colors">
                         Saber más sobre el programa
-                    </button>
+                    </Link>
                 </div>
             </div>
         </div>

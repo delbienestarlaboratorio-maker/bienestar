@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Facebook, Instagram, Twitter, Mail, MapPin, Phone } from 'lucide-react';
+import { Facebook, MessageCircle, Mail, MapPin, Phone } from 'lucide-react';
 
 export const Footer = () => {
     return (
@@ -16,9 +16,8 @@ export const Footer = () => {
                         Líderes en diagnósticos clínicos con tecnología de vanguardia y atención personalizada. Tu salud es nuestra prioridad.
                     </p>
                     <div className="flex gap-4">
-                        <a href="#" className="hover:text-white transition-colors"><Facebook size={20} /></a>
-                        <a href="#" className="hover:text-white transition-colors"><Instagram size={20} /></a>
-                        <a href="#" className="hover:text-white transition-colors"><Twitter size={20} /></a>
+                        <a href="https://facebook.com/diagnosticosclinicosbienestar" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors" aria-label="Facebook"><Facebook size={20} /></a>
+                        <a href="https://wa.me/527716854026" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors" aria-label="WhatsApp"><MessageCircle size={20} /></a>
                     </div>
                 </div>
 
@@ -30,6 +29,7 @@ export const Footer = () => {
                         <li><Link href="/check-ups" className="hover:text-white transition-colors">Check-ups</Link></li>
                         <li><Link href="/sucursales" className="hover:text-white transition-colors">Nuestras Sucursales</Link></li>
                         <li><Link href="/blog" className="hover:text-white transition-colors">Blog de Salud</Link></li>
+                        <li><Link href="/nosotros" className="hover:text-white transition-colors">Nosotros</Link></li>
                     </ul>
                 </div>
 
