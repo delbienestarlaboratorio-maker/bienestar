@@ -2,6 +2,7 @@ import { notFound, redirect } from 'next/navigation';
 import { Metadata } from 'next';
 import studiesData from '@/data/studies.json';
 import BuyButton from '@/components/BuyButton';
+import StudyClientSection from '@/components/ui/StudyClientSection';
 
 // Flexible study finder: exact match first, then fuzzy slug match
 function findStudy(slug: string, categoria: string): any {
@@ -217,7 +218,15 @@ export default async function StudyDetailPage({ params }: PageProps) {
                         </div>
                     )}
 
-                    {/* What Does It Detect */}
+                    {/* ═══ COMPARADOR DE PRECIOS + TRACKER ═══ */}
+                    <div className="mb-8">
+                        <StudyClientSection
+                            slug={study.slug}
+                            name={study.name}
+                            price={price}
+                        />
+                    </div>
+
                     {whatDetects.length > 0 && (
                         <div className="mb-16 group">
                             <div className="bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 p-10 border border-gray-100 hover:border-purple-200">

@@ -39,59 +39,57 @@ async function main() {
     console.log(`📖 Leyendo archivo ${FILE_PATH}...`);
     const studies = JSON.parse(fs.readFileSync(FILE_PATH, 'utf-8'));
 
-    console.log('📥 Obteniendo todos los estudios de la DB para matching ...');
-    let dbStudies = [];
-    try {
-        dbStudies = await retry(() => sql`SELECT id, name FROM studies`);
-    } catch (err) {
-        console.error('❌ No se pudo conectar a la DB:', err.message);
-        process.exit(1);
-    }
-
-    console.log(`📊 DB tiene ${dbStudies.length} estudios.`);
-
-    const dbMap = new Map();
-    dbStudies.forEach(s => {
-        dbMap.set(normalize(s.name), s);
-    });
+    // SKIP global fetch. It seems unreliable or truncated.
+    // dbStudies = await retry(() => sql`SELECT id, name FROM studies`);
+    // console.log(`📊 DB tiene ${dbStudies.length} estudios.`);
 
     let success = 0;
     let errors = 0;
 
     for (const study of studies) {
         try {
-            let match = dbStudies.find(s => s.name === study.name);
+            console.log(`🔄 Procesando estudio ID: "${study.id}" (${study.description.substring(0, 30)}...)...`);
 
-            if (!match) {
-                const normalizedInput = normalize(study.name);
-                match = dbMap.get(normalizedInput);
-                if (!match) {
-                    match = dbStudies.find(s => normalize(s.name).includes(normalizedInput) || normalizedInput.includes(normalize(s.name)));
-                }
-            }
-
-            if (!match) {
-                console.log(`⚠️ NO ENCONTRADO: "${study.name}"`);
+            // Direct UPDATE by ID
+            // We use study.id directly.
+            if (!study.id) {
+                console.log(`⚠️ SALTADO: No tiene ID en el archivo JSON`);
                 errors++;
                 continue;
             }
 
-            console.log(`🔄 Actualizando: "${match.name}"...`);
-
-            await retry(() => sql`
+            const result = await retry(() => sql`
                 UPDATE studies SET
                     description = ${study.description},
-                    what_is_it = ${study.whatIsIt},
-                    what_does_it_detect = ${JSON.stringify(study.whatDoesItDetect)}::jsonb,
-                    detailed_preparation = ${JSON.stringify(study.detailedPreparation)}::jsonb,
+                    what_is_it = ${study.whatIsIt || study.what_is_it},
+                    what_does_it_detect = ${JSON.stringify(study.whatDoesItDetect || study.what_does_it_detect)}::jsonb,
+                    detailed_preparation = ${JSON.stringify(study.detailedPreparation || study.detailed_preparation)}::jsonb,
                     benefits = ${JSON.stringify(study.benefits)}::jsonb,
                     faqs = ${JSON.stringify(study.faqs)}::jsonb
-                WHERE id = ${match.id}
+                WHERE id = ${study.id}
+                RETURNING id
             `);
 
-            success++;
+            // Checking result.count (postgres.js / neon driver usually returns count: number inside result or as result.count)
+            // neon serverless driver returns array of rows, but also has .count or .rowCount property on the result object?
+            // Actually, neon driver returns rows array. To get count, we need to check documentation or result.
+            // But wait, the result IS the array of rows for SELECT. for UPDATE it might be different.
+            // Let's assume standard postgres.js behavior: result is array-like but has `count`.
+
+            // Actually, neon http driver returns { rowCount: number, command: string, rows: [] } or just rows?
+            // documentation says: result is array of rows. 
+            // BUT for INSERT/UPDATE, it returns array of rows if RETURNING is used, otherwise... ?
+            // Let's use RETURNING id to be sure we updated something.
+
+            // Re-writing query to RETURN id
+            if (result && result.length > 0) {
+                success++;
+            } else {
+                console.log(`⚠️ NO ENCONTRADO en DB o no actualizado: ID ${study.id}`);
+                errors++;
+            }
         } catch (err) {
-            console.error(`❌ Error en ${study.name}: ${err.message}`);
+            console.error(`❌ Error en ${study.id}: ${err.message}`);
             errors++;
         }
     }
