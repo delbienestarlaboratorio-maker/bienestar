@@ -14532,6 +14532,202 @@ La nutrición no es "una talla para todos". Lo que funciona para una persona pue
 ---
 
 **¿Quieres saber exactamente qué nutrientes necesitas?** En Laboratorio Del Bienestar ofrecemos perfiles nutricionales completos. [Agenda tu estudio](/agendar) o llámanos al **771 685 4026**. Nutre tu cuerpo con inteligencia.`,
+  "biometria-hematica-que-es-precio": `# Biometría Hemática: ¿Qué es, Para Qué Sirve y Cuánto Cuesta?
+
+La **biometría hemática** (también conocida como "BH" o "hemograma") es el estudio de sangre más solicitado en México. Si alguna vez te pidieron "un análisis de sangre completo", muy probablemente se referían a este estudio. Aquí te explicamos todo lo que necesitas saber.
+
+## ¿Qué es exactamente la biometría hemática?
+
+Es un análisis que examina los **tres tipos principales de células en tu sangre:**
+
+1. **Glóbulos rojos (eritrocitos):** Transportan oxígeno por tu cuerpo
+2. **Glóbulos blancos (leucocitos):** Son tu ejército de defensa contra infecciones
+3. **Plaquetas (trombocitos):** Se encargan de la coagulación (detener sangrados)
+
+Con una sola muestra de sangre del brazo, el laboratorio obtiene más de **20 valores diferentes** que revelan cómo está funcionando tu cuerpo por dentro.
+
+## ¿Para qué sirve? ¿Qué detecta?
+
+La biometría hemática puede detectar o sugerir:
+
+### Problemas que detecta directamente:
+- **Anemia:** Glóbulos rojos o hemoglobina bajos = cansancio, mareos, palidez
+- **Infecciones:** Glóbulos blancos altos = tu cuerpo está peleando contra algo
+- **Alergias:** Eosinófilos elevados = posible alergia o parásitos
+- **Problemas de coagulación:** Plaquetas alteradas = sangrados fáciles o riesgo de coágulos
+- **Deshidratación:** Hematocrito alto puede indicar falta de líquidos
+
+### Problemas que puede alertar tempranamente:
+- Leucemia y otros cánceres de la sangre
+- Enfermedades autoinmunes
+- Infecciones crónicas ocultas
+- Deficiencias nutricionales (hierro, B12, ácido fólico)
+- Efectos secundarios de medicamentos
+
+## ¿Necesito ayuno para la biometría hemática?
+
+**Idealmente sí, pero no es estricto.** Te recomendamos ayuno de **8 horas** para obtener los valores más precisos, especialmente si la biometría viene acompañada de otros estudios como glucosa o perfil de lípidos.
+
+Si solo te harás la biometría, un ayuno de **4 horas** es suficiente.
+
+### Otras preparaciones:
+- Puedes **tomar agua** libremente (de hecho, ayuda a la extracción)
+- Toma tus **medicamentos habituales** a menos que tu médico diga lo contrario
+- Evita **ejercicio intenso** 24 horas antes
+- Duerme bien la noche anterior
+
+## ¿Cuánto cuesta una biometría hemática en 2026?
+
+| Laboratorio | Precio aproximado |
+|-------------|------------------|
+| **Lab Bienestar (Tizayuca)** | **$110** |
+| Salud Digna | $150-$200 |
+| Chopo | $250-$350 |
+| Hospital privado | $400-$600 |
+| Laboratorio de especialidad | $300-$500 |
+
+En **Laboratorio Del Bienestar** es uno de los estudios con mejor precio de la región. Resultado el mismo día.
+
+## ¿Cómo leer tus resultados?
+
+### Valores normales de referencia (adultos):
+
+| Parámetro | Hombres | Mujeres | ¿Qué significa si está alterado? |
+|-----------|---------|---------|----------------------------------|
+| Hemoglobina | 13.5-17.5 g/dL | 12-16 g/dL | Bajo = anemia; Alto = deshidratación |
+| Hematocrito | 40-54% | 36-48% | Proporción de glóbulos rojos |
+| Leucocitos | 4,500-11,000/μL | 4,500-11,000/μL | Alto = infección; Bajo = inmunodeficiencia |
+| Plaquetas | 150,000-400,000/μL | 150,000-400,000/μL | Bajo = riesgo de sangrado |
+
+> ⚠️ **Importante:** Esta tabla es solo de referencia. **No te autodiagnostiques.** Tu médico interpretará los resultados en el contexto de tu salud completa.
+
+## ¿Cada cuánto debo hacerme una biometría?
+
+- **Personas sanas:** Una vez al año como parte de tu check-up
+- **Personas con enfermedades crónicas:** Cada 3-6 meses según indique tu médico
+- **Embarazadas:** Al menos una por trimestre
+- **Antes de cirugías:** Es requisito obligatorio
+
+## Preguntas frecuentes
+
+### ¿Duele la extracción de sangre?
+Es un piquete rápido (3-5 segundos). Se obtiene una muestra pequeña del brazo. La mayoría de las personas dice que "ni lo sintió".
+
+### ¿Cuándo tengo mis resultados?
+En Laboratorio Del Bienestar, la biometría se entrega el **mismo día** en la mayoría de los casos.
+
+### ¿Puedo hacérmela sin orden médica?
+**Sí.** No necesitas receta para solicitar una biometría hemática. Aunque siempre recomendamos que un médico interprete tus resultados.
+
+---
+
+**¿Necesitas una biometría hemática?** En Laboratorio Del Bienestar la tenemos por solo **$110**, con resultados el mismo día. [Agenda tu cita](/agendar) | 📞 **771 685 4026** | 💬 [WhatsApp](https://wa.me/527716854026)`,
+  "check-up-basico-barato-que-incluye": `# Check-up Básico Barato: ¿Qué Incluye y Dónde Hacértelo en Hidalgo?
+
+Quieres hacerte un chequeo general pero no sabes por dónde empezar ni cuánto te va a costar. La buena noticia: un **check-up básico completo** no tiene por qué costarte una fortuna. En este artículo te explicamos exactamente qué debe incluir, cuánto cuesta y dónde hacértelo en la zona de Tizayuca-Pachuca.
+
+## ¿Qué es un check-up básico?
+
+Es un **conjunto de análisis de laboratorio** diseñado para evaluar el estado general de tu salud. Piensa en él como el "servicio" de tu coche — revisas que todo funcione antes de que algo falle.
+
+## ¿Qué debe incluir un buen check-up básico?
+
+### Los 6 estudios esenciales:
+
+| # | Estudio | ¿Qué revisa? |
+|---|---------|--------------|
+| 1 | **Biometría hemática** | Anemia, infecciones, defensas, plaquetas |
+| 2 | **Glucosa** | Diabetes y prediabetes |
+| 3 | **Perfil de lípidos** | Colesterol bueno, malo y triglicéridos |
+| 4 | **Función renal** (urea, creatinina) | Que tus riñones filtren correctamente |
+| 5 | **Función hepática** (TGO, TGP) | Salud del hígado |
+| 6 | **Examen general de orina** | Infecciones, riñones, diabetes |
+
+Con estos 6 estudios cubres el **80% de lo que un médico necesita saber** para evaluarte.
+
+## ¿Cuánto cuesta un check-up básico?
+
+### Comparativa de precios en la zona (2026):
+
+| Laboratorio | Check-up básico | ¿Qué incluye? |
+|-------------|----------------|----------------|
+| **Lab Bienestar (Tizayuca)** | **$599** | 8+ estudios, resultado mismo día |
+| Salud Digna | $800-$1,200 | Similar, espera larga |
+| Chopo | $1,500-$2,500 | Más amplio, precio más alto |
+| Hospital privado | $3,000-$5,000 | Incluye consulta médica |
+
+**Dato:** Si compraras los mismos 8 estudios por separado en una cadena, pagarías **$1,800+**. Con nuestro paquete ahorras más del 60%.
+
+## ¿Cuándo deberías hacerte un check-up?
+
+### Cada año si:
+- Tienes más de **30 años**
+- Tienes historial familiar de diabetes, hipertensión o cáncer
+- Fumas o consumes alcohol regularmente
+- Llevas una vida sedentaria
+- Tienes sobrepeso
+
+### Cada 6 meses si:
+- Ya tienes una enfermedad crónica diagnosticada
+- Tomas medicamentos de uso continuo
+- Tu médico lo indicó
+
+### ¡AHORA si:
+- No te has hecho análisis en más de 2 años
+- Tienes cansancio inexplicable, sed excesiva, o dolor constante
+- Vas a iniciar una dieta o rutina de ejercicio nueva
+
+## ¿Cómo prepararte para tu check-up?
+
+La preparación es sencilla:
+
+1. **Ayuno de 10-12 horas** (puedes tomar agua natural)
+2. **Llega entre 7-9 AM** para terminar temprano y desayunar
+3. **Trae tu receta** si tienes alguna de tu médico
+4. **Lista de medicamentos** que tomas actualmente
+5. **Ropa cómoda** con manga holgada (se toma sangre del brazo)
+6. **Trae un snack** para después de la toma de muestra
+
+## Check-up por edad y sexo: ¿qué agregar?
+
+### Mujeres 30+:
+Agrega **perfil tiroideo** ($399). Los problemas de tiroides afectan 5x más a mujeres.
+
+### Hombres 40+:
+Agrega **antígeno prostático PSA** ($299). Es la detección temprana de cáncer de próstata.
+
+### Todos 45+:
+Agrega **hemoglobina glucosilada** ($299). Muestra tu promedio de azúcar de 3 meses — más preciso que la glucosa sola.
+
+## Las excusas más comunes (y por qué no son válidas)
+
+### "No tengo tiempo"
+La toma de muestra dura **10 minutos**. Menos que ir por un café.
+
+### "Me da miedo la aguja"
+Usamos agujas ultra-finas. La mayoría de pacientes dice: "¿ya acabó?"
+
+### "Si me siento bien, no necesito análisis"
+El colesterol alto, la prediabetes y la hipertensión **NO dan síntomas** hasta que ya es tarde. Eso los hace tan peligrosos.
+
+### "Es muy caro"
+Un check-up de $599 puede detectar una diabetes temprana. Sin detección, la diabetes cuesta **$50,000+/año** en medicamentos y complicaciones.
+
+## ¿Dónde hacerte tu check-up en la zona de Tizayuca?
+
+📍 **Laboratorio Del Bienestar**
+Ignacio Rodríguez Galván 10, Local 11, Plaza Bonanza, 43800 Tizayuca, Hidalgo
+
+- ⏰ Lunes a Viernes: 7:00 AM - 7:00 PM
+- ⏰ Sábados: 7:00 AM - 3:00 PM
+- 📞 771 685 4026
+- 💬 WhatsApp disponible
+- 💳 Aceptamos todas las formas de pago
+- 🚗 Estacionamiento disponible en Plaza Bonanza
+
+---
+
+**Tu salud no puede esperar.** Un check-up de **$599** hoy puede ahorrarte miles mañana. [Agenda tu check-up](/agendar) | 📞 **771 685 4026** | 💬 [WhatsApp](https://wa.me/527716854026)`,
   "check-up-deportivo-pro-novedades": `# Check-up Deportivo Pro: Novedades
 La **prevención** es la medicina más inteligente y económica que existe. Detectar un problema de salud en etapa temprana no solo puede salvar tu vida, sino que reduce hasta un **90% los costos de tratamiento** comparado con un diagnóstico tardío. Hoy te contamos todo sobre **check-up deportivo pro: novedades** y cómo puede transformar tu relación con tu salud.
 
@@ -14602,6 +14798,91 @@ Más allá de los análisis, la prevención incluye:
 ---
 
 **No esperes a sentirte mal para cuidar tu salud.** En Laboratorio Del Bienestar tenemos paquetes de check-up adaptados a tu edad y necesidades, a precios accesibles. [Agenda tu check-up preventivo](/agendar) o llámanos al **771 685 4026**. Prevenir hoy es vivir mejor mañana.`,
+  "cuanto-cuesta-analisis-sangre-tizayuca": `# ¿Cuánto Cuesta un Análisis de Sangre en Tizayuca? Precios 2026
+
+Una de las preguntas más comunes que recibimos es: **"¿Cuánto me va a costar hacerme unos análisis de sangre?"** Es una pregunta válida, porque los precios varían enormemente entre laboratorios. Aquí te damos la guía completa con precios reales actualizados a febrero 2026.
+
+## Precios promedio de análisis de sangre en Tizayuca
+
+### Estudios básicos (los más económicos)
+
+| Estudio | Precio en Lab Bienestar | Precio promedio en la zona |
+|---------|------------------------|---------------------------|
+| **Glucosa** | $70 | $120-$180 |
+| **Biometría hemática** | $110 | $180-$300 |
+| **Examen general de orina** | $80 | $120-$200 |
+| **Tipo de sangre** | $90 | $150-$200 |
+| **Ácido úrico** | $80 | $130-$180 |
+
+### Perfiles y paquetes (mejor relación precio-beneficio)
+
+| Estudio | Precio en Lab Bienestar | Precio promedio |
+|---------|------------------------|-----------------|
+| **Química sanguínea 6 elementos** | $220 | $350-$500 |
+| **Perfil de lípidos completo** | $250 | $400-$600 |
+| **Perfil tiroideo** | $399 | $600-$900 |
+| **Perfil hepático** | $350 | $500-$700 |
+| **Check-up básico** | $599 | $900-$1,500 |
+
+## ¿Por qué los precios varían tanto entre laboratorios?
+
+La diferencia de precios entre laboratorios se debe a varios factores:
+
+1. **Cadenas grandes vs. laboratorios locales:** Las grandes cadenas (Chopo, Salud Digna) tienen costos de infraestructura más altos que transfieren al cliente
+2. **Ubicación:** Un laboratorio en Santa Fe, CDMX cobra más que uno en Tizayuca por el mismo estudio
+3. **Volumen:** Laboratorios con alto volumen pueden ofrecer mejores precios
+4. **Intermediarios:** Algunos laboratorios tercerizan sus análisis, lo que encarece el servicio
+
+En **Laboratorio Del Bienestar** procesamos las muestras directamente con nuestro equipo certificado, sin intermediarios. Eso nos permite ofrecer **precios hasta 40% más bajos** sin sacrificar calidad.
+
+## ¿En qué situaciones necesitas un análisis de sangre?
+
+### Check-up anual (prevención)
+Todo adulto debería hacerse al menos una biometría hemática y química sanguínea básica una vez al año. Costo aproximado en nuestro laboratorio: **$330**.
+
+### Si tu médico te lo pidió
+La orden médica generalmente especifica los estudios exactos. Trae tu receta y te cotizamos en el momento sin compromiso.
+
+### Síntomas que requieren análisis urgente
+- Fatiga extrema sin explicación → Biometría + Tiroides
+- Sed excesiva + orinar mucho → Glucosa + HbA1c
+- Dolor articular → Ácido úrico + PCR
+- Pérdida de peso sin dieta → Tiroides + Glucosa + Química
+
+## Cómo ahorrar en tus análisis de sangre
+
+### 1. Elige un laboratorio local de confianza
+Los laboratorios locales como el nuestro ofrecemos **mejor precio-calidad** que las grandes cadenas.
+
+### 2. Pide un paquete en lugar de estudios individuales
+Un check-up básico de $599 incluye 8+ estudios que individualmente costarían más de $900.
+
+### 3. Aprovecha promociones
+Regularmente tenemos descuentos en paquetes preventivos. Síguenos en redes o pregunta en sucursal.
+
+### 4. No pospongas
+Un análisis preventivo de $300 puede detectar una diabetes temprana que, sin control, cuesta más de $50,000 al año en tratamiento.
+
+## ¿Qué incluye el precio?
+
+En Laboratorio Del Bienestar, el precio incluye:
+
+- ✅ Toma de muestra por personal certificado
+- ✅ Procesamiento con equipo de última generación
+- ✅ Resultados impresos y/o digitales
+- ✅ Asesoría básica sobre tus valores
+- ✅ Sin cargos ocultos ni "cuotas de procesamiento"
+
+## Formas de pago
+
+- 💵 Efectivo
+- 💳 Tarjeta de débito y crédito
+- 📱 Transferencia bancaria
+- 🔗 Pago en línea desde nuestra página
+
+---
+
+**¿Listo para hacerte tus análisis?** Visítanos en Plaza Bonanza, Tizayuca, o consulta nuestro [catálogo completo con precios](/estudios). 📞 **771 685 4026** | 💬 [WhatsApp](https://wa.me/527716854026)`,
   "enero-mes-salud-preventiva": `# Enero: El mes de la salud preventiva
 La salud es un estado de **bienestar integral** que abarca lo físico, lo mental y lo emocional. No se trata simplemente de la ausencia de enfermedad, sino de sentirte bien, tener energía y poder disfrutar de tu vida plenamente. Hoy exploramos **enero: el mes de la salud preventiva**, un tema que afecta tu bienestar de maneras que quizás no imaginabas.
 
@@ -14670,6 +14951,186 @@ Sin salud, nada más importa. No esperes a que tu cuerpo te envíe señales urge
 ---
 
 **En Laboratorio Del Bienestar** estamos comprometidos con tu bienestar integral. Ofrecemos estudios de calidad, resultados rápidos y precios accesibles. [Agenda tu estudio](/agendar) o contáctanos al **771 685 4026**. Tu salud merece atención hoy.`,
+  "glucosa-en-ayunas-valores-normales": `# Glucosa en Ayunas: Valores Normales, Qué Significan y Cuándo Preocuparte
+
+México es el **5° país con más diabéticos en el mundo**. Más de 12 millones de mexicanos viven con diabetes, y se estima que **otros 4 millones no saben que la tienen**. Un simple examen de glucosa en ayunas de $70 puede cambiarte la vida — literalmente.
+
+## ¿Qué es la glucosa en ayunas?
+
+Es la medición del azúcar en tu sangre después de **no comer durante 8-12 horas**. Es el indicador más importante para saber si tienes diabetes, prediabetes, o si tu cuerpo maneja bien el azúcar.
+
+## Valores normales de glucosa en ayunas
+
+| Resultado | Interpretación | ¿Qué hacer? |
+|-----------|---------------|-------------|
+| **70-100 mg/dL** | ✅ Normal | Mantener hábitos saludables |
+| **100-125 mg/dL** | ⚠️ Prediabetes | Cambiar alimentación + ejercicio |
+| **126+ mg/dL** | 🔴 Diabetes probable | Consultar médico urgente |
+| **Menos de 70 mg/dL** | ⚠️ Hipoglucemia | Evaluar causa con médico |
+
+> **Importante:** Un solo resultado alto no confirma diabetes. Se necesitan **dos mediciones en días diferentes** superiores a 126 mg/dL para el diagnóstico.
+
+## ¿Por qué es TAN importante este estudio?
+
+### La diabetes es silenciosa
+La mayoría de las personas con prediabetes **no tienen síntomas**. Cuando aparecen los síntomas clásicos (sed excesiva, orinar mucho, visión borrosa), el daño ya lleva años.
+
+### El costo de no saber
+| Sin diagnóstico | Con diagnóstico temprano |
+|-----------------|--------------------------|
+| Daño renal progresivo | Prevención con dieta y ejercicio |
+| Ceguera por retinopatía | Revisiones oftalmológicas preventivas |
+| Amputaciones | Cuidado adecuado del pie diabético |
+| $50,000+/año en medicamentos | $300-$1,000/año en prevención |
+
+### 1 de cada 3 mexicanos tiene prediabetes
+Si tu glucosa está entre 100-125, **aún estás a tiempo**. Con cambios en alimentación y 30 minutos diarios de caminata, la prediabetes es **reversible** en el 80% de los casos.
+
+## ¿Cómo prepararte para el examen de glucosa?
+
+1. **Ayuno de 8-12 horas** (puedes tomar agua)
+2. **No hagas ejercicio intenso** la noche anterior
+3. **Duerme bien** (el mal sueño puede elevar la glucosa)
+4. **Toma tus medicamentos** habituales a menos que tu médico diga lo contrario
+5. **Llega temprano** (7-9 AM es ideal para romper el ayuno rápido)
+
+## ¿Cuánto cuesta el examen de glucosa?
+
+| Laboratorio | Precio |
+|-------------|--------|
+| **Lab Bienestar (Tizayuca)** | **$70** |
+| Promedio cadena nacional | $120-$180 |
+| Hospital privado | $200-$350 |
+
+Es probablemente el estudio más **barato y más importante** que existe. $70 por saber si estás bien.
+
+## ¿Quiénes DEBEN hacerse glucosa en ayunas?
+
+- ✅ Todos los adultos mayores de **35 años** (anual)
+- ✅ Personas con **sobrepeso u obesidad**
+- ✅ Si tienes **familiares diabéticos** (padres, hermanos)
+- ✅ Mujeres que tuvieron **diabetes gestacional**
+- ✅ Personas con vida **sedentaria**
+- ✅ Si comes mucha azúcar o harinas refinadas
+- ✅ Si notas **sed excesiva, cansancio o visión borrosa**
+
+## Otros estudios complementarios para diabetes
+
+Si tu glucosa sale alterada, tu médico podría pedirte:
+
+| Estudio | Para qué sirve | Precio Lab Bienestar |
+|---------|----------------|---------------------|
+| **Hemoglobina glucosilada (HbA1c)** | Promedio de azúcar en 3 meses | $299 |
+| **Curva de tolerancia** | Confirmar diabetes/prediabetes | $250 |
+| **Insulina en ayunas** | Detectar resistencia a insulina | $350 |
+| **Perfil renal** | Ver si hay daño a riñones | $300 |
+
+## 5 consejos para mantener tu glucosa normal
+
+1. **Camina 30 minutos diarios** — el ejercicio más simple y efectivo
+2. **Reduce azúcares y harinas blancas** — no los elimines, solo reduce
+3. **Come más fibra** — frijoles, verduras, avena, frutas con cáscara
+4. **Toma agua** en lugar de refresco o jugos industrializados
+5. **Hazte tu glucosa cada año** — la prevención es tu mejor inversión
+
+---
+
+**No esperes a tener síntomas.** Un examen de glucosa de **$70** puede detectar lo que 4 millones de mexicanos no saben. Visítanos en Tizayuca. [Agenda tu estudio](/agendar) | 📞 **771 685 4026** | 💬 [WhatsApp](https://wa.me/527716854026)`,
+  "laboratorio-clinico-tizayuca-precios": `# Laboratorio Clínico en Tizayuca: Precios, Ubicación y Servicios 2026
+
+Si estás buscando un **laboratorio clínico en Tizayuca** confiable, con precios accesibles y resultados rápidos, has llegado al lugar correcto. En **Diagnósticos Clínicos Bienestar** ofrecemos más de 500 estudios de laboratorio a precios que caben en tu bolsillo.
+
+## ¿Por qué elegir nuestro laboratorio en Tizayuca?
+
+A diferencia de las grandes cadenas como Salud Digna o Chopo, en Laboratorio Del Bienestar ofrecemos:
+
+- **Precios hasta 40% más bajos** que laboratorios de cadena
+- **Resultados el mismo día** en la mayoría de estudios
+- **Atención personalizada** sin filas de 2 horas
+- **Tecnología de vanguardia** con equipo certificado
+- **Ubicación céntrica** en Plaza Bonanza, fácil de llegar
+
+## Precios de estudios más solicitados en Tizayuca (2026)
+
+| Estudio | Nuestro precio | Cadena promedio |
+|---------|---------------|-----------------|
+| Biometría hemática | $110 | $180-$250 |
+| Glucosa | $70 | $120-$150 |
+| Química sanguínea 6 elementos | $220 | $350-$450 |
+| Perfil tiroideo | $399 | $600-$800 |
+| Examen general de orina | $80 | $120-$180 |
+| Perfil de lípidos | $250 | $400-$500 |
+
+> **Nota:** Precios sujetos a cambio. Consulta nuestro catálogo completo en [laboratorio.delbienestar.com.mx/estudios](/estudios).
+
+## ¿Dónde estamos ubicados?
+
+📍 **Dirección:** Ignacio Rodríguez Galván 10, Local 11, Plaza Bonanza, 43800 Tizayuca, Hidalgo.
+
+**Referencias:** Junto a BBVA, a una cuadra del centro de Tizayuca.
+
+**¿Cómo llegar?**
+- Desde la carretera México-Pachuca: toma la salida a Tizayuca Centro
+- En transporte público: cualquier ruta que pase por el centro, bájate en Plaza Bonanza
+- Si vienes de Pachuca: son solo 25 minutos por autopista
+
+## Horarios de atención
+
+| Día | Horario |
+|-----|---------|
+| Lunes a Viernes | 7:00 AM - 7:00 PM |
+| Sábados | 7:00 AM - 3:00 PM |
+| Domingos | Cerrado |
+
+**Tip:** Para estudios que requieren ayuno, te recomendamos llegar temprano (7:00-9:00 AM). Así desayunas más rápido.
+
+## Estudios más solicitados en nuestra sucursal de Tizayuca
+
+### 1. Biometría Hemática
+El estudio más completo de la sangre. Detecta anemia, infecciones y problemas de coagulación. Resultado el mismo día.
+
+### 2. Glucosa en ayunas
+Fundamental para detectar diabetes o prediabetes. México tiene más de 12 millones de diabéticos — muchos no lo saben.
+
+### 3. Perfil Tiroideo
+La tiroides afecta tu peso, energía y estado de ánimo. El 10% de las mujeres en México tienen problemas de tiroides sin diagnosticar.
+
+### 4. Química Sanguínea
+Evalúa riñones, hígado, glucosa, ácido úrico y más. Es el "tablero de control" de tu cuerpo.
+
+### 5. Examen General de Orina
+Detecta infecciones urinarias, problemas renales y diabetes. Rápido, económico y muy informativo.
+
+## ¿Necesito cita previa?
+
+**No.** Puedes llegar sin cita en nuestro horario de atención. Sin embargo, si prefieres agendar para evitar cualquier espera, puedes hacerlo en [laboratorio.delbienestar.com.mx/agendar](/agendar).
+
+## Preguntas frecuentes
+
+### ¿Cuánto tiempo tardan los resultados?
+La mayoría de estudios de rutina se entregan el **mismo día** o en **24 horas**. Estudios especializados pueden tomar 3-5 días.
+
+### ¿Aceptan tarjeta?
+Sí, aceptamos tarjeta de débito, crédito, transferencia y efectivo.
+
+### ¿Hacen estudios a domicilio?
+Sí, ofrecemos toma de muestras a domicilio con costo adicional. Llama al **771 685 4026** para agendar.
+
+### ¿Necesito orden médica?
+Para la mayoría de estudios de rutina **no necesitas orden médica**. Puedes solicitar tus análisis directamente.
+
+## También atendemos pacientes de municipios cercanos
+
+Recibimos pacientes de:
+- **Tolcayuca** (10 min)
+- **Zapotlán** (15 min)
+- **Zempoala** (20 min)
+- **Pachuca** (25 min)
+- **Ecatepec / Tecámac** (30 min)
+
+---
+
+**¿Listo para cuidar tu salud?** Visítanos en Tizayuca o agenda en línea. [Ver todos los estudios](/estudios) | 📞 **771 685 4026** | 💬 [WhatsApp](https://wa.me/527716854026)`,
   "leer-resultados-2026": `# Cómo leer tus resultados de laboratorio 2026
 Recibir tus resultados de laboratorio puede generar ansiedad, especialmente cuando ves números, siglas y rangos que no comprendes. La buena noticia es que con un poco de conocimiento básico, puedes entender **qué significan tus resultados** y tener una conversación más informada con tu médico. Hoy te guiamos sobre **cómo leer tus resultados de laboratorio 2026**.
 
