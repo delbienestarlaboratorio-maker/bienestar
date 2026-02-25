@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Laboratorio Bienestar - Tu Salud es Nuestra Prioridad",
     description: "Más de 2,000 estudios clínicos disponibles. Diagnósticos precisos con tecnología de vanguardia.",
-    url: "https://laboratoriobienestar.com",
+    url: "https://laboratorio.delbienestar.com.mx",
     siteName: "Laboratorio Bienestar",
     locale: "es_MX",
     type: "website",
