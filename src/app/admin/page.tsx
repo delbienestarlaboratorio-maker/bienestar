@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { LayoutDashboard, FolderTree, FileText, BarChart3, Settings, Layers, Sparkles, Calendar } from 'lucide-react';
+import { LayoutDashboard, FolderTree, FileText, BarChart3, Settings, Layers, Sparkles, Calendar, Users } from 'lucide-react';
 import { AdminHeader } from '@/components/admin/AdminHeader';
 
 export default function AdminDashboard() {
@@ -54,6 +54,13 @@ export default function AdminDashboard() {
             icon: Settings,
             href: '/admin/settings',
             color: 'bg-gray-600',
+        },
+        {
+            title: 'Visitantes / Inteligencia',
+            description: 'Rastreo de sesiones y espionaje de competencia',
+            icon: Users,
+            href: '/admin/visitantes',
+            color: 'bg-teal-600',
         },
     ];
 

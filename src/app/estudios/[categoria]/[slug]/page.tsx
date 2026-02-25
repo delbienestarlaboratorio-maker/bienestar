@@ -296,12 +296,24 @@ export default async function StudyDetailPage({ params }: PageProps) {
                                     </div>
                                 </div>
                                 <div className="space-y-4">
-                                    {(detailedPrep.length > 0 ? detailedPrep : (study.preparation || '').split('\n').filter((l: string) => l.trim())).map((line: string, idx: number) => (
-                                        <div key={idx} className="flex items-start gap-4 bg-amber-50/50 rounded-xl p-4 hover:bg-amber-50 transition-colors">
-                                            <span className="text-amber-600 text-2xl mt-0.5">✓</span>
-                                            <span className="text-lg text-gray-700 flex-1">{typeof line === 'string' ? line.trim() : String(line)}</span>
-                                        </div>
-                                    ))}
+                                    {(detailedPrep.length > 0 ? detailedPrep : (study.preparation || '').split('\n').filter((l: string) => l.trim())).map((line: any, idx: number) => {
+                                        const isObject = typeof line === 'object' && line !== null;
+                                        return (
+                                            <div key={idx} className="flex items-start gap-4 bg-amber-50/50 rounded-xl p-4 hover:bg-amber-50 transition-colors">
+                                                <span className="text-amber-600 text-2xl mt-0.5">✓</span>
+                                                <div className="flex-1">
+                                                    {isObject ? (
+                                                        <>
+                                                            {line.title && <strong className="text-lg text-gray-800 block mb-1">{line.title}</strong>}
+                                                            <span className="text-gray-700">{line.description || line.text || String(line)}</span>
+                                                        </>
+                                                    ) : (
+                                                        <span className="text-lg text-gray-700">{String(line).trim()}</span>
+                                                    )}
+                                                </div>
+                                            </div>
+                                        );
+                                    })}
                                 </div>
                             </div>
                         </div>
