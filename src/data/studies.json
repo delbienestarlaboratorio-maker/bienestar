@@ -14820,35 +14820,31 @@
     ],
     "detailedPreparation": [
       {
-        "title": "🫙 Muestra de heces",
-        "description": "Recolecte una pequeña porción de heces FRESCAS en el recipiente estéril proporcionado por el laboratorio. Si las heces tienen moco, sangre o pus, recolecte PREFERENTEMENTE de esas zonas, ya que ahí hay mayor concentración de bacterias patógenas."
+        "title": "🚽 Recolección de muestra",
+        "description": "Recolectar una pequeña cantidad de heces en el recipiente estéril provisto por el laboratorio. No mezclar con orina. La muestra debe ser de una deposición reciente (máx. 2 horas de recolectada)."
       },
       {
-        "title": "💊 Antibióticos",
-        "description": "Idealmente NO tome antibióticos antes de la recolección. Los antibióticos matan las bacterias EN la muestra y pueden dar resultado falsamente negativo. Si ya está tomando antibióticos por indicación médica, infórmelo al laboratorio."
+        "title": "💊 Medicamentos a reportar",
+        "description": "Informe si ha tomado antibióticos en los últimos 7-14 días. Los antibióticos pueden suprimir el crecimiento bacteriano y dar resultados falsos negativos."
       },
       {
-        "title": "🕐 Entrega inmediata",
-        "description": "Lleve la muestra al laboratorio dentro de 2 HORAS. Las bacterias patógenas pueden morir o ser superadas por la flora normal si la muestra permanece mucho tiempo a temperatura ambiente."
+        "title": "⏰ Horario de entrega",
+        "description": "Entregar la muestra lo antes posible tras la recolección. Si no puede entregarla de inmediato, refrigerar (4°C) máximo 2 horas, nunca congelar."
       },
       {
-        "title": "🚫 No contaminar",
-        "description": "No mezcle con orina ni agua del inodoro. Recolecte sobre papel limpio o en un recipiente seco y transfiera al recipiente estéril. No toque el interior del recipiente con las manos."
-      },
-      {
-        "title": "📋 Información clínica",
-        "description": "Informe: cuántos días lleva con diarrea, si tiene fiebre, si hay sangre en las heces, viaje reciente, alimentos sospechosos y contactos con personas enfermas."
+        "title": "🍽️ Ayuno",
+        "description": "No se requiere ayuno. Puede comer normalmente antes de tomar la muestra."
       }
     ],
     "preparation": "Muestra de heces frescas en recipiente estéril. Recolectar de la porción con moco o sangre si la hay. NO tomar antibióticos antes si es posible. Llevar al laboratorio dentro de 2 horas. No mezclar con orina.",
     "turnaroundTime": "3-5 días hábiles",
     "benefits": [
-      "✅ Identifica la bacteria causante de la gastroenteritis para tratamiento antibiótico dirigido",
-      "✅ El antibiograma asociado evita usar antibióticos que no funcionarán contra la bacteria",
-      "✅ Fundamental en brotes alimentarios para identificar la fuente de contagio y prevenir más casos",
-      "✅ Detección de bacterias de reporte obligatorio (Salmonella, Shigella, Vibrio) para vigilancia epidemiológica",
-      "✅ Diferencia diarrea bacteriana (que puede requerir antibiótico) de viral o parasitaria",
-      "✅ Procesado con medios selectivos especializados que maximizan la detección de patógenos intestinales"
+      "Identifica la bacteria exacta causante de la infección (no todas dan el mismo antibiótico)",
+      "Incluye antibiograma para que el médico recete el antibiótico más eficaz",
+      "Evita el uso innecesario de antibióticos (resistencia antimicrobiana)",
+      "Clave en brotes familiares o colectivos para identificar la fuente de contagio",
+      "Fundamental para personas con sistema inmune comprometido",
+      "Resultado en 3-5 días hábiles con reporte detallado"
     ],
     "faqs": [
       {
@@ -14873,7 +14869,17 @@
       }
     ],
     "searchTerms": null,
-    "isActive": true
+    "isActive": true,
+    "v2_description": "El Cultivo de Heces (Coprocultivo) es el estudio de referencia para identificar las bacterias que causan infecciones gastrointestinales. A diferencia de un examen general de heces, el coprocultivo aísla y cultiva los microorganismos presentes para identificar la bacteria exacta (como Salmonella, Shigella, Campylobacter o E. coli O157:H7) y determinar qué antibióticos son efectivos contra ella.\n\nEste estudio es fundamental cuando la diarrea dura más de 3 días, cuando hay sangre o moco en las heces, o cuando varias personas del mismo entorno presentan síntomas simultáneos. También es indispensable en personas inmunocomprometidas, niños pequeños y adultos mayores, donde una infección bacteriana puede volverse grave rápidamente.\n\nEn Laboratorio Del Bienestar realizamos el coprocultivo con técnicas de cultivo enriquecido y medios selectivos para maximizar la sensibilidad de detección. Los resultados incluyen el antibiograma (sensibilidad a antibióticos) cuando se identifica algún patógeno.",
+    "what_does_it_detect": [
+      "Salmonella spp. — causa de fiebre tifoidea y gastroenteritis severa",
+      "Shigella spp. — disentería bacteriana con sangre y moco",
+      "Campylobacter jejuni — la causa más común de diarrea bacteriana en México",
+      "E. coli O157:H7 — productor de toxina que puede causar síndrome urémico hemolítico",
+      "Yersinia enterocolitica — diarrea prolongada con dolor abdominal intenso",
+      "Aeromonas y Plesiomonas — patógenos de agua contaminada",
+      "Antibiograma: qué antibióticos eliminan la bacteria detectada"
+    ]
   },
   {
     "id": "1797",
@@ -28291,35 +28297,27 @@
     ],
     "detailedPreparation": [
       {
-        "title": "🍽️ Ayuno",
-        "description": "No requiere ayuno. Puede comer normalmente. Si le solicitaron otros estudios que sí requieren ayuno, respete el ayuno más estricto."
+        "title": "🕐 Ayuno",
+        "description": "Se recomienda ayuno de 4-8 horas antes de la toma. El agua simple está permitida."
       },
       {
-        "title": "💊 Suplementos de vitamina D",
-        "description": "Informe al laboratorio si toma suplementos de vitamina D: tipo (D2 o D3), dosis (400, 1000, 2000, 5000, 50000 UI) y frecuencia (diaria, semanal). Esta información es vital para interpretar si el nivel es natural o refleja la suplementación."
+        "title": "💊 Suplementos a reportar",
+        "description": "Informe si toma suplementos de Vitamina D, Calcio o multivitamínicos. Si es para monitorear tratamiento, tome el suplemento con normalidad y mencione la dosis al personal."
       },
       {
-        "title": "📋 Medicamentos que afectan",
-        "description": "Informe si toma: anticonvulsivantes (fenitoína, fenobarbital — aceleran el metabolismo de vitamina D), glucocorticoides (prednisona — reducen absorción), orlistat (reduce absorción de grasas), colestiramina, o antirretrovirales para VIH."
-      },
-      {
-        "title": "🩸 Tipo de muestra",
-        "description": "Sangre venosa del brazo (5 mL en tubo con gel separador). Procedimiento rápido de menos de 3 minutos."
-      },
-      {
-        "title": "☀️ Exposición solar",
-        "description": "No modifique sus hábitos de exposición solar antes de la prueba. La prueba busca evaluar su estado REAL de vitamina D, no un resultado ideal."
+        "title": "☀️ Sin restricción de sol",
+        "description": "La exposición solar previa NO afecta el resultado del análisis. Puede salir a la calle normalmente."
       }
     ],
     "preparation": "No requiere ayuno obligatorio. Muestra de sangre venosa. Informar si toma suplementos de vitamina D (tipo y dosis). Informar si toma anticonvulsivantes, glucocorticoides o medicamentos para VIH.",
     "turnaroundTime": "El mismo día",
     "benefits": [
-      "✅ Detección de una deficiencia extremadamente común que afecta a millones de mexicanos",
-      "✅ Prevención de osteoporosis y fracturas al identificar deficiencia de vitamina D a tiempo",
-      "✅ La suplementación de vitamina D en pacientes deficientes reduce caídas en adultos mayores hasta 20%",
-      "✅ Evaluación integral junto con calcio, fósforo y PTH para la salud ósea completa",
-      "✅ Monitoreo de la efectividad de la suplementación — muchos pacientes toman dosis insuficientes sin saberlo",
-      "✅ Procedimiento sencillo sin necesidad de ayuno"
+      "Detecta deficiencia que causa fatiga, dolor muscular y depresión frecuentemente mal diagnosticados",
+      "Permite ajustar la dosis exacta de suplemento que necesitas (no todos necesitan la misma dosis)",
+      "Fundamental para mujeres en menopausia, adultos mayores y personas con poca exposición solar",
+      "Monitorea el tratamiento con vitamina D para evitar sobredosificación",
+      "Asociado a función inmune: niveles bajos = más resfriados, gripes y enfermedades autoinmunes",
+      "Resultado el mismo día — técnica de quimioluminiscencia de alta precisión"
     ],
     "faqs": [
       {
@@ -28344,7 +28342,16 @@
       }
     ],
     "searchTerms": null,
-    "isActive": true
+    "isActive": true,
+    "v2_description": "La Vitamina D (25-hidroxi D3), también llamada 25(OH)D, es el análisis de referencia para evaluar el estado real de vitamina D en el organismo. Es la forma de almacenamiento de la vitamina D en la sangre y refleja fielmente la cantidad total disponible: la que obtenemos del sol y la que ingerimos en alimentos o suplementos.\n\nLa deficiencia de vitamina D es extremadamente frecuente en México, especialmente en personas que trabajan en interiores, adultos mayores y mujeres. Sus consecuencias van mucho más allá de los huesos: niveles bajos se asocian con fatiga crónica, depresión, mayor susceptibilidad a infecciones, dolor muscular difuso y mayor riesgo de enfermedades autoinmunes.\n\nEn Laboratorio Del Bienestar medimos la 25(OH)D total con técnica de quimioluminiscencia de alta precisión, con interpretación de resultados según los rangos óptimos (>40 ng/mL), no solo los rangos de referencia mínimos de laboratorio.",
+    "what_does_it_detect": [
+      "Deficiencia severa (<10 ng/mL) — riesgo de raquitismo en niños y osteomalacia en adultos",
+      "Deficiencia moderada (10–20 ng/mL) — fatiga, dolor óseo-muscular, mayor riesgo de infecciones",
+      "Insuficiencia (20–30 ng/mL) — nivel funcional mínimo, común en México",
+      "Nivel óptimo (30–60 ng/mL) — protección inmune, densidad ósea adecuada",
+      "Nivel elevado (>100 ng/mL) — toxicidad por suplementación excesiva",
+      "Útil para monitorear eficacia del tratamiento con suplementos de Vitamina D"
+    ]
   },
   {
     "id": "2345",
