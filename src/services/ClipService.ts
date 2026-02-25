@@ -109,13 +109,31 @@ export class ClipService {
             }
 
             const data = await response.json();
-            console.log('✅ [ClipService] Payment link created');
-            console.log('   ID:', data.payment_request_id);
-            console.log('   URL:', data.payment_url);
+            // 🔍 Log FULL response so we can see exact Clip field names
+            console.log('✅ [ClipService] Full Clip response:', JSON.stringify(data));
+
+            // Clip API may return payment URL under different field names across versions
+            const paymentUrl =
+                data.payment_url ||        // documented v2
+                data.payment_link ||       // some sandbox versions
+                data.checkout_url ||       // alternative
+                data.link ||               // compact response
+                data.url ||                // minimal response
+                data.redirect_url ||       // redirect variant
+                (data.data?.payment_url) || // nested data object variant
+                (data.data?.link) ||       // nested compact
+                '';
+
+            console.log('💳 [ClipService] Resolved payment URL:', paymentUrl);
+            console.log('   payment_request_id:', data.payment_request_id);
+
+            if (!paymentUrl) {
+                console.error('❌ [ClipService] payment_url not found in response. Keys:', Object.keys(data));
+            }
 
             return {
-                payment_request_id: data.payment_request_id,
-                payment_url: data.payment_url || data.payment_link || data.checkout_url,
+                payment_request_id: data.payment_request_id || data.id || '',
+                payment_url: paymentUrl,
                 status: data.status || 'PENDING',
             };
 
