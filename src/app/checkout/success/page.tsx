@@ -114,7 +114,7 @@ function SuccessContent() {
                             </div>
                         </a>
                         <a
-                            href="mailto:contacto@laboratoriobienestar.com"
+                            href="mailto:contacto@delbienestar.com.mx"
                             className="flex items-center gap-3 p-4 bg-gray-50 rounded-xl hover:bg-gray-100 transition-colors"
                         >
                             <Mail className="w-6 h-6 text-purple-600" />
