@@ -54,9 +54,9 @@ export default function NosotrosPage() {
                         Quiénes <span className="text-green-400">Somos</span>
                     </h1>
                     <p className="text-xl text-green-100 max-w-3xl mx-auto leading-relaxed">
-                        Somos un laboratorio clínico comprometido con la salud de Tizayuca y la región.
+                        Somos un <Link href="/blog/laboratorio-clinico-tizayuca-precios" className="underline hover:text-white transition-colors">laboratorio clínico en Tizayuca</Link> comprometido con la salud de la región.
                         Desde nuestra fundación, hemos trabajado para ofrecer diagnósticos precisos,
-                        rápidos y accesibles a cada paciente que confía en nosotros.
+                        rápidos y a <Link href="/blog/cuanto-cuesta-analisis-sangre-tizayuca" className="underline hover:text-white transition-colors">precios muy accesibles</Link> a cada paciente que confía en nosotros.
                     </p>
                 </div>
             </section>
@@ -82,7 +82,7 @@ export default function NosotrosPage() {
                         <h2 className="text-2xl font-bold text-gray-900 mb-4">Nuestra Visión</h2>
                         <p className="text-gray-700 leading-relaxed">
                             Ser el laboratorio clínico de referencia en la región de Tizayuca y el estado de Hidalgo,
-                            reconocido por la calidad de nuestros resultados, la innovación en nuestros servicios
+                            reconocido por la calidad de nuestros resultados, la innovación en nuestros servicios como los <Link href="/blog/check-up-basico-barato-que-incluye" className="text-green-700 hover:underline font-medium">check-ups médicos económicos</Link>
                             y el compromiso genuino con la salud de cada paciente.
                         </p>
                     </div>

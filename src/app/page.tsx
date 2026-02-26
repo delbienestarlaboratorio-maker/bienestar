@@ -111,6 +111,23 @@ export default function Home() {
           <SymptomSearchWidget />
         </AnimatedSection>
 
+        {/* ═══════ SEO INTERNAL LINKS ═══════ */}
+        <div className="bg-white py-8 px-4 border-t border-gray-100">
+          <div className="max-w-4xl mx-auto text-center text-sm text-gray-500 flex flex-wrap justify-center gap-4">
+            <Link href="/blog/laboratorio-clinico-tizayuca-precios" className="hover:text-green-700 hover:underline transition-colors">
+              Laboratorio Clínico en Tizayuca
+            </Link>
+            <span className="hidden sm:inline text-gray-300">•</span>
+            <Link href="/blog/cuanto-cuesta-analisis-sangre-tizayuca" className="hover:text-green-700 hover:underline transition-colors">
+              Precios de Análisis de Sangre
+            </Link>
+            <span className="hidden sm:inline text-gray-300">•</span>
+            <Link href="/blog/check-up-basico-barato-que-incluye" className="hover:text-green-700 hover:underline transition-colors">
+              Check-ups Médicos Económicos
+            </Link>
+          </div>
+        </div>
+
         {/* ═══════ PACKAGES ═══════ */}
         <AnimatedSection>
           <div className="bg-white py-16 px-4">
