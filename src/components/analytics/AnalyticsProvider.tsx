@@ -3,6 +3,7 @@
 import { useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 import { initFacebookPixel, initGoogleAnalytics, analytics } from '@/lib/analytics';
+import { visitorIntelligence } from '@/lib/tracking/visitor-intelligence';
 
 export function AnalyticsProvider() {
     const pathname = usePathname();
@@ -11,6 +12,9 @@ export function AnalyticsProvider() {
         // Initialize tracking pixels on mount
         initFacebookPixel();
         initGoogleAnalytics();
+
+        // Initialize visitor intelligence globally
+        visitorIntelligence?.initialize();
     }, []);
 
     useEffect(() => {

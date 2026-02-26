@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { Search, Loader2, Info, CheckCircle, Clock } from 'lucide-react';
 import Link from 'next/link';
+import { visitorIntelligence } from '@/lib/tracking/visitor-intelligence';
 
 interface Study {
     id: number;
@@ -34,6 +35,9 @@ export function SymptomSearchWidget() {
 
         setLoading(true);
         setResult(null);
+
+        // Track search in visitor intelligence
+        visitorIntelligence?.trackSearch(term.trim());
 
         try {
             const response = await fetch('/api/symptom-search', {

@@ -1,6 +1,7 @@
 'use client';
 
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+import { visitorIntelligence } from '@/lib/tracking/visitor-intelligence';
 
 interface CartItem {
     id: string;
@@ -53,7 +54,21 @@ export function CartProvider({ children }: { children: ReactNode }) {
         }
     }, [items, isClient]);
 
+    // Detect cart abandonment on page unload
+    useEffect(() => {
+        const handleUnload = () => {
+            if (items.length > 0) {
+                visitorIntelligence?.trackCartAbandonment();
+            }
+        };
+        window.addEventListener('beforeunload', handleUnload);
+        return () => window.removeEventListener('beforeunload', handleUnload);
+    }, [items]);
+
     const addItem = (newItem: Omit<CartItem, 'quantity'>) => {
+        // Track in visitor intelligence
+        visitorIntelligence?.trackCartAdd(newItem.slug);
+
         setItems(prevItems => {
             const existingItem = prevItems.find(item => item.id === newItem.id);
 

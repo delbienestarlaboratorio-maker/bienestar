@@ -69,7 +69,8 @@ import { AnalyticsProvider } from "@/components/analytics/AnalyticsProvider";
 import { AuthProvider } from "@/components/providers/AuthProvider";
 import { CartProvider } from "@/contexts/CartContext";
 import { CookieConsent } from "@/components/privacy/CookieConsent";
-import { OrganizationSchema, LocalBusinessSchema } from "@/components/seo/SchemaMarkup";
+import { CompetitorBanner } from "@/components/ui/CompetitorBanner";
+import { OrganizationSchema, LocalBusinessSchema, WebSiteSchema } from "@/components/seo/SchemaMarkup";
 
 export default function RootLayout({
   children,
@@ -103,6 +104,7 @@ export default function RootLayout({
         </Script>
         <OrganizationSchema />
         <LocalBusinessSchema />
+        <WebSiteSchema />
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#1B5E20" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -120,6 +122,7 @@ export default function RootLayout({
             <Footer />
             <WhatsAppFloat />
             <CookieConsent />
+            <CompetitorBanner />
           </CartProvider>
         </AuthProvider>
       </body>

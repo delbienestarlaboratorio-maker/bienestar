@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { useCart } from '@/contexts/CartContext';
+import { visitorIntelligence } from '@/lib/tracking/visitor-intelligence';
 import { ArrowLeft, ArrowRight, CreditCard, MessageCircle, Banknote, Check } from 'lucide-react';
 
 export default function CheckoutPage() {
@@ -92,7 +93,11 @@ export default function CheckoutPage() {
                 const data = await response.json();
 
                 if (data.success && data.paymentUrl) {
-                    // Clear cart and redirect to payment
+                    // Track conversion
+                    visitorIntelligence?.trackConversion(
+                        items.map(i => i.slug),
+                        subtotal
+                    );
                     clearCart();
                     window.location.href = data.paymentUrl;
                 } else {
@@ -111,10 +116,19 @@ export default function CheckoutPage() {
                     `Sucursal: ${formData.sucursal === 'centro' ? 'Centro' : 'Norte'}`
                 );
 
+                // Track conversion
+                visitorIntelligence?.trackConversion(
+                    items.map(i => i.slug),
+                    subtotal
+                );
                 clearCart();
                 window.location.href = `https://wa.me/527716854026?text=${message}`;
             } else {
                 // Cash payment - just reserve
+                visitorIntelligence?.trackConversion(
+                    items.map(i => i.slug),
+                    subtotal
+                );
                 clearCart();
                 router.push(`/checkout/success?method=efectivo&name=${encodeURIComponent(formData.name)}`);
             }
