@@ -2,7 +2,8 @@ import Link from 'next/link';
 import { Construction, MessageCircle, ArrowLeft, Star } from 'lucide-react';
 import { CONTACT_INFO, getWhatsAppLink } from '@/lib/branches';
 
-const GOOGLE_REVIEW_LINK = "https://g.page/r/TU_CODIGO_AQUI/review";
+// Enlace genérico que abre la búsqueda en Google
+const GOOGLE_REVIEW_LINK = "https://www.google.com/search?q=Laboratorio+Clinico+Del+Bienestar+Tizayuca";
 
 export const metadata = {
     title: 'Resultados en Línea | Laboratorio Del Bienestar',

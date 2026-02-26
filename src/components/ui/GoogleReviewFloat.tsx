@@ -10,8 +10,8 @@ import { Star, X } from 'lucide-react';
 export function GoogleReviewFloat() {
     const [isVisible, setIsVisible] = useState(true);
 
-    // Reemplaza esto con tu enlace real de Google Mi Negocio
-    const GOOGLE_REVIEW_LINK = "https://g.page/r/TU_CODIGO_AQUI/review";
+    // Enlace genérico que abre la búsqueda en Google para facilitar la reseña
+    const GOOGLE_REVIEW_LINK = "https://www.google.com/search?q=Laboratorio+Clinico+Del+Bienestar+Tizayuca";
 
     if (!isVisible) return null;
 
