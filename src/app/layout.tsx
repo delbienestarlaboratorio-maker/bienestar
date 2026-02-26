@@ -70,6 +70,7 @@ import { AuthProvider } from "@/components/providers/AuthProvider";
 import { CartProvider } from "@/contexts/CartContext";
 import { CookieConsent } from "@/components/privacy/CookieConsent";
 import { CompetitorBanner } from "@/components/ui/CompetitorBanner";
+import { GoogleReviewFloat } from "@/components/ui/GoogleReviewFloat";
 import { OrganizationSchema, LocalBusinessSchema, WebSiteSchema } from "@/components/seo/SchemaMarkup";
 
 export default function RootLayout({
@@ -123,6 +124,7 @@ export default function RootLayout({
             <WhatsAppFloat />
             <CookieConsent />
             <CompetitorBanner />
+            <GoogleReviewFloat />
           </CartProvider>
         </AuthProvider>
       </body>

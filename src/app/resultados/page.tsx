@@ -1,6 +1,8 @@
 import Link from 'next/link';
-import { Construction, MessageCircle, ArrowLeft } from 'lucide-react';
+import { Construction, MessageCircle, ArrowLeft, Star } from 'lucide-react';
 import { CONTACT_INFO, getWhatsAppLink } from '@/lib/branches';
+
+const GOOGLE_REVIEW_LINK = "https://g.page/r/TU_CODIGO_AQUI/review";
 
 export const metadata = {
     title: 'Resultados en Línea | Laboratorio Del Bienestar',
@@ -55,12 +57,36 @@ export default function ResultadosPage() {
                                 </a>
                             </div>
 
-                            <p className="text-sm text-gray-500">
+                            <p className="text-sm text-gray-500 mb-12">
                                 ¿Prefieres llamar?{' '}
                                 <a href={`tel:${CONTACT_INFO.mainPhone}`} className="text-green-700 font-bold hover:underline">
                                     {CONTACT_INFO.mainPhoneFormatted}
                                 </a>
                             </p>
+
+                            {/* Review Request Section */}
+                            <div className="bg-gradient-to-br from-yellow-50 to-orange-50 rounded-2xl p-6 border border-yellow-100 flex flex-col items-center mt-8">
+                                <div className="flex gap-1 mb-3">
+                                    {[1, 2, 3, 4, 5].map((i) => (
+                                        <Star key={i} className="w-6 h-6 text-yellow-500 fill-yellow-500" />
+                                    ))}
+                                </div>
+                                <h3 className="font-bold text-gray-900 text-lg mb-2">
+                                    ¿Te gustó nuestro servicio?
+                                </h3>
+                                <p className="text-gray-600 text-sm mb-6 max-w-sm">
+                                    Tu opinión es muy importante para nosotros. Ayúdanos a que más personas nos conozcan dejando una reseña en Google.
+                                </p>
+                                <a
+                                    href={GOOGLE_REVIEW_LINK}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="inline-flex items-center gap-2 bg-white border-2 border-yellow-400 text-gray-900 font-bold px-6 py-3 rounded-xl hover:bg-yellow-50 transition-colors shadow-sm"
+                                >
+                                    Dejar Reseña en Google
+                                    <Star className="w-4 h-4 text-yellow-500 fill-yellow-500" />
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
