@@ -113,7 +113,8 @@ export class ClipService {
             console.log('✅ [ClipService] Full Clip response:', JSON.stringify(data));
 
             // Clip API may return payment URL under different field names across versions
-            const paymentUrl =
+            const paymentId = data.payment_request_id || data.id || '';
+            let paymentUrl =
                 data.payment_url ||        // documented v2
                 data.payment_link ||       // some sandbox versions
                 data.checkout_url ||       // alternative
@@ -124,15 +125,22 @@ export class ClipService {
                 (data.data?.link) ||       // nested compact
                 '';
 
-            console.log('💳 [ClipService] Resolved payment URL:', paymentUrl);
-            console.log('   payment_request_id:', data.payment_request_id);
+            // 🔑 CRITICAL FALLBACK: Clip v2 API often returns ONLY the payment_request_id
+            // The checkout URL must be constructed manually
+            if (!paymentUrl && paymentId) {
+                paymentUrl = `https://checkout.clip.mx/${paymentId}`;
+                console.log('🔧 [ClipService] Constructed checkout URL from payment_request_id');
+            }
+
+            console.log('💳 [ClipService] Final payment URL:', paymentUrl);
+            console.log('   payment_request_id:', paymentId);
 
             if (!paymentUrl) {
-                console.error('❌ [ClipService] payment_url not found in response. Keys:', Object.keys(data));
+                console.error('❌ [ClipService] No payment URL and no payment_request_id! Keys:', Object.keys(data));
             }
 
             return {
-                payment_request_id: data.payment_request_id || data.id || '',
+                payment_request_id: paymentId,
                 payment_url: paymentUrl,
                 status: data.status || 'PENDING',
             };
