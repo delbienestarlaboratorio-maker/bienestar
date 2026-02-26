@@ -16,7 +16,7 @@ export function GoogleReviewFloat() {
     if (!isVisible) return null;
 
     return (
-        <div className="fixed bottom-24 left-4 z-50 animate-in slide-in-from-left-5 duration-500 max-w-xs">
+        <div className="hidden md:block fixed bottom-24 left-4 z-50 animate-in slide-in-from-left-5 duration-500 max-w-xs">
             <div className="bg-white rounded-2xl shadow-xl border border-gray-100 p-4 relative overflow-hidden group">
                 {/* Glow effect */}
                 <div className="absolute inset-0 bg-gradient-to-r from-yellow-400/10 to-orange-500/10 opacity-0 group-hover:opacity-100 transition-opacity" />
