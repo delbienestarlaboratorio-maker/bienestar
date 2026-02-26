@@ -179,7 +179,9 @@ export default async function StudyDetailPage({ params }: PageProps) {
                                     preparation={study.preparation}
                                 />
                                 <a
-                                    href="https://wa.me/527716854026"
+                                    href={`https://wa.me/527716854026?text=${encodeURIComponent(`Hola, me interesa el estudio ${study.name} ($${Math.round(price)} MXN). ¿Qué necesito para realizarlo?`)}`}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     className="flex-1 min-w-[150px] bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg font-semibold transition-all shadow-lg hover:shadow-xl inline-flex items-center justify-center gap-2"
                                 >
                                     <span className="text-xl">📱</span>
@@ -404,7 +406,9 @@ export default async function StudyDetailPage({ params }: PageProps) {
                     {/* Floating CTA Button */}
                     <div className="fixed bottom-6 right-6 z-50">
                         <a
-                            href="https://wa.me/527716854026"
+                            href={`https://wa.me/527716854026?text=${encodeURIComponent(`Hola, me interesa el estudio ${study.name} ($${Math.round(price)} MXN). ¿Puedo agendar una cita?`)}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="bg-green-500 hover:bg-green-600 text-white px-6 py-4 rounded-full font-semibold shadow-2xl hover:shadow-3xl transition-all flex items-center gap-2 animate-pulse hover:animate-none"
                         >
                             <span className="text-2xl">📱</span>

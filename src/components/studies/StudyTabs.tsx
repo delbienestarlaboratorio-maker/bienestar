@@ -237,7 +237,7 @@ export function StudyTabs({ study, showReviews = true }: StudyTabsProps) {
                                     📞 Llamar Ahora
                                 </a>
                                 <a
-                                    href="https://wa.me/527716854026"
+                                    href={`https://wa.me/527716854026?text=${encodeURIComponent(`Hola, tengo una pregunta sobre el estudio ${study.name}. ¿Me pueden ayudar?`)}`}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg font-medium transition-colors"
