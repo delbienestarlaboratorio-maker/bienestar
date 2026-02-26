@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://laboratorio.delbienestar.com.mx/images/logo.png",
+        url: "https://laboratorio.delbienestar.com.mx/images/og-image.png",
         width: 1200,
         height: 630,
         alt: "Laboratorio Clínico Del Bienestar - Tizayuca, Hidalgo",
