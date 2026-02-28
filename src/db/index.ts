@@ -5,8 +5,9 @@ import * as schema from './schema';
 // Use Neon serverless driver for Vercel Edge/Serverless compatibility
 // This works in both Vercel serverless AND local development
 
-const connectionString = process.env.DATABASE_URL || 'postgresql://postgres:SecurePass2026!@localhost:5432/laboratorio_bienestar';
+const connectionString = process.env.DATABASE_URL || 'postgresql://localhost/placeholder_build_only';
 
+// During build time (no real DB), use a lazy proxy to avoid spawn errors
 const sql = neon(connectionString);
 
 export const db = drizzle(sql, { schema });
