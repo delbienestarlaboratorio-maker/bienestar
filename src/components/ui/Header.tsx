@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { Search, Menu, Phone, User, Heart, LogOut, Settings, X, TestTube, MapPin, Tag, FileText, Gift, HelpCircle, BookOpen, Info } from 'lucide-react';
+import { Search, Menu, Phone, User, Heart, LogOut, Settings, X, TestTube, MapPin, Tag, FileText, Gift, HelpCircle, BookOpen, Info, Calculator } from 'lucide-react';
 import { SearchBar } from './SearchBar';
 import { CartBadge } from '@/components/cart/CartBadge';
 import { useState, useEffect } from 'react';
@@ -16,6 +16,7 @@ const mobileNavLinks = [
     { href: '/sucursales', label: 'Sucursales', icon: MapPin, accent: 'text-purple-600' },
     { href: '/promociones', label: 'Promociones', icon: Tag, accent: 'text-orange-600' },
     { href: '/nosotros', label: 'Nosotros', icon: Info, accent: 'text-cyan-600' },
+    { href: '/herramientas', label: 'Herramientas de Salud', icon: Calculator, accent: 'text-teal-600' },
     { href: '/blog', label: 'Blog de Salud', icon: BookOpen, accent: 'text-indigo-600' },
     { href: '/faq', label: 'Preguntas Frecuentes', icon: HelpCircle, accent: 'text-amber-600' },
     { href: '/resultados', label: 'Resultados', icon: FileText, accent: 'text-emerald-700' },
@@ -67,6 +68,7 @@ export const Header = () => {
                         </Link>
                         <Link href="/paquetes" className="text-gray-600 hover:text-green-600 font-medium transition-colors">Paquetes</Link>
                         <Link href="/sucursales" className="text-gray-600 hover:text-green-600 font-medium transition-colors">Sucursales</Link>
+                        <Link href="/herramientas" className="text-gray-600 hover:text-green-600 font-medium transition-colors">Herramientas</Link>
                         <Link href="/nosotros" className="text-gray-600 hover:text-green-600 font-medium transition-colors">Nosotros</Link>
                         <Link href="/promociones" className="text-gray-600 hover:text-green-600 font-medium transition-colors">Promociones</Link>
                         <Link href="/resultados" className="bg-green-50 text-green-700 px-4 py-2 rounded-lg font-bold hover:bg-green-100 transition-colors">
