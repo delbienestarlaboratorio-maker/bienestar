@@ -7,6 +7,9 @@ import { ilike, or, and, eq } from 'drizzle-orm';
 import { StudyImageCard } from '@/components/studies/StudyImageCard';
 import { getStudyVisualType } from '@/lib/studyTypeClassifier';
 
+export const dynamic = 'force-dynamic';
+
+
 interface PageProps {
     searchParams: Promise<{
         q?: string;
