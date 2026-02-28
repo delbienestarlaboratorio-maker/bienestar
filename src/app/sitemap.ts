@@ -25,6 +25,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         { url: `${BASE_URL}/sueroterapia`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
         { url: `${BASE_URL}/calculadora`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
         { url: `${BASE_URL}/comparador`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+        { url: `${BASE_URL}/herramientas`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
+        ...['calculadora-imc', 'calculadora-grasa-corporal', 'calculadora-agua', 'calculadora-metabolismo', 'calculadora-calorias', 'calculadora-peso-ideal', 'riesgo-cardiovascular', 'calculadora-colesterol-ldl', 'clasificador-presion-arterial', 'riesgo-diabetes', 'convertidor-hba1c', 'calculadora-egfr', 'sodio-corregido', 'calcio-corregido', 'fecha-parto', 'semanas-embarazo', 'dias-fertiles', 'percentil-crecimiento', 'indice-fib4', 'meld-score', 'test-depresion-phq9', 'test-ansiedad-gad7', 'calculadora-macronutrientes', 'indice-cintura-cadera', 'riesgo-anemia'].map(slug => ({
+            url: `${BASE_URL}/herramientas/${slug}`,
+            lastModified: new Date(),
+            changeFrequency: 'monthly' as const,
+            priority: 0.7,
+        })),
         { url: `${BASE_URL}/faq`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
         { url: `${BASE_URL}/resultados`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
         { url: `${BASE_URL}/agendar`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
