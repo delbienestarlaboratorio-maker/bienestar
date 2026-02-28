@@ -175,20 +175,20 @@ export const CategoryStudyList = ({ initialStudies, subcategories, categoria }: 
                         <div key={study.id} className="bg-white rounded-xl shadow-sm border-2 border-gray-100 hover:border-green-200 transition-all overflow-hidden">
                             <div className="flex items-start gap-6 p-6">
                                 {/* Professional Image Card */}
-                                <div className="flex-shrink-0 w-32 h-32">
+                                <Link href={`/estudios/${categoria}/${study.slug}`} className="flex-shrink-0 w-32 h-32 block cursor-pointer">
                                     <StudyImageCard
                                         studyName={study.name}
                                         studyType={getStudyVisualType(study.name)}
                                         className="w-full h-full"
                                     />
-                                </div>
+                                </Link>
                                 <div className="flex-1 min-w-0">
                                     <Link href={`/estudios/${categoria}/${study.slug}`}>
                                         <h3 className="text-xl font-bold text-gray-900 hover:text-green-900 transition-colors mb-2">{study.name}</h3>
                                     </Link>
                                     <p className="text-gray-600 text-sm mb-4 line-clamp-2">{study.description}</p>
                                     <div className="flex items-end justify-between">
-                                        <div>
+                                        <Link href={`/estudios/${categoria}/${study.slug}`} className="block cursor-pointer hover:opacity-80 transition-opacity">
                                             {study.pricePromotional ? (
                                                 <div className="flex flex-col">
                                                     <span className="bg-pink-500 text-white text-[10px] font-bold px-2 py-0.5 rounded w-fit mb-1">-{calculateDiscount(study.priceRegular, study.pricePromotional)}% OFF</span>
@@ -200,7 +200,7 @@ export const CategoryStudyList = ({ initialStudies, subcategories, categoria }: 
                                             ) : (
                                                 <span className="text-3xl font-bold text-green-900">${study.priceRegular.toLocaleString('es-MX')}</span>
                                             )}
-                                        </div>
+                                        </Link>
                                         <div className="flex gap-2">
                                             <button className="bg-white border-2 border-green-900 text-green-900 px-4 py-2 rounded-lg font-bold hover:bg-green-50 transition-colors text-sm">Agregar</button>
                                             <button className="bg-green-900 text-white px-4 py-2 rounded-lg font-bold hover:bg-green-800 transition-colors text-sm shadow-md">Comprar</button>
