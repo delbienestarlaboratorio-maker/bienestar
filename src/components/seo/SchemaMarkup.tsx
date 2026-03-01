@@ -14,19 +14,21 @@ export function JsonLd({ data }: SchemaProps) {
     );
 }
 
-// LocalBusiness Schema for Sucursales
+// LocalBusiness Schema for Sucursales — enhanced with AggregateRating
 export function LocalBusinessSchema() {
     const schema = {
         "@context": "https://schema.org",
-        "@type": "MedicalClinic",
-        "name": "Laboratorio Clínico Del Bienestar",
-        "image": "https://laboratorio.delbienestar.com.mx/images/logo.png",
+        "@type": ["MedicalClinic", "MedicalLaboratory"],
+        "name": "Diagnósticos Clínicos Bienestar",
+        "alternateName": "Laboratorio Del Bienestar",
+        "image": "https://laboratorio.delbienestar.com.mx/images/og-image.png",
         "url": "https://laboratorio.delbienestar.com.mx",
         "telephone": "+52-771-685-4026",
-        "priceRange": "$$",
+        "priceRange": "$-$$",
+        "description": "Laboratorio clínico en Tizayuca, Hidalgo con más de 500 estudios disponibles. Análisis clínicos, ultrasonidos, sueroterapia. Resultados el mismo día. Precios accesibles.",
         "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Ignacio Galvan 10 interior 11 Plaza Bonanza",
+            "streetAddress": "Ignacio Rodríguez Galván 10, Local 11, Plaza Bonanza",
             "addressLocality": "Tizayuca",
             "addressRegion": "Hidalgo",
             "postalCode": "43800",
@@ -51,10 +53,37 @@ export function LocalBusinessSchema() {
                 "closes": "14:00"
             }
         ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "95",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "areaServed": [
+            { "@type": "City", "name": "Tizayuca" },
+            { "@type": "City", "name": "Pachuca" },
+            { "@type": "City", "name": "Tolcayuca" },
+            { "@type": "City", "name": "Zapotlán" },
+            { "@type": "City", "name": "Zempoala" },
+            { "@type": "City", "name": "Tecámac" }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Estudios de Laboratorio",
+            "itemListElement": [
+                { "@type": "OfferCatalog", "name": "Análisis Clínicos" },
+                { "@type": "OfferCatalog", "name": "Ultrasonidos" },
+                { "@type": "OfferCatalog", "name": "Sueroterapia" },
+                { "@type": "OfferCatalog", "name": "Perfiles y Paquetes" }
+            ]
+        },
         "sameAs": [
             "https://www.facebook.com/labbienestar",
-            "https://wa.me/5217757371811"
-        ]
+            "https://wa.me/527716854026"
+        ],
+        "paymentAccepted": ["Efectivo", "Tarjeta de débito", "Tarjeta de crédito", "Transferencia bancaria"],
+        "currenciesAccepted": "MXN"
     };
 
     return <JsonLd data={schema} />;
@@ -65,10 +94,11 @@ export function OrganizationSchema() {
     const schema = {
         "@context": "https://schema.org",
         "@type": "MedicalOrganization",
-        "name": "Laboratorio Clínico Del Bienestar",
+        "name": "Diagnósticos Clínicos Bienestar",
         "alternateName": "Laboratorio Del Bienestar",
         "url": "https://laboratorio.delbienestar.com.mx",
-        "logo": "https://laboratorio.delbienestar.com.mx/images/logo.png",
+        "logo": "https://laboratorio.delbienestar.com.mx/images/og-image.png",
+        "description": "Laboratorio clínico en Tizayuca, Hidalgo. Más de 500 estudios clínicos con resultados el mismo día y precios accesibles.",
         "contactPoint": {
             "@type": "ContactPoint",
             "telephone": "+52-771-685-4026",
@@ -78,7 +108,7 @@ export function OrganizationSchema() {
         },
         "sameAs": [
             "https://www.facebook.com/labbienestar",
-            "https://wa.me/5217757371811"
+            "https://wa.me/527716854026"
         ]
     };
 
@@ -108,7 +138,7 @@ export function ArticleSchema({
         "@type": "Article",
         "headline": title,
         "description": description,
-        "image": image || "https://laboratorio.delbienestar.com.mx/images/blog/default-medical.jpg",
+        "image": image || "https://laboratorio.delbienestar.com.mx/images/og-image.png",
         "datePublished": datePublished,
         "dateModified": dateModified || datePublished,
         "author": {
@@ -121,7 +151,7 @@ export function ArticleSchema({
             "name": "Laboratorio Del Bienestar",
             "logo": {
                 "@type": "ImageObject",
-                "url": "https://laboratorio.delbienestar.com.mx/images/logo.png"
+                "url": "https://laboratorio.delbienestar.com.mx/images/og-image.png"
             }
         },
         "mainEntityOfPage": {
@@ -134,32 +164,44 @@ export function ArticleSchema({
     return <JsonLd data={schema} />;
 }
 
-// Medical Test Schema for Study Pages
+// Medical Test Schema for Study Pages — enhanced with provider info
 export function MedicalTestSchema({
     name,
     description,
     price,
     category,
-    url
+    url,
+    preparation,
+    turnaroundTime
 }: {
     name: string;
     description: string;
     price: number;
     category: string;
     url: string;
+    preparation?: string;
+    turnaroundTime?: string;
 }) {
     const schema = {
         "@context": "https://schema.org",
         "@type": "MedicalTest",
         "name": name,
         "description": description,
-        "category": category,
+        "medicineSystem": "https://schema.org/WesternConventional",
+        "relevantSpecialty": category,
         "url": url,
+        ...(preparation && { "preparation": preparation }),
+        ...(turnaroundTime && { "normalRange": turnaroundTime }),
+        "usedToDiagnose": {
+            "@type": "MedicalCondition",
+            "name": `Condiciones detectadas por ${name}`
+        },
         "potentialAction": {
-            "@type": "ScheduleAction",
+            "@type": "OrderAction",
             "target": {
                 "@type": "EntryPoint",
-                "urlTemplate": "https://wa.me/5217757371811?text=Hola, quiero agendar el estudio: " + encodeURIComponent(name)
+                "urlTemplate": `https://wa.me/527716854026?text=${encodeURIComponent(`Hola, me interesa el estudio ${name} ($${Math.round(price)} MXN). ¿Qué necesito para realizarlo?`)}`,
+                "actionPlatform": "https://schema.org/DesktopWebPlatform"
             }
         },
         "offers": {
@@ -167,8 +209,38 @@ export function MedicalTestSchema({
             "price": price,
             "priceCurrency": "MXN",
             "availability": "https://schema.org/InStock",
-            "url": url
+            "url": url,
+            "seller": {
+                "@type": "MedicalClinic",
+                "name": "Diagnósticos Clínicos Bienestar",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Tizayuca",
+                    "addressRegion": "Hidalgo",
+                    "addressCountry": "MX"
+                }
+            }
         }
+    };
+
+    return <JsonLd data={schema} />;
+}
+
+// FAQPage Schema — enables Google FAQ rich snippets
+export function FAQPageSchema({ faqs }: { faqs: Array<{ question: string; answer: string }> }) {
+    if (!faqs || faqs.length === 0) return null;
+
+    const schema = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": faqs.map(faq => ({
+            "@type": "Question",
+            "name": faq.question,
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": faq.answer
+            }
+        }))
     };
 
     return <JsonLd data={schema} />;
@@ -185,6 +257,26 @@ export function BreadcrumbSchema({ items }: { items: Array<{ name: string; url: 
             "name": item.name,
             "item": item.url
         }))
+    };
+
+    return <JsonLd data={schema} />;
+}
+
+// WebSite Schema with SearchAction — enables Google search box
+export function WebSiteSchema() {
+    const schema = {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Laboratorio Del Bienestar",
+        "url": "https://laboratorio.delbienestar.com.mx",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://laboratorio.delbienestar.com.mx/estudios?q={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+        }
     };
 
     return <JsonLd data={schema} />;

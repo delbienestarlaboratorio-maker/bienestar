@@ -3,6 +3,7 @@ import { Metadata } from 'next';
 import studiesData from '@/data/studies.json';
 import BuyButton from '@/components/BuyButton';
 import StudyClientSection from '@/components/ui/StudyClientSection';
+import { MedicalTestSchema, FAQPageSchema, BreadcrumbSchema } from '@/components/seo/SchemaMarkup';
 
 // Flexible study finder: exact match first, then fuzzy slug match
 function findStudy(slug: string, categoria: string): any {
@@ -122,6 +123,23 @@ export default async function StudyDetailPage({ params }: PageProps) {
 
         return (
             <div className="min-h-screen bg-gradient-to-b from-gray-50 via-white to-gray-50">
+                {/* Structured Data for Google Rich Snippets */}
+                <MedicalTestSchema
+                    name={study.name}
+                    description={study.v2_description || study.description || `Estudio de ${study.name} disponible en Laboratorio Del Bienestar, Tizayuca`}
+                    price={price}
+                    category={study.category || study.categoryId}
+                    url={`https://laboratorio.delbienestar.com.mx/estudios/${study.categoryId}/${study.slug}`}
+                    preparation={typeof study.preparation === 'string' ? study.preparation : undefined}
+                    turnaroundTime={study.turnaroundTime}
+                />
+                <BreadcrumbSchema items={[
+                    { name: 'Inicio', url: 'https://laboratorio.delbienestar.com.mx' },
+                    { name: 'Estudios', url: 'https://laboratorio.delbienestar.com.mx/estudios' },
+                    { name: study.category || study.categoryId, url: `https://laboratorio.delbienestar.com.mx/estudios/${study.categoryId}` },
+                    { name: study.name, url: `https://laboratorio.delbienestar.com.mx/estudios/${study.categoryId}/${study.slug}` }
+                ]} />
+                {faqs.length > 0 && <FAQPageSchema faqs={faqs} />}
                 {/* Hero Section with Premium Gradient */}
                 <div className="relative bg-gradient-to-br from-purple-600 via-blue-600 to-teal-500 text-white py-16 mb-12 overflow-hidden">
                     {/* Decorative Background Elements */}
