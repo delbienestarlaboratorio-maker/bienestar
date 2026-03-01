@@ -1,3 +1,4 @@
+export const runtime = 'edge';
 // API endpoint for getting recommended panels for a study
 // GET /api/studies/[id]/panels
 

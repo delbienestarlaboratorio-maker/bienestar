@@ -1,3 +1,4 @@
+export const runtime = 'edge';
 // API endpoint for getting related studies
 // GET /api/studies/[id]/related
 

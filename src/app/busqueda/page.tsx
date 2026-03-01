@@ -1,3 +1,4 @@
+export const runtime = 'edge';
 import { Suspense } from 'react';
 import Link from 'next/link';
 import { ArrowLeft, Search as SearchIcon, Loader2 } from 'lucide-react';

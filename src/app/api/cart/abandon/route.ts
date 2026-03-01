@@ -1,3 +1,4 @@
+export const runtime = 'edge';
 // Cart Abandonment Tracking and Remarketing API
 // POST /api/cart/abandon
 

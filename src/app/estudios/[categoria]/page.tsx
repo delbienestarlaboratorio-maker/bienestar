@@ -1,3 +1,4 @@
+export const runtime = 'edge';
 import { CategoryStudyList } from '@/components/studies/CategoryStudyList';
 import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';

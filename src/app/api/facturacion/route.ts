@@ -1,3 +1,4 @@
+export const runtime = 'edge';
 import { NextRequest, NextResponse } from 'next/server';
 import { type InvoiceRequest } from '@/data/sat-catalogs';
 import { validateRFC, validateCodigoPostal, validateEmail } from '@/lib/validation/rfc';

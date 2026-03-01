@@ -1,3 +1,4 @@
+export const runtime = 'edge';
 // API endpoint for tracking competitor visits
 // POST /api/analytics/competitor-visit
 

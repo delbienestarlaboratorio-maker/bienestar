@@ -1,3 +1,4 @@
+export const runtime = 'edge';
 import { notFound, redirect } from 'next/navigation';
 import { Metadata } from 'next';
 import studiesData from '@/data/studies.json';

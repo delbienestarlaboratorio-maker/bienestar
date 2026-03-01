@@ -1,3 +1,4 @@
+export const runtime = 'edge';
 // API endpoint para obtener estudios complementarios
 import { NextRequest, NextResponse } from 'next/server';
 import { db } from '@/db';
