@@ -1,6 +1,8 @@
 import { MetadataRoute } from 'next';
 import { getAllBlogPosts } from '@/data/blog';
-import studiesData from '@/data/studies.json';
+import { db } from '@/db';
+import { studies } from '@/db/schema';
+import { eq } from 'drizzle-orm';
 
 const BASE_URL = 'https://laboratorio.delbienestar.com.mx';
 
@@ -40,14 +42,23 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         { url: `${BASE_URL}/terminos`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.3 },
     ];
 
-    // 2. Study Routes — SOLO estudios activos (los del CSV)
-    const activeStudies = (studiesData as StudyEntry[]).filter(s => s.isActive !== false && s.slug);
-    const studyRoutes: MetadataRoute.Sitemap = activeStudies.map((study) => ({
-        url: `${BASE_URL}/estudios/${study.category || 'analisis-clinicos'}/${study.slug}`,
-        lastModified: new Date(),
-        changeFrequency: 'weekly' as const,
-        priority: 0.7,
-    }));
+    // 2. Study Routes — Consultados de la base de datos
+    let studyRoutes: MetadataRoute.Sitemap = [];
+    try {
+        const activeStudies = await db.select({
+            slug: studies.slug,
+            categoryId: studies.categoryId
+        }).from(studies).where(eq(studies.isActive, true));
+
+        studyRoutes = activeStudies.filter(s => s.slug).map((study) => ({
+            url: `${BASE_URL}/estudios/${study.categoryId || 'analisis-clinicos'}/${study.slug}`,
+            lastModified: new Date(),
+            changeFrequency: 'weekly' as const,
+            priority: 0.7,
+        }));
+    } catch {
+        // En caso de fallo de DB en el build
+    }
 
     // 3. Blog Posts
     let blogRoutes: MetadataRoute.Sitemap = [];

@@ -1,49 +1,36 @@
 export const runtime = 'edge';
 import { notFound, redirect } from 'next/navigation';
 import { Metadata } from 'next';
-import studiesData from '@/data/studies.json';
+import { db } from '@/db';
+import { studies as dbStudies } from '@/db/schema';
+import { eq, ilike, or } from 'drizzle-orm';
 import BuyButton from '@/components/BuyButton';
 import StudyClientSection from '@/components/ui/StudyClientSection';
 import { MedicalTestSchema, FAQPageSchema, BreadcrumbSchema } from '@/components/seo/SchemaMarkup';
 
-// Flexible study finder: exact match first, then fuzzy slug match
-function findStudy(slug: string, categoria: string): any {
-    const studies = studiesData as any[];
-    // 1. Exact match on slug + categoryId
-    let study = studies.find(s => s.slug === slug && s.categoryId === categoria);
-    if (study) return { study, redirect: false };
+// Flexible async study finder
+async function findStudyDb(slug: string, categoria: string): Promise<any> {
+    // 1. Exact match on slug
+    const exact = await db.select().from(dbStudies).where(eq(dbStudies.slug, slug)).limit(1);
+    if (exact.length > 0) {
+        return { study: exact[0], redirect: exact[0].categoryId !== categoria };
+    }
 
-    // 2. Exact match on slug only (ignore category)
-    study = studies.find(s => s.slug === slug);
-    if (study) return { study, redirect: true };
+    // 2. Partial match fallback using ILIKE
+    const norm = slug.replace(/-/g, '%');
+    const fuzzy = await db.select().from(dbStudies).where(ilike(dbStudies.slug, `%${norm}%`)).limit(1);
+    if (fuzzy.length > 0) {
+        return { study: fuzzy[0], redirect: true };
+    }
 
-    // 3. Normalize slug and try fuzzy match
-    const norm = slug.replace(/-/g, '').toLowerCase();
-    study = studies.find(s => s.slug.replace(/-/g, '').toLowerCase() === norm);
-    if (study) return { study, redirect: true };
-
-    // 4. Partial match: slug contains or is contained
-    study = studies.find(s => {
-        const sNorm = s.slug.replace(/-/g, '').toLowerCase();
-        return sNorm.includes(norm) || norm.includes(sNorm);
-    });
-    if (study) return { study, redirect: true };
-
-    // 5. Word-based matching (at least 70% of words match)
+    // 3. Deeper fallback for multiple words
     const slugWords = slug.split('-').filter(w => w.length > 2);
     if (slugWords.length >= 2) {
-        let bestMatch: any = null;
-        let bestScore = 0;
-        for (const s of studies) {
-            const sWords = s.slug.split('-').filter((w: string) => w.length > 2);
-            const matches = slugWords.filter(w => sWords.includes(w)).length;
-            const score = matches / Math.max(slugWords.length, sWords.length);
-            if (score > bestScore && score >= 0.5) {
-                bestScore = score;
-                bestMatch = s;
-            }
+        const conditions = slugWords.map(w => ilike(dbStudies.slug, `%${w}%`));
+        const deeper = await db.select().from(dbStudies).where(or(...conditions)).limit(1);
+        if (deeper.length > 0) {
+            return { study: deeper[0], redirect: true };
         }
-        if (bestMatch) return { study: bestMatch, redirect: true };
     }
 
     return { study: null, redirect: false };
@@ -63,7 +50,7 @@ interface PageProps {
 // Dynamic SEO metadata for each study
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
     const { categoria, slug } = await params;
-    const result = findStudy(slug, categoria);
+    const result = await findStudyDb(slug, categoria);
     const study = result?.study;
 
     if (!study) return { title: 'Estudio no encontrado' };
@@ -87,8 +74,8 @@ export default async function StudyDetailPage({ params }: PageProps) {
     try {
         const { categoria, slug } = await params;
 
-        // Find study with flexible matching (supports old URLs)
-        const result = findStudy(slug, categoria);
+        // Find study with flexible matching against Database
+        const result = await findStudyDb(slug, categoria);
 
         if (!result?.study) {
             notFound();

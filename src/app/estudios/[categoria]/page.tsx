@@ -3,7 +3,9 @@ import { CategoryStudyList } from '@/components/studies/CategoryStudyList';
 import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
 import { notFound } from 'next/navigation';
-import studiesData from '@/data/studies.json';
+import { db } from '@/db';
+import { studies as dbStudies } from '@/db/schema';
+import { eq, and } from 'drizzle-orm';
 
 const categories = [
     {
@@ -28,34 +30,10 @@ export default async function CategoryPage({ params }: PageProps) {
         notFound();
     }
 
-    // Filter studies from studies.json
-    const studies = (studiesData as any[])
-        .filter(study => study.categoryId === categoria)
-        .map(study => ({
-            id: study.id,
-            slug: study.slug,
-            name: study.name,
-            categoryId: study.categoryId,
-            subcategoryId: null,
-            description: study.description,
-            preparation: study.preparation,
-            turnaroundTime: study.turnaroundTime,
-            priceRegular: study.priceRegular,
-            pricePromotional: study.pricePromotional || null,
-            profitMargin: 0,
-            image: '/images/placeholders/default_study.jpg',
-            isActive: true,
-            views: 0,
-            whatIsIt: study.whatIsIt || null,
-            whatDoesItDetect: study.whatDoesItDetect || null,
-            benefits: study.benefits || null,
-            detailedPreparation: study.detailedPreparation || null,
-            included: null,
-            faqs: study.faqs || null,
-            searchTerms: study.searchTerms || null,
-            createdAt: new Date(),
-            updatedAt: new Date(),
-        }));
+    // Query directly from Neon Serverless Database
+    const dbResults = await db.select().from(dbStudies).where(and(eq(dbStudies.categoryId, categoria), eq(dbStudies.isActive, true)));
+
+    // Default the subcategories to empty array
     const subcategories: any[] = [];
 
     return (
@@ -80,14 +58,14 @@ export default async function CategoryPage({ params }: PageProps) {
                         </h1>
                         <p className="text-xl text-green-100 mb-2 max-w-3xl">{category.description}</p>
                         <p className="text-sm text-green-200">
-                            {studies.length} estudios disponibles
+                            {dbResults.length} estudios disponibles
                         </p>
                     </div>
                 </div>
 
                 {/* Interactive Study List */}
                 <CategoryStudyList
-                    initialStudies={studies as any}
+                    initialStudies={dbResults as any}
                     subcategories={subcategories}
                     categoria={categoria}
                 />
@@ -95,4 +73,3 @@ export default async function CategoryPage({ params }: PageProps) {
         </div>
     );
 }
-

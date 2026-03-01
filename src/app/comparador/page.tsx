@@ -1,11 +1,9 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import Link from 'next/link';
 import { ArrowLeft, Search, X, ArrowLeftRight, DollarSign, Clock, Beaker, CheckCircle, XCircle } from 'lucide-react';
-import studiesJson from '@/data/studies.json';
-
-const studies = (studiesJson as any[]).filter(s => s.slug && s.name);
+import { searchStudiesForComparador } from './actions';
 
 export default function ComparadorPage() {
     const [searchA, setSearchA] = useState('');
@@ -15,16 +13,23 @@ export default function ComparadorPage() {
     const [showDropA, setShowDropA] = useState(false);
     const [showDropB, setShowDropB] = useState(false);
 
-    const filteredA = useMemo(() => {
-        if (!searchA || searchA.length < 2) return [];
-        const q = searchA.toLowerCase();
-        return studies.filter(s => s.name.toLowerCase().includes(q)).slice(0, 8);
+    const [filteredA, setFilteredA] = useState<any[]>([]);
+    const [filteredB, setFilteredB] = useState<any[]>([]);
+
+    useEffect(() => {
+        if (searchA.length >= 2) {
+            searchStudiesForComparador(searchA).then(setFilteredA);
+        } else {
+            setFilteredA([]);
+        }
     }, [searchA]);
 
-    const filteredB = useMemo(() => {
-        if (!searchB || searchB.length < 2) return [];
-        const q = searchB.toLowerCase();
-        return studies.filter(s => s.name.toLowerCase().includes(q)).slice(0, 8);
+    useEffect(() => {
+        if (searchB.length >= 2) {
+            searchStudiesForComparador(searchB).then(setFilteredB);
+        } else {
+            setFilteredB([]);
+        }
     }, [searchB]);
 
     const selectA = (s: any) => { setStudyA(s); setSearchA(s.name); setShowDropA(false); };

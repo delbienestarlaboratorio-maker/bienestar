@@ -1,5 +1,7 @@
 import Link from 'next/link';
-import studiesData from '@/data/studies.json';
+import { db } from '@/db';
+import { studies } from '@/db/schema';
+import { eq } from 'drizzle-orm';
 import { ChevronRight, TestTube, Activity, Baby, Droplets, Microscope, Heart, Pill, Dna, Stethoscope, Scan } from 'lucide-react';
 
 const categories = [
@@ -29,8 +31,8 @@ function classifyStudy(study: any): string {
     return 'analisis-clinicos';
 }
 
-export default function AllStudiesPage() {
-    const activeStudies = (studiesData as any[]).filter((s: any) => s.slug && s.categoryId);
+export default async function AllStudiesPage() {
+    const activeStudies = await db.select().from(studies).where(eq(studies.isActive, true));
 
     // Classify studies into proper categories
     const classifiedStudies = activeStudies.map(s => ({
