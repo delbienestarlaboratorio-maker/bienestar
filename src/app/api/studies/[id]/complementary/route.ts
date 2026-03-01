@@ -4,9 +4,9 @@ import { NextRequest, NextResponse } from 'next/server';
 import { db } from '@/db';
 import { studies } from '@/db/schema';
 import { eq } from 'drizzle-orm';
-import { Pool } from 'pg';
+import { neon } from '@neondatabase/serverless';
 
-const pool = new Pool({ connectionString: process.env.DATABASE_URL });
+const sql = neon(process.env.DATABASE_URL || 'postgresql://dummyuser:dummypass@localhost/placeholder_build_only');
 
 export async function GET(
     request: NextRequest,
@@ -27,7 +27,7 @@ export async function GET(
         }
 
         // Obtener correlaciones con sus estudios complementarios
-        const result = await pool.query(`
+        const result = await sql(`
       SELECT 
         s.*,
         sc.relation_type,
@@ -44,7 +44,8 @@ export async function GET(
       LIMIT 4
     `, [id]);
 
-        const complementaryStudies = result.rows.map(row => ({
+        const rows = Array.isArray(result) ? result : [];
+        const complementaryStudies = rows.map(row => ({
             study: {
                 id: row.id,
                 name: row.name,

@@ -1,7 +1,7 @@
 import NextAuth, { NextAuthConfig } from 'next-auth';
 import Credentials from 'next-auth/providers/credentials';
 import { DrizzleAdapter } from '@auth/drizzle-adapter';
-import bcrypt from 'bcryptjs';
+import { compare } from 'bcrypt-ts';
 import { db } from '@/db';
 import { users, sessions, accounts, verificationTokens } from '@/db/schema';
 import { eq } from 'drizzle-orm';
@@ -26,7 +26,7 @@ export const authConfig: NextAuthConfig = {
                     return null;
                 }
 
-                const isValid = await bcrypt.compare(credentials.password as string, user[0].password);
+                const isValid = await compare(credentials.password as string, user[0].password);
 
                 if (!isValid) {
                     return null;

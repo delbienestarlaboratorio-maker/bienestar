@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server';
 import { db } from '@/db';
 import { users } from '@/db/schema';
 import { eq } from 'drizzle-orm';
-import bcrypt from 'bcryptjs';
+import { hash } from 'bcrypt-ts';
 
 // GET: Obtener todos los usuarios
 export async function GET() {
@@ -36,7 +36,7 @@ export async function POST(request: Request) {
         }
 
         // Hash password
-        const hashedPassword = await bcrypt.hash(password, 12);
+        const hashedPassword = await hash(password, 12);
 
         const newUser = await db.insert(users).values({
             name,
