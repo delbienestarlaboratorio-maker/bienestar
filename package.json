@@ -15,6 +15,14 @@
     "db:seed": "tsx src/db/seed.ts",
     "db:seed-subcategories": "tsx src/db/seed-subcategories.ts"
   },
+  "overrides": {
+    "@cloudflare/next-on-pages": {
+      "next": "$next"
+    },
+    "next-auth": {
+      "next": "$next"
+    }
+  },
   "dependencies": {
     "@auth/drizzle-adapter": "^1.11.1",
     "@google/generative-ai": "^0.24.1",
