@@ -1,5 +1,6 @@
-import { Pool } from 'pg';
+import { neon } from '@neondatabase/serverless';
 
+export const runtime = 'edge';
 export const dynamic = 'force-dynamic';
 
 export default async function DiagnosticPage() {
@@ -18,23 +19,16 @@ export default async function DiagnosticPage() {
 
     // Try direct connection
     try {
-        const pool = new Pool({
-            connectionString: process.env.DATABASE_URL,
-            ssl: process.env.DATABASE_URL?.includes('neon.tech')
-                ? { rejectUnauthorized: false }
-                : false,
-        });
+        const sql = neon(process.env.DATABASE_URL as string);
 
         connectionTest = 'Attempting...';
 
-        const testQuery = await pool.query('SELECT NOW()');
-        connectionTest = 'Success - ' + testQuery.rows[0].now;
+        const testQuery = await sql`SELECT NOW()`;
+        connectionTest = 'Success - ' + (testQuery as any)[0].now;
 
-        const studiesResult = await pool.query('SELECT COUNT(*) FROM studies');
-        studyCount = parseInt(studiesResult.rows[0].count);
+        const studiesResult = await sql`SELECT COUNT(*) FROM studies`;
+        studyCount = parseInt((studiesResult as any)[0].count);
         dbStatus = 'Connected';
-
-        await pool.end();
     } catch (error: any) {
         dbStatus = 'Failed';
         dbError = error?.message || String(error);
