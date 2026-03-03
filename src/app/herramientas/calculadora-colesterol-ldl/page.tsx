@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
+import { StudyCTA } from '@/components/ui/StudyCTA';
 
 export default function CalculadoraColesterolLDLPage() {
     const [colTotal, setColTotal] = useState('');
@@ -57,6 +58,14 @@ export default function CalculadoraColesterolLDLPage() {
                             </div>);
                     })()}
                 </div>
+                
+                <StudyCTA 
+                    title={`¿Colesterol LDL elevado?`} 
+                    description={`El LDL es conocido como "colesterol malo" porque forma placas que tapan las arterias. Si tus niveles son altos, necesitas un Perfil Lipídico avanzado para iniciar tratamiento urgente.`} 
+                    actionText={`Cotizar Perfil Clínico de Lípidos`}
+                    link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Cotizar%20Perfil%20Cl%C3%ADnico%20de%20L%C3%ADpidos*`} 
+                    type="estudio" 
+                />
                 <AdBanner variant="horizontal" className="mb-8" />
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden mb-8">
                     <button onClick={() => setShowInfo(!showInfo)} className="w-full px-6 py-4 flex items-center justify-between text-left hover:bg-gray-50"><span className="font-bold text-gray-900">📚 Fórmula de Friedewald — Información Científica</span><span className={`text-2xl transition-transform ${showInfo ? 'rotate-180' : ''}`}>▼</span></button>
@@ -69,6 +78,14 @@ export default function CalculadoraColesterolLDLPage() {
                         <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 text-xs text-yellow-800"><strong>⚠️ Aviso:</strong> Para una evaluación precisa, solicita un Perfil de Lípidos con LDL directo en nuestro laboratorio.</div>
                     </div>)}
                 </div>
+                
+                <StudyCTA 
+                    title={`¿Colesterol LDL elevado?`} 
+                    description={`El LDL es conocido como "colesterol malo" porque forma placas que tapan las arterias. Si tus niveles son altos, necesitas un Perfil Lipídico avanzado para iniciar tratamiento urgente.`} 
+                    actionText={`Cotizar Perfil Clínico de Lípidos`}
+                    link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Cotizar%20Perfil%20Cl%C3%ADnico%20de%20L%C3%ADpidos*`} 
+                    type="estudio" 
+                />
                 <AdBanner variant="compact" className="mb-8" />
             </div>
         </main>

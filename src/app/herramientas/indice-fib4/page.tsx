@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
+import { StudyCTA } from '@/components/ui/StudyCTA';
 
 export default function IndiceFIB4Page() {
     const [edad, setEdad] = useState(''); const [ast, setAst] = useState(''); const [alt, setAlt] = useState(''); const [plaquetas, setPlaquetas] = useState('');
@@ -25,8 +26,24 @@ export default function IndiceFIB4Page() {
                 const c = getCat(resultado); return (<div className="mt-8"><div className={`${c.bg} rounded-2xl p-6 text-center mb-6`}><p className="text-sm text-gray-600 mb-1">Índice FIB-4</p><p className={`text-5xl font-black ${c.color}`}>{resultado}</p><p className={`text-lg font-bold ${c.color} mt-2`}>{c.label}</p><p className="text-gray-600 text-sm mt-1">{c.desc}</p></div>
                     <div className="bg-green-50 border-2 border-green-200 rounded-2xl p-6"><h3 className="font-bold text-green-900 text-lg mb-3">🔬 Estudios Recomendados</h3><div className="space-y-3">{[{ name: 'Perfil Hepático completo (AST, ALT, GGT, FA, Bilirrubinas)', reason: 'Evaluación integral de función hepática' }, { name: 'Biometría Hemática con Plaquetas', reason: 'Las plaquetas bajas indican hipertensión portal' }, { name: 'Albúmina', reason: 'Marcador de función de síntesis hepática' }, { name: 'Tiempo de Protrombina (TP/INR)', reason: 'La coagulación se altera con enfermedad hepática avanzada' }].map(s => (<div key={s.name} className="flex items-start gap-3 bg-white rounded-lg p-3 shadow-sm"><span className="text-green-600 mt-1">✓</span><div><p className="font-semibold text-gray-800 text-sm">{s.name}</p><p className="text-gray-500 text-xs">{s.reason}</p></div></div>))}</div><Link href="/estudios/analisis-clinicos" className="mt-4 inline-block bg-green-700 text-white px-6 py-2 rounded-lg font-bold text-sm hover:bg-green-800">Ver Estudios →</Link></div></div>);
             })()}
-        </div><AdBanner variant="horizontal" className="mb-8" />
+        </div>
+                <StudyCTA 
+                    title={`Salva tu Hígado Hoy`} 
+                    description={`Un FIB4 elevado apunta a fibrosis o cirrosis inminente. Estudios urgentes de Perfil Hepático o Pruebas de Función Hepática (AST, ALT, Bilirrubinas) te indicarán el camino clínico a seguir.`} 
+                    actionText={`Cotizar Prueba Hepática`}
+                    link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Cotizar%20Prueba%20Hep%C3%A1tica*`} 
+                    type="estudio" 
+                />
+                <AdBanner variant="horizontal" className="mb-8" />
             <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden mb-8"><button onClick={() => setShowInfo(!showInfo)} className="w-full px-6 py-4 flex items-center justify-between text-left hover:bg-gray-50"><span className="font-bold text-gray-900">📚 Índice FIB-4 — Información Científica</span><span className={`text-2xl transition-transform ${showInfo ? 'rotate-180' : ''}`}>▼</span></button>{showInfo && (<div className="px-6 pb-6 border-t border-gray-100 pt-4 text-gray-700 text-sm space-y-4"><p>El <strong>FIB-4</strong> es un índice no invasivo para estimar fibrosis hepática usando solo 4 datos que se obtienen de análisis de sangre rutinarios.</p><div className="bg-gray-50 rounded-xl p-4 text-center font-mono">FIB-4 = (Edad × AST) / (Plaquetas × √ALT)</div><p>Fue validado originalmente para hepatitis C pero se usa ampliamente en hígado graso no alcohólico (NAFLD/NASH).</p><h4 className="font-bold text-gray-900">Fuentes</h4><ul className="list-disc list-inside text-xs text-gray-500"><li>Sterling, R.K. et al. (2006). Development of a simple noninvasive index to predict significant fibrosis. Hepatology.</li><li>European Association for the Study of the Liver (EASL). Clinical Practice Guidelines. 2016.</li></ul><div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 text-xs text-yellow-800"><strong>⚠️ Aviso:</strong> Este índice no confirma ni descarta diagnósticos. Consulta a un hepatólogo para interpretación clínica.</div></div>)}</div>
-            <AdBanner variant="compact" className="mb-8" /></div>
+            
+                <StudyCTA 
+                    title={`Salva tu Hígado Hoy`} 
+                    description={`Un FIB4 elevado apunta a fibrosis o cirrosis inminente. Estudios urgentes de Perfil Hepático o Pruebas de Función Hepática (AST, ALT, Bilirrubinas) te indicarán el camino clínico a seguir.`} 
+                    actionText={`Cotizar Prueba Hepática`}
+                    link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Cotizar%20Prueba%20Hep%C3%A1tica*`} 
+                    type="estudio" 
+                />
+                <AdBanner variant="compact" className="mb-8" /></div>
     </main>);
 }

@@ -44,6 +44,60 @@ const calculators = [
     { slug: 'indice-cintura-cadera', name: 'Cintura-Cadera', desc: 'Índice de riesgo abdominal', icon: '📏', category: 'Nutrición', color: 'bg-lime-600' },
     // Hematología
     { slug: 'riesgo-anemia', name: 'Riesgo de Anemia', desc: 'Evalúa tu riesgo de anemia', icon: '🩸', category: 'Hematología', color: 'bg-rose-600' },
+
+    // Reumatología e Inmunología (Fase 4)
+    { slug: 'sospecha-autoinmune', name: 'Alerta Inmunológica', desc: 'Riesgo de Artritis y Lupus', icon: '🛡️', category: 'Inmunología', color: 'bg-violet-600' },
+    { slug: 'actividad-ar-das28', name: 'Puntaje DAS28', desc: 'Evalúa actividad de Artritis', icon: '🖐️', category: 'Reumatología', color: 'bg-emerald-600' },
+    // Dermatología e Infectología (Fase 4)
+    { slug: 'evaluador-alopecia', name: 'Caída de Cabello', desc: 'Detección Hormonal de Alopecia', icon: '💇‍♀️', category: 'Dermatología', color: 'bg-slate-700' },
+    { slug: 'riesgo-ets', name: 'Riesgo Infeccioso', desc: 'Test anónimo de ETS / Venéreas', icon: '🦠', category: 'Infectología', color: 'bg-rose-700' },
+    // Oncología (Fase 4)
+    { slug: 'riesgo-malignidad-ovarica', name: 'ROMA Score', desc: 'Riesgo de Malignidad Ovárica', icon: '🩸', category: 'Oncología', color: 'bg-fuchsia-800' },
+    { slug: 'indice-psa', name: 'Índice PSA Libre', desc: 'Patología prostática', icon: '🚹', category: 'Oncología', color: 'bg-blue-800' },
+    // Toxicología y Deporte (Fase 4)
+    { slug: 'salud-ocupacional-toxicologia', name: 'Riesgo Toxicológico', desc: 'Certificado Antidoping', icon: '🏭', category: 'Toxicología', color: 'bg-gray-800' },
+    { slug: 'test-sobreentrenamiento', name: 'Daño Muscular', desc: 'Nivel de sobreentrenamiento', icon: '🏋️‍♂️', category: 'Medicina del Deporte', color: 'bg-orange-700' },
+    // Ginecología (Fase 4)
+    { slug: 'evaluador-sop', name: 'Criterios SOP', desc: 'Síndrome de Ovario Poliquístico', icon: '🌸', category: 'Ginecología', color: 'bg-pink-600' },
+    { slug: 'riesgo-preeclampsia', name: 'Riesgo Preeclampsia', desc: 'Evaluador clínico gestacional', icon: '🤰', category: 'Ginecología', color: 'bg-rose-700' },
+    // Gastroenterología (Fase 4)
+    { slug: 'riesgo-ulcera-gastritis', name: 'Gastritis / Úlcera', desc: 'Sospecha Helicobacter', icon: '🔥', category: 'Gastroenterología', color: 'bg-red-700' },
+    { slug: 'riesgo-celiaquia-gastrica', name: 'Enfermedad Celíaca', desc: 'Riesgo intolerancia al gluten', icon: '🌾', category: 'Gastroenterología', color: 'bg-orange-500' },
+    // Endocrinología y Urología (Fase 4)
+    { slug: 'score-ipss-prostata', name: 'Score IPSS Próstata', desc: 'Hiperplasia prostática', icon: '💧', category: 'Urología', color: 'bg-indigo-600' },
+    { slug: 'riesgo-hipotiroidismo', name: 'Riesgo Hipotiroidismo', desc: 'Disfunción Glánula Tiroides', icon: '🦋', category: 'Endocrinología', color: 'bg-purple-600' },
+
+    // --- NUEVAS HERRAMIENTAS VIRALES DE TRÁFICO MASIVO (FASE 5) ---
+    { slug: 'prediccion-sexo-bebe', name: 'Sexo del Bebé', desc: 'Tabla Predictiva China', icon: '👶', category: 'Virales y Curiosidades', color: 'bg-fuchsia-600' },
+    { slug: 'edad-mental', name: 'Tu Edad Mental', desc: 'Test de madurez psicológica', icon: '🧠', category: 'Virales y Curiosidades', color: 'bg-fuchsia-600' },
+    { slug: 'test-narcisismo', name: 'Espectro Narcisista', desc: 'Test de Personalidad y Ego', icon: '🪞', category: 'Virales y Curiosidades', color: 'bg-fuchsia-600' },
+    { slug: 'test-daltonismo-astigmatismo', name: 'Test Visual Básico', desc: 'Averigua si necesitas lentes', icon: '👁️', category: 'Virales y Curiosidades', color: 'bg-fuchsia-600' },
+    { slug: 'sindrome-burnout', name: 'Nivel Burnout Laboral', desc: 'Test estrés laboral crónico', icon: '💼', category: 'Virales y Curiosidades', color: 'bg-fuchsia-600' },
+    { slug: 'calculadora-calorias-peso-ideal', name: 'Calculadora de Déficit', desc: 'Tu cuerpo de verano', icon: '⚖️', category: 'Virales y Curiosidades', color: 'bg-fuchsia-600' },
+    { slug: 'test-lenguaje-amor', name: 'Lenguaje del Amor', desc: 'Test Parejas', icon: '❤️', category: 'Virales y Curiosidades', color: 'bg-fuchsia-600' },
+    { slug: 'calculadora-tipo-piel', name: 'Rutina Skincare', desc: 'Descubre tu rutina ideal', icon: '🧴', category: 'Virales y Curiosidades', color: 'bg-fuchsia-600' },
+    { slug: 'limpiador-antidoping', name: 'Calculadora Antidoping', desc: 'Limpieza toxicológica rápida', icon: '⏱️', category: 'Virales y Curiosidades', color: 'bg-fuchsia-600' },
+    { slug: 'cuanto-medira', name: 'Estatura Futura', desc: 'Pronóstico para tu bebé', icon: '📏', category: 'Virales y Curiosidades', color: 'bg-fuchsia-600' },
+    { slug: 'test-tdah-adultos', name: 'Test TDAH Adultos', desc: 'Evaluador atencional visual', icon: '🌪️', category: 'Virales y Curiosidades', color: 'bg-fuchsia-600' },
+    { slug: 'calculadora-ayuno-intermitente', name: 'Ayuno Intermitente', desc: 'Tu ventana quema-grasa ideal', icon: '🥗', category: 'Virales y Curiosidades', color: 'bg-fuchsia-600' },
+    { slug: 'toxicidad-religiosa', name: 'Test Sensibilidad PAS', desc: 'Averigua si eres PAS', icon: '✨', category: 'Virales y Curiosidades', color: 'bg-fuchsia-600' },
+    { slug: 'identificador-heces-bristol', name: 'Escala de Bristol', desc: 'Análisis de tu Digestión', icon: '💩', category: 'Virales y Curiosidades', color: 'bg-fuchsia-600' },
+    { slug: 'calculadora-tipo-pisada', name: 'Riesgo de Rodilla', desc: 'Daño Articular y Gota', icon: '🦵', category: 'Virales y Curiosidades', color: 'bg-fuchsia-600' },
+    { slug: 'test-apego-emocional', name: 'Apego Emocional', desc: 'Test Tóxico vs Seguro', icon: '🔗', category: 'Virales y Curiosidades', color: 'bg-fuchsia-600' },
+    { slug: 'calculadora-desarrollo-embarazo', name: 'El Feto en Frutas', desc: 'Tu bebé semana a semana', icon: '🍉', category: 'Virales y Curiosidades', color: 'bg-fuchsia-600' },
+    { slug: 'calculadora-alcohol', name: 'Alcoholímetro Web', desc: 'Nivel etílico actual', icon: '🍻', category: 'Virales y Curiosidades', color: 'bg-fuchsia-600' },
+    { slug: 'test-pasivos-agresivos', name: 'Comunicación Tóxica', desc: 'Eres Pasivo-Agresivo?', icon: '💬', category: 'Virales y Curiosidades', color: 'bg-fuchsia-600' },
+    { slug: 'test-cafeina-corazon', name: 'Sobredosis Cafeína', desc: 'Taquicardia vs Ansiedad', icon: '☕', category: 'Virales y Curiosidades', color: 'bg-fuchsia-600' },
+    { slug: 'calculadora-reserva-ovarica', name: 'Reloj Biológico', desc: 'Óvulos y fertilidad por edad', icon: '🥚', category: 'Virales y Curiosidades', color: 'bg-fuchsia-600' },
+    { slug: 'ansiedad-social', name: 'Fobia Social', desc: 'Introversión vs Ataques pánico', icon: '🫣', category: 'Virales y Curiosidades', color: 'bg-fuchsia-600' },
+    { slug: 'calculadora-imc-infantil', name: 'IMC Pediátrico', desc: 'Riesgo de obesidad infantil', icon: '🧸', category: 'Virales y Curiosidades', color: 'bg-fuchsia-600' },
+    { slug: 'dependencia-celular-dopamina', name: 'Dopamina / Celular', desc: 'Adicción a Redes Sociales', icon: '📱', category: 'Virales y Curiosidades', color: 'bg-fuchsia-600' },
+    { slug: 'proteina-muscular-diaria', name: 'Calculadora Muscular', desc: 'Tu gramaje exacto recomendado', icon: '🥩', category: 'Virales y Curiosidades', color: 'bg-fuchsia-600' },
+    { slug: 'fototipo-piel-cancer', name: 'Riesgo Cáncer Solar', desc: 'Tu escudo natural Fitzpatrick', icon: '☀️', category: 'Virales y Curiosidades', color: 'bg-fuchsia-600' },
+    { slug: 'hipocondria-ansiedad', name: 'Test Cibercondría', desc: 'Obsesión por leer en Google', icon: '🩺', category: 'Virales y Curiosidades', color: 'bg-fuchsia-600' },
+    { slug: 'depresion-sonriente', name: 'Depresión Sonriente', desc: 'Tristeza oculta y alto estrés', icon: '🎭', category: 'Virales y Curiosidades', color: 'bg-fuchsia-600' },
+    { slug: 'asimetria-facial', name: 'Malestar Dental', desc: 'Asimetría del cuello y bruxismo', icon: '🦷', category: 'Virales y Curiosidades', color: 'bg-fuchsia-600' },
+    { slug: 'presion-arterial-virtual', name: 'Asesino Silencioso', desc: 'Tensión vascular y ACV', icon: '❤️‍🔥', category: 'Virales y Curiosidades', color: 'bg-fuchsia-600' }
 ];
 
 const categories = [...new Set(calculators.map(c => c.category))];

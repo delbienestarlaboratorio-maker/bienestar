@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
+import { StudyCTA } from '@/components/ui/StudyCTA';
 
 export default function CalculadoraMacronutrientesPage() {
     const [calorias, setCalorias] = useState('');
@@ -39,8 +40,24 @@ export default function CalculadoraMacronutrientesPage() {
                 </div>
                 <div className="bg-green-50 border-2 border-green-200 rounded-2xl p-6"><h3 className="font-bold text-green-900 text-lg mb-3">🔬 Estudios Recomendados</h3><div className="space-y-3">{[{ name: 'Química Sanguínea 27 elementos', reason: 'Panel metabólico completo para tu plan nutricional' }, { name: 'Perfil de Lípidos', reason: 'Importante si sigues dieta alta en grasas (keto)' }, { name: 'Glucosa e Insulina', reason: 'Cómo tu cuerpo procesa los carbohidratos' }, { name: 'Albúmina y Proteínas Totales', reason: 'Evalúa si tu ingesta proteica es adecuada' }].map(s => (<div key={s.name} className="flex items-start gap-3 bg-white rounded-lg p-3 shadow-sm"><span className="text-green-600 mt-1">✓</span><div><p className="font-semibold text-gray-800 text-sm">{s.name}</p><p className="text-gray-500 text-xs">{s.reason}</p></div></div>))}</div><Link href="/estudios/analisis-clinicos" className="mt-4 inline-block bg-green-700 text-white px-6 py-2 rounded-lg font-bold text-sm hover:bg-green-800">Ver Estudios →</Link></div>
             </div>)}
-        </div><AdBanner variant="horizontal" className="mb-8" />
+        </div>
+                <StudyCTA 
+                    title={`Maximiza el desempeño deportivo`} 
+                    description={`Modificar drásticamente tus "macros" impacta el ácido úrico y urea (por exceso de proteína). Un chequeo trimestral previene daños a los riñones.`} 
+                    actionText={`Cotizar Urea y Creatinina`}
+                    link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Cotizar%20Urea%20y%20Creatinina*`} 
+                    type="estudio" 
+                />
+                <AdBanner variant="horizontal" className="mb-8" />
             <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden mb-8"><button onClick={() => setShowInfo(!showInfo)} className="w-full px-6 py-4 flex items-center justify-between text-left hover:bg-gray-50"><span className="font-bold text-gray-900">📚 Macronutrientes — Información Científica</span><span className={`text-2xl transition-transform ${showInfo ? 'rotate-180' : ''}`}>▼</span></button>{showInfo && (<div className="px-6 pb-6 border-t border-gray-100 pt-4 text-gray-700 text-sm space-y-4"><p>Los <strong>macronutrientes</strong> son los nutrientes que el cuerpo necesita en grandes cantidades: carbohidratos (4 kcal/g), proteínas (4 kcal/g) y grasas (9 kcal/g).</p><h4 className="font-bold text-gray-900">Distribuciones recomendadas</h4><table className="w-full text-sm"><thead><tr className="bg-gray-100"><th className="p-2 text-left">Objetivo</th><th className="p-2">Carbos</th><th className="p-2">Proteínas</th><th className="p-2">Grasas</th></tr></thead><tbody><tr className="border-b"><td className="p-2">Mantener</td><td className="p-2 text-center">50%</td><td className="p-2 text-center">25%</td><td className="p-2 text-center">25%</td></tr><tr className="border-b"><td className="p-2">Perder grasa</td><td className="p-2 text-center">40%</td><td className="p-2 text-center">35%</td><td className="p-2 text-center">25%</td></tr><tr className="border-b"><td className="p-2">Ganar masa</td><td className="p-2 text-center">50%</td><td className="p-2 text-center">25%</td><td className="p-2 text-center">25%</td></tr><tr><td className="p-2">Keto</td><td className="p-2 text-center">10%</td><td className="p-2 text-center">25%</td><td className="p-2 text-center">65%</td></tr></tbody></table><h4 className="font-bold text-gray-900">Fuentes</h4><ul className="list-disc list-inside text-xs text-gray-500"><li>Dietary Guidelines for Americans. U.S. Department of Health and Human Services.</li><li>International Society of Sports Nutrition position stand. JISSN. 2017.</li></ul><div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 text-xs text-yellow-800"><strong>⚠️ Aviso:</strong> Consulta a un nutriólogo para un plan personalizado.</div></div>)}</div>
-            <AdBanner variant="compact" className="mb-8" /></div>
+            
+                <StudyCTA 
+                    title={`Maximiza el desempeño deportivo`} 
+                    description={`Modificar drásticamente tus "macros" impacta el ácido úrico y urea (por exceso de proteína). Un chequeo trimestral previene daños a los riñones.`} 
+                    actionText={`Cotizar Urea y Creatinina`}
+                    link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Cotizar%20Urea%20y%20Creatinina*`} 
+                    type="estudio" 
+                />
+                <AdBanner variant="compact" className="mb-8" /></div>
     </main>);
 }

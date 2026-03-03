@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Check, ArrowRight, Star, Heart, Activity, Users, Shield, Sparkles } from 'lucide-react';
 import { studyPackages, packageCategories } from '@/data/studyPackages';
+import { AdBanner } from '@/components/ui/AdBanner';
 
 export const metadata: Metadata = {
     title: 'Paquetes de Estudios Médicos | Laboratorio del Bienestar',
@@ -126,6 +127,13 @@ export default function PaquetesPage() {
                     </section>
                 );
             })}
+
+            {/* Banner Publicitario */}
+            <section className="bg-white py-12 border-t border-gray-200">
+                <div className="max-w-4xl mx-auto px-4">
+                    <AdBanner />
+                </div>
+            </section>
 
             {/* CTA Final */}
             <section className="bg-gradient-to-br from-blue-600 to-indigo-700 text-white py-20 px-4 mt-16">

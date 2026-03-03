@@ -4,6 +4,7 @@ import { db } from '@/db';
 import { appointments } from '@/db/schema';
 import { eq, desc } from 'drizzle-orm';
 import { notifyNewAppointment } from '@/lib/webhooks';
+import { sendAppointmentNotificationEmail } from '@/lib/email-notifications';
 
 // POST - Crear nueva cita
 export async function POST(request: NextRequest) {
@@ -50,7 +51,7 @@ export async function POST(request: NextRequest) {
             );
         }
 
-        // Crear la cita en PostgreSQL
+        // Crear la cita en PostgreSQL (fuente principal, 100% independiente del servidor local)
         const [newAppointment] = await db.insert(appointments).values({
             patientName,
             patientEmail,
@@ -63,8 +64,20 @@ export async function POST(request: NextRequest) {
             status: 'pending'
         }).returning();
 
-        // 🔔 NUEVO: Notificar al backend local (Laboratorio Manager)
-        // Esto no bloquea la respuesta al cliente
+        // 📧 Notificar por EMAIL al staff (sin servidor local, funciona aunque esté apagado)
+        sendAppointmentNotificationEmail({
+            patientName,
+            patientEmail,
+            patientPhone,
+            studyName,
+            preferredDate,
+            preferredTime,
+            notes: notes || null,
+        }).catch(err => {
+            console.error('⚠️ Email notification failed (non-critical):', err);
+        });
+
+        // 🔔 Webhook al servidor local como respaldo secundario (falla silenciosamente si está apagado)
         notifyNewAppointment({
             paciente_nombre: patientName,
             telefono: patientPhone,
@@ -73,9 +86,8 @@ export async function POST(request: NextRequest) {
             fecha: preferredDate,
             hora: preferredTime,
             notas: notes || `Cita agendada desde web el ${new Date().toISOString()}`
-        }).catch(err => {
-            // Log error pero no fallar la operación
-            console.error('⚠️ Webhook notification failed (non-critical):', err);
+        }).catch(() => {
+            // Servidor local apagado — no afecta nada, el email ya fue enviado
         });
 
         return NextResponse.json({

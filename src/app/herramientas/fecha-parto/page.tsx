@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
+import { StudyCTA } from '@/components/ui/StudyCTA';
 
 export default function FechaPartoPage() {
     const [fur, setFur] = useState('');
@@ -44,8 +45,24 @@ export default function FechaPartoPage() {
                         <div className="bg-green-50 border-2 border-green-200 rounded-2xl p-6"><h3 className="font-bold text-green-900 text-lg mb-3">🔬 Estudios Prenatales Recomendados</h3><div className="space-y-3">{[{ name: 'Perfil Prenatal (BHCg, Tipo de Sangre, Rh)', reason: 'Primer paso del control prenatal' }, { name: 'Perfil TORCH (Toxo, Rubéola, CMV, Herpes)', reason: 'Descarta infecciones que afectan al bebé' }, { name: 'Biometría Hemática Completa', reason: 'Detecta anemia del embarazo' }, { name: 'Glucosa en Ayunas', reason: 'Screening de diabetes gestacional' }, { name: 'Examen General de Orina', reason: 'Detecta infecciones urinarias e preeclampsia' }].map(s => (<div key={s.name} className="flex items-start gap-3 bg-white rounded-lg p-3 shadow-sm"><span className="text-green-600 mt-1">✓</span><div><p className="font-semibold text-gray-800 text-sm">{s.name}</p><p className="text-gray-500 text-xs">{s.reason}</p></div></div>))}</div><Link href="/estudios/analisis-clinicos" className="mt-4 inline-block bg-green-700 text-white px-6 py-2 rounded-lg font-bold text-sm hover:bg-green-800">Ver Estudios →</Link></div>
                     </div>)}
                 </div>
+                
+                <StudyCTA 
+                    title={`Control Prenatal Essencial`} 
+                    description={`La salud de tu bebé arranca desde el inicio. El Paquete de Control Perinatal abarca química sanguínea, tipo de sangre materno y examen toxoplasmótico, protegiéndolos a ambos.`} 
+                    actionText={`Ver Check-Up Prenatal`}
+                    link={`/paquetes`} 
+                    type="checkup" 
+                />
                 <AdBanner variant="horizontal" className="mb-8" />
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden mb-8"><button onClick={() => setShowInfo(!showInfo)} className="w-full px-6 py-4 flex items-center justify-between text-left hover:bg-gray-50"><span className="font-bold text-gray-900">📚 Fecha de parto — Información Científica</span><span className={`text-2xl transition-transform ${showInfo ? 'rotate-180' : ''}`}>▼</span></button>{showInfo && (<div className="px-6 pb-6 border-t border-gray-100 pt-4 text-gray-700 text-sm space-y-4"><p>La <strong>Regla de Naegele</strong> estima la fecha probable de parto (FPP) sumando 280 días (40 semanas) a la fecha del primer día de la última menstruación (FUR). Fue descrita por el obstetra alemán Franz Karl Naegele en 1830.</p><div className="bg-gray-50 rounded-xl p-4 text-center font-mono">FPP = FUR + 280 días</div><p>Solo el 4-5% de los bebés nacen exactamente en la fecha calculada. El rango normal de parto es entre la semana 37 y 42. La fecha se confirma con ultrasonido del primer trimestre.</p><h4 className="font-bold text-gray-900">Fuentes</h4><ul className="list-disc list-inside text-xs text-gray-500"><li>Naegele, F.K. (1830). Erfahrungen und Abhandlungen aus dem Gebiete der Geburtshülfe.</li><li>ACOG Committee Opinion No. 700. Methods for Estimating the Due Date.</li></ul><div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 text-xs text-yellow-800"><strong>⚠️ Aviso:</strong> Esta es una estimación. Confirma tu fecha de parto con tu ginecólogo mediante ultrasonido.</div></div>)}</div>
+                
+                <StudyCTA 
+                    title={`Control Prenatal Essencial`} 
+                    description={`La salud de tu bebé arranca desde el inicio. El Paquete de Control Perinatal abarca química sanguínea, tipo de sangre materno y examen toxoplasmótico, protegiéndolos a ambos.`} 
+                    actionText={`Ver Check-Up Prenatal`}
+                    link={`/paquetes`} 
+                    type="checkup" 
+                />
                 <AdBanner variant="compact" className="mb-8" />
             </div>
         </main>

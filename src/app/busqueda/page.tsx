@@ -1,4 +1,4 @@
-export const runtime = 'edge';
+export const dynamic = 'force-dynamic';
 import { Suspense } from 'react';
 import Link from 'next/link';
 import { ArrowLeft, Search as SearchIcon, Loader2 } from 'lucide-react';
@@ -7,8 +7,6 @@ import { studies } from '@/db/schema';
 import { ilike, or, and, eq } from 'drizzle-orm';
 import { StudyImageCard } from '@/components/studies/StudyImageCard';
 import { getStudyVisualType } from '@/lib/studyTypeClassifier';
-
-export const dynamic = 'force-dynamic';
 
 
 interface PageProps {

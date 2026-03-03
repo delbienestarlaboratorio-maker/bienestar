@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
+import { StudyCTA } from '@/components/ui/StudyCTA';
 
 export default function ConvertidorHbA1cPage() {
     const [mode, setMode] = useState<'hba1c' | 'glucosa'>('hba1c');
@@ -36,9 +37,25 @@ export default function ConvertidorHbA1cPage() {
                             <div className="bg-green-50 border-2 border-green-200 rounded-2xl p-6"><h3 className="font-bold text-green-900 text-lg mb-3">🔬 Estudios Recomendados</h3><div className="space-y-3">{[{ name: 'Hemoglobina Glicosilada (HbA1c)', reason: 'Medición directa más precisa que esta estimación' }, { name: 'Glucosa en Ayunas', reason: 'Complementa el diagnóstico de diabetes' }, { name: 'Insulina en Ayunas', reason: 'Evalúa resistencia a la insulina' }].map(s => (<div key={s.name} className="flex items-start gap-3 bg-white rounded-lg p-3 shadow-sm"><span className="text-green-600 mt-1">✓</span><div><p className="font-semibold text-gray-800 text-sm">{s.name}</p><p className="text-gray-500 text-xs">{s.reason}</p></div></div>))}</div><Link href="/estudios/analisis-clinicos" className="mt-4 inline-block bg-green-700 text-white px-6 py-2 rounded-lg font-bold text-sm hover:bg-green-800">Ver Estudios →</Link></div></div>);
                     })()}
                 </div>
+                
+                <StudyCTA 
+                    title={`El estándar de oro en glucosa`} 
+                    description={`La Glucosa en ayuno mide solo ese segundo, pero la HbA1c evalúa 90 días atrás. Es el estudio oficial para confirmar diabetes o prediabetes.`} 
+                    actionText={`Cotizar Hemoglobina A1c`}
+                    link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Cotizar%20Hemoglobina%20A1c*`} 
+                    type="estudio" 
+                />
                 <AdBanner variant="horizontal" className="mb-8" />
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden mb-8"><button onClick={() => setShowInfo(!showInfo)} className="w-full px-6 py-4 flex items-center justify-between text-left hover:bg-gray-50"><span className="font-bold text-gray-900">📚 ¿Qué es la HbA1c? — Información Científica</span><span className={`text-2xl transition-transform ${showInfo ? 'rotate-180' : ''}`}>▼</span></button>
                     {showInfo && (<div className="px-6 pb-6 border-t border-gray-100 pt-4 text-gray-700 text-sm space-y-4"><p>La <strong>Hemoglobina Glicosilada (HbA1c)</strong> mide el porcentaje de hemoglobina unida a glucosa en los últimos 2-3 meses. Es el estándar de oro para el control de la diabetes.</p><div className="bg-gray-50 rounded-xl p-4 text-center font-mono">Glucosa estimada (mg/dL) = 28.7 × HbA1c - 46.7</div><p>Esta fórmula fue derivada del estudio ADAG (A1C-Derived Average Glucose).</p><h4 className="font-bold text-gray-900">Fuentes</h4><ul className="list-disc list-inside text-xs text-gray-500"><li>Nathan, D.M. et al. (2008). Translating the A1C assay into estimated average glucose values. Diabetes Care.</li><li>American Diabetes Association. Standards of Medical Care in Diabetes.</li></ul><div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 text-xs text-yellow-800"><strong>⚠️ Aviso:</strong> Esta conversión es una estimación. La relación HbA1c-glucosa varía entre individuos. Realiza el estudio de HbA1c en laboratorio para mayor precisión.</div></div>)}</div>
+                
+                <StudyCTA 
+                    title={`El estándar de oro en glucosa`} 
+                    description={`La Glucosa en ayuno mide solo ese segundo, pero la HbA1c evalúa 90 días atrás. Es el estudio oficial para confirmar diabetes o prediabetes.`} 
+                    actionText={`Cotizar Hemoglobina A1c`}
+                    link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Cotizar%20Hemoglobina%20A1c*`} 
+                    type="estudio" 
+                />
                 <AdBanner variant="compact" className="mb-8" />
             </div>
         </main>

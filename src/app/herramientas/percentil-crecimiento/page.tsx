@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
+import { StudyCTA } from '@/components/ui/StudyCTA';
 
 // Simplified WHO growth data (50th percentile weight in kg for ages 0-18)
 const pesoP50H = [3.3, 9.6, 12.2, 14.3, 16.3, 18.3, 20.5, 22.9, 25.4, 28.1, 31.2, 35.6, 39.9, 45.3, 50.8, 56.0, 60.8, 64.4, 67.3];
@@ -44,8 +45,24 @@ export default function PercentilCrecimientoPage() {
                 </div>
                 <div className="bg-green-50 border-2 border-green-200 rounded-2xl p-6"><h3 className="font-bold text-green-900 text-lg mb-3">🔬 Estudios Pediátricos Recomendados</h3><div className="space-y-3">{[{ name: 'Biometría Hemática Completa', reason: 'Detecta anemia e infecciones' }, { name: 'Hierro Sérico y Ferritina', reason: 'Deficiencia de hierro afecta el crecimiento' }, { name: 'Perfil Tiroideo', reason: 'El hipotiroidismo causa retraso de crecimiento' }, { name: 'Vitamina D', reason: 'Esencial para el desarrollo óseo' }, { name: 'Química Sanguínea', reason: 'Panel metabólico general' }].map(s => (<div key={s.name} className="flex items-start gap-3 bg-white rounded-lg p-3 shadow-sm"><span className="text-green-600 mt-1">✓</span><div><p className="font-semibold text-gray-800 text-sm">{s.name}</p><p className="text-gray-500 text-xs">{s.reason}</p></div></div>))}</div><Link href="/estudios/analisis-clinicos" className="mt-4 inline-block bg-green-700 text-white px-6 py-2 rounded-lg font-bold text-sm hover:bg-green-800">Ver Estudios →</Link></div>
             </div>)}
-        </div><AdBanner variant="horizontal" className="mb-8" />
+        </div>
+                <StudyCTA 
+                    title={`Asegura el sano desarrollo infantil`} 
+                    description={`Bajo peso o talla lenta pueden deberse a parásitos o anemias silentes infantiles. El Estudio Coproparasitoscópico (Heces) detecta invasiones indeseadas.`} 
+                    actionText={`Check-up Pediátrico Escolar`}
+                    link={`/paquetes`} 
+                    type="checkup" 
+                />
+                <AdBanner variant="horizontal" className="mb-8" />
             <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden mb-8"><button onClick={() => setShowInfo(!showInfo)} className="w-full px-6 py-4 flex items-center justify-between text-left hover:bg-gray-50"><span className="font-bold text-gray-900">📚 Crecimiento infantil — Información Científica</span><span className={`text-2xl transition-transform ${showInfo ? 'rotate-180' : ''}`}>▼</span></button>{showInfo && (<div className="px-6 pb-6 border-t border-gray-100 pt-4 text-gray-700 text-sm space-y-4"><p>Los <strong>patrones de crecimiento de la OMS</strong> describen el crecimiento normal de niños de 0 a 18 años. Se basan en datos del Estudio Multicéntrico de Referencia del Crecimiento (MGRS) que incluyó 8,440 niños de 6 países.</p><p>Los valores de referencia en esta calculadora corresponden al <strong>percentil 50 (P50)</strong>, es decir, la mediana. Un peso o talla significativamente por debajo del P50 requiere evaluación pediátrica.</p><h4 className="font-bold text-gray-900">Fuentes</h4><ul className="list-disc list-inside text-xs text-gray-500"><li>WHO Multicentre Growth Reference Study Group (2006). WHO Child Growth Standards.</li><li>de Onis, M. et al. (2007). Development of a WHO growth reference for school-aged children. Bull WHO.</li></ul><div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 text-xs text-yellow-800"><strong>⚠️ Aviso:</strong> Esta es una evaluación simplificada. El seguimiento del crecimiento requiere gráficas de percentiles completas y evaluación por pediatra.</div></div>)}</div>
-            <AdBanner variant="compact" className="mb-8" /></div>
+            
+                <StudyCTA 
+                    title={`Asegura el sano desarrollo infantil`} 
+                    description={`Bajo peso o talla lenta pueden deberse a parásitos o anemias silentes infantiles. El Estudio Coproparasitoscópico (Heces) detecta invasiones indeseadas.`} 
+                    actionText={`Check-up Pediátrico Escolar`}
+                    link={`/paquetes`} 
+                    type="checkup" 
+                />
+                <AdBanner variant="compact" className="mb-8" /></div>
     </main>);
 }

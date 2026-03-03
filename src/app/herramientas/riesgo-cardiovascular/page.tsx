@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
+import { StudyCTA } from '@/components/ui/StudyCTA';
 
 export default function RiesgoCardiovascularPage() {
     const [sexo, setSexo] = useState<'hombre' | 'mujer'>('hombre');
@@ -187,6 +188,14 @@ export default function RiesgoCardiovascularPage() {
                     })()}
                 </div>
 
+                
+                <StudyCTA 
+                    title={`Protege tu corazón a tiempo`} 
+                    description={`El riesgo cardiovascular no avisa con dolor. Un Electrocardiograma y un Perfil de Lípidos Completo son los estudios estándar de oro para prevenir paros cardíacos silentes.`} 
+                    actionText={`Cotizar Check-Up Cardiológico`}
+                    link={`/paquetes`} 
+                    type="checkup" 
+                />
                 <AdBanner variant="horizontal" className="mb-8" />
 
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden mb-8">
@@ -227,6 +236,14 @@ export default function RiesgoCardiovascularPage() {
                     )}
                 </div>
 
+                
+                <StudyCTA 
+                    title={`Protege tu corazón a tiempo`} 
+                    description={`El riesgo cardiovascular no avisa con dolor. Un Electrocardiograma y un Perfil de Lípidos Completo son los estudios estándar de oro para prevenir paros cardíacos silentes.`} 
+                    actionText={`Cotizar Check-Up Cardiológico`}
+                    link={`/paquetes`} 
+                    type="checkup" 
+                />
                 <AdBanner variant="compact" className="mb-8" />
             </div>
         </main>

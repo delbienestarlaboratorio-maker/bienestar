@@ -1,9 +1,8 @@
-export const runtime = 'edge';
+export const dynamic = 'force-dynamic';
 import { db } from '@/db';
 import { studies } from '@/db/schema';
 import { eq, and } from 'drizzle-orm';
 
-export const dynamic = 'force-dynamic';
 
 interface PageProps {
     params: Promise<{

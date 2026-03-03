@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
+import { StudyCTA } from '@/components/ui/StudyCTA';
 
 export default function CalculadoraIMCPage() {
     const [peso, setPeso] = useState('');
@@ -125,6 +126,14 @@ export default function CalculadoraIMCPage() {
                 </div>
 
                 {/* Ad Banner */}
+                
+                <StudyCTA 
+                    title={`¿Tu IMC está fuera de rango?`} 
+                    description={`El Índice de Masa Corporal es un indicador básico. Para conocer tu salud metabólica real, incluyendo posibles hígados grasos o riesgo de diabetes, se sugiere un Check-Up Metabólico o una Química Sanguínea Completa.`} 
+                    actionText={`Cotizar Check-Up Metabólico`}
+                    link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Cotizar%20Check-Up%20Metab%C3%B3lico*`} 
+                    type="checkup" 
+                />
                 <AdBanner variant="horizontal" className="mb-8" />
 
                 {/* Scientific Info Collapsible */}
@@ -169,6 +178,14 @@ export default function CalculadoraIMCPage() {
                 </div>
 
                 {/* Ad Banner bottom */}
+                
+                <StudyCTA 
+                    title={`¿Tu IMC está fuera de rango?`} 
+                    description={`El Índice de Masa Corporal es un indicador básico. Para conocer tu salud metabólica real, incluyendo posibles hígados grasos o riesgo de diabetes, se sugiere un Check-Up Metabólico o una Química Sanguínea Completa.`} 
+                    actionText={`Cotizar Check-Up Metabólico`}
+                    link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Cotizar%20Check-Up%20Metab%C3%B3lico*`} 
+                    type="checkup" 
+                />
                 <AdBanner variant="compact" className="mb-8" />
             </div>
         </main>

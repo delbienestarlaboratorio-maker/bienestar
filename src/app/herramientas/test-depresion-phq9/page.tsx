@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
+import { StudyCTA } from '@/components/ui/StudyCTA';
 
 const preguntas = [
     'Poco interés o placer en hacer cosas',
@@ -32,8 +33,24 @@ export default function TestDepresionPHQ9Page() {
                     {resultado >= 10 && (<div className="bg-red-50 border-2 border-red-200 rounded-xl p-4 mb-6 text-sm text-red-800"><strong>⚠️ Importante:</strong> Si has tenido pensamientos de hacerte daño o suicidio, busca ayuda inmediata. Línea de la Vida: <strong>800-911-2000</strong> (24/7)</div>)}
                     <div className="bg-green-50 border-2 border-green-200 rounded-2xl p-6"><h3 className="font-bold text-green-900 text-lg mb-3">🔬 Estudios Recomendados</h3><p className="text-sm text-gray-600 mb-3">Algunas condiciones médicas pueden causar o empeorar síntomas depresivos:</p><div className="space-y-3">{[{ name: 'Perfil Tiroideo (TSH, T3, T4)', reason: 'El hipotiroidismo causa depresión, fatiga y cambios de peso' }, { name: 'Vitamina D (25-OH)', reason: 'Deficiencia de vitamina D se asocia a depresión' }, { name: 'Biometría Hemática', reason: 'La anemia causa fatiga y síntomas similares a depresión' }, { name: 'Vitamina B12 y Ácido Fólico', reason: 'Deficiencias asociadas a síntomas neuropsiquiátricos' }, { name: 'Cortisol', reason: 'Disfunción del eje HPA asociada a trastornos del ánimo' }].map(s => (<div key={s.name} className="flex items-start gap-3 bg-white rounded-lg p-3 shadow-sm"><span className="text-green-600 mt-1">✓</span><div><p className="font-semibold text-gray-800 text-sm">{s.name}</p><p className="text-gray-500 text-xs">{s.reason}</p></div></div>))}</div><Link href="/estudios/analisis-clinicos" className="mt-4 inline-block bg-green-700 text-white px-6 py-2 rounded-lg font-bold text-sm hover:bg-green-800">Ver Estudios →</Link></div></div>);
             })()}
-        </div><AdBanner variant="horizontal" className="mb-8" />
+        </div>
+                <StudyCTA 
+                    title={`Salud Mental y Fisiológica`} 
+                    description={`Curiosamente, depresión y cansancio a menudo esconden causas orgánicas no diagnosticadas, como Hipotiroidismo Severo o Anemia. Evaluar el Perfil Tiroideo descarta estos gatillos físicos.`} 
+                    actionText={`Cotizar Check-up General`}
+                    link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Cotizar%20Check-up%20General*`} 
+                    type="checkup" 
+                />
+                <AdBanner variant="horizontal" className="mb-8" />
             <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden mb-8"><button onClick={() => setShowInfo(!showInfo)} className="w-full px-6 py-4 flex items-center justify-between text-left hover:bg-gray-50"><span className="font-bold text-gray-900">📚 PHQ-9 — Información Científica</span><span className={`text-2xl transition-transform ${showInfo ? 'rotate-180' : ''}`}>▼</span></button>{showInfo && (<div className="px-6 pb-6 border-t border-gray-100 pt-4 text-gray-700 text-sm space-y-4"><p>El <strong>PHQ-9 (Patient Health Questionnaire-9)</strong> es un instrumento validado internacionalmente para el tamizaje y evaluación de la severidad de la depresión. Fue desarrollado por los Drs. Robert L. Spitzer, Janet B.W. Williams y Kurt Kroenke.</p><h4 className="font-bold text-gray-900">Interpretación</h4><table className="w-full text-sm"><thead><tr className="bg-gray-100"><th className="p-2">Puntaje</th><th className="p-2">Severidad</th></tr></thead><tbody><tr className="border-b"><td className="p-2 text-center">0-4</td><td className="p-2">Mínima</td></tr><tr className="border-b"><td className="p-2 text-center">5-9</td><td className="p-2">Leve</td></tr><tr className="border-b"><td className="p-2 text-center">10-14</td><td className="p-2">Moderada</td></tr><tr className="border-b"><td className="p-2 text-center">15-19</td><td className="p-2">Moderadamente severa</td></tr><tr><td className="p-2 text-center">20-27</td><td className="p-2">Severa</td></tr></tbody></table><h4 className="font-bold text-gray-900">Fuentes</h4><ul className="list-disc list-inside text-xs text-gray-500"><li>Kroenke, K. et al. (2001). The PHQ-9: validity of a brief depression severity measure. J Gen Intern Med.</li><li>Spitzer, R.L. et al. (1999). Validation and utility of a self-report version of PRIME-MD. JAMA.</li></ul><div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 text-xs text-yellow-800"><strong>⚠️ Aviso:</strong> Este test NO es un diagnóstico. Es un herramienta de tamizaje. Si obtuviste un puntaje ≥10, consulta a un profesional de salud mental.</div></div>)}</div>
-            <AdBanner variant="compact" className="mb-8" /></div>
+            
+                <StudyCTA 
+                    title={`Salud Mental y Fisiológica`} 
+                    description={`Curiosamente, depresión y cansancio a menudo esconden causas orgánicas no diagnosticadas, como Hipotiroidismo Severo o Anemia. Evaluar el Perfil Tiroideo descarta estos gatillos físicos.`} 
+                    actionText={`Cotizar Check-up General`}
+                    link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Cotizar%20Check-up%20General*`} 
+                    type="checkup" 
+                />
+                <AdBanner variant="compact" className="mb-8" /></div>
     </main>);
 }

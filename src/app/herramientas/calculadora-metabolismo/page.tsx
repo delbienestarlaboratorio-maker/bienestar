@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
+import { StudyCTA } from '@/components/ui/StudyCTA';
 
 export default function CalculadoraMetabolismoPage() {
     const [sexo, setSexo] = useState<'hombre' | 'mujer'>('hombre');
@@ -118,6 +119,14 @@ export default function CalculadoraMetabolismoPage() {
                     )}
                 </div>
 
+                
+                <StudyCTA 
+                    title={`¿Problemas con tu metabolismo?`} 
+                    description={`El metabolismo lento a menudo está ligado a la glándula tiroides. Un Perfil Tiroideo (TSH, T3, T4) ayuda a descartar hipotiroidismo como causa de fatiga o aumento de peso.`} 
+                    actionText={`Cotizar Perfil Tiroideo`}
+                    link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Cotizar%20Perfil%20Tiroideo*`} 
+                    type="estudio" 
+                />
                 <AdBanner variant="horizontal" className="mb-8" />
 
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden mb-8">
@@ -153,6 +162,14 @@ export default function CalculadoraMetabolismoPage() {
                     )}
                 </div>
 
+                
+                <StudyCTA 
+                    title={`¿Problemas con tu metabolismo?`} 
+                    description={`El metabolismo lento a menudo está ligado a la glándula tiroides. Un Perfil Tiroideo (TSH, T3, T4) ayuda a descartar hipotiroidismo como causa de fatiga o aumento de peso.`} 
+                    actionText={`Cotizar Perfil Tiroideo`}
+                    link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Cotizar%20Perfil%20Tiroideo*`} 
+                    type="estudio" 
+                />
                 <AdBanner variant="compact" className="mb-8" />
             </div>
         </main>

@@ -1,10 +1,10 @@
-export const runtime = 'edge';
 export const dynamic = 'force-dynamic';
 import Link from 'next/link';
 import { db } from '@/db';
 import { studies } from '@/db/schema';
 import { eq } from 'drizzle-orm';
 import { ChevronRight, TestTube, Activity, Baby, Droplets, Microscope, Heart, Pill, Dna, Stethoscope, Scan } from 'lucide-react';
+import { AdBanner } from '@/components/ui/AdBanner';
 
 const categories = [
     { id: 'analisis-clinicos', name: 'Análisis Clínicos', icon: TestTube, color: 'from-blue-500 to-cyan-500', keywords: [] as string[] },
@@ -116,6 +116,11 @@ export default async function AllStudiesPage() {
                             </Link>
                         );
                     })}
+                </div>
+
+                {/* Banner Publicitario */}
+                <div className="mt-16 max-w-4xl mx-auto">
+                    <AdBanner variant="horizontal" />
                 </div>
             </div>
         </main>

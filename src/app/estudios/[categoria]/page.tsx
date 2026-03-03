@@ -1,4 +1,3 @@
-export const runtime = 'edge';
 export const dynamic = 'force-dynamic';
 import { CategoryStudyList } from '@/components/studies/CategoryStudyList';
 import Link from 'next/link';

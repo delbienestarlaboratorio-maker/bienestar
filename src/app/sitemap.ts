@@ -3,8 +3,10 @@ import { getAllBlogPosts } from '@/data/blog';
 import { db } from '@/db';
 import { studies } from '@/db/schema';
 import { eq } from 'drizzle-orm';
+import fs from 'fs';
+import path from 'path';
 
-const BASE_URL = 'https://laboratorio.delbienestar.com.mx';
+const BASE_URL = 'https://laboratorio-bienestar.chispito.mx'; // Updated canonical domain
 
 interface StudyEntry {
     slug: string;
@@ -28,12 +30,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         { url: `${BASE_URL}/calculadora`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
         { url: `${BASE_URL}/comparador`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
         { url: `${BASE_URL}/herramientas`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
-        ...['calculadora-imc', 'calculadora-grasa-corporal', 'calculadora-agua', 'calculadora-metabolismo', 'calculadora-calorias', 'calculadora-peso-ideal', 'riesgo-cardiovascular', 'calculadora-colesterol-ldl', 'clasificador-presion-arterial', 'riesgo-diabetes', 'convertidor-hba1c', 'calculadora-egfr', 'sodio-corregido', 'calcio-corregido', 'fecha-parto', 'semanas-embarazo', 'dias-fertiles', 'percentil-crecimiento', 'indice-fib4', 'meld-score', 'test-depresion-phq9', 'test-ansiedad-gad7', 'calculadora-macronutrientes', 'indice-cintura-cadera', 'riesgo-anemia'].map(slug => ({
-            url: `${BASE_URL}/herramientas/${slug}`,
-            lastModified: new Date(),
-            changeFrequency: 'monthly' as const,
-            priority: 0.7,
-        })),
         { url: `${BASE_URL}/faq`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
         { url: `${BASE_URL}/resultados`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
         { url: `${BASE_URL}/agendar`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
@@ -41,6 +37,23 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         { url: `${BASE_URL}/privacidad`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.3 },
         { url: `${BASE_URL}/terminos`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.3 },
     ];
+
+    // 1.5 Dynamic Herramientas Routes (SEO Scale)
+    let dynamicTools: MetadataRoute.Sitemap = [];
+    try {
+        const herramientasDir = path.join(process.cwd(), 'src', 'app', 'herramientas');
+        if (fs.existsSync(herramientasDir)) {
+            const folders = fs.readdirSync(herramientasDir).filter(f => fs.statSync(path.join(herramientasDir, f)).isDirectory() && !f.startsWith('['));
+            dynamicTools = folders.map(slug => ({
+                url: `${BASE_URL}/herramientas/${slug}`,
+                lastModified: new Date(),
+                changeFrequency: 'weekly',
+                priority: 0.8, // High priority for SEO tools
+            }));
+        }
+    } catch (e) {
+        console.error("Sitemap Tools Error:", e);
+    }
 
     // 2. Study Routes — Consultados de la base de datos
     let studyRoutes: MetadataRoute.Sitemap = [];
@@ -74,5 +87,5 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         // Blog data may not be available
     }
 
-    return [...staticRoutes, ...studyRoutes, ...blogRoutes];
+    return [...staticRoutes, ...dynamicTools, ...studyRoutes, ...blogRoutes];
 }

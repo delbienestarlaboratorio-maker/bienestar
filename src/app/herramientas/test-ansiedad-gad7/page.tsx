@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
+import { StudyCTA } from '@/components/ui/StudyCTA';
 
 const preguntas = [
     'Se ha sentido nervioso/a, ansioso/a o con los nervios de punta',
@@ -29,8 +30,24 @@ export default function TestAnsiedadGAD7Page() {
                 const c = getCat(resultado); return (<div className="mt-8"><div className={`${c.bg} rounded-2xl p-6 text-center mb-6`}><p className="text-sm text-gray-600 mb-1">Puntaje GAD-7</p><p className={`text-5xl font-black ${c.color}`}>{resultado}/21</p><p className={`text-xl font-bold ${c.color} mt-1`}>Ansiedad {c.label}</p><p className="text-gray-600 text-sm mt-2">{c.desc}</p></div>
                     <div className="bg-green-50 border-2 border-green-200 rounded-2xl p-6"><h3 className="font-bold text-green-900 text-lg mb-3">🔬 Estudios Recomendados</h3><p className="text-sm text-gray-600 mb-3">Condiciones médicas que pueden causar o empeorar ansiedad:</p><div className="space-y-3">{[{ name: 'Cortisol Sérico', reason: 'El exceso de cortisol causa ansiedad, insomnio y nerviosismo' }, { name: 'Perfil Tiroideo (TSH, T3, T4)', reason: 'El hipertiroidismo causa ansiedad, taquicardia y temblor' }, { name: 'Glucosa en Ayunas', reason: 'La hipoglucemia causa síntomas que imitan ataques de pánico' }, { name: 'Electrolitos (Magnesio)', reason: 'La deficiencia de magnesio se asocia a ansiedad' }, { name: 'Biometría Hemática', reason: 'Descarta anemia que puede causar palpitaciones y nerviosismo' }].map(s => (<div key={s.name} className="flex items-start gap-3 bg-white rounded-lg p-3 shadow-sm"><span className="text-green-600 mt-1">✓</span><div><p className="font-semibold text-gray-800 text-sm">{s.name}</p><p className="text-gray-500 text-xs">{s.reason}</p></div></div>))}</div><Link href="/estudios/analisis-clinicos" className="mt-4 inline-block bg-green-700 text-white px-6 py-2 rounded-lg font-bold text-sm hover:bg-green-800">Ver Estudios →</Link></div></div>);
             })()}
-        </div><AdBanner variant="horizontal" className="mb-8" />
+        </div>
+                <StudyCTA 
+                    title={`Tranquilidad Nerviosa Global`} 
+                    description={`La clínica señala que faltantes crónicos de B12 y Vitamina D empeoran drásticamente los cuadros de ansiedad patológica y ataques de pánico.`} 
+                    actionText={`Verificar Test de Vitaminas`}
+                    link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Verificar%20Test%20de%20Vitaminas*`} 
+                    type="estudio" 
+                />
+                <AdBanner variant="horizontal" className="mb-8" />
             <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden mb-8"><button onClick={() => setShowInfo(!showInfo)} className="w-full px-6 py-4 flex items-center justify-between text-left hover:bg-gray-50"><span className="font-bold text-gray-900">📚 GAD-7 — Información Científica</span><span className={`text-2xl transition-transform ${showInfo ? 'rotate-180' : ''}`}>▼</span></button>{showInfo && (<div className="px-6 pb-6 border-t border-gray-100 pt-4 text-gray-700 text-sm space-y-4"><p>El <strong>GAD-7 (Generalized Anxiety Disorder 7-item)</strong> es un cuestionario breve y validado para detectar y evaluar la severidad del trastorno de ansiedad generalizada.</p><h4 className="font-bold text-gray-900">Interpretación</h4><table className="w-full text-sm"><thead><tr className="bg-gray-100"><th className="p-2">Puntaje</th><th className="p-2">Severidad</th></tr></thead><tbody><tr className="border-b"><td className="p-2 text-center">0-4</td><td className="p-2">Mínima</td></tr><tr className="border-b"><td className="p-2 text-center">5-9</td><td className="p-2">Leve</td></tr><tr className="border-b"><td className="p-2 text-center">10-14</td><td className="p-2">Moderada</td></tr><tr><td className="p-2 text-center">15-21</td><td className="p-2">Severa</td></tr></tbody></table><h4 className="font-bold text-gray-900">Fuentes</h4><ul className="list-disc list-inside text-xs text-gray-500"><li>Spitzer, R.L. et al. (2006). A brief measure for assessing generalized anxiety disorder. Arch Intern Med.</li><li>Kroenke, K. et al. (2007). Anxiety disorders in primary care. Ann Intern Med.</li></ul><div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 text-xs text-yellow-800"><strong>⚠️ Aviso:</strong> Este test NO es un diagnóstico. Si tu puntaje es ≥10, busca evaluación profesional de salud mental.</div></div>)}</div>
-            <AdBanner variant="compact" className="mb-8" /></div>
+            
+                <StudyCTA 
+                    title={`Tranquilidad Nerviosa Global`} 
+                    description={`La clínica señala que faltantes crónicos de B12 y Vitamina D empeoran drásticamente los cuadros de ansiedad patológica y ataques de pánico.`} 
+                    actionText={`Verificar Test de Vitaminas`}
+                    link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Verificar%20Test%20de%20Vitaminas*`} 
+                    type="estudio" 
+                />
+                <AdBanner variant="compact" className="mb-8" /></div>
     </main>);
 }

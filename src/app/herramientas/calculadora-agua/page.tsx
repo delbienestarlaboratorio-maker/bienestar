@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
+import { StudyCTA } from '@/components/ui/StudyCTA';
 
 export default function CalculadoraAguaPage() {
     const [peso, setPeso] = useState('');
@@ -126,6 +127,14 @@ export default function CalculadoraAguaPage() {
                     )}
                 </div>
 
+                
+                <StudyCTA 
+                    title={`Evalúa tu función renal`} 
+                    description={`Si tienes problemas para mantenerte hidratado o retienes líquidos, es vital evaluar cómo están filtrando tus riñones con una Química Sanguínea (Urea, Creatinina y Ácido Úrico).`} 
+                    actionText={`Cotizar Examen Renal`}
+                    link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Cotizar%20Examen%20Renal*`} 
+                    type="estudio" 
+                />
                 <AdBanner variant="horizontal" className="mb-8" />
 
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden mb-8">
@@ -162,6 +171,14 @@ export default function CalculadoraAguaPage() {
                     )}
                 </div>
 
+                
+                <StudyCTA 
+                    title={`Evalúa tu función renal`} 
+                    description={`Si tienes problemas para mantenerte hidratado o retienes líquidos, es vital evaluar cómo están filtrando tus riñones con una Química Sanguínea (Urea, Creatinina y Ácido Úrico).`} 
+                    actionText={`Cotizar Examen Renal`}
+                    link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Cotizar%20Examen%20Renal*`} 
+                    type="estudio" 
+                />
                 <AdBanner variant="compact" className="mb-8" />
             </div>
         </main>

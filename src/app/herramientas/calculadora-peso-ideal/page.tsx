@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
+import { StudyCTA } from '@/components/ui/StudyCTA';
 
 export default function CalculadoraPesoIdealPage() {
     const [sexo, setSexo] = useState<'hombre' | 'mujer'>('hombre');
@@ -115,6 +116,14 @@ export default function CalculadoraPesoIdealPage() {
                     )}
                 </div>
 
+                
+                <StudyCTA 
+                    title={`Logra tu peso con salud`} 
+                    description={`No persigas un número en la báscula a ciegas. Un Check-Up Nutricional te da la fotografía exacta de cómo está asimilando tu cuerpo los nutrientes y macronutrientes.`} 
+                    actionText={`Ver Paquete Nutricional`}
+                    link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Ver%20Paquete%20Nutricional*`} 
+                    type="checkup" 
+                />
                 <AdBanner variant="horizontal" className="mb-8" />
 
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden mb-8">
@@ -147,6 +156,14 @@ export default function CalculadoraPesoIdealPage() {
                     )}
                 </div>
 
+                
+                <StudyCTA 
+                    title={`Logra tu peso con salud`} 
+                    description={`No persigas un número en la báscula a ciegas. Un Check-Up Nutricional te da la fotografía exacta de cómo está asimilando tu cuerpo los nutrientes y macronutrientes.`} 
+                    actionText={`Ver Paquete Nutricional`}
+                    link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Ver%20Paquete%20Nutricional*`} 
+                    type="checkup" 
+                />
                 <AdBanner variant="compact" className="mb-8" />
             </div>
         </main>

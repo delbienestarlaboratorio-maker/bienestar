@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import { MapPin, Phone, Clock, Droplet, TestTube, Heart, Navigation, MessageCircle } from 'lucide-react';
+import { AdBanner } from '@/components/ui/AdBanner';
 
 export const metadata: Metadata = {
     title: 'Sucursales - Laboratorio Del Bienestar | Tizayuca, Hidalgo',
@@ -256,6 +257,13 @@ export default function SucursalesPage() {
                             </div>
                         ))}
                     </div>
+                </div>
+            </section>
+
+            {/* ── Ad Banner ── */}
+            <section className="py-12 bg-white">
+                <div className="container mx-auto px-4 max-w-4xl">
+                    <AdBanner />
                 </div>
             </section>
 

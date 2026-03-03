@@ -5,6 +5,7 @@ import { TestimonialsCarousel } from '@/components/social/TestimonialsCarousel';
 import { SymptomSearchWidget } from '@/components/search/SymptomSearchWidget';
 import { TrustBadges } from '@/components/home/TrustBadges';
 import { AnimatedSection } from '@/components/ui/AnimatedSection';
+import { AdBanner } from '@/components/ui/AdBanner';
 
 const topFAQs = [
   { q: '¿Necesito cita para hacerme estudios?', a: 'No es necesaria cita previa para la mayoría de los estudios. Puedes presentarte directamente en cualquiera de nuestras sucursales en horario de servicio.' },
@@ -239,6 +240,15 @@ export default function Home() {
           <div className="py-20 px-4 bg-white">
             <div className="max-w-7xl mx-auto">
               <TestimonialsCarousel itemsToShow={3} autoPlay={true} interval={5000} />
+            </div>
+          </div>
+        </AnimatedSection>
+
+        {/* ═══════ AD BANNER ═══════ */}
+        <AnimatedSection>
+          <div className="bg-gray-50 py-10 px-4 border-t border-gray-100">
+            <div className="max-w-4xl mx-auto">
+              <AdBanner />
             </div>
           </div>
         </AnimatedSection>

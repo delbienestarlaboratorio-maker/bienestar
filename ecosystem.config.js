@@ -3,7 +3,7 @@ module.exports = {
         {
             name: 'laboratorio-bienestar',
             script: 'node_modules/next/dist/bin/next',
-            args: 'dev -p 30200',
+            args: 'start -p 30200 -H 127.0.0.1',
             interpreter: 'node',
             cwd: 'd:/Paginas_web/pagina/laboratorio-bienestar',
             instances: 1,
@@ -11,7 +11,7 @@ module.exports = {
             watch: false,
             max_memory_restart: '1G',
             env: {
-                NODE_ENV: 'development',
+                NODE_ENV: 'production',
                 PORT: 30200
             },
             error_file: './logs/pm2-error.log',

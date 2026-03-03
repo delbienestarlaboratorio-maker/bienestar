@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
+import { StudyCTA } from '@/components/ui/StudyCTA';
 
 export default function ClasificadorPresionArterialPage() {
     const [sistolica, setSistolica] = useState('');
@@ -39,9 +40,25 @@ export default function ClasificadorPresionArterialPage() {
                         </tbody></table></div>
                         <div className="bg-green-50 border-2 border-green-200 rounded-2xl p-6"><h3 className="font-bold text-green-900 text-lg mb-3">🔬 Estudios Recomendados</h3><div className="space-y-3">{[{ name: 'Creatinina y BUN', reason: 'Evalúa daño renal por hipertensión' }, { name: 'Electrolitos Séricos', reason: 'Sodio y potasio afectan la presión arterial' }, { name: 'EGO (Examen General de Orina)', reason: 'Detecta proteinuria por daño hipertensivo' }, { name: 'Perfil de Lípidos', reason: 'Hipertensión + colesterol alto multiplican el riesgo' }].map(s => (<div key={s.name} className="flex items-start gap-3 bg-white rounded-lg p-3 shadow-sm"><span className="text-green-600 mt-1">✓</span><div><p className="font-semibold text-gray-800 text-sm">{s.name}</p><p className="text-gray-500 text-xs">{s.reason}</p></div></div>))}</div><Link href="/estudios/analisis-clinicos" className="mt-4 inline-block bg-green-700 text-white px-6 py-2 rounded-lg font-bold text-sm hover:bg-green-800">Ver Estudios →</Link></div></div>)}
                 </div>
+                
+                <StudyCTA 
+                    title={`Monitoreo de Hipertensión`} 
+                    description={`La presión alta daña los riñones y el corazón a lo largo de los años. Una Química Analítica y un Electrocardiograma son esenciales en el paciente hipertenso.`} 
+                    actionText={`Estudios de Hipertensión`}
+                    link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Estudios%20de%20Hipertensi%C3%B3n*`} 
+                    type="estudio" 
+                />
                 <AdBanner variant="horizontal" className="mb-8" />
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden mb-8"><button onClick={() => setShowInfo(!showInfo)} className="w-full px-6 py-4 flex items-center justify-between text-left hover:bg-gray-50"><span className="font-bold text-gray-900">📚 ¿Qué es la presión arterial? — Información Científica</span><span className={`text-2xl transition-transform ${showInfo ? 'rotate-180' : ''}`}>▼</span></button>
                     {showInfo && (<div className="px-6 pb-6 border-t border-gray-100 pt-4 text-gray-700 text-sm space-y-4"><p>La <strong>presión arterial</strong> es la fuerza que ejerce la sangre contra las paredes de las arterias. Se mide con dos valores: <strong>sistólica</strong> (cuando el corazón late) y <strong>diastólica</strong> (entre latidos).</p><p>La hipertensión es conocida como el &quot;asesino silencioso&quot; porque raramente causa síntomas pero puede llevar a enfermedades cardíacas, ACV, insuficiencia renal y daño retiniano.</p><h4 className="font-bold text-gray-900">Fuentes</h4><ul className="list-disc list-inside text-xs text-gray-500"><li>Whelton, P.K. et al. (2018). ACC/AHA Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure.</li><li>American Heart Association. Understanding Blood Pressure Readings.</li></ul><div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 text-xs text-yellow-800"><strong>⚠️ Aviso:</strong> Una sola lectura no es diagnóstica. La hipertensión se diagnostica con múltiples mediciones. Consulta a tu médico.</div></div>)}</div>
+                
+                <StudyCTA 
+                    title={`Monitoreo de Hipertensión`} 
+                    description={`La presión alta daña los riñones y el corazón a lo largo de los años. Una Química Analítica y un Electrocardiograma son esenciales en el paciente hipertenso.`} 
+                    actionText={`Estudios de Hipertensión`}
+                    link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Estudios%20de%20Hipertensi%C3%B3n*`} 
+                    type="estudio" 
+                />
                 <AdBanner variant="compact" className="mb-8" />
             </div>
         </main>

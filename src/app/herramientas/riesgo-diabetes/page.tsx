@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
+import { StudyCTA } from '@/components/ui/StudyCTA';
 
 const preguntas = [
     { id: 'edad', text: '¿Cuántos años tiene?', options: [{ v: 0, l: 'Menos de 45' }, { v: 2, l: '45-54 años' }, { v: 3, l: '55-64 años' }, { v: 4, l: 'Más de 64 años' }] },
@@ -55,9 +56,25 @@ export default function RiesgoDiabetesPage() {
                                 <div className="bg-green-50 border-2 border-green-200 rounded-2xl p-6"><h3 className="font-bold text-green-900 text-lg mb-3">🔬 Estudios Recomendados</h3><div className="space-y-3">{[{ name: 'Glucosa en Ayunas', reason: 'Primer paso para diagnóstico de diabetes' }, { name: 'Hemoglobina Glicosilada (HbA1c)', reason: 'Promedio de glucosa en los últimos 3 meses' }, { name: 'Insulina en Ayunas', reason: 'Detecta resistencia a la insulina temprana' }, { name: 'Curva de Tolerancia a la Glucosa', reason: 'Diagnóstico definitivo de pre-diabetes y diabetes' }, { name: 'Perfil de Lípidos', reason: 'Diabetes aumenta el riesgo cardiovascular' }].map(s => (<div key={s.name} className="flex items-start gap-3 bg-white rounded-lg p-3 shadow-sm"><span className="text-green-600 mt-1">✓</span><div><p className="font-semibold text-gray-800 text-sm">{s.name}</p><p className="text-gray-500 text-xs">{s.reason}</p></div></div>))}</div><Link href="/estudios/analisis-clinicos" className="mt-4 inline-block bg-green-700 text-white px-6 py-2 rounded-lg font-bold text-sm hover:bg-green-800">Ver Estudios →</Link></div></div>);
                     })()}
                 </div>
+                
+                <StudyCTA 
+                    title={`Detén la diabetes antes que empiece`} 
+                    description={`Sentir mucha sed o ir al baño frecuentemente son alertas. La Prueba de Hemoglobina Glicosilada (HbA1c) marca un promedio del nivel de glucosa en tu sangre durante los últimos 3 meses.`} 
+                    actionText={`Cotizar Hemoglobina Glicosilada`}
+                    link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Cotizar%20Hemoglobina%20Glicosilada*`} 
+                    type="estudio" 
+                />
                 <AdBanner variant="horizontal" className="mb-8" />
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden mb-8"><button onClick={() => setShowInfo(!showInfo)} className="w-full px-6 py-4 flex items-center justify-between text-left hover:bg-gray-50"><span className="font-bold text-gray-900">📚 Test FINDRISC — Información Científica</span><span className={`text-2xl transition-transform ${showInfo ? 'rotate-180' : ''}`}>▼</span></button>
                     {showInfo && (<div className="px-6 pb-6 border-t border-gray-100 pt-4 text-gray-700 text-sm space-y-4"><p>El <strong>FINDRISC (Finnish Diabetes Risk Score)</strong> es un cuestionario validado internacionalmente por la OMS para estimar el riesgo de desarrollar Diabetes Mellitus tipo 2 en los próximos 10 años. No requiere análisis de sangre.</p><h4 className="font-bold text-gray-900">Puntaje e interpretación</h4><table className="w-full text-sm"><thead><tr className="bg-gray-100"><th className="p-2">Puntaje</th><th className="p-2">Riesgo</th><th className="p-2">Probabilidad a 10 años</th></tr></thead><tbody><tr className="border-b"><td className="p-2 text-center">&lt;7</td><td className="p-2 text-green-600 font-bold">Bajo</td><td className="p-2 text-center">1%</td></tr><tr className="border-b"><td className="p-2 text-center">7-11</td><td className="p-2 text-yellow-600 font-bold">Ligeramente elevado</td><td className="p-2 text-center">4%</td></tr><tr className="border-b"><td className="p-2 text-center">12-14</td><td className="p-2 text-orange-600 font-bold">Moderado</td><td className="p-2 text-center">17%</td></tr><tr className="border-b"><td className="p-2 text-center">15-20</td><td className="p-2 text-orange-700 font-bold">Alto</td><td className="p-2 text-center">33%</td></tr><tr><td className="p-2 text-center">&gt;20</td><td className="p-2 text-red-600 font-bold">Muy alto</td><td className="p-2 text-center">50%</td></tr></tbody></table><h4 className="font-bold text-gray-900">Fuentes</h4><ul className="list-disc list-inside text-xs text-gray-500"><li>Lindström, J. & Tuomilehto, J. (2003). The Diabetes Risk Score. Diabetes Care.</li><li>International Diabetes Federation (IDF). FINDRISC Assessment Tool.</li></ul><div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 text-xs text-yellow-800"><strong>⚠️ Aviso:</strong> Este test no reemplaza los exámenes de laboratorio ni la consulta médica. Si tu puntaje es ≥12, consulta a tu médico y hazte estudios de glucosa.</div></div>)}</div>
+                
+                <StudyCTA 
+                    title={`Detén la diabetes antes que empiece`} 
+                    description={`Sentir mucha sed o ir al baño frecuentemente son alertas. La Prueba de Hemoglobina Glicosilada (HbA1c) marca un promedio del nivel de glucosa en tu sangre durante los últimos 3 meses.`} 
+                    actionText={`Cotizar Hemoglobina Glicosilada`}
+                    link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Cotizar%20Hemoglobina%20Glicosilada*`} 
+                    type="estudio" 
+                />
                 <AdBanner variant="compact" className="mb-8" />
             </div>
         </main>

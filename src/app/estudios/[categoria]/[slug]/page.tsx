@@ -1,4 +1,4 @@
-export const runtime = 'edge';
+export const dynamic = 'force-dynamic';
 import { notFound, redirect } from 'next/navigation';
 import { Metadata } from 'next';
 import { db } from '@/db';
@@ -36,8 +36,7 @@ async function findStudyDb(slug: string, categoria: string): Promise<any> {
     return { study: null, redirect: false };
 }
 
-// Use ISR - pages generated on-demand and cached
-export const dynamic = 'force-dynamic';
+// Pages are generated on-demand and cached
 export const revalidate = false; // Cache permanently
 
 interface PageProps {

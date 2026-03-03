@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
+import { StudyCTA } from '@/components/ui/StudyCTA';
 
 export default function SemanasEmbarazoPage() {
     const [fur, setFur] = useState('');
@@ -41,8 +42,24 @@ export default function SemanasEmbarazoPage() {
                         <div className="bg-green-50 border-2 border-green-200 rounded-2xl p-6"><h3 className="font-bold text-green-900 text-lg mb-3">🔬 Estudios para {resultado.trimestre}</h3><p className="text-sm text-gray-600 mb-3">En tu etapa actual se recomiendan estos estudios:</p><div className="space-y-3">{resultado.estudios.map(s => (<div key={s} className="flex items-start gap-3 bg-white rounded-lg p-3 shadow-sm"><span className="text-green-600 mt-1">✓</span><p className="font-semibold text-gray-800 text-sm">{s}</p></div>))}</div><Link href="/estudios/analisis-clinicos" className="mt-4 inline-block bg-green-700 text-white px-6 py-2 rounded-lg font-bold text-sm hover:bg-green-800">Ver Estudios →</Link></div>
                     </div>)}
                 </div>
+                
+                <StudyCTA 
+                    title={`Verifica la integridad fetal`} 
+                    description={`Dependiendo del trimestre, sugerimos análisis de orina rutinarios para evitar infecciones, o un tamiz neonatal ampliado cuando el bebé nazca.`} 
+                    actionText={`Estudios por Trimestre`}
+                    link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Estudios%20por%20Trimestre*`} 
+                    type="estudio" 
+                />
                 <AdBanner variant="horizontal" className="mb-8" />
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden mb-8"><button onClick={() => setShowInfo(!showInfo)} className="w-full px-6 py-4 flex items-center justify-between text-left hover:bg-gray-50"><span className="font-bold text-gray-900">📚 Control prenatal por trimestre — Información Científica</span><span className={`text-2xl transition-transform ${showInfo ? 'rotate-180' : ''}`}>▼</span></button>{showInfo && (<div className="px-6 pb-6 border-t border-gray-100 pt-4 text-gray-700 text-sm space-y-4"><p>El embarazo se divide en <strong>3 trimestres</strong>, cada uno con estudios de laboratorio específicos recomendados por las guías del ACOG y la NOM-007-SSA2-2016.</p><h4 className="font-bold text-gray-900">1er Trimestre (0-12 semanas)</h4><p>Confirmación del embarazo, detección de factores de riesgo, perfil TORCH y grupo sanguíneo.</p><h4 className="font-bold text-gray-900">2do Trimestre (13-26 semanas)</h4><p>Screening de diabetes gestacional (semana 24-28), control de hemoglobina y función tiroidea.</p><h4 className="font-bold text-gray-900">3er Trimestre (27-40 semanas)</h4><p>Preparación para el parto, coagulación, cultivo de Estreptococo B (semana 36), y repetición de serología.</p><div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 text-xs text-yellow-800"><strong>⚠️ Aviso:</strong> Sigue las indicaciones de tu ginecólogo. Cada embarazo es único y puede requerir estudios adicionales.</div></div>)}</div>
+                
+                <StudyCTA 
+                    title={`Verifica la integridad fetal`} 
+                    description={`Dependiendo del trimestre, sugerimos análisis de orina rutinarios para evitar infecciones, o un tamiz neonatal ampliado cuando el bebé nazca.`} 
+                    actionText={`Estudios por Trimestre`}
+                    link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Estudios%20por%20Trimestre*`} 
+                    type="estudio" 
+                />
                 <AdBanner variant="compact" className="mb-8" />
             </div>
         </main>

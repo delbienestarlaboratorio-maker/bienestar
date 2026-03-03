@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
+import { StudyCTA } from '@/components/ui/StudyCTA';
 
 export default function IndiceCinturaCaderaPage() {
     const [sexo, setSexo] = useState<'hombre' | 'mujer'>('hombre'); const [cintura, setCintura] = useState(''); const [cadera, setCadera] = useState('');
@@ -27,8 +28,24 @@ export default function IndiceCinturaCaderaPage() {
                     <div className="mb-6"><table className="w-full text-sm"><thead><tr className="bg-gray-100"><th className="p-2">Riesgo</th><th className="p-2">Hombres</th><th className="p-2">Mujeres</th></tr></thead><tbody><tr className="border-b"><td className="p-2 text-green-600 font-bold">Bajo</td><td className="p-2 text-center">&lt; 0.90</td><td className="p-2 text-center">&lt; 0.80</td></tr><tr className="border-b"><td className="p-2 text-yellow-600 font-bold">Moderado</td><td className="p-2 text-center">0.90-1.0</td><td className="p-2 text-center">0.80-0.85</td></tr><tr><td className="p-2 text-red-600 font-bold">Alto</td><td className="p-2 text-center">&gt; 1.0</td><td className="p-2 text-center">&gt; 0.85</td></tr></tbody></table></div>
                     <div className="bg-green-50 border-2 border-green-200 rounded-2xl p-6"><h3 className="font-bold text-green-900 text-lg mb-3">🔬 Estudios Recomendados</h3><div className="space-y-3">{[{ name: 'Perfil de Lípidos', reason: 'La grasa abdominal se asocia con dislipidemia' }, { name: 'Glucosa e Insulina en Ayunas', reason: 'La obesidad abdominal causa resistencia a insulina' }, { name: 'Perfil Hepático', reason: 'La grasa visceral afecta al hígado (esteatosis)' }, { name: 'PCR Ultrasensible', reason: 'La grasa abdominal produce inflamación crónica' }].map(s => (<div key={s.name} className="flex items-start gap-3 bg-white rounded-lg p-3 shadow-sm"><span className="text-green-600 mt-1">✓</span><div><p className="font-semibold text-gray-800 text-sm">{s.name}</p><p className="text-gray-500 text-xs">{s.reason}</p></div></div>))}</div><Link href="/estudios/analisis-clinicos" className="mt-4 inline-block bg-green-700 text-white px-6 py-2 rounded-lg font-bold text-sm hover:bg-green-800">Ver Estudios →</Link></div></div>);
             })()}
-        </div><AdBanner variant="horizontal" className="mb-8" />
+        </div>
+                <StudyCTA 
+                    title={`Alerta de Riesgo Metabólico`} 
+                    description={`Un índice cintura-cadera tipo "manzana" eleva fuertemente el riesgo de isquemia. Realizar Análisis Completos de Lípidos descarta formaciones de placa coronaria oculta.`} 
+                    actionText={`Checkup Mujer / Hombre`}
+                    link={`/paquetes`} 
+                    type="checkup" 
+                />
+                <AdBanner variant="horizontal" className="mb-8" />
             <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden mb-8"><button onClick={() => setShowInfo(!showInfo)} className="w-full px-6 py-4 flex items-center justify-between text-left hover:bg-gray-50"><span className="font-bold text-gray-900">📚 Índice Cintura-Cadera — Información Científica</span><span className={`text-2xl transition-transform ${showInfo ? 'rotate-180' : ''}`}>▼</span></button>{showInfo && (<div className="px-6 pb-6 border-t border-gray-100 pt-4 text-gray-700 text-sm space-y-4"><p>El <strong>Índice Cintura-Cadera (ICC)</strong> es un indicador de la distribución de grasa corporal. La grasa abdominal (visceral) se asocia con mayor riesgo de enfermedades cardiovasculares, diabetes y síndrome metabólico.</p><div className="bg-gray-50 rounded-xl p-4 text-center font-mono">ICC = Cintura (cm) / Cadera (cm)</div><p>La OMS define obesidad abdominal como ICC &gt; 0.90 en hombres y &gt; 0.85 en mujeres.</p><h4 className="font-bold text-gray-900">Fuentes</h4><ul className="list-disc list-inside text-xs text-gray-500"><li>WHO Expert Consultation (2008). Waist Circumference and Waist-Hip Ratio.</li><li>Yusuf, S. et al. (2005). Obesity and the risk of myocardial infarction. Lancet (INTERHEART study).</li></ul><div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 text-xs text-yellow-800"><strong>⚠️ Aviso:</strong> Este es un indicador complementario. Consulta a tu médico para una evaluación integral.</div></div>)}</div>
-            <AdBanner variant="compact" className="mb-8" /></div>
+            
+                <StudyCTA 
+                    title={`Alerta de Riesgo Metabólico`} 
+                    description={`Un índice cintura-cadera tipo "manzana" eleva fuertemente el riesgo de isquemia. Realizar Análisis Completos de Lípidos descarta formaciones de placa coronaria oculta.`} 
+                    actionText={`Checkup Mujer / Hombre`}
+                    link={`/paquetes`} 
+                    type="checkup" 
+                />
+                <AdBanner variant="compact" className="mb-8" /></div>
     </main>);
 }
