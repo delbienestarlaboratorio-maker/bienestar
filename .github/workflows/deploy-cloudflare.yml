@@ -26,7 +26,7 @@ jobs:
         run: npm ci
 
       - name: Build for Cloudflare Pages
-        run: npx @cloudflare/next-on-pages
+        run: npx @opennextjs/cloudflare build
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
@@ -40,4 +40,5 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy .vercel/output/static --project-name=laboratorio-bienestar --branch=main
+          command: pages deploy .open-next/assets --project-name=laboratorio-bienestar --branch=main
+
