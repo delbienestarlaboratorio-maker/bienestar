@@ -4,16 +4,37 @@ import { ChevronRight, AlertTriangle, Stethoscope, ArrowRight, TestTube, Hospita
 import { AdBanner } from '@/components/ui/AdBanner';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import rawSymptoms from '@/data/symptoms.json';
+import fs from 'fs';
+import path from 'path';
+import rawManifest from '@/data/symptoms.json';
 
-// Ensure we have an array
-const symptoms = Array.isArray(rawSymptoms) ? rawSymptoms : [];
+// Slim manifest — slug list only (statically imported, fast)
+const manifest: any[] = Array.isArray(rawManifest) ? rawManifest : [];
+
+// Load full clinical data from per-symptom fragment file at render time
+function loadSymptomData(slug: string): any | null {
+    // Try multiple path candidates — Next.js SSG workers may use different CWDs
+    const candidates = [
+        path.join(process.cwd(), 'src', 'data', 'symptoms-fragments', `${slug}.json`),
+        path.join(process.cwd(), '..', 'src', 'data', 'symptoms-fragments', `${slug}.json`),
+        path.resolve(__dirname, '..', '..', '..', '..', 'src', 'data', 'symptoms-fragments', `${slug}.json`),
+        path.resolve('D:\\Paginas_web\\pagina\\laboratorio-bienestar\\src\\data\\symptoms-fragments', `${slug}.json`),
+    ];
+    for (const fragmentPath of candidates) {
+        try {
+            if (fs.existsSync(fragmentPath)) {
+                return JSON.parse(fs.readFileSync(fragmentPath, 'utf8'));
+            }
+        } catch { /* try next */ }
+    }
+    return null;
+}
 
 // ============================================================================
-// SSG - Static Generation for all 105+ symptoms at build time
+// SSG - generate static params from the slim manifest
 // ============================================================================
 export async function generateStaticParams() {
-    return symptoms.map((symptom) => ({
+    return manifest.map((symptom) => ({
         slug: symptom.slug,
     }));
 }
@@ -21,10 +42,12 @@ export async function generateStaticParams() {
 // ============================================================================
 // Dynamic SEO Metadata Generation
 // ============================================================================
-export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
-    const symptom = symptoms.find(s => s.slug === params.slug);
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+    const resolvedParams = await params;
+    const symptom = loadSymptomData(resolvedParams.slug);
     if (!symptom) {
-        return { title: 'Síntoma no encontrado' };
+        const fallback = manifest.find(s => s.slug === resolvedParams.slug);
+        return { title: fallback ? `${fallback.name} - Guía Médica` : 'Síntoma no encontrado' };
     }
 
     return {
@@ -37,8 +60,9 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     };
 }
 
-export default function SymptomDynamicPage({ params }: { params: { slug: string } }) {
-    const symptom = symptoms.find(s => s.slug === params.slug);
+export default async function SymptomDynamicPage({ params }: { params: Promise<{ slug: string }> }) {
+    const resolvedParams = await params;
+    const symptom = loadSymptomData(resolvedParams.slug);
 
     if (!symptom) {
         notFound();

@@ -2,14 +2,25 @@ import React from 'react';
 import { BookOpen } from 'lucide-react';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { SymptomClientList } from './components/SymptomClientList';
-import rawSymptoms from '@/data/symptoms.json';
+import rawQuality from '@/data/symptoms-quality.json';
+import rawCIE10 from '@/data/todas-enfermedades-cie10.json';
+import { Metadata } from 'next';
 
-// This is a Server Component. 
+export const metadata: Metadata = {
+    title: 'Directorio Médico A-Z | 14,000+ Enfermedades CIE-10 | Laboratorio del Bienestar',
+    description: 'Consulta el directorio médico más completo de México con más de 14,000 enfermedades clasificadas por la OMS (CIE-10). Guías clínicas detalladas con causas, síntomas, señales de alarma y estudios recomendados.',
+    openGraph: {
+        title: 'Directorio Médico A-Z | 14,000+ Enfermedades CIE-10',
+        description: 'El directorio médico más completo de México: 14,000+ enfermedades con código CIE-10 oficial de la OMS.',
+    }
+};
+
 export default async function SintomasHub() {
-    let symptoms = Array.isArray(rawSymptoms) ? [...rawSymptoms] : [];
+    // Quality symptoms with full clinical data (links to individual pages)
+    const qualitySymptoms = Array.isArray(rawQuality) ? [...rawQuality].sort((a, b) => a.name.localeCompare(b.name)) : [];
 
-    // Sort alphabetically
-    symptoms.sort((a, b) => a.name.localeCompare(b.name));
+    // Full CIE-10 catalog for the directory (no individual pages, just reference)
+    const cie10Catalog = Array.isArray(rawCIE10) ? rawCIE10 : [];
 
     return (
         <main className="min-h-screen bg-gray-50 pb-20">
@@ -20,32 +31,61 @@ export default async function SintomasHub() {
                 <div className="max-w-6xl mx-auto px-4 relative z-10 text-center">
                     <div className="inline-flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full mb-6 border border-white/20 backdrop-blur-sm">
                         <BookOpen className="w-5 h-5 text-blue-300" />
-                        <span className="text-sm font-medium tracking-wide">Enciclopedia Médica de Síntomas</span>
+                        <span className="text-sm font-medium tracking-wide">Enciclopedia Médica Internacional</span>
                     </div>
 
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight">
-                        Directorio de Síntomas A-Z
+                        Directorio Médico A-Z
                     </h1>
 
-                    <p className="text-xl md:text-2xl text-blue-100 font-light max-w-3xl mx-auto mb-12">
-                        Investigación clínica sobre el origen, las señales de alarma roja y los estudios de laboratorio necesarios para interpretar lo que tu cuerpo intenta decirte.
+                    <p className="text-xl md:text-2xl text-blue-100 font-light max-w-3xl mx-auto mb-4">
+                        Más de <span className="font-bold text-white">14,000 enfermedades</span> catalogadas por la OMS con código CIE-10 oficial.
+                    </p>
+                    <p className="text-lg text-blue-200 font-light max-w-2xl mx-auto mb-12">
+                        Guías clínicas detalladas con causas, señales de alarma roja y estudios de laboratorio recomendados.
                     </p>
                 </div>
             </div>
 
             <div className="max-w-6xl mx-auto px-4 -mt-16 relative z-20 mb-8">
-                <SymptomClientList initialSymptoms={symptoms} />
+                <SymptomClientList
+                    qualitySymptoms={qualitySymptoms}
+                    cie10Catalog={cie10Catalog}
+                />
             </div>
 
             <div className="max-w-6xl mx-auto px-4 mt-8 relative z-20 mb-12">
                 <AdBanner variant="horizontal" />
             </div>
 
-            {/* Medical Disclaimer Container */}
-            <div className="max-w-6xl mx-auto px-4 mt-12">
+            {/* Medical Disclaimer + SEO Text */}
+            <div className="max-w-6xl mx-auto px-4 mt-12 space-y-8">
+                {/* SEO Content Block */}
+                <div className="bg-white rounded-3xl p-8 shadow-sm border border-gray-100">
+                    <h2 className="text-2xl font-bold text-gray-800 mb-4">¿Qué es la Clasificación CIE-10?</h2>
+                    <p className="text-gray-600 leading-relaxed mb-4">
+                        La <strong>Clasificación Internacional de Enfermedades (CIE-10)</strong> es el estándar mundial utilizado por la
+                        <strong> Organización Mundial de la Salud (OMS)</strong> para codificar y clasificar diagnósticos médicos.
+                        Cada código alfanumérico identifica de manera única una enfermedad, trastorno, lesión o causa de consulta médica.
+                    </p>
+                    <p className="text-gray-600 leading-relaxed mb-4">
+                        Los médicos, hospitales, laboratorios clínicos y aseguradoras de todo México y el mundo utilizan estos códigos
+                        para documentar diagnósticos, solicitar estudios de laboratorio, prescribir tratamientos y procesar reclamaciones.
+                        En <strong>Laboratorio del Bienestar</strong>, utilizamos la clasificación CIE-10 para vincular cada padecimiento
+                        con los estudios diagnósticos más pertinentes.
+                    </p>
+                    <h3 className="text-xl font-bold text-gray-800 mb-3">¿Cómo se organiza?</h3>
+                    <p className="text-gray-600 leading-relaxed">
+                        El catálogo está organizado en 22 capítulos principales, desde enfermedades infecciosas (Capítulo A-B)
+                        hasta factores de salud preventiva (Capítulo Z). Cada capítulo se subdivide en bloques, categorías de 3 caracteres
+                        y subcategorías de 4 caracteres, permitiendo una especificidad diagnóstica sin precedentes.
+                        Nuestro directorio incluye <strong>más de 14,000 códigos diagnósticos</strong> disponibles para consulta inmediata.
+                    </p>
+                </div>
+
                 <div className="bg-gray-100 rounded-3xl p-8 text-sm text-gray-600 text-center">
-                    Glosario médico autorizado por Chispito.mx Laboratorio México. Todo el contenido redactado es orientativo.
-                    En caso de emergencia clínica (Red Flags presentadas en los artículos) debe presentarse en el hospital civil o particular más cercano inmediatamente.
+                    Directorio médico proporcionado por Laboratorio del Bienestar. Todo el contenido es orientativo y no sustituye la consulta médica profesional.
+                    En caso de emergencia clínica, acuda al hospital más cercano inmediatamente.
                 </div>
             </div>
         </main>

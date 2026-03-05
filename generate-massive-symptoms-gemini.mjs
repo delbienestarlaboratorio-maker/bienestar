@@ -31,18 +31,19 @@ const model = genAI.getGenerativeModel({
 const dbPath = path.join(__dirname, 'src', 'data', 'symptoms-massive.json');
 
 // El mismo esquema estricto validado
+// El mismo esquema estricto validado
 const schemaExample = {
     "slug": "dolor-abdominal",
     "name": "Dolor Abdominal",
     "medicalName": "Dolor Abdominal Agudo / Crónico",
     "cie10": "R10",
-    "intro": "Párrafo de introducción SEO médico estricto de unas 80 a 150 palabras explicándolo clínicamente pero entendible.",
+    "intro": "AQUÍ DEBES ESCRIBIR UN ENSAYO MÉDICO MEGA EXTENSO (MÍNIMO 800 a 1000 PALABRAS). Debe incluir: 1) Definición clínica profunda. 2) Historia médica del padecimiento (quién lo descubrió o cómo se trataba en la antigüedad). 3) Datos curiosos o estadísticas sorprendentes. 4) Fisiopatología detallada (qué pasa en el cuerpo a nivel celular). 5) Explicación para el paciente en tono empático. DEBE SER TEXTO MUY LARGO Y RICO EN VALOR SEO, dividido en varios párrafos usando etiquetas <br><br> para separar ideas.",
     "causes": [
-        { "name": "Causa 1", "desc": "Descripción detallada de la causa 1." },
-        { "name": "Causa 2", "desc": "Descripción detallada de la causa 2." }
+        { "name": "Causa 1", "desc": "Descripción muy detallada de la causa 1, explicando el por qué anatómico." },
+        { "name": "Causa 2", "desc": "Descripción muy detallada de la causa 2." }
     ],
     "redFlags": [
-        "Bandera roja 1 grave (cuándo ir a urgencias)"
+        "Bandera roja 1 grave detallada (por qué es una urgencia vital y qué riesgo inminente existe)"
     ],
     "tests": [
         { "name": "Nombre de Prueba Clínica Recomendada", "url": "/estudios/analisis-clinicos/biometria-hematica" }
@@ -52,7 +53,7 @@ const schemaExample = {
     ]
 };
 
-// 20 Especialidades Médicas para abarcar todo el cuerpo humano
+// ... (ignorar especialidades)
 const specialties = [
     'Medicina General y Urgencias', 'Cardiología', 'Gastroenterología',
     'Neurología', 'Dermatología', 'Pediatría y Neonatología',
@@ -86,19 +87,19 @@ Ejemplo de formato: ["Dolor de pecho", "Palpitaciones", "Hipertensión", "Soplo 
 
 async function generateClinicalDetailForSymptom(symptomName) {
     const prompt = `
-Eres un editor médico experto y director clínico riguroso escribiendo para un importante Laboratorio Clínico y Clínica Mayo.
-Tu tarea es generar la documentación clínica estructurada para el siguiente padecimiento o síntoma: "${symptomName}".
+Eres un historiador médico, editor clínico experto y director de un importante Laboratorio.
+Tu tarea es generar documentación SUPER EXTENSA, enciclopédica y fascinante (más de 1,000 palabras) sobre el síntoma o padecimiento: "${symptomName}".
 
 REGLAS ESTRICTAS:
 1. Retorna ÚNICAMENTE un objeto JSON válido acorde al esquema.
 2. Sigue EXACTAMENTE esta estructura y llaves:
 ${JSON.stringify(schemaExample, null, 2)}
 
-3. "slug": el nombre del síntoma en minúsculas, sin acentos y separado por guiones (ej. dolor-cabeza).
-4. "cie10": código CIE-10 (o CIE-11) real para este padecimiento (ej. R51).
-5. En "tests" inventa URLs lógicas que comiencen exactamente con "/estudios/analisis-clinicos/" o "/estudios/imagenologia/" o "/estudios/checkups/" con pruebas de sangre, imagen u orina reales relacionadas.
-6. En "tools" usa URLs que comiencen con "/herramientas/" inventando herramientas relacionadas (ej. /herramientas/riesgo-cardiovascular).
-7. Las "redFlags" deben ser claras advertencias vitales donde el paciente debe ir a Urgencias Médicas.
+3. "intro": ¡ESTA ES LA PARTE MÁS IMPORTANTE! Escribe un texto inmenso (al menos 800 - 1000 palabras). Incluye la historia del síntoma, cómo lo trataban antiguas civilizaciones o quién lo descubrió, estadísticas mundiales, datos curiosos, y la ciencia médica profunda (fisiopatología) explicada de forma atrapante. Usa HTML <br><br> para separar párrafos. ¡No seas breve, quiero un mega-artículo enciclopédico!
+4. "slug": el nombre en minúsculas, sin acentos y guiones (ej. dolor-cabeza).
+5. "cie10": código CIE-10 real.
+6. En "tests" inventa URLs lógicas (/estudios/analisis-clinicos/... o /estudios/imagenologia/...).
+7. Las "redFlags" deben ser súper detalladas explicando el por qué fisiológico de la urgencia.
     `;
 
     try {

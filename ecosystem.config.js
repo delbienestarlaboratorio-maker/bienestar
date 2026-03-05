@@ -50,6 +50,27 @@ module.exports = {
             shutdown_with_message: false
         },
         {
+            name: 'cloudflare-tunnel',
+            script: 'cloudflared',
+            args: 'tunnel run laboratorio-bienestar',
+            interpreter: 'none',
+            cwd: 'd:/Paginas_web/pagina/laboratorio-bienestar',
+            instances: 1,
+            autorestart: true,
+            watch: false,
+            max_memory_restart: '200M',
+            env: {
+                NODE_ENV: 'production'
+            },
+            error_file: './logs/tunnel-error.log',
+            out_file: './logs/tunnel-out.log',
+            log_date_format: 'YYYY-MM-DD HH:mm:ss Z',
+            merge_logs: true,
+            min_uptime: '10s',
+            max_restarts: 20,
+            restart_delay: 3000
+        },
+        {
             name: 'system-backup',
             script: 'services/system-backup/index.js',
             interpreter: 'node',
