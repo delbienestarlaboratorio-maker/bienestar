@@ -6,17 +6,10 @@ import { eq } from 'drizzle-orm';
 import fs from 'fs';
 import path from 'path';
 
-const BASE_URL = 'https://laboratorio-bienestar.chispito.mx'; // Updated canonical domain
-
-interface StudyEntry {
-    slug: string;
-    category?: string;
-    name: string;
-    isActive?: boolean;
-}
+const BASE_URL = 'https://laboratorio.delbienestar.com.mx';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-    // 1. Static pages (todas las rutas del sitio)
+    // 1. Static pages
     const staticRoutes: MetadataRoute.Sitemap = [
         { url: BASE_URL, lastModified: new Date(), changeFrequency: 'daily', priority: 1.0 },
         { url: `${BASE_URL}/estudios`, lastModified: new Date(), changeFrequency: 'daily', priority: 0.95 },
@@ -30,6 +23,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         { url: `${BASE_URL}/calculadora`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
         { url: `${BASE_URL}/comparador`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
         { url: `${BASE_URL}/herramientas`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
+        { url: `${BASE_URL}/sintomas`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.85 },
+        { url: `${BASE_URL}/valores-clinicos`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.85 },
         { url: `${BASE_URL}/faq`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
         { url: `${BASE_URL}/resultados`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
         { url: `${BASE_URL}/agendar`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
@@ -38,24 +33,63 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         { url: `${BASE_URL}/terminos`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.3 },
     ];
 
-    // 1.5 Dynamic Herramientas Routes (SEO Scale)
+    // 2. Herramientas (calculadoras médicas — 111 páginas)
     let dynamicTools: MetadataRoute.Sitemap = [];
     try {
         const herramientasDir = path.join(process.cwd(), 'src', 'app', 'herramientas');
         if (fs.existsSync(herramientasDir)) {
-            const folders = fs.readdirSync(herramientasDir).filter(f => fs.statSync(path.join(herramientasDir, f)).isDirectory() && !f.startsWith('['));
+            const folders = fs.readdirSync(herramientasDir)
+                .filter(f => fs.statSync(path.join(herramientasDir, f)).isDirectory() && !f.startsWith('['));
             dynamicTools = folders.map(slug => ({
                 url: `${BASE_URL}/herramientas/${slug}`,
                 lastModified: new Date(),
-                changeFrequency: 'weekly',
-                priority: 0.8, // High priority for SEO tools
+                changeFrequency: 'weekly' as const,
+                priority: 0.8,
             }));
         }
     } catch (e) {
         console.error("Sitemap Tools Error:", e);
     }
 
-    // 2. Study Routes — Consultados de la base de datos
+    // 3. Síntomas dinámicos (desde fragments)
+    let sintomasRoutes: MetadataRoute.Sitemap = [];
+    try {
+        const fragmentsDir = path.join(process.cwd(), 'src', 'data', 'symptoms-fragments');
+        if (fs.existsSync(fragmentsDir)) {
+            const slugs = fs.readdirSync(fragmentsDir)
+                .filter(f => f.endsWith('.json'))
+                .map(f => f.replace('.json', ''));
+            sintomasRoutes = slugs.map(slug => ({
+                url: `${BASE_URL}/sintomas/${slug}`,
+                lastModified: new Date(),
+                changeFrequency: 'monthly' as const,
+                priority: 0.75,
+            }));
+        }
+    } catch (e) {
+        console.error("Sitemap Síntomas Error:", e);
+    }
+
+    // 4. Biomarcadores / Valores clínicos
+    let biomarkerRoutes: MetadataRoute.Sitemap = [];
+    try {
+        const biomarkersPath = path.join(process.cwd(), 'src', 'data', 'biomarkers-fragments');
+        if (fs.existsSync(biomarkersPath)) {
+            const slugs = fs.readdirSync(biomarkersPath)
+                .filter(f => f.endsWith('.json'))
+                .map(f => f.replace('.json', ''));
+            biomarkerRoutes = slugs.map(slug => ({
+                url: `${BASE_URL}/valores-clinicos/${slug}`,
+                lastModified: new Date(),
+                changeFrequency: 'monthly' as const,
+                priority: 0.75,
+            }));
+        }
+    } catch (e) {
+        console.error("Sitemap Biomarcadores Error:", e);
+    }
+
+    // 5. Estudios (desde base de datos)
     let studyRoutes: MetadataRoute.Sitemap = [];
     try {
         const activeStudies = await db.select({
@@ -73,7 +107,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         // En caso de fallo de DB en el build
     }
 
-    // 3. Blog Posts
+    // 6. Blog Posts
     let blogRoutes: MetadataRoute.Sitemap = [];
     try {
         const blogPosts = getAllBlogPosts();
@@ -87,5 +121,5 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         // Blog data may not be available
     }
 
-    return [...staticRoutes, ...dynamicTools, ...studyRoutes, ...blogRoutes];
+    return [...staticRoutes, ...dynamicTools, ...sintomasRoutes, ...biomarkerRoutes, ...studyRoutes, ...blogRoutes];
 }
