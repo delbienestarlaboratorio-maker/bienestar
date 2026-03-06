@@ -172,7 +172,7 @@ export function BiomarkerClientList({ biomarkers }: Props) {
                                         {items.map((bm) => (
                                             <Link
                                                 key={bm.slug}
-                                                href={`/valores/${bm.slug}`}
+                                                href={`/valores-clinicos/${bm.slug}`}
                                                 className="flex items-center justify-between p-4 hover:bg-teal-50 transition-colors border-b border-gray-50 group"
                                             >
                                                 <div>
@@ -211,7 +211,7 @@ export function BiomarkerClientList({ biomarkers }: Props) {
                                 {items.map(bm => (
                                     <Link
                                         key={bm.slug}
-                                        href={`/valores/${bm.slug}`}
+                                        href={`/valores-clinicos/${bm.slug}`}
                                         className="flex items-center justify-between p-4 hover:bg-teal-50 transition-colors group"
                                     >
                                         <div>

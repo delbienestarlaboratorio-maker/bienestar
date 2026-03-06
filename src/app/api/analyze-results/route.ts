@@ -1,4 +1,4 @@
-export const runtime = 'edge';
+export const runtime = 'nodejs';
 import { NextResponse } from 'next/server';
 
 export async function POST(req: Request) {
@@ -25,16 +25,17 @@ export async function POST(req: Request) {
         prompt += `4. Incluye un descargo de responsabilidad breve de que esto no sustituye una consulta.\n`;
         prompt += `5. IMPORTANTE: Actúa como el experto del "Laboratorio del Bienestar".\n`;
 
-        // Direct fetch to Ollama
-        const ollamaRes = await fetch('http://127.0.0.1:11434/api/generate', {
+        // Direct fetch to Ollama en servidor GPU .70 (RTX 3060)
+        const ollamaRes = await fetch('http://192.168.20.70:11434/api/generate', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
-                model: 'llama3.2', // using their standard local model
+                model: 'llama3.1:8b', // Modelo GPU confirmado en .70 (77 tok/s)
                 prompt: prompt,
                 stream: false,
                 options: {
-                    temperature: 0.3, // keep it factual
+                    temperature: 0.3,
+                    num_gpu: 99,     // Fuerza uso de RTX 3060
                 }
             })
         });
