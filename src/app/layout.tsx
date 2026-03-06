@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
@@ -62,6 +62,11 @@ export const metadata: Metadata = {
   },
 };
 
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+};
+
 import { Header } from "@/components/ui/Header";
 import { Footer } from "@/components/ui/Footer";
 import { WhatsAppFloat } from "@/components/ui/WhatsAppFloat";
@@ -115,7 +120,6 @@ export default function RootLayout({
         <LocalBusinessSchema />
         <WebSiteSchema />
         <link rel="manifest" href="/manifest.json" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#1B5E20" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
