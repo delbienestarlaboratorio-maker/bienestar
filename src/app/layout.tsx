@@ -86,10 +86,11 @@ export default function RootLayout({
   return (
     <html lang="es" suppressHydrationWarning>
       <head>
-        {/* Google AdSense Master Publisher Tag */}
+        {/* Google AdSense — verificación y script principal */}
+        <meta name="google-adsense-account" content="ca-pub-6867283748828267" />
         <Script
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6228189874837568"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6867283748828267"
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />
