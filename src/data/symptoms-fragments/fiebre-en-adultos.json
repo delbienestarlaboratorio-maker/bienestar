@@ -1,0 +1,55 @@
+{
+  "slug": "fiebre-en-adultos",
+  "name": "Fiebre en Adultos",
+  "medicalName": "Pirexia / Hipertermia Febril / Fiebre de Origen Desconocido",
+  "cie10": "R50.9",
+  "intro": "La fiebre —temperatura corporal ≥38°C axilar o ≥38.3°C oral— no es una enfermedad sino uno de los mecanismos de defensa más conservados evolutivamente. Las citocinas proinflamatorias (IL-1β, IL-6, TNF-α) liberadas por macrófagos durante una infección activan el área preóptica hipotalámica para elevar el punto de ajuste térmico. En México, la causa más frecuente en adultos jóvenes es la infección viral de las vías respiratorias superiores (80% de los casos). Sin embargo, fiebre persistente >7 días, muy alta (>39.5°C) o asociada a síntomas sistémicos requiere estudio riguroso: el 5% de los casos sin foco aparente esconde infecciones bacterianas graves, enfermedades autoinmunes o neoplasias.",
+  "causes": [
+    {
+      "name": "Infecciones Virales (Causa más frecuente)",
+      "desc": "Influenza, COVID-19, mononucleosis infecciosa, dengue y enterovirus son las causas virales más frecuentes. Generan fiebre al inducir liberación masiva de IFN-α e IL-6, que actúan sobre el hipotálamo a través de la prostaglandina E2. El patrón 'fiebre + mialgias + decaimiento súbito' sin foco localizado es clásico de síndrome viral sistémico."
+    },
+    {
+      "name": "Infecciones Bacterianas con o sin Foco",
+      "desc": "Neumonía, pielonefritis, celulitis, faringoamigdalitis estreptocócica y endocarditis pueden presentarse solo con fiebre. La bacteremia (bacterias en sangre) genera fiebre en picos (>39°C con escalofríos) por liberación de endotoxinas lipopolisacáridas que activan directamente el hipotálamo a través del receptor TLR-4."
+    },
+    {
+      "name": "Dengue (Endémico en México)",
+      "desc": "El virus del dengue (serotipos 1-4) es transmitido por Aedes aegypti, presente en toda la franja tropical y subtropical de México. Genera la triada clásica: fiebre alta súbita (39-40°C), dolor retro-orbitario intenso y artralgias/mialgias severas ('fiebre rompehuesos'). La trombocitopenia progresiva es el marcador de severidad — plaquetas <100,000/μL exigen hospitalización."
+    },
+    {
+      "name": "Fiebre Medicamentosa",
+      "desc": "Hasta el 10% de las fiebres en hospitalizados son inducidas por medicamentos: antibióticos betalactámicos, antiepilépticos (fenitoína, carbamazepina), alopurinol y quinidina son los más frecuentes. El mecanismo es hipersensibilidad inmunomediada tipo IV. La fiebre aparece 7-10 días de iniciado el fármaco y cede en 48-72h al retirarlo — sin otro diagnóstico aparente, siempre considerar causa medicamentosa."
+    },
+    {
+      "name": "Enfermedades Autoinmunes e Inflamatorias",
+      "desc": "Lupus eritematoso sistémico, artritis reumatoide, vasculitis y enfermedad de Still del adulto pueden debutar solo con fiebre intermitente. En el Lupus, la fiebre es frecuentemente el primer síntoma antes de que aparezcan las manifestaciones cutáneas o renales. La fiebre en racimos de las tardes ('fever pattern') es característica de los procesos autoinmunes."
+    }
+  ],
+  "redFlags": [
+    "Fiebre ≥39.5°C con petequias o púrpura no palpable que no desaparece a la presión (signo del vaso): meningococemia — emergencia vital, llamar al 911 inmediatamente.",
+    "Fiebre + rigidez de nuca + fotofobia + cefalea explosiva: meningitis bacteriana — mortalidad del 20-30% sin antibiótico en <1 hora desde el diagnóstico.",
+    "Fiebre en paciente inmunodeprimido (VIH, quimioterapia, corticoides crónicos): cualquier fiebre >38°C es una urgencia infecciosa — riesgo de sepsis por gérmenes oportunistas.",
+    "Fiebre + hipotensión + taquicardia + confusión mental (criterios de SIRS): sepsis en evolución — requiere hospitalización urgente con hemocultivos y antibióticos IV."
+  ],
+  "tests": [
+    {
+      "name": "Biometría Hemática Completa con Diferencial de Leucocitos",
+      "url": "/estudios/analisis-clinicos/biometria-hematica"
+    },
+    {
+      "name": "PCR Cuantitativa + Procalcitonina (diferencia viral de bacteriano)",
+      "url": "/estudios/analisis-clinicos/proteina-c-reactiva"
+    },
+    {
+      "name": "Antígeno NS1 de Dengue + IgM Dengue (endémico en México)",
+      "url": "/estudios/analisis-clinicos/dengue-antígeno-ns1"
+    }
+  ],
+  "tools": [
+    {
+      "name": "Calculadora de Riesgo de Infección Grave (Score qSOFA)",
+      "url": "/herramientas/calculadora-qsofa-sepsis"
+    }
+  ]
+}

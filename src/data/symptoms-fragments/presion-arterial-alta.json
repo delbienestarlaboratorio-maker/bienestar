@@ -1,0 +1,55 @@
+{
+  "slug": "presion-arterial-alta",
+  "name": "Presión Arterial Alta",
+  "medicalName": "Hipertensión Arterial Sistémica (HAS) / Hipertensión Esencial",
+  "cie10": "I10",
+  "intro": "La hipertensión arterial sistémica (HAS) —presión ≥140/90 mmHg en dos mediciones en días diferentes— afecta al 30.1% de los adultos mexicanos según la ENSANUT 2022, siendo la causa principal de infarto agudo al miocardio, ACV isquémico e insuficiencia renal crónica en México. El 46% de los hipertensos mexicanos desconoce su diagnóstico ('el asesino silencioso') y solo el 56% de los diagnosticados tiene control adecuado. Su fisiopatología es compleja: el 95% son hipertensión esencial (sin causa única identificable), resultado de la interacción entre predisposición genética, ingesta alta de sodio, obesidad visceral, estrés crónico y disfunción endotelial. Cada 20/10 mmHg de aumento duplica el riesgo cardiovascular.",
+  "causes": [
+    {
+      "name": "Hipertensión Esencial (95% de los casos)",
+      "desc": "No tiene una causa única — es el resultado de múltiples factores que elevan el gasto cardíaco o aumentan la resistencia vascular periférica. La activación crónica del sistema renina-angiotensina-aldosterona (SRAA), la disfunción endotelial (reducción de óxido nítrico vasodilatador) y el exceso de actividad simpática son los tres pilares fisiopatológicos. La dieta alta en sodio (>5g/día, promedio mexicano: 9.7g/día) es el factor modificable más impactante."
+    },
+    {
+      "name": "Obesidad y Síndrome Metabólico",
+      "desc": "La grasa visceral abdominal produce adipocitocinas inflamatorias que activan el SRAA, aumentan la retención de sodio renal y elevan la actividad simpática. Por cada 10 kg de aumento de peso, la presión sistólica sube ~3 mmHg. La hiperinsulinemia asociada a la resistencia insulínica también eleva la presión al estimular la reabsorción tubular renal de sodio y la actividad simpática."
+    },
+    {
+      "name": "Hipertensión Renovascular (HTA Secundaria)",
+      "desc": "La estenosis de la arteria renal (por aterosclerosis en mayores o displasia fibromuscular en jóvenes) activa el SRAA al reducir la presión de perfusión renal: el riñón hipoperfundido libera renina para 'corregir' lo que interpreta como hipotensión. Sospecharlo en: HTA de inicio brusco, refractaria a 3+ fármacos, con soplo sistólico-diastólico paraumbilical o deterioro renal al iniciar IECAs."
+    },
+    {
+      "name": "Apnea Obstructiva del Sueño",
+      "desc": "Cada episodio de apnea genera hipoxemia, hipercapnia y activación simpática refleja, elevando la presión transitoriamente. La repetición nocturna crónica (5-30 eventos/hora) mantiene el sistema simpático activado durante el día. El 50% de los hipertensos resistentes tienen apnea del sueño no diagnosticada. La roncopatía severa + HTA + obesidad debe disparar la solicitud de polisomnografía."
+    },
+    {
+      "name": "Hiperaldosteronismo Primario (Adenoma de Conn)",
+      "desc": "El exceso de aldosterona, independiente de la angiotensina II, retiene sodio y agua elevando el volumen extracelular y la presión. Es la causa más frecuente de HTA secundaria (8-12% de los hipertensos). Se caracteriza por HTA moderada-severa con hipopotasemia (calambres, debilidad) o normokalémica. Su diagnóstico es el cociente aldosterona/renina plasmática — altamente subestimado en México."
+    }
+  ],
+  "redFlags": [
+    "Presión ≥180/120 mmHg con cefalea occipital explosiva, visión borrosa, confusión o déficit neurológico: crisis hipertensiva con daño a órgano blanco — urgencia hospitalaria inmediata.",
+    "HTA + dolor torácico irradiado a espalda tipo 'desgarro': disección aórtica — mortalidad del 1-2% por hora sin tratamiento quirúrgico, llamar al 911.",
+    "HTA en embarazada (>20 semanas) con edema facial, proteinuria y cefalea: preeclampsia grave en evolución — riesgo de eclampsia, hospitalización urgente.",
+    "HTA en adolescente o joven <30 años sin antecedentes familiares: descartar causa secundaria (hiperaldosteronismo, displasia fibromuscular, coartación aórtica) antes de tratar como esencial."
+  ],
+  "tests": [
+    {
+      "name": "Química Sanguínea 6 (Urea, Creatinina — función renal basal)",
+      "url": "/estudios/analisis-clinicos/quimica-sanguinea"
+    },
+    {
+      "name": "Examen General de Orina + Microalbuminuria (daño renal hipertensivo)",
+      "url": "/estudios/analisis-clinicos/examen-general-de-orina"
+    },
+    {
+      "name": "Perfil de Lípidos + Glucosa — Riesgo Cardiovascular Global",
+      "url": "/estudios/checkups/check-up-cardiovascular"
+    }
+  ],
+  "tools": [
+    {
+      "name": "Calculadora de Riesgo Cardiovascular SCORE2 (ESC 2023)",
+      "url": "/herramientas/calculadora-riesgo-cardiovascular"
+    }
+  ]
+}

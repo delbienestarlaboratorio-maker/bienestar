@@ -1,0 +1,51 @@
+{
+  "slug": "migrana",
+  "name": "Migraña",
+  "medicalName": "Migraña con y sin Aura / Jaqueca (G43)",
+  "cie10": "G43.9",
+  "intro": "La migraña es una enfermedad neurológica episódica que afecta al 15% de la población mundial y al 14% de los mexicanos —más de 17 millones de personas—, siendo la segunda causa mundial de discapacidad. No es 'un dolor de cabeza fuerte': es una tormenta neurobiológica que involucra la activación del sistema trigeminovascular, liberación de CGRP (péptido relacionado con el gen de la calcitonina), inflamación neurogénica de las meninges y vasodilatación meníngea. El dolor, típicamente hemicraneal y pulsátil, se acompaña en el 90% de los casos de náusea y en el 80% de fotofobia y fonofobia. Tres veces más frecuente en mujeres, con pico entre los 25 y 45 años. El CGRP es el biomarcador y el blanco terapéutico más importante de la última década.",
+  "causes": [
+    {
+      "name": "Activación del Sistema Trigeminovascular (Mecanismo Central)",
+      "desc": "Durante la crisis migrañosa, las fibras del nervio trigémino liberan CGRP y sustancia P sobre los vasos meníngeos, generando vasodilatación e inflamación neurogénica estéril. El núcleo trigeminocervical activa el tálamo, que proyecta el dolor hacia la corteza. El CGRP es el nexo entre el sistema nervioso periférico y la inflamación vascular que sostiene el dolor pulsátil."
+    },
+    {
+      "name": "Depresión Cortical Propagada (Aura Migrañosa)",
+      "desc": "El aura (presente en 1/3 de los migrañosos) es producida por una onda lenta de despolarización neuronal que se propaga por la corteza occipital a 3–5 mm/minuto, inhibiendo transitoriamente la actividad eléctrica. Esto genera los escotomas centelleantes, líneas en zigzag o déficits visuales que preceden al dolor. La depresión cortical activa secundariamente las fibras trigeminales meníngeas."
+    },
+    {
+      "name": "Predisposición Genética y Umbral de Activación Bajo",
+      "desc": "La migraña es 50% hereditaria —si ambos padres la padecen, el riesgo del hijo es del 75%. Los polimorfismos en los canales de calcio (CACNA1A), sodio y los genes reguladores del CGRP determinan un umbral de excitabilidad cortical reducido, haciendo al cerebro migrañoso hipersensible a triggers como cambios hormonales, ayuno, cambios de sueño o estrés."
+    },
+    {
+      "name": "Fluctuaciones Hormonales de Estrógenos",
+      "desc": "La caída brusca de estrógenos en la fase perimenstrual (días -2 a +3 del ciclo) desencadena la 'migraña menstrual' en el 53% de las mujeres migrañosas. Los estrógenos modulan la excitabilidad serotoninérgica y trigeminal: su descenso reduce la serotonina central, aumenta la sensibilidad al CGRP y precipita la crisis. Este mecanismo explica la mejoría durante el embarazo (niveles estables altos de estrógenos)."
+    },
+    {
+      "name": "Desregulación del Hipotálamo como Marcapasos Migrañoso",
+      "desc": "El hipotálamo se activa horas antes del dolor (fase prodrómica: bostezos, poliuria, antojos). Regula los ritmos circadianos, el sueño y el umbral de dolor mediado por la dopamina. La privación o exceso de sueño, el ayuno prolongado y los viajes con cambio de horario son los triggers más reproduciblbes porque todos alteran primariamente el hipotálamo."
+    }
+  ],
+  "redFlags": [
+    "Aura neurológica nueva en paciente >40 años sin historia de migraña: déficit motor, afasia o confusión que dura >1 hora — descartar AIT/ACV con TC cerebral urgente.",
+    "Migraña con aura en mujer que usa anticonceptivos orales combinados: riesgo de ACV isquémico hasta 8 veces mayor — valorar cambio a métodos sin estrógenos.",
+    "Crisis migrañosa de >72 horas (estado migrañoso) con vómitos incoercibles y deshidratación: requiere manejo intravenoso hospitalario.",
+    "Primera cefalea 'migrañosa' en paciente sin historia previa con inicio súbito: siempre descartar hemorragia subaracnoidea antes de diagnosticar migraña."
+  ],
+  "tests": [
+    {
+      "name": "Perfil Hormonal Femenino (Estradiol, FSH) — Migraña Menstrual",
+      "url": "/estudios/analisis-clinicos/perfil-hormonal-femenino"
+    },
+    {
+      "name": "Biometría Hemática + Ferritina (anemia como cofactor)",
+      "url": "/estudios/analisis-clinicos/biometria-hematica"
+    }
+  ],
+  "tools": [
+    {
+      "name": "Cuestionario ID-Migraine — Diagnóstico Rápido de Migraña",
+      "url": "/herramientas/test-id-migraine"
+    }
+  ]
+}
