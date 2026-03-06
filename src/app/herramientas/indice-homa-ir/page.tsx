@@ -131,35 +131,55 @@ export default function CalculadoraHomaIRPage() {
                 />
                 <AdBanner variant="horizontal" className="mb-8" />
 
-                {/* Scientific Info Collapsible */}
-                <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden mb-8">
-                    <button onClick={() => setShowInfo(!showInfo)}
-                        className="w-full px-6 py-4 flex items-center justify-between text-left hover:bg-gray-50 transition-colors">
-                        <span className="font-bold text-gray-900">📚 ¿Qué es el HOMA-IR? — Información Científica</span>
-                        <span className={`text-2xl transition-transform ${showInfo ? 'rotate-180' : ''}`}>▼</span>
-                    </button>
-                    {showInfo && (
-                        <div className="px-6 pb-6 border-t border-gray-100 pt-4 text-gray-700 text-sm space-y-4">
-                            <p>El modelo <strong>HOMA-IR</strong> (Homeostatic Model Assessment of Insulin Resistance) es una de las herramientas más exactas para calcular la sensibilidad y resistencia a la insulina. Se utiliza ampliamente en endocrinología y nutrición clínica para detectar el riesgo de prediabetes o síndrome metabólico mucho antes de que los niveles de glucosa por sí solos se eleven de manera advertible.</p>
-                            <h4 className="font-bold text-gray-900">Fórmula de Matthews (1985)</h4>
-                            <div className="bg-gray-50 rounded-xl p-4 text-center font-mono text-lg">
-                                (Insulina en ayunas [µU/mL] × Glucosa en ayunas [mg/dL]) ÷ 405
-                            </div>
-                            <h4 className="font-bold text-gray-900">Interpretación Clínica</h4>
-                            <p>Un páncreas sano requiere muy poca insulina para mantener la glucosa controlada, resultando en un HOMA-IR bajo (&lt; 1.9). Por el contrario, cuando hay resistencia celular a la insulina, el páncreas tiene que segregar enormes cantidades de la misma para mantener niveles normales de azúcar en la sangre, disparando el índice HOMA hacia arriba.</p>
-                            <p>El Síndrome de Ovario Poliquístico (SOP), el sobrepeso, la falta de sueño y dietas altas en carbohidratos refinados son las principales causas del aumento del HOMA-IR.</p>
+                {/* SEO Content GPT Injected */}
+<section className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl shadow-xl overflow-hidden border border-blue-100 mb-8 p-8 lg:p-12">
+    <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🩺 Guía Médica y Científica Exhaustiva: El Índice HOMA-IR</h2>
+    <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+        <p>El Índice HOMA-IR (Homeostasis Model Assessment - Insulin Resistance) es una herramienta diagnóstica no invasiva y ampliamente utilizada para estimar la resistencia a la insulina en individuos. Desarrollado en 1985, este índice se ha consolidado como un marcador fundamental en la evaluación del riesgo metabólico, permitiendo una detección temprana de alteraciones que pueden conducir a condiciones más graves como la prediabetes, la diabetes tipo 2 y enfermedades cardiovasculares.</p>
 
-                            <h4 className="font-bold text-gray-900">Fuentes científicas</h4>
-                            <ul className="list-disc list-inside space-y-1 text-xs text-gray-500">
-                                <li>Matthews DR, et al. Homeostasis model assessment: insulin resistance and beta-cell function from fasting plasma glucose and insulin concentrations in man. Diabetologia. 1985.</li>
-                                <li>American Diabetes Association (ADA). Standards of Medical Care in Diabetes.</li>
-                            </ul>
-                            <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 text-xs text-yellow-800">
-                                <strong>⚠️ Aviso Clínico:</strong> Siempre se debe realizar este examen con un ayuno estricto de 8-12 horas. Los resultados de esta calculadora no son un diagnóstico y deben ser evaluados por tu Mádico Tratante o Nutriólogo Clínico.
-                            </div>
-                        </div>
-                    )}
-                </div>
+        <h3 className="text-2xl font-semibold text-gray-800 mt-8 mb-4 flex items-center gap-2">🔬 Fisiopatología de la Resistencia a la Insulina</h3>
+        <p>La resistencia a la insulina es una condición metabólica en la que las células del cuerpo (principalmente musculares, hepáticas y adiposas) no responden adecuadamente a la insulina, una hormona vital producida por el páncreas. La insulina es la llave que permite a la glucosa (azúcar) entrar en las células para ser utilizada como energía o almacenada.</p>
+        <p>Cuando existe resistencia, el páncreas compensa produciendo más insulina (hiperinsulinemia) para mantener los niveles de glucosa en sangre dentro de un rango normal. Sin embargo, con el tiempo, esta sobrecarga puede agotar las células beta del páncreas, llevando a una disminución en la producción de insulina y, eventualmente, a la elevación crónica de la glucosa en sangre, característica de la prediabetes y la diabetes tipo 2.</p>
+        <p>Los factores que contribuyen a la resistencia a la insulina son multifactoriales e incluyen la genética, la obesidad (especialmente la grasa visceral), el sedentarismo, una dieta rica en azúcares refinados y grasas saturadas, el estrés crónico y la inflamación sistémica. Esta condición es un pilar central del Síndrome Metabólico, un conjunto de factores de riesgo que aumentan la probabilidad de enfermedad cardíaca, accidente cerebrovascular y diabetes.</p>
+
+        <h3 className="text-2xl font-semibold text-gray-800 mt-8 mb-4 flex items-center gap-2">📊 Interpretación Clínica de los Resultados del HOMA-IR</h3>
+        <p>El cálculo del HOMA-IR se basa en los niveles de glucosa e insulina en ayunas. La fórmula utilizada es: <code className="bg-gray-100 px-2 py-1 rounded-md text-sm font-mono">HOMA-IR = (Glucosa en Ayunas [mg/dL] × Insulina en Ayunas [µU/mL]) / 405</code>. Los valores resultantes se interpretan de la siguiente manera:</p>
+        <ul className="list-disc pl-6 mt-4 space-y-2">
+            <li><strong className="text-green-600">Óptimo (Sensibilidad Normal) - HOMA-IR &lt; 1.9:</strong> Indica una buena sensibilidad a la insulina. Las células responden eficazmente a la insulina, y el riesgo de resistencia es bajo.</li>
+            <li><strong className="text-yellow-600">Resistencia a la Insulina Temprana - HOMA-IR entre 1.9 y 2.8:</strong> Sugiere el inicio de una resistencia a la insulina. Aunque los niveles de glucosa pueden aún ser normales, el páncreas ya está trabajando más para mantenerlos. Es un momento crucial para implementar cambios en el estilo de vida.</li>
+            <li><strong className="text-red-600">Resistencia a la Insulina Significativa - HOMA-IR &ge; 2.9:</strong> Indica una resistencia a la insulina bien establecida. Existe un alto riesgo de desarrollar prediabetes, diabetes tipo 2, síndrome metabólico y enfermedades cardiovasculares. Se requiere una evaluación médica exhaustiva y un plan de intervención.</li>
+        </ul>
+        <p className="mt-4">Es importante recordar que estos puntos de corte son guías generales y pueden variar ligeramente según la población y el laboratorio. Siempre se debe interpretar el resultado en el contexto clínico completo del paciente.</p>
+
+        <h3 className="text-2xl font-semibold text-gray-800 mt-8 mb-4 flex items-center gap-2">🚨 Banderas Rojas (Red Flags) y Síntomas Asociados</h3>
+        <p>La resistencia a la insulina a menudo es asintomática en sus etapas iniciales, pero ciertas señales y condiciones pueden alertar sobre su presencia:</p>
+        <ul className="list-disc pl-6 mt-4 space-y-2">
+            <li><strong>Obesidad Central:</strong> Acumulación de grasa alrededor de la cintura (abdomen).</li>
+            <li><strong>Acanthosis Nigricans:</strong> Manchas oscuras y aterciopeladas en la piel, especialmente en el cuello, axilas e ingles.</li>
+            <li><strong>Hipertensión Arterial:</strong> Presión sanguínea elevada.</li>
+            <li><strong>Dislipidemia:</strong> Niveles elevados de triglicéridos y/o bajos de colesterol HDL ("bueno").</li>
+            <li><strong>Fatiga Crónica:</strong> Sensación constante de cansancio sin causa aparente.</li>
+            <li><strong>Dificultad para Perder Peso:</strong> A pesar de esfuerzos dietéticos y de ejercicio.</li>
+            <li><strong>Antecedentes Familiares:</strong> Historia de diabetes tipo 2 o enfermedades cardiovasculares en la familia.</li>
+            <li><strong>S��ndrome de Ovario Poliquístico (SOP):</strong> En mujeres, es una causa común de resistencia a la insulina.</li>
+        </ul>
+
+        <h3 className="text-2xl font-semibold text-gray-800 mt-8 mb-4 flex items-center gap-2">🧪 Estudios de Laboratorio Recomendados</h3>
+        <p>Para una evaluación completa de la resistencia a la insulina y el riesgo metabólico, además del HOMA-IR, se recomiendan los siguientes estudios:</p>
+        <ul className="list-disc pl-6 mt-4 space-y-2">
+            <li><strong>Glucosa en Ayunas:</strong> Nivel de azúcar en sangre después de 8-12 horas de ayuno.</li>
+            <li><strong>Insulina en Ayunas:</strong> Nivel de insulina en sangre después de 8-12 horas de ayuno.</li>
+            <li><strong>Hemoglobina Glicosilada (HbA1c):</strong> Refleja el promedio de glucosa en sangre durante los últimos 2-3 meses.</li>
+            <li><strong>Perfil Lipídico Completo:</strong> Mide colesterol total, HDL, LDL y triglicéridos.</li>
+            <li><strong>Presión Arterial:</strong> Medición regular.</li>
+            <li><strong>Circunferencia de Cintura:</strong> Un indicador clave de obesidad central.</li>
+            <li><strong>Prueba de Tolerancia Oral a la Glucosa (PTOG):</strong> En casos específicos, para diagnosticar prediabetes o diabetes.</li>
+            <li><strong>Marcadores Inflamatorios:</strong> Como la Proteína C Reactiva (PCR) ultrasensible, pueden ser útiles para evaluar la inflamación crónica asociada.</li>
+        </ul>
+
+        <p className="mt-8">La detección temprana de la resistencia a la insulina a través de herramientas como el HOMA-IR es crucial. Permite implementar intervenciones oportunas, principalmente a través de cambios en el estilo de vida (dieta saludable, ejercicio regular, manejo del estrés), que pueden prevenir o retrasar significativamente la progresión hacia enfermedades crónicas y mejorar la calidad de vida. Consulte siempre a un profesional de la salud para una interpretación adecuada de sus resultados y un plan de tratamiento personalizado.</p>
+    </div>
+</section>
 
                 {/* Ad Banner bottom */}
                 

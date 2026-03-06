@@ -188,38 +188,143 @@ export default function CalculadoraMustPage() {
                 />
                 <AdBanner variant="horizontal" className="mb-8" />
 
-                {/* Scientific Info Collapsible */}
-                <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden mb-8">
-                    <button onClick={() => setShowInfo(!showInfo)}
-                        className="w-full px-6 py-4 flex items-center justify-between text-left hover:bg-gray-50 transition-colors">
-                        <span className="font-bold text-gray-900">📚 ¿Qué es el Score MUST? — Información Científica</span>
-                        <span className={`text-2xl transition-transform ${showInfo ? 'rotate-180' : ''}`}>▼</span>
-                    </button>
-                    {showInfo && (
-                        <div className="px-6 pb-6 border-t border-gray-100 pt-4 text-gray-700 text-sm space-y-4">
-                            <p>El <strong>MUST</strong> (Malnutrition Universal Screening Tool) es una herramienta validada internacionalmente para identificar a adultos desnutridos, con riesgo de desnutrición (ya sea por desnutrición proteico-calórica) o con obesidad concomitante. Es recomendada universalmente por la Asociación Británica de Nutrición Parenteral y Enteral (BAPEN).</p>
+                {/* SEO Content GPT Injected */}
+<section className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+    <h2 className="text-4xl font-extrabold text-gray-900 mb-8 flex items-center gap-4">
+        <span className="text-indigo-600">🩺</span> Guía Médica y Científica Exhaustiva: Entendiendo el MUST
+    </h2>
+    <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+        <p className="mb-6">
+            En "Laboratorio del Bienestar", nos dedicamos a ofrecer herramientas y conocimientos para una salud óptima. La malnutrición es un problema de salud pública significativo, a menudo subestimado, que afecta a millones. Para combatirla eficazmente, es crucial identificar a los individuos en riesgo de manera temprana. Aquí es donde el <strong>MUST (Malnutrition Universal Screening Tool)</strong>, una herramienta de cribado validada, juega un papel vital para detectar el riesgo de malnutrición en adultos.
+        </p>
 
-                            <h4 className="font-bold text-gray-900">La evaluación tiene 3 pasos:</h4>
-                            <ul className="list-disc list-inside space-y-2 text-gray-600">
-                                <li><strong>Paso 1 (IMC):</strong> Mide si el paciente está crónicamente delgado. Un IMC mayor a 20 suma 0 puntos, de 18.5 a 20 suma 1 punto, y menor a 18.5 suma 2 puntos.</li>
-                                <li><strong>Paso 2 (Pérdida de peso):</strong> Mide un posible proceso agudo de consunción. Pérdida menor al 5% es 0 puntos, de 5-10% es 1 punto, y mayor al 10% son 2 puntos.</li>
-                                <li><strong>Paso 3 (Efecto de enfermedad):</strong> Suma directamente 2 puntos si el paciente está fisiológicamente estresado por una enfermedad aguda grave que le impide comer.</li>
-                            </ul>
+        <h3 className="text-2xl font-bold text-gray-800 mb-4 flex items-center gap-2">
+            <span className="text-green-600">🔬</span> Fisiopatología de la Malnutrición
+        </h3>
+        <p className="mb-4">
+            La malnutrición es un desequilibrio en la ingesta de energía, proteínas y otros nutrientes, con efectos adversos medibles en tejidos, función corporal y resultados clínicos. Puede manifestarse como desnutrición (ingesta insuficiente) o sobrenutrición (exceso, que puede coexistir con deficiencias de micronutrientes).
+        </p>
+        <p className="mb-4">
+            Sus causas son multifactoriales:
+        </p>
+        <ul className="list-disc list-inside mb-4 pl-4">
+            <li><strong>Ingesta inadecuada:</strong> Anorexia, disfagia, problemas dentales, factores socioeconómicos.</li>
+            <li><strong>Aumento de necesidades:</strong> Enfermedades agudas (infecciones, traumatismos, cirugías) o crónicas (cáncer, EPOC, insuficiencia orgánica).</li>
+            <li><strong>Malabsorción:</strong> Enfermedad inflamatoria intestinal, celíaca, cirugía bariátrica.</li>
+            <li><strong>Pérdida excesiva:</strong> Diarrea crónica, fístulas.</li>
+        </ul>
+        <p className="mb-6">
+            Fisiopatológicamente, la malnutrición lleva a la depleción de reservas, catabolismo muscular, disfunción inmunitaria, cicatrización deficiente, debilidad y aumento de morbilidad/mortalidad.
+        </p>
 
-                            <h4 className="font-bold text-gray-900">Aplicación Clínica</h4>
-                            <p>En el ámbito hospitalario, geriátrico o domiciliario, se utiliza como tamizaje obligatorio. Una puntuación ≥ 2 requiere una vía directa a intervención nutricional agresiva (suplementos hipercalóricos, nutrición por sonda, etc) porque está comprobado científicamente que a partir de este score, el riesgo de mortalidad y de infecciones aumenta exponencialmente.</p>
+        <h3 className="text-2xl font-bold text-gray-800 mb-4 flex items-center gap-2">
+            <span className="text-blue-600">📊</span> ¿Cómo funciona el MUST? Componentes y Puntuación
+        </h3>
+        <p className="mb-4">
+            El MUST evalúa el riesgo de malnutrición basándose en tres criterios principales, asignando una puntuación a cada uno:
+        </p>
+        <ol className="list-decimal list-inside mb-4 pl-4">
+            <li>
+                <strong>Índice de Masa Corporal (IMC):</strong>
+                <ul className="list-disc list-inside ml-4">
+                    <li>IMC ≥ 20 kg/m²: Puntuación 0</li>
+                    <li>IMC 18.5 - 20 kg/m²: Puntuación 1</li>
+                    <li>IMC &lt; 18.5 kg/m²: Puntuación 2</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Pérdida de Peso Involuntaria:</strong>
+                <ul className="list-disc list-inside ml-4">
+                    <li>Pérdida &lt; 5% en 3-6 meses: Puntuación 0</li>
+                    <li>Pérdida 5-10% en 3-6 meses: Puntuación 1</li>
+                    <li>Pérdida &gt; 10% en 3-6 meses: Puntuación 2</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Efecto de Enfermedad Aguda:</strong>
+                <ul className="list-disc list-inside ml-4">
+                    <li>Sin efecto: Puntuación 0</li>
+                    <li>Enfermo agudo sin ingesta &gt; 5 días: Puntuación 2</li>
+                </ul>
+            </li>
+        </ol>
+        <p className="mb-6">
+            La puntuación total MUST es la suma de estos tres componentes.
+        </p>
 
-                            <h4 className="font-bold text-gray-900">Fuentes científicas</h4>
-                            <ul className="list-disc list-inside space-y-1 text-xs text-gray-500">
-                                <li>BAPEN (British Association for Parenteral and Enteral Nutrition). The ‘MUST’ Report. 2003.</li>
-                                <li>Elia, M. Screening for malnutrition: a multidisciplinary responsibility. Development and use of the Malnutrition Universal Screening Tool (MUST) for adults.</li>
-                            </ul>
-                            <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 text-xs text-yellow-800">
-                                <strong>⚠️ Aviso Normativo:</strong> Esta herramienta de cribado nutricional se utiliza para decidir protocolos clínicos por parte del nutriólogo/médico tratante, y no reemplaza el juicio clínico ni los estudios de laboratorio en sangre.
-                            </div>
-                        </div>
-                    )}
-                </div>
+        <h3 className="text-2xl font-bold text-gray-800 mb-4 flex items-center gap-2">
+            <span className="text-purple-600">📈</span> Interpretación Clínica de los Resultados
+        </h3>
+        <p className="mb-4">
+            La puntuación MUST guía las acciones clínicas necesarias:
+        </p>
+        <ul className="list-disc list-inside mb-4 pl-4">
+            <li>
+                <strong>Puntuación 0: Riesgo Bajo</strong> <span className="text-green-600">(✅)</span>
+                <p className="ml-4 mt-1">
+                    Atención clínica de rutina. Repetir cribado semanalmente (hospital) o mensualmente (asilos). Anualmente en la comunidad.
+                </p>
+            </li>
+            <li>
+                <strong>Puntuación 1: Riesgo Medio</strong> <span className="text-yellow-600">(⚠️)</span>
+                <p className="ml-4 mt-1">
+                    Observar. Documentar ingesta dietética 3 días. Si no mejora, considerar suplementación nutricional oral. Reevaluar semanalmente.
+                </p>
+            </li>
+            <li>
+                <strong>Puntuación ≥ 2: Riesgo Alto</strong> <span className="text-red-600">(🚨)</span>
+                <p className="ml-4 mt-1">
+                    Actuar de inmediato. Referir a nutriólogo clínico o equipo de soporte nutricional para evaluación y plan de tratamiento individualizado. Monitorear regularmente.
+                </p>
+            </li>
+        </ul>
+        <p className="mb-6">
+            El MUST es una herramienta de cribado, no diagnóstica. Un resultado de riesgo alto requiere evaluación nutricional profunda por un profesional.
+        </p>
+
+        <h3 className="text-2xl font-bold text-gray-800 mb-4 flex items-center gap-2">
+            <span className="text-red-600">🚩</span> Banderas Rojas (Red Flags)
+        </h3>
+        <p className="mb-4">
+            Además del MUST, estas señales de advertencia requieren atención nutricional:
+        </p>
+        <ul className="list-disc list-inside mb-4 pl-4">
+            <li>Pérdida de peso involuntaria y rápida (ej. &gt;5% en 1 mes).</li>
+            <li>IMC extremadamente bajo (&lt;17 kg/m²).</li>
+            <li>Enfermedad aguda grave o crónica que afecta la ingesta/metabolismo (ej. cáncer avanzado, insuficiencia renal).</li>
+            <li>Dificultad para tragar (disfagia) o masticar.</li>
+            <li>Pérdida de apetito persistente o ingesta muy reducida &gt; 5 días.</li>
+            <li>Signos clínicos de deficiencias de micronutrientes.</li>
+            <li>Edema o ascitis inexplicables.</li>
+            <li>Debilidad muscular severa o fatiga crónica.</li>
+        </ul>
+        <p className="mb-6">
+            La detección temprana de estas banderas rojas es crucial para prevenir el deterioro nutricional y mejorar los resultados de salud.
+        </p>
+
+        <h3 className="text-2xl font-bold text-gray-800 mb-4 flex items-center gap-2">
+            <span className="text-orange-600">🧪</span> Estudios de Laboratorio Recomendados
+        </h3>
+        <p className="mb-4">
+            Aunque no hay un marcador único de malnutrición, varios estudios complementan la evaluación clínica y el cribado MUST:
+        </p>
+        <ul className="list-disc list-inside mb-4 pl-4">
+            <li><strong>Proteínas Viscerales:</strong> Albúmina sérica (indicador de inflamación/enfermedad crónica), Prealbúmina (cambios más agudos, también afectada por inflamación).</li>
+            <li><strong>Marcadores Inflamatorios:</strong> Proteína C Reactiva (PCR) para evaluar inflamación.</li>
+            <li><strong>Hemograma Completo (CBC):</strong> Puede revelar anemia u otras citopenias.</li>
+            <li><strong>Electrolitos y Función Renal/Hepática:</strong> Para detectar desequilibrios y evaluar el metabolismo.</li>
+            <li><strong>Vitaminas y Minerales Específicos:</strong> Si se sospechan deficiencias (ej. Vitamina D, B12, hierro).</li>
+            <li><strong>Glucosa en Sangre:</strong> Para evaluar control metab��lico.</li>
+        </ul>
+        <p className="mb-6">
+            La interpretación de estos resultados debe hacerse siempre en el contexto clínico global del paciente.
+        </p>
+
+        <p className="mb-4 text-center text-gray-600 italic">
+            El cribado de malnutrición con herramientas como el MUST es un paso fundamental hacia una atención sanitaria proactiva. En "Laboratorio del Bienestar", te animamos a utilizar nuestras calculadoras como un recurso valioso para tu salud.
+        </p>
+    </div>
+</section>
 
                 {/* Ad Banner bottom */}
                 

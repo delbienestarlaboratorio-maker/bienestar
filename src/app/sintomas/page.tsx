@@ -22,6 +22,22 @@ export default async function SintomasHub() {
     // Full CIE-10 catalog for the directory (no individual pages, just reference)
     const cie10Catalog = Array.isArray(rawCIE10) ? rawCIE10 : [];
 
+    // ═══ PERFORMANCE: Strip heavy fields from props to reduce RSC payload ═══
+    // Quality: solo slug + name + medicalName + cie10 + intro corto (max 100 chars)
+    const slimQuality = qualitySymptoms.map(s => ({
+        slug: s.slug,
+        name: s.name,
+        medicalName: s.medicalName || undefined,
+        cie10: s.cie10 || undefined,
+        intro: s.intro ? String(s.intro).replace(/<[^>]*>/g, '').substring(0, 100) : undefined,
+    }));
+
+    // CIE-10: solo code + description (eliminar category para ahorrar ~30% payload)
+    const slimCIE10 = cie10Catalog.map(e => ({
+        code: e.code,
+        description: e.description,
+    }));
+
     return (
         <main className="min-h-screen bg-gray-50 pb-20">
             {/* Hero */}
@@ -49,8 +65,8 @@ export default async function SintomasHub() {
 
             <div className="max-w-6xl mx-auto px-4 -mt-16 relative z-20 mb-8">
                 <SymptomClientList
-                    qualitySymptoms={qualitySymptoms}
-                    cie10Catalog={cie10Catalog}
+                    qualitySymptoms={slimQuality}
+                    cie10Catalog={slimCIE10}
                 />
             </div>
 

@@ -1,0 +1,373 @@
+[
+    {
+        "name": "Gastroenterología",
+        "icon": "🩺",
+        "calculators": [
+            {
+                "slug": "clasificacion-child-pugh",
+                "name": "Clasificación Child-Pugh",
+                "subtitle": "Estratificación pronóstica de Cirrosis Hepática",
+                "icon": "🧬",
+                "specialty": "Gastroenterología",
+                "shortDesc": "Severidad Cirrosis Child-Pugh",
+                "formTitle": "Evaluación Clínica y Laboratorial",
+                "inputs": [
+                    {
+                        "id": "encefalopatia",
+                        "type": "select",
+                        "label": "Encefalopatía Hepática",
+                        "options": [
+                            {
+                                "value": "1",
+                                "label": "Ninguna (1 pto)"
+                            },
+                            {
+                                "value": "2",
+                                "label": "Grados I-II: Confusión leve/Alteración del sueño (2 pts)"
+                            },
+                            {
+                                "value": "3",
+                                "label": "Grados III-IV: Estupor o Coma profundo (3 pts)"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "ascitis",
+                        "type": "select",
+                        "label": "Ascitis Abdominal",
+                        "options": [
+                            {
+                                "value": "1",
+                                "label": "Ausente (1 pto)"
+                            },
+                            {
+                                "value": "2",
+                                "label": "Leve o controlable con diuréticos (2 pts)"
+                            },
+                            {
+                                "value": "3",
+                                "label": "Moderada a Severa (Refractaria) (3 pts)"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "bilirrubina",
+                        "type": "select",
+                        "label": "Bilirrubina Total",
+                        "options": [
+                            {
+                                "value": "1",
+                                "label": "< 2.0 mg/dL (1 pto)"
+                            },
+                            {
+                                "value": "2",
+                                "label": "2.0 a 3.0 mg/dL (2 pts)"
+                            },
+                            {
+                                "value": "3",
+                                "label": "> 3.0 mg/dL (3 pts)"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "albumina",
+                        "type": "select",
+                        "label": "Albúmina Sérica",
+                        "options": [
+                            {
+                                "value": "1",
+                                "label": "> 3.5 g/dL (1 pto)"
+                            },
+                            {
+                                "value": "2",
+                                "label": "2.8 a 3.5 g/dL (2 pts)"
+                            },
+                            {
+                                "value": "3",
+                                "label": "< 2.8 g/dL (3 pts)"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "inr",
+                        "type": "select",
+                        "label": "Tiempo de Protrombina (INR)",
+                        "options": [
+                            {
+                                "value": "1",
+                                "label": "INR < 1.7 (1 pto)"
+                            },
+                            {
+                                "value": "2",
+                                "label": "INR 1.7 a 2.3 (2 pts)"
+                            },
+                            {
+                                "value": "3",
+                                "label": "INR > 2.3 (3 pts)"
+                            }
+                        ]
+                    }
+                ],
+                "logic": "const ence=parseInt(encefalopatia);const asc=parseInt(ascitis);const bil=parseInt(bilirrubina);const alb=parseInt(albumina);const i=parseInt(inr);if(isNaN(ence)||isNaN(asc)||isNaN(bil)||isNaN(alb)||isNaN(i))return;const pts=ence+asc+bil+alb+i;let l='',col='',b='',d='';if(pts<=6){l='Clase A (Mortalidad Baja)',col='text-green-600';b='bg-green-100';d='Enfermedad bien compensada. Supervivencia a 1 año >95% y 2 años de 90%. Buen candidato quirúrgico electivo.';}else if(pts<=9){l='Clase B (Compromiso Moderado)',col='text-amber-600';b='bg-amber-100';d='Compromiso funcional significativo. Supervivencia a 1 año ~80%. Riesgo quirúrgico elevado. Inicia evaluación para trasplante hepático futuro.';}else{l='Clase C (Enfermedad Descompensada Severa)',col='text-red-700';b='bg-red-100';d='Supervivencia fatal a 1 año <45%. Supervivencia a 2 años de apenas el 35%. Requiere referirse urgentemente para Trasplante Hepático Cadavérico.';}setResultado({value: pts+' pts', label:l, color:col, bg:b, desc:d});",
+                "resultType": "score",
+                "resultLabel": "Puntaje Pronóstico Child-Turcotte-Pugh",
+                "ctaTitle": "Estadifica tu Funcionalidad Hepática",
+                "ctaDesc": "Para el Score de Child Pugh necesitas tener frescas tus pruebas de coagulación TP o INR y tus Bilirrubinas totales con Albúmina.",
+                "ctaAction": "Pruebas de Función Hepática y Tiempos Coagulación",
+                "ctaStudy": "Pruebas de Funcion Hepatica",
+                "seoTitle": "¿Qué es la Clasificación de Child-Pugh para el Hígado?",
+                "seoContent": [
+                    "El Score o sistema de estratificación clínica Child-Turcotte-Pugh (frecuentemente llamado simplemente Child-Pugh) fue pioneramente desarrollado para poder estandarizar estadísticamente la tremenda mortalidad a la que se enfrentaban los pacientes con hígados cirróticos cuando eran sometidos a cirugías portocavas.",
+                    "Actualmente a nivel clínico global es utilizado como predictor certero pre operatorio y como determinante indiscutible pronóstico y letal en individuos que padecen de cirrosis y daño celular hepatocelular sostenido o crónico (CH).",
+                    "Esta categorización exige conjuntamente una evaluación de la clínica visible física del paciente (retención acuosa abdominal masiva conocida como Ascitis o alteraciones neuronales por toxicidad conocida orgánicamente como Encefalopatía Hepática) en combinación directa con tres laboratorios bioquímicos críticos irremplazables: Bilirrubina, Nivel de Albúmina y Prolongaciones del Tiempo de Protrombina."
+                ]
+            },
+            {
+                "slug": "indice-apri",
+                "name": "Índice APRI (Fibrosis Hepática)",
+                "subtitle": "AST to Platelet Ratio Index (APRI)",
+                "icon": "🩸",
+                "specialty": "Gastroenterología",
+                "shortDesc": "Índice APRI Fibrosis",
+                "formTitle": "Parámetros Laboratoriales Sanguíneos",
+                "inputs": [
+                    {
+                        "id": "ast",
+                        "type": "number",
+                        "label": "AST (Aspartato Aminotransferasa) Sérica",
+                        "unit": "U/L",
+                        "placeholder": "ej: 65"
+                    },
+                    {
+                        "id": "ast_limite",
+                        "type": "number",
+                        "label": "Límite Superior Normal de AST (Según lab)",
+                        "unit": "U/L",
+                        "placeholder": "ej: 40"
+                    },
+                    {
+                        "id": "plaquetas",
+                        "type": "number",
+                        "label": "Recuento de Plaquetas Sanguíneo",
+                        "unit": "x10⁹/L",
+                        "placeholder": "ej: 130"
+                    }
+                ],
+                "logic": "const a=parseFloat(ast);const a_lim=parseFloat(ast_limite);const pl=parseFloat(plaquetas);if(!a||!a_lim||!pl)return;const apri=((a/a_lim)*100)/pl;let l='Ausencia Biopsica de Fibrosis Significativa',col='text-green-600',b='bg-green-100',d='Predicción alta de ausencia de fibrosis hepática cicatrizar (VPN 90%).';if(apri>1.5){l='Evidencia Fuerte de Cirrosis y Fibrosis Significativa',col='text-red-700',b='bg-red-100',d='Sugerencia altísima probabilística de daño estructural biológico arquitectónico cirrótico severo de hígado francamente letal (F3-F4 en METAVIR).';}else if(apri>0.7){l='Borde de daño limítrofe fibroso o inflamatorio moderado',col='text-yellow-600',b='bg-yellow-100',d='Zona gris de clasificación dudosa o en avance intermedio fibrótico (F2). Completar fuertemente valoración del paciente integrando otros métodos elásticos funcionales clínicos de hígado.';}setResultado({value: apri.toFixed(2), label:l, color:col, bg:b, desc:d});",
+                "resultType": "score",
+                "resultLabel": "Score APRI Estimado Sérico Hepático Laboratorial Predictivo",
+                "ctaTitle": "Valoración Indiscutible Preventiva de Hígado Graso y Virales",
+                "ctaDesc": "Solo necesitas una Biometría Hemática sencilla sumada a tu AST del panel metabólico químico para evaluar con APRI tu hígado sin radiación ni cirugía biópsica invasiva de órgano abdominal.",
+                "ctaAction": "Cotiza Tu Química AST y Plaquetas",
+                "ctaStudy": "Quimica Sanguinea y Biometria Hematica",
+                "seoTitle": "¿Cómo utilizar APRI para medir dureza o cirrosis de hígado celular en tu laboratorio diario?",
+                "seoContent": [
+                    "El cociente globalizado o algoritmo sérico APRI (del anglosajón AST to Platelet Ratio Index) provee una alternativa mundialmente validada y sumamente barata para identificar, sospechar o incluso excluir a muchísimos enfermos biológicamente cirróticos o con severo desarrollo fibroestructural de cicatrices hepáticas sin la imperativa estricta y dolorosa indicación cruenta quirúrgica pre-clínica que significaba históricamente realizarles una riesgosa biopsia abdominal punzante abierta mortal u hospitalaria en hígado.",
+                    "Nace gracias fundamentalmente a la directa correlación matemáticamente biológica inversa y dramática que exhibe patológicamente la fisiopatología destructiva de este órgano al matar funcionalmente su producción tisular celular vital hematológica plaquetaria esplénica y paralelamente disparando en las membranas celulares rotas y necróticas transaminasas masivamente inflamatorias destructoras AST.",
+                    "Cifras calculadas finales logarítmicas de la calculadora si exceden de forma indudable la barrera estándar superior oficial de > 1.5 pts predicen sólidamente presencia morfológica francamente estructural severa cirrótica en estadios biópsicos formales crónicos como los grados irreversibles grado tres o cuatro en esquema global METAVIR."
+                ]
+            },
+            {
+                "slug": "score-meld-na",
+                "name": "Score MELD-Na",
+                "subtitle": "Model for End-Stage Liver Disease (con Sodio)",
+                "icon": "⚖️",
+                "specialty": "Gastroenterología",
+                "shortDesc": "Mortalidad Hepática MELD-Na",
+                "formTitle": "Valores Bioquímicos Esenciales (Edad > 12 Años)",
+                "inputs": [
+                    {
+                        "id": "bilirrubina",
+                        "type": "number",
+                        "label": "Bilirrubina Sérica Total",
+                        "unit": "mg/dL",
+                        "placeholder": "ej: 4.5"
+                    },
+                    {
+                        "id": "inr",
+                        "type": "number",
+                        "label": "Índice Internacional Normalizado (INR)",
+                        "unit": "Indice",
+                        "placeholder": "ej: 2.1"
+                    },
+                    {
+                        "id": "creatinina",
+                        "type": "number",
+                        "label": "Creatinina Sérica Renal",
+                        "unit": "mg/dL",
+                        "placeholder": "ej: 1.8"
+                    },
+                    {
+                        "id": "sodio",
+                        "type": "number",
+                        "label": "Sodio Sérico (Na)",
+                        "unit": "mEq/L",
+                        "placeholder": "ej: 132"
+                    }
+                ],
+                "logic": "let b=parseFloat(bilirrubina);let i=parseFloat(inr);let cr=parseFloat(creatinina);let na=parseFloat(sodio);if(!b||!i||!cr||!na)return;if(b<1.0)b=1.0;if(i<1.0)i=1.0;if(cr<1.0)cr=1.0;else if(cr>4.0)cr=4.0;let meld= (0.957*Math.log(cr)) + (0.378*Math.log(b)) + (1.120*Math.log(i)) + 0.643;meld=Math.round(meld*10);if(na<125)na=125;else if(na>137)na=137;let meld_na = meld + 1.32*(137-na) - (0.033*meld*(137-na));let l='Mortalidad Mínima a 90 Días',col='text-green-600',bg='bg-green-100',d='Pronóstico de supervivencia mayor al 98% en tres meses.';if(meld_na>=40){l='Mortalidad GIGANTE a 90 Días > 70%',col='text-red-900',bg='bg-red-200';d='Prioridad absoluta UNOS universal e indiscutible pre Lista Quirúrgica Transplante Hepático urgente inminente innegable o muerte por fallo de falla multiorgánico agudísimo.';}else if(meld_na>=30){l='Mortalidad Severísima Altísima 52% 90x',col='text-red-600',bg='bg-red-100';d='Riesgos vitales profundos fatales. Alta posición en el escalafón para derivaciones trasplantes imperativos hepatólogos o hepatorenales urgentes y letales cirugías o derivaciones hepato formales pre urgencias médicas UCI reanimación de choque y volumen y uremia de falla multisistémica.';}else if(meld_na>=20){l='Mortalidad Alta 20% a 90 Días',col='text-orange-600',bg='bg-orange-100';d='Riesgo intermedio alto. El fallo y las comorbilidades dictan atención estrecha y de hospital continuo.';}else if(meld_na>=10){l='Mortalidad Leve Moderada 6% en 90x',col='text-yellow-600',bg='bg-yellow-100';d='Monitoreo ambulatorio recomendado.';}setResultado({value: Math.round(meld_na), label:l, color:col, bg:bg, desc:d});",
+                "resultType": "score",
+                "resultLabel": "Score MELD-Na Global Ajustado Calculado",
+                "ctaTitle": "Evita o Anticipa Invariablemente la Severidad del Trasplante de Órganos por Disfunción Fallo Letal del Hígado Extensiva Renal",
+                "ctaDesc": "Para el Score MELD requieres tener actualizadas forzosamente y mensualmente las Bilirrubinas, Funcionalidad Renal Creatinínica Nitrógenada, Iones BioSodio (Na) e INR Hematológico Universal.",
+                "ctaAction": "Cotiza Tu Paquete Hepatológico y Falla Hepatorenal Pre-Trasplante y Trasplante",
+                "ctaStudy": "Pruebas de Funcion Hepatica y Urea y Creatinina Sanguinea",
+                "seoTitle": "¿Por qué importa enormemente MELD-Na en el trasplante hepático global nacional e internacional unificador?",
+                "seoContent": [
+                    "El sistema MELD inicial crudo (acrónimo inglés general Model for End-Stage Liver Disease Global Systemic Organ Failure Risk Assesment Scoring Test System of Mortality 3 months Universal) revolucionó de manera mundial universal sistémica toda la antigua inefectiva manera con la que los centros nacionales y los cirujanos mundiales trasplantólogos otorgaban órden de los invaluables y escasos órganos hepáticos basándose por fin en ecuaciones puramente letales objetivas libres de sesgos puramente médicos o empíricos y sesgos apreciativos visuales del físico biológico individualizado del enfermo ascitico cirrótico.",
+                    "El cálculo en su núcleo evalúa crudamente en el paciente la magnitud cruda de su incapacidad para que este excrete la bilis tóxica al nivel de vías heces y vías biliares (evaluada indirectamente por la hiper-bilirrubina sérica estática en piel medible sérica y laboratorialmente observable cruda en Química), mide también su fracaso coagulador hematológico molecular masivo secundario letal de las heparinas y hemorragias secundarias (métrica INR global pura estandarizada planetaria globalizada hemo hemostática) y cruza la presencia letal concurrente formal y muy grave de falla aguda o crónica orgánica de fallo de los riñones o falla hepatorrenal cruzada biológica de insuficiencia filtrante de las nefronas medulares y corticales urinarias y ureicas mortales depurativas necróticas (calculada global pura mediante métricas matemáticas logarítmicas de toxina retentiva Creatinina pura química toxica nitrógena base sérica sin filtrar o con baja glomerular letal disfunción ureica pre renal de creatininas sanguíneas altísimas sin exclusiones absolutas biológicas necróticas puramente logarítmicas).",
+                    "La actualización gigantesca médica y crucial MELD-Na en la medicina incorporó el Sodio debido a que la incapacidad de eliminar líquidos (Hiponatremia severa metabólica) predice masiva e independientemente el fallecimiento abismal y agudo o comorbido e inmediato crudo de enfermos graves letales pre coma en espera estricta lista general."
+                ]
+            },
+            {
+                "slug": "criterios-alvarado-apendicitis",
+                "name": "Criterios de Alvarado para Apendicitis",
+                "subtitle": "Estratificador clásico del riesgo real de Apendicitis Aguda",
+                "icon": "💥",
+                "specialty": "Gastroenterología",
+                "shortDesc": "Riesgo Apendicitis Alvarado",
+                "formTitle": "Signos, Síntomas y Sangre",
+                "inputs": [
+                    {
+                        "id": "s_migracion",
+                        "type": "boolean",
+                        "label": "Síntoma: Migración evidente del dolor visceral periumbilical crudo hacia el lecho inferior de la Fosa Ilíaca Derecha localizada inflamatoria aguda somática pura y profunda dolorosa aguda dolor"
+                    },
+                    {
+                        "id": "s_anorexia",
+                        "type": "boolean",
+                        "label": "Síntoma: Anorexia plena franca o cetosis acetonas orales"
+                    },
+                    {
+                        "id": "s_nauseas",
+                        "type": "boolean",
+                        "label": "Síntoma: Náuseas activas eméticas innegables objetivas francas francas intensas y crudas y reflejas intensas inflamatorias vagales irritativas viscerales o reflejos vágales o vómitos recurrentes"
+                    },
+                    {
+                        "id": "s_defensa",
+                        "type": "boolean",
+                        "label": "Signo Clínico: Defensa local innegable médica franca franca franca objetiva palpatoria abdominal táctil localizada focal peritoneal pura de resistencia irritada aguda localizada punzante en flanco inferior derecho FID inflamado franco (2 pts)"
+                    },
+                    {
+                        "id": "s_rebote",
+                        "type": "boolean",
+                        "label": "Signo Clínico: Reacción evidente positiva formal de Blumberg aguda letal abdominal irritada rebote descompresión al liberar dolorosa manual presión innegablemente peritoneal de franca defensa y de franca irritación (Signo Rebote Clásico letal u ombligo)."
+                    },
+                    {
+                        "id": "s_fiebre",
+                        "type": "boolean",
+                        "label": "Signo Clínico: Termométrico febril febril con letales grados febriles orales documentado objetivamente en curva febrícula médica o elevación sistemica oral de temperaturas termométricas corporales inflamatorias febriles agrávantes y superiores y picos marcados de fiebre aguda mayor a franca > 37.3°C médica documentada febril termométrica comprobada o signos sistémicos sépticos tempranos clínicos febriles febriles febriles termométrica"
+                    },
+                    {
+                        "id": "l_leucocitos",
+                        "type": "boolean",
+                        "label": "Laboratorio: Leucocitosis sistémica innegable química médica seria superior global seria general en recuento masivo en Biometría Hemática francamente innegable > 10,000 en el cuerpo global letal infeccioso global absoluto crudo de laboratorio puro analítico en sangre venosa y suero séptico hematopoyético celular blanca cruda franca pura sistémica defensiva celular leucocitosis (2 pts)"
+                    },
+                    {
+                        "id": "l_neutrofilos",
+                        "type": "boolean",
+                        "label": "Laboratorio: Desviación inflamatoria leucitaria izquierda química >75% sistémica en Neutrofilia"
+                    }
+                ],
+                "logic": "let pts=0;if(s_migracion)pts+=1;if(s_anorexia)pts+=1;if(s_nauseas)pts+=1;if(s_defensa)pts+=2;if(s_rebote)pts+=1;if(s_fiebre)pts+=1;if(l_leucocitos)pts+=2;if(l_neutrofilos)pts+=1;let l='Irrelevante / Baja Sospecha Patológica Infecciosa del Apéndice Agudo',col='text-green-600',bg='bg-green-100',d='Es extremadamente improbable el diagnóstico. Riesgo inferior al margen del 7% basal.';if(pts>=7){l='Alta Probabilidad',col='text-red-600',bg='bg-red-100',d='Se interviene Quirúrgicamente Aguda y Crudamente o se recomienda e impera urgente Cirugía abdominal o Tomografía Contrastada TAC. Riesgo mayor del 93% en la apendicitis supurada letal.'}else if(pts>=5){l='Observación Estricta Activa',col='text-orange-600',bg='bg-orange-100',d='Incierto preoperatorio. Riesgo del 66%. Ingreso médico de control tomografía ultrasonográfica ecografía inminente o re evaluar test en 2 horas.'}setResultado({value: pts+'/10', label:l, color:col, bg:bg, desc:d});",
+                "resultType": "score",
+                "resultLabel": "Criterios Cumplidos de MANTRELS",
+                "ctaTitle": "Una Simple BH (Biometría Hemática) Confirmaría Tu Apendicitis Aguda En El Score",
+                "ctaDesc": "Más de 3 de los 10 puntos de Alvarado se calculan usando Biometría para ver Leucocitos.",
+                "ctaAction": "Prueba de Leucocitos y Sangre",
+                "ctaStudy": "Biometria Hematica Leucocitos",
+                "seoTitle": "Interpretación Pura del Score de Alvarado Pediátrico y Adulto Peritonitis",
+                "seoContent": [
+                    "El sistema histórico clásico innegable de Alvarado es la piedra angular diagnóstica clínica y pre quirúrgica estadística universal quirúrgica en cualquier servicio inclemente y activo crudo hospitalario de urgencias gástricas del globo.",
+                    "Asigna matemáticamente pesos específicos crudos inflamatorios a signos clásicos y a leucocitos (Puntos inflamatorios blancos celulares neutrofilos innegables puros métricos en una clásica simple Biometría general hemática hospitalaria venosa) categorizando en leve o franca emergencia aguda abdominal inminente de sala quirúrgica y quirófano inclemente estéril."
+                ]
+            },
+            {
+                "slug": "score-blatchford-sangrado",
+                "name": "Score de Riesgo Glasgow-Blatchford (GBS)",
+                "subtitle": "Riesgo endoscópico para Hemorragia Gastrointestinal Alta Urgente",
+                "icon": "🩸",
+                "specialty": "Gastroenterología",
+                "shortDesc": "Riesgo Hemorragia Alta GBS",
+                "formTitle": "Parámetros Urgentes Sangrado",
+                "inputs": [
+                    {
+                        "id": "bun",
+                        "type": "number",
+                        "label": "Niveles de Urea (BUN)",
+                        "unit": "mg/dL",
+                        "placeholder": "ej: 25"
+                    },
+                    {
+                        "id": "hb",
+                        "type": "number",
+                        "label": "Hemoglobina de Presentación",
+                        "unit": "g/dL",
+                        "placeholder": "ej: 11"
+                    },
+                    {
+                        "id": "sexo",
+                        "type": "select",
+                        "label": "Genotipo / Sexo",
+                        "options": [
+                            {
+                                "value": "h",
+                                "label": "Masculino"
+                            },
+                            {
+                                "value": "m",
+                                "label": "Femenino"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "sistolica",
+                        "type": "number",
+                        "label": "Presión Arterial Sistólica Ingreso (PAS)",
+                        "unit": "mmHg",
+                        "placeholder": "ej: 105"
+                    },
+                    {
+                        "id": "pulsos",
+                        "type": "number",
+                        "label": "Taquicardia Cardíaca Sistémica (Pulso por Minuto HR)",
+                        "unit": "lpm",
+                        "placeholder": "ej: 95"
+                    },
+                    {
+                        "id": "melena",
+                        "type": "boolean",
+                        "label": "Fuerte Sospecha Innegable u objetiva médica comprobada e inequívoca de Melena digestiva anal heces negras fétidas alquitranadas o franca comprobable en Tácto rectal y dolor de deposición oscura melénica sangre vieja en evacuaciones clínicas comprobada franca cruda objetiva médica rectorragia vieja innegable fecal melénica y fétida oscura y con franca evidencia clínica y letal en urgencia heces digestiva franca"
+                    },
+                    {
+                        "id": "sincope",
+                        "type": "boolean",
+                        "label": "Episodio de caída hemodinámica en Síncope agudo desmayo innegable u síncope isquémico vaso letal vago cerebral pérdida de letal franca de crudo y choque conciencia neurológico de inestabilidad basal hemodinámica ortostática neuro cardiogénico y de pérdida súbita colapso neurológica sincopal letal"
+                    },
+                    {
+                        "id": "hepatica",
+                        "type": "boolean",
+                        "label": "Sospecha comprobada de Daño Enfermedad patológica comprobada franca y crónica pre existente en hígado o Cirrosis innegable y pre evaluada clínica en historia hepatología grave basal subyacente médica comprobable en expediente general de daño médico diagnosticado crónico"
+                    },
+                    {
+                        "id": "fallo",
+                        "type": "boolean",
+                        "label": "Insuficiencia pre existente médica comprobada o sospecha fuerte de franco daño global de Corazón Falla letal de Cardiaca Insuficiencia (Falla Crónica cardiogénico IC franco basal historial diagnóstico de cardiología) y falla falla descompensación cardiaca congestiva masiva edema crudo insuficiencia"
+                    }
+                ],
+                "logic": "let pts=0;const ure=parseFloat(bun);const hemo=parseFloat(hb);const pa=parseFloat(sistolica);const pul=parseFloat(pulsos);if(isNaN(ure)||isNaN(hemo)||isNaN(pa)||isNaN(pul))return;if(ure>=18.2&&ure<22.4)pts+=2;else if(ure>=22.4&&ure<28)pts+=3;else if(ure>=28&&ure<70)pts+=4;else if(ure>=70)pts+=6;if(sexo==='h'){if(hemo>=12.0&&hemo<13.0)pts+=1;else if(hemo>=10.0&&hemo<12.0)pts+=3;else if(hemo<10.0)pts+=6;}else{if(hemo>=10.0&&hemo<12.0)pts+=1;else if(hemo<10.0)pts+=6;}if(pa>=100&&pa<=109)pts+=1;else if(pa>=90&&pa<=99)pts+=2;else if(pa<90)pts+=3;if(pul>=100)pts+=1;if(melena)pts+=1;if(sincope)pts+=2;if(hepatica)pts+=2;if(fallo)pts+=2;let l='Alto Riesgo Urgente de Endoscopia',col='text-red-600',bg='bg-red-100',d='Requiere intervención endoscópica digestiva urgente, admisión inminente hospitalaria urgente UCI cruzamiento y tipo de hemo sangre masivas urgente letal y monitoreo médico.';if(pts===0){l='Puntaje 0: Riesgo Ínfimo Segurísimo',col='text-green-600',bg='bg-green-100',d='Riesgo extremadamente virtual limítrofe innegablemente nulo de requerir intervención endoscopica masiva sangre o fallecer (<1%). Alta ambulatoria con IBPS muy segura según dictamen global de urgencia universal gástrica.';}else if(pts>0){l='Score '+pts+' > 0: Necesidad Hospitalaria y Endoscopia Aguda',col='text-red-700',bg='bg-red-100',d='Intervenir. GBS alto, mortalidad se encarece. Requerido panel transfuncional cruzado de inmediato.'}setResultado({value: pts+' pts', label:l, color:col, bg:bg, desc:d});",
+                "resultType": "score",
+                "resultLabel": "GBS Hemorrágico Urgencias Sangrado Activo Letal",
+                "ctaTitle": "Una biometría de urgencia y control de Urea podrían dictar si te vas de alta o a cirugía y endoscopia",
+                "ctaDesc": "Los componentes metabólicos letales como la toxicidad uremica por sangre vieja dirigina franca elevan rápidamente al enfermo y lo agravan masivamente.",
+                "ctaAction": "Panel Endoscópico Pre Laboratorio (Hemo y Urea)",
+                "ctaStudy": "Urea Biometria",
+                "seoTitle": "Riesgo Fatal Sistémico Múltiple Glasgow-Blatchford Score",
+                "seoContent": [
+                    "A diferencia flagrante universal de otros perfiles de sangrados digestivos gástricos como el de Rockall que exige endoscopio pre insertado gástricamente para contar con evaluación tisular, el score universal escocés letal Glasgow-Blatchford Score asiste masivamente e inicialmente en urgencias del triaje sin meter tubos gástricos endoscópicos invasivos de manera inclemente incruenta.",
+                    "Utilizando tan solo los clásicos y accesibles laboratorios de tu presentación basal universal en urgencias (Urea y Niveles Venosos puros Hemoglobina anémica) cruzada matemáticamente logarítmico con la hemo dinámica hipotensiva clínica y síncopes (desmayos letales neuro cardiogénicos); logra de manera impecable predecir o segregar al paciente inestable de altísimo crudo mortal riesgo del paciente súper y limítrofe seguro (0 puntos)."
+                ]
+            }
+        ]
+    }
+]

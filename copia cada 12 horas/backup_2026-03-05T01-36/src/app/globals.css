@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+:root {
+  /* Primary - Green from logo */
+  --color-primary-50: #E8F5E9;
+  --color-primary-100: #C8E6C9;
+  --color-primary-200: #A5D6A7;
+  --color-primary-300: #81C784;
+  --color-primary-400: #66BB6A;
+  --color-primary-500: #4CAF50;
+  --color-primary-600: #43A047;
+  --color-primary-700: #388E3C;
+  --color-primary-800: #2E7D32;
+  --color-primary-900: #1B5E20;
+  --color-primary: #1B5E20;
+
+  /* Secondary - Blue from logo */
+  --color-secondary-50: #EFF6FF;
+  --color-secondary-100: #DBEAFE;
+  --color-secondary-200: #BFDBFE;
+  --color-secondary-300: #93C5FD;
+  --color-secondary-400: #60A5FA;
+  --color-secondary-500: #3B82F6;
+  --color-secondary-600: #2563EB;
+  --color-secondary-700: #1D4ED8;
+  --color-secondary-800: #1E40AF;
+  --color-secondary-900: #1E3A8A;
+  --color-secondary: #1E3A8A;
+
+  /* Accent - Lighter green */
+  --color-accent-light: #66BB6A;
+  --color-accent: #43A047;
+  --color-accent-dark: #2E7D32;
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, #1B5E20 0%, #2E7D32 100%);
+  --gradient-secondary: linear-gradient(135deg, #1E3A8A 0%, #2563EB 100%);
+  --gradient-hero: linear-gradient(135deg, #1B5E20 0%, #2E7D32 50%, #1E3A8A 100%);
+
+  /* Shadows */
+  --shadow-green: 0 4px 14px 0 rgba(27, 94, 32, 0.2);
+  --shadow-green-lg: 0 10px 40px 0 rgba(27, 94, 32, 0.25);
+}
+
+
+/* Custom utility classes */
+@layer utilities {
+  .bg-gradient-primary {
+    background-image: var(--gradient-primary);
+  }
+
+  .bg-gradient-secondary {
+    background-image: var(--gradient-secondary);
+  }
+
+  .bg-gradient-hero {
+    background-image: var(--gradient-hero);
+  }
+
+  .shadow-green {
+    box-shadow: var(--shadow-green);
+  }
+
+  .shadow-green-lg {
+    box-shadow: var(--shadow-green-lg);
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}

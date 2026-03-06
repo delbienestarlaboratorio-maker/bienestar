@@ -20,6 +20,18 @@ const calculators = [
     { slug: 'riesgo-cardiovascular', name: 'Riesgo Cardiovascular', desc: 'Score de Framingham a 10 años', icon: '🫀', category: 'Cardiología', color: 'bg-red-500' },
     { slug: 'calculadora-colesterol-ldl', name: 'Colesterol LDL', desc: 'Calcula tu colesterol LDL (Friedewald)', icon: '🩸', category: 'Cardiología', color: 'bg-red-500' },
     { slug: 'clasificador-presion-arterial', name: 'Presión Arterial', desc: 'Clasifica tu nivel de presión arterial', icon: '💓', category: 'Cardiología', color: 'bg-red-500' },
+    { slug: 'score-framingham', name: 'Score de Riesgo Framingham', desc: 'Riesgo infarto a 10 años', icon: '❤️', category: 'Cardiología', color: 'bg-red-600' },
+    { slug: 'score-heart', name: 'HEART Score', desc: 'Riesgo cardíaco MACE', icon: '❤️', category: 'Cardiología', color: 'bg-red-600' },
+    { slug: 'escala-killip', name: 'Clasificación de Killip', desc: 'Mortalidad en IAM', icon: '❤️', category: 'Cardiología', color: 'bg-red-600' },
+    { slug: 'score-has-bled', name: 'Score HAS-BLED', desc: 'Riesgo de hemorragia', icon: '❤️', category: 'Cardiología', color: 'bg-red-600' },
+    { slug: 'presion-arterial-media', name: 'Presión Arterial Media (PAM)', desc: 'Cálculo de la PAM', icon: '❤️', category: 'Cardiología', color: 'bg-red-600' },
+    { slug: 'score-timi-stemi', name: 'Score TIMI (STE-MI)', desc: 'Riesgo en Infarto (ST+)', icon: '❤️', category: 'Cardiología', color: 'bg-red-600' },
+    { slug: 'intervalo-qt-corregido', name: 'Intervalo QT Corregido (QTc) - Bazett', desc: 'Electrocardiograma QTc', icon: '❤️', category: 'Cardiología', color: 'bg-red-600' },
+    { slug: 'score-nyha', name: 'Clasificación Cardíaca NYHA', desc: 'Capacidad Funcional NYHA', icon: '❤️', category: 'Cardiología', color: 'bg-red-600' },
+    { slug: 'frecuencia-cardiaca-objetivo', name: 'Frecuencia Cardíaca Objetivo', desc: 'Zonas de esfuerzo', icon: '❤️', category: 'Cardiología', color: 'bg-red-600' },
+    { slug: 'doble-producto-cardiaco', name: 'Doble Producto Cardíaco (RPP)', desc: 'Demanda de Oxígeno EKG', icon: '❤️', category: 'Cardiología', color: 'bg-red-600' },
+    { slug: 'riesgo-fibrilacion-auricular', name: 'Score de Fibrilación Auricular', desc: 'Probabilidad de AF', icon: '❤️', category: 'Cardiología', color: 'bg-red-600' },
+    { slug: 'score-timi-nstemi', name: 'Score TIMI (NSTE-ACS)', desc: 'Riesgo de Isquemia o Muerte', icon: '❤️', category: 'Cardiología', color: 'bg-red-600' },
     // Diabetes
     { slug: 'riesgo-diabetes', name: 'Riesgo de Diabetes', desc: 'Test FINDRISC de riesgo a 10 años', icon: '🩺', category: 'Diabetes', color: 'bg-orange-500' },
     { slug: 'convertidor-hba1c', name: 'Convertidor HbA1c', desc: 'Convierte entre HbA1c y glucosa promedio', icon: '🔄', category: 'Diabetes', color: 'bg-orange-500' },
@@ -27,9 +39,20 @@ const calculators = [
     { slug: 'calculadora-egfr', name: 'Filtración Glomerular', desc: 'Calcula tu tasa de filtración renal', icon: '🫘', category: 'Nefrología', color: 'bg-yellow-600' },
     { slug: 'sodio-corregido', name: 'Sodio Corregido', desc: 'Corrección de sodio por glucosa', icon: '🧂', category: 'Nefrología', color: 'bg-yellow-600' },
     { slug: 'calcio-corregido', name: 'Calcio Corregido', desc: 'Corrección de calcio por albúmina', icon: '🦴', category: 'Nefrología', color: 'bg-yellow-600' },
+    { slug: 'depuracion-creatinina-cockcroft', name: 'Depuración de Creatinina (Cockcroft-Gault)', desc: 'Clearance Cockcroft-Gault', icon: '🧪', category: 'Nefrología', color: 'bg-teal-600' },
+    { slug: 'fena-fraccion-excrecion-sodio', name: 'Fracción Excreción de Sodio (FENa)', desc: 'FENa Insuficiencia Aguda LRA', icon: '🧂', category: 'Nefrología', color: 'bg-teal-600' },
+    { slug: 'brecha-anionica-gap', name: 'Anión GAP (Brecha Aniónica con Delta)', desc: 'Anión GAP Acidosis M', icon: '⚖️', category: 'Nefrología', color: 'bg-teal-600' },
+
+    // Neumología
+    { slug: 'score-curb65-neumonia', name: 'Score CURB-65 para Neumonía', desc: 'Riesgo Neumonía CURB-65', icon: '🌬️', category: 'Neumología', color: 'bg-sky-600' },
+    { slug: 'score-wells-tep-embolia', name: 'Score WELLS Embolismo Pulmonar', desc: 'Riesgo TEP Embolia Wells', icon: '🩸', category: 'Neumología', color: 'bg-sky-600' },
+
     // Embarazo
     { slug: 'fecha-parto', name: 'Fecha de Parto', desc: 'Calcula tu fecha probable de parto', icon: '🤰', category: 'Embarazo', color: 'bg-pink-500' },
     { slug: 'semanas-embarazo', name: 'Semanas de Embarazo', desc: 'En qué semana y trimestre estás', icon: '📅', category: 'Embarazo', color: 'bg-pink-500' },
+    // Oncología y Hematología
+    { slug: 'indice-roma-ovario', name: 'Índice de Malignidad Ovárica ROMA', desc: 'Ca Ovárico Cáncer ROMA', icon: '🩸', category: 'Oncología', color: 'bg-purple-600' },
+    { slug: 'score-mascc-oncologia', name: 'Score MASCC de Oncológico Riesgo Neutropénico Febril y Muerte Severo', desc: 'Riesgo Neutropénico MASCC', icon: '☢️', category: 'Oncología', color: 'bg-purple-600' },
     { slug: 'dias-fertiles', name: 'Días Fértiles', desc: 'Calcula tu ventana fértil y ovulación', icon: '🌸', category: 'Embarazo', color: 'bg-pink-500' },
     // Pediatría
     { slug: 'percentil-crecimiento', name: 'Percentil de Crecimiento', desc: 'Tablas OMS para peso y talla infantil', icon: '👶', category: 'Pediatría', color: 'bg-cyan-500' },
@@ -63,12 +86,29 @@ const calculators = [
     // Gastroenterología (Fase 4)
     { slug: 'riesgo-ulcera-gastritis', name: 'Gastritis / Úlcera', desc: 'Sospecha Helicobacter', icon: '🔥', category: 'Gastroenterología', color: 'bg-red-700' },
     { slug: 'riesgo-celiaquia-gastrica', name: 'Enfermedad Celíaca', desc: 'Riesgo intolerancia al gluten', icon: '🌾', category: 'Gastroenterología', color: 'bg-orange-500' },
+    { slug: "clasificacion-child-pugh", name: "Clasificación Child-Pugh", desc: "Severidad Cirrosis Child-Pugh", icon: "🧬", category: "Gastroenterología", color: "bg-orange-600" },
+    { slug: "indice-apri", name: "Índice APRI (Fibrosis Hepática)", desc: "Índice APRI Fibrosis", icon: "🩸", category: "Gastroenterología", color: "bg-orange-600" },
+    { slug: "score-meld-na", name: "Score MELD-Na", desc: "Mortalidad Hepática MELD-Na", icon: "⚖️", category: "Gastroenterología", color: "bg-orange-600" },
+    { slug: "criterios-alvarado-apendicitis", name: "Criterios de Alvarado para Apendicitis", desc: "Riesgo Apendicitis Alvarado", icon: "💥", category: "Gastroenterología", color: "bg-orange-600" },
+    { slug: "score-blatchford-sangrado", name: "Score de Riesgo Glasgow-Blatchford (GBS)", desc: "Riesgo Hemorragia Alta GBS", icon: "🩸", category: "Gastroenterología", color: "bg-orange-600" },
     // Endocrinología y Urología (Fase 4)
     { slug: 'score-ipss-prostata', name: 'Score IPSS Próstata', desc: 'Hiperplasia prostática', icon: '💧', category: 'Urología', color: 'bg-indigo-600' },
     { slug: 'riesgo-hipotiroidismo', name: 'Riesgo Hipotiroidismo', desc: 'Disfunción Glánula Tiroides', icon: '🦋', category: 'Endocrinología', color: 'bg-purple-600' },
+    { slug: 'dosis-insulina-basal', name: 'Dosis de Insulina Basal Inicial', desc: 'Insulina basal T2DM', icon: '💉', category: 'Endocrinología', color: 'bg-amber-600' },
+    { slug: 'factor-sensibilidad-insulina', name: 'Factor de Sensibilidad a la Insulina (ISF)', desc: 'Factor Sensibilidad (ISF)', icon: '📉', category: 'Endocrinología', color: 'bg-amber-600' },
+    { slug: 'ratio-insulina-carbohidratos', name: 'Ratio Insulina-Carbohidratos (ICR)', desc: 'Ratio Insulina/Carbo', icon: '🍞', category: 'Endocrinología', color: 'bg-amber-600' },
+    { slug: 'calcio-ionizado-corregido', name: 'Calcio Sérico Corregido', desc: 'Ca2+ Corregido x Albúmina', icon: '🦴', category: 'Endocrinología', color: 'bg-amber-600' },
+    { slug: 'indice-quicki', name: 'Índice QUICKI (Insulino-resistencia)', desc: 'Sensibilidad Insulina QUICKI', icon: '🧬', category: 'Endocrinología', color: 'bg-amber-600' },
+    { slug: 'clasificacion-cushing', name: 'Probabilidad Síndrome de Cushing', desc: 'Síndrome de Cushing', icon: '⚖️', category: 'Endocrinología', color: 'bg-amber-600' },
+    { slug: 'score-tirads', name: 'ACR TI-RADS', desc: 'Riesgo Nódulo Tiroides', icon: '🦋', category: 'Endocrinología', color: 'bg-amber-600' },
+    { slug: 'osmolaridad-serica', name: 'Osmolaridad Sérica Efectiva', desc: 'Tonicidad Sérica Efectiva', icon: '💧', category: 'Endocrinología', color: 'bg-amber-600' },
+    { slug: 'score-findrisc', name: 'Score FINDRISC Diabetes', desc: 'Test Diabetes FINDRISC', icon: '🔍', category: 'Endocrinología', color: 'bg-amber-600' },
 
     // --- NUEVAS HERRAMIENTAS VIRALES DE TRÁFICO MASIVO (FASE 5) ---
-    { slug: 'prediccion-sexo-bebe', name: 'Sexo del Bebé', desc: 'Tabla Predictiva China', icon: '👶', category: 'Virales y Curiosidades', color: 'bg-fuchsia-600' },
+    { slug: 'riesgo-toxicidad-paracetamol', name: 'Riesgo Paracetamol', desc: 'Peligro de Falla Hepática', icon: '☠️', category: 'Virales y Curiosidades', color: 'bg-red-700' },
+    { slug: 'compatibilidad-sanguinea', name: 'Genética Sanguínea', desc: 'Tipos ABO/Rh en el Embarazo', icon: '🩸', category: 'Virales y Curiosidades', color: 'bg-red-700' },
+    { slug: 'calculadora-edad-vascular', name: 'Edad Vascular', desc: 'Envejecimiento de Arterias', icon: '🫀', category: 'Virales y Curiosidades', color: 'bg-slate-800' },
+    { slug: 'prediccion-sexo-bebe', name: 'Sexo del Bebé', desc: 'Método Fértil de Shettles', icon: '👶', category: 'Virales y Curiosidades', color: 'bg-fuchsia-600' },
     { slug: 'edad-mental', name: 'Tu Edad Mental', desc: 'Test de madurez psicológica', icon: '🧠', category: 'Virales y Curiosidades', color: 'bg-fuchsia-600' },
     { slug: 'test-narcisismo', name: 'Espectro Narcisista', desc: 'Test de Personalidad y Ego', icon: '🪞', category: 'Virales y Curiosidades', color: 'bg-fuchsia-600' },
     { slug: 'test-daltonismo-astigmatismo', name: 'Test Visual Básico', desc: 'Averigua si necesitas lentes', icon: '👁️', category: 'Virales y Curiosidades', color: 'bg-fuchsia-600' },

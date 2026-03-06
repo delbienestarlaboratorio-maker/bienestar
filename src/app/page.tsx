@@ -180,9 +180,10 @@ export default function Home() {
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">Más Servicios</h2>
                 <p className="text-lg text-gray-600">Descubre todo lo que tenemos para ti</p>
               </div>
-              <div className="grid md:grid-cols-3 gap-8">
+              <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {[
                   { href: '/blog', title: 'Blog de Salud', desc: '200+ artículos sobre análisis clínicos, prevención y bienestar', icon: '📚', color: 'blue', bar: 'from-blue-500 to-blue-600' },
+                  { href: '/valores-clinicos', title: 'Biomarcadores', desc: 'Directorio de valores de referencia de 300+ parámetros y analizador con IA', icon: '🔬', color: 'indigo', bar: 'from-indigo-500 to-indigo-600' },
                   { href: '/check-ups', title: 'Check-Ups', desc: '8 paquetes médicos diseñados para tu salud preventiva', icon: '✅', color: 'green', bar: 'from-green-500 to-green-600' },
                   { href: '/sueroterapia', title: 'Sueroterapia', desc: '10 tratamientos IV vitamínicos para energía, belleza y bienestar', icon: '💉', color: 'purple', bar: 'from-purple-500 to-purple-600' },
                 ].map((s) => (

@@ -1,0 +1,562 @@
+[
+    {
+        "name": "Endocrinología",
+        "icon": "⚗️",
+        "calculators": [
+            {
+                "slug": "dosis-insulina-basal",
+                "name": "Dosis de Insulina Basal Inicial",
+                "subtitle": "Cálculo en pacientes diabéticos tipo 2 vírgenes a insulina",
+                "icon": "💉",
+                "specialty": "Endocrinología",
+                "shortDesc": "Insulina basal T2DM",
+                "formTitle": "Datos del Paciente",
+                "inputs": [
+                    {
+                        "id": "peso",
+                        "type": "number",
+                        "label": "Peso del Paciente",
+                        "unit": "kg",
+                        "placeholder": "ej: 75"
+                    },
+                    {
+                        "id": "glucosa",
+                        "type": "number",
+                        "label": "Glucosa Ayunas Promedio",
+                        "unit": "mg/dL",
+                        "placeholder": "ej: 250"
+                    },
+                    {
+                        "id": "hba1c",
+                        "type": "number",
+                        "label": "Hemoglobina Glucosilada (HbA1c)",
+                        "unit": "%",
+                        "placeholder": "ej: 9.5"
+                    }
+                ],
+                "logic": "const p=parseFloat(peso);const g=parseFloat(glucosa);const a1c=parseFloat(hba1c);if(!p||!g||!a1c)return;let u=0;if(a1c>10){u=p*0.2;}else if(a1c>8){u=p*0.15;}else{u=10;}let l='Dosis Recomendada',c='text-amber-600',b='bg-amber-100',d='Dosis basal segura y conservadora. Ajustar en 3 días de acuerdo a glucosas prepandriales.';if(u>30){l='Dosis Inicial Alta';c='text-red-600';b='bg-red-100';d='Revisar por riesgo de hipoglucemia. Considerar iniciar con max 30 U y titular.';}setResultado({value: Math.round(u), unit: 'Unidades / día', label:l, color:c, bg:b, desc:d});",
+                "resultType": "number",
+                "resultLabel": "Unidades Subcutáneas",
+                "ctaTitle": "Monitoreo Clínico Obligatorio",
+                "ctaDesc": "No puedes usar insulina sin conocer tu función renal y control de hemoglobina glucosilada.",
+                "ctaAction": "Perfil Diabético Integral",
+                "ctaStudy": "Quimica Sanguinea y HbA1c",
+                "seoTitle": "¿Cómo calcular la dosis de insulina basal?",
+                "seoContent": [
+                    "El inicio de insulinización basal en pacientes con Diabetes Mellitus Tipo 2 (insulinización oportuna) es el pilar para mitigar descompensaciones mortales en glomérulos y nervios cuando las pastillas hipoglucemiantes han fracasado crónicamente.",
+                    "Las guías conjuntas de la ADA (Asociación Americana de Diabetes) y la EASD determinan iniciar con dosis conservadoras que usualmente promedian de 10 Unidades Internacionales diarias, o calculadas estrictamente a 0.1 - 0.2 U/kg/día.",
+                    "Este cálculo requiere conocer fehacientemente el porcentaje de Hemoglobina Glucosilada (HbA1c) dictando si requerimos dosis conservadoras (0.1 U) o agresivas (0.2 U). El riesgo primordial del debut diabético a la insulina recae en la hipoglucemia nocturna."
+                ]
+            },
+            {
+                "slug": "factor-sensibilidad-insulina",
+                "name": "Factor de Sensibilidad a la Insulina (ISF)",
+                "subtitle": "Regla de los 1500 / 1800",
+                "icon": "📉",
+                "specialty": "Endocrinología",
+                "shortDesc": "Factor Sensibilidad (ISF)",
+                "formTitle": "Parámetros de Terapia",
+                "inputs": [
+                    {
+                        "id": "dosis_total",
+                        "type": "number",
+                        "label": "Dosis Total Diaria (TDD) de Insulina",
+                        "unit": "Unidades",
+                        "placeholder": "ej: 40"
+                    },
+                    {
+                        "id": "tipo_insulina",
+                        "type": "select",
+                        "label": "Tipo de Insulina Rápida Usada",
+                        "options": [
+                            {
+                                "value": "1800",
+                                "label": "Análogos Ultra Rápidos (Lispro, Aspart)"
+                            },
+                            {
+                                "value": "1500",
+                                "label": "Insulina Regular Humana (Acción corta)"
+                            }
+                        ]
+                    }
+                ],
+                "logic": "const t=parseFloat(dosis_total);const tp=parseFloat(tipo_insulina);if(!t||!tp)return;const isf=tp/t;let l='ISF Estándar Estimado',c='text-amber-600',b='bg-amber-100',d='Por cada Unidad de Insulina administrada, tu glucosa en sangre bajará '+Math.round(isf)+' mg/dL.';setResultado({value: '1U reduce '+Math.round(isf), unit: 'mg/dL', label:l, color:c, bg:b, desc:d});",
+                "resultType": "number",
+                "resultLabel": "Factor de Corrección",
+                "ctaTitle": "Evita el Daño Renal",
+                "ctaDesc": "La descompensación constante de la glucosa destruye la filtración de los riñones.",
+                "ctaAction": "Cotizar Microalbúmina Renal",
+                "ctaStudy": "Microalbuminuria Quimica",
+                "seoTitle": "Regla del 1800: Sensibilidad a Insulina",
+                "seoContent": [
+                    "El Factor de Sensibilidad a la Insulina (ISF por sus siglas en inglés) es la base matemática vital para que un paciente diabético insulinizado sepa cómo corregir hiperglucemias agudas sin inducirse a sí mismo una hipoglucemia por sobredosis.",
+                    "Representa cuántos miligramos por decilitro (mg/dL) bajará la glucosa en sangre de una persona si llega a inyectarse exactamente 1 sola unidad de insulina rápida.",
+                    "Para insulinas humanas regulares clásicas, divide el número mágico 1500 entre la cantidad entera inyectada en 24h. Si utilizas análogos ultrarrápidos moleculares (Lispro, Aspart, Glulisina), la regla cambia al número mágico 1800."
+                ]
+            },
+            {
+                "slug": "ratio-insulina-carbohidratos",
+                "name": "Ratio Insulina-Carbohidratos (ICR)",
+                "subtitle": "Regla del 500 para control de alimentos",
+                "icon": "🍞",
+                "specialty": "Endocrinología",
+                "shortDesc": "Ratio Insulina/Carbo",
+                "formTitle": "Esquema Diario",
+                "inputs": [
+                    {
+                        "id": "dosis_total",
+                        "type": "number",
+                        "label": "Dosis Total Diaria (TDD) de Insulina",
+                        "unit": "Unidades",
+                        "placeholder": "ej: 40"
+                    }
+                ],
+                "logic": "const t=parseFloat(dosis_total);if(!t)return;const icr=500/t;let l='Ratio de Conversión',c='text-orange-600',b='bg-orange-100',d='Se requiere 1 Unidad de insulina de acción rápida por cada '+Math.round(icr)+' gramos netos de carbohidratos consumidos en comida.';setResultado({value: '1U x '+Math.round(icr)+'g Carbos', label:l, color:c, bg:b, desc:d});",
+                "resultType": "number",
+                "resultLabel": "Cálculo del IC Ratio",
+                "ctaTitle": "Valoración Nutricional Integral",
+                "ctaDesc": "Conoce tu metabolismo a nivel celular con perfiles tiroideos completos.",
+                "ctaAction": "Tiroides y Glucosa",
+                "ctaStudy": "Perfil Tiroideo y Glucosa",
+                "seoTitle": "¿Qué es la Regla de los 500 para Diabéticos?",
+                "seoContent": [
+                    "La Regla del 500 provee el Ratio Insulina/Carbohidratos (I:C Ratio). Proporciona a pacientes con terapia de bomba o inyecciones múltiples, la libertad de adaptar la dosificación exacta frente a porciones alimenticias variables.",
+                    "Determina literalmente cuántos gramos biológicos de azúcares absorbidos de una comida cubrirá enteramente 1 sola Unidad Internacional fisiológica introducida sub cutáneamente.",
+                    "Si presumes tener una Inyección Total Diaria (TDD) de 40 unidades para vivir, 500 / 40 = 12.5. Para fines prácticos requerirás administrar 1 Inyección Corta por casi 13 gramos de pastas o azúcares."
+                ]
+            },
+            {
+                "slug": "calcio-ionizado-corregido",
+                "name": "Calcio Sérico Corregido",
+                "subtitle": "Ajuste real del calcio según niveles de albúmina",
+                "icon": "🦴",
+                "specialty": "Endocrinología",
+                "shortDesc": "Ca2+ Corregido x Albúmina",
+                "formTitle": "Valores de Sangre",
+                "inputs": [
+                    {
+                        "id": "calcio_total",
+                        "type": "number",
+                        "label": "Calcio Total Medido",
+                        "unit": "mg/dL",
+                        "placeholder": "8.5"
+                    },
+                    {
+                        "id": "albumina",
+                        "type": "number",
+                        "label": "Albúmina Sérica",
+                        "unit": "g/dL",
+                        "placeholder": "2.8"
+                    }
+                ],
+                "logic": "const ca=parseFloat(calcio_total);const alb=parseFloat(albumina);if(!ca||!alb)return;const ca_c = ca + (0.8 * (4.0 - alb));let l='Normal',c='text-green-600',b='bg-green-100',d='Metabolismo del calcio fisiológico. Aparenta hipocalcemia en laboratorio por niveles bajos proteicos.';if(ca_c<8.5){l='Hipocalcemia',c='text-blue-600',b='bg-blue-100',d='Hipocalcemia Verdadera. Calcio severamente bajo incluso tras ajuste molecular proteico. Vigilar tétanos.'}else if(ca_c>10.5){l='Hipercalcemia',c='text-red-600',b='bg-red-100',d='Hipercalcemia Verdadera. Riesgo alto arrítmico y de necrosis tubular. Descartar tumoración.'}setResultado({value: ca_c.toFixed(2), unit: 'mg/dL (corregido)', label:l, color:c, bg:b, desc:d});",
+                "resultType": "number",
+                "resultLabel": "Concentración Corregida",
+                "ctaTitle": "Evita Descalcificación Severa",
+                "ctaDesc": "Medir Vitamina D y Paratohormona asisten para evitar una descalcificación irreparable de los huesos.",
+                "ctaAction": "Revisar Test Vitamina D",
+                "ctaStudy": "Vitamina D y Fosforo",
+                "seoTitle": "Fórmula del Calcio Sanguíneo Corregido",
+                "seoContent": [
+                    "Más del 50% de todo el calcio que circula transportado a través del lecho venoso sistémico lo hace atascado mediante uniones covalentes a la estructura de la gigantesca proteína Albúmina.",
+                    "Cuando pacientes sufren de malnutrición o enfermedades hepáticas (hígado enfermo no crea albúmina), el examen de Calcio ordinario engañosamente marcará deficiencia extrema sin existir tal hipocalcemia verdadera en la clínica del paciente.",
+                    "El factor calculador de corrección agrega empíricamente 0.8 miligramos al valor total emitido en laboratorio clínico multiplicados por cada único gramo que nuestro enfermo haya decrecido bajo el rango normalizado universal de Albúmina de 4 g/dL."
+                ]
+            },
+            {
+                "slug": "indice-quicki",
+                "name": "Índice QUICKI (Insulino-resistencia)",
+                "subtitle": "Quantitative Insulin Sensitivity Check Index",
+                "icon": "🧬",
+                "specialty": "Endocrinología",
+                "shortDesc": "Sensibilidad Insulina QUICKI",
+                "formTitle": "Valores Basales Séricos",
+                "inputs": [
+                    {
+                        "id": "insulina",
+                        "type": "number",
+                        "label": "Insulina Basal en Ayuno",
+                        "unit": "µU/mL",
+                        "placeholder": "15"
+                    },
+                    {
+                        "id": "glucosa",
+                        "type": "number",
+                        "label": "Glucosa en Ayunas",
+                        "unit": "mg/dL",
+                        "placeholder": "95"
+                    }
+                ],
+                "logic": "const ins=parseFloat(insulina);const gluc=parseFloat(glucosa);if(!ins||!gluc)return;const gl_mol=gluc;const logIns=Math.log10(ins);const logGluc=Math.log10(gl_mol);const quicki=1/(logIns+logGluc);let l='Normal Sensible',c='text-green-600',b='bg-green-100',d='Sensibilidad metabólica periférica espléndida sin retardo de captación de azúcar.';if(quicki<0.339){l='Resistencia Insulínica Grave',c='text-red-600',b='bg-red-100',d='Índices bajísimos auguran diabetes franca y desarrollo innegable de riesgo aterosclerótico y síndrome metabólico global y letal.';}else if(quicki<0.35){l='Trastorno Insulínico Limítrofe',c='text-yellow-600',b='bg-yellow-100',d='Signos de incipiente intolerancia fisiológica de secreciones. Modifica ingesta nutritiva pronto y comienza ejercicios metabólicos o acarrearas riesgos de HOMA-IR elevados crónicos.';}setResultado({value: quicki.toFixed(3), unit: 'Índice Fisiológico Logarítmico', label:l, color:c, bg:b, desc:d});",
+                "resultType": "number",
+                "resultLabel": "Score Logarítmico Rápido",
+                "ctaTitle": "Desarrollo Diabético Silencioso",
+                "ctaDesc": "Medir únicamente tu glucosa matutina NO sirve, necesitas el combo de Insulina Basal urgéntemente.",
+                "ctaAction": "Análisis Curva Insulínica",
+                "ctaStudy": "Insulina y HOMA IR",
+                "seoTitle": "¿Cómo utilizar QUICKI para medir diabetes?",
+                "seoContent": [
+                    "El índice QUICKI evalúa cualitativamente y matemáticamente y de manera indirecta el altísimo y severo grado basal fisiológico en que se opone el cuerpo celularmente y receptorialmente de responder orgánicamente de capturar molécula sanguínea insulínica.",
+                    "Nace como mejora en la fórmula original sobrevalorada del esquema matemático HOMA-IR introduciendo y empleando una transformación inversa totalmente logarítmica que suaviza métricas exageradas matutinas para un veraz resultado basal.",
+                    "Cifras que caen dramáticamente o resultan inferiores matemáticas por debajo del nivel estándar vital y sano de aproximadamente 0.339 dictaminan que esa entidad humana en especial tiene francamente resistencia metabólica celular insulínica franca propensamente letal."
+                ]
+            },
+            {
+                "slug": "clasificacion-cushing",
+                "name": "Probabilidad Síndrome de Cushing",
+                "subtitle": "Test probabilístico de hipercortisolismo",
+                "icon": "⚖️",
+                "specialty": "Endocrinología",
+                "shortDesc": "Síndrome de Cushing",
+                "formTitle": "Inspección de Cuadro Clínico de Cushing",
+                "inputs": [
+                    {
+                        "id": "obesidad_central",
+                        "type": "boolean",
+                        "label": "Obesidad centrípeta abrupta severa"
+                    },
+                    {
+                        "id": "estrias_violaceas",
+                        "type": "boolean",
+                        "label": "Presencia de Estrías Rojizas/Violáceas anchas en abdomen/axilas"
+                    },
+                    {
+                        "id": "facies_luna",
+                        "type": "boolean",
+                        "label": "Facies de Luna Llena palpable roja / Pletórica"
+                    },
+                    {
+                        "id": "hirsutismo",
+                        "type": "boolean",
+                        "label": "Hirsutismo (Vello facial grueso abundante en mujer sin SOP)"
+                    },
+                    {
+                        "id": "debilidad_musc",
+                        "type": "boolean",
+                        "label": "Debilidad muscular severa de extremidades prox malamente (brazos/muslos)"
+                    },
+                    {
+                        "id": "hematomas",
+                        "type": "boolean",
+                        "label": "Aparición hematomas (bruising) inexplicables y piel extremadamente frágil/delgada"
+                    }
+                ],
+                "logic": "let pts=0;if(obesidad_central)pts+=2;if(estrias_violaceas)pts+=4;if(facies_luna)pts+=2;if(hirsutismo)pts+=1;if(debilidad_musc)pts+=3;if(hematomas)pts+=3;let l='Improbable',c='text-green-600',b='bg-green-100',d='Clínica débil paramétrica para sustentar diagnóstico endógeno suprarrenal primario excesivo.';if(pts>=8){l='Altísima Probabilidad',c='text-red-600',b='bg-red-100',d='Sintomatología muy específica indicando severo estado corticoide crónico tóxico en el sistema orgánico celular.'}else if(pts>=4){l='Moderada Probabilidad',c='text-orange-600',b='bg-orange-100',d='Sugiere hipercortisolismo probable. Exige tamizaje urgente cortisol métrico laboratorial u hormona hipofisiaria.'}setResultado({value: pts+'/15', label:l, color:c, bg:b, desc:d});",
+                "resultType": "score",
+                "resultLabel": "Índice Sugestivo",
+                "ctaTitle": "Cortisol: Hormona de Estrés y Tumores",
+                "ctaDesc": "Midiendo Cortisol en Sangre descartas tumoreaciones en suprarrenales o en la hipófisis craneal rápida y fiablemente.",
+                "ctaAction": "Análisis de Cortisol Básico",
+                "ctaStudy": "Cortisol Serico AM",
+                "seoTitle": "Sintomatología Clínica en Síndrome Cushing",
+                "seoContent": [
+                    "El temido padecimiento denominado y clasificado como Síndrome Complejo y sistémico crónico grave de la glándula suprarrenal (Cushing), resulta letal y desfigurador de las anatomías si el torrente sanguíneo crónicamente posee inmensas elevadísimas cargas celulares corticoideas metabólicas y sistémicas.",
+                    "Es fundamental tamizar inicialmente e interrogar a nuestros afectados discriminando hallazgos clásicamente no definitorios como subidas masivas crasas o estrías corporales tenues blanquecinas de distensión cutánea en etapas puerperales ordinarias que cualquier gorda embarazada portaría naturalmente.",
+                    "Signos patognomónicos determinantes, rarísimos inobjetablemente de detectar espontáneos como moretones o equimosis subcutánea fragilidad capilar extrema y las famosas y grotescas estrías violáceas sangrantes o fascies de luna llena de plétora hiperémica, gritan sin duda el hipercortisolismo."
+                ]
+            },
+            {
+                "slug": "score-tirads",
+                "name": "ACR TI-RADS",
+                "subtitle": "Estratificación de Riesgo en Nódulos Tiroideos",
+                "icon": "🦋",
+                "specialty": "Endocrinología",
+                "shortDesc": "Riesgo Nódulo Tiroides",
+                "formTitle": "Hallazgos Ecográficos del Nódulo (Suma puntos)",
+                "inputs": [
+                    {
+                        "id": "composicion",
+                        "type": "select",
+                        "label": "Composición Histológica",
+                        "options": [
+                            {
+                                "value": "0",
+                                "label": "Quístico o Mayormente Quístico"
+                            },
+                            {
+                                "value": "1",
+                                "label": "Esponjiforme"
+                            },
+                            {
+                                "value": "1",
+                                "label": "Mixta sólida y quística (1 pto)"
+                            },
+                            {
+                                "value": "2",
+                                "label": "Sólida o casi sólida (>80%) (2 pts)"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "ecogenicidad",
+                        "type": "select",
+                        "label": "Ecogenicidad Global",
+                        "options": [
+                            {
+                                "value": "0",
+                                "label": "Anecoico"
+                            },
+                            {
+                                "value": "1",
+                                "label": "Hiper o Isoecoico (1 pto)"
+                            },
+                            {
+                                "value": "2",
+                                "label": "Hipoecoico (2 pts)"
+                            },
+                            {
+                                "value": "3",
+                                "label": "Muy hipoecoico profundo (3 pts)"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "forma",
+                        "type": "select",
+                        "label": "Forma Geométrica Radial",
+                        "options": [
+                            {
+                                "value": "0",
+                                "label": "Más ancho del contorno que alto radial"
+                            },
+                            {
+                                "value": "3",
+                                "label": "Anormalmente Más Alto radialmente que ancho de forma (3 pts)"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "margenes",
+                        "type": "select",
+                        "label": "Bordes Externos",
+                        "options": [
+                            {
+                                "value": "0",
+                                "label": "Lisos o mal definidos no concluyentes"
+                            },
+                            {
+                                "value": "2",
+                                "label": "Lobulados múltiples o Irregulares (2 pts)"
+                            },
+                            {
+                                "value": "3",
+                                "label": "Extensión Extratiroidea maligna franca (3 pts)"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "focos",
+                        "type": "select",
+                        "label": "Focos Ecogénicos Internos (suman)",
+                        "options": [
+                            {
+                                "value": "0",
+                                "label": "Ninguno o clásicos coloides cometa"
+                            },
+                            {
+                                "value": "1",
+                                "label": "Macrocalcificaciones focos engrosados grandes (1 pto)"
+                            },
+                            {
+                                "value": "2",
+                                "label": "Calcificaciones periféricas de reborde en cascarón de huevo asimetría(2 pts)"
+                            },
+                            {
+                                "value": "3",
+                                "label": "Microcalcificaciones puntiformes esféricas punteadas letales y difusas sugestivas (3 pts)"
+                            }
+                        ]
+                    }
+                ],
+                "logic": "const c=parseInt(composicion);const e=parseInt(ecogenicidad);const f=parseInt(forma);const m=parseInt(margenes);const fx=parseInt(focos);if(isNaN(c)||isNaN(e)||isNaN(f)||isNaN(m)||isNaN(fx))return;const pts=c+e+f+m+fx;let l='',col='',b='',d='';if(pts<=0){l='TR1: Benigno';col='text-green-600';b='bg-green-100';d='0 Puntos. Riesgo de cáncer virtualmente 0%. PAAF no pre-recomendada jamás sin excepción alguna sistémica estandarizada protocolar.';}else if(pts<=2){l='TR2: No Sospechoso';col='text-green-600';b='bg-green-100';d='1-2 Puntos. Escasísimo o Nulo riesgo celular atípico basal <2%. PAAF categóricamente no recomendada en algoritmos y esquemática de la ACR global.';}else if(pts===3){l='TR3: Levemente Sospechoso';col='text-yellow-600';b='bg-yellow-100';d='3 Puntos. Riesgo de apenas el 5%. La Biopsia PAAF fina punzante se consideraría sólo si el nódulo o masa basal rebasa brutal y físicamente por eco el 2.5 cms.';}else if(pts<=6){l='TR4: Sospecha Intermedia y Moderada de Carcinoma Células';col='text-orange-600';b='bg-orange-100';d='4 a 6 Ptos. Entre 5 y 20% riesgo neoplásico. Biopsia imperativa aguda si la perimetría volumétrica total diametral cruza 1.5 cm sin contemplaciones médicas extra clínicas retardables.';}else{l='TR5: Letal y Altísimamente Sospechoso de Cáncer Neoplásico';col='text-red-600';b='bg-red-100';d='>7 Puntos. Riesgo inminente maligno gigantesco superior al abismal tope superior de 20 porciento métrico. BAF (Biopsia) obligatoria y quirúrgica escisión prospectada si cruzan > 1.0 cm.';}setResultado({value: pts+' pts', label:l, color:col, bg:b, desc:d});",
+                "resultType": "score",
+                "resultLabel": "Categoría ACR Oficial TI-RADS",
+                "ctaTitle": "Valoración Pre Específica de Biopsia BAAF Tiroidea",
+                "ctaDesc": "Previo quirúrgico biopsico a nivel cervical debes certificar ineludiblemente qué función molecular de yodo tienen tus complejas hormonas basales tiroideas.",
+                "ctaAction": "Conocer y Mapear Hormonas TSH/T4 Tiroideas",
+                "ctaStudy": "Perfil Tiroideo Completo 6 Elementos",
+                "seoTitle": "Interpretando ecos en masas con el Sistema ACR TI-RADS",
+                "seoContent": [
+                    "El estandarizado y complejo comité de radio y eco clasificaciones metodológicas del ACR estableció magistralmente el potente modelo ultrasonográfico de medición e interrogación cualitativa clínica para lesiones bultosas y los masivos infames nódulos o quistes tiroideos orgánicos subdérmicos conocidos y estudiados global y famosamente como el acrónimo TI-RADS.",
+                    "Cada elemento sumatorio morfológico que resulta disidente (como crecer geométricamente más empinado y en vertical perpendicularidad contra en plano ancho natural o como poseer interior micro-calcificaciones como en puntilleos focales oscuros) arrojan estigmatizaciones predictoras y estadísticas inequívocas para dictaminar o negar contundentemente y con peso un pase directo hacia los cuartos estériles de intervención histológica biópsica PAAF aguda.",
+                    "Tumoraciones inmesurables quísticas no merecen atención o intervenciones clínicas puncionadas, mas que tumores sólidos menores en tamaño pero brutal y morfológicamente neoclásicamente aberrantes (clasificados y punteados como TI RADS estandarizados cinco estadíos fatales)."
+                ]
+            },
+            {
+                "slug": "osmolaridad-serica",
+                "name": "Osmolaridad Sérica Efectiva",
+                "subtitle": "Equilibrio tónico hidratado intra y extacelular vascular",
+                "icon": "💧",
+                "specialty": "Endocrinología",
+                "shortDesc": "Tonicidad Sérica Efectiva",
+                "formTitle": "Valores Sanguíneos Extracelulares Electrolíticos",
+                "inputs": [
+                    {
+                        "id": "sodio",
+                        "type": "number",
+                        "label": "Sodio Cationico (Na+)",
+                        "unit": "mEq/L",
+                        "placeholder": "140"
+                    },
+                    {
+                        "id": "glucosa",
+                        "type": "number",
+                        "label": "Glicemia Total de Glucosa Sérica",
+                        "unit": "mg/dL",
+                        "placeholder": "95"
+                    },
+                    {
+                        "id": "bun",
+                        "type": "number",
+                        "label": "Nitrógeno Ureico BUN (Opcional)",
+                        "unit": "mg/dL",
+                        "placeholder": "15"
+                    }
+                ],
+                "logic": "const na=parseFloat(sodio);const gluc=parseFloat(glucosa);const b=parseFloat(bun)||0;if(!na||!gluc)return;const osmo_calc= (2*na) + (gluc/18) + (b/2.8);const osmo_eff= (2*na) + (gluc/18);let l='Tonicidad Isosmótica Equilibrada Sana',c='text-green-600',bg='bg-green-100',d='Balance acuoso biológico intra-extracelular idóneo. No hay flujos drásticos o peligrosos edemizantes neuronales perjudiciales mortales en los cráneos.';if(osmo_eff>295){l='Hiperosmolaridad Sérica Sangre (Mortal Cetoacídotico)',c='text-red-600',bg='bg-red-100',d='Concentración deshidratativa grave celular por letal deficiencia absoluta en volumen del líquido interno vital hídrico e inflamatoria diabética uremia y diabética hiperglucemia';}else if(osmo_eff<275){l='Hiposmolaridad Fatal Abundante Retención Acuosa',c='text-blue-600',bg='bg-blue-100',d='Intoxicación brutal por agua extrema o secresion SIADH masiva. Obligatorio cuidado celular en materia neurológica por edema cráneo masivo letal neurológico fatalista.';}setResultado({value: Math.round(osmo_eff), unit: 'mOsm/kg Efectivos', label:l, color:c, bg:bg, desc:d});",
+                "resultType": "number",
+                "resultLabel": "Osmolaridad Total Estimada Circulante Efectiva Matemática Biológica",
+                "ctaTitle": "Valoraciones Inmediatas Sanguíneas Sistémicas Metabólicas Generales Extensas De Fluidos Viales",
+                "ctaDesc": "Verifica tu función hídrica global, control urea o fallo orgánico sistémico de depuración renal de inmediato e irremisible con química biológica y biometría para que evalúen riñón.",
+                "ctaAction": "Corroborar Funcionamiento Acuoso",
+                "ctaStudy": "Quimica Sanguinea Superior Extendida",
+                "seoTitle": "Interpretación Matemática Plena de Fluidos y Presiones de Osmolaridad Métrica Sangre",
+                "seoContent": [
+                    "Dentro innegable de la química biológica humana interna en lecho capilar circulante sistémico global existe potentísima concentración y balance salino osmótico regido férreamente e invariablemente matemático dictatorial por enormes proteínas moleculares o cationes absolutos de grandísimas capacidades molares absortivas de líquidos o como sodios biológicos extracelulares (Na).",
+                    "La extrema e inusual desviación fuera de la estrecha línea mágica estándar normalizada (que es vital u oscilatoria armónica balanceada idealmente entre un estricto rango basal 275 mOsm y un rígido de tope de no más de 295 mOsm), induce estallidos y colapsos irreversibles en las ultra microscópicas delicadas membranas bilipídicas cerebrales y cardíacas por el arrastre brusco ósmótico indetenible hídrico del solvente acuoso disolvente de presiones altísimas intracraneales.",
+                    "La Uremia pura total innegable (nitrógenos orgánicos corporales totales BUN resultantes puros del uso metabolismo cárnicos muscular) resulta teóricamente en la adición e incremento sumatorio osmótico formal sin embargo la barrera cráneo penetra, resultando a éste analíticamente excluido innegable del factor neto resultante efectivo clínico conocido mundialmente (Osmolaridad efectiva sistémica pura)."
+                ]
+            },
+            {
+                "slug": "score-findrisc",
+                "name": "Score FINDRISC Diabetes",
+                "subtitle": "Índice de probabilidad del riesgo metabólico de diabetes tipo 2",
+                "icon": "🔍",
+                "specialty": "Endocrinología",
+                "shortDesc": "Test Diabetes FINDRISC",
+                "formTitle": "Hábitos Generales Biométricos Intervencionistas y Dieta Clásica",
+                "inputs": [
+                    {
+                        "id": "edad",
+                        "type": "select",
+                        "label": "Edad General Cronológica en Años",
+                        "options": [
+                            {
+                                "value": "0",
+                                "label": "Menor de 45 joviales o en pubertad sana adolescente plena sana sana sana (0 Pts)"
+                            },
+                            {
+                                "value": "2",
+                                "label": "Mediana de edad entre etapa 45 ó quizás 54 vital (2 pto)"
+                            },
+                            {
+                                "value": "3",
+                                "label": "Estable entre 55 o entrando en 64 adultez de riesgo general sistémico senil en avance progresivo paulatino inexorable mortal inclemente (3 pts)"
+                            },
+                            {
+                                "value": "4",
+                                "label": "Superiores marcados en ≥65 de vida vitales y ancianidad mayor sistémica decaimiento hormonal(4 pts)"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "imc",
+                        "type": "select",
+                        "label": "Estimación IMC Ponderal",
+                        "options": [
+                            {
+                                "value": "0",
+                                "label": "Esbelta anatomía normal (Índice < 25 kg/m2 o en extrema y marcada desnutrición consuntiva en vida) (0 p)"
+                            },
+                            {
+                                "value": "1",
+                                "label": "Rechoncho Sobrepeso evidente y grasa (25 a < 30 y adiposidades) (1 pt)"
+                            },
+                            {
+                                "value": "3",
+                                "label": "Mórbido e incontrolable Obeso Obesidad Tipo superior a >30 o lipodistrofia patológica sistémica central masiva extrema gástrica visceral profunda y abdominal obesa severa (3 pts)"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "ejercicio",
+                        "type": "select",
+                        "label": "¿Suda usted realizando cualquier fuerte forma o actividad al realizar intensa actividad del gimnasio por más de los estrictos estándares 30 min por innegables días?",
+                        "options": [
+                            {
+                                "value": "0",
+                                "label": "Si ejercito en rigurosa actividad de rigor de manera física al forzar mis latidos habitualmente cardíacos sanos"
+                            },
+                            {
+                                "value": "2",
+                                "label": "Nunca me esfuerzo absolutamente no y en negación y rotundo reposo crónico basal sedente en sillones no productivo sedentario morfológico estructural(2)"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "vegetales",
+                        "type": "select",
+                        "label": "¿Comes en consumo fresco al paladar verduras legumbres al día o frutales frescas jugosas inmensas en toda abundancia tu rutina clásica diaria?",
+                        "options": [
+                            {
+                                "value": "0",
+                                "label": "Si masco todos invariables los sacros días por recomendación de nutrólogos e intensamente ingiero verde en comida diariamente dietaria sana de fibra"
+                            },
+                            {
+                                "value": "1",
+                                "label": "Evito siempre rotundamente no invariablemente de frutas verduras hortaliza no me esfuerzo jamas (1 p)"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "med_hta",
+                        "type": "select",
+                        "label": "¿Pastillas o tratamientos te médicas habitualmente prescrito hoy y de presiones crónicas mortales?",
+                        "options": [
+                            {
+                                "value": "0",
+                                "label": "Sano no jamas nada de pastillas por doctores del corazón"
+                            },
+                            {
+                                "value": "2",
+                                "label": "SI hipertensión es diagnosticada fatal e ingiero píldoras(2)"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "fam_db",
+                        "type": "select",
+                        "label": "¿Parientes Diabéticos en Linea o en historial clínico directo y lejano familiar de tipo fatal diabético insulínico consanguíneo en ADN familiarizado de padres?",
+                        "options": [
+                            {
+                                "value": "0",
+                                "label": "Ningún antepasado absolutamente no enfermo de herencia familiar en sangre"
+                            },
+                            {
+                                "value": "3",
+                                "label": "Mis abuelos viejos sí de tipo 2 indirecto 2da línea primos tíos familiares mortales portadores fatales (3 p)"
+                            },
+                            {
+                                "value": "5",
+                                "label": "Padres biológicos de primera sangre directos hermanos hijos descendientes directos genética diabética de sangre hereditaria materna paterna (5)"
+                            }
+                        ]
+                    }
+                ],
+                "logic": "const e=parseInt(edad);const im=parseInt(imc);const ex=parseInt(ejercicio);const vg=parseInt(vegetales);const hta=parseInt(med_hta);const fm=parseInt(fam_db);if(isNaN(e)||isNaN(im)||isNaN(ex)||isNaN(vg)||isNaN(hta)||isNaN(fm))return;const pts=e+im+ex+vg+hta+fm;let l='',c='',b='',d='';if(pts<7){l='Escaso Probabilístico Normalizado Fijo Sanísimo';c='text-green-600';b='bg-green-100';d='Insignificante y bajísimo de solo el 1% en diez largos años en la población generativa nórdica.';}else if(pts<12){l='Acelerado y Leve Riesgo Sistémico en Incremento Fisiológico Célular Múltiple Hormonal Inevitable Metabólico de Resistencia';c='text-yellow-600';b='bg-yellow-100';d='En el 4%. Controla la ingesta de azúcar.';}else if(pts<15){l='Peligro Precautorio de Severo Cuidado de Azúcares y Comorbilidad Ateromatosa Arterial Aumentada Frecuencia Diaria de Monitoreo';c='text-orange-600';b='bg-orange-100';d='Severidad en uno de seis habitantes con el 17% a futuro. Urgencia analítica química glucémica basal';}else if(pts<=20){l='Urgencia Alarmante Altamente Franca Patológica y Destructiva Elevación Masiva Renal y Glucocorticoide Dañina';c='text-red-500';b='bg-red-100';d='Riesgos del 33% (un enfermo en cada trío inminente). Intervención medicada imperativa urgente vital y endocrina';}else{l='Inequívocamente Catastrófico Perfil Insulínico Fallido Definitivo Glucosa Severísima Diabética Extrema Peligrosísima Indudable de Diagnóstico Confirmatorio Categórico Clínico Indiscutible Agudo Extremo Hiperglucémico';c='text-red-900';b='bg-red-200';d='Mortal y devastador (mitad enfermará y >50%). Requiere screening metabólico extensivo completo o diagnostico real positivo actual.';}setResultado({value: pts+' pts',label:l,color:c,bg:b,desc:d});",
+                "resultType": "score",
+                "resultLabel": "Cálculo Epidemiológico Punteado de Predicción Fino Rápido FINDRISC Test Finlandés Universal Clínico Metabólico Estándar Analógico Global Fijo",
+                "ctaTitle": "Evidencia Hemoglobina A1C Temprana Urgente Y Basal Diaria de Azúcar en Venas y Funciones de Diabetes y Panel Médico de Detección Segura de Azúcares Diaria en México Urgente en Casa Fija",
+                "ctaDesc": "Solo las exactas mediciones métricas clínicas laboratoriales hemáticas pueden corroborar de fondo infalibles los tests caseros de sospechas preventivo como Findrisc",
+                "ctaAction": "Descartar Diabetes Mellitus 2 Definitivo",
+                "ctaStudy": "Quimica y Hemoglobina Glucosilada A1c Diagnosi",
+                "seoTitle": "¿Cómo utilizar FINDRISC Test Preventivo Global Diabético Finlandés Oficial Clínico Médico Standard Score Para Predictivo Inminente en Casa Rápidamente?",
+                "seoContent": [
+                    "El validado y universal FINDRISC nace originario orgánico en Europa al interior de la cuna del país epidemiológico ejemplar de los análisis nórdicos preventivos la población nativa original nórdica y finesa (Finnish Diabetes Risk Score Score Punteado y Estratificado Universal Metabólico Médico Test) y ha cobrado global mundial la validez como primerísimo insustituible filtro universal para tamizaje predictivo diabético incruento estadunidense global sudamericano latino general sistémico basal.",
+                    "Es radicalmente simple de medir al evadir sofisticaciones: En ocho fáciles factores auto-referidos innegables auto-verificables sin sangre (Cintura adiposa, antecedentes obesas familiares puros de sangre genéticos en obesidad y tíos, presiones hipertensas arteriales crónicas del sistema).",
+                    "Calcula con implacable precisión si cruzaras un rango o el dramático umbral liminar letal biológico de los crueles quince puntos, requiriendo obligatoriedad imperativa sin escape o exclusión a toda la gente acudir por punciones de sangre inminentes en hemoglobina glico-A1C que diagnostique un pre-diabetes incipiente veladamente furtiva."
+                ]
+            }
+        ]
+    }
+]

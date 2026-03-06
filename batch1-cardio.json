@@ -1,0 +1,752 @@
+[
+    {
+        "name": "Cardiología",
+        "icon": "❤️",
+        "calculators": [
+            {
+                "slug": "score-framingham",
+                "name": "Score de Riesgo Framingham",
+                "subtitle": "Riesgo cardiovascular a 10 años",
+                "icon": "❤️",
+                "specialty": "Cardiología",
+                "shortDesc": "Riesgo infarto a 10 años",
+                "formTitle": "Calculadora de Riesgo Cardiovascular",
+                "inputs": [
+                    {
+                        "id": "edad",
+                        "type": "number",
+                        "label": "Edad",
+                        "unit": "años",
+                        "placeholder": "30-74"
+                    },
+                    {
+                        "id": "sexo",
+                        "type": "select",
+                        "label": "Sexo",
+                        "options": [
+                            {
+                                "value": "M",
+                                "label": "Masculino"
+                            },
+                            {
+                                "value": "F",
+                                "label": "Femenino"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "colesterol",
+                        "type": "number",
+                        "label": "Colesterol Total",
+                        "unit": "mg/dL",
+                        "placeholder": "ej: 220"
+                    },
+                    {
+                        "id": "hdl",
+                        "type": "number",
+                        "label": "Colesterol HDL",
+                        "unit": "mg/dL",
+                        "placeholder": "ej: 45"
+                    },
+                    {
+                        "id": "pas",
+                        "type": "number",
+                        "label": "Presión Arterial Sistólica",
+                        "unit": "mmHg",
+                        "placeholder": "ej: 130"
+                    },
+                    {
+                        "id": "fumador",
+                        "type": "boolean",
+                        "label": "¿Fuma actualmente?"
+                    },
+                    {
+                        "id": "tratamiento_hta",
+                        "type": "boolean",
+                        "label": "¿Toma medicamento para la presión?"
+                    }
+                ],
+                "logic": "const e=parseFloat(edad);const col=parseFloat(colesterol);const h=parseFloat(hdl);const p=parseFloat(pas);if(!e||!sexo||!col||!h||!p)return;let pts=0;if(sexo==='M'){if(e>=30&&e<=34)pts-=9;else if(e<=39)pts-=4;else if(e<=44)pts+=0;else if(e<=49)pts+=3;else if(e<=54)pts+=6;else if(e<=59)pts+=8;else if(e<=64)pts+=10;else if(e<=69)pts+=11;else if(e<=74)pts+=12;else pts+=13;if(e>=20&&e<=39){if(col>=160&&col<=199)pts+=4;if(col>=200&&col<=239)pts+=7;if(col>=240&&col<=279)pts+=9;if(col>=280)pts+=11;if(fumador)pts+=8;}else if(e<=49){if(col>=160&&col<=199)pts+=3;if(col>=200&&col<=239)pts+=5;if(col>=240&&col<=279)pts+=6;if(col>=280)pts+=8;if(fumador)pts+=5;}else if(e<=59){if(col>=160&&col<=199)pts+=2;if(col>=200&&col<=239)pts+=3;if(col>=240&&col<=279)pts+=4;if(col>=280)pts+=5;if(fumador)pts+=3;}else if(e<=69){if(col>=160&&col<=199)pts+=1;if(col>=200&&col<=239)pts+=1;if(col>=240&&col<=279)pts+=2;if(col>=280)pts+=3;if(fumador)pts+=1;}else{if(col>=160&&col<=199)pts+=0;if(col>=200&&col<=239)pts+=0;if(col>=240&&col<=279)pts+=1;if(col>=280)pts+=1;if(fumador)pts+=1;}if(h>=60)pts-=1;if(h<40)pts+=2;if(h>=40&&h<=49)pts+=1;if(!tratamiento_hta){if(p>=120&&p<=129)pts+=0;if(p>=130&&p<=139)pts+=1;if(p>=140&&p<=159)pts+=1;if(p>=160)pts+=2;}else{if(p<120)pts+=0;if(p>=120&&p<=129)pts+=1;if(p>=130&&p<=139)pts+=2;if(p>=140&&p<=159)pts+=2;if(p>=160)pts+=3;}}else{if(e>=30&&e<=34)pts-=7;else if(e<=39)pts-=3;else if(e<=44)pts+=0;else if(e<=49)pts+=3;else if(e<=54)pts+=6;else if(e<=59)pts+=8;else if(e<=64)pts+=10;else if(e<=69)pts+=12;else if(e<=74)pts+=14;else pts+=16;if(e>=20&&e<=39){if(col>=160&&col<=199)pts+=4;if(col>=200&&col<=239)pts+=8;if(col>=240&&col<=279)pts+=11;if(col>=280)pts+=13;if(fumador)pts+=9;}else if(e<=49){if(col>=160&&col<=199)pts+=3;if(col>=200&&col<=239)pts+=6;if(col>=240&&col<=279)pts+=8;if(col>=280)pts+=10;if(fumador)pts+=7;}else if(e<=59){if(col>=160&&col<=199)pts+=2;if(col>=200&&col<=239)pts+=4;if(col>=240&&col<=279)pts+=5;if(col>=280)pts+=7;if(fumador)pts+=4;}else if(e<=69){if(col>=160&&col<=199)pts+=1;if(col>=200&&col<=239)pts+=2;if(col>=240&&col<=279)pts+=3;if(col>=280)pts+=4;if(fumador)pts+=2;}else{if(col>=160&&col<=199)pts+=1;if(col>=200&&col<=239)pts+=1;if(col>=240&&col<=279)pts+=2;if(col>=280)pts+=2;if(fumador)pts+=1;}if(h>=60)pts-=1;if(h<40)pts+=2;if(h>=40&&h<=49)pts+=1;if(!tratamiento_hta){if(p>=120&&p<=129)pts+=1;if(p>=130&&p<=139)pts+=2;if(p>=140&&p<=159)pts+=3;if(p>=160)pts+=4;}else{if(p<120)pts+=0;if(p>=120&&p<=129)pts+=3;if(p>=130&&p<=139)pts+=4;if(p>=140&&p<=159)pts+=5;if(p>=160)pts+=6;}}let riesgo=0;if(sexo==='M'){if(pts<=0)riesgo=1;else if(pts===1)riesgo=1;else if(pts===2)riesgo=1;else if(pts===3)riesgo=1;else if(pts===4)riesgo=1;else if(pts===5)riesgo=2;else if(pts===6)riesgo=2;else if(pts===7)riesgo=3;else if(pts===8)riesgo=4;else if(pts===9)riesgo=5;else if(pts===10)riesgo=6;else if(pts===11)riesgo=8;else if(pts===12)riesgo=10;else if(pts===13)riesgo=12;else if(pts===14)riesgo=16;else if(pts===15)riesgo=20;else if(pts===16)riesgo=25;else riesgo=30;}else{if(pts<9)riesgo=1;else if(pts===9)riesgo=1;else if(pts===10)riesgo=1;else if(pts===11)riesgo=1;else if(pts===12)riesgo=1;else if(pts===13)riesgo=2;else if(pts===14)riesgo=2;else if(pts===15)riesgo=3;else if(pts===16)riesgo=4;else if(pts===17)riesgo=5;else if(pts===18)riesgo=6;else if(pts===19)riesgo=8;else if(pts===20)riesgo=11;else if(pts===21)riesgo=14;else if(pts===22)riesgo=17;else if(pts===23)riesgo=22;else if(pts===24)riesgo=27;else riesgo=30;}let l='Bajo',c='text-green-600',b='bg-green-100',d='Riesgo cardiovascular a 10 años.';if(riesgo>=20){l='Alto';c='text-red-600';b='bg-red-100';d='Alto riesgo (>20%) de evento cardiovascular. Requiere intervención.';}else if(riesgo>=10){l='Intermedio';c='text-yellow-600';b='bg-yellow-100';d='Riesgo moderado (10-20%). Se sugieren cambios de estilo de vida.';}setResultado({value: riesgo+'%',label:l,color:c,bg:b,desc:d});",
+                "resultType": "score",
+                "resultLabel": "Riesgo a 10 años",
+                "ctaTitle": "Monitorea tu Colesterol",
+                "ctaDesc": "Un perfil de lípidos completo es vital para calcular tu riesgo de infarto con precisión.",
+                "ctaAction": "Cotizar Perfil de Lípidos",
+                "ctaStudy": "Perfil de Lípidos",
+                "seoTitle": "¿Qué es el Score de Framingham?",
+                "seoContent": [
+                    "El Score de Riesgo de Framingham es un algoritmo que estima el riesgo a 10 años que tiene una persona de sufrir enfermedades cardiovasculares, como un infarto agudo al miocardio o una enfermedad coronaria grave.",
+                    "Este modelo clínico evalúa factores determinantes como la edad, niveles de colesterol (total y HDL), presión arterial sistólica (con o sin tratamiento farmacológico) y el tabaquismo. A mayor puntaje, mayor es el riesgo arterial.",
+                    "Una calificación de riesgo bajo es menor al 10%, riesgo intermedio entre el 10% y el 19%, y un riesgo alto es igual o mayor al 20%. Los pacientes en rango alto requieren a menudo estatinas y un control estricto de la presión arterial."
+                ]
+            },
+            {
+                "slug": "score-heart",
+                "name": "HEART Score",
+                "subtitle": "Riesgo de eventos cardíacos mayores (MACE)",
+                "icon": "❤️",
+                "specialty": "Cardiología",
+                "shortDesc": "Riesgo cardíaco MACE",
+                "formTitle": "Evaluación Clínica",
+                "inputs": [
+                    {
+                        "id": "historia",
+                        "type": "select",
+                        "label": "Historia (Historia Clínica)",
+                        "options": [
+                            {
+                                "value": "0",
+                                "label": "Leve/No sospechosa"
+                            },
+                            {
+                                "value": "1",
+                                "label": "Moderademente sospechosa"
+                            },
+                            {
+                                "value": "2",
+                                "label": "Altamente sospechosa"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "ecg",
+                        "type": "select",
+                        "label": "ECG (Electrocardiograma)",
+                        "options": [
+                            {
+                                "value": "0",
+                                "label": "Normal"
+                            },
+                            {
+                                "value": "1",
+                                "label": "Anormalidades inespecíficas"
+                            },
+                            {
+                                "value": "2",
+                                "label": "Depresión ST significativa"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "edad",
+                        "type": "select",
+                        "label": "Age (Edad)",
+                        "options": [
+                            {
+                                "value": "0",
+                                "label": "< 45 años"
+                            },
+                            {
+                                "value": "1",
+                                "label": "45-64 años"
+                            },
+                            {
+                                "value": "2",
+                                "label": "≥ 65 años"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "riesgos",
+                        "type": "select",
+                        "label": "Risk factors (Factores de riesgo CV)",
+                        "options": [
+                            {
+                                "value": "0",
+                                "label": "Ninguno conocido"
+                            },
+                            {
+                                "value": "1",
+                                "label": "1 a 2 factores"
+                            },
+                            {
+                                "value": "2",
+                                "label": "≥ 3 factores o historia de enf. coronaria"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "troponina",
+                        "type": "select",
+                        "label": "Troponin (Troponina)",
+                        "options": [
+                            {
+                                "value": "0",
+                                "label": "≤ Límite normal"
+                            },
+                            {
+                                "value": "1",
+                                "label": "1-3x Límite normal"
+                            },
+                            {
+                                "value": "2",
+                                "label": "> 3x Límite normal"
+                            }
+                        ]
+                    }
+                ],
+                "logic": "if(!historia||!ecg||!edad||!riesgos||!troponina)return;const pts=parseInt(historia)+parseInt(ecg)+parseInt(edad)+parseInt(riesgos)+parseInt(troponina);let l='Bajo Riesgo',c='text-green-600',b='bg-green-100',d='Riesgo de MACE a 6 semanas: 0.9 - 1.7%.';if(pts>=7){l='Alto Riesgo';c='text-red-600';b='bg-red-100';d='Riesgo de MACE: 50 - 65%. Requiere intervención invasiva temprana.';}else if(pts>=4){l='Riesgo Moderado';c='text-orange-600';b='bg-orange-100';d='Riesgo de MACE: 12 - 16.6%. Admisión y observación clínica.';}setResultado({value: pts,label:l,color:c,bg:b,desc:d});",
+                "resultType": "score",
+                "resultLabel": "Puntos HEART",
+                "ctaTitle": "Troponina y Marcadores Cardíacos",
+                "ctaDesc": "La troponina ultrasensible y CPK son fundamentales para un diagnóstico oportuno.",
+                "ctaAction": "Cotizar Enzimas Cardíacas",
+                "ctaStudy": "Enzimas Cardiacas",
+                "seoTitle": "¿Qué evalúa el Score HEART?",
+                "seoContent": [
+                    "HEART es el acrónimo de Historial, ECG, Edad, Factores de Riesgo (Risk factors) y Troponina. Este sistema de puntuación permite estratificar el riesgo de eventos cardíacos adversos mayores (MACE) a 6 semanas en pacientes que llegan a urgencias con dolor precordial.",
+                    "El sistema otorga puntos del 0 al 10. Aquellos pacientes con una puntuación entre 0 y 3 son considerados de bajo riesgo y suelen recibir el alta hospitalaria segura. Pacientes con índices mayores a 3 requieren ingreso, observación, ecocardiograma e intervenciones clínicas más profundas.",
+                    "A diferencia del TIMI o el GRACE, el score HEART fue validado específicamente para todo paciente indiferenciado que acude a urgencias con dolor de pecho."
+                ]
+            },
+            {
+                "slug": "escala-killip",
+                "name": "Clasificación de Killip",
+                "subtitle": "Severidad de insuficiencia cardíaca aguda",
+                "icon": "❤️",
+                "specialty": "Cardiología",
+                "shortDesc": "Mortalidad en IAM",
+                "formTitle": "Hallazgos Físicos Post-IAM",
+                "inputs": [
+                    {
+                        "id": "clase",
+                        "type": "select",
+                        "label": "Hallazgos Clínicos",
+                        "options": [
+                            {
+                                "value": "1",
+                                "label": "I: Sin signos de fallo cardíaco (no estertores, no S3)"
+                            },
+                            {
+                                "value": "2",
+                                "label": "II: Estertores en bases, S3, y/o distensión venosa yugular"
+                            },
+                            {
+                                "value": "3",
+                                "label": "III: Edema agudo de pulmón franco"
+                            },
+                            {
+                                "value": "4",
+                                "label": "IV: Shock cardiogénico (hipotensión, oliguria, cianosis)"
+                            }
+                        ]
+                    }
+                ],
+                "logic": "if(!clase)return;const c=parseInt(clase);let v='',l='',col='',bg='',d='';if(c===1){v='I';l='Bajo Riesgo';col='text-green-600';bg='bg-green-100';d='Mortalidad a 30 días: ~6%.';}else if(c===2){v='II';l='Riesgo Moderado';col='text-yellow-600';bg='bg-yellow-100';d='Mortalidad a 30 días: ~17%.';}else if(c===3){v='III';l='Riesgo Severo';col='text-orange-600';bg='bg-orange-100';d='Mortalidad a 30 días: ~38%.';}else{v='IV';l='Shock Cardiogénico';col='text-red-600';bg='bg-red-100';d='Mortalidad a 30 días: ~81%. Alto riesgo de muerte inminente.';}setResultado({value: 'Clase '+v,label:l,color:col,bg:bg,desc:d});",
+                "resultType": "score",
+                "resultLabel": "Clase Killip-Kimball",
+                "ctaTitle": "Evalúa el Daño Cardíaco",
+                "ctaDesc": "Identifica rápidamente daño al músculo cardíaco mediante Troponina-I ultrasensible, Creatincinasa y Mioglobina.",
+                "ctaAction": "Perfil Enzimas Cardiacas",
+                "ctaStudy": "Perfil Cardiaco",
+                "seoTitle": "¿Qué es la Escala de Killip y Kimball?",
+                "seoContent": [
+                    "La Clasificación de Killip y Kimball agrupa la magnitud de la disfunción ventricular izquierda y el fallo cardíaco subsiguiente tras un infarto agudo al miocardio (IAM). Fue desarrollada en 1967.",
+                    "Al enfocarse en la exploración física sistemática (auscultación en busca de tercer ruido cardíaco o estertores pulmonares, y medición de presión arterial), predice de forma asombrosamente precisa la mortalidad a 30 días.",
+                    "Pacientes Killip I no tienen insuficiencia cardiaca. Pacientes Killip IV presentan shock cardiogénico (presión sistólica baja y signos de falla renal aguda) con más del 80% de letalidad en estudios históricos."
+                ]
+            },
+            {
+                "slug": "score-has-bled",
+                "name": "Score HAS-BLED",
+                "subtitle": "Riesgo de sangrado mayor en fibrilación auricular",
+                "icon": "❤️",
+                "specialty": "Cardiología",
+                "shortDesc": "Riesgo de hemorragia",
+                "formTitle": "Factores de Riesgo",
+                "inputs": [
+                    {
+                        "id": "hypertension",
+                        "type": "boolean",
+                        "label": "Hipertensión (sistólica >160)"
+                    },
+                    {
+                        "id": "abnormal_renal",
+                        "type": "boolean",
+                        "label": "Discreta Falla Renal (diálisis, post-trasplante, Cr >2.2)"
+                    },
+                    {
+                        "id": "abnormal_liver",
+                        "type": "boolean",
+                        "label": "Discreta Falla Hepática (cirrosis, ALT/AST 3x superior)"
+                    },
+                    {
+                        "id": "stroke",
+                        "type": "boolean",
+                        "label": "Historia clínica de Ictus / EVC"
+                    },
+                    {
+                        "id": "bleeding",
+                        "type": "boolean",
+                        "label": "Predisposición o historial a sangrados"
+                    },
+                    {
+                        "id": "labile_inr",
+                        "type": "boolean",
+                        "label": "INR Lábil o Inestable (<60% del tiempo en rango terapéutico)"
+                    },
+                    {
+                        "id": "elderly",
+                        "type": "boolean",
+                        "label": "Personas Mayores (>65 años)"
+                    },
+                    {
+                        "id": "drugs",
+                        "type": "boolean",
+                        "label": "Medicamentos (AINEs, antiplaquetarios, etc)"
+                    },
+                    {
+                        "id": "alcohol",
+                        "type": "boolean",
+                        "label": "Exceso de consumo de alcohol (≥8 copas por semana)"
+                    }
+                ],
+                "logic": "let pts=0;if(hypertension)pts++;if(abnormal_renal)pts++;if(abnormal_liver)pts++;if(stroke)pts++;if(bleeding)pts++;if(labile_inr)pts++;if(elderly)pts++;if(drugs)pts++;if(alcohol)pts++;let l='Bajo Riesgo',c='text-green-600',b='bg-green-100',d='Riesgo anual de sangrado: 1-1.5%.';if(pts>=3){l='Alto Riesgo';c='text-red-600';b='bg-red-100';d='Riesgo anual de sangrado: ≥3.7%. Se debe monitorear estrechamente con la anticoagulación oral.';}else if(pts===2){l='Riesgo Moderado';c='text-yellow-600';b='bg-yellow-100';d='Riesgo anual de sangrado: 1.8%. Precaución.';}setResultado({value: pts,label:l,color:c,bg:b,desc:d});",
+                "resultType": "score",
+                "resultLabel": "Puntaje HAS-BLED",
+                "ctaTitle": "Monitoreo de Coagulación",
+                "ctaDesc": "Para prescribir anticoagulantes es vital conocer tu INR, Tiempo de Protrombina (TP) y plaquetas.",
+                "ctaAction": "Cotizar Tiempos de Coagulación",
+                "ctaStudy": "Tiempos de Coagulacion",
+                "seoTitle": "¿Cómo previene hemorragias HAS-BLED?",
+                "seoContent": [
+                    "El Score HAS-BLED es una herramienta decisiva para anticipar la posibilidad de que un paciente sufra hemorragias masivas al ser tratado con anticoagulantes orales por padecer Fibrilación Auricular (FA).",
+                    "Calculado desde el 0 hasta 9 puntos, evalúa siete categorías principales: la presión arterial no controlada, daños previos en hígado o riñones, un embolismo previo o historial hemorrágico espontáneo (úlceras), y abuso de medicación y drogas o alcohol.",
+                    "Una calificación HAS-BLED de 3 puntos o superior resalta que el paciente posee ALTO riesgo de sangrado. Un puntaje alto no significa obligatoriamente suspender la anticoagulación; sirve como indicador para minimizar riesgos corrigiendo factores modificables (como bajar la presión arterial)."
+                ]
+            },
+            {
+                "slug": "presion-arterial-media",
+                "name": "Presión Arterial Media (PAM)",
+                "subtitle": "Cálculo de perfusión de órganos vitales",
+                "icon": "❤️",
+                "specialty": "Cardiología",
+                "shortDesc": "Cálculo de la PAM",
+                "formTitle": "Métricas de Tensión Arterial",
+                "inputs": [
+                    {
+                        "id": "pas",
+                        "type": "number",
+                        "label": "Presión Sistólica (alta)",
+                        "unit": "mmHg",
+                        "placeholder": "ej: 120"
+                    },
+                    {
+                        "id": "pad",
+                        "type": "number",
+                        "label": "Presión Diastólica (baja)",
+                        "unit": "mmHg",
+                        "placeholder": "ej: 80"
+                    }
+                ],
+                "logic": "const s=parseFloat(pas);const d=parseFloat(pad);if(!s||!d||s<=d)return;const pam=(s+(2*d))/3;let l='Óptima',c='text-green-600',b='bg-green-100',desc='Perfusión orgánica ideal.';if(pam<60){l='Peligrosa (Hipo-perfusión)';c='text-red-600';b='bg-red-100';desc='Fallo potencial del flujo cerebral o coronario. Isquemia tisular.';}else if(pam>105){l='Elevada';c='text-orange-600';b='bg-orange-100';desc='Sobrepresión prolongada causa estrés arterial periférico o hipertensión crónica.';}setResultado({value: pam.toFixed(1), unit: 'mmHg', label:l, color:c, bg:b, desc:desc});",
+                "resultType": "score",
+                "resultLabel": "PAM Estimada",
+                "ctaTitle": "Estudios Preventivos para Hipertensión",
+                "ctaDesc": "La presión arterial crónicamente elevada daña la función renal y microvascular silenciosamente.",
+                "ctaAction": "Perfil Renal y Riesgo Cardiovascular",
+                "ctaStudy": "Quimica Sanguinea y Biometria",
+                "seoTitle": "¿Qué es la PAM o Presión Arterial Media?",
+                "seoContent": [
+                    "La Presión Arterial Media (PAM) es la presión intravascular promedio durante un ciclo cardíaco entero. No es una media estrictamente aritmética porque el corazón en reposo emplea el 60% del tiempo en su fase diastólica frente a un 40% empujando sangre en la sístole.",
+                    "Este parámetro es esencial al administrar medicamentos vasopresores o vasodilatadores en cuidados intensivos. Se tolera ampliamente que el índice PAM mínimo para nutrir de oxígeno de la sangre a los capilares orgánicos vitales (como riñones, intestinos y cerebro) es de 60 mmHg a 65 mmHg.",
+                    "Pacientes con lecturas PAM sostenidas debajo de este umbral presentan isquemia y posible fallo multiorgánico a las pocas horas."
+                ]
+            },
+            {
+                "slug": "score-timi-stemi",
+                "name": "Score TIMI (STE-MI)",
+                "subtitle": "Mortalidad al día 30 en Infarto con Supradesnivel",
+                "icon": "❤️",
+                "specialty": "Cardiología",
+                "shortDesc": "Riesgo en Infarto (ST+)",
+                "formTitle": "Estratificación Clínica",
+                "inputs": [
+                    {
+                        "id": "edad",
+                        "type": "select",
+                        "label": "Edad",
+                        "options": [
+                            {
+                                "value": "0",
+                                "label": "Menor de 65 años"
+                            },
+                            {
+                                "value": "2",
+                                "label": "65 - 74 años"
+                            },
+                            {
+                                "value": "3",
+                                "label": "≥ 75 años"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "diabetes_hta",
+                        "type": "boolean",
+                        "label": "Diabetes, HTA o Angina documentada"
+                    },
+                    {
+                        "id": "sistolica",
+                        "type": "boolean",
+                        "label": "Presión Sistólica < 100 mmHg"
+                    },
+                    {
+                        "id": "frecuencia",
+                        "type": "boolean",
+                        "label": "Frecuencia Cardíaca > 100 lpm"
+                    },
+                    {
+                        "id": "killip",
+                        "type": "boolean",
+                        "label": "Clase Killip II - IV"
+                    },
+                    {
+                        "id": "peso",
+                        "type": "boolean",
+                        "label": "Peso corporal < 67 kg (< 150 lbs)"
+                    },
+                    {
+                        "id": "stemi_anterior",
+                        "type": "boolean",
+                        "label": "Infarto Anterior o BCR Izquierdo en ECG"
+                    },
+                    {
+                        "id": "tiempo_atencion",
+                        "type": "boolean",
+                        "label": "Tiempo a la intervención trombolítica > 4 horas"
+                    }
+                ],
+                "logic": "if(!edad)return;let p=parseInt(edad);if(diabetes_hta)p++;if(sistolica)p+=3;if(frecuencia)p+=2;if(killip)p+=2;if(peso)p++;if(stemi_anterior)p++;if(tiempo_atencion)p++;let mort=0;switch(p){case 0:mort=0.8;break;case 1:mort=1.6;break;case 2:mort=2.2;break;case 3:mort=4.4;break;case 4:mort=7.3;break;case 5:mort=12.4;break;case 6:mort=16.1;break;case 7:mort=23.4;break;case 8:mort=26.8;break;case 9:case 10:case 11:case 12:case 13:case 14:mort=35.9;break;}let l='Riesgo Leve',c='text-green-600',b='bg-green-100';if(mort>=15){l='Riesgo Extremadamente Alto';c='text-red-600';b='bg-red-100';}else if(mort>=7){l='Alto Riesgo';c='text-orange-600';b='bg-orange-100';}setResultado({value: p+' pts',label:l,color:c,bg:b,desc:'Mortalidad estimada al día 30 post-infarto: '+mort+'%.'});",
+                "resultType": "score",
+                "resultLabel": "Puntaje TIMI STEMI",
+                "ctaTitle": "Valoración Médica Urgente",
+                "ctaDesc": "Los infartos implican manejo especializado y laboratorios seriados (CPK, Químicas, BH) inmediatos.",
+                "ctaAction": "Cotizar Paneles de Laboratorio",
+                "ctaStudy": "Estudios Cardiologia",
+                "seoTitle": "Interpretando el TIMI Score en IAMCEST",
+                "seoContent": [
+                    "El sistema TIMI (Thrombolysis In Myocardial Infarction) fue desarrollado específicamente para pacientes diagnosticados con un Infarto Agudo del Miocardio con Elevación del Segmento ST (IAMCEST o STEMI).",
+                    "Calculado desde el ingreso, su objetividad provee una predicción porcentual directa de la mortalidad que existe dentro de los primeros 30 días posteriores al comienzo del evento isquémico de manera que guíe intervenciones críticas como el cateterismo.",
+                    "Considera indicadores hemodinámicos ineludibles: una frecuencia taquicárdica o presiones arteriales hipotensas, reflejo in situ de un deficiente volumen de inyección y severo compromiso celular miocárdico."
+                ]
+            },
+            {
+                "slug": "intervalo-qt-corregido",
+                "name": "Intervalo QT Corregido (QTc) - Bazett",
+                "subtitle": "Estandarización del trazo QT vs latidos por minuto",
+                "icon": "❤️",
+                "specialty": "Cardiología",
+                "shortDesc": "Electrocardiograma QTc",
+                "formTitle": "Valores de Monitor EKG",
+                "inputs": [
+                    {
+                        "id": "qt",
+                        "type": "number",
+                        "label": "Intervalo QT medido",
+                        "unit": "ms",
+                        "placeholder": "ej: 400"
+                    },
+                    {
+                        "id": "fc",
+                        "type": "number",
+                        "label": "Frecuencia Cardíaca",
+                        "unit": "bpm",
+                        "placeholder": "ej: 60"
+                    },
+                    {
+                        "id": "sexo",
+                        "type": "select",
+                        "label": "Sexo Biológico",
+                        "options": [
+                            {
+                                "value": "M",
+                                "label": "Masculino"
+                            },
+                            {
+                                "value": "F",
+                                "label": "Femenino"
+                            }
+                        ]
+                    }
+                ],
+                "logic": "const Q=parseFloat(qt);const F=parseFloat(fc);if(!Q||!F||!sexo)return;const RR=60/F;const qtc=Q/Math.sqrt(RR);let max=sexo==='M'?440:460;let l='Normal',c='text-green-600',b='bg-green-100',desc='Intervalo inferior al máximo recomendado ('+max+'ms).';if(qtc>500){l='Peligroso';c='text-red-600';b='bg-red-100';desc='>500ms causa alto riesgo letal de Taquicardia Torsades de Pointes.';}else if(qtc>max){l='Prolongado';c='text-yellow-600';b='bg-yellow-100';desc='Superior a límites anatómicos en reposo.';}setResultado({value: Math.round(qtc)+' ms', label:l, color:c, bg:b, desc:desc});",
+                "resultType": "score",
+                "resultLabel": "Intervalo QTc Estimado",
+                "ctaTitle": "Monitoreo Clínico Complementario",
+                "ctaDesc": "El desequilibrio electrolítico por potasio o calcio altera silenciosamente el segmento QT.",
+                "ctaAction": "Electrolitos Séricos",
+                "ctaStudy": "Electrolitos Sericos 6 Elementos",
+                "seoTitle": "¿Cómo se calcula el Intervalo QT Corregido?",
+                "seoContent": [
+                    "En cardiología, el segmento QT de los electros manifiesta el periodo completo de despolarización y repolarización originado en los ventrículos. Sin embargo, este milisegundo oscila fisiológicamente atado a cuán veloz late el corazón en tal momento.",
+                    "La trascendente ecuación de Henry Bazett en 1920 resuelve este eslabón: asila el valor dividiendo al intervalo detectado sobre la raíz cuadrada de cada latido adyacente, dando luz al QT ajustado o QTc.",
+                    "Con un límite máximo alrededor de 440 ms (hombres) o 460 ms (mujeres), cifras más altas, especialmente sobrepasando 500ms, delatan alta peligrosidad arritmogénica y alertan contrarrestar drogas causantes o deficiencias críticas de electrolitos séricos."
+                ]
+            },
+            {
+                "slug": "score-nyha",
+                "name": "Clasificación Cardíaca NYHA",
+                "subtitle": "Grados de insuficiencia cardíaca congestiva",
+                "icon": "❤️",
+                "specialty": "Cardiología",
+                "shortDesc": "Capacidad Funcional NYHA",
+                "formTitle": "Nivel de Fatiga Disneica",
+                "inputs": [
+                    {
+                        "id": "fatiga",
+                        "type": "select",
+                        "label": "Síntomas percibidos ante esfuerzo",
+                        "options": [
+                            {
+                                "value": "1",
+                                "label": "I: Ningún límite con actividad física normal."
+                            },
+                            {
+                                "value": "2",
+                                "label": "II: Ligera fatiga. Comodidad en simple reposo pero actividad produce disnea media."
+                            },
+                            {
+                                "value": "3",
+                                "label": "III: Limitación marcada. Incluso lavar platos o vestirse exige frenar."
+                            },
+                            {
+                                "value": "4",
+                                "label": "IV: Síntomas de insuficiencia en total reposo. Imposible el mínimo esfuerzo."
+                            }
+                        ]
+                    }
+                ],
+                "logic": "if(!fatiga)return;const pts=parseInt(fatiga);let l='',c='',b='',d='';if(pts===1){l='Asintomático';c='text-green-600';b='bg-green-100';d='Grado I. Padecimiento cardíaco latente, sin secuelas limitantes en rutina de vida.';}else if(pts===2){l='Afectación Leve';c='text-yellow-600';b='bg-yellow-100';d='Grado II. Paciente desarrolla molestias ante ejercicio físico sostenido.';}else if(pts===3){l='Limitación Fuerte';c='text-orange-600';b='bg-orange-100';d='Grado III. Solo encuentra la comodidad al estar estático. Malestar ante caminatas breves.';}else{l='Severidad Total';c='text-red-600';b='bg-red-100';d='Grado IV. Malestar respiratorio ocurre sin importar ausencia absoluta de esfuerzo físico.';}setResultado({value: 'Clase '+pts, label:l, color:c, bg:b, desc:d});",
+                "resultType": "score",
+                "resultLabel": "Grado Oficial",
+                "ctaTitle": "Valoración Sanguínea Cardíaca",
+                "ctaDesc": "Un perfil de Química Sanguínea completo revela la salud sistémica tras años de deficiencia cardiovascular.",
+                "ctaAction": "Cotizar CheckUp Vistazo",
+                "ctaStudy": "Quimica Sanguinea Integral",
+                "seoTitle": "Escala de la New York Heart Association (NYHA)",
+                "seoContent": [
+                    "Introducida mundialmente en 1928, esta estandarización forjada por The New York Heart Association agrupa el declive clínico subjetivo documentando qué tan comprometido está el pulso e intercambios gaseosos pulmonares de cada individuo enfermo.",
+                    "Es radicalmente simple de medir al evadir sofisticaciones: documenta si un cuerpo se ahoga en sus fluidos incluso durante el silencio de acostarse frente a únicamente sufrir fatigas al trepar empinadas escaleras metropolitanas.",
+                    "Su validez estadística la cementa al lado de algoritmos matemáticos duros para pronosticar estadísticamente años venideros del padecimiento, requerimientos preoperatorios quirúrgicos o el éxito en rehabilitaciones."
+                ]
+            },
+            {
+                "slug": "frecuencia-cardiaca-objetivo",
+                "name": "Frecuencia Cardíaca Objetivo",
+                "subtitle": "Kavornen y zonas ideales lipolíticas",
+                "icon": "❤️",
+                "specialty": "Cardiología",
+                "shortDesc": "Zonas de esfuerzo",
+                "formTitle": "Datos Físicos",
+                "inputs": [
+                    {
+                        "id": "edad",
+                        "type": "number",
+                        "label": "Edad",
+                        "unit": "años",
+                        "placeholder": "25"
+                    },
+                    {
+                        "id": "reposo",
+                        "type": "number",
+                        "label": "Pulsaciones Típicas en Reposo",
+                        "unit": "bpm",
+                        "placeholder": "65"
+                    },
+                    {
+                        "id": "objetivo",
+                        "type": "select",
+                        "label": "Intensidad Aeróbica Subjetiva",
+                        "options": [
+                            {
+                                "value": "60",
+                                "label": "Pérdida Grasa (60%)"
+                            },
+                            {
+                                "value": "75",
+                                "label": "Cardiovascular Fuerte (75%)"
+                            },
+                            {
+                                "value": "85",
+                                "label": "Anaeróbico Alto (85%)"
+                            }
+                        ]
+                    }
+                ],
+                "logic": "const e=parseFloat(edad);const r=parseFloat(reposo);const obj=parseFloat(objetivo);if(!e||!r||!obj)return;const maxbpm=220-e;const res=maxbpm-r;const bpm=(res*(obj/100))+r;setResultado({value: Math.round(bpm), unit: 'Latidos x minuto', label: 'Rango Meta: '+obj+'%', color: 'text-rose-600', bg: 'bg-rose-100', desc: 'Fórmula de Karvonen para la quema eficiente segura. Pulsaciones Teóricas Máximas: '+maxbpm+'. Reserva Funcional: '+res+'.'});",
+                "resultType": "number",
+                "resultLabel": "Mantén tu ritmo estable en",
+                "ctaTitle": "Músculo y Sangre Optimizados",
+                "ctaDesc": "Aprovecha tus entrenamientos sabiendo cuántos glóbulos rojos te ayudan a respirar en tus músculos.",
+                "ctaAction": "Análisis Clínico Básico",
+                "ctaStudy": "Biometria Hematica Completa",
+                "seoTitle": "Entrenamiento usando la Fórmula de Karvonen",
+                "seoContent": [
+                    "En campos deportivos y terapéuticos no hay estándar más seguro y preciso midiendo cargas tolerables musculares que la aclamada Ecuación Kavornen.",
+                    "Determina bandas métricas exactas y estrictamente personalísimas. Al introducir tu basal pasiva matutina sustrae la misma de una FC max edad-dependiente, creando y descubriendo lo conocido como Reserva de Frecuencia Cardiaca disponible individual.",
+                    "Una caminata suave busca operar sobre un ~60% consumiendo lipoproteínas grasas adiposas con excelente eficiencia a la par evitando lesiones fatales arrítmicas para individuos debutantes o geriátricos."
+                ]
+            },
+            {
+                "slug": "doble-producto-cardiaco",
+                "name": "Doble Producto Cardíaco (RPP)",
+                "subtitle": "Carga y tensión miocárdica neta ante oxigenos requeridos",
+                "icon": "❤️",
+                "specialty": "Cardiología",
+                "shortDesc": "Demanda de Oxígeno EKG",
+                "formTitle": "Parámetros",
+                "inputs": [
+                    {
+                        "id": "sistolica",
+                        "type": "number",
+                        "label": "Tensión Sistólica Al Ejercicio/Pico",
+                        "unit": "mmHg",
+                        "placeholder": "130"
+                    },
+                    {
+                        "id": "freccard",
+                        "type": "number",
+                        "label": "Pulsaciones Detectadas en Pico",
+                        "unit": "bpm",
+                        "placeholder": "78"
+                    }
+                ],
+                "logic": "const sys=parseFloat(sistolica);const bpm=parseFloat(freccard);if(!sys||!bpm)return;let dpi=(sys*bpm)/100;let l='Eficiencia Operativa',c='text-green-600',b='bg-green-100',desc='Valores biológicos protectores.';if(dpi>200){l='Estrés Cardiaco Extremo';c='text-red-600';b='bg-red-100';desc='Carga fisiológica severa, índice altamente sugestivo de angina y sufrimiento tisular isquémico.';}else if(dpi>120){l='Actividad Altamente Demandante';c='text-yellow-600';b='bg-yellow-100';desc='Adecuada para deportistas en la cumbre del ejercicio.';}setResultado({value: Math.round(dpi), unit: 'Índice de Doble Producto', label:l, color:c, bg:b, desc:desc});",
+                "resultType": "number",
+                "resultLabel": "Score O₂ Tensión",
+                "ctaTitle": "Pruebas Coronarias Periféricas",
+                "ctaDesc": "Las lipoproteínas y deficiencias vitamínicas D promueven daños vasculares ocultos.",
+                "ctaAction": "Perfil De Laboratorio Preventivo",
+                "ctaStudy": "Check-up Ejecutivo",
+                "seoTitle": "Rate Pressure Product (Doble Producto)",
+                "seoContent": [
+                    "El Doble Producto (RPP por sus siglas inglesas: Rate Pressure Product), emerge netamente de un crudo producto matemático entre tu métrica Tensional Máxima Sistólica junto a la frecuencia cardíaca inmediata registrada.",
+                    "Este simple cálculo posee potentes utilidades fisiológicas directas reflejando in vivo los consumos metabólico-energéticos del oxígeno dentro de la mismísima pared muscular cardíaca que los métodos aislados obviarían equivocadamente.",
+                    "Las isquemias transitorias en pruebas perimétricas de estrés se desatan estadísticamente al vulnerar los frágiles picos umbrales sobre un umbral individual, usualmente un estancamiento del RPP sin llegar a escalar ante un esfuerzo mayor dictando fallo circulatorio ineludible coronario."
+                ]
+            },
+            {
+                "slug": "riesgo-fibrilacion-auricular",
+                "name": "Score de Fibrilación Auricular",
+                "subtitle": "Incidencia a 10 años (CHARGE-AF)",
+                "icon": "❤️",
+                "specialty": "Cardiología",
+                "shortDesc": "Probabilidad de AF",
+                "formTitle": "Factores Base",
+                "inputs": [
+                    {
+                        "id": "edad",
+                        "type": "number",
+                        "label": "Edad",
+                        "unit": "años",
+                        "placeholder": "60"
+                    },
+                    {
+                        "id": "peso",
+                        "type": "number",
+                        "label": "Peso Bruto",
+                        "unit": "kilos",
+                        "placeholder": "75"
+                    },
+                    {
+                        "id": "altura",
+                        "type": "number",
+                        "label": "Talla Física",
+                        "unit": "cm",
+                        "placeholder": "165"
+                    },
+                    {
+                        "id": "pa",
+                        "type": "number",
+                        "label": "Presión Sistólica en Consultorio",
+                        "unit": "mmHg",
+                        "placeholder": "140"
+                    },
+                    {
+                        "id": "falla_c",
+                        "type": "boolean",
+                        "label": "Insuficiencia Cardíaca Concomitante"
+                    },
+                    {
+                        "id": "infarto",
+                        "type": "boolean",
+                        "label": "Historia Previa de Infarto Agudo"
+                    }
+                ],
+                "logic": "const e=parseFloat(edad);const m=parseFloat(peso);const alt=parseFloat(altura);const sys=parseFloat(pa);if(!e||!m||!alt||!sys)return;const h=alt/100;const bmi=m/(h*h);let sum = (e*0.050) + (bmi*0.035) + (sys*0.015);if(falla_c)sum+=0.6;if(infarto)sum+=0.5;let calcR=Math.exp(sum-5.8);if(calcR>100)calcR=99;let l='Mínimo Peligro',c='text-green-600',b='bg-green-100',desc='Riesgo relativo insignificante (<5% a 10 años).';if(calcR>15){l='Peligro Alto de Arritmias Rápidas';c='text-red-600';b='bg-red-100';desc='Susceptibilidad crítica arrítmica e insidiosa de accidentes cerebrovasculares mortales';}else if(calcR>5){l='Advertencia Precautoria';c='text-yellow-600';b='bg-yellow-100';desc='Un desarrollo previsible (5 a 15% riesgo absoluto)';}setResultado({value: calcR.toFixed(1)+'%', label:l, color:c, bg:b, desc:desc});",
+                "resultType": "score",
+                "resultLabel": "Impacto CHARGE-AF%",
+                "ctaTitle": "Evita Daño Sistémico en el Corazón",
+                "ctaDesc": "Detecta afecciones ocultas mediante análisis clínicos certeros preventivos recomendados a pacientes de riesgo.",
+                "ctaAction": "Panel Salud Corazón",
+                "ctaStudy": "Check Up Corazon",
+                "seoTitle": "Previsión Preventiva de la Fibrilación Auricular",
+                "seoContent": [
+                    "En poblaciones seniles una inmensa y letal proporción de muertes intempestivas se agrupan escondidas silentes arrítmicamente por temblorosos paros crónicos identificables como Fibrilación auricular.",
+                    "El avanzado algoritmo estadunidense CHARGE-AF interroga sin aparatos costosos métricas corpóreas absolutas como edad senil y obesidad paralela con hipertensiones crónicas en conjunto pre-existente fallo congestivo.",
+                    "Los resultados dictan terapias drásticas para prevenir que los corazones detengan su bombeado de forma rítmica que estanque la sangre logrando funestos trombos coagulatorios cerebrales."
+                ]
+            },
+            {
+                "slug": "score-timi-nstemi",
+                "name": "Score TIMI (NSTE-ACS)",
+                "subtitle": "Riesgo Síndromes Coronarios Agudos Sin Supradesnivel",
+                "icon": "❤️",
+                "specialty": "Cardiología",
+                "shortDesc": "Riesgo de Isquemia o Muerte",
+                "formTitle": "Predictores Isquémicos a evaluar (1 punto c/u)",
+                "inputs": [
+                    {
+                        "id": "edad",
+                        "type": "boolean",
+                        "label": "Paciente tiene 65 años o más"
+                    },
+                    {
+                        "id": "riesgos",
+                        "type": "boolean",
+                        "label": "3 factores: Diabetes, Tabaco, HTA, Obesos o Colesterol"
+                    },
+                    {
+                        "id": "coronaria",
+                        "type": "boolean",
+                        "label": "Estenosis coronaria antigua comprobada > 50%"
+                    },
+                    {
+                        "id": "aspirina",
+                        "type": "boolean",
+                        "label": "Uso diario profiláctico de Aspirina los pasados 7 días"
+                    },
+                    {
+                        "id": "anginas",
+                        "type": "boolean",
+                        "label": "≥ 2 ataques repentinos severos de angina dolorosa en últimas 24 hrs"
+                    },
+                    {
+                        "id": "ecg",
+                        "type": "boolean",
+                        "label": "Desnivel nuevo y objetivo del trazo ST eléctrico > 0.5 mm"
+                    },
+                    {
+                        "id": "marcadores",
+                        "type": "boolean",
+                        "label": "CPK, Mioglobina, TnI Sanguínea Positivamente Elevada"
+                    }
+                ],
+                "logic": "let pts=0;if(edad)pts++;if(riesgos)pts++;if(coronaria)pts++;if(aspirina)pts++;if(anginas)pts++;if(ecg)pts++;if(marcadores)pts++;let l='Bajo Riesgo',c='text-green-600',b='bg-green-100',r=0;switch(pts){case 0:case 1:case 2:r=8.3;break;case 3:r=13.2;l='Riesgo Intermedio';c='text-yellow-600';b='bg-yellow-100';break;case 4:r=19.9;l='Riesgo Intermedio';c='text-yellow-600';b='bg-yellow-100';break;case 5:r=26.2;l='Alta Severidad';c='text-orange-600';b='bg-orange-100';break;case 6:case 7:r=40.9;l='Riesgo Extremo Agudo';c='text-red-600';b='bg-red-100';break;}let desc='Probabilidad fatal de muerte inminente isquémica a 14 días: '+r+'%.';setResultado({value: pts+'/7', label:l, color:c, bg:b, desc:desc});",
+                "resultType": "score",
+                "resultLabel": "Severidad TIMI Clínico",
+                "ctaTitle": "Valoraciones Isquémicas Urgentes",
+                "ctaDesc": "Para el manejo certero ante dolores agudos son recomendatorias las enzimas de necrosis y CPK en laboratorio.",
+                "ctaAction": "Análisis y Marcadores",
+                "ctaStudy": "Enzimas Cardiacas",
+                "seoTitle": "Niveles TIMI para Anginas e Infarto Menores",
+                "seoContent": [
+                    "El sistema TIMI del ACS para síndromes coronarios agudos que carecen de marcados y letales supradesniveles agudos del segmento eléctrico cardíaco (NSTEMI / Antiguamente Angina Inestable), cataloga el curso natural sin cirugía percutánea intervencionista.",
+                    "Cada elemento clínico desde un abuelo sobre 65 y la documentada resistencia farmacéutica (usar diariamente pastillas con ASA aspirínica previas sin lograr impedir que el infarto se desvele) es matemáticamente letal si se añade a un biomarcador (CPK-MB) destructivo sangrante positivo.",
+                    "La gradación estricta clasifica si el paciente tiene la viabilidad idónea cardióloga para simplemente permanecer observado rutinariamente, comparado al escalofriante pronóstico del 41% requerimiento quirúrgico agudo forzado vital en caso de juntar siete variables sombrías concurrentes."
+                ]
+            }
+        ]
+    }
+]

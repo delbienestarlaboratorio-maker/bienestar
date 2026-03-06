@@ -1,0 +1,290 @@
+[
+    {
+        "name": "Nefrología",
+        "icon": "🫘",
+        "calculators": [
+            {
+                "slug": "depuracion-creatinina-cockcroft",
+                "name": "Depuración de Creatinina (Cockcroft-Gault)",
+                "subtitle": "Cálculo clásico de Tasa de Filtración Glomerular Histórica",
+                "icon": "🧪",
+                "specialty": "Nefrología",
+                "shortDesc": "Clearance Cockcroft-Gault",
+                "formTitle": "Antropometría y Sangre",
+                "inputs": [
+                    {
+                        "id": "sexo",
+                        "type": "select",
+                        "label": "Sexo Biológico",
+                        "options": [
+                            {
+                                "value": "m",
+                                "label": "Hombre"
+                            },
+                            {
+                                "value": "f",
+                                "label": "Mujer"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "edad",
+                        "type": "number",
+                        "label": "Edad Actual",
+                        "unit": "años",
+                        "placeholder": "ej: 65"
+                    },
+                    {
+                        "id": "peso",
+                        "type": "number",
+                        "label": "Peso Corporal (Ideal o Real según obesidad)",
+                        "unit": "kg",
+                        "placeholder": "ej: 70"
+                    },
+                    {
+                        "id": "creatinina",
+                        "type": "number",
+                        "label": "Creatinina Sérica",
+                        "unit": "mg/dL",
+                        "placeholder": "ej: 1.2"
+                    }
+                ],
+                "logic": "const ed=parseFloat(edad);const pe=parseFloat(peso);const cr=parseFloat(creatinina);if(!ed||!pe||!cr||sexo==='')return;let crcl=((140-ed)*pe)/(72*cr);if(sexo==='f')crcl=crcl*0.85;let l='Filtración Renal Óptima',col='text-green-600',bg='bg-green-100',d='Riñón con capacidad excretora global sana. Etapa 1 ERC si existiese daño visible.';if(crcl<15){l='Fallo Renal Letal (Etapa 5 Cieguela Terminal)',col='text-red-900',bg='bg-red-200',d='Diálisis imperativa urinaria o trasplante inminente renal crudo o letal muerte urémica.';}else if(crcl<30){l='Insuficiencia Severa Crónica (Etapa 4)',col='text-red-600',bg='bg-red-100',d='Preparación masiva médica de reemplazo inminente urémico hemodinámica diálisis. Alto riesgo y derivación urémico crudo nefrológica.';}else if(crcl<60){l='Insuficiencia Renal Cruda Leve/Moderada (Etapa 3)',col='text-orange-600',bg='bg-orange-100',d='Reajustar drásticamente todos y únicos antibióticos y analgésicos sistémicamente orales nefrotóxicos analíticos puros.';}else if(crcl<90){l='Daño Orgánico GFR Disminuido Leve (Etapa 2)',col='text-yellow-600',bg='bg-yellow-100',d='Daño incipiente crudo o senilidad metabólica anatómica y glomerular. Investigar albuminuria.'}setResultado({value: crcl.toFixed(1), unit: 'mL/min', label:l, color:col, bg:bg, desc:d});",
+                "resultType": "number",
+                "resultLabel": "CrCl - Tasa Limpieza Estimada Renal Sérica",
+                "ctaTitle": "El Deterioro Renal No Avisa Con Dolor",
+                "ctaDesc": "Si tienes más de 50 años o historial hipertenso/diabético requieres medir tu función renal.",
+                "ctaAction": "Panel Renal Sanguíneo Superior",
+                "ctaStudy": "Quimica Sanguinea y Examen General de Orina EGO",
+                "seoTitle": "Explicación del Clearance de Cockcroft-Gault en Farmacia Clínica",
+                "seoContent": [
+                    "Diseñada y formulada masivamente a mediados históricos farmacológicos biológicos de los lejanos 1970's, esta fórmula es pilar innegable y mundial global indispensable en todo recetario clínico hospitalario (ajuste ciego y crudo biológico sistémico masivo de depuración) crudo anatómico urinario.",
+                    "Es la herramienta y dictamen mundial oficial universal por los organismos analíticos farmacológicos supremos mundiales farmacocinéticos como la gran FDA estricta biológica estadounidense o EMEA para titular dosis nefro tóxicas medicamentosas exactas clínicas intravenosas orales.",
+                    "Determina de forma rudimentaria mas pura metabólica celular clínica, estimando cuántos mililitros orgánicos sistémicos absolutos de la sangre de los hilos de tus glomérulos han logrado purgar y depurar matemáticamente y crudos limpiar analíticamente en su totalidad celular por exacta cantidad cada 60 crudos metabólicos segundos urinarios purificadores renales (Clearance CrCl)."
+                ]
+            },
+            {
+                "slug": "fena-fraccion-excrecion-sodio",
+                "name": "Fracción Excreción de Sodio (FENa)",
+                "subtitle": "Diferencia LRA Pre-Renal vs Necrosis Tubular Aguda",
+                "icon": "🧂",
+                "specialty": "Nefrología",
+                "shortDesc": "FENa Insuficiencia Aguda LRA",
+                "formTitle": "Bioquímica Plasmática y Examen de Orina Único",
+                "inputs": [
+                    {
+                        "id": "na_serico",
+                        "type": "number",
+                        "label": "Sodio Sérico (Sangre)",
+                        "unit": "mEq/L",
+                        "placeholder": "ej: 140"
+                    },
+                    {
+                        "id": "cr_serica",
+                        "type": "number",
+                        "label": "Creatinina Sérica (Sangre)",
+                        "unit": "mg/dL",
+                        "placeholder": "ej: 2.1"
+                    },
+                    {
+                        "id": "na_orina",
+                        "type": "number",
+                        "label": "Sodio Urinario (Muestra Orina)",
+                        "unit": "mEq/L",
+                        "placeholder": "ej: 15"
+                    },
+                    {
+                        "id": "cr_orina",
+                        "type": "number",
+                        "label": "Creatinina Urinaria (Muestra Orina)",
+                        "unit": "mg/dL",
+                        "placeholder": "ej: 150"
+                    },
+                    {
+                        "id": "diuretico",
+                        "type": "boolean",
+                        "label": "¿Paciente bajo influjo puro clínico biológico diurético innegable (Furosemida o Asa cruda medicamentosa excretora urinaria forzada iatrogénica)?"
+                    }
+                ],
+                "logic": "const ns=parseFloat(na_serico);const cs=parseFloat(cr_serica);const no=parseFloat(na_orina);const co=parseFloat(cr_orina);if(!ns||!cs||!no||!co)return;const fena=((no*cs)/(ns*co))*100;let l='LRA Pre-Renal (Hipovolemia/Deshidratación Estricta)',col='text-orange-600',bg='bg-orange-100',d='Riñón sediento sano retiene crudo e innegable de urgencia sodio urinario salvando fluidos masivamente orgánicos puros sistémicos (< 1%).';if(fena>=2&&!diuretico){l='Falló Renal Intrínseco Letal - NTA Tubular',col='text-red-600',bg='bg-red-100';d='Confirmación diagnóstica pura francamente clínica celular letal grave o isquémica intrínseca masiva Necrosis Tubular analítica cruda grave irreversible destructiva renal (>2%) de riñones anatómicos fallidos puros muertos.';}else if(fena>=1&&fena<2&&!diuretico){l='Fallo Origen Incierto',col='text-gray-600',bg='bg-gray-100';d='Zona dudosa pre o post obstructiva celular o patología biológica isquémica general incipiente tubular médica inflamatoria intersticial sistémica pre celular letárgico.';}if(diuretico){l='FENa Alterado Médicamente (Falso Indudable)',col='text-blue-600',bg='bg-blue-100';d='La FENa no debe leerse objetivamente ni usarse bajo puro tratamiento forzado puro oral innegable inyectable diurético de pastillas. Calcula preferencialmente la FE-Urea médica alterna metabólica urinaria pura sistémica de nitrógeno celular analítica urinaria pre excretada.';}setResultado({value: fena.toFixed(2), unit: '% FENa Excretada', label:l, color:col, bg:bg, desc:d});",
+                "resultType": "number",
+                "resultLabel": "Porcentaje Matemático Biológico Sodio Urinario Excretado Fraccional Eyectado Renal Reabsorbido",
+                "ctaTitle": "Valoración del Test de Función Ureica Nefróloga Sistémica Orgánica de Filtro Biológico",
+                "ctaDesc": "Las EGO o los análisis simples bioquímicos de orina de urgencia con panel iónico te alertarán y asistirán innegablemente biológico prequirúrgicos o dialítico agudo sistémico.",
+                "ctaAction": "EGO Examen Urinario Completo",
+                "ctaStudy": "Examen General de Orina y Quimica",
+                "seoTitle": "¿Cómo interpretar los valores agudos renales en orina de sangre de la Fracción FENa Pura Clínica Letal Excretora Aguda Nefrótica O Nulo Tubular Célula Orina?",
+                "seoContent": [
+                    "Dentro del misterioso mundo orgánico del letal shock renal global u hospitalario y el cierre anatómico nefrótico y anuria brutal total metabólica del flujo sistémico analítico crudo puro orinoso filtrante (falla urinaria renal oliguria aguda médica conocida).",
+                    "La estricta Fracción letal métrica Pura de la Excreción Biológica Fisiológica estricta Clínica Orgánica Analítica del bio factor y electrólito sistémico celular vital puro Sodio Urinario Matemático Sistémico (FENa) es la potentísima métrica infalible estándar dorada mundial médica urinaria.",
+                    "Distinguir de manera mágica si tu paciente biológicamente oriniforme dejó simplemente orgánicamente y pálidamente de orinar líquido biológico sistémico analítico urinario porque esta desangrado deshidratado o pálidamente sin agua volumen hídrico venoso y con hipotensión masiva arterial hipovolémica (Fase sana de retención Pre Renal 1%) en vez biológica celular de que su nefrona tubular glomerular tenga isquemia y tenga severamente la anatomía celular necrosis tubular muerta tubular y que requiera letal uremica maquina diálisis cruda inminente renal letal irreversible hospitalización masiva (>2%)."
+                ]
+            },
+            {
+                "slug": "brecha-anionica-gap",
+                "name": "Anión GAP (Brecha Aniónica con Delta)",
+                "subtitle": "Etiología Acidosis Metabólica Sérica",
+                "icon": "⚖️",
+                "specialty": "Nefrología",
+                "shortDesc": "Anión GAP Acidosis M",
+                "formTitle": "Gasometría y Electrolitos Plasmáticos Venosos",
+                "inputs": [
+                    {
+                        "id": "na",
+                        "type": "number",
+                        "label": "Sodio (Na)",
+                        "unit": "mEq/L",
+                        "placeholder": "140"
+                    },
+                    {
+                        "id": "cl",
+                        "type": "number",
+                        "label": "Cloruro (Cl-)",
+                        "unit": "mEq/L",
+                        "placeholder": "104"
+                    },
+                    {
+                        "id": "hco3",
+                        "type": "number",
+                        "label": "Bicarbonato Aniónico Químico Sérico Celular Básico Reactivo (HCO3-)",
+                        "unit": "mEq/L",
+                        "placeholder": "24"
+                    },
+                    {
+                        "id": "alb",
+                        "type": "number",
+                        "label": "Albúmina Sérica Celular Plasmática Orgánica",
+                        "unit": "g/dL",
+                        "placeholder": "4.0"
+                    }
+                ],
+                "logic": "const n=parseFloat(na);const c=parseFloat(cl);const h=parseFloat(hco3);let a=parseFloat(alb);if(!n||!c||!h)return;if(!a)a=4.0;const gap=n-(c+h);const gap_c=gap+2.5*(4-a);let l='Estado Normo-aniónico Sano Plasmático Fisiológico Ácido-Base Normal Celular Plasmático Sanguíneo',col='text-green-600',bg='bg-green-100',d='Equilibrado celular eléctrico biológico neutral e isotónico. En acidosis pura implicaría pérdidas innegables entéricas crudas directas o masivas anales fecales diarreicas alcalinas digestivas gastro pre biliares.';if(gap_c>12){l='Ácidosis Letal Biológica Elevada de Brecha Elevadísima GAP Crudo Altísimo Acidótico Metabólico Cetoacidotico Séptico Masivo Lactato',col='text-red-700',bg='bg-red-100',d='Acidosis química generada toxicológica puramente interna biológica médica extrema láctica médica fallada innegable e isquémica u urémica médica biológica y salicílica cruda diabética orgánica metabólica.';}setResultado({value: gap_c.toFixed(1), unit: 'mEq/L Corregidos', label:l, color:col, bg:bg, desc:d});",
+                "resultType": "number",
+                "resultLabel": "Brecha Estimada GAP Pura Logarítmica Calculada",
+                "ctaTitle": "Electrolitos Venosos Gasométricos Claves y Sépticos en UCI y Shock Vital Agudo",
+                "ctaDesc": "Si estás débil y te falta aire evalúa tu sangre venosa en urgencias para evitar un paro arrítmico electrolisis crudo sérico bioquímico celular basal masiva acidosis.",
+                "ctaAction": "Anión Panel Plasmático",
+                "ctaStudy": "Electrolitos Sericos y Quimica",
+                "seoTitle": "Gasometrías Acidóticas Letales: Descifra Rápidamente Qué Acidez Inorgánica Venéfica Peligrosa Pura Cetoácida O Láctica Frena Sangre Múltiple Celular Orgánica Eléctrica.",
+                "seoContent": [
+                    "Dentro innegable de la química biológica estricta médica del enfermo críticamente o metabólicamente crudo descompensado masivamente celular ácido o desastre mortal tóxico agudo en UCI o estado agendado.",
+                    "La estricta fórmula mundial biológica Anión Gap biológico crudo orgánico eléctrico representa inequívocamente y global masivo los indetectables crudos ocultos iones metabólicos celulares tóxicos venosos sanguíneos ácidos plasmáticos aniones ácidos invisibles moleculares crudos orgánicos como indudable y letal lactato mortal isquémico orgánico hipóxico o cetonas venenosas diabéticas innegables o intoxicación puro ácido crudo y salicilato biológico crudo.",
+                    "Cualquier franca superación métrica analítica innegable arriba matemática cruda del estrecho valor celular del 12 innegable alerta letal acidosis médica aguda sistémica e intervencionista cruzada uremia renal celular uremica aguda o sepsis sistémica masiva ceto acidótica cruda indudable médica celular letal descompensada global puramente desastrosa celular y diabética global basal letal."
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Neumología",
+        "icon": "🫁",
+        "calculators": [
+            {
+                "slug": "score-curb65-neumonia",
+                "name": "Score CURB-65 para Neumonía",
+                "subtitle": "Evaluación severa de ingreso neumónico e infección de tórax bacteriológico",
+                "icon": "🌬️",
+                "specialty": "Neumología",
+                "shortDesc": "Riesgo Neumonía CURB-65",
+                "formTitle": "Signos y Confusión Pulmonar Edad",
+                "inputs": [
+                    {
+                        "id": "c",
+                        "type": "boolean",
+                        "label": "Cognición (Confusión o alteración aguda letárgica del Test Mental AMS Puntuación Sérica Neurología Pobre < 8 Letal Letárgica Neuropulmonar y Obnubilación Despistado Clínicamente Franco Grave Confusión Aguda)"
+                    },
+                    {
+                        "id": "c1",
+                        "type": "boolean",
+                        "label": "Cifra de Urea Urémica Superior Alta BUN Bioquímica Nitrogenada Médica Uremia > 19 mg/dL (> 7 mmol/L renal uro pulmonar fallo depurativo nitrogenado en Química)"
+                    },
+                    {
+                        "id": "c2",
+                        "type": "boolean",
+                        "label": "Ritmo Rápido Letal de Infección Ventilatoria Acelerado Pulmonar Taquipnea Cruda Sérica Resp (> 30 crudas ricas amplias e ingentes letales y agitadas asfixiadas respiraciones clínicas urgentes por minuto asfixiantes clínicas)"
+                    },
+                    {
+                        "id": "c3",
+                        "type": "boolean",
+                        "label": "Baja Arterial Caída Sérica Shock Pura y Caída Hipotensiva Presión Sistólica < 90 o Diastólica < 60 arterial médica aguda venosa y diastólica pre cardiaca innegable sistémica hipotensiva médica arterial inestable pura (Shock neumopatía)"
+                    },
+                    {
+                        "id": "c4",
+                        "type": "boolean",
+                        "label": "Vejez e Inmunodepresión de la Anciana de Riesgo Severo Edad Biológica Geriátrica Supera Indudable Anciana >= 65 crudos longevos fríos y cansados de Riesgados Mayores Vida Años Longevos Puros Crónicos Seniles"
+                    }
+                ],
+                "logic": "let p=0;if(c)p++;if(c1)p++;if(c2)p++;if(c3)p++;if(c4)p++;let l='Muy Bajo y Seguro Riesgo Tratamiento Oral en Hogar Fijo y Seguro 0.6% de Muerte',col='text-green-600',bg='bg-green-100',d='Puede manejarse seguramente e indiscutiblemente amoxicilina domiciliara y segura médica pura (<1 pts).';if(p>=3){l='Ingreso Obligatorio Urgente UVI Mortalidad Gravísima Extremadamente Terapia UCI Severísima Cuidado > 22%',col='text-red-700',bg='bg-red-100';d='Riesgos del 22%. UCI o medicina intrahospitalaria intravenosa severa cruzada UCI pura neumática. Terapia celular UCI.';}else if(p>=2){l='Aprobación Hospitalaria Intermedia Grave Médica Riesgo 9%',col='text-orange-600',bg='bg-orange-100';d='Riesgos del 9.2%. Preferible ingresarlo a una sala clínica general supervisado por médicos especialistas o antibiótico doble intrahospitalario oral intubado u oxígeno.';}setResultado({value: p+'/5 pts', label:l, color:col, bg:bg, desc:d});",
+                "resultType": "score",
+                "resultLabel": "Criterios Pulmonares Mortalidad Británica CURB Punteados",
+                "ctaTitle": "Valoración Indiscutible Preventiva Infecciosa Respiratoria Sérica Infeccioso",
+                "ctaDesc": "Para CURB-65 requieres forzosamente verificar tus signos y tu Química Básica de riñones BUN UREAS.",
+                "ctaAction": "Análisis y Biomarcadores Sangre y Biomarcadores Virales Ureas",
+                "ctaStudy": "Quimica y Urea Básica",
+                "seoTitle": "Explicación Técnica Clínica Pura y Letal Evaluativa del CURB 65 Neumonías Comunitarias Letales en Inglaterra",
+                "seoContent": [
+                    "El validado mundial CURB-65 representa para clínicos e internistas y neumólogos la primera piedra de toque médica pulmonar clínica para clasificar velozmente el franco riesgo biológico mortal inminente que ostenta una infección comunitaria pura adquirida bacteriológica o viral (Neumonía o pulmonía grave).",
+                    "Al sopesar flagrantemente signos clínicos de altísima letal gravedad pre morten sistémica (Bajas cifras letales de presión en colapso cardiovascular cardiogénico innegable vascular o altísimos conteos crudos taquipneicos brutos ventilatorios torácicos mecánicos agobiantes de respiración acelerada y disneica severa compensatoria).",
+                    "Incorporar fuertemente a las edades y factores etéreos biológicos crónicos inmunitarios geriátricos seniles (>65 de vida innegables vulnerables y frágiles pulmonares pre diabéticos y de abandono sistémico inmunológico puramente biológico involutivo) cruza estadísticamente de manera innegable el umbral predictivo del requerimiento letal orgánico respirador de Terapia Intensiva intubado (UCI)."
+                ]
+            },
+            {
+                "slug": "score-wells-tep-embolia",
+                "name": "Score WELLS Embolismo Pulmonar",
+                "subtitle": "Probabilidad Tromboembólica Pulmonar Aguda",
+                "icon": "🩸",
+                "specialty": "Neumología",
+                "shortDesc": "Riesgo TEP Embolia Wells",
+                "formTitle": "Síntomas y Clínica de Embolismo y Coágulos Sangrantes",
+                "inputs": [
+                    {
+                        "id": "w1",
+                        "type": "boolean",
+                        "label": "Signos francos visibles de Trombosis Cruda Severa Clínica Venosa TVP en extremidades y dolores profundos pantorrilla edematoso (3.0 pts)"
+                    },
+                    {
+                        "id": "w2",
+                        "type": "boolean",
+                        "label": "Acaso y ¿El Diagnóstico TEP es flagrantemente médicamente e indiscutiblemente la Causa Mayoritaria Más Fuerte Cruda Que Explícitamente Biológica Explica el Choque Paciente Crudo Y No Hay Más Opciones Claras y Despejables Diagnósticas Mejor Explicativas Evidentes Alternativas Agudas Clínicas Clínicas (3.0)?"
+                    },
+                    {
+                        "id": "w3",
+                        "type": "boolean",
+                        "label": "Tasa Rápida Pura Pulso y Taquicardia Arterial Cardiaca Severa Estricta Acelerada Innegable Letal Masiva y Elevada Cardiaca Frecuencia > 100 y letal cardiaca lpm pura (1.5 pts)"
+                    },
+                    {
+                        "id": "w4",
+                        "type": "boolean",
+                        "label": "Postración Cama Indiscutible Quirúrgica Trombomatosa > 3 crudos días reposos o Invasión Médica Operatoria Cirugía Previa de menos o a los postreros 30 o 4 Semanas quirófano previo (1.5 pts)"
+                    },
+                    {
+                        "id": "w5",
+                        "type": "boolean",
+                        "label": "Histórico Precedente Claro Crónico Confirmado Franco Biológico e Indudable Clínico Médico Trombosis Médica TVP Pura Ciega Previa Médica Crónica Basal Comorbida o TEP Histórico Médico Documentado Explicito Previo Base Trombogénico Biológico Comprobado (1.5 pts)"
+                    },
+                    {
+                        "id": "w6",
+                        "type": "boolean",
+                        "label": "Desgarro Hemangioma Franco Tos Hemoptisis Cruda Sanguinolento Expectorante Puro Sangrante Ortopneico Clínico Tos o Moco Sanguineo Tisular Letal Franco Frotis o Tos Aguda Respiratorio y Sangre Respiratorio Esputando Sangre Esputo Sangrante Innegable Sangrante Respiratorios Puro (1.0 pts)"
+                    },
+                    {
+                        "id": "w7",
+                        "type": "boolean",
+                        "label": "Neoplasia Metástasis Letal Tumoral Maligna Activa Biológica o tratada crónicamente hace un año 6 letales dolorosos y malignos Oncológicos meses crónicamente de historial activo invasivo agresivo médico (1.0 pts)"
+                    }
+                ],
+                "logic": "let p=0;if(w1)p+=3.0;if(w2)p+=3.0;if(w3)p+=1.5;if(w4)p+=1.5;if(w5)p+=1.5;if(w6)p+=1.0;if(w7)p+=1.0;let l='TEP Improbable Baja Pobre Probabilidad Clínica D-Dímero Confirmatorio Agudo Desacreditada y Virtual Mínima y Negativa y Virtualmente Clínica Mínima Nula Infecciosa',col='text-green-600',bg='bg-green-100',d='Riesgos del <3.4%. Exigir Dímero-D, si es negativo se excluye el TEP. Si no pedir Angio TAC pulmonar para estar super certeros médicos.';if(p>6){l='Alta Confirmatoria Flagrante Probable Urgente Alta Cruda Y Letal TEP',col='text-red-700',bg='bg-red-100',d='Riesgos del 40-78%. Escanear inminente urgente letal rápido urgente innegable con TAC Tomografía inyección médica pulmonar angiográfica Angio y Angio escáner urgente cruzar a vascular urgente hospitalizado heparina inmediata cruda masiva.'}else if(p>=2){l='Moderada Cierta Probabilidad Angio Indudable Tomográfica',col='text-orange-600',bg='bg-orange-100',d='Riesgos del 16% al 28%. Requiere Dímero D altísimo o tomografía médica pulmonar torácica.'}setResultado({value: p+' pts', label:l, color:col, bg:bg, desc:d});",
+                "resultType": "score",
+                "resultLabel": "Wells Riesgo Calculador Clínico TEP Masivo Trombótico Global",
+                "ctaTitle": "Valoración Sangre y Fibrina Letal Dímero D Torácico TVP Trombo Confirmatoria",
+                "ctaDesc": "Si sacas más de 1.5 puntos Wells necesitas urgente obligadamente verificar el biomarcador D-Dímero cruzado sangrante para evitar infarto vascular masivo.",
+                "ctaAction": "Cuantifica Sangrado y Fibrina D",
+                "ctaStudy": "Dimero D Sangre Letal Cuantitativo",
+                "seoTitle": "Por qué y cómo diagnosticar TEP con Score Wells Urgente Hemático Coagulación Coágulos",
+                "seoContent": [
+                    "Diseñado para urgencias agudas por el ínclito hematólogo letal Wells a finales médicos de los noventa. Es la herramienta oficial mundial dorada trombótica indiscutible clínica letal predictiva sistémica angio cardiológica validada en guías para filtrar coágulos masivos mortales agudos y fulminantes innegables embolismos mortales arteriales pulmonares obstructivos venosos (TEP).",
+                    "Esta letal escala ponderada adjudica innegables biológicos puntos matemáticos crudos logarítmicos mayores cuando explícitamente existe trombos innegables crudos venosos de venas grandes TVP o cuando no se dispone absolutamente innegable e indiscutible médica o biológicamente de nadie y nada que explique la aguda disnea insufrible cruda hipóxica sino un embolo."
+                ]
+            }
+        ]
+    }
+]

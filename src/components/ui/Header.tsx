@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { Search, Menu, Phone, User, Heart, LogOut, Settings, X, TestTube, MapPin, Tag, FileText, Gift, HelpCircle, BookOpen, Info, Calculator, Stethoscope } from 'lucide-react';
+import { Search, Menu, Phone, User, Heart, LogOut, Settings, X, TestTube, MapPin, Tag, FileText, Gift, HelpCircle, BookOpen, Info, Calculator, Stethoscope, Activity } from 'lucide-react';
 import { SearchBar } from './SearchBar';
 import { CartBadge } from '@/components/cart/CartBadge';
 import { useState, useEffect } from 'react';
@@ -14,6 +14,7 @@ const mobileNavLinks = [
     { href: '/paquetes', label: 'Paquetes', icon: Gift, accent: 'text-blue-600' },
     { href: '/check-ups', label: 'Check-Ups', icon: Heart, accent: 'text-pink-600' },
     { href: '/sintomas', label: 'Síntomas A-Z', icon: Stethoscope, accent: 'text-rose-600' },
+    { href: '/valores-clinicos', label: 'Biomarcadores', icon: Activity, accent: 'text-indigo-600' },
     { href: '/sucursales', label: 'Sucursales', icon: MapPin, accent: 'text-purple-600' },
     { href: '/promociones', label: 'Promociones', icon: Tag, accent: 'text-orange-600' },
     { href: '/nosotros', label: 'Nosotros', icon: Info, accent: 'text-cyan-600' },
@@ -72,6 +73,10 @@ export const Header = () => {
                         <Link href="/sintomas" className="text-gray-600 hover:text-rose-600 font-medium transition-colors flex items-center gap-1.5">
                             <Stethoscope size={16} className="text-rose-500" />
                             Síntomas
+                        </Link>
+                        <Link href="/valores-clinicos" className="text-gray-600 hover:text-indigo-600 font-medium transition-colors flex items-center gap-1.5">
+                            <Activity size={16} className="text-indigo-500" />
+                            Biomarcadores
                         </Link>
                         <Link href="/herramientas" className="text-gray-600 hover:text-green-600 font-medium transition-colors">Herramientas</Link>
                         <Link href="/nosotros" className="text-gray-600 hover:text-green-600 font-medium transition-colors">Nosotros</Link>

@@ -1,0 +1,237 @@
+[
+    {
+        "slug": "ictericia",
+        "name": "Piel y Ojos Amarillos (Ictericia)",
+        "medicalName": "Ictericia / Hiperbilirrubinemia",
+        "cie10": "R17",
+        "intro": "La ictericia es la coloración amarillenta de la piel, las membranas mucosas y la esclerótica (blanco de los ojos) causada por la acumulación anormal de bilirrubina en los tejidos. La bilirrubina es un pigmento producido durante la degradación normal de los glóbulos rojos que el hígado debe procesar y eliminar junto con la bilis hacia el intestino. Cuando este proceso falla —por destrucción excesiva de glóbulos rojos, daño hepático o bloqueo de las vías biliares— la bilirrubina se acumula en el plasma y tiñe los tejidos de amarillo. La ictericia es siempre un signo de alarma que requiere evaluación médica inmediata.",
+        "causes": [
+            {
+                "name": "Hepatitis Viral Aguda (A, B, C, E)",
+                "desc": "La inflamación hepática viral interrumpe la capacidad del hígado para procesar la bilirrubina. La hepatitis A y E suelen ser autolimitadas; las hepatitis B y C crónicas pueden evolucionar a cirrosis. Se acompañan de fatiga severa, náuseas, orina color té y heces descoloridas."
+            },
+            {
+                "name": "Cálculos Biliares (Coledocolitiasis)",
+                "desc": "Piedras que migran del colecisto al conducto biliar común (colédoco) y lo obstruyen, impidiendo el drenaje de bilis hacia el intestino. Genera ictericia obstructiva con coluria (orina oscura), acolia (heces blancas) y prurito intenso."
+            },
+            {
+                "name": "Cirrosis Hepática Avanzada",
+                "desc": "El reemplazo progresivo del parénquima hepático por tejido cicatricial —por alcohol crónico, hepatitis viral o enfermedad autoinmune— destruye la función hepatocelular de manera irreversible, acumulando bilirrubina y toxinas."
+            },
+            {
+                "name": "Cáncer de Páncreas y Vías Biliares (Colangiocarcinoma)",
+                "desc": "Los tumores de la cabeza del páncreas comprimen el colédoco produciendo ictericia obstructiva progresiva indolora, pérdida de peso severa y vesícula palpable sin dolor (Signo de Courvoisier). Es la tríada clásica del cáncer de páncreas."
+            }
+        ],
+        "redFlags": [
+            "Ictericia de instauración rápida con fiebre alta, escalofríos y dolor en hipocondrio derecho (Tríada de Charcot — colangitis bacteriana aguda, emergencia).",
+            "Confusión mental, temblor tipo aleteo (flapping tremor) o somnolencia con ictericia (encefalopatía hepática — fallo hepático agudo).",
+            "Ictericia progresiva sin dolor en adulto mayor con pérdida de peso severa (sospecha alta de cáncer pancreático).",
+            "Ictericia en recién nacido que aparece en las primeras 24 horas de vida (patológica, requiere evaluación neonatal urgente)."
+        ],
+        "tests": [
+            {
+                "name": "Perfil Hepático Completo (TGO, TGP, GGT, Bilirrubinas)",
+                "url": "/estudios/analisis-clinicos/perfil-hepatico"
+            },
+            {
+                "name": "Hepatitis B Surface Antigen y Anti-VHC (Hepatitis Viral)",
+                "url": "/estudios/analisis-clinicos/hepatitis-b"
+            }
+        ],
+        "tools": [
+            {
+                "name": "Calculadora de Riesgo de Hepatitis Crónica",
+                "url": "/herramientas/riesgo-hepatitis"
+            }
+        ]
+    },
+    {
+        "slug": "dolor-perineal",
+        "name": "Dolor en la Zona Pélvica o Perineal",
+        "medicalName": "Prostatitis / Dispareunia / Neuralgia Pudenda",
+        "cie10": "N94.1",
+        "intro": "El dolor pélvico crónico es una de las condiciones más complejas y subestimadas en medicina. Se define como dolor continuo o recurrente en la pelvis de más de seis meses de duración, sin una causa orgánica directamente identificable en muchos casos. Afecta igualmente a hombres y mujeres, aunque con condiciones subyacentes distintas. En hombres, la prostatitis crónica es la causa más frecuente; en mujeres, la endometriosis, cistitis intersticial y vulvodinia son los diagnósticos principales. Su impacto en la calidad de vida, la función sexual y la salud mental es considerable.",
+        "causes": [
+            {
+                "name": "Prostatitis Crónica / Síndrome de Dolor Pélvico Crónico (en Hombres)",
+                "desc": "Inflamación o disfunción de la próstata sin evidencia bacteriana en muchos casos. Produce dolor en el periné, genitales, región lumbar baja y dolor al eyacular. Es la condición urológica más frecuente en hombres menores de 50 años."
+            },
+            {
+                "name": "Endometriosis (en Mujeres)",
+                "desc": "Implantes de tejido endometrial fuera del útero que sangran cíclicamente, provocando inflamación, adherencias y dolor crónico. Causa dismenorrea severa, dispareunia profunda (dolor durante las relaciones sexuales), infertilidad y dificultad para defecar durante la menstruación."
+            },
+            {
+                "name": "Cistitis Intersticial (Síndrome de Vejiga Dolorosa)",
+                "desc": "Inflamación crónica de la pared vesical sin infección demostrable. Genera urgencia miccional severa, frecuencia urinaria elevada y dolor suprapúbico que empeora al llenar la vejiga. Afecta predominantemente a mujeres."
+            },
+            {
+                "name": "Neuralgia Pudenda",
+                "desc": "Compresión o daño del nervio pudendo —principal nervio del periné— que produce dolor urente, eléctrico o punzante en genitales, recto y periné. Empeora al sentarse y mejora al estar de pie o acostado."
+            }
+        ],
+        "redFlags": [
+            "Dolor perineal agudo con fiebre alta, incapacidad de sentarse y ganglios inguinales inflamados (absceso perineal o isquio-rectal —emergencia quirúrgica).",
+            "Dolor pélvico súbito en mujer en edad reproductiva con amenorrea y prueba de embarazo positiva (embarazo ectópico roto).",
+            "Hematuria macroscópica asociada al dolor pélvico en paciente fumador mayor de 50 años (cáncer de vejiga).",
+            "Dolor pélvico con masa abdominal palpable de crecimiento rápido en mujer posmenopáusica (cáncer ovárico)."
+        ],
+        "tests": [
+            {
+                "name": "Examen General de Orina y Urocultivo",
+                "url": "/estudios/analisis-clinicos/examen-general-de-orina"
+            },
+            {
+                "name": "Antígeno Prostático Específico (PSA) en Hombres",
+                "url": "/estudios/analisis-clinicos/antigeno-prostatico-especifico-psa"
+            }
+        ],
+        "tools": [
+            {
+                "name": "Test de Infección Urinaria Recurrente",
+                "url": "/herramientas/test-infeccion-urinaria"
+            }
+        ]
+    },
+    {
+        "slug": "hiperpigmentacion-piel",
+        "name": "Manchas Oscuras en la Piel (Hiperpigmentación)",
+        "medicalName": "Hiperpigmentación Cutánea / Melasma / Acantosis Nigricans",
+        "cie10": "L81.9",
+        "intro": "La hiperpigmentación cutánea es el oscurecimiento focal o difuso de la piel causado por el exceso de producción o depósito de melanina u otros pigmentos. Aunque con frecuencia tiene causas cosméticas benignas como la exposición solar crónica o el embarazo, algunas formas de hiperpigmentación son la señal visible de enfermedades sistémicas importantes que afectan glándulas endócrinas, el hígado o el sistema suprarrenal. Reconocer el patrón de distribución, el color exacto y los síntomas acompañantes es esencial para distinguir entre una mancha inofensiva y un signo de alarma metabólica.",
+        "causes": [
+            {
+                "name": "Melasma (Cloasma) por Sol, Hormonas o Embarazo",
+                "desc": "Manchas pardas o marrones simétricas en frente, mejillas, labio superior y mentón. Frecuente en mujeres durante el embarazo (máscara del embarazo), uso de anticonceptivos hormonales y exposición solar crónica. La melanina extraepidérmica responde a estrógenos."
+            },
+            {
+                "name": "Acantosis Nigricans (Resistencia a la Insulina)",
+                "desc": "Engrosamiento aterciopelado y oscurecimiento de la piel en pliegues axilares, cuello, ingles y nudillos. Es un biomarcador cutáneo de resistencia severa a la insulina asociada a obesidad, diabetes tipo 2, síndrome de ovario poliquístico o tumores gastrointestinales en adultos."
+            },
+            {
+                "name": "Enfermedad de Addison (Insuficiencia Suprarrenal)",
+                "desc": "La deficiencia de cortisol estimula en exceso la producción de ACTH, que tiene actividad melanocito-estimulante. Produce hiperpigmentación generalizada característica en pliegues palmares, cicatrices, encías y mucosa bucal. Se acompaña de fatiga extrema, hipotensión y pérdida de peso."
+            },
+            {
+                "name": "Hiperpigmentación Post-inflamatoria",
+                "desc": "Manchas oscuras que quedan tras la cicatrización de lesiones inflamatorias previas (acné, eczema, quemaduras). Son más marcadas en fototipos oscuros. Representan un exceso de melanina depositado durante el proceso inflamatorio."
+            }
+        ],
+        "redFlags": [
+            "Hiperpigmentación generalizada (no focal) con fatiga extrema, hipotensión y pérdida de peso —sospecha de Insuficiencia Suprarrenal (Addison) que puede ser fatal sin tratamiento.",
+            "Mancha pigmentada asimétrica de bordes irregulares, múltiples colores y crecimiento rápido en adulto — sospecha de melanoma.",
+            "Acantosis Nigricans de aparición súbita en adulto sin obesidad —puede ser signo paraneoplásico de cáncer gastrointestinal.",
+            "Hiperpigmentación con ictericia, hepatomegalia y alteración del metabolismo del hierro (hemocromatosis)."
+        ],
+        "tests": [
+            {
+                "name": "Glucosa en Ayuno e Insulina Sérica (HOMA-IR)",
+                "url": "/estudios/analisis-clinicos/glucosa"
+            },
+            {
+                "name": "Cortisol Sérico Matutino y ACTH Plasmático",
+                "url": "/estudios/analisis-clinicos/cortisol"
+            }
+        ],
+        "tools": [
+            {
+                "name": "Calculadora de Resistencia a la Insulina (HOMA-IR)",
+                "url": "/herramientas/indice-homa-resistencia-insulina"
+            }
+        ]
+    },
+    {
+        "slug": "aumento-peso-rapido",
+        "name": "Aumento de Peso Rápido e Inexplicable",
+        "medicalName": "Obesidad Secundaria / Mixedema / Síndrome de Cushing",
+        "cie10": "E66",
+        "intro": "Subir de peso rápidamente sin cambios evidentes en la dieta o el nivel de actividad física es un síntoma que requiere investigación clínica. A diferencia de la obesidad primaria causada por desequilibrio calórico crónico, la ganancia de peso rápida puede ser secundaria a enfermedades endócrinas, retención de líquidos por falla orgánica, efectos de medicamentos o condiciones psiquiátricas. Identificar la causa subyacente no solo explica el aumento de peso sino que permite un tratamiento dirigido y eficaz.",
+        "causes": [
+            {
+                "name": "Hipotiroidismo No Diagnosticado",
+                "desc": "La disminución de hormonas tiroideas enlentece el metabolismo basal drásticamente. El aumento de peso es moderado (5-10 kg), predominantemente por mixedema (acumulación de mucopolisacáridos en tejidos) más que por grasa. Se acompaña de fatiga, frío, estreñimiento y piel seca."
+            },
+            {
+                "name": "Síndrome de Cushing (Exceso de Cortisol)",
+                "desc": "El hipercortisolismo produce un patrón de distribución adiposa muy característico: obesidad central (panza de batracio), joroba de búfalo en la nuca, cara de luna llena, estrías violáceas anchas en abdomen y muslos, hipertensión e intolerancia a la glucosa."
+            },
+            {
+                "name": "Retención de Líquidos (Edema) por Falla Orgánica",
+                "desc": "La insuficiencia cardíaca congestiva, cirrosis hepática o enfermedad renal crónica generan retención de sodio y agua que se manifiesta como edema y aumento de peso aparente. En la falla cardíaca el edema es declive bilateral en ambas piernas."
+            },
+            {
+                "name": "Efectos de Medicamentos (Corticoesteroides, Antipsicóticos, Insulina)",
+                "desc": "Los corticoesteroides sistémicos crónicos mimetizan el Síndrome de Cushing. Los antipsicóticos atípicos (olanzapina, clozapina, quetiapina) estimulan el apetito y producen ganancia de peso significativa como efecto adverso frecuente."
+            }
+        ],
+        "redFlags": [
+            "Aumento de peso con disnea progresiva, ortopnea (incapacidad de dormir plano) y edema bilateral de piernas (insuficiencia cardíaca descompensada).",
+            "Ganancia de peso rápida con estrías violáceas anchas, hipertensión severa e intolerancia a la glucosa en adulto joven (Síndrome de Cushing).",
+            "Aumento de peso con orina espumosa, edema facial matutino y hipertensión (síndrome nefrótico).",
+            "Ganancia súbita de más de 2 kg en 24-48 horas en paciente con insuficiencia cardíaca conocida (descompensación cardíaca urgente)."
+        ],
+        "tests": [
+            {
+                "name": "Perfil Tiroideo Completo (TSH, T4 Libre)",
+                "url": "/estudios/analisis-clinicos/perfil-tiroideo"
+            },
+            {
+                "name": "Cortisol en Orina de 24 Horas y Cortisol Libre",
+                "url": "/estudios/analisis-clinicos/cortisol"
+            }
+        ],
+        "tools": [
+            {
+                "name": "Calculadora de IMC y Riesgo Metabólico",
+                "url": "/herramientas/calculadora-imc"
+            }
+        ]
+    },
+    {
+        "slug": "hormigueo-manos-pies",
+        "name": "Hormigueo y Adormecimiento en Manos y Pies",
+        "medicalName": "Parestesias / Neuropatía Periférica / Síndrome del Túnel Carpiano",
+        "cie10": "R20.2",
+        "intro": "Las parestesias —sensación de hormigueo, adormecimiento, pinchazos o corriente eléctrica en las extremidades— son síntomas neurológicos que señalan alteración en la transmisión de señales eléctricas por los nervios periféricos o fibras de la médula espinal. Cuando son transitorias y desaparecen al cambiar de posición, generalmente reflejan compresión momentánea de un nervio. Sin embargo, cuando son persistentes, progresivas y simétricas (especialmente en guante o calcetín), indican neuropatía periférica que puede ser la manifestación de diabetes, déficit vitamínico o exposición a tóxicos.",
+        "causes": [
+            {
+                "name": "Neuropatía Diabética Periférica",
+                "desc": "La hiperglucemia crónica daña la vaina de mielina y los axones de los nervios periféricos de forma gradual. Las parestesias comienzan en los pies de forma simétrica, con sensación de quemazón nocturna, pérdida de sensibilidad protectora y riesgo de úlceras del pie diabético."
+            },
+            {
+                "name": "Síndrome del Túnel Carpiano",
+                "desc": "Compresión del nervio mediano al pasar por el túnel carpiano de la muñeca. Genera hormigueo y adormecimiento del pulgar, índice, medio y mitad del anular. Empeora de madrugada, despertando al paciente. Frecuente en mujeres embarazadas, diabéticos y personas con trabajo manual repetitivo."
+            },
+            {
+                "name": "Déficit de Vitamina B12 (Anemia Perniciosa, Veganos)",
+                "desc": "La vitamina B12 es esencial para la síntesis de mielina. Su deficiencia provoca degeneración subaguda combinada de la médula espinal con parestesias simétricas en piernas que ascienden, pérdida del sentido de vibración y problemas de equilibrio. Los veganos y adultos mayores son los grupos de mayor riesgo."
+            },
+            {
+                "name": "Hipotiroidismo con Afectación Nerviosa",
+                "desc": "Las hormonas tiroideas son necesarias para la función normal del sistema nervioso periférico. El hipotiroidismo no tratado puede producir neuropatía periférica con parestesias y el síndrome del túnel carpiano como complicación frecuente."
+            }
+        ],
+        "redFlags": [
+            "Hormigueo de aparición súbita en una mitad del cuerpo (hemicuerpo) —sospecha de accidente cerebrovascular isquémico en evolución.",
+            "Parestesias que ascienden desde los pies hacia las piernas en dias acompañadas de debilidad muscular (síndrome de Guillain-Barré —emergencia neurológica).",
+            "Hormigueo con pérdida del control de vejiga o intestino —compresión medular que requiere cirugía urgente.",
+            "Parestesias bilaterales en manos y pies en paciente con diabetes de larga evolución con úlceras plantares que no duelen (pie diabético neuropático de alto riesgo)."
+        ],
+        "tests": [
+            {
+                "name": "Glucosa en Ayuno y Hemoglobina Glucosilada HbA1c",
+                "url": "/estudios/analisis-clinicos/hemoglobina-glucosilada-hba1c"
+            },
+            {
+                "name": "Vitamina B12 y Ácido Fólico Séricos",
+                "url": "/estudios/analisis-clinicos/vitamina-b12"
+            }
+        ],
+        "tools": [
+            {
+                "name": "Test de Riesgo de Neuropatía Diabética",
+                "url": "/herramientas/riesgo-neuropatia-diabetica"
+            }
+        ]
+    }
+]

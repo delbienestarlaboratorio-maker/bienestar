@@ -1,0 +1,132 @@
+[
+    {
+        "name": "Oncología",
+        "icon": "🎗️",
+        "calculators": [
+            {
+                "slug": "indice-roma-ovario",
+                "name": "Índice de Malignidad Ovárica ROMA",
+                "subtitle": "Evaluación del Riesgo de Masa Pélvica Ovárica",
+                "icon": "🩸",
+                "specialty": "Oncología",
+                "shortDesc": "Ca Ovárico Cáncer ROMA",
+                "formTitle": "Marcadores Tumorales Serológicos Ováricos",
+                "inputs": [
+                    {
+                        "id": "menopausia",
+                        "type": "select",
+                        "label": "Estado Menopáusico",
+                        "options": [
+                            {
+                                "value": "1",
+                                "label": "Premenopáusica Múltiple Origen de Edad Fértil Activo Genital (Menstruante Activa Ginecológica Genital Menstrual Periodo Fértil Pura Sangrante Activa Vigorosa Fértil Sangre Útero Genital Ovarios Hormonales Activos)"
+                            },
+                            {
+                                "value": "2",
+                                "label": "Postmenopáusica Inactiva Sangrante Regla Útero Inactiva Hormonal Genital Menopausia Pura Menopausia Climaterio Genitales Pasados"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "ca125",
+                        "type": "number",
+                        "label": "Marcador Tumoral CA-125 Sérica",
+                        "unit": "U/mL",
+                        "placeholder": "ej: 50"
+                    },
+                    {
+                        "id": "he4",
+                        "type": "number",
+                        "label": "Marcador Tumoral HE4 Sérica",
+                        "unit": "pmol/L",
+                        "placeholder": "ej: 120"
+                    }
+                ],
+                "logic": "const meno=parseInt(menopausia);const ca=parseFloat(ca125);const he=parseFloat(he4);if(!meno||!ca||!he)return;let pi=0;let prob=0;if(meno===1){pi = -12.0 + 2.38*Math.log(he) + 0.0626*Math.log(ca);prob = Math.exp(pi)/(1+Math.exp(pi))*100;let l='Alto Riesgo Quirúrgico Cáncer (> 11.4%)',c='text-red-700',b='bg-red-100',d='La paciente pre-menopáusica entra en estratificación inmediata de altísimo innegable riesgo pélvico cirujano oncológico.';if(prob<11.4){l='Bajo Probable Nódulo Quiste Ovario Benigno (< 11.4%)';c='text-green-600';b='bg-green-100';d='Masas ováricas ginecológicamente controlables seguras en clínica ginecológica.'}setResultado({value: prob.toFixed(1), unit: '% ROMA Score', label:l, color:c, bg:b, desc:d});}else{pi = -8.09 + 1.04*Math.log(he) + 0.732*Math.log(ca);prob = Math.exp(pi)/(1+Math.exp(pi))*100;let l='Cáncer Ovario Inminente Maligno Letal Post-Menopáusica Alta (> 29.9%)',c='text-red-900',b='bg-red-200',d='Severo estado inminente quirófano ginecológico maligno cáncer. Letal malignidad ovárica pura oncología.';if(prob<29.9){l='Masa Quística Posible Cirugía Innecesaria Oncológica Menopausia Pura (< 29.9%)';c='text-yellow-600';b='bg-yellow-100';d='Riesgos del 29%. Evaluaciones repetidas gineco laparoscópicas pero NO oncológicas crudas radicales malignas mortales agresivas extremas amputativas ginecológicas.'}setResultado({value: prob.toFixed(1), unit: '% ROMA Score', label:l, color:c, bg:b, desc:d});}",
+                "resultType": "number",
+                "resultLabel": "Porcentaje Logarítmico Muerte Cáncer ROMA Predictivo Ovárico Gineco Biomarcador",
+                "ctaTitle": "Valoración Sangre CA-125 Ovular Confirmatoria Marcadores Ováricos Pre-Quirúrgicos",
+                "ctaDesc": "No decidas una extirpación ovárica y anexos agresiva quirúrgica gineco castrante sin tener a la mano biomarcadores medidos químicos séricos pélvicos.",
+                "ctaAction": "CA-125 Antígeno Ginecológico Marcador",
+                "ctaStudy": "Ca 125 Quimica Tumoral Sanguinea",
+                "seoTitle": "Índice ROMA de Ovario Riesgo Cáncer Ovárico Quirúrgico Score Marcador Sangre Tumor Pélvico Quiste",
+                "seoContent": [
+                    "El sistema de Ovario Oncológico ROMA es el estándar dorado médico universal global ginecológico logarítmico para diferenciar abismal y estricta una simple y gorda inofensiva bola o quiste ovárico benigno puramente doloroso (como hemorragias o líquido de chocolate endometrial benigno pre menstrual biológico benigno pélvico doloroso pero de ninguna índole neoplásico quirúrgico letal maligno mortal tumoral gineco ovular mortal inminente puramente metástasis sistémica) frente a horribles crueles y francos crasos mortales agresivos masivos letales silenciosos carcinomas ovarios.",
+                    "Requiere el cruce de un doble marcador y factor puramente hormonal menopáusico del estado sexual de reproducción de la edad femenina: El famoso tradicional clásico Antígeno marcador clínico Ovárico CA 125 medible séricamente (cuya simple elevación o falso positivo se ensucia abismalmente de falsedades e inexactitudes con la apendicitis o menstruaciones) cruzado logarítmicamente contra el novedoso potentísimo puro infalible y estricto biológico neoplásico puro y sin alteraciones falso puro marcador tumoral HE4 puramente cancerígeno letal para elevar francamente estratificaciones quirúrgicas estrictas radicales oncológicas."
+                ]
+            },
+            {
+                "slug": "score-mascc-oncologia",
+                "name": "Score MASCC de Oncológico Riesgo Neutropénico Febril y Muerte Severo",
+                "subtitle": "Clasificador multinacional Asociación en Cuidados y Terapia Soporte Infección Cáncer (Multinational Assesment Support in Cancer Care MASCC Neutropenia FEBRIL)",
+                "icon": "☢️",
+                "specialty": "Oncología",
+                "shortDesc": "Riesgo Neutropénico MASCC",
+                "formTitle": "Evaluación Clínica Neutropénica Oncológica Oncológica Quimioterapia Sepsis Cáncer Sérica Febril",
+                "inputs": [
+                    {
+                        "id": "carga",
+                        "type": "select",
+                        "label": "Presencia Fuerte Clara Oncológica y Evidente de Carga Puramente Clínica Pura y Tumor Biológico Activo Tumoral de Enfermedad u otra afección médica (Ej. Disnea o Choque Severo)",
+                        "options": [
+                            {
+                                "value": "5",
+                                "label": "Ausente/Leve Poca Infección de Carga Oncológica Clínica Tumor Activo (5 Pts)"
+                            },
+                            {
+                                "value": "3",
+                                "label": "Tratamientos Leves o Tumor de Carga Moderadamente Controlado Oncológica Comórbida (3 Pts)"
+                            },
+                            {
+                                "value": "0",
+                                "label": "Severamente Agotado Encamado Oncológico Inmunodeprimido Activo Pobre Pésima Carga Estado Oncológica Terminal Generalizada Encamado Disgregativo (0 Pts)"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "presion",
+                        "type": "boolean",
+                        "label": "Ausencia Presión Arterial Hipotensiva Severa Baja Letal (> 90 mmHg sistólica pura médica compensada clínica (5)"
+                    },
+                    {
+                        "id": "epoc",
+                        "type": "boolean",
+                        "label": "Paciente Carece Sanamente Fumar Respirar Sin Falla de Cuadros Severos EPOC Pulmonar Infecciosos (4 pts)"
+                    },
+                    {
+                        "id": "tumor",
+                        "type": "boolean",
+                        "label": "Cáncer que se trata de puros Tumores Clínicos Orgánicos Sólidos Oncológicos y No Cáncer Sanguíneo Leucémico Letal, Ó un diagnóstico Sanguíneo Pre-Hematológico Letal Cáncer pero libre completamente sin afectaciones hongos pura y letal o infecciosa invasiva letal por moho (Micosis) oncológicos (4)"
+                    },
+                    {
+                        "id": "deshi",
+                        "type": "boolean",
+                        "label": "Paciente Clínicamente hidratado Sanamente Estricto sin Sangrados Sangrantes u Puros Francos Estrictos Comprobables y Evidenciados Caseros de Inestable Severa o Severa Pura letal médica comprobada de Deshidratación Oncológica o Clínica Séptico Diarreica Mortal Aguda Médica Extrema Deshidratativa Cruda Aguda Intravenosa (3 pts)"
+                    },
+                    {
+                        "id": "estado",
+                        "type": "boolean",
+                        "label": "El paciente atiende en estado puro Ambulatorio Estable Oncológico Inmunodeprimido y No está internado ingresado clínico pre o inter nosocomial u postquirúrgicos en urgencia UVI Infecciosa Letal y Activa Clínica UCI Cama Clínica Infeccioso UCI (3 pts)"
+                    },
+                    {
+                        "id": "edad",
+                        "type": "boolean",
+                        "label": "El paciente Oncológico de Cáncer Ostenta Juveniles Puros Sanos o Menos Ancianos puros puramente Adultos y Adultas de Menos < Menos Sesenta Adultos Sanos Longevos Jóvenes Edades Edad Años o 60 (2 Pts)"
+                    }
+                ],
+                "logic": "let pts=0;const c=parseInt(carga);if(!isNaN(c))pts+=c;if(presion)pts+=5;if(epoc)pts+=4;if(tumor)pts+=4;if(deshi)pts+=3;if(estado)pts+=3;if(edad)pts+=2;let l='Alto Clínico Flagrante Peligro y Hospital y Biología Mortal UCI 40% (Score < 21)',col='text-red-700',bg='bg-red-100',d='Este oncológico cruento y febril morirá cruda en sepsis médica de shock. Requerimiento intravenoso puro de urgencia empírico puramente sistémico antibiótico UCI neutropénico inmediato masivo pre intubación cruda letal masiva de líquidos uremicos mortales infecciosos puros urgentes hematológicos sin defensas UCI hospital inmediato cruzada antibiótica inminente.';if(pts>=21){l='Excelente Buen Soporte Mortal Bajo Pobre e Insignificante 5% En Casa Ambulatorios (> 21 Pts)',col='text-green-600',bg='bg-green-100';d='Altísimo de probabilidad innegable para mandar de regreso oncológicos urgentes a casas en quimios con pastillas antibióticos ciprofloxacinos amoxicilinas seguros. (PPV >90%).';}setResultado({value: pts+'/26', label:l, color:col, bg:bg, desc:d});",
+                "resultType": "score",
+                "resultLabel": "Criterios Clínicos De Seguridad De Alta Segura Paciente Febril Cáncer",
+                "ctaTitle": "Una Simple BH (Biometría Hemática) Confirmaría y Aclara Quimio Letal Sepsis de Hemograma Blanco Linfático Blancos Neutropenia Cero Sepsis Febril Cáncer",
+                "ctaDesc": "Solo las exactas biometrías medicas leucocitos confirman neutropenias pre sepsis febriles de cancer",
+                "ctaAction": "Checa Inmunodeficiencia Neutropenia Blanca Sangre Defensas Letal",
+                "ctaStudy": "Biometria Hematica Leucocitos Blancas Sepsis",
+                "seoTitle": "¿Cómo Clasificar Muerte Infecciosa Cáncer y Neutropenia Sepsis Febril con Escala MASCC Score Oncológica Sanguínea Leucocitos Cáncer Febril?",
+                "seoContent": [
+                    "Dentro innegable de la química biológica estricta médica del oncológico quimioterápico crudo descompensado, la Neutropenia febril puramente clínica o Cáncer en Sepsis leucopenia franca hematológica inmune supresora post veneno quimio tóxico es devastadora innegable pura.",
+                    "Asigna matemáticamente pesos MASCC si es menor a los potentes e indudables 21 puntos vitales significa alta letal médica aguda pura morbilidad y la necesidad de encerrarlo hospital urgente para medicar intravenoso y proteger de mortales sepsis mortales crudos hongos neutrófilos e innegable e inevitable puramente bacterias anaeróbicas oncológicas hospital cruzadas mortales letales."
+                ]
+            }
+        ]
+    }
+]

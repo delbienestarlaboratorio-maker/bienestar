@@ -194,33 +194,113 @@ export default function CalculadoraTMBPage() {
                 />
                 <AdBanner variant="horizontal" className="mb-8" />
 
-                {/* Scientific Info Collapsible */}
-                <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden mb-8">
-                    <button onClick={() => setShowInfo(!showInfo)}
-                        className="w-full px-6 py-4 flex items-center justify-between text-left hover:bg-gray-50 transition-colors">
-                        <span className="font-bold text-gray-900">📚 ¿Qué es la TMB Mifflin-St Jeor? — Información Científica</span>
-                        <span className={`text-2xl transition-transform ${showInfo ? 'rotate-180' : ''}`}>▼</span>
-                    </button>
-                    {showInfo && (
-                        <div className="px-6 pb-6 border-t border-gray-100 pt-4 text-gray-700 text-sm space-y-4">
-                            <p>La <strong>Tasa Metabólica Basal (TMB)</strong> es la cantidad mínima de energía (calorías) que el cuerpo humano necesita para mantener las funciones vitales básicas estando en reposo (como respirar, mantener la temperatura y el latido cardíaco).</p>
+                {/* SEO Content GPT Injected */}
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+    <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🩺 Guía Médica y Científica Exhaustiva</h2>
+    <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+        <p>
+            En el "Laboratorio del Bienestar", entendemos que la gestión del peso y la optimización de la salud comienzan con una comprensión profunda de cómo nuestro cuerpo utiliza la energía. Nuestra calculadora de Tasa Metabólica Basal (TMB) y Gasto Energético Total (GET), basada en la precisa fórmula de Mifflin-St Jeor, es una herramienta fundamental para este propósito. Este artículo profundiza en la ciencia detrás de estas métricas vitales, su fisiopatología, cómo interpretar sus resultados y cuándo buscar atención médica adicional.
+        </p>
 
-                            <h4 className="font-bold text-gray-900">Mifflin-St Jeor vs Harris-Benedict</h4>
-                            <p>Aunque históricamente se usaba la ecuación de Harris-Benedict (1919), la <strong>Asociación Americana de Dietética (ADA)</strong> recomienda usar la ecuación de <strong>Mifflin-St Jeor (1990)</strong> porque ha demostrado ser mucho más precisa, especialmente en personas con sobrepeso y obesidad, reduciendo el margen de error del 20% a menos del 10%.</p>
+        <h3 className="text-2xl font-semibold text-gray-800 mt-8 mb-4 flex items-center gap-2">🔬 Fisiopatología de la TMB y el GET</h3>
+        <p>
+            La <strong>Tasa Metabólica Basal (TMB)</strong> representa la cantidad mínima de energía (calorías) que tu cuerpo necesita para mantener sus funciones vitales básicas en reposo absoluto. Esto incluye procesos esenciales como la respiración, la circulación sanguínea, la regulación de la temperatura corporal, la función cerebral y la reparación celular. Es, en esencia, el "costo de mantenimiento" de tu organismo.
+        </p>
+        <p>
+            La TMB está influenciada por varios factores fisiológicos:
+        </p>
+        <ul>
+            <li><strong>Edad:</strong> Disminuye con la edad, principalmente debido a la pérdida de masa muscular y cambios hormonales.</li>
+            <li><strong>Género:</strong> Los hombres suelen tener una TMB más alta que las mujeres debido a una mayor proporción de masa muscular.</li>
+            <li><strong>Peso y Altura:</strong> Un mayor peso y altura generalmente se correlacionan con una TMB más alta, ya que hay más tejido corporal que mantener.</li>
+            <li><strong>Composición Corporal:</strong> El tejido muscular es metabólicamente más activo que el tejido adiposo, por lo que una mayor masa muscular aumenta la TMB.</li>
+            <li><strong>Factores Hormonales:</strong> Hormonas tiroideas (T3 y T4) son reguladores clave del metabolismo. Un hipertiroidismo puede elevar la TMB, mientras que un hipotiroidismo la disminuye. Otras hormonas como la insulina, el cortisol y las hormonas sexuales también influyen.</li>
+            <li><strong>Genética:</strong> Existe una predisposición genética a tener una TMB naturalmente más alta o más baja.</li>
+        </ul>
+        <p>
+            El <strong>Gasto Energético Total (GET)</strong>, también conocido como Gasto Energético Diario Total (TDEE por sus siglas en inglés), es la suma de tu TMB y la energía adicional que consumes a lo largo del día. Se compone de tres elementos principales:
+        </p>
+        <ol>
+            <li><strong>TMB:</strong> Como se describió anteriormente, es el gasto energético en reposo.</li>
+            <li><strong>Efecto Termogénico de los Alimentos (ETA):</strong> La energía requerida para digerir, absorber y metabolizar los nutrientes de los alimentos. Representa aproximadamente el 10% del GET.</li>
+            <li><strong>Actividad Física y Termogénesis de la Actividad No Ejercicio (NEAT):</strong> La energía gastada durante el ejercicio intencional y todas las demás actividades físicas no relacionadas con el ejercicio (caminar, estar de pie, gesticular, etc.). Este es el componente más variable y modificable del GET.</li>
+        </ol>
+        <p>
+            La fórmula de Mifflin-St Jeor es una de las ecuaciones predictivas más utilizadas y validadas para estimar la TMB, ofreciendo una aproximación razonablemente precisa para la mayoría de los adultos.
+        </p>
 
-                            <div className="bg-gray-100 p-4 rounded-lg font-mono text-xs text-gray-600">
-                                <strong>Hombres:</strong> (10 × peso en kg) + (6.25 × altura en cm) - (5 × edad en años) + 5<br />
-                                <strong>Mujeres:</strong> (10 × peso en kg) + (6.25 × altura en cm) - (5 × edad en años) - 161
-                            </div>
+        <h3 className="text-2xl font-semibold text-gray-800 mt-8 mb-4 flex items-center gap-2">📈 Interpretación Clínica de Resultados Altos y Bajos</h3>
+        <p>
+            Comprender si tu TMB o GET son "altos" o "bajos" en relación con los valores esperados para tus características es crucial para establecer objetivos de salud realistas.
+        </p>
+        <h4>Resultados de TMB/GET Altos:</h4>
+        <ul>
+            <li><strong>Significado:</strong> Tu cuerpo quema más calorías en reposo o a lo largo del día de lo que se consideraría promedio para tu edad, género, peso y altura.</li>
+            <li><strong>Causas Comunes:</strong>
+                <ul>
+                    <li>Mayor masa muscular.</li>
+                    <li>Edad más joven.</li>
+                    <li>Nivel de actividad física elevado.</li>
+                    <li>Condiciones como hipertiroidismo, fiebre, estrés significativo o ciertas enfermedades crónicas.</li>
+                </ul>
+            </li>
+            <li><strong>Implicaciones:</strong> Necesitarás una ingesta calórica mayor para mantener tu peso. Si tu objetivo es ganar peso (masa muscular), el superávit calórico requerido será mayor. Si buscas perder peso, el déficit calórico puede ser más fácil de lograr, pero aún debe ser manejado cuidadosamente.</li>
+        </ul>
+        <h4>Resultados de TMB/GET Bajos:</h4>
+        <ul>
+            <li><strong>Significado:</strong> Tu cuerpo quema menos calorías en reposo o a lo largo del día de lo que se consideraría promedio.</li>
+            <li><strong>Causas Comunes:</strong>
+                <ul>
+                    <li>Mayor edad.</li>
+                    <li>Menor masa muscular y mayor porcentaje de grasa corporal.</li>
+                    <li>Estilo de vida sedentario.</li>
+                    <li>Condiciones como hipotiroidismo, privación severa de calorías (adaptación metabólica), o ciertos medicamentos.</li>
+                </ul>
+            </li>
+            <li><strong>Implicaciones:</strong> Necesitarás una ingesta calórica menor para mantener tu peso. La pérdida de peso puede ser más desafiante, requiriendo un control más estricto de las calorías y un aumento de la actividad física. La ganancia de peso puede ocurrir con una ingesta calórica moderada.</li>
+        </ul>
 
-                            <h4 className="font-bold text-gray-900">Gasto Energético Total (TDEE)</h4>
-                            <p>El TDEE (Total Daily Energy Expenditure) multiplica la TMB por el Factor de Actividad de Harris-Benedict actualizados. Esta es la cifra de "Calorías de Mantenimiento". Comer por encima de esto generará tejido, comer por debajo obligará al cuerpo a usar reservas de energía.</p>
+        <h3 className="text-2xl font-semibold text-gray-800 mt-8 mb-4 flex items-center gap-2">🚨 Banderas Rojas (Red Flags)</h3>
+        <p>
+            Si bien nuestra calculadora es una excelente herramienta de estimación, hay situaciones en las que los resultados o tu experiencia personal deberían motivarte a buscar una evaluación médica profesional:
+        </p>
+        <ul>
+            <li><strong>Discrepancia Extrema:</strong> Si tus resultados calculados no se alinean en absoluto con tu experiencia (ej. ganas peso fácilmente con una ingesta calórica muy baja, o pierdes peso sin esfuerzo con una ingesta alta).</li>
+            <li><strong>Síntomas de Disfunción Tiroidea:</strong>
+                <ul>
+                    <li><strong>Hipotiroidismo:</strong> Fatiga persistente, aumento de peso inexplicable, intolerancia al frío, piel seca, estreñimiento, voz ronca.</li>
+                    <li><strong>Hipertiroidismo:</strong> Pérdida de peso inexplicable, nerviosismo, palpitaciones, intolerancia al calor, temblores, sudoración excesiva.</li>
+                </ul>
+            </li>
+            <li><strong>Cambios de Peso Inexplicables:</strong> Ganancia o pérdida de peso significativa sin cambios en la dieta o el nivel de actividad.</li>
+            <li><strong>Fatiga Crónica o Falta de Energía:</strong> Que no mejora con el descanso adecuado.</li>
+            <li><strong>Dificultad Persistente para Alcanzar Objetivos:</strong> Si a pesar de seguir un plan dietético y de ejercicio consistente, no logras tus metas de peso o composición corporal.</li>
+        </ul>
 
-                            <h4 className="font-bold text-gray-900">Limitaciones</h4>
-                            <p>Si una persona tiene una composición corporal muy inusual (e.g. un fisicoculturista extramadamente magro), la fórmula de Katch-McArdle (que usa masa libre de grasa) es más precisa. Además, alteraciones tiroideas (Hipotiroidismo) pueden reducir la TMB real hasta un 30% respecto al cálculo matemático.</p>
-                        </div>
-                    )}
-                </div>
+        <h3 className="text-2xl font-semibold text-gray-800 mt-8 mb-4 flex items-center gap-2">🧪 Estudios de Laboratorio Recomendados</h3>
+        <p>
+            Para una evaluación más profunda de tu metabolismo y salud general, tu médico podría recomendar los siguientes estudios:
+        </p>
+        <ul>
+            <li><strong>Panel Tiroideo Completo:</strong>
+                <ul>
+                    <li><strong>TSH (Hormona Estimulante de la Tiroides):</strong> Indicador principal de la función tiroidea.</li>
+                    <li><strong>T4 Libre y T3 Libre:</strong> Miden los niveles de hormonas tiroideas activas.</li>
+                    <li><strong>Anticuerpos Tiroideos:</strong> Para descartar enfermedades autoinmunes de la tiroides.</li>
+                </ul>
+            </li>
+            <li><strong>Glucosa en Ayunas y Hemoglobina Glicosilada (HbA1c):</strong> Para evaluar el metabolismo de la glucosa y el riesgo de diabetes o resistencia a la insulina.</li>
+            <li><strong>Perfil Lipídico:</strong> Colesterol total, HDL, LDL y triglicéridos, importantes para la salud cardiovascular y metabólica.</li>
+            <li><strong>Hemograma Completo (CBC):</strong> Para detectar anemia u otras condiciones que puedan afectar los niveles de energía.</li>
+            <li><strong>Vitamina D:</strong> Niveles adecuados son importantes para la salud ósea, inmunológica y metabólica.</li>
+            <li><strong>Análisis de Composición Corporal:</strong> Métodos como la absorciometría de rayos X de energía dual (DEXA) o la bioimpedancia eléctrica pueden proporcionar una medición más precisa de la masa muscular y grasa, lo que influye directamente en la TMB.</li>
+            <li><strong>Calorimetría Indirecta:</strong> Considerado el "estándar de oro" para medir la TMB real. Aunque no es de rutina, puede ser útil en casos complejos para obtener una medición precisa del gasto energético en reposo.</li>
+        </ul>
+        <p>
+            En "Laboratorio del Bienestar", te animamos a usar nuestras herramientas como un punto de partida para tu viaje de salud. Siempre consulta con un profesional de la salud para un diagnóstico y plan de tratamiento personalizados.
+        </p>
+    </div>
+</section>
 
                 {/* Ad Banner bottom */}
                 
