@@ -90,6 +90,27 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         console.error("Sitemap Biomarcadores Error:", e);
     }
 
+    // 4.5 Páginas de precios (alto CPC — intención comercial)
+    let precioRoutes: MetadataRoute.Sitemap = [];
+    try {
+        const preciosDir = path.join(process.cwd(), 'src', 'app', 'precios');
+        if (fs.existsSync(preciosDir)) {
+            const slugs = fs.readdirSync(preciosDir)
+                .filter(f => {
+                    const fullPath = path.join(preciosDir, f);
+                    return fs.statSync(fullPath).isDirectory() && !f.startsWith('[');
+                });
+            precioRoutes = slugs.map(slug => ({
+                url: `${BASE_URL}/precios/${slug}`,
+                lastModified: new Date(),
+                changeFrequency: 'monthly' as const,
+                priority: 0.85,
+            }));
+        }
+    } catch (e) {
+        console.error("Sitemap Precios Error:", e);
+    }
+
     // 5. Estudios (desde base de datos)
     let studyRoutes: MetadataRoute.Sitemap = [];
     try {
@@ -122,5 +143,5 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         // Blog data may not be available
     }
 
-    return [...staticRoutes, ...dynamicTools, ...sintomasRoutes, ...biomarkerRoutes, ...studyRoutes, ...blogRoutes];
+    return [...staticRoutes, ...dynamicTools, ...sintomasRoutes, ...biomarkerRoutes, ...precioRoutes, ...studyRoutes, ...blogRoutes];
 }
