@@ -41,7 +41,7 @@ export default function PrivacidadPage() {
                     {/* Última actualización */}
                     <div className="bg-blue-50 border-l-4 border-blue-500 p-4">
                         <p className="text-sm text-blue-900">
-                            <strong>Última actualización:</strong> 5 de febrero de 2026
+                            <strong>Última actualización:</strong> 6 de marzo de 2026
                         </p>
                     </div>
 
@@ -52,18 +52,20 @@ export default function PrivacidadPage() {
                             Identidad del Responsable
                         </h2>
                         <p className="text-gray-700 leading-relaxed mb-4">
-                            <strong>Laboratorio Clínico Del Bienestar</strong>, con domicilio en [Dirección completa de la sucursal principal],
-                            es responsable del tratamiento de sus datos personales, de conformidad con la Ley Federal de Protección de Datos
-                            Personales en Posesión de Particulares (LFPDPPP) y su Reglamento, así como las disposiciones aplicables de la
-                            Comisión Federal para la Protección contra Riesgos Sanitarios (COFEPRIS).
+                            <strong>Laboratorio Clínico Del Bienestar</strong>, con domicilio en Ignacio Galván 27, Centro,
+                            Tizayuca, Hidalgo, C.P. 43800, es responsable del tratamiento de sus datos personales, de conformidad
+                            con la Ley Federal de Protección de Datos Personales en Posesión de Particulares (LFPDPPP) y su
+                            Reglamento, así como las disposiciones aplicables de la Comisión Federal para la Protección contra
+                            Riesgos Sanitarios (COFEPRIS).
                         </p>
                         <p className="text-gray-700 leading-relaxed">
                             Para cualquier asunto relacionado con la protección de sus datos personales, puede contactarnos en:
                         </p>
                         <div className="mt-4 bg-gray-50 p-4 rounded-lg">
                             <p className="text-gray-800"><strong>Email:</strong> privacidad@laboratorio.delbienestar.com.mx</p>
-                            <p className="text-gray-800"><strong>Teléfono:</strong> [Teléfono de contacto]</p>
-                            <p className="text-gray-800"><strong>Horario de atención:</strong> Lunes a Viernes de 8:00 a 18:00 hrs</p>
+                            <p className="text-gray-800"><strong>Teléfono:</strong> 775 737 1811</p>
+                            <p className="text-gray-800"><strong>WhatsApp:</strong> 771 685 4026</p>
+                            <p className="text-gray-800"><strong>Horario de atención:</strong> Lunes a Viernes de 7:00 a 20:00 hrs</p>
                         </div>
                     </section>
 
@@ -256,22 +258,53 @@ export default function PrivacidadPage() {
                     {/* Cookies */}
                     <section>
                         <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                            Uso de Cookies y Tecnologías de Rastreo
+                            Uso de Cookies y Publicidad de Terceros
                         </h2>
                         <p className="text-gray-700 leading-relaxed mb-4">
-                            Le informamos que en nuestra página web utilizamos cookies, web beacons y otras tecnologías de rastreo
-                            para obtener datos personales como:
+                            Nuestro sitio web utiliza cookies propias y de terceros para mejorar su experiencia de navegación,
+                            analizar el tráfico y mostrar publicidad relevante. Los tipos de cookies que utilizamos son:
+                        </p>
+
+                        <h3 className="text-lg font-semibold text-gray-800 mb-2">Cookies propias</h3>
+                        <ul className="list-disc list-inside text-gray-700 space-y-2 ml-4 mb-4">
+                            <li>Tipo de navegador y sistema operativo</li>
+                            <li>Páginas visitadas y tiempo de navegación</li>
+                            <li>Preferencias del usuario (idioma, sucursal, carrito)</li>
+                            <li>Sesión de usuario autenticado</li>
+                        </ul>
+
+                        <h3 className="text-lg font-semibold text-gray-800 mb-2 mt-4">Cookies de análisis (Google Analytics)</h3>
+                        <p className="text-gray-700 mb-3">
+                            Utilizamos Google Analytics para entender cómo los usuarios interactúan con nuestro sitio.
+                            Google puede utilizar estos datos conforme a su{' '}
+                            <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" className="text-green-700 underline">Política de Privacidad</a>.
+                        </p>
+
+                        <h3 className="text-lg font-semibold text-gray-800 mb-2 mt-4">Cookies de publicidad (Google AdSense)</h3>
+                        <p className="text-gray-700 mb-3">
+                            Este sitio web participa en el programa <strong>Google AdSense</strong>, que utiliza cookies
+                            para mostrar anuncios personalizados basados en visitas anteriores a este y otros sitios web.
+                            Google, como proveedor externo, usa cookies DART para publicar anuncios a los usuarios según
+                            sus visitas a este sitio y a otros sitios de Internet.
                         </p>
                         <ul className="list-disc list-inside text-gray-700 space-y-2 ml-4 mb-4">
-                            <li>Tipo de navegador del usuario</li>
-                            <li>Tipo de sistema operativo</li>
-                            <li>Páginas de internet visitadas</li>
-                            <li>Tiempo de navegación</li>
-                            <li>Análisis estadístico de la página web</li>
+                            <li>Las cookies de DoubleClick/Google pueden usarse para segmentar anuncios</li>
+                            <li>Los datos recopilados no incluyen información personal identificable</li>
+                            <li>Se utilizan para medir la efectividad de la publicidad</li>
                         </ul>
-                        <p className="text-gray-700 leading-relaxed">
-                            Estas tecnologías pueden ser deshabilitadas en la configuración de su navegador. Sin embargo,
-                            esto puede afectar su experiencia en nuestro sitio web.
+
+                        <div className="bg-blue-50 border-l-4 border-blue-500 p-4 mt-4 rounded">
+                            <p className="text-gray-800 font-semibold mb-2">🔒 Cómo controlar las cookies de publicidad:</p>
+                            <ul className="list-disc list-inside text-gray-700 space-y-1 ml-2">
+                                <li>Visite{' '}<a href="https://www.google.com/settings/ads" target="_blank" rel="noopener noreferrer" className="text-blue-700 underline">Configuración de Anuncios de Google</a>{' '}para inhabilitar publicidad personalizada</li>
+                                <li>Visite{' '}<a href="https://www.aboutads.info" target="_blank" rel="noopener noreferrer" className="text-blue-700 underline">aboutads.info</a>{' '}para opciones de exclusión de cookies de terceros</li>
+                                <li>Configure su navegador para rechazar cookies desde: Configuración → Privacidad → Cookies</li>
+                            </ul>
+                        </div>
+
+                        <p className="text-gray-700 leading-relaxed mt-4">
+                            Al continuar navegando en nuestro sitio sin modificar la configuración de su navegador,
+                            usted consiente el uso de cookies conforme a este aviso.
                         </p>
                     </section>
 
@@ -340,9 +373,10 @@ export default function PrivacidadPage() {
                         </p>
                         <div className="space-y-2 text-gray-800">
                             <p><strong>Email:</strong> privacidad@laboratorio.delbienestar.com.mx</p>
-                            <p><strong>Teléfono:</strong> [Número de teléfono]</p>
-                            <p><strong>Domicilio:</strong> [Dirección completa]</p>
-                            <p><strong>Horario:</strong> Lunes a Viernes de 8:00 a 18:00 hrs</p>
+                            <p><strong>WhatsApp:</strong> 771 685 4026</p>
+                            <p><strong>Teléfono:</strong> 775 737 1811</p>
+                            <p><strong>Domicilio:</strong> Ignacio Galván 27, Centro, Tizayuca, Hidalgo, C.P. 43800</p>
+                            <p><strong>Horario:</strong> Lunes a Viernes de 7:00 a 20:00 hrs | Sábados 7:00 a 18:00 hrs</p>
                         </div>
                     </section>
 
