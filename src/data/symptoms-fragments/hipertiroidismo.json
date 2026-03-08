@@ -1,0 +1,42 @@
+{
+  "slug": "hipertiroidismo",
+  "name": "Hipertiroidismo",
+  "medicalName": "Tirotoxicosis",
+  "cie10": "E05.9",
+  "intro": "El hipertiroidismo, también conocido como tirotoxicosis, es una condición en la que la glándula tiroides produce y libera un exceso de hormonas tiroideas (tiroxina T4 y triyodotironina T3) en el torrente sanguíneo. Esta sobreproducción acelera el metabolismo del cuerpo, afectando múltiples sistemas y órganos. Es más común en mujeres, con una prevalencia estimada que oscila entre el 1% y el 2% de la población general, siendo la Enfermedad de Graves la causa más frecuente. A diferencia de la ansiedad o el estrés, que pueden presentar síntomas similares, el hipertiroidismo tiene una base hormonal detectable y requiere tratamiento específico para evitar complicaciones graves. Es crucial diferenciarlo de la tiroiditis, donde las hormonas se liberan por daño glandular, no por sobreproducción activa.",
+  "causes": [
+    {
+      "name": "Enfermedad de Graves",
+      "desc": "Es la causa más común de hipertiroidismo, una enfermedad autoinmune donde el sistema inmunitario produce anticuerpos (inmunoglobulinas estimulantes de la tiroides, TSI o TRAb) que imitan la acción de la hormona estimulante de la tiroides (TSH). Estos anticuerpos se unen a los receptores de TSH en la glándula tiroides, estimulándola continuamente para producir y liberar un exceso de T3 y T4, independientemente de las necesidades del cuerpo o de la retroalimentación negativa de la TSH hipofisaria. Se diferencia por la presencia de estos anticuerpos y a menudo por bocio difuso y oftalmopatía."
+    },
+    {
+      "name": "Bocio Multinodular Tóxico y Adenoma Tóxico",
+      "desc": "Estas condiciones implican el desarrollo de uno (adenoma tóxico) o varios (bocio multinodular tóxico) nódulos dentro de la glándula tiroides que se vuelven autónomos. Esto significa que los nódulos comienzan a producir hormonas tiroideas de forma independiente, sin estar bajo el control de la TSH. Escapan al mecanismo de retroalimentación negativa normal, lo que lleva a una producción excesiva de T3 y T4. Se diferencia de Graves por la ausencia de anticuerpos TRAb y la presencia de nódulos hiperfuncionantes en la gammagrafía tiroidea."
+    },
+    {
+      "name": "Tiroiditis (Subaguda, Postparto, Silente)",
+      "desc": "La tiroiditis es una inflamación de la glándula tiroides que puede ser causada por infecciones virales, procesos autoinmunes o después del parto. A diferencia de las otras causas, en la tiroiditis el hipertiroidismo no se debe a una sobreproducción activa de hormonas, sino a la liberación de hormonas preformadas almacenadas en la glándula debido al daño de las células foliculares. Esta fase de hipertiroidismo suele ser transitoria, seguida a menudo por una fase de hipotiroidismo. Se distingue por una captación de yodo radiactivo baja en la gammagrafía, indicando que la glándula no está produciendo activamente."
+    }
+  ],
+  "redFlags": [
+    "Fiebre alta (más de 38.5°C), taquicardia severa (>140 lpm), agitación extrema, confusión, delirio o coma: Sugiere una crisis o tormenta tiroidea, una emergencia médica potencialmente mortal. Requiere atención médica inmediata y traslado urgente a un hospital.",
+    "Dolor torácico, dificultad para respirar, palpitaciones irregulares o hinchazón de tobillos: Puede indicar complicaciones cardíacas graves como arritmias (fibrilación auricular), insuficiencia cardíaca o angina. Busque atención médica de urgencia.",
+    "Debilidad muscular súbita y severa que impide el movimiento (parálisis periódica tirotóxica) o cambios visuales agudos como visión doble, pérdida de visión o dolor ocular intenso con protuberancia ocular: Requiere evaluación médica urgente para prevenir daño permanente."
+  ],
+  "tests": [
+    {
+      "name": "Hormona Estimulante de la Tiroides (TSH) y Hormonas Tiroideas Libres (T4L, T3L)",
+      "url": "/estudios/analisis-clinicos/perfil-tiroideo"
+    },
+    {
+      "name": "Anticuerpos Receptores de TSH (TRAb/TSI) y Gammagrafía Tiroidea con Captación de Yodo Radiactivo (RAIU)",
+      "url": "/estudios/diagnostico-por-imagen/gammagrafia-tiroidea"
+    }
+  ],
+  "tools": [
+    {
+      "name": "Cuestionario de Síntomas Tiroideos",
+      "url": "/herramientas/cuestionario-sintomas-tiroideos"
+    }
+  ]
+}
