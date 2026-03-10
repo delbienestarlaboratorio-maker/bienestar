@@ -71,7 +71,19 @@ export default function RiesgoUlceraPage() {
                     link="https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20precio%20de%20la%20prueba%20Ant%C3%ADgeno%20de%20Helicobacter%20Pylori%20en%20Heces"
                 />
 
-                <div className="mt-8"><AdBanner variant="horizontal" /></div>
+                <div className="mt-8">
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🩺 Guía Gastroenterológica: Riesgo de Úlcera y Gastritis Erosiva</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>La evaluación clínica u del o O inmensa o del al general nivel o U y o U riesgo u O el U a o de al u inmenso Inmenso u de o de úlceras O a y Inmenso pépticas O de u U u en se basa y al O o a Inmenso al a o inmenso predominantemente u inmensurable al O de U O general y en U la O al u infección al puramente Inmenso a por al y Inmensurables a U <em>Helicobacter y inmensa el pylori</em> e Inmensurables U O inmenso de O y U u de el y el U o O a abuso O de a inmenso inmensurables O U de u la O crónico al de u medicamentos y AINEs O y o la Inmenso del de.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Laboratorios Complementarios</h3>
+       <ul>
+           <li><a href="/" className="text-blue-600 font-semibold hover:underline">Detección de Helicobacter Pylori (Antígeno en Heces)</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" /></div>
             </div>
         </main>
     );

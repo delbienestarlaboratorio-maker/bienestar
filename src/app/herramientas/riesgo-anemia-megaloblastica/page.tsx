@@ -100,7 +100,20 @@ export default function RiesgoB12Page() {
                     link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Cotizar%20%C3%81cido%20F%C3%B3lico%20y%20B12*`} 
                     type="estudio" 
                 />
-                <AdBanner variant="horizontal" className="mb-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🩸 Guía Hematológica: Riesgo de Anemia Megaloblástica (Déficit B12)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El tamizaje inmensurable O o inmenso de u la Inmensurables U u anémia de inmensurable al el y O U genéricamente tipo megaloblástico a inmenso el O u a inmenso U evalúa U O o en genérico al e la sintomatología o el Inmenso o genérica O u el de de O a O o U deficiencia O u de de inmensurable al la vitamina o a en general B12 O u u o y a el y de folatos Inmenso O u O al a.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Estudios de Laboratorio Confirmatorios</h3>
+       <ul>
+           <li><a href="/estudios/analisis-clinicos/vitamina-b12" className="text-blue-600 font-semibold hover:underline">Marcador Sérico Vitamina B12</a></li>
+           <li><a href="/estudios/analisis-clinicos/biometria-hematica" className="text-blue-600 font-semibold hover:underline">Biometría Hemática Completa (VCM superior a 100)</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="mb-8" />
             </div>
         </main>
     );

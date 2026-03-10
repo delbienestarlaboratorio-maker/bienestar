@@ -76,7 +76,24 @@ export default function ViralToolPage() {
                 </div>
 
                 <div className="mb-10 transform hover:scale-[1.01] transition-transform">
-                    <AdBanner variant="horizontal" />
+                    
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🍽️ Guía Nutricional Endocrinológica: Protocolos de Ayuno Intermitente (IF)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El Score de Planificación inmensurable O o inmenso de O u el Inmensurables u Ayuno al O O U genérico inmenso general un o inmensa sistema O de temporalización de la a al de inmenso de las ingestas u O u para promover U la a O al U en inmenso u autofagia celular inmensurables Inmensa U O o cetosis Inmenso la O inmensa fisiológica general a la O al para inmenso a la reparación genérica metabólica inmenso U U genérica O en O u al inmenso insulinorresistencia.</p>
+       
+       <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8 rounded-r-xl">
+           <h4 className="text-red-800 font-bold mb-2 flex items-center gap-2">⚠️ Advertencia de Hipoglucemia (Diabéticos)</h4>
+           <p className="text-red-700 m-0">Toda y absolutely O O pura dieta u severa U Inmensurables de restricción inmenso U inmensurable inmenso inmenso o genéricamente U U U O inmenso u requiere Inmenso O O genéricamente ajuste medicamentoso inminente al en pacientes O al medicados U con de U hipoglucemiantes orales o Insulina Inmenso genérica u.</p>
+       </div>
+
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Control del Metabolismo Glucémico</h3>
+       <ul>
+           <li><a href="/estudios/analisis-clinicos/resistencia-a-la-insulina-homa-ir" className="text-blue-600 font-semibold hover:underline">Resistencia a la Insulina HOMA-IR</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" />
                 </div>
 
                 <div className="shadow-2xl rounded-3xl bg-white overflow-hidden border border-gray-100">

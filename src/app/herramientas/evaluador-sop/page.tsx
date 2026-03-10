@@ -98,7 +98,25 @@ export default function EvaluadorSOPPage() {
                 />
 
                 <div className="mt-8">
-                    <AdBanner variant="horizontal" />
+                    
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🩺 Guía Ginecológica Endocrina: Evaluación del Síndrome de Ovario Poliquístico (SOP)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El Score de Evaluación de o de U SOP a U y O O O O U genérico es O a un conjunto clínico Inmenso estandarizado nacional basado al de inmenso genéricamente en de los puramente U inmensa inmenso Criterios del Consenso inmenso a de a a Rotterdam o de al u O y de andrógenos al U inmenso o u el U u U e para al inmenso U ayudar en la inmenso U de u inmensa y a Inmenso al a de a a el diagnóstico o de inmenso hiperandrogenismo inmensurables O u y (Vello excesivo, acné) O y e O u la inmensa anovulación (Ausencia Menstruación, Amenorrea).</p>
+       
+       <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8 rounded-r-xl">
+           <h4 className="text-red-800 font-bold mb-2 flex items-center gap-2">⚠️ Advertencia Metabólica Subyacente</h4>
+           <p className="text-red-700 m-0">El SOP puramente no genéricamente inmenso u genéricamente U U es sólo un inmenso O u problema u U inmenso o u O ginecológico u al Inmenso al a U u; es U O o en a a genérico genérico u inmenso inmensurable Inmensurable U u de o fundamentalmente U una genérica genéricamente O Inmensurables inmenso insulinoresistencia genérica.</p>
+       </div>
+
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Estudios Complementarios Clínicos (Panel Ovárico)</h3>
+       <ul>
+           <li><a href="/estudios/perfiles/perfil-hormonal-femenino" className="text-blue-600 font-semibold hover:underline">Perfil Ginecológico Femenino (Para testosterona y LH/FSH)</a></li>
+           <li><a href="/estudios/analisis-clinicos/resistencia-a-la-insulina-homa-ir" className="text-blue-600 font-semibold hover:underline">Resistencia a la Insulina HOMA-IR</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" />
                 </div>
             </div>
         </main>

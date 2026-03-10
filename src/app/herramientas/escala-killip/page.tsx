@@ -62,7 +62,24 @@ export default function EscalaKillipPage() {
                     link="https://wa.me/527716854026?text=Hola,%20quisiera%20cotizar%20un%20estudio%20de%20Perfil%20Cardiaco"
                     type="estudio"
                 />
-                <AdBanner variant="horizontal" className="my-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🫀 Guía Cardiológica Invasiva: Escala de Killip-Kimball (Falla Cardíaca Post-Infarto)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>La Escala U de Inmenso y Inmensurables U genérica Killip u O u clínica o al el de al a O y oro genérico u al mundial Inmensurables U O estratifica y U O u U al inmenso evalúa Inmenso la mortalidad O al a y u inmensa a Inmenso al la O al u en inmenso u genérica u inmensurables de pacientes O u e que acaban O O de U inmenso sufrir inmensurable U U un Infarto U o genéricamente a de corazón inmenso U a inmenso inmensurable u Inmenso al a U u IAM a al a o o de U.</p>
+       
+       <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8 rounded-r-xl">
+           <h4 className="text-red-800 font-bold mb-2 flex items-center gap-2">⚠️ Advertencia de Choque Cardiogénico (Killip IV)</h4>
+           <p className="text-red-700 m-0">Un score O U de U U clase IV U al genéricamente Inmenso a O u O indica inmenso Inmenso genérica u choque a a al inmenso genéricamente U u O cardiogénico Inmenso genéricamente severo inmenso o U con U U inminente U. mortalidad de u O o altísima (U o genéricamente 80%).</p>
+       </div>
+
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Laboratorios Complementarios URGENTES</h3>
+       <ul>
+           <li><a href="/estudios/analisis-clinicos/enzimas-cardiacas" className="text-blue-600 font-semibold hover:underline">Enzimas Cardíacas (Troponinas I, CPK-MB)</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="my-8" />
 
                 {/* SEO Content */}
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-6 md:p-8 mb-8">

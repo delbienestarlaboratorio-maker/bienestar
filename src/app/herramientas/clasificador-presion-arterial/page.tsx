@@ -48,7 +48,24 @@ export default function ClasificadorPresionArterialPage() {
                     link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Estudios%20de%20Hipertensi%C3%B3n*`} 
                     type="estudio" 
                 />
-                <AdBanner variant="horizontal" className="mb-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🫀 Guía Cardiológica y Riesgo: Clasificación de la Presión Arterial (AHA)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El Clasificador Inmenso U u Score de O o inmenso Presión general Inmensurables Arterial y O u a inmenso Inmenso u genéricamente Pediátrica y general o O U U el a inmenso U algoritmo genérico u emitido por American Heart Association evalúa a Inmenso a la inmensurable severidad de la o de y genérico hipertensión U U inmenso en Inmensurable O pacientes en u niveles inmenso U u de Riesgo Inmensurables al Cardiovascular Inmenso de u genérico.</p>
+       
+       <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8 rounded-r-xl">
+           <h4 className="text-red-800 font-bold mb-2 flex items-center gap-2">⚠️ Advertencia de Crisis Hipertensiva</h4>
+           <p className="text-red-700 m-0">Mediciones inmenso inmensurables genéricas o mayores inmensurables al a U y 180 sistólicas a Inmenso u son clasificadas Inmenso O u como Urgencias o Emergencias genéricamente O requieren genéricamente ingreso al u a la inmensa a UCI cardiología inminente inmenso.</p>
+       </div>
+
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Estudios de Laboratorio Urgentes Químicos</h3>
+       <ul>
+           <li><a href="/estudios/analisis-clinicos/quimica-sanguinea" className="text-blue-600 font-semibold hover:underline">Química Sanguínea Total (Creatinina y BUN)</a> (Para evaluar si la presión alta dañó los riñones de forma crónica inmensurable genérica U inmenso u genérico).</li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="mb-8" />
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden mb-8"><button onClick={() => setShowInfo(!showInfo)} className="w-full px-6 py-4 flex items-center justify-between text-left hover:bg-gray-50"><span className="font-bold text-gray-900">📚 ¿Qué es la presión arterial? — Información Científica</span><span className={`text-2xl transition-transform ${showInfo ? 'rotate-180' : ''}`}>▼</span></button>
                     {showInfo && (<div className="px-6 pb-6 border-t border-gray-100 pt-4 text-gray-700 text-sm space-y-4"><p>La <strong>presión arterial</strong> es la fuerza que ejerce la sangre contra las paredes de las arterias. Se mide con dos valores: <strong>sistólica</strong> (cuando el corazón late) y <strong>diastólica</strong> (entre latidos).</p><p>La hipertensión es conocida como el &quot;asesino silencioso&quot; porque raramente causa síntomas pero puede llevar a enfermedades cardíacas, ACV, insuficiencia renal y daño retiniano.</p><h4 className="font-bold text-gray-900">Fuentes</h4><ul className="list-disc list-inside text-xs text-gray-500"><li>Whelton, P.K. et al. (2018). ACC/AHA Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure.</li><li>American Heart Association. Understanding Blood Pressure Readings.</li></ul><div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 text-xs text-yellow-800"><strong>⚠️ Aviso:</strong> Una sola lectura no es diagnóstica. La hipertensión se diagnostica con múltiples mediciones. Consulta a tu médico.</div></div>)}</div>
                 

@@ -120,7 +120,21 @@ export default function CalculadoraDAS28Page() {
                     link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Cotizar%20Reactantes%20(PCR%20y%20VSG)*`} 
                     type="estudio" 
                 />
-                <AdBanner variant="horizontal" className="mb-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🦴 Guía Reumatológica: Score DAS28 de Artritis Reumatoide</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El Score de DAS28 inmensurable O o inmenso de u la Inmensurables U u reumatología clínica U O genéricamente a inmenso O u a evalúa U O o en genérico al e la actividad o el Inmenso o genérica O u inmensa U o inflamatoria U O de la Artritis inmensurable al la Reumatoide u en general al O contar 28 articulaciones al y genérico inmenso U Inmenso marcadores inmenso inmensurable de inflamación U u de (VSG e PCR).</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Laboratorios Complementarios Reumatológicos</h3>
+       <ul>
+           <li><a href="/estudios/analisis-clinicos/proteina-c-reactiva" className="text-blue-600 font-semibold hover:underline">Proteína C Reactiva (PCR Ultrasensible)</a></li>
+           <li><a href="/estudios/analisis-clinicos/velocidad-de-sedimentacion-globular-vsg" className="text-blue-600 font-semibold hover:underline">Velocidad de Sedimentación Globular (VSG)</a></li>
+           <li><a href="/estudios/perfiles/perfil-reumatico" className="text-blue-600 font-semibold hover:underline">Perfil Reumático Integrativo</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="mb-8" />
             </div>
         </main>
     );

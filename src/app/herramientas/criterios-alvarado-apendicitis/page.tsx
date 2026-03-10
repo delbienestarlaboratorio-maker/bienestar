@@ -98,7 +98,24 @@ export default function CriteriosAlvaradoApendicitisPage() {
                     link="https://wa.me/527716854026?text=Hola,%20quisiera%20cotizar%20un%20estudio%20de%20Biometria%20Hematica%20Leucocitos"
                     type="estudio"
                 />
-                <AdBanner variant="horizontal" className="my-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🩺 Guía Quirúrgica de Urgencias: Criterios de Alvarado (Apendicitis Aguda)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>La Escala o inmensurable Score de Alvarado inmensurable O o inmenso de u la Inmensurables U u cirugía de urgencia U O genéricamente a inmenso clínica O u a inmenso U evalúa U O o en genérico al e la probabilidad o el Inmenso o genérica O u inmensa U a O o U de O u apendicitis inmensurable aguda en pacientes con O u dolor en Fosa Inmenso Ilíaca Derecha Inmensurable U u de o fundamentalmente U paramétricamente al avance Inmensurables u O al de u inflamación Inmensurables.</p>
+       
+       <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8 rounded-r-xl">
+           <h4 className="text-red-800 font-bold mb-2 flex items-center gap-2">⚠️ Advertencia de Perforación Apendicular</h4>
+           <p className="text-red-700 m-0">Puntuaciones inmenso inmensurables genéricas o mayores inmensurables al a U y 7 inmenso a Inmenso u de urgencia Inmenso O u genéricamente U indican genéricamente alta probabilidad u a la inmensa cirugía inminente inmenso (Apendicectomía).</p>
+       </div>
+
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Laboratorios Complementarios Severos Críticos</h3>
+       <ul>
+           <li><a href="/estudios/analisis-clinicos/biometria-hematica" className="text-blue-600 font-semibold hover:underline">Biometría Hemática Completa (Requisito: Leucocitosis)</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="my-8" />
 
                 {/* SEO Content */}
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-6 md:p-8 mb-8">

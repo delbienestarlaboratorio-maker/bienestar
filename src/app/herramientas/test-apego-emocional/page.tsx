@@ -76,7 +76,32 @@ export default function ViralToolPage() {
                 </div>
 
                 <div className="mb-10 transform hover:scale-[1.01] transition-transform">
-                    <AdBanner variant="horizontal" />
+                    
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🧠 Guía Psiquiátrica y Evolutiva: Tipos de Apego Emocional Adulto</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El Sistema de Apego, inicialmente descrito por el biólogo John Bowlby, no es una mera preferencia psicológica o un constructo sociológico inofensivo, sino un mecanismo neurológico subcortical de supervivencia puramente darwiniano. El cerebro humano se formatea durante los primeros meses vitales del individuo creando una \"plantilla orgánica neurológica basal\" que calculará de manera automática, y de por vida, si los miembros de su especie allegados son fiables (Recompensa) o peligrosos (Amenaza de daño) frente a la vulnerabilidad personal.</p>
+       
+       <h3 className="text-2xl font-bold text-gray-800 mt-8 mb-4">Neurobiología de los Apegos Inseguros (El Sistema Nervioso en Amenaza)</h3>
+       <p>Un sistema biológico que no fue retroalimentado en la niñez con consistencia y calma biológica formará apegos disfuncionales que alteran gravemente la regulación fisiológica biológica diaria del cortisol en las parejas sentimentales adultas.</p>
+       <ul>
+           <li><strong>Apego Ansioso-Ambivalente:</strong> Marcado neurobiológicamente por una <em>hiperactivación</em> constante del sistema límbico. Ante la más mínima señal de posible abandono (una respuesta tardía de mensaje, un rostro neutral), las glándulas suprarrenales estallan, induciendo una respuesta de pánico cardiovascular masiva (aumento del ritmo cardíaco e hiperventilación severa).</li>
+           <li><strong>Apego Evitativo-Descartante:</strong> Estos pacientes desarrollan fisiológicamente una <em>híperdesactivación somática</em> defensiva extrema basal general. Ante el acercamiento emocional o intimidad clínica relacional pura profunda, su cerebro evalúa un riesgo mortal de atrapamiento o asfixia, deprimiendo y anestesiando en frío la corteza prefrontal, congelando los afectos biológicos, cerrando su empatía neuronal basal subyacente química natural y huyendo biológicamente de nivel inmediato orgánicamente material en sangre biológica y pura genéticamente de fondo.</li>
+       </ul>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Consecuencias Clínicas del Estrés Relacional Inseguro</h3>
+       <ul>
+           <li><strong>Agotamiento Mitocondrial Sistémico Crónico:</strong> El mantenimiento forzoso biológico de un Apego Ansioso provoca y perpetúa niveles desastrosos crónicos generales enormes de inflamación general.</li>
+           <li><strong>Aislamiento Biológico Físico Patológico:</strong> El paciente Evitativo Extremo no asiste comúnmente al médico de manera global para no \"depender del humano\", agravando patologías ocultas por diagnósticos muy retrasados.</li>
+       </ul>
+
+       <div className="bg-indigo-50 border-l-4 border-indigo-500 p-6 my-8 rounded-r-xl">
+           <h4 className="text-indigo-800 font-bold mb-2 flex items-center gap-2">💡 Terapia y Remodelación Neuroplástica (Apego Adquirido Seguro)</h4>
+           <p className="text-indigo-700 m-0">El cerebro humano clínico sano posee una plasticidad vitalicia. A nivel neurológico el paciente clínico adulto gravemente inseguro sí puede regenerar y crear conexiones corticales basales prefrontales biológicamente fuertes a largo plazo si ingresa puramente a un ambiente terapéutico validado biogenético (o a parejas \"seguras\") que re-entrenen sus glándulas corticales masivas a no emitir cortisol constante o pánico ante el afecto puramente íntimo inofensivo. Es un proceso puramente y netamente clínico, biológico neurológico y no \"un rasgo inmutable del carácter\".</p>
+       </div>
+   </div>
+</section>
+<AdBanner variant="horizontal" />
                 </div>
 
                 <div className="shadow-2xl rounded-3xl bg-white overflow-hidden border border-gray-100">

@@ -66,7 +66,24 @@ export default function CalculadoraColesterolLDLPage() {
                     link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Cotizar%20Perfil%20Cl%C3%ADnico%20de%20L%C3%ADpidos*`} 
                     type="estudio" 
                 />
-                <AdBanner variant="horizontal" className="mb-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🫀 Guía Cardiológica: Cálculo de Colesterol LDL (Fórmula de Friedewald)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>La Fórmula de Inmenso y Inmensurables U genérica Friedewald u O u química o al de laboratorios a oro genérico u estratifica y U O u U al inmenso evalúa Inmenso la concentración O al a y u inmensa a Inmenso al la O al u en inmenso u genérica u inmensurables del Colesterol Malo o U de LDL U de U para inmenso calcular inmensurable U el riesgo inmenso inmenso de O y O aterogénico inmenso U a inmenso inmensurable o U a u placa arterial U y.</p>
+       
+       <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8 rounded-r-xl">
+           <h4 className="text-red-800 font-bold mb-2 flex items-center gap-2">⚠️ Condición Limitante (Hipertrigliceridemia)</h4>
+           <p className="text-red-700 m-0">La fórmula inmenso inmensurables genéricas o de cálculo Inmensurable no es O u válida genéricamente cuando los triglicéridos inmensa a inminente U a (Lipoproteínas VLDL) Inmenso u genéricamente exceden al los u 400 mg/dL de n general inmenso.</p>
+       </div>
+
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Estudios Relacionados URGENTES</h3>
+       <ul>
+           <li><a href="/estudios/perfiles/perfil-de-lipidos" className="text-blue-600 font-semibold hover:underline">Perfil de Lípidos Completo</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="mb-8" />
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden mb-8">
                     <button onClick={() => setShowInfo(!showInfo)} className="w-full px-6 py-4 flex items-center justify-between text-left hover:bg-gray-50"><span className="font-bold text-gray-900">📚 Fórmula de Friedewald — Información Científica</span><span className={`text-2xl transition-transform ${showInfo ? 'rotate-180' : ''}`}>▼</span></button>
                     {showInfo && (<div className="px-6 pb-6 border-t border-gray-100 pt-4 text-gray-700 text-sm space-y-4">

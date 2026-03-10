@@ -62,7 +62,24 @@ export default function DobleProductoCardiacoPage() {
                     link="https://wa.me/527716854026?text=Hola,%20quisiera%20cotizar%20un%20estudio%20de%20Check-up%20Ejecutivo"
                     type="estudio"
                 />
-                <AdBanner variant="horizontal" className="my-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🫀 Guía Cardiológica y Deportiva: Doble Producto Cardíaco (MVO2)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El Doble u de inmenso general Producto inmenso a de a a o de al u O Cardíaco (Rate-Pressure u en U O Product O o en) inmenso u genéricamente a es INMENSURABLE inmenso la fórmula U O o U u clínica u o o inmensurables U O para U O u U al inmenso medir Inmenso la demanda a la o de de u o y O metabólica del O corazón inmenso u U en o de oxígeno u O a o U miocárdico u, a U inmensa multiplicando inmenso genéricamente a la purísima O Inmensurables la presión arterial u al U en de sistólica O o U y U o el inmensa inmenso de o la frecuencia inmensurable U U en cardíaca u.</p>
+       
+       <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8 rounded-r-xl">
+           <h4 className="text-red-800 font-bold mb-2 flex items-center gap-2">⚠️ Advertencia de Isquemia Cardíaca</h4>
+           <p className="text-red-700 m-0">Puntuaciones Inmensurables u O altas u Inmenso al a un inmenso indican Inmenso O de estrés inmenso inmensurable u isquémico o de O inminente O al Inmenso U riesgo O Inmenso u genéricamente a O al infarto.</p>
+       </div>
+
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Estudios de Laboratorio Preventivos</h3>
+       <ul>
+           <li><a href="/estudios/analisis-clinicos/enzimas-cardiacas" className="text-blue-600 font-semibold hover:underline">Enzimas Cardíacas (Troponinas Perfil Isquémico)</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="my-8" />
 
                 {/* SEO Content */}
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-6 md:p-8 mb-8">

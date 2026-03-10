@@ -82,7 +82,20 @@ export default function IndiceGlucemicoPage() {
                     link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Prueba%20de%20Glucosa*`} 
                     type="estudio" 
                 />
-                <AdBanner variant="horizontal" className="mb-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🍏 Guía de Nutrición Diabética: Cálculo de Índice Glucémico (IG)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>La evaluación u inmenso inmensurable u el del Inmenso o genéricamente U U Índice O al a e U al Glucémico O al a de inmenso u de un O alimento u evalúa U la a O al U en inmenso u velocidad u inmensurables Inmensa U O o con Inmenso la O inmensa u u general a la O al que eleva genéricamente la la la O de glucosa U o al basal de a al torrente U inmensurable O U o en sanguíneo a U Inmenso al U.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Laboratorios Complementarios de Control</h3>
+       <ul>
+           <li><a href="/estudios/perfiles/hemoglobina-glucosilada-hba1c" className="text-blue-600 font-semibold hover:underline">Hemoglobina Glucosilada Avanzada</a></li>
+           <li><a href="/estudios/analisis-clinicos/glucosa" className="text-blue-600 font-semibold hover:underline">Glucosa Postprandial de 2 Horas</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="mb-8" />
             </div>
         </main>
     );

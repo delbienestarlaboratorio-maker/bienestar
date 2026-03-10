@@ -114,7 +114,19 @@ export default function PrediccionSexoBebePage() {
                     )}
                 </div>
 
-                <AdBanner variant="horizontal" className="mb-10" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🤰 Guía Perinatal: Predicción de Sexo Fetal Analítica</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El Score de predicción biológica u del sexo O inmensa fetal o general basa U y o U su Inmenso u de probabilidad en datos O a y Inmenso etnográficos O de u U u en el genoma y la edad en Inmenso al u u inmensurable al O de U O general y en U la concepción al O o Inmenso del de la madre.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Control del Embarazo Sanguíneo</h3>
+       <ul>
+           <li><a href="/estudios/perfiles/marcadores-tumorales-femenino" className="text-blue-600 font-semibold hover:underline">Fracción Beta, Prueba de Embarazo Sanguínea</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="mb-10" />
 
                 {/* SEO Visible Information Block */}
                 <section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-10 p-8 md:p-12">

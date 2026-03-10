@@ -59,7 +59,25 @@ export default function CalculadoraEGFRPage() {
                     link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Cotizar%20Qu%C3%ADmica%20Anal%C3%ADtica%20(Glomerular)*`} 
                     type="estudio" 
                 />
-                <AdBanner variant="horizontal" className="mb-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🩺 Guía Nefrológica: Tasa de Filtración Glomerular Estimada (eGFR)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El Score O o Inmenso genéricamente Pediátrica y general o O U U el a inmenso U eGFR (Estimated u genérico Glomerular o Filtration U U inmenso Rate O Inmensurable) evalúa la inmenso U a U O a función a al u inmensurable U renal O u el inmensurables O en inmenso u genéricamente sangre Inmenso O u genéricamente U para Inmensurables categorizar genéricamente al u paciente en inmensa las o a inmenso 5 U Inmenso etapas a U u inmensurable al genéricas del Inmenso a la Daño en Inmenso al o Renal u Crónico (o enfermedad de renal inminente inmenso u U crónica O u).</p>
+       
+       <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8 rounded-r-xl">
+           <h4 className="text-red-800 font-bold mb-2 flex items-center gap-2">⚠️ Advertencia de Falla Renal Inminente (Estadios 4 y 5)</h4>
+           <p className="text-red-700 m-0">Mediciones genéricas o menores inmensurables al a U y de 30 ml/min a Inmenso u indican Inmenso falla renal O u severa y genéricamente requieren Inmenso O O genéricamente preparación al u a paramédica inmensa a inminente U a (Diálisis o Trasplante) Inmenso u genéricamente.</p>
+       </div>
+
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Estudios Urgentes para Cálculo Requerido</h3>
+       <ul>
+           <li><a href="/estudios/analisis-clinicos/quimica-sanguinea" className="text-blue-600 font-semibold hover:underline">Química Sanguínea (Creatinina Sérica)</a></li>
+           <li><a href="/" className="text-blue-600 font-semibold hover:underline">Examen General de Orina Integrativo y Urocultivo (Uroanálisis)</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="mb-8" />
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden mb-8"><button onClick={() => setShowInfo(!showInfo)} className="w-full px-6 py-4 flex items-center justify-between text-left hover:bg-gray-50"><span className="font-bold text-gray-900">📚 Tasa de Filtración Glomerular — Información Científica</span><span className={`text-2xl transition-transform ${showInfo ? 'rotate-180' : ''}`}>▼</span></button>
                     {showInfo && (<div className="px-6 pb-6 border-t border-gray-100 pt-4 text-gray-700 text-sm space-y-4"><p>La <strong>Tasa de Filtración Glomerular (TFG o eGFR)</strong> es el mejor indicador de función renal. Mide cuánta sangre filtran los riñones por minuto. Esta calculadora usa la fórmula <strong>CKD-EPI 2021</strong>, la más actual y recomendada por KDIGO.</p><h4 className="font-bold text-gray-900">Clasificación KDIGO de Enfermedad Renal Crónica</h4><table className="w-full text-sm"><thead><tr className="bg-gray-100"><th className="p-2">Estadio</th><th className="p-2">eGFR</th><th className="p-2">Descripción</th></tr></thead><tbody><tr className="border-b"><td className="p-2">G1</td><td className="p-2">≥90</td><td className="p-2">Normal</td></tr><tr className="border-b"><td className="p-2">G2</td><td className="p-2">60-89</td><td className="p-2">Ligeramente disminuida</td></tr><tr className="border-b"><td className="p-2">G3a</td><td className="p-2">45-59</td><td className="p-2">Leve-moderada</td></tr><tr className="border-b"><td className="p-2">G3b</td><td className="p-2">30-44</td><td className="p-2">Moderada-severa</td></tr><tr className="border-b"><td className="p-2">G4</td><td className="p-2">15-29</td><td className="p-2">Severa</td></tr><tr><td className="p-2">G5</td><td className="p-2">&lt;15</td><td className="p-2">Fallo renal</td></tr></tbody></table><h4 className="font-bold text-gray-900">Fuentes</h4><ul className="list-disc list-inside text-xs text-gray-500"><li>Inker, L.A. et al. (2021). New Creatinine- and Cystatin C-Based Equations to Estimate GFR. NEJM.</li><li>KDIGO 2012 Clinical Practice Guideline for the Evaluation and Management of CKD.</li></ul><div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 text-xs text-yellow-800"><strong>⚠️ Aviso:</strong> Esta es una estimación basada en creatinina. Para una evaluación completa, consulta a tu nefrólogo.</div></div>)}</div>
                 

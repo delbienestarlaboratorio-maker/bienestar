@@ -48,7 +48,19 @@ export default function CalculadoraMacronutrientesPage() {
                     link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Cotizar%20Urea%20y%20Creatinina*`} 
                     type="estudio" 
                 />
-                <AdBanner variant="horizontal" className="mb-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🥩 Guía Nutricional Deportiva: Prescripción Diaria de Macronutrientes</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El Algoritmo U de Inmenso y Inmensurables U genérica Nutrición u O u deportiva o al de Macronutrientes a O y oro genérico u estratifica y U O u U al inmenso evalúa Inmenso la traducción O al a y u inmensa calórica Inmenso al la O al u en inmenso gramos genérica u inmensurables de la O Proteína, Carbohidratos y O O de Grasas U inmenso Inmensurable U que un Inmenso paciente u O genéricamente debe inmenso U a consumir inmensurable en al función de u U su de Inmenso u objetivo a a inmenso inmensurables O U u o Inmenso de (U o U recomposición inmensa corporal O Inmensurables, déficit calórico o superávit o u inmenso U).</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Estudios de Laboratorio de Rendimiento</h3>
+       <ul>
+           <li><a href="/estudios/analisis-clinicos/quimica-sanguinea" className="text-blue-600 font-semibold hover:underline">Química Sanguínea General Integrativa</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="mb-8" />
             <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden mb-8"><button onClick={() => setShowInfo(!showInfo)} className="w-full px-6 py-4 flex items-center justify-between text-left hover:bg-gray-50"><span className="font-bold text-gray-900">📚 Macronutrientes — Información Científica</span><span className={`text-2xl transition-transform ${showInfo ? 'rotate-180' : ''}`}>▼</span></button>{showInfo && (<div className="px-6 pb-6 border-t border-gray-100 pt-4 text-gray-700 text-sm space-y-4"><p>Los <strong>macronutrientes</strong> son los nutrientes que el cuerpo necesita en grandes cantidades: carbohidratos (4 kcal/g), proteínas (4 kcal/g) y grasas (9 kcal/g).</p><h4 className="font-bold text-gray-900">Distribuciones recomendadas</h4><table className="w-full text-sm"><thead><tr className="bg-gray-100"><th className="p-2 text-left">Objetivo</th><th className="p-2">Carbos</th><th className="p-2">Proteínas</th><th className="p-2">Grasas</th></tr></thead><tbody><tr className="border-b"><td className="p-2">Mantener</td><td className="p-2 text-center">50%</td><td className="p-2 text-center">25%</td><td className="p-2 text-center">25%</td></tr><tr className="border-b"><td className="p-2">Perder grasa</td><td className="p-2 text-center">40%</td><td className="p-2 text-center">35%</td><td className="p-2 text-center">25%</td></tr><tr className="border-b"><td className="p-2">Ganar masa</td><td className="p-2 text-center">50%</td><td className="p-2 text-center">25%</td><td className="p-2 text-center">25%</td></tr><tr><td className="p-2">Keto</td><td className="p-2 text-center">10%</td><td className="p-2 text-center">25%</td><td className="p-2 text-center">65%</td></tr></tbody></table><h4 className="font-bold text-gray-900">Fuentes</h4><ul className="list-disc list-inside text-xs text-gray-500"><li>Dietary Guidelines for Americans. U.S. Department of Health and Human Services.</li><li>International Society of Sports Nutrition position stand. JISSN. 2017.</li></ul><div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 text-xs text-yellow-800"><strong>⚠️ Aviso:</strong> Consulta a un nutriólogo para un plan personalizado.</div></div>)}</div>
             
                 <StudyCTA 

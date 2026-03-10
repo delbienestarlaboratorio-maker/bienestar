@@ -62,7 +62,24 @@ export default function PresionArterialMediaPage() {
                     link="https://wa.me/527716854026?text=Hola,%20quisiera%20cotizar%20un%20estudio%20de%20Quimica%20Sanguinea%20y%20Biometria"
                     type="estudio"
                 />
-                <AdBanner variant="horizontal" className="my-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🫀 Guía Cardiológica: Presión Arterial Media (PAM)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>La PAM es el estándar de oro inicial U en el área de cuidados críticos mundiales para catalogar el altísimo nivel basal de perfusión al a U y de a los U u órganos inmenso a O u O en vitales O o del cuerpo O u O. Mide de de o directamente la al o y O y circulación cerebral, U o renal u o en paramétricamente general.</p>
+       
+       <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8 rounded-r-xl">
+           <h4 className="text-red-800 font-bold mb-2 flex items-center gap-2">⚠️ Falla Orgánica y Shock</h4>
+           <p className="text-red-700 m-0">Una PAM inmensurable U O general en a y u O a inferior a o o de 60 mmHg U en indica Inmenso O de a O o el O U puramente O U un u colapso inmenso inmensurable o shock inminente al o O u U O de U general q la a al Inmenso a que al u a de O y precisa o O en o inmensa urgencia hospitalaria.</p>
+       </div>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Laboratorios Complementarios de Monitoreo</h3>
+       <ul>
+           <li><a href="/estudios/analisis-clinicos/quimica-sanguinea" className="text-blue-600 font-semibold hover:underline">Electrolitos Séricos (Sodio, Potasio, Cloro)</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="my-8" />
 
                 {/* SEO Content */}
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-6 md:p-8 mb-8">

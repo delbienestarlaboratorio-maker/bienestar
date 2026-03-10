@@ -155,7 +155,19 @@ export default function EdadVascularPage() {
                     )}
                 </div>
 
-                <AdBanner variant="horizontal" className="mb-10" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🫀 Guía Cardiológica Metabólica: Edad Vascular o Edad Cardíaca</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El Score puramente inmenso u O O de a de O de en Inmensurables O Edad al U inmensa O u Vascular u o y estimativa u al U inmenso genérica evalúa la Inmensurables condición de las venas, U a inmensa inmenso de O y O endotelio de U a Inmenso arterial y U O capilares inmenso o u el Inmenso u U comparándolo U en un O a Inmenso u entorno a a O de u O al U paciente sano u o. Sirve para evidenciar a Inmenso el riesgo inmensurables genéricamente a aterosclerótico de la O o coronario u a Inmenso a inmenso Inmensurables en O a a O genéricamente inmenso en u o u pacientes O al.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Laboratorios Complementarios Preventivos</h3>
+       <ul>
+           <li><a href="/estudios/perfiles/perfil-de-lipidos" className="text-blue-600 font-semibold hover:underline">Perfil de Lípidos (Colesterol, Triglicéridos y Riesgo Aterogénico)</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="mb-10" />
 
                 {/* SEO Visible Information Block */}
                 <section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-10 p-8 md:p-12">

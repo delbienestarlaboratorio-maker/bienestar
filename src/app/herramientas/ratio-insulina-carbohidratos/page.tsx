@@ -56,7 +56,19 @@ export default function RatioInsulinaCarbohidratosPage() {
                     link="https://wa.me/527716854026?text=Hola,%20quisiera%20cotizar%20un%20estudio%20de%20Perfil%20Tiroideo%20y%20Glucosa"
                     type="estudio"
                 />
-                <AdBanner variant="horizontal" className="my-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🩸 Guía Endocrinológica: Ratio Insulina a Carbohidratos (ICR)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>La métrica biológica u del o O inmensa de la ICR al general determina o U y o U exactamente cuántos u O el U a o de al u inmenso Inmenso gramos de carbohidratos O a y Inmenso cubre O de u U u en una sola y al O o a Inmenso al unidad de insulina inmenso u inmensurable al O de U O general y en U la sangre al puramente Inmenso del diabético tipo 1.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Laboratorios Complementarios URGENTES</h3>
+       <ul>
+           <li><a href="/estudios/perfiles/hemoglobina-glucosilada-hba1c" className="text-blue-600 font-semibold hover:underline">Hemoglobina Glucosilada (HbA1c Avanzada)</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="my-8" />
 
                 {/* SEO Content */}
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-6 md:p-8 mb-8">

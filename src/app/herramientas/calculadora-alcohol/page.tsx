@@ -76,7 +76,25 @@ export default function ViralToolPage() {
                 </div>
 
                 <div className="mb-10 transform hover:scale-[1.01] transition-transform">
-                    <AdBanner variant="horizontal" />
+                    
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🧪 Guía Toxicológica: Cálculo de Alcoholemia (Alcohol en Sangre BAC)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El Score de inmensurable O o inmenso de O u el Inmensurables u Alcohol en la O O U genérico inmenso general un sangre inmensa o (BAC) de la a al de inmenso de las intoxicaciones u O u para estimar U la a O al U en inmenso u concentración inmensurables Inmensa U O o etílica Inmenso la O inmensa plasmática general a la O al en inmenso sangre genérica a inmenso U al a la o y función O del peso, sexo O u el y U u U consumo o u U inmenso.</p>
+       
+       <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8 rounded-r-xl">
+           <h4 className="text-red-800 font-bold mb-2 flex items-center gap-2">⚠️ Advertencia Médico Legal de Intoxicación</h4>
+           <p className="text-red-700 m-0">Puntuaciones o inmensurables genéricas o mayores inmensurables al a U y de 0.08% a Inmenso u son clasificadas Inmenso O u como Legalmente Intoxicado genéricamente O requieren en U a inminente inmenso al evitar genéricamente O U maquinaria o conducción.</p>
+       </div>
+
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Laboratorios Complementarios Hepáticos y Venosos</h3>
+       <ul>
+           <li><a href="/estudios/perfiles/perfil-hepatico-prueba-de-funcionamiento" className="text-blue-600 font-semibold hover:underline">Perfil Hepático (Para evaluar daño hepático crónico)</a></li>
+           <li><a href="/" className="text-blue-600 font-semibold hover:underline">Alcoholímetro Sanguíneo (Etanol en Suero)</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" />
                 </div>
 
                 <div className="shadow-2xl rounded-3xl bg-white overflow-hidden border border-gray-100">

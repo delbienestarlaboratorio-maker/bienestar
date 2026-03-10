@@ -97,7 +97,24 @@ export default function ScoreMasccOncologiaPage() {
                     link="https://wa.me/527716854026?text=Hola,%20quisiera%20cotizar%20un%20estudio%20de%20Biometria%20Hematica%20Leucocitos%20Blancas%20Sepsis"
                     type="estudio"
                 />
-                <AdBanner variant="horizontal" className="my-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🩺 Guía Oncológica Médica: Escala MASCC (Neutropenia Febril)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>La puntuación MASCC (Multinational Association for Supportive Care in Cancer) evalúa la severidad y el riesgo letal en pacientes con cáncer que presentan fiebre y recuentos peligrosamente bajos de glóbulos blancos (Neutropenia Febril) post-quimioterapia.</p>
+       
+       <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8 rounded-r-xl">
+           <h4 className="text-red-800 font-bold mb-2 flex items-center gap-2">⚠️ Urgencia Inmunológica Menos de 21 Puntos</h4>
+           <p className="text-red-700 m-0">Puntuaciones por debajo de 21 catalogan al paciente oncológico como de 'Alto Riesgo', lo que exige admisión e internamiento intravenoso inmediato para antibióticos por probabilidad de shock séptico.</p>
+       </div>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Estudios Vitales Post Quimioterapia</h3>
+       <ul>
+           <li><a href="/estudios/analisis-clinicos/biometria-hematica" className="text-blue-600 font-semibold hover:underline">Biometría Hemática Completa (Para conteo de Neutrófilos absolutos, RAN)</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="my-8" />
 
                 {/* SEO Content */}
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-6 md:p-8 mb-8">

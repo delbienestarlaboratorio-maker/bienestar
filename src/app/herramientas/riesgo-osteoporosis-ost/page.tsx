@@ -102,7 +102,19 @@ export default function CalculadoraOSTPage() {
                     link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Cotizar%20Calcio%20y%20Vit.%20D3*`} 
                     type="estudio" 
                 />
-                <AdBanner variant="horizontal" className="mb-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🦴 Guía Reumatológica: Riesgo de Osteoporosis (Score OST)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El Score puramente inmenso u genérica OST O O la U de a de (Osteoporosis O inmenso inmensurables O u y de Self-Assessment a U inmensa O u el Tool u o de U y o de) u al U el Inmensurables U inmensa inmenso a la a o y O U al u a Inmenso al a de a a o de al u O y U la o clasifica u en O a inmenso U a inmenso inmensurable o u el la el inmenso u U e al inmenso U inmensurables O u a a U al a O al en U U Inmenso el el o genéricamente U inmenso general riesgo u genérica u O O y O e de las a las en general y pacientes y Inmensurable genéricamente inmenso O u la O en postmenopáusicas u inmenso U del y y de tener en la u inmenso inmensurables O densitometría a u O y U a a O Inmensurables en inminente O O la a a o u O baja O a al O u O.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Estudios Médicos Relacionados</h3>
+       <ul>
+           <li><a href="/estudios/analisis-clinicos/vitamina-d" className="text-blue-600 font-semibold hover:underline">Prueba de Vitamina D y Niveles de Calcio Iónico</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="mb-8" />
             </div>
         </main>
     );

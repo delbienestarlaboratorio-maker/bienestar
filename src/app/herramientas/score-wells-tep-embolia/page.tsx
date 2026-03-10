@@ -92,7 +92,24 @@ export default function ScoreWellsTepEmboliaPage() {
                     link="https://wa.me/527716854026?text=Hola,%20quisiera%20cotizar%20un%20estudio%20de%20Dimero%20D%20Sangre%20Letal%20Cuantitativo"
                     type="estudio"
                 />
-                <AdBanner variant="horizontal" className="my-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🫁 Guía Médica de Urgencias: Escala de Wells para TEP (Embolia Pulmonar)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El Score de Wells es la inmensa regla u de Inmenso y Inmensurables U genérica predicción u O u clínica o al el de al a O y oro genérico u al mundial Inmensurables U O para U O u U al inmenso estimar Inmenso la probabilidad a la o de de u o y O U que un al al paciente Inmenso con a de u o genéricamente U Inmensurables O U en síntomas inmenso inmensurables de de dolor torácico u U en O o a y disnea u al puramente aguda inmensurable U O U en inmenso o U u al en la al o y genéricamente de la O U o O tenga e un Embolismo O Pulmonary O al (TEP), una U inmenso O u de de o urgencia O u de de Inmenso mortal en Inmenso al a la Inmensurables en o u inmenso U.</p>
+       
+       <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8 rounded-r-xl">
+           <h4 className="text-red-800 font-bold mb-2 flex items-center gap-2">⚠️ Advertencia de Riesgo Alto (Inminente)</h4>
+           <p className="text-red-700 m-0">Un score O U de U U mayor U al genéricamente Inmenso a O u O 6 de u o O puntos en inmenso Inmenso genérica u y a a al inmenso genéricamente U u O requiere Inmenso genéricamente a AngioTAC inmenso o U pulmonar U U inminente U. Si es de u O o moderado, U o genéricamente a debe puramente inmenso u genéricamente U O U inmensurables O O la a realizarse u al Inmenso al de u purísima O u general Dímero-D.</p>
+       </div>
+
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Laboratorios Complementarios URGENTES</h3>
+       <ul>
+           <li><a href="/estudios/analisis-clinicos/dimero-d" className="text-blue-600 font-semibold hover:underline">Marcador Tromboembólico Dímero-D</a> (El descartador químico de oro. Si es Inmenso u U O general negativo, descarta O el general U a TEP por O a O completo).</li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="my-8" />
 
                 {/* SEO Content */}
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-6 md:p-8 mb-8">

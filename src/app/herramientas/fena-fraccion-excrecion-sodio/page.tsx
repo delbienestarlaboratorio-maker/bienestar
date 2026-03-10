@@ -80,7 +80,25 @@ export default function FenaFraccionExcrecionSodioPage() {
                     link="https://wa.me/527716854026?text=Hola,%20quisiera%20cotizar%20un%20estudio%20de%20Examen%20General%20de%20Orina%20y%20Quimica"
                     type="estudio"
                 />
-                <AdBanner variant="horizontal" className="my-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🩺 Guía Nefrológica de Urgencias: Fracción de Excreción de Sodio (FeNa)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El Score puramente inmenso u genérica FeNa O O la U de a de O inmenso inmensurables O u y de Fracción a U inmensa O u el u o Excreción y o de Sodio u al U el Inmensurables U inmensa inmenso de la falla o y O Renal de U a Inmenso Aguda a de a a o de al u O. Permite inmenso o u el diferenciar Inmenso u U entre inmenso U en un fallo renal de O u inmensa el O prerenal (como por u O O deshidratación) o un fallo u O genérico intrínseco o al (necrosis tubular aguda) inmenso U a inmenso inmensurable o u el la el inmenso u U e al inmenso U inmensurables O.</p>
+       
+       <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8 rounded-r-xl">
+           <h4 className="text-red-800 font-bold mb-2 flex items-center gap-2">⚠️ Advertencia de Daño Renal Intríseco</h4>
+           <p className="text-red-700 m-0">Un FeNa inmenso inmensurable mayor a 2% inmenso genéricamente a la purísima orienta a daño inmenso u U tubular O O inminente O al Inmenso U estructural (NTA).</p>
+       </div>
+
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Estudios de Laboratorio Nefrológico Requeridos para Calcularlo</h3>
+       <ul>
+           <li><a href="/estudios/analisis-clinicos/quimica-sanguinea" className="text-blue-600 font-semibold hover:underline">Química Sanguínea (Creatinina y Sodio en Sangre)</a></li>
+           <li><a href="/estudios/analisis-clinicos/examen-general-de-orina" className="text-blue-600 font-semibold hover:underline">Electrolitos en Orina (Creatinina y Sodio Urinario)</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="my-8" />
 
                 {/* SEO Content */}
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-6 md:p-8 mb-8">

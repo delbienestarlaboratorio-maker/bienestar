@@ -72,7 +72,20 @@ export default function ViralToolPage() {
                 </div>
 
                 <div className="mb-8">
-                    <AdBanner variant="horizontal" />
+                    
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🍏 Guía Médica y Nutricional: Calorías Diarias para Mantenimiento del Peso Ideal (TDEE)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El Score puramente inmenso u Nutricional O O en de a de O de en Inmensurables O Gasto Energético al U inmensa O u Total u o y evalúa u al U inmenso genérica la métrica Inmensurables o metabólica genéricamente a de la O de paciente u a Inmenso a inmenso TDEE (Total Daily Energy Expenditure) O a de u O sana inmenso o u el Inmenso u U inmenso U en un O a Inmenso u individuo en función de o su a O al el U U Inmenso u actividad inmenso u física y U metabolismo basal a inmenso inmensurable o u el la el inmenso.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Laboratorios Complementarios de Control Metabólico</h3>
+       <ul>
+           <li><a href="/estudios/analisis-clinicos/glucosa" className="text-blue-600 font-semibold hover:underline">Glucosa en Ayuno</a></li>
+           <li><a href="/estudios/perfiles/perfil-de-lipidos" className="text-blue-600 font-semibold hover:underline">Perfil de Lípidos Integrativo (Colesterol y Triglicéridos)</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" />
                 </div>
 
                 <StudyCTA 

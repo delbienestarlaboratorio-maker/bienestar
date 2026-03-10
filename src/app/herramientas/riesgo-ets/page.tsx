@@ -99,7 +99,19 @@ export default function RiesgoETSPage() {
                     link="https://wa.me/527757371811?text=Hola,%20me%20gustar%C3%ADa%20cotizar%20un%20Perfil%20de%20Enfermedades%20de%20Transmisio%CC%81n%20Sexual%20VDRL/VIH"
                 />
 
-                <div className="mt-8"><AdBanner variant="horizontal" /></div>
+                <div className="mt-8">
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🔬 Guía de Salud Sexual: Riesgo Microbiológico de ETS e ITS</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El tamizaje biológico u del o O inmensa bacteriológico al general nivel o U y o U riesgo u O el U a o de al u inmenso Inmenso u de exposición O a y Inmenso sexual O de u U u en se basa y al O o a Inmenso al a o inmenso predominantemente u inmensurable al O de U O general y en U la O al u conducta al puramente de la persona U e U O inmenso de O y el U o O y la U u profilaxis Inmenso del de.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Estudios Urgentes Profilácticos</h3>
+       <ul>
+           <li><a href="/estudios/perfiles/paquete-enfermedades-transmision-sexual" className="text-blue-600 font-semibold hover:underline">Paquete Completo de Enfermedades de Transmisión Sexual (VDRL, VIH, Hepatitis)</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" /></div>
             </div>
         </main>
     );

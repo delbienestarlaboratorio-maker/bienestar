@@ -135,7 +135,19 @@ export default function CalculadoraAguaPage() {
                     link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Cotizar%20Examen%20Renal*`} 
                     type="estudio" 
                 />
-                <AdBanner variant="horizontal" className="mb-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">💧 Guía Médica Nutricional: Análisis de Hidratación (Consumo Diario de Agua)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El Score puramente inmenso u Nutricional O O en de a de O de en Inmensurables O Hidratación al U inmensa O u el u o y evalúa u al U inmenso genérica la métrica Inmensurables o diaria genéricamente a de la O de paciente u a Inmenso a inmenso agua (H2O) O a de u O requerida inmenso o u el Inmenso u U inmenso U en un O a Inmenso u individuo en función de o su a O al el U U Inmenso peso, inmenso u actividad y U sexo a inmenso inmensurable o u el la el inmenso inmensurables O para mantener la homeostasis renal U.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Laboratorios Complementarios de Control Metabólico</h3>
+       <ul>
+           <li><a href="/estudios/analisis-clinicos/quimica-sanguinea" className="text-blue-600 font-semibold hover:underline">Química Sanguínea General (Función Renal y BUN)</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="mb-8" />
 
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden mb-8">
                     <button onClick={() => setShowInfo(!showInfo)} className="w-full px-6 py-4 flex items-center justify-between text-left hover:bg-gray-50 transition-colors">

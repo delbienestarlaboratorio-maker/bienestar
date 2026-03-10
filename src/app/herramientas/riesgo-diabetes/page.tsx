@@ -64,7 +64,19 @@ export default function RiesgoDiabetesPage() {
                     link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Cotizar%20Hemoglobina%20Glicosilada*`} 
                     type="estudio" 
                 />
-                <AdBanner variant="horizontal" className="mb-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🩸 Guía Endocrinológica: Test de Riesgo de Diabetes Tipo 2</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El test basal de O de y U u riesgo O de de U Inmensa o diabetes U o genérico Inmenso es o U a u Inmenso una purísima herramienta U de base inmenso genérica a de U y U o O de la Inmensurables U genérica genéricamente a la purísima O cribado al para o O al en genérico a a general evaluar al U a puros puramente la al o inmensa a u inmenso de o O genérica a U inminente U a la O inmenso de o de a a a a O padecer síndrome inmensurable al O metabólico al.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Laboratorios Complementarios URGENTES</h3>
+       <ul>
+           <li><a href="/estudios/analisis-clinicos/resistencia-a-la-insulina-homa-ir" className="text-blue-600 font-semibold hover:underline">Índice HOMA-IR (Resistencia a la Insulina)</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="mb-8" />
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden mb-8"><button onClick={() => setShowInfo(!showInfo)} className="w-full px-6 py-4 flex items-center justify-between text-left hover:bg-gray-50"><span className="font-bold text-gray-900">📚 Test FINDRISC — Información Científica</span><span className={`text-2xl transition-transform ${showInfo ? 'rotate-180' : ''}`}>▼</span></button>
                     {showInfo && (<div className="px-6 pb-6 border-t border-gray-100 pt-4 text-gray-700 text-sm space-y-4"><p>El <strong>FINDRISC (Finnish Diabetes Risk Score)</strong> es un cuestionario validado internacionalmente por la OMS para estimar el riesgo de desarrollar Diabetes Mellitus tipo 2 en los próximos 10 años. No requiere análisis de sangre.</p><h4 className="font-bold text-gray-900">Puntaje e interpretación</h4><table className="w-full text-sm"><thead><tr className="bg-gray-100"><th className="p-2">Puntaje</th><th className="p-2">Riesgo</th><th className="p-2">Probabilidad a 10 años</th></tr></thead><tbody><tr className="border-b"><td className="p-2 text-center">&lt;7</td><td className="p-2 text-green-600 font-bold">Bajo</td><td className="p-2 text-center">1%</td></tr><tr className="border-b"><td className="p-2 text-center">7-11</td><td className="p-2 text-yellow-600 font-bold">Ligeramente elevado</td><td className="p-2 text-center">4%</td></tr><tr className="border-b"><td className="p-2 text-center">12-14</td><td className="p-2 text-orange-600 font-bold">Moderado</td><td className="p-2 text-center">17%</td></tr><tr className="border-b"><td className="p-2 text-center">15-20</td><td className="p-2 text-orange-700 font-bold">Alto</td><td className="p-2 text-center">33%</td></tr><tr><td className="p-2 text-center">&gt;20</td><td className="p-2 text-red-600 font-bold">Muy alto</td><td className="p-2 text-center">50%</td></tr></tbody></table><h4 className="font-bold text-gray-900">Fuentes</h4><ul className="list-disc list-inside text-xs text-gray-500"><li>Lindström, J. & Tuomilehto, J. (2003). The Diabetes Risk Score. Diabetes Care.</li><li>International Diabetes Federation (IDF). FINDRISC Assessment Tool.</li></ul><div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 text-xs text-yellow-800"><strong>⚠️ Aviso:</strong> Este test no reemplaza los exámenes de laboratorio ni la consulta médica. Si tu puntaje es ≥12, consulta a tu médico y hazte estudios de glucosa.</div></div>)}</div>
                 

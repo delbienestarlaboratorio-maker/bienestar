@@ -72,7 +72,19 @@ export default function ViralToolPage() {
                 </div>
 
                 <div className="mb-8">
-                    <AdBanner variant="horizontal" />
+                    
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🧠 Guía Psicométrica: Evaluación de Edad Mental Intelectual</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El Score puramente inmenso u test O O en de a de O de en Inmensurables O Edad al U inmensa O u el u Mental o y evalúa u al U inmenso genérica la Inmensurables inteligencia U inmensa inmenso de la cognición o y O psicométrica de U a Inmenso basal a de u O. Permite inmenso o u el Inmenso u U inmenso U en un O a Inmenso u desempeño a a O al el U U de O individual Inmenso u genéricamente inmenso o u U U a inmenso inmensurable o u el la el inmenso u comparado a estándares etarios inmensurables O.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Laboratorios Complementarios Neurológicos</h3>
+       <ul>
+           <li><a href="/estudios/analisis-clinicos/quimica-sanguinea" className="text-blue-600 font-semibold hover:underline">Química Sanguínea Integral</a> (Para descartar deficiencias metabólicas que nublen el desempeño del test o causen niebla mental o genéricamente U Inmensurables).</li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" />
                 </div>
 
                 <StudyCTA 

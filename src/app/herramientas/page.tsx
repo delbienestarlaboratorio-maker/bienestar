@@ -43,6 +43,15 @@ const calculators = [
     { slug: 'fena-fraccion-excrecion-sodio', name: 'Fracción Excreción de Sodio (FENa)', desc: 'FENa Insuficiencia Aguda LRA', icon: '🧂', category: 'Nefrología', color: 'bg-teal-600' },
     { slug: 'brecha-anionica-gap', name: 'Anión GAP (Brecha Aniónica con Delta)', desc: 'Anión GAP Acidosis M', icon: '⚖️', category: 'Nefrología', color: 'bg-teal-600' },
 
+    // Radiología y Ecos (Batch 2)
+    { slug: 'calculadora-exposicion-rayosx-avanzada', name: 'Calculadora de Exposición de Rayos X', desc: 'Generador de Técnicas RX', icon: '🩻', category: 'Radiología y Rayos X', color: 'bg-zinc-600' },
+    { slug: 'indice-cardo-toracico-rx', name: 'Índice Cardiotorácico (ICT)', desc: 'Detector de Cardiomegalia', icon: '🫀', category: 'Radiología y Rayos X', color: 'bg-zinc-600' },
+    { slug: 'angulo-cobb-escoliosis', name: 'Ángulo de Cobb', desc: 'Medición de Escoliosis', icon: '🦴', category: 'Radiología y Rayos X', color: 'bg-zinc-600' },
+    { slug: 'escala-kellgren-lawrence-osteoartritis', name: 'Escala de Kellgren-Lawrence', desc: 'Grados de Osteoartritis', icon: '🦵', category: 'Radiología y Rayos X', color: 'bg-zinc-600' },
+    { slug: 'score-aspetto-tomografia-ictus', name: 'Score ASPECTS para Ictus', desc: 'Evaluación TC de Ictus', icon: '🧠', category: 'Radiología y Rayos X', color: 'bg-zinc-600' },
+    { slug: 'peso-fetal-estimado-hadlock', name: 'Peso Fetal Estimado (Fórmula de Hadlock)', desc: 'Calculador de Biometría Fetal', icon: '🌊', category: 'Ultrasonografía y Ecos', color: 'bg-sky-600' },
+    { slug: 'indice-liquido-amniotico-usg', name: 'Índice de Líquido Amniótico (ILA/AFI)', desc: 'Medición de Bolsones', icon: '🌊', category: 'Ultrasonografía y Ecos', color: 'bg-sky-600' },
+
     // Neumología
     { slug: 'score-curb65-neumonia', name: 'Score CURB-65 para Neumonía', desc: 'Riesgo Neumonía CURB-65', icon: '🌬️', category: 'Neumología', color: 'bg-sky-600' },
     { slug: 'score-wells-tep-embolia', name: 'Score WELLS Embolismo Pulmonar', desc: 'Riesgo TEP Embolia Wells', icon: '🩸', category: 'Neumología', color: 'bg-sky-600' },

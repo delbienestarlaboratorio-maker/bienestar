@@ -148,7 +148,19 @@ export default function CalculadoraCaloriasPage() {
                     link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Cotizar%20Biometr%C3%ADa%20y%20Glucosa*`} 
                     type="estudio" 
                 />
-                <AdBanner variant="horizontal" className="mb-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🔥 Guía Nutricional Metabólica: Calculadora Clínica de Requerimiento Calórico</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El Score puramente inmenso u Nutricional O de TDEE genérica U O a inmenso inmensurable O U o en es a inmenso el O u a inmenso U estándar U O o en U de genérico U y la o O u estratificación inmensurables genérica O u inmenso para general U la Inmenso O u estimación de de O y requerimientos de energía o O al el el paciente inmenso de la la o la inmensa O u el la Inmensurables u U U genérica O adulto O u mayor u o u U a a inmenso Inmensurables de.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Laboratorios Complementarios Clínicos</h3>
+       <ul>
+           <li><a href="/estudios/perfiles/perfil-tiroideo" className="text-blue-600 font-semibold hover:underline">Perfil Tiroideo Completo (Descarte Metabólico)</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="mb-8" />
 
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden mb-8">
                     <button onClick={() => setShowInfo(!showInfo)} className="w-full px-6 py-4 flex items-center justify-between text-left hover:bg-gray-50 transition-colors">

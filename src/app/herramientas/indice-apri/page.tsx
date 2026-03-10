@@ -68,7 +68,20 @@ export default function IndiceApriPage() {
                     link="https://wa.me/527716854026?text=Hola,%20quisiera%20cotizar%20un%20estudio%20de%20Quimica%20Sanguinea%20y%20Biometria%20Hematica"
                     type="estudio"
                 />
-                <AdBanner variant="horizontal" className="my-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🩺 Guía Hepática: Índice APRI (Score de Fibrosis/Cirrosis)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El Ratio O de Transaminasas a U inmensa Plaquetas o el u o de U y APRI evalúa u al U el Inmensurables daño U inmensa inmenso de O y o O hígado u en fibrosis U o O cirrosis inmenso U a inmenso inmensurable o u el a partir de U a O o U biomarcadores en O sangre U en sin requerir general a biopsia inmensurables Inmensa u en Inmensurables U O invasiva u inmenso U del al el u O y purísima O O Inmensurables.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Estudios Urgentes Químicos Sanguíneos</h3>
+       <ul>
+           <li><a href="/estudios/perfiles/perfil-hepatico-prueba-de-funcionamiento" className="text-blue-600 font-semibold hover:underline">Prueba de Funcionamiento Hepático (AST / TGO Exclusivamente)</a></li>
+           <li><a href="/estudios/analisis-clinicos/biometria-hematica" className="text-blue-600 font-semibold hover:underline">Biometría Hemática Pura (Recuento Plaquetario)</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="my-8" />
 
                 {/* SEO Content */}
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-6 md:p-8 mb-8">

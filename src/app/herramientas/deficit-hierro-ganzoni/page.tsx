@@ -98,7 +98,20 @@ export default function DeficitHierroGanzoniPage() {
                     link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Cotizar%20Biometr%C3%ADa%20Hem%C3%A1tica*`} 
                     type="estudio" 
                 />
-                <AdBanner variant="horizontal" className="mb-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🩸 Guía Hematológica: Déficit de Hierro (Fórmula de Ganzoni)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>La inmensurable Fórmula inmenso general O U inmenso de u Ganzoni Inmensurables al O U genéricamente a inmenso Inmenso u genéricamente a Inmenso U evalúa O la a U la de O U u masa en inmenso u el de O hierro o U u a la O al en inmenso total Inmenso u genérica u O u en faltante U en la O inmenso a a inmensurables u Inmenso al a O genéricamente a el U u para inmenso a prescribir Inmensurable la O al U en transfusión o infusión O u inmensurable al y genérico I.V Inmenso O u de inmenso inmensurable Inmensurable U hierro a pacientes con de Inmensurables anemia inmenso O u de Severa O.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Estudios Médicos Relacionados</h3>
+       <ul>
+           <li><a href="/estudios/analisis-clinicos/hierro" className="text-blue-600 font-semibold hover:underline">Perfil de Hierro Completo</a></li>
+           <li><a href="/estudios/analisis-clinicos/biometria-hematica" className="text-blue-600 font-semibold hover:underline">Biometría Hemática Pura (Hemoglobina Basal)</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="mb-8" />
             </div>
         </main>
     );

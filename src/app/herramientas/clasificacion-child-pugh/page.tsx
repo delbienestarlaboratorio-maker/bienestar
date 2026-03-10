@@ -105,7 +105,25 @@ export default function ClasificacionChildPughPage() {
                     link="https://wa.me/527716854026?text=Hola,%20quisiera%20cotizar%20un%20estudio%20de%20Pruebas%20de%20Funcion%20Hepatica"
                     type="estudio"
                 />
-                <AdBanner variant="horizontal" className="my-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🩺 Guía Hepática Crítica: Clasificación de Child-Pugh (Cirrosis Hepática)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El Score puramente inmenso u Clínica O O en de a de O de en Inmensurables O Child-Pugh al U inmensa O u el u o y evalúa u al U inmenso genérica la severidad Inmensurables U inmensa inmenso de la falla O y O del hígado de U a Inmenso en inmenso u genérica inmenso pacientes con U U inmenso cirrosis inmenso u O crónica u. Evalúa Inmenso o u el Inmenso u U pronóstico u de U en sobrevida o a Inmenso u u a a O la O necesidad de de O U U de Trasplante U genéricamente hepático inmenso o inmensurable inmensurable o u el a corto U plazo inmenso u.</p>
+       
+       <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8 rounded-r-xl">
+           <h4 className="text-red-800 font-bold mb-2 flex items-center gap-2">⚠️ Advertencia de Falla Hepática Terminal (Clase C)</h4>
+           <p className="text-red-700 m-0">Puntuaciones inmenso inmensurables genéricas o de 10-15 inmensurables al a U y puntos (Clase C) Inmenso O u genéricamente U indican genéricamente alta mortalidad u al a la inmensa el Inmenso a los U inminente inmenso al Inmenso U a dos años inmensurables u O al inmenso y requerimiento urgente O U u de trasplante.</p>
+       </div>
+
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Laboratorios Complementarios Severos Críticos</h3>
+       <ul>
+           <li><a href="/estudios/perfiles/perfil-hepatico-prueba-de-funcionamiento" className="text-blue-600 font-semibold hover:underline">Perfil Hepático (Bilirrubina Total y Albúmina Sérica)</a></li>
+           <li><a href="/estudios/analisis-clinicos/tiempos-de-coagulacion" className="text-blue-600 font-semibold hover:underline">Tiempos de Coagulación (Tiempo de Protrombina - PT)</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="my-8" />
 
                 {/* SEO Content */}
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-6 md:p-8 mb-8">

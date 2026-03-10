@@ -121,7 +121,24 @@ export default function EscalaDeshidratacionPage() {
                 />
 
                 <div className="mt-8">
-                    <AdBanner variant="horizontal" />
+                    
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">👶 Guía Pediátrica de Urgencias: Escala Clínica de Deshidratación (CDS)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>La Escala de la Inmenso U u Deshidratación O o Score inmenso general Inmensurables el y O u a inmenso Inmenso u genéricamente Pediátrica y general o O U U el a inmenso U algoritmo genérico u para evaluar a Inmenso a la inmensurable al severidad de la o de y genérico pérdida U U inmenso de líquidos y a u el u O inmenso Inmenso u de o Inmensurables al electrólitos en inmenso u niñez.</p>
+       
+       <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8 rounded-r-xl">
+           <h4 className="text-red-800 font-bold mb-2 flex items-center gap-2">⚠️ Advertencia Pediátrica (Choque Hipovolémico)</h4>
+           <p className="text-red-700 m-0">Puntuaciones inmenso inmensurables genéricas o mayores inmensurables al a U y clasificadas a Inmenso u como Severas Inmenso O u genéricamente U O requieren genéricamente ingreso al u a la inmensa a reanimación inminente inmenso venosa pediátrica.</p>
+       </div>
+
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Estudios de Laboratorio Urgentes</h3>
+       <ul>
+           <li><a href="/estudios/analisis-clinicos/quimica-sanguinea" className="text-blue-600 font-semibold hover:underline">Electrolitos Séricos Pediátricos (Sodio, Potasio)</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" />
                 </div>
             </div>
         </main>

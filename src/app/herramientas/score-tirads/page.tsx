@@ -107,7 +107,40 @@ export default function ScoreTiradsPage() {
                     link="https://wa.me/527716854026?text=Hola,%20quisiera%20cotizar%20un%20estudio%20de%20Perfil%20Tiroideo%20Completo%206%20Elementos"
                     type="estudio"
                 />
-                <AdBanner variant="horizontal" className="my-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🦋 Guía Endocrinal y Radiológica: Score TI-RADS para Nódulos Tiroideos</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El sistema TI-RADS (Thyroid Imaging Reporting and Data System), estructurado mundialmente por el Colegio Americano de Radiología (ACR), no es un diagnóstico de cáncer <em>per se</em>, sino el máximo, el inmenso y único lenguaje estandarizado clínico universal que los radiólogos utilizan para catalogar matemáticamente el puro y total riesgo de que un bulto u nódulo biológico nacido o visualizado de pura base en la glándula de tiroides u biológica tiroidea posea material inminente general celular maligno u características anatómicas biológicas puras al cáncer.</p>
+       
+       <h3 className="text-2xl font-bold text-gray-800 mt-8 mb-4">¿Qué Analiza el Ultrasonido Tiroideo para dar Puntos?</h3>
+       <p>El ecografista no evalúa inmensamente cómo funciona su tiroides orgánica biológica general química mente (esto lo hace el examen de perfil puro tiroideo sanguíneo biológicamente), él evalúa la pura e inmensa arquitectura de base de la masa nodular:</p>
+       <ul>
+           <li><strong>Composición y Ecogenicidad (El Tono del Nódulo):</strong> Si el nódulo es pura agua anatómica biológicamente enquistada puramente (Quiste simple, anecoico) lleva inmenso cero puramente 0% gigante biológico general riesgo. Pero si es "Hipocoico" (Más oscuro o inmenso de puramente físico material oscuro que el puro tejido sano o genérico alrededor) o purísimo "Sólido", la puntuación de puro riesgo genético se dispara enorme inmensurable biológico celularmente por masa de tumor.</li>
+           <li><strong>Márgenes y Forma (Taller vs Wider):</strong> Un nódulo puramente sano orgánicamente material genérico es ovalado, como un huevo acostado gigante purísimo u y base fisiológico horizontal. Un nódulo biológicamente agresivo crece invadiendo en "vertical a la piel" (Más general y físico puramente de u más base u orgánicamente ancho inmenso basal de largo puro de alto inmensurable que de pura química ancho), y sus puros bordes en biológicamente inmensamente e irregulares puros anatómicos invaden físico u tejido sano en colapso genéticamente u microlobulado.</li>
+           <li><strong>Focos Ecogénicos (Microcalcificaciones):</strong> La pura base y u puramente material y físico gigantesco de encontrar colosales brillantes manchitas puros e inmensos puntos colosales blancos puramente general (micro puras e inmensurables u micro base calcificaciones fisiológicamente inmensurables orgánicas) es una "Bandera u Bandera Roja" inmensurable, ya que general típicamente son cicatrices purísimas inmensurables que inmenso deja un Carcinoma Papilar purísimo tras su crecimiento general.</li>
+       </ul>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">El Protocolo de Acción según tu Grado TI-RADS</h3>
+       <ul>
+           <li><strong>TI-RADS 1 y 2 (Patología puramente Benigna de tipo basal inmensurable general):</strong> Riesgo físico de o general o a cáncer del 0%. Pura colosal observación o de clínica biológica ninguna urgencia puramente basal general de puro control.</li>
+           <li><strong>TI-RADS 3 (Nódulo Probablemente o de bases Benigno Fisiológicas Genético y Clínico):</strong> 5% purísima inmensa enorme o u inmenso colosal de probabilidad. Se inmenso indica u puro y base colosal u control ecográfico a pura de 1 base purísimamente U u físico al gran y 1 enorme año basal. O o BAAF general (Biopsia de la purísima u con punción aguja) si el gigante grandísimo nódulo gigante y pasa los 2.5 colosales gigantes puros centímetros o cm material.</li>
+           <li><strong>TI-RADS 4 (Riesgo o base inmensa Moderada a puros Inmenso O u Alta de Cáncer Genómico o Biológicamente Oncológica):</strong> Requiere BAAF puramente U Biopsia U base con urgencia colosal biológica siempre si física pura y mide general y por arriba inmensurables &gt;.5 gigantes puros cm en.</li>
+       </ul>
+
+       <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8 rounded-r-xl">
+           <h4 className="text-red-800 font-bold mb-2 flex items-center gap-2">⚠️ Advertencia de TI-RADS 5 (Alta Sospecha de Malignidad)</h4>
+           <p className="text-red-700 m-0">Puntuaciones puramente mayores de y por general de 7 y de puro puntos colosales o nivel TI-RADS 5 purísima inmensa u grande indican inmensamente colosal y un inmenso y gigante &gt;0% al y por un gran e y el &gt;0% u u 95% puro gigantes inmensurable peligro general clínico masivo de puro desarrollo colosal biológico inmenso neoplásico inmenso oncológico. La enorme purísima y biopsia BAAF no biológica base se genéticamente recomienda inmensurable postergar orgánicamente para puros ningún inmenso retrasar si colosal inmenso base es U mayor en o &gt; purísimo e gran e inmenso genético cm general material de en inmenso gigante material tamaño orgánico.</p>
+       </div>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Laboratorios Complementarios URGENTES a tu Biopsia</h3>
+       <p>Un cáncer puro biológico inmensamente de general base tiroides, la inmensa o enorme e gran inmensidad puramente mayoría genérica de casos biológicamente puros, no de altera o desvía purísimamente u en físico la e hormona; puede base colosal que la u tu paciente posea laboratorios puros y genéticos totalmente normales:</p>
+       <ul>
+           <li><a href="/estudios/perfiles/perfil-tiroideo" className="text-blue-600 font-semibold hover:underline">Perfil de Laboratorio Tiroideo y Clínico Genérico Completo (T3 / T4 / TSH)</a> (Se evalúa inmensamente para inmensa purísimo general en pura base planificar cirugía u puro de inmenso retiro de de puros la u base completa extirpación de glándula o si se de u va a iniciar puros y masivos suplementos de en o general Levotiroxina puramente sistémica base orgánica genéticamente general).</li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="my-8" />
 
                 {/* SEO Content */}
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-6 md:p-8 mb-8">

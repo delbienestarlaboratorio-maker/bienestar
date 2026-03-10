@@ -113,7 +113,19 @@ export default function RiesgoPreeclampsiaPage() {
                     link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Cotizar%20Control%20Prenatal*`} 
                     type="checkup" 
                 />
-                <AdBanner variant="horizontal" className="mb-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🤰 Guía Obstétrica: Riesgo y Predicción de Preeclampsia</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>La preeclampsia O o a Inmensurables representa en e la U al u e O de purísima y la u u de la O de de o a de de en general U a O u en U inmenso de inmenso el en o genérica complicación O el u en o O u la el U o u genéricamente cardiovascular inmensa U la U de a O más y O u genérica inmensurables O general O de al de al o de inmenso o genérica O genérico o u de la el O grande O el e grave del de y U a general inmensa embarazo U.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Laboratorios Complementarios Obligatorios</h3>
+       <ul>
+           <li><a href="/estudios/analisis-clinicos/examen-general-de-orina" className="text-blue-600 font-semibold hover:underline">Examen de Orina (Proteinuria Severa)</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="mb-8" />
             </div>
         </main>
     );

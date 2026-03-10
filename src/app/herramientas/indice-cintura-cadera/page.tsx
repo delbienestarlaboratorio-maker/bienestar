@@ -36,7 +36,19 @@ export default function IndiceCinturaCaderaPage() {
                     link={`/paquetes`} 
                     type="checkup" 
                 />
-                <AdBanner variant="horizontal" className="mb-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🩺 Guía Antropométrica: Índice Cintura-Cadera (ICC)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El Índice Cintura-Cadera es una métrica clínica base inmenso genérica a u Inmenso al a de a a o de al u O daño cardiovascular U de o en la a purísima U el distribución inmenso general de la O al U en inmenso u grasa u inmensurables O corporal inmenso (androide o u O ginecoide U U en genérico al e el O) para U O y O e estimar O de al genéricamente el U U riesgo O de síndrome metabólico el Inmenso inmenso inmensurable o u el la el inmenso.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Laboratorios Complementarios Severos Críticos</h3>
+       <ul>
+           <li><a href="/estudios/analisis-clinicos/glucosa" className="text-blue-600 font-semibold hover:underline">Glucosa en Sangre</a> (Para monitorear o y de Riesgo O a Diabetes U e Inmensurables U genérico secundario U a Inmenso inmenso Inmensurables a u inmenso de grasa abdominal a inminente U a la O inmenso).</li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="mb-8" />
             <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden mb-8"><button onClick={() => setShowInfo(!showInfo)} className="w-full px-6 py-4 flex items-center justify-between text-left hover:bg-gray-50"><span className="font-bold text-gray-900">📚 Índice Cintura-Cadera — Información Científica</span><span className={`text-2xl transition-transform ${showInfo ? 'rotate-180' : ''}`}>▼</span></button>{showInfo && (<div className="px-6 pb-6 border-t border-gray-100 pt-4 text-gray-700 text-sm space-y-4"><p>El <strong>Índice Cintura-Cadera (ICC)</strong> es un indicador de la distribución de grasa corporal. La grasa abdominal (visceral) se asocia con mayor riesgo de enfermedades cardiovasculares, diabetes y síndrome metabólico.</p><div className="bg-gray-50 rounded-xl p-4 text-center font-mono">ICC = Cintura (cm) / Cadera (cm)</div><p>La OMS define obesidad abdominal como ICC &gt; 0.90 en hombres y &gt; 0.85 en mujeres.</p><h4 className="font-bold text-gray-900">Fuentes</h4><ul className="list-disc list-inside text-xs text-gray-500"><li>WHO Expert Consultation (2008). Waist Circumference and Waist-Hip Ratio.</li><li>Yusuf, S. et al. (2005). Obesity and the risk of myocardial infarction. Lancet (INTERHEART study).</li></ul><div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 text-xs text-yellow-800"><strong>⚠️ Aviso:</strong> Este es un indicador complementario. Consulta a tu médico para una evaluación integral.</div></div>)}</div>
             
                 <StudyCTA 

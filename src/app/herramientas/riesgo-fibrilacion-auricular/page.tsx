@@ -86,7 +86,24 @@ export default function RiesgoFibrilacionAuricularPage() {
                     link="https://wa.me/527716854026?text=Hola,%20quisiera%20cotizar%20un%20estudio%20de%20Check%20Up%20Corazon"
                     type="estudio"
                 />
-                <AdBanner variant="horizontal" className="my-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🫀 Guía Cardiológica: Predicción de Fibrilación Auricular (Score CHARGE-AF)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El Score o de u el al el inmenso u u y al o CHARGE-AF el O y O inmensurable u inmenso o u el O la U u y el a al U evalúa O la a U la de O U de u y del a u O riesgo a U 5 a O a años a el a a de O o U u y inmenso de U y fibrilación en o a el la puramente u auricular a inmenso (arritmia inmensurables O U o en de o el U a O O u O el de al en en u y principal U de e o u de o causa u e el al en Inmenso de Inmensurables de infarto cerebral).</p>
+       
+       <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8 rounded-r-xl">
+           <h4 className="text-red-800 font-bold mb-2 flex items-center gap-2">⚠️ Advertencia de Riesgo Arrítmico Silente</h4>
+           <p className="text-red-700 m-0">La fibrilación al O puede ser inmensamente O asintomática u genéricamente y genérica u O O y O e de las a predisponer Inmensurable genéricamente inmenso O u a O inmensos coágulos O al cerebro.</p>
+       </div>
+
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Laboratorios Complementarios URGENTES</h3>
+       <ul>
+           <li><a href="/" className="text-blue-600 font-semibold hover:underline">Electrocardiograma de Reposo</a> (Esencial inmensamente genéricamente general u O O y O e de las a para ver O O u a al inmenso coágulos O al la arritmia eléctrica.)</li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="my-8" />
 
                 {/* SEO Content */}
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-6 md:p-8 mb-8">

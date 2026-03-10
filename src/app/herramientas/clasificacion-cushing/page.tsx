@@ -86,7 +86,19 @@ export default function ClasificacionCushingPage() {
                     link="https://wa.me/527716854026?text=Hola,%20quisiera%20cotizar%20un%20estudio%20de%20Cortisol%20Serico%20AM"
                     type="estudio"
                 />
-                <AdBanner variant="horizontal" className="my-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🧠 Guía Endocrinológica y Adrenal: Clasificación del Síndrome de Cushing</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El Score puramente inmenso u Clínica O O en de a de O de en Inmensurables O Evaluar al U inmensa O u el u Cushing o y evalúa u al U inmenso genérica la severidad Inmensurables U inmensa inmenso de la hipercortisolemia o y O del hipercortisolismo de U a Inmenso (exceso de U U inmenso cortisol) O u. Diferencia inmenso o u el Inmenso u U síndrome origen inmenso U en un O a Inmenso u adrenal a a O al vs U U de pituitario (Enfermedad U genéricamente Cushing inmenso o u U U inmensurable o u el inmenso u).</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Laboratorios Complementarios Endocrinos</h3>
+       <ul>
+           <li><a href="/estudios/analisis-clinicos/cortisol" className="text-blue-600 font-semibold hover:underline">Niveles de Cortisol Básico o en Orina de 24 horas</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="my-8" />
 
                 {/* SEO Content */}
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-6 md:p-8 mb-8">

@@ -70,6 +70,8 @@ export const Footer = () => {
 
             <div className="max-w-6xl mx-auto px-4 pt-8 border-t border-gray-800 text-center text-xs">
                 <p suppressHydrationWarning>&copy; {new Date().getFullYear()} Laboratorio Clínico Bienestar. Todos los derechos reservados.</p>
+                {/* Honeypot link para defensa contra scrapers/bots */}
+                <a href="/api/trap" style={{ display: 'none' }} aria-hidden="true" rel="nofollow">Legal Policy</a>
             </div>
         </footer>
     );

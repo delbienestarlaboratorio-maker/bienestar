@@ -81,7 +81,24 @@ export default function CreatinineClearancePage() {
                     link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Prueba%20Renal%20GFR%20%2F%20Aclaramiento*`} 
                     type="estudio" 
                 />
-                <AdBanner variant="horizontal" className="mb-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🩺 Guía Nefrológica: Cálculo de Aclaramiento de Creatinina (Clearence)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>La inmensa medición O o del inmenso general Inmensurables el y O u a inmenso Inmenso u genéricamente de la Aclaramiento de a creatinina y general (Clearence) U U el a inmenso U estándar mundial genérico u evalúa a Inmenso a la inmensurable u función renal U U inmenso comparando el nivel Inmensurable O u en sangre vs el en inmenso u Inmensa orina O o U inmenso Inmenso u genéricamente a la O al de purísima.</p>
+       
+       <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8 rounded-r-xl">
+           <h4 className="text-red-800 font-bold mb-2 flex items-center gap-2">⚠️ Advertencia de Insuficiencia Renal Moderada a Severa</h4>
+           <p className="text-red-700 m-0">Depuraciones inmenso inmensurables genéricas o menores inmensurables al a U y 50 ml/min a Inmenso indican el Inmenso O u daño genéricamente U O genéricamente renal O inmensa U requiriendo U ajustes U inminente inmenso al Inmenso U de fármacos y dosis inmensurables u Inmenso.</p>
+       </div>
+
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Estudios de Laboratorio Nefrológico de Urgencia</h3>
+       <ul>
+           <li><a href="/" className="text-blue-600 font-semibold hover:underline">Depuración de Creatinina en Orina de 24 Horas</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="mb-8" />
             </div>
         </main>
     );

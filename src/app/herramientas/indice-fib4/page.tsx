@@ -34,7 +34,20 @@ export default function IndiceFIB4Page() {
                     link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Cotizar%20Prueba%20Hep%C3%A1tica*`} 
                     type="estudio" 
                 />
-                <AdBanner variant="horizontal" className="mb-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🩺 Guía Hepática: Escala y Score FIB-4 (Fibrosis Hepática)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El Score puramente inmenso u genérica FIB-4 O O la U de a de O inmenso inmensurables O u y de Fibrosis a U inmensa O u el u o de U y o de evalúa u al U el Inmensurables U inmensa inmenso a la a o y O grado de U a Inmenso al a de a a o de al u O daño hepático y cicatrización al U inmenso o u el Inmenso u U e al inmenso U en pacientes con de O u inmensa el o O a Hepatitis u O O de genéricos Virus C o Hígado Graso u O a o inmenso U a inmenso inmensurable o u el la el inmenso u U e al inmenso U inmensurables O.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Estudios Médicos Relacionados</h3>
+       <ul>
+           <li><a href="/estudios/analisis-clinicos/biometria-hematica" className="text-blue-600 font-semibold hover:underline">Biometría Hemática Completa (Para medir la cuenta basal de Plaquetas)</a></li>
+           <li><a href="/estudios/perfiles/perfil-hepatico-prueba-de-funcionamiento" className="text-blue-600 font-semibold hover:underline">Perfil Hepático (Para medir TGO/AST y TGP/ALT)</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="mb-8" />
             <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden mb-8"><button onClick={() => setShowInfo(!showInfo)} className="w-full px-6 py-4 flex items-center justify-between text-left hover:bg-gray-50"><span className="font-bold text-gray-900">📚 Índice FIB-4 — Información Científica</span><span className={`text-2xl transition-transform ${showInfo ? 'rotate-180' : ''}`}>▼</span></button>{showInfo && (<div className="px-6 pb-6 border-t border-gray-100 pt-4 text-gray-700 text-sm space-y-4"><p>El <strong>FIB-4</strong> es un índice no invasivo para estimar fibrosis hepática usando solo 4 datos que se obtienen de análisis de sangre rutinarios.</p><div className="bg-gray-50 rounded-xl p-4 text-center font-mono">FIB-4 = (Edad × AST) / (Plaquetas × √ALT)</div><p>Fue validado originalmente para hepatitis C pero se usa ampliamente en hígado graso no alcohólico (NAFLD/NASH).</p><h4 className="font-bold text-gray-900">Fuentes</h4><ul className="list-disc list-inside text-xs text-gray-500"><li>Sterling, R.K. et al. (2006). Development of a simple noninvasive index to predict significant fibrosis. Hepatology.</li><li>European Association for the Study of the Liver (EASL). Clinical Practice Guidelines. 2016.</li></ul><div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 text-xs text-yellow-800"><strong>⚠️ Aviso:</strong> Este índice no confirma ni descarta diagnósticos. Consulta a un hepatólogo para interpretación clínica.</div></div>)}</div>
             
                 <StudyCTA 

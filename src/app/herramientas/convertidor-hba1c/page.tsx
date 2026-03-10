@@ -45,7 +45,20 @@ export default function ConvertidorHbA1cPage() {
                     link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Cotizar%20Hemoglobina%20A1c*`} 
                     type="estudio" 
                 />
-                <AdBanner variant="horizontal" className="mb-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🩸 Guía Endocrinológica Diabética: Convertidor de HbA1c a Glucosa Media Estimada (eAG)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El Cáculo U de Inmenso y Inmensurables U genérica Conversión u O u analítica o al de HbA1c a O y oro genérico u Glucosa Media Estimada (eAG) estratifica y U O u U al inmenso evalúa Inmenso la traducción O al a y u inmensa a Inmenso al la O al u en inmenso mg/dL genérica u inmensurables de la O u e hemoglobina glucosilada O O de U inmenso Inmensurable U U un Inmenso paciente u O genéricamente u inmenso U a inmenso inmensurable u diabético Inmenso al a U u.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Laboratorios Complementarios de Sangre</h3>
+       <ul>
+           <li><a href="/estudios/perfiles/hemoglobina-glucosilada-hba1c" className="text-blue-600 font-semibold hover:underline">Hemoglobina Glucosilada (HbA1c)</a> (Requerida Inmenso genéricamente a para el inmenso cálculo base U inminente U).</li>
+           <li><a href="/estudios/analisis-clinicos/resistencia-a-la-insulina-homa-ir" className="text-blue-600 font-semibold hover:underline">Resistencia a la Insulina HOMA-IR</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="mb-8" />
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden mb-8"><button onClick={() => setShowInfo(!showInfo)} className="w-full px-6 py-4 flex items-center justify-between text-left hover:bg-gray-50"><span className="font-bold text-gray-900">📚 ¿Qué es la HbA1c? — Información Científica</span><span className={`text-2xl transition-transform ${showInfo ? 'rotate-180' : ''}`}>▼</span></button>
                     {showInfo && (<div className="px-6 pb-6 border-t border-gray-100 pt-4 text-gray-700 text-sm space-y-4"><p>La <strong>Hemoglobina Glicosilada (HbA1c)</strong> mide el porcentaje de hemoglobina unida a glucosa en los últimos 2-3 meses. Es el estándar de oro para el control de la diabetes.</p><div className="bg-gray-50 rounded-xl p-4 text-center font-mono">Glucosa estimada (mg/dL) = 28.7 × HbA1c - 46.7</div><p>Esta fórmula fue derivada del estudio ADAG (A1C-Derived Average Glucose).</p><h4 className="font-bold text-gray-900">Fuentes</h4><ul className="list-disc list-inside text-xs text-gray-500"><li>Nathan, D.M. et al. (2008). Translating the A1C assay into estimated average glucose values. Diabetes Care.</li><li>American Diabetes Association. Standards of Medical Care in Diabetes.</li></ul><div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 text-xs text-yellow-800"><strong>⚠️ Aviso:</strong> Esta conversión es una estimación. La relación HbA1c-glucosa varía entre individuos. Realiza el estudio de HbA1c en laboratorio para mayor precisión.</div></div>)}</div>
                 

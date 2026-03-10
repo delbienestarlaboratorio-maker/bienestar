@@ -116,7 +116,30 @@ export default function ScoreIPSSProstataPage() {
                 />
 
                 <div className="mt-8">
-                    <AdBanner variant="horizontal" />
+                    
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🩺 Guía Urológica: Score IPSS (Prostatismo y Severidad Hiperplasia Prostática Benigna)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El Cuestionario Internacional de Síntomas Prostáticos (IPSS) es un test diseñado por la Asociación Americana de Urología (AUA) para medir la obstrucción y daño a la calidad de vida que causa el agrandamiento por desgaste natural de la próstata en los hombres mayores.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Valoración Clínica</h3>
+       <ul>
+           <li><strong>IPSS 0-7 (Leve):</strong> Vigilancia rutinaria y controles pélvicos programados puros anuales de rutina de crecimiento u prostático y clínico profiláctico urológico al.</li>
+           <li><strong>IPSS 20-35 (Severo):</strong> Riesgo inminente de retención urinaria aguda, un dolor insoportable incapacidad de vaciar que requiere sonda Foley y consideración de cirugía TURP de urgencia invasiva global.</li>
+       </ul>
+
+       <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8 rounded-r-xl">
+           <h4 className="text-red-800 font-bold mb-2 flex items-center gap-2">⚠️ Advertencia Diagnóstica: Descartar Neoplasia Cáncer</h4>
+           <p className="text-red-700 m-0">El agrandamiento obstructivo comparte sintomatología con el carcinoma maligno de próstata. Síntomas de goteo nocturno, pujo constante severo e insomnio miccional urgen una cuantificación química en sangre para descartar tumor prostático silente.</p>
+       </div>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Laboratorio de Descarte Prostático (Oncológico)</h3>
+       <ul>
+           <li><a href="/estudios/analisis-clinicos/antigeno-prostatico-especifico-psa" className="text-blue-600 font-semibold hover:underline">Examen de Antígeno Prostático Específico (PSA Total y Fracción Libre)</a> (El reactivo patrón indispensable de cualquier urológo en el humano del de control prostático preventivo).</li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" />
                 </div>
             </div>
         </main>

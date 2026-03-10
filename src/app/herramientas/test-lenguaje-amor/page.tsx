@@ -72,7 +72,28 @@ export default function ViralToolPage() {
                 </div>
 
                 <div className="mb-8">
-                    <AdBanner variant="horizontal" />
+                    
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🧠 Guía Psicológica: Lenguajes del Amor y Regulación Emocional</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El concepto clínico de los \"Lenguajes del Amor\", aunque popularizado sociológicamente, tiene un profundo fundamento en la neurobiología del apego. Representan las vías de comunicación somato-sensoriales y cognitivas mediante las cuales el sistema límbico de una persona decodifica las señales de \"seguridad, confianza y afecto\" provenientes de su tribu o pareja sentimental.</p>
+       
+       <h3 className="text-2xl font-bold text-gray-800 mt-8 mb-4">El Circuito de Recompensa (Oxitocina y Dopamina)</h3>
+       <p>Cada individuo, debido a la plasticidad neuronal forjada en su primera infancia (estilos de apego de Bowlby), desarrolla una hipersensibilidad a ciertos estímulos de recompensa. Si una persona requiere \"Palabras de Afirmación\", su córtex auditivo está directamente enlazado con el área tegmental ventral; las verbalizaciones positivas le generan descargas masivas de dopamina. Por el contrario, un individuo cuyo circuito primario es el \"Contacto Físico\" requiere estimulación mecánica de los corpúsculos táctiles en la piel para secretar oxitocina sistémica, lo que biológicamente reduce su frecuencia cardíaca y cortisol basal.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Implicaciones Clínicas en la Salud de Pareja</h3>
+       <ul>
+           <li><strong>Disonancia Afectiva Crónica:</strong> Cuando dos personas se aman pero usan canales neurológicos incompatibles (Ej: Uno da regalos [canal material] pero el otro necesita tiempo de calidad [canal atencional prefrontal]), el cerebro de ambos registra un \"déficit de cuidado\".</li>
+           <li><strong>Somatización del Desapego:</strong> La percepción de no ser amado (por usar el canal incorrecto) eleva los marcadores de estrés inflamatorio y reduce el sistema inmunológico, propiciando resfriados frecuentes y síndromes gastrointestinales tensionales.</li>
+       </ul>
+
+       <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8 rounded-r-xl">
+           <h4 className="text-blue-800 font-bold mb-2 flex items-center gap-2">💡 Intervención de Terapia Relacional</h4>
+           <p className="text-blue-700 m-0">El mapeo científico de tu lenguaje principal permite ejecutar una reestructuración conductual en la relación. Se instruye a las parejas a \"traducir\" voluntariamente sus esfuerzos cerebrales hacia la vía sensorial que de facto impacta bioquímicamente a su compañero, previniendo el Síndrome de Estrés Postraumático Relacional y consolidando un apego seguro maduro.</p>
+       </div>
+   </div>
+</section>
+<AdBanner variant="horizontal" />
                 </div>
 
                 <StudyCTA 

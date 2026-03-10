@@ -196,7 +196,19 @@ export default function RiesgoCardiovascularPage() {
                     link={`/paquetes`} 
                     type="checkup" 
                 />
-                <AdBanner variant="horizontal" className="mb-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🫀 Guía Médica Profiláctica: Score SCORE de Riesgo Cardiovascular Europeo</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El test U o a U y Score O de u el al el inmenso u u y Europeo el O y O inmensurable u inmenso o u el O la U u y al U evalúa O la a U la de O U de u y del a u O riesgo a U mortal O a o a el a a de O por u y inmenso de O enfermedad en o a el la puramente u cardiovascular a inmenso a Inmenso O u de 10 o años al en U de e o Inmenso de Inmensurables u.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Laboratorios Complementarios Severos Críticos</h3>
+       <ul>
+           <li><a href="/estudios/perfiles/perfil-de-lipidos" className="text-blue-600 font-semibold hover:underline">Perfil de Lípidos Completo</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="mb-8" />
 
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden mb-8">
                     <button onClick={() => setShowInfo(!showInfo)} className="w-full px-6 py-4 flex items-center justify-between text-left hover:bg-gray-50">

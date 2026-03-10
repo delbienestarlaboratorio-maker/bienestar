@@ -76,7 +76,19 @@ export default function ViralToolPage() {
                 </div>
 
                 <div className="mb-10 transform hover:scale-[1.01] transition-transform">
-                    <AdBanner variant="horizontal" />
+                    
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">👟 Guía Ortopédica Deportiva: Tipo de Pisada (Pronador, Supinador, Neutro)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>La evaluación biomecánica inmensurable O U o en es a inmenso el O u a inmenso U estándar U O o fisioterapéutico U de genérico U y la o O u deportiva inmensurables genérica O u inmenso para general U la Inmenso O u pisada de de O y evaluar O o al el el grado de al el U a pronación o supinación genérica u inmenso del inmenso inmensurables en o a u pie Inmenso al inmensa aterrizar, O u el la Inmensurables previniendo U genérica lesiones O u articulares u o u U a a inmenso Inmensurables meniscales inmenso Inmensurables.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Estudios Relacionados</h3>
+       <ul>
+           <li><a href="/" className="text-blue-600 font-semibold hover:underline">Consulta Ortopédica Biomecánica (Estudio de la Pisada Analítico)</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" />
                 </div>
 
                 <div className="shadow-2xl rounded-3xl bg-white overflow-hidden border border-gray-100">

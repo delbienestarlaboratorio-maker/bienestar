@@ -127,7 +127,19 @@ export default function CalculadoraMetabolismoPage() {
                     link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Cotizar%20Perfil%20Tiroideo*`} 
                     type="estudio" 
                 />
-                <AdBanner variant="horizontal" className="mb-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🍏 Guía Nutricional y Metabólica: Evaluación de Metabolismo Basal (TMB/BMR)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El Score puramente inmenso u Nutricional O O en de a de O de en Inmensurables O Metabolismo Basal al U inmensa O u el u o y evalúa u al U inmenso genérica la Tasa Inmensurables o Metabólica genéricamente a de la O de paciente u a Inmenso basal a inmenso inmensurable. Representa la O cantidad u de energía o u el Inmenso u U requerida U en un O a Inmenso u individuo en reposo u absoluto a O al el U U Inmenso para genéricamente inmenso u mantener el U funcionamiento de los u Inmensurables u órganos Inmensurables U Inmenso al a U u vitales a al inmenso.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Laboratorios Complementarios de Control Metabólico</h3>
+       <ul>
+           <li><a href="/estudios/perfiles/perfil-tiroideo" className="text-blue-600 font-semibold hover:underline">Perfil Tiroideo Completo (T3, T4, TSH)</a> (Fundamental o para inmensa el O u descartar el Inmenso u inmenso hipotiroidismo O u inmensurable al y genérico que U U desacelera la en O inmenso a el tasa U u inmensa metabólica inminente U).</li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="mb-8" />
 
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden mb-8">
                     <button onClick={() => setShowInfo(!showInfo)} className="w-full px-6 py-4 flex items-center justify-between text-left hover:bg-gray-50 transition-colors">

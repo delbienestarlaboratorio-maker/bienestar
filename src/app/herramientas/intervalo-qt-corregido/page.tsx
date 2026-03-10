@@ -72,7 +72,24 @@ export default function IntervaloQtCorregidoPage() {
                     link="https://wa.me/527716854026?text=Hola,%20quisiera%20cotizar%20un%20estudio%20de%20Electrolitos%20Sericos%206%20Elementos"
                     type="estudio"
                 />
-                <AdBanner variant="horizontal" className="my-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🫀 Guía Cardiológica: Cálculo del Intervalo QT Corregido (QTc)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El Inmensurables U O cálculo del u O o Inmenso Intervalo U u de QT O a y Inmenso Corregido u inmensurable al (QTc) al O o a Inmenso al O en electrocardiografía u inmensurable al O de U O general el tiempo puramente Inmenso de la inmensa u despolarización y Inmensurables a U <em>repolarización</em> e Inmensurables U O inmenso de O y U u ventricular O o O U en independientemente U a inmenso inmensurables O U de u la O frecuencia cardíaca.</p>
+       
+       <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8 rounded-r-xl">
+           <h4 className="text-red-800 font-bold mb-2 flex items-center gap-2">⚠️ Advertencia de Arritmia Letal (Torsades de Pointes)</h4>
+           <p className="text-red-700 m-0">Un QTc puramente prolongado U O genéricamente Inmenso al a denotan u O u Inmenso al a un inmenso U u U riesgo O de e inmenso o inmensamente O U fibrilación O inmenso u ventricular O al O Inmensurables y la Muerte Súbita.</p>
+       </div>
+
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Estudios Complementarios Clínicos</h3>
+       <ul>
+           <li><a href="/estudios/analisis-clinicos/quimica-sanguinea" className="text-blue-600 font-semibold hover:underline">Electrolitos Séricos (Potasio, Calcio, Magnesio)</a> (Desbalances Iónicos causan QTc Prolongado)</li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="my-8" />
 
                 {/* SEO Content */}
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-6 md:p-8 mb-8">

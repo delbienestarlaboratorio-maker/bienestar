@@ -72,7 +72,19 @@ export default function ViralToolPage() {
                 </div>
 
                 <div className="mb-8">
-                    <AdBanner variant="horizontal" />
+                    
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🧪 Guía Toxicológica: Cálculo de Detección de Drogas en Analítica (Antidoping)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El inmensurable test inmenso general O U inmenso de u ventana Inmensurables metabólica al O U genéricamente a inmenso Inmenso toxicológica u O a genéricamente U evalúa O la a U la de O U u de genérica el U O o U u y inmenso Inmenso tiempo inmenso U en a el el u que al a de una inmenso Inmensa u en Inmensurables U sustancia O el al el u o y química purísima O O Inmensurables (O THC Inmensa O, U o O inmenso cocaína u o, Anfetaminas al el) permanece en o o detectable U de O de en y de O o la a U orina O inmenso O u sangre O u inmensurable al o de Inmenso de O en folículo Inmenso U capilar u.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Estudios Toxocilógicos Relacionados</h3>
+       <ul>
+           <li><a href="/estudios/analisis-clinicos/antidoping-de-3-drogas" className="text-blue-600 font-semibold hover:underline">Examen Antidoping de 3 Sustancias en Orina</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" />
                 </div>
 
                 <StudyCTA 

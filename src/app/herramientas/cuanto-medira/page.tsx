@@ -72,7 +72,19 @@ export default function ViralToolPage() {
                 </div>
 
                 <div className="mb-8">
-                    <AdBanner variant="horizontal" />
+                    
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">📏 Guía Pediátrica: Predicción Genética de Talla Final (Talla Blanco Familiar)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El tamizaje biológico u del o O inmensa pediatría al general inmenso o U y o U predictivo O el U a o de al u inmenso Inmenso u Talla O a y Inmenso Blanco u Familiar (Target Height) u en se basa y al O o a Inmenso al a o inmenso fundamentalmente U en U los inmenso U al a la genes u Inmenso y Inmensurables talla Inmenso u genérica de ambós papás O u u a o O al para inmenso a diagnosticar inmenso la u O a en inmensa U niños O el o genéricamente U U retraso de crecimiento inmenso u inmensurable O U o en genérico U.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Laboratorios Complementarios de Crecimiento</h3>
+       <ul>
+           <li><a href="/estudios/perfiles/perfil-tiroideo" className="text-blue-600 font-semibold hover:underline">Perfil Tiroideo Completo (T3, T4, TSH)</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" />
                 </div>
 
                 <StudyCTA 

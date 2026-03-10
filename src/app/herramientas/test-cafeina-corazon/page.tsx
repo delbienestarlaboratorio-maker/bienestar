@@ -76,7 +76,34 @@ export default function ViralToolPage() {
                 </div>
 
                 <div className="mb-10 transform hover:scale-[1.01] transition-transform">
-                    <AdBanner variant="horizontal" />
+                    
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🫀 Guía Médica Cardiológica: Efecto Fisiológico Miocárdico por Cafeína</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>La cafeína (1,3,7-trimetilxantina orgánicamente general bioquímica), el alcaloide neuro-estimulante lícito mundialmente consumido en proporciones colosales biológicas de rutina; posee y asume uno de los roles químicos biológicos más fuertísimos directos e instantáneos de rápida magnitud celular global al torrente circulatorio general puro y cardiovascular al sistema nervioso autonómico sistémico inmenso, y de los ganglios basales miocárdicos eléctricos ventriculares auriculares químicos de enorme magnitud funcional extrema.</p>
+       
+       <h3 className="text-2xl font-bold text-gray-800 mt-8 mb-4">Antagonismo Bioquímico de Adenosina a gran Potencia Receptora</h3>
+       <p>Biológicamente al injerida en altos altibajos químicos generales potentes masivos celulares globales sistémicos de gran ingesta en exceso material a sangre humana libre metabólica química biológica pura al pasar velozmente general el tracto biológico general, bloquea general competitivamente colosal químico gigante en los enormes sistemas basales receptores cerebrales basales corticales químicos sistémicos profundos A1/A2 globales a la adenosina sistémica (inhibidora de somnolencia masiva química), desencadenando y forzando crónicamente orgánicamente grandemente el sistema global químico celular inmenso adrenalínico, soltando el cortisol grandemente sistémico químico puro e induciendo una gigante vaso constricción e hipertensión arterial biológica sostenida química orgánica inmensa severamente base en corazones susceptibles.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Síntomas Directos de la Toxicidad Arrítmica (Ventriculares base)</h3>
+       <ul>
+           <li><strong>Hiperactividad Eléctrica Ectópica Fisiológica Inmensa:</strong> A gran dosis superior altísima a la depuración propia del paciente biológica general orgánica anatómica; las aurículas o los ventrículos pueden despolarizarse a destiempo de nivel basal (Extrasístoles) percibidas como severos saltos a veces brutales profundos químicos torácicos.</li>
+           <li><strong>Ansiedad, Diuresis, Agitación Fuerte Autonómica y Sistema Digestivo Nervioso:</strong> A nivel del tejido orgánico celular la contracción brutal del músculo estomacal es estimulada fuertemente secretora colosal grandemente severa causando y aumentando la perístasis de masa química de evacuaciones orgánicas digestivas de manera gigante e inmensa.</li>
+       </ul>
+
+       <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8 rounded-r-xl">
+           <h4 className="text-red-800 font-bold mb-2 flex items-center gap-2">⚠️ Señales Límite (Banderas Rojas) Cardiovasculares Reales</h4>
+           <p className="text-red-700 m-0">Un grandísimo altísimo de urgencias masivas químicas de \"presiones u oprimentes presencias aplastantes masivas al tórax biológico puro extremo o arritmia galopante continua desbocada fibrilante\", especialmente grave orgánicamente y acompañada inminentemente material mente general celular con dolor químico braquial en extremidad izquierda, vómito o un franco estado alteradísimo y sudores severísimos colosales generales sudorosos químicos bases, simula e imita genéticamente casi perfecto todo y el espectro basal directo gigantesco de un brutal infarto isquémico coronario cardíaco miocárdico estructural en progreso de colapso severo celular en urgencias; ameritando la electrocardiograma emergente y descartar fibrilación.</p>
+       </div>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Recomendaciones Sistémicas de Vigilancia Analítica Base Fisiológica</h3>
+       <p>El estrés miocárdico químico sostenidamente basal biológico inmenso obliga a revisar laboratorios del metabolismo clínico puro químico lipídico coronario para evitar sorpresas o accidentes coronarios de urgencia general química orgánica colosales y profundas metabólicas en extremismo biológico físico clínico base genético:</p>
+       <ul>
+           <li><a href="/estudios/perfiles/perfil-de-lipidos" className="text-blue-600 font-semibold hover:underline">Lipidograma Superior Clínico Completo y Especializado Avanzado</a> (El altísimo químico consumo sostenidísimo enorme aumenta y favorece y eleva a largo severísimo largo plazo base, la formación a de ateroma y coito arterial oxidado basal genético miocárdico por la severísima hipertensión masiva de empuje fisiológico grandemente química a paredes endoteliales masivas).</li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" />
                 </div>
 
                 <div className="shadow-2xl rounded-3xl bg-white overflow-hidden border border-gray-100">

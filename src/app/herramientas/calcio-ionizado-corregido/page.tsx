@@ -62,7 +62,20 @@ export default function CalcioIonizadoCorregidoPage() {
                     link="https://wa.me/527716854026?text=Hola,%20quisiera%20cotizar%20un%20estudio%20de%20Vitamina%20D%20y%20Fosforo"
                     type="estudio"
                 />
-                <AdBanner variant="horizontal" className="my-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🩸 Guía Nefrológica: Cálculo de Calcio Ionizado Sanguíneo</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El Cálculo O o Score inmenso general Inmensurables el y O u a inmenso Inmenso u de a Calcio y general o O U Ionizado el a inmenso U evalúa a Inmenso a la inmensurable cantidad de el o de y genérico mineral activo U U inmenso metabólicamente en la sangre (no inmensurable unido o u O a las inmenso Inmenso u de o proteínas), Inmensurables al ser el inmenso indicador u clínico inmensurable O U o en más U preciso o U en Inmensurables inmenso para a Inmenso a l Inmensa u del en u estado calcémico.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Laboratorios Complementarios URGENTES</h3>
+       <ul>
+           <li><a href="/estudios/analisis-clinicos/quimica-sanguinea" className="text-blue-600 font-semibold hover:underline">Química Sanguínea Total (Albúmina y Proteínas)</a></li>
+           <li><a href="/" className="text-blue-600 font-semibold hover:underline">Calcio Ionizado en Sangre</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="my-8" />
 
                 {/* SEO Content */}
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-6 md:p-8 mb-8">

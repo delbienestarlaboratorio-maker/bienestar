@@ -62,7 +62,20 @@ export default function IndiceQuickiPage() {
                     link="https://wa.me/527716854026?text=Hola,%20quisiera%20cotizar%20un%20estudio%20de%20Insulina%20y%20HOMA%20IR"
                     type="estudio"
                 />
-                <AdBanner variant="horizontal" className="my-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🩸 Guía Endocrinológica: Índice QUICKI (Sensibilidad a Insulina)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El tamizaje inmensurable O o inmenso de u la Inmensurables U u analítica de inmensurable al el y O U genéricamente tipo QUICKI a inmenso el O u a inmenso U evalúa U O o en genérico al e la sensibilidad o el Inmenso o genérica O u inmensa U a O o U acción O u de de inmensurable al la insulina o a en general endógena O u inmensurable al de Inmenso O u O al inmenso matemática u.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Estudios de Laboratorio Confirmatorios</h3>
+       <ul>
+           <li><a href="/estudios/analisis-clinicos/insulina-en-ayunas" className="text-blue-600 font-semibold hover:underline">Insulina en Ayuno Basal</a></li>
+           <li><a href="/estudios/analisis-clinicos/glucosa" className="text-blue-600 font-semibold hover:underline">Glucosa en Ayuno General</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="my-8" />
 
                 {/* SEO Content */}
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-6 md:p-8 mb-8">

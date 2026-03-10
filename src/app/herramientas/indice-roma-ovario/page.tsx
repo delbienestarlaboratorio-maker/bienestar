@@ -72,7 +72,20 @@ export default function IndiceRomaOvarioPage() {
                     link="https://wa.me/527716854026?text=Hola,%20quisiera%20cotizar%20un%20estudio%20de%20Ca%20125%20Quimica%20Tumoral%20Sanguinea"
                     type="estudio"
                 />
-                <AdBanner variant="horizontal" className="my-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🩺 Guía Oncológica Ginecológica: Índice ROMA para Cáncer de Ovario</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El Algoritmo O de u el al el inmenso u u y ROMA el O y O inmensurable u inmenso o u el O la U u y al U evalúa O la a U la de O U u de genérica Inmensurables probabilidad a el O o U u y inmenso de O cáncer en o a el la puramente u ovárico a inmenso a O u de masa o al en U de e o Inmenso de Inmensurables u pélvica combinando los inmensa al de marcadores CA-125 y HE4.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Laboratorios Complementarios Severos Críticos</h3>
+       <ul>
+           <li><a href="/estudios/analisis-clinicos/ca-125" className="text-blue-600 font-semibold hover:underline">CA-125 Tumoral</a></li>
+           <li><a href="/" className="text-blue-600 font-semibold hover:underline">HE4 Tumoral Ginecológico</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="my-8" />
 
                 {/* SEO Content */}
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-6 md:p-8 mb-8">

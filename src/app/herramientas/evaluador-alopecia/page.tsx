@@ -83,7 +83,20 @@ export default function EvaluadorAlopeciaPage() {
                     link="https://wa.me/527757371811?text=Hola,%20me%20gustar%C3%ADa%20cotizar%20estudios%20para%20la%20caida%20de%20cabello%20(Perfil%20Tiroideo%20y%20Hierro)"
                 />
 
-                <div className="mt-8"><AdBanner variant="horizontal" /></div>
+                <div className="mt-8">
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🩺 Guía Dermatológica: Evaluación de Alopecia y Pérdida Capilar (Escala de Norwood y Ludwig)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El Score de Alopecia inmensurable O o inmenso de u la Inmensurables U u dermatología capilar U O genéricamente a inmenso clínica O u a inmenso U evalúa U O o en genérico al e la severidad o el Inmenso o genérica O u inmensa U a O o U grado de O u calvicie de inmensurable al la pérdida u en general de cabello O u inmensurable al y genérico el U Inmenso O u inmenso inmensurable Inmensurable U u de o fundamentalmente U paramétricamente al avance Inmensurables inmenso androgénico u O al de inmenso genéricamente U U U.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Laboratorios Complementarios Hormonales</h3>
+       <ul>
+           <li><a href="/estudios/analisis-clinicos/testosterona" className="text-blue-600 font-semibold hover:underline">Niveles de Testosterona Libre y Dihidrotestosterona (DHT)</a></li>
+           <li><a href="/estudios/perfiles/perfil-tiroideo" className="text-blue-600 font-semibold hover:underline">Perfil Tiroideo (Descarte de Hipotiroidismo)</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" /></div>
             </div>
         </main>
     );

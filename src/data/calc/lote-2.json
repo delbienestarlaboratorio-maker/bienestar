@@ -1,0 +1,546 @@
+[
+    {
+        "name": "Radiología y Rayos X",
+        "icon": "🩻",
+        "calculators": [
+            {
+                "slug": "calculadora-exposicion-rayosx-avanzada",
+                "name": "Calculadora de Exposición de Rayos X",
+                "subtitle": "Ajuste de kVp y mAs por Anatomía, Chasis y Marca del Equipo",
+                "icon": "🩻",
+                "specialty": "Radiología y Rayos X",
+                "shortDesc": "Generador de Técnicas RX",
+                "formTitle": "Parámetros del Paciente y Equipo",
+                "inputs": [
+                    {
+                        "id": "marcaEquipo",
+                        "type": "select",
+                        "label": "Marca del Equipo de Rayos X (Factor Generador)",
+                        "options": [
+                            {
+                                "value": "1.0",
+                                "label": "GE Healthcare (Definium / Discovery)"
+                            },
+                            {
+                                "value": "0.95",
+                                "label": "Siemens Healthineers (Multix / Ysio)"
+                            },
+                            {
+                                "value": "1.05",
+                                "label": "Philips (DigitalDiagnost)"
+                            },
+                            {
+                                "value": "1.1",
+                                "label": "Carestream (DRX)"
+                            },
+                            {
+                                "value": "1.15",
+                                "label": "Shimadzu (RADspeed)"
+                            },
+                            {
+                                "value": "1.12",
+                                "label": "Fujifilm (FDR)"
+                            },
+                            {
+                                "value": "1.2",
+                                "label": "Agfa (DX-D)"
+                            },
+                            {
+                                "value": "1.25",
+                                "label": "Toshiba / Canon (Radrex)"
+                            },
+                            {
+                                "value": "1.3",
+                                "label": "Equipo Portátil (Convencional Genérico)"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "region",
+                        "type": "select",
+                        "label": "Región Anatómica a Radiografiar",
+                        "options": [
+                            {
+                                "value": "torax_pa",
+                                "label": "Tórax PA (Parrilla)"
+                            },
+                            {
+                                "value": "torax_lat",
+                                "label": "Tórax Lateral (Parrilla)"
+                            },
+                            {
+                                "value": "abdomen_ap",
+                                "label": "Abdomen AP (Parrilla)"
+                            },
+                            {
+                                "value": "columna_ap",
+                                "label": "Columna Lumbar AP (Parrilla)"
+                            },
+                            {
+                                "value": "columna_lat",
+                                "label": "Columna Lumbar Lateral (Parrilla)"
+                            },
+                            {
+                                "value": "pelvis_ap",
+                                "label": "Pelvis AP (Parrilla)"
+                            },
+                            {
+                                "value": "craneo_ap",
+                                "label": "Cráneo AP / PA (Parrilla)"
+                            },
+                            {
+                                "value": "mano_pa",
+                                "label": "Mano/Muñeca PA (Directo)"
+                            },
+                            {
+                                "value": "pie_ap",
+                                "label": "Pie/Tobillo AP (Directo)"
+                            },
+                            {
+                                "value": "rodilla_ap",
+                                "label": "Rodilla AP (Parrilla ligera)"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "tamanoChasis",
+                        "type": "select",
+                        "label": "Tamaño del Receptor / Chasis (pulgadas)",
+                        "options": [
+                            {
+                                "value": "1",
+                                "label": "14 x 17 (35x43 cm) - Tórax/Abdomen Grande"
+                            },
+                            {
+                                "value": "0.95",
+                                "label": "14 x 14 (35x35 cm) - Tórax/Cráneo"
+                            },
+                            {
+                                "value": "0.9",
+                                "label": "10 x 12 (24x30 cm) - Extremidades/Pediátrico"
+                            },
+                            {
+                                "value": "0.85",
+                                "label": "8 x 10 (20x25 cm) - Dedos/Muñeca/Tobillo"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "grosorPaciente",
+                        "type": "number",
+                        "label": "Grosor Anatómico Medido con Calibrador",
+                        "unit": "cm",
+                        "placeholder": "Ej: 22"
+                    },
+                    {
+                        "id": "parrilla",
+                        "type": "select",
+                        "label": "Uso de Bucky / Parrilla Antidifusora",
+                        "options": [
+                            {
+                                "value": "0",
+                                "label": "Sin Parrilla (Extremidades)"
+                            },
+                            {
+                                "value": "2",
+                                "label": "Ratio 5:1 (Baja absorción)"
+                            },
+                            {
+                                "value": "3",
+                                "label": "Ratio 8:1 (Estándar)"
+                            },
+                            {
+                                "value": "4",
+                                "label": "Ratio 10:1 (Alta absorción)"
+                            },
+                            {
+                                "value": "5",
+                                "label": "Ratio 12:1 (Tórax/Abdomen Denso)"
+                            }
+                        ]
+                    }
+                ],
+                "logic": "const eq=parseFloat(marcaEquipo);const grosor=parseFloat(grosorPaciente);const chasis=parseFloat(tamanoChasis);const factorParrilla=parseFloat(parrilla);if(!eq||!region||!chasis||!grosor||isNaN(factorParrilla))return;const regiones={torax_pa:{baseKvp:110,basemAs:3,constante:2},torax_lat:{baseKvp:120,basemAs:6,constante:2},abdomen_ap:{baseKvp:80,basemAs:20,constante:4},columna_ap:{baseKvp:80,basemAs:30,constante:4},columna_lat:{baseKvp:90,basemAs:50,constante:4},pelvis_ap:{baseKvp:80,basemAs:25,constante:4},craneo_ap:{baseKvp:75,basemAs:15,constante:3},mano_pa:{baseKvp:55,basemAs:2,constante:0},pie_ap:{baseKvp:60,basemAs:3,constante:0},rodilla_ap:{baseKvp:65,basemAs:8,constante:2}};const ref=regiones[region];let kVP=(grosor*ref.constante)+ref.baseKvp;if(factorParrilla===0){kVP-=10;} let mAs=ref.basemAs;const deltaGrosor=grosor-20;if(deltaGrosor>0){mAs=mAs*Math.pow(1.25,deltaGrosor);}else if(deltaGrosor<0){mAs=mAs*Math.pow(0.8,Math.abs(deltaGrosor));} mAs=mAs*(factorParrilla>0?(factorParrilla/3):1);mAs=mAs*eq*chasis;kVP=Math.round(kVP);mAs=Math.max(0.5,Math.round(mAs*10)/10);let label='Técnica Sugerida';let color='text-zinc-700';let bg='bg-zinc-100';let desc=`Valores estimados. Ajuste según el índice de exposición (EI) del receptor. Foco Fino para <10 mAs, Foco Grueso para >10 mAs.`;setResultado({value:`${kVP} kVp / ${mAs} mAs`,label,color,bg,desc});",
+                "resultType": "score",
+                "resultLabel": "Factores de Exposición",
+                "ctaTitle": "¿Dudas sobre la densidad radiográfica?",
+                "ctaDesc": "Si encuentras densidades anómalas en hueso, confirma con un perfil reumatológico o metabólico óseo completo en nuestro laboratorio.",
+                "ctaAction": "Ver Perfil Óseo",
+                "ctaStudy": "Perfil Metabólico Óseo",
+                "seoTitle": "Calculadora Automática de Técnica Radiográfica (Regla de los 2 kVp)",
+                "seoContent": [
+                    "Esta herramienta está diseñada para Tecnólogos Médicos y Técnicos Radiólogos. Permite calcular el Kilovoltaje pico (kVp) y el Miliamperaje-segundo (mAs) basándose en el grosor real del paciente medido con calibrador (pelvímetro).",
+                    "La fórmula base (kVp = [Grosor en cm × 2] + Constante del equipo) es el estándar de oro empírico para establecer una técnica base en radiodiagnóstico convencional. La calculadora compensa exponencialmente el mAs (regla de +/- 20% a 30% por cada 2 cm de tejido blando) y aplica un factor correctivo según la <strong>marca del generador</strong> y el uso correcto del Bucky (relación de la parrilla antidifusora).",
+                    "⚠️ <strong>Nota ALARA:</strong> Estos valores son orientativos. Siempre debes priorizar el criterio ALARA (As Low As Reasonably Achievable) y verificar el Índice de Exposición (EI, S-Value o REX) post-disparo de tu sistema CR o DR para evitar la sobre-radiación (creep dose)."
+                ]
+            },
+            {
+                "slug": "indice-cardo-toracico-rx",
+                "name": "Índice Cardiotorácico (ICT)",
+                "subtitle": "Medición de Cardiomegalia en Radiografía de Tórax PA",
+                "icon": "🫀",
+                "specialty": "Radiología y Rayos X",
+                "shortDesc": "Detector de Cardiomegalia",
+                "formTitle": "Medidas de la Radiografía (PA) en cm/mm",
+                "inputs": [
+                    {
+                        "id": "diametroA",
+                        "type": "number",
+                        "label": "Distancia 'A' (Línea media a borde lateral cardíaco derecho)",
+                        "unit": "mm",
+                        "placeholder": "Ej: 45"
+                    },
+                    {
+                        "id": "diametroB",
+                        "type": "number",
+                        "label": "Distancia 'B' (Línea media a borde lateral cardíaco izquierdo)",
+                        "unit": "mm",
+                        "placeholder": "Ej: 85"
+                    },
+                    {
+                        "id": "diametroC",
+                        "type": "number",
+                        "label": "Distancia 'C' (Diámetro torácico interno máximo costofrenico)",
+                        "unit": "mm",
+                        "placeholder": "Ej: 260"
+                    },
+                    {
+                        "id": "edad",
+                        "type": "select",
+                        "label": "Grupo Etario del Paciente",
+                        "options": [
+                            {
+                                "value": "adulto",
+                                "label": "Adulto / Niño mayor de 5 años (< 0.50 Normal)"
+                            },
+                            {
+                                "value": "lactante",
+                                "label": "Lactante / Recién nacido (< 0.60 Normal)"
+                            }
+                        ]
+                    }
+                ],
+                "logic": "const a=parseFloat(diametroA);const b=parseFloat(diametroB);const c=parseFloat(diametroC);if(!a||!b||!c||!edad)return;const ict=(a+b)/c;let label='Normal';let color='text-green-600';let bg='bg-green-100';let desc='La silueta cardíaca está dentro de los límites normales.';const cutoff=edad==='lactante'?0.6:0.5;if(ict>=cutoff){if(ict<0.55&&edad==='adulto'){label='Cardiomegalia Grado I';color='text-yellow-600';bg='bg-yellow-100';desc='Crecimiento cardíaco leve. Requiere correlación clínica.';}else if(ict<0.6&&edad==='adulto'){label='Cardiomegalia Grado II';color='text-orange-600';bg='bg-orange-100';desc='Crecimiento cardíaco moderado.';}else if(ict<0.65){label='Cardiomegalia Grado III';color='text-red-500';bg='bg-red-100';desc='Crecimiento cardíaco severo. Sugiere insuficiencia cardíaca o derrame pericárdico.';}else{label='Cardiomegalia Grado IV';color='text-red-700';bg='bg-red-200';desc='Crecimiento cardíaco masivo (Cor Bovinum). Riesgo altísimo.';}}setResultado({value:ict.toFixed(2),label,color,bg,desc});",
+                "resultType": "score",
+                "resultLabel": "Índice (Ratio)",
+                "ctaTitle": "¿Sospecha de Insuficiencia Cardíaca?",
+                "ctaDesc": "Un ICT alterado debe complementarse con biomarcadores cardíacos agudos como el NT-proBNP.",
+                "ctaAction": "Cotizar Prueba NT-proBNP",
+                "ctaStudy": "Pro-Péptido Natriurético Cerebral (NT-proBNP)",
+                "seoTitle": "Cómo medir el Índice Cardiotorácico en Radiología",
+                "seoContent": [
+                    "El Índice Cardiotorácico (ICT), propuesto inicialmente por Danzer en 1919, es uno de los métodos radiológicos más antiguos y accesibles para tamizar el crecimiento de las cámaras cardíacas o la presencia de derrames pericárdicos.",
+                    "Para un cálculo exacto, la radiografía DEBE ser tomada en proyección Postero-Anterior (PA) a una distancia tubo-película de 1.80 metros (72 pulgadas) y preferiblemente en inspiración máxima. Las proyecciones Antero-Posteriores (AP), como las de equipos portátiles en terapias intensivas, magnifican falsamente la silueta cardíaca entre un 10 y un 15%.",
+                    "La fórmula es simple: ICT = (A + B) / C. Siendo 'A' y 'B' la suma de la magnitud cardíaca transversal máxima hacia la derecha e izquierda de la línea media espinal, y 'C' el diámetro torácico máximo a nivel basal. En adultos sanos, debe ser estrictamente inferior a 0.50."
+                ]
+            },
+            {
+                "slug": "angulo-cobb-escoliosis",
+                "name": "Ángulo de Cobb",
+                "subtitle": "Estadificación Radiológica de Curvas Escolióticas",
+                "icon": "🦴",
+                "specialty": "Radiología y Rayos X",
+                "shortDesc": "Medición de Escoliosis",
+                "formTitle": "Valores Angulares Medidos en la RX",
+                "inputs": [
+                    {
+                        "id": "cobb",
+                        "type": "number",
+                        "label": "Medición del Ángulo de Cobb",
+                        "unit": "Grados (°)",
+                        "placeholder": "Ej: 25"
+                    },
+                    {
+                        "id": "madurez",
+                        "type": "select",
+                        "label": "Madurez Esquelética (Signo de Risser)",
+                        "options": [
+                            {
+                                "value": "inmaduro",
+                                "label": "Risser 0-2 (Mayor potencial de progresión)"
+                            },
+                            {
+                                "value": "maduro",
+                                "label": "Risser 3-5 (Crecimiento vertebral cercano al fin)"
+                            }
+                        ]
+                    }
+                ],
+                "logic": "const v=parseFloat(cobb);if(isNaN(v)||!madurez)return;let label='';let color='';let bg='';let desc='';if(v<10){label='Asimetría Espinal (No Escoliosis)';color='text-green-600';bg='bg-green-100';desc='Un ángulo menor de 10° no se considera escoliosis clínica. Observación postural.';}else if(v<=20){label='Escoliosis Leve';color='text-yellow-600';bg='bg-yellow-100';desc=madurez==='inmaduro'?'Riesgo de progresión moderado. Monitoreo radiológico cada 6 meses.':'Bajo riesgo de progresión clínica. Requiere terapia física.';}else if(v<=40){label='Escoliosis Moderada';color='text-orange-500';bg='bg-orange-100';desc=madurez==='inmaduro'?'Alto riesgo de empeoramiento. Generalmente se indica uso de corsé ortopédico (Brace).':'Probabilidad de progresión de 1 grado por año. Observación y Fisioterapia especializada.';}else if(v<=50){label='Escoliosis Severa';color='text-red-600';bg='bg-red-100';desc='Cursa la indicación limítrofe para artrodesis espinal correctiva (Cirugía).';}else{label='Escoliosis Muy Severa';color='text-red-800';bg='bg-red-200';desc='Deterioro cardiopulmonar inminente. Indicación de instrumentación quirúrgica absoluta.';}setResultado({value:v+'°',label,color,bg,desc});",
+                "resultType": "score",
+                "resultLabel": "Diagnóstico Radiológico",
+                "ctaTitle": "¿Dolor crónico por deformidad espinal?",
+                "ctaDesc": "Si la escoliosis general inflamación articular secundaria, descarta artropatías autoinmunes asociadas.",
+                "ctaAction": "Cotizar Reactante de Fase Aguda",
+                "ctaStudy": "Proteína C Reactiva Ultrasensible",
+                "seoTitle": "Qué es y cómo se mide el Ángulo de Cobb en Radiología",
+                "seoContent": [
+                    "El Ángulo de Cobb, descrito por John Robert Cobb en 1948, sigue siendo la regla de oro mundial para la cuantificación métrica y seguimiento de la escoliosis o deformidades de la columna en el plano coronal y sagital (cifosis o lordosis patológica).",
+                    "Para medirlo en los monitores PACS o de forma analógica, el radiólogo identifica la vértebra cefálica (superior) y la vértebra caudal (inferior) más predispuestas o basculadas al eje de la curva cóncava. Se traza una línea paralela al platillo vertebral superior de la primera, y otra paralela al platillo inferior de la segunda. El ángulo en la intersección de estas líneas (o de sus perpendiculares) da como resultado el Ángulo de Cobb.",
+                    "Cualquier medición superior a 10° (con rotación del cuerpo vertebral en el plano axial visible) certifica el diagnóstico anatómico de Escoliosis según la Scoliosis Research Society."
+                ]
+            },
+            {
+                "slug": "escala-kellgren-lawrence-osteoartritis",
+                "name": "Escala de Kellgren-Lawrence",
+                "subtitle": "Grados de Severidad Radiológica en Osteoartritis",
+                "icon": "🦵",
+                "specialty": "Radiología y Rayos X",
+                "shortDesc": "Grados de Osteoartritis",
+                "formTitle": "Hallazgos Radiológicos Observados (Carga / AP)",
+                "inputs": [
+                    {
+                        "id": "osteofitos",
+                        "type": "select",
+                        "label": "Presencia de Osteofitos",
+                        "options": [
+                            {
+                                "value": "0",
+                                "label": "Ausentes"
+                            },
+                            {
+                                "value": "1",
+                                "label": "Posibles osteofitos pequeños (Dudosos)"
+                            },
+                            {
+                                "value": "2",
+                                "label": "Osteofitos definidos pero pequeños"
+                            },
+                            {
+                                "value": "3",
+                                "label": "Osteofitos múltiples y moderados"
+                            },
+                            {
+                                "value": "4",
+                                "label": "Osteofitos severos y extensos"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "espacio",
+                        "type": "select",
+                        "label": "Estrechamiento del Espacio Articular",
+                        "options": [
+                            {
+                                "value": "0",
+                                "label": "Normal"
+                            },
+                            {
+                                "value": "1",
+                                "label": "Dudoso / Posible leve estrechamiento"
+                            },
+                            {
+                                "value": "2",
+                                "label": "Estrechamiento definido pero leve"
+                            },
+                            {
+                                "value": "3",
+                                "label": "Estrechamiento moderado a severo (Contacto posible)"
+                            },
+                            {
+                                "value": "4",
+                                "label": "Pérdida total del espacio ('Hueso con Hueso')"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "esclerosis",
+                        "type": "boolean",
+                        "label": "Esclerosis subcondral evidente o deforma ósea severa"
+                    }
+                ],
+                "logic": "const o=parseInt(osteofitos);const e=parseInt(espacio);if(isNaN(o)||isNaN(e))return;let score=Math.max(o,e);if(esclerosis&&score<3)score=3;if(o===4&&e===4)score=4;let label='';let color='';let bg='';let desc='';if(score===0){label='Grado 0: Normal';color='text-green-600';bg='bg-green-100';desc='Sin evidencia radiológica de osteoartritis.';}else if(score===1){label='Grado 1: Dudoso';color='text-yellow-600';bg='bg-yellow-100';desc='Dudoso estrechamiento del espacio y posible osteofitosis. Desgaste incipiente.';}else if(score===2){label='Grado 2: Leve (OA Definida)';color='text-orange-500';bg='bg-orange-100';desc='Osteofitos bien definidos y posible pinzamiento leve. Inicio de desgaste articular definitivo.';}else if(score===3){label='Grado 3: Moderado';color='text-red-500';bg='bg-red-100';desc='Múltiples osteofitos, estrechamiento evidente, comienzo de esclerosis e irregularidades cortocales.';}else{label='Grado 4: Severo';color='text-red-700';bg='bg-red-200';desc='Pérdida masiva del espacio articular, grandes osteofitos, deforma ósea severa. Candidato probable a reemplazo protésico.';}setResultado({value:'Grado '+score,label,color,bg,desc});",
+                "resultType": "score",
+                "resultLabel": "Clasificación Kellgren-Lawrence",
+                "ctaTitle": "¿Planeas una cirugía de rodilla?",
+                "ctaDesc": "Para las artroplastias se requieren pruebas preoperatorias clínicas.",
+                "ctaAction": "Ver Pre-Quirúrgicos",
+                "ctaStudy": "Perfil Preoperatorio",
+                "seoTitle": "Radiología del Desgaste Articular: Kellgren y Lawrence",
+                "seoContent": [
+                    "La escala de Kellgren y Lawrence, publicada en 1957, ha resistido la prueba del tiempo como el principal predictor radiológico universal de la severidad de la Osteoartritis (también conocida como artrosis), especialmente aplicada a rodillas (gonartrosis) y caderas (coxartrosis).",
+                    "Esta clasificación estandarizada toma en cuenta la degeneración patológica del cartílago, evidenciada por la reducción física del espacio intraarticular (pinzamiento asimétrico en RX de carga AP), así como los mecanismos defensivos del hueso subyacente que reacciona proliferando exostosis perimarginales (osteofitos) o endureciendo la cortical matriz (esclerosis subcondral o eburnación).",
+                    "Clínicamente, un grado II a III justifica tratamientos conservadores extensos como infiltraciones de ácido hialurónico o PRP, mientras que un grado IV indica colapso irreversible de la diartrosis, exigiendo en la mayoría de los casos intervenciones de artroplastia total ortopédica."
+                ]
+            },
+            {
+                "slug": "score-aspetto-tomografia-ictus",
+                "name": "Score ASPECTS para Ictus",
+                "subtitle": "Puntuación Tomográfica del Ictus Isquémico (Arteria Cerebral Media)",
+                "icon": "🧠",
+                "specialty": "Radiología y Rayos X",
+                "shortDesc": "Evaluación TC de Ictus",
+                "formTitle": "Sustraer 1 punto por cada territorio territorial isquémico (hipodensidad temprana)",
+                "inputs": [
+                    {
+                        "id": "gangliosC",
+                        "type": "boolean",
+                        "label": "1. Núcleo Caudado"
+                    },
+                    {
+                        "id": "gangliosL",
+                        "type": "boolean",
+                        "label": "2. Núcleo Lenticular"
+                    },
+                    {
+                        "id": "gangliosIC",
+                        "type": "boolean",
+                        "label": "3. Cápsula Interna"
+                    },
+                    {
+                        "id": "insula",
+                        "type": "boolean",
+                        "label": "4. Cinta Insular"
+                    },
+                    {
+                        "id": "m1",
+                        "type": "boolean",
+                        "label": "5. Región M1 (Corteza anterior ACM)"
+                    },
+                    {
+                        "id": "m2",
+                        "type": "boolean",
+                        "label": "6. Región M2 (Corteza lateral ACM)"
+                    },
+                    {
+                        "id": "m3",
+                        "type": "boolean",
+                        "label": "7. Región M3 (Corteza posterior ACM)"
+                    },
+                    {
+                        "id": "m4",
+                        "type": "boolean",
+                        "label": "8. Región M4 (Corona radiata anterior)"
+                    },
+                    {
+                        "id": "m5",
+                        "type": "boolean",
+                        "label": "9. Región M5 (Corona radiata lateral)"
+                    },
+                    {
+                        "id": "m6",
+                        "type": "boolean",
+                        "label": "10. Región M6 (Corona radiata posterior)"
+                    }
+                ],
+                "logic": "let score=10;[gangliosC,gangliosL,gangliosIC,insula,m1,m2,m3,m4,m5,m6].forEach(area=>{if(area)score-=1;});let label='';let color='';let bg='';let desc='';if(score===10){label='Isquemia no visible (Temprana)';color='text-green-600';bg='bg-green-100';desc='TC Normal en el territorio de la ACM. Paciente ideal para trombolisis IV si está en ventana (relojes críticos).';}else if(score>=8){label='Infarto Incipiente Favorable';color='text-blue-600';bg='bg-blue-100';desc='Alta tasa de buen desenlace funcional si se realiza trombectomía mecánica. Tejido salvable masivo.';}else if(score>=6){label='Infarto Moderado';color='text-orange-600';bg='bg-orange-100';desc='El volumen de infarto afecta considerablemente el pronóstico funcional futuro.';}else{label='Infarto Extenso (Desfavorable)';color='text-red-700';bg='bg-red-200';desc='Menor o igual a 5: Tejido cerebral irreversible masivo. Riesgo altísimo de hemorragia cerebral secundaria si se usan terapias de reperfusión (trombolíticos).';}setResultado({value:score+' / 10',label,color,bg,desc});",
+                "resultType": "score",
+                "resultLabel": "Score ASPECTS Resultante",
+                "ctaTitle": "Monitoreo Fisiológico en Estado Crítico",
+                "ctaDesc": "Después de un evento neurovascular es imprescindible corregir tiempos de coagulación y desbalances lipídicos severos.",
+                "ctaAction": "Cotizar Tiempos de Coagulación",
+                "ctaStudy": "Perfil Trombótico y Coagulación",
+                "seoTitle": "Interpretación Pediátrica y Tomográfica: El Score ASPECTS",
+                "seoContent": [
+                    "El Alberta Stroke Program Early CT Score (ASPECTS) es un método cuantitativo topográfico superlativo ideado para homogeneizar la evaluación visual de una Tomografía Computarizada (TC) de cráneo simple sin contraste en pacientes que presentan signos de evento vascular cerebral isquémico agudo hiperagudo.",
+                    "Segmentando el hemisferio amenazado irrigado por la arteria cerebral media (ACM) en 10 áreas funcionales estandarizadas de interés. Por su base arquitectónica inversa, todos los pacientes sanos inician con 10 puntos, perdiendo 1 punto por cada delimitación anatómica donde el radiólogo logre constatar signos tempranos de hipodensidad tisular, pérdida del ribete insular o borramiento del núcleo lenticular.",
+                    "Es un filtro absoluto. Si un radiólogo documenta un score igual o menor a 5 u 6, el paciente presenta ya un infarto consolidado en extensión grande. Recibir el rTPA (Alteplasa) podría reventar la vasculatura friable, precipitando una temible transformación hemorrágica intracerebral con severa mortalidad."
+                ]
+            },
+            {
+                "slug": "peso-fetal-estimado-hadlock",
+                "name": "Peso Fetal Estimado (Fórmula de Hadlock)",
+                "subtitle": "Ecuación Predictiva en Ecografía Obstétrica",
+                "icon": "🌊",
+                "specialty": "Ultrasonografía y Ecos",
+                "shortDesc": "Calculador de Biometría Fetal",
+                "formTitle": "Parámetros de Biometría Ecográfica",
+                "inputs": [
+                    {
+                        "id": "dbp",
+                        "type": "number",
+                        "label": "Diámetro Biparietal (DBP)",
+                        "unit": "cm",
+                        "placeholder": "Ej: 8.5"
+                    },
+                    {
+                        "id": "cc",
+                        "type": "number",
+                        "label": "Circunferencia Cefálica (CC)",
+                        "unit": "cm",
+                        "placeholder": "Ej: 30.5"
+                    },
+                    {
+                        "id": "ca",
+                        "type": "number",
+                        "label": "Circunferencia Abdominal (CA)",
+                        "unit": "cm",
+                        "placeholder": "Ej: 28.0"
+                    },
+                    {
+                        "id": "lf",
+                        "type": "number",
+                        "label": "Longitud Fémur (LF)",
+                        "unit": "cm",
+                        "placeholder": "Ej: 6.5"
+                    }
+                ],
+                "logic": "const d=parseFloat(dbp);const h=parseFloat(cc);const a=parseFloat(ca);const f=parseFloat(lf);if(!h||!a||!f)return;let log10EFWhadlock4=1.3596-(0.00386*a*f)+(0.0064*h)+(0.0424*a)+(0.174*f)+(0.00061*d*a)-0.00324*(h*f);if(!d)log10EFWhadlock4=1.326-(0.00326*a*f)+(0.0107*h)+(0.0438*a)+(0.158*f);const efw=Math.pow(10,log10EFWhadlock4);let label='Peso Fetal Calculado';let color='text-sky-600';let bg='bg-sky-100';let desc='La fórmula de Hadlock (multiparamétrica) tiene un rango de error estándar intrínseco de +/- 10% a 15% del peso real al momento de nacer.';setResultado({value:Math.round(efw).toLocaleString('es-MX')+' g',label,color,bg,desc});",
+                "resultType": "score",
+                "resultLabel": "Biometría Analizada",
+                "ctaTitle": "Monitoreo Prenatal Indispensable",
+                "ctaDesc": "No olvides realizar analíticas del tercer trimestre: Hemoglobina general y descarte microbiológico para evitar complicaciones perinatales.",
+                "ctaAction": "Paquetes de Embarazo",
+                "ctaStudy": "Estudios Prenatales Completos",
+                "seoTitle": "Biometría Fetal Explicada: La Fórmula Ecográfica de Hadlock",
+                "seoContent": [
+                    "En el consultorio de Ultrasonido y Medicina Materno-Fetal, el peso del feto no se mide: se INFIERE midiendo huesos, cortezas y contornos estomacales.",
+                    "El Dr. Frank Hadlock, en la década de los 80, lideró estudios fundamentales al publicar un modelo de regresión ecográfica polinómica tridimensional que revolucionaría el seguimiento obstétrico. Al combinar perimetría de cabeza (BPD, HC), panículo abdominal del infante (AC) y largo de su cartílago femoral osificándose (FL), el algoritmo correlaciona la densidad matemática equivalente a su tejido cárnico global.",
+                    "La Circunferencia Abdominal (CA) es la métrica de peso más elocuente. Cuando la madre padece de hiperglucemias obstétricas, la insulina anabólica eleva groseramente la macrosomía manifestada esencialmente como abdómenes fetales distendidos sobre las líneas centinas 90 de crecimiento predeterminado."
+                ]
+            },
+            {
+                "slug": "indice-liquido-amniotico-usg",
+                "name": "Índice de Líquido Amniótico (ILA/AFI)",
+                "subtitle": "Suma Phelan del Pool Amniótico Ecográfico",
+                "icon": "🌊",
+                "specialty": "Ultrasonografía y Ecos",
+                "shortDesc": "Medición de Bolsones",
+                "formTitle": "Profundidad vertical máxima de 4 cuadrantes (en cm)",
+                "inputs": [
+                    {
+                        "id": "c1",
+                        "type": "number",
+                        "label": "Cuadrante Superior Derecho",
+                        "unit": "cm",
+                        "placeholder": "Ej: 3.2"
+                    },
+                    {
+                        "id": "c2",
+                        "type": "number",
+                        "label": "Cuadrante Superior Izquierdo",
+                        "unit": "cm",
+                        "placeholder": "Ej: 2.8"
+                    },
+                    {
+                        "id": "c3",
+                        "type": "number",
+                        "label": "Cuadrante Inferior Derecho",
+                        "unit": "cm",
+                        "placeholder": "Ej: 4.1"
+                    },
+                    {
+                        "id": "c4",
+                        "type": "number",
+                        "label": "Cuadrante Inferior Izquierdo",
+                        "unit": "cm",
+                        "placeholder": "Ej: 3.5"
+                    }
+                ],
+                "logic": "const Q1=parseFloat(c1);const Q2=parseFloat(c2);const Q3=parseFloat(c3);const Q4=parseFloat(c4);if(isNaN(Q1)||isNaN(Q2)||isNaN(Q3)||isNaN(Q4))return;const ILA=Q1+Q2+Q3+Q4;let label='';let color='';let bg='';let desc='';if(ILA<5){label='Oligohidramnios Severo';color='text-red-700';bg='bg-red-200';desc='Déficit crítico del líquido amniótico. Puede indicar sufrimiento fetal, RPMO crónica displasias renales o RCF.';}else if(ILA<=8){label='Líquido Amniótico Marginal / Disminuido';color='text-yellow-600';bg='bg-yellow-100';desc='Vigilancia materna recomendada.';}else if(ILA<=18){label='Volumen Normal Euvolemia';color='text-green-600';bg='bg-green-100';desc='Adecuada protección a estructuras fetales y cordón.';}else if(ILA<=24){label='Volumen Superior al Normal';color='text-orange-500';bg='bg-orange-100';desc='Vigilancia recomendada (posible diabetes o hidropesías).';}else{label='Polihidramnios Severo';color='text-red-600';bg='bg-red-100';desc='Exceso anormal de líquido. Se deba descartar diabetes materna descontrolada o malformaciones gastrointestinales fetales.';}setResultado({value:ILA.toFixed(1)+' cm',label,color,bg,desc});",
+                "resultType": "score",
+                "resultLabel": "Suma ILA Total",
+                "ctaTitle": "Descarte de Infecciones o Diabetes Embarazo",
+                "ctaDesc": "Si presentas anomalías en el líquido, el ginecólogo te pedirá marcadores urgentes de glucemia, toxoplasmosis o rubéola.",
+                "ctaAction": "Cotizar Pruebas Diagnósticas",
+                "ctaStudy": "Perfil TORCH y Curva Tolerancia a la Glucosa",
+                "seoTitle": "Ultrasonido Materno: Evaluación del ILA (AFI)",
+                "seoContent": [
+                    "El Índice de Líquido Amniótico (AFIent inglés, o ILA en hispanohablantes) fue estandarizado en la década del ochenta como un biomarcador ecográfico crucial para inferir la salud de un feto a término o intraútero tardío.",
+                    "El examinador traza la línea alba y la línea del ombligo para segmentar mentalmente la matriz del vientre materno en cuatro cuadrantes de igual grosor. El transductor ecográfico se sitúa vertical sobre la piel para medir el pozo amniótico sin presencias ecogénicas (sin placenta, extremidades o cordón de Wharton cruzándolo). Estos cuatro diámetros numéricos se sumarán entre sí.",
+                    "El balance hídrico gestacional dicta su importancia médica fundamental. En etapas tardías, el ILA es igual al volumen urinario del riñón fetal (que incrementa liquido) menos las capacidades de deglución de su tracto digestivo inmaduro (que decrece líquido). Mediciones menores a 5cm definen médicamente como un colapso restrictivo peligroso o RPM (Ruptura de fuente prematura)."
+                ]
+            }
+        ]
+    }
+]

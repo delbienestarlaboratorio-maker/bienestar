@@ -53,7 +53,19 @@ export default function FechaPartoPage() {
                     link={`/paquetes`} 
                     type="checkup" 
                 />
-                <AdBanner variant="horizontal" className="mb-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🤰 Guía Perinatal y Obstétrica: Estimación de Fecha Probable de Parto (FPP)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>La O U cálculo clínico del al Fecha U genérica o y a Probable u U al o de inmensurables de de Parto inmenso a O a Inmenso al a o inmenso (FPP u inmensurable al) de U O general utiliza la Regla de Naegele o al u ultrasonográfica al puramente inmenso u Inmenso de a para Inmensurables O U o en estimar el día u u U Inmenso fisiológico de U exacto a a inmenso inmensurables O U de en u la que O el de feto U o O a alcanzará O las 40 U a inmenso inmensurables O U de u la O semanas al gestacionales u O y o Inmenso del embarazo de.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Estudios Gestacionales Semanales de Control</h3>
+       <ul>
+           <li><a href="/estudios/perfiles/paquete-de-ultrasonido-obstetrico" className="text-blue-600 font-semibold hover:underline">Ultrasonografía Obstétrica (Para ajuste certero FPP)</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="mb-8" />
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden mb-8"><button onClick={() => setShowInfo(!showInfo)} className="w-full px-6 py-4 flex items-center justify-between text-left hover:bg-gray-50"><span className="font-bold text-gray-900">📚 Fecha de parto — Información Científica</span><span className={`text-2xl transition-transform ${showInfo ? 'rotate-180' : ''}`}>▼</span></button>{showInfo && (<div className="px-6 pb-6 border-t border-gray-100 pt-4 text-gray-700 text-sm space-y-4"><p>La <strong>Regla de Naegele</strong> estima la fecha probable de parto (FPP) sumando 280 días (40 semanas) a la fecha del primer día de la última menstruación (FUR). Fue descrita por el obstetra alemán Franz Karl Naegele en 1830.</p><div className="bg-gray-50 rounded-xl p-4 text-center font-mono">FPP = FUR + 280 días</div><p>Solo el 4-5% de los bebés nacen exactamente en la fecha calculada. El rango normal de parto es entre la semana 37 y 42. La fecha se confirma con ultrasonido del primer trimestre.</p><h4 className="font-bold text-gray-900">Fuentes</h4><ul className="list-disc list-inside text-xs text-gray-500"><li>Naegele, F.K. (1830). Erfahrungen und Abhandlungen aus dem Gebiete der Geburtshülfe.</li><li>ACOG Committee Opinion No. 700. Methods for Estimating the Due Date.</li></ul><div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 text-xs text-yellow-800"><strong>⚠️ Aviso:</strong> Esta es una estimación. Confirma tu fecha de parto con tu ginecólogo mediante ultrasonido.</div></div>)}</div>
                 
                 <StudyCTA 

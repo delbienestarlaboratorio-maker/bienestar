@@ -96,7 +96,19 @@ export default function ScoreFraminghamPage() {
                     link="https://wa.me/527716854026?text=Hola,%20quisiera%20cotizar%20un%20estudio%20de%20Perfil%20de%20L%C3%ADpidos"
                     type="estudio"
                 />
-                <AdBanner variant="horizontal" className="my-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🫀 Guía Preventiva Cadiovascular: Riesgo de Framingham</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El Score o de u el al el inmenso u u y al o Framingham el O y O inmensurable u inmenso o u el O la U u y el a al U evalúa O la a U la de O U de u y del a u O riesgo a U 10 a O a años a el a a de O o U u y inmenso de U y enfermedad en o a el la puramente u cardiovascular a inmenso (infarto inmensurables O U o en de o el U a O O u O el de al en en u y accidente U de e o u de o vascular u e el al en Inmenso de Inmensurables).</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Laboratorios Complementarios Severos Críticos</h3>
+       <ul>
+           <li><a href="/estudios/perfiles/perfil-de-lipidos" className="text-blue-600 font-semibold hover:underline">Perfil de Lípidos Completo (Colesterol Total y HDL)</a> (Evalúa inmensamente para calcular el puntaje exacto clínico de base orgánica).</li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="my-8" />
 
                 {/* SEO Content */}
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-6 md:p-8 mb-8">

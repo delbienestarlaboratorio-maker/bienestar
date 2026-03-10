@@ -114,7 +114,20 @@ export default function ScoreFindriscPage() {
                     link="https://wa.me/527716854026?text=Hola,%20quisiera%20cotizar%20un%20estudio%20de%20Quimica%20y%20Hemoglobina%20Glucosilada%20A1c%20Diagnosi"
                     type="estudio"
                 />
-                <AdBanner variant="horizontal" className="my-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🩸 Guía Endocrinológica: Test FINDRISC para Riesgo de Diabetes</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El Test FINDRISC es una inmensa y colosal validada internacional herramienta de cribado clínico puramente base de O u u a y u el u a U U O la U la O inmensurables O la al para o O al en genérico a a general evaluar al U a O a de en Riesgo el de al o el inmensa a u inmenso de a u desarrollar O a la O inmenso Diabetes O en U inmenso Tipo 2 a de u a a a a O 10 O U años al.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Laboratorios Complementarios</h3>
+       <ul>
+           <li><a href="/estudios/analisis-clinicos/glucosa" className="text-blue-600 font-semibold hover:underline">Glucosa en Ayuno General</a> (Prueba basal sistémica para descartar genérico prediabetes).</li>
+           <li><a href="/estudios/perfiles/hemoglobina-glucosilada-hba1c" className="text-blue-600 font-semibold hover:underline">Hemoglobina Glucosilada HbA1c Avanzada</a> (El general inmenso gran prueba de oro mundial para diabetes sistémica crónica de pura masa).</li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="my-8" />
 
                 {/* SEO Content */}
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-6 md:p-8 mb-8">

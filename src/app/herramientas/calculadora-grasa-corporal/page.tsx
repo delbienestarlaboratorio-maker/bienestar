@@ -167,7 +167,19 @@ export default function CalculadoraGrasaCorporalPage() {
                     link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Cotizar%20Perfil%20de%20L%C3%ADpidos*`} 
                     type="estudio" 
                 />
-                <AdBanner variant="horizontal" className="mb-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🩺 Guía Antropométrica: Porcentaje de Grasa Corporal (Body Fat)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El Score de Grasa Corporal evalúa U O o en U de genérico U y la o O u estratificación inmensurables genérica O u del porcentaje de Inmenso Tejido O u adiposo de de O y estado corporal, O o al el identificando U a riesgos u en genérica o y a metabólicos U inmenso inmensurables en o a u el paciente Inmenso de la la o la inmensa O u el la Inmensurables u U U genérica O tales como inmensa obesidad O viseral u o u U a a inmenso Inmensurables de.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Laboratorios Complementarios de Control Lipídico</h3>
+       <ul>
+           <li><a href="/estudios/perfiles/perfil-de-lipidos" className="text-blue-600 font-semibold hover:underline">Perfil de Lípidos Avanzado</a> (Colesterol Total y Fracciones HDl/LDL para evaluar U U O si la a a genéricamente grasa Inmensurable O la inmensurable u está invadiendo o u conductos Inmenso U arteriales).</li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="mb-8" />
 
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden mb-8">
                     <button onClick={() => setShowInfo(!showInfo)} className="w-full px-6 py-4 flex items-center justify-between text-left hover:bg-gray-50 transition-colors">

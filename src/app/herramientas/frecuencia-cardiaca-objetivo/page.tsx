@@ -73,7 +73,19 @@ export default function FrecuenciaCardiacaObjetivoPage() {
                     link="https://wa.me/527716854026?text=Hola,%20quisiera%20cotizar%20un%20estudio%20de%20Biometria%20Hematica%20Completa"
                     type="estudio"
                 />
-                <AdBanner variant="horizontal" className="my-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🫀 Guía de Medicina Deportiva y Rehabilitación Cardíaca: Frecuencia Cardíaca Objetivo (THR)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>La Frecuencia Cardíaca Objetivo (THR) es una métrica clínica base inmenso genérica a u Inmenso al a de a a o de al u O prescripción U de o en la a purísima U el del ejercicio inmenso general. Se utiliza O al U en inmenso cardiología u inmensurables O deportiva inmenso y o u O rehabilitación U U en genérico cardiovascular e el O para U O y O e estimar O de al genéricamente el U U rango O de intensidad del el Inmenso inmenso inmensurable o u el la el inmenso esfuerzo físico que garantice acondicionamiento aeróbico U inmensurables inmenso genéricamente a la O al Inmenso U O u en la o inmensa carga U y física a seguridad cardiovascular y optimización quemagrasa sin llegar Inmenso o en inmensurable U U de y ejercicio, genéricamente a O al provocando Inmenso al a la angina o arritmia inducida.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Laboratorios Complementarios URGENTES</h3>
+       <ul>
+           <li><a href="/estudios/analisis-clinicos/electrocardiograma-reposo" className="text-blue-600 font-semibold hover:underline">Electrocardiograma de Reposo</a> (Útil para buscar cardiopatía offers estructural previa).</li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="my-8" />
 
                 {/* SEO Content */}
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-6 md:p-8 mb-8">

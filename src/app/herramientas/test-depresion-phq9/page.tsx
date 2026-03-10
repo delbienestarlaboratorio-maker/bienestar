@@ -41,7 +41,36 @@ export default function TestDepresionPHQ9Page() {
                     link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Cotizar%20Check-up%20General*`} 
                     type="checkup" 
                 />
-                <AdBanner variant="horizontal" className="mb-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🧠 Guía Psiquiátrica: Trastorno Depresivo Mayor (Cuestionario PHQ-9)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El Trastorno Depresivo Mayor (TDM) no es un cuadro temporal de tristeza psicológica, sino un estado patológico neurotóxico sostenido. El Patient Health Questionnaire-9 (PHQ-9) es la herramienta clínica tipo \"Gold Standard\" internacional validada por la psiquiatría y la medicina familiar global para cuantificar estructuralmente la morbimortalidad y severidad del desgano dopaminérgico y colapso serotoninérgico en la corteza cerebral del paciente a largo de las últimas 2 semanas.</p>
+       
+       <h3 className="text-2xl font-bold text-gray-800 mt-8 mb-4">Fisiopatología de la Depresión Bioquímica Clínica</h3>
+       <p>En un cerebro sumido en el abismo biológico de la depresión mayor crónica, se deprime la red metabólica sináptica. Ocurre una notable depleción de los neurotransmisores monoaminérgicos orgánicos gigantes: Serotonina (causando irritabilidad e insomnio), Dopamina (produciendo anhedonia clínica o nula percepción de la recompensa física) y Norepinefrina (ausencia total de fatiga psicomotriz motora). Estructuralmente, si el hipocampo (memoria cortical) se baña en cortisol del estrés psíquico prolongado, el tamaño microscópico fisiológico de esa región cerebral se encoge temporal y drásticamente.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Implicaciones Clínicas y Sintomatología Medible Puntuada</h3>
+       <ul>
+           <li><strong>Anhedonia Parcial y Completamente Abolida:</strong> La absoluta, paralizante e insuperable pérdida biológica central neurológica del puro \"Gusto por vivir o sentir alegría\" por actividades antaño amadas y veneradas biológicamente.</li>
+           <li><strong>Retardo y Lentitud Psicomotora:</strong> El individuo camina psíquicamente bajo \"cemento cerebral\". Todo paso material o intelectual exige esfuerzos sobrehumanos colosales e indeseados fatales agotadores del metabolismo cerebral base.</li>
+           <li><strong>Apatía Somatizada Mortal o Hipersomnia del Sueño:</strong> Descontrol del Ritmo Circadiano del Núcleo Supraquiasmático; incapacidad de pararse a base del cerebro que huye durmiendo permanentemente y comiendo azúcares inflamatorios.</li>
+       </ul>
+
+       <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8 rounded-r-xl">
+           <h4 className="text-red-800 font-bold mb-2 flex items-center gap-2">⚠️ Emergencia Médica Psiquiatra: Alerta (Red Flag) del PHQ9</h4>
+           <p className="text-red-700 m-0">La Pregunta Clínica 9 de la Valoración (Acerca de automutilación total o finalización psiquiátrica de la vida física) marca la máxima alerta y urgencia material prehospitalaria. Si el paciente o usted marca esta casilla, requiere de una atención y traslado hospitalario de rescate emergente de intervención clínica en psiquiatría de crisis de manera fulminantemente urgente. <strong>Es una alerta de rescate neuronal prioritaria por urgencia del peligro inminente estructural general.</strong></p>
+       </div>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Abordaje y Laboratorios Sistémicos Endocrinos</h3>
+       <p>Psiquiatras integrativos modernos y la medicina biológica indican obligatoriamente, previo y a la par de las dosis del tratamiento de antidepresivo, un mapeo celular que descarte la fatiga sistémica química y metabólica similar a depresión física material base:</p>
+       <ul>
+           <li><a href="/estudios/perfiles/perfil-tiroideo" className="text-blue-600 font-semibold hover:underline">Perfil de Tiroides Exacto (T3/T4)</a> (El hipotiroidismo letárgico no reacciona a los anti-depresivos inhibidores de serotonina químicos y lo mimetizan gravemente de por vida de no evaluarse exhaustivamente en laboratorios).</li>
+           <li><a href="/estudios/analisis-clinicos/biometria-hematica" className="text-blue-600 font-semibold hover:underline">Biometría y Química Fisiología Superior (Déficits Severos)</a> (Una profunda ausencia clínica base prolongada de Vitamina D o de un agotamiento enorme sistémico por la Glucosa e insulina bloquean los receptores mentales y motores sistémicos colosales cerebrales en el humano moderno).</li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="mb-8" />
             <div className="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden mb-8"><button onClick={() => setShowInfo(!showInfo)} className="w-full px-6 py-4 flex items-center justify-between text-left hover:bg-gray-50"><span className="font-bold text-gray-900">📚 PHQ-9 — Información Científica</span><span className={`text-2xl transition-transform ${showInfo ? 'rotate-180' : ''}`}>▼</span></button>{showInfo && (<div className="px-6 pb-6 border-t border-gray-100 pt-4 text-gray-700 text-sm space-y-4"><p>El <strong>PHQ-9 (Patient Health Questionnaire-9)</strong> es un instrumento validado internacionalmente para el tamizaje y evaluación de la severidad de la depresión. Fue desarrollado por los Drs. Robert L. Spitzer, Janet B.W. Williams y Kurt Kroenke.</p><h4 className="font-bold text-gray-900">Interpretación</h4><table className="w-full text-sm"><thead><tr className="bg-gray-100"><th className="p-2">Puntaje</th><th className="p-2">Severidad</th></tr></thead><tbody><tr className="border-b"><td className="p-2 text-center">0-4</td><td className="p-2">Mínima</td></tr><tr className="border-b"><td className="p-2 text-center">5-9</td><td className="p-2">Leve</td></tr><tr className="border-b"><td className="p-2 text-center">10-14</td><td className="p-2">Moderada</td></tr><tr className="border-b"><td className="p-2 text-center">15-19</td><td className="p-2">Moderadamente severa</td></tr><tr><td className="p-2 text-center">20-27</td><td className="p-2">Severa</td></tr></tbody></table><h4 className="font-bold text-gray-900">Fuentes</h4><ul className="list-disc list-inside text-xs text-gray-500"><li>Kroenke, K. et al. (2001). The PHQ-9: validity of a brief depression severity measure. J Gen Intern Med.</li><li>Spitzer, R.L. et al. (1999). Validation and utility of a self-report version of PRIME-MD. JAMA.</li></ul><div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 text-xs text-yellow-800"><strong>⚠️ Aviso:</strong> Este test NO es un diagnóstico. Es un herramienta de tamizaje. Si obtuviste un puntaje ≥10, consulta a un profesional de salud mental.</div></div>)}</div>
             
                 <StudyCTA 

@@ -68,7 +68,19 @@ export default function OsmolaridadSericaPage() {
                     link="https://wa.me/527716854026?text=Hola,%20quisiera%20cotizar%20un%20estudio%20de%20Quimica%20Sanguinea%20Superior%20Extendida"
                     type="estudio"
                 />
-                <AdBanner variant="horizontal" className="my-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🩸 Guía Química Sanguínea: Cálculo de Osmolaridad Sérica Efectiva</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>La Osmolaridad Sérica inmensurable O U o en es a inmenso el O u a inmenso U medida U O o en U de genérico U y la o O u concentración inmensurables genérica O u inmenso del general total Inmenso O u en de de O solutos O o al el (Sodio, al el U a Glucosa u en genérica o y a BUN) U inmenso inmensurables en o a u el plasma inmensurable U u o y sanguíneo. Es O O pura Inmenso la U u U guía o u general para Inmenso O u de O y diagnosticar u la U O a inmenso y a o deshidratación al o U o inmenso U O severa al genérico a, U el O estado al o hiperosmolar U o u diabético o al. y a la U inmenso inmensurables O U u o Inmenso de intoxicación O U u hídrica a al a.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Laboratorios Complementarios Severos Críticos</h3>
+       <ul>
+           <li><a href="/estudios/analisis-clinicos/quimica-sanguinea" className="text-blue-600 font-semibold hover:underline">Química Sanguínea Total (Con Sodio y Cloro)</a> (Indispensable al Inmenso inmenso Inmensurables inmenso para O a O a al de inmenso u el exacto U o O genéricamente diagnóstico).</li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="my-8" />
 
                 {/* SEO Content */}
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-6 md:p-8 mb-8">

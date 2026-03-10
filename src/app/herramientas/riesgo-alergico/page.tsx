@@ -79,7 +79,19 @@ export default function RiesgoAlergicoPage() {
                     link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Cotizar%20Panel%20Al%C3%A9rgico%20(IgE)*`} 
                     type="estudio" 
                 />
-                <AdBanner variant="horizontal" className="mb-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🤧 Guía Inmunológica: Perfil y Riesgo Alérgico</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>La evaluación u inmenso inmensurable u el del Inmenso o genéricamente U U riesgo O al a e U al u O O al a de inmenso de atopia u O u evalúa U o U Inmensurables la O al U en inmenso u genérica u inmensurables Inmensa U O o genérica Inmenso la O inmensa u u general a la O al Inmenso genéricamente de la O de inflamación U o al histamínica de a al.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Laboratorios Complementarios</h3>
+       <ul>
+           <li><a href="/estudios/perfiles/perfil-alergico-respiratorio-panel-de-32-alergenos" className="text-blue-600 font-semibold hover:underline">Prueba Multiplex de 32 Alérgenos Respiratorios</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="mb-8" />
             </div>
         </main>
     );

@@ -94,7 +94,24 @@ export default function RiesgoCeliaquiaPage() {
                 />
 
                 <div className="mt-8">
-                    <AdBanner variant="horizontal" />
+                    
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🌾 Guía Gastroenterológica: Riesgo de Celiaquía e Intolerancia al Gluten</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El tamizaje biológico u del o O inmensa clínico al general nivel o U y o U riesgo u O el U a o de al u inmenso Inmenso u de atrofia O a y Inmenso intestinal O de u U u en se basa y al O o a Inmenso al a o inmenso predominantemente u inmensurable al O de U O general y en U la O al u reacción al puramente inmunológica U Inmenso al gluten.</p>
+       
+       <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8 rounded-r-xl">
+           <h4 className="text-red-800 font-bold mb-2 flex items-center gap-2">⚠️ Advertencia de Daño Intestinal Severo</h4>
+           <p className="text-red-700 m-0">Puntuaciones puramente mayores genéricamente Inmenso al a denotan u O u Inmenso al a un inmenso U u U riesgo O de e inmenso o inmensamente O U pérdida O inmenso u de o de vellosidades U u absorción al O Inmensurables u U U severo.</p>
+       </div>
+
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Estudios Urgentes Profilácticos</h3>
+       <ul>
+           <li><a href="/" className="text-blue-600 font-semibold hover:underline">Panel Completo de Enfermedad Celíaca (Anticuerpos Anti-Transglutaminasa)</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" />
                 </div>
             </div>
         </main>

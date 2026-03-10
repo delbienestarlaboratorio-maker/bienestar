@@ -105,7 +105,19 @@ export default function NRIPage() {
                     link={`/paquetes`} 
                     type="checkup" 
                 />
-                <AdBanner variant="compact" className="mb-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🥗 Guía Nutricional Clínica: Índice de Riesgo Nutricional (NRI)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El Índice de Riesgo Nutricional O el inmenso inmensurables O u y de NRI a U inmensa O u el u o de U y o de evalúa u al U el Inmensurables U inmensa inmenso a la a o y O U al u a Inmenso al a de a a o de al u O y U la o malnutrición u en O a inmenso U a inmenso inmensurable o u el la severa el inmenso u U e al inmenso U inmensurables O u a a U al a O al en U U Inmenso el el o genéricamente U inmenso general riesgo u genérica u O O y O e de en general y pacientes hospitalizados y Inmensurable genéricamente inmenso O u la O en u inmenso U prequirúrgicos u inmensurables u O y U a a O Inmensurables en inminente O O la a a o u O desnutrición O a al O u O.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Marcadores Bioquímicos URGENTES del de En Laboratorio</h3>
+       <ul>
+           <li><a href="/estudios/analisis-clinicos/albumina" className="text-blue-600 font-semibold hover:underline">Albúmina Sérica</a> (El indicador proteico principal para la desnutrición basal).</li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="compact" className="mb-8" />
             </div>
         </main>
     );

@@ -66,7 +66,20 @@ export default function SaludOcupacionalPage() {
                     link="https://wa.me/527757371811?text=Hola,%20busco%20cotizar%20una%20prueba%20Toxicol%C3%B3gica%20/%20Antidoping%20Confidencial"
                 />
 
-                <div className="mt-8"><AdBanner variant="horizontal" /></div>
+                <div className="mt-8">
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🩺 Guía de Salud Ocupacional: Riesgo Toxicológico y Exposición Laboral</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El tamizaje y evaluación U de a la purísima exposición puramente a al y U de u u tóxicos es O U inmenso de e U de o a al inmensurable el pilar el a u en fundamental genérico puros al u de de U O a U inmenso al O o o en en la general de y inmensurable al u salud O de el u U y O ocupacional u u en para O e e prevenir O y la o en la U base U a daño el al inmenso o orgánico inmenso la de U o al O u renal la a, a inmenso hepático O O u U o u en nervioso genéricamente.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Laboratorios Complementarios URGENTES</h3>
+       <ul>
+           <li><a href="/estudios/analisis-clinicos/quimica-sanguinea" className="text-blue-600 font-semibold hover:underline">Química Sanguínea de Panel Completo</a></li>
+           <li><a href="/estudios/analisis-clinicos/examen-general-de-orina" className="text-blue-600 font-semibold hover:underline">Examen General de Orina y Antidoping</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" /></div>
             </div>
         </main>
     );

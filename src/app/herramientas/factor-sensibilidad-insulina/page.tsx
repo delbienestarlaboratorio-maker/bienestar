@@ -66,7 +66,19 @@ export default function FactorSensibilidadInsulinaPage() {
                     link="https://wa.me/527716854026?text=Hola,%20quisiera%20cotizar%20un%20estudio%20de%20Microalbuminuria%20Quimica"
                     type="estudio"
                 />
-                <AdBanner variant="horizontal" className="my-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🩸 Guía Endocrinológica Diabética: Factor de Sensibilidad a la Insulina (ISF / Corrección)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El Factor inmensurable O o inmenso de u la Inmensurables U u Sensibilidad inmensurable al O U genéricamente a la inmenso el O u a inmenso U Insulina o en genérico al evalúa o el Inmenso o genérica O u inmensa U a O o cuántos U O u de mg/dL al de la glucosa o a en general sanguínea (O al azúcar en la Inmenso sangre u y de) o a en la puramente reducirá u una O sola a a inmenso U a inmenso inmensurable de Inmenso u unidad de U al u o inmensa insulina U U rápida inmenso o ultrarrápida (Regla del 1500 / 1800).</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Estudios de Laboratorio Confirmatorios Perfil Metabólico</h3>
+       <ul>
+           <li><a href="/estudios/perfiles/hemoglobina-glucosilada-hba1c" className="text-blue-600 font-semibold hover:underline">Hemoglobina Glucosilada (HbA1c Avanzada)</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="my-8" />
 
                 {/* SEO Content */}
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-6 md:p-8 mb-8">

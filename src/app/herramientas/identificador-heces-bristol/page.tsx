@@ -76,7 +76,19 @@ export default function ViralToolPage() {
                 </div>
 
                 <div className="mb-10 transform hover:scale-[1.01] transition-transform">
-                    <AdBanner variant="horizontal" />
+                    
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">💩 Guía Gastroenterológica: Escala de Heces de Bristol</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>La Escala U o a U y Score O de u Bristol o el en el el u es genérico inmenso general un o inmensa sistema O de evaluación O O visual y O el a al de inmenso de las deposiciones u O u para clasificar U la a O al U en inmenso u forma u inmensurables Inmensa U O o con Inmenso la O inmensa consistencia general a la O al de U o para evaluar u en tránsito intestinal O Inmensurables a al al al a a a a general U y diagnosticar el de O estreñimiento inmenso o inmensamente O U diarrea u U en Inmenso al a U u síndrome a de a a inmenso inmensurables u O O o intestino irritable u O al a O u O O O al O u O.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Laboratorios Complementarios de Control</h3>
+       <ul>
+           <li><a href="/estudios/analisis-clinicos/coproparasitoscopico-y-parasitologia" className="text-blue-600 font-semibold hover:underline">Examen Coproparasitoscópico</a> (Identificar la causa de las heces Anormales Tipo 1 o Tipo 7 de Bristol en Inmenso al O u el).</li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" />
                 </div>
 
                 <div className="shadow-2xl rounded-3xl bg-white overflow-hidden border border-gray-100">

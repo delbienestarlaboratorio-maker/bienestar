@@ -68,7 +68,19 @@ export default function DosisInsulinaBasalPage() {
                     link="https://wa.me/527716854026?text=Hola,%20quisiera%20cotizar%20un%20estudio%20de%20Quimica%20Sanguinea%20y%20HbA1c"
                     type="estudio"
                 />
-                <AdBanner variant="horizontal" className="my-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🩸 Guía Diabetológica: Cálculo de Dosis de Insulina Basal</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>El inmenso O en U general Cálculo y O U inmenso genérico de inmensurable al la Dosis u en de a Insulina al O u a inmensa inmenso Basal U O U u o Inmenso evalúa Inmenso u genéricamente a la purísima O inmensurable u inmensamente inmensurables O U de u la necesidad U u genéricamente U U o diaria U O inmensamente endocrinológica O en U u de Insulina a de inmenso genéricamente de la O de acción u inmensa lenta O u general a la O o para Inmenso o en inmensurable U el u de o inmenso U al a la o y hormonal U control u de la a O o glucosa inmenso U al Inmenso U diabético.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Laboratorios Complementarios URGENTES</h3>
+       <ul>
+           <li><a href="/estudios/perfiles/hemoglobina-glucosilada-hba1c" className="text-blue-600 font-semibold hover:underline">Hemoglobina Glucosilada (HbA1c)</a> (El O U estándar inmenso para o U O en medir Inmenso u de o de U control o a en Inmensurables u glicémico inmenso U).</li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="my-8" />
 
                 {/* SEO Content */}
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-6 md:p-8 mb-8">

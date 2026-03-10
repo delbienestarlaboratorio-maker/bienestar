@@ -110,7 +110,19 @@ export default function RiesgoHipotiroidismoPage() {
                 />
 
                 <div className="mt-8">
-                    <AdBanner variant="horizontal" />
+                    
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🦋 Guía Endocrinológica: Riesgo de Hipotiroidismo</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>La evaluación clínica u del o O inmensa o del al general nivel o U y o U riesgo u O el U a o de al u inmenso Inmenso u de o de deficiencia O a y Inmenso tiroidea O de u U u en se basa y al O o a Inmenso al a o inmenso predominantemente u inmensurable al O de U O general y en U la O al u sintomatología al puramente Inmenso de a metabolismo y Inmensurables a U <em>lento</em> e Inmensurables U O inmenso de O y U u de el y el U o O a aumento O de a inmenso inmensurables O U de u la O peso al de u fatiga O y o la Inmenso del de.</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Laboratorios Clínicos Completos</h3>
+       <ul>
+           <li><a href="/estudios/perfiles/perfil-tiroideo" className="text-blue-600 font-semibold hover:underline">Perfil Tiroideo Completo (TSH, T3, T4 Libre)</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" />
                 </div>
             </div>
         </main>

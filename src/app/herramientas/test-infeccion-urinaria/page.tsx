@@ -92,7 +92,36 @@ export default function TestITUPage() {
                     link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Cotizar%20EGO%20%2F%20Urocultivo*`} 
                     type="estudio" 
                 />
-                <AdBanner variant="horizontal" className="mb-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🦠 Guía Clínica: Fisiopatología de Infecciones del Tracto Urinario (ITU)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>La Infección del Tracto Urinario (ITU) es la invasión y proliferación patológica de microorganismos, típicamente la bacteria gramnegativa <em>Escherichia coli</em> (responsable del 80-90% de los casos comunitarios), a través del epitelio estéril de las vías urinarias. Esta patología abarca desde la uretritis baja hasta la invasión potencial del parénquima renal, constituyendo una emergencia sistémica si no se intercepta velozmente.</p>
+       
+       <h3 className="text-2xl font-bold text-gray-800 mt-8 mb-4">Mecanismo de Invasión y Respuesta Inflamatoria</h3>
+       <p>Las bacterias causantes poseen <em>fimbrias</em> u organelas de adhesión que actúan como \"ganchos microscópicos\", anclándose violentamente a los receptores de la mucosa vesical urotelial para resistir el barrido mecánico de la orina. Una vez adheridas, secretan hemolisinas y toxinas que destruyen el tejido local. El sistema inmunológico del paciente responde enviando torrentes de leucocitos (Pioctios) al área de la vejiga, lo que explica la inflamación dolorosa aguda masiva y la urgente necesidad falsa de orinar (Tenesmo y Polaquiuria).</p>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Sintomatología y Progresión Crítica Sistémica</h3>
+       <ul>
+           <li><strong>Disuria Aguda Grave:</strong> Sensación física de \"orinar fragmentos de cristal o fuego\", causada por el paso del ácido urinario a través del epitelio urotelial brutalizado y crónicamente inflamado.</li>
+           <li><strong>Hematuria Macroscópica:</strong> La destructiva lisis capilar en las paredes de la vejiga desencadena sangrado visible francamente rojo o de tonalidad oxidada, signo de daño tisular masivo agudo.</li>
+           <li><strong>Escalofríos y Fiebre Supurativa:</strong> Indicadores de que la bacteria ha superado la vejiga (Cistitis) y está escalando los uréteres hacia el riñón (Pielonefritis aguda).</li>
+       </ul>
+
+       <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8 rounded-r-xl">
+           <h4 className="text-red-800 font-bold mb-2 flex items-center gap-2">⚠️ Advertencia Quirúrgica / Sepsis (Red Flags)</h4>
+           <p className="text-red-700 m-0">El dolor lumbar punzante localizado (signo de Giordano positivo), acompañado de náuseas paralizantes, fiebre por encima de 38.5°C y confusión mental, sugiere vehementemente la instauración de una <strong>Pielonefritis Severa o Urosepsis</strong>. Las bacterias están irrumpiendo agresivamente en el torrente sanguíneo, pudiendo desencadenar shock séptico letal. Acuda a urgencias o terapia intensiva de manera fulminante.</p>
+       </div>
+       
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Protocolo Diagnóstico Laboratorial Oficial</h3>
+       <p>El diagnóstico clínico de oro requiere forzosamente la identificación microscópica objetiva microbiológica mediante cultivos estériles:</p>
+       <ul>
+           <li><a href="/estudios/analisis-clinicos/examen-general-de-orina" className="text-blue-600 font-semibold hover:underline">Examen General de Orina (EGO)</a> (Detección cualitativa rápida de grandes masas de Leucocitos, Nitritos positivos, sangre microscópica).</li>
+           <li><a href="/estudios/analisis-clinicos/urocultivo" className="text-blue-600 font-semibold hover:underline">Urocultivo Sensible Estándar con Antibiograma</a> (El cultivo biológico a 72 hrs vital para determinar la especie microscópica exacta y reportar al médico a qué letal antibacteriano será sensible esa cepa resistente).</li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="mb-8" />
             </div>
         </main>
     );

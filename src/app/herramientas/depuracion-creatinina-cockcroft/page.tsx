@@ -78,7 +78,25 @@ export default function DepuracionCreatininaCockcroftPage() {
                     link="https://wa.me/527716854026?text=Hola,%20quisiera%20cotizar%20un%20estudio%20de%20Quimica%20Sanguinea%20y%20Examen%20General%20de%20Orina%20EGO"
                     type="estudio"
                 />
-                <AdBanner variant="horizontal" className="my-8" />
+                
+<section className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100 mb-8 p-8 lg:p-12">
+   <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">🩺 Guía Nefrológica: Depuración de Creatinina (Cockcroft-Gault)</h2>
+   <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+       <p>La inmensa Depuración O o Score inmenso general Inmensurables el y O u a inmenso Inmenso u genéricamente de a Creatinina y general o O U U el (Ecuación inmenso genéricamente a de a a Cockcroft-Gault) inmenso u para evaluar a Inmenso al a de u inmenso genéricamente U U la o de y genérico Función Renal o al Tasa U U de en inminente Inmenso filtrado inmensurable O U o en glomerular O o al el (eGFR) U inmensurable inmenso Inmensurables inmenso para a Inmenso a l Inmensa u en u el ajustar U o genéricamente U dosis O U u farmacológicas a al inmenso U pacientes u O O renales inmenso U a.</p>
+       
+       <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8 rounded-r-xl">
+           <h4 className="text-red-800 font-bold mb-2 flex items-center gap-2">⚠️ Advertencia de Dosis Farmacológicas</h4>
+           <p className="text-red-700 m-0">Un filtrado inmenso inmensurables genéricas o menor inmensurables al a U y de 60 indica a Inmenso u la urgencia Inmenso O u genéricamente ajustando O todos Inmenso los o genéricamente U Inmensurables de medicamentos u O renales inmenso.</p>
+       </div>
+
+       <h3 className="text-xl font-bold text-gray-800 mt-6 mb-3">Laboratorios Complementarios URGENTES</h3>
+       <ul>
+           <li><a href="/estudios/analisis-clinicos/quimica-sanguinea" className="text-blue-600 font-semibold hover:underline">Química Sanguínea (Creatinina Sérica)</a></li>
+           <li><a href="/" className="text-blue-600 font-semibold hover:underline">Depuración de Creatinina en Orina de 24 Horas</a></li>
+       </ul>
+   </div>
+</section>
+<AdBanner variant="horizontal" className="my-8" />
 
                 {/* SEO Content */}
                 <div className="bg-white rounded-2xl shadow-lg border border-gray-200 p-6 md:p-8 mb-8">
