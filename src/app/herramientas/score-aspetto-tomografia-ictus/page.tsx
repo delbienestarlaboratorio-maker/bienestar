@@ -38,52 +38,52 @@ export default function ScoreAspettoTomografiaIctusPage() {
 
                     <div className="mb-4 flex items-center gap-3">
                         <input type="checkbox" id="gangliosC" checked={gangliosC} onChange={(e) => setGangliosC(e.target.checked)} className="w-5 h-5 rounded border-gray-300" />
-                        <label htmlFor="gangliosC" className="text-sm font-bold text-gray-700">{"1. Núcleo Caudado"}</label>
+                        <label htmlFor="gangliosC" className="text-sm font-bold text-gray-700 cursor-pointer select-none">1. Núcleo Caudado</label>
                     </div>
 
                     <div className="mb-4 flex items-center gap-3">
                         <input type="checkbox" id="gangliosL" checked={gangliosL} onChange={(e) => setGangliosL(e.target.checked)} className="w-5 h-5 rounded border-gray-300" />
-                        <label htmlFor="gangliosL" className="text-sm font-bold text-gray-700">{"2. Núcleo Lenticular"}</label>
+                        <label htmlFor="gangliosL" className="text-sm font-bold text-gray-700 cursor-pointer select-none">2. Núcleo Lenticular</label>
                     </div>
 
                     <div className="mb-4 flex items-center gap-3">
                         <input type="checkbox" id="gangliosIC" checked={gangliosIC} onChange={(e) => setGangliosIC(e.target.checked)} className="w-5 h-5 rounded border-gray-300" />
-                        <label htmlFor="gangliosIC" className="text-sm font-bold text-gray-700">{"3. Cápsula Interna"}</label>
+                        <label htmlFor="gangliosIC" className="text-sm font-bold text-gray-700 cursor-pointer select-none">3. Cápsula Interna</label>
                     </div>
 
                     <div className="mb-4 flex items-center gap-3">
                         <input type="checkbox" id="insula" checked={insula} onChange={(e) => setInsula(e.target.checked)} className="w-5 h-5 rounded border-gray-300" />
-                        <label htmlFor="insula" className="text-sm font-bold text-gray-700">{"4. Cinta Insular"}</label>
+                        <label htmlFor="insula" className="text-sm font-bold text-gray-700 cursor-pointer select-none">4. Cinta Insular</label>
                     </div>
 
                     <div className="mb-4 flex items-center gap-3">
                         <input type="checkbox" id="m1" checked={m1} onChange={(e) => setM1(e.target.checked)} className="w-5 h-5 rounded border-gray-300" />
-                        <label htmlFor="m1" className="text-sm font-bold text-gray-700">{"5. Región M1 (Corteza anterior ACM)"}</label>
+                        <label htmlFor="m1" className="text-sm font-bold text-gray-700 cursor-pointer select-none">5. Región M1 (Corteza anterior ACM)</label>
                     </div>
 
                     <div className="mb-4 flex items-center gap-3">
                         <input type="checkbox" id="m2" checked={m2} onChange={(e) => setM2(e.target.checked)} className="w-5 h-5 rounded border-gray-300" />
-                        <label htmlFor="m2" className="text-sm font-bold text-gray-700">{"6. Región M2 (Corteza lateral ACM)"}</label>
+                        <label htmlFor="m2" className="text-sm font-bold text-gray-700 cursor-pointer select-none">6. Región M2 (Corteza lateral ACM)</label>
                     </div>
 
                     <div className="mb-4 flex items-center gap-3">
                         <input type="checkbox" id="m3" checked={m3} onChange={(e) => setM3(e.target.checked)} className="w-5 h-5 rounded border-gray-300" />
-                        <label htmlFor="m3" className="text-sm font-bold text-gray-700">{"7. Región M3 (Corteza posterior ACM)"}</label>
+                        <label htmlFor="m3" className="text-sm font-bold text-gray-700 cursor-pointer select-none">7. Región M3 (Corteza posterior ACM)</label>
                     </div>
 
                     <div className="mb-4 flex items-center gap-3">
                         <input type="checkbox" id="m4" checked={m4} onChange={(e) => setM4(e.target.checked)} className="w-5 h-5 rounded border-gray-300" />
-                        <label htmlFor="m4" className="text-sm font-bold text-gray-700">{"8. Región M4 (Corona radiata anterior)"}</label>
+                        <label htmlFor="m4" className="text-sm font-bold text-gray-700 cursor-pointer select-none">8. Región M4 (Corona radiata anterior)</label>
                     </div>
 
                     <div className="mb-4 flex items-center gap-3">
                         <input type="checkbox" id="m5" checked={m5} onChange={(e) => setM5(e.target.checked)} className="w-5 h-5 rounded border-gray-300" />
-                        <label htmlFor="m5" className="text-sm font-bold text-gray-700">{"9. Región M5 (Corona radiata lateral)"}</label>
+                        <label htmlFor="m5" className="text-sm font-bold text-gray-700 cursor-pointer select-none">9. Región M5 (Corona radiata lateral)</label>
                     </div>
 
                     <div className="mb-4 flex items-center gap-3">
                         <input type="checkbox" id="m6" checked={m6} onChange={(e) => setM6(e.target.checked)} className="w-5 h-5 rounded border-gray-300" />
-                        <label htmlFor="m6" className="text-sm font-bold text-gray-700">{"10. Región M6 (Corona radiata posterior)"}</label>
+                        <label htmlFor="m6" className="text-sm font-bold text-gray-700 cursor-pointer select-none">10. Región M6 (Corona radiata posterior)</label>
                     </div>
 
                     <button onClick={calcular} className="w-full bg-zinc-700 hover:bg-zinc-800 text-white font-bold py-3 rounded-xl text-lg transition-all shadow-lg active:scale-[0.98] mt-6">

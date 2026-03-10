@@ -32,7 +32,8 @@ export default function CalculadoraExposicionRayosxAvanzadaPage() {
                     <h2 className="text-xl font-bold text-gray-800 mb-6">{"Parámetros del Paciente y Equipo"}</h2>
 
                     <div className="mb-4">
-                        <label className="block text-sm font-bold text-gray-700 mb-1">{"Marca del Equipo de Rayos X (Factor Generador)"}</label>
+
+                        <label className="block text-sm font-bold text-gray-700 mb-1">Marca del Equipo de Rayos X (Factor Generador)</label>
                         <select value={marcaEquipo} onChange={(e) => setMarcaEquipo(e.target.value)} className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-zinc-500 transition-all">
                             <option value="">Seleccionar...</option>
                             <option value="1.0">{"GE Healthcare (Definium / Discovery)"}</option>
@@ -48,7 +49,8 @@ export default function CalculadoraExposicionRayosxAvanzadaPage() {
                     </div>
 
                     <div className="mb-4">
-                        <label className="block text-sm font-bold text-gray-700 mb-1">{"Región Anatómica a Radiografiar"}</label>
+
+                        <label className="block text-sm font-bold text-gray-700 mb-1">Región Anatómica a Radiografiar</label>
                         <select value={region} onChange={(e) => setRegion(e.target.value)} className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-zinc-500 transition-all">
                             <option value="">Seleccionar...</option>
                             <option value="torax_pa">{"Tórax PA (Parrilla)"}</option>
@@ -65,7 +67,8 @@ export default function CalculadoraExposicionRayosxAvanzadaPage() {
                     </div>
 
                     <div className="mb-4">
-                        <label className="block text-sm font-bold text-gray-700 mb-1">{"Tamaño del Receptor / Chasis (pulgadas)"}</label>
+
+                        <label className="block text-sm font-bold text-gray-700 mb-1">Tamaño del Receptor / Chasis (pulgadas)</label>
                         <select value={tamanoChasis} onChange={(e) => setTamanoChasis(e.target.value)} className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-zinc-500 transition-all">
                             <option value="">Seleccionar...</option>
                             <option value="1">{"14 x 17 (35x43 cm) - Tórax/Abdomen Grande"}</option>
@@ -76,12 +79,14 @@ export default function CalculadoraExposicionRayosxAvanzadaPage() {
                     </div>
 
                     <div className="mb-4">
-                        <label className="block text-sm font-bold text-gray-700 mb-1">{"Grosor Anatómico Medido con Calibrador (cm)"}</label>
+
+                        <label className="block text-sm font-bold text-gray-700 mb-1">Grosor Anatómico Medido con Calibrador (cm)</label>
                         <input type="number" value={grosorPaciente} onChange={(e) => setGrosorPaciente(e.target.value)} placeholder="Ej: 22" className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-zinc-500 focus:ring-2 focus:ring-zinc-100 transition-all" />
                     </div>
 
                     <div className="mb-4">
-                        <label className="block text-sm font-bold text-gray-700 mb-1">{"Uso de Bucky / Parrilla Antidifusora"}</label>
+
+                        <label className="block text-sm font-bold text-gray-700 mb-1">Uso de Bucky / Parrilla Antidifusora</label>
                         <select value={parrilla} onChange={(e) => setParrilla(e.target.value)} className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-zinc-500 transition-all">
                             <option value="">Seleccionar...</option>
                             <option value="0">{"Sin Parrilla (Extremidades)"}</option>

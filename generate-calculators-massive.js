@@ -136,19 +136,34 @@ function generateInputsCode(calc) {
 
     for (const input of calc.inputs) {
         const varName = toCamelCase(input.id);
+        const labelText = input.label + (input.unit ? ' (' + input.unit + ')' : '');
+
+        const labelJSX = input.info ? `
+                        <details className="group mb-2">
+                            <summary className="flex items-center gap-2 cursor-pointer list-none select-none">
+                                <span className="block text-sm font-bold text-gray-700">${labelText}</span>
+                                <span className="text-gray-400 hover:text-${SPECIALTY_COLORS[calc.specialty]?.accent || 'blue'}-500 transition-colors" title="Más información">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                                </span>
+                            </summary>
+                            <div className="mt-2 mb-3 p-3 bg-slate-50 border border-slate-200 rounded-lg text-sm text-gray-600 shadow-inner leading-relaxed">
+                                {${JSON.stringify(input.info)}}
+                            </div>
+                        </details>` : `
+                        <label className="block text-sm font-bold text-gray-700 mb-1">${labelText}</label>`;
 
         if (input.type === 'number') {
             stateLines.push(`    const [${varName}, set${toPascalCase(input.id)}] = useState<string>('');`);
             jsxLines.push(`
                     <div className="mb-4">
-                        <label className="block text-sm font-bold text-gray-700 mb-1">{${JSON.stringify(input.label + (input.unit ? ' (' + input.unit + ')' : ''))}}</label>
+${labelJSX}
                         <input type="number" value={${varName}} onChange={(e) => set${toPascalCase(input.id)}(e.target.value)} placeholder="${input.placeholder || ''}" className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-${SPECIALTY_COLORS[calc.specialty]?.accent || 'blue'}-500 focus:ring-2 focus:ring-${SPECIALTY_COLORS[calc.specialty]?.accent || 'blue'}-100 transition-all" />
                     </div>`);
         } else if (input.type === 'select') {
             stateLines.push(`    const [${varName}, set${toPascalCase(input.id)}] = useState<string>('');`);
             jsxLines.push(`
                     <div className="mb-4">
-                        <label className="block text-sm font-bold text-gray-700 mb-1">{${JSON.stringify(input.label)}}</label>
+${labelJSX}
                         <select value={${varName}} onChange={(e) => set${toPascalCase(input.id)}(e.target.value)} className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-${SPECIALTY_COLORS[calc.specialty]?.accent || 'blue'}-500 transition-all">
                             <option value="">Seleccionar...</option>
 ${input.options.map(o => `                            <option value="${o.value}">{${JSON.stringify(o.label)}}</option>`).join('\n')}
@@ -156,11 +171,32 @@ ${input.options.map(o => `                            <option value="${o.value}"
                     </div>`);
         } else if (input.type === 'boolean') {
             stateLines.push(`    const [${varName}, set${toPascalCase(input.id)}] = useState<boolean>(false);`);
-            jsxLines.push(`
+            // For booleans, the layout is slightly different (checkbox next to label)
+            if (input.info) {
+                jsxLines.push(`
+                    <div className="mb-4">
+                        <details className="group mb-2">
+                            <summary className="flex items-center gap-2 cursor-pointer list-none select-none">
+                                <div className="flex items-center gap-3">
+                                    <input type="checkbox" id="${input.id}" checked={${varName}} onChange={(e) => set${toPascalCase(input.id)}(e.target.checked)} className="w-5 h-5 rounded border-gray-300" />
+                                    <label htmlFor="${input.id}" className="text-sm font-bold text-gray-700 cursor-pointer block">${labelText}</label>
+                                </div>
+                                <span className="text-gray-400 hover:text-${SPECIALTY_COLORS[calc.specialty]?.accent || 'blue'}-500 transition-colors" title="Más información">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                                </span>
+                            </summary>
+                            <div className="mt-2 mb-3 ml-8 p-3 bg-slate-50 border border-slate-200 rounded-lg text-sm text-gray-600 shadow-inner leading-relaxed">
+                                {${JSON.stringify(input.info)}}
+                            </div>
+                        </details>
+                    </div>`);
+            } else {
+                jsxLines.push(`
                     <div className="mb-4 flex items-center gap-3">
                         <input type="checkbox" id="${input.id}" checked={${varName}} onChange={(e) => set${toPascalCase(input.id)}(e.target.checked)} className="w-5 h-5 rounded border-gray-300" />
-                        <label htmlFor="${input.id}" className="text-sm font-bold text-gray-700">{${JSON.stringify(input.label)}}</label>
+                        <label htmlFor="${input.id}" className="text-sm font-bold text-gray-700 cursor-pointer select-none">${labelText}</label>
                     </div>`);
+            }
         }
     }
 

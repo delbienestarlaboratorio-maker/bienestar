@@ -31,22 +31,26 @@ export default function IndiceCardoToracicoRxPage() {
                     <h2 className="text-xl font-bold text-gray-800 mb-6">{"Medidas de la Radiografía (PA) en cm/mm"}</h2>
 
                     <div className="mb-4">
-                        <label className="block text-sm font-bold text-gray-700 mb-1">{"Distancia 'A' (Línea media a borde lateral cardíaco derecho) (mm)"}</label>
+
+                        <label className="block text-sm font-bold text-gray-700 mb-1">Distancia 'A' (Línea media a borde lateral cardíaco derecho) (mm)</label>
                         <input type="number" value={diametroA} onChange={(e) => setDiametroA(e.target.value)} placeholder="Ej: 45" className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-zinc-500 focus:ring-2 focus:ring-zinc-100 transition-all" />
                     </div>
 
                     <div className="mb-4">
-                        <label className="block text-sm font-bold text-gray-700 mb-1">{"Distancia 'B' (Línea media a borde lateral cardíaco izquierdo) (mm)"}</label>
+
+                        <label className="block text-sm font-bold text-gray-700 mb-1">Distancia 'B' (Línea media a borde lateral cardíaco izquierdo) (mm)</label>
                         <input type="number" value={diametroB} onChange={(e) => setDiametroB(e.target.value)} placeholder="Ej: 85" className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-zinc-500 focus:ring-2 focus:ring-zinc-100 transition-all" />
                     </div>
 
                     <div className="mb-4">
-                        <label className="block text-sm font-bold text-gray-700 mb-1">{"Distancia 'C' (Diámetro torácico interno máximo costofrenico) (mm)"}</label>
+
+                        <label className="block text-sm font-bold text-gray-700 mb-1">Distancia 'C' (Diámetro torácico interno máximo costofrenico) (mm)</label>
                         <input type="number" value={diametroC} onChange={(e) => setDiametroC(e.target.value)} placeholder="Ej: 260" className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-zinc-500 focus:ring-2 focus:ring-zinc-100 transition-all" />
                     </div>
 
                     <div className="mb-4">
-                        <label className="block text-sm font-bold text-gray-700 mb-1">{"Grupo Etario del Paciente"}</label>
+
+                        <label className="block text-sm font-bold text-gray-700 mb-1">Grupo Etario del Paciente</label>
                         <select value={edad} onChange={(e) => setEdad(e.target.value)} className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-zinc-500 transition-all">
                             <option value="">Seleccionar...</option>
                             <option value="adulto">{"Adulto / Niño mayor de 5 años (< 0.50 Normal)"}</option>

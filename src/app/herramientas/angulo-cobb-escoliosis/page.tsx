@@ -29,12 +29,14 @@ export default function AnguloCobbEscoliosisPage() {
                     <h2 className="text-xl font-bold text-gray-800 mb-6">{"Valores Angulares Medidos en la RX"}</h2>
 
                     <div className="mb-4">
-                        <label className="block text-sm font-bold text-gray-700 mb-1">{"Medición del Ángulo de Cobb (Grados (°))"}</label>
+
+                        <label className="block text-sm font-bold text-gray-700 mb-1">Medición del Ángulo de Cobb (Grados (°))</label>
                         <input type="number" value={cobb} onChange={(e) => setCobb(e.target.value)} placeholder="Ej: 25" className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-zinc-500 focus:ring-2 focus:ring-zinc-100 transition-all" />
                     </div>
 
                     <div className="mb-4">
-                        <label className="block text-sm font-bold text-gray-700 mb-1">{"Madurez Esquelética (Signo de Risser)"}</label>
+
+                        <label className="block text-sm font-bold text-gray-700 mb-1">Madurez Esquelética (Signo de Risser)</label>
                         <select value={madurez} onChange={(e) => setMadurez(e.target.value)} className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-zinc-500 transition-all">
                             <option value="">Seleccionar...</option>
                             <option value="inmaduro">{"Risser 0-2 (Mayor potencial de progresión)"}</option>

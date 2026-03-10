@@ -31,22 +31,26 @@ export default function PesoFetalEstimadoHadlockPage() {
                     <h2 className="text-xl font-bold text-gray-800 mb-6">{"Parámetros de Biometría Ecográfica"}</h2>
 
                     <div className="mb-4">
-                        <label className="block text-sm font-bold text-gray-700 mb-1">{"Diámetro Biparietal (DBP) (cm)"}</label>
+
+                        <label className="block text-sm font-bold text-gray-700 mb-1">Diámetro Biparietal (DBP) (cm)</label>
                         <input type="number" value={dbp} onChange={(e) => setDbp(e.target.value)} placeholder="Ej: 8.5" className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-sky-500 focus:ring-2 focus:ring-sky-100 transition-all" />
                     </div>
 
                     <div className="mb-4">
-                        <label className="block text-sm font-bold text-gray-700 mb-1">{"Circunferencia Cefálica (CC) (cm)"}</label>
+
+                        <label className="block text-sm font-bold text-gray-700 mb-1">Circunferencia Cefálica (CC) (cm)</label>
                         <input type="number" value={cc} onChange={(e) => setCc(e.target.value)} placeholder="Ej: 30.5" className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-sky-500 focus:ring-2 focus:ring-sky-100 transition-all" />
                     </div>
 
                     <div className="mb-4">
-                        <label className="block text-sm font-bold text-gray-700 mb-1">{"Circunferencia Abdominal (CA) (cm)"}</label>
+
+                        <label className="block text-sm font-bold text-gray-700 mb-1">Circunferencia Abdominal (CA) (cm)</label>
                         <input type="number" value={ca} onChange={(e) => setCa(e.target.value)} placeholder="Ej: 28.0" className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-sky-500 focus:ring-2 focus:ring-sky-100 transition-all" />
                     </div>
 
                     <div className="mb-4">
-                        <label className="block text-sm font-bold text-gray-700 mb-1">{"Longitud Fémur (LF) (cm)"}</label>
+
+                        <label className="block text-sm font-bold text-gray-700 mb-1">Longitud Fémur (LF) (cm)</label>
                         <input type="number" value={lf} onChange={(e) => setLf(e.target.value)} placeholder="Ej: 6.5" className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-sky-500 focus:ring-2 focus:ring-sky-100 transition-all" />
                     </div>
 

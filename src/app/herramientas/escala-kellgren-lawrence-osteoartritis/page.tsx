@@ -30,7 +30,8 @@ export default function EscalaKellgrenLawrenceOsteoartritisPage() {
                     <h2 className="text-xl font-bold text-gray-800 mb-6">{"Hallazgos Radiológicos Observados (Carga / AP)"}</h2>
 
                     <div className="mb-4">
-                        <label className="block text-sm font-bold text-gray-700 mb-1">{"Presencia de Osteofitos"}</label>
+
+                        <label className="block text-sm font-bold text-gray-700 mb-1">Presencia de Osteofitos</label>
                         <select value={osteofitos} onChange={(e) => setOsteofitos(e.target.value)} className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-zinc-500 transition-all">
                             <option value="">Seleccionar...</option>
                             <option value="0">{"Ausentes"}</option>
@@ -42,7 +43,8 @@ export default function EscalaKellgrenLawrenceOsteoartritisPage() {
                     </div>
 
                     <div className="mb-4">
-                        <label className="block text-sm font-bold text-gray-700 mb-1">{"Estrechamiento del Espacio Articular"}</label>
+
+                        <label className="block text-sm font-bold text-gray-700 mb-1">Estrechamiento del Espacio Articular</label>
                         <select value={espacio} onChange={(e) => setEspacio(e.target.value)} className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-zinc-500 transition-all">
                             <option value="">Seleccionar...</option>
                             <option value="0">{"Normal"}</option>
@@ -55,7 +57,7 @@ export default function EscalaKellgrenLawrenceOsteoartritisPage() {
 
                     <div className="mb-4 flex items-center gap-3">
                         <input type="checkbox" id="esclerosis" checked={esclerosis} onChange={(e) => setEsclerosis(e.target.checked)} className="w-5 h-5 rounded border-gray-300" />
-                        <label htmlFor="esclerosis" className="text-sm font-bold text-gray-700">{"Esclerosis subcondral evidente o deforma ósea severa"}</label>
+                        <label htmlFor="esclerosis" className="text-sm font-bold text-gray-700 cursor-pointer select-none">Esclerosis subcondral evidente o deforma ósea severa</label>
                     </div>
 
                     <button onClick={calcular} className="w-full bg-zinc-700 hover:bg-zinc-800 text-white font-bold py-3 rounded-xl text-lg transition-all shadow-lg active:scale-[0.98] mt-6">

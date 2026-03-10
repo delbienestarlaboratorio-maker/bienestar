@@ -31,22 +31,26 @@ export default function IndiceLiquidoAmnioticoUsgPage() {
                     <h2 className="text-xl font-bold text-gray-800 mb-6">{"Profundidad vertical máxima de 4 cuadrantes (en cm)"}</h2>
 
                     <div className="mb-4">
-                        <label className="block text-sm font-bold text-gray-700 mb-1">{"Cuadrante Superior Derecho (cm)"}</label>
+
+                        <label className="block text-sm font-bold text-gray-700 mb-1">Cuadrante Superior Derecho (cm)</label>
                         <input type="number" value={c1} onChange={(e) => setC1(e.target.value)} placeholder="Ej: 3.2" className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-sky-500 focus:ring-2 focus:ring-sky-100 transition-all" />
                     </div>
 
                     <div className="mb-4">
-                        <label className="block text-sm font-bold text-gray-700 mb-1">{"Cuadrante Superior Izquierdo (cm)"}</label>
+
+                        <label className="block text-sm font-bold text-gray-700 mb-1">Cuadrante Superior Izquierdo (cm)</label>
                         <input type="number" value={c2} onChange={(e) => setC2(e.target.value)} placeholder="Ej: 2.8" className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-sky-500 focus:ring-2 focus:ring-sky-100 transition-all" />
                     </div>
 
                     <div className="mb-4">
-                        <label className="block text-sm font-bold text-gray-700 mb-1">{"Cuadrante Inferior Derecho (cm)"}</label>
+
+                        <label className="block text-sm font-bold text-gray-700 mb-1">Cuadrante Inferior Derecho (cm)</label>
                         <input type="number" value={c3} onChange={(e) => setC3(e.target.value)} placeholder="Ej: 4.1" className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-sky-500 focus:ring-2 focus:ring-sky-100 transition-all" />
                     </div>
 
                     <div className="mb-4">
-                        <label className="block text-sm font-bold text-gray-700 mb-1">{"Cuadrante Inferior Izquierdo (cm)"}</label>
+
+                        <label className="block text-sm font-bold text-gray-700 mb-1">Cuadrante Inferior Izquierdo (cm)</label>
                         <input type="number" value={c4} onChange={(e) => setC4(e.target.value)} placeholder="Ej: 3.5" className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-sky-500 focus:ring-2 focus:ring-sky-100 transition-all" />
                     </div>
 

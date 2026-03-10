@@ -16,6 +16,7 @@
                         "id": "marcaEquipo",
                         "type": "select",
                         "label": "Marca del Equipo de Rayos X (Factor Generador)",
+                        "info": "El factor generador (Generator Output) varía radicalmente entre marcas y épocas de fabricación. Por ejemplo, un equipo portátil básico requiere hasta un 30% más de mAs que un equipo de sala DR de última generación (GE/Siemens) para obtener el mismo Índice de Exposición (EI) a la placa.",
                         "options": [
                             {
                                 "value": "1.0",
@@ -59,6 +60,7 @@
                         "id": "region",
                         "type": "select",
                         "label": "Región Anatómica a Radiografiar",
+                        "info": "Define la constante del equipo y los kVp/mAs base. Los tejidos blandos (tórax) requieren un alto kilovoltaje para penetración y escala de grises larga, mientras que las extremidades requieren foco fino y mayor contraste para trabécula ósea.",
                         "options": [
                             {
                                 "value": "torax_pa",
@@ -106,6 +108,7 @@
                         "id": "tamanoChasis",
                         "type": "select",
                         "label": "Tamaño del Receptor / Chasis (pulgadas)",
+                        "info": "El tamaño físico del campo iluminado (colimación) altera la eficiencia de salida. Colimar estrictamente un área muy pequeña corta radiación dispersa que ayudaría a 'ennegrecer' la placa periférica, requiriendo ligeros ajustes al alza de los valores respecto a chasis más grandes.",
                         "options": [
                             {
                                 "value": "1",
@@ -130,12 +133,14 @@
                         "type": "number",
                         "label": "Grosor Anatómico Medido con Calibrador",
                         "unit": "cm",
+                        "info": "Es indispensable medir físicamente mediante calibrador (pelvímetro) la zona de incidencia en los puntos de contacto. La Regla del 2 de Radiología dicta que por cada centímetro de tejido del paciente, deben sumarse 2 kVp para garantizar constancia de penetración del haz primario de fotones.",
                         "placeholder": "Ej: 22"
                     },
                     {
                         "id": "parrilla",
                         "type": "select",
                         "label": "Uso de Bucky / Parrilla Antidifusora",
+                        "info": "Las láminas de plomo de la parrilla (grid) absorben la dañina radiación dispersa mejorando drásticamente el contraste diagnóstico, a expensas de requerir de 2 a 5 veces mayor cantidad de mAs original en el tubo (Ley Bucky) para compensar la dosis y mantener el EI.",
                         "options": [
                             {
                                 "value": "0",
