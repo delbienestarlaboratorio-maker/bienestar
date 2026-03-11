@@ -33,7 +33,17 @@ export default function CalculadoraExposicionRayosxAvanzadaPage() {
 
                     <div className="mb-4">
 
-                        <label className="block text-sm font-bold text-gray-700 mb-1">Marca del Equipo de Rayos X (Factor Generador)</label>
+                        <details className="group mb-2">
+                            <summary className="flex items-center gap-2 cursor-pointer list-none select-none">
+                                <span className="block text-sm font-bold text-gray-700">Marca del Equipo de Rayos X (Factor Generador)</span>
+                                <span className="text-gray-400 hover:text-zinc-500 transition-colors" title="Más información">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                                </span>
+                            </summary>
+                            <div className="mt-2 mb-3 p-3 bg-slate-50 border border-slate-200 rounded-lg text-sm text-gray-600 shadow-inner leading-relaxed">
+                                {"El factor generador (Generator Output) varía radicalmente entre marcas y épocas de fabricación. Por ejemplo, un equipo portátil básico requiere hasta un 30% más de mAs que un equipo de sala DR de última generación (GE/Siemens) para obtener el mismo Índice de Exposición (EI) a la placa."}
+                            </div>
+                        </details>
                         <select value={marcaEquipo} onChange={(e) => setMarcaEquipo(e.target.value)} className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-zinc-500 transition-all">
                             <option value="">Seleccionar...</option>
                             <option value="1.0">{"GE Healthcare (Definium / Discovery)"}</option>
@@ -50,7 +60,17 @@ export default function CalculadoraExposicionRayosxAvanzadaPage() {
 
                     <div className="mb-4">
 
-                        <label className="block text-sm font-bold text-gray-700 mb-1">Región Anatómica a Radiografiar</label>
+                        <details className="group mb-2">
+                            <summary className="flex items-center gap-2 cursor-pointer list-none select-none">
+                                <span className="block text-sm font-bold text-gray-700">Región Anatómica a Radiografiar</span>
+                                <span className="text-gray-400 hover:text-zinc-500 transition-colors" title="Más información">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                                </span>
+                            </summary>
+                            <div className="mt-2 mb-3 p-3 bg-slate-50 border border-slate-200 rounded-lg text-sm text-gray-600 shadow-inner leading-relaxed">
+                                {"Define la constante del equipo y los kVp/mAs base. Los tejidos blandos (tórax) requieren un alto kilovoltaje para penetración y escala de grises larga, mientras que las extremidades requieren foco fino y mayor contraste para trabécula ósea."}
+                            </div>
+                        </details>
                         <select value={region} onChange={(e) => setRegion(e.target.value)} className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-zinc-500 transition-all">
                             <option value="">Seleccionar...</option>
                             <option value="torax_pa">{"Tórax PA (Parrilla)"}</option>
@@ -68,7 +88,17 @@ export default function CalculadoraExposicionRayosxAvanzadaPage() {
 
                     <div className="mb-4">
 
-                        <label className="block text-sm font-bold text-gray-700 mb-1">Tamaño del Receptor / Chasis (pulgadas)</label>
+                        <details className="group mb-2">
+                            <summary className="flex items-center gap-2 cursor-pointer list-none select-none">
+                                <span className="block text-sm font-bold text-gray-700">Tamaño del Receptor / Chasis (pulgadas)</span>
+                                <span className="text-gray-400 hover:text-zinc-500 transition-colors" title="Más información">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                                </span>
+                            </summary>
+                            <div className="mt-2 mb-3 p-3 bg-slate-50 border border-slate-200 rounded-lg text-sm text-gray-600 shadow-inner leading-relaxed">
+                                {"El tamaño físico del campo iluminado (colimación) altera la eficiencia de salida. Colimar estrictamente un área muy pequeña corta radiación dispersa que ayudaría a 'ennegrecer' la placa periférica, requiriendo ligeros ajustes al alza de los valores respecto a chasis más grandes."}
+                            </div>
+                        </details>
                         <select value={tamanoChasis} onChange={(e) => setTamanoChasis(e.target.value)} className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-zinc-500 transition-all">
                             <option value="">Seleccionar...</option>
                             <option value="1">{"14 x 17 (35x43 cm) - Tórax/Abdomen Grande"}</option>
@@ -80,13 +110,33 @@ export default function CalculadoraExposicionRayosxAvanzadaPage() {
 
                     <div className="mb-4">
 
-                        <label className="block text-sm font-bold text-gray-700 mb-1">Grosor Anatómico Medido con Calibrador (cm)</label>
+                        <details className="group mb-2">
+                            <summary className="flex items-center gap-2 cursor-pointer list-none select-none">
+                                <span className="block text-sm font-bold text-gray-700">Grosor Anatómico Medido con Calibrador (cm)</span>
+                                <span className="text-gray-400 hover:text-zinc-500 transition-colors" title="Más información">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                                </span>
+                            </summary>
+                            <div className="mt-2 mb-3 p-3 bg-slate-50 border border-slate-200 rounded-lg text-sm text-gray-600 shadow-inner leading-relaxed">
+                                {"Es indispensable medir físicamente mediante calibrador (pelvímetro) la zona de incidencia en los puntos de contacto. La Regla del 2 de Radiología dicta que por cada centímetro de tejido del paciente, deben sumarse 2 kVp para garantizar constancia de penetración del haz primario de fotones."}
+                            </div>
+                        </details>
                         <input type="number" value={grosorPaciente} onChange={(e) => setGrosorPaciente(e.target.value)} placeholder="Ej: 22" className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-zinc-500 focus:ring-2 focus:ring-zinc-100 transition-all" />
                     </div>
 
                     <div className="mb-4">
 
-                        <label className="block text-sm font-bold text-gray-700 mb-1">Uso de Bucky / Parrilla Antidifusora</label>
+                        <details className="group mb-2">
+                            <summary className="flex items-center gap-2 cursor-pointer list-none select-none">
+                                <span className="block text-sm font-bold text-gray-700">Uso de Bucky / Parrilla Antidifusora</span>
+                                <span className="text-gray-400 hover:text-zinc-500 transition-colors" title="Más información">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                                </span>
+                            </summary>
+                            <div className="mt-2 mb-3 p-3 bg-slate-50 border border-slate-200 rounded-lg text-sm text-gray-600 shadow-inner leading-relaxed">
+                                {"Las láminas de plomo de la parrilla (grid) absorben la dañina radiación dispersa mejorando drásticamente el contraste diagnóstico, a expensas de requerir de 2 a 5 veces mayor cantidad de mAs original en el tubo (Ley Bucky) para compensar la dosis y mantener el EI."}
+                            </div>
+                        </details>
                         <select value={parrilla} onChange={(e) => setParrilla(e.target.value)} className="w-full border-2 border-gray-200 rounded-xl px-4 py-3 focus:border-zinc-500 transition-all">
                             <option value="">Seleccionar...</option>
                             <option value="0">{"Sin Parrilla (Extremidades)"}</option>
