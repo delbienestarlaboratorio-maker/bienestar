@@ -1,47 +1,51 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
-import { getToken } from 'next-auth/jwt';
+
+// Simple in-memory rate limiter (Fallback al WAF de Cloudflare)
+// Previene scraping masivo limitando peticiones por IP en un margen de tiempo
+const ipMap = new Map<string, { count: number, resetTime: number }>();
 
 export async function middleware(req: NextRequest) {
     const { pathname } = req.nextUrl;
 
-    // Obtener token de sesión usando JWT (compatible con Node.js runtime)
-    const token = await getToken({
-        req,
-        secret: process.env.NEXTAUTH_SECRET || 'your-secret-key-change-in-production'
-    });
+    // RATE LIMITING PARA EVITAR SCRAPING DE LA BASE DE DATOS MÉDICA
+    if (pathname.startsWith('/sintomas') || pathname.startsWith('/valores-clinicos') || pathname.startsWith('/enfermedades')) {
+        const ip = (req as any).ip || req.headers.get('x-forwarded-for') || req.headers.get('x-real-ip') || 'Unknown IP';
 
-    const isLoggedIn = !!token;
-    const userRole = token?.role as string | undefined;
+        if (ip !== 'Unknown IP') {
+            const now = Date.now();
+            let record = ipMap.get(ip);
 
-    // Rutas públicas
-    const isPublicRoute = ['/login', '/api/auth'].some(route => pathname.startsWith(route));
+            if (!record || now > record.resetTime) {
+                record = { count: 1, resetTime: now + 60000 }; // 60 segundos
+            } else {
+                record.count++;
+            }
+            ipMap.set(ip, record);
 
-    // Rutas admin que requieren autenticación
-    const isAdminRoute = pathname.startsWith('/admin');
+            // Hard limit: 60 requests per minute
+            if (record.count > 60) {
+                console.warn(`[RATE LIMIT BLOCKED] Malicious scraping detected from IP: ${ip} on path ${pathname}`);
+                return new NextResponse('Too Many Requests. Anti-Scraping protection active.', { status: 429 });
+            }
 
-    // Si no está logueado y trata de acceder a ruta admin, redirigir a login
-    if (isAdminRoute && !isLoggedIn) {
-        const loginUrl = new URL('/login', req.url);
-        loginUrl.searchParams.set('callbackUrl', pathname);
-        return NextResponse.redirect(loginUrl);
+            // Lazy cleanup para evitar fugas de memoria
+            if (Math.random() < 0.05) {
+                for (const [key, val] of ipMap.entries()) {
+                    if (now > val.resetTime) ipMap.delete(key);
+                }
+            }
+        }
     }
 
-    // Protección por roles
-    if (isLoggedIn && isAdminRoute) {
-        // Solo Super Admin puede acceder a gestión de usuarios
-        if (pathname.startsWith('/admin/users') && userRole !== 'super_admin') {
-            return NextResponse.redirect(new URL('/admin', req.url));
-        }
-
-        // Solo Super Admin y Admin pueden acceder a Settings
-        if (pathname.startsWith('/admin/settings') && !['super_admin', 'admin'].includes(userRole as string)) {
-            return NextResponse.redirect(new URL('/admin', req.url));
-        }
-
-        // Viewers no pueden editar nada, solo ver estudios
-        if (userRole === 'viewer' && !pathname.startsWith('/admin/studies')) {
-            return NextResponse.redirect(new URL('/admin/studies', req.url));
+    // Admin route protection via cookie check (Edge-compatible)
+    // Full auth validation happens at the page/API level
+    if (pathname.startsWith('/admin')) {
+        const sessionCookie = req.cookies.get('next-auth.session-token') || req.cookies.get('__Secure-next-auth.session-token');
+        if (!sessionCookie) {
+            const loginUrl = new URL('/login', req.url);
+            loginUrl.searchParams.set('callbackUrl', pathname);
+            return NextResponse.redirect(loginUrl);
         }
     }
 
@@ -49,5 +53,11 @@ export async function middleware(req: NextRequest) {
 }
 
 export const config = {
-    matcher: ['/admin/:path*', '/login'],
+    matcher: [
+        '/admin/:path*',
+        '/login',
+        '/sintomas/:path*',
+        '/enfermedades/:path*',
+        '/valores-clinicos/:path*'
+    ],
 };
