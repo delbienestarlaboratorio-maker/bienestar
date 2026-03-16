@@ -1,4 +1,13 @@
 ﻿name = "laboratorio-bienestar"
-compatibility_date = "2024-09-23"
+compatibility_date = "2025-01-01"
 compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = ".open-next/assets"
+
+# KV Namespace Bindings
+[[kv_namespaces]]
+binding = "SYMPTOMS_KV"
+id = "cfe822214b194fc99021e294f460babc"
+
+[[kv_namespaces]]
+binding = "DISEASES_KV"
+id = "08617170986e40c097e149eb8825ed0f"

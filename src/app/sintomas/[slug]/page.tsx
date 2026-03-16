@@ -1,42 +1,27 @@
 import React from 'react';
 import Link from 'next/link';
-import { ChevronRight, AlertTriangle, Stethoscope, ArrowRight, TestTube, Hospital } from 'lucide-react';
+import { ChevronRight, AlertTriangle, Stethoscope, ArrowRight, TestTube, Hospital, Award } from 'lucide-react';
 import { AdBanner } from '@/components/ui/AdBanner';
+import { GoogleAd } from '@/components/ui/GoogleAd';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import fs from 'fs';
-import path from 'path';
 import rawManifest from '@/data/symptoms.json';
+import specialistsData from '@/data/specialists.json';
+import { FeaturedSpecialistCard } from '@/components/ui/FeaturedSpecialistCard';
+import { loadSymptomData } from '@/lib/data-loader';
 
 // Slim manifest — slug list only (statically imported, fast)
 const manifest: any[] = Array.isArray(rawManifest) ? rawManifest : [];
 
-// Load full clinical data from per-symptom fragment file at render time
-function loadSymptomData(slug: string): any | null {
-    // Try multiple path candidates — Next.js SSG workers may use different CWDs
-    const candidates = [
-        path.join(process.cwd(), 'src', 'data', 'symptoms-fragments', `${slug}.json`),
-        path.join(process.cwd(), '..', 'src', 'data', 'symptoms-fragments', `${slug}.json`),
-        path.resolve(__dirname, '..', '..', '..', '..', 'src', 'data', 'symptoms-fragments', `${slug}.json`),
-        path.resolve('D:\\Paginas_web\\pagina\\laboratorio-bienestar\\src\\data\\symptoms-fragments', `${slug}.json`),
-    ];
-    for (const fragmentPath of candidates) {
-        try {
-            if (fs.existsSync(fragmentPath)) {
-                return JSON.parse(fs.readFileSync(fragmentPath, 'utf8'));
-            }
-        } catch { /* try next */ }
-    }
-    return null;
-}
+// ============================================================================
+// SSG - empty for Cloudflare Workers (SSR on-demand), populated for local build
+// ============================================================================
+export const dynamicParams = true;
 
-// ============================================================================
-// SSG - generate static params from the slim manifest
-// ============================================================================
 export async function generateStaticParams() {
-    return manifest.map((symptom) => ({
-        slug: symptom.slug,
-    }));
+    // On Cloudflare Workers: no pre-rendering, all pages are SSR on-demand
+    // On local: also SSR on-demand (too many pages for SSG)
+    return [];
 }
 
 // ============================================================================
@@ -44,7 +29,7 @@ export async function generateStaticParams() {
 // ============================================================================
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
     const resolvedParams = await params;
-    const symptom = loadSymptomData(resolvedParams.slug);
+    const symptom = await loadSymptomData(resolvedParams.slug);
     if (!symptom) {
         const fallback = manifest.find(s => s.slug === resolvedParams.slug);
         return { title: fallback ? `${fallback.name} - Guía Médica` : 'Síntoma no encontrado' };
@@ -62,11 +47,19 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function SymptomDynamicPage({ params }: { params: Promise<{ slug: string }> }) {
     const resolvedParams = await params;
-    const symptom = loadSymptomData(resolvedParams.slug);
+    const symptom = await loadSymptomData(resolvedParams.slug);
 
     if (!symptom) {
         notFound();
     }
+
+    // MATCHING ALGORITHM: Filter specialists that target this specific symptom slug
+    const matchingSpecialists = specialistsData.filter((spec: any) =>
+        spec.targetSymptoms.includes(resolvedParams.slug)
+    );
+
+    // Pick the highest tiered specialist (or first match) for primary display
+    const featuredSpecialist = matchingSpecialists.length > 0 ? matchingSpecialists[0] : null;
 
     return (
         <main className="min-h-screen bg-gray-50 pb-20">
@@ -109,6 +102,9 @@ export default async function SymptomDynamicPage({ params }: { params: Promise<{
                             <AdBanner variant="horizontal" />
                         </div>
 
+                        {/* Google AdSense — In-Article Ad */}
+                        <GoogleAd slot="1234567890" format="fluid" layout="in-article" />
+
                         {/* Principales Causas - Listado Médico Riguroso */}
                         <section className="mb-12">
                             <div className="flex items-center gap-3 mb-6">
@@ -118,8 +114,8 @@ export default async function SymptomDynamicPage({ params }: { params: Promise<{
                             <div className="space-y-6">
                                 {symptom.causes.map((cause: any, idx: number) => (
                                     <div key={idx} className="bg-blue-50/50 rounded-2xl p-6 border border-blue-100/50 hover:bg-blue-50 transition-colors">
-                                        <h3 className="text-xl font-bold text-blue-900 mb-2">{idx + 1}. {cause.name}</h3>
-                                        <p className="text-gray-700 leading-relaxed">{cause.desc}</p>
+                                        <h3 className="text-xl font-bold text-blue-900 mb-2">{idx + 1}. {cause.name || "Causa Fisiológica Primaria"}</h3>
+                                        <p className="text-gray-700 leading-relaxed">{cause.desc || cause}</p>
                                     </div>
                                 ))}
                             </div>
@@ -145,6 +141,24 @@ export default async function SymptomDynamicPage({ params }: { params: Promise<{
                                         ))}
                                     </ul>
                                 </div>
+                            </section>
+                        )}
+
+                        {/* ELITE SPECIALIST DIRECTORY INJECTION */}
+                        {featuredSpecialist && (
+                            <section className="mb-12 mt-8 pt-8 border-t-2 border-dashed border-gray-200">
+                                <div className="flex items-center gap-3 mb-8">
+                                    <div className="bg-blue-100 text-blue-800 p-2 rounded-xl">
+                                        <Award className="w-6 h-6" />
+                                    </div>
+                                    <h2 className="text-2xl font-bold text-gray-900">
+                                        ¿Necesitas atención médica para este síntoma?
+                                    </h2>
+                                </div>
+                                <p className="text-gray-600 mb-6 font-medium">
+                                    Hemos verificado a los mejores médicos para tratar el caso clínico: <span className="font-bold">{symptom.name}</span>. Contacta directamente sin comisiones.
+                                </p>
+                                <FeaturedSpecialistCard specialist={featuredSpecialist} />
                             </section>
                         )}
 
@@ -178,7 +192,7 @@ export default async function SymptomDynamicPage({ params }: { params: Promise<{
                                         </ul>
                                     </div>
                                     <div className="w-full md:w-auto shrink-0 flex flex-col items-center">
-                                        <a href="https://wa.me/527716854026?text=Hola,%20buscaba%20cotizar%20estudios%20clínicos" target="_blank" rel="noopener noreferrer" className="bg-green-500 hover:bg-green-400 text-white font-bold text-xl py-5 px-10 rounded-2xl shadow-lg hover:shadow-green-500/30 transition-all flex items-center gap-3">
+                                        <a href={`https://wa.me/527716854026?text=${encodeURIComponent(`Hola, tengo ${symptom.name.toLowerCase()} y quisiera cotizar los estudios recomendados`)}`} target="_blank" rel="noopener noreferrer" className="bg-green-500 hover:bg-green-400 text-white font-bold text-xl py-5 px-10 rounded-2xl shadow-lg hover:shadow-green-500/30 transition-all flex items-center gap-3">
                                             Cotizar de Inmediato <ArrowRight className="w-6 h-6" />
                                         </a>
                                         <p className="text-blue-200 text-sm mt-4 text-center">Respuesta en 2 minutos (WhatsApp)</p>
@@ -205,6 +219,11 @@ export default async function SymptomDynamicPage({ params }: { params: Promise<{
                         )}
 
                     </div>
+                </div>
+
+                {/* Google AdSense — After Content Ad */}
+                <div className="max-w-4xl mx-auto px-4">
+                    <GoogleAd slot="0987654321" format="auto" />
                 </div>
 
                 {/* Medical Disclaimer */}
