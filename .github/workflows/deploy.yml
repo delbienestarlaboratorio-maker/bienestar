@@ -33,10 +33,18 @@ jobs:
           npx opennextjs-cloudflare --version || true
 
       - name: Build Next.js app
-        run: npx next build
+        id: build_next
+        run: npx next build > next-build.log 2>&1
         env:
           NODE_OPTIONS: '--max-old-space-size=4096'
           NEXT_PRIVATE_STANDALONE: 'true'
+
+      - name: Upload Build Log
+        if: failure() && steps.build_next.outcome == 'failure'
+        uses: actions/upload-artifact@v4
+        with:
+          name: next-build-log
+          path: next-build.log
 
       - name: Bundle with OpenNext
         run: npx opennextjs-cloudflare build --skipBuild --skipWranglerConfigCheck
