@@ -64,26 +64,26 @@ export default function PrecioPage() {
           <section className="bg-white rounded-2xl shadow-sm p-6">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">¿Cuándo necesito Índice Tobillo-Brazo (ITB / Doppler Arterial)?</h2>
             <ul className="space-y-3">
-                <li className="flex items-start gap-2 text-gray-700">
-                  <span className="text-green-600 mt-1 text-lg">✓</span>
-                  <span>Dolor en piernas al caminar (claudicación)</span>
-                </li>
-                <li className="flex items-start gap-2 text-gray-700">
-                  <span className="text-green-600 mt-1 text-lg">✓</span>
-                  <span>Heridas en pies que no cicatrizan</span>
-                </li>
-                <li className="flex items-start gap-2 text-gray-700">
-                  <span className="text-green-600 mt-1 text-lg">✓</span>
-                  <span>Diabetes >10 años de evolución</span>
-                </li>
-                <li className="flex items-start gap-2 text-gray-700">
-                  <span className="text-green-600 mt-1 text-lg">✓</span>
-                  <span>Riesgo cardiovascular alto</span>
-                </li>
-                <li className="flex items-start gap-2 text-gray-700">
-                  <span className="text-green-600 mt-1 text-lg">✓</span>
-                  <span>Sospecha de enfermedad arterial periférica</span>
-                </li>
+              <li className="flex items-start gap-2 text-gray-700">
+                <span className="text-green-600 mt-1 text-lg">✓</span>
+                <span>Dolor en piernas al caminar (claudicación)</span>
+              </li>
+              <li className="flex items-start gap-2 text-gray-700">
+                <span className="text-green-600 mt-1 text-lg">✓</span>
+                <span>Heridas en pies que no cicatrizan</span>
+              </li>
+              <li className="flex items-start gap-2 text-gray-700">
+                <span className="text-green-600 mt-1 text-lg">✓</span>
+                <span>Diabetes &gt;10 años de evolución</span>
+              </li>
+              <li className="flex items-start gap-2 text-gray-700">
+                <span className="text-green-600 mt-1 text-lg">✓</span>
+                <span>Riesgo cardiovascular alto</span>
+              </li>
+              <li className="flex items-start gap-2 text-gray-700">
+                <span className="text-green-600 mt-1 text-lg">✓</span>
+                <span>Sospecha de enfermedad arterial periférica</span>
+              </li>
             </ul>
           </section>
 

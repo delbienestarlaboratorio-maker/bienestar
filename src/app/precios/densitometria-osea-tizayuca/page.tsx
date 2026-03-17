@@ -33,7 +33,7 @@ export default function PrecioPage() {
           </h1>
 
           <p className="text-green-100 text-lg max-w-2xl mb-8">
-            Medición de la densidad mineral ósea mediante rayos X de baja dosis en columna lumbar y cadera. El resultado T-score clasifica: normal (>-1), osteopenia (-1 a -2.5) y osteoporosis (<-2.5). Guía el tratamiento preventivo.
+            Medición de la densidad mineral ósea mediante rayos X de baja dosis en columna lumbar y cadera. El resultado T-score clasifica: normal (&gt;-1), osteopenia (-1 a -2.5) y osteoporosis (&lt;-2.5). Guía el tratamiento preventivo.
           </p>
 
           <div className="flex flex-wrap gap-4">
@@ -64,26 +64,26 @@ export default function PrecioPage() {
           <section className="bg-white rounded-2xl shadow-sm p-6">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">¿Cuándo necesito Densitometría Ósea (DXA Columna y Cadera)?</h2>
             <ul className="space-y-3">
-                <li className="flex items-start gap-2 text-gray-700">
-                  <span className="text-green-600 mt-1 text-lg">✓</span>
-                  <span>Menopausia (>50 años)</span>
-                </li>
-                <li className="flex items-start gap-2 text-gray-700">
-                  <span className="text-green-600 mt-1 text-lg">✓</span>
-                  <span>Tratamiento prolongado con corticosteroides</span>
-                </li>
-                <li className="flex items-start gap-2 text-gray-700">
-                  <span className="text-green-600 mt-1 text-lg">✓</span>
-                  <span>Hipogonadismo</span>
-                </li>
-                <li className="flex items-start gap-2 text-gray-700">
-                  <span className="text-green-600 mt-1 text-lg">✓</span>
-                  <span>Fracturas por traumatismo mínimo</span>
-                </li>
-                <li className="flex items-start gap-2 text-gray-700">
-                  <span className="text-green-600 mt-1 text-lg">✓</span>
-                  <span>Control de tratamiento para osteoporosis</span>
-                </li>
+              <li className="flex items-start gap-2 text-gray-700">
+                <span className="text-green-600 mt-1 text-lg">✓</span>
+                <span>Menopausia (&gt;50 años)</span>
+              </li>
+              <li className="flex items-start gap-2 text-gray-700">
+                <span className="text-green-600 mt-1 text-lg">✓</span>
+                <span>Tratamiento prolongado con corticosteroides</span>
+              </li>
+              <li className="flex items-start gap-2 text-gray-700">
+                <span className="text-green-600 mt-1 text-lg">✓</span>
+                <span>Hipogonadismo</span>
+              </li>
+              <li className="flex items-start gap-2 text-gray-700">
+                <span className="text-green-600 mt-1 text-lg">✓</span>
+                <span>Fracturas por traumatismo mínimo</span>
+              </li>
+              <li className="flex items-start gap-2 text-gray-700">
+                <span className="text-green-600 mt-1 text-lg">✓</span>
+                <span>Control de tratamiento para osteoporosis</span>
+              </li>
             </ul>
           </section>
 
