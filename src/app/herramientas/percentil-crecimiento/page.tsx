@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 // Simplified WHO growth data (50th percentile weight in kg for ages 0-18)
 const pesoP50H = [3.3, 9.6, 12.2, 14.3, 16.3, 18.3, 20.5, 22.9, 25.4, 28.1, 31.2, 35.6, 39.9, 45.3, 50.8, 56.0, 60.8, 64.4, 67.3];
@@ -80,6 +81,8 @@ export default function PercentilCrecimientoPage() {
                     link={`/paquetes`} 
                     type="checkup" 
                 />
+                
+                <RelatedTools currentPath="/herramientas/percentil-crecimiento" className="mb-8" />
                 <AdBanner variant="compact" className="mb-8" /></div>
     </main>);
 }

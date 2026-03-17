@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function ScoreMeldNaPage() {
     const [bilirrubina, setBilirrubina] = useState<string>('');
@@ -107,6 +108,8 @@ export default function ScoreMeldNaPage() {
                     </div>
                 </div>
 
+                
+                <RelatedTools currentPath="/herramientas/score-meld-na" className="mb-8" />
                 <AdBanner variant="compact" className="mb-8" />
             </div>
         </main>

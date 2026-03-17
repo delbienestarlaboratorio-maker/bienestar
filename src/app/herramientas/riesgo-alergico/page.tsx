@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function RiesgoAlergicoPage() {
     const [c1, setC1] = useState(false);
@@ -92,6 +93,8 @@ export default function RiesgoAlergicoPage() {
    </div>
 </section>
 <AdBanner variant="horizontal" className="mb-8" />
+            
+                <RelatedTools currentPath="/herramientas/riesgo-alergico" className="mb-8" />
             </div>
         </main>
     );

@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function ViralToolPage() {
     const questions = ["¿Sientes 'tronidos' o arenilla al doblar y estirar la rodilla, acompañados de dolor punzante?","¿Te duele mucho más al bajar escaleras o al correr sobre pavimento duro?","¿Sientes tu rodilla visiblemente más gorda (hinchada) y caliente al tacto tras un largo paseo?","¿Tienes obesidad, sobrepeso cruzado o has cargado mucho peso industrial por años?","¿Tus zapatos se desgastan muy asimétricos (mucho de un lado y nada del otro)?"];
@@ -100,6 +101,8 @@ export default function ViralToolPage() {
                         link={"https://wa.me/527757371811?text=Hola,%20me%20duelen%20las%20articulaciones,%20quisiera%20cotizar%20%C3%81cido%20%C3%9Arico%20y%20Factor%20Reumatoide"}
                     />
                 </div>
+            
+                <RelatedTools currentPath="/herramientas/calculadora-tipo-pisada" className="mb-8" />
             </div>
         </main>
     );

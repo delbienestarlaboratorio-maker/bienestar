@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function ClasificacionCushingPage() {
     const [obesidadCentral, setObesidadCentral] = useState<boolean>(false);
@@ -113,6 +114,8 @@ export default function ClasificacionCushingPage() {
                     </div>
                 </div>
 
+                
+                <RelatedTools currentPath="/herramientas/clasificacion-cushing" className="mb-8" />
                 <AdBanner variant="compact" className="mb-8" />
             </div>
         </main>

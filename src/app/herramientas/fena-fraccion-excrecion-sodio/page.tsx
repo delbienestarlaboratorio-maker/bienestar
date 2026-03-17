@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function FenaFraccionExcrecionSodioPage() {
     const [naSerico, setNaSerico] = useState<string>('');
@@ -113,6 +114,8 @@ export default function FenaFraccionExcrecionSodioPage() {
                     </div>
                 </div>
 
+                
+                <RelatedTools currentPath="/herramientas/fena-fraccion-excrecion-sodio" className="mb-8" />
                 <AdBanner variant="compact" className="mb-8" />
             </div>
         </main>

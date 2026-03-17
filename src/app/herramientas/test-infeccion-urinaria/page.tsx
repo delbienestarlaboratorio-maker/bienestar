@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function TestITUPage() {
     const [symptoms, setSymptoms] = useState<Record<string, boolean>>({});
@@ -122,6 +123,8 @@ export default function TestITUPage() {
    </div>
 </section>
 <AdBanner variant="horizontal" className="mb-8" />
+            
+                <RelatedTools currentPath="/herramientas/test-infeccion-urinaria" className="mb-8" />
             </div>
         </main>
     );

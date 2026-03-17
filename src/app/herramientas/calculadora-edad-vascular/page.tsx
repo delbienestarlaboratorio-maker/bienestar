@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function EdadVascularPage() {
     const [edad, setEdad] = useState('45');
@@ -207,6 +208,8 @@ export default function EdadVascularPage() {
                     link="https://wa.me/527716854026?text=Hola,%20quisiera%20saber%20qué%20precio%20tiene%20el%20Perfil%20de%20Lípidos%20(Colesterol)%20y%20el%20Química%20Sanguínea."
                     type="checkup"
                 />
+            
+                <RelatedTools currentPath="/herramientas/calculadora-edad-vascular" className="mb-8" />
             </div>
         </main>
     );

@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function FrecuenciaCardiacaObjetivoPage() {
     const [edad, setEdad] = useState<string>('');
@@ -100,6 +101,8 @@ export default function FrecuenciaCardiacaObjetivoPage() {
                     </div>
                 </div>
 
+                
+                <RelatedTools currentPath="/herramientas/frecuencia-cardiaca-objetivo" className="mb-8" />
                 <AdBanner variant="compact" className="mb-8" />
             </div>
         </main>

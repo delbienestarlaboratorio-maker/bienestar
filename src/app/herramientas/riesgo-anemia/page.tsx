@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 const preguntas = [
     { id: 'fatiga', text: '¿Se siente cansado/a o con poca energía constantemente?', peso: 2 },
@@ -69,6 +70,8 @@ export default function RiesgoAnemiaPage() {
                     link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Cotizar%20Citometr%C3%ADa%20Hem%C3%A1tica%20(Biometr%C3%ADa)*`} 
                     type="estudio" 
                 />
+                
+                <RelatedTools currentPath="/herramientas/riesgo-anemia" className="mb-8" />
                 <AdBanner variant="compact" className="mb-8" /></div>
     </main>);
 }

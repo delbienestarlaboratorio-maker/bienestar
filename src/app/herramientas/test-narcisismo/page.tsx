@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function ViralToolPage() {
     const questions = ["¿Sientes que mereces un trato especial o privilegios sobre los demás debido a tus talentos?","¿Te frustras muchísimo o te enojas si alguien no reconoce tus logros de inmediato?","¿Sueles dominar las conversaciones hablando de ti mismo y tus éxitos la mayor parte del tiempo?","¿Se te dificulta genuinamente ponerte en los zapatos de los demás o sentir su dolor (empatía)?","¿Crees en el fondo que eres superior o más brillante que la mayoría de tu círculo social?"];
@@ -82,6 +83,8 @@ export default function ViralToolPage() {
                     type="estudio"
                     link={"https://wa.me/527757371811?text=Hola,%20me%20interesa%20saber%20mi%20estado%20hormonal"}
                 />
+            
+                <RelatedTools currentPath="/herramientas/test-narcisismo" className="mb-8" />
             </div>
         </main>
     );

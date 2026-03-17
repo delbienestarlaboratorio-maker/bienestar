@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function ViralToolPage() {
     const questions = ["¿Has bebido más de 3 tazas de café, o algún refresco de cola grande, o una lata de bebida energizante hoy?","¿Sientes ligeros temblores en las manos o palpitaciones que parecen bofetadas suaves en tu pecho?","¿Tu nivel de ansiedad subió y tienes ganas imperiosas de ir al baño muy seguido a orinar?","¿Sientes sudoración fría, un nudo en el estómago tipo gastritis severa?","¿Te cuesta muchísimo mantener un pensamiento constante, porque hablas súper rápido o acelerado?"];
@@ -115,6 +116,8 @@ export default function ViralToolPage() {
                         link={"https://wa.me/527757371811?text=Hola,%20me%20interesa%20Biometria,%20Hierro%20y%20Chequeo%20Cardiomotor"}
                     />
                 </div>
+            
+                <RelatedTools currentPath="/herramientas/test-cafeina-corazon" className="mb-8" />
             </div>
         </main>
     );

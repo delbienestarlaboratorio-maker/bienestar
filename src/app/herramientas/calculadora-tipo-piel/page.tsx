@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function ViralToolPage() {
     const questions = ["Al despertar y tocar tu frente/nariz, ¿sientes una capa de grasa o brillo visible?","¿Al salir de bañarte (sin ponerte crema) sientes la piel estirada, seca o que te pica?","¿Te suelen salir granitos (acné) frecuentemente alrededor de la mandíbula o en el periodo menstrual?","¿Notas manchas oscuras nuevas o enrojecimiento fácil con el sol (rosácea)?","¿Tienes los poros de las mejillas o la nariz visiblemente grandes o abiertos?"];
@@ -99,6 +100,8 @@ export default function ViralToolPage() {
                     type="estudio"
                     link={"https://wa.me/527757371811?text=Hola,%20quisiera%20cotizar%20un%20Perfil%20Ginecol%C3%B3gico%20Hormonal"}
                 />
+            
+                <RelatedTools currentPath="/herramientas/calculadora-tipo-piel" className="mb-8" />
             </div>
         </main>
     );

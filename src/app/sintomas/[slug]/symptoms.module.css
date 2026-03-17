@@ -1,0 +1,39 @@
+.introSection {
+  @apply text-gray-700 leading-relaxed mb-10;
+}
+
+.introText {
+  @apply first-letter:text-5xl first-letter:font-bold first-letter:text-blue-900 first-letter:float-left first-letter:mr-3;
+}
+
+.causesTitle {
+  @apply text-3xl font-bold text-gray-900;
+}
+
+.causesList {
+  @apply space-y-6;
+}
+
+.causeCard {
+  @apply bg-blue-50/50 rounded-2xl p-6 border border-blue-100/50 hover:bg-blue-50 transition-colors;
+}
+
+.causeHeader {
+  @apply text-xl font-bold text-blue-900 mb-2;
+}
+
+.redFlagsContainer {
+  @apply bg-rose-50 border-2 border-rose-200 rounded-3xl p-8 shadow-inner;
+}
+
+.redFlagsTitle {
+  @apply text-2xl font-bold text-rose-900;
+}
+
+.redFlagItem {
+  @apply flex items-start gap-3;
+}
+
+.redFlagText {
+  @apply text-rose-900 leading-relaxed font-semibold;
+}

@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function ScoreHasBledPage() {
     const [hypertension, setHypertension] = useState<boolean>(false);
@@ -119,6 +120,8 @@ export default function ScoreHasBledPage() {
                     </div>
                 </div>
 
+                
+                <RelatedTools currentPath="/herramientas/score-has-bled" className="mb-8" />
                 <AdBanner variant="compact" className="mb-8" />
             </div>
         </main>

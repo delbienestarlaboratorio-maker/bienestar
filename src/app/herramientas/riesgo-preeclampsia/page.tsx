@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function RiesgoPreeclampsiaPage() {
     const [mayores, setMayores] = useState<string[]>([]);
@@ -126,6 +127,8 @@ export default function RiesgoPreeclampsiaPage() {
    </div>
 </section>
 <AdBanner variant="horizontal" className="mb-8" />
+            
+                <RelatedTools currentPath="/herramientas/riesgo-preeclampsia" className="mb-8" />
             </div>
         </main>
     );

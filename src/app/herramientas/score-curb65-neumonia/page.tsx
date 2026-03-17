@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function ScoreCurb65NeumoniaPage() {
     const [c, setC] = useState<boolean>(false);
@@ -112,6 +113,8 @@ export default function ScoreCurb65NeumoniaPage() {
                     </div>
                 </div>
 
+                
+                <RelatedTools currentPath="/herramientas/score-curb65-neumonia" className="mb-8" />
                 <AdBanner variant="compact" className="mb-8" />
             </div>
         </main>

@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function IndiceAterogenicoPage() {
     const [colTotal, setColTotal] = useState('');
@@ -118,6 +119,8 @@ export default function IndiceAterogenicoPage() {
    </div>
 </section>
 <AdBanner variant="horizontal" className="mb-8" />
+            
+                <RelatedTools currentPath="/herramientas/indice-aterogenico" className="mb-8" />
             </div>
         </main>
     );

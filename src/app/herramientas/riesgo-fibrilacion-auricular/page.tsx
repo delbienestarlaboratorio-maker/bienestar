@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function RiesgoFibrilacionAuricularPage() {
     const [edad, setEdad] = useState<string>('');
@@ -118,6 +119,8 @@ export default function RiesgoFibrilacionAuricularPage() {
                     </div>
                 </div>
 
+                
+                <RelatedTools currentPath="/herramientas/riesgo-fibrilacion-auricular" className="mb-8" />
                 <AdBanner variant="compact" className="mb-8" />
             </div>
         </main>

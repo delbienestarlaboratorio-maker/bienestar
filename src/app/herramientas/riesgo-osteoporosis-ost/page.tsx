@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function CalculadoraOSTPage() {
     const [peso, setPeso] = useState('');
@@ -115,6 +116,8 @@ export default function CalculadoraOSTPage() {
    </div>
 </section>
 <AdBanner variant="horizontal" className="mb-8" />
+            
+                <RelatedTools currentPath="/herramientas/riesgo-osteoporosis-ost" className="mb-8" />
             </div>
         </main>
     );

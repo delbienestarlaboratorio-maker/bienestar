@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 export default function SodioCorregidoPage() {
     const [sodio, setSodio] = useState(''); const [glucosa, setGlucosa] = useState(''); const [resultado, setResultado] = useState<number | null>(null); const [showInfo, setShowInfo] = useState(false);
     const calcular = () => { const s = parseFloat(sodio); const g = parseFloat(glucosa); if (s > 0 && g > 0) { setResultado(parseFloat((s + 0.016 * (g - 100)).toFixed(1))); } };
@@ -56,5 +57,7 @@ export default function SodioCorregidoPage() {
                     link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Electrolitos%20S%C3%A9ricos%206%20e.*`} 
                     type="estudio" 
                 />
+                
+                <RelatedTools currentPath="/herramientas/sodio-corregido" className="mb-8" />
                 <AdBanner variant="compact" className="mb-8" /></div></main>);
 }

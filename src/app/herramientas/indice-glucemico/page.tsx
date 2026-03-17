@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function IndiceGlucemicoPage() {
     const [busqueda, setBusqueda] = useState('');
@@ -96,6 +97,8 @@ export default function IndiceGlucemicoPage() {
    </div>
 </section>
 <AdBanner variant="horizontal" className="mb-8" />
+            
+                <RelatedTools currentPath="/herramientas/indice-glucemico" className="mb-8" />
             </div>
         </main>
     );

@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function ViralToolPage() {
     const questions = ["¿Tu objetivo principal es oxidar la grasa abdominal que no logras bajar con ejercicio normal?","¿Te sientes con más energía mental cuando no has desayunado nada pesado?","¿Padeces de inflamación estomacal severa o gastritis por las tardes?","¿Tienes resistencia a la insulina diagnosticada o pre-diabetes?","¿Te es fácil saltarte el desayuno y comer tu primera comida a la 1:00 PM?"];
@@ -105,6 +106,8 @@ export default function ViralToolPage() {
                         link={"https://wa.me/527757371811?text=Hola,%20quisiera%20cotizar%20un%20Perfil%20Metab%C3%B3lico%20Integral"}
                     />
                 </div>
+            
+                <RelatedTools currentPath="/herramientas/calculadora-ayuno-intermitente" className="mb-8" />
             </div>
         </main>
     );

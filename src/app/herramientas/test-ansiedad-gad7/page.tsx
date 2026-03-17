@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 const preguntas = [
     'Se ha sentido nervioso/a, ansioso/a o con los nervios de punta',
@@ -75,6 +76,8 @@ export default function TestAnsiedadGAD7Page() {
                     link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Verificar%20Test%20de%20Vitaminas*`} 
                     type="estudio" 
                 />
+                
+                <RelatedTools currentPath="/herramientas/test-ansiedad-gad7" className="mb-8" />
                 <AdBanner variant="compact" className="mb-8" /></div>
     </main>);
 }

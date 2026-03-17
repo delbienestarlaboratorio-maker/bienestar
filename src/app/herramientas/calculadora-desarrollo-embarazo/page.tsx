@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function ViralToolPage() {
     const questions = ["¿Ya tuviste al menos 1 nausea matutina fuerte esta semana?","¿Tienes sensibilidad extrema o crecimiento de los senos reciente?","¿Ya lograste escuchar o ver latir el micro corazón en ultrasonido?","¿Sientes una enorme urgencia de ir a orinar cada 2 horas porque te presiona la vejiga?","¿Has sentido alguna especie de burbuja rápida o 'mariposas' dentro de tu ombligo?"];
@@ -100,6 +101,8 @@ export default function ViralToolPage() {
                         link={"https://wa.me/527757371811?text=Hola,%20me%20gustar%C3%ADa%20cotizar%20un%20perfil%20prenatal"}
                     />
                 </div>
+            
+                <RelatedTools currentPath="/herramientas/calculadora-desarrollo-embarazo" className="mb-8" />
             </div>
         </main>
     );

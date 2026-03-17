@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function IndiceCinturaCaderaPage() {
     const [sexo, setSexo] = useState<'hombre' | 'mujer'>('hombre'); const [cintura, setCintura] = useState(''); const [cadera, setCadera] = useState('');
@@ -58,6 +59,8 @@ export default function IndiceCinturaCaderaPage() {
                     link={`/paquetes`} 
                     type="checkup" 
                 />
+                
+                <RelatedTools currentPath="/herramientas/indice-cintura-cadera" className="mb-8" />
                 <AdBanner variant="compact" className="mb-8" /></div>
     </main>);
 }

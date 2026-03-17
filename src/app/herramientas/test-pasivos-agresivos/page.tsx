@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function ViralToolPage() {
     const questions = ["¿Sueles responder 'No tengo nada' o 'Haz lo que quieras', pero en realidad estás furioso esperando que la otra persona adivine?","¿Aplicas 'la ley del hielo' (ignorándolos por WhatsApp o en la casa) para castigar emocionalmente a quien te ofendió?","¿A menudo dices 'Te ves muy bien hoy, para lo que suele ser normal en ti' (cumplidos que disfrazan una crítica aguda)?","¿Te 'olvidas' casualmente de compromisos con personas que te caen mal de forma secreta?","¿Subes constantemente frases irónicas o canciones a tus historias de Instagram para aventar indirectas que alguien específico va a leer?"];
@@ -88,6 +89,8 @@ export default function ViralToolPage() {
                         link={"https://wa.me/527757371811?text=Hola,%20cotizame%20porfa%20hormonas%20tiroideas%20y%20exámenes%20bioqu%C3%ADmicos"}
                     />
                 </div>
+            
+                <RelatedTools currentPath="/herramientas/test-pasivos-agresivos" className="mb-8" />
             </div>
         </main>
     );

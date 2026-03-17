@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function SospechaAutoinmunePage() {
     const [c1, setC1] = useState(false);
@@ -99,6 +100,8 @@ export default function SospechaAutoinmunePage() {
    </div>
 </section>
 <AdBanner variant="horizontal" /></div>
+            
+                <RelatedTools currentPath="/herramientas/sospecha-autoinmune" className="mb-8" />
             </div>
         </main>
     );

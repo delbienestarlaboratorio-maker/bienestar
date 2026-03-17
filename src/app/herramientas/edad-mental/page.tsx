@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function ViralToolPage() {
     const questions = ["¿Prefieres quedarte en casa un fin de semana en lugar de salir a una fiesta ruidosa?","¿Te preocupas excesivamente por el futuro laboral, financiero o de salud?","¿Te cuesta entender o adaptarte a las nuevas tendencias de redes sociales (TikTok, Slang)?","¿Sientes dolores articulares o fatiga cuando antes aguantabas mucha más actividad?","¿Pierdes la paciencia rápidamente con las actitudes inmaduras de las generaciones menores?"];
@@ -94,6 +95,8 @@ export default function ViralToolPage() {
                     type="estudio"
                     link={"https://wa.me/527757371811?text=Hola,%20busco%20cotizar%20un%20estudio%20de%20fatiga/vitaminas"}
                 />
+            
+                <RelatedTools currentPath="/herramientas/edad-mental" className="mb-8" />
             </div>
         </main>
     );

@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function DepuracionCreatininaCockcroftPage() {
     const [sexo, setSexo] = useState<string>('');
@@ -111,6 +112,8 @@ export default function DepuracionCreatininaCockcroftPage() {
                     </div>
                 </div>
 
+                
+                <RelatedTools currentPath="/herramientas/depuracion-creatinina-cockcroft" className="mb-8" />
                 <AdBanner variant="compact" className="mb-8" />
             </div>
         </main>

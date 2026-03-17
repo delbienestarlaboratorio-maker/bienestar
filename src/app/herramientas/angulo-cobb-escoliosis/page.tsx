@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function AnguloCobbEscoliosisPage() {
     const [cobb, setCobb] = useState<string>('');
@@ -83,6 +84,8 @@ export default function AnguloCobbEscoliosisPage() {
                     </div>
                 </div>
 
+                
+                <RelatedTools currentPath="/herramientas/angulo-cobb-escoliosis" className="mb-8" />
                 <AdBanner variant="compact" className="mb-8" />
             </div>
         </main>

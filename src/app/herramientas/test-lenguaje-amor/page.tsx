@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function ViralToolPage() {
     const questions = ["¿Te hace más feliz que tu pareja te abrace de la nada que recibir un regalo de cumpleaños?","¿Consideras que es una gran muestra de amor que alguien te cocine tu comida favorita o te lave el auto?","¿Prefieres pasar 2 horas platicando a solas que ir al cine espectacular pero sin hablar?","¿Un mensaje de texto sorpresivo diciendo 'Estoy orgulloso de ti' puede mejorarte toda la semana?","¿Guardas todos los regalitos (incluso boletos de cine o notas) porque el valor simbólico te fascina?"];
@@ -103,6 +104,8 @@ export default function ViralToolPage() {
                     type="estudio"
                     link={"https://wa.me/527757371811?text=Hola,%20me%20interesa%20un%20chequeo%20nupcial%20o%20de%20ETS%20para%20m%C3%AD%20y%20mi%20pareja"}
                 />
+            
+                <RelatedTools currentPath="/herramientas/test-lenguaje-amor" className="mb-8" />
             </div>
         </main>
     );

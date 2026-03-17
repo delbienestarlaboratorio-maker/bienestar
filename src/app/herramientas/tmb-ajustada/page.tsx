@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function CalculadoraTMBPage() {
     const [genero, setGenero] = useState<'masculino' | 'femenino'>('femenino');
@@ -311,6 +312,8 @@ export default function CalculadoraTMBPage() {
                     link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Consulta%20Nutricional%20y%20Panel*`} 
                     type="doctor" 
                 />
+                
+                <RelatedTools currentPath="/herramientas/tmb-ajustada" className="mb-8" />
                 <AdBanner variant="compact" className="mb-8" />
             </div>
         </main>

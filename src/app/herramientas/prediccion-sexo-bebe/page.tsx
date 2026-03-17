@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function PrediccionSexoBebePage() {
     const [ciclo, setCiclo] = useState('28');
@@ -173,6 +174,8 @@ export default function PrediccionSexoBebePage() {
                     link="https://wa.me/527716854026?text=Hola,%20quisiera%20saber%20qué%20precio%20tiene%20la%20prueba%20Genética%20de%20ADN%20Fetal%20NIPT."
                     type="estudio"
                 />
+            
+                <RelatedTools currentPath="/herramientas/prediccion-sexo-bebe" className="mb-8" />
             </div>
         </main>
     );

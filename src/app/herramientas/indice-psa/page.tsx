@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function CalculadoraPSAPage() {
     const [psaTotal, setPsaTotal] = useState('');
@@ -102,6 +103,8 @@ export default function CalculadoraPSAPage() {
    </div>
 </section>
 <AdBanner variant="horizontal" className="mb-8" />
+            
+                <RelatedTools currentPath="/herramientas/indice-psa" className="mb-8" />
             </div>
         </main>
     );

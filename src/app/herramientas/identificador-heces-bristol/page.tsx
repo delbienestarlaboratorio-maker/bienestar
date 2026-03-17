@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function ViralToolPage() {
     const questions = ["¿Sueles ir al baño y expulsar trozos duros separados, parecidos a nueces (difíciles de evacuar)?","¿Tus heces tienen forma de salchicha pero grumosa o llena de bultos?","¿Suelen salir en forma de salchicha o serpiente, lisas y suaves? (Sin esfuerzo)","¿Tus evacuaciones tienen bordes rotos, esponjosos, y son mayormente pastosas?","¿Tus evacuaciones son totalmente líquidas, de forma repentina y sin pedazos sólidos?"];
@@ -100,6 +101,8 @@ export default function ViralToolPage() {
                         link={"https://wa.me/527757371811?text=Hola,%20busco%20cotizar%20un%20estudio%20Coproparasitosc%C3%B3pico"}
                     />
                 </div>
+            
+                <RelatedTools currentPath="/herramientas/identificador-heces-bristol" className="mb-8" />
             </div>
         </main>
     );

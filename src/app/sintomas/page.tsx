@@ -2,9 +2,10 @@ import React from 'react';
 import { BookOpen } from 'lucide-react';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { SymptomClientList } from './components/SymptomClientList';
-import rawQuality from '@/data/symptoms-quality.json';
+import rawQuality from '@/data/symptoms.json';
 import rawCIE10 from '@/data/todas-enfermedades-cie10.json';
 import { Metadata } from 'next';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export const metadata: Metadata = {
     title: 'Directorio Médico A-Z | 14,000+ Enfermedades CIE-10 | Laboratorio del Bienestar',
@@ -71,6 +72,8 @@ export default async function SintomasHub() {
             </div>
 
             <div className="max-w-6xl mx-auto px-4 mt-8 relative z-20 mb-12">
+
+                <RelatedTools currentPath="/sintomas" className="mb-8" />
                 <AdBanner variant="horizontal" />
             </div>
 

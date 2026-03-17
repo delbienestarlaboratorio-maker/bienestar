@@ -14,6 +14,7 @@ const mobileNavLinks = [
     { href: '/paquetes', label: 'Paquetes', icon: Gift, accent: 'text-blue-600' },
     { href: '/check-ups', label: 'Check-Ups', icon: Heart, accent: 'text-pink-600' },
     { href: '/sintomas', label: 'Síntomas A-Z', icon: Stethoscope, accent: 'text-rose-600' },
+    { href: '/enfermedades', label: 'Enfermedades CIE-10', icon: BookOpen, accent: 'text-blue-700' },
     { href: '/valores-clinicos', label: 'Biomarcadores', icon: Activity, accent: 'text-indigo-600' },
     { href: '/sucursales', label: 'Sucursales', icon: MapPin, accent: 'text-purple-600' },
     { href: '/promociones', label: 'Promociones', icon: Tag, accent: 'text-orange-600' },
@@ -74,6 +75,10 @@ export const Header = () => {
                         <Link href="/sintomas" className="text-gray-600 hover:text-rose-600 font-medium transition-colors flex items-center gap-1.5">
                             <Stethoscope size={16} className="text-rose-500" />
                             Síntomas
+                        </Link>
+                        <Link href="/enfermedades" className="text-gray-600 hover:text-blue-700 font-medium transition-colors flex items-center gap-1.5">
+                            <BookOpen size={16} className="text-blue-600" />
+                            Enfermedades
                         </Link>
                         <Link href="/valores-clinicos" className="text-gray-600 hover:text-indigo-600 font-medium transition-colors flex items-center gap-1.5">
                             <Activity size={16} className="text-indigo-500" />

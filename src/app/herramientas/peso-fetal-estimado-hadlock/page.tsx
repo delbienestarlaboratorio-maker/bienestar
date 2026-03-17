@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function PesoFetalEstimadoHadlockPage() {
     const [dbp, setDbp] = useState<string>('');
@@ -93,6 +94,8 @@ export default function PesoFetalEstimadoHadlockPage() {
                     </div>
                 </div>
 
+                
+                <RelatedTools currentPath="/herramientas/peso-fetal-estimado-hadlock" className="mb-8" />
                 <AdBanner variant="compact" className="mb-8" />
             </div>
         </main>

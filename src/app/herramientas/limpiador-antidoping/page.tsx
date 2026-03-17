@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function ViralToolPage() {
     const questions = ["¿Tu exposición a la sustancia fue diaria o crónica (más de 4 veces a la semana)?","¿Tienes un porcentaje de grasa corporal elevado (sobrepeso)? (Importante porque el THC se almacena en grasa).","¿Bebes menos de 2 litros de agua natural al día y sudas poco?","¿Tu metabolismo es lento o sufres de problemas renales/hepáticos previos?","¿La última vez que tuviste exposición masiva a esta sustancia fue hace MENOS de 15 días?"];
@@ -94,6 +95,8 @@ export default function ViralToolPage() {
                     type="estudio"
                     link={"https://wa.me/527757371811?text=Hola,%20busco%20un%20antidoping%20privado"}
                 />
+            
+                <RelatedTools currentPath="/herramientas/limpiador-antidoping" className="mb-8" />
             </div>
         </main>
     );

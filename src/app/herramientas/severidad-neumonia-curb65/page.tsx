@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function CURB65Page() {
     const [c, setC] = useState(false); // Confusion
@@ -132,7 +133,9 @@ export default function CURB65Page() {
        </ul>
    </div>
 </section>
-<AdBanner variant="compact" className="mb-8" />
+
+                <RelatedTools currentPath="/herramientas/severidad-neumonia-curb65" className="mb-8" />
+                <AdBanner variant="compact" className="mb-8" />
             </div>
         </main>
     );

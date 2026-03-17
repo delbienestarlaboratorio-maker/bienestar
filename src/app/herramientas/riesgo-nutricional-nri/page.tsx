@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function NRIPage() {
     const [albumina, setAlbumina] = useState('');
@@ -117,7 +118,9 @@ export default function NRIPage() {
        </ul>
    </div>
 </section>
-<AdBanner variant="compact" className="mb-8" />
+
+                <RelatedTools currentPath="/herramientas/riesgo-nutricional-nri" className="mb-8" />
+                <AdBanner variant="compact" className="mb-8" />
             </div>
         </main>
     );

@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function CalculadoraMetabolismoPage() {
     const [sexo, setSexo] = useState<'hombre' | 'mujer'>('hombre');
@@ -182,6 +183,8 @@ export default function CalculadoraMetabolismoPage() {
                     link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Cotizar%20Perfil%20Tiroideo*`} 
                     type="estudio" 
                 />
+                
+                <RelatedTools currentPath="/herramientas/calculadora-metabolismo" className="mb-8" />
                 <AdBanner variant="compact" className="mb-8" />
             </div>
         </main>

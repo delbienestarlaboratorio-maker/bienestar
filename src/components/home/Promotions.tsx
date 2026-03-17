@@ -30,7 +30,7 @@ export function Promotions() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-end mb-12">
                     <div>
-                        <h2 className="text-3xl font-bold text-slate-900 mb-2">Ofertas del Mes</h2>
+                        <h2 className="text-3xl font-bold text-slate-900 mb-2">Ofertas del Mes 🎉</h2>
                         <p className="text-teal-600 font-medium">Precios dinámicos activados por IA 🤖</p>
                     </div>
                     <button className="hidden md:block text-blue-600 font-semibold hover:text-blue-700">

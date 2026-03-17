@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function ViralToolPage() {
     const questions = ["¿Has bebido al menos 4 vasos de tamaño regular de alguna bebida con alcohol hoy?","¿Bebiste el alcohol en ayunas (sin comer ningún alimento grasoso pesado antes)?","¿Mezclaste cervezas con destilados agresivos (Tequila/Vodka/Ron) o licores dulces?","¿Combinaste el alcohol con bebidas energéticas, tabaco desenfrenado o refrescos negros?","¿Sientes mareo leve AL PARARTE de la silla donde estabas sentado relajado?"];
@@ -106,6 +107,8 @@ export default function ViralToolPage() {
                         link={"https://wa.me/527757371811?text=Hola,%20busco%20un%20Perfil%20Hep%C3%A1tico%20Pruebas%20Funcion"}
                     />
                 </div>
+            
+                <RelatedTools currentPath="/herramientas/calculadora-alcohol" className="mb-8" />
             </div>
         </main>
     );

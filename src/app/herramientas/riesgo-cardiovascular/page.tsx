@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function RiesgoCardiovascularPage() {
     const [sexo, setSexo] = useState<'hombre' | 'mujer'>('hombre');
@@ -256,6 +257,8 @@ export default function RiesgoCardiovascularPage() {
                     link={`/paquetes`} 
                     type="checkup" 
                 />
+                
+                <RelatedTools currentPath="/herramientas/riesgo-cardiovascular" className="mb-8" />
                 <AdBanner variant="compact" className="mb-8" />
             </div>
         </main>

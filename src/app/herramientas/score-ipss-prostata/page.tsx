@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 const questions = [
     { text: "Durante el último mes, ¿cuántas veces ha tenido la sensación de no vaciar completamente su vejiga al terminar de orinar?", id: 'vaciado' },
@@ -141,6 +142,8 @@ export default function ScoreIPSSProstataPage() {
 </section>
 <AdBanner variant="horizontal" />
                 </div>
+            
+                <RelatedTools currentPath="/herramientas/score-ipss-prostata" className="mb-8" />
             </div>
         </main>
     );

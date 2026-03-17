@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function CalculadoraAguaPage() {
     const [peso, setPeso] = useState('');
@@ -191,6 +192,8 @@ export default function CalculadoraAguaPage() {
                     link={`https://wa.me/527757371811?text=Hola,%20quisiera%20saber%20el%20precio%20de%20unos%20estudios%20de%20laboratorio%20que%20me%20recomendó%20su%20calculadora%20médica:%20*Cotizar%20Examen%20Renal*`} 
                     type="estudio" 
                 />
+                
+                <RelatedTools currentPath="/herramientas/calculadora-agua" className="mb-8" />
                 <AdBanner variant="compact" className="mb-8" />
             </div>
         </main>

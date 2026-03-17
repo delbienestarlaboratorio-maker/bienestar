@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function FechaPartoPage() {
     const [fur, setFur] = useState('');
@@ -75,6 +76,8 @@ export default function FechaPartoPage() {
                     link={`/paquetes`} 
                     type="checkup" 
                 />
+                
+                <RelatedTools currentPath="/herramientas/fecha-parto" className="mb-8" />
                 <AdBanner variant="compact" className="mb-8" />
             </div>
         </main>

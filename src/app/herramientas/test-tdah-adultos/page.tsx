@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function ViralToolPage() {
     const questions = ["¿Te cuesta muchísimo trabajo comenzar a hacer tareas aburridas, posponiéndolas hasta el último minuto de pánico?","¿Sueles interrumpir a las personas cuando hablan porque sientes urgencia por decir tu idea antes de olvidarla?","¿Padeces ceguera del tiempo? (Ej. Crees que han pasado 5 minutos pero en realidad pasaron 2 horas).","¿Entras en 'hiperfoco' con cosas que te interesan, olvidando incluso comer o ir al baño?","¿Tienes una 'basura mental' de pestañas abiertas en el navegador y proyectos a medias que nunca terminas?"];
@@ -88,6 +89,8 @@ export default function ViralToolPage() {
                         link={"https://wa.me/527757371811?text=Hola,%20me%20interesa%20un%20Perfil%20Tiroideo%20y%20Qu%C3%ADmica%20para%20psiquiatra"}
                     />
                 </div>
+            
+                <RelatedTools currentPath="/herramientas/test-tdah-adultos" className="mb-8" />
             </div>
         </main>
     );

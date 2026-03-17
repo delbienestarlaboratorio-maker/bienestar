@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function ViralToolPage() {
     const questions = ["¿El padre del niño mide más de 1.75m o la madre más de 1.62m?","¿Hay antecedentes de estaturas muy altas (por encima del promedio nacional) en abuelos maternos o paternos?","¿En las consultas pediátricas actuales, tu hij@ se mantiene consistentemente arriba del Percentil 50 de estatura?","¿Tu hij@ consume al menos 2 porciones de proteína animal o vegetal de alta calidad al día?","¿Tu hij@ duerme estrictamente antes de las 9:30 PM todos los días? (La Hormona de Crecimiento solo sale en sueño profundo nocturno)."];
@@ -94,6 +95,8 @@ export default function ViralToolPage() {
                     type="estudio"
                     link={"https://wa.me/527757371811?text=Hola,%20busco%20estudios%20pedi%C3%A1tricos%20para%20un%20ni%C3%B1o%20que%20no%20crece"}
                 />
+            
+                <RelatedTools currentPath="/herramientas/cuanto-medira" className="mb-8" />
             </div>
         </main>
     );

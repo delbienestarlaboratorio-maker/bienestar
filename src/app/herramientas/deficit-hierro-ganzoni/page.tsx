@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function DeficitHierroGanzoniPage() {
     const [peso, setPeso] = useState('');
@@ -112,6 +113,8 @@ export default function DeficitHierroGanzoniPage() {
    </div>
 </section>
 <AdBanner variant="horizontal" className="mb-8" />
+            
+                <RelatedTools currentPath="/herramientas/deficit-hierro-ganzoni" className="mb-8" />
             </div>
         </main>
     );

@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function ViralToolPage() {
     const questions = ["¿Los ruidos fuertes, sirenas o luces muy brillantes te abruman físicamente al grado de querer llorar o huir?","¿Absorbes fácilmente el estado de ánimo de los demás? (Si alguien está triste, te agotas tú también).","¿Te asustas con muchísima facilidad si alguien se te acerca por sorpresa?","¿Las películas violentas o noticias tristes te afectan por días enteros?","¿Tienes una rica y compleja vida interior, imaginando siempre escenarios detallados en tu mente?"];
@@ -88,6 +89,8 @@ export default function ViralToolPage() {
                         link={"https://wa.me/527757371811?text=Hola,%20me%20interesa%20checar%20mis%20niveles%20de%20Vitaminas%20y%20Magnesio"}
                     />
                 </div>
+            
+                <RelatedTools currentPath="/herramientas/toxicidad-religiosa" className="mb-8" />
             </div>
         </main>
     );

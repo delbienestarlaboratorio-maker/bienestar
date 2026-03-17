@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function CriteriosAlvaradoApendicitisPage() {
     const [sMigracion, setSMigracion] = useState<boolean>(false);
@@ -129,6 +130,8 @@ export default function CriteriosAlvaradoApendicitisPage() {
                     </div>
                 </div>
 
+                
+                <RelatedTools currentPath="/herramientas/criterios-alvarado-apendicitis" className="mb-8" />
                 <AdBanner variant="compact" className="mb-8" />
             </div>
         </main>

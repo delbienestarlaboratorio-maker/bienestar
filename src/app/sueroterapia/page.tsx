@@ -7,6 +7,7 @@ import { useState } from 'react';
 import { TherapyModal } from '@/components/sueroterapia/TherapyModal';
 import { TherapySearch } from '@/components/sueroterapia/TherapySearch';
 import { therapiesDatabase, type TherapyDetails } from '@/data/sueroterapia/therapies-detailed';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 const treatments = [
     {
@@ -342,6 +343,13 @@ export default function SueroterapiaPage() {
                             </div>
                         </div>
                     </div>
+                </div>
+            </section>
+
+            {/* Related Tools */}
+            <section className="py-8 bg-gray-50">
+                <div className="container mx-auto px-4 max-w-7xl">
+                    <RelatedTools currentPath="/sueroterapia" className="mb-0" />
                 </div>
             </section>
 

@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function ScoreFraminghamPage() {
     const [edad, setEdad] = useState<string>('');
@@ -123,6 +124,8 @@ export default function ScoreFraminghamPage() {
                     </div>
                 </div>
 
+                
+                <RelatedTools currentPath="/herramientas/score-framingham" className="mb-8" />
                 <AdBanner variant="compact" className="mb-8" />
             </div>
         </main>

@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function IntervaloQtCorregidoPage() {
     const [qt, setQt] = useState<string>('');
@@ -104,6 +105,8 @@ export default function IntervaloQtCorregidoPage() {
                     </div>
                 </div>
 
+                
+                <RelatedTools currentPath="/herramientas/intervalo-qt-corregido" className="mb-8" />
                 <AdBanner variant="compact" className="mb-8" />
             </div>
         </main>

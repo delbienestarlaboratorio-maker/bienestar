@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function ViralToolPage() {
     const questions = ["¿Tu rutina diaria involucra estar sentado más de 6 horas al día?","¿Te saltas comidas frecuentemente (ej. no desayunas)?","¿Consumes refrescos regulares, jugos envasados o alcohol más de 3 veces por semana?","¿Tu objetivo principal es perder más de 5 kilos en los próximos 2 meses?","¿Sientes hambre ansiosa por la tarde-noche (antojo de dulces o carbohidratos)?"];
@@ -95,6 +96,8 @@ export default function ViralToolPage() {
                     type="estudio"
                     link={"https://wa.me/527757371811?text=Hola,%20me%20interesa%20un%20Perfil%20Metab%C3%B3lico%20(Insulina/%20Tiroides)"}
                 />
+            
+                <RelatedTools currentPath="/herramientas/calculadora-calorias-peso-ideal" className="mb-8" />
             </div>
         </main>
     );

@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function ViralToolPage() {
     const questions = ["¿Sientes una angustia gigante que te oprime el pecho si tu pareja tarda horas en responderte un mensaje trivial?","¿Sueles alejarte, pedir espacio o enojarte cuando alguien intenta tener demasiada intimidad emocional muy rápido contigo?","¿Sientes en el fondo que en cualquier momento tu pareja se va a cansar de ti y te va a abandonar por alguien mejor?","¿Te molestan excesivamente las demostraciones empalagosas de afecto en público o te resulta sofocante convivir 24/7?","¿Buscas validar desesperadamente tu apariencia o decisiones a través de la aprobación de tu pareja (subiéndole el ego inmensamente)?"];
@@ -113,6 +114,8 @@ export default function ViralToolPage() {
                         link={"https://wa.me/527757371811?text=Hola,%20deseo%20saber%20mis%20niveles%20de%20colesterol%20y%20glucosa"}
                     />
                 </div>
+            
+                <RelatedTools currentPath="/herramientas/test-apego-emocional" className="mb-8" />
             </div>
         </main>
     );

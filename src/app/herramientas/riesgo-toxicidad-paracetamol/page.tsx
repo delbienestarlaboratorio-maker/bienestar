@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function ToxicidadParacetamolPage() {
     const [peso, setPeso] = useState('');
@@ -179,6 +180,8 @@ export default function ToxicidadParacetamolPage() {
                     link="https://wa.me/527716854026?text=Hola,%20quisiera%20saber%20qué%20precio%20tiene%20el%20perfil%20hepático%20(PFH)%20que%20me%20recomienda%20la%20página."
                     type="estudio"
                 />
+            
+                <RelatedTools currentPath="/herramientas/riesgo-toxicidad-paracetamol" className="mb-8" />
             </div>
         </main>
     );

@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function CalculadoraExposicionRayosxAvanzadaPage() {
     const [marcaEquipo, setMarcaEquipo] = useState<string>('');
@@ -186,6 +187,8 @@ export default function CalculadoraExposicionRayosxAvanzadaPage() {
                     </div>
                 </div>
 
+                
+                <RelatedTools currentPath="/herramientas/calculadora-exposicion-rayosx-avanzada" className="mb-8" />
                 <AdBanner variant="compact" className="mb-8" />
             </div>
         </main>

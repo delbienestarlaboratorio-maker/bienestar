@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function ViralToolPage() {
     const questions = ["Al ver luces de noche (ej. faros de coches), ¿ves destellos o líneas de luz alargadas que salen del foco?","¿Sueles confundir tonos oscuros de azul marino con negro, o rojo oscuro con marrón?","¿Te lloran los ojos o te duele la cabeza tras ver pantallas por más de 2 horas sin descanso?","¿Tienes que alejar o acercar excesivamente el texto del celular para poder leer las letras pequeñas?","¿Al ver líneas rectas cuadriculadas (como un excel o baldosas), algunas se ven curvas u onduladas?"];
@@ -103,6 +104,8 @@ export default function ViralToolPage() {
                     type="estudio"
                     link={"https://wa.me/527757371811?text=Hola,%20busco%20una%20quimica%20sanguinea%20para%20descartar%20diabetes"}
                 />
+            
+                <RelatedTools currentPath="/herramientas/test-daltonismo-astigmatismo" className="mb-8" />
             </div>
         </main>
     );

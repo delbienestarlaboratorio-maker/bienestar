@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function FactorSensibilidadInsulinaPage() {
     const [dosisTotal, setDosisTotal] = useState<string>('');
@@ -93,6 +94,8 @@ export default function FactorSensibilidadInsulinaPage() {
                     </div>
                 </div>
 
+                
+                <RelatedTools currentPath="/herramientas/factor-sensibilidad-insulina" className="mb-8" />
                 <AdBanner variant="compact" className="mb-8" />
             </div>
         </main>

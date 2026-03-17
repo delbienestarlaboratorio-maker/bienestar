@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function CalculadoraDAS28Page() {
     const [dolorosas, setDolorosas] = useState('');
@@ -135,6 +136,8 @@ export default function CalculadoraDAS28Page() {
    </div>
 </section>
 <AdBanner variant="horizontal" className="mb-8" />
+            
+                <RelatedTools currentPath="/herramientas/actividad-ar-das28" className="mb-8" />
             </div>
         </main>
     );

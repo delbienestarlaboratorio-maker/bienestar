@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function DobleProductoCardiacoPage() {
     const [sistolica, setSistolica] = useState<string>('');
@@ -94,6 +95,8 @@ export default function DobleProductoCardiacoPage() {
                     </div>
                 </div>
 
+                
+                <RelatedTools currentPath="/herramientas/doble-producto-cardiaco" className="mb-8" />
                 <AdBanner variant="compact" className="mb-8" />
             </div>
         </main>

@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function ScoreWellsTepEmboliaPage() {
     const [w1, setW1] = useState<boolean>(false);
@@ -123,6 +124,8 @@ export default function ScoreWellsTepEmboliaPage() {
                     </div>
                 </div>
 
+                
+                <RelatedTools currentPath="/herramientas/score-wells-tep-embolia" className="mb-8" />
                 <AdBanner variant="compact" className="mb-8" />
             </div>
         </main>

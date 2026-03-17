@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function CompatibilidadSanguineaPage() {
     const [madre, setMadre] = useState('O-');
@@ -224,6 +225,8 @@ export default function CompatibilidadSanguineaPage() {
                     link="https://wa.me/527716854026?text=Hola,%20quisiera%20saber%20qué%20precio%20tiene%20la%20prueba%20de%20Grupo%20Sanguineo%20y%20Factor%20Rh."
                     type="estudio"
                 />
+            
+                <RelatedTools currentPath="/herramientas/compatibilidad-sanguinea" className="mb-8" />
             </div>
         </main>
     );

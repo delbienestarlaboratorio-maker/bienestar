@@ -23,6 +23,18 @@ const nextConfig: NextConfig = {
       'date-fns'
     ],
   },
+  async headers() {
+    return [
+      {
+        // Force Cloudflare CDN to not cache static chunks (bypass stale 404 cache)
+        source: '/_next/static/:path*',
+        headers: [
+          { key: 'CDN-Cache-Control', value: 'no-store' },
+          { key: 'Cloudflare-CDN-Cache-Control', value: 'no-store' },
+        ],
+      },
+    ];
+  },
 };
 
 export default nextConfig;

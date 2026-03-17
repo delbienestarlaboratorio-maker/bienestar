@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function ScoreHeartPage() {
     const [historia, setHistoria] = useState<string>('');
@@ -133,6 +134,8 @@ export default function ScoreHeartPage() {
                     </div>
                 </div>
 
+                
+                <RelatedTools currentPath="/herramientas/score-heart" className="mb-8" />
                 <AdBanner variant="compact" className="mb-8" />
             </div>
         </main>

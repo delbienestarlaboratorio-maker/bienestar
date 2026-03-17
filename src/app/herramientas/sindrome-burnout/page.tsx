@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function ViralToolPage() {
     const questions = ["¿Te sientes emocionalmente agotado al terminar tu jornada, sintiendo que no das más?","¿Has perdido por completo la motivación y solo vas a trabajar en 'modo automático/zombie'?","¿Tratas a los clientes, pacientes o compañeros de trabajo como objetos, con cinismo y frialdad extrema?","¿Crees que a pesar de trabajar horas extras, realmente tu esfuerzo no logra nada valioso?","¿Sufres de insomnio frecuente o tensión muscular en la espalda y cuello solo de pensar en ir a trabajar?"];
@@ -109,6 +110,8 @@ export default function ViralToolPage() {
                     type="estudio"
                     link={"https://wa.me/527757371811?text=Hola,%20quiero%20hacerme%20un%20checkup%20medico%20por%20estres"}
                 />
+            
+                <RelatedTools currentPath="/herramientas/sindrome-burnout" className="mb-8" />
             </div>
         </main>
     );

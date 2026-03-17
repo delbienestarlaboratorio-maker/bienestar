@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function RiesgoUlceraPage() {
     const [c1, setC1] = useState(false);
@@ -84,6 +85,8 @@ export default function RiesgoUlceraPage() {
    </div>
 </section>
 <AdBanner variant="horizontal" /></div>
+            
+                <RelatedTools currentPath="/herramientas/riesgo-ulcera-gastritis" className="mb-8" />
             </div>
         </main>
     );

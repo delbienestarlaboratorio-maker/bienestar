@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function CalcioIonizadoCorregidoPage() {
     const [calcioTotal, setCalcioTotal] = useState<string>('');
@@ -90,6 +91,8 @@ export default function CalcioIonizadoCorregidoPage() {
                     </div>
                 </div>
 
+                
+                <RelatedTools currentPath="/herramientas/calcio-ionizado-corregido" className="mb-8" />
                 <AdBanner variant="compact" className="mb-8" />
             </div>
         </main>

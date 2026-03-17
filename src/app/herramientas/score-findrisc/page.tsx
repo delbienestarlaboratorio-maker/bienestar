@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { StudyCTA } from '@/components/ui/StudyCTA';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export default function ScoreFindriscPage() {
     const [edad, setEdad] = useState<string>('');
@@ -142,6 +143,8 @@ export default function ScoreFindriscPage() {
                     </div>
                 </div>
 
+                
+                <RelatedTools currentPath="/herramientas/score-findrisc" className="mb-8" />
                 <AdBanner variant="compact" className="mb-8" />
             </div>
         </main>
