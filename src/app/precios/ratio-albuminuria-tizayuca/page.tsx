@@ -33,7 +33,7 @@ export default function PrecioPage() {
           </h1>
 
           <p className="text-green-100 text-lg max-w-2xl mb-8">
-            Cuantificación de albúmina en orina que detecta daño renal temprano no visible con pruebas convencionales. Índice A/C <30 mg/g: normal; 30-300: microalbuminuria (inicio de nefropatía); >300: nefropatía establecida.
+            Cuantificación de albúmina en orina que detecta daño renal temprano no visible con pruebas convencionales. Índice A/C &lt;30 mg/g: normal; 30-300: microalbuminuria (inicio de nefropatía); &gt;300: nefropatía establecida.
           </p>
 
           <div className="flex flex-wrap gap-4">

@@ -33,7 +33,7 @@ export default function PrecioPage() {
           </h1>
 
           <p className="text-green-100 text-lg max-w-2xl mb-8">
-            Detección de proteínas del SARS-CoV-2 en muestra nasofaríngea mediante inmunocromatografía. Alta especificidad (>99%). Mayor sensibilidad en los primeros 5 días de síntomas.
+            Detección de proteínas del SARS-CoV-2 en muestra nasofaríngea mediante inmunocromatografía. Alta especificidad (&gt;99%). Mayor sensibilidad en los primeros 5 días de síntomas.
           </p>
 
           <div className="flex flex-wrap gap-4">

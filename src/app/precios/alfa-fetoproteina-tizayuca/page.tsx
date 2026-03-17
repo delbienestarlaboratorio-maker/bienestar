@@ -33,7 +33,7 @@ export default function PrecioPage() {
           </h1>
 
           <p className="text-green-100 text-lg max-w-2xl mb-8">
-            Proteína sintetizada por el hígado fetal y el saco vitelino. Marcador del carcinoma hepatocelular (>400 ng/mL altamente sugestivo) y tumores de células germinales. En embarazo, niveles elevados pueden indicar defectos del tubo neural.
+            Proteína sintetizada por el hígado fetal y el saco vitelino. Marcador del carcinoma hepatocelular (&gt;400 ng/mL altamente sugestivo) y tumores de células germinales. En embarazo, niveles elevados pueden indicar defectos del tubo neural.
           </p>
 
           <div className="flex flex-wrap gap-4">

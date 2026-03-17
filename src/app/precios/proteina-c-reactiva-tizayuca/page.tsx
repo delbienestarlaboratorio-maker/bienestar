@@ -33,7 +33,7 @@ export default function PrecioPage() {
           </h1>
 
           <p className="text-green-100 text-lg max-w-2xl mb-8">
-            Reactante de fase aguda producido por el hígado en respuesta a inflamación o infección. Se eleva dentro de las 6-12 horas del inicio. PCR >10 mg/L sugiere infección bacteriana. PCR-us valora riesgo cardiovascular.
+            Reactante de fase aguda producido por el hígado en respuesta a inflamación o infección. Se eleva dentro de las 6-12 horas del inicio. PCR &gt;10 mg/L sugiere infección bacteriana. PCR-us valora riesgo cardiovascular.
           </p>
 
           <div className="flex flex-wrap gap-4">

@@ -33,7 +33,7 @@ export default function PrecioPage() {
           </h1>
 
           <p className="text-green-100 text-lg max-w-2xl mb-8">
-            Medición de 25-hidroxivitamina D, la forma de almacenamiento en el cuerpo. Valores <20 ng/mL: deficiencia; 20-30 ng/mL: insuficiencia; >30 ng/mL: suficiencia. Esencial para huesos, sistema inmune y salud mental.
+            Medición de 25-hidroxivitamina D, la forma de almacenamiento en el cuerpo. Valores &lt;20 ng/mL: deficiencia; 20-30 ng/mL: insuficiencia; &gt;30 ng/mL: suficiencia. Esencial para huesos, sistema inmune y salud mental.
           </p>
 
           <div className="flex flex-wrap gap-4">

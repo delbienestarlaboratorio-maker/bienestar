@@ -33,7 +33,7 @@ export default function PrecioPage() {
           </h1>
 
           <p className="text-green-100 text-lg max-w-2xl mb-8">
-            Glicoproteína oncofetal útil como marcador tumoral en cáncer colorrectal, pulmonar, gástrico y de mama. Valor normal: <3 ng/mL en no fumadores, <5 ng/mL en fumadores. Útil para monitoreo, no para diagnóstico inicial.
+            Glicoproteína oncofetal útil como marcador tumoral en cáncer colorrectal, pulmonar, gástrico y de mama. Valor normal: &lt;3 ng/mL en no fumadores, &lt;5 ng/mL en fumadores. Útil para monitoreo, no para diagnóstico inicial.
           </p>
 
           <div className="flex flex-wrap gap-4">

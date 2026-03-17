@@ -33,7 +33,7 @@ export default function PrecioPage() {
           </h1>
 
           <p className="text-green-100 text-lg max-w-2xl mb-8">
-            Medición de la rapidez con que los glóbulos rojos se sedimentan en 1 hora. Marcador inespecífico de inflamación. Normal: hombres <15 mm/h, mujeres <20 mm/h. Elevado en infecciones, autoinmunidad y neoplasias.
+            Medición de la rapidez con que los glóbulos rojos se sedimentan en 1 hora. Marcador inespecífico de inflamación. Normal: hombres &lt;15 mm/h, mujeres &lt;20 mm/h. Elevado en infecciones, autoinmunidad y neoplasias.
           </p>
 
           <div className="flex flex-wrap gap-4">

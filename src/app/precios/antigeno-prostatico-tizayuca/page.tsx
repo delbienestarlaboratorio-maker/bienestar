@@ -33,7 +33,7 @@ export default function PrecioPage() {
           </h1>
 
           <p className="text-green-100 text-lg max-w-2xl mb-8">
-            Glicoproteína producida por el epitelio prostático. PSA total elevado (>4 ng/mL) puede indicar hipertrofia benigna, prostatitis o cáncer. El índice PSA libre/total ayuda a diferenciar benignidad de malignidad.
+            Glicoproteína producida por el epitelio prostático. PSA total elevado (&gt;4 ng/mL) puede indicar hipertrofia benigna, prostatitis o cáncer. El índice PSA libre/total ayuda a diferenciar benignidad de malignidad.
           </p>
 
           <div className="flex flex-wrap gap-4">

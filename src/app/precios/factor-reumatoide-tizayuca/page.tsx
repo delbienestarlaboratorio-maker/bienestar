@@ -33,7 +33,7 @@ export default function PrecioPage() {
           </h1>
 
           <p className="text-green-100 text-lg max-w-2xl mb-8">
-            Autoanticuerpo (generalmente IgM) dirigido contra la fracción Fc de la IgG. Positivo en 70-80% de artritis reumatoide, también en lupus, síndrome de Sjögren e infecciones crónicas. Valor normal: <20 UI/mL.
+            Autoanticuerpo (generalmente IgM) dirigido contra la fracción Fc de la IgG. Positivo en 70-80% de artritis reumatoide, también en lupus, síndrome de Sjögren e infecciones crónicas. Valor normal: &lt;20 UI/mL.
           </p>
 
           <div className="flex flex-wrap gap-4">

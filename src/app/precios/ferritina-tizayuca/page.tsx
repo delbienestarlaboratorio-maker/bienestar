@@ -33,7 +33,7 @@ export default function PrecioPage() {
           </h1>
 
           <p className="text-green-100 text-lg max-w-2xl mb-8">
-            Proteína intracelular de almacenamiento de hierro. Es el marcador más sensible de los depósitos de hierro corporal. Valores bajos (<12 ng/mL) confirman déficit de hierro antes de que aparezca anemia.
+            Proteína intracelular de almacenamiento de hierro. Es el marcador más sensible de los depósitos de hierro corporal. Valores bajos (&lt;12 ng/mL) confirman déficit de hierro antes de que aparezca anemia.
           </p>
 
           <div className="flex flex-wrap gap-4">

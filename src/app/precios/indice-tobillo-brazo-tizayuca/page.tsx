@@ -33,7 +33,7 @@ export default function PrecioPage() {
           </h1>
 
           <p className="text-green-100 text-lg max-w-2xl mb-8">
-            Cociente entre la presión sistólica en tobillo y en brazo medida con Doppler. ITB >0.9: normal; 0.71-0.9: leve; 0.41-0.7: moderado; <0.4: severo. Detecta enfermedad arterial periférica antes de síntomas graves.
+            Cociente entre la presión sistólica en tobillo y en brazo medida con Doppler. ITB &gt;0.9: normal; 0.71-0.9: leve; 0.41-0.7: moderado; &lt;0.4: severo. Detecta enfermedad arterial periférica antes de síntomas graves.
           </p>
 
           <div className="flex flex-wrap gap-4">

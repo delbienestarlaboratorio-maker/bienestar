@@ -33,7 +33,7 @@ export default function PrecioPage() {
           </h1>
 
           <p className="text-green-100 text-lg max-w-2xl mb-8">
-            Prueba combinada antígeno/anticuerpo de 4ta generación que detecta VIH tipos 1 y 2. Periodo de ventana acortado a 18-45 días. Sensibilidad >99.9%. Resultado disponible en 24-48 horas.
+            Prueba combinada antígeno/anticuerpo de 4ta generación que detecta VIH tipos 1 y 2. Periodo de ventana acortado a 18-45 días. Sensibilidad &gt;99.9%. Resultado disponible en 24-48 horas.
           </p>
 
           <div className="flex flex-wrap gap-4">

@@ -33,7 +33,7 @@ export default function PrecioPage() {
           </h1>
 
           <p className="text-green-100 text-lg max-w-2xl mb-8">
-            Medición del porcentaje de hemoglobina que tiene glucosa adherida. Refleja el control glucémico de los últimos 90 días. Meta terapéutica: <7% en diabéticos controlados, <5.7% en personas sin diabetes.
+            Medición del porcentaje de hemoglobina que tiene glucosa adherida. Refleja el control glucémico de los últimos 90 días. Meta terapéutica: &lt;7% en diabéticos controlados, &lt;5.7% en personas sin diabetes.
           </p>
 
           <div className="flex flex-wrap gap-4">

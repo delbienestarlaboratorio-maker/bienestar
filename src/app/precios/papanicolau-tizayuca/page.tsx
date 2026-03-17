@@ -33,7 +33,7 @@ export default function PrecioPage() {
           </h1>
 
           <p className="text-green-100 text-lg max-w-2xl mb-8">
-            Estudio citológico de células del cuello uterino y canal endocervical. Detecta lesiones precancerosas (NIC I, II, III) y cáncer cervical en etapas iniciales. La detección temprana permite tratamiento curativo en >90% de casos.
+            Estudio citológico de células del cuello uterino y canal endocervical. Detecta lesiones precancerosas (NIC I, II, III) y cáncer cervical en etapas iniciales. La detección temprana permite tratamiento curativo en &gt;90% de casos.
           </p>
 
           <div className="flex flex-wrap gap-4">
