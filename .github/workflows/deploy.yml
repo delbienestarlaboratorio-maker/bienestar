@@ -53,8 +53,8 @@ jobs:
           SKIP_WRANGLER_CONFIG_CHECK: 'yes'
           SKIP_NEXT_APP_BUILD: 'true'
 
-      - name: Deploy to Cloudflare
-        run: npx opennextjs-cloudflare deploy
+      - name: Deploy to Cloudflare Pages
+        run: npx wrangler pages deploy .open-next/assets --project-name laboratorio-bienestar
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
