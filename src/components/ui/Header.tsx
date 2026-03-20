@@ -44,17 +44,17 @@ export const Header = () => {
 
     return (
         <header className="bg-white border-b border-gray-100 sticky top-0 z-50 shadow-sm">
-            <div className="max-w-7xl mx-auto px-4">
+            <div className="max-w-7xl mx-auto px-4 overflow-hidden">
                 {/* Main Header Row */}
-                <div className="h-20 flex items-center justify-between">
+                <div className="h-20 flex items-center justify-between gap-2">
                     {/* Logo */}
-                    <Link href="/" className="flex items-center gap-2">
-                        <div className="relative w-40 h-12">
+                    <Link href="/" className="flex items-center gap-2 flex-shrink-0">
+                        <div className="relative w-32 lg:w-36 h-12">
                             <Image
                                 src="/images/logo.png"
                                 alt="Laboratorio Bienestar"
                                 fill
-                                sizes="160px"
+                                sizes="144px"
                                 className="object-contain object-left"
                                 priority
                             />
@@ -62,36 +62,32 @@ export const Header = () => {
                     </Link>
 
                     {/* Desktop Nav */}
-                    <nav className="hidden lg:flex items-center gap-6">
+                    <nav className="hidden lg:flex items-center gap-1 xl:gap-2 flex-shrink min-w-0">
                         <Link
                             href="/estudios/analisis-clinicos"
-                            className="text-gray-600 hover:text-green-600 font-medium transition-colors flex items-center gap-2"
+                            className="text-gray-600 hover:text-green-600 text-sm font-medium transition-colors flex items-center gap-1 whitespace-nowrap"
                         >
                             Estudios
-                            <Heart className="text-green-500 animate-pulse" size={20} fill="currentColor" />
+                            <Heart className="text-green-500 animate-pulse" size={14} fill="currentColor" />
                         </Link>
-                        <Link href="/paquetes" className="text-gray-600 hover:text-green-600 font-medium transition-colors">Paquetes</Link>
-                        <Link href="/sucursales" className="text-gray-600 hover:text-green-600 font-medium transition-colors">Sucursales</Link>
-                        <Link href="/sintomas" className="text-gray-600 hover:text-rose-600 font-medium transition-colors flex items-center gap-1.5">
-                            <Stethoscope size={16} className="text-rose-500" />
+                        <Link href="/paquetes" className="text-gray-600 hover:text-green-600 text-sm font-medium transition-colors whitespace-nowrap">Paquetes</Link>
+                        <Link href="/sucursales" className="text-gray-600 hover:text-green-600 text-sm font-medium transition-colors whitespace-nowrap">Sucursales</Link>
+                        <Link href="/sintomas" className="text-gray-600 hover:text-rose-600 text-sm font-medium transition-colors whitespace-nowrap">
                             Síntomas
                         </Link>
-                        <Link href="/enfermedades" className="text-gray-600 hover:text-blue-700 font-medium transition-colors flex items-center gap-1.5">
-                            <BookOpen size={16} className="text-blue-600" />
+                        <Link href="/enfermedades" className="text-gray-600 hover:text-blue-700 text-sm font-medium transition-colors whitespace-nowrap">
                             Enfermedades
                         </Link>
-                        <Link href="/valores-clinicos" className="text-gray-600 hover:text-indigo-600 font-medium transition-colors flex items-center gap-1.5">
-                            <Activity size={16} className="text-indigo-500" />
+                        <Link href="/valores-clinicos" className="text-gray-600 hover:text-indigo-600 text-sm font-medium transition-colors whitespace-nowrap">
                             Biomarcadores
                         </Link>
-                        <Link href="/herramientas" className="text-gray-600 hover:text-green-600 font-medium transition-colors">Herramientas</Link>
-                        <Link href="/precios" className="text-gray-600 hover:text-green-600 font-medium transition-colors flex items-center gap-1">
-                            <Tag size={14} className="text-green-500" />
+                        <Link href="/herramientas" className="hidden xl:block text-gray-600 hover:text-green-600 text-sm font-medium transition-colors whitespace-nowrap">Herramientas</Link>
+                        <Link href="/precios" className="text-gray-600 hover:text-green-600 text-sm font-medium transition-colors whitespace-nowrap">
                             Precios
                         </Link>
-                        <Link href="/nosotros" className="text-gray-600 hover:text-green-600 font-medium transition-colors">Nosotros</Link>
-                        <Link href="/promociones" className="text-gray-600 hover:text-green-600 font-medium transition-colors">Promociones</Link>
-                        <Link href="/resultados" className="bg-green-50 text-green-700 px-4 py-2 rounded-lg font-bold hover:bg-green-100 transition-colors">
+                        <Link href="/nosotros" className="hidden xl:block text-gray-600 hover:text-green-600 text-sm font-medium transition-colors whitespace-nowrap">Nosotros</Link>
+                        <Link href="/promociones" className="hidden xl:block text-gray-600 hover:text-green-600 text-sm font-medium transition-colors whitespace-nowrap">Promociones</Link>
+                        <Link href="/resultados" className="bg-green-50 text-green-700 px-3 py-1.5 rounded-lg text-sm font-bold hover:bg-green-100 transition-colors whitespace-nowrap">
                             Resultados
                         </Link>
                     </nav>
@@ -110,10 +106,10 @@ export const Header = () => {
                         {/* Phone */}
                         <a
                             href="tel:7716854026"
-                            className="hidden xl:flex items-center gap-2 text-gray-600 hover:text-green-600 transition-colors"
+                            className="hidden xl:flex items-center gap-1.5 text-gray-600 hover:text-green-600 transition-colors whitespace-nowrap flex-shrink-0"
                         >
-                            <Phone size={18} />
-                            <span className="font-medium">771 685 4026</span>
+                            <Phone size={16} />
+                            <span className="font-medium text-sm">771 685 4026</span>
                         </a>
 
                         {/* Cart Badge */}
