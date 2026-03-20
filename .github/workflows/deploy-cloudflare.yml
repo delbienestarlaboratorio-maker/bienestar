@@ -1,9 +1,12 @@
-name: Deploy to Cloudflare Pages
+# DISABLED - This workflow was causing race conditions with deploy.yml
+# Both workflows were deploying to the same Cloudflare Pages project,
+# causing CSS/JS asset mismatches and broken deployments.
+# All deployment is now handled by deploy.yml
+
+name: Deploy to Cloudflare Pages (DISABLED)
 
 on:
-  push:
-    branches: [main]
-  workflow_dispatch:
+  workflow_dispatch:  # Manual trigger only, no longer auto-runs on push
 
 jobs:
   deploy:
