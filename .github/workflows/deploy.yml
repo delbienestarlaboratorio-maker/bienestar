@@ -28,23 +28,9 @@ jobs:
         env:
           NODE_OPTIONS: '--max-old-space-size=4096'
 
-      - name: Deploy to Cloudflare Pages
+      - name: Deploy to Cloudflare Workers
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy .open-next/assets --project-name=bienestar --branch=main
-
-      - name: Purge Cloudflare CDN Cache
-        run: |
-          # Get zone ID for delbienestar.com.mx
-          ZONE_ID=$(curl -s -X GET "https://api.cloudflare.com/client/v4/zones?name=delbienestar.com.mx" \
-            -H "Authorization: Bearer ${{ secrets.CLOUDFLARE_API_TOKEN }}" \
-            -H "Content-Type: application/json" | jq -r '.result[0].id')
-          echo "Zone ID: $ZONE_ID"
-          # Purge everything
-          curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/purge_cache" \
-            -H "Authorization: Bearer ${{ secrets.CLOUDFLARE_API_TOKEN }}" \
-            -H "Content-Type: application/json" \
-            --data '{"purge_everything":true}'
-          echo "Cache purged!"
+          command: deploy
