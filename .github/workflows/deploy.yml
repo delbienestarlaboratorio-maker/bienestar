@@ -28,6 +28,13 @@ jobs:
         env:
           NODE_OPTIONS: '--max-old-space-size=4096'
 
+      - name: Debug - List .open-next output
+        run: |
+          echo "=== .open-next/ structure ==="
+          ls -la .open-next/ || echo "NO .open-next/ FOLDER"
+          ls -la .open-next/.build/ 2>/dev/null || echo "NO .build/ SUBFOLDER"
+          ls -la .open-next/worker.js 2>/dev/null || echo "NO worker.js"
+
       - name: Deploy to Cloudflare Workers
         run: npx opennextjs-cloudflare deploy 2>&1 || (echo "--- DEPLOY FAILED ---" && exit 1)
         env:
