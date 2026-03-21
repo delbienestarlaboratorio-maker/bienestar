@@ -1,0 +1,411 @@
+{
+  "name": "Eltrombopag",
+  "summary": "Eltrombopag es un medicamento que ayuda a aumentar el número de plaquetas en la sangre. Las plaquetas son células pequeñas que son esenciales para la coagulación y para detener los sangrados. Este medicamento se utiliza principalmente en pacientes con púrpura trombocitopénica inmune crónica (PTI), una enfermedad en la que el sistema inmunológico ataca y destruye las propias plaquetas, causando un riesgo elevado de moretones y hemorragias. También se usa en pacientes con anemia aplásica severa que no responden a otros tratamientos, y en personas con hepatitis C crónica que necesitan terapia antiviral pero tienen plaquetas bajas. Su importancia clínica radica en que permite elevar las plaquetas a niveles seguros, reduciendo el riesgo de sangrado y permitiendo que los pacientes puedan someterse a procedimientos médicos necesarios o continuar con otros tratamientos. Es un fármaco de administración oral, lo que facilita su uso a largo plazo en comparación con otros tratamientos que requieren inyecciones o infusiones intravenosas.",
+  "pharmacology": {
+    "mechanismOfAction": "Eltrombopag es un agonista del receptor de trombopoyetina (TPO). Actúa uniéndose al dominio transmembrana del receptor de TPO en las células precursoras de los megacariocitos en la médula ósea. Esta unión activa vías de señalización intracelular, como las vías JAK2/STAT y MAPK, que promueven la proliferación y diferenciación de estas células precursoras. Como resultado, se estimula la producción de megacariocitos, que son las células que fabrican las plaquetas. A diferencia de la trombopoyetina endógena (una hormona natural), el eltrombopag se une a un sitio diferente del receptor, lo que le permite estimular la producción de plaquetas de manera independiente y complementaria. Este mecanismo es crucial en condiciones donde la producción de plaquetas está suprimida o la destrucción de plaquetas es excesiva.",
+    "pharmacologicClass": "Agonista del receptor de trombopoyetina (TPO), Trombomimético",
+    "therapeuticClass": "Antianémico y Hematológico, Agente estimulante de la trombopoyesis",
+    "absorption": "Se absorbe por vía oral. La absorción es lenta, con una concentración plasmática máxima (Cmax) alcanzada entre 2 y 6 horas después de la administración. La biodisponibilidad absoluta es aproximadamente del 52%. La absorción se reduce significativamente si se toma con alimentos, especialmente aquellos ricos en calcio (como productos lácteos), o con suplementos que contengan cationes polivalentes (hierro, calcio, aluminio, magnesio).",
+    "distribution": "Se une extensamente a proteínas plasmáticas (>99%), principalmente a la albúmina. El volumen de distribución (Vd) en estado estacionario es de aproximadamente 3.5 L/kg, lo que indica una distribución limitada fuera del plasma. No cruza fácilmente la barrera hematoencefálica.",
+    "metabolism": "Se metaboliza extensamente en el hígado, principalmente mediante procesos de conjugación (con glucurónido, cisteína y glutatión) y oxidación. Las enzimas del citocromo P450 (CYP) participan de manera limitada; las isoenzimas CYP1A2 y CYP2C8 están involucradas en menor grado. También es sustrato de enzimas como UGT1A1 y UGT1A3. Es un inhibidor débil de la glicoproteína-P (P-gp) y de la proteína de resistencia al cáncer de mama (BCRP).",
+    "elimination": "Se elimina principalmente por vía fecal (aproximadamente el 59%) y en menor medida por vía renal (aproximadamente el 31%). La vida media de eliminación es de aproximadamente 21 a 32 horas en pacientes adultos. En pacientes con insuficiencia hepática, la vida media puede prolongarse.",
+    "onsetOfAction": "El inicio del aumento de plaquetas generalmente se observa después de 1 a 2 semanas de tratamiento continuo.",
+    "durationOfAction": "El efecto sobre el recuento de plaquetas es sostenido mientras se continúa la administración diaria. Después de suspender el medicamento, el recuento de plaquetas generalmente vuelve a la línea de base en un plazo de 1 a 2 semanas."
+  },
+  "indications": {
+    "approved": [
+      "Púrpura Trombocitopénica Inmune (PTI) crónica en pacientes adultos y pediátricos (a partir de 1 año) con respuesta inadecuada a corticosteroides, inmunoglobulinas o esplenectomía.",
+      "Anemia Aplásica Severa (AAS) en pacientes adultos y pediátricos (a partir de 2 años) con respuesta inadecuada a la terapia inmunosupresora.",
+      "Trombocitopenia en pacientes adultos con hepatitis C crónica para permitir el inicio y mantenimiento de la terapia antiviral basada en interferón."
+    ],
+    "offLabel": [
+      "Trombocitopenia en síndromes mielodisplásicos.",
+      "Prevención de trombocitopenia inducida por quimioterapia.",
+      "Trombocitopenia en enfermedad hepática crónica antes de procedimientos invasivos.",
+      "Trombocitopenia en pacientes con COVID-19 grave."
+    ]
+  },
+  "dosage": {
+    "adults": "PTI: Dosis inicial de 50 mg una vez al día. Para pacientes de origen asiático o con insuficiencia hepática leve a moderada, la dosis inicial es de 25 mg una vez al día. Ajustar la dosis según la respuesta plaquetaria, en incrementos de 25 mg cada 2 semanas. Rango de dosis: 25 mg a 75 mg una vez al día. Anemia Aplásica: Dosis inicial de 50 mg una vez al día. Para pacientes de origen asiático o con insuficiencia hepática leve a moderada, la dosis inicial es de 25 mg una vez al día. Ajustar la dosis según la respuesta. Hepatitis C: Dosis inicial de 25 mg una vez al día. Ajustar para mantener plaquetas necesarias para la terapia antiviral.",
+    "pediatric": "PTI (1 año y mayores): Dosis inicial basada en peso: Para peso ≥6 kg: 25 mg una vez al día. Para peso <6 kg: 1.2 mg/kg una vez al día. Ajustar según respuesta. Anemia Aplásica (2 años y mayores): Dosis inicial basada en peso: Para peso ≥12 kg: 25 mg una vez al día. Para peso 6 kg a <12 kg: 12.5 mg una vez al día. Para peso <6 kg: 1.5 mg/kg una vez al día. Ajustar según respuesta.",
+    "elderly": "No se requiere ajuste de dosis inicial basado únicamente en la edad. Sin embargo, se debe considerar una dosis más baja en pacientes ancianos debido a una mayor frecuencia de insuficiencia hepática, renal o cardiaca concomitante.",
+    "renalImpairment": "No se requiere ajuste de dosis en pacientes con insuficiencia renal leve a moderada (TFG ≥30 mL/min). En insuficiencia renal severa (TFG <30 mL/min) o en diálisis, se recomienda precaución y monitoreo estrecho, ya que la experiencia clínica es limitada. No se elimina significativamente por hemodiálisis.",
+    "hepaticImpairment": "Insuficiencia hepática leve (Child-Pugh A): Reducir la dosis inicial a la mitad (ej. 25 mg en PTI). Insuficiencia hepática moderada a severa (Child-Pugh B o C): No se recomienda su uso debido al riesgo de acumulación y toxicidad hepática.",
+    "maxDose": "La dosis máxima diaria recomendada es de 75 mg para PTI y anemia aplásica. Para hepatitis C, la dosis máxima es de 100 mg diarios."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta recubierta",
+      "strengths": [
+        "12.5 mg",
+        "25 mg",
+        "50 mg",
+        "75 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Polvo para suspensión oral",
+      "strengths": [
+        "25 mg por sobre"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al eltrombopag o a cualquier excipiente de la formulación.",
+      "Pacientes con insuficiencia hepática moderada a severa (Child-Pugh B o C)."
+    ],
+    "relative": [
+      "Pacientes con riesgo elevado de eventos tromboembólicos (historia de trombosis, inmovilización, neoplasias).",
+      "Pacientes con síndromes mielodisplásicos (riesgo de progresión a leucemia mieloide aguda).",
+      "Pacientes con enfermedad hepática crónica (precaución por riesgo de descompensación)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Dolor de cabeza (cefalea)",
+      "Náuseas",
+      "Diarrea",
+      "Alopecia (caída del cabello)",
+      "Pirexia (fiebre)",
+      "Fatiga",
+      "Tos",
+      "Aumento de enzimas hepáticas (transaminasas)"
+    ],
+    "common": [
+      "Dolor abdominal",
+      "Parestesias (hormigueo)",
+      "Sequedad de boca",
+      "Insomnio",
+      "Mialgias (dolor muscular)",
+      "Artralgias (dolor articular)",
+      "Edema periférico",
+      "Mareo",
+      "Prurito (comezón)",
+      "Erupción cutánea",
+      "Catarro (rinofaringitis)",
+      "Hemorragia nasal (epistaxis)"
+    ],
+    "uncommon": [
+      "Trombosis venosa o arterial",
+      "Cataratas",
+      "Síndrome de Stevens-Johnson",
+      "Fibrosis hepática",
+      "Hepatotoxicidad",
+      "Mielofibrosis",
+      "Hiperbilirrubinemia"
+    ],
+    "rare": [
+      "Progresión a leucemia mieloide aguda (en síndromes mielodisplásicos)",
+      "Nefritis intersticial",
+      "Reacción de hipersensibilidad severa (anafilaxia)"
+    ],
+    "blackBoxWarning": "Riesgo de hepatotoxicidad: Puede causar daño hepático severo. Se requiere monitoreo de función hepática antes y durante el tratamiento. Riesgo de fibrosis hepática y descompensación en pacientes con enfermedad hepática crónica."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Antiácidos (con aluminio, calcio, magnesio)",
+        "effect": "Disminuyen significativamente la absorción de eltrombopag. Se debe administrar eltrombopag al menos 2 horas antes o 4 horas después de estos productos.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Suplementos de hierro o multivitamínicos con minerales",
+        "effect": "Disminuyen la absorción de eltrombopag. Separar la administración al menos 2 horas.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Productos lácteos (leche, yogur, queso)",
+        "effect": "El calcio contenido reduce la absorción. Tomar eltrombopag al menos 2 horas antes o después de consumirlos.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Rosuvastatina",
+        "effect": "Eltrombopag puede aumentar las concentraciones plasmáticas de rosuvastatina, incrementando el riesgo de efectos adversos como miopatía. Se recomienda monitorizar y considerar reducir la dosis de rosuvastatina.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Repaglinida",
+        "effect": "Eltrombopag puede aumentar las concentraciones de repaglinida, aumentando el riesgo de hipoglucemia. Se requiere monitorización de glucosa.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Debe tomarse con el estómago vacío, al menos 1 hora antes o 2 horas después de cualquier comida. Los alimentos, especialmente aquellos ricos en calcio (lácteos) o cationes polivalentes, reducen drásticamente su absorción. Evitar el consumo de alcohol debido al riesgo adicional de hepatotoxicidad.",
+    "withSupplements": "Interactúa con suplementos que contengan calcio, hierro, zinc, magnesio o aluminio. Separar la administración al menos 2 horas. Los suplementos a base de hierbas con potencial hepatotóxico (como kava, chaparral, consuelda) deben evitarse."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "C",
+      "recommendation": "Solo debe usarse durante el embarazo si el beneficio potencial justifica claramente el riesgo potencial para el feto. No hay estudios adecuados y bien controlados en mujeres embarazadas. Se sabe que cruza la placenta en modelos animales. Se debe monitorizar el recuento de plaquetas del recién nacido, ya que puede haber trombocitosis o trombocitopenia.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se desconoce si eltrombopag se excreta en la leche humana. Dado el potencial de efectos adversos graves en el lactante, se recomienda suspender la lactancia materna o suspender el medicamento, considerando la importancia del tratamiento para la madre.",
+    "pediatric": "Aprobado para PTI a partir de 1 año y para anemia aplásica a partir de 2 años. La dosificación se basa en el peso corporal. Se debe monitorizar el crecimiento y desarrollo, así como la función hepática. La presentación en polvo para suspensión es más adecuada para niños pequeños.",
+    "geriatric": "Los pacientes de edad avanzada (≥65 años) pueden ser más sensibles a los efectos del fármaco. Es más probable que tengan insuficiencia hepática, renal o cardiaca, lo que requiere ajustes de dosis y monitorización más estrecha. Mayor riesgo de eventos tromboembólicos."
+  },
+  "administration": {
+    "howToTake": "Tomar exactamente como lo indique su médico. Tomar con el estómago vacío: al menos 1 hora antes o 2 horas después de cualquier comida. Tragar la tableta entera con un vaso de agua (no partir, triturar o masticar). Para la suspensión oral en polvo: mezclar el contenido del sobre con un pequeño volumen de agua fría o tibia (no caliente) en un vaso, revolver inmediatamente y beber toda la mezcla. Luego agregar un poco más de agua al mismo vaso, revolver y beber para asegurar la dosis completa. No mezclar con leche, bebidas carbonatadas o jugos. Tomar a la misma hora cada día.",
+    "storage": "Conservar a temperatura ambiente (entre 15°C y 30°C), en su envase original, protegido de la luz y la humedad. Mantener fuera del alcance de los niños. La suspensión preparada debe usarse inmediatamente; no almacenar.",
+    "specialInstructions": "No tome antiácidos, suplementos de hierro, calcio o productos lácteos (leche, yogur, queso) dentro de las 2 horas antes o las 4 horas después de tomar eltrombopag. Informe a su médico si es de origen asiático, ya que puede requerir una dosis inicial más baja. No deje de tomar el medicamento abruptamente sin consultar a su médico, ya que las plaquetas pueden bajar rápidamente."
+  },
+  "monitoring": {
+    "labTests": [
+      "Recuento completo de plaquetas (CSC)",
+      "Pruebas de función hepática (ALT, AST, bilirrubina total y directa)",
+      "Creatinina sérica y TFG",
+      "Recuento completo de células sanguíneas (hemoglobina, leucocitos)",
+      "Frotis de sangre periférica (para evaluar morfología celular)",
+      "Niveles de hierro y ferritina (en tratamiento a largo plazo)"
+    ],
+    "frequency": "Antes de iniciar el tratamiento. Semanalmente durante el ajuste de dosis. Cada 1-2 meses una vez establecida la dosis de mantenimiento. La función hepática debe monitorizarse cada 2 semanas durante los primeros 3 meses, luego mensualmente.",
+    "signsToWatch": [
+      "Sangrado inusual o severo (moretones grandes, sangrado de encías, sangre en orina o heces).",
+      "Signos de trombosis (dolor, hinchazón y enrojecimiento en una pierna; dolor torácico súbito, dificultad para respirar).",
+      "Signos de daño hepático (coloración amarillenta de piel u ojos, orina oscura, heces claras, dolor abdominal superior, fatiga extrema).",
+      "Erupción cutánea severa o ampollas.",
+      "Visión borrosa o cambios en la visión (posible catarata)."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Dolor de cabeza severo",
+      "Confusión",
+      "Mareo",
+      "Palpitaciones",
+      "Aumento excesivo del recuento de plaquetas (trombocitosis) con riesgo de trombosis",
+      "Náuseas y vómitos",
+      "Posible exacerbación de efectos hepatotóxicos"
+    ],
+    "treatment": "No existe un antídoto específico. El tratamiento es sintomático y de soporte. Suspender inmediatamente el eltrombopag. Monitorizar recuento de plaquetas y función hepática de cerca. En caso de trombocitosis extrema, puede considerarse la trombocitaféresis (procedimiento para reducir plaquetas). Manejar cualquier evento tromboembólico según protocolo.",
+    "antidote": "No disponible."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (receta retenida en algunos países). En México es de venta con receta médica.",
+    "scheduleMexico": "Medicamento de patente, sujeto a prescripción médica. No está incluido en el cuadro básico de medicamentos del Sector Salud, por lo que su acceso es principalmente por instituciones de salud especializadas o de forma privada.",
+    "fdaApprovalYear": "2008 (para PTI), 2012 (para hepatitis C), 2014 (para anemia aplásica)"
+  },
+  "brandsMexico": [
+    "Revolade",
+    "Promacta"
+  ],
+  "clinicalPearls": [
+    "La respuesta al eltrombopag puede variar según la etnia; pacientes de origen asiático requieren dosis inicial más bajas debido a diferencias farmacocinéticas.",
+    "Es crucial educar al paciente sobre la administración en ayunas y la separación de alimentos/suplementos con cationes para asegurar la eficacia.",
+    "El monitoreo de la función hepática es obligatorio, no opcional, debido al riesgo de hepatotoxicidad idiosincrásica y potencialmente grave."
+  ],
+  "patientCounseling": "Es muy importante que tome eltrombopag exactamente como se lo indicó su médico. Tómelo con el estómago vacío, al menos una hora antes o dos horas después de cualquier comida o refrigerio. Evite especialmente tomar leche, yogur, queso, antiácidos o vitaminas con hierro/calcio cerca de la hora de su dosis; sepárelos por al menos 2 horas. No deje de tomar este medicamento repentinamente, ya que sus plaquetas podrían bajar peligrosamente. Asista a todas sus citas de laboratorio para revisar sus plaquetas y la función de su hígado. Reporte de inmediato a su médico si nota moretones o sangrados inusuales, dolor o hinchazón en las piernas, dolor en el pecho, dificultad para respirar, piel u ojos amarillos, orina oscura o un sarpullido severo. Este medicamento le ayuda a aumentar sus plaquetas para reducir el riesgo de sangrado, pero requiere su compromiso con el horario y el monitoreo para ser seguro y efectivo.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Moretones frecuentes",
+        "slug": "moretones-frecuentes"
+      },
+      {
+        "name": "Sangrado de encías",
+        "slug": "sangrado-de-encias"
+      },
+      {
+        "name": "Hemorragias nasales",
+        "slug": "hemorragias-nasales"
+      },
+      {
+        "name": "Sangrado menstrual abundante",
+        "slug": "sangrado-menstrual-abundante"
+      },
+      {
+        "name": "Sangre en la orina",
+        "slug": "sangre-en-la-orina"
+      },
+      {
+        "name": "Sangre en las heces",
+        "slug": "sangre-en-las-heces"
+      },
+      {
+        "name": "Fatiga extrema",
+        "slug": "fatiga-extrema"
+      },
+      {
+        "name": "Puntos rojos en la piel (petequias)",
+        "slug": "puntos-rojos-en-la-piel-petequias"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Púrpura Trombocitopénica Inmune (PTI)",
+        "slug": "purpura-trombocitopenica-inmune-pti"
+      },
+      {
+        "name": "Anemia Aplásica Severa",
+        "slug": "anemia-aplasica-severa"
+      },
+      {
+        "name": "Hepatitis C crónica con trombocitopenia",
+        "slug": "hepatitis-c-cronica-con-trombocitopenia"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Trombosis venosa profunda",
+        "slug": "trombosis-venosa-profunda"
+      },
+      {
+        "name": "Embolia pulmonar",
+        "slug": "embolia-pulmonar"
+      },
+      {
+        "name": "Hepatitis tóxica",
+        "slug": "hepatitis-toxica"
+      },
+      {
+        "name": "Fibrosis hepática",
+        "slug": "fibrosis-hepatica"
+      },
+      {
+        "name": "Cataratas",
+        "slug": "cataratas"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Recuento de plaquetas",
+        "slug": "recuento-de-plaquetas",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Alanina aminotransferasa (ALT)",
+        "slug": "alanina-aminotransferasa-alt",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Aspartato aminotransferasa (AST)",
+        "slug": "aspartato-aminotransferasa-ast",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Bilirrubina total",
+        "slug": "bilirrubina-total",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Hierro sérico",
+        "slug": "hierro-serico",
+        "effect": "Puede alterar (aumentar depósitos)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Biometría Hemática Completa",
+        "slug": "biometria-hematica-completa",
+        "reason": "Para monitorear recuento de plaquetas, glóbulos rojos y blancos."
+      },
+      {
+        "name": "Perfil Hepático",
+        "slug": "perfil-hepatico",
+        "reason": "Para detectar tempranamente daño hepático inducido por el fármaco."
+      },
+      {
+        "name": "Frotis de Sangre Periférica",
+        "slug": "frotis-de-sangre-periferica",
+        "reason": "Para evaluar la morfología de las células sanguíneas y descartar otros trastornos."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve el eltrombopag?",
+      "a": "Sirve para aumentar el número de plaquetas en la sangre en personas que tienen enfermedades donde las plaquetas están muy bajas, como la Púrpura Trombocitopénica Inmune (PTI), la Anemia Aplásica Severa o en pacientes con hepatitis C que necesitan tratamiento antiviral pero tienen las plaquetas bajas. Al subir las plaquetas, reduce el riesgo de sangrados y moretones."
+    },
+    {
+      "q": "¿Cómo debo tomar el eltrombopag?",
+      "a": "Debe tomarlo con el estómago vacío, al menos 1 hora antes o 2 horas después de cualquier comida. Trague la tableta entera con un vaso de agua. Es muy importante no tomarlo junto con leche, yogur, queso, antiácidos o vitaminas que contengan hierro o calcio; debe separar la toma de estos productos por al menos 2 horas."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Generalmente, el aumento en el número de plaquetas comienza a notarse después de 1 a 2 semanas de tomar el medicamento todos los días. Sin embargo, el tiempo para alcanzar un nivel estable y seguro puede variar de persona a persona."
+    },
+    {
+      "q": "¿Qué pasa si me olvido de tomar una dosis?",
+      "a": "Si se olvida de tomar una dosis, tómela tan pronto como lo recuerde, pero solo si faltan más de 12 horas para la siguiente dosis programada. Si faltan menos de 12 horas, omita la dosis olvidada y tome la siguiente a la hora habitual. Nunca duplique la dosis para compensar la olvidada."
+    },
+    {
+      "q": "¿El eltrombopag tiene muchos efectos secundarios?",
+      "a": "Como todos los medicamentos, puede causar efectos secundarios. Los más comunes son dolor de cabeza, náuseas, diarrea, caída del cabello y cansancio. También puede afectar el hígado, por lo que su médico le pedirá análisis de sangre regularmente. Es importante reportar cualquier efecto nuevo o severo."
+    },
+    {
+      "q": "¿Puedo tomar eltrombopag si estoy embarazada o planeando embarazarme?",
+      "a": "No se recomienda su uso durante el embarazo a menos que sea absolutamente necesario y su médico lo considere esencial. Debe hablar con su médico si está embarazada, planea estarlo o si queda embarazada durante el tratamiento. Existe un riesgo potencial para el feto."
+    },
+    {
+      "q": "¿Puedo amamantar mientras tomo este medicamento?",
+      "a": "No se sabe si el medicamento pasa a la leche materna. Debido al riesgo potencial de efectos graves en el bebé, generalmente se recomienda no amamantar mientras se toma eltrombopag. Debe discutir las opciones con su médico."
+    },
+    {
+      "q": "¿El eltrombopag es lo mismo que las inyecciones para subir las plaquetas?",
+      "a": "No, es diferente. El eltrombopag es una tableta que se toma por boca y actúa estimulando a la médula ósea para que produzca más plaquetas. Otros tratamientos, como las inmunoglobulinas intravenosas o el romiplostim (inyectado), tienen mecanismos de acción diferentes."
+    },
+    {
+      "q": "¿Por qué debo hacerme análisis de sangre tan seguido?",
+      "a": "Los análisis de sangre son esenciales para verificar que las plaquetas estén subiendo a un nivel seguro, pero no demasiado alto (lo que podría causar coágulos). También sirven para monitorear la función del hígado, ya que el medicamento puede causar daño hepático. Este monitoreo asegura que el tratamiento sea efectivo y seguro."
+    },
+    {
+      "q": "¿Puedo tomar alcohol mientras esté en tratamiento con eltrombopag?",
+      "a": "Se recomienda evitar el consumo de alcohol. El alcohol también puede afectar el hígado, y combinado con el eltrombopag podría aumentar el riesgo de daño hepático. Consulte siempre con su médico."
+    },
+    {
+      "q": "¿Este medicamento me puede dar coágulos en la sangre?",
+      "a": "Sí, existe un riesgo, aunque no es muy común. El eltrombopag, al aumentar las plaquetas, puede aumentar la posibilidad de formar coágulos sanguíneos (trombosis), especialmente si ya tiene otros factores de riesgo. Reporte de inmediato dolor o hinchazón en una pierna, dolor de pecho súbito o dificultad para respirar."
+    },
+    {
+      "q": "¿Cuánto tiempo tendré que tomar eltrombopag?",
+      "a": "La duración del tratamiento depende de su enfermedad y respuesta. Para la PTI, a veces se usa de forma continua para mantener las plaquetas estables. En otros casos, como en hepatitis C, se usa solo durante el tiempo que dure la terapia antiviral. Su médico le indicará el plan."
+    },
+    {
+      "q": "¿Qué hago si tengo una sobredosis?",
+      "a": "En caso de una sobredosis (tomar muchas más tabletas de las indicadas), busque atención médica de emergencia inmediatamente o llame al Centro de Toxicología. Los síntomas pueden incluir dolor de cabeza severo, confusión y un aumento peligroso de plaquetas. Lleve el frasco del medicamento consigo."
+    },
+    {
+      "q": "¿El eltrombopag interactúa con otros medicamentos?",
+      "a": "Sí, interactúa principalmente con productos que contienen calcio, hierro, aluminio o magnesio (como antiácidos y multivitamínicos), reduciendo su absorción. También puede interactuar con algunos medicamentos para el colesterol (rosuvastatina) y la diabetes (repaglinida). Informe a su médico sobre TODOS los medicamentos y suplementos que usa."
+    },
+    {
+      "q": "¿Puedo partir o triturar la tableta si me cuesta tragarla?",
+      "a": "No. Las tabletas de eltrombopag deben tragarse enteras con agua. No las parta, mastique ni triture, ya que esto puede alterar la forma en que el cuerpo absorbe el medicamento. Si tiene dificultad, consulte a su médico sobre la presentación en polvo para suspensión oral."
+    },
+    {
+      "q": "¿El eltrombopag cura mi enfermedad?",
+      "a": "No es una cura para la PTI o la anemia aplásica. Es un tratamiento que ayuda a controlar la enfermedad aumentando las plaquetas y reduciendo los síntomas de sangrado. En algunos casos, especialmente en anemia aplásica, puede inducir una respuesta duradera que permita suspender el medicamento."
+    },
+    {
+      "q": "¿Qué pasa si mis plaquetas suben demasiado?",
+      "a": "Si las plaquetas suben por encima del rango seguro (generalmente >400,000/µL), hay un mayor riesgo de formar coágulos. Su médico reducirá la dosis o suspenderá temporalmente el medicamento. Es por eso que el monitoreo frecuente con análisis de sangre es crucial."
+    },
+    {
+      "q": "¿Puedo recibir vacunas mientras tomo eltrombopag?",
+      "a": "Consulte con su médico. En general, las vacunas con virus vivos atenuados (como la vacuna contra la varicela, sarampión-paperas-rubéola) deben evitarse, ya que su sistema inmunológico puede estar afectado. Las vacunas inactivadas (como la influenza inyectable) suelen ser seguras."
+    },
+    {
+      "q": "¿El eltrombopag afecta los riñones?",
+      "a": "No es el principal órgano afectado. Sin embargo, en casos raros se ha reportado inflamación renal (nefritis intersticial). Además, en pacientes con insuficiencia renal severa, se debe usar con precaución debido a la falta de datos. Su médico monitoreará su función renal."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre Revolade y Promacta?",
+      "a": "Son dos nombres comerciales para el mismo principio activo: eltrombopag. Revolade es el nombre comercial utilizado por Novartis en muchos países, incluido México. Promacta es el nombre comercial utilizado por la compañía original (GlaxoSmithKline) en Estados Unidos y otros mercados. Ambos son exactamente el mismo medicamento."
+    }
+  ]
+}

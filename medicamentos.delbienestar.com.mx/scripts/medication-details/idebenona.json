@@ -1,0 +1,395 @@
+{
+  "name": "Idebenona",
+  "summary": "La idebenona es un medicamento sintético similar a la coenzima Q10, que actúa como un potente antioxidante y neuroprotector. Se utiliza principalmente para tratar síntomas cognitivos y funcionales en pacientes con enfermedades neurodegenerativas como la enfermedad de Alzheimer y otras demencias. Su importancia clínica radica en su capacidad para mejorar la función mitocondrial en las células cerebrales, reducir el estrés oxidativo que daña las neuronas y potencialmente enlentecer la progresión del deterioro cognitivo, ofreciendo una opción terapéutica para condiciones donde las opciones son limitadas y el manejo sintomático es crucial para mantener la calidad de vida del paciente y sus cuidadores.",
+  "pharmacology": {
+    "mechanismOfAction": "La idebenona actúa principalmente como un potente antioxidante lipofílico que protege las membranas celulares del daño por radicales libres. Su mecanismo clave es mejorar la función mitocondrial al actuar como un transportador de electrones en la cadena respiratoria, similar a la coenzima Q10, pero con mayor biodisponibilidad y capacidad para penetrar la barrera hematoencefálica. Esto ayuda a estabilizar la producción de energía (ATP) en las neuronas, que está comprometida en las enfermedades neurodegenerativas. Además, inhibe la peroxidación lipídica, reduce la formación de especies reactivas de oxígeno (ROS) y puede modular la actividad de factores neurotróficos, contribuyendo a la supervivencia neuronal y la plasticidad sináptica.",
+    "pharmacologicClass": "Quinona sintética, análogo de la coenzima Q10 (ubiquinona), antioxidante lipofílico, neuroprotector, potenciador de la función mitocondrial.",
+    "therapeuticClass": "Agente neuroprotector y nootrópico para el tratamiento de trastornos cognitivos y demencias.",
+    "absorption": "Se absorbe bien por vía oral, pero su biodisponibilidad absoluta es moderada (alrededor del 30-40%) debido a un efecto de primer paso hepático significativo. La presencia de alimentos, especialmente aquellos con alto contenido de grasa, puede aumentar su absorción. Alcanza concentraciones plasmáticas máximas (Tmax) aproximadamente 1 a 3 horas después de la administración oral.",
+    "distribution": "Se distribuye ampliamente en los tejidos debido a su naturaleza lipofílica. Cruza eficazmente la barrera hematoencefálica, lo que le permite alcanzar concentraciones terapéuticas en el sistema nervioso central. Su unión a proteínas plasmáticas es alta, superior al 95%. El volumen de distribución (Vd) es grande, indicando una amplia distribución en los tejidos corporales.",
+    "metabolism": "Se metaboliza extensamente en el hígado, principalmente mediante reducción de la quinona a su forma hidroquinona (metabolito activo) y posterior conjugación (glucuronidación y sulfatación). Las enzimas del citocromo P450 (CYP) participan de forma limitada en su metabolismo, siendo el sistema de reductasas quinonas (como NQO1) más relevante. Esto reduce el potencial de interacciones farmacocinéticas significativas con medicamentos que afectan al CYP.",
+    "elimination": "Se elimina principalmente por vía biliar y fecal (aproximadamente 60-70%), y en menor medida por la orina (alrededor del 30%). Su vida media de eliminación es relativamente corta, de aproximadamente 3 a 6 horas, lo que justifica la administración en dosis múltiples al día para mantener un efecto sostenido.",
+    "onsetOfAction": "Los efectos sobre parámetros bioquímicos (como la reducción del estrés oxidativo) pueden comenzar en horas. Sin embargo, los efectos clínicos observables en la cognición y el comportamiento generalmente requieren varias semanas (de 4 a 12 semanas) de tratamiento continuo para ser evidentes.",
+    "durationOfAction": "La duración del efecto farmacológico directo está ligada a su vida media plasmática. Los beneficios clínicos acumulativos en la función cognitiva pueden persistir mientras se mantenga el tratamiento, pero suelen revertirse gradualmente si se suspende el medicamento."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento sintomático de deterioro cognitivo leve a moderado en la enfermedad de Alzheimer",
+      "Tratamiento coadyuvante de déficits cognitivos en otras demencias degenerativas (como demencia vascular mixta)",
+      "Mejora de síntomas conductuales asociados a demencias (como apatía, irritabilidad)"
+    ],
+    "offLabel": [
+      "Neuroprotección en enfermedad de Parkinson (para síntomas no motores)",
+      "Tratamiento de la ataxia de Friedreich (en investigación, no aprobado en México para esto)",
+      "Mejora cognitiva post-accidente cerebrovascular",
+      "Fatiga cognitiva en esclerosis múltiple",
+      "Síndrome de Down con deterioro cognitivo"
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis inicial típica es de 90 mg tres veces al día (270 mg/día) con las comidas. La dosis de mantenimiento puede ajustarse según tolerancia y respuesta, comúnmente entre 180 mg y 360 mg al día, divididos en 2 o 3 tomas. Algunos esquemas sugieren 60 mg tres veces al día para iniciar.",
+    "pediatric": "No está aprobado para uso pediátrico rutinario en demencias. En contextos de investigación para enfermedades mitocondriales pediátricas, las dosis se calculan por peso corporal, típicamente 5-10 mg/kg/día, divididos en 2-3 dosis. Siempre bajo supervisión especializada.",
+    "elderly": "No se requieren ajustes de dosis basados únicamente en la edad. Sin embargo, se debe iniciar con la dosis más baja efectiva (ej. 60 mg tres veces al día) debido a la mayor probabilidad de comorbilidades, polifarmacia y disminución de la función hepática/renal, monitorizando estrechamente la tolerancia.",
+    "renalImpairment": "No se requieren ajustes de dosis en insuficiencia renal leve a moderada (TFG ≥ 30 mL/min). En insuficiencia renal grave (TFG < 30 mL/min) o en diálisis, se recomienda precaución y considerar una reducción de dosis (ej. iniciar con 60 mg dos veces al día) debido a la falta de datos específicos, aunque su eliminación renal es limitada.",
+    "hepaticImpairment": "Se debe usar con precaución en pacientes con insuficiencia hepática leve a moderada (Child-Pugh A y B). Se recomienda iniciar con dosis bajas (ej. 60 mg dos veces al día) y ajustar lentamente. Está contraindicado en insuficiencia hepática grave (Child-Pugh C) debido a que se metaboliza extensamente en el hígado.",
+    "maxDose": "La dosis máxima diaria recomendada generalmente es de 360 mg (por ejemplo, 120 mg tres veces al día). Dosis superiores no han demostrado mayor eficacia y pueden aumentar el riesgo de efectos adversos."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "30 mg",
+        "60 mg",
+        "90 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Cápsula",
+      "strengths": [
+        "45 mg",
+        "90 mg"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la idebenona o a cualquier componente de la formulación",
+      "Insuficiencia hepática grave (Child-Pugh C)",
+      "Porfiria aguda intermitente (puede precipitar crisis)"
+    ],
+    "relative": [
+      "Insuficiencia renal grave (TFG < 30 mL/min) o en diálisis",
+      "Insuficiencia hepática leve a moderada (Child-Pugh A y B)",
+      "Historia de hipotensión ortostática severa",
+      "Embarazo y lactancia (evaluar riesgo-beneficio)",
+      "Pacientes con trastornos hemorrágicos o en tratamiento anticoagulante (por posible interacción)"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Náuseas leves",
+      "Malestar estomacal o dispepsia",
+      "Dolor de cabeza leve y transitorio"
+    ],
+    "common": [
+      "Diarrea o heces blandas",
+      "Dolor abdominal",
+      "Pérdida de apetito",
+      "Insomnio o somnolencia (paradójico)",
+      "Mareo o aturdimiento",
+      "Erupción cutánea leve o prurito"
+    ],
+    "uncommon": [
+      "Vómitos",
+      "Acidez estomacal (pirosis)",
+      "Ansiedad o nerviosismo",
+      "Cambios en el gusto (disgeusia)",
+      "Fatiga",
+      "Hipotensión ortostática (mareo al levantarse)",
+      "Elevación asintomática de enzimas hepáticas (transaminasas)"
+    ],
+    "rare": [
+      "Urticaria o reacciones alérgicas cutáneas más severas",
+      "Síntomas similares a la gripe",
+      "Palpitaciones",
+      "Confusión o agitación (especialmente en pacientes muy ancianos)",
+      "Anemia (muy rara)",
+      "Hepatitis medicamentosa (extremadamente rara)"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Warfarina y otros anticoagulantes cumarínicos",
+        "effect": "La idebenona puede potencialmente potenciar el efecto anticoagulante, aumentando el riesgo de sangrado. Se cree que es por interferencia en el metabolismo hepático o efectos sinérgicos.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Hipoglucemiantes orales (como glibenclamida) o insulina",
+        "effect": "Puede potenciar el efecto reductor de glucosa en sangre, aumentando el riesgo de hipoglucemia. Monitorizar glucosa estrechamente.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Antihipertensivos (como betabloqueadores, IECA, diuréticos)",
+        "effect": "Puede potenciar el efecto hipotensor, aumentando el riesgo de mareo, síncope o hipotensión ortostática.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Se recomienda administrar CON ALIMENTOS, especialmente aquellos que contengan grasas, ya que esto mejora significativamente su absorción y reduce las molestias gastrointestinales. El alcohol debe consumirse con moderación, ya que puede potenciar efectos como mareo o somnolencia.",
+    "withSupplements": "Puede tener efectos aditivos con otros suplementos antioxidantes (como vitamina E, coenzima Q10, ácido alfa-lipoico), aunque generalmente es seguro. Se debe tener precaución con suplementos que afecten la coagulación (como Ginkgo biloba, ajo en altas dosis) por riesgo de sangrado. Consultar con el médico antes de combinar."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA C",
+      "recommendation": "No se recomienda su uso durante el embarazo a menos que el beneficio potencial justifique claramente el riesgo para el feto. Los estudios en animales han mostrado toxicidad reproductiva a dosis altas. En mujeres en edad fértil, se debe usar un método anticonceptivo efectivo durante el tratamiento.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se desconoce si la idebenona se excreta en la leche materna humana. Dada su naturaleza lipofílica y potencial de efectos en el lactante, se recomienda evitar la lactancia materna durante el tratamiento o suspender el medicamento, evaluando el riesgo-beneficio con el médico.",
+    "pediatric": "No está indicado para el tratamiento de demencias en niños. Su uso en pediatría se limita a condiciones de investigación o enfermedades mitocondriales específicas (como la ataxia de Friedreich) bajo estricta supervisión de un neurólogo pediatra. La seguridad y eficacia para otras indicaciones no están establecidas.",
+    "geriatric": "Es la población principal de uso. Se debe iniciar con dosis bajas y aumentar gradualmente. Monitorizar estrechamente la aparición de efectos adversos gastrointestinales, mareo (riesgo de caídas) e interacciones con la polifarmacia común en este grupo. Evaluar función renal y hepática basal."
+  },
+  "administration": {
+    "howToTake": "Tomar las tabletas o cápsulas POR VÍA ORAL, preferentemente DURANTE O INMEDIATAMENTE DESPUÉS DE LAS COMIDAS PRINCIPALES (desayuno, comida y cena) para mejorar la absorción y minimizar molestias estomacales. Tragar la tableta entera con un vaso lleno de agua (aproximadamente 240 ml). No partir, masticar ni triturar a menos que el médico lo indique. Si se olvida una dosis, tomarla tan pronto como se recuerde, pero si ya es casi la hora de la siguiente dosis, omitir la dosis olvidada y continuar con el horario normal. NO duplicar la dosis.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (entre 15°C y 30°C), en un lugar seco y alejado de la luz directa del sol, el calor y la humedad (NO en el baño o la cocina). Mantener fuera del alcance y la vista de los niños y mascotas.",
+    "specialInstructions": "Este medicamento NO CURA la enfermedad de Alzheimer u otras demencias, pero puede ayudar a enlentecer la progresión de los síntomas y mejorar la calidad de vida. El tratamiento es generalmente a largo plazo. No suspender abruptamente sin consultar al médico. Los efectos pueden tardar varias semanas en ser notorios. Informar al médico si se planea una cirugía o procedimiento dental, ya que puede ser necesario ajustar la medicación."
+  },
+  "monitoring": {
+    "labTests": [
+      "Pruebas de función hepática (ALT, AST, bilirrubina) basal y periódicamente (cada 6-12 meses)",
+      "Hemograma completo (especialmente en tratamientos prolongados)",
+      "Función renal (creatinina, TFG) basal",
+      "Niveles de glucosa en sangre (en pacientes diabéticos)"
+    ],
+    "frequency": "Evaluación clínica (cognición, conducta, funcionalidad) cada 3-6 meses. Pruebas de laboratorio (hígado) cada 6-12 meses o según síntomas. Monitoreo más frecuente al inicio del tratamiento o tras ajustes de dosis.",
+    "signsToWatch": [
+      "Sangrado inusual (moretones, sangrado de encías, heces negras)",
+      "Coloración amarillenta de piel u ojos (ictericia)",
+      "Orina muy oscura",
+      "Fatiga extrema o debilidad nueva",
+      "Mareo severo o desmayos",
+      "Erupción cutánea severa o ampollas",
+      "Dolor abdominal intenso o persistente",
+      "Empeoramiento abrupto de la confusión o agitación"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Náuseas y vómitos severos",
+      "Diarrea profusa",
+      "Mareo intenso o vértigo",
+      "Hipotensión severa (presión baja peligrosa)",
+      "Somnolencia extrema o letargo",
+      "Posiblemente convulsiones (en casos muy graves y raros)"
+    ],
+    "treatment": "No existe un antídoto específico. El tratamiento es de soporte y sintomático. En caso de ingestión reciente (menos de 1-2 horas), considerar lavado gástrico o carbón activado. Monitorizar signos vitales (presión arterial, frecuencia cardíaca), brindar soporte respiratorio si es necesario y corregir la hipotensión con fluidos intravenosos. La diálisis no es efectiva debido a su alta unión a proteínas.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Rx)",
+    "scheduleMexico": "Medicamento de patente, sujeto a prescripción médica. No está incluido en un cuadro básico de fármacos de alto impacto, por lo que su disponibilidad puede ser en farmacias de especialidad o mediante pedido.",
+    "fdaApprovalYear": "La idebenona NO está aprobada por la FDA de EE.UU. para la enfermedad de Alzheimer. Está aprobada en varios países de Europa, Asia y Latinoamérica (incluido México) para indicaciones cognitivas. Su desarrollo clínico para otras enfermedades (como ataxia de Friedreich) está en fases avanzadas."
+  },
+  "brandsMexico": [
+    "Ideben",
+    "Cerebrotec",
+    "Neuroquinon",
+    "Memox",
+    "Cognidex",
+    "Idebenona Genfar",
+    "Idebenona PiSA",
+    "Neuronox"
+  ],
+  "clinicalPearls": [
+    "La respuesta a la idebenona es variable; algunos pacientes muestran mejoría notable en fluidez verbal y atención, mientras que en otros el efecto es más sutil, estabilizando el deterioro. Es clave establecer expectativas realistas con el paciente y la familia.",
+    "Su perfil de seguridad es generalmente favorable, con efectos adversos predominantemente gastrointestinales y leves. Esto la hace una opción atractiva en pacientes ancianos frágiles o con polifarmacia, donde otros psicofármacos pueden ser mal tolerados.",
+    "Aunque se clasifica para Alzheimer, puede ser particularmente útil en demencias mixtas (Alzheimer + vascular) debido a su doble mecanismo neuroprotector y de mejora del metabolismo energético neuronal, que está afectado en ambos tipos de daño."
+  ],
+  "patientCounseling": "Tome la idebenona exactamente como se lo recetó su médico, con alimentos para que le caiga mejor al estómago. No deje de tomarla aunque se sienta bien o no note cambios inmediatos; los beneficios para la memoria y la claridad mental pueden tardar varias semanas en hacerse evidentes. Es importante que asista a todas sus citas de seguimiento para que el médico evalúe cómo va respondiendo y ajuste la dosis si es necesario. Informe de inmediato a su médico si presenta malestar estomacal severo, mareos fuertes al pararse, moretones o sangrados fáciles, o si la piel se pone amarilla. Este medicamento es parte de un plan integral que debe incluir una dieta saludable, actividad física regular, estimulación mental y un buen apoyo familiar. Nunca comparta sus medicamentos con otra persona, aunque tengan síntomas similares.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Pérdida de memoria reciente",
+        "slug": "perdida-de-memoria-reciente"
+      },
+      {
+        "name": "Dificultad para encontrar palabras",
+        "slug": "dificultad-para-encontrar-palabras"
+      },
+      {
+        "name": "Desorientación en tiempo o lugar",
+        "slug": "desorientacion-en-tiempo-o-lugar"
+      },
+      {
+        "name": "Apatía o falta de iniciativa",
+        "slug": "apatia-o-falta-de-iniciativa"
+      },
+      {
+        "name": "Irritabilidad o cambios de ánimo",
+        "slug": "irritabilidad-o-cambios-de-animo"
+      },
+      {
+        "name": "Dificultad para realizar tareas complejas",
+        "slug": "dificultad-para-realizar-tareas-complejas"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Enfermedad de Alzheimer",
+        "slug": "enfermedad-de-alzheimer"
+      },
+      {
+        "name": "Demencia vascular",
+        "slug": "demencia-vascular"
+      },
+      {
+        "name": "Demencia mixta (Alzheimer y vascular)",
+        "slug": "demencia-mixta"
+      },
+      {
+        "name": "Deterioro cognitivo leve",
+        "slug": "deterioro-cognitivo-leve"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Hepatitis medicamentosa",
+        "slug": "hepatitis-medicamentosa"
+      },
+      {
+        "name": "Hipotensión ortostática",
+        "slug": "hipotension-ortostatica"
+      },
+      {
+        "name": "Dispepsia o gastritis",
+        "slug": "dispepsia-o-gastritis"
+      },
+      {
+        "name": "Reacción alérgica cutánea",
+        "slug": "reaccion-alergica-cutanea"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Alanina aminotransferasa (ALT)",
+        "slug": "alanina-aminotransferasa-alt",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Aspartato aminotransferasa (AST)",
+        "slug": "aspartato-aminotransferasa-ast",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Tiempo de protrombina (TP) / INR",
+        "slug": "tiempo-de-protrombina-tp-inr",
+        "effect": "Puede elevar (aumentar)"
+      },
+      {
+        "name": "Glucosa en sangre",
+        "slug": "glucosa-en-sangre",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Marcadores de estrés oxidativo (ej. MDA)",
+        "slug": "marcadores-de-estres-oxidativo",
+        "effect": "Puede disminuir"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Pruebas de función hepática (Perfil hepático)",
+        "slug": "pruebas-de-funcion-hepatica",
+        "reason": "Para detectar elevación de enzimas hepáticas, un efecto adverso potencial."
+      },
+      {
+        "name": "Hemograma completo",
+        "slug": "hemograma-completo",
+        "reason": "Para monitorear posibles efectos en las células sanguíneas a largo plazo."
+      },
+      {
+        "name": "Evaluación neuropsicológica",
+        "slug": "evaluacion-neuropsicologica",
+        "reason": "Para medir objetivamente la respuesta del tratamiento en memoria y otras funciones cognitivas."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      },
+      {
+        "name": "Calculadora de IMC",
+        "slug": "calculadora-imc"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve la idebenona?",
+      "a": "La idebenona sirve principalmente para tratar los síntomas de pérdida de memoria, confusión y dificultad para pensar en personas con enfermedades como el Alzheimer y otras demencias. Actúa protegiendo las células del cerebro del daño y mejorando su energía, lo que puede ayudar a enlentecer el avance de estos problemas."
+    },
+    {
+      "q": "¿La idebenona cura el Alzheimer?",
+      "a": "No, la idebenona NO cura el Alzheimer. Es un tratamiento sintomático y neuroprotector, lo que significa que puede ayudar a mejorar algunos síntomas (como la memoria y la claridad mental) y potencialmente retrasar la progresión de la enfermedad, pero no la elimina ni revierte el daño cerebral ya existente."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto la idebenona?",
+      "a": "Los efectos sobre la memoria y el comportamiento pueden tardar varias semanas (entre 4 y 12 semanas) en ser notorios. Es importante tener paciencia y no suspender el tratamiento, ya que sus beneficios suelen acumularse con el uso continuo."
+    },
+    {
+      "q": "¿Cómo debo tomar la idebenona: con o sin alimentos?",
+      "a": "Debe tomarse CON ALIMENTOS, preferentemente durante las comidas principales (desayuno, comida, cena). Esto ayuda a que se absorba mejor y reduce significativamente la posibilidad de malestar estomacal, que es un efecto común."
+    },
+    {
+      "q": "¿Qué hago si se me olvida una dosis?",
+      "a": "Si se le olvida una dosis, tómela tan pronto como lo recuerde. Sin embargo, si ya es casi la hora de su siguiente dosis programada, omita la dosis olvidada y continúe con su horario normal. NUNCA duplique la dosis para compensar la que olvidó."
+    },
+    {
+      "q": "¿La idebenona produce sueño o mareos?",
+      "a": "Puede causar mareos leves o somnolencia en algunas personas, especialmente al inicio del tratamiento. Es menos común que cause sueño intenso. Si siente mareo, levántese lentamente de la cama o de la silla. Si el mareo o la somnolencia son severos o interfieren con sus actividades, consulte a su médico."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si estoy con idebenona?",
+      "a": "Se recomienda moderación o evitar el consumo de alcohol. El alcohol puede aumentar los efectos de mareo o somnolencia causados por el medicamento. Consulte con su médico sobre qué nivel de consumo, si alguno, es seguro para usted."
+    },
+    {
+      "q": "¿La idebenona interactúa con otros medicamentos?",
+      "a": "Sí, puede interactuar. Es importante informar a su médico sobre TODOS los medicamentos que toma, incluyendo anticoagulantes (como warfarina), medicamentos para la presión alta, para la diabetes y suplementos herbales (como Ginkgo biloba). Su médico ajustará las dosis si es necesario."
+    },
+    {
+      "q": "¿Qué efectos secundarios son los más comunes?",
+      "a": "Los efectos secundarios más comunes son leves e incluyen malestar estomacal, náuseas, diarrea leve y dolor de cabeza. Estos suelen mejorar después de los primeros días o semanas de tratamiento, especialmente si se toma con alimentos."
+    },
+    {
+      "q": "¿Debo hacerme análisis de sangre mientras tomo idebenona?",
+      "a": "Sí, su médico probablemente le pedirá análisis de sangre periódicos, especialmente pruebas de función hepática, para asegurarse de que el medicamento no esté afectando su hígado. Esto es una precaución rutinaria."
+    },
+    {
+      "q": "¿Puedo manejar o operar maquinaria con este medicamento?",
+      "a": "Tenga precaución al manejar o usar maquinaria, especialmente durante los primeros días de tratamiento, hasta que sepa cómo le afecta. Si experimenta mareos, somnolencia o visión borrosa, evite estas actividades hasta que los síntomas desaparezcan."
+    },
+    {
+      "q": "¿La idebenona es lo mismo que la coenzima Q10?",
+      "a": "No es lo mismo, pero es un compuesto sintético muy similar y más potente. Tiene una estructura química parecida a la coenzima Q10 (ubiquinona), pero está diseñada para absorberse mejor y llegar más eficazmente al cerebro."
+    },
+    {
+      "q": "¿Se puede usar en personas con diabetes?",
+      "a": "Sí, pero con precaución. La idebenona puede potenciar el efecto de los medicamentos para la diabetes (hipoglucemiantes o insulina), aumentando el riesgo de que baje demasiado el azúcar en sangre (hipoglucemia). Los pacientes diabéticos deben monitorear sus niveles de glucosa más seguido al inicio del tratamiento."
+    },
+    {
+      "q": "¿Qué pasa si tomo una dosis mayor a la indicada?",
+      "a": "Tomar una dosis mayor puede causar náuseas, vómitos, diarrea severa, mareo intenso y presión arterial muy baja. En caso de sobredosis accidental, busque atención médica inmediata o llame al centro de toxicología. No provoque el vómito a menos que lo indique un profesional."
+    },
+    {
+      "q": "¿Pueden tomarla personas con problemas del hígado o riñón?",
+      "a": "Con problemas hepáticos leves a moderados se puede usar con precaución y dosis reducidas. Está contraindicada en insuficiencia hepática grave. En insuficiencia renal, generalmente no requiere ajuste, pero en casos graves se recomienda precaución. Su médico decidirá basado en sus exámenes."
+    },
+    {
+      "q": "¿Es seguro para adultos mayores frágiles?",
+      "a": "Sí, generalmente es bien tolerado en adultos mayores y es una opción común para ellos. Sin embargo, se suele iniciar con dosis bajas para minimizar efectos como mareos (que pueden causar caídas) y se monitorea de cerca por posibles interacciones con otros medicamentos que tomen."
+    },
+    {
+      "q": "¿La idebenona ayuda con los cambios de conducta como la agresividad?",
+      "a": "Puede ayudar indirectamente. Al mejorar la claridad mental y reducir la confusión, algunos pacientes muestran menos irritabilidad, agitación o apatía. Sin embargo, para síntomas conductuales severos como agresividad, suele necesitarse combinación con otros tratamientos específicos recetados por el psiquiatra o neurólogo."
+    },
+    {
+      "q": "¿Existe riesgo de dependencia o síndrome de abstinencia?",
+      "a": "No, la idebenona no causa dependencia física ni psicológica, y no se han reportado síndromes de abstinencia al suspenderla. Sin embargo, se debe suspender gradualmente bajo supervisión médica, ya que los síntomas de la demencia podrían reaparecer o empeorar."
+    },
+    {
+      "q": "¿Cómo se compara la idebenona con otros medicamentos para Alzheimer como donepezilo?",
+      "a": "Tienen mecanismos diferentes. El donepezilo aumenta un neurotransisor (acetilcolina). La idebenona es un antioxidante y neuroprotector. A menudo se usan en combinación, ya que pueden tener efectos complementarios. La idebenona suele tener menos efectos secundarios gastrointestinales severos que los inhibidores de colinesterasa."
+    },
+    {
+      "q": "¿Cuál es la evidencia científica que respalda su uso en demencias?",
+      "a": "Varios estudios clínicos controlados han demostrado que la idebenona puede mejorar significativamente las puntuaciones en escalas de evaluación cognitiva y funcional en pacientes con Alzheimer leve a moderado, comparado con placebo. Su efecto es considerado modesto pero clínicamente relevante, especialmente en el contexto de un manejo integral, y su perfil de seguridad es favorable."
+    }
+  ]
+}

@@ -1,0 +1,423 @@
+{
+  "name": "Ceftriaxona",
+  "summary": "La ceftriaxona es un antibiótico potente de la familia de las cefalosporinas de tercera generación, que se administra mediante inyección intramuscular o intravenosa. Sirve para tratar una amplia variedad de infecciones bacterianas graves, como neumonía, meningitis, infecciones de la piel, huesos, articulaciones, abdomen, riñones y sangre (sepsis), así como infecciones de transmisión sexual como la gonorrea. Su importancia clínica es enorme porque tiene un espectro de acción muy amplio, es estable frente a muchas enzimas que destruyen otros antibióticos, y su larga vida media permite administrarla una o dos veces al día, lo que facilita el tratamiento tanto en el hospital como de manera ambulatoria, reduciendo la necesidad de hospitalización prolongada. Es un pilar fundamental en el manejo de infecciones comunitarias y nosocomiales en México.",
+  "pharmacology": {
+    "mechanismOfAction": "La ceftriaxona es un antibiótico bactericida, lo que significa que mata directamente a las bacterias. Su mecanismo de acción consiste en unirse de manera irreversible a unas proteínas específicas en la pared de la bacteria llamadas Proteínas Fijadoras de Penicilina (PBP). Estas proteínas son esenciales para la síntesis y reparación de la pared celular bacteriana. Al unirse a ellas, la ceftriaxona bloquea el último paso de la formación de esta pared, que es la creación de enlaces cruzados entre las cadenas de peptidoglicano. Esto debilita estructuralmente la pared celular, la cual, al no poder soportar la presión osmótica interna de la bacteria, se rompe, provocando la muerte del microorganismo. Es especialmente activa contra bacterias Gram-negativas por su capacidad de penetrar su membrana externa.",
+    "pharmacologicClass": "Antibiótico beta-lactámico, Cefalosporina de tercera generación.",
+    "therapeuticClass": "Antibiótico sistémico, Agente antiinfeccioso.",
+    "absorption": "No se absorbe por vía oral. Cuando se administra por vía intramuscular, la absorción es completa y rápida, con una biodisponibilidad cercana al 100%. La concentración máxima en sangre (Cmax) se alcanza entre 2 y 3 horas después de la inyección intramuscular.",
+    "distribution": "Se distribuye ampliamente en los fluidos y tejidos del cuerpo, incluyendo líquido cefalorraquídeo (especialmente cuando las meninges están inflamadas), hueso, próstata, bilis, líquido peritoneal, pleural y sinovial. Su volumen de distribución es de aproximadamente 0.12-0.14 L/kg. Tiene una unión a proteínas plasmáticas (principalmente albúmina) muy alta, que es dependiente de la concentración (85-95% a concentraciones terapéuticas).",
+    "metabolism": "La ceftriaxona no se metaboliza significativamente por el sistema del citocromo P450 (CYP). Se considera que no sufre metabolismo hepático clínicamente relevante. Una pequeña porción puede hidrolizarse in vivo a un metabolito inactivo.",
+    "elimination": "Tiene una vida media excepcionalmente larga para un antibiótico beta-lactámico, de aproximadamente 6 a 9 horas en adultos con función renal normal, y puede prolongarse en insuficiencia renal o hepática. Se elimina en proporciones casi iguales por vía renal (33-67%, por filtración glomerular) y biliar (40-50%, en la bilis como fármaco inalterado). Esta doble vía de eliminación es una ventaja en pacientes con disfunción de un solo órgano.",
+    "onsetOfAction": "Las concentraciones bactericidas en suero se alcanzan rápidamente después del final de la infusión intravenosa o de la inyección intramuscular. El efecto antibacteriano comienza inmediatamente al alcanzar concentraciones suficientes en el sitio de la infección.",
+    "durationOfAction": "Debido a su larga vida media y efecto post-antibiótico (capacidad de seguir suprimiendo el crecimiento bacteriano después de que la concentración cae por debajo del nivel mínimo inhibitorio), la ceftriaxona tiene una duración de acción que permite dosificaciones cada 12 o 24 horas para la mayoría de las infecciones, manteniendo niveles terapéuticos constantes."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones del tracto respiratorio inferior (neumonía, bronquitis aguda bacteriana)",
+      "Meningitis bacteriana (causada por Streptococcus pneumoniae, Neisseria meningitidis, Haemophilus influenzae)",
+      "Infecciones intra-abdominales (peritonitis, colecistitis, colangitis)",
+      "Infecciones de la piel y estructuras de la piel (celulitis, abscesos, heridas infectadas)",
+      "Infecciones del tracto urinario complicadas (pielonefritis)",
+      "Infecciones óseas y articulares (osteomielitis, artritis séptica)",
+      "Sepsis bacteriana y bacteriemia",
+      "Enfermedad inflamatoria pélvica",
+      "Gonorrea no complicada (incluyendo faringitis y proctitis gonocócica)",
+      "Profilaxis de infecciones en cirugía contaminada o potencialmente contaminada (ej. colorectal)"
+    ],
+    "offLabel": [
+      "Tratamiento de la fiebre tifoidea (Salmonella Typhi) resistente a fluoroquinolonas",
+      "Tratamiento empírico de endocarditis infecciosa en usuarios de drogas intravenosas (junto con otros antibióticos)",
+      "Tratamiento de la enfermedad de Lyme diseminada (neuroborreliosis, artritis de Lyme)",
+      "Profilaxis de infección en esplenectomizados con fiebre",
+      "Tratamiento de infecciones por Vibrio vulnificus"
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis habitual para la mayoría de las infecciones moderadas a graves es de 1 a 2 gramos, administrados una vez al día por vía intravenosa (IV) o intramuscular (IM). Para infecciones que amenazan la vida (meningitis, endocarditis, sepsis grave), la dosis puede aumentarse a 2 gramos cada 12 horas (4 g/día). Para la gonorrea no complicada, se usa una dosis única de 250 mg por vía IM.",
+    "pediatric": "Para niños mayores de 1 mes: La dosis habitual es de 50 a 75 mg/kg/día, administrados en una o dos dosis divididas (cada 12 o 24 horas). No debe exceder los 2 gramos diarios. Para meningitis bacteriana: La dosis es de 100 mg/kg/día (máximo 4 g/día), administrados en una o dos dosis divididas. Para la gonorrea no complicada en adolescentes: 250 mg en dosis única IM.",
+    "elderly": "No se requiere ajuste de dosis basado únicamente en la edad avanzada. Sin embargo, la función renal y hepática debe evaluarse, ya que la vida media puede prolongarse. Se recomienda usar la dosis más baja dentro del rango terapéutico, especialmente si hay comorbilidades.",
+    "renalImpairment": "En insuficiencia renal leve a moderada (TFG >10 mL/min): No se requiere ajuste de dosis debido a la eliminación biliar compensatoria. En insuficiencia renal grave (TFG <10 mL/min) o en pacientes en diálisis: La dosis máxima recomendada no debe exceder los 2 gramos por día. La ceftriaxona no se elimina eficazmente mediante hemodiálisis o diálisis peritoneal, por lo que no se requiere dosis suplementaria después de la diálisis.",
+    "hepaticImpairment": "En pacientes con enfermedad hepática, incluyendo cirrosis, generalmente no se requiere ajuste de dosis si la función renal es normal. En insuficiencia hepática grave combinada con insuficiencia renal, se recomienda monitorizar los niveles séricos y considerar reducir la dosis si hay signos de toxicidad.",
+    "maxDose": "La dosis máxima diaria para adultos es de 4 gramos (generalmente como 2 g cada 12 horas). En niños, la dosis máxima no debe exceder los 2-4 gramos por día, dependiendo de la indicación y el peso."
+  },
+  "dosageForms": [
+    {
+      "form": "Polvo liofilizado para inyección",
+      "strengths": [
+        "250 mg",
+        "500 mg",
+        "1 g",
+        "2 g"
+      ],
+      "route": "Intramuscular, Intravenosa"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad (alergia) conocida y grave a la ceftriaxona o a cualquier cefalosporina.",
+      "Hipersensibilidad grave a cualquier antibiótico beta-lactámico (penicilinas, carbapenémicos, monobactámicos) si hay antecedentes de reacción anafiláctica o severa.",
+      "Recién nacidos prematuros (especialmente si tienen hiperbilirrubinemia) o neonatos a término (menores de 28 días) que requieran tratamiento con calcio por vía intravenosa, debido al riesgo de precipitados de ceftriaxona-calcio en pulmones y riñones."
+    ],
+    "relative": [
+      "Antecedentes de alergia leve a moderada a penicilinas u otras cefalosporinas (se puede usar con precaución y bajo supervisión).",
+      "Historia de colitis asociada a antibióticos.",
+      "Disfunción hepática severa combinada con insuficiencia renal.",
+      "Hiperbilirrubinemia en recién nacidos."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Diarrea (puede ser desde leve hasta colitis pseudomembranosa)",
+      "Reacciones en el sitio de la inyección: dolor, induración, flebitis (en IV)"
+    ],
+    "common": [
+      "Erupción cutánea (rash)",
+      "Prurito (comezón)",
+      "Náuseas",
+      "Vómitos",
+      "Dolor abdominal",
+      "Candidiasis (infección por hongos) oral o vaginal",
+      "Aumento de enzimas hepáticas (transaminasas)",
+      "Eosinofilia (aumento de un tipo de glóbulos blancos)"
+    ],
+    "uncommon": [
+      "Fiebre por droga",
+      "Mareo",
+      "Dolor de cabeza",
+      "Leucopenia (disminución de glóbulos blancos)",
+      "Trombocitopenia (disminución de plaquetas)",
+      "Prolongación del tiempo de protrombina (riesgo de sangrado)",
+      "Precipitados biliares (pseudolitiasis biliar), especialmente en niños",
+      "Colitis pseudomembranosa por Clostridioides difficile"
+    ],
+    "rare": [
+      "Anafilaxia (reacción alérgica grave)",
+      "Nefritis intersticial",
+      "Hepatitis colestásica",
+      "Agranulocitosis (pérdida severa de glóbulos blancos)",
+      "Anemia hemolítica",
+      "Convulsiones (en dosis muy altas o en falla renal)",
+      "Precipitados pulmonares y renales de ceftriaxona-calcio (en neonatos)"
+    ],
+    "blackBoxWarning": "Advertencia sobre la administración concomitante con soluciones que contengan calcio: No debe mezclarse ni administrarse simultáneamente con soluciones que contengan calcio (incluyendo nutrición parenteral) en neonatos (menores de 28 días). En pacientes mayores, se puede administrar secuencialmente con soluciones que contengan calcio si las líneas de infusión se lavan bien entre dosis."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Anticoagulantes orales (Warfarina, Acenocumarol)",
+        "effect": "La ceftriaxona puede potenciar el efecto anticoagulante, aumentando el riesgo de sangrado. Esto se debe a la supresión de la flora intestinal que produce vitamina K y posible interferencia con la síntesis de factores de coagulación.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Aminoglucósidos (Gentamicina, Amikacina)",
+        "effect": "Sinergia antibacteriana contra algunas bacterias, pero aumento del riesgo de daño renal (nefrotoxicidad). No se deben mezclar en la misma jeringa o bolsa de infusión.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Diuréticos de asa (Furosemida)",
+        "effect": "Pueden aumentar el riesgo de daño renal cuando se usan con ceftriaxona, especialmente en pacientes deshidratados o con función renal comprometida.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "No aplica, ya que se administra por inyección. Sin embargo, el alcohol debe evitarse durante el tratamiento, ya que puede aumentar el riesgo de efectos secundarios gastrointestinales y puede interferir con la recuperación.",
+    "withSupplements": "Suplementos que contienen calcio: En adultos y niños mayores, no hay interacción clínicamente significativa si se administran por separado. En neonatos, está contraindicada la administración concomitante. Suplementos de vitamina K: Pueden ser necesarios en pacientes con alto riesgo de sangrado que toman anticoagulantes concomitantes."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "B",
+      "recommendation": "Estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. La ceftriaxona cruza la placenta. Debe usarse durante el embarazo solo si claramente es necesario, después de evaluar el beneficio-riesgo. Es considerado uno de los antibióticos más seguros para usar en el embarazo cuando se requiere una cefalosporina de amplio espectro.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La ceftriaxona se excreta en la leche materna en bajas concentraciones. Se considera compatible con la lactancia materna, ya que es poco probable que cause efectos adversos en el lactante, especialmente porque se absorbe mal por vía oral. Se puede usar durante la lactancia, pero se debe observar al bebé por posibles efectos como diarrea o candidiasis.",
+    "pediatric": "Es seguro y efectivo en niños mayores de 1 mes. En neonatos (menores de 28 días), especialmente prematuros, se debe usar con precaución debido al riesgo de hiperbilirrubinemia (ictericia) y a la contraindicación con calcio IV. Las dosis se calculan cuidadosamente por peso.",
+    "geriatric": "Los pacientes de edad avanzada son más susceptibles a los efectos adversos relacionados con la función renal/hepática reducida. La vida media puede prolongarse. Es común la hipoalbuminemia, lo que puede aumentar la fracción libre (activa) del fármaco. Se recomienda monitorizar función renal y hepática, y usar la dosis efectiva más baja."
+  },
+  "administration": {
+    "howToTake": "La ceftriaxona SOLO se administra por inyección en músculo (IM) o vena (IV), por un profesional de la salud. Intramuscular: Se reconstituye el polvo con agua para inyección o lidocaína al 1% (sin epinefrina) para reducir el dolor. Se inyecta profundamente en un músculo grande (glúteo o muslo). Intravenosa: Se reconstituye y luego se diluye en un volumen adecuado de solución (ej. Cloruro de sodio 0.9% o Dextrosa 5%). Se puede administrar como inyección lenta (3-5 minutos) o como infusión intermitente durante 30-60 minutos. Nunca se mezcla con soluciones que contengan calcio en la misma línea de infusión, especialmente en neonatos.",
+    "storage": "El polvo liofilizado sin reconstituir debe almacenarse a temperatura ambiente (15-30°C), protegido de la luz y la humedad. Una vez reconstituido, la solución es estable a temperatura ambiente por 24 horas, y refrigerada (2-8°C) por 3 a 10 días, dependiendo del diluyente. Las soluciones para infusión IV deben usarse inmediatamente después de la preparación. No congelar.",
+    "specialInstructions": "Antes de la primera dosis, informe a su médico si es alérgico a penicilinas, cefalosporinas u otros medicamentos. Informe si tiene problemas renales, hepáticos, de la vesícula biliar, colitis o si está embarazada/amamantando. La solución reconstituida puede tener un color amarillo claro, lo cual es normal. Si se usa lidocaína como diluyente para IM, no debe administrarse por vía IV. En pacientes con nutrición parenteral que contenga calcio, se deben usar líneas intravenosas separadas."
+  },
+  "monitoring": {
+    "labTests": [
+      "Conteo sanguíneo completo (CSC) con diferencial",
+      "Pruebas de función hepática (AST, ALT, fosfatasa alcalina, bilirrubina)",
+      "Pruebas de función renal (creatinina sérica, BUN)",
+      "Tiempo de protrombina (TP) o INR en pacientes con riesgo de sangrado o que toman anticoagulantes",
+      "Cultivos bacterianos y pruebas de sensibilidad (antibiograma) del sitio de infección"
+    ],
+    "frequency": "En tratamientos prolongados (>10 días), se recomienda monitorear CSC y función hepática/renal semanalmente. En tratamientos cortos para infecciones no complicadas, puede no ser necesario monitoreo de laboratorio rutinario.",
+    "signsToWatch": [
+      "Signos de reacción alérgica: ronchas, dificultad para respirar, hinchazón de cara/labios/lengua/garganta",
+      "Diarrea acuosa o con sangre, dolor abdominal severo (posible colitis)",
+      "Ictericia (coloración amarilla de piel/ojos)",
+      "Moretones o sangrado inusual (nariz, encías)",
+      "Erupción cutánea severa o ampollas",
+      "Convulsiones",
+      "Dolor intenso en el sitio de la inyección, enrojecimiento o hinchazón que empeora"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Convulsiones (es el síntoma principal de neurotoxicidad por sobredosis)",
+      "Temblores",
+      "Alteraciones del estado mental",
+      "Náuseas y vómitos severos",
+      "Pérdida de audición (si hay nefrotoxicidad combinada con otros fármacos)"
+    ],
+    "treatment": "No existe un antídoto específico. El tratamiento es de soporte y sintomático. En caso de convulsiones, se administran anticonvulsivantes (benzodiacepinas). La hemodiálisis y la diálisis peritoneal NO son efectivas para eliminar la ceftriaxona del torrente sanguíneo debido a su alta unión a proteínas. Se debe mantener la hidratación y la función renal.",
+    "antidote": "null"
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica para su dispensación (Medicamento de Prescripción).",
+    "scheduleMexico": "Pertenece a la Fracción IV del Cuadro Básico de Medicamentos (Antibióticos de uso restringido). Su venta está estrictamente controlada y requiere receta médica archivada.",
+    "fdaApprovalYear": "Aprobado por la FDA de Estados Unidos en el año 1984."
+  },
+  "brandsMexico": [
+    "Rocephin",
+    "Ceftrex",
+    "Ceftriax",
+    "Cefaxona",
+    "Ceftri",
+    "Cefogram",
+    "Triaxone",
+    "Ceftron",
+    "Cefort",
+    "Ceftrexel",
+    "Cefobid (nombre similar, pero es diferente: cefoperazona)",
+    "Cefotax (nombre similar, pero es diferente: cefotaxima)",
+    "Biotraxona",
+    "Novacef",
+    "Zaxona",
+    "Ceftriacor",
+    "Cefogram",
+    "Ceftasyn",
+    "Ceftriamed",
+    "Cefastar"
+  ],
+  "clinicalPearls": [
+    "La ceftriaxona es el antibiótico de elección para la meningitis bacteriana comunitaria en niños y adultos en muchas guías, debido a su excelente penetración al LCR y espectro.",
+    "Su dosificación una vez al día es una gran ventaja para el tratamiento ambulatorio con terapia intravenosa en el hogar (TIVA), reduciendo costos y mejorando la calidad de vida.",
+    "Puede causar pseudolitiasis biliar (precipitados en la vesícula) visible en ultrasonido, que suele ser asintomática y reversible al suspender el fármaco, pero puede confundirse con cálculos biliares.",
+    "En pacientes con hipoalbuminemia severa (desnutrición, quemaduras), la fracción libre del fármaco aumenta, potenciando su efecto pero también el riesgo de toxicidad, pudiendo requerir ajuste de dosis.",
+    "Es una excelente opción para el tratamiento de la gonorrea resistente, siendo la terapia de primera línea en dosis única de 250 mg IM junto con azitromicina oral."
+  ],
+  "patientCounseling": "La ceftriaxona es un antibiótico fuerte que se pone en la vena o el músculo. Es muy importante que complete TODO el tratamiento, aunque se sienta mejor a los pocos días. Si lo suspende antes, la infección puede regresar y ser más difícil de tratar. Informe inmediatamente a su médico o enfermera si le sale roncha, le da comezón, le falta el aire o se le hincha la cara, ya que puede ser una alergia. La diarrea es común, pero si es muy aguada o con sangre, avise de inmediato. Puede causar infecciones por hongos (algodoncillo) en la boca o zona genital. Evite el alcohol mientras esté en tratamiento. Asista a todas sus citas para aplicarse las inyecciones y para los estudios de control que su médico le indique.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre",
+        "slug": "fiebre"
+      },
+      {
+        "name": "Dolor al orinar",
+        "slug": "disuria"
+      },
+      {
+        "name": "Tos con flemas",
+        "slug": "tos-productiva"
+      },
+      {
+        "name": "Dolor de cabeza intenso",
+        "slug": "cefalea-severa"
+      },
+      {
+        "name": "Dolor abdominal",
+        "slug": "dolor-abdominal"
+      },
+      {
+        "name": "Enrojecimiento e hinchazón de la piel",
+        "slug": "eritema-edema"
+      },
+      {
+        "name": "Secreción uretral o vaginal",
+        "slug": "secrecion-genital"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Neumonía",
+        "slug": "neumonia"
+      },
+      {
+        "name": "Meningitis",
+        "slug": "meningitis"
+      },
+      {
+        "name": "Pielonefritis",
+        "slug": "pielonefritis"
+      },
+      {
+        "name": "Sepsis",
+        "slug": "sepsis"
+      },
+      {
+        "name": "Enfermedad Inflamatoria Pélvica",
+        "slug": "enfermedad-inflamatoria-pelvica"
+      },
+      {
+        "name": "Gonorrea",
+        "slug": "gonorrea"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Colitis pseudomembranosa",
+        "slug": "colitis-pseudomembranosa"
+      },
+      {
+        "name": "Hepatitis colestásica",
+        "slug": "hepatitis-colestasica"
+      },
+      {
+        "name": "Anafilaxia",
+        "slug": "anafilaxia"
+      },
+      {
+        "name": "Nefritis intersticial",
+        "slug": "nefritis-intersticial"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "AST (TGO)",
+        "slug": "ast-tgo",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "ALT (TGP)",
+        "slug": "alt-tgp",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Bilirrubina total",
+        "slug": "bilirrubina-total",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar (raro)"
+      },
+      {
+        "name": "Recuento de eosinófilos",
+        "slug": "eosinofilos",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Tiempo de Protrombina (TP/INR)",
+        "slug": "tiempo-protrombina-inr",
+        "effect": "Puede prolongar/aumentar"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Cultivo y Antibiograma",
+        "slug": "cultivo-antibiograma",
+        "reason": "Para identificar la bacteria causante y confirmar que es sensible a ceftriaxona."
+      },
+      {
+        "name": "Biometría Hemática",
+        "slug": "biometria-hematica",
+        "reason": "Para monitorear recuentos de glóbulos blancos y plaquetas durante tratamientos prolongados."
+      },
+      {
+        "name": "Química Sanguínea (Función hepática y renal)",
+        "slug": "quimica-sanguinea",
+        "reason": "Para evaluar posibles efectos adversos en hígado y riñones."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de Aclaramiento de Creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La ceftriaxona es una penicilina?",
+      "a": "No, la ceftriaxona NO es una penicilina. Pertenece a otra familia llamada cefalosporinas. Sin embargo, son 'primas', porque ambas son antibióticos beta-lactámicos. Si es alérgico a la penicilina, debe informarlo, ya que existe un riesgo pequeño de reacción cruzada."
+    },
+    {
+      "q": "¿Duele la inyección de ceftriaxona?",
+      "a": "La inyección intramuscular puede causar dolor, ardor o molestia en el sitio de la aplicación. Para reducir este dolor, a veces se mezcla el polvo con un anestésico local como la lidocaína. La inyección intravenosa generalmente no duele si se coloca correctamente, pero puede causar irritación de la vena (flebitis)."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si me están poniendo ceftriaxona?",
+      "a": "No se recomienda. Aunque la ceftriaxona no tiene una interacción grave como el metronidazol, el alcohol puede debilitar su sistema inmunológico y dificultar la recuperación. Además, puede aumentar el riesgo de malestar estomacal o daño hepático."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Comienza a actuar rápidamente, en cuestión de horas. Sin embargo, puede tomar de 24 a 72 horas para que usted note una mejoría significativa en sus síntomas, como la fiebre. Es crucial completar todos los días de tratamiento indicados, aunque se sienta mejor."
+    },
+    {
+      "q": "¿La ceftriaxona sirve para la gripe o el COVID-19?",
+      "a": "NO. La ceftriaxona solo mata bacterias. La gripe y el COVID-19 son causados por virus. Usar antibióticos para infecciones virales es inútil, contribuye a la resistencia bacteriana y puede causar efectos secundarios innecesarios."
+    },
+    {
+      "q": "¿Puede causar diarrea?",
+      "a": "Sí, la diarrea es un efecto secundario muy común. La mayoría de las veces es leve. Sin embargo, si la diarrea es muy aguada, abundante, con sangre o moco, o viene acompañada de fiebre y dolor abdominal fuerte, debe avisar a su médico de inmediato, ya que podría ser una colitis grave por una bacteria llamada C. difficile."
+    },
+    {
+      "q": "¿Se puede usar en niños?",
+      "a": "Sí, la ceftriaxona es segura y muy usada en niños mayores de 1 mes. La dosis se calcula con precisión según el peso del niño. En recién nacidos (menores de 28 días) se usa con precaución especial."
+    },
+    {
+      "q": "¿Qué hago si me olvido de una dosis?",
+      "a": "Como generalmente la aplica un profesional de la salud, esto es poco común. Si es un tratamiento ambulatorio y falta a su cita, contacte a su médico o clínica de inmediato para reprogramar. No duplique la dosis para compensar la olvidada."
+    },
+    {
+      "q": "¿La ceftriaxona afecta los métodos anticonceptivos?",
+      "a": "No hay evidencia de que la ceftriaxona reduzca la efectividad de las pastillas anticonceptivas hormonales, a diferencia de algunos antibióticos como la rifampicina. Sin embargo, si tiene vómitos o diarrea severa por el antibiótico, la absorción de la pastilla podría verse afectada. Consulte con su ginecólogo."
+    },
+    {
+      "q": "¿Puedo comer de todo durante el tratamiento?",
+      "a": "No hay restricciones dietéticas específicas. Se recomienda una dieta balanceada para ayudar a su recuperación. Si tiene malestar estomacal, coma alimentos suaves y evite los muy grasosos o picantes. Beba muchos líquidos."
+    },
+    {
+      "q": "¿Por qué a veces la ponen dos veces al día?",
+      "a": "Para infecciones muy graves o que amenazan la vida, como meningitis o sepsis grave, se usa una dosis más alta dividida en dos tomas al día (ej. 2 gramos cada 12 horas) para mantener niveles sanguíneos constantemente altos y maximizar el efecto bactericida."
+    },
+    {
+      "q": "¿Qué significa que sea de 'tercera generación'?",
+      "a": "Es una clasificación dentro de la familia de las cefalosporinas. Las de tercera generación, como la ceftriaxona, son más potentes contra bacterias Gram-negativas y penetran mejor en el líquido cefalorraquídeo (para meningitis), comparadas con las de primera generación (como la cefalexina)."
+    },
+    {
+      "q": "¿Es normal que la orina se ponga de color naranja?",
+      "a": "No, la ceftriaxona no tiñe la orina de naranja. Si nota un cambio de color en la orina, informe a su médico, ya que podría deberse a otra causa."
+    },
+    {
+      "q": "¿La ceftriaxona baja las defensas?",
+      "a": "No, los antibióticos no bajan las defensas. Al contrario, ayudan a su sistema inmunológico a combatir la infección bacteriana. Lo que puede pasar es que al eliminar bacterias 'buenas' del intestino, favorezca el crecimiento de hongos (candidiasis) o bacterias dañinas como el C. difficile."
+    },
+    {
+      "q": "¿Sirve para las infecciones de garganta?",
+      "a": "Generalmente NO es el primer antibiótico para una faringitis común, que suele ser viral o por estreptococo (que se trata con penicilina). Se puede usar en casos complicados, o para la faringitis gonocócica (gonorrea en la garganta)."
+    },
+    {
+      "q": "¿Qué pasa si soy alérgico a la penicilina?",
+      "a": "El riesgo de reacción alérgica cruzada entre penicilinas y cefalosporinas es bajo (aproximadamente 1-10%). Sin embargo, si su alergia a la penicilina fue grave (anafilaxia, hinchazón de garganta), generalmente se evitan las cefalosporinas. Si la alergia fue solo un rash leve, su médico puede considerar usar ceftriaxona con precaución."
+    },
+    {
+      "q": "¿Puede dañar los riñones?",
+      "a": "La ceftriaxona tiene un bajo riesgo de daño renal comparada con otros antibióticos. El riesgo aumenta si se usa junto con otros medicamentos que dañan los riñones (como algunos antiinflamatorios o aminoglucósidos), o si el paciente está deshidratado o ya tiene enfermedad renal."
+    },
+    {
+      "q": "¿Por qué a veces piden ultrasonido de la vesícula en niños con tratamiento largo?",
+      "a": "Porque la ceftriaxona puede formar unos 'cálculos' o precipitados en la vesícula biliar (pseudolitiasis), que suelen ser reversibles. Pueden causar dolor abdominal, pero muchas veces no dan síntomas. El ultrasonido confirma el diagnóstico y se resuelve al terminar el tratamiento."
+    },
+    {
+      "q": "¿Es mejor que otros antibióticos como la amoxicilina?",
+      "a": "No es 'mejor' en términos generales, sino diferente. La amoxicilina es excelente para infecciones comunes como otitis o sinusitis. La ceftriaxona es más potente, de espectro más amplio y se usa para infecciones más graves, hospitalarias, o cuando se sospecha resistencia a antibióticos más simples. El médico elige según el tipo y severidad de la infección."
+    },
+    {
+      "q": "¿Qué pruebas debo hacerme antes de empezar un tratamiento prolongado con ceftriaxona?",
+      "a": "Su médico debe solicitar un cultivo de la infección (si es posible), una biometría hemática completa y una química sanguínea que incluya función renal (creatinina) y hepática (transaminasas, bilirrubina). Esto sirve como línea base para monitorear posibles efectos adversos durante el tratamiento."
+    }
+  ]
+}

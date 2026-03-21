@@ -1,0 +1,447 @@
+{
+  "name": "Mentol",
+  "summary": "El mentol es un compuesto orgánico natural, derivado de los aceites de la menta, que se utiliza principalmente como un anestésico local tópico y agente refrescante. Sirve para aliviar temporalmente dolores musculares leves, picazón, irritación de la piel y síntomas de congestión nasal y de garganta, gracias a su capacidad para producir una sensación de frescura y adormecimiento en la zona aplicada. Su importancia clínica radica en su amplia disponibilidad, seguridad en uso tópico para alivio sintomático rápido y su presencia en una gran variedad de productos de venta libre, desde ungüentos para dolores hasta pastillas para la tos y descongestionantes nasales, siendo un recurso accesible para el manejo de molestias comunes. Es un ingrediente clave en la farmacopea mexicana para el cuidado paliativo de síntomas menores.",
+  "pharmacology": {
+    "mechanismOfAction": "El mentol actúa principalmente como un modulador alostérico de los receptores de potencial transitorio tipo melastatina 8 (TRPM8), que son canales iónicos activados por frío en las terminaciones nerviosas sensoriales. Su unión a estos receptores provoca una entrada de iones calcio, generando una corriente eléctrica que el cerebro interpreta como una sensación de frío intenso, a pesar de que la temperatura real no cambie. Esta sensación enmascara o compite con las señales de dolor (efecto contrairritante) y produce un leve adormecimiento local. Además, tiene propiedades antitusígenas suaves al actuar sobre receptores en la faringe y propiedades descongestionantes al producir una sensación subjetiva de flujo de aire aumentado en la nariz. Su acción es principalmente local y superficial.",
+    "pharmacologicClass": "Terpeno cíclico monoterpenoide; Agente refrescante tópico; Modulador alostérico del receptor TRPM8; Anestésico local leve de acción superficial; Contrairritante.",
+    "therapeuticClass": "Anestésico Local Tópico; Agente Refrescante y Analgésico Tópico; Antipruriginoso; Descongestionante Tópico (subjetivo).",
+    "absorption": "Cuando se aplica tópicamente en la piel o mucosas, la absorción sistémica del mentol es mínima y variable, dependiendo de la concentración, vehículo (crema, gel, parche) y estado de la piel (integrada vs. dañada). Se absorbe bien a través de las mucosas (bucal, nasal). La absorción oral de pastillas o enjuagues es rápida pero la cantidad que llega a circulación sistémica es baja debido al metabolismo de primer paso hepático extenso.",
+    "distribution": "Tras la absorción, se distribuye ampliamente en los tejidos. Es lipofílico, por lo que puede atravesar membranas biológicas con relativa facilidad. Su unión a proteínas plasmáticas no está bien caracterizada pero se considera moderada. Su volumen de distribución (Vd) es amplio debido a su lipofilia. La concentración más alta se encuentra en el sitio de aplicación.",
+    "metabolism": "El mentol sufre un metabolismo hepático extenso, principalmente por el sistema de enzimas del citocromo P450, siendo la CYP2A6 la enzima principal involucrada en su hidroxilación. Se metaboliza a mentol glucurónido y otros derivados hidroxilados que son más solubles en agua para su excreción. No se considera un inhibidor o inductor potente de enzimas CYP.",
+    "elimination": "Los metabolitos del mentol se eliminan principalmente por la orina. La vida media de eliminación es relativamente corta, estimada entre 1 y 4 horas después de la administración sistémica. En uso tópico, la eliminación sistémica es insignificante.",
+    "onsetOfAction": "El inicio de acción es rápido. La sensación de frescura/alivio se percibe generalmente entre 30 segundos y 5 minutos después de la aplicación tópica o administración bucal.",
+    "durationOfAction": "La duración del efecto es temporal, típicamente entre 30 minutos y 2 horas, dependiendo de la formulación (parches de liberación prolongada pueden durar más), concentración y zona de aplicación."
+  },
+  "indications": {
+    "approved": [
+      "Alivio temporal de dolores musculares leves y dolores articulares (como en espalda, cuello, hombros)",
+      "Alivio temporal de picazón (prurito) menor en la piel",
+      "Alivio sintomático de irritación de garganta (en pastillas o sprays)",
+      "Alivio temporal de la congestión nasal y de senos paranasales (como descongestionante tópico en ungüentos o inhaladores)",
+      "Alivio sintomático de tos seca e irritativa (en pastillas o jarabes)",
+      "Alivio temporal de dolor de cabeza tensional (cuando se aplica en sienes o frente en formulaciones específicas)"
+    ],
+    "offLabel": [
+      "Alivio de náuseas y vómito (por inhalación o aplicación tópica en puntos de acupresión)",
+      "Mejora subjetiva de la disnea (dificultad para respirar) en algunos pacientes, por sensación de frescura",
+      "Coadyuvante en el manejo del prurito en hemodiálisis",
+      "Prevención de calambres musculares (aplicación tópica)",
+      "Terapia de apoyo en neuralgias (como la neuralgia postherpética) por su efecto refrescante/analgésico"
+    ]
+  },
+  "dosage": {
+    "adults": "Uso tópico (cremas, geles, ungüentos): Aplicar una capa delgada sobre el área afectada 3 a 4 veces al día, según sea necesario. No aplicar sobre áreas extensas. Uso bucal (pastillas, sprays para garganta): Seguir instrucciones del producto, generalmente cada 2 a 4 horas según necesidad, sin exceder las dosis máximas indicadas en el empaque. Uso nasal (inhaladores, ungüentos): Aplicar una pequeña cantidad bajo las fosas nasales o inhalar según indicaciones, varias veces al día.",
+    "pediatric": "Niños mayores de 2 años: Uso tópico puede considerarse con supervisión médica, aplicando una cantidad mínima. Niños mayores de 6 años: Pastillas para la tos/garganta según indicaciones pediátricas del producto específico. Para menores de 2 años, generalmente no se recomienda su uso sin indicación médica expresa debido al riesgo de reacciones adversas.",
+    "elderly": "No se requieren ajustes de dosis específicos por edad para uso tópico ocasional. En adultos mayores con piel frágil o atrófica, aplicar con mayor precaución y en menor cantidad. Vigilar posibles reacciones de sensibilidad.",
+    "renalImpairment": "No se requieren ajustes de dosis en insuficiencia renal para uso tópico o bucal ocasional, ya que la absorción sistémica es mínima. En casos de uso crónico o aplicación en grandes áreas de piel dañada en pacientes con TFG <30 mL/min, usar con precaución.",
+    "hepaticImpairment": "No se requieren ajustes de dosis para uso tópico o bucal ocasional. En insuficiencia hepática grave (Child-Pugh C), usar con precaución en aplicaciones extensas o frecuentes debido a la posible acumulación por metabolismo hepático reducido.",
+    "maxDose": "No hay una dosis máxima diaria sistémica bien establecida para uso tópico debido a la baja absorción. Se debe seguir la dosis máxima indicada en cada producto comercial (ej., no más de X pastillas o aplicaciones por día). La aplicación tópica no debe exceder el 10% del área de superficie corporal."
+  },
+  "dosageForms": [
+    {
+      "form": "Ungüento/Crema/Gel tópico",
+      "strengths": [
+        "1%",
+        "3%",
+        "5%",
+        "10%",
+        "16%"
+      ],
+      "route": "Tópica"
+    },
+    {
+      "form": "Parche transdérmico",
+      "strengths": [
+        "5%",
+        "10%"
+      ],
+      "route": "Tópica"
+    },
+    {
+      "form": "Pastilla para chupar",
+      "strengths": [
+        "5 mg",
+        "10 mg",
+        "20 mg"
+      ],
+      "route": "Bucal"
+    },
+    {
+      "form": "Spray bucal/garganta",
+      "strengths": [
+        "0.1%",
+        "0.5%"
+      ],
+      "route": "Bucal"
+    },
+    {
+      "form": "Spray nasal/inhalador",
+      "strengths": [
+        "0.1%",
+        "0.5%"
+      ],
+      "route": "Nasal"
+    },
+    {
+      "form": "Aceite esencial",
+      "strengths": [
+        "100% puro",
+        "Diluido"
+      ],
+      "route": "Tópica (diluido) / Inhalación"
+    },
+    {
+      "form": "Jarabe para la tos",
+      "strengths": [
+        "Variable como ingrediente"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Chicle",
+      "strengths": [
+        "Variable"
+      ],
+      "route": "Bucal"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al mentol, menta o cualquier componente de la formulación",
+      "Aplicación tópica en heridas abiertas, piel quemada, erosionada o con daño grave de la barrera cutánea",
+      "Uso en niños menores de 2 años (especialmente en el área del pecho, nariz o cara, por riesgo de laringoespasmo o depresión respiratoria)",
+      "Historia de alergia tipo I (anafilaxia) a productos con mentol"
+    ],
+    "relative": [
+      "Asma bronquial o hiperreactividad bronquial severa (el vapor/inhalación puede desencadenar broncoespasmo en personas susceptibles)",
+      "Dermatitis de contacto alérgica previa a productos tópicos",
+      "Piel muy sensible o atópica",
+      "Uso en mucosas genitales o anales",
+      "Embarazo y lactancia (consultar con médico primero)",
+      "Aplicación en áreas extensas de la piel"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Sensación de frío, frescura o enfriamiento en el sitio de aplicación",
+      "Sensación de hormigueo o leve ardor transitorio inicial"
+    ],
+    "common": [
+      "Eritema (enrojecimiento) leve y transitorio en la piel",
+      "Irritación de la piel o mucosas en el sitio de aplicación",
+      "Dermatitis de contacto alérgica (en personas sensibles)",
+      "Sabor fuerte o persistente en la boca (con formulaciones bucales)"
+    ],
+    "uncommon": [
+      "Dolor de cabeza",
+      "Mareo leve",
+      "Náuseas (especialmente con ingestión oral de grandes cantidades)",
+      "Congestión nasal paradójica (rebote) con uso excesivo de inhaladores nasales"
+    ],
+    "rare": [
+      "Reacción alérgica severa (angioedema, urticaria generalizada, dificultad para respirar)",
+      "Laringoespasmo o broncoespasmo (especialmente en niños pequeños o asmáticos con inhalación/vapor)",
+      "Bradicardia (frecuencia cardíaca lenta) o hipotensión con aplicación en áreas muy extensas",
+      "Quemadura química o ampollas en la piel por aplicación excesiva o en piel dañada",
+      "Confusión o ataxia (con ingestión oral de dosis muy altas)"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "IECA (Enalapril, Captopril, etc.)",
+        "effect": "El mentol puede potenciar el riesgo de tos seca, un efecto adverso conocido de los IECA, al irritar la faringe.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Otros anestésicos locales tópicos (Lidocaína, Benzocaína)",
+        "effect": "Uso concurrente puede aumentar el riesgo de efectos adversos sistémicos por anestésicos locales (toxicidad en SNC y cardiovascular) si se aplica en grandes áreas.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Medicamentos metabolizados por CYP2A6 (ej., Nicotina, Letrozol, Dexmedetomidina)",
+        "effect": "El mentol es un sustrato de la CYP2A6 y en grandes cantidades podría competir por el metabolismo, aunque el riesgo clínico con uso tópico es muy bajo.",
+        "severity": "Leve"
+      }
+    ],
+    "withFood": "No se conocen interacciones clínicamente significativas con alimentos. El alcohol puede potenciar la sensación de frescura/burning y, en caso de ingestión oral accidental de grandes cantidades, podría potenciar efectos depresores del SNC.",
+    "withSupplements": "Interacciones no documentadas de importancia clínica con suplementos dietéticos. Teóricamente, su uso con otros productos tópicos 'refrescantes' (como alcanfor, eucalipto) podría aumentar el riesgo de irritación cutánea."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA C (para uso tópico/bucal en dosis recomendadas). No hay estudios adecuados en humanos. El riesgo no puede descartarse.",
+      "recommendation": "Se puede usar ocasionalmente y en pequeñas cantidades para alivio tópico de síntomas, aplicando la mínima cantidad necesaria. Evitar aplicaciones extensas, uso en el área abdominal baja, inhalación de vapores concentrados o ingestión oral de pastillas en exceso. Siempre consultar con el médico antes de usar, especialmente durante el primer trimestre.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "El mentol es excretado en la leche materna en cantidades mínimas tras uso tópico normal, considerándose probablemente seguro. Se recomienda evitar la aplicación directa en los pezones o el área del pecho que pueda entrar en contacto con la boca del bebé, ya que puede causar irritación o reacciones en el lactante. Para uso ocasional en otras áreas del cuerpo, el riesgo es bajo.",
+    "pediatric": "Uso en niños mayores de 2 años puede ser considerado para alivio tópico, con supervisión estricta. NO aplicar en o cerca de la nariz, boca o pecho de bebés y niños pequeños, debido al riesgo de laringoespasmo reflejo y depresión respiratoria grave. Las pastillas para la tos con mentol no deben darse a niños menores de 6 años por riesgo de atragantamiento. Usar siempre productos formulados para niños y a la concentración más baja efectiva.",
+    "geriatric": "Los adultos mayores pueden tener la piel más delgada y frágil, siendo más susceptibles a la irritación local. Aplicar con suavidad y en pequeña cantidad. Monitorizar posibles reacciones de sensibilidad. En pacientes con deterioro cognitivo, supervisar la aplicación para evitar uso excesivo o ingestión accidental de productos tópicos."
+  },
+  "administration": {
+    "howToTake": "Tópico: Lavar y secar suavemente el área. Aplicar una capa fina y frotar ligeramente hasta su absorción. Lavarse las manos después de la aplicación, a menos que sean el área tratada. No aplicar con vendajes oclusivos (como plástico) a menos que se indique. Bucal (pastillas): Dejar disolver lentamente en la boca. No masticar ni tragar enteras. No consumir alimentos o bebidas inmediatamente después para no disminuir el efecto. Nasal (inhalador/ungüento): Aplicar una pequeña cantidad en el exterior de las fosas nasales o inhalar según las instrucciones. No introducir el aplicador profundamente en la nariz.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (15-30°C), protegido de la luz directa y el calor excesivo. Mantener fuera del alcance de los niños y mascotas. No congelar. Los parches transdérmicos deben guardarse en su bolsa sellada hasta su uso.",
+    "specialInstructions": "NO aplicar en los ojos, mucosas internas de la nariz, boca (excepto productos diseñados para ello), genitales o áreas anales a menos que el producto esté específicamente formulado para ello. Evitar el contacto con heridas abiertas. Si los síntomas empeoran o persisten por más de 7 días (dolor) o 2 días (dolor de garganta/fiebre), suspender y consultar al médico. No usar como único tratamiento para infecciones bacterianas o inflamaciones graves."
+  },
+  "monitoring": {
+    "labTests": [
+      "No se requieren monitoreos de laboratorio de rutina para el uso tópico/bucal ocasional de mentol."
+    ],
+    "frequency": "Monitoreo clínico solamente: evaluar la respuesta sintomática y la aparición de irritación local o reacciones alérgicas en cada aplicación.",
+    "signsToWatch": [
+      "Aparición de erupción cutánea severa, ampollas, urticaria o hinchazón en el sitio de aplicación o en otras partes del cuerpo",
+      "Dificultad para respirar, opresión en el pecho o silbidos (sibilancias)",
+      "Mareo intenso, confusión o latidos cardíacos muy lentos",
+      "Signos de infección en el área de aplicación (aumento de dolor, enrojecimiento, pus, fiebre)",
+      "Irritación o dolor que empeora con la aplicación"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Por ingestión oral accidental (especialmente en niños): Náuseas, vómitos, dolor abdominal, mareo, ataxia (inestabilidad), somnolencia, convulsiones (en casos muy graves).",
+      "Por aplicación tópica excesiva: Quemadura química de la piel (enrojecimiento intenso, ampollas), toxicidad sistémica por anestésicos locales (mareo, tinnitus, visión borrosa, convulsiones, bradicardia, paro cardíaco).",
+      "Por inhalación excesiva: Irritación severa de vías respiratorias, tos, broncoespasmo, laringoespasmo (especialmente en niños)."
+    ],
+    "treatment": "Sobredosis tópica: Retirar el producto lavando abundantemente con agua y jabón suave. Buscar atención médica. Sobredosis por ingestión: NO inducir el vómito. Buscar atención médica de inmediato o llamar al Centro de Control de Intoxicaciones (01-800-00-54600 en México). El tratamiento es de soporte: manejo de vía aérea, control de convulsiones, monitorización cardíaca. No existe antídoto específico.",
+    "antidote": "No existe antídoto específico para la intoxicación por mentol. El tratamiento es sintomático y de soporte."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Venta libre (OTC - Over The Counter) en la mayoría de sus formulaciones (cremas, pastillas, ungüentos, sprays de baja concentración).",
+    "scheduleMexico": "No está sujeto a control especial en México. Se encuentra en la Fracción IV (Medicamentos de libre venta al público) del Cuadro Básico de Insumos del Sector Salud.",
+    "fdaApprovalYear": "El mentol como ingrediente activo ha estado en uso médico desde hace siglos. No tiene una 'aprobación' de la FDA como nuevo medicamento, pero está reconocido como seguro y efectivo (GRAS - Generally Recognized As Safe and Effective) para usos tópicos y bucales en concentraciones específicas."
+  },
+  "brandsMexico": [
+    "Vick Vaporub",
+    "Vick VapoRub Extra Fuerte",
+    "Vick VapoRub Naturals",
+    "Vick Vaporizador",
+    "Vick Pastillas para la Tos Miel y Mentol",
+    "Vick Pastillas para la Garganta",
+    "Bengay Crema",
+    "Icy Hot Parche",
+    "Icy Hot Crema",
+    "Mentisan Ungüento",
+    "Salonpas Parche",
+    "Salonpas Gel",
+    "Tempra Flex Gel",
+    "Dolofin Gel",
+    "Robitussin Pastillas para la Tos con Mentol",
+    "Hall's Pastillas (Miel Limón, Cereza, etc.)",
+    "Ricola Pastillas (varias con mentol)",
+    "Listerine Cool Mint (enjuague bucal)",
+    "Pulmoll Pastillas",
+    "Pectoral Syrup (con mentol)",
+    "Alka D Mentol",
+    "Mentolatum Ungüento",
+    "Natusure Inhalador de Mentol",
+    "Menta Plus Spray Nasal",
+    "Menticrem"
+  ],
+  "clinicalPearls": [
+    "El 'efecto refrescante' del mentol no baja la temperatura real de la piel, sino que engaña al cerebro activando los mismos receptores que se activan con el frío real (TRPM8).",
+    "En pacientes asmáticos, la inhalación de vapores de mentol (como de ungüentos) puede desencadenar broncoespasmo paradójico en lugar de alivio. Se recomienda precaución y evitar su uso directo bajo la nariz o en vaporizadores.",
+    "El mentol puede interferir con algunas pruebas de laboratorio, como la medición de ácido 5-hidroxiindolacético (5-HIAA) en orina para detectar tumores carcinoides, dando falsos positivos. Informar al laboratorio sobre su uso."
+  ],
+  "patientCounseling": "El mentol le dará una sensación de frescura y alivio temporal en la zona donde lo aplique. Recuerde que es para síntomas leves. Aplique solo una capa delgada en la piel sana, sin frotar con fuerza. Lávese las manos después de usarlo. Nunca lo ponga en heridas abiertas, quemaduras, ni cerca de los ojos, dentro de la nariz o en la boca de niños pequeños. Si usa un parche, no lo corte. No lo combine con una bolsa de agua caliente o almohadilla eléctrica en la misma zona, ya que puede aumentar el riesgo de quemaduras. Si la molestia no mejora en una semana, o si aparece sarpullido, dificultad para respirar o el área se pone muy roja y duele más, deje de usarlo y consulte a su médico. Mantenga todos los productos con mentol fuera del alcance de los niños, ya que su ingestión o aplicación incorrecta puede ser peligrosa.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor muscular leve",
+        "slug": "dolor-muscular-leve"
+      },
+      {
+        "name": "Picazón en la piel",
+        "slug": "picazon-en-la-piel"
+      },
+      {
+        "name": "Dolor de garganta",
+        "slug": "dolor-de-garganta"
+      },
+      {
+        "name": "Congestión nasal",
+        "slug": "congestion-nasal"
+      },
+      {
+        "name": "Tos seca",
+        "slug": "tos-seca"
+      },
+      {
+        "name": "Dolor articular leve",
+        "slug": "dolor-articular-leve"
+      },
+      {
+        "name": "Dolor de cabeza tensional",
+        "slug": "dolor-de-cabeza-tensional"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Mialgia (dolor muscular) inespecífica",
+        "slug": "mialgia-inespecifica"
+      },
+      {
+        "name": "Artralgia (dolor articular) no inflamatoria",
+        "slug": "artralgia-no-inflamatoria"
+      },
+      {
+        "name": "Faringitis aguda viral",
+        "slug": "faringitis-aguda-viral"
+      },
+      {
+        "name": "Rinitis vasomotora o alérgica (sintomática)",
+        "slug": "rinitis-vasomotora"
+      },
+      {
+        "name": "Tos irritativa",
+        "slug": "tos-irritativa"
+      },
+      {
+        "name": "Prurito (picazón) cutáneo leve",
+        "slug": "prurito-cutaneo-leve"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Dermatitis de contacto alérgica",
+        "slug": "dermatitis-de-contacto-alergica"
+      },
+      {
+        "name": "Broncoespasmo",
+        "slug": "broncoespasmo"
+      },
+      {
+        "name": "Laringoespasmo",
+        "slug": "laringoespasmo"
+      },
+      {
+        "name": "Quemadura química cutánea",
+        "slug": "quemadura-quimica-cutanea"
+      },
+      {
+        "name": "Toxicidad por anestésicos locales (rara)",
+        "slug": "toxicidad-por-anestesicos-locales"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Ácido 5-hidroxiindolacético (5-HIAA) en orina",
+        "slug": "acido-5-hidroxiindolacetico-orina",
+        "effect": "Puede elevar falsamente"
+      },
+      {
+        "name": "Transaminasas (TGO/TGP)",
+        "slug": "transaminasas-tgo-tgp",
+        "effect": "Puede elevar (en intoxicación severa)"
+      },
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Sin efecto directo"
+      },
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede disminuir (bradicardia en sobredosis)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Ninguno de rutina para uso tópico ocasional",
+        "slug": "ninguno-de-rutina",
+        "reason": "El uso tópico/bucal ocasional no requiere monitoreo de laboratorio."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora IMC",
+        "slug": "calculadora-imc"
+      },
+      {
+        "name": "Calculadora de Edad Vascular",
+        "slug": "calculadora-edad-vascular"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve el mentol?",
+      "a": "Sirve para aliviar temporalmente dolores musculares leves, picazón en la piel, irritación de garganta, congestión nasal y tos seca, produciendo una sensación de frescura y leve adormecimiento en la zona donde se aplica o se toma."
+    },
+    {
+      "q": "¿El Vick Vaporub tiene mentol?",
+      "a": "Sí, el Vick Vaporub y la mayoría de los productos de la línea Vick contienen mentol como uno de sus ingredientes activos principales, junto con alcanfor y aceite de eucalipto, para aliviar la congestión y el malestar."
+    },
+    {
+      "q": "¿Puedo ponerme mentol en una quemadura de sol?",
+      "a": "NO. No debe aplicarse mentol en piel quemada por el sol, heridas abiertas, ampollas o piel erosionada. Puede causar irritación severa, dolor y hasta una quemadura química, retrasando la cicatrización."
+    },
+    {
+      "q": "¿El mentol es malo para los bebés?",
+      "a": "Sí, puede ser peligroso para bebés y niños menores de 2 años. No se debe aplicar en su pecho, nariz o cara, ya que los vapores pueden causar graves problemas respiratorios como laringoespasmo. Consulte siempre al pediatra."
+    },
+    {
+      "q": "¿Puedo usar mentol si estoy embarazada?",
+      "a": "Puede usarse ocasionalmente y en pequeñas cantidades para alivio tópico (como una crema para el dolor de espalda), pero es mejor consultar primero con su médico. Evite aplicaciones extensas, inhalar vapores concentrados o usar pastillas en exceso."
+    },
+    {
+      "q": "¿Qué pasa si me pongo mucho mentol en la piel?",
+      "a": "Poner demasiado o aplicarlo con frecuencia puede causar irritación severa, enrojecimiento, ardor, dermatitis e incluso ampollas (quemadura química). En casos extremos, si se aplica en un área muy grande, puede absorberse y causar mareo o latidos cardíacos lentos."
+    },
+    {
+      "q": "¿El mentol quita el dolor de cabeza?",
+      "a": "Puede ayudar a aliviar temporalmente algunos dolores de cabeza tensionales cuando se aplica en las sienes o la frente, gracias a su efecto refrescante y contrairritante que distrae al cerebro del dolor. No es un tratamiento para migrañas o dolores de cabeza severos."
+    },
+    {
+      "q": "¿Puedo mezclar mentol con alcohol o otra medicina?",
+      "a": "No se conocen interacciones graves con medicamentos orales comunes al usarlo tópico. Sin embargo, no lo mezcle en la piel con otros productos tópicos (como cremas con medicamentos) sin consultar. El alcohol para beber puede potenciar la sensación de frío."
+    },
+    {
+      "q": "¿El mentol sirve para los granos o el acné?",
+      "a": "No está indicado ni es recomendable para tratar granos o acné. Su aplicación en granos inflamados puede irritar más la piel y empeorar la condición. Existen tratamientos específicos para el acné."
+    },
+    {
+      "q": "¿Cuántas veces al día me puedo aplicar crema de mentol?",
+      "a": "Generalmente, se puede aplicar 3 a 4 veces al día, según sea necesario para el alivio del dolor o picazón. Siempre siga las instrucciones del producto específico. No exceda la frecuencia recomendada y no lo use por más de 7 días seguidos sin consultar al médico."
+    },
+    {
+      "q": "¿El mentol es lo mismo que el eucalipto o el alcanfor?",
+      "a": "No, son compuestos diferentes. El mentol viene de la menta, el eucalipto del árbol de eucalipto y el alcanfor se obtiene de un árbol. Todos producen sensación de frío o calor y se usan juntos en productos como Vick Vaporub, pero tienen propiedades y riesgos distintos."
+    },
+    {
+      "q": "¿Puedo usar parches de mentol si tengo diabetes?",
+      "a": "Las personas con diabetes deben tener mucho cuidado al usar parches o cremas tópicas. La diabetes puede dañar los nervios y la piel, haciendo que no sientan irritación o quemaduras. Consulte con su médico antes de usar y evite aplicarlos en áreas con mala circulación o sensibilidad reducida."
+    },
+    {
+      "q": "¿El mentol puede causar alergia?",
+      "a": "Sí, algunas personas pueden desarrollar alergia o dermatitis de contacto alérgica al mentol. Los síntomas son picazón intensa, enrojecimiento, ronchas o ampollas en el sitio de aplicación. Si esto ocurre, lave el área y suspenda su uso. Consulte a un médico si la reacción es severa."
+    },
+    {
+      "q": "¿Por qué siento frío con el mentol si no hay cambio de temperatura?",
+      "a": "Porque el mentol activa unos receptores especiales en tus nervios de la piel (llamados TRPM8) que normalmente se activan con el frío real. Al activarlos, mandan una señal falsa de 'frío' a tu cerebro, aunque la temperatura no haya bajado."
+    },
+    {
+      "q": "¿El mentol en pastillas para la tos es seguro para niños?",
+      "a": "Las pastillas para la tos con mentol no deben darse a niños menores de 6 años por riesgo de atragantamiento. Para niños mayores, úselas solo si están formuladas para su edad y siga las dosis exactas. Supervise siempre que el niño la disuelva lentamente y no la trague."
+    },
+    {
+      "q": "¿Puedo usar mentol para el dolor de espalda crónico?",
+      "a": "Puede usarse para alivio temporal del dolor de espalda muscular leve. Sin embargo, para dolor crónico o severo, no es un tratamiento de fondo. Es importante consultar a un médico para diagnosticar la causa del dolor y recibir un tratamiento integral, no solo sintomático."
+    },
+    {
+      "q": "¿El mentol interactúa con medicamentos para la presión alta?",
+      "a": "No hay interacciones directas graves conocidas. Sin embargo, si toma IECA (como enalapril) que pueden causar tos seca, el mentol en pastillas para la garganta podría enmascarar o confundir este efecto adverso. Informe a su médico sobre todos los productos que usa."
+    },
+    {
+      "q": "¿Qué debo hacer si mi hijo se traga una pastilla de mentol o crema?",
+      "a": "Si traga una pequeña cantidad de crema tópica o una pastilla entera (en un niño mayor), observe si hay vómito o somnolencia. Si traga una gran cantidad de crema o es un niño pequeño, llame de INMEDIATO al Centro de Control de Intoxicaciones (01-800-00-54600 en México) o acuda a urgencias. No induzca el vómito."
+    },
+    {
+      "q": "¿El mentol tiene efectos a largo plazo?",
+      "a": "Para uso tópico ocasional en las dosis recomendadas, no se conocen efectos adversos a largo plazo. El uso crónico y excesivo en la misma área de piel puede llevar a dermatitis crónica, irritación persistente o cambios en la pigmentación de la piel."
+    },
+    {
+      "q": "¿Cómo se compara la eficacia del mentol tópico con antiinflamatorios orales como el ibuprofeno para el dolor muscular?",
+      "a": "El mentol proporciona alivio sintomático superficial y temporal mediante un mecanismo sensorial (contrairritación). Los AINEs como el ibuprofeno actúan sistémicamente reduciendo la inflamación que causa el dolor. Para dolores musculares leves y localizados, el mentol puede ser suficiente. Para dolor más profundo, inflamación o dolor generalizado, los AINEs orales suelen ser más efectivos, pero con más riesgo de efectos secundarios. Pueden usarse en combinación bajo supervisión médica."
+    }
+  ]
+}

@@ -1,0 +1,416 @@
+{
+  "name": "Deferiprona",
+  "summary": "La deferiprona es un medicamento quelante del hierro, lo que significa que actúa como un 'imán' que atrapa el exceso de hierro en el cuerpo y lo elimina a través de la orina. Se utiliza principalmente en pacientes con talasemia mayor y otras anemias que requieren múltiples transfusiones de sangre, ya que estas transfusiones causan una acumulación peligrosa de hierro en órganos vitales como el corazón, el hígado y las glándulas endocrinas. Su importancia clínica es crucial, ya que previene la toxicidad por hierro (hemosiderosis) que puede llevar a insuficiencia cardíaca, cirrosis hepática, diabetes y otros daños graves, mejorando significativamente la calidad de vida y la supervivencia de los pacientes. Es una alternativa oral a los quelantes inyectables, ofreciendo mayor comodidad y adherencia al tratamiento a largo plazo.",
+  "pharmacology": {
+    "mechanismOfAction": "La deferiprona es un quelante de hierro trivalente (Fe3+) de administración oral. Su mecanismo de acción se basa en su capacidad para formar complejos estables de 3:1 (tres moléculas de deferiprona por un átomo de hierro) con el hierro del pool lábil intracelular y extracelular. Al unirse al hierso, forma un complejo neutro (ferriprox) que es soluble en agua y puede ser excretado fácilmente por los riñones en la orina. A diferencia de otros quelantes, tiene una alta permeabilidad de membrana, lo que le permite acceder al hierro dentro de las células (como en los hepatocitos y los cardiomiocitos) y movilizar el hierro de los depósitos de ferritina y hemosiderina. Su acción principal es reducir los niveles de hierro corporal total y la saturación de transferrina, previniendo el daño oxidativo causado por el hierro libre (no unido) en los tejidos.",
+    "pharmacologicClass": "Agente quelante del hierro; Ligando de hierro trivalente; 3-hidroxi-1,2-dimetilpiridin-4-ona.",
+    "therapeuticClass": "Antianémico y Hematológico (Agente quelante del hierro).",
+    "absorption": "Se absorbe rápidamente y casi completamente por vía oral en el tracto gastrointestinal. La biodisponibilidad oral es aproximadamente del 70-90%. La concentración plasmática máxima (Cmax) se alcanza entre 45 minutos y 2 horas después de la administración. La absorción puede verse disminuida si se toma con alimentos, especialmente aquellos ricos en minerales.",
+    "distribution": "Se distribuye ampliamente en los tejidos y fluidos corporales. Tiene un volumen de distribución (Vd) de aproximadamente 1.6 L/kg, lo que indica una buena penetración tisular. Atraviesa la barrera hematoencefálica en cierta medida. Su unión a proteínas plasmáticas es baja (<10%), principalmente a la albúmina. Esto permite que una gran fracción del fármaco esté libre para ejercer su efecto quelante.",
+    "metabolism": "La deferiprona se metaboliza extensamente en el hígado, principalmente por conjugación con glucurónido (glucuronidación), formando el metabolito inactivo deferiprona-glucurónido. Este metabolismo es mediado por las enzimas de la familia UGT (UDP-glucuronosiltransferasa), específicamente UGT1A6 y UGT1A9. Una pequeña fracción puede oxidarse. No es un sustrato significativo del sistema enzimático citocromo P450 (CYP).",
+    "elimination": "La vida media de eliminación es relativamente corta, de aproximadamente 1.5 a 3 horas. Se elimina principalmente por vía renal, donde alrededor del 75-90% de la dosis se excreta en la orina en las primeras 24 horas, mayoritariamente en forma de metabolito glucurónido conjugado. Menos del 10% se excreta en las heces. La eliminación es rápida, por lo que requiere administraciones frecuentes (tres veces al día) para mantener un efecto quelante constante.",
+    "onsetOfAction": "El inicio de la acción quelante comienza poco después de la absorción, con un aumento en la excreción urinaria de hierro observable en las primeras horas tras la dosis.",
+    "durationOfAction": "El efecto quelante es de corta duración debido a su rápida eliminación. Por ello, el efecto terapéutico sostenido requiere una dosificación estricta cada 8 horas para mantener niveles plasmáticos efectivos durante el día."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento de la sobrecarga de hierro transfusional en pacientes con talasemia mayor (beta-talasemia) cuando la terapia con deferoxamina es inadecuada o contraindicada.",
+      "Tratamiento de la sobrecarga de hierro en pacientes con síndromes mielodisplásicos (SMD) u otras anemias crónicas que requieren transfusiones múltiples."
+    ],
+    "offLabel": [
+      "Tratamiento de la sobrecarga de hierro en la anemia de células falciformes con transfusiones crónicas.",
+      "Tratamiento de la sobrecarga de hierro en la anemia de Blackfan-Diamond.",
+      "Tratamiento de la aceruloplasminemia (trastorno del metabolismo del hierro).",
+      "Posible uso en el tratamiento de la neurodegeneración con acumulación de hierro en el cerebro (como la enfermedad de Parkinson o Alzheimer, en investigación)."
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis habitual es de 75 a 100 mg/kg de peso corporal por día, dividida en tres dosis iguales (cada 8 horas). Por ejemplo, un paciente de 60 kg tomaría 1500 mg (1.5 g) tres veces al día para una dosis total de 4500 mg/día (75 mg/kg/día). La dosis debe individualizarse según la carga de hierro y la respuesta terapéutica.",
+    "pediatric": "Para niños mayores de 6 años: igual que en adultos, 75-100 mg/kg/día divididos en tres dosis diarias. El cálculo se basa estrictamente en el peso corporal actual. Para niños menores de 6 años, su uso debe ser evaluado cuidadosamente por un especialista debido a datos limitados de seguridad.",
+    "elderly": "No se requieren ajustes de dosis específicos basados únicamente en la edad. Sin embargo, la dosis debe ajustarse según la función renal, el peso corporal y el estado general de salud, que pueden estar comprometidos en adultos mayores.",
+    "renalImpairment": "Se debe usar con precaución. En insuficiencia renal leve a moderada (TFG 30-89 mL/min): puede requerir ajuste de dosis y monitoreo estrecho. En insuficiencia renal grave (TFG <30 mL/min) o en diálisis: está contraindicado debido al riesgo de acumulación del fármaco y sus metabolitos, y a la dependencia de la excreción renal.",
+    "hepaticImpairment": "Se debe usar con precaución en pacientes con insuficiencia hepática, ya que el fármaco se metaboliza en el hígado. Se recomienda iniciar con dosis bajas y monitorear estrechamente la función hepática. No hay recomendaciones de ajuste de dosis cuantitativas específicas.",
+    "maxDose": "La dosis máxima diaria recomendada es de 100 mg/kg/día (equivalente a 33 mg/kg por dosis individual). No se debe exceder este límite debido al aumento del riesgo de efectos adversos, especialmente agranulocitosis y artralgias."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "500 mg",
+        "1000 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Solución oral",
+      "strengths": [
+        "100 mg/mL"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la deferiprona o a cualquiera de los excipientes.",
+      "Insuficiencia renal grave (TFG <30 mL/min) o pacientes en diálisis.",
+      "Antecedentes de agranulocitosis o neutropenia recurrente inducida por deferiprona.",
+      "Mujeres embarazadas (a menos que el beneficio supere claramente el riesgo).",
+      "Pacientes con agranulocitosis preexistente o conteo de neutrófilos (ANC) <1.5 x 10^9/L."
+    ],
+    "relative": [
+      "Insuficiencia renal leve a moderada (TFG 30-89 mL/min).",
+      "Insuficiencia hepática.",
+      "Historia de artritis o artralgias severas.",
+      "Pacientes con infecciones activas o recurrentes.",
+      "Niños menores de 6 años (por datos limitados de seguridad)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Náuseas",
+      "Vómitos",
+      "Dolor abdominal",
+      "Cambio en el color de la orina (a rojo-marrón, es normal e indica excreción de hierro)"
+    ],
+    "common": [
+      "Artralgia (dolor en articulaciones)",
+      "Dolor de cabeza (cefalea)",
+      "Fatiga",
+      "Diarrea",
+      "Aumento de los niveles de enzimas hepáticas (ALT, AST)",
+      "Pérdida del apetito"
+    ],
+    "uncommon": [
+      "Neutropenia (disminución de glóbulos blancos neutrófilos)",
+      "Proteinuria (proteínas en la orina)",
+      "Erupción cutánea",
+      "Prurito (comezón)",
+      "Mareo",
+      "Zumbido en los oídos (tinnitus)"
+    ],
+    "rare": [
+      "Agranulocitosis (pérdida severa de glóbulos blancos granulocitos)",
+      "Anafilaxia (reacción alérgica severa)",
+      "Fallo hepático",
+      "Síndrome de Stevens-Johnson",
+      "Pancreatitis",
+      "Visión borrosa"
+    ],
+    "blackBoxWarning": "ADVERTENCIA: AGRANULOCITOSIS Y NEUTROPENIA. La deferiprona puede causar agranulocitosis (conteo de neutrófilos <0.5 x 10^9/L) y neutropenia (conteo de neutrófilos <1.5 x 10^9/L), que pueden ser potencialmente mortales. Se requiere monitoreo semanal obligatorio del conteo absoluto de neutrófilos (CAN) durante el tratamiento. Si el CAN cae por debajo de 1.5 x 10^9/L, se debe interrumpir el tratamiento."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Suplementos de hierro (sulfato ferroso, gluconato ferroso)",
+        "effect": "La deferiprona se unirá al hierro del suplemento en el tracto gastrointestinal, reduciendo la eficacia de ambos. El hierro suplementario puede saturar al quelante.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Antiácidos que contienen aluminio (Hidróxido de aluminio)",
+        "effect": "La deferiprona puede quelar el aluminio, aumentando su absorción y potencial toxicidad. Evitar la administración conjunta.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Vitaminas con minerales (multivitamínicos)",
+        "effect": "Puede quelar otros metales como zinc, cobre y manganeso, llevando a deficiencias. Separar la administración por al menos 4 horas.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Fármacos que deprimen la médula ósea (ej. Cloranfenicol, quimioterapia)",
+        "effect": "Aumento del riesgo de neutropenia y agranulocitosis. Se requiere monitoreo hematológico extremadamente estrecho.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "Se recomienda tomar con el estómago vacío (1 hora antes o 2 horas después de los alimentos) para maximizar la absorción. Los alimentos, especialmente los ricos en minerales (lácteos, cereales fortificados), pueden reducir su absorción. El alcohol debe evitarse, ya que puede aumentar el estrés hepático y potenciar la toxicidad hepática del fármaco.",
+    "withSupplements": "Evitar la ingesta simultánea de suplementos que contengan hierro, zinc, cobre, manganeso o magnesio, ya que la deferiprona los quelará y reducirá su absorción, pudiendo causar deficiencias. Separar la administración al menos 4 horas. Los suplementos de vitamina C en dosis altas pueden aumentar la movilización de hierro y potencialmente su toxicidad; su uso debe ser supervisado por el médico."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA D",
+      "recommendation": "La deferiprona puede causar daño fetal. Estudios en animales han mostrado toxicidad reproductiva. Solo debe usarse durante el embarazo si el beneficio para la madre justifica claramente el riesgo potencial para el feto, generalmente en casos de sobrecarga de hierro severa y peligrosa. Se debe realizar una estricta evaluación riesgo-beneficio por un equipo multidisciplinario (hematólogo, ginecólogo).",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "No se sabe si la deferiprona se excreta en la leche materna humana. Dado el potencial de efectos adversos graves en el lactante (como toxicidad hematológica), se recomienda suspender la lactancia materna o no utilizar el fármaco durante este período, dependiendo de la importancia del tratamiento para la madre.",
+    "pediatric": "Aprobado para uso en niños mayores de 6 años. En niños menores, la experiencia es limitada y debe reservarse para casos donde otros quelantes no sean adecuados, bajo estricta supervisión especializada. El monitoreo de crecimiento y desarrollo, así como el conteo de neutrófilos semanal, son cruciales.",
+    "geriatric": "Los pacientes mayores pueden tener una función renal o hepática disminuida, lo que requiere ajustes de dosis y monitoreo más frecuente. Son más susceptibles a los efectos adversos como artralgias y trastornos gastrointestinales. La evaluación del estado de hidratación es importante para la función renal."
+  },
+  "administration": {
+    "howToTake": "Tomar exactamente como lo recetó el médico. Las tabletas deben tragarse enteras con un vaso lleno de agua (aproximadamente 240 mL). Tomar con el estómago vacío, idealmente 1 hora antes o 2 horas después de las comidas, para una mejor absorción. Si causa malestar estomacal severo, el médico puede autorizar tomarlo con una comida ligera y baja en minerales. La dosis diaria total se divide en tres tomas iguales, espaciadas aproximadamente cada 8 horas (por ejemplo, a las 8:00, 16:00 y 24:00 horas) para mantener un efecto constante. No triture, mastique ni parta las tabletas a menos que lo indique el médico o farmacéutico.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (entre 15°C y 30°C). Proteger de la luz directa, la humedad y el calor excesivo. Mantener fuera del alcance y de la vista de los niños y mascotas. No utilizar después de la fecha de caducidad impresa en el empaque.",
+    "specialInstructions": "Es normal que la orina se torne de un color rojizo, anaranjado o marrón oscuro. Esto se debe a la excreción del complejo hierro-deferiprona y NO es motivo de alarma. No deje de tomar el medicamento sin consultar a su médico, incluso si se siente bien, ya que la sobrecarga de hierro es silenciosa. Asista a TODAS las citas de laboratorio programadas para el conteo de glóbulos blancos. Lleve una tarjeta de identificación del paciente que indique que está tomando deferiprona."
+  },
+  "monitoring": {
+    "labTests": [
+      "Conteo sanguíneo completo (CSC) con diferencial y Conteo Absoluto de Neutrófilos (CAN)",
+      "Pruebas de función hepática (ALT, AST, bilirrubina, fosfatasa alcalina)",
+      "Ferritina sérica",
+      "Saturación de transferrina",
+      "Hierro sérico",
+      "Capacidad total de fijación del hierro (CTFH)",
+      "Análisis de orina (para detectar proteinuria)",
+      "Creatinina sérica y TFG (tasa de filtración glomerular)"
+    ],
+    "frequency": "CSC con CAN: SEMANALMENTE durante todo el tratamiento. Ferritina sérica y pruebas de función hepática: cada 1-3 meses al inicio, luego cada 3-6 meses una vez estabilizado. Función renal y análisis de orina: cada 3-6 meses. La frecuencia puede aumentar si hay cambios en la dosis o aparición de efectos adversos.",
+    "signsToWatch": [
+      "Fiebre, escalofríos, dolor de garganta, úlceras en la boca (signos de infección/neutropenia).",
+      "Hinchazón, dolor o rigidez severa en las articulaciones.",
+      "Náuseas, vómitos o dolor abdominal intenso y persistente.",
+      "Coloración amarillenta de piel u ojos (ictericia), orina muy oscura, heces pálidas.",
+      "Erupción cutánea grave, ampollas o descamación.",
+      "Fatiga extrema, debilidad o palidez inusual.",
+      "Dificultad para respirar o dolor en el pecho."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Náuseas y vómitos profusos",
+      "Diarrea acuosa severa",
+      "Dolor abdominal cólico intenso",
+      "Mareo, vértigo",
+      "Hipotensión (presión baja)",
+      "Posible exacerbación de efectos adversos como neutropenia y toxicidad hepática"
+    ],
+    "treatment": "No existe un antídoto específico. El tratamiento es de soporte y sintomático. Inducir el vómito o realizar lavado gástrico solo si la ingestión es reciente y el paciente está consciente. Administrar carbón activado puede ser considerado. Mantener la hidratación con líquidos intravenosos. Monitorear electrolitos, función renal, hemograma y función hepática. En casos de neutropenia severa, pueden requerirse factores de crecimiento granulocítico (G-CSF) y aislamiento protector.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especializada (prescripción por un hematólogo o especialista).",
+    "scheduleMexico": "Medicamento de prescripción restringida (no incluido en las fracciones de psicotrópicos o estupefacientes, pero su dispensación está controlada).",
+    "fdaApprovalYear": "Aprobado por la FDA de EE.UU. en el año 2011 para la sobrecarga de hierro transfusional."
+  },
+  "brandsMexico": [
+    "Ferriprox",
+    "Kelfer",
+    "Deferiprona Genfar",
+    "Deferiprona Rimafar",
+    "Deferiprona Liomont"
+  ],
+  "clinicalPearls": [
+    "La deferiprona tiene una ventaja única sobre otros quelantes: su capacidad para penetrar las membranas celulares y quelar el hierro intracelular, mostrando una especial eficacia para reducir la carga de hierro cardíaco, lo que es crítico para prevenir la miocardiopatía por hierro.",
+    "El monitoreo semanal del conteo de neutrófilos (CAN) no es negociable. Se debe educar al paciente para que reconozca los signos de infección (fiebre, dolor de garganta) y sepa que debe realizarse el análisis de sangre cada semana sin falta, incluso si se siente bien.",
+    "La coloración rojiza de la orina es un marcador útil de adherencia al tratamiento y de que el fármaco está funcionando. Se debe explicar claramente al paciente para evitar alarmas innecesarias y abandonos del tratamiento."
+  ],
+  "patientCounseling": "Querido paciente, la deferiprona es un medicamento que le salva la vida al eliminar el exceso de hierro que se acumula por las transfusiones. Debe tomarlo tres veces al día, con el estómago vacío si es posible, y NUNCA saltarse una dosis. Es normal y esperado que su orina se ponga de color rojo-marrón; no se asuste. La parte MÁS IMPORTANTE es que debe hacerse un análisis de sangre CADA SEMANA para revisar sus glóbulos blancos. Si tiene fiebre, dolor de garganta, mucho dolor en las articulaciones, o la piel se pone amarilla, avise a su médico de inmediato. No tome vitaminas con hierro o minerales, ni antiácidos, sin consultar primero. Este tratamiento es un compromiso de por vida para proteger su corazón, hígado y demás órganos. Lleve siempre una identificación que diga que toma deferiprona. Ante cualquier duda, consulte a su hematólogo o farmacéutico, no tome decisiones por su cuenta.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fatiga por sobrecarga de hierro",
+        "slug": "fatiga-por-sobrecarga-de-hierro"
+      },
+      {
+        "name": "Dolor abdominal por hemocromatosis",
+        "slug": "dolor-abdominal-por-hemocromatosis"
+      },
+      {
+        "name": "Debilidad muscular",
+        "slug": "debilidad-muscular"
+      },
+      {
+        "name": "Coloración bronceada de la piel",
+        "slug": "coloracion-bronceada-de-la-piel"
+      },
+      {
+        "name": "Arritmias cardíacas por hierro",
+        "slug": "arritmias-cardiacas-por-hierro"
+      },
+      {
+        "name": "Disfunción sexual por hipogonadismo",
+        "slug": "disfuncion-sexual-por-hipogonadismo"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Beta-Talasemia Mayor",
+        "slug": "beta-talasemia-mayor"
+      },
+      {
+        "name": "Sobrecarga de hierro transfusional",
+        "slug": "sobrecarga-de-hierro-transfusional"
+      },
+      {
+        "name": "Síndromes Mielodisplásicos (SMD)",
+        "slug": "sindromes-mielodisplasicos"
+      },
+      {
+        "name": "Anemia de células falciformes con transfusiones",
+        "slug": "anemia-de-celulas-falciformes-con-transfusiones"
+      },
+      {
+        "name": "Hemocromatosis secundaria",
+        "slug": "hemocromatosis-secundaria"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Agranulocitosis",
+        "slug": "agranulocitosis"
+      },
+      {
+        "name": "Neutropenia",
+        "slug": "neutropenia"
+      },
+      {
+        "name": "Artritis",
+        "slug": "artritis"
+      },
+      {
+        "name": "Hepatotoxicidad",
+        "slug": "hepatotoxicidad"
+      },
+      {
+        "name": "Fallo hepático agudo",
+        "slug": "fallo-hepatico-agudo"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Ferritina sérica",
+        "slug": "ferritina-serica",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Conteo Absoluto de Neutrófilos (CAN)",
+        "slug": "conteo-absoluto-de-neutrofilos",
+        "effect": "Puede disminuir severamente"
+      },
+      {
+        "name": "Hierro sérico",
+        "slug": "hierro-serico",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Saturación de transferrina",
+        "slug": "saturacion-de-transferrina",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Enzimas hepáticas (ALT, AST)",
+        "slug": "enzimas-hepaticas-alt-ast",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Proteínas en orina",
+        "slug": "proteinas-en-orina",
+        "effect": "Puede elevar"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Conteo Sanguíneo Completo (CSC) con diferencial",
+        "slug": "conteo-sanguineo-completo-con-diferencial",
+        "reason": "Monitoreo semanal obligatorio para detectar neutropenia/agranulocitosis."
+      },
+      {
+        "name": "Ferritina sérica",
+        "slug": "ferritina-serica",
+        "reason": "Para evaluar los depósitos totales de hierro y la eficacia del tratamiento quelante."
+      },
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-de-funcion-hepatica",
+        "reason": "Para detectar posible hepatotoxicidad inducida por el fármaco."
+      },
+      {
+        "name": "Análisis de orina",
+        "slug": "analisis-de-orina",
+        "reason": "Para detectar proteinuria, un efecto adverso posible."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve la deferiprona?",
+      "a": "Sirve para eliminar el exceso de hierro que se acumula en el cuerpo de personas que necesitan muchas transfusiones de sangre, como los pacientes con talasemia. Este hierro extra puede dañar el corazón, el hígado y otras partes del cuerpo."
+    },
+    {
+      "q": "¿Cómo debo tomar la deferiprona?",
+      "a": "Generalmente se toma tres veces al día, cada 8 horas, con el estómago vacío (1 hora antes o 2 horas después de comer), tragando la tableta entera con un vaso lleno de agua. Siga exactamente las instrucciones de su médico."
+    },
+    {
+      "q": "¿Por qué mi orina se pone roja o marrón con este medicamento?",
+      "a": "Es completamente normal y es una señal de que el medicamento está funcionando. El color se debe al hierro que el medicamento atrapa y elimina a través de la orina. No es sangre y no debe preocuparle."
+    },
+    {
+      "q": "¿Qué pasa si olvido una dosis?",
+      "a": "Tómela tan pronto como se acuerde, pero si ya es casi la hora de la siguiente dosis, sáltese la que olvidó y continúe con su horario normal. NO tome dos dosis a la vez para compensar."
+    },
+    {
+      "q": "¿Puedo tomar deferiprona si estoy embarazada?",
+      "a": "Generalmente NO se recomienda durante el embarazo porque puede causar daño al bebé. Si queda embarazada o planea embarazarse, informe a su médico de inmediato para evaluar los riesgos y beneficios."
+    },
+    {
+      "q": "¿Qué efectos secundarios son los más comunes?",
+      "a": "Los más comunes son náuseas, dolor de estómago, vómito, dolor en las articulaciones, dolor de cabeza y cansancio. La orina de color rojo-marrón es un efecto esperado, no un efecto secundario dañino."
+    },
+    {
+      "q": "¿Por qué tengo que hacerme análisis de sangre cada semana?",
+      "a": "Porque la deferiprona puede, en raras ocasiones, bajar mucho los glóbulos blancos que defienden su cuerpo de infecciones (neutropenia). El análisis semanal detecta esto a tiempo para suspender el medicamento y evitar infecciones graves."
+    },
+    {
+      "q": "¿Puedo tomar vitaminas o hierro con deferiprona?",
+      "a": "NO. No tome suplementos de hierro, vitaminas con minerales (como zinc o cobre) ni antiácidos con aluminio sin consultar a su médico. La deferiprona puede 'robar' estos minerales y causar deficiencias o reducir su efecto."
+    },
+    {
+      "q": "¿La deferiprona se puede tomar con alimentos?",
+      "a": "Lo ideal es tomarla con el estómago vacío para que se absorba mejor. Si le causa mucho malestar estomacal, hable con su médico; él podría autorizar tomarla con una comida ligera, pero esto puede hacer que funcione un poco menos."
+    },
+    {
+      "q": "¿Cuánto tiempo tardaré en ver resultados?",
+      "a": "Los niveles de hierro en la sangre (ferritina) comenzarán a bajar después de varios meses de tratamiento constante. La protección de sus órganos es un proceso a largo plazo que requiere que tome el medicamento todos los días, por años."
+    },
+    {
+      "q": "¿Qué debo hacer si tengo fiebre o dolor de garganta?",
+      "a": "Detenga la deferiprona de inmediato y contacte a su médico o acuda a urgencias. Estos pueden ser signos de una baja en glóbulos blancos (neutropenia) que lo hace vulnerable a infecciones graves."
+    },
+    {
+      "q": "¿Existe algún antídoto si tomo demasiada deferiprona?",
+      "a": "No hay un antídoto específico. En caso de sobredosis (tomar muchas tabletas de una vez), acuda inmediatamente a urgencias o llame al centro de toxicología. Lleve el frasco del medicamento."
+    },
+    {
+      "q": "¿Puedo beber alcohol mientras tomo deferiprona?",
+      "a": "Se recomienda evitar el alcohol, ya que tanto el alcohol como la deferiprona pueden afectar el hígado. Beber alcohol podría aumentar el riesgo de daño hepático."
+    },
+    {
+      "q": "¿La deferiprona es mejor que la deferoxamina (inyección)?",
+      "a": "No es necesariamente 'mejor', son diferentes. La deferiprona es oral (más cómoda), pero requiere análisis de sangre semanales. La deferoxamina es inyectada, pero puede ser más eficaz para algunos pacientes. Su médico elegirá la más adecuada para usted."
+    },
+    {
+      "q": "¿Puede la deferiprona dañar mis riñones?",
+      "a": "La deferiprona se elimina por los riñones, por lo que si ya tiene problemas renales, debe usarse con mucha precaución y puede estar contraindicada. Su médico revisará su función renal regularmente con análisis de sangre."
+    },
+    {
+      "q": "¿Qué marcas de deferiprona hay en México?",
+      "a": "Las marcas disponibles incluyen Ferriprox, Kelfer, y versiones genéricas de laboratorios como Genfar, Rimafar y Liomont. Todas contienen el mismo principio activo."
+    },
+    {
+      "q": "¿La deferiprona cura la talasemia?",
+      "a": "No. La deferiprona NO cura la talasemia. Su función es tratar una complicación de la talasemia: la sobrecarga de hierro causada por las transfusiones necesarias para tratar la anemia. Es un tratamiento de soporte vital."
+    },
+    {
+      "q": "¿Puedo dejar de tomar deferiprona si mi ferritina ya está baja?",
+      "a": "NO. Nunca suspenda el tratamiento por su cuenta. Si la ferritina baja demasiado, su médico podría ajustar la dosis o hacer pausas, pero la sobrecarga de hierro regresa si se detiene la quelación. La decisión debe ser siempre médica."
+    },
+    {
+      "q": "¿Cómo interactúa la deferiprona con otros quelantes como la deferasirox?",
+      "a": "A veces se usan en combinación (terapia quelante combinada) para un efecto más potente, especialmente en la reducción del hierro cardíaco. Esto solo debe hacerse bajo estricta supervisión médica especializada, ya que aumenta el riesgo de efectos adversos."
+    },
+    {
+      "q": "¿Cuál es el mecanismo por el cual la deferiprona causa agranulocitosis y cómo se maneja?",
+      "a": "El mecanismo exacto no se conoce del todo, pero se cree que puede ser una reacción idiosincrásica (impredecible) mediada por el sistema inmune que afecta a la médula ósea. Si el conteo de neutrófilos cae por debajo de 1.5 x 10^9/L, se debe suspender inmediatamente la deferiprona. El paciente requiere monitoreo estrecho, protección contra infecciones y, en casos graves, puede necesitar hospitalización, antibióticos y factores de crecimiento (G-CSF). Nunca se debe reiniciar el fármaco después de un episodio de agranulocitosis."
+    }
+  ]
+}

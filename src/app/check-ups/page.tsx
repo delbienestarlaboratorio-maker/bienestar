@@ -3,6 +3,7 @@ import { ArrowLeft, Heart, Users, TrendingUp, Shield } from 'lucide-react';
 import { checkUpPackages } from '@/data/checkups-data';
 import { PackageCard } from '@/components/checkups/PackageCard';
 import { AdBanner } from '@/components/ui/AdBanner';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export const metadata = {
     title: 'Check-Ups y Paquetes Médicos | Laboratorio Del Bienestar',
@@ -218,7 +219,9 @@ export default function CheckUpsPage() {
 
                 {/* Ad Banner */}
                 <section className="mt-16 max-w-5xl mx-auto">
-                    <AdBanner />
+                    
+                <RelatedTools currentPath="/check-ups" className="mb-8" />
+                <AdBanner />
                 </section>
 
                 {/* CTA Final */}

@@ -1,0 +1,423 @@
+{
+  "name": "Clordiazepóxido",
+  "summary": "El clordiazepóxido es un medicamento ansiolítico y sedante perteneciente a la familia de las benzodiazepinas. Se utiliza principalmente para tratar los síntomas de la ansiedad, el síndrome de abstinencia del alcohol y como relajante muscular. Su importancia clínica radica en su capacidad para producir un efecto calmante rápido sobre el sistema nervioso central, ayudando a reducir la tensión, la agitación y los síntomas físicos de la ansiedad como palpitaciones y temblores. Fue la primera benzodiazepina sintetizada y marcó un hito en el tratamiento de los trastornos de ansiedad, ofreciendo un perfil de seguridad mejorado en comparación con los barbitúricos que se usaban anteriormente. Sin embargo, debido a su potencial para causar dependencia física y psicológica, su uso debe ser estrictamente supervisado por un médico y por periodos limitados, generalmente no más de 4 semanas para el tratamiento de la ansiedad. Es un medicamento controlado en México y solo debe obtenerse con receta médica archivada.",
+  "pharmacology": {
+    "mechanismOfAction": "El clordiazepóxido actúa potenciando la actividad del ácido gamma-aminobutírico (GABA), el principal neurotransisor inhibitorio del sistema nervioso central. Se une de forma específica a un sitio en el receptor GABA-A, lo que facilita la apertura del canal de cloruro asociado al receptor. Esto permite un mayor flujo de iones cloruro hacia el interior de la neurona, lo que hiperpolariza la membrana celular y hace que la neurona sea menos excitable. Este aumento en la inhibición neuronal resulta en los efectos ansiolítico, sedante, hipnótico, anticonvulsivante y relajante muscular característicos de las benzodiazepinas. No actúa directamente sobre el receptor, sino que modula su respuesta al neurotransisor natural, el GABA.",
+    "pharmacologicClass": "Benzodiazepina de acción prolongada; Agonista del receptor benzodiazepínico (subunidad del receptor GABA-A).",
+    "therapeuticClass": "Ansiolítico; Sedante; Hipnótico; Relajante muscular; Anticonvulsivante.",
+    "absorption": "Se absorbe bien por vía oral, con una biodisponibilidad de aproximadamente el 100%. La concentración plasmática máxima (Tmax) se alcanza entre 1 y 4 horas después de la administración oral. La presencia de alimentos puede retrasar ligeramente la absorción, pero no afecta significativamente la cantidad total absorbida.",
+    "distribution": "Se distribuye ampliamente por todo el cuerpo. Tiene un volumen de distribución (Vd) de aproximadamente 0.3 a 0.5 L/kg. Se une extensamente (alrededor del 96-98%) a proteínas plasmáticas, principalmente a la albúmina. Cruza la barrera hematoencefálica y la placenta, y se excreta en la leche materna.",
+    "metabolism": "Se metaboliza extensamente en el hígado a través de dos vías principales: desmetilación y hidroxilación. Sus metabolitos activos principales son la desmetilclordiazepóxido, la demoxepam y el desmetildiazepam (nordazepam), este último con una vida media muy larga y responsable de gran parte de la actividad farmacológica prolongada. Las enzimas del citocromo P450 involucradas incluyen principalmente CYP3A4 y, en menor medida, CYP2C19. El metabolismo puede verse afectado por la función hepática y por fármacos que inhiban o induzcan estas enzimas.",
+    "elimination": "La vida media de eliminación del clordiazepóxido es de aproximadamente 5 a 30 horas, pero la vida media de sus metabolitos activos (especialmente el desmetildiazepam) puede extenderse de 30 a 200 horas, lo que contribuye a un efecto acumulativo y prolongado. Se elimina principalmente por vía renal (como metabolitos glucuronoconjugados), con una pequeña fracción excretada sin cambios en la orina. La eliminación es más lenta en adultos mayores y en pacientes con insuficiencia hepática.",
+    "onsetOfAction": "El inicio de acción tras la administración oral es relativamente rápido, generalmente entre 30 minutos y 2 horas, dependiendo de la formulación y del individuo.",
+    "durationOfAction": "La duración del efecto clínico es prolongada, de 8 a 24 horas o más, debido a la larga vida media de sus metabolitos activos. Esto permite su uso en dosificaciones de una a tres veces al día."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento a corto plazo del trastorno de ansiedad generalizada",
+      "Síntomas de abstinencia aguda del alcohol (delirium tremens y agitación asociada)",
+      "Ansiedad y tensión preoperatoria",
+      "Espasmos musculares asociados a trastornos musculoesqueléticos locales (como relajante muscular adyuvante)"
+    ],
+    "offLabel": [
+      "Tratamiento sintomático de la abstinencia de benzodiazepinas (en protocolos de desintoxicación)",
+      "Agitación en cuidados paliativos",
+      "Síndrome del intestino irritable con componente ansioso predominante",
+      "Como coadyuvante en el tratamiento del insomnio de conciliación (aunque no es de primera elección)"
+    ]
+  },
+  "dosage": {
+    "adults": "Ansiedad leve a moderada: 5-10 mg, 3-4 veces al día. Ansiedad severa o síndrome de abstinencia de alcohol: 25-100 mg inicialmente, seguido de 25-50 mg, 3-4 veces al día según necesidad. Dosis de mantenimiento: 15-40 mg al día, divididos en 2-4 dosis. Preoperatorio: 5-10 mg, 3-4 veces al día el día anterior a la cirugía; o 50-100 mg por vía intramuscular 1 hora antes de la cirugía.",
+    "pediatric": "No se recomienda su uso rutinario en niños menores de 6 años. Para niños mayores de 6 años: 0.5 mg/kg/día, dividido en 3-4 dosis. La dosis debe individualizarse cuidadosamente y solo bajo estricta supervisión médica.",
+    "elderly": "Debido a la mayor sensibilidad, metabolismo más lento y riesgo de caídas: iniciar con dosis bajas, típicamente 2.5-5 mg, 1-2 veces al día. Aumentar gradualmente si es necesario y tolerado. Evitar el uso prolongado.",
+    "renalImpairment": "Ajustar con precaución. En insuficiencia renal leve a moderada (TFG 30-89 mL/min): reducir la dosis inicial en un 25-50%. En insuficiencia renal severa (TFG <30 mL/min) o en diálisis: evitar o usar con extrema precaución y en dosis mínimas, ya que los metabolitos pueden acumularse. No se elimina eficazmente por hemodiálisis.",
+    "hepaticImpairment": "Contraindicado en insuficiencia hepática severa. En insuficiencia hepática leve a moderada (Child-Pugh A y B): reducir la dosis inicial en un 50% o más. Monitorizar estrechamente los signos de sedación excesiva. El metabolismo está significativamente comprometido.",
+    "maxDose": "La dosis máxima diaria recomendada para adultos es de 300 mg, pero solo en contextos hospitalarios para el manejo de la abstinencia alcohólica severa. Para el tratamiento ambulatorio de la ansiedad, rara vez se deben superar los 60-80 mg/día."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "5 mg",
+        "10 mg",
+        "25 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Cápsula",
+      "strengths": [
+        "5 mg",
+        "10 mg",
+        "25 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Ampolla inyectable",
+      "strengths": [
+        "100 mg"
+      ],
+      "route": "Intramuscular, Intravenosa (lenta)"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al clordiazepóxido o a cualquier benzodiazepina",
+      "Miastenia gravis",
+      "Insuficiencia respiratoria severa (ej., EPOC avanzado, apnea del sueño severa no tratada)",
+      "Insuficiencia hepática severa (cirrosis descompensada)",
+      "Glaucoma de ángulo cerrado agudo (no el de ángulo abierto)",
+      "Intoxicación aguda por alcohol, opioides u otros depresores del SNC"
+    ],
+    "relative": [
+      "Historial de dependencia a drogas o alcohol",
+      "Depresión mayor con ideación suicida (puede desinhibir)",
+      "Función renal severamente deteriorada",
+      "Edad avanzada (riesgo de caídas y confusión)",
+      "Trastornos psiquiátricos con componente psicótico",
+      "Embarazo (especialmente primer trimestre) y lactancia"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Somnolencia, sedación",
+      "Mareo, ataxia (inestabilidad al caminar)",
+      "Fatiga, letargo"
+    ],
+    "common": [
+      "Confusión (especialmente en ancianos)",
+      "Cefalea (dolor de cabeza)",
+      "Sequedad de boca",
+      "Estreñimiento",
+      "Visión borrosa o diplopía (visión doble)",
+      "Hipotensión ortostática (mareo al levantarse)",
+      "Cambios en la libido (deseo sexual)",
+      "Aumento de peso"
+    ],
+    "uncommon": [
+      "Náuseas, cambios en el apetito",
+      "Erupción cutánea",
+      "Ictericia (coloración amarilla, relacionada con hepatotoxicidad)",
+      "Alteraciones en el habla (disartria)",
+      "Temblores",
+      "Paradojalmente, excitación, ansiedad, insomnio o agresividad (reacción paradojal)"
+    ],
+    "rare": [
+      "Anemia, leucopenia, trombocitopenia (alteraciones sanguíneas)",
+      "Dependencia física y psicológica (con uso prolongado)",
+      "Síndrome de abstinencia al suspender bruscamente",
+      "Amnesia anterógrada (dificultad para formar nuevos recuerdos)",
+      "Reacciones alérgicas severas (anafilaxia)"
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Alcohol",
+        "effect": "Potenciación severa de la depresión del SNC, con riesgo de sedación profunda, depresión respiratoria, coma y muerte.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Opioides (morfina, tramadol, codeína)",
+        "effect": "Depresión aditiva del SNC y respiratoria. Aumenta el riesgo de sedación excesiva, paro respiratorio y muerte.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Otros depresores del SNC (barbitúricos, antipsicóticos, algunos antihistamínicos)",
+        "effect": "Aumento de los efectos sedantes y del riesgo de deterioro psicomotor.",
+        "severity": "Grave/Moderada"
+      },
+      {
+        "drug": "Inhibidores de CYP3A4 (ketoconazol, itraconazol, claritromicina, ritonavir)",
+        "effect": "Aumentan los niveles plasmáticos de clordiazepóxido, potenciando sus efectos y toxicidad.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inductores de CYP3A4 (rifampicina, carbamazepina, fenitoína, hierba de San Juan)",
+        "effect": "Disminuyen los niveles plasmáticos de clordiazepóxido, reduciendo su eficacia.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "El alimento puede retrasar ligeramente la absorción, pero no es clínicamente significativo. La interacción CRÍTICA es con el ALCOHOL. El consumo de alcohol, incluso en pequeñas cantidades (cerveza, vino), está absolutamente contraindicado, ya que multiplica los efectos sedantes y el riesgo de accidentes y depresión respiratoria.",
+    "withSupplements": "La hierba de San Juan (Hypericum perforatum) puede disminuir la eficacia del clordiazepóxido al inducir su metabolismo. Suplementos con efectos sedantes como la valeriana, la kava o la melatonina pueden potenciar la somnolencia. Se debe consultar al médico antes de combinar con cualquier suplemento herbal."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "D",
+      "recommendation": "Su uso durante el embarazo, especialmente en el primer trimestre, se asocia con un riesgo aumentado de malformaciones congénitas (como labio leporino). Su uso cerca del parto puede causar síndrome de abstinencia neonatal (hipotonía, dificultad para alimentarse, irritabilidad) y depresión respiratoria en el recién nacido. SOLO debe usarse si el beneficio potencial justifica claramente el riesgo para el feto, y generalmente se evita. No se recomienda para el tratamiento de la ansiedad rutinaria en el embarazo.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "El clordiazepóxido y sus metabolitos se excretan en la leche materna en cantidades significativas. Puede causar sedación, dificultad para alimentarse y pérdida de peso en el lactante. Se considera generalmente incompatible con la lactancia materna. Si su uso es absolutamente necesario, se debe suspender la lactancia.",
+    "pediatric": "Generalmente no se recomienda para niños, excepto en situaciones muy específicas y bajo supervisión médica estrecha (ej., síndromes de abstinencia en UCI neonatal). Los niños pueden ser más susceptibles a las reacciones paradojales (excitación). El uso a largo plazo puede afectar el desarrollo cognitivo y conductual.",
+    "geriatric": "Los adultos mayores son extremadamente sensibles. Las dosis deben iniciarse muy bajas (2.5-5 mg/día) y aumentarse con mucha cautela. El riesgo de sedación excesiva, confusión, ataxia, caídas con fracturas (especialmente de cadera) y deterioro cognitivo reversible es muy alto. Se prefieren alternativas no farmacológicas o fármacos con menor riesgo (ej., algunos antidepresivos) para el manejo de la ansiedad crónica."
+  },
+  "administration": {
+    "howToTake": "Tomar exactamente como lo indique el médico. Las tabletas/cápsulas se toman por vía oral, con o sin alimentos. Si causa malestar estomacal, se puede tomar con alimentos. Tragar entero con un vaso de agua. No triturar, masticar o partir a menos que el médico lo indique. Para el tratamiento de la ansiedad, la dosis suele dividirse en 2 a 4 tomas al día. No aumentar la dosis ni la frecuencia por cuenta propia. Si se olvida una dosis, tomarla tan pronto como se recuerde, pero si ya es casi la hora de la siguiente, omitir la dosis olvidada y continuar con el horario normal. NO duplicar dosis.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (entre 15°C y 30°C), protegido de la luz, la humedad y el calor excesivo. Mantener fuera del alcance y vista de los niños y mascotas. No almacenar en el baño. Desechar cualquier medicamento vencido o que ya no se necesite de forma segura (consultar en la farmacia).",
+    "specialInstructions": "NUNCA suspender el medicamento abruptamente después de un uso prolongado (más de 2-4 semanas), ya que puede provocar un síndrome de abstinencia severo (ansiedad, insomnio, temblores, convulsiones). La suspensión debe ser gradual, bajo supervisión médica. Este medicamento puede causar somnolencia y reducir la capacidad de reacción. NO conducir vehículos, operar maquinaria peligrosa o realizar actividades que requieran alerta total hasta conocer cómo le afecta. Evitar completamente el consumo de bebidas alcohólicas."
+  },
+  "monitoring": {
+    "labTests": [
+      "Pruebas de función hepática (ALT, AST, bilirrubina) periódicas",
+      "Conteo sanguíneo completo (CSC) si hay sospecha de alteraciones",
+      "Niveles de electrolitos en pacientes con riesgo de desequilibrio",
+      "No se requiere monitoreo rutinario de niveles plasmáticos."
+    ],
+    "frequency": "Evaluación clínica de eficacia y efectos adversos cada 1-4 semanas al inicio. Pruebas de función hepática cada 6-12 meses si el tratamiento es prolongado, o ante síntomas de daño hepático (ictericia, dolor abdominal).",
+    "signsToWatch": [
+      "Sedación excesiva o dificultad para despertar",
+      "Confusión, desorientación o agitación nueva",
+      "Dificultad para respirar o respiración lenta",
+      "Marcha inestable, caídas",
+      "Ictericia (piel u ojos amarillos)",
+      "Orina oscura, heces pálidas",
+      "Signos de dependencia o necesidad de aumentar la dosis para el mismo efecto",
+      "Ideación suicidal (poco común, pero posible)"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Sedación profunda, somnolencia que progresa a coma",
+      "Confusión severa",
+      "Ataxia marcada (incapacidad para caminar)",
+      "Hipotensión (presión baja)",
+      "Depresión respiratoria (respiración lenta y superficial), apnea (paro respiratorio)",
+      "Reflejos disminuidos o ausentes",
+      "En casos muy severos, paro cardiorrespiratorio y muerte."
+    ],
+    "treatment": "Es una emergencia médica. Llamar al 911 o acudir a urgencias. El tratamiento es de soporte: mantener vía aérea, ventilación y circulación. Lavado gástrico o carbón activado solo si la ingestión es muy reciente y el paciente está consciente. No hay diálisis efectiva. El antídoto específico, el flumazenil, puede revertir los efectos, pero su uso es controversial en pacientes dependientes (puede precipitar abstinencia severa y convulsiones) y en casos de sobredosis mixta. Se usa con precaución en un entorno hospitalario.",
+    "antidote": "Flumazenil (Anexate®). Es un antagonista competitivo de las benzodiazepinas."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica archivada (prescripción especial controlada).",
+    "scheduleMexico": "Fracción III (Tres) de la Ley General de Salud. Psicotrópico con potencial de abuso y dependencia.",
+    "fdaApprovalYear": "Aprobado por la FDA en 1960."
+  },
+  "brandsMexico": [
+    "Librium",
+    "Clordiazepóxido Genérico (varios laboratorios)",
+    "Risolid",
+    "Cloxide",
+    "A-Poxide",
+    "Reposans-10"
+  ],
+  "clinicalPearls": [
+    "Fue la primera benzodiazepina descubierta por Leo Sternbach en los laboratorios Roche en 1955, revolucionando el tratamiento de la ansiedad.",
+    "Su metabolito activo, desmetildiazepam (nordazepam), tiene una vida media extremadamente larga (hasta 200 horas), lo que puede causar efectos acumulativos y hacer que la suspensión sea más lenta y segura que con benzodiazepinas de vida media corta, pero también prolonga el riesgo de sedación diurna.",
+    "Aunque es eficaz para la abstinencia alcohólica, su uso en pacientes con historial de alcoholismo debe ser muy cauteloso y por periodos cortos, debido al alto riesgo de sustituir una dependencia por otra."
+  ],
+  "patientCounseling": "Este medicamento es para ayudarle a controlar su ansiedad o síntomas de abstinencia, pero no es una cura. Es muy importante que lo use exactamente como se lo recetó su médico, generalmente por un tiempo limitado. Nunca comparta sus pastillas con otra persona, aunque tengan síntomas similares. El efecto calmante puede hacerlo sentir somnoliento o mareado, especialmente las primeras dosis. Por su seguridad, evite manejar, usar herramientas o hacer cualquier actividad que requiera estar totalmente alerta hasta que sepa cómo le afecta. Lo MÁS IMPORTANTE: NO consuma NADA de alcohol mientras esté tomando este medicamento. La mezcla puede ser muy peligrosa, causando sueño profundo, dificultad para respirar e incluso la muerte. Si después de un tiempo siente que 'ya no le hace efecto', no aumente la dosis por su cuenta; consulte a su médico. Si decide dejar de tomarlo, hágalo gradualmente bajo supervisión médica para evitar síntomas de abstinencia como ansiedad, insomnio o temblores. Guarde el medicamento en un lugar seguro, lejos del alcance de niños y adolescentes.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Ansiedad",
+        "slug": "ansiedad"
+      },
+      {
+        "name": "Nerviosismo excesivo",
+        "slug": "nerviosismo-excesivo"
+      },
+      {
+        "name": "Tensión muscular",
+        "slug": "tension-muscular"
+      },
+      {
+        "name": "Insomnio por ansiedad",
+        "slug": "insomnio-por-ansiedad"
+      },
+      {
+        "name": "Palpitaciones por ansiedad",
+        "slug": "palpitaciones-por-ansiedad"
+      },
+      {
+        "name": "Temblores por abstinencia de alcohol",
+        "slug": "temblores-por-abstinencia-de-alcohol"
+      },
+      {
+        "name": "Agitación",
+        "slug": "agitacion"
+      },
+      {
+        "name": "Irritabilidad severa",
+        "slug": "irritabilidad-severa"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Trastorno de Ansiedad Generalizada",
+        "slug": "trastorno-de-ansiedad-generalizada"
+      },
+      {
+        "name": "Síndrome de Abstinencia Alcohólica",
+        "slug": "sindrome-de-abstinencia-alcoholica"
+      },
+      {
+        "name": "Trastorno de Pánico (como coadyuvante)",
+        "slug": "trastorno-de-panico"
+      },
+      {
+        "name": "Espasmos Musculares",
+        "slug": "espasmos-musculares"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Dependencia a Benzodiazepinas",
+        "slug": "dependencia-a-benzodiazepinas"
+      },
+      {
+        "name": "Síndrome de Abstinencia de Benzodiazepinas",
+        "slug": "sindrome-de-abstinencia-de-benzodiazepinas"
+      },
+      {
+        "name": "Hepatotoxicidad",
+        "slug": "hepatotoxicidad"
+      },
+      {
+        "name": "Deterioro Cognitivo (en ancianos)",
+        "slug": "deterioro-cognitivo"
+      },
+      {
+        "name": "Caídas y Fracturas (en ancianos)",
+        "slug": "caidas-y-fracturas"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Enzimas Hepáticas (ALT, AST)",
+        "slug": "enzimas-hepaticas-alt-ast",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Bilirrubina",
+        "slug": "bilirrubina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Recuento de Leucocitos",
+        "slug": "recuento-de-leucocitos",
+        "effect": "Puede disminuir (leucopenia)"
+      },
+      {
+        "name": "Recuento de Plaquetas",
+        "slug": "recuento-de-plaquetas",
+        "effect": "Puede disminuir (trombocitopenia)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Pruebas de Función Hepática",
+        "slug": "pruebas-de-funcion-hepatica",
+        "reason": "Para detectar posible daño hepático inducido por el fármaco."
+      },
+      {
+        "name": "Conteo Sanguíneo Completo",
+        "slug": "conteo-sanguineo-completo",
+        "reason": "Para monitorear posibles efectos en las células sanguíneas."
+      },
+      {
+        "name": "Evaluación de Función Renal",
+        "slug": "evaluacion-de-funcion-renal",
+        "reason": "Para ajustar la dosis en pacientes con insuficiencia renal, ya que los metabolitos se eliminan por riñón."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de Aclaramiento de Creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de Edad Vascular",
+        "slug": "calculadora-edad-vascular"
+      },
+      {
+        "name": "Calculadora de Dosis Pediátrica por Peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve el clordiazepóxido?",
+      "a": "Sirve principalmente para calmar la ansiedad y la tensión nerviosa severa. También se usa en hospitales para tratar los síntomas de abstinencia en personas que dejan el alcohol de forma brusca, como temblores, agitación y confusión (delirium tremens). Además, puede ayudar a relajar músculos contracturados por espasmos."
+    },
+    {
+      "q": "¿El clordiazepóxido es lo mismo que un 'tranquilizante'?",
+      "a": "Sí, exactamente. Pertenece al grupo de medicamentos llamados ansiolíticos o tranquilizantes menores (benzodiazepinas). Actúa calmando el sistema nervioso central, reduciendo la sensación de nerviosismo, preocupación excesiva y los síntomas físicos de la ansiedad como palpitaciones."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Generalmente comienza a hacer efecto entre 30 minutos y 2 horas después de tomarlo por boca. Sentirá una disminución gradual de la ansiedad y puede notar somnolencia. El efecto máximo para calmar la ansiedad suele darse en las primeras 1 a 4 horas."
+    },
+    {
+      "q": "¿Puedo tomar clordiazepóxido para poder dormir?",
+      "a": "Aunque puede causar somnolencia y a veces se usa para el insomnio causado por ansiedad, NO es su uso principal ni el más recomendable para dormir a largo plazo. Existen otras benzodiazepinas y medicamentos más específicos para el insomnio. Usarlo solo para dormir puede aumentar rápidamente el riesgo de dependencia. Consulte a su médico para la opción correcta."
+    },
+    {
+      "q": "¿Es adictivo el clordiazepóxido?",
+      "a": "Sí, tiene un potencial moderado a alto de causar dependencia física y psicológica, especialmente si se usa en dosis altas o por más de 4 semanas seguidas. El cuerpo se acostumbra a él, y si se suspende de golpe, puede causar un 'rebote' de ansiedad, insomnio y otros síntomas de abstinencia. Por eso se receta por periodos cortos y bajo supervisión."
+    },
+    {
+      "q": "¿Puedo tomar una cerveza o vino si estoy con este tratamiento?",
+      "a": "ABSOLUTAMENTE NO. La combinación de clordiazepóxido con alcohol es muy peligrosa. Ambas sustancias deprimen el sistema nervioso. Juntas pueden causar somnolencia extrema, mareo severo, dificultad para respirar, pérdida del conocimiento, y en casos graves, coma o muerte. Evite cualquier bebida alcohólica."
+    },
+    {
+      "q": "¿Qué hago si se me olvida tomar una dosis?",
+      "a": "Si se le olvidó y falta poco para la siguiente dosis, omita la que olvidó y tome la siguiente a su hora habitual. NUNCA duplique la dosis para compensar. Tomar una dosis extra aumenta el riesgo de efectos secundarios graves como sedación profunda."
+    },
+    {
+      "q": "¿Puedo manejar o operar maquinaria mientras lo tomo?",
+      "a": "NO es seguro, especialmente al inicio del tratamiento o cuando se ajusta la dosis. Este medicamento causa somnolencia, mareo y reduce los reflejos y la coordinación. Espere a saber cómo le afecta. Si se siente somnoliento o mareado, no conduzca ni realice actividades de riesgo hasta que estos efectos desaparezcan."
+    },
+    {
+      "q": "¿Cuáles son los efectos secundarios más comunes?",
+      "a": "Los más frecuentes son sueño, cansancio, mareo y sensación de inestabilidad al caminar. También son comunes boca seca, dolor de cabeza y estreñimiento. Estos efectos suelen ser más notorios los primeros días y pueden disminuir."
+    },
+    {
+      "q": "¿El clordiazepóxido sube o baja la presión arterial?",
+      "a": "Puede causar una leve disminución de la presión arterial, especialmente al levantarse rápidamente (lo que se llama hipotensión ortostática), lo que provoca mareo. Si usted ya toma medicamentos para la presión alta (hipertensión), este efecto puede potenciarse. Informe a su médico si toma antihipertensivos."
+    },
+    {
+      "q": "¿Puedo tomar clordiazepóxido si estoy embarazada o planeando embarazarme?",
+      "a": "Generalmente NO se recomienda. Su uso, especialmente en los primeros meses de embarazo, se ha asociado con un riesgo mayor de defectos de nacimiento en el bebé. Si está embarazada, cree estarlo o planea embarazarse, informe a su médico inmediatamente para buscar alternativas más seguras."
+    },
+    {
+      "q": "¿Puedo amamantar si tomo este medicamento?",
+      "a": "No es recomendable. El medicamento pasa a la leche materna y puede hacer que el bebé esté muy somnoliento, tenga dificultad para alimentarse y no gane peso adecuadamente. Si su tratamiento es indispensable, probablemente deba suspender la lactancia. Consulte a su médico y pediatra."
+    },
+    {
+      "q": "¿Los ancianos pueden tomarlo?",
+      "a": "Sí, pero con MUCHA precaución y en dosis mucho más bajas (a veces la mitad o menos de la dosis de un adulto joven). Los ancianos son muy sensibles y tienen mayor riesgo de sufrir confusión, caídas con fracturas y somnolencia excesiva. El médico debe iniciar con la dosis más baja posible."
+    },
+    {
+      "q": "¿Qué pasa si tomo más de la dosis que me recetaron?",
+      "a": "Es una SOBREDOSIS y es una emergencia médica. Puede causar sueño imposible de vencer, confusión severa, debilidad muscular, respiración lenta y peligrosa, y pérdida del conocimiento. Si usted o alguien toma una dosis excesiva, llame al 911 o acuda a urgencias inmediatamente."
+    },
+    {
+      "q": "¿Cómo debo dejar de tomar clordiazepóxido si lo he usado por varias semanas?",
+      "a": "NUNCA lo suspenda de golpe. Debe hacerlo GRADUALMENTE, reduciendo la dosis poco a poco durante varias semanas, bajo la guía de su médico. Suspenderlo abruptamente puede desencadenar ansiedad intensa, insomnio, temblores, sudoración y en casos graves, convulsiones."
+    },
+    {
+      "q": "¿Interfiere con otros medicamentos?",
+      "a": "Sí, con muchos. Interactúa de forma peligrosa con alcohol, pastillas para dormir, relajantes musculares, algunos analgésicos fuertes (opioides) y algunos medicamentos para la alergia o resfriado que causen sueño. También con algunos antifúngicos y antibióticos. SIEMPRE informe a su médico y farmacéutico sobre TODOS los medicamentos y suplementos que toma."
+    },
+    {
+      "q": "¿El clordiazepóxido es para la depresión?",
+      "a": "No, no es un antidepresivo. Está indicado para los síntomas de ANSIEDAD. A veces se usa junto con antidepresivos al inicio del tratamiento, cuando la ansiedad es muy intensa, pero no trata la causa central de la depresión. En algunos casos de depresión con ansiedad, incluso puede desenmascarar pensamientos suicidas, por lo que debe usarse con cuidado."
+    },
+    {
+      "q": "¿Puedo comprarlo sin receta en la farmacia?",
+      "a": "NO. En México, el clordiazepóxido es un medicamento controlado (Fracción III). Se vende ÚNICAMENTE con una receta médica especial (receta archivada) que el farmacéutico debe retener. No es de venta libre. Desconfíe de quien lo ofrezca sin receta."
+    },
+    {
+      "q": "¿Qué es una 'reacción paradojal' y puedo tenerla?",
+      "a": "Es un efecto contrario al esperado. En lugar de calmar, el medicamento puede causar excitación, agresividad, ataques de pánico, insomnio o alucinaciones. Es más común en niños, ancianos y personas con trastornos de personalidad. Si siente que está más nervioso, agitado o irritable después de tomarlo, contacte a su médico de inmediato."
+    },
+    {
+      "q": "¿Por qué mi médico me receta clordiazepóxido por solo 2-4 semanas si mi ansiedad es crónica?",
+      "a": "Porque el riesgo de desarrollar dependencia y tolerancia (necesidad de aumentar la dosis para el mismo efecto) aumenta significativamente después de ese periodo. Para la ansiedad crónica, las guías médicas recomiendan tratamientos de primera línea como psicoterapia (terapia cognitivo-conductual) y/o antidepresivos específicos que no causan dependencia. El clordiazepóxido se usa como un 'puente' para aliviar los síntomas agudos mientras esos tratamientos hacen efecto."
+    }
+  ]
+}

@@ -1,0 +1,386 @@
+{
+  "name": "Methsuximide",
+  "summary": "El methsuximide es un medicamento anticonvulsivo o antiepiléptico que pertenece al grupo de las succinimidas. Se utiliza principalmente para controlar y prevenir las crisis de ausencia (también llamadas 'petit mal'), que son un tipo específico de epilepsia donde la persona parece 'desconectarse' o 'ausentarse' por unos segundos, con movimientos automáticos como parpadeo rápido. Es un medicamento de segunda línea, lo que significa que se prescribe cuando otros tratamientos más comunes no han funcionado bien o no son tolerados. Su importancia clínica radica en ofrecer una opción de control para un tipo de epilepsia que, si no se trata, puede interferir significativamente con el aprendizaje, la concentración y las actividades diarias de niños y adultos. Requiere un manejo cuidadoso por parte de un neurólogo debido a sus efectos secundarios y posibles interacciones con otros fármacos.",
+  "pharmacology": {
+    "mechanismOfAction": "El methsuximide actúa principalmente bloqueando los canales de calcio tipo T en las neuronas del tálamo, una región del cerebro crucial para la sincronización de la actividad eléctrica que provoca las crisis de ausencia. Al inhibir estos canales, el medicamento reduce la excitabilidad neuronal excesiva y la propagación de la actividad eléctrica anormal que caracteriza a las convulsiones. También se cree que tiene efectos estabilizadores sobre las membranas neuronales. A diferencia de otros antiepilépticos, su acción es más selectiva para el tipo de actividad eléctrica involucrada en las crisis de ausencia, lo que lo hace útil específicamente para este tipo de epilepsia.",
+    "pharmacologicClass": "Anticonvulsivo succinimida",
+    "therapeuticClass": "Antiepiléptico",
+    "absorption": "Se absorbe bien por vía oral después de la administración. La absorción es variable entre individuos. La presencia de alimentos puede retrasar la absorción pero no afecta significativamente la cantidad total de medicamento que llega a la sangre.",
+    "distribution": "Se distribuye ampliamente por los tejidos corporales. Cruza la barrera hematoencefálica para llegar al cerebro, que es su sitio de acción. Se une moderadamente a proteínas plasmáticas (aproximadamente 50-60%). Su volumen de distribución (Vd) es relativamente alto, indicando una buena penetración en los tejidos.",
+    "metabolism": "Se metaboliza extensamente en el hígado. El metabolismo principal es a través del sistema enzimático del citocromo P450, específicamente por la isoenzima CYP3A4. El metabolito activo principal es la N-desmetilmetosuximida, que contribuye significativamente al efecto antiepiléptico y tiene una vida media más larga que el compuesto original.",
+    "elimination": "La vida media del methsuximide es relativamente corta (aproximadamente 2-4 horas), pero la de su metabolito activo (N-desmetilmetosuximida) es mucho más larga (alrededor de 24-36 horas). Se elimina principalmente por la orina en forma de metabolitos inactivos. Una pequeña porción se excreta sin cambios.",
+    "onsetOfAction": "El inicio de acción para alcanzar niveles sanguíneos estables puede tomar varios días, ya que depende de la acumulación del metabolito activo. Los efectos clínicos sobre la reducción de crisis pueden no ser evidentes de inmediato.",
+    "durationOfAction": "Debido a la larga vida media de su metabolito activo, el efecto anticonvulsivo puede durar 24 horas o más con dosis adecuadas, permitiendo generalmente una administración dos veces al día."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento de las crisis de ausencia (petit mal) refractarias o que no responden a otros medicamentos como la etosuximida o el ácido valproico."
+    ],
+    "offLabel": [
+      "Tratamiento coadyuvante en otros tipos de epilepsia focal o generalizada (uso muy limitado y no de primera elección).",
+      "Control de mioclonías (movimientos musculares bruscos e involuntarios) en algunos síndromes epilépticos específicos."
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis inicial típica es de 300 mg al día, administrados en 1 o 2 tomas. La dosis puede incrementarse gradualmente cada 1-2 semanas según la respuesta y tolerancia. La dosis de mantenimiento usual oscila entre 600 mg y 1200 mg al día, divididos en 2 a 4 tomas. Es fundamental el ajuste individualizado guiado por un neurólogo.",
+    "pediatric": "En niños mayores de 5 años: Dosis inicial de 10-15 mg/kg/día, dividida en 2-3 tomas. Dosis de mantenimiento usual: 20-40 mg/kg/día, dividida en 2-4 tomas. No se recomienda su uso en niños menores de 5 años debido a la falta de datos de seguridad y a la disponibilidad de alternativas más seguras.",
+    "elderly": "Se debe iniciar con dosis más bajas (por ejemplo, 150 mg al día) debido a la posible disminución de la función renal y hepática, y a una mayor sensibilidad a los efectos del sistema nervioso central. Los incrementos deben ser más lentos y cautelosos.",
+    "renalImpairment": "Precaución en insuficiencia renal. Con TFG entre 30-60 mL/min: considerar reducción de dosis inicial y de mantenimiento. Con TFG <30 mL/min o en diálisis: uso no recomendado o con extrema precaución y monitoreo estrecho, ya que el metabolito activo puede acumularse. No se elimina eficazmente por diálisis.",
+    "hepaticImpairment": "Contraindicado en insuficiencia hepática grave. En insuficiencia hepática leve a moderada (Child-Pugh A o B): iniciar con dosis muy bajas, incrementar muy lentamente y monitorear niveles plasmáticos y función hepática con frecuencia, debido al metabolismo hepático extenso.",
+    "maxDose": "No existe una dosis máxima absoluta universalmente definida, pero rara vez se exceden los 1500 mg al día en adultos o 40 mg/kg/día en niños. La dosis máxima se determina por la respuesta clínica y la aparición de efectos adversos."
+  },
+  "dosageForms": [
+    {
+      "form": "Cápsula",
+      "strengths": [
+        "150 mg",
+        "300 mg"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al methsuximide, a otras succinimidas (como etosuximida o phensuximide) o a cualquier componente de la formulación.",
+      "Insuficiencia hepática grave (Child-Pugh C).",
+      "Porfiria aguda intermitente."
+    ],
+    "relative": [
+      "Insuficiencia renal moderada a grave (TFG < 60 mL/min).",
+      "Insuficiencia hepática leve a moderada (Child-Pugh A o B).",
+      "Historia de depresión de la médula ósea (anemia, leucopenia).",
+      "Embarazo (solo si el beneficio justifica claramente el riesgo).",
+      "Pacientes con tendencia al suicidio o trastornos psiquiátricos graves."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Somnolencia (sueño durante el día).",
+      "Mareo o vértigo.",
+      "Náuseas.",
+      "Dolor de cabeza.",
+      "Visión borrosa o doble."
+    ],
+    "common": [
+      "Pérdida del apetito (anorexia).",
+      "Dolor abdominal.",
+      "Estreñimiento o diarrea.",
+      "Erupción cutánea leve.",
+      "Irritabilidad o cambios de humor.",
+      "Hipo.",
+      "Pérdida de peso."
+    ],
+    "uncommon": [
+      "Ataxia (dificultad para coordinar movimientos, tambaleo).",
+      "Fotofobia (sensibilidad a la luz).",
+      "Alteraciones del sueño (insomnio o pesadillas).",
+      "Prurito (comezón).",
+      "Urticaria.",
+      "Leucopenia (disminución de glóbulos blancos).",
+      "Trombocitopenia (disminución de plaquetas)."
+    ],
+    "rare": [
+      "Síndrome de Stevens-Johnson o necrólisis epidérmica tóxica (erupción cutánea grave con ampollas).",
+      "Lupus eritematoso sistémico inducido por fármacos.",
+      "Depresión grave o ideación suicida.",
+      "Anemia aplásica (falla de la médula ósea).",
+      "Agranulocitosis (pérdida severa de glóbulos blancos).",
+      "Hepatitis medicamentosa.",
+      "Nefritis intersticial (inflamación del riñón).",
+      "Psicosis."
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Carbamazepina, Fenitoína, Fenobarbital",
+        "effect": "Estos medicamentos (inductores enzimáticos) pueden aumentar el metabolismo del methsuximide, reduciendo sus niveles en sangre y su efectividad. Puede requerirse un aumento de la dosis de methsuximide.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Ácido Valproico (Valproato)",
+        "effect": "Puede inhibir el metabolismo del methsuximide, aumentando sus niveles en sangre y el riesgo de toxicidad (más somnolencia, mareo). También el methsuximide puede disminuir los niveles de valproato. Se requiere monitoreo estrecho.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Anticonceptivos hormonales (pastillas, parches, anillo)",
+        "effect": "El methsuximide puede reducir significativamente la efectividad de los anticonceptivos hormonales al aumentar su metabolismo, aumentando el riesgo de embarazo no deseado. Se recomienda un método anticonceptivo adicional (como condón).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Warfarina y otros anticoagulantes",
+        "effect": "El methsuximide puede alterar el metabolismo de la warfarina, haciendo más difícil controlar la dosis y aumentando el riesgo de sangrado o coágulos. Se requiere monitoreo muy frecuente del INR.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Alcohol y depresores del SNC (benzodiacepinas, opioides)",
+        "effect": "Potenciación de los efectos depresores del sistema nervioso central, aumentando severamente la somnolencia, mareo, dificultad para respirar y riesgo de accidentes.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "Puede tomarse con o sin alimentos. Tomarlo con alimentos puede ayudar a reducir las molestias estomacales como náuseas. El alcohol está estrictamente contraindicado, ya que aumenta la somnolencia y el riesgo de crisis convulsivas.",
+    "withSupplements": "La hierba de San Juan (Hypericum perforatum) puede disminuir los niveles de methsuximide al inducir su metabolismo, reduciendo su efectividad. Evitar su uso. Consultar con el médico antes de tomar cualquier suplemento herbal o vitamínico."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "C",
+      "recommendation": "El methsuximide puede causar daño fetal. Solo debe usarse durante el embarazo si el beneficio para la madre justifica claramente el riesgo potencial para el feto. Las crisis epilépticas no controladas también son un riesgo para el embarazo. Se requiere ácido fólico suplementario desde antes de la concepción. El monitoreo de niveles plasmáticos es crucial, ya que pueden cambiar durante el embarazo. El recién nacido debe ser monitoreado por posibles síntomas de abstinencia o efectos adversos.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "El methsuximide y su metabolito activo se excretan en la leche materna en cantidades bajas. Debido al potencial de efectos adversos graves en el lactante (somnolencia, dificultad para alimentarse, irritabilidad), generalmente se desaconseja su uso durante la lactancia. Si es absolutamente necesario, se debe monitorear al bebé estrechamente y considerar alternativas más seguras.",
+    "pediatric": "Puede usarse en niños mayores de 5 años para crisis de ausencia refractarias. Es fundamental el ajuste preciso de la dosis por peso corporal. Los niños pueden ser más sensibles a los efectos neuropsiquiátricos como irritabilidad o cambios de comportamiento. Se requiere vigilancia activa por parte de padres y maestros.",
+    "geriatric": "Los adultos mayores son más sensibles a los efectos del SNC (somnolencia, ataxia) y tienen mayor riesgo de caídas. La función renal y hepática disminuida puede llevar a una acumulación del fármaco. Se debe iniciar con dosis bajas, aumentar muy lentamente y monitorear la función renal y hepática."
+  },
+  "administration": {
+    "howToTake": "Tomar las cápsulas enteras con un vaso lleno de agua. No masticar, partir ni triturar. Puede tomarse con alimentos si causa malestar estomacal. Es crucial tomar la dosis a las mismas horas cada día para mantener niveles constantes en sangre. Si se olvida una dosis, tomarla tan pronto como se recuerde, a menos que ya sea casi la hora de la siguiente dosis. En ese caso, omitir la dosis olvidada y continuar con el horario normal. NUNCA duplicar la dosis para compensar.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (entre 15°C y 30°C), protegido de la luz, la humedad y el calor. Mantener fuera del alcance y de la vista de los niños y mascotas. No utilizar después de la fecha de caducidad impresa.",
+    "specialInstructions": "No suspender el medicamento abruptamente, ya que puede provocar un aumento grave de las crisis convulsivas (estatus epiléptico). Cualquier cambio de dosis o suspensión debe ser supervisado por el neurólogo y realizarse de forma gradual durante semanas o meses. Llevar una identificación médica (brazalete o tarjeta) que indique que toma methsuximide para epilepsia."
+  },
+  "monitoring": {
+    "labTests": [
+      "Hemograma completo (con recuento de plaquetas) para vigilar anemia, leucopenia o trombocitopenia.",
+      "Pruebas de función hepática (transaminasas, bilirrubina).",
+      "Pruebas de función renal (creatinina, nitrógeno ureico).",
+      "Niveles plasmáticos de methsuximide y su metabolito N-desmetilmetosuximida (para ajuste de dosis).",
+      "Examen general de orina (en caso de sospecha de efectos renales)."
+    ],
+    "frequency": "Al inicio del tratamiento y luego cada 3-6 meses para hemograma y función hepática. Los niveles plasmáticos se miden después de alcanzar la dosis de mantenimiento (aproximadamente 2 semanas) y luego según sea clínicamente necesario (cambio de dosis, efectos adversos, falta de eficacia). En niños y embarazadas, el monitoreo puede ser más frecuente.",
+    "signsToWatch": [
+      "Aparición o empeoramiento de crisis convulsivas.",
+      "Fiebre, dolor de garganta, úlceras en la boca, moretones o sangrado fácil (signos de problemas en la sangre).",
+      "Coloración amarillenta de piel u ojos (ictericia), orina oscura, dolor abdominal intenso (signos de daño hepático).",
+      "Erupción cutánea grave, ampollas o descamación de la piel.",
+      "Pensamientos suicidas, depresión profunda, cambios de comportamiento extremos.",
+      "Somnolencia o mareo intenso que interfiera con las actividades diarias.",
+      "Dificultad para coordinar movimientos o caminar (ataxia)."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Somnolencia extrema que puede progresar a estupor o coma.",
+      "Mareo severo y ataxia (incapacidad para caminar).",
+      "Náuseas y vómitos intensos.",
+      "Depresión respiratoria (respiración lenta y superficial).",
+      "Convulsiones (paradójicamente, puede provocarlas en sobredosis).",
+      "Bradicardia (ritmo cardíaco lento)."
+    ],
+    "treatment": "No existe antídoto específico. El tratamiento es de soporte. Mantener la vía aérea, la respiración y la circulación. Lavado gástrico o carbón activado pueden considerarse si la ingestión es reciente (dentro de 1-2 horas). Monitoreo continuo en un entorno hospitalario. La diálisis no es efectiva para eliminar el fármaco debido a su alta unión a proteínas y amplia distribución.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (receta retenida en farmacia para control estricto).",
+    "scheduleMexico": "Medicamento de la Fracción III (sustancias con potencial de abuso y uso médico, sujetas a control especial).",
+    "fdaApprovalYear": "Aprobado por la FDA en 1957."
+  },
+  "brandsMexico": [
+    "Celontin® (marca original, puede no estar disponible actualmente)",
+    "No hay marcas comerciales genéricas ampliamente disponibles en México. Se puede encontrar como Methsuximida genérico de laboratorios especializados bajo pedido especial en farmacias de hospital o de alta especialidad."
+  ],
+  "clinicalPearls": [
+    "El metabolito activo (N-desmetilmetosuximida) es el principal responsable del efecto terapéutico y tiene una vida media mucho más larga que el fármaco original, lo que explica por qué el control de las crisis puede mantenerse con dosificaciones al día.",
+    "Es un fármaco de nicho, reservado casi exclusivamente para crisis de ausencia refractarias después de fallar con etosuximida y valproato, debido a su perfil de efectos adversos menos favorable.",
+    "La monitorización de niveles plasmáticos es más útil para el metabolito activo que para el methsuximide sin metabolizar, para guiar el ajuste de dosis y evitar toxicidad."
+  ],
+  "patientCounseling": "Este medicamento es para controlar un tipo específico de epilepsia y debe tomarse exactamente como lo indicó su neurólogo. Nunca deje de tomarlo de golpe, aunque se sienta bien, porque puede provocar crisis graves. Es normal sentir sueño o mareo al principio; evite manejar maquinaria o conducir hasta que sepa cómo le afecta. El alcohol está totalmente prohibido. Informe inmediatamente a su médico si aparece sarpullido, fiebre, moretones inexplicables, pensamientos tristes o de hacerse daño, o si las crisis empeoran. Si es mujer en edad fértil, use un método anticonceptivo adicional (como condón) porque este medicamento puede anular el efecto de las pastillas anticonceptivas. Lleve siempre una identificación que diga que tiene epilepsia y qué medicamento toma.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Ausencias o desconexiones breves",
+        "slug": "ausencias-o-desconexiones-breves"
+      },
+      {
+        "name": "Parpadeo rápido involuntario",
+        "slug": "parpadeo-rapido-involuntario"
+      },
+      {
+        "name": "Movimientos automáticos de manos o boca",
+        "slug": "movimientos-automaticos-de-manos-o-boca"
+      },
+      {
+        "name": "Pérdida breve de conciencia",
+        "slug": "perdida-breve-de-conciencia"
+      },
+      {
+        "name": "Crisis convulsivas de tipo ausencia",
+        "slug": "crisis-convulsivas-de-tipo-ausencia"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Epilepsia de ausencia (Petit Mal)",
+        "slug": "epilepsia-de-ausencia-petit-mal"
+      },
+      {
+        "name": "Epilepsia refractaria",
+        "slug": "epilepsia-refractaria"
+      },
+      {
+        "name": "Síndrome de Lennox-Gastaut (como terapia adyuvante)",
+        "slug": "sindrome-de-lennox-gastaut"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Leucopenia (bajos glóbulos blancos)",
+        "slug": "leucopenia"
+      },
+      {
+        "name": "Hepatitis tóxica",
+        "slug": "hepatitis-toxica"
+      },
+      {
+        "name": "Síndrome de Stevens-Johnson",
+        "slug": "sindrome-de-stevens-johnson"
+      },
+      {
+        "name": "Lupus eritematoso sistémico inducido por fármacos",
+        "slug": "lupus-eritematoso-sistemico-inducido-por-farmacos"
+      },
+      {
+        "name": "Depresión mayor",
+        "slug": "depresion-mayor"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Recuento de leucocitos (glóbulos blancos)",
+        "slug": "recuento-de-leucocitos",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Recuento de plaquetas",
+        "slug": "recuento-de-plaquetas",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Transaminasas (ALT, AST)",
+        "slug": "transaminasas-alt-ast",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Bilirrubina",
+        "slug": "bilirrubina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar (raro)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Hemograma completo",
+        "slug": "hemograma-completo",
+        "reason": "Para monitorear posibles efectos en la médula ósea (anemia, leucopenia)."
+      },
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-de-funcion-hepatica",
+        "reason": "Para detectar daño hepático inducido por el fármaco."
+      },
+      {
+        "name": "Niveles plasmáticos de antiepilépticos",
+        "slug": "niveles-plasmaticos-de-antiepilepticos",
+        "reason": "Para ajustar la dosis y asegurar niveles terapéuticos del metabolito activo."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve exactamente el methsuximide?",
+      "a": "Sirve específicamente para controlar un tipo de epilepsia llamado 'crisis de ausencia' o 'petit mal', donde la persona se desconecta por segundos, a menudo con parpadeo rápido. Se usa cuando otros medicamentos para este problema no han funcionado bien."
+    },
+    {
+      "q": "¿Cómo debo tomar las cápsulas de methsuximide?",
+      "a": "Tómelas enteras con un vaso de agua, sin masticar. Puede ser con o sin comida. Siga exactamente el horario que le dio su neurólogo, generalmente 2 o 3 veces al día, para mantener un nivel constante en su cuerpo."
+    },
+    {
+      "q": "¿Qué hago si se me olvida una dosis?",
+      "a": "Tómela tan pronto como se acuerde. Pero si ya es casi la hora de su siguiente dosis, sáltese la que olvidó y continúe con su horario normal. Nunca tome una dosis doble para compensar el olvido."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si estoy con este tratamiento?",
+      "a": "NO. El alcohol está totalmente prohibido. Mezclarlo con methsuximide aumenta mucho el sueño y el mareo, puede provocar más crisis y es peligroso para manejar o realizar actividades que requieran atención."
+    },
+    {
+      "q": "¿Cuáles son los efectos secundarios más comunes?",
+      "a": "Al inicio es muy común sentir sueño durante el día, mareo, dolor de cabeza, náuseas y visión un poco borrosa. Estos suelen mejorar después de unas semanas, a medida que su cuerpo se acostumbra al medicamento."
+    },
+    {
+      "q": "¿Puedo manejar o operar maquinaria mientras tomo methsuximide?",
+      "a": "Al principio, NO. El sueño y el mareo pueden afectar sus reflejos. Espere a ver cómo le afecta el medicamento. Solo reanude estas actividades cuando su médico le indique que es seguro y usted ya no sienta esos efectos."
+    },
+    {
+      "q": "¿Este medicamento afecta a las pastillas anticonceptivas?",
+      "a": "SÍ, las puede hacer menos efectivas, aumentando el riesgo de un embarazo no planeado. Si usa pastillas, parche o anillo, debe usar un método de respaldo adicional, como condón. Hable con su ginecólogo sobre otras opciones."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Puede tomar varias semanas en notar una mejoría clara en la reducción de las crisis. Esto se debe a que el cuerpo necesita acumular el medicamento (y su metabolito activo) hasta alcanzar un nivel constante y terapéutico en la sangre."
+    },
+    {
+      "q": "¿Puedo dejar de tomar el methsuximide de golpe si me siento bien?",
+      "a": "JAMÁS lo suspenda abruptamente. Hacerlo puede provocar un aumento grave y peligroso de las crisis convulsivas, incluso un estado de mal epiléptico. Cualquier cambio o suspensión debe ser supervisado por su neurólogo y hacerse reduciendo la dosis muy lentamente."
+    },
+    {
+      "q": "¿Qué señales de alarma debo reportar urgentemente al médico?",
+      "a": "Fiebre, dolor de garganta, moretones o sangrado fácil; sarpullido grave o ampollas en la piel; piel u ojos amarillos; pensamientos de tristeza profunda o de hacerse daño; o un empeoramiento repentino de las crisis."
+    },
+    {
+      "q": "¿Puedo tomar methsuximide si estoy embarazada o planeando un embarazo?",
+      "a": "Es un medicamento de riesgo (Categoría C). Puede causar daño al bebé. Solo se usa si el beneficio para controlar sus crisis supera claramente el riesgo. Si planea un embarazo, debe hablar con su neurólogo y ginecólogo con anticipación para ajustar el tratamiento y tomar ácido fólico."
+    },
+    {
+      "q": "¿Puedo amamantar a mi bebé si tomo methsuximide?",
+      "a": "Generalmente NO se recomienda, porque pasa a la leche materna y puede causar sueño o irritabilidad en el bebé. Si es absolutamente necesario, debe hacerse bajo estricta supervisión médica y monitoreando muy de cerca al bebé."
+    },
+    {
+      "q": "¿Interactúa con otros medicamentos comunes?",
+      "a": "Sí, interactúa con muchos. Por ejemplo, con otros antiepilépticos (como carbamazepina o valproato), anticoagulantes (warfarina), y especialmente con alcohol o medicamentos para dormir. SIEMPRE informe a todos sus médicos que toma methsuximide antes de que le receten algo nuevo."
+    },
+    {
+      "q": "¿Necesito hacerme análisis de sangre periódicos?",
+      "a": "SÍ, es muy importante. Al inicio y luego cada pocos meses, le pedirán un hemograma (para ver glóbulos blancos y plaquetas) y pruebas de función del hígado. También pueden medir el nivel del medicamento en su sangre para ajustar la dosis."
+    },
+    {
+      "q": "¿El methsuximide causa aumento de peso?",
+      "a": "No es común. De hecho, es más frecuente que cause pérdida del apetito y algo de pérdida de peso, especialmente al inicio del tratamiento."
+    },
+    {
+      "q": "¿Puede este medicamento afectar mi estado de ánimo?",
+      "a": "Sí, en algunas personas puede causar irritabilidad, cambios de humor o, más raramente, depresión grave o pensamientos suicidas. Es crucial que usted y su familia estén atentos a estos cambios y los reporten al médico de inmediato."
+    },
+    {
+      "q": "¿Es adictivo el methsuximide?",
+      "a": "No se considera un medicamento adictivo en el sentido de causar craving o dependencia psicológica. Sin embargo, el cuerpo puede desarrollar dependencia física, por eso no se puede suspender de golpe sin riesgo de crisis de rebote."
+    },
+    {
+      "q": "¿Qué pasa si tomo una sobredosis accidental?",
+      "a": "Es una emergencia médica. Los síntomas son sueño extremo, mareo intenso, vómitos y dificultad para respirar. Llame al 911 o acuda inmediatamente al hospital más cercano. Lleve el frasco del medicamento."
+    },
+    {
+      "q": "¿Por qué mi médico eligió methsuximide y no otro antiepiléptico más común?",
+      "a": "Probablemente porque sus crisis de ausencia no respondieron adecuadamente o usted no toleró los tratamientos de primera línea como la etosuximida o el ácido valproico. El methsuximide es una opción de segunda línea, más especializada para casos difíciles."
+    },
+    {
+      "q": "¿Cómo se ajusta la dosis de methsuximide? ¿Es solo por mi peso?",
+      "a": "El ajuste es individualizado y complejo. Se considera el peso, la edad, la función del hígado y riñón, la respuesta clínica (reducción de crisis) y los niveles del medicamento en sangre. El objetivo es encontrar la dosis más baja que controle las crisis con los menores efectos secundarios."
+    }
+  ]
+}

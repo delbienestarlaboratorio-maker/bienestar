@@ -1,0 +1,426 @@
+{
+  "name": "Feniramina",
+  "summary": "La Feniramina es un medicamento antihistamínico de primera generación, también conocido como antialérgico clásico. Sirve principalmente para aliviar los síntomas de las alergias, como estornudos, comezón en la nariz, garganta y ojos, así como el goteo nasal y la urticaria. Su importancia clínica radica en su acción rápida y efectiva para controlar las molestias agudas de las alergias estacionales, la rinitis alérgica y las reacciones cutáneas. Sin embargo, a diferencia de los antihistamínicos más nuevos, la Feniramina tiene un efecto sedante significativo, lo que puede causar mucho sueño y afectar la capacidad para conducir o manejar maquinaria. Por esta razón, su uso debe ser cuidadoso y preferentemente bajo supervisión médica, especialmente en personas mayores o con otras condiciones de salud. Es un fármaco ampliamente conocido y utilizado en México desde hace décadas, disponible en varias presentaciones de venta libre y combinado con otros principios activos para tratar síntomas de resfriado común.",
+  "pharmacology": {
+    "mechanismOfAction": "La Feniramina actúa como un antagonista competitivo y reversible de los receptores H1 de la histamina. La histamina es una sustancia química que tu cuerpo libera durante una reacción alérgica, causando inflamación, comezón, estornudos y producción de moco. Al bloquear estos receptores, principalmente en la nariz, garganta, piel y vasos sanguíneos, la Feniramina impide que la histamina se una a ellos y desencadene estos síntomas molestos. Además, debido a su estructura química, atraviesa fácilmente la barrera hematoencefálica y se une a receptores en el cerebro, lo que explica su potente efecto sedante y anticolinérgico (sequedad de boca, visión borrosa). Este bloqueo central es más pronunciado que en los antihistamínicos de segunda generación.",
+    "pharmacologicClass": "Antagonista de los receptores H1 de histamina (de primera generación). Derivado de la etanolamina.",
+    "therapeuticClass": "Antihistamínico, Antialérgico, Antipruriginoso.",
+    "absorption": "Se absorbe bien por vía oral, con una biodisponibilidad que puede variar. La concentración máxima en sangre (Cmax) se alcanza aproximadamente entre 1 y 3 horas después de la administración.",
+    "distribution": "Se distribuye ampliamente por los tejidos del cuerpo. Atraviesa fácilmente la barrera hematoencefálica, lo que explica sus efectos en el sistema nervioso central (sueño). También puede atravesar la placenta y excretarse en la leche materna. Su unión a proteínas plasmáticas es moderada.",
+    "metabolism": "Se metaboliza extensamente en el hígado mediante procesos de hidroxilación y conjugación. Las enzimas específicas del citocromo P450 (CYP) involucradas no están tan bien definidas como con otros fármacos, pero se sabe que sufre un metabolismo hepático de primer paso significativo.",
+    "elimination": "La vida media de eliminación es de aproximadamente 16 a 19 horas, lo que permite un efecto prolongado. Se elimina principalmente por la orina en forma de metabolitos inactivos, y una pequeña porción puede eliminarse sin cambios.",
+    "onsetOfAction": "El inicio de acción es relativamente rápido, generalmente entre 15 a 30 minutos después de la administración oral, con efectos máximos a las 1-2 horas.",
+    "durationOfAction": "La duración del efecto antihistamínico y sedante es prolongada, pudiendo durar de 6 a 12 horas, e incluso más en algunas personas debido a su vida media larga."
+  },
+  "indications": {
+    "approved": [
+      "Rinitis alérgica estacional y perenne (fiebre del heno)",
+      "Conjuntivitis alérgica",
+      "Urticaria aguda y crónica",
+      "Prurito (comezón) de origen alérgico o idiopático",
+      "Como parte de fórmulas combinadas para el alivio sintomático del resfriado común (junto con descongestionantes, analgésicos)"
+    ],
+    "offLabel": [
+      "Prevención de náuseas y vómitos leves (por su efecto anticolinérgico)",
+      "Insomnio ocasional (debido a su efecto sedante)",
+      "Como coadyuvante en el manejo de reacciones alérgicas cutáneas leves a moderadas"
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis oral habitual para adultos y adolescentes mayores de 12 años es de 25 mg, cada 6 a 8 horas según sea necesario. No exceder de 150 mg en 24 horas. En presentaciones de liberación prolongada, puede ser una dosis única al día. Siempre seguir las indicaciones del médico o las del empaque.",
+    "pediatric": "No se recomienda su uso en niños menores de 6 años sin supervisión médica estricta. Para niños de 6 a 12 años: la dosis típica es de 12.5 mg (media tableta de 25 mg) cada 6-8 horas, sin exceder 75 mg al día. La dosis debe calcularse por peso cuando sea posible (0.5 mg/kg/día, dividido en 3-4 dosis).",
+    "elderly": "Los adultos mayores (mayores de 65 años) son más sensibles a los efectos anticolinérgicos y sedantes. Se recomienda iniciar con la mitad de la dosis adulta (12.5 mg) y evaluar la tolerancia, especialmente el riesgo de mareo, confusión y sequedad de boca extrema. Vigilar estrechamente por retención urinaria y estreñimiento.",
+    "renalImpairment": "En insuficiencia renal leve a moderada (TFG 30-89 mL/min), se recomienda precaución y posible reducción de dosis. En insuficiencia renal severa (TFG <30 mL/min) o en diálisis, está contraindicado o debe evitarse debido al riesgo acumulación y toxicidad.",
+    "hepaticImpairment": "En pacientes con enfermedad hepática (cirrosis, hepatitis), el metabolismo está alterado. Se debe usar con extrema precaución, a dosis reducidas o evitar su uso, ya que puede acumularse y aumentar el riesgo de efectos adversos graves, especialmente sedación profunda.",
+    "maxDose": "Dosis máxima diaria: 150 mg para adultos. Para niños de 6-12 años: 75 mg al día."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "25 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Jarabe / Solución oral",
+      "strengths": [
+        "Cada 5 mL puede contener 12.5 mg o 15 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tabletas de liberación prolongada",
+      "strengths": [
+        "75 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Comprimidos masticables",
+      "strengths": [
+        "20 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Gotas oftálmicas",
+      "strengths": [
+        "0.3%"
+      ],
+      "route": "Oftálmica"
+    },
+    {
+      "form": "Gel o Crema tópica",
+      "strengths": [
+        "2%"
+      ],
+      "route": "Tópica"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la Feniramina o a cualquier componente de la fórmula",
+      "Pacientes en estado de coma o con depresión severa del sistema nervioso central",
+      "Glaucoma de ángulo cerrado no controlado",
+      "Hipertrofia prostática sintomática con retención urinaria",
+      "Estenosis piloroduodenal (obstrucción gastrointestinal)",
+      "Lactancia materna (se excreta en leche y puede causar sedación en el bebé)",
+      "Recién nacidos y lactantes menores de 6 meses"
+    ],
+    "relative": [
+      "Asma bronquial aguda (puede espesar las secreciones)",
+      "Epilepsia o trastornos convulsivos",
+      "Enfermedad cardiovascular (arritmias, hipertensión)",
+      "Hipertiroidismo",
+      "Enfermedad hepática severa",
+      "Insuficiencia renal severa",
+      "Pacientes de edad avanzada",
+      "Embarazo (especialmente el primer trimestre)"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Somnolencia (sueño intenso)",
+      "Sedación",
+      "Sequedad de boca, nariz y garganta"
+    ],
+    "common": [
+      "Mareo",
+      "Dolor de cabeza",
+      "Visión borrosa",
+      "Molestias gastrointestinales (náusea, dolor abdominal)",
+      "Estreñimiento",
+      "Dificultad para orinar (especialmente en hombres con próstata agrandada)",
+      "Aumento del apetito"
+    ],
+    "uncommon": [
+      "Nerviosismo o excitación paradójica (especialmente en niños)",
+      "Confusión mental",
+      "Temblores",
+      "Palpitaciones o taquicardia",
+      "Hipotensión (presión baja)",
+      "Erupción cutánea"
+    ],
+    "rare": [
+      "Anemia hemolítica",
+      "Discrasias sanguíneas (disminución de glóbulos blancos o plaquetas)",
+      "Reacciones de hipersensibilidad severa (anafilaxia)",
+      "Convulsiones",
+      "Alucinaciones",
+      "Ictericia (coloración amarilla de piel por daño hepático)"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Alcohol (etílico)",
+        "effect": "Potencia enormemente el efecto depresor del sistema nervioso central, aumentando el riesgo de sedación profunda, mareo severo y deterioro de la coordinación. Puede provocar depresión respiratoria.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Benzodiacepinas (Diazepam, Alprazolam)",
+        "effect": "Aumento aditivo de la sedación, somnolencia y deterioro psicomotor. Riesgo de caídas en adultos mayores.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Antidepresivos tricíclicos (Amitriptilina, Imipramina)",
+        "effect": "Potenciación de los efectos anticolinérgicos (sequedad extrema, retención urinaria, estreñimiento, visión borrosa) y sedantes.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores de la MAO (Fenelzina, Tranilcipromina)",
+        "effect": "Pueden potenciar los efectos anticolinérgicos y aumentar el riesgo de crisis hipertensivas. Se debe evitar la combinación.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Otros depresores del SNC (Opioides, relajantes musculares, antipsicóticos)",
+        "effect": "Aumento del riesgo de sedación excesiva, depresión respiratoria y deterioro cognitivo.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Anticolinérgicos (Escopolamina, Ipratropio)",
+        "effect": "Efectos anticolinérgicos aditivos, aumentando el riesgo de glaucoma, retención urinaria, íleo paralítico y confusión.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Puede tomarse con o sin alimentos. Tomarlo con alimentos puede ayudar a disminuir levemente las molestias gastrointestinales, pero no afecta significativamente su absorción. La interacción más importante es con el ALCOHOL, el cual debe evitarse por completo durante el tratamiento.",
+    "withSupplements": "Interactúa con suplementos que tengan efectos sedantes o que actúen sobre el sistema nervioso central, como la Valeriana, la Melatonina, la Kava kava y la Hierba de San Juan (Hypericum perforatum). Estas combinaciones pueden aumentar la somnolencia. Los suplementos con propiedades anticolinérgicas (como algunos extractos de belladona) pueden potenciar los efectos secundarios."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA C",
+      "recommendation": "Los estudios en animales han mostrado riesgo fetal, pero no hay estudios adecuados y controlados en mujeres embarazadas. Su uso durante el embarazo, especialmente en el primer trimestre, solo debe considerarse si el beneficio potencial justifica el riesgo potencial para el feto. Se prefiere el uso de antihistamínicos de segunda generación (como Loratadina o Cetirizina) considerados más seguros. Consultar siempre al médico.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La Feniramina se excreta en la leche materna y puede causar efectos adversos en el lactante, como irritabilidad, somnolencia excesiva, llanto débil y problemas de alimentación. Se recomienda evitar su uso durante la lactancia. Si es estrictamente necesario, se debe suspender la lactancia o buscar una alternativa más segura.",
+    "pediatric": "No se recomienda en niños menores de 6 años sin indicación y supervisión médica estricta. En niños de 6 a 12 años, usar con precaución a dosis ajustadas por peso. Los niños son más susceptibles a los efectos paradójicos de excitación y nerviosismo. Monitorear por somnolencia diurna que pueda afectar el rendimiento escolar.",
+    "geriatric": "Los adultos mayores son extremadamente sensibles a los efectos anticolinérgicos y sedantes. Aumenta el riesgo de confusión, mareo, sequedad de boca severa, retención urinaria, estreñimiento, visión borrosa y caídas. Se debe usar a la dosis efectiva más baja posible y por el menor tiempo necesario. Considerar alternativas no sedantes."
+  },
+  "administration": {
+    "howToTake": "Las tabletas o jarabe deben tomarse por vía oral, con un vaso lleno de agua. Puede tomarse con o sin alimentos. Para el jarabe, usar el dosificador que viene en el empaque (cuchara o jeringa dosificadora) para medir la dosis exacta. No triturar o masticar las tabletas de liberación prolongada. Las gotas oftálmicas se aplican en el ojo afectado según las indicaciones. Las cremas tópicas se aplican en la piel limpia y seca, en una capa delgada. No conducir vehículos ni operar maquinaria peligrosa hasta conocer la respuesta individual al medicamento.",
+    "storage": "Conservar en su empaque original, bien cerrado, a temperatura ambiente (entre 15°C y 30°C), protegido de la luz, la humedad y el calor excesivo. Mantener fuera del alcance de los niños. No usar después de la fecha de caducidad impresa.",
+    "specialInstructions": "Este medicamento causa sueño. Evite conducir, manejar maquinaria o realizar actividades que requieran alerta durante las primeras horas después de tomarlo. El efecto sedante puede persistir al día siguiente ('resaca'). No consumir bebidas alcohólicas. Informar al médico o farmacéutico si los síntomas no mejoran en 3-5 días o si empeoran. Para la rinitis alérgica, su uso es sintomático; no cura la alergia de fondo."
+  },
+  "monitoring": {
+    "labTests": [
+      "No se requieren monitoreos de laboratorio de rutina para tratamientos cortos. En uso crónico o a altas dosis, se puede considerar un hemograma completo para descartar discrasias sanguíneas."
+    ],
+    "frequency": "Monitoreo clínico de síntomas y efectos adversos en cada consulta. En tratamientos prolongados, revisión cada 3-6 meses.",
+    "signsToWatch": [
+      "Somnolencia extrema que interfiere con las actividades diarias",
+      "Confusión o desorientación (especialmente en ancianos)",
+      "Dificultad para orinar o dolor al orinar",
+      "Visión borrosa persistente",
+      "Latidos cardíacos irregulares o rápidos",
+      "Signos de reacción alérgica: erupción cutánea, hinchazón de cara/lengua, dificultad para respirar"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Sedación profunda que puede progresar a estupor o coma",
+      "Convulsiones",
+      "Alucinaciones",
+      "Midriasis (pupilas dilatadas)",
+      "Piel caliente, seca y enrojecida",
+      "Taquicardia (ritmo cardíaco acelerado)",
+      "Hipotensión o hipertensión",
+      "Depresión respiratoria (respiración lenta y superficial)",
+      "Colapso cardiovascular"
+    ],
+    "treatment": "No existe antídoto específico. El tratamiento es de soporte y sintomático. Buscar atención médica de inmediato. En caso de ingestión reciente (menos de 1-2 horas), se puede considerar lavado gástrico o carbón activado. Mantener la vía aérea, la respiración y la circulación. Controlar las convulsiones con benzodiacepinas. La diuresis forzada no es útil. En casos graves, puede requerirse soporte vital en una unidad de cuidados intensivos.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Venta libre (Over-the-Counter, OTC) en la mayoría de sus presentaciones simples (antihistamínico solo). Algunas fórmulas combinadas (con descongestionantes como pseudoefedrina) pueden requerir receta médica.",
+    "scheduleMexico": "Generalmente se encuentra en la Fracción III (Medicamentos de venta con receta que pueden expedirse sin receta en farmacias, según criterio del farmacéutico) o en la Fracción II (Venta libre). Depende de la presentación y concentración.",
+    "fdaApprovalYear": "Aprobado por la FDA desde la década de 1950. Es un fármaco antiguo y bien establecido."
+  },
+  "brandsMexico": [
+    "Antialerg-D",
+    "Feniramina",
+    "Feniril",
+    "Histadin",
+    "Polaramine (nombre original, ya no tan común)",
+    "Rinaler",
+    "Tavist (en fórmulas combinadas)",
+    "En múltiples marcas genéricas de laboratorios nacionales (Farmacias Similares, Genomma Lab, etc.) y en fórmulas para resfriado como Tempra Forte, Atamel, etc. (combinado con paracetamol)."
+  ],
+  "clinicalPearls": [
+    "La Feniramina es el antihistamínico sedante por excelencia. Su efecto 'para dormir' es tan característico que a veces se usa indebidamente para ese fin, lo cual es riesgoso por sus otros efectos anticolinérgicos.",
+    "En adultos mayores, puede desencadenar o empeorar un cuadro de 'delirio' o confusión aguda, que a veces se confunde con demencia. Es crucial preguntar por su uso en la evaluación de un paciente anciano confundido.",
+    "Su vida media prolongada (hasta 19 horas) significa que el efecto sedante puede persistir significativamente al día siguiente, afectando el desempeño laboral o escolar ('resaca antihistamínica')."
+  ],
+  "patientCounseling": "Señor paciente, este medicamento es para aliviar los síntomas de su alergia, como estornudos y comezón, pero le va a dar MUCHO sueño. Es muy importante que NO maneje carro, no opere máquinas peligrosas y evite actividades que requieran estar alerta por lo menos 8 horas después de tomarlo. Tampoco debe tomar bebidas alcohólicas, porque aumenta el riesgo de accidentes. Tómelo exactamente como se lo indicaron, sin aumentar la dosis. Si siente la boca muy seca, tome sorbos de agua. Si tiene dificultad para orinar, visión borrosa que no se quita, o se siente muy confundido, deje de tomarlo y avise a su médico de inmediato. En niños, puede causar el efecto contrario (ponerlos nerviosos). Guárdelo fuera del alcance de los niños. Si los síntomas no mejoran en unos días, consulte a su médico para evaluar otras opciones de tratamiento.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Estornudos",
+        "slug": "estornudos"
+      },
+      {
+        "name": "Picor nasal",
+        "slug": "picor-nasal"
+      },
+      {
+        "name": "Ojos llorosos y con picor",
+        "slug": "ojos-llorosos-con-picor"
+      },
+      {
+        "name": "Goteo nasal (rinorrea)",
+        "slug": "goteo-nasal-rinorrea"
+      },
+      {
+        "name": "Urticaria (ronchas)",
+        "slug": "urticaria-ronchas"
+      },
+      {
+        "name": "Prurito (comezón en la piel)",
+        "slug": "prurito-comezon-en-la-piel"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Rinitis Alérgica Estacional (Fiebre del Heno)",
+        "slug": "rinitis-alergica-estacional"
+      },
+      {
+        "name": "Rinitis Alérgica Perenne",
+        "slug": "rinitis-alergica-perenne"
+      },
+      {
+        "name": "Conjuntivitis Alérgica",
+        "slug": "conjuntivitis-alergica"
+      },
+      {
+        "name": "Urticaria Aguda y Crónica",
+        "slug": "urticaria-aguda-y-cronica"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Retención Urinaria Aguda",
+        "slug": "retencion-urinaria-aguda"
+      },
+      {
+        "name": "Glaucoma de Ángulo Cerrado (agudización)",
+        "slug": "glaucoma-de-angulo-cerrado"
+      },
+      {
+        "name": "Delirio o Confusión Aguda",
+        "slug": "delirio-o-confusion-aguda"
+      },
+      {
+        "name": "Estreñimiento Severo",
+        "slug": "estrenimiento-severo"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Recuento de Glóbulos Blancos (Leucocitos)",
+        "slug": "recuento-de-globulos-blancos",
+        "effect": "Puede disminuir (leucopenia)"
+      },
+      {
+        "name": "Recuento de Plaquetas",
+        "slug": "recuento-de-plaquetas",
+        "effect": "Puede disminuir (trombocitopenia)"
+      },
+      {
+        "name": "Bilirrubina Total",
+        "slug": "bilirrubina-total",
+        "effect": "Puede elevar (indicando posible daño hepático)"
+      },
+      {
+        "name": "Transaminasas (ALT, AST)",
+        "slug": "transaminasas-alt-ast",
+        "effect": "Puede elevar (indicando posible daño hepático)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Hemograma Completo",
+        "slug": "hemograma-completo",
+        "reason": "Para monitorear posibles efectos en la médula ósea (anemia, leucopenia) en uso crónico."
+      },
+      {
+        "name": "Pruebas de Función Hepática",
+        "slug": "pruebas-de-funcion-hepatica",
+        "reason": "Para detectar posible toxicidad hepática, especialmente en pacientes con enfermedad previa o uso prolongado."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de Dosis Pediátrica por Peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de Aclaramiento de Creatinina",
+        "slug": "aclaramiento-creatinina"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La Feniramina me va a dar sueño?",
+      "a": "Sí, la Feniramina es conocida por causar sueño intenso en la mayoría de las personas. Es uno de sus efectos secundarios más comunes. Por eso se le llama antihistamínico sedante. No debe conducir ni realizar actividades peligrosas después de tomarla."
+    },
+    {
+      "q": "¿Puedo tomar Feniramina si voy a manejar?",
+      "a": "NO. Es muy peligroso. La somnolencia que produce afecta los reflejos, la coordinación y el tiempo de reacción, aumentando enormemente el riesgo de sufrir un accidente. Espere al menos 8 horas después de la última dosis antes de considerar manejar, y solo si se siente completamente alerta."
+    },
+    {
+      "q": "¿La Feniramina es lo mismo que la Loratadina o la Cetirizina?",
+      "a": "No, son diferentes. Todas son antihistamínicos, pero la Feniramina es de 'primera generación' y causa mucho sueño. La Loratadina y Cetirizina son de 'segunda generación' y generalmente no causan somnolencia (o lo hacen en menor grado). Su médico elegirá la más adecuada para su caso."
+    },
+    {
+      "q": "¿Puedo tomar Feniramina con alcohol?",
+      "a": "ABSOLUTAMENTE NO. El alcohol potencia el efecto sedante de la Feniramina, pudiendo causar somnolencia extrema, mareo severo, dificultad para respirar y pérdida del conocimiento. Es una combinación muy peligrosa."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto la Feniramina?",
+      "a": "Generalmente comienza a aliviar los síntomas de la alergia (como estornudos y comezón) entre 15 y 30 minutos después de tomarla. El efecto máximo se siente alrededor de 1 a 2 horas después."
+    },
+    {
+      "q": "¿Puedo darle Feniramina a mi hijo de 4 años para la alergia?",
+      "a": "No se recomienda su uso en niños menores de 6 años sin la indicación y supervisión directa de un pediatra. En niños pequeños, puede causar efectos paradójicos (nerviosismo, insomnio) o somnolencia excesiva. Existen antihistamínicos pediátricos más seguros."
+    },
+    {
+      "q": "¿La Feniramina sirve para el resfriado común?",
+      "a": "Sí, pero no directamente. La Feniramina por sí sola no cura el resfriado. Sin embargo, se incluye en muchas fórmulas combinadas para el resfriado (junto con paracetamol y un descongestionante) porque ayuda a secar el goteo nasal y a reducir los estornudos, que son síntomas similares a los de la alergia."
+    },
+    {
+      "q": "¿Puedo tomar Feniramina todos los días durante la temporada de alergias?",
+      "a": "Sí, puede usarse de manera continua para controlar los síntomas de alergias estacionales. Sin embargo, debido a sus efectos sedantes y anticolinérgicos, muchos médicos prefieren recetar antihistamínicos no sedantes (como Loratadina o Fexofenadina) para uso diario prolongado. Consulte a su médico para la mejor opción."
+    },
+    {
+      "q": "¿La Feniramina causa adicción?",
+      "a": "No, la Feniramina no es un fármaco que cause dependencia física o adicción como los tranquilizantes. Sin embargo, algunas personas pueden acostumbrarse a su efecto sedante para dormir, lo cual no es un uso adecuado y puede enmascarar problemas de sueño subyacentes."
+    },
+    {
+      "q": "¿Qué hago si se me olvidó tomar una dosis?",
+      "a": "Tómela tan pronto como lo recuerde, pero si ya es casi la hora de la siguiente dosis, sáltese la que olvidó y continúe con su horario normal. NO duplique la dosis para compensar la olvidada."
+    },
+    {
+      "q": "¿La Feniramina sube o baja la presión arterial?",
+      "a": "Puede causar una ligera disminución de la presión arterial (hipotensión) en algunas personas, lo que se manifiesta como mareo al levantarse rápido. En raras ocasiones, puede causar palpitaciones o taquicardia. Si tiene problemas de presión, consulte a su médico antes de usarla."
+    },
+    {
+      "q": "¿Puedo tomar Feniramina si estoy embarazada?",
+      "a": "Su uso durante el embarazo, especialmente en los primeros meses, debe ser evaluado cuidadosamente por un médico. Generalmente se prefieren otros antihistamínicos considerados más seguros. NO se automedique si está embarazada o sospecha estarlo."
+    },
+    {
+      "q": "¿La Feniramina me puede dar mucha sed o sequedad en la boca?",
+      "a": "Sí, la sequedad de boca, nariz y garganta es un efecto anticolinérgico muy común de la Feniramina. Beber sorbos de agua, masticar chicle sin azúcar o usar sustitutos de saliva puede ayudar. Si es muy severa, consulte a su médico."
+    },
+    {
+      "q": "¿Interfiere la Feniramina con los anticonceptivos?",
+      "a": "No hay evidencia de una interacción directa que disminuya la eficacia de los anticonceptivos hormonales (pastillas, parches). Sin embargo, si la Feniramina le causa vómito o diarrea severa, la absorción de la pastilla anticonceptiva podría verse afectada."
+    },
+    {
+      "q": "¿Puedo usar la crema de Feniramina y tomar las tabletas al mismo tiempo?",
+      "a": "Generalmente no se recomienda usar la misma medicina por dos vías diferentes (oral y tópica) al mismo tiempo, a menos que su médico lo indique, porque aumenta el riesgo de efectos secundarios por sobredosis. Use solo una forma a la vez."
+    },
+    {
+      "q": "¿La Feniramina afecta los resultados de pruebas de laboratorio?",
+      "a": "En raros casos, puede causar falsos positivos en pruebas de screening para drogas de abuso (como metadona o opiáceos) en orina. Informe al laboratorio que está tomando este medicamento. También puede alterar levemente algunos valores hepáticos."
+    },
+    {
+      "q": "¿Qué pasa si tomo más de la dosis recomendada de Feniramina?",
+      "a": "Una sobredosis puede ser GRAVE. Los síntomas incluyen somnolencia extrema, confusión, convulsiones, latidos cardíacos irregulares y dificultad para respirar. En caso de sospecha de sobredosis, acuda inmediatamente a un servicio de urgencias o llame al centro de toxicología."
+    },
+    {
+      "q": "¿Por qué a veces la Feniramina me pone nervioso en lugar de dar sueño?",
+      "a": "Este es un 'efecto paradójico' que ocurre con mayor frecuencia en niños, pero también en algunos adultos. En lugar de sedación, el sistema nervioso central se excita, causando nerviosismo, insomnio, temblores o incluso alucinaciones. Si esto sucede, suspenda el medicamento y consulte a su médico."
+    },
+    {
+      "q": "¿La Feniramina es segura para personas con glaucoma?",
+      "a": "NO es segura para personas con glaucoma de ángulo cerrado, ya que sus efectos anticolinérgicos pueden aumentar la presión dentro del ojo y desencadenar un ataque agudo. En glaucoma de ángulo abierto, se debe usar con extrema precaución y bajo supervisión oftalmológica."
+    },
+    {
+      "q": "¿Cuál es la principal diferencia farmacológica entre la Feniramina y un antihistamínico moderno como la Desloratadina?",
+      "a": "La principal diferencia es la capacidad de cruzar la barrera hematoencefálica. La Feniramina la cruza fácilmente, bloqueando receptores H1 en el cerebro y causando sedación. La Desloratadina es más selectiva por receptores periféricos y no cruza significativamente esa barrera, por lo que es no sedante. Además, la Feniramina tiene una vida media más larga y efectos anticolinérgicos más potentes."
+    }
+  ]
+}

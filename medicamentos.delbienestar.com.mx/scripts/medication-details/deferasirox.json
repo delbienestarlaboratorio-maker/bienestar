@@ -1,0 +1,446 @@
+{
+  "name": "Deferasirox",
+  "summary": "El Deferasirox es un medicamento que se usa para eliminar el exceso de hierro del cuerpo, conocido como quelante del hierro. Está indicado principalmente para pacientes que reciben muchas transfusiones de sangre a largo plazo, como aquellos con talasemia, síndromes mielodisplásicos u otras anemias crónicas, ya que la sangre donada contiene hierro que se acumula y puede dañar gravemente órganos como el corazón, el hígado y las glándulas endocrinas. Su importancia clínica es vital, ya que previene la toxicidad por sobrecarga de hierro, una complicación potencialmente mortal, mejorando la calidad de vida y la supervivencia de los pacientes que dependen de transfusiones regulares. Es un tratamiento oral de administración diaria que ofrece una alternativa más conveniente a las terapias quelantes más antiguas que requerían infusiones subcutáneas prolongadas.",
+  "pharmacology": {
+    "mechanismOfAction": "El Deferasirox es un quelante del hierro trivalente (Fe3+) altamente selectivo. Se une al hierro con alta afinidad, formando un complejo estable de 2:1 (dos moléculas de deferasirox por un átomo de hierro). Este complejo es soluble y se excreta principalmente a través de las heces. El medicamento actúa principalmente en el hierro del pool labil intracelular y en el hierro del plasma, movilizándolo desde los tejidos donde se ha acumulado en exceso (como el hígado y el corazón) para facilitar su eliminación del cuerpo. Su acción reduce los niveles de hierro total y la saturación de transferrina, previniendo el daño por radicales libres que causa el hierro no unido en los órganos.",
+    "pharmacologicClass": "Agente quelante del hierro trivalente. Ligando tridentado oral.",
+    "therapeuticClass": "Antianémico y Hematológico. Agente para la sobrecarga de hierro.",
+    "absorption": "Se absorbe bien por vía oral, pero su biodisponibilidad absoluta es variable (aproximadamente 70%). La presencia de alimentos, especialmente con alto contenido de grasa, aumenta significativamente su absorción (hasta en un 50-60%). Por ello, se recomienda tomarlo en ayunas para una absorción más consistente y predecible.",
+    "distribution": "Se une extensamente a proteínas plasmáticas (aproximadamente 99%, principalmente a albúmina). Su volumen de distribución (Vd) es de unos 14-18 litros, indicando una distribución principalmente en el compartimento plasmático. Cruza la barrera placentaria y se excreta en la leche materna en modelos animales.",
+    "metabolism": "Se metaboliza principalmente en el hígado mediante glucuronidación (por enzimas UGT1A1 y UGT1A3) y, en menor medida, por conjugación con sulfato. También sufre metabolismo oxidativo por el sistema del citocromo P450, específicamente por las isoenzimas CYP1A2 y CYP2D6. La mayoría del fármaco circula como metabolito glucurónido, que también tiene actividad quelante.",
+    "elimination": "La eliminación es predominantemente fecal (84%), a través de la bilis del complejo hierro-deferasirox. Una pequeña porción (8%) se elimina por la orina. La vida media de eliminación es de aproximadamente 8 a 16 horas, lo que permite una dosificación una vez al día.",
+    "onsetOfAction": "La reducción de los niveles de hierro sérico y ferritina es gradual. Los efectos quelantes comienzan poco después de la absorción, pero los cambios clínicamente significativos en los biomarcadores (ferritina sérica) suelen observarse después de varias semanas o meses de tratamiento continuo.",
+    "durationOfAction": "Su efecto quelante dura aproximadamente 24 horas, sustentando la dosificación diaria. El control de la sobrecarga de hierro es un proceso crónico que requiere administración continua a largo plazo."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento de la sobrecarga de hierro crónica en pacientes con talasemia mayor (beta-talasemia) que reciben transfusiones de sangre regulares.",
+      "Tratamiento de la sobrecarga de hierro crónica en pacientes con otros síndromes anemiantes dependientes de transfusiones (ej. síndromes mielodisplásicos, anemia de Diamond-Blackfan, anemia aplásica, anemia drepanocítica).",
+      "Tratamiento de la sobrecarga de hierro en pacientes con talasemia no dependientes de transfusiones, cuando la ferritina sérica es consistentemente alta y se considera necesario el tratamiento quelante."
+    ],
+    "offLabel": [
+      "Tratamiento de la sobrecarga de hierro en porfiria cutánea tarda refractaria.",
+      "Posible uso en la hemocromatosis hereditaria en casos seleccionados y refractarios a flebotomía.",
+      "Investigacional en condiciones con acumulación de hierro en el sistema nervioso central (ej. neurodegeneración con acumulación cerebral de hierro)."
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis inicial habitual es de 20 mg/kg de peso corporal por vía oral, una vez al día. La dosis se ajusta según la respuesta (niveles de ferritina sérica) y la tolerancia, en incrementos de 5-10 mg/kg. El rango de dosis terapéutica es de 20 a 40 mg/kg/día. Para pacientes con sobrecarga de hierro grave (ferritina sérica >2500 mcg/L), puede iniciarse con 30 mg/kg/día.",
+    "pediatric": "Aprobado para niños a partir de 2 años de edad. La dosis se calcula en base al peso corporal: 20 mg/kg/día como inicio, ajustable hasta 40 mg/kg/día. Debe usarse con precaución y monitoreo estricto en niños menores de 6 años.",
+    "elderly": "No se requieren ajustes de dosis basados únicamente en la edad. Sin embargo, se debe considerar la función renal y hepática, que pueden estar disminuidas, y la presencia de otras enfermedades concomitantes.",
+    "renalImpairment": "En insuficiencia renal leve a moderada (TFG 40-90 mL/min): usar con precaución, monitoreando creatinina sérica. En insuficiencia renal grave (TFG <40 mL/min) o en pacientes en diálisis: está contraindicado. Puede causar proteinuria y aumento de creatinina.",
+    "hepaticImpairment": "En insuficiencia hepática leve (Child-Pugh A): reducir la dosis inicial a 10 mg/kg/día. En insuficiencia hepática moderada a grave (Child-Pugh B o C): está contraindicado. El fármaco se metaboliza en el hígado y puede causar elevación de transaminasas.",
+    "maxDose": "La dosis máxima diaria recomendada es de 40 mg/kg de peso corporal. En casos excepcionales y bajo estricta supervisión médica, se han utilizado dosis de hasta 50 mg/kg/día."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta dispersable",
+      "strengths": [
+        "125 mg",
+        "250 mg",
+        "500 mg"
+      ],
+      "route": "Oral (dispersar en agua, jugo de manzana o leche)"
+    },
+    {
+      "form": "Tableta de liberación prolongada (film-coated)",
+      "strengths": [
+        "90 mg",
+        "180 mg",
+        "360 mg"
+      ],
+      "route": "Oral (tragar entera, no masticar ni partir)"
+    },
+    {
+      "form": "Granulado para suspensión oral",
+      "strengths": [
+        "90 mg",
+        "180 mg",
+        "360 mg por sobre"
+      ],
+      "route": "Oral (mezclar con alimentos blandos como yogur o compota)"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al deferasirox o a cualquiera de los excipientes.",
+      "Insuficiencia renal grave (TFG <40 mL/min) o pacientes en diálisis.",
+      "Insuficiencia hepática de moderada a grave (Child-Pugh clase B o C).",
+      "Pacientes con síndrome hemofagocítico en combinación con ciclosporina o altas dosis de corticosteroides (riesgo de insuficiencia renal)."
+    ],
+    "relative": [
+      "Insuficiencia renal leve a moderada (TFG 40-90 mL/min).",
+      "Insuficiencia hepática leve (Child-Pugh A).",
+      "Pacientes con antecedentes de úlcera gastroduodenal o sangrado gastrointestinal.",
+      "Pacientes con trastornos auditivos o visuales (requiere monitoreo).",
+      "Embarazo y lactancia (solo si el beneficio justifica claramente el riesgo)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Náuseas",
+      "Vómitos",
+      "Dolor abdominal",
+      "Diarrea",
+      "Aumento de los niveles de creatinina sérica",
+      "Erupción cutánea"
+    ],
+    "common": [
+      "Dolor de cabeza",
+      "Mareo",
+      "Fiebre",
+      "Tos",
+      "Edema periférico (hinchazón de pies/rodillas)",
+      "Proteinuria (proteínas en orina)",
+      "Elevación de transaminasas (ALT/AST)",
+      "Cambios en la audición (hipoacusia)",
+      "Cambios en la visión (cataratas)"
+    ],
+    "uncommon": [
+      "Urticaria",
+      "Prurito (comezón)",
+      "Anorexia (pérdida de apetito)",
+      "Estomatitis (inflamación bucal)",
+      "Pancreatitis aguda",
+      "Hepatitis",
+      "Sangrado gastrointestinal",
+      "Úlcera gástrica o duodenal",
+      "Síndrome de Fanconi (trastorno renal tubular)"
+    ],
+    "rare": [
+      "Anafilaxia (reacción alérgica grave)",
+      "Angioedema (hinchazón profunda de piel)",
+      "Necrosis tubular renal aguda",
+      "Insuficiencia renal aguda",
+      "Citopenias (disminución de glóbulos blancos o plaquetas)",
+      "Encefalopatía",
+      "Edema de papila (en el ojo)"
+    ],
+    "blackBoxWarning": "Advertencia de caja negra: El deferasirox puede causar insuficiencia renal, insuficiencia hepática y hemorragia gastrointestinal, que pueden ser fatales. Se han reportado casos de muerte. Monitorizar estrechamente la función renal y hepática, así como los signos de sangrado gastrointestinal."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Antiácidos que contienen aluminio",
+        "effect": "Disminución de la absorción del deferasirox. Separar la administración al menos 4 horas.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Ciclosporina",
+        "effect": "Aumenta el riesgo de insuficiencia renal aguda, especialmente en síndrome hemofagocítico. Evitar la combinación.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Simvastatina, Atorvastatina",
+        "effect": "El deferasirox puede aumentar los niveles de estas estatinas, incrementando el riesgo de miopatía o rabdomiólisis. Monitorizar.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Midazolam, Clozapina",
+        "effect": "El deferasirox puede disminuir los niveles de estos fármacos (sustrato CYP3A4), reduciendo su efecto.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Repaglinida",
+        "effect": "El deferasirox puede aumentar los niveles de repaglinida, aumentando el riesgo de hipoglucemia. Monitorizar glucosa.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Rifampicina",
+        "effect": "Disminuye los niveles de deferasirox al inducir su metabolismo, pudiendo reducir su eficacia. Ajustar dosis.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Los alimentos, especialmente los ricos en grasa, aumentan significativamente la absorción del deferasirox. Para una absorción consistente, se recomienda tomarlo en ayunas, al menos 30 minutos antes de comer. El alcohol puede aumentar el riesgo de toxicidad hepática y debe evitarse o consumirse con extrema moderación.",
+    "withSupplements": "Evitar suplementos que contengan hierro, ya que el deferasirox se unirá a este hierro y reducirá su eficacia quelante. Los suplementos de vitamina C en dosis altas pueden aumentar la toxicidad del hierro al movilizarlo; si se usan, deben ser bajo supervisión médica y separados del deferasirox. Los suplementos de calcio o zinc pueden interferir con la absorción."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "D",
+      "recommendation": "El deferasirox puede causar daño fetal. Solo debe usarse durante el embarazo si el beneficio para la madre justifica claramente el riesgo potencial para el feto. En mujeres en edad fértil, se debe utilizar un método anticonceptivo efectivo durante el tratamiento. Se recomienda evaluar el riesgo/beneficio de continuar o suspender la terapia quelante durante el embarazo, ya que la sobrecarga de hierro materna también es peligrosa.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se desconoce si el deferasirox se excreta en la leche humana, pero es probable debido a su bajo peso molecular. Dado el potencial de efectos adversos graves en el lactante, se recomienda suspender la lactancia materna o suspender el fármaco, considerando la importancia del tratamiento para la madre.",
+    "pediatric": "Aprobado para niños a partir de 2 años. El perfil de seguridad y eficacia es similar al de los adultos, pero se debe monitorear el crecimiento y desarrollo. En niños muy pequeños, la administración de las tabletas dispersables requiere supervisión para asegurar la ingesta completa de la dosis. Monitorear función renal y hepática con mayor frecuencia.",
+    "geriatric": "Los pacientes mayores de 65 años pueden tener una función renal o hepática disminuida. Iniciar con la dosis más baja recomendada y ajustar con base en la función renal y la tolerancia. Estar atento a interacciones con otros medicamentos comunes en este grupo (ej. anticoagulantes, antiinflamatorios)."
+  },
+  "administration": {
+    "howToTake": "Tabletas dispersables: Tomar una vez al día, en ayunas, al menos 30 minutos antes de cualquier alimento. Disolver la tableta en un vaso con agua, jugo de manzana o leche (aproximadamente 200 ml) hasta que se desintegre por completo. Revolver bien y beber inmediatamente la suspensión. Enjuagar el vaso con un poco más del líquido y beberlo para asegurar la dosis completa. Tabletas de liberación prolongada: Tragar la tableta entera con un vaso de agua. NO masticar, partir o triturar. Tomar una vez al día, preferentemente a la misma hora.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (entre 15°C y 30°C). Proteger de la humedad y la luz. Mantener fuera del alcance de los niños. No usar después de la fecha de caducidad impresa.",
+    "specialInstructions": "Nunca tome una dosis doble para compensar una olvidada. Si olvida una dosis, tómela tan pronto como lo recuerde, pero si ya es casi la hora de la siguiente dosis, omita la dosis olvidada y continúe con su horario habitual. Informe a su médico si presenta vómito o diarrea severa poco después de tomar el medicamento, ya que puede no haberse absorbido completamente. Asista a todas sus citas de laboratorio para monitoreo."
+  },
+  "monitoring": {
+    "labTests": [
+      "Creatinina sérica y TFG (estimada)",
+      "Ferritina sérica",
+      "Pruebas de función hepática (ALT, AST, bilirrubina total)",
+      "Análisis de orina (para detectar proteinuria)",
+      "Biometría hemática completa (glóbulos rojos, blancos, plaquetas)",
+      "Niveles de electrolitos (potasio, fósforo)",
+      "Examen auditivo (audiometría)",
+      "Examen oftalmológico (para cataratas)"
+    ],
+    "frequency": "Antes de iniciar el tratamiento, luego cada 2 semanas durante el primer mes, mensualmente durante los primeros 6 meses, y posteriormente cada 3 meses de forma estable. La ferritina sérica se mide cada 3 meses para ajustar la dosis. Los exámenes de audición y visión se recomiendan al inicio y luego anualmente.",
+    "signsToWatch": [
+      "Dolor abdominal intenso, vómito con sangre o heces negras (signos de sangrado gastrointestinal).",
+      "Hinchazón de pies, tobillos o cara, y disminución en la cantidad de orina (signos de problemas renales).",
+      "Coloración amarillenta de piel u ojos (ictericia), orina oscura, fatiga extrema (signos de problemas hepáticos).",
+      "Fiebre, dolor de garganta, moretones o sangrados inusuales (signos de problemas en la sangre).",
+      "Pérdida o cambios en la audición, zumbidos en los oídos.",
+      "Visión borrosa o cambios en la visión."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Náuseas y vómitos severos",
+      "Diarrea profusa",
+      "Dolor abdominal agudo",
+      "Mareo intenso",
+      "Somnolencia",
+      "Signos de deshidratación",
+      "Posible empeoramiento de la función renal o hepática"
+    ],
+    "treatment": "No existe un antídoto específico. El tratamiento es de soporte y sintomático. Inducir el vómito o realizar lavado gástrico si la ingestión es reciente. Mantener la hidratación y el equilibrio electrolítico. Monitorear función renal y hepática de cerca. La diálisis no es efectiva para eliminar el deferasirox debido a su alta unión a proteínas.",
+    "antidote": "null"
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especializada (receta retenida).",
+    "scheduleMexico": "Medicamento de la Fracción IV (Psicotrópicos y otros). Requiere receta especial que se retiene en la farmacia.",
+    "fdaApprovalYear": "2005 (para la formulación original en tableta dispersable)."
+  },
+  "brandsMexico": [
+    "Exjade",
+    "Jadenu",
+    "Asunra",
+    "Defrijet",
+    "Ferriprox (nombre diferente, pero mismo principio activo en presentaciones específicas - verificar)"
+  ],
+  "clinicalPearls": [
+    "La clave del éxito es la adherencia diaria y el monitoreo estricto de función renal (creatinina) y hepática (transaminasas). Un aumento sostenido de creatinina >33% por encima del valor basal requiere ajuste o interrupción de la dosis.",
+    "La respuesta al tratamiento se mide principalmente con la ferritina sérica. La meta terapéutica es mantenerla entre 500 y 1000 mcg/L, pero el objetivo individual debe ser establecido por el hematólogo según la enfermedad de base.",
+    "Las tabletas dispersables y las de liberación prolongada NO son intercambiables mg por mg. Jadenu (liberación prolongada) tiene una biodisponibilidad diferente. Al cambiar de formulación, el médico debe recalcular la dosis."
+  ],
+  "patientCounseling": "Este medicamento es para controlar el exceso de hierro en su cuerpo causado por las transfusiones de sangre. Tómelo exactamente como su médico se lo indicó, una vez al día, en ayunas (al menos 30 minutos antes de desayunar). Si usa las tabletas que se disuelven, mézclelas bien en agua, jugo de manzana o leche y bébalas de inmediato. Es fundamental que no se salte dosis y asista a todos sus análisis de sangre, especialmente los de riñón e hígado. Esté alerta a señales de alarma como dolor de estómago fuerte, vómito con sangre, hinchazón de pies, color amarillo en la piel o ojos, y cambios en la visión o audición; si presenta alguno, contacte a su médico de inmediato. No tome antiácidos ni suplementos de hierro o vitaminas sin consultar primero. Este tratamiento es a largo plazo y su éxito depende de su constancia y del trabajo en equipo con su médico.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fatiga crónica por sobrecarga de hierro",
+        "slug": "fatiga-cronica-por-sobrecarga-de-hierro"
+      },
+      {
+        "name": "Dolor abdominal inespecífico",
+        "slug": "dolor-abdominal-inespecifico"
+      },
+      {
+        "name": "Coloración bronceada de la piel",
+        "slug": "coloracion-bronceada-de-la-piel"
+      },
+      {
+        "name": "Arritmias cardíacas",
+        "slug": "arritmias-cardiacas"
+      },
+      {
+        "name": "Disfunción sexual y amenorrea",
+        "slug": "disfuncion-sexual-y-amenorrea"
+      },
+      {
+        "name": "Dolor articular",
+        "slug": "dolor-articular"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Sobrecarga de hierro transfusional",
+        "slug": "sobrecarga-de-hierro-transfusional"
+      },
+      {
+        "name": "Beta-Talasemia Mayor",
+        "slug": "beta-talasemia-mayor"
+      },
+      {
+        "name": "Síndromes Mielodisplásicos (SMD)",
+        "slug": "sindromes-mielodisplasicos"
+      },
+      {
+        "name": "Anemia de Diamond-Blackfan",
+        "slug": "anemia-de-diamond-blackfan"
+      },
+      {
+        "name": "Anemia Aplásica Severa",
+        "slug": "anemia-aplasica-severa"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Insuficiencia Renal Aguda",
+        "slug": "insuficiencia-renal-aguda"
+      },
+      {
+        "name": "Hepatitis Tóxica",
+        "slug": "hepatitis-toxica"
+      },
+      {
+        "name": "Úlcera Gástrica o Duodenal",
+        "slug": "ulcera-gastrica-o-duodenal"
+      },
+      {
+        "name": "Pancreatitis Aguda",
+        "slug": "pancreatitis-aguda"
+      },
+      {
+        "name": "Síndrome de Fanconi",
+        "slug": "sindrome-de-fanconi"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Ferritina Sérica",
+        "slug": "ferritina-serica",
+        "effect": "Disminuye"
+      },
+      {
+        "name": "Creatinina Sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Alanina Aminotransferasa (ALT)",
+        "slug": "alanina-aminotransferasa-alt",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Proteína en Orina (Proteinuria)",
+        "slug": "proteina-en-orina-proteinuria",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Hierro Sérico",
+        "slug": "hierro-serico",
+        "effect": "Disminuye"
+      },
+      {
+        "name": "Sat. de Transferrina",
+        "slug": "saturacion-de-transferrina",
+        "effect": "Disminuye"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Perfil de Función Renal (Creatinina, Urea, TFG)",
+        "slug": "perfil-de-funcion-renal",
+        "reason": "Para detectar nefrotoxicidad temprana"
+      },
+      {
+        "name": "Perfil Hepático (Pruebas de Función Hepática)",
+        "slug": "perfil-hepatico",
+        "reason": "Para monitorear toxicidad hepática"
+      },
+      {
+        "name": "Ferritina Sérica",
+        "slug": "ferritina-serica",
+        "reason": "Para evaluar la respuesta al tratamiento y ajustar dosis"
+      },
+      {
+        "name": "Biometría Hemática Completa",
+        "slug": "biometria-hematica-completa",
+        "reason": "Para descartar citopenias como efecto adverso"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de TFG (Clearence de Creatinina)",
+        "slug": "calculadora-egfr"
+      },
+      {
+        "name": "Calculadora de Dosis Pediátrica por Peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de IMC",
+        "slug": "calculadora-imc"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve exactamente el Deferasirox?",
+      "a": "Sirve para eliminar el exceso de hierro que se acumula en el cuerpo de personas que reciben muchas transfusiones de sangre (como en la talasemia). Este hierro extra puede dañar el corazón, el hígado y otras partes del cuerpo. El medicamento 'atrapa' el hierro y lo saca del organismo a través de las heces."
+    },
+    {
+      "q": "¿Cómo debo tomar las pastillas de Deferasirox?",
+      "a": "Hay dos tipos principales. Las que se disuelven: tómelas una vez al día, en ayunas (al menos 30 min antes de comer). Disuélvalas en un vaso con agua, jugo de manzana o leche, revuelva bien y bébalo todo. Las tabletas normales: tráguelas enteras con agua, también en ayunas. Nunca las parta, mastique o disuelva en la boca."
+    },
+    {
+      "q": "¿Qué pasa si se me olvida una dosis?",
+      "a": "Tómela tan pronto como lo recuerde, pero si ya es casi la hora de su dosis habitual del día siguiente, omita la que olvidó y continúe con su horario normal. NUNCA tome dos dosis el mismo día para compensar."
+    },
+    {
+      "q": "¿El Deferasirox tiene muchos efectos secundarios?",
+      "a": "Puede causar algunos, los más comunes son malestar estomacal (náuseas, dolor, diarrea), dolor de cabeza, salpullido y cambios en los análisis de riñón e hígado. Por eso es tan importante hacerse los análisis de sangre regularmente. Su médico lo vigilará de cerca."
+    },
+    {
+      "q": "¿Puedo tomar antiácidos (como Alka-Seltzer o Pepto-Bismol) si tengo acidez?",
+      "a": "No es recomendable. Los antiácidos, especialmente los que contienen aluminio, pueden impedir que su cuerpo absorba bien el Deferasirox, haciendo que sea menos efectivo. Si necesita un antiácido, consulte a su médico y sepárelo al menos 4 horas de su dosis de Deferasirox."
+    },
+    {
+      "q": "¿Puedo beber alcohol mientras tomo este medicamento?",
+      "a": "Se debe evitar o limitar mucho el alcohol. El Deferasirox puede afectar el hígado y el alcohol también. Juntos, aumentan el riesgo de daño hepático grave. Hable con su médico sobre esto."
+    },
+    {
+      "q": "¿Cuánto tiempo tardaré en sentirme mejor?",
+      "a": "Usted no sentirá directamente que el hierro está bajando. La mejoría es a largo plazo y previene daños en órganos. Su médico sabrá si está funcionando midiendo un valor en su sangre llamado 'ferritina', que baja gradualmente con el tratamiento. Es un proceso de meses."
+    },
+    {
+      "q": "¿Necesito seguir una dieta especial?",
+      "a": "No hay una dieta específica, pero debe tomar el medicamento en ayunas para que funcione bien. Evite alimentos o suplementos muy ricos en hierro (como hígado, lentejas en exceso, cereales fortificados) a menos que su médico lo indique. No tome suplementos de hierro o vitaminas con hierro."
+    },
+    {
+      "q": "¿Puedo tomar Deferasirox si estoy embarazada o planeando un embarazo?",
+      "a": "Este medicamento puede dañar al bebé en formación. Si está embarazada, planea estarlo o está en lactancia, INFORME INMEDIATAMENTE A SU MÉDICO. Juntos evaluarán los riesgos y beneficios. Las mujeres en edad fértil deben usar un método anticonceptivo efectivo durante el tratamiento."
+    },
+    {
+      "q": "¿Es lo mismo Exjade que Jadenu?",
+      "a": "Ambos son marcas de Deferasirox, pero NO son exactamente iguales. Exjade es la tableta que se disuelve. Jadenu es una tableta de liberación prolongada que se traga entera. No se pueden intercambiar una por otra sin que el médico recalcule la dosis. Siempre use la presentación que le recetaron."
+    },
+    {
+      "q": "¿Por qué me piden tantos análisis de sangre?",
+      "a": "Porque el Deferasirox, aunque es muy útil, puede afectar los riñones y el hígado. Los análisis (creatinina para el riñón, ALT/AST para el hígado y ferritina para el hierro) permiten a su médico ajustar la dosis perfecta para usted, que sea efectiva y lo más segura posible. Es una parte esencial del tratamiento."
+    },
+    {
+      "q": "¿Qué debo hacer si tengo vómito o diarrea después de tomar la pastilla?",
+      "a": "Si vomita o tiene diarrea severa dentro de las primeras horas después de tomar el medicamento, es posible que no se haya absorbido. No tome otra dosis. Anote lo sucedido y comuníqueselo a su médico en su próxima cita. Si los vómitos o la diarrea son persistentes, contacte a su médico antes."
+    },
+    {
+      "q": "¿El Deferasirox puede dañar mis riñones para siempre?",
+      "a": "Generalmente, el aumento de creatinina (indicador de función renal) que puede causar el Deferasirox es reversible si se detecta a tiempo. Por eso el monitoreo es clave. Si la creatinina sube mucho, el médico reducirá la dosis o suspenderá el medicamento temporalmente, y los riñones suelen recuperarse."
+    },
+    {
+      "q": "¿Puedo vacunarme (como contra la influenza o COVID) si tomo Deferasirox?",
+      "a": "Sí, no hay problema. Puede y debe recibir las vacunas recomendadas según su edad y condición de salud. El Deferasirox no interfiere con la efectividad de las vacunas."
+    },
+    {
+      "q": "¿Interactúa con otros medicamentos comunes?",
+      "a": "Sí. Es importante que le diga a todos sus doctores y a su farmacéutico que toma Deferasirox. Interactúa con medicamentos para el colesterol (estatinas), algunos antibióticos, ciclosporina y antiácidos. Su médico revisará todas sus medicinas para evitar problemas."
+    },
+    {
+      "q": "¿Puede causar problemas de visión o audición?",
+      "a": "Sí, en algunos casos puede causar cataratas (visión nublada) o pérdida de audición. Por eso se recomienda un examen de la vista y una prueba de audición al inicio del tratamiento y luego una vez al año. Reporte cualquier cambio en su visión o audición a su médico."
+    },
+    {
+      "q": "¿Qué es una 'sobrecarga de hierro' y por qué es peligrosa?",
+      "a": "Es cuando hay demasiado hierro en el cuerpo. El cuerpo no tiene una forma natural de eliminar el exceso. Este hierro se deposita en órganos como el corazón, hígado y páncreas, produciendo radicales libres que los dañan. Con el tiempo, puede causar insuficiencia cardíaca, cirrosis, diabetes, problemas hormonales y hasta la muerte."
+    },
+    {
+      "q": "¿El tratamiento es de por vida?",
+      "a": "En la mayoría de los casos, sí. Mientras el paciente continúe recibiendo transfusiones de sangre regulares, seguirá acumulando hierro y necesitará el quelante (Deferasirox) para eliminarlo. Es un tratamiento crónico, como la hipertensión, que se toma diariamente para prevenir complicaciones graves."
+    },
+    {
+      "q": "¿Hay alternativas al Deferasirox?",
+      "a": "Sí, existen otros quelantes del hierro como la Deferoxamina (que se aplica en infusión subcutánea lenta, varias horas, varios días a la semana) y la Deferiprona (otro quelante oral). La elección depende de la enfermedad, la cantidad de hierro, la respuesta del paciente, los efectos secundarios y la preferencia. Su hematólogo decidirá cuál es el mejor para usted."
+    },
+    {
+      "q": "¿Cómo se ajusta la dosis de Deferasirox? ¿Es solo por peso?",
+      "a": "No solo por peso. La dosis inicial se calcula por peso (ej. 20 mg/kg). Luego, el ajuste se basa principalmente en la respuesta: el nivel de ferritina sérica. Si la ferritina no baja lo suficiente después de 3-6 meses, se puede aumentar la dosis. También se ajusta según la tolerancia y los efectos en riñón/hígado. Es un balance entre eficacia (bajar el hierro) y seguridad (evitar toxicidad)."
+    }
+  ]
+}

@@ -1,0 +1,393 @@
+{
+  "name": "Cefradina",
+  "summary": "La cefradina es un antibiótico de la familia de las cefalosporinas de primera generación, utilizado para combatir infecciones causadas por bacterias sensibles. Sirve principalmente para tratar infecciones comunes como las de la piel, vías respiratorias, vías urinarias y oídos, que son frecuentes en la población mexicana. Su importancia clínica radica en que es un tratamiento de amplio espectro, efectivo contra muchos tipos de bacterias, y generalmente bien tolerado. Actúa deteniendo el crecimiento de las bacterias, permitiendo que el sistema inmunológico del cuerpo las elimine. Es crucial completar el tratamiento completo prescrito por el médico, incluso si los síntomas mejoran antes, para evitar que la infección regrese o que las bacterias desarrollen resistencia al medicamento, un problema de salud pública creciente. La cefradina ha sido un pilar en el tratamiento de infecciones bacterianas durante décadas, especialmente en entornos ambulatorios, por su perfil de seguridad y eficacia comprobada.",
+  "pharmacology": {
+    "mechanismOfAction": "La cefradina ejerce su efecto bactericida (mata bacterias) al interferir con la síntesis de la pared celular bacteriana. Las bacterias necesitan construir una pared fuerte y rígida para sobrevivir y multiplicarse. La cefradina se une a unas proteínas específicas en la bacteria llamadas Proteínas Fijadoras de Penicilina (PBP), que son enzimas cruciales para el ensamblaje final de esta pared. Al unirse a estas proteínas, la cefradina bloquea el proceso de entrecruzamiento de los peptidoglicanos, que son los ladrillos principales de la pared. Esto debilita estructuralmente la pared celular, la cual no puede soportar la presión osmótica interna de la bacteria. Finalmente, la bacteria se hincha y estalla (lisis), muriendo. Es importante destacar que este mecanismo es específico para las bacterias; las células humanas no tienen pared celular, lo que explica la relativa selectividad y seguridad del medicamento.",
+    "pharmacologicClass": "Antibiótico beta-lactámico; Cefalosporina de primera generación.",
+    "therapeuticClass": "Antibiótico sistémico.",
+    "absorption": "La cefradina se absorbe bien por vía oral, con una biodisponibilidad aproximada del 90%. La presencia de alimentos en el estómago puede retrasar ligeramente su absorción, pero no reduce significativamente la cantidad total de medicamento que llega a la sangre. Los niveles máximos en sangre (concentración sérica máxima) se alcanzan entre 1 y 2 horas después de la administración de una dosis oral.",
+    "distribution": "La cefradina se distribuye ampliamente en la mayoría de los tejidos y fluidos corporales. Atraviesa bien la placenta y se encuentra en la leche materna. Su unión a proteínas plasmáticas es baja, generalmente menor al 20%. Esto significa que una gran proporción del medicamento en la sangre está 'libre' y disponible para ejercer su efecto antibacteriano en los tejidos infectados. Su volumen de distribución (Vd) es de aproximadamente 0.2-0.3 L/kg, indicando una distribución principalmente en el espacio plasmático y el líquido extracelular.",
+    "metabolism": "La cefradina sufre un metabolismo hepático mínimo. No es un sustrato significativo del sistema de enzimas citocromo P450 (CYP), por lo que tiene un bajo potencial de interacciones farmacocinéticas con otros medicamentos que se metabolizan por esta vía. La mayor parte del fármaco se excreta sin cambios.",
+    "elimination": "La cefradina se elimina principalmente por vía renal, a través de la filtración glomerular y, en menor medida, por secreción tubular. Aproximadamente del 80% al 90% de una dosis oral se excreta sin cambios en la orina en las primeras 6 horas. Su vida media de eliminación en adultos con función renal normal es de aproximadamente 1 a 2 horas. En pacientes con insuficiencia renal, esta vida media se prolonga significativamente, requiriendo ajustes de dosis.",
+    "onsetOfAction": "Los niveles terapéuticos en sangre se alcanzan entre 1 y 2 horas después de la administración oral. La mejoría clínica de los síntomas (como la fiebre o el dolor) puede notarse generalmente después de 24 a 48 horas de iniciado el tratamiento, dependiendo de la gravedad de la infección.",
+    "durationOfAction": "Debido a su vida media corta, la cefradina requiere administraciones múltiples al día (cada 6, 8 o 12 horas) para mantener concentraciones en sangre y tejidos por encima de la concentración inhibitoria mínima (CIM) de las bacterias sensibles durante todo el intervalo de dosificación, asegurando así su efecto bactericida continuo."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones de la piel y tejidos blandos no complicadas (p. ej., celulitis, impétigo, forúnculos)",
+      "Infecciones del tracto respiratorio superior (p. ej., faringoamigdalitis estreptocócica, sinusitis aguda)",
+      "Infecciones del tracto respiratorio inferior (p. ej., bronquitis aguda bacteriana, exacerbación aguda de EPOC)",
+      "Infecciones del tracto urinario no complicadas (cistitis aguda)",
+      "Otitis media aguda (infección del oído medio)"
+    ],
+    "offLabel": [
+      "Profilaxis quirúrgica en procedimientos limpios o limpios-contaminados (aunque no es de primera elección)",
+      "Infecciones óseas y articulares por estafilococos sensibles (como parte de regímenes combinados)"
+    ]
+  },
+  "dosage": {
+    "adults": "Para infecciones leves a moderadas: 250 a 500 mg por vía oral cada 6 horas, o 500 mg a 1 g cada 12 horas. Para infecciones más graves: 500 mg a 1 g cada 6 horas. La dosis y frecuencia dependen del tipo y gravedad de la infección, así como de la función renal.",
+    "pediatric": "Niños mayores de 9 meses: 25 a 50 mg/kg/día, divididos en dosis cada 6 o 12 horas. Para otitis media, se pueden usar dosis de 75 a 100 mg/kg/día, divididas cada 6 o 12 horas, sin exceder las dosis máximas para adultos. La dosis debe calcularse siempre en base al peso corporal del niño.",
+    "elderly": "En adultos mayores, la función renal suele estar disminuida. Es esencial calcular la tasa de filtración glomerular (TFG) y ajustar la dosis según los rangos de insuficiencia renal. Se recomienda iniciar con la dosis más baja del rango terapéutico y monitorear la función renal.",
+    "renalImpairment": "TFG > 50 mL/min: Dosis normal. TFG 10-50 mL/min: 250-500 mg cada 8-12 horas. TFG < 10 mL/min: 250-500 mg cada 12-24 horas. En diálisis: La cefradina se elimina en hemodiálisis; se debe administrar una dosis suplementaria después de cada sesión.",
+    "hepaticImpairment": "No se requieren ajustes de dosis específicos para la insuficiencia hepática leve a moderada, ya que la eliminación es principalmente renal. En casos de insuficiencia hepática grave, se debe evaluar la función renal de manera concomitante.",
+    "maxDose": "La dosis máxima diaria para adultos no debe exceder los 4 gramos (4000 mg) por día, en casos de infecciones muy graves y con función renal normal."
+  },
+  "dosageForms": [
+    {
+      "form": "Cápsula",
+      "strengths": [
+        "250 mg",
+        "500 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tableta",
+      "strengths": [
+        "500 mg",
+        "1 g"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Suspensión oral (polvo para reconstituir)",
+      "strengths": [
+        "125 mg/5 mL",
+        "250 mg/5 mL"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad (alergia) conocida a la cefradina o a cualquier cefalosporina.",
+      "Antecedente de reacción anafiláctica (alergia grave) a cualquier antibiótico beta-lactámico (penicilinas, cefalosporinas, carbapenémicos, monobactámicos)."
+    ],
+    "relative": [
+      "Insuficiencia renal grave (requiere ajuste de dosis y monitoreo estrecho).",
+      "Antecedente de colitis pseudomembranosa asociada a antibióticos.",
+      "Pacientes con fenilcetonuria (algunas formulaciones pueden contener aspartamo)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Diarrea (puede ser acuosa o con sangre, indicando posible colitis)",
+      "Náuseas",
+      "Malestar estomacal o dispepsia"
+    ],
+    "common": [
+      "Vómitos",
+      "Dolor abdominal",
+      "Candidiasis vaginal (infección por hongos) o candidiasis oral (algodoncillo)",
+      "Erupción cutánea (exantema maculopapular)",
+      "Prurito (comezón)"
+    ],
+    "uncommon": [
+      "Mareo",
+      "Dolor de cabeza",
+      "Vaginitis",
+      "Elevación transitoria de enzimas hepáticas (AST, ALT)",
+      "Eosinofilia (aumento de un tipo de glóbulos blancos)"
+    ],
+    "rare": [
+      "Reacción de hipersensibilidad grave (anafilaxia: dificultad para respirar, hinchazón de cara/lengua)",
+      "Nefritis intersticial (daño renal)",
+      "Anemia hemolítica",
+      "Neutropenia (disminución de glóbulos blancos)",
+      "Colitis pseudomembranosa por *Clostridioides difficile* (diarrea severa, fiebre, dolor abdominal)",
+      "Síndrome de Stevens-Johnson o necrólisis epidérmica tóxica (erupción cutánea grave con ampollas)"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Probenecid",
+        "effect": "El probenecid bloquea la secreción tubular renal de la cefradina, aumentando sus niveles en sangre y prolongando su efecto. Puede utilizarse terapéuticamente para este fin, pero requiere monitoreo.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Anticoagulantes orales (Warfarina)",
+        "effect": "La cefradina puede potenciar el efecto anticoagulante y aumentar el riesgo de sangrado, posiblemente al alterar la flora intestinal que produce vitamina K. Se debe monitorear el INR estrechamente.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Aminoglucósidos (Gentamicina, Amikacina)",
+        "effect": "Aumento del riesgo potencial de daño renal (nefrotoxicidad) cuando se usan conjuntamente. Se debe vigilar la función renal.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "Los alimentos pueden retrasar ligeramente la absorción de la cefradina, pero no afectan su absorción total. Se puede tomar con o sin alimentos. Si causa malestar estomacal, se recomienda tomarla con alimentos. El consumo de alcohol debe evitarse durante el tratamiento, ya que puede aumentar el riesgo de efectos secundarios gastrointestinales y, en raros casos, provocar una reacción tipo disulfiram (rubor facial, náuseas, taquicardia, aunque es más común con otras cefalosporinas).",
+    "withSupplements": "Los suplementos que contienen probióticos (como *Lactobacillus*) pueden ayudar a prevenir la diarrea asociada a antibióticos. Se recomienda tomarlos con un intervalo de 2 a 3 horas respecto a la dosis del antibiótico. Los suplementos de vitamina K pueden antagonizar el efecto de la warfarina, lo cual es relevante dada la interacción mencionada."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "B",
+      "recommendation": "Estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. La cefradina cruza la placenta. Debe usarse durante el embarazo solo si es claramente necesario, después de evaluar el beneficio para la madre frente al riesgo potencial para el feto. Es generalmente considerada una opción segura cuando se requiere un antibiótico durante el embarazo para tratar infecciones bacterianas sensibles.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La cefradina se excreta en la leche materna en concentraciones bajas. Si bien se considera generalmente compatible con la lactancia, puede haber un riesgo de alteración de la flora intestinal del lactante, diarrea o candidiasis. Se debe observar al bebé por posibles efectos como diarrea o erupción cutánea. La decisión de amamantar durante el tratamiento debe tomarse considerando la importancia del medicamento para la madre.",
+    "pediatric": "La cefradina está aprobada para su uso en niños mayores de 9 meses. La suspensión oral es la forma de dosificación preferida para esta población. La dosis debe calcularse cuidadosamente según el peso corporal. No se recomienda en neonatos o lactantes menores de 9 meses debido a la inmadurez de los sistemas renal y hepático.",
+    "geriatric": "Los pacientes de edad avanzada tienen mayor probabilidad de presentar función renal disminuida, lo que requiere ajustes de dosis. También pueden ser más susceptibles a los efectos adversos, especialmente la diarrea y la colitis por *C. difficile*. Se recomienda iniciar con dosis más bajas, ajustar según la función renal (TFG) y monitorear estrechamente."
+  },
+  "administration": {
+    "howToTake": "Tome la cefradina exactamente como se lo indicó su médico. No aumente la dosis ni la tome con más frecuencia. Las cápsulas o tabletas deben tragarse enteras con un vaso lleno de agua (aproximadamente 240 ml). La suspensión oral debe agitarse bien antes de cada uso. Use el dosificador que viene con el medicamento (cuchara, jeringa oral) para medir la dosis exacta. Puede tomarse con o sin alimentos. Si toma una dosis cada 12 horas, trate de espaciarlas uniformemente (por ejemplo, a las 8 am y a las 8 pm).",
+    "storage": "Conservar las cápsulas y tabletas a temperatura ambiente (15-30°C), en un lugar seco y fuera del alcance de la luz directa. La suspensión oral reconstituida debe guardarse en el refrigerador (2-8°C) y desecharse después de 14 días. No congelar. Mantenga siempre el medicamento en su envase original.",
+    "specialInstructions": "Es fundamental completar TODO el tratamiento recetado, incluso si se siente mejor después de unos días. Suspenderlo antes de tiempo puede hacer que la infección regrese y que las bacterias desarrollen resistencia. Si olvida una dosis, tómela tan pronto como lo recuerde, pero si ya es casi la hora de la siguiente dosis, omita la dosis olvidada y continúe con su horario regular. NO duplique la dosis para compensar la olvidada. Informe a su médico si desarrolla diarrea acuosa o con sangre durante o después del tratamiento."
+  },
+  "monitoring": {
+    "labTests": [
+      "Conteo sanguíneo completo (CSC) con diferencial, especialmente en tratamientos prolongados",
+      "Pruebas de función renal (creatinina sérica, nitrógeno ureico en sangre - BUN)",
+      "Pruebas de función hepática (AST, ALT, fosfatasa alcalina)",
+      "Cultivo y antibiograma del sitio de infección (para confirmar sensibilidad)",
+      "En pacientes con diarrea severa: prueba de toxina de *Clostridioides difficile* en heces"
+    ],
+    "frequency": "En tratamientos estándar de 7-14 días, el monitoreo de laboratorio no es rutinario a menos que el paciente tenga condiciones de base (insuficiencia renal) o desarrolle síntomas adversos. En tratamientos prolongados (>2 semanas) o en pacientes con comorbilidades, se recomienda un CSC y función renal cada 1-2 semanas.",
+    "signsToWatch": [
+      "Signos de reacción alérgica: urticaria, dificultad para respirar, hinchazón de cara/labios/lengua/garganta",
+      "Diarrea acuosa o con sangre, dolor abdominal severo o fiebre (posible colitis por *C. difficile*)",
+      "Erupción cutánea grave o ampollas",
+      "Sangrado o moretones inusuales",
+      "Fatiga extrema, palidez (signos de anemia)",
+      "Disminución en la cantidad de orina (signo de posible daño renal)"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Náuseas y vómitos severos",
+      "Diarrea profusa",
+      "Dolor abdominal cólico",
+      "Convulsiones (en casos muy severos, especialmente con insuficiencia renal)",
+      "Alteraciones en el examen de orina (cristaluria)"
+    ],
+    "treatment": "El tratamiento es de soporte y sintomático. No existe un antídoto específico. En caso de ingestión reciente, se puede considerar el lavado gástrico o la administración de carbón activado. La hemodiálisis es efectiva para eliminar la cefradina de la circulación y está indicada en casos de sobredosis masiva, especialmente en pacientes con insuficiencia renal subyacente. Se debe mantener la hidratación y la función renal.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Rx).",
+    "scheduleMexico": "Medicamento de patente (fracción I del artículo 226 de la Ley General de Salud). No es una sustancia controlada.",
+    "fdaApprovalYear": "Aprobada por la FDA de Estados Unidos en la década de 1970."
+  },
+  "brandsMexico": [
+    "Cefradina Genfar",
+    "Cefradina MK",
+    "Cefradina Rimsa",
+    "Cefradina Liomont",
+    "Cefradina Sophia",
+    "Cefradina Best",
+    "Cefradina Chinoin",
+    "Cefradina Pisa",
+    "Cefradina Denver Farma",
+    "Cefradina Valdecasas",
+    "Velosef (nombre comercial original de algunas presentaciones)"
+  ],
+  "clinicalPearls": [
+    "La cefradina tiene una cobertura excelente contra bacterias Gram-positivas como *Staphylococcus aureus* (no MRSA) y *Streptococcus pyogenes*, y buena cobertura contra algunos Gram-negativos como *E. coli*, *Klebsiella* y *Proteus mirabilis*.",
+    "Es una opción económica y efectiva para el tratamiento empírico de infecciones de piel y tejidos blandos no complicadas en pacientes ambulatorios.",
+    "Debido a su corta vida media, la adherencia al esquema de dosis múltiples al día es crucial para el éxito terapéutico. Educar al paciente sobre esto es fundamental.",
+    "La diarrea es el efecto adverso más común. Se debe instruir al paciente para que reporte diarrea acuosa o con sangre de inmediato, para evaluar colitis por *C. difficile*.",
+    "La resistencia bacteriana ha aumentado con los años. Siempre que sea posible, guiar el tratamiento con cultivos y antibiogramas para asegurar la sensibilidad."
+  ],
+  "patientCounseling": "Tome este antibiótico exactamente como se lo recetó su médico. No lo comparta con otras personas, aunque tengan síntomas similares. Completa TODO el tratamiento, aunque te sientas mejor en unos días; dejar de tomarlo pronto puede hacer que la infección regrese más fuerte. Toma cada dosis con un vaso lleno de agua. Puedes tomarlo con comida si te causa malestar en el estómago. Es normal que cause diarrea leve, pero si es muy líquida, con sangre o tienes fiebre y dolor abdominal fuerte, DEJES de tomarlo y llames a tu médico de inmediato. Este medicamento puede hacer que los métodos anticonceptivos hormonales (como la pastilla) sean menos efectivos; usa un método de barrera adicional (condón) durante el tratamiento. Evita el alcohol mientras lo tomas. Si olvidas una dosis, tómala en cuanto te acuerdes, pero nunca tomes dos dosis juntas. Guarda la suspensión líquida en el refrigerador y bótala después de 14 días.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre",
+        "slug": "fiebre"
+      },
+      {
+        "name": "Dolor de garganta",
+        "slug": "dolor-de-garganta"
+      },
+      {
+        "name": "Tos con flemas",
+        "slug": "tos-con-flemas"
+      },
+      {
+        "name": "Dolor o ardor al orinar",
+        "slug": "disuria"
+      },
+      {
+        "name": "Enrojecimiento e hinchazón de la piel",
+        "slug": "eritema-edema-piel"
+      },
+      {
+        "name": "Dolor de oído",
+        "slug": "otalgia"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Faringoamigdalitis estreptocócica",
+        "slug": "faringoamigdalitis-estreptococica"
+      },
+      {
+        "name": "Infección de vías urinarias (Cistitis)",
+        "slug": "infeccion-vias-urinarias"
+      },
+      {
+        "name": "Celulitis",
+        "slug": "celulitis"
+      },
+      {
+        "name": "Bronquitis aguda bacteriana",
+        "slug": "bronquitis-aguda"
+      },
+      {
+        "name": "Otitis media aguda",
+        "slug": "otitis-media"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Colitis pseudomembranosa por C. difficile",
+        "slug": "colitis-pseudomembranosa"
+      },
+      {
+        "name": "Reacción de hipersensibilidad medicamentosa",
+        "slug": "reaccion-alergica-medicamentos"
+      },
+      {
+        "name": "Candidiasis vaginal u oral",
+        "slug": "candidiasis"
+      },
+      {
+        "name": "Resistencia bacteriana a antibióticos",
+        "slug": "resistencia-antibioticos"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Enzimas hepáticas (AST, ALT)",
+        "slug": "transaminasas",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Eosinófilos",
+        "slug": "eosinofilos",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Recuento de neutrófilos",
+        "slug": "neutrofilos",
+        "effect": "Puede disminuir"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Cultivo y antibiograma",
+        "slug": "cultivo-antibiograma",
+        "reason": "Para confirmar la bacteria causante y su sensibilidad a la cefradina."
+      },
+      {
+        "name": "Biometría hemática completa",
+        "slug": "biometria-hematica",
+        "reason": "Para monitorear posibles efectos en las células sanguíneas."
+      },
+      {
+        "name": "Química sanguínea (función renal y hepática)",
+        "slug": "quimica-sanguinea",
+        "reason": "Para ajustar dosis y monitorear toxicidad."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La cefradina es lo mismo que la amoxicilina?",
+      "a": "No. Ambos son antibióticos, pero pertenecen a familias diferentes. La amoxicilina es una penicilina y la cefradina es una cefalosporina. Su médico elige uno u otro según el tipo de bacteria que se sospecha que causa la infección."
+    },
+    {
+      "q": "¿Puedo tomar cefradina si soy alérgico a la penicilina?",
+      "a": "Debe informar a su médico sobre su alergia. Existe un riesgo de reacción cruzada (alergia también a la cefradina) en aproximadamente un 5-10% de los pacientes alérgicos a penicilina. Su médico evaluará el riesgo y puede optar por un antibiótico de otra familia completamente diferente si es necesario."
+    },
+    {
+      "q": "¿Con o sin alimentos?",
+      "a": "Se puede tomar con o sin alimentos. Si le causa malestar estomacal (náuseas), se recomienda tomarla con alimentos para reducir este efecto."
+    },
+    {
+      "q": "¿Qué hago si olvidé una dosis?",
+      "a": "Tómela tan pronto como lo recuerde. Pero si ya es casi la hora de la siguiente dosis, omita la dosis olvidada y continúe con su horario normal. NO tome una dosis doble para compensar."
+    },
+    {
+      "q": "¿Puedo tomar alcohol mientras tomo cefradina?",
+      "a": "No se recomienda. El alcohol puede aumentar el riesgo de efectos secundarios como náuseas y mareo. Además, aunque es raro, algunas cefalosporinas pueden causar una reacción desagradable (rubor, taquicardia) con el alcohol."
+    },
+    {
+      "q": "¿La cefradina anula el efecto de las pastillas anticonceptivas?",
+      "a": "Existe la posibilidad de que algunos antibióticos, incluyendo la cefradina, reduzcan la efectividad de los anticonceptivos hormonales orales (la pastilla). Se recomienda usar un método anticonceptivo de respaldo (como condón) durante el tratamiento y hasta una semana después de terminarlo."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Los niveles en la sangre son óptimos a las 1-2 horas de tomarla. Sin embargo, la mejoría de los síntomas (como baja de fiebre) suele notarse después de 24 a 48 horas de tratamiento constante."
+    },
+    {
+      "q": "Me salió una erupción en la piel, ¿debo suspenderla?",
+      "a": "Sí. Suspenda el medicamento y contacte a su médico de inmediato. Una erupción puede ser signo de una reacción alérgica."
+    },
+    {
+      "q": "Tengo diarrea, ¿es normal?",
+      "a": "La diarrea leve es un efecto secundario común. Pero si la diarrea es muy líquida, abundante, con sangre, moco o se acompaña de fiebre y dolor abdominal fuerte, DEBE suspender el medicamento y contactar a su médico urgentemente, ya que podría ser una colitis grave."
+    },
+    {
+      "q": "¿Puedo darle la suspensión a mi hijo de 2 años?",
+      "a": "La cefradina está aprobada para niños mayores de 9 meses. Sin embargo, SOLO debe administrarse bajo prescripción médica. El médico calculará la dosis exacta según el peso de su hijo."
+    },
+    {
+      "q": "¿La cefradina sirve para la gripe o el resfriado?",
+      "a": "NO. La gripe y el resfriado común son causados por virus. Los antibióticos como la cefradina solo funcionan contra infecciones bacterianas. Usarlos para virus es inútil y contribuye a la resistencia bacteriana."
+    },
+    {
+      "q": "¿Puedo guardar la suspensión líquida que sobró para otra vez?",
+      "a": "La suspensión reconstituida debe guardarse en el refrigerador y su vida útil es de 14 días. Pasado ese tiempo, debe desecharse. No la use para tratar una infección futura sin nueva prescripción médica."
+    },
+    {
+      "q": "¿Qué pasa si tomo más de la dosis indicada?",
+      "a": "Podría sufrir efectos secundarios severos como náuseas, vómitos, diarrea profusa y, en casos extremos, daño renal. Contacte a su médico o acuda a un servicio de urgencias de inmediato."
+    },
+    {
+      "q": "¿La cefradina causa sueño?",
+      "a": "El mareo es un efecto secundario poco común, pero no suele causar somnolencia intensa. Si experimenta mucho sueño, consulte con su médico."
+    },
+    {
+      "q": "¿Es seguro tomarla durante el embarazo?",
+      "a": "La cefradina está en categoría B de embarazo. Esto significa que generalmente se considera segura, pero debe usarse solo si el médico lo considera estrictamente necesario, evaluando riesgos y beneficios. Informe a su médico si está embarazada o planea estarlo."
+    },
+    {
+      "q": "¿Puedo amamantar si tomo cefradina?",
+      "a": "Sí, generalmente es compatible. Sin embargo, pequeñas cantidades pasan a la leche. Observe a su bebé por posibles efectos como diarrea o irritación (candidiasis). Consulte con su médico."
+    },
+    {
+      "q": "Tengo diabetes, ¿afecta mis niveles de azúcar?",
+      "a": "La cefradina no tiene un efecto directo conocido sobre la glucosa en sangre. Sin embargo, cualquier infección puede descontrolar la diabetes. Monitoree sus niveles de glucosa con más frecuencia durante la enfermedad."
+    },
+    {
+      "q": "¿Interfiere con otros medicamentos que tomo?",
+      "a": "Sí, puede interactuar. Es MUY importante que le informe a su médico sobre TODOS los medicamentos que toma, incluyendo anticoagulantes (como warfarina), probenecid, otros antibióticos y suplementos."
+    },
+    {
+      "q": "¿Por qué debo terminar la caja completa si ya me siento bien?",
+      "a": "Porque aunque los síntomas desaparezcan, algunas bacterias más débiles pueden quedar vivas. Si suspende el tratamiento, estas bacterias pueden multiplicarse nuevamente, causando una recaída. Además, las bacterias que sobreviven pueden aprender a resistir el antibiótico, haciéndolo inútil para futuras infecciones (resistencia bacteriana)."
+    },
+    {
+      "q": "Mi médico me pidió un cultivo, ¿debo suspender la cefradina antes de hacérmelo?",
+      "a": "Idealmente, la muestra para cultivo (de orina, garganta, etc.) debe tomarse ANTES de iniciar cualquier antibiótico. Si ya empezó el tratamiento, informe a su médico. El antibiótico puede afectar los resultados del cultivo, haciendo más difícil identificar la bacteria."
+    }
+  ]
+}

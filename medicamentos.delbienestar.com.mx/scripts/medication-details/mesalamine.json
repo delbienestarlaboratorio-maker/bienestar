@@ -1,0 +1,454 @@
+{
+  "name": "Mesalamina",
+  "summary": "La mesalamina, también conocida como 5-ASA (ácido 5-aminosalicílico), es un medicamento antiinflamatorio que actúa directamente en el intestino. Se utiliza principalmente para tratar y mantener la remisión (periodos sin síntomas) de enfermedades inflamatorias intestinales como la colitis ulcerosa y la enfermedad de Crohn (especialmente la que afecta al colon). Su importancia clínica radica en que es un tratamiento de primera línea, efectivo para controlar la inflamación del intestino, reducir síntomas como diarrea con sangre, dolor abdominal y urgencia para defecar, y prevenir nuevos brotes de la enfermedad, mejorando significativamente la calidad de vida de los pacientes. A diferencia de otros medicamentos como los corticoides, la mesalamina tiene un perfil de seguridad más favorable para uso a largo plazo, ya que actúa principalmente a nivel local en el intestino con mínima absorción sistémica. Es fundamental para el manejo crónico de estas condiciones, ayudando a evitar complicaciones y la necesidad de cirugía.",
+  "pharmacology": {
+    "mechanismOfAction": "La mesalamina es el componente activo antiinflamatorio de la sulfasalazina. Su mecanismo de acción exacto no está completamente dilucidado, pero se sabe que actúa localmente en la mucosa del colon e intestino delgado. Inhibe la producción de prostaglandinas y leucotrienos, que son sustancias químicas proinflamatorias. También interfiere con la activación del factor nuclear kappa B (NF-κB), una proteína clave en la regulación de la respuesta inflamatoria. Además, actúa como un scavenger (secuestrador) de radicales libres de oxígeno, reduciendo el estrés oxidativo en el tejido intestinal inflamado. Su acción es tópica, no sistémica, lo que significa que trabaja directamente en el revestimiento del intestino donde se encuentra la inflamación, con efectos mínimos en el resto del cuerpo cuando se administra en sus formulaciones de liberación controlada o dirigida.",
+    "pharmacologicClass": "Aminosalicilato",
+    "therapeuticClass": "Agente antiinflamatorio intestinal",
+    "absorption": "La absorción sistémica de la mesalamina varía según la formulación. Las tabletas con recubrimiento entérico (como Asacol) se liberan en el íleon terminal y colon, con una absorción oral de aproximadamente el 20-30%. Las formulaciones de liberación prolongada (como Pentasa) se liberan a lo largo del intestino delgado y colon. Los supositorios y enemas se absorben mínimamente desde el recto y colon sigmoide (15-35%). La presencia de alimentos puede retrasar la absorción pero no afecta significativamente su eficacia.",
+    "distribution": "La mesalamina se distribuye principalmente en el tejido intestinal (mucosa del colon e íleon). Su unión a proteínas plasmáticas es baja (aproximadamente 40-50%). Su volumen de distribución (Vd) es bajo, alrededor de 0.2 L/kg, lo que refleja su limitada distribución fuera del tracto gastrointestinal. Las concentraciones más altas se encuentran en el tejido colónico.",
+    "metabolism": "La mesalamina se metaboliza extensamente por la mucosa intestinal, principalmente por la enzima N-acetiltransferasa (NAT-1) a N-acetil-5-ASA (Ac-5-ASA), que es farmacológicamente inactivo. Este metabolismo es de primer paso, tanto hepático como intestinal. No es un sustrato significativo del sistema enzimático citocromo P450 (CYP), por lo que tiene pocas interacciones farmacocinéticas mediadas por CYP.",
+    "elimination": "La vida media de eliminación de la mesalamina es de aproximadamente 5 a 7 horas para la fracción absorbida. Se elimina principalmente por vía renal, tanto en forma de mesalamina libre (10-30%) como de su metabolito inactivo N-acetil-5-ASA (40-50%). Una pequeña porción se excreta en las heces (20-45%). La función renal alterada puede llevar a una acumulación del metabolito.",
+    "onsetOfAction": "El inicio de acción para el alivio sintomático (como disminución de la diarrea y dolor abdominal) generalmente se observa dentro de las 2 a 4 semanas de iniciado el tratamiento. Para la inducción de la remisión completa puede requerir de 4 a 8 semanas.",
+    "durationOfAction": "El efecto antiinflamatorio es continuo mientras se mantiene la administración del medicamento. Para el tratamiento de mantenimiento, la duración puede ser de años o incluso de por vida, dependiendo de la enfermedad. Los efectos de una dosis oral duran lo suficiente para permitir dosificaciones de 1 a 3 veces al día."
+  },
+  "indications": {
+    "approved": [
+      "Inducción de la remisión en colitis ulcerosa leve a moderada",
+      "Mantenimiento de la remisión en colitis ulcerosa",
+      "Tratamiento de la proctitis ulcerosa (inflamación del recto)",
+      "Tratamiento de la proctosigmoiditis (inflamación de recto y colon sigmoide)",
+      "Inducción de la remisión en enfermedad de Crohn leve a moderada que afecta al colon (íleo-colónica o colónica)",
+      "Mantenimiento de la remisión en enfermedad de Crohn colónica"
+    ],
+    "offLabel": [
+      "Prevención de la pouchitis (inflamación del reservorio ileal) después de cirugía por colitis ulcerosa",
+      "Tratamiento de la pouchitis crónica",
+      "Colitis microscópica (linfocítica o colagenosa)",
+      "Diverticulitis no complicada",
+      "Síndrome del intestino irritable con predominio de diarrea (IBS-D) en casos seleccionados"
+    ]
+  },
+  "dosage": {
+    "adults": "Colitis Ulcerosa (Inducción): 2.4 - 4.8 g al día, divididos en 2-3 dosis. Colitis Ulcerosa (Mantenimiento): 1.5 - 4.8 g al día, en 1-3 dosis. Enfermedad de Crohn Colónica: 3.2 - 4.8 g al día. Proctitis/Proctosigmoiditis: Enemas de 1-4 g por la noche o supositorios de 500 mg - 1 g 1-3 veces al día. Las dosis específicas dependen de la formulación y la extensión de la enfermedad.",
+    "pediatric": "Para niños mayores de 5 años: Dosis basada en peso. Generalmente 50-75 mg/kg/día, divididos en 2-3 dosis, hasta un máximo de 4.8 g/día. Debe ser prescrito y monitoreado por un gastroenterólogo pediátrico.",
+    "elderly": "No se requieren ajustes de dosis basados únicamente en la edad. Sin embargo, se debe iniciar en la dosis más baja efectiva debido a la mayor probabilidad de disminución de la función renal o hepática y de tomar otros medicamentos.",
+    "renalImpairment": "Contraindicado en insuficiencia renal severa (TFG <30 mL/min). En insuficiencia renal moderada (TFG 30-59 mL/min), usar con precaución, iniciando con dosis bajas y monitoreando función renal estrechamente. Evitar en enfermedad renal activa. En TFG >60 mL/min, no se requieren ajustes.",
+    "hepaticImpairment": "No se requieren ajustes de dosis específicos en insuficiencia hepática leve a moderada. En insuficiencia hepática severa, usar con precaución debido a la posible alteración en el metabolismo.",
+    "maxDose": "La dosis máxima diaria es de 4.8 gramos para la mayoría de las formulaciones orales. En algunos protocolos, para inducción, se pueden usar hasta 4.8 g/día. Nunca exceder la dosis prescrita."
+  },
+  "dosageForms": [
+    {
+      "form": "Tabletas de liberación controlada (gastro-resistentes)",
+      "strengths": [
+        "400 mg",
+        "500 mg",
+        "800 mg",
+        "1200 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Gránulos de liberación prolongada",
+      "strengths": [
+        "1000 mg",
+        "1500 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Supositorios",
+      "strengths": [
+        "500 mg",
+        "1000 mg"
+      ],
+      "route": "Rectal"
+    },
+    {
+      "form": "Enema rectal",
+      "strengths": [
+        "1000 mg/100mL",
+        "4000 mg/60mL"
+      ],
+      "route": "Rectal"
+    },
+    {
+      "form": "Espuma rectal",
+      "strengths": [
+        "1000 mg por aplicación"
+      ],
+      "route": "Rectal"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la mesalamina, salicilatos o cualquier componente de la formulación",
+      "Insuficiencia renal severa (TFG <30 mL/min) o enfermedad renal activa",
+      "Historial de reacción de hipersensibilidad grave (anafilaxia) a salicilatos",
+      "Obstrucción intestinal o estenosis (estrechez) intestinal"
+    ],
+    "relative": [
+      "Insuficiencia renal moderada (TFG 30-59 mL/min)",
+      "Enfermedad hepática activa severa",
+      "Hipersensibilidad a la sulfasalazina",
+      "Úlcera péptica activa o sangrado gastrointestinal",
+      "Pacientes con alergia a la aspirina (ácido acetilsalicílico) deben usarse con extrema precaución"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Dolor de cabeza",
+      "Náuseas",
+      "Dolor o malestar abdominal",
+      "Flatulencia (gases)"
+    ],
+    "common": [
+      "Diarrea (puede confundirse con brote de la enfermedad)",
+      "Vómitos",
+      "Acidez estomacal (pirosis)",
+      "Erupciones cutáneas leves",
+      "Mareo",
+      "Fiebre",
+      "Síntomas similares a la gripe"
+    ],
+    "uncommon": [
+      "Prurito (comezón)",
+      "Alopecia reversible (caída del cabello)",
+      "Dolor articular o muscular (artralgias/mialgias)",
+      "Anomalías en pruebas de función hepática (elevación de transaminasas)",
+      "Pancreatitis aguda",
+      "Pericarditis (inflamación del pericardio)",
+      "Nefritis intersticial (inflamación del riñón)"
+    ],
+    "rare": [
+      "Neumonitis eosinofílica (inflamación pulmonar)",
+      "Miocarditis (inflamación del músculo cardíaco)",
+      "Síndrome de Stevens-Johnson o necrólisis epidérmica tóxica (reacciones cutáneas graves)",
+      "Agranulocitosis (disminución severa de glóbulos blancos)",
+      "Anemia aplásica",
+      "Hepatitis aguda severa",
+      "Colitis ulcerosa empeorada (raro, pero posible)"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Anticoagulantes (Warfarina, Acenocumarol)",
+        "effect": "La mesalamina puede potenciar el efecto anticoagulante, aumentando el riesgo de sangrado. Monitorizar INR estrechamente.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Tiopurinas (Azatioprina, Mercaptopurina)",
+        "effect": "Uso concurrente puede aumentar el riesgo de mielosupresión (disminución de células sanguíneas). Se requiere monitoreo hematológico frecuente.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Antiinflamatorios No Esteroideos (AINEs: Ibuprofeno, Naproxeno, Diclofenaco)",
+        "effect": "Pueden aumentar el riesgo de toxicidad renal cuando se usan con mesalamina. Evitar el uso combinado si es posible.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Probenecid",
+        "effect": "Puede disminuir la excreción renal de la mesalamina, aumentando sus niveles en sangre y el riesgo de toxicidad.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Puede tomarse con o sin alimentos. Tomarlo con alimentos puede ayudar a reducir molestias gastrointestinales como náuseas. Sin embargo, algunas formulaciones de liberación controlada (como las tabletas de Asacol) deben tragarse enteras, sin masticar ni partir, y pueden tomarse independientemente de las comidas. El alcohol no interactúa directamente, pero puede irritar el intestino y empeorar los síntomas de la enfermedad de base.",
+    "withSupplements": "No se conocen interacciones significativas con vitaminas o suplementos dietéticos comunes. Sin embargo, suplementos que contengan hierro pueden causar heces oscuras, lo que no es dañino pero puede confundirse con sangrado. Los probióticos pueden usarse de manera complementaria."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA B",
+      "recommendation": "La mesalamina es generalmente considerada segura durante el embarazo. Es el tratamiento de elección para mantener la remisión en mujeres embarazadas con colitis ulcerosa o enfermedad de Crohn, ya que la actividad de la enfermedad no controlada representa un riesgo mayor para la madre y el feto que el medicamento. Debe usarse a la dosis efectiva más baja. Se prefiere la vía oral sobre la rectal en el tercer trimestre. Consultar siempre con el gastroenterólogo y el ginecólogo-obstetra.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La mesalamina y su metabolito se excretan en la leche materna en cantidades muy bajas (menos del 0.1% de la dosis materna). Es considerado compatible con la lactancia. No se han reportado efectos adversos en lactantes. Se recomienda monitorizar al bebé por si aparece diarrea, aunque es muy raro. Puede amamantarse con seguridad.",
+    "pediatric": "Aprobado para uso en niños mayores de 5 años para el tratamiento de la colitis ulcerosa. La dosis se calcula por peso corporal. Es crucial el monitoreo del crecimiento, desarrollo y función renal. Debe ser manejado por un especialista en gastroenterología pediátrica.",
+    "geriatric": "Los pacientes mayores de 65 años pueden ser más susceptibles a los efectos adversos renales. Se debe evaluar la función renal (TFG) antes de iniciar y periódicamente durante el tratamiento. Iniciar con dosis bajas y ajustar lentamente. Mayor probabilidad de polifarmacia, revisar interacciones."
+  },
+  "administration": {
+    "howToTake": "ORAL: Tragar las tabletas o cápsulas enteras, NUNCA masticar, partir o triturar. Pueden tomarse con o sin alimentos. Los gránulos (como Salofalk gránulos) se deben verter en la boca y tragar enteros con agua, sin masticar. RECTAL (Supositorios): Insertar en el recto después de evacuar, preferentemente por la noche al acostarse. RECTAL (Enema): Acostarse sobre el lado izquierdo, insertar la cánula suavemente en el recto y exprimir el contenido del frasco lentamente. Intentar retener el líquido toda la noche. Lavar la cánula después de cada uso.",
+    "storage": "Conservar a temperatura ambiente (15-30°C), en un lugar seco y fuera del alcance de los niños. Proteger de la luz y la humedad. No congelar los enemas. Revisar la fecha de caducidad. Una vez abierto el frasco de enema, desechar el sobrante.",
+    "specialInstructions": "Es un tratamiento de MANTENIMIENTO. No suspender aunque se sienta bien, a menos que su médico lo indique. La suspensión abrupta puede provocar un rebrote de la enfermedad. Si olvida una dosis, tómela tan pronto como lo recuerde, pero si es casi la hora de la siguiente, omita la dosis olvidada y continúe con su horario normal. NO duplique la dosis. Las heces pueden adquirir un color marrón rojizo o anaranjado inofensivo debido al excipiente de algunas formulaciones. Informe a su médico si la diarrea empeora, podría ser un efecto adverso del medicamento."
+  },
+  "monitoring": {
+    "labTests": [
+      "Creatinina sérica y cálculo de TFG (función renal)",
+      "Análisis de orina completo",
+      "Biometría hemática completa (glóbulos rojos, blancos y plaquetas)",
+      "Pruebas de función hepática (ALT, AST, bilirrubina)",
+      "Proteína C reactiva (PCR) o Velocidad de Sedimentación Globular (VSG) para medir inflamación",
+      "Calprotectina fecal (marcador de inflamación intestinal)"
+    ],
+    "frequency": "Función renal y análisis de orina: al inicio, a las 2-4 semanas, luego cada 3-6 meses durante el primer año, y después cada 6-12 meses. Biometría hemática y función hepática: al inicio y luego cada 6-12 meses, o según síntomas. Calprotectina fecal: para evaluar respuesta al tratamiento y actividad de la enfermedad.",
+    "signsToWatch": [
+      "Fiebre inexplicable, dolor de garganta o úlceras en la boca (posible baja de defensas)",
+      "Disminución en la cantidad de orina, hinchazón de pies o tobillos (problemas renales)",
+      "Coloración amarillenta de piel u ojos (ictericia), dolor abdominal superior (problemas hepáticos)",
+      "Erupción cutánea grave, ampollas o descamación",
+      "Dificultad para respirar, dolor en el pecho (posible pericarditis)",
+      "Empeoramiento de la diarrea con sangre o dolor abdominal (posible colitis inducida o brote)"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Náuseas y vómitos severos",
+      "Diarrea acuosa profusa",
+      "Zumbido en los oídos (tinnitus)",
+      "Sudoración",
+      "Hiperventilación (respiración rápida)",
+      "Confusión, mareo severo",
+      "Convulsiones (en casos extremos)"
+    ],
+    "treatment": "No existe un antídoto específico. El tratamiento es de soporte. Suspender inmediatamente el medicamento. Mantener la hidratación, posiblemente con líquidos intravenosos. Monitorear función renal y electrolitos. En caso de ingestión masiva reciente, puede considerarse carbón activado, aunque la eficacia es limitada debido a la liberación controlada. Diálisis no es efectiva para eliminar la mesalamina debido a su alta unión a proteínas.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Rx)",
+    "scheduleMexico": "No está sujeto a control especial (no es psicotrópico ni estupefaciente). Se encuentra en la Fracción IV del Cuadro Básico de Medicamentos, para uso bajo prescripción.",
+    "fdaApprovalYear": "1987 (para la formulación oral de liberación controlada)"
+  },
+  "brandsMexico": [
+    "Asacol",
+    "Pentasa",
+    "Salofalk",
+    "Mesacol",
+    "Rowasa",
+    "Canasa",
+    "Claversal",
+    "Fivasa",
+    "Lialda/Mezavant",
+    "Apriso",
+    "SFI",
+    "Farmacéutica similar (genérico)"
+  ],
+  "clinicalPearls": [
+    "La diarrea como efecto adverso de la mesalamina puede confundirse con un brote de la enfermedad inflamatoria intestinal. Es clave evaluar si hay otros síntomas sistémicos (fiebre, pérdida de peso) y medir calprotectina fecal para diferenciar.",
+    "La nefritis intersticial por mesalamina es rara pero grave. Puede presentarse de manera insidiosa con proteinuria en el análisis de orina, incluso sin elevación de la creatinina. Por eso se recomienda incluir análisis de orina en el monitoreo, no solo creatinina.",
+    "En pacientes que no responden a una formulación de mesalamina (ej. oral), a veces se logra respuesta agregando terapia tópica rectal (enemas o supositorios), incluso en enfermedad que parece extendida, por un efecto 'top-down' de la medicación."
+  ],
+  "patientCounseling": "La mesalamina es su aliado para controlar la inflamación de su intestino a largo plazo. Tómela exactamente como se la recetó su médico, todos los días, incluso cuando se sienta bien. Esto previene que los síntomas regresen. Trague las tabletas enteras, sin masticar. Si experimenta náuseas, tomarla con alimentos puede ayudar. Esté atento a señales de alarma como fiebre, dolor de garganta, erupción cutánea nueva, disminución en la cantidad de orina, hinchazón o dificultad para respirar, y repórtelas a su médico de inmediato. No suspenda el tratamiento por su cuenta. Recuerde que es normal que sus heces puedan cambiar de color (a marrón rojizo) con algunas marcas. Asista a todas sus citas de control para revisar sus análisis de sangre y orina, que son cruciales para su seguridad. Lleve un diario de sus síntomas para compartir con su médico.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Diarrea con sangre",
+        "slug": "diarrea-con-sangre"
+      },
+      {
+        "name": "Dolor abdominal tipo cólico",
+        "slug": "dolor-abdominal-tipo-cólico"
+      },
+      {
+        "name": "Urgencia para defecar",
+        "slug": "urgencia-para-defecar"
+      },
+      {
+        "name": "Tenesmo rectal",
+        "slug": "tenesmo-rectal"
+      },
+      {
+        "name": "Flatulencia excesiva",
+        "slug": "flatulencia-excesiva"
+      },
+      {
+        "name": "Pérdida de peso involuntaria",
+        "slug": "perdida-de-peso-involuntaria"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Colitis Ulcerosa",
+        "slug": "colitis-ulcerosa"
+      },
+      {
+        "name": "Enfermedad de Crohn",
+        "slug": "enfermedad-de-crohn"
+      },
+      {
+        "name": "Proctitis Ulcerosa",
+        "slug": "proctitis-ulcerosa"
+      },
+      {
+        "name": "Proctosigmoiditis",
+        "slug": "proctosigmoiditis"
+      },
+      {
+        "name": "Colitis Microscópica",
+        "slug": "colitis-microscopica"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Nefritis Intersticial Aguda",
+        "slug": "nefritis-intersticial-aguda"
+      },
+      {
+        "name": "Pancreatitis Aguda",
+        "slug": "pancreatitis-aguda"
+      },
+      {
+        "name": "Pericarditis",
+        "slug": "pericarditis"
+      },
+      {
+        "name": "Hepatitis Aguda",
+        "slug": "hepatitis-aguda"
+      },
+      {
+        "name": "Neumonitis Eosinofílica",
+        "slug": "neumonitis-eosinofilica"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Proteinuria",
+        "slug": "proteinuria",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Transaminasas (ALT, AST)",
+        "slug": "transaminasas-alt-ast",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Amilasa y Lipasa",
+        "slug": "amilasa-y-lipasa",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Recuento de eosinófilos",
+        "slug": "recuento-de-eosinofilos",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Calprotectina fecal",
+        "slug": "calprotectina-fecal",
+        "effect": "Disminuye (si el tratamiento es efectivo)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Biometría Hemática Completa",
+        "slug": "biometria-hematica-completa",
+        "reason": "Para monitorear posibles efectos en células sanguíneas como anemia o leucopenia."
+      },
+      {
+        "name": "Perfil Renal (Creatinina, TFG, Análisis de Orina)",
+        "slug": "perfil-renal-creatinina-tfg-orina",
+        "reason": "Esencial para detectar precozmente nefrotoxicidad por mesalamina."
+      },
+      {
+        "name": "Perfil Hepático",
+        "slug": "perfil-hepatico",
+        "reason": "Para detectar elevación de enzimas hepáticas como efecto adverso."
+      },
+      {
+        "name": "Calprotectina Fecal",
+        "slug": "calprotectina-fecal",
+        "reason": "Para evaluar objetivamente la respuesta al tratamiento y la actividad de la enfermedad intestinal."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de Aclaramiento de Creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      },
+      {
+        "name": "Calculadora de IMC",
+        "slug": "calculadora-imc"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve la mesalamina?",
+      "a": "La mesalamina sirve para tratar y controlar la inflamación del intestino en enfermedades como la colitis ulcerosa y la enfermedad de Crohn. Reduce síntomas como diarrea con sangre, dolor abdominal y urgencia para ir al baño, y ayuda a prevenir que estos síntomas regresen (mantenimiento de la remisión)."
+    },
+    {
+      "q": "¿La mesalamina es lo mismo que la aspirina?",
+      "a": "No, aunque ambos son derivados del ácido salicílico, son medicamentos diferentes. La aspirina (ácido acetilsalicílico) se usa para dolor, fiebre y como anticoagulante, y se absorbe completamente. La mesalamina (5-ASA) está diseñada para actuar principalmente en el intestino con mínima absorción, y su efecto es antiinflamatorio local para enfermedades intestinales."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto la mesalamina?",
+      "a": "Puede comenzar a notar mejoría en sus síntomas (como menos diarrea y dolor) en 2 a 4 semanas. Sin embargo, para lograr la remisión completa (control total de la inflamación) puede tomar de 4 a 8 semanas de tratamiento constante. La paciencia es clave."
+    },
+    {
+      "q": "¿Puedo tomar mesalamina si estoy embarazada o planeando embarazarme?",
+      "a": "Sí, la mesalamina es generalmente segura y es el tratamiento de elección durante el embarazo para enfermedades inflamatorias intestinales. Es más peligroso tener la enfermedad activa que tomar el medicamento. Siempre consulte con su gastroenterólogo y ginecólogo para ajustar la dosis y monitorearla."
+    },
+    {
+      "q": "¿Qué hago si olvidé tomar una dosis?",
+      "a": "Si se da cuenta pronto, tómela de inmediato. Si ya es casi la hora de su siguiente dosis, omita la que olvidó y continúe con su horario normal. NUNCA duplique la dosis para compensar la olvidada."
+    },
+    {
+      "q": "¿La mesalamina causa diarrea?",
+      "a": "Sí, la diarrea es un efecto secundario común, especialmente al inicio del tratamiento. Esto puede confundirse con un brote de su enfermedad. Si la diarrea es severa o empeora, informe a su médico para que evalúe si es un efecto adverso o si su enfermedad necesita un ajuste de tratamiento."
+    },
+    {
+      "q": "¿Puedo beber alcohol mientras tomo mesalamina?",
+      "a": "No hay una interacción química directa peligrosa. Sin embargo, el alcohol puede irritar el intestino y empeorar los síntomas de su colitis o Crohn. Se recomienda evitar o limitar el consumo de alcohol, especialmente durante brotes de la enfermedad."
+    },
+    {
+      "q": "¿Necesito hacer algún análisis de sangre especial mientras tomo este medicamento?",
+      "a": "Sí, es muy importante. Su médico le pedirá análisis de sangre y orina periódicos para revisar su función renal (creatinina), función hepática y glóbulos sanguíneos. Esto es para detectar y prevenir posibles efectos adversos a tiempo. El monitoreo típico es cada 3-6 meses al inicio y luego cada 6-12 meses."
+    },
+    {
+      "q": "¿Puedo partir o masticar las tabletas de mesalamina?",
+      "a": "NO. Las tabletas y cápsulas están diseñadas con un recubrimiento especial para liberar el medicamento en el intestino, no en el estómago. Masticarlas o partirlas destruye este recubrimiento, puede causar irritación gástrica y el medicamento no llegará a donde debe actuar. Trague siempre la tableta entera."
+    },
+    {
+      "q": "¿La mesalamina es un corticoide?",
+      "a": "No, la mesalamina NO es un corticoide (como la prednisona). Pertenece a la familia de los aminosalicilatos. A diferencia de los corticoides, la mesalamina tiene menos efectos secundarios sistémicos (en todo el cuerpo) y es segura para uso a largo plazo como tratamiento de mantenimiento."
+    },
+    {
+      "q": "¿Qué marcas de mesalamina hay en México y cuál es la mejor?",
+      "a": "En México existen marcas como Asacol, Pentasa, Salofalk, Mesacol y genéricos. La 'mejor' depende de su enfermedad específica, la parte del intestino afectada y su respuesta individual. Su gastroenterólogo elegirá la formulación (tableta, gránulo, enema) que mejor libere el medicamento en la zona inflamada de su intestino."
+    },
+    {
+      "q": "¿Puedo tomar ibuprofeno o naproxeno para el dolor si tomo mesalamina?",
+      "a": "Se debe evitar. Los antiinflamatorios como ibuprofeno, naproxeno o diclofenaco pueden aumentar el riesgo de daño renal cuando se combinan con mesalamina y pueden empeorar la enfermedad intestinal. Para el dolor o fiebre, es más seguro usar paracetamol (acetaminofén), pero siempre consulte a su médico."
+    },
+    {
+      "q": "¿La mesalamina debilita mi sistema inmunológico?",
+      "a": "No de la misma manera que otros medicamentos para estas enfermedades (como azatioprina o biológicos). La mesalamina actúa localmente en el intestino y tiene un efecto antiinflamatorio, no inmunosupresor significativo. Por eso el riesgo de infecciones graves no aumenta de la misma forma."
+    },
+    {
+      "q": "¿Qué pasa si dejo de tomar la mesalamina de repente porque me siento bien?",
+      "a": "Es un ERROR común y peligroso. La mesalamina controla la inflamación, no la cura. Si la suspende, la inflamación puede regresar silenciosamente y provocar un brote severo de la enfermedad, que puede requerir tratamientos más fuertes (como corticoides) o incluso hospitalización. Nunca suspenda el tratamiento sin hablar con su médico."
+    },
+    {
+      "q": "¿Los supositorios o enemas de mesalamina se absorben?",
+      "a": "Se absorben mínimamente (entre 15% y 35% de la dosis). La mayor parte del medicamento actúa localmente en el recto y colon sigmoide. Por eso son muy seguros y efectivos para tratar la proctitis o proctosigmoiditis."
+    },
+    {
+      "q": "¿La mesalamina puede causar problemas en los riñones?",
+      "a": "Sí, aunque es raro (menos del 1% de los casos), puede causar una inflamación del riñón llamada nefritis intersticial. Por eso es FUNDAMENTAL hacerse los análisis de sangre y orina que su médico le pide, para detectar cualquier cambio en la función renal de manera temprana."
+    },
+    {
+      "q": "¿Qué significa 'remisión' en mi enfermedad y qué papel juega la mesalamina?",
+      "a": "Remisión significa que la inflamación en su intestino está controlada y no tiene síntomas. La mesalamina tiene dos roles: 1) Inducir la remisión (lograr que los síntomas desaparezcan) y 2) Mantener la remisión (evitar que los síntomas regresen). La dosis para mantenimiento suele ser más baja que para inducir la remisión."
+    },
+    {
+      "q": "¿Puedo tomar probióticos junto con mi mesalamina?",
+      "a": "Sí, no hay interacción negativa. De hecho, algunos probióticos (como ciertas cepas de Lactobacillus y Bifidobacterium) pueden tener un efecto beneficioso complementario en la salud intestinal. Sin embargo, consúltelo con su médico, ya que no todos los probióticos son iguales."
+    },
+    {
+      "q": "¿Cómo elijo entre la formulación oral y la rectal (enema/supositorio)?",
+      "a": "La elección la hace su médico basándose en la extensión de su enfermedad. Si la inflamación está solo en el recto (proctitis), los supositorios son suficientes. Si llega hasta el colon sigmoide, se usan enemas. Si la enfermedad es más extensa (colitis izquierda o pancolitis), se necesitan formulaciones orales que liberen el medicamento a lo largo de todo el colon. A veces se combinan ambas."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre Pentasa, Asacol y Salofalk? ¿Son intercambiables?",
+      "a": "No son exactamente intercambiables. La diferencia principal está en el sistema de liberación: Pentasa libera mesalamina a lo largo de todo el intestino delgado y colon; Asacol la libera principalmente en el íleon terminal y colon; Salofalk tiene diferentes formulaciones. Su médico elige según la localización de su enfermedad. Cambiar de una a otra sin supervisión médica puede afectar la eficacia del tratamiento."
+    }
+  ]
+}

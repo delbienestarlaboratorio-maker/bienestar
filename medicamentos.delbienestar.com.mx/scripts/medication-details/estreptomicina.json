@@ -1,0 +1,411 @@
+{
+  "name": "Estreptomicina",
+  "summary": "La estreptomicina es un antibiótico potente que pertenece al grupo de los aminoglucósidos. Se utiliza principalmente para tratar infecciones graves causadas por bacterias específicas, siendo un pilar fundamental en el tratamiento de la tuberculosis, especialmente cuando la bacteria es resistente a otros medicamentos más comunes. También se emplea en infecciones como la peste, la tularemia y algunas infecciones del tracto urinario complicadas. Su importancia clínica radica en que es un medicamento de 'segunda línea' o de rescate, lo que significa que se reserva para casos difíciles donde otros antibióticos han fallado, debido a su potencia y al riesgo de efectos secundarios significativos, principalmente en los oídos y los riñones. Por esta razón, su uso requiere supervisión médica estrecha, monitoreo de laboratorio frecuente y generalmente se administra en un entorno hospitalario o bajo control especializado. Es un medicamento que ha salvado muchas vidas desde su descubrimiento, pero que debe manejarse con mucho cuidado para maximizar sus beneficios y minimizar sus riesgos.",
+  "pharmacology": {
+    "mechanismOfAction": "La estreptomicina actúa uniéndose de manera irreversible a una parte específica de la bacteria llamada subunidad 30S del ribosoma bacteriano. Los ribosomas son como las 'fábricas de proteínas' de la célula. Al unirse a ellos, la estreptomicina interfiere con el proceso de lectura del código genético (ARN mensajero), lo que provoca que la bacteria produzca proteínas defectuosas o incompletas. Estas proteínas mal formadas son tóxicas para la bacteria, lo que finalmente detiene su crecimiento (efecto bacteriostático) y, en concentraciones más altas, causa su muerte (efecto bactericida). Es especialmente activa contra bacterias que se multiplican rápidamente y que requieren un ambiente con oxígeno (bacterias aerobias). Su mecanismo preciso altera la iniciación de la síntesis de proteínas y promueve errores en la lectura del código genético.",
+    "pharmacologicClass": "Antibiótico aminoglucósido",
+    "therapeuticClass": "Antibiótico bactericida",
+    "absorption": "La estreptomicina se absorbe muy mal por vía oral (menos del 1%). Por esta razón, para lograr niveles terapéuticos en la sangre y los tejidos, debe administrarse por vía intramuscular (inyección en el músculo) o intravenosa (en la vena). La administración intramuscular es la más común. Después de una inyección intramuscular, los niveles máximos en sangre se alcanzan en aproximadamente 1 a 2 horas.",
+    "distribution": "Se distribuye ampliamente en los líquidos extracelulares del cuerpo, pero penetra pobremente en el líquido cefalorraquídeo (el líquido que rodea el cerebro y la médula espinal), a menos que las meninges (las membranas que los cubren) estén inflamadas. Atraviesa la placenta y puede encontrarse en el líquido amniótico. Su unión a proteínas plasmáticas es baja, generalmente menor al 10%. Su volumen de distribución (Vd) es similar al del agua extracelular, aproximadamente 0.26 L/kg.",
+    "metabolism": "La estreptomicina no sufre un metabolismo hepático significativo. No es sustrato de las enzimas del citocromo P450 (CYP). Se elimina principalmente sin cambios por el riñón.",
+    "elimination": "Se elimina casi completamente por filtración glomerular en los riñones, sin reabsorción tubular significativa. Su vida media en adultos con función renal normal es de aproximadamente 2 a 3 horas. En pacientes con insuficiencia renal, esta vida media se prolonga considerablemente (puede superar las 100 horas), lo que aumenta enormemente el riesgo de toxicidad. Menos del 1% se elimina por otras vías.",
+    "onsetOfAction": "El inicio de su acción antibacteriana es rápido. Los niveles en sangre comienzan a elevarse minutos después de la administración intramuscular o intravenosa, y su efecto bactericida comienza una vez que alcanza concentraciones suficientes en el sitio de la infección.",
+    "durationOfAction": "La duración del efecto depende de la concentración alcanzada y de la sensibilidad de la bacteria. Por su mecanismo de acción concentración-dependiente, se suelen administrar dosis altas una vez al día (o ajustadas) para maximizar el efecto y aprovechar un efecto post-antibiótico (donde sigue inhibiendo el crecimiento bacteriano incluso después de que sus niveles en sangre disminuyan)."
+  },
+  "indications": {
+    "approved": [
+      "Tuberculosis activa (en combinación con otros antituberculosos, especialmente en casos de resistencia a isoniazida o rifampicina)",
+      "Peste (Yersinia pestis)",
+      "Tularemia (Francisella tularensis)",
+      "Endocarditis infecciosa por Enterococcus faecalis (en combinación con un betalactámico, en cepas sensibles)",
+      "Brucelosis (en combinación con tetraciclina o doxiciclina)",
+      "Infecciones graves por Mycobacterium avium complex (MAC)"
+    ],
+    "offLabel": [
+      "Tratamiento de segunda línea para infecciones urinarias complicadas por bacterias gramnegativas multirresistentes",
+      "Profilaxis de la endocarditis bacteriana en pacientes de alto riesgo sometidos a procedimientos dentales o quirúrgicos (uso muy raro y en alérgicos a penicilina)",
+      "Como parte de regímenes experimentales para infecciones por Nocardia"
+    ]
+  },
+  "dosage": {
+    "adults": "VARÍA SEGÚN LA INDICACIÓN. Tuberculosis: 15 mg/kg por día (máximo 1 g/día) por vía intramuscular, 5 a 7 días por semana, como parte de un régimen combinado. Otras infecciones: 1 a 2 g/día divididos en 1 o 2 dosis intramusculares o intravenosas. La dosis debe ser calculada y ajustada por el médico basándose en el peso y la función renal.",
+    "pediatric": "Tuberculosis: 20 a 40 mg/kg/día (máximo 1 g/día) por vía intramuscular. Otras infecciones: 20 a 30 mg/kg/día divididos en 1 o 2 dosis. La dosis debe ser calculada con precisión por peso y supervisada de cerca.",
+    "elderly": "Requiere ajuste obligatorio debido a la disminución de la función renal relacionada con la edad. La dosis inicial suele ser menor y los intervalos entre dosis pueden ser más largos. Es esencial calcular la tasa de filtración glomerular (TFG) antes de iniciar el tratamiento.",
+    "renalImpairment": "EL AJUSTE ES CRÍTICO. La dosis o el intervalo entre dosis deben modificarse según la TFG (tasa de filtración glomerular). Ejemplo: Para TFG 50-80 mL/min: dosis normal cada 24h. TFG 10-50 mL/min: dosis normal cada 24-72h. TFG <10 mL/min: dosis normal cada 72-96h. Se requiere MONITOREO SERIADO de niveles en sangre (concentración pico y valle) para guiar la dosificación.",
+    "hepaticImpairment": "Generalmente no se requiere ajuste de dosis, ya que la estreptomicina no se metaboliza en el hígado. Sin embargo, en casos de insuficiencia hepática grave, se debe evaluar el estado general del paciente.",
+    "maxDose": "La dosis máxima diaria en adultos no debe exceder los 2 gramos, y en la práctica moderna rara vez se supera 1 gramo al día debido al riesgo de toxicidad. En niños, el máximo es de 1 g/día."
+  },
+  "dosageForms": [
+    {
+      "form": "Polvo liofilizado para inyección",
+      "strengths": [
+        "1 g"
+      ],
+      "route": "Intramuscular, Intravenosa"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la estreptomicina o a otros aminoglucósidos",
+      "Miastenia gravis (puede agravar la debilidad muscular)",
+      "Bloqueo neuromuscular (por ejemplo, después de cirugía con relajantes musculares)"
+    ],
+    "relative": [
+      "Insuficiencia renal preexistente (requiere ajuste estricto y monitoreo)",
+      "Trastornos auditivos preexistentes (pérdida de audición, tinnitus, vértigo)",
+      "Enfermedad de Parkinson (puede empeorar los síntomas)",
+      "Embarazo (riesgo de ototoxicidad fetal)",
+      "Pacientes de edad avanzada (riesgo aumentado de toxicidad)"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Dolor en el sitio de la inyección",
+      "Náuseas"
+    ],
+    "common": [
+      "Vértigo (mareo con sensación de giro)",
+      "Tinnitus (zumbido en los oídos)",
+      "Ataxia (pérdida de coordinación)",
+      "Pérdida de audición (especialmente para sonidos agudos)",
+      "Erupción cutánea",
+      "Fiebre"
+    ],
+    "uncommon": [
+      "Neuropatía periférica (hormigueo, entumecimiento en manos/pies)",
+      "Visión borrosa",
+      "Confusión",
+      "Proteinuria (proteínas en la orina, señal de daño renal temprano)",
+      "Elevación de creatinina sérica (indicador de función renal)"
+    ],
+    "rare": [
+      "Nefrotoxicidad grave (daño renal agudo)",
+      "Ototoxicidad irreversible y profunda (sordera)",
+      "Bloqueo neuromuscular (dificultad para respirar, parálisis muscular)",
+      "Anemia aplásica (disminución grave de todas las células sanguíneas)",
+      "Síndrome de Stevens-Johnson (reacción cutánea grave)"
+    ],
+    "blackBoxWarning": "Advertencia de caja negra FDA: La estreptomicina puede causar toxicidad grave en los nervios auditivos y vestibulares (del equilibrio), resultando en vértigo, pérdida del equilibrio y sordera permanente. También puede causar toxicidad renal. El riesgo es mayor en pacientes con función renal alterada, en aquellos que reciben dosis altas o terapia prolongada, y en ancianos. Se requiere monitoreo de la función auditiva y renal."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Otros aminoglucósidos (gentamicina, amikacina)",
+        "effect": "Aumento ADITIVO del riesgo de ototoxicidad y nefrotoxicidad. Evitar la combinación.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Diuréticos de asa (furosemida, bumetanida)",
+        "effect": "Aumentan el riesgo de ototoxicidad (daño auditivo) cuando se administran concomitantemente.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Relajantes musculares (succinilcolina, tubocurarina)",
+        "effect": "La estreptomicina puede potenciar el bloqueo neuromuscular, causando parálisis muscular prolongada y dificultad respiratoria.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Vancomicina",
+        "effect": "Aumento del riesgo de nefrotoxicidad y ototoxicidad.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Polimixinas (colistina)",
+        "effect": "Aumento del riesgo de nefrotoxicidad y bloqueo neuromuscular.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Cisplatino",
+        "effect": "Aumento del riesgo de ototoxicidad.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "No hay interacciones significativas con alimentos. Sin embargo, es importante mantenerse bien hidratado para ayudar a la función renal. Se debe evitar el consumo de alcohol, ya que puede aumentar el riesgo de efectos secundarios como mareo y puede afectar negativamente al hígado y riñones.",
+    "withSupplements": "Evitar suplementos que contengan magnesio en altas dosis (como algunos antiácidos o laxantes) por vía intravenosa, ya que pueden potenciar el bloqueo neuromuscular. Los suplementos de calcio por vía intravenosa pueden antagonizar este bloqueo. Consultar siempre con el médico antes de tomar cualquier suplemento durante el tratamiento."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA D",
+      "recommendation": "La estreptomicina CRUZA LA PLACENTA y puede causar ototoxicidad (daño auditivo) en el feto, potencialmente resultando en sordera congénita. Su uso durante el embarazo, especialmente en el primer trimestre, debe evitarse a menos que sea absolutamente necesario para salvar la vida de la madre y no existan alternativas más seguras. Si se usa, se requiere asesoramiento exhaustivo y monitoreo fetal.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La estreptomicina se excreta en la leche materna en cantidades bajas. Debido al potencial de efectos adversos graves (alteración de la flora intestinal del lactante y riesgo teórico de ototoxicidad), generalmente se recomienda evitar la lactancia materna durante el tratamiento. Se debe consultar con el médico para evaluar riesgos y beneficios.",
+    "pediatric": "Se puede usar en niños para indicaciones específicas como la tuberculosis. Sin embargo, los niños también son susceptibles a la ototoxicidad y nefrotoxicidad. La dosificación debe ser calculada meticulosamente por peso corporal. Se requiere monitoreo auditivo y renal aún más estrecho. No se recomienda en recién nacidos prematuros o de bajo peso por inmadurez renal.",
+    "geriatric": "Los pacientes mayores de 65 años tienen un riesgo MUY AUMENTADO de toxicidad debido a la disminución de la función renal relacionada con la edad y a la posible pérdida auditiva previa. Se deben usar dosis más bajas, intervalos más largos entre dosis y es IMPRESCINDIBLE el monitoreo de niveles séricos y de la función auditiva. Se prefiere la hospitalización para el inicio del tratamiento."
+  },
+  "administration": {
+    "howToTake": "La estreptomicina se administra casi exclusivamente por INYECCIÓN INTRAMUSCULAR PROFUNDA (en un músculo grande como el glúteo o el muslo) o por INFUSIÓN INTRAVENOSA LENTA (diluida en solución salina o glucosada, durante 30-60 minutos). NUNCA se toma por boca. Las inyecciones son generalmente administradas por personal de salud. El sitio de inyección debe rotarse para evitar dolor y lesiones. Es crucial completar TODO el tratamiento prescrito, incluso si el paciente se siente mejor, para evitar que la infección regrese y que las bacterias desarrollen resistencia.",
+    "storage": "El polvo liofilizado para inyección debe almacenarse a temperatura ambiente (15-30°C), protegido de la luz y la humedad. Una vez reconstituido con el diluyente estéril (agua para inyección o solución salina), la solución es estable a temperatura ambiente por 24-48 horas (consultar el instructivo del laboratorio) y por más tiempo si se refrigera (2-8°C). No congelar. Desechar cualquier solución que esté turbia o contenga partículas.",
+    "specialInstructions": "Este medicamento requiere MONITOREO MÉDICO ESTRECHO. El paciente debe informar INMEDIATAMENTE si presenta zumbido en los oídos, mareo, sensación de que todo da vueltas (vértigo), pérdida de audición (especialmente para sonidos agudos como el timbre del teléfono), dificultad para orinar, disminución en la cantidad de orina, o sed intensa. Mantener una buena hidratación bebiendo agua ayuda a proteger los riñones."
+  },
+  "monitoring": {
+    "labTests": [
+      "Creatinina sérica y Nitrógeno Ureico en Sangre (BUN) - para función renal",
+      "Electrolitos séricos (potasio, magnesio, calcio)",
+      "Niveles séricos de estreptomicina (concentración pico y valle) - CRÍTICO para ajustar dosis",
+      "Audiometría (prueba de audición) basal y periódica",
+      "Pruebas vestibulares (para evaluar el equilibrio) si hay síntomas",
+      "Análisis de orina (para detectar proteinuria)",
+      "Hemograma completo (para detectar alteraciones en células sanguíneas)"
+    ],
+    "frequency": "Función renal (creatinina): al inicio, luego 2-3 veces por semana durante tratamiento. Niveles séricos del medicamento: al menos semanalmente al inicio, luego según estabilidad. Audiometría: al inicio del tratamiento, luego cada 1-3 meses durante terapia prolongada, e inmediatamente si hay síntomas. Análisis de orina: semanal.",
+    "signsToWatch": [
+      "Aparición o empeoramiento de zumbido en los oídos (tinnitus)",
+      "Pérdida de la audición, especialmente para sonidos agudos",
+      "Vértigo, mareo, sensación de giro, pérdida del equilibrio",
+      "Disminución en la cantidad de orina producida",
+      "Sed excesiva",
+      "Hinchazón en pies, tobillos o cara",
+      "Dificultad para respirar o debilidad muscular extrema",
+      "Visión borrosa o visión doble"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Pérdida auditiva severa y repentina",
+      "Vértigo incapacitante",
+      "Náuseas y vómitos intensos",
+      "Dificultad para respirar (por bloqueo neuromuscular)",
+      "Debilidad o parálisis muscular",
+      "Insuficiencia renal aguda (poca o ninguna orina)"
+    ],
+    "treatment": "NO EXISTE ANTÍDOTO ESPECÍFICO. El tratamiento es de soporte y sintomático. Se debe suspender el medicamento inmediatamente. En caso de bloqueo neuromuscular con dificultad respiratoria, puede requerirse ventilación mecánica y administración de gluconato de calcio o neostigmina. La hemodiálisis puede ser efectiva para eliminar la estreptomicina de la sangre, especialmente en pacientes con insuficiencia renal. La hidratación intravenosa forzada puede ayudar a la excreción renal.",
+    "antidote": "null"
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (de alta vigilancia)",
+    "scheduleMexico": "Medicamento de la Fracción III (sustancias que requieren receta médica y tienen alto potencial de toxicidad o dependencia). Su dispensación está estrictamente controlada.",
+    "fdaApprovalYear": "Aprobado por la FDA en la década de 1940 (1946 aproximadamente)"
+  },
+  "brandsMexico": [
+    "Streptomicina Sulfato (genérico de varios laboratorios)",
+    "Estreptocil",
+    "Estreptomicina L.CH.",
+    "Estreptomicina Pisa"
+  ],
+  "clinicalPearls": [
+    "La estreptomicina es el prototipo de los antibióticos aminoglucósidos y fue el primer fármaco efectivo contra la tuberculosis, lo que le valió un Premio Nobel a su descubridor, Selman Waksman.",
+    "Su uso moderno está casi restringido al tratamiento de la tuberculosis multirresistente (MDR-TB) y a infecciones por bacterias raras como la peste y la tularemia, debido a su perfil de toxicidad.",
+    "La ototoxicidad (daño al oído) puede ser irreversible y a veces se manifiesta semanas después de haber suspendido el tratamiento. El monitoreo auditivo es no negociable.",
+    "La administración de dosis única diaria (en lugar de divididas) puede ser igual de efectiva y potencialmente menos tóxica para el riñón, aprovechando su efecto post-antibiótico.",
+    "En la tuberculosis, NUNCA se usa en monoterapia, ya que rápidamente genera resistencia bacteriana. Siempre forma parte de un 'esquema' con al menos otros tres medicamentos."
+  ],
+  "patientCounseling": "Escuche con atención: la estreptomicina es un medicamento muy fuerte que se usa para infecciones graves. Se aplica como inyección, no en pastillas. Es VITAL que asista a todas sus citas para que le pongan la inyección y le hagan los análisis de sangre y de audición que el médico ordene. Estos análisis monitorean que el medicamento no le esté dañando los riñones o los oídos. Si empieza a escuchar un zumbido, se marea como si todo diera vueltas, o siente que oye menos, AVISE A SU MÉDICO DE INMEDIATO, NO ESPERE. Beba suficiente agua todos los días. Nunca se automedique ni suspenda el tratamiento aunque se sienta mejor; completar el tiempo recetado es crucial para curarse por completo y evitar que la bacteria se haga resistente. Informe a todos sus médicos que está recibiendo este tratamiento.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre",
+        "slug": "fiebre"
+      },
+      {
+        "name": "Tos persistente",
+        "slug": "tos-persistente"
+      },
+      {
+        "name": "Sudoración nocturna",
+        "slug": "sudoracion-nocturna"
+      },
+      {
+        "name": "Pérdida de peso",
+        "slug": "perdida-de-peso"
+      },
+      {
+        "name": "Escalofríos",
+        "slug": "escalofrios"
+      },
+      {
+        "name": "Dolor al orinar",
+        "slug": "dolor-al-orinar"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Tuberculosis",
+        "slug": "tuberculosis"
+      },
+      {
+        "name": "Tuberculosis multirresistente",
+        "slug": "tuberculosis-multirresistente"
+      },
+      {
+        "name": "Peste",
+        "slug": "peste"
+      },
+      {
+        "name": "Tularemia",
+        "slug": "tularemia"
+      },
+      {
+        "name": "Endocarditis infecciosa",
+        "slug": "endocarditis-infecciosa"
+      },
+      {
+        "name": "Brucelosis",
+        "slug": "brucelosis"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Hipoacusia neurosensorial",
+        "slug": "hipoacusia-neurosensorial"
+      },
+      {
+        "name": "Insuficiencia renal aguda",
+        "slug": "insuficiencia-renal-aguda"
+      },
+      {
+        "name": "Vértigo",
+        "slug": "vertigo"
+      },
+      {
+        "name": "Neuropatía periférica",
+        "slug": "neuropatia-periferica"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Nitrógeno Ureico (BUN)",
+        "slug": "nitrogeno-ureico-bun",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Proteínas en orina",
+        "slug": "proteinas-en-orina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Magnesio sérico",
+        "slug": "magnesio-serico",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Potasio sérico",
+        "slug": "potasio-serico",
+        "effect": "Puede disminuir"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "reason": "Para evaluar la función renal antes y durante el tratamiento"
+      },
+      {
+        "name": "Audiometría",
+        "slug": "audiometria",
+        "reason": "Para detectar pérdida de audición temprana causada por el medicamento"
+      },
+      {
+        "name": "Niveles séricos de estreptomicina",
+        "slug": "niveles-sericos-de-estreptomicina",
+        "reason": "Para ajustar la dosis y minimizar toxicidad"
+      },
+      {
+        "name": "Análisis general de orina",
+        "slug": "analisis-general-de-orina",
+        "reason": "Para detectar proteinuria como signo de daño renal"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La estreptomicina es una pastilla o una inyección?",
+      "a": "La estreptomicina se administra casi exclusivamente como INYECCIÓN, ya sea en el músculo (intramuscular) o directamente en la vena (intravenosa). No existe en forma de pastillas porque no se absorbe por el estómago."
+    },
+    {
+      "q": "¿Para qué enfermedades se usa la estreptomicina?",
+      "a": "Se usa principalmente para tratar la TUBERCULOSIS, especialmente cuando otros medicamentos no funcionan (tuberculosis resistente). También para infecciones raras pero graves como la PESTE, la TULAREMIA y algunas infecciones del corazón (endocarditis)."
+    },
+    {
+      "q": "¿Cuáles son los efectos secundarios más comunes?",
+      "a": "Los más comunes son dolor donde se pone la inyección, mareo con sensación de que todo da vueltas (vértigo), zumbido en los oídos y, con el tiempo, puede causar pérdida de la audición. También puede afectar los riñones."
+    },
+    {
+      "q": "¿La estreptomicina puede dejar sordo?",
+      "a": "SÍ. La pérdida de audición (especialmente para sonidos agudos) es un efecto secundario GRAVE y a veces IRREVERSIBLE de la estreptomicina. Por eso es fundamental hacerse pruebas de audición antes y durante el tratamiento."
+    },
+    {
+      "q": "¿Por qué me piden tantos análisis de sangre con este medicamento?",
+      "a": "Porque la estreptomicina puede dañar los riñones y los oídos. Los análisis de sangre (como la creatinina) revisan que sus riñones estén funcionando bien, y otros análisis miden la cantidad exacta de medicamento en su sangre para darle la dosis más segura y efectiva."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si me están inyectando estreptomicina?",
+      "a": "NO se recomienda. El alcohol puede empeorar los mareos y el vértigo, y también puede afectar al hígado y los riñones, órganos que ya están bajo estrés por el medicamento."
+    },
+    {
+      "q": "¿Cuánto tiempo dura el tratamiento con estreptomicina?",
+      "a": "Depende de la enfermedad. Para la tuberculosis, el tratamiento puede durar varios meses (a menudo de 6 a 12 meses o más). Es CRUCIAL completar TODO el tiempo que el médico indique, aunque se sienta mejor."
+    },
+    {
+      "q": "¿La estreptomicina duele al aplicarla?",
+      "a": "Sí, la inyección intramuscular puede ser dolorosa. El dolor en el sitio de la inyección es un efecto muy común. Para reducirlo, se aplica en músculos grandes (como el glúteo) y se rotan los sitios de aplicación."
+    },
+    {
+      "q": "¿Puedo usar estreptomicina si estoy embarazada?",
+      "a": "Generalmente NO. La estreptomicina puede pasar al bebé y causarle daño en los oídos, potencialmente sordera. Solo se usa en embarazadas en situaciones de vida o muerte donde no hay otra opción. Hable con su médico."
+    },
+    {
+      "q": "¿Qué hago si olvidé una dosis de mi inyección?",
+      "a": "Contacte inmediatamente a su médico o clínica para reprogramar la aplicación. NO intente ponerse una doble dosis después. La puntualidad en el tratamiento es muy importante para su eficacia."
+    },
+    {
+      "q": "¿La estreptomicina interactúa con otros medicamentos?",
+      "a": "SÍ, y de manera peligrosa. Interactúa gravemente con otros antibióticos similares, diuréticos como la furosemida (Lasix), y algunos relajantes musculares. INFORME a todos sus médicos sobre TODOS los medicamentos que toma."
+    },
+    {
+      "q": "¿Puedo amamantar si me están tratando con estreptomicina?",
+      "a": "No es recomendable. El medicamento pasa a la leche materna y podría afectar al bebé. Se debe suspender la lactancia durante el tratamiento. Consulte con su médico las alternativas de alimentación para su bebé."
+    },
+    {
+      "q": "¿Por qué a veces miden el nivel del medicamento en mi sangre?",
+      "a": "Para asegurar que la dosis sea la correcta: ni muy baja (para que cure) ni muy alta (para que no cause toxicidad). Se miden los niveles 'pico' (máximo) y 'valle' (mínimo) para ajustar la dosis o el intervalo entre inyecciones."
+    },
+    {
+      "q": "¿La estreptomicina se usa para infecciones comunes como la gripe o el dolor de garganta?",
+      "a": "ABSOLUTAMENTE NO. La estreptomicina no sirve para infecciones virales como la gripe, ni para infecciones bacterianas comunes. Es un antibiótico de 'reserva' para infecciones graves y específicas. Su uso incorrecto es peligroso."
+    },
+    {
+      "q": "¿Qué significa que la estreptomicina es 'ototóxica' y 'nefrotóxica'?",
+      "a": "Son términos médicos. 'Ototóxica' significa que puede dañar las estructuras del oído interno, causando mareo y sordera. 'Nefrotóxica' significa que puede dañar los riñones, afectando su capacidad para filtrar la sangre."
+    },
+    {
+      "q": "¿Los ancianos pueden usar estreptomicina?",
+      "a": "Sí, pero con EXTREMA PRECAUCIÓN. Las personas mayores tienen mayor riesgo de toxicidad porque sus riñones funcionan menos. Requieren dosis más bajas, monitoreo más frecuente y a menudo se inicia el tratamiento en el hospital."
+    },
+    {
+      "q": "¿Existe un antídoto si hay una sobredosis de estreptomicina?",
+      "a": "No existe un antídoto específico. El tratamiento es de soporte: suspender el medicamento, dar líquidos por vena y, en casos graves, usar diálisis (hemodiálisis) para limpiar el medicamento de la sangre."
+    },
+    {
+      "q": "¿La estreptomicina puede causar alergia?",
+      "a": "Sí, como cualquier medicamento. Las reacciones alérgicas pueden ir desde una simple roncha o erupción en la piel hasta una reacción grave (anafilaxia) con dificultad para respirar. Informe cualquier síntoma nuevo después de la inyección."
+    },
+    {
+      "q": "¿Por qué es tan importante beber agua durante el tratamiento?",
+      "a": "Mantenerse bien hidratado ayuda a que los riñones funcionen mejor y eliminen el medicamento de manera más eficiente, lo que puede reducir el riesgo de que se acumule y cause daño renal."
+    },
+    {
+      "q": "¿En qué se diferencia la estreptomicina de otros antibióticos para tuberculosis como la isoniazida?",
+      "a": "La isoniazida es un medicamento de 'primera línea', más seguro y usado primero. La estreptomicina es de 'segunda línea', más tóxico y se reserva para cuando la bacteria de la tuberculosis es resistente a los de primera línea o en casos especiales. Actúan en diferentes partes de la bacteria."
+    }
+  ]
+}

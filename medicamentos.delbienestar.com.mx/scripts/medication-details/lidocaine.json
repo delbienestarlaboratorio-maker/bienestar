@@ -1,0 +1,439 @@
+{
+  "name": "Lidocaína",
+  "summary": "La lidocaína es un medicamento anestésico local y antiarrítmico de clase IB, ampliamente utilizado en México y el mundo. Su función principal es bloquear temporalmente las señales de dolor en los nervios, lo que permite realizar procedimientos médicos y quirúrgicos menores sin dolor para el paciente. Se emplea comúnmente en odontología, para suturar heridas, en procedimientos dermatológicos como la eliminación de verrugas o lunares, y en ciertas cirugías. También tiene un uso importante en cardiología para tratar arritmias ventriculares graves. Su importancia clínica radica en su rápido inicio de acción, duración moderada y perfil de seguridad relativamente bueno cuando se usa correctamente, lo que lo convierte en un pilar de la práctica médica y dental. Es crucial que sea administrado por profesionales de la salud capacitados, ya que una dosis excesiva o una inyección accidental en un vaso sanguíneo puede causar efectos secundarios graves, incluyendo toxicidad en el sistema nervioso central y el corazón.",
+  "pharmacology": {
+    "mechanismOfAction": "La lidocaína actúa bloqueando de manera reversible los canales de sodio dependientes de voltaje en las membranas de las neuronas. Al unirse a la parte interna de estos canales cuando están en estado inactivado, impide la entrada masiva de iones sodio (Na+) necesaria para generar y propagar el potencial de acción. Esto estabiliza la membrana neuronal, elevando el umbral de excitación e interrumpiendo la conducción del impulso nervioso, especialmente en fibras de pequeño diámetro responsables de transmitir el dolor (fibras C y A-delta). A nivel cardíaco, suprime la automaticidad en las células del sistema de conducción, acortando el potencial de acción y el período refractario efectivo en los ventrículos, lo que ayuda a controlar arritmias.",
+    "pharmacologicClass": "Anestésico local del tipo amida. Antiarrítmico de clase IB (Vaughan Williams).",
+    "therapeuticClass": "Anestésico local. Antiarrítmico.",
+    "absorption": "La absorción depende de la vía de administración y la vascularización del sitio. Por vía tópica en mucosas (oral, faríngea) es buena. Por inyección (infiltración, bloqueo nervioso, epidural), la absorción es rápida y sistémica, influenciada por la dosis, el sitio de inyección (más rápida en áreas muy vascularizadas como la cabeza) y la adición de vasoconstrictores como la epinefrina, que reducen la absorción y prolongan la acción local.",
+    "distribution": "Se distribuye ampliamente en todos los tejidos. Tiene un volumen de distribución (Vd) de aproximadamente 1.1 L/kg. Se une moderadamente a proteínas plasmáticas, principalmente a la alfa-1 glicoproteína ácida (AAG). La unión a proteínas es saturable y puede disminuir en ciertas condiciones (ej. infarto agudo de miocardio, cirugía) que aumentan la AAG, alterando la fracción libre activa del fármaco.",
+    "metabolism": "La lidocaína sufre un metabolismo hepático extenso de primer paso cuando se administra por vía oral. Es metabolizada principalmente por la isoenzima CYP3A4 del citocromo P450 a metabolitos activos como la monoetilglicinaxilidida (MEGX) y la glicinaxilidida (GX), y posteriormente a compuestos inactivos. La actividad de CYP3A4 es crucial para su eliminación.",
+    "elimination": "La vida media de eliminación es de aproximadamente 1.5 a 2 horas en adultos con función hepática normal. Se elimina principalmente por vía renal, pero menos del 10% se excreta sin cambios en la orina. La mayor parte se excreta como metabolitos. La vida media puede prolongarse significativamente en pacientes con insuficiencia hepática, insuficiencia cardíaca o en adultos mayores.",
+    "onsetOfAction": "Muy rápido. Por inyección: 1 a 3 minutos. Tópica en mucosas: 2 a 5 minutos. En parches transdérmicos: 30 a 60 minutos.",
+    "durationOfAction": "Variable. Sin vasoconstrictor: 30 a 90 minutos. Con epinefrina (vasoconstrictor): 60 a 180 minutos o más. Parches transdérmicos: hasta 12 horas de efecto analgésico tras su retiro."
+  },
+  "indications": {
+    "approved": [
+      "Anestesia local por infiltración para procedimientos quirúrgicos menores, suturas y odontología.",
+      "Anestesia regional por bloqueo de nervios periféricos, plexos y epidural.",
+      "Anestesia tópica de membranas mucosas (boca, faringe, laringe, tracto respiratorio superior, tracto urinario).",
+      "Tratamiento de arritmias ventriculares (extrasístoles, taquicardia ventricular, fibrilación ventricular) especialmente en el contexto de infarto agudo de miocardio.",
+      "Alivio tópico del dolor neuropático localizado (ej. neuralgia postherpética) en formulaciones de parche."
+    ],
+    "offLabel": [
+      "Tratamiento tópico para el prurito (comezón).",
+      "Componente en mezclas para sedación consciente en procedimientos endoscópicos.",
+      "Inyección intraarticular para analgesia en artroscopias.",
+      "Tratamiento del dolor crónico neuropático en formulaciones tópicas (cremas, parches).",
+      "Prevención del dolor asociado a la punción lumbar."
+    ]
+  },
+  "dosage": {
+    "adults": "VARÍA ENORMEMENTE SEGÚN LA INDICACIÓN Y VÍA. Anestesia local: Dosis máxima de 4.5 mg/kg (sin epinefrina) o 7 mg/kg (con epinefrina 1:200,000). Ejemplo: Adulto de 70 kg, máximo ~300 mg sin vasoconstrictor. Antiarrítmico: Bolo IV de 1-1.5 mg/kg (usualmente 50-100 mg), seguido de infusión de 1-4 mg/min. Tópico: Aplicar la cantidad mínima necesaria para cubrir el área.",
+    "pediatric": "DOSAR CON EXTREMO CUIDADO. Dosis máxima basada en peso: 4.5 mg/kg sin vasoconstrictor. En odontología pediátrica, se usan cálculos precisos por peso. Para procedimientos, la dosis se ajusta meticulosamente al tamaño del niño y al área a anestesiar.",
+    "elderly": "Reducir dosis en un 20-50%. Los adultos mayores tienen menor masa muscular, función hepática y renal disminuida, y mayor sensibilidad a los efectos adversos del SNC. Usar la dosis efectiva mínima.",
+    "renalImpairment": "No se requiere ajuste mayor para la lidocaína misma, ya que se metaboliza en hígado. Sin embargo, los metabolitos activos (MEGX, GX) se acumulan en insuficiencia renal grave (TFG <30 mL/min), pudiendo contribuir a toxicidad. Monitorizar estrechamente.",
+    "hepaticImpairment": "AJUSTE OBLIGATORIO. Reducir dosis en un 50% o más en cirrosis, hepatitis grave o insuficiencia hepática. La vida media se prolonga significativamente. Evitar infusiones continuas o usar con monitorización de niveles plasmáticos si es posible.",
+    "maxDose": "Adultos: 4.5 mg/kg (sin vasoconstrictor) o 7 mg/kg (con epinefrina 1:200,000). En términos absolutos, no exceder 300 mg en una sola sesión sin vasoconstrictor. Para uso tópico en mucosas extensas (ej. faringe), la dosis máxima es menor (~3 mg/kg) debido a la rápida absorción."
+  },
+  "dosageForms": [
+    {
+      "form": "Solución inyectable",
+      "strengths": [
+        "0.5%",
+        "1%",
+        "2%"
+      ],
+      "route": "Infiltrativa, intravenosa, epidural, bloqueo nervioso"
+    },
+    {
+      "form": "Gel tópico",
+      "strengths": [
+        "2%",
+        "5%"
+      ],
+      "route": "Tópica (mucosas, piel)"
+    },
+    {
+      "form": "Crema tópica",
+      "strengths": [
+        "5%"
+      ],
+      "route": "Tópica (piel)"
+    },
+    {
+      "form": "Spray tópico",
+      "strengths": [
+        "10%"
+      ],
+      "route": "Tópica (mucosas)"
+    },
+    {
+      "form": "Parche transdérmico",
+      "strengths": [
+        "5%",
+        "700 mg/parche"
+      ],
+      "route": "Tópica (piel intacta)"
+    },
+    {
+      "form": "Ungüento oftálmico",
+      "strengths": [
+        "3.5%"
+      ],
+      "route": "Tópica (ocular)"
+    },
+    {
+      "form": "Jarabe",
+      "strengths": [
+        "2%"
+      ],
+      "route": "Oral (anestesia de mucosa oral/faríngea)"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la lidocaína o a otros anestésicos locales del tipo amida (ej. bupivacaína, mepivacaína).",
+      "Síndrome de Adams-Stokes (bloqueo AV completo sin marcapasos).",
+      "Bloqueo sinoauricular severo.",
+      "Shock cardiogénico.",
+      "Porfiria aguda intermitente (controversial, pero generalmente se evita).",
+      "Inyección intravenosa directa de soluciones con vasoconstrictor (epinefrina) en áreas con circulación terminal (dedos, nariz, pene, orejas)."
+    ],
+    "relative": [
+      "Insuficiencia hepática severa.",
+      "Insuficiencia cardíaca congestiva severa (reduce el aclaramiento hepático).",
+      "Miastenia gravis (puede potenciar la debilidad muscular).",
+      "Epilepsia no controlada (riesgo de convulsiones).",
+      "Tratamiento concomitante con otros antiarrítmicos de clase I.",
+      "Metemoglobinemia previa inducida por fármacos."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Hormigueo o entumecimiento en el sitio de aplicación.",
+      "Sensación de calor o frío transitoria."
+    ],
+    "common": [
+      "Mareo, aturdimiento.",
+      "Somnolencia.",
+      "Náuseas.",
+      "Visión borrosa o doble.",
+      "Tinnitus (zumbido en los oídos).",
+      "Temblor muscular leve."
+    ],
+    "uncommon": [
+      "Bradicardia (frecuencia cardíaca lenta).",
+      "Hipotensión (presión baja).",
+      "Erupción cutánea o urticaria en el sitio.",
+      "Ansiedad, nerviosismo.",
+      "Sabor metálico en la boca (con uso tópico oral)."
+    ],
+    "rare": [
+      "Reacción alérgica severa (anafilaxia).",
+      "Convulsiones.",
+      "Paro cardiorrespiratorio por toxicidad sistémica.",
+      "Metemoglobinemia (incapacidad de la sangre para transportar oxígeno, más común con benzocaína pero posible con lidocaína).",
+      "Daño neurológico permanente por inyección intraneural accidental."
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Beta-bloqueadores (propranolol, metoprolol)",
+        "effect": "Disminuyen el aclaramiento hepático de la lidocaína, aumentando el riesgo de toxicidad (convulsiones, bradicardia).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Cimetidina",
+        "effect": "Inhibe el CYP3A4, reduciendo el metabolismo de la lidocaína y duplicando sus niveles plasmáticos. Riesgo alto de toxicidad.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Antiarrítmicos de clase I (procainamida, mexiletina, flecainida)",
+        "effect": "Efectos aditivos y sinérgicos sobre la conducción cardíaca, aumentando el riesgo de arritmias proarrítmicas y toxicidad cardíaca.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores de la bomba de protones (omeprazol)",
+        "effect": "Pueden inhibir CYP2C9 y CYP3A4, aumentando modestamente los niveles de lidocaína.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "No hay interacciones significativas con alimentos. El alcohol puede potenciar los efectos depresores del sistema nervioso central (mareo, somnolencia).",
+    "withSupplements": "La hierba de San Juan (Hypericum perforatum) puede inducir CYP3A4, aumentando el metabolismo de la lidocaína y reduciendo su efecto. Los suplementos que afectan la función hepática (ej. kava, chaparral) pueden alterar su metabolismo."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "B",
+      "recommendation": "Se puede usar cuando sea claramente necesario. Los estudios en animales no muestran riesgo, pero no hay estudios adecuados en mujeres embarazadas. Cruza la placenta. Se prefiere para anestesia local en procedimientos necesarios durante el embarazo. Evitar dosis altas sistémicas, especialmente cerca del parto, por riesgo de depresión en el recién nacido.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Considerado compatible con la lactancia. La cantidad excretada en la leche materna después de una dosis típica para anestesia local es muy baja y no se esperan efectos en el lactante. Se recomienda aplicar después de amamantar si es tópico en el pecho, y limpiar el área antes de la siguiente toma.",
+    "pediatric": "Se puede usar en niños, pero con DOSIFICACIÓN ESTRICTA POR PESO CORPORAL. Los niños, especialmente los menores de 3 años, son más susceptibles a la toxicidad sistémica. Evitar el uso tópico en mucosas extensas (ej. encías para la dentición) debido al riesgo de absorción rápida y toxicidad.",
+    "geriatric": "Población de alto riesgo. Mayor sensibilidad a los efectos adversos. Disminución del aclaramiento hepático y del volumen de distribución. USAR LA DOSIS EFECTIVA MÍNIMA. Reducir dosis en un 20-50%. Monitorizar estrechamente por signos de toxicidad del SNC (confusión, mareo, somnolencia)."
+  },
+  "administration": {
+    "howToTake": "SÓLO PARA USO POR PROFESIONALES DE LA SALFAD (médicos, dentistas, enfermeras). Nunca se autoadministre. Inyectable: Se administra por el profesional en el sitio preciso. Tópico (gel, spray): Se aplica en el área indicada por el profesional, sin tragar. Parche: Aplicar sobre piel intacta y seca, hasta 12 horas al día. No cortar el parche. Lavarse las manos después de manipular.",
+    "storage": "Conservar a temperatura ambiente (15-30°C), protegido de la luz y el calor. No congelar las soluciones inyectables. Mantener fuera del alcance de los niños.",
+    "specialInstructions": "Antes de cualquier inyección, el profesional debe ASPIRAR para asegurarse de no estar en un vaso sanguíneo. Informar al médico/dentista sobre todas las alergias, problemas de corazón, hígado, convulsiones y medicamentos que toma. Después de una anestesia local, tener cuidado de no morderse o quemarse la zona adormecida (especialmente en boca) hasta que pase el efecto."
+  },
+  "monitoring": {
+    "labTests": [
+      "Niveles plasmáticos de lidocaína (en infusiones prolongadas o en pacientes con riesgo).",
+      "Gasometría arterial y niveles de metahemoglobina (si hay cianosis no explicada).",
+      "Pruebas de función hepática (en uso crónico o pacientes con enfermedad hepática)."
+    ],
+    "frequency": "Durante la administración IV: Monitorización continua de ECG, presión arterial y frecuencia respiratoria. Clínica constante para signos de toxicidad del SNC.",
+    "signsToWatch": [
+      "Signos iniciales de toxicidad: Mareo, tinnitus (zumbido), visión borrosa, sensación de calor/frío, hormigueo alrededor de la boca (parestesias periorales).",
+      "Signos de toxicidad avanzada: Convulsiones, somnolencia profunda, coma.",
+      "Signos de toxicidad cardíaca: Bradicardia severa, hipotensión, bloqueo cardíaco, paro cardíaco.",
+      "Signos de reacción alérgica: Ronchas, dificultad para respirar, hinchazón de cara/lengua."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Progresión característica: Parestesias periorales y lengua -> Mareo, tinnitus, visión borrosa -> Somnolencia, confusión -> Convulsiones tónico-clónicas -> Depresión respiratoria y coma -> Bradicardia, hipotensión, paro cardíaco."
+    ],
+    "treatment": "SOPORTE VITAL AVANZADO. 1) Suspender la administración. 2) Mantener vía aérea, oxigenación y ventilación. 3) Controlar convulsiones con benzodiacepinas (diazepam, midazolam). 4) Tratar bradicardia con atropina. 5) Considerar reanimación cardiopulmonar (RCP) y lípidos intravenosos (emulsión lipídica al 20%) como antídoto para la toxicidad por anestésicos locales. 6) La hemodiálisis no es efectiva.",
+    "antidote": "Emulsión lipídica intravenosa al 20% (Intralipid®). Actúa como un sumidero lipídico que secuestra la lidocaína del plasma y tejidos. Protocolo: Bolo de 1.5 mL/kg en 1 min, seguido de infusión de 0.25 mL/kg/min."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica para todas sus formas (injectable, parches, geles de alta concentración). Algunos geles o sprays de baja concentración para uso en aftas bucales pueden ser de venta libre, pero es raro en México.",
+    "scheduleMexico": "Medicamento sujeto a control especial (lista III). Requiere receta médica archivada.",
+    "fdaApprovalYear": "Aprobado por la FDA desde 1948."
+  },
+  "brandsMexico": [
+    "Xylocaine®",
+    "Xyloproct® (con hidrocortisona)",
+    "Lidopen®",
+    "Lidocain®",
+    "Anestal®",
+    "DoloPosterisan® (con otros componentes)",
+    "Lidogel®",
+    "Lidospray®",
+    "Versatis® (parche de lidocaína 5%)",
+    "Lidovix®",
+    "Anestocon®",
+    "Dentocaine®",
+    "Lidocart®",
+    "Lidostesin®"
+  ],
+  "clinicalPearls": [
+    "La toxicidad sistémica es una emergencia médica. Conocer la secuencia de síntomas (\"Lidocaína: Labios, Lengua, Lightheadedness, Loss of consciousness\") es clave para la intervención temprana.",
+    "La adición de epinefrina (1:100,000 o 1:200,000) no solo prolonga la duración, sino que reduce la concentración plasmática máxima en un 30-50%, aumentando la seguridad.",
+    "En pacientes con infarto agudo de miocardio, la unión a proteínas aumenta (por aumento de AAG), requiriendo dosis de carga más altas para lograr efecto antiarrítmico, pero el riesgo de toxicidad por acumulación posterior también es mayor.",
+    "Para anestesia tópica en mucosas (ej. antes de una endoscopía), recordar que la absorción es tan rápida como la intravenosa; respetar las dosis máximas para vía tópica (3 mg/kg).",
+    "El parche de lidocaína al 5% (Versatis®) es el único aprobado para neuralgia postherpética; no es un anestésico local de uso general y no debe cortarse."
+  ],
+  "patientCounseling": "La lidocaína es un medicamento poderoso que solo debe ser usado bajo supervisión de un médico o dentista. Si se le aplica, evite comer, masticar chicle o tomar líquidos calientes hasta que desaparezca el adormecimiento (1-3 horas) para no lastimarse sin darse cuenta. Si usa un parche de lidocaína en casa, aplíquelo en piel sana, no lo corte y lávese las manos después. Guárdelo lejos de niños y mascotas. Informe de inmediato a su médico si después de aplicado siente mareo intenso, zumbido en los oídos, visión borrosa, confusión, dificultad para respirar o si el área se enrojece o hincha mucho. Recuerde que este medicamento trata el síntoma (dolor) pero no la causa de la enfermedad.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor agudo",
+        "slug": "dolor-agudo"
+      },
+      {
+        "name": "Dolor neuropático",
+        "slug": "dolor-neuropatico"
+      },
+      {
+        "name": "Prurito (comezón)",
+        "slug": "prurito"
+      },
+      {
+        "name": "Arritmia cardíaca (palpitaciones)",
+        "slug": "arritmia-cardiaca"
+      },
+      {
+        "name": "Dolor post-herpético",
+        "slug": "dolor-postherpetico"
+      },
+      {
+        "name": "Ansiedad por procedimientos dolorosos",
+        "slug": "ansiedad-procedimientos"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Neuralgia postherpética",
+        "slug": "neuralgia-postherpetica"
+      },
+      {
+        "name": "Taquicardia ventricular",
+        "slug": "taquicardia-ventricular"
+      },
+      {
+        "name": "Infarto agudo de miocardio (para arritmias)",
+        "slug": "infarto-agudo-miocardio"
+      },
+      {
+        "name": "Neuropatía periférica focal",
+        "slug": "neuropatia-periferica"
+      },
+      {
+        "name": "Aftas bucales dolorosas",
+        "slug": "aftas-bucales"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Insuficiencia hepática",
+        "slug": "insuficiencia-hepatica"
+      },
+      {
+        "name": "Insuficiencia cardíaca",
+        "slug": "insuficiencia-cardiaca"
+      },
+      {
+        "name": "Epilepsia",
+        "slug": "epilepsia"
+      },
+      {
+        "name": "Miastenia gravis",
+        "slug": "miastenia-gravis"
+      },
+      {
+        "name": "Metemoglobinemia",
+        "slug": "metemoglobinemia"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Nivel plasmático de lidocaína",
+        "slug": "nivel-lidocaina",
+        "effect": "Puede elevarse por sobredosis o metabolismo lento"
+      },
+      {
+        "name": "Metahemoglobina",
+        "slug": "metahemoglobina",
+        "effect": "Puede elevar (raro)"
+      },
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede disminuir (bradicardia)"
+      },
+      {
+        "name": "Actividad encefalográfica (EEG)",
+        "slug": "actividad-eeg",
+        "effect": "Puede mostrar patrones de irritación o supresión"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Electrocardiograma (ECG)",
+        "slug": "electrocardiograma",
+        "reason": "Monitorizar actividad cardíaca durante uso antiarrítmico o en riesgo de toxicidad."
+      },
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-funcion-hepatica",
+        "reason": "Evaluar capacidad de metabolizar el fármaco, especialmente en uso prolongado o pacientes con enfermedad hepática."
+      },
+      {
+        "name": "Gasometría arterial",
+        "slug": "gasometria-arterial",
+        "reason": "Diagnosticar metemoglobinemia en caso de cianosis."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La lidocaína es lo mismo que la novocaína?",
+      "a": "No. Son anestésicos locales diferentes. La novocaína (procaína) es del tipo éster y se usa mucho menos hoy en día porque causa más alergias. La lidocaína es del tipo amida, es más potente, de acción más rápida y causa menos reacciones alérgicas."
+    },
+    {
+      "q": "¿Puedo comprar lidocaína en gel en la farmacia sin receta para el dolor de muelas?",
+      "a": "En México, la mayoría de los geles de lidocaína de concentración significativa (2% o 5%) requieren receta médica. No se recomienda el autotratamiento para el dolor de muelas, ya que solo enmascara el dolor y la infección puede avanzar. Consulte a un dentista."
+    },
+    {
+      "q": "¿Cuánto tiempo dura el adormecimiento después de una inyección en el dentista?",
+      "a": "Depende de si lleva vasoconstrictor (como la epinefrina). Sin él, dura entre 30 minutos y 2 horas. Con vasoconstrictor, puede durar de 2 a 5 horas. La sensación de \"hinchazón\" en el labio o mejilla desaparece junto con el efecto."
+    },
+    {
+      "q": "¿Es seguro usar parches de lidocaína para el dolor de espalda?",
+      "a": "Los parches de lidocaína al 5% (como Versatis®) están aprobados específicamente para el dolor neuropático localizado, como la neuralgia postherpética (culebrilla). Para el dolor de espalda común (dolor musculoesquelético), no son el tratamiento de primera línea y deben ser recetados y supervisados por un médico."
+    },
+    {
+      "q": "¿La lidocaína puede causar alergia?",
+      "a": "Sí, pero es menos común que con los anestésicos del tipo éster (como la procaína). Los síntomas de alergia pueden incluir ronchas, picazón, hinchazón de cara/lengua/garganta, dificultad para respirar. Si tiene antecedentes de alergia a anestésicos locales, informe siempre a su médico o dentista."
+    },
+    {
+      "q": "¿Puedo manejar después de que me pongan anestesia local en el dentista?",
+      "a": "Se recomienda esperar a que desaparezca completamente el adormecimiento y se sienta totalmente alerta. El efecto local no debería afectar su capacidad para manejar, pero si siente mareo o somnolencia (efectos raros pero posibles), no maneje."
+    },
+    {
+      "q": "¿Se puede usar lidocaína en niños?",
+      "a": "Sí, pero con mucha precaución y dosificación exacta por peso. Nunca use productos de adultos en niños sin indicación médica. Los geles para la dentición con lidocaína ya no se recomiendan en bebés por riesgo de toxicidad si se tragan."
+    },
+    {
+      "q": "¿Qué debo hacer si me muerdo el labio o la mejilla adormecidos?",
+      "a": "Lave la herida suavemente con agua. Generalmente son pequeñas ulceraciones que sanan solas en unos días. Aplique frío externo para reducir la hinchazón. Si la mordida es profunda, sangra mucho o muestra signos de infección (pus, enrojecimiento creciente), consulte a un médico."
+    },
+    {
+      "q": "¿La lidocaína afecta al corazón?",
+      "a": "Sí, tiene un efecto directo. En dosis terapéuticas controladas (vía intravenosa), se usa para tratar arritmias ventriculares graves. Sin embargo, en SOBREDOSIS, puede causar efectos tóxicos graves en el corazón, como bradicardia extrema, bloqueo cardíaco e incluso paro cardíaco."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si me pusieron lidocaína?",
+      "a": "No se recomienda. El alcohol puede potenciar los efectos depresores del sistema nervioso central de la lidocaína, aumentando el riesgo de mareo y somnolencia. Espere varias horas después del procedimiento."
+    },
+    {
+      "q": "¿La lidocaína sirve para las quemaduras de sol?",
+      "a": "No es el tratamiento de primera elección. Algunas cremas o sprays con lidocaína pueden proporcionar alivio temporal del dolor y la picazón, pero no aceleran la curación. Es más importante enfriar la piel, hidratarla y usar protectores solares. Consulte a un farmacéutico o médico para una recomendación adecuada."
+    },
+    {
+      "q": "¿Qué pasa si me trago el gel de lidocaína para la boca?",
+      "a": "Si es una pequeña cantidad aplicada para un afta, no suele ser peligroso. Sin embargo, tragar grandes cantidades (especialmente en niños) puede causar toxicidad sistémica, con síntomas como mareo, convulsiones y problemas cardíacos. En ese caso, acuda a urgencias."
+    },
+    {
+      "q": "¿Puedo usar lidocaína si estoy embarazada?",
+      "a": "Sí, se considera de categoría B y es el anestésico local de elección para procedimientos necesarios durante el embarazo (ej. empastes dentales). Sin embargo, solo debe usarse cuando sea claramente necesario y bajo supervisión médica, usando la dosis mínima efectiva."
+    },
+    {
+      "q": "¿La lidocaína sube la presión arterial?",
+      "a": "Generalmente no. De hecho, en sobredosis puede causar hipotensión (presión baja). Sin embargo, las formulaciones que contienen EPINEFRINA (un vasoconstrictor) pueden causar un aumento temporal de la presión arterial y la frecuencia cardíaca, especialmente si se inyectan por error en un vaso sanguíneo."
+    },
+    {
+      "q": "¿Por qué a veces duele la inyección de lidocaína?",
+      "a": "El dolor inicial se debe a la acidez de la solución, que es necesaria para su estabilidad. Los médicos/dentistas pueden reducir este dolor inyectando lentamente, usando agujas finas o aplicando un anestésico tópico (gel) antes de la inyección."
+    },
+    {
+      "q": "¿La lidocaína crea adicción o dependencia?",
+      "a": "No. La lidocaína no tiene potencial de abuso ni produce dependencia psicológica cuando se usa como anestésico local. Su uso es puntual para procedimientos."
+    },
+    {
+      "q": "¿Puedo aplicar lidocaína en una herida abierta?",
+      "a": "No se recomienda aplicar formulaciones tópicas (gel, crema) en heridas abiertas, profundas o infectadas, a menos que lo indique un médico. Podría aumentar la absorción sistémica y el riesgo de toxicidad, o interferir con la cicatrización."
+    },
+    {
+      "q": "¿Qué es la \"toxicidad por lidocaína\" y cuáles son sus síntomas?",
+      "a": "Es una intoxicación grave que ocurre cuando demasiada lidocaína entra al torrente sanguíneo. Los síntomas progresan: 1) Mareo, zumbido en oídos, visión borrosa, sabor metálico. 2) Temblores, confusión, somnolencia. 3) Convulsiones. 4) Coma, paro respiratorio y cardíaco. Es una EMERGENCIA MÉDICA."
+    },
+    {
+      "q": "¿La lidocaína interactúa con otros medicamentos que tomo?",
+      "a": "Sí, puede interactuar de manera grave. Especialmente con: betabloqueadores (como propranolol), cimetidina, algunos antiarrítmicos y algunos antifúngicos o antibióticos. SIEMPRE informe a su médico sobre TODOS los medicamentos, hierbas y suplementos que toma antes de recibir lidocaína."
+    },
+    {
+      "q": "¿Por qué a algunos pacientes con dolor crónico les recetan parches de lidocaína?",
+      "a": "Para el dolor neuropático (dolor por daño a los nervios), como el de la neuralgia postherpética, los parches de lidocaína al 5% actúan localmente estabilizando los nervios hiperexcitables bajo la piel, reduciendo el dolor con mínima absorción sistémica y menos efectos secundarios que los medicamentos orales."
+    }
+  ]
+}

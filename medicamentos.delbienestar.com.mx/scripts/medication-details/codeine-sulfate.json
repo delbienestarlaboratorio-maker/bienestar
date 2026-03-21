@@ -1,0 +1,423 @@
+{
+  "name": "Codeína Sulfato",
+  "summary": "La codeína sulfato es un medicamento analgésico opioide derivado del opio, utilizado para tratar el dolor de intensidad moderada a severa cuando otros analgésicos no opioides no son suficientes. Actúa en el sistema nervioso central para reducir la percepción del dolor y también tiene propiedades antitusígenas (para la tos). Es un medicamento de importancia clínica porque ofrece una opción de manejo del dolor escalonado, pero su uso requiere supervisión médica estricta debido a su potencial de causar dependencia, depresión respiratoria y otros efectos adversos graves. En México, es un medicamento controlado que solo se puede obtener con receta médica especial y su uso debe ser por el menor tiempo posible y a la dosis efectiva más baja. Es fundamental que los pacientes comprendan los riesgos de interacciones con otros medicamentos, especialmente con alcohol y otros depresores del sistema nervioso, y que sigan al pie de la letra las instrucciones de su médico para evitar complicaciones.",
+  "pharmacology": {
+    "mechanismOfAction": "La codeína es un profármaco que ejerce sus efectos analgésicos principalmente a través de su metabolito activo, la morfina. Se une a los receptores opioides mu (μ) en el sistema nervioso central, especialmente en el cerebro y la médula espinal. Esta unión inhibe la liberación de neurotransmisores como la sustancia P, lo que resulta en una disminución de la transmisión de las señales de dolor hacia el cerebro y una alteración de la percepción emocional del dolor. Además, su acción sobre los receptores opioides en el tronco encefálico suprime el reflejo de la tos, proporcionando su efecto antitusígeno. Su acción sobre otros receptores contribuye a los efectos secundarios como sedación, depresión respiratoria y estreñimiento.",
+    "pharmacologicClass": "Alcaloide fenantrénico del opio; Agonista de receptores opioides",
+    "therapeuticClass": "Analgésico Opioide; Antitusígeno",
+    "absorption": "Se absorbe bien por vía oral, con una biodisponibilidad de aproximadamente 40-70%. La absorción ocurre principalmente en el intestino delgado. La presencia de alimentos puede retrasar ligeramente la absorción, pero no afecta significativamente la cantidad total absorbida.",
+    "distribution": "Se distribuye ampliamente por los tejidos corporales. Atraviesa la barrera hematoencefálica, lo que le permite ejercer su efecto en el sistema nervioso central. También atraviesa la placenta y se excreta en la leche materna. Su unión a proteínas plasmáticas es baja (alrededor del 7-25%). El volumen de distribución (Vd) es de aproximadamente 3-6 L/kg.",
+    "metabolism": "Se metaboliza extensamente en el hígado. La vía principal es la O-desmetilación por la enzima CYP2D6 para formar morfina, su metabolito activo responsable de gran parte del efecto analgésico. La variabilidad genética en la actividad de la CYP2D6 (metabolizadores ultrarrápidos, extensos, intermedios o pobres) afecta drásticamente la respuesta al fármaco. Otras vías incluyen la N-desmetilación (por CYP3A4) a norcodeína y la conjugación con glucurónido.",
+    "elimination": "La vida media de eliminación de la codeína es de aproximadamente 2.5 a 3.5 horas. Se elimina principalmente por vía renal, donde aproximadamente un 80-90% se excreta en la orina en forma de metabolitos conjugados (codeína-6-glucurónido, norcodeína, morfina y sus conjugados) y solo un 5-15% como codeína sin cambios. En pacientes con insuficiencia renal, la eliminación se retrasa.",
+    "onsetOfAction": "El inicio del alivio del dolor ocurre generalmente entre 30 y 60 minutos después de la administración oral.",
+    "durationOfAction": "La duración del efecto analgésico es de aproximadamente 4 a 6 horas por dosis."
+  },
+  "indications": {
+    "approved": [
+      "Alivio del dolor de intensidad moderada a severa",
+      "Tratamiento de la tos seca e improductiva (como antitusígeno)"
+    ],
+    "offLabel": [
+      "Manejo del dolor neuropático en combinación con otros fármacos (uso limitado)",
+      "Síndrome de piernas inquietas (cuando otros tratamientos fallan)",
+      "Diarrea severa (por su efecto constipante)"
+    ]
+  },
+  "dosage": {
+    "adults": "Dolor: 15 a 60 mg cada 4 a 6 horas según sea necesario. La dosis inicial habitual es de 15-30 mg. Tos: 10-20 mg cada 4-6 horas, sin exceder 120 mg al día. La dosis debe individualizarse.",
+    "pediatric": "Para dolor (NO para tos en niños menores de 12 años por riesgo de depresión respiratoria): 0.5-1 mg/kg/dosis cada 4-6 horas según sea necesario. El uso en niños requiere extrema precaución y solo bajo supervisión médica estricta. Contraindicado para la tos en menores de 18 años.",
+    "elderly": "Iniciar con dosis más bajas (ej. 15 mg) y ajustar lentamente, debido a la mayor sensibilidad, disminución del aclaramiento y mayor riesgo de efectos adversos (confusión, sedación, caídas).",
+    "renalImpairment": "Ajustar dosis en insuficiencia renal. TFG 10-50 mL/min: reducir dosis o ampliar intervalo (cada 6-8h). TFG <10 mL/min: evitar o usar con extrema precaución y dosis mínima.",
+    "hepaticImpairment": "Reducir dosis o evitar en insuficiencia hepática moderada a severa, debido al metabolismo hepático reducido y al riesgo de acumulación.",
+    "maxDose": "Dosis máxima diaria para adultos: Generalmente 360 mg para dolor, pero debe ser individualizada. Para tos: 120 mg/día. Nunca exceder la dosis prescrita."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "15 mg",
+        "30 mg",
+        "60 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Jarabe / Solución oral",
+      "strengths": [
+        "3 mg/mL",
+        "5 mg/5mL"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la codeína o a otros opioides",
+      "Depresión respiratoria significativa",
+      "Asma bronquial aguda o severa",
+      "Obstrucción intestinal o íleo paralítico",
+      "Uso concomitante con IMAOs o dentro de los 14 días posteriores",
+      "Metabolizadores ultrarrápidos de CYP2D6 (riesgo de toxicidad por morfina)",
+      "Niños menores de 12 años para el alivio del dolor (excepto en escenarios muy específicos)",
+      "Adolescentes menores de 18 años para el tratamiento de la tos post-cirugía amigdalar/adenoidea",
+      "Mujeres durante la lactancia (metabolizadoras ultrarrápidas)"
+    ],
+    "relative": [
+      "Lesión cerebral traumática o hipertensión intracraneal",
+      "Convulsiones o trastornos convulsivos",
+      "Insuficiencia hepática severa",
+      "Insuficiencia renal severa",
+      "Hipotiroidismo o mixedema",
+      "Hipertrofia prostática o estenosis uretral",
+      "Adicción a opioides (activa o en remisión)",
+      "Edad avanzada o estado debilitado",
+      "Enfermedad pulmonar obstructiva crónica (EPOC) o cor pulmonale",
+      "Cólico biliar o pancreático"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Estreñimiento",
+      "Náuseas",
+      "Somnolencia / Sedación",
+      "Mareo / Vértigo"
+    ],
+    "common": [
+      "Vómitos",
+      "Sequedad de boca",
+      "Sudoración",
+      "Prurito (picazón)",
+      "Cefalea (dolor de cabeza)",
+      "Confusión mental"
+    ],
+    "uncommon": [
+      "Cambios de humor (euforia, disforia)",
+      "Visión borrosa",
+      "Hipotensión ortostática (mareo al pararse)",
+      "Retención urinaria",
+      "Bradicardia (frecuencia cardíaca lenta)",
+      "Espasmos musculares"
+    ],
+    "rare": [
+      "Depresión respiratoria grave",
+      "Dependencia y síndrome de abstinencia",
+      "Convulsiones",
+      "Reacciones alérgicas severas (anafilaxia)",
+      "Alucinaciones",
+      "Aumento de la presión intracraneal"
+    ],
+    "blackBoxWarning": "ADVERTENCIA: DEPRESIÓN RESPIRATORIA, ABUSO, USO PEDIÁTRICO Y METABOLISMO POR CYP2D6. La codeína puede causar depresión respiratoria grave o fatal, especialmente en niños. Tiene un alto potencial de abuso, adicción y uso indebido que puede llevar a sobredosis y muerte. No usar en niños menores de 12 años para el dolor, ni en menores de 18 años para la tos post-cirugía de amígdalas/adenoides. Los metabolizadores ultrarrápidos de CYP2D6 convierten más codeína en morfina, aumentando el riesgo de toxicidad. Evitar en madres lactantes que sean metabolizadoras ultrarrápidas."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Alcohol",
+        "effect": "Potencia la depresión del sistema nervioso central, aumentando gravemente el riesgo de sedación profunda, depresión respiratoria, coma y muerte.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Benzodiacepinas (alprazolam, diazepam, clonazepam)",
+        "effect": "Aumento sinérgico de la depresión del SNC, con riesgo elevado de sedación profunda, paro respiratorio y muerte.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Otros opioides (morfina, oxicodona, hidrocodona, tramadol)",
+        "effect": "Potenciación de efectos analgésicos pero también de efectos adversos (depresión respiratoria, sedación, estreñimiento).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores de la CYP2D6 (fluoxetina, paroxetina, quinidina, bupropión)",
+        "effect": "Disminuyen la conversión de codeína a morfina, reduciendo su efecto analgésico.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inductores de la CYP2D6 (rifampicina, carbamazepina, fenitoína)",
+        "effect": "Aumentan la conversión a morfina, pudiendo potenciar efectos y toxicidad en metabolizadores extensos.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inhibidores de la CYP3A4 (ketoconazol, claritromicina, ritonavir, jugo de toronja)",
+        "effect": "Pueden aumentar los niveles de codeína y norcodeína, incrementando el riesgo de efectos adversos.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "IMAOs (fenelzina, tranilcipromina)",
+        "effect": "Pueden precipitar una crisis serotoninérgica o una reacción hipertensiva grave.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "El alcohol está absolutamente contraindicado. Los alimentos grasos pueden retrasar ligeramente la absorción. El jugo de toronja puede inhibir el metabolismo (CYP3A4), aumentando los niveles de codeína.",
+    "withSupplements": "Precaución con suplementos que depriman el SNC (valeriana, kava, melatonina en dosis altas). La hierba de San Juan (inductor enzimático) puede disminuir los niveles. Evitar suplementos que contengan alcohol."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA C (primer y segundo trimestre) / D (tercer trimestre)",
+      "recommendación": "Su uso durante el embarazo solo está justificado si el beneficio potencial para la madre supera claramente el riesgo para el feto. El uso prolongado en el tercer trimestre puede causar síndrome de abstinencia neonatal (irritabilidad, llanto excesivo, temblores, dificultad para alimentarse) y depresión respiratoria en el recién nacido. Debe evitarse cerca del parto.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La codeína se excreta en la leche materna en cantidades bajas. Sin embargo, en madres que son metabolizadoras ultrarrápidas de CYP2D6, se puede producir niveles altos de morfina en la leche, lo que ha causado depresión respiratoria grave y muerte en lactantes. Por lo tanto, generalmente se CONTRAINDICA durante la lactancia, especialmente si la madre es metabolizadora ultrarrápida. Se deben considerar alternativas más seguras.",
+    "pediatric": "NO usar para la tos o resfriado en niños menores de 18 años. Para el dolor, su uso en niños menores de 12 años está contraindicado excepto en escenarios muy específicos y bajo supervisión hospitalaria (ej., dolor oncológico). Los niños son más susceptibles a la depresión respiratoria. La dosis debe calcularse cuidadosamente por peso.",
+    "geriatric": "Los adultos mayores (mayores de 65 años) son más sensibles a los efectos de la codeína. Presentan mayor riesgo de confusión, sedación, mareo, caídas, estreñimiento severo y depresión respiratoria. Se debe iniciar con dosis bajas (ej., 15 mg) y aumentar lentamente si es necesario, monitoreando de cerca."
+  },
+  "administration": {
+    "howToTake": "Tomar exactamente como lo indique el médico, generalmente cada 4 a 6 horas según sea necesario para el dolor. Se puede tomar con o sin alimentos. Si causa malestar estomacal, tomarlo con un poco de comida. Tragar la tableta entera con un vaso lleno de agua. No triturar, masticar o partir las tabletas a menos que el médico lo indique. Para el jarabe, usar el dosificador proporcionado (cuchara o jeringa medidora).",
+    "storage": "Almacenar a temperatura ambiente (15-30°C), en un lugar seco, fuera del alcance de la vista y el de los niños y mascotas. Proteger de la luz. No almacenar en el baño por la humedad. Desechar el medicamento vencido o que ya no se necesite de forma segura (puntos de recolección de medicamentos).",
+    "specialInstructions": "NUNCA aumentar la dosis o la frecuencia sin consultar al médico. No compartir este medicamento con nadie, aunque tengan síntomas similares. Informar al médico si el dolor no se controla. No conducir vehículos ni operar maquinaria peligrosa hasta conocer cómo le afecta, ya que causa somnolencia. Para prevenir el estreñimiento, aumentar la ingesta de líquidos, fibra en la dieta y hacer ejercicio si es posible. El médico puede recomendar un laxante."
+  },
+  "monitoring": {
+    "labTests": [
+      "Función renal (creatinina, BUN)",
+      "Función hepática (transaminasas, bilirrubina)",
+      "Conteo sanguíneo completo (CSC) en uso prolongado",
+      "Niveles de gasometría arterial si hay sospecha de depresión respiratoria"
+    ],
+    "frequency": "Evaluación clínica frecuente al inicio y durante el tratamiento para dolor, sedación y función respiratoria. Pruebas de laboratorio basales y periódicas (cada 6-12 meses) en uso crónico.",
+    "signsToWatch": [
+      "Dificultad para respirar o respiración lenta/superficial",
+      "Somnolencia extrema o dificultad para despertar",
+      "Confusión, desorientación o alucinaciones",
+      "Mareo intenso o desmayo",
+      "Latidos cardíacos muy lentos",
+      "Dificultad para orinar",
+      "Erupción cutánea o picazón severa",
+      "Hinchazón de cara/lengua/garganta",
+      "Heces muy duras o ausencia de evacuaciones por varios días"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Depresión respiratoria grave (respiración lenta, superficial o ausente)",
+      "Somnolencia extrema progresando a estupor o coma",
+      "Pupilas puntiformes (miosis)",
+      "Piel fría y húmeda",
+      "Hipotensión (presión baja)",
+      "Bradicardia (ritmo cardíaco lento)",
+      "Paro cardiorrespiratorio y muerte."
+    ],
+    "treatment": "EMERGENCIA MÉDICA INMEDIATA (Llamar al 911 o acudir a urgencias). El tratamiento es de soporte, con enfoque en el manejo de la vía aérea y la ventilación. El antídoto específico es la NALOXONA, que debe administrarse por personal médico. Puede requerir múltiples dosis debido a la vida media más larga de la codeína. También se realiza descontaminación gastrointestinal (carbón activado) si la ingestión es reciente y el paciente está consciente.",
+    "antidote": "Naloxona (Narcan®). Es un antagonista competitivo de los receptores opioides que revierte rápidamente la depresión respiratoria y la sedación."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (receta controlada). Es un psicotrópico sujeto a control.",
+    "scheduleMexico": "Fracción III del Artículo 245 del Reglamento de la Ley General de Salud en Materia de Control de Sustancias Psicotrópicas. Su prescripción requiere receta oficial (color rosa) que se retiene en la farmacia.",
+    "fdaApprovalYear": "Aprobado desde hace décadas, antes de los procesos modernos de la FDA. Sigue siendo un medicamento sujeto a regulación."
+  },
+  "brandsMexico": [
+    "Codeisan",
+    "Toseína",
+    "Codeín",
+    "Codex",
+    "Codifen",
+    "Codimal",
+    "Codipront",
+    "Corex",
+    "Dolacod",
+    "Histussin Codeína",
+    "Tussisedal",
+    "Tussipax",
+    "Vick 44E (ya no disponible en México con codeína)",
+    "Codeína Genfar",
+    "Codeína Liomont",
+    "Codeína Ramos",
+    "Codeína Sanfer"
+  ],
+  "clinicalPearls": [
+    "La respuesta a la codeína es altamente variable entre personas debido a la genética de la CYP2D6. Los 'metabolizadores pobres' obtienen poco alivio, mientras que los 'ultrarrápidos' tienen alto riesgo de toxicidad por morfina.",
+    "Para el dolor crónico no oncológico, la codeína NO es de primera línea. Debe preferirse opioides de potencia similar con perfil más predecible (como la hidrocodona o oxicodona) o estrategias no opioides.",
+    "El efecto antitusígeno de la codeína es central y puede ser útil para la tos seca e irritativa, pero su uso está severamente restringido en niños y adolescentes por el riesgo de depresión respiratoria.",
+    "El estreñimiento inducido por opioides es casi universal y no desarrolla tolerancia. Se debe instituir un régimen profiláctico con laxantes (osmóticos + estimulantes) desde el primer día de tratamiento.",
+    "La combinación de codeína con paracetamol o AINEs (como en algunos productos compuestos) mejora la analgesia pero también aumenta el riesgo de toxicidad por el otro componente (daño hepático por paracetamol, sangrado por AINEs)."
+  ],
+  "patientCounseling": "Este es un medicamento fuerte para el dolor que requiere que siga las instrucciones AL PIE DE LA LETRA. Tómelo solo como se lo recetó su médico, nunca más seguido ni en mayor cantidad. Puede causar mucho sueño y mareo, así que no maneje ni use herramientas hasta que sepa cómo le afecta. NUNCA lo mezcle con alcohol, pastillas para dormir o ansiolíticos, esto puede ser mortal. Para evitar el estreñimiento, tome mucha agua, coma frutas, verduras y fibra. Si siente que no puede respirar bien, se le hace un nudo en la garganta, se marea mucho o no se puede despertar, busque ayuda médica de INMEDIATO. Guárdelo bajo llave, lejos del alcance de niños y de otras personas. No lo comparta, es solo para usted. Si le sobra medicamento, no lo guarde, llévelo a un centro de acopio. Informe a todos sus médicos que está tomando codeína.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor moderado a severo",
+        "slug": "dolor-moderado-a-severo"
+      },
+      {
+        "name": "Tos seca e irritativa",
+        "slug": "tos-seca-e-irritativa"
+      },
+      {
+        "name": "Diarrea severa",
+        "slug": "diarrea-severa"
+      },
+      {
+        "name": "Síndrome de piernas inquietas",
+        "slug": "sindrome-de-piernas-inquietas"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Dolor postoperatorio",
+        "slug": "dolor-postoperatorio"
+      },
+      {
+        "name": "Dolor oncológico",
+        "slug": "dolor-oncologico"
+      },
+      {
+        "name": "Traumatismos",
+        "slug": "traumatismos"
+      },
+      {
+        "name": "Bronquitis aguda (para la tos)",
+        "slug": "bronquitis-aguda"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Dependencia a opioides",
+        "slug": "dependencia-a-opioides"
+      },
+      {
+        "name": "Depresión respiratoria",
+        "slug": "depresion-respiratoria"
+      },
+      {
+        "name": "Íleo paralítico",
+        "slug": "ileo-paralitico"
+      },
+      {
+        "name": "Síndrome de abstinencia neonatal",
+        "slug": "sindrome-de-abstinencia-neonatal"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Frecuencia respiratoria",
+        "slug": "frecuencia-respiratoria",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Presión arterial",
+        "slug": "presion-arterial",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Nivel de conciencia (clínico)",
+        "slug": "nivel-de-conciencia",
+        "effect": "Puede alterar (sedación)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Perfil hepático",
+        "slug": "perfil-hepatico",
+        "reason": "Monitorear función hepática ya que se metaboliza en el hígado"
+      },
+      {
+        "name": "Perfil renal",
+        "slug": "perfil-renal",
+        "reason": "Ajustar dosis según función renal, ya que se elimina por el riñón"
+      },
+      {
+        "name": "Gasometría arterial",
+        "slug": "gasometria-arterial",
+        "reason": "Evaluar depresión respiratoria en caso de sospecha de sobredosis"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve la codeína?",
+      "a": "La codeína se usa principalmente para dos cosas: 1) Aliviar el dolor de intensidad moderada a fuerte, como después de una cirugía, una fractura o en algunos casos de cáncer. 2) Calmar la tos seca y molesta que no produce flemas, actuando directamente en el cerebro para suprimir el reflejo de la tos."
+    },
+    {
+      "q": "¿La codeína es lo mismo que la morfina?",
+      "a": "No exactamente. La codeína es un medicamento más débil que la morfina. De hecho, una parte de la codeína que tomas se transforma dentro de tu cuerpo en una pequeña cantidad de morfina, y es esa morfina la que produce gran parte del alivio del dolor. Por eso se dice que la codeína es un 'profármaco'."
+    },
+    {
+      "q": "¿Puedo comprar codeína sin receta en la farmacia?",
+      "a": "NO. En México, la codeína es un medicamento controlado de venta exclusiva con receta médica especial (receta oficial color rosa que se queda en la farmacia). Es ilegal venderla o comprarla sin esta receta, debido a su potencial para causar adicción y efectos graves."
+    },
+    {
+      "q": "¿Puedo tomar codeína si tomo alcohol?",
+      "a": "ABSOLUTAMENTE NO. Mezclar codeína con alcohol es muy peligroso. Ambas sustancias deprimen el sistema nervioso y juntas pueden causar somnolencia extrema, dificultad grave para respirar, pérdida del conocimiento, coma e incluso la muerte."
+    },
+    {
+      "q": "¿La codeína me va a dar mucho sueño?",
+      "a": "Sí, la somnolencia y el mareo son efectos secundarios muy comunes, especialmente al inicio del tratamiento o al aumentar la dosis. Por eso es importante no manejar, operar maquinaria peligrosa o tomar decisiones importantes hasta que sepas cómo te afecta. Este efecto puede disminuir con el tiempo."
+    },
+    {
+      "q": "¿Por qué me estriñe tanto la codeína?",
+      "a": "La codeína, como todos los opioides, hace más lento el movimiento de tus intestinos, lo que permite que se absorba más agua de las heces y estas se endurezcan. El estreñimiento es un efecto casi seguro y no desaparece con el uso continuo. Debes tomar mucha agua, comer fibra y tu médico probablemente te recetará un laxante para prevenirlo."
+    },
+    {
+      "q": "¿Puedo tomar codeína para el dolor de cabeza o cólicos menstruales?",
+      "a": "Generalmente NO. La codeína es un analgésico fuerte reservado para dolores más intensos que no responden a medicamentos comunes como el paracetamol, ibuprofeno o naproxeno. Para dolores de cabeza o cólicos, existen opciones más seguras y efectivas. Su uso inadecuado aumenta el riesgo de efectos secundarios y dependencia."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Por vía oral, generalmente comienza a aliviar el dolor entre 30 minutos y 1 hora después de tomarla. El efecto máximo se alcanza alrededor de la 1 a 2 horas."
+    },
+    {
+      "q": "¿Puedo volverme adicto a la codeína?",
+      "a": "Sí, la codeína tiene un potencial de causar dependencia física y psicológica, especialmente si se usa por periodos prolongados, en dosis altas o sin supervisión médica. Nunca aumentes la dosis por tu cuenta. Si necesitas dejarla, el médico te dará un plan para reducirla gradualmente y evitar los síntomas de abstinencia (ansiedad, sudoración, dolor)."
+    },
+    {
+      "q": "¿Qué hago si se me olvidó tomar una dosis?",
+      "a": "Si es casi la hora de tu siguiente dosis, omite la que olvidaste y toma la siguiente a la hora habitual. NUNCA tomes dos dosis juntas para compensar, ya que esto puede causar una sobredosis. Si falta mucho tiempo para la siguiente dosis, puedes tomar la olvidada, pero siempre manteniendo un intervalo seguro de al menos 4 horas entre dosis."
+    },
+    {
+      "q": "¿Puedo darle codeína a mi hijo para la tos?",
+      "a": "BAJO NINGUNA CIRCUNSTANCIA. Está estrictamente contraindicado usar codeína (o cualquier medicamento que la contenga) para tratar la tos o el resfriado en niños y adolescentes menores de 18 años. En ellos, el riesgo de sufrir una depresión respiratoria grave (dejar de respirar) es muy alto y ha habido casos fatales."
+    },
+    {
+      "q": "¿La codeína sube o baja la presión arterial?",
+      "a": "La codeína puede causar una baja leve de la presión arterial, especialmente al ponerse de pie (hipotensión ortostática), lo que provoca mareo. En raras ocasiones, puede causar una baja más severa. Si tienes presión baja o tomas medicamentos para la presión, infórmaselo a tu médico."
+    },
+    {
+      "q": "¿Puedo tomar codeína si estoy amamantando?",
+      "a": "Generalmente NO se recomienda. La codeína pasa a la leche materna. En algunas mujeres con una genética particular ('metabolizadoras ultrarrápidas'), se produce mucha morfina, lo que puede causar somnolencia extrema y dificultad respiratoria grave en el bebé. Se han reportado muertes. Debes discutir alternativas más seguras con tu médico."
+    },
+    {
+      "q": "¿Qué es un 'metabolizador ultrarrápido' y por qué es importante?",
+      "a": "Es una condición genética donde el cuerpo convierte la codeína en morfina mucho más rápido y en mayor cantidad de lo normal. Esto hace que una dosis normal de codeína pueda actuar como una dosis muy alta de morfina, aumentando enormemente el riesgo de efectos tóxicos como depresión respiratoria grave. Por eso el médico debe considerar esta posibilidad."
+    },
+    {
+      "q": "¿La codeína interactúa con otros medicamentos?",
+      "a": "Sí, y de manera peligrosa. Interactúa gravemente con: alcohol, pastillas para dormir o la ansiedad (benzodiacepinas), relajantes musculares, otros analgésicos opioides y algunos antidepresivos (IMAOs). También con medicamentos que afectan las enzimas del hígado (CYP2D6, CYP3A4). SIEMPRE dile a tu médico TODOS los medicamentos y suplementos que tomas."
+    },
+    {
+      "q": "¿Cuáles son los signos de alarma por los que debo buscar ayuda médica urgente?",
+      "a": "Busca ayuda INMEDIATA si presentas: Dificultad para respirar o respiración muy lenta/superficial, somnolencia extrema y no poder despertarte, confusión o alucinaciones, mareo intenso o desmayo, latidos del corazón muy lentos, sarpullido severo o hinchazón de cara/lengua/garganta."
+    },
+    {
+      "q": "¿Qué es la depresión respiratoria y por qué es tan peligrosa?",
+      "a": "Es cuando el medicamento hace que tu cerebro 'se olvide' de ordenarle a tus pulmones que respiren, o que respiren muy lento y superficial. Esto hace que la sangre no reciba suficiente oxígeno, lo que puede dañar órganos vitales como el cerebro y el corazón en minutos, llevando al coma y la muerte. Es el efecto adverso más grave de los opioides como la codeína."
+    },
+    {
+      "q": "¿Existe un antídoto si alguien toma demasiada codeína?",
+      "a": "Sí, existe un antídoto llamado NALOXONA (marca Narcan®). Revierte rápidamente los efectos de la sobredosis, especialmente la depresión respiratoria. Es usado por el personal de emergencias. En algunos países, se prescribe a familiares de pacientes en riesgo. Si sospechas una sobredosis, llama al 911 de INMEDIATO."
+    },
+    {
+      "q": "¿Por qué mi médico me cambió de codeína a otro opioide como la oxicodona?",
+      "a": "Puede ser por varias razones: 1) La codeína no te estaba dando suficiente alivio (eres un 'metabolizador pobre'). 2) Tenías muchos efectos secundarios. 3) Para el dolor crónico, se prefieren opioides con una dosis-respuesta más predecible y estable. 4) La codeína tiene más interacciones genéticas (CYP2D6). El cambio lo hace para optimizar tu tratamiento."
+    },
+    {
+      "q": "En el manejo del dolor crónico no oncológico, ¿cuál es el lugar de la codeína según las guías actuales?",
+      "a": "Según las guías actuales de manejo del dolor, la codeína tiene un papel MUY LIMITADO en el dolor crónico no oncológico (como dolor de espalda o artritis). No es un fármaco de primera ni segunda línea. Se prefieren opioides con farmacología más predecible (como la oxicodona o hidrocodona) si es que se justifica el uso de opioides, y siempre después de haber agotado opciones no farmacológicas y no opioides. Su uso se reserva para casos muy específicos y por tiempo limitado, debido a su perfil de efectos adversos, variabilidad genética y potencial de mal uso."
+    }
+  ]
+}

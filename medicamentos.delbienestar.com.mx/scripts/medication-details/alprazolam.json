@@ -1,0 +1,440 @@
+{
+  "name": "Alprazolam",
+  "summary": "El alprazolam es un medicamento ansiolítico y sedante perteneciente a la familia de las benzodiacepinas. Se utiliza principalmente para tratar los trastornos de ansiedad, incluyendo el trastorno de ansiedad generalizada y el trastorno de pánico, ya que actúa rápidamente calmando el sistema nervioso central, reduciendo la sensación de nerviosismo, preocupación excesiva y ataques de pánico. Su importancia clínica radica en su eficacia para aliviar síntomas debilitantes de ansiedad a corto plazo, mejorando significativamente la calidad de vida del paciente. Sin embargo, debido a su potencial para causar dependencia física y psicológica, así como síndrome de abstinencia, su uso debe ser estrictamente supervisado por un médico, por periodos limitados y como parte de un plan de tratamiento integral que puede incluir psicoterapia. Es un medicamento controlado en México que solo se vende con receta médica retenida.",
+  "pharmacology": {
+    "mechanismOfAction": "El alprazolam ejerce su efecto potenciando la acción del ácido gamma-aminobutírico (GABA), el principal neurotransmisor inhibitorio del sistema nervioso central. Se une de forma específica a un sitio en el receptor GABA-A, lo que facilita la apertura del canal de cloruro asociado al receptor. Esto permite un mayor influjo de iones cloruro hacia la neurona, lo que hiperpolariza la membrana celular y reduce su capacidad para generar potenciales de acción. Este aumento en la inhibición neuronal resulta en una disminución generalizada de la actividad cerebral, produciendo efectos ansiolíticos, sedantes, hipnóticos, anticonvulsivos y relajantes musculares. Su alta afinidad por los receptores explica su potencia y rápido inicio de acción.",
+    "pharmacologicClass": "Benzodiacepina de alta potencia del subgrupo triazolobenzodiacepina.",
+    "therapeuticClass": "Ansiolítico, Sedante, Hipnótico.",
+    "absorption": "Se absorbe bien y de manera completa por vía oral. La biodisponibilidad oral es aproximadamente del 80-90%. La presencia de alimentos puede retrasar la velocidad de absorción, pero no afecta significativamente la cantidad total de fármaco que llega a la circulación sistémica. Las concentraciones plasmáticas máximas (Cmax) se alcanzan entre 1 y 2 horas después de la administración oral.",
+    "distribution": "Se distribuye ampliamente por los tejidos corporales. Su volumen de distribución es de aproximadamente 0.9 a 1.3 L/kg, lo que indica una distribución extensa. Se une en un alto porcentaje (alrededor del 80%) a proteínas plasmáticas, principalmente a la albúmina. Cruza fácilmente la barrera hematoencefálica y la placenta, y se excreta en la leche materna.",
+    "metabolism": "Se metaboliza extensamente en el hígado, principalmente a través del sistema enzimático del citocromo P450, específicamente por la isoenzima CYP3A4. Su metabolismo produce dos metabolitos principales: alfa-hidroxialprazolam y 4-hidroxialprazolam, que tienen aproximadamente la mitad de la actividad farmacológica del compuesto original. La actividad del CYP3A4 es crucial para su eliminación, por lo que inhibidores o inductores de esta enzima afectan significativamente sus niveles en sangre.",
+    "elimination": "Se elimina principalmente por vía renal, en forma de metabolitos inactivos conjugados. Menos del 20% se excreta sin cambios en la orina. Su vida media de eliminación es de aproximadamente 11 a 16 horas en adultos sanos, pero puede prolongarse significativamente en adultos mayores, pacientes con enfermedad hepática o cuando se coadministra con inhibidores del CYP3A4.",
+    "onsetOfAction": "El inicio de acción es relativamente rápido, generalmente entre 30 y 60 minutos después de la administración oral, con efectos máximos entre 1 y 2 horas.",
+    "durationOfAction": "La duración del efecto clínico es de corta a intermedia, típicamente entre 6 y 12 horas, dependiendo de la dosis, formulación y características individuales del paciente."
+  },
+  "indications": {
+    "approved": [
+      "Trastorno de ansiedad generalizada (TAG)",
+      "Trastorno de pánico con o sin agorafobia",
+      "Ansiedad asociada a depresión (uso coadyuvante)",
+      "Trastorno de ansiedad por enfermedad (cuando la ansiedad es el componente predominante)"
+    ],
+    "offLabel": [
+      "Insomnio de inicio (a corto plazo)",
+      "Náuseas y vómitos inducidos por quimioterapia (como antiemético coadyuvante)",
+      "Síndrome premenstrual severo",
+      "Manejo de la abstinencia aguda de alcohol (solo en contextos hospitalarios específicos)",
+      "Síndrome de intestino irritable con predominio de ansiedad"
+    ]
+  },
+  "dosage": {
+    "adults": "Trastorno de ansiedad: Iniciar con 0.25 a 0.5 mg administrados 3 veces al día. La dosis puede incrementarse gradualmente cada 3-4 días según la respuesta y tolerancia. Dosis de mantenimiento usual: 0.5 a 4 mg al día, en dosis divididas. Trastorno de pánico: Iniciar con 0.5 mg 3 veces al día. Puede requerir incrementos de hasta 1 mg diario cada 3-4 días. Dosis de mantenimiento usual: 1 a 10 mg al día, en dosis divididas. La dosis debe individualizarse.",
+    "pediatric": "No está aprobado para uso en pacientes menores de 18 años para trastornos de ansiedad. En contextos hospitalarios muy específicos y bajo estricta supervisión, ocasionalmente se ha usado en adolescentes, pero no hay pautas de dosificación establecidas y seguras. No usar en niños.",
+    "elderly": "En pacientes de edad avanzada o debilitados, iniciar con una dosis baja de 0.25 mg, 2 o 3 veces al día. Ajustar con extrema precaución, ya que son más sensibles a los efectos sedantes y al riesgo de caídas, confusión y deterioro psicomotor. La dosis de mantenimiento suele ser la mitad o menos de la dosis para adultos jóvenes.",
+    "renalImpairment": "No se requiere ajuste de dosis específico en insuficiencia renal leve a moderada (TFG >30 mL/min). En insuficiencia renal severa (TFG <30 mL/min) o en diálisis, se debe usar con precaución extrema, iniciando con las dosis más bajas posibles (0.25 mg) y monitorizando de cerca, ya que puede haber acumulación de metabolitos.",
+    "hepaticImpairment": "Contraindicado en insuficiencia hepática severa. En enfermedad hepática leve a moderada (cirrosis compensada), se debe reducir la dosis en al menos un 50% e iniciar con 0.25 mg, no más de 2 veces al día. El metabolismo está significativamente reducido, aumentando el riesgo de toxicidad y encefalopatía.",
+    "maxDose": "La dosis máxima diaria varía según la indicación. Para trastorno de ansiedad generalizada, rara vez se exceden los 4 mg/día. Para trastorno de pánico, las dosis pueden llegar hasta 10 mg/día en casos severos, pero esto aumenta enormemente los riesgos. Dosis superiores a 4 mg/día solo deben usarse bajo estricta supervisión especializada."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "0.25 mg",
+        "0.5 mg",
+        "1.0 mg",
+        "2.0 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tableta de liberación prolongada (XR)",
+      "strengths": [
+        "0.5 mg",
+        "1.0 mg",
+        "2.0 mg",
+        "3.0 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Solución oral (gotas)",
+      "strengths": [
+        "1 mg/mL"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al alprazolam u otras benzodiacepinas",
+      "Miastenia gravis",
+      "Insuficiencia respiratoria severa (no ventilada)",
+      "Apnea del sueño severa",
+      "Insuficiencia hepática aguda o severa",
+      "Intoxicación aguda por alcohol, hipnóticos, analgésicos opioides o psicotrópicos"
+    ],
+    "relative": [
+      "Glaucoma de ángulo cerrado (riesgo de crisis aguda)",
+      "Depresión respiratoria crónica",
+      "Dependencia previa a alcohol o drogas",
+      "Trastornos de la personalidad con impulsividad",
+      "Edad avanzada con fragilidad",
+      "Embarazo (especialmente primer trimestre)",
+      "Lactancia",
+      "Enfermedad renal terminal",
+      "Historia de intentos de suicidio"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Somnolencia",
+      "Sedación",
+      "Mareo",
+      "Cefalea (dolor de cabeza)",
+      "Fatiga",
+      "Letargo",
+      "Dificultad para concentrarse"
+    ],
+    "common": [
+      "Ataxia (inestabilidad al caminar)",
+      "Lenguaje pastoso o disartria",
+      "Deterioro de la memoria",
+      "Visión borrosa",
+      "Astenia (debilidad)",
+      "Sequedad de boca",
+      "Náuseas",
+      "Estreñimiento",
+      "Cambios en el apetito",
+      "Aumento de peso",
+      "Disminución de la libido"
+    ],
+    "uncommon": [
+      "Confusión",
+      "Irritabilidad o agitación paradójica",
+      "Depresión",
+      "Insomnio",
+      "Erupciones cutáneas",
+      "Sudoración",
+      "Hipotensión",
+      "Palpitaciones",
+      "Retención urinaria",
+      "Ictericia (coloración amarilla)"
+    ],
+    "rare": [
+      "Leucopenia (disminución de glóbulos blancos)",
+      "Reacciones alérgicas severas (anafilaxia)",
+      "Alucinaciones",
+      "Comportamiento agresivo",
+      "Aumento de enzimas hepáticas (transaminasas)",
+      "Dependencia física y psicológica (con uso prolongado)"
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Alcohol (etanol)",
+        "effect": "Potenciación sinérgica de la depresión del sistema nervioso central. Aumento severo del riesgo de sedación profunda, depresión respiratoria, coma y muerte.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Opioides (ej. tramadol, oxicodona, morfina, codeína)",
+        "effect": "Depresión respiratoria, sedación profunda, coma y riesgo de muerte. Combinación de alto riesgo.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores del CYP3A4 (ej. ketoconazol, itraconazol, claritromicina, ritonavir, jugo de toronja)",
+        "effect": "Aumentan significativamente los niveles plasmáticos de alprazolam, potenciando sus efectos y toxicidad (sedación excesiva, ataxia).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inductores del CYP3A4 (ej. rifampicina, carbamazepina, fenitoína, hierba de San Juan)",
+        "effect": "Disminuyen drásticamente los niveles de alprazolam, reduciendo su eficacia y pudiendo precipitar síntomas de abstinencia.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Otros depresores del SNC (ej. antihistamínicos sedantes, antipsicóticos, barbitúricos, anestésicos generales)",
+        "effect": "Potenciación aditiva de la sedación y deterioro psicomotor.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "El jugo de toronja (pomelo) inhibe fuertemente el CYP3A4 en el intestino, pudiendo aumentar hasta 3 veces la concentración de alprazolam en sangre. Se debe evitar su consumo. Las comidas grasas pueden retrasar ligeramente la absorción, pero no afectan la biodisponibilidad total. El alcohol está absolutamente contraindicado.",
+    "withSupplements": "La hierba de San Juan (Hypericum perforatum) induce el CYP3A4, reduciendo la eficacia del alprazolam. La kava kava y la valeriana pueden potenciar los efectos sedantes. La melatonina puede aumentar la somnolencia."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "D",
+      "recommendation": "El uso durante el embarazo, especialmente en el primer trimestre, se asocia con un riesgo aumentado de malformaciones congénitas (como labio leporino). Su uso cerca del parto puede causar síndrome de abstinencia neonatal (hipotonía, dificultad para alimentarse, irritabilidad, problemas respiratorios) y 'floppy infant syndrome' (bebé hipotónico). Solo debe usarse si el beneficio potencial justifica claramente el riesgo para el feto, generalmente en casos de trastorno de pánico severo e incapacitante que no responde a otras terapias más seguras (como algunos antidepresivos).",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "El alprazolam se excreta en la leche materna en concentraciones significativas. Puede causar sedación, dificultad para alimentarse y pérdida de peso en el lactante. Además, existe riesgo de abstinencia en el bebé si la madre suspende el medicamento abruptamente. Generalmente se contraindica durante la lactancia. Si su uso es absolutamente necesario, se debe considerar suspender la lactancia materna.",
+    "pediatric": "No está aprobado para uso en niños y adolescentes menores de 18 años para el tratamiento de trastornos de ansiedad, debido a la falta de estudios de seguridad y eficacia, y al mayor riesgo de efectos paradójicos (agitación, hostilidad). Su uso en esta población debe reservarse para situaciones hospitalarias muy específicas bajo supervisión de un psiquiatra infantil.",
+    "geriatric": "Los pacientes mayores de 65 años son extremadamente sensibles a los efectos del alprazolam. Presentan mayor riesgo de sedación excesiva, deterioro cognitivo, confusión, ataxia, caídas con fracturas (especialmente de cadera) y delirium. Se deben usar las dosis más bajas posibles (iniciar con 0.25 mg una o dos veces al día) y por el menor tiempo posible. Se prefieren alternativas no benzodiacepínicas para el manejo de la ansiedad o el insomnio en este grupo."
+  },
+  "administration": {
+    "howToTake": "Tomar exactamente como lo indique el médico. Las tabletas regulares se toman generalmente 2 a 4 veces al día, con o sin alimentos. Las tabletas de liberación prolongada (XR) se toman una vez al día, preferentemente por la mañana. Tragar la tableta XR entera, sin masticar, partir o triturar. Si se usa la solución oral, medir la dosis cuidadosamente con el gotero o jeringa dosificadora proporcionada. No aumentar la dosis ni la frecuencia sin consultar al médico, incluso si siente que el medicamento 'ya no hace efecto'. Nunca suspender el medicamento abruptamente.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (entre 15°C y 30°C), protegido de la luz, la humedad y el calor. Mantener fuera del alcance y vista de los niños y otras personas, en un lugar seguro (preferentemente bajo llave) debido a su potencial de abuso.",
+    "specialInstructions": "Este medicamento puede causar somnolencia y reducir la capacidad de reacción. Evite conducir vehículos, operar maquinaria peligrosa o realizar actividades que requieran alerta mental hasta que conozca cómo le afecta. Evite completamente el consumo de bebidas alcohólicas. Informe a todos sus médicos y dentistas que está tomando alprazolam antes de cualquier procedimiento. Lleve una identificación que indique que toma este medicamento."
+  },
+  "monitoring": {
+    "labTests": [
+      "Función hepática (AST, ALT, bilirrubina) periódica en uso prolongado",
+      "Conteo sanguíneo completo (CSC) ocasional",
+      "Niveles de alprazolam en plasma (solo en casos de sospecha de toxicidad, falta de respuesta o monitoreo de adherencia en contextos especializados)"
+    ],
+    "frequency": "Evaluación clínica de eficacia y efectos adversos cada 1-4 semanas al inicio, y luego cada 3-6 meses si el tratamiento es prolongado. Pruebas de función hepática al inicio y cada 6-12 meses si el uso es crónico.",
+    "signsToWatch": [
+      "Sedación excesiva o dificultad para despertar",
+      "Confusión o desorientación nueva",
+      "Problemas de equilibrio o caídas frecuentes",
+      "Cambios de humor, ideas de suicidio o agitación paradójica",
+      "Dificultad para respirar o respiración lenta",
+      "Amarillamiento de piel u ojos (ictericia)",
+      "Signos de dependencia o uso compulsivo",
+      "Síntomas de abstinencia al reducir la dosis (ansiedad, insomnio, temblores)"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Sedación profunda que progresa a coma",
+      "Confusión severa",
+      "Reflejos disminuidos o ausentes",
+      "Ataxia severa",
+      "Hipotensión (presión baja)",
+      "Depresión respiratoria (respiración lenta, superficial o que se detiene)",
+      "Bradicardia (ritmo cardíaco lento)",
+      "En casos extremos, paro cardiorrespiratorio y muerte"
+    ],
+    "treatment": "Manejo de soporte inmediato. Mantener la vía aérea permeable, asistir la ventilación si es necesario y administrar oxígeno. Monitorización continua de signos vitales. Lavado gástrico o carbón activado pueden considerarse si la ingestión es muy reciente (menos de 1-2 horas). El tratamiento es principalmente sintomático. La hemodiálisis no es efectiva debido a la alta unión a proteínas. El antídoto específico es el flumazenil.",
+    "antidote": "Flumazenil (Anexate®). Es un antagonista competitivo de los receptores de benzodiacepinas. Se administra por vía intravenosa en un entorno hospitalario. Su uso requiere precaución en pacientes con dependencia a benzodiacepinas o que usan medicamentos proconvulsivantes, ya que puede precipitar un síndrome de abstinencia severo o convulsiones."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica retenida (receta especial controlada).",
+    "scheduleMexico": "Fracción III de la Ley General de Salud. Psicotrópico con potencial de abuso y dependencia.",
+    "fdaApprovalYear": "1981 (Estados Unidos)"
+  },
+  "brandsMexico": [
+    "Tafil",
+    "Xanax",
+    "Alzam",
+    "Alprox",
+    "Zolam",
+    "Frontal",
+    "Niravam",
+    "Zetran",
+    "Apo-Alpraz",
+    "Gen-Alprazolam",
+    "Alprazolam Genfar",
+    "Alprazolam Rimsa",
+    "Alprazolam Psicofarma",
+    "Alprazolam MK",
+    "Alprazolam Valdecasas",
+    "Alprazolam Denver",
+    "Alprazolam Best",
+    "Alprazolam Starmed",
+    "Alprazolam Pisa",
+    "Alprazolam Chinoin",
+    "Alprazolam Liomont",
+    "Alprazolam Sophia"
+  ],
+  "clinicalPearls": [
+    "El alprazolam tiene uno de los perfiles de dependencia y abstinencia más difíciles entre las benzodiacepinas, incluso con uso a corto plazo en dosis terapéuticas. La descontinuación debe ser extremadamente lenta, a veces reduciendo 0.25 mg cada 1-2 semanas.",
+    "Puede causar un fenómeno llamado 'ansiedad de rebote' entre dosis, especialmente con la formulación de acción corta, lo que puede llevar al paciente a tomar dosis adicionales y aumentar el riesgo de dependencia.",
+    "En pacientes con trastorno de pánico, es crucial educar sobre que el alivio inmediato de los síntomas no debe reemplazar las estrategias de terapia psicológica (como la terapia cognitivo-conductual) que abordan la causa subyacente."
+  ],
+  "patientCounseling": "Es fundamental que entienda que el alprazolam es para aliviar sus síntomas de ansiedad o pánico a corto plazo, pero no cura la causa. Tómelo exactamente como se lo recetó su médico, nunca aumente la dosis por su cuenta. Este medicamento puede causar mucho sueño y mareo, especialmente al inicio; evite manejar o hacer actividades peligrosas hasta que sepa cómo le afecta. Bajo NINGUNA circunstancia mezcle este medicamento con alcohol, ya que puede ser mortal. No lo suspenda de golpe, aunque se sienta mejor, porque puede sufrir una abstinencia muy desagradable y peligrosa, con ansiedad, insomnio, temblores y hasta convulsiones. Su médico le dará un plan para dejarlo gradualmente. Guárdelo en un lugar seguro, lejos del alcance de otras personas. Si siente que el medicamento 'ya no le hace efecto', tiene ideas de hacerse daño, o nota que lo necesita tomar más seguido, contacte a su médico inmediatamente.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Ansiedad excesiva",
+        "slug": "ansiedad-excesiva"
+      },
+      {
+        "name": "Ataques de panico",
+        "slug": "ataques-de-panico"
+      },
+      {
+        "name": "Nerviosismo",
+        "slug": "nerviosismo"
+      },
+      {
+        "name": "Tension muscular",
+        "slug": "tension-muscular"
+      },
+      {
+        "name": "Insomnio de inicio",
+        "slug": "insomnio-de-inicio"
+      },
+      {
+        "name": "Palpitaciones por ansiedad",
+        "slug": "palpitaciones-por-ansiedad"
+      },
+      {
+        "name": "Preocupacion constante",
+        "slug": "preocupacion-constante"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Trastorno de ansiedad generalizada",
+        "slug": "trastorno-de-ansiedad-generalizada"
+      },
+      {
+        "name": "Trastorno de panico",
+        "slug": "trastorno-de-panico"
+      },
+      {
+        "name": "Trastorno de ansiedad por enfermedad",
+        "slug": "trastorno-de-ansiedad-por-enfermedad"
+      },
+      {
+        "name": "Ansiedad asociada a depresion",
+        "slug": "ansiedad-asociada-a-depresion"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Dependencia a benzodiacepinas",
+        "slug": "dependencia-a-benzodiacepinas"
+      },
+      {
+        "name": "Sindrome de abstinencia",
+        "slug": "sindrome-de-abstinencia-benzodiacepinas"
+      },
+      {
+        "name": "Deterioro cognitivo",
+        "slug": "deterioro-cognitivo"
+      },
+      {
+        "name": "Demencia",
+        "slug": "demencia"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Alanina aminotransferasa (ALT)",
+        "slug": "alanina-aminotransferasa",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Aspartato aminotransferasa (AST)",
+        "slug": "aspartato-aminotransferasa",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Bilirrubina total",
+        "slug": "bilirrubina-total",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Recuento de leucocitos",
+        "slug": "recuento-de-leucocitos",
+        "effect": "Puede disminuir"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Pruebas de funcion hepatica",
+        "slug": "pruebas-de-funcion-hepatica",
+        "reason": "Para monitorear dano hepatico por metabolismo del farmaco"
+      },
+      {
+        "name": "Conteo sanguineo completo",
+        "slug": "conteo-sanguineo-completo",
+        "reason": "Para detectar leucopenia u otros cambios hematologicos raros"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediatrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿El alprazolam es lo mismo que un tranquilizante?",
+      "a": "Sí, el alprazolam pertenece a la familia de los tranquilizantes menores o ansiolíticos, específicamente a las benzodiacepinas. Su función principal es calmar la ansiedad y el nerviosismo excesivo."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto el alprazolam?",
+      "a": "Generalmente comienza a hacer efecto entre 30 minutos y 1 hora después de tomarlo. El efecto máximo se siente entre 1 y 2 horas después de la ingesta."
+    },
+    {
+      "q": "¿Puedo tomar alprazolam para poder dormir?",
+      "a": "Aunque puede causar somnolencia, el alprazolam NO está aprobado específicamente como pastilla para dormir (hipnótico). Su uso para el insomnio es 'off-label' y solo a corto plazo. Existen medicamentos más adecuados para el insomnio. Consulte a su médico."
+    },
+    {
+      "q": "¿El alprazolam causa adicción?",
+      "a": "Sí, el alprazolam tiene un alto potencial para causar dependencia física y psicológica, incluso cuando se usa por periodos cortos y en dosis terapéuticas. Por eso se vende con receta controlada y su uso debe ser supervisado estrechamente."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si estoy tomando alprazolam?",
+      "a": "NO. La combinación de alprazolam y alcohol es extremadamente peligrosa. Potencia los efectos depresores del sistema nervioso, pudiendo causar sedación profunda, dificultad para respirar, pérdida del conocimiento, coma e incluso la muerte."
+    },
+    {
+      "q": "¿Qué pasa si olvido tomar una dosis?",
+      "a": "Si falta poco para la hora de su siguiente dosis, omita la dosis olvidada y tome la siguiente a la hora habitual. NUNCA duplique la dosis para compensar la olvidada. Si olvida frecuentemente las dosis, consulte a su médico."
+    },
+    {
+      "q": "¿El alprazolam me hará aumentar de peso?",
+      "a": "Es un efecto secundario posible. Algunas personas experimentan aumento del apetito, cambios en el metabolismo o retención de líquidos, lo que puede llevar a un aumento de peso. Mantener una dieta saludable y hacer ejercicio puede ayudar a contrarrestarlo."
+    },
+    {
+      "q": "¿Puedo manejar mi auto si tomo alprazolam?",
+      "a": "Debe tener mucha precaución. El alprazolam puede causar somnolencia, mareo y reducir sus reflejos y capacidad de concentración. Evite manejar u operar maquinaria peligrosa hasta que sepa exactamente cómo le afecta el medicamento."
+    },
+    {
+      "q": "¿Cuánto tiempo puedo tomar alprazolam seguido?",
+      "a": "Debe usarse por el menor tiempo posible. Generalmente, el tratamiento para la ansiedad no debe exceder de 8 a 12 semanas de forma continua, incluyendo el periodo de reducción gradual de la dosis. El uso prolongado aumenta dramáticamente el riesgo de dependencia y otros efectos adversos."
+    },
+    {
+      "q": "¿Qué es el 'efecto rebote' del alprazolam?",
+      "a": "Es cuando los síntomas de ansiedad que se estaban tratando regresan, pero con mayor intensidad, entre una dosis y la siguiente, o al suspender el medicamento. Esto puede hacer que la persona sienta la necesidad de tomar más medicamento o con más frecuencia."
+    },
+    {
+      "q": "¿Puedo suspender el alprazolam de golpe cuando me sienta mejor?",
+      "a": "ABSOLUTAMENTE NO. Suspender el alprazolam abruptamente es peligroso. Puede desencadenar un síndrome de abstinencia severo con ansiedad intensa, insomnio, irritabilidad, temblores, sudoración, náuseas y, en casos graves, convulsiones. Siempre debe reducirse la dosis muy lentamente bajo supervisión médica."
+    },
+    {
+      "q": "¿El alprazolam interactúa con otros medicamentos?",
+      "a": "Sí, tiene muchas interacciones importantes. Interactúa gravemente con alcohol, opioides (para el dolor), algunos antibióticos y antimicóticos, y con el jugo de toronja. Informe a TODOS sus médicos y farmacéuticos que toma alprazolam antes de que le receten cualquier otro medicamento."
+    },
+    {
+      "q": "¿Es seguro tomar alprazolam durante el embarazo?",
+      "a": "No es seguro. Se clasifica en Categoría D, lo que significa que existe evidencia de riesgo para el feto humano (como malformaciones). Solo debe usarse en el embarazo si el beneficio para la madre justifica claramente el riesgo potencial para el bebé, y bajo estricta supervisión médica."
+    },
+    {
+      "q": "¿Puedo amamantar si tomo alprazolam?",
+      "a": "Generalmente no se recomienda. El alprazolam pasa a la leche materna y puede causar sedación, dificultad para alimentarse y otros problemas en el bebé. Si el tratamiento es indispensable, se debe considerar suspender la lactancia. Consulte a su médico y pediatra."
+    },
+    {
+      "q": "¿Qué debo hacer en caso de una sobredosis?",
+      "a": "Es una emergencia médica. Si usted o alguien más toma una dosis excesiva, busque atención médica inmediata o llame al servicio de emergencias (911 en México). Los síntomas incluyen somnolencia extrema, confusión, debilidad muscular, dificultad para respirar y pérdida del conocimiento."
+    },
+    {
+      "q": "¿El alprazolam es bueno para los 'nervios del estómago'?",
+      "a": "Puede ayudar indirectamente si los 'nervios del estómago' (náuseas, malestar) son causados por ansiedad severa, ya que reduce la ansiedad. Sin embargo, no es un tratamiento de primera línea para problemas gastrointestinales. Existen medicamentos más específicos para eso."
+    },
+    {
+      "q": "¿Por qué mi médico me receta una dosis tan baja al principio?",
+      "a": "Para evaluar su tolerancia individual y minimizar los efectos secundarios, especialmente la somnolencia. El alprazolam es un medicamento potente. Comenzar con la dosis más baja efectiva (como 0.25 mg) es una práctica médica segura y estándar."
+    },
+    {
+      "q": "¿El alprazolam puede causar pérdida de memoria?",
+      "a": "Sí, es un efecto secundario común, especialmente a dosis más altas. Puede causar dificultad para formar nuevos recuerdos (amnesia anterógrada) mientras está bajo sus efectos. Esto suele mejorar al reducir la dosa o suspender el medicamento."
+    },
+    {
+      "q": "¿Qué diferencia hay entre el alprazolam de 0.25 mg y el de liberación prolongada (XR)?",
+      "a": "Las tabletas regulares (0.25 mg, 0.5 mg, etc.) liberan el medicamento rápidamente, tienen un efecto más inmediato pero de menor duración (6-12 hrs). Las de liberación prolongada (XR) liberan el fármaco lentamente a lo largo del día, proporcionando un efecto más estable con una sola dosis diaria, lo que puede reducir la ansiedad entre dosis y el riesgo de dependencia."
+    },
+    {
+      "q": "¿Cuál es el papel del alprazolam en el tratamiento integral del trastorno de pánico?",
+      "a": "El alprazolam se usa como un 'rescate' para controlar rápidamente los ataques de pánico agudos y reducir la ansiedad anticipatoria. Sin embargo, la piedra angular del tratamiento es la psicoterapia (como la terapia cognitivo-conductual) que enseña habilidades para manejar el pánico. El alprazolam es una herramienta temporal, no la solución a largo plazo, debido a su perfil de riesgo."
+    }
+  ]
+}

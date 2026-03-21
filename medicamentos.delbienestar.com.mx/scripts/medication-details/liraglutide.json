@@ -1,0 +1,403 @@
+{
+  "name": "Liraglutida",
+  "summary": "La liraglutida es un medicamento inyectable que pertenece a la clase de los agonistas del receptor GLP-1. Se utiliza principalmente para el tratamiento de la diabetes mellitus tipo 2 en adultos, ya que ayuda a controlar los niveles de azúcar en la sangre de manera efectiva. Su mecanismo de acción imita a una hormona natural llamada GLP-1, la cual estimula la liberación de insulina cuando los niveles de glucosa están altos, suprime la liberación de glucagón (una hormona que eleva el azúcar), retrasa el vaciamiento gástrico (lo que ayuda a sentir saciedad) y puede reducir el apetito. Además, en una dosis más alta, está aprobado específicamente como ayuda para el control de peso en adultos con obesidad o sobrepeso que tienen al menos una condición relacionada con el peso, como hipertensión o colesterol alto. Su importancia clínica radica en que no solo mejora el control glucémico con bajo riesgo de hipoglucemia cuando se usa sin otros medicamentos que la causen, sino que también ofrece beneficios cardiovasculares comprobados, como la reducción del riesgo de eventos cardíacos mayores (infarto, derrame cerebral) en pacientes con diabetes tipo 2 y enfermedad cardiovascular establecida. Es una herramienta fundamental en el manejo moderno de la diabetes y la obesidad.",
+  "pharmacology": {
+    "mechanismOfAction": "La liraglutida es un análogo del péptido similar al glucagón tipo 1 (GLP-1) humano, con una similitud del 97%. Actúa como un agonista del receptor GLP-1 en las células beta del páncreas. Al unirse a estos receptores, estimula la liberación de insulina de manera dependiente de la glucosa, es decir, solo cuando los niveles de azúcar en sangre están elevados, lo que minimiza el riesgo de hipoglucemia. Simultáneamente, suprime la secreción de glucagón, otra hormona pancreática que eleva la glucosa. Además, retrasa el vaciamiento gástrico, lo que ralentiza la absorción de nutrientes y contribuye a la sensación de saciedad. A nivel del sistema nervioso central, actúa en centros cerebrales que regulan el apetito, reduciendo la ingesta de alimentos. Estos efectos combinados resultan en un mejor control glucémico, pérdida de peso y beneficios cardiometabólicos.",
+    "pharmacologicClass": "Análogo del péptido-1 similar al glucagón (GLP-1) humano. Agonista del receptor GLP-1.",
+    "therapeuticClass": "Antidiabético inyectable no insulínico. Agente para el control de peso (en dosis más alta).",
+    "absorption": "Se administra por vía subcutánea. La absorción es lenta y sostenida, con una biodisponibilidad absoluta de aproximadamente el 55%. La concentración máxima en plasma (Cmax) se alcanza entre las 8 y 12 horas después de la inyección.",
+    "distribution": "Se distribuye ampliamente en el organismo. Su volumen de distribución aparente es de aproximadamente 11-12 litros. Se une extensamente (más del 98%) a proteínas plasmáticas, principalmente a la albúmina.",
+    "metabolism": "La liraglutida se metaboliza de manera similar a las proteínas grandes, mediante degradación proteolítica generalizada en todo el cuerpo. No es un sustrato significativo del sistema enzimático del citocromo P450 (CYP), por lo que las interacciones farmacocinéticas mediadas por CYP son poco probables.",
+    "elimination": "La vida media de eliminación después de una inyección subcutánea es de aproximadamente 13 horas, lo que permite una administración una vez al día. Los productos del metabolismo son eliminados principalmente por vía renal (aproximadamente 6%) y fecal. La liraglutida intacta no se excreta significativamente por los riñones.",
+    "onsetOfAction": "El efecto sobre la secreción de insulina y glucagón comienza poco después de la administración, pero el control glucémico óptimo se observa después de varias semanas de tratamiento continuo.",
+    "durationOfAction": "Debido a su vida media de 13 horas, su efecto dura aproximadamente 24 horas, permitiendo una dosificación diaria."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento de la diabetes mellitus tipo 2 en adultos, como complemento de la dieta y el ejercicio para mejorar el control glucémico.",
+      "Reducción del riesgo de eventos cardiovasculares mayores (muerte cardiovascular, infarto de miocardio no fatal y accidente cerebrovascular no fatal) en adultos con diabetes tipo 2 y enfermedad cardiovascular establecida.",
+      "Control crónico de peso como complemento de una dieta reducida en calorías y aumento de la actividad física en adultos con un índice de masa corporal (IMC) inicial de ≥30 kg/m² (obesidad), o ≥27 kg/m² (sobrepeso) en presencia de al menos una comorbilidad relacionada con el peso (ej. hipertensión, dislipidemia, apnea obstructiva del sueño, diabetes tipo 2)."
+    ],
+    "offLabel": [
+      "Síndrome de ovario poliquístico (SOP) con resistencia a la insulina.",
+      "Esteatosis hepática no alcohólica (EHNA) o esteatohepatitis no alcohólica (NASH).",
+      "Potenciación de la pérdida de peso en pacientes con obesidad y diabetes tipo 1 (bajo estricta supervisión).",
+      "Prevención de la progresión de prediabetes a diabetes tipo 2."
+    ]
+  },
+  "dosage": {
+    "adults": "Para diabetes tipo 2: Iniciar con 0.6 mg por vía subcutánea una vez al día durante al menos 1 semana. Aumentar a 1.2 mg diarios. Si después de al menos 1 semana se necesita mayor control glucémico, se puede aumentar a la dosis máxima de 1.8 mg diarios. Para control de peso: Iniciar con 0.6 mg diarios durante 1 semana, luego aumentar a 1.2 mg diarios por 1 semana, luego a 1.8 mg diarios por 1 semana, luego a 2.4 mg diarios por 1 semana, y finalmente a la dosis de mantenimiento de 3.0 mg diarios. Los aumentos son para mejorar la tolerancia gastrointestinal.",
+    "pediatric": "No está aprobado para uso en niños y adolescentes menores de 18 años para el tratamiento de la diabetes tipo 2. Para obesidad, está aprobado en adolescentes de 12 años o mayores con peso corporal inicial >60 kg y un IMC correspondiente al percentil 95 o superior para la edad y sexo (obesidad). La dosis es la misma que para adultos: iniciar con 0.6 mg/día y aumentar semanalmente hasta 3.0 mg/día según tolerancia.",
+    "elderly": "No se requiere ajuste de dosis basado únicamente en la edad. Sin embargo, se debe tener precaución debido a la mayor frecuencia de disminución de la función renal. Se recomienda iniciar con la dosis más baja y aumentar gradualmente.",
+    "renalImpairment": "No se requiere ajuste en pacientes con insuficiencia renal leve a moderada (TFG ≥30 mL/min). En pacientes con insuficiencia renal grave (TFG <30 mL/min) o con enfermedad renal terminal en diálisis, la experiencia es limitada. Se recomienda usar con precaución, iniciando con 0.6 mg y monitoreando de cerca. No se recomienda su uso para el control de peso en pacientes con insuficiencia renal grave.",
+    "hepaticImpairment": "No se requiere ajuste de dosis en pacientes con insuficiencia hepática leve a moderada (Clase A y B de Child-Pugh). En insuficiencia hepática grave (Clase C de Child-Pugh), la experiencia es limitada; usar con precaución.",
+    "maxDose": "Para diabetes tipo 2: 1.8 mg una vez al día. Para control de peso: 3.0 mg una vez al día."
+  },
+  "dosageForms": [
+    {
+      "form": "Pluma precargada (pen) inyectable",
+      "strengths": [
+        "6 mg/mL (en pluma de 3 mL: 18 mg total)",
+        "12 mg/mL (en pluma de 3 mL: 36 mg total)"
+      ],
+      "route": "Subcutánea"
+    },
+    {
+      "form": "Viales (menos común)",
+      "strengths": [
+        "6 mg/mL"
+      ],
+      "route": "Subcutánea"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad (alergia) a la liraglutida o a cualquier excipiente de la formulación.",
+      "Antecedentes personales o familiares de carcinoma medular de tiroides (CMT).",
+      "Pacientes con Neoplasia Endocrina Múltiple tipo 2 (MEN 2).",
+      "Embarazo (para la indicación de control de peso)."
+    ],
+    "relative": [
+      "Pancreatitis aguda o crónica activa.",
+      "Enfermedad inflamatoria intestinal grave o gastroparesia diabética severa (debido al retraso en el vaciamiento gástrico).",
+      "Insuficiencia renal terminal (TFG <15) o diálisis (precaución extrema).",
+      "Pacientes con trastornos psiquiátricos graves o antecedentes de intentos suicidas (debido a reportes raros de ideación suicida con fármacos para pérdida de peso)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Náuseas (hasta 40% al inicio, suelen disminuir)",
+      "Diarrea",
+      "Estreñimiento",
+      "Vómitos",
+      "Dolor de cabeza",
+      "Hipoglucemia (cuando se combina con insulina o sulfonilureas)"
+    ],
+    "common": [
+      "Disminución del apetito",
+      "Mareo",
+      "Dolor abdominal superior",
+      "Disfagia (dificultad para tragar)",
+      "Gastritis",
+      "Reflujo gastroesofágico",
+      "Fatiga",
+      "Reacción en el sitio de inyección (enrojecimiento, picor)"
+    ],
+    "uncommon": [
+      "Taquicardia (aumento de la frecuencia cardíaca)",
+      "Colecistitis (inflamación de la vesícula biliar) o colelitiasis (piedras en la vesícula)",
+      "Pancreatitis aguda",
+      "Alergia (rash, urticaria)",
+      "Deshidratación (por diarrea/vómitos severos)",
+      "Aumento de amilasa y lipasa en sangre"
+    ],
+    "rare": [
+      "Necrosis grasa en el sitio de inyección (lipodistrofia)",
+      "Insuficiencia renal aguda (por deshidratación severa)",
+      "Ictericia (coloración amarilla de piel y ojos)",
+      "Ideación suicida (reportes en indicación de control de peso)"
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Insulina",
+        "effect": "Aumenta el riesgo de hipoglucemia. Se recomienda reducir la dosis de insulina al iniciar liraglutida y monitorear glucosa de cerca.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Sulfonilureas (glibenclamida, glimepirida, glipizida)",
+        "effect": "Aumenta el riesgo de hipoglucemia. Se recomienda reducir la dosis de la sulfonilurea al iniciar liraglutida.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Warfarina y otros anticoagulantes orales",
+        "effect": "La liraglutida puede retrasar el vaciamiento gástrico y afectar la absorción de medicamentos orales. Se debe monitorear el INR de cerca, especialmente al iniciar o suspender liraglutida.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "No tiene interacciones directas con alimentos. Se puede administrar independientemente de las comidas, pero se recomienda hacerlo a la misma hora cada día, preferentemente en un horario relacionado con las actividades diarias (ej. al despertar). El alcohol puede aumentar el riesgo de hipoglucemia y también puede empeorar las náuseas.",
+    "withSupplements": "Los suplementos que contengan cromo, canela o melón amargo (para la diabetes) pueden potencialmente potenciar el efecto reductor de glucosa, aumentando el riesgo de hipoglucemia. Se debe informar al médico sobre cualquier suplemento herbal que se esté tomando."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA C (para diabetes) / X (para control de peso)",
+      "recommendation": "Para el tratamiento de la diabetes tipo 2, solo debe usarse durante el embarazo si el beneficio potencial justifica claramente el riesgo potencial para el feto, ya que los datos en humanos son limitados. Para la indicación de control de peso, está contraindicado (Categoría X). Se recomienda cambiar a insulina, que es el estándar de oro para el control de la diabetes durante el embarazo.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se desconoce si la liraglutida se excreta en la leche humana. Debido al potencial de efectos adversos graves en el lactante (riesgo teórico de hipoglucemia) y a la falta de datos, no se recomienda su uso durante la lactancia. Se deben considerar terapias alternativas.",
+    "pediatric": "Aprobado para el control de peso en adolescentes ≥12 años con obesidad (ver dosificación). Para la diabetes tipo 2, la seguridad y eficacia en pacientes pediátricos no están establecidas. No usar en niños menores de 12 años.",
+    "geriatric": "Los pacientes mayores de 65 años pueden ser más sensibles a los efectos adversos, especialmente gastrointestinales (náuseas, diarrea) que pueden llevar a deshidratación. La función renal debe evaluarse antes de iniciar el tratamiento. Iniciar con dosis bajas y aumentar gradualmente."
+  },
+  "administration": {
+    "howToTake": "1. La liraglutida es una inyección subcutánea que se aplica una vez al día, a cualquier hora, independientemente de las comidas. 2. Es importante tratar de inyectarla aproximadamente a la misma hora cada día para mantener niveles constantes. 3. Los sitios de inyección recomendados son el abdomen, el muslo o la parte superior del brazo. Rotar los sitios de inyección cada día para evitar irritación o lipodistrofia. 4. Antes del primer uso, la pluma precargada nueva debe acondicionarse según las instrucciones (generalmente, unir la aguja nueva, realizar un flujo de prueba). 5. La dosis se selecciona girando el selector en la pluma. 6. Después de la inyección, la aguja debe desecharse en un contenedor para objetos punzocortantes. NO compartir la pluma con otra persona.",
+    "storage": "Plumas sin usar: Refrigerar entre 2°C y 8°C (en el refrigerador, no en el congelador). No congelar. Pluma en uso: Una vez iniciada, la pluma se puede guardar a temperatura ambiente (no mayor a 30°C) o en el refrigerador, por un máximo de 30 días. Proteger de la luz directa y del calor excesivo (no dejar en el automóvil). Desechar la pluma después de 30 días de uso, incluso si queda medicamento.",
+    "specialInstructions": "El paciente debe recibir entrenamiento práctico por parte de un profesional de la salud (médico, enfermera, farmacéutico) sobre la técnica correcta de inyección subcutánea. Informar al médico si aparecen náuseas o vómitos intensos y persistentes, dolor abdominal severo que se irradia a la espalda (posible pancreatitis), o síntomas de reacción alérgica grave. No se debe usar si la solución está turbia, decolorada o contiene partículas."
+  },
+  "monitoring": {
+    "labTests": [
+      "Glucosa en ayunas y hemoglobina glucosilada (HbA1c) cada 3 meses.",
+      "Función renal (creatinina sérica, TFG) al inicio y periódicamente.",
+      "Función pancreática (amilasa, lipasa) si hay síntomas sugestivos de pancreatitis.",
+      "Función tiroidea (calcitonina) solo si hay síntomas o antecedentes familiares de enfermedad tiroidea.",
+      "Perfil de lípidos (colesterol, triglicéridos).",
+      "Pruebas de función hepática (TGO, TGP) al inicio."
+    ],
+    "frequency": "HbA1c y glucosa: cada 3-6 meses. Función renal y hepática: al inicio y al menos una vez al año, o con mayor frecuencia si hay deterioro. Peso e IMC: monitoreo regular.",
+    "signsToWatch": [
+      "Síntomas de hipoglucemia: sudoración, temblor, hambre, palpitaciones, confusión.",
+      "Dolor abdominal intenso y persistente que puede irradiarse a la espalda, con o sin vómitos.",
+      "Náuseas, vómitos o diarrea severos que causen deshidratación (boca seca, orina oscura, mareo al ponerse de pie).",
+      "Bulto o hinchazón en el cuello, ronquera, dificultad para tragar (posibles síntomas de enfermedad tiroidea).",
+      "Reacción alérgica: erupción cutánea, picazón, dificultad para respirar.",
+      "Depresión o pensamientos suicidas (especialmente en tratamiento para obesidad)."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Náuseas y vómitos intensos.",
+      "Hipoglucemia severa (confusión, pérdida del conocimiento, convulsiones).",
+      "Deshidratación y alteraciones electrolíticas."
+    ],
+    "treatment": "El tratamiento es de soporte. En caso de hipoglucemia sintomática, administrar glucosa oral o intravenosa según la severidad. Mantener la hidratación. No existe un antídoto específico. La diálisis no es efectiva para eliminar la liraglutida debido a su alta unión a proteínas.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (receta por triplicado en México, puede variar según estado).",
+    "scheduleMexico": "Medicamento de Prescripción (no incluido en listado de psicotrópicos o estupefacientes). Sujeta a control sanitario por ser un biotecnológico.",
+    "fdaApprovalYear": "2010 (para diabetes tipo 2), 2014 (para reducción de riesgo cardiovascular), 2014 (para control de peso)."
+  },
+  "brandsMexico": [
+    "Victoza®",
+    "Saxenda® (formulación de 3.0 mg para obesidad)",
+    "Liraglutida Brystol®",
+    "Liraglutida PiSA®",
+    "Lirafit®",
+    "Glucagen-like® (posible, verificar disponibilidad)"
+  ],
+  "clinicalPearls": [
+    "La pérdida de peso observada con liraglutida no se debe solo a la reducción del apetito y al retraso del vaciamiento gástrico; también hay un efecto directo en centros cerebrales de la saciedad y un posible aumento modesto del gasto energético.",
+    "En estudios cardiovasculares como LEADER, liraglutida demostró reducir significativamente el riesgo de muerte cardiovascular, infarto y derrame cerebral en pacientes con diabetes tipo 2 y enfermedad cardiovascular establecida, independientemente de su efecto en el azúcar y el peso.",
+    "El riesgo de pancreatitis, aunque bajo, es real. Se debe educar al paciente para que reporte inmediatamente dolor abdominal severo y persistente. El riesgo de cáncer de tiroides medular es teórico y se basa en estudios en roedores; en humanos, la asociación no está claramente establecida, pero justifica la contraindicación en pacientes con antecedentes personales/familiares."
+  ],
+  "patientCounseling": "La liraglutida es una inyección que se aplica una vez al día, bajo la piel (como la insulina), para ayudarle a controlar su azúcar en la sangre y/o su peso. Es muy importante que aprenda la técnica correcta de inyección con su médico o enfermera. Al principio, es muy común sentir náuseas, pero estas suelen mejorar después de unas semanas. Para minimizarlas, inicie con la dosis baja y auméntela lentamente como le indicó su médico. Beba suficiente agua para evitar deshidratación si tiene diarrea. Monitoree sus niveles de azúcar en casa como se lo indicaron, especialmente si también usa insulina o pastillas como glibenclamida, porque el riesgo de bajones de azúcar (hipoglucemia) puede aumentar. Nunca comparta su pluma inyectable con otra persona. Guarde las plumas nuevas en el refrigerador y la que esté usando puede guardarse a temperatura ambiente por hasta 30 días. Reporte de inmediato a su médico si tiene dolor de estómago muy fuerte que se corre hacia la espalda, náuseas o vómitos que no ceden, o síntomas de una reacción alérgica. Este medicamento es parte de un tratamiento completo que incluye una alimentación saludable y actividad física regular.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Sed excesiva (polidipsia)",
+        "slug": "sed-excesiva"
+      },
+      {
+        "name": "Orina frecuente (poliuria)",
+        "slug": "orina-frecuente"
+      },
+      {
+        "name": "Hambre constante",
+        "slug": "hambre-constante"
+      },
+      {
+        "name": "Fatiga o cansancio",
+        "slug": "fatiga-cansancio"
+      },
+      {
+        "name": "Exceso de peso",
+        "slug": "exceso-de-peso"
+      },
+      {
+        "name": "Aumento del apetito",
+        "slug": "aumento-del-apetito"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Diabetes mellitus tipo 2",
+        "slug": "diabetes-mellitus-tipo-2"
+      },
+      {
+        "name": "Obesidad",
+        "slug": "obesidad"
+      },
+      {
+        "name": "Síndrome metabólico",
+        "slug": "sindrome-metabolico"
+      },
+      {
+        "name": "Enfermedad cardiovascular aterosclerótica (prevención secundaria en diabéticos)",
+        "slug": "enfermedad-cardiovascular-aterosclerotica"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Pancreatitis aguda",
+        "slug": "pancreatitis-aguda"
+      },
+      {
+        "name": "Colecistitis",
+        "slug": "colecistitis"
+      },
+      {
+        "name": "Hipoglucemia",
+        "slug": "hipoglucemia"
+      },
+      {
+        "name": "Insuficiencia renal aguda",
+        "slug": "insuficiencia-renal-aguda"
+      },
+      {
+        "name": "Reacción alérgica",
+        "slug": "reaccion-alergica-medicamentosa"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Glucosa en sangre",
+        "slug": "glucosa-sangre",
+        "effect": "Disminuye"
+      },
+      {
+        "name": "Hemoglobina Glucosilada (HbA1c)",
+        "slug": "hemoglobina-glucosilada",
+        "effect": "Disminuye"
+      },
+      {
+        "name": "Peso corporal",
+        "slug": "peso-corporal",
+        "effect": "Disminuye"
+      },
+      {
+        "name": "Colesterol LDL",
+        "slug": "colesterol-ldl",
+        "effect": "Puede disminuir levemente"
+      },
+      {
+        "name": "Triglicéridos",
+        "slug": "trigliceridos",
+        "effect": "Disminuye"
+      },
+      {
+        "name": "Amilasa y Lipasa séricas",
+        "slug": "amilasa-lipasa",
+        "effect": "Puede elevarse (sin significar pancreatitis)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Hemoglobina Glucosilada (HbA1c)",
+        "slug": "hemoglobina-glucosilada",
+        "reason": "Para evaluar el control glucémico a largo plazo (cada 3 meses)."
+      },
+      {
+        "name": "Pruebas de función renal (Creatinina, TFG)",
+        "slug": "pruebas-funcion-renal",
+        "reason": "Para ajustar la dosis y monitorear seguridad, ya que la deshidratación por efectos gastrointestinales puede afectar los riñones."
+      },
+      {
+        "name": "Amilasa y Lipasa",
+        "slug": "amilasa-lipasa",
+        "reason": "Solo si hay síntomas sugestivos de pancreatitis (dolor abdominal severo)."
+      },
+      {
+        "name": "Perfil de lípidos",
+        "slug": "perfil-lipidos",
+        "reason": "Para evaluar el impacto del tratamiento en colesterol y triglicéridos."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora IMC",
+        "slug": "calculadora-imc"
+      },
+      {
+        "name": "Calculadora eGFR",
+        "slug": "calculadora-egfr"
+      },
+      {
+        "name": "Calculadora de calorías",
+        "slug": "calculadora-calorias"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La liraglutida es una insulina?",
+      "a": "No, la liraglutida NO es insulina. Es un medicamento de una clase diferente (agonista de GLP-1) que ayuda a su cuerpo a producir su propia insulina de manera más inteligente, solo cuando el azúcar en la sangre está alta. También tiene otros efectos como reducir el apetito."
+    },
+    {
+      "q": "¿Cuánto peso puedo perder con liraglutida (Saxenda)?",
+      "a": "Los resultados varían. En estudios clínicos, las personas que usaron liraglutida 3.0 mg para obesidad, junto con dieta y ejercicio, perdieron en promedio entre un 5% y un 10% de su peso corporal inicial después de un año. Por ejemplo, alguien que pesa 100 kg podría perder entre 5 y 10 kg. La pérdida de peso es individual."
+    },
+    {
+      "q": "¿Las náuseas con liraglutida son normales? ¿Cuánto duran?",
+      "a": "Sí, son un efecto secundario muy común, especialmente al inicio del tratamiento o al aumentar la dosis. Suelen ser leves a moderadas y la mayoría de las personas notan que mejoran significativamente después de unas pocas semanas (2 a 4 semanas) de continuar con la misma dosis. Beber suficiente agua y comer porciones más pequeñas puede ayudar."
+    },
+    {
+      "q": "¿A qué hora del día debo aplicarme la inyección?",
+      "a": "Puede aplicársela a cualquier hora del día que le sea conveniente, independientemente de las comidas. Lo más importante es tratar de hacerlo aproximadamente a la misma hora todos los días para mantener un nivel constante del medicamento en su cuerpo. Muchas personas eligen la mañana para no olvidarlo."
+    },
+    {
+      "q": "¿Puedo usar liraglutida si no tengo diabetes, solo para bajar de peso?",
+      "a": "Sí, pero solo la presentación específica (Saxenda® 3.0 mg) está aprobada para el control de peso en adultos con obesidad (IMC ≥30) o sobrepeso (IMC ≥27) que además tengan otro problema de salud relacionado, como presión alta o colesterol alto. Requiere receta médica y evaluación."
+    },
+    {
+      "q": "¿La liraglutida causa cáncer de tiroides?",
+      "a": "En estudios con ratas y ratones, liraglutida causó tumores en la tiroides (carcinoma medular). No se sabe con certeza si este riesgo existe en humanos. Por precaución, NO debe usarse en personas con antecedentes personales o familiares de cáncer medular de tiroides o de una enfermedad llamada NEM 2. Su médico le preguntará sobre esto."
+    },
+    {
+      "q": "¿Qué hago si me olvido una dosis?",
+      "a": "Si olvida una dosis, aplíquesela tan pronto como lo recuerde, siempre que falten al menos 12 horas para la siguiente dosis programada. Si faltan menos de 12 horas, omita la dosis olvidada y aplique la siguiente a la hora habitual. NUNCA se aplique una dosis doble para compensar la olvidada."
+    },
+    {
+      "q": "¿Puedo beber alcohol mientras uso liraglutida?",
+      "a": "Se debe tener precaución. El alcohol puede aumentar el riesgo de hipoglucemia (bajón de azúcar), especialmente si también usa insulina o ciertas pastillas para la diabetes. Además, el alcohol puede empeorar las náuseas. Si decide beber, hágalo con moderación y siempre con alimento."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto para bajar el azúcar?",
+      "a": "Comienza a actuar en horas, pero el efecto completo sobre el control del azúcar en la sangre (medido por la hemoglobina glucosilada HbA1c) se ve generalmente después de 8 a 12 semanas de uso continuo."
+    },
+    {
+      "q": "¿Dónde me debo inyectar la liraglutida?",
+      "a": "Los sitios recomendados son el abdomen (al menos a 5 cm del ombligo), la parte superior externa del muslo o la parte posterior del brazo (zona del tríceps). Es importante rotar los sitios cada día para evitar irritación o bultos duros bajo la piel."
+    },
+    {
+      "q": "¿La liraglutida es mejor que la metformina?",
+      "a": "No es necesariamente 'mejor', son herramientas diferentes. La metformina suele ser el primer medicamento que se receta para la diabetes tipo 2. La liraglutida se agrega cuando no se logra el control con metformina sola, o cuando además se necesita perder peso o hay enfermedad cardiovascular. Su médico decidirá cuál es la mejor opción para usted."
+    },
+    {
+      "q": "¿Puedo usar liraglutida si tengo problemas de la vesícula biliar?",
+      "a": "Los agonistas de GLP-1 como liraglutida pueden aumentar el riesgo de problemas en la vesícula, como piedras (cálculos) o inflamación (colecistitis). Si tiene antecedentes de enfermedad de la vesícula, informe a su médico. Si durante el tratamiento tiene dolor intenso en la parte superior derecha del abdomen, fiebre o náuseas, busque atención médica."
+    },
+    {
+      "q": "¿La liraglutida protege el corazón?",
+      "a": "Sí, para la presentación Victoza® (1.8 mg), estudios grandes demostraron que reduce el riesgo de sufrir un infarto, un derrame cerebral o morir por causas cardiovasculares en personas con diabetes tipo 2 que ya tienen enfermedad del corazón o han tenido un evento previo. Este es un beneficio muy importante."
+    },
+    {
+      "q": "¿Qué pasa si me inyecto una dosis mayor a la indicada?",
+      "a": "Puede sufrir náuseas y vómitos intensos, y un riesgo alto de hipoglucemia severa si tiene diabetes. No existe un antídoto. Busque atención médica de inmediato o llame al centro de toxicología. El tratamiento será de soporte, controlando los síntomas y la glucosa."
+    },
+    {
+      "q": "¿Puedo usar liraglutida si tengo gastritis o reflujo?",
+      "a": "Puede usarse con precaución, ya que la liraglutida retrasa el vaciamiento del estómago, lo que podría empeorar los síntomas de reflujo o sensación de llenura. Informe a su médico sobre estas condiciones. Es posible que necesite ajustar su medicamento para la gastritis."
+    },
+    {
+      "q": "¿La liraglutida afecta los riñones?",
+      "a": "No daña los riñones directamente. Sin embargo, los efectos secundarios gastrointestinales severos (náuseas, vómitos, diarrea) pueden causar deshidratación, lo que SÍ puede dañar la función renal, especialmente en personas con problemas renales previos. Por eso es crucial beber suficientes líquidos y monitorear la función renal."
+    },
+    {
+      "q": "¿Hay diferencia entre Victoza y Saxenda?",
+      "a": "Sí, son la misma molécula (liraglutida) pero en dosis diferentes y aprobadas para usos distintos. Victoza® viene en dosis de hasta 1.8 mg y está aprobada para diabetes tipo 2 y protección cardiovascular. Saxenda® viene en dosis de hasta 3.0 mg y está aprobada específicamente para el control crónico del peso en obesidad."
+    },
+    {
+      "q": "¿Puedo combinar liraglutida con otros medicamentos para la diabetes como la insulina?",
+      "a": "Sí, se puede combinar con muchos otros medicamentos, incluyendo metformina, pioglitazona, DPP-4 (sitagliptina) e incluso insulina. Sin embargo, al combinarla con insulina o sulfonilureas (como glibenclamida), el riesgo de hipoglucemia aumenta, por lo que su médico probablemente reducirá la dosis de esos otros medicamentos."
+    },
+    {
+      "q": "¿La pérdida de peso con liraglutida es permanente o la recupero al suspenderlo?",
+      "a": "La liraglutida controla el peso mientras se usa. Al suspender el tratamiento, es muy probable que se recupere gran parte del peso perdido si no se mantienen los hábitos de alimentación saludable y ejercicio. Se considera un tratamiento crónico para la obesidad, similar a la medicación para la presión alta."
+    },
+    {
+      "q": "¿Cómo se compara liraglutida con otros agonistas de GLP-1 como semaglutida (Ozempic) o dulaglutida (Trulicity)?",
+      "a": "Todos son de la misma familia y comparten beneficios. Las principales diferencias son: frecuencia de aplicación (liraglutida es diaria, semaglutida y dulaglutida son semanales), potencia (semaglutida tiende a ser más potente para bajar azúcar y peso), y evidencia cardiovascular específica. La elección depende de las necesidades del paciente, preferencias y costo/acceso. Su médico puede ayudarle a decidir."
+    }
+  ]
+}

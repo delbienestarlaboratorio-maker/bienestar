@@ -1,0 +1,407 @@
+{
+  "name": "Sulfato de Neomicina",
+  "summary": "El sulfato de neomicina es un antibiótico de la familia de los aminoglucósidos, utilizado principalmente para tratar infecciones intestinales graves causadas por bacterias sensibles. Su importancia clínica radica en su capacidad para eliminar bacterias en el tracto gastrointestinal, especialmente antes de cirugías intestinales, y en el tratamiento de la encefalopatía hepática para reducir la producción de amonio. Sin embargo, su uso es limitado y requiere supervisión médica estricta debido a su potencial toxicidad en los riñones y en el oído, especialmente cuando se absorbe en cantidades significativas. Es un medicamento que no se debe usar a la ligera y siempre bajo prescripción médica, ya que su mal uso puede generar resistencia bacteriana y efectos adversos graves. En México, se encuentra disponible en varias presentaciones, pero su administración debe ser cuidadosamente monitoreada.",
+  "pharmacology": {
+    "mechanismOfAction": "El sulfato de neomicina actúa uniéndose de manera irreversible a la subunidad 30S del ribosoma bacteriano, lo que interfiere con la síntesis de proteínas esenciales para la supervivencia y multiplicación de las bacterias. Este mecanismo es bactericida, es decir, mata a las bacterias sensibles. Su acción es principalmente local en el intestino, ya que se absorbe muy poco por vía oral. Sin embargo, la pequeña fracción que se absorbe puede alcanzar concentraciones sistémicas suficientes para causar toxicidad, especialmente en riñones y oído interno (cóclea y vestíbulo). La neomicina es activa contra una variedad de bacterias gramnegativas y algunas grampositivas, pero su uso sistémico está obsoleto debido a su perfil de toxicidad.",
+    "pharmacologicClass": "Antibiótico aminoglucósido",
+    "therapeuticClass": "Antibiótico intestinal, Agente para la encefalopatía hepática",
+    "absorption": "La absorción por vía oral es muy pobre (menos del 3%). Casi todo el medicamento permanece en el tracto gastrointestinal y se excreta sin cambios en las heces. La absorción puede aumentar significativamente en pacientes con úlceras, inflamación intestinal (como colitis ulcerosa o enfermedad de Crohn), o insuficiencia renal, aumentando el riesgo de toxicidad sistémica.",
+    "distribution": "Cuando se absorbe, se distribuye principalmente en el espacio extracelular. Su unión a proteínas plasmáticas es baja (aproximadamente 0-30%). Su volumen de distribución (Vd) es similar al del agua extracelular (alrededor de 0.25 L/kg). No penetra bien en el líquido cefalorraquídeo (LCR) ni en los tejidos oculares, excepto en presencia de inflamación.",
+    "metabolism": "No sufre metabolismo hepático significativo. No es sustrato del sistema de enzimas CYP450. Es excretado principalmente sin cambios.",
+    "elimination": "La vida media en pacientes con función renal normal es de aproximadamente 2 a 3 horas. Sin embargo, en pacientes con insuficiencia renal, esta vida media se prolonga considerablemente (hasta 70 horas o más). La vía principal de eliminación de la fracción absorbida es la renal, por filtración glomerular. Más del 90% de una dosis oral se excreta sin cambios en las heces.",
+    "onsetOfAction": "El efecto antibacteriano local en el intestino comienza pocas horas después de la administración. La reducción de la flora productora de amonio en la encefalopatía hepática puede observarse en 24-72 horas.",
+    "durationOfAction": "El efecto sobre la flora intestinal puede persistir durante varios días después de suspender el tratamiento, debido a la alteración prolongada de la microbiota."
+  },
+  "indications": {
+    "approved": [
+      "Supresión de la flora intestinal preoperatoria (profilaxis quirúrgica intestinal)",
+      "Tratamiento adyuvante de la encefalopatía hepática (para reducir la producción de amonio por bacterias intestinales)",
+      "Tratamiento de infecciones intestinales bacterianas (como diarrea infecciosa) causadas por organismos sensibles"
+    ],
+    "offLabel": [
+      "Tratamiento tópico de infecciones cutáneas menores (a menudo en combinación con otros antibióticos y corticosteroides en cremas/pomadas)",
+      "Irrigación de heridas",
+      "Prevención de infecciones en cirugía de colon y recto (en combinación con eritromicina)"
+    ]
+  },
+  "dosage": {
+    "adults": "Para encefalopatía hepática: 1-3 gramos al día, divididos en 3-4 dosis (ej. 500 mg cada 6 horas). Para supresión intestinal preoperatoria: 1 gramo cada hora por 4 dosis, luego 1 gramo cada 4 horas por las siguientes 24-72 horas (esquema específico). La dosis diaria típica no debe exceder los 12 gramos en 24 horas, y los tratamientos prolongados deben evitarse.",
+    "pediatric": "La seguridad y eficacia en niños para uso oral no están bien establecidas. Si se usa, la dosis se calcula por peso: 50-100 mg/kg/día, divididos en 3-4 dosis. El uso debe ser bajo estricta supervisión médica y por el menor tiempo posible debido al riesgo de toxicidad.",
+    "elderly": "Los pacientes mayores tienen mayor probabilidad de tener función renal disminuida. Se requiere ajuste de dosis basado en la tasa de filtración glomerular (TFG). Se recomienda iniciar con dosis más bajas y monitorear función renal y auditiva de cerca.",
+    "renalImpairment": "AJUSTE CRÍTICO. Con TFG >50 mL/min: dosis habitual. TFG 10-50 mL/min: reducir dosis o aumentar intervalo (ej. 50-75% de dosis cada 12-24h). TFG <10 mL/min o diálisis: evitar uso oral si es posible. Si es necesario, usar 25-50% de dosis cada 24-48 horas. La neomicina no se elimina eficazmente con hemodiálisis estándar.",
+    "hepaticImpairment": "No se requiere ajuste específico por insuficiencia hepática per se, pero es el grupo principal de pacientes (encefalopatía hepática). Monitorear estrechamente función renal, ya que la enfermedad hepática avanzada puede afectar la perfusión renal.",
+    "maxDose": "La dosis máxima diaria recomendada por vía oral es de 12 gramos, pero los tratamientos crónicos no deben exceder 4-6 gramos/día y deben ser de la menor duración posible (generalmente no más de 7-10 días para infecciones intestinales)."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "500 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Polvo para suspensión oral",
+      "strengths": [
+        "125 mg/5 mL"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Crema o pomada tópica",
+      "strengths": [
+        "5 mg/g (0.5%)"
+      ],
+      "route": "Tópica"
+    },
+    {
+      "form": "Solución ótica",
+      "strengths": [
+        "5 mg/mL (0.5%)"
+      ],
+      "route": "Ótica"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la neomicina o a otros aminoglucósidos (como gentamicina, amikacina)",
+      "Obstrucción intestinal o íleo paralítico",
+      "Insuficiencia renal grave (TFG <30 mL/min) o anuria",
+      "Miastenia gravis (puede agravar la debilidad muscular)"
+    ],
+    "relative": [
+      "Enfermedad inflamatoria intestinal activa (aumenta absorción)",
+      "Úlceras gastrointestinales",
+      "Pacientes con historial de ototoxicidad por aminoglucósidos",
+      "Pacientes de edad avanzada con función renal disminuida",
+      "Embarazo y lactancia (evaluar riesgo-beneficio)"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Náuseas",
+      "Diarrea o heces blandas",
+      "Malestar abdominal"
+    ],
+    "common": [
+      "Vómitos",
+      "Irritación anal o perianal",
+      "Sobrecrecimiento de bacterias u hongos no sensibles (como Candida)"
+    ],
+    "uncommon": [
+      "Absorción sistémica con nefrotoxicidad (daño renal reversible)",
+      "Ototoxicidad (pérdida auditiva, tinnitus, vértigo) - especialmente con uso prolongado o en pacientes de riesgo",
+      "Erupción cutánea o prurito"
+    ],
+    "rare": [
+      "Bloqueo neuromuscular (dificultad respiratoria, debilidad muscular extrema)",
+      "Malabsorción de nutrientes (grasas, proteínas, vitaminas) con uso prolongado",
+      "Anemia megaloblástica (por alteración de la flora que produce vitamina B12)",
+      "Hipersensibilidad severa (anafilaxia)"
+    ],
+    "blackBoxWarning": "La neomicina oral está asociada con ototoxicidad (sordera permanente) y nefrotoxicidad. El riesgo es mayor con tratamiento prolongado, en pacientes con insuficiencia renal y en aquellos que reciben dosis altas. La neomicina también puede causar bloqueo neuromuscular y parálisis respiratoria, especialmente cuando se usa con anestésicos o relajantes musculares."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Otros aminoglucósidos (Gentamicina, Amikacina, Tobramicina) por vía sistémica",
+        "effect": "Aumento aditivo del riesgo de ototoxicidad y nefrotoxicidad.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Diuréticos de asa (Furosemida, Bumetanida, Ácido etacrínico)",
+        "effect": "Aumentan el riesgo de ototoxicidad, especialmente si se administran por vía intravenosa.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Relajantes musculares despolarizantes y no despolarizantes (Succinilcolina, Vecuronio)",
+        "effect": "La neomicina puede potenciar el bloqueo neuromuscular, provocando apnea o debilidad muscular prolongada.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Fármacos nefrotóxicos (Vancomicina IV, Anfotericina B, Cisplatino, AINEs en dosis altas)",
+        "effect": "Aumento del riesgo de daño renal agudo.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Digoxina, Metotrexato, Warfarina",
+        "effect": "La neomicina puede alterar la flora intestinal y reducir la absorción de estos fármacos, disminuyendo su efectividad. También puede aumentar el efecto de la warfarina al reducir la síntesis de vitamina K por bacterias intestinales.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Puede tomarse con o sin alimentos. Tomarlo con alimentos puede reducir las náuseas. Sin embargo, los productos lácteos (leche, yogur) o antiácidos que contengan calcio, magnesio o aluminio pueden unirse a la neomicina en el intestino y reducir su efectividad. Se recomienda separar la toma de neomicina y estos productos por al menos 2 horas. Evitar el consumo excesivo de alcohol, ya que puede aumentar el riesgo de toxicidad hepática y enmascarar síntomas de encefalopatía.",
+    "withSupplements": "Suplementos que contengan calcio, hierro, magnesio o zinc pueden reducir la absorción de neomicina y viceversa. Separar la administración por al menos 2 horas. La neomicina puede interferir con la absorción de vitaminas liposolubles (A, D, E, K) y de la vitamina B12 con uso prolongado, pudiendo requerir suplementación."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "D",
+      "recommendation": "La neomicina cruza la placenta. Su uso durante el embarazo solo está justificado si el beneficio potencial para la madre supera claramente el riesgo potencial para el feto, que incluye ototoxicidad fetal. No se recomienda para infecciones intestinales rutinarias. En casos de encefalopatía hepática grave en una mujer embarazada, se deben considerar alternativas (como lactulosa) primero.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La neomicina se excreta en cantidades mínimas en la leche materna. Sin embargo, debido al potencial de efectos adversos graves (alteración de la flora intestinal del lactante, riesgo teórico de sensibilización), se recomienda precaución. Si es esencial su uso, se debe monitorear al bebé por diarrea o candidiasis. Generalmente, se prefieren alternativas.",
+    "pediatric": "El uso oral en recién nacidos y lactantes es desaconsejado debido al riesgo incierto de toxicidad y a la mayor absorción por su mucosa intestinal inmadura. Solo debe usarse bajo supervisión médica especializada, en dosis ajustadas por peso y por el menor tiempo posible.",
+    "geriatric": "Los pacientes mayores de 65 años tienen mayor probabilidad de tener función renal reducida y pérdida auditiva previa. Se requiere ajuste de dosis basado en TFG y un monitoreo muy estrecho de la función renal y auditiva. Evitar tratamientos prolongados."
+  },
+  "administration": {
+    "howToTake": "Tomar exactamente como lo indique el médico. Las tabletas deben tragarse enteras con un vaso lleno de agua. Para la suspensión, agitar bien el frasco antes de cada uso y medir la dosis con el dosificador proporcionado (cuchara o jeringa medidora). En el esquema preoperatorio, seguir estrictamente los horarios indicados (cada hora, luego cada 4 horas). No suspender el tratamiento antes de tiempo, incluso si se siente mejor, a menos que el médico lo indique.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (entre 15°C y 30°C), lejos del calor, la humedad y la luz directa del sol. No congelar la suspensión oral. Mantener fuera del alcance de los niños. Desechar cualquier suspensión no utilizada después de la fecha de caducidad.",
+    "specialInstructions": "Mantener una hidratación adecuada bebiendo abundantes líquidos durante el tratamiento. Informar al médico inmediatamente si se presenta zumbido en los oídos (tinnitus), pérdida de audición, mareo, disminución en la cantidad de orina, o hinchazón de pies/piernas. No usar para tratar diarreas comunes sin diagnóstico médico, ya que puede empeorar algunas infecciones. No compartir este medicamento con otras personas."
+  },
+  "monitoring": {
+    "labTests": [
+      "Creatinina sérica y cálculo de TFG (antes de iniciar, cada 3-5 días durante tratamiento prolongado)",
+      "Electrolitos séricos (sodio, potasio, cloro)",
+      "Pruebas de función auditiva (audiometría) en tratamientos que duren más de 7-10 días o en pacientes de alto riesgo",
+      "Niveles de amonio en sangre (en encefalopatía hepática)",
+      "Examen de heces (cultivo y sensibilidad al inicio)"
+    ],
+    "frequency": "Función renal: al inicio y al menos 2 veces por semana durante el tratamiento. Función auditiva: al inicio y periódicamente si el tratamiento supera los 7 días. En pacientes ambulatorios con tratamientos cortos (<5 días), el monitoreo puede ser clínico (síntomas de toxicidad).",
+    "signsToWatch": [
+      "Zumbido, silbido o sensación de llenura en los oídos",
+      "Pérdida de audición, especialmente para sonidos agudos",
+      "Mareo, vértigo o pérdida del equilibrio",
+      "Disminución en la frecuencia o cantidad de orina",
+      "Orina espumosa o de color oscuro",
+      "Sed excesiva",
+      "Debilidad muscular inusual o dificultad para respirar",
+      "Hinchazón de pies, tobillos o piernas",
+      "Diarrea severa o con sangre/mucosidad"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Náuseas y vómitos intensos",
+      "Diarrea profusa",
+      "Pérdida auditiva súbita o severa",
+      "Vértigo incapacitante",
+      "Disminución o ausencia de producción de orina (anuria)",
+      "Debilidad muscular extrema o parálisis flácida",
+      "Dificultad para respirar (depresión respiratoria)"
+    ],
+    "treatment": "No hay antídoto específico. El tratamiento es de soporte y sintomático. Suspender el medicamento inmediatamente. Medidas generales: lavado gástrico si la ingestión fue reciente y el paciente está consciente. Mantener vía aérea, respiración y circulación. La hemodiálisis NO es eficaz para eliminar la neomicina, pero puede ser necesaria para tratar la insuficiencia renal resultante. La diálisis peritoneal es incluso menos efectiva. Tratar la deshidratación por diarrea con líquidos intravenosos.",
+    "antidote": "null"
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Medicamento de patente y genérico sujeto a prescripción)",
+    "scheduleMexico": "Fracción III (Sustancias medicamentosas con posibilidad de causar farmacodependencia, de uso en medicina, sujetas a control especial). Aunque no es un fármaco de alto potencial de abuso, su toxicidad lo coloca en este grupo para controlar su dispensación.",
+    "fdaApprovalYear": "Aprobado por la FDA en la década de 1940."
+  },
+  "brandsMexico": [
+    "Neomicina MK",
+    "Neo-Fradin",
+    "Mycifradin",
+    "Neomicina Générica (varios laboratorios como Psicofarma, Liomont, etc.)",
+    "Neo-Terramicina (combinación con oxitetraciclina)",
+    "Pomada Nebacetín (combinación con bacitracina)",
+    "Crema Furacin Neomicina (combinación con nitrofurazona)",
+    "Gotas óticas Oto-Biotic N (combinación con polimixina B y hidrocortisona)"
+  ],
+  "clinicalPearls": [
+    "Nunca usar neomicina oral para infecciones sistémicas. Su uso está restringido al tracto gastrointestinal.",
+    "La ototoxicidad por neomicina suele ser irreversible y puede manifestarse incluso semanas después de suspender el tratamiento.",
+    "En pacientes con enfermedad hepática, la lactulosa es la terapia de primera línea para la encefalopatía; la neomicina se reserva para casos refractarios.",
+    "La neomicina es un ejemplo clásico de fármaco cuyo margen terapéutico es muy estrecho: la dosis efectiva está muy cerca de la dosis tóxica.",
+    "Educar al paciente para que reporte inmediatamente cualquier síntoma de toxicidad auditiva (tinnitus) es crucial para prevenir daño permanente."
+  ],
+  "patientCounseling": "Este medicamento es un antibiótico fuerte que se usa para infecciones intestinales específicas o para preparar el intestino antes de una cirugía. Es muy importante que lo tome exactamente como se lo recetó el médico, respetando horarios y duración del tratamiento. Beba mucha agua mientras lo esté tomando. Debe estar alerta a señales de alarma: si escucha zumbidos en los oídos, se marea, orina menos de lo normal o siente mucha debilidad, DEJE de tomar el medicamento y contacte a su médico de inmediato. No lo use para una diarrea común. No tome antiácidos, laxantes con magnesio o suplementos de vitaminas/minerales al mismo tiempo; sepárelos por al menos 2 horas. Guarde el medicamento en un lugar seguro, lejos del alcance de los niños. Si le sobra medicina, no la guarde para otra ocasión.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Diarrea infecciosa",
+        "slug": "diarrea-infecciosa"
+      },
+      {
+        "name": "Confusión o desorientación (encefalopatía)",
+        "slug": "confusion-encefalopatia"
+      },
+      {
+        "name": "Hinchazón abdominal por gases",
+        "slug": "hinchazon-abdominal-gases"
+      },
+      {
+        "name": "Malestar abdominal general",
+        "slug": "malestar-abdominal"
+      },
+      {
+        "name": "Pérdida de apetito",
+        "slug": "perdida-apetito"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Encefalopatía hepática",
+        "slug": "encefalopatia-hepatica"
+      },
+      {
+        "name": "Colitis infecciosa bacteriana",
+        "slug": "colitis-infecciosa-bacteriana"
+      },
+      {
+        "name": "Síndrome de intestino corto con sobrecrecimiento bacteriano",
+        "slug": "sindrome-intestino-corto-sobrecrecimiento"
+      },
+      {
+        "name": "Infecciones cutáneas menores",
+        "slug": "infecciones-cutaneas-menores"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Insuficiencia renal aguda",
+        "slug": "insuficiencia-renal-aguda"
+      },
+      {
+        "name": "Hipoacusia neurosensorial",
+        "slug": "hipoacusia-neurosensorial"
+      },
+      {
+        "name": "Desequilibrio y vértigo",
+        "slug": "desequilibrio-vertigo"
+      },
+      {
+        "name": "Colitis pseudomembranosa (por C. difficile)",
+        "slug": "colitis-pseudomembranosa"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Nitrógeno ureico en sangre (BUN)",
+        "slug": "nitrogeno-ureico-sangre-bun",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Amonio en sangre",
+        "slug": "amonio-sangre",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Potasio sérico",
+        "slug": "potasio-serico",
+        "effect": "Puede elevar (por daño renal)"
+      },
+      {
+        "name": "Magnesio sérico",
+        "slug": "magnesio-serico",
+        "effect": "Puede disminuir (por malabsorción)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Creatinina y TFG",
+        "slug": "estudio-creatinina-tfg",
+        "reason": "Monitoreo esencial de nefrotoxicidad"
+      },
+      {
+        "name": "Audiometría",
+        "slug": "estudio-audiometria",
+        "reason": "Detección temprana de ototoxicidad"
+      },
+      {
+        "name": "Cultivo y sensibilidad de heces",
+        "slug": "estudio-cultivo-sensibilidad-heces",
+        "reason": "Confirmar bacteria sensible antes de iniciar tratamiento"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      },
+      {
+        "name": "Dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve la neomicina?",
+      "a": "Sirve principalmente para tratar infecciones graves en los intestinos causadas por bacterias y para preparar el intestino antes de una cirugía. También se usa, bajo supervisión médica, para ayudar a controlar la confusión causada por problemas graves del hígado (encefalopatía hepática)."
+    },
+    {
+      "q": "¿La neomicina es para la diarrea común?",
+      "a": "NO. No debe usarse para una diarrea común o leve. Es un antibiótico fuerte reservado para infecciones intestinales específicas diagnosticadas por un médico. Usarlo mal puede causar efectos graves y hacer que las bacterias se vuelvan resistentes."
+    },
+    {
+      "q": "¿Cómo debo tomar las tabletas de neomicina?",
+      "a": "Trague las tabletas enteras con un vaso lleno de agua. Siga al pie de la letra los horarios que le indicó el médico. Puede tomarlas con o sin alimentos, pero si le causan malestar estomacal, tomarlas con comida puede ayudar."
+    },
+    {
+      "q": "¿Qué hago si se me olvida una dosis?",
+      "a": "Tómela tan pronto como lo recuerde. Pero si ya es casi la hora de su siguiente dosis, sáltese la dosis olvidada y continúe con su horario normal. NO tome una dosis doble para compensar la que olvidó."
+    },
+    {
+      "q": "¿La neomicina tiene muchos efectos secundarios?",
+      "a": "Puede causar efectos secundarios. Los más comunes son náuseas, diarrea y dolor de estómago. Los más graves, pero menos comunes, son daño a los riñones o al oído (pérdida de audición, zumbidos). Por eso es importante el monitoreo médico."
+    },
+    {
+      "q": "¿Puedo tomar leche o antiácidos con la neomicina?",
+      "a": "No es recomendable tomarlos al mismo tiempo. Los antiácidos, la leche o suplementos con calcio, magnesio o aluminio pueden hacer que la neomicina no funcione bien. Separe la toma de estos productos y la neomicina por al menos 2 horas."
+    },
+    {
+      "q": "¿Puedo tomar alcohol mientras uso neomicina?",
+      "a": "No se recomienda. El alcohol puede empeorar algunos problemas del hígado y aumentar el riesgo de efectos secundarios. Además, puede interferir con el propósito del tratamiento, especialmente si se usa para encefalopatía hepática."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Para controlar una infección intestinal o reducir los síntomas de la encefalopatía hepática, puede comenzar a notar mejoría en 1 a 3 días. Sin embargo, es crucial completar TODO el tratamiento que le recetó el médico, aunque ya se sienta mejor."
+    },
+    {
+      "q": "¿La neomicina me puede causar sordera?",
+      "a": "Es un riesgo posible, especialmente si se usa por mucho tiempo, en dosis altas, o si tiene problemas en los riñones. La pérdida de audición puede ser permanente. Reporte INMEDIATAMENTE a su médico si nota zumbidos en los oídos o si escucha menos."
+    },
+    {
+      "q": "¿Pueden los niños tomar neomicina?",
+      "a": "Su uso en niños, especialmente bebés, es limitado y debe ser solo bajo la estricta supervisión de un pediatra, quien evaluará el riesgo-beneficio. Generalmente se prefieren otros antibióticos más seguros para los niños."
+    },
+    {
+      "q": "¿Puedo usar neomicina si estoy embarazada o amamantando?",
+      "a": "Consulte a su médico. Durante el embarazo (Categoría D) solo se usa si es absolutamente necesario, ya que puede afectar al bebé. Durante la lactancia, pasa muy poco a la leche, pero puede alterar la flora intestinal del bebé. Se prefieren alternativas."
+    },
+    {
+      "q": "¿Qué debo hacer si tomo demasiada neomicina (sobredosis)?",
+      "a": "Busque atención médica de EMERGENCIA o llame al centro de toxicología. Los síntomas pueden ser vómitos severos, diarrea, zumbidos fuertes en los oídos, mareo intenso, o dejar de orinar."
+    },
+    {
+      "q": "¿La neomicina interactúa con otros medicamentos?",
+      "a": "Sí, de manera importante. Informe a su médico sobre TODOS los medicamentos que toma, especialmente otros antibióticos, diuréticos (como la furosemida), relajantes musculares, warfarina o medicamentos para el corazón como la digoxina."
+    },
+    {
+      "q": "¿Por qué el médico me pide exámenes de la creatinina mientras tomo neomicina?",
+      "a": "Para vigilar que sus riñones estén funcionando bien. La neomicina puede dañar los riñones, y la creatinina es un indicador clave de su función. Si sube, el médico puede ajustar la dosis o suspender el medicamento."
+    },
+    {
+      "q": "¿La neomicina puede causar más diarrea?",
+      "a": "Sí, la diarrea es un efecto secundario común. Sin embargo, si la diarrea es muy severa, con sangre, mucosidad o fiebre, puede ser una infección grave por una bacteria llamada C. difficile, que requiere atención médica inmediata."
+    },
+    {
+      "q": "¿Puedo comprar neomicina sin receta en México?",
+      "a": "NO. La neomicina es un medicamento que requiere receta médica (Fracción III). No se vende libremente debido a sus riesgos de toxicidad. Solo un médico puede evaluar si la necesita y recetarla de manera segura."
+    },
+    {
+      "q": "¿La neomicina en crema para la piel es igual de peligrosa que la que se toma?",
+      "a": "La crema o pomada tópica se absorbe muy poco a través de la piel sana, por lo que el riesgo de toxicidad sistémica (en riñones/oídos) es mucho menor. Sin embargo, no debe usarse en heridas grandes, quemaduras extensas o por tiempo prolongado."
+    },
+    {
+      "q": "¿La neomicina mata también las bacterias buenas del intestino?",
+      "a": "Sí, como muchos antibióticos, altera la flora intestinal normal. Esto puede llevar a diarrea, sobrecrecimiento de hongos (como candidiasis) o de bacterias resistentes. Por eso no debe usarse por periodos largos."
+    },
+    {
+      "q": "¿Es lo mismo neomicina que amikacina o gentamicina?",
+      "a": "Pertenecen a la misma familia (aminoglucósidos) y tienen mecanismos y toxicidades similares. Pero la neomicina casi no se usa en inyecciones para infecciones generales debido a su alta toxicidad; la gentamicina y amikacina sí se usan por esa vía, pero con monitoreo estricto."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre usar neomicina y lactulosa para la encefalopatía hepática?",
+      "a": "La lactulosa es el tratamiento de primera elección. Es un laxante que acidifica el intestino y atrapa el amonio. La neomicina (que mata bacterias productoras de amonio) se reserva para casos donde la lactulosa no es suficiente o no se tolera, debido a sus riesgos."
+    }
+  ]
+}

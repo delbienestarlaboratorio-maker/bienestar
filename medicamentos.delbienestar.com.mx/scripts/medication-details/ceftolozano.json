@@ -1,0 +1,364 @@
+{
+  "name": "Ceftolozano",
+  "summary": "El Ceftolozano es un antibiótico potente de la familia de las cefalosporinas, utilizado principalmente para combatir infecciones bacterianas graves causadas por microorganismos resistentes a otros tratamientos. Sirve específicamente para tratar infecciones intraabdominales complicadas (como peritonitis) e infecciones del tracto urinario complicadas, incluyendo pielonefritis. Su importancia clínica radica en que es eficaz contra bacterias como Pseudomonas aeruginosa y algunas enterobacterias productoras de betalactamasas de espectro extendido (BLEE), que son comunes en hospitales y representan un desafío terapéutico. Este medicamento es una herramienta valiosa para los médicos cuando las opciones de antibióticos más convencionales han fallado o no son adecuadas debido a la resistencia bacteriana. Se administra por vía intravenosa en un entorno hospitalario, lo que permite un control estricto de la dosis y la respuesta del paciente. Su uso debe ser supervisado por especialistas para maximizar su eficacia y minimizar el riesgo de desarrollar más resistencia bacteriana.",
+  "pharmacology": {
+    "mechanismOfAction": "El Ceftolozano es un antibiótico betalactámico de la subclase de las cefalosporinas. Su mecanismo de acción principal es la inhibición de la síntesis de la pared celular bacteriana. Se une de forma irreversible a las proteínas fijadoras de penicilina (PBP, por sus siglas en inglés), en particular a la PBP3 en bacterias Gram-negativas. Esta unión interfiere con el proceso final de entrecruzamiento (transpeptidación) de los peptidoglicanos, que son componentes esenciales para la rigidez y la integridad de la pared celular. Como resultado, la bacteria no puede mantener su estructura, lo que lleva a la lisis celular y a la muerte del microorganismo. Una característica clave del Ceftolozano es su estabilidad frente a muchas betalactamasas (enzimas que destruyen otros antibióticos), incluidos algunos tipos de BLEE y betalactamasas de tipo AmpC, lo que le confiere actividad contra cepas resistentes. Además, tiene una alta afinidad por las PBP y una capacidad mejorada para penetrar la membrana externa de las bacterias Gram-negativas.",
+    "pharmacologicClass": "Antibiótico betalactámico; Cefalosporina de quinta generación (o de espectro expandido contra Pseudomonas).",
+    "therapeuticClass": "Antibiótico sistémico.",
+    "absorption": "No se absorbe por vía oral. Debe administrarse por vía intravenosa (IV). La biodisponibilidad tras la administración IV es del 100%.",
+    "distribution": "Se distribuye ampliamente en los tejidos y fluidos corporales. Su volumen de distribución en estado estacionario es de aproximadamente 13-18 litros. Se une a proteínas plasmáticas en un grado bajo a moderado (aproximadamente 16-21%). Penetra bien en tejidos como el pulmón, el líquido peritoneal y el tejido renal.",
+    "metabolism": "El Ceftolozano no sufre un metabolismo hepático significativo. No es un sustrato, inhibidor o inductor de las enzimas del citocromo P450 (CYP). Se elimina mayoritariamente sin cambios.",
+    "elimination": "Se elimina principalmente por excreción renal. Aproximadamente el 85-95% de la dosis se recupera sin cambios en la orina en 48 horas. Su vida media de eliminación es de aproximadamente 2.5 a 3.5 horas en adultos con función renal normal.",
+    "onsetOfAction": "Las concentraciones plasmáticas terapéuticas se alcanzan rápidamente al final de la infusión intravenosa.",
+    "durationOfAction": "Su efecto bactericida es dependiente del tiempo. Por lo general, se administra cada 8 horas para mantener concentraciones por encima de la concentración inhibitoria mínima (CIM) de las bacterias objetivo durante un tiempo suficiente."
+  },
+  "indications": {
+    "approved": [
+      "Infección intraabdominal complicada (cIAI) en adultos, en combinación con metronidazol.",
+      "Infección del tracto urinario complicada (cUTI), incluyendo pielonefritis, en adultos."
+    ],
+    "offLabel": [
+      "Neumonía asociada a ventilador (NAV) y neumonía nosocomial, especialmente por Pseudomonas aeruginosa multirresistente.",
+      "Infecciones por bacterias Gram-negativas multirresistentes (como BLEE o AmpC) cuando las opciones son limitadas.",
+      "Infecciones de piel y tejidos blandos complicadas en contextos de resistencia."
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis habitual para cIAI y cUTI es de 1.5 g (1 g de ceftolozano + 0.5 g de tazobactam) administrados por vía intravenosa cada 8 horas. La duración del tratamiento suele ser de 4 a 14 días, dependiendo de la gravedad y el sitio de la infección.",
+    "pediatric": "La seguridad y eficacia en pacientes pediátricos menores de 18 años no están establecidas. Su uso en niños se considera experimental y debe ser bajo estricta supervisión de un especialista en infectología pediátrica, siguiendo protocolos específicos basados en peso (por ejemplo, 30 mg/kg/dosis cada 8 horas, ajustado a la función renal).",
+    "elderly": "No se requiere un ajuste de dosis inicial basado únicamente en la edad. Sin embargo, es común que los adultos mayores tengan una función renal disminuida, por lo que es IMPERATIVO calcular la tasa de filtración glomerular (TFG) y ajustar la dosis en consecuencia.",
+    "renalImpairment": "Los ajustes son CRUCIALES. Dosis para cIAI y cUTI: TFG 30-50 mL/min: 750 mg (500 mg ceftolozano + 250 mg tazobactam) cada 8 horas. TFG 15-29 mL/min: 375 mg (250 mg ceftolozano + 125 mg tazobactam) cada 8 horas. TFG <15 mL/min o pacientes en diálisis: 375 mg cada 8 horas, administrado después de la sesión de diálisis en los días de diálisis. En diálisis peritoneal continua ambulatoria (DPCA), la dosis es de 375 mg cada 12 horas.",
+    "hepaticImpairment": "No se requieren ajustes de dosis en insuficiencia hepática leve a moderada (Child-Pugh A y B). No hay datos en insuficiencia hepática grave (Child-Pugh C); usar con precaución.",
+    "maxDose": "La dosis máxima diaria en adultos con función renal normal es de 4.5 g (3 g de ceftolozano + 1.5 g de tazobactam)."
+  },
+  "dosageForms": [
+    {
+      "form": "Polvo liofilizado para solución inyectable",
+      "strengths": [
+        "1.5 g (1 g ceftolozano / 0.5 g tazobactam)",
+        "750 mg (500 mg ceftolozano / 250 mg tazobactam)"
+      ],
+      "route": "Intravenosa (Infusión)"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida (alergia grave) al ceftolozano, al tazobactam, a cualquier otro componente de la formulación o a cualquier antibiótico betalactámico (penicilinas, cefalosporinas, carbapenémicos)."
+    ],
+    "relative": [
+      "Antecedentes de reacción alérgica no grave a otros betalactámicos.",
+      "Insuficiencia renal grave sin ajuste de dosis.",
+      "Colitis pseudomembranosa previa."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Náuseas",
+      "Dolor de cabeza"
+    ],
+    "common": [
+      "Diarrea",
+      "Fiebre",
+      "Aumento de transaminasas (pruebas de función hepática elevadas)",
+      "Flebitis en el sitio de la inyección",
+      "Insomnio",
+      "Ansiedad"
+    ],
+    "uncommon": [
+      "Vómitos",
+      "Erupción cutánea",
+      "Prurito (comezón)",
+      "Mareo",
+      "Hipokalemia (bajos niveles de potasio)",
+      "Trombocitosis (aumento de plaquetas)"
+    ],
+    "rare": [
+      "Reacción anafiláctica (alergia grave)",
+      "Colitis pseudomembranosa por Clostridioides difficile (diarrea grave)",
+      "Convulsiones (especialmente en insuficiencia renal no ajustada)",
+      "Neutropenia (bajos niveles de glóbulos blancos)",
+      "Síndrome de Stevens-Johnson/Necrólisis epidérmica tóxica (erupciones cutáneas graves)",
+      "Alteraciones en la coagulación (aumento del INR)"
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Probenecid",
+        "effect": "El probenecid puede inhibir la secreción tubular renal del ceftolozano, aumentando sus niveles en sangre y el riesgo de toxicidad. Generalmente no se recomienda la coadministración.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "No aplica, ya que se administra por vía intravenosa en un entorno hospitalario. No hay interacciones directas con alimentos.",
+    "withSupplements": "No se han reportado interacciones clínicamente significativas con suplementos vitamínicos o herbales. Sin embargo, se debe tener precaución con suplementos que afecten la función renal o la coagulación."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "B",
+      "recommendation": "Los estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. Debe usarse durante el embarazo solo si el beneficio potencial justifica claramente el riesgo potencial para el feto. Se prefiere en situaciones donde otros antibióticos más seguros no son efectivos.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se desconoce si el ceftolozano se excreta en la leche humana. Dado que muchos fármacos se excretan en la leche y por el potencial de efectos adversos graves en el lactante (como alteración de la flora intestinal y riesgo de sensibilización), se debe decidir entre suspender la lactancia o suspender el fármaco, considerando la importancia del tratamiento para la madre.",
+    "pediatric": "No aprobado para uso rutinario en niños. Su uso se reserva para casos graves de infecciones por bacterias multirresistentes bajo la guía de un infectólogo pediatra, con monitoreo estrecho.",
+    "geriatric": "Los pacientes de edad avanzada tienen mayor probabilidad de presentar función renal disminuida. Es esencial el monitoreo de la función renal y el ajuste de dosis correspondiente para evitar toxicidad por acumulación. También pueden ser más susceptibles a efectos adversos como diarrea o colitis."
+  },
+  "administration": {
+    "howToTake": "Este medicamento se administra SOLO por vía intravenosa (IV) en un hospital o centro de infusión especializado. El polvo se reconstituye y luego se diluye en una bolsa de solución para infusión (como cloruro de sodio al 0.9% o dextrosa al 5%). La infusión se administra lentamente durante 1 hora. NO se puede inyectar en bolo rápido. El personal de enfermería seguirá un protocolo estricto para la preparación y administración.",
+    "storage": "El polvo liofilizado sin reconstituir debe almacenarse a temperatura controlada (2°C a 8°C, en refrigeración). Una vez reconstituido y diluido, la solución es estable a temperatura ambiente por un tiempo limitado (consultar la ficha técnica específica del producto, generalmente 24 horas a temperatura ambiente o varios días refrigerada). No congelar.",
+    "specialInstructions": "Es fundamental completar TODO el tratamiento prescrito, incluso si el paciente se siente mejor antes de terminarlo, para evitar recaídas y el desarrollo de resistencia bacteriana. Informar inmediatamente al médico si aparece diarrea acuosa o con sangre, sarpullido severo, dificultad para respirar o hinchazón de cara/lengua."
+  },
+  "monitoring": {
+    "labTests": [
+      "Recuento completo de células sanguíneas (CSC)",
+      "Pruebas de función renal (creatinina sérica, TFG)",
+      "Pruebas de función hepática (transaminasas, bilirrubina)",
+      "Cultivos bacterianos y pruebas de sensibilidad (antibiograma)",
+      "Tiempo de protrombina (TP)/INR en pacientes de riesgo"
+    ],
+    "frequency": "Evaluación de función renal y hepática al inicio y al menos 2-3 veces por semana durante el tratamiento. CSC al inicio y periódicamente. Monitoreo clínico diario de signos de mejoría de la infección y de efectos adversos.",
+    "signsToWatch": [
+      "Fiebre persistente o que reaparece",
+      "Diarrea líquida o con sangre (posible colitis por C. difficile)",
+      "Erupción cutánea, urticaria, picazón",
+      "Dificultad para respirar o tragar",
+      "Hinchazón de cara, labios o lengua",
+      "Convulsiones",
+      "Sangrado o moretones inusuales"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Convulsiones",
+      "Encefalopatía (confusión severa)",
+      "Aumento del riesgo de efectos adversos neurológicos y renales"
+    ],
+    "treatment": "El tratamiento es de soporte. No existe un antídoto específico. En caso de sobredosis, se debe suspender inmediatamente el medicamento. La hemodiálisis puede eliminar parcialmente el ceftolozano (hasta un 55% en 4 horas) y puede ser considerada en casos graves, especialmente si hay insuficiencia renal subyacente.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (de alta vigilancia, generalmente para uso hospitalario).",
+    "scheduleMexico": "Medicamento de la Fracción IV (Psicotrópicos y otros de control especial). Su prescripción y dispensación están sujetas a control sanitario estricto.",
+    "fdaApprovalYear": "2014 (Estados Unidos)."
+  },
+  "brandsMexico": [
+    "Zerbaxa® (Ceftolozano/Tazobactam)"
+  ],
+  "clinicalPearls": [
+    "El Ceftolozano/Tazobactam es una combinación fija; el tazobactam es un inhibidor de betalactamasas que protege al ceftolozano de la destrucción por ciertas enzimas bacterianas.",
+    "Es uno de los antibióticos de 'última línea' o 'rescate' para Pseudomonas aeruginosa multirresistente en México. Su uso debe ser racional para preservar su eficacia.",
+    "En infecciones intraabdominales, SIEMPRE debe usarse en combinación con metronidazol para cubrir bacterias anaerobias.",
+    "La dosificación incorrecta en insuficiencia renal es el error más común y peligroso, pudiendo llevar a neurotoxicidad (convulsiones).",
+    "La respuesta clínica suele observarse en 48-72 horas. Si no hay mejoría, reevaluar el diagnóstico y la sensibilidad bacteriana."
+  ],
+  "patientCounseling": "Este es un antibiótico fuerte que se usa para infecciones graves y se administra directamente en la vena en el hospital. Es muy importante que nos informe de inmediato si ha tenido alergias previas a penicilinas o similares. Debe completar todo el tratamiento que le indique el médico, aunque se sienta mejor, para asegurar que la infección desaparezca por completo y evitar que las bacterias se vuelvan resistentes. Esté atento a síntomas como diarrea líquida o con sangre, sarpullido, dificultad para respirar o hinchazón de la cara, y repórtelos de inmediato al personal médico. Si le dan el alta con un plan de infusión ambulatoria, asista puntualmente a todas sus citas. Mantenga una buena hidratación durante el tratamiento.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre",
+        "slug": "fiebre"
+      },
+      {
+        "name": "Dolor abdominal intenso",
+        "slug": "dolor-abdominal"
+      },
+      {
+        "name": "Dolor al orinar (disuria)",
+        "slug": "dolor-al-orinar"
+      },
+      {
+        "name": "Escalofríos",
+        "slug": "escalofrios"
+      },
+      {
+        "name": "Náuseas y vómitos",
+        "slug": "nauseas-vomitos"
+      },
+      {
+        "name": "Dolor en el costado (flanco)",
+        "slug": "dolor-costado"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Peritonitis",
+        "slug": "peritonitis"
+      },
+      {
+        "name": "Pielonefritis aguda",
+        "slug": "pielonefritis"
+      },
+      {
+        "name": "Infección intraabdominal complicada",
+        "slug": "infeccion-intraabdominal"
+      },
+      {
+        "name": "Infección del tracto urinario complicada",
+        "slug": "infeccion-tracto-urinario-complicada"
+      },
+      {
+        "name": "Sepsis de origen abdominal o urinario",
+        "slug": "sepsis"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Colitis pseudomembranosa",
+        "slug": "colitis-pseudomembranosa"
+      },
+      {
+        "name": "Insuficiencia renal aguda",
+        "slug": "insuficiencia-renal-aguda"
+      },
+      {
+        "name": "Reacción anafiláctica",
+        "slug": "reaccion-anafilactica"
+      },
+      {
+        "name": "Convulsiones",
+        "slug": "convulsiones"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar (monitorear función renal)"
+      },
+      {
+        "name": "Transaminasas (ALT, AST)",
+        "slug": "transaminasas",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Recuento de neutrófilos",
+        "slug": "neutrofilos",
+        "effect": "Puede disminuir (neutropenia)"
+      },
+      {
+        "name": "Potasio sérico (K+)",
+        "slug": "potasio-serico",
+        "effect": "Puede disminuir (hipokalemia)"
+      },
+      {
+        "name": "Tiempo de protrombina (INR)",
+        "slug": "tiempo-protrombina",
+        "effect": "Puede aumentar"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Cultivo y antibiograma",
+        "slug": "cultivo-antibiograma",
+        "reason": "Para confirmar la bacteria causante y su sensibilidad al ceftolozano."
+      },
+      {
+        "name": "Tasa de Filtración Glomerular (TFG)",
+        "slug": "tasa-filtracion-glomerular",
+        "reason": "Esencial para ajustar la dosis y evitar toxicidad."
+      },
+      {
+        "name": "Biometría Hemática Completa",
+        "slug": "biometria-hematica",
+        "reason": "Para monitorear efectos en células sanguíneas."
+      },
+      {
+        "name": "Pruebas de Función Hepática",
+        "slug": "pruebas-funcion-hepatica",
+        "reason": "Para detectar posible hepatotoxicidad."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de Creatinina (Cockcroft-Gault)",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de TFG (MDRD/CKD-EPI)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve el Ceftolozano?",
+      "a": "Sirve para tratar infecciones bacterianas graves en el abdomen (como peritonitis) y en los riñones/vejiga (infecciones urinarias complicadas), especialmente cuando otros antibióticos no funcionan por resistencia de las bacterias."
+    },
+    {
+      "q": "¿Es una pastilla o una inyección?",
+      "a": "Es un medicamento que solo se administra por vía intravenosa (en la vena), por lo que requiere hospitalización o visitas a un centro de infusión."
+    },
+    {
+      "q": "¿Cuánto tiempo dura el tratamiento?",
+      "a": "Varía según la infección, pero generalmente dura entre 5 y 14 días. Su médico determinará la duración exacta basándose en su respuesta."
+    },
+    {
+      "q": "¿Puedo tomarlo si soy alérgico a la penicilina?",
+      "a": "NO. Existe un alto riesgo de reacción alérgica cruzada. Debe informar a su médico sobre cualquier alergia a penicilinas, cefalosporinas o similares antes de recibir este medicamento."
+    },
+    {
+      "q": "¿Qué efectos secundarios son los más comunes?",
+      "a": "Puede causar náuseas, dolor de cabeza, diarrea, fiebre y dolor o inflamación en el sitio donde se pone la inyección."
+    },
+    {
+      "q": "¿Qué debo hacer si tengo diarrea durante el tratamiento?",
+      "a": "Informe INMEDIATAMENTE a su médico o enfermera, especialmente si la diarrea es líquida, abundante o con sangre, ya que podría ser una infección grave llamada colitis."
+    },
+    {
+      "q": "¿Puedo beber alcohol mientras me ponen este antibiótico?",
+      "a": "No se recomienda. El alcohol puede debilitar su sistema inmunológico y dificultar la recuperación. Además, puede empeorar algunos efectos secundarios como náuseas."
+    },
+    {
+      "q": "¿Este medicamento afecta los métodos anticonceptivos?",
+      "a": "No hay evidencia de que interfiera con anticonceptivos hormonales (pastillas, parches). Sin embargo, si tiene vómitos o diarrea severa, la efectividad de las pastillas puede disminuir; use un método de respaldo."
+    },
+    {
+      "q": "¿Me puedo vacunar mientras lo estoy usando?",
+      "a": "Consulte con su médico. Generalmente, es mejor posponer vacunas con virus vivos atenuados hasta después del tratamiento, ya que los antibióticos pueden afectar la respuesta inmunológica."
+    },
+    {
+      "q": "¿El Ceftolozano me va a dar sueño o mareos?",
+      "a": "El mareo es un efecto secundario poco común. Si lo experimenta, evite conducir o manejar maquinaria hasta que sepa cómo le afecta."
+    },
+    {
+      "q": "¿Necesito ajustar la dosis si tengo problemas de los riñones?",
+      "a": "SÍ, ES FUNDAMENTAL. Si sus riñones no funcionan bien, la dosis debe reducirse significativamente para evitar efectos tóxicos graves, como convulsiones. Su médico hará los cálculos necesarios."
+    },
+    {
+      "q": "¿Qué pasa si me olvido de una dosis en el hospital?",
+      "a": "El personal de enfermería lleva un control estricto. Si por algún error se omite, se administrará tan pronto como se descubra, ajustando el horario de las siguientes dosis para mantener el intervalo correcto. No duplique la dosis."
+    },
+    {
+      "q": "¿Por qué es un medicamento de 'último recurso'?",
+      "a": "Porque es muy efectivo contra bacterias que ya son resistentes a muchos otros antibióticos. Usarlo solo cuando es realmente necesario ayuda a prevenir que más bacterias desarrollen resistencia a él, conservando su utilidad para futuras infecciones graves."
+    },
+    {
+      "q": "¿Funciona contra todas las infecciones?",
+      "a": "No. Solo funciona contra infecciones causadas por bacterias específicas, principalmente Gram-negativas como Pseudomonas. No sirve para infecciones virales (como gripe o COVID-19) ni para infecciones por hongos."
+    },
+    {
+      "q": "¿Cómo saben los médicos si la bacteria es sensible a este medicamento?",
+      "a": "Mediante una prueba de laboratorio llamada 'antibiograma', que se hace a partir de un cultivo de su sangre, orina o líquido infectado. Esta prueba muestra a qué antibióticos responde la bacteria."
+    },
+    {
+      "q": "¿Puede usarse en niños?",
+      "a": "No está oficialmente aprobado para niños, pero en casos de infecciones muy graves y resistentes, un infectólogo pediatra puede considerarlo bajo un protocolo especial y monitoreo muy cuidadoso."
+    },
+    {
+      "q": "¿Qué precauciones se deben tener al administrarlo?",
+      "a": "Se debe infundir lentamente (en 1 hora) para reducir el riesgo de irritación de la vena. También se debe rotar el sitio de la inyección y monitorear constantemente la función renal y los signos de alergia."
+    },
+    {
+      "q": "¿Interactúa con otros medicamentos que tomo para el corazón o la presión?",
+      "a": "No se conocen interacciones graves con la mayoría de medicamentos cardiovasculares. Sin embargo, siempre informe a su médico sobre TODOS los medicamentos y suplementos que toma."
+    },
+    {
+      "q": "¿Qué monitorización de laboratorio es obligatoria durante el tratamiento?",
+      "a": "Es obligatorio medir la creatinina (función renal) y las enzimas hepáticas regularmente. También se suele monitorear el recuento de células sanguíneas y los signos de coagulación en algunos pacientes."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre Ceftolozano y otros antibióticos como Meropenem?",
+      "a": "Ambos son de 'última línea', pero tienen espectros de actividad ligeramente diferentes. El Ceftolozano es particularmente potente contra Pseudomonas aeruginosa resistente. La elección depende del resultado del antibiograma y del perfil de resistencia local en el hospital."
+    }
+  ]
+}

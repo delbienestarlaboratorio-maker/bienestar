@@ -1,0 +1,340 @@
+{
+  "name": "Bacitracina",
+  "summary": "La bacitracina es un antibiótico que pertenece al grupo de los aminoglucósidos, aunque su estructura es peptídica. Se utiliza principalmente de forma tópica (sobre la piel) para prevenir y tratar infecciones bacterianas en heridas, cortaduras, quemaduras menores y afecciones de la piel como el impétigo. Su importancia clínica radica en que es muy efectivo contra bacterias Gram-positivas, especialmente estafilococos y estreptococos, que son causas comunes de infecciones cutáneas. Debido a que su absorción sistémica (hacia el interior del cuerpo) es muy baja cuando se aplica en la piel, es un medicamento seguro con un bajo riesgo de efectos secundarios graves, lo que lo hace ideal para el cuidado de heridas leves en el hogar. Sin embargo, su uso debe ser limitado en el tiempo para evitar el desarrollo de resistencia bacteriana. Es un componente común en pomadas y ungüentos de venta libre y con receta, a menudo combinado con otros ingredientes como la neomicina y la polimixina B para ampliar su espectro de acción.",
+  "pharmacology": {
+    "mechanismOfAction": "La bacitracina ejerce su efecto antibacteriano al interferir con la síntesis de la pared celular de las bacterias. Específicamente, inhibe la actividad de un enzima llamada bactoprenol fosfato, que es esencial para transportar los precursores de la pared celular (como el ácido N-acetilmurámico y los péptidos) a través de la membrana citoplasmática bacteriana. Al bloquear este transporte, impide la incorporación de estos componentes esenciales a la pared celular en crecimiento. Esto debilita gravemente la estructura de la pared, compromete la integridad de la bacteria y finalmente conduce a su muerte (efecto bactericida). Su acción es más potente contra bacterias que se están multiplicando activamente, ya que es cuando la síntesis de la pared celular es más intensa.",
+    "pharmacologicClass": "Antibiótico polipeptídico (aminoglucósido de estructura peptídica).",
+    "therapeuticClass": "Antibiótico tópico.",
+    "absorption": "La absorción sistémica a través de la piel intacta o las mucosas es mínima o insignificante. Sin embargo, puede absorberse en cantidades mayores si se aplica sobre áreas extensas de piel dañada (quemaduras graves, úlceras), sobre mucosas o en heridas profundas, lo que aumenta el riesgo de efectos adversos sistémicos, principalmente nefrotoxicidad.",
+    "distribution": "Cuando se aplica tópicamente, su distribución se limita principalmente a los tejidos superficiales de la piel. Si se absorbe sistémicamente (en casos de aplicación extensa), su unión a proteínas plasmáticas es baja. Su volumen de distribución (Vd) no está bien definido para uso tópico, pero para la forma parenteral (ya no utilizada) era limitado, reflejando una distribución principalmente en el espacio extracelular.",
+    "metabolism": "No sufre metabolismo hepático significativo. No es sustrato de las enzimas del citocromo P450 (CYP).",
+    "elimination": "Cuando se absorbe sistémicamente, se elimina principalmente por filtración glomerular en los riñones, en forma inalterada (sin cambios). Su vida media de eliminación es de aproximadamente 1.5 a 2 horas en personas con función renal normal. En la aplicación tópica habitual, la eliminación es local, a través del desprendimiento de las células de la piel.",
+    "onsetOfAction": "El inicio de su acción antibacteriana es rápido, comenzando minutos después de la aplicación tópica al entrar en contacto con las bacterias en la herida.",
+    "durationOfAction": "Su efecto local es de corta duración, por lo que requiere aplicaciones repetidas (generalmente de 1 a 3 veces al día) para mantener una concentración efectiva en el sitio de la infección."
+  },
+  "indications": {
+    "approved": [
+      "Prevención y tratamiento de infecciones bacterianas superficiales de la piel (piodermias) como impétigo.",
+      "Tratamiento de heridas menores, cortaduras, abrasiones y quemaduras de primer y segundo grado no extensas.",
+      "Como parte de preparados oftálmicos tópicos para infecciones conjuntivales y blefaritis (aunque menos común que otros antibióticos).",
+      "Uso intranasal para erradicar Staphylococcus aureus en portadores (en formulaciones específicas)."
+    ],
+    "offLabel": [
+      "Prevención de infección en sitios de inserción de catéteres centrales (en combinación con otros antisépticos).",
+      "Tratamiento coadyuvante de úlceras por presión o úlceras venosas infectadas superficialmente.",
+      "En combinación con otros agentes para el manejo de la foliculitis bacteriana."
+    ]
+  },
+  "dosage": {
+    "adults": "Aplicar una capa delgada sobre el área afectada limpia y seca, de 1 a 3 veces al día. La frecuencia exacta depende de la formulación y la gravedad. Para heridas, cubrir con un apósito estéril si es necesario.",
+    "pediatric": "Para niños mayores de 2 años, aplicar una capa delgada sobre el área afectada, de 1 a 3 veces al día. En menores de 2 años, consultar al médico. Evitar aplicación en áreas extensas.",
+    "elderly": "No se requieren ajustes específicos por edad para uso tópico en áreas pequeñas. En adultos mayores con función renal disminuida, se debe tener precaución extrema si se requiere aplicación en áreas muy grandes de piel dañada.",
+    "renalImpairment": "Uso tópico en áreas pequeñas: No se requieren ajustes. Aplicación en áreas extensas de piel dañada (TFG <60 mL/min): EVITAR o usar con extrema precaución y bajo supervisión médica estrecha debido al alto riesgo de nefrotoxicidad por absorción sistémica.",
+    "hepaticImpairment": "No se requieren ajustes específicos para la aplicación tópica, ya que no se metaboliza en el hígado.",
+    "maxDose": "No hay una dosis máxima diaria definida para uso tópico. La clave es limitar el área de aplicación. No se debe usar en más del 10-20% de la superficie corporal, especialmente en pacientes con riesgo renal."
+  },
+  "dosageForms": [
+    {
+      "form": "Ungüento/Pomada tópica",
+      "strengths": [
+        "500 UI/g"
+      ],
+      "route": "Tópica (cutánea)"
+    },
+    {
+      "form": "Polvo para solución oftálmica/tópica",
+      "strengths": [
+        "Varios, a menudo en combinación"
+      ],
+      "route": "Oftálmica/Tópica"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida (alergia) a la bacitracina o a cualquier componente de la formulación.",
+      "Aplicación en el conducto auditivo externo si existe perforación del tímpano (para formulaciones óticas)."
+    ],
+    "relative": [
+      "Quemaduras extensas o graves (riesgo de absorción sistémica y nefrotoxicidad).",
+      "Insuficiencia renal preexistente (riesgo aumentado de toxicidad).",
+      "Aplicación sobre úlceras cutáneas profundas o grandes.",
+      "Uso en neonatos o lactantes muy pequeños (piel más permeable)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Reacciones de hipersensibilidad en el sitio de aplicación (picazón, ardor, enrojecimiento, dermatitis de contacto)."
+    ],
+    "common": [
+      "Sensación de escozor o ardor leve transitorio tras la aplicación.",
+      "Erupción cutánea localizada."
+    ],
+    "uncommon": [
+      "Dermatitis de contacto alérgica (con uso prolongado).",
+      "Urticaria local."
+    ],
+    "rare": [
+      "Nefrotoxicidad (daño renal) por absorción sistémica tras aplicación en áreas MUY extensas de piel dañada.",
+      "Anafilaxia (reacción alérgica grave sistémica) extremadamente rara con uso tópico."
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Aminoglucósidos sistémicos (Gentamicina, Amikacina)",
+        "effect": "Si se aplica bacitracina en áreas extensas y hay absorción sistémica, se potencia el riesgo de nefrotoxicidad y ototoxicidad (daño renal y auditivo).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Fármacos nefrotóxicos (AINEs como ibuprofeno, diuréticos como furosemida, vancomicina, anfotericina B)",
+        "effect": "Aumento aditivo del riesgo de daño renal si hay absorción sistémica de bacitracina.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "No hay interacciones conocidas con alimentos o alcohol para la aplicación tópica.",
+    "withSupplements": "No se conocen interacciones clínicamente relevantes con suplementos vitamínicos o herbales cuando se usa tópico."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "C",
+      "recommendation": "No hay estudios adecuados y bien controlados en mujeres embarazadas. Su uso tópico en áreas pequeñas se considera generalmente seguro porque la absorción sistémica es mínima. Debe usarse solo si el beneficio potencial justifica el riesgo potencial para el feto. Evitar aplicación en áreas extensas o en los pezones si se está amamantando.",
+      "crossesPlacenta": "Desconocido, pero improbable con uso tópico limitado debido a la baja absorción."
+    },
+    "breastfeeding": "Se considera compatible con la lactancia cuando se aplica tópico en áreas pequeñas, ya es improbable que se excrete en cantidades significativas en la leche materna debido a la absorción sistémica mínima. Evitar la aplicación en el área del pecho o pezones para que el lactante no lo ingiera directamente.",
+    "pediatric": "Se puede usar en niños mayores de 2 años para indicaciones tópicas comunes. En menores de 2 años, se debe usar con precaución y bajo consejo médico debido a la mayor permeabilidad de la piel. Nunca aplicar en áreas extensas.",
+    "geriatric": "Los adultos mayores pueden tener una función renal disminuida. El uso tópico en áreas pequeñas es seguro. Se debe tener extrema precaución y evitar la aplicación en heridas grandes o quemaduras extensas debido al mayor riesgo de nefrotoxicidad por acumulación si hay absorción."
+  },
+  "administration": {
+    "howToTake": "1. Lávese bien las manos antes y después de aplicar el medicamento. 2. Limpie suavemente la herida o área afectada con agua y jabón neutro, séquela dando toques (no frotando). 3. Aplique una capa fina del ungüento o pomada justo sobre el área afectada, cubriéndola completamente. 4. Puede cubrirla con una gasa o apósito estéril si la herida está en un área que se puede ensuciar o rozar. 5. Repita la aplicación según las indicaciones del médico o el empaque, generalmente de 1 a 3 veces al día.",
+    "storage": "Conservar a temperatura ambiente (entre 15°C y 30°C), en un lugar seco y fuera del alcance de los niños. No congelar. Mantener el tubo o frasco bien cerrado.",
+    "specialInstructions": "No usar por más de 7-10 días seguidos a menos que lo indique un médico. El uso prolongado puede aumentar el riesgo de dermatitis de contacto alérgica y de resistencia bacteriana. No aplicar en los ojos, dentro de la boca, la nariz o la vagina a menos que la formulación sea específica para esas áreas. Si la infección empeora o no mejora después de unos días, consulte a su médico."
+  },
+  "monitoring": {
+    "labTests": [
+      "Creatinina sérica y TFG (Tasa de Filtración Glomerular) solo si se aplica en áreas extensas de piel dañada o en pacientes con insuficiencia renal previa."
+    ],
+    "frequency": "Para uso tópico estándar en áreas pequeñas, no se requiere monitoreo de laboratorio. Si hay aplicación extensa, monitorear función renal cada 48-72 horas.",
+    "signsToWatch": [
+      "Empeoramiento del enrojecimiento, hinchazón, dolor o supuración de la herida.",
+      "Aparición de sarpullido, picazón intensa o ampollas en o alrededor del área tratada (signos de alergia).",
+      "Disminución en la cantidad de orina, hinchazón de pies o tobillos, fatiga extrema (signos posibles de daño renal)."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Por aplicación tópica excesiva en áreas extensas: Síntomas de nefrotoxicidad (disminución del gasto urinario, edema, náuseas).",
+      "Reacción alérgica local severa (dermatitis extensa)."
+    ],
+    "treatment": "Suspender el medicamento inmediatamente. Lavar el área de aplicación con agua y jabón suave. El tratamiento es de soporte. En caso de sospecha de toxicidad sistémica (por absorción), se requiere hospitalización para monitoreo y soporte de la función renal (hidratación, diálisis si es necesario). No hay antídoto específico.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "La mayoría de las formulaciones tópicas simples (ungüento) son de Venta Libre (OTC). Las formulaciones oftálmicas, óticas o combinadas con otros antibióticos/esteroides generalmente Requieren Receta Médica (Rx).",
+    "scheduleMexico": "Fracción III (Medicamento de venta con receta médica) para formulaciones específicas (oftálmicas, combinaciones). La presentación en ungüento tópico simple puede considerarse en algunos casos como Fracción II (Venta libre con consejo farmacéutico), dependiendo de la concentración y combinación.",
+    "fdaApprovalYear": "Aprobado para uso médico en la década de 1940."
+  },
+  "brandsMexico": [
+    "Bacitracina Genfar",
+    "Bacitracina Liomont",
+    "Bacitracina Z",
+    "Bacitracina MK",
+    "Bacimycin® (combinación con neomicina)",
+    "Neo-Poly-Bac® (combinación con neomicina y polimixina B)",
+    "Neobacen",
+    "Polibacil",
+    "Terramicina Oftálmica® (combinación con polimixina B y oxitetraciclina)",
+    "Cicatrene® (combinación con neomicina)"
+  ],
+  "clinicalPearls": [
+    "La bacitracina es uno de los principales causantes de dermatitis de contacto alérgica entre los antibióticos tópicos. Sospechar esta reacción si una herida tratada empeora con picazón y enrojecimiento alrededor.",
+    "Su combinación con neomicina y polimixina B (Triple Antibiótico) cubre un espectro más amplio (Gram+, Gram- y Pseudomonas), pero también aumenta el riesgo de reacciones alérgicas.",
+    "NUNCA debe usarse para irrigar cavidades corporales (como el abdomen en cirugía) debido al riesgo letal de bloqueo neuromuscular y paro respiratorio (efecto histórico de su forma parenteral, ya retirada).",
+    "Para heridas simples y limpias, a menudo es suficiente con una buena limpieza y un apósito estéril; el uso rutinario de antibióticos tópicos no siempre acelera la curación y promueve resistencia."
+  ],
+  "patientCounseling": "Señor paciente, use esta pomada solo para infecciones leves de la piel o para proteger heridas limpias. Aplique una capa delgada, no necesita poner mucha cantidad. Lávese las manos antes y después. No lo use por más de una semana seguida. Si la piel se pone más roja, le pica mucho o le salen ronchas, deje de usarlo y avise a su médico, puede ser alergia. No lo use en quemaduras grandes, heridas profundas o si es alérgico a este medicamento. Manténgalo fuera del alcance de los niños. Si la herida no mejora en 3-4 días, se pone más hinchada, duele más o le sale pus, acuda al médico para una revisión, ya que podría necesitar un tratamiento diferente. Recuerde que los antibióticos, incluso en pomada, deben usarse con responsabilidad.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Enrojecimiento de la piel",
+        "slug": "enrojecimiento-piel"
+      },
+      {
+        "name": "Supuración o pus en heridas",
+        "slug": "supuracion-herida"
+      },
+      {
+        "name": "Dolor en heridas superficiales",
+        "slug": "dolor-herida-superficial"
+      },
+      {
+        "name": "Picazón por infección cutánea",
+        "slug": "picazon-infeccion-cutanea"
+      },
+      {
+        "name": "Costras amarillentas (impétigo)",
+        "slug": "costras-amarillentas"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Impétigo",
+        "slug": "impetigo"
+      },
+      {
+        "name": "Foliculitis bacteriana",
+        "slug": "foliculitis-bacteriana"
+      },
+      {
+        "name": "Infección de herida quirúrgica superficial",
+        "slug": "infeccion-herida-quirurgica"
+      },
+      {
+        "name": "Quemadura infectada superficial",
+        "slug": "quemadura-infectada"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Insuficiencia renal aguda",
+        "slug": "insuficiencia-renal-aguda"
+      },
+      {
+        "name": "Dermatitis de contacto alérgica",
+        "slug": "dermatitis-contacto-alergica"
+      },
+      {
+        "name": "Resistencia bacteriana a antibióticos",
+        "slug": "resistencia-antibioticos"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Tasa de Filtración Glomerular (TFG)",
+        "slug": "tasa-filtracion-glomerular",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Nitrógeno Ureico en Sangre (BUN)",
+        "slug": "nitrogeno-ureico-sangre",
+        "effect": "Puede elevar"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Cultivo y antibiograma de secreción",
+        "slug": "cultivo-antibiograma",
+        "reason": "Para confirmar la bacteria causante y su sensibilidad a la bacitracina en infecciones que no responden."
+      },
+      {
+        "name": "Biometría Hemática",
+        "slug": "biometria-hematica",
+        "reason": "Para evaluar respuesta inflamatoria sistémica en infecciones más extensas."
+      },
+      {
+        "name": "Pruebas de función renal (Química Sanguínea)",
+        "slug": "pruebas-funcion-renal",
+        "reason": "Monitoreo esencial si se aplica en áreas extensas de piel dañada o en pacientes con riesgo renal."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina",
+        "reason": "Para evaluar la función renal antes de usar en áreas extensas."
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso",
+        "reason": "Aunque es tópico, para recordar precauciones en niños."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve exactamente la pomada de bacitracina?",
+      "a": "Sirve para prevenir y tratar infecciones por bacterias en heridas pequeñas de la piel, como cortaduras, raspaduras, quemaduras leves o granitos infectados (como el impétigo). Mata las bacterias que podrían entrar en la herida."
+    },
+    {
+      "q": "¿Cuántas veces al día debo ponerme la pomada?",
+      "a": "Lo usual es aplicarla de 1 a 3 veces al día. Siga las instrucciones de su médico o del empaque. Lo más importante es limpiar bien la herida antes de cada aplicación."
+    },
+    {
+      "q": "¿La bacitracina mancha la ropa o la piel?",
+      "a": "La pomada puede dejar una mancha grasosa en la ropa. En la piel, se absorbe y no tiñe. Es recomendable cubrir la zona con una gasa para proteger la herida y la ropa."
+    },
+    {
+      "q": "¿Puedo usar bacitracina en una quemadura de sol?",
+      "a": "No es el tratamiento indicado. Para una quemadura solar, use cremas hidratantes, calmantes con aloe vera o específicas para quemaduras. La bacitracina solo se usa si la quemadura se rompe y hay riesgo de infección, pero consulte a un médico primero."
+    },
+    {
+      "q": "¿Qué hago si se me olvida una aplicación?",
+      "a": "Aplíquela tan pronto como lo recuerde. Pero si ya es casi la hora de la siguiente aplicación, sáltese la que olvidó y continúe con su horario normal. No aplique el doble para compensar."
+    },
+    {
+      "q": "¿La bacitracina y la neosporina son lo mismo?",
+      "a": "No exactamente. La Neosporina® es una marca que contiene tres antibióticos: bacitracina, neomicina y polimixina B. La bacitracina sola es solo uno de esos componentes. La combinación cubre más tipos de bacterias."
+    },
+    {
+      "q": "¿Puedo usar bacitracina en los labios agrietados o con fuego labial?",
+      "a": "No es lo recomendado. Para los labios agrietados use bálsamos labiales. El fuego labial (herpes) es causado por un virus, no por bacterias, por lo que la bacitracina no funciona. Use medicamentos antivirales específicos."
+    },
+    {
+      "q": "¿Cuánto tiempo puedo usar la pomada seguido?",
+      "a": "No debe usarla por más de 7 a 10 días seguidos sin consultar a un médico. Si la herida no mejora o empeora antes de ese tiempo, acuda al médico."
+    },
+    {
+      "q": "¿Puede causar alergia la bacitracina?",
+      "a": "Sí, es uno de los antibióticos tópicos que más comúnmente causan alergia en la piel (dermatitis de contacto). Si nota picazón intensa, enrojecimiento, ronchas o hinchazón alrededor de la herida después de aplicarla, suspenda su uso y consulte."
+    },
+    {
+      "q": "¿Es seguro usar bacitracina en niños pequeños?",
+      "a": "En niños mayores de 2 años, generalmente es seguro para heridas pequeñas. En bebés y menores de 2 años, consulte siempre al pediatra antes de usarla, porque su piel es más delicada y absorbe más los medicamentos."
+    },
+    {
+      "q": "¿Puedo usar bacitracina si estoy embarazada o amamantando?",
+      "a": "Para uso tópico en áreas pequeñas, se considera seguro. Sin embargo, siempre es mejor consultar con su médico. Evite aplicarla en los pezones si está amamantando."
+    },
+    {
+      "q": "¿Qué pasa si me trago un poco de bacitracina por accidente?",
+      "a": "La ingestión accidental de una pequeña cantidad de pomada tópica generalmente no es peligrosa, pero puede causar malestar estomacal. Enjuague la boca con agua. Si ingirió una cantidad grande o presenta síntomas, llame al centro de toxicología o acuda al médico."
+    },
+    {
+      "q": "¿La bacitracina sirve para el acné?",
+      "a": "No es el tratamiento de primera línea para el acné común. El acné tiene un componente inflamatorio y bacteriano (P. acnes) que no es el blanco principal de la bacitracina. Existen tratamientos más efectivos como el peróxido de benzoílo o los retinoides tópicos."
+    },
+    {
+      "q": "¿Debo cubrir la herida después de aplicar la pomada?",
+      "a": "Sí, es recomendable cubrirla con una gasa o apósito estéril. Esto protege la herida de suciedad, bacterias y evita que la pomada se manche la ropa. Además, mantener un ambiente húmedo puede ayudar en la cicatrización."
+    },
+    {
+      "q": "¿Por qué a veces la bacitracina viene combinada con otros medicamentos?",
+      "a": "Se combina con otros antibióticos (como neomicina y polimixina B) para ampliar el espectro de acción y ser efectiva contra una gama más amplia de bacterias (Gram-positivas y Gram-negativas). También se combina con corticosteroides (como hidrocortisona) para reducir la inflamación y la picazón."
+    },
+    {
+      "q": "¿Puede la bacitracina dañar mis riñones?",
+      "a": "Cuando se aplica en una herida pequeña, el riesgo es casi nulo. El peligro existe solo si se aplica en áreas MUY grandes de piel lastimada (como quemaduras graves), donde el cuerpo puede absorber una cantidad significativa del medicamento, lo que sí puede dañar los riñones. Por eso no debe usarse en quemaduras extensas."
+    },
+    {
+      "q": "¿Es mejor la bacitracina o un antiséptico como la yodopovidona?",
+      "a": "Depende. Los antisépticos (yodopovidona, clorhexidina) son buenos para la limpieza inicial profunda de heridas, ya que matan muchos tipos de microbios. La bacitracina es un antibiótico específico para bacterias y se usa después de la limpieza, para prevenir la infección durante la cicatrización. A veces se usan en etapas diferentes."
+    },
+    {
+      "q": "Mi herida tiene pus, ¿puedo usar bacitracina?",
+      "a": "Si la herida tiene pus, hinchazón, enrojecimiento que se extiende y dolor intenso, es signo de una infección que puede ser más profunda. La bacitracina podría no ser suficiente. Debe acudir al médico para que evalúe si necesita un antibiótico oral, drenaje de la herida o un tratamiento más fuerte."
+    },
+    {
+      "q": "¿El uso de bacitracina puede crear bacterias resistentes?",
+      "a": "Sí, como con cualquier antibiótico, el uso excesivo, innecesario o prolongado (más de lo indicado) puede promover que las bacterias desarrollen resistencia. Esto significa que en el futuro, la bacitracina podría no funcionar contra esa bacteria. Úsela solo cuando sea necesario y por el tiempo indicado."
+    },
+    {
+      "q": "Como farmacéutico, ¿en qué casos le recomendaría a un paciente NO usar bacitracina y ver a un médico de inmediato?",
+      "a": "Le recomendaría ver a un médico de inmediato si: 1) La herida es profunda, grande o con bordes irregulares (puede necesitar puntos). 2) Hay signos de infección sistémica como fiebre, escalofríos o malestar general. 3) La herida fue causada por una mordedura de animal o humano, o por un objeto sucio/oxido. 4) El paciente es diabético o tiene problemas de circulación, ya que sus heridas se infectan fácilmente y cicatrizan mal. 5) Si aparece una reacción alérgica severa."
+    }
+  ]
+}

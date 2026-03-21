@@ -1,0 +1,390 @@
+{
+  "name": "Cefsulodina",
+  "summary": "La Cefsulodina es un antibiótico potente de la familia de las cefalosporinas, específicamente diseñado para combatir infecciones graves causadas por la bacteria Pseudomonas aeruginosa. Este medicamento es de uso exclusivamente hospitalario, administrado por vía intravenosa o intramuscular profunda, y se reserva para casos donde otros antibióticos han fallado o se sabe que la bacteria es resistente. Su importancia clínica radica en ser una opción de último recurso para tratar infecciones peligrosas como la sepsis (infección en la sangre), neumonía grave adquirida en el hospital, y complicaciones en pacientes con fibrosis quística o quemaduras extensas, donde la Pseudomonas es una amenaza común y difícil de erradicar. Su uso requiere supervisión médica estrecha debido a su potencia y posibles efectos secundarios.",
+  "pharmacology": {
+    "mechanismOfAction": "La Cefsulodina ejerce su efecto bactericida (mata bacterias) al interferir con la síntesis de la pared celular bacteriana. Se une específicamente a unas proteínas llamadas Proteínas Fijadoras de Penicilina (PBP) localizadas en la membrana de la bacteria. Esta unión bloquea la etapa final de la formación de la pared celular, un proceso conocido como transpeptidación. Al no poder construir una pared celular fuerte y funcional, la bacteria se vuelve frágil, se hincha por la presión interna y finalmente estalla (lisis), muriendo. Su particularidad es que es muy estable frente a las enzimas betalactamasas producidas por Pseudomonas aeruginosa, lo que le permite actuar donde otras cefalosporinas fallan.",
+    "pharmacologicClass": "Antibiótico betalactámico; Cefalosporina de tercera generación (subgrupo antipseudomonal).",
+    "therapeuticClass": "Antibiótico sistémico.",
+    "absorption": "No se absorbe por vía oral. Debe administrarse por vía parenteral (intramuscular profunda o intravenosa lenta). La biodisponibilidad por vía intramuscular es buena, cercana al 90-95%.",
+    "distribution": "Se distribuye ampliamente en la mayoría de los fluidos y tejidos corporales, incluyendo líquido pleural, peritoneal, bilis y hueso. Atraviesa la barrera placentaria y se excreta en la leche materna en bajas concentraciones. Su unión a proteínas plasmáticas es moderada, aproximadamente del 20-30%. El volumen de distribución (Vd) es de aproximadamente 0.2-0.3 L/kg, indicando una distribución principalmente en el espacio plasmático y líquido extracelular.",
+    "metabolism": "La Cefsulodina sufre un metabolismo hepático mínimo. No es un sustrato significativo del sistema enzimático citocromo P450 (CYP). Se elimina mayoritariamente sin cambios por vía renal.",
+    "elimination": "Se elimina principalmente por excreción renal inalterada, a través de la filtración glomerular. Su vida media de eliminación es de aproximadamente 1.5 a 2 horas en adultos con función renal normal. En pacientes con insuficiencia renal grave, esta vida media puede prolongarse significativamente (hasta 10-15 horas), requiriendo ajustes de dosis.",
+    "onsetOfAction": "Los niveles plasmáticos terapéuticos se alcanzan rápidamente al final de una infusión intravenosa de 30 minutos o poco después de una inyección intramuscular.",
+    "durationOfAction": "Debido a su vida media relativamente corta, requiere administraciones múltiples al día (generalmente cada 6, 8 o 12 horas) para mantener concentraciones en sangre por encima de la concentración inhibitoria mínima (CIM) de las bacterias sensibles."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones graves por Pseudomonas aeruginosa: Sepsis (infección en la sangre), endocarditis (infección en el corazón), meningitis (infección de las meninges).",
+      "Infecciones del tracto respiratorio inferior complicadas: Neumonía nosocomial (adquirida en el hospital) por Pseudomonas.",
+      "Infecciones de tejidos blandos y piel complicadas: Infecciones en pacientes con quemaduras extensas, úlceras por presión infectadas.",
+      "Infecciones intraabdominales complicadas: Peritonitis (infección del peritoneo).",
+      "Infecciones del tracto urinario complicadas: Pielonefritis (infección del riñón) por Pseudomonas resistente."
+    ],
+    "offLabel": [
+      "Profilaxis o tratamiento de infecciones en pacientes con fibrosis quística y colonización/infección pulmonar crónica por Pseudomonas aeruginosa.",
+      "Tratamiento combinado en osteomielitis (infección del hueso) crónica por Pseudomonas."
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis habitual para infecciones graves es de 1 a 2 gramos, administrados cada 6 a 8 horas por vía intravenosa (en infusión lenta de 30 minutos) o intramuscular profunda. La dosis total diaria oscila entre 3 y 6 gramos, pudiendo llegar hasta 8-9 gramos en infecciones muy graves como meningitis o endocarditis, bajo estricta supervisión médica.",
+    "pediatric": "En niños mayores de 1 mes: 100 a 150 mg/kg de peso corporal por día, divididos en 3 o 4 dosis (cada 6 u 8 horas). La dosis máxima diaria no debe exceder los 6 gramos. En neonatos (menores de 1 mes), la dosis y el intervalo deben ajustarse según la edad gestacional y la función renal, generalmente 50-100 mg/kg/día divididos cada 12 horas.",
+    "elderly": "Los adultos mayores suelen tener una función renal disminuida. La dosis debe calcularse en base al aclaramiento de creatinina (CrCl). Se recomienda iniciar con la dosis más baja del rango y ajustar según la función renal.",
+    "renalImpairment": "Ajustes obligatorios según TFG (Tasa de Filtración Glomerular) o aclaramiento de creatinina (CrCl): CrCl > 50 mL/min: Dosis normal. CrCl 10-50 mL/min: 1-2 g cada 12-24 horas. CrCl < 10 mL/min o en diálisis: 1 g cada 24-48 horas. La dosis debe administrarse después de una sesión de hemodiálisis, ya que el fármaco se elimina parcialmente por esta vía.",
+    "hepaticImpairment": "No se requieren ajustes de dosis específicos por insuficiencia hepática leve o moderada, ya que la eliminación es principalmente renal. En insuficiencia hepática grave, monitorizar signos de toxicidad.",
+    "maxDose": "La dosis máxima diaria en adultos es generalmente de 6 gramos, pudiendo llegar excepcionalmente a 9 gramos en situaciones de riesgo vital bajo vigilancia intensiva."
+  },
+  "dosageForms": [
+    {
+      "form": "Polvo liofilizado para inyección (vial)",
+      "strengths": [
+        "500 mg",
+        "1 g"
+      ],
+      "route": "Intramuscular profunda, Intravenosa (infusión lenta)"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad (alergia) conocida y grave a la Cefsulodina, a cualquier otra cefalosporina o a cualquier componente de la fórmula.",
+      "Antecedente de reacción anafiláctica (alergia severa con dificultad para respirar) a cualquier antibiótico betalactámico (penicilinas, cefalosporinas, carbapenémicos, monobactámicos)."
+    ],
+    "relative": [
+      "Insuficiencia renal grave (ajustar dosis).",
+      "Historial de colitis pseudomembranosa (diarrea grave asociada a antibióticos).",
+      "Prematuros y neonatos (requiere ajuste especializado de dosis)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Dolor, induración (endurecimiento) o flebitis (inflamación de la vena) en el sitio de inyección."
+    ],
+    "common": [
+      "Erupción cutánea (ronchas, salpullido), prurito (comezón).",
+      "Diarrea, náuseas, vómitos.",
+      "Aumento transitorio de enzimas hepáticas (transaminasas).",
+      "Candidiasis (infección por hongos) oral o vaginal."
+    ],
+    "uncommon": [
+      "Fiebre por medicamento.",
+      "Mareo, dolor de cabeza.",
+      "Eosinofilia (aumento de un tipo de glóbulos blancos).",
+      "Pruebas de Coombs positiva (sin anemia hemolítica clínica)."
+    ],
+    "rare": [
+      "Reacción anafiláctica (alergia severa).",
+      "Nefrotoxicidad (daño renal), especialmente con dosis altas o uso prolongado.",
+      "Neurotoxicidad (convulsiones), especialmente en pacientes con insuficiencia renal que reciben dosis altas.",
+      "Colitis pseudomembranosa (diarrea grave por Clostridioides difficile).",
+      "Anemia hemolítica.",
+      "Hepatitis colestásica (inflamación del hígado)."
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Aminoglucósidos (Ej. Gentamicina, Amikacina)",
+        "effect": "Sinergia antibacteriana contra Pseudomonas, pero aumenta el riesgo de nefrotoxicidad (daño renal) y ototoxicidad (daño auditivo).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Diuréticos de asa potentes (Ej. Furosemida)",
+        "effect": "Pueden aumentar el riesgo de nefrotoxicidad (daño renal).",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Probenecid",
+        "effect": "Bloquea la excreción renal de la Cefsulodina, aumentando y prolongando sus niveles en sangre, lo que incrementa el riesgo de toxicidad.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "No aplica, ya que se administra por vía parenteral. No se debe mezclar con bebidas alcohólicas durante el tratamiento y hasta 72 horas después de la última dosis, por riesgo de reacción tipo Antabuse (rubor facial, taquicardia, náuseas, vómitos).",
+    "withSupplements": "No se conocen interacciones clínicamente significativas con suplementos vitamínicos o herbales. Sin embargo, se debe evitar el uso concomitante de suplementos que contengan altas dosis de calcio, ya que pueden formar precipitados si se mezclan en la misma vía intravenosa."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "B",
+      "recommendation": "Estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. Debe usarse durante el embarazo solo si el beneficio potencial justifica claramente el riesgo potencial para el feto. Se reserva para infecciones graves maternas donde otros antibióticos más seguros no son adecuados.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La Cefsulodina se excreta en la leche materna en bajas concentraciones. Debido al potencial de efectos adversos graves en el lactante (alteración de la flora intestinal, riesgo de diarrea o candidiasis) y la posibilidad de sensibilización, se recomienda suspender la lactancia materna durante el tratamiento o utilizar leche de fórmula.",
+    "pediatric": "Puede usarse en niños para las indicaciones aprobadas. La seguridad y eficacia en neonatos prematuros y menores de 1 mes no están totalmente establecidas; su uso requiere una evaluación riesgo-beneficio rigurosa y ajuste meticuloso de la dosis.",
+    "geriatric": "Los pacientes de edad avanzada son más propensos a tener una función renal disminuida. La selección de la dosis debe ser cautelosa, comenzando en el extremo inferior del rango de dosificación, y es obligatorio el ajuste según el aclaramiento de creatinina. Monitorizar función renal y signos de toxicidad."
+  },
+  "administration": {
+    "howToTake": "Este medicamento es de uso hospitalario. Un profesional de la salud lo administrará por inyección en un músculo grande (glúteo) o, más comúnmente, por vía intravenosa (en una vena) mediante una infusión lenta que dura al menos 30 minutos. Nunca se debe inyectar rápidamente en vena. El polvo del vial se reconstituye con un diluyente estéril (agua para inyección, solución salina) según las instrucciones del fabricante.",
+    "storage": "Los viales sin reconstituir deben almacenarse a temperatura ambiente (15-30°C), protegidos de la luz y la humedad. Una vez reconstituido, la solución es estable a temperatura ambiente por 24 horas y refrigerada (2-8°C) por 96 horas, dependiendo del diluyente. No congelar. Desechar cualquier solución que esté turbia o contenga partículas.",
+    "specialInstructions": "Antes de la primera dosis, se debe realizar una prueba de sensibilidad (antibiograma) para confirmar que la bacteria causante de la infección es sensible a la Cefsulodina. Informar siempre al médico sobre cualquier alergia previa a antibióticos. El tratamiento completo debe tomarse según lo prescrito, incluso si el paciente se siente mejor, para evitar recaídas y desarrollo de resistencia bacteriana."
+  },
+  "monitoring": {
+    "labTests": [
+      "Cultivo y antibiograma del foco de infección (antes y durante el tratamiento).",
+      "Recuento sanguíneo completo (CSC) con diferencial.",
+      "Pruebas de función renal: Creatinina sérica, BUN, cálculo de TFG o CrCl (al inicio y periódicamente).",
+      "Pruebas de función hepática: AST, ALT, fosfatasa alcalina, bilirrubina.",
+      "Examen general de orina (EGO)."
+    ],
+    "frequency": "Función renal: Al inicio y cada 2-3 días durante tratamiento prolongado (>5 días) o si hay riesgo de nefrotoxicidad. Función hepática y CSC: Al inicio y semanalmente en tratamientos largos. Vigilancia clínica diaria de signos de infección, alergia y efectos adversos.",
+    "signsToWatch": [
+      "Signos de reacción alérgica: Erupción cutánea, urticaria, hinchazón de cara/lengua/garganta, dificultad para respirar.",
+      "Signos de colitis pseudomembranosa: Diarrea acuosa o con sangre, cólicos abdominales intensos, fiebre.",
+      "Signos de nefrotoxicidad: Disminución en la cantidad de orina, hinchazón de pies/piernas.",
+      "Signos de neurotoxicidad: Temblores, confusión, convulsiones.",
+      "Dolor o enrojecimiento intenso en el sitio de la inyección."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Convulsiones (especialmente en pacientes con insuficiencia renal).",
+      "Temblores, confusión, mareo severo.",
+      "Náuseas y vómitos intensos.",
+      "Pérdida de la audición o zumbidos en los oídos (si se combina con aminoglucósidos).",
+      "Insuficiencia renal aguda (disminución o ausencia de orina)."
+    ],
+    "treatment": "No existe un antídoto específico. El tratamiento es de soporte y sintomático. En caso de convulsiones, administrar anticonvulsivantes (benzodiacepinas). La hemodiálisis es efectiva para eliminar la Cefsulodina de la sangre (elimina aproximadamente el 50% de la dosis en 4 horas) y debe considerarse en casos de sobredosis grave, especialmente si hay insuficiencia renal subyacente.",
+    "antidote": "No existe."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial para medicamentos de control (antibiótico de reserva). Venta exclusiva en farmacias hospitalarias.",
+    "scheduleMexico": "Medicamento de la Fracción IV (Medicamentos que requieren receta médica y pueden ser de venta restringida).",
+    "fdaApprovalYear": "No aprobado por la FDA de Estados Unidos. Su uso y registro son en otros países, incluyendo México."
+  },
+  "brandsMexico": [
+    "Cefsulodina® (genérico, varios laboratorios hospitalarios)",
+    "Monaspor®",
+    "Pseudocef®",
+    "Cefobid® (Nota: Cefobid es nombre comercial de Ceftazidima en algunos lugares, confusión común; en México para Cefsulodina se encuentran principalmente genéricos hospitalarios bajo el nombre de principio activo)."
+  ],
+  "clinicalPearls": [
+    "La Cefsulodina es un arma de 'última línea' contra Pseudomonas aeruginosa. Nunca debe usarse como tratamiento empírico inicial; reservar para cuando el cultivo y antibiograma confirmen sensibilidad.",
+    "Su potencia antipseudomonal es superior a la de muchas otras cefalosporinas, pero su espectro es más estrecho, siendo menos activo contra bacterias Gram positivas como Staphylococcus aureus.",
+    "En infecciones graves por Pseudomonas, a menudo se usa en combinación sinérgica con un aminoglucósido (ej. Tobramicina), pero esto exige un monitoreo renal y auditivo muy estricto.",
+    "La resistencia a la Cefsulodina puede desarrollarse durante el tratamiento, por lo que es crucial realizar cultivos de control para evaluar la respuesta."
+  ],
+  "patientCounseling": "Este es un medicamento muy fuerte que solo se usa en el hospital para infecciones graves. El equipo médico lo administrará por una vena o inyección. Es fundamental que informe a su médico o enfermera si ha tenido alguna vez una reacción alérgica a cualquier antibiótico, especialmente penicilinas o cefalosporinas. Durante el tratamiento, avise de inmediato si presenta salpullido, dificultad para respirar, diarrea líquida o con sangre, o si deja de orinar. Complete todo el tratamiento prescrito, aunque se sienta mejor, para asegurar que la infección desaparezca por completo y evitar que la bacteria se vuelva resistente. No consuma bebidas alcohólicas durante el tratamiento y hasta 3 días después de la última dosis, para evitar una reacción desagradable con rubor, náuseas y palpitaciones.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre alta",
+        "slug": "fiebre-alta"
+      },
+      {
+        "name": "Escalofríos y sudoración",
+        "slug": "escalofrios-sudoracion"
+      },
+      {
+        "name": "Dificultad para respirar",
+        "slug": "disnea-dificultad-respirar"
+      },
+      {
+        "name": "Tos con flema purulenta",
+        "slug": "tos-flema-purulenta"
+      },
+      {
+        "name": "Dolor o ardor al orinar",
+        "slug": "disuria-dolor-orinar"
+      },
+      {
+        "name": "Enrojecimiento e hinchazón de heridas",
+        "slug": "enrojecimiento-hinchazon-herida"
+      },
+      {
+        "name": "Dolor abdominal intenso",
+        "slug": "dolor-abdominal-intenso"
+      },
+      {
+        "name": "Confusión o alteración del estado mental",
+        "slug": "confusion-alteracion-mental"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Sepsis o septicemia",
+        "slug": "sepsis-septicemia"
+      },
+      {
+        "name": "Neumonía nosocomial",
+        "slug": "neumonia-nosocomial"
+      },
+      {
+        "name": "Infección de vías urinarias complicada",
+        "slug": "infeccion-vias-urinarias-complicada"
+      },
+      {
+        "name": "Infecciones de piel y tejidos blandos en quemaduras",
+        "slug": "infeccion-piel-tejidos-blandos-quemaduras"
+      },
+      {
+        "name": "Meningitis bacteriana",
+        "slug": "meningitis-bacteriana"
+      },
+      {
+        "name": "Endocarditis infecciosa",
+        "slug": "endocarditis-infecciosa"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Insuficiencia renal aguda",
+        "slug": "insuficiencia-renal-aguda"
+      },
+      {
+        "name": "Colitis pseudomembranosa",
+        "slug": "colitis-pseudomembranosa"
+      },
+      {
+        "name": "Reacción anafiláctica",
+        "slug": "reaccion-anafilactica"
+      },
+      {
+        "name": "Candidiasis oral o vaginal",
+        "slug": "candidiasis-oral-vaginal"
+      },
+      {
+        "name": "Resistencia bacteriana a antibióticos",
+        "slug": "resistencia-bacteriana-antibioticos"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Nitrógeno ureico en sangre (BUN)",
+        "slug": "nitrogeno-ureico-sangre-bun",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Transaminasas (AST/ALT)",
+        "slug": "transaminasas-ast-alt",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Eosinófilos",
+        "slug": "eosinofilos",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Tiempo de protrombina (TP)",
+        "slug": "tiempo-protrombina-tp",
+        "effect": "Puede prolongar (raro)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Cultivo y antibiograma",
+        "slug": "cultivo-antibiograma",
+        "reason": "Confirmar sensibilidad de Pseudomonas aeruginosa antes y durante el tratamiento."
+      },
+      {
+        "name": "Aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina",
+        "reason": "Fundamental para ajustar la dosis y prevenir toxicidad renal."
+      },
+      {
+        "name": "Biometría hemática completa",
+        "slug": "biometria-hematica-completa",
+        "reason": "Monitorear efectos en células sanguíneas y detectar eosinofilia."
+      },
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-funcion-hepatica",
+        "reason": "Evaluar posible hepatotoxicidad por el medicamento."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de creatinina (Cockcroft-Gault)",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué tipo de infecciones me recetaron Cefsulodina?",
+      "a": "Se receta para infecciones graves y específicas causadas principalmente por una bacteria llamada Pseudomonas aeruginosa, como infecciones en la sangre (sepsis), pulmonía grave adquirida en el hospital, o infecciones complicadas en heridas de quemaduras."
+    },
+    {
+      "q": "¿Por qué me lo ponen en el suero y no en pastillas?",
+      "a": "Porque la Cefsulodina no se absorbe por el estómago si se toma en pastillas. Administrarla directamente en la vena (intravenosa) o en el músculo (intramuscular) asegura que llegue rápidamente y en la cantidad correcta a todo el cuerpo para combatir la infección grave."
+    },
+    {
+      "q": "¿Cuánto tiempo dura el tratamiento?",
+      "a": "La duración depende de la gravedad y tipo de infección. Puede ser desde 7 a 14 días, y en infecciones muy graves como una infección en los huesos o el corazón, puede necesitarse varias semanas. Su médico decidirá basándose en su evolución."
+    },
+    {
+      "q": "¿Puedo beber alcohol mientras me inyectan este medicamento?",
+      "a": "NO. Es muy importante evitar completamente el alcohol (cerveza, vino, licor) durante el tratamiento y hasta 3 días después de la última dosis. La mezcla puede causar una reacción muy desagradable con cara roja, náuseas fuertes, vómitos, latidos rápidos del corazón y dolor de cabeza."
+    },
+    {
+      "q": "¿Qué hago si me sale un sarpullido o me da comezón?",
+      "a": "Avise INMEDIATAMENTE a la enfermera o al médico. Puede ser una señal de alergia al medicamento. No se rasque y no tome ningún antihistamínico por su cuenta sin consultar."
+    },
+    {
+      "q": "¿La inyección duele mucho?",
+      "a": "La inyección intramuscular puede causar dolor, ardor o endurecimiento en el sitio. La aplicación intravenosa puede causar irritación de la vena. Informe al personal si el dolor es muy intenso o si el área se pone muy roja, caliente o hinchada."
+    },
+    {
+      "q": "¿Este antibiótico me puede dar diarrea?",
+      "a": "Sí, es un efecto secundario común. Si la diarrea es leve, manténgase bien hidratado. Pero si la diarrea se vuelve muy líquida, abundante, con sangre o moco, o viene acompañada de fiebre y cólicos fuertes, AVISE DE INMEDIATO, ya que podría ser una colitis grave por el uso del antibiótico."
+    },
+    {
+      "q": "¿Puedo recibir este medicamento si soy alérgico a la penicilina?",
+      "a": "Debe informar SIEMPRE a su médico sobre su alergia a la penicilina. Existe un riesgo de reacción cruzada (alergia también a la cefsulodina) en aproximadamente un 5-10% de los casos. Su médico evaluará el riesgo y puede hacer una prueba de sensibilidad o elegir otro antibiótico si es necesario."
+    },
+    {
+      "q": "¿Afecta los riñones?",
+      "a": "Sí, especialmente en dosis altas, tratamientos largos o si ya tiene problemas renales. Por eso le tomarán muestras de sangre con frecuencia para revisar la función de sus riñones. Es importante que informe si orina menos de lo normal."
+    },
+    {
+      "q": "¿Me puede dar infección por hongos (candidiasis)?",
+      "a": "Sí, es común. Los antibióticos fuertes eliminan bacterias malas pero también algunas buenas, permitiendo que crezcan hongos. Puede manifestarse como placas blancas en la boca (algodoncillo) o comezón y flujo vaginal. Su médico puede recetarle un tratamiento antifúngico si ocurre."
+    },
+    {
+      "q": "¿Qué pasa si olvidan ponerme una dosis a la hora indicada?",
+      "a": "En el hospital, el personal lleva un control estricto. Si por algún motivo se retrasa, se administrará lo antes posible. Lo importante es no duplicar la dosis para compensar. El horario regular ayuda a mantener niveles constantes del medicamento en la sangre."
+    },
+    {
+      "q": "¿Puedo recibir vacunas mientras estoy con este tratamiento?",
+      "a": "Consulte con su médico. Generalmente, se recomienda posponer las vacunas con virus vivos atenuados hasta después de terminar el tratamiento con antibióticos potentes, ya que podrían no ser tan efectivas."
+    },
+    {
+      "q": "¿La Cefsulodina interactúa con mis otros medicamentos para la presión o el corazón?",
+      "a": "Informe a su médico TODOS los medicamentos que toma. La interacción más importante es con diuréticos como la furosemida, que pueden aumentar el riesgo de daño renal. Su médico ajustará las dosis o los horarios para minimizar riesgos."
+    },
+    {
+      "q": "¿Es seguro en mujeres embarazadas?",
+      "a": "Solo debe usarse en el embarazo si es absolutamente necesario para una infección grave que ponga en riesgo la vida de la madre, y cuando otros antibióticos más seguros no sirvan. El médico evaluará cuidadosamente los beneficios y riesgos."
+    },
+    {
+      "q": "¿Puedo amamantar a mi bebé si me están tratando con Cefsulodina?",
+      "a": "No se recomienda. El medicamento pasa a la leche materna en pequeñas cantidades y podría causar efectos adversos en el bebé, como diarrea o candidiasis. Se sugiere suspender la lactancia durante el tratamiento y extraerse la leche para desecharla."
+    },
+    {
+      "q": "¿Por qué es un antibiótico de 'último recurso'?",
+      "a": "Porque es muy potente contra bacterias específicas y resistentes, como la Pseudomonas. Usarlo de manera inadecuada o para infecciones leves haría que las bacterias se volvieran resistentes a él también, perdiendo una opción valiosa para salvar vidas en el futuro."
+    },
+    {
+      "q": "¿Cómo saben los médicos si la bacteria es sensible a este medicamento?",
+      "a": "Antes de iniciar el tratamiento, toman una muestra de su infección (sangre, flema, orina) y la envían al laboratorio para un cultivo y un 'antibiograma'. Esta prueba muestra a qué antibióticos es sensible la bacteria, confirmando que la Cefsulodina es la elección correcta."
+    },
+    {
+      "q": "¿Qué ajustes necesitan los pacientes con diabetes o enfermedad del hígado?",
+      "a": "En diabetes, monitorizar más de cerca los niveles de glucosa, ya que las infecciones graves y algunos antibióticos pueden alterarlos. En enfermedad hepática, generalmente no se ajusta la dosis, pero se vigilan más de cerca las pruebas de función hepática por si hay toxicidad."
+    },
+    {
+      "q": "¿Puede este medicamento causar convulsiones?",
+      "a": "Es un efecto raro, pero puede ocurrir, especialmente si el paciente tiene insuficiencia renal y recibe una dosis muy alta, ya que el medicamento se acumula en el cuerpo. Por eso es crucial el ajuste de dosis según la función renal."
+    },
+    {
+      "q": "¿Qué debo hacer al salir del hospital después de un tratamiento con Cefsulodina?",
+      "a": "Terminar cualquier otro medicamento oral que le hayan recetado. Asistir a todas sus citas de seguimiento. Observar si los síntomas de la infección regresan. Continuar evitando el alcohol por unos días. Reforzar su sistema inmunológico con buena alimentación y descanso. Informar en futuras consultas médicas que ha recibido este antibiótico."
+    }
+  ]
+}

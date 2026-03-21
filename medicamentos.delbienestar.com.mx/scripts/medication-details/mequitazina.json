@@ -1,0 +1,408 @@
+{
+  "name": "Mequitazina",
+  "summary": "La Mequitazina es un medicamento antialérgico y antihistamínico de segunda generación, utilizado principalmente para tratar los síntomas de diversas alergias. Actúa bloqueando los efectos de la histamina, una sustancia química que el cuerpo libera durante una reacción alérgica, lo que ayuda a aliviar síntomas como estornudos, picazón en ojos y nariz, secreción nasal y urticaria. Su importancia clínica radica en que ofrece un alivio efectivo de los síntomas alérgicos con un perfil de efectos secundarios generalmente más favorable que los antihistamínicos de primera generación, ya que tiene menos probabilidad de causar somnolencia significativa en la mayoría de los pacientes, lo que permite mantener las actividades diarias. Es un tratamiento de elección para el manejo de la rinitis alérgica estacional y perenne, así como para la urticaria crónica, mejorando considerablemente la calidad de vida de quienes padecen estas condiciones. Su acción prolongada permite una dosificación conveniente, generalmente una o dos veces al día, facilitando la adherencia al tratamiento.",
+  "pharmacology": {
+    "mechanismOfAction": "La Mequitazina actúa como un potente antagonista competitivo y selectivo de los receptores H1 de histamina periféricos. Esto significa que se une a estos receptores en las células, impidiendo que la histamina liberada durante una reacción alérgica se una a ellos y desencadene la cascada de síntomas. Al bloquear estos receptores, inhibe la vasodilatación, la permeabilidad vascular aumentada (que causa hinchazón), la contracción del músculo liso bronquial y la estimulación de las terminaciones nerviosas sensoriales (que causa picazón). Además, posee propiedades antiserotoninérgicas y estabilizadoras de membrana de los mastocitos, lo que contribuye a su efecto antialérgico al reducir la liberación de más mediadores inflamatorios. A diferencia de los antihistamínicos clásicos, tiene una menor penetración en el sistema nervioso central, lo que explica su menor efecto sedante.",
+    "pharmacologicClass": "Antagonista selectivo de los receptores H1 de histamina (de segunda generación). Derivado de la fenotiazina.",
+    "therapeuticClass": "Antihistamínico. Antialérgico.",
+    "absorption": "Se absorbe bien por vía oral después de la administración. La biodisponibilidad oral es alta. La presencia de alimentos puede retrasar ligeramente la absorción, pero no afecta significativamente la cantidad total de medicamento que llega a la circulación sistémica.",
+    "distribution": "Se distribuye ampliamente en los tejidos. Tiene una alta unión a proteínas plasmáticas (aproximadamente 95-97%). Su volumen de distribución (Vd) es grande, lo que indica una amplia distribución en el organismo fuera del torrente sanguíneo.",
+    "metabolism": "Se metaboliza extensamente en el hígado, principalmente a través del sistema enzimático del citocromo P450. Las isoenzimas CYP3A4 y, en menor medida, CYP2D6 están involucradas en su biotransformación. Se generan metabolitos inactivos o con actividad reducida.",
+    "elimination": "La vida media de eliminación es de aproximadamente 18 a 24 horas, lo que permite una dosificación de una o dos veces al día. Se elimina principalmente a través de la bilis y las heces (vía fecal), y en menor medida por la orina (vía renal).",
+    "onsetOfAction": "El inicio de acción suele observarse entre 30 minutos y 1 hora después de la administración oral.",
+    "durationOfAction": "Su efecto antialérgico tiene una duración prolongada, de hasta 24 horas, permitiendo una dosificación conveniente de una vez al día en muchos casos."
+  },
+  "indications": {
+    "approved": [
+      "Rinitis alérgica estacional (fiebre del heno)",
+      "Rinitis alérgica perenne (alergias durante todo el año)",
+      "Urticaria crónica idiopática (ronchas sin causa conocida)",
+      "Conjuntivitis alérgica (como parte del tratamiento sistémico)",
+      "Dermatitis alérgica de contacto (en casos seleccionados)",
+      "Prurito (picazón) de origen alérgico"
+    ],
+    "offLabel": [
+      "Alivio sintomático de la urticaria aguda",
+      "Prurito asociado a enfermedades dermatológicas como el eccema",
+      "Como terapia coadyuvante en el manejo de la dermatitis atópica",
+      "Prevención de reacciones alérgicas leves a moderadas"
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis habitual para adultos y adolescentes mayores de 12 años es de 5 mg (medio comprimido de 10 mg) a 10 mg (un comprimido completo) una vez al día, preferentemente por la noche. En algunos casos, el médico puede indicar 5 mg dos veces al día (mañana y noche). La dosis debe individualizarse según la respuesta clínica.",
+    "pediatric": "Niños de 6 a 12 años: 2.5 mg a 5 mg (un cuarto a medio comprimido de 10 mg) una vez al día. Niños menores de 6 años: No se recomienda su uso por falta de datos de seguridad establecidos. Siempre debe ser prescrito y supervisado por un pediatra.",
+    "elderly": "En pacientes de edad avanzada (mayores de 65 años), se recomienda iniciar con la dosis más baja efectiva (ej. 5 mg/día) debido a una posible disminución en el aclaramiento hepático y renal, y a una mayor sensibilidad a los efectos anticolinérgicos.",
+    "renalImpairment": "En insuficiencia renal leve a moderada (TFG 30-89 mL/min), se recomienda precaución y posible ajuste a la dosis más baja. En insuficiencia renal grave (TFG <30 mL/min) o en pacientes en diálisis, está contraindicado debido a la falta de datos de seguridad y al riesgo de acumulación.",
+    "hepaticImpairment": "En insuficiencia hepática leve a moderada (Child-Pugh A y B), se debe usar con precaución y a la dosis más baja posible, ya que el metabolismo hepático está comprometido. En insuficiencia hepática grave (Child-Pugh C), está contraindicado.",
+    "maxDose": "La dosis máxima diaria recomendada para adultos es de 10 mg. No se debe exceder esta dosis."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "10 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Jarabe/Solución oral",
+      "strengths": [
+        "1 mg/mL"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la mequitazina o a cualquier componente de la formulación",
+      "Pacientes con glaucoma de ángulo cerrado no controlado",
+      "Pacientes con hipertrofia prostática sintomática grave con retención urinaria",
+      "Insuficiencia hepática grave (Child-Pugh C)",
+      "Insuficiencia renal grave (TFG <30 mL/min) o en diálisis",
+      "Uso concomitante con inhibidores de la monoaminooxidasa (IMAOs) o dentro de los 14 días posteriores a su suspensión"
+    ],
+    "relative": [
+      "Epilepsia o antecedentes de convulsiones",
+      "Enfermedad cardiovascular (arritmias, QT prolongado)",
+      "Pacientes de edad avanzada (>65 años)",
+      "Insuficiencia hepática leve a moderada",
+      "Insuficiencia renal leve a moderada",
+      "Obstrucción piloroduodenal o estenosis del cuello vesical"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Somnolencia (aunque menos frecuente que con antihistamínicos clásicos)",
+      "Sequedad de boca"
+    ],
+    "common": [
+      "Dolor de cabeza",
+      "Mareos",
+      "Fatiga",
+      "Aumento del apetito y posible aumento de peso",
+      "Molestias gastrointestinales leves (náuseas, dolor abdominal)"
+    ],
+    "uncommon": [
+      "Visión borrosa",
+      "Agitación o nerviosismo (paradójico, especialmente en niños)",
+      "Dificultad para orinar (retención urinaria)",
+      "Erupción cutánea",
+      "Palpitaciones"
+    ],
+    "rare": [
+      "Reacciones de hipersensibilidad (angioedema, urticaria, dificultad para respirar)",
+      "Alteraciones hepáticas (aumento de transaminasas)",
+      "Cambios en los recuentos sanguíneos (leucopenia, trombocitopenia)",
+      "Convulsiones",
+      "Prolongación del intervalo QT en el electrocardiograma"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Inhibidores de la monoaminooxidasa (IMAOs) como fenelzina, selegilina",
+        "effect": "Riesgo aumentado de efectos anticolinérgicos graves (sequedad de boca extrema, retención urinaria, confusión) y posible crisis hipertensiva.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Depresores del Sistema Nervioso Central (Alcohol, benzodiacepinas, opioides, antipsicóticos)",
+        "effect": "Potenciación del efecto sedante, aumentando el riesgo de somnolencia severa, deterioro psicomotor y accidentes.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores potentes del CYP3A4 (Ketoconazol, itraconazol, claritromicina, ritonavir)",
+        "effect": "Aumentan significativamente los niveles plasmáticos de mequitazina, elevando el riesgo de efectos adversos, especialmente cardíacos (QT prolongado) y sedación.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Anticolinérgicos (Atropina, escopolamina, antidepresivos tricíclicos, antipsicóticos típicos)",
+        "effect": "Efecto aditivo anticolinérgico, aumentando el riesgo de sequedad de mucosas, visión borrosa, retención urinaria, estreñimiento y confusión.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Fármacos que prolongan el intervalo QT (Antiarrítmicos clase IA y III, algunos antipsicóticos, antidepresivos tricíclicos, macrólidos)",
+        "effect": "Riesgo aditivo de prolongación del intervalo QT, pudiendo desencadenar arritmias ventriculares graves como Torsade de Pointes.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "El alcohol debe evitarse estrictamente, ya que potencia el efecto sedante y el deterioro de la coordinación. Los alimentos grasos pueden retrasar ligeramente la absorción, pero no es clínicamente significativo. Se puede tomar con o sin alimentos.",
+    "withSupplements": "Precaución con suplementos herbales con efectos sedantes (valeriana, kava, pasiflora) por riesgo de potenciar la somnolencia. La hierba de San Juan (Hypericum perforatum), al ser un inductor enzimático, podría disminuir los niveles de mequitazina, reduciendo su eficacia."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "C",
+      "recommendation": "No se recomienda su uso durante el embarazo a menos que el beneficio potencial para la madre justifique claramente el riesgo potencial para el feto. Los estudios en animales han mostrado toxicidad reproductiva. No hay estudios adecuados y bien controlados en mujeres embarazadas. Se debe usar solo si es estrictamente necesario y bajo supervisión médica estrecha, preferentemente después del primer trimestre.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La mequitazina se excreta en la leche materna en cantidades pequeñas. Debido al riesgo potencial de efectos adversos en el lactante (sedación, irritabilidad), se recomienda evitar su uso durante la lactancia. Si el tratamiento es indispensable, se debe considerar la suspensión de la lactancia materna.",
+    "pediatric": "Puede usarse en niños mayores de 6 años a dosis ajustadas por peso. En niños menores de 6 años, su seguridad y eficacia no están establecidas, por lo que no se recomienda. En niños, se debe vigilar la posible aparición de efectos paradójicos como excitación o insomnio.",
+    "geriatric": "Los pacientes mayores de 65 años son más sensibles a los efectos anticolinérgicos (sequedad de boca, estreñimiento, retención urinaria, confusión) y sedantes. También tienen mayor riesgo de mareos y caídas. Se debe iniciar con la dosis más baja posible (5 mg/día) y monitorizar de cerca."
+  },
+  "administration": {
+    "howToTake": "Tomar el comprimido entero con un vaso de agua, sin masticar ni partir (a menos que el médico indique una dosis fraccionada). Se puede tomar con o sin alimentos. Si se toma una vez al día, se recomienda hacerlo por la noche para minimizar la somnolencia diurna. Si se olvida una dosis, tomarla tan pronto como se recuerde, pero si ya es casi la hora de la siguiente dosis, se debe omitir la dosis olvidada y continuar con el horario normal. Nunca duplicar la dosis.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (entre 15°C y 30°C), protegido de la luz y la humedad. Mantener fuera del alcance y vista de los niños.",
+    "specialInstructions": "Informar al médico si se va a someter a una cirugía o pruebas cutáneas de alergia (pruebas de prick), ya que los antihistamínicos pueden interferir con los resultados. Este medicamento puede causar somnolencia; se debe tener precaución al conducir vehículos o operar maquinaria peligrosa hasta conocer la respuesta individual."
+  },
+  "monitoring": {
+    "labTests": [
+      "Pruebas de función hepática (ALT, AST, bilirrubina) en tratamientos prolongados",
+      "Recuento completo de células sanguíneas (CSC) si hay signos de infección",
+      "Electrocardiograma (ECG) en pacientes con riesgo cardiovascular o que tomen otros fármacos que prolonguen el QT"
+    ],
+    "frequency": "No se requiere monitoreo de laboratorio rutinario en tratamientos cortos. En tratamientos crónicos (más de 6 meses), el médico puede solicitar pruebas hepáticas cada 6-12 meses.",
+    "signsToWatch": [
+      "Somnolencia excesiva que interfiere con las actividades diarias",
+      "Mareos o aturdimiento, especialmente al levantarse",
+      "Dificultad para orinar o disminución del gasto urinario",
+      "Latidos cardíacos irregulares, rápidos o fuertes (palpitaciones)",
+      "Signos de reacción alérgica: hinchazón de cara/labios/lengua, dificultad para respirar, erupción cutánea grave",
+      "Coloración amarillenta de piel u ojos (ictericia)",
+      "Sangrado o moretones inusuales"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Somnolencia extrema que puede progresar a estupor o coma",
+      "Mareos intensos",
+      "Agitación, alucinaciones o convulsiones (especialmente en niños)",
+      "Taquicardia (latidos cardíacos rápidos) o arritmias",
+      "Pupilas dilatadas (midriasis)",
+      "Sequedad de boca y piel severa",
+      "Retención urinaria",
+      "Fiebre",
+      "Depresión respiratoria (en casos graves)"
+    ],
+    "treatment": "No existe antídoto específico. El tratamiento es de soporte y sintomático. En caso de ingestión reciente (menos de 1-2 horas), se puede considerar el lavado gástrico o la administración de carbón activado. Se debe mantener la vía aérea, la respiración y la circulación. Monitorizar signos vitales y ECG. Los síntomas anticolinérgicos graves pueden tratarse con fisostigmina, pero solo en entornos hospitalarios y con extrema precaución. La diálisis no es efectiva debido a la alta unión a proteínas.",
+    "antidote": "Fisostigmina (solo para síntomas anticolinérgicos graves y en entorno de cuidados intensivos, no es un antídoto universal)."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Rx).",
+    "scheduleMexico": "Medicamento de patente (no incluido en cuadro básico), sujeto a prescripción médica. Fracción IV del artículo 226 de la Ley General de Salud.",
+    "fdaApprovalYear": "No está aprobado por la FDA de Estados Unidos. Es un medicamento ampliamente utilizado en Europa, Asia y Latinoamérica. Su desarrollo y aprobación inicial fue en Europa."
+  },
+  "brandsMexico": [
+    "Primalan",
+    "Mircol",
+    "Vigastén",
+    "Mequitax",
+    "Histadin",
+    "Quitax",
+    "Alermiq",
+    "Mequisal"
+  ],
+  "clinicalPearls": [
+    "Aunque es de segunda generación y menos sedante, la somnolencia sigue siendo un efecto común; aconsejar la dosis nocturna mejora la adherencia y tolerabilidad.",
+    "Su efecto estabilizador de mastocitos le confiere un beneficio adicional en el control de la urticaria crónica, más allá del simple bloqueo de receptores H1.",
+    "En pacientes polimedicados, especialmente ancianos, es crucial revisar las interacciones por CYP3A4 y el riesgo aditivo de efectos anticolinérgicos y sedantes."
+  ],
+  "patientCounseling": "Tome la Mequitazina exactamente como se lo indicó su médico, generalmente una vez al día por la noche. Puede causar somnolencia, por lo que debe evitar conducir o realizar actividades que requieran alerta hasta que sepa cómo le afecta. No consuma bebidas alcohólicas durante el tratamiento, ya que aumenta el riesgo de sueño y accidentes. Informe a su médico si experimenta latidos cardíacos irregulares, dificultad para orinar, mareos intensos o signos de alergia al medicamento. Si olvida una dosis, tómela cuando se acuerde, pero nunca duplique la dosis al día siguiente. Este medicamento es para controlar los síntomas de la alergia, no la cura. Manténgalo en un lugar fresco y seco, fuera del alcance de los niños. Si está embarazada, planea estarlo o está amamantando, consulte a su médico antes de iniciar el tratamiento.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Estornudos",
+        "slug": "estornudos"
+      },
+      {
+        "name": "Picazón en la nariz",
+        "slug": "picazon-en-la-nariz"
+      },
+      {
+        "name": "Secreción nasal acuosa",
+        "slug": "secrecion-nasal-acuosa"
+      },
+      {
+        "name": "Picazón en los ojos",
+        "slug": "picazon-en-los-ojos"
+      },
+      {
+        "name": "Lagrimeo",
+        "slug": "lagrimeo"
+      },
+      {
+        "name": "Urticaria (ronchas)",
+        "slug": "urticaria-ronchas"
+      },
+      {
+        "name": "Picazón en la piel",
+        "slug": "picazon-en-la-piel"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Rinitis alérgica estacional",
+        "slug": "rinitis-alergica-estacional"
+      },
+      {
+        "name": "Rinitis alérgica perenne",
+        "slug": "rinitis-alergica-perenne"
+      },
+      {
+        "name": "Urticaria crónica idiopática",
+        "slug": "urticaria-cronica-idiopatica"
+      },
+      {
+        "name": "Conjuntivitis alérgica",
+        "slug": "conjuntivitis-alergica"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Retención urinaria",
+        "slug": "retencion-urinaria"
+      },
+      {
+        "name": "Glaucoma de ángulo cerrado (en predisposición)",
+        "slug": "glaucoma-de-angulo-cerrado"
+      },
+      {
+        "name": "Arritmia cardíaca (Torsade de Pointes)",
+        "slug": "arritmia-cardiaca-torsade-de-pointes"
+      },
+      {
+        "name": "Hepatitis medicamentosa",
+        "slug": "hepatitis-medicamentosa"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Transaminasas (ALT/AST)",
+        "slug": "transaminasas-alt-ast",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Bilirrubina",
+        "slug": "bilirrubina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Recuento de leucocitos",
+        "slug": "recuento-de-leucocitos",
+        "effect": "Puede disminuir (leucopenia)"
+      },
+      {
+        "name": "Recuento de plaquetas",
+        "slug": "recuento-de-plaquetas",
+        "effect": "Puede disminuir (trombocitopenia)"
+      },
+      {
+        "name": "Intervalo QT en ECG",
+        "slug": "intervalo-qt-en-ecg",
+        "effect": "Puede prolongar"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-de-funcion-hepatica",
+        "reason": "Para detectar posible toxicidad hepática en tratamientos prolongados"
+      },
+      {
+        "name": "Electrocardiograma (ECG)",
+        "slug": "electrocardiograma-ecg",
+        "reason": "Para evaluar el intervalo QT en pacientes de riesgo o con síntomas cardíacos"
+      },
+      {
+        "name": "Biometría hemática completa",
+        "slug": "biometria-hematica-completa",
+        "reason": "Para monitorizar posibles efectos en las células sanguíneas"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve la Mequitazina?",
+      "a": "Sirve para aliviar los síntomas de las alergias, como estornudos, picazón en nariz y ojos, secreción nasal acuosa, lagrimeo y urticaria (ronchas con picazón). Se usa en rinitis alérgica (estacional o de todo el año) y urticaria crónica."
+    },
+    {
+      "q": "¿La Mequitazina da sueño?",
+      "a": "Puede causar somnolencia, aunque generalmente es menos intensa que con los antihistamínicos clásicos como la difenhidramina. Para minimizarlo, se recomienda tomar la dosis diaria por la noche. La respuesta varía entre personas."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto la Mequitazina?",
+      "a": "Comienza a hacer efecto aproximadamente entre 30 minutos y 1 hora después de tomarla. Su efecto máximo se alcanza en unas pocas horas y dura hasta 24 horas, permitiendo una dosis al día."
+    },
+    {
+      "q": "¿Puedo tomar Mequitazina si voy a manejar?",
+      "a": "Debe tener precaución. Como puede causar somnolencia o mareos, no maneje ni opere maquinaria peligrosa hasta que sepa cómo le afecta personalmente. Si siente sueño, evite estas actividades."
+    },
+    {
+      "q": "¿La Mequitazina se puede tomar con alcohol?",
+      "a": "NO. El alcohol potencia el efecto sedante del medicamento, aumentando mucho el riesgo de somnolencia severa, accidentes y deterioro de la coordinación. Evite completamente el consumo de bebidas alcohólicas durante el tratamiento."
+    },
+    {
+      "q": "¿Qué hago si se me olvida tomar una dosis?",
+      "a": "Tómela tan pronto como lo recuerde. Sin embargo, si ya es casi la hora de su siguiente dosis, omita la dosis olvidada y continúe con su horario normal. NUNCA tome una dosis doble para compensar la olvidada."
+    },
+    {
+      "q": "¿La Mequitazina sube de peso?",
+      "a": "En algunos pacientes puede aumentar el apetito, lo que potencialmente podría llevar a un aumento de peso. No es un efecto común en todos, pero si lo nota, coméntelo con su médico para evaluar opciones."
+    },
+    {
+      "q": "¿Pueden tomarla los niños?",
+      "a": "Sí, pero solo en niños mayores de 6 años y bajo prescripción y supervisión del pediatra. La dosis se ajusta según el peso. No se recomienda en menores de 6 años por falta de datos de seguridad."
+    },
+    {
+      "q": "¿Puedo tomar Mequitazina en el embarazo?",
+      "a": "Solo si su médico lo considera estrictamente necesario. Generalmente no se recomienda, especialmente en el primer trimestre. La categoría de riesgo en embarazo es C. Consulte siempre a su médico antes de tomar cualquier medicamento si está embarazada o planea estarlo."
+    },
+    {
+      "q": "¿Y durante la lactancia?",
+      "a": "Se recomienda evitar su uso, ya que pasa a la leche materna en pequeñas cantidades y podría causar efectos como somnolencia en el bebé. Si el tratamiento es indispensable, se debe valorar suspender la lactancia."
+    },
+    {
+      "q": "¿Cuál es la dosis normal para un adulto?",
+      "a": "La dosis habitual es de 5 mg (medio comprimido de 10 mg) a 10 mg (un comprimido completo) una vez al día, preferentemente por la noche. Su médico determinará la dosis exacta según sus síntomas."
+    },
+    {
+      "q": "¿La Mequitazina cura la alergia?",
+      "a": "No, no cura la alergia. Es un tratamiento sintomático, es decir, controla y alivia los síntomas (como el picor y los estornudos) mientras usted la toma, pero no modifica la causa subyacente de la alergia."
+    },
+    {
+      "q": "¿Puedo tomarla por mucho tiempo?",
+      "a": "Sí, se puede usar para tratamientos prolongados (como en la rinitis alérgica perenne o urticaria crónica) bajo supervisión médica. El médico puede solicitar análisis de sangre periódicos para vigilar la función hepática."
+    },
+    {
+      "q": "¿Qué efectos secundarios son señales de alarma para dejar de tomarla?",
+      "a": "Deje de tomarla y consulte a su médico de inmediato si presenta: dificultad para respirar o tragar, hinchazón de cara/labios/lengua, latidos cardíacos irregulares o muy rápidos, color amarillo en piel/ojos, convulsiones o dificultad severa para orinar."
+    },
+    {
+      "q": "¿Interfiere con las pruebas de alergia en la piel?",
+      "a": "Sí. Los antihistamínicos como la Mequitazina pueden bloquear la reacción en las pruebas cutáneas (pruebas de prick), dando resultados falsos negativos. Debe suspenderla al menos 3-5 días antes de realizarse dichas pruebas, según indicación de su alergólogo."
+    },
+    {
+      "q": "¿Puedo tomar Mequitazina si tengo glaucoma?",
+      "a": "Está CONTRAINDICADA en pacientes con glaucoma de ángulo cerrado no controlado, ya que sus efectos anticolinérgicos pueden aumentar la presión intraocular y empeorar la condición. Si tiene glaucoma de ángulo abierto controlado, consulte a su oftalmólogo y médico tratante."
+    },
+    {
+      "q": "¿Qué pasa si tomo más de la dosis recomendada?",
+      "a": "Puede sufrir una sobredosis con síntomas como somnolencia extrema, agitación, alucinaciones, latidos cardíacos irregulares, sequedad de boca severa y convulsiones. En ese caso, acuda inmediatamente a urgencias o llame al centro de toxicología."
+    },
+    {
+      "q": "¿La Mequitazina interactúa con otros medicamentos?",
+      "a": "Sí, de forma importante. No la tome con: antidepresivos IMAO, algunos antifúngicos (ketoconazol), algunos antibióticos (claritromicina), alcohol, o otros medicamentos que causen sueño. Informe siempre a su médico de TODOS los medicamentos que toma, incluyendo hierbas."
+    },
+    {
+      "q": "¿Es mejor que otros antihistamínicos como la loratadina o cetirizina?",
+      "a": "No necesariamente 'mejor', pero es una opción diferente. Tiene un perfil de efectos secundarios distinto. Algunos pacientes responden mejor a uno que a otro. La elección depende de la eficacia, tolerancia individual y perfil de seguridad. Su médico le ayudará a decidir."
+    },
+    {
+      "q": "¿Por qué mi médico me recetó Mequitazina para la urticaria si también tiene efecto sedante?",
+      "a": "Porque además de bloquear la histamina, la Mequitazina tiene un efecto estabilizador de los mastocitos (células que liberan sustancias que causan la urticaria). Esta acción adicional puede ser muy beneficiosa en la urticaria crónica, justificando su uso a pesar del potencial de somnolencia, que se puede manejar con una dosis nocturna."
+    }
+  ]
+}

@@ -1,0 +1,411 @@
+{
+  "name": "Clorhidrato de Meperidina",
+  "summary": "El clorhidrato de meperidina, también conocido como petidina, es un medicamento analgésico opioide sintético. Se utiliza principalmente para el alivio del dolor moderado a severo, como el dolor postoperatorio, el dolor asociado con cólicos renales o biliares, y durante el trabajo de parto. Actúa en el sistema nervioso central para reducir la percepción del dolor. Es importante destacar que, debido a su potencial de causar dependencia, efectos secundarios graves como depresión respiratoria y la acumulación de un metabolito tóxico (normeperidina) que puede provocar convulsiones, su uso en la práctica clínica moderna se ha vuelto más restringido. En México, se reserva generalmente para situaciones específicas donde otros opioides no son adecuados o en contextos hospitalarios bajo estricta supervisión médica. Su importancia clínica radica en ser una alternativa a la morfina, con un inicio de acción más rápido pero una duración más corta, aunque los riesgos asociados limitan su uso prolongado.",
+  "pharmacology": {
+    "mechanismOfAction": "La meperidina ejerce su efecto analgésico principal al unirse de forma agonista a los receptores mu (μ) opioides en el sistema nervioso central (cerebro y médula espinal). Esta unión modula la transmisión del dolor, inhibiendo la liberación de neurotransmisores como la sustancia P y activando vías descendentes inhibitorias. A diferencia de la morfina, también posee propiedades anticolinérgicas (bloquea receptores muscarínicos), lo que puede explicar algunos de sus efectos como taquicardia y sequedad de boca, y propiedades anestésicas locales débiles. Su metabolito activo, la normeperidina, no tiene actividad analgésica significativa pero es un potente estimulante del sistema nervioso central, responsable del riesgo de toxicidad y convulsiones con el uso repetido o en altas dosis.",
+    "pharmacologicClass": "Analgésico opioide agonista; Derivado de la fenilpiperidina; Agonista de receptores opioides mu (μ).",
+    "therapeuticClass": "Analgésico Narcótico (Opioide Mayor).",
+    "absorption": "Se absorbe bien por vía oral, pero sufre un importante efecto de primer paso hepático, con una biodisponibilidad oral de aproximadamente 50-60%. La absorción intramuscular es completa y rápida. La administración intravenosa produce efectos inmediatos.",
+    "distribution": "Se distribuye ampliamente por los tejidos del cuerpo. Se une moderadamente a proteínas plasmáticas (alrededor del 60-80%). Su volumen de distribución (Vd) es de aproximadamente 3-5 L/kg, indicando una amplia distribución en los tejidos. Cruza la barrera placentaria y se excreta en la leche materna.",
+    "metabolism": "Se metaboliza extensamente en el hígado, principalmente por desmetilación para formar su metabolito principal, la normeperidina (o N-desmetilmeperidina), a través del sistema enzimático del citocromo P450, específicamente la isoenzima CYP3A4. También se metaboliza por hidrólisis a ácido meperidínico. La normeperidina se elimina más lentamente que el compuesto original, especialmente en pacientes con función renal alterada, lo que lleva a su acumulación.",
+    "elimination": "La vida media de eliminación de la meperidina es de aproximadamente 3-5 horas en adultos con función normal. La vida media de la normeperidina es mucho más larga (15-30 horas). Se elimina principalmente por vía renal; alrededor del 5-25% se excreta sin cambios en la orina, y el resto como metabolitos. La acidificación de la orina aumenta la excreción de meperidina sin cambios.",
+    "onsetOfAction": "Vía Intravenosa (IV): 1-5 minutos. Vía Intramuscular (IM): 10-15 minutos. Vía Oral: 15-30 minutos.",
+    "durationOfAction": "La duración del efecto analgésico es relativamente corta: 2-4 horas para la administración parenteral (IM/IV) y 3-5 horas para la vía oral. La duración es significativamente más corta que la de opioides como la morfina."
+  },
+  "indications": {
+    "approved": [
+      "Alivio del dolor agudo moderado a severo (ej. postoperatorio, post-traumático).",
+      "Analgesia durante el trabajo de parto (obstetricia).",
+      "Premedicación anestésica."
+    ],
+    "offLabel": [
+      "Tratamiento de escalofríos/temblores post-anestésicos.",
+      "Alivio del dolor en crisis de drepanocitosis (anemia falciforme).",
+      "Cólico renal o biliar cuando otros opioides no son tolerados (uso muy limitado)."
+    ]
+  },
+  "dosage": {
+    "adults": "Dosis analgésica usual: Vía IM/SC: 50-150 mg cada 3-4 horas según necesidad. Vía Oral: 50-150 mg cada 3-4 horas. Dosis pre-anestésica: IM/SC: 50-100 mg, 30-90 minutos antes de la inducción. Dosis en trabajo de parto: IM: 50-100 mg cuando el dolor se establece; puede repetirse cada 1-3 horas. La dosis debe individualizarse al nivel más bajo efectivo.",
+    "pediatric": "NO es el opioide de primera línea en pediatría. Si se usa, con extrema precaución: Dosis IM/SC: 1.1-1.8 mg/kg cada 3-4 horas (máximo 100 mg/dosis). Dosis Oral: 1.5-2.0 mg/kg cada 3-4 horas. No exceder la dosis máxima diaria adulta.",
+    "elderly": "Los pacientes mayores de 65 años son más sensibles a los efectos de los opioides. Se recomienda iniciar con dosis un 25-50% menores que la dosis adulta estándar (ej. 25-50 mg IM/oral) y ajustar con cautela. Mayor riesgo de acumulación de normeperidina y efectos adversos como confusión y caídas.",
+    "renalImpairment": "CONTRAINDICADO en insuficiencia renal severa (TFG <30 mL/min). Evitar uso prolongado. En insuficiencia renal leve a moderada (TFG 30-80 mL/min): reducir dosis, ampliar intervalos (cada 4-6 horas o más) y limitar la duración del tratamiento a 48 horas máximo, debido al riesgo de acumulación de normeperidina neurotóxica.",
+    "hepaticImpairment": "Usar con precaución. La metabolización está reducida. Iniciar con dosis bajas (ej. 25-50 mg) y ampliar intervalos de dosificación. Monitorizar estrechamente por signos de toxicidad (sedación excesiva, depresión respiratoria).",
+    "maxDose": "Dosis máxima diaria recomendada: 600 mg (vía oral o parenteral) en 24 horas para uso agudo de corta duración. En contextos hospitalarios controlados, bajo supervisión estricta, pueden usarse dosis más altas, pero se incrementa dramáticamente el riesgo de convulsiones por normeperidina."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "50 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Solución inyectable (ampolla)",
+      "strengths": [
+        "50 mg/mL (en ampollas de 1 mL y 2 mL)",
+        "100 mg/mL (en ampollas de 1 mL)"
+      ],
+      "route": "Intramuscular, Subcutánea, Intravenosa (lenta, diluida)"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la meperidina o a otros opioides fenilpiperidínicos.",
+      "Uso concomitante con inhibidores de la monoaminooxidasa (IMAOs) o dentro de los 14 días posteriores a su suspensión (riesgo de reacción serotoninérgica grave: hipertermia, rigidez, convulsiones).",
+      "Insuficiencia renal severa (TFG <30 mL/min) o enfermedad renal terminal.",
+      "Epilepsia no controlada o historial de convulsiones.",
+      "Depresión respiratoria severa no asistida mecánicamente.",
+      "Ileo paralítico."
+    ],
+    "relative": [
+      "Asma severa, EPOC o otras condiciones con reserva respiratoria limitada.",
+      "Arritmias cardíacas (por su efecto anticolinérgico).",
+      "Hipertrofia prostática o estenosis uretral (riesgo de retención urinaria).",
+      "Hipotiroidismo o insuficiencia suprarrenal (mixedema).",
+      "Trauma craneoencefálico o hipertensión intracraneal (puede elevar la presión del LCR).",
+      "Adicción a opioides o historial de abuso de sustancias.",
+      "Edad avanzada (>65 años) o estado debilitado.",
+      "Insuficiencia hepática moderada a severa."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Mareo, vértigo, aturdimiento.",
+      "Sedación, somnolencia.",
+      "Náuseas y vómitos.",
+      "Sudoración."
+    ],
+    "common": [
+      "Sequedad de boca.",
+      "Estreñimiento.",
+      "Sensación de desvanecimiento (hipotensión ortostática).",
+      "Rubor facial, sensación de calor.",
+      "Taquicardia (aumento de la frecuencia cardíaca).",
+      "Confusión (especialmente en ancianos).",
+      "Euforia o disforia."
+    ],
+    "uncommon": [
+      "Retención urinaria.",
+      "Visión borrosa.",
+      "Prurito (picazón) sin urticaria.",
+      "Bradicardia (frecuencia cardíaca lenta) paradójica.",
+      "Espasmos musculares o fasciculaciones (signo temprano de toxicidad por normeperidina)."
+    ],
+    "rare": [
+      "Depresión respiratoria grave (disminución peligrosa de la frecuencia y profundidad de la respiración).",
+      "Convulsiones (asociadas a acumulación de normeperidina).",
+      "Reacción anafiláctica o alérgica severa.",
+      "Alucinaciones.",
+      "Síndrome serotoninérgico (con IMAOs o otros serotonérgicos)."
+    ],
+    "blackBoxWarning": "Advertencia de la FDA (EE.UU.): La meperidina está indicada solo para el alivio del dolor agudo moderado a severo y no debe usarse para el tratamiento del dolor crónico. El metabolito normeperidina es neurotóxico y se acumula con dosis repetidas, especialmente en pacientes con insuficiencia renal, aumentando el riesgo de convulsiones. Tiene un alto potencial de abuso y puede causar dependencia psicológica y física."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Inhibidores de la MAO (IMAOs) como fenelzina, tranilcipromina, selegilina",
+        "effect": "Riesgo de reacción serotoninérgica grave (hipertermia, rigidez muscular, mioclonías, inestabilidad autonómica, coma). Puede ser fatal. Contraindicación absoluta.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Otros depresores del SNC (alcohol, benzodiacepinas, hipnóticos, antipsicóticos, antidepresivos tricíclicos)",
+        "effect": "Potenciación aditiva de la depresión del SNC y respiratoria, sedación profunda, coma y riesgo de muerte.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Agonistas/antagonistas opioides mixtos (pentazocina, butorfanol, nalbufina, buprenorfina)",
+        "effect": "Pueden precipitar un síndrome de abstinencia en pacientes dependientes de opioides o reducir el efecto analgésico de la meperidina.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inhibidores potentes del CYP3A4 (ketoconazol, itraconazol, claritromicina, ritonavir)",
+        "effect": "Aumentan los niveles plasmáticos de meperidina, potenciando sus efectos y toxicidad (sedación, depresión respiratoria).",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inductores potentes del CYP3A4 (rifampicina, carbamazepina, fenitoína, fenobarbital)",
+        "effect": "Disminuyen los niveles plasmáticos de meperidina, reduciendo su efecto analgésico y posiblemente aumentando la formación del metabolito tóxico normeperidina.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "El alcohol potencia enormemente los efectos depresores del sistema nervioso central y la depresión respiratoria. Es peligroso combinarlos. Los alimentos no afectan significativamente la absorción, pero tomar las tabletas con comida puede reducir las náuseas.",
+    "withSupplements": "Precaución con suplementos que actúen sobre el SNC como la hierba de San Juan (inductor del CYP3A4, puede reducir efecto), kava kava, valeriana o melatonina, que pueden potenciar la sedación. Suplementos con actividad serotoninérgica (como 5-HTP o triptófano) pueden aumentar el riesgo de síndrome serotoninérgico."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "C (FDA) - Riesgo no puede descartarse. Estudios en animales muestran efectos adversos, no hay estudios adecuados en humanos.",
+      "recommendación": "Puede usarse durante el trabajo de parto bajo supervisión médica. Su uso prolongado durante el embarazo puede causar dependencia física en el feto y síndrome de abstinencia neonatal (NAS) después del nacimiento. No se recomienda para el manejo crónico del dolor en el embarazo.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La meperidina se excreta en la leche materna en cantidades clínicamente significativas. Su metabolito, la normeperidina, también pasa a la leche y se acumula en el lactante, pudiendo causar sedación, dificultad para alimentarse y depresión respiratoria. Se considera generalmente incompatible con la lactancia, especialmente con dosis repetidas. Si se requiere una dosis única ocasional, se recomienda extraer y desechar la leche por 24 horas.",
+    "pediatric": "No es el opioide de elección en niños. Si se usa, debe ser por periodos muy cortos (menos de 48 horas) y bajo estricta supervisión hospitalaria, debido al riesgo de acumulación de normeperidina y convulsiones. Se prefiere el uso de morfina o fentanilo.",
+    "geriatric": "Los pacientes mayores son extremadamente sensibles. Mayor riesgo de efectos adversos como confusión, mareo, sedación, hipotensión, retención urinaria, estreñimiento y caídas. La eliminación de normeperidina está reducida. Se debe iniciar con dosis muy bajas (25-50 mg), intervalos más largos y evitar el uso prolongado."
+  },
+  "administration": {
+    "howToTake": "Tabletas: Tomar exactamente como lo indique el médico, con o sin alimentos. No triturar ni masticar. Inyectable: Administrado solo por personal de salud. La vía intramuscular (IM) es la más común. La vía intravenosa (IV) debe administrarse lentamente, diluida, para evitar reacciones severas como hipotensión o paro respiratorio. Nunca se autoadministre inyecciones.",
+    "storage": "Conservar a temperatura ambiente (15-30°C), protegido de la luz y la humedad. Mantener fuera del alcance de los niños y en un lugar seguro para prevenir el uso indebido. Las ampollas deben inspeccionarse visualmente antes de su uso; desechar si la solución está turbia o contiene partículas.",
+    "specialInstructions": "Este medicamento puede causar somnolencia y mareo severos. NO conduzca, opere maquinaria peligrosa o realice actividades que requieran alerta hasta que sepa cómo le afecta. Evite levantarse rápidamente de la cama o de una silla para prevenir mareos por baja presión. Informe a su médico si el dolor no se controla o si experimenta efectos secundarios graves. No suspenda abruptamente después de un uso prolongado; puede causar síntomas de abstinencia."
+  },
+  "monitoring": {
+    "labTests": [
+      "Función renal (creatinina sérica, TFG) antes y durante el tratamiento.",
+      "Función hepática (transaminasas) en pacientes con enfermedad hepática.",
+      "Gasometría arterial o pulsioximetría si hay sospecha de depresión respiratoria."
+    ],
+    "frequency": "Evaluación constante del nivel de dolor y sedación. Monitoreo de signos vitales (frecuencia respiratoria, frecuencia cardíaca, presión arterial) cada 1-2 horas después de dosis parenterales iniciales, luego según estado clínico. En tratamientos que excedan 48 horas, monitorear función renal.",
+    "signsToWatch": [
+      "Frecuencia respiratoria menor de 12 respiraciones por minuto o respiración superficial.",
+      "Sedación extrema o dificultad para despertar.",
+      "Confusión, agitación o alucinaciones.",
+      "Temblores, espasmos musculares o fasciculaciones (posible toxicidad por normeperidina).",
+      "Convulsiones.",
+      "Mareo intenso o desmayo al ponerse de pie.",
+      "Dificultad para orinar.",
+      "Estreñimiento severo."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Depresión respiratoria (lenta, superficial o ausente).",
+      "Somnolencia extrema progresando a estupor o coma.",
+      "Pupilas puntiformes (miosis).",
+      "Piel fría y húmeda.",
+      "Hipotensión y bradicardia.",
+      "Paro cardiorrespiratorio.",
+      "En intoxicación por normeperidina: convulsiones, hiperreflexia, mioclonías."
+    ],
+    "treatment": "Manejo de emergencia: Mantener vía aérea, asistir ventilación (oxígeno, ventilación mecánica si es necesario). Administrar el antídoto específico (naloxona) por vía intravenosa. El soporte cardiovascular con líquidos y vasopresores puede ser necesario. El carbón activado puede ser útil si la ingestión fue oral y reciente. Las convulsiones por normeperidina NO responden bien a la naloxona y requieren benzodiacepinas (diazepam) u otros anticonvulsivantes.",
+    "antidote": "Naloxona (Narcan). Es un antagonista competitivo de los receptores opioides. Se administra por vía intravenosa, intramuscular o intranasal. La dosis debe titularse para revertir la depresión respiratoria sin precipitar un síndrome de abstinencia agudo severo. Pueden ser necesarias dosis repetidas debido a la vida media corta de la naloxona comparada con la meperidina."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (receta oficial o receta controlada, según la normativa local). Es un psicotrópico bajo control internacional.",
+    "scheduleMexico": "En México, está sujeto a control según la Ley General de Salud. Se encuentra en la Fracción II (Narcóticos) del Cuadro Básico de Medicamentos, lo que significa que su prescripción, venta y dispensación están estrictamente reguladas. La receta debe ser retenida en la farmacia.",
+    "fdaApprovalYear": "Aprobado por la FDA en la década de 1940."
+  },
+  "brandsMexico": [
+    "Demerol",
+    "Dolantina",
+    "Meperidina",
+    "Petidina",
+    "Meperidina Clorhidrato (genérico)"
+  ],
+  "clinicalPearls": [
+    "La meperidina NO debe usarse para el manejo del dolor crónico debido al riesgo de acumulación de normeperidina y convulsiones.",
+    "Su uso en medicina moderna es cada vez más limitado, siendo reemplazado por opioides más seguros como la morfina, hidromorfona o fentanilo.",
+    "El efecto analgésico es de corta duración (2-4 horas), pero el riesgo de toxicidad del metabolito persiste mucho más tiempo.",
+    "La combinación con IMAOs es una contraindicación absoluta y potencialmente mortal.",
+    "En pacientes con insuficiencia renal, incluso leve, se debe evitar o usar con extrema precaución y por menos de 48 horas.",
+    "No es superior a la morfina para el tratamiento del cólico biliar o renal, y su efecto espasmolítico es mínimo."
+  ],
+  "patientCounseling": "Este es un medicamento fuerte para el dolor que solo debe usar bajo la supervisión directa de su médico. Tómelo exactamente como se le indicó; no aumente la dosis ni la frecuencia. Puede causar mucho sueño y mareo, así que evite manejar o hacer actividades peligrosas. No lo combine con alcohol, pastillas para dormir o medicamentos para la ansiedad, ya que puede ser muy peligroso. Si siente que no puede respirar bien, se siente extremadamente somnoliento y no se puede despertar, o empieza con temblores o espasmos, busque atención médica de inmediato. Informe a su médico si tiene problemas de los riñones o del hígado. Guárdelo en un lugar seguro, lejos del alcance de otras personas, ya que puede causar adicción.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor agudo severo",
+        "slug": "dolor-agudo-severo"
+      },
+      {
+        "name": "Dolor postoperatorio",
+        "slug": "dolor-postoperatorio"
+      },
+      {
+        "name": "Dolor de parto",
+        "slug": "dolor-de-parto"
+      },
+      {
+        "name": "Cólico",
+        "slug": "colico"
+      },
+      {
+        "name": "Escalofríos post-anestésicos",
+        "slug": "escalofrios-post-anestesia"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Dolor post-traumático agudo",
+        "slug": "dolor-post-traumatico-agudo"
+      },
+      {
+        "name": "Cáncer (dolor oncológico agudo)",
+        "slug": "dolor-oncologico-agudo"
+      },
+      {
+        "name": "Anemia falciforme (crisis vaso-oclusiva)",
+        "slug": "crisis-drepanocitica"
+      },
+      {
+        "name": "Pancreatitis aguda (dolor)",
+        "slug": "dolor-pancreatitis-aguda"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Insuficiencia renal crónica",
+        "slug": "insuficiencia-renal-cronica"
+      },
+      {
+        "name": "Epilepsia",
+        "slug": "epilepsia"
+      },
+      {
+        "name": "Depresión respiratoria",
+        "slug": "depresion-respiratoria"
+      },
+      {
+        "name": "Adicción a opioides",
+        "slug": "trastorno-por-uso-de-opioides"
+      },
+      {
+        "name": "Síndrome serotoninérgico",
+        "slug": "sindrome-serotoninergico"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "La elevación indica riesgo de acumulación de normeperidina"
+      },
+      {
+        "name": "Tasa de Filtración Glomerular (TFG)",
+        "slug": "tasa-filtracion-glomerular",
+        "effect": "Disminución contraindica o limita severamente su uso"
+      },
+      {
+        "name": "Presión arterial",
+        "slug": "presion-arterial",
+        "effect": "Puede disminuir (hipotensión)"
+      },
+      {
+        "name": "Frecuencia respiratoria",
+        "slug": "frecuencia-respiratoria",
+        "effect": "Puede disminuir peligrosamente (depresión respiratoria)"
+      },
+      {
+        "name": "Nivel de serotonina",
+        "slug": "nivel-serotonina",
+        "effect": "Puede aumentar (riesgo de síndrome serotoninérgico con IMAOs)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Perfil renal (creatinina, BUN, TFG)",
+        "slug": "perfil-renal",
+        "reason": "Evaluar función renal antes y durante el tratamiento para prevenir toxicidad por normeperidina."
+      },
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-funcion-hepatica",
+        "reason": "Evaluar capacidad metabólica del hígado, especialmente en pacientes con enfermedad hepática."
+      },
+      {
+        "name": "Gasometría arterial",
+        "slug": "gasometria-arterial",
+        "reason": "Evaluar oxigenación y ventilación en caso de sospecha de depresión respiratoria."
+      },
+      {
+        "name": "Monitorización de signos vitales",
+        "slug": "monitorizacion-signos-vitales",
+        "reason": "Frecuencia respiratoria, cardíaca y presión arterial son críticas tras la administración."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de TFG (MDRD o CKD-EPI)",
+        "slug": "calculadora-egfr"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve la meperidina?",
+      "a": "Sirve para aliviar dolores fuertes y agudos, como después de una cirugía, un accidente grave o durante el trabajo de parto. Es un analgésico muy potente que solo usa el médico en situaciones específicas."
+    },
+    {
+      "q": "¿La meperidina es lo mismo que la morfina?",
+      "a": "No, son medicamentos diferentes aunque ambos son opioides fuertes. La meperidina actúa más rápido pero dura menos tiempo, y tiene un riesgo especial de causar convulsiones si se usa mucho tiempo o en personas con problemas de riñón. Hoy en día, la morfina se usa más."
+    },
+    {
+      "q": "¿Puedo tomar meperidina si tomo alcohol?",
+      "a": "NO. Es muy peligroso. La mezcla de alcohol con meperidina puede causar sueño extremo, dificultad para respirar, coma e incluso la muerte."
+    },
+    {
+      "q": "¿La meperidina causa adicción?",
+      "a": "Sí, tiene un alto potencial de causar dependencia física y psicológica si se usa por tiempo prolongado o sin control médico. Por eso se vende solo con receta controlada y se usa por periodos cortos."
+    },
+    {
+      "q": "¿Qué hago si olvidé una dosis?",
+      "a": "Tómela tan pronto como se acuerde, pero si ya es casi la hora de la siguiente dosis, sáltese la que olvidó y continúe con su horario normal. NO tome dosis doble para compensar."
+    },
+    {
+      "q": "¿Puedo manejar después de tomar meperidina?",
+      "a": "Definitivamente NO. Este medicamento causa mucho sueño, mareo y puede alterar su capacidad de reacción. Espere al menos 24 horas después de la última dosis antes de manejar o operar maquinaria."
+    },
+    {
+      "q": "¿Qué efectos secundarios son más comunes?",
+      "a": "Mareo, sueño, náuseas, vómitos, sudoración, sequedad de boca y estreñimiento. Si estos efectos son muy molestos, informe a su médico."
+    },
+    {
+      "q": "¿Cuándo debo llamar al médico de inmediato?",
+      "a": "Si tiene dificultad para respirar o respira muy lento, si está tan somnoliento que no lo pueden despertar, si tiene temblores o espasmos musculares, confusión severa, o siente que se va a desmayar."
+    },
+    {
+      "q": "¿La meperidina se puede usar para el dolor de espalda crónico?",
+      "a": "NO. No está indicada para el dolor crónico. Su uso prolongado aumenta mucho el riesgo de sufrir convulsiones debido a la acumulación de un metabolito tóxico en el cuerpo."
+    },
+    {
+      "q": "¿Puedo tomar meperidina si estoy embarazada?",
+      "a": "Solo bajo estricta supervisión médica, generalmente durante el trabajo de parto en el hospital. No se recomienda para el manejo de dolor durante el embarazo por riesgo de afectar al bebé."
+    },
+    {
+      "q": "¿Y si estoy amamantando?",
+      "a": "Generalmente se recomienda NO usarlo. Pasa a la leche materna y puede hacer que el bebé esté muy somnoliento, tenga dificultad para alimentarse o problemas para respirar. Si necesita una dosis, consulte con su médico sobre la posibilidad de extraer y desechar la leche por un tiempo."
+    },
+    {
+      "q": "¿Interfiere con otros medicamentos?",
+      "a": "Sí, mucho. Es especialmente peligroso con pastillas para la depresión llamadas IMAOs (como Aurorix o Parnate), con pastillas para dormir, ansiolíticos (como el clonazepam), y con algunos antibióticos o medicamentos para el corazón. Siempre informe a su médico de TODOS los medicamentos que toma."
+    },
+    {
+      "q": "¿Por qué me dicen que no la use si tengo problemas de los riñones?",
+      "a": "Porque cuando los riñones no funcionan bien, el cuerpo no puede eliminar un producto de desecho de la meperidina (llamado normeperidina). Este producto se acumula y puede causar temblores, espasmos y convulsiones."
+    },
+    {
+      "q": "¿Es mejor la inyección que la pastilla?",
+      "a": "La inyección (generalmente en el músculo) actúa más rápido (en 10-15 minutos) y es más segura para pacientes que no pueden tomar pastillas (por náuseas o después de cirugía). La pastilla tarda más (15-30 minutos) y parte se pierde en el hígado. El médico decide cuál es mejor para su caso."
+    },
+    {
+      "q": "¿Qué pasa si tomo demasiada meperidina (sobredosis)?",
+      "a": "Puede causar paro respiratorio (deja de respirar), coma y muerte. Los síntomas son respiración muy lenta o ausente, sueño extremo, piel fría y húmeda, y pupilas muy pequeñas. Es una EMERGENCIA MÉDICA. Llame al 911."
+    },
+    {
+      "q": "¿Existe un antídoto si alguien sufre una sobredosis?",
+      "a": "Sí, existe un medicamento llamado naloxona (Narcan) que puede revertir los efectos de la sobredosis de opioides, incluyendo la meperidina. Se administra por inyección o spray nasal. Es de uso hospitalario, pero en algunos lugares se dispensa a familiares de pacientes en riesgo."
+    },
+    {
+      "q": "¿Por qué mi médico ya no receta meperidina y usa otros opioides?",
+      "a": "Porque los estudios y la experiencia clínica han mostrado que otros opioides como la morfina, oxicodona o hidromorfona son más seguros a largo plazo, tienen menos riesgo de causar convulsiones y su dosificación es más predecible. La meperidina se reserva para casos muy específicos."
+    },
+    {
+      "q": "¿La meperidina ayuda con los cólicos (renales o biliares)?",
+      "a": "Aunque antes se usaba mucho, hoy se sabe que no es mejor que la morfina para esto. Su supuesto efecto para relajar los músculos del conducto es mínimo. Los médicos ahora prefieren otros medicamentos."
+    },
+    {
+      "q": "¿Puedo comprar meperidina sin receta en México?",
+      "a": "NO. Es un medicamento controlado (narcótico) que requiere receta médica oficial especial. La farmacia debe retener la receta. Venderla o poseerla sin receta es un delito."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre Demerol y Meperidina?",
+      "a": "Demerol es una de las marcas comerciales más conocidas del clorhidrato de meperidina. Es el mismo medicamento. También existe en versiones genéricas que suelen ser más económicas y tienen el mismo principio activo."
+    }
+  ]
+}

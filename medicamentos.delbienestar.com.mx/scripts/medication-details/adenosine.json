@@ -1,0 +1,368 @@
+{
+  "name": "Adenosina",
+  "summary": "La adenosina es un medicamento de emergencia que se usa principalmente para tratar ciertos tipos de latidos cardíacos anormalmente rápidos, conocidos como taquicardias supraventriculares. Actúa como un 'reseteador' natural del corazón, desacelerando temporalmente la conducción eléctrica en el nodo AV (una estación eléctrica del corazón), lo que puede interrumpir y terminar el ritmo cardíaco peligroso. Su importancia clínica es enorme en urgencias, ya que es el tratamiento de elección inicial para la taquicardia supraventricular paroxística (TSVP), actuando en segundos. Sin embargo, su efecto es extremadamente breve, durando menos de un minuto, por lo que solo se administra por personal médico capacitado en un entorno donde se puede monitorear el corazón y manejar posibles efectos secundarios graves, como pausas cardíacas momentáneas. No es un medicamento para uso crónico en casa, sino una herramienta de diagnóstico y tratamiento en el hospital.",
+  "pharmacology": {
+    "mechanismOfAction": "La adenosina es un nucleósido endógeno que actúa como agonista de los receptores de adenosina (principalmente A1) en el corazón. Su mecanismo principal es la depresión de la automaticidad del nodo sinusal y, más importante, una inhibición profunda pero transitoria de la conducción eléctrica a través del nodo auriculoventricular (AV). Esto interrumpe el circuito de reentrada que es la base de la mayoría de las taquicardias supraventriculares, restaurando el ritmo sinusal normal. Además, causa vasodilatación coronaria y periférica. Su acción es ultra rápida porque es captada inmediatamente por los glóbulos rojos y las células endoteliales.",
+    "pharmacologicClass": "Agonista de los receptores de adenosina (A1 y A2). Nucleósido endógeno.",
+    "therapeuticClass": "Antiarrítmico (clase V según la clasificación de Vaughan Williams). Agente de diagnóstico cardíaco.",
+    "absorption": "No se administra por vía oral debido a un metabolismo de primer paso extremadamente alto (casi del 100%). Se administra exclusivamente por inyección intravenosa rápida (bolo). La biodisponibilidad sistémica tras una inyección IV central o periférica es del 100%, pero su vida en sangre es de segundos.",
+    "distribution": "Se distribuye rápidamente a los glóbulos rojos y células endoteliales vasculares. Su volumen de distribución es pequeño. Cruza la barrera hematoencefálica. No se une significativamente a proteínas plasmáticas.",
+    "metabolism": "No tiene metabolismo hepático significativo vía CYP. Es desaminada inmediatamente en la sangre y tejidos por la enzima adenosina desaminasa, convirtiéndose en inosina, que es inactiva. También es fosforilada a AMP por la adenosina quinasa. La vida media en sangre es de menos de 10 segundos.",
+    "elimination": "Vida media plasmática: Aproximadamente de 1 a 10 segundos. Se elimina principalmente por captación celular (eritrocitos y células endoteliales) y desaminación en la sangre. Los metabolitos (inosina, hipoxantina, xantina, ácido úrico) se eliminan por vía renal.",
+    "onsetOfAction": "Inmediato. Los efectos sobre el corazón ocurren en los primeros 10-30 segundos tras la inyección IV rápida.",
+    "durationOfAction": "Muy breve, generalmente menos de 1 minuto. Los efectos hemodinámicos suelen desaparecer en 10-20 segundos."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento de la taquicardia supraventricular paroxística (TSVP) que involucra el nodo AV o vías accesorias (ej. Síndrome de Wolff-Parkinson-White).",
+      "Agente de diagnóstico para taquicardias de QRS ancho no diferenciadas (ayuda a diferenciar TSVP de taquicardia ventricular).",
+      "Prueba de esfuerzo farmacológica (adenosina o dipiridamol) para evaluación de enfermedad arterial coronaria en pacientes que no pueden hacer ejercicio."
+    ],
+    "offLabel": [
+      "Como vasodilatador en la medición de la reserva de flujo fraccional (FFR) durante cateterismo cardíaco.",
+      "Tratamiento del dolor torácico en el síndrome de tako-tsubo (cardiomiopatía por estrés).",
+      "Investigación en el tratamiento de ciertas formas de dolor neuropático."
+    ]
+  },
+  "dosage": {
+    "adults": "Para TSVP: Dosis inicial de 6 mg en bolo IV rápido (1-2 segundos) a través de una vía IV proximal (cercana al corazón) o en una vena grande del antebrazo, seguido inmediatamente de un lavado rápido con 10-20 mL de solución salina normal. Si no hay respuesta en 1-2 minutos, administrar 12 mg. Puede repetirse una segunda dosis de 12 mg si es necesario. Dosis máxima por evento: Generalmente 12-18 mg. Para prueba de esfuerzo farmacológica: Se infunde a 140 mcg/kg/min durante 6 minutos.",
+    "pediatric": "Basado en peso. Dosis inicial: 0.05 a 0.1 mg/kg en bolo IV rápido. Incrementar en incrementos de 0.05 a 0.1 mg/kg cada 1-2 minutos hasta la conversión o hasta una dosis máxima de 0.3 mg/kg o 12 mg (lo que sea menor). En adolescentes, se pueden usar dosis de adulto.",
+    "elderly": "No se requiere ajuste de dosis específico por edad, pero los pacientes mayores pueden ser más sensibles a sus efectos (mayor riesgo de bradicardia, bloqueo AV). Se recomienda usar la dosis más baja efectiva.",
+    "renalImpairment": "No se requiere ajuste de dosis. La adenosina se metaboliza en sangre, no depende de la función renal para su eliminación. Sin embargo, los pacientes con insuficiencia renal terminal pueden tener niveles basales más altos de adenosina.",
+    "hepaticImpairment": "No se requiere ajuste de dosis. El metabolismo de la adenosina no es hepático.",
+    "maxDose": "Dosis máxima por bolo: 12 mg (en adultos). En protocolos pediátricos, máxima de 0.3 mg/kg o 12 mg. Para infusiones diagnósticas, seguir protocolos establecidos."
+  },
+  "dosageForms": [
+    {
+      "form": "Solución inyectable",
+      "strengths": [
+        "3 mg/mL"
+      ],
+      "route": "Intravenosa (solo para administración en hospital)"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la adenosina.",
+      "Bloqueo auriculoventricular (AV) de segundo o tercer grado, o síndrome del seno enfermo, excepto en pacientes con marcapasos artificial funcionando.",
+      "Asma bronquial activa o enfermedad reactiva de las vías respiratorias (broncoespasmo).",
+      "Taquicardia ventricular (puede inducir hipotensión y degenerar a fibrilación ventricular)."
+    ],
+    "relative": [
+      "Bloqueo AV de primer grado o bloqueo de rama.",
+      "Estenosis aórtica o estenosis de la válvula mitral no corregidas.",
+      "Pericarditis o derrame pericárdico.",
+      "Deshidratación o hipovolemia.",
+      "Insuficiencia cardíaca descompensada.",
+      "Uso reciente de altas dosis de teofilina o cafeína (antagonistas competitivos)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Rubor facial (enrojecimiento).",
+      "Disnea (sensación de falta de aire) o presión torácica.",
+      "Mareo o aturdimiento.",
+      "Náuseas."
+    ],
+    "common": [
+      "Palpitaciones.",
+      "Dolor de cabeza.",
+      "Hipotensión transitoria.",
+      "Ansiedad o sensación de muerte inminente.",
+      "Dolor en el cuello o mandíbula.",
+      "Sudoración."
+    ],
+    "uncommon": [
+      "Pausas sinusales o bloqueo AV transitorio (generalmente < 5 segundos).",
+      "Broncoespasmo (en pacientes susceptibles).",
+      "Visión borrosa.",
+      "Sabor metálico en la boca.",
+      "Temblor."
+    ],
+    "rare": [
+      "Fibrilación auricular o flutter auricular de nueva aparición.",
+      "Convulsiones.",
+      "Paro cardíaco prolongado (requiere reanimación).",
+      "Reacción anafiláctica.",
+      "Infarto de miocardio (muy raro)."
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Teofilina, Aminofilina",
+        "effect": "Antagonista competitivo potente de los receptores de adenosina. Puede bloquear por completo el efecto terapéutico de la adenosina, requiriendo dosis mucho más altas o haciendo que el tratamiento falle.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Cafeína (en altas dosis)",
+        "effect": "Antagonista competitivo de los receptores de adenosina. El consumo de café, té, bebidas energéticas o suplementos con cafeína puede disminuir la eficacia de la adenosina.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Dipiridamol (Persantin)",
+        "effect": "Inhibe la recaptación de adenosina, potenciando y prolongando sus efectos (vasodilatación, bradicardia, bloqueo AV). El riesgo de efectos adversos graves aumenta. Se debe reducir la dosis de adenosina si se usa juntos.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Carbamazepina (Tegretol)",
+        "effect": "Puede potenciar el efecto de bloqueo AV de la adenosina, aumentando el riesgo de bradicardia severa o paro cardíaco.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Digoxina",
+        "effect": "Puede aumentar el riesgo de bloqueo cardíaco (AV) cuando se usa con adenosina. Se requiere monitoreo estrecho.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "No hay interacciones directas con alimentos, ya que no se administra por vía oral. Sin embargo, los alimentos y bebidas con alto contenido de cafeína (café, té, chocolate, bebidas de cola, energéticas) pueden antagonizar su efecto si se consumen poco antes de su administración intravenosa.",
+    "withSupplements": "Suplementos que contengan cafeína, guaraná, té verde o extracto de café verde pueden antagonizar el efecto de la adenosina. Suplementos con propiedades vasodilatadoras (como el Ginkgo biloba) podrían potenciar la hipotensión."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA C",
+      "recommendation": "No hay estudios adecuados en mujeres embarazadas. Solo debe usarse durante el embarazo si el beneficio potencial justifica claramente el riesgo potencial para el feto. Se reserva para situaciones de emergencia materna (ej., TSVP sintomática que no responde a otras medidas). Su uso rápido y vida ultracorta limitan la exposición fetal.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Es improbable que la adenosina administrada por vía intravenosa se excrete en la leche materna en cantidades clínicamente relevantes debido a su vida media extremadamente corta (segundos) y su rápido metabolismo en la sangre materna. Se considera compatible con la lactancia, especialmente dado su uso en entorno hospitalario puntual.",
+    "pediatric": "Se puede usar de forma segura y efectiva en niños para la conversión de TSVP. Las dosis se calculan cuidadosamente por peso. Los efectos secundarios son similares a los de los adultos. Debe ser administrado por personal con experiencia en reanimación pediátrica.",
+    "geriatric": "Los pacientes de edad avanzada pueden tener una mayor sensibilidad a los efectos de la adenosina, especialmente la bradicardia y el bloqueo AV, debido a cambios fisiológicos en el sistema de conducción cardíaca. Se debe iniciar con dosis bajas y monitorear estrechamente. La presencia de enfermedad sinusal o bloqueo AV subclínico es más común."
+  },
+  "administration": {
+    "howToTake": "EXCLUSIVAMENTE ADMINISTRACIÓN HOSPITALARIA POR PERSONAL MÉDICO. Se administra como un bolo intravenoso RÁPIDO (en 1-2 segundos) en una vena grande (preferentemente una vía IV proximal o en la fosa antecubital), seguido inmediatamente de un lavado rápido con 10-20 mL de solución salina normal para llevar el medicamento al corazón rápidamente. Si se inyecta muy lento o en una vena pequeña periférica, será metabolizada antes de llegar al corazón y no funcionará. El paciente debe estar en monitorización cardíaca continua y con acceso para reanimación.",
+    "storage": "Conservar el vial a temperatura ambiente controlada (15-30°C). Proteger de la luz. No congelar. La solución es estable a temperatura ambiente. Una vez abierto el vial, debe usarse inmediatamente. No mezclar con otros medicamentos en la misma jeringa.",
+    "specialInstructions": "Informar al paciente que sentirá efectos intensos pero muy breves (menos de 1 minuto) como sofoco, falta de aire, presión en el pecho y ansiedad. Esto es normal y pasará rápido. El personal debe estar preparado para manejar bradicardia o asistolia transitoria (generalmente < 10 segundos). Tener un desfibrilador y equipo de reanimación disponible. En pacientes con trasplante cardíaco, pueden ser extremadamente sensibles; usar dosis iniciales más bajas (ej., 1-3 mg)."
+  },
+  "monitoring": {
+    "labTests": [
+      "No se requieren monitoreos de laboratorio de rutina para la dosis única en urgencias.",
+      "En uso diagnóstico (prueba de esfuerzo), se monitorea electrocardiograma (ECG) continuo y presión arterial."
+    ],
+    "frequency": "Monitoreo continuo durante la administración y al menos 1-2 minutos después. Observación clínica hasta que desaparezcan todos los efectos (generalmente 1-5 minutos).",
+    "signsToWatch": [
+      "Ritmo cardíaco en el monitor (conversión a ritmo sinusal o aparición de bradicardia/paro).",
+      "Respiración (signos de broncoespasmo: sibilancias, dificultad para respirar).",
+      "Presión arterial (hipotensión).",
+      "Estado neurológico (pérdida de conciencia por asistolia prolongada)."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Los síntomas son una exageración de sus efectos farmacológicos: asistolia (paro cardíaco) prolongada, bloqueo AV completo, hipotensión severa, broncoespasmo intenso, convulsiones."
+    ],
+    "treatment": "El tratamiento es principalmente de soporte, ya que los efectos son autolimitados por la corta vida media de la adenosina. Para asistolia o bradicardia severa: Soporte vital avanzado (SVCA/BLS), incluyendo compresiones torácicas si es necesario. La mayoría de las pausas terminan espontáneamente en < 10 segundos. Para broncoespasmo: Administrar un broncodilatador de acción rápida (salbutamol inhalado). Para hipotensión: Posición Trendelenburg, fluidos IV. La teofilina IV es el antídoto farmacológico.",
+    "antidote": "Teofilina o aminofilina (antagonistas competitivos de los receptores de adenosina). Se administran por vía intravenosa en casos de efectos cardiovasculares o broncoespasmo graves y prolongados."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial para uso hospitalario (medicamento de control sanitario). No está disponible para venta libre.",
+    "scheduleMexico": "Medicamento de la Fracción IV (requiere receta médica y se vende solo en farmacias, pero en la práctica es de uso exclusivamente hospitalario).",
+    "fdaApprovalYear": "Aprobado por la FDA en 1989 para el tratamiento de la TSVP."
+  },
+  "brandsMexico": [
+    "Adenocard",
+    "Adenosina Génrico (varios laboratorios genéricos mexicanos, ej. Pisa, Liomont, etc.)"
+  ],
+  "clinicalPearls": [
+    "La administración RÁPIDA y el lavado con solución salina son CRÍTICOS para su eficacia. Si se inyecta lento, se metaboliza antes de llegar al corazón.",
+    "Los efectos secundarios (sofoco, disnea, presión torácica) son tan característicos que, si un paciente no los siente tras una dosis adecuada, sugiere que la vía IV no es patentee o que el paciente consume antagonistas (cafeína/teofilina).",
+    "En pacientes con marcapasos, la adenosina es segura, ya que el marcapasos capturará durante cualquier pausa inducida.",
+    "Es el fármaco de elección para la TSVP porque es eficaz, de acción ultra rápida y su efecto adverso más temido (asistolia) es breve y autolimitado."
+  ],
+  "patientCounseling": "La adenosina es un medicamento de emergencia que solo se usa en el hospital, bajo supervisión médica directa, para regular su corazón cuando late demasiado rápido de manera peligrosa. No es una medicina que usted tomará en casa. Cuando se le administre, es normal y esperado que sienta una oleada intensa de calor en la cara, una fuerte sensación de falta de aire o presión en el pecho, mareo y ansiedad. Estos efectos son MUY FUERTES pero duran MENOS DE UN MINUTO. Es importante que sepa que esto pasará rápido. Para que el medicamento funcione, la enfermera lo inyectará muy rápido y luego pasará suero fisiológico. Avise inmediatamente si siente que le falta el aire con silbidos en el pecho (como un ataque de asma) o si se marea mucho. Si consume mucho café, té, chocolate, bebidas de cola o energéticas, o si toma teofilina para el asma, INFORME a su médico, ya que estos productos pueden hacer que la adenosina no le funcione.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Palpitaciones rápidas",
+        "slug": "palpitaciones-rapidas"
+      },
+      {
+        "name": "Mareo por taquicardia",
+        "slug": "mareo-por-taquicardia"
+      },
+      {
+        "name": "Dolor torácico por arritmia",
+        "slug": "dolor-toracico-por-arritmia"
+      },
+      {
+        "name": "Ansiedad por latidos irregulares",
+        "slug": "ansiedad-por-latidos-irregulares"
+      },
+      {
+        "name": "Sensación de desmayo (presíncope)",
+        "slug": "sensacion-de-desmayo"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Taquicardia Supraventricular Paroxística (TSVP)",
+        "slug": "taquicardia-supraventricular-paroxistica"
+      },
+      {
+        "name": "Síndrome de Wolff-Parkinson-White (WPW)",
+        "slug": "sindrome-de-wolff-parkinson-white"
+      },
+      {
+        "name": "Taquicardia por reentrada nodal AV (TRNAV)",
+        "slug": "taquicardia-por-reentrada-nodal-av"
+      },
+      {
+        "name": "Enfermedad arterial coronaria (en diagnóstico)",
+        "slug": "enfermedad-arterial-coronaria"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Bloqueo auriculoventricular (AV)",
+        "slug": "bloqueo-auriculoventricular"
+      },
+      {
+        "name": "Asistolia (paro cardíaco transitorio)",
+        "slug": "asistolia"
+      },
+      {
+        "name": "Broncoespasmo (ataque de asma)",
+        "slug": "broncoespasmo"
+      },
+      {
+        "name": "Fibrilación auricular",
+        "slug": "fibrilacion-auricular"
+      },
+      {
+        "name": "Hipotensión severa",
+        "slug": "hipotension-severa"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede disminuir drásticamente (bradicardia/asistolia) o normalizar (conversión)"
+      },
+      {
+        "name": "Intervalo PR en ECG",
+        "slug": "intervalo-pr-ecg",
+        "effect": "Puede alargar (bloqueo AV)"
+      },
+      {
+        "name": "Presión arterial sistólica",
+        "slug": "presion-arterial-sistolica",
+        "effect": "Puede disminuir (hipotensión)"
+      },
+      {
+        "name": "Flujo sanguíneo coronario",
+        "slug": "flujo-sanguineo-coronario",
+        "effect": "Puede aumentar (vasodilatación)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Electrocardiograma (ECG) de 12 derivaciones",
+        "slug": "electrocardiograma",
+        "reason": "Esencial para diagnosticar la arritmia y monitorear el efecto del medicamento."
+      },
+      {
+        "name": "Monitoreo cardíaco continuo (Holter o telemetría)",
+        "slug": "monitoreo-cardiaco-continuo",
+        "reason": "Para capturar arritmias paroxísticas y evaluar la respuesta al tratamiento."
+      },
+      {
+        "name": "Presión arterial no invasiva",
+        "slug": "presion-arterial-no-invasiva",
+        "reason": "Para monitorear cambios hemodinámicos durante y después de la administración."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve la adenosina?",
+      "a": "Sirve como medicamento de emergencia en el hospital para detener ciertos tipos de latidos cardíacos anormalmente rápidos (taquicardias supraventriculares). Actúa como un 'botón de reinicio' temporal para el corazón."
+    },
+    {
+      "q": "¿La adenosina duele al aplicarse?",
+      "a": "La inyección en sí no duele más que cualquier otra inyección intravenosa. Sin embargo, segundos después, usted sentirá efectos muy intensos como calor en la cara, presión en el pecho y sensación de falta de aire. Estos son efectos esperados del medicamento y duran menos de un minuto."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto la adenosina?",
+      "a": "Hace efecto en cuestión de segundos (10 a 30 segundos) después de la inyección rápida en la vena."
+    },
+    {
+      "q": "¿Por qué me dijeron que iba a sentir que me moría cuando me pusieran la adenosina?",
+      "a": "Es una forma exagerada de describir la intensa pero breve sensación de malestar que causa. La combinación de presión en el pecho, falta de aire y ansiedad es muy fuerte, pero es totalmente normal, esperada y, lo más importante, PASA RÁPIDO (en menos de un minuto). El personal médico está preparado para ello."
+    },
+    {
+      "q": "¿Puedo tomar adenosina en pastillas para prevenir mis taquicardias?",
+      "a": "No. La adenosina no existe en pastillas para uso crónico. Se destruye casi por completo si se toma por la boca. Solo es efectiva cuando se inyecta directamente en la vena en un entorno hospitalario controlado."
+    },
+    {
+      "q": "¿La adenosina es lo mismo que la adrenalina?",
+      "a": "No, son medicamentos totalmente diferentes y con efectos opuestos. La adrenalina (epinefrina) acelera el corazón y sube la presión, se usa en paros cardíacos. La adenosina frena temporalmente el corazón y se usa para detener taquicardias."
+    },
+    {
+      "q": "¿Qué debo hacer si tomo café o té y me van a poner adenosina?",
+      "a": "Es MUY IMPORTANTE que le informe a su médico y enfermera si consume café, té, chocolate, bebidas de cola, energéticas o cualquier producto con cafeína. La cafeína puede hacer que la adenosina no funcione, y el médico podría necesitar ajustar la dosis."
+    },
+    {
+      "q": "¿La adenosina puede detener el corazón por completo?",
+      "a": "Sí, ese es uno de sus efectos farmacológicos. Puede causar una pausa o paro cardíaco muy breve (generalmente menos de 10 segundos), que es justo lo que permite 'reiniciar' el ritmo normal. Por eso se administra solo en un hospital con monitorización y equipo de reanimación listo."
+    },
+    {
+      "q": "¿Hay personas que no pueden recibir adenosina?",
+      "a": "Sí. No se debe usar en personas con asma activo o broncoespasmo severo, porque puede desencadenar un ataque. Tampoco en personas con ciertos bloqueos cardíacos graves que no tengan un marcapasos, ni en algunos tipos específicos de taquicardia (como la taquicardia ventricular)."
+    },
+    {
+      "q": "¿Puede la adenosina causar un ataque de asma?",
+      "a": "Sí, el broncoespasmo es un efecto adverso posible, especialmente en pacientes con historial de asma o enfermedad pulmonar obstructiva. Por eso el asma activo es una contraindicación absoluta."
+    },
+    {
+      "q": "¿Qué pasa si la adenosina no funciona para mi taquicardia?",
+      "a": "Si la dosis inicial no funciona, el médico puede administrar una dosis mayor. Si aún así no funciona, se considerarán otras opciones de tratamiento, como otro medicamento antiarrítmico (ej., amiodarona, procainamida) o una cardioversión eléctrica (un choque controlado al corazón)."
+    },
+    {
+      "q": "¿La adenosina se puede usar en niños?",
+      "a": "Sí, se puede usar en niños con taquicardias supraventriculares. La dosis se calcula cuidadosamente con base en el peso del niño. Debe ser administrada por personal con experiencia en pediatría y reanimación."
+    },
+    {
+      "q": "¿La adenosina afecta al bebé durante el embarazo?",
+      "a": "Su uso durante el embarazo está reservado para emergencias maternas donde el beneficio supera el riesgo. Debido a que su efecto es ultra rápido y breve, la exposición del feto es mínima. Se clasifica como categoría C de la FDA."
+    },
+    {
+      "q": "¿Puedo amamantar después de que me pongan adenosina?",
+      "a": "Sí, es seguro amamantar. La adenosina se metaboliza en segundos en la sangre de la madre, por lo que es extremadamente improbable que pase a la leche materna en cantidades que afecten al bebé."
+    },
+    {
+      "q": "¿Qué es el 'lavado con suero' que hacen después de la inyección?",
+      "a": "Es una técnica crítica. Después de inyectar la adenosina muy rápido, la enfermera inmediatamente inyecta 10-20 ml de solución salina (suero fisiológico) en la misma vía. Esto 'empuja' el medicamento directamente hacia el corazón antes de que el cuerpo lo destruya, asegurando que llegue en la concentración adecuada para funcionar."
+    },
+    {
+      "q": "¿Por qué a veces usan adenosina para hacer una 'prueba de esfuerzo' si no puedo caminar?",
+      "a": "En la prueba de esfuerzo con adenosina (o dipiridamol), se infunde el medicamento para simular el efecto del ejercicio en el corazón: dilata las arterias coronarias. Si hay una arteria obstruida, esa zona no se dilata bien y se ve en las imágenes. Es una forma de diagnosticar enfermedad de las arterias del corazón sin necesidad de ejercicio físico."
+    },
+    {
+      "q": "¿Existe un antídoto si la adenosina causa efectos muy prolongados?",
+      "a": "Sí. La teofilina (un medicamento que también se usa para el asma) es el antídoto. Bloquea los receptores donde actúa la adenosina. Se usa en raros casos donde la pausa cardíaca o el broncoespasmo no desaparecen rápidamente por sí solos."
+    },
+    {
+      "q": "¿Cómo interactúa la adenosina con la digoxina (Lanoxin)?",
+      "a": "La digoxina también puede enlentecer la conducción eléctrica del corazón. Usadas juntas, hay un mayor riesgo de que se produzca un bloqueo cardíaco (el corazón late muy lento). El médico monitoreará el ritmo cardíaco muy de cerca si necesita usar adenosina en un paciente que toma digoxina."
+    },
+    {
+      "q": "¿Qué diferencia hay entre Adenocard y la adenosina genérica?",
+      "a": "Adenocard es el nombre comercial original. La adenosina genérica contiene el mismo principio activo y debe cumplir los mismos estándares de calidad. Ambas son igual de efectivas cuando se administran correctamente. En México, es común encontrar la versión genérica de laboratorios nacionales."
+    },
+    {
+      "q": "¿En qué tipo de taquicardia NO se debe usar adenosina y por qué?",
+      "a": "NO se debe usar en la Taquicardia Ventricular (TV) de QRS ancho, a menos que el médico esté absolutamente seguro de que es una TSVP con conducción aberrante. En la TV, la adenosina puede causar hipotensión severa y hacer que la arritmia se degrade a Fibrilación Ventricular (un ritmo mortal). Se usa con precaución como herramienta diagnóstica para diferenciarlas."
+    }
+  ]
+}

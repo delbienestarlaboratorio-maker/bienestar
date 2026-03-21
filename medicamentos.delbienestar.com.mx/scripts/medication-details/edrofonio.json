@@ -1,0 +1,342 @@
+{
+  "name": "Edrofonio",
+  "summary": "El edrofonio es un medicamento inyectable que actúa como un antagonista de los relajantes musculares no despolarizantes, es decir, revierte el efecto de ciertos medicamentos que se usan durante la cirugía para paralizar los músculos y facilitar la intubación y la operación. Su función principal es ayudar a que el paciente recupere la fuerza muscular y la capacidad de respirar por sí mismo de manera rápida y segura al final de una intervención quirúrgica o en una unidad de cuidados intensivos. Es un fármaco de vital importancia en el manejo anestésico y perioperatorio, ya que acelera la recuperación de la función neuromuscular, reduce el riesgo de complicaciones respiratorias postoperatorias y permite una extubación más temprana, mejorando la seguridad del paciente en el quirófano y en la recuperación.",
+  "pharmacology": {
+    "mechanismOfAction": "El edrofonio es un inhibidor reversible de la enzima acetilcolinesterasa. Esta enzima normalmente degrada el neurotransmisor acetilcolina en la unión neuromuscular. Al inhibirla, el edrofonio aumenta la concentración de acetilcolina en la hendidura sináptica. Este exceso de acetilcolina compite y desplaza a los relajantes musculares no despolarizantes (como el rocuronio o el vecuronio) de los receptores nicotínicos en la placa motora del músculo. Este desplazamiento restablece la transmisión neuromuscular, permitiendo que los impulsos nerviosos lleguen de nuevo al músculo y se recupere la contracción muscular voluntaria y la fuerza respiratoria. Su acción es rápida y específica para revertir el bloqueo neuromuscular inducido por estos fármacos.",
+    "pharmacologicClass": "Inhibidor de la colinesterasa de acción corta. Antagonista competitivo de los relajantes musculares no despolarizantes.",
+    "therapeuticClass": "Agente de reversión neuromuscular. Antídoto para relajantes musculares.",
+    "absorption": "Se administra exclusivamente por vía intravenosa, por lo que su absorción es inmediata y completa (biodisponibilidad del 100%).",
+    "distribution": "Se distribuye rápidamente en el espacio extracelular. Su unión a proteínas plasmáticas es baja. Su volumen de distribución (Vd) es de aproximadamente 0.3 a 0.4 L/kg, lo que indica que se distribuye principalmente en el plasma y el líquido extracelular.",
+    "metabolism": "El edrofonio no sufre metabolismo hepático significativo. Su principal vía de inactivación es la hidrólisis espontánea en el plasma, que no depende de enzimas hepáticas como el citocromo P450. Esto lo hace útil en pacientes con enfermedad hepática.",
+    "elimination": "Tiene una vida media de eliminación muy corta, de aproximadamente 1 a 2 minutos. Se elimina principalmente por vía renal en forma inalterada (hasta un 75%). Una pequeña parte se elimina por hidrólisis plasmática.",
+    "onsetOfAction": "Muy rápido. El inicio de acción ocurre generalmente entre 30 segundos y 2 minutos después de la administración intravenosa.",
+    "durationOfAction": "Corta, de aproximadamente 10 a 30 minutos. Sin embargo, la duración del efecto de reversión es más prolongada que la del fármaco en sí, ya que depende de la eliminación del relajante muscular que se está revirtiendo."
+  },
+  "indications": {
+    "approved": [
+      "Reversión del bloqueo neuromuscular inducido por relajantes musculares no despolarizantes (p. ej., rocuronio, vecuronio, atracurio, cisatracurio) al final de procedimientos quirúrgicos o en cuidados intensivos.",
+      "Diagnóstico de la miastenia gravis (Prueba de Tensilon), aunque este uso ha sido mayormente reemplazado por otros métodos."
+    ],
+    "offLabel": [
+      "Tratamiento de la taquicardia supraventricular paroxística (raro, ya que hay fármacos más seguros).",
+      "Ayuda en el diagnóstico de ciertos trastornos de la motilidad esofágica."
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis es variable y depende del grado de bloqueo neuromuscular y del relajante muscular utilizado. Dosis típica: 0.5 a 1.0 mg/kg de peso corporal por vía intravenosa. Generalmente se administra una dosis de carga de 0.5 a 0.7 mg/kg. La dosis total no debe exceder los 70 mg en adultos. Siempre se administra junto con un agente anticolinérgico (como atropina o glicopirrolato) para contrarrestar los efectos muscarínicos adversos.",
+    "pediatric": "Niños mayores de 1 mes: 0.5 a 1.0 mg/kg por vía intravenosa. La dosis máxima es de 35 mg para niños que pesan menos de 35 kg y de 70 mg para niños que pesan más de 35 kg. Siempre con un agente anticolinérgico.",
+    "elderly": "Se debe usar con precaución debido a la posible disminución de la función renal y cardiaca. Se recomienda iniciar con la dosis más baja del rango (0.5 mg/kg) y monitorizar estrechamente la respuesta.",
+    "renalImpairment": "Ajuste necesario. El edrofonio se elimina por vía renal. En insuficiencia renal moderada a severa (TFG < 30 mL/min), se debe reducir la dosis y administrar con extrema precaución, ya que puede prolongarse su efecto y aumentar el riesgo de recurrencia del bloqueo neuromuscular (recurarización).",
+    "hepaticImpairment": "No se requiere ajuste de dosis significativo, ya que no se metaboliza en el hígado. Sin embargo, se debe considerar el estado general del paciente.",
+    "maxDose": "La dosis máxima total recomendada es de 70 mg en adultos y 35 mg en niños con peso menor a 35 kg."
+  },
+  "dosageForms": [
+    {
+      "form": "Solución inyectable",
+      "strengths": [
+        "10 mg/mL"
+      ],
+      "route": "Intravenosa"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al edrofonio o a cualquiera de los componentes de la formulación.",
+      "Pacientes con obstrucción mecánica intestinal o urinaria.",
+      "Pacientes con peritonitis."
+    ],
+    "relative": [
+      "Historia de asma bronquial o enfermedad pulmonar obstructiva crónica (EPOC).",
+      "Bradicardia, arritmias cardíacas o enfermedad coronaria.",
+      "Ulcera péptica activa.",
+      "Epilepsia o trastornos convulsivos.",
+      "Miastenia gravis (en el contexto de reversión, puede causar crisis colinérgica).",
+      "Hipertiroidismo."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Aumento de la salivación (sialorrea).",
+      "Aumento de las secreciones bronquiales.",
+      "Sudoración (diaforesis).",
+      "Náuseas y vómitos."
+    ],
+    "common": [
+      "Calambres o fasciculaciones musculares.",
+      "Lagrimeo.",
+      "Dolor abdominal o cólicos.",
+      "Diarrea.",
+      "Bradicardia (frecuencia cardíaca lenta)."
+    ],
+    "uncommon": [
+      "Broncoespasmo.",
+      "Aumento de la presión intraocular.",
+      "Hipotensión o hipertensión transitoria.",
+      "Arritmias cardíacas (bloqueo AV).",
+      "Debilidad muscular (por sobredosificación o recurarización)."
+    ],
+    "rare": [
+      "Reacciones alérgicas/anafilaxia.",
+      "Convulsiones.",
+      "Paro cardíaco.",
+      "Crisis colinérgica en pacientes con miastenia gravis (debilidad muscular severa)."
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Atropina, Glicopirrolato",
+        "effect": "Se administran concomitantemente para antagonizar los efectos muscarínicos adversos del edrofonio (bradicardia, secreciones). No es una interacción negativa, sino un uso terapéutico necesario.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Succinilcolina",
+        "effect": "El edrofonio puede prolongar la fase de bloqueo de fase I de la succinilcolina (un relajante despolarizante) y potenciar sus efectos. No debe usarse para revertir la succinilcolina.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Digoxina, Betabloqueadores, Bloqueadores de canales de calcio",
+        "effect": "Pueden potenciar los efectos bradicárdicos (disminución del ritmo cardíaco) del edrofonio, aumentando el riesgo de arritmias graves.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores de la colinesterasa crónicos (Neostigmina, Piridostigmina)",
+        "effect": "En pacientes con miastenia gravis en tratamiento, el edrofonio puede precipitar una crisis colinérgica por exceso de acetilcolina.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Aminoglucósidos (Gentamicina), Polimixinas, Lincomicina",
+        "effect": "Estos antibióticos tienen actividad bloqueante neuromuscular y pueden antagonizar el efecto del edrofonio o causar recurarización.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "No aplica, ya que se administra por vía intravenosa en un entorno clínico controlado.",
+    "withSupplements": "Suplementos con actividad colinérgica o que afecten la frecuencia cardíaca (como algunos suplementos herbales para la memoria) podrían teóricamente potenciar los efectos del edrofonio, pero la relevancia clínica es baja debido a su uso intrahospitalario."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría C",
+      "recommendation": "No hay estudios adecuados en mujeres embarazadas. Solo debe usarse durante el embarazo si el beneficio potencial justifica claramente el riesgo potencial para el feto. Su uso está generalmente restringido a situaciones quirúrgicas necesarias donde se requiere reversión neuromuscular.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se desconoce si el edrofonio se excreta en la leche materna. Debido a su administración intravenosa única y vida media muy corta, es poco probable que represente un riesgo significativo para el lactante. Sin embargo, se debe considerar la interrupción temporal de la lactancia según el criterio médico, aunque generalmente no es necesaria.",
+    "pediatric": "Se puede usar en niños mayores de 1 mes. La seguridad y eficacia en recién nacidos (menores de 1 mes) no están bien establecidas. Se deben ajustar las dosis por peso corporal y monitorizar cuidadosamente, especialmente la función respiratoria y cardíaca.",
+    "geriatric": "Los pacientes de edad avanzada tienen mayor probabilidad de presentar función renal disminuida, lo que puede alterar la eliminación del edrofonio y del relajante muscular. También son más sensibles a los efectos anticolinesterasa. Se recomienda usar dosis más bajas, monitorización estrecha y ajuste según la función renal."
+  },
+  "administration": {
+    "howToTake": "El edrofonio se administra ÚNICAMENTE por vía intravenosa, en un entorno médico con monitorización continua (electrocardiograma, presión arterial, oximetría de pulso). Siempre debe ser administrado por un anestesiólogo o médico capacitado. Se inyecta lentamente en bolo (generalmente en 30-60 segundos). Es imperativo que se administre simultáneamente o inmediatamente antes un agente anticolinérgico (como atropina 0.6-1.2 mg IV o glicopirrolato) para prevenir bradicardia severa y otras reacciones colinérgicas.",
+    "storage": "Conservar el vial en su empaque original, protegido de la luz. Almacenar a temperatura ambiente controlada (15-30°C). No congelar. La solución debe ser clara e incolora; no usar si está turbia o contiene partículas.",
+    "specialInstructions": "NUNCA se debe usar para revertir el bloqueo neuromuscular causado por la succinilcolina. La evaluación de la reversión neuromuscular debe realizarse mediante monitorización objetiva (estimulador de nervios periférico) y evaluación clínica (fuerza de agarre, capacidad de levantar la cabeza, respiración adecuada). Estar preparado para ventilación asistida en caso de recurarización (vuelta del bloqueo muscular)."
+  },
+  "monitoring": {
+    "labTests": [
+      "No se requieren monitoreos de laboratorio rutinarios específicos para el edrofonio."
+    ],
+    "frequency": "Monitorización continua durante la administración y en el periodo postoperatorio inmediato.",
+    "signsToWatch": [
+      "Recurarización (vuelta de la parálisis muscular): debilidad, dificultad para respirar, incapacidad para mantener la vía aérea.",
+      "Bradicardia severa o arritmias.",
+      "Signos de broncoespasmo (sibilancias, dificultad respiratoria).",
+      "Aumento excesivo de secreciones salivales y bronquiales.",
+      "Signos de crisis colinérgica en pacientes con miastenia (debilidad muscular aguda, fasciculaciones, dificultad respiratoria)."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Los síntomas de sobredosis son una exacerbación de sus efectos colinérgicos: debilidad muscular severa (parálisis) por despolarización prolongada (crisis colinérgica).",
+      "Bradicardia extrema que puede llevar a paro cardíaco.",
+      "Broncoespasmo y aumento masivo de secreciones bronquiales que causan dificultad respiratoria.",
+      "Vómitos, diarrea profusa, calambres abdominales.",
+      "Sudoración, salivación y lagrimeo intensos.",
+      "Convulsiones."
+    ],
+    "treatment": "El tratamiento es de soporte. 1. Mantener la vía aérea y proporcionar ventilación asistida. 2. Administrar ATROPINA en dosis de 0.6 a 1.2 mg por vía intravenosa, repetiendo según sea necesario para controlar los síntomas muscarínicos (bradicardia, secreciones). 3. Controlar las convulsiones con benzodiacepinas (diazepam). 4. Monitorización cardiovascular intensiva. No existe un antídoto específico.",
+    "antidote": "La atropina es el antídoto para los efectos muscarínicos (cardíacos, secreciones), pero no revierte la parálisis neuromuscular por sobredosis."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial para uso hospitalario. Medicamento de uso exclusivo en hospitales.",
+    "scheduleMexico": "Medicamento de la Fracción III (sustancias medicamentosas con posibilidad de causar farmacodependencia, de venta con receta médica que se retiene). En la práctica, es de control hospitalario estricto.",
+    "fdaApprovalYear": "Aprobado por la FDA en 1964."
+  },
+  "brandsMexico": [
+    "Tensilon® (nombre histórico, ya no comercializado comúnmente bajo esta marca en México).",
+    "El edrofonio se encuentra disponible principalmente como medicamento genérico en presentación inyectable de 10 mg/mL, distribuido por laboratorios como PISA, Liomont, o como parte de los formularios de farmacia hospitalaria."
+  ],
+  "clinicalPearls": [
+    "El edrofonio tiene una vida media extremadamente corta (minutos), pero su efecto de reversión es más duradero porque desplaza al relajante muscular de los receptores; la recuperación final depende de la eliminación del relajante muscular.",
+    "La administración de un anticolinérgico (atropina/glicopirrolato) es OBLIGATORIA para contrarrestar los efectos cardiovasculares y secretores peligrosos del edrofonio. Nunca se debe administrar solo.",
+    "El mayor riesgo tras su uso es la 'recurarización', es decir, que vuelva el bloqueo neuromuscular una vez que el efecto del edrofonio desaparece, si el relajante muscular aún está presente. Esto hace vital la monitorización postoperatoria prolongada."
+  ],
+  "patientCounseling": "Como paciente, es importante que sepa que el edrofonio es un medicamento que solo le administrarán en el hospital, durante o después de una cirugía, para ayudarle a recuperar la fuerza muscular y poder respirar por su cuenta después de que hayan usado medicamentos para relajar sus músculos durante la operación. Usted no lo tomará por su cuenta. El equipo médico lo monitorizará muy de cerca (ritmo cardíaco, presión, respiración) mientras lo recibe. Es normal sentir más saliva, sudoración o un ritmo cardíaco más lento de manera transitoria, ya que el médico administra otro medicamento para contrarrestar estos efectos. Después de la cirugía, informe de inmediato a la enfermera si siente debilidad repentina, dificultad para respirar, opresión en el pecho o palpitaciones fuertes. Este medicamento es clave para una recuperación segura en el quirófano.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Debilidad muscular inducida por fármacos",
+        "slug": "debilidad-muscular-inducida-por-farmacos"
+      },
+      {
+        "name": "Parálisis respiratoria temporal",
+        "slug": "paralisis-respiratoria-temporal"
+      },
+      {
+        "name": "Incapacidad para moverse después de anestesia",
+        "slug": "incapacidad-para-moverse-despues-de-anestesia"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Bloqueo neuromuscular postoperatorio",
+        "slug": "bloqueo-neuromuscular-postoperatorio"
+      },
+      {
+        "name": "Miastenia gravis (para diagnóstico)",
+        "slug": "miastenia-gravis"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Bradicardia severa",
+        "slug": "bradicardia-severa"
+      },
+      {
+        "name": "Broncoespasmo",
+        "slug": "broncoespasmo"
+      },
+      {
+        "name": "Crisis colinérgica",
+        "slug": "crisis-colinergica"
+      },
+      {
+        "name": "Recurarización (bloqueo neuromuscular recurrente)",
+        "slug": "recurarizacion"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede disminuir (causar bradicardia)"
+      },
+      {
+        "name": "Presión arterial",
+        "slug": "presion-arterial",
+        "effect": "Puede alterar (causar hipotensión o hipertensión transitoria)"
+      },
+      {
+        "name": "Secreciones salivales y bronquiales",
+        "slug": "volumen-de-secreciones",
+        "effect": "Puede aumentar"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Electrocardiograma (ECG)",
+        "slug": "electrocardiograma",
+        "reason": "Para monitorear la frecuencia y el ritmo cardíaco durante y después de la administración, debido al riesgo de bradicardia y arritmias."
+      },
+      {
+        "name": "Oximetría de pulso",
+        "slug": "oximetria-de-pulso",
+        "reason": "Para monitorear la saturación de oxígeno en la sangre y detectar tempranamente cualquier dificultad respiratoria."
+      },
+      {
+        "name": "Monitorización de la función neuromuscular",
+        "slug": "monitorizacion-neuromuscular",
+        "reason": "Utilizando un estimulador de nervios periférico para evaluar objetivamente la recuperación de la fuerza muscular y prevenir la recurarización."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Qué es el edrofonio y para qué sirve?",
+      "a": "El edrofonio es un medicamento inyectable que se usa en hospitales, principalmente en quirófanos y recuperación, para revertir el efecto de otros medicamentos (relajantes musculares) que se usan durante la cirugía para paralizar los músculos. Sirve para ayudar al paciente a recuperar la fuerza muscular y poder respirar por sí mismo de manera rápida y segura al terminar la operación."
+    },
+    {
+      "q": "¿Me lo van a poner en todas las cirugías?",
+      "a": "No necesariamente. Solo se usa en cirugías donde se han empleado relajantes musculares específicos (llamados no despolarizantes, como el rocuronio). El anestesiólogo decide si es necesario basándose en qué tan recuperado está usted de esos medicamentos."
+    },
+    {
+      "q": "¿Duele la inyección de edrofonio?",
+      "a": "Se administra por vía intravenosa, a través de la misma vía que tiene puesta para la cirugía, por lo que no debería sentir un dolor adicional. Lo que sí puede sentir son efectos secundarios rápidos como más saliva, sudoración o que su corazón late más lento por un momento, pero el médico le da otro medicamento para minimizar eso."
+    },
+    {
+      "q": "¿Qué efectos secundarios puedo sentir?",
+      "a": "Los más comunes son aumento de saliva, sudoración, náuseas y que el corazón late más lento. Por eso siempre se administra con otro medicamento (como atropina) para contrarrestar estos efectos. En casos raros puede causar dificultad para respirar (broncoespasmo) o debilidad muscular."
+    },
+    {
+      "q": "¿Puedo tomar edrofonio en casa?",
+      "a": "Absolutamente no. El edrofonio es un medicamento de uso exclusivamente hospitalario y solo debe ser administrado por un anestesiólogo o médico especialista en un entorno con equipo de reanimación y monitorización continua. No existe en forma de pastillas para tomar en casa."
+    },
+    {
+      "q": "¿Hay personas que no deben recibir edrofonio?",
+      "a": "Sí. No se debe usar en personas alérgicas al fármaco, con obstrucción intestinal, con asma severa no controlada, con ciertos problemas graves del corazón (como bradicardia extrema) o con una enfermedad llamada miastenia gravis (a menos que sea para una prueba diagnóstica muy específica)."
+    },
+    {
+      "q": "¿Interfiere con otros medicamentos que tomo?",
+      "a": "Sí, puede tener interacciones graves con algunos medicamentos para el corazón (como digoxina o betabloqueadores), potenciando el efecto de hacer el corazón más lento. Es crucial que su anestesiólogo conozca TODOS los medicamentos, suplementos y hierbas que usted toma regularmente."
+    },
+    {
+      "q": "¿Qué pasa si me ponen demasiado edrofonio (sobredosis)?",
+      "a": "En un entorno hospitalario, el riesgo es bajo porque la dosis se calcula cuidadosamente. Una sobredosis causaría debilidad muscular severa (parálisis), dificultad respiratoria extrema, ritmo cardíaco muy lento y aumento masivo de secreciones. El personal médico está entrenado para manejar esto con soporte respiratorio y administrando atropina."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Actúa muy rápido. Generalmente entre 30 segundos y 2 minutos después de la inyección intravenosa, usted comenzará a recuperar la fuerza muscular."
+    },
+    {
+      "q": "¿Y cuánto tiempo dura su efecto?",
+      "a": "El efecto del edrofonio en sí es corto (10 a 30 minutos), pero la recuperación muscular que produce suele ser duradera, siempre y cuando el relajante muscular que se está revirtiendo ya se haya eliminado lo suficiente del cuerpo."
+    },
+    {
+      "q": "¿Puede usarse en niños?",
+      "a": "Sí, se puede usar en niños mayores de 1 mes de edad. La dosis se ajusta cuidadosamente según el peso del niño. La seguridad en recién nacidos es menos clara."
+    },
+    {
+      "q": "¿Y en adultos mayores?",
+      "a": "Sí, pero con precaución. Los adultos mayores suelen tener los riñones menos funcionales, lo que puede hacer que el medicamento y el relajante muscular duren más. El médico usará una dosis más baja y los monitorizará muy de cerca."
+    },
+    {
+      "q": "¿Una mujer embarazada puede recibir edrofonio?",
+      "a": "Solo si es estrictamente necesario durante una cirugía. Se clasifica como categoría C en el embarazo, lo que significa que no hay estudios seguros en humanos, pero el beneficio de usarlo en una cirugía vital puede justificar el riesgo. La decisión la toma el equipo médico."
+    },
+    {
+      "q": "¿Qué es la 'recurarización' de la que hablan?",
+      "a": "Es el riesgo más importante. Significa que, después de que el edrofonio hace efecto y usted se recupera, el efecto puede desaparecer y la parálisis muscular puede volver si todavía queda relajante muscular en su cuerpo. Por eso lo vigilan de cerca en recuperación hasta estar seguros de que la fuerza muscular es estable."
+    },
+    {
+      "q": "¿Por qué le ponen atropina junto con el edrofonio?",
+      "a": "El edrofonio, además de revertir la parálisis, causa efectos no deseados como ritmo cardíaco lento y mucha saliva. La atropina bloquea específicamente esos efectos secundarios molestos y peligrosos, permitiendo que el edrofonio haga su trabajo principal de manera segura."
+    },
+    {
+      "q": "¿El edrofonio es lo mismo que la neostigmina?",
+      "a": "No, son diferentes aunque pertenecen a la misma familia (inhibidores de colinesterasa). La neostigmina es otro fármaco usado para revertir relajantes musculares, pero tiene un inicio de acción más lento y una duración más larga. El edrofonio es más rápido y corto. El anestesiólogo elige cuál usar según la situación."
+    },
+    {
+      "q": "¿Sirve para revertir todo tipo de relajantes musculares?",
+      "a": "No. Solo revierte los relajantes musculares 'no despolarizantes' como rocuronio, vecuronio o atracurio. NO SIRVE y es PELIGROSO usarlo para revertir la succinilcolina (un relajante 'despolarizante'), ya que puede empeorar la parálisis."
+    },
+    {
+      "q": "¿Cómo saben los médicos que ya funcionó el edrofonio?",
+      "a": "Lo evalúan de varias formas: pidiéndole que apriete su mano, que levante la cabeza, que respire profundamente. Además, usan un aparato llamado 'estimulador de nervios' que aplica un pequeño estímulo eléctrico en la muñeca y observan cómo se contrae el músculo del pulgar. Eso les da una medida objetiva de la recuperación muscular."
+    },
+    {
+      "q": "¿Puede causar una reacción alérgica?",
+      "a": "Como cualquier medicamento, existe la posibilidad, aunque es rara. Los signos serían dificultad para respirar, hinchazón de cara o garganta, sarpullido o presión baja severa. El personal del quirófano está entrenado y equipado para tratar una reacción alérgica grave de inmediato."
+    },
+    {
+      "q": "¿Qué ajuste de dosis necesita un paciente con enfermedad de los riñones?",
+      "a": "Un paciente con insuficiencia renal (riñones que no funcionan bien) elimina más lentamente tanto el edrofonio como el relajante muscular. Esto aumenta el riesgo de recurarización. Por lo tanto, el anestesiólogo usará una dosis más baja de edrofonio, administrará el relajante muscular con mucho cuidado y extenderá significativamente el tiempo de monitorización postoperatoria para asegurar una recuperación estable."
+    }
+  ]
+}

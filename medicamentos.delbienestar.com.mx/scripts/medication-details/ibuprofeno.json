@@ -1,0 +1,466 @@
+{
+    "name": "Ibuprofeno",
+    "summary": "El ibuprofeno es uno de los antiinflamatorios no esteroideos (AINEs) más utilizados en el mundo. Reduce el dolor, la inflamación y la fiebre bloqueando la producción de prostaglandinas. Es el analgésico de primera línea recomendado por la OMS para dolor leve a moderado y está disponible sin receta en dosis bajas.",
+    "pharmacology": {
+        "mechanismOfAction": "El ibuprofeno inhibe de forma reversible las enzimas ciclooxigenasa-1 (COX-1) y ciclooxigenasa-2 (COX-2). Estas enzimas son responsables de convertir el ácido araquidónico en prostaglandinas, tromboxanos y prostaciclinas — sustancias que median la inflamación, el dolor y la fiebre. Al bloquear la COX-2, se reduce la inflamación y el dolor; al bloquear la COX-1, se pueden afectar las funciones protectoras del estómago y los riñones.",
+        "pharmacologicClass": "Antiinflamatorio No Esteroideo (AINE) — Derivado del ácido propiónico",
+        "therapeuticClass": "Analgésico, Antiinflamatorio, Antipirético",
+        "absorption": "Se absorbe rápidamente por vía oral. Biodisponibilidad oral >80%. Concentración plasmática máxima (Tmax) en 1-2 horas. La administración con alimentos retrasa la absorción pero no la reduce significativamente.",
+        "distribution": "Se une en >99% a proteínas plasmáticas (principalmente albúmina). Volumen de distribución: 0.12-0.2 L/kg. Cruza la barrera placentaria. Se distribuye en líquido sinovial, alcanzando concentraciones terapéuticas en articulaciones inflamadas.",
+        "metabolism": "Se metaboliza extensamente en el hígado mediante oxidación por CYP2C9 (mayoritario) y CYP2C8. Se producen dos metabolitos principales inactivos: 2-hidroxi-ibuprofeno y 3-carboxi-ibuprofeno. No tiene metabolitos farmacológicamente activos.",
+        "elimination": "Vida media de eliminación: 2-4 horas. Se excreta principalmente por vía renal (>90%) como metabolitos conjugados con ácido glucurónico. Menos del 1% se excreta sin modificar en orina. Eliminación completa en 24 horas.",
+        "onsetOfAction": "Efecto analgésico: 30-60 minutos. Efecto antipirético: 30-60 minutos. Efecto antiinflamatorio completo: puede tardar 1-2 semanas de uso continuo.",
+        "durationOfAction": "4-6 horas para el efecto analgésico/antipirético. 6-8 horas a dosis antiinflamatorias."
+    },
+    "indications": {
+        "approved": [
+            "Dolor leve a moderado (cefalea, dolor dental, dolor menstrual)",
+            "Fiebre en adultos y niños mayores de 6 meses",
+            "Artritis reumatoide",
+            "Osteoartritis (artrosis)",
+            "Espondilitis anquilosante",
+            "Dolor musculoesquelético agudo",
+            "Dismenorrea primaria (cólicos menstruales)",
+            "Dolor postoperatorio leve a moderado"
+        ],
+        "offLabel": [
+            "Cierre del conducto arterioso persistente en neonatos (IV)",
+            "Prevención del mal de altura",
+            "Pericarditis aguda",
+            "Fibrosis quística (como antiinflamatorio crónico)"
+        ]
+    },
+    "dosage": {
+        "adults": "Analgésico/Antipirético: 200-400 mg cada 4-6 horas. Antiinflamatorio: 400-800 mg cada 6-8 horas.",
+        "pediatric": "Niños ≥6 meses: 5-10 mg/kg cada 6-8 horas. Dosis antipirética habitual: 5 mg/kg si fiebre <39°C, 10 mg/kg si fiebre ≥39°C.",
+        "elderly": "Iniciar con la dosis más baja efectiva (200 mg cada 8 horas). Mayor riesgo de efectos gastrointestinales y renales. Evitar uso prolongado.",
+        "renalImpairment": "TFG 30-60 mL/min: usar con precaución y monitorear función renal. TFG <30 mL/min: evitar su uso. Contraindicado en diálisis.",
+        "hepaticImpairment": "Child-Pugh A/B: reducir dosis y monitorear. Child-Pugh C: contraindicado.",
+        "maxDose": "Automedicación: 1,200 mg/día. Bajo supervisión médica: 3,200 mg/día."
+    },
+    "dosageForms": [
+        {
+            "form": "Tableta",
+            "strengths": [
+                "200 mg",
+                "400 mg",
+                "600 mg",
+                "800 mg"
+            ],
+            "route": "Oral"
+        },
+        {
+            "form": "Cápsula blanda (líquida)",
+            "strengths": [
+                "200 mg",
+                "400 mg"
+            ],
+            "route": "Oral"
+        },
+        {
+            "form": "Suspensión pediátrica",
+            "strengths": [
+                "100 mg/5 mL",
+                "200 mg/5 mL"
+            ],
+            "route": "Oral"
+        },
+        {
+            "form": "Gel tópico",
+            "strengths": [
+                "5%",
+                "10%"
+            ],
+            "route": "Tópica"
+        },
+        {
+            "form": "Solución inyectable",
+            "strengths": [
+                "400 mg/4 mL",
+                "800 mg/8 mL"
+            ],
+            "route": "Intravenosa"
+        }
+    ],
+    "contraindications": {
+        "absolute": [
+            "Alergia conocida al ibuprofeno o a cualquier AINE",
+            "Antecedente de asma, urticaria o reacción alérgica con aspirina u otros AINEs",
+            "Úlcera péptica activa o sangrado gastrointestinal",
+            "Insuficiencia renal grave (TFG <30 mL/min)",
+            "Insuficiencia hepática grave (Child-Pugh C)",
+            "Tercer trimestre de embarazo",
+            "Cirugía de bypass coronario (perioperatorio de CABG)"
+        ],
+        "relative": [
+            "Antecedente de úlcera gástrica (usar con protector gástrico)",
+            "Hipertensión arterial no controlada",
+            "Insuficiencia cardíaca (puede empeorar retención de líquidos)",
+            "Uso concomitante de anticoagulantes",
+            "Adultos mayores de 65 años",
+            "Primer y segundo trimestre de embarazo",
+            "Deshidratación (mayor riesgo de daño renal)"
+        ]
+    },
+    "sideEffects": {
+        "veryCommon": [
+            "Dolor abdominal o malestar estomacal (>10%)",
+            "Náuseas (>10%)",
+            "Dispepsia / acidez (>10%)"
+        ],
+        "common": [
+            "Diarrea (1-10%)",
+            "Cefalea (1-10%)",
+            "Mareo (1-10%)",
+            "Distensión abdominal (1-10%)",
+            "Estreñimiento (1-10%)",
+            "Erupción cutánea leve (1-10%)"
+        ],
+        "uncommon": [
+            "Úlcera gástrica sin perforación (0.1-1%)",
+            "Elevación de transaminasas hepáticas (0.1-1%)",
+            "Retención de líquidos / edema (0.1-1%)",
+            "Tinnitus (zumbido en oídos) (0.1-1%)"
+        ],
+        "rare": [
+            "Sangrado gastrointestinal grave (<0.1%)",
+            "Perforación gástrica (<0.1%)",
+            "Insuficiencia renal aguda (<0.1%)",
+            "Reacción anafiláctica (<0.1%)",
+            "Síndrome de Stevens-Johnson (<0.01%)",
+            "Meningitis aséptica (<0.01%)",
+            "Agranulocitosis (<0.01%)"
+        ],
+        "blackBoxWarning": "⚠️ ADVERTENCIA FDA: Los AINEs aumentan el riesgo de eventos trombóticos cardiovasculares graves, incluyendo infarto de miocardio y accidente cerebrovascular, que pueden ser fatales. Este riesgo aumenta con la duración del uso. Los AINEs también causan un mayor riesgo de sangrado gastrointestinal grave, ulceración y perforación del estómago o intestinos, que pueden ser fatales."
+    },
+    "interactions": {
+        "major": [
+            {
+                "drug": "Anticoagulantes (Warfarina, Rivaroxabán, Apixabán)",
+                "effect": "Aumento significativo del riesgo de sangrado gastrointestinal e intracraneal",
+                "severity": "Grave"
+            },
+            {
+                "drug": "Aspirina (ácido acetilsalicílico) en dosis cardioprotectora",
+                "effect": "El ibuprofeno puede bloquear el efecto cardioprotector de la aspirina si se toma antes. Tomar aspirina al menos 30 min antes del ibuprofeno.",
+                "severity": "Grave"
+            },
+            {
+                "drug": "Metotrexato",
+                "effect": "Los AINEs reducen la excreción renal de metotrexato, aumentando su toxicidad (pancitopenia, mucositis)",
+                "severity": "Grave"
+            },
+            {
+                "drug": "Litio",
+                "effect": "Los AINEs reducen la excreción renal de litio, pudiendo causar toxicidad por litio (temblor, confusión, arritmias)",
+                "severity": "Grave"
+            },
+            {
+                "drug": "IECAs y ARA II (Enalapril, Losartán, etc.)",
+                "effect": "Los AINEs reducen el efecto antihipertensivo y pueden empeorar función renal, especialmente con diuréticos (triple whammy)",
+                "severity": "Moderada"
+            }
+        ],
+        "withFood": "El alcohol aumenta significativamente el riesgo de sangrado gástrico. Evitar consumo de alcohol durante el tratamiento. La cafeína puede potenciar ligeramente el efecto analgésico. El jugo de toronja no tiene interacción significativa.",
+        "withSupplements": "Ginkgo biloba y aceite de pescado (omega-3 en dosis altas) pueden aumentar el riesgo de sangrado. Ginseng puede potenciar efecto antiagregante plaquetario. Ajo en suplementos puede aumentar riesgo de sangrado."
+    },
+    "specialPopulations": {
+        "pregnancy": {
+            "category": "Categoría C (1er-2do trimestre) / Categoría D (3er trimestre)",
+            "recommendation": "Evitar en el tercer trimestre: causa cierre prematuro del conducto arterioso fetal, oligohidramnios y puede retrasar el parto. En el primer y segundo trimestre, usar solo si el beneficio justifica el riesgo. Preferir paracetamol como analgésico en embarazo.",
+            "crossesPlacenta": true
+        },
+        "breastfeeding": "Se excreta en leche materna en cantidades muy pequeñas (<1 mg/L). La AAP lo considera compatible con la lactancia. Es el AINE preferido durante la lactancia por su baja excreción.",
+        "pediatric": "Aprobado desde los 6 meses de edad para fiebre y dolor. No dar a menores de 6 meses sin indicación médica. La suspensión pediátrica facilita la dosificación precisa por peso.",
+        "geriatric": "Mayor riesgo de úlceras gástricas, sangrado GI, insuficiencia renal y eventos cardiovasculares. Iniciar con dosis bajas, usar por el menor tiempo posible. Considerar protector gástrico (omeprazol) si uso >5 días."
+    },
+    "administration": {
+        "howToTake": "Tomar con un vaso lleno de agua, preferiblemente con alimentos o leche para reducir irritación gástrica. No acostarse durante 15-30 minutos después de tomarlo. No triturar ni masticar tabletas de liberación prolongada. Si olvida una dosis, tomar cuando recuerde a menos que falte poco para la siguiente; nunca duplicar la dosis.",
+        "storage": "Almacenar a temperatura ambiente (15-30°C). Proteger de la humedad y la luz directa. No refrigerar la suspensión oral. Verificar fecha de caducidad antes de usar.",
+        "specialInstructions": "La suspensión oral debe agitarse vigorosamente antes de cada uso. Las cápsulas blandas de gel actúan más rápido que las tabletas regulares. El gel tópico se aplica 3-4 veces al día en la zona afectada sin cubrir con vendajes oclusivos."
+    },
+    "monitoring": {
+        "labTests": [
+            "Biometría hemática completa (si uso prolongado)",
+            "Pruebas de función renal (creatinina, BUN)",
+            "Pruebas de función hepática (ALT, AST)",
+            "Presión arterial (si uso crónico)"
+        ],
+        "frequency": "Antes de iniciar tratamiento crónico, a las 2-4 semanas, y luego cada 3-6 meses.",
+        "signsToWatch": [
+            "Heces negras o con sangre (indica sangrado digestivo)",
+            "Vómito con aspecto de café molido",
+            "Hinchazón inusual de piernas o cara",
+            "Dificultad para respirar",
+            "Dolor en el pecho",
+            "Erupción cutánea severa o ampollas en la piel",
+            "Disminución de la cantidad de orina",
+            "Coloración amarilla en piel u ojos (ictericia)"
+        ]
+    },
+    "overdose": {
+        "symptoms": [
+            "Náuseas y vómitos intensos",
+            "Dolor abdominal severo",
+            "Somnolencia o letargia",
+            "Acidosis metabólica",
+            "Insuficiencia renal aguda",
+            "Convulsiones (en caso grave)",
+            "Apnea (en niños, con dosis muy altas)"
+        ],
+        "treatment": "No existe antídoto específico. Tratamiento de soporte: lavado gástrico si <1 hora post-ingesta, carbón activado (1 g/kg), monitoreo de función renal y equilibrio ácido-base, hidratación IV agresiva. La diuresis alcalina NO es efectiva. La diálisis tiene utilidad limitada por la alta unión a proteínas.",
+        "antidote": "No existe antídoto específico. Tratamiento sintomático y de soporte."
+    },
+    "regulatoryStatus": {
+        "otcOrRx": "Venta libre (200-400 mg) / Requiere receta (600-800 mg)",
+        "scheduleMexico": "Fracción V (venta libre en dosis OTC) / Fracción IV (dosis altas con receta)",
+        "fdaApprovalYear": "1974"
+    },
+    "brandsMexico": [
+        "Motrin",
+        "Advil",
+        "Ibuprex",
+        "Tabalon",
+        "Actron",
+        "Tempra Ibuprofeno",
+        "Bestafen",
+        "NeoMelubrina Ibuprofeno"
+    ],
+    "clinicalPearls": [
+        "El ibuprofeno es el AINE con mejor perfil de seguridad cardiovascular según estudios grandes (PRECISION 2016), siendo comparable al celecoxib y superior al naproxeno en seguridad GI.",
+        "Para dolor dental agudo, la combinación de ibuprofeno 400 mg + paracetamol 500 mg es más efectiva que opioides como codeína o tramadol, según evidencia de 2018.",
+        "En niños con fiebre, el ibuprofeno es más efectivo que el paracetamol para bajar la temperatura, pero ambos son equivalentes para la comodidad del niño.",
+        "Fue descubierto en 1961 por Stewart Adams y John Nicholson en Boots UK (Nottingham, Inglaterra). Adams probó su propia invención por primera vez para tratar su resaca antes de dar un discurso."
+    ],
+    "patientCounseling": "Tome el ibuprofeno con alimentos o leche para proteger su estómago. No lo use por más de 10 días seguidos para dolor ni más de 3 días para fiebre sin consultar a su médico. Si toma aspirina para el corazón, tome la aspirina primero y espere al menos 30 minutos antes de tomar ibuprofeno. Evite el alcohol mientras lo use. Si nota heces oscuras, dolor de estómago intenso, hinchazón en las piernas o dificultad para respirar, suspenda el medicamento y acuda al médico de inmediato.",
+    "crossLinks": {
+        "symptomsTreated": [
+            {
+                "name": "Dolor de Cabeza Intenso (Cefalea)",
+                "slug": "dolor-cabeza-intenso"
+            },
+            {
+                "name": "Fiebre",
+                "slug": "fiebre"
+            },
+            {
+                "name": "Dolor Muscular",
+                "slug": "dolor-muscular"
+            },
+            {
+                "name": "Dolor de Espalda",
+                "slug": "dolor-espalda"
+            },
+            {
+                "name": "Dolor Dental",
+                "slug": "dolor-dental"
+            },
+            {
+                "name": "Dolor Menstrual (Dismenorrea)",
+                "slug": "dolor-menstrual-dismenorrea"
+            },
+            {
+                "name": "Dolor Articular",
+                "slug": "dolor-articular-artralgia"
+            },
+            {
+                "name": "Inflamación de Articulaciones",
+                "slug": "inflamacion-articulaciones"
+            }
+        ],
+        "diseasesTreated": [
+            {
+                "name": "Artritis Reumatoide",
+                "slug": "artritis-reumatoide"
+            },
+            {
+                "name": "Osteoartritis (Artrosis)",
+                "slug": "osteoartritis-artrosis"
+            },
+            {
+                "name": "Espondilitis Anquilosante",
+                "slug": "espondilitis-anquilosante"
+            },
+            {
+                "name": "Pericarditis Aguda",
+                "slug": "pericarditis-aguda"
+            },
+            {
+                "name": "Gota (Crisis Aguda)",
+                "slug": "gota"
+            }
+        ],
+        "diseasesRisk": [
+            {
+                "name": "Úlcera Gástrica",
+                "slug": "ulcera-gastrica"
+            },
+            {
+                "name": "Insuficiencia Renal Aguda",
+                "slug": "insuficiencia-renal-aguda"
+            },
+            {
+                "name": "Infarto de Miocardio",
+                "slug": "infarto-agudo-miocardio"
+            },
+            {
+                "name": "Accidente Cerebrovascular",
+                "slug": "accidente-cerebrovascular"
+            },
+            {
+                "name": "Hemorragia Gastrointestinal",
+                "slug": "hemorragia-gastrointestinal"
+            }
+        ],
+        "biomarkersAffected": [
+            {
+                "name": "ALT (TGP)",
+                "slug": "alt-tgp",
+                "effect": "⬆️ Puede elevar (hepatotoxicidad)"
+            },
+            {
+                "name": "AST (TGO)",
+                "slug": "ast-tgo",
+                "effect": "⬆️ Puede elevar"
+            },
+            {
+                "name": "Creatinina",
+                "slug": "creatinina",
+                "effect": "⬆️ Puede elevar (nefrotoxicidad)"
+            },
+            {
+                "name": "BUN (Nitrógeno Ureico)",
+                "slug": "bun-nitrogeno-ureico",
+                "effect": "⬆️ Puede elevar"
+            },
+            {
+                "name": "Hemoglobina",
+                "slug": "hemoglobina",
+                "effect": "⬇️ Puede disminuir (sangrado oculto)"
+            },
+            {
+                "name": "Plaquetas",
+                "slug": "plaquetas",
+                "effect": "↔️ Altera la función plaquetaria (antiagregante)"
+            }
+        ],
+        "recommendedStudies": [
+            {
+                "name": "Biometría Hemática Completa",
+                "slug": "biometria-hematica",
+                "reason": "Detectar anemia por sangrado oculto en uso prolongado"
+            },
+            {
+                "name": "Perfil Renal (Creatinina + BUN)",
+                "slug": "perfil-renal",
+                "reason": "Vigilar función renal, especialmente en adultos mayores"
+            },
+            {
+                "name": "Perfil Hepático (ALT, AST)",
+                "slug": "perfil-hepatico",
+                "reason": "Monitorear hepatotoxicidad en tratamientos crónicos"
+            },
+            {
+                "name": "Sangre Oculta en Heces",
+                "slug": "sangre-oculta-heces",
+                "reason": "Detectar sangrado gastrointestinal temprano"
+            }
+        ],
+        "relatedCalculators": [
+            {
+                "name": "Calculadora de Dosis Pediátrica por Peso",
+                "slug": "dosis-pediatrica-peso"
+            },
+            {
+                "name": "Aclaramiento de Creatinina (Cockcroft-Gault)",
+                "slug": "aclaramiento-creatinina"
+            },
+            {
+                "name": "Calculadora de Riesgo Cardiovascular",
+                "slug": "calculadora-edad-vascular"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "q": "¿Para qué sirve el ibuprofeno?",
+            "a": "El ibuprofeno se usa para aliviar el dolor leve a moderado (cabeza, muelas, muscular, menstrual, espalda), bajar la fiebre y reducir la inflamación. Es un antiinflamatorio no esteroideo (AINE) disponible sin receta en dosis bajas."
+        },
+        {
+            "q": "¿Puedo tomar ibuprofeno con el estómago vacío?",
+            "a": "No es recomendable. Lo ideal es tomarlo con alimentos, leche o agua para proteger la mucosa gástrica. Tomarlo en ayunas aumenta el riesgo de irritación estomacal, acidez y úlceras."
+        },
+        {
+            "q": "¿Puedo tomar ibuprofeno y paracetamol juntos?",
+            "a": "Sí, se pueden combinar de forma segura porque actúan por mecanismos diferentes. De hecho, la combinación de ibuprofeno 400 mg + paracetamol 500 mg es más efectiva para el dolor que cualquiera de los dos solos, e incluso superior a algunos opioides según estudios recientes."
+        },
+        {
+            "q": "¿Es seguro tomar ibuprofeno con alcohol?",
+            "a": "No. El alcohol aumenta significativamente el riesgo de sangrado gástrico y úlceras cuando se combina con ibuprofeno. Evite el consumo de alcohol mientras tome este medicamento."
+        },
+        {
+            "q": "¿Cuántos días seguidos puedo tomar ibuprofeno?",
+            "a": "Sin receta médica: máximo 10 días para dolor y 3 días para fiebre. Si necesita tomarlo por más tiempo, consulte a su médico, quien evaluará los riesgos y puede indicar un protector gástrico."
+        },
+        {
+            "q": "¿Cuál es la dosis máxima de ibuprofeno al día?",
+            "a": "En automedicación: 1,200 mg/día (3 tabletas de 400 mg). Bajo supervisión médica: hasta 3,200 mg/día. Nunca exceda la dosis indicada por su médico."
+        },
+        {
+            "q": "¿El ibuprofeno sirve para el dolor de cabeza?",
+            "a": "Sí, es uno de los analgésicos más efectivos para la cefalea tensional y la migraña leve. La dosis habitual es 400 mg. Si el dolor no cede en 1 hora, no tome más dosis; consulte a su médico."
+        },
+        {
+            "q": "¿El ibuprofeno sirve para el dolor de muelas?",
+            "a": "Sí, es uno de los mejores analgésicos para dolor dental agudo. Se recomienda 400-600 mg. Se puede combinar con paracetamol 500 mg para mayor efecto. Sin embargo, el dolor dental requiere atención odontológica; el ibuprofeno solo controla el síntoma."
+        },
+        {
+            "q": "¿Puedo darle ibuprofeno a mi bebé para la fiebre?",
+            "a": "Sí, pero solo a partir de los 6 meses de edad. Use la suspensión pediátrica y dosifique por peso: 5-10 mg/kg cada 6-8 horas. Para menores de 6 meses, use paracetamol. Nunca dé aspirina a niños."
+        },
+        {
+            "q": "¿El ibuprofeno puede dañar el estómago?",
+            "a": "Sí. Los efectos gastrointestinales son los más comunes: acidez, náuseas, dolor abdominal. En uso prolongado o dosis altas puede causar úlceras gástricas y sangrado digestivo. Tómelo siempre con alimentos y use la dosis mínima efectiva."
+        },
+        {
+            "q": "¿Puedo tomar ibuprofeno si estoy embarazada?",
+            "a": "Evítelo, especialmente en el tercer trimestre, donde está contraindicado porque puede causar cierre prematuro del conducto arterioso del bebé y problemas renales fetales. En el primer y segundo trimestre, solo bajo indicación médica. Prefiera paracetamol durante el embarazo."
+        },
+        {
+            "q": "¿Se puede tomar ibuprofeno durante la lactancia?",
+            "a": "Sí. El ibuprofeno es el AINE preferido durante la lactancia porque se excreta en cantidades muy pequeñas en la leche materna (<1 mg/L). La Academia Americana de Pediatría lo considera compatible con la lactancia."
+        },
+        {
+            "q": "¿Qué diferencia hay entre ibuprofeno y naproxeno?",
+            "a": "Ambos son AINEs, pero el naproxeno dura más (8-12 horas vs 4-6 del ibuprofeno) y tiene mejor perfil cardiovascular. El ibuprofeno actúa más rápido y tiene menos efectos GI. Para dolor agudo corto, ibuprofeno; para dolor crónico, naproxeno puede ser mejor opción."
+        },
+        {
+            "q": "¿El ibuprofeno sube la presión arterial?",
+            "a": "Puede elevarla ligeramente (3-5 mmHg en promedio) al causar retención de sodio y agua. Si tiene hipertensión, úselo con precaución, en la dosis más baja posible y por el menor tiempo. Monitoree su presión arterial."
+        },
+        {
+            "q": "¿Puedo tomar ibuprofeno si tomo medicamentos para la presión?",
+            "a": "Use con precaución. El ibuprofeno puede reducir la efectividad de antihipertensivos como enalapril, losartán o amlodipino. La combinación con IECAs + diuréticos (la 'triple amenaza') puede dañar los riñones. Consulte a su médico."
+        },
+        {
+            "q": "¿El ibuprofeno es lo mismo que el Advil o el Motrin?",
+            "a": "Sí. Advil, Motrin, Actron, Tabalon, Ibuprex y Bestafen son marcas comerciales que contienen ibuprofeno como principio activo. La sustancia es la misma; solo cambia el nombre comercial y el fabricante."
+        },
+        {
+            "q": "¿Qué debo hacer si tomé demasiado ibuprofeno?",
+            "a": "Si tomó una sobredosis, acuda a urgencias inmediatamente. Los síntomas incluyen náuseas severas, vómito, dolor abdominal intenso, somnolencia y en casos graves, insuficiencia renal o convulsiones. No existe un antídoto específico; el tratamiento es de soporte."
+        },
+        {
+            "q": "¿El ibuprofeno puede afectar mis análisis de laboratorio?",
+            "a": "Sí. Puede elevar las transaminasas hepáticas (ALT, AST), la creatinina (indicando estrés renal) y el BUN. También puede disminuir la hemoglobina por sangrado oculto y alterar la función plaquetaria. Informe a su médico que lo toma antes de realizarse estudios."
+        },
+        {
+            "q": "¿Es mejor el ibuprofeno en tableta o en cápsula blanda?",
+            "a": "Las cápsulas blandas de gel se absorben más rápido y pueden aliviar el dolor hasta 20 minutos antes que las tabletas regulares. Para dolor agudo donde necesita alivio rápido (migraña, dolor dental), las cápsulas blandas son la mejor opción."
+        },
+        {
+            "q": "¿El ibuprofeno aumenta el riesgo de infarto?",
+            "a": "Los AINEs pueden aumentar ligeramente el riesgo cardiovascular (infarto, ACV) con uso prolongado y dosis altas. Sin embargo, el estudio PRECISION (2016) mostró que el ibuprofeno tiene un perfil cardiovascular similar al celecoxib. Use la dosis más baja por el menor tiempo posible."
+        }
+    ]
+}

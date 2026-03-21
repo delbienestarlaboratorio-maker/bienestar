@@ -1,0 +1,387 @@
+{
+  "name": "Procaina",
+  "summary": "La procaina es un anestésico local del tipo éster que se utiliza principalmente para bloquear temporalmente la transmisión de señales de dolor en nervios específicos. Sirve para realizar procedimientos médicos menores, cirugías dentales, infiltraciones articulares y bloqueos nerviosos regionales sin necesidad de anestesia general, permitiendo que el paciente permanezca consciente pero sin sentir dolor en el área tratada. Su importancia clínica radica en ser uno de los anestésicos locales más antiguos y estudiados, con un perfil de seguridad conocido cuando se usa correctamente, aunque ha sido desplazado en muchas aplicaciones por anestésicos más modernos como la lidocaína. Sigue siendo valioso en ciertos contextos, especialmente en combinación con otros medicamentos para procedimientos de infiltración. Es fundamental que sea administrado por profesionales de la salud capacitados debido al riesgo de efectos adversos sistémicos si se inyecta accidentalmente en un vaso sanguíneo.",
+  "pharmacology": {
+    "mechanismOfAction": "La procaina actúa bloqueando de manera reversible los canales de sodio dependientes de voltaje en las membranas de las neuronas. Al unirse a estos canales desde el interior del axón neuronal, impide la entrada de iones sodio (Na+) necesaria para iniciar y propagar el potencial de acción. Sin la despolarización inicial, el impulso nervioso (incluyendo las señales de dolor, tacto y movimiento) no puede viajar a lo largo de la fibra nerviosa. Este bloqueo es reversible y dependiente de la concentración, afectando primero a las fibras nerviosas más finas (las que transmiten dolor y temperatura) y luego a las más gruesas (las motoras). Su acción es principalmente en las terminaciones nerviosas y troncos nerviosos en el sitio de inyección.",
+    "pharmacologicClass": "Anestésico local del grupo aminoéster (éster del ácido paraaminobenzoico - PABA). Agente bloqueador de los canales de sodio.",
+    "therapeuticClass": "Anestésico local inyectable.",
+    "absorption": "La absorción sistémica tras la administración por infiltración o bloqueo nervioso depende del sitio de inyección, la dosis, la concentración y la presencia de vasoconstrictores como la adrenalina (epinefrina). La absorción es más rápida en áreas con alta vascularización (como la mucosa intercostal o la cabeza). La administración intravenosa directa (accidental o terapéutica) produce efectos sistémicos inmediatos.",
+    "distribution": "Se distribuye ampliamente por todo el cuerpo tras la absorción sistémica. Atraviesa la barrera hematoencefálica y la placenta. Su unión a proteínas plasmáticas es moderada (principalmente a la alfa-1-glicoproteína ácida). El volumen de distribución (Vd) es de aproximadamente 0.7 L/kg, indicando una distribución en tejidos y fluidos corporales.",
+    "metabolism": "La procaina es metabolizada rápidamente en el plasma y el hígado por la enzima pseudocolinesterasa (butirilcolinesterasa plasmática) mediante hidrólisis. Se descompone en ácido paraaminobenzoico (PABA) y dietilaminoetanol. El PABA es un metabolito que puede interferir con la acción de las sulfonamidas. No es metabolizado por el sistema CYP450 hepático de manera significativa.",
+    "elimination": "La vida media plasmática es muy corta, de aproximadamente 40 segundos a 7.7 minutos, debido a su rápida hidrólisis por las colinesterasas plasmáticas. Los metabolitos (PABA y dietilaminoetanol) se eliminan principalmente por vía renal. Más del 80% de la dosis aparece en orina como metabolitos en 24 horas. Una pequeña porción se excreta sin cambios.",
+    "onsetOfAction": "El inicio de acción es relativamente rápido. Tras la infiltración, el efecto anestésico comienza generalmente en 2 a 5 minutos, alcanzando su máximo efecto en unos 5 a 10 minutos.",
+    "durationOfAction": "La duración del efecto anestésico es moderadamente corta. Sin vasoconstrictor, la duración es de aproximadamente 30 a 60 minutos. Cuando se combina con adrenalina (epinefrina) al 1:200,000, la duración puede prolongarse hasta 60-90 minutos, ya que el vasoconstrictor reduce la absorción sistémica y mantiene la concentración local."
+  },
+  "indications": {
+    "approved": [
+      "Anestesia por infiltración para procedimientos quirúrgicos menores",
+      "Bloqueo nervioso periférico (ej. bloqueo de nervios digitales, intercostales)",
+      "Anestesia espinal (subaracnoidea) para cirugía de abdomen bajo y extremidades",
+      "Anestesia en procedimientos dentales (extracciones, tratamientos de conducto)",
+      "Anestesia tópica en algunas formulaciones (menos común)"
+    ],
+    "offLabel": [
+      "Terapia neural (infiltración para síndromes de dolor crónico)",
+      "Como componente de soluciones de 'cóctel' para infiltración articular en ortopedia",
+      "Bloqueo del ganglio estrellado para dolor neuropático",
+      "Tratamiento intravenoso (en el pasado para arritmias, ya no recomendado)"
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis varía según el tipo de bloqueo, el área a anestesiar y el uso de vasoconstrictor. Dosis máxima recomendada: 500 mg (10 mL al 5% o 5 mL al 10%) sin vasoconstrictor. Con adrenalina 1:200,000, la dosis máxima puede aumentar a 600-800 mg. Ejemplos: Infiltración local: 50-200 mg (1-4 mL al 5%). Bloqueo nervioso periférico: 100-500 mg. Anestesia espinal: 50-200 mg (1-4 mL al 5% en solución hipertónica).",
+    "pediatric": "Se usa con extrema precaución y solo por especialistas. La dosis se calcula por peso corporal. Dosis máxima aproximada: 5-7 mg/kg sin vasoconstrictor. Con vasoconstrictor, puede ser ligeramente mayor. En neonatos y lactantes, la dosis debe reducirse debido a la inmadurez de las enzimas metabolizadoras.",
+    "elderly": "Reducir la dosis inicial en un 20-30% debido a la disminución de la masa muscular, posible reducción del aclaramiento y mayor sensibilidad. Monitorear estrechamente los signos vitales. La pseudocolinesterasa plasmática puede estar disminuida.",
+    "renalImpairment": "No se requiere ajuste de dosis principal para la procaina en sí, ya que se metaboliza en plasma. Sin embargo, la acumulación de metabolitos (PABA) en insuficiencia renal grave (TFG <30 mL/min) podría ser teóricamente problemática. Usar con precaución y considerar dosis más bajas.",
+    "hepaticImpairment": "La metabolización por pseudocolinesterasa plasmática no depende directamente del hígado. Sin embargo, en cirrosis hepática avanzada, los niveles de pseudocolinesterasa pueden estar disminuidos, lo que podría prolongar la vida media y aumentar el riesgo de toxicidad sistémica. Usar con precaución y dosis reducidas.",
+    "maxDose": "Dosis máxima absoluta para un adulto sano: 500 mg en una sola inyección sin vasoconstrictor. Con vasoconstrictor (adrenalina 1:200,000): 600-800 mg. La dosis total en 24 horas no debe exceder 1000 mg."
+  },
+  "dosageForms": [
+    {
+      "form": "Solución inyectable",
+      "strengths": [
+        "1% (10 mg/mL)",
+        "2% (20 mg/mL)",
+        "5% (50 mg/mL)",
+        "10% (100 mg/mL)"
+      ],
+      "route": "Inyección (infiltración, bloqueo nervioso, espinal)"
+    },
+    {
+      "form": "Solución inyectable con vasoconstrictor",
+      "strengths": [
+        "2% con epinefrina 1:200,000",
+        "5% con epinefrina 1:200,000"
+      ],
+      "route": "Inyección"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida (alergia) a la procaina o a otros anestésicos tipo éster (tetracaína, benzocaína)",
+      "Hipersensibilidad al ácido paraaminobenzoico (PABA) o a parabenes",
+      "Deficiencia congénita o adquirida de pseudocolinesterasa plasmática",
+      "Infección activa o sepsis en el sitio de inyección propuesto",
+      "Para anestesia espinal: hipertensión intracraneal, coagulopatía grave, shock, infección sistémica"
+    ],
+    "relative": [
+      "Miastenia gravis (puede potenciar el bloqueo neuromuscular)",
+      "Arritmias cardíacas o bloqueo cardíaco",
+      "Epilepsia no controlada",
+      "Hipovolemia o shock",
+      "Enfermedad hepática grave (cirrosis)",
+      "Insuficiencia renal terminal",
+      "Tratamiento con inhibidores de la colinesterasa (para miastenia gravis) o con sulfonamidas"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Sensación de calor o ardor en el sitio de inyección inicial",
+      "Adormecimiento y pesadez en el área anestesiada"
+    ],
+    "common": [
+      "Mareo o aturdimiento leve",
+      "Zumbido en los oídos (tinnitus)",
+      "Visión borrosa o doble",
+      "Ansiedad o inquietud",
+      "Náuseas leves",
+      "Hipotensión ortostática (baja de presión al ponerse de pie) tras anestesia espinal"
+    ],
+    "uncommon": [
+      "Urticaria o erupción cutánea (reacción alérgica)",
+      "Bradicardia (frecuencia cardíaca lenta)",
+      "Temblor muscular",
+      "Dolor de cabeza post-punción dural (tras anestesia espinal)",
+      "Retención urinaria temporal (especialmente con anestesia espinal)"
+    ],
+    "rare": [
+      "Reacción anafiláctica grave (dificultad para respirar, hinchazón de cara/garganta)",
+      "Convulsiones (crisis epiléptica) por toxicidad del SNC",
+      "Paro cardiorrespiratorio por toxicidad cardiovascular",
+      "Síndrome de Hoigne (reacción psicótica aguda con ansiedad severa, ilusiones, tras inyección IV accidental)",
+      "Metahemoglobinemia (con dosis muy altas)"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Sulfonamidas (ej. sulfametoxazol)",
+        "effect": "La procaina se metaboliza a PABA, que es un antagonista de la acción bactericida de las sulfonamidas. Puede reducir la eficacia del antibiótico.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inhibidores de la colinesterasa (ej. neostigmina, piridostigmina, donepezilo)",
+        "effect": "Pueden antagonizar el metabolismo de la procaina al inhibir la pseudocolinesterasa, aumentando su concentración y riesgo de toxicidad.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Succinilcolina",
+        "effect": "Ambos son metabolizados por la pseudocolinesterasa plasmática. La procaina puede prolongar la acción relajante muscular de la succinilcolina.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Bloqueadores beta no selectivos (ej. propranolol)",
+        "effect": "Pueden potenciar la bradicardia y la hipotensión inducidas por la procaina, especialmente si contiene adrenalina.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inhibidores de la MAO (ej. fenelzina) y antidepresivos tricíclicos",
+        "effect": "Pueden potenciar los efectos presores (elevadores de presión) de la adrenalina que a veces se añade a la procaina, aumentando el riesgo de crisis hipertensiva.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "No hay interacciones significativas con alimentos. Sin embargo, se recomienda no consumir alcohol antes de un procedimiento con anestesia local, ya que puede potenciar los efectos depresores del SNC.",
+    "withSupplements": "Suplementos que contengan PABA podrían, en teoría, aumentar los niveles de este metabolito. Suplementos con efectos anticoagulantes (ginkgo biloba, ajo, ginseng) pueden aumentar el riesgo de sangrado en procedimientos invasivos como bloqueos profundos o punción espinal."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "C",
+      "recommendation": "Solo debe usarse durante el embarazo si el beneficio potencial justifica claramente el riesgo potencial para el feto. Atraviesa la placenta. Se prefiere en procedimientos necesarios donde otros anestésicos locales (como la lidocaína, categoría B) no sean adecuados. La dosis debe ser la mínima efectiva. Evitar la anestesia espinal con dosis altas que puedan causar hipotensión materna y reducir el flujo uterino.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se considera compatible con la lactancia materna en las dosis habituales para procedimientos locales. La cantidad que pasa a la leche materna tras una infiltración es mínima y es improbable que cause efectos en el lactante. Sin embargo, si se requiere una dosis alta o administración intravenosa, se recomienda suspender la lactancia durante 12-24 horas.",
+    "pediatric": "Puede usarse en niños, pero con precaución extrema y por personal experimentado. Los neonatos y lactantes tienen niveles bajos de pseudocolinesterasa, lo que aumenta el riesgo de toxicidad sistémica. Calcular la dosis meticulosamente por peso (mg/kg). Preferir anestésicos locales tipo amida (lidocaína, bupivacaína) en muchas situaciones pediátricas modernas.",
+    "geriatric": "Los pacientes mayores son más sensibles a los efectos de los anestésicos locales. Reducir la dosis inicial. Mayor riesgo de hipotensión, bradicardia y confusión post-procedimiento. La función de pseudocolinesterasa puede estar disminuida. Evaluar función renal y hepática antes de su uso."
+  },
+  "administration": {
+    "howToTake": "La procaina SOLO debe ser administrada por un médico, dentista o anestesiólogo capacitado. Se inyecta directamente en el tejido (infiltración), alrededor de un nervio (bloqueo) o en el espacio espinal. Antes de inyectar, se debe aspirar para asegurar que la aguja no está en un vaso sanguíneo y así evitar inyección intravascular accidental. La administración es lenta y fraccionada. El paciente debe estar monitorizado (presión arterial, frecuencia cardíaca, oxigenación) durante el procedimiento.",
+    "storage": "Conservar el vial o ampolleta en su empaque original, protegido de la luz, a temperatura ambiente (15-30°C). No congelar. Las soliones que contienen vasoconstrictor (adrenalina) son más sensibles a la oxidación; verificar que el líquido esté incoloro o ligeramente amarillo. Desechar si está descolorido o contiene partículas.",
+    "specialInstructions": "Siempre se debe tener disponible equipo de reanimación (oxígeno, equipo para intubación, medicamentos para convulsiones y paro cardíaco) cuando se administra. No usar soluciones que contengan conservadores (como parabenes) para anestesia espinal o epidural. Informar al paciente que la sensación de adormecimiento puede durar más que el efecto analgésico; tener cuidado con el área anestesiada para evitar quemaduras o traumatismos."
+  },
+  "monitoring": {
+    "labTests": [
+      "No se requiere monitoreo de laboratorio rutinario para una sola dosis. En uso repetido o en pacientes de riesgo: Nivel de pseudocolinesterasa plasmática (en sospecha de deficiencia)",
+      "Función hepática (ALT, AST) y renal (creatinina) en pacientes con enfermedad conocida"
+    ],
+    "frequency": "Monitoreo clínico constante durante la administración y hasta que desaparezcan los efectos principales (30-90 minutos). Signos vitales (presión arterial, frecuencia cardíaca, saturación de oxígeno) cada 5-10 minutos durante el procedimiento y después.",
+    "signsToWatch": [
+      "Signos de toxicidad del SNC: hormigueo alrededor de la boca, zumbido de oídos, visión borrosa, mareo, temblores, convulsiones",
+      "Signos de toxicidad cardiovascular: bradicardia severa, hipotensión, arritmias, paro cardíaco",
+      "Signos de reacción alérgica: urticaria, picazón, hinchazón de cara/labios/lengua, dificultad para respirar",
+      "Signos de inyección intravascular: mareo súbito, palpitaciones, sabor metálico en la boca"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Síntomas del SNC: Ansiedad, agitación, confusión, visión borrosa, zumbido de oídos, temblores, convulsiones tónico-clónicas, depresión respiratoria, coma",
+      "Síntomas cardiovasculares: Hipotensión, bradicardia, bloqueo cardíaco, paro cardíaco (asistolia o fibrilación ventricular)",
+      "Reacciones alérgicas: Broncoespasmo, edema de glotis, shock anafiláctico"
+    ],
+    "treatment": "1. Suspender inmediatamente la inyección. 2. Mantener la vía aérea, administrar oxígeno al 100% y asistir la ventilación si es necesario. 3. Para convulsiones: benzodiacepinas (diazepam o midazolam IV). 4. Para bradicardia: atropina IV. 5. Para hipotensión: fluidos IV y vasopresores (epinefrina). 6. Reanimación cardiopulmonar (RCP) avanzada si hay paro cardíaco. 7. En caso de reacción alérgica: adrenalina intramuscular, antihistamínicos, corticoesteroides.",
+    "antidote": "No existe un antídoto específico. El tratamiento es de soporte. La administración de una preparación de colinesterasa humana (si estuviera disponible) podría teóricamente acelerar el metabolismo, pero no es práctica clínica estándar."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica archivada (prescripción médica). Su venta está restringida a establecimientos farmacéuticos con permiso sanitario.",
+    "scheduleMexico": "Medicamento de la Fracción IV (sustancias medicinales de venta con receta). No es un psicotrópico ni estupefaciente controlado.",
+    "fdaApprovalYear": "Aprobado antes de 1938 (era pre-FDA). Ha estado en uso clínico desde principios del siglo XX."
+  },
+  "brandsMexico": [
+    "Procaina",
+    "Procaina Braun",
+    "Novocaína (nombre histórico, ya no se comercializa comúnmente con este nombre en México)",
+    "Procaina PiSA",
+    "Procaina Inyectable Genfar",
+    "Procaina Inyectable Liomont"
+  ],
+  "clinicalPearls": [
+    "La procaina es el prototipo de los anestésicos locales tipo éster. Su metabolito, el PABA, es la razón por la que puede causar reacciones alérgicas cruzadas con las sulfonamidas y los protectores solares que contienen PABA.",
+    "La deficiencia de pseudocolinesterasa es una condición genética rara que puede hacer que una dosis normal de procaina cause toxicidad sistémica severa y prolongada, ya que el fármaco no se metaboliza adecuadamente.",
+    "Aunque ha sido ampliamente reemplazada por la lidocaína (una amida) en muchas aplicaciones, la procaina sigue siendo útil en anestesia espinal y en ciertas técnicas de terapia neural debido a su perfil farmacocinético único y su corta vida media."
+  ],
+  "patientCounseling": "Es muy importante que comprenda que la procaina es un medicamento que solo le pondrá su médico o dentista mediante una inyección para que no sienta dolor durante un procedimiento. Usted permanecerá despierto pero sin sensibilidad en la zona tratada. Después de la inyección, es normal sentir un leve ardor inicial y luego adormecimiento y pesadez. Debe tener mucho cuidado con el área adormecida: no la exponga a calor extremo (como una almohadilla térmica) ni a traumatismos, ya que podría lastimarse sin darse cuenta. El efecto puede durar desde 30 minutos hasta casi 2 horas. Si después de la inyección siente mareo intenso, palpitaciones, zumbido fuerte en los oídos, dificultad para respirar, temblores o ve manchas, INFORME INMEDIATAMENTE al personal médico. Si tiene alergia conocida a algún anestésico, a las sulfas (antibióticos) o a los protectores solares, debe decírselo a su médico antes del procedimiento.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor agudo",
+        "slug": "dolor-agudo"
+      },
+      {
+        "name": "Dolor durante procedimientos médicos",
+        "slug": "dolor-procedimientos-medicos"
+      },
+      {
+        "name": "Dolor dental",
+        "slug": "dolor-dental"
+      },
+      {
+        "name": "Dolor articular",
+        "slug": "dolor-articular"
+      },
+      {
+        "name": "Dolor neuropático",
+        "slug": "dolor-neuropatico"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Necesidad de anestesia local",
+        "slug": "necesidad-anestesia-local"
+      },
+      {
+        "name": "Procedimientos quirúrgicos menores",
+        "slug": "procedimientos-quirurgicos-menores"
+      },
+      {
+        "name": "Enfermedades dentales que requieren intervención",
+        "slug": "enfermedades-dentales-intervencion"
+      },
+      {
+        "name": "Artralgias (para infiltración)",
+        "slug": "artralgias"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Reacción anafiláctica",
+        "slug": "reaccion-anafilactica"
+      },
+      {
+        "name": "Convulsiones",
+        "slug": "convulsiones"
+      },
+      {
+        "name": "Arritmia cardíaca",
+        "slug": "arritmia-cardiaca"
+      },
+      {
+        "name": "Hipotensión arterial",
+        "slug": "hipotension-arterial"
+      },
+      {
+        "name": "Cefalea post-punción dural",
+        "slug": "cefalea-post-puncion-dural"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Pseudocolinesterasa plasmática",
+        "slug": "pseudocolinesterasa-plasmatica",
+        "effect": "Puede disminuir su actividad por consumo"
+      },
+      {
+        "name": "Presión arterial sistólica",
+        "slug": "presion-arterial-sistolica",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede disminuir (bradicardia)"
+      },
+      {
+        "name": "Metahemoglobina",
+        "slug": "metahemoglobina",
+        "effect": "Puede elevar (en raros casos de sobredosis)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Nivel de pseudocolinesterasa",
+        "slug": "nivel-pseudocolinesterasa",
+        "reason": "Para evaluar riesgo de toxicidad en pacientes con sospecha de deficiencia"
+      },
+      {
+        "name": "Electrocardiograma (ECG)",
+        "slug": "electrocardiograma",
+        "reason": "Para evaluar función cardíaca antes de procedimientos extensos en pacientes con riesgo"
+      },
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-funcion-hepatica",
+        "reason": "En pacientes con enfermedad hepática conocida"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve la inyección de procaina?",
+      "a": "Sirve para 'dormir' o adormecer una parte específica del cuerpo (como una muela, una mano o una rodilla) de manera temporal, para que el médico o dentista pueda realizar un procedimiento (como una extracción, una sutura o una infiltración) sin que usted sienta dolor. No lo duerme completamente, solo bloquea los nervios del área tratada."
+    },
+    {
+      "q": "¿Duele ponerse la inyección de procaina?",
+      "a": "La inyección en sí puede causar una breve sensación de piquete o ardor, que dura unos segundos. Luego, el área comienza a adormecerse rápidamente. Muchas veces, el médico pone un poco de anestésico tópico en la piel primero para hacerla menos sensible."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto y cuánto dura?",
+      "a": "Empieza a hacer efecto en 2 a 5 minutos después de la inyección. La duración del adormecimiento depende: sin epinefrina (adrenalina) dura unos 30-60 minutos; si la trae, puede durar de 60 a 90 minutos. La sensación de pesadez puede durar un poco más."
+    },
+    {
+      "q": "¿Puedo comer o tomar agua antes de un procedimiento con procaina?",
+      "a": "Sí, para procedimientos menores con anestesia local (como en el dentista o una sutura pequeña), generalmente puede comer y beber con normalidad. Sin embargo, si el procedimiento es más complejo o va a recibir sedación adicional, el médico le dará instrucciones específicas, como ayunar."
+    },
+    {
+      "q": "¿Qué debo hacer si sigo sintiendo dolor después de la inyección?",
+      "a": "Informe inmediatamente al médico o dentista. A veces se necesita una pequeña dosis adicional o ajustar el sitio de la inyección para lograr un bloqueo completo. No aguante el dolor en silencio."
+    },
+    {
+      "q": "¿Por qué a veces me late el corazón fuerte después de que me ponen anestesia en el dentista?",
+      "a": "Esa sensación puede deberse a la adrenalina (epinefrina) que a veces se mezcla con la procaina para que dure más y sangrar menos. La adrenalina puede causar palpitaciones breves y un poco de ansiedad. Es normal y pasa en unos minutos. Si la sensación es muy intensa o dura mucho, dígaselo al profesional."
+    },
+    {
+      "q": "¿La procaina puede causar alergia?",
+      "a": "Sí, aunque no es muy común. Las alergias son más probables con los anestésicos tipo éster (como la procaina) que con los tipo amida (como la lidocaína). Si es alérgico a las sulfas (antibióticos como el Bactrim), a la benzocaína (anestésico tópicos) o a protectores solares con PABA, tiene mayor riesgo. Siempre informe de sus alergias."
+    },
+    {
+      "q": "¿Me puedo ir a mi casa solo después del procedimiento?",
+      "a": "Sí, en la mayoría de los casos. Como no es anestesia general, sus funciones mentales no se ven afectadas. Sin embargo, si le adormecieron una pierna o un brazo, tenga cuidado al caminar o manejar hasta que recupere la sensibilidad y fuerza completa para evitar caídas o accidentes."
+    },
+    {
+      "q": "¿Qué cuidados debo tener en el área adormecida?",
+      "a": "No muerda, rasque o frote el área (especialmente si es la boca o la cara). Tenga cuidado con las temperaturas extremas (no tome bebidas muy calientes si tiene la boca dormida, no ponga una bolsa de hielo directamente). Podría lastimarse sin darse cuenta."
+    },
+    {
+      "q": "¿La procaina es lo mismo que la novocaína?",
+      "a": "Sí, la novocaína era el nombre comercial original de la procaina. Hoy en día, en México se consigue principalmente con el nombre genérico 'Procaina', aunque algunos aún la llaman novocaína por costumbre."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si me pusieron procaina?",
+      "a": "Se recomienda no tomar alcohol antes del procedimiento, ya que puede aumentar el riesgo de efectos secundarios. Después del procedimiento, espere a que desaparezca completamente el efecto del adormecimiento (unas horas) antes de consumir alcohol."
+    },
+    {
+      "q": "¿Qué pasa si soy alérgico a la lidocaína? ¿Puedo usar procaina?",
+      "a": "Posiblemente sí, porque pertenecen a familias químicas diferentes (lidocaína es una amida, procaina es un éster). Sin embargo, la decisión la debe tomar su médico después de evaluar su historial de alergias. Se podría hacer una prueba de sensibilidad primero."
+    },
+    {
+      "q": "¿La procaina afecta a la presión arterial?",
+      "a": "Sí, puede bajarla un poco (hipotensión), especialmente si se usa para anestesia espinal o si se inyecta accidentalmente en un vaso sanguíneo. Por eso le toman la presión antes y durante el procedimiento. Si contiene adrenalina, primero puede subirla un poco y luego bajarla."
+    },
+    {
+      "q": "¿Puede causar daño en los nervios?",
+      "a": "El daño nervioso permanente es una complicación muy rara. Puede ocurrir si la inyección es directamente en un nervio, si hay sangrado alrededor del nervio o por la toxicidad de una concentración muy alta. Por eso es administrada por profesionales que conocen la anatomía."
+    },
+    {
+      "q": "¿Se puede usar en niños?",
+      "a": "Sí, pero con mucha precaución. La dosis se calcula cuidadosamente según el peso del niño. En bebés recién nacidos se usa muy poco porque su cuerpo la metaboliza más lentamente. Hoy en día, a menudo se prefieren otros anestésicos locales en pediatría."
+    },
+    {
+      "q": "¿Qué es la terapia neural con procaina?",
+      "a": "Es un uso 'off-label' donde se inyecta procaina en dilución muy baja en puntos específicos (ganglios, cicatrices) con el objetivo de modular el sistema nervioso y aliviar el dolor crónico. Es una técnica controversial y debe ser realizada solo por médicos especializados en ella."
+    },
+    {
+      "q": "¿Por qué a veces me duele la cabeza después de una operación con anestesia en la espalda (raquídea)?",
+      "a": "Eso se llama cefalea post-punción dural. Ocurre si hay una pequeña fuga de líquido cefalorraquídeo por el orificio de la aguja. Es más común con agujas grandes. La procaina, al ser usada en anestesia espinal, puede causarla. Generalmente se trata con reposo, hidratación y analgésicos, y suele mejorar en unos días."
+    },
+    {
+      "q": "¿Qué pasa si tengo deficiencia de pseudocolinesterasa?",
+      "a": "Es una condición genética rara. Si la tiene, su cuerpo no puede descomponer la procaina rápidamente. Una dosis normal podría causarle síntomas de intoxicación grave y prolongada, como convulsiones o problemas cardíacos. Si hay antecedentes familiares de esta deficiencia o de reacciones graves a anestésicos, informe a su médico antes de cualquier procedimiento."
+    },
+    {
+      "q": "¿La procaina interfiere con mis otros medicamentos?",
+      "a": "Sí, puede interferir. Es importante decirle a su médico TODOS los medicamentos que toma. Interactúa especialmente con: antibióticos tipo sulfa (puede hacerlos menos efectivos), algunos medicamentos para el Alzheimer o la miastenia gravis (pueden aumentar su toxicidad), y algunos antidepresivos (pueden potenciar los efectos de la adrenalina que a veces trae mezclada)."
+    },
+    {
+      "q": "¿Cuál es la diferencia principal entre procaina y lidocaína, y por qué elegir una sobre la otra?",
+      "a": "La procaina (éster) tiene un inicio de acción un poco más lento y una duración más corta que la lidocaína (amida). La procaina se metaboliza en el plasma y puede causar más alergias. La lidocaína se metaboliza en el hígado y tiene un perfil de seguridad más amplio. Hoy, la lidocaína es la más usada. Se elige procaina en casos específicos: cuando se busca una vida media muy corta, en anestesia espinal de corta duración, o en pacientes con enfermedad hepática grave (ya que la lidocaína depende del hígado). También en terapia neural por tradición. La elección final depende del procedimiento, la experiencia del médico y las características del paciente."
+    }
+  ]
+}

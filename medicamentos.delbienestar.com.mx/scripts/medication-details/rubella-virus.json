@@ -1,0 +1,331 @@
+{
+  "name": "Rubella Virus",
+  "summary": "El Rubella Virus, también conocido como virus de la rubéola, es un agente infeccioso que causa la enfermedad comúnmente llamada 'sarampión alemán'. Aunque la infección natural puede causar una enfermedad leve con fiebre y erupción cutánea, su importancia clínica principal radica en su uso como vacuna viva atenuada para prevenir la rubéola. La vacunación es crucial para evitar las graves complicaciones congénitas del síndrome de rubéola congénita, que puede causar sordera, cataratas, defectos cardíacos y retraso mental en bebés nacidos de madres infectadas durante el embarazo. En México, la vacuna contra la rubéola se administra como parte del esquema nacional de vacunación, generalmente combinada con las vacunas contra el sarampión y las paperas (triple viral SRP), para lograr inmunidad de rebaño y erradicar la enfermedad. La vacunación sistemática ha reducido drásticamente la incidencia de rubéola y su síndrome congénito, siendo una herramienta de salud pública fundamental.",
+  "pharmacology": {
+    "mechanismOfAction": "La vacuna contra el Rubella Virus contiene virus vivos atenuados (cepa RA 27/3). Tras la administración, el virus se replica de forma limitada en el tejido nasofaríngeo y en los ganglios linfáticos regionales. Esta replicación controlada estimula el sistema inmunológico del receptor, induciendo una respuesta inmunitaria tanto humoral (producción de anticuerpos IgG específicos contra el virus) como celular (activación de linfocitos T de memoria). Los anticuerpos generados neutralizan al virus salvaje en caso de una exposición futura, previniendo la infección y la enfermedad. La protección conferida es de larga duración, probablemente de por vida en la mayoría de los individuos. La atenuación del virus reduce significativamente su patogenicidad, haciendo que la vacuna sea segura y efectiva sin causar la enfermedad clínica en personas inmunocompetentes.",
+    "pharmacologicClass": "Vacuna viral viva atenuada. Agente inmunológico activo. Virus ARN del género *Rubivirus*, familia *Matonaviridae*.",
+    "therapeuticClass": "Vacuna preventiva. Inmunización activa.",
+    "absorption": "La vacuna se administra por vía subcutánea. El virus atenuado es absorbido por las células presentadoras de antígeno en el sitio de inyección y en los ganglios linfáticos drenantes, donde inicia la replicación limitada y la presentación antigénica.",
+    "distribution": "Tras la replicación local inicial, el virus se distribuye de manera sistémica mínima. La unión a proteínas no es un parámetro relevante para este tipo de biológico. El volumen de distribución (Vd) no se aplica de la manera convencional de un fármaco, ya que su acción es inmunoestimulante local y sistémica.",
+    "metabolism": "No sufre metabolismo hepático convencional. El virus es eliminado por el sistema inmunológico del huésped una vez cumplida su función de estimulación inmunológica. No hay enzimas CYP involucradas en su metabolismo.",
+    "elimination": "El virus atenuado es eliminado por el sistema inmunológico del individuo. No tiene una vida media farmacocinética tradicional. La respuesta inmunológica (anticuerpos) persiste durante décadas.",
+    "onsetOfAction": "La producción de anticuerpos protectores (seroconversión) comienza aproximadamente 2 a 3 semanas después de la vacunación. La protección óptima se alcanza generalmente a las 4-6 semanas post-vacunación.",
+    "durationOfAction": "La protección inmunológica es de larga duración. Estudios indican que más del 90% de los individuos vacunados mantienen niveles protectores de anticuerpos durante al menos 15-20 años, y se considera que la inmunidad es probablemente de por vida en la mayoría de los casos."
+  },
+  "indications": {
+    "approved": [
+      "Inmunización activa para la prevención de la rubéola (sarampión alemán) en individuos a partir de los 12 meses de edad.",
+      "Inmunización para prevenir el síndrome de rubéola congénita mediante la vacunación de mujeres en edad fértil no embarazadas (con anticoncepción efectiva 1 mes antes y después).",
+      "Control de brotes de rubéola según indicación de las autoridades sanitarias (COFEPRIS, Secretaría de Salud).",
+      "Vacunación de personal de salud susceptible."
+    ],
+    "offLabel": [
+      "Uso post-exposición en brotes (puede no prevenir la enfermedad si ya se está incubando, pero protegerá para exposiciones futuras).",
+      "Revacunación en ciertos contextos de viaje internacional a zonas endémicas, según recomendaciones específicas."
+    ]
+  },
+  "dosage": {
+    "adults": "Una dosis única de 0.5 mL por vía subcutánea. Los adultos nacidos después de 1957 que no tienen evidencia documentada de inmunidad (vacunación o enfermedad confirmada) deben recibir al menos una dosis. Las mujeres en edad fértil deben tener confirmación serológica de inmunidad o recibir una dosis (si no están embarazadas y usan anticoncepción).",
+    "pediatric": "Primera dosis: 0.5 mL por vía subcutánea entre los 12 y 15 meses de edad. Segunda dosis (refuerzo): 0.5 mL por vía subcutánea entre los 4 y 6 años de edad, como parte del esquema SRP (Sarampión, Rubéola, Paperas). En México, el esquema oficial es a los 12 meses y a los 6 años.",
+    "elderly": "Generalmente no se recomienda de rutina en adultos mayores, ya la mayoría son inmunes por infección natural en la era prevacunal. Puede considerarse en casos específicos de susceptibilidad demostrada y riesgo de exposición.",
+    "renalImpairment": "No se requieren ajustes de dosis en insuficiencia renal. La vacuna es segura.",
+    "hepaticImpairment": "No se requieren ajustes de dosis en insuficiencia hepática. La vacuna es segura.",
+    "maxDose": "No aplica. El esquema completo consiste en dos dosis (0.5 mL cada una) en la vida. No se recomiendan dosis adicionales rutinarias."
+  },
+  "dosageForms": [
+    {
+      "form": "Suspensión inyectable (liofilizada para reconstitución)",
+      "strengths": [
+        "Dosis única (≥1000 unidades formadoras de colonias del virus atenuado)"
+      ],
+      "route": "Subcutánea"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Historia de reacción alérgica anafiláctica grave a cualquier componente de la vacuna (incluyendo gelatina, neomicina).",
+      "Embarazo confirmado o sospechado (riesgo teórico para el feto). La vacunación debe posponerse hasta después del parto.",
+      "Inmunodeficiencia primaria o adquirida severa (ej. leucemia, linfoma, SIDA sintomático, terapia inmunosupresora alta).",
+      "Terapia inmunosupresora con altas dosis de corticosteroides (≥20 mg/día de prednisona o equivalente por ≥2 semanas).",
+      "Historia de trombocitopenia o púrpura trombocitopénica tras dosis previa de vacuna SRP."
+    ],
+    "relative": [
+      "Enfermedad febril aguda moderada o grave (posponer hasta la recuperación).",
+      "Transfusión reciente de sangre o productos sanguíneos (posponer 3-11 meses, según el producto).",
+      "Administración reciente de gammaglobulina o terapia con anticuerpos (posponer 3-11 meses).",
+      "Historia personal o familiar de convulsiones (monitorizar fiebre post-vacunal).",
+      "Tuberculosis activa no tratada."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Dolor, enrojecimiento o hinchazón en el sitio de la inyección.",
+      "Fiebre leve (38-39°C)."
+    ],
+    "common": [
+      "Erupción cutánea leve, no contagiosa, similar a la rubéola.",
+      "Malestar general, dolor de cabeza.",
+      "Linfadenopatía (ganglios inflamados) regional.",
+      "Artralgias (dolor en articulaciones) leves y transitorias, más común en mujeres adultas."
+    ],
+    "uncommon": [
+      "Fiebre alta (>39°C).",
+      "Artritis transitoria (más frecuente en mujeres post-púberes).",
+      "Convulsiones febriles (en niños susceptibles)."
+    ],
+    "rare": [
+      "Púrpura trombocitopénica.",
+      "Reacción alérgica grave (anafilaxia).",
+      "Encefalitis/encefalopatía (extremadamente rara, relación causal no probada).",
+      "Sordera neuritis óptica, parálisis."
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Inmunoglobulinas, Sangre o Derivados Sanguíneos",
+        "effect": "Pueden neutralizar el virus de la vacuna, reduciendo su eficacia. Se debe posponer la vacunación entre 3 y 11 meses después de la administración de estos productos, dependiendo de la dosis.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Fármacos Inmunosupresores (corticosteroides en altas dosis, quimioterapia, antirrechazo)",
+        "effect": "Pueden reducir la respuesta inmunológica a la vacuna y aumentar el riesgo de efectos adversos por replicación viral. Evitar vacunar durante la terapia inmunosupresora intensa.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Otras Vacunas de Virus Vivos (Varicela, Fiebre Amarilla)",
+        "effect": "Si no se administran el mismo día, se debe espaciar al menos 4 semanas entre ellas para evitar interferencia en la respuesta inmune.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "No hay interacciones conocidas con alimentos. El alcohol en consumo moderado no interfiere con la respuesta inmune a la vacuna.",
+    "withSupplements": "Suplementos inmunoestimulantes altos en dosis (como equinácea, altas dosis de vitamina C) podrían, en teoría, interferir con la replicación del virus atenuado, aunque la evidencia clínica es limitada. Se recomienda no iniciar nuevos suplementos alrededor del momento de la vacunación."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA C (para la vacuna; el riesgo de la enfermedad natural es X).",
+      "recommendation": "LA VACUNACIÓN ESTÁ CONTRAINDICADA DURANTE EL EMBARAZO. Aunque el riesgo teórico de síndrome de rubéola congénita por la cepa vacunal es extremadamente bajo, se debe evitar por precaución. Si una mujer es vacunada y luego descubre que estaba embarazada, se debe brindar consejería: el riesgo es muy bajo y NO es indicación para interrumpir el embarazo. Se debe documentar y reportar al sistema de farmacovigilancia. La vacunación debe realizarse al menos 1 mes ANTES de un embarazo planificado.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La vacuna contra la rubéola es SEGURA durante la lactancia. El virus atenuado no se excreta en la leche materna en cantidades significativas para infectar al bebé. La lactancia no es una contraindicación para vacunar a la madre o al bebé. De hecho, vacunar a la madre protege indirectamente al lactante.",
+    "pediatric": "Uso aprobado a partir de los 12 meses de edad. La primera dosis no debe administrarse antes de los 12 meses porque los anticuerpos maternos residuales pueden interferir con la respuesta inmune. La segunda dosis (refuerzo) se aplica para cubrir el pequeño porcentaje que no responde a la primera dosis. Es segura y bien tolerada en niños.",
+    "geriatric": "La mayoría de los adultos mayores ya son inmunes. No se recomienda de rutina. Puede considerarse en individuos susceptibles (sin historia de enfermedad o vacunación) que viajen a zonas de riesgo o en brotes, evaluando su estado inmunológico general. La respuesta inmune puede ser menor en ancianos frágiles."
+  },
+  "administration": {
+    "howToTake": "La vacuna se presenta como un polvo liofilizado que debe reconstituirse exclusivamente con el diluyente estéril proporcionado por el fabricante. Agitar suavemente para mezclar completamente. Administrar inmediatamente después de la reconstitución. La vía de administración es SUBCUTÁNEA, preferentemente en la región externa del brazo (músculo deltoides) o en la cara anterolateral del muslo en niños pequeños. Usar una jeringa y aguja estériles. No mezclar con otras vacunas en la misma jeringa. Aplicar una dosis de 0.5 mL.",
+    "storage": "Conservar el polvo liofilizado y el diluyente entre +2°C y +8°C (en refrigerador, NO en el congelador). Proteger de la luz. Una vez reconstituida, la vacuna debe usarse dentro de las 8 horas si se mantiene entre +2°C y +8°C, o desecharse. No congelar la vacuna reconstituida.",
+    "specialInstructions": "El personal de salud debe verificar el estado de inmunidad del paciente antes de administrar. Documentar en la cartilla nacional de vacunación: fecha, nombre de la vacuna (SRP), número de lote, sitio de aplicación y nombre del aplicador. Observar al paciente durante 15-30 minutos post-vacunación para detectar reacciones alérgicas inmediatas. Se puede administrar simultáneamente con otras vacunas del esquema (en sitios diferentes), excepto con otras vacunas de virus vivos si no es el mismo día."
+  },
+  "monitoring": {
+    "labTests": [
+      "Títulos de anticuerpos IgG contra rubéola (solo en casos especiales: personal de salud, mujeres que planean embarazo, evaluación de brotes).",
+      "Biometría hemática (solo si aparece púrpura o sangrado anormal)."
+    ],
+    "frequency": "No se requiere monitoreo de laboratorio de rutina. La serología post-vacunal solo se recomienda en grupos específicos (ej. personal de salud) 4-8 semanas después de la vacunación para confirmar seroconversión.",
+    "signsToWatch": [
+      "Fiebre alta (>39.5°C) persistente.",
+      "Erupción cutánea extensa o que empeora después de unos días.",
+      "Signos de artritis severa o persistente (dolor, hinchazón en articulaciones).",
+      "Signos de reacción alérgica grave: dificultad para respirar, hinchazón de cara/lengua, urticaria generalizada, mareo intenso.",
+      "Moretones o sangrado espontáneo (signos de trombocitopenia)."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "No se han reportado casos de sobredosis con la presentación de dosis única. En teoría, la administración accidental de múltiples dosis podría exacerbar los efectos adversos comunes (fiebre, artralgias, reacción local)."
+    ],
+    "treatment": "Tratamiento sintomático y de soporte. Para fiebre, usar antipiréticos como paracetamol. Para reacciones locales, aplicar compresas frías. Monitorear signos vitales. En caso de reacción alérgica, manejar según protocolo de anafilaxia (adrenalina, antihistamínicos, corticosteroides).",
+    "antidote": "No existe antídoto específico. La inmunoglobulina hiperinmune contra rubéola no está indicada ni es efectiva para tratar una reacción a la vacuna."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica para su aplicación (aunque su dispensación en el sector público es a través del programa de vacunación).",
+    "scheduleMexico": "No está sujeta a control de estupefacientes o psicotrópicos. Es un biológico de uso restringido a personal de salud capacitado en el Programa de Vacunación Universal.",
+    "fdaApprovalYear": "La cepa RA 27/3 fue aprobada por la FDA en 1979."
+  },
+  "brandsMexico": [
+    "Triple Viral SRP (Sarampión, Rubéola, Paperas) - Biológicos y Reactivos de México (BIRMEX)",
+    "Priorix (SRP) - GlaxoSmithKline",
+    "MMR II (SRP) - Merck Sharp & Dohme",
+    "ProQuad (SRPV: Sarampión, Rubéola, Paperas, Varicela) - Merck Sharp & Dohme"
+  ],
+  "clinicalPearls": [
+    "La vacunación de mujeres en edad fértil es la estrategia más efectiva para prevenir el síndrome de rubéola congénita, una causa evitable de discapacidad.",
+    "La artralgia/artritis post-vacunal es más frecuente y puede ser más severa en mujeres adultas (hasta 25% de los casos), pero es casi siempre transitoria (días a semanas) y autolimitada.",
+    "En brotes, la vacunación de contactos susceptibles dentro de las 72 horas post-exposición puede ayudar a limitar la propagación, aunque puede no prevenir la enfermedad en el individuo ya expuesto."
+  ],
+  "patientCounseling": "Esta vacuna lo protege a usted y a su comunidad contra la rubéola, también llamada 'sarampión alemán'. Es especialmente importante para mujeres que planean tener un bebé en el futuro, ya que contraer rubéola durante el embarazo puede causar graves defectos de nacimiento en el bebé. Después de la inyección, es normal tener un poco de fiebre, dolor en el brazo o una erupción leve entre 5 y 12 días después. Puede usar paracetamol para la fiebre o el malestar. Debe evitar quedar embarazada durante 1 mes después de recibir la vacuna. Si presenta fiebre muy alta, dificultad para respirar, hinchazón de cara o articulaciones muy dolorosas e inflamadas, consulte a su médico. Lleve siempre su cartilla de vacunación para registrar esta y todas sus vacunas. Recuerde que esta vacuna no causa rubéola, solo prepara a su cuerpo para defenderse.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Erupción cutánea por rubéola",
+        "slug": "erupcion-cutanea-por-rubeola"
+      },
+      {
+        "name": "Fiebre por rubéola",
+        "slug": "fiebre-por-rubeola"
+      },
+      {
+        "name": "Dolor articular por rubéola",
+        "slug": "dolor-articular-por-rubeola"
+      },
+      {
+        "name": "Linfadenopatía (ganglios inflamados)",
+        "slug": "ganglios-inflamados"
+      },
+      {
+        "name": "Conjuntivitis leve",
+        "slug": "conjuntivitis-leve"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Rubéola (Sarampión Alemán)",
+        "slug": "rubeola-sarampion-aleman"
+      },
+      {
+        "name": "Síndrome de Rubéola Congénita (Prevención)",
+        "slug": "sindrome-de-rubeola-congenita"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Artritis post-vacunal",
+        "slug": "artritis-post-vacunal"
+      },
+      {
+        "name": "Púrpura trombocitopénica idiopática",
+        "slug": "purpura-trombocitopenica-idiopatica"
+      },
+      {
+        "name": "Encefalitis (extremadamente rara)",
+        "slug": "encefalitis"
+      },
+      {
+        "name": "Reacción anafiláctica",
+        "slug": "reaccion-anafilactica"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Anticuerpos IgG contra Rubéola",
+        "slug": "anticuerpos-igg-contra-rubeola",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Recuento de Plaquetas",
+        "slug": "recuento-de-plaquetas",
+        "effect": "Puede disminuir (raro)"
+      },
+      {
+        "name": "Velocidad de Sedimentación Globular (VSG)",
+        "slug": "velocidad-de-sedimentacion-globular",
+        "effect": "Puede elevar (transitoriamente en artritis)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Serología para IgG contra Rubéola",
+        "slug": "serologia-para-igg-contra-rubeola",
+        "reason": "Para confirmar inmunidad antes del embarazo o en personal de salud."
+      },
+      {
+        "name": "Biometría Hemática Completa",
+        "slug": "biometria-hematica-completa",
+        "reason": "Si hay sospecha de trombocitopenia post-vacunal."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de Edad Gestacional",
+        "slug": "calculadora-edad-gestacional"
+      },
+      {
+        "name": "Calculadora de IMC",
+        "slug": "calculadora-imc"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La vacuna contra la rubéola me puede dar la enfermedad?",
+      "a": "No, la vacuna contiene el virus muy debilitado (atenuado) que no puede causar la enfermedad de la rubéola en personas sanas. Lo que puede causar son síntomas leves y pasajeros como fiebre baja o sarpullido, que son signos de que su cuerpo está generando defensas."
+    },
+    {
+      "q": "¿Cuántas dosis necesito en mi vida?",
+      "a": "El esquema completo en México son dos dosis: la primera entre los 12 y 15 meses de edad y la segunda a los 6 años. Si usted es adulto y no tiene registro de haber recibido dos dosis o de haber padecido la enfermedad, debe aplicarse al menos una dosis."
+    },
+    {
+      "q": "¿Duele la vacuna?",
+      "a": "Como cualquier inyección, puede causar un dolor leve, ardor o pinchazo en el momento de la aplicación. Después, es común que el brazo quede adolorido, enrojecido o un poco hinchado por 1 o 2 días."
+    },
+    {
+      "q": "¿Puedo vacunarme si estoy resfriado o con fiebre?",
+      "a": "Si es un resfriado leve sin fiebre, sí puede vacunarse. Si tiene fiebre moderada o alta (más de 38.5°C), es mejor posponer la vacuna hasta que se sienta bien, para no confundir los síntomas de su enfermedad con posibles efectos de la vacuna."
+    },
+    {
+      "q": "¿La vacuna tiene efectos secundarios graves?",
+      "a": "Los efectos graves son muy raros. Pueden incluir reacciones alérgicas fuertes (dificultad para respirar, hinchazón de cara) o moretones/facilidad para sangrar por baja de plaquetas. Si presenta estos síntomas, busque atención médica de inmediato."
+    },
+    {
+      "q": "¿Por qué es tan importante vacunar a las mujeres?",
+      "a": "Porque si una mujer contrae rubéola durante los primeros meses de embarazo, el virus puede pasar al bebé y causarle graves problemas como ceguera, sordera, defectos en el corazón y retraso mental. Vacunarse antes del embarazo previene esto completamente."
+    },
+    {
+      "q": "¿Cuánto tiempo debo esperar para embarazarme después de vacunarme?",
+      "a": "Los médicos recomiendan esperar al menos 1 mes (30 días) después de recibir la vacuna antes de intentar quedar embarazada. Esto es por precaución, aunque el riesgo para el bebé es extremadamente bajo."
+    },
+    {
+      "q": "¿Me puedo vacunar si estoy amamantando?",
+      "a": "Sí, la vacuna contra la rubéola es segura durante la lactancia. No le hará daño a su bebé a través de la leche materna."
+    },
+    {
+      "q": "¿Qué hago si me vacuné y después descubro que estaba embarazada?",
+      "a": "NO entre en pánico. Informe a su médico inmediatamente. El riesgo de que la vacuna cause daño al bebé es muy, muy bajo. Esto NO es una razón para interrumpir el embarazo. Su médico la vigilará más de cerca."
+    },
+    {
+      "q": "¿Los hombres también deben vacunarse?",
+      "a": "Sí, todos los niños, adolescentes y hombres adultos deben estar vacunados. Esto los protege a ellos y, al reducir la circulación del virus en la comunidad, protegen indirectamente a las mujeres embarazadas que no pueden vacunarse."
+    },
+    {
+      "q": "¿La vacuna es de por vida o necesito un refuerzo?",
+      "a": "Se considera que las dos dosis del esquema infantil confieren protección de por vida en la gran mayoría de las personas. No se necesitan refuerzos adicionales en la vida adulta de forma rutinaria."
+    },
+    {
+      "q": "¿Puedo tomar paracetamol o ibuprofeno antes o después de la vacuna?",
+      "a": "No se recomienda tomarlos ANTES de la vacuna para prevenir síntomas, porque algunos estudios sugieren que podrían reducir levemente la respuesta inmunológica. Si después le da fiebre o dolor, SÍ puede tomarlos para sentirse mejor."
+    },
+    {
+      "q": "¿Con qué otras vacunas se puede poner al mismo tiempo?",
+      "a": "Se puede aplicar el mismo día con otras vacunas como la de la influenza, hepatitis B, neumococo o varicela (en sitios de inyección diferentes). Si no se aplican el mismo día, con otras vacunas de virus vivos (como varicela) se debe esperar 4 semanas."
+    },
+    {
+      "q": "¿Qué personas NO deben vacunarse contra la rubéola?",
+      "a": "No deben vacunarse: mujeres embarazadas, personas con defensas muy bajas (por cáncer, SIDA avanzado, medicamentos fuertes), quienes hayan tenido una reacción alérgica grave a una dosis previa o a componentes como la gelatina o neomicina."
+    },
+    {
+      "q": "Viajo al extranjero, ¿necesito esta vacuna?",
+      "a": "Depende del destino. En muchos países, incluido México, la rubéola está controlada. Sin embargo, si viaja a zonas con brotes activos y usted no está vacunado o no ha padecido la enfermedad, es recomendable vacunarse. Consulte en clínicas de viajero."
+    },
+    {
+      "q": "Tengo más de 60 años, ¿necesito esta vacuna?",
+      "a": "Probablemente no. La mayoría de los adultos mayores nacieron antes de que existiera la vacuna y ya tuvieron la enfermedad en la infancia, por lo que son inmunes. Solo se recomienda en casos muy específicos si un médico determina que es susceptible."
+    },
+    {
+      "q": "¿La vacuna que me ponen en México es la misma que en otros países?",
+      "a": "Sí, la cepa del virus utilizada en la mayoría de las vacunas en el mundo (RA 27/3) es la misma. Las marcas pueden variar (Priorix, MMR II), pero todas son altamente efectivas y seguras."
+    },
+    {
+      "q": "¿Qué es la 'triple viral' (SRP)?",
+      "a": "Es la vacuna combinada que protege contra tres enfermedades: Sarampión (S), Rubéola (R) y Paperas (P). En México, el esquema oficial de vacunación usa esta vacuna combinada para simplificar y asegurar la protección contra las tres."
+    },
+    {
+      "q": "Si ya tuve rubéola de niño, ¿necesito vacunarme?",
+      "a": "No. Haber padecido la enfermedad confiere inmunidad de por vida. Sin embargo, debe tener un diagnóstico médico confirmado, ya que muchas erupciones en la infancia se confunden con rubéola. En caso de duda, es seguro vacunarse."
+    },
+    {
+      "q": "Soy personal de salud, ¿necesito un examen de sangre para ver si soy inmune?",
+      "a": "Sí, es altamente recomendable. Todo el personal de salud debe tener documentada su inmunidad contra la rubéola (mediante cartilla de vacunación con dos dosis o un examen de sangre positivo para anticuerpos IgG). Si no es inmune, debe vacunarse para proteger a los pacientes vulnerables, especialmente a mujeres embarazadas."
+    }
+  ]
+}

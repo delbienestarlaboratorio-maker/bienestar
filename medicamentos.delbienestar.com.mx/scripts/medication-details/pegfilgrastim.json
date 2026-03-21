@@ -1,0 +1,375 @@
+{
+  "name": "Pegfilgrastim",
+  "summary": "El Pegfilgrastim es un medicamento inyectable que pertenece a la familia de los factores estimulantes de colonias de granulocitos (G-CSF). Su función principal es estimular la médula ósea para que produzca más glóbulos blancos, específicamente neutrófilos, que son células esenciales para combatir infecciones. Este medicamento es de vital importancia en pacientes que reciben quimioterapia para el cáncer, ya que este tratamiento suele destruir las células de la médula ósea, dejando al paciente vulnerable a infecciones graves. Al prevenir la neutropenia (bajos niveles de neutrófilos), el Pegfilgrastim reduce significativamente el riesgo de infecciones, hospitalizaciones y la necesidad de reducir la dosis de quimioterapia, permitiendo que los pacientes completen sus ciclos de tratamiento de manera más segura y efectiva. Es una herramienta clave en oncología para proteger al sistema inmunológico durante una terapia agresiva.",
+  "pharmacology": {
+    "mechanismOfAction": "El Pegfilgrastim es una proteína modificada (pegilada) que actúa como un factor estimulante de colonias de granulocitos (G-CSF). Se une de manera específica a los receptores de G-CSF que se encuentran en la superficie de las células progenitoras de la médula ósea y en los neutrófilos maduros. Esta unión activa una serie de señales dentro de la célula que promueven la proliferación, diferenciación y supervivencia de las células que se convertirán en neutrófilos. Además, moviliza a los neutrófilos maduros desde la médula ósea hacia el torrente sanguíneo. La pegilación (la unión de una cadena de polietilenglicol) es clave, ya que le confiere una vida media mucho más larga que el filgrastim no pegilado, permitiendo una sola inyección por ciclo de quimioterapia en lugar de inyecciones diarias.",
+    "pharmacologicClass": "Factor estimulante de colonias de granulocitos (G-CSF) pegilado, recombinante, humano.",
+    "therapeuticClass": "Antianémicos y Hematológicos - Agentes estimulantes de la médula ósea.",
+    "absorption": "Se administra por vía subcutánea. La absorción es lenta y sostenida desde el sitio de inyección hacia el torrente sanguíneo. La pegilación retrasa su absorción y eliminación.",
+    "distribution": "Se distribuye principalmente en el espacio vascular y en la médula ósea. Su unión a proteínas plasmáticas no está completamente definida, pero se considera baja. Su gran tamaño molecular y su pegilación limitan su distribución a otros tejidos.",
+    "metabolism": "El Pegfilgrastim es una proteína. Su metabolismo no involucra al sistema enzimático del citocromo P450 (CYP) del hígado. Se metaboliza principalmente por degradación proteolítica (ruptura de la proteína) en las células del sistema reticuloendotelial (como en el bazo, hígado y riñón) y, en menor grado, por los neutrófilos mismos.",
+    "elimination": "Tiene una vida media prolongada de aproximadamente 15 a 80 horas (de 2 a 3 días), gracias a la pegilación. Se elimina principalmente por dos vías: 1) Eliminación renal, pero de forma limitada debido a su gran tamaño. 2) Eliminación mediada por receptores, donde los neutrófilos maduros que han sido estimulados internalizan y degradan el medicamento. Esta última es la vía principal de eliminación.",
+    "onsetOfAction": "El aumento en el recuento de neutrófilos (neutrofilia) comienza a observarse aproximadamente 24 horas después de la administración.",
+    "durationOfAction": "El efecto de una sola dosis subcutánea dura lo suficiente para cubrir el período de riesgo de neutropenia después de la quimioterapia, generalmente entre 10 y 14 días, coincidiendo con el nadir (punto más bajo) de los neutrófilos."
+  },
+  "indications": {
+    "approved": [
+      "Reducción de la duración de la neutropenia febril en pacientes con cáncer no mieloide que reciben quimioterapia mielosupresora asociada a un riesgo significativo de neutropenia febril.",
+      "Movilización de células progenitoras hematopoyéticas (células madre) a la sangre periférica para su recolección mediante aféresis, en pacientes donantes o en los propios pacientes (autólogos)."
+    ],
+    "offLabel": [
+      "Tratamiento de la neutropenia congénita severa (como la neutropenia congénita de Kostmann).",
+      "Tratamiento de la neutropenia cíclica.",
+      "Tratamiento de la neutropenia idiopática crónica.",
+      "Como apoyo en algunos regímenes de quimioterapia de dosis intensiva."
+    ]
+  },
+  "dosage": {
+    "adults": "Para reducir la neutropenia febril post-quimioterapia: 6 mg administrados por vía subcutánea UNA SOLA VEZ por ciclo de quimioterapia. Debe administrarse al menos 24 horas después de finalizada la quimioterapia y no menos de 14 días antes de la siguiente dosis de quimioterapia. Para movilización de células progenitoras: 6 mg o 12 mg (según protocolo) administrados por vía subcutánea, generalmente como dosis única o en días consecutivos.",
+    "pediatric": "En pacientes pediátricos con cáncer (generalmente mayores de 45 kg), la dosis es de 100 mcg/kg de peso corporal (0.1 mg/kg) o una dosis fija de 6 mg, según criterio médico y protocolo. En pacientes con menor peso, se puede usar filgrastim (no pegilado) para un ajuste más fino.",
+    "elderly": "No se requiere ajuste de dosis basado únicamente en la edad. Sin embargo, se debe tener precaución debido a la mayor probabilidad de enfermedades concurrentes o disminución de la función renal.",
+    "renalImpairment": "No se requiere ajuste de dosis en pacientes con insuficiencia renal leve a moderada (TFG ≥ 30 mL/min). En insuficiencia renal severa (TFG < 30 mL/min) o en diálisis, se recomienda precaución, ya que la experiencia es limitada. Se puede considerar el uso, pero bajo estrecha monitorización.",
+    "hepaticImpairment": "No se han realizado estudios específicos. Dado que el metabolismo no es hepático, no se espera que la insuficiencia hepática afecte significativamente su farmacocinética. No se recomienda ajuste de dosis, pero se debe usar con precaución.",
+    "maxDose": "La dosis máxima recomendada es de 12 mg en una sola administración, utilizada principalmente en protocolos de movilización de células progenitoras."
+  },
+  "dosageForms": [
+    {
+      "form": "Jeringa precargada",
+      "strengths": [
+        "6 mg/0.6 mL"
+      ],
+      "route": "Subcutánea"
+    },
+    {
+      "form": "Pluma precargada (pen)",
+      "strengths": [
+        "6 mg/0.6 mL"
+      ],
+      "route": "Subcutánea"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida (alergia grave) al Pegfilgrastim, al Filgrastim o a cualquier componente de la formulación (como polisorbato).",
+      "Hipersensibilidad a proteínas derivadas de la bacteria E. coli."
+    ],
+    "relative": [
+      "Presencia simultánea de neutropenia febril e infección activa (el medicamento puede empeorar ciertas infecciones).",
+      "Enfermedad de células falciformes (riesgo de crisis vaso-oclusivas).",
+      "Historial de ruptura esplénica o síndrome de dificultad respiratoria aguda (SDRA) asociado a G-CSF.",
+      "Leucemia mieloide aguda o síndrome mielodisplásico (puede estimular el crecimiento de células leucémicas)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Dolor óseo (en huesos largos como fémur, pelvis, costillas).",
+      "Dolor en el sitio de inyección (enrojecimiento, hinchazón).",
+      "Dolor de cabeza (cefalea).",
+      "Fatiga o cansancio (astenia)."
+    ],
+    "common": [
+      "Náuseas leves.",
+      "Dolor muscular (mialgia).",
+      "Fiebre (pirexia).",
+      "Aumento de enzimas hepáticas (transaminasas) en análisis de sangre.",
+      "Dolor articular (artralgia)."
+    ],
+    "uncommon": [
+      "Reacción cutánea generalizada (rash).",
+      "Mareo (vértigo).",
+      "Insomnio.",
+      "Diarrea o estreñimiento.",
+      "Pérdida de apetito (anorexia).",
+      "Dificultad para respirar (disnea) leve."
+    ],
+    "rare": [
+      "Ruptura del bazo (generalmente asociada a dolor abdominal intenso en el lado izquierdo superior).",
+      "Síndrome de dificultad respiratoria aguda (SDRA).",
+      "Reacción alérgica severa (anafilaxia).",
+      "Vasculitis (inflamación de vasos sanguíneos).",
+      "Glomerulonefritis (daño renal).",
+      "Crisis vaso-oclusiva en pacientes con enfermedad de células falciformes.",
+      "Exacerbación de enfermedades autoinmunes (como artritis reumatoide, lupus).",
+      "Leucocitosis extrema (recuento de glóbulos blancos muy elevado)."
+    ],
+    "blackBoxWarning": "Ruptura esplénica: Se han reportado casos de ruptura del bazo, a veces fatal. Se debe instruir a los pacientes para que busquen atención médica inmediata si presentan dolor abdominal o en el hombro izquierdo. Síndrome de dificultad respiratoria aguda (SDRA): Puede ocurrir. Evaluar a pacientes que desarrollen fiebre, distress respiratorio o infiltrados pulmonares. Crisis vaso-oclusivas en pacientes con enfermedad de células falciformes: El uso de Pegfilgrastim en estos pacientes puede provocar crisis severas."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Litio",
+        "effect": "El litio también puede aumentar la producción de glóbulos blancos. El uso conjunto con Pegfilgrastim puede potenciar este efecto, llevando a una leucocitosis excesiva. Se recomienda monitorizar estrechamente el recuento leucocitario.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Quimioterapia citotóxica (como 5-Fluorouracilo, Ciclofosfamida, Doxorrubicina, etc.)",
+        "effect": "El Pegfilgrastim NO debe administrarse en los 24 horas anteriores a la quimioterapia ni durante los 14 días posteriores, ya que puede hacer que las células progenitoras de la médula ósea sean más sensibles a la quimioterapia, aumentando su toxicidad. La administración debe ser AL MENOS 24 horas después de finalizada la quimioterapia.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "No se conocen interacciones clínicamente relevantes con alimentos. El alcohol no interacciona directamente, pero su consumo puede empeorar la toxicidad hepática o la deshidratación en pacientes en quimioterapia, por lo que se recomienda evitarlo.",
+    "withSupplements": "Suplementos que estimulan el sistema inmunológico, como equinácea, astrágalo o altas dosis de vitaminas, podrían teóricamente potenciar el efecto del Pegfilgrastim o causar sobreestimulación. Se recomienda consultar con el médico o farmacéutico antes de tomar cualquier suplemento."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "C",
+      "recommendation": "No hay estudios adecuados y bien controlados en mujeres embarazadas. El Pegfilgrastim solo debe usarse durante el embarazo si el beneficio potencial para la madre justifica claramente el riesgo potencial para el feto. Se utiliza en casos de cáncer durante el embarazo cuando la quimioterapia es necesaria y el riesgo de neutropenia febril es alto.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "No se sabe si el Pegfilgrastim se excreta en la leche humana. Dado que muchas proteínas se excretan en la leche y por el potencial de efectos adversos graves en el lactante, se debe tomar la decisión de suspender la lactancia o suspender el medicamento, considerando la importancia del tratamiento para la madre.",
+    "pediatric": "Se puede usar en niños y adolescentes (generalmente >45 kg) para la indicación de reducir la neutropenia febril post-quimioterapia. La seguridad y eficacia en recién nacidos y lactantes no están establecidas. Se debe monitorizar el crecimiento óseo a largo plazo.",
+    "geriatric": "Los pacientes de edad avanzada (≥65 años) no requieren ajuste de dosis. Sin embargo, pueden ser más susceptibles a los efectos adversos como dolor óseo o complicaciones renales, por lo que se requiere una monitorización clínica más estrecha."
+  },
+  "administration": {
+    "howToTake": "El Pegfilgrastim se administra mediante una INYECCIÓN SUBCUTÁNEA. Generalmente lo aplica un profesional de la salud (enfermera o médico) en el hospital o clínica, pero en algunos casos, al paciente o un cuidador se le puede enseñar a auto-administrárselo en casa. El sitio de inyección recomendado es la parte superior del brazo, el muslo, el abdomen (excepto el área de 5 cm alrededor del ombligo) o los glúteos. Se debe rotar el sitio de inyección en cada aplicación. La jeringa o pluma precargada debe sacarse del refrigerador 30 minutos antes de su uso para que alcance temperatura ambiente y la inyección sea menos dolorosa. No agitar el producto. Después de usar, desechar la jeringa/pluma en un contenedor para objetos punzocortantes.",
+    "storage": "Conservar en refrigeración (entre 2°C y 8°C) en su empaque original para protegerlo de la luz. NO CONGELAR. Si se congela, debe desecharse. Una vez fuera del refrigerador, el producto es estable a temperatura ambiente (hasta 25°C) por un máximo de 72 horas (3 días). No exponer al calor o a la luz solar directa.",
+    "specialInstructions": "La administración debe ser EXACTAMENTE 24 horas o más después de haber terminado la infusión de quimioterapia. Nunca antes. No administrar en los 14 días previos a la siguiente dosis de quimioterapia. Si por error se administra demasiado pronto, se debe informar inmediatamente al oncólogo. El dolor óseo es un efecto común; se puede manejar con analgésicos comunes como paracetamol (acetaminofén) o antiinflamatorios no esteroideos (como ibuprofeno), previa autorización médica."
+  },
+  "monitoring": {
+    "labTests": [
+      "Recuento completo de sangre (CSC) con diferencial leucocitario: Para evaluar neutrófilos, glóbulos blancos totales y plaquetas.",
+      "Pruebas de función hepática (transaminasas AST, ALT, fosfatasa alcalina).",
+      "Pruebas de función renal (creatinina, nitrógeno ureico).",
+      "Velocidad de sedimentación globular (VSG) o Proteína C Reactiva (PCR) si se sospecha inflamación."
+    ],
+    "frequency": "Se debe realizar un CSC antes de iniciar cada ciclo de quimioterapia. Durante el tratamiento con Pegfilgrastim, el médico puede solicitar CSC periódicos (por ejemplo, una vez por semana) para monitorizar la respuesta (aumento de neutrófilos) y detectar leucocitosis extrema.",
+    "signsToWatch": [
+      "Fiebre mayor a 38°C.",
+      "Dolor abdominal intenso, especialmente en el lado superior izquierdo (posible problema en el bazo).",
+      "Dificultad para respirar repentina, tos o dolor torácico.",
+      "Dolor óseo severo que no cede con analgésicos comunes.",
+      "Signos de reacción alérgica: ronchas, hinchazón de cara/labios/lengua, dificultad para respirar, mareo intenso.",
+      "Hinchazón, enrojecimiento o dolor excesivo en el sitio de inyección que empeora."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Leucocitosis extrema (recuento de glóbulos blancos muy por encima de lo normal).",
+      "Dolor óseo y muscular severo.",
+      "Aumento de tamaño del bazo (esplenomegalia).",
+      "Posible exacerbación de efectos adversos respiratorios (disnea)."
+    ],
+    "treatment": "No existe un antídoto específico. El tratamiento es de soporte y sintomático. Se debe suspender inmediatamente el Pegfilgrastim. Monitorizar el recuento sanguíneo completo. Los síntomas como el dolor óseo se tratan con analgésicos. En casos de leucocitosis masiva, el médico puede considerar medidas para reducir los glóbulos blancos.",
+    "antidote": "No existe."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (receta retenida en farmacia hospitalaria o de especialidad).",
+    "scheduleMexico": "Medicamento de Prescripción (no está en la lista de psicotrópicos o estupefacientes). Su venta es exclusiva en farmacias hospitalarias o de especialidad oncológica.",
+    "fdaApprovalYear": "2002"
+  },
+  "brandsMexico": [
+    "Neulastim",
+    "Pelgraz",
+    "Pegfilgrastim Biosimilar (varios laboratorios genéricos)",
+    "Fulphila",
+    "Udenyca",
+    "Ziextenzo"
+  ],
+  "clinicalPearls": [
+    "Una sola dosis de Pegfilgrastim (6 mg) es tan efectiva como múltiples dosis diarias de Filgrastim para prevenir la neutropenia febril, mejorando la adherencia y calidad de vida del paciente.",
+    "El dolor óseo es el efecto adverso que más frecuentemente lleva a la interrupción o rechazo del tratamiento. Un manejo proactivo con analgésicos (iniciando incluso antes de que aparezca el dolor) mejora significativamente la tolerancia.",
+    "La pegilación no solo prolonga su efecto, sino que también puede reducir la inmunogenicidad (riesgo de que el cuerpo genere anticuerpos contra el medicamento) en comparación con algunas formulaciones de Filgrastim."
+  ],
+  "patientCounseling": "Este medicamento es su 'escudo' contra las infecciones mientras recibe la quimioterapia. Es crucial que reciba la inyección en el momento correcto: al menos un día completo DESPUÉS de que termine su sesión de quimioterapia, y nunca justo antes de la siguiente. El dolor en los huesos (como en la espalda, caderas o piernas) es muy común, pero no peligroso. Hable con su médico para que le recete un analgésico que pueda tomar si aparece este dolor. Esté muy atento a señales de alarma: si tiene fiebre alta (más de 38°C), dolor fuerte en la parte superior izquierda del abdomen o del hombro izquierdo, o si le falta el aire de repente, acuda a urgencias inmediatamente y comente que está usando Pegfilgrastim. Guarde el medicamento en el refrigerador, como los huevos o la leche, y no lo congele. Si se le enseña a aplicárselo en casa, practique con la enfermera hasta sentirse seguro y siempre deseche la jeringa usada en un contenedor especial para objetos punzantes.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre por neutropenia",
+        "slug": "fiebre-por-neutropenia"
+      },
+      {
+        "name": "Riesgo alto de infeccion",
+        "slug": "riesgo-alto-de-infeccion"
+      },
+      {
+        "name": "Cansancio extremo por quimioterapia",
+        "slug": "cansancio-extremo-por-quimioterapia"
+      },
+      {
+        "name": "Bajos niveles de globulos blancos",
+        "slug": "bajos-niveles-de-globulos-blancos"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Neutropenia febril",
+        "slug": "neutropenia-febril"
+      },
+      {
+        "name": "Cancer (como apoyo a la quimioterapia)",
+        "slug": "cancer"
+      },
+      {
+        "name": "Neutropenia congenita severa",
+        "slug": "neutropenia-congenita-severa"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Ruptura esplenica",
+        "slug": "ruptura-esplenica"
+      },
+      {
+        "name": "Sindrome de dificultad respiratoria aguda",
+        "slug": "sindrome-de-dificultad-respiratoria-aguda"
+      },
+      {
+        "name": "Crisis vaso-oclusiva en anemia falciforme",
+        "slug": "crisis-vaso-oclusiva"
+      },
+      {
+        "name": "Vasculitis",
+        "slug": "vasculitis"
+      },
+      {
+        "name": "Glomerulonefritis",
+        "slug": "glomerulonefritis"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Recuento de neutrofilos",
+        "slug": "recuento-de-neutrofilos",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Recuento de leucocitos",
+        "slug": "recuento-de-leucocitos",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Transaminasas (AST, ALT)",
+        "slug": "transaminasas",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Fosfatasa alcalina",
+        "slug": "fosfatasa-alcalina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Velocidad de sedimentacion globular",
+        "slug": "velocidad-de-sedimentacion-globular",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Acido urico",
+        "slug": "acido-urico",
+        "effect": "Puede elevar"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Biometria hematica completa",
+        "slug": "biometria-hematica-completa",
+        "reason": "Para monitorear el recuento de neutrofilos, leucocitos y plaquetas antes y durante el tratamiento."
+      },
+      {
+        "name": "Pruebas de funcion hepatica",
+        "slug": "pruebas-de-funcion-hepatica",
+        "reason": "Para detectar posibles elevaciones de enzimas hepaticas, un efecto adverso comun."
+      },
+      {
+        "name": "Quimica sanguinea (creatinina)",
+        "slug": "quimica-sanguinea",
+        "reason": "Para evaluar la funcion renal, especialmente en pacientes de edad avanzada o con problemas renales previos."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de dosis pediatrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de eGFR",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve exactamente el Pegfilgrastim?",
+      "a": "Sirve para ayudar a su cuerpo a producir más glóbulos blancos (especialmente neutrófilos) después de recibir quimioterapia para el cáncer. La quimioterapia mata células cancerosas, pero también afecta a la médula ósea donde se producen las defensas. El Pegfilgrastim 'despierta' a la médula para que fabrique defensas más rápido y así usted tenga menos riesgo de sufrir infecciones graves con fiebre."
+    },
+    {
+      "q": "¿Es una quimioterapia más?",
+      "a": "No, para nada. Es un medicamento de apoyo o 'protector'. No mata células cancerosas. Su única función es protegerlo de los efectos secundarios de la quimioterapia, específicamente de la baja de defensas."
+    },
+    {
+      "q": "¿Duele la inyección?",
+      "a": "Como cualquier inyección subcutánea (como la de insulina), puede causar una molestia leve, ardor o pinchazo al momento de aplicarla. Después, es común que el sitio de inyección se ponga un poco rojo, hinchado o que pique por uno o dos días. Aplicar frío local (una compresa fría) puede ayudar."
+    },
+    {
+      "q": "¿Por qué me duele tanto los huesos cuando me lo aplican?",
+      "a": "El dolor óseo es el efecto secundario más común. Ocurre porque la médula ósea, que está dentro de los huesos, está trabajando a toda velocidad para producir nuevas células de defensa. Este 'dolor de crecimiento' suele sentirse en la espalda baja, caderas, costillas y huesos largos de las piernas. Es una señal de que el medicamento está funcionando."
+    },
+    {
+      "q": "¿Qué puedo hacer para aliviar el dolor de huesos?",
+      "a": "Hable con su oncólogo. Generalmente recomiendan tomar analgésicos comunes como paracetamol (Tempra, Tylenol) o antiinflamatorios como ibuprofeno (Advil) o naproxeno, empezando incluso el mismo día de la inyección para prevenir el dolor. Aplicar calor local (como una bolsa de agua caliente) en la zona dolorida también puede aliviar. Nunca se automedique sin consultar."
+    },
+    {
+      "q": "¿Cuánto tiempo después de la quimio me lo ponen?",
+      "a": "ES MUY IMPORTANTE: Se debe aplicar exactamente 24 horas o más después de que termine la infusión de su quimioterapia. Nunca el mismo día, ni al día siguiente antes de cumplirse las 24 horas. Aplicarlo antes puede ser peligroso."
+    },
+    {
+      "q": "¿Me lo puedo aplicar yo mismo en casa?",
+      "a": "Sí, es posible. Su médico o enfermera deben capacitarlo exhaustivamente sobre cómo preparar y aplicar la inyección subcutánea de manera segura, cómo rotar los sitios de aplicación y cómo desechar la jeringa usada. Si no se siente seguro, es mejor que lo aplique un profesional."
+    },
+    {
+      "q": "¿Cómo debo guardar el medicamento?",
+      "a": "Debe guardarse en el REFRIGERADOR (entre 2°C y 8°C), en su caja original para protegerlo de la luz. No lo ponga en el congelador. Si se congela, ya no sirve. Puede sacarlo del refrigerador hasta 3 días antes de usarlo, pero no lo exponga al calor o al sol."
+    },
+    {
+      "q": "¿Qué pasa si me pongo la inyección por error un día antes de la quimioterapia?",
+      "a": "ES UNA SITUACIÓN GRAVE. Debe comunicarse INMEDIATAMENTE con su oncólogo o acudir al hospital. Administrarlo antes de la quimio puede hacer que la médula ósea sea más sensible a los efectos tóxicos del tratamiento, aumentando el riesgo de complicaciones severas."
+    },
+    {
+      "q": "¿Cuáles son los efectos secundarios más graves a los que debo estar alerta?",
+      "a": "Busque atención médica URGENTE si presenta: 1) Dolor abdominal intenso, especialmente en la parte superior izquierda (podría ser el bazo). 2) Fiebre alta (más de 38°C). 3) Dificultad para respirar repentina o dolor en el pecho. 4) Hinchazón de cara, labios o lengua, o dificultad para tragar (signos de alergia)."
+    },
+    {
+      "q": "¿Puedo tomar alcohol mientras uso este medicamento?",
+      "a": "No se recomienda. El alcohol no interacciona directamente con el Pegfilgrastim, pero durante la quimioterapia su hígado puede estar trabajando más y el alcohol lo puede dañar. Además, el alcohol puede deshidratarlo y empeorar su estado general. Es mejor evitarlo por completo durante el tratamiento."
+    },
+    {
+      "q": "¿El Pegfilgrastim me puede causar cáncer?",
+      "a": "No. El Pegfilgrastim no es un medicamento que cause cáncer. De hecho, se usa para permitir que los pacientes con cáncer reciban su quimioterapia de manera más segura. En casos muy raros y específicos (como en pacientes con síndrome mielodisplásico o leucemia mieloide aguda), podría estimular el crecimiento de células anormales preexistentes, por lo que no se usa en esas enfermedades."
+    },
+    {
+      "q": "¿Es lo mismo Neulastim que Pegfilgrastim?",
+      "a": "Sí. Neulastim es una de las marcas comerciales bajo las cuales se vende el principio activo Pegfilgrastim en México. Otras marcas son Pelgraz, Fulphila, etc. Todas contienen la misma molécula (Pegfilgrastim) y tienen la misma indicación, aunque pueden variar ligeramente en el dispositivo de aplicación (jeringa o pluma)."
+    },
+    {
+      "q": "¿Qué diferencia hay entre Pegfilgrastim y Filgrastim?",
+      "a": "Ambos estimulan la producción de glóbulos blancos. La gran diferencia es que el Pegfilgrastim tiene una molécula de polietilenglicol pegada (está 'pegylado'), lo que hace que dure mucho más en el cuerpo. Por eso, con Pegfilgrastim se necesita UNA SOLA inyección por ciclo de quimio, mientras que con Filgrastim se necesitan inyecciones DIARIAS durante varios días seguidos."
+    },
+    {
+      "q": "¿Puedo recibir la vacuna de la influenza o COVID si estoy usando Pegfilgrastim?",
+      "a": "Consulte siempre con su oncólogo. Generalmente, se recomienda que los pacientes en quimioterapia reciban vacunas inactivadas (como la de la influenza inyectable o las de COVID), pero el momento ideal para aplicarlas es importante. No se deben aplicar vacunas con virus vivos atenuados (como la de influenza nasal, varicela, sarampión) porque su sistema inmunológico puede estar débil."
+    },
+    {
+      "q": "¿El medicamento me hará subir de peso?",
+      "a": "No, el Pegfilgrastim no está asociado con aumento de peso. Los cambios de peso durante el tratamiento oncológico suelen deberse a otros factores como la quimioterapia, los esteroides (cortisona) que a veces se usan, la retención de líquidos, o cambios en el apetito."
+    },
+    {
+      "q": "¿Puedo hacer ejercicio después de recibir la inyección?",
+      "a": "Sí, puede realizar sus actividades habituales, pero escuche a su cuerpo. Si el dolor óseo o la fatiga son intensos, descanse. Evite ejercicios de alto impacto o de contacto que puedan causar traumatismos en el abdomen (por el riesgo, aunque bajo, de afectar el bazo). Caminar o hacer ejercicios suaves suele ser beneficioso."
+    },
+    {
+      "q": "¿Qué pasa si olvido aplicarme la inyección el día que me la programaron?",
+      "a": "Aplíquesela tan pronto como lo recuerde, siempre y cuando hayan pasado al menos 24 horas desde su última quimioterapia. Luego, continúe con su esquema normal. Sin embargo, si está muy cerca del día de su próxima quimioterapia (menos de 14 días), NO se la aplique y consulte a su médico. Nunca se aplique una dosis doble para compensar la olvidada."
+    },
+    {
+      "q": "¿Por qué el médico me pide tantos análisis de sangre mientras uso este medicamento?",
+      "a": "Para asegurarse de que el medicamento está funcionando (suben sus neutrófilos) y para vigilar que no cause efectos no deseados, como un aumento excesivo de glóbulos blancos (leucocitosis) o afecte su hígado. Es una herramienta de seguridad fundamental."
+    },
+    {
+      "q": "En un paciente con enfermedad renal crónica, ¿cómo se ajusta la dosis de Pegfilgrastim y qué parámetros se deben monitorizar más allá del recuento de neutrófilos?",
+      "a": "En insuficiencia renal leve a moderada (TFG ≥30 mL/min), no se requiere ajuste de dosis. En enfermedad renal severa (TFG <30 mL/min) o diálisis, se debe usar con precaución y bajo estrecha vigilancia, ya que la experiencia es limitada y la eliminación renal, aunque menor, podría estar alterada. La dosis suele mantenerse en 6 mg. La monitorización debe incluir, además del CSC frecuente, pruebas de función renal (creatinina, BUN) para detectar cualquier deterioro, y estar atento a signos de sobrecarga de volumen o toxicidad por acumulación, aunque este riesgo es bajo debido a su vía de eliminación principal (receptores en neutrófilos). También se debe vigilar la aparición de proteinuria o hematuria, por el riesgo poco frecuente de glomerulonefritis."
+    }
+  ]
+}

@@ -1,0 +1,429 @@
+{
+  "name": "Ceftazidima",
+  "summary": "La ceftazidima es un antibiótico potente de la familia de las cefalosporinas de tercera generación, utilizado principalmente para combatir infecciones graves causadas por bacterias. Es especialmente valioso en el tratamiento de infecciones por Pseudomonas aeruginosa, una bacteria difícil de erradicar que comúnmente afecta a pacientes hospitalizados, con sistemas inmunológicos debilitados o con enfermedades pulmonares crónicas como la fibrosis quística. Su importancia clínica radica en su amplio espectro de acción contra bacterias Gram-negativas y su estabilidad frente a muchas enzimas (beta-lactamasas) que otros antibióticos no pueden resistir. Se administra casi exclusivamente por vía intravenosa o intramuscular en un entorno hospitalario o bajo supervisión médica estrecha, ya que está reservado para infecciones complejas como neumonía nosocomial, infecciones del torrente sanguíneo (sepsis), meningitis, y complicaciones en pacientes con quemaduras o con catéteres. Su uso correcto es crucial para evitar el desarrollo de resistencia bacteriana, un problema de salud pública creciente.",
+  "pharmacology": {
+    "mechanismOfAction": "La ceftazidima ejerce su efecto bactericida (mata bacterias) al interferir con la síntesis de la pared celular bacteriana. Pertenece a la clase de los antibióticos beta-lactámicos, que incluyen a las penicilinas y cefalosporinas. Su estructura química contiene un anillo beta-lactámico que se une irreversiblemente a unas proteínas esenciales llamadas Proteínas Fijadoras de Penicilina (PBP), localizadas en la membrana interna de la bacteria. Estas PBP son enzimas responsables de la construcción y reparación de la pared celular de peptidoglicano. Al unirse la ceftazidima a estas proteínas, bloquea su actividad, impidiendo que la bacteria forme una pared celular fuerte y rígida. Como resultado, la bacteria no puede mantener su integridad estructural, especialmente durante el proceso de multiplicación, lo que lleva a su lisis (ruptura) y muerte. Es particularmente efectiva porque es resistente a la hidrólisis por muchas beta-lactamasas, enzimas producidas por bacterias para destruir antibióticos.",
+    "pharmacologicClass": "Antibiótico beta-lactámico, Cefalosporina de tercera generación (con actividad antipseudomonal).",
+    "therapeuticClass": "Antibiótico sistémico.",
+    "absorption": "La ceftazidima no se absorbe por vía oral. Debe administrarse por vía parenteral (intravenosa -IV- o intramuscular -IM-). Tras una infusión intravenosa, las concentraciones plasmáticas máximas se alcanzan inmediatamente al final de la infusión. La biodisponibilidad por vía intramuscular es excelente, cercana al 100%.",
+    "distribution": "Se distribuye ampliamente en la mayoría de los fluidos y tejidos corporales, incluyendo hueso, bilis, líquido pleural, peritoneal y sinovial. Atraviesa la barrera hematoencefálica inflamada, alcanzando concentraciones terapéuticas en el líquido cefalorraquídeo, lo que la hace útil en meningitis. Su unión a proteínas plasmáticas es baja, aproximadamente del 10-17%, lo que significa que una gran fracción del fármaco está libre y disponible para ejercer su efecto antibacteriano. Su volumen de distribución es de aproximadamente 0.25-0.3 L/kg, similar al volumen del agua extracelular.",
+    "metabolism": "La ceftazidima no sufre metabolismo hepático significativo. No es sustrato del sistema de enzimas citocromo P450 (CYP). Se elimina mayoritariamente sin cambios. Esto reduce el riesgo de interacciones farmacológicas mediadas por el hígado.",
+    "elimination": "Se elimina principalmente por excreción renal, a través de la filtración glomerular. Más del 80-90% de la dosis se recupera sin cambios en la orina en las primeras 24 horas. Su vida media de eliminación en adultos con función renal normal es de aproximadamente 1.5 a 2 horas. En pacientes con insuficiencia renal grave, esta vida media puede prolongarse significativamente (hasta 15-25 horas), requiriendo ajustes de dosis.",
+    "onsetOfAction": "El inicio de acción es rápido. Las concentraciones bactericidas en sangre se alcanzan minutos después del inicio de una infusión intravenosa.",
+    "durationOfAction": "Su efecto es dependiente del tiempo; es decir, para ser efectivo, necesita mantener concentraciones en sangre por encima de la Concentración Mínima Inhibitoria (CMI) de la bacteria durante un porcentaje significativo del intervalo entre dosis. Por ello, se administra usualmente cada 8 horas (tres veces al día), aunque en infecciones graves o con ciertas bacterias puede usarse en infusión continua o cada 6 horas."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones del tracto respiratorio inferior (neumonía nosocomial y comunitaria grave, especialmente por Pseudomonas aeruginosa)",
+      "Infecciones de la piel y estructuras de la piel (incluyendo quemaduras infectadas)",
+      "Infecciones del tracto urinario complicadas (pielonefritis, infecciones asociadas a catéteres)",
+      "Infecciones intraabdominales (peritonitis, colecistitis)",
+      "Infecciones óseas y articulares (osteomielitis, artritis séptica)",
+      "Sepsis bacteriana (infección del torrente sanguíneo)",
+      "Meningitis bacteriana (especialmente por bacilos Gram-negativos)",
+      "Infecciones en pacientes neutropénicos (con defensas bajas) con fiebre",
+      "Profilaxis de infecciones en cirugía colorrectal (uso perioperatorio)"
+    ],
+    "offLabel": [
+      "Tratamiento de exacerbaciones infecciosas en pacientes con fibrosis quística (a menudo en combinación con un aminoglucósido)",
+      "Tratamiento empírico de infecciones asociadas a dispositivos médicos (catéteres vasculares, válvulas cardíacas) mientras se esperan cultivos",
+      "Como parte de regímenes combinados para infecciones por bacterias multirresistentes (ej., Acinetobacter baumannii, en combinación)"
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis habitual para infecciones moderadas a graves es de 1 a 2 gramos, administrados por vía intravenosa o intramuscular, cada 8 horas. Para infecciones que amenazan la vida (como meningitis, sepsis por Pseudomonas), la dosis puede aumentarse a 2 gramos cada 8 horas. En pacientes con fibrosis quística y infecciones pulmonares, a menudo se requieren dosis más altas, como 2 gramos cada 6-8 horas, debido a un aclaramiento más rápido del fármaco.",
+    "pediatric": "Recién nacidos (0-4 semanas): 30 mg/kg cada 12 horas. Lactantes y niños (1 mes a 12 años): 30 a 50 mg/kg cada 8 horas, sin exceder 6 gramos al día. Para meningitis en niños: 50 mg/kg cada 8 horas (máximo 6 g/día). La dosis debe calcularse siempre en base al peso corporal del niño.",
+    "elderly": "Los pacientes de edad avanzada pueden tener una función renal disminuida. La dosis debe ajustarse según la Tasa de Filtración Glomerular (TFG) estimada, no solo por la edad. Se recomienda iniciar con dosis estándar y ajustar según resultados de creatinina sérica y TFG.",
+    "renalImpairment": "Ajustes basados en TFG (ml/min): TFG 31-50: 1 g cada 12 horas. TFG 16-30: 1 g cada 24 horas. TFG 6-15: 500 mg cada 24 horas. TFG <5 (o en diálisis): 500 mg cada 48 horas. Administrar dosis de mantenimiento después de una sesión de hemodiálisis. Es crucial monitorear niveles si es posible.",
+    "hepaticImpairment": "No se requieren ajustes de dosis específicos para insuficiencia hepática, ya que la ceftazidima no se metaboliza en el hígado. Sin embargo, en casos de insuficiencia hepática y renal combinadas, se debe priorizar el ajuste por función renal.",
+    "maxDose": "La dosis máxima diaria en adultos es generalmente de 6 gramos (ej., 2 g cada 8 horas). En situaciones excepcionales de infecciones muy graves, bajo supervisión médica estrecha y monitoreo, se han utilizado hasta 9 gramos al día."
+  },
+  "dosageForms": [
+    {
+      "form": "Polvo liofilizado para solución inyectable",
+      "strengths": [
+        "500 mg",
+        "1 g",
+        "2 g"
+      ],
+      "route": "Intravenosa, Intramuscular"
+    },
+    {
+      "form": "Polvo para solución para infusión (en bolsa)",
+      "strengths": [
+        "1 g",
+        "2 g"
+      ],
+      "route": "Intravenosa"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad (alergia) conocida y grave a la ceftazidima o a cualquier cefalosporina.",
+      "Antecedente de reacción anafiláctica (alergia grave con dificultad para respirar) a cualquier antibiótico beta-lactámico (penicilinas, cefalosporinas, carbapenémicos, monobactámicos)."
+    ],
+    "relative": [
+      "Hipersensibilidad leve a penicilinas (como rash cutáneo) - requiere evaluación cuidadosa y posible prueba de sensibilidad.",
+      "Insuficiencia renal grave sin ajuste de dosis.",
+      "Antecedentes de colitis pseudomembranosa asociada a antibióticos."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Dolor, inflamación o flebitis (irritación de la vena) en el sitio de inyección intravenosa.",
+      "Erupción cutánea (rash).",
+      "Aumento de enzimas hepáticas transaminasas (AST, ALT) en análisis de sangre."
+    ],
+    "common": [
+      "Diarrea (puede ser por alteración de la flora intestinal o por colitis).",
+      "Náuseas y vómitos.",
+      "Prurito (comezón).",
+      "Fiebre.",
+      "Candidiasis (infección por hongos) oral o vaginal."
+    ],
+    "uncommon": [
+      "Colitis pseudomembranosa (diarrea grave por Clostridioides difficile).",
+      "Mareo o dolor de cabeza.",
+      "Eosinofilia (aumento de un tipo de glóbulos blancos en sangre).",
+      "Leucopenia (disminución de glóbulos blancos).",
+      "Trombocitopenia (disminución de plaquetas).",
+      "Prueba de Coombs positiva (sin anemia hemolítica clínica)."
+    ],
+    "rare": [
+      "Anafilaxia (reacción alérgica grave).",
+      "Nefritis intersticial (daño renal).",
+      "Convulsiones (especialmente con dosis altas en insuficiencia renal).",
+      "Hepatitis colestásica (ictericia).",
+      "Anemia hemolítica.",
+      "Alteraciones en la coagulación (hipoprotrombinemia) con riesgo de sangrado, especialmente en pacientes desnutridos o con disfunción renal."
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Aminoglucósidos (Ej. Gentamicina, Amikacina)",
+        "effect": "Sinergia antibacteriana contra Pseudomonas, pero aumento del riesgo de daño renal (nefrotoxicidad) y posible daño al oído (ototoxicidad). Se debe monitorear función renal y audición.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Diuréticos de asa potentes (Ej. Furosemida)",
+        "effect": "Pueden aumentar el riesgo de daño renal (nefrotoxicidad) cuando se usan con ceftazidima, especialmente a dosis altas o en pacientes deshidratados.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Probenecid",
+        "effect": "Bloquea la excreción tubular renal de la ceftazidima, aumentando y prolongando sus niveles en sangre. Puede usarse intencionalmente para este fin, pero requiere ajuste de dosis y monitoreo.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Anticoagulantes orales (Warfarina)",
+        "effect": "La ceftazidima puede alterar la flora intestinal que produce vitamina K y potencialmente afectar la síntesis de factores de coagulación, potenciando el efecto anticoagulante y aumentando el riesgo de sangrado. Se debe monitorear el INR estrechamente.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "No aplica, ya que se administra por vía parenteral. No hay interacción con alimentos. El consumo de alcohol durante el tratamiento no está contraindicado de forma directa, pero puede empeorar algunos efectos secundarios como náuseas o mareo, y no es recomendable durante una enfermedad grave.",
+    "withSupplements": "Suplementos que contienen calcio (inyectables): No mezclar en la misma línea intravenosa o jeringa, ya que puede formar precipitados. Administrar por vías separadas. Suplementos multivitamínicos: No hay interacciones clínicamente significativas reportadas."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "B",
+      "recommendation": "Estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. Debe usarse durante el embarazo solo si claramente es necesario, cuando el beneficio para la madre justifica el riesgo potencial para el feto. Atraviesa la placenta. Se prefiere en ciertas infecciones graves durante el embarazo cuando se requiere cobertura antipseudomonal.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La ceftazidima se excreta en la leche materna en concentraciones bajas. Se considera generalmente compatible con la lactancia, ya que es poco absorbida por el tracto gastrointestinal del lactante y es improbable que cause efectos adversos significativos. Sin embargo, se debe observar al bebé por posibles efectos como diarrea o candidiasis (algodoncillo).",
+    "pediatric": "Es seguro y efectivo en niños para las indicaciones aprobadas. Las dosis se calculan por peso corporal. En recién nacidos, especialmente prematuros, la función renal es inmadura, por lo que se requieren intervalos de dosificación más largos (cada 12 horas).",
+    "geriatric": "Los pacientes mayores tienen mayor probabilidad de tener función renal disminuida, lo que requiere ajustes de dosis. También pueden ser más susceptibles a los efectos adversos relacionados con la dosis, como convulsiones o alteraciones en la coagulación. Se debe evaluar la función renal antes de iniciar el tratamiento y monitorearla durante el mismo."
+  },
+  "administration": {
+    "howToTake": "La ceftazidima se administra por un profesional de la salud. Vía Intravenosa (IV): El polvo se reconstituye con agua para inyección y luego se diluye en un volumen mayor de solución (ej., 50-100 ml de solución salina al 0.9% o dextrosa al 5%). Se infunde lentamente durante 15 a 30 minutos. También puede administrarse en infusión continua. Vía Intramuscular (IM): Se reconstituye con agua para inyección o lidocaína al 1% (sin epinefrina) para reducir el dolor. Se inyecta profundamente en un músculo grande (glúteo o muslo). Nunca se administra por vía oral.",
+    "storage": "El polvo liofilizado para inyección debe almacenarse a temperatura ambiente (15-30°C), protegido de la luz y la humedad. Una vez reconstituido, la solución es estable a temperatura ambiente por 24 horas, y refrigerada (2-8°C) por 7 días, dependiendo del diluyente. Las soluciones para infusión listas para usar deben usarse inmediatamente. Consultar el instructivo de cada marca.",
+    "specialInstructions": "Antes de administrar, se debe interrogar sobre alergias a penicilinas o cefalosporinas. Se recomienda realizar una prueba cutánea en caso de duda sobre alergia. No mezclar con soluciones que contengan bicarbonato de sodio. En pacientes con insuficiencia renal, seguir estrictamente los ajustes de dosis. Completar todo el curso de tratamiento prescrito, incluso si el paciente se siente mejor, para evitar recaídas y resistencia."
+  },
+  "monitoring": {
+    "labTests": [
+      "Conteo sanguíneo completo (CSC) con diferencial (para leucopenia, eosinofilia)",
+      "Pruebas de función renal (creatinina sérica, BUN, TFG estimada)",
+      "Pruebas de función hepática (AST, ALT, fosfatasa alcalina, bilirrubina)",
+      "Tiempo de protrombina (TP) o INR en pacientes con riesgo de sangrado o en terapia anticoagulante",
+      "Cultivos bacterianos y pruebas de sensibilidad (antibiograma) para guiar la terapia",
+      "Niveles séricos de ceftazidima (en pacientes con insuficiencia renal grave o en regímenes de dosis muy altas)"
+    ],
+    "frequency": "Evaluación clínica diaria. Monitoreo de laboratorio: CSC y función renal 2-3 veces por semana durante terapia prolongada (>7 días) o en pacientes con riesgo. Función hepática al inicio y semanalmente si la terapia es larga. TP/INR según necesidad clínica.",
+    "signsToWatch": [
+      "Signos de reacción alérgica: dificultad para respirar, hinchazón de cara/lengua, urticaria intensa.",
+      "Diarrea acuosa o con sangre, dolor abdominal fuerte (posible colitis por C. difficile).",
+      "Sangrado o moretones inusuales.",
+      "Convulsiones o cambios en el estado mental.",
+      "Fiebre persistente o que reaparece.",
+      "Dolor o hinchazón severa en el sitio de inyección IV.",
+      "Ictericia (coloración amarilla de piel u ojos)."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Convulsiones (especialmente en pacientes con insuficiencia renal)",
+      "Encefalopatía (confusión, somnolencia)",
+      "Temblores",
+      "Parestesias (hormigueo)",
+      "Arritmias cardíacas (por el sodio contenido en la sal de ceftazidima, en grandes volúmenes)"
+    ],
+    "treatment": "El tratamiento es de soporte. No hay antídoto específico. En caso de convulsiones, se pueden administrar benzodiacepinas (diazepam). La hemodiálisis es muy efectiva para eliminar la ceftazidima del torrente sanguíneo (elimina aproximadamente el 50% de la dosis en 4 horas) y está indicada en casos graves de sobredosis, especialmente con insuficiencia renal.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (receta archivada en México para antibióticos inyectables).",
+    "scheduleMexico": "Medicamento de prescripción restringida, sujeto a control sanitario. Pertenece a la Fracción IV del artículo 226 de la Ley General de Salud.",
+    "fdaApprovalYear": "Aprobado por la FDA de Estados Unidos en 1985."
+  },
+  "brandsMexico": [
+    "Fortaz",
+    "Tazicef",
+    "Tazidime",
+    "Ceftaz",
+    "Zidime",
+    "Ceftazidima Pisa",
+    "Ceftazidima Genfar",
+    "Ceftazidima Liomont",
+    "Ceftazidima MK",
+    "Ceftazidima Richmond",
+    "Ceftazidima Steri-Pharma",
+    "Ceftazidima Valdecasas",
+    "Cefimex",
+    "Zefazid"
+  ],
+  "clinicalPearls": [
+    "Es la cefalosporina de tercera generación con mayor actividad contra Pseudomonas aeruginosa. A menudo se usa en combinación con un aminoglucósido (ej., amikacina) para sinergia y prevenir el desarrollo de resistencia.",
+    "La resistencia a ceftazidima en Pseudomonas y otras bacterias puede desarrollarse rápidamente durante el tratamiento monoterapia, por lo que en infecciones graves suele combinarse con otro antibiótico de una clase diferente.",
+    "En pacientes con fibrosis quística, el volumen de distribución y el aclaramiento de ceftazidima están aumentados, frecuentemente requiriendo dosis más altas (hasta 200 mg/kg/día) para alcanzar concentraciones terapéuticas.",
+    "Puede causar falsos positivos en la prueba de glucosa en orina con métodos que usan cobre reductores (Clinitest). Usar tiras reactivas con glucosa oxidasa (Dextrostix) para un resultado preciso.",
+    "La formulación con arginina (en algunas marcas) es más soluble y causa menos dolor en la inyección intramuscular comparada con la formulación con carbonato de sodio."
+  ],
+  "patientCounseling": "La ceftazidima es un antibiótico fuerte que se administra en el hospital o en casa por una enfermera, a través de una vena (suero) o inyección en el músculo. Es muy importante que complete TODO el tratamiento, aunque se sienta mejor en unos días. Si deja de tomarlo pronto, la infección puede regresar y las bacterias volverse resistentes. Informe de inmediato a su médico o enfermera si presenta sarpullido, dificultad para respirar, diarrea líquida o con sangre, moretones fáciles o sangrado inusual. Este medicamento puede aumentar el riesgo de infecciones por hongos (como algodoncillo en la boca). Mantenga una buena higiene bucal. Si está en casa con tratamiento intravenoso, aprenda a reconocer signos de infección en el sitio del catéter (enrojecimiento, dolor, secreción). No modifique ni suspenda las dosis por su cuenta. Asista a todas sus citas de seguimiento y análisis de sangre.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre",
+        "slug": "fiebre"
+      },
+      {
+        "name": "Dificultad para respirar",
+        "slug": "disnea"
+      },
+      {
+        "name": "Tos con flemas purulentas",
+        "slug": "tos-productiva"
+      },
+      {
+        "name": "Dolor al orinar",
+        "slug": "disuria"
+      },
+      {
+        "name": "Dolor abdominal intenso",
+        "slug": "dolor-abdominal-agudo"
+      },
+      {
+        "name": "Confusión o somnolencia",
+        "slug": "alteracion-del-estado-mental"
+      },
+      {
+        "name": "Enrojecimiento y calor en una herida",
+        "slug": "celulitis"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Neumonía",
+        "slug": "neumonia"
+      },
+      {
+        "name": "Sepsis",
+        "slug": "sepsis"
+      },
+      {
+        "name": "Meningitis bacteriana",
+        "slug": "meningitis-bacteriana"
+      },
+      {
+        "name": "Infección del tracto urinario complicada",
+        "slug": "infeccion-tracto-urinario-complicada"
+      },
+      {
+        "name": "Osteomielitis",
+        "slug": "osteomielitis"
+      },
+      {
+        "name": "Fibrosis quística con exacerbación infecciosa",
+        "slug": "fibrosis-quistica"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Insuficiencia renal aguda",
+        "slug": "insuficiencia-renal-aguda"
+      },
+      {
+        "name": "Colitis pseudomembranosa",
+        "slug": "colitis-pseudomembranosa"
+      },
+      {
+        "name": "Hepatitis colestásica",
+        "slug": "hepatitis-colestasica"
+      },
+      {
+        "name": "Anemia hemolítica",
+        "slug": "anemia-hemolitica"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar (por nefrotoxicidad)"
+      },
+      {
+        "name": "Transaminasas (AST/ALT)",
+        "slug": "transaminasas",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Eosinófilos",
+        "slug": "eosinofilos",
+        "effect": "Puede elevar (reacción alérgica)"
+      },
+      {
+        "name": "Leucocitos",
+        "slug": "leucocitos",
+        "effect": "Puede disminuir (leucopenia)"
+      },
+      {
+        "name": "Plaquetas",
+        "slug": "plaquetas",
+        "effect": "Puede disminuir (trombocitopenia)"
+      },
+      {
+        "name": "Tiempo de protrombina (TP)",
+        "slug": "tiempo-de-protrombina",
+        "effect": "Puede prolongar (riesgo de sangrado)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Cultivo y antibiograma",
+        "slug": "cultivo-antibiograma",
+        "reason": "Identificar bacteria causante y su sensibilidad al antibiótico"
+      },
+      {
+        "name": "Creatinina sérica y TFG",
+        "slug": "creatinina-tfg",
+        "reason": "Ajustar dosis según función renal"
+      },
+      {
+        "name": "Conteo sanguíneo completo",
+        "slug": "conteo-sanguineo-completo",
+        "reason": "Monitorear efectos en células sanguíneas"
+      },
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-funcion-hepatica",
+        "reason": "Detectar posible hepatotoxicidad"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La ceftazidima es una penicilina?",
+      "a": "No, no es una penicilina, pero es 'prima' de ellas. Ambas pertenecen a la gran familia de los antibióticos beta-lactámicos. Si es alérgico a la penicilina, puede tener un riesgo aumentado (pero no seguro) de ser alérgico a la ceftazidima. Su médico debe evaluar esto cuidadosamente."
+    },
+    {
+      "q": "¿Me la puedo tomar en casa en pastillas?",
+      "a": "No. La ceftazidima no viene en pastillas. Solo existe en forma inyectable (para suero en la vena o inyección en el músculo). Su uso es para infecciones graves que generalmente requieren atención hospitalaria o domiciliaria con supervisión de un profesional."
+    },
+    {
+      "q": "¿Cuánto tiempo dura el tratamiento?",
+      "a": "La duración depende de la infección. Puede ser desde 7 días para una infección urinaria complicada, hasta 4-6 semanas o más para una infección en los huesos (osteomielitis). Su médico determinará el tiempo exacto basado en su respuesta."
+    },
+    {
+      "q": "¿Puedo tomar alcohol mientras me ponen este suero?",
+      "a": "No se recomienda. Aunque no hay una interacción química directa grave, el alcohol puede debilitar su sistema inmune y hacer más lenta la recuperación. Además, puede empeorar efectos secundarios como náuseas o mareos."
+    },
+    {
+      "q": "¿Duele la inyección?",
+      "a": "La inyección intravenosa (suero) puede causar dolor o irritación en la vena. La inyección intramuscular duele más. Para reducir el dolor, a veces se mezcla el polvo con un anestésico local (como lidocaína) antes de ponerla en el músculo."
+    },
+    {
+      "q": "¿Qué hago si me da diarrea?",
+      "a": "Informe a su médico o enfermera de inmediato. La diarrea es común, pero si es muy líquida, abundante o con sangre, puede ser una infección grave llamada colitis por C. difficile, que requiere tratamiento específico. No tome antidiarreicos como loperamida sin consultar."
+    },
+    {
+      "q": "¿Este antibiótico afecta los métodos anticonceptivos?",
+      "a": "A diferencia de algunos antibióticos, la ceftazidima NO reduce la efectividad de las pastillas anticonceptivas hormonales. No hay evidencia de interacción. Puede continuar con su método anticonceptivo habitual con confianza."
+    },
+    {
+      "q": "¿Me puede dar alergia?",
+      "a": "Sí, como cualquier medicamento. Los signos de alergia pueden ser sarpullido, comezón, ronchas, hinchazón de cara/labios, o en casos graves dificultad para respirar. Si presenta alguno, avise al personal médico de inmediato."
+    },
+    {
+      "q": "¿Por qué me hacen tantos análisis de sangre?",
+      "a": "Para asegurar que el medicamento esté funcionando y no esté causando daño. Revisan los riñones (porque el medicamento se elimina por ahí), el hígado, y las células de la sangre (glóbulos blancos, plaquetas). Es una parte normal del monitoreo de un antibiótico fuerte."
+    },
+    {
+      "q": "¿Puedo recibir la vacuna contra la influenza o COVID-19 durante el tratamiento?",
+      "a": "Sí, no hay problema. Los antibióticos no interfieren con la efectividad de las vacunas. Puede y debe ponerse sus vacunas según el esquema, a menos que su médico indique lo contrario por otra razón."
+    },
+    {
+      "q": "¿La ceftazidima baja las defensas?",
+      "a": "No, la ceftazidima no baja las defensas. Al contrario, ayuda a sus defensas a combatir la infección matando bacterias. Sin embargo, al alterar la flora normal del cuerpo, puede permitir que otros gérmenes (como hongos) crezcan, lo que parece una baja de defensas."
+    },
+    {
+      "q": "¿Es normal que la orina cambie de color o olor?",
+      "a": "No, la ceftazidima no suele cambiar el color u olor de la orina. Si nota cambios (orina muy oscura, rojiza, o con olor fétido), informe a su médico, ya que podría indicar otro problema."
+    },
+    {
+      "q": "Si tengo diabetes, ¿afecta mis niveles de azúcar?",
+      "a": "La ceftazidima por sí sola no afecta directamente los niveles de glucosa en sangre. Sin embargo, la infección grave que se está tratando SÍ puede descontrolar la diabetes. Además, puede dar falsos positivos de azúcar en orina con ciertas tiras reactivas antiguas. Use tiras modernas (glucosa oxidasa)."
+    },
+    {
+      "q": "¿Qué pasa si me olvido una dosis o se atrasa el suero?",
+      "a": "En un entorno hospitalario, el personal se encarga de los horarios. Si el tratamiento es en casa y se salta una dosis, administre la dosis olvidada tan pronto como lo recuerde, a menos que ya sea casi la hora de la siguiente. Nunca duplique la dosis para compensar. Mantenga el horario lo más regular posible."
+    },
+    {
+      "q": "¿Puedo comer de todo durante el tratamiento?",
+      "a": "Sí, no hay restricciones dietéticas específicas. Se recomienda una dieta balanceada para ayudar a la recuperación. Si tiene diarrea, puede ser útil una dieta blanda (plátano, arroz, compota de manzana, tostadas). Beba suficientes líquidos."
+    },
+    {
+      "q": "¿Por qué a veces usan dos antibióticos a la vez (como ceftazidima y amikacina)?",
+      "a": "Para infecciones muy graves o por bacterias difíciles como la Pseudomonas, usar dos antibióticos de diferentes clases (1) aumenta la potencia para matar la bacteria (sinergia), (2) reduce la probabilidad de que la bacteria desarrolle resistencia, y (3) puede permitir usar dosis más bajas de cada uno, reduciendo toxicidad."
+    },
+    {
+      "q": "¿La ceftazidima sirve para la infección por COVID-19 o influenza?",
+      "a": "NO. La ceftazidima es un ANTIBIÓTICO, que solo mata BACTERIAS. El COVID-19 y la influenza son causados por VIRUS. No tiene ningún efecto contra ellos. Su uso en estas infecciones virales es inapropiado y contribuye a la resistencia bacteriana."
+    },
+    {
+      "q": "¿Qué significa que una bacteria sea 'resistente' a la ceftazidima?",
+      "a": "Significa que la bacteria ha desarrollado mecanismos (como producir enzimas especiales llamadas beta-lactamasas de espectro extendido -BLEE- o carbapenemasas) que le permiten destruir o evitar el efecto del antibiótico. Cuando esto pasa, la ceftazidima ya no funciona y se necesitan otros antibióticos más potentes o combinaciones."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre Fortaz, Tazicef y las otras marcas?",
+      "a": "Todas contienen el mismo principio activo (ceftazidima). La diferencia está en el laboratorio fabricante, el excipiente usado (algunas usan arginina, otras carbonato) y el precio. La efectividad y seguridad deben ser equivalentes si son productos registrados y de calidad. Su médico o farmacéutico puede orientarle."
+    },
+    {
+      "q": "¿En qué situaciones se prefiere la ceftazidima sobre otras cefalosporinas como la ceftriaxona?",
+      "a": "La ceftazidima se prefiere cuando hay alta sospecha o confirmación de una infección por Pseudomonas aeruginosa, ya que es la cefalosporina más activa contra esta bacteria. La ceftriaxona, en cambio, es mejor para otras bacterias como Streptococcus pneumoniae o Neisseria meningitidis, y tiene una vida media más larga (se pone una vez al día). La elección depende del germen sospechoso y del sitio de la infección."
+    }
+  ]
+}

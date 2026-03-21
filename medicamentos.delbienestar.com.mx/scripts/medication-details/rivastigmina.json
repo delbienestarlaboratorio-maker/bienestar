@@ -1,0 +1,448 @@
+{
+  "name": "Rivastigmina",
+  "summary": "La Rivastigmina es un medicamento que se usa para tratar los síntomas de la enfermedad de Alzheimer de leve a moderada y la demencia por cuerpos de Lewy. Pertenece a una clase de fármacos llamados inhibidores de la colinesterasa, que actúan aumentando los niveles de una sustancia química en el cerebro llamada acetilcolina, la cual es crucial para la memoria, el pensamiento y el razonamiento. Este aumento ayuda a mejorar temporalmente los síntomas cognitivos (como la memoria y la atención), los síntomas conductuales (como la apatía y la agitación) y la capacidad para realizar actividades diarias en pacientes con demencia. Es importante entender que la Rivastigmina no cura la enfermedad de Alzheimer ni detiene su progresión a largo plazo, pero puede ayudar a mantener las funciones cerebrales por un tiempo y mejorar la calidad de vida del paciente y su familia. Su uso debe ser supervisado por un médico especialista, ya que requiere un ajuste cuidadoso de la dosis para maximizar los beneficios y minimizar efectos secundarios como náuseas o vómitos.",
+  "pharmacology": {
+    "mechanismOfAction": "La Rivastigmina es un inhibidor reversible de las enzimas acetilcolinesterasa (AChE) y butirilcolinesterasa (BuChE). En el cerebro de pacientes con Alzheimer, hay una deficiencia de acetilcolina, un neurotransmisor esencial para la memoria y el aprendizaje. La Rivastigmina bloquea estas enzimas, que normalmente se encargan de descomponer la acetilcolina. Al inhibirlas, aumenta la concentración y duración de acción de la acetilcolina en las sinapsis (las conexiones entre neuronas). Este mecanismo ayuda a compensar parcialmente el déficit colinérgico característico de la enfermedad, mejorando la transmisión de señales en las áreas del cerebro afectadas. A diferencia de otros inhibidores, actúa sobre ambas colinesterasas, lo que puede ofrecer un beneficio adicional en estadios más avanzados donde la BuChE también juega un papel. Su acción es principalmente a nivel del sistema nervioso central.",
+    "pharmacologicClass": "Inhibidor dual de la acetilcolinesterasa y butirilcolinesterasa (Inhibidor de la colinesterasa de segunda generación).",
+    "therapeuticClass": "Agente antidemencia, Agente colinérgico.",
+    "absorption": "Se absorbe bien por vía oral, pero su biodisponibilidad es de aproximadamente el 36% debido a un extenso metabolismo de primer paso en el hígado. La presencia de alimentos retrasa la absorción y puede reducir las náuseas, pero no afecta significativamente la cantidad total absorbida. La absorción es más lenta y constante con la forma de parche transdérmico.",
+    "distribution": "Se distribuye ampliamente en el cuerpo. Tiene un volumen de distribución de aproximadamente 1.8-2.7 L/kg. Cruza fácilmente la barrera hematoencefálica, que es necesaria para su acción en el cerebro. Su unión a proteínas plasmáticas es baja (aproximadamente el 40%).",
+    "metabolism": "Se metaboliza extensamente en el hígado principalmente por hidrólisis mediada por esterasas (colinesterasas), no por el sistema enzimático del citocromo P450 (CYP450). Esto es una ventaja importante, ya que reduce el riesgo de interacciones farmacológicas con medicamentos que afectan las enzimas CYP. El metabolito principal es la rivastigmina decarbamilada, que tiene una actividad inhibidora de la colinesterasa mínima.",
+    "elimination": "Se elimina principalmente por vía renal. La vida media de eliminación es de aproximadamente 1.5 horas después de una dosis oral, pero el efecto farmacológico dura más debido a su acción inhibitoria enzimática. Más del 90% de la dosis se excreta en la orina como metabolitos inactivos en 24 horas. La función renal no afecta significativamente su eliminación.",
+    "onsetOfAction": "Los efectos sobre los síntomas cognitivos pueden comenzar a notarse en algunas semanas, pero la respuesta óptima suele observarse después de varios meses de tratamiento continuo y con la dosis adecuada.",
+    "durationOfAction": "El efecto inhibitorio sobre la enzima dura varias horas, lo que justifica la administración dos veces al día. Los beneficios clínicos sobre los síntomas pueden mantenerse mientras se continúe el tratamiento, aunque la enfermedad neurodegenerativa subyacente sigue progresando."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento sintomático de la demencia tipo Alzheimer de leve a moderada",
+      "Tratamiento sintomático de la demencia asociada a la enfermedad de Parkinson",
+      "Tratamiento de la demencia por cuerpos de Lewy"
+    ],
+    "offLabel": [
+      "Deterioro cognitivo leve (DCL)",
+      "Manejo de síntomas conductuales y psicológicos de la demencia (BPSD) en otras demencias",
+      "Demencia vascular (en combinación con otras estrategias)"
+    ]
+  },
+  "dosage": {
+    "adults": "INICIO: Cápsulas/Tabletas: 1.5 mg dos veces al día. Parche: 4.6 mg/24h. AUMENTO: Incrementar la dosis en 1.5 mg dos veces al día (formas orales) cada 2-4 semanas, según tolerancia. RANGO DE DOSIS: Cápsulas/Tabletas: 3-12 mg al día, divididos en dos dosis (ej. 6 mg dos veces al día). Parche: 4.6 mg/24h a 13.3 mg/24h. La dosis objetivo es de 6-12 mg/día vía oral o 9.5-13.3 mg/24h vía transdérmica.",
+    "pediatric": "No está aprobado para uso en niños. Su seguridad y eficacia no se han establecido en población pediátrica.",
+    "elderly": "No se requieren ajustes de dosis basados solo en la edad, pero se debe iniciar con dosis bajas y titular lentamente debido a una mayor susceptibilidad a efectos secundarios y posibles comorbilidades.",
+    "renalImpairment": "No se requieren ajustes de dosis en insuficiencia renal leve a moderada (TFG >30 mL/min). En insuficiencia renal severa (TFG <30 mL/min) se recomienda precaución y monitoreo estrecho, aunque los estudios no muestran cambios significativos en la farmacocinética. Iniciar con dosis bajas.",
+    "hepaticImpairment": "En pacientes con enfermedad hepática leve a moderada (Child-Pugh A y B) no se requieren ajustes significativos, pero se debe titular con cuidado. En insuficiencia hepática severa (Child-Pugh C) está contraindicado el uso del parche transdérmico y se debe usar con extrema precaución las formas orales, iniciando con la dosis más baja posible.",
+    "maxDose": "Dosis máxima diaria: 12 mg por vía oral (6 mg dos veces al día) o 13.3 mg/24h por parche transdérmico."
+  },
+  "dosageForms": [
+    {
+      "form": "Cápsulas de liberación inmediata",
+      "strengths": [
+        "1.5 mg",
+        "3 mg",
+        "4.5 mg",
+        "6 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tabletas",
+      "strengths": [
+        "1.5 mg",
+        "3 mg",
+        "4.5 mg",
+        "6 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Solución oral",
+      "strengths": [
+        "2 mg/mL"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Parche transdérmico",
+      "strengths": [
+        "4.6 mg/24h",
+        "9.5 mg/24h",
+        "13.3 mg/24h"
+      ],
+      "route": "Transdérmica"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la rivastigmina, a otros derivados de la carbamato o a cualquier componente de la formulación",
+      "Enfermedad hepática severa (especialmente para la forma de parche)",
+      "Antecedentes de reacción cutánea grave al parche transdérmico (como dermatitis de contacto alérgica severa)"
+    ],
+    "relative": [
+      "Enfermedad ulcerosa péptica activa o sangrado gastrointestinal",
+      "Trastornos de la conducción cardíaca (bloqueo sinusal, síndrome del seno enfermo, bradicardia severa)",
+      "Asma bronquial o enfermedad pulmonar obstructiva crónica (EPOC) severa",
+      "Epilepsia no controlada",
+      "Obstrucción de la vejiga urinaria",
+      "Insuficiencia renal severa (TFG <30 mL/min)",
+      "Peso corporal muy bajo (<50 kg) - mayor riesgo de efectos adversos"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Náuseas",
+      "Vómitos",
+      "Pérdida del apetito (anorexia)",
+      "Mareo",
+      "Dolor de cabeza"
+    ],
+    "common": [
+      "Diarrea",
+      "Dolor abdominal",
+      "Dispepsia (indigestión)",
+      "Salivación aumentada",
+      "Sudoración",
+      "Fatiga",
+      "Debilidad (astenia)",
+      "Agitación",
+      "Confusión",
+      "Insomnio",
+      "Pérdida de peso",
+      "Temblor",
+      "Caídas",
+      "Reacción en el sitio de aplicación del parche (enrojecimiento, picazón)"
+    ],
+    "uncommon": [
+      "Depresión",
+      "Ansiedad",
+      "Alucinaciones (más comunes en demencia por cuerpos de Lewy)",
+      "Síncope (desmayo)",
+      "Bradicardia (ritmo cardíaco lento)",
+      "Ulcera péptica o sangrado gastrointestinal",
+      "Convulsiones",
+      "Erupción cutánea generalizada"
+    ],
+    "rare": [
+      "Pancreatitis (inflamación del páncreas)",
+      "Hepatitis (inflamación del hígado)",
+      "Síndrome neuroléptico maligno (muy raro)",
+      "Reacciones alérgicas severas (anafilaxia)",
+      "Bloqueo cardíaco",
+      "Rabdomiólisis (descomposición muscular)"
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Otros inhibidores de la colinesterasa (Donepecilo, Galantamina)",
+        "effect": "Aumento del riesgo de efectos colinérgicos adversos (náuseas, vómitos, bradicardia, síncope).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Anticolinérgicos (Escopolamina, Oxibutinina, Antihistamínicos como Difenhidramina, Antipsicóticos típicos)",
+        "effect": "Antagonizan el efecto terapéutico de la rivastigmina, reduciendo su eficacia.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Betabloqueadores (Propranolol, Metoprolol), Digoxina, Bloqueadores de canales de calcio (Verapamilo, Diltiazem)",
+        "effect": "Potencial aumento del riesgo de bradicardia y bloqueo cardíaco.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Succinilcolina o agentes bloqueadores neuromusculares similares",
+        "effect": "La rivastigmina puede potenciar el efecto relajante muscular durante la anestesia.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Antiinflamatorios no esteroideos (AINEs) como Ibuprofeno, Naproxeno",
+        "effect": "Mayor riesgo de sangrado gastrointestinal, especialmente en pacientes mayores.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Se recomienda tomar las cápsulas o tabletas CON ALIMENTOS para reducir las náuseas y los vómitos. La comida retrasa la absorción pero no reduce la cantidad total de medicamento que llega al cuerpo. Evitar el consumo excesivo de alcohol, ya que puede empeorar los mareos, la somnolencia y aumentar el riesgo de problemas hepáticos.",
+    "withSupplements": "Evitar suplementos con efectos anticolinérgicos (como algunos remedios herbales para el mareo o el sueño). La hierba de San Juan (Hypericum perforatum) podría teóricamente reducir la eficacia, aunque el riesgo es bajo debido al metabolismo no CYP de la rivastigmina. Consultar siempre con el médico antes de tomar cualquier suplemento."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA B",
+      "recommendation": "No hay estudios adecuados en mujeres embarazadas. Solo debe usarse durante el embarazo si el beneficio potencial justifica claramente el riesgo potencial para el feto. Su uso no está indicado en mujeres en edad fértil a menos que la enfermedad de Alzheimer sea extremadamente rara en ese contexto. Se desconoce el riesgo exacto.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se desconoce si la rivastigmina se excreta en la leche materna humana. Dado el potencial de efectos adversos graves en el lactante (como vómitos, bradicardia), se recomienda suspender la lactancia materna o no utilizar el medicamento, considerando la importancia del tratamiento para la madre. Se debe tomar una decisión individualizada con el médico.",
+    "pediatric": "No indicado para niños ni adolescentes. No se ha establecido seguridad ni eficacia en este grupo.",
+    "geriatric": "Es la población principal de uso. Se debe iniciar con dosis bajas y titular lentamente debido a la mayor frecuencia de disminución de la función hepática, renal o cardíaca, y a una mayor sensibilidad a los efectos colinérgicos. Monitorear estrechamente el peso, signos de deshidratación y caídas."
+  },
+  "administration": {
+    "howToTake": "FORMAS ORALES: Tomar dos veces al día, por la mañana y por la noche, CON ALIMENTOS (desayuno y cena). Tragar las cápsulas o tabletas enteras con un vaso de agua. La solución oral viene con un aplicador dosificador; medir la dosis exacta y mezclarla con un poco de agua, jugo o refresco sin gas. PARCHE TRANSDÉRMICO: Aplicar una vez al día sobre la piel limpia, seca y sin vello en la espalda, el pecho o la parte superior del brazo. Presionar firmemente durante 30 segundos. Cambiar el parche cada 24 horas, aplicándolo en un lugar diferente para evitar irritación. No cortar el parche. Lavarse las manos después de manipularlo. Si se olvida una dosis oral, omitirla y tomar la siguiente a la hora habitual. NO duplicar la dosis. Si se olvida aplicar el parche, aplicar uno nuevo inmediatamente y luego cambiar al día siguiente a la hora habitual.",
+    "storage": "Conservar a temperatura ambiente (15-30°C), en un lugar seco y fuera del alcance de los niños. Proteger de la luz y la humedad. La solución oral, una vez abierta, debe usarse dentro del periodo indicado en el envase.",
+    "specialInstructions": "La titulación (aumento gradual de la dosis) es crucial para mejorar la tolerancia. Informar al médico si los efectos secundarios gastrointestinales son severos; a veces se puede reducir la dosis temporalmente y luego reintentar el aumento. Para el parche: Retirar el parche anterior antes de aplicar uno nuevo. Desechar el parche usado doblándolo por la mitad con el lado adhesivo hacia dentro. No reutilizar. Si el parche se despega, se puede fijar con cinta adhesiva médica o aplicar uno nuevo. Bañarse, nadar o hacer ejercicio moderado no afecta la adhesión del parche."
+  },
+  "monitoring": {
+    "labTests": [
+      "Función hepática (Pruebas de función hepática: ALT, AST, bilirrubina) - al inicio y periódicamente",
+      "Función renal (Creatinina sérica, TFG) - al inicio",
+      "Electrolitos séricos (por riesgo de deshidratación)",
+      "Peso corporal"
+    ],
+    "frequency": "Evaluación clínica (incluyendo estado cognitivo y funcional) cada 3-6 meses. Monitoreo de peso cada mes al inicio y luego periódicamente. Pruebas hepáticas si hay síntomas sugerentes (náuseas persistentes, dolor abdominal, ictericia).",
+    "signsToWatch": [
+      "Náuseas o vómitos severos que causen deshidratación o pérdida de peso significativa",
+      "Mareos intensos, desmayos o caídas frecuentes",
+      "Ritmo cardíaco muy lento (se puede palpar el pulso)",
+      "Sangre en el vómito o heces negras/alquitranadas",
+      "Confusión nueva o empeoramiento severo del comportamiento",
+      "Erupción cutánea severa o ampollas en el sitio del parche",
+      "Dolor abdominal severo y persistente (posible pancreatitis)"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Náuseas y vómitos severos",
+      "Salivación y sudoración profusas",
+      "Bradicardia severa (ritmo cardíaco muy lento)",
+      "Hipotensión (presión baja)",
+      "Convulsiones",
+      "Debilidad muscular severa o parálisis",
+      "Pérdida de la conciencia (coma)",
+      "Depresión respiratoria (dificultad para respirar)"
+    ],
+    "treatment": "Es una emergencia médica. Llamar al 911 o acudir a urgencias. El tratamiento es de soporte y sintomático. NO hay un antídoto específico. Medidas generales incluyen: Mantener la vía aérea, monitoreo cardíaco continuo (por riesgo de bradicardia), administración de líquidos intravenosos para la deshidratación. La atropina (un anticolinérgico) puede usarse como tratamiento para revertir los síntomas colinérgicos severos, titulando la dosis cuidadosamente. Puede ser necesario lavado gástrico si la ingestión fue reciente (dentro de 1-2 horas).",
+    "antidote": "La Atropina puede usarse como antídoto farmacológico para los efectos muscarínicos severos (bradicardia, broncosecreción). La dosis inicial en adultos es de 0.5-1.0 mg por vía intravenosa, repetible cada 3-10 minutos según la respuesta. Debe ser administrada en un entorno hospitalario con monitoreo."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Medicamento de patente y genérico sujeto a prescripción).",
+    "scheduleMexico": "Medicamento de la Fracción III (Sustancias medicinales de venta con receta médica).",
+    "fdaApprovalYear": "1997 (para la enfermedad de Alzheimer), 2006 (para la demencia asociada a Parkinson), 2007 (parche transdérmico)."
+  },
+  "brandsMexico": [
+    "Exelon",
+    "Prometax",
+    "Rivamer",
+    "Rivastar",
+    "Rivastin",
+    "Rivastigmine",
+    "Sandoz Rivastigmina",
+    "Terry White Chemists Rivastigmina",
+    "Alzest",
+    "Demetrin",
+    "Rivastigmina Genfar",
+    "Rivastigmina MK",
+    "Rivastigmina PiSA",
+    "Rivastigmina Rimsa",
+    "Rivastigmina Sophia",
+    "Exelon Parche"
+  ],
+  "clinicalPearls": [
+    "El parche transdérmico ofrece una ventaja significativa al reducir los efectos gastrointestinales (náuseas/vómitos) y mejorar la adherencia al tratamiento, especialmente en pacientes que tienen dificultad para tragar pastillas o olvidan sus dosis.",
+    "En la demencia por cuerpos de Lewy, la rivastigmina es el tratamiento de primera línea no solo para los síntomas cognitivos, sino también para las alucinaciones visuales y otros síntomas neuropsiquiátricos, mostrando a veces mejor perfil que los antipsicóticos (que están contraindicados en esta enfermedad).",
+    "La 'titulación lenta' es la clave del éxito. Aumentar la dosis demasiado rápido es la causa principal de abandono del tratamiento por efectos secundarios. Paciencia durante las primeras 8-12 semanas es crucial para alcanzar una dosis efectiva y tolerable."
+  ],
+  "patientCounseling": "Querido paciente o cuidador: La rivastigmina es un tratamiento para ayudar con los problemas de memoria y pensamiento, pero no es una cura. Es muy importante que la tome exactamente como su médico se lo indicó, siempre con comida para evitar malestar estomacal. Los efectos secundarios como náuseas son comunes al principio, pero suelen mejorar después de unas semanas; si son muy fuertes, hable con su médico, NO deje el medicamento por su cuenta. Si usa el parche, aplíquelo en un lugar diferente cada día y asegúrese de que esté bien pegado. Asista a todas sus citas médicas para que evalúen si el tratamiento está funcionando y para ajustar la dosis si es necesario. Mantenga un registro del peso del paciente y esté alerta a signos de mareo, caídas o latidos cardíacos muy lentos. Este medicamento es solo una parte del tratamiento; mantener la mente activa, una dieta saludable y el apoyo familiar son igual de importantes. Nunca comparta este medicamento con otra persona.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Pérdida de memoria",
+        "slug": "perdida-de-memoria"
+      },
+      {
+        "name": "Desorientación",
+        "slug": "desorientacion"
+      },
+      {
+        "name": "Dificultad para pensar con claridad",
+        "slug": "dificultad-para-pensar-con-claridad"
+      },
+      {
+        "name": "Problemas con el lenguaje",
+        "slug": "problemas-con-el-lenguaje"
+      },
+      {
+        "name": "Apatía y falta de motivación",
+        "slug": "apatia-y-falta-de-motivacion"
+      },
+      {
+        "name": "Agitación y ansiedad",
+        "slug": "agitacion-y-ansiedad"
+      },
+      {
+        "name": "Alucinaciones visuales",
+        "slug": "alucinaciones-visuales"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Enfermedad de Alzheimer",
+        "slug": "enfermedad-de-alzheimer"
+      },
+      {
+        "name": "Demencia por Cuerpos de Lewy",
+        "slug": "demencia-por-cuerpos-de-lewy"
+      },
+      {
+        "name": "Demencia asociada a la enfermedad de Parkinson",
+        "slug": "demencia-asociada-a-la-enfermedad-de-parkinson"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Úlcera péptica o gastritis",
+        "slug": "ulcera-peptica-o-gastritis"
+      },
+      {
+        "name": "Bradicardia sinusal",
+        "slug": "bradicardia-sinusal"
+      },
+      {
+        "name": "Síncope (desmayo)",
+        "slug": "sincope-desmayo"
+      },
+      {
+        "name": "Pancreatitis aguda",
+        "slug": "pancreatitis-aguda"
+      },
+      {
+        "name": "Dermatitis de contacto",
+        "slug": "dermatitis-de-contacto"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Actividad de la colinesterasa plasmática",
+        "slug": "actividad-de-la-colesterasa-plasmatica",
+        "effect": "Disminuye significativamente"
+      },
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede disminuir (bradicardia)"
+      },
+      {
+        "name": "Peso corporal",
+        "slug": "peso-corporal",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Enzimas hepáticas (ALT, AST)",
+        "slug": "enzimas-hepaticas-alt-ast",
+        "effect": "Puede elevar (raro)"
+      },
+      {
+        "name": "Amilasa y lipasa séricas",
+        "slug": "amilasa-y-lipasa-sericas",
+        "effect": "Puede elevar (en caso de pancreatitis)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-de-funcion-hepatica",
+        "reason": "Para monitorear posible toxicidad hepática, aunque es rara"
+      },
+      {
+        "name": "Evaluación cognitiva (MMSE, MoCA)",
+        "slug": "evaluacion-cognitiva-mmse-moca",
+        "reason": "Para evaluar la respuesta al tratamiento y la progresión de la demencia"
+      },
+      {
+        "name": "Monitoreo de peso corporal",
+        "slug": "monitoreo-de-peso-corporal",
+        "reason": "Para detectar pérdida de peso significativa por efectos adversos gastrointestinales"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      },
+      {
+        "name": "Calculadora de IMC",
+        "slug": "calculadora-imc"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve la Rivastigmina?",
+      "a": "Sirve para tratar los síntomas de la enfermedad de Alzheimer y otros tipos de demencia (como la demencia por cuerpos de Lewy o la asociada al Parkinson). Ayuda a mejorar problemas de memoria, pensamiento, orientación y algunas conductas, pero no cura la enfermedad."
+    },
+    {
+      "q": "¿Cómo debo tomar la Rivastigmina?",
+      "a": "Las cápsulas o tabletas se toman DOS veces al día, con el desayuno y la cena, para reducir las náuseas. El parche se aplica UNA vez al día sobre la piel limpia y seca. Siga siempre las instrucciones de su médico."
+    },
+    {
+      "q": "¿Cuáles son los efectos secundarios más comunes?",
+      "a": "Los más comunes al inicio son náuseas, vómitos, pérdida de apetito, mareo y dolor de cabeza. Suelen mejorar después de unas semanas de tratamiento continuo. Tomar con alimentos ayuda mucho."
+    },
+    {
+      "q": "¿Qué hago si se me olvida una dosis?",
+      "a": "Si se le olvida una dosis oral, omita esa dosis y tome la siguiente a la hora habitual. NO tome una dosis doble para compensar. Si usa el parche y se le olvida cambiarlo, aplique uno nuevo en cuanto se acuerde y luego siga su horario normal al día siguiente."
+    },
+    {
+      "q": "¿La Rivastigmina cura el Alzheimer?",
+      "a": "NO. Ningún medicamento cura el Alzheimer actualmente. La Rivastigmina ayuda a controlar los síntomas y puede mejorar la calidad de vida por un tiempo, pero la enfermedad sigue su curso."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Puede empezar a notarse alguna mejoría en semanas, pero la respuesta completa suele verse después de 3 a 6 meses de tratamiento continuo y con la dosis adecuada. La paciencia es importante."
+    },
+    {
+      "q": "¿Puedo tomar Rivastigmina si tengo problemas del estómago?",
+      "a": "Debe informar a su médico si tiene o ha tenido úlceras, gastritis o sangrado digestivo. El medicamento puede empeorar estos problemas. Su médico evaluará el riesgo y podría recomendar el parche en lugar de las pastillas."
+    },
+    {
+      "q": "¿El parche es mejor que las pastillas?",
+      "a": "El parche tiene la ventaja de causar menos náuseas y vómitos, y es más fácil de usar para personas que olvidan tomar sus medicamentos. Sin embargo, la elección depende de cada paciente y debe ser decidida por el médico."
+    },
+    {
+      "q": "¿Puedo beber alcohol mientras tomo Rivastigmina?",
+      "a": "Se recomienda evitar o limitar mucho el alcohol, ya que puede aumentar los mareos, la somnolencia y el riesgo de problemas hepáticos. Consulte con su médico."
+    },
+    {
+      "q": "¿Qué pasa si tengo náuseas muy fuertes?",
+      "a": "Informe a su médico. A veces se puede reducir temporalmente la dosis y luego volver a aumentarla más lentamente. NO suspenda el medicamento por su cuenta."
+    },
+    {
+      "q": "¿La Rivastigmina hace que me duerma mucho?",
+      "a": "No es un efecto común principal. Puede causar mareo o fatiga, pero no suele causar somnolencia severa. Si siente mucho sueño, consulte a su médico."
+    },
+    {
+      "q": "¿Puedo manejar o operar maquinaria?",
+      "a": "Tenga precaución, especialmente al inicio del tratamiento o al aumentar la dosis, ya que puede causar mareos. Evite actividades que requieran alerta hasta que sepa cómo le afecta."
+    },
+    {
+      "q": "¿Interfiere con otros medicamentos para la presión o el corazón?",
+      "a": "SÍ. Puede interactuar con medicamentos para el corazón que bajan la frecuencia cardíaca (como betabloqueadores o digoxina), aumentando el riesgo de latidos muy lentos. Informe a su médico TODOS los medicamentos que toma."
+    },
+    {
+      "q": "¿Se puede usar en personas muy mayores?",
+      "a": "Sí, es el grupo principal de uso. Sin embargo, se debe empezar con dosis muy bajas y aumentar muy lentamente, ya que son más sensibles a los efectos secundarios."
+    },
+    {
+      "q": "¿Qué debo hacer si el parche causa mucha comezón o enrojecimiento?",
+      "a": "Un poco de enrojecimiento es normal. Si hay mucha comezón, ampollas o la piel se rompe, retire el parche y consulte a su médico. Puede ser una reacción alérgica y necesitar cambiar a la forma oral."
+    },
+    {
+      "q": "¿La Rivastigmina hace subir o bajar de peso?",
+      "a": "Más comúnmente causa PÉRDIDA de peso debido a las náuseas, vómitos y pérdida de apetito. Es importante monitorear el peso regularmente."
+    },
+    {
+      "q": "¿Es seguro para pacientes con diabetes?",
+      "a": "Generalmente sí, pero la pérdida de peso y los cambios en el apetito pueden afectar el control de la glucosa. Monitoree sus niveles de azúcar con más frecuencia al inicio del tratamiento."
+    },
+    {
+      "q": "¿Qué pasa si el paciente deja de tomar la Rivastigmina de repente?",
+      "a": "No se recomienda suspender bruscamente, ya que puede haber un empeoramiento rápido de los síntomas cognitivos y conductuales. Cualquier cambio en la dosis debe ser supervisado por el médico."
+    },
+    {
+      "q": "¿En qué tipo de demencia funciona mejor la Rivastigmina?",
+      "a": "Está aprobada para Alzheimer, demencia por cuerpos de Lewy y demencia asociada al Parkinson. En la demencia por cuerpos de Lewy es particularmente útil para las alucinaciones visuales."
+    },
+    {
+      "q": "¿Cómo se decide entre Rivastigmina, Donepecilo o Galantamina?",
+      "a": "La elección la hace el médico basándose en el tipo de demencia, el perfil de efectos secundarios, las comorbilidades del paciente y la conveniencia de la dosificación. La Rivastigmina tiene la ventaja del parche y de actuar sobre dos enzimas, lo que puede ser beneficioso en estadios moderados."
+    }
+  ]
+}

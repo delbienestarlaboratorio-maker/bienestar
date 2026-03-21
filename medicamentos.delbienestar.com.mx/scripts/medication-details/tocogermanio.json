@@ -1,0 +1,423 @@
+{
+  "name": "Tocogermanio",
+  "summary": "El Tocogermanio es un medicamento antianémico y hematológico que se utiliza principalmente para tratar y prevenir la anemia, especialmente la anemia por deficiencia de hierro. Funciona estimulando la producción de glóbulos rojos en la médula ósea y mejorando la utilización del hierro por parte del organismo. Es un tratamiento fundamental para pacientes con anemia crónica, deficiencias nutricionales o pérdida de sangre, ya que ayuda a restaurar los niveles adecuados de hemoglobina, mejorando así la oxigenación de los tejidos, reduciendo la fatiga y aumentando la capacidad física y la calidad de vida. Su importancia clínica radica en ser una opción terapéutica eficaz para corregir la anemia y sus síntomas debilitantes, siendo particularmente útil en poblaciones vulnerables como mujeres embarazadas, adultos mayores y pacientes con enfermedades crónicas que afectan la absorción de nutrientes.",
+  "pharmacology": {
+    "mechanismOfAction": "El Tocogermanio actúa principalmente como un estimulante de la eritropoyesis, es decir, promueve la formación de glóbulos rojos en la médula ósea. Su mecanismo de acción implica la activación de factores de transcripción que regulan la expresión de genes involucrados en la producción de eritropoyetina endógena y la síntesis de hemoglobina. Además, mejora la absorción y utilización del hierro a nivel intestinal y celular, facilitando su incorporación a la molécula de hemoglobina. También posee propiedades antioxidantes que protegen a los glóbulos rojos del daño oxidativo, prolongando su vida útil. Este efecto combinado resulta en un aumento significativo de los niveles de hemoglobina y hematocrito en la sangre.",
+    "pharmacologicClass": "Agente antianémico, estimulante de la eritropoyesis, hematínico, compuesto organometálico de germanio.",
+    "therapeuticClass": "Antianémicos y Hematológicos",
+    "absorption": "Se absorbe bien por vía oral en el tracto gastrointestinal, principalmente en el duodeno y yeyuno. La absorción es moderada y puede verse afectada por la presencia de alimentos, especialmente aquellos ricos en fitatos, calcio o taninos. La biodisponibilidad oral es aproximadamente del 60-70% en condiciones de ayuno.",
+    "distribution": "Se distribuye ampliamente en los tejidos, con una afinidad particular por la médula ósea, el hígado y el bazo. Su unión a proteínas plasmáticas es moderada, alrededor del 40-50%. El volumen de distribución (Vd) es de aproximadamente 0.8 L/kg, indicando una distribución principalmente en el compartimento plasmático y extracelular.",
+    "metabolism": "El Tocogermanio sufre metabolismo hepático limitado, principalmente a través de reacciones de conjugación. No es un sustrato significativo del sistema enzimático del citocromo P450 (CYP), por lo que presenta un bajo potencial de interacciones farmacocinéticas mediadas por estas enzimas. Los metabolitos formados son inactivos.",
+    "elimination": "Se elimina principalmente por vía renal, en forma de metabolitos conjugados y una pequeña fracción sin cambios. Su vida media de eliminación es de aproximadamente 8 a 12 horas, lo que permite una dosificación una o dos veces al día. En pacientes con función renal normal, más del 80% de la dosis se excreta en la orina en 24 horas.",
+    "onsetOfAction": "El inicio de acción hematológica (aumento de reticulocitos) puede observarse a los 5-7 días de iniciado el tratamiento. El aumento significativo de los niveles de hemoglobina generalmente se evidencia después de 2 a 3 semanas de terapia continua.",
+    "durationOfAction": "La duración del efecto depende de la dosis y la duración del tratamiento. Tras la suspensión, los niveles de hemoglobina pueden mantenerse estables durante varias semanas, pero eventualmente disminuirán si la causa subyacente de la anemia no se corrige."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento de la anemia por deficiencia de hierro",
+      "Prevención de la anemia en poblaciones de riesgo (embarazo, desnutrición)",
+      "Anemia asociada a enfermedad renal crónica en estadios tempranos (como coadyuvante)",
+      "Anemia por enfermedad crónica (ej. inflamatoria, cáncer) cuando hay componente ferropénico",
+      "Estados de convalecencia post-quirúrgica o post-hemorrágica con anemia"
+    ],
+    "offLabel": [
+      "Soporte hematológico en pacientes con síndromes mielodisplásicos de bajo riesgo",
+      "Mejora de la fatiga en pacientes con insuficiencia cardíaca y anemia leve",
+      "Potencial antioxidante en enfermedades neurodegenerativas (investigacional)",
+      "Coadyuvante en el tratamiento de la anemia en pacientes con VIH/SIDA"
+    ]
+  },
+  "dosage": {
+    "adults": "Dosis habitual: 50-100 mg, 1 a 2 veces al día, por vía oral. Para anemia moderada: 100 mg dos veces al día. Para mantenimiento o prevención: 50 mg una vez al día. El tratamiento suele durar de 1 a 3 meses, dependiendo de la respuesta. Tomar preferentemente con el estómago vacío (1 hora antes o 2 horas después de los alimentos) para una mejor absorción.",
+    "pediatric": "Niños mayores de 12 años: igual que dosis de adultos. Niños de 6 a 12 años: 25-50 mg una vez al día. Niños de 2 a 6 años: 12.5-25 mg una vez al día. No se recomienda su uso en niños menores de 2 años sin supervisión médica especializada. La dosis puede ajustarse por peso (1-2 mg/kg/día).",
+    "elderly": "No se requieren ajustes de dosis iniciales basados únicamente en la edad. Sin embargo, debido a la posible disminución de la función renal o hepática, se recomienda iniciar con la dosis más baja efectiva (ej. 50 mg/día) y monitorear la respuesta y los efectos adversos.",
+    "renalImpairment": "Insuficiencia renal leve a moderada (TFG 30-89 mL/min): No se requiere ajuste significativo. Insuficiencia renal severa (TFG <30 mL/min) o en diálisis: Se recomienda reducir la dosis a 50 mg al día o en días alternos, debido a la eliminación renal del fármaco. Monitorear niveles de hemoglobina y hierro para evitar sobrecarga.",
+    "hepaticImpairment": "Insuficiencia hepática leve (Child-Pugh A): No se requiere ajuste. Insuficiencia hepática moderada a severa (Child-Pugh B o C): Se recomienda precaución y posible reducción de dosis (50 mg/día), ya que aunque el metabolismo hepático es limitado, puede alterarse la síntesis de proteínas transportadoras.",
+    "maxDose": "Dosis máxima diaria recomendada: 200 mg (en dos tomas de 100 mg). No se deben exceder estas dosis debido al riesgo de efectos adversos gastrointestinales y potencial de sobrecarga de hierro."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "12.5 mg",
+        "25 mg",
+        "50 mg",
+        "100 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Cápsula",
+      "strengths": [
+        "50 mg",
+        "100 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Jarabe/Solución oral",
+      "strengths": [
+        "25 mg/5 mL"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al Tocogermanio o a cualquiera de sus excipientes",
+      "Hemocromatosis (sobrecarga de hierro) o hemosiderosis",
+      "Anemias no relacionadas con deficiencia de hierro (ej. anemia megaloblástica por deficiencia de B12 o ácido fólico no tratada)",
+      "Porfiria cutánea tarda"
+    ],
+    "relative": [
+      "Enfermedad ulcerosa péptica activa o gastritis erosiva severa",
+      "Colitis ulcerosa o enfermedad de Crohn en fase activa",
+      "Insuficiencia renal terminal no controlada",
+      "Pacientes que reciben transfusiones sanguíneas frecuentes"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Náuseas leves",
+      "Coloración oscura de las heces (no es sangre, es inofensiva)"
+    ],
+    "common": [
+      "Dolor abdominal o epigástrico",
+      "Pirosis (acidez estomacal)",
+      "Estreñimiento",
+      "Diarrea",
+      "Sabor metálico en la boca"
+    ],
+    "uncommon": [
+      "Vómitos",
+      "Prurito (comezón) leve",
+      "Erupción cutánea leve",
+      "Dolor de cabeza"
+    ],
+    "rare": [
+      "Urticaria",
+      "Reacciones de hipersensibilidad (angioedema, dificultad para respirar)",
+      "Sobrecarga de hierro (en pacientes con predisposición o dosis excesivas)",
+      "Mareo"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Antiácidos (sales de aluminio, magnesio, calcio)",
+        "effect": "Disminuyen significativamente la absorción del Tocogermanio al formar complejos insolubles. Reducen su eficacia.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inhibidores de la bomba de protones (Omeprazol, Esomeprazol) y antagonistas H2 (Ranitidina)",
+        "effect": "Al reducir la acidez gástrica, pueden disminuir la absorción del hierro y, por ende, la efectividad del Tocogermanio.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Tetraciclinas (Doxiciclina, Minociclina) y Fluoroquinolonas (Ciprofloxacino)",
+        "effect": "El Tocogermanio puede reducir la absorción de estos antibióticos, disminuyendo su concentración en sangre y eficacia. Separar la administración al menos 2-3 horas.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Levotiroxina",
+        "effect": "El Tocogermanio puede disminuir la absorción de la levotiroxina, comprometiendo el control del hipotiroidismo. Separar la administración al menos 4 horas.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Los alimentos, especialmente los ricos en fibra, fitatos (cereales integrales, legumbres), calcio (lácteos), fosfatos y taninos (té, café, vino tinto), pueden reducir la absorción del Tocogermanio hasta en un 50%. Se recomienda tomarlo con el estómago vacío (1 hora antes o 2 horas después de comer). El jugo de naranja o alimentos ricos en vitamina C pueden mejorar su absorción. El consumo de alcohol puede irritar la mucosa gástrica y exacerbar los efectos adversos gastrointestinales.",
+    "withSupplements": "Los suplementos de calcio, zinc o magnesio pueden interferir con la absorción. Los suplementos de vitamina C pueden potenciarla. Evitar el uso concurrente con otros suplementos de hierro a menos que lo indique el médico, por riesgo de sobrecarga."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA C",
+      "recommendation": "Su uso durante el embarazo solo debe considerarse si el beneficio potencial justifica el riesgo potencial para el feto. Es comúnmente utilizado para tratar la anemia ferropénica del embarazo, que es frecuente y puede tener consecuencias para la madre y el feto. Debe ser prescrito y supervisado por un médico. La dosis debe ser la mínima efectiva.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se desconoce si el Tocogermanio se excreta en la leche materna en cantidades significativas. Debido a su perfil y al potencial beneficio de corregir la anemia materna, su uso puede considerarse durante la lactancia si es claramente necesario. Se debe monitorizar al lactante por posibles efectos gastrointestinales. Consultar con el médico.",
+    "pediatric": "Puede usarse en niños mayores de 2 años para el tratamiento de la anemia por deficiencia de hierro. Es crucial utilizar la formulación y dosis adecuadas para la edad (jarabe o tabletas de baja dosis). En menores de 2 años, solo bajo estricta supervisión médica. La anemia en lactantes requiere diagnóstico preciso de la causa.",
+    "geriatric": "Los adultos mayores son más susceptibles a la anemia y a los efectos adversos gastrointestinales. Iniciar con dosis bajas. Evaluar la función renal antes de comenzar el tratamiento, ya que el deterioro renal es común en este grupo y puede afectar la eliminación. Vigilar signos de sobrecarga de hierro."
+  },
+  "administration": {
+    "howToTake": "Tomar las tabletas o cápsulas enteras con un vaso lleno de agua (240 mL). No triturar, masticar o partir a menos que lo indique el médico o la formulación lo permita. Para una mejor absorción, tomar con el estómago vacío, 1 hora antes o 2 horas después de las comidas. Si causa malestar estomacal, se puede tomar con un poco de comida, aunque esto reducirá su absorción. Para el jarabe, usar el dosificador proporcionado y agitar bien antes de cada uso.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (entre 15°C y 30°C), en un lugar seco y protegido de la luz directa. No refrigerar. Mantener fuera del alcance de los niños. No utilizar después de la fecha de caducidad impresa en el empaque.",
+    "specialInstructions": "Las heces pueden volverse de color negro o verde oscuro durante el tratamiento. Esto es normal, inofensivo y se debe a la excreción del hierro no absorbido. NO es signo de sangrado digestivo. Sin embargo, si las heces son negras y alquitranadas (melenas) o rojas, consulte a su médico inmediatamente. No tome leche, antiácidos, café o té dentro de las 2 horas posteriores a la toma del medicamento."
+  },
+  "monitoring": {
+    "labTests": [
+      "Hemograma completo (Hemoglobina, Hematocrito, recuento de glóbulos rojos)",
+      "Hierro sérico",
+      "Ferritina",
+      "Capacidad total de fijación del hierro (CTFH)",
+      "Índices eritrocitarios (VCM, HCM, CHCM)",
+      "Función renal (creatinina, TFG)",
+      "Función hepática (transaminasas)"
+    ],
+    "frequency": "Hemograma completo: cada 4 semanas al inicio del tratamiento hasta alcanzar niveles normales, luego cada 3-6 meses durante el mantenimiento. Hierro y ferritina: evaluar al inicio y después de 2-3 meses de tratamiento para evaluar reservas. Función renal/hepática: al inicio y luego anualmente en tratamientos prolongados.",
+    "signsToWatch": [
+      "Falta de mejoría en los síntomas de anemia (fatiga, palidez) después de 3-4 semanas",
+      "Dolor abdominal severo, vómitos con sangre o heces negras alquitranadas",
+      "Signos de reacción alérgica (ronchas, hinchazón de cara/labios, dificultad para respirar)",
+      "Debilidad muscular extrema o dolor articular nuevo",
+      "Coloración amarillenta de piel u ojos (ictericia)"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Náuseas y vómitos severos (a veces con sangre)",
+      "Dolor abdominal cólico intenso",
+      "Diarrea acuosa o sanguinolenta",
+      "Letargo, somnolencia",
+      "Palidez seguida de cianosis (coloración azulada)",
+      "Shock (palidez, sudoración fría, pulso débil)",
+      "Acidosis metabólica",
+      "Daño hepático (en casos muy severos)"
+    ],
+    "treatment": "No existe antídoto específico. El tratamiento es de soporte y sintomático. Inducir el vómito solo si el paciente está consciente y la ingestión fue reciente (menos de 1 hora). Realizar lavado gástrico con precaución. Administrar carbón activado (aunque su eficacia para unir metales es limitada). Tratar la deshidratación y los desequilibrios electrolíticos con fluidos intravenosos. En casos severos, considerar quelación del hierro con deferoxamina, aunque el componente de germanio puede requerir manejo especializado. Hospitalización obligatoria en casos sintomáticos.",
+    "antidote": "No existe un antídoto específico para el Tocogermanio. Para la toxicidad por hierro, se puede utilizar deferoxamina como quelante."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Rx)",
+    "scheduleMexico": "Fracción III (Medicamento de venta con receta médica archivada)",
+    "fdaApprovalYear": "No aprobado por la FDA de EE.UU. Es un medicamento de uso principalmente en México y algunos países de Latinoamérica y Europa."
+  },
+  "brandsMexico": [
+    "Tocofermin",
+    "Germatocel",
+    "Hemogerman",
+    "Tocogerm",
+    "Anemigen",
+    "Ferrogerman",
+    "Hemoactiv",
+    "Germafer",
+    "Eritrogerm",
+    "Tocovital"
+  ],
+  "clinicalPearls": [
+    "La coloración oscura de las heces es el efecto adverso más común y suele causar alarma. Es crucial educar al paciente para que no lo confunda con melena (sangrado digestivo), evitando suspensiones innecesarias del tratamiento.",
+    "La falta de respuesta al Tocogermanio después de 3-4 semanas debe hacer reconsiderar el diagnóstico. Puede indicar anemia por deficiencia de B12 o ácido fólico, anemia de enfermedad crónica sin componente ferropénico, malabsorción o pérdida sanguínea oculta continua.",
+    "En pacientes ancianos con anemia 'refractaria', siempre descartar causas secundarias como neoplasias gastrointestinales ocultas o síndromes mielodisplásicos antes de atribuir la falta de respuesta al medicamento."
+  ],
+  "patientCounseling": "Tome el Tocogermanio exactamente como se lo recetó su médico. Para que funcione mejor, tómelo con el estómago vacío, una hora antes o dos horas después de comer, con un vaso lleno de agua. Si le cae pesado al estómago, puede tomarlo con un poco de comida, pero sepa que podría absorberse menos. Evite tomar leche, antiácidos, café o té cerca de la hora de su dosis, ya que bloquean su absorción. Es normal que sus heces se pongan de color negro o verde oscuro; esto no es peligroso y no significa que esté sangrando. Sin embargo, si las heces son negras y pegajosas como alquitrán, o si ve sangre roja, acuda al médico de inmediato. No deje de tomar el medicamento solo porque se sienta mejor; la anemia requiere tratamiento completo para reponer las reservas de hierro. Asista a sus citas de control para que le revisen la sangre y verifiquen que el tratamiento está funcionando. Guarde el medicamento en un lugar fresco y seco, fuera del alcance de los niños.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fatiga y cansancio extremo",
+        "slug": "fatiga-y-cansancio-extremo"
+      },
+      {
+        "name": "Palidez de piel y mucosas",
+        "slug": "palidez-de-piel-y-mucosas"
+      },
+      {
+        "name": "Dificultad para respirar (disnea)",
+        "slug": "dificultad-para-respirar-disnea"
+      },
+      {
+        "name": "Mareos o aturdimiento",
+        "slug": "mareos-o-aturdimiento"
+      },
+      {
+        "name": "Dolor de cabeza",
+        "slug": "dolor-de-cabeza"
+      },
+      {
+        "name": "Latidos cardíacos rápidos o irregulares (palpitaciones)",
+        "slug": "palpitaciones"
+      },
+      {
+        "name": "Uñas quebradizas",
+        "slug": "unas-quebradizas"
+      },
+      {
+        "name": "Caída del cabello",
+        "slug": "caida-del-cabello"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Anemia por deficiencia de hierro (Anemia ferropénica)",
+        "slug": "anemia-por-deficiencia-de-hierro"
+      },
+      {
+        "name": "Anemia de la enfermedad crónica (con componente ferropénico)",
+        "slug": "anemia-de-la-enfermedad-cronica"
+      },
+      {
+        "name": "Anemia del embarazo",
+        "slug": "anemia-del-embarazo"
+      },
+      {
+        "name": "Anemia por pérdida de sangre crónica",
+        "slug": "anemia-por-perdida-de-sangre-cronica"
+      },
+      {
+        "name": "Estados de convalecencia con anemia",
+        "slug": "estados-de-convalecencia-con-anemia"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Sobrecarga de hierro (Hemosiderosis)",
+        "slug": "sobrecarga-de-hierro"
+      },
+      {
+        "name": "Gastritis o úlcera péptica (por irritación gástrica)",
+        "slug": "gastritis"
+      },
+      {
+        "name": "Reacción alérgica cutánea",
+        "slug": "reaccion-alergica-cutanea"
+      },
+      {
+        "name": "Estreñimiento crónico",
+        "slug": "estrenimiento-cronico"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Hemoglobina",
+        "slug": "hemoglobina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Hematocrito",
+        "slug": "hematocrito",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Ferritina sérica",
+        "slug": "ferritina-serica",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Hierro sérico",
+        "slug": "hierro-serico",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Recuento de reticulocitos",
+        "slug": "reticulocitos",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Capacidad total de fijación del hierro (CTFH)",
+        "slug": "ctfh",
+        "effect": "Puede disminuir"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Hemograma completo",
+        "slug": "hemograma-completo",
+        "reason": "Para monitorear la respuesta al tratamiento (aumento de hemoglobina y hematocrito)"
+      },
+      {
+        "name": "Hierro sérico y Ferritina",
+        "slug": "hierro-y-ferritina",
+        "reason": "Para evaluar las reservas de hierro y ajustar la duración del tratamiento"
+      },
+      {
+        "name": "Creatinina sérica y TFG",
+        "slug": "creatinina-y-tfg",
+        "reason": "Para ajustar la dosis en pacientes con posible daño renal"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de IMC",
+        "slug": "calculadora-imc"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve el Tocogermanio?",
+      "a": "Sirve principalmente para tratar y prevenir la anemia, especialmente la causada por falta de hierro. Ayuda a tu cuerpo a producir más glóbulos rojos y a usar mejor el hierro, combatiendo síntomas como el cansancio extremo, la palidez y la falta de aire."
+    },
+    {
+      "q": "¿Cómo debo tomar el Tocogermanio?",
+      "a": "Tómalo con un vaso lleno de agua. Para que se absorba mejor, es ideal tomarlo con el estómago vacío, 1 hora antes o 2 horas después de comer. Si te causa malestar, puedes tomarlo con un poco de comida, pero será menos efectivo."
+    },
+    {
+      "q": "¿Puedo tomar Tocogermanio si estoy embarazada?",
+      "a": "Sí, pero solo si tu médico te lo receta. Es común usarlo para tratar la anemia en el embarazo, la cual es frecuente. El médico evaluará si los beneficios para tu salud y la del bebé superan los posibles riesgos."
+    },
+    {
+      "q": "¿Qué hago si se me olvida una dosis?",
+      "a": "Tómala tan pronto como te acuerdes. Sin embargo, si ya es casi la hora de tu siguiente dosis, omite la que olvidaste y continúa con tu horario normal. NO tomes una dosis doble para compensar."
+    },
+    {
+      "q": "¿El Tocogermanio mancha los dientes?",
+      "a": "No es común que manche los dientes si se traga la tableta entera con agua. Para evitar cualquier posibilidad, puedes usar un popote (pajilla) al tomar el jarabe y enjuagarte la boca después."
+    },
+    {
+      "q": "¿Por qué mis heces se pusieron negras con el tratamiento?",
+      "a": "Es un efecto normal y completamente inofensivo. Se debe a que tu cuerpo elimina el hierro que no absorbió. NO es sangre. Solo preocúpate si las heces son negras, pegajosas y con mal olor (como alquitrán) o si ves sangre roja."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Puedes empezar a sentir menos cansancio después de 1 o 2 semanas. Sin embargo, el aumento real de la hemoglobina en la sangre se ve generalmente después de 2 a 3 semanas de tratamiento constante."
+    },
+    {
+      "q": "¿Puedo tomar café o té mientras uso Tocogermanio?",
+      "a": "Es mejor evitarlos, especialmente cerca de la hora de tomar tu medicina (1-2 horas antes o después). El café y el té contienen taninos que bloquean la absorción del hierro, haciendo que el medicamento sea menos efectivo."
+    },
+    {
+      "q": "¿El Tocogermanio es lo mismo que el sulfato ferroso?",
+      "a": "No. Ambos tratan la anemia por falta de hierro, pero son medicamentos diferentes. El Tocogermanio contiene germanio orgánico y actúa estimulando la producción de sangre, mientras que el sulfato ferroso es una sal de hierro pura. Tu médico elegirá el más adecuado para ti."
+    },
+    {
+      "q": "¿Puedo tomar antiácidos (como Alka-Seltzer) si tengo acidez?",
+      "a": "No se recomienda. Los antiácidos (y los medicamentos para la acidez como el omeprazol) reducen mucho la absorción del Tocogermanio. Si necesitas un antiácido, tómalo al menos 2 horas antes o 4 horas después de tu dosis de Tocogermanio. Consulta a tu médico."
+    },
+    {
+      "q": "¿Qué alimentos debo comer o evitar mientras tomo este medicamento?",
+      "a": "COME alimentos ricos en vitamina C (naranja, limón, pimiento) junto con tu dosis para mejorar la absorción. EVITA tomarlo con lácteos, huevos, café, té, cereales integrales y espinacas, ya que dificultan la absorción del hierro."
+    },
+    {
+      "q": "¿Puedo tomar Tocogermanio si soy alérgico a otros medicamentos?",
+      "a": "Informa a tu médico de TODAS tus alergias antes de empezar. Si eres alérgico al germanio o a cualquier componente de la pastilla, no debes tomarlo. La alergia a otros medicamentos no necesariamente significa alergia a este, pero se debe tener precaución."
+    },
+    {
+      "q": "¿El Tocogermanio sube la presión arterial?",
+      "a": "No es un efecto común ni directo del Tocogermanio. Corregir la anemia puede mejorar la circulación y, en algunos casos, normalizar una presión arterial que estaba baja debido a la anemia. Si tienes hipertensión, continúa con tu tratamiento habitual y monitórate."
+    },
+    {
+      "q": "¿Puedo donar sangre mientras estoy en tratamiento?",
+      "a": "No es recomendable. El tratamiento está corrigiendo tu propia anemia y tus reservas de hierro. Donar sangre podría retrasar tu recuperación. Espera a que tu médico te confirme que tus niveles de hemoglobina y ferritina son normales y estables."
+    },
+    {
+      "q": "¿Qué pasa si tomo más de la dosis indicada?",
+      "a": "Puedes sufrir una intoxicación: dolor abdominal fuerte, vómitos (a veces con sangre), diarrea, somnolencia y deshidratación severa. Es una emergencia médica. Acude de inmediato al hospital o llama al centro de toxicología. NO induzcas el vómito sin supervisión."
+    },
+    {
+      "q": "¿Interfiere con otros medicamentos como la levotiroxina (para el hipotiroidismo)?",
+      "a": "SÍ, interfiere mucho. El Tocogermanio puede impedir que tu cuerpo absorba la levotiroxina. Debes tomar estos dos medicamentos con al menos 4 horas de diferencia. Informa a tu endocrinólogo que estás tomando Tocogermanio."
+    },
+    {
+      "q": "¿Por qué mi médico me pide análisis de sangre durante el tratamiento?",
+      "a": "Para asegurarse de que el medicamento está funcionando (viendo el aumento de hemoglobina) y que no estás desarrollando efectos no deseados. También para saber cuándo suspenderlo, ya que el tratamiento excesivo puede causar sobrecarga de hierro."
+    },
+    {
+      "q": "¿El Tocogermanio puede causar cáncer?",
+      "a": "No hay evidencia científica que demuestre que el Tocogermanio, en las dosis terapéuticas recomendadas para la anemia, cause cáncer. Al contrario, al corregir la anemia puede mejorar el estado general y la respuesta a tratamientos en pacientes oncológicos. Sigue siempre la dosis prescrita."
+    },
+    {
+      "q": "¿Es seguro para personas con diabetes?",
+      "a": "Sí, generalmente es seguro. El Tocogermanio no afecta directamente los niveles de glucosa en sangre. Sin embargo, algunos jarabes pueden contener azúcar. Si tienes diabetes, informa a tu médico para que te recete la presentación más adecuada (tabletas sin azúcar)."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre el Tocogermanio y los agentes estimulantes de la eritropoyesis (como la EPO)?",
+      "a": "La EPO (eritropoyetina) es una hormona que estimula directamente la médula ósea. El Tocogermanio es un agente oral más suave que actúa a través de múltiples mecanismos, incluyendo la mejora en la utilización del hierro y un efecto antioxidante. Se usa en anemias menos severas, mientras que la EPO se reserva para casos más graves, como en insuficiencia renal avanzada o quimioterapia."
+    }
+  ]
+}

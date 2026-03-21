@@ -1,0 +1,407 @@
+{
+  "name": "Terfenadina",
+  "summary": "La terfenadina es un medicamento antihistamínico de segunda generación que se utilizaba ampliamente para aliviar los síntomas de las alergias. Actúa bloqueando los receptores de histamina H1, lo que reduce síntomas como estornudos, picazón en ojos y nariz, lagrimeo y urticaria. Su importancia clínica fue significativa porque, a diferencia de los antihistamínicos más antiguos, no causaba somnolencia en la mayoría de los pacientes, permitiéndoles realizar sus actividades diarias con normalidad. Sin embargo, su uso se vio drásticamente limitado y luego suspendido en muchos países debido al descubrimiento de un riesgo grave de causar arritmias cardíacas potencialmente mortales (torsades de pointes), especialmente cuando se tomaba en dosis altas o se combinaba con ciertos medicamentos o jugo de toronja. Este riesgo se debe a que puede prolongar el intervalo QT en el electrocardiograma. Aunque fue un fármaco revolucionario en su momento, hoy en día ha sido reemplazado en la práctica clínica por antihistamínicos más seguros, y su disponibilidad en México es extremadamente limitada o nula, sirviendo principalmente como un ejemplo histórico en farmacología sobre la importancia de la farmacovigilancia.",
+  "pharmacology": {
+    "mechanismOfAction": "La terfenadina es un antagonista competitivo y reversible de los receptores de histamina H1 periféricos. Al bloquear estos receptores, impide que la histamina (una sustancia química liberada por el cuerpo durante una reacción alérgica) se una a ellos y desencadene los síntomas típicos de la alergia, como vasodilatación, aumento de la permeabilidad vascular, contracción del músculo liso bronquial y estimulación de las terminaciones nerviosas sensoriales que causan picazón. A diferencia de los antihistamínicos de primera generación, la terfenadina tiene una baja afinidad por los receptores colinérgicos muscarínicos y los receptores alfa-adrenérgicos, lo que explica su perfil de efectos secundarios con menor sedación. Es importante destacar que la terfenadina en sí es un profármaco; es su metabolito activo, la fexofenadina, el que ejerce principalmente el efecto antihistamínico. El riesgo cardíaco surge porque la terfenadina sin metabolizar puede bloquear los canales de potasio rectificadores tardíos (IKr) en el corazón, retrasando la repolarización ventricular y prolongando el intervalo QT.",
+    "pharmacologicClass": "Antagonista de los receptores H1 de histamina (de segunda generación), Profármaco de la fexofenadina, Bloqueador de los canales de potasio cardíacos IKr (efecto adverso).",
+    "therapeuticClass": "Antihistamínico, Antialérgico.",
+    "absorption": "Se absorbe bien por vía oral después de la administración, pero sufre un extenso metabolismo de primer paso en el hígado. La biodisponibilidad absoluta de la terfenadina sin metabolizar es baja (menos del 1%) debido a este metabolismo hepático significativo. La presencia de alimentos puede afectar su absorción.",
+    "distribution": "La terfenadina se distribuye ampliamente en los tejidos. Se une extensamente a proteínas plasmáticas (aproximadamente el 97%). Su metabolito activo, la fexofenadina, tiene una unión a proteínas plasmáticas de alrededor del 60-70%. El volumen de distribución (Vd) es grande, indicando una amplia distribución en los tejidos periféricos.",
+    "metabolism": "La terfenadina es metabolizada casi por completo en el hígado por el sistema enzimático del citocromo P450, específicamente por la isoenzima CYP3A4. Este metabolismo la convierte en su metabolito activo principal, la fexofenadina (ácido carboxílico), y en otros metabolitos inactivos. Cualquier factor que inhiba la CYP3A4 (como ciertos medicamentos o el jugo de toronja) puede provocar una acumulación peligrosa de terfenadina sin metabolizar en la sangre, aumentando el riesgo de efectos cardíacos.",
+    "elimination": "La vida media de eliminación de la terfenadina sin metabolizar es de aproximadamente 4.5 horas, pero la de su metabolito activo, la fexofenadina, es más larga (unas 14 horas). La eliminación es principalmente a través de las heces (aproximadamente 60%) y la orina (40%), mayormente en forma de metabolitos. Menos del 1% de la dosis se excreta sin cambios en la orina.",
+    "onsetOfAction": "El alivio de los síntomas suele comenzar entre 1 y 2 horas después de la administración oral.",
+    "durationOfAction": "El efecto antihistamínico tiene una duración de aproximadamente 12 a 24 horas, permitiendo una dosificación de una o dos veces al día."
+  },
+  "indications": {
+    "approved": [
+      "Alivio sintomático de la rinitis alérgica estacional (fiebre del heno) y perenne",
+      "Alivio sintomático de la urticaria idiopática crónica (ronchas)"
+    ],
+    "offLabel": [
+      "Alivio sintomático de otras afecciones alérgicas de la piel con prurito",
+      "Como alternativa no sedante (en su momento) para alergias en pacientes que no toleraban otros antihistamínicos (uso histórico)"
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis habitual histórica para adultos y adolescentes mayores de 12 años era de 60 mg dos veces al día, o 120 mg una vez al día en formulaciones de liberación prolongada. La dosis debe individualizarse y no exceder la dosis máxima diaria.",
+    "pediatric": "Niños de 6 a 12 años: 30 mg dos veces al día. Niños menores de 6 años: no se recomienda su uso por falta de datos de seguridad y el riesgo cardíaco. NOTA: Este esquema es histórico. Actualmente, el uso pediátrico está contraindicado o no recomendado.",
+    "elderly": "En adultos mayores, puede haber una disminución de la función hepática y renal. Se recomienda iniciar con la dosis más baja posible (ej. 60 mg una vez al día) y monitorizar estrechamente, aunque lo más seguro es evitar su uso por completo debido al riesgo cardíaco aumentado.",
+    "renalImpairment": "Ajuste necesario. Con insuficiencia renal (TFG <50 mL/min) o en pacientes en diálisis, la dosis debe reducirse a la mitad (ej. 60 mg una vez al día) o evitarse por completo, ya que la eliminación del metabolito activo (fexofenadina) puede estar disminuida.",
+    "hepaticImpairment": "Contraindicado en insuficiencia hepática significativa. La terfenadina depende casi por completo del metabolismo hepático (CYP3A4). Cualquier deterioro hepático puede llevar a una acumulación masiva de terfenadina sin metabolizar, aumentando drásticamente el riesgo de arritmias cardíacas graves. No debe usarse.",
+    "maxDose": "La dosis máxima diaria histórica era de 120 mg. Sin embargo, dosis superiores a 60 mg dos veces al día ya se asociaban con un aumento del riesgo de efectos cardíacos."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "60 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tableta de liberación prolongada",
+      "strengths": [
+        "120 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Suspensión oral",
+      "strengths": [
+        "30 mg/5 mL"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la terfenadina o a cualquiera de sus componentes",
+      "Pacientes con prolongación conocida del intervalo QT o antecedentes de síndrome de QT largo congénito",
+      "Insuficiencia hepática significativa (cirrosis, hepatitis activa)",
+      "Uso concomitante con inhibidores potentes de la enzima CYP3A4 (ver interacciones mayores)",
+      "Niveles bajos de potasio (hipokalemia) o magnesio (hipomagnesemia)",
+      "Bradicardia significativa (ritmo cardíaco lento)",
+      "Insuficiencia cardíaca congestiva"
+    ],
+    "relative": [
+      "Insuficiencia renal moderada a grave (TFG <50 mL/min)",
+      "Edad avanzada (mayores de 65 años)",
+      "Pacientes con enfermedades cardíacas subyacentes (isquemia, arritmias)",
+      "Uso concomitante con otros medicamentos que prolonguen el intervalo QT",
+      "Embarazo y lactancia (por falta de datos de seguridad y riesgo conocido)"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Dolor de cabeza (cefalea)"
+    ],
+    "common": [
+      "Sequedad de boca",
+      "Malestar gastrointestinal (náuseas, dolor abdominal)",
+      "Congestión nasal",
+      "Mareo",
+      "Somnolencia (aunque menos frecuente que con antihistamínicos antiguos)",
+      "Fatiga"
+    ],
+    "uncommon": [
+      "Nerviosismo o ansiedad",
+      "Aumento del apetito",
+      "Dolor articular o muscular",
+      "Visión borrosa",
+      "Palpitaciones"
+    ],
+    "rare": [
+      "Reacciones alérgicas cutáneas graves (rash, urticaria, dermatitis)",
+      "Hepatitis (inflamación del hígado)",
+      "Convulsiones",
+      "Pérdida del cabello (alopecia)",
+      "Cambios en los análisis de sangre (aumento de enzimas hepáticas)"
+    ],
+    "blackBoxWarning": "ADVERTENCIA: RIESGO DE ARRITMIAS CARDÍACAS GRAVES Y MUERTE SÚBITA. La terfenadina puede causar prolongación del intervalo QT en el electrocardiograma y torsades de pointes, una arritmia ventricular potencialmente fatal. Este riesgo aumenta con sobredosis, uso concomitante con inhibidores de la CYP3A4 (como ketoconazol, eritromicina), hipokalemia, hipomagnesemia, enfermedad cardíaca preexistente o disfunción hepática."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Ketoconazol, Itraconazol, Fluconazol (antifúngicos azoles)",
+        "effect": "Inhibición potente de CYP3A4, aumenta enormemente los niveles de terfenadina, riesgo extremo de arritmias.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Eritromicina, Claritromicina (antibióticos macrólidos)",
+        "effect": "Inhibición de CYP3A4, aumenta niveles de terfenadina y riesgo cardíaco.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Jugo de toronja (pomelo)",
+        "effect": "Inhibe la CYP3A4 intestinal y hepática, aumentando la concentración de terfenadina. EVITAR POR COMPLETO.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Antidepresivos tricíclicos (amitriptilina), Fenotiazinas",
+        "effect": "Pueden sumar efectos anticolinérgicos y también prolongar el intervalo QT, aumentando el riesgo cardíaco.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Antiarrítmicos de clase IA y III (quinidina, sotalol, amiodarona)",
+        "effect": "Suma el efecto de prolongación del QT, riesgo muy alto de arritmias.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores de la proteasa del VIH (ritonavir, indinavir)",
+        "effect": "Inhibidores potentes de CYP3A4, riesgo extremo de acumulación de terfenadina.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "El jugo de toronja (pomelo) está estrictamente contraindicado (ver interacciones mayores). El consumo de alcohol puede potenciar levemente el efecto sedante, aunque la terfenadina tiene baja incidencia de somnolencia. Los alimentos grasos pueden aumentar la absorción de la terfenadina, pero este efecto no es clínicamente significativo en comparación con el riesgo de las interacciones medicamentosas.",
+    "withSupplements": "Suplementos que inhiban la CYP3A4, como la hierba de San Juan (Hypericum perforatum) en uso crónico, pueden teóricamente interactuar, aunque el riesgo principal son los medicamentos recetados. Suplementos que causen pérdida de potasio o magnesio (como algunos diuréticos herbales) pueden aumentar el riesgo de arritmias."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA C",
+      "recommendation": "No se recomienda su uso durante el embarazo. Los estudios en animales han mostrado toxicidad fetal a dosis altas, y no hay estudios adecuados y bien controlados en mujeres embarazadas. Dado el riesgo conocido de arritmias graves en la madre y la disponibilidad de alternativas más seguras (como la loratadina o cetirizina, categoría B), la terfenadina debe evitarse. Solo debe considerarse si el beneficio potencial justifica claramente el riesgo potencial para el feto, lo cual es muy poco probable.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se desconoce si la terfenadina o su metabolito activo se excretan en la leche materna humana. Dada su extensa unión a proteínas, es probable que la excreción sea baja. Sin embargo, debido al grave perfil de riesgo cardíaco del medicamento y la existencia de alternativas más seguras, se recomienda evitar su uso durante la lactancia materna o suspender la lactancia si el tratamiento es absolutamente necesario (situación muy improbable).",
+    "pediatric": "Históricamente se usó en niños mayores de 6 años a dosis reducidas. Sin embargo, actualmente su uso en pediatría está contraindicado o fuertemente desaconsejado debido al riesgo de efectos cardíacos, que puede ser impredecible en niños. Existen múltiples antihistamínicos de segunda generación con perfiles de seguridad mucho más establecidos para la población pediátrica.",
+    "geriatric": "Los pacientes mayores de 65 años son más susceptibles a los efectos adversos, especialmente los cardíacos, debido a la mayor probabilidad de disminución de la función hepática y renal, y a la presencia de enfermedades cardíacas subyacentes o polifarmacia (múltiples medicamentos que pueden interactuar). Si se usara (lo cual no se recomienda), se debe iniciar con la dosis efectiva más baja y realizar una monitorización cardíaca estrecha. En la práctica, está contraindicado."
+  },
+  "administration": {
+    "howToTake": "Las tabletas deben tragarse enteras con un vaso de agua. Pueden tomarse con o sin alimentos, aunque tomarlas con comida puede reducir levemente las molestias gastrointestinales. Es crucial respetar el horario de las dosis y NO duplicar la dosis si se olvida una toma. En ese caso, tomar la dosis olvidada tan pronto como se recuerde, pero si ya es casi la hora de la siguiente dosis, saltar la olvidada y continuar con el horario normal.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (entre 15°C y 30°C), protegido de la luz, la humedad y el calor. Mantener fuera del alcance y de la vista de los niños. No utilizar después de la fecha de caducidad impresa en el envase.",
+    "specialInstructions": "ADVERTENCIA CRÍTICA: Informar inmediatamente al médico si se experimentan palpitaciones, desmayos, mareos intensos o dificultad para respirar. NUNCA tomar terfenadina con jugo de toronja (pomelo). Informar al médico o farmacéutico sobre TODOS los demás medicamentos que se estén tomando, incluyendo hierbas y suplementos. No tomar dosis mayores a las prescritas. Este medicamento ha sido retirado del mercado en muchos países y su uso en México es obsoleto y peligroso."
+  },
+  "monitoring": {
+    "labTests": [
+      "Electrolitos séricos (Potasio - K+, Magnesio - Mg++)",
+      "Pruebas de función hepática (ALT, AST, bilirrubina)",
+      "Electrocardiograma (ECG) para medir el intervalo QT",
+      "Creatinina sérica y TFG (para evaluar función renal)"
+    ],
+    "frequency": "Antes de iniciar el tratamiento (línea base) y periódicamente durante el tratamiento, especialmente si el paciente tiene factores de riesgo (edad avanzada, enfermedad hepática/renal, uso de otros fármacos). El ECG debe realizarse al inicio y ante cualquier síntoma cardíaco.",
+    "signsToWatch": [
+      "Palpitaciones, latidos cardíacos irregulares, rápidos o fuertes",
+      "Mareo, aturdimiento o desmayo (síncope)",
+      "Dificultad para respirar (disnea)",
+      "Dolor en el pecho",
+      "Hinchazón de manos, pies o tobillos",
+      "Ictericia (coloración amarilla de piel u ojos)",
+      "Fatiga extrema o debilidad muscular nueva"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Síntomas por exceso de efecto antihistamínico: somnolencia extrema, confusión, sequedad de boca severa, rubor facial",
+      "Síntomas cardíacos (LOS MÁS GRAVES): taquicardia ventricular, torsades de pointes, fibrilación ventricular, paro cardíaco, muerte súbita",
+      "Náuseas, vómitos",
+      "Convulsiones",
+      "Alucinaciones"
+    ],
+    "treatment": "No existe antídoto específico. El tratamiento es de soporte y sintomático. En caso de sospecha de sobredosis, se debe buscar atención médica de URGENCIA inmediatamente. El lavado gástrico o la administración de carbón activado pueden considerarse si la ingestión es reciente. El monitoreo cardíaco continuo (en una Unidad de Cuidados Intensivos) es MANDATORIO durante al menos 24 horas. El tratamiento de las arritmias puede requerir sulfato de magnesio intravenoso, marcapasos temporales o cardioversión. Se debe corregir cualquier alteración de electrolitos (potasio, magnesio).",
+    "antidote": "No existe un antídoto específico para la terfenadina."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (en los pocos lugares donde aún está disponible). En la práctica, su comercialización está suspendida o muy restringida.",
+    "scheduleMexico": "No incluido en las fracciones de control especial (no es estupefaciente ni psicotrópico). Sin embargo, su dispensación está sujeta a prescripción médica por su riesgo.",
+    "fdaApprovalYear": "Aprobada por la FDA en 1985. Retirada voluntariamente del mercado estadounidense en 1998 debido a los reportes de arritmias graves y muerte."
+  },
+  "brandsMexico": [
+    "Teldane",
+    "Triludan",
+    "Terfen",
+    "Alergix",
+    "Histadin",
+    "Nebralin",
+    "Seldane (marca original, ya no disponible)"
+  ],
+  "clinicalPearls": [
+    "La terfenadina es el ejemplo clásico de un fármaco retirado del mercado por farmacovigilancia. Su retirada en 1998 marcó un hito en la seguridad de los medicamentos.",
+    "Es un profármaco: su metabolito activo es la fexofenadina (Allegra®), que es un antihistamínico seguro y ampliamente utilizado hoy en día, sin el riesgo cardíaco de la terfenadina.",
+    "La interacción con el jugo de toronja es uno de los ejemplos más conocidos y peligrosos de interacción alimento-medicamento, debido a la inhibición de la enzima CYP3A4.",
+    "Su mecanismo de toxicidad cardíaca (bloqueo del canal IKr) es compartido por otros fármacos retirados (astemizol) y algunos que requieren monitoreo estricto, enseñando la importancia del intervalo QT en la práctica clínica."
+  ],
+  "patientCounseling": "Es muy importante que sepa que la terfenadina es un medicamento con riesgos graves para el corazón que ha sido reemplazado por opciones más seguras. Si por alguna razón específica su médico le ha recetado terfenadina, debe seguir estas instrucciones AL PIE DE LA LETRA: Tome la dosis exacta que le indicaron, nunca más. NUNCA, bajo ninguna circunstancia, tome terfenadina con jugo de toronja (también llamado pomelo), ya que puede causar intoxicación grave. Informe a todos sus médicos y a su farmacéutico que está tomando este medicamento antes de que le receten cualquier otro, incluyendo antibióticos, antimicóticos o remedios herbales. Esté alerta a señales de alarma como latidos irregulares o muy rápidos, mareo intenso, desmayo o dificultad para respirar; si ocurren, deje de tomar el medicamento y busque atención médica de inmediato. No conduzca ni opere maquinaria hasta que sepa cómo le afecta, aunque generalmente no da sueño. Guarde el medicamento en un lugar seguro, fuera del alcance de los niños.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Estornudos",
+        "slug": "estornudos"
+      },
+      {
+        "name": "Picazón en la nariz",
+        "slug": "picazon-en-la-nariz"
+      },
+      {
+        "name": "Picazón en los ojos",
+        "slug": "picazon-en-los-ojos"
+      },
+      {
+        "name": "Lagrimeo",
+        "slug": "lagrimeo"
+      },
+      {
+        "name": "Secreción nasal acuosa",
+        "slug": "secrecion-nasal-acuosa"
+      },
+      {
+        "name": "Ronchas o urticaria",
+        "slug": "ronchas-o-urticaria"
+      },
+      {
+        "name": "Picazón en la piel",
+        "slug": "picazon-en-la-piel"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Rinitis alérgica estacional",
+        "slug": "rinitis-alergica-estacional"
+      },
+      {
+        "name": "Rinitis alérgica perenne",
+        "slug": "rinitis-alergica-perenne"
+      },
+      {
+        "name": "Urticaria idiopática crónica",
+        "slug": "urticaria-idiopatica-cronica"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Síndrome de QT largo adquirido",
+        "slug": "sindrome-de-qt-largo-adquirido"
+      },
+      {
+        "name": "Torsades de pointes",
+        "slug": "torsades-de-pointes"
+      },
+      {
+        "name": "Arritmia ventricular",
+        "slug": "arritmia-ventricular"
+      },
+      {
+        "name": "Hepatitis tóxica",
+        "slug": "hepatitis-toxica"
+      },
+      {
+        "name": "Reacción alérgica cutánea grave",
+        "slug": "reaccion-alergica-cutanea-grave"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Intervalo QT (en ECG)",
+        "slug": "intervalo-qt-ecg",
+        "effect": "Puede prolongar (aumentar)"
+      },
+      {
+        "name": "Potasio sérico (K+)",
+        "slug": "potasio-serico",
+        "effect": "La hipokalemia (disminución) aumenta su riesgo"
+      },
+      {
+        "name": "Magnesio sérico (Mg++)",
+        "slug": "magnesio-serico",
+        "effect": "La hipomagnesemia (disminución) aumenta su riesgo"
+      },
+      {
+        "name": "Alanina aminotransferasa (ALT)",
+        "slug": "alanina-aminotransferasa-alt",
+        "effect": "Puede elevar (daño hepático)"
+      },
+      {
+        "name": "Aspartato aminotransferasa (AST)",
+        "slug": "aspartato-aminotransferasa-ast",
+        "effect": "Puede elevar (daño hepático)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Electrocardiograma (ECG)",
+        "slug": "electrocardiograma-ecg",
+        "reason": "Para evaluar el intervalo QT basal y monitorizar cambios durante el tratamiento."
+      },
+      {
+        "name": "Electrolitos séricos (K+, Mg++)",
+        "slug": "electrolitos-sericos",
+        "reason": "Porque niveles bajos aumentan el riesgo de arritmias por terfenadina."
+      },
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-de-funcion-hepatica",
+        "reason": "Para detectar toxicidad hepática y porque la insuficiencia hepática contraindica su uso."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve la terfenadina?",
+      "a": "La terfenadina se usaba para aliviar los síntomas de alergias como la fiebre del heno (estornudos, picazón de nariz y ojos, secreción nasal) y la urticaria (ronchas con picazón). Sin embargo, debido a sus graves riesgos para el corazón, ya no se recomienda y ha sido reemplazada por medicamentos más seguros."
+    },
+    {
+      "q": "¿La terfenadina da sueño?",
+      "a": "A diferencia de los antihistamínicos más antiguos, la terfenadina generalmente no causa somnolencia en la mayoría de las personas. Este fue uno de sus principales beneficios cuando se lanzó. Sin embargo, algunas personas podían experimentar algo de cansancio o mareo."
+    },
+    {
+      "q": "¿Puedo tomar terfenadina si estoy embarazada?",
+      "a": "No. No se recomienda su uso durante el embarazo. Es categoría C de la FDA, lo que significa que hay riesgo potencial para el feto. Existen antihistamínicos considerados más seguros (categoría B) que deben usarse en su lugar. Consulte siempre a su médico."
+    },
+    {
+      "q": "¿La terfenadina se vende sin receta en México?",
+      "a": "No. La terfenadina requiere receta médica. Además, su disponibilidad en farmacias mexicanas es muy limitada o nula, ya que es un medicamento obsoleto y peligroso que ha sido retirado en muchos países."
+    },
+    {
+      "q": "¿Qué pasa si tomo terfenadina con jugo de toronja?",
+      "a": "ES MUY PELIGROSO. El jugo de toronja (pomelo) bloquea la enzima del hígado que descompone la terfenadina. Esto hace que se acumule una cantidad tóxica del medicamento en la sangre, aumentando enormemente el riesgo de sufrir una arritmia cardíaca grave o incluso muerte súbita. Debe evitarse por completo."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto la terfenadina?",
+      "a": "Los síntomas de la alergia suelen comenzar a mejorar entre 1 y 2 horas después de tomar la tableta."
+    },
+    {
+      "q": "¿Puedo tomar terfenadina con alcohol?",
+      "a": "No es recomendable. Aunque la terfenadina causa menos sueño que otros antihistamínicos, el alcohol puede potenciar cualquier efecto sedante residual y también afectar al hígado, aumentando el riesgo de efectos secundarios."
+    },
+    {
+      "q": "¿Qué hago si olvidé una dosis de terfenadina?",
+      "a": "Tómela tan pronto como lo recuerde. Sin embargo, si ya es casi la hora de su siguiente dosis, sáltese la dosis olvidada y continúe con su horario normal. NUNCA duplique la dosis para compensar la olvidada, ya que aumentar la dosis aumenta el riesgo de problemas cardíacos."
+    },
+    {
+      "q": "¿La terfenadina es lo mismo que la fexofenadina (Allegra®)?",
+      "a": "Están muy relacionadas, pero no son lo mismo. La terfenadina es el \"profármaco\" que, al ser metabolizada por el hígado, se convierte en parte en fexofenadina (su metabolito activo). La fexofenadina es el medicamento seguro que se usa hoy en día; no tiene el riesgo cardíaco de la terfenadina porque no bloquea los canales del corazón."
+    },
+    {
+      "q": "¿Por qué retiraron la terfenadina del mercado?",
+      "a": "Fue retirada (principalmente en EE.UU. y Europa) a finales de los 90 porque se descubrió que podía causar un tipo de arritmia cardíaca mortal llamada \"torsades de pointes\", especialmente en dosis altas, en personas con problemas hepáticos o cuando se combinaba con otros medicamentos comunes o jugo de toronja."
+    },
+    {
+      "q": "¿Qué síntomas debo vigilar por problemas del corazón con terfenadina?",
+      "a": "Busque atención médica de URGENCIA si siente: palpitaciones (corazón acelerado, saltado o irregular), mareo o aturdimiento intenso, desmayo, o dificultad para respirar. Estos pueden ser signos de una arritmia grave."
+    },
+    {
+      "q": "¿Pueden los niños tomar terfenadina?",
+      "a": "Actualmente NO se recomienda. Históricamente se usaba en niños mayores de 6 años, pero hoy en día está contraindicado en pediatría debido al riesgo cardíaco impredecible. Existen muchas alternativas seguras para niños."
+    },
+    {
+      "q": "¿Qué medicamentos no debo mezclar con terfenadina?",
+      "a": "Muchos. Los más peligrosos son: antibióticos como eritromicina, antimicóticos como ketoconazol, algunos medicamentos para el VIH, antidepresivos tricíclicos, y otros que afecten el ritmo cardíaco. SIEMPRE informe a su médico de todos los medicamentos que toma."
+    },
+    {
+      "q": "¿La terfenadina afecta el hígado?",
+      "a": "Sí, puede causar daño hepático (hepatitis) como efecto adverso poco común. Además, si usted ya tiene un hígado que no funciona bien (insuficiencia hepática), está ABSOLUTAMENTE contraindicado tomar terfenadina, ya que el riesgo de arritmia se multiplica."
+    },
+    {
+      "q": "¿Es seguro tomar terfenadina si tengo presión alta?",
+      "a": "Debe usarse con extrema precaución y solo bajo supervisión médica estrecha. La terfenadina por sí sola no afecta mucho la presión, pero si usted toma medicamentos para la presión o tiene enfermedad cardíaca, el riesgo de arritmia aumenta. Lo más seguro es usar un antihistamínico alternativo."
+    },
+    {
+      "q": "¿Puedo manejar o operar maquinaria si tomo terfenadina?",
+      "a": "En general, se consideraba seguro porque no causa somnolencia significativa. Sin embargo, cada persona reacciona diferente. Se recomienda no conducir o realizar actividades que requieran alerta hasta que esté seguro de cómo le afecta el medicamento."
+    },
+    {
+      "q": "¿Qué pasa si tomo una sobredosis de terfenadina?",
+      "a": "Una sobredosis es una EMERGENCIA MÉDICA GRAVE. Puede causar somnolencia extrema, convulsiones y, lo más peligroso, paro cardíaco por arritmia. Si sospecha una sobredosis, llame a emergencias o acuda inmediatamente al hospital. El tratamiento requiere monitoreo cardíaco intensivo."
+    },
+    {
+      "q": "¿Existe un antídoto para la intoxicación por terfenadina?",
+      "a": "No existe un antídoto específico. El tratamiento en el hospital es de soporte: se monitoriza el corazón continuamente, se corrigen los niveles de potasio y magnesio, y se tratan las arritmias si aparecen, con medicamentos como sulfato de magnesio o con un marcapasos temporal."
+    },
+    {
+      "q": "¿Por qué mi médico me recetó terfenadina si es tan peligrosa?",
+      "a": "Es una situación muy inusual hoy en día. Si un médico en México la receta, debe tener una justificación muy específica (por ejemplo, alergia a todas las alternativas más seguras) y usted debe estar bajo una supervisión cardiológica muy estrecha, con electrocardiogramas regulares. Pregunte a su médico sobre las alternativas más seguras disponibles."
+    },
+    {
+      "q": "Desde el punto de vista farmacológico, ¿cuál es la principal lección que dejó la terfenadina?",
+      "a": "La terfenadina enseñó la importancia crítica de la farmacovigilancia (monitoreo de efectos adversos después de la comercialización) y del estudio de las interacciones medicamentosas, especialmente las que involucran la enzima CYP3A4. También destacó la necesidad de evaluar el potencial de prolongación del QT en el desarrollo de nuevos fármacos, convirtiéndose en un caso de estudio para la seguridad cardiovascular de los medicamentos."
+    }
+  ]
+}

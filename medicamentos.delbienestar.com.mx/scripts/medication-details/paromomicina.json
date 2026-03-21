@@ -1,0 +1,429 @@
+{
+  "name": "Paromomicina",
+  "summary": "La paromomicina es un antibiótico de la familia de los aminoglucósidos que se utiliza principalmente para tratar infecciones intestinales causadas por parásitos, especialmente la amibiasis intestinal (infección por Entamoeba histolytica) y la giardiasis (infección por Giardia lamblia). A diferencia de otros aminoglucósidos, se administra por vía oral porque se absorbe muy poco en el intestino, lo que permite que actúe directamente sobre los parásitos en el tracto gastrointestinal con un riesgo mínimo de efectos secundarios sistémicos como daño renal o auditivo. Su importancia clínica radica en ser un tratamiento de primera línea para la amibiasis intestinal no invasiva y una alternativa eficaz para la giardiasis, especialmente en pacientes que no toleran otros medicamentos como el metronidazol. También se utiliza para la 'esterilización intestinal' antes de ciertas cirugías y, en su forma inyectable (menos común), para tratar infecciones graves como la leishmaniasis visceral. Es un medicamento esencial en regiones con alta prevalencia de enfermedades parasitarias.",
+  "pharmacology": {
+    "mechanismOfAction": "La paromomicina actúa uniéndose irreversiblemente a la subunidad 30S del ribosoma bacteriano y del parásito, lo que interfiere con la síntesis de proteínas. Esta unión provoca que el ribosoma 'lea mal' el código genético (ARN mensajero), lo que resulta en la producción de proteínas defectuosas y no funcionales. En los parásitos, como las amebas y Giardia, este mecanismo altera su metabolismo, inhibe su reproducción y finalmente lleva a su muerte. Al ser un aminoglucósido, su acción es bactericida (mata bacterias) y amebicida (mata amebas). Su baja absorción sistémica cuando se toma por vía oral permite concentraciones muy altas en la luz intestinal, donde están los parásitos, minimizando los efectos tóxicos en otros órganos.",
+    "pharmacologicClass": "Antibiótico aminoglucósido (aminociclitol).",
+    "therapeuticClass": "Antiamebiano intestinal, Antiparasitario, Antibiótico.",
+    "absorption": "La absorción por vía oral es mínima (menos del 1% de la dosis). La mayor parte del medicamento permanece en el tracto gastrointestinal, que es su sitio de acción principal. En pacientes con úlceras intestinales, inflamación o daño en la mucosa, la absorción puede aumentar ligeramente.",
+    "distribution": "Debido a su pobre absorción, la distribución sistémica es insignificante. Las concentraciones en sangre son muy bajas o indetectables después de una dosis oral. No se distribuye significativamente a tejidos como riñón u oído interno, a diferencia de otros aminoglucósidos inyectables. Su volumen de distribución (Vd) es prácticamente el volumen del contenido intestinal.",
+    "metabolism": "No sufre metabolismo hepático significativo. No es sustrato, inhibidor o inductor del sistema de enzimas CYP450 (citocromo P450). Su acción es directa en el intestino y se elimina sin cambios.",
+    "elimination": "Se elimina casi en su totalidad (más del 99%) sin cambios por las heces. La pequeña fracción que se absorbe se elimina por filtración glomerular en los riñones. Su vida media en plasma es muy corta (aproximadamente 2-3 horas) debido a la rápida excreción fecal.",
+    "onsetOfAction": "El alivio de los síntomas como la diarrea puede comenzar en 24-48 horas, pero la erradicación completa del parásito requiere completar el ciclo de tratamiento de varios días.",
+    "durationOfAction": "Su efecto es principalmente durante su presencia en el intestino. No tiene un efecto prolongado o residual significativo después de suspenderlo."
+  },
+  "indications": {
+    "approved": [
+      "Amibiasis intestinal (infección por Entamoeba histolytica) sintomática y asintomática (portador)",
+      "Giardiasis (infección por Giardia lamblia)",
+      "Esterilización intestinal preoperatoria (para reducir la flora bacteriana del colon antes de cirugía)",
+      "Tratamiento de la encefalopatía hepática (para reducir la producción de amonio por bacterias intestinales)",
+      "Leishmaniasis visceral (forma inyectable, uso hospitalario)"
+    ],
+    "offLabel": [
+      "Tratamiento de infecciones intestinales por Cryptosporidium parvum (especialmente en pacientes inmunocomprometidos)",
+      "Profilaxis de la diarrea del viajero",
+      "Tratamiento de infecciones por Dientamoeba fragilis",
+      "Como parte de regímenes de descontaminación digestiva selectiva"
+    ]
+  },
+  "dosage": {
+    "adults": "Amibiasis intestinal: 25-35 mg/kg/día, dividido en 3 dosis (cada 8 horas), durante 5-10 días. Dosis típica: 500 mg tres veces al día. Giardiasis: 25-30 mg/kg/día, dividido en 3 dosis, durante 5-10 días. Esterilización intestinal: 1 gramo cada hora por 4 dosis, luego 1 gramo cada 6 horas durante 36-72 horas antes de la cirugía. Encefalopatía hepática: 4 gramos al día, divididos en 2-4 dosis.",
+    "pediatric": "Amibiasis y Giardiasis: 25-35 mg/kg/día, dividido en 3 dosis (cada 8 horas), durante 5-10 días. La dosis debe calcularse con precisión según el peso del niño.",
+    "elderly": "No se requieren ajustes de dosis específicos solo por edad. Sin embargo, se debe evaluar la función renal, ya que puede estar disminuida, y considerar la posible mayor sensibilidad a efectos gastrointestinales.",
+    "renalImpairment": "En insuficiencia renal leve a moderada (TFG >30 mL/min): No se requieren ajustes significativos debido a la mínima absorción. En insuficiencia renal grave (TFG <30 mL/min) o en diálisis: Se recomienda precaución y posible reducción de la dosis o ampliación del intervalo, ya que la pequeña fracción absorbida puede acumularse. Monitorizar función renal.",
+    "hepaticImpairment": "No se requieren ajustes de dosis. De hecho, se utiliza para el manejo de la encefalopatía hepática.",
+    "maxDose": "La dosis máxima diaria generalmente no excede los 4 gramos (4000 mg) en adultos, en regímenes para encefalopatía hepática. Para tratamiento antiparasitario, rara vez se superan los 3 gramos diarios."
+  },
+  "dosageForms": [
+    {
+      "form": "Cápsula",
+      "strengths": [
+        "250 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tableta",
+      "strengths": [
+        "500 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Jarabe / Suspensión oral",
+      "strengths": [
+        "125 mg/5 mL"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Polvo para solución oral",
+      "strengths": [
+        "500 mg/5 g"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Inyección (sulfato de paromomicina)",
+      "strengths": [
+        "750 mg/vial"
+      ],
+      "route": "Intramuscular"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la paromomicina o a cualquier otro aminoglucósido (como gentamicina, amikacina)",
+      "Obstrucción intestinal o íleo paralítico",
+      "Miastenia gravis (por riesgo de bloqueo neuromuscular)",
+      "Embarazo (en algunos criterios, por riesgo potencial de toxicidad auditiva fetal)"
+    ],
+    "relative": [
+      "Enfermedad inflamatoria intestinal activa (puede aumentar la absorción)",
+      "Úlceras gastrointestinales extensas",
+      "Insuficiencia renal grave (TFG <30 mL/min)",
+      "Pacientes de edad avanzada con fragilidad",
+      "Pacientes con antecedentes de trastornos auditivos"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Náuseas",
+      "Dolor abdominal o cólicos",
+      "Diarrea (puede ser frecuente)",
+      "Flatulencia (gases)"
+    ],
+    "common": [
+      "Vómito",
+      "Pérdida del apetito",
+      "Acidez estomacal",
+      "Mareo ligero",
+      "Heces blandas"
+    ],
+    "uncommon": [
+      "Dolor de cabeza",
+      "Prurito (comezón) sin erupción",
+      "Sabor desagradable en la boca",
+      "Estomatitis (inflamación de la boca)",
+      "Disminución de la audición (con uso prolongado o en pacientes con riesgo)"
+    ],
+    "rare": [
+      "Erupción cutánea alérgica",
+      "Urticaria",
+      "Sordera o tinnitus (zumbido en oídos) - riesgo mayor con forma inyectable o absorción aumentada",
+      "Daño renal (proteinuria, elevación de creatinina) - muy raro por vía oral",
+      "Bloqueo neuromuscular (dificultad para respirar, debilidad muscular)"
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Otros aminoglucósidos inyectables (Gentamicina, Amikacina, Tobramicina)",
+        "effect": "Riesgo aditivo de toxicidad renal (nefrotoxicidad) y auditiva (ototoxicidad).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Diuréticos de asa (Furosemida, Bumetanida)",
+        "effect": "Pueden aumentar el riesgo de ototoxicidad (daño auditivo).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Relajantes musculares (Succinilcolina, Tubocurarina)",
+        "effect": "Puede potenciar el bloqueo neuromuscular, llevando a parálisis respiratoria.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Fármacos nefrotóxicos (Vancomicina IV, Anfotericina B, Cisplatino)",
+        "effect": "Aumento del riesgo de daño renal.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Digoxina, Metotrexato",
+        "effect": "La paromomicina puede disminuir su absorción intestinal, reduciendo su efectividad. Separar las dosis al menos 2 horas.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Puede tomarse con o sin alimentos. Tomarlo con alimentos puede ayudar a reducir las molestias gastrointestinales como náuseas. El alcohol no interfiere directamente con su acción, pero puede empeorar los síntomas gastrointestinales y la deshidratación por diarrea.",
+    "withSupplements": "Suplementos que contengan caolín, pectina o antiácidos con magnesio/aluminio pueden unirse a la paromomicina en el intestino y reducir su efectividad. Separar la administración al menos 2 horas. Los probióticos pueden ser útiles para restaurar la flora intestinal después del tratamiento, pero también separar su ingesta."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA D",
+      "recommendation": "Su uso durante el embarazo generalmente no se recomienda, especialmente en el primer trimestre, debido al riesgo potencial de toxicidad auditiva en el feto (ototoxicidad), ya que los aminoglucósidos pueden cruzar la placenta. Solo debe usarse si el beneficio para la madre justifica claramente el riesgo potencial para el feto, en infecciones graves que no respondan a alternativas más seguras (como metronidazol en ciertos casos). Requiere supervisión médica estricta.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se considera compatible con la lactancia materna con precaución. Debido a su mínima absorción sistémica, es poco probable que se excrete en cantidades significativas en la leche materna. Sin embargo, se debe observar al lactante por posibles efectos en la flora intestinal (como diarrea). Se considera una alternativa cuando no se puede usar metronidazol.",
+    "pediatric": "Se puede usar en niños para el tratamiento de amibiasis y giardiasis. La dosis se calcula cuidadosamente por peso. La suspensión oral es la forma preferida para facilitar la administración. Monitorizar la hidratación, ya que los niños son más susceptibles a la diarrea.",
+    "geriatric": "Los adultos mayores pueden ser más sensibles a los efectos adversos gastrointestinales. Es importante evaluar la función renal antes y durante el tratamiento, ya que puede estar disminuida de forma natural. Asegurar una adecuada hidratación para contrarrestar la posible diarrea."
+  },
+  "administration": {
+    "howToTake": "Tomar las cápsulas o tabletas con un vaso lleno de agua (240 mL). Puede tomarse con alimentos para reducir malestar estomacal. Para la suspensión oral, agitar bien el frasco antes de cada uso y medir la dosis con el dosificador proporcionado (cuchara o jeringa oral). No usar una cuchara de cocina. Completa todo el ciclo de tratamiento prescrito (generalmente 5-10 días), incluso si te sientes mejor antes, para asegurar que la infección desaparezca por completo.",
+    "storage": "Conservar a temperatura ambiente (15-30°C), en un lugar seco y fuera del alcance de la luz directa. No congelar. Mantener el frasco de suspensión oral bien cerrado. Desechar cualquier suspensión no utilizada después del período indicado en el envase (generalmente 14 días después de reconstituida).",
+    "specialInstructions": "Mantener una buena higiene personal (lavado de manos) para evitar reinfección o contagio a otras personas. Es recomendable que los convivientes se realicen estudios de heces si presentan síntomas. Durante el tratamiento, beber abundantes líquidos para prevenir la deshidratación por la diarrea. No compartir el medicamento con otras personas, aunque tengan síntomas similares."
+  },
+  "monitoring": {
+    "labTests": [
+      "Examen coproparasitoscópico (heces) para confirmar la erradicación del parásito",
+      "Creatinina sérica y TFG (en pacientes con riesgo renal o uso prolongado)",
+      "Electrolitos séricos (sodio, potasio) si hay diarrea profusa",
+      "Pruebas de función auditiva (audiometría) solo en casos de uso muy prolongado o alta dosis"
+    ],
+    "frequency": "Examen de heces de control: 2-4 semanas después de terminar el tratamiento. Función renal: Al inicio y semanalmente si el tratamiento es prolongado (>10 días) o en pacientes con riesgo. Monitoreo clínico de síntomas y signos de deshidratación durante el tratamiento.",
+    "signsToWatch": [
+      "Diarrea severa o con sangre/mucosidad",
+      "Vómito persistente que impida la ingesta",
+      "Signos de deshidratación: boca seca, sed excesiva, poca orina, mareo al ponerse de pie",
+      "Erupción cutánea o urticaria",
+      "Zumbido en los oídos (tinnitus) o sensación de oído tapado/pérdida auditiva",
+      "Debilidad muscular extrema o dificultad para respirar"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Náuseas y vómitos severos",
+      "Diarrea acuosa profusa y cólicos abdominales intensos",
+      "Pérdida de audición o tinnitus (si hubo absorción significativa)",
+      "Mareo, vértigo",
+      "Signos de deshidratación y desequilibrio electrolítico"
+    ],
+    "treatment": "El tratamiento es de soporte. Suspender el medicamento inmediatamente. No hay antídoto específico. Manejar la deshidratación con reposición de líquidos y electrolitos por vía oral o intravenosa según la gravedad. El carbón activado puede ser útil si la ingestión fue reciente, aunque su eficacia es limitada debido a la pobre absorción. En casos de bloqueo neuromuscular (muy raro), puede requerirse ventilación asistida y antagonistas como neostigmina.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Rx).",
+    "scheduleMexico": "Medicamento de patente (no incluido en cuadro básico), sujeto a prescripción.",
+    "fdaApprovalYear": "Aprobado por la FDA en 1959 (forma oral)."
+  },
+  "brandsMexico": [
+    "Humagel",
+    "Gabbromicina",
+    "Paromomicina",
+    "Paromicin",
+    "Amibios",
+    "Farmamicina"
+  ],
+  "clinicalPearls": [
+    "La paromomicina es el tratamiento de elección para la amibiasis intestinal no invasiva (portadores asintomáticos y colitis amibiana), ya que actúa localmente en la luz intestinal con mínimos efectos sistémicos.",
+    "A diferencia del metronidazol (Flagyl), la paromomicina no causa efecto antabuse (reacción con alcohol) ni tiene potencial mutagénico, por lo que es una alternativa valiosa, especialmente en giardiasis.",
+    "En pacientes con enfermedad inflamatoria intestinal (Crohn, colitis ulcerosa) o úlceras intestinales, se debe usar con extrema precaución debido al riesgo aumentado de absorción sistémica y toxicidad (ototoxicidad, nefrotoxicidad)."
+  ],
+  "patientCounseling": "Es muy importante que tomes este medicamento exactamente como te lo indicó tu médico. Completa todos los días de tratamiento, aunque te sientas mejor, para evitar que la infección regrese. Tómalo con un vaso lleno de agua y, si te causa malestar en el estómago, puedes tomarlo con alimentos. Durante el tratamiento, es normal que tengas algo de diarrea o gases; para manejarlo, bebe mucha agua, jugos o suero oral para mantenerte hidratado. Lávate las manos con frecuencia, especialmente después de ir al baño y antes de comer, para no contagiar a otros ni reinfectarte. Si presentas diarrea muy fuerte con sangre, vómito que no te deja tomar el medicamento, sarpullido, zumbido en los oídos o mareo intenso, deja de tomarlo y contacta a tu médico de inmediato. No compartas este medicamento con familiares, aunque tengan síntomas similares, ya que cada infección requiere un diagnóstico preciso.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Diarrea",
+        "slug": "diarrea"
+      },
+      {
+        "name": "Dolor abdominal tipo cólico",
+        "slug": "dolor-abdominal-tipo-colico"
+      },
+      {
+        "name": "Flatulencia excesiva",
+        "slug": "flatulencia-excesiva"
+      },
+      {
+        "name": "Náuseas",
+        "slug": "nauseas"
+      },
+      {
+        "name": "Pérdida de peso involuntaria",
+        "slug": "perdida-de-peso-involuntaria"
+      },
+      {
+        "name": "Fatiga",
+        "slug": "fatiga"
+      },
+      {
+        "name": "Heces con moco",
+        "slug": "heces-con-moco"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Amibiasis intestinal",
+        "slug": "amibiasis-intestinal"
+      },
+      {
+        "name": "Giardiasis",
+        "slug": "giardiasis"
+      },
+      {
+        "name": "Colitis amebiana",
+        "slug": "colitis-amebiana"
+      },
+      {
+        "name": "Encefalopatía hepática",
+        "slug": "encefalopatia-hepatica"
+      },
+      {
+        "name": "Portador asintomático de Entamoeba histolytica",
+        "slug": "portador-asintomatico-de-entamoeba"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Ototoxicidad (pérdida auditiva, tinnitus)",
+        "slug": "ototoxicidad"
+      },
+      {
+        "name": "Nefrotoxicidad (daño renal agudo)",
+        "slug": "nefrotoxicidad"
+      },
+      {
+        "name": "Colitis pseudomembranosa (asociada a alteración de flora)",
+        "slug": "colitis-pseudomembranosa"
+      },
+      {
+        "name": "Deshidratación",
+        "slug": "deshidratacion"
+      },
+      {
+        "name": "Desequilibrio electrolítico",
+        "slug": "desequilibrio-electrolitico"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Nitrógeno ureico en sangre (BUN)",
+        "slug": "nitrogeno-ureico-sangre",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Potasio sérico",
+        "slug": "potasio-serico",
+        "effect": "Puede disminuir (por diarrea)"
+      },
+      {
+        "name": "Sodio sérico",
+        "slug": "sodio-serico",
+        "effect": "Puede alterar"
+      },
+      {
+        "name": "Parásitos en heces",
+        "slug": "parasitos-en-heces",
+        "effect": "Disminuye/erradica"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Examen coproparasitoscópico seriado",
+        "slug": "examen-coproparasitoscopico",
+        "reason": "Para diagnosticar la infección y confirmar la cura después del tratamiento."
+      },
+      {
+        "name": "Creatinina sérica y TFG",
+        "slug": "creatinina-y-tfg",
+        "reason": "Para monitorear la función renal, especialmente en tratamientos prolongados o pacientes con riesgo."
+      },
+      {
+        "name": "Biometría hemática",
+        "slug": "biometria-hematica",
+        "reason": "Para evaluar el estado general y descartar anemia por pérdida crónica."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve la paromomicina?",
+      "a": "Sirve principalmente para tratar infecciones intestinales causadas por parásitos, como la amibiasis (infección por amibas) y la giardiasis. Mata a los parásitos directamente en el intestino, aliviando la diarrea, el dolor abdominal y otros síntomas."
+    },
+    {
+      "q": "¿La paromomicina es lo mismo que el Metronidazol (Flagyl)?",
+      "a": "No, son medicamentos diferentes. Ambos tratan infecciones por parásitos como amibas y Giardia, pero pertenecen a familias distintas. La paromomicina actúa solo en el intestino y no se absorbe casi nada, mientras que el metronidazol se absorbe y puede causar más efectos secundarios sistémicos y reacción con el alcohol."
+    },
+    {
+      "q": "¿Cómo debo tomar la paromomicina?",
+      "a": "Generalmente se toma por vía oral 3 veces al día (cada 8 horas), con un vaso lleno de agua. Puedes tomarla con alimentos si te causa malestar estomacal. Es crucial completar todos los días de tratamiento que te recetó el médico."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Puedes empezar a sentir alivio de la diarrea y el dolor en 1 o 2 días, pero para eliminar completamente al parásito y evitar que regrese, debes terminar el tratamiento completo, que suele durar entre 5 y 10 días."
+    },
+    {
+      "q": "¿Qué efectos secundarios son los más comunes?",
+      "a": "Los más comunes son náuseas, dolor de estómago, diarrea (puede ser parte del efecto del medicamento) y gases. Estos efectos suelen ser leves y mejoran tomando el medicamento con comida."
+    },
+    {
+      "q": "¿Puedo tomar alcohol mientras uso paromomicina?",
+      "a": "No hay una interacción directa como con el metronidazol, pero se recomienda evitar el alcohol porque puede empeorar las náuseas, el dolor abdominal y la deshidratación, especialmente si tienes diarrea."
+    },
+    {
+      "q": "¿La paromomicina me puede dar sueño o mareo?",
+      "a": "El mareo ligero es un efecto secundario poco común. Si lo experimentas, evita manejar o operar maquinaria hasta que sepas cómo te afecta. No suele causar somnolencia intensa."
+    },
+    {
+      "q": "¿Qué hago si se me olvida una dosis?",
+      "a": "Tómala tan pronto como te acuerdes. Sin embargo, si ya es casi la hora de tu siguiente dosis, omite la dosis olvidada y continúa con tu horario normal. No tomes una dosis doble para compensar."
+    },
+    {
+      "q": "¿Pueden tomarla niños?",
+      "a": "Sí, se puede usar en niños para tratar amibiasis y giardiasis. La dosis se calcula con precisión según el peso del niño, y a menudo se usa la presentación en jarabe. Siempre bajo prescripción médica."
+    },
+    {
+      "q": "¿Es seguro en el embarazo?",
+      "a": "Generalmente no se recomienda durante el embarazo, especialmente al principio, por un riesgo potencial de afectar la audición del bebé. Solo debe usarse si el médico considera que el beneficio es mayor que el riesgo, en casos muy necesarios."
+    },
+    {
+      "q": "¿Puedo amamantar si estoy tomando paromomicina?",
+      "a": "Sí, generalmente se considera compatible. Como casi no se absorbe, es muy poco lo que pasa a la leche materna. Aun así, observa a tu bebé por si presenta diarrea y consulta con tu médico."
+    },
+    {
+      "q": "¿Interfiere con las pastillas anticonceptivas?",
+      "a": "No hay evidencia de que interfiera con la efectividad de los anticonceptivos hormonales orales. Sin embargo, si presentas vómito o diarrea severa, la absorción de la pastilla podría verse afectada; usa un método de respaldo."
+    },
+    {
+      "q": "¿Necesito hacer algún estudio después del tratamiento?",
+      "a": "Sí, es recomendable realizar un examen de heces (coproparasitoscópico) unas semanas después de terminar el tratamiento para confirmar que el parásito se eliminó por completo."
+    },
+    {
+      "q": "¿Puedo tomar paromomicina si tengo problemas en los riñones?",
+      "a": "Si tienes insuficiencia renal grave, debes informar a tu médico. Aunque se absorbe poco, en estos casos puede requerir un ajuste de dosis o un monitoreo más cercano de la función renal."
+    },
+    {
+      "q": "¿La paromomicina causa daño en los oídos?",
+      "a": "Por vía oral y en tratamientos cortos es muy raro. El riesgo de ototoxicidad (daño auditivo o zumbido) es mayor con la forma inyectable o en pacientes con enfermedad intestinal que aumente su absorción. Informa a tu médico si notas cambios en la audición."
+    },
+    {
+      "q": "¿Qué alimentos debo evitar durante el tratamiento?",
+      "a": "No hay alimentos prohibidos específicos. Sin embargo, se recomienda una dieta blanda, baja en grasas y fibra si hay diarrea. Evita la leche y lácteos si empeoran los síntomas. Bebe muchos líquidos."
+    },
+    {
+      "q": "¿Puedo tomar probióticos (yogur, cápsulas) junto con paromomicina?",
+      "a": "Sí, los probióticos pueden ayudar a restaurar la flora intestinal buena después del tratamiento. Para que no interfieran, tómalos con al menos 2 horas de diferencia de la dosis de paromomicina."
+    },
+    {
+      "q": "¿La paromomicina sirve para la diarrea del viajero?",
+      "a": "No es el tratamiento de primera línea, pero en algunos casos puede usarse para prevenir o tratar diarrea del viajero causada por parásitos específicos. Siempre consulta a un médico especialista en medicina del viajero."
+    },
+    {
+      "q": "¿Qué pasa si tomo una sobredosis por accidente?",
+      "a": "Suspende el medicamento y busca atención médica de inmediato. Los síntomas serían diarrea y vómito muy severos, con riesgo de deshidratación. El tratamiento es de soporte, con reposición de líquidos."
+    },
+    {
+      "q": "¿Por qué a veces se usa paromomicina antes de una cirugía de colon?",
+      "a": "Se usa para 'esterilización intestinal', es decir, reducir la cantidad de bacterias en el colon antes de una cirugía, para disminuir el riesgo de infecciones postoperatorias. Se administra en un régimen de dosis específico horas antes de la operación."
+    }
+  ]
+}

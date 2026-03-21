@@ -1,0 +1,412 @@
+{
+  "name": "Malathion",
+  "summary": "El malathion es un medicamento que pertenece a un grupo llamado inhibidores de la colinesterasa. Se utiliza principalmente para tratar los síntomas de la enfermedad de Alzheimer de leve a moderada. Su función es ayudar a aumentar los niveles de una sustancia química en el cerebro llamada acetilcolina, que es importante para la memoria, el pensamiento y el razonamiento. En la enfermedad de Alzheimer, las células nerviosas que producen acetilcolina se dañan, y el malathion ayuda a compensar esta pérdida. Esto puede mejorar temporalmente algunos síntomas como la memoria, la capacidad de realizar actividades diarias y el comportamiento. Es importante entender que el malathion no cura la enfermedad de Alzheimer, pero puede ayudar a ralentizar el empeoramiento de los síntomas durante un tiempo, mejorando la calidad de vida del paciente y facilitando su cuidado. Su uso debe ser supervisado por un médico especialista, ya que requiere un ajuste cuidadoso de la dosis y monitoreo de posibles efectos secundarios.",
+  "pharmacology": {
+    "mechanismOfAction": "El malathion es un inhibidor irreversible de la acetilcolinesterasa (AChE) y butirilcolinesterasa (BuChE). Su mecanismo de acción principal consiste en unirse de forma covalente y permanente a la enzima acetilcolinesterasa, que normalmente se encarga de degradar el neurotransmisor acetilcolina en la sinapsis. Al inhibir esta enzima, el malathion aumenta la concentración y la duración de acción de la acetilcolina en las hendiduras sinápticas del sistema nervioso central. Este aumento de acetilcolina ayuda a compensar el déficit colinérgico característico de la enfermedad de Alzheimer, mejorando la transmisión de señales en las neuronas que aún están funcionales. La inhibición es irreversible, por lo que la recuperación de la actividad enzimática depende de la síntesis de nuevas moléculas de AChE, lo que explica su efecto de larga duración tras una sola aplicación tópica.",
+    "pharmacologicClass": "Inhibidor irreversible de la colinesterasa (Organofosforado)",
+    "therapeuticClass": "Agente antidemencia; Agente anticolinesterasa",
+    "absorption": "El malathion se absorbe de forma variable a través de la piel y las mucosas. Cuando se aplica tópicamente en el cuero cabelludo para el tratamiento de la pediculosis, la absorción sistémica es mínima (<10%) si se usa correctamente. La absorción oral o por inhalación es mucho mayor y más peligrosa. Para su uso en demencias, se formula como gel tópico para aplicación cutánea, buscando una liberación lenta y sostenida hacia la circulación sistémica.",
+    "distribution": "El malathion se distribuye ampliamente por los tejidos del organismo. Atraviesa la barrera hematoencefálica, lo que es crucial para su efecto en el sistema nervioso central en la enfermedad de Alzheimer. Su unión a proteínas plasmáticas es moderada. Su volumen de distribución (Vd) es grande, indicando una amplia distribución en los tejidos periféricos y en el sistema nervioso.",
+    "metabolism": "El malathion es un profármaco que requiere activación hepática. Es metabolizado principalmente en el hígado por enzimas del citocromo P450, específicamente por isoenzimas como la CYP1A2 y CYP3A4, hacia su metabolito activo, el malaoxón. Este metabolito es el responsable principal de la inhibición de la colinesterasa. Posteriormente, el malaoxón es hidrolizado por enzimas como las paraoxonasas (PON1) a metabolitos inactivos (ácido malatión dicarboxílico) que se eliminan por la orina.",
+    "elimination": "Los metabolitos inactivos del malathion se eliminan principalmente por vía renal. La vida media de eliminación es variable, pero puede ser prolongada debido a la unión irreversible a la colinesterasa. La excreción es principalmente urinaria, con más del 90% de la dosis recuperada en orina como metabolitos dicarboxílicos en un plazo de varios días.",
+    "onsetOfAction": "El inicio de acción tras la aplicación tópica del gel es gradual. Los niveles plasmáticos comienzan a detectarse en horas, pero el efecto clínico significativo sobre los síntomas cognitivos puede tardar varias semanas (4 a 8 semanas) en manifestarse de forma evidente.",
+    "durationOfAction": "La duración del efecto es prolongada debido al mecanismo de inhibición irreversible de la colinesterasa. Tras la aplicación de una dosis, el efecto farmacológico puede persistir durante días. En el esquema de tratamiento para Alzheimer, el gel se aplica una vez al día para mantener niveles terapéuticos estables."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento sintomático de la enfermedad de Alzheimer de leve a moderada",
+      "Tratamiento de la demencia tipo Alzheimer"
+    ],
+    "offLabel": [
+      "Demencia con cuerpos de Lewy (síntomas cognitivos)",
+      "Demencia vascular (como parte de un manejo combinado)",
+      "Deterioro cognitivo leve (en investigación)"
+    ]
+  },
+  "dosage": {
+    "adults": "Para la enfermedad de Alzheimer: Gel tópico al 0.5%. La dosis inicial habitual es de 5 mg (equivalente a 1 gramo de gel) aplicado una vez al día en la piel (generalmente en la espalda, el hombro o el muslo). La dosis puede incrementarse gradualmente, según tolerancia y respuesta, hasta una dosis de mantenimiento de 10 a 20 mg (2 a 4 gramos de gel) aplicados una vez al día. El ajuste debe realizarse bajo supervisión médica, típicamente cada 4 semanas.",
+    "pediatric": "No está indicado para uso pediátrico en el tratamiento de demencias. Su uso en niños se limita a la pediculosis con formulaciones y dosis específicas.",
+    "elderly": "No se requieren ajustes de dosis basados únicamente en la edad avanzada. Sin embargo, se debe iniciar con la dosis más baja posible (5 mg/día) debido a la mayor susceptibilidad a efectos colinérgicos adversos y a la mayor probabilidad de comorbilidades o polifarmacia.",
+    "renalImpairment": "Ajuste en insuficiencia renal leve a moderada (TFG 30-89 mL/min): Se recomienda precaución, pero generalmente no se requiere ajuste de dosis inicial. Monitorear estrechamente. Insuficiencia renal severa (TFG <30 mL/min): Se recomienda evitar su uso o utilizar con extrema precaución y a la dosis más baja posible, debido al riesgo acumulativo de metabolitos.",
+    "hepaticImpairment": "Ajuste en insuficiencia hepática leve (Child-Pugh A): Precaución, considerar dosis inicial más baja. Insuficiencia hepática moderada a severa (Child-Pugh B o C): Está contraindicado debido a que el metabolismo hepático está comprometido, lo que puede llevar a una acumulación del fármaco y su metabolito activo, aumentando el riesgo de toxicidad colinérgica severa.",
+    "maxDose": "La dosis máxima diaria recomendada es de 20 mg (equivalente a 4 gramos de gel al 0.5%) aplicados una vez al día."
+  },
+  "dosageForms": [
+    {
+      "form": "Gel tópico",
+      "strengths": [
+        "0.5%"
+      ],
+      "route": "Cutánea"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al malathion o a cualquier componente de la formulación",
+      "Insuficiencia hepática moderada a severa (Child-Pugh B y C)",
+      "Antecedentes de reacción adversa grave a otros inhibidores de la colinesterasa",
+      "Enfermedad pulmonar obstructiva crónica (EPOC) severa o asma bronquial inestable",
+      "Obstrucción gastrointestinal o urinaria mecánica no resuelta",
+      "Síndrome de QT largo congénito o adquirido"
+    ],
+    "relative": [
+      "Insuficiencia renal severa (TFG <30 mL/min)",
+      "Bradicardia sinusal o bloqueo cardíaco (enfermedad del nodo sinusal) sin marcapasos",
+      "Historia de úlcera péptica activa o sangrado gastrointestinal",
+      "Epilepsia o trastornos convulsivos no controlados",
+      "Enfermedad de Parkinson (puede exacerbarla)",
+      "Uso concomitante de otros fármacos con efectos anticolinérgicos"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Prurito (comezón) en el sitio de aplicación",
+      "Eritema (enrojecimiento) en el sitio de aplicación",
+      "Dolor de cabeza",
+      "Mareo"
+    ],
+    "common": [
+      "Náuseas",
+      "Vómitos",
+      "Diarrea",
+      "Pérdida de apetito",
+      "Calambres abdominales",
+      "Salivación aumentada",
+      "Sudoración profusa",
+      "Fatiga",
+      "Insomnio",
+      "Pérdida de peso",
+      "Síncope (desmayo) relacionado con bradicardia"
+    ],
+    "uncommon": [
+      "Bradicardia (ritmo cardíaco lento)",
+      "Bloqueo auriculoventricular",
+      "Prolongación del intervalo QT en el ECG",
+      "Convulsiones",
+      "Alucinaciones (más común en demencia con cuerpos de Lewy)",
+      "Agitación",
+      "Depresión",
+      "Reacción de hipersensibilidad en la piel (dermatitis de contacto)",
+      "Debilidad muscular",
+      "Calambres musculares",
+      "Visión borrosa"
+    ],
+    "rare": [
+      "Síndrome neuroléptico maligno (en combinación con antipsicóticos)",
+      "Rabdomiólisis (descomposición muscular)",
+      "Pancreatitis",
+      "Hepatitis colestásica",
+      "Anafilaxia",
+      "Síndrome de secreción inadecuada de hormona antidiurética (SIADH)",
+      "Úlcera péptica o sangrado gastrointestinal"
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Succinilcolina",
+        "effect": "Potenciación severa y prolongación del efecto bloqueante neuromuscular, riesgo de apnea prolongada.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Atropina y otros anticolinérgicos (ej. difenhidramina, oxibutinina)",
+        "effect": "Antagonismo farmacológico; los anticolinérgicos pueden anular el efecto terapéutico del malathion y viceversa.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Betabloqueadores (ej. propranolol, metoprolol)",
+        "effect": "Aumento aditivo del riesgo de bradicardia severa y bloqueo cardíaco.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Digoxina",
+        "effect": "Aumento del riesgo de bradicardia y bloqueo cardíaco.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Antipsicóticos típicos (ej. haloperidol) y atípicos",
+        "effect": "Aumento del riesgo de efectos extrapiramidales y del síndrome neuroléptico maligno. Los antipsicóticos con actividad anticolinérgica pueden antagonizar el efecto del malathion.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inhibidores de la CYP3A4 (ej. ketoconazol, claritromicina)",
+        "effect": "Pueden aumentar las concentraciones plasmáticas del malathion y su metabolito activo, incrementando el riesgo de toxicidad.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inductores de la CYP3A4 (ej. rifampicina, carbamazepina)",
+        "effect": "Pueden disminuir las concentraciones plasmáticas del malathion, reduciendo su eficacia.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "No se han descrito interacciones clínicamente significativas con alimentos. El gel se aplica sobre la piel, por lo que la ingesta de alimentos no afecta su absorción. Se debe evitar el consumo excesivo de alcohol, ya que puede potenciar los efectos depresores del sistema nervioso central (mareo, somnolencia) y aumentar el riesgo de toxicidad hepática.",
+    "withSupplements": "Evitar el uso de suplementos que contengan plantas con efectos anticolinérgicos (como la belladona) o colinérgicos (como el Ginkgo biloba en altas dosis), ya que pueden interferir con el efecto del medicamento. Los suplementos de melatonina pueden potenciar la somnolencia."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA B (para uso tópico en pediculosis) / No establecida para uso crónico en Alzheimer",
+      "recommendation": "No se recomienda su uso durante el embarazo para el tratamiento de la enfermedad de Alzheimer. Los datos en humanos son insuficientes. Los estudios en animales han mostrado toxicidad. Solo debe usarse si el beneficio potencial para la madre justifica claramente el riesgo potencial para el feto. En mujeres en edad fértil, se debe utilizar un método anticonceptivo efectivo durante el tratamiento.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se desconoce si el malathion o sus metabolitos se excretan en la leche materna. Dado su potencial de toxicidad y la ausencia de datos, se recomienda evitar la lactancia materna durante el tratamiento con malathion. Se debe decidir entre suspender la lactancia o suspender el fármaco, considerando la importancia del tratamiento para la madre.",
+    "pediatric": "No está indicado para el tratamiento de condiciones neurodegenerativas o demencias en la población pediátrica. Su uso en niños se restringe a formulaciones específicas para el tratamiento tópico de la pediculosis del cuero cabelludo, bajo estricta supervisión médica y siguiendo las indicaciones de ese producto.",
+    "geriatric": "Esta es la población principal de uso. Los adultos mayores son más sensibles a los efectos colinérgicos, especialmente a la bradicardia, los síncopes, las caídas y la pérdida de peso. Se debe iniciar con la dosis más baja posible y aumentar lentamente. Monitorear estrechamente el peso, el ritmo cardíaco y el estado nutricional. La polifarmacia es común, por lo que se debe revisar minuciosamente las interacciones medicamentosas."
+  },
+  "administration": {
+    "howToTake": "1. Lavarse las manos antes y después de la aplicación. 2. Aplicar la cantidad prescrita de gel (medida con el aplicador o la jeringa dosificadora) sobre la piel intacta y limpia (sin heridas, irritaciones o eczema) en un área como la espalda, el hombro, el muslo o el abdomen. 3. Frotar suavemente hasta que el gel se absorba completamente. 4. Rotar el sitio de aplicación diariamente para minimizar la irritación local. 5. No aplicar sobre mucosas (boca, ojos, genitales). 6. No cubrir el área con apósitos oclusivos. 7. Esperar al menos 1 hora antes de bañarse o nadar. 8. Usar exactamente como lo recetó el médico, una vez al día, preferentemente a la misma hora.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (entre 15°C y 30°C). Proteger de la luz y del calor excesivo. Mantener fuera del alcance de los niños y las mascotas. No congelar. Desechar el producto caducado o que no se vaya a usar.",
+    "specialInstructions": "No duplicar la dosis si se olvida una aplicación. Aplicar la dosis olvidada tan pronto como se recuerde, pero si ya es casi la hora de la siguiente dosis, omitir la dosis olvidada y continuar con el horario habitual. Informar al médico si se experimenta mareo intenso, desmayo, ritmo cardíaco lento, dificultad para respirar, convulsiones o dolor abdominal severo. No suspender el tratamiento abruptamente sin consultar al médico, ya que puede haber un deterioro rápido de la función cognitiva."
+  },
+  "monitoring": {
+    "labTests": [
+      "Función hepática (AST, ALT, bilirrubina, fosfatasa alcalina)",
+      "Función renal (creatinina sérica, TFG calculada)",
+      "Electrolitos séricos (sodio, potasio, magnesio)",
+      "Electrocardiograma (ECG) para evaluar frecuencia cardíaca e intervalo QT",
+      "Peso corporal"
+    ],
+    "frequency": "Evaluación de la función cognitiva y conductual cada 3-6 meses. Monitoreo de peso cada mes al inicio, luego cada 3 meses. ECG basal y luego periódicamente, especialmente si hay síntomas de bradicardia o antes de aumentar la dosis. Pruebas de función hepática y renal al inicio y cada 6-12 meses, o si hay síntomas sugestivos.",
+    "signsToWatch": [
+      "Mareo, aturdimiento o desmayo (síncope)",
+      "Ritmo cardíaco lento o palpitaciones",
+      "Náuseas, vómitos o diarrea severos o persistentes",
+      "Pérdida de apetito o pérdida de peso significativa",
+      "Dolor abdominal severo (posible pancreatitis)",
+      "Coloración amarillenta de piel u ojos (ictericia)",
+      "Orina oscura o heces claras",
+      "Debilidad muscular severa o dolor",
+      "Convulsiones",
+      "Alucinaciones, agitación o confusión nueva",
+      "Dificultad para respirar",
+      "Sangrado gastrointestinal (heces negras o con sangre)"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Síndrome colinérgico: 'SLUDGE' (Salivación, Lagrimeo, Micción, Defecación, Gastritis, Emesis)",
+      "Debilidad muscular y fasciculaciones (pequeñas contracciones)",
+      "Parálisis muscular (incluyendo músculos respiratorios)",
+      "Bradicardia severa, hipotensión, colapso cardiovascular",
+      "Ansiedad, confusión, cefalea, convulsiones, coma",
+      "Dificultad respiratoria, broncoconstricción, aumento de secreciones bronquiales"
+    ],
+    "treatment": "1. Suspender inmediatamente el medicamento. 2. Medidas de soporte: Mantener vía aérea, ventilación y circulación. 3. Descontaminación: Lavado de la piel con agua y jabón si la sobredosis es por vía tópica. Carbón activado si la ingestión es reciente. 4. Antídoto específico: Atropina sulfato por vía intravenosa para antagonizar los efectos muscarínicos (salivación, broncosecreción, bradicardia). La dosis se titula hasta el alivio de los síntomas. 5. Reactivador de la colinesterasa: Pralidoxima (2-PAM) puede ser necesaria en casos graves para reactivar la enzima inhibida, especialmente si hay componentes nicotínicos (debilidad muscular, parálisis). 6. Hospitalización obligatoria en unidad de cuidados intensivos para monitoreo continuo.",
+    "antidote": "Atropina sulfato y Pralidoxima (2-PAM)"
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especializada (receta retenida en algunos países)",
+    "scheduleMexico": "Medicamento de prescripción restringida (no figura en las fracciones de estupefacientes o psicotrópicos, pero su venta es solo con receta médica archivada)",
+    "fdaApprovalYear": "No aprobado por la FDA para la enfermedad de Alzheimer. Aprobado para pediculosis. Su uso en Alzheimer sigue protocolos de investigación y uso compasivo en algunos países."
+  },
+  "brandsMexico": [
+    "No hay marcas comerciales de malathion en gel al 0.5% para Alzheimer disponibles en el mercado mexicano de forma regular. Su disponibilidad es principalmente a través de farmacias de especialidad o compasivas con formulación magistral. Para pediculosis existen marcas como 'Prioderm Loción'."
+  ],
+  "clinicalPearls": [
+    "El malathion tópico para Alzheimer ofrece una alternativa de administración no oral, útil en pacientes con dificultad para tragar o que rechazan medicamentos por vía oral.",
+    "La inhibición irreversible de la colinesterasa permite una dosificación una vez al día, mejorando la adherencia al tratamiento en pacientes con deterioro cognitivo.",
+    "El riesgo de bradicardia sintomática es una de las principales causas de suspensión del tratamiento; se recomienda un ECG basal y monitoreo de la frecuencia cardíaca, especialmente en pacientes que toman betabloqueadores o digoxina."
+  ],
+  "patientCounseling": "Este medicamento ayuda a controlar los síntomas de la pérdida de memoria y la confusión causadas por el Alzheimer, pero no cura la enfermedad. Es muy importante aplicarlo exactamente como se lo indicó su médico, una vez al día, sobre la piel limpia y seca, rotando el lugar donde lo pone. Lávese bien las manos después de aplicarlo. Puede causar comezón o enrojecimiento donde lo aplique; si esto es severo, avise a su médico. Esté alerta a señales de alarma como mareos o desmayos, latidos del corazón muy lentos, náuseas o diarrea fuerte, dolor de estómago intenso, o debilidad muscular. No deje de usarlo de golpe, ya que los síntomas pueden empeorar rápidamente. Asista a todas sus citas médicas para que le revisen su progreso, su peso y le hagan los estudios necesarios. Mantenga una lista de todos los medicamentos que toma, incluyendo hierbas y vitaminas, para mostrársela a su médico y evitar interacciones peligrosas.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Pérdida de memoria",
+        "slug": "perdida-de-memoria"
+      },
+      {
+        "name": "Confusión o desorientación",
+        "slug": "confusion-o-desorientacion"
+      },
+      {
+        "name": "Dificultad para realizar tareas cotidianas",
+        "slug": "dificultad-para-realizar-tareas-cotidianas"
+      },
+      {
+        "name": "Problemas de lenguaje (encontrar palabras)",
+        "slug": "problemas-de-lenguaje"
+      },
+      {
+        "name": "Cambios en el comportamiento",
+        "slug": "cambios-en-el-comportamiento"
+      },
+      {
+        "name": "Apatía o falta de iniciativa",
+        "slug": "apatia-o-falta-de-iniciativa"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Enfermedad de Alzheimer",
+        "slug": "enfermedad-de-alzheimer"
+      },
+      {
+        "name": "Demencia tipo Alzheimer",
+        "slug": "demencia-tipo-alzheimer"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Bradicardia sintomática",
+        "slug": "bradicardia-sintomatica"
+      },
+      {
+        "name": "Síncope (desmayo)",
+        "slug": "sincope-desmayo"
+      },
+      {
+        "name": "Pancreatitis aguda",
+        "slug": "pancreatitis-aguda"
+      },
+      {
+        "name": "Rabdomiólisis",
+        "slug": "rabdomiolisis"
+      },
+      {
+        "name": "Úlcera péptica",
+        "slug": "ulcera-peptica"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Actividad de la colinesterasa plasmática",
+        "slug": "actividad-de-la-colesterasa-plasmatica",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Intervalo QT en ECG",
+        "slug": "intervalo-qt-en-ecg",
+        "effect": "Puede prolongar"
+      },
+      {
+        "name": "Enzimas hepáticas (ALT, AST)",
+        "slug": "enzimas-hepaticas-alt-ast",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Amilasa y lipasa séricas",
+        "slug": "amilasa-y-lipasa-sericas",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Creatina fosfoquinasa (CPK)",
+        "slug": "creatina-fosfoquinasa-cpk",
+        "effect": "Puede elevar"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Electrocardiograma (ECG)",
+        "slug": "electrocardiograma-ecg",
+        "reason": "Para evaluar frecuencia cardíaca e intervalo QT antes y durante el tratamiento"
+      },
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-de-funcion-hepatica",
+        "reason": "Para detectar posible hepatotoxicidad inducida por el fármaco"
+      },
+      {
+        "name": "Evaluación cognitiva (MMSE, MoCA)",
+        "slug": "evaluacion-cognitiva-mmse-moca",
+        "reason": "Para monitorear la respuesta al tratamiento y la progresión de la enfermedad"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de TFG (FG)",
+        "slug": "calculadora-egfr"
+      },
+      {
+        "name": "Calculadora de IMC",
+        "slug": "calculadora-imc"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve el malathion en el Alzheimer?",
+      "a": "El malathion se usa para tratar los síntomas de la enfermedad de Alzheimer de leve a moderada. Ayuda a mejorar temporalmente la memoria, el pensamiento y la capacidad de realizar actividades diarias, aumentando una sustancia química en el cerebro que está baja en esta enfermedad. No la cura, pero puede hacer más lento el empeoramiento de los síntomas."
+    },
+    {
+      "q": "¿Cómo se aplica el gel de malathion?",
+      "a": "Se aplica una vez al día sobre la piel limpia y seca, en áreas como la espalda, el hombro o el muslo. Se debe frotar suavemente hasta que se absorba por completo. Es importante lavarse las manos antes y después, rotar el sitio de aplicación y no cubrir la zona con vendas."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Los efectos sobre la memoria y el comportamiento pueden tardar varias semanas (de 4 a 8 semanas) en notarse de manera clara. Es importante ser paciente y no suspender el tratamiento, ya que la mejoría es gradual."
+    },
+    {
+      "q": "¿Qué hago si se me olvida aplicar una dosis?",
+      "a": "Si se le olvida, aplíquela tan pronto como lo recuerde. Pero si ya es casi la hora de la siguiente dosis, omita la que olvidó y continúe con su horario normal. Nunca aplique el doble de gel para compensar la dosis olvidada."
+    },
+    {
+      "q": "¿Puedo bañarme después de aplicarlo?",
+      "a": "Sí, pero espere al menos 1 hora después de la aplicación para bañarse, nadar o hacer actividades que hagan sudar mucho, para permitir que el medicamento se absorba completamente."
+    },
+    {
+      "q": "¿Qué efectos secundarios son los más comunes?",
+      "a": "Los más comunes son comezón o enrojecimiento donde se aplica el gel, dolor de cabeza, mareo, náuseas, diarrea y pérdida de apetito. La mayoría son leves y suelen mejorar con el tiempo."
+    },
+    {
+      "q": "¿Cuándo debo llamar al médico de inmediato?",
+      "a": "Llame de inmediato si tiene mareos o se desmaya, si siente que su corazón late muy lento, si tiene dolor de estómago muy fuerte, si vomita o tiene diarrea constantemente, si se pone la piel amarilla, o si tiene debilidad muscular severa o dificultad para respirar."
+    },
+    {
+      "q": "¿El malathion interactúa con otros medicamentos?",
+      "a": "Sí, puede tener interacciones graves con algunos medicamentos para el corazón (como betabloqueadores o digoxina), con relajantes musculares usados en cirugía, y con algunos medicamentos para las alergias o la incontinencia urinaria. Siempre informe a su médico de TODOS los medicamentos que toma."
+    },
+    {
+      "q": "¿Puedo tomar alcohol mientras uso este medicamento?",
+      "a": "No se recomienda. El alcohol puede aumentar el mareo y la somnolencia, y también puede afectar al hígado, lo que podría aumentar el riesgo de efectos secundarios del malathion."
+    },
+    {
+      "q": "¿Este medicamento hace que aumente o baje de peso?",
+      "a": "Es más común que cause pérdida de peso y pérdida de apetito como efecto secundario. Es importante monitorear el peso regularmente y asegurar una buena nutrición durante el tratamiento."
+    },
+    {
+      "q": "¿Puede usarse en personas con problemas del hígado o los riñones?",
+      "a": "En personas con problemas hepáticos moderados o severos está contraindicado. En problemas renales severos se debe usar con mucha precaución y a dosis bajas. Su médico le hará estudios para evaluar su función hepática y renal antes y durante el tratamiento."
+    },
+    {
+      "q": "¿Qué pasa si se aplica el gel en una herida o se traga accidentalmente?",
+      "a": "Si se aplica en una herida, lávese el área con agua y jabón. Si se traga accidentalmente, es una EMERGENCIA. Busque atención médica inmediata o llame al centro de toxicología, ya que puede causar una intoxicación grave."
+    },
+    {
+      "q": "¿Se puede usar en personas con problemas del corazón?",
+      "a": "Se debe usar con extrema precaución en personas con ritmo cardíaco lento (bradicardia), bloqueos cardíacos o síndrome de QT largo. Puede empeorar estas condiciones. Su médico probablemente le pedirá un electrocardiograma (ECG) antes de empezar."
+    },
+    {
+      "q": "¿El malathion cura el Alzheimer?",
+      "a": "No. Ningún medicamento actual cura la enfermedad de Alzheimer. El malathion es un tratamiento sintomático que ayuda a manejar los problemas de memoria y comportamiento, y puede enlentecer la progresión de los síntomas por un tiempo limitado."
+    },
+    {
+      "q": "¿Por cuánto tiempo se debe usar este tratamiento?",
+      "a": "El tratamiento suele ser a largo plazo, mientras haya beneficio clínico y se tolere bien. La decisión de continuar o suspenderla la toma el médico especialista, evaluando regularmente los beneficios versus los efectos secundarios."
+    },
+    {
+      "q": "¿Puede causar confusión o alucinaciones?",
+      "a": "Sí, aunque no es común, puede causar o empeorar la confusión, agitación o alucinaciones, especialmente en tipos de demencia como la demencia con cuerpos de Lewy. Es importante reportar cualquier cambio nuevo en el comportamiento al médico."
+    },
+    {
+      "q": "¿Es seguro para una persona mayor que ya toma muchos medicamentos?",
+      "a": "Requiere una evaluación cuidadosa por el médico. La polifarmacia (tomar muchos medicamentos) aumenta el riesgo de interacciones y efectos secundarios. El médico revisará toda la lista de medicamentos y posiblemente ajuste dosis o suspenda algunos que no sean esenciales."
+    },
+    {
+      "q": "¿Qué diferencia hay entre el malathion y otros medicamentos para el Alzheimer como el donepezilo?",
+      "a": "Ambos son inhibidores de la colinesterasa, pero el malathion se aplica en la piel (gel) y su efecto es irreversible (más duradero), permitiendo una dosis diaria. El donepezilo es oral y su efecto es reversible. La elección depende de la preferencia del paciente, la capacidad para tragar y el perfil de efectos secundarios."
+    },
+    {
+      "q": "¿Se necesita algún estudio de laboratorio especial mientras se usa?",
+      "a": "Sí, su médico le pedirá periódicamente análisis de sangre para revisar su función hepática y renal, y posiblemente un electrocardiograma (ECG) para controlar su ritmo cardíaco."
+    },
+    {
+      "q": "¿Cuál es el mecanismo por el que el malathion, siendo un organofosforado, se usa en Alzheimer?",
+      "a": "El malathion es un organofosforado que inhibe irreversiblemente la enzima acetilcolinesterasa. En el Alzheimer hay una deficiencia del neurotransmisor acetilcolina. Al inhibir la enzima que lo degrada, se aumentan sus niveles en el cerebro, mejorando la transmisión neuronal en circuitos relacionados con la memoria y la cognición. Su formulación tópica en dosis controladas busca aprovechar este efecto a nivel cerebral minimizando la toxicidad sistémica."
+    }
+  ]
+}

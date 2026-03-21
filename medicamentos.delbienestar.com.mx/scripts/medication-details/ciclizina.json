@@ -1,0 +1,448 @@
+{
+  "name": "Ciclizina",
+  "summary": "La ciclizina es un medicamento antihistamínico de primera generación que pertenece al grupo de las piperazinas. Se utiliza principalmente para prevenir y tratar las náuseas, los vómitos y los mareos asociados al movimiento (cinetosis), como los que ocurren en viajes por mar, carretera o aire. También es útil para controlar las náuseas y vómitos postoperatorios y los relacionados con algunos tratamientos médicos. Su importancia clínica radica en su eficacia probada durante décadas para estos problemas, con un inicio de acción relativamente rápido. Sin embargo, es importante conocer sus efectos secundarios, como la somnolencia, que puede afectar la capacidad para conducir o manejar maquinaria. Aunque es un medicamento de venta libre en algunas presentaciones, debe usarse con precaución, especialmente en niños, adultos mayores y personas con ciertas condiciones médicas. Su mecanismo de acción bloquea los receptores de histamina H1 en el cerebro, específicamente en el centro del vómito y el sistema vestibular, lo que ayuda a reducir la sensación de mareo y las ganas de vomitar.",
+  "pharmacology": {
+    "mechanismOfAction": "La ciclizina ejerce su efecto terapéutico principalmente a través del bloqueo competitivo y reversible de los receptores de histamina H1 en el sistema nervioso central, particularmente en el área postrema (centro del vómito) y el sistema vestibular del oído interno. Este bloqueo inhibe la estimulación de estos receptores por la histamina, un neurotransmisor clave en la generación de la sensación de náusea y vértigo. Además, posee propiedades anticolinérgicas centrales, lo que contribuye a su efecto antiemético y sedante. Actúa estabilizando la actividad neuronal en las vías que transmiten señales de movimiento desde el oído interno al cerebro, reduciendo así la discrepancia entre la información visual y vestibular que causa el mareo por movimiento. También tiene un efecto antimuscarínico leve, lo que ayuda a reducir las secreciones y la actividad gastrointestinal.",
+    "pharmacologicClass": "Antagonista del receptor H1 de histamina (de primera generación), Derivado de piperazina, Agente anticolinérgico central",
+    "therapeuticClass": "Antiemético, Antivertiginoso, Antihistamínico sedante",
+    "absorption": "Se absorbe bien por vía oral, con una biodisponibilidad oral que se estima entre el 60-80%. La absorción es relativamente rápida, alcanzando concentraciones plasmáticas máximas (Tmax) aproximadamente entre 1.5 y 3 horas después de la administración oral. La presencia de alimentos puede retrasar ligeramente su absorción pero no afecta significativamente su biodisponibilidad total.",
+    "distribution": "La ciclizina se distribuye ampliamente por los tejidos corporales. Atraviesa fácilmente la barrera hematoencefálica, lo que explica sus efectos centrales (sedación, antiemético). Su volumen de distribución (Vd) es grande, aproximadamente de 20-30 L/kg, indicando una amplia distribución en los tejidos. Se une moderadamente a proteínas plasmáticas, principalmente a la albúmina, en un porcentaje aproximado del 70-80%.",
+    "metabolism": "La ciclizina sufre un extenso metabolismo hepático de primer paso. Es metabolizada principalmente por el sistema enzimático del citocromo P450, con contribución de las isoenzimas CYP2D6 y, en menor medida, CYP3A4. El metabolismo produce metabolitos inactivos o con actividad farmacológica mínima. La actividad de la CYP2D6 puede variar genéticamente (metabolizadores lentos o rápidos), lo que podría influir en la respuesta al fármaco en algunos individuos.",
+    "elimination": "La vida media de eliminación de la ciclizina es de aproximadamente 7 a 11 horas en adultos. Se elimina principalmente por vía renal, en forma de metabolitos inactivos. Menos del 10% de la dosis se excreta sin cambios en la orina. Una pequeña porción puede eliminarse por las heces. En pacientes con función renal normal, la eliminación es completa en unas 48 horas.",
+    "onsetOfAction": "El inicio de acción tras la administración oral es de aproximadamente 30 a 60 minutos. Para la prevención del mareo por movimiento, se recomienda administrarla al menos 30 minutos antes de iniciar el viaje.",
+    "durationOfAction": "La duración del efecto antiemético y antivertiginoso es de aproximadamente 4 a 6 horas por dosis. El efecto sedante puede persistir por más tiempo, incluso después de que el efecto principal haya disminuido."
+  },
+  "indications": {
+    "approved": [
+      "Prevención y tratamiento de la cinetosis (mareo por movimiento: mar, carretera, aire)",
+      "Tratamiento sintomático de las náuseas y vómitos postoperatorios",
+      "Manejo de vértigo y mareo asociado a trastornos del oído interno (como la enfermedad de Ménière) y otras causas",
+      "Alivio de náuseas y vómitos asociados a radioterapia (como terapia coadyuvante)"
+    ],
+    "offLabel": [
+      "Manejo de náuseas y vómitos en el embarazo (solo bajo estricta supervisión médica, generalmente después del primer trimestre)",
+      "Alivio sintomático de la migraña vestibular (para el componente vertiginoso)",
+      "Control de náuseas asociadas a gastroenteritis aguda (en adultos)",
+      "Como sedante leve para facilitar el sueño en situaciones de ansiedad por enfermedad (uso ocasional)"
+    ]
+  },
+  "dosage": {
+    "adults": "Para cinetosis y náuseas/vómitos: 50 mg por vía oral, administrados 30 minutos antes del viaje o del evento que cause los síntomas. La dosis puede repetirse cada 4-6 horas según sea necesario, sin exceder la dosis máxima diaria. Para vértigo: 50 mg cada 8 horas, ajustando según la respuesta.",
+    "pediatric": "Niños mayores de 6 años: Para cinetosis, 25 mg (media tableta de 50 mg) administrados 30 minutos antes del viaje. Puede repetirse cada 6-8 horas si es necesario, sin exceder 75 mg en 24 horas. NO se recomienda su uso en niños menores de 6 años debido al riesgo de efectos adversos graves, como depresión del sistema nervioso central y efectos anticolinérgicos.",
+    "elderly": "En adultos mayores (mayores de 65 años), se recomienda iniciar con una dosis reducida, generalmente 25 mg (media tableta), debido a la mayor sensibilidad a los efectos anticolinérgicos y sedantes, y a la posible disminución del aclaramiento renal. Ajustar según la respuesta y la tolerancia.",
+    "renalImpairment": "En insuficiencia renal leve a moderada (TFG 30-89 mL/min): Se recomienda precaución y posible reducción de dosis. En insuficiencia renal severa (TFG <30 mL/min) o en diálisis: El uso está contraindicado o debe evitarse debido a la acumulación del fármaco y sus metabolitos, con mayor riesgo de efectos adversos graves como sedación profunda y efectos anticolinérgicos.",
+    "hepaticImpairment": "En insuficiencia hepática leve: Usar con precaución y considerar una dosis inicial reducida. En insuficiencia hepática moderada a severa (Child-Pugh B o C): El uso está contraindicado debido al metabolismo hepático extenso. La incapacidad del hígado para metabolizar el fármaco puede llevar a una acumulación tóxica y efectos adversos exagerados.",
+    "maxDose": "La dosis máxima diaria para adultos es de 200 mg (cuatro tabletas de 50 mg) en 24 horas. En niños mayores de 6 años, la dosis máxima es de 75 mg en 24 horas. Nunca exceder estas dosis."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "50 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tableta masticable",
+      "strengths": [
+        "50 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Cápsula",
+      "strengths": [
+        "50 mg"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la ciclizina o a cualquier antihistamínico de la clase de las piperazinas",
+      "Pacientes en estado comatoso o con depresión severa del sistema nervioso central",
+      "Insuficiencia hepática severa (Child-Pugh C)",
+      "Glaucoma de ángulo cerrado (no controlado)",
+      "Retención urinaria por obstrucción prostática severa",
+      "Miastenia gravis",
+      "Crisis asmática aguda",
+      "Niños menores de 6 años de edad",
+      "Uso concomitante con inhibidores de la monoaminooxidasa (IMAOs) o dentro de los 14 días posteriores a su suspensión"
+    ],
+    "relative": [
+      "Hipertrofia prostática benigna (con síntomas urinarios)",
+      "Glaucoma de ángulo abierto (controlado)",
+      "Enfermedad pulmonar obstructiva crónica (EPOC)",
+      "Epilepsia o trastornos convulsivos",
+      "Enfermedades cardiovasculares (arritmias, hipertensión no controlada)",
+      "Hipertiroidismo",
+      "Porfiria",
+      "Estreñimiento crónico o íleo paralítico",
+      "Adultos mayores (mayores de 65 años)",
+      "Insuficiencia renal moderada a severa",
+      "Embarazo (especialmente primer trimestre) y lactancia"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Somnolencia",
+      "Sequedad de boca",
+      "Mareo o aturdimiento"
+    ],
+    "common": [
+      "Visión borrosa",
+      "Estreñimiento",
+      "Dificultad para orinar (especialmente en hombres con próstata agrandada)",
+      "Dolor de cabeza",
+      "Nerviosismo o inquietud (en algunos pacientes, especialmente niños)",
+      "Fatiga",
+      "Alteraciones en la coordinación"
+    ],
+    "uncommon": [
+      "Hipotensión ortostática (mareo al levantarse)",
+      "Taquicardia (latidos cardíacos rápidos)",
+      "Pérdida del apetito",
+      "Náuseas (paradójicas)",
+      "Erupción cutánea",
+      "Confusión (especialmente en ancianos)",
+      "Zumbido en los oídos (tinnitus)"
+    ],
+    "rare": [
+      "Reacciones alérgicas severas (anafilaxia, angioedema)",
+      "Discinesias o movimientos anormales",
+      "Convulsiones",
+      "Depresión del sistema nervioso central severa",
+      "Alucinaciones",
+      "Síndrome neuroléptico maligno (muy raro, con uso a altas dosis)",
+      "Alteraciones en los electrolitos",
+      "Hepatotoxicidad (elevación de transaminasas)"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Alcohol (etílico)",
+        "effect": "Potencia de manera significativa el efecto depresor del sistema nervioso central, aumentando la somnolencia, mareo y riesgo de accidentes. Deteriora la coordinación y el juicio.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Benzodiacepinas (diazepam, alprazolam, clonazepam)",
+        "effect": "Aumento aditivo de la sedación, somnolencia y deterioro psicomotor. Mayor riesgo de caídas, especialmente en ancianos.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Opioides (codeína, tramadol, morfina)",
+        "effect": "Potenciación de la sedación y depresión respiratoria. Aumenta el riesgo de estreñimiento severo.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores de la monoaminooxidasa (IMAOs) como fenelzina, tranilcipromina",
+        "effect": "Riesgo de crisis hipertensiva, hiperpirexia (fiebre alta) y efectos anticolinérgicos exagerados. Contraindicación absoluta.",
+        "severidad": "Grave"
+      },
+      {
+        "drug": "Antidepresivos tricíclicos (amitriptilina, imipramina)",
+        "effect": "Potenciación de los efectos anticolinérgicos (sequedad de boca, visión borrosa, retención urinaria, estreñimiento, confusión).",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Antipsicóticos (haloperidol, clorpromazina)",
+        "effect": "Aumento de los efectos sedantes y anticolinérgicos. Mayor riesgo de efectos extrapiramidales y arritmias cardíacas.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Anticolinérgicos (escopolamina, oxibutinina)",
+        "effect": "Efectos anticolinérgicos aditivos, aumentando el riesgo de retención urinaria, estreñimiento severo, visión borrosa y confusión.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Puede tomarse con o sin alimentos. Tomarlo con alimentos puede ayudar a reducir la irritación gástrica leve, aunque puede retrasar ligeramente el inicio de acción. Evitar el consumo de alcohol por completo durante el tratamiento, ya que potencia fuertemente la sedación y el deterioro psicomotor.",
+    "withSupplements": "Precaución con suplementos que tengan efectos sedantes o que actúen sobre el sistema nervioso central, como la valeriana, la melatonina en dosis altas, la kava kava o la hierba de San Juan (Hypericum perforatum). Estos pueden potenciar la somnolencia. La hierba de San Juan también puede interactuar con las enzimas hepáticas, alterando los niveles de ciclizina."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría B (FDA) / No recomendado durante el primer trimestre",
+      "recommendation": "No se recomienda su uso durante el primer trimestre del embarazo debido a la falta de datos de seguridad concluyentes y al riesgo teórico. Su uso en el segundo y tercer trimestre solo debe considerarse si el beneficio potencial para la madre justifica claramente el riesgo potencial para el feto, y bajo estricta supervisión médica. No es un tratamiento de primera línea para las náuseas del embarazo (hiperémesis gravídica).",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La ciclizina se excreta en la leche materna en pequeñas cantidades. Debido a su potencial para causar efectos adversos en el lactante, como sedación, irritabilidad o efectos anticolinérgicos, generalmente se recomienda evitar su uso durante la lactancia. Si es absolutamente necesario, se debe valorar la interrupción temporal de la lactancia o el uso de alternativas más seguras. Consultar siempre con el médico.",
+    "pediatric": "Su uso está aprobado solo para niños mayores de 6 años, a dosis reducidas. Está contraindicado en menores de 6 años por el riesgo de depresión del sistema nervioso central, convulsiones y muerte. En niños, puede producir un efecto paradójico de excitación o nerviosismo en lugar de sedación. Monitorizar de cerca.",
+    "geriatric": "Los adultos mayores (>65 años) son más sensibles a los efectos anticolinérgicos y sedantes de la ciclizina. Tienen mayor riesgo de confusión, mareo, somnolencia, retención urinaria, estreñimiento y caídas. Se debe iniciar con la dosis efectiva más baja (ej. 25 mg) y monitorizar estrechamente. Evitar su uso en pacientes con deterioro cognitivo (demencia) debido al riesgo de empeoramiento."
+  },
+  "administration": {
+    "howToTake": "Tomar la tableta o cápsula entera con un vaso de agua. Las tabletas masticables deben triturarse bien antes de tragar. Para prevenir el mareo por movimiento, tomar la dosis al menos 30 minutos (idealmente 1 hora) antes de iniciar el viaje. Si se requiere una dosis adicional durante el viaje, puede tomarse cada 4-6 horas, sin exceder la dosis máxima diaria. No partir las tabletas a menos que estén ranuradas y el médico o farmacéutico lo indique.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (entre 15°C y 30°C). Proteger de la luz directa, la humedad y el calor excesivo. Mantener fuera del alcance y de la vista de los niños. No utilizar después de la fecha de caducidad impresa en el empaque.",
+    "specialInstructions": "Debido a la somnolencia que puede causar, evite conducir vehículos, operar maquinaria pesada o realizar actividades que requieran alerta mental hasta que conozca cómo le afecta este medicamento (generalmente durante las primeras 24 horas). El alcohol potencia este efecto. Si los síntomas de mareo o náuseas no mejoran después de 1-2 dosis, o si empeoran, consulte a su médico. No lo use por más de 48 horas consecutivas para el mareo por movimiento sin consultar a un profesional de la salud."
+  },
+  "monitoring": {
+    "labTests": [
+      "No se requieren monitoreos de laboratorio de rutina para tratamientos cortos (1-2 días). Para uso prolongado o en pacientes de riesgo: Función hepática (AST, ALT, bilirrubina)",
+      "Función renal (creatinina sérica, TFG estimada)",
+      "Electrolitos séricos (en casos de vómitos persistentes)",
+      "Conteo sanguíneo completo (si hay sospecha de reacción alérgica o uso muy prolongado)"
+    ],
+    "frequency": "Para tratamientos agudos (viajes, postoperatorio): Monitoreo clínico de efectos adversos. Para uso crónico (vértigo): Evaluación clínica cada 3-6 meses y pruebas de función hepática y renal al inicio y luego anualmente, o según síntomas.",
+    "signsToWatch": [
+      "Somnolencia extrema o dificultad para despertar",
+      "Confusión, desorientación o alucinaciones",
+      "Dificultad para orinar (dolor, chorro débil, sensación de vaciado incompleto)",
+      "Visión borrosa persistente o dolor ocular",
+      "Latidos cardíacos irregulares o muy rápidos",
+      "Mareo intenso al ponerse de pie (hipotensión ortostática)",
+      "Erupción cutánea, picazón o hinchazón (signos de alergia)",
+      "Movimientos anormales o involuntarios"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Somnolencia profunda que puede progresar a estupor o coma",
+      "Convulsiones (especialmente en niños)",
+      "Alucinaciones, delirio, agitación",
+      "Midriasis (pupilas dilatadas)",
+      "Piel caliente, seca y enrojecida",
+      "Fiebre alta (hiperpirexia)",
+      "Retención urinaria severa",
+      "Taquicardia, arritmias cardíacas",
+      "Depresión respiratoria (respiración lenta y superficial)",
+      "Hipotensión severa"
+    ],
+    "treatment": "No existe antídoto específico. El tratamiento es de soporte y sintomático. Medidas generales: Mantener vía aérea, respiración y circulación. Monitorización continua de signos vitales. Lavado gástrico o carbón activado solo si la ingestión es reciente (dentro de 1-2 horas) y el paciente está consciente. Tratamiento sintomático: Para convulsiones, benzodiacepinas (diazepam). Para arritmias, manejo según el tipo. Para hipotensión, fluidos intravenosos y vasopresores si es necesario. La diálisis no es efectiva debido a la alta unión a proteínas y amplia distribución tisular.",
+    "antidote": "No existe antídoto específico para la intoxicación por ciclizina. La fisostigmina, un inhibidor de la colinesterasa, puede usarse en casos graves de efectos anticolinérgicos centrales (delirio, alucinaciones, coma) bajo estricta supervisión médica en un entorno hospitalario, pero no es un antídoto de rutina."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Venta libre (sin receta médica) para presentaciones orales de 50 mg, destinadas al tratamiento de la cinetosis. Para otras indicaciones o en poblaciones especiales, se recomienda supervisión médica.",
+    "scheduleMexico": "Fracción III (Medicamento de venta con receta médica archivada, aunque para cinetosis se permite venta libre).",
+    "fdaApprovalYear": "Aprobado por la FDA desde la década de 1950."
+  },
+  "brandsMexico": [
+    "Ciclizina",
+    "Marezine",
+    "Valoid",
+    "Emezine",
+    "Nausicalm",
+    "Vértigo Stop",
+    "Viajecalm",
+    "Mareol",
+    "Antivert",
+    "Cinfamar",
+    "Ciclizin",
+    "Marex",
+    "Nauseatil",
+    "Travel Aid",
+    "Vertizin"
+  ],
+  "clinicalPearls": [
+    "A diferencia de otros antihistamínicos para mareo como la dimenhidrinato, la ciclizina puede causar menos somnolencia en algunos pacientes, pero la variabilidad individual es grande. Siempre se debe advertir sobre el riesgo.",
+    "Su efecto anticolinérgico la hace útil para reducir las secreciones (saliva, sudor) en algunos contextos, pero esto también explica efectos adversos como sequedad de boca y visión borrosa.",
+    "En pacientes con enfermedad de Parkinson, puede empeorar los síntomas debido a su efecto anticolinérgico, que antagoniza la dopamina. Debe usarse con extrema precaución o evitarse."
+  ],
+  "patientCounseling": "Tome la ciclizina al menos 30 minutos antes de viajar para prevenir el mareo. Este medicamento le puede dar mucho sueño y afectar su capacidad para reaccionar rápido, por lo que NO debe manejar, operar máquinas peligrosas o hacer actividades que requieran estar totalmente alerta hasta que sepa cómo le afecta. Evite por completo tomar bebidas alcohólicas mientras lo use, ya que el alcohol aumenta mucho el sueño y el riesgo de accidentes. Puede causar sequedad de boca; tomar sorbos de agua o chupar caramelos sin azúcar puede ayudar. Si siente dificultad para orinar, visión borrosa, confusión o si los síntomas de mareo no mejoran después de dos dosis, deje de tomarlo y consulte a su médico o farmacéutico. Guárdelo fuera del alcance de los niños. No lo use por más de dos días seguidos para el mareo sin consultar a un profesional de la salud.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Náuseas",
+        "slug": "nauseas"
+      },
+      {
+        "name": "Vómitos",
+        "slug": "vomitos"
+      },
+      {
+        "name": "Mareo por movimiento",
+        "slug": "mareo-por-movimiento"
+      },
+      {
+        "name": "Vértigo",
+        "slug": "vertigo"
+      },
+      {
+        "name": "Mareo",
+        "slug": "mareo"
+      },
+      {
+        "name": "Sudoración",
+        "slug": "sudoracion"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Cinetosis",
+        "slug": "cinetosis"
+      },
+      {
+        "name": "Enfermedad de Ménière",
+        "slug": "enfermedad-de-meniere"
+      },
+      {
+        "name": "Vértigo posicional paroxístico benigno",
+        "slug": "vertigo-posicional-paroxistico-benigno"
+      },
+      {
+        "name": "Laberintitis",
+        "slug": "laberintitis"
+      },
+      {
+        "name": "Náuseas y vómitos postoperatorios",
+        "slug": "nauseas-y-vomitos-postoperatorios"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Retención urinaria aguda",
+        "slug": "retencion-urinaria-aguda"
+      },
+      {
+        "name": "Ileo paralítico",
+        "slug": "ileo-paralitico"
+      },
+      {
+        "name": "Glaucoma de ángulo cerrado",
+        "slug": "glaucoma-de-angulo-cerrado"
+      },
+      {
+        "name": "Delirio por anticolinérgicos",
+        "slug": "delirio-por-anticolinergicos"
+      },
+      {
+        "name": "Síndrome neuroléptico maligno",
+        "slug": "sindrome-neuroleptico-maligno"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Transaminasas (AST/ALT)",
+        "slug": "transaminasas-ast-alt",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar (indirectamente por deshidratación)"
+      },
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede elevar (taquicardia)"
+      },
+      {
+        "name": "Presión arterial",
+        "slug": "presion-arterial",
+        "effect": "Puede disminuir (hipotensión)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-de-funcion-hepatica",
+        "reason": "Para monitorear posible hepatotoxicidad en uso prolongado"
+      },
+      {
+        "name": "Creatinina sérica y TFG",
+        "slug": "creatinina-serica-y-tfg",
+        "reason": "Para ajustar dosis en pacientes con riesgo de insuficiencia renal"
+      },
+      {
+        "name": "Electrolitos séricos",
+        "slug": "electrolitos-sericos",
+        "reason": "En casos de vómitos persistentes para evaluar desequilibrios"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve la ciclizina?",
+      "a": "La ciclizina sirve principalmente para prevenir y tratar el mareo por movimiento (en barcos, autos, aviones), así como las náuseas y vómitos que pueden aparecer después de una cirugía o por problemas del oído interno que causan vértigo."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto la ciclizina?",
+      "a": "Generalmente comienza a hacer efecto entre 30 y 60 minutos después de tomarla. Por eso, para prevenir el mareo en un viaje, se debe tomar al menos media hora antes de salir."
+    },
+    {
+      "q": "¿La ciclizina da sueño?",
+      "a": "Sí, la somnolencia es uno de sus efectos secundarios más comunes. Puede dar mucho sueño y afectar su capacidad para conducir o realizar actividades que requieran concentración. Es importante no manejar hasta saber cómo le afecta."
+    },
+    {
+      "q": "¿Puedo tomar ciclizina si voy a manejar?",
+      "a": "NO se recomienda manejar después de tomar ciclizina, especialmente la primera vez o si no está seguro de cómo le afecta. El sueño y la falta de coordinación que puede causar aumentan mucho el riesgo de sufrir un accidente."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si estoy tomando ciclizina?",
+      "a": "Absolutamente NO. El alcohol potencia mucho el efecto de sueño y mareo de la ciclizina, haciendo que sea muy peligroso. Evite cualquier bebida alcohólica mientras la use y hasta que sus efectos hayan pasado completamente."
+    },
+    {
+      "q": "¿Qué hago si se me olvidó tomar la ciclizina antes del viaje y ya me estoy mareando?",
+      "a": "Tómela en cuanto se acuerde. Sin embargo, si ya está mareado o con náuseas, el efecto puede ser menos efectivo para prevenir los síntomas, pero aún puede ayudar a aliviarlos. Tómela y descanse un rato si es posible."
+    },
+    {
+      "q": "¿Los niños pueden tomar ciclizina?",
+      "a": "Solo niños mayores de 6 años, y siempre a la dosis indicada para su edad (generalmente la mitad de la tableta de un adulto). Está PROHIBIDO dársela a niños menores de 6 años, ya que puede causar efectos graves como convulsiones."
+    },
+    {
+      "q": "¿Puedo tomar ciclizina durante el embarazo?",
+      "a": "No se recomienda durante el primer trimestre. En el segundo y tercer trimestre solo debe usarse si el médico lo considera estrictamente necesario, ya que existen otras opciones más seguras para las náuseas del embarazo. Consulte siempre a su ginecólogo."
+    },
+    {
+      "q": "¿La ciclizina es lo mismo que la dimenhidrinato?",
+      "a": "No, son medicamentos diferentes, aunque ambos son antihistamínicos para el mareo. La ciclizina puede causar menos sueño en algunas personas, pero la respuesta varía. Su médico o farmacéutico puede ayudarle a elegir la más adecuada para usted."
+    },
+    {
+      "q": "¿Cuántas veces al día puedo tomar ciclizina?",
+      "a": "Para el mareo por movimiento, puede tomar una dosis (50 mg en adultos) cada 4 a 6 horas si es necesario. Nunca debe tomar más de 4 dosis (200 mg) en un solo día."
+    },
+    {
+      "q": "¿La ciclizina causa adicción?",
+      "a": "No, la ciclizina no se considera un medicamento que cause dependencia física o adicción. Sin embargo, no debe usarse de manera crónica o continua sin supervisión médica."
+    },
+    {
+      "q": "¿Puedo tomar ciclizina si tengo glaucoma?",
+      "a": "Si tiene glaucoma de ángulo cerrado, NO debe tomar ciclizina, ya que puede empeorar la condición. Si tiene glaucoma de ángulo abierto y está controlado, consulte a su oftalmólogo antes de usarla, ya que requiere precaución."
+    },
+    {
+      "q": "¿Qué efectos secundarios debo reportar inmediatamente al médico?",
+      "a": "Debe reportar de inmediato: dificultad para orinar, visión borrosa o dolor en los ojos, confusión o alucinaciones, latidos del corazón muy rápidos o irregulares, o una erupción en la piel con picazón."
+    },
+    {
+      "q": "¿La ciclizina interactúa con otros medicamentos?",
+      "a": "Sí, interactúa con muchos. Es especialmente peligrosa si se mezcla con alcohol, pastillas para dormir, ansiolíticos (como alprazolam), algunos antidepresivos y medicamentos para la alergia. Siempre informe a su médico o farmacéutico sobre todos los medicamentos que toma."
+    },
+    {
+      "q": "¿Puedo tomar ciclizina si tengo problemas de la próstata?",
+      "a": "Si tiene agrandamiento de la próstata (hiperplasia prostática benigna) con síntomas como chorro débil o dificultad para orinar, debe usar la ciclizina con mucha precaución, ya que puede empeorar la retención de orina. Consulte a su urólogo."
+    },
+    {
+      "q": "¿Es normal que me dé sequedad de boca con la ciclizina?",
+      "a": "Sí, la sequedad de boca es un efecto secundario común debido a su acción anticolinérgica. Tomar sorbos de agua, masticar chicle sin azúcar o chupar trocitos de hielo puede aliviarlo. Si es muy molesto, consulte a su médico."
+    },
+    {
+      "q": "¿Qué pasa si tomo una dosis mayor a la recomendada?",
+      "a": "Tomar una sobredosis puede causar sueño profundo, confusión, alucinaciones, convulsiones (especialmente en niños), dificultad para respirar y problemas cardíacos. Es una emergencia médica. Acuda de inmediato al hospital o llame al centro de toxicología."
+    },
+    {
+      "q": "¿La ciclizina es buena para las migrañas?",
+      "a": "No es un tratamiento para el dolor de cabeza de la migraña. Sin embargo, algunos médicos la pueden recetar de manera off-label para aliviar el componente de mareo o vértigo que a veces acompaña a las migrañas vestibulares. No la use para la migraña sin prescripción."
+    },
+    {
+      "q": "¿Cómo se debe ajustar la dosis de ciclizina en un adulto mayor?",
+      "a": "En personas mayores de 65 años, se debe iniciar con una dosis más baja, generalmente 25 mg (media tableta), debido a que son más sensibles a los efectos secundarios como somnolencia, confusión y riesgo de caídas. El médico debe supervisar de cerca."
+    },
+    {
+      "q": "¿Cuál es la diferencia farmacológica clave entre la ciclizina y los antihistamínicos de segunda generación como la loratadina?",
+      "a": "La principal diferencia es que la ciclizina (de primera generación) cruza fácilmente la barrera hematoencefálica y bloquea los receptores H1 en el cerebro, lo que le da su efecto antiemético y sedante. Los de segunda generación como la loratadina no cruzan bien esta barrera, por lo que no causan sueño ni son útiles para náuseas o vértigo, solo para alergias."
+    }
+  ]
+}

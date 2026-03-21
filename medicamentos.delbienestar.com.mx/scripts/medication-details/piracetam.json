@@ -1,0 +1,408 @@
+{
+  "name": "Piracetam",
+  "summary": "El Piracetam es un medicamento que pertenece al grupo de los fármacos nootrópicos, es decir, que actúan sobre las funciones cognitivas del cerebro. Se utiliza principalmente para mejorar problemas de memoria, atención, concentración y aprendizaje, especialmente en personas con deterioro cognitivo leve, demencia vascular o como complemento en la recuperación de accidentes cerebrovasculares. Su importancia clínica radica en que puede ayudar a ralentizar la progresión de los síntomas en ciertos tipos de demencia y mejorar la calidad de vida de los pacientes al facilitar sus actividades diarias, aunque no es una cura para las enfermedades neurodegenerativas. Es un medicamento que requiere receta médica y su uso debe ser supervisado por un especialista, ya que su efectividad varía de una persona a otra y es parte de un tratamiento integral que incluye terapia no farmacológica.",
+  "pharmacology": {
+    "mechanismOfAction": "El mecanismo de acción exacto del Piracetam no está completamente dilucidado, pero se cree que actúa principalmente a nivel del sistema nervioso central. Se propone que mejora la función neuronal al aumentar el flujo sanguíneo cerebral y el consumo de oxígeno y glucosa en el cerebro. A nivel celular, parece estabilizar las membranas neuronales y modular la neurotransmisión, particularmente en los sistemas colinérgico y glutamatérgico, que son cruciales para la memoria y el aprendizaje. También puede influir en la fluidez de la membrana de los glóbulos rojos, mejorando la microcirculación cerebral. No actúa como un sedante o estimulante, sino como un modulador de las funciones cognitivas superiores.",
+    "pharmacologicClass": "Derivado de la pirrolidona (2-oxo-1-pirrolidina acetamida). Agente nootrópico (agente potenciador cognitivo).",
+    "therapeuticClass": "Agente neuroprotector y potenciador cognitivo. Fármaco para el tratamiento de los trastornos cognitivos.",
+    "absorption": "Se absorbe rápida y completamente por vía oral. La biodisponibilidad es cercana al 100%. La concentración plasmática máxima (Cmax) se alcanza aproximadamente entre 30 minutos y 1 hora después de la administración oral. La presencia de alimentos puede retrasar ligeramente la absorción, pero no afecta significativamente la cantidad total absorbida.",
+    "distribution": "Se distribuye ampliamente por todos los tejidos del organismo. Atraviesa fácilmente la barrera hematoencefálica y se distribuye de manera uniforme en el cerebro. También atraviesa la placenta y se excreta en la leche materna. Su unión a proteínas plasmáticas es muy baja (menos del 10%). Su volumen de distribución (Vd) es de aproximadamente 0.6 L/kg, lo que indica una distribución principalmente en el agua corporal.",
+    "metabolism": "El Piracetam no sufre metabolismo hepático significativo. No es sustrato de las enzimas del citocromo P450 (CYP450). Se elimina mayoritariamente sin cambios en la orina. Una pequeña fracción puede sufrir hidrólisis en el riñón, pero no es un proceso metabólico hepático clásico.",
+    "elimination": "Se elimina principalmente por vía renal, sin cambios, mediante filtración glomerular. Su vida media de eliminación es de aproximadamente 4 a 5 horas en adultos con función renal normal. En personas con insuficiencia renal, la vida media se prolonga significativamente. Más del 90% de la dosis administrada se recupera sin cambios en la orina en 30 horas.",
+    "onsetOfAction": "El inicio de la acción a nivel subjetivo (mejora en la concentración) puede notarse en días o semanas. Los efectos objetivos medibles en pruebas cognitivas pueden requerir varias semanas de tratamiento continuo.",
+    "durationOfAction": "Los efectos no son inmediatos ni de corta duración como un estimulante. Requiere administración crónica para mantener sus beneficios. La duración del efecto está ligada a la concentración plasmática constante, por lo que se administra en dosis divididas a lo largo del día."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento sintomático de los trastornos cognitivos y de la memoria en el deterioro cognitivo leve (DCL) de tipo vascular o degenerativo.",
+      "Tratamiento coadyuvante en la demencia cortical mixta (Alzheimer y vascular).",
+      "Tratamiento coadyuvante en la recuperación de déficits cognitivos posteriores a un accidente cerebrovascular (ACV) isquémico.",
+      "Tratamiento del mioclono cortical (contracciones musculares bruscas e involuntarias), especialmente el de origen cortical."
+    ],
+    "offLabel": [
+      "Mejora del rendimiento cognitivo en situaciones de fatiga mental (uso muy controvertido y no recomendado).",
+      "Apoyo en el tratamiento de la dislexia y otros trastornos del aprendizaje en niños (evidencia limitada).",
+      "Prevención de la anemia drepanocítica (de células falciformes) debido a su efecto sobre la membrana de los glóbulos rojos.",
+      "Tratamiento coadyuvante en el vértigo y mareos de origen central."
+    ]
+  },
+  "dosage": {
+    "adults": "Para trastornos cognitivos: Dosis inicial de 800 mg dos veces al día (1600 mg/día). Dosis de mantenimiento usual: 1200 mg a 1600 mg dos veces al día (2400 a 3200 mg/día). La dosis puede ajustarse según respuesta y tolerancia. Para mioclono: Dosis altas, iniciando con 7.2 g/día en dosis divididas, aumentando hasta 20 g/día según necesidad.",
+    "pediatric": "No se recomienda su uso rutinario en niños. Para indicaciones específicas como trastornos del aprendizaje bajo estricta supervisión neurológica, la dosis puede ser de 40-100 mg/kg/día, dividida en 2-3 tomas. Nunca exceder 4.8 g/día en población pediátrica.",
+    "elderly": "Iniciar con dosis bajas (ej. 400 mg dos veces al día) debido a la posible disminución de la función renal. Ajustar lentamente según respuesta y tolerancia. Monitorear función renal antes y durante el tratamiento.",
+    "renalImpairment": "Ajuste obligatorio según el aclaramiento de creatinina (CrCl). CrCl 60-90 mL/min: ajuste mínimo. CrCl 40-59 mL/min: reducir dosis a 50-75% de la dosis normal. CrCl 20-39 mL/min: reducir dosis a 33-50% de la dosis normal. CrCl <20 mL/min: contraindicado o usar con extrema precaución a dosis muy reducidas (25%) y con monitoreo estrecho. En diálisis: administrar dosis suplementaria después de la sesión.",
+    "hepaticImpairment": "No se requiere ajuste de dosis específico, ya que no se metaboliza en el hígado. Sin embargo, se debe tener precaución en casos de insuficiencia hepática grave por posibles alteraciones sistémicas.",
+    "maxDose": "Dosis máxima diaria para adultos: 4800 mg/día para indicaciones cognitivas. Para mioclono, puede llegar hasta 20,000 mg/día (20 g/día) bajo supervisión hospitalaria."
+  },
+  "dosageForms": [
+    {
+      "form": "Tabletas",
+      "strengths": [
+        "400 mg",
+        "800 mg",
+        "1200 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Cápsulas",
+      "strengths": [
+        "400 mg",
+        "800 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Solución oral (jarabe)",
+      "strengths": [
+        "200 mg/mL"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Solución inyectable (ampollas)",
+      "strengths": [
+        "1 g/5 mL",
+        "2 g/10 mL"
+      ],
+      "route": "Intramuscular o Intravenosa lenta"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al Piracetam o a cualquier componente de la formulación.",
+      "Insuficiencia renal terminal o grave (aclaramiento de creatinina <20 mL/min) sin diálisis adecuada.",
+      "Hemorragia cerebral activa o antecedente reciente de hemorragia intracraneal.",
+      "Enfermedad de Huntington (puede exacerbar los síntomas coreicos)."
+    ],
+    "relative": [
+      "Insuficiencia renal moderada (requiere ajuste de dosis).",
+      "Trastornos hemorrágicos o pacientes en tratamiento con anticoagulantes.",
+      "Historia de convulsiones o epilepsia (en algunos casos puede precipitar convulsiones).",
+      "Cirugía mayor programada (suspender temporalmente por riesgo de sangrado).",
+      "Embarazo y lactancia (evaluar riesgo-beneficio)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Nerviosismo o hiperactividad psicomotora.",
+      "Trastornos del sueño (insomnio o somnolencia).",
+      "Aumento de peso."
+    ],
+    "common": [
+      "Mareos o vértigo.",
+      "Dolor de cabeza (cefalea).",
+      "Náuseas, dolor abdominal, diarrea.",
+      "Temblor fino de las manos.",
+      "Erupción cutánea o prurito (picazón)."
+    ],
+    "uncommon": [
+      "Ansiedad, irritabilidad, agitación.",
+      "Depresión.",
+      "Confusión o desorientación (especialmente en ancianos).",
+      "Hipotensión o hipertensión.",
+      "Disminución del apetito."
+    ],
+    "rare": [
+      "Convulsiones (especialmente en pacientes con predisposición o al suspender bruscamente).",
+      "Reacciones alérgicas graves (angioedema, anafilaxia).",
+      "Trastornos de la coagulación (aumento del tiempo de sangrado).",
+      "Alucinaciones.",
+      "Deterioro de la función renal en pacientes susceptibles."
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Anticoagulantes (Warfarina, Acenocumarol) y Antiagregantes (Aspirina, Clopidogrel)",
+        "effect": "El Piracetam puede potenciar el efecto anticoagulante y aumentar el riesgo de sangrado, ya que puede afectar la función plaquetaria.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Hormonas tiroideas (Levotiroxina)",
+        "effect": "Puede potenciar los efectos estimulantes de las hormonas tiroideas, aumentando el riesgo de nerviosismo, insomnio y taquicardia.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Antihipertensivos",
+        "effect": "Puede potenciar el efecto hipotensor, causando mareos o síncope.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Puede tomarse con o sin alimentos. Tomarlo con alimentos puede ayudar a reducir molestias gastrointestinales leves como náuseas. No se han descrito interacciones significativas con alimentos específicos. Se debe evitar el consumo de alcohol, ya que puede potenciar los efectos depresores del sistema nervioso central (somnolencia, mareo) y contrarrestar los efectos cognitivos deseados del Piracetam.",
+    "withSupplements": "Precaución con suplementos que afecten la coagulación (Ginkgo Biloba, Ajo, Ginseng, Vitamina E en altas dosis) por riesgo aumentado de sangrado. Suplementos estimulantes (Guaraná, altas dosis de Cafeína) pueden potenciar el nerviosismo y el insomnio. No se recomienda su uso combinado con otros 'nootrópicos' o potenciadores cognitivos de venta libre sin supervisión médica."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA C",
+      "recommendation": "Los estudios en animales han mostrado toxicidad reproductiva. No hay estudios adecuados y bien controlados en mujeres embarazadas. Su uso durante el embarazo solo se acepta si no existen alternativas terapéuticas más seguras y el beneficio potencial justifica el riesgo potencial para el feto. Debe ser prescrito exclusivamente por un especialista que evalúe la relación riesgo-beneficio.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "El Piracetam se excreta en la leche materna en cantidades significativas. Se desconoce el efecto en el lactante. Debido al potencial de riesgo de efectos adversos serios en el bebé, se recomienda evitar su uso durante la lactancia. Si el tratamiento es absolutamente necesario, se debe suspender la lactancia materna.",
+    "pediatric": "No está aprobado para uso general en niños. Su seguridad y eficacia no están establecidas. Su uso se reserva para indicaciones neurológicas muy específicas (ej. ciertos tipos de mioclono, trastornos del aprendizaje severos) bajo la estricta supervisión de un neurólogo pediatra. Se debe monitorizar el crecimiento, desarrollo y función renal.",
+    "geriatric": "Los pacientes mayores son más susceptibles a los efectos adversos, especialmente confusión, mareos, somnolencia e insuficiencia renal. Es imperativo evaluar la función renal (CrCl) antes de iniciar el tratamiento. Iniciar siempre con la dosis más baja posible y aumentar lentamente. Monitorizar de cerca el estado mental y el equilibrio para prevenir caídas."
+  },
+  "administration": {
+    "howToTake": "Tomar las tabletas o cápsulas con un vaso lleno de agua. Puede tomarse con alimentos si causa malestar estomacal. Para la solución oral, usar el dosificador proporcionado (jeringa o vaso medidor). Las dosis diarias totales suelen dividirse en 2 o 3 tomas (por ejemplo, en la mañana y en la tarde) para mantener niveles constantes en sangre y evitar el insomnio si se toma muy tarde. No triturar o masticar las tabletas de liberación estándar. No suspender el tratamiento abruptamente, especialmente a dosis altas; debe reducirse gradualmente bajo supervisión médica.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (entre 15°C y 30°C). Proteger de la luz directa, la humedad y el calor excesivo. Mantener fuera del alcance y de la vista de los niños. No utilizar después de la fecha de caducidad impresa en el envase.",
+    "specialInstructions": "La mejoría cognitiva puede tardar varias semanas en ser evidente. Es importante combinar el tratamiento con ejercicios de estimulación cognitiva (lectura, puzzles, socialización) y un estilo de vida saludable. Informar al médico si se programa una cirugía o extracción dental, ya que puede ser necesario suspender el medicamento temporalmente. Llevar una tarjeta o identificación que indique que se está tomando Piracetam, especialmente si se viaja o se acude a urgencias."
+  },
+  "monitoring": {
+    "labTests": [
+      "Creatinina sérica y cálculo del aclaramiento de creatinina (CrCl) antes de iniciar y periódicamente (cada 6-12 meses).",
+      "Hemograma completo (especialmente recuento de plaquetas) en pacientes con riesgo de sangrado.",
+      "Pruebas de función hepática (aunque no se metaboliza, como parte de la evaluación general).",
+      "Evaluaciones neuropsicológicas periódicas para valorar la respuesta al tratamiento."
+    ],
+    "frequency": "Función renal: al inicio, a las 4-6 semanas, y luego cada 6-12 meses. Hemograma: al inicio y luego según criterio clínico. Evaluación clínica (síntomas, efectos adversos): cada 1-3 meses al inicio, luego cada 6 meses.",
+    "signsToWatch": [
+      "Sangrado inusual (moretones sin causa aparente, sangrado de encías, sangre en orina o heces).",
+      "Confusión nueva o empeoramiento de la memoria.",
+      "Temblores severos, movimientos anormales o convulsiones.",
+      "Erupción cutánea grave, hinchazón de cara/lengua (signos de alergia).",
+      "Mareo intenso o desmayo, especialmente al ponerse de pie."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Diarrea acuosa y dolor abdominal intenso (síntoma más común de sobredosis).",
+      "Nerviosismo extremo, agitación, insomnio.",
+      "Mareo, vértigo, dolor de cabeza intenso.",
+      "En casos muy graves, puede presentarse somnolencia profunda, letargo o convulsiones."
+    ],
+    "treatment": "No existe antídoto específico. El tratamiento es de soporte y sintomático. Inducir el vómito o realizar lavado gástrico si la ingestión es reciente (dentro de 1-2 horas). Administrar carbón activado. Mantener las vías respiratorias libres. Monitorizar signos vitales y función renal. En caso de convulsiones, administrar benzodiacepinas (Diazepam). La diálisis puede ser efectiva para eliminar el Piracetam del torrente sanguíneo en casos de intoxicación grave con insuficiencia renal.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (medicamento de patente y genérico sujeto a prescripción).",
+    "scheduleMexico": "Medicamento de la Fracción IV del Cuadro Básico de la COFEPRIS. No es una sustancia controlada.",
+    "fdaApprovalYear": "El Piracetam NO está aprobado por la FDA de Estados Unidos para ninguna indicación. Está aprobado y ampliamente utilizado en Europa, Asia y Latinoamérica, incluyendo México."
+  },
+  "brandsMexico": [
+    "Nootropyl",
+    "Cerebramin",
+    "Neuroxin",
+    "Memopiram",
+    "Cognizin",
+    "Piramem",
+    "Cerebroforte",
+    "Neuron",
+    "Memoril",
+    "Cerebrospan",
+    "Genérico de diversos laboratorios (Piracetam)"
+  ],
+  "clinicalPearls": [
+    "El Piracetam es más efectivo en deterioros cognitivos de origen vascular (post-ACV, demencia vascular) que en la enfermedad de Alzheimer pura. Su combinación con un inhibidor de la colinesterasa (como Donepezilo) puede tener efectos sinérgicos en demencias mixtas.",
+    "Un efecto adverso paradójico es que puede causar insomnio y nerviosismo, lo que a veces se confunde con falta de eficacia. Ajustar el horario de las dosis (última dosis no después de las 5 PM) o reducir la dosis puede resolverlo.",
+    "La suspensión brusca tras un uso prolongado a dosis altas puede precipitar un 'síndrome de abstinencia' caracterizado por ansiedad, insomnio y, en raros casos, convulsiones. Siempre reducir la dosis gradualmente."
+  ],
+  "patientCounseling": "Este medicamento es para ayudarle con problemas de memoria y concentración, pero no es una cura milagrosa. Debe tomarlo exactamente como se lo recetó su médico, generalmente dos veces al día. Es importante que sea constante; los efectos pueden tardar varias semanas en notarse. Combínelo con actividades que ejerciten su mente, como leer, hacer crucigramas o socializar. Evite tomar alcohol, ya que puede reducir su efecto y causarle más sueño o mareos. Esté atento a moretones fáciles o sangrados inusuales y avise a su médico de inmediato. Si olvida una dosis, tómela tan pronto como lo recuerde, pero si ya es casi la hora de la siguiente, sáltese la olvidada y continúe con su horario normal. Nunca tome una dosis doble para compensar. No deje de tomarlo de golpe sin hablar con su médico, pues podría tener efectos no deseados. Informe a cualquier médico o dentista que lo atienda que está tomando Piracetam, especialmente si va a tener una cirugía.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Pérdida de memoria",
+        "slug": "perdida-de-memoria"
+      },
+      {
+        "name": "Dificultad para concentrarse",
+        "slug": "dificultad-para-concentrarse"
+      },
+      {
+        "name": "Lentitud para pensar",
+        "slug": "lentitud-para-pensar"
+      },
+      {
+        "name": "Confusión mental",
+        "slug": "confusion-mental"
+      },
+      {
+        "name": "Movimientos musculares bruscos (mioclono)",
+        "slug": "movimientos-musculares-bruscos-mioclono"
+      },
+      {
+        "name": "Mareo o vértigo de origen central",
+        "slug": "mareo-o-vertigo-de-origen-central"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Deterioro Cognitivo Leve (DCL)",
+        "slug": "deterioro-cognitivo-leve-dcl"
+      },
+      {
+        "name": "Demencia Vascular",
+        "slug": "demencia-vascular"
+      },
+      {
+        "name": "Demencia Mixta (Alzheimer y Vascular)",
+        "slug": "demencia-mixta-alzheimer-y-vascular"
+      },
+      {
+        "name": "Secuelas cognitivas de Accidente Cerebrovascular (ACV)",
+        "slug": "secuelas-cognitivas-de-accidente-cerebrovascular-acv"
+      },
+      {
+        "name": "Síndrome Mioclónico Cortical",
+        "slug": "sindrome-mioclonico-cortical"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Insuficiencia Renal Aguda",
+        "slug": "insuficiencia-renal-aguda"
+      },
+      {
+        "name": "Trastornos de Coagulación (sangrado)",
+        "slug": "trastornos-de-coagulacion-sangrado"
+      },
+      {
+        "name": "Convulsiones",
+        "slug": "convulsiones"
+      },
+      {
+        "name": "Reacción Alérgica Grave (Anafilaxia)",
+        "slug": "reaccion-alergica-grave-anafilaxia"
+      },
+      {
+        "name": "Trastornos del Sueño (Insomnio)",
+        "slug": "trastornos-del-sueno-insomnio"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Tiempo de Sangrado",
+        "slug": "tiempo-de-sangrado",
+        "effect": "Puede prolongar (aumentar)"
+      },
+      {
+        "name": "Recuento de Plaquetas",
+        "slug": "recuento-de-plaquetas",
+        "effect": "Puede alterar la función (no el número)"
+      },
+      {
+        "name": "Peso Corporal",
+        "slug": "peso-corporal",
+        "effect": "Puede elevar"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Aclaramiento de Creatinina",
+        "slug": "aclaramiento-de-creatinina",
+        "reason": "Esencial para ajustar la dosis y prevenir toxicidad renal, ya que el fármaco se elimina por el riñón."
+      },
+      {
+        "name": "Hemograma Completo",
+        "slug": "hemograma-completo",
+        "reason": "Para monitorear el riesgo de alteraciones en la coagulación y sangrado."
+      },
+      {
+        "name": "Evaluación Neuropsicológica",
+        "slug": "evaluacion-neuropsicologica",
+        "reason": "Para medir objetivamente la respuesta del paciente en memoria, atención y otras funciones cognitivas."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de Aclaramiento de Creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de Dosis Pediátrica por Peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de Edad Vascular",
+        "slug": "calculadora-edad-vascular"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve el Piracetam?",
+      "a": "Sirve principalmente para ayudar a mejorar problemas de memoria, concentración y aprendizaje en personas con deterioro cognitivo leve, demencia vascular o como apoyo después de un infarto cerebral. También se usa para tratar movimientos musculares bruscos e involuntarios (mioclono)."
+    },
+    {
+      "q": "¿El Piracetam es para el Alzheimer?",
+      "a": "No es el tratamiento principal para la enfermedad de Alzheimer pura. Se usa más en demencias de origen vascular o mixtas (Alzheimer más problemas de circulación en el cerebro). A veces se combina con otros medicamentos para el Alzheimer."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto el Piracetam?",
+      "a": "No es inmediato. Los efectos sobre la memoria y concentración pueden empezar a notarse después de varias semanas de tomarlo de manera constante. La paciencia y la constancia son importantes."
+    },
+    {
+      "q": "¿El Piracetam se vende sin receta en México?",
+      "a": "No. El Piracetam es un medicamento que requiere receta médica. Un neurólogo, geriatra o psiquiatra debe evaluarlo y recetarlo según su condición específica."
+    },
+    {
+      "q": "¿Qué pasa si olvido tomar una dosis?",
+      "a": "Tómela tan pronto como lo recuerde. Pero si ya es casi la hora de su siguiente dosis, sáltese la que olvidó y continúe con su horario normal. Nunca tome dos dosis juntas para compensar."
+    },
+    {
+      "q": "¿Puedo tomar Piracetam si tengo presión alta o diabetes?",
+      "a": "Sí, pero su médico debe saberlo. El Piracetam puede interactuar con medicamentos para la presión y requiere un control más estricto. No interfiere directamente con la diabetes, pero el manejo integral de su salud es clave."
+    },
+    {
+      "q": "¿El Piracetam causa sueño o da insomnio?",
+      "a": "Puede causar ambos efectos, depende de la persona. Algunos sienten somnolencia, otros nerviosismo e insomnio. Si le causa insomnio, coméntelo con su médico; a veces cambiar la hora de la última dosis (tomarla más temprano) ayuda."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si estoy con Piracetam?",
+      "a": "No se recomienda. El alcohol puede aumentar los mareos o la somnolencia y puede reducir los beneficios del medicamento en su memoria y concentración."
+    },
+    {
+      "q": "¿El Piracetam sube o baja la presión arterial?",
+      "a": "Puede causar cambios en la presión, tanto subirla como bajarla, aunque no es común. Si usted ya toma medicamentos para la presión, debe monitorearse más seguido al inicio del tratamiento."
+    },
+    {
+      "q": "¿Qué alimentos debo evitar con Piracetam?",
+      "a": "No hay alimentos prohibidos específicamente. Puede tomarlo con o sin comida. Lo importante es evitar el alcohol y ser cauteloso con suplementos como Ginkgo o Ajo, que pueden aumentar el riesgo de sangrado."
+    },
+    {
+      "q": "¿El Piracetam es adictivo?",
+      "a": "No se considera un medicamento adictivo en el sentido clásico. No produce euforia ni craving (deseo intenso). Sin embargo, no se debe suspender bruscamente después de un uso prolongado a dosis altas, ya que puede causar ansiedad o, raramente, convulsiones."
+    },
+    {
+      "q": "¿Puedo manejar o operar maquinaria con Piracetam?",
+      "a": "Al inicio del tratamiento, tenga precaución. El Piracetam puede causar mareos o somnolencia en algunas personas. Espere a conocer cómo le afecta antes de realizar actividades que requieran total alerta."
+    },
+    {
+      "q": "¿El Piracetam hace daño a los riñones?",
+      "a": "En personas con riñones sanos y a dosis normales, el riesgo es bajo. Pero el medicamento se elimina por la orina, por lo que SI es dañino si ya tiene enfermedad renal y no se ajusta la dosis. Su médico debe revisar su función renal antes y durante el tratamiento."
+    },
+    {
+      "q": "¿Pueden tomarlo los jóvenes para estudiar?",
+      "a": "No está aprobado ni recomendado para este fin. Usarlo como 'potenciador cerebral' en personas sanas es un uso off-label con evidencia limitada y riesgos (nerviosismo, insomnio, problemas renales). No es un sustituto de buenos hábitos de estudio y sueño."
+    },
+    {
+      "q": "¿Qué hago si veo moretones o sangrado fácil?",
+      "a": "Detenga el medicamento y contacte a su médico de inmediato. El Piracetam puede afectar la coagulación y aumentar el riesgo de sangrado. Es un efecto adverso que requiere evaluación urgente."
+    },
+    {
+      "q": "¿El Piracetam interactúa con otros medicamentos para el cerebro?",
+      "a": "Sí. Puede interactuar con anticoagulantes (como la warfarina), antiagregantes (como la aspirina) y con otros fármacos para demencia (como el donepezilo). Siempre informe a su médico de TODOS los medicamentos y suplementos que toma."
+    },
+    {
+      "q": "¿Es lo mismo Nootropyl que Piracetam genérico?",
+      "a": "Sí, el principio activo es el mismo. Nootropyl es una marca comercial original. Los genéricos contienen el mismo Piracetam y deben ser bioequivalentes. La elección entre marca y genérico puede depender de la disponibilidad y la preferencia del médico/paciente."
+    },
+    {
+      "q": "¿Cuál es la dosis usual para un adulto mayor?",
+      "a": "Se inicia con dosis bajas, por ejemplo, 400 mg dos veces al día, y se aumenta lentamente según la tolerancia y respuesta. La dosis de mantenimiento típica es de 1200 mg a 1600 mg dos veces al día, pero siempre individualizada."
+    },
+    {
+      "q": "¿Por qué mi médico me pidió exámenes de la creatinina?",
+      "a": "Porque el Piracetam se elimina por los riñones. El examen de creatinina (y el cálculo del aclaramiento) le dice a su médico qué tan bien funcionan sus riñones, para así recetar la dosis correcta y segura para usted, evitando daño renal."
+    },
+    {
+      "q": "¿En qué casos está absolutamente contraindicado el Piracetam?",
+      "a": "Está contraindicado si es alérgico al medicamento, si tiene insuficiencia renal grave, si tiene una hemorragia cerebral activa o si padece la enfermedad de Huntington. También se debe evitar en el embarazo y lactancia a menos que el beneficio sea mayor que el riesgo."
+    }
+  ]
+}

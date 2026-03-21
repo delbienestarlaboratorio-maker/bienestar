@@ -1,0 +1,385 @@
+{
+  "name": "Tirzepatide",
+  "summary": "Tirzepatide es un medicamento inyectable de última generación que se utiliza principalmente para el tratamiento de la diabetes mellitus tipo 2 y, más recientemente, para el manejo del sobrepeso y la obesidad. Pertenece a una clase innovadora llamada 'agonistas duales del receptor GLP-1 y GIP', lo que significa que actúa en dos sistemas hormonales naturales del cuerpo para lograr un control glucémico excepcional y una pérdida de peso significativa. Su importancia clínica radica en su potencia, ya que no solo reduce los niveles de azúcar en la sangre de manera muy efectiva, sino que también promueve la saciedad, reduce el apetito y enlentece el vaciamiento gástrico, lo que se traduce en beneficios cardiovasculares y metabólicos integrales para el paciente. Es considerado uno de los tratamientos más prometedores en endocrinología actualmente, ofreciendo una nueva esperanza para el control de enfermedades metabólicas complejas.",
+  "pharmacology": {
+    "mechanismOfAction": "Tirzepatide es un agonista dual de los receptores del péptido similar al glucagón tipo 1 (GLP-1) y del péptido insulinotrópico dependiente de glucosa (GIP). Actúa imitando la acción de estas hormonas incretinas naturales. Al unirse y activar los receptores de GLP-1 en el páncreas, estimula la secreción de insulina dependiente de glucosa y suprime la secreción de glucagón, lo que reduce la producción hepática de glucosa. Simultáneamente, su acción sobre los receptores de GIP potencia aún más la secreción de insulina. Además, en el sistema nervioso central, activa centros de saciedad, reduciendo el apetito y la ingesta de alimentos. En el estómago, enlentece el vaciamiento gástrico, contribuyendo a una mayor sensación de plenitud. Esta acción dual y multisistémica resulta en un potente control glucémico y una notable reducción del peso corporal.",
+    "pharmacologicClass": "Agonista dual del receptor del péptido-1 similar al glucagón (GLP-1) y del péptido insulinotrópico dependiente de glucosa (GIP). Análogo de incretina.",
+    "therapeuticClass": "Antidiabético; Agente para el control de peso.",
+    "absorption": "Se administra por vía subcutánea. La absorción es lenta y sostenida. La biodisponibilidad absoluta después de una inyección subcutánea es aproximadamente del 80%. La concentración máxima (Cmax) se alcanza en un plazo de 8 a 72 horas después de la administración.",
+    "distribution": "Se distribuye ampliamente en el espacio vascular y extravascular. El volumen de distribución en estado estacionario es de aproximadamente 10.3 L. Se une a proteínas plasmáticas en un grado muy alto (>99%), principalmente a la albúmina.",
+    "metabolism": "Tirzepatide se metaboliza ampliamente mediante proteólisis (descomposición de proteínas) en sus aminoácidos componentes. No es un sustrato significativo de las enzimas del citocromo P450 (CYP), por lo que el riesgo de interacciones farmacocinéticas mediadas por CYP es bajo.",
+    "elimination": "La vida media terminal es de aproximadamente 5 días, lo que permite una administración semanal. Se elimina principalmente por el hígado (hasta un 75-82%) y los riñones (hasta un 20%). Los productos del metabolismo se excretan en la orina y las heces.",
+    "onsetOfAction": "La reducción de la glucosa en sangre comienza poco después de la primera dosis, pero los efectos máximos sobre el control glucémico y la pérdida de peso se observan después de varias semanas de tratamiento continuo.",
+    "durationOfAction": "Debido a su larga vida media (~5 días), el efecto farmacológico se mantiene durante toda la semana, justificando la dosificación semanal."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento de la diabetes mellitus tipo 2 en adultos, como complemento de la dieta y el ejercicio para mejorar el control glucémico.",
+      "Tratamiento crónico del sobrepeso (IMC ≥27 kg/m² con al menos una comorbilidad relacionada con el peso) u obesidad (IMC ≥30 kg/m²) en adultos, como complemento de una dieta reducida en calorías y aumento de la actividad física."
+    ],
+    "offLabel": [
+      "Mejora de marcadores de riesgo cardiovascular en pacientes con diabetes tipo 2 y obesidad.",
+      "Posible manejo del hígado graso no alcohólico (EHGNA) en investigación.",
+      "Potencial uso en síndrome metabólico (en investigación)."
+    ]
+  },
+  "dosage": {
+    "adults": "Diabetes tipo 2: Iniciar con 2.5 mg por vía subcutánea una vez por semana. Después de 4 semanas, aumentar a 5 mg semanales. Puede incrementarse adicionalmente en incrementos de 2.5 mg cada 4 semanas según la tolerancia y la respuesta glucémica. Dosis de mantenimiento: 5 mg, 10 mg o 15 mg una vez por semana. Obesidad/Sobrepeso: Esquema similar, con dosis objetivo de 5 mg, 10 mg o 15 mg semanales.",
+    "pediatric": "La seguridad y eficacia en pacientes pediátricos (menores de 18 años) no han sido establecidas. No se recomienda su uso.",
+    "elderly": "No se requiere ajuste de dosis inicial basado únicamente en la edad. Sin embargo, se debe tener precaución debido a la mayor frecuencia de disminución de la función renal. Monitorear función renal.",
+    "renalImpairment": "No se requiere ajuste de dosis en pacientes con insuficiencia renal leve a moderada (TFGe ≥30 mL/min/1.73 m²). Uso no recomendado en insuficiencia renal grave (TFGe <30 mL/min/1.73 m²) o en diálisis, debido a experiencia limitada.",
+    "hepaticImpairment": "No se requiere ajuste de dosis en pacientes con insuficiencia hepática leve a moderada (Child-Pugh A o B). No se ha estudiado en insuficiencia hepática grave (Child-Pugh C). Usar con precaución.",
+    "maxDose": "La dosis máxima recomendada es de 15 mg administrados por vía subcutánea una vez por semana."
+  },
+  "dosageForms": [
+    {
+      "form": "Pluma precargada (pluma inyectora desechable)",
+      "strengths": [
+        "2.5 mg/0.5 mL",
+        "5 mg/0.5 mL",
+        "7.5 mg/0.5 mL",
+        "10 mg/0.5 mL",
+        "12.5 mg/0.5 mL",
+        "15 mg/0.5 mL"
+      ],
+      "route": "Subcutánea"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad (alergia grave) a tirzepatide o a cualquier excipiente de la fórmula.",
+      "Antecedentes personales o familiares de carcinoma medular de tiroides (CMT).",
+      "Pacientes con neoplasia endocrina múltiple tipo 2 (NEM 2).",
+      "Embarazo."
+    ],
+    "relative": [
+      "Pancreatitis aguda o crónica activa.",
+      "Insuficiencia renal grave (TFGe <30) o enfermedad renal en etapa terminal.",
+      "Enfermedad gastrointestinal grave (gastroparesia, enfermedad inflamatoria intestinal).",
+      "Antecedentes de retinopatía diabética proliferativa."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Náuseas",
+      "Diarrea",
+      "Disminución del apetito",
+      "Vómitos",
+      "Estreñimiento",
+      "Dolor abdominal superior"
+    ],
+    "common": [
+      "Reflujo gastroesofágico (acidez)",
+      "Distensión abdominal",
+      "Eructos",
+      "Fatiga",
+      "Reacciones en el sitio de inyección (enrojecimiento, picazón)",
+      "Mareo",
+      "Hipoglucemia (cuando se usa con insulina o sulfonilureas)"
+    ],
+    "uncommon": [
+      "Taquicardia (aumento de la frecuencia cardíaca)",
+      "Pancreatitis aguda",
+      "Retraso en el vaciamiento gástrico (gastroparesia) severo",
+      "Reacción alérgica"
+    ],
+    "rare": [
+      "Carcinoma medular de tiroides (riesgo teórico)",
+      "Necrosis papilar renal (reportes muy raros con agonistas GLP-1)",
+      "Colecistitis (inflamación de la vesícula biliar)"
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Insulina o Sulfonilureas (glibenclamida, glimepirida)",
+        "effect": "Aumenta el riesgo de hipoglucemia (azúcar baja en sangre). Tirzepatide potencia el efecto de estos medicamentos. Se requiere una reducción de la dosis de insulina o sulfonilurea y un monitoreo más frecuente de la glucosa.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Warfarina u otros anticoagulantes orales",
+        "effect": "Tirzepatide puede retardar el vaciamiento gástrico y afectar la absorción de medicamentos orales. Puede alterar el INR (control de anticoagulación). Se requiere un monitoreo más estrecho del INR al iniciar o cambiar la dosis de tirzepatide.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Medicamentos que también retardan el vaciamiento gástrico (p. ej., anticolinérgicos, opioides)",
+        "effect": "Puede potenciar el efecto de retraso gástrico, aumentando el riesgo de estreñimiento severo, náuseas y distensión abdominal.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Se puede administrar con o sin alimentos. Para reducir los efectos gastrointestinales (náuseas), se puede recomendar inyectarlo en un momento del día en que el paciente pueda tolerar mejor estas molestias. El consumo de alcohol puede aumentar el riesgo de hipoglucemia y también puede empeorar las náuseas.",
+    "withSupplements": "No se conocen interacciones clínicamente significativas con suplementos vitamínicos o herbales comunes. Sin embargo, suplementos que afecten los niveles de glucosa (como cromo, canela) podrían potenciar el efecto hipoglucemiante. Consultar siempre con el médico."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA X",
+      "recommendation": "Tirzepatide está contraindicado durante el embarazo. Los datos en animales han mostrado riesgo de daño fetal, incluyendo malformaciones. En mujeres en edad fértil, se debe utilizar un método anticonceptivo efectivo durante el tratamiento y hasta por lo menos 4 semanas después de la última dosis. Si se confirma un embarazo, se debe suspender el medicamento de inmediato.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se desconoce si tirzepatide se excreta en la leche materna humana. Los datos en animales muestran excreción en la leche de ratas. Debido al potencial de efectos graves en el lactante (como hipoglucemia), se recomienda no usar durante la lactancia materna. Se debe decidir entre suspender la lactancia o suspender el medicamento, considerando la importancia del tratamiento para la madre.",
+    "pediatric": "No se recomienda su uso en niños y adolescentes menores de 18 años, ya que no se han establecido la seguridad y la eficacia en este grupo de población.",
+    "geriatric": "En pacientes de 65 años o más, la eficacia es similar, pero pueden ser más sensibles a los efectos adversos, especialmente gastrointestinales (náuseas, diarrea) y a la deshidratación. La función renal debe evaluarse antes de iniciar y monitorearse periódicamente. Iniciar con la dosis más baja y titular lentamente."
+  },
+  "administration": {
+    "howToTake": "1. Es una inyección subcutánea que se aplica UNA VEZ POR SEMANA, el mismo día cada semana. 2. Se puede aplicar en el abdomen, el muslo o la parte posterior del brazo. Rotar el sitio de inyección cada semana. 3. Se puede administrar a cualquier hora del día, con o sin alimentos. 4. Siga las instrucciones de la pluma precargada: retire el capuchón exterior e interior, coloque la aguja, seleccione la dosis (si la pluma es de dosis única, ya está lista), pinche la piel en un ángulo de 90 grados, presione el botón de inyección hasta que el indicador se detenga, cuente lentamente hasta 10 antes de retirar la aguja. 5. Deseche la aguja usada en un contenedor para objetos punzocortantes.",
+    "storage": "Plumas sin usar: Refrigerar entre 2°C y 8°C (en el refrigerador, no en el congelador). No congelar. Proteger de la luz. Pluma en uso: Se puede almacenar a temperatura ambiente (no mayor a 30°C) por hasta 21 días. No volver a refrigerar una pluma que ya está a temperatura ambiente. Desechar la pluma después de 21 días de su primer uso, aunque aún quede medicamento.",
+    "specialInstructions": "Si olvida una dosis: Si han pasado menos de 4 días (96 horas) desde el día programado, aplíquela inmediatamente. Luego, reanude su horario semanal habitual. Si han pasado 4 días o más, omita la dosis olvidada y aplique la siguiente dosis en su día programado habitual. NO duplique la dosis para compensar la olvidada. Informe a su médico si planea una cirugía mayor, ya que puede ser necesario suspender temporalmente el medicamento."
+  },
+  "monitoring": {
+    "labTests": [
+      "Glucosa en ayunas y hemoglobina glucosilada (HbA1c) cada 3 meses.",
+      "Función renal (creatinina sérica, TFGe) al inicio y periódicamente.",
+      "Función tiroidea (calcitonina) solo si hay síntomas sospechosos de cáncer de tiroides.",
+      "Amilasa y lipasa séricas si hay síntomas de pancreatitis.",
+      "Perfil lipídico (colesterol, triglicéridos).",
+      "Peso corporal e índice de masa corporal (IMC) regularmente."
+    ],
+    "frequency": "HbA1c y glucosa: Cada 3 meses inicialmente, luego según criterio médico. Función renal: Al inicio y al menos cada 6-12 meses. Peso y signos vitales: En cada consulta médica.",
+    "signsToWatch": [
+      "Síntomas de hipoglucemia: Sudoración, temblores, hambre, palpitaciones, confusión, mareo.",
+      "Síntomas de pancreatitis: Dolor abdominal intenso y persistente que puede irradiarse a la espalda, con o sin vómitos.",
+      "Síntomas de enfermedad tiroidea: Bulto o hinchazón en el cuello, ronquera, dificultad para tragar, falta de aire.",
+      "Síntomas de reacción alérgica grave: Erupción cutánea, picazón, dificultad para respirar, hinchazón de cara/labios/lengua.",
+      "Náuseas, vómitos o diarrea severos que causen deshidratación (boca seca, orina oscura, mareo al ponerse de pie)."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Náuseas y vómitos intensos",
+      "Hipoglucemia severa (confusión, pérdida del conocimiento, convulsiones)",
+      "Deshidratación severa",
+      "Dolor abdominal intenso (posible pancreatitis)"
+    ],
+    "treatment": "No existe un antídoto específico. El tratamiento es de soporte y sintomático. En caso de hipoglucemia, administrar glucosa oral o intravenosa según la severidad. Mantener la hidratación. Monitorear glucosa, electrolitos y función renal. En caso de pancreatitis, manejo hospitalario.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (receta retenida para algunos esquemas).",
+    "scheduleMexico": "Medicamento de patente, sujeto a prescripción médica. No está incluido en el Cuadro Básico de la Secretaría de Salud, por lo que su acceso es principalmente por medio del sector privado o seguros de gastos médicos.",
+    "fdaApprovalYear": "Aprobado por la FDA en 2022 para diabetes tipo 2 y en 2023 para obesidad crónica."
+  },
+  "brandsMexico": [
+    "Mounjaro® (Eli Lilly)",
+    "Zepbound® (Eli Lilly - específico para obesidad)"
+  ],
+  "clinicalPearls": [
+    "Tirzepatide ha demostrado en estudios clínicos una reducción de HbA1c de hasta -2.4% y una pérdida de peso promedio de hasta -12-15% del peso corporal inicial, superando a otros agonistas de GLP-1.",
+    "Su efecto en la pérdida de peso es dosis-dependiente: a mayor dosis (dentro del rango aprobado), mayor pérdida de peso, pero también mayor incidencia de efectos gastrointestinales.",
+    "La titulación lenta (iniciar con 2.5 mg y aumentar cada 4 semanas) es clave para mejorar la tolerabilidad y reducir las náuseas y vómitos iniciales."
+  ],
+  "patientCounseling": "Estimado paciente, tirzepatide es un tratamiento muy efectivo, pero requiere su compromiso. Se inyecta UNA VEZ POR SEMANA, el mismo día. Las náuseas son comunes al inicio; comer porciones más pequeñas y evitar alimentos grasosos ayuda. Beba suficiente agua para evitar la deshidratación. Revise sus niveles de azúcar con frecuencia, especialmente si también usa insulina, para prevenir bajas de azúcar (hipoglucemia). Aprenda a reconocer los signos de alarma: dolor abdominal fuerte y persistente (posible pancreatitis), un bulto en el cuello o dificultad para tragar (problemas de tiroides), o náuseas/vómitos severos. No lo use si está embarazada o planea estarlo. Combine este medicamento con una alimentación saludable y actividad física regular para obtener los mejores resultados. Nunca comparta su pluma inyectora con otra persona.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Sed excesiva (polidipsia)",
+        "slug": "sed-excesiva"
+      },
+      {
+        "name": "Orina frecuente (poliuria)",
+        "slug": "orina-frecuente"
+      },
+      {
+        "name": "Hambre constante",
+        "slug": "hambre-constante"
+      },
+      {
+        "name": "Fatiga o cansancio",
+        "slug": "fatiga-cansancio"
+      },
+      {
+        "name": "Exceso de peso corporal",
+        "slug": "exceso-peso-corporal"
+      },
+      {
+        "name": "Antojos de comida",
+        "slug": "antojos-de-comida"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Diabetes mellitus tipo 2",
+        "slug": "diabetes-mellitus-tipo-2"
+      },
+      {
+        "name": "Obesidad",
+        "slug": "obesidad"
+      },
+      {
+        "name": "Sobrepeso con comorbilidades",
+        "slug": "sobrepeso-con-comorbilidades"
+      },
+      {
+        "name": "Síndrome metabólico",
+        "slug": "sindrome-metabolico"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Pancreatitis aguda",
+        "slug": "pancreatitis-aguda"
+      },
+      {
+        "name": "Hipoglucemia",
+        "slug": "hipoglucemia"
+      },
+      {
+        "name": "Gastroparesia",
+        "slug": "gastroparesia"
+      },
+      {
+        "name": "Colecistitis",
+        "slug": "colecistitis"
+      },
+      {
+        "name": "Deshidratación",
+        "slug": "deshidratacion"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Glucosa en sangre",
+        "slug": "glucosa-sangre",
+        "effect": "Disminuye"
+      },
+      {
+        "name": "Hemoglobina Glucosilada (HbA1c)",
+        "slug": "hemoglobina-glucosilada",
+        "effect": "Disminuye"
+      },
+      {
+        "name": "Peso corporal",
+        "slug": "peso-corporal",
+        "effect": "Disminuye"
+      },
+      {
+        "name": "Colesterol LDL",
+        "slug": "colesterol-ldl",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Triglicéridos",
+        "slug": "trigliceridos",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Amilasa y Lipasa séricas",
+        "slug": "amilasa-lipasa",
+        "effect": "Puede elevar (en pancreatitis)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Hemoglobina Glucosilada (HbA1c)",
+        "slug": "hemoglobina-glucosilada-hba1c",
+        "reason": "Para evaluar el control glucémico a largo plazo cada 3 meses."
+      },
+      {
+        "name": "Perfil renal (Creatinina, TFGe)",
+        "slug": "perfil-renal",
+        "reason": "Para monitorear la función renal antes y durante el tratamiento."
+      },
+      {
+        "name": "Amilasa y Lipasa",
+        "slug": "amilasa-lipasa-serie",
+        "reason": "Si hay dolor abdominal sospechoso de pancreatitis."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora IMC",
+        "slug": "calculadora-imc"
+      },
+      {
+        "name": "Calculadora eGFR",
+        "slug": "calculadora-egfr"
+      },
+      {
+        "name": "Calculadora de calorías",
+        "slug": "calculadora-calorias"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Qué es tirzepatide y para qué sirve?",
+      "a": "Tirzepatide es un medicamento inyectable que se usa principalmente para tratar la diabetes tipo 2 y, también aprobado recientemente, para ayudar a adultos con sobrepeso u obesidad a perder peso. Actúa regulando el azúcar en la sangre y reduciendo el apetito."
+    },
+    {
+      "q": "¿Cada cuánto me tengo que poner la inyección?",
+      "a": "Se aplica UNA SOLA VEZ POR SEMANA. Es importante que elija un día fijo (por ejemplo, todos los lunes) y se inyecte aproximadamente a la misma hora ese día para mantener un nivel constante del medicamento en su cuerpo."
+    },
+    {
+      "q": "¿Duele la inyección?",
+      "a": "La aguja es muy fina y corta, diseñada para inyección subcutánea (debajo de la piel), por lo que el dolor suele ser mínimo, similar a un pellizco leve. Rotar el sitio de inyección (abdomen, muslo, brazo) ayuda a evitar molestias."
+    },
+    {
+      "q": "¿Puedo tomarlo si no tengo diabetes, solo para bajar de peso?",
+      "a": "Sí, pero solo bajo estricta prescripción médica. Tirzepatide está aprobado en México para el tratamiento crónico de la obesidad (IMC ≥30) o sobrepeso (IMC ≥27) con al menos un problema de salud relacionado (como presión alta o colesterol alto). No es un producto 'milagro' y debe combinarse con dieta y ejercicio."
+    },
+    {
+      "q": "¿Cuánto peso puedo llegar a bajar?",
+      "a": "En estudios clínicos, los pacientes perdieron en promedio entre el 12% y el 15% de su peso corporal inicial después de un año de tratamiento con la dosis más alta (15 mg), combinado con cambios en el estilo de vida. Los resultados varían en cada persona."
+    },
+    {
+      "q": "¿Qué efectos secundarios son los más comunes?",
+      "a": "Los más frecuentes, especialmente al inicio, son náuseas, diarrea, vómitos, estreñimiento y dolor de estómago. Suelen ser leves a moderados y tienden a disminuir después de las primeras semanas a medida que su cuerpo se acostumbra al medicamento."
+    },
+    {
+      "q": "¿Qué hago si se me olvida poner la inyección?",
+      "a": "Si han pasado menos de 4 días (96 horas) desde su día programado, póngasela inmediatamente. Luego, vuelva a su horario normal. Si han pasado 4 días o más, OMITA la dosis olvidada y póngase la siguiente en su día habitual. NUNCA se ponga dos dosis el mismo día o muy seguidas."
+    },
+    {
+      "q": "¿Puedo beber alcohol mientras uso tirzepatide?",
+      "a": "Se recomienda moderación. El alcohol puede aumentar el riesgo de hipoglucemia (bajada de azúcar) y también puede empeorar las náuseas, un efecto secundario común del medicamento. Consulte con su médico."
+    },
+    {
+      "q": "¿Tirzepatide causa cáncer de tiroides?",
+      "a": "En estudios con animales (ratas), tirzepatide y medicamentos similares causaron tumores en la tiroides (carcinoma medular). No se sabe si causa este mismo efecto en humanos, pero está CONTRAINDICADO en personas con antecedentes personales o familiares de este tipo específico de cáncer de tiroides."
+    },
+    {
+      "q": "¿Puedo usarlo si tengo problemas del riñón?",
+      "a": "Si su problema renal es leve o moderado, generalmente se puede usar sin ajustar la dosis, pero con monitoreo. NO se recomienda su uso si tiene insuficiencia renal grave o está en diálisis. Su médico evaluará su función renal antes de iniciar."
+    },
+    {
+      "q": "¿Interfiere con mis otros medicamentos para la diabetes?",
+      "a": "Sí, especialmente con la INSULINA y las SULFONILUREAS (como glibenclamida). Tirzepatide potencia su efecto, aumentando mucho el riesgo de que su azúcar baje demasiado (hipoglucemia). Su médico probablemente reducirá la dosis de esos otros medicamentos."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto para bajar el azúcar y el peso?",
+      "a": "Empieza a actuar desde la primera dosis, pero los efectos máximos sobre el azúcar en sangre (HbA1c) y la pérdida de peso se ven después de varias semanas o incluso meses de uso continuo. La paciencia y la constancia son clave."
+    },
+    {
+      "q": "¿Puedo usarlo durante el embarazo o si estoy planeando quedar embarazada?",
+      "a": "NO. Tirzepatide está contraindicado en el embarazo (Categoría X). Puede causar daño al feto. Si está en edad fértil, debe usar un método anticonceptivo efectivo durante el tratamiento y hasta 4 semanas después de la última dosis. Si queda embarazada, suspenda el medicamento y consulte a su médico de inmediato."
+    },
+    {
+      "q": "¿Qué debo comer mientras tomo tirzepatide?",
+      "a": "Siga una dieta saludable, balanceada y reducida en calorías si el objetivo es perder peso. Para reducir las náuseas, coma porciones más pequeñas y frecuentes, evite alimentos muy grasosos, picantes o azucarados. Beba mucha agua."
+    },
+    {
+      "q": "¿Tengo que seguir haciendo dieta y ejercicio?",
+      "a": "ABSOLUTAMENTE SÍ. Tirzepatide es un complemento, no un reemplazo, de un estilo de vida saludable. Los mejores resultados se logran combinando el medicamento con una alimentación adecuada y actividad física regular."
+    },
+    {
+      "q": "¿Puede causar problemas en el páncreas?",
+      "a": "Sí, existe un riesgo (poco común) de pancreatitis (inflamación del páncreas). Deje de usar tirzepatide y busque atención médica URGENTE si tiene dolor abdominal intenso y persistente que se irradia a la espalda, con o sin vómitos."
+    },
+    {
+      "q": "¿Cómo debo guardar las plumas inyectoras?",
+      "a": "Las plumas NUEVAS y SIN USAR deben guardarse en el REFRIGERADOR (2°C a 8°C). La pluma que está EN USO puede guardarse a temperatura ambiente (hasta 30°C) por un máximo de 21 días. Nunca la congele ni la exponga al calor directo (como el sol)."
+    },
+    {
+      "q": "¿Qué pasa si me pongo una dosis más alta por error?",
+      "a": "Podría sufrir náuseas y vómitos severos, deshidratación e hipoglucemia peligrosa. Contacte a su médico o acuda a un servicio de urgencias de inmediato. No existe un antídoto, el tratamiento es de soporte para controlar los síntomas."
+    },
+    {
+      "q": "¿Es mejor que otros medicamentos similares como semaglutida (Ozempic®)?",
+      "a": "En estudios clínicos directos (head-to-head), tirzepatide ha demostrado una mayor reducción de la HbA1c y una mayor pérdida de peso promedio en comparación con semaglutida. Sin embargo, la elección del medicamento depende de cada paciente, sus metas, tolerancia y el criterio de su médico."
+    },
+    {
+      "q": "¿Cuál es el mecanismo por el que tirzepatide causa pérdida de peso?",
+      "a": "Actúa en el cerebro (centro de la saciedad) para reducir el apetito y la sensación de hambre, y en el estómago para retardar su vaciamiento, lo que hace que se sienta lleno por más tiempo. Además, al mejorar el control del azúcar, reduce los antojos asociados a los picos glucémicos. Esta combinación lleva a una menor ingesta de calorías y, por tanto, a la pérdida de peso."
+    }
+  ]
+}

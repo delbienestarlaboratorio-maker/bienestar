@@ -1,0 +1,122 @@
+{
+  "paciente": "CAMPUZANO RUIZ    ^JOSE^ALBERTO",
+  "estudio": "KNEE",
+  "fecha": "20260309",
+  "equipo": "Carestream Health DRX-1",
+  "modalidad": "DX",
+  "region": "KNEE",
+  "vista": "AP",
+  "variantes": [
+    {
+      "id": 1,
+      "nombre": "Original del Equipo",
+      "descripcion": "Imagen tal como la genera tu Carestream Health DRX-1. Sin procesamiento.",
+      "icono": "📷",
+      "archivo": "1_original.jpg",
+      "tag": "ORIGINAL",
+      "tag_class": "",
+      "norma": "Sin procesamiento — referencia base del detector"
+    },
+    {
+      "id": 2,
+      "nombre": "Suavizado Leve",
+      "descripcion": "CLAHE suave + reducción de ruido. Para tejidos blandos, edema, masas.",
+      "icono": "🌫️",
+      "archivo": "2_suavizado.jpg",
+      "tag": "SUAVE",
+      "tag_class": "soft",
+      "norma": "CLAHE 1.5 (16×16) + Gaussiano. Partes blandas"
+    },
+    {
+      "id": 3,
+      "nombre": "Estándar Clínico",
+      "descripcion": "CLAHE moderado sobre calibración Carestream Health DRX-1. Ideal para entrega al paciente.",
+      "icono": "⭐",
+      "archivo": "3_estandar.jpg",
+      "tag": "RECOMENDADO",
+      "tag_class": "rec",
+      "norma": "NOM-229-SSA1 — CLAHE 2.0 (8×8) sobre windowing Carestream Health DRX-1",
+      "recomendado": true
+    },
+    {
+      "id": 4,
+      "nombre": "Contraste Medio",
+      "descripcion": "Balance entre tejido blando y óseo. Mayor detalle que el estándar.",
+      "icono": "◑",
+      "archivo": "4_medio.jpg",
+      "tag": "MEDIO",
+      "tag_class": "",
+      "norma": "CLAHE 3.0 (8×8). Balance óseo-blando"
+    },
+    {
+      "id": 5,
+      "nombre": "Alto Contraste",
+      "descripcion": "Contraste agresivo. Para estudios óseos y calcificaciones.",
+      "icono": "🔆",
+      "archivo": "5_alto.jpg",
+      "tag": "FUERTE",
+      "tag_class": "bone",
+      "norma": "CLAHE 4.0 (4×4). Máximo contraste"
+    },
+    {
+      "id": 6,
+      "nombre": "Bordes Realzados",
+      "descripcion": "CLAHE fuerte + Unsharp. Para fracturas sutiles y cortical ósea.",
+      "icono": "🦴",
+      "archivo": "6_bordes.jpg",
+      "tag": "BORDES",
+      "tag_class": "bone",
+      "norma": "CLAHE 4.0 + Unsharp σ=2.0. Fracturas"
+    },
+    {
+      "id": 7,
+      "nombre": "Ecualización Completa",
+      "descripcion": "Ecualización de histograma global. Maximiza rango dinámico.",
+      "icono": "📊",
+      "archivo": "7_equalizado.jpg",
+      "tag": "HEQ",
+      "tag_class": "",
+      "norma": "Ecualización global (equalizeHist)"
+    },
+    {
+      "id": 8,
+      "nombre": "Negativo (Inversión)",
+      "descripcion": "Inversión + CLAHE. Para lesiones líticas, gas y cuerpos extraños.",
+      "icono": "🔄",
+      "archivo": "8_negativo.jpg",
+      "tag": "NEGATIVO",
+      "tag_class": "neg",
+      "norma": "Inversión + CLAHE 2.0. Lesiones líticas"
+    }
+  ],
+  "guia_impresion": {
+    "region": "KNEE",
+    "placa": "10×12\" o 14×17\"",
+    "vistas": 2,
+    "layout": "AP + Lateral juntas en UNA placa",
+    "orientacion": "Vertical",
+    "marcadores": "L/R obligatorio (NOM-229-SSA1)",
+    "instrucciones": "Rodilla: AP con extensión completa, Lateral a 20-30° de flexión. Incluir rótula.",
+    "nota": "Traumatismos: agregar proyección axial de rótula (Merchant/Sunrise) si se solicita.",
+    "proyecciones": [
+      {
+        "nombre": "AP (Anteroposterior)",
+        "requerida": true,
+        "desc": "Vista frontal con pierna extendida. Evalúa espacio articular, cóndilos y meseta tibial."
+      },
+      {
+        "nombre": "Lateral",
+        "requerida": true,
+        "desc": "Vista de perfil a 20-30° de flexión. Evalúa rótula, grasa suprapatelar y fémur distal."
+      },
+      {
+        "nombre": "Axial de Rótula (Merchant)",
+        "requerida": false,
+        "desc": "Rodilla flexionada 45°, rayo tangencial. Evalúa articulación patelofemoral."
+      }
+    ]
+  },
+  "dicom_source": "QY0UQAQO",
+  "generado_at": "2026-03-11T18:22:26.104108",
+  "norma_referencia": "NOM-229-SSA1-2002"
+}

@@ -32,6 +32,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         { url: `${BASE_URL}/blog`, lastModified: new Date(), changeFrequency: 'daily', priority: 0.7 },
         { url: `${BASE_URL}/privacidad`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.3 },
         { url: `${BASE_URL}/terminos`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.3 },
+        { url: `${BASE_URL}/enfermedades`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.85 },
     ];
 
     // 2. Herramientas (calculadoras médicas — 111 páginas)
@@ -52,20 +53,23 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         console.error("Sitemap Tools Error:", e);
     }
 
-    // 3. Síntomas dinámicos (desde fragments)
+    // 3. Síntomas dinámicos (desde manifest — misma fuente que generateStaticParams)
+    // IMPORTANT: Usamos el manifest symptoms.json (3,604 entradas) en vez de leer
+    // los ~19,962 archivos de symptoms-fragments/ para evitar URLs fantasma en el sitemap.
     let sintomasRoutes: MetadataRoute.Sitemap = [];
     try {
-        const fragmentsDir = path.join(process.cwd(), 'src', 'data', 'symptoms-fragments');
-        if (fs.existsSync(fragmentsDir)) {
-            const slugs = fs.readdirSync(fragmentsDir)
-                .filter(f => f.endsWith('.json'))
-                .map(f => f.replace('.json', ''));
-            sintomasRoutes = slugs.map(slug => ({
-                url: `${BASE_URL}/sintomas/${slug}`,
-                lastModified: new Date(),
-                changeFrequency: 'monthly' as const,
-                priority: 0.75,
-            }));
+        const manifestPath = path.join(process.cwd(), 'src', 'data', 'symptoms.json');
+        if (fs.existsSync(manifestPath)) {
+            const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
+            const entries = Array.isArray(manifest) ? manifest : [];
+            sintomasRoutes = entries
+                .filter((s: any) => s.slug)
+                .map((s: any) => ({
+                    url: `${BASE_URL}/sintomas/${s.slug}`,
+                    lastModified: new Date(),
+                    changeFrequency: 'monthly' as const,
+                    priority: 0.75,
+                }));
         }
     } catch (e) {
         console.error("Sitemap Síntomas Error:", e);
@@ -143,5 +147,24 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         // Blog data may not be available
     }
 
-    return [...staticRoutes, ...dynamicTools, ...sintomasRoutes, ...biomarkerRoutes, ...precioRoutes, ...studyRoutes, ...blogRoutes];
+    // 7. Enfermedades (guías clínicas CIE-10 — desde fragments)
+    let enfermedadesRoutes: MetadataRoute.Sitemap = [];
+    try {
+        const diseasesDir = path.join(process.cwd(), 'src', 'data', 'diseases-fragments');
+        if (fs.existsSync(diseasesDir)) {
+            const slugs = fs.readdirSync(diseasesDir)
+                .filter(f => f.endsWith('.json'))
+                .map(f => f.replace('.json', ''));
+            enfermedadesRoutes = slugs.map(slug => ({
+                url: `${BASE_URL}/enfermedades/${slug}`,
+                lastModified: new Date(),
+                changeFrequency: 'monthly' as const,
+                priority: 0.75,
+            }));
+        }
+    } catch (e) {
+        console.error("Sitemap Enfermedades Error:", e);
+    }
+
+    return [...staticRoutes, ...dynamicTools, ...sintomasRoutes, ...biomarkerRoutes, ...precioRoutes, ...studyRoutes, ...blogRoutes, ...enfermedadesRoutes];
 }

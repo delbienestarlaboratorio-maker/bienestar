@@ -1,0 +1,375 @@
+{
+  "name": "Estazolam",
+  "summary": "El Estazolam es un medicamento ansiolítico y sedante que pertenece a la familia de las benzodiazepinas. Se utiliza principalmente para tratar el insomnio de corta duración, ayudando a conciliar el sueño más rápido, a reducir los despertares nocturnos y a aumentar la duración total del sueño. Su importancia clínica radica en su eficacia para restaurar patrones de sueño normales en personas con dificultades para dormir, pero debe usarse con precaución debido a su potencial para causar dependencia, somnolencia diurna y otros efectos secundarios. Es un tratamiento de segunda línea, reservado para cuando otras medidas no farmacológicas han fallado, y su uso debe ser supervisado por un médico para evitar riesgos como la tolerancia y el síndrome de abstinencia. Su mecanismo de acción consiste en potenciar los efectos del ácido gamma-aminobutírico (GABA), un neurotransmisor que inhibe la actividad del sistema nervioso central, produciendo un efecto calmante, relajante e inductor del sueño.",
+  "pharmacology": {
+    "mechanismOfAction": "El Estazolam actúa como un modulador alostérico positivo en los receptores GABA-A en el sistema nervioso central. Al unirse a un sitio específico en estos receptores, potencia la acción del neurotransmisor inhibidor GABA (ácido gamma-aminobutírico). Cuando el GABA se une a su receptor, abre un canal de cloruro, permitiendo que iones de cloruro cargados negativamente entren en la neurona, lo que la hiperpolariza y hace que sea menos excitable. El Estazolam aumenta la frecuencia con la que se abre este canal en respuesta al GABA, lo que resulta en un mayor influjo de cloruro y una inhibición neuronal más potente. Este efecto generalizado de depresión del sistema nervioso central se manifiesta como sedación, reducción de la ansiedad, relajación muscular e inducción del sueño. Su selectividad por los subtipos de receptores GABA-A que contienen las subunidades alfa-1 contribuye principalmente a sus efectos hipnóticos y sedantes.",
+    "pharmacologicClass": "Benzodiazepina de vida media intermedia; Derivado del triazolobenzodiazepina; Agonista del receptor de benzodiazepina; Modulador alostérico positivo del receptor GABA-A.",
+    "therapeuticClass": "Hipnótico; Ansiolítico; Sedante.",
+    "absorption": "Se absorbe bien por vía oral, con una biodisponibilidad aproximada del 93%. La presencia de alimentos puede retrasar ligeramente la velocidad de absorción, pero no afecta significativamente la cantidad total de fármaco que llega a la circulación sistémica. Las concentraciones plasmáticas máximas (Cmax) se alcanzan entre 1 y 3 horas después de la administración oral.",
+    "distribution": "Se distribuye ampliamente por los tejidos corporales. Tiene un volumen de distribución (Vd) de aproximadamente 1.5 a 2 L/kg, lo que indica una distribución extensa más allá del plasma. Se une en un alto porcentaje (alrededor del 93%) a proteínas plasmáticas, principalmente a la albúmina. Cruza la barrera hematoencefálica y la placenta.",
+    "metabolism": "Se metaboliza extensamente en el hígado mediante procesos de oxidación, principalmente a través del sistema enzimático del citocromo P450 (CYP), específicamente la isoenzima CYP3A4. Los metabolitos principales son el 4'-hidroxiestazolam y el 1-oxoestazolam, que tienen una actividad farmacológica mínima o nula en comparación con el compuesto original.",
+    "elimination": "La vida media de eliminación es de aproximadamente 10 a 24 horas, lo que la clasifica como una benzodiazepina de vida media intermedia. Se elimina principalmente por vía renal, en forma de metabolitos inactivos conjugados con glucurónido. Menos del 5% del fármaco se excreta sin cambios en la orina. La eliminación puede estar prolongada en personas de edad avanzada y en pacientes con insuficiencia hepática.",
+    "onsetOfAction": "El inicio de acción ocurre generalmente entre 30 y 60 minutos después de la administración oral, lo que permite su uso para inducir el sueño al acostarse.",
+    "durationOfAction": "La duración del efecto hipnótico es de 6 a 8 horas, lo que es adecuado para mantener el sueño durante la noche sin causar una sedación excesiva al día siguiente (aunque esto puede ocurrir, especialmente al inicio del tratamiento o con dosis altas)."
+  },
+  "indications": {
+    "approved": [
+      "Insomnio de corta duración (tratamiento sintomático del insomnio transitorio o situacional)",
+      "Insomnio caracterizado por dificultad para conciliar el sueño, despertares frecuentes durante la noche y/o despertar temprano en la mañana"
+    ],
+    "offLabel": [
+      "Ansiedad preoperatoria (como premedicación)",
+      "Trastorno de ansiedad generalizada (a corto plazo, aunque no es de primera línea)",
+      "Síndrome de piernas inquietas (en casos refractarios)",
+      "Manejo de la abstinencia alcohólica aguda (como parte de un protocolo)"
+    ]
+  },
+  "dosage": {
+    "adults": "Para el insomnio: La dosis inicial habitual es de 1 mg tomado por vía oral al acostarse. La dosis puede ajustarse según la respuesta y tolerancia del paciente. El rango de dosis efectiva es típicamente de 1 mg a 2 mg al acostarse. En algunos casos, se puede iniciar con 0.5 mg en pacientes particularmente sensibles.",
+    "pediatric": "La seguridad y eficacia del Estazolam en pacientes pediátricos (menores de 18 años) no han sido establecidas. Por lo tanto, NO está recomendado para su uso en niños y adolescentes.",
+    "elderly": "En pacientes de edad avanzada (mayores de 65 años) o debilitados, se recomienda una dosis inicial más baja, generalmente de 0.5 mg al acostarse. El ajuste debe ser cauteloso y con un incremento máximo a 1 mg solo si es necesario y bien tolerado, debido al mayor riesgo de sedación excesiva, ataxia, confusión y caídas.",
+    "renalImpairment": "En insuficiencia renal leve a moderada (TFG ≥30 mL/min), generalmente no se requieren ajustes de dosis significativos, pero se debe iniciar con la dosis más baja posible y monitorizar de cerca. En insuficiencia renal grave (TFG <30 mL/min) o en diálisis, se recomienda precaución extrema, iniciando con 0.5 mg o evitando su uso, ya que puede haber acumulación de metabolitos y mayor riesgo de efectos adversos del SNC.",
+    "hepaticImpairment": "Está contraindicado en insuficiencia hepática grave. En pacientes con enfermedad hepática leve a moderada (por ejemplo, cirrosis compensada), el metabolismo está reducido y la vida media prolongada. Se debe usar con extrema precaución, iniciando con la dosis más baja posible (0.5 mg) y solo si es estrictamente necesario, bajo estrecha supervisión médica.",
+    "maxDose": "La dosis máxima diaria recomendada para adultos es de 2 mg, tomada como una sola dosis al acostarse. Dosis superiores aumentan significativamente el riesgo de efectos adversos sin proporcionar un beneficio terapéutico adicional sustancial."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "1 mg",
+        "2 mg"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al Estazolam, a otras benzodiazepinas o a cualquier componente de la formulación",
+      "Miastenia gravis",
+      "Síndrome de apnea del sueño grave (no tratado)",
+      "Insuficiencia respiratoria grave",
+      "Insuficiencia hepática grave",
+      "Glaucoma de ángulo cerrado agudo (no tratado)",
+      "Embarazo (especialmente el primer trimestre)"
+    ],
+    "relative": [
+      "Historia de abuso de drogas o alcohol",
+      "Depresión mayor (riesgo de suicidio)",
+      "Enfermedad pulmonar obstructiva crónica (EPOC) moderada a grave",
+      "Insuficiencia renal grave",
+      "Enfermedad hepática leve a moderada",
+      "Edad avanzada o estado debilitado",
+      "Trastornos psiquiátricos con componente psicótico"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Somnolencia diurna",
+      "Mareo",
+      "Dolor de cabeza",
+      "Sedación residual (al día siguiente)"
+    ],
+    "common": [
+      "Ataxia (inestabilidad al caminar)",
+      "Confusión (especialmente en ancianos)",
+      "Debilidad muscular",
+      "Boca seca",
+      "Náuseas",
+      "Visión borrosa",
+      "Euforia o disforia"
+    ],
+    "uncommon": [
+      "Amnesia anterógrada (dificultad para recordar eventos después de tomar el medicamento)",
+      "Erupción cutánea",
+      "Prurito (picazón)",
+      "Cambios en la libido",
+      "Estreñimiento",
+      "Diarrea",
+      "Hipotensión",
+      "Taquicardia"
+    ],
+    "rare": [
+      "Reacciones paradójicas (excitación, agresión, irritabilidad, alucinaciones)",
+      "Ictericia",
+      "Anemia",
+      "Leucopenia",
+      "Dependencia psicológica y física con uso prolongado",
+      "Síndrome de abstinencia al suspender bruscamente"
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Alcohol",
+        "effect": "Potenciación severa de la depresión del SNC, con riesgo de sedación profunda, depresión respiratoria, coma y muerte.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Opioides (morfina, oxicodona, tramadol, etc.)",
+        "effect": "Depresión aditiva del SNC y respiratoria, mayor riesgo de sedación profunda, coma, paro respiratorio y muerte.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Otros depresores del SNC (barbitúricos, antipsicóticos, antidepresivos sedantes, antihistamínicos H1)",
+        "effect": "Aumento de los efectos sedantes y del deterioro psicomotor.",
+        "severity": "Moderada/Grave"
+      },
+      {
+        "drug": "Inhibidores de la CYP3A4 (ketoconazol, itraconazol, claritromicina, ritonavir, jugo de toronja)",
+        "effect": "Aumentan las concentraciones plasmáticas de Estazolam, potenciando sus efectos y el riesgo de toxicidad.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inductores de la CYP3A4 (rifampicina, carbamazepina, fenitoína, hierba de San Juan)",
+        "effect": "Disminuyen las concentraciones plasmáticas de Estazolam, reduciendo su eficacia terapéutica.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "El jugo de toronja (pomelo) inhibe la enzima CYP3A4 en el intestino y puede aumentar significativamente la absorción y los niveles sanguíneos de Estazolam, potenciando sus efectos sedantes y adversos. Se debe evitar su consumo. Las comidas grasas pueden retrasar ligeramente la absorción, pero no afectan la biodisponibilidad total. El ALCOHOL está absolutamente contraindicado, ya que potencia peligrosamente los efectos depresores del SNC.",
+    "withSupplements": "La hierba de San Juan (Hypericum perforatum) es un potente inductor enzimático y puede reducir la eficacia del Estazolam. Suplementos con efectos sedantes como la valeriana, la kava kava, la melatonina en dosis altas o la pasiflora pueden potenciar la somnolencia. Se recomienda consultar al médico antes de combinar con cualquier suplemento herbal."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "X",
+      "recommendation": "El Estazolam está CONTRAINDICADO durante el embarazo, especialmente en el primer trimestre. Su uso se asocia con un mayor riesgo de malformaciones congénitas (como labio leporino y paladar hendido) cuando se administra durante el primer trimestre. El uso cerca del parto puede causar síndrome de abstinencia neonatal (hipotonía, letargo, dificultades respiratorias, hipotermia, problemas de alimentación) y depresión respiratoria en el recién nacido. Las mujeres en edad fértil deben usar métodos anticonceptivos efectivos durante el tratamiento.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "El Estazolam se excreta en la leche materna en concentraciones que pueden ser clínicamente significativas para el lactante. Puede causar sedación, dificultad para alimentarse y pérdida de peso en el bebé. Se recomienda evitar la lactancia materna durante el tratamiento con Estazolam. Si el tratamiento es absolutamente necesario, se debe suspender la lactancia.",
+    "pediatric": "No está aprobado para su uso en niños y adolescentes menores de 18 años debido a la falta de datos de seguridad y eficacia, y al riesgo potencial de efectos adversos sobre el desarrollo del sistema nervioso central.",
+    "geriatric": "Los pacientes de edad avanzada (mayores de 65 años) son extremadamente sensibles a los efectos de las benzodiazepinas. Presentan un riesgo muy aumentado de sedación excesiva, mareos, confusión, desorientación, ataxia, caídas y fracturas (especialmente de cadera). También tienen un metabolismo más lento, lo que lleva a una acumulación del fármaco. Se debe usar la dosis efectiva más baja posible (iniciar con 0.5 mg), por el menor tiempo posible, y vigilar estrechamente."
+  },
+  "administration": {
+    "howToTake": "Tomar por vía oral, generalmente con un vaso de agua. Debe administrarse justo antes de acostarse, ya que su efecto comienza en 30-60 minutos. No tomar con alcohol. No triturar ni masticar las tabletas. No conducir ni operar maquinaria peligrosa después de tomarlo. No aumentar la dosis por cuenta propia. Si se olvida una dosis, se debe omitir y tomar la siguiente a la hora habitual al día siguiente; NO duplicar la dosis.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (entre 15°C y 30°C), protegido de la luz y la humedad. Mantener fuera del alcance de los niños y las mascotas.",
+    "specialInstructions": "Este medicamento es para uso a corto plazo (generalmente no más de 2 a 4 semanas). El uso prolongado puede llevar a tolerancia (necesidad de aumentar la dosis para el mismo efecto), dependencia física y psicológica, y síndrome de abstinencia al suspenderlo. La suspensión debe ser gradual, bajo supervisión médica. Informar al médico si no se observa mejoría después de 7-10 días."
+  },
+  "monitoring": {
+    "labTests": [
+      "Función hepática (ALT, AST, bilirrubina) periódica si uso prolongado",
+      "Hemograma completo ocasional (por riesgo raro de discrasias sanguíneas)",
+      "No se requiere monitorización rutinaria de niveles plasmáticos."
+    ],
+    "frequency": "Evaluación clínica de la eficacia y efectos adversos en cada consulta. Pruebas de función hepática cada 6-12 meses si el tratamiento se extiende más allá de lo recomendado.",
+    "signsToWatch": [
+      "Sedación diurna excesiva que interfiere con actividades",
+      "Mareo o inestabilidad al caminar (riesgo de caídas)",
+      "Cambios de comportamiento (agresividad, agitación)",
+      "Problemas de memoria",
+      "Signos de dependencia (necesidad de aumentar dosis)",
+      "Síntomas de abstinencia al reducir la dosis (ansiedad, insomnio de rebote, temblores)"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Somnolencia profunda",
+      "Confusión severa",
+      "Ataxia marcada",
+      "Reflejos disminuidos",
+      "Hipotensión",
+      "Depresión respiratoria (dificultad para respirar, respiración lenta y superficial)",
+      "Coma",
+      "En casos extremos, paro cardiorrespiratorio y muerte."
+    ],
+    "treatment": "Manejo de soporte. Mantener la vía aérea, la respiración y la circulación. Lavado gástrico o carbón activado si la ingestión es reciente (dentro de 1-2 horas). No hay antídoto específico. El flumazenil (un antagonista de benzodiazepinas) puede revertir la depresión del SNC, pero su uso es controvertido en pacientes dependientes por riesgo de desencadenar convulsiones por abstinencia aguda. El tratamiento es principalmente sintomático y de soporte en un entorno hospitalario.",
+    "antidote": "Flumazenil (uso hospitalario y con precaución, no de rutina)."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica por ser una benzodiazepina con potencial de abuso.",
+    "scheduleMexico": "Fracción III (tercera) de la Ley General de Salud. Sujeta a control especial, requiere receta médica expedida en formato oficial y su venta debe registrarse.",
+    "fdaApprovalYear": "Aprobado por la FDA en 1990."
+  },
+  "brandsMexico": [
+    "Nuctalon",
+    "ProSom",
+    "Estazolam Genérico (varios laboratorios)"
+  ],
+  "clinicalPearls": [
+    "El Estazolam tiene una vida media intermedia (10-24h), lo que la hace útil para el insomnio de mantenimiento, pero también puede causar más frecuentemente sedación residual al día siguiente ('hangover') comparado con benzodiazepinas de vida media más corta como el triazolam.",
+    "Es una de las benzodiazepinas con mayor riesgo relativo de causar amnesia anterógrada, especialmente en dosis altas. Se debe advertir a los pacientes sobre este efecto.",
+    "A diferencia de algunas benzodiazepinas, el Estazolam no tiene metabolitos activos significativos, lo que simplifica su farmacocinética, especialmente en pacientes ancianos o con insuficiencia hepática."
+  ],
+  "patientCounseling": "Tome el Estazolam exactamente como se lo recetó su médico, justo antes de acostarse. Nunca lo tome con alcohol, ya que es muy peligroso. Este medicamento puede causarle mucho sueño al día siguiente, mareos y dificultad para concentrarse. Por su seguridad, NO conduzca automóviles, maneje maquinaria peligrosa o realice actividades que requieran alerta hasta que sepa cómo le afecta. No aumente la dosis por su cuenta, aunque sienta que ya no le hace el mismo efecto. El uso por más de unas pocas semanas puede crear hábito y hacer que sea difícil dejarlo. Si desea suspenderlo, consulte a su médico para que le indique cómo reducir la dosis poco a poco y evitar malestares como ansiedad, temblores o insomnio severo. Guárdelo en un lugar seguro, fuera del alcance de niños y otras personas. Informe a su médico si está embarazada, planea estarlo o está amamantando.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dificultad para conciliar el sueño",
+        "slug": "dificultad-para-conciliar-el-sueno"
+      },
+      {
+        "name": "Despertares nocturnos frecuentes",
+        "slug": "despertares-nocturnos-frecuentes"
+      },
+      {
+        "name": "Despertar temprano sin poder volver a dormir",
+        "slug": "despertar-temprano-sin-poder-volver-a-dormir"
+      },
+      {
+        "name": "Ansiedad relacionada con el insomnio",
+        "slug": "ansiedad-relacionada-con-el-insomnio"
+      },
+      {
+        "name": "Tensión muscular",
+        "slug": "tension-muscular"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Insomnio transitorio o situacional",
+        "slug": "insomnio-transitorio-o-situacional"
+      },
+      {
+        "name": "Insomnio de corta duración",
+        "slug": "insomnio-de-corta-duracion"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Dependencia a benzodiazepinas",
+        "slug": "dependencia-a-benzodiazepinas"
+      },
+      {
+        "name": "Síndrome de abstinencia de benzodiazepinas",
+        "slug": "sindrome-de-abstinencia-de-benzodiazepinas"
+      },
+      {
+        "name": "Amnesia anterógrada",
+        "slug": "amnesia-anterograda"
+      },
+      {
+        "name": "Delirio (especialmente en ancianos)",
+        "slug": "delirio"
+      },
+      {
+        "name": "Caídas y fracturas en ancianos",
+        "slug": "caidas-y-fracturas-en-ancianos"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Enzimas hepáticas (ALT, AST)",
+        "slug": "enzimas-hepaticas-alt-ast",
+        "effect": "Puede elevar (raro)"
+      },
+      {
+        "name": "Bilirrubina",
+        "slug": "bilirrubina",
+        "effect": "Puede elevar (raro)"
+      },
+      {
+        "name": "Recuento de leucocitos",
+        "slug": "recuento-de-leucocitos",
+        "effect": "Puede disminuir (raro)"
+      },
+      {
+        "name": "Presión arterial sistólica",
+        "slug": "presion-arterial-sistolica",
+        "effect": "Puede disminuir"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-de-funcion-hepatica",
+        "reason": "Para monitorizar toxicidad hepática, especialmente en uso prolongado o en pacientes con riesgo."
+      },
+      {
+        "name": "Hemograma completo",
+        "slug": "hemograma-completo",
+        "reason": "Para detectar discrasias sanguíneas raras como leucopenia."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve el Estazolam?",
+      "a": "El Estazolam sirve principalmente para tratar el insomnio de corta duración, es decir, ayuda a las personas que tienen dificultad para conciliar el sueño, se despiertan muchas veces en la noche o se despiertan muy temprano. Actúa calmando el sistema nervioso para inducir y mantener el sueño."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto el Estazolam?",
+      "a": "Generalmente comienza a hacer efecto entre 30 y 60 minutos después de tomarlo. Por eso se debe tomar justo antes de acostarse, no horas antes."
+    },
+    {
+      "q": "¿Puedo tomar Estazolam si tomo alcohol?",
+      "a": "NO, absolutamente NO. Combinar Estazolam con alcohol es muy peligroso. Potencia enormemente los efectos sedantes, pudiendo causar somnolencia extrema, dificultad para respirar, pérdida del conocimiento, coma e incluso la muerte."
+    },
+    {
+      "q": "¿El Estazolam crea adicción?",
+      "a": "Sí, el Estazolam tiene potencial para crear dependencia física y psicológica, especialmente si se usa por más de 2 a 4 semanas o en dosis altas. El cuerpo se puede acostumbrar (tolerancia) y al suspenderlo bruscamente puede causar síntomas de abstinencia."
+    },
+    {
+      "q": "¿Cuánto tiempo puedo tomar Estazolam seguido?",
+      "a": "Está indicado para uso a corto plazo, generalmente no más de 2 a 4 semanas seguidas. El uso prolongado aumenta el riesgo de dependencia, tolerancia (que deje de hacer efecto) y otros efectos adversos. No es una solución permanente para el insomnio."
+    },
+    {
+      "q": "¿Puedo conducir mi auto al día siguiente de tomar Estazolam?",
+      "a": "Debe tener MUCHA PRECAUCIÓN. El Estazolam puede causar 'resaca' o somnolencia al día siguiente, además de mareos y menor capacidad de reacción. No conduzca ni opere maquinaria peligrosa hasta que esté seguro de que estos efectos han desaparecido completamente, lo que puede tardar varias horas."
+    },
+    {
+      "q": "¿Qué hago si se me olvida tomar una dosis de Estazolam?",
+      "a": "Si se le olvida tomarlo a la hora de acostarse, NO lo tome al día siguiente por la mañana ni duplique la dosis la siguiente noche. Simplemente omita la dosis olvidada y tome la siguiente a la hora habitual de acostarse la noche siguiente."
+    },
+    {
+      "q": "¿El Estazolam es lo mismo que el Clonazepam o el Alprazolam?",
+      "a": "No, aunque todos son benzodiazepinas, son medicamentos diferentes. El Estazolam se usa principalmente para el insomnio y tiene una duración de efecto intermedia. El Clonazepam se usa más para ansiedad y ciertos tipos de epilepsia, y el Alprazolam para trastornos de ansiedad y pánico. No son intercambiables."
+    },
+    {
+      "q": "¿Puedo tomar Estazolam si estoy embarazada o planeando embarazarme?",
+      "a": "NO. El Estazolam está CONTRAINDICADO en el embarazo, especialmente en los primeros meses, porque puede causar malformaciones en el bebé. Si está en edad fértil, debe usar un método anticonceptivo efectivo mientras lo toma. Consulte a su médico de inmediato si sospecha un embarazo."
+    },
+    {
+      "q": "¿Puedo amamantar a mi bebé si tomo Estazolam?",
+      "a": "No es recomendable. El Estazolam pasa a la leche materna y puede causar somnolencia excesiva, dificultad para alimentarse y otros problemas en el bebé. Si el tratamiento es necesario, se debe suspender la lactancia materna. Hable con su médico sobre alternativas."
+    },
+    {
+      "q": "¿Qué efectos secundarios son los más comunes con el Estazolam?",
+      "a": "Los efectos secundarios más comunes son somnolencia durante el día, mareo, dolor de cabeza y una sensación de 'resaca' o cansancio al despertar. También son frecuentes la boca seca y la sensación de inestabilidad al caminar."
+    },
+    {
+      "q": "¿Puedo tomar jugo de toronja (pomelo) si tomo Estazolam?",
+      "a": "Se recomienda EVITAR el jugo de toronja. Este jugo puede interferir con la forma en que el cuerpo procesa el Estazolam, haciendo que llegue más cantidad del medicamento a la sangre y aumentando el riesgo de efectos secundarios como somnolencia excesiva."
+    },
+    {
+      "q": "¿El Estazolam me puede causar pérdida de memoria?",
+      "a": "Sí, es un efecto posible, llamado amnesia anterógrada. Puede tener dificultad para recordar cosas que sucedieron después de tomar el medicamento, especialmente si se despierta durante la noche. Este efecto es más probable con dosis altas."
+    },
+    {
+      "q": "¿Qué pasa si tomo una dosis más alta de la que me recetaron?",
+      "a": "Tomar una dosis más alta de la indicada es peligroso. Puede causar somnolencia profunda, confusión severa, dificultad para respirar, coma y hasta la muerte. Nunca aumente la dosis por su cuenta. Si cree que necesita más, consulte a su médico."
+    },
+    {
+      "q": "¿Cómo debo dejar de tomar Estazolam si ya lo he usado por un tiempo?",
+      "a": "NUNCA lo suspenda de golpe, especialmente si lo ha tomado por más de unas semanas. La suspensión brusca puede causar insomnio severo de rebote, ansiedad, temblores, sudoración y hasta convulsiones. Debe consultar a su médico para que le diseñe un plan para reducir la dosis gradualmente (deshabituación)."
+    },
+    {
+      "q": "¿Puedo tomar Estazolam si tengo problemas del hígado?",
+      "a": "Depende de la gravedad. En problemas hepáticos leves, se puede usar con mucha precaución y dosis bajas. En insuficiencia hepática grave, está CONTRAINDICADO. Su médico debe evaluar su caso y decidir, ya que el hígado es el órgano que procesa este medicamento."
+    },
+    {
+      "q": "¿Es normal que al día siguiente de tomar Estazolam me sienta muy cansado y con mal sabor de boca?",
+      "a": "Sí, la somnolencia o cansancio residual ('hangover') es un efecto común, especialmente al inicio del tratamiento o con dosis altas. La boca seca o mal sabor también son frecuentes. Si la somnolencia es muy intensa y le impide funcionar, informe a su médico para ajustar la dosis."
+    },
+    {
+      "q": "¿El Estazolam interactúa con otros medicamentos para la presión o el corazón?",
+      "a": "Puede interactuar. Puede potenciar el efecto de algunos medicamentos para la presión, causando mareo por baja presión. También interactúa de forma grave con algunos antiarrítmicos. Es FUNDAMENTAL que le diga a su médico TODOS los medicamentos que toma, incluyendo hierbas y suplementos, antes de empezar con Estazolam."
+    },
+    {
+      "q": "¿Por qué mi médico me recetó Estazolam solo por 10 días si mi insomnio es crónico?",
+      "a": "Porque el Estazolam está diseñado para el insomnio agudo o de corta duración. Para el insomnio crónico, el tratamiento de primera línea no son las pastillas, sino terapias conductuales y cambios en los hábitos de sueño. El uso prolongado de benzodiazepinas como el Estazolam para el insomnio crónico no es recomendable por los riesgos de dependencia y otros efectos."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre el Estazolam y los medicamentos 'Z' como Zolpidem?",
+      "a": "Aunque ambos son hipnóticos, pertenecen a clases químicas diferentes. El Estazolam es una benzodiazepina, que actúa de forma más general en el cerebro. Zolpidem es un 'agonista no benzodiazepínico' que actúa de forma más selectiva. Ambos pueden causar dependencia, pero el perfil de efectos secundarios (como la amnesia) puede ser diferente. La elección depende de cada paciente y debe hacerla el médico."
+    }
+  ]
+}

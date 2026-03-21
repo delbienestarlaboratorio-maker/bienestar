@@ -1,0 +1,107 @@
+[
+    {
+        "slug": "manchas-oscuras-piel",
+        "name": "Manchas Oscuras en Pliegues",
+        "medicalName": "Acantosis Nigricans",
+        "cie10": "L81.4",
+        "intro": "La acantosis nigricans es un trastorno cutáneo caracterizado por zonas de la piel oscuras, con alteraciones de coloración gruesas y aterciopeladas en los pliegues y surcos del cuerpo (típicamente axilas, ingle y parte posterior del cuello). Médicamente no es una enfermedad de la piel en sí misma, sino el signo dérmico clásico de la resistencia a la insulina, donde los niveles altos de insulina en sangre se adhieren a los receptores de la piel estimulando una multiplicación celular anormal de melanocitos y queratinocitos.",
+        "causes": [
+            "Resistencia a la Insulina y Síndrome Metabólico (el páncreas produce exceso de insulina).",
+            "Diabetes Mellitus Tipo 2 (la insulina no logra ingresar la glucosa a las células).",
+            "Síndrome de Ovario Poliquístico (SOP) a causa de un desbalance hormonal androgénico.",
+            "Uso prolongado de corticosteroides orales o niacina en altas dosis.",
+            "Rarezas oncológicas (Adenocarcinoma Gástrico) que liberan factores de crecimiento epidérmico similares."
+        ],
+        "redFlags": [
+            "Aparición sorpresiva y rápida (en cuestión de semanas) de la hiperpigmentación severa en pacientes sin obesidad, especialmente mayores.",
+            "Textura cutánea que se vuelve verrugosa y dolorosa con sangrado al contacto mínimo.",
+            "Acompañada de síntomas graves de Cáncer Gástrico (pérdida aguda de peso, vómitos, dolor gástrico)."
+        ],
+        "tests": [
+            "Prueba de Glucosa en Sangre en Ayunas y Hemoglobina Glucosilada (HbA1c).",
+            "Niveles séricos de Insulina Basal e Índice HOMA-IR (Evaluación de Resistencia).",
+            "Endoscopia Gástrica e IMR Abdominal (solo en sospecha de origen paraneoplásico o malignidad aguda)."
+        ],
+        "tools": [
+            "riesgo-diabetes",
+            "evaluador-sop"
+        ]
+    },
+    {
+        "slug": "debilidad-mitad-cuerpo",
+        "name": "Debilidad en Mitad del Cuerpo",
+        "medicalName": "Hemiparesia",
+        "cie10": "G81.9",
+        "intro": "La hemiparesia implica una debilidad muscular o parálisis parcial progresiva en un lado específico del cuerpo (unilateral: brazo, pierna y mitad de la cara). Es el evento clínico de urgencia por antonomasia que señala una interrupción abrupta en la oxigenación o en la transmisión eléctrica en el hemisferio cerebral opuesto al lado afectado. Representa habitualmente la ventana crítica para salvar tejido cerebral ante un ictus o infarto en curso.",
+        "causes": [
+            "Accidente Cerebrovascular (Ictus Isquémico) por coágulo taponando la arteria cerebral.",
+            "Hemorragia Intracraneal (derrame) por rotura de un aneurisma o hipertensión maligna descontrolada.",
+            "Ataque Isquémico Transitorio (AIT), un preaviso tromboembólico microvascular de corta duración.",
+            "Traumatismo craneoencefálico agudo produciendo hematoma epidural progresivo.",
+            "Tumores cerebrales supratentoriales compresivos que desplazan poco a poco la masa cerebral motor-frontal."
+        ],
+        "redFlags": [
+            "Inicio repentino de la debilidad como un 'switch' apagado en un segundo, frecuentemente de madrugada.",
+            "Imposibilidad total de articular palabras de forma coherente o entender instrucciones verbales simples.",
+            "Desviación notoria de la comisura de la boca y dificultad severa para cerrar un ojo."
+        ],
+        "tests": [
+            "Tomografía Axial Computarizada (TAC) de Cráneo sin Contraste (CÓDIGO ICTUS URGENTE).",
+            "Ultrasonido o Ecografía Doppler Carotídea urgente para evaluar origen tromboembólico.",
+            "Angiorresonancia Magnética (Angio-RM) Cerebral de las arterias del polígono de Willis."
+        ],
+        "tools": [
+            "score-has-bled"
+        ]
+    },
+    {
+        "slug": "dolor-pecho-agudo",
+        "name": "Dolor de Pecho Agudo",
+        "medicalName": "Dolor Torácico Súbito",
+        "cie10": "R07.4",
+        "intro": "El dolor torácico de instauración rápida es la queja más prevalente en las salas urgencias del mundo. Mientras un porcentaje menor obedece a etiologías musculares (costocondritis) o gástricas (reflujo severo), toda opresión torácica pesada o desgarradora, irradiada y con síntomas vegetativos es el signo cardinal de un compromiso cardíaco isquémico masivo, disección arterial aórtica o tromboembolia pulmonar fatal e inminente.",
+        "causes": [
+            "Infarto Agudo Al Miocardio (IAM), muerte celular del músculo cardíaco por obstrucción isquémica coronaria total.",
+            "Angina de Pecho inestable o vasoespasmo grave coronario intermitente hipercrítico.",
+            "Tromboembolia Pulmonar (TEP), un grandísimo coágulo desprendido de extremidades superiores que bloquea la circulación pulmonar central.",
+            "Disección Aórtica aguda (ruptura y desprendimiento interno acelerado de la pared de la gran arteria aorta torácica principal).",
+            "Neumotórax a Tensión, el colapso brusco del tejido pulmonar invadiendo fatalmente la cavidad y desplazando la vena cava y el corazón."
+        ],
+        "redFlags": [
+            "Dolor descrito no como 'punzante', sino incesantemente opresivo severo ('como un elefante gigante sentado directamente en mi pecho en reposo absoluto').",
+            "Irradiación súbita del tremendo dolor opresivo hacia el inicio maxilar inferior (mandíbula izquierda), cuello puro o profundo del brazo izquierdo entero.",
+            "Presencia inmediata generalizada de diaforesis (sudoración fría colosal masiva aguda profusa mojando totalmente ropa en minutos) combinada y vértigo con un desmayo letal e inminente (Síncope cardiovascular y shock)."
+        ],
+        "tests": [
+            "Electrocardiograma profundo estándar urgente inmediato (ECG de doce precisas derivaciones vitales obligatorias primeras e iniciales).",
+            "Análisis químico serológico urgente clínico analítico general puro de Enzimas Cardíacas (Troponinas biológicas I/T de altísima sensibilidad específica e inmediata).",
+            "Angiografía computarizada vascular Tomográfica global TAC general o Angiografía coronaria urgente profunda en infarto isquémico para dilatación o revascularización profunda salvatadora."
+        ],
+        "tools": [
+            "riesgo-cardiovascular"
+        ]
+    },
+    {
+        "slug": "fatiga-extrema-repentina",
+        "name": "Fatiga Extrema Inexplicable",
+        "medicalName": "Astenia Dinámica Grave",
+        "cie10": "R53.8",
+        "intro": "La astenia o fatiga severa repentina representa un agotamiento global neuromuscular que impide sostener el ritmo fisiológico. Muy diferente al natural cansancio biológico que cesa al dormir o la genérica mialgia global, una astenia instaurada sin justificación es un signo clínico inequívoco universal de falta profunda oxigenación tisular, o carencia macro y micro-metabólica basal del organismo originada biológicamente por un crónico e ininterrumpido inmenso desangramiento no evidente anatómico y orgánico sistémico progresivo (anemia masiva severísima oncológica u hemorrágica silente general interna profunda oculta).",
+        "causes": [
+            "Anemia crónica ferropénica y megaloblástica agudizada inmensamente severa (pérdida gastrointestinal hemorrágica de sangre crónica invisible heces).",
+            "Insuficiencia funcional Cardiaca Congestiva masiva de progresión derecha e incesantemente base de baja inmensa fracción masiva general bomba de eyección miocárdica pura central (falla cardiaca de esfuerzo incesante de corazón ininterrumpido).",
+            "Uremia general masiva sanguínea o profunda Insuficiencia de general base disfuncional base inmensamente a Renal global u Renal toxémica general terminal (tóxicos colosales en purísima sangre a la sangre sin eliminación).",
+            "Hipotiroidismo puro inmensamente global autoinmune (ausencia masiva funcional basal en glándula la tiroides de hormona metabólica activa global basal de T3 pura de conversión celular celular corporal).",
+            "Neoplasias malignas oncológicas leucémicas agudas genéricas con alta proliferación base invasiva de ininterrumpidos glóbulos genérico patológicos blancos a que invaden pura médula en incesante médula ósea basal."
+        ],
+        "redFlags": [
+            "Incapacidad de purísima biológica a para mantenerse y mantenerse corporal de o en pie e de pie a e inmenso y general letargo a incesantes u de u sueño o en profundo general sueño profundo colosal sueño inmensas todo el día o el o todo incesante el e a ininterrumpidas a de día.",
+            "Palidez extrema súbita cutánea o y la a y palidez labial de e u en y purísima e blanca inmensas y general ininterrumpidamente pálida en de inmensidades con a o con manos y manos a o u dolor u manos a heladas puros heladas heladas inmensamente.",
+            "La aparición a general repentina l repentina la o de n o z de la d u grandes en hematomas en s e inmensidades d de l o s c k en z k morados x a l r p f g u b a f w z q h w y manchas y de incesantemente purpúricas b d n a q purpúricas v y purpúricas t y j b t j j l a f n a k s o a de u t j u j s p e p k d d a c de s b q inmensidades v hematomas z y y x y m b s w w w e c c n en m h l v m y l i la r e w w m g l la b cuerpo b cuerpo w en p k b f a r y v x i f del w r x y b del i c a incesantemente g t a b d d z o p v b k inmensidades b c piel."
+        ],
+        "tests": [
+            "Biometría w g h q P w h f n y q o V x U u n R x t V t U v B B n S C y o p t G f O I l N W x A n U t m G B V P w J J j H A B r u l T x D m J L M c Q Y V biometría D f X F Q J t B G l F Hemática q E N z h b P m O W u l H n E h b L W A k s Z B J P n H completa S t B g F R J D k f H v Z k p s R g f K E I A M G para H n d b N H e g K t a g A b Y m W Buscar l O J W O e K V r N U E P T y Z anémico w G A e L S x Y e I g b N c k w U p F D V A u v d g x y C q i m H e B A N I X K y a W X U Y c X X H i C W a U Y Y i a d I L L f r h M l O j m q V A F h e H."
+        ],
+        "tools": []
+    }
+]

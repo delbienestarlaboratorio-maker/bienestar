@@ -1,0 +1,356 @@
+{
+  "name": "Naloxona",
+  "summary": "La naloxona es un medicamento salvavidas que actúa como un antídoto específico para revertir los efectos peligrosos de una sobredosis por opioides. Los opioides son medicamentos muy fuertes para el dolor (como la morfina, fentanilo, tramadol o la oxicodona) o drogas ilegales como la heroína. Cuando una persona toma una dosis excesiva de estas sustancias, puede dejar de respirar y morir. La naloxona funciona bloqueando rápidamente los efectos de los opioides en el cerebro, restaurando la respiración normal en cuestión de minutos. Es de importancia crítica en el contexto de la epidemia de sobredosis por opioides, y su disponibilidad para uso de emergencia por personal no médico (como familiares o primeros respondientes) ha salvado innumerables vidas. No tiene efecto en personas que no han consumido opioides y no causa adicción. En el entorno hospitalario, también se utiliza para revertir la depresión respiratoria causada por opioides administrados durante o después de una cirugía.",
+  "pharmacology": {
+    "mechanismOfAction": "La naloxona es un antagonista competitivo puro de los receptores opioides mu, kappa y delta en el sistema nervioso central. Esto significa que se une con alta afinidad a estos mismos receptores a los que se unen los opioides (como la morfina o la heroína), pero sin activarlos. Al ocupar el receptor, desplaza a cualquier opioide que esté unido a él, bloqueando así sus efectos farmacológicos. Su acción principal y más crítica es revertir la depresión respiratoria (cuando la respiración se vuelve lenta, superficial o se detiene), que es la causa principal de muerte en la sobredosis por opioides. También revierte otros efectos como sedación profunda, hipotensión y bradicardia. No tiene actividad agonista, por lo que no produce analgesia, euforia, depresión respiratoria ni dependencia física.",
+    "pharmacologicClass": "Antagonista de los receptores opioides",
+    "therapeuticClass": "Antídoto para intoxicación por opioides; Agente de reversión de opioides",
+    "absorption": "La absorción después de la administración intramuscular (IM), subcutánea (SC) o intranasal (IN) es rápida. La administración intravenosa (IV) proporciona el inicio de acción más rápido. La biodisponibilidad por vía intranasal es aproximadamente del 50% y por vía intramuscular/subcutánea es superior al 90%.",
+    "distribution": "Se distribuye rápidamente por todo el cuerpo. Atraviesa la barrera hematoencefálica, aunque más lentamente que algunos opioides como el fentanilo. Su volumen de distribución es de aproximadamente 2-3 L/kg. Se une a proteínas plasmáticas en un grado moderado (principalmente a la albúmina).",
+    "metabolism": "La naloxona se metaboliza extensamente en el hígado, principalmente por conjugación con ácido glucurónico (glucuronidación), formando naloxona-3-glucurónido. El sistema de enzimas del citocromo P450 (CYP) no juega un papel significativo en su metabolismo principal.",
+    "elimination": "La vida media de eliminación en adultos es de aproximadamente 30 a 80 minutos (alrededor de 1 hora). Se elimina principalmente por vía renal, en forma de metabolitos conjugados. Una pequeña porción se excreta sin cambios en la orina.",
+    "onsetOfAction": "Muy rápido. Intravenosa (IV): 1-2 minutos. Intramuscular (IM) / Subcutánea (SC): 2-5 minutos. Intranasal (IN): similar a la IM, alrededor de 3-5 minutos.",
+    "durationOfAction": "Corta, típicamente de 30 a 90 minutos (1 a 1.5 horas). Esto es crucial, ya que la duración de acción de muchos opioides (especialmente los de liberación prolongada o muy potentes como el fentanilo) es mayor. Por ello, puede ser necesaria más de una dosis y una vigilancia estrecha después de la administración, ya que los efectos de la sobredosis pueden regresar."
+  },
+  "indications": {
+    "approved": [
+      "Reversión de la depresión respiratoria inducida por opioides (naturales, sintéticos o semisintéticos) en casos de sobredosis conocida o sospechada.",
+      "Reversión de los efectos de los opioides en el período postoperatorio cuando se han administrado como parte de la anestesia o analgesia.",
+      "Tratamiento de emergencia para la intoxicación aguda por opioides, incluyendo heroína, morfina, fentanilo, oxicodona, hidrocodona, metadona, tramadol, entre otros."
+    ],
+    "offLabel": [
+      "Diagnóstico de dependencia física a opioides (puede precipitar un síndrome de abstinencia).",
+      "Adyuvante en el tratamiento del prurito (comezón) resistente inducido por opioides.",
+      "Posible uso en el tratamiento del shock séptico (investigacional), aunque no es estándar."
+    ]
+  },
+  "dosage": {
+    "adults": "Sobredosis por opioides (emergencia): Dosis inicial de 0.4 mg a 2 mg por vía IV, IM, SC o IN. Si no hay respuesta en 2-3 minutos, se puede repetir la dosis cada 2-3 minutos según sea necesario. Si no hay acceso IV, las vías IM, SC o IN son efectivas. En el contexto comunitario, los kits de autoinyección o spray nasal suelen ser de dosis fija (por ejemplo, 2 mg/actuación IM o 4 mg/actuación IN). En el postoperatorio (depresión respiratoria): Dosis inicial de 0.04 a 0.4 mg IV, titulando cuidadosamente para revertir la depresión respiratoria sin eliminar por completo el efecto analgésico.",
+    "pediatric": "Sobredosis por opioides (emergencia): Dosis inicial de 0.01 mg/kg por vía IV, IM o SC. Si no hay respuesta, se puede administrar una dosis posterior de 0.1 mg/kg. También se puede usar la vía intranasal. En recién nacidos con depresión respiratoria por opioides administrados a la madre durante el parto: 0.01 mg/kg IV, IM o SC, repetible cada 2-3 minutos según sea necesario.",
+    "elderly": "No se requieren ajustes de dosis específicos solo por edad. Sin embargo, se debe usar con precaución debido a la mayor probabilidad de enfermedades cardíacas subyacentes. La dosis efectiva más baja debe ser utilizada, especialmente en el entorno postoperatorio.",
+    "renalImpairment": "No se requieren ajustes de dosis específicos en insuficiencia renal. La naloxona y sus metabolitos se eliminan por vía renal, pero su margen de seguridad es amplio en el contexto de emergencia. En pacientes en diálisis, no se requiere ajuste.",
+    "hepaticImpairment": "No se requieren ajustes de dosis específicos en insuficiencia hepática. El metabolismo puede estar reducido, pero esto no es clínicamente significativo dada la indicación de emergencia y la corta duración de acción.",
+    "maxDose": "No existe una dosis máxima absoluta definida en una situación de emergencia por sobredosis. La administración se continúa hasta que se restablezca una respiración adecuada. Se han utilizado dosis acumuladas de 10 mg o más en casos de intoxicación por opioides potentes (como fentanilo). En el entorno postoperatorio, las dosis suelen ser mucho más bajas (generalmente < 1 mg total)."
+  },
+  "dosageForms": [
+    {
+      "form": "Solución inyectable (ampolla o vial)",
+      "strengths": [
+        "0.4 mg/mL",
+        "1 mg/mL"
+      ],
+      "route": "Intravenosa, Intramuscular, Subcutánea"
+    },
+    {
+      "form": "Autoinyector prellenado",
+      "strengths": [
+        "0.4 mg/0.4 mL",
+        "2 mg/0.4 mL"
+      ],
+      "route": "Intramuscular, Subcutánea"
+    },
+    {
+      "form": "Spray nasal",
+      "strengths": [
+        "2 mg/actuación",
+        "4 mg/actuación"
+      ],
+      "route": "Intranasal"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la naloxona o a cualquier componente de la formulación."
+    ],
+    "relative": [
+      "Pacientes físicamente dependientes de opioides (puede precipitar un síndrome de abstinencia agudo y severo).",
+      "Pacientes que reciben opioides por dolor crónico severo (como cáncer terminal), ya que puede revertir el alivio del dolor y causar abstinencia. En estos casos, se usa solo si es absolutamente necesario para salvar la vida, y con dosis muy bajas y tituladas."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Síntomas de abstinencia aguda de opioides en pacientes dependientes (agitación, temblores, náuseas, vómitos, taquicardia, hipertensión, sudoración, piloerección, dolor abdominal, diarrea).",
+      "Dolor en el sitio de inyección (IM/SC)."
+    ],
+    "common": [
+      "Náuseas y vómitos.",
+      "Taquicardia (aumento de la frecuencia cardíaca).",
+      "Hipertensión arterial.",
+      "Sudoración.",
+      "Temblores.",
+      "Irritabilidad y nerviosismo."
+    ],
+    "uncommon": [
+      "Arritmias cardíacas (latidos irregulares).",
+      "Edema pulmonar (acumulación de líquido en los pulmones), especialmente en pacientes con enfermedad cardíaca preexistente.",
+      "Convulsiones (raro, pero posible).",
+      "Hipotensión (presión baja)."
+    ],
+    "rare": [
+      "Reacciones alérgicas severas (anafilaxia).",
+      "Paro cardíaco.",
+      "Fibrilación ventricular."
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Opioides (Morfina, Fentanilo, Heroína, Oxicodona, etc.)",
+        "effect": "La naloxona antagoniza (bloquea) los efectos de los opioides, incluyendo la depresión respiratoria, la analgesia y la euforia. Esta es la interacción terapéutica deseada en una sobredosis.",
+        "severity": "Grave (terapéutica)"
+      },
+      {
+        "drug": "Agonistas-antagonistas opioides (Buprenorfina, Pentazocina)",
+        "effect": "La naloxona puede revertir parcialmente sus efectos, pero la buprenorfina tiene una unión muy fuerte al receptor, por lo que pueden requerirse dosis más altas o repetidas de naloxona.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "No hay interacciones clínicamente relevantes con alimentos. El alcohol es un depresor del sistema nervioso central y puede potenciar los efectos de los opioides, aumentando el riesgo de sobredosis, pero no interactúa directamente con la naloxona.",
+    "withSupplements": "No se conocen interacciones significativas con suplementos dietéticos o herbales."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA B",
+      "recommendación": "La naloxona debe usarse durante el embarazo solo si el beneficio potencial justifica claramente el riesgo potencial para el feto. En una emergencia por sobredosis materna, el beneficio de salvar la vida de la madre es primordial. También se utiliza en recién nacidos para revertir la depresión respiratoria causada por opioides administrados a la madre durante el parto.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se considera compatible con la lactancia materna. Se excreta en la leche materna en cantidades muy pequeñas, pero es poco probable que cause efectos adversos en el lactante, especialmente dado que se usa como dosis única en emergencias. No se espera que afecte la producción de leche.",
+    "pediatric": "Seguro y efectivo para su uso en niños y recién nacidos para las indicaciones aprobadas. La dosis se calcula por peso corporal. Es el antídoto de elección para la sobredosis por opioides en pediatría.",
+    "geriatric": "Los pacientes mayores pueden ser más sensibles a los efectos de la naloxona, particularmente a los efectos cardiovasculares (aumento de la presión arterial y frecuencia cardíaca). Se debe usar con precaución en pacientes con enfermedad cardiovascular preexistente. No se requiere ajuste de dosis solo por edad."
+  },
+  "administration": {
+    "howToTake": "EN EMERGENCIA (Sobredosis): 1. Verificar que la persona no responde y tiene respiración lenta, superficial o ausente. 2. Llamar a los servicios de emergencia (066 o 911) INMEDIATAMENTE. 3. Administrar naloxona según las instrucciones del dispositivo: SPRAY NASAL: Insertar la punta en una fosa nasal y presionar el aplicador firmemente. AUTOINYECTOR: Retirar el capuchón de seguridad, colocar contra el muslo externo (a través de la ropa si es necesario) y presionar firmemente hasta que haga *clic* y mantener durante varios segundos. INYECCIÓN (por personal médico): Administrar por vía IV, IM o SC. 4. Si no hay respuesta en 2-3 minutos, administrar una segunda dosis. 5. Colocar a la persona de lado (posición de recuperación) si respira. 6. Iniciar RCP si no hay respiración, hasta que llegue la ayuda. EN HOSPITAL (Postoperatorio): Administrada por vía intravenosa por un profesional de la salud, titulando la dosis lentamente hasta lograr la respiración adecuada.",
+    "storage": "Conservar a temperatura ambiente (15-30°C), protegido de la luz. No congelar. Los dispositivos de emergencia (spray nasal, autoinyectores) deben guardarse en un lugar fácilmente accesible para los familiares o cuidadores, no en un botiquín cerrado con llave. Verificar la fecha de caducidad periódicamente.",
+    "specialInstructions": "La naloxona tiene una duración de acción más corta que muchos opioides. Es CRUCIAL que después de administrarla, la persona sea trasladada a un hospital para observación, ya que los efectos de la sobredosis pueden regresar (renarcotización) y ser necesarias más dosis. No es un sustituto de la atención médica de emergencia. No causa daño si se administra a una persona que no tiene opioides en su sistema, pero tampoco tendrá efecto."
+  },
+  "monitoring": {
+    "labTests": [
+      "No se requieren análisis de laboratorio de rutina para el uso único en emergencia."
+    ],
+    "frequency": "Durante y después de la administración: Monitoreo continuo de la frecuencia respiratoria, saturación de oxígeno (pulsioxímetro), frecuencia cardíaca y presión arterial durante al menos 2-4 horas, debido al riesgo de renarcotización.",
+    "signsToWatch": [
+      "Regreso de la depresión respiratoria (respiración lenta < 12 respiraciones/minuto o apnea).",
+      "Signos de abstinencia aguda de opioides (agitación, vómitos, taquicardia).",
+      "Signos de edema pulmonar (dificultad respiratoria, tos con esputo espumoso)."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "La naloxona en sí tiene un perfil de seguridad muy alto y es difícil alcanzar una sobredosis. En personas que NO han consumido opioides, dosis muy altas pueden causar efectos adversos como náuseas, vómitos, taquicardia, hipertensión y temblores. En pacientes dependientes de opioides, una dosis excesiva precipitará un síndrome de abstinencia severo."
+    ],
+    "treatment": "El tratamiento es de soporte. Manejar los síntomas de abstinencia si son severos (líquidos, control de vómitos). En casos raros de efectos cardiovasculares extremos, se emplean medidas de soporte avanzado. No existe un antídoto específico para la naloxona.",
+    "antidote": "No existe un antídoto específico. El enfoque es de soporte sintomático."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "En México, la naloxona inyectable y el spray nasal generalmente requieren receta médica para su adquisición en farmacias. Sin embargo, existen programas de distribución comunitaria y de farmacias que la proporcionan sin receta a personas en riesgo y sus familiares, como parte de estrategias de reducción de daños.",
+    "scheduleMexico": "No está incluida en la lista de psicotrópicos de la Ley General de Salud. Es un medicamento de control especial (requiere receta).",
+    "fdaApprovalYear": "La naloxona fue aprobada por la FDA en 1971."
+  },
+  "brandsMexico": [
+    "Narcan",
+    "Nalone",
+    "Naloxona Pisa",
+    "Naloxona Genfar",
+    "Naloxona Denver",
+    "Naloxona Liomont",
+    "Naloxona MK",
+    "Evzio (autoinyector, puede no estar disponible)",
+    "Kloxxado (spray nasal de mayor dosis, puede no estar disponible)"
+  ],
+  "clinicalPearls": [
+    "La regla de oro es: 'Si sospechas sobredosis por opioides, administra naloxona'. El riesgo de no administrarla es la muerte; el riesgo de administrarla innecesariamente es mínimo.",
+    "La duración de acción de la naloxona (30-90 min) es más corta que la de muchos opioides (ej. metadona: horas; fentanilo de liberación transdérmica: días). Por esto, la observación hospitalaria es obligatoria tras su uso en comunidad.",
+    "En intoxicación por opioides muy potentes (fentanilo, carfentanilo) o de liberación prolongada, puede ser necesaria una infusión intravenosa continua de naloxona para mantener la reversión.",
+    "La vía intranasal es tan efectiva como la intramuscular para la administración por primeros respondientes o familiares, y es más fácil de usar.",
+    "Administrar naloxona a un paciente dependiente de opioides salvará su vida, pero desencadenará un síndrome de abstinencia agudo y desagradable. Esto NO es una razón para no administrarla. La vida está primero."
+  ],
+  "patientCounseling": "Si usted o un ser querido consume opioides (ya sea por prescripción médica para el dolor o de manera no médica), es vital que tenga naloxona a la mano y sepa cómo usarla. Es un antídoto que puede revertir una sobredosis y salvar una vida. Aprenda a reconocer los signos de sobredosis: persona inconsciente que no despierta, respiración muy lenta o ausente, labios o uñas moradas, ronquidos o sonidos de ahogo. Si ve estos signos, actúe rápido: 1. Llame al 911. 2. Administre la naloxona (spray nasal o inyección) según las instrucciones. 3. Si no respira, inicie RCP. 4. Quédese con la persona hasta que llegue la ayuda. Recuerde: la naloxona es temporal, por lo que la persona DEBE ser llevada al hospital aunque se recupere. No tema usar la naloxona; no hace daño si no hay opioides, y es la única forma de revertir la sobredosis. Guarde la naloxona en un lugar visible y accesible para todos en casa.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Depresión respiratoria",
+        "slug": "depresion-respiratoria"
+      },
+      {
+        "name": "Somnolencia excesiva por opioides",
+        "slug": "somnolencia-excesiva-por-opioides"
+      },
+      {
+        "name": "Pérdida del conocimiento por sobredosis",
+        "slug": "perdida-del-conocimiento-por-sobredosis"
+      },
+      {
+        "name": "Bradicardia inducida por opioides",
+        "slug": "bradicardia-inducida-por-opioides"
+      },
+      {
+        "name": "Hipotensión por opioides",
+        "slug": "hipotension-por-opioides"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Intoxicación aguda por opioides",
+        "slug": "intoxicacion-aguda-por-opioides"
+      },
+      {
+        "name": "Sobredosis de heroína",
+        "slug": "sobredosis-de-heroina"
+      },
+      {
+        "name": "Sobredosis de fentanilo",
+        "slug": "sobredosis-de-fentanilo"
+      },
+      {
+        "name": "Depresión respiratoria postoperatoria",
+        "slug": "depresion-respiratoria-postoperatoria"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Síndrome de abstinencia agudo de opioides",
+        "slug": "sindrome-abstinencia-agudo-opioides"
+      },
+      {
+        "name": "Edema pulmonar no cardiogénico",
+        "slug": "edema-pulmonar-no-cardiogenico"
+      },
+      {
+        "name": "Arritmias cardíacas",
+        "slug": "arritmias-cardiacas"
+      },
+      {
+        "name": "Crisis hipertensiva",
+        "slug": "crisis-hipertensiva"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Frecuencia respiratoria",
+        "slug": "frecuencia-respiratoria",
+        "effect": "Puede elevar (normalizar)"
+      },
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Presión arterial",
+        "slug": "presion-arterial",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Saturación de oxígeno (SpO2)",
+        "slug": "saturacion-oxigeno",
+        "effect": "Puede elevar (normalizar)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Gasometría arterial",
+        "slug": "gasometria-arterial",
+        "reason": "Para evaluar el estado ácido-base y la oxigenación en depresión respiratoria severa."
+      },
+      {
+        "name": "Panel de toxicología en orina",
+        "slug": "panel-toxicologia-orina",
+        "reason": "Para confirmar la presencia de opioides u otras sustancias."
+      },
+      {
+        "name": "Electrocardiograma (ECG)",
+        "slug": "electrocardiograma",
+        "reason": "Para monitorear posibles arritmias tras la administración, especialmente en pacientes con cardiopatía."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Qué es la naloxona y para qué sirve?",
+      "a": "La naloxona es un medicamento que actúa como antídoto para salvar vidas durante una sobredosis por opioides. Los opioides son drogas como la heroína o medicamentos fuertes para el dolor como la morfina o el fentanilo. En sobredosis, pueden hacer que una persona deje de respirar. La naloxona bloquea este efecto y le devuelve la respiración normal."
+    },
+    {
+      "q": "¿La naloxona es lo mismo que el Narcan?",
+      "a": "Sí, 'Narcan' es una de las marcas comerciales más conocidas de la naloxona, específicamente en su presentación de spray nasal. Es como decir 'Aspirina' para el ácido acetilsalicílico. Hay otras marcas y presentaciones (inyectables) que contienen el mismo principio activo: naloxona."
+    },
+    {
+      "q": "¿Dónde puedo conseguir naloxona en México?",
+      "a": "En farmacias con receta médica. Sin embargo, cada vez hay más programas de salud pública y organizaciones comunitarias que la distribuyen gratuitamente a personas en riesgo de sufrir o presenciar una sobredosis, y a sus familiares. Consulte en centros de salud, organizaciones de reducción de daños o farmacias vinculadas a estos programas."
+    },
+    {
+      "q": "¿Cómo se aplica la naloxona?",
+      "a": "Depende de la presentación. La más común para uso en la calle o en casa es el SPRAY NASAL: se introduce la punta en una fosa nasal y se presiona el aplicador. También existe el AUTOINYECTOR: se coloca contra el muslo y se presiona. Ambas son muy simples. La inyección con jeringa la usa generalmente el personal médico."
+    },
+    {
+      "q": "¿La naloxona puede hacer daño si la persona no consumió opioides?",
+      "a": "No. Si una persona está inconsciente o con problemas respiratorios por otra causa (ej. un infarto, una convulsión, alcohol), administrar naloxona NO le hará daño, pero tampoco la ayudará. Por eso la regla es: si sospechas sobredosis por opioides, úsala. El riesgo de no usarla cuando sí es necesario es la muerte."
+    },
+    {
+      "q": "¿La naloxona revierte la sobredosis por otras drogas como cocaína, metanfetaminas o benzodiacepinas?",
+      "a": "NO. La naloxona solo funciona para revertir los efectos de los OPIOIDES (heroína, morfina, fentanilo, oxicodona, etc.). No tiene efecto sobre la cocaína, las metanfetaminas, las benzodiacepinas (como el clonazepam), el alcohol o otras drogas. Sin embargo, si la sobredosis es por una mezcla de opioides y otras drogas, la naloxona sí ayudará con la parte causada por los opioides."
+    },
+    {
+      "q": "Después de poner naloxona, ¿la persona se despierta inmediatamente?",
+      "a": "No siempre 'inmediatamente', pero el efecto suele ser rápido (2 a 5 minutos). La prioridad es que vuelva a respirar normalmente. Puede despertarse confundida, agitada o con síntomas de abstinencia (malestar, náuseas). A veces puede necesitar una segunda dosis si no hay respuesta."
+    },
+    {
+      "q": "¿Por qué es importante llamar al 911 incluso después de administrar naloxona?",
+      "a": "Porque la naloxona dura menos (30-90 min) que muchos opioides (horas). Los efectos de la sobredosis pueden regresar y la persona puede volver a dejar de respirar. Necesita ser observada en un hospital, donde le pueden dar más dosis si es necesario y tratar otras complicaciones."
+    },
+    {
+      "q": "¿La naloxona causa adicción?",
+      "a": "NO. La naloxona no produce euforia, placer ni alivio del dolor. No tiene potencial de abuso ni causa dependencia física o psicológica. Es un medicamento puramente de rescate."
+    },
+    {
+      "q": "¿Puedo usar naloxona más de una vez en la misma persona?",
+      "a": "SÍ. Si después de la primera dosis la persona no respira o vuelve a tener depresión respiratoria, se debe administrar una segunda dosis. Muchos dispositivos vienen con dos dosis por esta razón. Se puede repetir cada 2-3 minutos hasta que llegue la ayuda médica."
+    },
+    {
+      "q": "¿Qué pasa si le doy naloxona a alguien que es adicto a los opioides?",
+      "a": "Le salvará la vida. Sin embargo, como la naloxona quita los opioides de su sistema de golpe, es muy probable que experimente un 'síndrome de abstinencia' agudo: sudoración, náuseas, vómitos, diarrea, ansiedad y dolor. Esto es desagradable, pero es preferible a morir por falta de oxígeno. La persona necesitará apoyo médico y humano después."
+    },
+    {
+      "q": "¿Cómo reconozco una sobredosis por opioides?",
+      "a": "Busque la 'Tríada de la sobredosis': 1) INCONSCIENCIA: No despierta ni responde a estímulos (gritos, pellizcos). 2) DEPRESIÓN RESPIRATORIA: Respira muy lento (menos de 12 respiraciones por minuto), de forma irregular, o NO respira. Puede hacer sonidos de ahogo o ronquidos fuertes. 3) CONSTRICCIÓN PUPILAR: Las pupilas están 'como punto de alfiler' (muy pequeñas), incluso con luz tenue. La piel puede estar pálida, fría o con labios/ uñas moradas."
+    },
+    {
+      "q": "¿La naloxona tiene fecha de caducidad? ¿Cómo la almaceno?",
+      "a": "Sí, como todo medicamento. Revise la fecha en el empaque. Guárdela a temperatura ambiente, fuera del alcance de los niños, pero en un lugar de fácil acceso para adultos en caso de emergencia (no en un botiquín cerrado con llave). Evite la luz directa y el calor extremo. No la congele."
+    },
+    {
+      "q": "¿Puedo administrar naloxona a un niño o a un bebé?",
+      "a": "SÍ. La naloxona es segura y el antídoto indicado para sobredosis por opioides en niños de cualquier edad, incluso recién nacidos. La dosis se ajusta por peso, por lo que en niños se usan presentaciones pediátricas o se calcula la dosis. En una emergencia en casa, usar la dosis estándar de un dispositivo de rescate es seguro y puede salvar la vida del niño."
+    },
+    {
+      "q": "¿Qué efectos secundarios puede tener la naloxona?",
+      "a": "Los más comunes son los síntomas de abstinencia en personas dependientes (náuseas, vómitos, sudor, taquicardia, ansiedad). En cualquier persona puede causar dolor en el sitio de la inyección. Raramente, puede causar problemas cardíacos o edema pulmonar (líquido en los pulmones). Estos efectos secundarios son manejables por el personal médico y el beneficio de salvar una vida los supera ampliamente."
+    },
+    {
+      "q": "¿Sirve la naloxona para el 'trancazo' o la 'madre' (síndrome de abstinencia)?",
+      "a": "NO, es todo lo contrario. La naloxona PRECIPITA o EMPEORA el síndrome de abstinencia agudo ('trancazo'), no lo alivia. Para el manejo del síndrome de abstinencia se usan otros medicamentos como la metadona o la buprenorfina, bajo supervisión médica."
+    },
+    {
+      "q": "¿Por qué a veces se necesita más de una dosis de naloxona, especialmente con el fentanilo?",
+      "a": "Porque el fentanilo y sus análogos son opioides extremadamente potentes y se unen con mucha fuerza a los receptores cerebrales. Una dosis estándar de naloxona puede no ser suficiente para desplazarlos. Además, algunos opioides duran mucho más en el cuerpo que la naloxona. Por eso, en intoxicaciones por fentanilo, son comunes las dosis repetidas o incluso una infusión continua en el hospital."
+    },
+    {
+      "q": "¿La naloxona interfiere con otros medicamentos que tome la persona?",
+      "a": "Su única interacción farmacológica importante es con los opioides, a los que bloquea. No interfiere significativamente con medicamentos para la presión, diabetes, colesterol, etc. Sin embargo, siempre informe al personal médico de emergencia sobre todos los medicamentos que la persona consume."
+    },
+    {
+      "q": "¿Puedo recibir entrenamiento para usar naloxona?",
+      "a": "¡Absolutamente! Y es muy recomendable. Muchas organizaciones de salud, centros comunitarios y brigadas de reducción de daños ofrecen talleres gratuitos donde enseñan a reconocer una sobredosis, administrar naloxona (con dispositivos de práctica) y realizar RCP básico. Busque 'entrenamiento en naloxona' o 'capacitación en reducción de daños' en su localidad."
+    },
+    {
+      "q": "En el hospital, ¿por qué a veces se usa naloxona en dosis muy pequeñas después de una cirugía?",
+      "a": "Después de una cirugía, a los pacientes se les administran opioides para el dolor (como morfina). A veces, la dosis puede causar una depresión respiratoria leve (respiración muy lenta). En lugar de retirar el analgésico por completo, el médico puede administrar dosis muy bajas y controladas de naloxona por vía intravenosa para 'ajustar' la respiración, sin eliminar por completo el efecto analgésico. Esto se llama 'titulación'."
+    }
+  ]
+}

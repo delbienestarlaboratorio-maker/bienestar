@@ -1,0 +1,330 @@
+{
+  "name": "Sugammadex",
+  "summary": "Sugammadex es un medicamento inyectable que se utiliza exclusivamente en el quirófano durante cirugías bajo anestesia general. Su función principal es revertir rápidamente el efecto de los relajantes musculares de tipo aminosteroide (como rocuronio o vecuronio) que se administran para facilitar la intubación y mantener la relajación muscular durante la operación. Es un agente encapsulante o 'agente de rescate' que actúa como un imán molecular, atrapando al relajante muscular en la sangre y permitiendo que el paciente recupere la fuerza muscular y la capacidad de respirar por sí mismo de manera segura y rápida al final de la cirugía. Su importancia clínica es enorme, ya que reduce significativamente el riesgo de complicaciones postoperatorias por bloqueo neuromuscular residual, como la debilidad muscular, la dificultad para respirar o la necesidad de ventilación mecánica prolongada. Ofrece una alternativa más rápida, predecible y segura a los agentes reversores tradicionales como la neostigmina, especialmente en casos de bloqueo neuromuscular profundo o en pacientes con condiciones que hacen riesgoso el uso de los reversores clásicos.",
+  "pharmacology": {
+    "mechanismOfAction": "Sugammadex es un agente de encapsulación selectiva, una molécula cíclica modificada de γ-ciclodextrina diseñada específicamente para unirse de forma irreversible y formar complejos muy estables con los relajantes musculares aminosteroides rocuronio y vecuronio. Su estructura en forma de anillo con un núcleo hidrofóbico y una periferia hidrofílica le permite encapsular la molécula del relajante muscular dentro de su cavidad central, como un guante que atrapa una mano. Esta unión es de alta afinidad y es 1:1 (una molécula de sugammadex por una de relajante). Al unirse en el plasma sanguíneo, crea un gradiente de concentración que 'jala' al relajante muscular desde los receptores nicotínicos de la unión neuromuscular (donde bloquea la transmisión del impulso nervioso al músculo) de regreso a la circulación. Esto libera los receptores y permite que la acetilcolina natural del cuerpo vuelva a activar la contracción muscular, restaurando la fuerza y la respiración espontánea de manera rápida y completa.",
+    "pharmacologicClass": "Agente encapsulante de ciclodextrina modificado. Antagonista selectivo de los relajantes musculares no despolarizantes de tipo aminosteroide.",
+    "therapeuticClass": "Antagonista de relajantes musculares. Agente de reversión del bloqueo neuromuscular.",
+    "absorption": "Se administra exclusivamente por vía intravenosa, por lo que la biodisponibilidad es del 100%. La administración es en bolo rápido (en segundos).",
+    "distribution": "Se distribuye principalmente en el espacio intravascular (plasma). Su volumen de distribución es pequeño (aproximadamente 11-14 litros en adultos), lo que indica que permanece mayormente en la sangre. Tiene una unión a proteínas plasmáticas muy baja.",
+    "metabolism": "Sugammadex no sufre metabolismo hepático significativo. No es sustrato, inhibidor o inductor de las enzimas del citocromo P450 (CYP). El complejo sugammadex-relajante muscular es farmacológicamente inactivo y se elimina sin cambios.",
+    "elimination": "Se elimina principalmente sin cambios por vía renal, a través de la filtración glomerular. La vida media de eliminación es de aproximadamente 2 horas en adultos con función renal normal. En pacientes con insuficiencia renal grave, la vida media se prolonga significativamente. Menos del 1% se excreta en heces.",
+    "onsetOfAction": "Muy rápido. Depende de la dosis y la profundidad del bloqueo neuromuscular. Para la reversión de un bloqueo profundo, la acción comienza en 1-3 minutos. Para bloqueos moderados o superficiales, la reversión es casi inmediata.",
+    "durationOfAction": "Su efecto de reversión es definitivo. Sin embargo, si la dosis es insuficiente para la cantidad de relajante muscular presente, puede ocurrir 'recurarización' (el bloqueo neuromuscular regresa). El sugammadex libre y el complejo son eliminados del cuerpo en horas."
+  },
+  "indications": {
+    "approved": [
+      "Reversión del bloqueo neuromuscular inducido por rocuronio o vecuronio en adultos y niños mayores de 2 años sometidos a cirugía bajo anestesia general.",
+      "Reversión rápida del bloqueo neuromuscular profundo inducido por rocuronio en adultos, para permitir una recuperación respiratoria rápida en situaciones de emergencia (p. ej., intubación difícil no prevista)."
+    ],
+    "offLabel": [
+      "Reversión del bloqueo neuromuscular inducido por otros relajantes musculares esteroideos en investigación.",
+      "Tratamiento de la sobredosis por rocuronio.",
+      "Uso en pacientes con miastenia gravis que requieren cirugía y relajación muscular."
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis se calcula en mg/kg de peso corporal real y se basa en la profundidad del bloqueo neuromuscular, evaluada por monitorización con estimulador de nervios (TOF, PTC). Dosis estándar: 2 mg/kg para reversión de bloqueo superficial (respuesta T2 en TOF), 4 mg/kg para reversión de bloqueo moderado (2 respuestas en TOF), y 16 mg/kg para reversión de bloqueo neuromuscular profundo (0 respuestas en TOF, pero 1-2 post-tetanic counts). Se administra en bolo intravenoso rápido.",
+    "pediatric": "Aprobado para niños mayores de 2 años. La dosificación es similar a la de adultos, basada en mg/kg de peso corporal real y la profundidad del bloqueo. No se recomienda en menores de 2 años por falta de datos de seguridad.",
+    "elderly": "No se requiere ajuste de dosis basado únicamente en la edad. Sin embargo, es crucial evaluar la función renal, ya que es común su deterioro en adultos mayores, lo que puede prolongar la eliminación.",
+    "renalImpairment": "Ajuste CRÍTICO. Se excreta por riñón. En insuficiencia renal leve a moderada (TFG ≥30 mL/min): usar con precaución, monitoreo estrecho. En insuficiencia renal grave (TFG <30 mL/min) o en diálisis: CONTRAINDICADO, debido al riesgo de acumulación y recurarización prolongada.",
+    "hepaticImpairment": "No se requiere ajuste de dosis, ya que no se metaboliza en el hígado. Sin embargo, se debe considerar el estado general del paciente y posibles alteraciones en la unión a proteínas (aunque es baja).",
+    "maxDose": "La dosis máxima recomendada es de 16 mg/kg, según la guía para reversión de bloqueo profundo. En la práctica, no se suele exceder esta dosis."
+  },
+  "dosageForms": [
+    {
+      "form": "Solución inyectable (vial)",
+      "strengths": [
+        "200 mg/2 mL",
+        "500 mg/5 mL"
+      ],
+      "route": "Intravenosa"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a sugammadex o a cualquier ciclodextrina.",
+      "Insuficiencia renal grave (TFG <30 mL/min) o pacientes en diálisis renal.",
+      "Mujeres en edad fértil que toman píldoras anticonceptivas hormonales (estrógeno/progestágeno) y no utilizan un método anticonceptivo adicional de barrera durante al menos 7 días después de la administración, debido a la posible disminución de la eficacia anticonceptiva."
+    ],
+    "relative": [
+      "Insuficiencia renal leve a moderada (TFG 30-80 mL/min).",
+      "Historial de reacciones alérgicas a medicamentos.",
+      "Embarazo (categoría C, usar solo si beneficio justifica el riesgo).",
+      "Lactancia."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Alteraciones del gusto (disgeusia) inmediatamente después de la inyección."
+    ],
+    "common": [
+      "Dolor en el sitio de inyección, náuseas, vómito, hipotensión (presión baja), bradicardia (ritmo cardíaco lento), dolor de cabeza, mareo."
+    ],
+    "uncommon": [
+      "Fiebre, tos, reacciones alérgicas (rash, prurito), broncoespasmo, prolongación del QT en el electrocardiograma, escalofríos."
+    ],
+    "rare": [
+      "Anafilaxia (reacción alérgica grave), recurarización (regreso del bloqueo muscular), paro cardíaco."
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Anticonceptivos hormonales orales (estrógeno/progestágeno)",
+        "effect": "Sugammadex puede unirse débilmente a las hormonas progestágeno (como etonogestrel, levonorgestrel) y reducir temporalmente sus niveles en sangre, disminuyendo la eficacia anticonceptiva. Se debe usar método de barrera adicional por 7 días.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Toremifeno",
+        "effect": "Puede retardar la reversión del bloqueo neuromuscular por competencia con el sugammadex. Requiere monitorización neuromuscular prolongada.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Flucloxacilina",
+        "effect": "Puede reducir la eficacia de sugammadex al competir por la unión. Se recomienda monitorización neuromuscular estrecha.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "No aplica, ya que es un medicamento de uso hospitalario intravenoso administrado en ayuno quirúrgico.",
+    "withSupplements": "No se conocen interacciones clínicamente relevantes con suplementos dietéticos o herbales."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA C",
+      "recommendation": "No hay estudios adecuados en mujeres embarazadas. Solo debe usarse durante el embarazo si el beneficio potencial para la madre justifica claramente el riesgo potencial para el feto. Se prefiere en situaciones donde la reversión rápida y completa del bloqueo neuromuscular es crucial para la seguridad materna y fetal.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se desconoce si sugammadex se excreta en la leche humana. Debido a su alto peso molecular y rápida eliminación, es poco probable que pase en cantidades significativas. Sin embargo, se debe considerar suspender la lactancia durante 24 horas después de la administración por precaución, o discutir riesgos/beneficios con el médico.",
+    "pediatric": "Aprobado para niños mayores de 2 años. La seguridad y eficacia en menores de 2 años no están establecidas. La dosificación es por peso. Los efectos adversos son similares a los de los adultos.",
+    "geriatric": "Los pacientes de edad avanzada tienen mayor probabilidad de tener función renal disminuida, lo que afecta la eliminación. Es imperativo evaluar la TFG antes de administrar. No se requiere ajuste solo por edad, pero la vigilancia postoperatoria debe ser más prolongada."
+  },
+  "administration": {
+    "howToTake": "Exclusivamente por vía intravenosa, administrado como un bolo rápido (en segundos) en una vena permeable. Debe ser administrado por un anestesiólogo o profesional de la salud capacitado en un entorno donde se pueda brindar soporte vital avanzado. La administración debe basarse en la evaluación objetiva del bloqueo neuromuscular con un estimulador de nervios (monitor de relajación muscular). El vial es de un solo uso. No mezclar con otros medicamentos en la misma jeringa o línea IV.",
+    "storage": "Conservar en su empaque original para proteger de la luz. Almacenar a temperatura controlada (entre 2°C y 25°C). No congelar. La solución es transparente e incolora; no usar si está turbia o contiene partículas.",
+    "specialInstructions": "La monitorización neuromuscular (con TOF) es obligatoria antes, durante y después de la administración para guiar la dosis y detectar recurarización. Tener disponible equipo de reanimación (para manejo de anafilaxia o paro cardíaco). Informar a mujeres en edad fértil sobre la interacción con anticonceptivos hormonales."
+  },
+  "monitoring": {
+    "labTests": [
+      "Creatinina sérica (para calcular TFG) antes de la administración, especialmente en pacientes de riesgo.",
+      "Electrolitos séricos (potasio, calcio, magnesio) que pueden afectar la función neuromuscular."
+    ],
+    "frequency": "Monitoreo continuo durante la administración y en el periodo de recuperación post-anestésica (PACU). Evaluación de la función renal pre-operatoria.",
+    "signsToWatch": [
+      "Recurarización: debilidad muscular, dificultad para respirar, incapacidad para sostener la cabeza, visión doble, habla arrastrada.",
+      "Signos de reacción alérgica: rash, picazón, hinchazón de cara/lengua, dificultad para respirar, hipotensión.",
+      "Bradicardia severa o paro cardíaco."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "En teoría, una dosis excesiva podría aumentar el riesgo de efectos adversos como bradicardia severa, hipotensión o prolongación del QT. Sin embargo, el principal riesgo clínico es la DOSIS INSUFICIENTE, que lleva a recurarización."
+    ],
+    "treatment": "El tratamiento es de soporte. No existe un antídoto específico para el sugammadex en sí. En caso de recurarización por dosis insuficiente, se puede administrar una segunda dosis de sugammadex. Manejar complicaciones cardiovasculares o alérgicas con los protocolos estándar (atropina para bradicardia, fluidos y vasopresores para hipotensión, adrenalina para anafilaxia).",
+    "antidote": "No existe un antídoto para neutralizar al sugammadex. Para la recurarización, el 'antídoto' es administrar más sugammadex."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especializada (uso hospitalario). Medicamento de alto costo y controlado en entorno quirúrgico.",
+    "scheduleMexico": "Medicamento de prescripción restringida (no incluido en cuadro básico, uso en instituciones de salud y hospitales privados).",
+    "fdaApprovalYear": 2015
+  },
+  "brandsMexico": [
+    "Bridion®",
+    "Sugammadex Hospira®",
+    "Sugammadex Pisa®"
+  ],
+  "clinicalPearls": [
+    "Sugammadex NO revierte el bloqueo neuromuscular causado por relajantes despolarizantes (succinilcolina) ni por relajantes no esteroideos (atracurio, cisatracurio). Su uso es exclusivo para rocuronio y vecuronio.",
+    "La recurarización es un riesgo real si la dosis es subóptima o en pacientes con insuficiencia renal. La monitorización neuromuscular debe continuar en la recuperación post-anestésica (PACU) por al menos 2 horas.",
+    "Puede causar bradicardia severa, a veces requiriendo atropina. Se recomienda tener atropina a la mano durante su administración.",
+    "Su costo elevado limita su uso rutinario, pero es invaluable en situaciones de intubación difícil, pacientes obesos mórbidos, o con condiciones como miastenia gravis donde una reversión rápida y completa es crítica."
+  ],
+  "patientCounseling": "Usted recibirá este medicamento solo si fue sometido a una cirugía bajo anestesia general donde se utilizaron ciertos relajantes musculares. Lo administrará directamente el anestesiólogo en el quirófano para ayudarlo a despertar y recuperar la fuerza muscular de manera segura y rápida. Es normal notar un sabor raro o metálico en la boca inmediatamente después de que le pongan la inyección. Si es mujer en edad fértil y toma pastillas anticonceptivas, es MUY IMPORTANTE que informe a su anestesiólogo y ginecólogo. Sugammadex puede reducir la efectividad de su anticonceptivo hormonal durante los siguientes 7 días, por lo que debe usar un método de barrera adicional (como condón) durante esa semana para evitar un embarazo no planeado. Después de la cirugía, informe de inmediato a la enfermera si siente debilidad extrema, dificultad para respirar, visión borrosa o si siente que no puede mover bien los músculos.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Parálisis muscular inducida por anestesia",
+        "slug": "paralisis-muscular-inducida-por-anestesia"
+      },
+      {
+        "name": "Incapacidad para respirar por sí mismo (apnea)",
+        "slug": "incapacidad-para-respirar-por-si-mismo"
+      },
+      {
+        "name": "Debilidad muscular generalizada postoperatoria",
+        "slug": "debilidad-muscular-generalizada-postoperatoria"
+      },
+      {
+        "name": "Visión doble (diplopía) por bloqueo neuromuscular",
+        "slug": "vision-doble-por-bloqueo-neuromuscular"
+      },
+      {
+        "name": "Dificultad para tragar (disfagia) post-anestesia",
+        "slug": "dificultad-para-tragar-post-anestesia"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Bloqueo neuromuscular residual postoperatorio",
+        "slug": "bloqueo-neuromuscular-residual-postoperatorio"
+      },
+      {
+        "name": "Intubación difícil no prevista",
+        "slug": "intubacion-dificil-no-prevista"
+      },
+      {
+        "name": "Sobredosis por rocuronio o vecuronio",
+        "slug": "sobredosis-por-rocuronio-o-vecuronio"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Anafilaxia",
+        "slug": "anafilaxia"
+      },
+      {
+        "name": "Bradicardia severa",
+        "slug": "bradicardia-severa"
+      },
+      {
+        "name": "Recurarización (bloqueo neuromuscular recurrente)",
+        "slug": "recurarizacion"
+      },
+      {
+        "name": "Prolongación del intervalo QT",
+        "slug": "prolongacion-del-intervalo-qt"
+      },
+      {
+        "name": "Fallo renal agudo (por acumulación en insuficientes renales)",
+        "slug": "fallo-renal-agudo"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar (si hay daño renal por hipoperfusión, no por el fármaco)"
+      },
+      {
+        "name": "Niveles de progestágeno en sangre",
+        "slug": "niveles-de-progestageno-en-sangre",
+        "effect": "Puede disminuir temporalmente"
+      },
+      {
+        "name": "Potasio sérico",
+        "slug": "potasio-serico",
+        "effect": "Puede alterar (riesgo teórico con recurarización)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Creatinina sérica y cálculo de TFG",
+        "slug": "creatinina-serica-calculo-tfg",
+        "reason": "Esencial para determinar si el paciente puede recibir el medicamento de forma segura, ya que se elimina por el riñón."
+      },
+      {
+        "name": "Electrocardiograma (ECG)",
+        "slug": "electrocardiograma",
+        "reason": "Para evaluar el intervalo QT y detectar bradicardia antes y después de la administración."
+      },
+      {
+        "name": "Monitorización de la función neuromuscular (TOF)",
+        "slug": "monitorizacion-funcion-neuromuscular-tof",
+        "reason": "Estudio obligatorio en quirófano para guiar la dosis y confirmar la reversión completa."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de Aclaramiento de Creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Qué es el Sugammadex y para qué sirve?",
+      "a": "Es un medicamento inyectable que se usa en cirugías para 'despertar' los músculos rápidamente después de que la anestesia los haya relajado. Sirve específicamente para revertir el efecto de ciertos relajantes musculares (rocuronio, vecuronio) y permite que el paciente respire por sí mismo y se mueva con seguridad al terminar la operación."
+    },
+    {
+      "q": "¿Me lo van a poner si me operan?",
+      "a": "No necesariamente. Su uso depende del tipo de cirugía, el relajante muscular que use el anestesiólogo y su condición de salud. Se usa cuando se necesita una recuperación muscular muy rápida y segura, o en situaciones especiales como intubación difícil. Su anestesiólogo decidirá si es lo mejor para usted."
+    },
+    {
+      "q": "¿Duele la inyección de Sugammadex?",
+      "a": "Se administra por la misma vía intravenosa (suero) que otros medicamentos durante la cirugía, por lo que no duele más que cualquier otra inyección en la vena. Algunas personas pueden sentir un poco de dolor o ardor en el sitio de la inyección."
+    },
+    {
+      "q": "¿Qué sabor raro siento en la boca después de la cirugía? ¿Es normal?",
+      "a": "Sí, es completamente normal y uno de los efectos más comunes. Inmediatamente después de que le administren Sugammadex, muchas personas sienten un sabor metálico, amargo o raro en la boca. Este efecto es temporal y desaparece en pocos minutos."
+    },
+    {
+      "q": "¿Puedo tomar mis pastillas anticonceptivas después de la cirugía si me pusieron Sugammadex?",
+      "a": "SÍ, debe seguir tomando sus pastillas normalmente. Sin embargo, el Sugammadex puede reducir temporalmente su efectividad. Por lo tanto, es CRUCIAL que use un método anticonceptivo de barrera adicional (como condón) durante los 7 días siguientes a la cirugía para evitar un embarazo no planeado. Consulte a su ginecólogo."
+    },
+    {
+      "q": "¿Hay algún riesgo de que me vuelva a paralizar después de despertar?",
+      "a": "Existe un riesgo bajo pero real llamado 'recurarización', donde el efecto del relajante muscular regresa. Esto puede pasar si la dosis de Sugammadex no fue suficiente o si sus riñones no lo eliminan bien. Por eso lo vigilan muy de cerca en la recuperación. Si siente debilidad extrema o dificultad para respirar después de despertar, AVISE INMEDIATAMENTE a la enfermera."
+    },
+    {
+      "q": "¿El Sugammadex sirve para todo tipo de anestesia?",
+      "a": "No. Solo sirve para revertir los efectos de dos relajantes musculares específicos usados en anestesia general: rocuronio y vecuronio. No funciona con otros relajantes ni con otros tipos de anestesia como la epidural o la local."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Actúa muy rápido. En la mayoría de los casos, el paciente comienza a recuperar la fuerza muscular para respirar en 1 a 3 minutos después de la inyección. Esta rapidez es una de sus grandes ventajas."
+    },
+    {
+      "q": "¿Puede causar alergias?",
+      "a": "Como cualquier medicamento, puede causar reacciones alérgicas, que van desde un simple rash o picazón hasta una reacción grave (anafilaxia) que puede dificultar la respiración. Es poco común, pero el equipo médico está preparado para tratarla de inmediato."
+    },
+    {
+      "q": "¿Por qué es un medicamento tan caro?",
+      "a": "Es un fármaco de tecnología muy avanzada, con una molécula diseñada específicamente para atrapar a otra. Su proceso de fabricación es complejo y costoso. Por esto, su uso suele reservarse para situaciones donde sus beneficios justifican el costo, como en pacientes de alto riesgo o cirugías complejas."
+    },
+    {
+      "q": "Si tengo problemas de riñón, ¿me lo pueden poner?",
+      "a": "Depende de la gravedad. Si su función renal es leve o moderadamente baja, se puede usar con mucha precaución y vigilancia prolongada. Si tiene insuficiencia renal grave o está en diálisis, está CONTRAINDICADO, porque el medicamento se acumula en el cuerpo y el riesgo de complicaciones es muy alto."
+    },
+    {
+      "q": "¿Los niños pueden recibir Sugammadex?",
+      "a": "Sí, está aprobado para niños mayores de 2 años. La dosis se calcula cuidadosamente según el peso del niño. No se recomienda en bebés menores de 2 años por falta de estudios de seguridad."
+    },
+    {
+      "q": "¿Qué pasa si me ponen una dosis muy alta de Sugammadex?",
+      "a": "El principal riesgo no es la dosis alta en sí, sino la dosis insuficiente. Una dosis excesiva podría aumentar la posibilidad de efectos secundarios como ritmo cardíaco lento (bradicardia) o presión baja. El equipo médico calcula la dosis exacta que necesita basándose en monitores especiales."
+    },
+    {
+      "q": "¿Qué debo hacer si quedo embarazada poco después de una cirugía donde me usaron Sugammadex?",
+      "a": "Informe a su ginecólogo y al anestesiólogo de inmediato. El medicamento es categoría C en embarazo, lo que significa que el riesgo no está descartado. Su médico evaluará los posibles riesgos. Esto refuerza la importancia de usar el método de barrera esos 7 días post-cirugía."
+    },
+    {
+      "q": "¿Es mejor que la neostigmina (el reversor tradicional)?",
+      "a": "En muchos aspectos, sí. Actúa más rápido, es más predecible, revierte bloqueos más profundos y no causa los efectos secundarios muscarínicos de la neostigmina (como salivación, cólicos, ritmo cardíaco lento) que requieren el uso de otra medicina (atropina). Sin embargo, es más costoso y no sirve para todos los relajantes musculares."
+    },
+    {
+      "q": "¿Por qué necesito que me monitoreen con un aparatito que da toques eléctricos en la muñeca?",
+      "a": "Ese aparato se llama estimulador de nervios o monitor de relajación muscular (TOF). Es fundamental porque le permite al anestesiólogo medir objetivamente cuánto bloqueo muscular tiene usted. Con esa información, puede calcular la dosis EXACTA de Sugammadex que necesita, ni más ni menos, para su seguridad."
+    },
+    {
+      "q": "¿El Sugammadex afecta a otros medicamentos que tomo crónicamente?",
+      "a": "La interacción más importante es con las pastillas anticonceptivas hormonales. Con otros medicamentos comunes para la presión, diabetes, colesterol, etc., no hay interacciones conocidas de importancia. Siempre informe a su anestesiólogo TODOS los medicamentos que toma."
+    },
+    {
+      "q": "¿Puedo donar sangre después de que me hayan administrado Sugammadex?",
+      "a": "No hay una restricción específica, pero es recomendable esperar un tiempo (por ejemplo, 24-48 horas) después de recibir cualquier medicamento intravenoso durante una cirugía antes de donar sangre. Consulte con el banco de sangre o su médico."
+    },
+    {
+      "q": "¿Qué es la 'recurarización' y cómo la identifico?",
+      "a": "Es el regreso de la debilidad muscular y la dificultad para respirar después de que ya había despertado. Los signos de alarma son: sentirse extremadamente débil, no poder levantar la cabeza de la almohada, ver doble, hablar con voz muy débil o nasal, y sobre todo, sentir que le falta el aire o no puede respirar hondo. Si esto pasa, es una EMERGENCIA médica."
+    },
+    {
+      "q": "En un paciente con miastenia gravis que requiere cirugía, ¿cuál es el papel de Sugammadex?",
+      "a": "En pacientes con miastenia gravis, que ya tienen debilidad muscular de base, el manejo de los relajantes musculares es muy delicado. Sugammadex ofrece una ventaja crucial: permite una reversión rápida, completa y segura del bloqueo neuromuscular inducido por rocuronio/vecuronio, minimizando el riesgo de crisis miasténica postoperatoria (empeoramiento severo de la debilidad). Permite un control más preciso y una recuperación más predecible que los reversores tradicionales, aunque su uso debe ser supervisado por un equipo experto."
+    }
+  ]
+}

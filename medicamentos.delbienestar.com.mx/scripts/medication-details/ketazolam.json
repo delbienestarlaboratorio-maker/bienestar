@@ -1,0 +1,407 @@
+{
+  "name": "Ketazolam",
+  "summary": "El Ketazolam es un medicamento ansiolítico y sedante que pertenece a la familia de las benzodiazepinas. Se utiliza principalmente para tratar los síntomas de la ansiedad, como nerviosismo excesivo, tensión, preocupación constante y agitación, y también puede ayudar a relajar los músculos. Es importante porque ofrece alivio a corto plazo de estos síntomas que pueden interferir con la vida diaria, pero debe usarse con mucha precaución y bajo supervisión médica estricta debido a su potencial para causar dependencia física y psicológica, somnolencia severa y otros efectos secundarios significativos. Su uso está reservado para casos donde otros tratamientos no han funcionado o para periodos muy limitados, ya que no es una solución a largo plazo para los trastornos de ansiedad.",
+  "pharmacology": {
+    "mechanismOfAction": "El Ketazolam actúa potenciando el efecto del ácido gamma-aminobutírico (GABA), que es el principal neurotransmisor inhibitorio del sistema nervioso central. Se une de manera específica a un sitio en el receptor GABA-A, lo que facilita la apertura del canal de cloruro asociado al receptor. Esto permite que más iones cloruro entren en la neurona, lo que hiperpolariza la membrana celular y hace que la neurona sea menos excitable. Este aumento en la inhibición neuronal en varias áreas del cerebro resulta en los efectos ansiolíticos (contra la ansiedad), sedantes (calmantes), hipnóticos (para inducir el sueño), relajantes musculares y anticonvulsivos característicos de las benzodiazepinas. Su acción es principalmente sobre el sistema límbico y la formación reticular.",
+    "pharmacologicClass": "Benzodiazepina de acción prolongada; Derivado de la 1,4-benzodiazepina; Agonista del receptor GABA-A.",
+    "therapeuticClass": "Ansiolítico; Sedante; Hipnótico; Relajante muscular de acción central.",
+    "absorption": "Se absorbe bien por vía oral después de la administración. La absorción es completa pero la velocidad puede variar. Los alimentos pueden retrasar ligeramente la absorción pero no afectan la cantidad total absorbida.",
+    "distribution": "Se distribuye ampliamente por los tejidos corporales. Tiene una alta unión a proteínas plasmáticas, principalmente a la albúmina. Su volumen de distribución (Vd) es elevado, lo que indica una amplia distribución en los tejidos periféricos y grasa.",
+    "metabolism": "Se metaboliza extensamente en el hígado. Es una prodroga, lo que significa que se transforma en el organismo en compuestos activos, principalmente en N-desalquilketazolam y otros metabolitos oxazepam-like. El metabolismo involucra procesos de desalquilación y oxidación. Las enzimas del citocromo P450, particularmente CYP3A4, están involucradas en su metabolismo.",
+    "elimination": "Tiene una vida media de eliminación prolongada, que puede variar entre 30 y 100 horas, y es aún más larga para sus metabolitos activos. Esto contribuye a su efecto de acción prolongada y a la posibilidad de acumulación con dosis repetidas. Se elimina principalmente por la orina en forma de metabolitos glucuronoconjugados inactivos. Una pequeña porción se puede eliminar en las heces.",
+    "onsetOfAction": "El inicio de acción ocurre generalmente entre 30 minutos y 2 horas después de la administración oral.",
+    "durationOfAction": "Debido a su vida media prolongada y la de sus metabolitos, la duración del efecto es larga, generalmente de 24 a 72 horas, lo que permite una dosificación de una vez al día."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento a corto plazo del trastorno de ansiedad generalizada",
+      "Alivio sintomático de la ansiedad y tensión asociadas a situaciones de estrés agudo",
+      "Como coadyuvante en el tratamiento de la ansiedad asociada a depresión (cuando está indicado un ansiolítico)"
+    ],
+    "offLabel": [
+      "Insomnio de conciliación y mantenimiento (aunque no es de primera línea)",
+      "Síndrome de abstinencia alcohólica (como parte de un protocolo de desintoxicación)",
+      "Espasmos musculares de origen central",
+      "Premedicación ansiolítica antes de procedimientos médicos o dentales"
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis inicial habitual es de 15 a 30 mg al día, administrados en una sola toma por la noche o divididos en 2-3 tomas (ej. 10 mg por la mañana y 20 mg por la noche). La dosis puede ajustarse según la respuesta y tolerancia, generalmente dentro de un rango de 15 a 60 mg diarios. El tratamiento debe iniciarse con la dosis efectiva más baja.",
+    "pediatric": "No se recomienda su uso en niños y adolescentes menores de 18 años debido a la falta de datos de seguridad y eficacia, y al riesgo de efectos adversos conductuales.",
+    "elderly": "En pacientes de edad avanzada (mayores de 65 años) o debilitados, se debe iniciar con una dosis reducida, típicamente 7.5 mg a 15 mg al día, debido a la mayor sensibilidad, metabolismo más lento y mayor riesgo de sedación excesiva, confusión, ataxia y caídas. El ajuste debe ser cuidadoso.",
+    "renalImpairment": "En insuficiencia renal leve a moderada (TFG 30-89 mL/min), se recomienda iniciar con dosis bajas y monitorizar de cerca. En insuficiencia renal severa (TFG <30 mL/min) o en diálisis, está contraindicado o debe evitarse debido al riesgo de acumulación de metabolitos y sedación prolongada.",
+    "hepaticImpairment": "Está contraindicado en insuficiencia hepática severa (cirrosis descompensada, encefalopatía). En insuficiencia hepática leve a moderada, se debe usar con extrema precaución, iniciando con la dosis más baja posible (ej. 7.5 mg/día) y evitando su uso prolongado, debido al metabolismo hepático comprometido que lleva a una vida media prolongada y mayor riesgo de efectos adversos.",
+    "maxDose": "La dosis máxima diaria recomendada generalmente es de 60 mg, aunque en algunos casos seleccionados y bajo estricta supervisión médica se han usado dosis más altas. No se debe exceder la dosis prescrita."
+  },
+  "dosageForms": [
+    {
+      "form": "Cápsula",
+      "strengths": [
+        "15 mg",
+        "30 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tableta",
+      "strengths": [
+        "15 mg"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al ketazolam, a otras benzodiazepinas o a cualquier excipiente de la formulación",
+      "Miastenia gravis",
+      "Insuficiencia respiratoria severa (ej. EPOC severo, apnea del sueño no tratada)",
+      "Insuficiencia hepática severa (cirrosis descompensada)",
+      "Síndrome de apnea del sueño severo",
+      "Intoxicación aguda por alcohol, hipnóticos, analgésicos opioides o psicotrópicos"
+    ],
+    "relative": [
+      "Insuficiencia hepática leve a moderada",
+      "Insuficiencia renal severa",
+      "Edad avanzada o estado debilitado",
+      "Historial de dependencia a drogas o alcohol",
+      "Depresión mayor con ideación suicida (puede desinhibir)",
+      "Glaucoma de ángulo cerrado (precaución)",
+      "Problemas de próstata con retención urinaria"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Somnolencia",
+      "Sedación diurna",
+      "Mareo",
+      "Ataxia (inestabilidad al caminar)",
+      "Fatiga"
+    ],
+    "common": [
+      "Cefalea (dolor de cabeza)",
+      "Visión borrosa o doble",
+      "Sequedad de boca",
+      "Estreñimiento",
+      "Náuseas",
+      "Confusión (especialmente en ancianos)",
+      "Debilidad muscular",
+      "Alteraciones de la memoria a corto plazo"
+    ],
+    "uncommon": [
+      "Erupción cutánea",
+      "Prurito (comezón)",
+      "Cambios en la libido",
+      "Incontinencia urinaria",
+      "Hipotensión (baja presión)",
+      "Paradoja de excitación (ansiedad, irritabilidad, agresividad)",
+      "Depresión"
+    ],
+    "rare": [
+      "Ictericia (coloración amarilla)",
+      "Alteraciones sanguíneas (leucopenia, trombocitopenia)",
+      "Dependencia física y psicológica",
+      "Síndrome de abstinencia al suspender bruscamente",
+      "Reacciones anafilácticas severas"
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Alcohol",
+        "effect": "Potenciación severa de la depresión del sistema nervioso central (SNC), con riesgo de sedación profunda, depresión respiratoria, coma y muerte.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Opioides (morfina, tramadol, oxicodona, etc.)",
+        "effect": "Depresión aditiva del SNC y respiratoria, mayor riesgo de sedación profunda, coma, paro respiratorio y muerte.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Otros depresores del SNC (antihistamínicos sedantes, barbitúricos, anestésicos generales)",
+        "effect": "Aumento de los efectos sedantes y del deterioro psicomotor.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores de la CYP3A4 (ketoconazol, itraconazol, claritromicina, ritonavir)",
+        "effect": "Aumentan los niveles de ketazolam al inhibir su metabolismo, potenciando sus efectos y toxicidad.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inductores de la CYP3A4 (rifampicina, carbamazepina, fenitoína, hierba de San Juan)",
+        "effect": "Disminuyen los niveles de ketazolam al acelerar su metabolismo, reduciendo su eficacia.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "El alcohol está estrictamente prohibido. Los alimentos grasos pueden retrasar ligeramente la absorción pero no afectan la eficacia global. Se puede tomar con o sin alimentos para reducir molestias estomacales.",
+    "withSupplements": "Evitar la hierba de San Juan (hipérico), ya que puede disminuir la eficacia del ketazolam. La kava, la valeriana y la melatonina pueden potenciar los efectos sedantes. Consultar siempre con el médico o farmacéutico antes de tomar cualquier suplemento."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "D",
+      "recommendation": "NO se recomienda su uso durante el embarazo, especialmente durante el primer trimestre (riesgo de malformaciones) y el tercer trimestre (riesgo de síndrome de abstinencia en el recién nacido, hipotonía, dificultades respiratorias y alimentación). Solo debe considerarse si el beneficio potencial para la madre justifica claramente el riesgo potencial para el feto, y en la dosis efectiva más baja y por el menor tiempo posible.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "El ketazolam y sus metabolitos se excretan en la leche materna en cantidades significativas. Puede causar sedación, dificultad para alimentarse y pérdida de peso en el lactante. Se recomienda evitar la lactancia materna durante el tratamiento. Si es absolutamente necesario, se debe monitorizar al bebé por somnolencia excesiva y dificultad para succionar.",
+    "pediatric": "No está indicado para uso en niños y adolescentes menores de 18 años. La seguridad y eficacia no están establecidas en este grupo, y existe un riesgo potencial de efectos paradójicos (excitación, agresividad) y de afectar el desarrollo neurológico.",
+    "geriatric": "Los pacientes mayores son extremadamente sensibles. Mayor riesgo de sedación excesiva, confusión, desorientación, ataxia, caídas y fracturas. Se deben usar dosis iniciales muy bajas (la mitad o menos de la dosis adulta) y aumentar muy lentamente si es necesario. Monitorear estrechamente la función cognitiva y el equilibrio."
+  },
+  "administration": {
+    "howToTake": "Tomar exactamente como lo indique el médico. Generalmente se toma una vez al día por la noche, o dividido en 2-3 tomas si se indica. Tragar la cápsula o tableta entera con un vaso lleno de agua. No triturar, masticar ni abrir las cápsulas. Se puede tomar con alimentos si causa malestar estomacal. No aumentar la dosis ni la frecuencia por cuenta propia.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (entre 15°C y 30°C), protegido de la luz, la humedad y el calor. Mantener fuera del alcance y vista de los niños y mascotas.",
+    "specialInstructions": "NUNCA mezclar con alcohol. Puede causar somnolencia severa; evitar conducir, operar maquinaria peligrosa o realizar actividades que requieran alerta hasta conocer cómo le afecta. No suspender el medicamento abruptamente después de un uso prolongado (más de 2-4 semanas), ya que puede causar un síndrome de abstinencia severo (ansiedad, insomnio, temblores, convulsiones). La suspensión debe ser gradual bajo supervisión médica."
+  },
+  "monitoring": {
+    "labTests": [
+      "Pruebas de función hepática (ALT, AST, bilirrubina)",
+      "Conteo sanguíneo completo (CSC) ocasional",
+      "Niveles de electrolitos en ancianos o con enfermedades crónicas"
+    ],
+    "frequency": "Evaluación clínica frecuente de la respuesta y efectos adversos, especialmente al inicio y tras ajustes de dosis. Pruebas hepáticas basales y periódicas si el tratamiento es prolongado o en pacientes con riesgo.",
+    "signsToWatch": [
+      "Somnolencia diurna excesiva que interfiere con actividades",
+      "Confusión, desorientación o problemas de memoria",
+      "Inestabilidad al caminar o caídas",
+      "Dificultad para respirar",
+      "Cambios de humor, irritabilidad o pensamientos suicidas",
+      "Signos de dependencia (necesidad de aumentar la dosis)"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Somnolencia profunda",
+      "Confusión severa",
+      "Ataxia marcada (incapacidad para caminar)",
+      "Reflejos disminuidos",
+      "Hipotensión (presión baja)",
+      "Depresión respiratoria (respiración lenta y superficial)",
+      "Coma",
+      "En casos extremos, paro cardiorrespiratorio y muerte"
+    ],
+    "treatment": "Es una emergencia médica. Llamar al 911 o acudir a urgencias. El tratamiento es de soporte: mantener vía aérea, respiración y circulación. Lavado gástrico o carbón activado si la ingestión es reciente. No hay antídoto específico. La flumazenil (antídoto para benzodiazepinas) puede revertir la depresión del SNC, pero su uso es controvertido por riesgo de convulsiones, especialmente en pacientes dependientes o con ingestión mixta. El soporte ventilatorio es crucial.",
+    "antidote": "Flumazenil (Anexate®), pero su uso es hospitalario y con precaución."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (receta controlada).",
+    "scheduleMexico": "Fracción III (Tercera) de la Ley General de Salud. Psicotrópico con potencial de abuso y dependencia.",
+    "fdaApprovalYear": "No aprobado por la FDA de EE.UU. Aprobado en México y otros países."
+  },
+  "brandsMexico": [
+    "Anseren",
+    "Ansietil",
+    "Anxidin",
+    "Calmociteno",
+    "Ketaplus",
+    "Ketazol",
+    "Ketazolan",
+    "Nausicalm",
+    "Sedazin",
+    "Solem",
+    "Solatran"
+  ],
+  "clinicalPearls": [
+    "El Ketazolam es una 'prodroga', lo que significa que el compuesto original es poco activo y se transforma en el hígado en metabolitos activos de vida media muy larga (como el N-desalquilketazolam). Esto explica por qué tiene un efecto acumulativo y una acción prolongada que permite la dosificación una vez al día.",
+    "Debido a su vida media extremadamente larga (hasta 100 horas), es uno de los ansiolíticos con mayor riesgo de acumulación, especialmente en ancianos, pacientes con enfermedad hepática o con uso concomitante de inhibidores del CYP3A4. Esto puede llevar a sedación diurna excesiva y deterioro cognitivo días después de la última dosis.",
+    "Aunque es eficaz para la ansiedad, su perfil de seguridad desfavorable (alta liposolubilidad, vida media muy larga, metabolismo complejo) y el potencial de dependencia lo han relegado a un agente de segunda o tercera línea en la práctica clínica moderna, donde se prefieren benzodiazepinas de vida media más corta o ISRS/SNRI para tratamientos prolongados."
+  ],
+  "patientCounseling": "Este medicamento es para aliviar su ansiedad y debe usarse EXACTAMENTE como se lo recetó el médico. Es muy importante que NO aumente la dosis por su cuenta, aunque sienta que 'ya no le hace el mismo efecto'. Tomarlo por más tiempo del indicado puede crear dependencia. El efecto más común es el sueño, así que evite manejar o usar herramientas peligrosas hasta que sepa cómo le afecta. NUNCA lo combine con alcohol, pastillas para dormir o calmantes para el dolor sin consultar, ya que la mezcla puede ser muy peligrosa y causar dificultad para respirar. Si olvida una dosis, tómela tan pronto como se acuerde, pero si ya es casi la hora de la siguiente, omita la olvidada y continúe con su horario normal. NO tome dos dosis para compensar. Si decide dejar el tratamiento, HABLE CON SU MÉDICO para que le indique cómo reducir la dosis poco a poco; suspenderlo de golpe puede causar ansiedad, insomnio, temblores o hasta convulsiones. Guarde el medicamento en un lugar seguro, lejos del alcance de niños y otras personas.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Ansiedad",
+        "slug": "ansiedad"
+      },
+      {
+        "name": "Nerviosismo excesivo",
+        "slug": "nerviosismo-excesivo"
+      },
+      {
+        "name": "Tensión muscular",
+        "slug": "tension-muscular"
+      },
+      {
+        "name": "Inquietud",
+        "slug": "inquietud"
+      },
+      {
+        "name": "Preocupación constante",
+        "slug": "preocupacion-constante"
+      },
+      {
+        "name": "Insomnio por ansiedad",
+        "slug": "insomnio-por-ansiedad"
+      },
+      {
+        "name": "Agitación",
+        "slug": "agitacion"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Trastorno de Ansiedad Generalizada",
+        "slug": "trastorno-de-ansiedad-generalizada"
+      },
+      {
+        "name": "Trastorno de ansiedad inducido por estrés",
+        "slug": "trastorno-de-ansiedad-inducido-por-estres"
+      },
+      {
+        "name": "Ansiedad asociada a depresión",
+        "slug": "ansiedad-asociada-a-depresion"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Dependencia a benzodiazepinas",
+        "slug": "dependencia-a-benzodiazepinas"
+      },
+      {
+        "name": "Síndrome de abstinencia",
+        "slug": "sindrome-de-abstinencia-benzodiazepinas"
+      },
+      {
+        "name": "Deterioro cognitivo",
+        "slug": "deterioro-cognitivo"
+      },
+      {
+        "name": "Caídas y fracturas en ancianos",
+        "slug": "caidas-y-fracturas-en-ancianos"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Enzimas hepáticas (ALT, AST)",
+        "slug": "enzimas-hepaticas-alt-ast",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Bilirrubina",
+        "slug": "bilirrubina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Leucocitos (glóbulos blancos)",
+        "slug": "leucocitos",
+        "effect": "Puede disminuir (leucopenia)"
+      },
+      {
+        "name": "Plaquetas",
+        "slug": "plaquetas",
+        "effect": "Puede disminuir (trombocitopenia)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-de-funcion-hepatica",
+        "reason": "Para monitorear toxicidad hepática, ya que se metaboliza en el hígado."
+      },
+      {
+        "name": "Conteo sanguíneo completo",
+        "slug": "conteo-sanguineo-completo",
+        "reason": "Para detectar posibles alteraciones en glóbulos blancos o plaquetas, un efecto adverso raro."
+      },
+      {
+        "name": "Evaluación de función renal",
+        "slug": "evaluacion-de-funcion-renal",
+        "reason": "Para ajustar la dosis en pacientes con problemas renales, ya que los metabolitos se eliminan por riñón."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de eGFR",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve el Ketazolam?",
+      "a": "Sirve principalmente para tratar los síntomas de la ansiedad, como nerviosismo excesivo, preocupación constante, tensión y agitación. También ayuda a relajar los músculos y puede inducir sueño. Es un calmante potente que solo debe usarse por periodos cortos y bajo receta médica."
+    },
+    {
+      "q": "¿El Ketazolam es lo mismo que el Alprazolam (Tafil)?",
+      "a": "No, aunque ambos son benzodiazepinas para la ansiedad, son medicamentos diferentes. El Ketazolam tiene un efecto de acción más prolongado (dura más en el cuerpo) y generalmente se toma una vez al día, mientras que el Alprazolam es de acción más corta y puede requerir varias tomas. Su médico elige el más adecuado para su caso."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto el Ketazolam?",
+      "a": "Generalmente comienza a hacer efecto entre 30 minutos y 2 horas después de tomarlo. Sin embargo, debido a que es de acción prolongada, su efecto calmante completo y estable puede notarse mejor después de varios días de uso continuo a la misma dosis."
+    },
+    {
+      "q": "¿Puedo tomar Ketazolam para dormir?",
+      "a": "Aunque puede causar somnolencia y a veces se usa para el insomnio relacionado con la ansiedad, NO es un medicamento de primera elección para dormir. Su uso principal es para la ansiedad. Usarlo solo para dormir puede llevar a dependencia rápidamente. Consulte a su médico para un tratamiento adecuado del insomnio."
+    },
+    {
+      "q": "¿El Ketazolam causa adicción?",
+      "a": "SÍ. Todas las benzodiazepinas, incluido el Ketazolam, tienen un alto potencial de causar dependencia física y psicológica, especialmente si se usan por más de 2 a 4 semanas, en dosis altas, o sin supervisión médica. Nunca aumente la dosis por su cuenta y no lo suspenda abruptamente."
+    },
+    {
+      "q": "¿Qué pasa si tomo alcohol con Ketazolam?",
+      "a": "Es EXTREMADAMENTE PELIGROSO. La combinación potencia severamente los efectos depresores del sistema nervioso, pudiendo causar somnolencia profunda, dificultad para respirar, pérdida del conocimiento, coma e incluso la muerte. Debe evitarse el alcohol por completo durante el tratamiento."
+    },
+    {
+      "q": "¿Puedo manejar o operar maquinaria si tomo Ketazolam?",
+      "a": "NO se recomienda, especialmente al inicio del tratamiento o tras un aumento de dosis. Causa somnolencia, mareo y reduce los reflejos, lo que aumenta enormemente el riesgo de accidentes. Espere a conocer cómo le afecta individualmente y solo reanude estas actividades cuando su médico lo autorice y usted se sienta completamente alerta."
+    },
+    {
+      "q": "¿Cuáles son los efectos secundarios más comunes?",
+      "a": "Los más comunes son sueño o somnolencia durante el día, mareo, sensación de cansancio o fatiga, boca seca y a veces dolor de cabeza. En personas mayores es común la confusión y la inestabilidad al caminar."
+    },
+    {
+      "q": "¿Qué hago si olvido una dosis?",
+      "a": "Si se acuerda en unas pocas horas, tómela. Si ya es casi la hora de su siguiente dosis, omita la que olvidó y continúe con su horario normal. NUNCA tome una dosis doble para compensar la olvidada, ya que aumenta el riesgo de sobredosis."
+    },
+    {
+      "q": "¿Por cuánto tiempo se puede tomar Ketazolam?",
+      "a": "Debe ser por el menor tiempo posible. Generalmente se prescribe por periodos cortos, de 2 a 4 semanas, para crisis de ansiedad aguda. No está diseñado para tratamiento a largo plazo (meses o años) debido al riesgo de dependencia, tolerancia (necesidad de más dosis) y efectos adversos acumulativos."
+    },
+    {
+      "q": "¿Cómo debo dejar de tomar Ketazolam?",
+      "a": "JAMÁS lo suspenda de golpe. Debe hacerlo GRADUALMENTE, reduciendo la dosis poco a poco durante varias semanas o incluso meses, según la dosis y el tiempo que lo haya tomado. Esto lo debe supervisar su médico para evitar el síndrome de abstinencia, que puede incluir ansiedad severa, insomnio, temblores y convulsiones."
+    },
+    {
+      "q": "¿El Ketazolam sube o baja la presión arterial?",
+      "a": "Puede causar una ligera disminución de la presión arterial (hipotensión), especialmente al levantarse rápidamente (mareo ortostático). Si usted ya tiene presión baja o toma medicamentos para la hipertensión, debe informar a su médico para que lo monitorice."
+    },
+    {
+      "q": "¿Puedo tomar Ketazolam si tengo problemas del hígado?",
+      "a": "Si tiene problemas hepáticos LEVES, su médico podría recetarlo con mucha precaución y a dosis muy bajas. En problemas hepáticos MODERADOS o SEVEROS (como cirrosis) generalmente está CONTRAINDICADO, porque el hígado no puede metabolizarlo bien, se acumula en el cuerpo y causa toxicidad severa."
+    },
+    {
+      "q": "¿El Ketazolam interactúa con otros medicamentos?",
+      "a": "SÍ, y de manera peligrosa. Interactúa gravemente con: alcohol, pastillas para dormir, calmantes opioides (como tramadol o morfina), algunos antimicóticos (ketoconazol) y antibióticos (claritromicina). SIEMPRE informe a todos sus médicos y a su farmacéutico que está tomando Ketazolam antes de que le receten cualquier otro medicamento."
+    },
+    {
+      "q": "¿Pueden tomarlo las personas mayores?",
+      "a": "Sí, pero con EXTREMA PRECAUCIÓN. Los ancianos son mucho más sensibles. Se inicia con dosis muy bajas (a veces la mitad de la dosis normal) porque tienen mayor riesgo de sufrir confusión, somnolencia excesiva, inestabilidad, caídas y fracturas. Deben ser monitorizados de cerca."
+    },
+    {
+      "q": "¿Es seguro durante el embarazo o la lactancia?",
+      "a": "NO. Durante el embarazo (especialmente el primer y tercer trimestre) puede causar daño al bebé. Durante la lactancia, pasa a la leche materna y puede sedar al bebé, dificultando su alimentación. Si está embarazada, planea estarlo o está amamantando, informe a su médico inmediatamente para buscar alternativas más seguras."
+    },
+    {
+      "q": "¿Qué es el efecto 'paradójico' del Ketazolam?",
+      "a": "Es un efecto contrario al esperado. En lugar de calmar, puede causar excitación, agresividad, irritabilidad, ansiedad aumentada o insomnio. Es más común en niños, ancianos y personas con trastornos de personalidad. Si le sucede, contacte a su médico."
+    },
+    {
+      "q": "¿El Ketazolam afecta la memoria?",
+      "a": "Sí, las benzodiazepinas pueden causar amnesia anterógrada, es decir, dificultad para formar nuevos recuerdos mientras el medicamento está activo. Es común olvidar lo que sucedió horas después de tomarlo. Este efecto suele ser temporal pero puede ser preocupante."
+    },
+    {
+      "q": "¿Qué diferencia hay entre Ketazolam y un antidepresivo para la ansiedad?",
+      "a": "El Ketazolam actúa rápido (minutos/horas) pero es para alivio a corto plazo y tiene riesgo de dependencia. Los antidepresivos (como los ISRS) actúan más lento (semanas) pero son el tratamiento de primera línea para la ansiedad a largo plazo, son más seguros y no crean dependencia. A menudo se usan juntos al inicio, para luego retirar el Ketazolam."
+    },
+    {
+      "q": "¿Por qué mi médico me pide análisis de sangre si tomo Ketazolam?",
+      "a": "Para monitorear la función de su hígado, ya que el medicamento se metaboliza allí y, en raras ocasiones, puede causar daño hepático (elevación de enzimas). También puede pedir un conteo sanguíneo para verificar que no afecte sus glóbulos blancos o plaquetas. Es una precaución de seguridad, especialmente si el tratamiento es prolongado o usted tiene otras enfermedades."
+    }
+  ]
+}

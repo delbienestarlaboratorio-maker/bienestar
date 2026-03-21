@@ -1,0 +1,439 @@
+{
+  "name": "Lamotrigina",
+  "summary": "La lamotrigina es un medicamento anticonvulsivante y estabilizador del estado de ánimo. Se utiliza principalmente para controlar las crisis epilépticas en adultos y niños, y para el tratamiento del trastorno bipolar tipo I, específicamente para prevenir o espaciar los episodios de depresión. Su importancia clínica radica en su eficacia y perfil de efectos secundarios generalmente más favorable en comparación con otros medicamentos antiguos, especialmente en lo que respecta a la falta de aumento de peso significativo y a su efecto estabilizador del ánimo. Actúa estabilizando la actividad eléctrica del cerebro, lo que ayuda a prevenir las descargas neuronales anormales que causan las convulsiones y a modular los estados de ánimo extremos. Es un pilar fundamental en el tratamiento de la epilepsia y del trastorno bipolar, requiriendo una dosificación cuidadosa y gradual para minimizar el riesgo de reacciones cutáneas graves.",
+  "pharmacology": {
+    "mechanismOfAction": "La lamotrigina actúa principalmente como un bloqueador de los canales de sodio dependientes de voltaje en las neuronas. Al inhibir estos canales, estabiliza las membranas neuronales presinápticas, lo que reduce la liberación de neurotransmisores excitatorios, especialmente el glutamato. Este mecanismo previene la propagación de la actividad eléctrica anormal y excesiva en el cerebro, que es la base de las crisis epilépticas. Además, su acción sobre los canales de sodio y su posible efecto sobre otros sistemas de neurotransmisores contribuyen a su propiedad estabilizadora del estado de ánimo en el trastorno bipolar, ayudando a prevenir los episodios depresivos.",
+    "pharmacologicClass": "Bloqueador de canales de sodio dependientes de voltaje; Anticonvulsivante de amplio espectro.",
+    "therapeuticClass": "Anticonvulsivante; Estabilizador del estado de ánimo.",
+    "absorption": "Se absorbe rápida y completamente por vía oral, con una biodisponibilidad de aproximadamente 98%. La presencia de alimentos no afecta significativamente su absorción, aunque puede retrasarla ligeramente. Alcanza su concentración máxima en plasma (Tmax) entre 1 y 3 horas después de la administración.",
+    "distribution": "Se distribuye ampliamente en el organismo. Su unión a proteínas plasmáticas es moderada, aproximadamente del 55%. Atraviesa la barrera hematoencefálica y se distribuye en el líquido cefalorraquídeo. También atraviesa la placenta y se excreta en la leche materna.",
+    "metabolism": "Se metaboliza extensamente en el hígado, principalmente por glucuronidación (conjugación con ácido glucurónico) a través de la enzima UGT1A4. No es un sustrato significativo del sistema enzimático citocromo P450 (CYP), por lo que tiene menos interacciones farmacocinéticas basadas en CYP. Sin embargo, otros fármacos que inducen o inhiben las enzimas de glucuronidación pueden afectar sus niveles.",
+    "elimination": "Se elimina principalmente por vía renal, en forma de metabolitos glucurónidos inactivos. Menos del 10% se excreta sin cambios en la orina. Su vida media de eliminación es de aproximadamente 25 a 33 horas en adultos que no toman otros medicamentos, lo que permite una dosificación una o dos veces al día. La vida media se acorta significativamente cuando se administra con inductores enzimáticos (como carbamazepina) y se prolonga con inhibidores (como valproato).",
+    "onsetOfAction": "El inicio de su efecto anticonvulsivante puede observarse en días o semanas, pero la estabilización completa y óptima del tratamiento para la epilepsia o el trastorno bipolar requiere varias semanas de titulación cuidadosa de la dosis.",
+    "durationOfAction": "Su efecto es prolongado debido a su larga vida media, permitiendo un control sostenido de las crisis y del estado de ánimo con dosificaciones una o dos veces al día, una vez alcanzada la dosis de mantenimiento estable."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento de la epilepsia: Crisis parciales (focales) y crisis tónico-clónicas generalizadas en adultos y niños mayores de 2 años.",
+      "Tratamiento del trastorno bipolar tipo I: Para el mantenimiento y la prevención de episodios depresivos."
+    ],
+    "offLabel": [
+      "Tratamiento del dolor neuropático (como neuralgia del trigémino o neuropatía diabética dolorosa).",
+      "Tratamiento coadyuvante en el trastorno depresivo mayor resistente.",
+      "Tratamiento profiláctico de la migraña."
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis varía según la indicación y los medicamentos concomitantes. Para epilepsia (en monoterapia o añadido a otros fármacos que no sean inductores/inhibores): Inicio 25 mg/día por 2 semanas, luego 50 mg/día por 2 semanas, luego aumentar 50 mg cada 1-2 semanas hasta dosis de mantenimiento de 100-200 mg/día en 1-2 tomas. Con valproato (inhibidor): Inicio más lento (12.5 mg/día o 25 mg en días alternos), dosis de mantenimiento típica 100 mg/día. Con inductores enzimáticos (carbamazepina, fenitoína): Inicio 50 mg/día, dosis de mantenimiento típica 200-400 mg/día. Para trastorno bipolar: Esquemas similares, dosis de mantenimiento usual 100-200 mg/día.",
+    "pediatric": "Para niños de 2 a 12 años: Dosis basada en peso y medicamentos concomitantes. Sin inductores/inhibores: Inicio 0.3 mg/kg/día, aumento gradual hasta 1-5 mg/kg/día en 2 tomas. Con valproato: Inicio 0.15 mg/kg/día. Con inductores: Inicio 0.6 mg/kg/día. Para adolescentes ≥12 años, se usan esquemas de adultos.",
+    "elderly": "Se recomienda iniciar con dosis más bajas y titulación más lenta debido a la posible disminución de la función renal y hepática, y a una mayor sensibilidad. Monitorear estrechamente efectos adversos.",
+    "renalImpairment": "En insuficiencia renal moderada a grave (TFG <50 mL/min), se recomienda reducir la dosis inicial y de mantenimiento en un 25-50%. En diálisis, se elimina parcialmente; puede requerirse una dosis suplementaria después de la sesión. Consultar siempre al médico.",
+    "hepaticImpairment": "En insuficiencia hepática (Child-Pugh B o C), la dosis debe reducirse aproximadamente a la mitad o más, con una titulación extremadamente lenta y cautelosa. Está contraindicado en insuficiencia hepática grave.",
+    "maxDose": "La dosis máxima diaria depende del régimen concomitante. En monoterapia para adultos: hasta 500 mg/día. En terapia combinada con inductores: hasta 700 mg/día. Sin embargo, las dosis de mantenimiento efectivas suelen ser menores. Nunca exceder la dosis prescrita por el médico."
+  },
+  "dosageForms": [
+    {
+      "form": "Tabletas",
+      "strengths": [
+        "2 mg",
+        "5 mg",
+        "25 mg",
+        "50 mg",
+        "100 mg",
+        "150 mg",
+        "200 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tabletas de liberación prolongada (XR)",
+      "strengths": [
+        "25 mg",
+        "50 mg",
+        "100 mg",
+        "200 mg",
+        "250 mg",
+        "300 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tabletas dispersables (orodispersables)",
+      "strengths": [
+        "25 mg",
+        "50 mg",
+        "100 mg",
+        "200 mg"
+      ],
+      "route": "Oral (se disuelven en la boca o en agua)"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la lamotrigina o a cualquier componente de la formulación.",
+      "Antecedentes de reacción cutánea grave (como síndrome de Stevens-Johnson o necrólisis epidérmica tóxica) asociada a lamotrigina.",
+      "Insuficiencia hepática grave (Child-Pugh C)."
+    ],
+    "relative": [
+      "Insuficiencia renal grave (ajustar dosis).",
+      "Antecedentes de reacciones cutáneas a otros anticonvulsivantes.",
+      "Enfermedades que predisponen a reacciones en la piel (como lupus).",
+      "Uso concomitante con otros fármacos que aumenten el riesgo de erupciones."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Dolor de cabeza (cefalea).",
+      "Mareos.",
+      "Visión doble (diplopía) o visión borrosa.",
+      "Somnolencia.",
+      "Náuseas."
+    ],
+    "common": [
+      "Erupción cutánea (rash) que suele ser leve y desaparecer.",
+      "Vómitos.",
+      "Insomnio.",
+      "Fatiga.",
+      "Temblores.",
+      "Dolor de espalda.",
+      "Infecciones de las vías respiratorias altas."
+    ],
+    "uncommon": [
+      "Coordinación anormal (ataxia).",
+      "Ansiedad.",
+      "Irritabilidad.",
+      "Boca seca.",
+      "Diarrea.",
+      "Erupción cutánea grave que requiere atención médica inmediata."
+    ],
+    "rare": [
+      "Síndrome de Stevens-Johnson (SSJ) / Necrólisis epidérmica tóxica (NET).",
+      "Síndrome de hipersensibilidad con fiebre, inflamación de ganglios y afectación de órganos (DRESS).",
+      "Anemia aplásica, agranulocitosis.",
+      "Meningitis aséptica.",
+      "Alucinaciones, psicosis.",
+      "Hiponatremia (bajo sodio en sangre).",
+      "Fallo hepático."
+    ],
+    "blackBoxWarning": "Advertencia sobre reacciones cutáneas graves, que pueden ser potencialmente mortales (síndrome de Stevens-Johnson, necrólisis epidérmica tóxica). El riesgo es mayor en niños, con inicio rápido de dosis, dosis iniciales altas, y uso concomitante con valproato. Requiere suspensión inmediata ante la primera señal de rash, a menos que sea claramente no relacionado con el fármaco."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Valproato (Ácido Valproico, Divalproex)",
+        "effect": "El valproato inhibe el metabolismo de la lamotrigina, duplicando o triplicando sus niveles en sangre. Esto aumenta la eficacia pero también el riesgo de efectos adversos, especialmente erupciones cutáneas graves. Requiere una dosificación inicial MUY baja y una titulación más lenta de la lamotrigina.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Carbamazepina, Fenitoína, Fenobarbital, Primidona",
+        "effect": "Estos fármacos inductores enzimáticos aumentan el metabolismo de la lamotrigina, reduciendo sus niveles en sangre a la mitad o menos. Esto puede disminuir su eficacia, requiriendo dosis de mantenimiento más altas. Al suspender el inductor, los niveles de lamotrigina pueden subir y causar toxicidad, requiriendo reducción de dosis.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Etinilestradiol (Anticonceptivos orales combinados)",
+        "effect": "Los anticonceptivos que contienen estrógenos pueden disminuir los niveles de lamotrigina hasta en un 50%, posiblemente causando pérdida del control de crisis o del ánimo. Puede requerirse ajuste de dosis. Durante la semana de placebo (sin hormonas), los niveles de lamotrigina pueden aumentar, incrementando el riesgo de efectos secundarios.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Rifampicina",
+        "effect": "Inductor enzimático potente que reduce drásticamente los niveles de lamotrigina, comprometiendo su eficacia. Requiere ajustes significativos de dosis.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "Puede tomarse con o sin alimentos. Tomarlo con comida puede ayudar a reducir las náuseas si se presentan. El consumo de alcohol puede potenciar los efectos depresores del sistema nervioso central (somnolencia, mareo) y debe evitarse o limitarse estrictamente.",
+    "withSupplements": "El ácido fólico (especialmente en dosis altas) podría, en teoría, reducir ligeramente los niveles de lamotrigina, aunque la evidencia no es concluyente. Es importante informar al médico sobre cualquier suplemento herbal, ya que algunos (como la hierba de San Juan - Hypericum perforatum) son inductores enzimáticos y pueden reducir la eficacia de la lamotrigina."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría C (FDA). Riesgo no puede descartarse. Estudios observacionales sugieren un posible aumento pequeño en el riesgo de malformaciones congénitas (como labio/paladar hendido) comparado con la población general, pero menor que con otros anticonvulsivantes como el valproato.",
+      "recommendation": "NO debe suspenderse abruptamente por riesgo de crisis o recaída en bipolar. El beneficio del control de la enfermedad a menudo supera el riesgo. Se requiere planificación del embarazo, monitoreo estrecho de niveles séricos (pueden bajar durante el embarazo) y suplementación con ácido fólico en dosis altas (4-5 mg/día) antes de la concepción y durante el primer trimestre. La dosis puede necesitar ajustes durante y después del embarazo.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La lamotrigina se excreta en la leche materna en cantidades moderadas. Los niveles en el lactante son generalmente bajos, pero se han reportado casos de somnolencia, dificultad para alimentarse o erupciones. Se considera compatible con la lactancia con precaución, requiriendo monitoreo cercano del bebé. Se recomienda consultar con el pediatra y el neurólogo/psiquiatra.",
+    "pediatric": "Aprobado para niños ≥2 años con epilepsia. Los niños, especialmente los menores de 12 años, tienen un riesgo mayor de desarrollar reacciones cutáneas graves, por lo que la titulación debe ser aún más lenta y cautelosa. La dosis se calcula por peso. Monitorear crecimiento, desarrollo y estado de ánimo.",
+    "geriatric": "Los adultos mayores pueden ser más sensibles a los efectos adversos, especialmente mareos, somnolencia y trastornos de coordinación, lo que aumenta el riesgo de caídas. Iniciar con dosis bajas, titulación lenta y ajustar según función renal. Monitorear función renal y hepática periódicamente."
+  },
+  "administration": {
+    "howToTake": "Tomar exactamente como lo recetó el médico, generalmente una o dos veces al día, con o sin alimentos. Tragar las tabletas enteras con un vaso de agua. Las tabletas dispersables pueden tragarse enteras, masticarse, disolverse en un pequeño volumen de agua (suficiente para cubrir la tableta) o colocarse en la lengua para que se disuelvan. NO parta, triture o mastique las tabletas de liberación prolongada (XR). Si olvida una dosis, tómela tan pronto como lo recuerde, pero si es casi la hora de la siguiente, omita la dosis olvidada y continúe con su horario normal. NO duplique la dosis para compensar.",
+    "storage": "Conservar en su empaque original, a temperatura ambiente (15-30°C), en un lugar seco y fuera del alcance de los niños y mascotas. Proteger de la luz y la humedad.",
+    "specialInstructions": "La dosis DEBE aumentarse gradualmente (titulación) según las indicaciones del médico para minimizar el riesgo de erupción cutánea grave. Nunca aumente la dosis por su cuenta. Suspenda el medicamento y contacte a su médico INMEDIATAMENTE si aparece cualquier tipo de erupción en la piel, ampollas, llagas en la boca, ojos rojos o inflamados, fiebre, dolor de garganta o ganglios inflamados. Informe a todos sus médicos y dentistas que está tomando lamotrigina antes de cualquier procedimiento. Puede causar mareos o somnolencia; tenga precaución al conducir o operar maquinaria hasta conocer su respuesta."
+  },
+  "monitoring": {
+    "labTests": [
+      "Niveles séricos de lamotrigina (especialmente si hay falta de eficacia, efectos adversos, cambios en medicación concomitante, embarazo).",
+      "Biometría hemática completa (para detectar alteraciones en células sanguíneas).",
+      "Pruebas de función hepática (ALT, AST).",
+      "Pruebas de función renal (creatinina, TFG).",
+      "Electrolitos séricos (sodio)."
+    ],
+    "frequency": "Al inicio del tratamiento y periódicamente según criterio médico (ej. cada 6-12 meses en terapia estable). Con mayor frecuencia durante la titulación, cambios de dosis, adición/suspensión de otros fármacos, embarazo o aparición de síntomas sugerentes de toxicidad o reacción adversa.",
+    "signsToWatch": [
+      "Aparición de cualquier erupción cutánea, ampollas o descamación.",
+      "Fiebre, dolor de garganta, úlceras en boca, ganglios inflamados.",
+      "Coloración amarillenta de piel u ojos (ictericia).",
+      "Hemorragias o moretones inusuales, fatiga extrema (signos de problemas sanguíneos).",
+      "Empeoramiento de las crisis convulsivas o del estado de ánimo.",
+      "Mareo intenso, somnolencia excesiva, problemas de coordinación o visión.",
+      "Síntomas de meningitis: dolor de cabeza intenso, fiebre, rigidez de nuca, sensibilidad a la luz."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Somnolencia profunda, letargo, coma.",
+      "Mareo intenso, ataxia (inestabilidad al caminar).",
+      "Náuseas, vómitos.",
+      "Crisis epilépticas (pueden aumentar).",
+      "Arritmias cardíacas (en intoxicaciones masivas).",
+      "Dilatación de las pupilas (midriasis)."
+    ],
+    "treatment": "Es de soporte. No hay antídoto específico. Mantener vía aérea y signos vitales. Lavado gástrico o carbón activado pueden considerarse si la ingestión es reciente (dentro de 1-2 horas). Monitoreo cardíaco y neurológico en hospital. La hemodiálisis no es muy efectiva debido a la alta unión a proteínas, pero puede considerarse en casos graves.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Rx).",
+    "scheduleMexico": "Medicamento de prescripción, incluido en la Fracción IV del artículo 226 de la Ley General de Salud (control sanitario).",
+    "fdaApprovalYear": "1994 (para epilepsia) y 2003 (para trastorno bipolar)."
+  },
+  "brandsMexico": [
+    "Lamictal",
+    "Lamitor",
+    "Lamogine",
+    "Lameptil",
+    "Lamisyn",
+    "Lamotrix",
+    "Epival",
+    "Epitrigine",
+    "Trigine",
+    "Neuryl",
+    "Lamotrigina Genfar",
+    "Lamotrigina Psicofarma",
+    "Lamotrigina Rimsa",
+    "Lamotrigina Liomont"
+  ],
+  "clinicalPearls": [
+    "La titulación lenta es la clave para prevenir el rash. 'Start low, go slow'.",
+    "La interacción con el valproato es crítica: reduce la dosis inicial de lamotrigina al menos a la mitad.",
+    "En mujeres en edad fértil, discutir planificación familiar, ácido fólico y posibles interacciones con anticonceptivos hormonales.",
+    "El rash benigno suele aparecer en los primeros 2 meses; el rash grave (SSJ/NET) suele aparecer entre las 2 y 8 semanas de inicio.",
+    "Es uno de los pocos estabilizadores del ánimo que no causa aumento de peso significativo y puede ser útil en pacientes con sobrepeso o riesgo metabólico.",
+    "Los niveles séricos terapéuticos de referencia suelen estar entre 3-15 mcg/mL, pero la respuesta clínica es más importante que el número."
+  ],
+  "patientCounseling": "Este medicamento es para controlar sus crisis o ayudar a estabilizar su estado de ánimo. Debe tomarlo todos los días, incluso si se siente bien. Es MUY IMPORTANTE que siga al pie de la letra el plan de aumento de dosis que le dio su médico; empezar con dosis bajas y subir poco a poco protege su piel. Si olvida una dosis, tómela cuando se acuerde, pero nunca tome dos dosis juntas. Esté muy atento a su piel: si le sale un sarpullido, por más leve que parezca, DEJE de tomar el medicamento y llame a su médico de inmediato. También avise si tiene fiebre, dolor de garganta o llagas en la boca. Puede causarle sueño o mareo al principio; tenga cuidado al manejar. No deje de tomarlo repentinamente, ya que las crisis o los cambios de ánimo pueden regresar. Informe a todos sus doctores que lo toma, especialmente si planea un embarazo, antes de una cirugía o si le recetan otro medicamento.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Convulsiones",
+        "slug": "convulsiones"
+      },
+      {
+        "name": "Cambios bruscos de estado de ánimo",
+        "slug": "cambios-brutos-estado-animo"
+      },
+      {
+        "name": "Episodios depresivos",
+        "slug": "episodios-depresivos"
+      },
+      {
+        "name": "Dolor neuropático (ardor, punzadas)",
+        "slug": "dolor-neuropatico"
+      },
+      {
+        "name": "Aura migrañosa",
+        "slug": "aura-migrañosa"
+      },
+      {
+        "name": "Ansiedad (en algunos casos)",
+        "slug": "ansiedad"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Epilepsia",
+        "slug": "epilepsia"
+      },
+      {
+        "name": "Trastorno Bipolar Tipo I",
+        "slug": "trastorno-bipolar-tipo-i"
+      },
+      {
+        "name": "Neuralgia del Trigémino",
+        "slug": "neuralgia-del-trigemino"
+      },
+      {
+        "name": "Neuropatía Diabética Dolorosa",
+        "slug": "neuropatia-diabetica-dolorosa"
+      },
+      {
+        "name": "Trastorno Depresivo Mayor (uso coadyuvante)",
+        "slug": "trastorno-depresivo-mayor"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Síndrome de Stevens-Johnson",
+        "slug": "sindrome-de-stevens-johnson"
+      },
+      {
+        "name": "Necrólisis Epidérmica Tóxica",
+        "slug": "necrolysis-epidermica-toxica"
+      },
+      {
+        "name": "Síndrome de Hipersensibilidad (DRESS)",
+        "slug": "sindrome-de-hipersensibilidad-dress"
+      },
+      {
+        "name": "Meningitis Aseptica",
+        "slug": "meningitis-aseptica"
+      },
+      {
+        "name": "Fallo Hepático Agudo",
+        "slug": "fallo-hepatico-agudo"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Nivel sérico de Lamotrigina",
+        "slug": "nivel-serico-lamotrigina",
+        "effect": "Puede elevar o disminuir por interacciones"
+      },
+      {
+        "name": "Transaminasas (ALT, AST)",
+        "slug": "transaminasas-alt-ast",
+        "effect": "Puede elevar (daño hepático)"
+      },
+      {
+        "name": "Recuento de Leucocitos",
+        "slug": "recuento-de-leucocitos",
+        "effect": "Puede disminuir (agranulocitosis)"
+      },
+      {
+        "name": "Sodio Sérico (Na+)",
+        "slug": "sodio-serico",
+        "effect": "Puede disminuir (hiponatremia)"
+      },
+      {
+        "name": "Hormonas Anticonceptivas",
+        "slug": "hormonas-anticonceptivas",
+        "effect": "Puede disminuir su eficacia"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Niveles séricos de Lamotrigina",
+        "slug": "niveles-sericos-lamotrigina",
+        "reason": "Para optimizar dosis, evaluar toxicidad o falta de respuesta."
+      },
+      {
+        "name": "Biometría Hemática Completa",
+        "slug": "biometria-hematica-completa",
+        "reason": "Monitorear posibles efectos en células sanguíneas."
+      },
+      {
+        "name": "Pruebas de Función Hepática",
+        "slug": "pruebas-funcion-hepatica",
+        "reason": "Detectar daño hepático inducido por fármacos."
+      },
+      {
+        "name": "Electrolitos Séricos",
+        "slug": "electrolitos-sericos",
+        "reason": "Evaluar posible hiponatremia."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de Aclaramiento de Creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      },
+      {
+        "name": "Calculadora de Dosis Pediátrica por Peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La lamotrigina causa sueño?",
+      "a": "Sí, la somnolencia es un efecto secundario común, especialmente al inicio del tratamiento o al aumentar la dosis. Suele mejorar con el tiempo. Evite conducir si se siente somnoliento."
+    },
+    {
+      "q": "¿Puedo tomar lamotrigina si estoy embarazada o planeo embarazarme?",
+      "a": "Es crucial planificarlo con su médico. NO la suspenda abruptamente. Se usa durante el embarazo si el beneficio supera el riesgo, con monitoreo estrecho y suplementos de ácido fólico."
+    },
+    {
+      "q": "¿Qué hago si se me olvita una dosis?",
+      "a": "Tómela tan pronto como lo recuerde. Si es casi la hora de la siguiente, omita la olvidada y continúe con su horario normal. NUNCA duplique la dosis."
+    },
+    {
+      "q": "¿La lamotrigina sube de peso?",
+      "a": "Generalmente NO causa aumento de peso significativo, a diferencia de otros estabilizadores del ánimo. Algunas personas pueden subir o bajar un poco, pero no es lo típico."
+    },
+    {
+      "q": "¿Puedo tomar alcohol mientras tomo lamotrigina?",
+      "a": "No se recomienda. El alcohol puede aumentar la somnolencia y el mareo, y en algunos casos, desencadenar crisis o cambios de ánimo."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto para el trastorno bipolar?",
+      "a": "Puede notar algunos efectos en semanas, pero la estabilización completa y la prevención de episodios depresivos pueden tardar varios meses de alcanzar la dosis de mantenimiento correcta."
+    },
+    {
+      "q": "¿Por qué debo empezar con una dosis tan baja?",
+      "a": "Para reducir MUCHO el riesgo de una erupción cutánea grave y potencialmente mortal. El aumento gradual (titulación) es la medida de seguridad más importante."
+    },
+    {
+      "q": "Me salió un sarpullido leve, ¿debo suspender el medicamento?",
+      "a": "SÍ. Suspenda la lamotrigina INMEDIATAMENTE y contacte a su médico. Aunque la mayoría de los sarpullidos son leves, no hay forma de saber al inicio si se convertirá en uno grave."
+    },
+    {
+      "q": "¿Puedo partir las tabletas por la mitad?",
+      "a": "Las tabletas regulares SÍ se pueden partir si su médico lo indica para ajustar la dosis. Las tabletas de liberación prolongada (XR) NO deben partirse, triturarse o masticarse."
+    },
+    {
+      "q": "¿La lamotrigina es adictiva?",
+      "a": "No, no se considera un medicamento adictivo ni genera dependencia física como las benzodiacepinas. Sin embargo, no debe suspenderse bruscamente por razones médicas."
+    },
+    {
+      "q": "¿Interfiere con los anticonceptivos hormonales (pastillas)?",
+      "a": "SÍ. Los anticonceptivos con estrógenos pueden reducir los niveles de lamotrigina, haciendo que sea menos efectiva. Su médico puede ajustar la dosis. Hable con su ginecólogo sobre métodos anticonceptivos alternativos o adicionales."
+    },
+    {
+      "q": "¿Puedo donar sangre si tomo lamotrigina?",
+      "a": "Generalmente SÍ se puede donar sangre, ya que la lamotrigina no contraindica la donación. Sin embargo, siempre informe al personal del banco de sangre sobre todos sus medicamentos."
+    },
+    {
+      "q": "¿La lamotrigina afecta la memoria o la concentración?",
+      "a": "Algunas personas reportan problemas leves de memoria o concentración, pero es menos común que con otros anticonvulsivantes. Si es severo, consulte a su médico."
+    },
+    {
+      "q": "¿Necesito hacerme análisis de sangre regularmente?",
+      "a": "No siempre, pero su médico puede pedir niveles en sangre, pruebas de hígado o de sangre periódicamente, especialmente al inicio, al cambiar dosis o si tiene otros síntomas."
+    },
+    {
+      "q": "¿Qué pasa si tomo una dosis más alta de la recetada por error?",
+      "a": "Podría tener más somnolencia, mareo o visión doble. Si toma mucho más de lo debido (sobredosis), busque atención médica de URGENCIA o llame al centro de toxicología."
+    },
+    {
+      "q": "¿Puedo tomar lamotrigina si tengo problemas de hígado?",
+      "a": "Depende de la gravedad. En problemas leves, se puede usar con dosis reducidas y monitoreo. En insuficiencia hepática grave, está CONTRAINDICADO. Su médico debe evaluarlo."
+    },
+    {
+      "q": "¿La lamotrigina sirve para la ansiedad?",
+      "a": "No está aprobada específicamente para la ansiedad, pero a veces se usa 'off-label' como estabilizador del ánimo en ciertos trastornos donde la ansiedad es un componente. No es un tratamiento de primera línea para la ansiedad generalizada."
+    },
+    {
+      "q": "¿Puedo tomar ibuprofeno o paracetamol con lamotrigina?",
+      "a": "Sí, generalmente no hay interacción significativa con estos analgésicos comunes. Sin embargo, siempre consulte a su médico o farmacéutico antes de tomar cualquier nuevo medicamento."
+    },
+    {
+      "q": "¿La lamotrigina cambia la personalidad?",
+      "a": "No cambia la personalidad. Su objetivo es estabilizar los estados de ánimo extremos en el trastorno bipolar y controlar la actividad cerebral anormal en la epilepsia, ayudando a la persona a funcionar mejor."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre las tabletas normales y las de liberación prolongada (XR)?",
+      "a": "Las XR liberan el medicamento lentamente durante el día, permitiendo una sola dosis diaria y manteniendo niveles más estables en sangre. Pueden causar menos picos de efectos secundarios. No son intercambiables sin ajuste de dosis y supervisión médica."
+    }
+  ]
+}

@@ -1,0 +1,424 @@
+{
+  "name": "Cloroprocaína Hidrocloruro",
+  "summary": "La Cloroprocaína Hidrocloruro es un anestésico local de tipo éster, utilizado principalmente para producir anestesia local o regional mediante inyección. Sirve para bloquear temporalmente las señales de dolor en nervios específicos durante procedimientos médicos y quirúrgicos, permitiendo realizar intervenciones sin que el paciente sienta dolor. Su importancia clínica radica en su rápido inicio de acción y su corta duración, lo que lo hace ideal para procedimientos de corta duración como partos por cesárea, cirugías menores, bloqueos epidurales y anestesia espinal. Es especialmente útil cuando se necesita un efecto anestésico rápido pero de corta duración, minimizando los efectos secundarios sistémicos debido a su metabolismo rápido en el plasma sanguíneo. A diferencia de otros anestésicos locales, la cloroprocaína se metaboliza tan rápidamente que prácticamente no cruza la placenta en cantidades significativas, haciéndola más segura para la madre y el bebé durante el parto. Su uso requiere supervisión médica especializada debido al riesgo de toxicidad sistémica si se inyecta accidentalmente en un vaso sanguíneo.",
+  "pharmacology": {
+    "mechanismOfAction": "La Cloroprocaína actúa bloqueando la generación y conducción de impulsos nerviosos, específicamente uniéndose a los canales de sodio en las membranas de las neuronas. Esta unión estabiliza la membrana neuronal e inhibe el flujo de iones sodio hacia el interior de la célula, lo que previene la despolarización necesaria para la propagación del potencial de acción. Al impedir la entrada de sodio, el nervio no puede transmitir señales de dolor hacia el cerebro, produciendo anestesia local. El efecto es reversible y dependiente de la concentración, afectando primero las fibras nerviosas más delgadas (las que transmiten dolor y temperatura) antes que las fibras motoras más gruesas. Este mecanismo es común a todos los anestésicos locales, pero la cloroprocaína tiene características especiales por ser un éster que se hidroliza rápidamente por la colinesterasa plasmática.",
+    "pharmacologicClass": "Anestésico local del grupo aminoéster (éster del ácido paraaminobenzoico)",
+    "therapeuticClass": "Anestésico local inyectable",
+    "absorption": "Cuando se administra por inyección en tejidos, la absorción sistémica depende del sitio de administración, dosis, concentración y presencia de vasoconstrictores. La absorción es más rápida en áreas con alto flujo sanguíneo. No se administra por vía oral. La concentración plasmática máxima se alcanza en 10-30 minutos después de la inyección peridural.",
+    "distribution": "Se distribuye ampliamente en los tejidos después de la absorción sistémica. Tiene una unión a proteínas plasmáticas moderada (principalmente a la albúmina y α1-glicoproteína ácida). Su volumen de distribución es aproximadamente de 0.8-1.5 L/kg. Cruza la barrera hematoencefálica y, en menor medida, la barrera placentaria, aunque su rápido metabolismo limita significativamente este paso.",
+    "metabolism": "Se metaboliza rápidamente en el plasma por la enzima colinesterasa plasmática (pseudocolinesterasa) mediante hidrólisis, formando ácido 2-cloro-4-aminobenzoico y dietilaminoetanol. No involucra el sistema enzimático CYP hepático de manera significativa, lo que reduce las interacciones farmacológicas mediadas por CYP. El metabolismo es tan rápido que su vida media plasmática es extremadamente corta.",
+    "elimination": "Vida media plasmática: aproximadamente 21-25 segundos en adultos. Se elimina principalmente por metabolismo plasmático, con menos del 2% excretado sin cambios en la orina. Los metabolitos se excretan por vía renal. En pacientes con deficiencia de pseudocolinesterasa, la vida media se prolonga significativamente.",
+    "onsetOfAction": "Muy rápido: 6-12 minutos para bloqueo epidural, 3-5 minutos para anestesia espinal. Depende de la concentración, sitio de inyección y uso de aditivos.",
+    "durationOfAction": "Corta: 30-60 minutos para bloqueo epidural, 45-90 minutos para anestesia espinal cuando se usa sin vasoconstrictor. La duración puede prolongarse ligeramente con epinefrina."
+  },
+  "indications": {
+    "approved": [
+      "Anestesia epidural para parto vaginal y cesárea",
+      "Anestesia espinal para procedimientos quirúrgicos de corta duración",
+      "Bloqueo de nervios periféricos para cirugía menor",
+      "Infiltración local para procedimientos dermatológicos menores",
+      "Anestesia para procedimientos obstétricos y ginecológicos de corta duración"
+    ],
+    "offLabel": [
+      "Bloqueo del plexo braquial para cirugía de miembro superior de corta duración",
+      "Anestesia para cirugía de hernia inguinal ambulatoria",
+      "Bloqueo del plano transverso abdominal (TAP block)",
+      "Analgesia epidural para dolor postoperatorio agudo",
+      "Bloqueo para cirugía oftálmica peribulbar"
+    ]
+  },
+  "dosage": {
+    "adults": "Epidural: 2-3% solución, 15-25 mL (300-750 mg). Espinal: 1-2% solución, 2-3 mL (40-60 mg). Bloqueo nervioso periférico: 1-2% solución, 5-40 mL dependiendo del área. Infiltración: 1-2% solución, dosis máxima según área. Dosis total máxima: 1000 mg (11 mg/kg) sin epinefrina, 1400 mg (14 mg/kg) con epinefrina 1:200,000.",
+    "pediatric": "No recomendado rutinariamente en niños menores de 12 años por falta de estudios. En adolescentes >12 años: dosis calculada por peso: 5-7 mg/kg sin vasoconstrictor, 7-10 mg/kg con vasoconstrictor. Siempre bajo supervisión anestesiológica especializada.",
+    "elderly": "Reducir dosis en 20-30% debido a disminución de masa muscular, flujo sanguíneo y posible disminución de función hepática/renal. Monitorizar estrechamente por mayor sensibilidad a efectos sistémicos.",
+    "renalImpairment": "Ajustar en insuficiencia renal moderada-severa (TFG <30 mL/min): reducir dosis en 25-50%. Los metabolitos se acumulan pero tienen baja toxicidad. Monitorizar signos de toxicidad por acumulación.",
+    "hepaticImpairment": "No requiere ajuste significativo ya que el metabolismo es principalmente plasmático. En cirrosis avanzada con deficiencia de pseudocolinesterasa: reducir dosis en 30-50% y monitorizar estrechamente.",
+    "maxDose": "Dosis máxima absoluta: 1000 mg (11 mg/kg) sin vasoconstrictor, 1400 mg (14 mg/kg) con epinefrina 1:200,000. Nunca exceder estas dosis para evitar toxicidad sistémica."
+  },
+  "dosageForms": [
+    {
+      "form": "Solución inyectable",
+      "strengths": [
+        "10 mg/mL (1%)",
+        "20 mg/mL (2%)",
+        "30 mg/mL (3%)"
+      ],
+      "route": "Epidural, espinal, perineural, infiltración"
+    },
+    {
+      "form": "Solución inyectable con epinefrina",
+      "strengths": [
+        "20 mg/mL con epinefrina 1:200,000"
+      ],
+      "route": "Epidural, perineural"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a anestésicos locales tipo éster",
+      "Deficiencia congénita o adquirida de pseudocolinesterasa",
+      "Infección activa en el sitio de inyección",
+      "Sepsis o bacteriemia",
+      "Hipersensibilidad a metabolitos (PABA, sulfitos)",
+      "Bloqueo cardíaco avanzado",
+      "Porfiria aguda intermitente"
+    ],
+    "relative": [
+      "Enfermedad cardiovascular severa",
+      "Epilepsia no controlada",
+      "Miastenia gravis",
+      "Hipovolemia severa",
+      "Tratamiento con IMAOs",
+      "Antecedentes de metemoglobinemia",
+      "Embarazo de alto riesgo (excepto para anestesia obstétrica)",
+      "Trastornos de coagulación o anticoagulación"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Hipotensión (especialmente en bloqueo espinal/epidural)",
+      "Bradicardia",
+      "Náuseas",
+      "Temblor muscular leve",
+      "Retención urinaria temporal"
+    ],
+    "common": [
+      "Cefalea post-punción dural",
+      "Dolor de espalda transitorio",
+      "Prurito (especialmente con uso epidural)",
+      "Mareo",
+      "Sensación de calor o frío",
+      "Debilidad muscular temporal"
+    ],
+    "uncommon": [
+      "Reacciones alérgicas (urticaria, rash)",
+      "Metemoglobinemia (en dosis altas)",
+      "Tinnitus",
+      "Visión borrosa",
+      "Ansiedad",
+      "Disnea leve"
+    ],
+    "rare": [
+      "Toxicidad sistémica (convulsiones, arritmias cardíacas)",
+      "Paro cardiorrespiratorio",
+      "Parestesias persistentes",
+      "Daño neurológico permanente",
+      "Síndrome de cauda equina",
+      "Mielitis transversa"
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Inhibidores de la colinesterasa (neostigmina, fisostigmina)",
+        "effect": "Pueden prolongar la acción de la cloroprocaína al inhibir su metabolismo",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Succinilcolina",
+        "effect": "Competencia por la pseudocolinesterasa puede prolongar efectos de ambos",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "IMAOs (fenelzina, tranilcipromina)",
+        "effect": "Aumentan riesgo de hipertensión severa si se usa con vasoconstrictores",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Antidepresivos tricíclicos",
+        "effect": "Aumentan riesgo de arritmias cardíacas",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Bloqueadores beta no selectivos",
+        "effect": "Pueden potenciar la bradicardia y la hipotensión",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "No aplica ya que se administra solo por vía parenteral. El alcohol puede potenciar efectos depresores del SNC.",
+    "withSupplements": "Suplementos que contienen PABA (ácido paraaminobenzoico) pueden aumentar riesgo de reacciones alérgicas. Suplementos con efectos anticoagulantes (ginkgo, ajo, ginseng) pueden aumentar riesgo de sangrado en bloqueos profundos."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA C",
+      "recommendation": "Considerado seguro para anestesia obstétrica. Es el anestésico local preferido para cesárea de emergencia por su rápido inicio y mínimo paso transplacentario. Debe usarse solo cuando los beneficios justifican los riesgos potenciales. Monitorizar frecuencia cardíaca fetal.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Considerado compatible con la lactancia. La cantidad excretada en leche materna es mínima debido a su rápido metabolismo materno. No se han reportado efectos adversos en lactantes. Puede usarse durante la lactancia sin necesidad de interrumpir la alimentación.",
+    "pediatric": "Uso limitado en niños. Algunos estudios apoyan su uso en adolescentes (>12 años) para procedimientos menores. En niños menores, solo bajo estricta supervisión anestesiológica y en centros con capacidad de reanimación. Dosis calculada cuidadosamente por peso.",
+    "geriatric": "Mayor sensibilidad a efectos adversos. Reducir dosis inicial en 20-30%. Mayor riesgo de hipotensión ortostática, caídas, retención urinaria y confusión. Monitorizar función renal y estado de hidratación. Considerar menor masa muscular para cálculo de dosis."
+  },
+  "administration": {
+    "howToTake": "EXCLUSIVAMENTE administrado por profesionales de la salud capacitados (anestesiólogos, médicos). Se inyecta en el espacio epidural, espinal, alrededor de nervios periféricos o directamente en tejidos. Siempre aspirar antes de inyectar para evitar inyección intravascular accidental. Usar técnica estéril. Para anestesia epidural: inyectar lentamente en dosis fraccionadas. Para anestesia espinal: usar solución isobárica o hiperbárica según técnica.",
+    "storage": "Almacenar a temperatura controlada (15-30°C). Proteger de la luz. No congelar. Una vez abierto el vial, usar inmediatamente. Desechar sobrantes. Verificar fecha de caducidad. Las soluciones con epinefrina son más sensibles a la oxidación.",
+    "specialInstructions": "Siempre tener equipo de reanimación disponible (oxígeno, equipo de intubación, medicamentos de emergencia). Realizar prueba de aspiración frecuente durante inyección. Usar la menor dosis efectiva. En pacientes con antecedentes alérgicos a anestésicos locales tipo éster, considerar prueba cutánea. No usar si la solución está turbia o contiene partículas."
+  },
+  "monitoring": {
+    "labTests": [
+      "Nivel de pseudocolinesterasa (en pacientes con sospecha de deficiencia)",
+      "Metabolismo hepático (ALT, AST) en uso prolongado",
+      "Función renal (creatinina, BUN) en pacientes con enfermedad renal",
+      "Gasometría arterial si hay sospecha de toxicidad",
+      "Metemoglobinemia en caso de cianosis"
+    ],
+    "frequency": "Monitorización continua durante la administración y por lo menos 30 minutos después. Signos vitales cada 5 minutos inicialmente, luego cada 15 minutos. Evaluación neurológica periódica si hay bloqueo motor.",
+    "signsToWatch": [
+      "Cambios en el estado mental (confusión, somnolencia)",
+      "Signos de toxicidad (tinnitus, visión borrosa, convulsiones)",
+      "Hipotensión severa o bradicardia",
+      "Dificultad respiratoria",
+      "Cianosis (posible metemoglobinemia)",
+      "Debilidad muscular prolongada",
+      "Pérdida de sensibilidad más allá del área esperada"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Síntomas del SNC: mareo, tinnitus, visión borrosa, temblores, convulsiones",
+      "Síntomas cardiovasculares: hipotensión, bradicardia, arritmias, paro cardíaco",
+      "Síntomas respiratorios: depresión respiratoria, apnea",
+      "Metemoglobinemia: cianosis que no responde a oxígeno",
+      "Reacciones alérgicas severas: anafilaxia"
+    ],
+    "treatment": "Soporte vital avanzado inmediato. Mantener vía aérea, oxigenación y ventilación. Controlar convulsiones con benzodiacepinas (midazolam, diazepam). Tratar arritmias según protocolos ACLS. Para hipotensión: fluidos y vasopresores. En metemoglobinemia severa: azul de metileno 1-2 mg/kg IV. Hemodiálisis no es efectiva.",
+    "antidote": "No existe antídoto específico. El tratamiento es de soporte. Los lípidos intravenosos (emulsión lipídica al 20%) pueden ser útiles en toxicidad por anestésicos locales al secuestrar el fármaco."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especializada (prescripción médica)",
+    "scheduleMexico": "Medicamento de control especial, sujeto a registro sanitario. Fracción IV del artículo 226 de la Ley General de Salud.",
+    "fdaApprovalYear": "Aprobado inicialmente por la FDA en 1952, reformulado y re-aprobado en 1985 para formulaciones actuales."
+  },
+  "brandsMexico": [
+    "Nesacaine",
+    "Nesacaine-MPF",
+    "Clorocaína",
+    "Anestésico Local Éster",
+    "Procaine Clorada",
+    "Quirocaina"
+  ],
+  "clinicalPearls": [
+    "La cloroprocaína es el anestésico local de elección para cesárea de emergencia debido a su rápido inicio (3-5 minutos) y mínimo paso transplacentario, protegiendo al feto de depresión cardiorrespiratoria.",
+    "Su vida media extremadamente corta (segundos) la hace ideal para procedimientos ambulatorios, permitiendo recuperación rápida y alta rotación en quirófanos.",
+    "La adición de epinefrina 1:200,000 no solo prolonga la duración en 50%, sino que reduce la absorción sistémica en 30%, disminuyendo el riesgo de toxicidad."
+  ],
+  "patientCounseling": "La cloroprocaína es un medicamento que SOLO debe ser administrado por un médico anestesiólogo o cirujano capacitado. Usted no se lo administrará a sí mismo. Antes del procedimiento, informe a su médico sobre todas sus alergias, especialmente a anestésicos dentales o medicamentos similares. Comunique si tiene problemas cardíacos, neurológicos o hepáticos. Después de recibir la anestesia, es normal sentir adormecimiento y debilidad en el área tratada por algunas horas. No intente caminar sin asistencia hasta que recupere completamente la sensibilidad y fuerza. Evite alimentos calientes si tiene la boca adormecida después de procedimientos dentales. Si presenta dificultad para respirar, palpitaciones, mareo intenso, convulsiones o debilidad prolongada, busque atención médica inmediata. El dolor de cabeza después de anestesia espinal es común y generalmente mejora con reposo e hidratación, pero si es severo o persistente, informe a su médico. Siga todas las instrucciones post-procedimiento para una recuperación segura.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor agudo",
+        "slug": "dolor-agudo"
+      },
+      {
+        "name": "Dolor durante procedimientos médicos",
+        "slug": "dolor-procedimientos-medicos"
+      },
+      {
+        "name": "Dolor de parto",
+        "slug": "dolor-de-parto"
+      },
+      {
+        "name": "Dolor postoperatorio",
+        "slug": "dolor-postoperatorio"
+      },
+      {
+        "name": "Sensibilidad en la piel",
+        "slug": "sensibilidad-en-la-piel"
+      },
+      {
+        "name": "Dolor durante cirugía menor",
+        "slug": "dolor-cirugia-menor"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Trabajo de parto",
+        "slug": "trabajo-de-parto"
+      },
+      {
+        "name": "Hernia inguinal",
+        "slug": "hernia-inguinal"
+      },
+      {
+        "name": "Cirugía ambulatoria",
+        "slug": "cirugia-ambulatoria"
+      },
+      {
+        "name": "Procedimientos dermatológicos",
+        "slug": "procedimientos-dermatologicos"
+      },
+      {
+        "name": "Cirugía ortopédica menor",
+        "slug": "cirugia-ortopedica-menor"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Metemoglobinemia",
+        "slug": "metemoglobinemia"
+      },
+      {
+        "name": "Hipotensión severa",
+        "slug": "hipotension-severa"
+      },
+      {
+        "name": "Arritmia cardíaca",
+        "slug": "arritmia-cardiaca"
+      },
+      {
+        "name": "Cefalea post-punción dural",
+        "slug": "cefalea-post-puncion-dural"
+      },
+      {
+        "name": "Reacción alérgica severa",
+        "slug": "reaccion-alergica-severa"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Presión arterial",
+        "slug": "presion-arterial",
+        "effect": "Puede disminuir significativamente"
+      },
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede disminuir (bradicardia)"
+      },
+      {
+        "name": "Metemoglobina",
+        "slug": "metemoglobina",
+        "effect": "Puede elevarse"
+      },
+      {
+        "name": "Nivel de pseudocolinesterasa",
+        "slug": "nivel-pseudocolinesterasa",
+        "effect": "Puede disminuir temporalmente"
+      },
+      {
+        "name": "Saturación de oxígeno",
+        "slug": "saturacion-de-oxigeno",
+        "effect": "Puede disminuir en metemoglobinemia"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Nivel de pseudocolinesterasa",
+        "slug": "nivel-pseudocolinesterasa",
+        "reason": "Para identificar pacientes con deficiencia que metabolizan lentamente el fármaco"
+      },
+      {
+        "name": "Gasometría arterial",
+        "slug": "gasometria-arterial",
+        "reason": "Para diagnosticar metemoglobinemia en caso de cianosis"
+      },
+      {
+        "name": "Electrocardiograma",
+        "slug": "electrocardiograma",
+        "reason": "Para monitorizar efectos cardíacos durante administración"
+      },
+      {
+        "name": "Presión arterial continua",
+        "slug": "presion-arterial-continua",
+        "reason": "Para detectar hipotensión durante bloqueo espinal/epidural"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de eGFR",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Qué es la cloroprocaína y para qué sirve?",
+      "a": "La cloroprocaína es un medicamento anestésico local que se usa para bloquear el dolor durante procedimientos médicos y quirúrgicos. Sirve para adormecer áreas específicas del cuerpo sin que el paciente pierda la conciencia, permitiendo realizar cirugías menores, partos por cesárea, y otros procedimientos sin dolor."
+    },
+    {
+      "q": "¿Cómo se administra la cloroprocaína?",
+      "a": "Siempre se administra mediante inyección por un médico especialista (anestesiólogo o cirujano). Puede inyectarse en la columna vertebral (anestesia epidural o espinal), alrededor de nervios específicos, o directamente en los tejidos donde se realizará el procedimiento."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Tiene un inicio de acción muy rápido: entre 3 a 5 minutos para anestesia espinal, y 6 a 12 minutos para anestesia epidural. Esto la hace ideal para procedimientos de emergencia como cesáreas urgentes."
+    },
+    {
+      "q": "¿Cuánto tiempo dura el efecto anestésico?",
+      "a": "El efecto es de corta duración, generalmente entre 30 a 90 minutos dependiendo del tipo de bloqueo y si se usa con epinefrina. Esta corta duración permite una recuperación más rápida después del procedimiento."
+    },
+    {
+      "q": "¿Duele la inyección de cloroprocaína?",
+      "a": "La inyección inicial puede causar una leve molestia o ardor momentáneo, pero rápidamente el área se adormece. Para procedimientos más complejos, el médico puede aplicar primero un anestésico superficial o usar técnicas especiales para minimizar la molestia."
+    },
+    {
+      "q": "¿Puedo comer o beber antes de recibir cloroprocaína?",
+      "a": "Depende del tipo de procedimiento. Para anestesia espinal o epidural generalmente se requiere ayuno de 6-8 horas para sólidos y 2 horas para líquidos claros. Siga las instrucciones específicas de su médico."
+    },
+    {
+      "q": "¿Qué efectos secundarios son comunes?",
+      "a": "Los efectos secundarios más comunes incluyen: hipotensión (presión baja), bradicardia (ritmo cardíaco lento), náuseas, temblores leves y dolor de cabeza después del procedimiento. Estos efectos suelen ser temporales y manejables."
+    },
+    {
+      "q": "¿La cloroprocaína es segura durante el embarazo?",
+      "a": "Sí, es considerada uno de los anestésicos locales más seguros para uso obstétrico, especialmente para cesáreas de emergencia. Tiene mínimo paso a través de la placenta, protegiendo al bebé de efectos depresores."
+    },
+    {
+      "q": "¿Puedo amamantar después de recibir cloroprocaína?",
+      "a": "Sí, es compatible con la lactancia materna. La cantidad que pasa a la leche materna es mínima debido a su rápido metabolismo en el cuerpo de la madre. No es necesario interrumpir la lactancia."
+    },
+    {
+      "q": "¿Qué debo hacer si siento mucho dolor de cabeza después?",
+      "a": "El dolor de cabeza post-punción dural es común después de anestesia espinal. Generalmente mejora con reposo en cama, hidratación abundante y analgésicos simples. Si es severo o persistente por más de 48 horas, contacte a su médico."
+    },
+    {
+      "q": "¿Existen alergias a la cloroprocaína?",
+      "a": "Sí, aunque son raras. Las personas alérgicas a anestésicos locales tipo 'éster' (como la procaína o tetracaína) o al PABA (ácido paraaminobenzoico, presente en algunos protectores solares) pueden tener reacción. Informe cualquier alergia conocida a su médico."
+    },
+    {
+      "q": "¿Puedo conducir después de recibir cloroprocaína?",
+      "a": "NO debe conducir hasta que haya recuperado completamente la sensibilidad, fuerza y coordinación. Para anestesia espinal/epidural, espere al menos 24 horas. Para bloqueos periféricos, espere hasta que desaparezca completamente el adormecimiento."
+    },
+    {
+      "q": "¿La cloroprocaína interactúa con otros medicamentos?",
+      "a": "Sí, puede interactuar con algunos medicamentos como inhibidores de la colinesterasa, algunos antidepresivos y medicamentos para el corazón. Informe a su médico TODOS los medicamentos que toma, incluyendo hierbas y suplementos."
+    },
+    {
+      "q": "¿Qué pasa si tengo problemas de hígado o riñones?",
+      "a": "En general es seguro porque se metaboliza en la sangre, no en el hígado. En insuficiencia renal severa puede requerir ajuste de dosis. Su médico evaluará su caso particular y ajustará la dosis si es necesario."
+    },
+    {
+      "q": "¿Por qué a veces se agrega epinefrina a la cloroprocaína?",
+      "a": "La epinefrina (adrenalina) se agrega para: 1) prolongar la duración del efecto anestésico, 2) reducir la absorción hacia la sangre disminuyendo el riesgo de toxicidad, y 3) proporcionar mejor control del sangrado durante la cirugía."
+    },
+    {
+      "q": "¿Qué es la toxicidad por anestésicos locales y cómo se previene?",
+      "a": "Es cuando el medicamento entra en la sangre en cantidad excesiva, causando síntomas como mareo, convulsiones o problemas cardíacos. Se previene usando la dosis mínima efectiva, aspirando antes de inyectar, e inyectando lentamente. Siempre se realiza en un entorno médico con equipo de reanimación disponible."
+    },
+    {
+      "q": "¿La cloroprocaína causa adicción o dependencia?",
+      "a": "NO, los anestésicos locales no causan adicción ni dependencia. No producen euforia ni craving. Son medicamentos que actúan localmente y no tienen potencial de abuso."
+    },
+    {
+      "q": "¿Qué diferencia hay entre cloroprocaína y lidocaína?",
+      "a": "La cloroprocaína es de tipo 'éster', se metaboliza en la sangre, tiene inicio más rápido y duración más corta. La lidocaína es de tipo 'amida', se metaboliza en el hígado, tiene duración más larga. La cloroprocaína es preferida en obstetricia por su seguridad fetal."
+    },
+    {
+      "q": "¿Puede la cloroprocaína causar daño neurológico permanente?",
+      "a": "Es extremadamente raro con las técnicas y dosis modernas. El riesgo aumenta con inyección intraneural directa, uso de concentraciones muy altas, o aditivos inapropiados. Los profesionales capacitados usan técnicas seguras para minimizar este riesgo."
+    },
+    {
+      "q": "¿Cómo se maneja una sobredosis o toxicidad por cloroprocaína?",
+      "a": "El tratamiento incluye: 1) soporte vital inmediato (oxígeno, control de vía aérea), 2) control de convulsiones con benzodiacepinas, 3) tratamiento de arritmias cardíacas, y 4) en casos graves, administración de emulsión lipídica intravenosa que ayuda a secuestrar el anestésico de la sangre."
+    }
+  ]
+}

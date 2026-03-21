@@ -1,0 +1,448 @@
+{
+  "name": "Fentanilo",
+  "summary": "El fentanilo es un potente analgésico opioide sintético, aproximadamente 100 veces más fuerte que la morfina. Se utiliza principalmente para el manejo del dolor intenso, como el dolor oncológico (por cáncer) o el dolor postoperatorio severo, cuando otros analgésicos más débiles no son suficientes. Su importancia clínica radica en su gran potencia y rápido inicio de acción, lo que lo hace invaluable en situaciones de dolor agudo severo y en cuidados paliativos. Sin embargo, debido a su alta potencia y riesgo significativo de depresión respiratoria (dificultad para respirar), adicción y sobredosis, es un medicamento de uso estrictamente controlado que solo debe ser prescrito y supervisado por médicos especialistas en el manejo del dolor. Su mal uso representa un grave problema de salud pública. Es fundamental que los pacientes y sus cuidadores comprendan los riesgos, sigan las instrucciones al pie de la letra y nunca compartan este medicamento con otras personas.",
+  "pharmacology": {
+    "mechanismOfAction": "El fentanilo actúa principalmente como un agonista puro de los receptores opioides mu (μ) en el sistema nervioso central (cerebro y médula espinal). Al unirse a estos receptores, imita la acción de las endorfinas naturales del cuerpo, inhibiendo la transmisión de las señales de dolor. Esto resulta en una potente analgesia (alivio del dolor), sedación y una sensación de euforia. También suprime el centro respiratorio en el tronco encefálico, lo que puede llevar a una depresión respiratoria (respiración lenta o superficial), su efecto adverso más peligroso. Su acción es rápida debido a su alta liposolubilidad, que le permite cruzar fácilmente la barrera hematoencefálica y llegar al cerebro.",
+    "pharmacologicClass": "Agonista puro de los receptores opioides mu (μ). Analgésico opioide sintético de la clase de las fenilpiperidinas.",
+    "therapeuticClass": "Analgésico Opioide Mayor (Narcótico).",
+    "absorption": "La absorción varía según la vía de administración. Por vía intravenosa (IV), la biodisponibilidad es del 100% y el efecto es casi inmediato. Los parches transdérmicos (a través de la piel) tienen una absorción lenta y constante, alcanzando niveles terapéuticos estables después de 12-24 horas. Las pastillas o comprimidos para chupar (liofilizados orales) se absorben rápidamente a través de la mucosa de la boca. La administración oral (tragado) tiene una biodisponibilidad baja (alrededor del 33%) debido a un extenso metabolismo de primer paso en el hígado.",
+    "distribution": "Se distribuye ampliamente en los tejidos debido a su alta liposolubilidad. Su volumen de distribución (Vd) es grande (aproximadamente 4 L/kg). Se une en un 80-85% a las proteínas plasmáticas, principalmente a la alfa-1-glicoproteína ácida. Cruza rápidamente la barrera hematoencefálica y también la placenta.",
+    "metabolism": "Se metaboliza extensamente en el hígado, principalmente por la enzima CYP3A4 del citocromo P450. Se transforma en norfentanilo (inactivo) y otros metabolitos menores a través de reacciones de N-desalquilación e hidroxilación.",
+    "elimination": "La vida media de eliminación después de una dosis intravenosa es de aproximadamente 3-7 horas, pero puede ser más larga con el uso continuo o en ciertas poblaciones. La vida media aparente de los parches transdérmicos es más larga (17-48 horas). Se elimina principalmente por la orina (alrededor del 75%) como metabolitos inactivos, y menos del 10% se excreta sin cambios. Una pequeña parte se elimina en las heces.",
+    "onsetOfAction": "Muy rápido por vía intravenosa (1-2 minutos). Rápido por vía transmucosa (pastillas para chupar, 5-15 minutos). Lento por vía transdérmica (parches, 12-24 horas para efecto inicial).",
+    "durationOfAction": "Corta por vía intravenosa (30-60 minutos para el efecto analgésico agudo, aunque la depresión respiratoria puede durar más). Los parches transdérmicos están diseñados para liberar el medicamento de manera constante durante 72 horas (3 días)."
+  },
+  "indications": {
+    "approved": [
+      "Manejo del dolor crónico severo (ej. dolor oncológico) que requiere tratamiento continuo con opioides.",
+      "Analgesia preoperatoria y coadyuvante en anestesia general.",
+      "Analgesia controlada por el paciente (PCA) en dolor postoperatorio agudo.",
+      "Manejo del dolor agudo severo en entornos hospitalarios o de urgencias."
+    ],
+    "offLabel": [
+      "Sedación y analgesia en pacientes críticos con ventilación mecánica.",
+      "Manejo del dolor neuropático refractario en combinación con otros fármacos.",
+      "Sedación para procedimientos dolorosos de corta duración (ej. reducción de fracturas)."
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis es HIGHLY INDIVIDUAL y debe ser titulada por un médico. Ejemplos: IV: 25-100 mcg (microgramos) cada 30-60 min según necesidad. Parche transdérmico: Iniciar con 12 mcg/h cada 72 horas, ajustando según respuesta. La conversión desde otros opioides es compleja y requiere cálculos precisos.",
+    "pediatric": "Uso restringido a entornos hospitalarios especializados. Dosis IV: 1-2 mcg/kg por dosis, administrada lentamente. Debe ser calculada meticulosamente por peso y supervisada estrechamente.",
+    "elderly": "Iniciar con dosis más bajas (generalmente 25-50% de la dosis adulta inicial) debido a la disminución del aclaramiento, mayor sensibilidad y mayor riesgo de efectos adversos. Titular lentamente.",
+    "renalImpairment": "Ajustar dosis en insuficiencia renal moderada a severa (TFG < 30 mL/min). Los metabolitos pueden acumularse. Se recomienda reducir la dosis inicial y aumentar el intervalo entre dosis. Monitorizar estrechamente.",
+    "hepaticImpairment": "Reducir la dosis en pacientes con enfermedad hepática significativa (cirrosis) debido a la disminución del metabolismo por CYP3A4. Titular con extrema precaución.",
+    "maxDose": "No existe una dosis máxima diaria universal; la dosis se individualiza hasta alcanzar un balance entre alivio del dolor y efectos adversos tolerables. Sin embargo, dosis muy altas aumentan exponencialmente el riesgo de depresión respiratoria fatal."
+  },
+  "dosageForms": [
+    {
+      "form": "Parche transdérmico",
+      "strengths": [
+        "12 mcg/h",
+        "25 mcg/h",
+        "50 mcg/h",
+        "75 mcg/h",
+        "100 mcg/h"
+      ],
+      "route": "Transdérmica"
+    },
+    {
+      "form": "Inyección (ampolla)",
+      "strengths": [
+        "0.05 mg/mL",
+        "0.1 mg/2mL"
+      ],
+      "route": "Intravenosa, Intramuscular"
+    },
+    {
+      "form": "Comprimido sublingual / para chupar (liofilizado oral)",
+      "strengths": [
+        "100 mcg",
+        "200 mcg",
+        "400 mcg",
+        "600 mcg",
+        "800 mcg"
+      ],
+      "route": "Transmucosa (Sublingual/Bucal)"
+    },
+    {
+      "form": "Tableta bucodispersable",
+      "strengths": [
+        "100 mcg",
+        "200 mcg",
+        "400 mcg",
+        "600 mcg",
+        "800 mcg"
+      ],
+      "route": "Transmucosa (Bucal)"
+    },
+    {
+      "form": "Spray nasal",
+      "strengths": [
+        "100 mcg/dosis",
+        "200 mcg/dosis",
+        "400 mcg/dosis"
+      ],
+      "route": "Nasal"
+    },
+    {
+      "form": "Pastilla para chupar en palito (lollipop)",
+      "strengths": [
+        "200 mcg",
+        "400 mcg",
+        "600 mcg",
+        "800 mcg",
+        "1200 mcg",
+        "1600 mcg"
+      ],
+      "route": "Transmucosa (Bucal)"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al fentanilo o a cualquier componente de la formulación.",
+      "Dolor agudo o postoperatorio leve/intermitente que pueda manejarse con otros analgésicos.",
+      "Asma aguda severa, depresión respiratoria severa u obstrucción de las vías respiratorias (excepto en intubación/ventilación mecánica).",
+      "Parálisis ileo (intestino paralizado).",
+      "Uso concomitante con inhibidores de la monoaminooxidasa (IMAOs) o dentro de los 14 días posteriores a su suspensión."
+    ],
+    "relative": [
+      "Enfermedad pulmonar obstructiva crónica (EPOC) o cor pulmonale.",
+      "Arritmias cardíacas.",
+      "Aumento de la presión intracraneal, lesión cerebral traumática, estado de conciencia alterado.",
+      "Insuficiencia hepática o renal severa.",
+      "Trastornos convulsivos.",
+      "Historial de abuso de sustancias o alcoholismo.",
+      "Edad avanzada o estado de debilidad (caquexia).",
+      "Hipotiroidismo, enfermedad de Addison."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Náuseas y vómitos.",
+      "Estreñimiento.",
+      "Somnolencia, sedación.",
+      "Mareos, vértigo.",
+      "Sudoración."
+    ],
+    "common": [
+      "Sequedad de boca.",
+      "Prurito (picazón).",
+      "Confusión, alucinaciones.",
+      "Dolor de cabeza.",
+      "Retención urinaria.",
+      "Hipotensión (presión baja).",
+      "Bradicardia (ritmo cardíaco lento)."
+    ],
+    "uncommon": [
+      "Rigidez muscular (especialmente del tórax).",
+      "Depresión respiratoria.",
+      "Síndrome de serotonina (con otros fármacos).",
+      "Convulsiones."
+    ],
+    "rare": [
+      "Anafilaxia (reacción alérgica severa).",
+      "Arritmias cardíacas graves.",
+      "Dependencia física y psicológica.",
+      "Síndrome de abstinencia neonatal."
+    ],
+    "blackBoxWarning": "ADVERTENCIA: RIESGO DE DEPRESIÓN RESPIRATORIA, ABUSO, ADICCIÓN Y SOBREDOSIS. El fentanilo expone a usuarios y otros al riesgo de adicción, abuso y uso indebido, lo que puede llevar a sobredosis y muerte. La depresión respiratoria grave o mortal puede ocurrir. El uso concomitante con benzodiacepinas u otros depresores del SNC aumenta este riesgo. Los parches transdérmicos contienen una alta concentración de opioide y su exposición accidental (especialmente en niños) o uso incorrecto es peligroso. Solo para uso en pacientes opioide-tolerantes."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Benzodiacepinas (diazepam, alprazolam)",
+        "effect": "Aumento sinérgico del riesgo de depresión respiratoria severa, sedación profunda, coma y muerte.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Alcohol",
+        "effect": "Aumenta marcadamente los efectos depresores del SNC y el riesgo de depresión respiratoria fatal.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores de CYP3A4 (ketoconazol, itraconazol, ritonavir, claritromicina)",
+        "effect": "Aumentan los niveles de fentanilo, potenciando sus efectos y toxicidad.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inductores de CYP3A4 (rifampicina, carbamazepina, fenitoína)",
+        "effect": "Disminuyen los niveles de fentanilo, reduciendo su efecto analgésico y pudiendo precipitar síndrome de abstinencia.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Otros depresores del SNC (antipsicóticos, antidepresivos sedantes, antihistamínicos)",
+        "effect": "Potencian la sedación y el riesgo de depresión respiratoria.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Agonistas/antagonistas opioides mixtos (pentazocina, buprenorfina)",
+        "effect": "Pueden precipitar síndrome de abstinencia en pacientes dependientes o reducir la analgesia.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "El alcohol está estrictamente contraindicado. Los alimentos grasos pueden aumentar ligeramente la absorción de algunas formulaciones orales, pero no es clínicamente significativo. Mantener una dieta rica en fibra y líquidos para combatir el estreñimiento.",
+    "withSupplements": "Precaución con suplementos que depriman el SNC (ej. kava, valeriana, melatonina en dosis altas). La hierba de San Juan (Hypericum perforatum) es un inductor enzimático y puede disminuir los niveles de fentanilo."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA C (para uso a corto plazo) / D (para uso crónico o en dosis altas cerca del parto).",
+      "recommendación": "Solo debe usarse durante el embarazo si el beneficio potencial justifica claramente el riesgo para el feto. El uso prolongado puede causar síndrome de abstinencia neonatal (NAS) potencialmente mortal en el recién nacido, caracterizado por irritabilidad, llanto agudo, temblores, vómitos y dificultad para respirar. Se requiere monitorización neonatal intensiva.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "El fentanilo se excreta en la leche materna en cantidades pequeñas. Sin embargo, debido a su alta potencia y riesgo de depresión respiratoria en el lactante, generalmente se recomienda evitar su uso durante la lactancia. Si es absolutamente necesario, se debe monitorizar al bebé estrechamente por somnolencia excesiva, dificultad para alimentarse o respiración lenta. Consultar con el médico.",
+    "pediatric": "No se recomienda para el manejo del dolor crónico en niños. Su uso está restringido a entornos hospitalarios altamente controlados (ej. anestesia, cuidados intensivos) bajo supervisión de especialistas. Las dosis deben calcularse con extrema precisión por peso corporal.",
+    "geriatric": "Los pacientes mayores de 65 años son más sensibles a los efectos del fentanilo. Presentan mayor riesgo de sedación, confusión, caídas, estreñimiento severo y depresión respiratoria. Se debe iniciar con la dosis efectiva más baja posible (a menudo 25-50% de la dosis adulta) y titular muy lentamente. Monitorizar función renal y hepática."
+  },
+  "administration": {
+    "howToTake": "PARCHES: Aplicar sobre la piel limpia, seca, sin vello y no irritada en el torso, espalda superior o brazo. Presionar firmemente durante 30 segundos. Cambiar cada 72 horas. NO cortar el parche. Lávese las manos después. COMPRIMIDOS SUBLINGUALES: Colocar bajo la lengua o entre la encía y la mejilla y dejar disolver completamente. No masticar ni tragar entero. Minimizar el consumo de líquidos y alimentos 15 min antes y después. INYECCIÓN: Solo para personal médico capacitado. Nunca se autoadministre.",
+    "storage": "Guardar en un lugar fresco y seco, fuera del alcance y vista de niños y mascotas, preferiblemente bajo llave. Los parches usados aún contienen medicamento; doblarlos con el lado adhesivo hacia dentro y desecharlos en el inodoro o en un contenedor a prueba de niños.",
+    "specialInstructions": "Nunca aplique calor directo (almohadilla térmica, sauna) sobre un parche de fentanilo, ya que aumenta drásticamente la liberación del fármaco y puede causar una sobredosis fatal. Informe a todos sus médicos y dentistas que está usando fentanilo. No conduzca ni opere maquinaria peligrosa hasta que conozca cómo le afecta. Nunca comparta su medicamento."
+  },
+  "monitoring": {
+    "labTests": [
+      "Función renal (creatinina, TFG).",
+      "Función hepática (transaminasas, bilirrubina).",
+      "Conteo sanguíneo completo (CSC) ocasional."
+    ],
+    "frequency": "Evaluación clínica frecuente del nivel de dolor, efectos adversos y signos de abuso. Monitoreo de signos vitales (frecuencia respiratoria, saturación de oxígeno) especialmente al inicio y con cambios de dosis. Pruebas de laboratorio según condición del paciente (ej. cada 6-12 meses).",
+    "signsToWatch": [
+      "Respiración lenta o superficial (menos de 8 respiraciones por minuto).",
+      "Somnolencia extrema o dificultad para despertar.",
+      "Confusión, desorientación.",
+      "Labios o uñas azuladas (cianosis).",
+      "Ritmo cardíaco muy lento.",
+      "Mareos intensos al ponerse de pie.",
+      "Estreñimiento severo que no mejora con laxantes."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Depresión respiratoria severa (respiración lenta, superficial o ausente).",
+      "Somnolencia extrema progresando a estupor o coma.",
+      "Pupilas puntiformes (miosis).",
+      "Piel fría y húmeda.",
+      "Hipotensión y bradicardia.",
+      "Paro cardiorrespiratorio y muerte."
+    ],
+    "treatment": "EMERGENCIA MÉDICA INMEDIATA (llamar al 911). Mantener la vía aérea abierta y asistir la ventilación (respiración de rescate). Administrar el antídoto NALOXONA (Narcan) de inmediato, que puede requerir dosis repetidas debido a la larga duración del fentanilo. Soporte vital avanzado en hospital.",
+    "antidote": "NALOXONA (Narcan). Es un antagonista opioide competitivo que revierte rápidamente la depresión respiratoria. Disponible en formulaciones nasal e inyectable. Los pacientes y sus familiares deben tener acceso a ella si hay riesgo de sobredosis."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial controlada (receta por triplicado o receta oficial mexicana, según la presentación).",
+    "scheduleMexico": "Fracción I (Sustancias con valor terapéutico pero con alto potencial de abuso y dependencia). Su prescripción y dispensación están estrictamente reguladas por la COFEPRIS.",
+    "fdaApprovalYear": "1968 (como anestésico). Las formulaciones para dolor crónico (parches) se aprobaron en la década de 1990."
+  },
+  "brandsMexico": [
+    "Durogesic",
+    "Fentanest",
+    "Actiq",
+    "Abstral",
+    "Effentora",
+    "Instanyl",
+    "Fendivia",
+    "Matrifen",
+    "Fentanilo Pisa",
+    "Fentanilo Denver"
+  ],
+  "clinicalPearls": [
+    "El fentanilo es aproximadamente 100 veces más potente que la morfina. Una dosis de 100 mcg de fentanilo es equipotente a 10 mg de morfina IV.",
+    "La 'tolerancia' se desarrolla rápidamente, requiriendo aumentos de dosis para el mismo efecto analgésico, pero la tolerancia a la depresión respiratoria es incompleta, manteniéndose el riesgo de sobredosis.",
+    "El estreñimiento inducido por opioides con fentanilo es casi universal y requiere un régimen profiláctico de laxantes (ej. polietilenglicol + estimulante), no solo tratamiento ocasional."
+  ],
+  "patientCounseling": "Este es un medicamento muy fuerte y peligroso si no se usa correctamente. Tómelos EXACTAMENTE como se lo indicó su médico. Nunca aumente la dosis ni la frecuencia por su cuenta. El parche debe cambiarse cada 3 días (72 horas) en un lugar diferente de la piel. Si siente que el dolor no se controla, llame a su médico. Nunca use calor (como una almohadilla térmica) sobre el parche, ya que puede causar una liberación mortal del medicamento. Evite el alcohol por completo. Este medicamento puede causar somnolencia y mareos; no conduzca hasta saber cómo le afecta. El estreñimiento es común; tome mucha agua, coma fibra y use los laxantes que le recetaron. Guarde el medicamento bajo llave, lejos de niños, familiares y visitas. Si olvida una dosis, no tome una doble. Si tiene dificultad para respirar, somnolencia extrema o no puede despertar, es una EMERGENCIA, busque ayuda médica de inmediato. Nunca comparta ni venda este medicamento.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor intenso",
+        "slug": "dolor-intenso"
+      },
+      {
+        "name": "Dolor por cáncer",
+        "slug": "dolor-por-cancer"
+      },
+      {
+        "name": "Dolor postoperatorio",
+        "slug": "dolor-postoperatorio"
+      },
+      {
+        "name": "Dolor crónico severo",
+        "slug": "dolor-cronico-severo"
+      },
+      {
+        "name": "Ansiedad relacionada con el dolor",
+        "slug": "ansiedad-relacionada-con-el-dolor"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Cáncer en estadios avanzados",
+        "slug": "cancer-en-estadios-avanzados"
+      },
+      {
+        "name": "Enfermedades que causan dolor neuropático severo",
+        "slug": "enfermedades-que-causan-dolor-neuropatico-severo"
+      },
+      {
+        "name": "Procedimientos quirúrgicos mayores",
+        "slug": "procedimientos-quirurgicos-mayores"
+      },
+      {
+        "name": "Traumatismos graves",
+        "slug": "traumatismos-graves"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Depresión respiratoria",
+        "slug": "depresion-respiratoria"
+      },
+      {
+        "name": "Dependencia a opioides",
+        "slug": "dependencia-a-opioides"
+      },
+      {
+        "name": "Síndrome de abstinencia neonatal",
+        "slug": "sindrome-de-abstinencia-neonatal"
+      },
+      {
+        "name": "Ileo paralítico",
+        "slug": "ileo-paralitico"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Frecuencia respiratoria",
+        "slug": "frecuencia-respiratoria",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Presión arterial",
+        "slug": "presion-arterial",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Nivel de conciencia (Glasgow)",
+        "slug": "nivel-de-conciencia",
+        "effect": "Puede alterar/disminuir"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Perfil hepático",
+        "slug": "perfil-hepatico",
+        "reason": "Para evaluar la capacidad del hígado para metabolizar el fármaco."
+      },
+      {
+        "name": "Perfil renal",
+        "slug": "perfil-renal",
+        "reason": "Para evaluar la función de los riñones y ajustar la dosis."
+      },
+      {
+        "name": "Pulsioximetría",
+        "slug": "pulsioximetria",
+        "reason": "Para monitorear la saturación de oxígeno en sangre y detectar depresión respiratoria temprana."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve el fentanilo?",
+      "a": "El fentanilo es un medicamento muy fuerte que se usa para aliviar el dolor intenso que no responde a otros analgésicos más comunes, como el dolor por cáncer avanzado o el dolor después de una cirugía mayor. Solo lo debe recetar un médico especialista."
+    },
+    {
+      "q": "¿El fentanilo es lo mismo que la morfina?",
+      "a": "No, son medicamentos diferentes de la misma familia (opioides). El fentanilo es aproximadamente 100 veces más potente que la morfina, por lo que se usa en dosis mucho más pequeñas (microgramos vs miligramos) y su efecto es más rápido."
+    },
+    {
+      "q": "¿Cómo se aplica el parche de fentanilo?",
+      "a": "El parche se pega sobre la piel limpia, seca y sin vello del torso, espalda alta o parte superior del brazo. Se presiona firmemente por 30 segundos y se deja puesto durante 3 días (72 horas). Luego se retira y se aplica uno nuevo en un lugar diferente. Lávese las manos después de tocarlo."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si uso fentanilo?",
+      "a": "NO. El alcohol combinado con fentanilo aumenta enormemente el riesgo de sufrir una sobredosis con dificultad para respirar, pérdida del conocimiento y puede ser mortal. Debe evitarse por completo el consumo de bebidas alcohólicas."
+    },
+    {
+      "q": "¿El fentanilo causa adicción?",
+      "a": "Sí, el fentanilo tiene un alto potencial de causar dependencia física y psicológica (adicción), incluso cuando se usa según las indicaciones médicas. Por eso es un medicamento controlado y su uso debe ser supervisado estrechamente por un médico."
+    },
+    {
+      "q": "¿Qué hago si se me olvida cambiar el parche a tiempo?",
+      "a": "Aplique un parche nuevo tan pronto como se acuerde. No use parches extras para compensar el olvido. Marque en un calendario la fecha de cambio. Si tiene dudas, consulte a su médico o farmacéutico."
+    },
+    {
+      "q": "¿Puedo cortar el parche por la mitad si necesito menos dosis?",
+      "a": "NO, NUNCA corte, rasgue o altere el parche de fentanilo. Esto daña el sistema de liberación controlada y puede causar que una cantidad peligrosa y repentina del medicamento entre en su cuerpo, provocando una sobredosis."
+    },
+    {
+      "q": "¿Qué efectos secundarios son más comunes?",
+      "a": "Los más comunes son estreñimiento (casi siempre), náuseas, vómitos, somnolencia, mareos, sequedad de boca y sudoración. Su médico puede darle medicamentos para manejar algunos de estos efectos, como laxantes para el estreñimiento."
+    },
+    {
+      "q": "¿Puedo conducir o manejar maquinaria mientras uso fentanilo?",
+      "a": "No es seguro al inicio del tratamiento o cuando se cambia la dosis. El fentanilo puede causar somnolencia, mareos y reducir sus reflejos. Espere a saber cómo le afecta. Si se siente somnoliento o mareado, no conduzca."
+    },
+    {
+      "q": "¿Qué debo hacer con el parche usado?",
+      "a": "Dóblelo por la mitad con el lado adhesivo hacia dentro (para que quede pegado sobre sí mismo) y deséchelo en el inodoro o en un contenedor de basura a prueba de niños y mascotas. Los parches usados aún contienen medicamento activo y son peligrosos."
+    },
+    {
+      "q": "¿Puedo usar una almohadilla térmica o tomar un baño caliente si tengo el parche puesto?",
+      "a": "NO. El calor (de almohadillas, saunas, baños muy calientes, fiebre alta o ejercicio intenso) aumenta el flujo de sangre en la piel y hace que el parche libere MUCHO más fentanilo de lo normal, lo que puede causar una sobredosis grave. Evite el calor directo sobre el parche."
+    },
+    {
+      "q": "¿El fentanilo se puede usar para el dolor de espalda común?",
+      "a": "NO. El fentanilo NO está indicado para el dolor de espalda común, migrañas, dolor por artritis leve o cualquier dolor que pueda manejarse con medicamentos menos fuertes. Su uso inapropiado es extremadamente peligroso."
+    },
+    {
+      "q": "¿Qué es la naloxona (Narcan) y por qué me la podrían recetar?",
+      "a": "La naloxona es un antídoto que revierte de inmediato los efectos de una sobredosis de opioides, especialmente la dificultad para respirar. Si usted o un familiar usan fentanilo, es recomendable tener naloxona a la mano en caso de emergencia. Su médico puede recetarla."
+    },
+    {
+      "q": "¿Qué signos indican una posible sobredosis?",
+      "a": "EMERGENCIA: Respiración muy lenta o superficial (menos de 8 por minuto), imposibilidad para despertar o responder, labios o uñas moradas/azuladas, ronquidos extraños (sonido de atragantamiento), pulso muy lento y piel fría y húmeda. Llame al 911 de inmediato."
+    },
+    {
+      "q": "¿Cómo manejo el estreñimiento causado por el fentanilo?",
+      "a": "No espere a que aparezca. Su médico debe recetarle un régimen de laxantes desde el inicio, como un ablandador de heces (docusato) más un laxante estimulante (senósidos) o polietilenglicol. Además, tome MUCHA agua, coma frutas, verduras y fibra, y haga algo de ejercicio si puede."
+    },
+    {
+      "q": "¿Puedo tomar fentanilo si tengo problemas del hígado o riñón?",
+      "a": "Se debe usar con MUCHA precaución y en dosis más bajas. El hígado lo procesa y los riñones lo eliminan. Si estos órganos no funcionan bien, el medicamento puede acumularse en el cuerpo y causar toxicidad. Su médico ajustará la dosis según sus exámenes de función hepática y renal."
+    },
+    {
+      "q": "¿Qué pasa si necesito una cirugía o voy al dentista?",
+      "a": "Es MUY IMPORTANTE que informe a TODOS sus médicos, cirujanos, anestesiólogos y dentistas que está usando fentanilo antes de cualquier procedimiento. Esto es crucial para que planifiquen su manejo del dolor y la anestesia de forma segura y eviten interacciones peligrosas."
+    },
+    {
+      "q": "¿El fentanilo interactúa con otros medicamentos que tomo?",
+      "a": "Sí, de forma peligrosa. Interactúa gravemente con pastillas para dormir (benzodiacepinas), relajantes musculares, algunos antidepresivos y antifúngicos (como ketoconazol). Lleve una lista completa de todos sus medicamentos (recetados, de venta libre y suplementos) a cada consulta médica."
+    },
+    {
+      "q": "¿Cómo se suspende el tratamiento con fentanilo?",
+      "a": "NUNCA deje de tomar fentanilo de golpe si lo ha usado por más de unas semanas. Esto puede provocar un síndrome de abstinencia severo con ansiedad, dolor, náuseas, diarrea e insomnio. El médico debe diseñar un plan para reducir la dosis muy lentamente (desescalar) durante semanas o meses."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre tolerancia, dependencia y adicción en el contexto del fentanilo?",
+      "a": "TOLERANCIA: Necesitar dosis más altas para el mismo alivio del dolor (común). DEPENDENCIA FÍSICA: El cuerpo se acostumbra a la droga y sufre abstinencia si se suspende bruscamente (ocurre con el uso prolongado). ADICCIÓN: Es una enfermedad cerebral que implica búsqueda compulsiva de la droga a pesar del daño que causa. No todos los pacientes con dependencia desarrollan adicción, pero el riesgo con el fentanilo es alto."
+    }
+  ]
+}

@@ -1,0 +1,374 @@
+{
+  "name": "Oritavancina",
+  "summary": "La oritavancina es un antibiótico de última generación, perteneciente a la clase de los glucopéptidos, diseñado específicamente para combatir infecciones graves de la piel y los tejidos blandos causadas por bacterias Gram-positivas, especialmente aquellas resistentes a otros tratamientos como el Staphylococcus aureus resistente a la meticilina (SARM). Su importancia clínica radica en su potente actividad bactericida y su perfil farmacocinético único, que permite una administración de dosis única intravenosa, lo que puede facilitar el tratamiento ambulatorio, reducir la necesidad de hospitalización prolongada y mejorar la adherencia al tratamiento. Este medicamento representa una herramienta valiosa en el arsenal contra infecciones bacterianas complejas, ofreciendo una alternativa eficaz cuando otros antibióticos han fallado o no son adecuados, contribuyendo así a mejores resultados para los pacientes y un uso más eficiente de los recursos sanitarios.",
+  "pharmacology": {
+    "mechanismOfAction": "La oritavancina ejerce su efecto antibacteriano a través de un mecanismo triple y potente. Primero, se une con alta afinidad a los precursores de la pared celular bacteriana (unidades D-alanil-D-alanina), inhibiendo la transglicosilación y transpeptidación, procesos cruciales para la síntesis y entrecruzamiento del peptidoglicano, lo que debilita la pared celular. Segundo, interrumpe la integridad de la membrana bacteriana, causando despolarización y aumento de la permeabilidad, lo que lleva a una rápida pérdida del potencial de membrana y a la muerte celular. Tercero, exhibe actividad inhibitoria de la síntesis de ARN, interfiriendo con la función de la ARN polimerasa. Esta combinación de acciones, junto con su larga vida media, le confiere una potente actividad bactericida contra bacterias Gram-positivas, incluyendo cepas resistentes.",
+    "pharmacologicClass": "Antibiótico glucopéptido semisintético de segunda generación (lipoglucopéptido).",
+    "therapeuticClass": "Antibiótico sistémico.",
+    "absorption": "La oritavancina se administra exclusivamente por vía intravenosa (IV), por lo que su biodisponibilidad es del 100%. No se absorbe por vía oral. La infusión intravenosa directa permite una concentración plasmática máxima inmediatamente después de completar la administración.",
+    "distribution": "Se distribuye ampliamente en los tejidos corporales. Su volumen de distribución es grande (aproximadamente 87.6 L), lo que indica una penetración extensa en los tejidos periféricos, incluyendo la piel, los tejidos blandos y el líquido de las ampollas de la piel. Se une en más del 85% a las proteínas plasmáticas, principalmente a la albúmina. Esta alta unión a proteínas contribuye a su larga vida media.",
+    "metabolism": "La oritavancina no sufre un metabolismo hepático significativo. No es un sustrato, inhibidor o inductor de las enzimas del citocromo P450 (CYP450). Su eliminación es predominantemente inalterada, lo que minimiza el riesgo de interacciones farmacocinéticas mediadas por el CYP.",
+    "elimination": "Tiene una vida media extremadamente larga, de aproximadamente 245 horas (alrededor de 10.2 días). Se elimina principalmente por vía fecal (aproximadamente el 77% de la dosis), en gran parte sin cambios, y en menor medida por la orina (alrededor del 5%). Su lenta eliminación es la base para el régimen de dosis única.",
+    "onsetOfAction": "La actividad antibacteriana comienza rápidamente tras el inicio de la infusión intravenosa, alcanzando concentraciones plasmáticas efectivas durante la administración.",
+    "durationOfAction": "Debido a su larga vida media, una sola dosis intravenosa mantiene concentraciones plasmáticas por encima de la concentración inhibitoria mínima (CIM) para los patógenos susceptibles durante todo el curso del tratamiento de infecciones agudas de la piel (generalmente 7-14 días), proporcionando un efecto prolongado."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento de infecciones bacterianas agudas de la piel y estructuras de la piel (ABSSSI, por sus siglas en inglés) en adultos causadas por microorganismos Gram-positivos susceptibles, incluyendo Staphylococcus aureus (incluidas cepas meticilino-resistentes - SARM), Streptococcus pyogenes, Streptococcus agalactiae, Streptococcus dysgalactiae, Streptococcus anginosus y Enterococcus faecalis (cepas vancomicina-susceptibles)."
+    ],
+    "offLabel": [
+      "Tratamiento de bacteriemia por SARM de bajo grado (en evaluación/investigación).",
+      "Tratamiento de infecciones óseas y articulares por Gram-positivos (uso limitado y en investigación).",
+      "Profilaxis en cirugías de alto riesgo para infecciones por Gram-positivos (uso no establecido)."
+    ]
+  },
+  "dosage": {
+    "adults": "Una sola dosis intravenosa de 1200 mg, administrada por infusión IV lenta durante 3 horas. No se requiere ajuste por peso en la mayoría de los adultos.",
+    "pediatric": "La seguridad y eficacia en pacientes pediátricos (menores de 18 años) no están establecidas. No se recomienda su uso en esta población.",
+    "elderly": "No se requiere ajuste de dosis basado únicamente en la edad. Sin embargo, se debe considerar la función renal, ya que el aclaramiento puede disminuir con la edad.",
+    "renalImpairment": "No se requiere ajuste de dosis en pacientes con insuficiencia renal leve, moderada o grave (TFG ≥10 mL/min/1.73 m²), ni en aquellos en diálisis peritoneal. No se ha estudiado en pacientes con TFG <10 mL/min/1.73 m² o en hemodiálisis, por lo que se debe usar con precaución. La diálisis no elimina significativamente la oritavancina.",
+    "hepaticImpairment": "No se requiere ajuste de dosis en pacientes con insuficiencia hepática leve o moderada (Child-Pugh A o B). No se ha estudiado en insuficiencia hepática grave (Child-Pugh C); usar con precaución.",
+    "maxDose": "La dosis máxima recomendada es de 1200 mg en una sola administración. No se recomienda la administración repetida en intervalos cortos."
+  },
+  "dosageForms": [
+    {
+      "form": "Polvo liofilizado para solución concentrada para perfusión (infusión intravenosa)",
+      "strengths": [
+        "400 mg"
+      ],
+      "route": "Intravenosa (IV) lenta"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida (alergia grave) a la oritavancina, a otros glucopéptidos (como vancomicina, telavancina) o a cualquier componente de la formulación.",
+      "Uso concomitante con infusiones intravenosas de soluciones que contengan iones divalentes (como Ca2+, Mg2+) en la misma línea, ya que pueden causar precipitación (formación de grumos). Debe usarse una línea IV separada o lavar la línea con solución salina o dextrosa antes y después de la infusión de oritavancina."
+    ],
+    "relative": [
+      "Historial de síndrome de infusión relacionado con glucopéptidos (reacción similar a 'hombre rojo').",
+      "Insuficiencia renal terminal (TFG <10 mL/min) o en hemodiálisis (datos limitados).",
+      "Insuficiencia hepática grave (Child-Pugh C).",
+      "Embarazo y lactancia (evaluar riesgo-beneficio)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Náuseas",
+      "Dolor de cabeza",
+      "Vómitos"
+    ],
+    "common": [
+      "Diarrea",
+      "Mareo",
+      "Escalofríos",
+      "Dolor en el sitio de infusión o flebitis (irritación de la vena)",
+      "Prurito (comezón)",
+      "Erupción cutánea",
+      "Aumento de las transaminasas hepáticas (AST/ALT)"
+    ],
+    "uncommon": [
+      "Trombocitopenia (bajo recuento de plaquetas)",
+      "Anemia",
+      "Fiebre",
+      "Dolor abdominal",
+      "Dolor de espalda",
+      "Sabor metálico en la boca",
+      "Tos"
+    ],
+    "rare": [
+      "Reacción de hipersensibilidad grave (anafilaxia)",
+      "Síndrome de infusión (reacción tipo 'hombre rojo': enrojecimiento facial, cuello, parte superior del torso, con o sin picor, presión baja, dificultad para respirar).",
+      "Colitis pseudomembranosa por Clostridioides difficile (diarrea grave y persistente).",
+      "Prolongación del intervalo QT en el electrocardiograma (potencial efecto cardíaco)."
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Heparina (inyectable)",
+        "effect": "La oritavancina puede interferir con las pruebas de coagulación de laboratorio (TP, TTPa, INR, ACT) que utilizan reactivos que contienen fosfolípidos, dando resultados falsamente elevados por hasta 120 horas (5 días) después de la dosis. Esto puede llevar a un ajuste inapropiado de la dosis de anticoagulantes como la heparina, aumentando el riesgo de sangrado.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Warfarina y otros anticoagulantes orales (acenocumarol)",
+        "effect": "Similar a la heparina, la oritavancina puede causar una elevación falsa de los valores de INR medidos con algunos reactivos, lo que podría llevar a una reducción peligrosa de la dosis del anticoagulante y riesgo de coágulos.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "No se han descrito interacciones clínicamente relevantes con alimentos, ya que se administra por vía intravenosa. El consumo de alcohol no interfiere directamente con el fármaco, pero puede enmascarar síntomas de infección o efectos adversos, y se desaconseja durante una enfermedad infecciosa.",
+    "withSupplements": "No se conocen interacciones significativas con suplementos vitamínicos o herbales. Sin embargo, se debe evitar la administración concomitante por vía intravenosa con soluciones que contengan cationes divalentes (suplementos de calcio o magnesio IV) en la misma línea, debido al riesgo de precipitación."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "No asignada (N/A). Los estudios en animales no mostraron riesgo, pero no hay estudios adecuados y bien controlados en mujeres embarazadas.",
+      "recommendation": "Solo debe usarse durante el embarazo si el beneficio potencial justifica claramente el riesgo potencial para el feto. Se recomienda consultar con un especialista en enfermedades infecciosas y obstetricia.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se desconoce si la oritavancina se excreta en la leche humana. Dada su larga vida media y la excreción en leche de otros glucopéptidos, se recomienda suspender la lactancia materna durante el tratamiento y por un período prolongado (varias semanas) después de la dosis, o buscar una alternativa terapéutica.",
+    "pediatric": "La seguridad y eficacia en niños y adolescentes menores de 18 años no se han establecido. No está aprobado para uso pediátrico.",
+    "geriatric": "Los pacientes de edad avanzada (≥65 años) no requieren un ajuste de dosis específico. Sin embargo, es más probable que tengan una función renal disminuida, comorbilidades y que estén tomando múltiples medicamentos (polifarmacia), lo que requiere una monitorización más estrecha de la función renal y las posibles interacciones."
+  },
+  "administration": {
+    "howToTake": "La oritavancina SOLO puede ser administrada por un profesional de la salud en un entorno clínico (hospital, clínica ambulatoria) mediante una infusión intravenosa (IV) lenta. Se reconstituye el vial con agua para inyección, luego se diluye en una bolsa de solución de dextrosa al 5% (D5W). La infusión total de 1200 mg debe administrarse durante 3 horas completas. NO puede inyectarse en bolo (rápido). Es crucial usar una línea IV dedicada o lavar la línea con D5W o solución salina antes y después de la infusión si se comparte con otras soluciones que contengan cationes divalentes (calcio, magnesio).",
+    "storage": "El polvo liofilizado en el vial sin reconstituir debe almacenarse refrigerado entre 2°C y 8°C. Una vez reconstituido y diluido, la solución es estable a temperatura ambiente (hasta 25°C) por 6 horas, o refrigerada (2-8°C) por 12 horas. No congelar. Proteger de la luz.",
+    "specialInstructions": "Informar al médico y al personal de laboratorio sobre el tratamiento con oritavancina si se van a realizar pruebas de coagulación (TP, TTPa, INR) dentro de los 5 días posteriores a la infusión, ya que los resultados pueden ser falsamente elevados. Monitorizar signos de reacción en la infusión. Completar todo el tratamiento antibiótico según lo indicado, incluso si los síntomas mejoran antes."
+  },
+  "monitoring": {
+    "labTests": [
+      "Recuento sanguíneo completo (CSC) para monitorizar plaquetas y signos de anemia.",
+      "Pruebas de función hepática (AST, ALT, fosfatasa alcalina) antes y durante el tratamiento.",
+      "Pruebas de coagulación (TP, TTPa, INR) con precaución e interpretación, informando al laboratorio sobre la medicación.",
+      "Cultivos bacterianos y pruebas de sensibilidad antes de iniciar el tratamiento, si es posible.",
+      "Función renal (creatinina sérica, TFG estimada)."
+    ],
+    "frequency": "Evaluación clínica diaria durante la fase aguda. Pruebas de laboratorio (CSC, función hepática) al inicio y según sea clínicamente indicado (por ejemplo, a los 3-5 días). La función renal debe evaluarse antes de la administración.",
+    "signsToWatch": [
+      "Signos de reacción alérgica grave: dificultad para respirar, hinchazón de cara/labios/lengua, urticaria intensa.",
+      "Síntomas de colitis por C. difficile: diarrea acuosa o con sangre, dolor/cólicos abdominales intensos, fiebre.",
+      "Sangrado o moretones inusuales (relacionado con interferencia en pruebas de coagulación o trombocitopenia).",
+      "Empeoramiento de los síntomas de la infección (fiebre persistente, aumento del enrojecimiento/dolor).",
+      "Signos de flebitis: dolor, enrojecimiento, hinchazón o endurecimiento en el sitio de la infusión IV."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "No se han reportado casos de sobredosis en humanos. En teoría, podría exacerbar los efectos adversos conocidos, especialmente náuseas, vómitos, dolor en el sitio de infusión y potencialmente efectos en la coagulación."
+    ],
+    "treatment": "No existe un antídoto específico. El tratamiento es de soporte y sintomático. Se debe interrumpir la administración inmediatamente. Monitorizar signos vitales y proporcionar cuidados de apoyo según los síntomas presentados. La diálisis no es efectiva para eliminar la oritavancina debido a su alta unión a proteínas.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especializada (antibiótico de uso hospitalario/ambulatorio controlado).",
+    "scheduleMexico": "Medicamento de prescripción restringida, generalmente incluido en el Cuadro Básico de instituciones de salud de alta especialidad. No es de venta libre en farmacias.",
+    "fdaApprovalYear": 2014
+  },
+  "brandsMexico": [
+    "Orbactiv® (comercializado por Menarini México)"
+  ],
+  "clinicalPearls": [
+    "La gran ventaja de la oritavancina es el régimen de DOSIS ÚNICA, que puede permitir el alta hospitalaria temprana o el tratamiento completamente ambulatorio para ABSSSI seleccionadas, reduciendo costos y riesgos asociados a la hospitalización.",
+    "Su larga vida media (más de 10 días) proporciona cobertura antibiótica prolongada con una sola administración, pero también significa que los efectos adversos o las interacciones (como la interferencia en pruebas de coagulación) pueden persistir por casi una semana.",
+    "Es crucial la COMUNICACIÓN con el laboratorio de coagulación. Siempre que se solicite un TP/TTPa/INR dentro de los 5 días posteriores a la dosis, se debe alertar al técnico para que use un reactivo que no contenga fosfolípidos o interprete el resultado con cautela.",
+    "Aunque es eficaz contra SARM, su uso debe reservarse para infecciones moderadas-graves donde las alternativas orales o IV de múltiples dosis no sean factibles (por ejemplo, falta de acceso venoso, mala adherencia esperada) para ayudar a preservar su eficacia y prevenir resistencias.",
+    "La reconstitución y dilución deben seguirse estrictamente para evitar la precipitación. Nunca mezclar en la misma jeringa o línea IV con soluciones que contengan electrolitos divalentes (LR, soluciones con Ca/Mg)."
+  ],
+  "patientCounseling": "Este medicamento se le administrará en una sola dosis por vía intravenosa (en la vena) en un hospital o clínica, durante aproximadamente 3 horas. Es normal sentir náuseas leves, dolor de cabeza o molestias en el brazo durante o después de la infusión; informe a la enfermera si esto ocurre. Es MUY IMPORTANTE que avise a todos sus médicos y al personal del laboratorio que recibió oritavancina si le van a hacer pruebas de sangre para ver cómo coagula (como el INR si toma anticoagulantes) en las siguientes dos semanas, porque el resultado puede salir alterado y confuso. Complete cualquier otro medicamento oral que su médico le haya recetado junto con esta inyección. Busque atención médica de inmediato si presenta diarrea grave y acuosa, sangrado inusual, dificultad para respirar o sarpullido con picor intenso después del tratamiento. Aunque es una sola dosis, los efectos del medicamento permanecen en su cuerpo por varios días, por lo que debe seguir estas precauciones.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre",
+        "slug": "fiebre"
+      },
+      {
+        "name": "Enrojecimiento de la piel",
+        "slug": "enrojecimiento-piel"
+      },
+      {
+        "name": "Hinchazón (edema)",
+        "slug": "hinchazon-edema"
+      },
+      {
+        "name": "Dolor en la piel o tejidos blandos",
+        "slug": "dolor-piel-tejidos-blandos"
+      },
+      {
+        "name": "Calor local en la zona infectada",
+        "slug": "calor-local-infeccion"
+      },
+      {
+        "name": "Secreción purulenta (pus)",
+        "slug": "secrecion-purulenta-pus"
+      },
+      {
+        "name": "Celulitis (inflamación de la piel)",
+        "slug": "celulitis-piel"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Celulitis bacteriana",
+        "slug": "celulitis-bacteriana"
+      },
+      {
+        "name": "Absceso cutáneo",
+        "slug": "absceso-cutaneo"
+      },
+      {
+        "name": "Infección de herida quirúrgica",
+        "slug": "infeccion-herida-quirurgica"
+      },
+      {
+        "name": "Fascitis necrosante (como parte de un régimen combinado)",
+        "slug": "fascitis-necrosante"
+      },
+      {
+        "name": "Infección por Staphylococcus aureus resistente a la meticilina (SARM)",
+        "slug": "infeccion-sarm"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Colitis pseudomembranosa por Clostridioides difficile",
+        "slug": "colitis-pseudomembranosa-c-difficile"
+      },
+      {
+        "name": "Trombocitopenia (bajo recuento de plaquetas)",
+        "slug": "trombocitopenia"
+      },
+      {
+        "name": "Hepatotoxicidad (daño hepático)",
+        "slug": "hepatotoxicidad-medicamentosa"
+      },
+      {
+        "name": "Flebitis (inflamación de la vena)",
+        "slug": "flebitis"
+      },
+      {
+        "name": "Reacciones de hipersensibilidad",
+        "slug": "reaccion-alergica-medicamentos"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Tiempo de Protrombina (TP) / INR",
+        "slug": "tiempo-protrombina-inr",
+        "effect": "Puede elevar falsamente"
+      },
+      {
+        "name": "Tiempo de Tromboplastina Parcial Activada (TTPa)",
+        "slug": "ttpa",
+        "effect": "Puede elevar falsamente"
+      },
+      {
+        "name": "Aspartato Aminotransferasa (AST)",
+        "slug": "ast-got",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Alanina Aminotransferasa (ALT)",
+        "slug": "alt-gpt",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Recuento de Plaquetas",
+        "slug": "recuento-plaquetas",
+        "effect": "Puede disminuir"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Cultivo y antibiograma de la lesión",
+        "slug": "cultivo-antibiograma",
+        "reason": "Identificar la bacteria causante y su sensibilidad a antibióticos, incluyendo oritavancina."
+      },
+      {
+        "name": "Recuento sanguíneo completo (CSC)",
+        "slug": "recuento-sanguineo-completo",
+        "reason": "Monitorizar plaquetas y signos de infección/efectos adversos."
+      },
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-funcion-hepatica",
+        "reason": "Detectar posible hepatotoxicidad inducida por el fármaco."
+      },
+      {
+        "name": "Creatinina sérica y TFG estimada",
+        "slug": "creatinina-tfg",
+        "reason": "Evaluar función renal antes de la administración."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de creatinina (Cockcroft-Gault)",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de TFG (MDRD/CKD-EPI)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La oritavancina es una pastilla o una inyección?",
+      "a": "Es exclusivamente una inyección que se administra lentamente en la vena (infusión intravenosa) por un profesional de la salud. No existe en forma de pastillas."
+    },
+    {
+      "q": "¿Cuántas veces me la van a poner?",
+      "a": "Generalmente, solo UNA VEZ. La dosis completa se administra en una sola infusión intravenosa de 3 horas. Es una de sus grandes ventajas."
+    },
+    {
+      "q": "¿Duele la aplicación?",
+      "a": "Puede sentir molestias en el sitio donde se coloca la aguja (dolor, ardor, enrojecimiento), similar a otras infusiones intravenosas. La infusión en sí no duele, pero si la vena se irrita (flebitis), puede causar dolor después. Informe a la enfermera si siente mucho dolor."
+    },
+    {
+      "q": "¿Puedo comer o beber alcohol antes o después de recibirla?",
+      "a": "Puede comer normalmente. Respecto al alcohol, no interfiere directamente con el medicamento, pero se recomienda NO consumirlo mientras esté combatiendo una infección, ya que puede debilitar su sistema inmunológico y enmascarar síntomas."
+    },
+    {
+      "q": "¿Qué efectos secundarios son los más comunes?",
+      "a": "Los más frecuentes son náuseas, dolor de cabeza, vómitos y diarrea. También son comunes escalofríos, mareo y molestias en el brazo donde le pusieron la inyección."
+    },
+    {
+      "q": "¿Puedo manejar o operar maquinaria después de recibirla?",
+      "a": "Espere a ver cómo se siente. Algunas personas pueden experimentar mareo o dolor de cabeza después de la infusión. Si se siente aturdido o con visión borrosa, no conduzca ni opere maquinaria peligrosa hasta que estos síntomas desaparezcan."
+    },
+    {
+      "q": "¿La oritavancina sirve para la gripe o el COVID-19?",
+      "a": "NO. Es un antibiótico que solo mata bacterias. La gripe y el COVID-19 son causados por virus, contra los cuales los antibióticos no tienen ningún efecto. Su uso incorrecto para virus es peligroso."
+    },
+    {
+      "q": "¿Es lo mismo que la vancomicina?",
+      "a": "Pertenecen a la misma familia (glucopéptidos) y son similares, pero no son iguales. La oritavancina es más nueva, tiene un mecanismo de acción más potente, una vida mucho más larga (permite dosis única) y un perfil de efectos secundarios algo diferente."
+    },
+    {
+      "q": "¿Qué hago si tengo diarrea grave días después del tratamiento?",
+      "a": "Contacte a su médico INMEDIATAMENTE. La diarrea acuosa o con sangre, especialmente si viene con fiebre o dolor abdominal, puede ser un efecto adverso grave llamado colitis por C. difficile, que requiere tratamiento específico."
+    },
+    {
+      "q": "¿Interfiere con mis otros medicamentos?",
+      "a": "Sí, principalmente con medicamentos que 'adelgazan' la sangre (anticoagulantes como warfarina, heparina). La oritavancina puede alterar los resultados de las pruebas de coagulación por varios días, lo que podría llevar a un ajuste incorrecto de la dosis. INFORME a todos sus médicos que la recibió."
+    },
+    {
+      "q": "¿Me puedo aplicar la vacuna de la influenza o COVID si recibí oritavancina?",
+      "a": "No hay una interacción conocida. Sin embargo, es recomendable separar la aplicación de la vacuna de cualquier enfermedad infecciosa aguda. Consulte con su médico el momento más adecuado."
+    },
+    {
+      "q": "¿Si soy alérgico a la penicilina, puedo usar oritavancina?",
+      "a": "Sí, generalmente es una alternativa segura. La alergia a la penicilina no implica alergia a los glucopéptidos como la oritavancina. Sin embargo, siempre informe a su médico de TODAS sus alergias antes de cualquier tratamiento."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Comienza a actuar contra las bacterias desde que empieza la infusión. La mejoría clínica (disminución de fiebre, dolor, enrojecimiento) suele notarse en las primeras 24 a 72 horas después de la administración."
+    },
+    {
+      "q": "¿Por qué es tan cara?",
+      "a": "Es un antibiótico innovador de última generación. Su costo refleja la investigación y desarrollo, y su ventaja de dosis única que puede evitar días de hospitalización, lo que a la larga puede reducir costos totales del sistema de salud."
+    },
+    {
+      "q": "¿Puedo recibirla si tengo problemas en los riñones?",
+      "a": "Sí, en la mayoría de los casos. No requiere ajuste de dosis en insuficiencia renal leve, moderada o incluso grave. Sin embargo, si sus riñones funcionan muy poco o está en diálisis, se debe usar con mucha precaución y bajo supervisión médica estrecha."
+    },
+    {
+      "q": "¿La oritavancina afecta los métodos anticonceptivos hormonales (pastillas, parche, implante)?",
+      "a": "No se han descrito interacciones que reduzcan la eficacia de los anticonceptivos hormonales. Puede usarlos con normalidad. Sin embargo, si presenta vómitos o diarrea severos por el antibiótico, la absorción de las pastillas anticonceptivas orales podría verse afectada; use un método de respaldo."
+    },
+    {
+      "q": "¿Qué significa 'interfiere con pruebas de coagulación'?",
+      "a": "Significa que la oritavancina, al estar en su sangre, puede 'engañar' a las máquinas del laboratorio cuando miden cuánto tarda su sangre en coagular (pruebas como TP/INR y TTPa). El resultado sale más alto de lo real, lo que podría hacer que su médico baje erróneamente la dosis de su anticoagulante, aumentando el riesgo de que se formen coágulos."
+    },
+    {
+      "q": "¿Es cierto que con una sola dosis es suficiente? ¿Y si la infección no se cura?",
+      "a": "Sí, para las infecciones de piel para las que está aprobada, una sola dosis es el tratamiento completo en la mayoría de los casos. Su efecto en el cuerpo dura más de una semana. Si la infección no mejora o empeora después de unos días, debe contactar a su médico de inmediato, ya que podría necesitar un antibiótico adicional o un drenaje quirúrgico."
+    },
+    {
+      "q": "¿Puedo donar sangre después de recibir oritavancina?",
+      "a": "No inmediatamente. Debido a su larga vida media, se recomienda esperar un período prolongado (varias semanas o meses) antes de donar sangre. Consulte los criterios específicos del centro de donación."
+    },
+    {
+      "q": "¿Cuál es la diferencia clave entre tratar con oritavancina y un antibiótico oral para una infección de piel?",
+      "a": "La oritavancina IV de dosis única es para infecciones más graves, complejas o causadas por bacterias resistentes (como SARM) que no responden bien a los antibióticos orales comunes. También es útil cuando el paciente no puede tomar medicamentos por boca, tiene mala adherencia o se busca evitar una hospitalización prolongada. Los orales son para infecciones más leves y requieren tomar pastillas varias veces al día por 7-14 días."
+    }
+  ]
+}

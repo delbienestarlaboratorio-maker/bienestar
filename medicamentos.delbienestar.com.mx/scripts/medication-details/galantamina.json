@@ -1,0 +1,413 @@
+{
+  "name": "Galantamina",
+  "summary": "La galantamina es un medicamento recetado que se utiliza principalmente para tratar los síntomas de la enfermedad de Alzheimer de leve a moderada. Pertenece a una clase de fármacos llamados inhibidores de la colinesterasa, que actúan aumentando los niveles de una sustancia química en el cerebro llamada acetilcolina, la cual es crucial para la memoria, el pensamiento y el razonamiento. Su importancia clínica radica en que puede ayudar a mejorar o estabilizar temporalmente los síntomas cognitivos (como la pérdida de memoria y la confusión) y funcionales (como la capacidad para realizar actividades diarias) en algunos pacientes, aunque no cura la enfermedad ni detiene su progresión a largo plazo. Es una herramienta valiosa dentro de un plan de tratamiento integral que incluye apoyo psicosocial y manejo de otros problemas de salud. El tratamiento debe iniciarse y supervisarse siempre por un médico especialista, ya que requiere ajustes de dosis cuidadosos y monitoreo de efectos secundarios, que pueden incluir náuseas, vómitos y mareos.",
+  "pharmacology": {
+    "mechanismOfAction": "La galantamina tiene un doble mecanismo de acción. Primero, actúa como un inhibidor reversible y competitivo de la enzima acetilcolinesterasa (AChE). Esta enzima es responsable de descomponer la acetilcolina, un neurotransmisor esencial para la memoria y el aprendizaje. Al inhibir la AChE, la galantamina aumenta la concentración y duración de acción de la acetilcolina en las sinapsis (conexiones) del cerebro, mejorando la comunicación entre las neuronas que aún están funcionando. En segundo lugar, y de manera única entre los inhibidores de la colinesterasa, la galantamina modula positivamente los receptores nicotínicos de acetilcolina. Esto significa que se une a un sitio específico en estos receptores, potenciando la respuesta que se produce cuando la acetilcolina se une a ellos. Este efecto modulador puede contribuir adicionalmente a mejorar la función cognitiva y podría tener efectos neuroprotectores.",
+    "pharmacologicClass": "Inhibidor reversible y competitivo de la acetilcolinesterasa (AChE) y modulador alostérico de los receptores nicotínicos de acetilcolina.",
+    "therapeuticClass": "Agente antidemencia. Fármaco para el tratamiento sintomático de la enfermedad de Alzheimer.",
+    "absorption": "Se absorbe rápida y completamente por vía oral. La biodisponibilidad absoluta es de aproximadamente 90%. La presencia de alimentos retrasa la absorción (disminuye la Cmax en un 25% y aumenta el Tmax a 1.5 horas) pero no afecta significativamente la cantidad total de fármaco absorbida (AUC).",
+    "distribution": "Se distribuye ampliamente en el organismo. El volumen de distribución es de aproximadamente 175 litros. Se une a proteínas plasmáticas en un grado bajo a moderado (aproximadamente 18%). Cruza la barrera hematoencefálica, lo que es esencial para su acción en el sistema nervioso central.",
+    "metabolism": "Se metaboliza extensamente en el hígado, principalmente por las enzimas del citocromo P450, específicamente CYP2D6 y CYP3A4. Se forman metabolitos inactivos (como la O-desmetilgalantamina glucurónido) a través de procesos de desmetilación, oxidación y glucuronidación. El perfil metabólico depende del estado genético del paciente como metabolizador rápido o lento de CYP2D6.",
+    "elimination": "La eliminación es principalmente renal. Aproximadamente el 20-25% de la dosis se excreta sin cambios en la orina. El resto se elimina como metabolitos. La vida media de eliminación es de aproximadamente 7 horas en metabolizadores rápidos y puede prolongarse en metabolizadores lentos o en pacientes con insuficiencia hepática.",
+    "onsetOfAction": "Los efectos sobre los síntomas cognitivos pueden comenzar a observarse en unas pocas semanas, pero la evaluación completa de la respuesta terapéutica generalmente requiere varios meses de tratamiento continuo.",
+    "durationOfAction": "Los efectos farmacológicos duran mientras se mantienen niveles terapéuticos en sangre, lo que justifica la administración dos veces al día. El beneficio sintomático puede mantenerse durante meses o unos pocos años, pero la enfermedad neurodegenerativa subyacente continúa progresando."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento sintomático de la enfermedad de Alzheimer de leve a moderada.",
+      "Tratamiento sintomático de la demencia tipo Alzheimer de leve a moderada."
+    ],
+    "offLabel": [
+      "Tratamiento sintomático de la demencia vascular (a veces en combinación).",
+      "Tratamiento de deterioro cognitivo leve (no está aprobado, evidencia limitada).",
+      "Manejo de síntomas conductuales y psicológicos en demencias (como apatía)."
+    ]
+  },
+  "dosage": {
+    "adults": "Iniciar con 4 mg dos veces al día (mañana y noche) durante 4 semanas. Si es tolerado, aumentar a 8 mg dos veces al día. Después de un mínimo de 4 semanas a esta dosis, se puede aumentar a 12 mg dos veces al día, que es la dosis de mantenimiento usual. Para la presentación de liberación prolongada (cápsulas), la dosis inicial es de 8 mg una vez al día por la mañana. Después de 4 semanas, aumentar a 16 mg/día. La dosis puede incrementarse a 24 mg/día después de al menos 4 semanas adicionales, si es bien tolerada.",
+    "pediatric": "No está indicado ni recomendado para uso en niños o adolescentes.",
+    "elderly": "No se requieren ajustes de dosis basados únicamente en la edad, pero se debe iniciar con las dosis más bajas recomendadas debido a la mayor frecuencia de comorbilidades, polifarmacia y sensibilidad a los efectos secundarios.",
+    "renalImpairment": "Ajuste en insuficiencia renal moderada (TFG 30-59 mL/min): Dosis máxima recomendada de 16 mg/día. En insuficiencia renal grave (TFG < 30 mL/min): El uso no está recomendado.",
+    "hepaticImpairment": "Ajuste en insuficiencia hepática moderada (Child-Pugh 7-9): Dosis máxima recomendada de 16 mg/día. En insuficiencia hepática grave (Child-Pugh 10-15): El uso no está recomendado.",
+    "maxDose": "24 mg al día (12 mg dos veces al día para tabletas, o 24 mg una vez al día para cápsulas de liberación prolongada)."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "4 mg",
+        "8 mg",
+        "12 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Cápsula de liberación prolongada",
+      "strengths": [
+        "8 mg",
+        "16 mg",
+        "24 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Solución oral",
+      "strengths": [
+        "4 mg/mL"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la galantamina o a cualquiera de los excipientes.",
+      "Insuficiencia hepática grave (Child-Pugh >9).",
+      "Insuficiencia renal grave (TFG < 30 mL/min)."
+    ],
+    "relative": [
+      "Trastornos graves del ritmo cardíaco (especialmente bradicardia sinusal, bloqueo sinoauricular o bloqueo auriculoventricular).",
+      "Enfermedad ulcerosa péptica activa o sangrado gastrointestinal.",
+      "Obstrucción de las vías urinarias o íleo paralítico.",
+      "Asma bronquial o enfermedad pulmonar obstructiva crónica (EPOC) grave.",
+      "Epilepsia o antecedentes de convulsiones.",
+      "Tratamiento concomitante con otros fármacos que inhiben fuertemente la CYP2D6 o CYP3A4."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Náuseas",
+      "Vómitos",
+      "Pérdida de apetito (anorexia)",
+      "Diarrea",
+      "Mareos",
+      "Dolor de cabeza"
+    ],
+    "common": [
+      "Pérdida de peso",
+      "Dolor abdominal",
+      "Indigestión (dispepsia)",
+      "Fatiga (astenia)",
+      "Somnolencia",
+      "Temblores",
+      "Desmayos (síncope)",
+      "Depresión",
+      "Insomnio"
+    ],
+    "uncommon": [
+      "Bradicardia (ritmo cardíaco lento)",
+      "Bloqueo auriculoventricular",
+      "Alucinaciones",
+      "Agitación",
+      "Hipersensibilidad (erupción cutánea, prurito)"
+    ],
+    "rare": [
+      "Convulsiones",
+      "Hepatitis",
+      "Síndrome de Stevens-Johnson",
+      "Prolongación del intervalo QT",
+      "Reacciones extrapiramidales"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Paroxetina, Fluoxetina, Quinidina",
+        "effect": "Inhiben fuertemente la CYP2D6, aumentando significativamente los niveles de galantamina y el riesgo de efectos adversos.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Ketoconazol, Eritromicina, Claritromicina",
+        "effect": "Inhiben la CYP3A4, pudiendo aumentar los niveles de galantamina.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Betabloqueadores (propranolol, atenolol), Digoxina",
+        "effect": "La galantamina puede potenciar los efectos de bradicardia (ritmo cardíaco lento).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Anticolinérgicos (atropina, oxibutinina, difenhidramina)",
+        "effect": "Antagonizan el efecto terapéutico de la galantamina, reduciendo su eficacia.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Succinilcolina, otros relajantes musculares despolarizantes",
+        "effect": "La galantamina puede potenciar su efecto, aumentando el riesgo de apnea prolongada.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "Se recomienda tomar con alimentos para reducir la incidencia de náuseas y vómitos. El alcohol puede aumentar el riesgo de mareos y somnolencia, por lo que se debe evitar o limitar su consumo.",
+    "withSupplements": "La hierba de San Juan (Hypericum perforatum) puede inducir la CYP3A4, disminuyendo potencialmente los niveles de galantamina. Suplementos con efectos anticolinérgicos (como algunos remedios para el insomnio o alergias a base de hierbas) pueden reducir la eficacia del fármaco."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA B",
+      "recommendation": "No hay estudios adecuados en mujeres embarazadas. Su uso solo se considera si el beneficio potencial para la madre justifica el riesgo potencial para el feto. Generalmente no está indicado en mujeres en edad fértil, ya que se usa en adultos mayores.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "No se sabe si la galantamina se excreta en la leche humana. Debido al potencial de efectos adversos graves en el lactante, se recomienda suspender la lactancia materna o no utilizar el medicamento, considerando la importancia del fármaco para la madre.",
+    "pediatric": "La seguridad y eficacia en pacientes pediátricos no han sido establecidas. No está indicado para ninguna condición en niños.",
+    "geriatric": "Es la población principal de uso. Se debe tener especial precaución por la mayor prevalencia de bradicardia sinusal, trastornos de conducción cardíaca, úlcera péptica, EPOC y deterioro renal o hepático asociado a la edad. Iniciar siempre con la dosis más baja."
+  },
+  "administration": {
+    "howToTake": "Las tabletas y la solución oral deben tomarse DOS VECES AL DÍA, preferentemente con los alimentos del desayuno y la cena para minimizar efectos gastrointestinales. Tragar las tabletas enteras con un vaso de agua. Las cápsulas de liberación prolongada se toban UNA VEZ AL DÍA, por la mañana, con alimentos. Tragar la cápsula entera; NO abrir, masticar o triturar. Si se olvida una dosis, tomarla tan pronto como se recuerde, pero si es casi la hora de la siguiente dosis, omitir la dosis olvidada y continuar con el horario normal. NO duplicar la dosis.",
+    "storage": "Conservar a temperatura ambiente (15-30°C), en un lugar seco y fuera del alcance de los niños. Proteger de la luz. La solución oral debe usarse dentro de los 30 días después de abierto el frasco.",
+    "specialInstructions": "El tratamiento es crónico y debe ser continuo. La interrupción abrupta puede llevar a un deterioro rápido de la función cognitiva. Cualquier cambio de dosis debe ser supervisado por el médico. Informar al médico o dentista sobre el uso de galantamina antes de cualquier cirugía, ya que puede interactuar con anestésicos."
+  },
+  "monitoring": {
+    "labTests": [
+      "Función hepática (transaminasas, bilirrubina)",
+      "Función renal (creatinina, TFG)",
+      "Electrolitos séricos (potasio, magnesio)",
+      "Hemograma completo (ocasionalmente)"
+    ],
+    "frequency": "Evaluación de la función hepática y renal al inicio del tratamiento y periódicamente (cada 6-12 meses) o si hay síntomas sugestivos. Monitoreo clínico frecuente (cada 3-6 meses) para evaluar respuesta y efectos adversos.",
+    "signsToWatch": [
+      "Mareo intenso o desmayos (posible bradicardia).",
+      "Náuseas o vómitos persistentes que causan deshidratación o pérdida de peso significativa.",
+      "Heces negras o con sangre, dolor abdominal fuerte (signos de sangrado gastrointestinal).",
+      "Coloración amarilla de piel u ojos (ictericia).",
+      "Dificultad para orinar.",
+      "Convulsiones.",
+      "Cambios de humor o comportamiento (agitación, alucinaciones, depresión)."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Náuseas y vómitos severos.",
+      "Salivación y lagrimeo excesivos.",
+      "Sudoración profusa.",
+      "Bradicardia severa (ritmo cardíaco muy lento).",
+      "Hipotensión (presión baja).",
+      "Debilidad muscular y colapso.",
+      "Convulsiones.",
+      "Depresión respiratoria (dificultad para respirar)."
+    ],
+    "treatment": "Es una emergencia médica. Tratamiento de soporte inmediato. Medidas generales: Lavado gástrico si la ingestión es reciente, carbón activado. El antídoto específico es la ATROPINA. Se administra por vía intravenosa en dosis tituladas (0.5-1.0 mg) hasta que se resuelvan los síntomas colinérgicos (como la bradicardia y la broncorrea). El soporte cardiorrespiratorio es crucial. La bradicardia puede no responder a atropina y requerir marcapasos temporal.",
+    "antidote": "Sulfato de Atropina."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Rx).",
+    "scheduleMexico": "Medicamento de patente, sujeto a prescripción médica. No está en la lista de psicotrópicos.",
+    "fdaApprovalYear": "2001"
+  },
+  "brandsMexico": [
+    "Reminyl",
+    "Galantamin",
+    "Galan",
+    "Memogal",
+    "Nivalin",
+    "Galantamina Genfar",
+    "Galantamina PiSA",
+    "Galantamina MK",
+    "Galantam",
+    "Cognigel"
+  ],
+  "clinicalPearls": [
+    "La tolerabilidad gastrointestinal (náuseas, vómitos) mejora significativamente con un esquema de titulación lenta de la dosis (aumentos cada 4 semanas) y tomando el medicamento con alimentos.",
+    "En pacientes que experimentan efectos secundarios intolerables con las tabletas de liberación inmediata, cambiar a la formulación de liberación prolongada (una vez al día) puede mejorar la tolerancia.",
+    "La evaluación de la respuesta al tratamiento debe ser multifacética, incluyendo no solo pruebas cognitivas breves, sino también la observación de la funcionalidad en actividades de la vida diaria y el impacto en la carga del cuidador. La falta de mejoría objetiva después de 3-6 meses a la dosis máxima tolerada sugiere considerar la suspensión del fármaco."
+  ],
+  "patientCounseling": "Querido paciente o cuidador: La galantamina es un tratamiento para los síntomas de la pérdida de memoria y confusión, pero no es una cura. Es muy importante que la tome exactamente como se lo indicó el médico, generalmente dos veces al día con comida. Esto ayuda a reducir las náuseas. No deje de tomarla de golpe. Los primeros días puede sentir mareo, náuseas o falta de apetito; esto suele mejorar con el tiempo. Pésese regularmente. Avise de inmediato a su médico si se marea o se desmaya, si tiene latidos del corazón muy lentos, si vomita mucho, si no puede orinar o si nota la piel amarilla. Mantenga todas sus citas médicas para ajustar la dosis y revisar cómo va. Este medicamento es solo una parte del tratamiento; mantener la mente activa, una dieta saludable y el apoyo familiar son igual de importantes. Nunca comparta sus pastillas con otra persona.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Pérdida de memoria",
+        "slug": "perdida-de-memoria"
+      },
+      {
+        "name": "Confusión o desorientación",
+        "slug": "confusion-o-desorientacion"
+      },
+      {
+        "name": "Dificultad para pensar con claridad",
+        "slug": "dificultad-para-pensar-con-claridad"
+      },
+      {
+        "name": "Problemas con el lenguaje (encontrar palabras)",
+        "slug": "problemas-con-el-lenguaje"
+      },
+      {
+        "name": "Dificultad para realizar tareas cotidianas",
+        "slug": "dificultad-para-realizar-tareas-cotidianas"
+      },
+      {
+        "name": "Apatía (falta de iniciativa)",
+        "slug": "apatia-falta-de-iniciativa"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Enfermedad de Alzheimer",
+        "slug": "enfermedad-de-alzheimer"
+      },
+      {
+        "name": "Demencia tipo Alzheimer",
+        "slug": "demencia-tipo-alzheimer"
+      },
+      {
+        "name": "Demencia vascular (uso combinado o off-label)",
+        "slug": "demencia-vascular"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Úlcera péptica o sangrado gastrointestinal",
+        "slug": "ulcera-peptica-o-sangrado-gastrointestinal"
+      },
+      {
+        "name": "Bradicardia sinusal (ritmo cardíaco lento)",
+        "slug": "bradicardia-sinusal"
+      },
+      {
+        "name": "Bloqueo cardíaco",
+        "slug": "bloqueo-cardiaco"
+      },
+      {
+        "name": "Hepatitis (inflamación del hígado)",
+        "slug": "hepatitis-inflamacion-del-higado"
+      },
+      {
+        "name": "Convulsiones",
+        "slug": "convulsiones"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Transaminasas (ALT, AST)",
+        "slug": "transaminasas-alt-ast",
+        "effect": "Puede elevar (hepatotoxicidad)"
+      },
+      {
+        "name": "Bilirrubina",
+        "slug": "bilirrubina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede disminuir (bradicardia)"
+      },
+      {
+        "name": "Intervalo QT en ECG",
+        "slug": "intervalo-qt-en-ecg",
+        "effect": "Puede prolongar"
+      },
+      {
+        "name": "Peso corporal",
+        "slug": "peso-corporal",
+        "effect": "Puede disminuir (anorexia, náuseas)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Pruebas de función hepática (PFH)",
+        "slug": "pruebas-de-funcion-hepatica-pfh",
+        "reason": "Para detectar hepatotoxicidad inducida por el fármaco."
+      },
+      {
+        "name": "Creatinina sérica y cálculo de TFG",
+        "slug": "creatinina-serica-y-calculo-de-tfg",
+        "reason": "Para ajustar la dosis según la función renal."
+      },
+      {
+        "name": "Electrocardiograma (ECG)",
+        "slug": "electrocardiograma-ecg",
+        "reason": "Para evaluar frecuencia cardíaca y conducción, especialmente en pacientes con antecedentes cardíacos."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de TFG (aclaramiento de creatinina)",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de IMC",
+        "slug": "calculadora-imc"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve la galantamina?",
+      "a": "Sirve para tratar los síntomas de la enfermedad de Alzheimer de leve a moderada, como la pérdida de memoria, la confusión y los problemas para realizar actividades diarias. Ayuda a mejorar la comunicación entre las células nerviosas del cerebro, pero no cura la enfermedad."
+    },
+    {
+      "q": "¿Cómo debo tomar la galantamina?",
+      "a": "Generalmente se toma dos veces al día, con el desayuno y la cena, para reducir el malestar estomacal. Hay una presentación de cápsula de larga duración que se toma solo una vez al día en la mañana, con alimento. Siga siempre las instrucciones de su médico y no triture las cápsulas."
+    },
+    {
+      "q": "¿Qué hago si se me olvida una dosis?",
+      "a": "Tómela tan pronto como lo recuerde, pero si ya es casi la hora de su siguiente dosis, omita la que olvidó y continúe con su horario normal. Nunca tome dos dosis al mismo tiempo para compensar."
+    },
+    {
+      "q": "¿Cuáles son los efectos secundarios más comunes?",
+      "a": "Los más frecuentes al inicio son náuseas, vómitos, diarrea, pérdida de apetito, mareos y dolor de cabeza. Suelen mejorar después de las primeras semanas de tratamiento. Tomar el medicamento con comida ayuda mucho."
+    },
+    {
+      "q": "¿La galantamina hace efecto de inmediato?",
+      "a": "No. Pueden pasar varias semanas e incluso algunos meses de tratamiento continuo para notar una mejoría o estabilización en la memoria y el comportamiento. La paciencia y la constancia son clave."
+    },
+    {
+      "q": "¿Puedo tomar galantamina si tengo problemas del corazón?",
+      "a": "Debe informar a su médico si tiene o ha tenido latidos cardíacos lentos (bradicardia), desmayos o problemas de ritmo. La galantamina puede empeorar estas condiciones, por lo que su uso requiere precaución y posiblemente un electrocardiograma antes de empezar."
+    },
+    {
+      "q": "¿Interactúa con otros medicamentos?",
+      "a": "Sí. Es muy importante decirle a su médico TODOS los medicamentos que toma, incluyendo hierbas y vitaminas. Interactúa gravemente con algunos antidepresivos (como paroxetina), antibióticos (como eritromicina), medicamentos para el ritmo cardíaco y algunos para la alergia o el sueño (como la difenhidramina)."
+    },
+    {
+      "q": "¿Puedo beber alcohol mientras tomo galantamina?",
+      "a": "No se recomienda. El alcohol puede aumentar los mareos y la somnolencia causados por el medicamento, aumentando el riesgo de caídas."
+    },
+    {
+      "q": "¿La galantamina hace que aumente o baje de peso?",
+      "a": "Es más común que cause pérdida de peso, especialmente al inicio, debido a las náuseas, vómitos y pérdida de apetito. Es importante monitorear el peso y asegurar una buena nutrición."
+    },
+    {
+      "q": "¿Cuánto tiempo debo tomar este medicamento?",
+      "a": "El tratamiento es crónico, es decir, de por vida o mientras siga siendo beneficioso y tolerado. Nunca lo suspenda abruptamente sin consultar a su médico, ya que puede haber un rápido empeoramiento."
+    },
+    {
+      "q": "¿Qué pasa si tomo una dosis mayor a la indicada?",
+      "a": "Es una emergencia médica. Puede causar vómitos severos, latidos cardíacos muy lentos, dificultad para respirar, convulsiones y desmayos. Acuda de inmediato al hospital o llame al servicio de emergencias."
+    },
+    {
+      "q": "¿La galantamina se puede usar para otras demencias que no sean Alzheimer?",
+      "a": "Su aprobación oficial es para Alzheimer, pero algunos médicos la recetan 'fuera de indicación' (off-label) para la demencia vascular o mixta, a veces combinada con otros tratamientos. Esto debe decidirlo un especialista."
+    },
+    {
+      "q": "¿Es lo mismo galantamina que donepezilo o rivastigmina?",
+      "a": "No, son medicamentos diferentes, aunque todos pertenecen a la misma familia (inhibidores de la colinesterasa) y se usan para el Alzheimer. Tienen mecanismos ligeramente distintos y perfiles de efectos secundarios diferentes. El médico elige el más adecuado para cada paciente."
+    },
+    {
+      "q": "¿Puedo manejar o operar maquinaria si tomo galantamina?",
+      "a": "Tenga precaución, especialmente al inicio del tratamiento o al aumentar la dosis, ya que puede causar mareos y somnolencia. No maneje ni realice actividades que requieran alerta hasta que esté seguro de cómo le afecta."
+    },
+    {
+      "q": "¿Qué ajustes necesita si tengo problemas en los riñones o el hígado?",
+      "a": "Si tiene insuficiencia renal o hepática moderada, la dosis máxima permitida es menor. Si la insuficiencia es grave, el medicamento está contraindicado. Su médico debe revisar sus estudios de laboratorio (creatinina, TFG, pruebas hepáticas) antes de recetarlo."
+    },
+    {
+      "q": "¿La galantamina puede causar depresión o alucinaciones?",
+      "a": "Sí, aunque es menos común. Puede causar depresión, insomnio, agitación y, en algunos casos, alucinaciones. Es importante informar cualquier cambio en el estado de ánimo o comportamiento al médico tratante."
+    },
+    {
+      "q": "¿Por qué es importante la titulación (aumento gradual) de la dosis?",
+      "a": "Porque permite que el cuerpo se adapte al medicamento, reduciendo significativamente la probabilidad y severidad de efectos secundarios gastrointestinales como náuseas y vómitos. Nunca se debe saltar este proceso."
+    },
+    {
+      "q": "¿Existe un antídoto en caso de intoxicación por galantamina?",
+      "a": "Sí. El antídoto específico es la atropina, que debe ser administrada por personal médico en un hospital. Esto subraya la importancia de guardar el medicamento fuera del alcance de niños y adultos confundidos."
+    },
+    {
+      "q": "¿Cómo se evalúa si la galantamina está funcionando?",
+      "a": "El médico evalúa mediante entrevistas con el paciente y su cuidador, pruebas cognitivas breves (como el Mini-Mental) y observando la capacidad para realizar actividades diarias (bañarse, vestirse). La meta es estabilizar o enlentecer el deterioro, no necesariamente revertirlo."
+    },
+    {
+      "q": "¿Cuándo se debe considerar suspender el tratamiento con galantamina?",
+      "a": "Se debe considerar la suspensión cuando: 1) La enfermedad progresa a una etapa grave donde el beneficio es mínimo. 2) Aparecen efectos adversos intolerables o peligrosos (ej. bradicardia severa, pérdida de peso extrema). 3) Después de un período de prueba adecuado (3-6 meses a dosis máxima tolerada) no hay evidencia de beneficio clínico alguno. La suspensión debe ser gradual y supervisada."
+    }
+  ]
+}

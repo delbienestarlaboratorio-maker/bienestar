@@ -1,0 +1,421 @@
+{
+  "name": "Camphechlor",
+  "summary": "Camphechlor es un medicamento que se utiliza para tratar los síntomas de la enfermedad de Alzheimer de leve a moderada. Pertenece a una clase de fármacos llamados inhibidores de la colinesterasa, que actúan aumentando los niveles de una sustancia química en el cerebro llamada acetilcolina, la cual es crucial para la memoria, el pensamiento y el razonamiento. Este medicamento no cura la enfermedad de Alzheimer, pero puede ayudar a mejorar o estabilizar temporalmente los síntomas cognitivos (como la memoria y la capacidad de realizar tareas diarias), la conducta y el funcionamiento global en algunos pacientes, permitiéndoles mantener su independencia por más tiempo. Su importancia clínica radica en ser una de las primeras líneas de tratamiento para manejar los síntomas de esta demencia neurodegenerativa, ofreciendo una opción terapéutica para mejorar la calidad de vida del paciente y aliviar la carga para sus cuidadores. El tratamiento debe iniciarse y supervisarse siempre por un médico especialista, ya que su efectividad varía entre personas y requiere un seguimiento cuidadoso de los beneficios y posibles efectos secundarios.",
+  "pharmacology": {
+    "mechanismOfAction": "Camphechlor actúa como un inhibidor reversible y competitivo de la enzima acetilcolinesterasa, la cual es responsable de descomponer el neurotransmisor acetilcolina en la hendidura sináptica. En la enfermedad de Alzheimer, hay una pérdida progresiva de neuronas colinérgicas, lo que lleva a una deficiencia de acetilcolina, un químico cerebral esencial para la memoria, el aprendizaje y la atención. Al inhibir la acetilcolinesterasa, Camphechlor reduce la degradación de la acetilcolina, aumentando así su concentración y duración de acción en las sinapsis del cerebro. Este incremento en la disponibilidad de acetilcolina ayuda a mejorar la transmisión de señales entre las neuronas que aún están funcionando, lo que puede traducirse en una mejoría temporal de los síntomas cognitivos y conductuales asociados con la demencia. Su acción es principalmente a nivel del sistema nervioso central.",
+    "pharmacologicClass": "Inhibidor de la colinesterasa de tipo carbamato (derivado de la fisostigmina).",
+    "therapeuticClass": "Agente antidemencia; Agente para el tratamiento de los síntomas de la enfermedad de Alzheimer.",
+    "absorption": "Se absorbe bien por vía oral, con una biodisponibilidad absoluta de aproximadamente el 40%. La presencia de alimentos puede retrasar la absorción y reducir la concentración máxima (Cmax) en aproximadamente un 30%, pero no afecta significativamente la cantidad total de fármaco absorbida (AUC).",
+    "distribution": "Se distribuye ampliamente en los tejidos. Tiene un volumen de distribución alto (aproximadamente 1000 L), lo que indica una amplia distribución en el cuerpo. Cruza la barrera hematoencefálica, que es esencial para su acción en el cerebro. La unión a proteínas plasmáticas es baja, menor al 20%.",
+    "metabolism": "Se metaboliza extensamente en el hígado principalmente por hidrólisis mediada por esterasas, dando lugar a metabolitos inactivos. No es un sustrato significativo del sistema enzimático del citocromo P450 (CYP450), por lo que las interacciones farmacocinéticas mediadas por estas enzimas son mínimas.",
+    "elimination": "La vida media de eliminación es de aproximadamente 24 horas, lo que permite una administración una vez al día. Se elimina principalmente por vía renal; aproximadamente el 90% de la dosis se excreta en la orina como metabolitos inactivos y menos del 1% como fármaco sin cambios.",
+    "onsetOfAction": "Los efectos sobre la cognición pueden comenzar a observarse en algunas semanas, pero la respuesta máxima puede tardar varios meses (hasta 6 meses) de tratamiento continuo.",
+    "durationOfAction": "El efecto farmacológico dura aproximadamente 24 horas, sustentando la dosificación una vez al día. Los beneficios clínicos sobre los síntomas pueden mantenerse mientras se continúe el tratamiento, aunque la enfermedad neurodegenerativa subyacente sigue progresando."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento sintomático de la enfermedad de Alzheimer de leve a moderada",
+      "Tratamiento sintomático de la demencia tipo Alzheimer de leve a moderada"
+    ],
+    "offLabel": [
+      "Demencia vascular (en combinación con otras terapias)",
+      "Demencia por cuerpos de Lewy",
+      "Deterioro cognitivo leve (en investigación)",
+      "Tratamiento de síntomas conductuales y psicológicos de la demencia (BPSD)"
+    ]
+  },
+  "dosage": {
+    "adults": "Iniciar con 8 mg una vez al día. Después de un mínimo de 4 semanas, y si es bien tolerado, la dosis puede aumentarse a 16 mg una vez al día, que es la dosis de mantenimiento recomendada. Algunos esquemas sugieren iniciar con 4 mg al día durante 4 semanas antes de subir a 8 mg. La dosis debe individualizarse.",
+    "pediatric": "No está indicado para uso en niños. Seguridad y eficacia no establecidas.",
+    "elderly": "No se requieren ajustes de dosis basados únicamente en la edad. Sin embargo, se debe iniciar con la dosis más baja posible debido a una mayor susceptibilidad a efectos adversos y posibles comorbilidades.",
+    "renalImpairment": "En insuficiencia renal leve a moderada (TFG ≥30 mL/min): No se requiere ajuste de dosis. En insuficiencia renal grave (TFG <30 mL/min): Se recomienda precaución. Algunas fuentes sugieren no exceder los 8 mg al día. Monitorizar estrechamente.",
+    "hepaticImpairment": "En insuficiencia hepática leve (Child-Pugh A): No se requiere ajuste de dosis. En insuficiencia hepática moderada a grave (Child-Pugh B y C): Se recomienda precaución. Iniciar con la dosis más baja posible (4 mg al día) y aumentar con extrema precaución, si es necesario. Monitorizar estrechamente.",
+    "maxDose": "16 mg una vez al día."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "4 mg",
+        "8 mg",
+        "16 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tableta de liberación prolongada",
+      "strengths": [
+        "8 mg",
+        "16 mg"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a Camphechlor o a cualquiera de los excipientes",
+      "Pacientes con síndrome de QT largo congénito o adquirido (riesgo de arritmias)",
+      "Historia de reacciones idiosincrásicas severas a otros inhibidores de la colinesterasa"
+    ],
+    "relative": [
+      "Enfermedad ulcerosa péptica activa o sangrado gastrointestinal",
+      "Asma bronquial o enfermedad pulmonar obstructiva crónica (EPOC) severa",
+      "Trastornos de la conducción cardíaca (bloqueo sinusal, bradicardia sinusal)",
+      "Epilepsia o antecedentes de convulsiones",
+      "Obstrucción mecánica del tracto urinario o intestinal",
+      "Insuficiencia hepática moderada a grave",
+      "Insuficiencia renal grave (TFG <30 mL/min)"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Náuseas",
+      "Vómitos",
+      "Diarrea",
+      "Pérdida del apetito (anorexia)",
+      "Mareo"
+    ],
+    "common": [
+      "Dolor abdominal",
+      "Dispepsia (indigestión)",
+      "Fatiga",
+      "Insomnio",
+      "Dolor de cabeza",
+      "Calambres musculares",
+      "Agitación",
+      "Pérdida de peso",
+      "Síncope (desmayo)",
+      "Bradicardia (ritmo cardíaco lento)"
+    ],
+    "uncommon": [
+      "Ulceración gastrointestinal",
+      "Hemorragia gastrointestinal",
+      "Hipotensión (presión baja)",
+      "Convulsiones",
+      "Alucinaciones",
+      "Reacciones cutáneas (rash)"
+    ],
+    "rare": [
+      "Síndrome neuroléptico maligno (signos de alerta: fiebre, rigidez muscular, confusión)",
+      "Rabdomiólisis (degradación muscular)",
+      "Hepatitis",
+      "Prolongación del intervalo QT en el electrocardiograma",
+      "Bloqueo cardíaco"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Atropina, Ipratropio, Glicopirrolato",
+        "effect": "Antagonizan los efectos colinérgicos de Camphechlor, reduciendo su eficacia.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Betabloqueadores (Propranolol, Metoprolol)",
+        "effect": "Pueden potenciar el efecto de bradicardia (ritmo cardíaco lento).",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Digoxina",
+        "effect": "Aumenta el riesgo de bradicardia y bloqueo cardíaco. Monitorizar frecuencia cardíaca.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Antiarrítmicos (Amiodarona, Quinidina)",
+        "effect": "Aumentan el riesgo de arritmias cardíacas y prolongación del QT.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Anticolinérgicos (Oxibutinina, Tolterodina, Antidepresivos tricíclicos, Antihistamínicos sedantes)",
+        "effect": "Reducen la eficacia de Camphechlor al antagonizar la acetilcolina.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Succinilcolina (relajante muscular)",
+        "effect": "Camphechlor puede potenciar y prolongar el efecto bloqueador neuromuscular de la succinilcolina durante la anestesia.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "Puede tomarse con o sin alimentos. Tomarlo con alimentos puede ayudar a reducir las náuseas y molestias gastrointestinales, aunque puede retrasar ligeramente su absorción. Se debe evitar el consumo excesivo de alcohol, ya que puede empeorar los efectos secundarios como mareo y somnolencia, y puede afectar negativamente la cognición.",
+    "withSupplements": "Interactúa con suplementos con efectos anticolinérgicos, como la belladona o algunos suplementos herbales para el sueño. La hierba de San Juan (Hypericum perforatum) puede interactuar, aunque el mecanismo no está claro. Se debe consultar al médico antes de tomar cualquier suplemento."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA C",
+      "recommendation": "No hay estudios adecuados en mujeres embarazadas. Solo debe usarse durante el embarazo si el beneficio potencial justifica claramente el riesgo potencial para el feto. No está indicado para mujeres en edad fértil a menos que sea absolutamente necesario, como en casos de demencia de inicio temprano. Se debe evitar.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se desconoce si Camphechlor se excreta en la leche materna. Dado el potencial de efectos adversos graves en el lactante y la indicación del fármaco (demencia), se recomienda suspender la lactancia materna o no utilizar el medicamento, considerando la importancia del tratamiento para la madre. Se debe tomar una decisión individualizada con el médico.",
+    "pediatric": "No está indicado para uso en niños o adolescentes. No hay datos de seguridad o eficacia en esta población.",
+    "geriatric": "Esta es la población principal de uso. Los adultos mayores son más susceptibles a los efectos adversos, especialmente bradicardia, síncope, caídas, pérdida de peso y complicaciones gastrointestinales. Se debe iniciar con la dosis más baja posible y aumentar lentamente. Monitorizar frecuencia cardíaca, peso y estado nutricional."
+  },
+  "administration": {
+    "howToTake": "Tomar exactamente como lo recetó el médico, generalmente una vez al día, a la misma hora cada día. Puede tomarse con o sin alimentos. Si se presentan náuseas, se recomienda tomarlo con alimentos. Tragar la tableta entera con un vaso lleno de agua; no partir, masticar ni triturar. Si se olvida una dosis, tomarla tan pronto como se recuerde, pero si ya es casi la hora de la siguiente dosis, omitir la dosis olvidada y continuar con el horario regular. No duplicar la dosis para compensar la olvidada.",
+    "storage": "Almacenar a temperatura ambiente (entre 15°C y 30°C), en un lugar seco y fuera del alcance de la luz directa. Mantener en su empaque original. Mantener fuera del alcance de los niños y adultos con deterioro cognitivo que puedan confundirlo.",
+    "specialInstructions": "Este medicamento no cura el Alzheimer, pero puede ayudar a controlar los síntomas. La mejoría puede ser sutil y tomar tiempo. Es importante la continuidad del tratamiento. Informar al médico si se programa una cirugía o procedimiento dental, ya que puede ser necesario suspenderlo temporalmente debido al riesgo de bradicardia con la anestesia. Los cuidadores deben supervisar la administración para asegurar la adherencia."
+  },
+  "monitoring": {
+    "labTests": [
+      "Función hepática (transaminasas) al inicio y periódicamente",
+      "Función renal (creatinina, TFG) al inicio",
+      "Electrolitos séricos (potasio, magnesio) si hay riesgo de arritmia",
+      "Peso corporal regularmente"
+    ],
+    "frequency": "Evaluación clínica (cognición, conducta, funcionalidad) cada 3-6 meses. Monitoreo de peso cada mes al inicio, luego cada 3 meses. Revisión de frecuencia cardíaca en cada consulta. Pruebas de función hepática/renal al inicio y luego cada 6-12 meses, o si hay síntomas.",
+    "signsToWatch": [
+      "Ritmo cardíaco muy lento (menos de 50-60 latidos por minuto) o desmayos",
+      "Sangrado en heces (negras o con sangre) o vómito con sangre",
+      "Dolor abdominal severo o persistente",
+      "Pérdida de peso significativa no intencional",
+      "Confusión nueva o empeorada, agitación severa o alucinaciones",
+      "Debilidad muscular severa u orina de color café (posible rabdomiólisis)",
+      "Fiebre, rigidez muscular y confusión (síndrome neuroléptico maligno)",
+      "Erupción cutánea o picazón severa"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Náuseas y vómitos severos",
+      "Salivación excesiva",
+      "Sudoración profusa",
+      "Bradicardia severa (ritmo cardíaco muy lento)",
+      "Hipotensión (presión baja)",
+      "Debilidad muscular, fasciculaciones (temblores finos)",
+      "Convulsiones",
+      "Depresión respiratoria (dificultad para respirar)",
+      "Pérdida de la conciencia (coma)"
+    ],
+    "treatment": "Es una emergencia médica. Buscar atención médica inmediata. El tratamiento es de soporte y sintomático. Puede requerir hospitalización. Medidas generales: Lavado gástrico si la ingestión fue reciente. Administración de carbón activado. Soporte cardiovascular: Atropina es el antídoto para los efectos muscarínicos severos (bradicardia, hipotensión, broncosecreción). La dosis inicial de atropina es 0.5-1.0 mg IV, que puede repetirse. Monitorización continua de signos vitales y electrocardiograma. Control de convulsiones si se presentan.",
+    "antidote": "Atropina (para los efectos colinérgicos muscarínicos excesivos)."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Rx).",
+    "scheduleMexico": "Medicamento de patente (no está en la lista de fármacos controlados). Se vende solo con receta médica archivada o no, según la farmacia.",
+    "fdaApprovalYear": "Aprobado por la FDA en el año 2000."
+  },
+  "brandsMexico": [
+    "Exelon",
+    "Rivastach",
+    "Rivamer",
+    "Rivastigmina",
+    "Prometax",
+    "Alzest",
+    "Rivastigmina Genfar",
+    "Rivastigmina PiSA",
+    "Rivastigmina Rimsa"
+  ],
+  "clinicalPearls": [
+    "Camphechlor (rivastigmina) tiene la ventaja de inhibir tanto la acetilcolinesterasa como la butirilcolinesterasa, lo que puede ofrecer un beneficio adicional en algunas formas de demencia.",
+    "La formulación en parche transdérmico (no incluida en todas las marcas en México) puede mejorar la tolerabilidad gastrointestinal y la adherencia al tratamiento, pero la tableta es la presentación más común.",
+    "La respuesta al tratamiento es variable. Una 'prueba terapéutica' de al menos 6 meses a la dosis máxima tolerada es necesaria para evaluar si hay beneficio clínico significativo antes de considerar su suspensión."
+  ],
+  "patientCounseling": "Querido paciente o cuidador: Este medicamento puede ayudar con los problemas de memoria y para hacer las actividades del día a día, pero no cura la enfermedad. Es muy importante tomarlo todos los días, a la misma hora, como lo indicó el médico. Si le causa malestar estomacal o náuseas, tómelo con un poco de comida. No deje de tomarlo sin hablar con su médico, aunque sienta que no está funcionando, porque los beneficios pueden tardar meses en notarse. Avise de inmediato a su médico si se marea mucho, se desmaya, tiene el corazón muy lento, pierde peso sin querer, tiene dolor de estómago fuerte o ve sangre en el vómito o en la popó. Asista a todas sus citas de control para que el médico evalúe cómo va respondiendo y ajuste la dosis si es necesario. Mantenga una rutina, buena alimentación y actividad mental y física, ya que el medicamento es solo una parte del tratamiento. Guárdelo en un lugar seguro donde no haya confusión con otros medicamentos.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Pérdida de memoria",
+        "slug": "perdida-de-memoria"
+      },
+      {
+        "name": "Desorientación",
+        "slug": "desorientacion"
+      },
+      {
+        "name": "Dificultad para pensar",
+        "slug": "dificultad-para-pensar"
+      },
+      {
+        "name": "Problemas con el lenguaje",
+        "slug": "problemas-con-el-lenguaje"
+      },
+      {
+        "name": "Cambios de conducta",
+        "slug": "cambios-de-conducta"
+      },
+      {
+        "name": "Dificultad para realizar tareas cotidianas",
+        "slug": "dificultad-para-realizar-tareas-cotidianas"
+      },
+      {
+        "name": "Apatía",
+        "slug": "apatia"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Enfermedad de Alzheimer",
+        "slug": "enfermedad-de-alzheimer"
+      },
+      {
+        "name": "Demencia tipo Alzheimer",
+        "slug": "demencia-tipo-alzheimer"
+      },
+      {
+        "name": "Demencia por cuerpos de Lewy",
+        "slug": "demencia-por-cuerpos-de-lewy"
+      },
+      {
+        "name": "Demencia vascular",
+        "slug": "demencia-vascular"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Úlcera péptica o sangrado gastrointestinal",
+        "slug": "ulcera-peptica-o-sangrado-gastrointestinal"
+      },
+      {
+        "name": "Bradicardia sinusal",
+        "slug": "bradicardia-sinusal"
+      },
+      {
+        "name": "Síncope",
+        "slug": "sincope"
+      },
+      {
+        "name": "Convulsiones",
+        "slug": "convulsiones"
+      },
+      {
+        "name": "Rabdomiólisis",
+        "slug": "rabdomiolisis"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Transaminasas (TGO/TGP)",
+        "slug": "transaminasas-tgo-tgp",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Peso corporal",
+        "slug": "peso-corporal",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Creatina fosfoquinasa (CPK)",
+        "slug": "creatina-fosfoquinasa-cpk",
+        "effect": "Puede elevar (en rabdomiólisis)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-de-funcion-hepatica",
+        "reason": "Para detectar posible toxicidad hepática"
+      },
+      {
+        "name": "Electrocardiograma",
+        "slug": "electrocardiograma",
+        "reason": "Para evaluar frecuencia y ritmo cardíaco, riesgo de bradicardia"
+      },
+      {
+        "name": "Pruebas de función renal",
+        "slug": "pruebas-de-funcion-renal",
+        "reason": "Para ajustar dosis en pacientes con enfermedad renal"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de TFG (Clearence de creatinina)",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de IMC",
+        "slug": "calculadora-imc"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve el Camphechlor?",
+      "a": "Sirve para tratar los síntomas de la enfermedad de Alzheimer de leve a moderada, como la pérdida de memoria, la confusión y los problemas para realizar actividades diarias. Ayuda a mejorar o estabilizar estos síntomas por un tiempo, pero no cura la enfermedad."
+    },
+    {
+      "q": "¿Cómo debo tomar Camphechlor?",
+      "a": "Generalmente se toma una vez al día, a la misma hora. Puede tomarlo con o sin alimentos. Si le causa malestar estomacal, es mejor tomarlo con comida. Trague la tableta entera con agua, sin masticarla ni partida."
+    },
+    {
+      "q": "¿Qué hago si se me olvida una dosis?",
+      "a": "Tómela tan pronto como se acuerde, pero si ya es casi la hora de su siguiente dosis, omita la que olvidó y continúe con su horario normal. Nunca tome dos dosis al mismo tiempo para compensar."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Puede tomar varias semanas (a veces 2-3 meses) para empezar a notar mejoría en la memoria o el comportamiento. La respuesta máxima puede tardar hasta 6 meses de tratamiento continuo."
+    },
+    {
+      "q": "¿Cuáles son los efectos secundarios más comunes?",
+      "a": "Los más frecuentes son náuseas, vómitos, diarrea, pérdida del apetito, mareo y dolor de estómago. Suelen ser leves y mejorar después de las primeras semanas de tratamiento."
+    },
+    {
+      "q": "¿Puedo tomar Camphechlor si tengo problemas del corazón?",
+      "a": "Debe informar a su médico si tiene problemas cardíacos, especialmente ritmo cardíaco lento (bradicardia), bloqueos o toma medicamentos para el corazón. Camphechlor puede hacer que el corazón lata más lento, por lo que requiere supervisión médica."
+    },
+    {
+      "q": "¿Se puede tomar con otros medicamentos para la memoria?",
+      "a": "Solo bajo estricta supervisión médica. Generalmente no se combina con otros inhibidores de colinesterasa (como donepecilo o galantamina). Su médico decidirá la mejor terapia."
+    },
+    {
+      "q": "¿Interactúa con alimentos o alcohol?",
+      "a": "Puede tomarlo con alimentos para reducir náuseas. Se debe evitar el alcohol, ya que puede aumentar el mareo, la somnolencia y empeorar los problemas de memoria."
+    },
+    {
+      "q": "¿Puede causar aumento o pérdida de peso?",
+      "a": "Es más común que cause pérdida de peso no intencional debido a las náuseas, vómitos y pérdida de apetito. Es importante monitorear el peso regularmente."
+    },
+    {
+      "q": "¿Qué pasa si tomo una dosis mayor a la indicada?",
+      "a": "Es una sobredosis peligrosa. Puede causar vómitos severos, ritmo cardíaco muy lento, dificultad para respirar y convulsiones. Busque atención médica de inmediato o llame al centro de toxicología."
+    },
+    {
+      "q": "¿Se puede suspender el Camphechlor de golpe?",
+      "a": "No se recomienda suspenderlo abruptamente, a menos que su médico lo indique por efectos adversos graves. La suspensión repentina puede llevar a un empeoramiento rápido de los síntomas. Siempre consulte a su médico."
+    },
+    {
+      "q": "¿Es lo mismo Camphechlor que Rivastigmina?",
+      "a": "Sí, Camphechlor es el nombre genérico internacional (DCI) del principio activo Rivastigmina. Las marcas comerciales en México como Exelon contienen el mismo medicamento."
+    },
+    {
+      "q": "¿Sirve para la demencia vascular o solo para Alzheimer?",
+      "a": "Su uso principal y aprobado es para Alzheimer. Sin embargo, algunos médicos lo recetan 'off-label' (fuera de indicación) para otros tipos de demencia, como la demencia vascular o por cuerpos de Lewy, basándose en evidencia clínica."
+    },
+    {
+      "q": "¿Qué pruebas me harán mientras tomo este medicamento?",
+      "a": "Su médico revisará su peso, frecuencia cardíaca y síntomas. Puede solicitar ocasionalmente análisis de sangre para revisar el hígado y los riñones, y un electrocardiograma si hay preocupación por el corazón."
+    },
+    {
+      "q": "¿Puedo manejar o operar maquinaria si tomo Camphechlor?",
+      "a": "Debe tener precaución, especialmente al inicio del tratamiento o al aumentar la dosis, porque puede causar mareo, somnolencia o visión borrosa. No maneje ni opere maquinaria peligrosa hasta que sepa cómo le afecta."
+    },
+    {
+      "q": "¿Qué pasa si tengo náuseas muy fuertes?",
+      "a": "Informe a su médico. Puede sugerirle tomarlo con alimentos, dividir la dosis (por ejemplo, 8 mg en dos tomas de 4 mg) o reducir temporalmente la dosis. No suspenda el medicamento sin consultar."
+    },
+    {
+      "q": "¿Camphechlor puede causar depresión o ideas suicidas?",
+      "a": "No es un efecto común directo, pero los cambios de conducta como agitación, depresión o alucinaciones pueden ocurrir en la demencia. Cualquier cambio mental severo debe ser reportado al médico para evaluar si es por la enfermedad o un efecto del fármaco."
+    },
+    {
+      "q": "¿Es seguro en adultos mayores con muchas otras enfermedades?",
+      "a": "Se usa principalmente en adultos mayores, pero requiere precaución si tienen problemas cardíacos, úlceras, asma, EPOC, epilepsia o enfermedad renal/hepática. El médico debe conocer todas sus condiciones y medicamentos para ajustar la dosis y monitorear."
+    },
+    {
+      "q": "¿Cómo se compara Camphechlor con otros medicamentos para el Alzheimer como el donepecilo?",
+      "a": "Ambos son inhibidores de colinesterasa y tienen eficacia similar. La elección depende del perfil del paciente, tolerabilidad y preferencia. Camphechlor (rivastigmina) inhibe dos enzimas y puede tener menos interacciones por CYP450. El parche de rivastigmina puede ser mejor tolerado que las tabletas de donepecilo en algunos pacientes."
+    },
+    {
+      "q": "¿Cuál es el mecanismo por el cual Camphechlor puede ayudar en la demencia por cuerpos de Lewy?",
+      "a": "En la demencia por cuerpos de Lewy, hay un déficit colinérgico incluso más marcado que en el Alzheimer. Camphechlor, al aumentar la acetilcolina, puede mejorar notablemente las alucinaciones visuales, la fluctuación cognitiva y los trastornos del sueño REM que son característicos de esta enfermedad, a veces con mejor respuesta que en el Alzheimer mismo."
+    }
+  ]
+}

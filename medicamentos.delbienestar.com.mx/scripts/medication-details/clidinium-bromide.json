@@ -1,0 +1,402 @@
+{
+  "name": "Clidinio Bromuro",
+  "summary": "El Clidinio Bromuro es un medicamento que pertenece al grupo de los anticolinérgicos o antiespasmódicos. Su función principal es bloquear la acción de una sustancia natural llamada acetilcolina en el sistema nervioso y en los músculos lisos del tracto gastrointestinal. Esto lo hace muy útil para tratar síntomas como el dolor y los cólicos abdominales, la sensación de urgencia para ir al baño y la diarrea, especialmente en condiciones como el síndrome de intestino irritable (SII) y otros trastornos funcionales del intestino. Es importante porque ayuda a controlar síntomas muy molestos que afectan la calidad de vida, pero debe usarse con precaución ya que, al bloquear la acetilcolina en todo el cuerpo, puede causar efectos secundarios como boca seca, visión borrosa, estreñimiento y dificultad para orinar. No es un ansiolítico o sedante propiamente dicho, aunque a veces se combina con medicamentos para la ansiedad, ya que el estrés puede empeorar los síntomas intestinales. Su uso debe ser supervisado por un médico, ya que no trata la causa de la enfermedad, solo alivia los síntomas, y existen condiciones de salud en las que está completamente contraindicado.",
+  "pharmacology": {
+    "mechanismOfAction": "El Clidinio Bromuro actúa como un antagonista competitivo de los receptores muscarínicos de la acetilcolina, específicamente del subtipo M1. Al unirse a estos receptores, bloquea la acción del neurotransmisor acetilcolina, impidiendo que ejerza sus efectos. En el tracto gastrointestinal, esto resulta en una disminución del tono y de la motilidad (movimientos) del músculo liso del estómago, los intestinos y los conductos biliares. También reduce la secreción de ácido gástrico, saliva, sudor y otras secreciones glandulares. Este efecto antiespasmódico y antisecretor es el que alivia el dolor abdominal tipo cólico, la urgencia defecatoria y la diarrea. Su acción es principalmente periférica, pero al cruzar la barrera hematoencefálica en menor grado, puede tener efectos anticolinérgicos centrales leves, como somnolencia.",
+    "pharmacologicClass": "Antagonista de los receptores muscarínicos de la acetilcolina (Anticolinérgico / Antiespasmódico). Derivado de la benzilato de quinuclidina.",
+    "therapeuticClass": "Agente antiespasmódico gastrointestinal. Agente antisecretor.",
+    "absorption": "Se absorbe bien por vía oral después de la administración. La absorción ocurre principalmente en el tracto gastrointestinal superior.",
+    "distribution": "Se distribuye ampliamente por los tejidos. Tiene una unión a proteínas plasmáticas moderada. Su volumen de distribución (Vd) es amplio, indicando que se distribuye bien más allá del plasma. Cruza la barrera hematoencefálica en cierta medida, lo que puede explicar algunos efectos centrales como somnolencia.",
+    "metabolism": "Se metaboliza extensamente en el hígado mediante procesos de hidrólisis y desalquilación oxidativa. Las enzimas del citocromo P450 (CYP), particularmente CYP3A4, están involucradas en su metabolismo. Esto es crucial para las interacciones medicamentosas.",
+    "elimination": "Se elimina principalmente por vía renal, tanto el fármaco sin cambios como sus metabolitos. Su vida media de eliminación es de aproximadamente 1 a 2 horas, pero los efectos farmacológicos pueden durar más debido a la unión a los receptores.",
+    "onsetOfAction": "El inicio de acción tras la administración oral suele ser en un plazo de 1 a 2 horas.",
+    "durationOfAction": "La duración del efecto antiespasmódico es de aproximadamente 6 a 8 horas, lo que justifica su administración 3 a 4 veces al día en algunos esquemas."
+  },
+  "indications": {
+    "approved": [
+      "Síndrome de intestino irritable (SII), especialmente con predominio de diarrea y dolor.",
+      "Trastornos funcionales gastrointestinales con hipertonía y espasmo (colon espástico, colitis mucosa).",
+      "Dolor abdominal cólico asociado a trastornos de la motilidad intestinal.",
+      "Como coadyuvante en el tratamiento de la úlcera péptica (para reducir la secreción gástrica y el espasmo)."
+    ],
+    "offLabel": [
+      "Cólicos biliares (como parte del manejo del dolor).",
+      "Síndrome de vejiga hiperactiva (por su efecto relajante sobre el músculo detrusor).",
+      "Sialorrea (producción excesiva de saliva) en algunos contextos neurológicos.",
+      "Como premedicación anestésica para reducir las secreciones salivales y bronquiales."
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis habitual es de 2.5 mg a 5 mg, tomados por vía oral, 3 a 4 veces al día, preferentemente antes de las comidas y al acostarse. La dosis debe individualizarse según la respuesta y la tolerancia del paciente. En presentaciones combinadas (ej. con Clordiazepóxido), seguir las indicaciones específicas de esa formulación.",
+    "pediatric": "No se recomienda de forma rutinaria en niños menores de 12 años debido al riesgo de efectos anticolinérgicos graves. En casos seleccionados y bajo estricta supervisión médica, se podría considerar en niños mayores, con dosis ajustadas por peso (ej. 0.2 mg/kg/día dividido en 3-4 dosis).",
+    "elderly": "Los pacientes mayores de 65 años son más sensibles a los efectos anticolinérgicos (confusión, retención urinaria, estreñimiento, sequedad). Se debe iniciar con la dosis más baja posible (ej. 2.5 mg 2 veces al día) y aumentar con mucha precaución.",
+    "renalImpairment": "Ajustar dosis en insuficiencia renal. Con TFG 30-60 ml/min: usar con precaución y considerar reducir la dosis. Con TFG <30 ml/min o en diálisis: evitar su uso o usarlo con extrema precaución en dosis mínimas, ya que se elimina por riñón y el riesgo de toxicidad por acumulación es alto.",
+    "hepaticImpairment": "Ajustar dosis en insuficiencia hepática moderada a grave (Child-Pugh B o C). El metabolismo hepático está comprometido, pudiendo aumentar los niveles del fármaco. Iniciar con dosis bajas y monitorear estrechamente.",
+    "maxDose": "La dosis máxima diaria generalmente no debe exceder los 20 mg (en 4 dosis de 5 mg). En presentaciones combinadas, respetar el límite del otro componente (ej. Clordiazepóxido)."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "2.5 mg",
+        "5 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Cápsula",
+      "strengths": [
+        "Combinado con Clordiazepóxido (ej. 5 mg Clidinio + 5 mg Clordiazepóxido)"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Glaucoma de ángulo cerrado (puede aumentar la presión intraocular).",
+      "Obstrucción gastrointestinal (estenosis pilórica, íleo paralítico, megacolon tóxico).",
+      "Obstrucción del cuello de la vejiga (hiperplasia prostática benigna severa con retención).",
+      "Miastenia gravis (empeora la debilidad muscular).",
+      "Alergia conocida al Clidinio Bromuro o a sus componentes.",
+      "Colitis ulcerosa severa (riesgo de megacolon tóxico)."
+    ],
+    "relative": [
+      "Glaucoma de ángulo abierto (usar con precaución y control de presión ocular).",
+      "Hiperplasia prostática benigna leve-moderada.",
+      "Enfermedad por reflujo gastroesofágico (ERGE) con hernia hiatal, ya que puede relajar el esfínter esofágico inferior.",
+      "Taquicardia o arritmias cardíacas.",
+      "Insuficiencia renal o hepática (requiere ajuste de dosis).",
+      "Enfermedad pulmonar obstructiva crónica (EPOC).",
+      "Edad avanzada (>65 años).",
+      "Neuropatía autonómica."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Boca seca (xerostomía).",
+      "Estreñimiento."
+    ],
+    "common": [
+      "Visión borrosa (por midriasis o dilatación pupilar).",
+      "Dificultad para orinar (retención urinaria).",
+      "Somnolencia, mareo.",
+      "Náuseas.",
+      "Aumento de la frecuencia cardíaca (taquicardia).",
+      "Sensación de calor o enrojecimiento de la piel (por disminución de la sudoración)."
+    ],
+    "uncommon": [
+      "Confusión, especialmente en ancianos.",
+      "Dolor de cabeza.",
+      "Distensión abdominal, gases.",
+      "Disminución de la sudoración (anhidrosis), riesgo de golpe de calor.",
+      "Debilidad muscular."
+    ],
+    "rare": [
+      "Reacciones alérgicas (rash, urticaria).",
+      "Glaucoma agudo de ángulo cerrado (en pacientes predispuestos).",
+      "Parálisis intestinal (íleo).",
+      "Arritmias cardíacas graves.",
+      "Síndrome anticolinérgico central (agitación, alucinaciones, convulsiones)."
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Otros anticolinérgicos (Hiosciamina, Escopolamina, Antidepresivos tricíclicos, Antihistamínicos de 1ª generación, Antipsicóticos típicos)",
+        "effect": "Efecto aditivo. Mayor riesgo de efectos adversos anticolinérgicos graves (boca seca extrema, retención urinaria, íleo, confusión, taquicardia).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores de la CYP3A4 (Ketoconazol, Itraconazol, Claritromicina, Ritonavir, Jugo de toronja)",
+        "effect": "Aumentan los niveles plasmáticos de Clidinio, incrementando su efecto y toxicidad.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inductores de la CYP3A4 (Rifampicina, Carbamazepina, Fenitoína, Hierba de San Juan)",
+        "effect": "Disminuyen los niveles plasmáticos de Clidinio, reduciendo su eficacia.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Digoxina",
+        "effect": "El Clidinio puede disminuir la motilidad intestinal, aumentando la absorción de Digoxina y elevando su nivel en sangre, con riesgo de toxicidad (náuseas, arritmias).",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Levodopa",
+        "effect": "El Clidinio puede retardar el vaciamiento gástrico, aumentando el metabolismo de la Levodopa en el estómago y disminuyendo su absorción, reduciendo su efecto en Parkinson.",
+        "severidad": "Moderada"
+      }
+    ],
+    "withFood": "Puede tomarse con o sin alimentos. Tomarlo con alimentos puede ayudar a reducir molestias gástricas leves. El alcohol potencia los efectos depresores del sistema nervioso central (somnolencia, mareo) y debe evitarse. El jugo de toronja (pomelo) inhibe el metabolismo del fármaco y NO debe consumirse durante el tratamiento.",
+    "withSupplements": "La hierba de San Juan (Hypericum perforatum) es un potente inductor enzimático y puede disminuir la eficacia del Clidinio. Otros suplementos con efectos anticolinérgicos (como algunos para el resfriado con belladona) pueden potenciar los efectos adversos."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "C",
+      "recommendation": "No hay estudios adecuados en mujeres embarazadas. Solo debe usarse durante el embarazo si el beneficio potencial justifica claramente el riesgo potencial para el feto. Se recomienda evitar su uso, especialmente en el primer trimestre. Puede causar taquicardia fetal. Consultar siempre al médico.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se desconoce si se excreta en la leche materna humana. Dado su perfil de efectos adversos (anticolinérgicos) y la sensibilidad de los lactantes, se recomienda evitar su uso durante la lactancia o suspender la lactancia si el tratamiento es indispensable. Consultar al médico.",
+    "pediatric": "La seguridad y eficacia en niños no están bien establecidas. Generalmente no se recomienda en menores de 12 años. Los niños son más susceptibles a los efectos adversos centrales (excitación paradójica, alucinaciones) y al golpe de calor por disminución de la sudoración. Uso solo bajo estricta supervisión médica especializada.",
+    "geriatric": "Los pacientes mayores son extremadamente sensibles a los efectos anticolinérgicos. Mayor riesgo de confusión, pérdida de memoria, alucinaciones, retención urinaria, estreñimiento severo y glaucoma. Iniciar con dosis muy bajas (la mitad de la dosis adulta) y aumentar lentamente. Monitorear función cognitiva y estado hidratación."
+  },
+  "administration": {
+    "howToTake": "Tomar las tabletas o cápsulas por vía oral con un vaso lleno de agua. Puede tomarse con alimentos si causa malestar estomacal. No triturar, masticar o partir las tabletas de liberación estándar a menos que lo indique el médico o farmacéutico. Para las presentaciones combinadas (ej. con Clordiazepóxido), seguir las instrucciones específicas de dosificación para el trastorno de ansiedad. Tomar a las mismas horas cada día para mantener un nivel constante en sangre.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (entre 15°C y 30°C). Proteger de la luz, la humedad y el calor excesivo. Mantener fuera del alcance y de la vista de los niños y mascotas. No utilizar después de la fecha de caducidad impresa.",
+    "specialInstructions": "Este medicamento puede causar somnolencia, mareo o visión borrosa. No conducir vehículos, operar maquinaria peligrosa o realizar actividades que requieran alerta hasta conocer cómo le afecta. Evitar el consumo de bebidas alcohólicas. Informar al médico si los síntomas abdominales empeoran o si aparece fiebre, distensión abdominal marcada o incapacidad para orinar. Mantener una buena hidratación para contrarrestar la boca seca."
+  },
+  "monitoring": {
+    "labTests": [
+      "Función renal (creatinina sérica, TFG).",
+      "Función hepática (transaminasas, bilirrubina).",
+      "Conteo sanguíneo completo (CSC) en uso prolongado (poco frecuente).",
+      "Niveles de digoxina si se usa concomitantemente."
+    ],
+    "frequency": "Monitoreo clínico en cada consulta para evaluar eficacia y efectos adversos. Pruebas de laboratorio basal y periódicamente (cada 6-12 meses) en uso crónico, o según condición del paciente.",
+    "signsToWatch": [
+      "Dificultad para orinar o chorro débil.",
+      "Dolor ocular intenso, visión de halos (posible glaucoma).",
+      "Confusión, agitación o alucinaciones.",
+      "Estreñimiento severo o distensión abdominal dolorosa.",
+      "Fiebre sin sudoración (riesgo de golpe de calor).",
+      "Palpitaciones o latidos cardíacos irregulares."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Síntomas anticolinérgicos intensos: Boca y piel extremadamente secas, pupilas dilatadas y fijas (midriasis), visión borrosa.",
+      "Fiebre alta (hiperpirexia) por falta de sudoración.",
+      "Taquicardia severa, arritmias.",
+      "Retención urinaria.",
+      "Estreñimiento o íleo paralítico.",
+      "Delirio, alucinaciones, agitación, convulsiones, depresión respiratoria, coma."
+    ],
+    "treatment": "Es una emergencia médica. Tratamiento de soporte. Medir y mantener vía aérea, respiración y circulación. Lavado gástrico o carbón activado si la ingestión es reciente. Control de la fiebre con medios físicos (compresas). Control de arritmias si es necesario. El antídoto específico es la Fisostigmina, que debe administrarse con precaución en un entorno hospitalario por riesgo de bradicardia y convulsiones. Tratamiento sintomático.",
+    "antidote": "Fisostigmina (Antilirium®)."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Rx).",
+    "scheduleMexico": "Fracción III (Sustancias medicamentosas con posibilidad de causar farmodependencia, por su combinación con Clordiazepóxido en algunas presentaciones). Como monodroga, generalmente Fracción IV.",
+    "fdaApprovalYear": "Aprobado por la FDA en la década de 1960."
+  },
+  "brandsMexico": [
+    "Librax® (combinación Clidinio + Clordiazepóxido)",
+    "Quarzan®",
+    "Eglonyl® (en combinación, según presentación)",
+    "Clidinio Bromuro Genérico (varios laboratorios nacionales)."
+  ],
+  "clinicalPearls": [
+    "El 'Síndrome Anticolinérgico Agudo' por sobredosis se recuerda con la mnemotecnia: 'Caliente como una liebre, ciego como un murciélago, seco como un hueso, rojo como una remolacha y loco como un sombrerero' (fiebre, midriasis/ceguera, sequedad, rubor, delirio).",
+    "En ancianos, incluso dosis terapéuticas pueden precipitar un cuadro confusional agudo que se puede confundir con demencia o delirium por otra causa. Siempre considerar la medicación como culpable.",
+    "Su combinación clásica con Clordiazepóxido (Librax®) busca tratar la comorbilidad ansiedad-síntomas gastrointestinales, pero añade los riesgos de la benzodiacepina (sedación, dependencia). Hoy se prefiere usar los componentes por separado para un mejor control de dosis."
+  ],
+  "patientCounseling": "Este medicamento le ayudará a controlar los cólicos, el dolor abdominal y la urgencia para ir al baño, pero no cura la enfermedad de base. Tómelo exactamente como se lo recetó su médico, no aumente la dosis por su cuenta. Puede causar boca seca; beba sorbos de agua, mastique chicle sin azúcar o use sustitutos de saliva. Le puede dar sueño y mareo, así que tenga cuidado al manejar o usar herramientas. Evite completamente el alcohol. Si siente que los ojos se le ponen rojos y le duelen mucho, deje de tomarlo y avise a su médico de inmediato, podría ser glaucoma. Si tiene dificultad para orinar, estreñimiento muy fuerte, fiebre sin sudor o se siente confundido, también debe contactar a su médico. No deje de tomarlo repentinamente si lo ha usado por mucho tiempo, consulte cómo hacerlo. Guarde el medicamento en un lugar seguro, lejos del calor y la humedad.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor abdominal tipo cólico",
+        "slug": "dolor-abdominal-tipo-colico"
+      },
+      {
+        "name": "Diarrea",
+        "slug": "diarrea"
+      },
+      {
+        "name": "Urgencia defecatoria",
+        "slug": "urgencia-defecatoria"
+      },
+      {
+        "name": "Distensión abdominal",
+        "slug": "distension-abdominal"
+      },
+      {
+        "name": "Espasmos intestinales",
+        "slug": "espasmos-intestinales"
+      },
+      {
+        "name": "Acidez estomacal (como coadyuvante)",
+        "slug": "acidez-estomacal"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Síndrome de Intestino Irritable (SII)",
+        "slug": "sindrome-de-intestino-irritable"
+      },
+      {
+        "name": "Colon espástico",
+        "slug": "colon-espastico"
+      },
+      {
+        "name": "Colitis mucosa",
+        "slug": "colitis-mucosa"
+      },
+      {
+        "name": "Trastornos funcionales digestivos",
+        "slug": "trastornos-funcionales-digestivos"
+      },
+      {
+        "name": "Úlcera péptica (como terapia adyuvante)",
+        "slug": "ulcera-peptica"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Glaucoma agudo de ángulo cerrado",
+        "slug": "glaucoma-agudo-de-angulo-cerrado"
+      },
+      {
+        "name": "Retención urinaria",
+        "slug": "retencion-urinaria"
+      },
+      {
+        "name": "Íleo paralítico",
+        "slug": "ileo-paralitico"
+      },
+      {
+        "name": "Delirio anticolinérgico",
+        "slug": "delirio-anticolinergico"
+      },
+      {
+        "name": "Golpe de calor",
+        "slug": "golpe-de-calor"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Presión intraocular",
+        "slug": "presion-intraocular",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Nivel sérico de Digoxina",
+        "slug": "nivel-serico-de-digoxina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Temperatura corporal",
+        "slug": "temperatura-corporal",
+        "effect": "Puede elevar (en sobredosis/insolación)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Creatinina sérica y cálculo de TFG",
+        "slug": "creatinina-serica",
+        "reason": "Para ajustar dosis en pacientes con riesgo de insuficiencia renal."
+      },
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-de-funcion-hepatica",
+        "reason": "Para evaluar metabolismo del fármaco, especialmente en uso crónico."
+      },
+      {
+        "name": "Tonometría (medición de presión ocular)",
+        "slug": "tonometria",
+        "reason": "En pacientes con antecedentes o riesgo de glaucoma."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve el Clidinio Bromuro?",
+      "a": "Sirve principalmente para aliviar el dolor abdominal tipo cólico, los espasmos intestinales, la diarrea y la urgencia para ir al baño, que son síntomas comunes en problemas como el colon irritable o el colon espástico. Relaja los músculos del intestino y reduce sus movimientos exagerados."
+    },
+    {
+      "q": "¿Es lo mismo que un laxante?",
+      "a": "No, es todo lo contrario. Los laxantes ayudan a evacuar, mientras que el Clidinio Bromuro reduce los movimientos del intestino y puede causar estreñimiento. Es un antiespasmódico y antisecretor."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Generalmente comienza a hacer efecto entre 1 y 2 horas después de tomarlo. La duración del alivio es de aproximadamente 6 a 8 horas, por lo que a veces se necesita tomar varias veces al día."
+    },
+    {
+      "q": "¿Puedo tomarlo si estoy embarazada?",
+      "a": "No se recomienda durante el embarazo a menos que su médico lo considere absolutamente necesario y los beneficios superen los riesgos. Es categoría C de la FDA. Debe consultarlo con su ginecólogo."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si estoy en tratamiento con Clidinio?",
+      "a": "No. El alcohol puede aumentar mucho los efectos de somnolencia y mareo causados por el medicamento, haciendo que sea peligroso conducir o realizar actividades que requieran atención. Además, puede irritar más el estómago."
+    },
+    {
+      "q": "¿Qué hago si se me olvida una dosis?",
+      "a": "Tómela tan pronto como se acuerde, pero si ya es casi la hora de la siguiente dosis, sáltese la que olvidó y continúe con su horario normal. Nunca tome dos dosis a la vez para compensar."
+    },
+    {
+      "q": "¿Puede causar adicción o dependencia?",
+      "a": "El Clidinio Bromuro por sí solo no causa dependencia física como las benzodiacepinas. Sin embargo, algunas marcas (como Librax®) lo combinan con Clordiazepóxido, que SÍ es una benzodiacepina y puede causar dependencia si se usa por largo tiempo. Siga siempre las indicaciones de su médico."
+    },
+    {
+      "q": "¿Por qué me da tanta boca seca?",
+      "a": "La boca seca es uno de sus efectos secundarios más comunes porque el medicamento reduce la producción de saliva. Para aliviarlo, beba sorbos de agua frecuentemente, mastique chicle sin azúcar o use caramelos duros sin azúcar."
+    },
+    {
+      "q": "¿Puedo manejar automóvil mientras lo tomo?",
+      "a": "Debe tener precaución. Este medicamento puede causar somnolencia, mareo o visión borrosa, especialmente al inicio del tratamiento. No maneje ni opere maquinaria peligrosa hasta que esté seguro de cómo le afecta."
+    },
+    {
+      "q": "¿Interfiere con las pastillas anticonceptivas?",
+      "a": "No hay evidencia de una interacción directa que reduzca la eficacia de los anticonceptivos hormonales. Sin embargo, si el Clidinio le causa diarrea o vómito severos, la absorción de las pastillas podría verse afectada. Use un método de respaldo en ese caso y consulte a su médico."
+    },
+    {
+      "q": "¿Es seguro para personas con diabetes?",
+      "a": "Puede usarse con precaución. La boca seca puede ser confundida con sed por alta glucosa. No afecta directamente los niveles de azúcar. Sin embargo, si está tomando medicamentos para la diabetes, consulte con su médico por posibles interacciones."
+    },
+    {
+      "q": "¿Puedo tomarlo si tengo glaucoma?",
+      "a": "Depende del tipo de glaucoma. Está ABSOLUTAMENTE CONTRAINDICADO en glaucoma de ángulo cerrado, ya que puede desencadenar un ataque agudo. En glaucoma de ángulo abierto, podría usarse con extrema precaución y bajo estrecha supervisión del oftalmólogo. Informe siempre a su médico si tiene glaucoma."
+    },
+    {
+      "q": "¿Qué pasa si tomo más de la dosis recetada?",
+      "a": "Una sobredosis es GRAVE. Puede causar boca y piel extremadamente secas, fiebre alta, latidos cardíacos muy rápidos, confusión, alucinaciones, convulsiones y dificultad para orinar. Es una emergencia médica. Acuda inmediatamente al hospital o llame al centro de toxicología."
+    },
+    {
+      "q": "¿Puedo tomarlo por tiempo indefinido?",
+      "a": "No está diseñado para uso crónico continuo e indefinido. Se usa para controlar síntomas en periodos de crisis. El uso prolongado aumenta el riesgo de efectos adversos como estreñimiento crónico, retención urinaria y problemas cognitivos en ancianos. Su médico debe reevaluar periódicamente la necesidad de continuarlo."
+    },
+    {
+      "q": "¿Por qué a veces lo combinan con un ansiolítico (como en Librax®)?",
+      "a": "Porque el estrés y la ansiedad son factores que con frecuencia empeoran los síntomas del colon irritable y otros trastornos digestivos funcionales. La combinación busca tratar ambos aspectos: la ansiedad (con el ansiolítico) y los espasmos intestinales (con el Clidinio). Hoy en día, muchos médicos prefieren recetar los medicamentos por separado para un mejor control."
+    },
+    {
+      "q": "¿Qué interacciones peligrosas tiene con otros medicamentos comunes?",
+      "a": "Interactúa de forma GRAVE con otros medicamentos que también tienen efectos anticolinérgicos, como algunos antigripales, antialérgicos (difenhidramina), antidepresivos antiguos (amitriptilina) y algunos para el Parkinson. La combinación puede causar confusión severa, retención de orina, íleo y taquicardia. Siempre informe a su médico y farmacéutico de TODOS los medicamentos que toma."
+    },
+    {
+      "q": "¿Afecta los niveles de potasio o sodio en la sangre?",
+      "a": "No es un efecto común o directo del Clidinio Bromuro. Sin embargo, si causa diarrea severa (aunque es raro) o vómitos, podría alterar los electrolitos. Su efecto principal es sobre la función muscular lisa y las glándulas."
+    },
+    {
+      "q": "¿Es útil para los cólicos menstruales?",
+      "a": "No es su indicación principal. Los cólicos menstruales (dismenorrea) son causados por contracciones del útero, no del intestino. Existen medicamentos más específicos para eso (antiinflamatorios no esteroideos). Podría ofrecer algún alivio si hay un componente de espasmo intestinal asociado, pero no es el tratamiento de elección."
+    },
+    {
+      "q": "¿Cómo se debe suspender el tratamiento después de un uso prolongado?",
+      "a": "Si lo ha tomado solo (sin benzodiacepina), generalmente puede suspenderse reduciendo la dosis gradualmente durante unos días para evitar un rebote de los síntomas intestinales (dolor, diarrea). Si lo tomaba en combinación con Clordiazepóxido (Librax®), la suspensión debe ser MUY GRADUAL y supervisada por el médico para evitar un síndrome de abstinencia por la benzodiacepina (ansiedad, insomnio, temblores). Nunca suspenda bruscamente."
+    },
+    {
+      "q": "En un paciente anciano con demencia incipiente que empieza con confusión, ¿debe considerarse la intoxicación por Clidinio como causa reversible?",
+      "a": "Absolutamente SÍ. El Clidinio Bromuro es un culpable clásico de delirium (confusión aguda) en adultos mayores, incluso a dosis terapéuticas. Su efecto anticolinérgico central puede precipitar o empeorar síntomas cognitivos. Ante cualquier cambio agudo en el estado mental de un anciano que toma este fármaco, se debe sospechar en primer lugar su toxicidad y considerar su suspensión. Es una causa reversible de deterioro cognitivo agudo."
+    }
+  ]
+}

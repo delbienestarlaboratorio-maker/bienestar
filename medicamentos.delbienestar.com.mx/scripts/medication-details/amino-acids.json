@@ -1,0 +1,405 @@
+{
+  "name": "Aminoácidos (Solución Hipertónica de Aminoácidos)",
+  "summary": "Los aminoácidos son las unidades básicas que forman las proteínas en el cuerpo, esenciales para la vida. Esta solución hipertónica es un medicamento que se administra directamente en la vena (intravenoso) y sirve para proporcionar nutrición a pacientes que no pueden comer por la boca o cuya alimentación normal es insuficiente. Es de vital importancia clínica en situaciones como cirugías mayores, quemaduras graves, cáncer, infecciones severas o enfermedades del intestino que impiden la absorción de nutrientes, ya que ayuda a prevenir la desnutrición, mantiene la masa muscular, favorece la cicatrización de heridas y apoya al sistema de defensas del cuerpo. Sin esta terapia nutricional, muchos pacientes graves podrían deteriorarse rápidamente, tener más complicaciones y una recuperación más lenta. Es un pilar fundamental de la medicina de soporte en hospitales.",
+  "pharmacology": {
+    "mechanismOfAction": "Las soluciones hipertónicas de aminoácidos actúan como sustratos esenciales para la síntesis de proteínas en el cuerpo. Al ser infundidas directamente en el torrente sanguíneo, proporcionan los componentes básicos (aminoácidos esenciales y no esenciales) que las células utilizan para construir nuevas proteínas. Este proceso es crucial para mantener y reparar tejidos, producir enzimas y hormonas, y apoyar la función del sistema inmunológico. La solución es 'hipertónica', lo que significa que tiene una concentración mayor de partículas que la sangre, lo que ayuda a atraer agua hacia el torrente sanguíneo desde los tejidos, contribuyendo al mantenimiento del volumen intravascular. Los aminoácidos también pueden ser utilizados como fuente de energía cuando se metabolizan, aunque su principal función es estructural y de reparación.",
+    "pharmacologicClass": "Nutrición Parenteral; Solución de Aminoácidos; Agente Nutritivo Intravenoso; Solución Hipertónica.",
+    "therapeuticClass": "Nutrición Parenteral Total (NPT) o Suplementaria.",
+    "absorption": "No aplica. Se administra por vía intravenosa, por lo que la biodisponibilidad es del 100%. Los aminoácidos están inmediatamente disponibles en el torrente sanguíneo sin pasar por el proceso de digestión y absorción intestinal.",
+    "distribution": "Los aminoácidos se distribuyen ampliamente por todo el organismo a través del torrente sanguíneo. Son captados activamente por los tejidos periféricos, especialmente el músculo esquelético, el hígado y el tejido visceral. La unión a proteínas plasmáticas es variable según el aminoácido específico. El volumen de distribución refleja el espacio acuoso total del cuerpo.",
+    "metabolism": "Los aminoácidos son metabolizados principalmente en el hígado a través de procesos como la transaminación y la desaminación. También son metabolizados en el músculo esquelético y otros tejidos. Se incorporan a vías metabólicas centrales como el ciclo de la urea (para la eliminación del nitrógeno) y el ciclo de Krebs (para la producción de energía). No están involucradas enzimas del citocromo P450 (CYP) de manera significativa en su metabolismo primario.",
+    "elimination": "Los aminoácidos no se eliminan como tales en orina o heces en condiciones normales. El nitrógeno proveniente del catabolismo de los aminoácidos se elimina principalmente en forma de urea a través de la orina. La vida media de los aminoácidos individuales en plasma es corta, de minutos a pocas horas, ya que son rápidamente incorporados a proteínas o metabolizados. La vía de eliminación final es renal (urea, creatinina) y en menor medida por otras vías.",
+    "onsetOfAction": "El inicio de acción es inmediato tras el inicio de la infusión intravenosa, ya que los aminoácidos están disponibles para su uso celular de forma instantánea.",
+    "durationOfAction": "La duración del efecto depende de la tasa de infusión y de las necesidades metabólicas del paciente. Los efectos anabólicos (de construcción de proteínas) persisten mientras se mantenga la infusión y exista un balance energético positivo. No tiene un efecto farmacológico sostenido después de suspender la infusión."
+  },
+  "indications": {
+    "approved": [
+      "Nutrición Parenteral Total (NPT) en pacientes con falla intestinal (ej. síndrome de intestino corto, fístulas enterocutáneas de alto débito, obstrucción intestinal).",
+      "Suplementación nutricional parenteral en pacientes desnutridos o en riesgo de desnutrición que no pueden recibir nutrición enteral adecuada (por boca o sonda).",
+      "Soporte nutricional en pacientes postoperatorios mayores con complicaciones que impiden la alimentación oral/enteral por más de 5-7 días.",
+      "Soporte nutricional en pacientes críticos (UCI) con alto estrés metabólico (sepsis, trauma, quemaduras graves).",
+      "Pacientes oncológicos con caquexia y mala absorción severa secundaria a tratamiento."
+    ],
+    "offLabel": [
+      "Suplementación en algunos trastornos metabólicos congénitos.",
+      "Como parte de soluciones de nutrición parenteral para pacientes con pancreatitis aguda grave.",
+      "En algunos protocolos de soporte nutricional para enfermedad inflamatoria intestinal grave en brote."
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis se calcula individualmente según el requerimiento proteico. Rango típico: 0.8 a 2.0 gramos de aminoácidos por kilogramo de peso corporal por día. En pacientes críticos o hipercatabólicos (quemaduras, sepsis), puede requerirse hasta 2.5 g/kg/día. La infusión suele ser continua durante 12-24 horas al día.",
+    "pediatric": "Recién nacidos y lactantes: 2.5 - 3.5 g/kg/día. Niños y adolescentes: 1.5 - 2.5 g/kg/día. La dosis debe ser calculada meticulosamente por un especialista en nutrición pediátrica.",
+    "elderly": "Pueden requerir dosis más bajas (0.8 - 1.5 g/kg/día) debido a la posible disminución de la función renal y hepática. Se debe evaluar la función renal y ajustar en consecuencia.",
+    "renalImpairment": "Insuficiencia Renal Aguda/Crónica: Se utilizan soluciones especiales de aminoácidos esenciales o nefro-adaptadas. Dosis reducidas (0.6 - 1.0 g/kg/día) para evitar la acumulación de productos nitrogenados. En diálisis, los requerimientos pueden ser mayores (1.2 - 1.5 g/kg/día).",
+    "hepaticImpairment": "Insuficiencia Hepática: Se utilizan soluciones hepato-adaptadas con mayor proporción de aminoácidos de cadena ramificada (BCAA) y menor de aromáticos. Dosis reducidas y monitorización estrecha del amoníaco y estado neurológico.",
+    "maxDose": "No existe una dosis máxima universal absoluta, pero rara vez se exceden los 2.5 g/kg/día en adultos, ya que el exceso puede sobrecargar los sistemas de eliminación de nitrógeno (riñón, hígado)."
+  },
+  "dosageForms": [
+    {
+      "form": "Solución inyectable para infusión intravenosa",
+      "strengths": [
+        "5%",
+        "7%",
+        "8.5%",
+        "10%",
+        "15%",
+        "20%"
+      ],
+      "route": "Intravenosa (IV)"
+    },
+    {
+      "form": "Solución en bolsa lista para usar (con o sin otros nutrientes)",
+      "strengths": [
+        "500 ml",
+        "1000 ml",
+        "1500 ml",
+        "2000 ml"
+      ],
+      "route": "Intravenosa (IV)"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a cualquier componente de la solución.",
+      "Anuria (ausencia de producción de orina) no tratada con diálisis.",
+      "Alteraciones metabólices graves no corregidas (hiperamonemia, acidosis metabólica severa, coma hepático).",
+      "Sobrecarga de líquidos o edema pulmonar agudo."
+    ],
+    "relative": [
+      "Insuficiencia hepática severa.",
+      "Insuficiencia renal severa no dializada.",
+      "Alteraciones electrolíticas severas (hiperkalemia, hiperfosfatemia).",
+      "Trastornos de la oxidación de ácidos grasos."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Flebitis o irritación en el sitio de la inyección (si se usa vía periférica).",
+      "Alteraciones en las pruebas de función hepática (elevación de transaminasas)."
+    ],
+    "common": [
+      "Náuseas.",
+      "Dolor de cabeza.",
+      "Sensación de calor o rubor durante la infusión.",
+      "Hiperglucemia (azúcar alta en sangre)."
+    ],
+    "uncommon": [
+      "Vómitos.",
+      "Escalofríos o fiebre.",
+      "Mareo.",
+      "Alteraciones electrolíticas (potasio, fósforo, magnesio)."
+    ],
+    "rare": [
+      "Reacciones alérgicas severas (anafilaxia).",
+      "Acidosis metabólica hiperclorémica.",
+      "Esteatosis hepática (hígado graso) con uso prolongado.",
+      "Colecistitis alitiásica (inflamación de la vesícula)."
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Tetraciclinas (ej. Doxiciclina)",
+        "effect": "Los aminoácidos pueden quelar (unirse) a las tetraciclinas en el tubo digestivo, reduciendo su absorción si se administran por sonda al mismo tiempo. Administrar con separación de al menos 2 horas.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Levotiroxina",
+        "effect": "La administración simultánea por sonda nasogástrica puede reducir la absorción de la levotiroxina. Separar la administración al menos 4 horas.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Fenitoína",
+        "effect": "La nutrición parenteral puede reducir los niveles sanguíneos de fenitoína. Se requiere monitorización estrecha de niveles y ajuste de dosis.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Warfarina",
+        "effect": "Los cambios en el estado nutricional y la posible inclusión de vitamina K en la mezcla de nutrición parenteral pueden alterar el efecto anticoagulante. Monitorizar INR frecuentemente.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "No aplica directamente, ya que se administra por vía intravenosa. Sin embargo, si el paciente recibe también alimentación por boca o sonda, el equipo médico calculará el aporte total de nutrientes para evitar sobrealimentación.",
+    "withSupplements": "La administración concurrente de suplementos de hierro por vía intravenosa debe ser cuidadosamente espaciada, ya que pueden interactuar en la mezcla. Los suplementos de selenio y otros oligoelementos suelen añadirse directamente a la mezcla de nutrición parenteral bajo supervisión médica."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría C (FDA). No hay estudios adecuados en humanos, pero el beneficio puede justificar el riesgo potencial.",
+      "recommendation": "Se puede utilizar durante el embarazo si es claramente necesario, como en casos de hiperémesis gravídica severa con desnutrición o en otras condiciones que impidan la alimentación oral. Los requerimientos de aminoácidos y otros nutrientes están aumentados. Debe ser manejado por un equipo multidisciplinario (obstetra, nutriólogo, farmacéutico).",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Los aminoácidos son componentes naturales de la leche materna. La administración de aminoácidos por vía intravenosa a la madre no contraindica la lactancia, ya que no se espera que altere significativamente la composición de la leche de manera perjudicial. Es compatible con la lactancia materna.",
+    "pediatric": "Uso seguro y establecido en neonatología y pediatría, pero requiere fórmulas y dosis específicas para cada edad. Es crucial el cálculo preciso por peso y superficie corporal. Se utilizan soluciones pediátricas especiales con perfiles de aminoácidos adaptados (ej. mayor contenido de taurina, cisteína).",
+    "geriatric": "Los adultos mayores son más susceptibles a la sobrecarga de líquidos, alteraciones electrolíticas y disfunción renal/hepática. Se deben usar dosis iniciales más bajas y realizar ajustes lentos. Monitorizar estrechamente función renal, hígado y estado de hidratación."
+  },
+  "administration": {
+    "howToTake": "EXCLUSIVAMENTE para administración intravenosa por personal médico capacitado. Se administra a través de un catéter venoso central (colocado en una vena grande del pecho) o, en soluciones menos concentradas, por una vena periférica grande. La infusión es lenta y continua, usando una bomba de infusión para controlar la velocidad con precisión. La mezcla completa de Nutrición Parenteral (aminoácidos, glucosa, lípidos, electrolitos, vitaminas) se prepara bajo condiciones estériles en farmacia hospitalaria.",
+    "storage": "Las bolsas listas para usar deben almacenarse refrigeradas (entre 2°C y 8°C) hasta su uso. No congelar. Proteger de la luz. Una vez sacada del refrigerador y conectada al paciente, la infusión debe completarse en un plazo determinado (usualmente 24 horas) para evitar contaminación o degradación.",
+    "specialInstructions": "NUNCA se debe administrar en forma de bolo rápido. La solución debe ser inspeccionada visualmente antes de su uso; no usar si está turbia, contiene partículas o el envase está dañado. Es fundamental la técnica estéril para prevenir infecciones del torrente sanguíneo. El sitio de inserción del catéter debe revisarse diariamente."
+  },
+  "monitoring": {
+    "labTests": [
+      "Glucosa sérica (al menos diaria al inicio).",
+      "Electrolitos séricos (Sodio, Potasio, Cloro, Bicarbonato).",
+      "Pruebas de función hepática (AST, ALT, Fosfatasa Alcalina, Bilirrubina).",
+      "Nitrógeno Ureico (BUN) y Creatinina.",
+      "Triglicéridos séricos (si se incluyen lípidos).",
+      "Albúmina y Prealbúmina (para evaluar respuesta nutricional).",
+      "Fósforo, Magnesio, Calcio.",
+      "Hemograma completo."
+    ],
+    "frequency": "Diaria durante la primera semana o en ajustes de dosis. Luego, 2-3 veces por semana en pacientes estables. En pacientes críticos, puede ser diaria o incluso más frecuente.",
+    "signsToWatch": [
+      "Fiebre o escalofríos (signo de infección).",
+      "Hinchazón, enrojecimiento o dolor en el sitio de la infusión.",
+      "Dificultad para respirar o hinchazón generalizada (sobrecarga de líquidos).",
+      "Confusión, somnolencia excesiva o temblores (alteraciones metabólicas).",
+      "Náuseas o vómitos severos.",
+      "Orina muy escasa o ausente."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Sobrecarga de líquidos: hinchazón (edema), dificultad para respirar, sonidos crepitantes en los pulmones.",
+      "Alteraciones electrolíticas severas: debilidad muscular, arritmias cardíacas.",
+      "Hiperamonemia: confusión, letargo, vómitos, convulsiones.",
+      "Acidosis metabólica: respiración rápida y profunda, confusión.",
+      "Esteatosis hepática (a largo plazo)."
+    ],
+    "treatment": "Suspender inmediatamente la infusión. Tratamiento de soporte según los síntomas: diuréticos para la sobrecarga de líquidos, corrección de electrolitos, insulina para hiperglucemia severa. En casos de hiperamonemia, pueden usarse fármacos que favorecen la eliminación de amoníaco. El soporte es sintomático.",
+    "antidote": "No existe un antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial para uso hospitalario. No es de venta libre.",
+    "scheduleMexico": "Medicamento de la Fracción IV (Medicamentos de venta con receta médica).",
+    "fdaApprovalYear": "Las primeras soluciones de aminoácidos para nutrición parenteral fueron aprobadas en la década de 1960."
+  },
+  "brandsMexico": [
+    "Aminoplasmal",
+    "Aminosteril",
+    "Aminoven",
+    "FreAmine",
+    "Glamin",
+    "HepatAmine",
+    "Nephramine",
+    "Nutriflex",
+    "Olimel",
+    "Plasmalyte con Aminoácidos",
+    "Primene",
+    "Renamin",
+    "StructoKabiven",
+    "Travasol",
+    "Vamin"
+  ],
+  "clinicalPearls": [
+    "La 'hiperglucemia de estrés' es común al iniciar la nutrición parenteral, especialmente en pacientes críticos. Requiere manejo activo con insulina, no es razón para suspender la nutrición.",
+    "El síndrome de realimentación es una complicación temible y prevenible. Ocurre al iniciar nutrición (incluyendo aminoácidos) en un paciente severamente desnutrido, causando caídas bruscas de fósforo, potasio y magnesio. Se previene iniciando la nutrición a baja dosis y aumentando lentamente.",
+    "La elevación de transaminasas (AST/ALT) es frecuente y a menudo transitoria durante la NPT, pero un aumento persistente o la elevación de la fosfatasa alcalina y bilirrubina puede indicar colestasis asociada a la NPT, que requiere evaluación."
+  ],
+  "patientCounseling": "Este medicamento es un alimento que se administra directamente en su sangre porque su intestino no puede absorber los nutrientes de la comida normal o porque sus necesidades son muy altas. Es un tratamiento hospitalario que salva vidas. Usted no lo administra por sí mismo. Es normal sentir un poco de calor cuando empieza a pasar la solución. Es MUY IMPORTANTE que reporte de inmediato a la enfermera si siente dolor, ardor o ve hinchazón en el brazo o sitio donde tiene la vía, si le falta el aire, si tiene fiebre o escalofríos, o si se siente muy confundido o con mucho sueño. La solución lleva azúcar, por lo que es común que se le monitoree la glucosa en sangre con piquetes en el dedo. Este tratamiento ayuda a que su cuerpo tenga fuerza para combatir la enfermedad, cicatrizar heridas y recuperarse. Siga todas las indicaciones del equipo médico y de nutrición.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Pérdida de peso severa",
+        "slug": "perdida-de-peso-severa"
+      },
+      {
+        "name": "Debilidad muscular",
+        "slug": "debilidad-muscular"
+      },
+      {
+        "name": "Fatiga extrema",
+        "slug": "fatiga-extrema"
+      },
+      {
+        "name": "Desnutrición",
+        "slug": "desnutricion"
+      },
+      {
+        "name": "Dificultad para cicatrizar heridas",
+        "slug": "dificultad-para-cicatrizar-heridas"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Síndrome de intestino corto",
+        "slug": "sindrome-de-intestino-corto"
+      },
+      {
+        "name": "Fístulas enterocutáneas",
+        "slug": "fistulas-enterocutaneas"
+      },
+      {
+        "name": "Caquexia neoplásica",
+        "slug": "caquexia-neoplasica"
+      },
+      {
+        "name": "Desnutrición hospitalaria",
+        "slug": "desnutricion-hospitalaria"
+      },
+      {
+        "name": "Enfermedad inflamatoria intestinal grave",
+        "slug": "enfermedad-inflamatoria-intestinal-grave"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Esteatosis hepática (hígado graso)",
+        "slug": "esteatosis-hepatica"
+      },
+      {
+        "name": "Colecistitis alitiásica",
+        "slug": "colecistitis-alitiasica"
+      },
+      {
+        "name": "Síndrome de realimentación",
+        "slug": "sindrome-de-realimentacion"
+      },
+      {
+        "name": "Sobrecarga de volumen",
+        "slug": "sobrecarga-de-volumen"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Glucosa sérica",
+        "slug": "glucosa-serica",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Transaminasas (AST/ALT)",
+        "slug": "transaminasas-ast-alt",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Nitrógeno Ureico (BUN)",
+        "slug": "nitrogeno-ureico-bun",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Triglicéridos",
+        "slug": "trigliceridos",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Fósforo sérico",
+        "slug": "fosforo-serico",
+        "effect": "Puede disminuir (síndrome de realimentación)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Perfil Bioquímico (Electrolitos, función renal y hepática)",
+        "slug": "perfil-bioquimico",
+        "reason": "Para monitorear efectos adversos metabólicos y ajustar la fórmula."
+      },
+      {
+        "name": "Glucosa en sangre capilar",
+        "slug": "glucosa-en-sangre-capilar",
+        "reason": "Para controlar la hiperglucemia inducida por la nutrición."
+      },
+      {
+        "name": "Albúmina y Prealbúmina",
+        "slug": "albumina-y-prealbumina",
+        "reason": "Para evaluar la respuesta nutricional y adecuación de la dosis proteica."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de IMC",
+        "slug": "calculadora-imc"
+      },
+      {
+        "name": "Calculadora de calorías",
+        "slug": "calculadora-calorias"
+      },
+      {
+        "name": "Calculadora de macronutrientes",
+        "slug": "calculadora-macronutrientes"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Qué son exactamente los aminoácidos?",
+      "a": "Los aminoácidos son como los 'ladrillos' que forman todas las proteínas de su cuerpo. Las proteínas son esenciales para los músculos, los huesos, la piel, las defensas y muchas funciones vitales. Hay 20 tipos diferentes, algunos el cuerpo los puede fabricar y otros (los esenciales) deben venir de los alimentos o, en este caso, del suero intravenoso."
+    },
+    {
+      "q": "¿Para qué me ponen este suero de aminoácidos?",
+      "a": "Se le pone cuando su cuerpo no puede recibir o absorber suficientes nutrientes por la boca, ya sea por una cirugía, una enfermedad del intestino, quemaduras graves o porque está muy débil. Este suero le da directamente a la sangre los componentes para que su cuerpo fabrique sus propias proteínas, evitando que se desnutra y ayudándole a recuperarse."
+    },
+    {
+      "q": "¿Duele ponerse el suero de aminoácidos?",
+      "a": "La colocación de la vía (catéter) puede causar una molestia inicial. Durante la infusión, es común sentir una sensación de calor o rubor en el cuerpo, lo cual es normal. Si siente dolor agudo, ardor o hinchazón en el sitio de la inyección, debe avisar de inmediato a la enfermera, ya que podría ser irritación de la vena."
+    },
+    {
+      "q": "¿Cuánto tiempo tengo que estar conectado a este suero?",
+      "a": "El tiempo varía mucho según su condición. Puede ser desde unos días hasta semanas o, en casos raros, meses. El objetivo es usarlo solo mientras su intestino no funcione bien. En cuanto pueda comer por boca o por sonda, el médico irá reduciendo el suero intravenoso."
+    },
+    {
+      "q": "¿Puedo comer normalmente mientras me lo ponen?",
+      "a": "Depende de su enfermedad. A veces este suero es la única fuente de nutrición (Nutrición Parenteral Total). Otras veces, se combina con comida por boca o por sonda (Nutrición Parenteral Suplementaria). Su médico y nutriólogo le dirán exactamente qué puede y no puede comer."
+    },
+    {
+      "q": "¿Este tratamiento me hará subir de peso o ponerme 'músculo'?",
+      "a": "Su objetivo principal no es aumentar músculo como un deportista, sino prevenir la pérdida de masa muscular y peso por la enfermedad. Ayuda a mantener o recuperar un peso saludable. En un paciente desnutrido, primero se busca reparar los tejidos y luego, si las condiciones mejoran, ganar masa muscular."
+    },
+    {
+      "q": "¿Tiene efectos secundarios?",
+      "a": "Sí, como todo medicamento. Los más comunes son molestias en la vía, sensación de calor, y que se le pueda subir el azúcar en la sangre (por lo que le checarán la glucosa con frecuencia). Otros menos comunes son problemas en el hígado o alteraciones en los minerales de la sangre. El equipo médico lo monitorea para detectarlos a tiempo."
+    },
+    {
+      "q": "¿Puedo ser alérgico a los aminoácidos?",
+      "a": "Es muy raro, pero posible, ya que son componentes naturales del cuerpo. Las reacciones alérgicas graves (anafilaxia) son extremadamente infrecuentes. Si durante la infusión presenta dificultad para respirar, hinchazón de cara o labios, o ronchas, avise AL INSTANTE."
+    },
+    {
+      "q": "¿Por qué me checan el azúcar tan seguido si no soy diabético?",
+      "a": "Porque la solución de nutrición contiene glucosa (azúcar) y el estrés de la enfermedad puede hacer que su cuerpo no use bien la insulina. Esto causa 'hiperglucemia de estrés', que es común. Se controla con insulina si es necesario, y no significa que usted sea diabético permanentemente."
+    },
+    {
+      "q": "¿Esto sustituye a las vitaminas?",
+      "a": "No completamente. La solución de aminoácidos es solo una parte. La Nutrición Parenteral completa incluye además azúcares (glucosa), grasas (lípidos), vitaminas, minerales y electrolitos. Todo se mezcla en una bolsa grande para darle una nutrición completa."
+    },
+    {
+      "q": "¿Puedo recibir este tratamiento en casa?",
+      "a": "Sí, en algunos casos seleccionados y estables, se puede administrar Nutrición Parenteral en el domicilio (NPD). Requiere un entrenamiento exhaustivo del paciente o un cuidador, equipo especial, y seguimiento muy cercano por un equipo de soporte nutricional a domicilio."
+    },
+    {
+      "q": "¿Qué pasa si la vía se infecta?",
+      "a": "Es una de las complicaciones más serias, llamada infección del catéter. Puede causar fiebre, escalofríos y sepsis. Por eso es crucial el cuidado estéril del sitio de inserción. Si tiene fiebre sin otra causa aparente, siempre se debe sospechar de la vía. El tratamiento puede requerir antibióticos y a veces retirar el catéter."
+    },
+    {
+      "q": "¿Afecta los riñones o el hígado?",
+      "a": "Puede afectarlos. Los riñones eliminan los desechos del metabolismo de las proteínas (urea). Si los riñones no funcionan bien, se usan dosis más bajas o fórmulas especiales. En el hígado, es común una elevación leve y transitoria de las enzimas hepáticas. Con uso prolongado, puede causar hígado graso. Por eso se monitorean con análisis de sangre."
+    },
+    {
+      "q": "¿Interfiere con mis otros medicamentos?",
+      "a": "Puede interferir. Algunos medicamentos, como los anticoagulantes (warfarina) o para las convulsiones (fenitoína), pueden ver alterados sus niveles en sangre. Es VITAL que su médico y farmacéutico conozcan TODOS los medicamentos que recibe, incluso los intravenosos, para ajustar dosis y horarios."
+    },
+    {
+      "q": "¿Qué es el 'síndrome de realimentación' del que hablan los doctores?",
+      "a": "Es una complicación peligrosa que puede ocurrir cuando se inicia nutrición (por vena o por boca) en una persona que ha estado desnutrida por mucho tiempo. El cuerpo, al recibir nutrientes de golpe, cambia su metabolismo bruscamente y puede causar caídas graves de fósforo, potasio y magnesio en la sangre, llevando a problemas cardíacos y neurológicos. Se previene iniciando la nutrición muy lentamente."
+    },
+    {
+      "q": "¿Por qué a veces la solución es blanca o amarilla?",
+      "a": "La solución de aminoácidos pura es transparente e incolora. Si la bolsa se ve blanca y lechosa, es porque se le han añadido las grasas (lípidos), que son de ese color. Si es amarillenta, puede ser por la adición de vitaminas. Ambas son mezclas normales de la Nutrición Parenteral completa."
+    },
+    {
+      "q": "¿Hay diferentes tipos de soluciones de aminoácidos?",
+      "a": "Sí, existen fórmulas estándar para la mayoría de pacientes, pero también fórmulas especializadas: para problemas renales (con más aminoácidos esenciales), para problemas hepáticos (con más aminoácidos de cadena ramificada), para pacientes críticos, y fórmulas pediátricas. El médico elige la más adecuada."
+    },
+    {
+      "q": "¿Cómo saben los médicos si la dosis es la correcta para mí?",
+      "a": "La calculan basándose en su peso, talla, edad, condición médica y nivel de estrés metabólico. Luego, ajustan la dosis según la respuesta, mirando sus análisis de sangre (como la prealbúmina), su balance de líquidos, su peso y su estado clínico general. Es un proceso dinámico."
+    },
+    {
+      "q": "¿Puede este tratamiento curar mi enfermedad de base?",
+      "a": "No, la nutrición parenteral no cura la enfermedad que le impide comer (como un cáncer o una enfermedad intestinal). Es un tratamiento de SOPORTE. Su función es mantenerlo bien nutrido para que su cuerpo tenga las mejores condiciones para enfrentar la enfermedad, tolerar los tratamientos (como quimioterapia) y recuperarse de cirugías. Es un apoyo fundamental."
+    },
+    {
+      "q": "¿Cuáles son los criterios para suspender la Nutrición Parenteral con aminoácidos?",
+      "a": "Los criterios principales son: 1) Que el intestino funcione lo suficiente (se tolera al menos el 60-70% de las necesidades nutricionales por vía oral o por sonda). 2) Que no haya complicaciones graves atribuibles a la NPT (como sepsis del catéter, colestasis severa). 3) Que el paciente sea dado de alta a un programa de transición (como nutrición enteral domiciliaria). La suspensión debe ser gradual para evitar desbalances."
+    }
+  ]
+}

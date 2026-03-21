@@ -1,0 +1,382 @@
+{
+  "name": "Cefcapeno",
+  "summary": "El Cefcapeno es un antibiótico de la familia de las cefalosporinas de tercera generación, utilizado para combatir infecciones causadas por bacterias. Sirve específicamente para tratar infecciones respiratorias como bronquitis y neumonía, infecciones de la piel y tejidos blandos, e infecciones del tracto urinario. Es un medicamento importante en México porque es efectivo contra una amplia gama de bacterias comunes en nuestro medio, incluyendo algunas que han desarrollado resistencia a otros antibióticos más antiguos. Su uso adecuado ayuda a resolver infecciones de manera eficaz, evitando complicaciones y la propagación de bacterias resistentes. Es crucial tomarlo exactamente como lo indica el médico, completando todo el tratamiento aunque los síntomas desaparezcan, para asegurar que la infección se cure por completo y no reaparezca.",
+  "pharmacology": {
+    "mechanismOfAction": "El Cefcapeno actúa como un antibiótico bactericida, lo que significa que mata directamente a las bacterias. Su mecanismo de acción se centra en interferir con la síntesis de la pared celular bacteriana, una estructura esencial que protege y da forma a la bacteria. Lo hace uniéndose a unas proteínas específicas llamadas Proteínas Fijadoras de Penicilina (PBP), que son enzimas cruciales para el ensamblaje final de la pared celular. Al bloquear estas proteínas, el Cefcapeno impide la formación de enlaces cruzados en la malla de peptidoglicano que compone la pared. Esto debilita estructuralmente la pared celular, la cual, bajo la presión osmótica interna de la bacteria, se rompe (lisis), provocando la muerte del microorganismo. Es especialmente activo contra bacterias Gram-negativas, pero también cubre algunos Gram-positivos.",
+    "pharmacologicClass": "Antibiótico beta-lactámico; Cefalosporina de tercera generación (cefem).",
+    "therapeuticClass": "Antibiótico sistémico.",
+    "absorption": "Se absorbe bien por vía oral. La presencia de alimentos en el estómago no afecta significativamente su absorción, por lo que puede tomarse con o sin alimentos. Alcanza su concentración máxima en sangre (Cmax) aproximadamente entre 2 y 4 horas después de la administración.",
+    "distribution": "Se distribuye ampliamente en la mayoría de los tejidos y fluidos corporales, incluyendo pulmón, riñón, próstata, bilis y líquido pleural. Tiene una buena penetración en el tejido pulmonar, lo que lo hace útil para infecciones respiratorias. Su unión a proteínas plasmáticas es moderada, alrededor del 20-30%. Su volumen de distribución (Vd) es de aproximadamente 0.3-0.4 L/kg, indicando una distribución principalmente en el compartimento plasmático y extracelular.",
+    "metabolism": "El Cefcapeno se metaboliza en el hígado en una extensión limitada. No es un sustrato significativo del sistema enzimático del citocromo P450 (CYP), por lo que tiene un bajo potencial de interacciones farmacocinéticas mediadas por estas enzimas. Se metaboliza parcialmente a un metabolito abierto del anillo beta-lactámico (M1), que tiene una actividad antibacteriana muy baja.",
+    "elimination": "Se elimina principalmente sin cambios por los riñones, a través de la filtración glomerular y la secreción tubular. Aproximadamente el 60-80% de la dosis se excreta en la orina en las primeras 24 horas. Su vida media de eliminación es de aproximadamente 1.5 a 2 horas en adultos con función renal normal. En pacientes con insuficiencia renal grave, esta vida media puede prolongarse significativamente.",
+    "onsetOfAction": "Los niveles en sangre comienzan a ser detectables poco después de la absorción. El inicio del efecto antibacteriano ocurre una vez que se alcanzan concentraciones inhibitorias en el sitio de la infección, generalmente dentro de las primeras horas posteriores a la primera dosis. La mejoría clínica de los síntomas (como la fiebre) puede tardar de 24 a 72 horas.",
+    "durationOfAction": "Su efecto bactericida es dependiente del tiempo, lo que significa que es importante mantener concentraciones por encima de la Concentración Mínima Inhibitoria (CMI) del patogeno durante un período prolongado. Gracias a su vida media, se administra generalmente cada 12 horas para mantener una cobertura antibiótica adecuada durante todo el día."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones del tracto respiratorio inferior (bronquitis aguda, exacerbación aguda de bronquitis crónica, neumonía adquirida en la comunidad)",
+      "Infecciones de la piel y estructuras de la piel (como celulitis, forúnculos, abscesos)",
+      "Infecciones del tracto urinario no complicadas (cistitis aguda) y complicadas",
+      "Otitis media aguda (en pediatría)"
+    ],
+    "offLabel": [
+      "Profilaxis perioperatoria en ciertas cirugías",
+      "Tratamiento de infecciones intraabdominales leves a moderadas (en combinación con otros antibióticos)",
+      "Infecciones de huesos y articulaciones (osteomielitis, artritis séptica) por organismos susceptibles"
+    ]
+  },
+  "dosage": {
+    "adults": "Para la mayoría de las infecciones: 100 mg cada 12 horas. Para infecciones más graves (como neumonía moderada): 200 mg cada 12 horas. La dosis y duración dependen de la gravedad y localización de la infección, típicamente de 5 a 14 días.",
+    "pediatric": "Para niños mayores de 6 meses: 3 mg/kg de peso corporal cada 12 horas. Para otitis media aguda o infecciones más graves: 6 mg/kg cada 12 horas. La dosis máxima diaria pediátrica no debe exceder los 400 mg al día. No se recomienda en lactantes menores de 6 meses por falta de datos de seguridad.",
+    "elderly": "No suele requerir ajuste de dosis basado únicamente en la edad, siempre que la función renal (TFG) sea normal. Se debe evaluar la función renal antes de iniciar el tratamiento.",
+    "renalImpairment": "Ajustes necesarios según el aclaramiento de creatinina (CrCl). CrCl 30-49 mL/min: 100 mg cada 24 horas. CrCl 15-29 mL/min: 100 mg cada 48 horas. CrCl <15 mL/min o en diálisis: 100 mg cada 3-4 días (administrar después de la sesión de diálisis).",
+    "hepaticImpairment": "No se requieren ajustes de dosis específicos en insuficiencia hepática leve a moderada. En insuficiencia hepática grave, se recomienda precaución y monitorización clínica, ya que puede alterarse la excreción biliar.",
+    "maxDose": "La dosis máxima diaria en adultos es de 400 mg (en dos tomas de 200 mg cada 12 horas). En pediatría, el máximo es de 400 mg/día o 6 mg/kg cada 12 horas, lo que sea menor."
+  },
+  "dosageForms": [
+    {
+      "form": "Cápsula",
+      "strengths": [
+        "50 mg",
+        "100 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Polvo para suspensión oral",
+      "strengths": [
+        "25 mg/mL (reconstituido)"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad (alergia) conocida al Cefcapeno, a cualquier otra cefalosporina o a cualquier componente de la formulación.",
+      "Antecedentes de reacción anafiláctica (alergia grave) a cualquier antibiótico beta-lactámico (penicilinas, cefalosporinas, carbapenémicos, monobactámicos)."
+    ],
+    "relative": [
+      "Insuficiencia renal grave (ajustar dosis).",
+      "Antecedentes de colitis pseudomembranosa (inflamación del colon por antibióticos).",
+      "Pacientes con fenilcetonuria (algunas formulaciones contienen aspartamo)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Diarrea (puede ser acuosa o con sangre, ver advertencia)",
+      "Náuseas",
+      "Dolor abdominal"
+    ],
+    "common": [
+      "Dolor de cabeza",
+      "Mareos",
+      "Erupciones cutáneas (rash)",
+      "Prurito (comezón)",
+      "Candidiasis vaginal (infección por hongos) o oral"
+    ],
+    "uncommon": [
+      "Vómitos",
+      "Indigestión (dispepsia)",
+      "Flatulencia (gases)",
+      "Aumento de transaminasas (enzimas hepáticas en sangre)",
+      "Eosinofilia (aumento de un tipo de glóbulos blancos)"
+    ],
+    "rare": [
+      "Colitis pseudomembranosa (diarrea grave por Clostridioides difficile)",
+      "Reacciones de hipersensibilidad graves (anafilaxia, angioedema, síndrome de Stevens-Johnson)",
+      "Nefritis intersticial (daño renal)",
+      "Discrasias sanguíneas (neutropenia, trombocitopenia, anemia hemolítica)",
+      "Convulsiones (en casos de sobredosis o fallo renal)"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Probenecid",
+        "effect": "El probenecid bloquea la secreción tubular renal del Cefcapeno, aumentando sus niveles en sangre y prolongando su efecto. Puede utilizarse intencionalmente para este fin, pero requiere ajuste de dosis.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Anticoagulantes orales (Warfarina, Acenocumarol)",
+        "effect": "El Cefcapeno puede potenciar el efecto anticoagulante, aumentando el riesgo de sangrado. Se debe monitorizar estrechamente el INR (tiempo de coagulación).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Diuréticos de asa potentes (Furosemida)",
+        "effect": "Pueden aumentar el riesgo de toxicidad renal (nefrotoxicidad) cuando se usan conjuntamente, especialmente en pacientes deshidratados o con función renal comprometida.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Puede tomarse con o sin alimentos. Los alimentos no afectan significativamente su absorción. Se debe evitar el consumo de alcohol durante el tratamiento y hasta 72 horas después de finalizarlo, ya que puede provocar una reacción tipo 'Antabuse' (rubor facial, náuseas, palpitaciones, dolor de cabeza) y reducir la eficacia del antibiótico.",
+    "withSupplements": "Los suplementos que contienen altas dosis de calcio, hierro, zinc o magnesio (como multivitamínicos o antiácidos) pueden unirse al Cefcapeno en el intestino y reducir su absorción. Se recomienda tomar estos suplementos al menos 2 horas antes o 4 horas después de la dosis de Cefcapeno."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría B",
+      "recommendation": "Estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. Debe usarse durante el embarazo solo si claramente es necesario, evaluando el beneficio para la madre frente al riesgo potencial para el feto. Cruza la placenta en pequeñas cantidades.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "El Cefcapeno se excreta en la leche materna en concentraciones bajas. Si bien se considera compatible con la lactancia en dosis terapéuticas, existe un riesgo potencial de alterar la flora intestinal del lactante, causando diarrea o candidiasis. Se debe observar al bebé por posibles efectos adversos. Se recomienda consultar al médico.",
+    "pediatric": "Aprobado para uso en niños mayores de 6 meses. La presentación en suspensión oral es la más adecuada. La dosis se calcula cuidadosamente por peso corporal. No usar en neonatos o lactantes menores de 6 meses por falta de datos de seguridad.",
+    "geriatric": "Los pacientes mayores tienen mayor probabilidad de tener función renal disminuida. Es imperativo evaluar la función renal (con aclaramiento de creatinina) antes de iniciar el tratamiento y ajustar la dosis en consecuencia para evitar toxicidad por acumulación del fármaco."
+  },
+  "administration": {
+    "howToTake": "Tragar las cápsulas enteras con un vaso lleno de agua (aproximadamente 240 ml). Para la suspensión oral: agitar bien el frasco antes de cada uso. Medir la dosis exacta con el dosificador (jeringa o cuchara) que viene en la caja. Puede tomarse con o sin alimentos. Si causa malestar estomacal, se recomienda tomarlo con alimentos.",
+    "storage": "Cápsulas: Almacenar a temperatura ambiente (15-30°C), en un lugar seco y fuera del alcance de los niños. Suspensión oral: Una vez reconstituido con agua, el frasco debe guardarse en refrigeración (2-8°C). No congelar. La suspensión reconstituida es estable por 7 a 10 días (ver instrucciones específicas del producto). Desechar cualquier sobrante después de este período.",
+    "specialInstructions": "Es fundamental completar TODO el tratamiento prescrito por el médico, incluso si se siente mejor después de unos días. Suspenderlo antes de tiempo puede hacer que la infección regrese y que las bacterias desarrollen resistencia al antibiótico. No comparta este medicamento con otras personas, aunque tengan síntomas similares."
+  },
+  "monitoring": {
+    "labTests": [
+      "Cultivo y antibiograma del sitio de infección (antes de iniciar, si es posible)",
+      "Recuento completo de células sanguíneas (CSC) con diferencial",
+      "Pruebas de función renal (creatinina sérica, BUN, cálculo de TFG)",
+      "Pruebas de función hepática (transaminasas ALT/AST)",
+      "Examen de heces (si aparece diarrea grave o persistente, para descartar C. difficile)"
+    ],
+    "frequency": "Evaluación clínica a los 2-3 días de iniciado el tratamiento para ver respuesta. Pruebas de laboratorio al inicio y, si el tratamiento es prolongado (>10 días), repetir CSC y función renal/hepática. Monitoreo diario de signos de alergia o diarrea grave.",
+    "signsToWatch": [
+      "Aparición de erupción cutánea, urticaria, hinchazón de cara/lengua/garganta, dificultad para respirar (signos de alergia)",
+      "Diarrea acuosa o con sangre, dolor abdominal intenso, fiebre (signos de colitis pseudomembranosa)",
+      "Sangrado inusual (moretones, sangrado de encías, sangre en orina/heces)",
+      "Amarillamiento de piel u ojos (ictericia)",
+      "Convulsiones o confusión"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Náuseas y vómitos intensos",
+      "Diarrea profusa",
+      "Convulsiones (especialmente en pacientes con insuficiencia renal)",
+      "Alteraciones en los electrolitos sanguíneos"
+    ],
+    "treatment": "El tratamiento es de soporte y sintomático. No existe un antídoto específico. En caso de ingestión reciente, se puede considerar lavado gástrico o carbón activado. Las convulsiones se tratan con benzodiacepinas. En pacientes con insuficiencia renal grave, la hemodiálisis puede ayudar a eliminar el fármaco del torrente sanguíneo.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Rx). Es un antibiótico de uso controlado.",
+    "scheduleMexico": "Medicamento de la Fracción IV del Cuadro Básico de la COFEPRIS. Sujeta a control sanitario, requiere receta médica para su dispensación.",
+    "fdaApprovalYear": "No aprobado por la FDA de EE.UU. Está aprobado y comercializado en Japón, Corea, México y otros países de Asia y Latinoamérica."
+  },
+  "brandsMexico": [
+    "Cefcap",
+    "Cefcapen",
+    "Cefprox",
+    "Proxetil",
+    "Cefdox",
+    "Cefmax",
+    "Kefcapen"
+  ],
+  "clinicalPearls": [
+    "Es una cefalosporina oral de tercera generación con un espectro ampliado contra bacterias Gram-negativas, manteniendo cierta actividad contra Gram-positivos.",
+    "Muy útil como terapia escalonada (step-down) después de un tratamiento inicial intravenoso con ceftriaxona o similar para infecciones respiratorias o urinarias.",
+    "Tiene una posología conveniente (cada 12 horas) que mejora la adherencia al tratamiento comparado con antibióticos que se toman 3 o 4 veces al día.",
+    "Vigilar estrechamente la aparición de diarrea. En caso de ser grave, sospechar de Colitis por C. difficile y suspender el medicamento.",
+    "En infecciones del tracto urinario, verificar la sensibilidad del germen mediante urocultivo, ya que la resistencia a cefalosporinas orales está aumentando."
+  ],
+  "patientCounseling": "Tome este antibiótico exactamente como se lo recetó su médico. No salte dosis ni deje de tomarlo aunque se sienta mejor, porque la infección podría no estar completamente curada y volver más fuerte. Tómelo con un vaso lleno de agua. Si se le olvida una dosis, tómela en cuanto se acuerde, pero si ya es casi la hora de la siguiente, omita la que olvidó y continúe con su horario normal. No tome doble dosis. Evite el alcohol mientras esté en tratamiento y por lo menos 3 días después de terminar, para evitar malestar estomacal severo y que el medicamento no funcione bien. Informe a su médico inmediatamente si presenta sarpullido, dificultad para respirar, diarrea muy aguada o con sangre, o sangrado inusual. Este medicamento es solo para usted, no lo comparta.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre",
+        "slug": "fiebre"
+      },
+      {
+        "name": "Tos con flemas",
+        "slug": "tos-con-flemas"
+      },
+      {
+        "name": "Dolor o ardor al orinar",
+        "slug": "disuria"
+      },
+      {
+        "name": "Dolor de garganta",
+        "slug": "dolor-de-garganta"
+      },
+      {
+        "name": "Dolor e inflamación en la piel",
+        "slug": "dolor-e-inflamacion-cutanea"
+      },
+      {
+        "name": "Dolor de oído",
+        "slug": "otalgia"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Bronquitis aguda",
+        "slug": "bronquitis-aguda"
+      },
+      {
+        "name": "Neumonía adquirida en la comunidad",
+        "slug": "neumonia-comunitaria"
+      },
+      {
+        "name": "Infección de vías urinarias (Cistitis)",
+        "slug": "infeccion-vias-urinarias"
+      },
+      {
+        "name": "Celulitis",
+        "slug": "celulitis"
+      },
+      {
+        "name": "Otitis media aguda",
+        "slug": "otitis-media"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Colitis pseudomembranosa",
+        "slug": "colitis-pseudomembranosa"
+      },
+      {
+        "name": "Reacción anafiláctica",
+        "slug": "anafilaxia"
+      },
+      {
+        "name": "Candidiasis vaginal u oral",
+        "slug": "candidiasis"
+      },
+      {
+        "name": "Nefritis intersticial",
+        "slug": "nefritis-intersticial"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevarse (indicador de posible daño renal)"
+      },
+      {
+        "name": "Transaminasas (ALT/AST)",
+        "slug": "transaminasas",
+        "effect": "Puede elevar (indicador de posible daño hepático)"
+      },
+      {
+        "name": "Eosinófilos",
+        "slug": "eosinofilos",
+        "effect": "Puede elevar (indicador de reacción alérgica)"
+      },
+      {
+        "name": "Tiempo de Protrombina (INR)",
+        "slug": "inr",
+        "effect": "Puede elevar (aumenta riesgo de sangrado)"
+      },
+      {
+        "name": "Recuento de neutrófilos",
+        "slug": "neutrofilos",
+        "effect": "Puede disminuir (neutropenia)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Cultivo y antibiograma",
+        "slug": "cultivo-antibiograma",
+        "reason": "Identificar la bacteria causante y su sensibilidad al Cefcapeno."
+      },
+      {
+        "name": "Biometría Hemática Completa",
+        "slug": "biometria-hematica",
+        "reason": "Monitorear recuento de células sanguíneas y detectar discrasias."
+      },
+      {
+        "name": "Química Sanguínea (Función renal y hepática)",
+        "slug": "quimica-sanguinea",
+        "reason": "Evaluar la seguridad del fármaco en riñones e hígado."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Puedo tomar Cefcapeno si soy alérgico a la penicilina (como la amoxicilina)?",
+      "a": "Existe un riesgo de reacción cruzada. Si su alergia a la penicilina fue leve (solo sarpullido), su médico podría considerarlo con precaución. Si fue una reacción grave (dificultad para respirar, hinchazón), está contraindicado. DEBE informar siempre esta alergia a su médico o farmacéutico."
+    },
+    {
+      "q": "¿Es mejor tomarlo con el estómago vacío o con alimentos?",
+      "a": "Puede tomarlo de ambas formas. Los alimentos no afectan su eficacia. Si le causa malestar estomacal (náuseas), se recomienda tomarlo con alimentos para reducir este efecto."
+    },
+    {
+      "q": "Me olvidé de una dosis, ¿qué debo hacer?",
+      "a": "Tómela en cuanto se acuerde. Sin embargo, si ya es casi la hora de su siguiente dosis, omita la dosis olvidada y continúe con su horario normal. NO tome una dosis doble para compensar la que olvidó."
+    },
+    {
+      "q": "¿Puedo tomar alcohol mientras estoy en tratamiento con Cefcapeno?",
+      "a": "NO. Debe evitar completamente el consumo de alcohol durante el tratamiento y hasta 72 horas (3 días) después de terminar. Mezclarlo puede causar efectos secundarios graves como náuseas intensas, vómitos, palpitaciones, dolor de cabeza y reducir la efectividad del antibiótico."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Comienza a actuar en las primeras horas, pero la mejoría notable de los síntomas (como baja de la fiebre) generalmente se observa después de 2 a 3 días de tratamiento constante. Es importante completar todos los días que le recetaron."
+    },
+    {
+      "q": "¿Puede este medicamento anular el efecto de mis pastillas anticonceptivas?",
+      "a": "No hay evidencia sólida de que el Cefcapeno reduzca la eficacia de los anticonceptivos hormonales orales (pastillas). Sin embargo, si presenta vómitos o diarrea grave por el antibiótico, la absorción de la pastilla puede verse afectada. Se recomienda usar un método anticonceptivo de respaldo (como condón) durante ese ciclo como precaución."
+    },
+    {
+      "q": "¿Por qué me dio diarrea con el antibiótico?",
+      "a": "Es un efecto secundario común porque los antibióticos alteran el equilibrio normal de bacterias en su intestino. Si la diarrea es leve, puede tomar probióticos (como yogur con lactobacilos) para ayudar. Si es muy aguada, abundante, con sangre o fiebre, DEJE de tomarlo y consulte a su médico INMEDIATAMENTE, podría ser una infección grave por C. difficile."
+    },
+    {
+      "q": "¿Puedo tomarlo si estoy embarazada o amamantando?",
+      "a": "Embarazo: Solo si su médico lo considera estrictamente necesario, evaluando riesgos y beneficios. Lactancia: Se excreta en poca cantidad en la leche. Puede usarse, pero observe al bebé por posible diarrea o irritación. Consulte siempre a su médico antes de tomar cualquier medicamento en estas condiciones."
+    },
+    {
+      "q": "¿Sirve para el dolor de garganta o la gripe?",
+      "a": "Solo sirve si el dolor de garganta es causado por una bacteria (como estreptococo), no por un virus (como la gripe o resfriado común). Su médico debe diagnosticar la causa. Usar antibióticos para infecciones virales es inútil y contribuye a la resistencia bacteriana."
+    },
+    {
+      "q": "¿Qué hago si me sale un sarpullido en la piel?",
+      "a": "Suspenda el medicamento y contacte a su médico de inmediato. Un sarpullido puede ser el primer signo de una reacción alérgica que podría empeorar. No espere a que desaparezca solo."
+    },
+    {
+      "q": "¿Puedo tomar antiácidos (como Alka-Seltzer, Pepto-Bismol) o suplementos de hierro/calcio al mismo tiempo?",
+      "a": "No es recomendable tomarlos al mismo tiempo. Los antiácidos y suplementos minerales pueden interferir con la absorción del Cefcapeno. Separe la toma de estos productos al menos 2 horas antes o 4 horas después de tomar su dosis de antibiótico."
+    },
+    {
+      "q": "Mi hijo tiene otitis, ¿puedo darle la suspensión que me sobró de otra ocasión?",
+      "a": "NO. Nunca use medicamentos sobrantes, especialmente antibióticos. Cada infección es diferente y puede requerir un antibiótico distinto o una dosis ajustada al peso actual del niño. Dar el medicamento incorrecto puede ser ineficaz y peligroso."
+    },
+    {
+      "q": "¿Afecta el Cefcapeno a los riñones?",
+      "a": "Puede causar problemas renales (nefritis) en casos raros, especialmente en personas que ya tienen enfermedad renal o que están deshidratadas. Por eso su médico puede pedir un examen de creatinina antes de recetarlo. Manténgase bien hidratado tomando agua."
+    },
+    {
+      "q": "¿Puedo hacer ejercicio normal mientras lo tomo?",
+      "a": "Sí, a menos que la infección le cause malestar general o fiebre. Escuche a su cuerpo. Si el antibiótico le causa mareos, evite actividades que requieran alerta como manejar o operar maquinaria hasta que sepa cómo le afecta."
+    },
+    {
+      "q": "¿El Cefcapeno mancha los dientes?",
+      "a": "No, el Cefcapeno no mancha los dientes como lo hacen algunas tetraciclinas. Es seguro para los dientes de niños y adultos."
+    },
+    {
+      "q": "¿Es normal sentir mucho cansancio con este medicamento?",
+      "a": "El cansancio puede ser un síntoma de la infección que se está tratando, más que un efecto directo común del fármaco. Sin embargo, si el cansancio es extremo o va acompañado de mareos intensos, informe a su médico."
+    },
+    {
+      "q": "¿Qué pasa si tomo más de la dosis que me recetaron?",
+      "a": "Podría sufrir una sobredosis, con síntomas como náuseas y vómitos severos, diarrea profusa o incluso convulsiones. Si toma una dosis excesiva por error, acuda inmediatamente a un servicio de urgencias o llame al centro de toxicología."
+    },
+    {
+      "q": "Terminé el tratamiento pero aún tengo síntomas, ¿qué hago?",
+      "a": "No se automedique ni tome más antibiótico por su cuenta. Consulte nuevamente a su médico. Es posible que la infección no haya sido erradicada completamente o que sea causada por un germen resistente, requiriendo un tratamiento diferente."
+    },
+    {
+      "q": "¿El Cefcapeno es lo mismo que el Cefalexina?",
+      "a": "No, son diferentes. Ambos son cefalosporinas, pero el Cefcapeno es de tercera generación y tiene un espectro de acción más amplio contra bacterias Gram-negativas. El Cefalexina es de primera generación y cubre mejor bacterias Gram-positivas. No son intercambiables sin prescripción médica."
+    },
+    {
+      "q": "¿Por qué es importante el cultivo y antibiograma antes de empezar el tratamiento?",
+      "a": "Porque identifica con precisión la bacteria que causa la infección y prueba qué antibióticos son efectivos contra ella. Esto permite a su médico elegir el antibiótico más adecuado (como el Cefcapeno) y evitar usar uno al que la bacteria sea resistente, asegurando una curación más rápida y efectiva."
+    }
+  ]
+}

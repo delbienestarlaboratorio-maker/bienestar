@@ -1,0 +1,414 @@
+{
+  "name": "Darbepoetina alfa",
+  "summary": "La darbepoetina alfa es un medicamento inyectable que actúa como un agente estimulante de la eritropoyesis (ESA). Es una versión modificada de la eritropoyetina humana, una hormona natural producida por los riñones que le indica a la médula ósea que produzca más glóbulos rojos. Este medicamento se utiliza principalmente para tratar la anemia (bajos niveles de glóbulos rojos) en pacientes con enfermedad renal crónica, ya sea que estén en diálisis o no, y en pacientes con cáncer que desarrollan anemia como efecto secundario de la quimioterapia. Su importancia clínica radica en su capacidad para reducir la necesidad de transfusiones de sangre, mejorar la calidad de vida al aliviar síntomas como fatiga extrema, debilidad y falta de aire, y ayudar a mantener niveles adecuados de hemoglobina. A diferencia de la eritropoyetina humana natural, la darbepoetina alfa tiene una vida media más larga, lo que permite administrarla con menos frecuencia, generalmente una vez por semana o incluso cada dos o tres semanas, lo que es más conveniente para el paciente. Sin embargo, su uso requiere un control médico estricto porque niveles excesivos de hemoglobina pueden aumentar el riesgo de eventos cardiovasculares graves como infartos, accidentes cerebrovasculares y coágulos sanguíneos.",
+  "pharmacology": {
+    "mechanismOfAction": "La darbepoetina alfa es un análogo de la eritropoyetina humana recombinante, diseñado para tener una vida media más larga en el cuerpo. Su mecanismo de acción principal es unirse al receptor de la eritropoyetina (EPO-R) en las células progenitoras eritroides de la médula ósea. Esta unión activa una cascada de señales intracelulares que promueve la proliferación, diferenciación y supervivencia de estas células precursoras, estimulando finalmente la producción de glóbulos rojos (eritrocitos). Al aumentar la producción de glóbulos rojos, eleva los niveles de hemoglobina y el hematocrito en la sangre, mejorando la capacidad de transporte de oxígeno. Su estructura modificada con dos cadenas adicionales de carbohidratos (hiperglicosilada) reduce su tasa de eliminación renal y disminuye su reconocimiento por los receptores de eliminación, lo que prolonga significativamente su tiempo de circulación en comparación con la eritropoyetina alfa o beta.",
+    "pharmacologicClass": "Agente estimulante de la eritropoyesis (ESA), análogo de la eritropoyetina humana recombinante, glicoproteína.",
+    "therapeuticClass": "Antianémico, Hematológico (Estimulante de la médula ósea).",
+    "absorption": "Se administra por vía subcutánea o intravenosa, por lo que la biodisponibilidad es del 100% cuando se administra por vía intravenosa. La biodisponibilidad por vía subcutánea es de aproximadamente 37% y la absorción es lenta, con una concentración máxima (Cmax) alcanzada entre 24 y 72 horas después de la inyección.",
+    "distribution": "Se distribuye principalmente en el espacio intravascular. Su volumen de distribución es bajo, aproximadamente equivalente al volumen plasmático (0.06 L/kg). No se distribuye ampliamente en los tejidos. Se une de manera específica y saturable a los receptores de eritropoyetina en las células diana de la médula ósea.",
+    "metabolism": "El metabolismo de la darbepoetina alfa no está mediado por las enzimas del citocromo P450 (CYP) del hígado, ya que es una proteína grande. Su catabolismo (degradación) ocurre principalmente en las células diana de la médula ósea después de la unión al receptor y la internalización. También puede ser degradada por otras células del sistema reticuloendotelial. Una pequeña porción se elimina inalterada por los riñones.",
+    "elimination": "Tiene una vida media terminal prolongada debido a su hiperglicosilación. La vida media después de una dosis intravenosa es de aproximadamente 21 horas en pacientes con insuficiencia renal. Después de una dosis subcutánea, la vida media es más larga, de alrededor de 48 a 70 horas, lo que permite una dosificación menos frecuente. Se elimina principalmente por degradación celular en la médula ósea y, en menor medida, por vía renal.",
+    "onsetOfAction": "El inicio del efecto estimulante sobre la médula ósea es rápido, pero el aumento detectable en los niveles de reticulocitos (glóbulos rojos jóvenes) en sangre se observa generalmente a los 3-5 días. El aumento significativo en los niveles de hemoglobina suele requerir de 2 a 6 semanas de tratamiento continuo, dependiendo de la dosis y la respuesta individual del paciente.",
+    "durationOfAction": "La duración del efecto es prolongada debido a su larga vida media. Un aumento sostenido en los niveles de hemoglobina puede mantenerse con dosificaciones cada 1, 2 o incluso 3 semanas, según la indicación y la respuesta del paciente. El efecto sobre la producción de glóbulos rojos persiste mientras se mantengan niveles terapéuticos del fármaco en sangre."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento de la anemia sintomática asociada a enfermedad renal crónica (ERC) en pacientes adultos y pediátricos mayores de 1 año, incluyendo aquellos en diálisis y no dializados.",
+      "Tratamiento de la anemia en pacientes adultos con neoplasias malignas no mieloides que reciben quimioterapia.",
+      "Reducción de la necesidad de transfusiones de sangre alogénica (de donante) en pacientes adultos programados para cirugía ortopédica mayor electiva no cardiaca, con riesgo de pérdida sanguínea perioperatoria y anemia preoperatoria."
+    ],
+    "offLabel": [
+      "Anemia en pacientes con síndrome mielodisplásico (bajo ciertas condiciones).",
+      "Anemia asociada a infección por VIH tratada con zidovudina (AZT).",
+      "Anemia en pacientes con insuficiencia cardíaca crónica (en investigación).",
+      "Anemia en pacientes con enfermedad inflamatoria intestinal."
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis es individualizada para lograr y mantener niveles de hemoglobina dentro del rango objetivo (generalmente 10-12 g/dL). **ERC (Diálisis):** Inicio: 0.45 mcg/kg por vía intravenosa o subcutánea una vez por semana. Ajuste: según respuesta, cada 4 semanas. **ERC (No Diálisis):** Inicio: 0.45 mcg/kg por vía subcutánea cada 4 semanas. **Anemia por Quimioterapia:** Inicio: 2.25 mcg/kg por vía subcutánea una vez por semana O 500 mcg por vía subcutánea cada 3 semanas. **Cirugía Ortopédica:** 4.5 mcg/kg por vía subcutánea en una sola dosis, administrada aproximadamente 3 semanas antes de la cirugía.",
+    "pediatric": "**Pacientes pediátricos con ERC (≥1 año):** Inicio: 0.45 mcg/kg por vía intravenosa o subcutánea una vez por semana. La dosis se ajusta para mantener la hemoglobina dentro del rango objetivo. No se recomienda en menores de 1 año.",
+    "elderly": "No se requieren ajustes de dosis basados únicamente en la edad. Sin embargo, los pacientes de edad avanzada pueden tener una mayor prevalencia de enfermedades cardiovasculares, por lo que se debe tener precaución y un control estricto de la hemoglobina para evitar niveles excesivos.",
+    "renalImpairment": "Este medicamento está específicamente indicado para pacientes con insuficiencia renal. No se requiere ajuste inicial en pacientes con enfermedad renal crónica. Sin embargo, la dosis debe individualizarse cuidadosamente y ajustarse según la respuesta (incremento de hemoglobina). En pacientes que inician diálisis, puede ser necesario reajustar la dosis.",
+    "hepaticImpairment": "No se han realizado estudios específicos. No se espera que el deterioro hepático afecte la farmacocinética de manera significativa, ya que no se metaboliza en el hígado. Se recomienda usar con precaución y monitorear la respuesta.",
+    "maxDose": "No se ha establecido una dosis máxima absoluta. La dosis debe titularse para alcanzar el nivel objetivo de hemoglobina (generalmente no exceder 12 g/dL) y no debe incrementarse más allá del punto en el que ya no se observa una reducción en la necesidad de transfusiones. En algunos protocolos, se considera una dosis máxima semanal aproximada de 3-4 mcg/kg para pacientes con ERC."
+  },
+  "dosageForms": [
+    {
+      "form": "Solución inyectable en jeringa precargada",
+      "strengths": [
+        "10 mcg/0.4 mL",
+        "15 mcg/0.3 mL",
+        "20 mcg/0.4 mL",
+        "25 mcg/0.42 mL",
+        "30 mcg/0.3 mL",
+        "40 mcg/0.4 mL",
+        "50 mcg/0.5 mL",
+        "60 mcg/0.3 mL",
+        "80 mcg/0.4 mL",
+        "100 mcg/0.5 mL",
+        "150 mcg/0.3 mL",
+        "200 mcg/0.4 mL",
+        "300 mcg/0.6 mL",
+        "500 mcg/1 mL"
+      ],
+      "route": "Subcutánea, Intravenosa"
+    },
+    {
+      "form": "Vial multidosis",
+      "strengths": [
+        "25 mcg/mL",
+        "40 mcg/mL",
+        "60 mcg/mL",
+        "100 mcg/mL",
+        "150 mcg/mL",
+        "200 mcg/mL",
+        "300 mcg/mL"
+      ],
+      "route": "Subcutánea, Intravenosa"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la darbepoetina alfa, a otros agentes estimulantes de la eritropoyesis (ESA) o a cualquiera de los excipientes.",
+      "Hipertensión arterial no controlada.",
+      "Anemia pura de células rojas (PRCA) inducida por ESA que se desarrolla después del tratamiento con darbepoetina alfa o cualquier otro ESA."
+    ],
+    "relative": [
+      "Enfermedad cardiovascular o cerebrovascular inestable (infarto reciente, accidente cerebrovascular reciente).",
+      "Historia de trombosis (coágulos) o riesgo elevado de trombosis.",
+      "Anemia por deficiencia de hierro, vitamina B12 o ácido fólico no corregida.",
+      "Enfermedad hepática severa.",
+      "Cánceres hematológicos (como leucemia, mieloma múltiple) debido al riesgo de estimular el crecimiento tumoral."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Dolor de cabeza",
+      "Hipertensión arterial",
+      "Dolor en las articulaciones (artralgia)",
+      "Fiebre",
+      "Reacciones en el sitio de inyección (dolor, enrojecimiento)"
+    ],
+    "common": [
+      "Náuseas",
+      "Vómito",
+      "Diarrea",
+      "Edema (hinchazón) en piernas o manos",
+      "Tos",
+      "Dificultad para respirar (disnea)",
+      "Mareo",
+      "Fatiga",
+      "Calambres musculares",
+      "Resfriado común (rinofaringitis)"
+    ],
+    "uncommon": [
+      "Accidente cerebrovascular (derrame cerebral)",
+      "Infarto agudo de miocardio (ataque al corazón)",
+      "Trombosis venosa profunda (coágulos en piernas)",
+      "Embolia pulmonar (coágulo en pulmón)",
+      "Convulsiones",
+      "Reacción alérgica severa (anafilaxia)",
+      "Síndrome de piernas inquietas",
+      "Erupción cutánea (rash)"
+    ],
+    "rare": [
+      "Aplasia pura de células rojas (PRCA) - una condición donde el cuerpo deja de producir glóbulos rojos.",
+      "Crisis hipertensiva (aumento peligroso de la presión arterial).",
+      "Trombocitosis (aumento excesivo de plaquetas).",
+      "Reacción de hipersensibilidad severa con dificultad para respirar e hinchazón."
+    ],
+    "blackBoxWarning": "Los agentes estimulantes de la eritropoyesis (ESA), incluyendo la darbepoetina alfa, aumentan el riesgo de eventos trombóticos graves (coágulos), infarto de miocardio, accidente cerebrovascular y muerte cuando se administran para alcanzar niveles de hemoglobina superiores a 12 g/dL. En pacientes con cáncer, los ESA acortan el tiempo de supervivencia y/o aumentan el riesgo de progresión tumoral o recurrencia cuando se administran para alcanzar niveles de hemoglobina superiores a 12 g/dL. Los ESA no están indicados para pacientes con cáncer que no reciben quimioterapia. Los pacientes con ERC y un nivel de hemoglobina mayor a 11 g/dL no deben iniciar tratamiento con ESA."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Anticoagulantes (Warfarina, Heparina, DOACs)",
+        "effect": "La darbepoetina alfa puede aumentar el riesgo de trombosis (coágulos). El uso conjunto con anticoagulantes requiere un monitoreo muy cuidadoso, ya que el riesgo de eventos tromboembólicos es mayor.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inmunosupresores (Ciclosporina, Tacrolimus)",
+        "effect": "En teoría, al estimular la médula ósea, podría aumentar el riesgo de rechazo en pacientes trasplantados, aunque la evidencia no es concluyente. Se recomienda precaución.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Hierro intravenoso",
+        "effect": "El hierro es un cofactor esencial para la producción de glóbulos rojos. Su administración concurrente es común y necesaria para optimizar la respuesta a la darbepoetina. No es una interacción negativa, sino sinérgica.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "No se conocen interacciones clínicamente significativas con alimentos. Puede administrarse sin considerar las comidas.",
+    "withSupplements": "Los suplementos de hierro, vitamina B12 y ácido fólico son comúnmente coadministrados para corregir deficiencias y mejorar la respuesta a la darbepoetina. No hay interacciones adversas conocidas. Se debe evitar el uso de suplementos herbales con efectos anticoagulantes (como ginkgo biloba, ajo en altas dosis) debido al riesgo teórico de sangrado o, paradójicamente, de trombosis."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría C",
+      "recommendation": "No se han realizado estudios adecuados en mujeres embarazadas. La darbepoetina alfa solo debe usarse durante el embarazo si el beneficio potencial justifica claramente el riesgo potencial para el feto. Se ha utilizado en casos de anemia severa en embarazadas con enfermedad renal, pero bajo estricta supervisión médica.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se desconoce si la darbepoetina alfa se excreta en la leche materna humana. Debido a que muchas proteínas se excretan en la leche y por el potencial de efectos adversos graves en el lactante, se debe tomar la decisión de suspender la lactancia o suspender el medicamento, considerando la importancia del tratamiento para la madre.",
+    "pediatric": "Aprobado para uso en niños mayores de 1 año con anemia por enfermedad renal crónica. La seguridad y eficacia en niños menores de 1 año no están establecidas. La dosis se calcula por peso corporal. Se debe monitorear de cerca la presión arterial y los niveles de hemoglobina.",
+    "geriatric": "Los pacientes de edad avanzada (≥65 años) pueden tener una mayor frecuencia de efectos adversos, especialmente eventos cardiovasculares y trombóticos, debido a la mayor prevalencia de enfermedades cardiovasculares en este grupo. No se requiere ajuste de dosis por edad, pero se debe iniciar con precaución y mantener un control estricto."
+  },
+  "administration": {
+    "howToTake": "La darbepoetina alfa es un medicamento inyectable que debe ser administrado por un profesional de la salud (enfermera, médico) o, en algunos casos seleccionados, por el paciente o un cuidador debidamente entrenado. Se puede administrar por inyección subcutánea (debajo de la piel, generalmente en el muslo, abdomen o brazo) o por inyección intravenosa lenta (en una vena). La vía subcutánea es la más común para pacientes ambulatorios. Las jeringas precargadas son de un solo uso. Es importante rotar los sitios de inyección para evitar irritación local. No agitar el vial o jeringa precargada vigorosamente. Antes de usar, inspeccionar visualmente la solución; debe ser clara e incolora. No usar si está turbia, contiene partículas o está descolorida.",
+    "storage": "Conservar en refrigeración (2°C a 8°C) en su empaque original para proteger de la luz. NO CONGELAR. No agitar. Una vez fuera del refrigerador, puede mantenerse a temperatura ambiente (hasta 25°C) por un máximo de 7 días, protegido de la luz. Desechar cualquier producto que haya estado congelado o expuesto a temperaturas elevadas. Las jeringas precargadas son de un solo uso; desechar cualquier sobrante.",
+    "specialInstructions": "Es fundamental que el paciente tenga niveles adecuados de hierro, vitamina B12 y ácido fólico para que el medicamento funcione correctamente. El médico probablemente recetará suplementos de hierro. Nunca aumente la dosis o la frecuencia de las inyecciones por su cuenta. Asista a todas las citas de laboratorio para controlar sus niveles de hemoglobina. Informe inmediatamente a su médico si presenta síntomas de un coágulo sanguíneo (dolor o hinchazón repentina en una pierna, dificultad para respirar aguda, dolor en el pecho, debilidad o entumecimiento repentino en un lado del cuerpo, dificultad para hablar)."
+  },
+  "monitoring": {
+    "labTests": [
+      "Hemoglobina y Hematocrito (semanal o quincenal al inicio, luego mensual)",
+      "Recuento de Reticulocitos",
+      "Hierro sérico, Ferritina, Capacidad Total de Fijación de Hierro (CTFH) y Saturación de Transferrina",
+      "Presión arterial (en cada visita)",
+      "Función renal (Creatinina, TFG)",
+      "Potasio y Fósforo (en pacientes con ERC)"
+    ],
+    "frequency": "Al inicio del tratamiento: Hemoglobina cada 1-2 semanas hasta estabilización. Durante el mantenimiento: Hemoglobina al menos mensualmente. Hierro y presión arterial deben monitorearse regularmente según criterio médico.",
+    "signsToWatch": [
+      "Aumento excesivo de la presión arterial (dolor de cabeza severo, visión borrosa).",
+      "Signos de trombosis: hinchazón, dolor, enrojecimiento o calor en una pierna; dificultad para respirar repentina; dolor en el pecho; debilidad o entumecimiento en un lado del cuerpo.",
+      "Convulsiones.",
+      "Dolor en el pecho o palpitaciones.",
+      "Erupción cutánea o signos de reacción alérgica (urticaria, hinchazón de cara/labios)."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Aumento excesivo y peligroso de la hemoglobina y el hematocrito (policitemia).",
+      "Hipertensión arterial severa o crisis hipertensiva.",
+      "Dolor de cabeza intenso, mareo, visión borrosa.",
+      "Convulsiones.",
+      "Mayor riesgo de eventos trombóticos (coágulos).",
+      "Enrojecimiento de la piel (pletoría)."
+    ],
+    "treatment": "No existe un antídoto específico. El tratamiento es de soporte y sintomático. Se debe suspender inmediatamente la administración de darbepoetina alfa. Controlar la presión arterial con medicamentos antihipertensivos si es necesario. En casos de policitemia severa con riesgo de trombosis, el médico puede considerar una flebotomía (extracción de sangre) para reducir la viscosidad sanguínea. Monitorear signos vitales y realizar estudios de laboratorio frecuentes.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (receta retenida en farmacia en algunos países). Es un medicamento de alto costo y uso hospitalario frecuente.",
+    "scheduleMexico": "Medicamento sujeto a prescripción médica. No está incluido en un cuadro básico de forma universal, su acceso puede ser a través de instituciones de salud pública para pacientes con indicaciones específicas.",
+    "fdaApprovalYear": "Aprobado por la FDA en el año 2001."
+  },
+  "brandsMexico": [
+    "Aranesp",
+    "Cresp",
+    "Darbepoetina alfa (genérico de diversos laboratorios)"
+  ],
+  "clinicalPearls": [
+    "La 'regla del gol' en el tratamiento con ESA es mantener la hemoglobina entre 10 y 12 g/dL, evitando superar los 12 g/dL para minimizar el riesgo cardiovascular.",
+    "La respuesta deficiente a la darbepoetina (resistencia) debe hacer sospechar deficiencia de hierro, inflamación crónica (niveles elevados de PCR), hiperparatiroidismo, infección o sangrado oculto.",
+    "En pacientes con cáncer, el uso de ESA está estrictamente reservado para aquellos con anemia causada por la quimioterapia mielosupresora y debe suspenderse una vez finalizada la quimioterapia."
+  ],
+  "patientCounseling": "La darbepoetina alfa es un medicamento muy efectivo para tratar su anemia, pero requiere que siga las instrucciones de su médico al pie de la letra. Es fundamental que asista a todas sus citas para aplicarse la inyección y, sobre todo, para realizarse los análisis de sangre que controlan su nivel de hemoglobina y hierro. Nunca se aplique más dosis de la indicada, ya que un nivel de hemoglobina demasiado alto puede ser peligroso y aumentar el riesgo de infartos o derrames cerebrales. Tome los suplementos de hierro que le receten, ya que sin hierro suficiente, este medicamento no puede funcionar bien. Controle su presión arterial en casa si se lo indica su médico. Esté alerta a señales de alarma: si tiene dolor de cabeza muy fuerte, hinchazón o dolor en una pierna, dificultad para respirar repentina, dolor en el pecho o debilidad en un lado del cuerpo, busque atención médica de inmediato. Este medicamento no cura la enfermedad que causa su anemia, pero ayuda a controlar este síntoma importante para que usted se sienta con más energía y tenga una mejor calidad de vida.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fatiga",
+        "slug": "fatiga"
+      },
+      {
+        "name": "Debilidad",
+        "slug": "debilidad"
+      },
+      {
+        "name": "Falta de aire (disnea)",
+        "slug": "falta-de-aire-disnea"
+      },
+      {
+        "name": "Palidez",
+        "slug": "palidez"
+      },
+      {
+        "name": "Mareo",
+        "slug": "mareo"
+      },
+      {
+        "name": "Palpitaciones",
+        "slug": "palpitaciones"
+      },
+      {
+        "name": "Dolor de cabeza",
+        "slug": "dolor-de-cabeza"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Anemia de la enfermedad renal crónica",
+        "slug": "anemia-enfermedad-renal-cronica"
+      },
+      {
+        "name": "Anemia inducida por quimioterapia",
+        "slug": "anemia-inducida-por-quimioterapia"
+      },
+      {
+        "name": "Anemia preoperatoria",
+        "slug": "anemia-preoperatoria"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Trombosis venosa profunda",
+        "slug": "trombosis-venosa-profunda"
+      },
+      {
+        "name": "Embolia pulmonar",
+        "slug": "embolia-pulmonar"
+      },
+      {
+        "name": "Infarto agudo de miocardio",
+        "slug": "infarto-agudo-de-miocardio"
+      },
+      {
+        "name": "Accidente cerebrovascular",
+        "slug": "accidente-cerebrovascular"
+      },
+      {
+        "name": "Hipertensión arterial",
+        "slug": "hipertension-arterial"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Hemoglobina",
+        "slug": "hemoglobina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Hematocrito",
+        "slug": "hematocrito",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Recuento de Reticulocitos",
+        "slug": "reticulocitos",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Ferritina",
+        "slug": "ferritina",
+        "effect": "Puede disminuir (por consumo)"
+      },
+      {
+        "name": "Saturación de Transferrina",
+        "slug": "saturacion-de-transferrina",
+        "effect": "Puede disminuir (por consumo)"
+      },
+      {
+        "name": "Presión arterial",
+        "slug": "presion-arterial",
+        "effect": "Puede elevar"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Biometría Hemática Completa",
+        "slug": "biometria-hematica-completa",
+        "reason": "Para monitorear hemoglobina, hematocrito y recuento de reticulocitos."
+      },
+      {
+        "name": "Perfil de Hierro",
+        "slug": "perfil-de-hierro",
+        "reason": "Para evaluar los depósitos de hierro y asegurar una respuesta óptima al tratamiento."
+      },
+      {
+        "name": "Presión Arterial",
+        "slug": "medicion-presion-arterial",
+        "reason": "Monitoreo frecuente por riesgo de hipertensión."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      },
+      {
+        "name": "Calculadora de IMC",
+        "slug": "calculadora-imc"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Qué es la darbepoetina alfa y para qué sirve?",
+      "a": "Es un medicamento inyectable que ayuda a su cuerpo a producir más glóbulos rojos. Se usa principalmente para tratar la anemia (falta de glóbulos rojos) en personas con enfermedad renal grave (en diálisis o no) y en pacientes con cáncer que reciben quimioterapia. Al aumentar los glóbulos rojos, reduce el cansancio extremo, la debilidad y la necesidad de transfusiones de sangre."
+    },
+    {
+      "q": "¿Es lo mismo que la eritropoyetina (EPO)?",
+      "a": "Son muy similares, pero no exactamente iguales. La darbepoetina alfa es una versión modificada de la eritropoyetina natural. La modificación hace que dure más tiempo en el cuerpo, por lo que las inyecciones se pueden aplicar con menos frecuencia (por ejemplo, cada semana o cada 2-3 semanas) en comparación con algunas eritropoyetinas que requieren aplicaciones más frecuentes."
+    },
+    {
+      "q": "¿Cómo se aplica este medicamento?",
+      "a": "Se aplica como una inyección, ya sea debajo de la piel (vía subcutánea, común en el muslo, abdomen o brazo) o directamente en una vena (vía intravenosa, común en pacientes en diálisis). Generalmente la aplica una enfermera o médico, pero algunos pacientes bien entrenados pueden aprender a autoaplicársela."
+    },
+    {
+      "q": "¿Con qué frecuencia me la tengo que aplicar?",
+      "a": "La frecuencia depende de su condición y respuesta. Puede ser una vez por semana, cada dos semanas o incluso cada tres o cuatro semanas. Su médico determinará el esquema más adecuado para usted basándose en sus análisis de sangre."
+    },
+    {
+      "q": "¿Duele la inyección?",
+      "a": "Puede sentir una leve molestia o ardor en el momento de la inyección, similar a otras vacunas. El dolor suele ser pasajero. Rotar el sitio de inyección ayuda a minimizar la irritación."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "El cuerpo empieza a producir más glóbulos rojos en pocos días, pero usted puede comenzar a sentir menos cansancio y más energía generalmente después de varias semanas (2 a 6 semanas) de tratamiento continuo."
+    },
+    {
+      "q": "¿Por qué es tan importante hacerme análisis de sangre frecuentes?",
+      "a": "Porque el medicamento puede elevar demasiado sus glóbulos rojos, lo que hace la sangre más espesa y aumenta el riesgo de coágulos, infartos o derrames cerebrales. Los análisis controlan que sus niveles estén en el rango seguro (usualmente entre 10 y 12 g/dL de hemoglobina) y permiten ajustar la dosis."
+    },
+    {
+      "q": "¿Puedo tomar hierro mientras uso este medicamento?",
+      "a": "Sí, es muy común y necesario. El hierro es como el 'material de construcción' para los glóbulos rojos. Sin suficiente hierro, la darbepoetina no puede trabajar bien. Su médico le recetará suplementos de hierro (pastillas o a veces intravenoso) y revisará sus niveles mediante análisis."
+    },
+    {
+      "q": "¿Qué efectos secundarios son los más comunes?",
+      "a": "Los más comunes son dolor de cabeza, dolor en las articulaciones, fiebre leve, y aumento de la presión arterial. También es común sentir dolor o enrojecimiento donde se aplicó la inyección."
+    },
+    {
+      "q": "¿Qué debo hacer si se me olvida una dosis?",
+      "a": "Contacte a su médico o clínica lo antes posible para reprogramar la aplicación. No se aplique una dosis doble para compensar la olvidada."
+    },
+    {
+      "q": "¿Puede este medicamento subirme la presión arterial?",
+      "a": "Sí, es un efecto secundario frecuente y potencialmente grave. Por eso es crucial que controle su presión arterial regularmente, ya sea en el consultorio o en casa si su médico se lo indica, e informe cualquier aumento significativo."
+    },
+    {
+      "q": "¿Qué síntomas debo reportar a mi médico de inmediato?",
+      "a": "Dolor de cabeza muy fuerte o repentino, hinchazón, dolor o enrojecimiento en una pierna, dificultad para respirar repentina, dolor en el pecho, debilidad o adormecimiento en un lado del cuerpo, dificultad para hablar o ver. Estos pueden ser signos de presión alta peligrosa o de un coágulo sanguíneo."
+    },
+    {
+      "q": "¿Este medicamento cura mi enfermedad renal o mi cáncer?",
+      "a": "No. La darbepoetina alfa solo trata la anemia, que es un síntoma de estas enfermedades. No afecta el curso de la enfermedad renal ni del cáncer en sí. Es un tratamiento de apoyo para mejorar su calidad de vida."
+    },
+    {
+      "q": "¿Puedo usarlo si estoy embarazada o amamantando?",
+      "a": "Solo debe usarse en el embarazo si es estrictamente necesario y bajo supervisión médica estrecha, ya que no hay estudios completos. Si está amamantando, consulte con su médico, ya que no se sabe si pasa a la leche materna."
+    },
+    {
+      "q": "¿Por qué a algunos pacientes con cáncer no se les puede dar este medicamento?",
+      "a": "En pacientes con cáncer que NO están recibiendo quimioterapia, los estudios han mostrado que este tipo de medicamentos puede hacer que el tumor crezca más rápido o acortar la vida del paciente. Solo está aprobado para la anemia causada directamente por la quimioterapia."
+    },
+    {
+      "q": "¿Qué es la 'resistencia' a la darbepoetina?",
+      "a": "Ocurre cuando a pesar de recibir dosis adecuadas, la hemoglobina no sube como se espera. Las causas más comunes son falta de hierro, inflamación o infección en el cuerpo, sangrado oculto o problemas de las glándulas paratiroides. El médico investigará la causa."
+    },
+    {
+      "q": "¿Cómo se guarda este medicamento?",
+      "a": "Debe guardarse en el refrigerador (entre 2°C y 8°C), nunca en el congelador. Se puede sacar por un tiempo limitado (hasta 7 días a temperatura ambiente) para su aplicación, pero debe protegerse de la luz y el calor."
+    },
+    {
+      "q": "¿Es lo mismo Aranesp que Cresp?",
+      "a": "Aranesp es el nombre comercial original de la darbepoetina alfa. Cresp es el nombre de una versión biosimilar (muy similar) disponible en México. Ambas contienen el mismo principio activo y son intercambiables bajo supervisión médica, pero pueden tener diferencias menores en los excipientes."
+    },
+    {
+      "q": "¿Puedo hacer ejercicio mientras estoy en tratamiento?",
+      "a": "Sí, de hecho, a medida que su anemia mejore, podrá tolerar mejor el ejercicio. Comience de forma gradual y escuche a su cuerpo. El ejercicio moderado es beneficioso para la salud cardiovascular."
+    },
+    {
+      "q": "¿Cuál es la diferencia clave entre usar darbepoetina y recibir una transfusión de sangre?",
+      "a": "La darbepoetina estimula la producción propia de glóbulos rojos de su cuerpo, es un tratamiento más fisiológico y a largo plazo. Una transfusión le da glóbulos rojos de un donante de inmediato, pero es un procedimiento con riesgos de reacciones, infecciones y sobrecarga de hierro, y su efecto es temporal. El objetivo de la darbepoetina es reducir o evitar la necesidad de transfusiones."
+    }
+  ]
+}

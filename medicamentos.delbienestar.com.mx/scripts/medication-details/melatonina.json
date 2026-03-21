@@ -1,0 +1,450 @@
+{
+  "name": "Melatonina",
+  "summary": "La melatonina es una hormona natural producida principalmente por la glándula pineal en el cerebro, que juega un papel fundamental en la regulación del ciclo sueño-vigilia (ritmo circadiano). Sirve principalmente para tratar trastornos del sueño, como el insomnio, especialmente cuando está relacionado con alteraciones del ritmo circadiano, como el desfase horario (jet lag) o el trabajo por turnos. Su importancia clínica radica en ser una alternativa con un perfil de seguridad generalmente favorable en comparación con otros hipnóticos o ansiolíticos sintéticos, ya que es una sustancia que el cuerpo produce de manera natural y, en dosis adecuadas, ayuda a 'sincronizar' el reloj interno del cuerpo sin generar dependencia física significativa. Es especialmente útil en personas mayores, cuya producción natural de melatonina disminuye, y en pacientes que requieren una ayuda para conciliar el sueño sin los efectos residuales de somnolencia al día siguiente que pueden causar otros medicamentos. Sin embargo, su uso debe ser supervisado, ya que no está exento de efectos secundarios e interacciones.",
+  "pharmacology": {
+    "mechanismOfAction": "La melatonina actúa principalmente uniéndose a receptores específicos en el cerebro, conocidos como receptores MT1 y MT2, localizados en el núcleo supraquiasmático del hipotálamo, que es el 'reloj maestro' que regula los ritmos circadianos. La activación de estos receptores transmite señales que promueven la somnolencia y ayudan a sincronizar el ciclo sueño-vigilia con el ciclo de luz-oscuridad ambiental. Además, tiene propiedades antioxidantes y modula el sistema inmunológico. A diferencia de los sedantes clásicos que actúan deprimiendo el sistema nervioso central (como las benzodiacepinas que potencian el GABA), la melatonina no induce el sueño de manera forzada, sino que envía una señal fisiológica al cuerpo indicando que es 'la hora de dormir', facilitando así el inicio del sueño y regulando su arquitectura.",
+    "pharmacologicClass": "Agonista de receptores de melatonina (MT1 y MT2). Hormona pineal.",
+    "therapeuticClass": "Regulador del ritmo circadiano. Hipnótico no benzodiacepínico.",
+    "absorption": "Se absorbe bien por vía oral, pero su biodisponibilidad es variable (entre 3% y 33%) debido a un extenso metabolismo de primer paso en el hígado. La presencia de alimentos puede retrasar su absorción. Las formulaciones de liberación inmediata alcanzan concentraciones máximas en plasma (Tmax) en aproximadamente 30-60 minutos.",
+    "distribution": "Se distribuye ampliamente por todo el organismo. Atraviesa fácilmente la barrera hematoencefálica y la placenta. Su unión a proteínas plasmáticas es baja (alrededor del 60%). Su volumen de distribución (Vd) es de aproximadamente 35 litros, indicando una distribución en tejidos.",
+    "metabolism": "Se metaboliza extensamente en el hígado, principalmente por el sistema enzimático del citocromo P450, específicamente por las isoenzimas CYP1A2 (la principal), y en menor medida por CYP2C19 y CYP1A1. Se convierte principalmente en 6-hidroximelatonina, que luego se conjuga con sulfato o glucurónido para su excreción.",
+    "elimination": "La vida media de eliminación es corta, aproximadamente de 30 a 60 minutos para las formulaciones de liberación inmediata. Se elimina principalmente por la orina (más del 90%) en forma de metabolitos conjugados. Menos del 2% se excreta sin cambios en la orina.",
+    "onsetOfAction": "El inicio de acción para inducir somnolencia ocurre generalmente entre 30 y 60 minutos después de la administración oral.",
+    "durationOfAction": "La duración del efecto hipnótico es de aproximadamente 4 a 8 horas, dependiendo de la formulación (liberación inmediata vs. liberación prolongada)."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento a corto plazo del insomnio primario (dificultad para conciliar el sueño) en adultos mayores de 55 años.",
+      "Alivio del desfase horario (jet lag) en adultos.",
+      "Trastorno del sueño por trabajo por turnos (para mejorar el sueño diurno y el estado de alerta nocturno).",
+      "Síndrome de la fase de sueño retrasada (en adultos y niños)."
+    ],
+    "offLabel": [
+      "Trastornos del sueño en niños con Trastorno por Déficit de Atención e Hiperactividad (TDAH) o autismo.",
+      "Prevención y reducción de la cefalea en racimos.",
+      "Como coadyuvante en el manejo del síndrome del intestino irritable.",
+      "Reducción de la ansiedad preoperatoria.",
+      "Manejo de trastornos del sueño en pacientes con enfermedades neurodegenerativas (como Alzheimer).",
+      "Como antioxidante en condiciones de estrés oxidativo."
+    ]
+  },
+  "dosage": {
+    "adults": "Insomnio (adultos >55 años): 2-5 mg, tomados 1-2 horas antes de la hora habitual de acostarse. Jet Lag: 0.5-5 mg al acostarse, comenzando el día del viaje y continuando por 2-5 días. Trabajo por turnos: 1.8-3 mg, tomados antes del periodo de sueño diurno. Dosis inicial típica: 1-3 mg, ajustable según respuesta.",
+    "pediatric": "No es de primera elección en niños. Bajo supervisión médica estricta. Síndrome de la fase de sueño retrasada: 0.5-3 mg, 1-2 horas antes de la hora deseada de dormir. En TDAH o autismo: dosis muy bajas (0.5-1 mg) pueden usarse. Siempre calcular por peso (0.05-0.1 mg/kg) y comenzar con la dosis más baja posible.",
+    "elderly": "Los adultos mayores (>65 años) tienen una producción natural disminuida. Iniciar con dosis bajas (1-2 mg) debido a posibles cambios en el metabolismo y mayor sensibilidad. Monitorizar estrechamente por somnolencia diurna residual o confusión.",
+    "renalImpairment": "No se requieren ajustes de dosis específicos en insuficiencia renal leve a moderada (TFG >30 mL/min). En insuficiencia renal grave (TFG <30 mL/min) o diálisis, usar con precaución y comenzar con la dosis más baja posible, ya que puede haber acumulación de metabolitos.",
+    "hepaticImpairment": "Usar con precaución y a dosis reducidas en pacientes con insuficiencia hepática, especialmente si es grave, debido a que el metabolismo hepático (vía CYP1A2) está comprometido. Puede haber aumento significativo de los niveles plasmáticos. Se recomienda iniciar con 0.5-1 mg y ajustar lentamente.",
+    "maxDose": "No hay una dosis máxima diaria universalmente establecida, pero rara vez se recomiendan dosis superiores a 10 mg al día para usos circadianos. Dosis muy altas (hasta 20 mg) se han usado en investigación oncológica, pero NO para trastornos del sueño."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "1 mg",
+        "3 mg",
+        "5 mg",
+        "10 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tableta de liberación prolongada",
+      "strengths": [
+        "2 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Cápsula",
+      "strengths": [
+        "3 mg",
+        "5 mg",
+        "10 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Cápsula de liberación prolongada",
+      "strengths": [
+        "2 mg",
+        "3 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tableta masticable",
+      "strengths": [
+        "3 mg",
+        "5 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Líquido (gotas)",
+      "strengths": [
+        "1 mg/mL"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Spray sublingual",
+      "strengths": [
+        "1 mg por pulverización"
+      ],
+      "route": "Sublingual"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la melatonina o a cualquier componente de la formulación.",
+      "Enfermedades autoinmunitarias activas (por su potencial efecto inmunoestimulante, teórico riesgo de exacerbación)."
+    ],
+    "relative": [
+      "Insuficiencia hepática grave.",
+      "Insuficiencia renal grave.",
+      "Embarazo y lactancia (por falta de datos de seguridad concluyentes).",
+      "Epilepsia (algunos reportes de posible aumento de convulsiones).",
+      "Depresión mayor (puede exacerbar síntomas en algunos casos).",
+      "Uso concomitante con otros depresores del SNC, anticoagulantes o medicamentos metabolizados por CYP1A2."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Somnolencia diurna (especialmente con dosis altas o si no se duerme lo suficiente).",
+      "Dolor de cabeza."
+    ],
+    "common": [
+      "Mareo.",
+      "Náuseas leves.",
+      "Sensación de 'resaca' o aturdimiento al despertar.",
+      "Irritabilidad o nerviosismo (paradójico, en algunos pacientes).",
+      "Pesadillas o sueños vívidos."
+    ],
+    "uncommon": [
+      "Dolor abdominal leve.",
+      "Hipertensión arterial transitoria.",
+      "Boca seca.",
+      "Prurito (picazón) o erupción cutánea.",
+      "Ansiedad o estado de ánimo deprimido (paradójico)."
+    ],
+    "rare": [
+      "Pérdida temporal de la visión.",
+      "Confusión o desorientación (más común en ancianos).",
+      "Disminución del recuento de plaquetas (trombocitopenia).",
+      "Hipotermia (disminución de la temperatura corporal).",
+      "Síntomas de reacción alérgica severa (angioedema, dificultad para respirar)."
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Warfarina y otros anticoagulantes",
+        "effect": "La melatonina puede aumentar el efecto anticoagulante, elevando el riesgo de sangrado. Se debe monitorizar el INR estrechamente.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Anticonceptivos hormonales (estrógenos)",
+        "effect": "Los estrógenos inhiben la enzima CYP1A2, lo que puede aumentar los niveles de melatonina hasta 5 veces, potenciando sus efectos y toxicidad.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Fluvoxamina (antidepresivo)",
+        "effect": "Inhibidor potente de CYP1A2 y CYP2C19. Aumenta drásticamente (hasta 17 veces) los niveles de melatonina, con riesgo de somnolencia excesiva.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Cafeína",
+        "effect": "La cafeína puede disminuir los niveles de melatonina al inducir la enzima CYP1A2, reduciendo su efectividad.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Benzodiacepinas (diazepam, lorazepam) y otros sedantes",
+        "effect": "Puede potenciar el efecto depresor del SNC, aumentando la somnolencia, mareo y riesgo de accidentes. Evitar conducir.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Antihipertensivos",
+        "effect": "La melatonina puede, en algunos casos, aumentar la presión arterial o interferir con el efecto de los medicamentos para la presión. Monitorizar la presión.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inmunosupresores (ciclosporina, tacrolimus)",
+        "effect": "La melatonina tiene propiedades inmunoestimulantes teóricas que podrían antagonizar el efecto de estos fármacos en trasplantados.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Tomar con alimentos, especialmente una comida pesada, puede retrasar significativamente su absorción y reducir el pico máximo en sangre. Se recomienda tomarla en ayunas o con un ligero refrigerio para un efecto más rápido y predecible. El alcohol debe evitarse por completo, ya que potencia los efectos sedantes y puede causar somnolencia peligrosa, depresión respiratoria y empeorar la calidad del sueño.",
+    "withSupplements": "Hierba de San Juan (Hypericum perforatum): Puede disminuir los niveles de melatonina al inducir enzimas CYP. Suplementos con efecto sedante (Valeriana, Pasiflora, Kava, Lúpulo): Potencian la somnolencia. Suplementos que afectan la coagulación (Ginkgo biloba, Ajo, Ginseng, Vitamina E en dosis altas): Pueden aumentar el riesgo de sangrado cuando se combinan con melatonina. 5-HTP (5-hidroxitriptófano): Precursor de la serotonina; combinarlo puede aumentar el riesgo de síndrome serotoninérgico (agitación, taquicardia, fiebre)."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "No clasificado por la FDA. Generalmente considerado C (riesgo no puede descartarse).",
+      "recommendation": "NO se recomienda su uso durante el embarazo a menos que el beneficio potencial justifique claramente el riesgo para el feto. La melatonina cruza la placenta y puede interferir con el desarrollo del ritmo circadiano fetal. No hay estudios adecuados y bien controlados en mujeres embarazadas. Su uso debe ser exclusivamente bajo supervisión médica estricta para indicaciones muy específicas (como preeclampsia en investigación).",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se desconoce si la melatonina se excreta en la leche materna humana en cantidades significativas. Dado que muchas drogas se excretan en la leche y por la falta de datos de seguridad en lactantes, se recomienda evitar su uso durante la lactancia o suspender la lactancia si el tratamiento es absolutamente necesario. Puede afectar el patrón de sueño del bebé.",
+    "pediatric": "No es un tratamiento de primera línea para el insomnio infantil. Su uso debe reservarse para trastornos circadianos específicos (como el síndrome de la fase de sueño retrasada) o trastornos del neurodesarrollo (TEA, TDAH) bajo la supervisión de un pediatra o neurólogo pediátrico. Los niños pueden ser más sensibles a los efectos paradójicos (irritabilidad, enuresis). Se deben usar las dosis más bajas posibles.",
+    "geriatric": "Población en la que está más indicada (insomnio primario >55 años). Sin embargo, son más susceptibles a los efectos adversos como somnolencia diurna excesiva, confusión, mareo y caídas. Iniciar siempre con la dosis más baja (1-2 mg) y ajustar lentamente. Evaluar interacciones con polifarmacia común en este grupo."
+  },
+  "administration": {
+    "howToTake": "Tomar por vía oral, preferentemente con el estómago vacío o con un refrigerio ligero para una absorción más rápida. La hora de administración es CRUCIAL: debe tomarse de 1 a 2 horas antes de la hora deseada de acostarse. Para el jet lag, tomar a la hora de acostarse en el nuevo huso horario. Las tabletas o cápsulas deben tragarse enteras con un vaso de agua, a menos que sean formulaciones masticables o sublinguales. No triturar o masticar las de liberación prolongada. No conducir ni operar maquinaria pesada hasta 5 horas después de tomarla.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (entre 15°C y 30°C), protegido de la luz, la humedad y el calor. Mantener fuera del alcance de los niños y las mascotas. No usar después de la fecha de caducidad impresa.",
+    "specialInstructions": "No utilizar como hipnótico de uso diario crónico sin supervisión médica. Está destinado a uso a corto plazo (semanas). Para un efecto óptimo, combinar con buenos hábitos de sueño (higiene del sueño): ambiente oscuro, silencioso y fresco al acostarse; evitar pantallas brillantes antes de dormir. Si se olvida una dosis, omitirla y tomar la siguiente a la hora habitual. NO duplicar la dosis."
+  },
+  "monitoring": {
+    "labTests": [
+      "No se requieren análisis de laboratorio de rutina para el monitoreo de la melatonina en sí.",
+      "En terapia crónica o dosis altas, podría considerarse un hemograma completo ocasional por el raro riesgo de trombocitopenia.",
+      "Monitorizar INR si el paciente toma warfarina."
+    ],
+    "frequency": "Evaluación clínica periódica de la efectividad (calidad del sueño) y efectos adversos (somnolencia diurna) cada 2-4 semanas al inicio del tratamiento, y luego cada 3-6 meses si se usa a largo plazo.",
+    "signsToWatch": [
+      "Somnolencia excesiva durante el día que interfiere con actividades.",
+      "Mareo, confusión o desorientación, especialmente en ancianos.",
+      "Sangrado o moretones inusuales (encías, nariz, heces oscuras).",
+      "Empeoramiento del estado de ánimo (depresión, ansiedad).",
+      "Visión borrosa o pérdida temporal de la visión.",
+      "Síntomas de reacción alérgica (ronchas, dificultad para respirar, hinchazón de cara/lengua)."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Somnolencia profunda y prolongada.",
+      "Confusión severa y desorientación.",
+      "Mareo intenso y falta de coordinación.",
+      "Náuseas y vómitos.",
+      "Dificultad para respirar (raro, en combinación con otros depresores).",
+      "Convulsiones (muy raro)."
+    ],
+    "treatment": "No existe un antídoto específico. El tratamiento es de soporte y sintomático. Mantener la vía aérea permeable y monitorizar signos vitales. Inducir el vómito o realizar lavado gástrico solo si la ingestión es muy reciente y el paciente está consciente. Administrar carbón activado puede ser útil. La diuresis forzada no es efectiva. En casos de somnolencia severa, se puede usar cafeína como estimulante del SNC bajo supervisión médica.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "En México, se encuentra disponible como producto de venta libre (OTC) en la mayoría de sus presentaciones y dosis. Sin embargo, su uso terapéutico para condiciones específicas debe ser guiado por un profesional de la salud.",
+    "scheduleMexico": "No está incluida en la lista de psicotrópicos de la NOM-028. Se considera un suplemento alimenticio o producto de herbolaria, por lo que su regulación es bajo la COFEPRIS como 'producto de libre venta'.",
+    "fdaApprovalYear": "La melatonina sintética (ramelteon) como fármaco de prescripción fue aprobada en 2005. La melatonina como suplemento dietético ha estado disponible desde la década de 1990."
+  },
+  "brandsMexico": [
+    "Circadin",
+    "Melatonina L.C.D.",
+    "Melatonina Natural",
+    "Dormidina Melatonina",
+    "NatraSleep",
+    "Somnífera Melatonina",
+    "Melatonina MK",
+    "Melatonina Pro",
+    "DreamZz",
+    "Serenidina",
+    "Melatonina + Pasiflora",
+    "Melatonina + Valeriana",
+    "Melatonina Sanfer",
+    "Melatonina Genfar",
+    "Melatonina Best",
+    "Melatonina Life",
+    "Melatonina Nature's Truth",
+    "Melatonina Sundown Naturals",
+    "Melatonina Now Foods",
+    "Melatonina GNC"
+  ],
+  "clinicalPearls": [
+    "La 'ventana de tiempo' de administración (1-2 h antes de dormir) es más importante que la dosis misma para sincronizar el ritmo circadiano.",
+    "En adultos mayores, es más efectiva para el insomnio de conciliación que para el de mantenimiento; para este último, las formulaciones de liberación prolongada pueden ser mejores.",
+    "Puede causar un efecto paradójico de excitación o pesadillas en un subgrupo de pacientes, especialmente en niños y en aquellos con trastornos del estado de ánimo; en estos casos se debe suspender."
+  ],
+  "patientCounseling": "La melatonina es una ayuda para dormir que le indica a su cuerpo que es hora de descansar, pero no funciona como una pastilla para dormir fuerte. Tómela exactamente 1 o 2 horas antes de acostarse, no justo al meterse a la cama. Empiece con la dosis más baja (1 o 3 mg). Es fundamental que combine este suplemento con buenos hábitos: apague las pantallas (TV, celular) al menos una hora antes, asegure que su cuarto esté oscuro, tranquilo y fresco, y evite cafeína y comidas pesadas en la noche. No conduzca ni maneje maquinaria después de tomarla. Si no nota mejoría después de 2-3 semanas, consulte a su médico, ya que el insomnio puede tener otras causas. Informe a su doctor si toma pastillas anticonceptivas, anticoagulantes (como warfarina), medicamentos para la presión o para dormir, ya que pueden haber interacciones peligrosas. No la use de forma permanente sin supervisión.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dificultad para conciliar el sueño",
+        "slug": "dificultad-para-conciliar-el-sueno"
+      },
+      {
+        "name": "Despertar frecuente durante la noche",
+        "slug": "despertar-frecuente-durante-la-noche"
+      },
+      {
+        "name": "Somnolencia diurna excesiva",
+        "slug": "somnolencia-diurna-excesiva"
+      },
+      {
+        "name": "Fatiga por desfase horario",
+        "slug": "fatiga-por-desfase-horario"
+      },
+      {
+        "name": "Ansiedad preoperatoria",
+        "slug": "ansiedad-preoperatoria"
+      },
+      {
+        "name": "Cefalea en racimos",
+        "slug": "cefalea-en-racimos"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Insomnio primario",
+        "slug": "insomnio-primario"
+      },
+      {
+        "name": "Trastorno del ritmo circadiano por trabajo por turnos",
+        "slug": "trastorno-del-ritmo-circadiano-por-trabajo-por-turnos"
+      },
+      {
+        "name": "Síndrome de la fase de sueño retrasada",
+        "slug": "sindrome-de-la-fase-de-sueno-retrasada"
+      },
+      {
+        "name": "Trastorno por déficit de atención e hiperactividad",
+        "slug": "trastorno-por-deficit-de-atencion-e-hiperactividad"
+      },
+      {
+        "name": "Trastorno del espectro autista",
+        "slug": "trastorno-del-espectro-autista"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Hipotermia",
+        "slug": "hipotermia"
+      },
+      {
+        "name": "Trombocitopenia",
+        "slug": "trombocitopenia"
+      },
+      {
+        "name": "Confusión aguda",
+        "slug": "confusion-aguda"
+      },
+      {
+        "name": "Hemorragia",
+        "slug": "hemorragia"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Tiempo de Protrombina (TP) / INR",
+        "slug": "tiempo-de-protrombina-inr",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Recuento de plaquetas",
+        "slug": "recuento-de-plaquetas",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Temperatura corporal",
+        "slug": "temperatura-corporal",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Cortisol sérico",
+        "slug": "cortisol-serico",
+        "effect": "Puede disminuir"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Hemograma completo",
+        "slug": "hemograma-completo",
+        "reason": "Para monitorizar recuento de plaquetas en uso crónico o dosis altas."
+      },
+      {
+        "name": "Tiempo de Protrombina (INR)",
+        "slug": "tiempo-de-protrombina-inr",
+        "reason": "Si el paciente está en tratamiento con warfarina, para ajustar dosis y prevenir sangrado."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora IMC",
+        "slug": "calculadora-imc"
+      },
+      {
+        "name": "Dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La melatonina es una pastilla para dormir?",
+      "a": "No exactamente. Es una hormona que le indica a tu cerebro que es hora de dormir, ayudando a regular tu reloj interno. A diferencia de las pastillas para dormir fuertes, no te 'apaga' por sí sola, sino que facilita que te duermas de manera natural."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto la melatonina?",
+      "a": "Generalmente empieza a causar somnolencia entre 30 y 60 minutos después de tomarla. Por eso es crucial tomarla 1 o 2 horas antes de acostarte, no en la cama."
+    },
+    {
+      "q": "¿Puedo volverme adicto a la melatonina?",
+      "a": "La melatonina no causa dependencia física ni síndrome de abstinencia como los tranquilizantes. Sin embargo, algunas personas pueden desarrollar una dependencia psicológica, sintiendo que no pueden dormir sin ella. Por eso se recomienda usarla por periodos cortos."
+    },
+    {
+      "q": "¿Qué dosis de melatonina debo tomar para empezar?",
+      "a": "Siempre comienza con la dosis más baja disponible, usualmente 1 mg o 3 mg. Una dosis más alta no significa dormir mejor y puede causar más efectos secundarios como somnolencia diurna o dolor de cabeza."
+    },
+    {
+      "q": "¿La melatonina me dará resaca al día siguiente?",
+      "a": "Es posible, especialmente con dosis altas. Algunas personas se despiertan con aturdimiento, somnolencia o sensación de 'cabeza pesada'. Si esto ocurre, prueba con una dosis más baja o tómala más temprano (2 horas antes de dormir)."
+    },
+    {
+      "q": "¿Puedo tomar melatonina si tomo pastillas anticonceptivas?",
+      "a": "¡CUIDADO! Las pastillas anticonceptivas pueden aumentar mucho los niveles de melatonina en tu sangre, potenciando sus efectos y riesgos. Debes consultar a tu médico antes de combinarlas."
+    },
+    {
+      "q": "¿Es seguro dar melatonina a los niños?",
+      "a": "Solo bajo supervisión médica estricta. No es un producto para niños sanos con insomnio ocasional. Se reserva para trastornos específicos como autismo o TDAH, y siempre con dosis muy bajas prescritas por el pediatra."
+    },
+    {
+      "q": "¿Puedo tomar melatonina todos los días?",
+      "a": "Está diseñada para uso a corto plazo (semanas o pocos meses). Si necesitas usarla diariamente por más tiempo, debes ser evaluado por un médico para buscar la causa raíz de tu insomnio."
+    },
+    {
+      "q": "¿La melatonina interactúa con el alcohol?",
+      "a": "Sí, y es peligroso. El alcohol potencia el efecto sedante, pudiendo causar somnolencia extrema, depresión respiratoria y empeorar la calidad del sueño. Nunca los combines."
+    },
+    {
+      "q": "¿Sirve la melatonina para el jet lag?",
+      "a": "Sí, es uno de sus usos más efectivos. Toma 0.5 a 5 mg a la hora de acostarte en tu nuevo destino, comenzando el día del viaje y continuando por 2 a 5 días. Ayuda a ajustar tu reloj interno más rápido."
+    },
+    {
+      "q": "¿Hay diferencia entre las marcas de melatonina?",
+      "a": "La molécula es la misma, pero la calidad, pureza y consistencia de la dosis pueden variar entre fabricantes. Elige marcas reconocidas y, preferentemente, que sean de liberación inmediata si tu problema es conciliar el sueño."
+    },
+    {
+      "q": "¿La melatonina puede causar pesadillas?",
+      "a": "Sí, es un efecto secundario poco común pero reportado. Algunas personas experimentan sueños muy vívidos o pesadillas. Si te sucede, considera reducir la dosis o suspenderla."
+    },
+    {
+      "q": "¿Debo tomar melatonina con o sin comida?",
+      "a": "Para un efecto más rápido y predecible, tómala con el estómago vacío o con un refrigerio muy ligero. Una comida pesada retrasa su absorción y puede reducir su efectividad."
+    },
+    {
+      "q": "¿Puedo conducir después de tomar melatonina?",
+      "a": "NO. No conduzcas ni operes maquinaria hasta al menos 5 horas después de haberla tomado, y solo si te sientes completamente alerta. La somnolencia es su efecto principal."
+    },
+    {
+      "q": "¿La melatonina baja la presión arterial?",
+      "a": "Puede tener efectos variables. En algunas personas puede causar un leve descenso, pero en otras puede aumentar la presión arterial. Si eres hipertenso, monitorea tu presión y coméntalo con tu médico."
+    },
+    {
+      "q": "¿Qué pasa si tomo una dosis doble por error?",
+      "a": "Probablemente tendrás una somnolencia más intensa, mareo y posible dolor de cabeza. No es usualmente peligroso en adultos sanos, pero debes evitar conducir y acostarte a dormir. Si tomas una cantidad muy grande o tienes síntomas severos, busca atención médica."
+    },
+    {
+      "q": "¿La melatonina afecta la fertilidad?",
+      "a": "Existe cierta evidencia de que, al ser una hormona, dosis altas y crónicas podrían afectar la ovulación y la función reproductiva. Si estás buscando un embarazo, es mejor evitar su uso o consultar con un especialista."
+    },
+    {
+      "q": "¿Puedo tomar melatonina si tengo diabetes?",
+      "a": "Con precaución. Algunos estudios sugieren que la melatonina podría afectar la sensibilidad a la insulina y los niveles de glucosa. Si eres diabético, monitoriza tus niveles de azúcar más de cerca y habla con tu endocrinólogo."
+    },
+    {
+      "q": "¿La melatonina de liberación prolongada es mejor para mí?",
+      "a": "La de liberación prolongada (como Circadin 2 mg) está diseñada para imitar la secreción natural nocturna y puede ser más útil si tu problema es despertarte muchas veces en la noche. Para solo conciliar el sueño, la de liberación inmediata suele ser suficiente."
+    },
+    {
+      "q": "¿Cómo se compara la melatonina con un ansiolítico como el clonazepam para dormir?",
+      "a": "Son mecanismos totalmente distintos. El clonazepam (una benzodiacepina) deprime el sistema nervioso, causando sueño pero con riesgos de dependencia, tolerancia y somnolencia residual. La melatonina regula el ritmo, es mucho menos adictiva y tiene menos efectos residuales, pero es menos potente para la ansiedad o el insomnio severo. No son intercambiables."
+    }
+  ]
+}

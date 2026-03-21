@@ -1,0 +1,388 @@
+{
+  "name": "Ceftarolina",
+  "summary": "La ceftarolina es un antibiótico potente de la familia de las cefalosporinas, que se utiliza específicamente para combatir infecciones bacterianas graves de la piel y tejidos blandos, así como neumonía adquirida en la comunidad. Su importancia clínica radica en que es activa contra bacterias que se han vuelto resistentes a otros antibióticos comunes, como el Staphylococcus aureus resistente a la meticilina (SARM) y ciertos tipos de Streptococcus pneumoniae. Este medicamento se administra únicamente por vía intravenosa en un entorno hospitalario o bajo supervisión médica estrecha, ya que está reservado para casos donde otros tratamientos han fallado o se sospecha fuertemente de una infección por bacterias multirresistentes. Su uso adecuado es crucial para evitar el desarrollo de más resistencia bacteriana y para tratar eficazmente infecciones que podrían poner en peligro la vida del paciente.",
+  "pharmacology": {
+    "mechanismOfAction": "La ceftarolina es un antibiótico bactericida, lo que significa que mata directamente a las bacterias. Pertenece a las cefalosporinas de quinta generación. Su mecanismo de acción principal es inhibir la síntesis de la pared celular bacteriana, una estructura esencial que protege y da forma a la bacteria. Lo hace uniéndose de manera irreversible a unas proteínas específicas llamadas Proteínas Fijadoras de Penicilina (PBP), en particular a la PBP2a. Esta proteína es la responsable de la resistencia en bacterias como el SARM. Al unirse a ella, la ceftarolina bloquea el último paso de la formación de la pared celular, llamada transpeptidación. Esto debilita la pared, la bacteria no puede mantener su integridad, absorbe agua y finalmente se rompe (lisis), muriendo. Es especialmente efectiva porque mantiene una alta afinidad por estas PBPs incluso en bacterias resistentes.",
+    "pharmacologicClass": "Antibiótico beta-lactámico; Cefalosporina de quinta generación (o de espectro expandido contra Gram-positivos).",
+    "therapeuticClass": "Antibiótico sistémico.",
+    "absorption": "No se absorbe por vía oral. Debe administrarse por vía intravenosa (IV). La biodisponibilidad después de una infusión IV es del 100%.",
+    "distribution": "Se distribuye ampliamente en los tejidos y fluidos corporales. Su volumen de distribución en estado estacionario es de aproximadamente 20-22 litros. Se une moderadamente a proteínas plasmáticas, principalmente a la albúmina, en un rango del 15-20%. Logra concentraciones adecuadas en la piel, tejidos blandos, pulmón y suero para combatir infecciones.",
+    "metabolism": "La ceftarolina fosamil es un profármaco que se convierte rápidamente en su metabolito activo, la ceftarolina, en el plasma. La ceftarolina en sí no sufre un metabolismo hepático significativo a través del sistema del citocromo P450 (CYP). Se elimina mayoritariamente sin cambios. No es un inhibidor o inductor significativo de enzimas CYP.",
+    "elimination": "Se elimina principalmente por excreción renal. Aproximadamente el 85-90% de la dosis se recupera sin cambios en la orina en 48 horas. Su vida media de eliminación es de aproximadamente 2.5 a 3 horas en adultos con función renal normal. En pacientes con insuficiencia renal grave, esta vida media puede prolongarse significativamente.",
+    "onsetOfAction": "El inicio de acción es rápido una vez completada la infusión intravenosa, alcanzando concentraciones plasmáticas máximas (Cmax) al final de la infusión.",
+    "durationOfAction": "Su efecto bactericida es dependiente del tiempo. Se administra cada 12 horas para mantener concentraciones en sangre y tejidos por encima de la concentración inhibitoria mínima (CIM) de las bacterias sensibles durante el intervalo de dosificación."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones complicadas de piel y estructuras de la piel (ICPE) en adultos y niños a partir de 2 meses, causadas por bacterias sensibles como Staphylococcus aureus (incluido SARM), Streptococcus pyogenes, S. agalactiae, Escherichia coli, Klebsiella pneumoniae y Klebsiella oxytoca.",
+      "Neumonía adquirida en la comunidad (NAC) en adultos y niños a partir de 2 meses, causada por bacterias sensibles como Streptococcus pneumoniae (incluyendo cepas resistentes a penicilina), Staphylococcus aureus (SARM meticilino-sensible), Haemophilus influenzae, Klebsiella pneumoniae, Klebsiella oxytoca y Escherichia coli."
+    ],
+    "offLabel": [
+      "Tratamiento de infecciones bacterianas graves por bacterias Gram-positivas multirresistentes (como SARM) en otros sitios (ej., bacteriemia, osteomielitis) cuando las opciones son limitadas, siempre bajo estricta supervisión de infectología.",
+      "Tratamiento empírico en sepsis de origen desconocido con alta sospecha de patógeno Gram-positivo resistente, en combinación con otros antibióticos."
+    ]
+  },
+  "dosage": {
+    "adults": "Para infecciones complicadas de piel y neumonía: 600 mg administrados por vía intravenosa (infusión) cada 12 horas. La duración del tratamiento depende de la gravedad y ubicación de la infección, generalmente de 5 a 14 días.",
+    "pediatric": "Para pacientes de 2 meses a <18 años: La dosis se basa en el peso corporal y la edad. Para la mayoría de los niños: 8 mg/kg (hasta un máximo de 400 mg) por infusión IV cada 8 horas, O 12 mg/kg (hasta un máximo de 600 mg) por infusión IV cada 12 horas. El régimen específico lo determina el médico según la infección.",
+    "elderly": "No se requiere un ajuste de dosis inicial basado únicamente en la edad. Sin embargo, es común que los adultos mayores tengan una función renal disminuida, por lo que es esencial calcular la tasa de filtración glomerular (TFG) y ajustar la dosis según corresponda.",
+    "renalImpairment": "Ajustes basados en el aclaramiento de creatinina (CrCl): CrCl > 50 mL/min: 600 mg cada 12 horas (dosis estándar). CrCl 30-50 mL/min: 400 mg cada 12 horas. CrCl 15-29 mL/min: 300 mg cada 12 horas. CrCl < 15 mL/min o en diálisis: 200 mg cada 12 horas. Administrar la dosis después de una sesión de hemodiálisis.",
+    "hepaticImpairment": "No se requiere ajuste de dosis en insuficiencia hepática leve a moderada (Child-Pugh A y B). No hay datos suficientes para recomendar un ajuste en insuficiencia hepática grave (Child-Pugh C); usar con precaución.",
+    "maxDose": "La dosis máxima diaria en adultos con función renal normal es de 1200 mg (600 mg cada 12 horas)."
+  },
+  "dosageForms": [
+    {
+      "form": "Polvo liofilizado para solución inyectable (reconstituir y diluir para infusión intravenosa)",
+      "strengths": [
+        "400 mg",
+        "600 mg"
+      ],
+      "route": "Intravenosa (IV)"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad (alergia) conocida y grave a la ceftarolina, a cualquier otro antibiótico de la clase de las cefalosporinas, o a cualquier componente de la formulación.",
+      "Pacientes con antecedentes de reacción anafiláctica grave (shock, dificultad respiratoria) a cualquier antibiótico beta-lactámico (penicilinas, cefalosporinas, carbapenémicos, monobactámicos)."
+    ],
+    "relative": [
+      "Antecedentes de reacción alérgica leve a moderada a penicilinas u otras cefalosporinas (se puede usar con precaución extrema y bajo supervisión).",
+      "Colitis pseudomembranosa severa previa asociada a antibióticos.",
+      "Insuficiencia renal grave (requiere ajuste de dosis, no es contraindicación absoluta)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Dolor de cabeza",
+      "Náuseas",
+      "Diarrea"
+    ],
+    "common": [
+      "Vómitos",
+      "Erupción cutánea o prurito (comezón)",
+      "Flebitis o irritación en el sitio de la inyección IV",
+      "Aumento de transaminasas hepáticas (ALT, AST)",
+      "Trombocitosis (aumento de plaquetas)"
+    ],
+    "uncommon": [
+      "Colitis por Clostridioides difficile (diarrea acuosa o con sangre, dolor abdominal, fiebre)",
+      "Reacción de hipersensibilidad (urticaria, sarpullido)",
+      "Pruebas de función hepática elevadas (bilirrubina)",
+      "Fiebre",
+      "Mareo"
+    ],
+    "rare": [
+      "Anafilaxia (reacción alérgica grave)",
+      "Neutropenia (disminución de glóbulos blancos)",
+      "Trombocitopenia (disminución de plaquetas)",
+      "Síndrome de Stevens-Johnson o necrólisis epidérmica tóxica (erupciones cutáneas graves)",
+      "Convulsiones (riesgo en pacientes con enfermedad renal o que reciben dosis altas)"
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Probenecid",
+        "effect": "El probenecid inhibe la secreción tubular renal de la ceftarolina, lo que puede aumentar y prolongar sus concentraciones en sangre, incrementando el riesgo de efectos adversos.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Anticoagulantes (Warfarina)",
+        "effect": "Los antibióticos de amplio espectro, incluida la ceftarolina, pueden alterar la flora intestinal y reducir la síntesis de vitamina K, potenciando el efecto anticoagulante de la warfarina y aumentando el riesgo de sangrado. Se requiere monitoreo estrecho del INR.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "No aplica, ya que se administra por vía intravenosa. No hay interacciones directas con alimentos.",
+    "withSupplements": "Suplementos que contienen probenecid pueden causar interacción. Suplementos que afectan la coagulación (como altas dosis de vitamina E, ajo, ginkgo biloba) pueden aumentar el riesgo de sangrado si se usan con warfarina, cuyo efecto puede verse potenciado por la ceftarolina."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "B",
+      "recommendation": "Los estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. Debe usarse durante el embarazo solo si claramente se necesita. El beneficio potencial para la madre debe justificar el riesgo potencial para el feto. Consultar siempre con el obstetra y el infectólogo.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se desconoce si la ceftarolina se excreta en la leche humana. Debido a que muchos medicamentos se excretan en la leche y por el potencial de efectos adversos graves en el lactante (como alteración de la flora intestinal, diarrea, candidiasis), se debe decidir si suspender la lactancia o suspender el medicamento, considerando la importancia del fármaco para la madre.",
+    "pediatric": "Aprobado para uso en niños a partir de 2 meses de edad para las indicaciones de infección de piel y neumonía. La dosis se calcula cuidadosamente por peso corporal. La seguridad y eficacia en menores de 2 meses no están establecidas.",
+    "geriatric": "Los pacientes de edad avanzada (65 años o más) tienen mayor probabilidad de tener función renal disminuida. Es fundamental calcular la TFG y ajustar la dosis en consecuencia para evitar acumulación del fármaco y toxicidad. También pueden ser más susceptibles a la colitis por C. difficile."
+  },
+  "administration": {
+    "howToTake": "Este medicamento se administra SOLO por vía intravenosa (IV) en un hospital, clínica o por personal de salud capacitado en el hogar. El polvo se reconstituye con agua estéril para inyección y luego se diluye en una bolsa de solución para infusión (como solución salina al 0.9% o dextrosa al 5%). La infusión se administra lentamente durante un período de 60 minutos. Es importante completar todo el tratamiento prescrito, incluso si el paciente se siente mejor, para evitar que la infección regrese o desarrolle resistencia.",
+    "storage": "Antes de la reconstitución: Conservar el vial en su empaque original a temperatura ambiente (hasta 25°C), protegido de la luz. Después de la reconstitución y dilución: La solución es estable a temperatura ambiente por un tiempo limitado (consultar la información del producto, generalmente 6 horas) o puede refrigerarse (2-8°C) por 24 horas. No congelar.",
+    "specialInstructions": "No mezclar la ceftarolina con otras soluciones de medicamentos en la misma bolsa o línea de infusión IV. Se debe usar una línea IV separada o lavar bien la línea con una solución compatible (como solución salina) antes y después de la infusión de ceftarolina. Observar el sitio de la inyección para detectar signos de flebitis (enrojecimiento, hinchazón, dolor)."
+  },
+  "monitoring": {
+    "labTests": [
+      "Conteo sanguíneo completo (CSC) con diferencial (para monitorear glóbulos blancos y plaquetas)",
+      "Pruebas de función renal (creatinina sérica, TFG calculada)",
+      "Pruebas de función hepática (ALT, AST, bilirrubina)",
+      "Cultivos bacterianos y pruebas de sensibilidad (antibiograma) del sitio de infección"
+    ],
+    "frequency": "El CSC y la función renal deben monitorearse al inicio del tratamiento y periódicamente durante tratamientos prolongados (más de 7-10 días). La función hepática puede monitorearse si hay síntomas o en tratamientos largos. Los signos clínicos se evalúan diariamente.",
+    "signsToWatch": [
+      "Signos de reacción alérgica: urticaria, dificultad para respirar, hinchazón de cara/labios/lengua.",
+      "Diarrea acuosa o con sangre, dolor abdominal severo o fiebre (posible colitis por C. difficile).",
+      "Sangrado o moretones inusuales.",
+      "Fiebre persistente o que empeora a pesar del tratamiento.",
+      "Dolor, enrojecimiento o hinchazón severa en el sitio de la inyección IV."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Convulsiones (especialmente en pacientes con insuficiencia renal)",
+      "Aumento de los efectos adversos neurológicos (mareo, confusión)",
+      "Empeoramiento de las alteraciones en las pruebas de laboratorio (elevación de enzimas hepáticas, cambios en el conteo sanguíneo)"
+    ],
+    "treatment": "No existe un antídoto específico. El tratamiento es de soporte y sintomático. En caso de sobredosis, se debe suspender inmediatamente la ceftarolina. Las convulsiones pueden requerir tratamiento con anticonvulsivantes. La hemodiálisis puede eliminar parcialmente la ceftarolina de la sangre (hasta un 50-60% en 4 horas) y puede considerarse en casos graves, especialmente en pacientes con insuficiencia renal.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (antibiótico de uso controlado, generalmente reservado para uso hospitalario o por especialistas).",
+    "scheduleMexico": "Medicamento de la Fracción IV (sustancias que requieren receta médica y tienen potencial de abuso o dependencia bajo control especial). Es un antibiótico de uso restringido.",
+    "fdaApprovalYear": "2010 (para infecciones de piel) y 2011 (para neumonía)"
+  },
+  "brandsMexico": [
+    "Teflaro®",
+    "Zinforo®"
+  ],
+  "clinicalPearls": [
+    "La ceftarolina es uno de los pocos antibióticos beta-lactámicos activos contra el SARM, lo que la hace valiosa en infecciones graves por este patógeno.",
+    "Su espectro no cubre bien a Pseudomonas aeruginosa ni a bacterias Gram-negativas productoras de betalactamasas de espectro extendido (BLEE) o carbapenemasas (KPC). No debe usarse empíricamente para estas infecciones.",
+    "Es fundamental realizar cultivos y antibiograma antes de iniciar el tratamiento para confirmar la sensibilidad de la bacteria y desescalar a un antibiótico más específico si es posible, para preservar su utilidad."
+  ],
+  "patientCounseling": "Este es un antibiótico fuerte que se administra directamente en su vena para combatir una infección grave. Es muy importante que reciba todas las dosis que le indique su médico, a la hora exacta, incluso si ya se siente mejor. Si suspende el tratamiento antes de tiempo, la infección puede regresar y las bacterias pueden volverse resistentes, haciendo más difícil su tratamiento en el futuro. Informe de inmediato a su médico o enfermera si presenta sarpullido, dificultad para respirar, diarrea líquida o con sangre, o dolor fuerte donde le ponen la inyección. Mantenga una buena higiene y siga todas las instrucciones de su equipo de salud. Este medicamento no se puede tomar en casa por la boca; requiere administración profesional.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre",
+        "slug": "fiebre"
+      },
+      {
+        "name": "Dolor e inflamación en la piel",
+        "slug": "dolor-inflamacion-piel"
+      },
+      {
+        "name": "Enrojecimiento y calor en la piel",
+        "slug": "enrojecimiento-calor-piel"
+      },
+      {
+        "name": "Tos con flemas",
+        "slug": "tos-flemas"
+      },
+      {
+        "name": "Dificultad para respirar",
+        "slug": "dificultad-respirar"
+      },
+      {
+        "name": "Escalofríos",
+        "slug": "escalofrios"
+      },
+      {
+        "name": "Fatiga extrema",
+        "slug": "fatiga-extrema"
+      },
+      {
+        "name": "Dolor al respirar",
+        "slug": "dolor-al-respirar"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Celulitis infecciosa",
+        "slug": "celulitis-infecciosa"
+      },
+      {
+        "name": "Absceso cutáneo",
+        "slug": "absceso-cutaneo"
+      },
+      {
+        "name": "Neumonía adquirida en la comunidad",
+        "slug": "neumonia-adquirida-comunidad"
+      },
+      {
+        "name": "Infección por Staphylococcus aureus resistente a meticilina (SARM)",
+        "slug": "infeccion-sarm"
+      },
+      {
+        "name": "Fascitis necrotizante",
+        "slug": "fascitis-necrotizante"
+      },
+      {
+        "name": "Bacteriemia",
+        "slug": "bacteriemia"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Colitis pseudomembranosa por Clostridioides difficile",
+        "slug": "colitis-pseudomembranosa"
+      },
+      {
+        "name": "Reacción anafiláctica",
+        "slug": "reaccion-anafilactica"
+      },
+      {
+        "name": "Síndrome de Stevens-Johnson",
+        "slug": "sindrome-stevens-johnson"
+      },
+      {
+        "name": "Insuficiencia renal aguda",
+        "slug": "insuficiencia-renal-aguda"
+      },
+      {
+        "name": "Hepatitis medicamentosa",
+        "slug": "hepatitis-medicamentosa"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar (por efecto nefrotóxico, aunque raro)"
+      },
+      {
+        "name": "Alanina aminotransferasa (ALT)",
+        "slug": "alanina-aminotransferasa",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Aspartato aminotransferasa (AST)",
+        "slug": "aspartato-aminotransferasa",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Recuento de plaquetas",
+        "slug": "recuento-plaquetas",
+        "effect": "Puede elevar (trombocitosis) o disminuir (trombocitopenia, raro)"
+      },
+      {
+        "name": "Recuento de neutrófilos",
+        "slug": "recuento-neutrofilos",
+        "effect": "Puede disminuir (neutropenia, raro)"
+      },
+      {
+        "name": "Tiempo de protrombina (TP/INR)",
+        "slug": "tiempo-protrombina-inr",
+        "effect": "Puede elevar (aumentar INR) cuando se usa con warfarina"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Cultivo y antibiograma",
+        "slug": "cultivo-antibiograma",
+        "reason": "Para identificar la bacteria causante y confirmar su sensibilidad a la ceftarolina."
+      },
+      {
+        "name": "Conteo sanguíneo completo",
+        "slug": "conteo-sanguineo-completo",
+        "reason": "Para monitorear efectos en glóbulos blancos y plaquetas durante tratamientos prolongados."
+      },
+      {
+        "name": "Pruebas de función renal",
+        "slug": "pruebas-funcion-renal",
+        "reason": "Para ajustar la dosis y evitar toxicidad por acumulación."
+      },
+      {
+        "name": "Radiografía de tórax",
+        "slug": "radiografia-torax",
+        "reason": "Para diagnosticar y evaluar la evolución de una neumonía."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La ceftarolina es una penicilina?",
+      "a": "No, no es una penicilina. Pertenece a otra familia de antibióticos llamada cefalosporinas, pero ambos son parientes lejanos (beta-lactámicos). Si es alérgico a la penicilina, puede o no ser alérgico a la ceftarolina; su médico debe evaluarlo con cuidado."
+    },
+    {
+      "q": "¿Me puedo tomar la ceftarolina en pastillas en casa?",
+      "a": "No. La ceftarolina solo existe en forma inyectable para administrarse directamente en la vena (intravenosa). Su uso es hospitalario o bajo supervisión médica muy estrecha en el hogar por personal capacitado."
+    },
+    {
+      "q": "¿Cuánto tiempo dura el tratamiento con ceftarolina?",
+      "a": "La duración depende de la infección y su gravedad. Para infecciones de piel o neumonía, suele ser entre 5 y 14 días. Es crucial completar TODO el tratamiento que recetó el médico, aunque se sienta mejor."
+    },
+    {
+      "q": "¿La ceftarolina causa mucha diarrea?",
+      "a": "La diarrea es un efecto común. Sin embargo, si la diarrea es muy líquida, abundante, con sangre o se acompaña de fiebre y dolor abdominal fuerte, DEBE avisar a su médico de inmediato, ya que podría ser una colitis grave por una bacteria llamada C. difficile."
+    },
+    {
+      "q": "¿Puedo tomar alcohol mientras me ponen ceftarolina?",
+      "a": "No se recomienda. El alcohol puede debilitar su sistema inmunológico, dificultando la lucha contra la infección. Además, si tiene náuseas o problemas hepáticos por el antibiótico, el alcohol los puede empeorar."
+    },
+    {
+      "q": "¿La ceftarolina sirve para la gripe o el COVID-19?",
+      "a": "No. La ceftarolina solo mata bacterias. La gripe y el COVID-19 son causados por virus. Usar un antibiótico para una infección viral es inútil y contribuye a la resistencia bacteriana."
+    },
+    {
+      "q": "¿Qué hago si me salen ronchas o me falta el aire después de que me ponen la inyección?",
+      "a": "Es una EMERGENCIA MÉDICA. Puede ser una reacción alérgica grave (anafilaxia). Avise a la enfermera o médico INMEDIATAMENTE. No espere."
+    },
+    {
+      "q": "¿La ceftarolina afecta los métodos anticonceptivos como las pastillas?",
+      "a": "No hay evidencia de que la ceftarolina reduzca la efectividad de los anticonceptivos hormonales (pastillas, parches, anillos). Sin embargo, si presenta vómitos o diarrea severa por el antibiótico, la absorción de la pastilla puede verse afectada; use un método de respaldo (como condón) en ese caso."
+    },
+    {
+      "q": "¿Duele que me pongan la ceftarolina en la vena?",
+      "a": "Puede sentir molestias, ardor o dolor en el sitio donde se coloca la aguja o el catéter (flebitis). Informe a la enfermera si el dolor es intenso, si el área se enrojece o hincha mucho."
+    },
+    {
+      "q": "¿Por qué me hacen análisis de sangre mientras me dan ceftarolina?",
+      "a": "Para monitorear que el medicamento no esté afectando sus riñones, hígado o las células de su sangre (como glóbulos blancos y plaquetas), especialmente si el tratamiento es largo."
+    },
+    {
+      "q": "Si tengo diabetes, ¿la ceftarolina afecta mi azúcar en la sangre?",
+      "a": "No hay una interacción directa conocida. Sin embargo, las infecciones graves por sí solas pueden descontrolar la glucosa. Monitoree sus niveles de azúcar con más frecuencia durante la enfermedad."
+    },
+    {
+      "q": "¿Puedo recibir ceftarolina si estoy embarazada?",
+      "a": "Solo si su médico considera que el beneficio para usted es mayor que el riesgo potencial para el bebé. Se clasifica como categoría B en el embarazo. Debe ser una decisión conjunta entre su obstetra y el infectólogo."
+    },
+    {
+      "q": "¿La ceftarolina es lo mismo que la ceftriaxona?",
+      "a": "No. Ambas son cefalosporinas, pero de generaciones diferentes. La ceftarolina (5ta generación) es activa contra el SARM, mientras que la ceftriaxona (3ra generación) no lo es. Tienen espectros y usos distintos."
+    },
+    {
+      "q": "¿Qué pasa si me olvido una dosis de ceftarolina en el hospital?",
+      "a": "El personal de enfermería lleva un control estricto. Si por algún error se omite, se debe administrar lo antes posible y luego ajustar el horario de las siguientes dosis para mantener el intervalo correcto (cada 12 horas). Nunca duplique la dosis."
+    },
+    {
+      "q": "¿La ceftarolina me puede dar sueño o mareo?",
+      "a": "El mareo es un efecto poco común. Si lo experimenta, tenga precaución al levantarse de la cama o al caminar. Informe a su médico si es severo."
+    },
+    {
+      "q": "¿Sirve la ceftarolina para infecciones de orina?",
+      "a": "No es su indicación principal. Aunque puede ser activa contra algunas bacterias que causan infección urinaria, existen antibióticos más específicos y adecuados para ese fin. Su uso para infecciones de orina sería off-label y solo en casos muy seleccionados."
+    },
+    {
+      "q": "¿Por qué la ceftarolina se reserva para casos graves?",
+      "a": "Para preservar su efectividad. Es un antibiótico valioso contra bacterias resistentes (como el SARM). Si se usa para todo, las bacterias pueden desarrollar resistencia a ella también, y perderíamos un arma importante para infecciones peligrosas."
+    },
+    {
+      "q": "¿Necesito ajuste de dosis si tengo problemas en los riñones?",
+      "a": "SÍ, es absolutamente necesario. Si sus riñones no funcionan bien, el medicamento se acumula en la sangre y puede causar toxicidad (como convulsiones). Su médico calculará su función renal y reducirá la dosis según sea necesario."
+    },
+    {
+      "q": "¿La ceftarolina interactúa con otros medicamentos que tomo?",
+      "a": "Puede interactuar, principalmente con el probenecid y con anticoagulantes como la warfarina. DEBE informar a su médico TODOS los medicamentos, hierbas y suplementos que toma, para evitar interacciones peligrosas."
+    },
+    {
+      "q": "¿Cuál es la principal ventaja de la ceftarolina sobre otros antibióticos para el SARM?",
+      "a": "Su principal ventaja es que es un beta-lactámico (cefalosporina) bactericida contra el SARM. Otros tratamientos para SARM (como vancomicina, linezolid) no son beta-lactámicos. Ofrece un mecanismo de acción familiar con un perfil de seguridad generalmente bueno para tratar estas infecciones resistentes."
+    }
+  ]
+}

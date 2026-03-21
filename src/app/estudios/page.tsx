@@ -6,6 +6,7 @@ import { studies } from '@/db/schema';
 import { eq } from 'drizzle-orm';
 import { ChevronRight, TestTube, Activity, Baby, Droplets, Microscope, Heart, Pill, Dna, Stethoscope, Scan } from 'lucide-react';
 import { AdBanner } from '@/components/ui/AdBanner';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 const categories = [
     { id: 'analisis-clinicos', name: 'Análisis Clínicos', icon: TestTube, color: 'from-blue-500 to-cyan-500', keywords: [] as string[] },
@@ -121,7 +122,9 @@ export default async function AllStudiesPage() {
 
                 {/* Banner Publicitario */}
                 <div className="mt-16 max-w-4xl mx-auto">
-                    <AdBanner variant="horizontal" />
+                    
+                <RelatedTools currentPath="/estudios" className="mb-8" />
+                <AdBanner variant="horizontal" />
                 </div>
             </div>
         </main>

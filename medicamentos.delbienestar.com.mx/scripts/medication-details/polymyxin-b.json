@@ -1,0 +1,424 @@
+{
+  "name": "Polimixina B",
+  "summary": "La Polimixina B es un antibiótico potente de la familia de los aminoglucósidos, utilizado como último recurso para tratar infecciones graves causadas por bacterias Gram-negativas que son resistentes a la mayoría de los otros antibióticos. Sirve específicamente para combatir infecciones como sepsis (infección en la sangre), meningitis (infección de las membranas del cerebro), neumonía grave e infecciones de heridas o del tracto urinario causadas por bacterias como Pseudomonas aeruginosa, Acinetobacter baumannii y Klebsiella pneumoniae. Su importancia clínica es enorme, ya que es uno de los pocos tratamientos efectivos contra las llamadas 'superbacterias' multirresistentes, salvando vidas en situaciones críticas donde otras opciones han fallado. Sin embargo, debido a su potencial toxicidad para los riñones y el sistema nervioso, su uso está estrictamente reservado para hospitales, bajo supervisión médica constante y monitoreo de laboratorio. Es un medicamento que marca la diferencia entre la vida y la muerte en infecciones complicadas, pero debe manejarse con extremo cuidado.",
+  "pharmacology": {
+    "mechanismOfAction": "La Polimixina B actúa como un detergente catiónico que se une de manera irreversible a los lípidos de la membrana externa de las bacterias Gram-negativas. Su estructura de polipéptido catiónico interactúa con el lipopolisacárido (LPS) y los fosfolípidos de la membrana, desplazando los iones de calcio y magnesio que estabilizan la estructura. Esto altera la integridad de la membrana externa, aumentando su permeabilidad. Como consecuencia, se produce una fuga masiva de los contenidos celulares bacterianos (como iones, nucleótidos y otras moléculas esenciales) hacia el exterior, lo que lleva a la desintegración de la membrana citoplasmática y, finalmente, a la muerte celular bacteriana (efecto bactericida). Su acción es rápida y concentración-dependiente.",
+    "pharmacologicClass": "Antibiótico polipeptídico cíclico catiónico (del grupo de las polimixinas).",
+    "therapeuticClass": "Antibiótico bactericida para Gram-negativos multirresistentes.",
+    "absorption": "La Polimixina B se absorbe muy pobremente por vía oral (menos del 1%) y a través de las mucosas intactas. Por esta razón, para tratar infecciones sistémicas graves, debe administrarse exclusivamente por vía intravenosa o intramuscular. Cuando se aplica tópicamente (en piel, ojos) o por inhalación, la absorción sistémica es mínima, a menos que existan grandes superficies de piel dañada o quemaduras.",
+    "distribution": "Se distribuye principalmente en el espacio intravascular y en los tejidos con alta perfusión. Su unión a proteínas plasmáticas es baja (aproximadamente 50%). Tiene un volumen de distribución (Vd) relativamente bajo (0.1-0.2 L/kg), lo que indica que permanece principalmente en el plasma y el líquido extracelular. Penetra pobremente en el líquido cefalorraquídeo (LCR), tejido óseo, bilis y secreciones prostáticas, a menos que exista inflamación de las meninges (meningitis).",
+    "metabolism": "La Polimixina B no sufre metabolismo hepático significativo a través del sistema del citocromo P450 (CYP). Se considera que no es un sustrato, inhibidor o inductor de las enzimas CYP. Se elimina principalmente sin cambios por el riñón.",
+    "elimination": "Se elimina casi exclusivamente por filtración glomerular en el riñón, sin reabsorción tubular significativa. Su vida media de eliminación es de aproximadamente 4.5 a 6 horas en adultos con función renal normal. En pacientes con insuficiencia renal grave, la vida media puede prolongarse dramáticamente hasta 48-72 horas, aumentando enormemente el riesgo de toxicidad. Solo una pequeña fracción se excreta por vías no renales.",
+    "onsetOfAction": "El inicio de acción bactericida es rápido, comenzando minutos después de alcanzar concentraciones terapéuticas en el sitio de la infección.",
+    "durationOfAction": "Su efecto es concentración-dependiente y tiene un efecto post-antibiótico prolongado contra algunas bacterias Gram-negativas, lo que significa que sigue suprimiendo el crecimiento bacteriano incluso después de que sus niveles en sangre hayan disminuido por debajo de la concentración inhibitoria mínima (CIM)."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones sistémicas graves por bacterias Gram-negativas susceptibles y multirresistentes (ej. Pseudomonas aeruginosa, Acinetobacter baumannii, Klebsiella pneumoniae).",
+      "Meningitis por Gram-negativos (administración intratecal/intraventricular).",
+      "Infecciones oculares graves (conjuntivitis, queratitis) por Gram-negativos.",
+      "Infecciones de la piel y tejidos blandos por Gram-negativos (uso tópico).",
+      "Infecciones del tracto urinario complicadas por cepas multirresistentes (aunque la penetración es limitada)."
+    ],
+    "offLabel": [
+      "Inhalada (nebulizada) para el tratamiento o prevención de neumonías asociadas al ventilador por Gram-negativos multirresistentes en pacientes en UCI.",
+      "Lavados intraperitoneales en peritonitis por Gram-negativos multirresistentes.",
+      "Terapia combinada para infecciones por bacterias Gram-negativas con resistencia intermedia a otros antibióticos."
+    ]
+  },
+  "dosage": {
+    "adults": "Dosis intravenosa: 1.5 a 2.5 mg/kg/día (equivalente a 15,000 a 25,000 UI/kg/día), dividida en 2 dosis cada 12 horas. En infecciones muy graves, la dosis puede iniciarse en el extremo superior. La dosis se ajusta según la función renal (ver ajuste renal). Dosis intratecal para meningitis: 5 mg (50,000 UI) una vez al día.",
+    "pediatric": "Lactantes y niños con función renal normal: 1.5 a 2.5 mg/kg/día (15,000 a 25,000 UI/kg/día), dividida en 2 dosis cada 12 horas. Recién nacidos: Dosis más bajas y ajustes estrictos según edad gestacional y función renal. Siempre bajo supervisión hospitalaria especializada.",
+    "elderly": "Los adultos mayores suelen tener una función renal disminuida. La dosis debe calcularse en base al peso corporal ajustado y la TFG estimada. Se recomienda iniciar con la dosis más baja del rango y monitorear estrechamente la función renal y los niveles séricos del fármaco.",
+    "renalImpairment": "Ajuste CRUCIAL basado en la Tasa de Filtración Glomerular (TFG). TFG >80 mL/min: Dosis estándar. TFG 30-80 mL/min: 1.0-1.5 mg/kg/día dividido en 2 dosis. TFG 10-30 mL/min: 0.75-1.0 mg/kg/día en dosis única diaria. TFG <10 mL/min o diálisis: 0.5-0.75 mg/kg/dosis cada 48-72 horas. La dosis se administra POST-diálisis en pacientes en hemodiálisis.",
+    "hepaticImpairment": "No se requieren ajustes de dosis específicos por insuficiencia hepática, ya que no se metaboliza en el hígado. Sin embargo, en cirrosis con ascitis, el volumen de distribución puede alterarse.",
+    "maxDose": "La dosis máxima diaria rara vez debe exceder los 2.5 mg/kg/día (25,000 UI/kg/día) o un total absoluto de 200 mg/día (2,000,000 UI/día), salvo en situaciones de vida o muerte bajo monitoreo intensivo."
+  },
+  "dosageForms": [
+    {
+      "form": "Polvo liofilizado para inyección (vial)",
+      "strengths": [
+        "500,000 UI (equivalente a 50 mg)"
+      ],
+      "route": "Intravenosa, Intramuscular, Intratecal"
+    },
+    {
+      "form": "Solución oftálmica",
+      "strengths": [
+        "10,000 UI/mL",
+        "16,000 UI/mL"
+      ],
+      "route": "Tópica (ocular)"
+    },
+    {
+      "form": "Ungüento oftálmico",
+      "strengths": [
+        "10,000 UI/g"
+      ],
+      "route": "Tópica (ocular)"
+    },
+    {
+      "form": "Polvo para solución tópica/irrigación",
+      "strengths": [
+        "500,000 UI"
+      ],
+      "route": "Tópica (piel, heridas), Irrigación"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la Polimixina B o a cualquier componente de la formulación.",
+      "Miastenia gravis (riesgo aumentado de bloqueo neuromuscular severo)."
+    ],
+    "relative": [
+      "Insuficiencia renal preexistente (requiere ajuste estricto y monitoreo).",
+      "Enfermedades neurológicas preexistentes (neuropatía, parkinsonismo).",
+      "Hipocalcemia (potencia el efecto de bloqueo neuromuscular).",
+      "Uso concomitante con otros fármacos nefrotóxicos o neurotóxicos."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Dolor en el sitio de inyección (IM/IV).",
+      "Flebitis (irritación de la vena)."
+    ],
+    "common": [
+      "Nefrotoxicidad (daño renal): elevación de creatinina y BUN.",
+      "Neurotoxicidad: mareo, vértigo, parestesias (hormigueo), debilidad muscular.",
+      "Alteraciones electrolíticas (hipocalcemia, hipokalemia)."
+    ],
+    "uncommon": [
+      "Reacciones de hipersensibilidad (rash, prurito, fiebre).",
+      "Dificultad para respirar (por bloqueo neuromuscular).",
+      "Visión borrosa, diplopía (visión doble).",
+      "Confusión, desorientación (especialmente en ancianos)."
+    ],
+    "rare": [
+      "Anafilaxia (reacción alérgica grave).",
+      "Síndrome de secreción inadecuada de hormona antidiurética (SIADH).",
+      "Neurotoxicidad severa: apnea (dejar de respirar), parálisis flácida."
+    ],
+    "blackBoxWarning": "Advertencia de caja negra por NEFROTOXICIDAD y NEUROTOXICIDAD. La Polimixina B puede causar daño renal agudo y daño al sistema nervioso (incluyendo mareos, hormigueo, entumecimiento y parálisis respiratoria). El riesgo es mayor en pacientes con insuficiencia renal preexistente, deshidratación, hipotensión o cuando se usa con otros fármacos tóxicos para el riñón o los nervios. Debe usarse con extrema precaución, con monitoreo frecuente de la función renal y signos neurológicos."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Aminoglucósidos (Gentamicina, Amikacina)",
+        "effect": "Aumento SINÉRGICO del riesgo de nefrotoxicidad y neurotoxicidad (bloqueo neuromuscular).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Vancomicina",
+        "effect": "Aumento del riesgo de daño renal.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Diuréticos de asa (Furosemida)",
+        "effect": "Pueden potenciar la nefrotoxicidad y la ototoxicidad. Además, la hipokalemia inducida por diuréticos aumenta el riesgo de bloqueo neuromuscular.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Relajantes musculares (Succinilcolina, Tubocurarina)",
+        "effect": "Potenciación del bloqueo neuromuscular, pudiendo causar parálisis respiratoria prolongada.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Fármacos nefrotóxicos (AINEs como Ibuprofeno, Cisplatino, Anfotericina B)",
+        "effect": "Riesgo aditivo de insuficiencia renal aguda.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "No tiene interacciones significativas con alimentos. Sin embargo, se recomienda una buena hidratación para reducir el riesgo de daño renal. El consumo de alcohol debe evitarse, ya que puede potenciar la deshidratación y el riesgo de toxicidad.",
+    "withSupplements": "Suplementos que contengan magnesio o calcio por vía intravenosa pueden antagonizar el efecto antibacteriano de la Polimixina B. Los suplementos de hierro pueden formar complejos no absorbibles. Consultar siempre con el médico o farmacéutico."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "C",
+      "recommendation": "Solo debe usarse durante el embarazo si el beneficio potencial justifica claramente el riesgo potencial para el feto. No hay estudios adecuados y bien controlados en mujeres embarazadas. Puede causar toxicidad fetal, especialmente renal. Su uso está reservado para infecciones maternas graves que amenazan la vida.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se desconoce si la Polimixina B se excreta en la leche materna humana. Dado el potencial de toxicidad grave en el lactante (riesgo de alteración de la flora intestinal y toxicidad sistémica), se recomienda suspender la lactancia materna durante el tratamiento o no administrar el fármaco a menos que sea absolutamente necesario.",
+    "pediatric": "Puede usarse en niños para infecciones graves por bacterias multirresistentes, pero con EXTREMA precaución y monitoreo aún más estricto de la función renal y signos neurológicos. Las dosis se calculan meticulosamente por peso corporal. No se recomienda en recién nacidos prematuros a menos que sea indispensable.",
+    "geriatric": "Los pacientes mayores de 65 años son más susceptibles a la nefrotoxicidad y neurotoxicidad debido a la disminución fisiológica de la función renal y la posible presencia de otras enfermedades. Se deben usar dosis iniciales más bajas, ajustes por TFG y un monitoreo muy cercano de creatinina sérica, electrolitos y estado neurológico."
+  },
+  "administration": {
+    "howToTake": "La Polimixina B para uso sistémico se administra SOLO en un hospital, por personal médico capacitado. La inyección intravenosa se diluye en solución salina o dextrosa al 5% y se infunde lentamente durante 60-90 minutos para reducir el riesgo de reacciones en el sitio y toxicidad neurológica. Las inyecciones intramusculares son dolorosas y se reservan para cuando la vía IV no es posible. Para uso oftálmico (gotas o ungüento), lavarse las manos, inclinar la cabeza hacia atrás, aplicar la dosis prescrita en el ojo afectado sin tocar la punta del aplicador con el ojo, y mantener el ojo cerrado por un minuto. Para uso tópico en piel, limpiar y secar el área antes de aplicar una capa delgada.",
+    "storage": "Conservar el polvo liofilizado para inyección a temperatura ambiente (15-30°C), protegido de la luz. Una vez reconstituido, la solución es estable por 72 horas si se refrigera (2-8°C). Las soluciones oftálmicas y ungüentos deben guardarse a temperatura ambiente, evitando el calor excesivo y la congelación. Mantener todos los productos fuera del alcance de los niños.",
+    "specialInstructions": "NUNCA se autoadministre inyecciones de Polimixina B. Es un medicamento de alto riesgo. Informe inmediatamente a su médico si siente hormigueo en manos/pies, dificultad para respirar, mareo intenso, debilidad muscular o disminución en la cantidad de orina. Mantenga una hidratación adecuada (beber agua) a menos que su médico le indique lo contrario por otra condición. Complete TODO el tratamiento prescrito, incluso si se siente mejor, para evitar que la infección regrese y desarrolle más resistencia."
+  },
+  "monitoring": {
+    "labTests": [
+      "Creatinina sérica y BUN (antes de iniciar, cada 2-3 días durante el tratamiento, y después).",
+      "Electrolitos séricos (sodio, potasio, calcio, magnesio).",
+      "Recuento completo de células sanguíneas (CBC).",
+      "Niveles séricos de Polimixina B (monitoreo terapéutico de fármacos, TDM) en casos de insuficiencia renal o dosis altas.",
+      "Análisis de orina."
+    ],
+    "frequency": "La función renal (creatinina/BUN) debe monitorearse al menos cada 48-72 horas durante el tratamiento. Los electrolitos y el estado neurológico deben evaluarse diariamente en el hospital.",
+    "signsToWatch": [
+      "Disminución en la producción de orina (oliguria).",
+      "Hormigueo, entumecimiento o ardor en manos, pies o alrededor de la boca.",
+      "Mareo, inestabilidad al caminar, visión borrosa o doble.",
+      "Debilidad muscular progresiva, dificultad para respirar o tragar.",
+      "Erupción cutánea, picazón o hinchazón."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Insuficiencia renal aguda severa (anuria).",
+      "Parálisis flácida, apnea (paro respiratorio).",
+      "Convulsiones, coma.",
+      "Alteraciones electrolíticas masivas (hipocalcemia severa)."
+    ],
+    "treatment": "No existe un antídoto específico. El tratamiento es de soporte e incluye: 1) Suspensión inmediata del fármaco. 2) Soporte respiratorio (ventilación mecánica si hay apnea). 3) Hemodiálisis para eliminar el fármaco y corregir la insuficiencia renal, aunque la eliminación por diálisis es limitada debido a su alta unión a tejidos. 4) Corrección agresiva de los desequilibrios electrolíticos. 5) Monitoreo en una unidad de cuidados intensivos (UCI).",
+    "antidote": "No existe un antídoto específico para la intoxicación por Polimixina B."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (de alta vigilancia). Es un medicamento de uso hospitalario principalmente.",
+    "scheduleMexico": "Medicamento de la Fracción IV (sustancias que requieren receta médica y tienen potencial de causar dependencia o toxicidad).",
+    "fdaApprovalYear": "Aprobado por la FDA de EE.UU. hace décadas (en los años 40-50)."
+  },
+  "brandsMexico": [
+    "Polymyxin B Sulfate (genérico, varios laboratorios)",
+    "Polymyxin B (Pfizer)",
+    "Polymyxin B Oftálmica (comercializado por laboratorios como Sophia, Senosiain en presentaciones oftálmicas combinadas con otros antibióticos como Neomicina o Bacitracina). Nota: En México, la presentación sistémica (inyectable) suele estar disponible como genérico o de Pfizer, y las presentaciones tópicas/oftálmicas suelen ser combinaciones."
+  ],
+  "clinicalPearls": [
+    "La Polimixina B es un 'antibiótico de último recurso'. Su uso debe ser guiado por cultivos y pruebas de sensibilidad (antibiograma) que confirmen la resistencia a otras opciones.",
+    "La nefrotoxicidad es Dosis-Dependiente y a menudo Reversible si se detecta a tiempo y se suspende el fármaco. El monitoreo de creatinina es no negociable.",
+    "En combinación con otros antibióticos (como carbapenémicos o tigeciclina) puede tener un efecto sinérgico contra bacterias Gram-negativas multirresistentes, permitiendo usar dosis más bajas y reducir la toxicidad.",
+    "La vía inhalada (nebulizada) es una estrategia para alcanzar altas concentraciones en los pulmones con mínima absorción sistémica, útil en neumonías por Pseudomonas resistente.",
+    "La resistencia a la Polimixina B es aún rara pero va en aumento. Su uso indiscriminado acelerará la aparición de bacterias 'panresistentes', contra las cuales no habrá tratamiento efectivo."
+  ],
+  "patientCounseling": "Estimado paciente: Este es un medicamento muy fuerte que se usa solo para infecciones graves que no responden a otros antibióticos. Usted lo recibirá en el hospital, bajo vigilancia constante. Es fundamental que nos informe de inmediato si siente hormigueo en manos o pies, mareo que le impide caminar, dificultad para respirar o si nota que orina mucho menos de lo normal. Beba la cantidad de agua que su médico le indique para proteger sus riñones. No suspenda el tratamiento por su cuenta, aunque se sienta mejor; completarlo es crucial para vencer la infección por completo. Si le dan gotas o pomada para los ojos o la piel, siga las instrucciones al pie de la letra y no las use por más tiempo del recetado. Recuerde, este medicamento es un aliado poderoso contra infecciones peligrosas, pero requiere de su colaboración y comunicación con el equipo de salud para usarlo de la manera más segura.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre alta",
+        "slug": "fiebre-alta"
+      },
+      {
+        "name": "Escalofríos y sudoración",
+        "slug": "escalofrios-sudoracion"
+      },
+      {
+        "name": "Dificultad para respirar",
+        "slug": "disnea-dificultad-respirar"
+      },
+      {
+        "name": "Dolor o ardor al orinar",
+        "slug": "disuria-dolor-al-orinar"
+      },
+      {
+        "name": "Secreción ocular purulenta",
+        "slug": "secrecion-ocular-purulenta"
+      },
+      {
+        "name": "Enrojecimiento e hinchazón de heridas",
+        "slug": "enrojecimiento-hinchazon-herida"
+      },
+      {
+        "name": "Confusión o alteración del estado mental",
+        "slug": "confusion-alteracion-mental"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Sepsis o shock séptico",
+        "slug": "sepsis-shock-septico"
+      },
+      {
+        "name": "Meningitis bacteriana",
+        "slug": "meningitis-bacteriana"
+      },
+      {
+        "name": "Neumonía asociada al ventilador",
+        "slug": "neumonia-asociada-ventilador"
+      },
+      {
+        "name": "Infecciones intrahospitalarias por Gram-negativos",
+        "slug": "infecciones-intrahospitalarias"
+      },
+      {
+        "name": "Conjuntivitis o queratitis bacteriana grave",
+        "slug": "conjuntivitis-queratitis-bacteriana"
+      },
+      {
+        "name": "Infecciones de piel y tejidos blandos complicadas",
+        "slug": "infeccion-piel-tejidos-blandos"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Insuficiencia renal aguda",
+        "slug": "insuficiencia-renal-aguda"
+      },
+      {
+        "name": "Neuropatía periférica",
+        "slug": "neuropatia-periferica"
+      },
+      {
+        "name": "Síndrome de secreción inadecuada de ADH (SIADH)",
+        "slug": "siadh-secrecion-inadecuada-adh"
+      },
+      {
+        "name": "Miastenia gravis (exacerbación)",
+        "slug": "miastenia-gravis"
+      },
+      {
+        "name": "Desequilibrio electrolítico",
+        "slug": "desequilibrio-electrolitico"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar significativamente"
+      },
+      {
+        "name": "Nitrógeno ureico en sangre (BUN)",
+        "slug": "bun-nitrogeno-ureico",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Potasio sérico (K+)",
+        "slug": "potasio-serico",
+        "effect": "Puede disminuir (hipokalemia)"
+      },
+      {
+        "name": "Calcio sérico (Ca2+)",
+        "slug": "calcio-serico",
+        "effect": "Puede disminuir (hipocalcemia)"
+      },
+      {
+        "name": "Magnesio sérico (Mg2+)",
+        "slug": "magnesio-serico",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Sodio sérico (Na+)",
+        "slug": "sodio-serico",
+        "effect": "Puede disminuir (hiponatremia por SIADH)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Antibiograma (Cultivo y Sensibilidad)",
+        "slug": "antibiograma-cultivo-sensibilidad",
+        "reason": "Esencial para confirmar que la bacteria causante es sensible a la Polimixina B antes de iniciar el tratamiento."
+      },
+      {
+        "name": "Creatinina sérica y TFG estimada",
+        "slug": "creatinina-tfg",
+        "reason": "Monitoreo obligatorio antes y durante el tratamiento para ajustar dosis y prevenir nefrotoxicidad."
+      },
+      {
+        "name": "Electrolitos séricos",
+        "slug": "electrolitos-sericos",
+        "reason": "Para detectar y corregir hipokalemia, hipocalcemia e hipomagnesemia que potencian la toxicidad."
+      },
+      {
+        "name": "Monitoreo Terapéutico de Fármacos (TDM) de Polimixina B",
+        "slug": "monitoreo-terapeutico-farmacos",
+        "reason": "Recomendado en pacientes críticos, con insuficiencia renal o en tratamientos prolongados para optimizar dosis y minimizar toxicidad."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de Aclaramiento de Creatinina (Cockcroft-Gault)",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de TFG (MDRD o CKD-EPI)",
+        "slug": "calculadora-egfr"
+      },
+      {
+        "name": "Calculadora de Dosis Pediátrica por Peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué tipo de infecciones me recetarían Polimixina B?",
+      "a": "Solo para infecciones muy graves y potencialmente mortales causadas por bacterias Gram-negativas que ya no responden a los antibióticos comunes, como ciertas neumonías, infecciones en la sangre (sepsis), meningitis o infecciones de heridas complicadas."
+    },
+    {
+      "q": "¿Por qué solo me la pondrían en el hospital y no en casa?",
+      "a": "Porque es un medicamento de alto riesgo que puede dañar los riñones y los nervios. En el hospital pueden monitorearlo muy de cerca con análisis de sangre, ajustar la dosis al instante si es necesario y atender rápidamente cualquier efecto secundario grave, como dificultad para respirar."
+    },
+    {
+      "q": "¿Duele la inyección de Polimixina B?",
+      "a": "Sí, la inyección intramuscular puede ser bastante dolorosa. La inyección intravenosa (en la vena) también puede causar irritación y dolor en el sitio de la inyección. Por eso se administra diluida y lentamente."
+    },
+    {
+      "q": "¿Cuánto tiempo dura el tratamiento usualmente?",
+      "a": "Depende de la gravedad y tipo de infección, pero generalmente es un tratamiento corto, de 7 a 14 días. El objetivo es controlar la infección lo antes posible para luego cambiar a un antibiótico menos tóxico, si está disponible."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si me están dando Polimixina B?",
+      "a": "NO. El alcohol puede deshidratarlo y empeorar el riesgo de daño en los riñones. Además, en el hospital usted está recibiendo tratamiento para una infección grave, por lo que el alcohol está totalmente contraindicado."
+    },
+    {
+      "q": "¿Qué debo hacer si siento hormigueo en los dedos o mareo?",
+      "a": "Informar INMEDIATAMENTE a la enfermera o al médico. Estos pueden ser los primeros signos de toxicidad en los nervios y es crucial que el equipo médico lo sepa para evaluar si necesitan ajustar la dosis o suspender el medicamento."
+    },
+    {
+      "q": "¿La Polimixina B me puede dañar los riñones para siempre?",
+      "a": "En la mayoría de los casos, el daño renal (si ocurre) es reversible si se detecta a tiempo y se suspende o ajusta el medicamento. Por eso es tan importante el monitoreo con análisis de sangre frecuentes."
+    },
+    {
+      "q": "¿Sirve para infecciones de garganta o gripa?",
+      "a": "ABSOLUTAMENTE NO. No sirve para infecciones virales como la gripe, ni para la mayoría de las infecciones comunes de garganta o oído. Solo es efectiva contra un grupo muy específico de bacterias resistentes."
+    },
+    {
+      "q": "¿Puedo usar las gotas para los ojos de Polimixina B que me sobraron de otra vez?",
+      "a": "NO. Nunca use medicamentos sobrantes, especialmente antibióticos. Podría no ser la infección correcta, generar resistencia bacteriana o causar una reacción alérgica. Siempre consulte a un médico."
+    },
+    {
+      "q": "¿Qué pasa si olvido una dosis en el hospital?",
+      "a": "En el hospital, el personal está a cargo de la administración. Si por algún error se omite, ellos calcularán el mejor momento para la siguiente dosis. Nunca intente 'ponerse al día' con una dosis doble."
+    },
+    {
+      "q": "¿Interfiere con mis medicamentos para la presión o la diabetes?",
+      "a": "No tiene interacciones directas comunes con la mayoría de los antihipertensivos o antidiabéticos orales. Sin embargo, su médico revisará toda su lista de medicamentos porque algunos (como los diuréticos) sí pueden aumentar el riesgo de efectos secundarios de la Polimixina."
+    },
+    {
+      "q": "¿Me puede causar diarrea como otros antibióticos?",
+      "a": "Es menos común que con antibióticos de amplio espectro, porque la Polimixina B actúa casi exclusivamente contra bacterias Gram-negativas y no afecta tanto la flora intestinal normal. Pero cualquier cambio severo en el ritmo intestinal debe reportarse."
+    },
+    {
+      "q": "¿Es lo mismo que la Colistina (Polimixina E)?",
+      "a": "No, son primos muy cercanos pero no iguales. Ambas son polimixinas y se usan para lo mismo, pero tienen diferencias químicas y en cómo se dosifican. Su médico elegirá la más apropiada según la bacteria y la disponibilidad."
+    },
+    {
+      "q": "¿Por qué me piden tantos análisis de sangre mientras me la dan?",
+      "a": "Para vigilar de cerca dos cosas: 1) Que sus riñones estén funcionando bien (midiendo creatinina). 2) Que los niveles de sales en su sangre (como potasio y calcio) estén normales, ya que la Polimixina B puede alterarlos. Es una medida de seguridad para usted."
+    },
+    {
+      "q": "Si soy alérgico a la Penicilina, ¿puedo usar Polimixina B?",
+      "a": "Sí, generalmente no hay problema. La alergia a la penicilina no predispone a alergia a la Polimixina B, ya que son familias de antibióticos completamente diferentes. Sin embargo, siempre informe de TODAS sus alergias al equipo médico."
+    },
+    {
+      "q": "¿Puede usarse en bebés recién nacidos?",
+      "a": "Sí, pero con EXTREMA precaución, solo en unidades de cuidados intensivos neonatales (UCIN) para infecciones graves por bacterias resistentes, y con un monitoreo aún más estricto porque los riñones del bebé son muy inmaduros."
+    },
+    {
+      "q": "¿Qué significa que sea un 'antibiótico de último recurso'?",
+      "a": "Significa que los médicos la guardan como una opción final, cuando todos los demás antibióticos más seguros han fallado. Usarla innecesariamente haría que las bacterias se vuelvan resistentes a ella también, y luego no tendríamos con qué tratar infecciones súper graves."
+    },
+    {
+      "q": "¿La resistencia a la Polimixina B es común en México?",
+      "a": "Afortunadamente, aún es relativamente baja, pero va en aumento, especialmente en hospitales de tercer nivel. Por eso su uso debe ser muy racional y siempre guiado por un antibiograma que confirme que la bacteria es sensible."
+    },
+    {
+      "q": "¿Es mejor administrarla cada 12 horas o en una dosis diaria?",
+      "a": "El esquema tradicional es cada 12 horas. Sin embargo, estudios recientes sugieren que en algunos casos, una dosis diaria más alta (con un monitoreo muy cuidadoso de niveles en sangre) podría ser igual de efectiva y quizás menos tóxica. Esto lo decide exclusivamente el médico especialista."
+    },
+    {
+      "q": "¿Qué parámetros se usan en el monitoreo terapéutico de fármacos (TDM) para optimizar la dosis?",
+      "a": "Se miden las concentraciones de Polimixina B en la sangre del paciente (nivel valle y pico). El objetivo es mantener un nivel valle por debajo de cierto límite (ej. <2 mg/L) para reducir toxicidad renal, y asegurar que la exposición total (área bajo la curva, AUC) sea suficiente para matar a la bacteria. Esto es clave en pacientes críticos con función renal cambiante."
+    }
+  ]
+}

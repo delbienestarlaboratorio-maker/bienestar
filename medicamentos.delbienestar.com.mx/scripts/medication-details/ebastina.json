@@ -1,0 +1,407 @@
+{
+  "name": "Ebastina",
+  "summary": "La ebastina es un medicamento antialérgico de segunda generación, clasificado como un antihistamínico H1 no sedante. Sirve para tratar eficazmente los síntomas de la rinitis alérgica (estacional y perenne) y la urticaria crónica idiopática, como estornudos, picazón nasal, ojos llorosos y ronchas en la piel. Su importancia clínica radica en que bloquea los efectos de la histamina, una sustancia química que el cuerpo libera durante una reacción alérgica, pero sin causar la somnolencia significativa que era común en los antihistamínicos más antiguos. Esto permite a los pacientes controlar sus síntomas alérgicos y mantener su calidad de vida, su desempeño laboral y su capacidad para conducir vehículos o manejar maquinaria de manera segura. Es un tratamiento de primera línea muy utilizado en México debido a su eficacia, perfil de seguridad favorable y la comodidad de una dosis diaria.",
+  "pharmacology": {
+    "mechanismOfAction": "La ebastina es un antagonista selectivo y de alta afinidad de los receptores H1 de histamina periféricos. Esto significa que se une fuertemente a estos receptores, bloqueándolos e impidiendo que la histamina liberada durante una reacción alérgica se una a ellos y desencadene los síntomas típicos como vasodilatación, aumento de la permeabilidad vascular, picazón y contracción del músculo liso bronquial. A diferencia de los antihistamínicos de primera generación, la ebastina tiene una baja afinidad por los receptores colinérgicos muscarínicos, lo que explica su baja incidencia de efectos secundarios anticolinérgicos como sequedad de boca, visión borrosa o retención urinaria. Además, atraviesa la barrera hematoencefálica en una proporción muy baja, minimizando así los efectos sedantes a nivel del sistema nervioso central.",
+    "pharmacologicClass": "Antagonista selectivo de los receptores H1 de histamina (de segunda generación). Piperidinico.",
+    "therapeuticClass": "Antihistamínico H1 no sedante. Antialérgico.",
+    "absorption": "Se absorbe rápidamente y de manera casi completa por vía oral. La presencia de alimentos puede aumentar ligeramente su absorción y la concentración plasmática máxima (Cmax).",
+    "distribution": "Se distribuye ampliamente en los tejidos. Tiene una alta unión a proteínas plasmáticas (superior al 95%). Su metabolito activo, carebastina, también se une extensamente a proteínas. El volumen de distribución (Vd) es elevado, indicando una buena penetración tisular.",
+    "metabolism": "La ebastina sufre un extenso metabolismo de primer paso en el hígado. Es convertida rápidamente en su metabolito activo, la carebastina, principalmente por la enzima CYP3A4 del citocromo P450. Otras enzimas como CYP2J2 también pueden estar involucradas. La carebastina es responsable de la mayor parte del efecto antihistamínico.",
+    "elimination": "La vida media de eliminación de la ebastina es corta (unas 10-16 horas), pero la de su metabolito activo, carebastina, es mucho más larga (aproximadamente 48 horas). Esto permite una dosificación de una vez al día. Se elimina principalmente en la orina (aproximadamente 66%) y en las heces (aproximadamente 33%) en forma de metabolitos.",
+    "onsetOfAction": "El inicio de acción es relativamente rápido. Los síntomas comienzan a aliviarse entre 1 y 3 horas después de la administración de una dosis única.",
+    "durationOfAction": "La duración del efecto es prolongada, de aproximadamente 24 horas, gracias a la larga vida media de su metabolito activo (carebastina). Esto permite una dosificación conveniente de una vez al día."
+  },
+  "indications": {
+    "approved": [
+      "Rinitis alérgica estacional (fiebre del heno)",
+      "Rinitis alérgica perenne (todo el año)",
+      "Urticaria crónica idiopática (ronchas sin causa conocida)"
+    ],
+    "offLabel": [
+      "Dermatitis atópica (para control del prurito)",
+      "Conjuntivitis alérgica",
+      "Prurito (picazón) de diversa etiología",
+      "Como coadyuvante en el manejo del angioedema"
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis habitual es de 10 mg a 20 mg una vez al día, por vía oral. Para la mayoría de los pacientes, 10 mg diarios son suficientes. En casos de síntomas más severos, el médico puede indicar 20 mg al día.",
+    "pediatric": "Niños de 12 años y mayores: 10 mg una vez al día. Niños de 6 a 11 años: 5 mg (medio comprimido de 10 mg o jarabe) una vez al día. Niños menores de 6 años: No se recomienda su uso, salvo indicación médica expresa.",
+    "elderly": "En pacientes mayores sin insuficiencia hepática o renal significativa, no suele ser necesario un ajuste de dosis. Se recomienda iniciar con la dosis más baja efectiva (10 mg/día) y monitorear.",
+    "renalImpairment": "No se requiere ajuste de dosis en insuficiencia renal leve a moderada (TFG > 30 mL/min). En insuficiencia renal severa (TFG < 30 mL/min) o en diálisis, se recomienda precaución y considerar una dosis inicial más baja (10 mg/día) bajo supervisión médica.",
+    "hepaticImpairment": "Debido a que se metaboliza extensamente en el hígado, está contraindicado en pacientes con insuficiencia hepática grave. En insuficiencia hepática leve a moderada, se debe usar con precaución y a la dosis más baja posible (10 mg/día), bajo supervisión médica estrecha.",
+    "maxDose": "La dosis máxima diaria recomendada para adultos es de 20 mg. No se debe exceder esta dosis."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "10 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tableta",
+      "strengths": [
+        "20 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tableta bucodispersable",
+      "strengths": [
+        "10 mg",
+        "20 mg"
+      ],
+      "route": "Oral (se disuelve en la boca)"
+    },
+    {
+      "form": "Jarabe",
+      "strengths": [
+        "1 mg/mL",
+        "5 mg/5 mL"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la ebastina o a cualquiera de los excipientes de la formulación.",
+      "Insuficiencia hepática grave.",
+      "Uso concomitante con inhibidores potentes de la enzima CYP3A4 (como ketoconazol, itraconazol, claritromicina, ritonavir)."
+    ],
+    "relative": [
+      "Insuficiencia hepática leve a moderada.",
+      "Insuficiencia renal grave (TFG < 30 mL/min).",
+      "Pacientes con factores de riesgo para prolongación del intervalo QT (ej. hipokalemia, bradicardia, antecedentes de arritmias cardíacas).",
+      "Embarazo y lactancia (evaluar riesgo/beneficio)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Dolor de cabeza (cefalea)"
+    ],
+    "common": [
+      "Somnolencia (aunque es menos frecuente que con antihistamínicos antiguos)",
+      "Sequedad de boca",
+      "Mareo",
+      "Fatiga",
+      "Dolor abdominal",
+      "Náuseas"
+    ],
+    "uncommon": [
+      "Aumento del apetito y aumento de peso",
+      "Insomnio",
+      "Nerviosismo",
+      "Sinusitis",
+      "Faringitis",
+      "Sequedad nasal"
+    ],
+    "rare": [
+      "Reacciones de hipersensibilidad (erupción cutánea, prurito, angioedema)",
+      "Alteraciones hepáticas (aumento de transaminasas)",
+      "Taquicardia",
+      "Palpitaciones",
+      "Prolongación del intervalo QT en el electrocardiograma (especialmente a dosis altas o con interacciones)"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Ketoconazol, Itraconazol, Fluconazol (antimicóticos azoles)",
+        "effect": "Aumentan fuertemente los niveles plasmáticos de ebastina/carebastina, incrementando el riesgo de efectos adversos, incluyendo prolongación del intervalo QT. Está contraindicada la combinación.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Eritromicina, Claritromicina (macrólidos)",
+        "effect": "Inhiben el CYP3A4, aumentando los niveles de ebastina. Se debe evitar la combinación o usar con extrema precaución y monitoreo.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Ritonavir y otros inhibidores de la proteasa del VIH",
+        "effect": "Inhiben potente el CYP3A4, aumentando drásticamente los niveles de ebastina. La combinación está contraindicada.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Otros fármacos que prolongan el intervalo QT (ej. antiarrítmicos clase IA y III, algunos antipsicóticos, antidepresivos tricíclicos)",
+        "effect": "Riesgo aditivo de prolongación del intervalo QT y arritmias ventriculares graves (torsade de pointes).",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "El jugo de toronja (pomelo) debe evitarse, ya que inhibe la enzima CYP3A4 y puede aumentar los niveles del medicamento. El alcohol puede potenciar el efecto sedante, aunque es mínimo con ebastina, se recomienda precaución. Los alimentos grasos pueden aumentar ligeramente la absorción, pero no es clínicamente significativo; puede tomarse con o sin alimentos.",
+    "withSupplements": "La hierba de San Juan (Hypericum perforatum) puede disminuir los niveles de ebastina al inducir la enzima CYP3A4, reduciendo su efectividad. Se debe evitar su uso conjunto."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "C",
+      "recommendation": "Los estudios en animales han mostrado efectos embriotóxicos a dosis muy altas. No hay estudios adecuados y bien controlados en mujeres embarazadas. Su uso durante el embarazo solo debe considerarse si el beneficio potencial justifica el riesgo potencial para el feto. Se recomienda consultar al médico para evaluar alternativas más seguras (como loratadina o cetirizina, con más datos en embarazo) durante el primer trimestre.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se desconoce si la ebastina o su metabolito se excretan en la leche materna humana. Dado el potencial de efectos adversos serios en lactantes, se recomienda evitar su uso durante la lactancia o suspender la lactancia materna si el tratamiento es indispensable. Se deben considerar alternativas.",
+    "pediatric": "Seguro y efectivo en niños a partir de los 6 años de edad para el tratamiento de la rinitis alérgica y la urticaria. Para niños menores de 6 años, la seguridad y eficacia no están establecidas; su uso debe ser bajo estricta supervisión médica. Se prefiere la presentación en jarabe para facilitar la dosificación.",
+    "geriatric": "Los pacientes mayores pueden ser más sensibles a los efectos anticolinérgicos (sequedad, estreñimiento, retención urinaria) y a los efectos sedantes. Es recomendable iniciar con la dosis más baja (10 mg/día) y monitorear la aparición de mareo o somnolencia, que pueden aumentar el riesgo de caídas. Evaluar función renal y hepática antes de iniciar."
+  },
+  "administration": {
+    "howToTake": "Tomar por vía oral, una vez al día, preferentemente a la misma hora. Las tabletas se tragan enteras con un vaso de agua. Las tabletas bucodispersables se colocan en la lengua, donde se desintegran en segundos, y luego se tragan con o sin agua. El jarabe debe medirse con el dosificador proporcionado. Puede tomarse con o sin alimentos, pero se recomienda ser consistente.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (entre 15°C y 30°C), protegido de la luz y la humedad. Mantener fuera del alcance de los niños. No utilizar después de la fecha de caducidad impresa.",
+    "specialInstructions": "No triture, mastique ni parta las tabletas recubiertas, a menos que sean específicamente bucodispersables o el médico indique partir una tableta de 10 mg para dar 5 mg a un niño. Si olvida una dosis, tómela tan pronto como lo recuerde, pero si es casi la hora de la siguiente dosis, omita la dosis olvidada y continúe con su horario regular. No duplique la dosis para compensar."
+  },
+  "monitoring": {
+    "labTests": [
+      "Pruebas de función hepática (transaminasas AST/ALT)",
+      "Electrolitos séricos (especialmente potasio)",
+      "Electrocardiograma (ECG) en pacientes de riesgo o con síntomas de palpitaciones"
+    ],
+    "frequency": "No se requiere monitoreo de laboratorio rutinario en pacientes sanos. En tratamientos prolongados o en pacientes con factores de riesgo (hepáticos, cardíacos), el médico puede solicitar pruebas de función hepática de manera periódica (ej. cada 6-12 meses).",
+    "signsToWatch": [
+      "Mareo intenso, desmayo o palpitaciones (posible efecto cardíaco)",
+      "Coloración amarillenta de piel u ojos (ictericia), orina oscura, heces claras (posible daño hepático)",
+      "Dificultad para respirar, hinchazón de labios, lengua o garganta (reacción alérgica grave)",
+      "Somnolencia excesiva que interfiera con las actividades diarias"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Somnolencia marcada",
+      "Mareo",
+      "Dolor de cabeza",
+      "Náuseas y vómitos",
+      "En casos graves con dosis muy altas: posible prolongación del intervalo QT y arritmias cardíacas"
+    ],
+    "treatment": "No existe un antídoto específico. El tratamiento es de soporte y sintomático. En caso de ingestión reciente (menos de 1-2 horas), se puede considerar el lavado gástrico o la administración de carbón activado. Se debe monitorear la función cardíaca (ECG) y proporcionar medidas de soporte vital si es necesario. La diálisis no es efectiva debido a la alta unión a proteínas.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Rx). Aunque es de bajo riesgo, en México se comercializa bajo prescripción.",
+    "scheduleMexico": "No está incluido en la lista de psicotrópicos o estupefacientes. Es un medicamento de venta con receta.",
+    "fdaApprovalYear": "No aprobado por la FDA de EE. UU. Está aprobado y ampliamente utilizado en Europa, Japón, México y muchos otros países."
+  },
+  "brandsMexico": [
+    "Ebastel",
+    "Ebastina",
+    "Kestine",
+    "Alerest",
+    "Ebastin",
+    "Ebastec",
+    "Ebatrol",
+    "Ebest",
+    "Ebitin",
+    "Histabel",
+    "Rino Ebastina"
+  ],
+  "clinicalPearls": [
+    "La ebastina tiene un perfil de seguridad cardíaca favorable a la dosis terapéutica de 10-20 mg/día, pero se debe evitar en combinación con inhibidores potentes del CYP3A4, ya que esto puede aumentar drásticamente sus niveles y el riesgo de prolongación del QT.",
+    "Es uno de los antihistamínicos no sedantes con menor incidencia de efectos anticolinérgicos (sequedad de boca, visión borrosa), lo que lo hace una buena opción para pacientes mayores o aquellos sensibles a estos efectos.",
+    "A diferencia de la fexofenadina, cuya absorción se reduce con el jugo de toronja, la de la ebastina aumenta, por lo que también debe evitarse el consumo de este cítrico durante el tratamiento."
+  ],
+  "patientCounseling": "Tome la ebastina exactamente como se lo indicó su médico, generalmente una vez al día. Puede tomarla con o sin alimentos, pero evite el jugo de toronja (pomelo) mientras esté en tratamiento. Aunque causa menos sueño que otros antialérgicos, algunas personas pueden sentir somnolencia; tenga precaución al conducir o manejar maquinaria hasta que conozca cómo le afecta. No tome dosis doble si olvida una. Informe a su médico si experimenta mareo intenso, palpitaciones, o signos de problemas hepáticos como color amarillo en los ojos. Avise a su médico o farmacéutico sobre todos los demás medicamentos que esté tomando, incluyendo hierbas y suplementos, para evitar interacciones peligrosas. La ebastina controla los síntomas de la alergia, pero no la cura; tómela regularmente durante la temporada alérgica según las indicaciones.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Estornudos",
+        "slug": "estornudos"
+      },
+      {
+        "name": "Picazón nasal",
+        "slug": "picazon-nasal"
+      },
+      {
+        "name": "Secreción nasal acuosa",
+        "slug": "secrecion-nasal-acuosa"
+      },
+      {
+        "name": "Congestión nasal",
+        "slug": "congestion-nasal"
+      },
+      {
+        "name": "Picazón en ojos",
+        "slug": "picazon-en-ojos"
+      },
+      {
+        "name": "Ojos llorosos",
+        "slug": "ojos-llorosos"
+      },
+      {
+        "name": "Ronchas en la piel",
+        "slug": "ronchas-en-la-piel"
+      },
+      {
+        "name": "Picazón en la piel",
+        "slug": "picazon-en-la-piel"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Rinitis alérgica estacional",
+        "slug": "rinitis-alergica-estacional"
+      },
+      {
+        "name": "Rinitis alérgica perenne",
+        "slug": "rinitis-alergica-perenne"
+      },
+      {
+        "name": "Urticaria crónica idiopática",
+        "slug": "urticaria-cronica-idiopatica"
+      },
+      {
+        "name": "Conjuntivitis alérgica",
+        "slug": "conjuntivitis-alergica"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Arritmia cardíaca (torsade de pointes)",
+        "slug": "arritmia-cardiaca"
+      },
+      {
+        "name": "Hepatotoxicidad",
+        "slug": "hepatotoxicidad"
+      },
+      {
+        "name": "Somnolencia excesiva",
+        "slug": "somnolencia-excesiva"
+      },
+      {
+        "name": "Xerostomía (sequedad de boca severa)",
+        "slug": "xerostomia"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Transaminasas (AST/ALT)",
+        "slug": "transaminasas",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Intervalo QT en ECG",
+        "slug": "intervalo-qt",
+        "effect": "Puede prolongar"
+      },
+      {
+        "name": "Peso corporal",
+        "slug": "peso-corporal",
+        "effect": "Puede aumentar"
+      },
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede alterar (taquicardia)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-funcion-hepatica",
+        "reason": "Para detectar posible hepatotoxicidad en tratamientos largos o pacientes de riesgo."
+      },
+      {
+        "name": "Electrocardiograma (ECG)",
+        "slug": "electrocardiograma",
+        "reason": "Para evaluar el intervalo QT en pacientes con factores de riesgo cardíaco o síntomas."
+      },
+      {
+        "name": "Electrolitos séricos",
+        "slug": "electrolitos-sericos",
+        "reason": "La hipokalemia aumenta el riesgo de arritmias con fármacos que prolongan el QT."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora IMC",
+        "slug": "calculadora-imc"
+      },
+      {
+        "name": "Calculadora eGFR",
+        "slug": "calculadora-egfr"
+      },
+      {
+        "name": "Dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve la ebastina?",
+      "a": "La ebastina sirve para aliviar los síntomas de las alergias, como los estornudos, la picazón y secreción nasal, los ojos llorosos y las ronchas en la piel (urticaria). Es muy útil para la fiebre del heno (alergia al polen) y las alergias que duran todo el año."
+    },
+    {
+      "q": "¿La ebastina da sueño?",
+      "a": "Generalmente no, o causa mucho menos sueño que los antialérgicos antiguos como la difenhidramina. Sin embargo, algunas personas pueden sentir algo de somnolencia, especialmente al inicio del tratamiento. Si le da sueño, evite conducir hasta que su cuerpo se adapte."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto la ebastina?",
+      "a": "Comienza a aliviar los síntomas entre 1 y 3 horas después de tomar la primera dosis. Para un control completo de los síntomas, puede necesitar tomarla de manera regular por uno o dos días."
+    },
+    {
+      "q": "¿Puedo tomar ebastina si voy a manejar?",
+      "a": "Sí, la mayoría de las personas puede manejar con seguridad mientras toma ebastina, ya que es un antihistamínico 'no sedante'. No obstante, espere a conocer cómo le afecta individualmente. Si siente somnolencia o mareo después de tomarla, no conduzca."
+    },
+    {
+      "q": "¿La ebastina se toma con o sin alimentos?",
+      "a": "Puede tomarla con o sin alimentos, lo que le resulte más conveniente. Lo importante es ser constante. Solo recuerde evitar el jugo de toronja (pomelo)."
+    },
+    {
+      "q": "¿Qué pasa si olvido tomar una dosis de ebastina?",
+      "a": "Si se le olvida, tómela tan pronto como lo recuerde. Pero si ya es casi la hora de su siguiente dosis, omita la que olvidó y continúe con su horario normal. Nunca tome dos dosis al mismo tiempo para compensar."
+    },
+    {
+      "q": "¿Puedo tomar ebastina con alcohol?",
+      "a": "No se recomienda. Aunque la ebastina causa poca somnolencia, el alcohol puede potenciar este efecto y aumentar el mareo. Es mejor evitar el consumo de bebidas alcohólicas durante el tratamiento."
+    },
+    {
+      "q": "¿La ebastina sube de peso?",
+      "a": "El aumento de peso no es un efecto común, pero se ha reportado en un pequeño porcentaje de pacientes, posiblemente por un aumento del apetito. Si nota un aumento de peso significativo, coméntelo con su médico."
+    },
+    {
+      "q": "¿Pueden los niños tomar ebastina?",
+      "a": "Sí, pero solo a partir de los 6 años de edad y bajo supervisión médica. Para niños entre 6 y 11 años, la dosis suele ser la mitad (5 mg) de la de un adulto. Existe un jarabe para facilitar la dosificación."
+    },
+    {
+      "q": "¿Puedo tomar ebastina si estoy embarazada?",
+      "a": "Consulte a su médico. La ebastina no se recomienda de rutina durante el embarazo, especialmente en el primer trimestre. Su médico evaluará los riesgos y beneficios y podría sugerirle un antihistamínico con más datos de seguridad en el embarazo."
+    },
+    {
+      "q": "¿Puedo tomar ebastina si estoy amamantando?",
+      "a": "No se recomienda. Se desconoce si pasa a la leche materna y podría afectar al bebé. Si necesita tomarla, su médico podría sugerirle suspender la lactancia temporalmente o buscar una alternativa más segura."
+    },
+    {
+      "q": "¿La ebastina es buena para la gripe o el resfriado?",
+      "a": "No. La ebastina es solo para síntomas de alergia. Los resfriados y la gripe son causados por virus. Puede ayudar con el moqueo o los estornudos si son de origen alérgico, pero no combate la infección viral."
+    },
+    {
+      "q": "¿Puedo tomar ebastina todos los días durante meses?",
+      "a": "Sí, la ebastina está diseñada para uso prolongado en alergias crónicas (como la rinitis perenne o la urticaria). Sin embargo, debe ser bajo supervisión médica para evaluar su efectividad continua y descartar efectos adversos."
+    },
+    {
+      "q": "¿Qué interacciones peligrosas tiene la ebastina?",
+      "a": "Las más peligrosas son con algunos medicamentos para hongos (ketoconazol), algunos antibióticos (eritromicina, claritromicina) y el jugo de toronja. Estas combinaciones pueden aumentar mucho el nivel de ebastina en sangre y causar efectos cardíacos graves. Informe a su médico de todos sus medicamentos."
+    },
+    {
+      "q": "¿La ebastina afecta al corazón?",
+      "a": "A la dosis normal (10-20 mg/día) y en personas sanas, el riesgo es muy bajo. Sin embargo, en dosis muy altas o cuando se combina con ciertos medicamentos (ver interacciones), puede prolongar ligeramente el intervalo QT del corazón, lo que en casos raros predispone a arritmias. Informe si tiene palpitaciones o mareo."
+    },
+    {
+      "q": "¿Puedo partir la tableta de ebastina de 10 mg?",
+      "a": "Sí, si necesita una dosis de 5 mg para un niño o si su médico se lo indica, puede partir la tableta de 10 mg por la mitad. Las tabletas bucodispersables también pueden partirse."
+    },
+    {
+      "q": "¿La ebastina causa sequedad de boca?",
+      "a": "Puede causarla, pero es menos frecuente que con otros antihistamínicos. Si experimenta sequedad de boca, beba agua frecuentemente, mastique chicle sin azúcar o use sustitutos de saliva. Si es muy molesto, consulte a su médico."
+    },
+    {
+      "q": "¿Es mejor la ebastina que la loratadina o la cetirizina?",
+      "a": "Todos son antihistamínicos no sedantes efectivos. La elección depende de la respuesta individual, el perfil de efectos secundarios y el costo. Algunos pacientes responden mejor a uno que a otro. Su médico o farmacéutico pueden ayudarle a decidir basándose en su historial."
+    },
+    {
+      "q": "¿Qué debo hacer si tomo demasiada ebastina por error?",
+      "a": "Busque atención médica inmediata o llame al Centro de Toxicología (en México: 55 56 58 11 11). No espere a tener síntomas. Es probable que le causen mucho sueño y mareo, y en casos graves podría afectar el corazón."
+    },
+    {
+      "q": "¿Por qué mi médico me pidió un electrocardiograma antes de recetarme ebastina?",
+      "a": "Probablemente porque usted tiene factores de riesgo que hacen necesario revisar la salud de su corazón, como antecedentes de problemas cardíacos, uso de otros medicamentos que afectan al corazón, o alteraciones en los electrolitos (como potasio bajo). Esto es una precaución de seguridad para usar el medicamento con mayor confianza."
+    }
+  ]
+}

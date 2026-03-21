@@ -1,0 +1,399 @@
+{
+  "name": "Ethosuximide",
+  "summary": "El ethosuximide es un medicamento anticonvulsivo o antiepiléptico, utilizado principalmente para controlar un tipo específico de crisis epilépticas llamadas crisis de ausencia típicas (también conocidas como 'petit mal'). Estas crisis se caracterizan por episodios breves de pérdida de conciencia y mirada fija, que suelen durar solo unos segundos y son más comunes en niños y adolescentes. Su importancia clínica radica en que es considerado el fármaco de primera línea para este tipo de epilepsia debido a su alta efectividad y perfil de efectos secundarios generalmente manejable. Actúa estabilizando la actividad eléctrica anormal en el cerebro, ayudando a prevenir la aparición de estas crisis y mejorando significativamente la calidad de vida y el rendimiento escolar o laboral de quienes las padecen. Es fundamental tomarlo de manera constante y bajo supervisión médica para lograr un control óptimo y minimizar riesgos.",
+  "pharmacology": {
+    "mechanismOfAction": "El ethosuximide ejerce su efecto antiepiléptico principalmente al bloquear los canales de calcio tipo T en las neuronas del tálamo, una región del cerebro crucial para la generación y propagación de las descargas eléctricas anormales que causan las crisis de ausencia. Al inhibir estos canales, el medicamento reduce la corriente de calcio entrante, lo que estabiliza las membranas neuronales y disminuye la excitabilidad eléctrica anormal. Este mecanismo es bastante selectivo para las crisis de ausencia, a diferencia de otros antiepilépticos que actúan sobre canales de sodio o potasio. No potencia significativamente la acción del neurotransisor inhibidor GABA. Su acción focal en el circuito tálamo-cortical es lo que lo hace tan efectivo para este tipo específico de epilepsia.",
+    "pharmacologicClass": "Succinimida",
+    "therapeuticClass": "Anticonvulsivante, Antiepiléptico",
+    "absorption": "Se absorbe bien por vía oral, con una biodisponibilidad de aproximadamente el 90%. La presencia de alimentos no afecta significativamente su absorción. Las concentraciones plasmáticas máximas se alcanzan entre 1 y 4 horas después de la administración de una dosis única.",
+    "distribution": "Se distribuye ampliamente por todo el cuerpo, incluyendo el líquido cefalorraquídeo. Su unión a proteínas plasmáticas es baja, menor al 10%. Esto significa que la mayor parte del fármaco en sangre está en forma libre y activa. Su volumen de distribución es de aproximadamente 0.7 L/kg.",
+    "metabolism": "Se metaboliza extensamente en el hígado, principalmente a través del sistema enzimático del citocromo P450, específicamente por la isoenzima CYP3A4. El metabolito principal es el hidroxietil derivado, el cual es inactivo. Una pequeña porción se metaboliza por conjugación glucurónida.",
+    "elimination": "La vida media de eliminación es de aproximadamente 30 a 60 horas en adultos y de 20 a 40 horas en niños. Esta vida media prolongada permite una dosificación de una o dos veces al día. Se elimina principalmente por vía renal, donde aproximadamente el 20% se excreta sin cambios en la orina y el resto como metabolitos inactivos.",
+    "onsetOfAction": "El inicio de acción terapéutica puede observarse en días, pero la estabilización completa y el control óptimo de las crisis pueden tardar varias semanas, ya que la dosis se ajusta gradualmente.",
+    "durationOfAction": "Debido a su vida media prolongada, su efecto es sostenido durante todo el día, permitiendo esquemas posológicos de una o dos dosis diarias para mantener niveles sanguíneos estables."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento de primera línea para las crisis de ausencia típicas (petit mal) en niños y adultos",
+      "Epilepsia de ausencia de la infancia",
+      "Epilepsia de ausencia juvenil"
+    ],
+    "offLabel": [
+      "Crisis mioclónicas (como terapia adjunta)",
+      "Crisis atónicas (como terapia adjunta)",
+      "Síndrome de Lennox-Gastaut (como terapia adjunta, aunque no es de primera elección)"
+    ]
+  },
+  "dosage": {
+    "adults": "Dosis inicial: 250 mg dos veces al día (500 mg/día). Aumentar gradualmente en incrementos de 250 mg cada 4-7 días según tolerancia y respuesta. Dosis de mantenimiento usual: 750 a 1500 mg por día, divididos en 2 tomas. Algunos pacientes pueden requerir hasta 2000 mg/día.",
+    "pediatric": "Niños de 3 a 6 años: Dosis inicial de 250 mg una vez al día. Dosis de mantenimiento usual: 20 a 40 mg/kg/día, divididos en 2 tomas. La dosis máxima recomendada es de 1500 mg/día. Niños mayores de 6 años: Dosis inicial de 250 mg dos veces al día (500 mg/día). Ajustar según peso y respuesta.",
+    "elderly": "Se debe iniciar con dosis más bajas (ej. 125 mg dos veces al día) debido a la posible disminución de la función renal y hepática, y a una mayor sensibilidad a los efectos del sistema nervioso central. Ajustar lentamente.",
+    "renalImpairment": "En insuficiencia renal leve a moderada (TFG 30-89 mL/min): Ajustar dosis con precaución, iniciando con dosis bajas. En insuficiencia renal severa (TFG <30 mL/min) o diálisis: Se requiere una reducción significativa de la dosis y un monitoreo estrecho de niveles plasmáticos, ya que la eliminación está disminuida. El ethosuximide es dializable.",
+    "hepaticImpairment": "Contraindicado en insuficiencia hepática severa. En insuficiencia hepática leve a moderada, se debe usar con extrema precaución, iniciando con dosis bajas y ajustando lentamente, ya que el metabolismo hepático está comprometido. Monitorear función hepática.",
+    "maxDose": "Adultos: 2000 mg/día. Niños: 1500 mg/día o 40 mg/kg/día (lo que sea menor)."
+  },
+  "dosageForms": [
+    {
+      "form": "Cápsula",
+      "strengths": [
+        "250 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Jarabe (Solución oral)",
+      "strengths": [
+        "250 mg/5 mL"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al ethosuximide o a cualquier succinimida",
+      "Insuficiencia hepática severa",
+      "Porfiria aguda intermitente"
+    ],
+    "relative": [
+      "Insuficiencia renal severa",
+      "Insuficiencia hepática leve a moderada",
+      "Historia de depresión de médula ósea",
+      "Embarazo (solo si beneficio supera riesgo)",
+      "Pacientes con historial de psicosis"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Somnolencia",
+      "Mareo",
+      "Dolor de cabeza",
+      "Náuseas",
+      "Dolor abdominal",
+      "Pérdida de apetito"
+    ],
+    "common": [
+      "Vómitos",
+      "Diarrea",
+      "Hipo",
+      "Pérdida de peso",
+      "Visión borrosa",
+      "Fotofobia (sensibilidad a la luz)",
+      "Irritabilidad",
+      "Inquietud",
+      "Insomnio"
+    ],
+    "uncommon": [
+      "Ataxia (dificultad para coordinar movimientos)",
+      "Erupción cutánea",
+      "Prurito (comezón)",
+      "Urticaria",
+      "Lupus eritematoso sistémico inducido por fármacos",
+      "Psicosis",
+      "Alucinaciones",
+      "Depresión",
+      "Agranulocitosis (disminución severa de glóbulos blancos)",
+      "Anemia aplásica"
+    ],
+    "rare": [
+      "Síndrome de Stevens-Johnson",
+      "Necrólisis epidérmica tóxica",
+      "Hepatitis",
+      "Pancreatitis",
+      "Miocarditis",
+      "Linfadenopatía (inflamación de ganglios)"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Ácido Valproico (Valproato)",
+        "effect": "Puede aumentar los niveles plasmáticos de ethosuximide, incrementando el riesgo de toxicidad. También puede potenciar mutuamente los efectos sedantes.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Carbamazepina, Fenitoína, Fenobarbital",
+        "effect": "Estos inductores enzimáticos pueden disminuir los niveles plasmáticos de ethosuximide, reduciendo su efectividad. Se requiere ajuste de dosis y monitoreo.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Isoniazida",
+        "effect": "Puede aumentar los niveles de ethosuximide y el riesgo de toxicidad del sistema nervioso central.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Antidepresivos tricíclicos (ej. Amitriptilina)",
+        "effect": "Puede disminuir el umbral convulsivo, reduciendo la efectividad del ethosuximide. También potencian efectos sedantes.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Alcohol",
+        "effect": "Potencia severamente los efectos depresores del sistema nervioso central (somnolencia, mareo, deterioro psicomotor). Aumenta el riesgo de accidentes.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "Puede tomarse con o sin alimentos. Tomarlo con alimentos puede ayudar a reducir las molestias gastrointestinales como náuseas. El alcohol debe evitarse completamente, ya que potencia los efectos sedantes y aumenta el riesgo de crisis.",
+    "withSupplements": "La hierba de San Juan (Hypericum perforatum) puede disminuir los niveles de ethosuximide al inducir enzimas hepáticas, reduciendo su efectividad. Se debe evitar su uso conjunto."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría C",
+      "recommendación": "Solo debe usarse durante el embarazo si el beneficio claramente justifica el riesgo potencial para el feto. Las crisis epilépticas no controladas también conllevan riesgos. Se ha asociado con un aumento leve en el riesgo de malformaciones congénitas (como defectos cardíacos). Se requiere suplementación con ácido fólico (5 mg/día) antes de la concepción y durante el primer trimestre. El tratamiento debe ser monitoreado por un neurólogo y un ginecólogo-obstetra.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "El ethosuximide se excreta en la leche materna en concentraciones similares a las del plasma materno. Puede causar somnolencia, irritabilidad o problemas de alimentación en el lactante. Se considera generalmente compatible con la lactancia, pero se debe monitorear al bebé por posibles efectos adversos. Se recomienda consultar con el médico para evaluar riesgo-beneficio.",
+    "pediatric": "Es el fármaco de elección para crisis de ausencia en niños. Se usa comúnmente a partir de los 3 años. La dosificación se basa en el peso corporal. Los niños pueden ser más sensibles a los efectos adversos conductuales como irritabilidad o hiperactividad. Monitorear crecimiento, peso y función hepática.",
+    "geriatric": "Los adultos mayores pueden ser más sensibles a los efectos del sistema nervioso central (somnolencia, ataxia). Mayor riesgo de caídas. La función renal y hepática puede estar disminuida, requiriendo dosis iniciales más bajas y ajustes más lentos. Monitorear electrolitos y función orgánica."
+  },
+  "administration": {
+    "howToTake": "Tomar exactamente como lo indica el médico, generalmente una o dos veces al día. Las cápsulas deben tragarse enteras con un vaso de agua. El jarabe debe medirse con la jeringa o cuchara dosificadora proporcionada, no con cucharas caseras. Puede tomarse con alimentos si causa malestar estomacal. Es crucial tomar la dosis a la misma hora todos los días para mantener niveles constantes en sangre. Nunca duplicar la dosis si se olvida una toma; tomar la siguiente dosis a la hora habitual.",
+    "storage": "Almacenar a temperatura ambiente (15-30°C), en un lugar seco y fuera del alcance de la luz directa. Mantener el frasco del jarabe bien cerrado. No congelar. Mantener fuera del alcance de los niños.",
+    "specialInstructions": "No suspender el medicamento abruptamente, ya que puede provocar un aumento severo en la frecuencia de las crisis (estado epiléptico). Cualquier cambio de dosis o suspensión debe ser supervisado por el médico y realizado de forma gradual durante semanas o meses. Informar al médico si planea un embarazo."
+  },
+  "monitoring": {
+    "labTests": [
+      "Conteo sanguíneo completo (CSC) con diferencial",
+      "Pruebas de función hepática (ALT, AST, bilirrubina)",
+      "Pruebas de función renal (creatinina, BUN)",
+      "Niveles plasmáticos de ethosuximide (terapéutico: 40-100 mcg/mL)",
+      "Electrolitos séricos"
+    ],
+    "frequency": "CSC y función hepática: al inicio, cada mes durante los primeros 6 meses, y luego cada 6-12 meses. Niveles plasmáticos: al alcanzar la dosis de mantenimiento, al cambiar dosis, si hay falta de efectividad o sospecha de toxicidad. Monitoreo clínico continuo de crisis y efectos adversos.",
+    "signsToWatch": [
+      "Fiebre, dolor de garganta, úlceras en boca (signos de infección/agranulocitosis)",
+      "Ictericia (piel/ojos amarillos), orina oscura, dolor abdominal superior (signos de hepatitis)",
+      "Erupción cutánea severa o ampollas",
+      "Sangrado o moretones inusuales",
+      "Aumento severo o cambio en el patrón de crisis",
+      "Pensamientos suicidas, depresión severa, cambios de comportamiento",
+      "Somnolencia extrema, mareo intenso, dificultad para caminar"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Somnolencia profunda, estupor, coma",
+      "Ataxia severa (inestabilidad al caminar)",
+      "Depresión respiratoria (dificultad para respirar)",
+      "Náuseas y vómitos",
+      "Hipotensión (presión baja)",
+      "Bradicardia (ritmo cardíaco lento)"
+    ],
+    "treatment": "Es una emergencia médica. Llamar al 911. Tratamiento de soporte: mantener vía aérea, respiración y circulación. Lavado gástrico o carbón activado si la ingestión es reciente (dentro de 1-2 horas). No hay antídoto específico. El tratamiento es sintomático. La hemodiálisis puede ser efectiva para eliminar el fármaco del cuerpo debido a su baja unión a proteínas.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Rx)",
+    "scheduleMexico": "Medicamento de patente, sujeto a prescripción médica. No está en la lista de psicotrópicos o estupefacientes.",
+    "fdaApprovalYear": "Aprobado por la FDA en 1960."
+  },
+  "brandsMexico": [
+    "Zarontin"
+  ],
+  "clinicalPearls": [
+    "El ethosuximide es inefectivo e incluso puede empeorar las crisis convulsivas tónico-clónicas (gran mal). Es crucial un diagnóstico preciso del tipo de epilepsia.",
+    "Los efectos adversos gastrointestinales y del SNC suelen ser dosis-dependientes y transitorios, mejorando después de las primeras semanas de tratamiento.",
+    "Aunque el monitoreo de niveles plasmáticos es útil, la respuesta clínica (control de crisis) y la tolerancia son los parámetros más importantes para ajustar la dosis."
+  ],
+  "patientCounseling": "Es fundamental que tome su ethosuximide todos los días, a la misma hora, incluso si se siente bien, para prevenir las crisis. No deje de tomarlo repentinamente, ya que puede provocar crisis graves. Puede causar somnolencia o mareos, especialmente al inicio; tenga precaución al manejar maquinaria o conducir hasta que conozca su reacción. Evite completamente el consumo de alcohol. Informe a su médico de inmediato si presenta fiebre, dolor de garganta, moretones fáciles, erupción en la piel, pensamientos de hacerse daño, o si las crisis empeoran o cambian. Lleve siempre una identificación que indique que tiene epilepsia y el medicamento que usa. Asista a todas sus citas médicas y de laboratorio para un monitoreo seguro. Si olvida una dosis, tómela tan pronto como lo recuerde, pero si es casi la hora de la siguiente, omita la olvidada y continúe con su horario normal. Nunca tome una dosis doble.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Ausencias (episodios de desconexión)",
+        "slug": "ausencias-episodios-de-desconexion"
+      },
+      {
+        "name": "Mirada fija breve",
+        "slug": "mirada-fija-breve"
+      },
+      {
+        "name": "Pérdida breve de conciencia",
+        "slug": "perdida-breve-de-conciencia"
+      },
+      {
+        "name": "Parpadeo rápido involuntario",
+        "slug": "parpadeo-rapido-involuntario"
+      },
+      {
+        "name": "Movimientos automáticos de manos",
+        "slug": "movimientos-automaticos-de-manos"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Epilepsia de ausencia de la infancia",
+        "slug": "epilepsia-de-ausencia-de-la-infancia"
+      },
+      {
+        "name": "Epilepsia de ausencia juvenil",
+        "slug": "epilepsia-de-ausencia-juvenil"
+      },
+      {
+        "name": "Crisis de ausencia típica (Petit Mal)",
+        "slug": "crisis-de-ausencia-tipica-petit-mal"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Lupus eritematoso sistémico inducido por fármacos",
+        "slug": "lupus-eritematoso-sistemico-inducido-por-farmacos"
+      },
+      {
+        "name": "Síndrome de Stevens-Johnson",
+        "slug": "sindrome-de-stevens-johnson"
+      },
+      {
+        "name": "Hepatitis medicamentosa",
+        "slug": "hepatitis-medicamentosa"
+      },
+      {
+        "name": "Anemia aplásica",
+        "slug": "anemia-aplasica"
+      },
+      {
+        "name": "Agranulocitosis",
+        "slug": "agranulocitosis"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Leucocitos (Glóbulos blancos)",
+        "slug": "leucocitos-globulos-blancos",
+        "effect": "Puede disminuir severamente (agranulocitosis)"
+      },
+      {
+        "name": "Neutrófilos",
+        "slug": "neutrofilos",
+        "effect": "Puede disminuir severamente"
+      },
+      {
+        "name": "Plaquetas",
+        "slug": "plaquetas",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "ALT (Alanina aminotransferasa)",
+        "slug": "alt-alanina-aminotransferasa",
+        "effect": "Puede elevar (daño hepático)"
+      },
+      {
+        "name": "AST (Aspartato aminotransferasa)",
+        "slug": "aspartato-aminotransferasa",
+        "effect": "Puede elevar (daño hepático)"
+      },
+      {
+        "name": "Nivel plasmático de ethosuximide",
+        "slug": "nivel-plasmatico-de-ethosuximide",
+        "effect": "Se monitorea para ajustar dosis"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Conteo Sanguíneo Completo (CSC)",
+        "slug": "conteo-sanguineo-completo-csc",
+        "reason": "Para detectar agranulocitosis o anemia aplásica"
+      },
+      {
+        "name": "Pruebas de Función Hepática",
+        "slug": "pruebas-de-funcion-hepatica",
+        "reason": "Para detectar hepatitis inducida por fármacos"
+      },
+      {
+        "name": "Niveles plasmáticos de Ethosuximide",
+        "slug": "niveles-plasmaticos-de-ethosuximide",
+        "reason": "Para optimizar dosis y evitar toxicidad"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve el ethosuximide?",
+      "a": "Sirve para controlar y prevenir un tipo específico de crisis epilépticas llamadas 'crisis de ausencia' o 'petit mal', que son episodios breves donde la persona se desconecta y tiene la mirada fija por unos segundos."
+    },
+    {
+      "q": "¿El ethosuximide es para todo tipo de epilepsia?",
+      "a": "No. Es específico para las crisis de ausencia. No es efectivo para otros tipos como las crisis convulsivas (tónico-clónicas) y hasta puede empeorarlas. El diagnóstico correcto del tipo de epilepsia es esencial."
+    },
+    {
+      "q": "¿Cómo debo tomar el ethosuximide?",
+      "a": "Generalmente una o dos veces al día, con o sin alimentos. Siga exactamente las instrucciones de su médico. Tome la dosis a la misma hora todos los días para mantener un nivel constante en la sangre."
+    },
+    {
+      "q": "¿Qué hago si se me olvida una dosis?",
+      "a": "Tómela tan pronto como lo recuerde. Si ya es casi la hora de su siguiente dosis, omita la dosis olvidada y continúe con su horario normal. Nunca tome dos dosis al mismo tiempo para compensar."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si uso ethosuximide?",
+      "a": "No. El alcohol aumenta mucho los efectos secundarios como somnolencia y mareo, y puede provocar crisis. Aumenta el riesgo de accidentes. Debe evitarse completamente."
+    },
+    {
+      "q": "¿El ethosuximide da sueño?",
+      "a": "Sí, la somnolencia y el mareo son efectos secundarios comunes, especialmente al inicio del tratamiento o al aumentar la dosis. Suelen mejorar después de unas semanas. Tenga precaución al conducir o manejar maquinaria."
+    },
+    {
+      "q": "¿Puedo dejar de tomar el ethosuximide de golpe si me siento bien?",
+      "a": "¡Jamás! Suspenderlo abruptamente puede causar un aumento muy peligroso y severo de las crisis, incluso un estado epiléptico (crisis prolongadas). Cualquier cambio debe ser supervisado por su médico y hecho gradualmente."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Puede empezar a notar mejoría en días, pero el control óptimo de las crisis puede tardar varias semanas, ya que la dosis se ajusta lentamente para encontrar la cantidad justa que usted necesita."
+    },
+    {
+      "q": "¿El ethosuximide afecta el estómago?",
+      "a": "Puede causar náuseas, dolor abdominal, pérdida de apetito o vómitos, especialmente al inicio. Tomarlo con alimentos puede ayudar. Si los síntomas son severos o persistentes, consulte a su médico."
+    },
+    {
+      "q": "¿Pueden los niños tomar ethosuximide?",
+      "a": "Sí, es el medicamento de primera elección para las crisis de ausencia en niños, generalmente a partir de los 3 años. La dosis se calcula según el peso del niño."
+    },
+    {
+      "q": "¿Puedo tomar ethosuximide si estoy embarazada o planeo embarazarme?",
+      "a": "Debe hablar con su neurólogo y ginecólogo. El medicamento conlleva riesgos para el feto, pero las crisis no controladas también son peligrosas. Se requiere una evaluación riesgo-beneficio, suplementos de ácido fólico y monitoreo estrecho."
+    },
+    {
+      "q": "¿Puedo amamantar si tomo ethosuximide?",
+      "a": "Pasa a la leche materna. Generalmente se considera compatible, pero se debe monitorear al bebé por somnolencia, irritabilidad o problemas para alimentarse. Consulte con su médico."
+    },
+    {
+      "q": "¿Qué efectos secundarios graves debo reportar de inmediato al médico?",
+      "a": "Fiebre, dolor de garganta, úlceras en boca (signos de infección); erupción cutánea severa o ampollas; piel/ojos amarillos; moretones o sangrado fácil; pensamientos de hacerse daño; o un empeoramiento de las crisis."
+    },
+    {
+      "q": "¿El ethosuximide interactúa con otros medicamentos?",
+      "a": "Sí. Interactúa con otros antiepilépticos (como valproato, carbamazepina), alcohol, y algunos antibióticos. Informe a todos sus médicos y farmacéuticos sobre TODOS los medicamentos y suplementos que usa."
+    },
+    {
+      "q": "¿Necesito hacerme análisis de sangre con este medicamento?",
+      "a": "Sí, es muy importante. Se requieren análisis de sangre periódicos (conteo sanguíneo y función hepática) para detectar efectos adversos graves pero poco comunes, como problemas en la médula ósea o daño al hígado."
+    },
+    {
+      "q": "¿El ethosuximide causa aumento de peso?",
+      "a": "No, es más común que cause pérdida de apetito y de peso, especialmente al inicio. Monitoree su peso y el de su hijo, y coméntelo con el médico."
+    },
+    {
+      "q": "¿Puedo vacunarme si tomo ethosuximide?",
+      "a": "Sí, puede y debe seguir el esquema de vacunación habitual. Sin embargo, si presenta efectos secundarios como fiebre después de una vacuna, consulte a su médico, ya que la fiebre puede desencadenar crisis en algunas personas con epilepsia."
+    },
+    {
+      "q": "¿Qué pasa si tomo una sobredosis?",
+      "a": "Es una emergencia médica. Puede causar somnolencia profunda, coma y problemas para respirar. Llame al 911 o acuda de inmediato al servicio de urgencias más cercano. Lleve el frasco del medicamento consigo."
+    },
+    {
+      "q": "¿Por qué mi médico pide niveles de ethosuximide en la sangre?",
+      "a": "Para asegurarse de que la dosis que usted toma está dentro del rango terapéutico (40-100 mcg/mL). Niveles muy bajos pueden no controlar las crisis, y niveles muy altos pueden causar toxicidad. Ayuda a ajustar la dosis de manera precisa."
+    },
+    {
+      "q": "¿El ethosuximide puede causar problemas psiquiátricos?",
+      "a": "Sí, aunque no es común. Puede causar o empeorar síntomas como irritabilidad, depresión, psicosis o alucinaciones. Es importante informar cualquier cambio en el estado de ánimo o comportamiento a su médico."
+    }
+  ]
+}

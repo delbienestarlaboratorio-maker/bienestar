@@ -1,0 +1,406 @@
+{
+  "name": "Nalbufina",
+  "summary": "La Nalbufina es un medicamento analgésico opioide que se utiliza principalmente para el manejo del dolor moderado a severo en entornos hospitalarios y perioperatorios. Actúa en el sistema nervioso central para reducir la percepción del dolor, siendo particularmente útil en procedimientos quirúrgicos, dolor postoperatorio y en situaciones de trauma. Su importancia clínica radica en que es un agonista-antagonista opioide, lo que significa que puede proporcionar un alivio efectivo del dolor con un perfil de seguridad que puede ser más favorable en términos de depresión respiratoria y potencial de abuso en comparación con algunos opioides puros como la morfina. Sin embargo, sigue siendo un medicamento potente que requiere supervisión médica estrecha y está sujeto a regulación especial en México debido a su potencial de causar dependencia física y psicológica si no se usa correctamente. Es fundamental que los pacientes comprendan que este medicamento solo debe usarse bajo la dirección de un profesional de la salud y por el tiempo estrictamente necesario.",
+  "pharmacology": {
+    "mechanismOfAction": "La Nalbufina es un agonista-antagonista opioide con actividad mixta sobre los receptores opioides del sistema nervioso central. Actúa principalmente como un agonista parcial del receptor kappa (κ), lo que produce su efecto analgésico. Simultáneamente, actúa como un antagonista del receptor mu (μ), lo que modula algunos de los efectos adversos típicos de los opioides puros, como la depresión respiratoria severa y la euforia, reduciendo así su potencial de abuso. Este perfil dual le confiere propiedades analgésicas potentes mientras limita ciertos riesgos. Su acción sobre el receptor kappa en la médula espinal y el cerebro altera la transmisión de las señales de dolor, elevando el umbral del dolor y modificando la percepción emocional del mismo. No afecta significativamente los receptores delta (δ).",
+    "pharmacologicClass": "Agonista-antagonista opioide; Derivado de la 14-hidroximorfinona",
+    "therapeuticClass": "Analgésico opioide; Anestésico adyuvante",
+    "absorption": "La Nalbufina se administra principalmente por vía intravenosa (IV) e intramuscular (IM), lo que permite una absorción rápida y completa. Tras la administración IV, la concentración plasmática máxima se alcanza casi de inmediato. Por vía IM, la absorción es rápida, con una biodisponibilidad cercana al 100%. La administración subcutánea (SC) también es una vía efectiva. No se utiliza por vía oral debido a un extenso metabolismo de primer paso en el hígado que reduciría drásticamente su disponibilidad.",
+    "distribution": "La Nalbufina se distribuye ampliamente por los tejidos corporales. Su volumen de distribución (Vd) es de aproximadamente 3 a 5 L/kg, indicando una distribución extensa más allá del plasma. Se une moderadamente a las proteínas plasmáticas, en un rango del 30% al 40%. Cruza la barrera hematoencefálica y la placenta.",
+    "metabolism": "La Nalbufina sufre un metabolismo hepático extenso, principalmente mediante la conjugación con ácido glucurónico (glucuronidación). También es metabolizada por reducción a metabolitos inactivos. Las enzimas del citocromo P450 (CYP) no juegan un papel principal en su metabolismo, por lo que las interacciones farmacocinéticas mediadas por CYP son mínimas. Su metabolismo es lineal en el rango de dosis terapéuticas.",
+    "elimination": "La vida media de eliminación de la Nalbufina es de aproximadamente 3 a 6 horas. Se elimina principalmente por vía renal, donde alrededor del 70% de una dosis se excreta en la orina en forma de conjugados glucurónidos y menos del 10% como fármaco sin cambios. Una porción menor (alrededor del 7%) se elimina en las heces a través de la bilis. La función renal y hepática pueden afectar significativamente su eliminación.",
+    "onsetOfAction": "El inicio de acción es muy rápido. Por vía intravenosa (IV), el alivio del dolor comienza en 2 a 3 minutos. Por vía intramuscular (IM) o subcutánea (SC), el efecto comienza en 5 a 15 minutos.",
+    "durationOfAction": "La duración del efecto analgésico es de 3 a 6 horas, dependiendo de la dosis, la vía de administración y las características individuales del paciente."
+  },
+  "indications": {
+    "approved": [
+      "Alivio del dolor moderado a severo (agudo)",
+      "Analgesia preoperatoria y pre-anestésica",
+      "Analgesia complementaria durante la anestesia balanceada",
+      "Alivio del dolor postoperatorio",
+      "Manejo del dolor asociado a trauma o cólico renal/biliar"
+    ],
+    "offLabel": [
+      "Sedación en cuidados intensivos (como parte de un régimen)",
+      "Manejo del dolor en pacientes con riesgo de depresión respiratoria por opioides puros (uso cauteloso)",
+      "Alivio del dolor en el trabajo de parto (aunque otros opioides son más comunes)"
+    ]
+  },
+  "dosage": {
+    "adults": "Dosis inicial habitual: 10 mg a 20 mg por dosis, administrados por vía IV, IM o SC. Puede repetirse cada 3 a 6 horas según sea necesario para el dolor. En dolor severo, la dosis puede incrementarse. Dosis única máxima común: 20 mg. En el contexto perioperatorio/anestésico, las dosis se ajustan individualmente por el anestesiólogo.",
+    "pediatric": "No se recomienda de forma rutinaria en niños menores de 12 años debido a datos limitados de seguridad. En adolescentes mayores de 12 años y con peso >40 kg, puede considerarse una dosis de 0.1 a 0.2 mg/kg por dosis (máximo 10-20 mg), cada 3-6 horas según necesidad, bajo estricta supervisión médica.",
+    "elderly": "Se requiere reducción de dosis. Iniciar con la dosis más baja efectiva (ej. 5-10 mg), debido a la disminución del aclaramiento, mayor sensibilidad a los efectos adversos (sedación, confusión) y mayor riesgo de caídas. Titular con cautela.",
+    "renalImpairment": "Ajuste necesario. En insuficiencia renal leve a moderada (TFG 30-89 mL/min): usar con precaución, considerar reducción de dosis y/o aumento del intervalo entre dosis. En insuficiencia renal severa (TFG <30 mL/min) o en diálisis: evitar o usar con extrema precaución y dosis mínimas, ya que los metabolitos activos pueden acumularse.",
+    "hepaticImpairment": "Ajuste obligatorio. La Nalbufina se metaboliza en el hígado. En insuficiencia hepática leve: reducir dosis en un 25-50%. En insuficiencia hepática moderada a severa (cirrosis): evitar o usar dosis mínimas con intervalos prolongados, debido al riesgo de acumulación y encefalopatía.",
+    "maxDose": "La dosis máxima diaria no está estrictamente definida y depende del contexto clínico y la tolerancia individual. En general, para analgesia aguda en adultos, no se suelen superar los 160 mg al día, repartidos en dosis de 20 mg cada 3-4 horas. En entornos controlados (anestesia), las dosis pueden ser mayores."
+  },
+  "dosageForms": [
+    {
+      "form": "Solución inyectable",
+      "strengths": [
+        "10 mg/mL",
+        "20 mg/mL"
+      ],
+      "route": "Intravenosa (IV), Intramuscular (IM), Subcutánea (SC)"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la Nalbufina o a cualquier componente de la formulación",
+      "Depresión respiratoria significativa en ausencia de equipo de reanimación",
+      "Asma aguda severa o EPOC agudizada con insuficiencia respiratoria",
+      "Parálisis intestinal (íleo paralítico)",
+      "Uso concomitante con Inhibidores de la Monoaminooxidasa (IMAOs) o dentro de los 14 días posteriores a su suspensión"
+    ],
+    "relative": [
+      "Trauma craneoencefálico o hipertensión intracraneal (puede enmascarar signos neurológicos y aumentar la presión intracraneal)",
+      "Convulsiones o trastornos convulsivos",
+      "Insuficiencia hepática severa (Child-Pugh C)",
+      "Insuficiencia renal severa (TFG <30 mL/min)",
+      "Adicción a opioides (puede precipitar un síndrome de abstinencia)",
+      "Hipotiroidismo o mixedema",
+      "Hipertrofia prostática o estenosis uretral",
+      "Enfermedad de la vesícula biliar o pancreatitis aguda",
+      "Edad avanzada o estado debilitado",
+      "Embarazo (especialmente cerca del término, por riesgo de depresión respiratoria neonatal)"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Sedación (somnolencia)",
+      "Mareo o vértigo",
+      "Náuseas",
+      "Sudoración"
+    ],
+    "common": [
+      "Vómitos",
+      "Sequedad de boca",
+      "Cefalea (dolor de cabeza)",
+      "Visión borrosa",
+      "Prurito (picazón) sin erupción",
+      "Sensación de euforia o disforia (malestar emocional)",
+      "Inquietud",
+      "Sofocos o sensación de calor"
+    ],
+    "uncommon": [
+      "Bradicardia (frecuencia cardíaca lenta)",
+      "Hipotensión ortostática (mareo al levantarse)",
+      "Confusión o desorientación",
+      "Alucinaciones (visuales o auditivas)",
+      "Depresión respiratoria (dificultad para respirar)",
+      "Espasmos biliares (dolor tipo cólico)",
+      "Retención urinaria (dificultad para orinar)",
+      "Erupción cutánea"
+    ],
+    "rare": [
+      "Convulsiones",
+      "Reacción anafiláctica o alérgica severa",
+      "Arritmias cardíacas",
+      "Dependencia física y psicológica con uso prolongado",
+      "Síndrome de Serotonina (si se combina con otros fármacos serotonérgicos)",
+      "Rabdomiólisis (daño muscular) en contexto de inmovilidad"
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Otros depresores del Sistema Nervioso Central (Benzodiacepinas, Hipnóticos, Alcohol)",
+        "effect": "Potenciación aditiva de la sedación, mareo, deterioro psicomotor y riesgo de depresión respiratoria severa, coma o muerte.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Agonistas opioides puros (Morfina, Fentanilo, Hidrocodona, Oxicodona)",
+        "effect": "La Nalbufina, al ser antagonista del receptor mu, puede reducir o bloquear el efecto analgésico de estos fármacos y/o precipitar un síndrome de abstinencia en pacientes dependientes.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores de la Monoaminooxidasa (IMAOs) como Fenelzina, Tranilcipromina",
+        "effect": "Riesgo de crisis hipertensiva severa, hiperpirexia (fiebre alta) y coma. Contraindicación absoluta.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Antidepresivos tricíclicos (Amitriptilina, Imipramina) o ISRS/IRSN (Sertralina, Venlafaxina)",
+        "effect": "Mayor riesgo de síndrome serotoninérgico (confusión, agitación, fiebre, rigidez muscular) y potenciación de los efectos anticolinérgicos (sequedad, retención urinaria).",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Antipsicóticos (Haloperidol, Clorpromazina) y otros tranquilizantes mayores",
+        "effect": "Aumento del riesgo de hipotensión, sedación excesiva y efectos anticolinérgicos.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "No hay interacciones directas significativas con alimentos. Sin embargo, el alcohol debe evitarse estrictamente, ya que potencia enormemente los efectos depresores del sistema nervioso central y el riesgo de depresión respiratoria.",
+    "withSupplements": "Precaución con suplementos que tengan efectos sedantes o que actúen sobre el sistema nervioso central, como la Valeriana, la Kava, la Melatonina en dosis altas o la Hierba de San Juan (Hypericum perforatum). Esta última puede reducir la eficacia de los opioides. Consultar siempre con el médico o farmacéutico."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA B (en algunos estudios animales) / C (generalmente considerado). No hay estudios adecuados en humanos.",
+      "recommendación": "Solo debe usarse durante el embarazo si el beneficio potencial justifica claramente el riesgo para el feto. Su uso cerca del término del embarazo (tercer trimestre) puede causar depresión respiratoria en el recién nacido. Puede reducir la frecuencia y la intensidad de las contracciones uterinas si se usa durante el trabajo de parto.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se excreta en la leche materna en cantidades pequeñas. Debido al potencial de efectos adversos graves en el lactante (sedación, dificultad para alimentarse, depresión respiratoria), generalmente se recomienda evitar su uso durante la lactancia. Si su uso es absolutamente necesario, se debe suspender la lactancia o extraer y desechar la leche durante el tratamiento y por un período posterior (consultar con el médico).",
+    "pediatric": "La seguridad y eficacia en niños menores de 12 años no están bien establecidas. Su uso debe reservarse para situaciones hospitalarias muy específicas bajo estricta supervisión médica y monitoreo continuo, especialmente de la función respiratoria.",
+    "geriatric": "Los pacientes mayores de 65 años son más sensibles a los efectos de la Nalbufina. Presentan mayor riesgo de sedación, confusión, mareo, hipotensión, retención urinaria y caídas. Es imperativo iniciar con la dosis más baja posible (ej. 5 mg), aumentar lentamente si es necesario y monitorear de cerca. La función renal y hepática debe evaluarse antes de iniciar el tratamiento."
+  },
+  "administration": {
+    "howToTake": "La Nalbufina es un medicamento inyectable que SOLO debe ser administrado por un profesional de la salud (médico, enfermera) en un entorno clínico (hospital, quirófano, sala de recuperación, consultorio equipado). Nunca debe auto-administrarse. Se puede inyectar lentamente en una vena (IV), en un músculo grande (IM) como el glúteo o el muslo, o debajo de la piel (SC). La vía IV proporciona el alivio más rápido. La inyección debe realizarse lentamente para minimizar efectos como mareo y sofocos. El paciente debe permanecer acostado o sentado durante y después de la administración para prevenir mareos o caídas.",
+    "storage": "Conservar el vial o ampolleta en su empaque original, protegido de la luz. Almacenar a temperatura ambiente controlada (15-30°C). No congelar. Mantener fuera del alcance y de la vista de los niños y otras personas. Es un medicamento controlado y debe almacenarse en un lugar seguro.",
+    "specialInstructions": "Informar al médico sobre todos los medicamentos, suplementos y antecedentes de alergias antes de recibir Nalbufina. Evitar conducir, operar maquinaria pesada o realizar actividades que requieran alerta durante al menos 6-8 horas después de una dosis, debido a la somnolencia. No consumir alcohol. Reportar inmediatamente al personal médico cualquier dificultad para respirar, somnolencia extrema, confusión severa, latidos cardíacos muy lentos o urticaria."
+  },
+  "monitoring": {
+    "labTests": [
+      "Función renal (Creatinina sérica, TFG)",
+      "Pruebas de función hepática (Bilirrubina, AST, ALT, Fosfatasa alcalina)",
+      "Conteo sanguíneo completo (CSC) en uso prolongado",
+      "Gasometría arterial o pulsioximetría si hay sospecha de depresión respiratoria"
+    ],
+    "frequency": "Evaluación clínica continua de nivel de dolor, estado de conciencia y frecuencia respiratoria durante la administración y en las horas siguientes. Monitoreo de laboratorio al inicio del tratamiento y periódicamente si el uso se extiende más de unos días.",
+    "signsToWatch": [
+      "Frecuencia respiratoria menor de 10 respiraciones por minuto o respiración superficial",
+      "Somnolencia extrema o dificultad para despertar (estupor)",
+      "Confusión, alucinaciones o agitación",
+      "Mareo intenso o desmayo al ponerse de pie",
+      "Latidos cardíacos muy lentos (bradicardia)",
+      "Dificultad para orinar (retención urinaria)",
+      "Erupción cutánea, picazón intensa o hinchazón de cara/lengua",
+      "Náuseas o vómitos persistentes"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Depresión respiratoria severa (respiración lenta, superficial o ausente)",
+      "Somnolencia profunda progresando a estupor o coma",
+      "Pupilas puntiformes (miosis)",
+      "Hipotensión (presión arterial baja) y bradicardia (frecuencia cardíaca lenta)",
+      "Piel fría y húmeda",
+      "Paro cardiorrespiratorio y muerte en casos extremos"
+    ],
+    "treatment": "Es una EMERGENCIA MÉDICA. Prioridad: Mantener la vía aérea permeable y asegurar la ventilación (oxígeno, asistencia respiratoria). Administración del antídoto específico (Naloxona) para revertir la depresión respiratoria y otros efectos. Soporte cardiovascular (líquidos, vasopresores si es necesario). Monitoreo continuo en una unidad de cuidados intensivos. La Nalbufina tiene una duración mayor que la Naloxona, por lo que puede ser necesaria la administración repetida o en infusión del antídoto.",
+    "antidote": "Naloxona (Narcan). Es un antagonista opioide competitivo puro que revierte los efectos de la sobredosis, especialmente la depresión respiratoria."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (receta controlada).",
+    "scheduleMexico": "Fracción III de la Ley General de Salud. Es una sustancia sujeta a control especial con potencial de causar dependencia física y psicológica. Su prescripción, dispensación y registro están estrictamente regulados.",
+    "fdaApprovalYear": "Aprobado por la FDA en 1979."
+  },
+  "brandsMexico": [
+    "Nubain® (marca original, ya puede no estar disponible)",
+    "Nalbufina Genfar",
+    "Nalbufina Pisa",
+    "Nalbufina Liomont",
+    "Nalbufina Alpharma",
+    "Nalbufina Laproff",
+    "Nalbufina Denver Farma"
+  ],
+  "clinicalPearls": [
+    "La Nalbufina es útil en pacientes donde se quiere minimizar el riesgo de depresión respiratoria severa en comparación con opioides puros como la morfina, gracias a su efecto techo en este aspecto.",
+    "Puede precipitar un síndrome de abstinencia agudo en pacientes físicamente dependientes de agonistas opioides puros (como heroína, morfina, oxicodona), por lo que se debe investigar siempre el historial de uso de sustancias.",
+    "El prurito (picazón) causado por la Nalbufina suele ser menos intenso y frecuente que el causado por la morfina, lo que puede ser una ventaja en algunos pacientes.",
+    "Su efecto analgésico no se revierte completamente con Naloxona en dosis bajas, debido a su acción sobre el receptor kappa, lo que requiere un manejo cuidadoso en caso de sobredosis."
+  ],
+  "patientCounseling": "La Nalbufina es un medicamento fuerte para el dolor que solo le administrará un profesional de la salud en el hospital o clínica. Es normal sentir sueño, mareo o un poco de náuseas después de recibirla. Es muy importante que permanezca acostado o sentado hasta que estos efectos pasen, para evitar caídas. No podrá conducir ni manejar máquinas por varias horas. Bajo ninguna circunstancia debe tomar alcohol mientras esté bajo los efectos de este medicamento, ya que es muy peligroso. Informe de inmediato a la enfermera o al médico si siente que le cuesta trabajo respirar, si está demasiado somnoliento y no lo pueden despertar, si tiene el corazón muy lento, si le sale roncha o si no puede orinar. Este medicamento es para uso a corto plazo bajo supervisión médica para controlar su dolor agudo.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor agudo severo",
+        "slug": "dolor-agudo-severo"
+      },
+      {
+        "name": "Dolor postoperatorio",
+        "slug": "dolor-postoperatorio"
+      },
+      {
+        "name": "Dolor por trauma",
+        "slug": "dolor-por-trauma"
+      },
+      {
+        "name": "Cólico renal",
+        "slug": "colico-renal"
+      },
+      {
+        "name": "Cólico biliar",
+        "slug": "colico-biliar"
+      },
+      {
+        "name": "Ansiedad preoperatoria",
+        "slug": "ansiedad-preoperatoria"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Dolor agudo perioperatorio",
+        "slug": "dolor-agudo-perioperatorio"
+      },
+      {
+        "name": "Traumatismo agudo",
+        "slug": "traumatismo-agudo"
+      },
+      {
+        "name": "Cólico nefrítico (litiasis renal)",
+        "slug": "colico-nefritico"
+      },
+      {
+        "name": "Colecistitis o cólico biliar",
+        "slug": "colecistitis"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Depresión respiratoria inducida por opioides",
+        "slug": "depresion-respiratoria-opioides"
+      },
+      {
+        "name": "Síndrome de abstinencia de opioides",
+        "slug": "sindrome-abstinencia-opioides"
+      },
+      {
+        "name": "Dependencia a sustancias",
+        "slug": "dependencia-sustancias"
+      },
+      {
+        "name": "Retención urinaria aguda",
+        "slug": "retencion-urinaria-aguda"
+      },
+      {
+        "name": "Íleo paralítico",
+        "slug": "ileo-paralitico"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Frecuencia respiratoria",
+        "slug": "frecuencia-respiratoria",
+        "effect": "Puede disminuir (bradipnea)"
+      },
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede disminuir (bradicardia)"
+      },
+      {
+        "name": "Presión arterial",
+        "slug": "presion-arterial",
+        "effect": "Puede disminuir (hipotensión)"
+      },
+      {
+        "name": "Nivel de conciencia (escala de Glasgow)",
+        "slug": "nivel-conciencia",
+        "effect": "Puede disminuir (sedación)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Pulsioximetría continua",
+        "slug": "pulsioximetria",
+        "reason": "Para monitorear la saturación de oxígeno y detectar depresión respiratoria temprana."
+      },
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-funcion-hepatica",
+        "reason": "Para ajustar la dosis, ya que el fármaco se metaboliza en el hígado."
+      },
+      {
+        "name": "Creatinina sérica y TFG",
+        "slug": "creatinina-tfg",
+        "reason": "Para ajustar la dosis, ya que los metabolitos se eliminan por el riñón."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve la inyección de Nalbufina?",
+      "a": "Sirve para aliviar el dolor fuerte o muy fuerte de manera rápida, como el dolor después de una cirugía, por un golpe o accidente, o por un cólico renal. Solo la aplica un doctor o enfermera en el hospital o consultorio."
+    },
+    {
+      "q": "¿La Nalbufina es lo mismo que la morfina?",
+      "a": "No, son medicamentos parecidos (opioides) pero diferentes. La Nalbufina puede ser un poco más segura en cuanto a no afectar tanto la respiración, pero sigue siendo un medicamento fuerte y controlado. El médico elige cuál es mejor para cada caso."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto la Nalbufina?",
+      "a": "Si se pone en la vena (intravenosa), empieza a quitar el dolor en 2 o 3 minutos. Si se pone en el músculo (intramuscular), tarda entre 5 y 15 minutos en hacer efecto."
+    },
+    {
+      "q": "¿Cuánto tiempo dura el efecto del dolor después de la inyección?",
+      "a": "El alivio del dolor suele durar entre 3 y 6 horas. Después de ese tiempo, el dolor puede regresar y el médico evaluará si es necesario aplicar otra dosis."
+    },
+    {
+      "q": "¿Qué efectos secundarios son los más comunes?",
+      "a": "Lo más común es sentir sueño, mareo, un poco de náuseas y sudoración. También puede dar sensación de calor en la cara o picazón en la piel. Estos efectos suelen ser leves y pasan en un rato."
+    },
+    {
+      "q": "¿Me puede dar alergia la Nalbufina?",
+      "a": "Sí, como cualquier medicamento, puede causar una reacción alérgica. Es poco común, pero si le sale roncha, le pica mucho la piel, se le hinchan los labios o la lengua, o le cuesta respirar después de la inyección, avise AL INSTANTE al personal médico."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si me pusieron Nalbufina?",
+      "a": "NO. Es muy peligroso. El alcohol potencia los efectos de la Nalbufina y puede causar somnolencia extrema, dificultad para respirar grave, coma e incluso la muerte. Evite el alcohol por completo durante el tratamiento."
+    },
+    {
+      "q": "¿Puedo manejar o operar máquinas después de que me la apliquen?",
+      "a": "NO. La Nalbufina causa somnolencia y mareo, lo que reduce mucho sus reflejos. No debe conducir, manejar maquinaria pesada o hacer actividades que requieran estar alerta por lo menos durante 6 a 8 horas después de recibir una dosis."
+    },
+    {
+      "q": "¿La Nalbufina crea adicción?",
+      "a": "Tiene un potencial de causar dependencia física y psicológica menor que la morfina, pero sigue existiendo el riesgo, especialmente si se usa por mucho tiempo o sin control médico. Por eso es un medicamento controlado que solo se usa por periodos cortos para dolor agudo bajo supervisión."
+    },
+    {
+      "q": "¿Qué hago si siento que me cuesta respirar después de la inyección?",
+      "a": "Es una SEÑAL DE ALERTA GRAVE. Informe INMEDIATAMENTE a la enfermera o al médico. Puede ser un efecto adverso serio llamado depresión respiratoria, que requiere atención médica urgente."
+    },
+    {
+      "q": "¿Puedo recibir Nalbufina si estoy tomando pastillas para la ansiedad o para dormir?",
+      "a": "Debe informar SIEMPRE a su médico todos los medicamentos que toma. La combinación de Nalbufina con pastillas para dormir (como clonazepam), ansiolíticos o relajantes musculares aumenta mucho el riesgo de somnolencia peligrosa y problemas para respirar. El médico ajustará las dosis o elegirá otro analgésico."
+    },
+    {
+      "q": "¿Se puede usar Nalbufina en niños?",
+      "a": "Generalmente no se recomienda en niños menores de 12 años porque hay poca información sobre su seguridad en ellos. En adolescentes mayores y bajo estricta vigilancia hospitalaria, un médico especialista podría considerarlo en casos muy específicos."
+    },
+    {
+      "q": "¿Y en adultos mayores?",
+      "a": "Sí se puede usar, pero con mucha precaución. Las personas mayores son más sensibles, por lo que se usa una dosis más baja para evitar mareos, confusión, caídas y problemas para respirar. El médico la ajustará cuidadosamente."
+    },
+    {
+      "q": "¿La Nalbufina es segura en el embarazo?",
+      "a": "Solo debe usarse si el médico considera que el beneficio para la madre es mayor que el riesgo para el bebé. Si se usa cerca de la fecha del parto, puede causar que el bebé nazca con respiración lenta. La mujer embarazada debe discutir a fondo los riesgos con su médico."
+    },
+    {
+      "q": "¿Puedo amamantar si me aplican Nalbufina?",
+      "a": "No es recomendable. Pasa a la leche materna en pequeñas cantidades y puede hacer que el bebé esté muy somnoliento y tenga dificultad para alimentarse. Si es necesario usarla, el médico le indicará si debe suspender la lactancia temporalmente."
+    },
+    {
+      "q": "¿Qué pasa si tengo problemas en el hígado o los riñones?",
+      "a": "Es muy importante que su médico lo sepa. Si su hígado o riñones no funcionan bien, la Nalbufina puede acumularse en el cuerpo y causar efectos secundarios graves. El médico reducirá la dosis o elegirá otro medicamento más seguro."
+    },
+    {
+      "q": "¿La Nalbufina quita el dolor de cabeza o de muelas?",
+      "a": "No es el medicamento de elección para ese tipo de dolores comunes. Se reserva para dolores más intensos, como los postoperatorios o por trauma. Para dolor de cabeza o muelas, hay analgésicos más adecuados y seguros que puede recetarle su dentista o médico general."
+    },
+    {
+      "q": "¿Puedo recibir Nalbufina si soy alérgico a otros medicamentos?",
+      "a": "Debe informar TODAS sus alergias a medicamentos al médico. Si es alérgico a otros opioides (como codeína, morfina), existe la posibilidad de que también lo sea a la Nalbufina. El médico evaluará el riesgo y puede hacer una prueba o elegir un analgésico de otra clase."
+    },
+    {
+      "q": "¿Qué es el 'efecto techo' de la Nalbufina del que hablan los médicos?",
+      "a": "Es una característica importante. Significa que, a partir de cierta dosis, aumentar más la cantidad de Nalbufina no produce más alivio del dolor, pero SÍ tiene un límite (techo) para el efecto de deprimir la respiración. Esto la hace teóricamente más segura que opioides como la morfina, que no tienen ese techo para la depresión respiratoria."
+    },
+    {
+      "q": "¿Por qué la Nalbufina puede causar un 'síndrome de abstinencia' en personas adictas a otros opioides?",
+      "a": "Por su mecanismo de acción único. La Nalbufina bloquea (antagoniza) uno de los receptores (receptor mu) donde actúan opioides como la heroína o la morfina. En una persona dependiente de esos opioides, la Nalbufina los 'desplaza' de ese receptor de golpe, provocando síntomas de abstinencia severos como sudoración, ansiedad, diarrea y dolor. Por eso el médico siempre debe preguntar sobre el consumo de otras sustancias."
+    }
+  ]
+}

@@ -1,0 +1,448 @@
+{
+  "name": "Dimenhidrinato",
+  "summary": "El dimenhidrinato es un medicamento antihistamínico de primera generación que se utiliza principalmente para prevenir y tratar las náuseas, los vómitos y los mareos asociados al movimiento, como los que ocurren en viajes por mar, aire o carretera (cinetosis). También es útil para aliviar los síntomas de algunas alergias, como la rinitis alérgica, y para el tratamiento de las náuseas y vómitos postoperatorios. Su importancia clínica radica en su eficacia rápida y su disponibilidad como medicamento de venta libre en varias presentaciones, lo que lo hace un recurso accesible para el manejo sintomático de estas condiciones. Sin embargo, es crucial conocer sus efectos secundarios, principalmente la somnolencia, que puede afectar la capacidad para conducir o manejar maquinaria. Aunque es un medicamento seguro cuando se usa correctamente, su uso requiere precaución en adultos mayores, niños pequeños y personas con ciertas condiciones médicas preexistentes.",
+  "pharmacology": {
+    "mechanismOfAction": "El dimenhidrinato es una sal formada por difenhidramina (un antihistamínico de primera generación) y 8-cloroteofilina. Su principal mecanismo de acción es el bloqueo competitivo y reversible de los receptores H1 de histamina en el sistema nervioso central y periférico. Al bloquear estos receptores en el núcleo vestibular y el cerebelo, reduce la estimulación del centro del vómito, lo que previene las náuseas y los mareos. Además, posee propiedades anticolinérgicas centrales y periféricas, lo que contribuye a su efecto antiemético y sedante. También tiene un efecto depresor sobre la laberintina, estabilizando la actividad neuronal en las vías vestibulares. No actúa directamente sobre los receptores de dopamina o serotonina, a diferencia de otros antieméticos más modernos.",
+    "pharmacologicClass": "Antagonista del receptor H1 de histamina (de primera generación). Derivado etanolamínico. Anticolinérgico central y periférico. Antiemético vestibular.",
+    "therapeuticClass": "Antihistamínico. Antiemético. Antivertiginoso.",
+    "absorption": "Se absorbe bien por vía oral. La biodisponibilidad oral es variable pero generalmente buena. La presencia de alimentos puede retrasar ligeramente su absorción, pero no afecta significativamente la cantidad total absorbida. La administración intramuscular también es eficaz.",
+    "distribution": "Se distribuye ampliamente por todo el cuerpo, incluyendo el sistema nervioso central (SNC), debido a su alta liposolubilidad. Cruza la barrera hematoencefálica, lo que explica sus efectos centrales como la sedación. También cruza la barrera placentaria y se excreta en la leche materna. Su unión a proteínas plasmáticas es moderada.",
+    "metabolism": "Se metaboliza extensamente en el hígado por el sistema enzimático del citocromo P450, principalmente por las isoenzimas CYP2D6 y, en menor medida, CYP3A4. El metabolito principal es la difenhidramina libre y otros metabolitos inactivos. La 8-cloroteofilina también se metaboliza por vías hepáticas.",
+    "elimination": "La vida media de eliminación es de aproximadamente 4 a 8 horas. Se elimina principalmente por vía renal en forma de metabolitos inactivos. Una pequeña porción se elimina sin cambios en la orina. En pacientes con insuficiencia hepática o renal, la vida media puede prolongarse.",
+    "onsetOfAction": "El inicio de acción por vía oral es relativamente rápido, generalmente entre 15 a 30 minutos. Por vía intramuscular, el efecto puede comenzar en 10 a 20 minutos. Para la prevención de la cinetosis, se recomienda administrarlo al menos 30 minutos antes de la exposición al movimiento.",
+    "durationOfAction": "La duración del efecto antiemético y antihistamínico es de aproximadamente 4 a 6 horas después de una dosis única. La duración de la sedación puede ser más prolongada en algunos individuos."
+  },
+  "indications": {
+    "approved": [
+      "Prevención y tratamiento de la cinetosis (mareo por movimiento en viajes por mar, aire o carretera)",
+      "Tratamiento sintomático de las náuseas y vómitos",
+      "Tratamiento del vértigo asociado a enfermedades del oído interno (ej. enfermedad de Ménière)",
+      "Alivio sintomático de la rinitis alérgica estacional y perenne",
+      "Tratamiento de náuseas y vómitos postoperatorios"
+    ],
+    "offLabel": [
+      "Manejo de náuseas y vómitos en el embarazo (solo bajo estricta supervisión médica, generalmente no de primera elección)",
+      "Sedación leve preoperatoria en niños",
+      "Tratamiento coadyuvante del vértigo central de otras etiologías",
+      "Alivio sintomático de la urticaria aguda"
+    ]
+  },
+  "dosage": {
+    "adults": "Para cinetosis: 50-100 mg cada 4-6 horas, sin exceder 400 mg en 24 horas. Dosis profiláctica: 50-100 mg 30-60 minutos antes del viaje. Para náuseas/vómitos/vertigo: 50 mg cada 4-6 horas según necesidad. Para alergias: 50 mg cada 4-6 horas.",
+    "pediatric": "Niños de 2 a 6 años: 12.5-25 mg cada 6-8 horas, máximo 75 mg/día. Niños de 6 a 12 años: 25-50 mg cada 6-8 horas, máximo 150 mg/día. Para profilaxis de cinetosis en niños mayores de 2 años: 1-1.5 mg/kg/dosis, administrada 30 minutos antes del viaje, repetible cada 6 horas si es necesario. NO RECOMENDADO EN MENORES DE 2 AÑOS sin supervisión médica.",
+    "elderly": "Iniciar con dosis más bajas (ej. 25 mg) debido a la mayor sensibilidad a los efectos anticolinérgicos y sedantes, y a la posible disminución de la función renal. Ajustar según respuesta y tolerancia. Vigilar estrechamente la aparición de confusión, sedación excesiva o retención urinaria.",
+    "renalImpairment": "En insuficiencia renal leve a moderada (TFG 30-89 mL/min): considerar reducción de dosis o aumento del intervalo entre dosis. En insuficiencia renal severa (TFG <30 mL/min) o diálisis: evitar su uso o usarlo con extrema precaución y bajo supervisión médica, ya que puede acumularse y aumentar el riesgo de efectos adversos.",
+    "hepaticImpairment": "Usar con precaución en pacientes con enfermedad hepática significativa (cirrosis, hepatitis activa). Considerar reducción de dosis debido al metabolismo hepático alterado, lo que puede llevar a niveles plasmáticos más altos y prolongados.",
+    "maxDose": "Dosis máxima diaria en adultos: 400 mg. En niños: 5 mg/kg/día o 150 mg/día, lo que sea menor."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "50 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tableta masticable",
+      "strengths": [
+        "50 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Cápsula",
+      "strengths": [
+        "50 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Jarabe / Suspensión oral",
+      "strengths": [
+        "12.5 mg/5 mL"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Solución inyectable (ampolla)",
+      "strengths": [
+        "50 mg/mL"
+      ],
+      "route": "Intramuscular, Intravenosa (lenta)"
+    },
+    {
+      "form": "Supositorio",
+      "strengths": [
+        "100 mg"
+      ],
+      "route": "Rectal"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al dimenhidrinato, a la difenhidramina o a cualquier componente de la formulación",
+      "Recién nacidos o lactantes prematuros",
+      "Pacientes en estado de coma",
+      "Crisis asmática aguda",
+      "Pacientes con glaucoma de ángulo cerrado no controlado",
+      "Hipertrofia prostática sintomática severa con retención urinaria",
+      "Estenosis piloroduodenal obstructiva",
+      "Administración concomitante con inhibidores de la monoaminooxidasa (IMAOs)"
+    ],
+    "relative": [
+      "Epilepsia o trastornos convulsivos",
+      "Enfermedad cardiovascular (arritmias, hipertensión no controlada)",
+      "Hipertiroidismo",
+      "Enfermedad pulmonar obstructiva crónica (EPOC)",
+      "Obstrucción intestinal o íleo paralítico",
+      "Miastenia gravis",
+      "Porfiria",
+      "Adultos mayores (riesgo de efectos anticolinérgicos)",
+      "Insuficiencia hepática o renal moderada a severa",
+      "Embarazo (especialmente primer trimestre)",
+      "Lactancia"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Somnolencia, sedación",
+      "Sequedad de boca, nariz y garganta"
+    ],
+    "common": [
+      "Mareo, aturdimiento",
+      "Visión borrosa",
+      "Estreñimiento",
+      "Dificultad para orinar (especialmente en hombres con próstata agrandada)",
+      "Dolor de cabeza",
+      "Nerviosismo, inquietud (especialmente en niños)",
+      "Pérdida del apetito",
+      "Molestias gastrointestinales (náusea, dolor abdominal)"
+    ],
+    "uncommon": [
+      "Confusión, desorientación (especialmente en ancianos)",
+      "Tinnitus (zumbido en los oídos)",
+      "Palpitaciones, taquicardia",
+      "Hipotensión",
+      "Erupción cutánea, urticaria",
+      "Sudoración disminuida",
+      "Excitación paradójica (en lugar de sedación)"
+    ],
+    "rare": [
+      "Anemia hemolítica",
+      "Discrasias sanguíneas (agranulocitosis, trombocitopenia)",
+      "Reacciones anafilácticas o de hipersensibilidad severa",
+      "Convulsiones",
+      "Alucinaciones",
+      "Síndrome neuroléptico maligno (muy raro, con uso parenteral)",
+      "Arritmias cardíacas graves"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Inhibidores de la Monoaminooxidasa (IMAOs) como fenelzina, tranilcipromina",
+        "effect": "Puede potenciar los efectos anticolinérgicos del dimenhidrinato, aumentando el riesgo de crisis hipertensiva, fiebre, convulsiones y coma. Es una interacción peligrosa.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Alcohol, benzodiacepinas (diazepam, alprazolam), opioides (codeína, tramadol), otros depresores del SNC",
+        "effect": "Potenciación aditiva de la depresión del sistema nervioso central, aumentando severamente la somnolencia, mareo y deterioro psicomotor. Riesgo de accidentes y depresión respiratoria.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Anticolinérgicos (atropina, escopolamina, oxibutinina, antidepresivos tricíclicos como amitriptilina)",
+        "effect": "Efecto anticolinérgico aditivo, aumentando el riesgo de sequedad de mucosas, retención urinaria, estreñimiento severo, visión borrosa, confusión y taquicardia.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores del CYP2D6 (fluoxetina, paroxetina, quinidina, bupropión)",
+        "effect": "Pueden aumentar las concentraciones plasmáticas de dimenhidrinato/difenhidramina, potenciando sus efectos y toxicidad.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "El alcohol debe evitarse estrictamente porque aumenta la sedación y el deterioro psicomotor. No se conocen interacciones significativas con alimentos específicos, aunque una comida grasosa puede retrasar ligeramente su absorción.",
+    "withSupplements": "Suplementos con efectos sedantes (valeriana, kava, melatonina en dosis altas) pueden potenciar la somnolencia. Suplementos con efectos anticolinérgicos (belladona, estramonio) son peligrosos. La hierba de San Juan (hipérico) puede interactuar a nivel enzimático, pero el riesgo es bajo."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA B",
+      "recommendation": "Los estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. Su uso durante el embarazo, especialmente en el primer trimestre, debe ser solo si el beneficio potencial justifica el riesgo potencial para el feto. No es el antiemético de primera elección para las náuseas del embarazo (se prefiere la doxilamina/piridoxina). Solo usar bajo estricta indicación y supervisión médica.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "El dimenhidrinato se excreta en la leche materna en pequeñas cantidades. Debido a su potencial para causar efectos adversos en el lactante (irritabilidad, sedación, efectos anticolinérgicos) y porque puede inhibir la lactancia al reducir la producción de leche, generalmente se recomienda evitar su uso durante la lactancia. Si es absolutamente necesario, se debe valorar suspender la lactancia temporalmente o buscar alternativas más seguras.",
+    "pediatric": "Puede usarse en niños mayores de 2 años para cinetosis o náuseas/vómitos, ajustando la dosis por peso. En menores de 2 años, el riesgo de efectos adversos graves (convulsiones, muerte súbita) es mayor, por lo que su uso requiere supervisión médica estricta. Vigilar la aparición de excitación paradójica o nerviosismo. Las formas líquidas facilitan la dosificación.",
+    "geriatric": "Los adultos mayores (mayores de 65 años) son más sensibles a los efectos anticolinérgicos y sedantes. Tienen mayor riesgo de confusión, mareo, somnolencia, hipotensión, retención urinaria, estreñimiento y sequedad de boca severa. Se debe iniciar con la dosis efectiva más baja. Evitar el uso prolongado. Monitorear la función cognitiva."
+  },
+  "administration": {
+    "howToTake": "Para prevenir el mareo por movimiento, tomar la primera dosis 30 a 60 minutos antes de iniciar el viaje. Las tabletas deben tragarse enteras con un vaso de agua. Las tabletas masticables se deben masticar completamente antes de tragar. El jarabe debe medirse con el dosificador proporcionado. Para el tratamiento de náuseas agudas, se puede tomar a demanda cada 4-6 horas, sin exceder la dosis máxima diaria. La vía intramuscular o intravenosa (lenta) está reservada para entornos hospitalarios bajo supervisión médica.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (entre 15°C y 30°C), protegido de la luz y la humedad. No congelar el jarabe. Mantener fuera del alcance y vista de los niños.",
+    "specialInstructions": "Debido a la somnolencia que produce, NO conduzca vehículos, opere maquinaria pesada o realice actividades que requieran alerta mental hasta que conozca cómo le afecta este medicamento (generalmente al menos 6-8 horas después de tomarlo). Evite el consumo de bebidas alcohólicas. Si los síntomas no mejoran después de 1-2 días de uso, o si empeoran, consulte a su médico. No lo use para el tratamiento a largo plazo de alergias sin supervisión médica."
+  },
+  "monitoring": {
+    "labTests": [
+      "No se requieren monitoreos de laboratorio de rutina para uso ocasional a corto plazo.",
+      "En uso prolongado o en pacientes de riesgo: Conteo sanguíneo completo (CSC) para detectar discrasias sanguíneas (raro).",
+      "Pruebas de función hepática (si hay sospecha de toxicidad).",
+      "Pruebas de función renal (en pacientes ancianos o con enfermedad renal conocida)."
+    ],
+    "frequency": "Para uso ocasional (viajes): ningún monitoreo. Para uso crónico o en pacientes de riesgo: evaluación clínica periódica y revisión de la necesidad de continuar el tratamiento.",
+    "signsToWatch": [
+      "Somnolencia extrema o dificultad para despertar",
+      "Confusión, alucinaciones o agitación severa",
+      "Dificultad para orinar (retención urinaria)",
+      "Visión borrosa persistente o dolor ocular",
+      "Latidos cardíacos irregulares o muy rápidos",
+      "Dificultad para respirar o sibilancias",
+      "Erupción cutánea severa o ampollas"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Síntomas anticolinérgicos: Boca muy seca, pupilas dilatadas (midriasis), piel caliente, seca y enrojecida",
+      "Depresión del SNC: Somnolencia profunda, estupor, coma",
+      "Excitación del SNC (especialmente en niños): Alucinaciones, inquietud extrema, convulsiones",
+      "Síntomas cardiovasculares: Taquicardia, hipotensión, arritmias (prolongación del QT, torsade de pointes)",
+      "Síntomas respiratorios: Depresión respiratoria, apnea",
+      "Síntomas gastrointestinales: Náuseas, vómitos"
+    ],
+    "treatment": "No existe antídoto específico. El tratamiento es de soporte y sintomático. Medidas generales: Lavado gástrico o carbón activado si la ingestión fue reciente (dentro de 1-2 horas). Soporte de las funciones vitales: Mantener vía aérea, ventilación y circulación. Controlar las convulsiones con benzodiacepinas (diazepam). Controlar la taquicardia y las arritmias según protocolo. La fisostigmina (un inhibidor de la colinesterasa) puede considerarse en casos graves de síntomas anticolinérgicos centrales que amenazan la vida (delirio, arritmias severas), pero su uso es controvertido por el riesgo de provocar bradicardia y convulsiones. Hemodiálisis no es efectiva.",
+    "antidote": "No existe un antídoto específico aprobado. La fisostigmina se usa como antídoto farmacológico en situaciones críticas bajo estricta supervisión médica en un entorno de cuidados intensivos."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Venta libre (Over-the-Counter, OTC) para presentaciones orales en dosis estándar. La forma inyectable requiere receta médica.",
+    "scheduleMexico": "No está sujeto a control especial en México. Se encuentra en la Fracción IV (Medicamentos de libre venta al público) del Cuadro Básico de Insumos del Sector Salud.",
+    "fdaApprovalYear": "Aprobado por la FDA de EE. UU. en 1949."
+  },
+  "brandsMexico": [
+    "Dramamine",
+    "Mareol",
+    "Vomisin",
+    "Nauseol",
+    "Viajex",
+    "Antina",
+    "Vertizin",
+    "Marex",
+    "Dimen",
+    "Travelwell",
+    "Nauselim",
+    "Motin",
+    "Verta",
+    "Dimenhidrinato Genfar",
+    "Dimenhidrinato PiSA",
+    "Dimenhidrinato Rimsa",
+    "Dimenhidrinato Liomont",
+    "Dimenhidrinato Best",
+    "Dimenhidrinato Denver Farma"
+  ],
+  "clinicalPearls": [
+    "El dimenhidrinato es uno de los antieméticos más efectivos para la cinetosis (mareo por movimiento), pero su utilidad para otros tipos de náuseas y vómitos (ej. quimioterapia) es limitada comparada con antagonistas de 5-HT3 como el ondansetrón.",
+    "La sedación es un efecto secundario casi universal, pero también es el efecto buscado cuando se usa como ayuda para dormir de venta libre (aunque la difenhidramina pura es más común para ese fin).",
+    "En adultos mayores, incluso una dosis única puede desencadenar un cuadro confusional agudo o empeorar un deterioro cognitivo preexistente, por lo que debe ser usado con extrema precaución en este grupo."
+  ],
+  "patientCounseling": "Este medicamento es para aliviar los mareos, náuseas y vómitos, especialmente en viajes. Tómelo 30 minutos antes de viajar para prevenir el mareo. El efecto secundario más común es el sueño, por lo que NO debe manejar, operar máquinas o hacer actividades que requieran estar alerta hasta que sepa cómo le afecta. No tome alcohol mientras lo use, ya que aumenta el sueño y el riesgo de accidentes. Si tiene problemas para orinar, glaucoma, próstata agrandada o es mayor de 65 años, consulte a su médico antes de usarlo. No lo use por más de 2 días seguidos para mareos sin consultar. Si está embarazada, amamantando o dando medicamento a un niño menor de 2 años, hable con su médico o farmacéutico primero. Guarde el medicamento en un lugar fresco y seco, fuera del alcance de los niños.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Náuseas",
+        "slug": "nauseas"
+      },
+      {
+        "name": "Vómitos",
+        "slug": "vomitos"
+      },
+      {
+        "name": "Mareo por movimiento (cinetosis)",
+        "slug": "mareo-por-movimiento"
+      },
+      {
+        "name": "Vértigo",
+        "slug": "vertigo"
+      },
+      {
+        "name": "Estornudos",
+        "slug": "estornudos"
+      },
+      {
+        "name": "Secreción nasal acuosa",
+        "slug": "secrecion-nasal-acuosa"
+      },
+      {
+        "name": "Picazón en nariz o garganta",
+        "slug": "picazon-nariz-garganta"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Cinetosis (Mareo por movimiento)",
+        "slug": "cinetosis"
+      },
+      {
+        "name": "Rinitis alérgica",
+        "slug": "rinitis-alergica"
+      },
+      {
+        "name": "Vértigo periférico (ej. Enfermedad de Ménière)",
+        "slug": "vertigo-periferico"
+      },
+      {
+        "name": "Náuseas y vómitos postoperatorios",
+        "slug": "nauseas-vomitos-postoperatorios"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Retención urinaria aguda",
+        "slug": "retencion-urinaria-aguda"
+      },
+      {
+        "name": "Delirio agudo (especialmente en ancianos)",
+        "slug": "delirio-agudo"
+      },
+      {
+        "name": "Glaucoma de ángulo cerrado agudo",
+        "slug": "glaucoma-angulo-cerrado-agudo"
+      },
+      {
+        "name": "Íleo paralítico",
+        "slug": "ileo-paralitico"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Recuento de glóbulos blancos (leucocitos)",
+        "slug": "recuento-globulos-blancos",
+        "effect": "Puede disminuir (leucopenia, agranulocitosis - raro)"
+      },
+      {
+        "name": "Recuento de plaquetas",
+        "slug": "recuento-plaquetas",
+        "effect": "Puede disminuir (trombocitopenia - raro)"
+      },
+      {
+        "name": "Hematocrito / Hemoglobina",
+        "slug": "hematocrito-hemoglobina",
+        "effect": "Puede disminuir (anemia hemolítica - raro)"
+      },
+      {
+        "name": "Intervalo QT en electrocardiograma",
+        "slug": "intervalo-qt-ecg",
+        "effect": "Puede prolongar (aumentando riesgo de arritmias)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Conteo sanguíneo completo (CSC)",
+        "slug": "conteo-sanguineo-completo",
+        "reason": "Para monitorizar posibles efectos raros sobre las células sanguíneas en uso prolongado."
+      },
+      {
+        "name": "Electrocardiograma (ECG)",
+        "slug": "electrocardiograma",
+        "reason": "En pacientes con antecedentes cardíacos o sobredosis, para evaluar intervalo QT y arritmias."
+      },
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-funcion-hepatica",
+        "reason": "En pacientes con enfermedad hepática o uso crónico, para detectar toxicidad."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de índice de masa corporal (IMC)",
+        "slug": "calculadora-imc"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve el dimenhidrinato?",
+      "a": "Sirve principalmente para prevenir y tratar el mareo por movimiento (en barcos, aviones, autos), así como para aliviar las náuseas, los vómitos y los mareos o vértigos. También ayuda con los síntomas de alergias como estornudos y secreción nasal."
+    },
+    {
+      "q": "¿Cuánto tiempo antes de viajar debo tomarlo?",
+      "a": "Para prevenir el mareo, debes tomar la primera dosis entre 30 y 60 minutos antes de comenzar el viaje. Si el viaje es muy largo, puedes repetir la dosis cada 4 a 6 horas según sea necesario, sin exceder la dosis máxima diaria."
+    },
+    {
+      "q": "¿El dimenhidrinato da sueño?",
+      "a": "Sí, la somnolencia es su efecto secundario más común. Por eso es muy importante no manejar, operar maquinaria peligrosa o realizar actividades que requieran estar completamente alerta después de tomarlo."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si estoy usando dimenhidrinato?",
+      "a": "NO. El alcohol aumenta mucho el efecto de sueño y mareo del medicamento, haciendo que sea peligroso realizar cualquier actividad. Además, aumenta el riesgo de sufrir un accidente."
+    },
+    {
+      "q": "¿Los niños pueden tomarlo?",
+      "a": "Sí, pero solo niños mayores de 2 años y con la dosis adecuada a su peso. Para niños menores de 2 años, se debe consultar siempre al médico. Es importante usar el jarabe y el dosificador para dar la cantidad exacta."
+    },
+    {
+      "q": "¿Puedo tomarlo si estoy embarazada?",
+      "a": "Debe usarse solo bajo supervisión médica estricta. No es el medicamento de primera elección para las náuseas del embarazo. Su médico evaluará si los beneficios superan los posibles riesgos, especialmente durante el primer trimestre."
+    },
+    {
+      "q": "¿Qué hago si se me olvidó tomar una dosis antes del viaje y ya me estoy mareando?",
+      "a": "Tome la dosis lo antes posible. Sin embargo, si ya está cerca de la hora de la siguiente dosis, es mejor omitir la que olvidó y continuar con su horario normal. Nunca duplique la dosis para compensar."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre Dramamine y dimenhidrinato genérico?",
+      "a": "Dramamine es una marca comercial muy conocida de dimenhidrinato. El dimenhidrinato genérico contiene el mismo principio activo, por lo que su efecto es el mismo. La diferencia suele estar en el precio y, a veces, en los ingredientes inactivos (como saborizantes)."
+    },
+    {
+      "q": "¿Puedo tomarlo para ayudarme a dormir?",
+      "a": "Aunque puede causar somnolencia, el dimenhidrinato no está específicamente indicado como ayuda para dormir. Existen otros antihistamínicos como la difenhidramina que se comercializan para ese fin. Usarlo para dormir sin supervisión puede llevar a dependencia o efectos adversos."
+    },
+    {
+      "q": "¿Cuántas veces al día lo puedo tomar?",
+      "a": "Generalmente, cada 4 a 6 horas según sea necesario para los síntomas. En adultos, no se deben tomar más de 400 mg en un día (por ejemplo, no más de 8 tabletas de 50 mg). Siga siempre las instrucciones del empaque o de su médico."
+    },
+    {
+      "q": "¿Qué efectos secundarios son señales de alarma para dejar de tomarlo y llamar al médico?",
+      "a": "Deje de tomarlo y busque atención médica si presenta: dificultad para orinar, visión borrosa o dolor en los ojos, latidos cardíacos muy rápidos o irregulares, confusión severa, alucinaciones, convulsiones, o sarpullido o comezón intensa en la piel."
+    },
+    {
+      "q": "¿Interfiere con otros medicamentos que tomo?",
+      "a": "Sí, puede interferir. Es muy importante informar a su médico o farmacéutico si toma: pastillas para dormir, tranquilizantes, medicamentos para la depresión (especialmente IMAOs), medicamentos para la alergia, para el resfriado, o para la incontinencia urinaria. La combinación puede ser peligrosa."
+    },
+    {
+      "q": "¿Puedo tomarlo si tengo glaucoma o problemas de la próstata?",
+      "a": "Si tiene glaucoma de ángulo cerrado o problemas de próstata que le causan dificultad para orinar, el dimenhidrinato puede empeorar estas condiciones. CONSULTE A SU MÉDICO antes de usarlo. Puede estar contraindicado."
+    },
+    {
+      "q": "¿Es seguro para una persona mayor (adulto mayor)?",
+      "a": "Los adultos mayores son más sensibles. Puede causarles confusión, mareo severo, somnolencia excesiva y dificultad para orinar. Si es necesario usarlo, debe ser con la dosis más baja posible y bajo supervisión."
+    },
+    {
+      "q": "¿El dimenhidrinato es lo mismo que la biodramina?",
+      "a": "No. Biodramina es una marca que a veces contiene dimenhidrinato, pero también existen versiones con otros ingredientes como ginger (jengibre). Siempre revise la etiqueta para identificar el principio activo."
+    },
+    {
+      "q": "¿Qué pasa si tomo más de la dosis recomendada (sobredosis)?",
+      "a": "Una sobredosis puede ser grave. Los síntomas incluyen sueño profundo difícil de despertar, alucinaciones, convulsiones, latidos cardíacos irregulares y dificultad para respirar. En caso de sospecha, acuda inmediatamente a urgencias o llame al centro de toxicología."
+    },
+    {
+      "q": "¿Sirve para las náuseas causadas por la quimioterapia?",
+      "a": "Generalmente NO es el medicamento de primera elección para las náuseas por quimioterapia. Existen antieméticos más modernos y efectivos para ese propósito, como el ondansetrón. Su oncólogo le recetará el más adecuado."
+    },
+    {
+      "q": "¿Puedo desarrollar tolerancia (que deje de hacer efecto) si lo uso mucho?",
+      "a": "No se ha reportado claramente tolerancia al efecto antiemético. Sin embargo, el uso crónico no está recomendado. Si necesita usarlo frecuentemente para mareos o náuseas, debe consultar a un médico para investigar la causa de fondo."
+    },
+    {
+      "q": "¿El dimenhidrinato afecta los resultados de pruebas de laboratorio?",
+      "a": "En raras ocasiones, puede causar disminución en los glóbulos blancos o plaquetas, lo que se vería en un conteo sanguíneo completo. Informe a su médico que toma este medicamento si le van a hacer análisis de sangre."
+    },
+    {
+      "q": "Desde el punto de vista farmacológico, ¿por qué es más efectivo para el mareo por movimiento que para otros tipos de vómito?",
+      "a": "Porque su mecanismo de acción principal es bloquear los receptores de histamina y colinérgicos en el núcleo vestibular (oído interno) y el cerebelo, áreas clave en la generación de la cinetosis. Para vómitos de origen central (ej. quimioterapia) o gastrointestinal, otras vías (como la de la serotonina) son más importantes, por lo que antagonistas de 5-HT3 son más efectivos."
+    }
+  ]
+}

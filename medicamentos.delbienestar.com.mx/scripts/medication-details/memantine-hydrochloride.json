@@ -1,0 +1,416 @@
+{
+  "name": "Clorhidrato de Memantina",
+  "summary": "El clorhidrato de memantina es un medicamento recetado que se utiliza principalmente para tratar los síntomas de moderados a graves de la enfermedad de Alzheimer, la forma más común de demencia. Actúa regulando la actividad del glutamato, un químico del cerebro que, en exceso, puede dañar las células nerviosas y empeorar los problemas de memoria y pensamiento. Su importancia clínica radica en que puede ayudar a retrasar la progresión de los síntomas, mejorando temporalmente la capacidad del paciente para realizar actividades diarias, mantener la independencia por más tiempo y reducir la carga para los cuidadores, aunque no cura la enfermedad subyacente. Es un pilar del tratamiento sintomático junto con medidas no farmacológicas.",
+  "pharmacology": {
+    "mechanismOfAction": "La memantina es un antagonista no competitivo de los receptores de N-metil-D-aspartato (NMDA) en el cerebro. En condiciones normales, el glutamato, un neurotransmisor excitador, se une a estos receptores para facilitar el aprendizaje y la memoria. En la enfermedad de Alzheimer, hay una liberación excesiva de glutamato, lo que provoca una activación constante de los receptores NMDA, permitiendo una entrada excesiva de calcio a las neuronas. Este fenómeno, llamado excitotoxicidad, conduce al daño y muerte de las células nerviosas. La memantina bloquea de forma moderada estos receptores, reduciendo la entrada de calcio y protegiendo a las neuronas del daño excitotóxico, lo que puede ayudar a estabilizar la función cognitiva.",
+    "pharmacologicClass": "Antagonista del receptor de N-metil-D-aspartato (NMDA). Derivado de la adamantana.",
+    "therapeuticClass": "Agente antidemencia. Fármaco para el tratamiento de los síntomas de la enfermedad de Alzheimer.",
+    "absorption": "Se absorbe bien por vía oral. La absorción es completa y no se ve afectada por los alimentos. La biodisponibilidad oral es cercana al 100%. El tiempo para alcanzar la concentración máxima (Tmax) es de aproximadamente 3 a 8 horas.",
+    "distribution": "Se distribuye ampliamente en los tejidos. El volumen de distribución es grande (aproximadamente 9-11 L/kg). Se une a las proteínas plasmáticas en un grado moderado, alrededor del 45%.",
+    "metabolism": "El metabolismo hepático es limitado. Se metaboliza mínimamente a través del sistema del citocromo P450, principalmente por las isoenzimas CYP2B6 y CYP3A4, en metabolitos inactivos (N-glucurónidos y derivados hidroxilados). La mayor parte del fármaco se excreta sin cambios.",
+    "elimination": "La vida media de eliminación es larga, aproximadamente de 60 a 80 horas. Se elimina principalmente por vía renal. Alrededor del 75-90% de la dosis se excreta sin cambios en la orina, principalmente por filtración glomerular y secreción tubular activa. El resto se excreta en las heces.",
+    "onsetOfAction": "El inicio de la acción terapéutica puede observarse después de varias semanas de tratamiento continuo, típicamente entre 4 a 12 semanas. La mejoría es gradual.",
+    "durationOfAction": "Los efectos duran mientras se mantenga la administración diaria. No tiene un efecto de 'rebote' inmediato al suspenderlo, pero los síntomas pueden progresar a su ritmo natural de la enfermedad."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento de la enfermedad de Alzheimer de moderada a grave",
+      "Tratamiento de la demencia de tipo Alzheimer de moderada a grave"
+    ],
+    "offLabel": [
+      "Demencia vascular (en combinación o monoterapia)",
+      "Demencia mixta (Alzheimer y vascular)",
+      "Deterioro cognitivo leve (investigacional, no estándar)",
+      "Trastorno del espectro autista (en ciertos casos, para síntomas de irritabilidad)",
+      "Síndrome de Tourette (para control de tics)"
+    ]
+  },
+  "dosage": {
+    "adults": "Inicio: 5 mg una vez al día. Titulación: Aumentar en incrementos de 5 mg semanales. Dosis objetivo: 10 mg dos veces al día (20 mg/día). Esquema común: Semana 1: 5 mg/día. Semana 2: 5 mg dos veces al día (10 mg/día). Semana 3: 10 mg por la mañana y 5 mg por la noche (15 mg/día). Semana 4 y mantenimiento: 10 mg dos veces al día (20 mg/día).",
+    "pediatric": "No está aprobado para uso pediátrico en demencias. En usos off-label (ej. autismo), la dosis se calcula por peso y debe ser determinada por un especialista.",
+    "elderly": "No se requieren ajustes de dosis basados únicamente en la edad, pero se debe considerar la función renal. Se inicia con dosis bajas y se titula lentamente para mejorar la tolerancia.",
+    "renalImpairment": "TFG >60 mL/min: No se requiere ajuste. TFG 30-60 mL/min: Dosis máxima recomendada de 10 mg/día (5 mg dos veces al día). TFG <30 mL/min: Uso no recomendado (contraindicado en insuficiencia renal grave).",
+    "hepaticImpairment": "En insuficiencia hepática leve a moderada (Child-Pugh A y B), no se requieren ajustes significativos. En insuficiencia hepática grave (Child-Pugh C), usar con precaución, considerando iniciar con 5 mg/día y monitorear.",
+    "maxDose": "20 mg por día (10 mg dos veces al día)."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "5 mg",
+        "10 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tableta de liberación prolongada",
+      "strengths": [
+        "7 mg",
+        "14 mg",
+        "21 mg",
+        "28 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Solución oral",
+      "strengths": [
+        "2 mg/mL"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la memantina o a cualquier excipiente",
+      "Insuficiencia renal grave (tasa de filtración glomerular <30 mL/min)"
+    ],
+    "relative": [
+      "Epilepsia o antecedentes de convulsiones",
+      "Infecciones urinarias recurrentes (por riesgo de empeorar síntomas)",
+      "Infarto de miocardio reciente",
+      "Arritmias cardíacas no controladas",
+      "Alcalinización de la orina (puede reducir la eliminación)"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Mareo",
+      "Dolor de cabeza (cefalea)",
+      "Estreñimiento"
+    ],
+    "common": [
+      "Somnolencia",
+      "Confusión",
+      "Alucinaciones",
+      "Hipertensión arterial",
+      "Falta de aire (disnea)",
+      "Vómitos",
+      "Infecciones del tracto urinario",
+      "Dolor de espalda",
+      "Fatiga"
+    ],
+    "uncommon": [
+      "Coagulación anormal",
+      "Insuficiencia cardiaca",
+      "Accidentes cerebrovasculares",
+      "Convulsiones",
+      "Pancreatitis",
+      "Hepatitis",
+      "Reacciones alérgicas (rash, prurito)"
+    ],
+    "rare": [
+      "Síndrome neuroléptico maligno",
+      "Leucopenia (bajada de glóbulos blancos)",
+      "Trombocitopenia (bajada de plaquetas)"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Amantadina",
+        "effect": "Ambos son antagonistas del NMDA. Aumenta el riesgo de efectos adversos psiquiátricos y neurológicos (alucinaciones, psicosis).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Ketamina, Dextrometorfano",
+        "effect": "Interacción farmacodinámica. Aumenta el riesgo de efectos psicotomiméticos y neurotóxicos.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Quinidina, Ranitidina, Cimetidina, Hidroclorotiazida",
+        "effect": "Pueden reducir la eliminación renal de memantina, aumentando sus niveles en sangre y el riesgo de efectos adversos.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Fármacos que alcalinizan la orina (Acetazolamide, Bicarbonato de sodio)",
+        "effect": "Disminuyen la excreción renal de memantina, aumentando sus niveles en sangre.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Puede tomarse con o sin alimentos. Los alimentos no afectan significativamente su absorción. Se debe evitar o limitar el consumo de alcohol, ya que puede potenciar los efectos depresores del sistema nervioso central (mareos, somnolencia, confusión).",
+    "withSupplements": "Precaución con suplementos que contengan alcalinizantes urinarios (como bicarbonato). Los suplementos de hierbas con efectos sedantes (valeriana, kava, melatonina en dosis altas) pueden potenciar la somnolencia."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA B",
+      "recommendation": "No hay estudios adecuados en mujeres embarazadas. Solo debe usarse durante el embarazo si el beneficio potencial justifica claramente el riesgo potencial para el feto. No está indicado para una población en edad fértil típica.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se desconoce si la memantina se excreta en la leche humana. Debido al potencial de efectos adversos graves en el lactante, se recomienda suspender la lactancia materna o no utilizar el fármaco, considerando la importancia del medicamento para la madre.",
+    "pediatric": "La seguridad y eficacia en pacientes pediátricos no han sido establecidas para el tratamiento de la demencia. No está aprobado para su uso en niños. Su uso en trastornos del neurodesarrollo es off-label y debe ser manejado por un psiquiatra o neurólogo pediatra experto.",
+    "geriatric": "Es la población principal de uso. Se debe iniciar con dosis bajas y titular lentamente para minimizar mareos y confusión. Monitorear estrechamente la función renal, que suele estar disminuida. Evaluar interacciones con la polifarmacia común en este grupo."
+  },
+  "administration": {
+    "howToTake": "Tomar por vía oral, generalmente dos veces al día (mañana y noche) para la formulación de liberación inmediata. Las tabletas de liberación prolongada se toman una vez al día, preferentemente a la misma hora. Tragar la tableta entera con un vaso de agua; no partir, masticar o triturar. Puede tomarse con alimentos si causa malestar estomacal. Para la solución oral, usar el dosificador proporcionado.",
+    "storage": "Conservar a temperatura ambiente (15-30°C), en un lugar seco y fuera del alcance de la luz directa. Mantener el frasco bien cerrado. No congelar.",
+    "specialInstructions": "No suspender el medicamento abruptamente sin consultar al médico. La mejoría es gradual. Es importante mantener un horario regular de administración. Informar al médico si el paciente tiene dificultad para tragar. Para pacientes con problemas de deglución, consultar sobre la disponibilidad de la formulación líquida."
+  },
+  "monitoring": {
+    "labTests": [
+      "Función renal (creatinina sérica, TFG calculada)",
+      "Análisis de orina (por riesgo de infecciones urinarias)",
+      "Pruebas de función hepática (en casos seleccionados)",
+      "Hemograma completo (en raros casos de alteraciones hematológicas)"
+    ],
+    "frequency": "Función renal: Al inicio y al menos cada 6-12 meses, o más frecuente si hay deterioro. Evaluación clínica (cognición, funcionalidad, efectos adversos): Cada 3-6 meses.",
+    "signsToWatch": [
+      "Aumento de la confusión, agitación o alucinaciones",
+      "Mareo intenso o caídas frecuentes",
+      "Dificultad para orinar o dolor al orinar",
+      "Convulsiones",
+      "Hinchazón de piernas o falta de aire",
+      "Erupción cutánea o signos de alergia"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Somnolencia extrema",
+      "Estupor (disminución del nivel de conciencia)",
+      "Alucinaciones",
+      "Comportamiento psicótico",
+      "Pérdida del equilibrio",
+      "Vómitos",
+      "Debilidad muscular",
+      "Diarrea",
+      "En casos graves: coma, convulsiones, bradicardia (ritmo cardíaco lento)"
+    ],
+    "treatment": "No hay antídoto específico. El tratamiento es de soporte: Medidas generales (lavado gástrico si la ingestión es reciente, carbón activado). Monitoreo de signos vitales y función cardíaca. Soporte respiratorio si es necesario. Control de convulsiones. La diálisis es de utilidad limitada debido al gran volumen de distribución, pero puede considerarse en casos graves.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Rx)",
+    "scheduleMexico": "Medicamento de patente (no incluido en cuadro básico, requiere receta médica especializada o de consultorio)",
+    "fdaApprovalYear": "2003 (para la enfermedad de Alzheimer de moderada a grave)"
+  },
+  "brandsMexico": [
+    "Ebixa",
+    "Memantin",
+    "Mentix",
+    "Axura",
+    "Memanor",
+    "Memantal",
+    "Memantina Genfar",
+    "Memantina MK",
+    "Memantina PiSA",
+    "Memantina Rimsa",
+    "Memantina Starmed",
+    "Memantina Valdecasas",
+    "Nemdatine"
+  ],
+  "clinicalPearls": [
+    "La memantina es más efectiva para los síntomas conductuales y psicológicos de la demencia (como la agitación y la agresión) que para la pérdida de memoria pura, donde su efecto es modesto pero significativo.",
+    "Puede usarse en combinación con un inhibidor de la colinesterasa (como donepezilo) en demencia moderada a grave, mostrando un beneficio aditivo en la función cognitiva y global.",
+    "Un efecto adverso paradójico es que puede causar o empeorar la confusión al inicio del tratamiento; por ello, la titulación lenta de la dosis es crucial para la tolerabilidad."
+  ],
+  "patientCounseling": "Este medicamento ayuda a controlar los síntomas de la enfermedad de Alzheimer, pero no la cura. Es muy importante tomarlo todos los días, a la misma hora, para que funcione bien. Al principio puede causar mareos o somnolencia, por lo que debe tener cuidado al levantarse o caminar. Estos efectos suelen mejorar con el tiempo. No deje de tomarlo sin hablar con su médico, aunque note mejoría. Informe a su médico sobre todos los demás medicamentos, vitaminas o hierbas que esté tomando. Mantenga un calendario o pastillero para no olvidar las dosis. Asista a todas sus citas médicas para evaluar la respuesta al tratamiento. Cuide su hidratación y dieta para evitar el estreñimiento. Si el paciente a cargo se cae, se muestra muy confundido, tiene alucinaciones o dificultad para orinar, contacte a su médico de inmediato.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Pérdida de memoria",
+        "slug": "perdida-de-memoria"
+      },
+      {
+        "name": "Confusión y desorientación",
+        "slug": "confusion-y-desorientacion"
+      },
+      {
+        "name": "Dificultad para realizar tareas diarias",
+        "slug": "dificultad-para-realizar-tareas-diarias"
+      },
+      {
+        "name": "Agitación y agresión",
+        "slug": "agitacion-y-agresion"
+      },
+      {
+        "name": "Alucinaciones",
+        "slug": "alucinaciones"
+      },
+      {
+        "name": "Apatía y falta de iniciativa",
+        "slug": "apatia-y-falta-de-iniciativa"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Enfermedad de Alzheimer",
+        "slug": "enfermedad-de-alzheimer"
+      },
+      {
+        "name": "Demencia de tipo Alzheimer",
+        "slug": "demencia-de-tipo-alzheimer"
+      },
+      {
+        "name": "Demencia vascular",
+        "slug": "demencia-vascular"
+      },
+      {
+        "name": "Demencia mixta",
+        "slug": "demencia-mixta"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Infección del tracto urinario",
+        "slug": "infeccion-del-tracto-urinario"
+      },
+      {
+        "name": "Neumonía por aspiración",
+        "slug": "neumonia-por-aspiracion"
+      },
+      {
+        "name": "Accidentes por caídas",
+        "slug": "accidentes-por-caidas"
+      },
+      {
+        "name": "Insuficiencia cardiaca",
+        "slug": "insuficiencia-cardiaca"
+      },
+      {
+        "name": "Accidente cerebrovascular",
+        "slug": "accidente-cerebrovascular"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar (monitorear función renal)"
+      },
+      {
+        "name": "Conteo de leucocitos",
+        "slug": "conteo-de-leucocitos",
+        "effect": "Puede disminuir (raro)"
+      },
+      {
+        "name": "Plaquetas",
+        "slug": "plaquetas",
+        "effect": "Puede disminuir (raro)"
+      },
+      {
+        "name": "Enzimas hepáticas (ALT, AST)",
+        "slug": "enzimas-hepaticas-alt-ast",
+        "effect": "Puede elevar (raro)"
+      },
+      {
+        "name": "pH urinario",
+        "slug": "ph-urinario",
+        "effect": "Puede alterar su efecto (alcalinización reduce excreción)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Creatinina sérica y cálculo de TFG",
+        "slug": "creatinina-serica-calculo-tfg",
+        "reason": "Para ajustar la dosis y evitar toxicidad por acumulación en insuficiencia renal."
+      },
+      {
+        "name": "Examen general de orina",
+        "slug": "examen-general-de-orina",
+        "reason": "Para detectar infecciones urinarias, un efecto adverso común que puede empeorar la confusión."
+      },
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-de-funcion-hepatica",
+        "reason": "Para monitorear un posible efecto hepatotóxico raro."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de TFG (aclaramiento de creatinina)",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de IMC",
+        "slug": "calculadora-imc"
+      },
+      {
+        "name": "Calculadora de edad vascular",
+        "slug": "calculadora-edad-vascular"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve la memantina?",
+      "a": "Sirve para tratar los síntomas de moderados a graves de la enfermedad de Alzheimer y otros tipos de demencia. Ayuda a retrasar el empeoramiento de problemas como la pérdida de memoria, la confusión y la dificultad para realizar actividades diarias, mejorando la calidad de vida del paciente y del cuidador."
+    },
+    {
+      "q": "¿La memantina cura el Alzheimer?",
+      "a": "No, la memantina no cura el Alzheimer. Es un tratamiento sintomático que ayuda a controlar y retrasar la progresión de los síntomas por un tiempo, pero no detiene ni revierte el daño cerebral subyacente de la enfermedad."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto la memantina?",
+      "a": "Los efectos pueden empezar a notarse después de varias semanas de tratamiento continuo, generalmente entre 4 y 12 semanas. La mejoría es gradual, por lo que es importante tener paciencia y no suspender el medicamento."
+    },
+    {
+      "q": "¿La memantina causa sueño o mareos?",
+      "a": "Sí, el mareo y la somnolencia son efectos secundarios comunes, especialmente al inicio del tratamiento o cuando se aumenta la dosis. Por eso se recomienda titulación lenta y tener precaución al realizar actividades que requieran alerta, como conducir."
+    },
+    {
+      "q": "¿Puedo tomar memantina si tomo donepezilo (Aricept)?",
+      "a": "Sí, es común y a menudo beneficioso combinar memantina con un inhibidor de la colinesterasa como donepezilo, especialmente en etapas moderadas a graves del Alzheimer. Esta combinación puede ofrecer un mejor control de los síntomas. Siempre bajo supervisión médica."
+    },
+    {
+      "q": "¿Qué pasa si olvido una dosis de memantina?",
+      "a": "Si olvida una dosis, tómela tan pronto como lo recuerde, a menos que ya sea casi la hora de la siguiente dosis. En ese caso, omita la dosis olvidada y continúe con su horario normal. Nunca duplique la dosis para compensar la olvidada."
+    },
+    {
+      "q": "¿La memantina se puede partir o triturar?",
+      "a": "Las tabletas regulares pueden partirse por la línea de división si está indicado. Las tabletas de liberación prolongada NO deben partirse, triturarse o masticarse, ya que se altera su mecanismo de liberación. Para pacientes con dificultad para tragar, existe una formulación en solución oral."
+    },
+    {
+      "q": "¿Con o sin alimentos? ¿A qué hora del día se toma?",
+      "a": "Puede tomarse con o sin alimentos. Para minimizar mareos, algunas personas prefieren tomarla con comida. La formulación de dos veces al día suele tomarse por la mañana y por la noche. La de liberación prolongada se toma una vez al día, preferentemente a la misma hora."
+    },
+    {
+      "q": "¿La memantina causa aumento de peso?",
+      "a": "El aumento de peso no es un efecto secundario comúnmente reportado con memantina. Los efectos gastrointestinales más frecuentes son estreñimiento, náuseas y vómitos."
+    },
+    {
+      "q": "¿Puedo beber alcohol mientras tomo memantina?",
+      "a": "No se recomienda. El alcohol puede aumentar los efectos secundarios de la memantina, como mareos, somnolencia y confusión, incrementando el riesgo de caídas y accidentes."
+    },
+    {
+      "q": "¿Qué hago si los síntomas empeoran con la memantina?",
+      "a": "Contacte a su médico inmediatamente. Un empeoramiento inicial de la confusión o la aparición de alucinaciones puede ocurrir y a veces requiere un ajuste en la dosis o en el esquema de titulación. No suspenda el medicamento por su cuenta."
+    },
+    {
+      "q": "¿La memantina es lo mismo que los medicamentos para la memoria como el donepezilo?",
+      "a": "No, son clases diferentes. Los como donepezilo (inhibidores de colinesterasa) aumentan la acetilcolina. La memantina regula el glutamato. Actúan en diferentes sistemas del cerebro y a menudo se usan juntos para un efecto complementario."
+    },
+    {
+      "q": "¿Cuáles son los efectos secundarios más graves de la memantina?",
+      "a": "Los más graves, aunque poco comunes, incluyen: reacciones alérgicas severas, convulsiones, síntomas de ataque cardíaco o derrame cerebral (dolor de pecho, falta de aire, debilidad en un lado), y síndrome neuroléptico maligno (fiebre alta, rigidez muscular, confusión). Busque atención médica urgente si presenta alguno."
+    },
+    {
+      "q": "¿Por qué mi médico me pide exámenes de la función del riñón antes de recetar memantina?",
+      "a": "Porque la memantina se elimina principalmente por los riñones. Si estos no funcionan bien, el medicamento puede acumularse en el cuerpo y causar más efectos secundarios. Conocer la función renal permite al médico ajustar la dosis de manera segura."
+    },
+    {
+      "q": "¿Se puede usar memantina para la demencia vascular?",
+      "a": "Sí, aunque su aprobación principal es para el Alzheimer, se usa frecuentemente de manera 'off-label' (fuera de indicación) para la demencia vascular y la demencia mixta, mostrando beneficios en algunos pacientes. Esto debe ser decidido por un neurólogo o geriatra."
+    },
+    {
+      "q": "¿Qué pasa si tomo una sobredosis de memantina?",
+      "a": "Puede causar somnolencia extrema, estupor, alucinaciones, psicosis, debilidad y, en casos graves, coma o convulsiones. Es una emergencia médica. Llame al centro de toxicología (01-800-00-54600 en México) o acuda inmediatamente a un hospital. Lleve el frasco del medicamento."
+    },
+    {
+      "q": "¿La memantina interactúa con medicamentos para la presión alta o el corazón?",
+      "a": "Puede interactuar con algunos. Por ejemplo, la hidroclorotiazida (un diurético) puede aumentar los niveles de memantina. También puede causar hipertensión como efecto adverso. Es crucial informar a su médico sobre TODOS sus medicamentos para revisar interacciones."
+    },
+    {
+      "q": "¿La memantina pierde efecto con el tiempo? ¿Hay que aumentar la dosis?",
+      "a": "La memantina no 'pierde efecto' como tal, pero la enfermedad de Alzheimer es progresiva. Con el tiempo, los síntomas pueden seguir avanzando a pesar del tratamiento. La dosis máxima es 20 mg/día; no se aumenta más allá de eso. Si hay un empeoramiento significativo, se debe reevaluar el diagnóstico y el plan de tratamiento integral."
+    },
+    {
+      "q": "¿Puede un paciente con Alzheimer leve tomar memantina?",
+      "a": "Las guías clínicas actuales recomiendan iniciar memantina en la etapa moderada a grave del Alzheimer. Para la etapa leve, el tratamiento de primera línea son los inhibidores de la colinesterasa (como donepezilo). El uso en leve es off-label y la evidencia de beneficio es limitada."
+    },
+    {
+      "q": "¿Cómo se decide suspender la memantina en un paciente con Alzheimer avanzado?",
+      "a": "La decisión de suspender se toma en conjunto con la familia y el médico, considerando la relación beneficio-riesgo. En etapas muy avanzadas, cuando el paciente ya no puede tragar, tiene múltiples comorbilidades graves, o la calidad de vida es muy pobre sin mejoría apreciable con el fármaco, puede considerarse su retiro. La suspensión debe ser gradual y monitorizada."
+    }
+  ]
+}

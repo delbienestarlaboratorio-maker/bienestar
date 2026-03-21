@@ -1,0 +1,427 @@
+{
+  "name": "Ginkgo Biloba",
+  "summary": "El Ginkgo Biloba es un extracto estandarizado derivado de las hojas del árbol Ginkgo biloba, considerado un medicamento fitoterapéutico. En México, se utiliza principalmente para mejorar los síntomas cognitivos asociados a demencias leves a moderadas, como la enfermedad de Alzheimer, debido a sus efectos sobre la circulación cerebral y la protección neuronal. Su importancia clínica radica en que puede ofrecer una opción de tratamiento complementario para síntomas como pérdida de memoria, confusión y dificultad para concentrarse, aunque no cura la enfermedad de base. Es fundamental entender que sus efectos son modestos y que debe usarse bajo supervisión médica, ya que interactúa con muchos medicamentos convencionales. Su popularidad como 'suplemento para la memoria' requiere que los pacientes estén bien informados sobre sus beneficios reales, limitaciones y riesgos potenciales, especialmente en una población que envejece y busca alternativas para mantener la función cerebral.",
+  "pharmacology": {
+    "mechanismOfAction": "El mecanismo de acción del Ginkgo Biloba es complejo y multifactorial. Sus principales componentes activos, los ginkgólidos y bilobálidos, actúan como antagonistas del factor activador de plaquetas (PAF), lo que reduce la agregación plaquetaria y mejora la microcirculación, especialmente a nivel cerebral. Además, posee potentes propiedades antioxidantes que neutralizan radicales libres, protegiendo a las neuronas del daño oxidativo. Modula la neurotransmisión colinérgica y monoaminérgica, lo que puede explicar sus efectos sobre la memoria y el estado de ánimo. También ejerce efectos neuroprotectores, inhibiendo la apoptosis (muerte celular programada) neuronal y reduciendo la neuroinflamación. Mejora la utilización de glucosa y oxígeno en el cerebro, y puede influir en la plasticidad sináptica, facilitando las conexiones entre neuronas.",
+    "pharmacologicClass": "Extracto estandarizado de hojas de Ginkgo biloba. Contiene flavonoides (ginkgo-flavon glicósidos) y terpenoides (ginkgólidos A, B, C, J y bilobálido).",
+    "therapeuticClass": "Agente neuroprotector, vasorregulador cerebral, nootrópico (potenciador cognitivo), antioxidante.",
+    "absorption": "Los componentes del extracto de Ginkgo Biloba se absorben bien por vía oral. Los flavonoides alcanzan su concentración máxima en plasma (Cmax) aproximadamente entre 1.5 y 3 horas después de la administración. La presencia de alimentos puede retrasar ligeramente la absorción pero no afecta significativamente su biodisponibilidad total.",
+    "distribution": "Los componentes activos se distribuyen ampliamente por los tejidos. Los flavonoides tienen una alta unión a proteínas plasmáticas. El volumen de distribución (Vd) es grande, indicando una amplia distribución en los tejidos, incluyendo el sistema nervioso central, donde se concentra. Los ginkgólidos y bilobálidos cruzan la barrera hematoencefálica, lo que permite su acción directa en el cerebro.",
+    "metabolism": "El metabolismo es principalmente hepático, a través del sistema del citocromo P450. Los flavonoides son metabolizados extensamente por enzimas como CYP2C9, CYP2C19, CYP1A2 y CYP3A4, dando lugar a diversos metabolitos. Los ginkgólidos también son metabolizados, principalmente por CYP3A4. Esta vía metabólica es la base de muchas de sus interacciones farmacológicas importantes.",
+    "elimination": "La vida media de eliminación de los flavonoides es de aproximadamente 4 a 10 horas. Los metabolitos se eliminan principalmente por vía renal (alrededor del 60-70%) en la orina, y el resto a través de las heces vía bilis. La eliminación de los terpenoides (ginkgólidos) es más lenta, con una vida media que puede extenderse.",
+    "onsetOfAction": "Los efectos subjetivos sobre la claridad mental o la reducción de síntomas como el vértigo pueden notarse en unas pocas semanas (4 a 6 semanas). Sin embargo, para observar mejorías objetivas y sostenidas en la función cognitiva en pacientes con demencia, el tratamiento debe mantenerse durante al menos 12 a 24 semanas.",
+    "durationOfAction": "Los efectos no son inmediatos ni de corta duración; requieren administración continua. Al suspender el tratamiento, los beneficios cognitivos pueden desaparecer gradualmente en el transcurso de varias semanas. No tiene un efecto acumulativo permanente."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento sintomático de demencias degenerativas primarias (como la enfermedad de Alzheimer) y demencias vasculares de grado leve a moderado",
+      "Mejora de síntomas cognitivos asociados a la edad como pérdida de memoria, dificultad para concentrarse y confusión mental",
+      "Tratamiento coadyuvante de trastornos de rendimiento cerebral de origen vascular (como insuficiencia cerebrovascular)"
+    ],
+    "offLabel": [
+      "Mejora de síntomas de claudicación intermitente (dolor en piernas al caminar por mala circulación)",
+      "Vértigo y tinnitus (zumbido en los oídos) de origen vascular",
+      "Síndrome premenstrual",
+      "Ansiedad leve",
+      "Mejora de síntomas en glaucoma de tensión normal",
+      "Disfunción sexual inducida por antidepresivos ISRS",
+      "Prevención del mal de montaña (mal de altura)"
+    ]
+  },
+  "dosage": {
+    "adults": "Para indicaciones cognitivas y demencias: 120 mg a 240 mg al día, divididos en 2 o 3 dosis (ej. 40-80 mg tres veces al día o 120 mg dos veces al día). La dosis más estudiada y común es 120 mg dos veces al día o 240 mg una vez al día en formulaciones de liberación sostenida. Para otros usos (vértigo, tinnitus): 120-160 mg al día divididos.",
+    "pediatric": "No se recomienda su uso en niños y adolescentes menores de 18 años por falta de estudios de seguridad y eficacia. No existe una dosis pediátrica establecida.",
+    "elderly": "No suele requerir ajuste inicial en adultos mayores con función renal y hepática normal. Sin embargo, se debe iniciar con la dosis más baja efectiva (ej. 120 mg/día) y monitorizar cuidadosamente por mayor riesgo de interacciones y efectos adversos.",
+    "renalImpairment": "No se requieren ajustes de dosis específicos en insuficiencia renal leve a moderada (TFG ≥30 mL/min). En insuficiencia renal severa (TFG <30 mL/min) o en diálisis, se recomienda precaución debido a la eliminación renal de metabolitos; considerar reducir la dosis o evitar su uso por falta de datos.",
+    "hepaticImpairment": "Precaución en pacientes con insuficiencia hepática. Dado su metabolismo hepático extenso, puede haber acumulación de principios activos. Se recomienda evitar su uso en insuficiencia hepática moderada a severa, o iniciar con dosis muy bajas bajo estricta supervisión médica.",
+    "maxDose": "La dosis máxima diaria generalmente no debe exceder los 240 mg para el extracto estandarizado (EGb 761). Dosis más altas no han demostrado mayor eficacia y aumentan el riesgo de efectos adversos, especialmente sangrado."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta o cápsula",
+      "strengths": [
+        "40 mg",
+        "60 mg",
+        "80 mg",
+        "120 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tableta de liberación sostenida",
+      "strengths": [
+        "120 mg",
+        "240 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Solución oral (gotas)",
+      "strengths": [
+        "Extracto fluido"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al Ginkgo biloba o a cualquier componente de la formulación",
+      "Pacientes con trastornos hemorrágicos activos o diátesis hemorrágica (tendencia anormal a sangrar)",
+      "Epilepsia no controlada (puede reducir el umbral convulsivo)",
+      "Embarazo (por riesgo teórico de sangrado y falta de datos)"
+    ],
+    "relative": [
+      "Cirugía programada (suspender al menos 2 semanas antes por riesgo de sangrado)",
+      "Uso concomitante de anticoagulantes potentes (warfarina, heparina) o antiagregantes plaquetarios (clopidogrel, aspirina)",
+      "Insuficiencia hepática o renal severa",
+      "Historial de úlcera péptica activa",
+      "Lactancia materna"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Dolor de cabeza leve",
+      "Malestar estomacal o dispepsia"
+    ],
+    "common": [
+      "Mareo o vértigo",
+      "Palpitaciones o taquicardia",
+      "Náuseas",
+      "Diarrea o estreñimiento",
+      "Reacciones alérgicas cutáneas leves (erupción, prurito)"
+    ],
+    "uncommon": [
+      "Sangrado anormal (sangrado nasal, encías, moretones fáciles)",
+      "Hipotensión o hipertensión",
+      "Vómitos",
+      "Inquietud o agitación",
+      "Dificultad para dormir (insomnio)"
+    ],
+    "rare": [
+      "Convulsiones (especialmente en pacientes con predisposición)",
+      "Sangrado intracerebral o hemorragia subaracnoidea",
+      "Reacciones alérgicas severas (anafilaxia)",
+      "Hepatotoxicidad (daño hepático)"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Warfarina (Coumadin) y otros anticoagulantes (acenocumarol)",
+        "effect": "El Ginkgo puede potenciar el efecto anticoagulante, aumentando significativamente el riesgo de sangrado (hematomas, hemorragias).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Aspirina (ácido acetilsalicílico), Clopidogrel, Ticlopidina",
+        "effect": "Aumenta el efecto antiagregante plaquetario, elevando el riesgo de sangrado.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Anticonvulsivantes (Fenitoína, Carbamazepina, Ácido Valproico)",
+        "effect": "El Ginkgo puede reducir el umbral convulsivo y alterar los niveles plasmáticos de estos fármacos, aumentando el riesgo de convulsiones o reduciendo su eficacia.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inhibidores de la bomba de protones (Omeprazol, Esomeprazol)",
+        "effect": "Puede disminuir la eficacia del omeprazol al alterar su metabolismo.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Antidepresivos ISRS (Fluoxetina, Sertralina, Paroxetina)",
+        "effect": "Riesgo de síndrome serotoninérgico (agitación, confusión, taquicardia) y aumento del riesgo de sangrado.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Nifedipina y otros bloqueadores de canales de calcio",
+        "effect": "Puede potenciar el efecto hipotensor, causando mareo o presión arterial baja excesiva.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Trazodona",
+        "effect": "Reportes de casos de coma en combinación con Ginkgo.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "Puede tomarse con o sin alimentos. Tomarlo con comida puede reducir la posibilidad de malestar estomacal. Se debe evitar el consumo excesivo de alcohol, ya que puede potenciar efectos secundarios como mareo y aumentar el riesgo de hepatotoxicidad.",
+    "withSupplements": "Evitar combinarlo con otros suplementos con efectos anticoagulantes o antiagregantes: Ajo, Ginseng, Cúrcuma (Curcumina), Sauce blanco, Vitamina E en dosis altas, Aceite de pescado (Omega-3). Evitar combinarlo con Hierba de San Juan (Hypericum), ya que ambos son metabolizados por CYP y pueden interactuar."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "No asignada por FDA (considerada como suplemento). Generalmente clasificado como 'No recomendado' o categoría C por riesgo teórico.",
+      "recommendation": "NO se recomienda su uso durante el embarazo. Existe riesgo teórico de sangrado y alteraciones uterinas debido a sus efectos sobre la circulación y la agregación plaquetaria. No hay estudios adecuados en mujeres embarazadas.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "No se recomienda durante la lactancia materna. No se sabe si los componentes activos del Ginkgo se excretan en la leche humana. Dado el riesgo potencial para el lactante (efectos anticoagulantes, alergénicos), se debe evitar o suspender la lactancia si el tratamiento es indispensable.",
+    "pediatric": "No está indicado para uso en niños o adolescentes. No existen estudios que respalden su seguridad o eficacia en esta población. Su uso en niños con TDAH o problemas de aprendizaje no está comprobado y puede ser riesgoso.",
+    "geriatric": "Es la población principal de uso. Se debe tener especial precaución por la mayor prevalencia de polifarmacia, que aumenta el riesgo de interacciones (especialmente con anticoagulantes, antihipertensivos, antidiabéticos). Monitorizar signos de sangrado y función renal/hepática. Iniciar con dosis bajas."
+  },
+  "administration": {
+    "howToTake": "Tomar las tabletas o cápsulas con un vaso lleno de agua. Puede tomarse con las comidas para minimizar molestias gastrointestinales. Para la formulación de liberación sostenida (una vez al día), tomarla preferentemente por la mañana. No triturar, masticar o abrir las cápsulas de liberación sostenida. Si usa la solución en gotas, medir la dosis con el cuentagotas proporcionado y mezclar con un poco de agua o jugo.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (entre 15°C y 25°C), en un lugar seco y protegido de la luz directa. No refrigerar. Mantener fuera del alcance de los niños.",
+    "specialInstructions": "La consistencia es clave: tomar la dosis a la misma hora cada día para mantener niveles estables. Los efectos cognitivos pueden tardar varias semanas en ser notorios; no aumentar la dosis por cuenta propia si no ve resultados inmediatos. Informar a todos sus médicos y al dentista que está tomando Ginkgo Biloba, especialmente si se programa una cirugía o extracción dental."
+  },
+  "monitoring": {
+    "labTests": [
+      "Tiempo de Protrombina (TP) / INR (si está con warfarina)",
+      "Recuento plaquetario (en casos de sospecha de sangrado)",
+      "Pruebas de función hepática (ALT, AST, bilirrubina) periódicas",
+      "Pruebas de función renal (creatinina, BUN)"
+    ],
+    "frequency": "No se requiere monitoreo de laboratorio rutinario para pacientes sanos. En pacientes con condiciones de base (hepática, renal) o en terapia anticoagulante, el monitoreo debe ser según la condición primaria (ej. INR mensual si está con warfarina). Evaluar función hepática cada 6-12 meses en uso crónico.",
+    "signsToWatch": [
+      "Aparición de moretones inexplicables, sangrado de encías al cepillarse, sangrado nasal frecuente",
+      "Heces negras o con sangre, vómito con sangre",
+      "Dolor de cabeza intenso y súbito (posible hemorragia cerebral)",
+      "Mareo severo o desmayo (hipotensión)",
+      "Erupción cutánea severa, picazón, hinchazón de cara/lengua (reacción alérgica)",
+      "Coloración amarilla de piel u ojos (ictericia), dolor abdominal superior (daño hepático)",
+      "Convulsiones"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Náuseas y vómitos severos",
+      "Diarrea profusa",
+      "Mareo intenso y dolor de cabeza",
+      "Palpitaciones y taquicardia",
+      "Hipotensión severa",
+      "Sangrado espontáneo (nasal, digestivo)",
+      "Agitación, confusión, convulsiones"
+    ],
+    "treatment": "No existe antídoto específico. El tratamiento es de soporte y sintomático. Suspender inmediatamente el Ginkgo. En caso de ingestión masiva reciente (menos de 2 horas), considerar lavado gástrico o carbón activado. Monitorizar signos vitales y controlar el sangrado si ocurre. En casos de sangrado severo, puede requerirse transfusión de hemoderivados (plasma fresco congelado, plaquetas).",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Venta libre (Over-the-Counter, OTC) en la mayoría de las presentaciones. Algunas marcas o presentaciones de dosis más altas pueden requerir receta médica en ciertas farmacias.",
+    "scheduleMexico": "No está incluido en la fracción de psicotrópicos o controlados. Se considera un medicamento fitoterapéutico o suplemento alimenticio, regulado por COFEPRIS bajo diferentes normas.",
+    "fdaApprovalYear": "La FDA no ha aprobado el Ginkgo Biloba como medicamento para ninguna indicación. En EE.UU. se vende como suplemento dietético bajo la DSHEA de 1994. En países europeos como Alemania, está aprobado como medicamento fitoterapéutico."
+  },
+  "brandsMexico": [
+    "Ginkgo Biloba MK",
+    "Ginkgo Biloba Best",
+    "Ginkobil",
+    "Ginkium",
+    "Memoplus",
+    "Tanakene",
+    "Ginkgo Biloba Nature's Bounty",
+    "Ginkgo Biloba Sundown Naturals",
+    "Ginkgo Biloba Now Foods",
+    "Ginkgo Biloba Solgar",
+    "Ginkgo Biloba Nutrilite",
+    "Ginkgo Biloba Herbolaria",
+    "Ginkgo Biloba Dr. Dunkan",
+    "Ginkgo Biloba Natural Factors",
+    "Ginkgo Biloba Swiss",
+    "Ginkgo Biloba Life Extension",
+    "Ginkgo Biloba Nature's Way",
+    "Ginkgo Biloba Sundown",
+    "Ginkgo Biloba Mason Natural",
+    "Ginkgo Biloba Kirkland Signature"
+  ],
+  "clinicalPearls": [
+    "El Ginkgo NO cura el Alzheimer ni revierte el daño neuronal. Su beneficio es modesto y sintomático, pudiendo 'frenar' ligeramente el deterioro en algunos pacientes.",
+    "El riesgo de sangrado es real y no debe subestimarse. Pacientes que toman 'solo una aspirina infantil' diaria con Ginkgo tienen riesgo aumentado de hemorragia gastrointestinal.",
+    "La calidad del extracto varía enormemente entre marcas. Busque productos estandarizados a EGb 761 (contienen 24% de flavonoides glicósidos y 6% de terpenolactonas), que es el más estudiado clínicamente."
+  ],
+  "patientCounseling": "Es importante que sepa que el Ginkgo Biloba es un apoyo, no una cura. Debe tomarlo todos los días, con paciencia, ya que puede tardar hasta 3 meses en notar alguna mejoría en su memoria o concentración. Nunca deje de tomar sus otros medicamentos recetados (para la presión, diabetes, etc.) pensando que el Ginkgo los reemplaza. Esté muy atento a señales de sangrado fácil, como moretones que aparecen sin golpe, sangrado de encías al cepillarse o nariz que sangra seguido. Si nota esto, consulte a su médico. Antes de cualquier cirugía o tratamiento dental, informe que toma este producto, ya que puede aumentar el riesgo de sangrado y probablemente deba suspenderlo unas semanas antes. No compre marcas desconocidas o muy baratas; busque un extracto estandarizado de calidad. Recuerde que una alimentación saludable, ejercicio físico y mental, y controlar sus factores de riesgo vascular (presión, colesterol, azúcar) son igual o más importantes que este medicamento para cuidar su cerebro.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Pérdida de memoria",
+        "slug": "perdida-de-memoria"
+      },
+      {
+        "name": "Confusión mental",
+        "slug": "confusion-mental"
+      },
+      {
+        "name": "Dificultad para concentrarse",
+        "slug": "dificultad-para-concentrarse"
+      },
+      {
+        "name": "Mareo o vértigo",
+        "slug": "mareo-o-vertigo"
+      },
+      {
+        "name": "Zumbido en los oídos (tinnitus)",
+        "slug": "zumbido-en-los-oidos-tinnitus"
+      },
+      {
+        "name": "Dolor en piernas al caminar (claudicación)",
+        "slug": "dolor-en-piernas-al-caminar"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Enfermedad de Alzheimer (leve a moderada)",
+        "slug": "enfermedad-de-alzheimer"
+      },
+      {
+        "name": "Demencia vascular",
+        "slug": "demencia-vascular"
+      },
+      {
+        "name": "Deterioro cognitivo leve",
+        "slug": "deterioro-cognitivo-leve"
+      },
+      {
+        "name": "Insuficiencia cerebrovascular crónica",
+        "slug": "insuficiencia-cerebrovascular-cronica"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Hemorragia intracraneal",
+        "slug": "hemorragia-intracraneal"
+      },
+      {
+        "name": "Hemorragia digestiva",
+        "slug": "hemorragia-digestiva"
+      },
+      {
+        "name": "Hepatitis tóxica",
+        "slug": "hepatitis-toxica"
+      },
+      {
+        "name": "Convulsiones",
+        "slug": "convulsiones"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Tiempo de Protrombina (TP) / INR",
+        "slug": "tiempo-de-protrombina-inr",
+        "effect": "Puede elevar (aumentar)"
+      },
+      {
+        "name": "Transaminasas (ALT, AST)",
+        "slug": "transaminasas-alt-ast",
+        "effect": "Puede elevar (aumentar)"
+      },
+      {
+        "name": "Presión arterial sistólica y diastólica",
+        "slug": "presion-arterial",
+        "effect": "Puede disminuir (bajar)"
+      },
+      {
+        "name": "Glucosa en sangre",
+        "slug": "glucosa-en-sangre",
+        "effect": "Puede alterar (efecto variable)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "INR (Razón Normalizada Internacional)",
+        "slug": "estudio-inr",
+        "reason": "Para monitorear el riesgo de sangrado si se usa con warfarina o si hay sospecha clínica."
+      },
+      {
+        "name": "Pruebas de función hepática (Perfil hepático)",
+        "slug": "pruebas-funcion-hepatica",
+        "reason": "Para detectar hepatotoxicidad potencial en uso crónico."
+      },
+      {
+        "name": "Biometría hemática completa",
+        "slug": "biometria-hematica",
+        "reason": "Para evaluar recuento plaquetario y signos de anemia por sangrado oculto."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      },
+      {
+        "name": "Calculadora de IMC",
+        "slug": "calculadora-imc"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿El Ginkgo Biloba realmente mejora la memoria?",
+      "a": "Sí, pero de manera modesta y principalmente en personas con deterioro cognitivo leve o demencia incipiente. En adultos sanos jóvenes, la evidencia de mejora de memoria es limitada y contradictoria. No convierte a una persona en 'superdotada', sino que puede ayudar a mitigar ligeramente el olvido asociado a la edad o a condiciones médicas."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Para síntomas como mareo o tinnitus, puede notarse mejoría en 4 a 6 semanas. Para mejorar la memoria, concentración y claridad mental en casos de deterioro cognitivo, los estudios muestran que se requieren al menos 12 semanas (3 meses) de uso continuo para observar beneficios significativos."
+    },
+    {
+      "q": "¿Puedo tomarlo si tomo aspirina para el corazón?",
+      "a": "NO es recomendable sin supervisión médica estricta. La combinación de Ginkgo Biloba con aspirina (incluso dosis bajas) aumenta considerablemente el riesgo de sangrado, como hemorragias digestivas o moretones. Consulte a su médico para evaluar riesgos y beneficios; probablemente le recomiende no combinarlos o requerirá un monitoreo muy cercano."
+    },
+    {
+      "q": "¿Tiene efectos secundarios graves?",
+      "a": "Los efectos secundarios graves son raros pero posibles. Los más importantes son el sangrado (nasal, cerebral, digestivo), especialmente si se combina con otros medicamentos que 'adelgazan la sangre'. También se han reportado casos de convulsiones y daño hepático. Por eso es crucial informar a su médico sobre su uso."
+    },
+    {
+      "q": "¿Qué marca de Ginkgo Biloba es la mejor?",
+      "a": "Busque marcas reconocidas y de calidad que especifiquen en su etiqueta que el extracto está 'estandarizado a EGb 761' y que contenga '24% de flavonoides glicósidos y 6% de terpenolactonas'. Evite productos muy baratos o de marcas desconocidas, ya que pueden no contener la cantidad activa necesaria o tener contaminantes."
+    },
+    {
+      "q": "¿Puedo tomar Ginkgo Biloba para los zumbidos en los oídos (tinnitus)?",
+      "a": "Sí, es uno de sus usos comunes, especialmente si el tinnitus se sospecha que es de origen vascular (problemas de circulación en el oído interno). La dosis típica es de 120 a 160 mg al día, divididos. La mejoría puede tardar varias semanas y no funciona en todos los casos."
+    },
+    {
+      "q": "¿El Ginkgo Biloba sube o baja la presión arterial?",
+      "a": "Generalmente tiene un ligero efecto reductor de la presión arterial al mejorar la circulación y la elasticidad de los vasos sanguíneos. Por esto, pacientes que ya toman medicamentos para la presión (antihipertensivos) deben tener precaución, ya que podría causar una presión demasiado baja (hipotensión) con síntomas de mareo."
+    },
+    {
+      "q": "¿Debo suspender el Ginkgo antes de una cirugía o extracción dental?",
+      "a": "ABSOLUTAMENTE SÍ. Debido a su efecto antiagregante plaquetario, debe suspenderlo al menos 2 semanas (14 días) antes de cualquier procedimiento quirúrgico, dental o médico que conlleve riesgo de sangrado. Informe siempre a su cirujano y dentista que lo toma."
+    },
+    {
+      "q": "¿Puedo tomar Ginkgo Biloba con café?",
+      "a": "Sí, no hay una interacción directa grave. Sin embargo, ambos pueden causar nerviosismo o palpitaciones en algunas personas sensibles. Si nota que la combinación le produce inquietud o taquicardia, considere separar su ingesta o reducir el consumo de cafeína."
+    },
+    {
+      "q": "¿El Ginkgo Biloba es bueno para la circulación de las piernas?",
+      "a": "Sí, puede mejorar los síntomas de la mala circulación en piernas, conocida como claudicación intermitente (dolor al caminar que mejora al detenerse). Mejora el flujo sanguíneo y la distancia que se puede caminar sin dolor. La dosis para esta indicación suele ser de 120 a 240 mg al día."
+    },
+    {
+      "q": "¿Pueden tomarlo personas con diabetes?",
+      "a": "Sí, pero con precaución y monitoreo. Algunos estudios sugieren que el Ginkgo puede tener un ligero efecto sobre los niveles de azúcar en sangre (puede bajarlos o alterar la respuesta a la insulina). Los pacientes diabéticos deben checar su glucosa con más frecuencia al iniciar el tratamiento y ajustar su medicación si es necesario, bajo supervisión médica."
+    },
+    {
+      "q": "¿Es seguro para el hígado?",
+      "a": "En la mayoría de las personas es seguro, pero existen reportes raros de hepatotoxicidad (daño hepático) asociados a su uso. Se recomienda no exceder la dosis máxima y suspenderlo si aparecen síntomas como cansancio extremo, color amarillo en piel/ojos, orina oscura o dolor abdominal superior. Personas con enfermedad hepática preexistente deben evitarlo."
+    },
+    {
+      "q": "¿El Ginkgo Biloba ayuda con la ansiedad o el estrés?",
+      "a": "Algunos estudios pequeños sugieren un efecto modesto para reducir los síntomas de ansiedad, posiblemente por su influencia en los neurotransmisores y su efecto vasorregulador. Sin embargo, NO es un tratamiento de primera línea para trastornos de ansiedad diagnosticados. No sustituye a la terapia psicológica o los fármacos recetados para la ansiedad."
+    },
+    {
+      "q": "¿Puedo darle Ginkgo Biloba a mi hijo adolescente para que le vaya mejor en la escuela?",
+      "a": "NO se recomienda. No hay evidencia de que mejore el rendimiento académico en adolescentes o niños sanos. Además, no se han establecido su seguridad ni dosis adecuadas en esta población. Los problemas de concentración en jóvenes deben ser evaluados por un médico para descartar causas como TDAH, ansiedad o problemas de sueño."
+    },
+    {
+      "q": "¿Interfiere con los anticonceptivos hormonales (pastillas)?",
+      "a": "Teóricamente podría interferir, ya que el Ginkgo induce enzimas hepáticas (CYP3A4) que metabolizan las hormonas de los anticonceptivos, potencialmente reduciendo su eficacia. Aunque el riesgo clínico es considerado bajo, se recomienda usar un método anticonceptivo adicional (como condón) si está tomando Ginkgo Biloba de forma crónica, para mayor seguridad."
+    },
+    {
+      "q": "¿Qué pasa si olvido una dosis?",
+      "a": "Si olvida una dosis, tómela tan pronto como lo recuerde. Sin embargo, si ya es casi la hora de la siguiente dosis, omita la dosis olvidada y continúe con su horario regular. NO duplique la dosis para compensar la olvidada. La consistencia a largo plazo es más importante que una dosis aislada."
+    },
+    {
+      "q": "¿El Ginkgo Biloba puede causar dolor de cabeza?",
+      "a": "Sí, el dolor de cabeza leve es uno de los efectos secundarios más comunes, especialmente al inicio del tratamiento. Suele ser transitorio y desaparecer en unos días o semanas a medida que el cuerpo se adapta. Si el dolor de cabeza es severo, persistente o de inicio súbito, suspenda el medicamento y consulte a su médico, ya que podría ser señal de algo más grave como hemorragia cerebral."
+    },
+    {
+      "q": "¿Es lo mismo el árbol de Ginkgo que el suplemento?",
+      "a": "No exactamente. El suplemento medicinal es un extracto estandarizado y purificado de las hojas del árbol Ginkgo biloba. Las semillas crudas del árbol (también llamadas nueces de ginkgo) son TOXICAS y pueden causar convulsiones y problemas graves. Nunca consuma las semillas crudas o preparaciones caseras no estandarizadas."
+    },
+    {
+      "q": "¿Cómo se compara el Ginkgo Biloba con los medicamentos recetados para el Alzheimer como el donepezilo?",
+      "a": "El Ginkgo tiene un efecto más modesto que los inhibidores de la colinesterasa (donepezilo, rivastigmina). A menudo se usa como terapia complementaria o en pacientes que no toleran los efectos secundarios de los fármacos recetados. Algunos estudios muestran beneficios similares con menos efectos adversos gastrointestinales, pero la decisión debe ser tomada por el neurólogo o geriatra tratante."
+    },
+    {
+      "q": "¿Cuál es la evidencia científica más sólida que respalda el uso de Ginkgo Biloba en demencia?",
+      "a": "La evidencia más sólida proviene de ensayos clínicos aleatorizados y metaanálisis que utilizan el extracto estandarizado EGb 761. Estos estudios muestran que, en comparación con placebo, el Ginkgo (a dosis de 240 mg/día) produce una mejoría estadísticamente significativa, aunque pequeña, en las escalas de evaluación cognitiva (como el ADAS-Cog) y en las actividades de la vida diaria en pacientes con Alzheimer leve a moderado y demencia vascular. El efecto es comparable al de algunos fármacos convencionales, pero con un perfil de seguridad diferente. Sin embargo, otros estudios de alta calidad no han encontrado beneficio, por lo que la controversia persiste y su uso debe ser individualizado."
+    }
+  ]
+}

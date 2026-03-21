@@ -1,0 +1,436 @@
+{
+  "name": "Alimemazina",
+  "summary": "La alimemazina es un medicamento antihistamínico de primera generación, perteneciente al grupo de las fenotiazinas. Se utiliza principalmente para tratar los síntomas de las alergias, como estornudos, picazón en ojos y nariz, y urticaria, debido a su potente efecto bloqueador de la histamina. También es muy conocido por su marcado efecto sedante, lo que lo hace útil en el manejo del insomnio ocasional y como premedicación antes de procedimientos médicos para reducir la ansiedad. Es importante destacar que, aunque es efectivo, su uso debe ser supervisado por un médico debido a sus efectos secundarios significativos, como somnolencia intensa, sequedad de boca y riesgo de efectos anticolinérgicos, especialmente en adultos mayores. Su importancia clínica radica en ser una opción de bajo costo para el control de síntomas alérgicos agudos y como sedante, pero ha sido desplazado en gran medida por antihistamínicos de segunda generación que causan menos somnolencia para el tratamiento de alergias crónicas.",
+  "pharmacology": {
+    "mechanismOfAction": "La alimemazina actúa principalmente como un antagonista competitivo y reversible de los receptores de histamina H1 en el sistema nervioso central y periférico. Al bloquear estos receptores, inhibe los efectos de la histamina, que es la sustancia química liberada durante una reacción alérgica y responsable de síntomas como vasodilatación, aumento de la permeabilidad vascular, picazón y contracción del músculo liso bronquial. Además, posee una fuerte actividad anticolinérgica (bloqueo de receptores muscarínicos) y antidopaminérgica, lo que explica sus efectos secundarios como sedación, sequedad de boca, visión borrosa y, en casos raros, síntomas extrapiramidales. Su acción en el sistema nervioso central, particularmente en el sistema de activación reticular, es lo que produce su potente efecto sedante e hipnótico.",
+    "pharmacologicClass": "Antagonista de los receptores H1 de histamina (de primera generación); Derivado de la fenotiazina (con núcleo de tiazina).",
+    "therapeuticClass": "Antihistamínico; Sedante/Hipnótico.",
+    "absorption": "Se absorbe bien por vía oral, aunque la absorción puede ser variable. La presencia de alimentos puede retrasar la absorción pero no afecta significativamente su biodisponibilidad total.",
+    "distribution": "Se distribuye ampliamente por todo el organismo, incluyendo el sistema nervioso central. Tiene una alta unión a proteínas plasmáticas. Su volumen de distribución (Vd) es grande, indicando una amplia distribución en los tejidos.",
+    "metabolism": "Se metaboliza extensamente en el hígado, principalmente por el sistema enzimático del citocromo P450, involucrando múltiples isoenzimas. Se generan metabolitos activos y no activos que son posteriormente conjugados.",
+    "elimination": "La vida media de eliminación es de aproximadamente 4 a 12 horas, pero puede ser más prolongada. Se elimina principalmente por la orina en forma de metabolitos conjugados. Una pequeña porción se puede eliminar sin cambios.",
+    "onsetOfAction": "El inicio de acción para el efecto sedante suele ser entre 30 y 60 minutos después de la administración oral.",
+    "durationOfAction": "La duración del efecto sedante/hipnótico es de aproximadamente 6 a 8 horas, aunque los efectos residuales como somnolencia pueden persistir hasta el día siguiente."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento sintomático de reacciones alérgicas (rinitis alérgica, urticaria, angioedema, conjuntivitis alérgica)",
+      "Sedación e inducción del sueño en insomnio ocasional",
+      "Premedicación sedante antes de procedimientos médicos o quirúrgicos en niños y adultos",
+      "Tratamiento coadyuvante del prurito (picazón) de diverso origen"
+    ],
+    "offLabel": [
+      "Manejo de náuseas y vómitos (aunque otros antieméticos son más comunes)",
+      "Coadyuvante en el manejo de la ansiedad preoperatoria",
+      "Tratamiento sintomático de la varicela para aliviar el prurito"
+    ]
+  },
+  "dosage": {
+    "adults": "Alergias/Prurito: 5-10 mg, 2 a 3 veces al día. Insomnio/Sedación: 10-20 mg una vez al día, administrado 30-60 minutos antes de acostarse o del procedimiento. Dosis máxima usual: 40 mg/día.",
+    "pediatric": "Para niños mayores de 2 años: Dosis basada en peso. Alergias/Prurito: 0.1-0.2 mg/kg/dosis, 2 a 3 veces al día. Insomnio/Sedación: 0.2-0.4 mg/kg/dosis como dosis única nocturna. Dosis máxima pediátrica diaria: No exceder 10 mg/día en niños pequeños. NO RECOMENDADO EN LACTANTES MENORES DE 2 AÑOS.",
+    "elderly": "Iniciar con dosis bajas (2.5-5 mg) debido a la mayor sensibilidad a los efectos anticolinérgicos y sedantes, y al mayor riesgo de confusión, mareo y caídas. Ajustar según respuesta y tolerancia.",
+    "renalImpairment": "Precaución en insuficiencia renal moderada a grave (TFG <30 mL/min). Considerar reducir la dosis o aumentar el intervalo entre dosis debido a la posible acumulación de metabolitos. Monitorizar estrechamente por efectos adversos.",
+    "hepaticImpairment": "Contraindicado en insuficiencia hepática grave. En insuficiencia hepática leve a moderada, usar con extrema precaución y a dosis reducidas, ya que el metabolismo hepático está comprometido, pudiendo llevar a una acumulación importante del fármaco.",
+    "maxDose": "Dosis máxima diaria en adultos: Generalmente 40 mg, aunque en contextos hospitalarios bajo supervisión estricta se han usado dosis más altas. En pediatría, no exceder las dosis calculadas por peso (máx. ~10 mg/día en niños pequeños)."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "5 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Jarabe / Solución oral",
+      "strengths": [
+        "7.5 mg/5 mL",
+        "3 mg/5 mL"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Gotas orales",
+      "strengths": [
+        "40 mg/mL"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la alimemazina o a otras fenotiazinas",
+      "Depresión del sistema nervioso central (SNC) severa (p. ej., coma, intoxicación por alcohol, barbitúricos, opioides)",
+      "Glaucoma de ángulo cerrado",
+      "Hipertrofia prostática sintomática con retención urinaria",
+      "Obstrucción piloroduodenal o intestinal (íleo paralítico)",
+      "Miastenia gravis",
+      "Insuficiencia hepática grave",
+      "Niños menores de 2 años (riesgo de depresión respiratoria y muerte súbita del lactante)"
+    ],
+    "relative": [
+      "Epilepsia o antecedentes de convulsiones",
+      "Enfermedad cardiovascular (arritmias, QT prolongado)",
+      "Enfermedad de Parkinson",
+      "Enfermedad renal moderada a grave",
+      "Enfermedad hepática leve a moderada",
+      "Pacientes con riesgo de aspiración (por su efecto depresor del reflejo de la tos)",
+      "Pacientes con riesgo de caídas (adultos mayores)",
+      "Hipertiroidismo",
+      "Feocromocitoma"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Somnolencia intensa (sedación)",
+      "Sequedad de boca (xerostomía)",
+      "Mareo",
+      "Cefalea (dolor de cabeza)"
+    ],
+    "common": [
+      "Visión borrosa",
+      "Estreñimiento",
+      "Retención urinaria",
+      "Hipotensión ortostática (mareo al levantarse)",
+      "Aumento del apetito y aumento de peso",
+      "Congestión nasal",
+      "Agitación paradójica (especialmente en niños y ancianos)"
+    ],
+    "uncommon": [
+      "Confusión mental",
+      "Temblor",
+      "Síntomas extrapiramidales (inquietud, distonía, acatisia)",
+      "Fotosensibilidad (sensibilidad a la luz solar)",
+      "Alteraciones en la acomodación visual",
+      "Palpitaciones",
+      "Erupciones cutáneas"
+    ],
+    "rare": [
+      "Discrasias sanguíneas (agranulocitosis, leucopenia, trombocitopenia)",
+      "Ictericia colestásica",
+      "Arritmias cardíacas (prolongación del intervalo QT)",
+      "Convulsiones",
+      "Síndrome neuroléptico maligno (muy raro, pero potencialmente mortal)",
+      "Reacciones de hipersensibilidad severa (anafilaxia)"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Alcohol (etílico)",
+        "effect": "Potenciación severa de la depresión del SNC (somnolencia, deterioro psicomotor, riesgo de coma y depresión respiratoria).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Benzodiacepinas (diazepam, alprazolam, clonazepam)",
+        "effect": "Aumento aditivo de la sedación, deterioro cognitivo y riesgo de caídas.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Opioides (codeína, tramadol, morfina)",
+        "effect": "Potenciación de la sedación, depresión respiratoria y riesgo de coma.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores de la MAO (tranilcipromina, fenelzina)",
+        "effect": "Riesgo de crisis hipertensiva, hiperpirexia y efectos anticolinérgicos potenciados. Evitar combinación.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Antidepresivos tricíclicos (amitriptilina, imipramina)",
+        "effect": "Potenciación de efectos anticolinérgicos (sequedad, retención urinaria, íleo) y cardiotoxicidad.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Fármacos que prolongan el QT (amiodarona, cisaprida, algunos antipsicóticos)",
+        "effect": "Riesgo aditivo de prolongación del intervalo QT y arritmias ventriculares graves (torsade de pointes).",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "El alcohol está estrictamente contraindicado. Los alimentos grasos pueden retrasar ligeramente la absorción, pero no es clínicamente significativo. Se puede tomar con o sin alimentos para reducir molestias gástricas.",
+    "withSupplements": "Precaución con suplementos herbales con efectos sedantes (valeriana, kava, pasiflora) por potenciación de la somnolencia. La hierba de San Juan (Hypericum perforatum) puede reducir la efectividad de la alimemazina al inducir enzimas metabólicas."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "C",
+      "recommendation": "No se recomienda su uso durante el embarazo, especialmente en el primer trimestre, a menos que el beneficio potencial justifique claramente el riesgo para el feto. Existen datos limitados en humanos. Los antihistamínicos de segunda generación (loratadina, cetirizina) son generalmente preferidos si es necesario. Puede causar efectos anticolinérgicos en el recién nacido si se usa cerca del parto.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La alimemazina se excreta en la leche materna en cantidades significativas. Debido a su potencial para causar sedación, irritabilidad o efectos anticolinérgicos en el lactante (como somnolencia, dificultad para alimentarse), se recomienda evitar su uso durante la lactancia. Si es absolutamente necesario, se debe suspender la lactancia materna.",
+    "pediatric": "Puede usarse en niños mayores de 2 años para indicaciones específicas (prurito, sedación preoperatoria), estrictamente bajo supervisión médica y a dosis calculadas por peso. Está contraindicado en lactantes menores de 2 años por el riesgo de depresión respiratoria y síndrome de muerte súbita del lactante. Monitorizar estrechamente por agitación paradójica.",
+    "geriatric": "Los adultos mayores son extremadamente sensibles a los efectos anticolinérgicos y sedantes. Aumenta significativamente el riesgo de confusión, mareo, hipotensión ortostática, retención urinaria, estreñimiento y caídas con fracturas. Se debe iniciar con la dosis efectiva más baja posible (2.5-5 mg) y monitorizar de cerca. Evitar su uso como hipnótico de primera línea."
+  },
+  "administration": {
+    "howToTake": "Las tabletas y el jarabe se toman por vía oral, generalmente por la noche si se usa para insomnio, o según las indicaciones del médico para alergias. Se puede tomar con o sin alimentos. Usar la cuchara o jeringa dosificadora que viene con el jarabe para medir la dosis exacta. No triturar ni masticar las tabletas a menos que se indique. Para uso como premedicación, tomar 30-60 minutos antes del procedimiento.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (15-30°C), protegido de la luz y la humedad. Mantener fuera del alcance y vista de los niños. No congelar el jarabe.",
+    "specialInstructions": "Advertir sobre el riesgo de somnolencia intensa y deterioro de la capacidad para conducir vehículos u operar maquinaria peligrosa. Evitar levantarse rápidamente de la cama o de una silla para prevenir mareos por baja presión. Informar al médico o dentista sobre su uso antes de cualquier cirugía. No suspender el tratamiento abruptamente si se ha usado por largo tiempo."
+  },
+  "monitoring": {
+    "labTests": [
+      "Conteo sanguíneo completo (CSC) con diferencial, especialmente con uso prolongado",
+      "Pruebas de función hepática (bilirrubina, transaminasas)",
+      "Electrocardiograma (ECG) en pacientes con riesgo cardiovascular o con uso a altas dosis",
+      "Niveles de glucosa (puede interferir con pruebas)"
+    ],
+    "frequency": "Monitoreo clínico regular de efectos adversos, especialmente al inicio del tratamiento. Estudios de laboratorio solo si hay síntomas sugerentes de toxicidad o con uso crónico.",
+    "signsToWatch": [
+      "Somnolencia extrema o dificultad para despertar",
+      "Confusión, agitación o alucinaciones",
+      "Dificultad para orinar o estreñimiento severo",
+      "Latidos cardíacos irregulares, rápidos o fuertes (palpitaciones)",
+      "Rigidez muscular severa, fiebre alta, sudoración (signos de síndrome neuroléptico maligno)",
+      "Ictericia (coloración amarilla de piel/ojos)",
+      "Fiebre, dolor de garganta (signos de infección por baja de glóbulos blancos)",
+      "Erupción cutánea severa"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Depresión del SNC que progresa de somnolencia a estupor y coma",
+      "Depresión respiratoria (respiración lenta y superficial)",
+      "Convulsiones",
+      "Síntomas anticolinérgicos marcados (piel seca y caliente, midriasis, taquicardia, íleo)",
+      "Hipotensión severa",
+      "Arritmias cardíacas (prolongación de QT, torsade de pointes)",
+      "Agitación paradójica y alucinaciones"
+    ],
+    "treatment": "Es una emergencia médica. Tratamiento de soporte: Medidas generales (mantener vía aérea, ventilación, circulación). Lavado gástrico o carbón activado si la ingestión es reciente. No hay antídoto específico. Tratamiento sintomático: Para convulsiones (benzodiacepinas), para hipotensión (líquidos IV, vasopresores), para arritmias (corrección de electrolitos, antiarrítmicos). La diálisis no es efectiva por su alta unión a proteínas.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Rx).",
+    "scheduleMexico": "Medicamento de venta con receta, perteneciente a la Fracción IV del artículo 226 de la Ley General de Salud.",
+    "fdaApprovalYear": "No aprobado por la FDA de EE. UU. para uso comercial. Es un fármaco utilizado principalmente en Europa, América Latina y otros países."
+  },
+  "brandsMexico": [
+    "Theralene",
+    "Vallergan",
+    "Trimeprazina",
+    "Alimeraz",
+    "Sedistal",
+    "Nedeltran"
+  ],
+  "clinicalPearls": [
+    "La alimemazina es uno de los antihistamínicos más sedantes disponibles; su efecto 'hipnótico' es a menudo la razón principal de su prescripción en lugar de su acción antialérgica.",
+    "En pediatría, su uso para el prurito de la varicela es clásico, pero debe sopesarse cuidadosamente contra el riesgo de sedación excesiva y agitación paradójica.",
+    "Su potente efecto anticolinérgico lo hace particularmente peligroso en adultos mayores, donde puede precipitar un cuadro confusional agudo (delirio) o empeorar condiciones como el glaucoma o la hiperplasia prostática."
+  ],
+  "patientCounseling": "Este medicamento le causará MUCHA SUEÑO. No maneje automóviles, no opere maquinaria peligrosa y evite actividades que requieran alerta total hasta que sepa cómo le afecta, generalmente durante las primeras 24 horas después de tomarlo. No consuma NADA de alcohol mientras lo toma, ya que aumenta mucho el riesgo de sueño profundo y accidentes. Tómelo por la noche si se lo recetaron para dormir. Si se lo dan para alergias, tenga cuidado durante el día. Puede causar sequedad en la boca; tome sorbos de agua, mastique chicle sin azúcar. Si siente mareo al levantarse, hágalo lentamente. Si tiene dificultad para orinar, estreñimiento severo, latidos del corazón muy rápidos o irregulares, o si se siente confundido o agitado, deje de tomarlo y consulte a su médico de inmediato. No lo use por más tiempo del indicado por su médico. Manténgalo fuera del alcance de los niños.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Estornudos",
+        "slug": "estornudos"
+      },
+      {
+        "name": "Picazón en la piel (prurito)",
+        "slug": "picazon-en-la-piel-prurito"
+      },
+      {
+        "name": "Ojos llorosos y con picazón",
+        "slug": "ojos-llorosos-y-con-picazon"
+      },
+      {
+        "name": "Secreción nasal acuosa",
+        "slug": "secrecion-nasal-acuosa"
+      },
+      {
+        "name": "Dificultad para conciliar el sueño (insomnio)",
+        "slug": "dificultad-para-conciliar-el-sueno-insomnio"
+      },
+      {
+        "name": "Ansiedad pre-procedimiento",
+        "slug": "ansiedad-pre-procedimiento"
+      },
+      {
+        "name": "Urticaria (ronchas)",
+        "slug": "urticaria-ronchas"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Rinitis Alérgica Estacional o Perenne",
+        "slug": "rinitis-alergica-estacional-o-perenne"
+      },
+      {
+        "name": "Urticaria Aguda",
+        "slug": "urticaria-aguda"
+      },
+      {
+        "name": "Conjuntivitis Alérgica",
+        "slug": "conjuntivitis-alergica"
+      },
+      {
+        "name": "Insomnio Transitorio",
+        "slug": "insomnio-transitorio"
+      },
+      {
+        "name": "Prurito de diverso origen (ej. varicela)",
+        "slug": "prurito-de-diverso-origen"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Delirio o Confusión Aguda",
+        "slug": "delirio-o-confusion-aguda"
+      },
+      {
+        "name": "Retención Urinaria Aguda",
+        "slug": "retencion-urinaria-aguda"
+      },
+      {
+        "name": "Glaucoma de Ángulo Cerrado Agudo",
+        "slug": "glaucoma-de-angulo-cerrado-agudo"
+      },
+      {
+        "name": "Síndrome Neuroléptico Maligno",
+        "slug": "sindrome-neuroleptico-maligno"
+      },
+      {
+        "name": "Arritmias Cardíacas (Torsade de Pointes)",
+        "slug": "arritmias-cardiacas-torsade-de-pointes"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Recuento de Leucocitos (Glóbulos Blancos)",
+        "slug": "recuento-de-leucocitos-globulos-blancos",
+        "effect": "Puede disminuir (leucopenia, agranulocitosis)"
+      },
+      {
+        "name": "Bilirrubina",
+        "slug": "bilirrubina",
+        "effect": "Puede elevar (ictericia colestásica)"
+      },
+      {
+        "name": "Transaminasas (ALT, AST)",
+        "slug": "transaminasas-alt-ast",
+        "effect": "Puede elevar (hepatotoxicidad)"
+      },
+      {
+        "name": "Glucemia (Azúcar en Sangre)",
+        "slug": "glucemia-azucar-en-sangre",
+        "effect": "Puede alterar (hiperglucemia)"
+      },
+      {
+        "name": "Intervalo QT en ECG",
+        "slug": "intervalo-qt-en-ecg",
+        "effect": "Puede prolongar"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Conteo Sanguíneo Completo (CSC)",
+        "slug": "conteo-sanguineo-completo-csc",
+        "reason": "Para monitorizar posible supresión de la médula ósea (agranulocitosis) con uso prolongado."
+      },
+      {
+        "name": "Pruebas de Función Hepática (PFH)",
+        "slug": "pruebas-de-funcion-hepatica-pfh",
+        "reason": "Para detectar posible daño hepático colestásico."
+      },
+      {
+        "name": "Electrocardiograma (ECG)",
+        "slug": "electrocardiograma-ecg",
+        "reason": "Para evaluar intervalo QT en pacientes con riesgo cardíaco o que toman dosis altas."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de Dosis Pediátrica por Peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de Aclaramiento de Creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de Edad Vascular",
+        "slug": "calculadora-edad-vascular"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve la alimemazina?",
+      "a": "Sirve principalmente para dos cosas: 1) Aliviar los síntomas de alergias como estornudos, picazón en nariz, ojos y piel (urticaria). 2) Como un medicamento para ayudar a conciliar el sueño en casos de insomnio ocasional, debido a que produce mucha somnolencia. También se usa a veces para calmar a niños antes de un procedimiento médico."
+    },
+    {
+      "q": "¿La alimemazina da sueño?",
+      "a": "Sí, produce MUCHO sueño (sedación intensa). Este es su efecto secundario más común y, de hecho, a menudo es la razón por la que se receta para el insomnio. Es muy importante no manejar ni hacer actividades peligrosas después de tomarlo."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto para dormir?",
+      "a": "Generalmente, comienza a hacer efecto entre 30 y 60 minutos después de tomarlo por la boca. Por eso se recomienda tomarlo media hora o una hora antes de acostarse."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si estoy tomando alimemazina?",
+      "a": "NO. El alcohol está estrictamente prohibido. La combinación con alimemazina potencia enormemente el efecto de sueño y puede causar depresión respiratoria (dificultad para respirar), pérdida del conocimiento e incluso la muerte."
+    },
+    {
+      "q": "¿La alimemazina es lo mismo que la difenhidramina (Dramamine, ZzzQuil)?",
+      "a": "No, son medicamentos diferentes, aunque ambos son antihistamínicos de primera generación que causan sueño. La alimemazina suele ser más potente y con efectos más prolongados. Ambos deben usarse con precaución similar."
+    },
+    {
+      "q": "¿Puedo tomar alimemazina si tengo glaucoma?",
+      "a": "NO, especialmente si es glaucoma de ángulo cerrado. La alimemazina puede aumentar la presión dentro del ojo y desencadenar un ataque agudo de glaucoma, que es una emergencia médica. Informe siempre a su médico si tiene glaucoma."
+    },
+    {
+      "q": "¿Puedo usarla para la comezón de la varicela en mi hijo?",
+      "a": "Sí, ha sido un uso tradicional para aliviar el picor intenso de la varicela en niños mayores de 2 años. SIN EMBARGO, debe ser recetada y dosificada exactamente por el pediatra, ya que puede causar mucha somnolencia o, paradójicamente, agitación en algunos niños."
+    },
+    {
+      "q": "¿Qué hago si me olvido de tomar una dosis?",
+      "a": "Si es para alergias y falta poco para la siguiente dosis, omita la que olvidó y tome la siguiente a la hora habitual. NO duplique la dosis. Si es para dormir y ya es muy tarde o casi de día, simplemente omita esa dosis y tómela la siguiente noche."
+    },
+    {
+      "q": "¿La alimemazina causa adicción o dependencia?",
+      "a": "No se considera altamente adictiva como las benzodiacepinas, pero puede generar habituación (el cuerpo se acostumbra) si se usa todas las noches para dormir, haciendo que cada vez sea menos efectiva y sea difícil dejar de usarla. No se debe usar por periodos largos sin supervisión médica."
+    },
+    {
+      "q": "¿Puedo tomarla durante el embarazo?",
+      "a": "Generalmente NO se recomienda, especialmente en los primeros meses. La categoría de riesgo es C, lo que significa que solo debe usarse si el beneficio para la madre justifica el riesgo potencial para el bebé. Consulte siempre a su ginecólogo antes de tomar cualquier medicamento en el embarazo."
+    },
+    {
+      "q": "¿Puedo amamantar si tomo alimemazina?",
+      "a": "No es recomendable. El medicamento pasa a la leche materna y puede causar mucha somnolencia, irritabilidad o dificultad para alimentarse en el bebé. Si es absolutamente necesario tomarla, se debe suspender la lactancia."
+    },
+    {
+      "q": "¿Qué efectos secundarios son señales de alarma para dejar de tomarla y llamar al médico?",
+      "a": "Dificultad para orinar, latidos del corazón muy rápidos o irregulares, confusión o agitación severa, rigidez muscular con fiebre alta, coloración amarilla de piel/ojos, o fiebre con dolor de garganta (signo de infección)."
+    },
+    {
+      "q": "¿Interfiere con otros medicamentos para la presión o el corazón?",
+      "a": "Sí. Puede potenciar el efecto de medicamentos para la presión, causando mareo al levantarse (hipotensión ortostática). También puede interactuar con fármacos que afectan el ritmo cardíaco (como la amiodarona), aumentando el riesgo de arritmias graves. Informe a su médico TODOS los medicamentos que toma."
+    },
+    {
+      "q": "¿Por qué me da mucha sequedad en la boca?",
+      "a": "Porque la alimemazina tiene un fuerte efecto 'anticolinérgico', que reduce la producción de saliva, lágrimas y otras secreciones. Para aliviarlo, tome sorbos de agua, mastique chicle sin azúcar o use sustitutos de saliva. La sequedad suele mejorar después de los primeros días de tratamiento."
+    },
+    {
+      "q": "¿Es seguro para adultos mayores?",
+      "a": "Es de los medicamentos MENOS seguros para adultos mayores. Aumenta mucho el riesgo de confusión, caídas, fracturas, estreñimiento y retención urinaria. Si se usa, debe ser a la dosis más baja posible (ej. 2.5 mg) y bajo estrecha supervisión. Existen muchas alternativas más seguras."
+    },
+    {
+      "q": "¿Puede subir de peso?",
+      "a": "Sí, el aumento del apetito y la ganancia de peso son efectos secundarios comunes de muchos antihistamínicos sedantes como la alimemazina."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre la alimemazina y antihistamínicos como la loratadina o cetirizina?",
+      "a": "La loratadina y cetirizina son de segunda generación: alivian alergias pero NO causan sueño (o muy poco) en la mayoría de personas, por lo que son mejores para uso diario. La alimemazina es de primera generación: es más sedante y tiene más efectos secundarios anticolinérgicos (sequedad, mareo)."
+    },
+    {
+      "q": "¿Qué pasa si tomo una sobredosis?",
+      "a": "Es una EMERGENCIA MÉDICA. Los síntomas son sueño extremo que progresa a coma, dificultad para respirar, convulsiones y latidos cardíacos irregulares. Llame inmediatamente al servicio de emergencias (911 en México) o acuda al hospital más cercano. No induzca el vómito a menos que lo indique un profesional."
+    },
+    {
+      "q": "¿La alimemazina puede causar síndrome de muerte súbita del lactante?",
+      "a": "Sí, existe una asociación y es una de las razones principales por las que está CONTRAINDICADA en bebés menores de 2 años. Puede causar depresión respiratoria (dificultad para respirar) en lactantes."
+    },
+    {
+      "q": "¿En qué situaciones clínicas específicas sigue siendo útil la alimemazina a pesar de sus riesgos?",
+      "a": "Sigue siendo útil en: 1) Insomnio severo y transitorio resistente a otras medidas, donde su potente efecto sedante es deseado. 2) Como premedicación sedante en niños ansiosos antes de procedimientos menores. 3) En el manejo del prurito intenso (como en urticaria o varicela) que no responde a antihistamínicos no sedantes, especialmente cuando el picor impide dormir. Su uso debe ser breve y supervisado."
+    }
+  ]
+}

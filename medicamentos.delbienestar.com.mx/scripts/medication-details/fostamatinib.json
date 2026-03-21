@@ -1,0 +1,371 @@
+{
+  "name": "Fostamatinib",
+  "summary": "El Fostamatinib es un medicamento de prescripción que pertenece a la categoría de antianémicos y hematológicos. Es un tratamiento innovador, administrado por vía oral, que se utiliza específicamente para tratar la trombocitopenia inmune (PTI) crónica en adultos que no han respondido adecuadamente a tratamientos previos, como los corticosteroides o la esplenectomía (extirpación del bazo). Su importancia clínica radica en que actúa de manera diferente a otros tratamientos disponibles, al inhibir una enzima clave (tirosina quinasa del bazo) que está involucrada en la destrucción de las plaquetas por parte del sistema inmunológico. Esto ayuda a aumentar el recuento de plaquetas en la sangre, reduciendo así el riesgo de sangrados y moretones en pacientes con esta condición. Es una opción valiosa para aquellos que no han encontrado mejoría con terapias convencionales, ofreciendo una nueva vía para controlar la enfermedad y mejorar la calidad de vida.",
+  "pharmacology": {
+    "mechanismOfAction": "El Fostamatinib es un profármaco que, una vez ingerido, se convierte en su metabolito activo, R406. Este metabolito actúa como un inhibidor potente y selectivo de la tirosina quinasa del bazo (SYK). En la trombocitopenia inmune, el sistema inmunológico produce anticuerpos que marcan a las plaquetas para su destrucción, principalmente por los macrófagos en el bazo y el hígado. La enzima SYK es crucial en la señalización que permite a estos macrófagos reconocer y destruir las plaquetas recubiertas de anticuerpos. Al bloquear la SYK, el Fostamatinib interrumpe esta vía de destrucción, lo que resulta en un aumento en el número de plaquetas circulantes. Es un mecanismo dirigido que difiere de los tratamientos inmunosupresores generales.",
+    "pharmacologicClass": "Inhibidor de la tirosina quinasa del bazo (SYK).",
+    "therapeuticClass": "Antianémico y Hematológico (Agente para el tratamiento de la trombocitopenia).",
+    "absorption": "El Fostamatinib (fosfato de fostamatinib) es un profármaco que se absorbe en el tracto gastrointestinal. La absorción de su metabolito activo, R406, es moderada. La presencia de alimentos, especialmente alimentos con alto contenido de grasa, aumenta significativamente la exposición al fármaco (AUC). Por esta razón, se recomienda administrarlo con alimentos para una absorción óptima y consistente.",
+    "distribution": "El metabolito activo R406 se distribuye ampliamente en el organismo. Se une extensamente a las proteínas plasmáticas (aproximadamente el 98.5%), principalmente a la albúmina. Su volumen de distribución (Vd) es elevado, indicando una amplia distribución en los tejidos. Cruza la barrera hematoencefálica en grado limitado.",
+    "metabolism": "El Fostamatinib se metaboliza rápidamente en el intestino y en el hígado por enzimas fosfatasas a su metabolito activo, R406. Este metabolito activo (R406) sufre un metabolismo hepático extenso, principalmente a través del sistema enzimático del citocromo P450, siendo la isoenzima CYP3A4 la principal responsable. También participan en menor medida CYP2C8 y CYP2C19. El metabolismo genera varios metabolitos inactivos.",
+    "elimination": "La eliminación del metabolito activo R406 es principalmente hepática. La vida media de eliminación terminal de R406 es de aproximadamente 15 horas. Se excreta mayoritariamente en las heces (alrededor del 80% de la dosis) y en menor medida en la orina (alrededor del 20%), principalmente como metabolitos inactivos. Menos del 1% del fármaco sin cambios se excreta en la orina.",
+    "onsetOfAction": "El inicio del efecto sobre el aumento del recuento plaquetario puede observarse en algunas personas dentro de 1 a 2 semanas después de iniciar el tratamiento, pero la respuesta óptima puede tardar varias semanas (hasta 12 semanas o más en algunos pacientes).",
+    "durationOfAction": "El efecto es dependiente de la dosis y de la administración continua. Al ser un tratamiento crónico, su efecto se mantiene mientras se tome el medicamento según lo prescrito. La duración del efecto farmacológico está ligada a su vida media de aproximadamente 15 horas, requiriendo dos dosis diarias para mantener niveles terapéuticos estables."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento de la trombocitopenia inmune (PTI) crónica en adultos que han tenido una respuesta inadecuada a un tratamiento previo."
+    ],
+    "offLabel": [
+      "Investigación en síndromes mielodisplásicos con trombocitopenia",
+      "Anemia hemolítica autoinmune",
+      "Linfoma no Hodgkin",
+      "Artritis reumatoide (en investigación)"
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis inicial recomendada es de 100 mg por vía oral dos veces al día (cada 12 horas). Después de 4 semanas, si el recuento de plaquetas no alcanza al menos 50,000 por microlitro y no hay toxicidad significativa, la dosis puede aumentarse a 150 mg dos veces al día. La dosis debe tomarse con alimentos para mejorar la absorción.",
+    "pediatric": "La seguridad y eficacia en pacientes pediátricos (menores de 18 años) no han sido establecidas. No se recomienda su uso en niños.",
+    "elderly": "No se requiere un ajuste de dosis inicial específico basado únicamente en la edad. Sin embargo, se debe tener precaución debido a la mayor probabilidad de disminución de la función hepática, renal o cardiaca, y de enfermedades concomitantes o uso de otros fármacos.",
+    "renalImpairment": "No se requiere ajuste de dosis en pacientes con insuficiencia renal leve a moderada (TFG ≥30 mL/min). No hay datos suficientes para recomendar una dosis en pacientes con insuficiencia renal grave (TFG <30 mL/min) o en diálisis. Se recomienda usar con precaución.",
+    "hepaticImpairment": "No se recomienda su uso en pacientes con insuficiencia hepática grave (Child-Pugh C). En pacientes con insuficiencia hepática leve a moderada (Child-Pugh A y B), se recomienda reducir la dosis a 100 mg una vez al día. Se requiere monitoreo estrecho.",
+    "maxDose": "La dosis máxima recomendada es de 150 mg dos veces al día (300 mg al día total)."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta recubierta",
+      "strengths": [
+        "100 mg",
+        "150 mg"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al fostamatinib o a cualquiera de los excipientes de la formulación."
+    ],
+    "relative": [
+      "Insuficiencia hepática grave (Child-Pugh C)",
+      "Embarazo (a menos que el beneficio justifique claramente el riesgo)",
+      "Lactancia materna",
+      "Uso concomitante con inhibidores potentes de CYP3A4 (requiere ajuste de dosis o evitación)",
+      "Pacientes con alto riesgo de sangrado activo grave."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Diarrea",
+      "Hipertensión arterial",
+      "Náuseas",
+      "Mareo",
+      "Aumento de enzimas hepáticas (ALT/AST)"
+    ],
+    "common": [
+      "Dolor abdominal",
+      "Fatiga",
+      "Dolor en las extremidades",
+      "Infecciones del tracto respiratorio superior",
+      "Erupción cutánea",
+      "Dolor de cabeza",
+      "Moretones (equimosis)",
+      "Neutropenia (disminución de glóbulos blancos)"
+    ],
+    "uncommon": [
+      "Pancreatitis",
+      "Hepatotoxicidad",
+      "Síncope (desmayo)",
+      "Trombosis venosa"
+    ],
+    "rare": [
+      "Anafilaxia (reacción alérgica grave)",
+      "Síndrome de Stevens-Johnson"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Inhibidores potentes de CYP3A4 (ej. Ketoconazol, Itraconazol, Claritromicina, Ritonavir)",
+        "effect": "Aumentan significativamente los niveles en sangre de R406 (metabolito activo), incrementando el riesgo de efectos adversos. Se recomienda evitar la combinación o reducir la dosis de Fostamatinib.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inductores potentes de CYP3A4 (ej. Rifampicina, Carbamazepina, Fenitoína, Hierba de San Juan)",
+        "effect": "Disminuyen significativamente los niveles en sangre de R406, pudiendo reducir su eficacia terapéutica. Se debe evitar la combinación o considerar un aumento de dosis con monitoreo.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Sustratos sensibles de CYP3A4 (ej. Simvastatina, Lovastatina)",
+        "effect": "El R406 puede inhibir levemente el CYP3A4, aumentando potencialmente los niveles de estos fármacos. Se recomienda precaución y monitoreo de efectos adversos.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Antihipertensivos",
+        "effect": "El Fostamatinib puede causar o empeorar la hipertensión. Puede antagonizar el efecto de los medicamentos para la presión alta. Se requiere monitoreo frecuente de la presión arterial.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Anticoagulantes/Antiagregantes plaquetarios (ej. Warfarina, Clopidogrel, Aspirina)",
+        "effect": "El aumento de plaquetas puede alterar el equilibrio del riesgo de sangrado/trombosis. Además, existe riesgo de sangrado gastrointestinal con Fostamatinib. Se requiere vigilancia estrecha.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "La administración con alimentos, especialmente con comidas con alto contenido de grasa, aumenta la absorción del fármaco (AUC) en más de un 50%. Es fundamental tomarlo siempre con alimentos para asegurar una exposición terapéutica adecuada y consistente. No se recomienda tomarlo en ayunas. El consumo de alcohol puede aumentar el riesgo de efectos adversos gastrointestinales y hepatotoxicidad.",
+    "withSupplements": "Evitar el uso de la Hierba de San Juan (Hypericum perforatum), un potente inductor enzimático que puede reducir drásticamente la eficacia del Fostamatinib. Los suplementos que afecten la función hepática (ej. altas dosis de vitamina A, algunos tés herbales) deben usarse con precaución. Consultar siempre con el médico o farmacéutico antes de iniciar cualquier suplemento."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "No asignada formalmente por la FDA, pero basado en datos animales se considera de riesgo potencial. En general, se clasificaría como C/D (riesgo no descartado / evidencia positiva de riesgo).",
+      "recommendación": "No se recomienda su uso durante el embarazo a menos que el beneficio para la madre justifique claramente el riesgo potencial para el feto. Los estudios en animales han mostrado toxicidad reproductiva. Las mujeres en edad fértil deben usar métodos anticonceptivos efectivos durante el tratamiento y por al menos 1 mes después de la última dosis.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se desconoce si el Fostamatinib o su metabolito activo se excretan en la leche humana. Dado el potencial de efectos adversos graves en el lactante, se recomienda no amamantar durante el tratamiento y por al menos 1 mes después de la última dosis.",
+    "pediatric": "La seguridad y eficacia en pacientes menores de 18 años no han sido establecidas. No está aprobado para uso pediátrico.",
+    "geriatric": "En los estudios clínicos, no se observaron diferencias generales de seguridad o eficacia en pacientes mayores de 65 años en comparación con los más jóvenes. Sin embargo, dada la mayor frecuencia de disminución de la función hepática, renal o cardiaca, y de enfermedades concomitantes, se recomienda precaución al iniciar el tratamiento. El monitoreo de la presión arterial y la función hepática/renal debe ser más estrecho."
+  },
+  "administration": {
+    "howToTake": "Tomar las tabletas por vía oral, siempre con alimentos. Tragar la tableta entera con un vaso de agua; no partir, triturar ni masticar. La dosis habitual es dos veces al día (cada 12 horas aproximadamente). Si se olvida una dosis, se debe tomar tan pronto como se recuerde, a menos que falten menos de 4 horas para la siguiente dosis. En ese caso, omitir la dosis olvidada y tomar la siguiente a la hora habitual. NO duplicar la dosis para compensar la olvidada.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (entre 15°C y 30°C). Proteger de la humedad y del calor excesivo. Mantener fuera del alcance y de la vista de los niños.",
+    "specialInstructions": "Es crucial el monitoreo regular por parte del médico. No suspender el tratamiento abruptamente sin consultar, ya que el recuento de plaquetas podría disminuir. Informar al médico sobre cualquier síntoma de sangrado, moretones inusuales, dolor abdominal intenso (posible pancreatitis), ictericia (color amarillo en piel/ojos) o síntomas de infección."
+  },
+  "monitoring": {
+    "labTests": [
+      "Recuento completo de plaquetas (CSC)",
+      "Presión arterial",
+      "Pruebas de función hepática (ALT, AST, bilirrubina)",
+      "Pruebas de función renal (creatinina, TFG)",
+      "Recuento de neutrófilos (parte del CSC)"
+    ],
+    "frequency": "Recuento de plaquetas: semanal al inicio, luego según criterio médico. Presión arterial: al inicio, a la semana, luego mensualmente. Función hepática: al inicio, cada mes durante los primeros 3 meses, luego periódicamente. Función renal: al inicio y periódicamente.",
+    "signsToWatch": [
+      "Sangrado inusual (encías, nariz, moretones sin causa aparente, sangre en orina/heces)",
+      "Heces negras o con sangre",
+      "Vómito con sangre o similar a café molido",
+      "Dolor de cabeza intenso y repentino",
+      "Mareo o desmayo",
+      "Dolor abdominal intenso y persistente (especialmente superior)",
+      "Coloración amarillenta de piel u ojos (ictericia)",
+      "Orina oscura",
+      "Fatiga extrema",
+      "Fiebre o signos de infección"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Los síntomas pueden ser una exageración de los efectos adversos conocidos: diarrea grave, náuseas, vómitos, mareo intenso, hipertensión severa, aumento marcado de enzimas hepáticas, riesgo de sangrado."
+    ],
+    "treatment": "No existe un antídoto específico. El tratamiento es de soporte y sintomático. Se debe suspender el fármaco inmediatamente. Monitorear signos vitales, recuento de plaquetas, función hepática y renal. Controlar la hipertensión si está presente. En caso de ingestión reciente, puede considerarse lavado gástrico o carbón activado. Mantener la vía aérea permeable.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especializada (prescripción por un hematólogo o médico con experiencia en PTI).",
+    "scheduleMexico": "Medicamento de patente, sujeto a prescripción médica. No está incluido en el cuadro básico de medicamentos del sector público en México.",
+    "fdaApprovalYear": "Aprobado por la FDA en abril de 2018."
+  },
+  "brandsMexico": [
+    "Tavalisse"
+  ],
+  "clinicalPearls": [
+    "El Fostamatinib es el primer y único inhibidor oral de SYK aprobado para la PTI, ofreciendo un mecanismo de acción único dirigido a la destrucción de plaquetas.",
+    "La respuesta al tratamiento puede ser lenta; se debe dar un período de al menos 12 semanas antes de considerar que un paciente no responde, especialmente si se tolera bien.",
+    "El manejo de la diarrea y la hipertensión, efectos muy comunes, es clave para la adherencia al tratamiento. Muchas veces se controlan con medidas de soporte o medicamentos concomitantes sin necesidad de suspender el Fostamatinib."
+  ],
+  "patientCounseling": "Estimado paciente, el Fostamatinib es un medicamento importante para ayudar a su cuerpo a producir y mantener más plaquetas. Debe tomarlo EXACTAMENTE como se lo indicó su médico: DOS veces al día, SIEMPRE con comida (desayuno y cena). No lo tome con el estómago vacío. Es normal que al inicio tenga diarrea o náuseas; informe a su médico para que le dé recomendaciones para manejarlas. Debe checarse la presión arterial regularmente, ya que este medicamento puede subirla. Esté muy atento a signos de sangrado (moretones nuevos, sangrado de encías, sangre en la orina o heces negras) o de problemas hepáticos (piel amarilla, dolor de estómago fuerte). No deje de tomarlo sin hablar con su médico, aunque se sienta mejor. Asista a todas sus citas de control para que le hagan análisis de sangre. Informe a todos sus médicos y dentistas que está tomando este fármaco antes de cualquier procedimiento.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Moretones frecuentes (equimosis)",
+        "slug": "moretones-frecuentes"
+      },
+      {
+        "name": "Sangrado de encías",
+        "slug": "sangrado-de-encias"
+      },
+      {
+        "name": "Sangrado nasal (epistaxis)",
+        "slug": "sangrado-nasal"
+      },
+      {
+        "name": "Petequias (puntitos rojos en la piel)",
+        "slug": "petequias"
+      },
+      {
+        "name": "Sangrado menstrual abundante (menorragia)",
+        "slug": "sangrado-menstrual-abundante"
+      },
+      {
+        "name": "Fatiga por anemia",
+        "slug": "fatiga-cronica"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Trombocitopenia inmune (PTI) crónica",
+        "slug": "trombocitopenia-inmune"
+      },
+      {
+        "name": "Púrpura trombocitopénica idiopática",
+        "slug": "purpura-trombocitopenica-idiopatica"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Hipertensión arterial",
+        "slug": "hipertension-arterial"
+      },
+      {
+        "name": "Diarrea crónica",
+        "slug": "diarrea-cronica"
+      },
+      {
+        "name": "Hepatotoxicidad (daño hepático)",
+        "slug": "hepatotoxicidad"
+      },
+      {
+        "name": "Pancreatitis",
+        "slug": "pancreatitis"
+      },
+      {
+        "name": "Neutropenia (bajos glóbulos blancos)",
+        "slug": "neutropenia"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Recuento de plaquetas",
+        "slug": "recuento-de-plaquetas",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Alanina aminotransferasa (ALT)",
+        "slug": "alanina-aminotransferasa",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Aspartato aminotransferasa (AST)",
+        "slug": "aspartato-aminotransferasa",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Presión arterial sistólica/diastólica",
+        "slug": "presion-arterial",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Recuento de neutrófilos",
+        "slug": "recuento-de-neutrofilos",
+        "effect": "Puede disminuir"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Biometría hemática completa (CSC)",
+        "slug": "biometria-hematica-completa",
+        "reason": "Para monitorear recuento de plaquetas y neutrófilos"
+      },
+      {
+        "name": "Perfil hepático",
+        "slug": "perfil-hepatico",
+        "reason": "Para detectar posible daño hepático inducido por el fármaco"
+      },
+      {
+        "name": "Medición de presión arterial",
+        "slug": "medicion-presion-arterial",
+        "reason": "Para controlar la hipertensión, un efecto adverso común"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve el Fostamatinib?",
+      "a": "Sirve para tratar la trombocitopenia inmune (PTI) crónica en adultos que no han respondido bien a otros tratamientos. Ayuda a aumentar el número de plaquetas en la sangre, reduciendo el riesgo de sangrados y moretones."
+    },
+    {
+      "q": "¿Cómo debo tomar las tabletas de Fostamatinib?",
+      "a": "Debe tomarlas por vía oral, dos veces al día (cada 12 horas aproximadamente), SIEMPRE con alimentos. Trague la tableta entera con agua. No la parta, mastique o triture."
+    },
+    {
+      "q": "¿Qué pasa si se me olvida una dosis?",
+      "a": "Tómela tan pronto como lo recuerde, pero si falta menos de 4 horas para su siguiente dosis, omita la que olvidó y continúe con su horario normal. NUNCA tome una dosis doble para compensar."
+    },
+    {
+      "q": "¿Cuáles son los efectos secundarios más comunes?",
+      "a": "Los más frecuentes son diarrea, aumento de la presión arterial, náuseas, mareos y aumento de algunas enzimas del hígado en los análisis de sangre. Su médico le ayudará a manejarlos."
+    },
+    {
+      "q": "¿Puedo tomar Fostamatinib si estoy embarazada o planeando un embarazo?",
+      "a": "NO se recomienda durante el embarazo a menos que sea absolutamente necesario. Puede causar daño al feto. Las mujeres en edad fértil deben usar un método anticonceptivo efectivo durante el tratamiento y por 1 mes después de terminarlo."
+    },
+    {
+      "q": "¿Puedo amamantar mientras tomo este medicamento?",
+      "a": "No se recomienda amamantar durante el tratamiento y por al menos 1 mes después de la última dosis, ya que se desconoce si pasa a la leche materna y podría afectar al bebé."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Algunas personas ven un aumento en sus plaquetas en 1 o 2 semanas, pero para alcanzar la respuesta completa puede tardar hasta 12 semanas o más. Es importante tener paciencia y no suspenderlo."
+    },
+    {
+      "q": "¿Interactúa con otros medicamentos?",
+      "a": "SÍ, de manera importante. Puede interactuar con muchos fármacos, como algunos antibióticos (ej. claritromicina), antimicóticos (ej. ketoconazol), anticonvulsivos y la Hierba de San Juan. Informe a su médico TODOS los medicamentos y suplementos que usa."
+    },
+    {
+      "q": "¿Puedo tomar alcohol mientras estoy en tratamiento?",
+      "a": "No se recomienda, ya que el alcohol puede aumentar el riesgo de daño al hígado y empeorar efectos secundarios como náuseas y diarrea."
+    },
+    {
+      "q": "¿Necesito hacerme análisis de sangre con frecuencia?",
+      "a": "SÍ, es fundamental. Al inicio, necesitará análisis de sangre (conteo de plaquetas y pruebas de hígado) con frecuencia (semanal o mensual) y checar su presión arterial regularmente. Luego, la frecuencia la determinará su médico."
+    },
+    {
+      "q": "¿El Fostamatinib cura la PTI?",
+      "a": "No es una cura, pero es un tratamiento que controla la enfermedad. Ayuda a mantener un recuento de plaquetas más seguro para prevenir sangrados. Generalmente se requiere tomarlo de forma continua."
+    },
+    {
+      "q": "¿Qué debo hacer si tengo diarrea grave?",
+      "a": "Manténgase hidratado bebiendo líquidos. Puede usar medicamentos antidiarreicos de venta libre (como loperamida) después de consultar con su médico o farmacéutico. Si la diarrea es persistente o severa, contacte a su médico."
+    },
+    {
+      "q": "¿Por qué sube la presión arterial con este medicamento?",
+      "a": "Es un efecto adverso conocido del fármaco, aunque el mecanismo exacto no está completamente claro. Por eso es vital monitorear la presión arterial. Su médico puede ajustar o iniciar medicamentos para la hipertensión si es necesario."
+    },
+    {
+      "q": "¿Puedo recibir vacunas mientras tomo Fostamatinib?",
+      "a": "Consulte con su médico. Las vacunas con virus vivos atenuados (como sarampión, paperas, rubeola, varicela, fiebre amarilla) pueden no ser seguras, ya que el fármaco puede afectar al sistema inmunológico. Las vacunas inactivadas (como la influenza inyectable) generalmente son seguras."
+    },
+    {
+      "q": "¿Debo suspender el Fostamatinib antes de una cirugía o procedimiento dental?",
+      "a": "NO lo suspenda por su cuenta. Su hematólogo y el cirujano o dentista deben coordinarse. La decisión dependerá de su recuento de plaquetas y del riesgo de sangrado vs. trombosis. Puede que le indiquen suspenderlo temporalmente o no."
+    },
+    {
+      "q": "¿Qué signos de alarma debo reportar a mi médico de inmediato?",
+      "a": "Sangrado inusual (nariz, encías, moretones grandes), heces negras o con sangre, vómito con sangre, dolor de cabeza intenso y repentino, dolor abdominal fuerte (especialmente en la parte superior), color amarillo en piel u ojos, fiebre o signos de infección."
+    },
+    {
+      "q": "¿Se puede usar en niños?",
+      "a": "Actualmente no está aprobado para su uso en niños o adolescentes menores de 18 años, ya que no se han realizado estudios suficientes en esta población."
+    },
+    {
+      "q": "¿Qué pasa si tengo problemas de hígado o riñón?",
+      "a": "Si tiene enfermedad hepática grave (cirrosis descompensada), no debe usarse. Si es leve o moderada, se usa con una dosis reducida y monitoreo estricto. En insuficiencia renal leve a moderada no se ajusta la dosis, pero en grave se debe usar con mucha precaución. Su médico evaluará su caso."
+    },
+    {
+      "q": "¿Es lo mismo que los esteroides (como la prednisona) para la PTI?",
+      "a": "No, es completamente diferente. Los esteroides son antiinflamatorios e inmunosupresores generales. El Fostamatinib es un tratamiento dirigido que bloquea específicamente la destrucción de plaquetas en el bazo. Se usa cuando los esteroides no funcionan o no se toleran."
+    },
+    {
+      "q": "¿Cómo se compara el Fostamatinib con otros tratamientos de segunda línea para la PTI, como el Rituximab o los agonistas del receptor de trombopoyetina (TPO-RA)?",
+      "a": "El Fostamatinib ofrece un mecanismo de acción único (inhibición de SYK) diferente al de los TPO-RA (que estimulan la producción de plaquetas) y al Rituximab (que elimina ciertas células B). Su perfil de efectos secundarios también es distinto (más diarrea e hipertensión, menos dolor de cabeza y trombosis que algunos TPO-RA). La elección depende de la respuesta previa del paciente, sus comorbilidades (como riesgo de trombosis o hipertensión) y las preferencias del médico y el paciente. Puede ser una opción especialmente útil después del fracaso de uno o más de estos tratamientos."
+    }
+  ]
+}

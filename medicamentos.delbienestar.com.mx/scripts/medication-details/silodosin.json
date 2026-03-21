@@ -1,0 +1,383 @@
+{
+  "name": "Silodosina",
+  "summary": "La silodosina es un medicamento que pertenece a la familia de los bloqueadores alfa-adrenérgicos, específicamente diseñado para tratar los síntomas urinarios causados por el agrandamiento de la próstata (hiperplasia prostática benigna o HPB). Actúa relajando los músculos de la próstata y el cuello de la vejiga, lo que facilita el paso de la orina, reduce la frecuencia y urgencia para orinar, y mejora el flujo urinario. Su importancia clínica radica en que es un tratamiento de primera línea para la HPB sintomática, ofreciendo un alivio rápido de los síntomas y mejorando significativamente la calidad de vida de los hombres, con un perfil de efectos secundarios que suele ser manejable, destacando por su selectividad que minimiza los efectos sobre la presión arterial en comparación con otros medicamentos de su clase. Es un fármaco que requiere receta médica y su uso debe ser supervisado por un profesional de la salud.",
+  "pharmacology": {
+    "mechanismOfAction": "La silodosina es un antagonista selectivo y potente de los receptores alfa-1A adrenérgicos. Estos receptores se encuentran en alta densidad en el músculo liso de la próstata, el cuello de la vejiga y la uretra prostática. Al bloquearlos, la silodosina inhibe la acción de la noradrenalina, un neurotransmisor que causa la contracción de estos músculos. Esto resulta en una relajación del músculo liso de la próstata y del tracto de salida de la vejiga, disminuyendo la resistencia al flujo de orina. Su alta selectividad por el subtipo alfa-1A (mayor que por los subtipos alfa-1B y alfa-1D) explica su mayor efecto sobre los síntomas urinarios y su menor impacto en los vasos sanguíneos (donde predominan los receptores alfa-1B), lo que se traduce en un menor riesgo de causar hipotensión (presión baja) y mareos ortostáticos.",
+    "pharmacologicClass": "Antagonista selectivo de los receptores adrenérgicos alfa-1A",
+    "therapeuticClass": "Agente para el tratamiento de los síntomas del tracto urinario inferior asociados a la hiperplasia prostática benigna (HPB)",
+    "absorption": "Se absorbe rápidamente por vía oral. La presencia de alimentos, especialmente alimentos con alto contenido de grasa, reduce la velocidad y el grado de absorción (Cmax y AUC). Se recomienda administrarlo con alimentos para mejorar la tolerabilidad gastrointestinal y reducir picos de concentración que podrían aumentar efectos adversos.",
+    "distribution": "Se distribuye ampliamente en los tejidos. Su unión a proteínas plasmáticas es alta, aproximadamente del 97%. Su volumen de distribución es de aproximadamente 49.5 litros, indicando una buena distribución en los tejidos, particularmente en la próstata.",
+    "metabolism": "La silodosina se metaboliza extensamente en el hígado principalmente por glucuronidación (mediada por la enzima UGT2B7) y, en menor medida, por el sistema del citocromo P450, específicamente por las isoenzimas CYP3A4. La forma glucuronidada es farmacológicamente inactiva. La vía CYP3A4 es menos significativa, pero es la base de importantes interacciones medicamentosas.",
+    "elimination": "La vida media de eliminación es de aproximadamente 13 horas. Se elimina principalmente por vía fecal (aproximadamente 55%) y en menor medida por vía urinaria (aproximadamente 33%), mayoritariamente en forma de metabolitos inactivos. Menos del 4% se excreta sin cambios en la orina.",
+    "onsetOfAction": "El inicio de la acción sintomática (mejoría en el flujo urinario y síntomas) puede observarse desde la primera dosis, pero la mejoría máxima generalmente se alcanza después de 2 a 4 semanas de tratamiento continuo.",
+    "durationOfAction": "Su efecto dura aproximadamente 24 horas, permitiendo una administración de una vez al día."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento de los signos y síntomas de la hiperplasia prostática benigna (HPB) sintomática",
+      "Alivio de los síntomas del tracto urinario inferior (STUI) como chorro urinario débil, vaciamiento incompleto, urgencia, frecuencia y nicturia (levantarse a orinar por la noche)"
+    ],
+    "offLabel": [
+      "Tratamiento coadyuvante en la expulsión de cálculos ureterales distales (piedras en el riñón)",
+      "Alivio de los espasmos uretrales post-cateterismo o post-cirugía urológica",
+      "Tratamiento de la prostatitis crónica/síndrome de dolor pélvico crónico (en combinación con otros fármacos, evidencia limitada)"
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis recomendada para hombres adultos es de 8 mg una vez al día, tomada con el mismo alimento (por ejemplo, siempre con el desayuno o siempre con la cena). No se recomienda iniciar con dosis más bajas. La dosis debe tomarse aproximadamente a la misma hora cada día.",
+    "pediatric": "No está indicado para uso en niños ni adolescentes. No se ha establecido la seguridad y eficacia en esta población.",
+    "elderly": "No se requiere ajuste de dosis basado únicamente en la edad. Sin embargo, se debe tener precaución debido a la mayor probabilidad de disminución de la función renal o hepática y a una mayor sensibilidad a los efectos adversos, especialmente los mareos ortostáticos.",
+    "renalImpairment": "Ajustes necesarios según la tasa de filtración glomerular (TFG): TFG ≥ 30 mL/min: No se requiere ajuste de dosis (8 mg/día). TFG < 30 mL/min (incluyendo insuficiencia renal grave y pacientes en diálisis): CONTRAINDICADO. La exposición al fármaco aumenta significativamente.",
+    "hepaticImpairment": "Pacientes con insuficiencia hepática leve (Child-Pugh A): No se requiere ajuste de dosis. Pacientes con insuficiencia hepática moderada o grave (Child-Pugh B o C): CONTRAINDICADO. El metabolismo está comprometido.",
+    "maxDose": "La dosis máxima diaria es de 8 mg. No se debe exceder esta dosis."
+  },
+  "dosageForms": [
+    {
+      "form": "Cápsula blanda",
+      "strengths": [
+        "4 mg",
+        "8 mg"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la silodosina o a cualquier componente de la formulación",
+      "Insuficiencia renal grave (TFG < 30 mL/min) o enfermedad renal terminal",
+      "Insuficiencia hepática moderada o grave (Child-Pugh B o C)",
+      "Uso concomitante con inhibidores potentes de la CYP3A4 (como ketoconazol, itraconazol, ritonavir, claritromicina)"
+    ],
+    "relative": [
+      "Historial de hipotensión ortostática (mareos al levantarse)",
+      "Pacientes programados para cirugía de cataratas (riesgo de síndrome de iris flácido intraoperatorio)",
+      "Pacientes con QT prolongado congénito o que toman medicamentos que prolongan el QT",
+      "Pacientes con insuficiencia cardíaca o enfermedad cardiovascular inestable"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Eyaculación anormal o reducida (aneyaculación o eyaculación retrógrada) - ocurre en más del 20% de los pacientes",
+      "Mareos"
+    ],
+    "common": [
+      "Diarrea",
+      "Hipotensión ortostática (mareo al ponerse de pie)",
+      "Cefalea (dolor de cabeza)",
+      "Congestión nasal (nariz tapada)",
+      "Síncope (desmayo) - aunque poco frecuente, es un efecto importante"
+    ],
+    "uncommon": [
+      "Insomnio",
+      "Prurito (comezón)",
+      "Erupción cutánea",
+      "Palpitaciones",
+      "Visión borrosa",
+      "Sequedad de boca"
+    ],
+    "rare": [
+      "Priapismo (erección prolongada y dolorosa) - requiere atención médica urgente",
+      "Angioedema (hinchazón de cara, labios, lengua)",
+      "Ictericia (coloración amarilla de piel y ojos) por colestasis",
+      "Rinitis",
+      "Fatiga"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Ketoconazol, Itraconazol, Voriconazol, Posaconazol",
+        "effect": "Aumento muy significativo de los niveles plasmáticos de silodosina, incrementando el riesgo de efectos adversos graves como hipotensión y síncope. Contraindicado.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Ritonavir, Atazanavir, Indinavir (inhibidores de la proteasa del VIH)",
+        "effect": "Aumento marcado de los niveles de silodosina. Contraindicado.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Claritromicina, Telitromicina",
+        "effect": "Aumento significativo de los niveles de silodosina. Contraindicado.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Otros bloqueadores alfa (Prazosina, Doxazosina, Tamsulosina, Terazosina, Alfuzosina)",
+        "effect": "Potenciación de los efectos hipotensores y aumento del riesgo de mareos ortostáticos y síncope. Generalmente se evita la combinación.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Fármacos antihipertensivos (Betabloqueadores, IECA, ARA II, diuréticos, bloqueadores de canales de calcio)",
+        "effect": "Puede potenciar el efecto de disminución de la presión arterial, aumentando el riesgo de mareos e hipotensión. Se requiere monitoreo de la presión arterial.",
+        "severidad": "Moderada"
+      },
+      {
+        "drug": "Sildenafil, Tadalafil, Vardenafil (inhibidores de la PDE5 para disfunción eréctil)",
+        "effect": "Puede potenciar el efecto hipotensor, causando mareos y desmayos. Se recomienda precaución y posible ajuste de dosis. Tomar con un intervalo de tiempo separado.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Se debe tomar CON ALIMENTOS. Los alimentos, especialmente los grasos, reducen la velocidad de absorción y las concentraciones máximas, lo que mejora la tolerabilidad y disminuye efectos adversos como mareos. El alcohol puede potenciar los efectos de mareo y somnolencia, por lo que se debe evitar o consumir con mucha moderación.",
+    "withSupplements": "Los suplementos que contienen berberina o extracto de pomelo pueden inhibir la CYP3A4 y aumentar los niveles de silodosina. Los suplementos con efectos hipotensores (como ajo en altas dosis, espino blanco) pueden potenciar los mareos. Se debe informar al médico sobre cualquier suplemento herbal que se esté tomando."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "No aplicable / No clasificado",
+      "recommendation": "La silodosina NO está indicada para su uso en mujeres. No existe información sobre su uso durante el embarazo. Su mecanismo de acción no es relevante para la fisiología femenina en el contexto de la HPB.",
+      "crossesPlacenta": false
+    },
+    "breastfeeding": "No aplicable. No está indicado para mujeres en periodo de lactancia.",
+    "pediatric": "No está indicado para niños o adolescentes. La seguridad y eficacia no han sido establecidas en esta población.",
+    "geriatric": "Los pacientes de edad avanzada (mayores de 65 años) tienen mayor probabilidad de presentar disminución de la función renal, por lo que se debe verificar la TFG antes de iniciar el tratamiento. También son más susceptibles a los efectos adversos, especialmente los mareos y la hipotensión ortostática, lo que aumenta el riesgo de caídas y fracturas. Se debe instruir sobre la precaución al levantarse de la cama o de una silla."
+  },
+  "administration": {
+    "howToTake": "Tomar exactamente como lo recetó el médico. La dosis habitual es una cápsula de 8 mg UNA VEZ AL DÍA. DEBE TOMARSE CON ALIMENTOS, preferentemente con la misma comida todos los días (ej. siempre con el desayuno). Tragar la cápsula entera con un vaso lleno de agua. No abrir, masticar o triturar las cápsulas. Si olvida una dosis, tómela tan pronto como lo recuerde, pero si ya es casi la hora de la siguiente dosis, omita la dosis olvidada y continúe con su horario regular. NO tome dos dosis para compensar la olvidada.",
+    "storage": "Conservar en su empaque original, a temperatura ambiente (entre 15°C y 30°C), en un lugar seco y fuera del alcance de los niños y mascotas. Proteger de la luz y la humedad.",
+    "specialInstructions": "Informe a su médico o cirujano oftalmólogo que está tomando silodosina ANTES de cualquier cirugía ocular, especialmente de cataratas, debido al riesgo de síndrome de iris flácido intraoperatorio (IFIS). Si va a someterse a una cirugía, informe a su anestesiólogo. No conduzca vehículos ni opere maquinaria pesada hasta que esté seguro de cómo le afecta el medicamento, especialmente durante los primeros días de tratamiento."
+  },
+  "monitoring": {
+    "labTests": [
+      "Tasa de filtración glomerular (TFG) o creatinina sérica (antes de iniciar)",
+      "Pruebas de función hepática (antes de iniciar si hay sospecha de enfermedad)",
+      "Presión arterial (en posición sentado y de pie) - especialmente al inicio y tras ajustes de dosis",
+      "Análisis de orina y antígeno prostático específico (PSA) según indicación para monitoreo de HPB"
+    ],
+    "frequency": "Evaluación de síntomas y presión arterial en las primeras 2-4 semanas. Monitoreo de función renal al menos una vez al año o según criterio médico. PSA según guías de seguimiento de HPB (generalmente anual).",
+    "signsToWatch": [
+      "Mareo intenso, aturdimiento o desmayo al ponerse de pie",
+      "Dificultad para respirar, hinchazón de cara/labios/lengua",
+      "Erección prolongada y dolorosa (priapismo) que dura más de 4 horas",
+      "Coloración amarillenta de piel u ojos (ictericia)",
+      "Dolor abdominal intenso",
+      "Empeoramiento de los síntomas urinarios o incapacidad para orinar"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Hipotensión arterial severa (presión muy baja)",
+      "Mareo intenso",
+      "Taquicardia (latidos rápidos) o bradicardia (latidos lentos)",
+      "Síncope (pérdida del conocimiento)",
+      "Shock cardiovascular"
+    ],
+    "treatment": "No existe antídoto específico. El tratamiento es de soporte y sintomático. En caso de hipotensión, colocar al paciente en posición de Trendelenburg (pies elevados), administrar líquidos intravenosos y considerar vasopresores (como noradrenalina o fenilefrina) si es necesario. El lavado gástrico puede considerarse si la ingestión fue reciente. Se debe proporcionar soporte cardiorrespiratorio según sea necesario. La diálisis no es efectiva debido a su alta unión a proteínas.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Rx)",
+    "scheduleMexico": "No está sujeto a control especial (no es psicotrópico ni estupefaciente). Se vende bajo receta médica archivada.",
+    "fdaApprovalYear": "2008 (Estados Unidos)"
+  },
+  "brandsMexico": [
+    "Urorec",
+    "Silodyx",
+    "Prostiben",
+    "Siloten",
+    "Uroflow",
+    "Silodal",
+    "Prostacalm",
+    "Urofin",
+    "Silotrend",
+    "Prosta-Silod"
+  ],
+  "clinicalPearls": [
+    "La eyaculación anormal (disminución o ausencia de eyaculación) es el efecto adverso más frecuente, pero NO afecta el deseo sexual ni la capacidad de tener una erección o un orgasmo. Es importante explicárselo al paciente para evitar suspensión innecesaria del tratamiento.",
+    "Por su alta selectividad alfa-1A, la silodosina tiene un menor impacto en la presión arterial que otros bloqueadores alfa no selectivos como la doxazosina, por lo que puede ser una opción preferida en pacientes hipertensos controlados o con riesgo de hipotensión.",
+    "El 'efecto de primera dosis' (hipotensión marcada con la primera toma) es menos común y severo con silodosina que con bloqueadores alfa más antiguos, pero aún así se recomienda tomar la primera dosis por la noche y con alimentos para minimizar riesgos."
+  ],
+  "patientCounseling": "Tome su cápsula de silodosina UNA VEZ AL DÍA, SIEMPRE CON ALIMENTOS, por ejemplo, con el desayuno o la cena. Esto ayuda a que su cuerpo la tolere mejor y reduce mareos. Es normal que note una disminución o ausencia de líquido al eyacular; esto no es dañino y no afecta su placer sexual. Levántese lentamente de la cama o de una silla, especialmente durante los primeros días, para evitar mareos o caídas. No deje de tomar el medicamento aunque se sienta mejor; la HPB es una condición crónica. Si olvida una dosis, tómela con comida cuando se acuerde, pero si ya es casi la hora de la siguiente, sáltese la olvidada. Nunca tome dos dosis juntas. Informe a todos sus médicos, especialmente al urólogo y al oftalmólogo, que está tomando este medicamento. Consulte de inmediato si tiene mareos fuertes, se desmaya, tiene una erección dolorosa que dura más de 4 horas, o si nota que su piel u ojos se ponen amarillos.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Chorro urinario débil",
+        "slug": "chorro-urinario-debil"
+      },
+      {
+        "name": "Urgencia para orinar",
+        "slug": "urgencia-para-orinar"
+      },
+      {
+        "name": "Frecuencia urinaria aumentada",
+        "slug": "frecuencia-urinaria-aumentada"
+      },
+      {
+        "name": "Nicturia (levantarse a orinar de noche)",
+        "slug": "nicturia"
+      },
+      {
+        "name": "Dificultad para iniciar la micción",
+        "slug": "dificultad-para-iniciar-la-miccion"
+      },
+      {
+        "name": "Goteo postmiccional",
+        "slug": "goteo-postmiccional"
+      },
+      {
+        "name": "Sensación de vaciamiento incompleto",
+        "slug": "sensacion-de-vaciamiento-incompleto"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Hiperplasia Prostática Benigna (HPB)",
+        "slug": "hiperplasia-prostatica-benigna"
+      },
+      {
+        "name": "Síntomas del Tracto Urinario Inferior (STUI)",
+        "slug": "sintomas-del-tracto-urinario-inferior"
+      },
+      {
+        "name": "Obstrucción del tracto de salida de la vejiga",
+        "slug": "obstruccion-del-tracto-de-salida-de-la-vejiga"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Hipotensión ortostática",
+        "slug": "hipotension-ortostatica"
+      },
+      {
+        "name": "Síncope",
+        "slug": "sincope"
+      },
+      {
+        "name": "Priapismo",
+        "slug": "priapismo"
+      },
+      {
+        "name": "Colestasis",
+        "slug": "colestasis"
+      },
+      {
+        "name": "Síndrome de iris flácido intraoperatorio",
+        "slug": "sindrome-de-iris-flacido-intraoperatorio"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Presión arterial sistólica",
+        "slug": "presion-arterial-sistolica",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Presión arterial diastólica",
+        "slug": "presion-arterial-diastolica",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede aumentar (reflejo)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Creatinina sérica y cálculo de TFG",
+        "slug": "creatinina-serica",
+        "reason": "Esencial antes de iniciar para descartar insuficiencia renal (contraindicación)"
+      },
+      {
+        "name": "Presión arterial",
+        "slug": "presion-arterial",
+        "reason": "Monitorear posibles efectos hipotensores, especialmente al inicio"
+      },
+      {
+        "name": "Antígeno Prostático Específico (PSA)",
+        "slug": "antigeno-prostatico-especifico",
+        "reason": "Parte del manejo diagnóstico y de seguimiento de la HPB"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de TFG (aclaramiento de creatinina)",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de IMC",
+        "slug": "calculadora-imc"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve la silodosina?",
+      "a": "Sirve para tratar los síntomas molestos causados por el agrandamiento de la próstata (HPB), como el chorro de orina débil, la necesidad frecuente y urgente de orinar (incluso de noche), y la dificultad para empezar a orinar. Relaja los músculos de la próstata y la vejiga para que orinar sea más fácil."
+    },
+    {
+      "q": "¿Cómo debo tomar la silodosina?",
+      "a": "Debe tomar una cápsula al día, exactamente a la dosis que le recetó su médico (usualmente 8 mg). Es MUY IMPORTANTE tomarla CON ALIMENTOS, por ejemplo, con el desayuno o la cena. Esto ayuda a reducir los mareos. Tráguela entera con un vaso de agua."
+    },
+    {
+      "q": "¿Qué pasa si olvido una dosis?",
+      "a": "Si se le olvida, tómela en cuanto se acuerde, pero con comida. Si ya es casi la hora de su siguiente dosis, sáltese la que olvidó y continúe con su horario normal. NUNCA tome dos cápsulas el mismo día para compensar."
+    },
+    {
+      "q": "¿La silodosina cura la próstata grande?",
+      "a": "No, no cura el agrandamiento de la próstata. Es un tratamiento que controla los síntomas mientras usted la tome. Si deja de tomarla, los síntomas probablemente regresarán. Es como los lentes para la vista: mejoran la visión mientras los usa."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Puede notar mejoría en el flujo de orina desde los primeros días. Sin embargo, la mejoría completa de todos los síntomas (como menos idas al baño de noche) puede tardar entre 2 y 4 semanas de tratamiento continuo."
+    },
+    {
+      "q": "¿Por qué me mandan tomarla con comida?",
+      "a": "Porque los alimentos, especialmente si tienen grasa, hacen que el medicamento se absorba más lentamente. Esto evita que llegue demasiada cantidad de golpe a su sangre, reduciendo los efectos secundarios como mareos y aturdimiento."
+    },
+    {
+      "q": "¿La silodosina afecta la presión arterial?",
+      "a": "Puede causar una pequeña disminución de la presión arterial, especialmente al levantarse rápidamente (lo que se siente como mareo). Por eso es importante levantarse despacio. Si usted ya toma medicamentos para la presión alta, su médico lo vigilará de cerca."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si tomo silodosina?",
+      "a": "Se recomienda evitar o limitar mucho el consumo de alcohol. El alcohol puede aumentar los mareos y la somnolencia causados por el medicamento, aumentando el riesgo de caídas."
+    },
+    {
+      "q": "¿Puedo manejar o operar maquinaria?",
+      "a": "Tenga precaución, especialmente al inicio del tratamiento o cuando aumente la dosis. No maneje ni opere herramientas peligrosas hasta que esté seguro de que el medicamento no le causa mareos o somnolencia."
+    },
+    {
+      "q": "Un efecto común es que sale poco o nada de líquido al eyacular. ¿Esto es malo? ¿Afecta mi fertilidad?",
+      "a": "No es malo ni dañino para su salud. Lo que ocurre es que el semen va hacia la vejiga en lugar de salir (eyaculación retrógrada). La sensación de placer y el orgasmo son normales. Sí puede afectar la fertilidad, ya que el semen no llega al exterior. Si planea tener hijos, coméntelo con su médico."
+    },
+    {
+      "q": "¿La silodosina causa cáncer de próstata?",
+      "a": "No, no causa cáncer de próstata. De hecho, se usa para los síntomas de la próstata grande benigna (HPB). Sin embargo, NO protege contra el cáncer. Es importante que se haga sus revisiones de rutina (como el tacto rectal y el PSA) según le indique su urólogo."
+    },
+    {
+      "q": "¿Puedo tomar silodosina si tengo problemas de los riñones?",
+      "a": "Depende de qué tan avanzado sea el problema. Si su función renal es moderadamente buena o leve, probablemente sí pueda. Pero si tiene insuficiencia renal grave o está en diálisis, el medicamento está CONTRAINDICADO. Su médico le hará un examen de sangre (creatinina) para saberlo."
+    },
+    {
+      "q": "¿Qué hago si me siento muy mareado o me desmayo?",
+      "a": "Si se siente muy mareado, siéntese o acuéstese de inmediato para evitar una caída. Si se desmaya, consulte a su médico URGENTEMENTE. Puede ser necesario ajustar la dosis o cambiar de medicamento. Nunca deje de tomarla por su cuenta sin hablar con su doctor."
+    },
+    {
+      "q": "¿Interfiere con medicamentos para la disfunción eréctil (como sildenafil - Viagra)?",
+      "a": "Sí, puede haber interacción. Ambos medicamentos pueden bajar la presión arterial. Si los toma juntos, el riesgo de mareos y desmayos aumenta. Siempre informe a su médico que toma silodosina antes de que le recete algo para la disfunción eréctil. Es posible que le recomienden separar las dosis o usar una dosis más baja."
+    },
+    {
+      "q": "Voy a operarme de cataratas, ¿debo avisar algo?",
+      "a": "SÍ, es MUY IMPORTANTE. Informe a su cirujano oftalmólogo que está tomando silodosina. Este medicamento puede causar una complicación durante la cirugía llamada 'síndrome de iris flácido', que hace la operación más difícil. El cirujano necesita saberlo para estar preparado y tomar precauciones especiales."
+    },
+    {
+      "q": "¿Puedo dejar de tomar la silodosina de golpe?",
+      "a": "Sí, puede dejarla de golpe si su médico se lo indica. No produce síndrome de abstinencia. Sin embargo, los síntomas de la próstata grande (dificultad para orinar, etc.) regresarán gradualmente a como estaban antes de empezar el tratamiento."
+    },
+    {
+      "q": "¿La silodosina es mejor que la tamsulosina (Flomax)?",
+      "a": "Ambos son muy efectivos y pertenecen a la misma familia. La silodosina es más selectiva para la próstata, por lo que en algunos estudios causa menos efectos sobre la presión arterial. La elección depende de cada paciente, sus otros padecimientos y cómo tolere los efectos secundarios (como los cambios en la eyaculación). Su urólogo decidirá cuál es la mejor opción para usted."
+    },
+    {
+      "q": "¿Qué pasa si tomo más de la dosis recetada por error?",
+      "a": "Si toma una dosis mayor a la recetada (por ejemplo, dos cápsulas en un día), puede sufrir mareos intensos, presión arterial muy baja y desmayos. Beba agua, acuéstese y consulte a su médico o acuda a un servicio de urgencias de inmediato, llevando el medicamento."
+    },
+    {
+      "q": "¿La silodosina afecta los resultados del examen de PSA?",
+      "a": "La silodosina por sí sola NO aumenta el nivel de PSA en la sangre. El PSA puede estar elevado por la HPB o por el cáncer de próstata. Es importante que su médico sepa que usted toma silodosina para interpretar correctamente el resultado del PSA en el contexto de su tratamiento."
+    },
+    {
+      "q": "¿En qué tipo de paciente con HPB se prefiere iniciar con silodosina sobre otros tratamientos?",
+      "a": "Los médicos pueden preferir iniciar con silodosina en pacientes con HPB sintomática que tienen presión arterial normal o baja, o que son muy sensibles a los efectos de baja presión de otros bloqueadores alfa. También es una opción sólida cuando el síntoma más molesto es el vaciamiento incompleto y el chorro débil, debido a su potente efecto relajante en la próstata. Su perfil de seguridad lo hace adecuado para adultos mayores, siempre y cuando la función renal sea adecuada (TFG ≥ 30)."
+    }
+  ]
+}

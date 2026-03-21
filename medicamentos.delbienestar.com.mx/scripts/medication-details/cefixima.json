@@ -1,0 +1,393 @@
+{
+  "name": "Cefixima",
+  "summary": "La cefixima es un antibiótico de la familia de las cefalosporinas de tercera generación, que se toma por vía oral. Sirve para tratar infecciones causadas por bacterias sensibles, como infecciones de garganta (faringitis estreptocócica), infecciones del oído (otitis media), infecciones urinarias (cistitis, pielonefritis), infecciones respiratorias (bronquitis aguda) y gonorrea no complicada. Es importante clínicamente porque es un antibiótico de amplio espectro, lo que significa que combate muchos tipos de bacterias, y su presentación oral (una o dos veces al día) lo hace muy conveniente para completar el tratamiento en casa, lo que ayuda a evitar complicaciones y la propagación de la infección. Sin embargo, es crucial tomarlo exactamente como lo recetó el médico, completando todos los días de tratamiento aunque ya te sientas mejor, para evitar que las bacterias se vuelvan resistentes y el antibiótico deje de funcionar en el futuro.",
+  "pharmacology": {
+    "mechanismOfAction": "La cefixima mata a las bacterias (es bactericida) al interferir con la formación de su pared celular. La pared celular es como una armadura que protege a la bacteria. La cefixima se une a unas proteínas específicas en la bacteria llamadas Proteínas Fijadoras de Penicilina (PBP). Estas proteínas son esenciales para construir y reparar la pared celular. Al unirse a ellas, la cefixima bloquea el último paso de la síntesis de la pared, que es la formación de los enlaces cruzados de peptidoglicano. Esto debilita la pared celular, hace que se vuelva defectuosa y, finalmente, causa que la bacteria se rompa (lisis) y muera, especialmente cuando está creciendo y multiplicándose activamente.",
+    "pharmacologicClass": "Antibiótico beta-lactámico, Cefalosporina de tercera generación.",
+    "therapeuticClass": "Antibiótico sistémico.",
+    "absorption": "Se absorbe bien por vía oral, pero la presencia de alimentos puede retrasar ligeramente la absorción sin afectar significativamente la cantidad total de medicamento que llega a la sangre (biodisponibilidad). La biodisponibilidad es de aproximadamente 40-50%. Los niveles máximos en sangre se alcanzan entre 2 y 6 horas después de tomarlo.",
+    "distribution": "Se distribuye ampliamente por los tejidos y fluidos del cuerpo. Tiene buena penetración en tejidos como las amígdalas, el líquido del oído medio, las vías respiratorias y el tracto urinario. Cruza la placenta y se excreta en la leche materna en pequeñas cantidades. Su unión a proteínas plasmáticas es moderada, alrededor del 65-70%.",
+    "metabolism": "La cefixima no se metaboliza significativamente en el hígado. No es sustrato de las enzimas del citocromo P450 (CYP). Se elimina mayoritariamente sin cambios. Esto reduce el riesgo de interacciones medicamentosas relacionadas con el metabolismo hepático.",
+    "elimination": "Se elimina principalmente por los riñones, a través de la orina, tanto por filtración glomerular como por secreción tubular. Una pequeña parte se elimina por la bilis y las heces. Su vida media de eliminación es de aproximadamente 3 a 4 horas en adultos con función renal normal. Esta vida media permite la administración una o dos veces al día.",
+    "onsetOfAction": "Los niveles en sangre comienzan a ser efectivos poco después de la absorción (1-2 horas). Sin embargo, la mejoría clínica de los síntomas (como la fiebre o el dolor) suele notarse después de 24 a 72 horas de iniciado el tratamiento, dependiendo de la gravedad de la infección.",
+    "durationOfAction": "Debido a su vida media de 3-4 horas y a su efecto post-antibiótico (capacidad de seguir suprimiendo el crecimiento bacteriano después de que la concentración del fármaco ha bajado), su efecto dura lo suficiente para permitir dosificaciones cada 12 o 24 horas, manteniendo concentraciones en sangre y tejidos por encima de lo necesario para combatir a las bacterias sensibles."
+  },
+  "indications": {
+    "approved": [
+      "Faringitis y amigdalitis agudas causadas por Streptococcus pyogenes (infección estreptocócica de garganta).",
+      "Otitis media aguda causada por Haemophilus influenzae, Moraxella catarrhalis y Streptococcus pyogenes.",
+      "Bronquitis aguda y exacerbaciones agudas de bronquitis crónica causadas por Streptococcus pneumoniae y Haemophilus influenzae.",
+      "Infecciones del tracto urinario no complicadas (cistitis) causadas por Escherichia coli y Proteus mirabilis.",
+      "Gonorrea urogenital no complicada (cervicitis/uretritis) causada por Neisseria gonorrhoeae."
+    ],
+    "offLabel": [
+      "Profilaxis de infecciones en procedimientos urológicos (en pacientes con alto riesgo).",
+      "Tratamiento de fiebre tifoidea (Salmonella Typhi) en áreas con cepas sensibles.",
+      "Infecciones por Shigella (shigelosis).",
+      "Alternativa oral en el tratamiento escalonado (de intravenoso a oral) de algunas infecciones intraabdominales leves."
+    ]
+  },
+  "dosage": {
+    "adults": "Para la mayoría de las infecciones (respiratorias, urinarias): 400 mg una vez al día, o 200 mg cada 12 horas. Para gonorrea no complicada: una dosis única de 400 mg. En infecciones más graves, el médico puede indicar 400 mg cada 12 horas.",
+    "pediatric": "Se calcula por peso corporal. Dosis habitual: 8 mg por kilogramo de peso por día, administrada en una sola toma o dividida en 2 tomas (cada 12 horas). Para otitis media, puede usarse una dosis de 8 mg/kg/día. La dosis máxima pediátrica no debe exceder los 400 mg al día. Para niños mayores de 12 años o con peso superior a 50 kg, se usa la dosis de adulto.",
+    "elderly": "No se requiere ajuste de dosis inicial basado solo en la edad, siempre que la función renal sea normal. Sin embargo, es común que los adultos mayores tengan una función renal disminuida, por lo que es esencial evaluar la Tasa de Filtración Glomerular (TFG) y ajustar la dosis si es necesario.",
+    "renalImpairment": "Se requiere ajuste porque se elimina por el riñón. TFG >60 mL/min: dosis normal. TFG entre 20-60 mL/min: la dosis diaria máxima no debe exceder los 200 mg. TFG <20 mL/min o pacientes en diálisis: la dosis diaria máxima no debe exceder los 200 mg, y puede ser necesario espaciar las dosis (ej. cada 48 horas). Se puede administrar una dosis suplementaria después de la diálisis.",
+    "hepaticImpairment": "No se requiere ajuste de dosis en insuficiencia hepática leve a moderada, ya que no se metaboliza en el hígado. En insuficiencia hepática grave, se debe usar con precaución y monitorear, pero no hay recomendaciones específicas de ajuste.",
+    "maxDose": "La dosis máxima diaria para adultos es de 400 mg cada 12 horas (800 mg/día), pero esto solo se usa en infecciones graves bajo supervisión médica estricta. La dosis habitual máxima es de 400 mg una vez al día."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "200 mg",
+        "400 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tableta masticable",
+      "strengths": [
+        "100 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Suspensión oral (polvo para reconstituir)",
+      "strengths": [
+        "100 mg/5 mL"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad (alergia) conocida y grave a la cefixima o a cualquier otro antibiótico de la familia de las cefalosporinas.",
+      "Pacientes con antecedente de reacción anafiláctica (alergia grave con dificultad para respirar) a cualquier antibiótico beta-lactámico (penicilinas, cefalosporinas, carbapenémicos, monobactámicos)."
+    ],
+    "relative": [
+      "Pacientes con antecedente de colitis pseudomembranosa (diarrea grave asociada a antibióticos).",
+      "Insuficiencia renal severa (requiere ajuste de dosis, no es contraindicación absoluta).",
+      "Pacientes con alergia a penicilinas de tipo leve (como solo salpullido). En estos casos, el médico evaluará el riesgo-beneficio, ya que existe reactividad cruzada parcial."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Diarrea (puede ser desde leve hasta colitis pseudomembranosa).",
+      "Náuseas.",
+      "Dolor abdominal."
+    ],
+    "common": [
+      "Dolor de cabeza.",
+      "Mareos.",
+      "Indigestión o gases (flatulencia).",
+      "Vómitos.",
+      "Sarpullido o picazón en la piel.",
+      "Candidiasis vaginal (infección por hongos) en mujeres."
+    ],
+    "uncommon": [
+      "Colitis pseudomembranosa (diarrea acuosa y severa, con fiebre y dolor abdominal).",
+      "Aumento de enzimas hepáticas (transaminasas).",
+      "Disminución de glóbulos blancos (leucopenia).",
+      "Vértigo."
+    ],
+    "rare": [
+      "Reacción alérgica grave (anafilaxia) con dificultad para respirar, hinchazón de cara/lengua.",
+      "Síndrome de Stevens-Johnson o necrólisis epidérmica tóxica (erupción cutánea grave con ampollas).",
+      "Daño hepático (hepatitis colestásica).",
+      "Anemia hemolítica (destrucción de glóbulos rojos).",
+      "Convulsiones (en casos de sobredosis o falla renal).",
+      "Nefritis intersticial (inflamación del riñón)."
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Anticoagulantes (Warfarina, Acenocumarol)",
+        "effect": "La cefixima puede potenciar el efecto anticoagulante, aumentando el riesgo de sangrado. Se debe monitorear estrechamente el INR.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Probenecid",
+        "effect": "El probenecid bloquea la eliminación renal de la cefixima, haciendo que sus niveles en sangre aumenten y se prolongue su efecto. Puede requerir ajuste de dosis.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Antiacidos que contienen Aluminio o Magnesio",
+        "effect": "Pueden disminuir la absorción de cefixima, reduciendo su efectividad. Se recomienda separar la toma de la cefixima y el antiácido por al menos 2 horas.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Puede tomarse con o sin alimentos. Tomarlo con alimentos puede ayudar a reducir las molestias estomacales (náuseas, dolor abdominal). El alcohol no interactúa directamente con la cefixima, pero se desaconseja su consumo durante cualquier infección y tratamiento con antibióticos, ya que puede empeorar los efectos secundarios como náuseas y mareos, y dificultar la recuperación.",
+    "withSupplements": "Los suplementos que contienen calcio, hierro o zinc en altas dosis pueden interferir con la absorción de cefixima, similar a los antiácidos. Se recomienda separar su ingesta por al menos 2 horas. Los probióticos pueden ser útiles para prevenir la diarrea asociada a antibióticos."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "B",
+      "recommendación": "Los estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. La cefixima debe usarse durante el embarazo solo si claramente es necesario, después de que el médico evalúe los beneficios y riesgos. Se considera una opción relativamente segura para tratar infecciones urinarias o respiratorias en el embarazo cuando está indicada.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La cefixima se excreta en la leche materna en concentraciones bajas. Se considera compatible con la lactancia, ya que es poco probable que cause efectos adversos significativos en el lactante. Sin embargo, se ha reportado riesgo de diarrea o candidiasis (hongos) en el bebé. Se debe observar al lactante por posibles efectos como diarrea o salpullido. El médico decidirá si la madre puede amamantar durante el tratamiento.",
+    "pediatric": "Aprobado para uso en niños mayores de 6 meses para ciertas indicaciones (como otitis media). La presentación en suspensión es la más adecuada para niños pequeños. La dosis se calcula cuidadosamente por peso. No se recomienda en neonatos (menores de 1 mes).",
+    "geriatric": "Los adultos mayores son más susceptibles a los efectos adversos, especialmente la diarrea y la colitis pseudomembranosa. La función renal suele estar disminuida, por lo que es IMPRESCINDIBLE evaluar la TFG y ajustar la dosis para evitar acumulación del medicamento y toxicidad. También pueden ser más sensibles a los efectos sobre la coagulación si toman anticoagulantes."
+  },
+  "administration": {
+    "howToTake": "Tome la cefixima exactamente como se lo indicó su médico. Las tabletas se tragan enteras con un vaso lleno de agua. Las tabletas masticables deben masticarse completamente antes de tragar. La suspensión oral debe agitarse bien antes de cada uso. Use el dosificador (jeringa o cuchara) que viene con el medicamento para medir la dosis exacta. Puede tomarse con o sin alimentos. Si toma una dosis al día, trate de tomarla a la misma hora cada día. Si toma dos dosis al día, sepárelas por 12 horas (por ejemplo, 8 am y 8 pm).",
+    "storage": "Tabletas: Almacenar a temperatura ambiente (15-30°C), en un lugar seco y fuera del alcance de los niños. Suspensión reconstituida: Una vez preparada mezclando el polvo con agua, debe guardarse en el refrigerador (2-8°C). No congelar. La suspensión refrigerada es estable por 14 días. Deseche cualquier porción no utilizada después de ese tiempo. Etiquete el frasco con la fecha de preparación.",
+    "specialInstructions": "NO DEJE DE TOMAR EL MEDICAMENTO aunque se sienta mejor. Complete TODO el tratamiento recetado (generalmente de 5 a 14 días, a menos que sea dosis única para gonorrea). Suspenderlo antes de tiempo puede hacer que la infección regrese y que las bacterias se vuelvan resistentes. Si presenta diarrea acuosa o con sangre, fiebre y dolor abdominal intenso durante o después del tratamiento, DEJE DE TOMARLO y contacte a su médico inmediatamente, ya que puede ser colitis pseudomembranosa. Informe a su médico si tiene problemas renales."
+  },
+  "monitoring": {
+    "labTests": [
+      "Cultivo y antibiograma (para confirmar la bacteria causante y su sensibilidad a la cefixima).",
+      "Función renal (creatinina sérica, TFG) antes y durante tratamientos prolongados o en pacientes de riesgo.",
+      "Pruebas de función hepática (transaminasas) en tratamientos largos.",
+      "Conteo sanguíneo completo (CSC) si hay sospecha de efectos en la sangre.",
+      "Pruebas de coagulación (TP/INR) si el paciente toma anticoagulantes."
+    ],
+    "frequency": "En tratamientos cortos (5-10 días) para infecciones comunes, generalmente no se requiere monitoreo de laboratorio rutinario. En tratamientos prolongados (>14 días), en pacientes con insuficiencia renal, o en aquellos que toman anticoagulantes, se debe monitorear la función renal y el INR según lo indique el médico (puede ser semanal o al final del tratamiento).",
+    "signsToWatch": [
+      "Signos de alergia: salpullido, urticaria (ronchas), picazón, hinchazón de cara/labios/lengua, dificultad para respirar.",
+      "Signos de colitis pseudomembranosa: diarrea acuosa o con sangre, calambres o dolor abdominal intenso, fiebre.",
+      "Signos de infección persistente: fiebre que no cede, empeoramiento de los síntomas después de 2-3 días de tratamiento.",
+      "Signos de sangrado anormal (si toma anticoagulantes): moretones sin causa, sangrado de encías, sangre en la orina o heces negras."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Náuseas y vómitos severos.",
+      "Diarrea profusa.",
+      "Dolor abdominal intenso.",
+      "Convulsiones (especialmente en pacientes con falla renal).",
+      "Alteraciones en los exámenes de sangre (elevación de creatinina)."
+    ],
+    "treatment": "El tratamiento es de soporte. No hay un antídoto específico. Se debe suspender el medicamento inmediatamente. El lavado gástrico puede considerarse si la ingestión fue reciente. Mantener la hidratación y el equilibrio de electrolitos, especialmente por la diarrea y vómitos. En casos de convulsiones, se administran anticonvulsivantes. La hemodiálisis puede eliminar parcialmente la cefixima de la sangre y es útil en casos de intoxicación grave, especialmente con insuficiencia renal.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Rx). Es un antibiótico de venta controlada.",
+    "scheduleMexico": "Medicamento de la Fracción IV del Cuadro Básico de Medicamentos. Su venta requiere receta médica retenida en la farmacia.",
+    "fdaApprovalYear": "Aprobado por la FDA de Estados Unidos en 1989."
+  },
+  "brandsMexico": [
+    "Cefixime",
+    "Cefixima MK",
+    "Ceforal",
+    "Fixime",
+    "Kefix",
+    "Maxibat",
+    "Omnicef",
+    "Oroxim",
+    "Pancef",
+    "Suprax",
+    "Teflox",
+    "Ximacef",
+    "Zifi"
+  ],
+  "clinicalPearls": [
+    "Es una excelente opción oral para el tratamiento escalonado (step-down therapy) de infecciones que inicialmente requirieron cefalosporinas intravenosas de tercera generación.",
+    "Su espectro cubre bacterias gramnegativas comunes (como E. coli, H. influenzae) mejor que las cefalosporinas de primera generación, pero tiene menor actividad contra Staphylococcus aureus.",
+    "No es activa contra Pseudomonas aeruginosa ni enterococos.",
+    "La dosis única de 400 mg es muy efectiva para la gonorrea no complicada, pero debido a la creciente resistencia, a menudo se combina con azitromicina o doxiciclina.",
+    "En pacientes con alergia a penicilina de tipo no grave (exantema), el riesgo de reactividad cruzada con cefixima es bajo (<5%), pero debe usarse con precaución y bajo supervisión."
+  ],
+  "patientCounseling": "Querido paciente, la cefixima es un antibiótico fuerte que te ayudará a combatir la infección. Para que funcione bien y evites problemas, es muy importante que sigas estas indicaciones: Toma la dosis exacta a la hora que te dijo el doctor, completa todos los días de tratamiento aunque ya te sientas bien. Si se te olvida una dosis, tómala en cuanto te acuerdes, pero si ya es casi la hora de la siguiente, omite la que olvidaste y continúa con tu horario normal. Nunca tomes doble dosis. Puedes tomarlo con alimentos si te causa malestar estomacal. Bebe suficiente agua. Estate atento: si te sale salpullido, te hinchas o te falta el aire, deja de tomarlo y ve al médico de inmediato. Si tienes diarrea muy aguada o con sangre, también para y avisa. No compartas tu medicamento con otras personas, aunque tengan síntomas similares. Guarda la suspensión en el refrigerador y bótala después de 14 días. Ante cualquier duda, consulta a tu médico o farmacéutico.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor de garganta",
+        "slug": "dolor-de-garganta"
+      },
+      {
+        "name": "Fiebre",
+        "slug": "fiebre"
+      },
+      {
+        "name": "Dolor al orinar",
+        "slug": "disuria"
+      },
+      {
+        "name": "Secreción uretral o vaginal",
+        "slug": "secrecion-uretral"
+      },
+      {
+        "name": "Tos con flemas",
+        "slug": "tos-productiva"
+      },
+      {
+        "name": "Dolor de oído",
+        "slug": "otalgia"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Faringitis estreptocócica",
+        "slug": "faringitis-estreptococica"
+      },
+      {
+        "name": "Otitis media aguda",
+        "slug": "otitis-media"
+      },
+      {
+        "name": "Bronquitis aguda",
+        "slug": "bronquitis-aguda"
+      },
+      {
+        "name": "Infección de vías urinarias (Cistitis)",
+        "slug": "infeccion-vias-urinarias"
+      },
+      {
+        "name": "Gonorrea",
+        "slug": "gonorrea"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Colitis pseudomembranosa",
+        "slug": "colitis-pseudomembranosa"
+      },
+      {
+        "name": "Insuficiencia renal aguda",
+        "slug": "insuficiencia-renal-aguda"
+      },
+      {
+        "name": "Reacción alérgica grave (Anafilaxia)",
+        "slug": "anafilaxia"
+      },
+      {
+        "name": "Candidiasis vaginal",
+        "slug": "candidiasis-vaginal"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Transaminasas (ALT, AST)",
+        "slug": "transaminasas",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Tiempo de Protrombina (INR)",
+        "slug": "tiempo-protrombina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Recuento de leucocitos",
+        "slug": "leucocitos",
+        "effect": "Puede disminuir"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Urocultivo y antibiograma",
+        "slug": "urocultivo",
+        "reason": "Para diagnosticar y guiar el tratamiento de infecciones urinarias."
+      },
+      {
+        "name": "Cultivo de exudado faríngeo",
+        "slug": "cultivo-faringeo",
+        "reason": "Para confirmar faringitis estreptocócica."
+      },
+      {
+        "name": "Prueba de función renal",
+        "slug": "prueba-funcion-renal",
+        "reason": "Para ajustar la dosis y evitar toxicidad."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La cefixima es lo mismo que la penicilina?",
+      "a": "No, son antibióticos de familias diferentes (cefixima es cefalosporina, penicilina es penicilina), pero son parientes lejanos. Si es alérgico a la penicilina, debe informarlo a su médico, ya que existe un pequeño riesgo de alergia cruzada."
+    },
+    {
+      "q": "¿Puedo tomar cefixima si estoy embarazada?",
+      "a": "Solo si su médico lo considera estrictamente necesario después de evaluar riesgos y beneficios. Está clasificado en categoría B, lo que significa que es relativamente seguro, pero debe ser recetado por un profesional."
+    },
+    {
+      "q": "¿Con o sin alimentos?",
+      "a": "Puede tomarla con o sin alimentos. Tomarla con comida puede ayudar a reducir las molestias estomacales como náuseas."
+    },
+    {
+      "q": "¿Qué hago si se me olvida una dosis?",
+      "a": "Tómela tan pronto como lo recuerde. Pero si ya es casi la hora de su siguiente dosis, omita la dosis olvidada y continúe con su horario normal. Nunca tome una dosis doble para compensar."
+    },
+    {
+      "q": "¿Puedo tomar alcohol mientras uso cefixima?",
+      "a": "No se recomienda. El alcohol no interactúa directamente con el antibiótico, pero puede empeorar efectos secundarios como náuseas y mareos, y debilita su sistema inmunológico, haciendo más lenta su recuperación."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Los síntomas como fiebre y dolor pueden empezar a mejorar en 24 a 72 horas. Si después de 3 días no ve mejoría o empeora, consulte a su médico."
+    },
+    {
+      "q": "¿La cefixima me puede dar sueño?",
+      "a": "No es un efecto común. Algunas personas pueden sentir mareo o dolor de cabeza, pero somnolencia severa no es típica."
+    },
+    {
+      "q": "¿Sirve para la gripe o el resfriado?",
+      "a": "NO. La cefixima solo mata bacterias. La gripe y el resfriado común son causados por virus. Usar antibióticos para infecciones virales es inútil y contribuye a la resistencia bacteriana."
+    },
+    {
+      "q": "¿Puedo dejar de tomarla cuando me sienta bien?",
+      "a": "NO. Debe completar TODO el tratamiento recetado (todos los días). Suspenderlo antes favorece que la infección regrese y que las bacterias se hagan resistentes."
+    },
+    {
+      "q": "¿La suspensión oral sabe mal?",
+      "a": "Las presentaciones comerciales suelen tener sabores (como fresa) para hacerla más tolerable para los niños. Agítela bien antes de cada uso."
+    },
+    {
+      "q": "¿Puedo tomarla si soy diabético?",
+      "a": "Sí, pero debe informar a su médico. La cefixima no interfiere directamente con la glucosa, pero algunas infecciones y antibióticos pueden alterar los niveles de azúcar. Monitoree su glucosa con más frecuencia."
+    },
+    {
+      "q": "¿Qué pasa si tengo diarrea?",
+      "a": "Diarrea leve es común. Beba muchos líquidos para no deshidratarse. Pero si la diarrea es muy aguada, abundante, con sangre, fiebre o dolor abdominal fuerte, DEJE el medicamento y contacte a su médico INMEDIATAMENTE, podría ser una colitis grave."
+    },
+    {
+      "q": "¿Interfiere con las pastillas anticonceptivas?",
+      "a": "No hay evidencia sólida de que la cefixima reduzca la efectividad de los anticonceptivos hormonales orales (pastillas). Sin embargo, algunos antibióticos sí lo hacen. Como precaución, se recomienda usar un método anticonceptivo de respaldo (como condón) durante el tratamiento y hasta 7 días después."
+    },
+    {
+      "q": "¿Es normal que la orina se ponga de color oscuro?",
+      "a": "No es un efecto común de la cefixima. Si nota cambios drásticos en el color de la orina (muy oscura, como Coca-Cola) o piel/ojos amarillos, consulte a su médico, ya que podría indicar un problema hepático."
+    },
+    {
+      "q": "¿Puedo tomar antiácidos (como Gelox) al mismo tiempo?",
+      "a": "No es recomendable. Los antiácidos que contienen aluminio o magnesio pueden reducir la absorción de la cefixima. Separe la toma del antibiótico y el antiácido por al menos 2 horas."
+    },
+    {
+      "q": "¿Para la infección de garganta, es mejor la penicilina o la cefixima?",
+      "a": "Para la faringitis estreptocócica, la penicilina sigue siendo el tratamiento de primera elección por su eficacia, bajo costo y bajo riesgo de resistencia. La cefixima es una alternativa útil para pacientes alérgicos a la penicilina (no grave) o que no toleran la administración múltiple al día."
+    },
+    {
+      "q": "¿Qué significa que sea de \"tercera generación\"?",
+      "a": "Se refiere a su orden de desarrollo y su espectro de acción. Las cefalosporinas de tercera generación (como cefixima) son más activas contra bacterias gramnegativas (como E. coli) y menos contra grampositivas, comparadas con las de primera generación. También tienen mayor penetración en el sistema nervioso central."
+    },
+    {
+      "q": "¿Puedo usarla para una infección dental?",
+      "a": "No es el antibiótico de primera elección para infecciones dentales comunes, que suelen ser causadas por bacterias anaerobias y estreptococos sensibles a penicilina o amoxicilina/clavulánico. Su médico o dentista decidirá si es adecuada para su caso específico."
+    },
+    {
+      "q": "¿La cefixima cubre la bacteria llamada \"Estafilococo\"?",
+      "a": "Tiene actividad limitada contra Staphylococcus aureus, especialmente las cepas resistentes (MRSA). No es el antibiótico de elección para infecciones por estafilococo. Su médico elegirá un antibiótico basado en el cultivo y la sensibilidad."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre cefixima y ceftriaxona?",
+      "a": "Ambas son cefalosporinas de tercera generación. La ceftriaxona se administra por inyección intramuscular o intravenosa, tiene un espectro más amplio y se usa para infecciones más graves u hospitalarias. La cefixima es la versión oral, usada para infecciones leves a moderadas o para completar un tratamiento iniciado con ceftriaxona (terapia escalonada)."
+    }
+  ]
+}

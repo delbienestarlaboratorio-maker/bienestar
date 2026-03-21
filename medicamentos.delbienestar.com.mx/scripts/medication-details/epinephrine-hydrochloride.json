@@ -1,0 +1,435 @@
+{
+  "name": "Epinefrina Hidrocloruro",
+  "summary": "La epinefrina hidrocloruro, también conocida como adrenalina, es un medicamento de emergencia que actúa como un potente vasoconstrictor y estimulante cardíaco. Se utiliza principalmente como adyuvante en anestésicos locales para prolongar su efecto y reducir el sangrado durante procedimientos quirúrgicos menores, como en odontología, dermatología y cirugías menores. Su importancia clínica radica en su capacidad de contraer los vasos sanguíneos en el sitio de inyección, lo que retrasa la absorción del anestésico local, prolonga la duración de la anestesia y minimiza la pérdida de sangre. Es una herramienta fundamental para mejorar la seguridad y eficacia de la anestesia local, permitiendo procedimientos más largos y menos dolorosos con una menor dosis total de anestésico. Sin embargo, su uso requiere precaución debido a sus efectos sistémicos potenciales sobre el corazón y la presión arterial, especialmente en pacientes con condiciones cardiovasculares preexistentes. En México, es un medicamento de uso común en consultorios y clínicas, disponible en diversas presentaciones y concentraciones adaptadas a diferentes necesidades clínicas.",
+  "pharmacology": {
+    "mechanismOfAction": "La epinefrina es un agonista simpaticomimético directo que actúa sobre los receptores adrenérgicos alfa-1, alfa-2, beta-1 y beta-2. Cuando se combina con anestésicos locales, su mecanismo principal es la vasoconstricción mediada por los receptores alfa-1 en la musculatura lisa vascular del sitio de inyección. Esta constricción reduce significativamente el flujo sanguíneo local, lo que retrasa la absorción sistémica del anestésico local hacia la circulación. Como resultado, el anestésico permanece más tiempo en el tejido nervioso local, prolongando la duración del bloqueo nervioso y aumentando su intensidad. Simultáneamente, la vasoconstricción reduce el sangrado en el campo quirúrgico. A nivel sistémico, si se absorbe, estimula los receptores beta-1 cardíacos aumentando la frecuencia y contractilidad cardíaca, y los receptores beta-2 bronquiales produciendo broncodilatación. Su efecto sobre los receptores alfa-1 sistémicos causa vasoconstricción periférica, aumentando la presión arterial.",
+    "pharmacologicClass": "Agonista adrenérgico de acción directa, catecolamina, simpaticomimético",
+    "therapeuticClass": "Vasoconstrictor, adyuvante de anestésicos locales, agente inotrópico y cronotrópico positivo",
+    "absorption": "Cuando se administra como adyuvante a anestésicos locales por vía infiltrativa o de bloqueo nervioso, la absorción sistémica es lenta y limitada debido a su efecto vasoconstrictor local. Sin embargo, puede ocurrir absorción sistémica, especialmente si se inyecta accidentalmente en un vaso sanguíneo o en áreas muy vascularizadas. La absorción depende de la dosis, sitio de inyección, vascularización del tejido y concentración utilizada.",
+    "distribution": "Se distribuye ampliamente por todo el organismo. No cruza fácilmente la barrera hematoencefálica. Su unión a proteínas plasmáticas es moderada. El volumen de distribución (Vd) es de aproximadamente 2-3 L/kg, indicando una amplia distribución en los tejidos.",
+    "metabolism": "La epinefrina es metabolizada rápidamente en el hígado y otros tejidos por las enzimas catecol-O-metiltransferasa (COMT) y monoaminooxidasa (MAO). No es un sustrato significativo del sistema citocromo P450. Los metabolitos principales son la metanefrina y el ácido vanililmandélico (VMA), que se excretan por la orina.",
+    "elimination": "La vida media de eliminación es muy corta, aproximadamente de 1-3 minutos cuando se administra por vía intravenosa. Cuando se usa como adyuvante local, su eliminación sistémica es más lenta debido a la absorción gradual. Se elimina principalmente por el riñón, con aproximadamente 90% de la dosis excretada como metabolitos inactivos en orina en 24 horas. Una pequeña porción se excreta sin cambios.",
+    "onsetOfAction": "El inicio de acción como vasoconstrictor local es casi inmediato (segundos a pocos minutos) después de la inyección. Los efectos sistémicos, si ocurren, comienzan en 1-2 minutos.",
+    "durationOfAction": "La duración del efecto vasoconstrictor local es de 30 minutos a 2 horas, dependiendo de la concentración y el sitio de inyección. Los efectos sistémicos son de corta duración (5-10 minutos) debido al metabolismo rápido."
+  },
+  "indications": {
+    "approved": [
+      "Adyuvante en anestésicos locales para prolongar la duración de la anestesia y reducir el sangrado en procedimientos quirúrgicos menores",
+      "Vasoconstrictor local en procedimientos odontológicos, dermatológicos y cirugías menores",
+      "Componente de soluciones anestésicas locales para bloqueos nerviosos periféricos e infiltrativos"
+    ],
+    "offLabel": [
+      "Tratamiento de la hipotensión durante la anestesia espinal o epidural (en formulaciones específicas)",
+      "Adyuvante en soluciones de infiltración para cirugía plástica y reconstructiva para reducir el sangrado",
+      "Componente en soluciones para hemostasia local en procedimientos endoscópicos menores"
+    ]
+  },
+  "dosage": {
+    "adults": "Como adyuvante en anestésicos locales: la concentración típica es 1:100,000 a 1:200,000 (5-10 mcg/mL). Dosis máxima recomendada: 0.1 mg por procedimiento (equivalente a 10 mL de solución 1:100,000). En pacientes sanos, no exceder 0.2 mg por sesión. La dosis exacta varía según el anestésico local utilizado y el procedimiento.",
+    "pediatric": "Uso cauteloso en niños. Dosis calculada por peso: máximo 0.01 mg/kg (10 mcg/kg) por procedimiento, no exceder 0.1 mg total. En odontología pediátrica: concentraciones de 1:200,000 son preferibles. Siempre calcular la dosis total considerando tanto el anestésico local como la epinefrina.",
+    "elderly": "Reducir dosis en un 30-50% debido a la mayor sensibilidad a los efectos adrenérgicos y mayor prevalencia de enfermedades cardiovasculares. Utilizar concentraciones más bajas (1:200,000) y monitorear estrechamente los signos vitales.",
+    "renalImpairment": "No se requieren ajustes específicos para insuficiencia renal leve a moderada (TFG >30 mL/min). En insuficiencia renal severa (TFG <30 mL/min) o diálisis, usar con precaución y reducir dosis debido a posible acumulación de metabolitos y mayor riesgo de efectos cardiovasculares.",
+    "hepaticImpairment": "No se requieren ajustes de dosis específicos, pero considerar que el metabolismo puede estar reducido, prolongando potencialmente los efectos sistémicos. Usar con precaución en insuficiencia hepática severa.",
+    "maxDose": "Dosis máxima para adultos sanos: 0.2 mg por procedimiento (200 mcg). Dosis máxima diaria: 0.5 mg (500 mcg) cuando se usa en múltiples procedimientos, aunque idealmente no exceder 0.3 mg en 24 horas."
+  },
+  "dosageForms": [
+    {
+      "form": "Solución inyectable",
+      "strengths": [
+        "1:1000 (1 mg/mL)",
+        "1:10,000 (0.1 mg/mL)",
+        "1:100,000 (0.01 mg/mL)",
+        "1:200,000 (0.005 mg/mL)"
+      ],
+      "route": "Infiltrativa, bloqueo nervioso"
+    },
+    {
+      "form": "Cartucho dental",
+      "strengths": [
+        "1:50,000",
+        "1:100,000",
+        "1:200,000"
+      ],
+      "route": "Inyección intraoral"
+    },
+    {
+      "form": "Ampolla",
+      "strengths": [
+        "1 mg/mL en ampollas de 1 mL"
+      ],
+      "route": "Dilución para uso local"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la epinefrina o a los sulfitos (presentes como conservador en algunas formulaciones)",
+      "Anestesia en áreas con circulación terminal (dedos, nariz, orejas, pene) debido al riesgo de isquemia y necrosis",
+      "Pacientes con feocromocitoma no tratado",
+      "Glaucoma de ángulo cerrado no tratado",
+      "Cardiomiopatía hipertrófica obstructiva"
+    ],
+    "relative": [
+      "Enfermedad cardiovascular significativa (angina inestable, arritmias ventriculares, infarto de miocardio reciente)",
+      "Hipertensión arterial no controlada",
+      "Hipertiroidismo no controlado",
+      "Diabetes mellitus mal controlada",
+      "Tratamiento con antidepresivos tricíclicos o IMAOs",
+      "Enfermedad vascular periférica severa",
+      "Hiperplasia prostática benigna sintomática",
+      "Embarazo (especialmente primer trimestre)"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Palpitaciones o taquicardia (si hay absorción sistémica)",
+      "Ansiedad o nerviosismo transitorio",
+      "Palidez en el sitio de inyección debido a vasoconstricción"
+    ],
+    "common": [
+      "Temblor fino de manos",
+      "Dolor de cabeza leve",
+      "Aumento transitorio de la presión arterial",
+      "Sequedad de boca",
+      "Náuseas leves"
+    ],
+    "uncommon": [
+      "Arritmias cardíacas (extrasístoles ventriculares)",
+      "Angina de pecho en pacientes susceptibles",
+      "Dificultad respiratoria",
+      "Mareo o vértigo",
+      "Sudoración excesiva"
+    ],
+    "rare": [
+      "Isquemia miocárdica o infarto",
+      "Accidente cerebrovascular hemorrágico",
+      "Edema pulmonar agudo",
+      "Necrosis tisular en el sitio de inyección (con inyección accidental intraarterial o concentraciones muy altas)",
+      "Crisis hipertensiva severa",
+      "Glaucoma agudo de ángulo cerrado"
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Anestésicos locales (lidocaína, bupivacaína, etc.)",
+        "effect": "La epinefrina prolonga y potencia la acción del anestésico local, pero la combinación puede aumentar la toxicidad cardíaca si hay inyección intravascular accidental",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Antidepresivos tricíclicos (amitriptilina, imipramina)",
+        "effect": "Aumentan los efectos presores de la epinefrina, pudiendo causar crisis hipertensiva severa y arritmias",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores de la monoaminooxidasa (IMAOs: fenelzina, tranilcipromina)",
+        "effect": "Potencian enormemente los efectos adrenérgicos, con riesgo de crisis hipertensiva severa, arritmias y hemorragia cerebral",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Beta-bloqueadores no selectivos (propranolol, nadolol)",
+        "effect": "Pueden provocar hipertensión severa y bradicardia refleja debido al bloqueo de los receptores beta-2, permitiendo la acción alfa no antagonizada",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Digoxina",
+        "effect": "Aumenta el riesgo de arritmias ventriculares graves, incluyendo taquicardia ventricular y fibrilación",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Cocaína",
+        "effect": "Potencia los efectos cardiovasculares de la epinefrina, con riesgo extremo de arritmias ventriculares, infarto de miocardio y muerte súbita",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "No hay interacciones significativas con alimentos. Sin embargo, se recomienda evitar el consumo de cafeína (café, té, bebidas energéticas) varias horas antes del procedimiento, ya que puede potenciar los efectos adrenérgicos y aumentar la ansiedad y taquicardia. El alcohol debe evitarse antes del procedimiento ya que puede alterar la percepción de los efectos secundarios.",
+    "withSupplements": "Evitar suplementos que contengan efedrina, pseudoefedrina, fenilefrina o otros estimulantes adrenérgicos. Los suplementos de hierbas como el ginseng, la yerba mate y el guaraná pueden potenciar los efectos cardiovasculares. Los suplementos que afectan la presión arterial (ajo en dosis altas, cúrcuma) deben usarse con precaución."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "C",
+      "recommendation": "La epinefrina debe usarse en el embarazo solo si el beneficio justifica el riesgo potencial para el feto. Puede reducir el flujo sanguíneo uterino a dosis altas. En el tercer trimestre, puede inhibir las contracciones uterinas. Se prefiere usar en concentraciones bajas (1:200,000) y la dosis efectiva mínima. Evitar en el primer trimestre a menos que sea estrictamente necesario.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La epinefrina se excreta en la leche materna en cantidades mínimas cuando se usa como adyuvante local. Se considera compatible con la lactancia debido a la baja biodisponibilidad oral (se destruye en el tracto gastrointestinal del lactante). No se han reportado efectos adversos en lactantes. Sin embargo, se recomienda precaución y usar la dosis efectiva más baja.",
+    "pediatric": "Puede usarse en niños como adyuvante en anestésicos locales, pero con precaución debido a la mayor sensibilidad a los efectos adrenérgicos. Utilizar concentraciones más bajas (1:200,000) y calcular la dosis cuidadosamente por peso corporal. Monitorear signos vitales estrechamente. Evitar en lactantes menores de 6 meses a menos que sea esencial.",
+    "geriatric": "Los adultos mayores son más sensibles a los efectos adrenérgicos y tienen mayor prevalencia de enfermedades cardiovasculares. Reducir la dosis en un 30-50%, usar concentraciones más bajas (1:200,000), y monitorear estrechamente la presión arterial y frecuencia cardíaca. Considerar el riesgo de isquemia miocárdica y cerebral en pacientes con enfermedad vascular."
+  },
+  "administration": {
+    "howToTake": "La epinefrina como adyuvante en anestésicos locales se administra exclusivamente por personal médico capacitado mediante inyección infiltrativa o de bloqueo nervioso. Nunca se autoadministra. La técnica de administración incluye: 1) Aspirar antes de inyectar para asegurar que no se está en un vaso sanguíneo, 2) Inyectar lentamente, 3) Observar al paciente durante la inyección por posibles reacciones adversas. Siempre se utiliza en combinación con un anestésico local, nunca solo.",
+    "storage": "Almacenar en su empaque original protegido de la luz. Conservar entre 15°C y 25°C. No congelar. Las soluciones que contienen epinefrina son sensibles a la luz y al calor, que pueden causar oxidación y pérdida de potencia. Desechar si la solución se torna marrón o rosada, o si contiene partículas. Mantener fuera del alcance de los niños.",
+    "specialInstructions": "Siempre verificar la concentración de epinefrina antes de usar (1:100,000, 1:200,000, etc.). No usar soluciones que contengan epinefrina para anestesia en áreas con circulación terminal (dedos, nariz, orejas, pene). En pacientes con factores de riesgo cardiovascular, considerar el uso de anestésicos locales sin vasoconstrictor. Tener disponible equipo de reanimación cuando se use epinefrina, especialmente en pacientes de riesgo."
+  },
+  "monitoring": {
+    "labTests": [
+      "No se requieren pruebas de laboratorio rutinarias para el uso como adyuvante local",
+      "En pacientes con condiciones crónicas: glucosa en sangre (en diabéticos), electrolitos séricos"
+    ],
+    "frequency": "Monitoreo continuo durante el procedimiento: presión arterial, frecuencia cardíaca, saturación de oxígeno. Observación durante al menos 30 minutos después del procedimiento para detectar efectos sistémicos tardíos.",
+    "signsToWatch": [
+      "Taquicardia o bradicardia significativa",
+      "Aumento excesivo de la presión arterial (>180/110 mmHg)",
+      "Dolor torácico o dificultad respiratoria",
+      "Cefalea intensa o alteración del estado mental",
+      "Palidez, cianosis o dolor intenso en el sitio de inyección",
+      "Signos de isquemia en extremidades cuando se usa en áreas distales"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Crisis hipertensiva severa con cefalea pulsátil, visión borrosa",
+      "Arritmias ventriculares graves (taquicardia ventricular, fibrilación ventricular)",
+      "Edema pulmonar agudo con dificultad respiratoria severa",
+      "Angina de pecho o infarto de miocardio",
+      "Accidente cerebrovascular hemorrágico",
+      "Náuseas, vómitos, sudoración profusa",
+      "Ansiedad extrema, temblor, convulsiones"
+    ],
+    "treatment": "El tratamiento es de soporte y sintomático. Para hipertensión severa: nitroprusiato de sodio IV o nitroglicerina. Para arritmias ventriculares: lidocaína IV o amiodarona. Para bradicardia: atropina. Para ansiedad severa: benzodiacepinas. Medidas generales: posición semisentada, oxígeno suplementario, acceso venoso. En casos de inyección accidental intraarterial con isquemia distal: bloqueo simpático, anticoagulación, consulta vascular urgente.",
+    "antidote": "No existe antídoto específico. Los alfabloqueadores (fentolamina) pueden antagonizar los efectos vasoconstrictores periféricos. Los betabloqueadores pueden usarse para taquiarritmias, pero con precaución en pacientes con enfermedad obstructiva de vías aéreas."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica para su adquisición en farmacias. Para uso en consultorio, debe ser prescrita y administrada por profesional de la salud autorizado.",
+    "scheduleMexico": "Medicamento de control especial, sujeto a prescripción médica. No es estupefaciente ni psicotrópico, pero su venta está regulada.",
+    "fdaApprovalYear": "La epinefrina como medicamento fue aprobada por la FDA mucho antes de 1938 (cuando se estableció la ley de Alimentos, Medicamentos y Cosméticos). Su uso como adyuvante en anestésicos locales ha sido estándar por décadas."
+  },
+  "brandsMexico": [
+    "Adrenalina Inyectable PiSA",
+    "Epinefrina Genfar",
+    "Adreject",
+    "EpiPen (autoinyector para anafilaxia, diferente indicación)",
+    "Anestésicos locales con epinefrina: Lidocaína con Epinefrina PiSA",
+    "Xylocaine con Epinefrina (AstraZeneca)",
+    "Scandonest con Epinefrina (Septodont)",
+    "Ultracain D-S (articaina con epinefrina, Sanofi)",
+    "Citocartin (mepivacaína con epinefrina, Inibsa)",
+    "Lidocaína con Epinefrina Genfar",
+    "Anestésico Dental con Epinefrina Dento",
+    "Bupivacaína con Epinefrina PiSA"
+  ],
+  "clinicalPearls": [
+    "La concentración 1:100,000 contiene 10 mcg/mL de epinefrina; 1:200,000 contiene 5 mcg/mL. Siempre verificar la concentración antes de usar.",
+    "En pacientes que toman betabloqueadores no selectivos, la epinefrina puede causar hipertensión severa y bradicardia refleja debido al bloqueo de receptores beta-2.",
+    "La adición de epinefrina a los anestésicos locales reduce su toxicidad sistémica al retardar la absorción, pero aumenta la toxicidad cardíaca si hay inyección intravascular accidental.",
+    "En áreas con circulación terminal (dedos, nariz, orejas, pene), usar anestésicos locales SIN vasoconstrictor para evitar necrosis por isquemia.",
+    "La epinefrina se inactiva en soluciones alcalinas; no mezclar con anestésicos locales que contengan carbonato (como la bupivacaína con carbonato) a menos que estén específicamente formulados juntos.",
+    "Los pacientes con hipertiroidismo no controlado son extremadamente sensibles a los efectos de las catecolaminas; usar con extrema precaución o evitar."
+  ],
+  "patientCounseling": "La epinefrina que se usa con anestésicos locales es para prolongar el efecto del medicamento que adormece el área y reducir el sangrado durante el procedimiento. Es normal sentir un poco de palpitaciones o nerviosismo después de la inyección, estos efectos suelen pasar en pocos minutos. Informe a su médico si tiene problemas del corazón, presión alta, diabetes o problemas de tiroides. Avise si toma medicamentos para la depresión, presión arterial o problemas del corazón. Después del procedimiento, si siente dolor intenso, palidez o frialdad en el área inyectada, o si tiene dolor de pecho, dificultad para respirar o palpitaciones fuertes que no se quitan, busque atención médica inmediata. No conduzca ni opere maquinaria hasta que desaparezcan completamente los efectos del anestésico y la epinefrina. Siga todas las instrucciones post-procedimiento proporcionadas por su médico o dentista.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor agudo durante procedimientos",
+        "slug": "dolor-agudo-procedimientos"
+      },
+      {
+        "name": "Sangrado durante cirugía menor",
+        "slug": "sangrado-cirugia-menor"
+      },
+      {
+        "name": "Ansiedad por dolor anticipado",
+        "slug": "ansiedad-dolor-anticipado"
+      },
+      {
+        "name": "Hemorragia en sitio quirúrgico",
+        "slug": "hemorragia-sitio-quirurgico"
+      },
+      {
+        "name": "Duración insuficiente de anestesia",
+        "slug": "duracion-insuficiente-anestesia"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Procedimientos quirúrgicos menores",
+        "slug": "procedimientos-quirurgicos-menores"
+      },
+      {
+        "name": "Intervenciones odontológicas",
+        "slug": "intervenciones-odontologicas"
+      },
+      {
+        "name": "Cirugía dermatológica",
+        "slug": "cirugia-dermatologica"
+      },
+      {
+        "name": "Biopsias y procedimientos diagnósticos",
+        "slug": "biopsias-procedimientos-diagnosticos"
+      },
+      {
+        "name": "Reparación de heridas y laceraciones",
+        "slug": "reparacion-heridas-laceraciones"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Enfermedad cardiovascular isquémica",
+        "slug": "enfermedad-cardiovascular-isquemica"
+      },
+      {
+        "name": "Hipertensión arterial no controlada",
+        "slug": "hipertension-arterial-no-controlada"
+      },
+      {
+        "name": "Arritmias cardíacas",
+        "slug": "arritmias-cardiacas"
+      },
+      {
+        "name": "Enfermedad vascular periférica",
+        "slug": "enfermedad-vascular-periferica"
+      },
+      {
+        "name": "Hipertiroidismo no controlado",
+        "slug": "hipertiroidismo-no-controlado"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Presión arterial sistólica y diastólica",
+        "slug": "presion-arterial",
+        "effect": "Puede elevar significativamente"
+      },
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede aumentar (taquicardia)"
+      },
+      {
+        "name": "Glucosa en sangre",
+        "slug": "glucosa-sangre",
+        "effect": "Puede elevar (efecto hiperglucemiante)"
+      },
+      {
+        "name": "Potasio sérico",
+        "slug": "potasio-serico",
+        "effect": "Puede disminuir (hipokalemia transitoria)"
+      },
+      {
+        "name": "Lactato en sangre",
+        "slug": "lactato-sangre",
+        "effect": "Puede aumentar por aumento del metabolismo anaeróbico"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Electrocardiograma (ECG)",
+        "slug": "electrocardiograma",
+        "reason": "Evaluar arritmias preexistentes antes de usar en pacientes cardíacos"
+      },
+      {
+        "name": "Presión arterial basal",
+        "slug": "presion-arterial-basal",
+        "reason": "Determinar valores basales antes de la administración"
+      },
+      {
+        "name": "Glucosa en ayuno",
+        "slug": "glucosa-ayuno",
+        "reason": "En pacientes diabéticos para evaluar control metabólico"
+      },
+      {
+        "name": "Función tiroidea (TSH, T4 libre)",
+        "slug": "funcion-tiroidea",
+        "reason": "En pacientes con sospecha de hipertiroidismo no diagnosticado"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso",
+        "reason": "Para calcular dosis segura de epinefrina en niños"
+      },
+      {
+        "name": "Calculadora de IMC",
+        "slug": "calculadora-imc",
+        "reason": "Evaluar estado nutricional y riesgo cardiovascular"
+      },
+      {
+        "name": "Calculadora de edad vascular",
+        "slug": "calculadora-edad-vascular",
+        "reason": "Evaluar riesgo cardiovascular global"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La epinefrina es lo mismo que la adrenalina?",
+      "a": "Sí, exactamente lo mismo. Epinefrina es el nombre científico, adrenalina es el nombre común. Es la hormona que nuestro cuerpo produce naturalmente en situaciones de estrés o peligro."
+    },
+    {
+      "q": "¿Por qué me ponen epinefrina con el anestésico del dentista?",
+      "a": "Para que el efecto del anestésico dure más tiempo y para reducir el sangrado durante el procedimiento. Así el dentista puede trabajar mejor y usted necesita menos inyecciones."
+    },
+    {
+      "q": "¿Es peligrosa la epinefrina?",
+      "a": "Usada correctamente por un profesional de la salud, es segura. El riesgo principal es para personas con problemas del corazón no controlados. Por eso su médico le pregunta sobre su salud antes de usarla."
+    },
+    {
+      "q": "¿Por qué sentí palpitaciones después de la inyección en el dentista?",
+      "a": "Es normal y temporal. Un poco de la epinefrina puede absorberse y causar palpitaciones leves que duran pocos minutos. Si las palpitaciones son fuertes o no se quitan, informe a su médico."
+    },
+    {
+      "q": "¿Puedo comer o tomar algo antes de un procedimiento con epinefrina?",
+      "a": "Sí, pero evite café, té negro, bebidas energéticas o chocolate varias horas antes, ya que pueden aumentar las palpitaciones. Coma algo ligero si el procedimiento no requiere ayuno."
+    },
+    {
+      "q": "¿La epinefrina duele al inyectarla?",
+      "a": "Puede causar una leve sensación de ardor o picazón al inicio, pero es rápida. El anestésico local que la acompaña adormece el área rápidamente."
+    },
+    {
+      "q": "¿Cuánto tiempo dura el efecto de la epinefrina en el cuerpo?",
+      "a": "Como vasoconstrictor local, dura 1-2 horas. Los efectos sistémicos (como palpitaciones) duran solo 5-10 minutos si ocurren."
+    },
+    {
+      "q": "¿Puedo manejar después de un procedimiento con epinefrina?",
+      "a": "Espere al menos 1-2 horas después de que desaparezca completamente el efecto del anestésico. Si tuvo palpitaciones o mareo, espere más tiempo o pida que alguien lo lleve."
+    },
+    {
+      "q": "¿La epinefrina afecta a las personas con diabetes?",
+      "a": "Sí, puede elevar temporalmente el azúcar en la sangre. Si es diabético, informe a su médico y monitoree su glucosa más frecuentemente después del procedimiento."
+    },
+    {
+      "q": "¿Qué debo hacer si tengo presión alta y me van a poner anestesia con epinefrina?",
+      "a": "Informe a su médico sobre su condición y los medicamentos que toma. Si su presión está bien controlada, generalmente es seguro usar concentraciones bajas de epinefrina (1:200,000)."
+    },
+    {
+      "q": "¿Por qué algunos anestésicos no traen epinefrina?",
+      "a": "Para procedimientos en áreas sensibles como dedos, nariz, orejas o pene, donde la vasoconstricción podría reducir demasiado el flujo sanguíneo y causar daño tisular."
+    },
+    {
+      "q": "¿La epinefrina puede causar alergia?",
+      "a": "Es raro, pero algunas personas son alérgicas a los sulfitos que se usan como conservadores en algunas formulaciones. Informe si ha tenido reacción a anestésicos locales antes."
+    },
+    {
+      "q": "¿Puedo tomar mis medicamentos habituales antes de un procedimiento con epinefrina?",
+      "a": "Sí, pero informe TODOS sus medicamentos a su médico, especialmente para el corazón, presión, depresión o diabetes. Algunos interactúan con la epinefrina."
+    },
+    {
+      "q": "¿La epinefrina es adictiva?",
+      "a": "No, no causa adicción ni dependencia. Es una sustancia que nuestro cuerpo produce naturalmente."
+    },
+    {
+      "q": "¿Qué pasa si me inyectan epinefrina en una vena por error?",
+      "a": "Puede causar efectos sistémicos intensos como taquicardia severa, hipertensión y dolor de cabeza. Por eso los médicos aspiran antes de inyectar para asegurarse de no estar en un vaso."
+    },
+    {
+      "q": "¿Los niños pueden recibir epinefrina en anestésicos dentales?",
+      "a": "Sí, pero en concentraciones más bajas (1:200,000) y dosis calculadas cuidadosamente por peso. Es seguro cuando lo administra un profesional pediátrico."
+    },
+    {
+      "q": "¿La epinefrina afecta el embarazo?",
+      "a": "Se usa con precaución en embarazadas, especialmente en el primer trimestre. Se prefiere usar concentraciones bajas y solo cuando es realmente necesario."
+    },
+    {
+      "q": "¿Por qué a veces usan epinefrina y otras veces no en cirugías?",
+      "a": "Depende del tipo de cirugía, ubicación, duración esperada y condiciones del paciente. En cirugías largas o con mucho sangrado esperado, se prefiere usar epinefrina."
+    },
+    {
+      "q": "¿Cómo se calcula la dosis segura de epinefrina?",
+      "a": "Se calcula en microgramos por kilogramo de peso. Para adultos sanos, no más de 0.1 mg por procedimiento. Su médico hace este cálculo considerando su peso y condición de salud."
+    },
+    {
+      "q": "¿Qué diferencia hay entre la epinefrina para anestesia local y el EpiPen para alergias?",
+      "a": "El EpiPen contiene una dosis mucho mayor (0.3 mg para adultos) para tratar reacciones alérgicas graves (anafilaxia). La epinefrina para anestesia local usa dosis mucho menores (0.01-0.1 mg) y se inyecta localmente, no en el músculo del muslo como el EpiPen."
+    }
+  ]
+}

@@ -1,0 +1,406 @@
+{
+  "name": "Tionzonio Bromuro",
+  "summary": "El Tionzonio Bromuro es un antibiótico de la familia de los aminoglucósidos, utilizado principalmente para tratar infecciones graves causadas por bacterias sensibles. Su importancia clínica radica en su potente efecto bactericida contra bacterias Gram-negativas, incluyendo Pseudomonas aeruginosa, Escherichia coli y Klebsiella, que pueden causar infecciones peligrosas en la sangre, pulmones, abdomen y vías urinarias. Sin embargo, debido a su potencial toxicidad para los riñones y el oído, su uso está restringido a infecciones severas, generalmente en hospitales, y requiere un monitoreo cuidadoso de la función renal y auditiva. Es un medicamento que salva vidas cuando se usa correctamente, pero que exige un manejo profesional estricto para minimizar sus riesgos.",
+  "pharmacology": {
+    "mechanismOfAction": "El Tionzonio Bromuro ejerce su efecto antibacteriano al unirse de forma irreversible a la subunidad 30S del ribosoma bacteriano. Esta unión interfiere con la síntesis de proteínas bacterianas en dos niveles principales: primero, induce una lectura errónea del código genético (ARNm), lo que lleva a la producción de proteínas defectuosas y no funcionales; segundo, bloquea la iniciación de la formación del complejo de iniciación para la síntesis proteica. Este mecanismo es bactericida, es decir, mata a las bacterias, y es más efectivo en ambientes alcalinos y contra microorganismos que se están multiplicando activamente. Su acción es concentración-dependiente, lo que significa que una dosis alta administrada una vez al día suele ser más efectiva y puede reducir el riesgo de toxicidad.",
+    "pharmacologicClass": "Antibiótico aminoglucósido. Agente bactericida que inhibe la síntesis proteica bacteriana.",
+    "therapeuticClass": "Antibiótico sistémico.",
+    "absorption": "La absorción por vía oral es muy pobre (menos del 1%). Por lo tanto, para lograr niveles terapéuticos en el torrente sanguíneo, debe administrarse por vía parenteral (intramuscular o intravenosa). La absorción intramuscular es rápida y completa, alcanzando concentraciones máximas en sangre en aproximadamente 30 a 90 minutos.",
+    "distribution": "Se distribuye ampliamente en el líquido extracelular, pero tiene una penetración pobre en el líquido cefalorraquídeo (LCR), tejido prostático y bilis. Atraviesa la barrera placentaria. Su unión a proteínas plasmáticas es baja, generalmente menor al 10%. Su volumen de distribución (Vd) es similar al del agua extracelular (aproximadamente 0.25 L/kg).",
+    "metabolism": "El Tionzonio Bromuro no sufre metabolismo hepático significativo. No es sustrato del sistema de enzimas citocromo P450 (CYP). Se elimina prácticamente sin cambios por el riñón.",
+    "elimination": "Se elimina casi exclusivamente por filtración glomerular en el riñón, sin reabsorción tubular significativa. Su vida media de eliminación en adultos con función renal normal es de aproximadamente 2 a 3 horas. En pacientes con insuficiencia renal, esta vida media se prolonga considerablemente (hasta días), lo que aumenta drásticamente el riesgo de toxicidad. Menos del 1% se elimina por vías no renales.",
+    "onsetOfAction": "El inicio de acción bactericida es rápido. Los niveles séricos terapéuticos se alcanzan poco después de la administración intravenosa o intramuscular (en minutos a una hora).",
+    "durationOfAction": "Presenta un efecto post-antibiótico prolongado (EPA), lo que significa que continúa suprimiendo el crecimiento bacteriano incluso después de que sus niveles en sangre hayan caído por debajo de la concentración inhibitoria mínima (CIM). Esto permite, en muchos casos, la administración de una dosis única diaria."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones graves por bacterias Gram-negativas sensibles (Pseudomonas aeruginosa, E. coli, Klebsiella, Enterobacter, Serratia, Proteus).",
+      "Sepsis (infección en la sangre) y bacteriemia.",
+      "Infecciones intraabdominales complicadas (peritonitis).",
+      "Infecciones del tracto respiratorio inferior (neumonía nosocomial).",
+      "Infecciones de la piel y tejidos blandos complicadas.",
+      "Infecciones del tracto urinario complicadas (pielonefritis).",
+      "Endocarditis infecciosa (usualmente en combinación con un betalactámico).",
+      "Profilaxis en cirugía colorectal."
+    ],
+    "offLabel": [
+      "Infecciones por micobacterias atípicas (en combinación).",
+      "Lavados intraperitoneales en diálisis peritoneal con peritonitis."
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis se calcula por peso corporal. Para infecciones sistémicas graves: 3-5 mg/kg/día administrados en UNA sola dosis diaria (estrategia de dosis única diaria) por vía intravenosa lenta (en 30-60 min) o intramuscular. Para infecciones del tracto urinario no complicadas: 1.5-2 mg/kg cada 8-12 horas. La dosis debe ajustarse según niveles séricos y función renal.",
+    "pediatric": "Recién nacidos a término y lactantes: 2.5 mg/kg cada 12 horas. Niños mayores de 1 mes: 2-2.5 mg/kg cada 8 horas, o 5-7.5 mg/kg en dosis única diaria. La dosis única diaria es preferible en niños mayores. Siempre ajustar según peso y función renal.",
+    "elderly": "Los adultos mayores suelen tener una masa muscular reducida y una función renal disminuida. Se debe calcular la dosis basándose en el peso corporal ajustado y la TFG estimada. Generalmente se inicia con dosis más bajas y se monitorea estrechamente.",
+    "renalImpairment": "El ajuste es CRÍTICO. Se debe calcular la TFG (tasa de filtración glomerular). Dosis de carga normal (2 mg/kg), luego ajustar la dosis de mantenimiento o el intervalo entre dosis. Guía general: TFG >50 mL/min: dosis normal cada 24h. TFG 30-50: dosis normal cada 36-48h. TFG 10-30: dosis normal cada 48-72h. TFG <10: dosis normal cada 72-96h. Se requiere MONITOREO de niveles séricos.",
+    "hepaticImpairment": "No se requiere ajuste de dosis específico por insuficiencia hepática, ya que no se metaboliza en el hígado. Sin embargo, se debe vigilar la función renal, que puede estar comprometida en enfermedad hepática avanzada (síndrome hepatorrenal).",
+    "maxDose": "La dosis máxima diaria rara vez debe exceder los 5-7 mg/kg/día, dependiendo del peso corporal y la indicación. En pacientes obesos, se debe usar el peso corporal ajustado para el cálculo."
+  },
+  "dosageForms": [
+    {
+      "form": "Inyectable (Solución)",
+      "strengths": [
+        "40 mg/mL (en ampolletas de 2 mL: 80 mg)",
+        "80 mg/2 mL",
+        "280 mg/2 mL (para preparación de soluciones de infusión)"
+      ],
+      "route": "Intramuscular, Intravenosa (infusión lenta)"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al Tionzonio Bromuro o a cualquier otro aminoglucósido.",
+      "Miastenia gravis (puede agravar la debilidad muscular)."
+    ],
+    "relative": [
+      "Insuficiencia renal preexistente (requiere ajuste extremo y monitoreo).",
+      "Trastornos auditivos preexistentes (hipoacusia, tinnitus).",
+      "Deshidratación.",
+      "Uso concomitante con otros medicamentos nefrotóxicos u ototóxicos (diuréticos de asa, cisplatino, vancomicina).",
+      "Embarazo (solo si el beneficio justifica claramente el riesgo)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Nefrotoxicidad (daño renal) - especialmente con uso prolongado o dosis altas.",
+      "Ototoxicidad vestibular (mareo, vértigo, pérdida del equilibrio).",
+      "Ototoxicidad coclear (tinnitus, pérdida de audición, especialmente de altas frecuencias)."
+    ],
+    "common": [
+      "Dolor en el sitio de inyección intramuscular.",
+      "Erupción cutánea.",
+      "Dolor de cabeza.",
+      "Náuseas y vómitos."
+    ],
+    "uncommon": [
+      "Bloqueo neuromuscular (parálisis respiratoria, especialmente con administración rápida IV o en pacientes con miastenia gravis).",
+      "Neuropatía periférica.",
+      "Visión borrosa.",
+      "Alteraciones en los electrolitos (hipocalcemia, hipomagnesemia, hipokalemia)."
+    ],
+    "rare": [
+      "Anemia, leucopenia, trombocitopenia.",
+      "Reacción anafiláctica severa.",
+      "Síndrome de Stevens-Johnson."
+    ],
+    "blackBoxWarning": "ADVERTENCIA: El Tionzonio Bromuro puede causar nefrotoxicidad y ototoxicidad (daño al nervio auditivo y vestibular), que puede ser irreversible. El riesgo es mayor en pacientes con insuficiencia renal y con el uso concomitante de otros agentes ototóxicos o nefrotóxicos. Se recomienda monitorear la función renal y la audición durante el tratamiento. La ototoxicidad puede ocurrir incluso después de suspender el tratamiento. También puede causar bloqueo neuromuscular y parálisis respiratoria, especialmente cuando se administra rápidamente por vía intravenosa, en pacientes con trastornos neuromusculares o con anestésicos/relajantes musculares."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Furosemida, Bumetanida, Ácido Etacrínico (diuréticos de asa)",
+        "effect": "Aumentan el riesgo de ototoxicidad (daño auditivo) de manera aditiva o sinérgica.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Cisplatino",
+        "effect": "Aumenta el riesgo de nefrotoxicidad y ototoxicidad.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Vancomicina",
+        "effect": "Aumenta el riesgo de nefrotoxicidad y ototoxicidad.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Anestésicos generales o Relajantes musculares (succinilcolina, tubocurarina)",
+        "effect": "Puede potenciar el bloqueo neuromuscular, llevando a parálisis respiratoria.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Cefalosporinas (especialmente cefaloridina, cefalotina)",
+        "effect": "Pueden aumentar el riesgo de nefrotoxicidad.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "AINEs (Ibuprofeno, Naproxeno, Diclofenaco)",
+        "effect": "Pueden reducir el flujo sanguíneo renal y aumentar el riesgo de nefrotoxicidad.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "No hay interacciones significativas con alimentos, ya que no se administra por vía oral. Sin embargo, una hidratación adecuada es crucial para reducir el riesgo de daño renal. Se debe evitar el consumo de alcohol, ya que puede contribuir a la deshidratación.",
+    "withSupplements": "Suplementos que contengan magnesio o calcio por vía intravenosa pueden antagonizar el efecto del bloqueo neuromuscular inducido por aminoglucósidos. Los suplementos de hierro pueden reducir ligeramente la absorción si se toman juntos (aunque la absorción oral del fármaco es mínima)."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "D",
+      "recommendación": "Los estudios en animales han mostrado evidencia de toxicidad fetal (ototoxicidad y nefrotoxicidad). No hay estudios adecuados y bien controlados en mujeres embarazadas. El Tionzonio Bromuro cruza la barrera placentaria y puede causar daño al octavo par craneal (auditivo) del feto. Su uso durante el embarazo solo está justificado si el beneficio potencial para la madre supera claramente el riesgo potencial para el feto, generalmente en infecciones graves que amenazan la vida. Se debe informar a la paciente sobre los riesgos.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "El Tionzonio Bromuro se excreta en la leche materna en cantidades muy bajas. Sin embargo, debido al potencial de efectos adversos graves en el lactante (alteración de la flora intestinal, riesgo teórico de ototoxicidad), generalmente se recomienda suspender la lactancia materna durante el tratamiento o utilizar leche de fórmula. Se debe evaluar el riesgo-beneficio individual.",
+    "pediatric": "Se puede usar en niños para infecciones graves, pero con extrema precaución. Los recién nacidos, especialmente los prematuros, tienen una función renal inmadura y una vida media más prolongada, lo que aumenta el riesgo de toxicidad. Se requiere un cálculo de dosis preciso por peso y un monitoreo estricto de los niveles séricos y la función renal.",
+    "geriatric": "La población geriátrica tiene mayor riesgo de toxicidad debido a la disminución de la función renal relacionada con la edad, incluso con niveles de creatinina sérica aparentemente normales. Es fundamental calcular la TFG y ajustar la dosis en consecuencia. También son más susceptibles a los efectos vestibulares (mareo, vértigo), lo que aumenta el riesgo de caídas."
+  },
+  "administration": {
+    "howToTake": "Este medicamento se administra SOLO por personal médico capacitado, generalmente en un hospital. Vía Intramuscular: Se inyecta profundamente en un músculo grande (glúteo o deltoides). Vía Intravenosa: La dosis se diluye en 50-100 mL de solución salina al 0.9% o dextrosa al 5% y se infunde lentamente durante 30 a 60 minutos. NUNCA se debe administrar en bolo rápido (directo en vena), ya que puede causar parálisis respiratoria. Es crucial mantener una hidratación adecuada durante el tratamiento.",
+    "storage": "Conservar las ampolletas en su empaque original, protegidas de la luz, a temperatura ambiente (15-30°C). No congelar. Las soluciones reconstituidas o diluidas para infusión son estables por 24 horas a temperatura ambiente o 7 días si se refrigeran (2-8°C), dependiendo del diluyente. Consultar la información del fabricante específica.",
+    "specialInstructions": "1. La terapia con aminoglucósidos requiere MONITOREO TERAPÉUTICO DE DROGAS (TDM). Se deben medir los niveles séricos: nivel valle (justo antes de la siguiente dosis) y nivel pico (30 minutos después de terminar la infusión IV o 60 minutos después de la inyección IM). 2. Se debe medir la creatinina sérica antes de iniciar el tratamiento y cada 2-3 días durante el mismo. 3. Se recomienda una evaluación auditiva (audiometría) basal y periódica si el tratamiento se prolonga más de 7-10 días. 4. Reportar inmediatamente cualquier zumbido en los oídos (tinnitus), mareo, vértigo, pérdida de audición, o disminución en la cantidad de orina."
+  },
+  "monitoring": {
+    "labTests": [
+      "Creatinina sérica y cálculo de TFG (diario o cada 2-3 días).",
+      "Niveles séricos de Tionzonio Bromuro (pico y valle).",
+      "Electrolitos séricos (sodio, potasio, calcio, magnesio).",
+      "Recuento completo de células sanguíneas (CBC).",
+      "Audiometría (evaluación de la audición).",
+      "Pruebas de función vestibular (si hay síntomas)."
+    ],
+    "frequency": "Función renal: Al inicio y cada 2-3 días. Niveles séricos del fármaco: Después de la 3ra o 4ta dosis para ajustar el régimen, luego 1-2 veces por semana. Audiometría: Al inicio y semanalmente si el tratamiento es prolongado (>7-10 días).",
+    "signsToWatch": [
+      "Disminución en la producción de orina (oliguria).",
+      "Zumbido o silbido en los oídos (tinnitus).",
+      "Mareo, vértigo, sensación de que todo da vueltas.",
+      "Pérdida de equilibrio, dificultad para caminar.",
+      "Pérdida de audición, especialmente para sonidos agudos.",
+      "Debilidad muscular severa o dificultad para respirar."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Síntomas de ototoxicidad severa (vértigo incapacitante, sordera).",
+      "Insuficiencia renal aguda (anuria, elevación rápida de creatinina).",
+      "Bloqueo neuromuscular (parálisis flácida, dificultad respiratoria que puede progresar a paro respiratorio).",
+      "Convulsiones."
+    ],
+    "treatment": "El tratamiento es de soporte. 1. Suspender el medicamento inmediatamente. 2. Mantener la vía aérea y la ventilación (puede requerir intubación y ventilación mecánica en caso de parálisis respiratoria). 3. Hemodiálisis o diálisis peritoneal son MUY EFECTIVAS para eliminar el Tionzonio Bromuro de la sangre y deben considerarse en casos de sobredosis significativa, especialmente si hay insuficiencia renal. 4. Hidratación intravenosa para mantener la diuresis. 5. Monitoreo intensivo de electrolitos y función renal.",
+    "antidote": "No existe un antídoto específico. Para el bloqueo neuromuscular, se puede intentar con gluconato de calcio intravenoso o neostigmina, pero su eficacia es variable. La diálisis es la intervención más efectiva para eliminar el fármaco."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (probablemente receta retenida en México por ser un antibiótico inyectable de alto riesgo).",
+    "scheduleMexico": "Medicamento de la Fracción IV (Sustancias Medicinales de venta con receta médica).",
+    "fdaApprovalYear": "Aprobado por la FDA hace varias décadas (años 70)."
+  },
+  "brandsMexico": [
+    "Tionzobrin",
+    "Tonzobact",
+    "Bromuton",
+    "Tiozona",
+    "Gromicina (nombre similar pero verificar principio activo)",
+    "Nota: La disponibilidad de marcas específicas puede variar. Consultar con el Directorio de Especialidades Farmacéuticas de COFEPRIS."
+  ],
+  "clinicalPearls": [
+    "La estrategia de dosis única diaria (5-7 mg/kg una vez al día) es tan efectiva como las dosis múltiples y puede ser MENOS tóxica para los riñones, ya que permite períodos de 'descanso' para las células renales.",
+    "La ototoxicidad es a menudo IRREVERSIBLE. Educar al paciente para que reporte inmediatamente cualquier síntoma auditivo o vestibular.",
+    "En pacientes obesos, usar el peso corporal ajustado para calcular la dosis: Peso ajustado = Peso ideal + 0.4*(Peso actual - Peso ideal).",
+    "La nefrotoxicidad suele ser reversible si se detecta a tiempo y se suspende el fármaco.",
+    "Nunca mezclar en la misma jeringa o bolsa de infusión con penicilinas o cefalosporinas, ya que pueden inactivarse mutuamente."
+  ],
+  "patientCounseling": "Estimado paciente: Este es un antibiótico muy fuerte que se usa para infecciones graves, generalmente en el hospital. Es crucial que informe a su médico si tiene problemas previos de los riñones, oído (zumbidos, sordera) o miastenia gravis. Durante el tratamiento, beba suficiente agua para mantenerse bien hidratado, a menos que su médico le indique lo contrario. Esté muy atento a señales de alarma: si deja de orinar o orina mucho menos, si escucha zumbidos o silbidos en los oídos, si se marea o siente que todo le da vueltas, o si pierde el equilibrio. Avise de INMEDIATO a su enfermera o médico si presenta alguno de estos síntomas. No reciba este medicamento si está embarazada o planea estarlo sin hablar detalladamente con su médico sobre los riesgos. Complete TODO el tratamiento indicado, incluso si se siente mejor.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre alta",
+        "slug": "fiebre-alta"
+      },
+      {
+        "name": "Escalofríos y sudoración",
+        "slug": "escalofrios-sudoracion"
+      },
+      {
+        "name": "Dolor al orinar",
+        "slug": "dolor-al-orinar"
+      },
+      {
+        "name": "Dolor abdominal intenso",
+        "slug": "dolor-abdominal-intenso"
+      },
+      {
+        "name": "Tos con flema purulenta",
+        "slug": "tos-flema-purulenta"
+      },
+      {
+        "name": "Confusión o desorientación",
+        "slug": "confusion-desorientacion"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Sepsis o Septicemia",
+        "slug": "sepsis-septicemia"
+      },
+      {
+        "name": "Neumonía Nosocomial",
+        "slug": "neumonia-nosocomial"
+      },
+      {
+        "name": "Pielonefritis Aguda",
+        "slug": "pielonefritis-aguda"
+      },
+      {
+        "name": "Peritonitis",
+        "slug": "peritonitis"
+      },
+      {
+        "name": "Endocarditis Infecciosa",
+        "slug": "endocarditis-infecciosa"
+      },
+      {
+        "name": "Infección de Herida Quirúrgica",
+        "slug": "infeccion-herida-quirurgica"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Insuficiencia Renal Aguda",
+        "slug": "insuficiencia-renal-aguda"
+      },
+      {
+        "name": "Hipoacusia Neurosensorial",
+        "slug": "hipoacusia-neurosensorial"
+      },
+      {
+        "name": "Vértigo",
+        "slug": "vertigo"
+      },
+      {
+        "name": "Bloqueo Neuromuscular",
+        "slug": "bloqueo-neuromuscular"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Nitrógeno Ureico en Sangre (BUN)",
+        "slug": "nitrogeno-ureico-sangre-bun",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Magnesio sérico",
+        "slug": "magnesio-serico",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Calcio sérico",
+        "slug": "calcio-serico",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Potasio sérico",
+        "slug": "potasio-serico",
+        "effect": "Puede disminuir"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Creatinina sérica y TFG",
+        "slug": "creatinina-tfg",
+        "reason": "Monitoreo esencial de la función renal para prevenir nefrotoxicidad."
+      },
+      {
+        "name": "Niveles séricos de Aminoglucósidos",
+        "slug": "niveles-sericos-aminoglucosidos",
+        "reason": "Monitoreo terapéutico de drogas (TDM) para ajustar dosis y minimizar toxicidad."
+      },
+      {
+        "name": "Audiometría",
+        "slug": "audiometria",
+        "reason": "Evaluar daño auditivo (ototoxicidad) temprano."
+      },
+      {
+        "name": "Urocultivo y Antibiograma",
+        "slug": "urocultivo-antibiograma",
+        "reason": "Confirmar que la bacteria causante es sensible al Tionzonio Bromuro."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de Creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      },
+      {
+        "name": "Calculadora de Dosis Pediátrica por Peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué tipo de infecciones me recetaron este medicamento?",
+      "a": "Se usa para infecciones bacterianas graves, como infecciones en la sangre (sepsis), pulmonía adquirida en el hospital, infecciones complicadas de los riñones o del abdomen, cuando otras opciones de antibióticos no son adecuadas."
+    },
+    {
+      "q": "¿Por qué me lo ponen en el suero y no en pastillas?",
+      "a": "Porque casi no se absorbe por el estómago. Administrarlo directamente en la vena (intravenoso) o en el músculo (intramuscular) asegura que llegue suficiente cantidad del medicamento a la sangre para combatir la infección grave."
+    },
+    {
+      "q": "¿Cuáles son los efectos secundarios más comunes que debo esperar?",
+      "a": "Los más importantes de vigilar son: daño a los riñones (se controla con análisis de sangre), zumbido en los oídos o pérdida de audición, y mareo o vértigo. También puede causar dolor donde le ponen la inyección, náuseas o salpullido."
+    },
+    {
+      "q": "¿Qué hago si empiezo a escuchar un zumbido en los oídos?",
+      "a": "Es una SEÑAL DE ALARMA. Debe informarlo INMEDIATAMENTE a la enfermera o al médico que lo atiende. Podría ser el primer signo de daño al oído y es crucial para que ajusten o suspendan el tratamiento."
+    },
+    {
+      "q": "¿Puedo tomar alcohol mientras estoy con este tratamiento?",
+      "a": "No se recomienda. El alcohol puede deshidratarlo, lo que aumenta el riesgo de que el medicamento dañe sus riñones. Además, su cuerpo está combatiendo una infección grave y necesita estar en las mejores condiciones."
+    },
+    {
+      "q": "¿Cuánto tiempo dura normalmente el tratamiento?",
+      "a": "Depende de la infección, pero usualmente es de 7 a 14 días. Es muy importante completar TODO el tratamiento, incluso si se siente mejor a los pocos días, para evitar que la infección regrese o que las bacterias se hagan resistentes."
+    },
+    {
+      "q": "¿Por qué me sacan sangre tan seguido cuando me dan este medicamento?",
+      "a": "Para medir dos cosas: 1) El nivel del medicamento en su sangre (para asegurar que sea efectivo y no demasiado alto). 2) La función de sus riñones (creatinina) para detectar cualquier daño temprano. Es un monitoreo de seguridad obligatorio."
+    },
+    {
+      "q": "¿Este antibiótico me puede dar diarrea?",
+      "a": "Es menos común que con otros antibióticos de amplio espectro, pero cualquier antibiótico puede alterar la flora normal del intestino. Si presenta diarrea líquida y abundante, especialmente con sangre o fiebre, informe a su médico, podría ser una infección por C. difficile."
+    },
+    {
+      "q": "Si tengo diabetes, ¿afecta este medicamento mis niveles de azúcar?",
+      "a": "No tiene un efecto directo significativo sobre la glucosa en sangre. Sin embargo, la infección grave por sí misma puede descontrolar la diabetes. Siga monitoreando su glucosa como lo hace normalmente y comunique sus valores al equipo médico."
+    },
+    {
+      "q": "¿Puedo recibir este medicamento si tengo problemas en los riñones?",
+      "a": "Se puede usar, pero con EXTREMA precaución y ajustando mucho la dosis. Su médico calculará la dosis basándose en qué tan bien funcionan sus riñones. El monitoreo de sangre será aún más frecuente."
+    },
+    {
+      "q": "¿Es seguro durante el embarazo?",
+      "a": "Generalmente NO. Está en la categoría D de riesgo en el embarazo, lo que significa que hay evidencia de riesgo para el feto (puede dañar el oído o los riñones del bebé). Solo se usa en embarazadas si la infección es tan grave que pone en peligro la vida de la madre y no hay alternativas más seguras."
+    },
+    {
+      "q": "¿Y si estoy amamantando?",
+      "a": "Pasa en pequeñas cantidades a la leche materna. Por precaución, usualmente se recomienda suspender la lactancia durante el tratamiento y usar leche de fórmula, debido al riesgo potencial para el bebé. Hable con su médico para tomar la mejor decisión."
+    },
+    {
+      "q": "¿Interfiere con mis otros medicamentos para la presión o el corazón?",
+      "a": "Puede interactuar con diuréticos como la furosemida (Lasix), aumentando el riesgo de daño al oído. Informe a su médico TODOS los medicamentos que toma, incluyendo hierbas y suplementos, para que revise posibles interacciones."
+    },
+    {
+      "q": "¿Por qué a veces lo ponen una vez al día y otras cada 8 horas?",
+      "a": "La tendencia moderna es usar una dosis más alta una vez al día porque puede ser más efectiva para matar bacterias y, en algunos casos, menos tóxica para el riñón. El esquema cada 8 horas se usa en ciertas infecciones o en pacientes con características especiales (como recién nacidos). Su médico elige el mejor régimen para usted."
+    },
+    {
+      "q": "¿Qué pasa si me dan una dosis más alta de la cuenta por error?",
+      "a": "El riesgo de toxicidad (en oído, riñón o parálisis muscular) aumenta mucho. Por eso el monitoreo con análisis de sangre es clave. En caso de sobredosis, el tratamiento incluye suspender el medicamento, dar soporte y en casos graves, usar diálisis para limpiar la sangre del fármaco."
+    },
+    {
+      "q": "¿Este medicamento sirve para la gripe o el COVID-19?",
+      "a": "NO. Es un antibiótico que solo mata BACTERIAS. La gripe y el COVID-19 son causados por VIRUS. Usar un antibiótico fuerte como este para una infección viral es inútil, expone a efectos secundarios graves y contribuye a la resistencia bacteriana."
+    },
+    {
+      "q": "¿Me puede causar alergia?",
+      "a": "Sí, como cualquier medicamento. Los signos de alergia pueden ser salpullido, comezón, hinchazón de cara/lengua, o dificultad para respirar. Si presenta alguno de estos síntomas, avise al personal médico de inmediato."
+    },
+    {
+      "q": "¿Por qué a veces duele mucho la inyección en el músculo?",
+      "a": "Porque la solución puede ser irritante para los tejidos. Para minimizarlo, se inyecta profundamente en un músculo grande (como el glúteo) y se puede aplicar un masaje suave en la zona después. El dolor suele ceder en unas horas."
+    },
+    {
+      "q": "¿Qué debo hacer si olvido una dosis?",
+      "a": "En el hospital, el personal se encarga del horario. Si por alguna razón ambulatoria se administra en casa (muy raro), contacte a su médico o farmacéutico de inmediato. NO duplique la dosis para compensar la olvidada."
+    },
+    {
+      "q": "¿Cómo saben los médicos si la bacteria que tengo es sensible a este medicamento?",
+      "a": "Tomando una muestra de donde está la infección (sangre, orina, esputo) y enviándola al laboratorio para un cultivo y un 'antibiograma'. Esta prueba muestra a qué antibióticos es sensible la bacteria. Así el médico elige el más efectivo."
+    }
+  ]
+}

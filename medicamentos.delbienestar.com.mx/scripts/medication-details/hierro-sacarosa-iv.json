@@ -1,0 +1,411 @@
+{
+  "name": "Hierro sacarosa IV",
+  "summary": "El hierro sacarosa intravenoso (IV) es un medicamento que se administra directamente en la vena para tratar la deficiencia de hierro cuando los suplementos orales no son suficientes, no se toleran o se necesita una corrección rápida. Sirve para reponer las reservas de hierro en el cuerpo, un mineral esencial para producir hemoglobina, la proteína de los glóbulos rojos que transporta oxígeno a todos los tejidos. Su importancia clínica es crucial en pacientes con anemia ferropénica (por falta de hierro) asociada a enfermedad renal crónica, especialmente aquellos en diálisis, en pacientes con sangrados importantes, antes o después de cirugías mayores, o en personas con enfermedades intestinales que impiden la absorción adecuada del hierro por la boca. A diferencia de las pastillas, este tratamiento actúa rápido, mejora los síntomas de cansancio, palidez y falta de aire en poco tiempo, y permite un control preciso de la dosis por parte del personal médico en un entorno clínico seguro.",
+  "pharmacology": {
+    "mechanismOfAction": "El hierro sacarosa es un complejo estable de hierro férrico (Fe3+) unido a sacarosa. Una vez administrado por vía intravenosa, el complejo es captado por el sistema reticuloendotelial (células del hígado, bazo y médula ósea). En estas células, el hierro férrico es liberado de la sacarosa y se incorpora a la ferritina, la proteína de almacenamiento de hierro del cuerpo. Posteriormente, este hierro almacenado se moviliza y se une a la transferrina, la proteína transportadora en la sangre, que lo lleva principalmente a la médula ósea. En la médula ósea, el hierro es esencial para la síntesis del grupo hemo, un componente central de la hemoglobina dentro de los glóbulos rojos nuevos (eritropoyesis). Así, corrige directamente la deficiencia de hierro y apoya la producción de glóbulos rojos sanos.",
+    "pharmacologicClass": "Complejo de hidróxido de hierro (III) con sacarosa. Es un suplemento de hierro parenteral.",
+    "therapeuticClass": "Antianémico. Agente hematológico. Suplemento mineral.",
+    "absorption": "No aplica, ya que se administra por vía intravenosa, logrando una biodisponibilidad del 100%. El hierro está inmediatamente disponible en la circulación sistémica.",
+    "distribution": "El hierro liberado del complejo se une fuertemente a la transferrina plasmática. El volumen de distribución es bajo, aproximadamente equivalente al volumen plasmático (unos 3 litros). La unión a proteínas plasmáticas (transferrina) es muy alta. El hierro se distribuye principalmente al hígado, bazo y médula ósea para su almacenamiento y utilización.",
+    "metabolism": "El complejo hierro-sacarosa no es metabolizado por el sistema del citocromo P450 (CYP). El metabolismo principal ocurre en el sistema reticuloendotelial, donde la sacarosa se disocia del hierro férrico. El hierro liberado entra en el pool de hierro corporal normal. La sacarosa es metabolizada o excretada sin cambios.",
+    "elimination": "La vida media del complejo en plasma es de aproximadamente 6 horas. La sacarosa se elimina principalmente por vía renal (orina). El hierro liberado se incorpora a los glóbulos rojos o se almacena, por lo que su eliminación es mínima, excepto por pérdidas fisiológicas (descamación de piel, intestino) o patológicas (sangrado).",
+    "onsetOfAction": "El inicio del efecto sobre los niveles de hierro sérico es inmediato tras la infusión. El aumento en la producción de reticulocitos (glóbulos rojos jóvenes) y la mejoría en los parámetros hematológicos (hemoglobina) suele observarse en 1 a 2 semanas.",
+    "durationOfAction": "El efecto de reponer las reservas de hierro (ferritina) puede durar varios meses, dependiendo de las necesidades basales del paciente y de si la causa de la deficiencia (pérdida de sangre) ha sido corregida. Pueden requerirse dosis de mantenimiento en pacientes con pérdidas crónicas, como en la diálisis."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento de la deficiencia de hierro en pacientes adultos con enfermedad renal crónica (ERC) en diálisis.",
+      "Tratamiento de la deficiencia de hierro en pacientes adultos con ERC no en diálisis y pacientes pediátricos mayores de 2 años con ERC en diálisis.",
+      "Tratamiento de la deficiencia de hierro en pacientes adultos con sangrado agudo o crónico, síndromes de malabsorción (como enfermedad de Crohn, colitis ulcerosa) o cuando la terapia oral con hierro es ineficaz o no tolerable."
+    ],
+    "offLabel": [
+      "Tratamiento de la anemia ferropénica en la insuficiencia cardíaca crónica.",
+      "Prevención y tratamiento de la anemia en pacientes oncológicos (asociada a quimioterapia o la enfermedad misma).",
+      "Corrección preoperatoria rápida de la deficiencia de hierro en cirugías electivas mayores (como cirugía ortopédica, cardiaca) para reducir el riesgo de transfusión."
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis se calcula individualmente según el déficit de hierro total. Fórmula aproximada: Peso (kg) x (Hemoglobina deseada - Hemoglobina actual en g/dL) x 2.4 + Depósito (500 mg para <70 kg, 500-1000 mg para >70 kg). En ERC en diálisis: 100 mg administrados 1 a 3 veces por semana durante 10 semanas (dosis total acumulada hasta 1000 mg). En ERC no en diálisis: 200 mg en infusión lenta en días alternos hasta completar la dosis total calculada. Dosis única máxima por infusión: 200-300 mg (no exceder 7 mg/kg).",
+    "pediatric": "Para niños mayores de 2 años con ERC en diálisis: 0.5 mg/kg de peso corporal (máximo 100 mg por dosis) administrados en cada sesión de diálisis, hasta completar la dosis total calculada. La infusión debe ser lenta y supervisada.",
+    "elderly": "No se requiere ajuste de dosis basado únicamente en la edad. Sin embargo, se debe usar con precaución debido a la mayor probabilidad de problemas renales, hepáticos o cardíacos concomitantes que pueden aumentar el riesgo de efectos adversos.",
+    "renalImpairment": "No se requiere ajuste de dosis. De hecho, es el tratamiento de elección en la deficiencia de hierro asociada a enfermedad renal crónica en todas sus etapas, incluyendo diálisis. Se elimina por filtración glomerular, pero la sacarosa es dializable.",
+    "hepaticImpairment": "No se han establecido recomendaciones específicas de ajuste. Usar con precaución en insuficiencia hepática severa, ya que el hierro se almacena principalmente en el hígado y podría haber riesgo de sobrecarga.",
+    "maxDose": "Dosis máxima por infusión: 7 mg/kg de peso corporal, no excediendo 300 mg en una sola administración. La dosis total acumulada depende del cálculo del déficit, pero rara vez supera los 1000-2000 mg por ciclo de tratamiento."
+  },
+  "dosageForms": [
+    {
+      "form": "Solución inyectable para infusión intravenosa",
+      "strengths": [
+        "20 mg/mL"
+      ],
+      "route": "Intravenosa (IV)"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al hierro sacarosa o a cualquiera de sus excipientes.",
+      "Anemias no causadas por deficiencia de hierro (ej. anemia megaloblástica por deficiencia de B12, anemia hemolítica).",
+      "Sobrecarga de hierro demostrada (ej. hemocromatosis, hemosiderosis)."
+    ],
+    "relative": [
+      "Infección aguda o inflamación activa (puede alterar la utilización del hierro).",
+      "Asma, eczema u otras enfermedades alérgicas (mayor riesgo de reacciones de hipersensibilidad).",
+      "Enfermedad hepática activa severa.",
+      "Primer trimestre del embarazo."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Sabor metálico transitorio.",
+      "Cambio en la percepción del gusto.",
+      "Dolor de cabeza (cefalea).",
+      "Náuseas leves."
+    ],
+    "common": [
+      "Hipotensión (presión baja).",
+      "Calambres musculares.",
+      "Dolor en espalda, pecho o articulaciones.",
+      "Mareo.",
+      "Vómitos.",
+      "Diarrea o estreñimiento.",
+      "Dolor o inflamación en el sitio de la inyección.",
+      "Sensación de calor o enrojecimiento."
+    ],
+    "uncommon": [
+      "Reacciones de hipersensibilidad (urticaria, prurito, rash).",
+      "Taquicardia (ritmo cardíaco acelerado).",
+      "Dificultad para respirar (disnea).",
+      "Dolor abdominal.",
+      "Fiebre y escalofríos.",
+      "Sabor a huevo podrido."
+    ],
+    "rare": [
+      "Reacción anafiláctica severa (dificultad respiratoria grave, hinchazón de cara/garganta, shock).",
+      "Sobrecarga de hierro (aumento excesivo de ferritina).",
+      "Hipofosfatemia severa (disminución de fósforo en sangre).",
+      "Convulsiones."
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Inhibidores de la ECA (Enalapril, Captopril, etc.)",
+        "effect": "Puede aumentar el riesgo de reacciones sistémicas graves al hierro sacarosa, incluyendo hipotensión severa.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Agentes estimulantes de la eritropoyesis (Epoetina, Darbepoetina)",
+        "effect": "El uso conjunto es estándar para tratar la anemia en ERC. Sin embargo, si no hay suficiente hierro, la respuesta a la epoetina será deficiente. El hierro sacarosa mejora la respuesta.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Suplementos orales de hierro",
+        "effect": "Generalmente no se administran simultáneamente durante un ciclo de tratamiento con hierro IV para evitar riesgo de sobrecarga. Se pueden reiniciar después para mantenimiento.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "No aplica directamente, ya que se administra por vía intravenosa. Sin embargo, se recomienda al paciente no acudir en ayunas extremas para la infusión, para minimizar mareos o náuseas.",
+    "withSupplements": "Evitar el uso concurrente de suplementos de hierro oral, zinc o calcio en altas dosis, ya que pueden competir por la absorción o el transporte, aunque el efecto es menor con la vía IV. Los antiácidos que contienen fosfatos pueden contribuir a la hipofosfatemia."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "B",
+      "recommendation": "Solo debe usarse durante el embarazo si el beneficio justifica claramente el riesgo potencial para el feto. Se prefiere en el segundo y tercer trimestre para el tratamiento de anemias ferropénicas severas que no responden a hierro oral. Los estudios en animales no muestran riesgo, pero los datos en humanos son limitados.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "El hierro se excreta en la leche materna en cantidades mínimas. Se considera compatible con la lactancia, ya que el hierro es un nutriente esencial para el lactante. No se han reportado efectos adversos en bebés.",
+    "pediatric": "Aprobado para uso en niños mayores de 2 años con enfermedad renal crónica en diálisis. La seguridad y eficacia en menores de 2 años no está establecida. Requiere supervisión médica estrecha y cálculo preciso de dosis por peso.",
+    "geriatric": "Los pacientes de edad avanzada tienen mayor frecuencia de disminución de la función renal, hepática o cardíaca. No se requiere ajuste de dosis, pero se debe monitorizar más de cerca para reacciones adversas como hipotensión o sobrecarga de hierro. Pueden ser más sensibles a los efectos."
+  },
+  "administration": {
+    "howToTake": "Este medicamento SOLO debe ser administrado por personal de salud capacitado en un entorno clínico (hospital, clínica de diálisis, consultorio con equipo de reanimación). Se administra como una infusión intravenosa (IV) lenta, directamente en la vena o a través de un catéter. Nunca se inyecta rápido (en bolo). La dosis se diluye en solución salina (suero fisiológico) al 0.9%. La infusión típica de 100-200 mg toma al menos 15-30 minutos. El paciente debe ser observado durante y al menos 30 minutos después de la infusión para detectar cualquier reacción adversa.",
+    "storage": "Conservar el vial en su empaque original, protegido de la luz. Almacenar a temperatura ambiente (no superior a 25°C). No congelar. Una vez abierto el vial, el producto debe usarse inmediatamente. La solución diluida debe usarse en un plazo de 12 horas. Desechar cualquier porción no utilizada.",
+    "specialInstructions": "La solución es de color marrón oscuro. No mezclar con otros medicamentos o soluciones de nutrición parenteral en la misma línea de infusión. Antes de la primera dosis completa, algunos protocolos recomiendan administrar una dosis de prueba (por ejemplo, 25 mg durante varios minutos) para evaluar tolerancia, especialmente en pacientes con historial de alergias. El personal debe estar preparado para manejar una reacción anafiláctica."
+  },
+  "monitoring": {
+    "labTests": [
+      "Hemoglobina (Hb) y Hematocrito (Hto).",
+      "Ferritina sérica (reservas de hierro).",
+      "Saturación de transferrina (TSAT).",
+      "Recuento de reticulocitos.",
+      "Fosfato sérico (por riesgo de hipofosfatemia).",
+      "Función renal (creatinina, TFG)."
+    ],
+    "frequency": "En pacientes en diálisis: monitoreo mensual de Hb, ferritina y TSAT. En otros pacientes: evaluar hemoglobina 2-4 semanas después de completar el ciclo de hierro, y luego según sea necesario. La ferritina y TSAT se miden para guiar la necesidad de dosis de mantenimiento.",
+    "signsToWatch": [
+      "Signos de reacción alérgica durante la infusión: dificultad para respirar, opresión en el pecho, hinchazón de cara/labios/lengua, urticaria intensa.",
+      "Mareo severo o desmayo (hipotensión).",
+      "Dolor en huesos o articulaciones nuevo.",
+      "Orina de color oscuro (aunque es raro, puede indicar liberación de hierro).",
+      "Fatiga extrema o debilidad que no mejora."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Sobrecarga aguda de hierro: náuseas, vómitos, dolor abdominal, diarrea (posiblemente con sangre), letargo.",
+      "Hipotensión severa.",
+      "Acidosis metabólica (acidez en la sangre).",
+      "Shock, coagulopatía, falla hepática."
+    ],
+    "treatment": "No existe un antídoto específico. El tratamiento es de soporte y sintomático. Detener la infusión inmediatamente. Medidas de reanimación si hay shock. Monitorizar signos vitales y parámetros de laboratorio (hierro sérico, función hepática). En casos de intoxicación severa, puede considerarse la quelación del hierro con agentes como la deferoxamina, aunque esto es más común en intoxicación por hierro oral.",
+    "antidote": "Deferoxamina (Desferal) es un agente quelante del hierro que puede usarse en casos de sobredosis severa con signos de toxicidad sistémica. Su uso debe ser evaluado por un toxicólogo o médico especialista."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (prescripción médica). Es un medicamento de uso hospitalario y en unidades especializadas.",
+    "scheduleMexico": "Medicamento de la Fracción IV (Psicotrópicos y otros). Requiere receta médica retenible en la farmacia.",
+    "fdaApprovalYear": "Aprobado por la FDA de Estados Unidos en el año 2000."
+  },
+  "brandsMexico": [
+    "Venofer",
+    "Ferrosac",
+    "Ferrum IV",
+    "Ferroven",
+    "Ferrosacárido",
+    "Ferroject",
+    "FerroMed",
+    "Ferrovenoso"
+  ],
+  "clinicalPearls": [
+    "El hierro sacarosa tiene un perfil de seguridad mejorado respecto a formulaciones de hierro dextrano más antiguas, con menor riesgo de reacciones anafilácticas graves.",
+    "Es el hierro intravenoso de elección en pacientes con enfermedad renal crónica, especialmente en diálisis, por su eficacia y seguridad comprobada.",
+    "La hipofosfatemia es un efecto adverso que se está reconociendo más; monitorizar fosfato sérico, especialmente en pacientes que reciben múltiples dosis.",
+    "No administrar si la ferritina sérica es >800 ng/mL o la saturación de transferrina (TSAT) es >50%, para evitar riesgo de sobrecarga de hierro.",
+    "La mejoría en la calidad de vida (menos fatiga) a menudo precede y es más notable que el aumento numérico de la hemoglobina."
+  ],
+  "patientCounseling": "Este tratamiento le ayudará a su cuerpo a producir glóbulos rojos sanos, lo que reducirá su cansancio, palidez y falta de aire. Es muy importante que asista a todas sus citas para recibir la infusión completa. Durante la infusión, informe de inmediato a la enfermera o médico si siente mareo, picazón, dificultad para respirar, dolor en el pecho o cualquier malestar inusual. Después del tratamiento, es normal notar un sabor metálico pasajero o que la orina tenga un tono ligeramente más oscuro (no es sangre). Siga las recomendaciones de dieta que le haya dado su médico o nutriólogo para apoyar la formación de sangre (alimentos ricos en hierro, vitamina C). No tome suplementos de hierro en pastillas a menos que su médico se lo indique específicamente. Recuerde que este tratamiento corrige la deficiencia, pero es crucial tratar la causa que la originó (por ejemplo, controlar sangrados, seguir dieta para enfermedad renal).",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fatiga y cansancio extremo",
+        "slug": "fatiga-cronica"
+      },
+      {
+        "name": "Palidez (piel y mucosas)",
+        "slug": "palidez-cutanea"
+      },
+      {
+        "name": "Dificultad para respirar (disnea)",
+        "slug": "disnea-falta-aire"
+      },
+      {
+        "name": "Mareos o aturdimiento",
+        "slug": "mareos-vertigo"
+      },
+      {
+        "name": "Dolor de cabeza (cefalea)",
+        "slug": "cefalea-dolor-cabeza"
+      },
+      {
+        "name": "Uñas quebradizas o con forma de cuchara",
+        "slug": "uñas-quebradizas-coiloniquia"
+      },
+      {
+        "name": "Antojo de comer hielo o cosas no comestibles (pica)",
+        "slug": "pica-trastorno-alimenticio"
+      },
+      {
+        "name": "Latidos cardíacos rápidos o irregulares (palpitaciones)",
+        "slug": "palpitaciones-taquiardia"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Anemia ferropénica",
+        "slug": "anemia-ferropenica"
+      },
+      {
+        "name": "Enfermedad Renal Crónica (ERC)",
+        "slug": "enfermedad-renal-cronica"
+      },
+      {
+        "name": "Síndromes de malabsorción (Enfermedad de Crohn, Colitis Ulcerosa)",
+        "slug": "enfermedad-intestinal-inflamatoria"
+      },
+      {
+        "name": "Anemia por sangrado crónico (úlceras, hemorroides, menstruación abundante)",
+        "slug": "sangrado-gastrointestinal-cronico"
+      },
+      {
+        "name": "Anemia en la insuficiencia cardíaca",
+        "slug": "anemia-insuficiencia-cardiaca"
+      },
+      {
+        "name": "Anemia asociada a cáncer",
+        "slug": "anemia-neoplasica"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Sobrecarga de hierro (Hemosiderosis)",
+        "slug": "sobrecarga-hierro-hemosiderosis"
+      },
+      {
+        "name": "Hipofosfatemia",
+        "slug": "hipofosfatemia"
+      },
+      {
+        "name": "Reacción anafiláctica",
+        "slug": "reaccion-anafilactica"
+      },
+      {
+        "name": "Infecciones (el hierro libre puede favorecer el crecimiento bacteriano)",
+        "slug": "infecciones-asociadas-hierro"
+      },
+      {
+        "name": "Daño hepático por sobrecarga",
+        "slug": "falla-hepatica"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Hemoglobina (Hb)",
+        "slug": "hemoglobina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Ferritina sérica",
+        "slug": "ferritina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Saturación de Transferrina (TSAT)",
+        "slug": "saturacion-transferrina-tsat",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Reticulocitos",
+        "slug": "reticulocitos",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Fosfato sérico",
+        "slug": "fosforo-fosfato-sérico",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Hierro sérico",
+        "slug": "hierro-sérico",
+        "effect": "Puede elevar transitoriamente"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Biometría Hemática Completa",
+        "slug": "biometria-hematica-completa",
+        "reason": "Para diagnosticar anemia y evaluar respuesta al tratamiento midiendo hemoglobina, hematocrito y recuento de reticulocitos."
+      },
+      {
+        "name": "Ferritina y Saturación de Transferrina (TSAT)",
+        "slug": "ferritina-transferrina",
+        "reason": "Para evaluar las reservas de hierro y confirmar la deficiencia antes del tratamiento, y para monitorizar la reposición y evitar la sobrecarga."
+      },
+      {
+        "name": "Panel Metabólico Completo",
+        "slug": "panel-metabolico-completo",
+        "reason": "Para evaluar función renal (creatinina, TFG), electrolitos (fosfato) y función hepática, importantes para el manejo global."
+      },
+      {
+        "name": "Pruebas de Heces (Sangrado Oculto)",
+        "slug": "sangre-oculta-heces",
+        "reason": "Para investigar la causa de la deficiencia de hierro, especialmente en adultos, buscando sangrado gastrointestinal."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de Déficit de Hierro (Ganzoni)",
+        "slug": "calculadora-deficit-hierro-ganzoni"
+      },
+      {
+        "name": "Calculadora de TFG (Filtrado Glomerular)",
+        "slug": "calculadora-egfr"
+      },
+      {
+        "name": "Calculadora de Dosis Pediátrica por Peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Duele ponerse la infusión de hierro?",
+      "a": "La infusión en sí no duele más que un suero común. Puede sentir una sensación de frío o calor en el brazo, y a veces un sabor metálico momentáneo. El dolor o ardor en el sitio de la inyección es poco común si se administra correctamente."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Empieza a reponer las reservas de inmediato. Muchos pacientes notan menos cansancio y más energía en 1 a 2 semanas. El aumento en los niveles de hemoglobina en la sangre suele verse después de 2 a 4 semanas."
+    },
+    {
+      "q": "¿Puedo trabajar o manejar después de la infusión?",
+      "a": "Sí, la mayoría de los pacientes pueden reanudar sus actividades normales, incluyendo manejar, inmediatamente después. Sin embargo, si siente mareo o somnolencia (lo cual es raro), espere a que pasen esos efectos."
+    },
+    {
+      "q": "¿La infusión mancha la piel o la orina?",
+      "a": "No mancha la piel. Es común que la orina adquiera un color amarillo más intenso o ligeramente verdoso/marrón en las primeras 24-48 horas después de la infusión. Esto es normal y se debe a la eliminación del exceso de hierro, no es sangre."
+    },
+    {
+      "q": "¿Necesito seguir tomando pastillas de hierro?",
+      "a": "Generalmente NO durante el ciclo de infusiones. Su médico le dirá cuándo y si es necesario reiniciar pastillas de hierro oral para mantenimiento, una vez que se hayan repuesto las reservas con el tratamiento IV."
+    },
+    {
+      "q": "¿Cuántas sesiones necesito?",
+      "a": "Depende de qué tan baja esté su hemoglobina y sus reservas de hierro. Su médico calculará una dosis total. Puede ser desde 1-2 infusiones grandes (en días diferentes) hasta 10 infusiones pequeñas (por ejemplo, una por semana en diálisis)."
+    },
+    {
+      "q": "¿Tiene efectos secundarios graves?",
+      "a": "Los efectos graves como reacciones alérgicas fuertes son poco comunes, pero posibles. Por eso se administra en un lugar con personal capacitado para atenderlas. Los efectos más comunes son leves: sabor metálico, dolor de cabeza, náuseas leves."
+    },
+    {
+      "q": "¿Puedo comer normalmente antes y después?",
+      "a": "Sí, no hay restricciones dietéticas especiales. Es recomendable no acudir con el estómago completamente vacío para evitar náuseas. Después, seguir una dieta balanceada rica en nutrientes ayuda a mantener los niveles de hierro."
+    },
+    {
+      "q": "¿Sirve para cualquier tipo de anemia?",
+      "a": "NO. Solo sirve para la anemia causada por falta de hierro (anemia ferropénica). No es efectiva para anemias por falta de vitamina B12, ácido fólico, por enfermedades crónicas (sin deficiencia de hierro) o por destrucción de glóbulos rojos."
+    },
+    {
+      "q": "¿Qué hago si me olvido de una sesión?",
+      "a": "Contacte a su médico o clínica para reprogramarla lo antes posible. No duplique la dosis en la siguiente sesión. Un retraso moderado no anula el efecto del tratamiento, pero es importante completar la dosis total calculada."
+    },
+    {
+      "q": "¿Puedo recibirla si estoy embarazada o amamantando?",
+      "a": "En el embarazo, solo si el médico lo considera estrictamente necesario, generalmente en el segundo o tercer trimestre para anemia severa. Durante la lactancia, se considera seguro, ya que el hierro que pasa a la leche es mínimo y benéfico para el bebé."
+    },
+    {
+      "q": "¿Es mejor que las pastillas de hierro?",
+      "a": "No es 'mejor' en general, sino para situaciones específicas. Las pastillas son la primera opción. El hierro IV es mejor cuando: las pastillas no se toleran (causan mucho malestar estomacal), no se absorben (por problemas intestinales), o se necesita un efecto rápido (antes de una cirugía, anemia severa)."
+    },
+    {
+      "q": "¿El tratamiento es para siempre?",
+      "a": "No. Es un tratamiento para 'recargar' las reservas de hierro del cuerpo. Una vez completado, el efecto dura meses. Sin embargo, si la causa de la pérdida de hierro persiste (ej. sangrado menstrual abundante, diálisis), pueden necesitarse dosis de mantenimiento periódicas."
+    },
+    {
+      "q": "¿Interfiere con otros medicamentos que tomo?",
+      "a": "Informe a su médico TODOS los medicamentos que usa. La interacción más importante es con medicamentos para la presión alta llamados 'inhibidores de la ECA' (como enalapril), que pueden aumentar el riesgo de reacción durante la infusión. Su médico lo evaluará."
+    },
+    {
+      "q": "¿Qué significa 'saturación de transferrina' y 'ferritina'?",
+      "a": "Son exámenes de sangre. La ferritina mide las 'reservas' de hierro en su cuerpo (como el tanque de gasolina). La saturación de transferrina mide cuánto hierro está circulando y disponible 'listo para usar' (como el combustible en el motor). Ambos son clave para diagnosticar la deficiencia y guiar el tratamiento."
+    },
+    {
+      "q": "¿Puede causar sobrecarga de hierro?",
+      "a": "Es un riesgo si se administra en exceso o a personas que no tienen deficiencia. Por eso los médicos piden exámenes (ferritina) antes y durante el tratamiento para asegurarse de que se necesita y para no pasar la dosis necesaria. En pacientes con buena función renal, el riesgo es bajo."
+    },
+    {
+      "q": "¿Por qué a algunos pacientes en diálisis se les da siempre?",
+      "a": "Los pacientes en diálisis pierden pequeñas cantidades de sangre en cada sesión y tienen dificultad para absorber el hierro oral. Además, necesitan hierro para responder bien a las inyecciones de eritropoyetina (medicamento que estimula la producción de sangre). Por eso, a menudo requieren hierro IV de mantenimiento."
+    },
+    {
+      "q": "¿Hay diferencia entre las marcas de hierro IV?",
+      "a": "Sí, hay diferentes tipos de hierro IV (sacárido, gluconato, carboximaltosa, dextrano). El hierro sacarosa (Venofer y similares) es uno de los más usados y estudiados, especialmente en enfermedad renal. Su médico elegirá el más adecuado para su condición específica."
+    },
+    {
+      "q": "¿Qué debo hacer si durante la infusión me siento muy mal?",
+      "a": "Informe INMEDIATAMENTE a la enfermera o médico que lo atiende. No espere. Ellos detendrán la infusión y evaluarán sus síntomas. La mayoría de las reacciones se controlan fácilmente si se detectan a tiempo."
+    },
+    {
+      "q": "¿Cómo se calcula exactamente la dosis que me toca?",
+      "a": "El médico usa una fórmula que considera su peso, su nivel de hemoglobina actual, el nivel de hemoglobina que se desea alcanzar, y una cantidad extra para llenar las reservas vacías. Es un cálculo individualizado, por eso es importante tener sus exámenes de laboratorio recientes."
+    }
+  ]
+}

@@ -1,0 +1,429 @@
+{
+  "name": "Cetirizina",
+  "summary": "La cetirizina es un medicamento antialérgico de segunda generación, perteneciente a la familia de los antihistamínicos. Sirve para aliviar eficazmente los síntomas de alergias como la rinitis alérgica (estornudos, picazón y secreción nasal, ojos llorosos) y la urticaria (ronchas y picazón en la piel). Su importancia clínica radica en que bloquea la acción de la histamina, una sustancia química que el cuerpo libera durante una reacción alérgica, pero con la ventaja de que, a diferencia de los antihistamínicos más antiguos, tiene una menor probabilidad de causar somnolencia significativa en la mayoría de las personas, lo que permite a los pacientes realizar sus actividades diarias con normalidad. Es uno de los antihistamínicos más utilizados en México y el mundo debido a su eficacia comprobada, inicio de acción rápido y perfil de seguridad favorable, estando disponible en farmacias de todo el país, tanto con receta médica como en presentaciones de venta libre para adultos y niños mayores de cierta edad.",
+  "pharmacology": {
+    "mechanismOfAction": "La cetirizina es un antagonista competitivo y reversible de los receptores H1 de histamina periféricos. Esto significa que se une a estos receptores en las células, impidiendo que la histamina liberada durante una reacción alérgica se una a ellos y desencadene los síntomas típicos. Al bloquear estos receptores, inhibe la vasodilatación, la contracción del músculo liso bronquial e intestinal, y la activación de las terminaciones nerviosas sensoriales que causan picor. Además, tiene una acción antiinflamatoria adicional al inhibir la liberación de mediadores proinflamatorios y la quimiotaxis de eosinófilos, un tipo de glóbulo blanco involucrado en las alergias. Su selectividad por los receptores H1 periféricos explica su baja incidencia de efectos sedantes en el sistema nervioso central, a diferencia de los antihistamínicos de primera generación que cruzan fácilmente la barrera hematoencefálica.",
+    "pharmacologicClass": "Antagonista selectivo y competitivo de los receptores H1 de histamina (de segunda generación). Metabólito activo de la hidroxicina.",
+    "therapeuticClass": "Antihistamínico, Antialérgico, Antipruriginoso.",
+    "absorption": "Se absorbe rápida y extensamente en el tracto gastrointestinal después de la administración oral. La biodisponibilidad es alta, aproximadamente del 70%. La presencia de alimentos puede retrasar ligeramente la velocidad de absorción, pero no afecta significativamente la cantidad total de medicamento que llega a la circulación sistémica.",
+    "distribution": "Se distribuye ampliamente en los tejidos. Su volumen de distribución (Vd) es de aproximadamente 0.5 L/kg. Se une a las proteínas plasmáticas en un 93%, principalmente a la albúmina. Cruza mínimamente la barrera hematoencefálica, lo que explica su baja sedación en comparación con antihistamínicos más antiguos.",
+    "metabolism": "La cetirizina sufre un metabolismo hepático mínimo (aproximadamente el 10-15% de la dosis). No es metabolizada significativamente por el sistema de citocromo P450 (CYP450), lo que reduce el riesgo de interacciones farmacocinéticas con otros medicamentos que utilizan estas vías enzimáticas. Se metaboliza principalmente por oxidación no enzimática y en menor medida por las enzimas CYP3A4 y alcohol deshidrogenasa.",
+    "elimination": "Se elimina principalmente sin cambios por vía renal (aproximadamente el 70% de la dosis en la orina). Una pequeña parte se elimina en las heces. Su vida media de eliminación es de aproximadamente 8-10 horas en adultos con función renal normal, lo que permite una dosificación de una vez al día.",
+    "onsetOfAction": "El inicio de acción es relativamente rápido. Los pacientes pueden comenzar a notar alivio de los síntomas dentro de los 20 a 60 minutos posteriores a la ingestión de una dosis oral.",
+    "durationOfAction": "El efecto antihistamínico dura aproximadamente 24 horas después de una dosis única, permitiendo una administración cómoda de una vez al día."
+  },
+  "indications": {
+    "approved": [
+      "Rinitis alérgica estacional (fiebre del heno) y perenne en adultos y niños mayores de 2 años.",
+      "Urticaria crónica idiopática (ronchas y picazón de causa desconocida) en adultos y niños mayores de 6 meses.",
+      "Conjuntivitis alérgica (como parte del síndrome de rinitis alérgica).",
+      "Alivio sintomático del prurito (picazón) asociado a condiciones alérgicas de la piel."
+    ],
+    "offLabel": [
+      "Prurito asociado a dermatitis atópica (eccema).",
+      "Como terapia adyuvante en el manejo del angioedema (hinchazón bajo la piel).",
+      "Alivio sintomático de reacciones alérgicas leves a moderadas por picaduras de insectos.",
+      "Prevención de reacciones alérgicas leves en procedimientos de contraste yodado (en combinación con otros fármacos).",
+      "Manejo de síntomas alérgicos en mastocitosis."
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis habitual para adultos y adolescentes mayores de 12 años es de 10 mg una vez al día, preferentemente por la noche. En algunos casos, se puede iniciar con 5 mg (media tableta o 5 ml de jarabe) una vez al día, especialmente si hay preocupación por somnolencia.",
+    "pediatric": "Niños de 6 a 11 años: 5 mg (media tableta o 5 ml de jarabe) una vez al día. Niños de 2 a 5 años: 2.5 mg (1.25 ml de jarabe o cuarto de tableta soluble) una vez al día, pudiendo aumentarse a 2.5 mg cada 12 horas si es necesario. Niños de 6 meses a 23 meses: 2.5 mg (1.25 ml de jarabe) una vez al día. Para lactantes menores de 6 meses, consultar al pediatra; generalmente no se recomienda.",
+    "elderly": "En adultos mayores con función renal normal, la dosis recomendada es la misma que para adultos (10 mg/día). Sin embargo, debido a la posible disminución de la función renal relacionada con la edad, se recomienda evaluar la TFG y ajustar la dosis si es necesario, iniciando con 5 mg al día.",
+    "renalImpairment": "Ajustes necesarios: TFG 50-79 mL/min (leve): 10 mg/día. TFG 30-49 mL/min (moderada): 5 mg/día. TFG 10-29 mL/min (severa): 5 mg cada 48 horas (cada dos días). TFG <10 mL/min o diálisis: Contraindicado o uso con extrema precaución bajo supervisión médica estricta.",
+    "hepaticImpairment": "En pacientes con insuficiencia hepática leve a moderada, no se requieren ajustes de dosis si la función renal es normal, ya que el metabolismo hepático es mínimo. En insuficiencia hepática grave, se recomienda precaución y posible reducción de la dosis a 5 mg/día, debido a posibles alteraciones en la función renal secundarias.",
+    "maxDose": "La dosis máxima diaria para adultos y adolescentes es de 10 mg. En niños, la dosis máxima depende de la edad y el peso, no excediendo las dosis pediátricas establecidas."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta recubierta",
+      "strengths": [
+        "10 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tableta masticable",
+      "strengths": [
+        "10 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tableta bucodispersable (se disuelve en la boca)",
+      "strengths": [
+        "10 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Jarabe/Solución oral",
+      "strengths": [
+        "1 mg/ml (0.1%)"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Gotas orales",
+      "strengths": [
+        "10 mg/ml"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la cetirizina, a la hidroxicina (su precursor) o a cualquier componente de la formulación.",
+      "Pacientes con insuficiencia renal terminal (TFG <10 mL/min) que no están en diálisis.",
+      "Niños menores de 6 meses (según presentación y criterio médico)."
+    ],
+    "relative": [
+      "Pacientes con insuficiencia renal moderada a severa (requiere ajuste de dosis).",
+      "Pacientes con retención urinaria (por ejemplo, por hiperplasia prostática benigna severa).",
+      "Pacientes con glaucoma de ángulo cerrado no controlado.",
+      "Mujeres embarazadas o en periodo de lactancia (solo si el beneficio justifica el riesgo).",
+      "Pacientes que conducen vehículos o operan maquinaria pesada y son susceptibles a la somnolencia."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Somnolencia (aunque menos frecuente que con antihistamínicos antiguos, aún ocurre en un porcentaje significativo de pacientes).",
+      "Dolor de cabeza (cefalea).",
+      "Sequedad de boca."
+    ],
+    "common": [
+      "Fatiga, cansancio.",
+      "Mareo.",
+      "Náuseas, malestar estomacal.",
+      "Faringitis (dolor de garganta)."
+    ],
+    "uncommon": [
+      "Agitación, nerviosismo.",
+      "Visión borrosa.",
+      "Aumento de peso.",
+      "Prurito (picazón) o erupción cutánea (paradójico).",
+      "Taquicardia (latidos rápidos del corazón)."
+    ],
+    "rare": [
+      "Reacciones de hipersensibilidad severa (anafilaxia, angioedema).",
+      "Convulsiones.",
+      "Alteraciones hepáticas (aumento de transaminasas).",
+      "Disfunción eréctil o disminución de la libido.",
+      "Alucinaciones, confusión (especialmente en ancianos o con sobredosis).",
+      "Retención urinaria."
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Alcohol (Etanol)",
+        "effect": "Puede potenciar el efecto depresor del sistema nervioso central (SNC) de la cetirizina, aumentando significativamente la somnolencia, mareo y reduciendo la capacidad de alerta. Riesgo aumentado de accidentes.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Depresores del SNC (Benzodiacepinas, opioides, antipsicóticos, algunos antidepresivos)",
+        "effect": "Potenciación de efectos sedantes y deterioro psicomotor. Aumenta el riesgo de somnolencia profunda, confusión y caídas, especialmente en ancianos.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Teofilina",
+        "effect": "Puede disminuir ligeramente la eliminación de la cetirizina, aumentando potencialmente sus niveles en sangre y efectos adversos. La relevancia clínica es baja, pero se recomienda monitoreo.",
+        "severity": "Leve"
+      }
+    ],
+    "withFood": "Los alimentos pueden retrasar ligeramente la absorción de la cetirizina, pero no afectan su eficacia general. Se puede tomar con o sin alimentos. La interacción más importante es con el ALCOHOL, cuyo consumo debe evitarse estrictamente durante el tratamiento.",
+    "withSupplements": "Interacciones clínicamente significativas con suplementos herbales o vitamínicos son poco comunes. Sin embargo, se debe tener precaución con suplementos que tengan efectos sedantes (como la valeriana, la melisa o la kava), ya que pueden potenciar la somnolencia. Suplementos que afecten la función renal podrían alterar la eliminación de la cetirizina."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA B",
+      "recommendation": "Los estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. Su uso durante el embarazo solo debe considerarse si el beneficio potencial para la madre justifica claramente el riesgo potencial para el feto. Se prefiere evitar en el primer trimestre. Para el manejo de alergias en el embarazo, se recomienda primero intentar medidas no farmacológicas y consultar siempre al médico.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La cetirizina se excreta en la leche materna en cantidades muy bajas. Se considera compatible con la lactancia, ya que la dosis estimada que recibe el lactante es inferior al 1% de la dosis materna y no se han reportado efectos adversos en bebés. Sin embargo, se recomienda precaución y observar al bebé por si aparece somnolencia inusual, irritabilidad o problemas de alimentación. Se puede optar por tomar la dosis justo después de una toma para minimizar la exposición del bebé.",
+    "pediatric": "Seguro y efectivo para niños mayores de 6 meses en las dosis aprobadas según peso/edad. Para menores de 6 meses, su uso debe ser evaluado estrictamente por un pediatra. En niños, es importante usar la presentación y concentración correcta (jarabe o gotas) para dosificar con precisión. Monitorear posibles efectos paradójicos como excitación o irritabilidad, aunque son poco comunes.",
+    "geriatric": "Los adultos mayores son más susceptibles a los efectos anticolinérgicos (sequedad de boca, retención urinaria, estreñimiento, confusión) y a la sedación, lo que aumenta el riesgo de caídas y fracturas. La función renal suele estar disminuida, por lo que es MANDATORIO evaluar la TFG y ajustar la dosis iniciando frecuentemente con 5 mg al día. Evitar el uso concomitante con otros fármacos sedantes."
+  },
+  "administration": {
+    "howToTake": "Tomar por vía oral, con o sin alimentos. Las tabletas se tragan enteras con un vaso de agua. Las tabletas bucodispersables se colocan en la lengua, donde se desintegran en segundos y se tragan con o sin agua. El jarabe y las gotas deben medirse con el dosificador proporcionado (jeringa, cuchara o cuentagotas). Para niños pequeños, el jarabe puede mezclarse con una pequeña cantidad de agua, leche o jugo. Tomar preferentemente a la misma hora cada día, a menudo por la noche para minimizar la somnolencia diurna.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (entre 15°C y 30°C), protegido de la luz y la humedad. No refrigerar a menos que el empaque lo indique específicamente (algunos jarabes). Mantener fuera del alcance y de la vista de los niños.",
+    "specialInstructions": "Aunque es menos sedante, algunas personas pueden experimentar somnolencia. No conduzca, opere maquinaria peligrosa o realice actividades que requieran alerta hasta que conozca cómo le afecta este medicamento. Evite el consumo de bebidas alcohólicas. Si olvida una dosis, tómela en cuanto se acuerde, pero si es casi la hora de la siguiente, omita la dosis olvidada y continúe con su horario normal. NO duplique la dosis para compensar."
+  },
+  "monitoring": {
+    "labTests": [
+      "Función renal (creatinina sérica, TFG) antes de iniciar y periódicamente en pacientes de riesgo (ancianos, enfermedad renal conocida).",
+      "Pruebas de función hepática (transaminasas) si se sospecha toxicidad o uso prolongado a altas dosis.",
+      "Conteo sanguíneo completo (CSC) en casos de uso crónico muy prolongado, aunque el riesgo de alteraciones es bajo."
+    ],
+    "frequency": "Monitoreo de función renal: al inicio del tratamiento en pacientes de riesgo, y luego anualmente o según criterio médico. Monitoreo clínico de efectos adversos (somnolencia, sequedad) en cada consulta.",
+    "signsToWatch": [
+      "Somnolencia extrema o mareo que interfiera con las actividades diarias.",
+      "Dificultad para orinar (retención urinaria).",
+      "Latidos cardíacos irregulares o muy rápidos (palpitaciones).",
+      "Signos de reacción alérgica grave: hinchazón de cara, labios, lengua o garganta; dificultad para respirar; urticaria intensa.",
+      "Cambios en el estado mental (confusión, agitación, alucinaciones), especialmente en ancianos."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Somnolencia extrema (puede progresar a estupor).",
+      "Inquietud, irritabilidad o agitación (más común en niños).",
+      "Taquicardia (latidos rápidos).",
+      "Retención urinaria.",
+      "Sequedad de boca severa.",
+      "En casos muy graves: convulsiones, depresión cardiorrespiratoria."
+    ],
+    "treatment": "No existe antídoto específico. El tratamiento es de soporte y sintomático. Si la ingestión es reciente (menos de 1-2 horas), se puede considerar lavado gástrico o administración de carbón activado. Mantener vía aérea, respiración y circulación. Monitorizar signos vitales. Los síntomas suelen resolverse en 24-48 horas debido a la vida media del fármaco. La diálisis no es efectiva debido a la alta unión a proteínas.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "En México, la cetirizina en presentaciones de 10 mg para adultos y jarabe al 0.1% se encuentra disponible como medicamento de VENTA LIBRE (sin receta). Las presentaciones pediátricas específicas (como gotas concentradas) y dosis altas pueden requerir receta médica. Siempre se recomienda consultar a un profesional de la salud.",
+    "scheduleMexico": "No está sujeta a control especial por la COFEPRIS. Pertenece a la Fracción IV (Medicamentos alópata de libre venta) o Fracción II (con receta) según la presentación y concentración.",
+    "fdaApprovalYear": "Aprobado por la FDA en los Estados Unidos en 1995."
+  },
+  "brandsMexico": [
+    "Zyrtec",
+    "Reactine",
+    "Alercet",
+    "Cetrinex",
+    "Cetzine",
+    "Zetrix",
+    "Cetirizin",
+    "Alergix",
+    "Cetir",
+    "Zinaler",
+    "Zeric",
+    "Cetisan",
+    "Zetil",
+    "Cetiray",
+    "Cetirizin MK",
+    "Ceticin",
+    "Zetimax",
+    "Alercet D (con pseudoefedrina)",
+    "Reactine Duo (con pseudoefedrina)",
+    "Cetirizin D (con pseudoefedrina)"
+  ],
+  "clinicalPearls": [
+    "La cetirizina es el metabolito activo de la hidroxicina, pero tiene un perfil de efectos secundarios mucho más favorable, con mucha menos sedación.",
+    "A diferencia de otros antihistamínicos de segunda generación como la loratadina o la fexofenadina, la cetirizina tiene una acción antiinflamatoria adicional al inhibir la migración de eosinófilos, lo que puede ser beneficioso en alergias persistentes.",
+    "Su eliminación renal predominante hace que el ajuste de dosis en pacientes con insuficiencia renal sea CRUCIAL para evitar toxicidad por acumulación, manifestada principalmente como somnolencia extrema."
+  ],
+  "patientCounseling": "La cetirizina le ayudará a controlar los síntomas de su alergia, como estornudos, picazón de nariz y ojos, y ronchas. Tómela una vez al día, preferentemente por la noche, ya que puede causar algo de sueño. Aunque es menos probable que le dé sueño que otros antialérgicos antiguos, NO conduzca ni maneje maquinaria hasta que esté seguro de cómo le afecta. EVITE por completo tomar bebidas alcohólicas mientras use este medicamento, porque aumenta mucho el riesgo de sueño y accidentes. Si tiene problemas de los riñones o es mayor de 65 años, es muy importante que su médico le ajuste la dosis. Use el jarabe con el dosificador que trae para dar la dosis exacta a los niños. Si los síntomas no mejoran después de unos días, o si presenta latidos muy rápidos, dificultad para orinar o mucha somnolencia, consulte a su médico o farmacéutico de inmediato.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Estornudos",
+        "slug": "estornudos"
+      },
+      {
+        "name": "Picazón nasal (prurito nasal)",
+        "slug": "picazon-nasal-prurito-nasal"
+      },
+      {
+        "name": "Secreción nasal acuosa (rinorrea)",
+        "slug": "secrecion-nasal-acuosa-rinorrea"
+      },
+      {
+        "name": "Congestión nasal (como parte del síndrome)",
+        "slug": "congestion-nasal"
+      },
+      {
+        "name": "Picazón en los ojos (prurito ocular)",
+        "slug": "picazon-en-los-ojos-prurito-ocular"
+      },
+      {
+        "name": "Ojos llorosos (lagrimeo)",
+        "slug": "ojos-llorosos-lagrimeo"
+      },
+      {
+        "name": "Ronchas (urticaria)",
+        "slug": "ronchas-urticaria"
+      },
+      {
+        "name": "Picazón en la piel (prurito cutáneo)",
+        "slug": "picazon-en-la-piel-prurito-cutaneo"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Rinitis Alérgica Estacional (Fiebre del Heno)",
+        "slug": "rinitis-alergica-estacional-fiebre-del-heno"
+      },
+      {
+        "name": "Rinitis Alérgica Perenne",
+        "slug": "rinitis-alergica-perenne"
+      },
+      {
+        "name": "Urticaria Crónica Idiopática",
+        "slug": "urticaria-cronica-idiopatica"
+      },
+      {
+        "name": "Conjuntivitis Alérgica",
+        "slug": "conjuntivitis-alergica"
+      },
+      {
+        "name": "Dermatitis Atópica (como tratamiento sintomático del prurito)",
+        "slug": "dermatitis-atopica"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Somnolencia excesiva (Hipersomnia secundaria)",
+        "slug": "somnolencia-excesiva-hipersomnia-secundaria"
+      },
+      {
+        "name": "Retención Urinaria",
+        "slug": "retencion-urinaria"
+      },
+      {
+        "name": "Boca Seca (Xerostomía)",
+        "slug": "boca-seca-xerostomia"
+      },
+      {
+        "name": "Reacción de Hipersensibilidad (Anafilaxia)",
+        "slug": "reaccion-de-hipersensibilidad-anafilaxia"
+      },
+      {
+        "name": "Confusión o Delirio (especialmente en ancianos)",
+        "slug": "confusion-o-delirio"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevarse indirectamente si causa deshidratación por efectos anticolinérgicos, pero no es un efecto directo. Su medición es clave para ajustar dosis."
+      },
+      {
+        "name": "Tasa de Filtración Glomerular (TFG)",
+        "slug": "tasa-de-filtracion-glomerular-tfg",
+        "effect": "No la altera directamente, pero su cálculo es esencial para determinar la dosis correcta y evitar toxicidad."
+      },
+      {
+        "name": "Transaminasas (ALT, AST)",
+        "slug": "transaminasas-alt-ast",
+        "effect": "Puede elevar raramente (efecto hepatotóxico poco común)."
+      },
+      {
+        "name": "Frecuencia Cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede elevar (taquicardia) como efecto adverso poco común."
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Biometría Hemática Completa",
+        "slug": "biometria-hematica-completa",
+        "reason": "Para descartar otras causas de síntomas y como línea base en uso crónico, aunque rara vez causa alteraciones hematológicas."
+      },
+      {
+        "name": "Química Sanguínea (con creatinina y pruebas de función hepática)",
+        "slug": "quimica-sanguinea-con-creatinina",
+        "reason": "Fundamental para evaluar función renal (ajuste de dosis) y hepática antes y durante tratamientos prolongados."
+      },
+      {
+        "name": "Examen General de Orina",
+        "slug": "examen-general-de-orina",
+        "reason": "Para evaluar función renal y detectar posibles complicaciones como infecciones, especialmente si hay retención urinaria."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de Aclaramiento de Creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      },
+      {
+        "name": "Calculadora de Dosis Pediátrica por Peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La cetirizina da sueño?",
+      "a": "Sí, puede causar somnolencia, aunque es mucho menos frecuente y severa que con los antihistamínicos antiguos (como la difenhidramina). Aproximadamente 1 de cada 10 personas lo experimenta. Por eso se recomienda tomarla por la noche al iniciar el tratamiento, hasta que vea cómo le afecta."
+    },
+    {
+      "q": "¿Puedo tomar cetirizina si voy a manejar?",
+      "a": "No se recomienda manejar o operar maquinaria peligrosa justo después de tomar la primera dosis. Espere a conocer cómo le afecta. Si no siente somnolencia, puede hacerlo con precaución. Si siente sueño o mareo, evítelo completamente."
+    },
+    {
+      "q": "¿La cetirizina se toma con o sin alimentos?",
+      "a": "Se puede tomar con o sin alimentos. Los alimentos pueden hacer que se absorba un poco más lento, pero no afectan su eficacia final. Tómela con un vaso de agua."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si estoy tomando cetirizina?",
+      "a": "NO. Debe evitar completamente el consumo de alcohol. El alcohol potencia mucho el efecto sedante de la cetirizina, aumentando el riesgo de sueño profundo, mareos, accidentes y disminuyendo sus reflejos."
+    },
+    {
+      "q": "¿Para qué sirve la cetirizina?",
+      "a": "Sirve para aliviar los síntomas de alergias como estornudos, picazón de nariz y ojos, secreción nasal acuosa y ojos llorosos (rinitis alérgica). También trata las ronchas y la picazón en la piel (urticaria)."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto la cetirizina?",
+      "a": "Comienza a hacer efecto entre 20 y 60 minutos después de tomarla. El alivio máximo se siente usualmente entre 1 y 2 horas después."
+    },
+    {
+      "q": "¿La cetirizina es buena para la gripe o el resfriado?",
+      "a": "No. La cetirizina es para alergias. Los resfriados y la gripe son causados por virus. Puede ayudar a secar un poco la secreción nasal, pero no trata la causa ni otros síntomas como fiebre o dolor de cuerpo. Consulte a su médico para el tratamiento adecuado."
+    },
+    {
+      "q": "¿Puedo tomar cetirizina en el embarazo?",
+      "a": "Solo si su médico lo considera estrictamente necesario. Los estudios en animales no muestran riesgo, pero en humanos no hay certeza total. Se clasifica como Categoría B. Siempre consulte a su ginecólogo antes de tomar cualquier medicamento durante el embarazo."
+    },
+    {
+      "q": "¿Puedo darle cetirizina a mi hijo?",
+      "a": "Sí, pero depende de la edad y el peso. Existen presentaciones en jarabe y gotas para niños. Para niños de 2 a 5 años la dosis usual es 2.5 mg al día. Para menores de 2 años, consulte SIEMPRE al pediatra. Nunca le dé tabletas de adulto a un niño sin dosificar correctamente."
+    },
+    {
+      "q": "¿Qué pasa si tomo dos cetirizinas en un día por error?",
+      "a": "Probablemente sentirá más somnolencia, sequedad de boca y tal vez mareo. Beba mucha agua y descanse. No tome la dosis del día siguiente. Si tomó una dosis muy alta o presenta síntomas graves como confusión o dificultad para respirar, acuda a urgencias."
+    },
+    {
+      "q": "¿La cetirizina sube la presión arterial?",
+      "a": "No es un efecto común. La cetirizina por sí sola no suele afectar la presión arterial. Sin embargo, algunas presentaciones combinadas (como 'Cetirizina D') contienen pseudoefedrina, un descongestionante que SÍ puede subir la presión. Revise la etiqueta y si tiene hipertensión, evite las combinaciones."
+    },
+    {
+      "q": "¿Puedo tomar cetirizina todos los días?",
+      "a": "Sí, para condiciones alérgicas crónicas como la rinitis perenne o la urticaria crónica, se puede tomar diariamente por periodos prolongados bajo supervisión médica. Es importante que su médico evalúe periódicamente si sigue siendo necesaria."
+    },
+    {
+      "q": "¿La cetirizina engorda?",
+      "a": "El aumento de peso no es un efecto común de la cetirizina. Se ha reportado en menos del 1% de los pacientes. Si nota un aumento de peso significativo y repentino, consulte a su médico para descartar otras causas."
+    },
+    {
+      "q": "¿Qué diferencia hay entre cetirizina y loratadina?",
+      "a": "Ambas son antihistamínicos de segunda generación. La cetirizina puede causar un poco más de somnolencia que la loratadina, pero para algunas personas es más efectiva. La loratadina no requiere ajuste en problemas renales leves. La elección depende de la respuesta individual y las condiciones del paciente."
+    },
+    {
+      "q": "¿La cetirizina afecta los riñones?",
+      "a": "No daña los riñones directamente. Pero como se elimina principalmente por la orina, si sus riñones no funcionan bien (insuficiencia renal), el medicamento se puede acumular en el cuerpo y causar efectos secundarios graves. Por eso es vital ajustar la dosis si hay problemas renales."
+    },
+    {
+      "q": "¿Puedo tomar cetirizina con otros medicamentos para la alergia?",
+      "a": "Generalmente NO se recomienda combinar con otros antihistamínicos (como loratadina, fexofenadina, difenhidramina), porque aumenta el riesgo de efectos secundarios sin mayor beneficio. Solo hágalo bajo indicación médica específica."
+    },
+    {
+      "q": "¿La cetirizina causa adicción o dependencia?",
+      "a": "No. La cetirizina no tiene potencial de abuso ni causa dependencia física o psicológica. Puede suspenderse cuando ya no sea necesario sin síntomas de abstinencia."
+    },
+    {
+      "q": "¿Qué hago si la cetirizina no me quita la alergia?",
+      "a": "Si después de varios días de uso correcto no hay mejoría, consulte a su médico. Puede que necesite un tratamiento adicional (como esteroides nasales) o que su diagnóstico sea diferente. No aumente la dosis por su cuenta."
+    },
+    {
+      "q": "¿La cetirizina interactúa con medicamentos para la ansiedad o el sueño?",
+      "a": "SÍ, y es una interacción importante. Medicamentos como alprazolam, clonazepam, zolpidem o antidepresivos sedantes pueden potenciar MUCHO el efecto de sueño y mareo de la cetirizina. Informe siempre a su médico sobre todos los medicamentos que toma."
+    },
+    {
+      "q": "¿Por qué a algunos pacientes con insuficiencia renal se les da cetirizina cada 48 horas?",
+      "a": "Porque la cetirizina se elimina por los riñones. Si los riñones funcionan muy poco (TFG entre 10-29 mL/min), el cuerpo tarda el doble de tiempo (aproximadamente 20 horas de vida media) en eliminar la dosis. Administrarla cada 48 horas evita que se acumule a niveles tóxicos que causen somnolencia extrema y otros efectos adversos."
+    }
+  ]
+}

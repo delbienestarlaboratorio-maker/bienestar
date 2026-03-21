@@ -1,0 +1,355 @@
+{
+  "name": "Zaleplón",
+  "summary": "El zaleplón es un medicamento hipnótico, es decir, que ayuda a conciliar el sueño. Pertenece a la clase de fármacos conocidos como 'agonistas selectivos del receptor de benzodiacepinas' o 'Z-drugs'. Está indicado específicamente para el tratamiento a corto plazo del insomnio de conciliación, que es la dificultad para quedarse dormido. Su importancia clínica radica en que actúa de forma rápida y tiene una duración de acción corta, lo que ayuda a iniciar el sueño sin causar tanto efecto residual de somnolencia al día siguiente, en comparación con otros medicamentos para dormir más antiguos. Es un fármaco controlado que requiere receta médica especial (receta amarilla) en México, debido a su potencial de dependencia y abuso si no se usa correctamente. Su uso debe ser supervisado por un médico y generalmente se recomienda por periodos cortos, de 7 a 10 días, mientras se implementan medidas de higiene del sueño para tratar la causa raíz del problema.",
+  "pharmacology": {
+    "mechanismOfAction": "El zaleplón ejerce su efecto sedante e hipnótico al unirse de forma selectiva y con alta afinidad al complejo receptor GABA-A en el sistema nervioso central. Este complejo es un canal de cloruro que, al activarse, permite la entrada de iones cloruro a la neurona, lo que produce hiperpolarización y reduce la excitabilidad neuronal. A diferencia de las benzodiacepinas clásicas, que se unen de forma no selectiva a varios subtipos del receptor, el zaleplón muestra una mayor selectividad por los subtipos de receptores que contienen la subunidad alfa-1. Esta selectividad se cree que es responsable de sus potentes efectos hipnóticos con un perfil de efectos secundarios como relajación muscular, ansiolítico y amnésico menos pronunciado. Su acción es facilitar los efectos inhibitorios del neurotransmisor GABA (ácido gamma-aminobutírico), el principal neurotransmisor inhibitorio del cerebro, induciendo y manteniendo el sueño.",
+    "pharmacologicClass": "Agonista selectivo del receptor de benzodiacepinas (complejo GABA-A); Pirazolopirimidina.",
+    "therapeuticClass": "Hipnótico no benzodiacepínico (comúnmente llamado 'Z-drug').",
+    "absorption": "Se absorbe rápida y casi completamente por vía oral. La presencia de alimentos, especialmente aquellos con alto contenido de grasa, retrasa significativamente la absorción y reduce la concentración máxima (Cmax) en aproximadamente un 35%. Por esta razón, se debe tomar con el estómago vacío para un inicio de acción óptimo.",
+    "distribution": "Se distribuye ampliamente por los tejidos corporales. Su unión a proteínas plasmáticas es moderada, aproximadamente del 60%. El volumen de distribución (Vd) es de aproximadamente 1.4 L/kg, indicando una distribución más allá del plasma.",
+    "metabolism": "Se metaboliza extensamente en el hígado, principalmente a través de la enzima aldehído oxidasa. En menor medida, el citocromo P450 3A4 (CYP3A4) también participa en su metabolismo. Esto es importante porque otros medicamentos que inhiben o inducen la CYP3A4 pueden afectar sus niveles en sangre. Se convierte en metabolitos inactivos (ácido 5-oxo-zaleplón y desetilzaleplón).",
+    "elimination": "Tiene una vida media plasmática muy corta, de aproximadamente 1 hora. Esto explica su corta duración de acción. Se elimina principalmente por vía renal (aproximadamente el 70% de la dosis) en forma de metabolitos inactivos, y el resto en las heces. Menos del 1% se excreta sin cambios en la orina.",
+    "onsetOfAction": "Muy rápido, generalmente entre 15 y 30 minutos después de la administración oral con el estómago vacío.",
+    "durationOfAction": "Corta, aproximadamente de 3 a 4 horas. Está diseñado para ayudar a conciliar el sueño, no para mantenerlo durante toda la noche."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento a corto plazo del insomnio de conciliación (dificultad para iniciar el sueño)."
+    ],
+    "offLabel": [
+      "Manejo de insomnio en turnos laborales rotativos (jet lag laboral).",
+      "Inducción del sueño antes de procedimientos médicos menores (uso esporádico)."
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis recomendada para adultos es de 10 mg, tomada una vez por noche, inmediatamente antes de acostarse o cuando el paciente ya esté en la cama y tenga dificultad para conciliar el sueño. En pacientes de bajo peso, puede iniciarse con 5 mg.",
+    "pediatric": "No está recomendado para su uso en niños y adolescentes menores de 18 años. La seguridad y eficacia no están establecidas en esta población.",
+    "elderly": "En pacientes adultos mayores (mayores de 65 años) o debilitados, la dosis inicial recomendada es de 5 mg, tomada una vez por noche, inmediatamente antes de acostarse. La dosis puede aumentarse a 10 mg si es bien tolerada y la respuesta de 5 mg es insuficiente.",
+    "renalImpairment": "No se requiere ajuste de dosis en insuficiencia renal leve a moderada (TFG ≥ 30 mL/min). En insuficiencia renal grave (TFG < 30 mL/min) o en pacientes en diálisis, se recomienda una dosis inicial de 5 mg debido a la posible acumulación de metabolitos. Se debe usar con precaución.",
+    "hepaticImpairment": "En pacientes con insuficiencia hepática leve a moderada (Child-Pugh A o B), la dosis inicial recomendada es de 5 mg. Está contraindicado en insuficiencia hepática grave (Child-Pugh C) debido al metabolismo hepático extenso y riesgo de acumulación.",
+    "maxDose": "La dosis máxima diaria es de 10 mg para la mayoría de los adultos y 5 mg para adultos mayores o pacientes con compromiso hepático/renal. No se debe exceder esta dosis ni tomarla más de una vez en 24 horas."
+  },
+  "dosageForms": [
+    {
+      "form": "Cápsula",
+      "strengths": [
+        "5 mg",
+        "10 mg"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al zaleplón o a cualquier componente de la formulación.",
+      "Insuficiencia hepática grave (Child-Pugh C).",
+      "Apnea del sueño grave no tratada.",
+      "Miastenia gravis."
+    ],
+    "relative": [
+      "Insuficiencia respiratoria o enfermedad pulmonar obstructiva crónica (EPOC) grave.",
+      "Depresión mayor con ideación suicida.",
+      "Historial de abuso de sustancias o dependencia a drogas/alcohol.",
+      "Embarazo y lactancia.",
+      "Edad avanzada con fragilidad.",
+      "Insuficiencia renal grave."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Dolor de cabeza (cefalea).",
+      "Somnolencia diurna (si se toma muy tarde o no se duermen al menos 4 horas)."
+    ],
+    "common": [
+      "Mareo (vértigo).",
+      "Sensación de 'resaca' o aturdimiento al día siguiente.",
+      "Náuseas leves.",
+      "Dolor abdominal.",
+      "Disgeusia (alteración del gusto).",
+      "Disminución de la coordinación (ataxia).",
+      "Visión borrosa o doble."
+    ],
+    "uncommon": [
+      "Amnesia anterógrada (olvido de eventos poco después de tomar el medicamento).",
+      "Alucinaciones (principalmente visuales o auditivas).",
+      "Comportamientos complejos durante el sueño (sonambulismo, comer o conducir dormido).",
+      "Ansiedad o nerviosismo paradójico.",
+      "Erupción cutánea.",
+      "Palpitaciones."
+    ],
+    "rare": [
+      "Reacciones alérgicas graves (angioedema, anafilaxia).",
+      "Ideación o comportamiento suicida.",
+      "Dependencia psicológica o física.",
+      "Síndrome de abstinencia tras uso prolongado.",
+      "Agranulocitosis (muy raro)."
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Alcohol (etílico)",
+        "effect": "Potencia de forma grave los efectos depresores del sistema nervioso central (SNC). Aumenta el riesgo de sedación excesiva, depresión respiratoria, coma y muerte.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Otros depresores del SNC (Opioides, Benzodiacepinas, Antipsicóticos, Antihistamínicos sedantes)",
+        "effect": "Adición de efectos sedantes, aumentando el riesgo de somnolencia diurna severa, deterioro psicomotor, depresión respiratoria y caídas.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores de la CYP3A4 (Ketoconazol, Itraconazol, Claritromicina, Ritonavir)",
+        "effect": "Pueden aumentar significativamente los niveles sanguíneos de zaleplón, potenciando sus efectos y toxicidad. Se recomienda reducir la dosis de zaleplón a 5 mg.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inductores de la CYP3A4 (Rifampicina, Carbamazepina, Fenitoína, Hierba de San Juan)",
+        "effect": "Pueden disminuir los niveles sanguíneos de zaleplón, reduciendo su eficacia.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Los alimentos, especialmente los ricos en grasas, retrasan la absorción y reducen su efecto máximo. Debe tomarse con el estómago vacío (al menos 2 horas después de comer) para un inicio de acción óptimo. El alcohol está absolutamente contraindicado.",
+    "withSupplements": "Evitar suplementos herbales con efectos sedantes (Valeriana, Kava, Melatonina en dosis altas) por riesgo de adición de efectos. La Hierba de San Juan (Hypericum) puede reducir su eficacia."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA C",
+      "recommendation": "Los estudios en animales han mostrado efectos adversos fetales. No hay estudios adecuados y bien controlados en mujeres embarazadas. Solo debe usarse durante el embarazo si el beneficio potencial justifica claramente el riesgo potencial para el feto. No se recomienda su uso, especialmente en el primer trimestre y cerca del parto (riesgo de síndrome de abstinencia en el recién nacido).",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se desconoce si el zaleplón se excreta en la leche humana. Dado su potencial de efectos adversos graves en el lactante (sedación, dificultad para alimentarse), se recomienda suspender la lactancia materna o no utilizar el medicamento. Se debe valorar con el médico una alternativa más segura.",
+    "pediatric": "No está indicado para niños ni adolescentes. Su seguridad y eficacia no han sido establecidas en menores de 18 años. Existe preocupación por posibles efectos en el desarrollo del sistema nervioso central.",
+    "geriatric": "Los adultos mayores son más sensibles a los efectos del zaleplón. Presentan mayor riesgo de somnolencia diurna, aturdimiento, deterioro cognitivo, pérdida del equilibrio, caídas y fracturas. Se debe usar la dosis más baja efectiva (5 mg), por el menor tiempo posible, y con estricta supervisión."
+  },
+  "administration": {
+    "howToTake": "Tome exactamente como lo recetó su médico. La dosis habitual es de 10 mg (o 5 mg si es mayor o tiene problemas hepáticos/renales) UNA SOLA VEZ por noche. TÓMELO INMEDIATAMENTE ANTES DE ACOSTARSE, o cuando ya esté en la cama y tenga dificultad para dormir. Tómelo con el estómago vacío para que actúe más rápido (al menos 2 horas después de la última comida). Solo tómelo si sabe que podrá dormir ininterrumpidamente durante al menos 4 horas. NO tome una segunda dosis en la misma noche si se despierta temprano.",
+    "storage": "Conservar en su empaque original, a temperatura ambiente (entre 15°C y 30°C), protegido de la luz y la humedad. Mantener fuera del alcance de los niños y mascotas.",
+    "specialInstructions": "Este medicamento puede causar somnolencia severa al día siguiente. No conduzca, opere maquinaria peligrosa o realice actividades que requieran alerta hasta al menos 8 horas después de tomarlo y hasta que sepa cómo le afecta. Puede causar comportamientos complejos durante el sueño (como comer, caminar o conducir dormido sin recordarlo). Si esto ocurre, deje de tomar el medicamento y consulte a su médico de inmediato. No lo combine jamás con alcohol. No lo use por más de 7 a 10 días seguidos sin reevaluación médica."
+  },
+  "monitoring": {
+    "labTests": [
+      "No se requieren monitoreos de laboratorio de rutina específicos para el zaleplón.",
+      "Pruebas de función hepática (si hay sospecha de toxicidad o uso prolongado).",
+      "Evaluación clínica del estado mental y signos de dependencia."
+    ],
+    "frequency": "Evaluación clínica frecuente por el médico, especialmente al inicio del tratamiento y durante las primeras semanas. Revisar eficacia, efectos adversos y necesidad de continuar.",
+    "signsToWatch": [
+      "Somnolencia diurna excesiva que interfiere con actividades.",
+      "Cambios de comportamiento o estado de ánimo (agresividad, depresión, ideas suicidas).",
+      "Comportamientos extraños durante el sueño (sonambulismo).",
+      "Signos de dependencia (necesidad de aumentar la dosis, ansiedad por la próxima toma).",
+      "Problemas de memoria reciente.",
+      "Mareo o pérdida del equilibrio que provoque caídas."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Somnolencia profunda que progresa a estupor o coma.",
+      "Depresión respiratoria (dificultad para respirar, respiración lenta o superficial).",
+      "Hipotensión (presión arterial baja).",
+      "Disminución del ritmo cardíaco (bradicardia).",
+      "Ataxia severa (pérdida completa de coordinación)."
+    ],
+    "treatment": "Es una emergencia médica. Llamar al 911 o acudir de inmediato al servicio de urgencias. El tratamiento es de soporte: mantener la vía aérea, asistir la respiración si es necesario y apoyar la circulación. Puede realizarse lavado gástrico o administrar carbón activado si la ingestión fue reciente (dentro de 1-2 horas). No hay antídoto específico. La hemodiálisis no es efectiva debido a su alta unión a proteínas y amplia distribución.",
+    "antidote": "No existe antídoto específico. El flumazenil (antídoto para benzodiacepinas) NO es efectivo para revertir los efectos del zaleplón."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (receta amarilla o receta de psicotrópicos). Es un medicamento controlado.",
+    "scheduleMexico": "Fracción III (Tres) de la Ley General de Salud. Sustancia sujeta a control especial con potencial de abuso y dependencia.",
+    "fdaApprovalYear": "1999"
+  },
+  "brandsMexico": [
+    "Sonata"
+  ],
+  "clinicalPearls": [
+    "El zaleplón es ideal para el insomnio de 'inicio' pero no para el de 'mantenimiento' (despertares frecuentes) debido a su vida media extremadamente corta.",
+    "El riesgo de efectos residuales ('resaca') al día siguiente es menor comparado con otros hipnóticos de vida media más larga, pero sigue existiendo, especialmente si no se duermen al menos 7-8 horas completas.",
+    "Puede causar amnesia anterógrada, por lo que es crucial tomarlo solo cuando el paciente esté ya en la cama listo para dormir, no antes de realizar otras actividades.",
+    "Los comportamientos complejos durante el sueño (como conducir dormido) son un efecto adverso raro pero grave que requiere suspensión inmediata del fármaco."
+  ],
+  "patientCounseling": "Querido paciente: El zaleplón es un auxiliar poderoso para dormir, pero debe usarse con mucho cuidado. Tómelo SOLO cuando ya esté en su cama, listo para dormir, y solo si sabe que tendrá al menos 4 horas completas de sueño. Nunca lo tome antes de manejar o salir de casa. El alcohol es su peor enemigo con este medicamento; combinarlos puede ser mortal. Es normal que al día siguiente se sienta un poco aturdido, pero si la somnolencia es intensa o tiene problemas de equilibrio, hable con su médico. Este medicamento es para uso ocasional o por periodos cortos (días, no meses). Si siente que lo 'necesita' todas las noches, es señal de que debe reevaluar el tratamiento con su doctor. Guárdelo bajo llave, lejos del alcance de otras personas. Si olvida una dosis, no la tome; espere a la noche siguiente. Su éxito para dormir a largo plazo dependerá más de sus hábitos (higiene del sueño) que de esta pastilla.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dificultad para conciliar el sueño",
+        "slug": "dificultad-para-conciliar-el-sueno"
+      },
+      {
+        "name": "Insomnio de inicio",
+        "slug": "insomnio-de-inicio"
+      },
+      {
+        "name": "Ansiedad previa al sueño",
+        "slug": "ansiedad-previa-al-sueno"
+      },
+      {
+        "name": "Inquietud nocturna",
+        "slug": "inquietud-nocturna"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Insomnio transitorio",
+        "slug": "insomnio-transitorio"
+      },
+      {
+        "name": "Insomnio de corta duración",
+        "slug": "insomnio-de-corta-duracion"
+      },
+      {
+        "name": "Trastorno de insomnio",
+        "slug": "trastorno-de-insomnio"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Dependencia a sustancias",
+        "slug": "dependencia-a-sustancias"
+      },
+      {
+        "name": "Trastorno de sonambulismo",
+        "slug": "trastorno-de-sonambulismo"
+      },
+      {
+        "name": "Amnesia anterógrada",
+        "slug": "amnesia-anterograda"
+      },
+      {
+        "name": "Depresión respiratoria",
+        "slug": "depresion-respiratoria"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Enzimas hepáticas (ALT, AST)",
+        "slug": "enzimas-hepaticas-alt-ast",
+        "effect": "Puede elevar (raro)"
+      },
+      {
+        "name": "Conteo de glóbulos blancos",
+        "slug": "conteo-de-globulos-blancos",
+        "effect": "Puede disminuir (agranulocitosis, muy raro)"
+      },
+      {
+        "name": "Frecuencia respiratoria",
+        "slug": "frecuencia-respiratoria",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede disminuir (bradicardia)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-de-funcion-hepatica",
+        "reason": "Para monitorear posible toxicidad hepática, especialmente en uso prolongado o en pacientes con enfermedad hepática preexistente."
+      },
+      {
+        "name": "Evaluación del estado mental",
+        "slug": "evaluacion-del-estado-mental",
+        "reason": "Para detectar signos de deterioro cognitivo, dependencia o cambios de humor."
+      },
+      {
+        "name": "Polisomnografía",
+        "slug": "polisomnografia",
+        "reason": "Para diagnóstico preciso del tipo de insomnio y evaluar la necesidad real de tratamiento farmacológico."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve exactamente el zaleplón?",
+      "a": "Sirve específicamente para ayudarle a conciliar el sueño más rápido cuando tiene insomnio de inicio (se acuesta y no puede dormirse). No está diseñado para mantenerlo dormido toda la noche si se despierta frecuentemente."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto después de tomarlo?",
+      "a": "Actúa muy rápido, generalmente entre 15 y 30 minutos después de tomarlo, siempre y cuando lo tome con el estómago vacío. Por eso debe tomarlo justo cuando se vaya a la cama."
+    },
+    {
+      "q": "¿Puedo tomar zaleplón si cené tarde o tomé un refrigerio?",
+      "a": "No es lo ideal. Los alimentos, especialmente los grasosos, retrasan su absorción y lo hacen menos efectivo. Espere al menos 2 horas después de comer antes de tomarlo."
+    },
+    {
+      "q": "¿Es adictivo el zaleplón?",
+      "a": "Sí, tiene potencial de causar dependencia psicológica y física, especialmente si se usa por periodos largos o en dosis mayores a las recetadas. Por eso es un medicamento controlado y se receta solo para uso a corto plazo."
+    },
+    {
+      "q": "¿Puedo tomar alcohol una noche que no use zaleplón?",
+      "a": "Sí, pero con extrema precaución. Sin embargo, si está en tratamiento, lo más seguro es evitar el alcohol por completo, ya que sus efectos depresores pueden persistir y aumentar el riesgo de somnolencia y accidentes."
+    },
+    {
+      "q": "Me desperté a las 3 AM y no puedo volver a dormir, ¿puedo tomar otra pastilla?",
+      "a": "NO. Jamás tome una segunda dosis en la misma noche. El zaleplón tiene una acción corta y tomar otra puede causar somnolencia peligrosa al día siguiente. Si esto pasa con frecuencia, consulte a su médico, ya que quizá necesite un tratamiento diferente."
+    },
+    {
+      "q": "¿El zaleplón me puede dar sueño al día siguiente?",
+      "a": "Sí, es un efecto secundario común llamado 'somnolencia residual' o sensación de 'resaca'. Es más probable si no durmió las horas suficientes (menos de 7-8) o si lo tomó muy tarde. No maneje si se siente somnoliento."
+    },
+    {
+      "q": "¿Puedo usarlo todos los días?",
+      "a": "No es lo recomendado. Está aprobado para uso a corto plazo, generalmente de 7 a 10 días. El uso diario prolongado aumenta el riesgo de dependencia, tolerancia (necesitar más dosis para el mismo efecto) y efectos secundarios. Es una ayuda temporal."
+    },
+    {
+      "q": "¿Qué hago si olvidé tomar mi dosis a la hora de dormir?",
+      "a": "Si se dio cuenta ya en la madrugada o al día siguiente, NO la tome. Sáltese esa dosis y tome la siguiente a la hora habitual de la noche siguiente. Nunca duplique la dosis."
+    },
+    {
+      "q": "¿El zaleplón es lo mismo que el zolpidem?",
+      "a": "No, son medicamentos diferentes, aunque pertenecen a la misma familia ('Z-drugs'). El zaleplón actúa más rápido y dura menos (ideal para iniciar el sueño), mientras que el zolpidem tiene una acción un poco más prolongada. Su médico elige según su tipo de insomnio."
+    },
+    {
+      "q": "¿Puede causar sonambulismo o que coma dormido?",
+      "a": "Sí, aunque es poco común, es un efecto adverso grave reportado con este tipo de medicamentos. Las personas pueden realizar actividades complejas como comer, caminar o incluso conducir dormidas, sin recordarlo. Si le sucede, suspenda el medicamento y avise a su médico."
+    },
+    {
+      "q": "¿Las personas mayores pueden tomarlo?",
+      "a": "Sí, pero con una dosis más baja (generalmente 5 mg en vez de 10 mg) y con mayor supervisión, porque son más sensibles a los efectos secundarios como mareo, confusión y riesgo de caídas."
+    },
+    {
+      "q": "¿Qué pasa si tengo problemas en el hígado o los riñones?",
+      "a": "Si tiene problemas hepáticos leves o moderados, la dosis debe reducirse a 5 mg. Está contraindicado en enfermedad hepática grave. En problemas renales graves, también se usa dosis reducida. Su médico debe saber su historial completo."
+    },
+    {
+      "q": "¿Puedo tomar zaleplón si estoy amamantando?",
+      "a": "No se recomienda. No se sabe si pasa a la leche materna, pero por seguridad del bebé, que es muy sensible a los medicamentos sedantes, se debe evitar. Consulte a su médico para una alternativa o sobre la posibilidad de suspender la lactancia."
+    },
+    {
+      "q": "¿Interfiere con mis otros medicamentos?",
+      "a": "Sí, especialmente con otros que causen sueño (analgésicos fuertes, relajantes musculares, antialérgicos), con algunos antibióticos/antimicóticos y con el jugo de toronja. Siempre informe a su médico y farmacéutico sobre TODOS los medicamentos que toma."
+    },
+    {
+      "q": "¿El zaleplón puede causar pérdida de memoria?",
+      "a": "Sí, puede causar amnesia anterógrada, que es dificultad para formar nuevos recuerdos poco después de tomarlo. Por eso es crucial tomarlo solo cuando esté listo para dormir de inmediato, no para 'relajarse' viendo TV."
+    },
+    {
+      "q": "¿Cómo debo dejar de tomar zaleplón si lo he usado por varias semanas?",
+      "a": "NO lo suspenda de golpe, especialmente si lo ha usado por mucho tiempo. Puede causar síndrome de abstinencia (ansiedad, insomnio de rebote, temblores). Su médico debe diseñar un plan para reducir la dosis gradualmente (deshabituación)."
+    },
+    {
+      "q": "¿Es seguro para pacientes con apnea del sueño?",
+      "a": "No, está contraindicado en apnea del sueño grave no tratada. Los depresores del sistema nervioso central pueden relajar demasiado los músculos de la garganta y empeorar las pausas respiratoria durante el sueño."
+    },
+    {
+      "q": "¿Puedo desarrollar tolerancia al zaleplón?",
+      "a": "Sí, es posible que con el uso continuo, la misma dosis deje de hacer efecto (tolerancia). Esto lleva a la tentación de aumentar la dosis por cuenta propia, lo cual es peligroso. Si siente que ya no funciona, consulte a su médico, no se automedique."
+    },
+    {
+      "q": "¿Cuál es la diferencia farmacológica clave entre el zaleplón y una benzodiacepina tradicional como el clonazepam?",
+      "a": "La diferencia principal es la selectividad. El zaleplón es más selectivo por un subtipo específico del receptor GABA-A (alfa-1), lo que le confiere un efecto hipnótico potente con menos efectos ansiolíticos, anticonvulsivos y relajantes musculares que las benzodiacepinas clásicas, que se unen de forma más amplia. Además, el zaleplón tiene una vida media mucho más corta."
+    }
+  ]
+}

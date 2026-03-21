@@ -1,0 +1,376 @@
+{
+  "name": "Sevoflurano",
+  "summary": "El sevoflurano es un medicamento anestésico inhalado que se utiliza para inducir y mantener la anestesia general durante cirugías y procedimientos médicos. Pertenece a la clase de los anestésicos halogenados y actúa deprimiendo el sistema nervioso central, lo que produce pérdida de la conciencia, ausencia de dolor, relajación muscular y amnesia (pérdida de memoria) durante el procedimiento. Su importancia clínica radica en su rápido inicio y recuperación, su estabilidad cardiovascular relativa y su baja irritación de las vías respiratorias, lo que lo hace especialmente útil en pacientes pediátricos, adultos mayores y en procedimientos ambulatorios donde una recuperación rápida es crucial. Es administrado exclusivamente por anestesiólogos en un entorno hospitalario o quirúrgico controlado mediante un vaporizador especializado conectado a un circuito de anestesia.",
+  "pharmacology": {
+    "mechanismOfAction": "El sevoflurano ejerce su acción anestésica principalmente al potenciar la actividad del neurotransmisor inhibitorio GABA (ácido gamma-aminobutírico) en los receptores GABA-A del cerebro, lo que aumenta el flujo de iones cloruro hacia las neuronas, hiperpolarizándolas y reduciendo su excitabilidad. También modula otros sistemas de neurotransmisores, incluyendo la inhibición de los receptores de glutamato (NMDA) y la activación de canales de potasio sensibles a dos puntos. Estos efectos combinados conducen a una depresión generalizada y reversible de la función del sistema nervioso central, resultando en pérdida de conciencia, analgesia, amnesia y relajación muscular. Su acción es dependiente de la concentración y reversible al suspender su administración.",
+    "pharmacologicClass": "Anestésico general inhalado halogenado (éter metil-isopropílico fluorado).",
+    "therapeuticClass": "Anestésico general.",
+    "absorption": "Se administra por inhalación a través de los pulmones. La absorción alveolar es rápida y eficiente. La concentración alveolar mínima (CAM) para adultos es de aproximadamente 2.0%. La velocidad de inducción anestésica depende de la concentración inspirada, la ventilación alveolar y el flujo sanguíneo pulmonar.",
+    "distribution": "Se distribuye rápidamente a los tejidos bien perfundidos como el cerebro, hígado, riñones y corazón. Tiene un coeficiente de partición sangre/gas bajo (0.65), lo que explica su rápido inicio y recuperación. Su unión a proteínas plasmáticas es mínima. El volumen de distribución es amplio debido a su liposolubilidad moderada.",
+    "metabolism": "Aproximadamente del 3% al 5% del sevoflurano absorbido es metabolizado en el hígado por el sistema enzimático del citocromo P450, específicamente por la isoenzima CYP2E1. El metabolismo produce metabolitos inorgánicos de fluoruro y hexafluoroisopropanol (HFIP), que se conjuga rápidamente con glucurónido y se excreta por la orina.",
+    "elimination": "La eliminación es predominantemente por exhalación pulmonar sin cambios (más del 95%). La vida media de eliminación es corta, aproximadamente de 15 a 23 horas para los metabolitos. Los niveles de fluoruro plasmático suelen ser transitorios y clínicamente insignificantes en pacientes con función renal normal.",
+    "onsetOfAction": "Muy rápido. La inducción anestésica (pérdida de conciencia) generalmente ocurre en 1 a 3 minutos cuando se usa en concentraciones altas (al 8%).",
+    "durationOfAction": "Corta. Los efectos anestésicos se disipan rápidamente al suspender la administración, permitiendo una recuperación de la conciencia en aproximadamente 5 a 10 minutos. La duración total depende del tiempo de administración durante la cirugía."
+  },
+  "indications": {
+    "approved": [
+      "Inducción y mantenimiento de anestesia general en adultos.",
+      "Inducción y mantenimiento de anestesia general en niños y lactantes a término y prematuros (mayores de 1 mes).",
+      "Mantenimiento de anestesia en cirugía ambulatoria."
+    ],
+    "offLabel": [
+      "Sedación prolongada en unidades de cuidados intensivos (UCI) en ventilación mecánica (uso controvertido y limitado).",
+      "Terapia para el estatus asmático refractario (broncodilatación).",
+      "Procedimientos diagnósticos o terapéuticos breves que requieren sedación profunda."
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis se individualiza y se titula según la respuesta del paciente. Inducción: 0.5% a 8% en oxígeno o mezcla oxígeno/óxido nitroso. Mantenimiento: 0.5% a 3% en oxígeno o mezcla oxígeno/óxido nitroso. La concentración alveolar mínima (CAM) es de ~2.0% en adultos jóvenes.",
+    "pediatric": "Inducción: 0.5% a 8% en oxígeno o mezcla oxígeno/óxido nitroso. Mantenimiento: 0.5% a 3% (puede requerir concentraciones ligeramente mayores que en adultos). La CAM varía con la edad: Lactantes (1-6 meses) ~3.3%, Niños (6 meses-12 años) ~2.5%.",
+    "elderly": "Requiere dosis más bajas debido a la disminución de la función orgánica y la mayor sensibilidad. La CAM disminuye aproximadamente un 20-30% en pacientes mayores de 65 años. Se inicia con concentraciones más bajas (ej. 0.5-1.5%) y se titula cuidadosamente.",
+    "renalImpairment": "Precaución en insuficiencia renal severa (TFG <30 mL/min) debido al riesgo potencial de acumulación de fluoruro. No se recomienda para procedimientos largos (>2 horas) en estos pacientes. En insuficiencia leve-moderada (TFG 30-89 mL/min), se puede usar con monitoreo.",
+    "hepaticImpairment": "Precaución en insuficiencia hepática severa. Puede usarse, pero la metabolización puede estar alterada. Se recomienda titulación lenta y uso de dosis mínimas efectivas.",
+    "maxDose": "No hay una dosis máxima diaria definida en mg/kg. La administración se guía por la profundidad anestésica deseada (signos clínicos y monitoreo) y la duración del procedimiento. Concentraciones inspiratorias superiores al 8% no se recomiendan para la inducción rutinaria."
+  },
+  "dosageForms": [
+    {
+      "form": "Líquido para inhalación",
+      "strengths": [
+        "250 mL"
+      ],
+      "route": "Inhalación (vía respiratoria)"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al sevoflurano, a otros anestésicos halogenados o al bromuro de amonio (estabilizante).",
+      "Pacientes con susceptibilidad conocida o antecedente de hipertermia maligna.",
+      "Pacientes con presión intracraneal elevada en los que se desea una reducción aguda de la presión (a menos que se ventile adecuadamente)."
+    ],
+    "relative": [
+      "Historia familiar de hipertermia maligna.",
+      "Enfermedad neuromuscular (miastenia gravis, distrofia muscular).",
+      "Epilepsia o trastornos convulsivos.",
+      "Insuficiencia renal severa (TFG <30 mL/min).",
+      "Insuficiencia hepática severa (Child-Pugh C).",
+      "Obstrucción de las vías respiratorias."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Hipotensión (presión baja).",
+      "Bradicardia (ritmo cardíaco lento).",
+      "Náuseas y vómitos en el postoperatorio.",
+      "Somnolencia y mareo durante la recuperación.",
+      "Tos y secreción respiratoria aumentada."
+    ],
+    "common": [
+      "Agitación o delirio al despertar (especialmente en niños y ancianos).",
+      "Dolor de cabeza.",
+      "Escalofríos postoperatorios.",
+      "Aumento de la salivación.",
+      "Hipo.",
+      "Sabor dulce o desagradable al despertar."
+    ],
+    "uncommon": [
+      "Arritmias cardíacas (extrasístoles).",
+      "Broncoespasmo.",
+      "Rash cutáneo (erupción).",
+      "Elevación transitoria de la glucosa en sangre.",
+      "Elevación transitoria de los niveles de fluoruro en plasma."
+    ],
+    "rare": [
+      "Hipertermia maligna (reacción grave y potencialmente mortal).",
+      "Daño renal por fluoruro (en exposiciones muy prolongadas >2 horas con flujo bajo de gases frescos).",
+      "Hepatitis idiosincrásica.",
+      "Convulsiones.",
+      "Paro cardíaco.",
+      "Edema pulmonar."
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Relajantes musculares no despolarizantes (ej. Rocuronio, Vecuronio)",
+        "effect": "El sevoflurano potencia su efecto, pudiendo prolongar significativamente la parálisis muscular. Se requiere reducir la dosis del relajante.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Ketamina",
+        "effect": "Puede aumentar la frecuencia cardíaca y la presión arterial. La combinación puede potenciar efectos alucinatorios.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Óxido nitroso",
+        "effect": "Reduce la CAM requerida del sevoflurano, permitiendo usar concentraciones más bajas. Es una interacción utilizada terapéuticamente.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Bloqueadores beta (ej. Propranolol, Metoprolol)",
+        "effect": "Puede potenciar la bradicardia y la hipotensión.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inhibidores de la monoaminooxidasa (IMAOs)",
+        "effect": "Riesgo teórico de inestabilidad cardiovascular. Se recomienda precaución extrema.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "El paciente debe estar en ayuno completo (líquidos y sólidos) antes de recibir anestesia general para prevenir la aspiración pulmonar. No hay interacción directa con alimentos. El alcohol puede potenciar los efectos depresores del sistema nervioso central.",
+    "withSupplements": "Precaución con suplementos que afecten el sistema nervioso (ej. Hierba de San Juan, Kava, Valeriana) por riesgo de sedación excesiva. Suplementos que afecten la presión arterial o frecuencia cardíaca (ej. Efedra) pueden causar inestabilidad cardiovascular."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA B",
+      "recommendación": "Los estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y controlados en mujeres embarazadas. Se puede usar durante el embarazo si es claramente necesario, generalmente para cirugías de emergencia o cesáreas. Se prefiere en el segundo y tercer trimestre sobre otros anestésicos por su estabilidad hemodinámica. Debe ser administrado por un anestesiólogo experto.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se excreta en cantidades mínimas en la leche materna. Debido a su rápida eliminación materna y la baja biodisponibilidad oral para el lactante, se considera compatible con la lactancia. Se puede recomendar extraer y desechar la leche de las primeras 12-24 horas post-procedimiento por precaución, aunque el riesgo es bajo.",
+    "pediatric": "Aprobado para uso en lactantes mayores de 1 mes. Es el anestésico inhalado de elección en pediatría por su sabor menos irritante y rápida inducción. Mayor riesgo de agitación y delirio al despertar. Las dosis de mantenimiento pueden ser ligeramente superiores que en adultos (CAM más alta).",
+    "geriatric": "Los pacientes mayores son más sensibles a los efectos del sevoflurano. Requieren dosis más bajas (CAM reducida) y una titulación más lenta debido a la disminución de la función cardíaca, renal y hepática. Mayor riesgo de hipotensión, bradicardia y confusión postoperatoria."
+  },
+  "administration": {
+    "howToTake": "ADMINISTRACIÓN EXCLUSIVA POR ANESTESIÓLOGO. El sevoflurano es un líquido que se vaporiza en un equipo especializado (vaporizador calibrado) conectado a la máquina de anestesia. El paciente inhala la mezcla de gases (oxígeno, óxido nitroso y sevoflurano) a través de una mascarilla facial o un tubo endotraqueal. La concentración se ajusta continuamente según la profundidad anestésica deseada, monitoreada por signos clínicos (frecuencia cardíaca, presión arterial) y equipos como el monitor de gas anestésico (analizador) y el BIS (índice biespectral).",
+    "storage": "Almacenar el frasco a temperatura ambiente controlada (15-30°C). Mantener bien cerrado y en posición vertical. Proteger de la luz. No congelar. El producto es inflamable. Mantener fuera del alcance de niños y personal no autorizado.",
+    "specialInstructions": "Solo para uso profesional en quirófano o áreas de procedimientos. El vaporizador debe ser específico para sevoflurano y estar correctamente calibrado. No usar con circuitos de anestesia de bajo flujo (<1 L/min) por tiempos prolongados debido al riesgo de acumulación de productos de degradación tóxicos (compuesto A). Usar cal sodada fresca en el circuito."
+  },
+  "monitoring": {
+    "labTests": [
+      "Electrolitos séricos (especialmente fluoruro en exposiciones prolongadas).",
+      "Función renal (creatinina, nitrógeno ureico).",
+      "Función hepática (transaminasas, bilirrubina).",
+      "Gasometría arterial (para evaluar oxigenación y ventilación)."
+    ],
+    "frequency": "Continuo durante la administración: electrocardiograma (ECG), presión arterial no invasiva o invasiva, oximetría de pulso (SpO2), capnografía (CO2 espirado), temperatura corporal. Monitoreo de la concentración inspiratoria y espirada de sevoflurano. Postoperatorio: monitoreo en recuperación hasta que el paciente esté completamente alerta y estable.",
+    "signsToWatch": [
+      "Signos de hipertermia maligna: taquicardia, hipertermia, rigidez muscular, acidosis, elevación de CO2 espirado.",
+      "Hipotensión severa o bradicardia.",
+      "Broncoespasmo o dificultad respiratoria.",
+      "Erupción cutánea o urticaria.",
+      "Convulsiones o movimientos anormales.",
+      "Coloración oscura de la orina (raro, por daño renal)."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Depresión cardiovascular profunda: hipotensión severa, bradicardia, paro cardíaco.",
+      "Depresión respiratoria: apnea (dejar de respirar), cianosis.",
+      "Coma profundo.",
+      "Dilatación pupilar fija."
+    ],
+    "treatment": "Suspender inmediatamente la administración de sevoflurano. Mantener la vía aérea y administrar oxígeno al 100%. Ventilar con presión positiva si es necesario. Soporte cardiovascular: fluidos intravenosos, vasopresores (ej. efedrina, fenilefrina) para la hipotensión, atropina para la bradicardia. En caso de paro cardíaco, iniciar reanimación cardiopulmonar (RCP) avanzada. Tratar la hipertermia maligna si se presenta con dantroleno sódico y medidas de enfriamiento.",
+    "antidote": "No existe un antídoto específico. El tratamiento es de soporte. El dantroleno es el antídoto específico para la hipertermia maligna inducida por anestésicos."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especializada (prescripción anestésica) y administración exclusiva en entorno hospitalario.",
+    "scheduleMexico": "Medicamento de control especial (sujeto a vigilancia sanitaria). Se encuentra en la Fracción III del artículo 226 de la Ley General de Salud.",
+    "fdaApprovalYear": "1995 (Estados Unidos)."
+  },
+  "brandsMexico": [
+    "Sevorane",
+    "Sevoflurano PiSA",
+    "Sevoflurane",
+    "Ultane",
+    "Sevocris",
+    "Sevoflurano Genfar",
+    "Sevoflurano Liomont"
+  ],
+  "clinicalPearls": [
+    "El sevoflurano es el anestésico inhalado de elección para la inducción por inhalación en niños debido a su baja irritación de las vías respiratorias y su aroma más tolerable.",
+    "Puede inducir un estado similar al EEG de 'burst suppression' a concentraciones altas, lo que se utiliza terapéuticamente en algunos casos de estatus epiléptico refractario o para protección cerebral.",
+    "La producción del metabolito tóxico 'Compuesto A' aumenta con el uso de cal sodada seca, bajos flujos de gases frescos (<1 L/min) y altas concentraciones de sevoflurano. Se recomienda usar flujos mayores a 2 L/min en procedimientos largos."
+  ],
+  "patientCounseling": "Es fundamental que comprenda que el sevoflurano es un anestésico general que solo le será administrado por un médico anestesiólogo durante una cirugía o procedimiento. Usted estará completamente dormido y sin dolor. Antes del procedimiento, debe seguir estrictamente las instrucciones de ayuno (generalmente 6-8 horas sin sólidos y 2 horas sin líquidos claros) para evitar complicaciones graves como la neumonía por aspiración. Informe a su anestesiólogo sobre TODOS sus medicamentos, alergias, historial de problemas con anestesias previas (especialmente fiebre alta o reacciones raras en la familia), y condiciones como epilepsia o enfermedades neuromusculares. Después de la cirugía, es normal sentirse somnoliento, con náuseas leves, dolor de garganta (si usaron tubo) o escalofríos. Recuperará completamente la lucidez en la sala de recuperación. No conduzca, opere maquinaria ni tome decisiones importantes hasta por lo menos 24 horas después. Si presenta fiebre alta, rigidez muscular, dificultad para respirar u orina muy oscura días después, busque atención médica inmediata.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor agudo quirúrgico",
+        "slug": "dolor-agudo-quirurgico"
+      },
+      {
+        "name": "Ansiedad preoperatoria",
+        "slug": "ansiedad-preoperatoria"
+      },
+      {
+        "name": "Consciencia durante la cirugía",
+        "slug": "consciencia-durante-la-cirugia"
+      },
+      {
+        "name": "Reflejos musculares",
+        "slug": "reflejos-musculares"
+      },
+      {
+        "name": "Memoria del procedimiento",
+        "slug": "memoria-del-procedimiento"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Necesidad de anestesia general",
+        "slug": "necesidad-de-anestesia-general"
+      },
+      {
+        "name": "Estado asmático refractario",
+        "slug": "estado-asmatico-refractario"
+      },
+      {
+        "name": "Estatus epiléptico",
+        "slug": "estatus-epileptico"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Hipertermia maligna",
+        "slug": "hipertermia-maligna"
+      },
+      {
+        "name": "Nefropatía por fluoruro",
+        "slug": "nefropatia-por-fluoruro"
+      },
+      {
+        "name": "Hepatitis tóxica",
+        "slug": "hepatitis-toxica"
+      },
+      {
+        "name": "Delirio de emergencia",
+        "slug": "delirio-de-emergencia"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Fluoruro sérico",
+        "slug": "fluoruro-serico",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Glucosa en sangre",
+        "slug": "glucosa-en-sangre",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Transaminasas (ALT/AST)",
+        "slug": "transaminasas-alt-ast",
+        "effect": "Puede elevar"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Electrocardiograma (ECG)",
+        "slug": "electrocardiograma-ecg",
+        "reason": "Para monitorear la función cardíaca durante la anestesia."
+      },
+      {
+        "name": "Gasometría arterial",
+        "slug": "gasometria-arterial",
+        "reason": "Para evaluar oxigenación, ventilación y equilibrio ácido-base."
+      },
+      {
+        "name": "Pruebas de función renal",
+        "slug": "pruebas-de-funcion-renal",
+        "reason": "Para evaluar riesgo de nefrotoxicidad, especialmente en procedimientos largos."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de edad vascular",
+        "slug": "calculadora-edad-vascular"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Qué es el sevoflurano y para qué sirve?",
+      "a": "El sevoflurano es un medicamento anestésico que se inhala como gas. Sirve para 'dormir' profundamente a un paciente durante una cirugía, eliminando completamente el dolor, la conciencia y los recuerdos del procedimiento, además de relajar los músculos."
+    },
+    {
+      "q": "¿Cómo se administra el sevoflurano?",
+      "a": "Se administra únicamente por un médico anestesiólogo. El líquido se convierte en gas en una máquina especial y usted lo inhala a través de una mascarilla o un tubo que se coloca en su tráquea. Usted no hace nada, solo respira normalmente hasta quedarse dormido."
+    },
+    {
+      "q": "¿Duele recibir anestesia con sevoflurano?",
+      "a": "No duele. La inducción (quedarse dormido) es rápida y suave. Algunas personas pueden sentir un olor dulce o ligeramente irritante los primeros segundos, pero rápidamente pierden la conciencia."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda uno en dormirse con sevoflurano?",
+      "a": "Es muy rápido. Generalmente, el paciente pierde la conciencia en 1 a 3 minutos después de comenzar a respirar el gas en concentraciones altas."
+    },
+    {
+      "q": "¿Y cuánto tarda uno en despertar después?",
+      "a": "También es rápido. Al terminar la cirugía y suspender el gas, la mayoría de los pacientes empiezan a despertar en 5 a 10 minutos y recuperan la lucidez completa en la sala de recuperación en 30 a 60 minutos."
+    },
+    {
+      "q": "¿Por qué debo estar en ayunas antes de la anestesia?",
+      "a": "Por seguridad. Cuando está dormido, los reflejos que evitan que la comida o líquidos del estómago pasen a los pulmones no funcionan. El ayuno previene una complicación grave llamada 'aspiración pulmonar', que puede causar neumonía severa."
+    },
+    {
+      "q": "¿Puedo tener alergia al sevoflurano?",
+      "a": "Es raro, pero posible. Las reacciones alérgicas severas son muy infrecuentes. Es crucial informar a su anestesiólogo de TODAS sus alergias conocidas, especialmente a medicamentos o a otros anestésicos."
+    },
+    {
+      "q": "¿Qué efectos secundarios son comunes al despertar?",
+      "a": "Es muy común sentir somnolencia, mareo, náuseas, vómitos leves, dolor de garganta (si usaron tubo), escalofríos y un poco de confusión. Estos efectos suelen pasar en las primeras horas."
+    },
+    {
+      "q": "¿El sevoflurano es seguro para los niños?",
+      "a": "Sí, es uno de los anestésicos inhalados más seguros y utilizados en niños. Especialmente porque tiene menos olor irritante, lo que hace que los niños lo acepten mejor al quedarse dormidos con la mascarilla."
+    },
+    {
+      "q": "¿Puede usarse en mujeres embarazadas?",
+      "a": "Sí, se puede usar si es médicamente necesario, como en una cesárea o cirugía de emergencia. Los estudios en animales no muestran daño, pero siempre se evalúa el riesgo-beneficio. Es categoría B en el embarazo."
+    },
+    {
+      "q": "¿Si estoy lactando, puedo recibir sevoflurano?",
+      "a": "Sí. Pasa en cantidades mínimas a la leche materna y se elimina rápido del cuerpo de la madre. Por precaución extrema, algunas madres extraen y desechan la leche de las primeras 12-24 horas, pero muchos expertos lo consideran seguro para amamantar inmediatamente después de recuperar el estado de alerta."
+    },
+    {
+      "q": "¿Qué es la 'hipertermia maligna' de la que hablan?",
+      "a": "Es una reacción genética rara, grave y potencialmente mortal que pueden desencadenar algunos anestésicos como el sevoflurano. Causa fiebre muy alta, rigidez muscular y problemas cardíacos. Es vital informar si algún familiar ha tenido problemas graves con anestesia."
+    },
+    {
+      "q": "¿El sevoflurano daña los riñones o el hígado?",
+      "a": "En uso normal y en pacientes sanos, el riesgo es muy bajo. En exposiciones muy largas (más de 2-3 horas) o en pacientes con enfermedad renal severa preexistente, existe un riesgo teórico por la acumulación de fluoruro. Su anestesiólogo lo monitorea para minimizar riesgos."
+    },
+    {
+      "q": "¿Puedo tomar mis medicamentos habituales antes de una cirugía con sevoflurano?",
+      "a": "Debe seguir las instrucciones específicas de su anestesiólogo y cirujano. Algunos medicamentos (como para la presión o el corazón) se toman con un sorbo de agua, otros (como anticoagulantes o diuréticos) se suspenden días antes. NUNCA deje de tomar medicamentos sin consultar."
+    },
+    {
+      "q": "¿Por qué a veces los niños se despiertan agitados o llorando?",
+      "a": "Es un efecto secundario conocido llamado 'delirio de emergencia'. Es más común en niños pequeños con sevoflurano. No es peligroso y dura pocos minutos. El personal de recuperación está entrenado para manejarlo con calma y, a veces, con medicamentos suaves."
+    },
+    {
+      "q": "¿Qué pasa si 'me despierto' durante la cirugía (conciencia intraoperatoria)?",
+      "a": "Es extremadamente raro con el monitoreo moderno. Los anestesiólogos usan monitores que miden la profundidad de la anestesia (como el BIS) y ajustan la dosis constantemente para garantizar que esté profundamente dormido y sin recuerdos."
+    },
+    {
+      "q": "¿El sevoflurano sube o baja la presión arterial?",
+      "a": "Generalmente la baja (hipotensión) de manera controlada y predecible. Esto es parte del efecto anestésico. Su anestesiólogo la monitorea constantemente y administra líquidos o medicamentos para mantenerla en un rango seguro."
+    },
+    {
+      "q": "¿Hay personas que no deben recibir sevoflurano?",
+      "a": "Sí. Está contraindicado en personas con alergia conocida al medicamento, con antecedente personal o familiar fuerte de hipertermia maligna, y con presión intracraneal muy alta no controlada. En otras condiciones (epilepsia, problemas renales/hepáticos) se usa con precaución."
+    },
+    {
+      "q": "¿Cómo se compara el sevoflurano con otros anestésicos como el isoflurano o el propofol?",
+      "a": "El sevoflurano tiene inicio y recuperación más rápidos que el isoflurano, y es menos irritante para los pulmones. A diferencia del propofol (que es intravenoso), el sevoflurano se elimina por los pulmones, lo que puede ser ventajoso en algunos pacientes. La elección la hace el anestesiólogo según el tipo de cirugía y sus condiciones."
+    },
+    {
+      "q": "¿Qué monitoreo recibo durante la anestesia con sevoflurano?",
+      "a": "Recibe monitoreo continuo y exhaustivo: frecuencia cardíaca (ECG), presión arterial cada pocos minutos, oxígeno en sangre (oxímetro), dióxido de carbono que exhala (capnografía), temperatura corporal y, a menudo, un monitor de profundidad anestésica (BIS). Además, el anestesiólogo analiza constantemente la concentración del gas que inhala y exhala."
+    }
+  ]
+}

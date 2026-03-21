@@ -1,0 +1,392 @@
+{
+  "name": "Sufentanil",
+  "summary": "El sufentanil es un medicamento analgésico opioide sintético de potencia extremadamente alta, aproximadamente 5 a 10 veces más potente que el fentanilo y hasta 1000 veces más potente que la morfina. Se utiliza principalmente en entornos hospitalarios controlados, como quirófanos y unidades de cuidados intensivos, para el manejo del dolor agudo severo, como anestesia general balanceada, analgesia durante procedimientos quirúrgicos mayores y para el control del dolor postoperatorio. Su importancia clínica radica en su rápido inicio de acción, potencia y perfil de seguridad relativo en manos de especialistas, lo que permite un control preciso del dolor en situaciones críticas donde otros analgésicos podrían ser insuficientes. Es un fármaco de uso exclusivo hospitalario, administrado por vía intravenosa o epidural por personal médico capacitado, debido a su alto riesgo de depresión respiratoria y dependencia. Su uso está estrictamente regulado en México bajo la fracción III de sustancias controladas.",
+  "pharmacology": {
+    "mechanismOfAction": "El sufentanil actúa como un agonista puro de los receptores opioides mu (μ) en el sistema nervioso central, principalmente en el cerebro y la médula espinal. Al unirse a estos receptores, inhibe la liberación de neurotransmisores como la sustancia P, lo que bloquea la transmisión de las señales de dolor hacia el cerebro. Además, activa vías descendentes inhibitorias que modulan la percepción del dolor. Su alta liposolubilidad le permite cruzar rápidamente la barrera hematoencefálica, lo que explica su inicio de acción casi inmediato. La activación de los receptores mu también produce los efectos secundarios característicos de los opioides, como euforia, sedación, depresión respiratoria y estreñimiento.",
+    "pharmacologicClass": "Agonista puro de receptores opioides mu (μ). Derivado sintético de la 4-anilidopiperidina (análogo del fentanilo).",
+    "therapeuticClass": "Analgésico opioide mayor. Anestésico general adyuvante.",
+    "absorption": "Administración exclusiva por vía parenteral (intravenosa, epidural). Biodisponibilidad del 100% por vía IV. Tras administración IV, alcanza concentraciones plasmáticas máximas casi de inmediato. Por vía epidural, la absorción es más lenta pero sostenida.",
+    "distribution": "Se distribuye ampliamente en los tejidos debido a su alta liposolubilidad. Volumen de distribución grande (aproximadamente 2.9 L/kg). Se une extensamente (aproximadamente 93%) a proteínas plasmáticas, principalmente a la glicoproteína ácida alfa-1. Cruza rápidamente la barrera hematoencefálica y la placenta.",
+    "metabolism": "Metabolismo hepático extenso, principalmente por desalquilación y hidroxilación mediada por el sistema enzimático del citocromo P450, específicamente por la isoenzima CYP3A4. Se convierte en metabolitos inactivos (N-fenilpropionamida) y metabolitos menos activos.",
+    "elimination": "Vida media de eliminación terminal: aproximadamente 2-3 horas en adultos. Se elimina principalmente por vía renal (80%) en forma de metabolitos inactivos. Una pequeña porción se elimina sin cambios en la orina (<2%) y en las heces.",
+    "onsetOfAction": "Muy rápido. Por vía intravenosa: 1-3 minutos. Por vía epidural: 5-10 minutos para inicio analgésico.",
+    "durationOfAction": "Depende de la dosis y vía. IV: Efecto analgésico de 30 a 60 minutos por dosis única. Epidural: Puede proporcionar analgesia de 2 a 4 horas, o más con infusiones continuas."
+  },
+  "indications": {
+    "approved": [
+      "Analgesia como componente de la anestesia general balanceada en cirugía mayor",
+      "Analgesia epidural para el manejo del dolor durante el trabajo de parto y parto (en combinación con anestésicos locales)",
+      "Analgesia controlada por el paciente (PCA) para dolor postoperatorio agudo severo",
+      "Sedación y analgesia en pacientes críticos con ventilación mecánica en UCI"
+    ],
+    "offLabel": [
+      "Analgesia neuroaxial para dolor oncológico crónico refractario",
+      "Sedación profunda para procedimientos dolorosos fuera del quirófano (en entornos controlados)",
+      "Como componente de la anestesia total intravenosa (TIVA)"
+    ]
+  },
+  "dosage": {
+    "adults": "DOSIS DEBE SER INDIVIDUALIZADA Y ADMINISTRADA POR ANESTESIÓLOGO. Anestesia general: 0.5-8 mcg/kg IV según duración de cirugía. Dosis de inducción: 0.3-2 mcg/kg. Mantenimiento: 0.1-0.5 mcg/kg según necesidad. Analgesia epidural en trabajo de parto: 10-15 mcg en bolo, seguido de infusión de 5-10 mcg/hora. PCA postoperatoria: Bolus de 2-5 mcg con periodo de bloqueo de 5-10 min. Infusión en UCI: 0.1-0.3 mcg/kg/hora, titulando según respuesta.",
+    "pediatric": "Uso limitado y por especialistas. >2 años: Para anestesia, 0.3-1.5 mcg/kg IV. Neonatos y lactantes: Dosis más bajas y con extrema precaución debido a inmadurez metabólica y riesgo respiratorio. Siempre bajo supervisión de anestesiólogo pediátrico.",
+    "elderly": "Reducir dosis inicial en un 30-50%. Los pacientes mayores tienen mayor sensibilidad, clearance reducido y mayor riesgo de efectos adversos (confusión, depresión respiratoria). Titulación lenta y cuidadosa.",
+    "renalImpairment": "Ajustar dosis. Insuficiencia renal leve-moderada (TFG 30-89 mL/min): Reducir dosis inicial y titulación cuidadosa. Insuficiencia renal severa (TFG <30 mL/min) o diálisis: Reducir dosis significativamente (hasta 50%) y monitoreo estrecho. Los metabolitos se acumulan pero son inactivos.",
+    "hepaticImpairment": "Reducir dosis. Insuficiencia hepática reduce el metabolismo y clearance. En cirrosis o falla hepática: Reducir dosis inicial en 50-75% y titulación muy lenta. Evitar en falla hepática aguda grave.",
+    "maxDose": "No hay una dosis máxima absoluta definida; depende de la tolerancia individual, contexto clínico y soporte ventilatorio. Las dosis altas (>8 mcg/kg) se usan en cirugía cardíaca con circulación extracorpórea. La dosis debe ser siempre la mínima efectiva."
+  },
+  "dosageForms": [
+    {
+      "form": "Ampolla o vial inyectable",
+      "strengths": [
+        "5 mcg/mL",
+        "50 mcg/mL"
+      ],
+      "route": "Intravenosa, Epidural"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al sufentanil u otros opioides de la clase fenilpiperidina",
+      "Depresión respiratoria aguda no monitorizada",
+      "Asma bronquial aguda severa o EPOC con insuficiencia respiratoria hipercápnica",
+      "Parálisis ileo (obstrucción intestinal)",
+      "Uso concomitante con inhibidores de la MAO o dentro de los 14 días posteriores a su suspensión",
+      "Administración epidural o intratecal en pacientes con infección sistémica, coagulopatía o tratamiento anticoagulante"
+    ],
+    "relative": [
+      "Historia de abuso de sustancias o dependencia a opioides",
+      "Trauma craneoencefálico o hipertensión intracraneal",
+      "Arritmias cardíacas, bradicardia sinusal",
+      "Insuficiencia hepática o renal severa",
+      "Enfermedad pulmonar obstructiva crónica (EPOC) leve-moderada",
+      "Miastenia gravis u otras enfermedades neuromusculares",
+      "Edad avanzada (>65 años) o estado de debilidad (caquexia)",
+      "Embarazo (excepto para analgesia durante el trabajo de parto)"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Depresión respiratoria (dosis-dependiente)",
+      "Bradicardia (frecuencia cardíaca lenta)",
+      "Hipotensión (presión arterial baja)",
+      "Náuseas y vómitos",
+      "Sedación, somnolencia",
+      "Prurito (comezón), especialmente con vía epidural"
+    ],
+    "common": [
+      "Mareo, vértigo",
+      "Rigidez muscular (especialmente tórax)",
+      "Retención urinaria",
+      "Estreñimiento",
+      "Diaforesis (sudoración)",
+      "Sequedad de boca",
+      "Euforia o disforia"
+    ],
+    "uncommon": [
+      "Espasmo de laringe o broncoespasmo",
+      "Arritmias cardíacas",
+      "Convulsiones (en dosis muy altas)",
+      "Alucinaciones",
+      "Visión borrosa",
+      "Edema facial o generalizado"
+    ],
+    "rare": [
+      "Síndrome de serotonina (si se combina con otros serotonérgicos)",
+      "Paro respiratorio",
+      "Reacción anafiláctica",
+      "Hiperalgesia (aumento de la sensibilidad al dolor con uso prolongado)",
+      "Dependencia física y psicológica"
+    ],
+    "blackBoxWarning": "ADVERTENCIA: Riesgo de depresión respiratoria grave, potencialmente mortal, especialmente en el inicio del tratamiento o tras aumento de dosis. Riesgo de uso incorrecto, abuso y adicción. Exposición accidental, especialmente en niños, puede causar sobredosis fatal. Interacción con benzodiacepinas u otros depresores del SNC aumenta el riesgo."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Benzodiacepinas (diazepam, midazolam)",
+        "effect": "Depresión respiratoria, sedación y coma aditivos. Aumento dramático del riesgo de paro respiratorio.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Alcohol",
+        "effect": "Depresión del SNC aditiva. Riesgo extremo de depresión respiratoria, coma y muerte.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores de la CYP3A4 (ketoconazol, claritromicina, ritonavir)",
+        "effect": "Aumentan significativamente los niveles de sufentanil, potenciando sus efectos y toxicidad.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inductores de la CYP3A4 (rifampicina, carbamazepina, fenitoína)",
+        "effect": "Disminuyen los niveles de sufentanil, reduciendo su efecto analgésico y pudiendo causar síndrome de abstinencia.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Otros opioides, relajantes musculares, antipsicóticos",
+        "effect": "Depresión del SNC aditiva, mayor sedación y riesgo respiratorio.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores de la MAO (fenelzina, tranilcipromina)",
+        "effect": "Pueden desencadenar crisis hipertensivas, hiperpirexia y coma. Contraindicación absoluta.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "No aplica para administración parenteral. Sin embargo, el estado nutricional (ayuno) es crucial antes de procedimientos anestésicos.",
+    "withSupplements": "Precaución con suplementos que deprimen el SNC (valeriana, kava, melatonina en dosis altas). Evitar Hierba de San Juan (inductor de CYP3A4, reduce eficacia)."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA C (para uso crónico) / Se considera compatible para analgesia durante el trabajo de parto.",
+      "recommendación": "Solo debe usarse durante el embarazo si el beneficio justifica claramente el riesgo para el feto. Puede causar depresión respiratoria neonatal si se administra cerca del parto. Su uso epidural para analgesia del trabajo de parto es una indicación aprobada y generalmente segura cuando es administrada por un anestesiólogo.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se excreta en leche materna en cantidades mínimas. Sin embargo, debido a su alta potencia y potencial de sedación en el lactante, se recomienda precaución. Si se administra una dosis única, se puede recomendar suspender la lactancia por 24 horas. En infusiones continuas en UCI, se debe evaluar riesgo-beneficio individual.",
+    "pediatric": "Puede usarse en niños >2 años para anestesia bajo estricta supervisión de anestesiólogo pediátrico. Los neonatos y lactantes son más sensibles a la depresión respiratoria. Las dosis deben calcularse meticulosamente por peso. No es de uso ambulatorio.",
+    "geriatric": "Los pacientes mayores de 65 años tienen mayor sensibilidad, clearance reducido, mayor unión a proteínas y mayor riesgo de efectos adversos (confusión, caídas, depresión respiratoria). Se deben usar dosis iniciales reducidas (25-50% de la dosis adulta) y una titulación muy lenta."
+  },
+  "administration": {
+    "howToTake": "EXCLUSIVAMENTE ADMINISTRADO POR PERSONAL MÉDICO CALIFICADO (anestesiólogos, médicos intensivistas, enfermeras especializadas) en entornos hospitalarios con equipo de reanimación disponible. Vías: 1) Intravenosa: En bolo lento (varios minutos) o en infusión continua controlada por bomba de infusión. 2) Epidural: Administrado por catéter epidural colocado por anestesiólogo, usualmente en combinación con anestésico local. NUNCA por vía oral o intramuscular. Debe disponerse siempre de naloxona (antídoto) al lado del paciente.",
+    "storage": "Conservar las ampollas o viales en su empaque original, protegido de la luz, a temperatura ambiente controlada (15-30°C). No congelar. Mantener bajo llave en área de almacén de sustancias controladas (Fracción III). Las soluciones diluidas para infusión son estables por 24 horas a temperatura ambiente. Desechar cualquier solución sobrante de acuerdo con normativa de residuos biológicos-peligrosos.",
+    "specialInstructions": "Es un medicamento de la Fracción III (sustancia controlada). Requiere receta especial por triplicado y registro estricto de administración. La tolerancia y la dependencia física pueden desarrollarse con el uso prolongado (>1 semana). La suspensión brusca puede causar síndrome de abstinencia. Para revertir efectos, se usa naloxona. En vía epidural, monitorizar signos de infección en sitio de inserción."
+  },
+  "monitoring": {
+    "labTests": [
+      "No requiere monitoreo de laboratorio rutinario específico.",
+      "En uso prolongado en UCI: Función renal (creatinina, BUN) y hepática (transaminasas).",
+      "Gasometría arterial o pulsioximetría continua para evaluar oxigenación."
+    ],
+    "frequency": "Monitorización CONTINUA durante la administración: Frecuencia cardíaca, presión arterial, frecuencia respiratoria y saturación de oxígeno (pulsioximetría) cada 5-15 minutos inicialmente, luego según estabilidad. Nivel de sedación (escala de Ramsay o RASS) cada hora en UCI.",
+    "signsToWatch": [
+      "Frecuencia respiratoria < 8 respiraciones por minuto",
+      "Saturación de oxígeno (SpO2) < 90%",
+      "Somnolencia extrema o dificultad para despertar",
+      "Confusión o agitación",
+      "Bradicardia severa (FC < 50 lpm)",
+      "Hipotensión significativa",
+      "Cianosis (coloración azulada de labios o piel)",
+      "Rigidez muscular torácica que dificulta la ventilación"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Depresión respiratoria grave o paro respiratorio",
+      "Somnolencia profunda progresando a estupor o coma",
+      "Pupilas puntiformes (mióticas)",
+      "Hipotensión y bradicardia severas",
+      "Piel fría y húmeda",
+      "Cianosis",
+      "Muerte por hipoxia"
+    ],
+    "treatment": "1. SOPORTE VITAL AVANZADO INMEDIATO: Mantener vía aérea, ventilación con oxígeno al 100% y asistencia ventilatoria mecánica si es necesario. 2. ADMINISTRAR ANTÍDOTO: Naloxona clorhidrato IV en bolos de 0.4-2 mg, repetiendo cada 2-3 minutos según respuesta. Puede requerirse infusión continua de naloxona debido a la vida media más larga del sufentanil. 3. SOPORTE CIRCULATORIO: Fluidos IV, vasopresores si hay hipotensión refractaria. 4. Monitorización continua en unidad de cuidados intensivos.",
+    "antidote": "Naloxona (Narcan®). Es un antagonista competitivo puro de los receptores opioides. Revierte rápidamente la depresión respiratoria y la sedación."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial por triplicado para sustancias controladas (Fracción III). Venta exclusiva a hospitales y unidades médicas autorizadas. NO es de venta libre.",
+    "scheduleMexico": "Fracción III (Sustancias con uso médico pero con alto potencial de abuso y dependencia).",
+    "fdaApprovalYear": "Aprobado por la FDA en 1984."
+  },
+  "brandsMexico": [
+    "Sufenta®",
+    "Sufentanil Citrate Hospira®",
+    "Sufentanil Accord®",
+    "Sufentanil PiSA®",
+    "Sufentanil Citrato Genfar®"
+  ],
+  "clinicalPearls": [
+    "El sufentanil es aproximadamente 1000 veces más potente que la morfina. Una dosis de 10 mcg de sufentanil es equipotente a 10 mg de morfina IV.",
+    "En anestesia cardíaca, se utilizan dosis muy altas (hasta 20-30 mcg/kg) por su estabilidad hemodinámica, produciendo poca liberación de histamina.",
+    "El prurito (comezón) es un efecto secundario común con la vía epidural, pero NO es una alergia. Responde bien a dosis bajas de naloxona o antagonistas de receptores de serotonina como ondansetrón."
+  ],
+  "patientCounseling": "Estimado paciente: El sufentanil es un medicamento muy potente para el dolor severo, usado solo en hospital bajo supervisión médica constante. Usted no lo administrará por su cuenta. Es normal sentir sueño, náuseas o comezón. Informe de inmediato a su enfermera o médico si siente que le falta el aire, tiene mucha dificultad para respirar, se siente excesivamente somnoliento o confundido. Este medicamento puede causar dependencia si se usa por largo tiempo, pero en el contexto hospitalario controlado este riesgo se maneja. Después de recibirlo, evite conducir, operar maquinaria o tomar decisiones importantes por al menos 24 horas debido a la somnolencia residual. Si está en casa después de un procedimiento y le dieron otros analgésicos opioides, nunca los combine con alcohol, pastillas para dormir o ansiolíticos sin consultar a su médico, ya que el riesgo de paro respiratorio es mortal. Guarde todos los medicamentos fuera del alcance de los niños.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor agudo severo",
+        "slug": "dolor-agudo-severo"
+      },
+      {
+        "name": "Dolor postoperatorio",
+        "slug": "dolor-postoperatorio"
+      },
+      {
+        "name": "Dolor del trabajo de parto",
+        "slug": "dolor-del-trabajo-de-parto"
+      },
+      {
+        "name": "Ansiedad relacionada con procedimientos",
+        "slug": "ansiedad-procedimientos"
+      },
+      {
+        "name": "Dolor oncológico refractario",
+        "slug": "dolor-oncologico-refractario"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Dolor agudo perioperatorio",
+        "slug": "dolor-agudo-perioperatorio"
+      },
+      {
+        "name": "Traumatismo grave",
+        "slug": "traumatismo-grave"
+      },
+      {
+        "name": "Cáncer con dolor severo",
+        "slug": "cancer-con-dolor-severo"
+      },
+      {
+        "name": "Síndrome de distrés respiratorio agudo (SDRA) bajo sedación en UCI",
+        "slug": "sindrome-distres-respiratorio-agudo"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Depresión respiratoria inducida por opioides",
+        "slug": "depresion-respiratoria-opioides"
+      },
+      {
+        "name": "Dependencia a opioides",
+        "slug": "dependencia-opioides"
+      },
+      {
+        "name": "Ileo paralítico",
+        "slug": "ileo-paralitico"
+      },
+      {
+        "name": "Retención urinaria aguda",
+        "slug": "retencion-urinaria-aguda"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Frecuencia respiratoria",
+        "slug": "frecuencia-respiratoria",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Presión arterial",
+        "slug": "presion-arterial",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Nivel de conciencia (escala de Glasgow)",
+        "slug": "nivel-conciencia",
+        "effect": "Puede disminuir"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Pulsioximetría continua",
+        "slug": "pulsioximetria",
+        "reason": "Monitoreo esencial de la oxigenación por riesgo de depresión respiratoria"
+      },
+      {
+        "name": "Monitorización de signos vitales",
+        "slug": "monitorizacion-signos-vitales",
+        "reason": "Frecuencia cardíaca, presión arterial y frecuencia respiratoria cada 5-15 min durante administración"
+      },
+      {
+        "name": "Gasometría arterial",
+        "slug": "gasometria-arterial",
+        "reason": "En caso de sospecha de depresión respiratoria severa para evaluar niveles de CO2 y oxígeno"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve el sufentanil?",
+      "a": "El sufentanil es un analgésico (calmante del dolor) extremadamente potente que se usa exclusivamente en hospitales para controlar el dolor severo, como durante cirugías mayores, en el postoperatorio, en el trabajo de parto o en pacientes graves en terapia intensiva que necesitan estar sedados y sin dolor."
+    },
+    {
+      "q": "¿Es lo mismo que la morfina?",
+      "a": "No, son opioides diferentes. El sufentanil es un derivado sintético del fentanilo y es aproximadamente 1000 veces más potente que la morfina. Se usa en situaciones donde se necesita un efecto más rápido, más potente y con menos efectos sobre la presión arterial."
+    },
+    {
+      "q": "¿Me lo pueden recetar para el dolor en casa?",
+      "a": "NO. El sufentanil es un medicamento de uso exclusivamente hospitalario. No existe en forma de pastillas o parches para uso ambulatorio en México. Su administración requiere monitoreo constante por personal médico debido al alto riesgo de paro respiratorio."
+    },
+    {
+      "q": "¿Qué efectos secundarios son los más comunes?",
+      "a": "Los más comunes son: sueño o somnolencia profunda, náuseas o vómitos, comezón (especialmente si se pone en la espalda para el parto), respiración más lenta, y presión arterial baja. Su médico los vigilará y tratará si es necesario."
+    },
+    {
+      "q": "¿Puedo volverme adicto al sufentanil?",
+      "a": "Sí, como todos los opioides potentes, tiene un alto potencial de causar dependencia física y psicológica si se usa por periodos prolongados. Sin embargo, en el entorno hospitalario controlado y por el tiempo limitado de la cirugía o el dolor agudo, este riesgo es manejado por los médicos."
+    },
+    {
+      "q": "¿Es seguro usarlo en el parto? ¿Le hará daño a mi bebé?",
+      "a": "Sí, es seguro y es una opción común para la analgesia epidural durante el trabajo de parto. Se usa en dosis bajas que alivian el dolor de la madre sin detener las contracciones. Pasa en mínima cantidad al bebé y los pediatras están preparados para atender cualquier somnolencia leve que pueda presentar el recién nacido."
+    },
+    {
+      "q": "¿Cuánto tiempo dura el efecto del sufentanil?",
+      "a": "Depende de cómo se administre. Si se da en una sola inyección intravenosa, el efecto analgésico fuerte dura entre 30 y 60 minutos. Si se administra por un catéter epidural o en una infusión continua, puede proporcionar alivio del dolor por varias horas."
+    },
+    {
+      "q": "¿Qué hago si siento que me falta el aire después de recibirlo?",
+      "a": "ES UNA EMERGENCIA MÉDICA. Debe informar INMEDIATAMENTE a la enfermera o al médico que lo atiende. No intente caminar o levantarse. Ellos tienen el antídoto (naloxona) y el equipo para ayudarlo a respirar."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si me están dando sufentanil en el hospital?",
+      "a": "ABSOLUTAMENTE NO. El alcohol potencia de manera peligrosa los efectos del sufentanil, multiplicando el riesgo de paro respiratorio y muerte. En el hospital se le pedirá no consumir alcohol."
+    },
+    {
+      "q": "¿Interfiere con mis otros medicamentos para la presión o el corazón?",
+      "a": "Puede potenciar el efecto de medicamentos para la presión, causando una bajada mayor. También puede causar latidos muy lentos (bradicardia). Es crucial que informe a su anestesiólogo de TODOS los medicamentos que toma, incluyendo hierbas y suplementos."
+    },
+    {
+      "q": "¿Por qué me da tanta comezón con la epidural de sufentanil?",
+      "a": "La comezón (prurito) es un efecto secundario muy común de los opioides en la médula espinal, NO es una alergia. Es señal de que el medicamento está actuando. Suele ser leve y pasajera, pero si es muy molesta, su médico puede administrarle un medicamento para aliviarla."
+    },
+    {
+      "q": "¿Qué pasa si tengo problemas de riñón o hígado?",
+      "a": "Si tiene insuficiencia renal o hepática, el sufentanil se elimina más lentamente, por lo que el efecto dura más y es más fuerte. Su médico debe saberlo para usar una dosis mucho más baja y vigilarlo más de cerca."
+    },
+    {
+      "q": "¿Hay algún antídoto si hay una sobredosis?",
+      "a": "Sí, el antídoto se llama naloxona (Narcan®). Revierte rápidamente los efectos del sufentanil, especialmente la depresión respiratoria. En todo lugar donde se administre sufentanil debe haber naloxona disponible."
+    },
+    {
+      "q": "¿El sufentanil es un narcótico?",
+      "a": "Sí, en términos farmacológicos y legales, el sufentanil es un narcótico opioide de la Fracción III en México, lo que significa que tiene un alto potencial de abuso y está estrictamente controlado."
+    },
+    {
+      "q": "¿Puede causar estreñimiento como otros opioides?",
+      "a": "Sí, pero como su uso es principalmente agudo y hospitalario (días), el estreñimiento severo es menos común que con opioides orales crónicos. Aún así, el personal médico puede darle medicamentos para prevenirlo si es necesario."
+    },
+    {
+      "q": "¿Qué es la rigidez muscular torácica y por qué pasa?",
+      "a": "Es un efecto poco común pero grave donde los músculos del pecho y el diafragma se ponen rígidos, dificultando o imposibilitando la respiración. Ocurre más con dosis altas y rápidas. Los anestesiólogos lo previenen administrando el medicamento lentamente y tienen relajantes musculares para tratarlo."
+    },
+    {
+      "q": "¿Cómo se calcula la dosis para un niño?",
+      "a": "La dosis para niños se calcula con extrema precisión basándose en el peso corporal (microgramos por kilo). Solo un anestesiólogo pediátrico con experiencia debe hacerlo y administrarlo, ya que los niños son más sensibles."
+    },
+    {
+      "q": "¿Por qué a veces se usa en infusiones continuas en terapia intensiva?",
+      "a": "En la UCI, se usan infusiones continuas de sufentanil para mantener a los pacientes con ventilación mecánica libres de dolor, cómodos y sincronizados con el ventilador, permitiendo una recuperación más segura en estados críticos."
+    },
+    {
+      "q": "¿Qué es la hiperalgesia inducida por opioides y puede causarla el sufentanil?",
+      "a": "Es un fenómeno paradójico donde el uso prolongado de opioides (varios días) puede hacer que el paciente sea MÁS sensible al dolor. Sí, el sufentanil puede causarlo si se usa en infusiones por mucho tiempo en la UCI. Los médicos lo manejan rotando o reduciendo la dosis cuidadosamente."
+    },
+    {
+      "q": "¿Cuál es la diferencia clave entre el sufentanil y el remifentanil en anestesia?",
+      "a": "La diferencia principal es la duración. El sufentanil tiene una vida media más larga (2-3 horas), ideal para cirugías prolongadas y analgesia postoperatoria. El remifentanil es ultracorto (vida media de 3-10 min), ideal para procedimientos breves donde se necesita un despertar rápido, pero no deja analgesia residual."
+    }
+  ]
+}

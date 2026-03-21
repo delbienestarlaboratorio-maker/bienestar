@@ -1,0 +1,407 @@
+{
+  "name": "Amikacina",
+  "summary": "La amikacina es un antibiótico potente del grupo de los aminoglucósidos, utilizado principalmente para combatir infecciones graves causadas por bacterias que son resistentes a otros antibióticos más comunes. Sirve para tratar infecciones como neumonía, infecciones del tracto urinario complicadas, septicemia (infección en la sangre), infecciones abdominales y aquellas que ocurren en pacientes con sistemas inmunológicos débiles, como personas con cáncer o que han recibido un trasplante. Su importancia clínica es enorme porque actúa como un 'antibiótico de reserva', es decir, se guarda para situaciones críticas donde otros tratamientos han fallado, especialmente contra bacterias como Pseudomonas aeruginosa y algunas enterobacterias resistentes. Sin embargo, su uso requiere supervisión médica estricta debido a sus posibles efectos secundarios graves, principalmente en los riñones y el oído. Por lo general, se administra por inyección en un hospital o clínica, y la dosis se ajusta cuidadosamente según el peso del paciente y la función de sus riñones.",
+  "pharmacology": {
+    "mechanismOfAction": "La amikacina actúa uniéndose de manera irreversible a la subunidad 30S de los ribosomas bacterianos, que son las 'fábricas de proteínas' dentro de las bacterias. Al unirse allí, bloquea la síntesis de proteínas esenciales que la bacteria necesita para crecer y sobrevivir. Esto lleva a que la bacteria produzca proteínas defectuosas y finalmente muera (efecto bactericida). Es especialmente efectivo contra bacterias Gram-negativas aerobias (que necesitan oxígeno), como Pseudomonas, E. coli y Klebsiella. Su estructura química la hace resistente a muchas enzimas que producen las bacterias para inactivar otros aminoglucósidos, por lo que es útil cuando hay resistencia.",
+    "pharmacologicClass": "Antibiótico aminoglucósido semisintético derivado de la kanamicina.",
+    "therapeuticClass": "Antibiótico bactericida.",
+    "absorption": "No se absorbe por vía oral (menos del 1%). Debe administrarse por vía intramuscular (IM) o intravenosa (IV) para alcanzar concentraciones terapéuticas en sangre. La absorción por vía IM es rápida y completa, alcanzando concentraciones máximas en sangre en aproximadamente 1 hora.",
+    "distribution": "Se distribuye ampliamente en el líquido extracelular. Penetra bien en líquidos pleural, peritoneal, sinovial y en orina. La unión a proteínas plasmáticas es baja (0-11%). Atraviesa pobremente la barrera hematoencefálica (al cerebro) y la barrera placentaria. Su volumen de distribución (Vd) es similar al del agua extracelular (aproximadamente 0.25 L/kg).",
+    "metabolism": "No sufre metabolismo hepático significativo. No es sustrato del sistema de enzimas CYP450. Se elimina principalmente sin cambios por el riñón.",
+    "elimination": "Se elimina casi exclusivamente por filtración glomerular en los riñones, sin reabsorción tubular significativa. Su vida media en adultos con función renal normal es de 2 a 3 horas. En pacientes con insuficiencia renal, la vida media se prolonga considerablemente (hasta 30-86 horas).",
+    "onsetOfAction": "Las concentraciones en sangre alcanzan niveles terapéuticos rápidamente después de una inyección intramuscular o una infusión intravenosa (en 30-60 minutos).",
+    "durationOfAction": "Su efecto bactericida es concentración-dependiente (mayor efecto con picos altos) y tiene un efecto post-antibiótico prolongado (sigue actuando incluso cuando sus niveles en sangre bajan), lo que permite en muchos casos una dosis única diaria."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones graves por bacterias Gram-negativas sensibles (Pseudomonas aeruginosa, Escherichia coli, Proteus spp., Klebsiella spp., Enterobacter spp., Serratia spp., Acinetobacter spp.)",
+      "Sepsis (infección en la sangre) y bacteriemia",
+      "Neumonía nosocomial (adquirida en el hospital) y complicada",
+      "Infecciones intraabdominales graves (peritonitis)",
+      "Infecciones del tracto urinario complicadas (pielonefritis)",
+      "Infecciones de piel y tejidos blandos graves",
+      "Infecciones óseas y articulares (osteomielitis, artritis séptica)",
+      "Meningitis por bacterias Gram-negativas (en combinación con otros antibióticos)",
+      "Endocarditis infecciosa (en combinación, para ciertos microorganismos)",
+      "Tratamiento empírico de infecciones en pacientes neutropénicos (con defensas bajas) con fiebre"
+    ],
+    "offLabel": [
+      "Tratamiento de infecciones por micobacterias atípicas, como el complejo Mycobacterium avium (MAC) en pacientes con VIH/SIDA",
+      "Terapia combinada para infecciones por Staphylococcus aureus resistente a meticilina (SARM) en ciertos casos",
+      "Irrigación de heridas en concentraciones específicas",
+      "Inhalación nebulizada para infecciones pulmonares crónicas por Pseudomonas en fibrosis quística (uso en investigación)"
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis estándar es de 15 mg/kg de peso corporal por día, administrada en una sola dosis diaria (regimen de dosis única diaria) o dividida en 2-3 dosis iguales cada 8-12 horas. Para infecciones que amenazan la vida, la dosis puede aumentarse a 20 mg/kg/día, con un máximo absoluto de 1.5 g/día. La dosis debe basarse en el peso corporal ideal, no en el real, especialmente en pacientes obesos.",
+    "pediatric": "Lactantes y niños: 15-22.5 mg/kg/día, administrados en 2-3 dosis divididas cada 8 horas. Recién nacidos: Dosis de carga de 10 mg/kg, seguida de 7.5 mg/kg cada 12 horas para neonatos de 0-7 días, y cada 8 horas para neonatos de 8-28 días. Siempre ajustar según niveles en sangre.",
+    "elderly": "Los adultos mayores suelen tener una función renal disminuida. La dosis debe calcularse usando el peso corporal ideal y la tasa de filtración glomerular (TFG) estimada. Se recomienda iniciar con dosis más bajas y monitorear niveles séricos y función renal estrechamente.",
+    "renalImpairment": "El ajuste es CRUCIAL. Se utiliza la fórmula: Dosis ajustada = Dosis normal × (TFG del paciente / TFG normal). O se alarga el intervalo entre dosis. Para TFG > 50 mL/min: dosis normal cada 8-12h. TFG 30-50: dosis normal cada 12-18h. TFG 10-30: dosis normal cada 24-48h. TFG < 10: dosis normal cada 48-72h. El monitoreo de niveles en sangre (valores valle y pico) es obligatorio.",
+    "hepaticImpairment": "No se requiere ajuste de dosis específico por insuficiencia hepática, ya que se elimina por el riñón. Sin embargo, en pacientes con enfermedad hepática avanzada y ascitis, el volumen de distribución puede alterarse.",
+    "maxDose": "La dosis máxima diaria recomendada es de 1.5 gramos (1500 mg) en adultos, independientemente del peso, para minimizar el riesgo de toxicidad. En situaciones excepcionales de vida o muerte y con monitoreo intensivo, se pueden superar, pero con extremo cuidado."
+  },
+  "dosageForms": [
+    {
+      "form": "Solución inyectable",
+      "strengths": [
+        "100 mg/mL en ampolletas de 2 mL (200 mg)",
+        "250 mg/mL en ampolletas de 2 mL (500 mg)",
+        "500 mg/2 mL (250 mg/mL)",
+        "1 g/4 mL (250 mg/mL)"
+      ],
+      "route": "Intramuscular, Intravenosa (infusión)"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la amikacina o a otros aminoglucósidos (gentamicina, tobramicina, etc.)",
+      "Miastenia gravis (puede agravar la debilidad muscular)",
+      "Bloqueo neuromuscular por agentes anestésicos o relajantes musculares (riesgo de parálisis respiratoria)"
+    ],
+    "relative": [
+      "Insuficiencia renal preexistente (requiere ajuste estricto y monitoreo)",
+      "Trastornos auditivos preexistentes (hipoacusia, tinnitus)",
+      "Deshidratación",
+      "Pacientes de edad avanzada (por menor función renal)",
+      "Embarazo (solo si el beneficio justifica claramente el riesgo)",
+      "Lactancia"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Nefrotoxicidad (daño renal) - especialmente con uso prolongado o dosis altas",
+      "Ototoxicidad (daño al oído) - afectando tanto la audición (coclear) como el equilibrio (vestibular)"
+    ],
+    "common": [
+      "Dolor en el sitio de inyección",
+      "Erupción cutánea",
+      "Fiebre",
+      "Dolor de cabeza",
+      "Náuseas y vómitos"
+    ],
+    "uncommon": [
+      "Bloqueo neuromuscular (debilidad muscular, dificultad para respirar)",
+      "Trastornos electrolíticos (disminución de magnesio, calcio, potasio)",
+      "Anemia, leucopenia, trombocitopenia (bajas en células sanguíneas)",
+      "Confusión, convulsiones (especialmente si niveles muy altos)"
+    ],
+    "rare": [
+      "Reacción anafiláctica severa (alergia grave)",
+      "Visión borrosa",
+      "Neuropatía periférica (hormigueo en manos/pies)"
+    ],
+    "blackBoxWarning": "Nefrotoxicidad y Ototoxicidad: La amikacina puede causar daño renal y daño al nervio auditivo/vestibular, que puede ser irreversible. El riesgo es mayor con dosis altas, tratamiento prolongado, en pacientes con función renal alterada y cuando se usa con otros medicamentos tóxicos para el riñón o el oído. También tiene el potencial de causar bloqueo neuromuscular y parálisis respiratoria, especialmente cuando se administra con anestésicos o relajantes musculares."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Diuréticos de asa (Furosemida, Torasemida)",
+        "effect": "Aumentan el riesgo de ototoxicidad (daño auditivo) y pueden potenciar la nefrotoxicidad.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Otros medicamentos nefrotóxicos (Vancomicina, Anfotericina B, Cisplatino, AINEs como ibuprofeno)",
+        "effect": "Aumento aditivo del riesgo de daño renal.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Relajantes musculares despolarizantes y no despolarizantes (Succinilcolina, Vecuronio)",
+        "effect": "Potenciación del bloqueo neuromuscular, riesgo de parálisis respiratoria y apnea prolongada.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Penicilinas en dosis altas (Ampicilina, Carbenicilina)",
+        "effect": "Pueden inactivar a la amikacina in vitro si se mezclan en la misma jeringa o bolsa de infusión, perdiendo potencia. Deben administrarse por separado.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Indometacina",
+        "effect": "Puede aumentar los niveles séricos de amikacina en neonatos, incrementando el riesgo de toxicidad.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "No hay interacciones directas con alimentos, ya que se administra por inyección. Sin embargo, una buena hidratación es crucial para ayudar a proteger la función renal durante el tratamiento.",
+    "withSupplements": "Evitar suplementos que contengan magnesio en altas dosis por vía intravenosa, ya que la amikacina puede causar hipomagnesemia (bajos niveles de magnesio) y la combinación podría tener efectos impredecibles sobre la función neuromuscular."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "D",
+      "recommendation": "La amikacina cruza la placenta y puede causar ototoxicidad (daño auditivo) en el feto. Solo debe usarse durante el embarazo si el beneficio para la madre justifica claramente el riesgo potencial para el feto, en situaciones de infecciones graves que amenazan la vida y cuando no hay alternativas más seguras disponibles. Se requiere consejería y monitoreo especializado.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La amikacina se excreta en la leche materna en bajas concentraciones. Debido al potencial de efectos adversos graves en el lactante (alteración de la flora intestinal, riesgo teórico de ototoxicidad), generalmente se recomienda suspender la lactancia materna durante el tratamiento o, si es absolutamente necesario, usarla con extrema precaución y bajo supervisión médica estricta.",
+    "pediatric": "Se puede usar en niños y neonatos para infecciones graves, pero con dosis ajustadas meticulosamente por peso y edad. Los recién nacidos, especialmente los prematuros, tienen una función renal inmadura y una vida media más prolongada, por lo que requieren dosis más bajas e intervalos más largos. El monitoreo de niveles séricos es esencial.",
+    "geriatric": "Los pacientes de edad avanzada tienen mayor probabilidad de presentar función renal disminuida relacionada con la edad, lo que aumenta el riesgo de toxicidad. Se debe calcular la dosis basándose en el peso corporal ideal y la TFG estimada, iniciando con dosis en el extremo inferior del rango. La vigilancia de la función renal y auditiva debe ser más frecuente."
+  },
+  "administration": {
+    "howToTake": "La amikacina se administra SOLO por inyección intramuscular profunda o por infusión intravenosa lenta (generalmente en 30-60 minutos para una dosis de 500 mg). NO se toma por boca. La inyección intramuscular debe realizarse en un músculo grande (glúteo o muslo). Para la infusión intravenosa, se diluye el contenido de la ampolleta en 50-200 mL de solución salina normal (cloruro de sodio al 0.9%) o solución glucosada al 5%. Nunca se debe mezclar en la misma jeringa o bolsa con penicilinas, ya que pueden inactivarse mutuamente.",
+    "storage": "Conservar las ampolletas en su empaque original, protegidas de la luz, a temperatura ambiente (15-30°C). No congelar. Una vez reconstituida o diluida para infusión, la solución es estable a temperatura ambiente por 24 horas. Desechar cualquier porción no utilizada.",
+    "specialInstructions": "Mantener una HIDRATACIÓN ADECUADA durante el tratamiento para promover la excreción renal y reducir el riesgo de nefrotoxicidad. Los niveles séricos de amikacina (pico y valle) deben medirse regularmente para guiar la dosis, especialmente en pacientes con función renal variable, en tratamientos prolongados (>5 días) o en dosis altas. El pico se mide 30 minutos después de terminar una infusión IV de 30 min (o 1 hora post-inyección IM); el valle se mide justo antes de la siguiente dosis."
+  },
+  "monitoring": {
+    "labTests": [
+      "Creatinina sérica y Tasa de Filtración Glomerular (TFG) estimada (antes del tratamiento y cada 2-3 días durante)",
+      "Niveles séricos de amikacina (pico y valle) - idealmente después de la 3ra dosis o 24-48h de iniciado el tratamiento",
+      "Electrolitos séricos (especialmente magnesio, calcio, potasio)",
+      "Recuento completo de células sanguíneas (CBC)",
+      "Pruebas de función auditiva (audiometría) - antes y durante tratamientos prolongados (>7-10 días)",
+      "Pruebas de función vestibular (si hay síntomas como vértigo)"
+    ],
+    "frequency": "Función renal: Al inicio y cada 48-72 horas. Niveles séricos de amikacina: Al menos 1-2 veces por semana en terapia convencional; en terapia de dosis única diaria, el monitoreo puede ser diferente. Audiometría: Al inicio y semanalmente en tratamientos largos, o ante cualquier queja de tinnitus o pérdida auditiva.",
+    "signsToWatch": [
+      "Disminución en la producción de orina u orina oscura",
+      "Zumbido en los oídos (tinnitus), sensación de oídos 'tapados' o pérdida de audición (pedir que repitan palabras)",
+      "Mareo, vértigo, pérdida del equilibrio, dificultad para caminar en la oscuridad",
+      "Debilidad muscular inusual, especialmente dificultad para respirar",
+      "Sangrado o moretones inusuales",
+      "Erupción cutánea severa, hinchazón de cara/lengua, dificultad para respirar (signos de alergia)"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Pérdida auditiva severa o sordera",
+      "Vértigo incapacitante",
+      "Insuficiencia renal aguda (poca o nada de orina)",
+      "Debilidad muscular extrema, parálisis flácida, dificultad respiratoria o apnea (paro respiratorio)",
+      "Convulsiones"
+    ],
+    "treatment": "La amikacina no tiene un antídoto específico. El tratamiento es de soporte: 1) Suspender el medicamento inmediatamente. 2) Mantener la vía aérea y la ventilación (puede requerir intubación y ventilación mecánica en caso de parálisis neuromuscular). 3) Hemodiálisis y diálisis peritoneal son EFECTIVAS para eliminar la amikacina de la sangre y deben considerarse en casos de sobredosis significativa, especialmente si hay insuficiencia renal. 4) Medición de niveles séricos para guiar la necesidad y duración de la diálisis. 5) Hidratación intravenosa para mantener el flujo urinario.",
+    "antidote": "No existe un antídoto específico. El calcio intravenoso se ha utilizado para revertir el bloqueo neuromuscular inducido por aminoglucósidos, pero su eficacia no es constante."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (antibiótico de uso hospitalario principalmente).",
+    "scheduleMexico": "Medicamento de la Fracción IV (sustancias que requieren receta médica y pueden causar farmacodependencia, en este caso por su toxicidad).",
+    "fdaApprovalYear": "Aprobado por la FDA de Estados Unidos en 1976."
+  },
+  "brandsMexico": [
+    "Amikacina",
+    "Amikacil",
+    "Amikin",
+    "Biklin",
+    "Kaminax",
+    "Mikacin",
+    "Novamin",
+    "Amikavel",
+    "Kamin",
+    "Amikacina Sulfato (genérico de varios laboratorios)"
+  ],
+  "clinicalPearls": [
+    "La amikacina es el aminoglucósido más resistente a las enzimas inactivadoras bacterianas, por lo que es la opción cuando se sospecha resistencia a gentamicina o tobramicina.",
+    "El régimen de dosis única diaria (15-20 mg/kg una vez al día) es tan efectivo como las dosis múltiples y puede ser MENOS tóxico para los riñones, ya que permite periodos más largos de concentraciones bajas en los túbulos renales.",
+    "La ototoxicidad (daño al oído) puede ser irreversible y a veces se manifiesta semanas después de haber terminado el tratamiento. Es crucial preguntar activamente por síntomas auditivos y de equilibrio.",
+    "En pacientes con fibrosis quística, la farmacocinética de la amikacina es diferente (mayor aclaramiento, menor vida media), por lo que a menudo requieren dosis más altas para alcanzar niveles terapéuticos."
+  ],
+  "patientCounseling": "La amikacina es un antibiótico muy fuerte que se usa para infecciones graves y se administra solo por inyección, generalmente en un hospital o clínica. Es fundamental que informe a su médico si tiene problemas previos de riñón, audición, mareos o si está embarazada o amamantando. Durante el tratamiento, beba abundante agua para proteger sus riñones. Esté muy atento a señales de alarma: si nota zumbido en los oídos, siente que oye menos, tiene mareos intensos, ve que orina mucho menos de lo normal o siente una debilidad muscular extrema, debe informarlo INMEDIATAMENTE a su médico o enfermera. No suspenda el tratamiento antes de lo indicado, incluso si se siente mejor, para evitar que la infección regrese. Este medicamento requiere análisis de sangre frecuentes para medir sus niveles y la función de sus riñones; es importante que se realice estos estudios cuando se los soliciten.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre alta",
+        "slug": "fiebre-alta"
+      },
+      {
+        "name": "Escalofríos",
+        "slug": "escalofrios"
+      },
+      {
+        "name": "Dolor al orinar",
+        "slug": "dolor-al-orinar"
+      },
+      {
+        "name": "Dificultad para respirar",
+        "slug": "dificultad-para-respirar"
+      },
+      {
+        "name": "Dolor abdominal intenso",
+        "slug": "dolor-abdominal-intenso"
+      },
+      {
+        "name": "Secreción purulenta",
+        "slug": "secrecion-purulenta"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Neumonía nosocomial",
+        "slug": "neumonia-nosocomial"
+      },
+      {
+        "name": "Sepsis o septicemia",
+        "slug": "sepsis"
+      },
+      {
+        "name": "Pielonefritis aguda",
+        "slug": "pielonefritis-aguda"
+      },
+      {
+        "name": "Peritonitis",
+        "slug": "peritonitis"
+      },
+      {
+        "name": "Osteomielitis",
+        "slug": "osteomielitis"
+      },
+      {
+        "name": "Infección por Pseudomonas aeruginosa",
+        "slug": "infeccion-por-pseudomonas-aeruginosa"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Insuficiencia renal aguda",
+        "slug": "insuficiencia-renal-aguda"
+      },
+      {
+        "name": "Hipoacusia neurosensorial",
+        "slug": "hipoacusia-neurosensorial"
+      },
+      {
+        "name": "Vértigo",
+        "slug": "vertigo"
+      },
+      {
+        "name": "Neuropatía periférica",
+        "slug": "neuropatia-periferica"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Nitrógeno ureico en sangre (BUN)",
+        "slug": "nitrogeno-ureico-sangre-bun",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Magnesio sérico",
+        "slug": "magnesio-serico",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Calcio sérico",
+        "slug": "calcio-serico",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Recuento de plaquetas",
+        "slug": "recuento-de-plaquetas",
+        "effect": "Puede disminuir"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Niveles séricos de amikacina (pico y valle)",
+        "slug": "niveles-sericos-amikacina",
+        "reason": "Para ajustar la dosis y minimizar el riesgo de toxicidad, asegurando eficacia."
+      },
+      {
+        "name": "Creatinina sérica y TFG",
+        "slug": "creatinina-y-tfg",
+        "reason": "Para monitorear la función renal antes y durante el tratamiento, ya que el medicamento puede dañarla."
+      },
+      {
+        "name": "Audiometría",
+        "slug": "audiometria",
+        "reason": "Para detectar tempranamente cualquier pérdida auditiva causada por el medicamento (ototoxicidad)."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve la amikacina?",
+      "a": "Sirve para tratar infecciones graves causadas por bacterias, especialmente cuando otros antibióticos no funcionan. Se usa en neumonías complicadas, infecciones en la sangre (sepsis), del riñón, del abdomen y en pacientes con defensas muy bajas."
+    },
+    {
+      "q": "¿La amikacina es inyectable o en pastillas?",
+      "a": "La amikacina solo viene en forma inyectable (ampolletas). Se administra por medio de una inyección intramuscular profunda o por una vena (infusión intravenosa lenta). No existe en tabletas o jarabe."
+    },
+    {
+      "q": "¿Cuáles son los efectos secundarios más comunes?",
+      "a": "Los más importantes y de los que hay que estar alerta son: daño a los riñones (se nota si orina menos) y daño al oído (zumbidos, mareo o pérdida de audición). También puede causar dolor donde se pone la inyección, náuseas o salpullido."
+    },
+    {
+      "q": "¿La amikacina daña los riñones?",
+      "a": "Sí, la amikacina puede causar daño a los riñones (nefrotoxicidad), especialmente si se usa por mucho tiempo, en dosis altas, o si la persona ya tiene problemas renales. Por eso se hacen análisis de sangre frecuentes para vigilar la función renal durante el tratamiento."
+    },
+    {
+      "q": "¿Puede la amikacina causar sordera?",
+      "a": "Sí, es uno de sus efectos adversos más graves. Puede dañar los nervios del oído interno, causando zumbidos (tinnitus), mareos por afectar el equilibrio (vértigo) o pérdida de audición que a veces es permanente. Informe cualquier cambio en su audición de inmediato."
+    },
+    {
+      "q": "¿Cuánto tiempo dura un tratamiento con amikacina?",
+      "a": "La duración depende de la infección. Para infecciones graves, suele ser de 7 a 14 días, pero puede ser más corto o más largo. Es crucial completar TODO el tratamiento indicado por el médico, aunque usted ya se sienta mejor."
+    },
+    {
+      "q": "¿Se puede tomar alcohol durante el tratamiento con amikacina?",
+      "a": "No se recomienda. El alcohol puede deshidratarlo y potencialmente empeorar el riesgo de daño renal. Además, si está enfermo con una infección grave, su cuerpo necesita descansar y recuperarse, no procesar alcohol."
+    },
+    {
+      "q": "¿La amikacina se puede usar en niños?",
+      "a": "Sí, se puede usar en niños y hasta en recién nacidos para infecciones graves, pero la dosis se calcula con mucho cuidado según el peso del niño. El monitoreo con análisis de sangre es aún más importante en pediatría."
+    },
+    {
+      "q": "¿Qué debo hacer si olvido una dosis?",
+      "a": "Como generalmente se administra en un hospital o clínica, es poco común que el paciente la olvide. Si es un tratamiento ambulatorio con inyecciones programadas, contacte a su médico o clínica de inmediato para que le indiquen cuándo poner la siguiente dosis. Nunca se ponga una dosis doble."
+    },
+    {
+      "q": "¿La amikacina baja las defensas?",
+      "a": "No, la amikacina es un antibiótico que mata bacterias. No baja directamente las defensas (sistema inmune). De hecho, se usa precisamente en personas cuyas defensas ya están bajas (por cáncer, quimioterapia, etc.) para tratar sus infecciones."
+    },
+    {
+      "q": "¿Interactúa la amikacina con otros medicamentos?",
+      "a": "Sí, de manera importante. Interactúa con diuréticos como la furosemida (aumentan riesgo de sordera), con otros medicamentos que dañan el riñón, y con relajantes musculares (puede causar parálisis respiratoria). Informe a su médico TODOS los medicamentos que toma."
+    },
+    {
+      "q": "¿Es seguro usar amikacina en el embarazo?",
+      "a": "Generalmente NO. Está en categoría D, lo que significa que puede causar daño al feto, especialmente a su audición. Solo se usa en embarazadas si la infección es tan grave que pone en peligro la vida de la madre y no hay otra alternativa más segura."
+    },
+    {
+      "q": "¿Puedo amamantar si me están tratando con amikacina?",
+      "a": "No es lo recomendable. La amikacina pasa a la leche materna en pequeñas cantidades. Debido al riesgo potencial de efectos en el bebé, usualmente se sugiere suspender la lactancia durante el tratamiento. Consulte a su médico para valorar su caso específico."
+    },
+    {
+      "q": "¿Por qué me piden tantos análisis de sangre con este medicamento?",
+      "a": "Por dos razones principales: 1) Para medir los niveles del medicamento en su sangre (nivel 'pico' y 'valle') y así ajustar la dosis para que sea efectiva pero no tóxica. 2) Para vigilar la función de sus riñones (creatinina) antes y durante el tratamiento."
+    },
+    {
+      "q": "¿Qué es la ototoxicidad?",
+      "a": "Es el término médico para el daño que ciertos medicamentos, como la amikacina, pueden causar en el oído interno. Afecta la audición (parte coclear) y/o el equilibrio (parte vestibular). Puede ser temporal o permanente."
+    },
+    {
+      "q": "¿Qué significa que es un 'antibiótico de reserva'?",
+      "a": "Significa que no es el primer antibiótico que se elige para una infección común. Se guarda para usarse en infecciones graves causadas por bacterias que son resistentes a los antibióticos más comunes, para así preservar su efectividad."
+    },
+    {
+      "q": "¿La amikacina cura infecciones por hongos o virus?",
+      "a": "NO. La amikacina solo es efectiva contra infecciones causadas por ciertas BACTERIAS. No sirve para tratar resfriados, gripe (que son virales) ni infecciones por hongos como la candidiasis."
+    },
+    {
+      "q": "¿Qué es el régimen de dosis única diaria?",
+      "a": "Es una forma de administrar la amikacina donde se pone toda la dosis del día en una sola inyección o infusión, en lugar de dividirla en 2 o 3 dosis. Esto puede ser igual de efectivo y a veces menos tóxico para el riñón. Solo su médico puede decidir si es adecuado para usted."
+    },
+    {
+      "q": "¿Cómo se ajusta la dosis en una persona con diabetes o hipertensión?",
+      "a": "La diabetes o hipertensión por sí mismas no cambian la dosis. Sin embargo, estas enfermedades a largo plazo pueden haber dañado los riñones. Por eso, es esencial que el médico evalúe la función renal (con creatinina y TFG) ANTES de calcular la dosis, y la ajuste si es necesario."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre amikacina, gentamicina y tobramicina?",
+      "a": "Los tres son aminoglucósidos. La gentamicina es la más usada y económica. La tobramicina es mejor contra la bacteria Pseudomonas en pulmones de pacientes con fibrosis quística. La AMIKACINA es la más resistente a las enzimas que las bacterias usan para defenderse, por lo que se usa cuando hay sospecha de resistencia a los otros dos, o en infecciones hospitalarias muy graves."
+    }
+  ]
+}

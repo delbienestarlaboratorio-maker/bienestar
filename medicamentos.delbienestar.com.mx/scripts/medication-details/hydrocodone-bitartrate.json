@@ -1,0 +1,485 @@
+{
+  "name": "Hidrocodona Bitartrato",
+  "summary": "La hidrocodona bitartrato es un medicamento analgésico opioide semisintético derivado de la codeína, utilizado para el manejo de dolor moderado a severo cuando otros analgésicos no opioides no son suficientes. Actúa en el sistema nervioso central para reducir la percepción del dolor y modificar la respuesta emocional al mismo. Es un medicamento de importancia clínica crucial en el tratamiento del dolor oncológico, postoperatorio y en condiciones crónicas debilitantes, pero su uso está estrictamente regulado en México debido a su alto potencial de abuso, dependencia y efectos adversos graves como depresión respiratoria. Siempre debe usarse bajo supervisión médica estrecha y por el menor tiempo posible, ya que forma parte de los medicamentos controlados de la Fracción I en nuestro país.",
+  "pharmacology": {
+    "mechanismOfAction": "La hidrocodona ejerce su efecto analgésico principalmente como agonista de los receptores mu (μ) opioides en el sistema nervioso central, especialmente en el cerebro y la médula espinal. Al unirse a estos receptores, inhibe la liberación de neurotransmisores como la sustancia P, lo que reduce la transmisión de señales de dolor hacia el cerebro. Además, activa vías descendentes inhibitorias que modulan la percepción del dolor a nivel del tálamo y la corteza cerebral. Este mecanismo dual no solo disminuye la intensidad del dolor, sino que también altera la respuesta emocional y afectiva al mismo, proporcionando una sensación de bienestar o euforia que contribuye a su potencial de abuso.",
+    "pharmacologicClass": "Agonista opioide semisintético; Derivado fenantrénico del opio; Alcaloide del opio",
+    "therapeuticClass": "Analgésico narcótico; Antitusígeno (en algunas formulaciones)",
+    "absorption": "Se absorbe bien por vía oral, con una biodisponibilidad aproximada del 60-80% después de administración oral. La presencia de alimentos puede retrasar ligeramente la absorción pero no afecta significativamente la biodisponibilidad total. El inicio de acción ocurre generalmente entre 20-30 minutos después de la ingestión.",
+    "distribution": "Se distribuye ampliamente en los tejidos corporales. El volumen de distribución es de aproximadamente 3-4 L/kg. Se une moderadamente a proteínas plasmáticas (alrededor del 36%). Cruza la barrera hematoencefálica y la placenta.",
+    "metabolism": "Se metaboliza extensamente en el hígado principalmente por la enzima CYP2D6 (citocromo P450 2D6) a hidromorfona (metabolito activo) y por CYP3A4 a norhidrocodona (metabolito menos activo). La actividad de CYP2D6 es polimórfica, lo que causa variabilidad en la respuesta entre pacientes (metabolizadores rápidos vs. lentos).",
+    "elimination": "La vida media de eliminación es de aproximadamente 3.8-4.5 horas. Se elimina principalmente por vía renal (65-70%) como metabolitos conjugados y solo un 10-15% como fármaco sin cambios. Una pequeña porción se elimina en heces.",
+    "onsetOfAction": "20-30 minutos después de administración oral",
+    "durationOfAction": "4-6 horas para formulaciones de liberación inmediata; 8-12 horas para formulaciones de liberación prolongada"
+  },
+  "indications": {
+    "approved": [
+      "Dolor moderado a severo agudo (postoperatorio, trauma)",
+      "Dolor moderado a severo crónico (cuando otros tratamientos son inadecuados)",
+      "Dolor oncológico",
+      "Como antitusígeno en formulaciones combinadas (con antihistamínicos o descongestionantes)"
+    ],
+    "offLabel": [
+      "Tos refractaria en pacientes terminales",
+      "Dolor neuropático refractario (en combinación con otros fármacos)",
+      "Dispnea en enfermedad pulmonar obstructiva crónica (EPOC) terminal",
+      "Síndrome de piernas inquietas severo"
+    ]
+  },
+  "dosage": {
+    "adults": "Para dolor: Iniciar con 5-10 mg cada 4-6 horas según necesidad. Dosis máxima inicial recomendada: 40 mg/día. Para pacientes opioide-naive: comenzar con 5 mg cada 6 horas. Para tos: 5 mg cada 4-6 horas según necesidad (máximo 4 dosis en 24 horas).",
+    "pediatric": "NO recomendado en menores de 18 años para analgesia. Para tos en formulaciones combinadas: 0.6 mg/kg/día dividido en 3-4 dosis (solo bajo estricta supervisión médica y en mayores de 6 años).",
+    "elderly": "Iniciar con 2.5-5 mg cada 6-8 horas (50% de la dosis adulta) debido a disminución del aclaramiento y mayor sensibilidad. Ajustar lentamente según respuesta y tolerancia.",
+    "renalImpairment": "TFG 30-50 mL/min: reducir dosis en 25-50%. TFG 10-30 mL/min: reducir dosis en 50-75%. TFG <10 mL/min o diálisis: evitar o usar con extrema precaución (25% de dosis inicial).",
+    "hepaticImpairment": "Insuficiencia hepática leve (Child-Pugh A): reducir dosis en 25-50%. Insuficiencia hepática moderada-severa (Child-Pugh B o C): evitar o usar dosis mínimas con monitoreo estrecho.",
+    "maxDose": "Dosis máxima diaria: 80 mg en pacientes tolerantes. Sin embargo, la dosis debe individualizarse y el límite superior no está claramente definido en pacientes con tolerancia desarrollada."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "5 mg",
+        "7.5 mg",
+        "10 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tableta de liberación prolongada",
+      "strengths": [
+        "10 mg",
+        "15 mg",
+        "20 mg",
+        "30 mg",
+        "40 mg",
+        "50 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Cápsula",
+      "strengths": [
+        "5 mg",
+        "10 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Jarabe/Elixir",
+      "strengths": [
+        "5 mg/5 mL",
+        "10 mg/5 mL"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad a hidrocodona u otros opioides",
+      "Depresión respiratoria significativa",
+      "Asma bronquial aguda severa",
+      "Obstrucción intestinal paralítica",
+      "Uso concomitante con IMAOs o dentro de 14 días después de su suspensión",
+      "Hipercapnia significativa"
+    ],
+    "relative": [
+      "Lesión cerebral traumática o hipertensión intracraneal",
+      "Convulsiones o trastornos convulsivos",
+      "Arritmias cardiacas",
+      "Hipotiroidismo o insuficiencia suprarrenal",
+      "Hipertrofia prostática o estenosis uretral",
+      "Enfermedad inflamatoria intestinal",
+      "Insuficiencia hepática o renal moderada-severa",
+      "Historial de abuso de sustancias",
+      "Edad avanzada o estado debilitado",
+      "Embarazo (especialmente cerca del término)"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Náuseas (40-50%)",
+      "Vómitos (30-40%)",
+      "Estreñimiento (40-50%)",
+      "Somnolencia/sedación (30-40%)",
+      "Mareos/aturdimiento (20-30%)",
+      "Prurito (picazón) (15-25%)"
+    ],
+    "common": [
+      "Boca seca (10-15%)",
+      "Cefalea (5-10%)",
+      "Diaforesis (sudoración) (5-10%)",
+      "Confusión leve (5-10%)",
+      "Retención urinaria (5-10%)",
+      "Visión borrosa (3-8%)"
+    ],
+    "uncommon": [
+      "Cambios de humor (euforia/disforia)",
+      "Alucinaciones",
+      "Pesadillas",
+      "Temblor",
+      "Palpitaciones",
+      "Hipotensión ortostática",
+      "Espasmos biliares",
+      "Disminución de la libido"
+    ],
+    "rare": [
+      "Depresión respiratoria grave",
+      "Convulsiones",
+      "Síndrome serotoninérgico (con otros serotonérgicos)",
+      "Reacciones alérgicas severas (anafilaxia)",
+      "Dependencia física y psicológica",
+      "Síndrome de abstinencia neonatal",
+      "Rabdomiólisis"
+    ],
+    "blackBoxWarning": "ADVERTENCIA: Riesgo de depresión respiratoria grave o mortal, especialmente durante la iniciación o aumento de dosis. Riesgo de uso indebido, abuso y adicción que puede llevar a sobredosis y muerte. Riesgo de exposición accidental e ingestión por niños. Interacción con benzodiacepinas u otros depresores del SNC que aumenta riesgo de sedación profunda, depresión respiratoria, coma y muerte."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Benzodiacepinas (diazepam, alprazolam)",
+        "effect": "Depresión respiratoria y del SNC aditiva, riesgo de coma y muerte",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Alcohol etílico",
+        "effect": "Potenciación de efectos depresores del SNC, riesgo de depresión respiratoria fatal",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores de CYP3A4 (ketoconazol, claritromicina)",
+        "effect": "Aumento significativo de niveles de hidrocodona, riesgo de toxicidad",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores de CYP2D6 (fluoxetina, paroxetina)",
+        "effect": "Disminución de formación de hidromorfona (metabolito activo), posible reducción de efecto analgésico",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inductores de CYP3A4 (rifampicina, carbamazepina)",
+        "effect": "Disminución de niveles de hidrocodona, posible pérdida de efecto analgésico",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Otros opioides",
+        "effect": "Efectos aditivos con mayor riesgo de depresión respiratoria",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Antidepresivos ISRS/IRSN",
+        "effect": "Riesgo de síndrome serotoninérgico",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Relajantes musculares (ciclobenzaprina)",
+        "effect": "Potenciación de efectos depresores del SNC",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Los alimentos grasos pueden aumentar ligeramente la absorción pero no se recomienda tomar con alcohol bajo ninguna circunstancia. El jugo de toronja (pomelo) inhibe CYP3A4 y puede aumentar significativamente los niveles de hidrocodona, por lo que debe evitarse.",
+    "withSupplements": "Hierba de San Juan (hipérico) puede disminuir los niveles por inducción enzimática. Kava y valeriana pueden potenciar efectos sedantes. Suplementos con L-triptófano o 5-HTP pueden aumentar riesgo de síndrome serotoninérgico."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA C (primer y segundo trimestre) / D (tercer trimestre)",
+      "recommendation": "Solo usar si beneficio justifica riesgo potencial. Uso prolongado en el tercer trimestre puede causar síndrome de abstinencia neonatal (NAS) que requiere manejo hospitalario. Evitar uso cerca del parto por riesgo de depresión respiratoria neonatal.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La hidrocodona se excreta en leche materna en cantidades clínicamente significativas. Puede causar sedación, dificultad para alimentarse y depresión respiratoria en el lactante. Se recomienda evitar durante la lactancia o usar con extrema precaución y monitoreo del bebé. Considerar alternativas más seguras como paracetamol o ibuprofeno.",
+    "pediatric": "No recomendado para analgesia en menores de 18 años por falta de estudios de seguridad y mayor riesgo de efectos adversos. En formulaciones antitusígenas para mayores de 6 años, usar solo bajo supervisión médica estricta y por tiempo limitado.",
+    "geriatric": "Los adultos mayores (≥65 años) son más sensibles a efectos adversos, especialmente sedación, confusión, estreñimiento y riesgo de caídas. Iniciar con dosis bajas (2.5-5 mg), aumentar lentamente. Monitorear función renal y hepática regularmente. Mayor riesgo de depresión respiratoria."
+  },
+  "administration": {
+    "howToTake": "Tomar exactamente como lo indica el médico, generalmente cada 4-6 horas según necesidad para el dolor. Las tabletas deben tragarse enteras con un vaso completo de agua. No triturar, masticar o partir tabletas de liberación prolongada. Puede tomarse con o sin alimentos, pero si causa malestar estomacal, tomarlo con comida. No aumentar la dosis ni frecuencia sin consultar al médico.",
+    "storage": "Almacenar a temperatura ambiente (15-30°C), en lugar seco, protegido de la luz y la humedad. Mantener en su envase original, bien cerrado y fuera del alcance de niños y mascotas. No almacenar en el baño ni cerca del lavaplatos. Desechar adecuadamente los medicamentos no utilizados o vencidos.",
+    "specialInstructions": "Nunca compartir este medicamento con otras personas aunque tengan síntomas similares. No conducir ni operar maquinaria pesada hasta conocer cómo le afecta. Informar al médico si el dolor no mejora o empeora. No suspender abruptamente después de uso prolongado (más de 2 semanas) para evitar síndrome de abstinencia."
+  },
+  "monitoring": {
+    "labTests": [
+      "Función renal (creatinina, BUN)",
+      "Función hepática (transaminasas, bilirrubina)",
+      "Conteo sanguíneo completo (CSC)",
+      "Niveles de electrolitos",
+      "Pruebas de drogas en orina (en terapia a largo plazo)"
+    ],
+    "frequency": "Evaluación inicial completa, luego cada 3-6 meses en terapia crónica, o según necesidad clínica. Monitoreo más frecuente en pacientes con comorbilidades o ajustes de dosis.",
+    "signsToWatch": [
+      "Respiración lenta o superficial (<12 respiraciones/minuto)",
+      "Somnolencia extrema o dificultad para despertar",
+      "Confusión o desorientación",
+      "Mareos intensos o desmayos",
+      "Estreñimiento severo (sin evacuación por 3 días)",
+      "Náuseas/vómitos persistentes",
+      "Hinchazón de cara/labios/lengua",
+      "Erupción cutánea o urticaria",
+      "Latidos cardiacos irregulares o rápidos",
+      "Dificultad para orinar"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Depresión respiratoria (respiración lenta, superficial o ausente)",
+      "Somnolencia extrema progresando a estupor o coma",
+      "Pupilas puntiformes (miosis)",
+      "Piel fría y húmeda",
+      "Hipotensión severa",
+      "Bradicardia (frecuencia cardiaca lenta)",
+      "Paro respiratorio y muerte"
+    ],
+    "treatment": "Manejo de soporte vital avanzado. Mantener vía aérea, ventilación asistida si es necesario. Administrar naloxona (antídoto específico) por vía intravenosa, intramuscular o intranasal. La naloxona puede requerir dosis repetidas debido a vida media más corta que la hidrocodona. Monitoreo continuo en unidad de cuidados intensivos por al menos 24 horas después de aparente recuperación.",
+    "antidote": "Naloxona (Narcan®) - Antagonista competitivo de receptores opioides"
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial controlada (receta por triplicado, color rosa)",
+    "scheduleMexico": "Fracción I - Sustancias con gran potencial de abuso y sin uso médico aceptado en México (Nota: Aunque tiene uso médico, está controlada como Fracción I por su potencial de abuso)",
+    "fdaApprovalYear": "1943 (como antitusígeno); para analgesia en diversas formulaciones desde 1970s"
+  },
+  "brandsMexico": [
+    "Hycodan®",
+    "Hycotuss®",
+    "Tussionex®",
+    "Vicodin® (combinado con paracetamol)",
+    "Lortab® (combinado con paracetamol)",
+    "Norco® (combinado con paracetamol)",
+    "Zohydro ER®",
+    "Hysingla ER®"
+  ],
+  "clinicalPearls": [
+    "La hidrocodona es un profármaco que requiere activación por CYP2D6 a hidromorfona para su efecto analgésico completo. Pacientes con genotipo CYP2D6 de metabolizador pobre pueden tener respuesta analgésica reducida.",
+    "Siempre iniciar con dosis bajas en pacientes opioide-naive y titular lentamente ('start low, go slow') para minimizar efectos adversos, especialmente en adultos mayores.",
+    "El estreñimiento inducido por opioides es dosis-dependiente y casi universal; iniciar profilaxis con laxantes (como polietilenglicol o senósidos) simultáneamente con la terapia opioide, no esperar a que aparezca.",
+    "La tolerancia a los efectos analgésicos se desarrolla más lentamente que la tolerancia a los efectos depresores respiratorios, lo que permite ajustes de dosis relativamente seguros bajo supervisión.",
+    "En México, aunque tiene indicaciones médicas, está clasificada como Fracción I junto con heroína y marihuana, lo que refleja su alto potencial de abuso y las estrictas regulaciones para su prescripción."
+  ],
+  "patientCounseling": "La hidrocodona es un medicamento muy efectivo para el dolor severo, pero debe usarse con extremo cuidado. Tómelo exactamente como se lo recetó su médico, nunca en mayor cantidad ni con más frecuencia. No lo comparta con nadie, aunque tengan síntomas similares. Este medicamento puede causar somnolencia y mareos, por lo que no debe conducir ni operar maquinaria hasta saber cómo le afecta. Evite completamente el alcohol mientras esté tomando hidrocodona, ya que la combinación puede ser mortal. Si presenta respiración lenta o superficial, dificultad para despertar, confusión severa o mareos intensos, busque atención médica inmediata. Para prevenir el estreñimiento, aumente el consumo de fibra, tome abundantes líquidos y considere usar un laxante suave. Si necesita suspender el tratamiento después de usarlo por más de dos semanas, consulte a su médico para una reducción gradual de la dosis y evitar síntomas de abstinencia. Guarde el medicamento en un lugar seguro, fuera del alcance de niños y mascotas.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor moderado a severo",
+        "slug": "dolor-moderado-a-severo"
+      },
+      {
+        "name": "Dolor agudo",
+        "slug": "dolor-agudo"
+      },
+      {
+        "name": "Dolor cronico",
+        "slug": "dolor-cronico"
+      },
+      {
+        "name": "Dolor oncologico",
+        "slug": "dolor-oncologico"
+      },
+      {
+        "name": "Dolor postoperatorio",
+        "slug": "dolor-postoperatorio"
+      },
+      {
+        "name": "Tos persistente",
+        "slug": "tos-persistente"
+      },
+      {
+        "name": "Tos refractaria",
+        "slug": "tos-refractaria"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Cancer con dolor",
+        "slug": "cancer-con-dolor"
+      },
+      {
+        "name": "Osteoartritis severa",
+        "slug": "osteoartritis-severa"
+      },
+      {
+        "name": "Dolor neuropatico refractario",
+        "slug": "dolor-neuropatico-refractario"
+      },
+      {
+        "name": "Traumatismo severo",
+        "slug": "traumatismo-severo"
+      },
+      {
+        "name": "Enfermedad pulmonar obstructiva cronica terminal",
+        "slug": "epoc-terminal"
+      },
+      {
+        "name": "Cirugia mayor",
+        "slug": "cirugia-mayor"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Dependencia a opioides",
+        "slug": "dependencia-a-opioides"
+      },
+      {
+        "name": "Depresion respiratoria",
+        "slug": "depresion-respiratoria"
+      },
+      {
+        "name": "Estrenimiento cronico",
+        "slug": "estrenimiento-cronico"
+      },
+      {
+        "name": "Sindrome de abstinencia neonatal",
+        "slug": "sindrome-abstinencia-neonatal"
+      },
+      {
+        "name": "Sindrome serotoninergico",
+        "slug": "sindrome-serotoninergico"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Frecuencia respiratoria",
+        "slug": "frecuencia-respiratoria",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Presion arterial",
+        "slug": "presion-arterial",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Frecuencia cardiaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Nivel de conciencia",
+        "slug": "nivel-conciencia",
+        "effect": "Puede alterar"
+      },
+      {
+        "name": "Transaminasas hepaticas",
+        "slug": "transaminasas-hepaticas",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Creatinina serica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Pruebas de funcion renal",
+        "slug": "pruebas-funcion-renal",
+        "reason": "Monitorear eliminacion del medicamento y prevenir acumulacion"
+      },
+      {
+        "name": "Pruebas de funcion hepatica",
+        "slug": "pruebas-funcion-hepatica",
+        "reason": "Evaluar metabolismo y detectar toxicidad temprana"
+      },
+      {
+        "name": "Conteo sanguineo completo",
+        "slug": "conteo-sanguineo-completo",
+        "reason": "Monitorear efectos hematologicos"
+      },
+      {
+        "name": "Prueba de drogas en orina",
+        "slug": "prueba-drogas-orina",
+        "reason": "Verificar cumplimiento y detectar uso de otras sustancias"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediatrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de eGFR",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve la hidrocodona?",
+      "a": "La hidrocodona es un medicamento opioide que sirve principalmente para aliviar el dolor moderado a severo cuando otros analgésicos más suaves no son suficientes. También se usa en algunas formulaciones combinadas para tratar la tos persistente y rebelde que no responde a otros tratamientos."
+    },
+    {
+      "q": "¿La hidrocodona es lo mismo que la codeína?",
+      "a": "No exactamente. La hidrocodona es un derivado semisintético de la codeína, pero es aproximadamente 6-8 veces más potente. Ambas son opioides, pero la hidrocodona tiene mayor potencia analgésica y diferente perfil de efectos secundarios."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto la hidrocodona?",
+      "a": "Cuando se toma por vía oral, la hidrocodona generalmente comienza a hacer efecto entre 20 y 30 minutos después de la ingestión. El efecto máximo se alcanza aproximadamente entre 1 y 2 horas después de tomarla."
+    },
+    {
+      "q": "¿Puedo tomar hidrocodona si estoy tomando paracetamol (acetaminofén)?",
+      "a": "Sí, de hecho muchas formulaciones de hidrocodona vienen combinadas con paracetamol (como Vicodin® o Norco®). Sin embargo, debe tener cuidado de no exceder la dosis máxima diaria de paracetamol (4,000 mg para adultos), ya que el exceso puede causar daño hepático grave."
+    },
+    {
+      "q": "¿La hidrocodona causa adicción?",
+      "a": "Sí, la hidrocodona tiene un alto potencial de causar dependencia física y psicológica, especialmente cuando se usa por períodos prolongados o en dosis más altas de las recomendadas. Por esta razón en México se requiere receta especial controlada y debe usarse solo bajo estricta supervisión médica."
+    },
+    {
+      "q": "¿Qué hago si olvidé una dosis de hidrocodona?",
+      "a": "Si olvidó una dosis y es casi hora de la siguiente, omita la dosis olvidada y continúe con su horario regular. NO tome una dosis doble para compensar la olvidada. Si el dolor regresa, comuníquese con su médico para recibir instrucciones."
+    },
+    {
+      "q": "¿Puedo tomar alcohol mientras uso hidrocodona?",
+      "a": "ABSOLUTAMENTE NO. La combinación de hidrocodona con alcohol es extremadamente peligrosa y puede causar depresión respiratoria severa, coma e incluso la muerte. Evite completamente el alcohol durante todo el tratamiento con hidrocodona."
+    },
+    {
+      "q": "¿La hidrocodona me dará sueño?",
+      "a": "Sí, la somnolencia es un efecto secundario muy común de la hidrocodona, especialmente al inicio del tratamiento o cuando se aumenta la dosis. No conduzca, opere maquinaria ni realice actividades que requieran alerta hasta que sepa cómo le afecta el medicamento."
+    },
+    {
+      "q": "¿Qué puedo hacer para el estreñimiento causado por hidrocodona?",
+      "a": "El estreñimiento es casi inevitable con opioides. Para prevenirlo: aumente el consumo de fibra (frutas, verduras, cereales integrales), tome 8-10 vasos de agua al día, haga ejercicio regularmente si es posible, y considere usar un laxante suave como polietilenglicol o senósidos desde el inicio del tratamiento."
+    },
+    {
+      "q": "¿Puedo tomar hidrocodona durante el embarazo?",
+      "a": "Solo si su médico determina que el beneficio justifica el riesgo. El uso prolongado en el tercer trimestre puede causar síndrome de abstinencia en el recién nacido. Evítela cerca de la fecha de parto por riesgo de depresión respiratoria neonatal."
+    },
+    {
+      "q": "¿La hidrocodona es segura para adultos mayores?",
+      "a": "Los adultos mayores son más sensibles a los efectos de la hidrocodona. Generalmente se inicia con dosis más bajas (2.5-5 mg) y se aumenta lentamente. Hay mayor riesgo de confusión, caídas, estreñimiento severo y depresión respiratoria."
+    },
+    {
+      "q": "¿Cuánto tiempo puedo tomar hidrocodona de forma segura?",
+      "a": "Para dolor agudo (como postoperatorio), generalmente se usa por 3-7 días. Para dolor crónico, el tratamiento puede ser más prolongado pero requiere reevaluación periódica. El objetivo es usar la menor dosis efectiva por el menor tiempo posible para minimizar riesgos."
+    },
+    {
+      "q": "¿Qué debo hacer si tomo demasiada hidrocodona por accidente?",
+      "a": "Si toma una sobredosis accidental, busque atención médica inmediata o llame al 911. Los síntomas incluyen respiración lenta o superficial, somnolencia extrema, dificultad para despertar, piel fría y húmeda, y pupilas muy pequeñas."
+    },
+    {
+      "q": "¿Puedo dejar de tomar hidrocodona abruptamente después de usarla por varias semanas?",
+      "a": "NO. Suspender abruptamente la hidrocodona después de uso prolongado (más de 2 semanas) puede causar síntomas de abstinencia como ansiedad, insomnio, náuseas, dolor muscular y escalofríos. Debe reducir la dosis gradualmente bajo supervisión médica."
+    },
+    {
+      "q": "¿La hidrocodona interactúa con otros medicamentos comunes?",
+      "a": "Sí, interactúa con muchos medicamentos. Es especialmente peligrosa con benzodiacepinas (como alprazolam), alcohol, otros opioides, y algunos antidepresivos. Informe a su médico TODOS los medicamentos que toma, incluyendo hierbas y suplementos."
+    },
+    {
+      "q": "¿Por qué en México la hidrocodona requiere receta especial (color rosa)?",
+      "a": "Porque en México está clasificada como Fracción I, junto con sustancias como la heroína, debido a su alto potencial de abuso, dependencia y riesgos para la salud. La receta rosa (por triplicado) permite un control y trazabilidad más estricta de estos medicamentos."
+    },
+    {
+      "q": "¿Qué es el síndrome serotoninérgico y cómo se relaciona con hidrocodona?",
+      "a": "El síndrome serotoninérgico es una reacción potencialmente mortal que ocurre cuando hay exceso de serotonina en el cerebro. La hidrocodona, especialmente combinada con antidepresivos ISRS/IRSN, puede desencadenarlo. Los síntomas incluyen agitación, confusión, frecuencia cardiaca rápida, fiebre alta y rigidez muscular."
+    },
+    {
+      "q": "¿Cómo afecta la hidrocodona a personas con problemas renales o hepáticos?",
+      "a": "En insuficiencia renal, la hidrocodona y sus metabolitos pueden acumularse, aumentando el riesgo de toxicidad. En insuficiencia hepática, el metabolismo se reduce, también aumentando los niveles sanguíneos. En ambos casos se requieren dosis más bajas y monitoreo estrecho."
+    },
+    {
+      "q": "¿Qué es la tolerancia a los opioides y cómo afecta el tratamiento con hidrocodona?",
+      "a": "La tolerancia es cuando el cuerpo se acostumbra al medicamento, requiriendo dosis más altas para lograr el mismo efecto analgésico. Con hidrocodona, la tolerancia se desarrolla a diferentes velocidades para distintos efectos: más rápido para la euforia y náuseas, más lento para el alivio del dolor y el estreñimiento."
+    },
+    {
+      "q": "¿Qué papel juega la enzima CYP2D6 en la efectividad de la hidrocodona y por qué algunos pacientes no responden bien?",
+      "a": "La hidrocodona es un profármaco que requiere ser metabolizada por la enzima CYP2D6 a hidromorfona (su forma activa). Aproximadamente 7-10% de la población mexicana son 'metabolizadores pobres' de CYP2D6, por lo que convierten menos hidrocodona a su forma activa, obteniendo menor alivio del dolor. Por el contrario, los 'metabolizadores ultrarrápidos' pueden convertirla demasiado rápido, aumentando el riesgo de efectos adversos."
+    }
+  ]
+}

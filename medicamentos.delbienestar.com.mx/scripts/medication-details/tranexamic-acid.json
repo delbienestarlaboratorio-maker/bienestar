@@ -1,0 +1,417 @@
+{
+  "name": "Ácido Tranexámico",
+  "summary": "El ácido tranexámico es un medicamento que ayuda a detener o reducir el sangrado excesivo. Funciona bloqueando una sustancia natural en el cuerpo (plasmina) que disuelve los coágulos de sangre, lo que permite que los coágulos se mantengan y detengan la hemorragia. Es un fármaco de gran importancia clínica porque se usa para tratar y prevenir el sangrado en diversas situaciones, desde hemorragias menstruales abundantes (menorragia) hasta sangrados graves después de cirugías, traumatismos o en pacientes con trastornos de la coagulación. Su capacidad para estabilizar los coágulos lo hace una herramienta valiosa en medicina de emergencia, ginecología, odontología y cirugía, ayudando a reducir la necesidad de transfusiones de sangre y sus riesgos asociados. Es un tratamiento seguro y eficaz cuando se usa bajo supervisión médica, aunque requiere precaución en personas con riesgo de formar coágulos peligrosos (trombosis).",
+  "pharmacology": {
+    "mechanismOfAction": "El ácido tranexámico es un análogo sintético del aminoácido lisina. Su mecanismo de acción principal es inhibir de manera competitiva y reversible la activación del plasminógeno a plasmina, que es la enzima principal responsable de degradar la fibrina (el componente principal de los coágulos de sangre). Al unirse a los sitios de unión de la lisina en el plasminógeno, impide que este se una a la fibrina, bloqueando así la fibrinólisis (disolución de coágulos). En dosis más altas, también puede inhibir directamente la actividad de la plasmina ya formada. Este efecto antifibrinolítico estabiliza los coágulos de fibrina que se forman en los vasos sanguíneos dañados, previniendo su degradación prematura y reduciendo o deteniendo el sangrado. No tiene efecto sobre la síntesis de factores de coagulación ni sobre la agregación plaquetaria.",
+    "pharmacologicClass": "Antifibrinolítico. Análogo sintético del aminoácido lisina.",
+    "therapeuticClass": "Agente hemostático sistémico. Antianémico y hematológico (agente que reduce la pérdida de sangre).",
+    "absorption": "Se absorbe bien por vía oral. La biodisponibilidad oral es de aproximadamente 30-50%. Las concentraciones máximas en plasma (Cmax) se alcanzan entre 2 y 3 horas después de la administración oral. La absorción no se ve significativamente afectada por los alimentos.",
+    "distribution": "Se distribuye ampliamente en los tejidos y fluidos corporales. El volumen de distribución (Vd) es de aproximadamente 9-12 litros. Atraviesa la barrera placentaria y se distribuye en la leche materna. Su unión a proteínas plasmáticas es baja, menor al 3%.",
+    "metabolism": "El metabolismo es mínimo. Una pequeña fracción se metaboliza en el hígado, pero no es un sustrato significativo de las enzimas del citocromo P450 (CYP). No se conocen metabolitos activos clínicamente relevantes.",
+    "elimination": "Se elimina principalmente por vía renal, en forma inalterada (más del 95%). La vida media de eliminación en adultos con función renal normal es de aproximadamente 2 a 3 horas. En pacientes con insuficiencia renal, la vida media se prolonga significativamente.",
+    "onsetOfAction": "El inicio de acción es rápido. Tras administración intravenosa, el efecto antifibrinolítico es casi inmediato. Por vía oral, el efecto comienza a notarse en 1-3 horas.",
+    "durationOfAction": "La duración del efecto antifibrinolítico es de aproximadamente 6 a 8 horas después de una dosis oral, lo que justifica la administración cada 8 horas en muchos esquemas. Los niveles terapéuticos en tejidos como el endometrio o la próstata pueden persistir por más tiempo."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento y prevención del sangrado excesivo en pacientes con hemofilia durante y después de extracciones dentales.",
+      "Menorragia (sangrado menstrual abundante).",
+      "Prevención de la hemorragia perioperatoria en cirugía cardíaca con circulación extracorpórea.",
+      "Prevención de la hemorragia en cirugía ortopédica mayor (ej. reemplazo de cadera o rodilla).",
+      "Tratamiento de la hemorragia postparto (HPP) cuando el sangrado no responde a uterotónicos.",
+      "Hemorragia gastrointestinal aguda (como coadyuvante).",
+      "Epistaxis (sangrado nasal) recurrente o severa.",
+      "Angioedema hereditario (para reducir la frecuencia y severidad de los ataques)."
+    ],
+    "offLabel": [
+      "Reducción del sangrado en cirugía plástica y reconstructiva.",
+      "Control de sangrado en pacientes con trombocitopenia.",
+      "Hemorragia alveolar en pacientes con vasculitis.",
+      "Sangrado asociado a neoplasias ginecológicas.",
+      "Prevención de resangrado en hemorragia subaracnoidea traumática.",
+      "Melasma (tratamiento tópico o oral para manchas en la piel)."
+    ]
+  },
+  "dosage": {
+    "adults": "Vía Oral (Menorragia): 1300 mg (dos tabletas de 650 mg) tres veces al día (3900 mg/día) durante un máximo de 5 días durante la menstruación. Otras hemorragias: 15-25 mg/kg de peso corporal cada 8-12 horas. Vía Intravenosa (Hemorragia postparto): 1 gramo en infusión lenta (mínimo 10 minutos), puede repetirse a los 30 minutos si es necesario. Cirugía: Dosis de carga de 10-15 mg/kg seguida de infusión continua de 1-5 mg/kg/hora, o 10 mg/kg cada 6-8 horas.",
+    "pediatric": "Dosis basada en peso corporal. Hemorragia: 15-25 mg/kg/dosis por vía oral o intravenosa cada 8-12 horas. Dosis máxima pediátrica similar a la de adultos. En neonatos y lactantes, usar con extrema precaución y bajo estricta supervisión médica.",
+    "elderly": "Los pacientes de edad avanzada pueden tener función renal disminuida. Se recomienda iniciar con la dosis más baja efectiva y ajustar según la función renal (TFG). Monitorear función renal.",
+    "renalImpairment": "Ajuste obligatorio. TFG >50 mL/min: Dosis estándar. TFG 30-50 mL/min: Reducir dosis a 10-15 mg/kg cada 12 horas. TFG 10-30 mL/min: Reducir dosis a 10-15 mg/kg cada 24 horas. TFG <10 mL/min o diálisis: 10-15 mg/kg cada 48 horas. Se puede administrar después de la sesión de diálisis.",
+    "hepaticImpairment": "No se requiere ajuste de dosis específico, ya que el metabolismo hepático es mínimo. Sin embargo, usar con precaución en insuficiencia hepática grave debido al riesgo de coagulopatía y posible acumulación.",
+    "maxDose": "La dosis máxima diaria oral para menorragia es de 3900 mg/día (650 mg cada 8 horas). En otras indicaciones IV, la dosis total diaria no debe exceder los 4-6 gramos, dependiendo de la indicación y el peso."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "500 mg",
+        "650 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tableta recubierta",
+      "strengths": [
+        "500 mg",
+        "650 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Solución inyectable (ampolla)",
+      "strengths": [
+        "500 mg/5 mL",
+        "1000 mg/10 mL"
+      ],
+      "route": "Intravenosa lenta"
+    },
+    {
+      "form": "Crema o gel tópico",
+      "strengths": [
+        "5%"
+      ],
+      "route": "Tópica"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al ácido tranexámico o a cualquier componente de la formulación.",
+      "Historia de trombosis activa o enfermedad tromboembólica (ej. trombosis venosa profunda, embolia pulmonar, infarto cerebral).",
+      "Coagulación intravascular diseminada (CID) a menos que se use junto con heparina.",
+      "Hemorragia subaracnoidea (por riesgo de vasoespasmo cerebral).",
+      "Insuficiencia renal grave (anuria) debido al alto riesgo de acumulación y toxicidad."
+    ],
+    "relative": [
+      "Historia previa de trombosis.",
+      "Riesgo tromboembólico alto (ej. inmovilización, cáncer activo, trombofilia hereditaria).",
+      "Insuficiencia renal moderada (requiere ajuste de dosis).",
+      "Trastornos visuales o enfermedad ocular (por riesgo de alteraciones retinales).",
+      "Uso concomitante de anticonceptivos hormonales combinados (aumenta riesgo trombótico)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Trastornos gastrointestinales leves (náusea, diarrea, dolor abdominal).",
+      "Dolor de cabeza (cefalea)."
+    ],
+    "common": [
+      "Fatiga o cansancio.",
+      "Dolor de espalda.",
+      "Congestión nasal o sinusitis.",
+      "Dolor muscular o articular.",
+      "Alteraciones visuales leves y transitorias (visión borrosa, cambios en la percepción del color)."
+    ],
+    "uncommon": [
+      "Mareo o vértigo.",
+      "Erupción cutánea o prurito (picazón).",
+      "Hipotensión (presión baja) con administración intravenosa rápida.",
+      "Trombosis venosa profunda o embolia pulmonar (especialmente en pacientes de riesgo)."
+    ],
+    "rare": [
+      "Reacciones alérgicas severas (anafilaxia).",
+      "Convulsiones (especialmente con dosis muy altas IV o en insuficiencia renal).",
+      "Necrosis retinal o alteraciones visuales permanentes (con uso prolongado a dosis altas).",
+      "Obstrucción de la vía urinaria por coágulos (en pacientes con hematuria de origen urológico)."
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Anticonceptivos hormonales combinados (estrógenos + progestina)",
+        "effect": "Aumenta significativamente el riesgo de eventos tromboembólicos (trombosis, embolia).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Agentes procoagulantes (Factor IX, Factor VIIa recombinante)",
+        "effect": "Potencial sinérgico de aumentar el riesgo de trombosis.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Heparinas o anticoagulantes orales (Warfarina, DOACs)",
+        "effect": "El ácido tranexámico puede antagonizar parcialmente el efecto anticoagulante, requiriendo un monitoreo cuidadoso. En algunos protocolos se usan juntos bajo supervisión estricta.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Puede tomarse con o sin alimentos. Tomarlo con alimentos puede ayudar a reducir las molestias gastrointestinales leves como náusea. No hay interacción significativa con alimentos específicos. Se debe evitar el consumo excesivo de alcohol, ya que puede aumentar el riesgo de sangrado gastrointestinal y potencialmente interferir con el efecto del medicamento.",
+    "withSupplements": "Precaución con suplementos que afecten la coagulación, como altas dosis de vitamina E, aceite de pescado (omega-3), ajo, ginkgo biloba, ginseng y cúrcuma, ya que podrían aumentar el riesgo de sangrado o, paradójicamente, interactuar. Consultar con el médico antes de combinarlos."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA B",
+      "recommendation": "Los estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. Su uso durante el embarazo solo debe considerarse si el beneficio potencial justifica claramente el riesgo potencial para el feto. Se usa ampliamente y es considerado seguro en el manejo de la hemorragia postparto, donde el beneficio para la madre es crítico.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "El ácido tranexámico se excreta en la leche materna, pero en concentraciones muy bajas (alrededor del 1% de la dosis materna). Se considera compatible con la lactancia materna, especialmente para tratamientos de corta duración. El riesgo para el lactante es bajo. Sin embargo, se recomienda monitorizar al bebé por posibles efectos gastrointestinales leves si la madre está en tratamiento prolongado.",
+    "pediatric": "Se puede usar en niños y adolescentes. La dosis se calcula cuidadosamente según el peso corporal. La seguridad y eficacia en neonatos y lactantes menores de 1 año no están completamente establecidas, por lo que debe usarse solo bajo estricta supervisión médica en casos donde el beneficio supere el riesgo.",
+    "geriatric": "Los pacientes mayores de 65 años tienen mayor probabilidad de tener función renal disminuida, lo que requiere ajuste de dosis. También pueden tener mayor riesgo de eventos tromboembólicos debido a comorbilidades. Se recomienda iniciar con la dosis más baja efectiva y monitorear función renal y signos de trombosis."
+  },
+  "administration": {
+    "howToTake": "Tabletas: Tragar enteras con un vaso lleno de agua (240 ml). Puede tomarse con alimentos si causa malestar estomacal. Para la menorragia, iniciar el tratamiento con el inicio del sangrado menstrual abundante, y continuar por un máximo de 5 días. No exceder la dosis ni la duración prescrita. Inyección intravenosa: Debe ser administrada por un profesional de la salud. La administración debe ser lenta (mínimo 10 minutos para 1 gramo) para evitar hipotensión y reacciones locales.",
+    "storage": "Conservar en su empaque original, a temperatura ambiente (entre 15°C y 30°C), protegido de la luz y la humedad. Mantener fuera del alcance de los niños. No usar después de la fecha de caducidad impresa. Las soluciones inyectables deben usarse inmediatamente después de abrirse, a menos que el fabricante indique lo contrario.",
+    "specialInstructions": "No triture ni mastique las tabletas. Si olvida una dosis, tómela tan pronto como lo recuerde, pero si es casi la hora de la siguiente dosis, omita la dosis olvidada y continúe con su horario regular. No duplique la dosis para compensar. Informe a su médico si va a someterse a cualquier cirugía o procedimiento dental. Este medicamento puede causar mareo o alteraciones visuales; tenga precaución al conducir o operar maquinaria hasta que conozca cómo le afecta."
+  },
+  "monitoring": {
+    "labTests": [
+      "Creatinina sérica y Tasa de Filtración Glomerular (TFG) para ajuste de dosis, especialmente al inicio y en pacientes de riesgo.",
+      "Hemograma completo (para evaluar pérdida de sangre y respuesta).",
+      "Pruebas de coagulación (TP, TTPa) si se usa con otros anticoagulantes.",
+      "Examen de orina (en pacientes con hematuria, por riesgo de obstrucción por coágulos).",
+      "Examen oftalmológico (en tratamientos prolongados >6 meses, para detectar cambios retinianos)."
+    ],
+    "frequency": "Función renal: Al inicio del tratamiento y periódicamente durante tratamientos prolongados. Hemograma: Según la indicación clínica (ej. en menorragia para evaluar anemia). Oftalmológico: Cada 6-12 meses si el tratamiento es crónico.",
+    "signsToWatch": [
+      "Signos de trombosis: Dolor, hinchazón, enrojecimiento o calor en una pierna; dificultad para respirar súbita, dolor en el pecho, tos con sangre.",
+      "Sangrado que no se detiene o empeora.",
+      "Síntomas de reacción alérgica: Erupción cutánea severa, urticaria, hinchazón de cara/labios/lengua, dificultad para respirar.",
+      "Cambios en la visión (visión borrosa, pérdida de visión, dificultad para distinguir colores).",
+      "Convulsiones o mareo intenso.",
+      "Dolor abdominal severo o sangre en las heces (negras o con sangre roja)."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Náusea, vómito, diarrea severa.",
+      "Hipotensión (presión arterial muy baja), especialmente con sobredosis IV.",
+      "Convulsiones (principalmente con altas dosis IV o en insuficiencia renal).",
+      "Alteraciones visuales graves.",
+      "Insuficiencia renal aguda por obstrucción tubular (en casos masivos)."
+    ],
+    "treatment": "No hay antídoto específico. El tratamiento es de soporte y sintomático. Suspender el medicamento inmediatamente. Medidas de soporte: Mantener vía aérea, monitorear signos vitales. Para convulsiones: Administrar benzodiacepinas (diazepam). En caso de ingestión oral reciente, puede considerarse carbón activado. La diálisis (hemodiálisis) es efectiva para eliminar el fármaco del torrente sanguíneo, especialmente en pacientes con insuficiencia renal.",
+    "antidote": "No existe un antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Medicamento de patente y genérico sujeto a prescripción).",
+    "scheduleMexico": "Fracción III (Sustancias medicinales de venta con receta médica).",
+    "fdaApprovalYear": "Aprobado por la FDA desde 1986 para indicaciones específicas. La aprobación para menorragia fue en 2009."
+  },
+  "brandsMexico": [
+    "Pridolin",
+    "Exacyl",
+    "Cyklokapron",
+    "Tranex",
+    "Hemofort",
+    "Tranexam",
+    "Fibrinotran",
+    "Amchafibrin",
+    "Tranexamic Acid (genérico de diversos laboratorios)",
+    "Tranexal",
+    "Hemostop",
+    "Tranexac",
+    "Fibrinon"
+  ],
+  "clinicalPearls": [
+    "En menorragia, es más efectivo si se inicia al comienzo del sangrado abundante, no necesariamente el primer día de la menstruación.",
+    "A diferencia de otros hemostáticos, NO promueve la formación de nuevos coágulos; solo estabiliza los coágulos que ya se formaron naturalmente, por lo que el riesgo trombótico es menor de lo que se piensa, pero existe.",
+    "Es un medicamento clave en el 'manejo de daños por control de daños' (damage control resuscitation) en trauma severo, reduciendo la mortalidad cuando se administra dentro de las primeras 3 horas del evento.",
+    "Su uso tópico (en enjuagues bucales o aplicado localmente) es muy efectivo para controlar el sangrado después de extracciones dentales en pacientes anticoagulados, con mínimo riesgo sistémico."
+  ],
+  "patientCounseling": "Este medicamento ayuda a reducir el sangrado excesivo, pero no es una cura para la causa subyacente. Tómelo exactamente como se lo recetó su médico, sin exceder la dosis ni los días indicados, especialmente para el sangrado menstrual. Es crucial que informe a todos sus médicos y dentistas que está tomando ácido tranexámico antes de cualquier procedimiento. Esté atento a señales de advertencia como dolor o hinchazón repentina en una pierna, dificultad para respirar, dolor en el pecho, cambios en la visión o sangrado que no se detiene, y busque atención médica inmediata si ocurren. Si tiene problemas renales, su dosis debe ajustarse. No lo combine con pastillas anticonceptivas que contengan estrógenos sin consultar a su ginecólogo, ya que aumenta el riesgo de coágulos. Guárdelo en un lugar seguro fuera del alcance de los niños.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Sangrado menstrual abundante",
+        "slug": "sangrado-menstrual-abundante"
+      },
+      {
+        "name": "Hemorragia nasal frecuente",
+        "slug": "hemorragia-nasal-frecuente"
+      },
+      {
+        "name": "Sangrado en las encías",
+        "slug": "sangrado-en-las-encias"
+      },
+      {
+        "name": "Sangrado prolongado por heridas",
+        "slug": "sangrado-prolongado-por-heridas"
+      },
+      {
+        "name": "Sangre en la orina (visible)",
+        "slug": "sangre-en-la-orina-visible"
+      },
+      {
+        "name": "Moretones frecuentes y grandes",
+        "slug": "moretones-frecuentes-y-grandes"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Menorragia",
+        "slug": "menorragia"
+      },
+      {
+        "name": "Hemofilia",
+        "slug": "hemofilia"
+      },
+      {
+        "name": "Angioedema hereditario",
+        "slug": "angioedema-hereditario"
+      },
+      {
+        "name": "Hemorragia postparto",
+        "slug": "hemorragia-postparto"
+      },
+      {
+        "name": "Trombocitopenia (como coadyuvante)",
+        "slug": "trombocitopenia"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Trombosis venosa profunda",
+        "slug": "trombosis-venosa-profunda"
+      },
+      {
+        "name": "Embolia pulmonar",
+        "slug": "embolia-pulmonar"
+      },
+      {
+        "name": "Accidente cerebrovascular isquémico",
+        "slug": "accidente-cerebrovascular-isquemico"
+      },
+      {
+        "name": "Obstrucción de la vía urinaria",
+        "slug": "obstruccion-de-la-via-urinaria"
+      },
+      {
+        "name": "Convulsiones",
+        "slug": "convulsiones"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Tiempo de Lisis del Coágulo",
+        "slug": "tiempo-de-lisis-del-coagulo",
+        "effect": "Puede prolongar significativamente"
+      },
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar en caso de sobredosis o insuficiencia renal"
+      },
+      {
+        "name": "Dímero D",
+        "slug": "dimero-d",
+        "effect": "Puede disminuir al inhibir la fibrinólisis"
+      },
+      {
+        "name": "Hemoglobina",
+        "slug": "hemoglobina",
+        "effect": "Puede estabilizar o aumentar al reducir la pérdida de sangre"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Biometría Hemática Completa",
+        "slug": "biometria-hematica-completa",
+        "reason": "Para evaluar anemia y respuesta al tratamiento en sangrados crónicos."
+      },
+      {
+        "name": "Creatinina y Tasa de Filtración Glomerular (TFG)",
+        "slug": "creatinina-y-tasa-de-filtracion-glomerular",
+        "reason": "Esencial para ajustar la dosis y evitar toxicidad, ya que se elimina por el riñón."
+      },
+      {
+        "name": "Examen General de Orina",
+        "slug": "examen-general-de-orina",
+        "reason": "Para detectar hematuria y monitorear riesgo de obstrucción por coágulos."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de Aclaramiento de Creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de Dosis Pediátrica por Peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve el ácido tranexámico?",
+      "a": "Sirve para reducir o detener el sangrado excesivo en diferentes situaciones, como menstruaciones muy abundantes, después de cirugías, extracciones dentales en personas con hemofilia, o en hemorragias postparto. Ayuda a que los coágulos de sangre que se forman naturalmente sean más resistentes y no se disuelvan tan rápido."
+    },
+    {
+      "q": "¿Es lo mismo que un coagulante o vitamina K?",
+      "a": "No. No es un coagulante como la vitamina K. No ayuda a *formar* coágulos nuevos, sino que *protege* los coágulos que ya se formaron para que no se deshagan fácilmente. Su mecanismo es diferente y más específico."
+    },
+    {
+      "q": "¿Cómo debo tomar las pastillas para la regla fuerte?",
+      "a": "Para el sangrado menstrual abundante, la dosis típica es 2 tabletas de 650 mg (1300 mg) tres veces al día, con un vaso de agua. Se empieza a tomar cuando el sangrado se vuelve abundante (no necesariamente el primer día) y solo por un máximo de 5 días seguidos durante cada ciclo. Siga siempre las instrucciones de su ginecólogo."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Por vía oral, comienza a hacer efecto en 1 a 3 horas después de tomarlo. El efecto máximo para reducir el sangrado suele notarse después de unas cuantas dosis. Por vía intravenosa (inyección), el efecto es casi inmediato."
+    },
+    {
+      "q": "¿Puedo tomarlo si tomo pastillas anticonceptivas?",
+      "a": "Debe informar a su médico si toma anticonceptivos que contengan estrógenos (la mayoría de las pastillas combinadas). La combinación puede aumentar el riesgo de formar coágulos peligrosos en las venas (trombosis). Su médico evaluará el riesgo-beneficio y podría sugerir un método anticonceptivo diferente durante el tratamiento."
+    },
+    {
+      "q": "¿Qué efectos secundarios son los más comunes?",
+      "a": "Los más frecuentes son leves: dolor de cabeza, malestar estomacal (náusea, diarrea), cansancio y dolor de espalda. Suelen desaparecer solos. Tomarlo con comida puede ayudar con las náuseas."
+    },
+    {
+      "q": "¿Puede causar coágulos o trombosis?",
+      "a": "El riesgo de causar un coágulo (trombosis) es bajo en personas sanas, pero existe y aumenta si usted ya tiene factores de riesgo como antecedentes de coágulos, cáncer, inmovilización, fuma o usa anticonceptivos con estrógenos. Es importante informar estos antecedentes a su médico."
+    },
+    {
+      "q": "¿Puedo tomarlo sin receta médica?",
+      "a": "No. En México es un medicamento que requiere receta médica (Fracción III). Es fundamental un diagnóstico correcto de la causa del sangrado antes de usarlo, ya que enmascarar un problema grave sin tratarlo puede ser peligroso."
+    },
+    {
+      "q": "¿Qué hago si olvido una dosis?",
+      "a": "Tómela tan pronto como lo recuerde. Pero si ya es casi la hora de la siguiente dosis, omita la que olvidó y continúe con su horario normal. Nunca duplique la dosis para compensar."
+    },
+    {
+      "q": "¿Puedo tomar alcohol mientras lo uso?",
+      "a": "Se recomienda evitar o limitar mucho el consumo de alcohol. El alcohol puede irritar el estómago y aumentar el riesgo de sangrado gastrointestinal, lo que podría contrarrestar el efecto del medicamento."
+    },
+    {
+      "q": "¿Es seguro durante el embarazo?",
+      "a": "Se clasifica como categoría B en el embarazo. Esto significa que los estudios en animales no muestran riesgo, pero en humanos hay datos limitados. Se usa comúnmente y se considera seguro en la emergencia de una hemorragia postparto, donde el beneficio para salvar la vida de la madre es claro. Solo debe usarse bajo estricta supervisión médica."
+    },
+    {
+      "q": "¿Puedo amamantar si tomo este medicamento?",
+      "a": "Sí, generalmente es compatible. Pasa a la leche materna en cantidades muy pequeñas (alrededor del 1% de la dosis de la madre), por lo que el riesgo para el bebé es muy bajo, especialmente en tratamientos cortos. Consulte con su médico."
+    },
+    {
+      "q": "¿Requiere ajuste de dosis si tengo problemas en los riñones?",
+      "a": "Sí, es MUY IMPORTANTE. El medicamento se elimina por la orina. Si sus riñones no funcionan bien, el fármaco puede acumularse y causar efectos secundarios graves como convulsiones. Su médico debe calcular su dosis basándose en exámenes de creatinina."
+    },
+    {
+      "q": "¿Interfiere con otros medicamentos?",
+      "a": "Sí. La interacción más importante es con los anticonceptivos hormonales combinados (aumento de riesgo de trombosis). También puede interactuar con otros medicamentos que afectan la coagulación, como warfarina o heparina. Informe a su médico sobre TODOS los medicamentos y suplementos que usa."
+    },
+    {
+      "q": "¿Puede causar daño a la vista?",
+      "a": "Con el uso a dosis altas y por periodos muy prolongados (meses o años), se han reportado raros casos de cambios en la retina que pueden afectar la visión y la percepción del color. Por esto, si va a usarlo de forma crónica, su médico podría recomendar revisiones oculares periódicas."
+    },
+    {
+      "q": "¿Es útil para las manchas oscuras de la cara (melasma)?",
+      "a": "Sí, el ácido tranexámico se usa de forma 'off-label' (fuera de la indicación oficial) para tratar el melasma, tanto en cremas tópicas como en pastillas a dosis bajas. Funciona inhibiendo la formación de pigmento. Este uso debe ser siempre supervisado por un dermatólogo."
+    },
+    {
+      "q": "¿Qué marcas se venden en las farmacias de México?",
+      "a": "Encuentra marcas como Pridolin, Exacyl, Cyklokapron, Tranex, Hemofort, Tranexam y versiones genéricas de varios laboratorios. El principio activo es el mismo, pero consulte a su farmacéutico o médico."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre la presentación en pastillas y la inyectable?",
+      "a": "El principio activo es idéntico. Las pastillas se usan para tratamientos ambulatorios y condiciones crónicas (como menorragia). La inyección intravenosa se usa en hospitales para emergencias (hemorragia postparto, trauma, cirugía mayor) donde se necesita un efecto inmediato y preciso."
+    },
+    {
+      "q": "¿Por qué a veces lo dan antes de una cirugía?",
+      "a": "Se administra antes y durante cirugías con alto riesgo de sangrado (como cirugía cardíaca, ortopédica o de columna) para reducir la pérdida de sangre durante la operación. Esto disminuye la necesidad de transfusiones de sangre y sus posibles complicaciones."
+    },
+    {
+      "q": "¿En qué situaciones está absolutamente prohibido usarlo?",
+      "a": "Está contraindicado si: 1) Es alérgico al medicamento. 2) Tiene o ha tenido recientemente un coágulo en venas o pulmones (trombosis/embolia). 3) Tiene sangrado dentro del cráneo por un aneurisma roto. 4) Sus riñones no producen orina (anuria). En estas situaciones, los riesgos superan cualquier beneficio."
+    }
+  ]
+}

@@ -1,0 +1,429 @@
+{
+  "name": "Midazolam Hydrochloride",
+  "summary": "El Midazolam es un medicamento de la familia de las benzodiazepinas, utilizado principalmente como sedante, ansiolítico (para calmar la ansiedad) y para inducir el sueño antes de procedimientos médicos o quirúrgicos. Actúa deprimiendo el sistema nervioso central, lo que produce relajación, somnolencia, pérdida de la memoria de eventos recientes (amnesia anterógrada) y, en dosis más altas, sueño profundo. Es de gran importancia clínica porque es de acción rápida y corta duración, lo que lo hace ideal para procedimientos como endoscopías, intubaciones, cirugías menores y para controlar la agitación en unidades de cuidados intensivos. Su uso debe ser supervisado estrictamente por un médico debido a que puede causar depresión respiratoria grave (dificultad para respirar), especialmente cuando se combina con otros medicamentos como opioides. En México, es un medicamento controlado que solo se vende con receta médica especial y se utiliza principalmente en entornos hospitalarios o bajo supervisión médica directa.",
+  "pharmacology": {
+    "mechanismOfAction": "El Midazolam ejerce sus efectos al unirse de manera específica y potente a los receptores GABA-A en el sistema nervioso central. El GABA (ácido gamma-aminobutírico) es el principal neurotransmisor inhibitorio del cerebro. Al unirse al receptor, el Midazolam potencia la acción del GABA, lo que aumenta la frecuencia de apertura de los canales de cloruro en la neurona. Este influjo de iones de cloruro hiperpolariza la membrana neuronal, haciendo que la célula sea menos excitable y más resistente a la activación. Este mecanismo resulta en una depresión generalizada de la actividad neuronal, manifestándose clínicamente como sedación, reducción de la ansiedad, relajación muscular, anticonvulsivante y amnesia. Su alta liposolubilidad le permite cruzar rápidamente la barrera hematoencefálica, explicando su inicio de acción rápido.",
+    "pharmacologicClass": "Derivado de las benzodiazepinas; Agonista del receptor GABA-A; Ansiolítico, sedante, hipnótico, amnésico, anticonvulsivante y relajante muscular.",
+    "therapeuticClass": "Ansiolítico y Sedante (Hipnótico-Sedante de acción corta).",
+    "absorption": "Se absorbe bien por vía oral, pero sufre un importante efecto de primer paso hepático (metabolismo antes de llegar a la circulación sistémica), lo que reduce su biodisponibilidad a aproximadamente 30-50%. Por vía intramuscular, la absorción es rápida y completa. Por vía intravenosa, la biodisponibilidad es del 100%. La administración rectal o bucal también se utiliza en pediatría, con absorción variable pero efectiva.",
+    "distribution": "Se distribuye ampliamente por los tejidos. Es altamente lipofílico. El volumen de distribución es de aproximadamente 1-1.5 L/kg. Se une extensamente (alrededor del 96-98%) a proteínas plasmáticas, principalmente a la albúmina. Cruza rápidamente la barrera hematoencefálica y también la placenta.",
+    "metabolism": "Se metaboliza casi por completo en el hígado mediante el sistema del citocromo P450, específicamente por la isoenzima CYP3A4. El metabolismo es de fase I (hidroxilación y desalquilación), produciendo metabolitos activos como el 1-hidroximidazolam (también conocido como α-hidroximidazolam), que tiene actividad farmacológica pero menor que el compuesto original. Este metabolito se conjuga posteriormente (fase II) y se excreta.",
+    "elimination": "La vida media de eliminación es relativamente corta, de 1.5 a 3.5 horas en adultos sanos. Los metabolitos conjugados se eliminan principalmente por la orina (60-80%), y una pequeña parte por las heces. En pacientes con insuficiencia hepática, ancianos o con obesidad, la vida media puede prolongarse significativamente.",
+    "onsetOfAction": "Muy rápido. Intravenoso: 1-5 minutos. Intramuscular: 10-20 minutos. Oral: 15-30 minutos. Rectal: 10-30 minutos.",
+    "durationOfAction": "Corta. El efecto clínico dura de 30 minutos a 2 horas, dependiendo de la dosis y la vía de administración. Los efectos residuales de sedación pueden persistir por más tiempo."
+  },
+  "indications": {
+    "approved": [
+      "Sedación consciente antes de procedimientos diagnósticos o terapéuticos (endoscopía, colonoscopía, broncoscopía).",
+      "Inducción de la anestesia general (como agente único o co-inductor).",
+      "Sedación en Unidades de Cuidados Intensivos (UCI) para pacientes con ventilación mecánica.",
+      "Premedicación ansiolítica y amnésica antes de cirugía o procedimientos.",
+      "Tratamiento de estados convulsivos agudos (estatus epiléptico) cuando otras terapias han fallado.",
+      "Sedación para procedimientos odontológicos en pacientes ansiosos."
+    ],
+    "offLabel": [
+      "Sedación en procedimientos pediátricos menores.",
+      "Manejo de la agitación severa en contextos de emergencia o psiquiátricos (cuando otros tratamientos no son adecuados).",
+      "Tratamiento del síndrome de abstinencia de alcohol (delirium tremens).",
+      "Sedación paliativa en cuidados al final de la vida para el manejo de la disnea o la agitación refractaria."
+    ]
+  },
+  "dosage": {
+    "adults": "VARÍA EXTENSAMENTE SEGÚN LA VÍA Y EL OBJETIVO. Sedación consciente (IV): 0.5-2.5 mg inicial, titulando con incrementos de 0.5-1 mg cada 2-3 minutos hasta lograr el efecto deseado. Dosis total usual: 2.5-5 mg. Premedicación (IM): 0.07-0.08 mg/kg (aproximadamente 5 mg) 30-60 min antes. Inducción anestésica (IV): 0.1-0.3 mg/kg. UCI/Sedación prolongada (IV): Infusión continua de 0.02-0.1 mg/kg/hora, titulada.",
+    "pediatric": "ESTRICTA SUPERVISIÓN MÉDICA. Dosis basada en peso. Sedación consciente (IV): 0.05-0.1 mg/kg, titulando lentamente. Máximo 0.4 mg/kg o 10 mg total. Premedicación (oral/bucal): 0.25-0.5 mg/kg. Máximo 20 mg. (Rectal): 0.3-0.5 mg/kg. Estatus epiléptico (IV): 0.15-0.3 mg/kg, puede repetirse una vez.",
+    "elderly": "REDUCIR LA DOSIS EN UN 30-50%. Iniciar con las dosis más bajas posibles debido a la mayor sensibilidad, metabolismo más lento y mayor riesgo de efectos adversos (especialmente depresión respiratoria y confusión). Ejemplo: Sedación IV iniciar con 0.5-1 mg.",
+    "renalImpairment": "No se requiere ajuste mayor para dosis únicas. En insuficiencia renal severa (TFG <30 mL/min) o en diálisis, puede haber acumulación de metabolitos activos conjugados. Usar con precaución, iniciando con dosis bajas y monitorizando estrechamente.",
+    "hepaticImpairment": "AJUSTE OBLIGATORIO. Reducir la dosis significativamente (hasta un 50% o más) en cirrosis o insuficiencia hepática severa. El metabolismo está muy comprometido, lo que prolonga la vida media y aumenta el riesgo de sedación excesiva y encefalopatía. Evitar infusiones prolongadas si es posible.",
+    "maxDose": "No hay una dosis máxima diaria universal fija; depende del contexto clínico, la vía y la titulación bajo supervisión. Para sedación consciente en adultos, rara vez se exceden los 10 mg en una sola sesión. En UCI, las dosis acumuladas pueden ser muy altas durante días."
+  },
+  "dosageForms": [
+    {
+      "form": "Solución inyectable (ampolla/vial)",
+      "strengths": [
+        "1 mg/mL (5 mL)",
+        "5 mg/mL (1 mL, 3 mL, 5 mL)",
+        "15 mg/3 mL",
+        "50 mg/10 mL"
+      ],
+      "route": "Intravenosa, Intramuscular"
+    },
+    {
+      "form": "Jarabe/Solución oral",
+      "strengths": [
+        "2 mg/mL"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tabletas",
+      "strengths": [
+        "7.5 mg",
+        "15 mg"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al Midazolam o a cualquier benzodiazepina.",
+      "Miastenia gravis (puede empeorar la debilidad muscular).",
+      "Glaucoma de ángulo cerrado agudo (no tratado).",
+      "Insuficiencia respiratoria aguda no intubada/ventilada.",
+      "Apnea del sueño severa no tratada.",
+      "Intoxicación aguda por alcohol, opioides u otros depresores del SNC."
+    ],
+    "relative": [
+      "Insuficiencia hepática severa.",
+      "Insuficiencia renal severa.",
+      "Edad avanzada (>65 años).",
+      "Depresión respiratoria crónica (EPOC severo).",
+      "Historial de dependencia a drogas o alcohol.",
+      "Embarazo (especialmente primer trimestre).",
+      "Trastornos psiquiátricos con riesgo de suicidio."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Sedación, somnolencia.",
+      "Mareo, ataxia (inestabilidad al caminar).",
+      "Cefalea (dolor de cabeza).",
+      "Hipotensión (presión baja), especialmente con administración IV rápida.",
+      "Depresión respiratoria (disminución de la frecuencia o profundidad de la respiración).",
+      "Amnesia anterógrada (olvido de eventos durante y después de la administración)."
+    ],
+    "common": [
+      "Náuseas, vómitos.",
+      "Hipo.",
+      "Tos, laringoespasmo (raro pero grave).",
+      "Eritema, dolor en el sitio de inyección (IM/IV).",
+      "Visión borrosa.",
+      "Euforia o disforia (cambios de humor).",
+      "Confusión, especialmente en ancianos."
+    ],
+    "uncommon": [
+      "Erupción cutánea, prurito (picazón).",
+      "Bradicardia (frecuencia cardíaca lenta).",
+      "Paradoja de excitación (agitación, hostilidad, llanto incontrolable, más común en niños y ancianos).",
+      "Dependencia psicológica con uso prolongado."
+    ],
+    "rare": [
+      "Anafilaxia (reacción alérgica severa).",
+      "Ictus (accidente cerebrovascular) por hipotensión severa.",
+      "Síndrome de abstinencia tras uso prolongado en UCI.",
+      "Alucinaciones."
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Opioides (Fentanilo, Morfina, Tramadol)",
+        "effect": "Potenciación sinérgica de la depresión del SNC y respiratoria. Riesgo muy alto de apnea, paro respiratorio y muerte. Reducir dosis de ambos.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Alcohol (Etanol)",
+        "effect": "Depresión aditiva del SNC. Aumenta marcadamente la sedación, el riesgo de accidentes y la depresión respiratoria. Contraindicado su consumo conjunto.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores de CYP3A4 (Ketoconazol, Itraconazol, Claritromicina, Ritonavir, Jugo de Toronja)",
+        "effect": "Disminuyen el metabolismo del Midazolam, aumentando sus niveles en sangre y prolongando/exagerando sus efectos (sedación, depresión respiratoria).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inductores de CYP3A4 (Rifampicina, Carbamazepina, Fenitoína, Hierba de San Juan)",
+        "effect": "Aceleran el metabolismo del Midazolam, disminuyendo su efecto terapéutico. Puede requerir aumentar la dosis.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Otros depresores del SNC (Antihistamínicos sedantes, Antipsicóticos, Antidepresivos tricíclicos, Barbitúricos, Propofol)",
+        "effect": "Adición o potenciación de efectos sedantes y depresores respiratorios.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "El jugo de toronja (pomelo) inhibe fuertemente el CYP3A4 y debe EVITARSE por completo, ya que puede multiplicar los efectos del Midazolam. Los alimentos grasos pueden aumentar ligeramente la absorción oral. El alcohol está estrictamente contraindicado.",
+    "withSupplements": "La Hierba de San Juan (Hypericum perforatum) induce el CYP3A4 y puede reducir la eficacia del Midazolam. Otros suplementos con efectos sedantes (Valeriana, Kava, Melatonina en dosis altas) pueden potenciar la somnolencia. Consultar siempre con el médico."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "D",
+      "recommendation": "El Midazolam cruza la placenta. Su uso durante el embarazo, especialmente en el primer trimestre, puede asociarse con riesgo de malformaciones congénitas (aunque el riesgo absoluto es bajo). Su uso cerca del parto puede causar síndrome del bebé flácido (hipotonía, letargo, dificultad para alimentarse) y depresión respiratoria en el recién nacido. SOLO debe usarse si el beneficio potencial justifica claramente el riesgo para el feto, generalmente en situaciones de emergencia o procedimientos médicos urgentes.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "El Midazolam se excreta en la leche materna en pequeñas cantidades. Debido a su potencial para causar sedación, dificultad para alimentarse y pérdida de peso en el lactante, se recomienda suspender la lactancia durante 4-8 horas después de una dosis única. En caso de uso repetido o infusión en UCI, se debe considerar la interrupción total de la lactancia.",
+    "pediatric": "Puede usarse en niños para sedación procedimental y estatus epiléptico, pero con EXTREMA PRECAUCIÓN. Los niños, especialmente menores de 6 meses, son más sensibles a los efectos depresores respiratorios. El riesgo de reacción paradójica (agitación) es mayor. Debe administrarse únicamente en entornos con capacidad de reanimación y por personal entrenado. Las dosis se calculan meticulosamente por peso.",
+    "geriatric": "Los pacientes mayores de 65 años son extremadamente sensibles. Presentan farmacocinética alterada (metabolismo hepático más lento, distribución alterada) y farmacodinamia aumentada (mayor efecto sedante). El riesgo de confusión, delirio, ataxia (caídas), depresión respiratoria y efectos prolongados es MUCHO MAYOR. Se deben usar las dosis más bajas efectivas, con titulación lenta y monitorización estrecha."
+  },
+  "administration": {
+    "howToTake": "INYECTABLE (IV/IM): Administrado exclusivamente por profesionales de la salud. La vía IV debe ser lenta (≥1-2 minutos por dosis) para minimizar hipotensión y depresión respiratoria. Debe disponerse de equipo de reanimación (oxígeno, ambú, medicamentos de rescate). ORAL: Tomar exactamente como lo indique el médico, generalmente justo antes del procedimiento. No conducir ni operar maquinaria. No tomar con alcohol. ALMACENAMIENTO: Conservar el vial/ampolla en su empaque original, protegido de la luz, a temperatura ambiente (15-30°C). No congelar. La solución oral debe usarse según las indicaciones de la farmacia hospitalaria.",
+    "storage": "Conservar a temperatura ambiente (entre 15°C y 30°C), en un lugar seco y protegido de la luz. Mantener fuera del alcance de los niños. No congelar. Desechar cualquier solución que esté turbia o contenga partículas.",
+    "specialInstructions": "1) Este medicamento causa AMNESIA. No tomar decisiones importantes ni firmar documentos legales después de tomarlo. 2) NUNCA mezclar con alcohol. 3) Informar al médico si se está tomando cualquier otro medicamento, especialmente para dormir, ansiedad, hongos, VIH o infecciones. 4) Después de recibir Midazolam, debe estar acompañado por un adulto responsable y no conducir, ni siquiera al día siguiente si persiste la somnolencia. 5) En niños, vigilar estrechamente la respiración durante varias horas después de la administración."
+  },
+  "monitoring": {
+    "labTests": [
+      "No se requieren monitoreos de laboratorio de rutina para dosis únicas.",
+      "En uso prolongado en UCI: Función hepática (ALT, AST, bilirrubina), función renal (creatinina, BUN).",
+      "Gasometría arterial o pulsioximetría continua durante la sedación procedimental."
+    ],
+    "frequency": "Continuo durante la administración (signos vitales, oximetría de pulso). Evaluación clínica antes de cada dosis en esquemas repetidos.",
+    "signsToWatch": [
+      "Dificultad para respirar, respiración lenta o superficial, pausas respiratorias (APNEA).",
+      "Somnolencia extrema o dificultad para despertar.",
+      "Confusión, agitación o comportamiento inusual (reacción paradójica).",
+      "Mareo severo, desmayo, caídas.",
+      "Coloración azulada de labios o uñas (cianosis).",
+      "Hinchazón de cara, labios, lengua o dificultad para tragar (signos de alergia)."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Depresión respiratoria severa (principal causa de muerte).",
+      "Sedación profunda que progresa a coma.",
+      "Hipotensión severa (presión arterial muy baja).",
+      "Bradicardia (ritmo cardíaco lento).",
+      "Reflejos ausentes.",
+      "En casos menos severos: confusión, ataxia, habla arrastrada."
+    ],
+    "treatment": "1) SOPORTE VITAL: Mantener vía aérea permeable, asistir la ventilación con oxígeno y ventilación mecánica si es necesario. 2) MONITORIZACIÓN: Signos vitales continuos. 3) ANTÍDOTO: Flumazenil (Anexate®). Es un antagonista competitivo de las benzodiazepinas. Se administra por vía IV en dosis tituladas (0.2 mg inicial, luego 0.1 mg cada minuto hasta respuesta). ADVERTENCIA: Puede precipitar convulsiones en pacientes dependientes o que usen benzodiazepinas para control epiléptico. Su efecto es más corto que el del Midazolam, por lo que puede requerirse re-dosificación o infusión continua. 4) Medidas de soporte para hipotensión (líquidos IV).",
+    "antidote": "Flumazenil"
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (receta controlada). Es un psicotrópico sujeto a control.",
+    "scheduleMexico": "Fracción III (Tres) de la Ley General de Salud. Su prescripción y dispensación están estrictamente reguladas.",
+    "fdaApprovalYear": "Aprobado por la FDA en 1985."
+  },
+  "brandsMexico": [
+    "Dormicum®",
+    "Hypnovel®",
+    "Midazolam Genfar®",
+    "Midazolam Pisa®",
+    "Midazolam Alpharma®",
+    "Midazolam Liomont®",
+    "Midatec®",
+    "Sedazin®",
+    "Soporem®",
+    "Midazolam Denver Farma®"
+  ],
+  "clinicalPearls": [
+    "El Midazolam es el sedante de elección para muchos procedimientos cortos debido a su inicio rápido, duración breve y efecto amnésico, que mejora la experiencia del paciente.",
+    "La vía intramuscular es confiable para la premedicación, pero el dolor en el sitio de inyección es común. La administración IV debe ser siempre lenta para evitar complicaciones cardiopulmonares.",
+    "En ancianos, la regla es 'empezar bajo e ir lento'. Una dosis pequeña (ej. 0.5 mg IV) puede producir sedación profunda. La farmacodinamia aumentada es más importante que los cambios farmacocinéticos.",
+    "El Flumazenil es el antídoto, pero su uso no exime de proporcionar soporte ventilatorio adecuado, que es la piedra angular del tratamiento de la sobredosis.",
+    "La combinación con opioides (como fentanilo) es común para procedimientos, pero multiplica el riesgo de apnea. Siempre se debe titular un fármaco a la vez y monitorizar al paciente minuciosamente."
+  ],
+  "patientCounseling": "Estimado paciente: El Midazolam es un medicamento muy efectivo para ayudarlo a relajarse y dormir antes de un estudio o cirugía, pero debe usarse con mucho cuidado. Lo más importante es que NUNCA debe mezclarse con alcohol, pastillas para dormir o calmantes que no le haya recetado su médico, ya que puede dejar de respirar. Después de tomarlo, no podrá recordar bien lo que sucedió (es normal). No conduzca vehículos, no opere maquinaria y no tome decisiones importantes hasta el día siguiente, y solo si se siente completamente despierto y alerta. Asegúrese de que un adulto responsable lo acompañe a su casa después del procedimiento. Informe a su médico si tiene problemas graves del hígado, riñón, respiración (como asma o EPOC), o si está embarazada, planea estarlo o está amamantando. Si siente que le falta el aire, se marea mucho o se siente extremadamente somnoliento días después, contacte a su médico de inmediato.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Ansiedad",
+        "slug": "ansiedad"
+      },
+      {
+        "name": "Insomnio pre-procedimiento",
+        "slug": "insomnio"
+      },
+      {
+        "name": "Agitación",
+        "slug": "agitacion"
+      },
+      {
+        "name": "Convulsiones",
+        "slug": "convulsiones"
+      },
+      {
+        "name": "Miedo al procedimiento médico",
+        "slug": "miedo-procedimiento-medico"
+      },
+      {
+        "name": "Dolor asociado a procedimientos",
+        "slug": "dolor-procedimiento"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Estatus Epiléptico",
+        "slug": "estatus-epileptico"
+      },
+      {
+        "name": "Trastorno de Ansiedad por procedimiento médico",
+        "slug": "ansiedad-procedimiento-medico"
+      },
+      {
+        "name": "Delirium por abstinencia de alcohol",
+        "slug": "delirium-tremens"
+      },
+      {
+        "name": "Síndrome de dificultad respiratoria aguda (para facilitar la ventilación)",
+        "slug": "sindrome-dificultad-respiratoria-aguda"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Depresión Respiratoria Aguda",
+        "slug": "depresion-respiratoria"
+      },
+      {
+        "name": "Delirium (especialmente en ancianos)",
+        "slug": "delirium"
+      },
+      {
+        "name": "Dependencia a Benzodiazepinas",
+        "slug": "dependencia-benzodiazepinas"
+      },
+      {
+        "name": "Síndrome de Abstinencia",
+        "slug": "sindrome-abstinencia-benzodiazepinas"
+      },
+      {
+        "name": "Hipotensión Severa",
+        "slug": "hipotension"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Frecuencia Respiratoria",
+        "slug": "frecuencia-respiratoria",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Presión Arterial",
+        "slug": "presion-arterial",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Frecuencia Cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Saturación de Oxígeno (SpO2)",
+        "slug": "saturacion-oxigeno",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Nivel de Conciencia (Escala de Glasgow)",
+        "slug": "escala-glasgow",
+        "effect": "Puede disminuir"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Oximetría de Pulso",
+        "slug": "oximetria-pulso",
+        "reason": "Monitoreo continuo de la oxigenación durante y después de la sedación."
+      },
+      {
+        "name": "Gasometría Arterial",
+        "slug": "gasometria-arterial",
+        "reason": "Evaluación precisa de la oxigenación y ventilación en caso de depresión respiratoria."
+      },
+      {
+        "name": "Pruebas de Función Hepática",
+        "slug": "pruebas-funcion-hepatica",
+        "reason": "Para ajustar dosis en pacientes con enfermedad hepática conocida o sospechada."
+      },
+      {
+        "name": "Electrocardiograma",
+        "slug": "electrocardiograma",
+        "reason": "Monitoreo en pacientes con riesgo cardíaco o durante sedación profunda."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de Dosis Pediátrica por Peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de Aclaramiento de Creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de Edad Vascular",
+        "slug": "calculadora-edad-vascular"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve el Midazolam?",
+      "a": "Sirve principalmente para calmar la ansiedad y producir sueño o sedación antes de procedimientos médicos como endoscopías, cirugías menores o en la Unidad de Cuidados Intensivos. También se usa para controlar convulsiones que no paran (estatus epiléptico)."
+    },
+    {
+      "q": "¿El Midazolam es lo mismo que un tranquilizante?",
+      "a": "Sí, pertenece a la familia de las benzodiazepinas, que son tranquilizantes o ansiolíticos. Pero el Midazolam se usa más por su efecto rápido y corto para procedimientos, no como tratamiento diario para la ansiedad."
+    },
+    {
+      "q": "¿Me voy a dormir inmediatamente después de que me lo pongan?",
+      "a": "Depende de la dosis y la vía. Por vía intravenosa, puede sentir somnolencia en 1 a 5 minutos. Por vía oral, tarda entre 15 y 30 minutos. No siempre produce sueño profundo; a veces solo una relajación profunda y somnolencia."
+    },
+    {
+      "q": "¿Voy a recordar lo que pasó durante el procedimiento?",
+      "a": "Es muy probable que NO recuerde, o que solo recuerde fragmentos. Esto se llama amnesia anterógrada y es uno de los efectos buscados del medicamento para que la experiencia sea menos estresante."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si me recetaron Midazolam?",
+      "a": "ABSOLUTAMENTE NO. La combinación de Midazolam con alcohol es muy peligrosa y puede causar que deje de respirar, entre en coma o incluso cause la muerte. Evite el alcohol desde el día antes hasta varios días después."
+    },
+    {
+      "q": "¿Puedo conducir después de un procedimiento con Midazolam?",
+      "a": "NO. Sus reflejos, coordinación y juicio estarán alterados. La ley prohíbe conducir. Necesita que un adulto responsable lo lleve a su casa y lo vigile. No conduzca hasta el día siguiente, y solo si se siente completamente alerta."
+    },
+    {
+      "q": "¿El Midazolam es adictivo?",
+      "a": "Con el uso ocasional para procedimientos, el riesgo de adicción es bajo. Sin embargo, con el uso repetido o prolongado (como días en el hospital), el cuerpo puede desarrollar dependencia física, y se debe suspender gradualmente para evitar síntomas de abstinencia."
+    },
+    {
+      "q": "¿Qué efectos secundarios son los más comunes?",
+      "a": "Somnolencia, mareo, dolor de cabeza y una sensación de 'resaca' al día siguiente. Durante la administración, puede bajar la presión o hacer que respire más lento. Es normal no recordar bien."
+    },
+    {
+      "q": "¿Qué hago si me siento muy mareado o con sueño días después?",
+      "a": "Descanse, evite actividades de riesgo y beba líquidos. Si la somnolencia es extrema, tiene dificultad para despertar o le falta el aire, debe buscar atención médica de inmediato, ya que el efecto del medicamento podría estar durando más de lo esperado."
+    },
+    {
+      "q": "¿Puedo tomarlo si estoy embarazada o amamantando?",
+      "a": "Solo en situaciones de extrema necesidad y bajo estricta supervisión médica, ya que puede afectar al bebé. Si está amamantando, generalmente se recomienda suspender la lactancia por varias horas después de una dosis. Consulte a su médico."
+    },
+    {
+      "q": "¿Interfiere con mis otros medicamentos?",
+      "a": "SÍ, mucho. Interactúa peligrosamente con pastillas para dormir, calmantes para el dolor (opioides), algunos antibióticos y antimicóticos (para hongos), y con el jugo de toronja. DEBE informar a su médico TODOS los medicamentos y suplementos que toma."
+    },
+    {
+      "q": "¿Por qué me duele el brazo donde me pusieron la inyección?",
+      "a": "El Midazolam inyectable puede irritar el músculo o la vena, causando dolor, enrojecimiento o endurecimiento en el sitio. Esto es común, especialmente con la vía intramuscular. Suele mejorar en unos días. Aplique compresas frías si hay inflamación."
+    },
+    {
+      "q": "¿Los niños pueden usar Midazolam?",
+      "a": "Sí, pero solo en un hospital o clínica con equipo de reanimación y por médicos entrenados. La dosis se calcula con mucho cuidado según el peso del niño. Los niños son más sensibles a sus efectos secundarios."
+    },
+    {
+      "q": "¿Qué pasa si tomo una dosis mayor a la recetada?",
+      "a": "Es una EMERGENCIA MÉDICA. Puede causar sueño profundo, coma, dificultad grave para respirar y paro cardiorrespiratorio. Llame al 911 o acuda de inmediato al servicio de urgencias más cercano. No intente manejar."
+    },
+    {
+      "q": "¿Existe un antídoto si me pasé de dosis?",
+      "a": "Sí, existe un medicamento llamado Flumazenil (Anexate®) que puede revertir los efectos del Midazolam. Pero solo los médicos en un hospital pueden administrarlo, y aún así, el soporte respiratorio (ayuda para respirar) es lo más importante."
+    },
+    {
+      "q": "¿Por qué el médico me monitorea tanto durante el procedimiento?",
+      "a": "Para detectar y tratar rápidamente cualquier efecto adverso, principalmente que su respiración se haga muy lenta o superficial (depresión respiratoria). Monitorean su ritmo cardíaco, presión y el nivel de oxígeno en su sangre constantemente."
+    },
+    {
+      "q": "¿El Midazolam baja la presión arterial?",
+      "a": "Sí, especialmente si se administra rápido por la vena. Por eso la administración es lenta. Si usted ya tiene la presión baja o toma medicamentos para la presión, el efecto puede ser mayor. Su médico lo vigilará."
+    },
+    {
+      "q": "¿Qué es una 'reacción paradójica'?",
+      "a": "Es cuando en lugar de calmarse, el paciente se agita, llora, se pone agresivo o inquieto. Es más común en niños y ancianos. Si le pasa, informe al médico o enfermera. No es una alergia, pero requiere que se suspenda el medicamento."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en salir del cuerpo el Midazolam?",
+      "a": "El efecto fuerte dura de 30 minutos a 2 horas, pero el medicamento puede detectarse en la sangre por varias horas más (vida media de 1.5 a 3.5 hrs). En ancianos o personas con problemas del hígado, puede durar mucho más, incluso días."
+    },
+    {
+      "q": "¿Por qué es importante la función del hígado para usar Midazolam?",
+      "a": "Porque el hígado es el órgano que se encarga de descomponer y eliminar el Midazolam del cuerpo. Si el hígado no funciona bien (cirrosis, hepatitis), el medicamento se acumula, sus efectos se prolongan y el riesgo de sedación excesiva y depresión respiratoria aumenta enormemente. Por eso las dosis deben ser mucho más bajas en estos pacientes."
+    }
+  ]
+}

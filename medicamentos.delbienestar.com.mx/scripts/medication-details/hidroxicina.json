@@ -1,0 +1,471 @@
+{
+  "name": "Hidroxicina",
+  "summary": "La hidroxicina es un medicamento antihistamínico de primera generación que se utiliza principalmente para tratar los síntomas de las alergias, como la picazón, los estornudos y el goteo nasal. También es muy útil para controlar la ansiedad y la tensión nerviosa antes de procedimientos médicos, y para tratar la urticaria y otras afecciones de la piel que causan comezón. Su importancia clínica radica en su doble acción: bloquea la histamina, sustancia que el cuerpo libera durante una reacción alérgica, y tiene un efecto sedante y ansiolítico significativo, lo que lo hace valioso en situaciones donde se requiere calmar al paciente. Sin embargo, debido a este efecto sedante, puede causar mucho sueño y afectar la capacidad para conducir o manejar maquinaria. Es un medicamento de uso común en México, disponible con receta médica, y debe usarse bajo supervisión, especialmente en niños y adultos mayores, para evitar efectos secundarios no deseados.",
+  "pharmacology": {
+    "mechanismOfAction": "La hidroxicina actúa principalmente como un antagonista competitivo y reversible de los receptores de histamina H1 en el sistema nervioso central y periférico. Al bloquear estos receptores, inhibe los efectos de la histamina, que es la sustancia química liberada por el cuerpo durante una reacción alérgica, reduciendo así síntomas como picazón, enrojecimiento y edema. Además, posee propiedades anticolinérgicas, sedantes y ansiolíticas significativas, ya que también bloquea los receptores muscarínicos de acetilcolina y tiene acción depresora sobre ciertas áreas del sistema nervioso central, específicamente en el sistema límbico, lo que contribuye a su efecto calmante y anti-ansiedad. No tiene afinidad significativa por los receptores de dopamina o serotonina.",
+    "pharmacologicClass": "Antagonista de los receptores H1 de histamina (de primera generación); Derivado de la piperazina; Agente ansiolítico y sedante.",
+    "therapeuticClass": "Antihistamínico; Ansiolítico; Antiprurítico (anti-picazón).",
+    "absorption": "Se absorbe bien por vía oral en el tracto gastrointestinal. La administración oral con alimentos puede retrasar ligeramente la velocidad de absorción, pero no afecta significativamente la cantidad total de medicamento que llega a la sangre (biodisponibilidad).",
+    "distribution": "Se distribuye ampliamente por los tejidos del cuerpo. Cruza la barrera hematoencefálica, lo que explica sus efectos en el sistema nervioso central (sueño, sedación). Se une en un alto porcentaje (aproximadamente 93%) a las proteínas del plasma sanguíneo. Su volumen de distribución (Vd) es grande.",
+    "metabolism": "Se metaboliza extensamente en el hígado. Su metabolismo principal es a través de la enzima CYP3A4 del citocromo P450, transformándose en su metabolito activo principal, la cetirizina, que también es un antihistamínico (pero de segunda generación y menos sedante).",
+    "elimination": "La vida media de eliminación de la hidroxicina es de aproximadamente 20 horas, y la de su metabolito activo (cetirizina) es de unas 8-10 horas. Se elimina principalmente por la orina en forma de metabolitos inactivos. Menos del 1% se excreta sin cambios en la orina.",
+    "onsetOfAction": "El inicio de acción es relativamente rápido. Los efectos sedantes y ansiolíticos pueden comenzar a sentirse entre 15 a 30 minutos después de la administración oral. El efecto antihistamínico y antiprurítico también inicia en este periodo.",
+    "durationOfAction": "La duración del efecto clínico (sedación, alivio de síntomas) suele ser de 4 a 6 horas por dosis, aunque su vida media es más larga. Esto justifica las dosis divididas (cada 6-8 horas) en algunos esquemas de tratamiento."
+  },
+  "indications": {
+    "approved": [
+      "Alivio sintomático de manifestaciones alérgicas (rinitis alérgica, conjuntivitis alérgica)",
+      "Tratamiento de la urticaria aguda y crónica",
+      "Prurito (picazón) de diverso origen (dermatitis atópica, eccema, picaduras de insectos)",
+      "Sedación pre y postoperatoria",
+      "Tratamiento de la ansiedad y tensión psicomotora",
+      "Como coadyuvante en el manejo del asma (por su efecto ansiolítico y antihistamínico)"
+    ],
+    "offLabel": [
+      "Tratamiento del insomnio (especialmente cuando está asociado a ansiedad)",
+      "Manejo de náuseas y vómitos (por su efecto anticolinérgico y sedante)",
+      "Síndrome de abstinencia al alcohol o benzodiacepinas (como terapia sintomática)",
+      "Prurito asociado a enfermedades sistémicas (como insuficiencia renal o colestasis)",
+      "Potenciación de analgésicos opioides en dolor agudo (reduce ansiedad y náuseas)"
+    ]
+  },
+  "dosage": {
+    "adults": "Ansiedad/Tensión: 50-100 mg por día, divididos en 3-4 dosis. Prurito/Alergias: 25 mg por vía oral, 3-4 veces al día. Sedación preoperatoria: 50-100 mg por vía oral la noche antes y/o 50-100 mg intramuscular 1 hora antes del procedimiento.",
+    "pediatric": "Menores de 6 años: No recomendado generalmente por riesgo de efectos paradójicos. Mayores de 6 años: Dosis basada en peso. Para alergias/prurito: 0.5-1 mg/kg de peso corporal por día, dividido en 3-4 dosis. Dosis máxima pediátrica diaria: 50 mg/día para niños de 6-12 años; 100 mg/día para mayores de 12 años.",
+    "elderly": "Iniciar con dosis más bajas (ej. 10-25 mg, 2-3 veces al día) debido a mayor sensibilidad a los efectos anticolinérgicos y sedantes, y mayor riesgo de confusión, mareo y caídas. Ajustar según tolerancia.",
+    "renalImpairment": "Ajuste necesario. En insuficiencia renal leve a moderada (TFG 30-89 mL/min): Reducir dosis en un 25-50%. En insuficiencia renal severa (TFG <30 mL/min) o diálisis: Evitar o usar con extrema precaución y dosis mínimas, ya que el metabolito (cetirizina) se elimina por riñón. La hidroxicina no es dializable.",
+    "hepaticImpairment": "Ajuste necesario. En pacientes con enfermedad hepática (cirrosis, hepatitis), la dosis debe reducirse significativamente (hasta un 50% o más) debido al metabolismo hepático extenso. Monitorizar estrechamente por aumento de sedación.",
+    "maxDose": "Dosis máxima diaria en adultos: 400 mg. Sin embargo, las dosis terapéuticas rara vez superan los 100-200 mg/día. Dosis superiores a 100 mg/día aumentan considerablemente el riesgo de efectos adversos."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "10 mg",
+        "25 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Cápsula",
+      "strengths": [
+        "25 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Jarabe / Suspensión oral",
+      "strengths": [
+        "2 mg/mL",
+        "10 mg/5 mL"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Solución inyectable (ampolla)",
+      "strengths": [
+        "25 mg/mL",
+        "50 mg/mL"
+      ],
+      "route": "Intramuscular"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la hidroxicina, a la cetirizina o a cualquier componente de la formulación",
+      "Pacientes en tratamiento con inhibidores de la monoaminooxidasa (IMAOs) o que hayan suspendido su uso en las últimas 2 semanas",
+      "Porfiria aguda intermitente",
+      "Embarazo (especialmente en el primer trimestre)",
+      "Lactancia materna",
+      "Hiperplasia prostática sintomática grave con retención urinaria",
+      "Glaucoma de ángulo cerrado no tratado",
+      "Miastenia gravis"
+    ],
+    "relative": [
+      "Edad pediátrica menor de 6 años",
+      "Pacientes de edad avanzada con deterioro cognitivo",
+      "Insuficiencia hepática severa",
+      "Insuficiencia renal severa (TFG <30 mL/min)",
+      "Enfermedad pulmonar obstructiva crónica (EPOC) con retención de secreciones",
+      "Estreñimiento crónico o íleo paralítico",
+      "Epilepsia o trastornos convulsivos",
+      "Arritmias cardíacas",
+      "Hipotensión"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Somnolencia (sueño)",
+      "Sequedad de boca",
+      "Mareo",
+      "Cefalea (dolor de cabeza)"
+    ],
+    "common": [
+      "Visión borrosa",
+      "Estreñimiento",
+      "Retención urinaria (dificultad para orinar)",
+      "Fatiga o astenia",
+      "Náuseas",
+      "Inquietud o nerviosismo (en algunos pacientes, especialmente niños)",
+      "Dificultad para concentrarse"
+    ],
+    "uncommon": [
+      "Confusión (especialmente en ancianos)",
+      "Hipotensión (presión baja)",
+      "Taquicardia (palpitaciones)",
+      "Temblor",
+      "Sudoración",
+      "Erupción cutánea"
+    ],
+    "rare": [
+      "Reacción alérgica severa (anafilaxia)",
+      "Convulsiones",
+      "Discinesias (movimientos anormales)",
+      "Ictericia (coloración amarilla de piel y ojos por daño hepático)",
+      "Alucinaciones",
+      "Síndrome serotoninérgico (si se combina con otros fármacos)"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Alcohol (etílico)",
+        "effect": "Potencia enormemente los efectos depresores del sistema nervioso central (sedación, mareo, deterioro psicomotor). Riesgo de accidentes.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Benzodiacepinas (diazepam, alprazolam, clonazepam)",
+        "effect": "Potenciación de la sedación, depresión respiratoria y deterioro cognitivo. Aumenta riesgo de caídas en ancianos.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Opioides (codeína, tramadol, morfina)",
+        "effect": "Potenciación de la sedación, depresión respiratoria y estreñimiento. Combinación peligrosa sin supervisión.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores de la monoaminooxidasa (IMAOs) como fenelzina, selegilina",
+        "effect": "Riesgo de crisis hipertensiva, hipertermia y excitación del SNC. Contraindicado.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Otros anticolinérgicos (amitriptilina, oxibutinina, difenhidramina)",
+        "effect": "Efectos anticolinérgicos aditivos: sequedad extrema, retención urinaria, estreñimiento, confusión, visión borrada.",
+        "severidad": "Moderada"
+      },
+      {
+        "drug": "Inhibidores del CYP3A4 (ketoconazol, itraconazol, claritromicina, ritonavir)",
+        "effect": "Aumentan los niveles en sangre de hidroxicina, potenciando sus efectos y toxicidad. Se requiere reducción de dosis.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inductores del CYP3A4 (rifampicina, carbamazepina, fenitoína)",
+        "effect": "Disminuyen los niveles en sangre de hidroxicina, reduciendo su eficacia.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Puede tomarse con o sin alimentos. Tomarlo con comida puede reducir ligeramente la molestia gástrica, pero también puede retrasar un poco el inicio del efecto. La interacción más importante es con el ALCOHOL: EVITAR COMPLETAMENTE su consumo durante el tratamiento, ya que potencia peligrosamente la sedación y el riesgo de accidentes.",
+    "withSupplements": "Interactúa con suplementos que tengan efectos sedantes o que actúen sobre el sistema nervioso central, como la valeriana, la melatonina, la kava kava y la hierba de San Juan (Hypericum perforatum). Estos pueden aumentar la somnolencia. La hierba de San Juan, al ser un inductor enzimático, puede disminuir la eficacia de la hidroxicina."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA C",
+      "recommendation": "No se recomienda su uso durante el embarazo, especialmente en el primer trimestre, debido a la falta de estudios adecuados en humanos y a datos en animales que sugieren riesgo. Su uso en el segundo y tercer trimestre solo debe considerarse si el beneficio potencial para la madre justifica claramente el riesgo potencial para el feto, y bajo estricta supervisión médica. Existen alternativas más seguras (como algunos antihistamínicos de segunda generación) para el manejo de alergias.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La hidroxicina se excreta en la leche materna en cantidades significativas. Debido a su potencial para causar efectos adversos en el lactante, como sedación, irritabilidad o efectos anticolinérgicos, se recomienda EVITAR su uso durante la lactancia. Si su uso es absolutamente necesario, se debe suspender la lactancia materna.",
+    "pediatric": "No se recomienda en niños menores de 6 años por el riesgo de efectos paradójicos (excitación, insomnio, alucinaciones) y de depresión del sistema nervioso central. En niños mayores de 6 años, usar solo bajo prescripción médica, a la dosis más baja efectiva y por el menor tiempo posible, vigilando la aparición de somnolencia diurna que pueda afectar el rendimiento escolar.",
+    "geriatric": "Los pacientes mayores de 65 años son más sensibles a los efectos anticolinérgicos y sedantes. Tienen mayor riesgo de confusión, mareo, sequedad de boca severa, retención urinaria, estreñimiento, visión borrosa y caídas. Se debe iniciar con dosis muy bajas (10-25 mg, 1-2 veces al día) y ajustar con cautela. Evitar su uso en pacientes con deterioro cognitivo (demencia) o con riesgo de glaucoma."
+  },
+  "administration": {
+    "howToTake": "Tomar por vía oral con un vaso lleno de agua. Puede tomarse con o sin alimentos. Si se usa para dormir, tomar 30-60 minutos antes de acostarse. Para control de ansiedad o alergias, seguir el horario indicado por el médico (generalmente cada 6-8 horas). No triturar o masticar las tabletas a menos que lo indique el médico o el farmacéutico. La solución inyectable es SOLO para uso intramuscular profundo, administrada por personal de salud.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (entre 15°C y 30°C), protegido de la luz, la humedad y el calor excesivo. Mantener fuera del alcance y de la vista de los niños. No utilizar después de la fecha de caducidad impresa en el empaque.",
+    "specialInstructions": "ADVERTENCIA: Este medicamento produce SUEÑO. No conduzca vehículos, opere maquinaria peligrosa o realice actividades que requieran alerta mental hasta que conozca cómo le afecta (generalmente 8-12 horas después de tomarlo). Evite el consumo de bebidas alcohólicas. Informe a su médico si padece glaucoma, problemas de próstata, enfermedad hepática, renal, epilepsia o si está tomando cualquier otro medicamento. No suspenda el tratamiento abruptamente si lo usa para ansiedad; consulte a su médico."
+  },
+  "monitoring": {
+    "labTests": [
+      "Pruebas de función hepática (transaminasas, bilirrubina) en uso prolongado",
+      "Conteo sanguíneo completo (en raros casos de supresión de médula ósea)",
+      "Función renal (creatinina, TFG) en pacientes con riesgo"
+    ],
+    "frequency": "En tratamientos cortos (menos de 1 semana), generalmente no se requiere monitoreo de laboratorio. En uso crónico o en pacientes con enfermedad hepática/renal, evaluar función hepática y renal cada 6-12 meses, o según criterio médico.",
+    "signsToWatch": [
+      "Somnolencia extrema o confusión",
+      "Dificultad para orinar (retención urinaria)",
+      "Visión borrosa o dolor ocular (posible glaucoma)",
+      "Latidos cardíacos irregulares o rápidos",
+      "Mareo intenso o desmayo",
+      "Erupción cutánea o signos de reacción alérgica",
+      "Ictericia (piel/ojos amarillos)",
+      "Convulsiones"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Sedación profunda que puede progresar a coma",
+      "Convulsiones",
+      "Alucinaciones y delirio",
+      "Midriasis (pupilas dilatadas)",
+      "Taquicardia o bradicardia",
+      "Hipotensión severa",
+      "Depresión respiratoria (dificultad para respirar)",
+      "Sequedad de boca y piel, fiebre (síndrome anticolinérgico)"
+    ],
+    "treatment": "No existe antídoto específico. El tratamiento es de soporte y sintomático. Medidas: Mantener vía aérea, respiración y circulación. Lavado gástrico o carbón activado si la ingestión es reciente (dentro de 1-2 horas). Monitorización cardíaca y de signos vitales en unidad de cuidados intensivos. Los síntomas anticolinérgicos severos pueden tratarse con fisostigmina, pero con precaución. Las convulsiones se controlan con benzodiacepinas. La hidroxicina NO es dializable.",
+    "antidote": "La fisostigmina puede usarse como antídoto para revertir los efectos anticolinérgicos centrales y periféricos graves (coma, delirio, arritmias), pero su uso es controvertido y solo en entornos hospitalarios con monitorización estrecha."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Medicamento sujeto a prescripción)",
+    "scheduleMexico": "Fracción III (Sustancias médicas de venta con receta que pueden causar dependencia moderada). Aunque su potencial de abuso es bajo, está controlado.",
+    "fdaApprovalYear": "Aprobado por la FDA en 1956."
+  },
+  "brandsMexico": [
+    "Atarax",
+    "Hidroxal",
+    "Hidroxicina MK",
+    "Hidroxicina Genfar",
+    "Hidroxicina PiSA",
+    "Hidroxicina Rimsa",
+    "Hidroxicina Denver Farma",
+    "Hidroxicina Liomont",
+    "Hidroxicina Sophia",
+    "Hidroxicina Best",
+    "Hidroxicina Chinoin",
+    "Hidroxicina Landsteiner",
+    "Hidroxicina Carnot",
+    "Hidroxicina Alpharma",
+    "Hidroxicina Asofarma",
+    "Hidroxicina Psicofarma",
+    "Hidroxicina Stendhal",
+    "Hidroxicina Laproff",
+    "Hidroxicina Aranda",
+    "Hidroxicina Raffo"
+  ],
+  "clinicalPearls": [
+    "La hidroxicina es el profármaco de la cetirizina. En el hígado, se transforma en cetirizina, un antihistamínico de segunda generación menos sedante. Esto explica por qué a veces se percibe que 'deja de hacer sueño' después de unos días de uso continuo: el cuerpo se acostumbra al efecto sedante directo de la hidroxicina, pero se mantiene el efecto antihistamínico de la cetirizina.",
+    "Es uno de los fármacos de elección para el tratamiento agudo de la urticaria (ronchas) debido a su potente efecto antiprurítico y sedante, que ayuda a romper el ciclo de rascado-roncha.",
+    "Su efecto ansiolítico es útil en situaciones agudas (preoperatorio, crisis de pánico), pero NO está indicado para el tratamiento a largo plazo de trastornos de ansiedad generalizada, ya que los efectos secundarios anticolinérgicos y la tolerancia (necesidad de aumentar la dosis) lo hacen inadecuado. Las benzodiacepinas o los ISRS son mejores opciones para tratamiento crónico."
+  ],
+  "patientCounseling": "Este medicamento le ayudará a controlar la alergia, la picazón o la ansiedad, pero es muy importante que sepa que causa MUCHO SUEÑO. No maneje carro, no use herramientas peligrosas y tenga cuidado al subir escaleras, especialmente las primeras horas después de tomarlo. No tome bebidas alcohólicas ni ningún otro medicamento para dormir o para los nervios sin consultar a su médico, porque la combinación es peligrosa. Si siente la boca muy seca, tome sorbos de agua o chupe un caramelo sin azúcar. Si le cuesta trabajo orinar, tiene la visión borrosa o se siente muy confundido, deje de tomarlo y llame a su médico de inmediato. Tómelo exactamente como se lo recetaron, no aumente la dosis por su cuenta. Guárdelo en un lugar seguro, lejos del alcance de los niños.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Picazón o Prurito",
+        "slug": "picazon-o-prurito"
+      },
+      {
+        "name": "Estornudos",
+        "slug": "estornudos"
+      },
+      {
+        "name": "Goteo Nasal",
+        "slug": "goteo-nasal"
+      },
+      {
+        "name": "Ansiedad",
+        "slug": "ansiedad"
+      },
+      {
+        "name": "Nerviosismo",
+        "slug": "nerviosismo"
+      },
+      {
+        "name": "Insomnio",
+        "slug": "insomnio"
+      },
+      {
+        "name": "Ronchas o Urticaria",
+        "slug": "ronchas-o-urticaria"
+      },
+      {
+        "name": "Náuseas",
+        "slug": "nauseas"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Rinitis Alérgica",
+        "slug": "rinitis-alergica"
+      },
+      {
+        "name": "Urticaria Aguda y Crónica",
+        "slug": "urticaria-aguda-y-cronica"
+      },
+      {
+        "name": "Dermatitis Atópica",
+        "slug": "dermatitis-atopica"
+      },
+      {
+        "name": "Trastorno de Ansiedad Generalizada (uso agudo)",
+        "slug": "trastorno-de-ansiedad-generalizada"
+      },
+      {
+        "name": "Prurito de Origen Sistémico",
+        "slug": "prurito-de-origen-sistemico"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Retención Urinaria",
+        "slug": "retencion-urinaria"
+      },
+      {
+        "name": "Glaucoma de Ángulo Cerrado",
+        "slug": "glaucoma-de-angulo-cerrado"
+      },
+      {
+        "name": "Delirio o Confusión Aguda",
+        "slug": "delirio-o-confusion-aguda"
+      },
+      {
+        "name": "Ileo Paralítico",
+        "slug": "ileo-paralitico"
+      },
+      {
+        "name": "Hepatotoxicidad",
+        "slug": "hepatotoxicidad"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Transaminasas (ALT, AST)",
+        "slug": "transaminasas-alt-ast",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Bilirrubina",
+        "slug": "bilirrubina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Recuento de Leucocitos",
+        "slug": "recuento-de-leucocitos",
+        "effect": "Puede disminuir (raro)"
+      },
+      {
+        "name": "Frecuencia Cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede alterar (taquicardia o bradicardia)"
+      },
+      {
+        "name": "Presión Arterial",
+        "slug": "presion-arterial",
+        "effect": "Puede disminuir"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Pruebas de Función Hepática",
+        "slug": "pruebas-de-funcion-hepatica",
+        "reason": "Para detectar posible daño hepático por uso prolongado"
+      },
+      {
+        "name": "Biometría Hemática Completa",
+        "slug": "biometria-hematica-completa",
+        "reason": "Para monitorear recuentos celulares en uso crónico"
+      },
+      {
+        "name": "Creatinina Sérica y TFG",
+        "slug": "creatinina-serica-y-tfg",
+        "reason": "Para ajustar dosis en pacientes con enfermedad renal"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de Aclaramiento de Creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de Dosis Pediátrica por Peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La hidroxicina da sueño?",
+      "a": "Sí, la hidroxicina causa somnolencia (sueño) en la mayoría de las personas. Este es uno de sus efectos secundarios más comunes. Por eso se recomienda no conducir ni realizar actividades peligrosas después de tomarla."
+    },
+    {
+      "q": "¿Para qué sirve la hidroxicina?",
+      "a": "Sirve principalmente para dos cosas: 1) Aliviar los síntomas de alergia como picazón, estornudos y ronchas (urticaria). 2) Calmar la ansiedad y los nervios, especialmente en situaciones agudas como antes de una cirugía."
+    },
+    {
+      "q": "¿Puedo tomar hidroxicina si tomo alcohol?",
+      "a": "NO. Es muy peligroso. El alcohol potencia mucho el efecto de sueño de la hidroxicina, aumentando el riesgo de accidentes, depresión respiratoria y coma. Debe evitarse completamente."
+    },
+    {
+      "q": "¿La hidroxicina es lo mismo que la cetirizina?",
+      "a": "No exactamente. La hidroxicina se transforma en el cuerpo en cetirizina, que es su metabolito activo. La cetirizina es un antihistamínico de segunda generación que causa menos sueño. La hidroxicina tiene un efecto sedante directo más fuerte."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto la hidroxicina?",
+      "a": "Empieza a hacer efecto entre 15 y 30 minutos después de tomarla por vía oral. El efecto máximo para calmar la ansiedad o la picazón se alcanza en 1-2 horas."
+    },
+    {
+      "q": "¿Puedo tomar hidroxicina para dormir?",
+      "a": "Sí, a veces se usa para el insomnio ocasional, especialmente si está relacionado con ansiedad. Sin embargo, no es un medicamento para dormir de uso crónico. Consulte a su médico para evaluar la causa de su insomnio."
+    },
+    {
+      "q": "¿La hidroxicina sube o baja la presión?",
+      "a": "Generalmente puede causar una ligera disminución de la presión arterial (hipotensión), lo que puede provocar mareo, especialmente al levantarse rápido. Personas con presión baja deben usarla con precaución."
+    },
+    {
+      "q": "¿Pueden los niños tomar hidroxicina?",
+      "a": "No se recomienda en niños menores de 6 años. En niños mayores, solo debe usarse bajo estricta prescripción médica, con dosis calculadas por peso, ya que puede causar efectos paradójicos como excitación o somnolencia severa."
+    },
+    {
+      "q": "¿Qué pasa si tomo hidroxicina en el embarazo?",
+      "a": "No se recomienda, especialmente en los primeros tres meses. Está en categoría C de riesgo. Solo debe usarse si el médico considera que el beneficio para la madre es mayor que el riesgo para el bebé. Existen alternativas más seguras."
+    },
+    {
+      "q": "¿La hidroxicina causa adicción?",
+      "a": "Tiene un potencial bajo de causar dependencia física o psicológica comparado con otros ansiolíticos. Sin embargo, no se recomienda su uso prolongado para ansiedad porque se puede desarrollar tolerancia (necesidad de aumentar la dosis) y tiene muchos efectos secundarios."
+    },
+    {
+      "q": "¿Puedo tomar hidroxicina si tengo glaucoma?",
+      "a": "NO, especialmente si es glaucoma de ángulo cerrado. La hidroxicina tiene efectos anticolinérgicos que pueden aumentar la presión dentro del ojo y desencadenar un ataque agudo de glaucoma, que es una emergencia médica. Informe siempre a su médico si tiene glaucoma."
+    },
+    {
+      "q": "¿Qué hago si se me olvidó una dosis?",
+      "a": "Tómela tan pronto como se acuerde, pero si ya es casi la hora de la siguiente dosis, sáltese la que olvidó y continúe con su horario normal. NO duplique la dosis para compensar."
+    },
+    {
+      "q": "¿La hidroxicina me puede dar mucha sed o boca seca?",
+      "a": "Sí, la sequedad de boca es un efecto secundario muy común debido a su acción anticolinérgica. Beber sorbos de agua, masticar chicle sin azúcar o usar sustitutos de saliva puede ayudar."
+    },
+    {
+      "q": "¿Interfiere la hidroxicina con los anticonceptivos?",
+      "a": "No hay evidencia de que interfiera con la eficacia de los anticonceptivos hormonales (pastillas, parches, inyecciones). Sin embargo, siempre informe a su médico todos los medicamentos que toma."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre Atarax e Hidroxicina genérica?",
+      "a": "Atarax es una marca comercial de hidroxicina. Las versiones genéricas contienen el mismo principio activo (hidroxicina) y deben tener la misma eficacia y seguridad. La diferencia principal puede estar en los excipientes (componentes inactivos) que rara vez causan diferencias."
+    },
+    {
+      "q": "¿Puedo tomar hidroxicina si tengo problemas de próstata?",
+      "a": "Debe tener mucho cuidado. La hidroxicina puede causar o empeorar la retención urinaria (dificultad para orinar), un problema común en hombres con agrandamiento de próstata (hiperplasia prostática benigna). Consulte a su médico."
+    },
+    {
+      "q": "¿La hidroxicina ayuda con las náuseas?",
+      "a": "Sí, tiene un efecto anti-náuseas, por lo que a veces se usa off-label para este fin, especialmente cuando las náuseas están relacionadas con ansiedad o como premedicación antes de cirugía."
+    },
+    {
+      "q": "¿Qué pasa si tomo una sobredosis de hidroxicina?",
+      "a": "Una sobredosis puede ser grave, causando sueño profundo, convulsiones, problemas cardíacos y depresión respiratoria. Es una emergencia médica. Llame al 911 o acuda inmediatamente al hospital. No provoque el vómito a menos que lo indique un profesional."
+    },
+    {
+      "q": "¿Por qué a veces la hidroxicina me pone nervioso en lugar de calmarme?",
+      "a": "En algunos pacientes, especialmente niños, puede producir un efecto paradójico de excitación, nerviosismo, insomnio o incluso alucinaciones. Si esto ocurre, suspenda el medicamento y consulte a su médico."
+    },
+    {
+      "q": "¿En pacientes con enfermedad hepática, cómo se ajusta la dosis de hidroxicina y por qué es crucial monitorear el metabolito cetirizina?",
+      "a": "En enfermedad hepática (ej. cirrosis), el metabolismo de la hidroxicina a cetirizina está gravemente comprometido. Se debe reducir la dosis inicial en al menos un 50% y titular con mucho cuidado, porque se acumula la hidroxicina (más sedante). Además, aunque la cetirizina se forme menos, su eliminación depende del riñón, por lo que en pacientes con daño hepático y renal concomitante (síndrome hepatorrenal) el riesgo de toxicidad es muy alto. Se requiere monitoreo clínico estrecho de sedación y, en algunos casos, niveles plasmáticos."
+    }
+  ]
+}

@@ -1,0 +1,383 @@
+{
+  "name": "Triazolam",
+  "summary": "El triazolam es un medicamento ansiolítico y sedante que pertenece a la familia de las benzodiazepinas. Se utiliza principalmente para el tratamiento a corto plazo del insomnio severo, ayudando a conciliar el sueño más rápido y a reducir los despertares nocturnos. Su importancia clínica radica en su acción rápida y corta duración, lo que lo hace útil para iniciar el sueño, pero debe usarse con extrema precaución debido a su alto potencial de causar dependencia, amnesia y efectos paradójicos como agitación. En México, es un medicamento controlado de venta bajo receta médica especial, y su uso debe ser supervisado estrechamente por un profesional de la salud para evitar riesgos graves como la sobredosis o el abuso. No está destinado para el tratamiento de la ansiedad generalizada y su uso prolongado no es recomendable.",
+  "pharmacology": {
+    "mechanismOfAction": "El triazolam actúa potenciando la actividad del neurotransmisor inhibitorio ácido gamma-aminobutírico (GABA) en el sistema nervioso central. Se une de manera específica y con alta afinidad al complejo receptor GABA-A, lo que facilita la apertura de los canales de cloruro en las neuronas. Este influjo de iones cloruro hiperpolariza la membrana neuronal, haciendo que la célula sea menos excitable. Este efecto depresor generalizado sobre la actividad neuronal resulta en las propiedades sedantes, hipnóticas, ansiolíticas y amnésicas del fármaco. Su acción es principalmente sobre los receptores que contienen la subunidad alfa-1, lo que explica su potente efecto hipnótico con menos propiedades ansiolíticas en comparación con otras benzodiazepinas.",
+    "pharmacologicClass": "Benzodiazepina de alta potencia y vida media ultracorta. Derivado triazolobenzodiazepínico.",
+    "therapeuticClass": "Hipnótico. Ansiolítico y sedante.",
+    "absorption": "Se absorbe rápida y casi completamente por vía oral. La biodisponibilidad es aproximadamente del 44% debido a un efecto de primer paso hepático significativo. La concentración plasmática máxima (Cmax) se alcanza entre 1 y 2 horas después de la administración oral.",
+    "distribution": "Se distribuye ampliamente por los tejidos corporales. El volumen de distribución (Vd) es de aproximadamente 1.1 L/kg. Se une extensamente (alrededor del 90%) a proteínas plasmáticas, principalmente a la albúmina.",
+    "metabolism": "Se metaboliza casi exclusivamente en el hígado mediante procesos de oxidación mediados por el sistema enzimático del citocromo P450, específicamente por la isoenzima CYP3A4. Los metabolitos principales son el 1-hidroxitriazolam (activo) y el 4-hidroxitriazolam, que posteriormente se conjugan y se excretan.",
+    "elimination": "La vida media de eliminación es corta, de aproximadamente 1.5 a 5.5 horas en adultos sanos. Se elimina principalmente por vía renal (alrededor del 80%) en forma de metabolitos conjugados inactivos, y una pequeña parte por las heces. Menos del 1% se excreta sin cambios en la orina.",
+    "onsetOfAction": "Muy rápido. Los efectos sedantes e hipnóticos comienzan generalmente entre 15 y 30 minutos después de la administración oral.",
+    "durationOfAction": "Corta. Los efectos clínicos duran típicamente de 4 a 6 horas, lo que lo clasifica como un hipnótico de acción ultracorta."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento a corto plazo del insomnio (dificultad para conciliar el sueño)"
+    ],
+    "offLabel": [
+      "Premedicación ansiolítica antes de procedimientos médicos o dentales (uso limitado y en declive)",
+      "Manejo de episodios agudos de agitación o ansiedad severa (alternativa de segunda línea y muy controvertida)",
+      "Tratamiento del insomnio en trastornos del ritmo circadiano (como jet lag)"
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis inicial habitual es de 0.125 mg a 0.25 mg administrados por vía oral inmediatamente antes de acostarse. La dosis puede ajustarse hasta un máximo de 0.5 mg/día en casos de insomnio severo y en pacientes que no responden a dosis menores. El tratamiento debe ser por el período más corto posible, generalmente no excediendo de 7 a 10 días.",
+    "pediatric": "NO está recomendado para uso en niños y adolescentes menores de 18 años debido a la falta de estudios de seguridad y eficacia, y al alto riesgo de efectos adversos conductuales.",
+    "elderly": "En pacientes de edad avanzada (mayores de 65 años) o debilitados, la dosis inicial recomendada es de 0.125 mg antes de acostarse. La dosis máxima en este grupo no debe exceder los 0.25 mg/día, debido al riesgo aumentado de sedación excesiva, ataxia, confusión y caídas.",
+    "renalImpairment": "No se requieren ajustes de dosis específicos en insuficiencia renal leve a moderada (TFG >30 mL/min). En insuficiencia renal severa (TFG <30 mL/min) o en diálisis, se debe usar con extrema precaución y a la dosis más baja posible (0.125 mg), debido a la posible acumulación de metabolitos y al riesgo de encefalopatía.",
+    "hepaticImpairment": "Está CONTRAINDICADO en pacientes con insuficiencia hepática severa. En pacientes con enfermedad hepática leve a moderada (por ejemplo, cirrosis compensada), se debe usar con precaución extrema, iniciando con la dosis más baja posible (0.125 mg) y evitando su uso si es posible, debido a la reducción del metabolismo hepático y al riesgo de encefalopatía hepática.",
+    "maxDose": "La dosis máxima diaria para adultos es de 0.5 mg. Para adultos mayores o pacientes debilitados, la dosis máxima es de 0.25 mg/día."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "0.125 mg",
+        "0.25 mg"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al triazolam, a otras benzodiazepinas o a cualquier componente de la formulación.",
+      "Miastenia gravis.",
+      "Síndrome de apnea del sueño severo.",
+      "Insuficiencia respiratoria severa.",
+      "Insuficiencia hepática severa (cirrosis descompensada).",
+      "Embarazo (especialmente el primer trimestre).",
+      "Uso concomitante con potentes inhibidores de la CYP3A4 (como ketoconazol, itraconazol, ritonavir, claritromicina)."
+    ],
+    "relative": [
+      "Historia de abuso de sustancias o dependencia a drogas/alcohol.",
+      "Depresión mayor o ideación suicida.",
+      "Glaucoma de ángulo estrecho (no tratado).",
+      "Insuficiencia renal severa.",
+      "Enfermedad hepática leve a moderada.",
+      "Edad avanzada o estado debilitado.",
+      "Trastornos psiquiátricos con posible reacción paradójica (agitación)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Somnolencia diurna",
+      "Mareo",
+      "Dolor de cabeza",
+      "Ataxia (inestabilidad al caminar)"
+    ],
+    "common": [
+      "Amnesia anterógrada (olvido de eventos después de tomar la dosis)",
+      "Confusión",
+      "Cefalea",
+      "Visión borrosa",
+      "Náuseas",
+      "Sequedad de boca",
+      "Fatiga",
+      "Debilidad muscular"
+    ],
+    "uncommon": [
+      "Euforia",
+      "Depresión",
+      "Alteraciones del gusto",
+      "Prurito (comezón)",
+      "Erupción cutánea",
+      "Estreñimiento",
+      "Diarrea",
+      "Cambios en la libido",
+      "Agitación paradójica (nerviosismo, irritabilidad, agresividad)",
+      "Alucinaciones"
+    ],
+    "rare": [
+      "Leucopenia (disminución de glóbulos blancos)",
+      "Trombocitopenia (disminución de plaquetas)",
+      "Ictericia",
+      "Reacciones anafilácticas",
+      "Dependencia física y psicológica (especialmente con uso prolongado)",
+      "Síndrome de abstinencia (ansiedad, insomnio de rebote, temblores, convulsiones) al suspender bruscamente"
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Ketoconazol, Itraconazol, Fluconazol (altas dosis)",
+        "effect": "Inhibición potente de CYP3A4, aumenta drásticamente los niveles de triazolam, riesgo extremo de sedación profunda, depresión respiratoria y muerte. Contraindicado.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Claritromicina, Eritromicina",
+        "effect": "Inhibición de CYP3A4, aumenta significativamente los niveles de triazolam. Se debe evitar la combinación o usar con máxima precaución.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Ritonavir y otros inhibidores de la proteasa del VIH",
+        "effect": "Inhibición potente de CYP3A4, aumento peligroso de los niveles de triazolam. Contraindicado.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Alcohol (etílico)",
+        "effect": "Potenciación sinérgica de la depresión del sistema nervioso central. Aumento severo del riesgo de sedación excesiva, deterioro psicomotor, amnesia, depresión respiratoria y muerte.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Opioides (morfina, oxicodona, tramadol)",
+        "effect": "Potenciación de la depresión del SNC y respiratoria. Riesgo muy alto de sedación profunda, coma, depresión respiratoria y muerte. Se debe evitar o usar con vigilancia extrema.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Otros depresores del SNC (antihistamínicos sedantes, barbitúricos, anestésicos generales)",
+        "effect": "Adición de efectos depresores. Aumenta el riesgo de sedación y deterioro psicomotor.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "El jugo de toronja (pomelo) inhibe fuertemente la CYP3A4 en el intestino y debe EVITARSE por completo, ya que puede aumentar considerablemente la absorción y los niveles sanguíneos del triazolam, incrementando el riesgo de efectos adversos graves. Las comidas grasas pueden retrasar ligeramente la absorción, pero no afectan significativamente su eficacia. El alcohol está estrictamente prohibido.",
+    "withSupplements": "La hierba de San Juan (Hypericum perforatum) puede inducir la enzima CYP3A4, reduciendo potencialmente la efectividad del triazolam. Suplementos con efectos sedantes (como valeriana, kava, melatonina en dosis altas) pueden potenciar la somnolencia. Se debe consultar al médico antes de combinar."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "X",
+      "recommendation": "El triazolam está CONTRAINDICADO durante el embarazo, especialmente en el primer trimestre. Las benzodiazepinas cruzan la placenta y se han asociado con un riesgo aumentado de malformaciones congénitas (como labio leporino) cuando se usan en el primer trimestre. Su uso cerca del parto puede causar síndrome de abstinencia neonatal (hipotonía, dificultad para alimentarse, problemas respiratorios) y 'floppy infant syndrome' (bebé hipotónico). Las mujeres en edad fértil deben usar métodos anticonceptivos efectivos durante el tratamiento.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "El triazolam se excreta en la leche materna en concentraciones bajas. Debido a su alta potencia, vida media corta y potencial de causar sedación, dificultad para alimentarse y pérdida de peso en el lactante, NO se recomienda su uso durante la lactancia. Se debe suspender la lactancia o elegir una alternativa más segura si el tratamiento es absolutamente necesario.",
+    "pediatric": "La seguridad y eficacia del triazolam NO han sido establecidas en pacientes pediátricos (menores de 18 años). Su uso está contraindicado en este grupo de edad debido al riesgo de efectos paradójicos (agitación, agresividad), alteraciones del comportamiento y mayor susceptibilidad a la dependencia.",
+    "geriatric": "Los pacientes de edad avanzada son extremadamente sensibles a los efectos del triazolam. Presentan farmacocinética alterada (metabolismo hepático más lento) y mayor sensibilidad del SNC. El riesgo de sedación excesiva, confusión, ataxia, amnesia, caídas con fracturas (especialmente de cadera) y delirium es muy alto. Se debe usar solo si es estrictamente necesario, a la dosis más baja posible (0.125 mg) y por el menor tiempo. Es un factor de riesgo importante para el deterioro cognitivo."
+  },
+  "administration": {
+    "howToTake": "Tomar POR VÍA ORAL, generalmente una sola dosis inmediatamente antes de acostarse, solo cuando se tenga la oportunidad de dormir 7-8 horas completas e ininterrumpidas. Tragar la tableta entera con un vaso de agua. No triturar, masticar ni partir a menos que el médico lo indique. Tomar exactamente como lo recetó el médico. NO aumentar la dosis por cuenta propia. Si se olvida una dosis y ya es muy tarde para dormir, se debe omitir y tomar la siguiente noche a la hora habitual. NO duplicar la dosis.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (entre 15°C y 30°C), protegido de la luz, la humedad y el calor. Mantener FUERA DEL ALCANCE DE LOS NIÑOS Y MASCOTAS en un lugar seguro y bajo llave, debido a su alto potencial de abuso y riesgo de intoxicación mortal.",
+    "specialInstructions": "Este medicamento puede causar somnolencia severa y disminuir la capacidad de reacción al día siguiente ('resaca'). Evite conducir, operar maquinaria peligrosa o realizar actividades que requieran alerta mental hasta que se conozca cómo le afecta (al menos 8 horas después de tomarlo). Evite el consumo de ALCOHOL y jugo de toronja. No suspenda el tratamiento bruscamente después de un uso prolongado; su médico debe reducir la dosis gradualmente para evitar el síndrome de abstinencia (ansiedad, insomnio de rebote, temblores). Informe a su médico si el insomnio no mejora después de 7-10 días."
+  },
+  "monitoring": {
+    "labTests": [
+      "Función hepática (AST, ALT, bilirrubina, albúmina)",
+      "Conteo sanguíneo completo (CSC) con diferencial",
+      "Evaluación de función renal (creatinina, BUN)",
+      "Evaluación del estado mental y cognitivo"
+    ],
+    "frequency": "Evaluación clínica frecuente (cada 1-2 semanas al inicio) para evaluar eficacia, efectos adversos y signos de dependencia. Pruebas de laboratorio basales y periódicas (cada 6-12 meses) si el uso se prolonga, o si hay sospecha de toxicidad.",
+    "signsToWatch": [
+      "Sedación excesiva o confusión durante el día",
+      "Dificultad para respirar o ronquidos muy fuertes",
+      "Cambios de comportamiento (agitación, agresividad, ideas extrañas)",
+      "Problemas de memoria severos",
+      "Inestabilidad al caminar o caídas",
+      "Signos de dependencia (necesidad de aumentar la dosis para el mismo efecto)",
+      "Síntomas de abstinencia al reducir la dosis"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Somnolencia profunda",
+      "Confusión severa",
+      "Ataxia marcada (incapacidad para caminar)",
+      "Disminución de los reflejos",
+      "Hipotensión (presión baja)",
+      "Depresión respiratoria (dificultad para respirar, respiración lenta y superficial)",
+      "Coma",
+      "Muerte (especialmente si se combina con alcohol u otros depresores)"
+    ],
+    "treatment": "Es una EMERGENCIA MÉDICA. Llamar al 911 o acudir de inmediato al servicio de urgencias. El tratamiento es de soporte: mantener vía aérea, respiración y circulación. Lavado gástrico o carbón activado pueden ser útiles si la ingestión fue reciente (dentro de 1-2 horas). No hay antídoto específico. La flumazenil (un antagonista de benzodiazepinas) puede revertir la depresión del SNC, pero su uso es controvertido en pacientes dependientes por el riesgo de desencadenar convulsiones por abstinencia aguda. Se usa con precaución y solo en entornos hospitalarios con capacidad de reanimación.",
+    "antidote": "Flumazenil (Anexate®), pero con precauciones severas."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (receta controlada).",
+    "scheduleMexico": "Fracción III (Tercera) del Cuadro Básico de Medicamentos. Psicotrópico de prescripción restringida.",
+    "fdaApprovalYear": "Aprobado por la FDA en 1982."
+  },
+  "brandsMexico": [
+    "Halción",
+    "Triazolam Genérico (varios laboratorios)"
+  ],
+  "clinicalPearls": [
+    "El triazolam es una de las benzodiazepinas con mayor riesgo de causar amnesia anterógrada y comportamientos complejos durante el sueño (como sonambulismo, comer o conducir dormido), de los cuales el paciente no tendrá recuerdo.",
+    "Su vida media ultracorta lo hace ideal para el insomnio de inicio, pero causa un alto riesgo de insomnio de rebote y ansiedad matutina, lo que puede llevar a un ciclo de dependencia.",
+    "La interacción con inhibidores de la CYP3A4 (como los azoles antifúngicos) es tan peligrosa que está formalmente contraindicada, siendo un ejemplo clásico de interacción medicamentosa grave en farmacología clínica."
+  ],
+  "patientCounseling": "Este medicamento es para ayudarle a dormir, pero debe usarse con mucho cuidado. Tómelo solo cuando vaya a la cama y tenga tiempo para dormir al menos 7 horas seguidas. Al día siguiente puede sentirse muy somnoliento o mareado, así que NO maneje, no use herramientas ni tome decisiones importantes hasta que estos efectos desaparezcan. Bajo NINGUNA circunstancia mezcle este medicamento con alcohol, pastillas para dormir, medicamentos para la alergia que den sueño o analgésicos fuertes, ya que la combinación puede ser mortal. No tome jugo de toronja mientras esté en tratamiento. Guárdelo bajo llave, lejos de otras personas. Si después de unos días siente que ya no le hace efecto, NO aumente la dosis por su cuenta; consulte a su médico. Si decide dejar de tomarlo después de varias semanas, su médico le indicará cómo reducir la dosis poco a poco para evitar ansiedad, temblores o problemas para dormir aún peores.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Insomnio de inicio",
+        "slug": "insomnio-de-inicio"
+      },
+      {
+        "name": "Dificultad para conciliar el sueño",
+        "slug": "dificultad-para-conciliar-el-sueno"
+      },
+      {
+        "name": "Ansiedad pre-sueño",
+        "slug": "ansiedad-pre-sueno"
+      },
+      {
+        "name": "Despertares nocturnos frecuentes (en algunos casos)",
+        "slug": "despertares-nocturnos-frecuentes"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Insomnio transitorio o a corto plazo",
+        "slug": "insomnio-transitorio"
+      },
+      {
+        "name": "Trastorno de insomnio",
+        "slug": "trastorno-de-insomnio"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Dependencia a benzodiazepinas",
+        "slug": "dependencia-a-benzodiazepinas"
+      },
+      {
+        "name": "Trastorno amnésico inducido por sustancias",
+        "slug": "trastorno-amnesico-inducido-por-sustancias"
+      },
+      {
+        "name": "Delirium por intoxicación",
+        "slug": "delirium-por-intoxicacion"
+      },
+      {
+        "name": "Síndrome de abstinencia de benzodiazepinas",
+        "slug": "sindrome-de-abstinencia-de-benzodiazepinas"
+      },
+      {
+        "name": "Depresión respiratoria",
+        "slug": "depresion-respiratoria"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Enzimas hepáticas (AST, ALT)",
+        "slug": "enzimas-hepaticas",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Bilirrubina total",
+        "slug": "bilirrubina-total",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Recuento de leucocitos",
+        "slug": "recuento-de-leucocitos",
+        "effect": "Puede disminuir (leucopenia)"
+      },
+      {
+        "name": "Recuento de plaquetas",
+        "slug": "recuento-de-plaquetas",
+        "effect": "Puede disminuir (trombocitopenia)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-de-funcion-hepatica",
+        "reason": "Para monitorear toxicidad hepática, ya que se metaboliza en el hígado."
+      },
+      {
+        "name": "Conteo sanguíneo completo",
+        "slug": "conteo-sanguineo-completo",
+        "reason": "Para detectar posibles efectos hematológicos raros como leucopenia."
+      },
+      {
+        "name": "Evaluación de función renal",
+        "slug": "evaluacion-de-funcion-renal",
+        "reason": "Para ajustar dosis en pacientes con insuficiencia renal, ya que los metabolitos se eliminan por riñón."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve exactamente el triazolam?",
+      "a": "El triazolam sirve específicamente para tratar el insomnio severo a corto plazo, es decir, para ayudar a las personas que tienen gran dificultad para conciliar el sueño a que se duerman más rápido. No está diseñado para mantener el sueño toda la noche ni para tratar la ansiedad durante el día."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Actúa muy rápido. Generalmente comienza a hacer efecto entre 15 y 30 minutos después de tomarlo. Por eso se debe tomar justo al acostarse, no antes de realizar otras actividades."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si estoy usando triazolam?",
+      "a": "NO, ABSOLUTAMENTE NO. La combinación de triazolam con alcohol es extremadamente peligrosa. Puede potenciar los efectos depresores, causando somnolencia extrema, pérdida del conocimiento, dificultad para respirar, coma e incluso la muerte."
+    },
+    {
+      "q": "¿El triazolam es adictivo?",
+      "a": "Sí, tiene un alto potencial de causar dependencia física y psicológica, especialmente si se usa por más de 2-4 semanas o en dosis mayores a las recetadas. El cuerpo se acostumbra rápidamente, pudiendo necesitar más dosis para el mismo efecto, y al suspenderlo bruscamente puede causar un síndrome de abstinencia severo."
+    },
+    {
+      "q": "¿Puedo manejar al día siguiente de haberlo tomado?",
+      "a": "Es muy riesgoso. El triazolam puede causar una 'resaca' o somnolencia diurna significativa, además de mareo y lentitud en los reflejos. No debe conducir, operar maquinaria o realizar actividades que requieran alerta hasta que esté seguro de que estos efectos han desaparecido completamente, lo que puede tardar más de 8 horas."
+    },
+    {
+      "q": "¿Qué pasa si tomo una dosis más alta de la recetada?",
+      "a": "Aumenta drásticamente el riesgo de efectos adversos graves: somnolencia profunda, confusión, pérdida de la coordinación, amnesia (no recordar lo que hizo), depresión respiratoria y muerte, especialmente si se combina con otras sustancias. Nunca se automedique ni ajuste la dosis sin consultar a su médico."
+    },
+    {
+      "q": "¿Por cuánto tiempo se puede tomar?",
+      "a": "Solo por el período más corto posible. Generalmente no se recomienda su uso por más de 7 a 10 días seguidos. El uso prolongado aumenta exponencialmente el riesgo de dependencia, tolerancia (que ya no haga efecto) y efectos adversos graves. No es una solución a largo plazo para el insomnio."
+    },
+    {
+      "q": "¿Puedo tomarlo si estoy embarazada o planeando embarazarme?",
+      "a": "NO. El triazolam está CONTRAINDICADO en el embarazo (categoría X). Puede causar daños al bebé, incluyendo malformaciones si se usa al principio, y síndrome de abstinencia o hipotonía si se usa cerca del parto. Si está en edad fértil, debe usar un método anticonceptivo efectivo durante el tratamiento."
+    },
+    {
+      "q": "¿Qué debo hacer si se me olvida tomar una dosis?",
+      "a": "Si se le olvida y ya es muy tarde (por ejemplo, si ya es de madrugada), simplemente omita esa dosis. Tome la siguiente dosis a la hora habitual de la noche siguiente. NUNCA duplique la dosis para compensar el olvido, ya que esto puede causar una sobredosis."
+    },
+    {
+      "q": "¿El triazolam me hará dormir toda la noche de un tirón?",
+      "a": "No necesariamente. Su efecto principal es ayudarle a conciliar el sueño. Su duración es corta (4-6 horas), por lo que es posible que se despierte antes de lo deseado. No está diseñado como un hipnótico de acción prolongada para mantener el sueño."
+    },
+    {
+      "q": "¿Puedo combinarlo con otros medicamentos para dormir o para la ansiedad?",
+      "a": "Es muy peligroso. No lo combine con otros somníferos, ansiolíticos, relajantes musculares, antialérgicos que den sueño o analgésicos opioides sin la supervisión explícita de su médico. La combinación puede deprimir severamente su sistema nervioso y respiratorio."
+    },
+    {
+      "q": "¿Por qué el médico me pide no tomar jugo de toronja?",
+      "a": "El jugo de toronja (pomelo) bloquea una enzima en su intestino e hígado (CYP3A4) que es crucial para procesar el triazolam. Al bloquearla, su cuerpo absorbe y retiene mucho más medicamento del normal, aumentando el riesgo de una sobredosis accidental con efectos graves."
+    },
+    {
+      "q": "¿Qué es la 'amnesia anterógrada' que puede causar?",
+      "a": "Es un efecto secundario común donde usted no logra formar nuevos recuerdos mientras el medicamento está activo. Puede hacer cosas como hablar por teléfono, comer o incluso conducir (sonambulismo) y al día siguiente no recordar absolutamente nada de lo sucedido. Es un efecto peligroso y desconcertante."
+    },
+    {
+      "q": "¿Es normal despertarse con mucha ansiedad o nerviosismo por la mañana?",
+      "a": "Sí, puede ocurrir. Se llama 'ansiedad de rebote' o 'insomnio de rebote'. Debido a que el triazolam sale de su cuerpo muy rápido, puede haber un efecto de 'rebote' donde los síntomas de ansiedad o insomnio regresan, incluso peores, por la mañana. Esto es una señal de que el medicamento no es adecuado para un uso prolongado."
+    },
+    {
+      "q": "¿Qué hago si siento que el triazolam ya no me hace efecto?",
+      "a": "NUNCA aumente la dosis por su cuenta. Esto es una señal de que está desarrollando tolerancia, un paso hacia la dependencia. Debe informar a su médico inmediatamente. Él evaluará si es necesario ajustar el tratamiento, cambiar de medicamento o abordar las causas subyacentes de su insomnio con terapias no farmacológicas."
+    },
+    {
+      "q": "¿Cómo debo suspender el tratamiento si lo he tomado por varias semanas?",
+      "a": "NO lo suspenda de golpe. Debe hacerlo bajo la guía de su médico, quien le dará un plan para reducir la dosis gradualmente (desintoxicación). Suspenderlo bruscamente después de un uso prolongado puede desencadenar un síndrome de abstinencia grave, con ansiedad intensa, insomnio rebelde, temblores, sudoración y en casos severos, convulsiones."
+    },
+    {
+      "q": "¿Puede el triazolam causar sonambulismo o comer dormido?",
+      "a": "Sí, es un efecto adverso bien documentado, aunque no muy común. Las benzodiazepinas, especialmente las de vida corta como el triazolam, pueden desinhibir conductas complejas durante el sueño, como caminar, comer, hablar por teléfono o incluso conducir, sin que la persona tenga consciencia ni recuerdo al despertar. Es un efecto muy peligroso."
+    },
+    {
+      "q": "¿En qué se diferencia el triazolam de otros medicamentos para dormir como el zolpidem?",
+      "a": "Ambos son hipnóticos, pero pertenecen a clases diferentes. El triazolam es una benzodiazepina 'clásica' con mayor riesgo de dependencia, amnesia y síndrome de abstinencia. El zolpidem es un 'no-benzodiazepínico' (agonista de receptores GABA selectivo) que teóricamente tiene menos riesgos, pero aún así puede causar dependencia y conductas complejas durante el sueño. El triazolam es de acción más rápida y corta."
+    },
+    {
+      "q": "¿Por qué es un medicamento controlado y requiere receta especial?",
+      "a": "Por su alto potencial de abuso, dependencia y uso recreativo. Puede producir euforia y desinhibición. Además, su mal uso (especialmente combinado con otras sustancias) tiene un riesgo mortal. La receta controlada (fracción III en México) permite un seguimiento más estricto de su prescripción y dispensación para tratar de prevenir estos riesgos."
+    },
+    {
+      "q": "¿Cuál es la interacción más peligrosa que debo conocer como paciente?",
+      "a": "La interacción MÁS PELIGROSA es con los medicamentos antifúngicos como el ketoconazol o itraconazol (y otros inhibidores potentes de la CYP3A4). Esta combinación está formalmente contraindicada porque puede aumentar los niveles de triazolam hasta 20 veces, causando una intoxicación grave con riesgo vital. Siempre informe a todos sus médicos que está tomando triazolam antes de que le receten cualquier otro medicamento."
+    }
+  ]
+}

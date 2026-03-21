@@ -1,0 +1,381 @@
+{
+  "name": "Ceftibuteno",
+  "summary": "El ceftibuteno es un antibiótico de la familia de las cefalosporinas de tercera generación, que se administra por vía oral. Sirve para tratar infecciones causadas por bacterias sensibles, especialmente aquellas que afectan las vías respiratorias (como bronquitis, faringitis y sinusitis), las vías urinarias y la piel. Su importancia clínica radica en que es muy efectivo contra bacterias comunes que se han vuelto resistentes a otros antibióticos más antiguos, como la amoxicilina. Al ser un medicamento que se toma por boca, evita la necesidad de inyecciones en muchos casos, lo que lo hace más cómodo para el paciente. Es crucial tomarlo exactamente como lo indica el médico, completando todo el tratamiento, aunque los síntomas desaparezcan antes, para evitar que la infección regrese o que las bacterias desarrollen resistencia al medicamento.",
+  "pharmacology": {
+    "mechanismOfAction": "El ceftibuteno actúa como un antibiótico bactericida, es decir, mata directamente a las bacterias. Lo hace interfiriendo con la síntesis de la pared celular bacteriana, una estructura esencial que protege y da forma a la bacteria. Se une específicamente a unas proteínas llamadas Proteínas Fijadoras de Penicilina (PBP) que están en la membrana de la bacteria. Esta unión bloquea el último paso de la formación de la pared celular, conocido como transpeptidación. Como resultado, la bacteria no puede construir ni reparar su pared celular correctamente. Al estar debilitada y sin su escudo protector, la bacteria absorbe demasiada agua, se hincha y finalmente estalla (lisis), muriendo. Es especialmente activo contra bacterias Gram-negativas, pero también cubre algunos Gram-positivos.",
+    "pharmacologicClass": "Antibiótico beta-lactámico; Cefalosporina de tercera generación (oral).",
+    "therapeuticClass": "Antibiótico sistémico.",
+    "absorption": "Se absorbe bien por vía oral en el tracto gastrointestinal. La presencia de alimentos puede retrasar ligeramente su absorción y disminuir la concentración máxima en sangre (Cmax) en aproximadamente un 25%, pero no afecta significativamente la cantidad total de medicamento que llega al cuerpo (AUC). Por esta razón, puede tomarse con o sin alimentos, aunque se recomienda tomarlo con el estómago vacío (1 hora antes o 2 horas después de comer) para una absorción óptima.",
+    "distribution": "Se distribuye ampliamente en los tejidos y fluidos corporales. Tiene una buena penetración en tejidos como las amígdalas, el líquido del oído medio, el esputo (flemas) y el líquido prostático. Su unión a proteínas plasmáticas (principalmente albúmina) es baja, aproximadamente del 65%. Esto significa que una buena parte del medicamento circula libre en la sangre y está disponible para llegar a los sitios de infección. Su volumen de distribución (Vd) es de aproximadamente 0.2 L/kg, indicando que se distribuye principalmente en el plasma y el líquido extracelular.",
+    "metabolism": "El ceftibuteno no sufre un metabolismo hepático significativo. No es sustrato del sistema enzimático del citocromo P450 (CYP450). Se elimina principalmente sin cambios por el riñón. Esto es una ventaja porque reduce el riesgo de interacciones medicamentosas con otros fármacos que sí se metabolizan en el hígado.",
+    "elimination": "Se elimina principalmente por vía renal, a través de la filtración glomerular. Más del 90% de la dosis administrada se excreta sin cambios en la orina en las primeras 24 horas. Su vida media de eliminación en adultos con función renal normal es de aproximadamente 2 a 3 horas. En pacientes con insuficiencia renal grave, esta vida media puede prolongarse significativamente (hasta 20 horas o más), por lo que es necesario ajustar la dosis.",
+    "onsetOfAction": "Los niveles en sangre comienzan a ser detectables entre 1 y 3 horas después de la administración oral. El alivio sintomático (como la disminución de la fiebre o el dolor) puede notarse en 24 a 48 horas, dependiendo de la gravedad de la infección.",
+    "durationOfAction": "Debido a su vida media y a su efecto post-antibiótico (capacidad de seguir suprimiendo el crecimiento bacteriano después de que la concentración del fármaco ha caído por debajo del nivel mínimo inhibitorio), se administra generalmente cada 24 horas (una vez al día) para la mayoría de las infecciones. Esto favorece el cumplimiento del tratamiento por parte del paciente."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones agudas de las vías respiratorias bajas (exacerbación aguda de bronquitis crónica) causadas por Haemophilus influenzae y Moraxella catarrhalis.",
+      "Faringitis y amigdalitis causadas por Streptococcus pyogenes (Estreptococo del grupo A).",
+      "Otitis media aguda causada por Haemophilus influenzae, Moraxella catarrhalis y Streptococcus pneumoniae.",
+      "Infecciones no complicadas de las vías urinarias (cistitis aguda) causadas por Escherichia coli y Klebsiella pneumoniae."
+    ],
+    "offLabel": [
+      "Profilaxis de infecciones en pacientes con riesgo (uso limitado y bajo criterio médico estricto).",
+      "Tratamiento de infecciones de piel y tejidos blandos leves a moderadas causadas por bacterias susceptibles.",
+      "Sinusitis aguda bacteriana cuando los patógenos sospechosos son sensibles."
+    ]
+  },
+  "dosage": {
+    "adults": "Para la mayoría de las infecciones: 400 mg una vez al día, durante 5 a 10 días. Para faringitis/amigdalitis por S. pyogenes: 400 mg una vez al día durante 10 días. Para exacerbación de bronquitis crónica: 400 mg una vez al día durante 5 a 10 días.",
+    "pediatric": "Niños mayores de 6 meses: La dosis se basa en el peso corporal. Dosis habitual: 9 mg por kilogramo de peso, una vez al día (máximo 400 mg al día). Para otitis media: 9 mg/kg una vez al día durante 10 días. Para faringitis/amigdalitis: 9 mg/kg una vez al día durante 10 días.",
+    "elderly": "En adultos mayores con función renal normal, se usa la misma dosis que en adultos (400 mg/día). Es fundamental evaluar la función renal (TFG) antes de iniciar el tratamiento, ya que suele estar disminuida en esta población.",
+    "renalImpairment": "Ajustes necesarios según el aclaramiento de creatinina (CrCl): CrCl 30-49 mL/min: 200 mg cada 24 horas o 400 mg cada 48 horas. CrCl 5-29 mL/min: 100 mg cada 24 horas o 200 mg cada 48 horas. CrCl <5 mL/min (o en diálisis): 100 mg cada 48 horas. Administrar la dosis después de una sesión de hemodiálisis.",
+    "hepaticImpairment": "No se requieren ajustes de dosis específicos, ya que el ceftibuteno no se metaboliza en el hígado. Sin embargo, en casos de insuficiencia hepática grave, se debe monitorizar al paciente de cerca.",
+    "maxDose": "La dosis máxima diaria para adultos es de 400 mg. Para niños, la dosis máxima es de 400 mg/día, independientemente del cálculo por peso."
+  },
+  "dosageForms": [
+    {
+      "form": "Cápsula",
+      "strengths": [
+        "400 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Polvo para suspensión oral",
+      "strengths": [
+        "36 mg/mL (reconstituido)"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad (alergia) conocida al ceftibuteno, a cualquier cefalosporina o a cualquier componente de la formulación.",
+      "Pacientes con antecedentes de reacción anafiláctica (alergia grave) a cualquier antibiótico beta-lactámico (penicilinas, cefalosporinas, carbapenémicos, monobactámicos)."
+    ],
+    "relative": [
+      "Insuficiencia renal grave (ajustar dosis, no es contraindicación absoluta).",
+      "Antecedentes de colitis pseudomembranosa (inflamación del colon por C. difficile) asociada a antibióticos.",
+      "Pacientes con fenilcetonuria (la suspensión oral puede contener aspartamo)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Diarrea (puede ser desde leve hasta severa, incluyendo colitis por C. difficile).",
+      "Náuseas.",
+      "Dolor de cabeza."
+    ],
+    "common": [
+      "Dolor abdominal.",
+      "Vómitos.",
+      "Indigestión (dispepsia).",
+      "Mareos.",
+      "Erupción cutánea (rash)."
+    ],
+    "uncommon": [
+      "Prurito (comezón).",
+      "Colitis pseudomembranosa (diarrea severa con fiebre y dolor abdominal).",
+      "Candidiasis vaginal (infección por hongos).",
+      "Aumento de enzimas hepáticas (transaminasas).",
+      "Leucopenia (disminución de glóbulos blancos)."
+    ],
+    "rare": [
+      "Reacciones de hipersensibilidad severas (anafilaxia, angioedema, síndrome de Stevens-Johnson).",
+      "Anemia hemolítica (destrucción de glóbulos rojos).",
+      "Convulsiones (especialmente en pacientes con insuficiencia renal no ajustada).",
+      "Nefritis intersticial (inflamación del riñón)."
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Probenecid",
+        "effect": "El probenecid bloquea la secreción tubular renal del ceftibuteno, aumentando sus niveles en sangre y prolongando su efecto. Puede ser utilizado terapéuticamente para este fin, pero requiere monitorización.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Anticoagulantes orales (Warfarina, Acenocumarol)",
+        "effect": "El ceftibuteno puede potenciar el efecto anticoagulante, aumentando el riesgo de sangrado. Se debe monitorizar estrechamente el INR.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Otros antibióticos de amplio espectro",
+        "effect": "El uso concomitante aumenta el riesgo de colitis pseudomembranosa por sobrecrecimiento de Clostridium difficile.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Los alimentos pueden retrasar y disminuir ligeramente la absorción máxima (Cmax) del ceftibuteno. Se recomienda tomarlo con el estómago vacío (1 hora antes o 2 horas después de las comidas) para una absorción óptima, aunque si causa malestar estomacal, puede tomarse con alimentos. El consumo de alcohol no interfiere directamente con el medicamento, pero puede empeorar efectos secundarios como náuseas o mareos, y no es recomendable durante una infección.",
+    "withSupplements": "Los suplementos que contienen altas dosis de calcio, hierro, zinc o magnesio (como multivitamínicos o antiácidos) pueden quelar (unirse) al ceftibuteno en el intestino, reduciendo su absorción. Se debe separar la administración del antibiótico y estos suplementos por al menos 2 a 3 horas. Los probióticos pueden ser beneficiosos para prevenir la diarrea asociada a antibióticos."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "B",
+      "recommendation": "Los estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. Debe usarse durante el embarazo solo si claramente es necesario, después de que el médico evalúe los beneficios versus los riesgos potenciales. No se considera teratógeno.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "El ceftibuteno se excreta en la leche materna en cantidades muy bajas. Se considera generalmente compatible con la lactancia, ya que es poco probable que cause efectos adversos en el lactante, especialmente si es mayor de 2 meses. Sin embargo, se debe observar al bebé por posibles efectos como diarrea o candidiasis (algodoncillo).",
+    "pediatric": "Aprobado para uso en niños mayores de 6 meses. La dosis se calcula cuidadosamente por peso corporal. La presentación en suspensión es la más adecuada para esta población. Es importante completar el ciclo completo de tratamiento, especialmente en faringitis estreptocócica para prevenir la fiebre reumática.",
+    "geriatric": "Los pacientes mayores de 65 años tienen mayor probabilidad de tener función renal disminuida. Es IMPRESCINDIBLE calcular la tasa de filtración glomerular (TFG) antes de iniciar el tratamiento y ajustar la dosis en consecuencia. También son más susceptibles a la diarrea asociada a antibióticos y a la colitis por C. difficile."
+  },
+  "administration": {
+    "howToTake": "Las cápsulas deben tragarse enteras con un vaso lleno de agua (aproximadamente 240 ml). No se deben masticar, partir o triturar. La suspensión oral debe agitarse bien antes de cada uso. Utilice el dosificador (jeringa o cuchara) que viene en el empaque para medir la dosis exacta. Se recomienda tomar el medicamento con el estómago vacío (1 hora antes o 2 horas después de comer) para una mejor absorción, pero si causa malestar estomacal, puede tomarlo con alimentos. Tome el medicamento a la misma hora todos los días para no olvidar una dosis.",
+    "storage": "Cápsulas: Almacenar a temperatura ambiente (15-30°C), en un lugar seco y fuera del alcance de los niños. Suspensión reconstituida: Conservar en refrigeración (2-8°C). No congelar. La suspensión es estable por 14 días después de su reconstitución. Deseche cualquier porción no utilizada después de este tiempo. Mantenga el frasco bien cerrado.",
+    "specialInstructions": "Es fundamental completar TODO el tratamiento prescrito, incluso si se siente mejor después de unos días. Suspenderlo antes de tiempo puede hacer que la infección regrese y que las bacterias desarrollen resistencia. Si olvida una dosis, tómela tan pronto como lo recuerde, pero si ya es casi la hora de la siguiente dosis, omita la dosis olvidada y continúe con su horario normal. NO duplique la dosis para compensar la olvidada. Informe a su médico inmediatamente si presenta diarrea acuosa o con sangre, fiebre y dolor abdominal intenso durante o después del tratamiento."
+  },
+  "monitoring": {
+    "labTests": [
+      "Cultivo y antibiograma del sitio de infección (esputo, orina, exudado faríngeo) antes de iniciar el tratamiento, si es posible.",
+      "Función renal: Creatinina sérica y cálculo de TFG (especialmente en adultos mayores, niños pequeños y pacientes con riesgo).",
+      "Recuento sanguíneo completo (CSC) en tratamientos prolongados (>10 días).",
+      "Pruebas de función hepática (transaminasas) en tratamientos largos o en pacientes con enfermedad hepática preexistente."
+    ],
+    "frequency": "La función renal debe evaluarse al inicio del tratamiento y periódicamente si el tratamiento es prolongado o si el paciente tiene riesgo. Los signos clínicos (respuesta a la infección, aparición de diarrea) deben monitorizarse diariamente.",
+    "signsToWatch": [
+      "Fiebre que no cede o que reaparece después de 48-72 horas de tratamiento.",
+      "Aparición de diarrea acuosa, severa o con sangre/mucosidad.",
+      "Erupción cutánea, urticaria, hinchazón de labios/lengua (signos de alergia).",
+      "Dificultad para respirar o tragar.",
+      "Fatiga extrema, palidez (signos de anemia).",
+      "Dolor al orinar o cambios en la frecuencia urinaria (en infecciones urinarias)."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Náuseas y vómitos severos.",
+      "Diarrea profusa.",
+      "Convulsiones (especialmente en pacientes con insuficiencia renal).",
+      "Alteraciones en los electrolitos por la diarrea."
+    ],
+    "treatment": "El tratamiento es de soporte y sintomático. No existe un antídoto específico. En caso de ingestión reciente, se puede considerar el lavado gástrico o la administración de carbón activado. Las convulsiones se tratan con benzodiacepinas. En pacientes con insuficiencia renal grave, la hemodiálisis puede ayudar a eliminar el ceftibuteno del torrente sanguíneo (elimina aproximadamente el 30% de la dosis). Se debe mantener la hidratación y el equilibrio electrolítico.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Rx).",
+    "scheduleMexico": "Medicamento de patente, sujeto a prescripción médica. No está incluido en el cuadro básico de medicamentos del Sector Salud, pero está disponible en el mercado privado.",
+    "fdaApprovalYear": "Aprobado por la FDA de Estados Unidos en 1995."
+  },
+  "brandsMexico": [
+    "Cedax",
+    "Ceftibuteno",
+    "Cefibac",
+    "Cefiten",
+    "Ceftron",
+    "Ibicem",
+    "Protexin",
+    "Tibucel",
+    "Zibuten"
+  ],
+  "clinicalPearls": [
+    "Es una excelente opción oral para infecciones respiratorias por Haemophilus influenzae productor de beta-lactamasa, donde la amoxicilina/clavulánico podría no ser tolerado.",
+    "Su dosificación de una vez al día mejora significativamente la adherencia al tratamiento comparado con antibióticos que se toman 2 o 3 veces al día.",
+    "Aunque es una cefalosporina de 3ra generación, NO tiene actividad confiable contra Pseudomonas aeruginosa ni enterococos. No debe usarse empíricamente para infecciones donde estos patógenos sean sospechosos.",
+    "En faringitis estreptocócica, un ciclo completo de 10 días es MANDATORIO para erradicar la bacteria y prevenir complicaciones no supurativas como la fiebre reumática.",
+    "La diarrea es el efecto adverso más común. Educar al paciente para que informe de inmediato si es severa o sanguinolenta, para descartar colitis por C. difficile."
+  ],
+  "patientCounseling": "Tome este antibiótico exactamente como se lo recetó su médico. No suspenda el tratamiento aunque se sienta mejor, porque la infección podría no estar curada del todo y volver más fuerte. Tómelo preferentemente con el estómago vacío (1 hora antes o 2 horas después de comer) con un vaso lleno de agua. Si le causa malestar en el estómago, puede tomarlo con un poco de comida. Agite bien el frasco de la suspensión antes de medir cada dosis. Use la jeringa o cuchara que viene en la caja para dar la dosis exacta a los niños. Guarde la suspensión ya preparada en el refrigerador y bótela después de 14 días. Este medicamento puede causar diarrea. Si esta es leve, tome suficientes líquidos. Pero si es muy fuerte, acuosa, con sangre o moco, o viene con fiebre y dolor de estómago, DEJE de tomar el medicamento y llame a su médico de inmediato. Este antibiótico puede hacer que los métodos anticonceptivos hormonales (pastillas, parches) sean menos efectivos; use un método de barrera adicional (condón) mientras lo toma y hasta el siguiente ciclo menstrual. Informe a su médico si presenta sarpullido, dificultad para respirar o hinchazón de cara/labios.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre",
+        "slug": "fiebre"
+      },
+      {
+        "name": "Dolor de garganta",
+        "slug": "dolor-de-garganta"
+      },
+      {
+        "name": "Tos con flemas",
+        "slug": "tos-con-flemas"
+      },
+      {
+        "name": "Dolor al orinar",
+        "slug": "disuria"
+      },
+      {
+        "name": "Secreción nasal espesa",
+        "slug": "rinorrea-espesa"
+      },
+      {
+        "name": "Dolor de oído",
+        "slug": "otalgia"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Bronquitis aguda",
+        "slug": "bronquitis-aguda"
+      },
+      {
+        "name": "Faringitis estreptocócica",
+        "slug": "faringitis-estreptococica"
+      },
+      {
+        "name": "Otitis media aguda",
+        "slug": "otitis-media-aguda"
+      },
+      {
+        "name": "Cistitis aguda no complicada",
+        "slug": "cistitis-aguda"
+      },
+      {
+        "name": "Sinusitis aguda bacteriana",
+        "slug": "sinusitis-aguda"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Colitis pseudomembranosa",
+        "slug": "colitis-pseudomembranosa"
+      },
+      {
+        "name": "Insuficiencia renal aguda",
+        "slug": "insuficiencia-renal-aguda"
+      },
+      {
+        "name": "Reacción anafiláctica",
+        "slug": "anafilaxia"
+      },
+      {
+        "name": "Candidiasis vaginal/oral",
+        "slug": "candidiasis"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevarse (raro, por nefritis)"
+      },
+      {
+        "name": "Transaminasas (ALT/AST)",
+        "slug": "transaminasas",
+        "effect": "Puede elevarse levemente"
+      },
+      {
+        "name": "Recuento de leucocitos",
+        "slug": "leucocitos",
+        "effect": "Puede disminuir (leucopenia)"
+      },
+      {
+        "name": "INR (Tiempo de protrombina)",
+        "slug": "inr",
+        "effect": "Puede elevarse (aumenta riesgo de sangrado)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Urocultivo y antibiograma",
+        "slug": "urocultivo",
+        "reason": "Para confirmar infección urinaria y sensibilidad al ceftibuteno."
+      },
+      {
+        "name": "Cultivo de exudado faríngeo",
+        "slug": "cultivo-faringeo",
+        "reason": "Para diagnosticar faringitis estreptocócica."
+      },
+      {
+        "name": "Creatinina sérica y TFG",
+        "slug": "tasa-filtracion-glomerular",
+        "reason": "Para ajustar dosis y prevenir toxicidad renal."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de eGFR",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Puedo tomar ceftibuteno si soy alérgico a la penicilina?",
+      "a": "Debe tener MUCHO cuidado. Existe una reacción cruzada aproximada del 10% entre penicilinas y cefalosporinas. Si su alergia a la penicilina fue leve (solo sarpullido), su médico podría considerar el ceftibuteno. Si fue una reacción grave (anafilaxia, hinchazón de garganta), generalmente está contraindicado. NUNCA se automedique, consulte siempre a su médico."
+    },
+    {
+      "q": "¿Con qué alimentos o bebidas debo tener cuidado?",
+      "a": "Puede tomarlo con o sin alimentos, pero para mejor absorción tómelo con el estómago vacío. Evite tomar al mismo tiempo suplementos de calcio, hierro o antiácidos; sepárelos por al menos 2-3 horas. El alcohol no interfiere directamente, pero puede aumentar las náuseas y no ayuda a su recuperación."
+    },
+    {
+      "q": "Me dieron la suspensión para mi hijo, ¿cómo debo guardarla?",
+      "a": "Una vez preparada (mezclando el polvo con agua), debe guardarse en el REFRIGERADOR (no en el congelador). Agítela bien antes de cada uso. Bótela después de 14 días, aunque le quede medicamento. Use siempre el dosificador (jeringa o cuchara) de la caja."
+    },
+    {
+      "q": "¿Qué hago si olvidé una dosis?",
+      "a": "Tómela tan pronto como se acuerde. Pero si ya es casi la hora de su siguiente dosis, sáltese la dosis olvidada y continúe con su horario normal. NO tome una dosis doble para compensar."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Puede empezar a sentirse mejor (menos fiebre, menos dolor) en 24 a 48 horas. Sin embargo, es crucial terminar TODOS los días de tratamiento que le recetó el médico, aunque se sienta bien, para evitar que la infección regrese."
+    },
+    {
+      "q": "¿Puede este antibiótico afectar mis pastillas anticonceptivas?",
+      "a": "Sí, la mayoría de los antibióticos, incluyendo el ceftibuteno, pueden disminuir la efectividad de las pastillas anticonceptivas hormonales. Use un método de barrera adicional (como condón) mientras toma el antibiótico y hasta el siguiente ciclo menstrual completo."
+    },
+    {
+      "q": "¿Por qué me dio diarrea con el medicamento?",
+      "a": "La diarrea es un efecto secundario común porque el antibiótico altera el equilibrio normal de bacterias en su intestino. Si es leve, tome muchos líquidos. Si es severa, acuosa, con sangre, fiebre o dolor abdominal fuerte, DEJE el medicamento y llame a su médico, podría ser una colitis grave."
+    },
+    {
+      "q": "¿Sirve para la gripe o el resfriado?",
+      "a": "NO. El ceftibuteno es para infecciones BACTERIANAS. La gripe y el resfriado común son causados por VIRUS. Tomar un antibiótico para una infección viral no sirve de nada, puede causar efectos secundarios innecesarios y contribuir a la resistencia bacteriana."
+    },
+    {
+      "q": "¿Puedo tomarlo si estoy embarazada o amamantando?",
+      "a": "Embarazo: Solo si su médico lo considera estrictamente necesario después de evaluar riesgos y beneficios. Lactancia: Se puede usar con precaución, ya que pasa a la leche en cantidades muy bajas. Observe a su bebé por si presenta diarrea o irritación en la boca (algodoncillo)."
+    },
+    {
+      "q": "¿Es normal sentir náuseas o dolor de cabeza?",
+      "a": "Sí, son efectos secundarios comunes. Tomar el medicamento con un poco de comida puede ayudar con las náuseas. Si el dolor de cabeza es muy intenso o persistente, consulte a su médico."
+    },
+    {
+      "q": "¿Qué pasa si tomo más de la dosis indicada?",
+      "a": "Podría sufrir náuseas, vómitos y diarrea severos. En casos extremos, especialmente si tiene problemas renales, podría tener convulsiones. Si toma una sobredosis, acuda inmediatamente a un servicio de urgencias o llame al centro de toxicología."
+    },
+    {
+      "q": "¿Necesito hacerme algún análisis de sangre mientras lo tomo?",
+      "a": "Generalmente no, para tratamientos cortos (5-10 días). Si tiene problemas renales preexistentes, es mayor de 65 años, o el tratamiento es muy largo, su médico podría pedir pruebas de función renal (creatinina) o un hemograma."
+    },
+    {
+      "q": "¿El ceftibuteno es fuerte?",
+      "a": "Es un antibiótico efectivo para ciertas bacterias específicas, especialmente algunas que son resistentes a antibióticos más antiguos. Su 'fortaleza' depende de que la bacteria que causa su infección sea sensible a él. Por eso el cultivo y antibiograma son importantes."
+    },
+    {
+      "q": "¿Puedo hacer ejercicio mientras tomo este antibiótico?",
+      "a": "Es mejor guardar reposo relativo mientras su cuerpo combate la infección. El ejercicio intenso puede debilitarlo más. Escuche a su cuerpo; si tiene fiebre o se siente muy cansado, descanse."
+    },
+    {
+      "q": "¿Interactúa con otros medicamentos que tomo para la presión o el corazón?",
+      "a": "No tiene interacciones directas graves con la mayoría de los antihipertensivos. Sin embargo, si toma warfarina o acenocumarol (anticoagulantes), el ceftibuteno puede aumentar su efecto y el riesgo de sangrado. Informe siempre a su médico de TODOS los medicamentos que usa."
+    },
+    {
+      "q": "¿Por qué el tratamiento para la infección de garganta es de 10 días exactos?",
+      "a": "Para erradicar completamente la bacteria Streptococcus pyogenes. Si no se elimina por completo, aunque desaparezcan los síntomas, puede causar complicaciones graves semanas después, como fiebre reumática (que daña el corazón) o glomerulonefritis (daño renal)."
+    },
+    {
+      "q": "Mi hijo tiene otitis, ¿cuánto tarda en mejorar el dolor de oído?",
+      "a": "Con el tratamiento adecuado, el dolor y la fiebre suelen mejorar en 48-72 horas. Es posible que el médico le recete también un analgésico como ibuprofeno o paracetamol para el dolor los primeros días. Si el dolor empeora o no mejora después de 3 días, consulte nuevamente."
+    },
+    {
+      "q": "¿Puedo tomar probióticos junto con el ceftibuteno?",
+      "a": "Sí, de hecho es recomendable. Los probióticos (como Lactobacillus) pueden ayudar a mantener el equilibrio de la flora intestinal y reducir el riesgo de diarrea asociada a antibióticos. Tome el probiótico con un intervalo de 2 a 3 horas respecto al antibiótico."
+    },
+    {
+      "q": "¿Qué diferencia hay entre ceftibuteno y amoxicilina con ácido clavulánico?",
+      "a": "Ambos son antibióticos de amplio espectro. El ceftibuteno es una cefalosporina de 3ra generación, más específica para bacterias Gram-negativas como H. influenzae. El amoxicilina/clavulánico es una penicilina protegida, con un espectro más amplio que incluye más bacterias Gram-positivas y anaerobios. Su médico elige según el tipo de infección sospechada."
+    },
+    {
+      "q": "¿Cuál es la principal ventaja de tomar el medicamento una sola vez al día?",
+      "a": "La principal ventaja es la ADHERENCIA AL TRATAMIENTO. Es mucho más fácil recordar y tomar un medicamento una vez al día que dos o tres veces. Esto asegura que el paciente complete el ciclo completo, lo cual es fundamental para la curación y para prevenir la resistencia bacteriana."
+    }
+  ]
+}

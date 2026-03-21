@@ -1,0 +1,382 @@
+{
+  "name": "Paracetamol (Acetaminofén) Intravenoso",
+  "summary": "El Paracetamol Intravenoso (IV) es un medicamento analgésico (para el dolor) y antipirético (para la fiebre) que se administra directamente en la vena. Se utiliza principalmente en hospitales para tratar el dolor moderado y la fiebre en pacientes que no pueden tomar medicamentos por boca, como aquellos en recuperación de cirugías, con náuseas intensas, o en cuidados intensivos. Su importancia clínica radica en que ofrece un alivio rápido y predecible del dolor, es una alternativa más segura para el estómago que los antiinflamatorios como el ibuprofeno, y es una herramienta fundamental en el manejo multimodal del dolor, ayudando a reducir la necesidad de opioides más fuertes y sus efectos secundarios como el estreñimiento y la somnolencia. Al ser administrado por vía intravenosa, evita el paso por el sistema digestivo, lo que permite un efecto más rápido y una dosificación más precisa, especialmente crucial en el entorno perioperatorio y en pacientes críticos.",
+  "pharmacology": {
+    "mechanismOfAction": "El mecanismo de acción exacto del paracetamol no está completamente dilucidado, pero se cree que actúa principalmente a nivel del sistema nervioso central (cerebro y médula espinal). Inhibe la enzima ciclooxigenasa (COX), especialmente la variante COX-3 en el cerebro, lo que reduce la producción de prostaglandinas, sustancias químicas que promueven el dolor, la inflamación y la fiebre. A diferencia de los antiinflamatorios no esteroideos (AINEs) como el naproxeno, el paracetamol tiene un efecto antiinflamatorio muy débil en el resto del cuerpo. También se propone que activa las vías serotoninérgicas (relacionadas con la serotonina) y los receptores cannabinoides en el cerebro, lo que contribuye a su efecto analgésico. Su acción antipirética se debe a su efecto en el centro termorregulador del hipotálamo en el cerebro.",
+    "pharmacologicClass": "Analgésico no opioide, Antipirético, Inhibidor de la ciclooxigenasa (COX) central",
+    "therapeuticClass": "Analgésico y Antipirético",
+    "absorption": "No aplica para la vía intravenosa, ya que la biodisponibilidad es del 100% al administrarse directamente en el torrente sanguíneo. El efecto es rápido y evita las variaciones en la absorción que pueden ocurrir por vía oral.",
+    "distribution": "Se distribuye rápidamente y de manera uniforme en la mayoría de los tejidos y fluidos corporales después de la administración IV. Su unión a proteínas plasmáticas es baja (aproximadamente 10-25%). Su volumen de distribución (Vd) es de aproximadamente 0.9 L/kg, lo que indica que se distribuye bien en el agua corporal total.",
+    "metabolism": "El paracetamol se metaboliza principalmente en el hígado. La mayor parte (aproximadamente 90%) se conjuga con ácido glucurónico y sulfato para formar metabolitos inactivos y no tóxicos que se eliminan por la orina. Una pequeña fracción (menos del 5%) es metabolizada por el sistema enzimático del citocromo P450, específicamente por las isoenzimas CYP2E1 y, en menor medida, CYP1A2 y CYP3A4. Esta vía produce un metabolito altamente reactivo y tóxico llamado N-acetil-p-benzoquinoneimina (NAPQI). Normalmente, el NAPQI es rápidamente neutralizado por el glutatión, un antioxidante natural del hígado, y se convierte en un compuesto inocuo.",
+    "elimination": "La vida media de eliminación del paracetamol IV es de aproximadamente 2 a 3 horas en adultos con función hepática y renal normal. Se elimina principalmente por la orina (85-95%) en forma de metabolitos glucuronoconjugados y sulfoconjugados inactivos. Menos del 5% se excreta sin cambios en la orina.",
+    "onsetOfAction": "El inicio de acción analgésica y antipirética después de la administración intravenosa es muy rápido, generalmente entre 5 y 15 minutos.",
+    "durationOfAction": "La duración del efecto analgésico y antipirético es de aproximadamente 4 a 6 horas por dosis."
+  },
+  "indications": {
+    "approved": [
+      "Manejo del dolor agudo de intensidad leve a moderada",
+      "Tratamiento de la fiebre",
+      "Uso en el manejo multimodal del dolor perioperatorio (antes, durante y después de la cirugía)",
+      "Pacientes que no pueden recibir medicación por vía oral (NPO)"
+    ],
+    "offLabel": [
+      "Tratamiento coadyuvante del dolor oncológico",
+      "Cefalea tensional o migraña en entorno hospitalario cuando otros tratamientos fallan",
+      "Dolor asociado a pancreatitis aguda",
+      "Fiebre en pacientes críticos en unidades de cuidados intensivos (UCI)"
+    ]
+  },
+  "dosage": {
+    "adults": "Dosis estándar: 1 gramo (1000 mg) cada 6 horas, o 650 mg cada 4 horas. La dosis única no debe exceder los 1000 mg. La infusión intravenosa debe administrarse en un período de 15 minutos.",
+    "pediatric": "Para niños mayores de 2 años y adolescentes con peso corporal ≥ 50 kg: 15 mg/kg cada 6 horas o 12.5 mg/kg cada 4 horas. Dosis máxima por dosis: 1000 mg. Dosis máxima diaria: 75 mg/kg/día, sin exceder 4000 mg/día. Para niños con peso < 50 kg, calcular estrictamente por peso.",
+    "elderly": "En adultos mayores, especialmente aquellos frágiles o con bajo peso, puede ser necesario reducir la dosis debido a una posible disminución del aclaramiento. Se recomienda iniciar con la dosis más baja efectiva (ej., 650 mg cada 6-8 horas) y monitorear la respuesta.",
+    "renalImpairment": "Insuficiencia renal leve a moderada (TFG 30-89 mL/min): No se requiere ajuste de dosis, pero se debe evitar el uso prolongado. Insuficiencia renal grave (TFG < 30 mL/min) o diálisis: Se recomienda aumentar el intervalo entre dosis a cada 8 horas como mínimo. La dosis máxima diaria no debe exceder los 3000 mg. Se elimina parcialmente en diálisis.",
+    "hepaticImpairment": "Contraindicado en insuficiencia hepática grave (cirrosis descompensada). En pacientes con enfermedad hepática leve o moderada (Child-Pugh A o B), se debe usar con extrema precaución, a la dosis más baja posible y por el menor tiempo necesario. Se recomienda no exceder 2000 mg al día y evitar su uso si no es estrictamente necesario.",
+    "maxDose": "Dosis máxima diaria para adultos y adolescentes ≥ 50 kg: 4000 mg (4 gramos) en 24 horas. Para pacientes con factores de riesgo (desnutrición, ayuno prolongado, consumo crónico de alcohol, enfermedad hepática), la dosis máxima diaria segura puede ser menor, típicamente 2000-3000 mg/día."
+  },
+  "dosageForms": [
+    {
+      "form": "Solución inyectable (vial o bolsa)",
+      "strengths": [
+        "10 mg/mL en vial de 100 mL (1000 mg)",
+        "1000 mg en vial de 100 mL"
+      ],
+      "route": "Intravenosa (Infusión)"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al paracetamol o a cualquier excipiente de la formulación",
+      "Insuficiencia hepática grave (ej., cirrosis descompensada, hepatitis fulminante)",
+      "Deficiencia grave de glucosa-6-fosfato deshidrogenasa (G6PD) (riesgo de anemia hemolítica)"
+    ],
+    "relative": [
+      "Insuficiencia hepática leve o moderada (Child-Pugh A o B)",
+      "Insuficiencia renal grave (TFG < 30 mL/min)",
+      "Consumo crónico excesivo de alcohol (≥ 3 bebidas al día)",
+      "Desnutrición, anorexia, caquexia o ayuno prolongado (bajos niveles de glutatión)",
+      "Fenilcetonuria (algunas formulaciones contienen aspartamo)"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Dolor o sensación de ardor en el sitio de la inyección (generalmente leve y transitorio)"
+    ],
+    "common": [
+      "Náuseas",
+      "Dolor de cabeza",
+      "Insomnio",
+      "Ansiedad",
+      "Hipotensión (presión baja) transitoria durante la infusión"
+    ],
+    "uncommon": [
+      "Vómitos",
+      "Mareo",
+      "Fatiga",
+      "Prurito (comezón) o erupción cutánea",
+      "Hematoma en el sitio de la inyección"
+    ],
+    "rare": [
+      "Reacciones alérgicas graves (anafilaxia, angioedema, broncoespasmo)",
+      "Trombocitopenia (bajas plaquetas)",
+      "Leucopenia (bajos glóbulos blancos)",
+      "Necrosis hepática (daño grave al hígado) por sobredosis",
+      "Síndrome de Stevens-Johnson o necrólisis epidérmica tóxica (erupciones cutáneas graves)"
+    ],
+    "blackBoxWarning": "ADVERTENCIA: RIESGO DE HEPATOTOXICIDAD (DAÑO AL HÍGADO). El paracetamol en dosis altas puede causar daño hepático grave, que puede llevar a falla hepática, trasplante de hígado o muerte. El riesgo aumenta con el consumo de alcohol, el ayuno y el uso de otros medicamentos que afectan al hígado."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Alcohol (consumo crónico excesivo)",
+        "effect": "Aumenta el riesgo de hepatotoxicidad (daño al hígado) porque el alcohol induce la enzima CYP2E1 (que produce el metabolito tóxico NAPQI) y agota las reservas de glutatión.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Warfarina (anticoagulante)",
+        "effect": "El uso regular de paracetamol (más de 4 días) puede potenciar el efecto anticoagulante de la warfarina, aumentando el riesgo de sangrado. Se requiere monitoreo estrecho del INR.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Isoniazida (tratamiento para tuberculosis)",
+        "effect": "Aumenta el riesgo de hepatotoxicidad, ya que la isoniazida también se metaboliza por CYP2E1 y puede dañar el hígado.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Fenobarbital, Carbamazepina, Fenitoína (anticonvulsivos)",
+        "effect": "Estos medicamentos inducen las enzimas CYP, aumentando la producción del metabolito tóxico NAPQI y el riesgo de daño hepático, especialmente con dosis altas de paracetamol.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "El ayuno prolongado o la desnutrición disminuyen los niveles de glutatión en el hígado, aumentando el riesgo de toxicidad. Se recomienda que los pacientes estén bien alimentados. No hay interacción directa con alimentos específicos, pero el consumo de alcohol debe evitarse estrictamente.",
+    "withSupplements": "Suplementos que contienen altas dosis de vitamina C (ácido ascórbico) pueden aumentar ligeramente la concentración de paracetamol en sangre. La hierba 'Kava Kava' tiene riesgo hepatotóxico propio y no debe combinarse. En general, se recomienda precaución con suplementos herbales que afecten al hígado."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA B",
+      "recommendation": "El paracetamol es considerado el analgésico y antipirético de elección durante todos los trimestres del embarazo cuando es necesario. Los estudios epidemiológicos no han mostrado un aumento claro en el riesgo de malformaciones congénitas. Sin embargo, debe usarse a la dosis efectiva más baja y por el menor tiempo posible, solo cuando el beneficio justifique el riesgo potencial. El uso prolongado o en dosis altas debe ser evaluado por un médico.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "El paracetamol se excreta en la leche materna en cantidades muy pequeñas (menos del 1-2% de la dosis materna). Es considerado compatible con la lactancia y es el analgésico/antipirético de elección para madres lactantes. No se han reportado efectos adversos en lactantes.",
+    "pediatric": "Aprobado para uso en niños mayores de 2 años. La dosificación debe calcularse cuidadosamente por peso corporal para evitar sobredosis. No usar en niños menores de 2 años sin supervisión médica estricta. En hospitales, es una herramienta valiosa para el manejo del dolor postoperatorio en niños.",
+    "geriatric": "Los adultos mayores pueden ser más sensibles a los efectos del paracetamol y tener un aclaramiento reducido. Son más susceptibles a la hepatotoxicidad y a los efectos sobre la coagulación (con warfarina). Se debe iniciar con dosis bajas, monitorear la función hepática si se usa a largo plazo, y revisar la lista completa de medicamentos por interacciones."
+  },
+  "administration": {
+    "howToTake": "El Paracetamol IV es administrado exclusivamente por personal de salud calificado en un entorno hospitalario o clínico. Se presenta en viales o bolsas listas para usar. El contenido debe administrarse por infusión intravenosa (goteo) en un período de 15 minutos. Puede administrarse directamente en una vena (vía periférica) o a través de un catéter central. No debe mezclarse con otros medicamentos en la misma línea de infusión a menos que la compatibilidad esté documentada. El paciente debe estar monitorizado durante la infusión.",
+    "storage": "Conservar en su empaque original, protegido de la luz. Almacenar a temperatura ambiente (no superior a 30°C). No congelar. Una vez abierto el vial o conectada la bolsa, el producto debe usarse inmediatamente. Desechar cualquier porción no utilizada.",
+    "specialInstructions": "La solución es transparente e incolora. No usar si la solución está turbia, contiene partículas o si el sello del vial está dañado. La administración rápida (en menos de 15 minutos) puede aumentar el riesgo de reacciones en el sitio de inyección o hipotensión. En pacientes con bajo peso o factores de riesgo, considerar una infusión más lenta."
+  },
+  "monitoring": {
+    "labTests": [
+      "Pruebas de función hepática (Transaminasas: ALT/AST, Bilirrubina total)",
+      "Tiempo de Protrombina (TP) / INR (especialmente si se usa con warfarina)",
+      "Creatinina sérica y TFG (en insuficiencia renal o uso prolongado)",
+      "Recuento de plaquetas (en casos raros de trombocitopenia)"
+    ],
+    "frequency": "En tratamientos cortos (≤ 3 días) en pacientes sanos, generalmente no se requiere monitoreo de laboratorio. En uso prolongado (> 5-7 días), en pacientes con factores de riesgo (alcoholismo, enfermedad hepática, desnutrición) o en dosis cercanas al máximo diario, se recomienda evaluar la función hepática cada 48-72 horas inicialmente y luego periódicamente.",
+    "signsToWatch": [
+      "Dolor abdominal intenso en la parte superior derecha",
+      "Coloración amarillenta de piel y ojos (ictericia)",
+      "Orina oscura (color café)",
+      "Heces pálidas o con arcilla",
+      "Náuseas y vómitos persistentes",
+      "Fatiga extrema o confusión",
+      "Sangrado o moretones inusuales",
+      "Erupción cutánea o dificultad para respirar (signos de alergia)"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Náuseas, vómitos, pérdida de apetito",
+      "Dolor abdominal (especialmente en el cuadrante superior derecho)",
+      "Sudoración, malestar general",
+      "Ictericia (piel y ojos amarillos) que aparece 24-72 horas después de la ingesta",
+      "Confusión, somnolencia, letargo",
+      "Hipoglucemia (azúcar baja)",
+      "Sangrado anormal",
+      "En casos graves: coma, falla hepática aguda, muerte"
+    ],
+    "treatment": "El tratamiento es una EMERGENCIA MÉDICA. El pilar del tratamiento es la administración del antídoto N-acetilcisteína (NAC) lo antes posible, idealmente dentro de las primeras 8 horas post-ingesta. El tratamiento de soporte incluye monitoreo en unidad de cuidados intensivos, manejo de la falla hepática, corrección de la hipoglucemia y, en casos extremos, evaluación para trasplante hepático. El carbón activado puede ser útil si se administra dentro de la primera hora tras la ingesta oral, pero no es efectivo para la vía IV.",
+    "antidote": "N-acetilcisteína (NAC, Fluimucil Antídoto®). Funciona reponiendo las reservas de glutatión en el hígado, permitiendo la neutralización del metabolito tóxico NAPQI."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica para su dispensación en farmacia hospitalaria. Su administración es exclusiva en entornos clínicos.",
+    "scheduleMexico": "Medicamento de Venta bajo Receta Médica (VSR). No está sujeto a control especial (no es estupefaciente ni psicotrópico).",
+    "fdaApprovalYear": "La formulación intravenosa de paracetamol (Ofirmev®) fue aprobada por la FDA en noviembre de 2010."
+  },
+  "brandsMexico": [
+    "Perfalgan®",
+    "Apotel® IV",
+    "Acetaminofen® IV (varios genéricos hospitalarios)",
+    "Piraldina® IV",
+    "Doliprane® IV",
+    "Febrectal® IV",
+    "Tempra® IV"
+  ],
+  "clinicalPearls": [
+    "El Paracetamol IV es un pilar en el 'manejo multimodal del dolor', ya que al usarse junto con AINEs y opioides permite reducir las dosis de estos últimos, minimizando efectos secundarios como náuseas, estreñimiento y depresión respiratoria.",
+    "A diferencia de los AINEs, el paracetamol no afecta la agregación plaquetaria ni la función renal a dosis terapéuticas, por lo que es más seguro en pacientes con riesgo de sangrado o nefropatía.",
+    "El riesgo de hepatotoxicidad no es una 'línea recta'. Existe un umbral tóxico (generalmente >150 mg/kg en una sola dosis o >4 g/día en adultos), pero pacientes con reservas bajas de glutatión (alcohólicos, desnutridos) pueden presentar toxicidad con dosis dentro del rango 'terapéutico'."
+  ],
+  "patientCounseling": "Este medicamento se le administrará directamente en la vena para controlar su dolor o fiebre de manera rápida y efectiva. Es importante que informe a su médico o enfermera si siente dolor, ardor o enrojecimiento en el lugar de la inyección. Aunque es un medicamento muy común y seguro en dosis correctas, una dosis excesiva puede causar daño grave al hígado. Por su seguridad, nunca tome otros medicamentos que contengan paracetamol (como Tylenol®, Tempra®, Dolorín®, etc.) mientras recibe este tratamiento intravenoso, ya que se sumarían las dosis. Evite completamente el consumo de bebidas alcohólicas durante el tratamiento. Informe de inmediato si presenta dolor de estómago fuerte, náuseas que no ceden, piel u ojos amarillos, orina muy oscura o siente mucho cansancio. Este medicamento es para uso hospitalario y será administrado por el personal de salud.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor",
+        "slug": "dolor"
+      },
+      {
+        "name": "Fiebre",
+        "slug": "fiebre"
+      },
+      {
+        "name": "Malestar general",
+        "slug": "malestar-general"
+      },
+      {
+        "name": "Cefalea",
+        "slug": "dolor-de-cabeza"
+      },
+      {
+        "name": "Mialgia",
+        "slug": "dolor-muscular"
+      },
+      {
+        "name": "Artralgia",
+        "slug": "dolor-articular"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Dolor postoperatorio",
+        "slug": "dolor-postoperatorio"
+      },
+      {
+        "name": "Estado febril",
+        "slug": "fiebre-infecciosa"
+      },
+      {
+        "name": "Osteoartritis (dolor)",
+        "slug": "osteoartritis"
+      },
+      {
+        "name": "Migraña aguda (en hospital)",
+        "slug": "migrana"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Hepatotoxicidad / Hepatitis tóxica",
+        "slug": "hepatitis-toxica"
+      },
+      {
+        "name": "Insuficiencia hepática aguda",
+        "slug": "falla-hepatica-aguda"
+      },
+      {
+        "name": "Anemia hemolítica (en deficientes de G6PD)",
+        "slug": "anemia-hemolitica"
+      },
+      {
+        "name": "Síndrome de Stevens-Johnson",
+        "slug": "sindrome-de-stevens-johnson"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "ALT (Alanina Aminotransferasa)",
+        "slug": "alt-transaminasa",
+        "effect": "Puede elevar significativamente en sobredosis/toxicidad"
+      },
+      {
+        "name": "AST (Aspartato Aminotransferasa)",
+        "slug": "ast-transaminasa",
+        "effect": "Puede elevar significativamente en sobredosis/toxicidad"
+      },
+      {
+        "name": "Bilirrubina total",
+        "slug": "bilirrubina",
+        "effect": "Puede elevar en casos de daño hepático"
+      },
+      {
+        "name": "INR (Razón Normalizada Internacional)",
+        "slug": "inr-coagulacion",
+        "effect": "Puede elevar (aumentar) con uso crónico, potenciando anticoagulantes"
+      },
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina",
+        "effect": "Generalmente no afecta, pero se monitorea en riesgo renal"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Perfil hepático",
+        "slug": "perfil-hepatico",
+        "reason": "Para detectar tempranamente signos de toxicidad hepática, especialmente en uso prolongado o en pacientes de riesgo."
+      },
+      {
+        "name": "TP/INR",
+        "slug": "tiempo-de-protrombina",
+        "reason": "Para monitorear el efecto sobre la coagulación, crucial si el paciente toma warfarina."
+      },
+      {
+        "name": "Biometría hemática completa",
+        "slug": "biometria-hematica",
+        "reason": "Para detectar raros efectos como trombocitopenia o leucopenia."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de TFG (Filtrado Glomerular)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve el Paracetamol intravenoso?",
+      "a": "Sirve para aliviar el dolor de intensidad leve a moderada (como el dolor después de una cirugía) y para bajar la fiebre, en pacientes que no pueden tomar pastillas o líquidos por la boca."
+    },
+    {
+      "q": "¿Es lo mismo el Paracetamol IV que el de pastillas?",
+      "a": "Sí, es el mismo medicamento (acetaminofén), pero la forma de administrarlo es diferente. El IV actúa más rápido porque va directo a la sangre, y se usa en hospitales cuando el paciente no puede tragar."
+    },
+    {
+      "q": "¿Duele que me lo pongan en la vena?",
+      "a": "Puede sentir una leve molestia, ardor o frío en el sitio de la inyección durante los primeros segundos, pero generalmente es tolerable y desaparece rápido. Avise a la enfermera si el dolor es intenso."
+    },
+    {
+      "q": "¿Cuánto tarda en hacer efecto?",
+      "a": "Empieza a hacer efecto muy rápido, generalmente entre 5 y 15 minutos después de que termina la infusión (el goteo)."
+    },
+    {
+      "q": "¿Puedo tomar otras pastillas para el dolor si me ponen esto?",
+      "a": "NO, es muy importante que no tome ningún otro medicamento que contenga paracetamol (como Tylenol®, Tempra®, Dolorín®, etc.) sin consultar al médico. Podría sufrir una sobredosis y dañar su hígado."
+    },
+    {
+      "q": "¿Puedo beber alcohol si me están dando Paracetamol IV?",
+      "a": "ABSOLUTAMENTE NO. El alcohol aumenta mucho el riesgo de que el medicamento dañe su hígado, incluso con dosis normales. Evite el alcohol durante todo el tratamiento."
+    },
+    {
+      "q": "¿Tiene efectos secundarios?",
+      "a": "Los más comunes son leves: náuseas, dolor de cabeza o molestia en el brazo donde lo ponen. Efectos graves como daño al hígado son muy raros si se usa la dosis correcta."
+    },
+    {
+      "q": "¿Es seguro para mujeres embarazadas?",
+      "a": "Sí, el paracetamol es considerado el analgésico más seguro durante el embarazo cuando es necesario. Sin embargo, siempre debe ser recetado y supervisado por el médico."
+    },
+    {
+      "q": "¿Puede causar alergia?",
+      "a": "Sí, como cualquier medicamento, puede causar reacciones alérgicas (ronchas, dificultad para respirar). Son poco frecuentes, pero informe de inmediato si presenta estos síntomas."
+    },
+    {
+      "q": "¿Por qué lo usan después de una operación?",
+      "a": "Porque ayuda a controlar el dolor sin los fuertes efectos secundarios de los opioides (como somnolencia o estreñimiento). Permite usar menos cantidad de esos medicamentos más fuertes."
+    },
+    {
+      "q": "¿Qué pasa si me ponen demasiada dosis (sobredosis)?",
+      "a": "Una sobredosis puede causar daño grave e irreversible al hígado. Los síntomas iniciales son náuseas, vómitos y dolor de estómago. Es una emergencia médica que se trata con un antídoto específico (N-acetilcisteína)."
+    },
+    {
+      "q": "¿Es malo para los riñones?",
+      "a": "A diferencia de medicamentos como el ibuprofeno, el paracetamol a dosis normales no daña los riñones. Es una opción más segura para pacientes con problemas renales."
+    },
+    {
+      "q": "¿Puede subir la presión arterial?",
+      "a": "No, el paracetamol no suele afectar la presión arterial. De hecho, a veces puede causar una leve baja de presión durante la infusión, que es temporal."
+    },
+    {
+      "q": "¿Interfiere con otros medicamentos?",
+      "a": "Sí, principalmente con los anticoagulantes como la warfarina (puede aumentar el riesgo de sangrado) y con medicamentos para la tuberculosis. Siempre informe a su médico TODOS los medicamentos que toma."
+    },
+    {
+      "q": "¿Por qué me piden análisis de sangre si me lo ponen varios días?",
+      "a": "Para revisar que su hígado esté funcionando bien, especialmente si usted tiene factores de riesgo como desnutrición o consume alcohol, o si la dosis es alta. Es una medida de seguridad."
+    },
+    {
+      "q": "¿Es adictivo el Paracetamol IV?",
+      "a": "No, el paracetamol no causa adicción ni dependencia física o psicológica, a diferencia de algunos analgésicos opioides."
+    },
+    {
+      "q": "¿Puedo recibirlo si tengo el hígado graso?",
+      "a": "Se puede usar, pero con EXTREMA precaución y a dosis más bajas. Su médico debe evaluar el riesgo-beneficio y monitorear su función hepática de cerca."
+    },
+    {
+      "q": "¿Qué diferencia hay con el Dipirona (Metamizol) IV?",
+      "a": "Ambos son analgésicos y antipiréticos. El paracetamol es más seguro para el estómago y no afecta los riñones. La dipirona puede causar un efecto secundario grave (pero muy raro) llamado agranulocitosis (bajada de glóbulos blancos). La elección depende del paciente y la situación."
+    },
+    {
+      "q": "¿Cómo se calcula la dosis para un niño?",
+      "a": "La dosis para niños se calcula con mucho cuidado basándose en el peso del niño (miligramos por kilogramo). Por eso es crucial que el personal de salud conozca el peso exacto del niño."
+    },
+    {
+      "q": "En el manejo del dolor oncológico, ¿qué papel juega el Paracetamol IV?",
+      "a": "Juega un papel coadyuvante (de ayuda) en la 'escalera analgésica de la OMS'. Se usa para el componente de dolor leve a moderado, permitiendo reducir la dosis de opioides necesaria para el dolor severo, mejorando así el perfil de efectos secundarios y la calidad de vida del paciente."
+    }
+  ]
+}

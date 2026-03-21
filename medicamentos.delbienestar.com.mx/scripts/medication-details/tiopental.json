@@ -1,0 +1,390 @@
+{
+  "name": "Tiopental",
+  "summary": "El tiopental es un medicamento anestésico general de acción ultracorta que pertenece a la familia de los barbitúricos. Se utiliza principalmente para inducir la anestesia general antes de una cirugía, es decir, para hacer que el paciente se duerma rápidamente y de manera controlada. También se emplea en procedimientos de corta duración, en el manejo de la presión intracraneal elevada y, en algunos contextos muy específicos, para la sedación en cuidados intensivos. Su importancia clínica radica en su inicio de acción extremadamente rápido (en segundos cuando se administra por vía intravenosa) y en su corta duración, lo que permite un control preciso del nivel de sueño o sedación por parte del anestesiólogo. Es un medicamento fundamental en el quirófano y en situaciones de emergencia donde se requiere una inducción anestésica rápida y segura. Sin embargo, debido a su potencia y a sus efectos significativos en el sistema cardiovascular y respiratorio, su uso está estrictamente restringido a entornos hospitalarios bajo la supervisión directa de un médico anestesiólogo capacitado, con equipo de reanimación disponible. No es un medicamento para uso ambulatorio ni para el manejo del dolor crónico.",
+  "pharmacology": {
+    "mechanismOfAction": "El tiopental actúa principalmente potenciando la actividad del neurotransmisor inhibitorio ácido gamma-aminobutírico (GABA) en el sistema nervioso central. Se une a un sitio específico en el receptor GABA-A, lo que aumenta la frecuencia y duración de la apertura del canal de cloruro asociado. Este flujo de iones cloruro hacia el interior de la neurona produce una hiperpolarización de la membrana celular, haciendo que la neurona sea menos excitable y más resistente a la activación. Este efecto inhibitorio generalizado en diversas áreas del cerebro (especialmente en la formación reticular) conduce a una depresión progresiva del sistema nervioso central, resultando en sedación, hipnosis, pérdida de la conciencia, amnesia y, en dosis altas, anestesia quirúrgica. También tiene efectos anticonvulsivantes debido a esta misma acción. No posee propiedades analgésicas significativas; de hecho, en dosis bajas puede incluso disminuir el umbral del dolor.",
+    "pharmacologicClass": "Barbitúrico de acción ultracorta. Derivado tiobarbitúrico.",
+    "therapeuticClass": "Anestésico general intravenoso. Agente hipnótico.",
+    "absorption": "La absorción por vía oral es errática y lenta, por lo que NO se administra por esta vía. Cuando se administra por vía intravenosa (la vía de elección), la absorción es inmediata y completa, alcanzando rápidamente concentraciones terapéuticas en el cerebro.",
+    "distribution": "Se distribuye ampliamente por todo el organismo. Es altamente liposoluble, lo que le permite cruzar rápidamente la barrera hematoencefálica y alcanzar el cerebro en cuestión de segundos. Su unión a proteínas plasmáticas es alta, aproximadamente del 80-85%. Su volumen de distribución (Vd) es de aproximadamente 1-2 L/kg. La redistribución desde el cerebro hacia tejidos menos vascularizados (como músculo y grasa) es el principal mecanismo responsable de la corta duración de su efecto después de una dosis única.",
+    "metabolism": "El tiopental se metaboliza extensamente en el hígado. El metabolismo es lento y es la vía principal de eliminación definitiva del cuerpo. Se metaboliza principalmente por oxidación, dando lugar a metabolitos inactivos como el ácido carboxílico del tiopental. Las enzimas del citocromo P450 (especialmente CYP2C9 y CYP2C19) están involucradas en su metabolismo. Una pequeña fracción puede sufrir desulfuración a pentobarbital, otro barbitúrico activo.",
+    "elimination": "La vida media de eliminación terminal es larga, de 5 a 12 horas, debido al lento metabolismo hepático. Sin embargo, la vida media de redistribución (alfa) es muy corta (2-4 minutos), lo que explica el rápido despertar. Se elimina principalmente por vía renal en forma de metabolitos inactivos; menos del 1% se excreta sin cambios en la orina.",
+    "onsetOfAction": "Extremadamente rápido. La pérdida de conciencia ocurre generalmente en un tiempo de circulación cerebral a cerebral, es decir, entre 10 y 30 segundos después de una inyección intravenosa rápida.",
+    "durationOfAction": "Corta después de una dosis única (5-10 minutos), debido a la redistribución. Sin embargo, con infusiones prolongadas o dosis repetidas, la duración se alarga significativamente debido a la saturación de los sitios de redistribución y la dependencia del lento metabolismo hepático para la eliminación."
+  },
+  "indications": {
+    "approved": [
+      "Inducción de la anestesia general",
+      "Mantenimiento de la anestesia general (en infusiones)",
+      "Sedación para procedimientos diagnósticos o terapéuticos de corta duración",
+      "Tratamiento de la hipertensión intracraneal refractaria",
+      "Tratamiento del estado epiléptico refractario (cuando otros fármacos han fallado)"
+    ],
+    "offLabel": [
+      "Sedación profunda en cuidados intensivos (en desuso frente a alternativas más modernas)",
+      "Inducción del coma farmacológico en trauma cerebral severo",
+      "Prueba de amobarbital intracarotídeo (test de Wada) para mapeo cerebral"
+    ]
+  },
+  "dosage": {
+    "adults": "Inducción anestésica: 3-5 mg/kg por vía intravenosa (IV), usualmente 250-500 mg en un adulto de 70 kg. Dosis de mantenimiento: 50-100 mg en bolos intermitentes según necesidad, o infusión continua de 1-3 mg/kg/hora. Para hipertensión intracraneal: Bolos de 1.5-3.5 mg/kg IV, seguidos de infusión de 0.5-3 mg/kg/hora, titulando al efecto clínico y monitorización de la presión intracraneal.",
+    "pediatric": "Inducción: 3-6 mg/kg IV. Dosis de mantenimiento y ajustes similares a adultos por peso. Uso en neonatos y lactantes con extrema precaución y dosis reducidas debido a inmadurez metabólica.",
+    "elderly": "Reducir la dosis en un 30-50%. Iniciar con 1.5-2.5 mg/kg IV. Los pacientes mayores tienen mayor sensibilidad, volumen de distribución alterado y función hepática/renal disminuida.",
+    "renalImpairment": "Precaución. No se requiere ajuste de dosis inicial para inducción única, ya que la farmacocinética inicial depende de la redistribución. En insuficiencia renal severa (TFG <30 mL/min) o en tratamientos prolongados, puede haber acumulación de metabolitos. Monitorizar estrechamente el nivel de conciencia y efectos cardiovasculares.",
+    "hepaticImpairment": "Reducir la dosis significativamente (hasta un 50% o más). El metabolismo está muy disminuido, lo que prolonga la duración del efecto y aumenta el riesgo de acumulación y sobredosis. Evitar infusiones prolongadas. Monitorización estrecha obligatoria.",
+    "maxDose": "No hay una dosis máxima diaria absoluta definida, ya que se titula al efecto deseado (pérdida de reflejo palpebral, respuesta verbal, etc.) bajo monitorización anestésica continua. Sin embargo, la dosis total acumulada debe ser la mínima necesaria para lograr el efecto."
+  },
+  "dosageForms": [
+    {
+      "form": "Polvo liofilizado para solución inyectable",
+      "strengths": [
+        "500 mg",
+        "1 g"
+      ],
+      "route": "Intravenosa (IV) profunda, intravenosa (IV) lenta"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a los barbitúricos o a cualquier componente de la formulación",
+      "Porfiria aguda intermitente, porfiria variegata, coproporfiria hereditaria",
+      "Ausencia de vía aérea permeable y equipo/ personal para intubación y ventilación mecánica",
+      "Hipovolemia severa no corregida o shock",
+      "Insuficiencia respiratoria severa con hipercapnia",
+      "Miastenia gravis no controlada"
+    ],
+    "relative": [
+      "Insuficiencia hepática severa",
+      "Insuficiencia renal severa",
+      "Epilepsia (puede causar excitación paradójica)",
+      "Historia de abuso de sustancias o alcoholismo",
+      "Hipoproteinemia severa",
+      "Asma bronquial",
+      "Cardiopatía isquémica, insuficiencia cardíaca",
+      "Pacientes ancianos o debilitados"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Depresión respiratoria (disminución de la frecuencia y profundidad de la respiración)",
+      "Hipotensión arterial (baja de presión)",
+      "Sabor amargo o ajo en la boca al despertar"
+    ],
+    "common": [
+      "Bradicardia (frecuencia cardíaca lenta)",
+      "Flebitis o dolor en el sitio de inyección",
+      "Tos, hipo, laringoespasmo",
+      "Náuseas y vómitos en el periodo post-anestésico",
+      "Somnolencia prolongada"
+    ],
+    "uncommon": [
+      "Reacciones alérgicas (rash cutáneo, urticaria)",
+      "Excitación paradójica o agitación durante la inducción o recuperación",
+      "Espasmos musculares o movimientos involuntarios",
+      "Broncoespasmo en pacientes susceptibles"
+    ],
+    "rare": [
+      "Anafilaxia severa",
+      "Eritema multiforme, síndrome de Stevens-Johnson, necrólisis epidérmica tóxica",
+      "Supresión de la médula ósea (agranulocitosis, trombocitopenia)",
+      "Síndrome de abstinencia tras uso prolongado",
+      "Rabdomiólisis (destrucción muscular) con posición prolongada",
+      "Infarto de miocardio en pacientes de riesgo"
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Alcohol etílico",
+        "effect": "Potenciación severa de la depresión del sistema nervioso central y respiratoria. Riesgo de coma y paro respiratorio.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Benzodiacepinas (diazepam, midazolam)",
+        "effect": "Aditivo o sinérgico. Depresión CNS y respiratoria marcada. Reducir dosis de ambos.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Opiáceos (morfina, fentanilo)",
+        "effect": "Potenciación severa de la depresión respiratoria y cardiovascular. Riesgo de apnea e hipotensión profunda.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Propofol",
+        "effect": "Efectos aditivos cardiovasculares y respiratorios. Mayor riesgo de hipotensión y bradicardia.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Antidepresivos tricíclicos (amitriptilina)",
+        "effect": "Puede aumentar el riesgo de convulsiones y arritmias cardíacas.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Warfarina y otros anticoagulantes cumarínicos",
+        "effect": "El tiopental induce enzimas hepáticas, aumentando el metabolismo de la warfarina y disminuyendo su efecto anticoagulante. Requiere ajuste de dosis y monitorización de INR.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "No aplica, ya que se administra exclusivamente por vía intravenosa en un entorno controlado. Sin embargo, el paciente debe estar en ayunas (6-8 horas para sólidos, 2 horas para líquidos claros) antes de una anestesia electiva para reducir el riesgo de aspiración pulmonar.",
+    "withSupplements": "Interacción potencial con suplementos herbales con efectos sedantes (valeriana, kava, hierba de San Juan, pasiflora) que pueden potenciar la sedación. La hierba de San Juan, al inducir enzimas CYP, puede disminuir los niveles de tiopental."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "C",
+      "recommendación": "Solo debe usarse durante el embarazo si el beneficio potencial justifica claramente el riesgo potencial para el feto. Cruza la placenta libremente y puede causar depresión cardiorrespiratoria en el feto. Su uso durante el parto (cesárea) puede resultar en depresión neonatal que requiera reanimación. No se recomienda su uso rutinario en el embarazo, especialmente en el primer trimestre, salvo en situaciones de estricta necesidad médica.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se excreta en pequeñas cantidades en la leche materna. Debido a su potencial para causar sedación, dificultad para alimentarse y depresión del sistema nervioso central en el lactante, se recomienda suspender la lactancia materna durante 24-48 horas después de una dosis única de tiopental. En caso de infusiones prolongadas, se debe evaluar la interrupción de la lactancia.",
+    "pediatric": "Puede usarse en niños para inducción anestésica, con dosis ajustadas por peso. Los niños pueden ser más susceptibles a los efectos paradójicos de excitación. La vía intravenosa puede ser técnicamente difícil. Monitorización cardiovascular y respiratoria estricta es obligatoria.",
+    "geriatric": "Los pacientes mayores de 65 años son más sensibles a los efectos del tiopental. Presentan mayor incidencia de hipotensión, depresión respiratoria y confusión postoperatoria. Las dosis deben reducirse sustancialmente (hasta un 50%) y administrarse lentamente. El aclaramiento puede estar disminuido, prolongando la sedación."
+  },
+  "administration": {
+    "howToTake": "EXCLUSIVAMENTE ADMINISTRADO POR PERSONAL MÉDICO ESPECIALIZADO (ANESTESIÓLOGO) EN ENTORNO HOSPITALARIO. Se reconstituye el polvo liofilizado con agua para inyección o solución salina estéril para formar una solución al 2.5% (25 mg/mL) o al 5% (50 mg/mL). Se administra por vía intravenosa (IV) directa en una vena de buen calibre, usualmente en un bolus lento (20-30 segundos) para inducción anestésica, o en infusión continua controlada por bomba para mantenimiento o tratamiento de hipertensión intracraneal. La administración extravascular o intraarterial accidental es muy peligrosa y causa necrosis tisular.",
+    "storage": "El polvo liofilizado se almacena a temperatura ambiente (15-30°C), protegido de la luz. Una vez reconstituido, la solución es estable a temperatura ambiente por 24 horas, pero se recomienda su uso inmediato. No refrigerar la solución reconstituida, ya que puede precipitar.",
+    "specialInstructions": "Solución altamente alcalina (pH ~10-11). Evitar mezclar en la misma jeringa o línea IV con medicamentos ácidos (p.ej., relajantes musculares, opioides) para evitar precipitación. La extravasación o inyección intraarterial accidental causa dolor intenso, espasmo vascular, y puede llevar a necrosis y pérdida de la extremidad. En caso de sospecha de inyección intraarterial, se debe tratar inmediatamente con medidas para diluir el fármaco y mantener la perfusión."
+  },
+  "monitoring": {
+    "labTests": [
+      "Presión arterial no invasiva o invasiva continua",
+      "Electrocardiograma (ECG) continuo",
+      "Oximetría de pulso continua (SpO2)",
+      "Capnografía (CO2 espirado) si el paciente está intubado",
+      "Gases arteriales en infusiones prolongadas",
+      "Función hepática (ALT, AST) y renal (creatinina) en uso prolongado",
+      "Conteo sanguíneo completo en uso prolongado"
+    ],
+    "frequency": "Monitorización continua durante la administración y hasta la recuperación completa del paciente. Signos vitales cada 3-5 minutos durante la inducción y cada 5-15 minutos durante el mantenimiento. En infusiones en UCI, monitorización hemodinámica y neurológica continua.",
+    "signsToWatch": [
+      "Dificultad para respirar, apnea, respiraciones superficiales",
+      "Caída brusca de la presión arterial",
+      "Frecuencia cardíaca muy lenta (bradicardia)",
+      "Cianosis (coloración azulada de labios o piel)",
+      "Pérdida de reflejos protectores de la vía aérea",
+      "Signos de reacción alérgica (ronchas, hinchazón, dificultad para respirar)",
+      "Dolor, enrojecimiento o palidez en el sitio de inyección"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Depresión respiratoria profunda (apnea)",
+      "Hipotensión arterial severa y shock",
+      "Bradicardia extrema o paro cardíaco",
+      "Pérdida de reflejos (corneal, faríngeo)",
+      "Hipotermia",
+      "Coma",
+      "Muerte por paro cardiorrespiratorio"
+    ],
+    "treatment": "SOPORTE VITAL AVANZADO INMEDIATO. 1) Mantener vía aérea permeable: intubación endotraqueal. 2) Ventilación mecánica con oxígeno al 100%. 3) Soporte circulatorio: fluidos intravenosos, vasopresores (dopamina, noradrenalina) para la hipotensión. 4) No existe antídoto específico. La diuresis forzada, diálisis o hemoperfusión no son efectivas debido a la alta unión a proteínas y al gran volumen de distribución. El tratamiento es de soporte hasta que el fármaco sea metabolizado y eliminado.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial para estupefacientes y psicotrópicos. Medicamento de control especial.",
+    "scheduleMexico": "Lista II (Estupefacientes) de la Ley General de Salud. Sujeta a estricto control y registro.",
+    "fdaApprovalYear": "Aprobado por la FDA desde la década de 1930."
+  },
+  "brandsMexico": [
+    "Pentothal",
+    "Tiopental Sódico",
+    "Tiopental Braun",
+    "Anestésico Intravenoso Tiopental (genérico de varios laboratorios nacionales)"
+  ],
+  "clinicalPearls": [
+    "La 'dosis de sueño' (dosis que hace perder el reflejo palpebral) es muy variable entre individuos. Se debe titular lentamente, especialmente en pacientes frágiles.",
+    "No es un analgésico. En procedimientos dolorosos, siempre debe combinarse con un analgésico (opioide) para evitar movimientos y respuesta autonómica al dolor.",
+    "Su uso ha disminuido en favor del propofol para inducción de rutina, pero sigue siendo un pilar en neuroanestesia y situaciones donde la reducción del metabolismo cerebral es crucial.",
+    "La solución reconstituida tiene un olor característico a ajo, que los pacientes pueden percibir al despertar."
+  ],
+  "patientCounseling": "El tiopental es un medicamento muy potente que solo se usa en el hospital, bajo el cuidado directo de un médico anestesiólogo. Usted no lo administrará en casa. Es normal que al despertar se sienta muy somnoliento, confundido o con un sabor amargo/ajo en la boca. Es crucial que informe a su anestesiólogo ANTES de la cirugía sobre TODOS sus problemas de salud (especialmente del corazón, hígado, riñón o pulmones), alergias, si está o podría estar embarazada, y TODOS los medicamentos, hierbas o suplementos que toma, incluyendo alcohol. Siga estrictamente las instrucciones de ayuno antes de la cirugía (nada de comer o beber) para evitar complicaciones graves en los pulmones. Después de la cirugía, no conduzca, opere maquinaria, tome decisiones importantes o beba alcohol durante al menos 24 horas, ya que los efectos pueden persistir. Si nota dificultad para respirar, mareo intenso o cualquier reacción inusual después, informe inmediatamente al personal de enfermería.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Ansiedad preoperatoria",
+        "slug": "ansiedad-preoperatoria"
+      },
+      {
+        "name": "Estado de conciencia",
+        "slug": "estado-de-conciencia"
+      },
+      {
+        "name": "Convulsiones (refractarias)",
+        "slug": "convulsiones"
+      },
+      {
+        "name": "Presión intracraneal elevada",
+        "slug": "presion-intracraneal-elevada"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Necesidad de anestesia general",
+        "slug": "anestesia-general"
+      },
+      {
+        "name": "Estado epiléptico refractario",
+        "slug": "estado-epileptico"
+      },
+      {
+        "name": "Trauma craneoencefálico severo",
+        "slug": "trauma-craneoencefalico"
+      },
+      {
+        "name": "Hemorragia subaracnoidea",
+        "slug": "hemorragia-subaracnoidea"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Depresión respiratoria",
+        "slug": "depresion-respiratoria"
+      },
+      {
+        "name": "Hipotensión arterial",
+        "slug": "hipotension-arterial"
+      },
+      {
+        "name": "Flebitis",
+        "slug": "flebitis"
+      },
+      {
+        "name": "Síndrome de Stevens-Johnson",
+        "slug": "sindrome-de-stevens-johnson"
+      },
+      {
+        "name": "Rabdomiólisis",
+        "slug": "rabdomiolisis"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Presión arterial",
+        "slug": "presion-arterial",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Frecuencia respiratoria",
+        "slug": "frecuencia-respiratoria",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Nivel de conciencia (escala de Glasgow)",
+        "slug": "escala-de-glasgow",
+        "effect": "Puede disminuir"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Biometría hemática",
+        "slug": "biometria-hematica",
+        "reason": "Para descartar supresión de médula ósea en uso prolongado"
+      },
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-de-funcion-hepatica",
+        "reason": "Para evaluar metabolismo y ajustar dosis"
+      },
+      {
+        "name": "Pruebas de función renal",
+        "slug": "pruebas-de-funcion-renal",
+        "reason": "Para evaluar eliminación de metabolitos"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora IMC",
+        "slug": "calculadora-imc"
+      },
+      {
+        "name": "Dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve el tiopental?",
+      "a": "El tiopental se usa principalmente para 'dormir' o inducir la anestesia general rápidamente antes de una cirugía. También se emplea en situaciones especiales como el control de la presión dentro del cráneo cuando está muy alta o para detener convulsiones muy graves que no responden a otros medicamentos."
+    },
+    {
+      "q": "¿Es una pastilla para el dolor?",
+      "a": "No, para nada. El tiopental NO es un analgésico (medicamento para el dolor). Es un anestésico que produce sueño profundo y pérdida de conciencia. De hecho, solo puede usarse en un quirófano o unidad de cuidados intensivos, administrado directamente en la vena por un anestesiólogo."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Es extremadamente rápido. Cuando el médico lo inyecta en la vena, usted suele quedarse dormido en cuestión de segundos, a veces antes de terminar de contar hasta diez."
+    },
+    {
+      "q": "¿Cuánto tiempo dura dormido con una dosis?",
+      "a": "Después de una sola inyección para 'dormirlo' al inicio de la cirugía, el efecto de sueño profundo dura aproximadamente de 5 a 10 minutos. Luego, para mantenerlo dormido durante la operación, el anestesiólogo le administra otros medicamentos o más tiopental de manera controlada."
+    },
+    {
+      "q": "¿Me voy a despertar durante la cirugía?",
+      "a": "No, ese es el trabajo del anestesiólogo. Él o ella monitoriza constantemente sus signos vitales y la profundidad de la anestesia, ajustando los medicamentos para asegurarse de que usted permanezca inconsciente, sin dolor y sin recuerdos de la cirugía."
+    },
+    {
+      "q": "¿Qué se siente al despertar?",
+      "a": "Es común despertar con mucha somnolencia, confusión (no saber dónde está o qué hora es), y a veces con un sabor amargo o a ajo en la boca. También puede tener náuseas o escalofríos. Todo esto es normal y el personal de enfermería lo ayudará."
+    },
+    {
+      "q": "¿Puedo beber alcohol después de que me den tiopental?",
+      "a": "ABSOLUTAMENTE NO, al menos durante las primeras 24 horas. El alcohol potencia los efectos del tiopental que aún puedan estar en su cuerpo, pudiendo causar paro respiratorio. Tampoco conduzca ni tome decisiones importantes ese día."
+    },
+    {
+      "q": "¿El tiopental es adictivo?",
+      "a": "El tiopental tiene potencial de abuso y dependencia, especialmente con el uso repetido. Sin embargo, en el contexto médico de una sola cirugía o un tratamiento corto en el hospital, el riesgo de volverse adicto es muy bajo. Su uso está estrictamente controlado."
+    },
+    {
+      "q": "¿Qué debo decirle a mi anestesiólogo antes de que me lo ponga?",
+      "a": "Es VITAL informarle sobre: todas sus alergias, problemas de salud (corazón, hígado, riñón, pulmones, porfiria), si está embarazada o podría estarlo, y TODOS los medicamentos que toma, incluyendo hierbas, suplementos y alcohol."
+    },
+    {
+      "q": "¿Por qué tengo que estar en ayunas antes de la cirugía si me van a dormir con esto?",
+      "a": "Porque cuando está dormido, los reflejos que evitan que la comida o líquidos del estómago pasen a los pulmones no funcionan. Si hay contenido en el estómago, puede aspirarse y causar una neumonía muy grave. El ayuno minimiza este riesgo."
+    },
+    {
+      "q": "¿Puede causar alergia el tiopental?",
+      "a": "Sí, aunque no es muy común. Las reacciones pueden ir desde un simple rash o ronchas hasta una reacción alérgica severa (anafilaxia) con dificultad para respirar. Por eso el anestesiólogo siempre está preparado para tratarla inmediatamente."
+    },
+    {
+      "q": "¿Qué pasa si me duele el brazo donde me lo inyectaron?",
+      "a": "El tiopental es una solución muy alcalina que puede irritar la vena. Es común sentir algo de dolor, ardor o enrojecimiento en el sitio de la inyección. Si el dolor es muy intenso, hay hinchazón o la piel se pone blanca/fría, debe informarse de inmediato, ya que podría ser una complicación más seria como extravasación."
+    },
+    {
+      "q": "¿Puede afectar mi corazón o mi presión?",
+      "a": "Sí, es uno de sus efectos principales. Casi siempre causa una baja de la presión arterial (hipotensión) y puede hacer que el corazón lata más lento (bradicardia). Su anestesiólogo lo previene y trata administrando líquidos por la vena y otros medicamentos si es necesario."
+    },
+    {
+      "q": "¿Puede afectar mi respiración?",
+      "a": "Sí, es su efecto más peligroso. El tiopental deprime el centro que controla la respiración en el cerebro. En la dosis para dormirlo, es común que deje de respirar por sí mismo por un corto tiempo. Por eso el anestesiólogo siempre está listo para ayudarlo a respirar o colocarle un tubo en la tráquea conectado a un respirador."
+    },
+    {
+      "q": "¿Se puede usar en niños?",
+      "a": "Sí, se puede usar en niños para inducir anestesia, pero la dosis se calcula cuidadosamente según el peso del niño. Los anestesiólogos pediátricos están especialmente entrenados para manejar los efectos en los más pequeños."
+    },
+    {
+      "q": "¿Y en personas muy mayores?",
+      "a": "En adultos mayores se usa con mucha precaución y con dosis mucho más bajas, porque son más sensibles a sus efectos sobre la presión y la respiración, y el medicamento tarda más en eliminarse de su cuerpo."
+    },
+    {
+      "q": "¿Qué pasa si tengo problemas en el hígado o los riñones?",
+      "a": "Si tiene enfermedad hepática, el tiopental se elimina muy lentamente, por lo que el efecto de 'dormido' dura mucho más y el riesgo de efectos secundarios aumenta. La dosis debe reducirse drásticamente. En problemas renales, el efecto es menor, pero también se requiere precaución."
+    },
+    {
+      "q": "¿Por qué a veces se usa en pacientes con trauma en la cabeza?",
+      "a": "Porque el tiopental reduce la actividad metabólica del cerebro, lo que a su vez puede ayudar a bajar la presión que se acumula dentro del cráneo después de un golpe fuerte, protegiendo al tejido cerebral de un daño mayor."
+    },
+    {
+      "q": "¿Hay algún antídoto si me ponen demasiado?",
+      "a": "No existe un antídoto específico que 'revierte' el tiopental. Si hay una sobredosis, el tratamiento consiste en soporte vital: poner un tubo para respirar por usted, darle medicamentos para subir la presión y mantenerlo estable hasta que su propio cuerpo metabolice y elimine el medicamento, lo cual puede tardar horas."
+    },
+    {
+      "q": "¿En qué se diferencia el tiopental del propofol (la 'leche' que usan para sedación)?",
+      "a": "Ambos son inductores de anestesia, pero el propofol se elimina más rápido del cuerpo, causando menos 'resaca' o somnolencia prolongada. El tiopental tiene un efecto más protector sobre el cerebro (reduce su metabolismo) y es más barato. El propofol duele más al inyectarse y puede bajar más la presión. La elección depende de la cirugía y las condiciones del paciente."
+    }
+  ]
+}

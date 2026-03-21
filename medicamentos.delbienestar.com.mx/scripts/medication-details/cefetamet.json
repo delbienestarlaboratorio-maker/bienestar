@@ -1,0 +1,403 @@
+{
+  "name": "Cefetamet",
+  "summary": "El Cefetamet es un antibiótico de la familia de las cefalosporinas de tercera generación, que se administra por vía oral. Sirve para tratar infecciones causadas por bacterias sensibles, especialmente aquellas que afectan las vías respiratorias, urinarias, piel y tejidos blandos. Su importancia clínica radica en su amplio espectro de acción, su buena tolerabilidad y su comodidad de administración (solo dos veces al día), lo que ayuda a los pacientes a cumplir mejor con el tratamiento y combatir infecciones de manera efectiva. Es particularmente útil contra bacterias que han desarrollado resistencia a otros antibióticos más antiguos. Sin embargo, como todos los antibióticos, debe usarse únicamente bajo prescripción médica para evitar el desarrollo de más resistencia bacteriana y asegurar que sea el medicamento correcto para la infección específica.",
+  "pharmacology": {
+    "mechanismOfAction": "El Cefetamet es un profármaco que, una vez ingerido, se hidroliza en el intestino para liberar su metabolito activo, el cefetamet pivoxilo. Este compuesto activo pertenece a las cefalosporinas de tercera generación. Su mecanismo de acción principal es bactericida, lo que significa que mata a las bacterias. Lo logra al unirse de manera irreversible a unas proteínas específicas en la pared celular de la bacteria llamadas Proteínas Fijadoras de Penicilina (PBP). Esta unión bloquea la síntesis del peptidoglicano, un componente estructural esencial de la pared celular bacteriana. Sin una pared celular intacta, la bacteria se debilita, absorbe agua y finalmente estalla (lisis), muriendo. Es especialmente efectivo contra bacterias Gram-negativas, aunque también cubre algunos Gram-positivos.",
+    "pharmacologicClass": "Antibiótico beta-lactámico; Cefalosporina de tercera generación (oral).",
+    "therapeuticClass": "Antibiótico sistémico.",
+    "absorption": "El Cefetamet pivoxilo (la forma en que se administra) es un profármaco lipofílico que se absorbe bien en el tracto gastrointestinal. La absorción es rápida y se ve favorecida por la presencia de alimentos, los cuales aumentan significativamente su biodisponibilidad. Tras la absorción intestinal, el profármaco se hidroliza rápidamente por esterasas de la mucosa intestinal y en el hígado, liberando el metabolito activo, el cefetamet.",
+    "distribution": "El cefetamet activo se distribuye ampliamente en los fluidos y tejidos del cuerpo. Tiene una buena penetración en tejidos como amígdalas, pulmón, líquido pleural, hueso, próstata y líquido cefalorraquídeo (especialmente cuando las meninges están inflamadas). Su unión a proteínas plasmáticas es moderada, aproximadamente del 22-25%, lo que permite que una buena proporción del fármaco esté libre para ejercer su efecto antibacteriano.",
+    "metabolism": "El metabolismo es mínimo. Como se mencionó, el profármaco (cefetamet pivoxilo) sufre una hidrólisis rápida y casi completa en el intestino y el hígado para convertirse en el cefetamet activo. No es un sustrato significativo del sistema enzimático citocromo P450 (CYP), por lo que tiene un bajo potencial de interacciones farmacocinéticas mediadas por estas enzimas.",
+    "elimination": "La eliminación del cefetamet es principalmente renal, en forma inalterada (activa). Aproximadamente el 50-60% de la dosis administrada se excreta por la orina en las primeras 12 horas. Su vida media de eliminación es de aproximadamente 2 a 2.5 horas en adultos con función renal normal. Esta vida media puede prolongarse considerablemente en pacientes con insuficiencia renal.",
+    "onsetOfAction": "Los niveles plasmáticos efectivos se alcanzan entre 1.5 y 3 horas después de la administración oral, dependiendo de si se tomó con alimentos.",
+    "durationOfAction": "Debido a su vida media y su efecto post-antibiótico contra algunas bacterias, el efecto bactericida se mantiene durante aproximadamente 12 horas, permitiendo una dosificación de cada 12 horas para la mayoría de las infecciones."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones del tracto respiratorio inferior (bronquitis aguda y crónica, neumonía adquirida en la comunidad)",
+      "Infecciones del tracto respiratorio superior (faringitis, amigdalitis, sinusitis aguda)",
+      "Infecciones del tracto urinario no complicadas y complicadas (cistitis, pielonefritis)",
+      "Infecciones de piel y estructuras de la piel no complicadas (celulitis, impétigo, forúnculos)",
+      "Gonorrea no complicada (urethritis y cervicitis gonocócica)"
+    ],
+    "offLabel": [
+      "Profilaxis en procedimientos urológicos en pacientes de alto riesgo",
+      "Tratamiento de infecciones intraabdominales leves en combinación con otros antibióticos",
+      "Tratamiento de fiebre tifoidea causada por cepas sensibles de Salmonella typhi"
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis habitual para adultos y adolescentes (≥12 años y peso ≥50 kg) es de 500 mg a 1000 mg (1 a 2 tabletas de 500 mg) cada 12 horas. Para infecciones graves, como neumonía o pielonefritis, se puede iniciar con 1000 mg cada 12 horas. Para gonorrea no complicada, se usa una dosis única de 1000 mg a 2000 mg.",
+    "pediatric": "Para niños y adolescentes con peso <50 kg, la dosis se calcula por peso corporal: 10 mg/kg de peso, administrados cada 12 horas. Para infecciones más graves, la dosis puede aumentarse a 15-20 mg/kg cada 12 horas, sin exceder la dosis máxima diaria para adultos. No se recomienda su uso en lactantes menores de 6 meses por falta de datos de seguridad.",
+    "elderly": "En adultos mayores con función renal normal, no se requieren ajustes de dosis basados únicamente en la edad. Sin embargo, es común que presenten una disminución de la función renal, por lo que la dosis debe ajustarse según el aclaramiento de creatinina (CrCl).",
+    "renalImpairment": "Ajustes necesarios según el aclaramiento de creatinina (CrCl): CrCl 30-60 mL/min: 500 mg cada 12 horas (dosis estándar) o 1000 mg cada 24 horas. CrCl 10-30 mL/min: 500 mg cada 24 horas. CrCl <10 mL/min (o en diálisis): 500 mg cada 48-72 horas. Se recomienda administrar la dosis después de una sesión de hemodiálisis.",
+    "hepaticImpairment": "No se requieren ajustes de dosis específicos en insuficiencia hepática leve a moderada, ya que el fármaco no se metaboliza significativamente en el hígado. En insuficiencia hepática grave, se debe usar con precaución y monitorizar al paciente.",
+    "maxDose": "La dosis máxima diaria para adultos es de 4000 mg (4 gramos), administrados en dos tomas de 2000 mg cada 12 horas, solo para infecciones muy graves y bajo estricta supervisión médica."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta recubierta",
+      "strengths": [
+        "500 mg"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad (alergia) conocida al cefetamet, a cualquier cefalosporina o a cualquier componente de la formulación.",
+      "Antecedentes de reacción anafiláctica (alergia grave) a cualquier antibiótico beta-lactámico (penicilinas, cefalosporinas, carbapenémicos, monobactámicos)."
+    ],
+    "relative": [
+      "Insuficiencia renal grave (CrCl <10 mL/min) sin ajuste de dosis y monitorización.",
+      "Colitis pseudomembranosa previa o actual asociada a antibióticos.",
+      "Pacientes con fenilcetonuria (algunas formulaciones pueden contener aspartamo)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Diarrea (puede ser acuosa o con sangre, indicando posible colitis)",
+      "Náuseas",
+      "Dolor abdominal o malestar estomacal"
+    ],
+    "common": [
+      "Vómitos",
+      "Flatulencia (gases)",
+      "Dolor de cabeza",
+      "Mareos",
+      "Erupciones cutáneas leves (rash)"
+    ],
+    "uncommon": [
+      "Prurito (comezón)",
+      "Urticaria (ronchas)",
+      "Candidiasis vaginal (infección por hongos) o candidiasis oral",
+      "Aumento transitorio de enzimas hepáticas (ALT, AST)",
+      "Leucopenia (disminución de glóbulos blancos)"
+    ],
+    "rare": [
+      "Reacción anafiláctica (alergia grave con dificultad para respirar, hinchazón)",
+      "Colitis pseudomembranosa grave (diarrea severa por C. difficile)",
+      "Nefritis intersticial (daño renal)",
+      "Síndrome de Stevens-Johnson o necrólisis epidérmica tóxica (reacciones cutáneas graves)",
+      "Anemia hemolítica",
+      "Convulsiones (en casos de sobredosis o falla renal)"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Probenecid",
+        "effect": "El probenecid bloquea la secreción tubular renal del cefetamet, aumentando sus niveles en sangre y prolongando su efecto. Esto puede incrementar el riesgo de efectos adversos.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Anticoagulantes orales (Warfarina, Acenocumarol)",
+        "effect": "El cefetamet puede potenciar el efecto anticoagulante, aumentando el riesgo de sangrado. Se debe monitorizar estrechamente el INR.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "Los ALIMENTOS (especialmente comidas con grasa) AUMENTAN significativamente la absorción del cefetamet. Se debe tomar CON ALIMENTOS para maximizar su efectividad y reducir molestias gastrointestinales. El ALCOHOL debe evitarse durante el tratamiento, ya que aunque no tiene una interacción farmacológica directa grave como con el metronidazol, puede empeorar efectos secundarios como náuseas y mareos, y sobrecargar el hígado.",
+    "withSupplements": "Los suplementos que contienen HIERRO, ZINC, MAGNESIO o CALCIO (como multivitamínicos o antiácidos) pueden formar complejos insolubles con el cefetamet en el intestino, reduciendo drásticamente su absorción y efectividad. Se deben tomar al menos 2 a 3 horas antes o después del cefetamet. Los probióticos pueden ser útiles para prevenir la diarrea asociada a antibióticos."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría B",
+      "recommendation": "Los estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. Debe usarse durante el embarazo solo si el beneficio potencial justifica claramente el riesgo potencial para el feto. Se prefiere en ciertos casos donde otros antibióticos no son adecuados.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "El cefetamet se excreta en la leche materna en cantidades muy bajas. Se considera generalmente compatible con la lactancia, ya que es poco probable que cause efectos adversos en el lactante. Sin embargo, se debe observar al bebé por posibles efectos como diarrea o candidiasis (algodoncillo).",
+    "pediatric": "Seguro y efectivo en niños mayores de 6 meses para las indicaciones aprobadas, usando la dosificación por peso corporal. No se recomienda en recién nacidos o lactantes muy pequeños por inmadurez de los sistemas enzimáticos y renal.",
+    "geriatric": "Los adultos mayores son más susceptibles a los efectos adversos, especialmente la diarrea y la colitis por C. difficile. La función renal suele estar disminuida, por lo que es IMPRESCINDIBLE calcular el aclaramiento de creatinina y ajustar la dosis en consecuencia para evitar toxicidad por acumulación del fármaco."
+  },
+  "administration": {
+    "howToTake": "Tragar la tableta entera con un vaso lleno de agua (aproximadamente 240 ml). NO parta, mastique ni triture la tableta. Tómelo CON ALIMENTOS (desayuno, comida o cena) para mejorar su absorción y reducir el malestar estomacal. Si olvida una dosis, tómela en cuanto se acuerde, pero si ya es casi la hora de la siguiente, omita la dosis olvidada y continúe con su horario normal. NUNCA duplique la dosis para compensar.",
+    "storage": "Conservar en su empaque original, a temperatura ambiente (entre 15°C y 30°C), en un lugar seco y fuera del alcance de la luz directa y la humedad. Mantener fuera del alcance de los niños.",
+    "specialInstructions": "Complete TODO el tratamiento recetado por su médico, incluso si se siente mejor a los pocos días. Suspenderlo antes de tiempo puede hacer que la infección regrese y que las bacterias se vuelvan resistentes. Si presenta diarrea acuosa o con sangre, fiebre y dolor abdominal intenso durante o después del tratamiento, suspenda el medicamento y contacte a su médico de inmediato (podría ser colitis por C. difficile)."
+  },
+  "monitoring": {
+    "labTests": [
+      "Cultivo y antibiograma (antes de iniciar el tratamiento, si es posible)",
+      "Recuento completo de células sanguíneas (CSC) con diferencial",
+      "Pruebas de función renal (creatinina sérica, BUN, cálculo de CrCl)",
+      "Pruebas de función hepática (ALT, AST, bilirrubina)",
+      "Tiempo de protrombina (TP/INR) en pacientes con anticoagulantes"
+    ],
+    "frequency": "En tratamientos prolongados (>10 días) o en pacientes de riesgo (ancianos, insuficiencia renal), se recomienda un CSC y pruebas renales a la semana. El cultivo se repite si no hay mejoría clínica en 48-72 horas.",
+    "signsToWatch": [
+      "Fiebre que no cede o reaparece",
+      "Erupción cutánea grave, ampollas o descamación",
+      "Dificultad para respirar, hinchazón de cara/lengua (signos de alergia)",
+      "Diarrea líquida o con sangre, dolor abdominal fuerte",
+      "Sangrado inusual (encías, moretones, sangre en orina/heces)",
+      "Confusión, mareo severo o convulsiones"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Náuseas y vómitos severos",
+      "Diarrea profusa",
+      "Convulsiones (especialmente en pacientes renales)",
+      "Alteraciones en los electrolitos sanguíneos"
+    ],
+    "treatment": "El tratamiento es de soporte y sintomático. No existe un antídoto específico. En caso de ingestión reciente, se puede considerar el lavado gástrico o la administración de carbón activado. Las convulsiones se tratan con benzodiacepinas (diazepam). La hemodiálisis es EFECTIVA para eliminar el cefetamet del torrente sanguíneo y se recomienda en casos de sobredosis grave, especialmente con insuficiencia renal.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica para su venta (medicamento etiqueta roja).",
+    "scheduleMexico": "No está sujeto a control especial por la COFEPRIS. Es un antibiótico de uso restringido a receta médica.",
+    "fdaApprovalYear": "No aprobado por la FDA de EE.UU. Está aprobado y disponible en México, Europa, Canadá y otros países."
+  },
+  "brandsMexico": [
+    "Cefmax",
+    "Cefmet",
+    "Globocef",
+    "Pivoxil",
+    "Zefatamet"
+  ],
+  "clinicalPearls": [
+    "Siempre tomar CON ALIMENTOS para una absorción óptima. Es una de las instrucciones más importantes.",
+    "La diarrea es el efecto adverso más común. Educar al paciente para que reporte diarrea acuosa o con sangre de inmediato.",
+    "Ajustar dosis en insuficiencia renal es crucial para prevenir neurotoxicidad (convulsiones).",
+    "Excelente opción oral de paso para infecciones respiratorias y urinarias después de un inicio con cefalosporina parenteral.",
+    "No es activo contra Pseudomonas aeruginosa ni enterococos. Conocer sus limitaciones de espectro."
+  ],
+  "patientCounseling": "Tome este antibiótico exactamente como se lo indicó su médico, con alimentos, para que funcione mejor y le cause menos malestar. Termine todas las pastillas, aunque se sienta mejor, para evitar que la infección regrese y que las bacterias se hagan fuertes. Esté atento a señales de alergia como ronchas o dificultad para respirar, y a diarrea líquida o con sangre, que requiere atención médica urgente. No tome antiácidos, vitaminas con hierro o zinc al mismo tiempo; sepárelos por al menos 3 horas. Evite el alcohol mientras esté en tratamiento. Si tiene dudas o efectos molestos, no deje de tomarlo sin antes hablar con su médico o farmacéutico.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre",
+        "slug": "fiebre"
+      },
+      {
+        "name": "Dolor al orinar",
+        "slug": "disuria"
+      },
+      {
+        "name": "Tos con flemas",
+        "slug": "tos-productiva"
+      },
+      {
+        "name": "Dolor de garganta",
+        "slug": "odinofagia"
+      },
+      {
+        "name": "Dolor en el costado",
+        "slug": "dolor-flanco"
+      },
+      {
+        "name": "Secreción uretral",
+        "slug": "secrecion-uretral"
+      },
+      {
+        "name": "Enrojecimiento de la piel",
+        "slug": "eritema"
+      },
+      {
+        "name": "Escalofríos",
+        "slug": "escalofrios"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Bronquitis aguda",
+        "slug": "bronquitis-aguda"
+      },
+      {
+        "name": "Neumonía adquirida en la comunidad",
+        "slug": "neumonia-comunitaria"
+      },
+      {
+        "name": "Infección de vías urinarias",
+        "slug": "infeccion-vias-urinarias"
+      },
+      {
+        "name": "Pielonefritis",
+        "slug": "pielonefritis"
+      },
+      {
+        "name": "Faringoamigdalitis bacteriana",
+        "slug": "faringoamigdalitis"
+      },
+      {
+        "name": "Gonorrea",
+        "slug": "gonorrea"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Colitis pseudomembranosa",
+        "slug": "colitis-pseudomembranosa"
+      },
+      {
+        "name": "Insuficiencia renal aguda",
+        "slug": "insuficiencia-renal-aguda"
+      },
+      {
+        "name": "Reacción anafiláctica",
+        "slug": "anafilaxia"
+      },
+      {
+        "name": "Candidiasis vaginal/oral",
+        "slug": "candidiasis"
+      },
+      {
+        "name": "Diarrea asociada a antibióticos",
+        "slug": "diarrea-antibioticos"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar (raro, por nefritis)"
+      },
+      {
+        "name": "ALT (TGP)",
+        "slug": "alanino-aminotransferasa",
+        "effect": "Puede elevar transitoriamente"
+      },
+      {
+        "name": "AST (TGO)",
+        "slug": "aspartato-aminotransferasa",
+        "effect": "Puede elevar transitoriamente"
+      },
+      {
+        "name": "Recuento de leucocitos",
+        "slug": "leucocitos",
+        "effect": "Puede disminuir (leucopenia)"
+      },
+      {
+        "name": "INR",
+        "slug": "tiempo-protrombina-inr",
+        "effect": "Puede elevar (aumenta riesgo sangrado)"
+      },
+      {
+        "name": "Cultivo de orina",
+        "slug": "urocultivo",
+        "effect": "Esteriliza (resultado negativo)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Cultivo y antibiograma",
+        "slug": "cultivo-antibiograma",
+        "reason": "Confirmar bacteria sensible antes o durante el tratamiento"
+      },
+      {
+        "name": "Biometría hemática",
+        "slug": "biometria-hematica",
+        "reason": "Monitorear leucocitos y detectar leucopenia"
+      },
+      {
+        "name": "Química sanguínea (función renal)",
+        "slug": "quimica-sanguinea",
+        "reason": "Ajustar dosis y monitorear toxicidad renal"
+      },
+      {
+        "name": "Examen general de orina",
+        "slug": "examen-general-orina",
+        "reason": "Seguimiento de infecciones urinarias"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina",
+        "reason": "Ajuste de dosis en insuficiencia renal"
+      },
+      {
+        "name": "Dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso",
+        "reason": "Calcular dosis exacta para niños"
+      },
+      {
+        "name": "Calculadora de eGFR",
+        "slug": "calculadora-egfr",
+        "reason": "Evaluar función renal para ajuste de dosis"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Con qué debo tomar el Cefetamet, con el estómago vacío o con comida?",
+      "a": "Siempre debe tomarlo CON COMIDA. Esto ayuda a que su cuerpo lo absorba mucho mejor y reduce las posibilidades de que le cause malestar estomacal, náuseas o diarrea."
+    },
+    {
+      "q": "¿Qué hago si se me olvida una dosis?",
+      "a": "Tómela en cuanto se acuerde, junto con un poco de alimento. Si ya es casi la hora de su siguiente dosis, NO tome la dosis olvidada. Continúe con su horario normal. Nunca duplique la dosis para compensar el olvido."
+    },
+    {
+      "q": "¿Puedo tomar alcohol mientras uso este antibiótico?",
+      "a": "No se recomienda. Aunque no causa una reacción grave como algunos otros antibióticos, el alcohol puede aumentar las náuseas, mareos y sobrecargar su hígado. Es mejor evitarlo hasta terminar el tratamiento."
+    },
+    {
+      "q": "Me salió una diarrea leve, ¿debo suspender el medicamento?",
+      "a": "No lo suspenda por una diarrea leve. Puede ser un efecto secundario común. Tome suficiente agua para no deshidratarse. Pero si la diarrea es muy líquida, abundante, con sangre o moco, o viene con fiebre y dolor abdominal fuerte, SUSPENDA el medicamento y llame a su médico de inmediato."
+    },
+    {
+      "q": "¿El Cefetamet le caerá mal a mi estómago?",
+      "a": "Tomarlo con alimentos reduce mucho este riesgo. Algunas personas pueden sentir náuseas leves, gases o malestar, pero suele ser tolerable. Si los síntomas son muy molestos, consulte a su médico o farmacéutico."
+    },
+    {
+      "q": "¿Puedo tomar antiácidos (como Gelox, Alka-Seltzer) o vitaminas con hierro al mismo tiempo?",
+      "a": "NO. Los antiácidos y suplementos con hierro, zinc, calcio o magnesio pueden impedir que el antibiótico se absorba. Si los necesita, tómelos al menos 2 a 3 horas ANTES o DESPUÉS de tomar el Cefetamet."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Generalmente, en 24 a 48 horas empezará a notar mejoría en sus síntomas, como disminución de la fiebre y del dolor. Sin embargo, es crucial completar todos los días de tratamiento que le recetó el médico."
+    },
+    {
+      "q": "¿Sirve para la gripe o el resfriado?",
+      "a": "NO. El Cefetamet es un antibiótico que solo mata bacterias. La gripe y el resfriado común son causados por virus. Usarlo para estas enfermedades no solo no ayuda, sino que puede causar efectos secundarios y contribuir a la resistencia bacteriana."
+    },
+    {
+      "q": "¿Puedo usarlo si soy alérgico a la penicilina (como la amoxicilina)?",
+      "a": "Debe tener MUCHA PRECAUCIÓN. Existe un riesgo de reacción cruzada (alergia) entre penicilinas y cefalosporinas. Solo su médico puede evaluar si su alergia fue leve o grave y decidir si es seguro recetarle Cefetamet. NUNCA se automedique."
+    },
+    {
+      "q": "¿Pueden tomarlo niños?",
+      "a": "Sí, pero la dosis se calcula con base en el peso del niño (mg por kg de peso). Está aprobado para niños mayores de 6 meses. Siempre debe ser recetado por un pediatra."
+    },
+    {
+      "q": "¿Y las mujeres embarazadas o que están amamantando?",
+      "a": "Embarazo: Solo debe usarse si el médico considera que el beneficio supera el riesgo. Categoría B. Lactancia: Se puede usar con precaución, ya que pasa en cantidades mínimas a la leche. Observe al bebé por si presenta diarrea o hongos en la boca."
+    },
+    {
+      "q": "¿Qué pasa si tomo más de la dosis indicada (sobredosis)?",
+      "a": "Puede causar náuseas, vómitos, diarrea severa y, en casos graves (especialmente si tiene problemas renales), convulsiones. Acuda de inmediato a un servicio de urgencias o llame al centro de toxicología. Lleve el medicamento consigo."
+    },
+    {
+      "q": "Me salieron ronchas en la piel, ¿qué hago?",
+      "a": "Suspenda el medicamento y contacte a su médico. Puede ser una reacción alérgica. Si además tiene dificultad para respirar, hinchazón de labios o lengua, es una EMERGENCIA médica (anafilaxia). Acuda a urgencias."
+    },
+    {
+      "q": "¿El Cefetamet mancha los dientes?",
+      "a": "No, el Cefetamet no mancha los dientes como lo hacen algunas tetraciclinas. Puede tomarlo sin esa preocupación."
+    },
+    {
+      "q": "¿Puedo hacer ejercicio normal mientras lo tomo?",
+      "a": "Sí, a menos que la infección le cause malestar general o fiebre. Escuche a su cuerpo. Algunas personas pueden sentir mareo leve, así que tenga precaución."
+    },
+    {
+      "q": "¿Interfiere con las pastillas anticonceptivas?",
+      "a": "No hay evidencia sólida de que el Cefetamet reduzca la efectividad de los anticonceptivos hormonales orales (pastillas). Sin embargo, si presenta vómitos o diarrea severa, la absorción de la pastilla anticonceptiva puede verse afectada. Use un método de respaldo (como condón) durante ese ciclo como precaución."
+    },
+    {
+      "q": "¿Por qué es importante terminar todas las pastillas aunque me sienta bien?",
+      "a": "Porque si suspende el tratamiento antes de tiempo, puede que no todas las bacterias hayan sido eliminadas. Las que sobrevivan se harán más fuertes y resistentes, haciendo que la infección regrese y sea más difícil de tratar en el futuro."
+    },
+    {
+      "q": "¿Cómo debo guardar las tabletas?",
+      "a": "En su empaque original, a temperatura ambiente (no en el baño por la humedad), en un lugar seco y fuera del alcance de los niños y la luz directa del sol."
+    },
+    {
+      "q": "¿El Cefetamet es bueno para las infecciones de los riñones?",
+      "a": "Sí, es una buena opción para el tratamiento de infecciones renales (pielonefritis) no complicadas, causadas por bacterias sensibles. La dosis suele ser más alta (1000 mg cada 12 horas)."
+    },
+    {
+      "q": "Mi médico me pidió un cultivo, ¿debo empezar el antibiótico antes o después del cultivo?",
+      "a": "Lo IDEAL es que se tome la muestra para el cultivo (de orina, esputo, etc.) ANTES de tomar la primera dosis del antibiótico. Esto permite identificar con precisión la bacteria causante. Si ya inició el tratamiento, informe a su médico, ya que el cultivo podría salir negativo aunque haya infección."
+    }
+  ]
+}

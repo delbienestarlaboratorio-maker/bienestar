@@ -1,0 +1,409 @@
+{
+  "name": "Cefotaxima",
+  "summary": "La cefotaxima es un antibiótico potente de la familia de las cefalosporinas de tercera generación, utilizado para combatir infecciones graves causadas por bacterias. Actúa matando las bacterias o deteniendo su crecimiento, y es especialmente útil para tratar infecciones en los pulmones (neumonía), meningitis (infección de las membranas del cerebro), infecciones de la sangre (sepsis), del abdomen, de los huesos y articulaciones, y del tracto urinario complicado. Su importancia clínica radica en su amplio espectro de acción, lo que significa que es efectivo contra una gran variedad de bacterias, incluyendo algunas que son resistentes a otros antibióticos más comunes. Por esta razón, es un medicamento de primera línea en hospitales para tratar infecciones severas adquiridas en la comunidad o en el ámbito hospitalario. Se administra únicamente por inyección en vena (intravenosa) o en músculo (intramuscular), por lo que su uso está supervisado por profesionales de la salud. Es fundamental completar el tratamiento exactamente como lo indica el médico, incluso si el paciente se siente mejor, para evitar que la infección regrese y para prevenir el desarrollo de bacterias resistentes a los antibióticos.",
+  "pharmacology": {
+    "mechanismOfAction": "La cefotaxima es un antibiótico bactericida, lo que significa que mata directamente a las bacterias. Su mecanismo de acción principal es inhibir la síntesis de la pared celular bacteriana, una estructura esencial que protege y da forma a la bacteria. Lo hace uniéndose a unas proteínas específicas llamadas Proteínas Fijadoras de Penicilina (PBP), que son enzimas encargadas de construir y reparar la pared celular. Al bloquear estas proteínas, la cefotaxima interrumpe el proceso de formación de la pared. Como resultado, la bacteria no puede mantener su integridad estructural, especialmente cuando está creciendo y dividiéndose. Esto provoca que la pared celular se debilite y finalmente se rompa, causando la muerte de la bacteria (lisis celular). Este mecanismo es altamente selectivo para las bacterias, ya que las células humanas no tienen pared celular, lo que contribuye a su perfil de seguridad.",
+    "pharmacologicClass": "Antibiótico beta-lactámico; Cefalosporina de tercera generación.",
+    "therapeuticClass": "Antibiótico sistémico.",
+    "absorption": "La cefotaxima no se absorbe por vía oral. Cuando se administra por vía intramuscular (IM), la absorción es rápida y casi completa, con una biodisponibilidad cercana al 90-100%. La concentración máxima en sangre (Cmax) se alcanza aproximadamente entre 30 minutos y 1 hora después de la inyección intramuscular. La administración intravenosa (IV) proporciona niveles plasmáticos inmediatos y más altos.",
+    "distribution": "La cefotaxima se distribuye ampliamente en la mayoría de los tejidos y fluidos corporales. Atraviesa bien la barrera hematoencefálica, especialmente cuando las meninges están inflamadas (como en la meningitis), alcanzando concentraciones terapéuticas en el líquido cefalorraquídeo. También penetra en el líquido pleural, peritoneal, sinovial y en el hueso. Su unión a proteínas plasmáticas es relativamente baja, aproximadamente del 13% al 38%. Su volumen de distribución (Vd) es de alrededor de 0.25 a 0.39 L/kg, indicando una distribución principalmente en el espacio extracelular.",
+    "metabolism": "La cefotaxima se metaboliza parcialmente en el hígado. Una parte se desacetila para formar su metabolito principal, la desacetilcefotaxima, que también tiene actividad antibacteriana (aunque menor que el compuesto original). Este metabolismo no depende significativamente del sistema de enzimas CYP450 (citocromo P450). La combinación de la cefotaxima y su metabolito activo puede tener un efecto sinérgico contra algunas bacterias.",
+    "elimination": "La cefotaxima se elimina principalmente por vía renal, tanto en forma inalterada (50-60%) como en forma de su metabolito desacetilado (20-25%). La vida media de eliminación en adultos con función renal normal es de aproximadamente 1.0 a 1.5 horas para la cefotaxima y de 1.6 horas para su metabolito. En pacientes con insuficiencia renal grave, la vida media se prolonga significativamente, requiriendo ajustes de dosis. Una pequeña parte se excreta por la bilis.",
+    "onsetOfAction": "El inicio de acción es rápido. Tras la administración intravenosa, los niveles antibacterianos efectivos en sangre se alcanzan casi de inmediato. Con la administración intramuscular, el inicio ocurre dentro de la primera hora.",
+    "durationOfAction": "La duración del efecto antibacteriano es de aproximadamente 6 a 8 horas en pacientes con función renal normal, lo que justifica su administración cada 6, 8 o 12 horas, dependiendo de la gravedad de la infección. En infecciones muy graves, se pueden usar intervalos más cortos (cada 4-6 horas)."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones del tracto respiratorio inferior (neumonía bacteriana, bronquitis aguda exacerbada)",
+      "Meningitis bacteriana (especialmente por Neisseria meningitidis, Streptococcus pneumoniae, Haemophilus influenzae)",
+      "Infecciones intraabdominales (peritonitis, infecciones biliares)",
+      "Infecciones del tracto urinario complicadas (pielonefritis)",
+      "Sepsis e infecciones del torrente sanguíneo (bacteriemia)",
+      "Infecciones de huesos y articulaciones (osteomielitis, artritis séptica)",
+      "Infecciones de piel y tejidos blandos complicadas (celulitis, heridas infectadas)",
+      "Infecciones ginecológicas (endometritis, enfermedad inflamatoria pélvica)",
+      "Gonorrea no complicada (como alternativa)",
+      "Profilaxis quirúrgica en ciertos procedimientos (ej. colorectal)"
+    ],
+    "offLabel": [
+      "Tratamiento empírico de fiebre en pacientes neutropénicos (con recuento bajo de glóbulos blancos)",
+      "Tratamiento de infecciones por Salmonella typhi (fiebre tifoidea) resistente a otros fármacos",
+      "Parte de regímenes combinados para infecciones polimicrobianas severas"
+    ]
+  },
+  "dosage": {
+    "adults": "Las dosis varían según la gravedad y el sitio de la infección. Infecciones moderadas: 1-2 g cada 8-12 horas por vía IV o IM. Infecciones graves (meningitis, sepsis): 2 g cada 6-8 horas por vía IV. Infecciones muy graves o por Pseudomonas: Hasta 2 g cada 4 horas. Gonorrea no complicada: 500 mg en dosis única IM.",
+    "pediatric": "Recién nacidos (0-1 semana): 50 mg/kg cada 12 horas. Lactantes (1-4 semanas): 50 mg/kg cada 8 horas. Niños >1 mes y ≤12 años: 50-180 mg/kg/día, dividido en 4-6 dosis (ej. 50 mg/kg cada 6 horas para infecciones graves). Para meningitis: Dosis altas de 200 mg/kg/día, divididas en 4 dosis (50 mg/kg cada 6 horas). Dosis máxima por dosis infantil no debe exceder la dosis del adulto.",
+    "elderly": "Los pacientes mayores suelen tener disminución de la función renal. La dosis debe ajustarse según el aclaramiento de creatinina (CrCl), no solo por la edad. Se recomienda monitoreo de la función renal.",
+    "renalImpairment": "Ajustes basados en aclaramiento de creatinina (CrCl). CrCl 10-50 mL/min: Dosis normal cada 8-12 horas. CrCl <10 mL/min (o diálisis): Dosis normal cada 24 horas. Los pacientes en hemodiálisis deben recibir una dosis suplementaria después de cada sesión, ya que el fármaco se elimina durante la diálisis.",
+    "hepaticImpairment": "No se requieren ajustes de dosis específicos por insuficiencia hepática leve a moderada, ya que la vía principal de eliminación es renal. En insuficiencia hepática grave, se recomienda precaución y monitoreo, pero generalmente no es necesario ajustar la dosis.",
+    "maxDose": "La dosis máxima diaria en adultos es generalmente de 12 gramos (en infecciones muy graves como meningitis). En niños, la dosis máxima diaria no debe exceder los 12 g, siguiendo las guías de mg/kg."
+  },
+  "dosageForms": [
+    {
+      "form": "Polvo liofilizado para inyección (vial)",
+      "strengths": [
+        "250 mg",
+        "500 mg",
+        "1 g",
+        "2 g"
+      ],
+      "route": "Intravenosa (IV) / Intramuscular (IM)"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad (alergia) conocida y grave a la cefotaxima o a cualquier cefalosporina.",
+      "Antecedente de reacción alérgica grave (anafilaxia) a cualquier antibiótico beta-lactámico (penicilinas, cefalosporinas, carbapenémicos, monobactámicos)."
+    ],
+    "relative": [
+      "Hipersensibilidad leve a penicilinas (aumenta el riesgo de reacción cruzada, aunque es bajo ~1-3%).",
+      "Insuficiencia renal grave (requiere ajuste de dosis, no es contraindicación absoluta).",
+      "Antecedente de colitis asociada a antibióticos."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Diarrea (puede ser desde leve hasta colitis pseudomembranosa)",
+      "Reacciones en el sitio de la inyección (dolor, induración, flebitis)"
+    ],
+    "common": [
+      "Erupción cutánea (rash)",
+      "Náuseas",
+      "Vómitos",
+      "Dolor abdominal",
+      "Prurito (comezón)",
+      "Aumento de enzimas hepáticas transaminasas (AST, ALT)"
+    ],
+    "uncommon": [
+      "Colitis pseudomembranosa (diarrea severa por Clostridioides difficile)",
+      "Fiebre",
+      "Eosinofilia (aumento de un tipo de glóbulos blancos)",
+      "Leucopenia (disminución de glóbulos blancos)",
+      "Trombocitopenia (disminución de plaquetas)",
+      "Mareo",
+      "Dolor de cabeza"
+    ],
+    "rare": [
+      "Reacción anafiláctica severa (dificultad para respirar, hinchazón)",
+      "Nefritis intersticial (daño renal)",
+      "Hepatitis colestásica",
+      "Anemia hemolítica",
+      "Convulsiones (con dosis muy altas en insuficiencia renal)",
+      "Prueba de Coombs positiva (sin anemia clínica)"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Probenecid",
+        "effect": "El probenecid bloquea la excreción renal de la cefotaxima, aumentando y prolongando sus niveles en sangre. Esto puede aumentar la eficacia pero también el riesgo de efectos adversos.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Anticoagulantes orales (Warfarina)",
+        "effect": "La cefotaxima puede potenciar el efecto anticoagulante de la warfarina, aumentando el riesgo de sangrado. Se debe monitorear estrechamente el INR.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Aminoglucósidos (Gentamicina, Amikacina)",
+        "effect": "Sinergia antibacteriana contra algunas bacterias, pero aumento del riesgo potencial de daño renal (nefrotoxicidad). Se debe vigilar la función renal.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "No hay interacciones clínicamente significativas con alimentos, ya que se administra por vía parenteral. El alcohol no interfiere directamente con la acción del antibiótico, pero su consumo durante una infección grave no es recomendable y puede empeorar algunos efectos secundarios como náuseas.",
+    "withSupplements": "No se conocen interacciones significativas con suplementos vitamínicos o herbales. Sin embargo, se debe evitar el uso de probióticos que contengan bacterias resistentes a cefalosporinas de forma concurrente, aunque generalmente es seguro tomarlos para prevenir la diarrea."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "B",
+      "recommendación": "Estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. Debe usarse durante el embarazo solo si claramente es necesario, evaluando el beneficio frente al riesgo. Atraviesa la placenta. Generalmente se considera seguro para tratar infecciones bacterianas graves en la embarazada.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La cefotaxima se excreta en la leche materna en bajas concentraciones. Aunque se considera compatible con la lactancia, puede causar alteraciones en la flora intestinal del lactante (diarrea, candidiasis). Se recomienda precaución y observar al bebé. No es una contraindicación absoluta.",
+    "pediatric": "Es seguro y efectivo en niños y neonatos para las indicaciones aprobadas. Las dosis se calculan cuidadosamente por peso corporal. En neonatos prematuros y de muy bajo peso, se requieren ajustes de dosis y intervalos más largos debido a la inmadurez renal.",
+    "geriatric": "Los pacientes mayores de 65 años tienen mayor probabilidad de tener función renal disminuida. Es esencial calcular el aclaramiento de creatinina (CrCl) para ajustar la dosis y evitar acumulación del fármaco y toxicidad. También son más susceptibles a la colitis por C. difficile y a alteraciones en la coagulación."
+  },
+  "administration": {
+    "howToTake": "La cefotaxima SOLO se administra por inyección en un hospital o clínica por personal médico capacitado. Vía Intravenosa (IV): El polvo se reconstituye con agua para inyección y luego se diluye en una bolsa de solución salina o dextrosa. Se puede administrar como inyección lenta directa en la vena (en 3-5 minutos) o, más comúnmente, como infusión intravenosa lenta en 20-60 minutos. Vía Intramuscular (IM): El polvo se reconstituye con agua para inyección o con anestésico local (como lidocaína al 1%) para reducir el dolor. Se inyecta profundamente en un músculo grande (glúteo o muslo). Nunca se administra por vía oral.",
+    "storage": "Los viales sin reconstituir deben almacenarse a temperatura ambiente (15-30°C), protegidos de la luz y la humedad. Una vez reconstituido, la solución es estable a temperatura ambiente por 24 horas y refrigerada (2-8°C) por 10 días, dependiendo del diluyente. Las infusiones IV preparadas en bolsas son estables por 24 horas a temperatura ambiente o 10 días refrigeradas. Consultar la información del fabricante específica.",
+    "specialInstructions": "Antes de administrar, se debe preguntar siempre por alergias a penicilinas o cefalosporinas. Para inyección IM, usar soluciones frescas y rotar los sitios de inyección. No mezclar en la misma jeringa o solución de infusión con aminoglucósidos (pueden inactivarse mutuamente); administrar por vías separadas. En pacientes con insuficiencia renal, seguir estrictamente los ajustes de dosis."
+  },
+  "monitoring": {
+    "labTests": [
+      "Recuento completo de sangre (CSC) con diferencial",
+      "Pruebas de función renal (creatinina sérica, BUN, cálculo de CrCl)",
+      "Pruebas de función hepática (AST, ALT, fosfatasa alcalina, bilirrubina)",
+      "Cultivos y pruebas de sensibilidad bacteriana (antibiograma)",
+      "En pacientes con diarrea severa: prueba de toxina para Clostridioides difficile",
+      "En pacientes con warfarina: Tiempo de Protrombina (TP) e INR"
+    ],
+    "frequency": "Evaluación clínica diaria. Monitoreo de laboratorio: CSC y función renal 2-3 veces por semana en tratamientos prolongados (>7 días) o en pacientes con riesgo. Cultivos según la respuesta clínica.",
+    "signsToWatch": [
+      "Signos de alergia: erupción cutánea, urticaria, hinchazón de cara/lengua, dificultad para respirar.",
+      "Diarrea acuosa o con sangre, dolor abdominal severo (posible colitis).",
+      "Sangrado o moretones inusuales.",
+      "Disminución en la cantidad de orina (signo de daño renal).",
+      "Amarillamiento de piel u ojos (ictericia).",
+      "Convulsiones o cambios neurológicos (raro).",
+      "Dolor, enrojecimiento o hinchazón severa en el sitio de la inyección IV."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Convulsiones (especialmente en pacientes con insuficiencia renal)",
+      "Temblores",
+      "Alteraciones neurológicas",
+      "Aumento marcado de los efectos adversos gastrointestinales y hematológicos"
+    ],
+    "treatment": "El tratamiento es de soporte y sintomático. No hay un antídoto específico. En caso de sobredosis, se debe suspender inmediatamente el medicamento. Las convulsiones se tratan con benzodiacepinas (diazepam). La hemodiálisis es efectiva para eliminar la cefotaxima y su metabolito de la sangre, y debe considerarse en casos graves, especialmente si hay insuficiencia renal subyacente.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial para antibióticos (receta archivada).",
+    "scheduleMexico": "Medicamento de prescripción restringida. Sujeta a control sanitario, no está en una fracción de estupefacientes o psicotrópicos, pero su venta es solo con receta.",
+    "fdaApprovalYear": "Aprobado por la FDA de Estados Unidos en 1981."
+  },
+  "brandsMexico": [
+    "Cefotax",
+    "Cefotaxima Sódica",
+    "Claforan",
+    "Taxim",
+    "Cefotaxima Genfar",
+    "Cefotaxima PiSA",
+    "Cefotaxima Richmond",
+    "Cefotaxima MK",
+    "Cefotaxima Lab. Sanfer",
+    "Cefotaxima Liomont"
+  ],
+  "clinicalPearls": [
+    "Es una cefalosporina de 3ra generación con excelente actividad contra bacterias Gram-negativas, incluyendo Enterobacterias, pero con actividad limitada contra Pseudomonas aeruginosa (requiere dosis altas).",
+    "Es una de las cefalosporinas de elección para el tratamiento empírico de meningitis bacteriana comunitaria en niños y adultos, debido a su buena penetración al LCR.",
+    "La combinación de cefotaxima con un aminoglucósido es sinérgica contra muchas bacterias Gram-negativas, pero se debe vigilar la función renal.",
+    "A diferencia de la ceftriaxona, la cefotaxima tiene un metabolito activo y se elimina más rápido, requiriendo administraciones más frecuentes (cada 6-8h vs cada 12-24h).",
+    "Es una alternativa segura a la ceftriaxona en pacientes con enfermedad biliar o riesgo de colestasis, ya que no se elimina significativamente por la bilis."
+  ],
+  "patientCounseling": "Este medicamento se le administrará por inyección en el hospital o clínica. Es crucial que informe a su médico o enfermera si alguna vez ha tenido una reacción alérgica a cualquier antibiótico, especialmente penicilinas (como amoxicilina) u otras cefalosporinas. Durante el tratamiento, avise inmediatamente si presenta sarpullido, dificultad para respirar, diarrea líquida o con sangre, dolor abdominal fuerte, o moretones o sangrado inusual. Aunque se sienta mejor, es vital recibir todas las dosis que le indique el médico para asegurar que la infección desaparezca por completo y evitar que las bacterias se vuelvan resistentes. Puede ser normal sentir dolor o molestia en el sitio de la inyección. No consuma alcohol durante el tratamiento, ya que puede debilitar su sistema inmunológico y retrasar la recuperación. Si le dan el alta con tratamiento continuo en casa por vía intravenosa (antibiótico en casa), asegúrese de entender perfectamente las instrucciones de limpieza y administración para evitar infecciones en el catéter.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre alta",
+        "slug": "fiebre-alta"
+      },
+      {
+        "name": "Escalofríos",
+        "slug": "escalofrios"
+      },
+      {
+        "name": "Dolor al orinar",
+        "slug": "disuria"
+      },
+      {
+        "name": "Tos con flema purulenta",
+        "slug": "tos-con-flema"
+      },
+      {
+        "name": "Dolor de cabeza intenso con rigidez de cuello",
+        "slug": "meningismo"
+      },
+      {
+        "name": "Dolor abdominal severo",
+        "slug": "dolor-abdominal-agudo"
+      },
+      {
+        "name": "Enrojecimiento y calor en la piel",
+        "slug": "celulitis"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Neumonía bacteriana",
+        "slug": "neumonia"
+      },
+      {
+        "name": "Meningitis bacteriana",
+        "slug": "meningitis"
+      },
+      {
+        "name": "Pielonefritis (infección del riñón)",
+        "slug": "pielonefritis"
+      },
+      {
+        "name": "Sepsis",
+        "slug": "sepsis"
+      },
+      {
+        "name": "Peritonitis",
+        "slug": "peritonitis"
+      },
+      {
+        "name": "Osteomielitis",
+        "slug": "osteomielitis"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Colitis pseudomembranosa",
+        "slug": "colitis-pseudomembranosa"
+      },
+      {
+        "name": "Insuficiencia renal aguda",
+        "slug": "insuficiencia-renal-aguda"
+      },
+      {
+        "name": "Reacción anafiláctica",
+        "slug": "anafilaxia"
+      },
+      {
+        "name": "Hepatitis colestásica",
+        "slug": "hepatitis-colestasica"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Transaminasas (AST, ALT)",
+        "slug": "transaminasas",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Recuento de leucocitos",
+        "slug": "leucocitos",
+        "effect": "Puede disminuir (leucopenia)"
+      },
+      {
+        "name": "Recuento de plaquetas",
+        "slug": "plaquetas",
+        "effect": "Puede disminuir (trombocitopenia)"
+      },
+      {
+        "name": "INR (Tiempo de Protrombina)",
+        "slug": "inr",
+        "effect": "Puede elevar (aumenta riesgo de sangrado)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Cultivo y antibiograma",
+        "slug": "antibiograma",
+        "reason": "Identificar la bacteria causante y su sensibilidad al antibiótico."
+      },
+      {
+        "name": "Recuento completo de sangre",
+        "slug": "biometria-hematica",
+        "reason": "Monitorear efectos en células sanguíneas y signos de infección."
+      },
+      {
+        "name": "Pruebas de función renal",
+        "slug": "pruebas-funcion-renal",
+        "reason": "Ajustar dosis y detectar nefrotoxicidad temprana."
+      },
+      {
+        "name": "Urocultivo",
+        "slug": "urocultivo",
+        "reason": "Para diagnosticar y guiar el tratamiento de infecciones urinarias."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de TFG (EGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La cefotaxima es una penicilina?",
+      "a": "No, la cefotaxima no es una penicilina. Pertenece a otra familia de antibióticos llamada cefalosporinas. Sin embargo, son parientes lejanos (ambos son beta-lactámicos) y existe un pequeño riesgo (alrededor del 1-3%) de que alguien alérgico a la penicilina también sea alérgico a las cefalosporinas. Siempre informe a su médico si es alérgico a la penicilina."
+    },
+    {
+      "q": "¿Me puedo tomar una pastilla de cefotaxima en casa?",
+      "a": "No. La cefotaxima no existe en forma de pastillas, grageas o jarabe. Solo se presenta como polvo para inyección. Debe ser administrada por un profesional de la salud en un músculo (inyección) o directamente en la vena (suero)."
+    },
+    {
+      "q": "¿La inyección duele mucho?",
+      "a": "La inyección intramuscular puede causar dolor, ardor o molestia en el sitio de la aplicación. Para reducir este dolor, a veces se mezcla el polvo con un poco de anestésico local. La inyección intravenosa generalmente no duele si se coloca bien la vía, pero el sitio puede irritarse con el tiempo (flebitis). Comunique cualquier dolor severo o enrojecimiento."
+    },
+    {
+      "q": "¿Puedo beber alcohol mientras me ponen cefotaxima?",
+      "a": "No se recomienda. Aunque no hay una interacción química directa y peligrosa como con otros antibióticos (metronidazol), el alcohol debilita su sistema inmunológico, puede empeorar las náuseas y retrasa la recuperación. Lo más seguro es evitar el alcohol hasta que termine el tratamiento y se recupere por completo."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Comienza a actuar muy rápido, en cuestión de minutos u horas después de la primera dosis. Sin embargo, puede tomar de 24 a 72 horas para que usted note una mejoría significativa en sus síntomas, como la disminución de la fiebre. Es crucial completar TODO el tratamiento indicado, aunque se sienta mejor."
+    },
+    {
+      "q": "¿La cefotaxima me puede dar diarrea?",
+      "a": "Sí, la diarrea es un efecto secundario muy común. La mayoría de las veces es leve. Sin embargo, si la diarrea es muy líquida, abundante, con sangre o moco, o viene acompañada de fiebre y dolor abdominal fuerte, DEBE avisar a su médico de inmediato. Podría ser una colitis grave causada por una bacteria llamada C. difficile."
+    },
+    {
+      "q": "¿Sirve para la gripe o el COVID-19?",
+      "a": "NO. La cefotaxima solo mata bacterias. La gripe y el COVID-19 son causados por virus. Usar un antibiótico para una infección viral no sirve de nada, no alivia los síntomas y contribuye a crear bacterias resistentes. Solo se usa si hay una infección bacteriana secundaria."
+    },
+    {
+      "q": "¿Puedo usar cefotaxima si soy alérgico a la penicilina?",
+      "a": "Depende del tipo de alergia. Si su alergia a la penicilina fue leve (solo un sarpullido), su médico podría considerar usar cefotaxima con precaución, ya que el riesgo de reacción cruzada es bajo. Si su alergia fue grave (anafilaxia, dificultad para respirar), generalmente se evitan todas las cefalosporinas. INFORME SIEMPRE SU ALERGIA."
+    },
+    {
+      "q": "¿Afecta los métodos anticonceptivos?",
+      "a": "A diferencia de algunos antibióticos, la cefotaxima NO reduce la efectividad de los anticonceptivos hormonales (pastillas, parches, anillos). Puede usarlos con normalidad. Sin embargo, si tiene vómitos o diarrea severa por el antibiótico, esto SÍ podría afectar la absorción de las pastillas anticonceptivas orales."
+    },
+    {
+      "q": "¿Puedo comer de todo durante el tratamiento?",
+      "a": "Sí, no hay restricciones dietéticas específicas. Mantenga una dieta balanceada y beba muchos líquidos para ayudarle a recuperarse. Si tiene náuseas, coma porciones pequeñas y frecuentes. Los probióticos (yogur con cultivos activos) pueden ayudar a prevenir la diarrea asociada a antibióticos."
+    },
+    {
+      "q": "¿Qué hago si me olvido de una dosis en el hospital?",
+      "a": "En un entorno hospitalario, el personal de enfermería se encarga del horario. Si por algún motivo se retrasa o omite una dosis, avise a la enfermera o al médico. No intente 'ponerse al día' con una dosis doble. Ellos reprogramarán la siguiente dosis."
+    },
+    {
+      "q": "¿La cefotaxima es lo mismo que la ceftriaxona?",
+      "a": "No, son dos cefalosporinas de tercera generación diferentes pero similares. La ceftriaxona se administra usualmente una o dos veces al día y se elimina por la bilis, mientras que la cefotaxima se administra cada 6-8 horas y se elimina principalmente por el riñón. Su médico elegirá la más adecuada según su infección y sus condiciones (ej. enfermedad del hígado o riñón)."
+    },
+    {
+      "q": "¿Es seguro en el embarazo?",
+      "a": "Se clasifica en Categoría B, lo que significa que los estudios en animales no han mostrado riesgo, pero no hay estudios definitivos en embarazadas. Se usa cuando el beneficio para la madre (tratar una infección grave) supera el riesgo potencial para el feto. Solo debe usarse bajo estricta supervisión médica."
+    },
+    {
+      "q": "¿Puedo amamantar si me están dando cefotaxima?",
+      "a": "Sí, generalmente es compatible. Pasa a la leche materna en cantidades muy pequeñas, por lo que se considera de bajo riesgo para el bebé. Sin embargo, puede alterar la flora intestinal del lactante, pudiendo causarle diarrea o candidiasis (algodoncillo). Observe a su bebé y consulte con su pediatra."
+    },
+    {
+      "q": "¿Por qué me hacen análisis de sangre mientras me la ponen?",
+      "a": "Para monitorear su seguridad y la eficacia del tratamiento. Los análisis revisan: 1) La función renal, para ajustar la dosis si es necesario. 2) La función hepática. 3) El recuento de células sanguíneas, ya que raramente puede bajar los glóbulos blancos o plaquetas. 4) Signos de que la infección está cediendo."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre ponerla en vena (IV) o en músculo (IM)?",
+      "a": "La vía intravenosa (IV) es la más común para infecciones graves, porque lleva el medicamento directamente a la sangre para una acción más rápida y permite administrar dosis más altas. La vía intramuscular (IM) se usa para infecciones menos graves o cuando no hay acceso venoso, pero es más dolorosa y la absorción es un poco más lenta."
+    },
+    {
+      "q": "¿Puede dañar mis riñones?",
+      "a": "El riesgo de daño renal directo (nefrotoxicidad) con cefotaxima solo es bajo. Sin embargo, el riesgo aumenta si se combina con otros medicamentos que sí dañan el riñón (como algunos antiinflamatorios o aminoglucósidos). Por eso se monitorea la creatinina en sangre, especialmente en adultos mayores o personas con enfermedad renal previa."
+    },
+    {
+      "q": "¿Qué pasa si tengo insuficiencia renal?",
+      "a": "Si sus riñones no funcionan bien, el medicamento se elimina más lentamente y puede acumularse, aumentando el riesgo de efectos secundarios (como convulsiones). Por eso, el médico CALCULA su función renal (aclaramiento de creatinina) y AJUSTA la dosis: da la misma cantidad de medicamento, pero con menos frecuencia (ej. cada 12, 24 o incluso 48 horas)."
+    },
+    {
+      "q": "¿La cefotaxima cubre todas las bacterias?",
+      "a": "No. Tiene un espectro muy amplio, pero no cubre todo. Es excelente contra muchas bacterias Gram-negativas (como E. coli, Klebsiella) y algunas Gram-positivas. Sin embargo, no es efectiva contra bacterias resistentes como la MRSA (Staphylococcus aureus resistente a meticilina), enterococos resistentes, o algunas cepas de Pseudomonas. El médico elige según la infección sospechada."
+    },
+    {
+      "q": "¿Por qué a veces la combinan con otro antibiótico?",
+      "a": "Se combina para ampliar el espectro de cobertura (ej. en infecciones abdominales polimicrobianas donde hay bacterias aerobias y anaerobias), para lograr un efecto sinérgico (mayor potencia contra una bacteria específica, como usar cefotaxima + gentamicina para sepsis), o para tratar infecciones causadas por múltiples bacterias a la vez hasta que los cultivos identifiquen al culpable."
+    }
+  ]
+}

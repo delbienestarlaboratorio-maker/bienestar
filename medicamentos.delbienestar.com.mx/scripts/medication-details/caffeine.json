@@ -1,0 +1,435 @@
+{
+  "name": "Cafeína",
+  "summary": "La cafeína es un alcaloide natural del grupo de las xantinas, clasificado como un estimulante del sistema nervioso central. Aunque comúnmente se asocia con bebidas como el café, en el ámbito médico se utiliza como coadyuvante en combinación con analgésicos (como paracetamol o antiinflamatorios no esteroideos) para potenciar su efecto en el tratamiento del dolor, particularmente en cefaleas como la migraña. Su importancia clínica radica en su capacidad para producir vasoconstricción cerebral, lo que ayuda a aliviar el dolor de cabeza, y en potenciar la eficacia de otros analgésicos, permitiendo usar dosis más bajas de estos y reduciendo potencialmente sus efectos secundarios. Es crucial entender que la cafeína medicinal no es un analgésico opioide; esa categoría en la solicitud parece ser un error. La cafeína actúa de manera completamente diferente a los opioides, no tiene potencial de abuso significativo en dosis terapéuticas y su perfil de seguridad es distinto.",
+  "pharmacology": {
+    "mechanismOfAction": "La cafeína ejerce sus efectos principalmente al antagonizar (bloquear) los receptores de adenosina en el cerebro y otros tejidos. La adenosina es una sustancia que promueve la relajación y el sueño. Al bloquear sus receptores, la cafeína produce estimulación del sistema nervioso central, aumentando el estado de alerta y reduciendo la sensación de fatiga. En el contexto del dolor, especialmente la cefalea, la cafeína causa vasoconstricción (estrechamiento) de los vasos sanguíneos cerebrales, lo que contrarresta la vasodilatación asociada con ciertos tipos de dolor de cabeza, como la migraña. Además, potencia el efecto analgésico de medicamentos como el paracetamol y el ácido acetilsalicílico (aspirina) al aumentar su absorción y posiblemente al modular las vías del dolor en el sistema nervioso central. También estimula la liberación de neurotransmisores como la noradrenalina y la dopamina.",
+    "pharmacologicClass": "Metilxantina. Alcaloide. Estimulante del Sistema Nervioso Central. Antagonista competitivo de los receptores de adenosina A1 y A2A.",
+    "therapeuticClass": "Estimulante del SNC. Analgésico adyuvante. Vasoconstrictor cerebral.",
+    "absorption": "Se absorbe rápida y completamente en el tracto gastrointestinal (estómago e intestino delgado). La absorción es casi del 100%. La presencia de alimentos puede retrasar ligeramente la absorción, pero no reduce la cantidad total absorbida. La concentración máxima en sangre (Cmax) se alcanza entre 15 y 120 minutos después de la ingestión oral.",
+    "distribution": "Se distribuye ampliamente por todos los tejidos del cuerpo y cruza fácilmente la barrera hematoencefálica (hacia el cerebro) y la placenta (hacia el feto). Su volumen de distribución (Vd) es de aproximadamente 0.6 L/kg. Se une débilmente a proteínas plasmáticas (15-36%), principalmente a la albúmina.",
+    "metabolism": "Se metaboliza extensamente en el hígado (aproximadamente un 95%) por el sistema enzimático del citocromo P450, específicamente por la isoenzima CYP1A2. Se convierte en tres metabolitos principales: paraxantina, teobromina y teofilina, los cuales también tienen actividad farmacológica. El metabolismo puede variar mucho entre personas debido a factores genéticos, tabaquismo, embarazo o interacciones con otros medicamentos.",
+    "elimination": "Se elimina principalmente por vía renal en forma de metabolitos. Solo alrededor del 1-3% se excreta sin cambios en la orina. Su vida media de eliminación es variable, generalmente entre 3 y 7 horas en adultos sanos. En mujeres embarazadas, fumadores y en algunas condiciones, la vida media puede acortarse o alargarse significativamente.",
+    "onsetOfAction": "Los efectos estimulantes y analgésicos comienzan a notarse entre 15 y 45 minutos después de la ingestión oral.",
+    "durationOfAction": "Los efectos duran típicamente de 3 a 6 horas, dependiendo de la dosis, el metabolismo individual y la tolerancia desarrollada."
+  },
+  "indications": {
+    "approved": [
+      "Alivio adyuvante del dolor de cabeza (cefalea tensional, migraña) en combinación con analgésicos (paracetamol, AINEs).",
+      "Alivio de la somnolencia y la fatiga para restaurar el estado de alerta mental (uso ocasional).",
+      "Tratamiento de la apnea del prematuro (en neonatología, bajo estricta supervisión médica)."
+    ],
+    "offLabel": [
+      "Potenciación de analgésicos en otros tipos de dolor agudo.",
+      "Prevención de cefaleas pospunción dural (después de una punción lumbar).",
+      "Mejora del rendimiento cognitivo y físico en situaciones de fatiga extrema (uso militar o en turnos largos)."
+    ]
+  },
+  "dosage": {
+    "adults": "Como analgésico adyuvante: Generalmente 65 a 200 mg por dosis, en combinación con otros analgésicos. No exceder 400 mg al día provenientes de medicamentos. Para el estado de alerta: 100-200 mg según necesidad, cada 3-4 horas.",
+    "pediatric": "NO se recomienda para el tratamiento del dolor en niños y adolescentes de forma rutinaria. Para apnea del prematuro: Dosificación estrictamente hospitalaria y calculada por peso (mg/kg), iniciando con dosis bajas y ajustando según respuesta.",
+    "elderly": "Los adultos mayores pueden ser más sensibles a los efectos estimulantes y adversos (nerviosismo, insomnio, taquicardia). Se recomienda iniciar con la dosis más baja efectiva y monitorear la respuesta.",
+    "renalImpairment": "No se requieren ajustes de dosis significativos en insuficiencia renal leve a moderada. En insuficiencia renal grave (TFG <15 mL/min), puede haber acumulación de metabolitos. Usar con precaución y posiblemente reducir la dosis.",
+    "hepaticImpairment": "El metabolismo está disminuido en pacientes con enfermedad hepática significativa (cirrosis, hepatitis grave). La vida media se puede prolongar considerablemente. Se recomienda evitar su uso o emplear dosis muy reducidas y con gran precaución.",
+    "maxDose": "Como medicamento: No más de 400 mg al día en dosis divididas. Considerando todas las fuentes (café, té, refrescos, medicamentos): Se sugiere un límite de 400 mg/día para adultos sanos para evitar efectos adversos."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "65 mg",
+        "100 mg",
+        "200 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Cápsula",
+      "strengths": [
+        "100 mg",
+        "200 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tableta masticable",
+      "strengths": [
+        "65 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tableta efervescente",
+      "strengths": [
+        "100 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Combinación en tableta con Paracetamol",
+      "strengths": [
+        "Paracetamol 500 mg + Cafeína 65 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Combinación en tableta con Ácido Acetilsalicílico",
+      "strengths": [
+        "AAS 500 mg + Cafeína 65 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Combinación en tableta con Ibuprofeno",
+      "strengths": [
+        "Ibuprofeno 400 mg + Cafeína 100 mg"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la cafeína o a otras xantinas (teofilina, teobromina).",
+      "Arritmias cardíacas graves no controladas (taquicardia ventricular, fibrilación auricular rápida).",
+      "Enfermedad ulcerosa péptica grave o activa.",
+      "Trastornos de ansiedad o ataques de pánico severos no controlados."
+    ],
+    "relative": [
+      "Hipertensión arterial no controlada.",
+      "Enfermedad cardiovascular isquémica (angina, infarto previo).",
+      "Gastritis o reflujo gastroesofágico severo.",
+      "Glaucoma de ángulo estrecho.",
+      "Trastornos hemorrágicos o tratamiento con anticoagulantes (por su presencia en combinación con AAS).",
+      "Insomnio severo.",
+      "Hipertiroidismo no tratado.",
+      "Consumo elevado crónico de cafeína (tolerancia y riesgo de dependencia)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Insomnio o dificultad para conciliar el sueño.",
+      "Nerviosismo o inquietud.",
+      "Excitación.",
+      "Aumento de la diuresis (ganas de orinar más)."
+    ],
+    "common": [
+      "Dolor de cabeza por rebote (por uso excesivo o suspensión brusca).",
+      "Taquicardia (palpitaciones, corazón acelerado).",
+      "Náuseas o malestar estomacal.",
+      "Temblor fino en las manos.",
+      "Sensación de \"energía\" seguida de fatiga."
+    ],
+    "uncommon": [
+      "Vómitos.",
+      "Dolor abdominal.",
+      "Acidez estomacal o reflujo.",
+      "Ansiedad.",
+      "Aumento de la presión arterial.",
+      "Dependencia psicológica."
+    ],
+    "rare": [
+      "Arritmias cardíacas graves.",
+      "Convulsiones (con dosis muy altas).",
+      "Reacciones alérgicas (rash, urticaria).",
+      "Confusión o psicosis (con intoxicación severa)."
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Ciprofloxacino, Enoxacina",
+        "effect": "Inhiben el metabolismo de la cafeína (CYP1A2), aumentando sus niveles en sangre y el riesgo de efectos adversos (nerviosismo, taquicardia).",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Fluoxetina, Fluvoxamina",
+        "effect": "Antidepresivos que inhiben CYP1A2, aumentando los niveles y efectos de la cafeína.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Teofilina",
+        "effect": "Ambas son xantinas. Su combinación aumenta aditivamente el riesgo de toxicidad (náuseas, taquicardia, convulsiones).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Clozapina",
+        "effect": "La cafeína puede aumentar los niveles de clozapina, incrementando el riesgo de efectos adversos como convulsiones.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Efedrina, pseudoefedrina",
+        "effect": "Estimulantes sinérgicos. Combinación puede aumentar peligrosamente la presión arterial, la frecuencia cardíaca y el riesgo de eventos cardiovasculares.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Warfarina",
+        "effect": "En combinación con AAS (en fórmulas compuestas), aumenta el riesgo de sangrado. La cafeína por sí sola puede alterar levemente el efecto anticoagulante.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Los alimentos pueden retrasar la absorción pero no la impiden. El alcohol puede potenciar los efectos diuréticos y enmascarar la somnolencia, llevando a un falso estado de alerta que es peligroso para conducir. El jugo de toronja (pomelo) puede inhibir el metabolismo de la cafeína y aumentar sus niveles.",
+    "withSupplements": "Interactúa con suplementos estimulantes como guaraná, yerba mate, nuez de cola, efedra (Ma Huang) y ginseng, aumentando el riesgo de efectos adversos cardiovasculares y nerviosos. Suplementos que contengan calcio o hierro pueden reducir ligeramente su absorción si se toman al mismo tiempo."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA C",
+      "recommendation": "El uso ocasional de dosis bajas (menos de 200 mg/día) provenientes de medicamentos se considera generalmente seguro, pero debe evitarse el uso crónico o en dosis altas. Cruza la placenta y el feto metaboliza la cafeína lentamente. Dosis altas se han asociado con un mayor riesgo de aborto espontáneo, bajo peso al nacer y parto pretérmino. Se recomienda limitar el consumo total (café + medicamentos) y consultar al médico.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La cafeína pasa a la leche materna en pequeñas cantidades (aproximadamente el 1% de la dosis materna). En consumo moderado (1-2 tazas de café o dosis terapéuticas bajas), es generalmente seguro para el lactante. En dosis altas maternas, el bebé puede presentar irritabilidad, insomnio y cólicos. Se recomienda tomar el medicamento justo después de amamantar para minimizar la concentración en la leche en la siguiente toma.",
+    "pediatric": "No se recomienda para el tratamiento del dolor en niños y adolescentes fuera del ámbito hospitalario y para indicaciones específicas como la apnea del prematuro. Su uso puede afectar el sueño, el apetito y el comportamiento. En adolescentes, el consumo excesivo de bebidas energéticas con cafeína es un problema de salud pública.",
+    "geriatric": "Los adultos mayores son más sensibles a los efectos adversos, especialmente a los cardiovasculares (arritmias, hipertensión) y al insomnio. Pueden tener condiciones subyacentes (hipertensión, glaucoma) que se agraven. Se debe usar a la dosis más baja efectiva y evitar su administración por la tarde/noche."
+  },
+  "administration": {
+    "howToTake": "Tomar con un vaso lleno de agua. Puede tomarse con o sin alimentos. Si causa malestar estomacal, se recomienda tomarlo con comida. No triturar o masticar las tabletas de liberación convencional a menos que estén diseñadas para ello. Para el dolor, usar a la primera señal del síntoma. Para el estado de alerta, tomar cuando sea necesario, pero idealmente no dentro de las 6 horas previas a la hora de dormir.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (15-30°C), protegido de la luz, la humedad y el calor excesivo. Mantener fuera del alcance de los niños.",
+    "specialInstructions": "No utilizar por más de 3-5 días consecutivos para el dolor de cabeza, ya que puede provocar cefalea por uso excesivo de medicamentos (cefalea de rebote). No combinar con otras fuentes importantes de cafeína (café, té, refrescos de cola, bebidas energéticas, chocolate) en el mismo momento para evitar sobredosificación. Informar al médico si se consume regularmente más de 3 tazas de café al día."
+  },
+  "monitoring": {
+    "labTests": [
+      "No se requieren monitoreos de laboratorio de rutina para el uso ocasional.",
+      "En uso crónico o dosis altas: Presión arterial y frecuencia cardíaca.",
+      "En pacientes con riesgo cardiovascular: Perfil lipídico y glucosa (la cafeína puede alterarlos transitoriamente)."
+    ],
+    "frequency": "Monitoreo clínico de síntomas (efectividad, nerviosismo, insomnio, palpitaciones). Checar presión arterial periódicamente si hay uso frecuente o antecedentes de hipertensión.",
+    "signsToWatch": [
+      "Palpitaciones fuertes o ritmo cardíaco irregular.",
+      "Dolor de cabeza que empeora o se hace diario (posible cefalea de rebote).",
+      "Ansiedad severa, pánico o temblor incontrolable.",
+      "Dificultad para dormir a pesar de no tomar cafeína por la tarde.",
+      "Signos de dependencia: necesidad de aumentar la dosis para el mismo efecto, o síntomas de abstinencia (dolor de cabeza intenso, fatiga, irritabilidad) al suspender."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Agitación extrema, ansiedad, confusión.",
+      "Taquicardia severa, palpitaciones, arritmias.",
+      "Náuseas, vómitos, dolor abdominal.",
+      "Temblores musculares, espasmos.",
+      "Zumbido de oídos (tinnitus), destellos de luz.",
+      "En casos graves: convulsiones, deshidratación, colapso circulatorio."
+    ],
+    "treatment": "No existe antídoto específico. El tratamiento es de soporte: 1) Descontaminación gastrointestinal con carbón activado si la ingestión es reciente (dentro de 1-2 horas). 2) Control de síntomas: benzodiacepinas para la agitación y convulsiones, betabloqueadores para la taquicardia. 3) Soporte de las funciones vitales. 4) Hidratación. La diálisis no es efectiva debido a la amplia distribución de la cafeína.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "La mayoría de las combinaciones con analgésicos (Paracetamol+Cafeína, AAS+Cafeína) son de Venta Libre (OTC). La cafeína sola en dosis altas puede requerir receta médica.",
+    "scheduleMexico": "No está sujeta a control especial en la Ley General de Salud (no es fraccionada). Es de venta libre en las combinaciones mencionadas.",
+    "fdaApprovalYear": "La cafeína como sustancia ha estado en uso desde tiempos ancestrales. Su uso en medicamentos combinados fue aprobado por la FDA en diversas fechas a lo largo del siglo XX."
+  },
+  "brandsMexico": [
+    "Dolocatil Cafeína",
+    "Tempra Forte (paracetamol + cafeína)",
+    "Aspirina Cafeína",
+    "Ibudol Cafeína",
+    "Advil Migraña (ibuprofeno + cafeína)",
+    "Tafirol Cafeína",
+    "Cafiaspirina",
+    "Dolofren Cafeína",
+    "Nodol Plus",
+    "Saldeva Cafeína",
+    "Cafcit (para apnea del prematuro, hospitalario)"
+  ],
+  "clinicalPearls": [
+    "La cafeína no es un analgésico por sí misma, sino un potenciador. En combinación, permite reducir la dosis del analgésico principal (ej. paracetamol) para lograr el mismo efecto, disminuyendo potencialmente la toxicidad hepática del paracetamol.",
+    "La 'cefalea por uso excesivo de medicamentos' o cefalea de rebote es un efecto paradójico común: el uso diario o casi diario de analgésicos con cafeína para la migraña puede terminar causando dolor de cabeza crónico diario. El tratamiento es la suspensión gradual de la cafeína.",
+    "Existe una gran variabilidad individual en el metabolismo de la cafeína (genética CYP1A2). Algunas personas son 'metabolizadores lentos' y experimentan efectos más intensos y duraderos con pequeñas dosis, mientras que los 'metabolizadores rápidos' (como muchos fumadores) la procesan más rápido y pueden necesitar dosis más altas para el mismo efecto."
+  ],
+  "patientCounseling": "La cafeína en este medicamento ayuda a que el analgésico principal (como el paracetamol) actúe mejor y más rápido contra el dolor de cabeza. Tómelo solo cuando tenga dolor, no lo use de manera preventiva. No lo tome por más de 3 días seguidos para el dolor de cabeza, porque puede causar que el dolor regrese con más fuerza (dolor de cabeza de rebote). Evite tomarlo por la tarde o noche, ya que puede quitarle el sueño. Tenga mucho cuidado de no combinar este medicamento con varias tazas de café, té, refrescos de cola o bebidas energéticas el mismo día, porque puede sufrir palpitaciones, nerviosismo intenso o insomnio. Si siente que el corazón se acelera mucho, se pone muy ansioso o el dolor de cabeza no cede, deje de tomarlo y consulte a su médico. Recuerde que es un auxiliar para el dolor agudo, no para el dolor crónico.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor de cabeza",
+        "slug": "dolor-de-cabeza"
+      },
+      {
+        "name": "Migraña",
+        "slug": "migrana"
+      },
+      {
+        "name": "Somnolencia",
+        "slug": "somnolencia"
+      },
+      {
+        "name": "Fatiga mental",
+        "slug": "fatiga-mental"
+      },
+      {
+        "name": "Cefalea tensional",
+        "slug": "cefalea-tensional"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Cefalea en racimos",
+        "slug": "cefalea-en-racimos"
+      },
+      {
+        "name": "Apnea del prematuro",
+        "slug": "apnea-del-prematuro"
+      },
+      {
+        "name": "Cefalea por hipotensión del LCR",
+        "slug": "cefalea-por-hipotension-del-lcr"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Cefalea por uso excesivo de medicamentos",
+        "slug": "cefalea-por-uso-excesivo-de-medicamentos"
+      },
+      {
+        "name": "Trastorno de ansiedad inducido por sustancias",
+        "slug": "trastorno-de-ansiedad-inducido-por-sustancias"
+      },
+      {
+        "name": "Arritmia cardíaca",
+        "slug": "arritmia-cardiaca"
+      },
+      {
+        "name": "Insomnio",
+        "slug": "insomnio"
+      },
+      {
+        "name": "Dependencia a la cafeína",
+        "slug": "dependencia-a-la-cafeina"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Presión arterial",
+        "slug": "presion-arterial",
+        "effect": "Puede elevar transitoriamente"
+      },
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Glucosa en sangre",
+        "slug": "glucosa-en-sangre",
+        "effect": "Puede alterar (aumentar o disminuir)"
+      },
+      {
+        "name": "Colesterol LDL",
+        "slug": "colesterol-ldl",
+        "effect": "Puede elevar levemente en consumo crónico"
+      },
+      {
+        "name": "Ácido úrico",
+        "slug": "acido-urico",
+        "effect": "Puede elevar"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Monitoreo de presión arterial",
+        "slug": "monitoreo-de-presion-arterial",
+        "reason": "Para detectar elevaciones inducidas por la cafeína, especialmente en pacientes con riesgo cardiovascular."
+      },
+      {
+        "name": "Perfil lipídico",
+        "slug": "perfil-lipidico",
+        "reason": "El consumo crónico y elevado puede afectar los niveles de colesterol."
+      },
+      {
+        "name": "Electrocardiograma",
+        "slug": "electrocardiograma",
+        "reason": "En pacientes con palpitaciones o antecedentes cardíacos, para descartar arritmias."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora IMC",
+        "slug": "calculadora-imc"
+      },
+      {
+        "name": "Calculadora de calorías",
+        "slug": "calculadora-calorias"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La cafeína de este medicamento es lo mismo que la del café?",
+      "a": "Sí, es la misma sustancia química. La diferencia es que en el medicamento la dosis es exacta y controlada, mientras que en una taza de café puede variar mucho (de 40 a 150 mg). El medicamento la combina con un analgésico para potenciar su efecto."
+    },
+    {
+      "q": "¿Puedo tomar este medicamento y luego tomar café?",
+      "a": "No es recomendable hacerlo en el mismo momento o muy seguido. Sumar la cafeína del medicamento y la del café puede causar una sobredosis de cafeína, con nerviosismo, taquicardia e insomnio. Espere varias horas o limite su consumo de café ese día."
+    },
+    {
+      "q": "¿Me va a quitar el sueño si lo tomo?",
+      "a": "Es muy probable, especialmente si lo toma por la tarde o noche. La cafeína es un estimulante. Para evitar el insomnio, tómelo solo en la mañana o primeras horas de la tarde, al menos 6 horas antes de su hora habitual de dormir."
+    },
+    {
+      "q": "¿Puedo tomar este medicamento todos los días para el dolor de cabeza?",
+      "a": "NO. El uso diario o casi diario (más de 3 días a la semana) es la principal causa de 'cefalea por uso excesivo de medicamentos' o dolor de cabeza de rebote. El cuerpo se acostumbra y el dolor regresa cuando el efecto pasa, creando un círculo vicioso. Úselo solo para crisis agudas."
+    },
+    {
+      "q": "¿Es adictiva la cafeína de los medicamentos?",
+      "a": "Puede generar dependencia física leve y psicológica, especialmente con uso frecuente. Su suspensión brusca después de un consumo diario puede causar síntomas de abstinencia como dolor de cabeza intenso, fatiga, irritabilidad y dificultad para concentrarse durante unos días."
+    },
+    {
+      "q": "¿Puedo dárselo a mi hijo adolescente para el dolor de cabeza por estudiar?",
+      "a": "No se recomienda. Los adolescentes son sensibles a la cafeína y puede afectar su sueño, apetito y estado de ánimo. Existen analgésicos simples sin cafeína más apropiados. Consulte al pediatra antes de darle cualquier medicamento combinado con cafeína."
+    },
+    {
+      "q": "¿Sirve para la migraña?",
+      "a": "Sí, es uno de sus usos principales. La cafeína ayuda a contraer los vasos sanguíneos del cerebro que se dilatan durante la migraña, potenciando el efecto del analgésico. Existen medicamentos específicos para migraña que la incluyen."
+    },
+    {
+      "q": "¿Qué hago si siento palpitaciones o el corazón muy acelerado después de tomarlo?",
+      "a": "Suspenda el medicamento inmediatamente. Beba agua y trate de descansar. Las palpitaciones suelen ceder en unas horas. Si son muy fuertes, se acompañan de dolor en el pecho, mareo o dificultad para respirar, acuda a urgencias. Informe a su médico de esta reacción."
+    },
+    {
+      "q": "¿Puedo tomarlo si tengo presión alta?",
+      "a": "Con precaución y solo si su presión está bien controlada con medicamentos. La cafeína puede elevar la presión arterial temporalmente. Si su presión es alta o no está controlada, evite estos medicamentos y consulte a su médico para una alternativa sin cafeína."
+    },
+    {
+      "q": "¿Interfiere con los anticonceptivos?",
+      "a": "Los anticonceptivos hormonales orales (pastillas) pueden retardar el metabolismo de la cafeína, haciendo que sus efectos duren más y sean más intensos. Si los toma, sea especialmente cuidadosa con la dosis y evite otras fuentes de cafeína."
+    },
+    {
+      "q": "¿Puedo tomarlo si estoy amamantando?",
+      "a": "En dosis ocasionales y bajas (como la de un comprimido), generalmente es seguro. Una cantidad mínima pasa a la leche. Para minimizar el riesgo, tome el medicamento justo después de amamantar. Evite el uso frecuente o en dosis altas, ya que puede hacer al bebé irritable y con problemas para dormir."
+    },
+    {
+      "q": "¿Qué pasa si tomo una dosis doble por error?",
+      "a": "Una dosis doble ocasional probablemente solo cause nerviosismo, insomnio o malestar estomacal. Beba mucha agua y no tome más medicamento hasta el día siguiente. Si tomó una cantidad mucho mayor (varios comprimidos), o si presenta síntomas graves como vómito incontrolable, temblores fuertes o confusión, busque atención médica."
+    },
+    {
+      "q": "¿Es cierto que la cafeína deshidrata?",
+      "a": "Tiene un efecto diurético leve (aumenta la producción de orina), pero con el consumo habitual el cuerpo desarrolla tolerancia. En dosis terapéuticas ocasionales, no causa deshidratación significativa. Aun así, es buena idea tomar un vaso extra de agua cuando use estos medicamentos."
+    },
+    {
+      "q": "¿Puedo tomarlo con el estómago vacío?",
+      "a": "Sí, se absorbe incluso más rápido. Pero si le causa malestar estomacal, náuseas o acidez, tómelo con un poco de comida o un vaso de leche."
+    },
+    {
+      "q": "¿La cafeína potencia el efecto de todos los analgésicos?",
+      "a": "Principalmente potencia a los analgésicos comunes como el paracetamol, el ácido acetilsalicílico (aspirina) y el ibuprofeno. No tiene el mismo efecto potenciador demostrado con los opioides fuertes (como la codeína o la morfina)."
+    },
+    {
+      "q": "¿Por qué a veces el dolor de cabeza vuelve más fuerte al día siguiente de tomar este medicamento?",
+      "a": "Ese es un signo clásico de la cefalea de rebote o por uso excesivo. Su cuerpo se ha acostumbrado a la cafeína y, cuando su efecto pasa, los vasos sanguíneos se dilatan de nuevo, causando un dolor de cabeza de 'retirada'. La solución es suspender gradualmente el medicamento bajo supervisión médica."
+    },
+    {
+      "q": "¿Hay personas que no deben tomarlo nunca?",
+      "a": "Sí. Personas con alergia a la cafeína, con arritmias cardíacas graves no controladas, úlcera gástrica activa, trastornos de ansiedad severos o glaucoma de ángulo estrecho no deben tomarlo. Siempre lea las contraindicaciones en el empaque."
+    },
+    {
+      "q": "¿Cómo se si soy sensible a la cafeína?",
+      "a": "Si con una pequeña dosis (medio café o medio comprimido) experimenta síntomas intensos como ansiedad, palpitaciones fuertes, temblor, insomnio o malestar gastrointestinal, probablemente sea un 'metabolizador lento' y sea muy sensible. En ese caso, evite estos medicamentos o use dosis mínimas."
+    },
+    {
+      "q": "¿La cafeína puede subir el azúcar en la sangre?",
+      "a": "Puede tener efectos variables. En algunas personas con diabetes, la cafeína puede causar un aumento leve y transitorio de la glucosa en sangre o, paradójicamente, enmascarar los síntomas de una baja de azúcar (hipoglucemia). Los diabéticos deben monitorear su glucosa más de cerca si la usan."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre la cafeína en un analgésico y la teofilina para el asma?",
+      "a": "Ambas son xantinas y tienen efectos similares (estimulantes, broncodilatadores), pero la teofilina es mucho más potente como broncodilatador y tiene un margen de seguridad más estrecho (es más tóxica). NO son intercambiables. Tomar cafeína para el asma es inefectivo y peligroso, y combinar ambas puede causar toxicidad grave."
+    }
+  ]
+}

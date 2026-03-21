@@ -1,0 +1,390 @@
+{
+  "name": "Nitrazepam",
+  "summary": "El Nitrazepam es un medicamento que pertenece a la familia de las benzodiacepinas. Se utiliza principalmente para tratar problemas de insomnio severo y algunos tipos de epilepsia, especialmente en niños. Actúa calmando el sistema nervioso central, lo que ayuda a conciliar el sueño más rápido y a mantenerlo durante más tiempo. Es un medicamento de acción prolongada, lo que significa que sus efectos duran muchas horas, por lo que es importante tomarlo solo cuando se pueda dedicar suficiente tiempo a dormir. Su uso debe ser supervisado por un médico porque puede causar dependencia si se toma por periodos largos o en dosis incorrectas. En México, es un fármaco controlado que requiere receta médica especial por su potencial de abuso.",
+  "pharmacology": {
+    "mechanismOfAction": "El Nitrazepam ejerce sus efectos al unirse de manera específica a un sitio en el receptor GABA-A en el sistema nervioso central. El GABA (ácido gamma-aminobutírico) es el principal neurotransmisor inhibitorio del cerebro. Al unirse, el Nitrazepam potencia la acción del GABA, lo que aumenta la frecuencia de apertura de los canales de cloruro en la neurona. Este influjo de iones cloruro hiperpolariza la membrana neuronal, haciendo que la célula sea menos excitable. Este efecto inhibitorio generalizado resulta en sedación, reducción de la ansiedad, relajación muscular, efectos anticonvulsivantes y amnesia anterógrada. Su alta afinidad por los receptores que contienen las subunidades alfa-1 contribuye a su potente efecto hipnótico.",
+    "pharmacologicClass": "Benzodiacepina de acción prolongada; Derivado de la 1,4-benzodiacepina; Agonista del receptor GABA-A.",
+    "therapeuticClass": "Hipnótico; Ansiolítico; Anticonvulsivante.",
+    "absorption": "Se absorbe bien por vía oral, con una biodisponibilidad aproximada del 78-90%. La concentración plasmática máxima (Cmax) se alcanza entre 1 y 4 horas después de la administración oral. La presencia de alimentos puede retrasar ligeramente la absorción, pero no afecta significativamente la cantidad total absorbida.",
+    "distribution": "Se distribuye ampliamente por los tejidos corporales. Su volumen de distribución es de aproximadamente 2.0 L/kg, lo que indica una distribución extensa más allá del plasma. Se une en un alto porcentaje (aproximadamente 85-90%) a proteínas plasmáticas, principalmente a la albúmina. Cruza fácilmente la barrera hematoencefálica y la placenta.",
+    "metabolism": "Se metaboliza extensamente en el hígado, principalmente a través de la vía de reducción del nitro grupo (mediada por nitroreductasas bacterianas intestinales y hepáticas) para formar 7-aminonitrazepam y luego 7-acetaminonitrazepam. Estas vías son independientes del sistema del citocromo P450 (CYP), lo que reduce el riesgo de interacciones farmacocinéticas significativas con otros medicamentos que afecten a las enzimas CYP. Sin embargo, algunos metabolitos son farmacológicamente activos.",
+    "elimination": "La vida media de eliminación es muy larga, entre 20 y 40 horas (puede extenderse hasta 60 horas en adultos mayores). Esto se debe a su baja depuración y a la formación de metabolitos activos. Se elimina principalmente por vía renal (aproximadamente 70-80%) en forma de metabolitos glucuronoconjugados e inactivos. Una pequeña porción se excreta en las heces.",
+    "onsetOfAction": "El inicio de acción para inducir el sueño es relativamente rápido, generalmente entre 30 y 60 minutos después de la administración oral.",
+    "durationOfAction": "Debido a su larga vida media, la duración del efecto hipnótico es prolongada, típicamente de 6 a 8 horas o más. Los efectos residuales (como somnolencia diurna) pueden persistir al día siguiente."
+  },
+  "indications": {
+    "approved": [
+      "Insomnio de conciliación y mantenimiento (a corto plazo)",
+      "Tratamiento coadyuvante de ciertos tipos de epilepsia (especialmente espasmos infantiles o síndrome de West)",
+      "Premedicación ansiolítica antes de procedimientos médicos o dentales (uso menos común actualmente)"
+    ],
+    "offLabel": [
+      "Tratamiento de la ansiedad severa y los ataques de pánico (cuando otros ansiolíticos no son adecuados)",
+      "Manejo de síntomas de abstinencia aguda del alcohol (como parte de un protocolo de desintoxicación)",
+      "Tratamiento del síndrome de piernas inquietas severo",
+      "Control de la agitación psicomotora en emergencias psiquiátricas (vía oral)"
+    ]
+  },
+  "dosage": {
+    "adults": "Insomnio: 5 a 10 mg por vía oral, una vez al día, inmediatamente antes de acostarse. La dosis inicial recomendada es de 5 mg, especialmente en pacientes de bajo peso o sensibles. La dosis puede ajustarse hasta 10 mg según la respuesta y tolerancia. Uso máximo de 2 a 4 semanas para evitar dependencia.",
+    "pediatric": "NO es de primera elección para insomnio en niños. Para epilepsia (espasmos infantiles): La dosis debe ser estrictamente individualizada por el neurólogo pediátrico. Un esquema común inicia con 0.2-0.5 mg/kg/día, dividido en 2-3 dosis, ajustando gradualmente según respuesta. La dosis de mantenimiento suele ser de 0.5-1 mg/kg/día, con un máximo absoluto que rara vez supera los 30 mg/día.",
+    "elderly": "Pacientes mayores de 65 años: Iniciar con una dosis baja de 2.5 mg (mitad de tableta de 5 mg) antes de acostarse. El ajuste debe ser muy cauteloso, no superando generalmente los 5 mg diarios, debido al mayor riesgo de efectos secundarios, confusión, ataxia y caídas.",
+    "renalImpairment": "Insuficiencia renal leve a moderada (TFG 30-89 mL/min): Precaución. Puede ser necesario reducir la dosis debido a la acumulación potencial de metabolitos. Insuficiencia renal severa (TFG <30 mL/min) o diálisis: Contraindicado o usar con extrema precaución y dosis mínimas, bajo estricta supervisión médica. No se elimina eficazmente por diálisis.",
+    "hepaticImpairment": "Contraindicado en insuficiencia hepática severa (cirrosis descompensada, encefalopatía). En insuficiencia hepática leve a moderada: Reducir significativamente la dosis (ej. 2.5 mg) y monitorizar estrechamente. El metabolismo está comprometido, lo que lleva a una vida media prolongada y mayor riesgo de efectos adversos y encefalopatía.",
+    "maxDose": "Dosis máxima diaria en adultos para insomnio: 10 mg. En uso pediátrico para epilepsia, la dosis máxima es por peso (ej. 1 mg/kg/día) y la decisión la toma exclusivamente el especialista."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "5 mg"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al nitrazepam o a cualquier benzodiacepina",
+      "Miastenia gravis",
+      "Insuficiencia respiratoria severa (ej. EPOC severa, apnea del sueño no tratada)",
+      "Insuficiencia hepática severa",
+      "Glaucoma de ángulo cerrado agudo (no el de ángulo abierto)",
+      "Embarazo (especialmente primer trimestre)",
+      "Uso concomitante con alcohol u otros depresores del SNC"
+    ],
+    "relative": [
+      "Historia de dependencia a drogas o alcohol",
+      "Depresión mayor con ideación suicida",
+      "Trastornos de la personalidad",
+      "Función renal severamente deteriorada",
+      "Edad avanzada (requiere ajuste de dosis)",
+      "Enfermedad pulmonar obstructiva crónica (EPOC) leve-moderada",
+      "Apnea del sueño"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Somnolencia diurna (resaca)",
+      "Mareo",
+      "Ataxia (inestabilidad al caminar)",
+      "Cefalea",
+      "Fatiga"
+    ],
+    "common": [
+      "Confusión (especialmente en ancianos)",
+      "Amnesia anterógrada (dificultad para recordar eventos después de tomar la dosis)",
+      "Visión borrosa",
+      "Sequedad de boca",
+      "Trastornos gastrointestinales (náusea, estreñimiento)",
+      "Debilidad muscular"
+    ],
+    "uncommon": [
+      "Paradoja de excitación (agitación, agresividad, irritabilidad)",
+      "Depresión",
+      "Alteraciones del sueño (pesadillas)",
+      "Erupción cutánea",
+      "Cambios en la libido",
+      "Incontinencia urinaria"
+    ],
+    "rare": [
+      "Discrasias sanguíneas (leucopenia, trombocitopenia)",
+      "Ictericia colestásica",
+      "Reacciones de hipersensibilidad severa (angioedema, anafilaxia)",
+      "Síndrome de Stevens-Johnson",
+      "Alucinaciones"
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Alcohol",
+        "effect": "Potenciación severa de la depresión del SNC. Riesgo de sedación profunda, depresión respiratoria, coma y muerte.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Opioides (Morfina, Tramadol, Codeína)",
+        "effect": "Depresión aditiva del SNC y respiratoria. Aumento dramático del riesgo de sobredosis fatal.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Otros depresores del SNC (Barbitúricos, Antihistamínicos sedantes, Antipsicóticos)",
+        "effect": "Aumento de sedación, deterioro psicomotor y riesgo de caídas.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores de la bomba de protones (Omeprazol)",
+        "effect": "Pueden alterar el pH gástrico y afectar la disolución del nitrazepam, aunque la interacción clínica es variable.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Evitar el consumo de alcohol por completo. Las comidas grasas pueden retrasar ligeramente la absorción, pero no es clínicamente significativo. Se puede tomar con o sin alimentos.",
+    "withSupplements": "Precaución con suplementos herbales con efectos sedantes: Valeriana, Kava, Pasiflora, Melatonina en dosis altas. Pueden potenciar la somnolencia. El hipérico (Hierba de San Juan) podría reducir la eficacia, aunque el riesgo es menor al no metabolizarse por CYP."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "D",
+      "recommendación": "El uso durante el embarazo, especialmente en el primer trimestre, se asocia con un mayor riesgo de malformaciones congénitas (como labio leporino). Su uso cerca del parto puede causar el 'síndrome del bebé flácido' (hipotonía, letargo, dificultades respiratorias, hipotermia, problemas de alimentación) y síndrome de abstinencia en el recién nacido. Está CONTRAINDICADO en el embarazo a menos que el beneficio potencial justifique claramente el riesgo para el feto, como en casos de epilepsia grave no controlada con otras opciones.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "El nitrazepam se excreta en la leche materna en concentraciones significativas. Puede causar sedación, letargo y pérdida de peso en el lactante. Se recomienda EVITAR la lactancia materna si la madre está en tratamiento con nitrazepam. Si es absolutamente necesario, se debe usar la dosis efectiva más baja y monitorizar al bebé estrechamente por somnolencia y dificultad para alimentarse.",
+    "pediatric": "Su uso en pediatría está principalmente reservado para el tratamiento de la epilepsia (espasmos infantiles) bajo supervisión neurológica especializada. NO es un fármaco de primera línea para el insomnio infantil. Puede causar efectos paradójicos (excitación) con mayor frecuencia que en adultos. El riesgo de afectar el desarrollo cognitivo y conductual con uso crónico es una preocupación.",
+    "geriatric": "Los pacientes mayores son extremadamente sensibles a los efectos del nitrazepam. Presentan mayor riesgo de sedación excesiva, confusión, ataxia, caídas con fracturas (especialmente de cadera), y deterioro cognitivo. Se debe usar la dosis más baja posible (2.5 mg), por el menor tiempo posible, y evitar su uso en pacientes con demencia debido al riesgo de empeoramiento de los síntomas."
+  },
+  "administration": {
+    "howToTake": "Tomar por vía oral, con un vaso de agua. La dosis para el insomnio se toma UNA SOLA VEZ al día, inmediatamente antes de acostarse. Asegurarse de tener al menos 7-8 horas completas para dormir después de tomarlo. No partir, masticar ni triturar las tabletas a menos que el médico lo indique (en pediatría o ancianos con dosis de 2.5 mg). No aumentar la dosis ni la frecuencia por cuenta propia.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (15-30°C), protegido de la luz y la humedad. Mantener fuera del alcance de los niños y mascotas.",
+    "specialInstructions": "Este medicamento puede causar somnolencia y reducir la capacidad de reacción al día siguiente. Evite conducir, operar maquinaria pesada o realizar actividades que requieran alerta hasta que conozca cómo le afecta. No lo combine nunca con alcohol. Informe a su médico si planea suspenderlo, ya que debe hacerse de forma gradual para evitar síntomas de abstinencia (ansiedad, insomnio de rebote, temblores)."
+  },
+  "monitoring": {
+    "labTests": [
+      "Función hepática (ALT, AST, bilirrubina) periódica en uso prolongado",
+      "Hemograma completo ocasional (por riesgo de discrasias sanguíneas)",
+      "Función renal (creatinina, BUN) en pacientes con riesgo"
+    ],
+    "frequency": "Evaluación clínica de eficacia y efectos adversos cada 2-4 semanas al inicio. Pruebas de laboratorio al inicio y luego cada 6-12 meses si el uso es crónico.",
+    "signsToWatch": [
+      "Somnolencia diurna excesiva que interfiere con actividades",
+      "Confusión o desorientación",
+      "Dificultad para respirar",
+      "Caídas o inestabilidad al caminar",
+      "Cambios de humor o comportamiento agresivo",
+      "Signos de dependencia (necesidad de aumentar la dosis)"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Somnolencia profunda que progresa a estupor y coma",
+      "Confusión severa",
+      "Ataxia marcada",
+      "Hipotensión (presión baja)",
+      "Depresión respiratoria (respiración lenta y superficial, cianosis)",
+      "Reflejos disminuidos o ausentes",
+      "En casos severos, paro cardiorrespiratorio y muerte"
+    ],
+    "treatment": "Manejo de soporte. Mantener vía aérea, respiración y circulación. Lavado gástrico solo si la ingestión fue reciente (<1 hora) y el paciente está consciente. Carbón activado puede ser útil. No hay diálisis efectiva. El tratamiento es sintomático: fluidos intravenosos, vasopresores para la hipotensión. El antídoto específico (flumazenil) puede usarse con precaución en casos graves, pero está contraindicado en pacientes epilépticos (riesgo de convulsiones) o con dependencia a benzodiacepinas (riesgo de abstinencia severa).",
+    "antidote": "Flumazenil (Anexate®). Es un antagonista competitivo de los receptores de benzodiacepinas. Su uso requiere supervisión en UCI por riesgo de resedación y convulsiones."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (receta controlada o receta de psicotrópicos, según la normativa local).",
+    "scheduleMexico": "Fracción III (Tres) de la Ley General de Salud. Psicotrópico con potencial de abuso y dependencia.",
+    "fdaApprovalYear": "No aprobado por la FDA para su comercialización en Estados Unidos. Ampliamente utilizado en Europa, Canadá, México y otros países."
+  },
+  "brandsMexico": [
+    "Mogadon",
+    "Nitrazepam Genfar",
+    "Nitrazepam Rimsa",
+    "Dormicum (nombre comercial en algunos países, en México puede encontrarse como genérico)",
+    "Nitravan"
+  ],
+  "clinicalPearls": [
+    "El nitrazepam tiene una vida media extremadamente larga, lo que lo hace útil para pacientes que se despiertan frecuentemente durante la noche, pero es la principal causa de 'resaca' o somnolencia diurna al día siguiente.",
+    "A diferencia de muchas benzodiacepinas, su metabolismo es independiente del CYP450, lo que reduce las interacciones farmacocinéticas con medicamentos como los antifúngicos azoles o algunos antibióticos, pero NO reduce las interacciones farmacodinámicas (con alcohol, opioides).",
+    "En pacientes con epilepsia, la suspensión brusca puede precipitar un estado epiléptico, por lo que la reducción de la dosis debe ser muy gradual, supervisada por un neurólogo."
+  ],
+  "patientCounseling": "Este medicamento es para ayudarle a dormir y debe usarse solo por corto tiempo, según lo indique su médico. Tómelo justo antes de acostarse y solo si puede dormir al menos 7 horas seguidas. Es normal que al día siguiente se sienta un poco somnoliento o 'atornillado', pero si esto le impide realizar sus actividades normales, consulte a su médico. NUNCA lo mezcle con alcohol, pastillas para dormir, relajantes musculares o medicamentos para la tos y los resfriados, ya que puede ser muy peligroso. No conduzca ni maneje maquinaria al día siguiente hasta que esté seguro de su reacción. Si olvida una dosis, sáltela y tome la siguiente a la hora habitual; NO duplique la dosis. Guárdelo en un lugar seguro, lejos del alcance de otras personas. Si después de unos días no mejora su sueño o nota cambios raros en su comportamiento, informe a su médico inmediatamente.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Insomnio",
+        "slug": "insomnio"
+      },
+      {
+        "name": "Ansiedad",
+        "slug": "ansiedad"
+      },
+      {
+        "name": "Nerviosismo",
+        "slug": "nerviosismo"
+      },
+      {
+        "name": "Tensión muscular",
+        "slug": "tension-muscular"
+      },
+      {
+        "name": "Convulsiones",
+        "slug": "convulsiones"
+      },
+      {
+        "name": "Agitación",
+        "slug": "agitacion"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Trastorno de insomnio",
+        "slug": "trastorno-de-insomnio"
+      },
+      {
+        "name": "Trastorno de ansiedad generalizada",
+        "slug": "trastorno-de-ansiedad-generalizada"
+      },
+      {
+        "name": "Epilepsia (espasmos infantiles)",
+        "slug": "epilepsia-espasmos-infantiles"
+      },
+      {
+        "name": "Síndrome de abstinencia alcohólica",
+        "slug": "sindrome-de-abstinencia-alcoholica"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Dependencia a benzodiacepinas",
+        "slug": "dependencia-a-benzodiacepinas"
+      },
+      {
+        "name": "Demencia (riesgo aumentado en ancianos)",
+        "slug": "demencia"
+      },
+      {
+        "name": "Depresión respiratoria",
+        "slug": "depresion-respiratoria"
+      },
+      {
+        "name": "Hipotensión ortostática",
+        "slug": "hipotension-ortostatica"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Enzimas hepáticas (ALT/AST)",
+        "slug": "enzimas-hepaticas-alt-ast",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Bilirrubina",
+        "slug": "bilirrubina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Recuento de glóbulos blancos",
+        "slug": "recuento-de-globulos-blancos",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Frecuencia respiratoria",
+        "slug": "frecuencia-respiratoria",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Presión arterial sistólica",
+        "slug": "presion-arterial-sistolica",
+        "effect": "Puede disminuir"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-de-funcion-hepatica",
+        "reason": "Para detectar toxicidad hepática por uso prolongado"
+      },
+      {
+        "name": "Hemograma completo",
+        "slug": "hemograma-completo",
+        "reason": "Para monitorear posibles efectos en la médula ósea"
+      },
+      {
+        "name": "Polisomnografía",
+        "slug": "polisomnografia",
+        "reason": "Para evaluar la arquitectura del sueño y descartar apnea"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de índice de masa corporal (IMC)",
+        "slug": "calculadora-imc"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve el Nitrazepam?",
+      "a": "Sirve principalmente para tratar el insomnio severo (dificultad para conciliar o mantener el sueño) a corto plazo. También se usa como medicamento auxiliar para controlar ciertos tipos de convulsiones epilépticas, especialmente en niños."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto para dormir?",
+      "a": "Generalmente comienza a hacer efecto entre 30 minutos y 1 hora después de tomarlo. Por eso se debe tomar justo antes de acostarse."
+    },
+    {
+      "q": "¿Puedo tomar Nitrazepam si tomo alcohol ocasionalmente?",
+      "a": "NO. Está absolutamente prohibido mezclar Nitrazepam con alcohol. La combinación puede causar somnolencia extrema, dificultad para respirar, pérdida del conocimiento, coma e incluso la muerte."
+    },
+    {
+      "q": "¿El Nitrazepam crea adicción?",
+      "a": "Sí, como todas las benzodiacepinas, tiene un potencial de causar dependencia física y psicológica, especialmente si se usa por más de 2 a 4 semanas seguidas o en dosis más altas de las recetadas. Nunca aumente la dosis por su cuenta."
+    },
+    {
+      "q": "¿Me va a dar sueño al día siguiente?",
+      "a": "Es muy común sentir somnolencia, lentitud o 'resaca' al día siguiente, debido a que el medicamento tiene un efecto muy prolongado. Si esto le impide funcionar con normalidad, debe consultar a su médico para ajustar la dosis."
+    },
+    {
+      "q": "¿Puedo conducir mi auto al día siguiente de tomarlo?",
+      "a": "No es recomendable. El Nitrazepam reduce los reflejos y la capacidad de concentración. Espere al menos hasta el segundo día después de haberlo tomado y solo conduzca si se siente completamente alerta y sin somnolencia."
+    },
+    {
+      "q": "¿Qué hago si se me olvida tomar una dosis?",
+      "a": "Si se le olvida tomarlo antes de dormir, NO lo tome a la mitad de la noche ni duplique la dosis al día siguiente. Simplemente sáltese esa dosis y tome la siguiente a la hora habitual de la noche siguiente."
+    },
+    {
+      "q": "¿Cuánto tiempo puedo tomar Nitrazepam seguido?",
+      "a": "Para el insomnio, el tratamiento no debe superar las 2 a 4 semanas de forma continua. Su médico debe reevaluar su situación después de este periodo. El uso prolongado aumenta el riesgo de dependencia y tolerancia (necesidad de más dosis para el mismo efecto)."
+    },
+    {
+      "q": "¿El Nitrazepam es lo mismo que el Clonazepam o el Alprazolam?",
+      "a": "No, son medicamentos diferentes, aunque todos son benzodiacepinas. El Nitrazepam tiene un efecto más fuerte como inductor del sueño y una duración de acción más larga que el Alprazolam. El Clonazepam se usa más para epilepsia y ansiedad. No son intercambiables."
+    },
+    {
+      "q": "¿Puedo tomar Nitrazepam si estoy embarazada o planeando embarazarme?",
+      "a": "NO. El Nitrazepam está contraindicado en el embarazo, especialmente en el primer trimestre, porque puede causar malformaciones en el bebé. Si está en edad fértil, debe usar un método anticonceptivo efectivo durante el tratamiento. Informe a su médico si sospecha un embarazo."
+    },
+    {
+      "q": "¿Puedo amamantar a mi bebé si tomo Nitrazepam?",
+      "a": "No es recomendable. El medicamento pasa a la leche materna y puede hacer que el bebé esté muy somnoliento, tenga dificultad para alimentarse y no gane peso adecuadamente. Consulte a su médico sobre alternativas más seguras si está lactando."
+    },
+    {
+      "q": "¿Qué efectos secundarios son señales de alarma para dejar de tomarlo y llamar al médico?",
+      "a": "Dificultad para respirar, confusión severa, comportamiento agresivo o extraño, erupción cutánea con ampollas, coloración amarilla de piel u ojos (ictericia), o caídas frecuentes. Deje de tomarlo y busque atención médica inmediata."
+    },
+    {
+      "q": "¿Puedo suspender el Nitrazepam de golpe cuando ya duermo bien?",
+      "a": "NO. Suspenderlo bruscamente después de varias semanas de uso puede causar 'síndrome de abstinencia': ansiedad intensa, insomnio peor que al inicio, temblores, sudoración y, en casos graves, convulsiones. Su médico le dará un plan para reducir la dosis gradualmente."
+    },
+    {
+      "q": "¿El Nitrazepam interactúa con otros medicamentos comunes?",
+      "a": "Sí, de forma peligrosa. Interactúa con pastillas para dormir, relajantes musculares, algunos analgésicos (como tramadol o codeína), medicamentos para la alergia que dan sueño y muchos antidepresivos. SIEMPRE informe a su médico y farmacéutico sobre todos los medicamentos que toma."
+    },
+    {
+      "q": "¿Es seguro para una persona mayor de 70 años?",
+      "a": "Se debe usar con mucha precaución. Los ancianos son muy sensibles y la dosis suele ser la mitad (2.5 mg). Aumenta el riesgo de caídas, confusión y fracturas. Solo debe usarse bajo estricta supervisión médica y por el menor tiempo posible."
+    },
+    {
+      "q": "¿El Nitrazepam ayuda con la ansiedad durante el día?",
+      "a": "Aunque tiene propiedades ansiolíticas, su principal uso es como hipnótico. Para la ansiedad diurna, generalmente se prefieren benzodiacepinas de acción más corta o medicamentos no benzodiacepinicos, para evitar la somnolencia constante."
+    },
+    {
+      "q": "¿Qué pasa si tomo una dosis más alta de la recetada para dormir mejor?",
+      "a": "Es muy peligroso. Aumenta el riesgo de efectos secundarios severos como depresión respiratoria (dejar de respirar), coma y muerte. Además, acelera el desarrollo de tolerancia y dependencia. Nunca se automedique."
+    },
+    {
+      "q": "¿El Nitrazepam puede causar pérdida de memoria?",
+      "a": "Sí, un efecto común es la 'amnesia anterógrada', que es la dificultad para formar nuevos recuerdos de eventos que ocurren después de tomar el medicamento. Por eso es importante tomarlo solo cuando vaya a dormir, no para 'relajarse' mientras está despierto."
+    },
+    {
+      "q": "¿Cómo se debe ajustar la dosis en un paciente con problemas en el hígado?",
+      "a": "En pacientes con enfermedad hepática (como hepatitis o cirrosis), el Nitrazepam está contraindicado o debe usarse en dosis muy reducidas (ej. 2.5 mg) y con monitorización estrecha, porque el hígado no puede metabolizarlo bien, lo que lleva a una acumulación tóxica en el cuerpo."
+    },
+    {
+      "q": "¿Cuál es la diferencia farmacológica clave entre el Nitrazepam y los 'Z-drugs' como Zolpidem?",
+      "a": "Aunque ambos son hipnóticos, actúan en subtipos ligeramente diferentes del receptor GABA-A. El Zolpidem tiene una vida media más corta, por lo que causa menos somnolencia diurna, pero puede ser menos efectivo para mantener el sueño. El Nitrazepam tiene mayor riesgo de dependencia y efectos residuales, pero es más potente para inducir y mantener el sueño profundo. La elección depende del perfil del paciente y el tipo de insomnio."
+    }
+  ]
+}

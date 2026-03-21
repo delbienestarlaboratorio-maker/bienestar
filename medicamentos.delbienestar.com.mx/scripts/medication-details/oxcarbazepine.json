@@ -1,0 +1,434 @@
+{
+  "name": "Oxcarbazepina",
+  "summary": "La oxcarbazepina es un medicamento anticonvulsivante o antiepiléptico, utilizado principalmente para controlar y prevenir las crisis epilépticas (convulsiones) en adultos y niños mayores de 2 años. Pertenece a la misma familia química que la carbamazepina, pero está diseñada para ser mejor tolerada y tener menos interacciones con otros medicamentos. Su importancia clínica radica en su eficacia para tratar la epilepsia focal (parcial), ya sea como tratamiento único (monoterapia) o en combinación con otros fármacos. Además, en México está aprobado para el tratamiento del trastorno bipolar, específicamente para prevenir las recaídas en la fase maníaca. Es un pilar fundamental en el manejo neurológico a largo plazo, ya que ayuda a estabilizar la actividad eléctrica anormal del cerebro, mejorando significativamente la calidad de vida de los pacientes al reducir la frecuencia e intensidad de las crisis. Sin embargo, requiere un seguimiento médico estrecho debido a posibles efectos secundarios y la necesidad de ajustar la dosis gradualmente.",
+  "pharmacology": {
+    "mechanismOfAction": "La oxcarbazepina y su metabolito activo (MHD) ejercen su efecto antiepiléptico principalmente al bloquear los canales de sodio dependientes de voltaje en las neuronas. Esto significa que estabiliza las membranas de las células nerviosas hiperexcitables, impidiendo que se disparen de manera excesiva y descontrolada, lo cual es la base de una crisis epiléptica. Al reducir la capacidad de las neuronas para generar y propagar impulsos eléctricos repetitivos, previene la aparición de convulsiones. También puede modular la actividad de los canales de calcio de tipo N y P/Q, y potencialmente aumentar la conductancia del potasio, contribuyendo a su efecto estabilizador. Este mecanismo es similar al de otros fármacos como la carbamazepina y la fenitoína, pero con un perfil farmacocinético y de interacciones más favorable.",
+    "pharmacologicClass": "Derivado de la dibenzazepina; bloqueador de los canales de sodio dependientes de voltaje.",
+    "therapeuticClass": "Anticonvulsivante; Antiepiléptico; Estabilizador del estado de ánimo.",
+    "absorption": "Se absorbe completamente y de manera rápida por vía oral. La presencia de alimentos no afecta significativamente su absorción. La oxcarbazepina se metaboliza extensamente en el hígado a su metabolito activo principal, el monohidroxi derivado (MHD), que es responsable de la mayor parte del efecto terapéutico.",
+    "distribution": "El metabolito activo (MHD) se distribuye ampliamente en el organismo. Su unión a proteínas plasmáticas es baja (alrededor del 40%), lo que reduce el riesgo de interacciones por desplazamiento. El volumen de distribución (Vd) del MHD es de aproximadamente 0.7-0.8 L/kg.",
+    "metabolism": "La oxcarbazepina sufre un metabolismo hepático extenso y rápido (primer paso) principalmente por enzimas reductasas citosólicas, convirtiéndose en su metabolito activo, el MHD. Este MHD posteriormente se conjuga con ácido glucurónico (glucuronidación). A diferencia de la carbamazepina, la oxcarbazepina NO induce significativamente el sistema enzimático CYP3A4, pero el MHD es un inductor moderado del CYP3A4 y posiblemente del CYP2C19. Su metabolismo no depende en gran medida del citocromo P450, lo que explica su menor potencial de interacción.",
+    "elimination": "La vida media de eliminación del MHD es de aproximadamente 8-10 horas en adultos, y de 6-7 horas en niños. Se elimina principalmente por vía renal; más del 95% de la dosis aparece en la orina, principalmente como glucurónidos del MHD (49%), MHD libre (27%) y metabolitos conjugados menores. Menos del 1% se excreta sin cambios.",
+    "onsetOfAction": "Los niveles plasmáticos del metabolito activo (MHD) alcanzan su punto máximo (concentración máxima) entre 4.5 y 8 horas después de una dosis oral. Sin embargo, el efecto terapéutico completo para el control de las crisis puede tardar varios días o semanas, ya que la dosis debe titularse (aumentarse gradualmente) para alcanzar la eficacia óptima y minimizar efectos secundarios.",
+    "durationOfAction": "Debido a su vida media de 8-10 horas, la oxcarbazepina generalmente se administra dos veces al día (cada 12 horas) para mantener niveles sanguíneos estables y un efecto anticonvulsivante continuo a lo largo del día y la noche."
+  },
+  "indications": {
+    "approved": [
+      "Mono o terapia adyuvante en el tratamiento de las crisis epilépticas parciales (focales) con o sin generalización secundaria en adultos y niños a partir de 2 años de edad.",
+      "Tratamiento de la fase maníaca asociada al trastorno bipolar tipo I en adultos."
+    ],
+    "offLabel": [
+      "Tratamiento de la neuralgia del trigémino (dolor facial intenso).",
+      "Tratamiento de la neuropatía diabética dolorosa y otras neuropatías periféricas.",
+      "Tratamiento profiláctico de la migraña.",
+      "Manejo de síntomas de abstinencia en dependencia a alcohol o benzodiacepinas.",
+      "Tratamiento de trastornos de conducta o agitación en demencias."
+    ]
+  },
+  "dosage": {
+    "adults": "Epilepsia (Terapia Adyuvante): Iniciar con 600 mg/día (300 mg dos veces al día). La dosis puede incrementarse semanalmente en 600 mg/día. Dosis de mantenimiento usual: 600-2400 mg/día, divididos en dos dosis. Epilepsia (Monoterapia): Iniciar con 600 mg/día, aumentar a 1200 mg/día en la segunda semana. Dosis de mantenimiento usual: 1200-2400 mg/día. Trastorno Bipolar: Iniciar con 600 mg/día, aumentar según tolerancia y respuesta. Rango usual: 900-2400 mg/día.",
+    "pediatric": "Niños (4-16 años): Iniciar con 8-10 mg/kg/día, dividido en dos dosis, sin exceder 600 mg/día. La dosis de mantenimiento objetivo se basa en el peso: 20-29 kg: 900 mg/día; 29.1-39 kg: 1200 mg/día; >39 kg: 1800 mg/día. Niños (2-4 años): Iniciar con 8-10 mg/kg/día. Dosis de mantenimiento hasta 60 mg/kg/día. La dosificación debe ser cuidadosamente calculada por el médico pediatra o neurólogo.",
+    "elderly": "En pacientes de edad avanzada, puede ser necesario un ajuste de dosis debido a la posible disminución de la función renal. Se recomienda iniciar con dosis más bajas (ej. 300 mg dos veces al día) y titular lentamente, monitorizando la función renal y los efectos adversos.",
+    "renalImpairment": "Ajuste necesario en insuficiencia renal. TFG <30 mL/min: La dosis inicial debe reducirse a la mitad (300 mg/día) y titularse lentamente, ya que la eliminación del MHD está disminuida. En pacientes en diálisis, se recomienda administrar la dosis después de la sesión de diálisis.",
+    "hepaticImpairment": "No se requieren ajustes de dosis específicos en insuficiencia hepática leve a moderada. En insuficiencia hepática grave, se debe usar con precaución y posiblemente iniciar con dosis más bajas, ya que el metabolismo puede estar alterado.",
+    "maxDose": "Dosis máxima diaria: 2400 mg en adultos. En niños, la dosis máxima se basa en peso (hasta 60 mg/kg/día), pero generalmente no se exceden los 2400 mg/día."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "150 mg",
+        "300 mg",
+        "600 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Suspensión oral",
+      "strengths": [
+        "60 mg/mL"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la oxcarbazepina, a la carbamazepina o a cualquiera de los componentes de la fórmula.",
+      "Bloqueo auriculoventricular (AV) de segundo o tercer grado."
+    ],
+    "relative": [
+      "Historia de hiponatremia (niveles bajos de sodio) inducida por la oxcarbazepina.",
+      "Insuficiencia renal grave (aclaramiento de creatinina <30 mL/min) sin ajuste de dosis.",
+      "Insuficiencia hepática grave.",
+      "Pacientes ancianos con deterioro de la función renal.",
+      "Uso concomitante con otros fármacos que disminuyan el sodio (diuréticos, IECA, ARA II)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Mareo",
+      "Somnolencia",
+      "Dolor de cabeza",
+      "Náuseas",
+      "Vómitos",
+      "Fatiga",
+      "Visión doble (diplopía)"
+    ],
+    "common": [
+      "Inestabilidad (ataxia)",
+      "Temblor",
+      "Dificultad para concentrarse",
+      "Dolor abdominal",
+      "Estreñimiento",
+      "Diarrea",
+      "Hiponatremia (bajo nivel de sodio en sangre)",
+      "Erupción cutánea",
+      "Infecciones virales"
+    ],
+    "uncommon": [
+      "Alopecia (caída del cabello)",
+      "Aumento de peso",
+      "Agitación",
+      "Depresión",
+      "Confusión",
+      "Hipotiroidismo",
+      "Aumento de transaminasas (pruebas de función hepática)"
+    ],
+    "rare": [
+      "Reacciones cutáneas graves (Síndrome de Stevens-Johnson, necrólisis epidérmica tóxica)",
+      "Anafilaxia (reacción alérgica grave)",
+      "Insuficiencia hepática",
+      "Pancitopenia (disminución de todas las células sanguíneas)",
+      "Arritmias cardíacas",
+      "Lupus eritematoso sistémico",
+      "Pancreatitis"
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Carbamazepina, Fenitoína, Fenobarbital",
+        "effect": "Estos inductores enzimáticos pueden disminuir los niveles sanguíneos del metabolito activo (MHD) de la oxcarbazepina, reduciendo su eficacia. Puede requerirse un aumento de la dosis de oxcarbazepina.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Verapamilo",
+        "effect": "Puede disminuir los niveles del metabolito activo (MHD) de la oxcarbazepina.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Anticonceptivos hormonales (estrógenos)",
+        "effect": "La oxcarbazepina (a través de su metabolito MHD) induce el CYP3A4, acelerando el metabolismo de los anticonceptivos orales, reduciendo su eficacia y aumentando el riesgo de embarazo. Se recomienda un método anticonceptivo adicional no hormonal.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Warfarina, Acenocumarol",
+        "effect": "La oxcarbazepina puede disminuir los niveles de los anticoagulantes cumarínicos, reduciendo su efecto anticoagulante. Se requiere un monitoreo estrecho del INR.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Simvastatina, Atorvastatina",
+        "effect": "La oxcarbazepina puede disminuir los niveles de estas estatinas, reduciendo su eficacia para bajar el colesterol.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Puede tomarse con o sin alimentos. Tomarlo con alimentos puede ayudar a reducir las molestias gastrointestinales como náuseas. El consumo de alcohol debe evitarse estrictamente, ya que puede aumentar la somnolencia, el mareo y el riesgo de crisis epilépticas, además de potenciar los efectos depresores del sistema nervioso central.",
+    "withSupplements": "La hierba de San Juan (Hypericum perforatum) es un potente inductor enzimático y puede disminuir los niveles de oxcarbazepina, reduciendo su efectividad. Se debe evitar su uso concomitante. Suplementos que contengan grandes cantidades de calcio pueden interferir con la absorción. Consulte siempre con su médico o farmacéutico antes de tomar cualquier suplemento."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA C",
+      "recommendación": "La oxcarbazepina puede causar daño fetal. Los estudios en animales han mostrado toxicidad. En humanos, existe un riesgo aumentado de malformaciones congénitas (como defectos del tubo neural) cuando se usa durante el primer trimestre. Sin embargo, el beneficio de controlar las crisis epilépticas en la madre puede superar el riesgo para el feto. NO se debe suspender abruptamente. Si una mujer en edad fértil planea un embarazo o queda embarazada, debe consultar INMEDIATAMENTE a su neurólogo y ginecólogo para evaluar riesgos/beneficios, ajustar la dosis al mínimo efectivo y comenzar suplementación con ácido fólico en dosis altas (4-5 mg/día) antes de la concepción.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La oxcarbazepina y su metabolito activo (MHD) se excretan en la leche materna en bajas concentraciones. Se considera compatible con la lactancia, pero se debe monitorizar al lactante por posibles efectos como somnolencia, irritabilidad o dificultad para alimentarse. Se recomienda administrar la dosis justo después de una toma para minimizar la exposición del bebé. Consulte con su médico.",
+    "pediatric": "Aprobado para niños a partir de 2 años. La dosificación se basa estrictamente en el peso corporal. Los niños pueden ser más susceptibles a algunos efectos adversos como la somnolencia y los cambios de comportamiento. Es crucial el monitoreo del crecimiento y desarrollo. La suspensión oral es la forma preferida para niños pequeños y permite un ajuste de dosis más preciso.",
+    "geriatric": "Los pacientes mayores de 65 años tienen mayor probabilidad de presentar función renal disminuida, hiponatremia y efectos adversos relacionados con el sistema nervioso central (mareo, inestabilidad). Se debe iniciar con dosis bajas, titular lentamente y monitorizar la función renal y los electrolitos (sodio) con regularidad. El riesgo de caídas es mayor."
+  },
+  "administration": {
+    "howToTake": "Tome las tabletas enteras con un vaso de agua, con o sin alimentos. No mastique, parta ni triture las tabletas, a menos que su médico lo indique (existen tabletas divisibles). Para la suspensión oral, agite bien el frasco antes de cada uso. Use el dosificador (jeringa o cuchara) que viene con el medicamento para medir la dosis exacta. Tome la dosis a las mismas horas cada día (ej. 8 am y 8 pm) para mantener un nivel constante en sangre. Si olvida una dosis, tómela tan pronto como lo recuerde, pero si es casi la hora de la siguiente dosis, omita la dosis olvidada y continúe con su horario normal. NUNCA duplique la dosis para compensar.",
+    "storage": "Almacene a temperatura ambiente (15-30°C), en un lugar seco y fuera del alcance de la luz directa y la humedad. No congele. Mantenga el frasco de suspensión oral bien cerrado. Deseche cualquier suspensión no utilizada después de 7 semanas de abierto el frasco.",
+    "specialInstructions": "NUNCA suspenda este medicamento abruptamente, ya que puede provocar un aumento grave de las crisis epilépticas (estado epiléptico). Cualquier cambio de dosis o suspensión debe ser supervisado por su médico y realizado de manera gradual durante semanas o meses. Informe a todos sus médicos y dentistas que está tomando oxcarbazepina antes de cualquier procedimiento. Puede causar mareo y somnolencia; tenga precaución al conducir o operar maquinaria hasta que conozca cómo le afecta."
+  },
+  "monitoring": {
+    "labTests": [
+      "Nivel de sodio en sangre (Na+)",
+      "Pruebas de función renal (creatinina, BUN)",
+      "Pruebas de función hepática (transaminasas, bilirrubina)",
+      "Conteo sanguíneo completo (CSC) al inicio",
+      "Niveles plasmáticos de oxcarbazepina/MHD (en casos de falta de respuesta, toxicidad o interacciones)"
+    ],
+    "frequency": "Nivel de sodio: al inicio del tratamiento, a las 2-4 semanas, a los 3 meses, y luego cada 6-12 meses, o si hay síntomas de hiponatremia. Función hepática y renal: al inicio y luego anualmente, o según síntomas. Los niveles plasmáticos del fármaco se miden según criterio médico.",
+    "signsToWatch": [
+      "Síntomas de hiponatremia: dolor de cabeza intenso, confusión, náuseas/vómitos persistentes, cansancio extremo, debilidad muscular, calambres, convulsiones.",
+      "Síntomas de reacción alérgica grave: erupción cutánea, ampollas, descamación de la piel, úlceras en boca/ojos, fiebre, inflamación de ganglios, hinchazón de cara/labios/lengua.",
+      "Síntomas de problemas hepáticos: coloración amarilla de piel/ojos (ictericia), orina oscura, heces claras, dolor abdominal superior intenso.",
+      "Aumento en la frecuencia o intensidad de las crisis epilépticas.",
+      "Pensamientos o conductas suicidas, depresión severa, agitación."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Somnolencia profunda",
+      "Mareo intenso",
+      "Ataxia (inestabilidad) marcada",
+      "Náuseas y vómitos",
+      "Hipotonía (disminución del tono muscular)",
+      "Movimientos oculares anormales (nistagmo)",
+      "Depresión respiratoria",
+      "Coma",
+      "Convulsiones (paradójicamente)"
+    ],
+    "treatment": "No existe un antídoto específico. El tratamiento es de soporte y sintomático. Se debe asegurar la vía aérea, la respiración y la circulación. Lavado gástrico o carbón activado pueden considerarse si la ingestión es reciente (dentro de 1-2 horas). Monitorización continua de signos vitales y funciones cardiorrespiratorias. La hemodiálisis puede ser efectiva para eliminar el metabolito activo (MHD), especialmente en pacientes con insuficiencia renal.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (receta retenida en farmacia, aunque depende de la legislación local). Es un medicamento de control.",
+    "scheduleMexico": "Medicamento sujeto a control sanitario (fracción III del artículo 226 de la Ley General de Salud). Requiere receta médica expedida en formato oficial y se registra su dispensación.",
+    "fdaApprovalYear": "Aprobado por la FDA en el año 2000 para el tratamiento de la epilepsia parcial."
+  },
+  "brandsMexico": [
+    "Trileptal",
+    "Oxcarbazepina Genfar",
+    "Oxcarbazepina PiSA",
+    "Oxcarbazepina Rimsa",
+    "Oxetol",
+    "Oxalepsy",
+    "Oxcar",
+    "Oxtellar",
+    "Oxilep",
+    "Neuryl"
+  ],
+  "clinicalPearls": [
+    "La hiponatremia (sodio bajo) es el efecto adverso metabólico más común y puede ser asintomática. Es más frecuente en adultos mayores, en los primeros 3 meses de tratamiento y con dosis altas. Monitoreo periódico de sodio es clave.",
+    "Aunque es estructuralmente similar a la carbamazepina, el riesgo de reacciones cutáneas graves (SJS/TEN) y de interacciones medicamentosas es significativamente menor con la oxcarbazepina, lo que la hace una alternativa más segura en muchos pacientes.",
+    "Para convertir de carbamazepina a oxcarbazepina, la dosis equivalente aproximada es 1:1.5 (ej., 600 mg de carbamazepina ≈ 900 mg de oxcarbazepina). La sustitución debe hacerse bajo supervisión médica y con titulación gradual."
+  ],
+  "patientCounseling": "Querido paciente, la oxcarbazepina es un medicamento muy efectivo para controlar sus crisis, pero requiere su compromiso. Tómelo EXACTAMENTE como se lo recetó su médico, a las mismas horas todos los días. Nunca lo suspenda por su cuenta, aunque se sienta bien, porque las crisis podrían regresar de forma grave. Es normal sentir algo de sueño o mareo al principio; esto suele mejorar en unas semanas. Evite manejar o usar herramientas peligrosas hasta que sepa cómo le afecta. No tome alcohol. Esté atento a señales de alarma: si tiene un sarpullido nuevo, confusión, náuseas fuertes, mucho cansancio o pensamientos tristes/oscuros, contacte a su médico INMEDIATAMENTE. Si usa pastillas anticonceptivas, hable con su ginecólogo, ya que este medicamento puede reducir su efecto. Asista a todas sus citas de control y a los análisis de sangre que le soliciten, especialmente para revisar el nivel de sodio. Lleve siempre una identificación que diga que toma este medicamento. Su farmacéutico y médico están para apoyarle en este tratamiento a largo plazo.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Convulsiones",
+        "slug": "convulsiones"
+      },
+      {
+        "name": "Crisis epilepticas",
+        "slug": "crisis-epilepticas"
+      },
+      {
+        "name": "Aura sensorial",
+        "slug": "aura-sensorial"
+      },
+      {
+        "name": "Perdida de conciencia",
+        "slug": "perdida-de-conciencia"
+      },
+      {
+        "name": "Movimientos involuntarios",
+        "slug": "movimientos-involuntarios"
+      },
+      {
+        "name": "Dolor facial intenso",
+        "slug": "dolor-facial-intenso"
+      },
+      {
+        "name": "Dolor neuropatico",
+        "slug": "dolor-neuropatico"
+      },
+      {
+        "name": "Sintomas maniacos",
+        "slug": "sintomas-maniacos"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Epilepsia focal (parcial)",
+        "slug": "epilepsia-focal-parcial"
+      },
+      {
+        "name": "Epilepsia con generalizacion secundaria",
+        "slug": "epilepsia-con-generalizacion-secundaria"
+      },
+      {
+        "name": "Trastorno bipolar tipo I",
+        "slug": "trastorno-bipolar-tipo-i"
+      },
+      {
+        "name": "Neuralgia del trigemino",
+        "slug": "neuralgia-del-trigemino"
+      },
+      {
+        "name": "Neuropatia diabetica dolorosa",
+        "slug": "neuropatia-diabetica-dolorosa"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Hiponatremia",
+        "slug": "hiponatremia"
+      },
+      {
+        "name": "Sindrome de Stevens-Johnson",
+        "slug": "sindrome-de-stevens-johnson"
+      },
+      {
+        "name": "Necrolisis epidermica toxica",
+        "slug": "necrolisis-epidermica-toxica"
+      },
+      {
+        "name": "Hepatitis inducida por farmacos",
+        "slug": "hepatitis-inducida-por-farmacos"
+      },
+      {
+        "name": "Depresion mayor",
+        "slug": "depresion-mayor"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Sodio serico (Na+)",
+        "slug": "sodio-serico",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Transaminasas (ALT, AST)",
+        "slug": "transaminasas-alt-ast",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Hormonas tiroideas (T4 libre)",
+        "slug": "hormonas-tiroideas-t4-libre",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Nivel de anticonceptivos hormonales",
+        "slug": "nivel-de-anticonceptivos-hormonales",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Recuento de globulos blancos",
+        "slug": "recuento-de-globulos-blancos",
+        "effect": "Puede disminuir (raro)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Electrolitos sericos (Sodio, Potasio)",
+        "slug": "electrolitos-sericos",
+        "reason": "Para detectar hiponatremia, efecto adverso comun"
+      },
+      {
+        "name": "Pruebas de funcion hepatica",
+        "slug": "pruebas-de-funcion-hepatica",
+        "reason": "Para monitorizar posible toxicidad hepatica"
+      },
+      {
+        "name": "Pruebas de funcion renal",
+        "slug": "pruebas-de-funcion-renal",
+        "reason": "Para ajustar la dosis en caso de insuficiencia"
+      },
+      {
+        "name": "Nivel plasmatico de oxcarbazepina (MHD)",
+        "slug": "nivel-plasmatico-de-oxcarbazepina",
+        "reason": "Para optimizar dosis en falta de respuesta o sospecha de toxicidad"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediatrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de filtrado glomerular (eGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve la oxcarbazepina?",
+      "a": "Sirve principalmente para controlar y prevenir las crisis epilépticas (convulsiones) en adultos y niños. También está aprobada en México para tratar la fase maníaca del trastorno bipolar. A veces los médicos la recetan para el dolor de nervios, como el dolor facial intenso (neuralgia del trigémino)."
+    },
+    {
+      "q": "¿La oxcarbazepina es lo mismo que la carbamazepina (Tegretol)?",
+      "a": "No, son medicamentos diferentes pero de la misma familia. La oxcarbazepina es una versión modificada que suele causar menos efectos secundarios y tener menos interacciones con otros medicamentos. Sin embargo, si es alérgico a la carbamazepina, NO debe tomar oxcarbazepina."
+    },
+    {
+      "q": "¿Cómo debo tomar la oxcarbazepina?",
+      "a": "Generalmente se toma dos veces al día (cada 12 horas), con o sin alimentos. Trague las tabletas enteras con agua. Para la suspensión líquida, agite bien el frasco y use el dosificador que viene. Trate de tomarla a la misma hora todos los días."
+    },
+    {
+      "q": "¿Qué hago si se me olvida una dosis?",
+      "a": "Tómela tan pronto como lo recuerde. Pero si ya es casi la hora de su siguiente dosis, omita la que olvidó y continúe con su horario normal. NUNCA tome una dosis doble para compensar."
+    },
+    {
+      "q": "¿Cuáles son los efectos secundarios más comunes?",
+      "a": "Al inicio es común sentir mareo, sueño, dolor de cabeza, náuseas o visión doble. Estos efectos suelen disminuir después de unas semanas. Si son muy intensos o no desaparecen, consulte a su médico."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si tomo oxcarbazepina?",
+      "a": "NO. El alcohol aumenta mucho el mareo y la somnolencia, puede provocar crisis epilépticas y hace que el medicamento sea menos efectivo. Es muy importante evitarlo por completo."
+    },
+    {
+      "q": "¿La oxcarbazepina me hará subir de peso?",
+      "a": "El aumento de peso no es un efecto muy común, pero puede ocurrir en algunos pacientes. Si nota un aumento de peso significativo, hable con su médico para evaluar su dieta y opciones."
+    },
+    {
+      "q": "¿Puedo manejar o operar maquinaria mientras tomo este medicamento?",
+      "a": "Debe tener MUCHA precaución, especialmente al inicio del tratamiento o cuando le aumenten la dosis. El mareo y la somnolencia pueden afectar sus reflejos. No maneje hasta que esté seguro de cómo le afecta el medicamento."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Los niveles en sangre se estabilizan en unas horas, pero el control completo de las crisis puede tardar varias semanas, ya que la dosis se aumenta lentamente. Sea paciente y no espere resultados inmediatos."
+    },
+    {
+      "q": "¿Puedo dejar de tomar la oxcarbazepina de golpe si me siento bien?",
+      "a": "¡JAMÁS! Suspenderla abruptamente puede provocar crisis epilépticas muy graves, incluso más fuertes que antes (estado epiléptico). Cualquier cambio o suspensión debe ser supervisado por su médico y hacerse de forma muy lenta, durante semanas o meses."
+    },
+    {
+      "q": "¿La oxcarbazepina afecta los anticonceptivos (pastillas)?",
+      "a": "SÍ. Puede disminuir la efectividad de las pastillas anticonceptivas que contienen estrógenos, aumentando el riesgo de embarazo. Hable con su ginecólogo para usar un método adicional (como condón) o cambiar a un anticonceptivo no hormonal."
+    },
+    {
+      "q": "¿Qué es la hiponatremia y por qué debo preocuparme?",
+      "a": "La hiponatremia es tener el nivel de sodio en la sangre muy bajo. Es un efecto común de este medicamento. Puede causar dolor de cabeza fuerte, confusión, náuseas, cansancio extremo y hasta convulsiones. Por eso su médico le pedirá análisis de sangre periódicos para revisar el sodio."
+    },
+    {
+      "q": "¿Qué debo hacer si me sale un sarpullido o ronchas?",
+      "a": "DEJE de tomar el medicamento y contacte a su médico INMEDIATAMENTE. Aunque es raro, puede ser señal de una reacción alérgica grave (como el Síndrome de Stevens-Johnson). No espere a que empeore."
+    },
+    {
+      "q": "¿Puedo tomar oxcarbazepina si estoy embarazada o planeando un embarazo?",
+      "a": "Este medicamento puede causar daños al bebé, especialmente en los primeros meses. Sin embargo, tener crisis epilépticas sin control también es peligroso. Si planea un embarazo o cree estar embarazada, HABLE CON SU NEURÓLOGO Y GINECÓLOGO INMEDIATAMENTE. No suspenda el medicamento sola. Es probable que le receten ácido fólico en dosis alta."
+    },
+    {
+      "q": "¿Puedo amamantar si tomo oxcarbazepina?",
+      "a": "Sí, generalmente se considera compatible. Pasa a la leche en cantidades muy pequeñas. Se recomienda dar el pecho justo después de tomar la dosis para reducir la exposición del bebé. Observe a su bebé por si presenta mucho sueño o dificultad para alimentarse, y coméntelo con su pediatra."
+    },
+    {
+      "q": "¿Interactúa con otros medicamentos comunes?",
+      "a": "Sí. Puede reducir el efecto de anticoagulantes (warfarina), algunas estatinas (para el colesterol) y, como ya se dijo, de los anticonceptivos. Otros medicamentos para la epilepsia (como fenitoína) pueden reducir su efecto. SIEMPRE informe a todos sus médicos y a su farmacéutico que toma oxcarbazepina antes de que le receten algo nuevo."
+    },
+    {
+      "q": "¿Por qué mi médico me pide análisis de sangre seguido?",
+      "a": "Para su seguridad. Los análisis revisan principalmente el nivel de sodio (para prevenir hiponatremia) y la función del hígado y los riñones. Esto ayuda a ajustar la dosis y detectar problemas antes de que causen síntomas graves."
+    },
+    {
+      "q": "¿Existe riesgo de suicidio con este medicamento?",
+      "a": "Todos los medicamentos antiepilépticos, incluida la oxcarbazepina, tienen una advertencia sobre un pequeño aumento en el riesgo de pensamientos o conductas suicidas. Esté atento a cambios de humor, depresión, ansiedad o pensamientos de hacerse daño, y repórtelos a su médico y familiares de inmediato."
+    },
+    {
+      "q": "¿Es mejor la tableta o la suspensión líquida?",
+      "a": "Ambas son igual de efectivas. Las tabletas son más convenientes para adultos. La suspensión es ideal para niños o adultos que tienen dificultad para tragar pastillas, ya que permite ajustar la dosis con más precisión."
+    },
+    {
+      "q": "¿Cuál es la diferencia clave en el perfil de seguridad entre oxcarbazepina y carbamazepina desde el punto de vista clínico?",
+      "a": "La oxcarbazepina tiene un perfil de seguridad más favorable en dos aspectos clave: 1) Menor riesgo de reacciones de hipersensibilidad graves (como el Síndrome de Stevens-Johnson) y de toxicidad hematológica (afectación de la médula ósea). 2) Menor potencial de interacciones medicamentosas, ya que no es un potente inductor del sistema enzimático CYP450 como la carbamazepina, lo que simplifica el manejo en pacientes polimedicados. Sin embargo, la incidencia de hiponatremia (sodio bajo) puede ser mayor con oxcarbazepina."
+    }
+  ]
+}

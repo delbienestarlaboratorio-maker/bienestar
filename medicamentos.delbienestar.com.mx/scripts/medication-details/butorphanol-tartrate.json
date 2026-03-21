@@ -1,0 +1,398 @@
+{
+  "name": "Butorfanol Tartrato",
+  "summary": "El butorfanol tartrato es un medicamento analgésico opioide sintético que se utiliza para el manejo del dolor moderado a severo. Actúa en el sistema nervioso central para bloquear la percepción del dolor, pero tiene un perfil farmacológico particular porque es un agonista-antagonista de los receptores opioides. Esto significa que, además de aliviar el dolor, puede bloquear los efectos de otros opioides puros como la morfina, lo que le confiere un menor potencial de depresión respiratoria y dependencia en comparación con otros opioides clásicos. Su importancia clínica radica en su uso para el dolor agudo, como el postoperatorio o el dolor asociado a migrañas, y en procedimientos obstétricos, ofreciendo una alternativa con un perfil de seguridad diferente. En México, es un fármaco controlado que requiere receta médica especial y supervisión estrecha debido a su potencial de abuso y efectos adversos.",
+  "pharmacology": {
+    "mechanismOfAction": "El butorfanol es un agonista parcial del receptor opioide kappa (κ) y un antagonista del receptor mu (μ). Esto significa que se une y activa principalmente los receptores kappa en el cerebro y la médula espinal, lo que produce analgesia (alivio del dolor) y sedación. Simultáneamente, bloquea los receptores mu, que son los principales responsables de los efectos de euforia, depresión respiratoria grave y alta dependencia asociados a opioides como la morfina. Este mecanismo dual le confiere un efecto analgésico potente, pero con un perfil de efectos secundarios diferente: menor riesgo de depresión respiratoria severa y un potencial de abuso más bajo en comparación con los agonistas puros de los receptores mu. Sin embargo, aún puede causar depresión respiratoria, especialmente en dosis altas o en pacientes no habituados a opioides.",
+    "pharmacologicClass": "Agonista-antagonista de receptores opioides; Derivado sintético de la morfinano.",
+    "therapeuticClass": "Analgésico Opioide; Antimigrañoso (en su formulación nasal).",
+    "absorption": "La absorción después de una inyección intramuscular es rápida y casi completa, con una biodisponibilidad cercana al 100%. La administración intranasal tiene una biodisponibilidad de aproximadamente 60-70%. La administración oral tiene una biodisponibilidad muy baja (aproximadamente 5-17%) debido a un extenso metabolismo de primer paso en el hígado, por lo que no se utiliza por esta vía.",
+    "distribution": "Se distribuye ampliamente por los tejidos corporales. Su volumen de distribución es de aproximadamente 300-500 litros, lo que indica una amplia distribución en los tejidos periféricos. Se une a las proteínas plasmáticas en un rango de 80% a 85%. Cruza la barrera hematoencefálica y la placenta.",
+    "metabolism": "El butorfanol se metaboliza extensamente en el hígado, principalmente por la enzima CYP3A4 del citocromo P450. Se convierte en metabolitos hidroxilados inactivos (principalmente hidroxibutorfanol). Su metabolismo puede verse afectado por inhibidores o inductores de la CYP3A4.",
+    "elimination": "La vida media de eliminación es de aproximadamente 3 a 4.5 horas en adultos. Se elimina principalmente por vía renal (70-80%) en forma de metabolitos inactivos, y una pequeña parte (15%) por las heces. Menos del 5% se excreta sin cambios en la orina.",
+    "onsetOfAction": "Intramuscular: 10-15 minutos. Intravenosa: 2-3 minutos. Intranasal: 15 minutos aproximadamente.",
+    "durationOfAction": "Intramuscular: 3-4 horas. Intravenosa: 2-4 horas. Intranasal: 4-5 horas."
+  },
+  "indications": {
+    "approved": [
+      "Alivio del dolor moderado a severo (postoperatorio, dolor oncológico, dolor musculoesquelético agudo).",
+      "Analgesia durante el trabajo de parto.",
+      "Premedicación para anestesia.",
+      "Tratamiento de la migraña (formulación intranasal)."
+    ],
+    "offLabel": [
+      "Sedación en cuidados intensivos.",
+      "Manejo del dolor neuropático refractario (en combinación).",
+      "Supresión de la tos intratable (debido a su acción sobre el centro de la tos)."
+    ]
+  },
+  "dosage": {
+    "adults": "Inyección (IM/IV): Dosis inicial de 1 mg (1 mL) cada 3-4 horas según sea necesario. Para dolor severo, se puede administrar 2 mg (2 mL) cada 3-4 horas. Dosis máxima única: 4 mg. Intranasal: 1 mg (un spray en una fosa nasal). Si el dolor persiste después de 60-90 minutos, se puede administrar una segunda dosis de 1 mg. No exceder 4 mg en 24 horas.",
+    "pediatric": "No recomendado de forma rutinaria en niños menores de 18 años. En algunos contextos hospitalarios bajo estricta supervisión: 0.01-0.02 mg/kg por dosis IM/IV cada 3-4 horas según necesidad.",
+    "elderly": "Iniciar con dosis más bajas (ej. 0.5 mg IM/IV) debido a la posible disminución de la función renal/hepática y mayor sensibilidad. Ajustar según respuesta y tolerancia.",
+    "renalImpairment": "Ajustar en insuficiencia renal moderada a severa (TFG <30 mL/min). Reducir la dosis inicial en un 25-50% y aumentar el intervalo entre dosis (cada 6-8 horas). Monitorizar estrechamente.",
+    "hepaticImpairment": "Ajustar en insuficiencia hepática (cirrosis). Reducir la dosis inicial en un 50% y aumentar el intervalo entre dosis debido al metabolismo hepático reducido. Evitar en insuficiencia hepática severa.",
+    "maxDose": "Dosis máxima diaria: Generalmente no más de 8 mg por día por vía parenteral. Para la formulación intranasal: 4 mg en 24 horas (4 sprays)."
+  },
+  "dosageForms": [
+    {
+      "form": "Solución inyectable",
+      "strengths": [
+        "1 mg/mL",
+        "2 mg/mL"
+      ],
+      "route": "Intramuscular, Intravenosa"
+    },
+    {
+      "form": "Spray nasal",
+      "strengths": [
+        "1 mg/activación"
+      ],
+      "route": "Intranasal"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al butorfanol o a cualquier componente de la formulación.",
+      "Pacientes con dependencia física a opioides (puede precipitar un síndrome de abstinencia).",
+      "Depresión respiratoria significativa no tratada.",
+      "Asma aguda severa o EPOC con insuficiencia respiratoria aguda.",
+      "Parálisis intestinal (íleo paralítico).",
+      "Hipertensión intracraneal o lesión cerebral traumática (puede aumentar la presión intracraneal)."
+    ],
+    "relative": [
+      "Historial de abuso de sustancias o alcoholismo.",
+      "Arritmias cardíacas o bradicardia.",
+      "Insuficiencia hepática o renal moderada a severa.",
+      "Trastornos convulsivos.",
+      "Enfermedad de la vesícula biliar o pancreatitis.",
+      "Pacientes que toman inhibidores de la MAO (monoaminooxidasa)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Somnolencia (sedación).",
+      "Mareo o vértigo.",
+      "Náuseas.",
+      "Sudoración."
+    ],
+    "common": [
+      "Vómitos.",
+      "Dolor de cabeza.",
+      "Sensación de calor o rubor (enrojecimiento facial).",
+      "Sequedad de boca.",
+      "Nerviosismo o ansiedad.",
+      "Visión borrosa.",
+      "Insomnio.",
+      "Prurito (comezón)."
+    ],
+    "uncommon": [
+      "Alucinaciones o sueños vívidos.",
+      "Confusión.",
+      "Depresión respiratoria (dificultad para respirar).",
+      "Palpitaciones o taquicardia.",
+      "Hipotensión (presión baja).",
+      "Temblor.",
+      "Disfunción eréctil."
+    ],
+    "rare": [
+      "Convulsiones.",
+      "Dependencia física y psicológica.",
+      "Reacción alérgica severa (anafilaxia).",
+      "Arritmias ventriculares.",
+      "Aumento de la presión intracraneal."
+    ],
+    "blackBoxWarning": "Advertencia de caja negra: Riesgo de uso indebido, abuso y adicción, que puede llevar a sobredosis y muerte. El butorfanol, como todos los opioides, expone a los usuarios a riesgos de adicción, abuso y uso indebido. La dosis debe ser individualizada y supervisada estrechamente."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Otros opioides (morfina, fentanilo, oxicodona)",
+        "effect": "El butorfanol puede antagonizar (bloquear) el efecto analgésico de los agonistas puros de receptores mu, reduciendo su eficacia y pudiendo precipitar un síndrome de abstinencia en pacientes dependientes.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Benzodiacepinas (diazepam, alprazolam) y otros depresores del SNC (alcohol, hipnóticos)",
+        "effect": "Aumento aditivo de la depresión del sistema nervioso central, llevando a sedación profunda, mareo severo, dificultad para respirar, coma y riesgo de muerte.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores de la CYP3A4 (ketoconazol, claritromicina, ritonavir)",
+        "effect": "Pueden aumentar significativamente los niveles sanguíneos de butorfanol, potenciando sus efectos y toxicidad (sedación excesiva, depresión respiratoria).",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inductores de la CYP3A4 (rifampicina, carbamazepina, fenitoína)",
+        "effect": "Pueden disminuir los niveles sanguíneos de butorfanol, reduciendo su efecto analgésico.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inhibidores de la MAO (fenelzina, selegilina)",
+        "effect": "Pueden causar una reacción serotoninérgica grave (síndrome serotoninérgico) o potenciar los efectos depresores del SNC y la presión arterial.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "El alcohol debe evitarse estrictamente, ya que potencia enormemente los efectos depresores del sistema nervioso central (sedación, mareo, riesgo de paro respiratorio). No hay interacciones significativas con alimentos, pero tomar el spray nasal con el estómago vacío o lleno no afecta su absorción de manera crítica.",
+    "withSupplements": "Precaución con suplementos que causen sedación, como la valeriana, la kava, la melatonina o la hierba de San Juan (esta última es un inductor enzimático y puede reducir los niveles de butorfanol)."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA C (para inyección) / D (para uso prolongado o en dosis altas cerca del parto)",
+      "recommendación": "Solo debe usarse durante el embarazo si el beneficio potencial justifica claramente el riesgo para el feto. Su uso cerca del término del embarazo puede causar depresión respiratoria en el recién nacido. Se utiliza comúnmente para analgesia durante el trabajo de parto, pero el neonato debe ser monitorizado por posibles efectos adversos.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "El butorfanol se excreta en la leche materna en cantidades muy pequeñas. Debido al potencial de efectos adversos graves en el lactante (sedación, dificultad para alimentarse, depresión respiratoria), se recomienda precaución. Se debe considerar suspender la lactancia o el medicamento, evaluando la importancia del fármaco para la madre. Si se usa, monitorizar al bebé por somnolencia excesiva, dificultad para respirar o letargo.",
+    "pediatric": "La seguridad y eficacia en pacientes pediátricos menores de 18 años no están bien establecidas. Su uso está generalmente restringido a entornos hospitalarios bajo supervisión médica estrecha para indicaciones específicas (ej., dolor postoperatorio severo).",
+    "geriatric": "Los pacientes mayores de 65 años son más sensibles a los efectos del butorfanol, especialmente a la sedación, mareo, confusión y riesgo de caídas. También tienen mayor probabilidad de tener función renal o hepática disminuida. Se debe iniciar con la dosis más baja posible (25-50% de la dosis adulta) y ajustar lentamente."
+  },
+  "administration": {
+    "howToTake": "INYECCIÓN (IM/IV): Administrado solo por personal de salud. Intramuscular: Inyectar profundamente en un músculo grande (glúteo, deltoides). Intravenosa: Inyectar lentamente (durante 3-5 minutos) para minimizar efectos como náuseas y mareo. SPRAY NASAL: Sonarse la nariz suavemente. Agitar ligeramente el frasco. Inserir la punta del aplicador en una fosa nasal, apuntando ligeramente hacia atrás y hacia el ojo del mismo lado. Cerrar la otra fosa nasal con un dedo. Presionar el aplicador firmemente mientras inhala suavemente por la nariz. No inhalar profundamente. Evitar estornudar o sonarse la nariz inmediatamente después.",
+    "storage": "Conservar a temperatura ambiente (15-30°C), protegido de la luz y el calor. No congelar. Mantener el spray nasal en posición vertical. Mantener todos los medicamentos fuera del alcance de los niños y en un lugar seguro para prevenir el uso indebido.",
+    "specialInstructions": "No conducir ni operar maquinaria pesada hasta conocer cómo le afecta el medicamento (generalmente 24 horas después de una dosis). Informar al médico si tiene historial de abuso de drogas o alcohol. No aumentar la dosis ni la frecuencia sin consultar al médico. Para el spray nasal: No compartir el aplicador con otras personas. Si necesita más de una dosis por episodio de dolor, use la fosa nasal opuesta para la segunda dosis."
+  },
+  "monitoring": {
+    "labTests": [
+      "Función hepática (ALT, AST, bilirrubina).",
+      "Función renal (creatinina sérica, TFG).",
+      "Conteo sanguíneo completo (CSC) en uso prolongado.",
+      "Niveles de gasometría arterial o saturación de oxígeno (en pacientes con riesgo de depresión respiratoria)."
+    ],
+    "frequency": "Evaluación inicial de función hepática/renal antes de iniciar. Monitoreo periódico cada 3-6 meses en terapia crónica. Evaluación constante del nivel de dolor, estado mental y función respiratoria durante el tratamiento.",
+    "signsToWatch": [
+      "Dificultad para respirar o respiración lenta y superficial.",
+      "Somnolencia extrema o dificultad para despertar.",
+      "Confusión, alucinaciones.",
+      "Mareo intenso o desmayo.",
+      "Latidos cardíacos muy lentos o irregulares.",
+      "Náuseas o vómitos persistentes.",
+      "Signos de dependencia (necesidad de aumentar la dosis para el mismo efecto, ansias por el medicamento)."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Depresión respiratoria severa (respiración lenta, superficial o ausente).",
+      "Somnolencia extrema progresando a estupor o coma.",
+      "Pupilas puntiformes (miosis).",
+      "Hipotensión (presión arterial muy baja).",
+      "Bradicardia (frecuencia cardíaca lenta).",
+      "Piel fría y húmeda.",
+      "Paro cardiorrespiratorio y muerte."
+    ],
+    "treatment": "Es una emergencia médica. Llamar a servicios de emergencia (066 en México). Medidas de soporte: Mantener la vía aérea abierta, asistir la ventilación (oxígeno, ventilación mecánica si es necesario). Administrar el antídoto específico (naloxona) de inmediato. Monitorización continua de signos vitales en un hospital. El tratamiento es sintomático y de soporte.",
+    "antidote": "Naloxona (Narcan). Es un antagonista opioide competitivo que revierte los efectos de la sobredosis, especialmente la depresión respiratoria. Se administra por vía intravenosa, intramuscular o intranasal. Pueden ser necesarias dosis repetidas debido a la vida media más larga del butorfanol."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (receta controlada). Es un psicotrópico sujeto a control.",
+    "scheduleMexico": "Fracción III de la Ley General de Salud (sustancias con potencial de abuso y dependencia moderado a bajo, con uso médico).",
+    "fdaApprovalYear": "La formulación inyectable fue aprobada en 1978. El spray nasal fue aprobado en 1991."
+  },
+  "brandsMexico": [
+    "Butal",
+    "Butorfanol",
+    "Stadol",
+    "Torbugesic",
+    "Butorfin",
+    "Butam"
+  ],
+  "clinicalPearls": [
+    "El butorfanol es una opción útil para el dolor agudo en pacientes con riesgo de depresión respiratoria por opioides puros, debido a su efecto techo en este efecto adverso.",
+    "Puede precipitar un síndrome de abstinencia agudo en pacientes físicamente dependientes de opioides mu-agonistas (como la heroína, la morfina o la metadona).",
+    "Su efecto analgésico no es reversible completamente con naloxona, ya que parte de su acción se debe a la activación de receptores kappa, lo que puede requerir dosis más altas o infusiones del antídoto.",
+    "El spray nasal es particularmente útil para crisis de migraña, ya que evita el tracto gastrointestinal (útil si hay vómitos) y tiene un inicio de acción relativamente rápido."
+  ],
+  "patientCounseling": "Este medicamento es un analgésico fuerte controlado. Tómelo EXACTAMENTE como se lo recetó su médico. Nunca aumente la dosis ni la frecuencia por su cuenta. Puede causar somnolencia y mareo severos; NO conduzca, maneje maquinaria ni realice actividades que requieran alerta hasta que sepa cómo le afecta. El ALCOHOL es extremadamente peligroso combinado con este medicamento, ya que aumenta el riesgo de somnolencia profunda, dificultad para respirar y muerte. Informe a su médico de inmediato si siente que le falta el aire, si está excesivamente somnoliento o confundido. Guárdelo en un lugar seguro, lejos del alcance de otras personas, especialmente niños, para prevenir un uso accidental o indebido. Si usa el spray nasal, siga las instrucciones de aplicación al pie de la letra para asegurar que el medicamento se absorba correctamente. Si el dolor no mejora o siente que necesita el medicamento por razones distintas al dolor (como ansiedad), hable con su médico.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor agudo severo",
+        "slug": "dolor-agudo-severo"
+      },
+      {
+        "name": "Dolor postoperatorio",
+        "slug": "dolor-postoperatorio"
+      },
+      {
+        "name": "Dolor de cabeza por migraña",
+        "slug": "dolor-de-cabeza-por-migrana"
+      },
+      {
+        "name": "Dolor de parto",
+        "slug": "dolor-de-parto"
+      },
+      {
+        "name": "Tos refractaria",
+        "slug": "tos-refractaria"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Migraña",
+        "slug": "migrana"
+      },
+      {
+        "name": "Cáncer (para manejo del dolor oncológico)",
+        "slug": "cancer"
+      },
+      {
+        "name": "Traumatismo agudo",
+        "slug": "traumatismo-agudo"
+      },
+      {
+        "name": "Postoperatorio",
+        "slug": "postoperatorio"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Dependencia a opioides",
+        "slug": "dependencia-a-opioides"
+      },
+      {
+        "name": "Depresión respiratoria",
+        "slug": "depresion-respiratoria"
+      },
+      {
+        "name": "Síndrome serotoninérgico",
+        "slug": "sindrome-serotoninergico"
+      },
+      {
+        "name": "Hipotensión",
+        "slug": "hipotension"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Presión arterial",
+        "slug": "presion-arterial",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Frecuencia respiratoria",
+        "slug": "frecuencia-respiratoria",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede disminuir (bradicardia)"
+      },
+      {
+        "name": "Nivel de conciencia (Glasgow)",
+        "slug": "nivel-de-conciencia",
+        "effect": "Puede disminuir (sedación)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-de-funcion-hepatica",
+        "reason": "Para ajustar dosis, ya que se metaboliza en el hígado."
+      },
+      {
+        "name": "Pruebas de función renal",
+        "slug": "pruebas-de-funcion-renal",
+        "reason": "Para ajustar dosis, ya que los metabolitos se eliminan por el riñón."
+      },
+      {
+        "name": "Gasometría arterial",
+        "slug": "gasometria-arterial",
+        "reason": "Para monitorizar la oxigenación y ventilación en riesgo de depresión respiratoria."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve el butorfanol?",
+      "a": "Sirve para aliviar el dolor moderado a severo, como el dolor después de una cirugía, por una lesión, durante el parto o por migrañas intensas. Es un analgésico fuerte que actúa directamente en el cerebro y la médula espinal."
+    },
+    {
+      "q": "¿El butorfanol es adictivo?",
+      "a": "Sí, como todos los opioides, el butorfanol tiene potencial de causar dependencia física y psicológica (adicción), especialmente si se usa por largos periodos o no como lo indicó el médico. Por eso es un medicamento controlado que requiere receta especial."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto la inyección de butorfanol?",
+      "a": "Si se aplica en el músculo (intramuscular), empieza a aliviar el dolor en unos 10 a 15 minutos. Si se pone directamente en la vena (intravenosa), el efecto comienza en 2 a 3 minutos."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si me recetaron butorfanol?",
+      "a": "NO. Es extremadamente peligroso. El alcohol potencia los efectos del butorfanol, pudiendo causar somnolencia extrema, dificultad grave para respirar, pérdida del conocimiento e incluso la muerte."
+    },
+    {
+      "q": "¿El butorfanol viene en pastillas?",
+      "a": "No, en México no se comercializa en tabletas para tomar por la boca. Las presentaciones disponibles son solución inyectable (para aplicar en el músculo o vena) y spray nasal (para aplicar en la nariz)."
+    },
+    {
+      "q": "¿Qué hago si me olvidé de una dosis?",
+      "a": "Tómela tan pronto como lo recuerde, pero si ya es casi la hora de la siguiente dosis, sáltese la que olvidó y continúe con su horario normal. NUNCA duplique la dosis para compensar la olvidada."
+    },
+    {
+      "q": "¿El butorfanol causa sueño?",
+      "a": "Sí, la somnolencia es uno de sus efectos secundarios más comunes. Por eso es importante no conducir, operar maquinaria o hacer actividades que requieran estar alerta hasta que sepa cómo le afecta."
+    },
+    {
+      "q": "¿Puedo usar el spray nasal de butorfanol para cualquier tipo de dolor de cabeza?",
+      "a": "No. El spray nasal está específicamente aprobado para el tratamiento de las crisis de migraña. No debe usarse para dolores de cabeza tensionales o por otras causas sin la indicación de un médico."
+    },
+    {
+      "q": "¿Qué efectos secundarios debo reportar a mi médico de inmediato?",
+      "a": "Dificultad para respirar o respiración muy lenta, somnolencia extrema (que no lo deja despertar), confusión o alucinaciones, latidos del corazón muy lentos, mareo intenso o desmayo, y signos de reacción alérgica (ronchas, hinchazón de cara/lengua, dificultad para tragar)."
+    },
+    {
+      "q": "¿Puedo usar butorfanol si estoy embarazada?",
+      "a": "Solo bajo estricta supervisión médica. Se usa a veces para el dolor durante el parto, pero puede afectar al bebé. Su médico evaluará si los beneficios superan los riesgos. No lo use por su cuenta."
+    },
+    {
+      "q": "¿El butorfanol es lo mismo que la morfina?",
+      "a": "No, son opioides diferentes. El butorfanol es un 'agonista-antagonista', lo que significa que alivia el dolor pero también bloquea parcialmente el efecto de opioides como la morfina. Tiene un perfil de efectos secundarios y riesgo de dependencia diferente."
+    },
+    {
+      "q": "¿Puedo volverme tolerante al butorfanol?",
+      "a": "Sí, con el uso prolongado, el cuerpo puede acostumbrarse, necesitando dosis más altas para lograr el mismo alivio del dolor (tolerancia). Esto es una señal de dependencia física y debe ser manejado por su médico, nunca aumentando la dosis por su cuenta."
+    },
+    {
+      "q": "¿Qué pasa si uso butorfanol y tomo medicamentos para la ansiedad (como alprazolam)?",
+      "a": "Es una combinación de ALTO RIESGO. Ambos deprimen el sistema nervioso, pudiendo causar sedación profunda, paro respiratorio y muerte. Informe SIEMPRE a su médico sobre todos los medicamentos que toma, incluyendo los de libre venta y suplementos."
+    },
+    {
+      "q": "¿Cómo debo guardar el spray nasal de butorfanol?",
+      "a": "Guárdelo a temperatura ambiente, en posición vertical, lejos del calor y la luz directa. No lo congele. Manténgalo en un lugar seguro, bajo llave si es posible, lejos del alcance de niños y otras personas."
+    },
+    {
+      "q": "¿El butorfanol puede subir o bajar la presión arterial?",
+      "a": "Puede causar hipotensión, es decir, bajar la presión arterial, lo que puede provocar mareo o desmayo, especialmente al ponerse de pie rápidamente. Es menos común que cause presión alta."
+    },
+    {
+      "q": "¿Por qué el médico me pide análisis de sangre si tomo butorfanol?",
+      "a": "Para revisar que su hígado y riñones estén funcionando bien, ya que el medicamento se procesa en el hígado y se elimina por los riñones. Si estos órganos no trabajan bien, el medicamento puede acumularse y causar toxicidad."
+    },
+    {
+      "q": "¿Qué es el síndrome de abstinencia por opioides y puede causarlo el butorfanol?",
+      "a": "Es un conjunto de síntomas muy desagradables (ansiedad, sudoración, náuseas, diarrea, dolor muscular) que ocurren al suspender bruscamente un opioide después de un uso prolongado. El butorfanol SÍ puede causarlo si se suspende de golpe. Además, si usted es dependiente de otro opioide (como morfina), el butorfanol puede PRECIPITAR un síndrome de abstinencia inmediato porque los bloquea."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre el butorfanol inyectable y el spray nasal?",
+      "a": "La vía de administración y algunas indicaciones. El inyectable se usa más en hospitales para dolor postoperatorio o agudo. El spray nasal se usa principalmente para migrañas fuera del hospital. El spray se absorbe por la mucosa nasal, evitando el estómago y el hígado en el primer paso, lo que lo hace útil si hay vómitos."
+    },
+    {
+      "q": "¿El butorfanol es seguro para personas mayores?",
+      "a": "Se debe usar con mucha precaución. Los adultos mayores son más sensibles a sus efectos (más sueño, mareo, confusión) y tienen mayor riesgo de caídas. Además, su función renal y hepática puede estar disminuida, por lo que la dosis debe ser más baja y el monitoreo, más estrecho."
+    },
+    {
+      "q": "En el contexto de la analgesia multimodal postoperatoria, ¿cuál es el papel del butorfanol y cómo se compara con otros agonistas-antagonistas como la nalbufina?",
+      "a": "El butorfanol puede ser un componente útil en la analgesia multimodal postoperatoria debido a su perfil de efecto techo para la depresión respiratoria, lo que ofrece un margen de seguridad mayor en ciertos pacientes. Comparado con la nalbufina (otro agonista-antagonista), el butorfanol tiene una mayor potencia analgésica y una mayor actividad agonista kappa, lo que se asocia con más efectos disfóricos (malestar, ansiedad) y alucinaciones. La elección entre ellos depende del perfil de efectos adversos deseado, el tipo de dolor y la experiencia del clínico. Su uso debe integrarse con otros analgésicos no opioides (como AINEs) y técnicas locorregionales para minimizar la dosis total de opioides y sus efectos secundarios."
+    }
+  ]
+}

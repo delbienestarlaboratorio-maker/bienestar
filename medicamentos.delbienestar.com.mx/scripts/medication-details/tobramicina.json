@@ -1,0 +1,445 @@
+{
+  "name": "Tobramicina",
+  "summary": "La tobramicina es un antibiótico potente del grupo de los aminoglucósidos, utilizado principalmente para combatir infecciones graves causadas por bacterias Gram-negativas, como Pseudomonas aeruginosa, Escherichia coli y Klebsiella. Es especialmente importante en el tratamiento de infecciones respiratorias en pacientes con fibrosis quística, infecciones del tracto urinario complicadas, sepsis, meningitis y peritonitis. Su uso requiere supervisión médica estrecha debido a su potencial toxicidad en los riñones y el oído, por lo que generalmente se reserva para situaciones hospitalarias o cuando otros antibióticos menos tóxicos han fallado. La administración correcta de la dosis y el monitoreo de los niveles del medicamento en la sangre son cruciales para maximizar su eficacia y minimizar los riesgos. Es un pilar fundamental en el manejo de infecciones nosocomiales (adquiridas en el hospital) resistentes.",
+  "pharmacology": {
+    "mechanismOfAction": "La tobramicina actúa uniéndose de forma irreversible a la subunidad 30S del ribosoma bacteriano, una estructura dentro de la bacteria encargada de fabricar proteínas. Esta unión interfiere con el proceso de lectura del código genético (ARN mensajero) y bloquea la iniciación de la síntesis de proteínas. Como resultado, la bacteria no puede producir las proteínas esenciales para su crecimiento, reparación y supervivencia, lo que lleva finalmente a su muerte (efecto bactericida). Es especialmente activa contra bacterias aerobias Gram-negativas porque ingresa a la célula bacteriana mediante un proceso de transporte activo dependiente de oxígeno.",
+    "pharmacologicClass": "Antibiótico aminoglucósido. Derivado de la kanamicina.",
+    "therapeuticClass": "Antibiótico bactericida de amplio espectro contra bacterias Gram-negativas.",
+    "absorption": "La tobramicina se absorbe muy pobremente por vía oral (menos del 1%). Para lograr niveles terapéuticos en sangre, debe administrarse por vía intravenosa (IV) o intramuscular (IM). La administración por inhalación (nebulización) produce altas concentraciones en el pulmón con mínima absorción sistémica. La absorción IM es rápida y completa.",
+    "distribution": "Se distribuye ampliamente en el líquido extracelular. Tiene una unión a proteínas plasmáticas baja (menos del 10%). Penetra pobremente en el líquido cefalorraquídeo (LCR), a menos que las meninges estén inflamadas. Atraviesa la placenta y se distribuye en el líquido amniótico. Su volumen de distribución (Vd) es similar al del agua extracelular (aproximadamente 0.25 L/kg).",
+    "metabolism": "La tobramicina no sufre metabolismo hepático significativo. No es sustrato del sistema de enzimas citocromo P450 (CYP). Se elimina prácticamente sin cambios.",
+    "elimination": "Se elimina casi exclusivamente por filtración glomerular en los riñones, en forma inalterada. Su vida media de eliminación en adultos con función renal normal es de 2 a 3 horas. En pacientes con insuficiencia renal, la vida media se prolonga considerablemente (hasta 50-60 horas). Una pequeña fracción puede eliminarse por la bilis.",
+    "onsetOfAction": "Los niveles séricos máximos se alcanzan 30 minutos después del final de una infusión intravenosa de 30 minutos, o aproximadamente 30-60 minutos después de una inyección intramuscular.",
+    "durationOfAction": "Su efecto post-antibiótico (capacidad de seguir suprimiendo el crecimiento bacteriano después de que la concentración en sangre cae por debajo del nivel mínimo inhibitorio) es prolongado, especialmente contra bacterias Gram-negativas, lo que permite en algunos esquemas la administración de dosis única diaria."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones graves por bacterias Gram-negativas sensibles (Pseudomonas aeruginosa, E. coli, Klebsiella, Enterobacter, Serratia, Proteus).",
+      "Sepsis (infección en la sangre).",
+      "Meningitis bacteriana (infección de las membranas del cerebro).",
+      "Infecciones intraabdominales (peritonitis).",
+      "Infecciones de la piel y tejidos blandos complicadas.",
+      "Infecciones del tracto respiratorio inferior (neumonía nosocomial).",
+      "Infecciones del tracto urinario complicadas (pielonefritis).",
+      "Tratamiento de la colonización pulmonar por Pseudomonas aeruginosa en pacientes con fibrosis quística (vía inhalada).",
+      "Profilaxis de infecciones en cirugía gastrointestinal."
+    ],
+    "offLabel": [
+      "Infecciones oculares graves (endoftalmitis) por vía intravítrea.",
+      "Tratamiento de otitis externa maligna (infección grave del oído externo).",
+      "Como parte de regímenes combinados para infecciones por micobacterias atípicas."
+    ]
+  },
+  "dosage": {
+    "adults": "Dosis convencional: 3-5 mg/kg/día, dividida en 2-3 dosis iguales cada 8-12 horas (vía IV o IM). Dosis única diaria (DSD): 5-7 mg/kg administrados una vez al día (vía IV en infusión de 30-60 minutos). La elección del esquema depende de la infección, el paciente y la política hospitalaria. La dosis inhalada para fibrosis quística es de 300 mg cada 12 horas en ciclos de 28 días.",
+    "pediatric": "Recién nacidos <1 semana: 4 mg/kg/día divididos cada 12 horas. Lactantes y niños: 6-7.5 mg/kg/día divididos cada 8 horas (esquema convencional) o 5-7 mg/kg una vez al día (DSD). Para inhalación en fibrosis quística: 300 mg cada 12 horas en niños ≥6 años.",
+    "elderly": "Los adultos mayores suelen tener una función renal disminuida. La dosis debe calcularse con base en el peso corporal ajustado y la TFG (tasa de filtración glomerular). Se prefiere el monitoreo de niveles séricos.",
+    "renalImpairment": "AJUSTE IMPERATIVO. Se requiere reducir la dosis o ampliar el intervalo entre dosis. Guía general: TFG 40-60 mL/min: administrar 60-90% de la dosis habitual. TFG 20-40 mL/min: administrar 30-70% de la dosis habitual. TFG 10-20 mL/min: administrar 20-30% de la dosis habitual. TFG <10 mL/min: administrar 10-20% de la dosis habitual. El monitoreo de niveles en sangre es obligatorio.",
+    "hepaticImpairment": "No se requieren ajustes de dosis específicos, ya que no se metaboliza en el hígado. Sin embargo, en cirrosis con ascitis, el volumen de distribución puede alterarse.",
+    "maxDose": "La dosis máxima diaria convencional no debe exceder los 5 mg/kg/día en pacientes con función renal normal, salvo en regímenes de dosis única diaria supervisados. En DSD, la dosis máxima es de 7 mg/kg/día."
+  },
+  "dosageForms": [
+    {
+      "form": "Solución inyectable (ampolla/vial)",
+      "strengths": [
+        "40 mg/mL (2 mL)",
+        "10 mg/mL (2 mL)",
+        "20 mg/2mL"
+      ],
+      "route": "Intravenosa, Intramuscular"
+    },
+    {
+      "form": "Solución para inhalación (nebulización)",
+      "strengths": [
+        "300 mg/5 mL"
+      ],
+      "route": "Inhalación"
+    },
+    {
+      "form": "Gotas óticas",
+      "strengths": [
+        "0.3% (3 mg/mL)"
+      ],
+      "route": "Ótica"
+    },
+    {
+      "form": "Ungüento oftálmico",
+      "strengths": [
+        "0.3% (3 mg/g)"
+      ],
+      "route": "Oftálmica"
+    },
+    {
+      "form": "Solución oftálmica",
+      "strengths": [
+        "0.3% (3 mg/mL)"
+      ],
+      "route": "Oftálmica"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la tobramicina o a cualquier otro aminoglucósido (p. ej., gentamicina, amikacina).",
+      "Miastenia gravis (puede agravar la debilidad muscular)."
+    ],
+    "relative": [
+      "Insuficiencia renal preexistente (requiere ajuste extremo y monitoreo).",
+      "Trastornos auditivos preexistentes (hipoacusia, tinnitus).",
+      "Deshidratación.",
+      "Administración concomitante con otros medicamentos nefrotóxicos u ototóxicos (diuréticos de asa, cisplatino).",
+      "Embarazo (solo si el beneficio justifica claramente el riesgo)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Nefrotoxicidad (daño renal) - especialmente con uso prolongado o dosis altas.",
+      "Ototoxicidad vestibular (mareo, vértigo, pérdida del equilibrio).",
+      "Ototoxicidad coclear (zumbido de oídos - tinnitus, pérdida de audición)."
+    ],
+    "common": [
+      "Dolor en el sitio de inyección (IM).",
+      "Erupción cutánea.",
+      "Fiebre.",
+      "Náuseas y vómitos."
+    ],
+    "uncommon": [
+      "Bloqueo neuromuscular (parálisis muscular respiratoria), especialmente con administración rápida IV o en pacientes con miastenia gravis.",
+      "Dolor de cabeza.",
+      "Letargo.",
+      "Elevación de enzimas hepáticas (transaminasas)."
+    ],
+    "rare": [
+      "Anemia.",
+      "Trombocitopenia (baja de plaquetas).",
+      "Síndrome de Stevens-Johnson (reacción cutánea grave).",
+      "Convulsiones."
+    ],
+    "blackBoxWarning": "NEFROTOXICIDAD y OTOTOXICIDAD: La tobramicina puede causar daño renal y daño al nervio auditivo/vestibular, que puede ser irreversible. El riesgo es mayor con dosis altas, tratamientos prolongados, deshidratación y en pacientes con insuficiencia renal preexistente. Se requiere monitoreo de la función renal y de la audición. NEUROMUSCULAR: Puede causar bloqueo neuromuscular y parálisis respiratoria, especialmente cuando se administra con anestésicos o relajantes musculares."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Furosemida, Bumetanida, Ácido etacrínico (diuréticos de asa)",
+        "effect": "Aumentan el riesgo de ototoxicidad (daño en el oído) de manera aditiva o sinérgica.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Cisplatino",
+        "effect": "Aumenta el riesgo de nefrotoxicidad y ototoxicidad.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Vancomicina",
+        "effect": "Aumenta el riesgo de nefrotoxicidad.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Relajantes musculares despolarizantes (Succinilcolina) y no despolarizantes",
+        "effect": "La tobramicina puede potenciar el bloqueo neuromuscular, aumentando el riesgo de parálisis respiratoria.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Penicilinas de amplio espectro (Carbenicilina, Ticarcilina)",
+        "effect": "Pueden inactivar a la tobramicina si se mezclan en la misma jeringa o bolsa de infusión intravenosa. Deben administrarse por separado.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Ciclosporina, Tacrolimus",
+        "effect": "Aumentan el riesgo de nefrotoxicidad.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "No hay interacciones significativas con alimentos. Sin embargo, una hidratación adecuada es crucial para reducir el riesgo de daño renal. Se debe evitar el consumo de alcohol, ya que puede favorecer la deshidratación.",
+    "withSupplements": "Evitar suplementos que contengan magnesio por vía intravenosa, ya que pueden potenciar el bloqueo neuromuscular. Los suplementos de calcio pueden antagonizar este efecto. Los suplementos de hierbas con potencial nefrotóxico (como la aristoloquia) deben evitarse."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "D",
+      "recommendation": "La tobramicina atraviesa la placenta y puede causar toxicidad en el feto, incluyendo daño al octavo par craneal (auditivo). Su uso durante el embarazo solo está justificado si el beneficio para la madre supera claramente el riesgo potencial para el feto, generalmente en infecciones graves que amenazan la vida. Se debe realizar monitoreo de niveles séricos maternos.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La tobramicina se excreta en la leche materna en cantidades muy bajas (menos del 1% de la dosis materna). La absorción oral por el lactante es mínima, por lo que se considera compatible con la lactancia, aunque se recomienda precaución y monitoreo del bebé por posibles efectos como alteración de la flora intestinal. En casos de tratamiento prolongado o dosis altas, se puede considerar suspender la lactancia temporalmente.",
+    "pediatric": "Se puede usar en recién nacidos, lactantes y niños para infecciones graves. La dosificación debe ser precisa según el peso corporal. Los recién nacidos prematuros y de término tienen una función renal inmadura, lo que prolonga la vida media del medicamento, requiriendo ajustes en el intervalo de dosificación. El monitoreo de niveles séricos es esencial. La forma inhalada está aprobada para niños a partir de los 6 años con fibrosis quística.",
+    "geriatric": "Los pacientes mayores tienen mayor probabilidad de tener función renal disminuida, pérdida auditiva relacionada con la edad y volumen de distribución alterado. La dosis debe calcularse con base en el peso corporal ajustado y la TFG. Se debe iniciar con dosis más bajas y realizar un monitoreo estrecho de la función renal, niveles séricos y signos de toxicidad vestibular (mareos, inestabilidad)."
+  },
+  "administration": {
+    "howToTake": "INYECTABLE (IV/IM): Solo personal médico capacitado debe administrarlo. La vía intravenosa es la más común, administrada en una infusión lenta (30-60 minutos para una dosis única diaria, o 30 minutos para dosis divididas) diluida en solución salina o glucosada. Nunca se debe inyectar en bolo rápido. La vía intramuscular es una alternativa cuando la vía IV no está disponible. INHALADA: Para fibrosis quística. Usar con un nebulizador compresor o de malla vibratoria. Inhalar la dosis completa (generalmente un vial de 300 mg) durante 10-15 minutos. Enjuagar la boca después para prevenir candidiasis oral. ÓTICA/ OFTÁLMICA: Aplicar la cantidad indicada directamente en el oído u ojo, evitando que la punta del aplicador toque la superficie para no contaminarlo.",
+    "storage": "Las formas inyectables (viales/ampollas) deben almacenarse a temperatura ambiente (15-30°C), protegidas de la luz. Una vez reconstituido o diluido, el producto es estable por 24 horas a temperatura ambiente o 96 horas refrigerado (2-8°C), dependiendo del diluyente. Las soluciones para inhalación, gotas y ungüentos deben almacenarse según las instrucciones del empaque, generalmente a temperatura ambiente. No congelar.",
+    "specialInstructions": "La hidratación del paciente es crucial; se debe mantener una ingesta adecuada de líquidos para promover la excreción renal y reducir el riesgo de nefrotoxicidad. Los niveles séricos de tobramicina (pico y valle) DEBEN monitorearse regularmente, especialmente en tratamientos prolongados (>5 días), en pacientes con función renal variable, o en regímenes de dosis única diaria. Nunca mezclar con otros medicamentos en la misma jeringa o bolsa de infusión, especialmente con penicilinas o heparina."
+  },
+  "monitoring": {
+    "labTests": [
+      "Creatinina sérica y cálculo de TFG (diario o cada 48-72 horas).",
+      "Nitrógeno ureico en sangre (BUN).",
+      "Electrolitos séricos (sodio, potasio, magnesio, calcio).",
+      "Niveles séricos de tobramicina (pico y valle).",
+      "Análisis de orina (para detectar proteinuria, cilindros).",
+      "Audiometría (prueba de audición) basal y periódica si el tratamiento es prolongado."
+    ],
+    "frequency": "Función renal (creatinina): Al inicio y cada 2-3 días durante el tratamiento. Niveles séricos de tobramicina: Después de la 3ra o 4ta dosis en estado estable, y luego semanalmente o según cambios en la función renal. En DSD, se mide un nivel aleatorio 6-14 horas después de la infusión. Audiometría: Al inicio y periódicamente en tratamientos >14 días.",
+    "signsToWatch": [
+      "Disminución en la producción de orina (oliguria).",
+      "Zumbido en los oídos (tinnitus), sensación de oídos tapados.",
+      "Mareo, vértigo, pérdida del equilibrio, dificultad para caminar en la oscuridad.",
+      "Pérdida de audición (pedir que repitan palabras, subir el volumen).",
+      "Debilidad muscular generalizada o dificultad para respirar.",
+      "Erupción cutánea o picazón."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Pérdida auditiva severa o sordera.",
+      "Vértigo incapacitante, náuseas y vómitos intensos.",
+      "Insuficiencia renal aguda (anuria, elevación marcada de creatinina).",
+      "Parálisis muscular, incluyendo parálisis de los músculos respiratorios (dificultad para respirar, apnea).",
+      "Convulsiones."
+    ],
+    "treatment": "Suspender el medicamento inmediatamente. Medidas de soporte: Mantener vía aérea y ventilación si hay parálisis neuromuscular (puede requerir ventilación mecánica). Hemodiálisis o diálisis peritoneal: Son MUY EFECTIVAS para eliminar la tobramicina de la sangre y deben considerarse en casos de sobredosis grave, especialmente si hay insuficiencia renal. La hidratación forzada con diuréticos puede ayudar, pero con precaución. El calcio intravenoso puede revertir el bloqueo neuromuscular.",
+    "antidote": "No existe un antídoto específico. El calcio intravenoso (gluconato o cloruro de calcio) puede antagonizar el bloqueo neuromuscular."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica expedida por médico cirujano. Es un medicamento de uso hospitalario principalmente.",
+    "scheduleMexico": "Medicamento sujeto a control sanitario (lista de medicamentos esenciales). No es un psicotrópico ni estupefaciente.",
+    "fdaApprovalYear": "Aprobado por la FDA en 1975."
+  },
+  "brandsMexico": [
+    "Tobramicina",
+    "Nebcin",
+    "Tobrex",
+    "Tobi",
+    "Tobramax",
+    "Tobradistin",
+    "Obracin",
+    "Tobrasol",
+    "Tobramicina Genfar",
+    "Tobramicina PiSA",
+    "Tobramicina Liomont",
+    "Tobramicina Sophia",
+    "Brulamycin",
+    "Dosatob",
+    "Tobramicina inhalación (varios genéricos)"
+  ],
+  "clinicalPearls": [
+    "La tobramicina exhibe un efecto post-antibióico prolongado, lo que fundamenta el uso de regímenes de dosis única diaria (DSD). Este esquema puede ser igual de efectivo, menos nefrotóxico y más fácil de administrar que las dosis múltiples.",
+    "La ototoxicidad por tobramicina suele ser irreversible. La vestibular (mareos) puede ser temporal, pero la coclear (pérdida de audición) es permanente. Los pacientes mayores y aquellos con daño renal previo son los más susceptibles.",
+    "En la fibrosis quística, la tobramicina inhalada es el tratamiento de referencia para la colonización crónica por Pseudomonas. Logra concentraciones pulmonares muy altas con efectos sistémicos mínimos, mejorando la función pulmonar y reduciendo las exacerbaciones."
+  ],
+  "patientCounseling": "La tobramicina es un antibiótico muy fuerte que se usa para infecciones graves, generalmente en el hospital. Es fundamental que informe a su médico si tiene problemas de los riñones, mareos o zumbido en los oídos, o si está embarazada o amamantando. Durante el tratamiento, beba abundante agua para proteger sus riñones. Esté muy atento a señales de alarma: si deja de orinar o orina mucho menos, si escucha un zumbido constante en los oídos, si se marea o pierde el equilibrio, o si siente que está perdiendo el oído (pide que le repitan las palabras). Nunca se automedique ni ajuste la dosis por su cuenta. Complete todo el tratamiento indicado, incluso si se siente mejor, para evitar que la infección regrese. Si usa la forma inhalada para fibrosis quística, enjuáguese la boca con agua después de cada aplicación para evitar hongos (algodoncillo).",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre",
+        "slug": "fiebre"
+      },
+      {
+        "name": "Dificultad para respirar",
+        "slug": "dificultad-para-respirar"
+      },
+      {
+        "name": "Dolor al orinar",
+        "slug": "dolor-al-orinar"
+      },
+      {
+        "name": "Tos con flemas",
+        "slug": "tos-con-flemas"
+      },
+      {
+        "name": "Dolor abdominal intenso",
+        "slug": "dolor-abdominal-intenso"
+      },
+      {
+        "name": "Confusión o somnolencia extrema",
+        "slug": "confusion-o-somnolencia-extrema"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Sepsis",
+        "slug": "sepsis"
+      },
+      {
+        "name": "Neumonía nosocomial",
+        "slug": "neumonia-nosocomial"
+      },
+      {
+        "name": "Fibrosis quística con infección pulmonar",
+        "slug": "fibrosis-quistica-con-infeccion-pulmonar"
+      },
+      {
+        "name": "Pielonefritis (infección del riñón)",
+        "slug": "pielonefritis"
+      },
+      {
+        "name": "Meningitis bacteriana",
+        "slug": "meningitis-bacteriana"
+      },
+      {
+        "name": "Peritonitis",
+        "slug": "peritonitis"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Insuficiencia renal aguda",
+        "slug": "insuficiencia-renal-aguda"
+      },
+      {
+        "name": "Hipoacusia neurosensorial",
+        "slug": "hipoacusia-neurosensorial"
+      },
+      {
+        "name": "Vértigo",
+        "slug": "vertigo"
+      },
+      {
+        "name": "Bloqueo neuromuscular",
+        "slug": "bloqueo-neuromuscular"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Nitrógeno ureico (BUN)",
+        "slug": "nitrogeno-ureico-bun",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Magnesio sérico",
+        "slug": "magnesio-serico",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Calcio sérico",
+        "slug": "calcio-serico",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Proteinuria en orina",
+        "slug": "proteinuria-en-orina",
+        "effect": "Puede elevar"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Creatinina sérica y cálculo de TFG",
+        "slug": "creatinina-serica-y-calculo-de-tfg",
+        "reason": "Monitoreo esencial de la función renal para prevenir nefrotoxicidad."
+      },
+      {
+        "name": "Niveles séricos de tobramicina (pico y valle)",
+        "slug": "niveles-sericos-de-aminoglucosidos",
+        "reason": "Para asegurar niveles terapéuticos y evitar niveles tóxicos."
+      },
+      {
+        "name": "Audiometría",
+        "slug": "audiometria",
+        "reason": "Para detectar ototoxicidad temprana, especialmente en tratamientos prolongados."
+      },
+      {
+        "name": "Electrolitos séricos",
+        "slug": "electrolitos-sericos",
+        "reason": "Para detectar desequilibrios como hipomagnesemia o hipocalcemia."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve la tobramicina?",
+      "a": "La tobramicina es un antibiótico muy fuerte que se usa para tratar infecciones graves causadas por bacterias, especialmente en los pulmones (como en fibrosis quística), en la sangre (sepsis), en los riñones, en el abdomen o en las membranas del cerebro. Se usa cuando otros antibióticos más suaves no funcionan."
+    },
+    {
+      "q": "¿La tobramicina es inyectable o hay pastillas?",
+      "a": "Principalmente es inyectable (en la vena o en el músculo) porque por la boca no se absorbe. También existe en forma de solución para inhalar con un nebulizador (para problemas pulmonares) y en gotas para los ojos y oídos."
+    },
+    {
+      "q": "¿Cuáles son los efectos secundarios más comunes?",
+      "a": "Los más importantes y de los que hay que estar alerta son: Daño a los riñones (se nota si orina menos), daño al oído (zumbidos, mareo o pérdida de la audición) y, en raros casos, debilidad muscular extrema. También puede causar náuseas, fiebre o salpullido."
+    },
+    {
+      "q": "¿Puedo tomar tobramicina si soy alérgico a la penicilina?",
+      "a": "Sí, generalmente no hay problema. La tobramicina pertenece a una familia de antibióticos completamente diferente (aminoglucósidos). Sin embargo, siempre debe informar TODAS sus alergias a medicamentos a su médico antes de recibir cualquier tratamiento."
+    },
+    {
+      "q": "¿La tobramicina se puede usar en niños?",
+      "a": "Sí, se puede usar en niños e incluso en recién nacidos para infecciones graves, pero la dosis se calcula con mucho cuidado según el peso del niño. La forma inhalada para fibrosis quística está aprobada para niños mayores de 6 años."
+    },
+    {
+      "q": "¿Qué debo hacer si olvido una dosis de tobramicina inhalada?",
+      "a": "Si se acerca la hora de su siguiente dosis, omita la que olvidó y continúe con su horario normal. NUNCA duplique la dosis para compensar la olvidada. Si tiene dudas, consulte a su médico o farmacéutico."
+    },
+    {
+      "q": "¿La tobramicina afecta los riñones?",
+      "a": "Sí, la tobramicina puede causar daño a los riñones (nefrotoxicidad), especialmente si se usa por mucho tiempo, en dosis altas, o si la persona ya tiene problemas renales. Por eso los médicos monitorean la función renal con análisis de sangre durante el tratamiento."
+    },
+    {
+      "q": "¿Puedo beber alcohol mientras me inyectan tobramicina?",
+      "a": "No es recomendable. El alcohol puede deshidratarlo, lo que aumenta el riesgo de daño renal por el medicamento. Además, su cuerpo está combatiendo una infección grave, por lo que lo mejor es evitar el alcohol."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto la tobramicina?",
+      "a": "Comienza a actuar rápidamente. Los niveles en la sangre son máximos aproximadamente media hora después de terminar la infusión intravenosa. Sin embargo, la mejoría de los síntomas de la infección puede tardar 48-72 horas."
+    },
+    {
+      "q": "¿La tobramicina sirve para la gripe o el COVID-19?",
+      "a": "NO. La tobramicina solo mata bacterias. La gripe y el COVID-19 son causados por virus, contra los cuales este antibiótico es completamente inútil. Usarlo para estas enfermedades es incorrecto y peligroso."
+    },
+    {
+      "q": "¿Qué pasa si me aplico demasiada tobramicina (sobredosis)?",
+      "a": "Una sobredosis puede causar daño severo e irreversible en los oídos (sordera), vértigo intenso, falla renal grave y hasta parálisis muscular que dificulte la respiración. Es una emergencia médica que requiere hospitalización inmediata, posiblemente diálisis."
+    },
+    {
+      "q": "¿Necesito hacerme estudios de sangre durante el tratamiento?",
+      "a": "SÍ, ES MUY IMPORTANTE. Su médico le pedirá análisis de sangre frecuentes para medir la creatinina (función renal) y, en muchos casos, para medir los niveles del medicamento en la sangre (niveles de pico y valle). Esto asegura que la dosis sea efectiva y no tóxica."
+    },
+    {
+      "q": "¿Puedo usar gotas óticas de tobramicina si me duele el oído?",
+      "a": "Solo si su médico se lo receta específicamente para una infección de oído externo diagnosticada. No use gotas sobrantes de otra persona o para otro propósito. Si el tímpano está perforado, algunas gotas pueden ser dañinas."
+    },
+    {
+      "q": "¿La tobramicina inhalada (como Tobi) causa los mismos efectos secundarios que la inyectada?",
+      "a": "No, son mucho menos frecuentes y graves. Como se inhala, la mayor parte del medicamento se queda en los pulmones. Puede causar ronquera, tos o sibilancias. El riesgo de daño renal o del oído es muy bajo, pero no inexistente, por la pequeña fracción que se absorbe."
+    },
+    {
+      "q": "¿Qué interacciones peligrosas tiene la tobramicina con otros medicamentos?",
+      "a": "Es muy peligrosa si se combina con: Diuréticos como la furosemida (aumenta daño al oído), otros antibióticos como la vancomicina (aumenta daño al riñón), o relajantes musculares (puede causar parálisis respiratoria). Informe a su médico TODOS los medicamentos que toma."
+    },
+    {
+      "q": "¿Por qué a veces dan una sola dosis grande al día en lugar de varias pequeñas?",
+      "a": "Es un esquema llamado 'dosis única diaria' (DSD). Se basa en que la tobramicina tiene un efecto prolongado después de que su nivel en sangre baja. Este método puede ser igual de efectivo para matar bacterias, a veces menos tóxico para el riñón, y más fácil de administrar."
+    },
+    {
+      "q": "¿La tobramicina es segura durante el embarazo?",
+      "a": "Categoría D. No es segura de rutina. Atraviesa la placenta y puede dañar el oído del bebé en formación. Solo se usa en embarazadas si la infección de la madre es tan grave que pone en riesgo su vida y no hay alternativas más seguras."
+    },
+    {
+      "q": "¿Qué significa 'nivel valle' y 'nivel pico' de tobramicina?",
+      "a": "Son análisis de sangre para medir la cantidad de medicamento en su cuerpo. El 'nivel pico' (30 min después de la infusión) asegura que la dosis es suficiente para matar bacterias. El 'nivel valle' (justo antes de la siguiente dosis) asegura que no se está acumulando a niveles tóxicos."
+    },
+    {
+      "q": "¿La tobramicina es útil contra bacterias resistentes?",
+      "a": "Sí, es un arma importante contra bacterias Gram-negativas que son resistentes a muchos otros antibióticos, como Pseudomonas aeruginosa y algunas Enterobacterias. Sin embargo, también puede surgir resistencia a la propia tobramicina si se usa de forma incorrecta."
+    },
+    {
+      "q": "¿Cuál es el mecanismo por el cual la tobramicina causa ototoxicidad irreversible?",
+      "a": "La tobramicina se acumula en los fluidos del oído interno y es captada por las células ciliadas sensoriales de la cóclea (audición) y el vestíbulo (equilibrio). Daña estas células de forma irreversible al interferir con la producción de energía (mitocondrias) y provocar estrés oxidativo y muerte celular (apoptosis). La pérdida de estas células no se regenera, causando sordera o vértigo permanente."
+    }
+  ]
+}

@@ -1,0 +1,405 @@
+{
+  "name": "Exenatide",
+  "summary": "Exenatide es un medicamento inyectable que se usa para tratar la diabetes tipo 2 en adultos. Pertenece a una clase de medicamentos llamados agonistas del receptor GLP-1, que actúan como una hormona natural del cuerpo (incretina) para ayudar a controlar los niveles de azúcar en la sangre. Su importancia clínica radica en que no solo ayuda a reducir la glucosa, sino que también puede promover la pérdida de peso moderada, reducir el riesgo de eventos cardiovasculares mayores en pacientes con enfermedad cardiovascular establecida y tiene un bajo riesgo de causar hipoglucemia (azúcar baja) cuando se usa sin otros medicamentos como la insulina o las sulfonilureas. Es una herramienta valiosa en el manejo de la diabetes, especialmente cuando los cambios en el estilo de vida y otros medicamentos orales no son suficientes para lograr un control glucémico adecuado. Se administra mediante inyección subcutánea (debajo de la piel) una o dos veces al día, o en una formulación de liberación prolongada una vez por semana, ofreciendo flexibilidad en el tratamiento.",
+  "pharmacology": {
+    "mechanismOfAction": "Exenatide es un análogo sintético del péptido similar al glucagón-1 (GLP-1), una hormona incretina natural. Actúa como un agonista del receptor GLP-1 en las células beta del páncreas. Este mecanismo estimula la liberación de insulina de manera dependiente de la glucosa, es decir, solo cuando los niveles de azúcar en sangre están elevados, lo que minimiza el riesgo de hipoglucemia. Simultáneamente, suprime la secreción inapropiada de glucagón (una hormona que eleva la glucosa) después de las comidas. Además, retrasa el vaciamiento gástrico, lo que contribuye a una sensación de saciedad y reduce la ingesta de alimentos. También tiene efectos a nivel del sistema nervioso central para promover la saciedad. En conjunto, estos efectos conducen a un mejor control glucémico y, a menudo, a la pérdida de peso.",
+    "pharmacologicClass": "Análogo del péptido similar al glucagón-1 (GLP-1), agonista del receptor GLP-1.",
+    "therapeuticClass": "Antidiabético, hipoglucemiante, agonista de incretinas.",
+    "absorption": "Después de una inyección subcutánea en el abdomen, el muslo o el brazo, la biodisponibilidad absoluta de la formulación inmediata (dos veces al día) es del 65-75%. La concentración máxima en plasma (Cmax) se alcanza en aproximadamente 2.1 horas. La formulación de liberación prolongada (una vez por semana) utiliza microesferas de liberación controlada, lo que resulta en una concentración plasmática constante después de 6 a 8 semanas de uso continuo.",
+    "distribution": "El volumen de distribución después de una dosis intravenosa es de aproximadamente 28.3 litros. No se une significativamente a proteínas plasmáticas (<1%). Se distribuye ampliamente en los fluidos corporales.",
+    "metabolism": "Exenatide no es metabolizado por el sistema del citocromo P450 (CYP450). Se metaboliza principalmente por desglose proteolítico a nivel sistémico, seguido de eliminación renal. Su perfil de metabolismo lo hace menos susceptible a interacciones farmacocinéticas con otros medicamentos.",
+    "elimination": "La vida media terminal de la formulación inmediata es de aproximadamente 2.4 horas. Se elimina principalmente por filtración glomerular y degradación proteolítica, con una depuración sistémica de aproximadamente 9.1 L/h. La formulación semanal tiene una cinética compleja debido a su liberación sostenida.",
+    "onsetOfAction": "El inicio de la acción hipoglucemiante ocurre poco después de la inyección, con efectos sobre la glucosa postprandial notables dentro de la primera hora. Los efectos completos sobre la hemoglobina glucosilada (HbA1c) pueden tardar varias semanas en manifestarse.",
+    "durationOfAction": "Para la formulación dos veces al día, la duración del efecto es de aproximadamente 10-12 horas, cubriendo las comidas principales. La formulación semanal mantiene concentraciones terapéuticas constantes durante 7 días, proporcionando un control glucémico continuo."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento de la diabetes mellitus tipo 2 en adultos, como terapia adjunta a la dieta y el ejercicio, para mejorar el control glucémico.",
+      "Reducción del riesgo de eventos cardiovasculares mayores (como infarto de miocardio, accidente cerebrovascular o muerte cardiovascular) en pacientes adultos con diabetes tipo 2 y enfermedad cardiovascular establecida (indicación específica para la formulación semanal)."
+    ],
+    "offLabel": [
+      "Ayuda en la pérdida de peso en pacientes con obesidad (uso no aprobado pero estudiado).",
+      "Manejo de la diabetes tipo 2 en adolescentes (en investigación).",
+      "Posible beneficio en la enfermedad de hígado graso no alcohólico (EHGNA)."
+    ]
+  },
+  "dosage": {
+    "adults": "Formulación inmediata (Byetta®): Iniciar con 5 mcg por inyección subcutánea dos veces al día, dentro de los 60 minutos antes de las comidas principales (desayuno y cena). Después de al menos 1 mes, la dosis puede aumentarse a 10 mcg dos veces al día si es tolerado. Formulación de liberación prolongada (Bydureon®): 2 mg por inyección subcutánea una vez cada 7 días (semanal), en cualquier momento del día, con o sin alimentos.",
+    "pediatric": "La seguridad y eficacia en pacientes pediátricos no están establecidas. No se recomienda su uso en niños.",
+    "elderly": "No se requiere ajuste de dosis basado únicamente en la edad. Sin embargo, se debe tener precaución debido a la mayor probabilidad de disminución de la función renal.",
+    "renalImpairment": "TFG ≥50 mL/min: No se requiere ajuste. TFG 30-50 mL/min: Uso con precaución; iniciar con 5 mcg dos veces al día y monitorear. Si se tolera, puede aumentar a 10 mcg. TFG <30 mL/min o diálisis: CONTRAINDICADO para la formulación inmediata. Para la formulación semanal, no se recomienda su uso.",
+    "hepaticImpairment": "No se requiere ajuste de dosis en insuficiencia hepática leve a moderada. No hay datos en insuficiencia hepática grave; usar con precaución.",
+    "maxDose": "Formulación inmediata: 10 mcg dos veces al día (20 mcg/día). Formulación semanal: 2 mg una vez cada 7 días."
+  },
+  "dosageForms": [
+    {
+      "form": "Pluma precargada (pen)",
+      "strengths": [
+        "5 mcg/dosis",
+        "10 mcg/dosis"
+      ],
+      "route": "Subcutánea"
+    },
+    {
+      "form": "Polvo liofilizado y diluyente para suspensión inyectable",
+      "strengths": [
+        "2 mg"
+      ],
+      "route": "Subcutánea"
+    },
+    {
+      "form": "Pluma precargada autoinyectable",
+      "strengths": [
+        "2 mg"
+      ],
+      "route": "Subcutánea"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad (alergia) a exenatide o a cualquier componente de la formulación.",
+      "Pacientes con antecedentes personales o familiares de carcinoma medular de tiroides (CMT).",
+      "Pacientes con Síndrome de Neoplasia Endocrina Múltiple tipo 2 (MEN 2).",
+      "Insuficiencia renal grave (TFG <30 mL/min) o pacientes en diálisis (para la formulación inmediata)."
+    ],
+    "relative": [
+      "Pancreatitis aguda o crónica.",
+      "Enfermedad gastrointestinal grave (gastroparesia severa).",
+      "Insuficiencia renal moderada (TFG 30-50 mL/min).",
+      "Historial de alcoholismo."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Náuseas (muy frecuentes, especialmente al inicio)",
+      "Dolor de cabeza",
+      "Mareo",
+      "Hipoglucemia (cuando se combina con sulfonilureas o insulina)"
+    ],
+    "common": [
+      "Vómito",
+      "Diarrea",
+      "Estreñimiento",
+      "Dolor abdominal",
+      "Dispepsia (indigestión)",
+      "Disminución del apetito",
+      "Reacción en el sitio de inyección (enrojecimiento, picazón)",
+      "Sensación de debilidad"
+    ],
+    "uncommon": [
+      "Gastroparesia (vaciamiento gástrico lento)",
+      "Erupciones cutáneas",
+      "Aumento de la sudoración",
+      "Acidez estomacal (pirosis)",
+      "Pancreatitis aguda"
+    ],
+    "rare": [
+      "Necrosis grasa (lipodistrofia) en el sitio de inyección",
+      "Reacciones alérgicas graves (anafilaxia)",
+      "Insuficiencia renal aguda (a menudo asociada a náuseas, vómitos y deshidratación)",
+      "Formación de anticuerpos (puede reducir el efecto en algunos pacientes)"
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Sulfonilureas (glibenclamida, glimepirida)",
+        "effect": "Aumenta el riesgo de hipoglucemia. Puede requerirse reducir la dosis de la sulfonilurea.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Insulina",
+        "effect": "Aumenta el riesgo de hipoglucemia. Se requiere un ajuste cuidadoso de la dosis de insulina y monitoreo frecuente de glucosa.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Warfarina",
+        "effect": "Se han reportado casos de aumento del INR (riesgo de sangrado) con el uso concurrente. Se requiere monitoreo frecuente del INR.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Digoxina",
+        "effect": "Exenatide puede retrasar la absorción de digoxina, reduciendo ligeramente su concentración máxima. Se recomienda administrar digoxina al menos 1 hora antes de exenatide.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Debe inyectarse dentro de los 60 minutos ANTES de las comidas principales (desayuno y cena) para la formulación dos veces al día. Si se inyecta después de comer, su efecto para controlar el azúcar posterior a la comida será menor. La formulación semanal puede administrarse con o sin alimentos. El consumo de alcohol puede aumentar el riesgo de hipoglucemia.",
+    "withSupplements": "Los suplementos que pueden bajar el azúcar en sangre, como el cromo, el melón amargo (karela), la canela o el ginseng, podrían potenciar el efecto de exenatide y aumentar el riesgo de hipoglucemia. Consulte a su médico antes de tomarlos."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "C",
+      "recommendation": "No hay estudios adecuados en mujeres embarazadas. Exenatide solo debe usarse durante el embarazo si el beneficio potencial justifica el riesgo potencial para el feto. En general, se prefiere la insulina para el control de la diabetes durante el embarazo debido a su larga historia de seguridad.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "No se sabe si exenatide se excreta en la leche humana. Debido al potencial de efectos adversos graves en el lactante, se debe decidir entre suspender la lactancia o suspender el medicamento, considerando la importancia del tratamiento para la madre.",
+    "pediatric": "La seguridad y eficacia en pacientes menores de 18 años no han sido establecidas. No se recomienda su uso en niños o adolescentes.",
+    "geriatric": "Los pacientes de edad avanzada (≥65 años) pueden tener una función renal disminuida. Es esencial evaluar la función renal (TFG) antes de iniciar el tratamiento y periódicamente. No se requiere ajuste de dosis solo por edad, pero se debe iniciar con la dosis más baja y monitorear de cerca los efectos gastrointestinales y la función renal."
+  },
+  "administration": {
+    "howToTake": "1. Lávese las manos. 2. Elija un sitio de inyección: abdomen (al menos 5 cm del ombligo), muslo o parte posterior del brazo. Rote los sitios para evitar irritación. 3. Para la pluma precargada: retire la tapa, limpie el sitio con alcohol, coloque la aguja, seleccione la dosis, pellizque la piel e inyecte presionando el botón. Mantenga presionado durante 10 segundos. 4. Para la formulación semanal: siga las instrucciones de mezcla exactamente. Agite bien el vial antes de usar. La suspensión final debe ser opaca y lechosa. Inyecte inmediatamente después de prepararla. 5. Deseche la aguja usada en un contenedor para objetos punzocortantes.",
+    "storage": "Formulación inmediata (pluma sin usar): Refrigerar a 2-8°C. NO congelar. Pluma en uso: Puede guardarse a temperatura ambiente (hasta 25°C) por hasta 30 días. Proteger de la luz y el calor directo. Formulación semanal (polvo y diluyente sin mezclar): Refrigerar a 2-8°C. Una vez mezclada, debe usarse inmediatamente. No almacenar la suspensión mezclada.",
+    "specialInstructions": "NUNCA comparta plumas o agujas con otra persona. Si olvida una dosis de la formulación diaria, omita esa dosis y tome la siguiente a la hora habitual. NO duplique la dosis. Si olvida una dosis de la formulación semanal, inyéctela tan pronto como lo recuerde, siempre que el próximo día programado esté al menos a 3 días de distancia. Luego, reanude su día habitual de la semana. Si faltan menos de 3 días, omita la dosis olvidada y tome la siguiente en su día habitual."
+  },
+  "monitoring": {
+    "labTests": [
+      "Hemoglobina Glucosilada (HbA1c) cada 3-6 meses",
+      "Glucosa en sangre capilar (monitoreo en casa)",
+      "Función renal (creatinina sérica, TFG) al inicio y periódicamente",
+      "Pruebas de función hepática (TGP, TGO)",
+      "Niveles de lípidos (colesterol, triglicéridos)",
+      "Amilasa y lipasa séricas (si hay síntomas de pancreatitis)"
+    ],
+    "frequency": "HbA1c: cada 3 meses hasta lograr la meta, luego cada 6 meses. Función renal: al inicio, luego al menos una vez al año, o con mayor frecuencia si hay deterioro. Monitoreo de glucosa en casa: según lo indique el médico, especialmente al inicio del tratamiento o al ajustar dosis.",
+    "signsToWatch": [
+      "Síntomas de hipoglucemia: sudoración, temblor, hambre, palpitaciones, confusión.",
+      "Síntomas de pancreatitis: dolor abdominal intenso y persistente que puede irradiarse a la espalda, con o sin vómito.",
+      "Síntomas de alergia: ronchas, dificultad para respirar, hinchazón de cara/labios/lengua.",
+      "Síntomas de insuficiencia renal: náuseas/vómitos persistentes, disminución del volumen de orina, hinchazón en piernas.",
+      "Bulto o hinchazón en el cuello, ronquera, dificultad para tragar (posibles síntomas de cáncer de tiroides)."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Náuseas y vómitos intensos",
+      "Hipoglucemia severa (confusión, pérdida del conocimiento, convulsiones)",
+      "Deshidratación severa",
+      "Dolor abdominal"
+    ],
+    "treatment": "No existe un antídoto específico. El tratamiento es de soporte y sintomático. En caso de hipoglucemia severa, administrar glucosa intravenosa o glucagón intramuscular. Mantener la hidratación. El tratamiento debe ser supervisado en un entorno médico. La diálisis no es efectiva para eliminar exenatide debido a su alto peso molecular.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Rx).",
+    "scheduleMexico": "Medicamento de patente, sujeto a prescripción médica. No está en la lista de psicotrópicos o estupefacientes.",
+    "fdaApprovalYear": "Formulación inmediata (Byetta®): 2005. Formulación de liberación prolongada (Bydureon®): 2012."
+  },
+  "brandsMexico": [
+    "Byetta",
+    "Bydureon",
+    "Exenta",
+    "Exenapride",
+    "Glucagen"
+  ],
+  "clinicalPearls": [
+    "El efecto de pérdida de peso con exenatide es moderado (promedio de 2-5 kg) y está relacionado con su efecto de saciedad y retraso del vaciamiento gástrico. Es más pronunciado en pacientes con mayor IMC al inicio.",
+    "Las náuseas son el efecto adverso más limitante, pero suelen ser transitorias y mejorar después de 4-8 semanas de tratamiento continuo. Iniciar con la dosis baja (5 mcg) y aumentar gradualmente mejora la tolerabilidad.",
+    "Exenatide tiene un beneficio cardiovascular demostrado (reducción de eventos MACE) en su formulación semanal, lo que lo posiciona como una opción preferente en pacientes con diabetes tipo 2 y enfermedad cardiovascular establecida."
+  ],
+  "patientCounseling": "Exenatide es una herramienta poderosa para controlar su diabetes, pero requiere su compromiso. Debe inyectárselo exactamente como su médico le indicó, ya sea antes de las comidas (formulación diaria) o el mismo día cada semana (formulación semanal). Las náuseas son comunes al principio; comer porciones más pequeñas y evitar alimentos grasosos puede ayudar. Es CRUCIAL que aprenda a reconocer los síntomas de azúcar baja (hipoglucemia), como sudoración y temblores, especialmente si también toma pastillas como glibenclamida o insulina. Lleve siempre una identificación de diabético. Nunca comparta su pluma inyectora. Monitoree su azúcar en casa según las indicaciones y asista a todas sus citas de control para revisar su función renal y su HbA1c. Si presenta dolor abdominal intenso que no se quita, busque atención médica de inmediato. Recuerde que este medicamento complementa, pero NO reemplaza, una dieta saludable y la actividad física regular.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Sed excesiva (polidipsia)",
+        "slug": "sed-excesiva"
+      },
+      {
+        "name": "Orina frecuente (poliuria)",
+        "slug": "orina-frecuente"
+      },
+      {
+        "name": "Hambre constante",
+        "slug": "hambre-constante"
+      },
+      {
+        "name": "Fatiga o cansancio",
+        "slug": "fatiga-cansancio"
+      },
+      {
+        "name": "Visión borrosa",
+        "slug": "vision-borrosa"
+      },
+      {
+        "name": "Pérdida de peso no intencional",
+        "slug": "perdida-de-peso-no-intencional"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Diabetes Mellitus Tipo 2",
+        "slug": "diabetes-mellitus-tipo-2"
+      },
+      {
+        "name": "Enfermedad Cardiovascular Aterosclerótica",
+        "slug": "enfermedad-cardiovascular-aterosclerotica"
+      },
+      {
+        "name": "Síndrome Metabólico",
+        "slug": "sindrome-metabolico"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Pancreatitis Aguda",
+        "slug": "pancreatitis-aguda"
+      },
+      {
+        "name": "Insuficiencia Renal Aguda",
+        "slug": "insuficiencia-renal-aguda"
+      },
+      {
+        "name": "Carcinoma Medular de Tiroides",
+        "slug": "carcinoma-medular-de-tiroides"
+      },
+      {
+        "name": "Hipoglucemia",
+        "slug": "hipoglucemia"
+      },
+      {
+        "name": "Gastroparesia",
+        "slug": "gastroparesia"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Hemoglobina Glucosilada (HbA1c)",
+        "slug": "hemoglobina-glucosilada",
+        "effect": "Disminuye"
+      },
+      {
+        "name": "Glucosa en Ayunas",
+        "slug": "glucosa-en-ayunas",
+        "effect": "Disminuye"
+      },
+      {
+        "name": "Glucosa Postprandial",
+        "slug": "glucosa-postprandial",
+        "effect": "Disminuye"
+      },
+      {
+        "name": "Peso Corporal",
+        "slug": "peso-corporal",
+        "effect": "Disminuye"
+      },
+      {
+        "name": "Amilasa Sérica",
+        "slug": "amilasa-serica",
+        "effect": "Puede elevar (signo de alarma)"
+      },
+      {
+        "name": "Creatinina Sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar (signo de alarma)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Hemoglobina Glucosilada (HbA1c)",
+        "slug": "hemoglobina-glucosilada",
+        "reason": "Para evaluar el control glucémico a largo plazo (3 meses)."
+      },
+      {
+        "name": "Tasa de Filtración Glomerular (TFG)",
+        "slug": "tasa-de-filtracion-glomerular",
+        "reason": "Para evaluar la función renal antes y durante el tratamiento, ya que el fármaco se elimina por el riñón."
+      },
+      {
+        "name": "Amilasa y Lipasa Sérica",
+        "slug": "amilasa-lipasa-serica",
+        "reason": "Para investigar si hay pancreatitis en caso de dolor abdominal severo."
+      },
+      {
+        "name": "Perfil de Lípidos",
+        "slug": "perfil-de-lipidos",
+        "reason": "Para monitorear el colesterol y triglicéridos, ya que la diabetes afecta estos valores."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora IMC",
+        "slug": "calculadora-imc"
+      },
+      {
+        "name": "Aclaramiento Creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora eGFR",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Qué es exenatide y para qué sirve?",
+      "a": "Exenatide es un medicamento inyectable para adultos con diabetes tipo 2. Ayuda a controlar los niveles de azúcar en la sangre, puede ayudar a bajar de peso y reduce el riesgo de problemas del corazón en pacientes que ya los tienen."
+    },
+    {
+      "q": "¿Es una insulina?",
+      "a": "No, no es insulina. Pertenece a una clase diferente de medicamentos llamados 'agonistas de GLP-1'. Actúa de manera similar a una hormona natural de su cuerpo para ayudar a su páncreas a producir insulina solo cuando lo necesita."
+    },
+    {
+      "q": "¿Con qué frecuencia me lo tengo que poner?",
+      "a": "Depende de la presentación. La más común se pone dos veces al día, antes del desayuno y antes de la cena. También existe una presentación que se pone solo UNA VEZ A LA SEMANA."
+    },
+    {
+      "q": "¿Duele la inyección?",
+      "a": "Usa una aguja muy fina y corta. La mayoría de las personas sienten solo un pequeño piquete. Rotar los sitios de inyección (abdomen, muslo, brazo) ayuda a minimizar molestias."
+    },
+    {
+      "q": "¿Me va a dar mucha nausea?",
+      "a": "Las náuseas son comunes, especialmente las primeras semanas, pero suelen mejorar con el tiempo. Para minimizarlas, inicie con la dosis baja, coma porciones más pequeñas y evite alimentos muy grasosos. Si son muy intensas o persistentes, consulte a su médico."
+    },
+    {
+      "q": "¿Puedo usarlo si tengo problemas del riñón?",
+      "a": "Depende de qué tan avanzado esté el problema. Si su función renal es moderadamente baja, se puede usar con precaución y dosis baja. Si es grave o está en diálisis, la presentación diaria está CONTRAINDICADA. Su médico debe revisar sus estudios de riñón antes de empezar."
+    },
+    {
+      "q": "¿Puedo tomarlo si también tomo metformina?",
+      "a": "Sí, es muy común usar exenatide junto con metformina. De hecho, suelen potenciar sus efectos beneficiosos. Su médico le dirá cómo ajustar sus medicamentos."
+    },
+    {
+      "q": "¿Me puede bajar mucho el azúcar (hipoglucemia)?",
+      "a": "Cuando se usa solo o con metformina, el riesgo es bajo. El riesgo aumenta si también toma sulfonilureas (como glibenclamida) o insulina. Es importante aprender a reconocer los síntomas de azúcar baja (sudor, temblor, confusión) y tener a mano azúcar o jugo."
+    },
+    {
+      "q": "¿Ayuda a bajar de peso?",
+      "a": "Sí, muchas personas pierden algo de peso (usualmente entre 2 y 5 kilos) porque el medicamento le da una sensación de saciedad y retrasa la digestión. No es un medicamento para bajar de peso por sí solo, pero es un beneficio adicional."
+    },
+    {
+      "q": "¿Qué hago si se me olvida una dosis?",
+      "a": "Para la presentación DIARIA: Si olvidó una dosis antes de comer, ómitala y póngase la siguiente a su hora habitual. NUNCA se ponga dos dosis para compensar. Para la presentación SEMANAL: Consulte las instrucciones específicas, pero generalmente si la recuerda pronto, puede ponérsela, sino espere hasta su próximo día habitual."
+    },
+    {
+      "q": "¿Puedo beber alcohol mientras uso exenatide?",
+      "a": "Con moderación y precaución. El alcohol puede aumentar el riesgo de hipoglucemia (azúcar baja). Evite el consumo excesivo y nunca beba con el estómago vacío."
+    },
+    {
+      "q": "¿Tiene interacción con otros medicamentos?",
+      "a": "Sí. Principalmente con medicamentos para la diabetes como las sulfonilureas y la insulina (riesgo de azúcar baja). También puede retrasar la absorción de algunos medicamentos como la digoxina. Informe a TODOS sus médicos que está usando exenatide."
+    },
+    {
+      "q": "¿Puedo usarlo si estoy embarazada o planeando embarazarme?",
+      "a": "No se recomienda. La categoría de riesgo en embarazo es C. Si está embarazada o planea estarlo, debe hablar con su médico. Generalmente, la insulina es el tratamiento preferido para la diabetes durante el embarazo."
+    },
+    {
+      "q": "¿Qué efectos secundarios graves debo vigilar?",
+      "a": "Busque atención médica URGENTE si tiene: 1) Dolor abdominal intenso y persistente que se corre a la espalda (señal de pancreatitis). 2) Síntomas de alergia grave (dificultad para respirar, hinchazón de cara). 3) Náuseas y vómitos muy fuertes que no ceden (riesgo de deshidratación y daño renal)."
+    },
+    {
+      "q": "¿Por qué hay una advertencia sobre cáncer de tiroides?",
+      "a": "En estudios con animales, medicamentos de esta clase causaron tumores en la tiroides (carcinoma medular). No se sabe si pasa lo mismo en humanos, pero por precaución, NO debe usarse si usted o su familia tienen antecedentes de este tipo específico de cáncer de tiroides."
+    },
+    {
+      "q": "¿Cómo debo guardar la pluma o el vial?",
+      "a": "Sin usar: en el refrigerador (2-8°C), NO en el congelador. En uso (pluma diaria): puede guardarse a temperatura ambiente (hasta 25°C) por 30 días. Protéjalo del calor y la luz directa. La presentación semanal tiene instrucciones específicas de mezcla y uso inmediato."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Empieza a actuar sobre el azúcar después de las comidas desde la primera dosis. Sin embargo, para ver el efecto completo en su examen de hemoglobina glucosilada (HbA1c), puede tomar de 8 a 12 semanas de uso constante."
+    },
+    {
+      "q": "¿Puedo dejar de tomar mis otros medicamentos para la diabetes cuando empiece exenatide?",
+      "a": "NO. No deje de tomar sus otros medicamentos a menos que su médico se lo indique. Exenatide generalmente se agrega al tratamiento existente. Su médico ajustará las dosis de sus otros medicamentos según sea necesario."
+    },
+    {
+      "q": "¿Es mejor la presentación semanal que la diaria?",
+      "a": "Depende de sus necesidades. La semanal es más conveniente y tiene un beneficio cardiovascular comprobado. La diaria puede ofrecer un control más preciso del azúcar después de las comidas. Su médico le ayudará a decidir cuál es la mejor opción para usted."
+    },
+    {
+      "q": "¿Qué parámetros debo monitorear en casa y con qué frecuencia debo ver al médico?",
+      "a": "En casa: Monitoree su glucosa en sangre según las indicaciones de su médico, especialmente al inicio. Con el médico: Debe revisar su HbA1c cada 3-6 meses, su función renal al menos una vez al año, y su peso y presión arterial regularmente. Reporte cualquier efecto secundario persistente."
+    }
+  ]
+}

@@ -1,0 +1,402 @@
+{
+  "name": "Alcohol Bencílico",
+  "summary": "El Alcohol Bencílico es un anestésico local y antiséptico que se utiliza principalmente para aliviar el dolor y la picazón asociados con diversas afecciones de la piel, como la sarna, los piojos y las hemorroides. Actúa bloqueando temporalmente las señales de dolor en las terminaciones nerviosas de la piel, proporcionando un alivio rápido y localizado. Además de su efecto anestésico, posee propiedades antisépticas, lo que lo hace útil para prevenir infecciones en pequeñas heridas o irritaciones. Es un medicamento de venta libre en México, disponible en diversas presentaciones tópicas, y es importante por su perfil de seguridad cuando se usa según las indicaciones, aunque su uso excesivo o en áreas extensas de la piel puede causar efectos adversos sistémicos, especialmente en poblaciones vulnerables como recién nacidos prematuros. Su importancia clínica radica en ser una opción accesible y efectiva para el manejo sintomático de molestias cutáneas comunes.",
+  "pharmacology": {
+    "mechanismOfAction": "El Alcohol Bencílico actúa como anestésico local al estabilizar la membrana neuronal, bloqueando los canales de sodio voltaje-dependientes. Esto impide la iniciación y propagación del potencial de acción en las fibras nerviosas sensoriales, interrumpiendo así la transmisión de señales de dolor, picazón y otras sensaciones desde la periferia hacia el sistema nervioso central. Su acción es reversible y se limita al sitio de aplicación. Además, posee propiedades antisépticas debido a su capacidad para desnaturalizar proteínas y alterar la permeabilidad de la membrana celular de microorganismos, lo que contribuye a su efecto en el tratamiento de infestaciones como la sarna y los piojos.",
+    "pharmacologicClass": "Anestésico local de tipo éster (derivado del alcohol aromático). Antipruriginoso. Antiséptico tópico.",
+    "therapeuticClass": "Anestésicos locales tópicos. Agentes antiparasitarios y escabicidas.",
+    "absorption": "La absorción a través de la piel intacta es mínima y lenta. Sin embargo, la absorción sistémica puede aumentar significativamente si se aplica sobre piel dañada, inflamada, quemada, o en áreas extensas del cuerpo, especialmente en pacientes pediátricos. La absorción por mucosas (rectal) es mayor que a través de la piel.",
+    "distribution": "Una vez absorbido, se distribuye ampliamente en los tejidos. Su unión a proteínas plasmáticas es baja. El volumen de distribución (Vd) no está bien definido para uso tópico debido a la absorción mínima esperada.",
+    "metabolism": "Se metaboliza principalmente en el hígado mediante oxidación a ácido benzoico, el cual se conjuga posteriormente con glicina para formar ácido hipúrico. Este proceso es rápido y eficiente. No se considera un sustrato significativo de las enzimas del citocromo P450 (CYP).",
+    "elimination": "La vida media de eliminación es corta, aproximadamente de 1 a 2 horas. Los metabolitos (ácido hipúrico y otros) se eliminan principalmente por vía renal (en la orina). La eliminación es casi completa en 24 horas.",
+    "onsetOfAction": "El inicio de la acción anestésica es relativamente rápido, generalmente entre 1 a 5 minutos después de la aplicación tópica.",
+    "durationOfAction": "La duración del efecto anestésico es de corta a moderada, típicamente de 30 minutos a 2 horas, dependiendo de la concentración, el vehículo y el sitio de aplicación."
+  },
+  "indications": {
+    "approved": [
+      "Alivio sintomático del prurito (picazón) asociado a dermatitis, eccema, picaduras de insectos y quemaduras solares leves.",
+      "Tratamiento tópico coadyuvante de la sarna (escabiosis).",
+      "Tratamiento tópico coadyuvante de la pediculosis (infestación por piojos).",
+      "Alivio del dolor y malestar asociado a hemorroides (en formulaciones rectales).",
+      "Como antiséptico tópico para la limpieza de pequeñas heridas y abrasiones."
+    ],
+    "offLabel": [
+      "Alivio del dolor neuropático localizado (como neuralgia postherpética) en formulaciones tópicas.",
+      "Coadyuvante en el manejo del prurito urémico en pacientes con enfermedad renal crónica.",
+      "Como conservante en formulaciones farmacéuticas inyectables y tópicas (en concentraciones muy bajas)."
+    ]
+  },
+  "dosage": {
+    "adults": "Para uso tópico en piel: Aplicar una capa delgada sobre el área afectada 3 a 4 veces al día según sea necesario. Para sarna/piojos: Seguir las instrucciones específicas del producto, generalmente aplicar en todo el cuerpo (excepto cara y cuero cabelludo en adultos) y lavar después de 8-12 horas. Repetir en 7 días si es necesario. Para hemorroides: Aplicar una cantidad suficiente en el área anal externa o insertar supositorio/ungüento rectal hasta 4 veces al día, especialmente después de cada evacuación.",
+    "pediatric": "Niños mayores de 2 años: Similar a adultos, pero con supervisión estricta y evitando aplicación en áreas extensas. Niños menores de 2 años y especialmente recién nacidos: USO CONTRAINDICADO o solo bajo estricta supervisión médica debido al riesgo del 'Síndrome del bebé gris' por absorción sistémica. La dosis debe ser mínima y en área limitada.",
+    "elderly": "No se requieren ajustes de dosis específicos por edad, pero se debe tener precaución debido a la posible disminución de la función renal y hepática, lo que podría retrasar la eliminación si hay absorción sistémica significativa. Aplicar en la menor área posible.",
+    "renalImpairment": "En insuficiencia renal leve a moderada (TFG 30-89 mL/min): Precaución, evitar uso en áreas extensas. En insuficiencia renal severa (TFG <30 mL/min) o en diálisis: EVITAR SU USO debido al riesgo acumulativo de metabolitos y posible toxicidad.",
+    "hepaticImpairment": "En insuficiencia hepática leve a moderada: Usar con precaución y en áreas limitadas. En insuficiencia hepática severa: EVITAR SU USO debido al deterioro del metabolismo y mayor riesgo de efectos sistémicos.",
+    "maxDose": "No se establece una dosis máxima diaria definida para uso tópico debido a la variabilidad en la absorción. El principio es usar la menor cantidad necesaria para cubrir el área afectada y evitar la aplicación repetida en grandes superficies corporales (ej. >10% del área corporal)."
+  },
+  "dosageForms": [
+    {
+      "form": "Crema tópica",
+      "strengths": [
+        "5%",
+        "10%"
+      ],
+      "route": "Tópica"
+    },
+    {
+      "form": "Loción tópica",
+      "strengths": [
+        "5%",
+        "10%"
+      ],
+      "route": "Tópica"
+    },
+    {
+      "form": "Gel tópico",
+      "strengths": [
+        "5%",
+        "10%"
+      ],
+      "route": "Tópica"
+    },
+    {
+      "form": "Ungüento/ Pomada",
+      "strengths": [
+        "5%",
+        "10%"
+      ],
+      "route": "Tópica"
+    },
+    {
+      "form": "Espuma tópica",
+      "strengths": [
+        "5%"
+      ],
+      "route": "Tópica"
+    },
+    {
+      "form": "Supositorio rectal",
+      "strengths": [
+        "5%"
+      ],
+      "route": "Rectal"
+    },
+    {
+      "form": "Ungüento rectal",
+      "strengths": [
+        "5%",
+        "10%"
+      ],
+      "route": "Rectal"
+    },
+    {
+      "form": "Solución tópica",
+      "strengths": [
+        "5%"
+      ],
+      "route": "Tópica"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al Alcohol Bencílico o a cualquier componente de la formulación.",
+      "Uso en recién nacidos prematuros y de bajo peso al nacer (riesgo de Síndrome del bebé gris).",
+      "Aplicación en heridas abiertas, extensas o profundas, o en quemaduras graves.",
+      "Pacientes con insuficiencia renal terminal o hepática grave."
+    ],
+    "relative": [
+      "Niños menores de 2 años (especialmente lactantes).",
+      "Mujeres embarazadas (especialmente en el primer trimestre) y en período de lactancia.",
+      "Pacientes con dermatitis extensa o eczema que cubra gran parte del cuerpo.",
+      "Historial de alergias múltiples a medicamentos."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Ardor, escozor o picazón transitoria en el sitio de aplicación inmediatamente después de ponerlo."
+    ],
+    "common": [
+      "Eritema (enrojecimiento) leve de la piel.",
+      "Sequedad o descamación de la piel en el área tratada.",
+      "Dermatitis de contacto alérgica (enrojecimiento, hinchazón, ampollas)."
+    ],
+    "uncommon": [
+      "Urticaria (ronchas) localizada.",
+      "Sensación de entumecimiento u hormigueo excesivo.",
+      "Irritación rectal (con formulaciones para hemorroides)."
+    ],
+    "rare": [
+      "Reacciones de hipersensibilidad sistémica (angioedema, dificultad para respirar).",
+      "Síntomas de toxicidad sistémica por absorción (mareo, confusión, convulsiones, depresión respiratoria) – más probable en uso excesivo o en bebés.",
+      "Metahemoglobinemia (coloración azulada de piel y mucosas por falta de oxígeno)."
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Sulfonamidas (ej. Sulfametoxazol)",
+        "effect": "El Alcohol Bencílico compite por la unión a proteínas plasmáticas y puede desplazar a las sulfas, aumentando su toxicidad potencial.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Otros anestésicos locales (ej. Lidocaína tópica)",
+        "effect": "Uso concurrente puede aumentar el riesgo de efectos adversos sistémicos por adición de efectos farmacológicos.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Metamizol (Dipirona)",
+        "effect": "Ambos pueden causar metahemoglobinemia; el uso conjunto aumenta este riesgo.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "No se conocen interacciones clínicamente significativas con alimentos. El alcohol etílico (bebidas alcohólicas) no interactúa directamente, pero su consumo excesivo puede potenciar efectos depresores del SNC si hay absorción sistémica significativa del Alcohol Bencílico.",
+    "withSupplements": "No se reportan interacciones significativas con suplementos vitamínicos o herbales comunes. Sin embargo, se debe tener precaución con suplementos que también afecten el sistema nervioso central (ej. Kava, Valeriana) por posible adición de efectos sedantes."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA C",
+      "recommendation": "No se han realizado estudios adecuados en mujeres embarazadas. Su uso solo se acepta si el beneficio potencial justifica el riesgo potencial para el feto. Se debe evitar durante el primer trimestre y usar con extrema precaución, en la menor área corporal posible y por el menor tiempo necesario. No usar en el área perineal cerca del parto.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se desconoce si se excreta en cantidades significativas en la leche materna. Debido al potencial de reacciones adversas graves en lactantes (Síndrome del bebé gris), se recomienda evitar su aplicación en el pecho o en áreas extensas de la madre que puedan estar en contacto con la boca del bebé. Si es necesario, aplicar después de amamantar y lavar bien el área antes de la siguiente toma.",
+    "pediatric": "CONTRAINDICADO en recién nacidos prematuros y de bajo peso. En niños mayores de 2 años, usar solo bajo supervisión médica, en concentraciones bajas (5%), en áreas muy limitadas y por períodos cortos. Nunca aplicar en la cara, boca o áreas con dermatitis del pañal. El riesgo de absorción sistémica y toxicidad es mayor en niños.",
+    "geriatric": "Los adultos mayores pueden tener piel más delgada y frágil, lo que puede aumentar la absorción. Además, es común la disminución de la función renal y hepática. Se debe usar con precaución, aplicando la mínima cantidad necesaria y monitoreando la aparición de efectos adversos locales o sistémicos."
+  },
+  "administration": {
+    "howToTake": "1. Lave y seque suavemente el área afectada. 2. Aplique una capa delgada del producto, frotando suavemente hasta su absorción. 3. Lávese las manos inmediatamente después de la aplicación, a menos que esté tratando las manos. 4. Para sarna/piojos: Aplique desde el cuello hacia abajo en todo el cuerpo, prestando atención a pliegues y entre los dedos. Evite ojos, boca, nariz y genitales. Deje actuar según las instrucciones (usualmente 8-12 horas) y luego báñese completamente. 5. Para hemorroides: Limpie el área anal con agua tibia y séquela con palmaditas. Aplique el ungüento externamente o inserte el supositorio recto en el ano.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (entre 15°C y 30°C). Proteger de la luz directa del sol y del calor excesivo. Mantener fuera del alcance de los niños. No congelar.",
+    "specialInstructions": "NO aplicar sobre ojos, mucosas (boca, nariz, genitales) ni dentro del oído. NO cubrir el área tratada con vendajes oclusivos (plásticos) a menos que lo indique el médico, ya que esto aumenta enormemente la absorción. Si los síntomas empeoran o no mejoran después de 7 días de tratamiento, consulte a su médico. No usar para el alivio del dolor de dientes o encías."
+  },
+  "monitoring": {
+    "labTests": [
+      "No se requieren monitoreos de laboratorio de rutina para uso tópico ocasional en áreas pequeñas.",
+      "En uso prolongado o en áreas extensas: Hemograma completo (para detectar metahemoglobinemia rara).",
+      "Pruebas de función renal (creatinina, BUN) y hepática (transaminasas) en pacientes de riesgo."
+    ],
+    "frequency": "Monitoreo clínico de la respuesta y de la piel en cada aplicación. En tratamientos prolongados (>2 semanas), evaluación médica para decidir continuidad.",
+    "signsToWatch": [
+      "Aparición o empeoramiento de erupción, ampollas, hinchazón o picazón intensa en el área tratada (posible alergia).",
+      "Síntomas sistémicos: mareo, dolor de cabeza, confusión, dificultad para respirar, latidos cardíacos rápidos o irregulares.",
+      "Coloración azulada/grisácea de labios, uñas o piel (signo de metahemoglobinemia).",
+      "Signos de infección en el área tratada (pus, aumento del dolor, calor)."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Síntomas locales: Irritación severa, ampollas, ulceración.",
+      "Síntomas sistémicos (por absorción): Mareo, vértigo, somnolencia, confusión, convulsiones, depresión respiratoria (dificultad para respirar), bradicardia (ritmo cardíaco lento), colapso cardiovascular.",
+      "Metahemoglobinemia: Cianosis (color azul/gris) que no mejora con oxígeno, dolor de cabeza, fatiga, dificultad para respirar."
+    ],
+    "treatment": "1. Retirar el producto lavando abundantemente la piel con agua y jabón suave. 2. Medidas de soporte: Mantener vía aérea, respiración y circulación. Oxigenoterapia. 3. Para convulsiones: Benzodiacepinas (Diazepam). 4. Para metahemoglobinemia sintomática: Administrar Azul de Metileno por vía intravenosa (solo en hospital). 5. No existe antídoto específico; el tratamiento es sintomático y de soporte.",
+    "antidote": "Para metahemoglobinemia: Azul de Metileno. No es un antídoto directo para el Alcohol Bencílico, sino para una de sus complicaciones."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Venta libre (sin receta médica) para la mayoría de las presentaciones tópicas al 5%. Algunas presentaciones al 10% o combinadas con otros fármacos pueden requerir receta.",
+    "scheduleMexico": "No está sujeto a control especial. Se encuentra en la Fracción IV (Medicamentos de libre venta al público) del Cuadro Básico de la COFEPRIS.",
+    "fdaApprovalYear": "Aprobado por la FDA desde hace décadas. Como monodroga tópica, su aprobación data de antes de 1982."
+  },
+  "brandsMexico": [
+    "Benzihex",
+    "Ascabiol",
+    "Ben-Gel",
+    "Benzyl Alcohol Loción",
+    "Benzyl Alcohol Crema Génfar",
+    "Benzyl Alcohol Pomada",
+    "Hemorrilon (combinado con otros ingredientes)",
+    "Prurisedán (combinado)",
+    "Scabisan",
+    "Zaruma"
+  ],
+  "clinicalPearls": [
+    "El 'Síndrome del bebé gris' es una intoxicación grave y potencialmente mortal en recién nacidos, caracterizada por coloración grisácea, vómitos, dificultad respiratoria y colapso cardiovascular. Se asocia al uso de Alcohol Bencílico como conservante en soluciones intravenosas o por absorción tópica masiva. NUNCA debe usarse en prematuros.",
+    "Aunque es efectivo contra la picazón, su uso en dermatitis extensas (como eczema atópico generalizado) puede empeorar la condición debido a su potencial irritante y al riesgo de absorción sistémica. Es mejor reservarlo para áreas pequeñas y localizadas.",
+    "Para el tratamiento de la sarna, el Alcohol Bencílico al 10% es una alternativa a la permetrina o al lindano, pero su eficacia absoluta como escabicida es menor. A menudo se requiere una segunda aplicación a los 7 días y el tratamiento de todos los contactos cercanos."
+  ],
+  "patientCounseling": "Señor paciente, use este medicamento solo en la piel, para aliviar la comezón o el dolor leve. Aplique una capa muy delgada solo donde le molesta, no en áreas grandes del cuerpo. Lávese bien las manos después de usarlo. No lo ponga cerca de los ojos, la boca, ni dentro de la nariz o los oídos. Si lo usa para hemorroides, límpiese bien antes de aplicarlo. Si la piel se pone muy roja, le pica más, se hincha o le salen ampollas, deje de usarlo y consulte a su médico. No lo use por más de 7 días seguidos a menos que su médico se lo indique. Guárdelo en un lugar fresco y seco, fuera del alcance de los niños. Es muy importante que NUNCA use este producto en bebés recién nacidos o prematuros, ya que les puede causar problemas graves de salud. Si está embarazada o amamantando, hable con su médico antes de usarlo.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Prurito (Picazón)",
+        "slug": "prurito-picazon"
+      },
+      {
+        "name": "Dolor cutáneo",
+        "slug": "dolor-cutaneo"
+      },
+      {
+        "name": "Ardor en la piel",
+        "slug": "ardor-en-la-piel"
+      },
+      {
+        "name": "Comezón por hemorroides",
+        "slug": "comezon-por-hemorroides"
+      },
+      {
+        "name": "Malestar por picaduras de insectos",
+        "slug": "malestar-por-picaduras-de-insectos"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Escabiosis (Sarna)",
+        "slug": "escabiosis-sarna"
+      },
+      {
+        "name": "Pediculosis (Piojos)",
+        "slug": "pediculosis-piojos"
+      },
+      {
+        "name": "Hemorroides",
+        "slug": "hemorroides"
+      },
+      {
+        "name": "Dermatitis",
+        "slug": "dermatitis"
+      },
+      {
+        "name": "Quemaduras solares leves",
+        "slug": "quemaduras-solares-leves"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Dermatitis de contacto alérgica",
+        "slug": "dermatitis-de-contacto-alergica"
+      },
+      {
+        "name": "Metahemoglobinemia",
+        "slug": "metahemoglobinemia"
+      },
+      {
+        "name": "Síndrome del bebé gris",
+        "slug": "sindrome-del-bebe-gris"
+      },
+      {
+        "name": "Convulsiones",
+        "slug": "convulsiones"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Metahemoglobina",
+        "slug": "metahemoglobina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Ácido Hipúrico en orina",
+        "slug": "acido-hipurico-en-orina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede alterar (en sobredosis con daño renal)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Biometría Hemática",
+        "slug": "biometria-hematica",
+        "reason": "Para detectar metahemoglobinemia en casos de uso extenso o sospecha de toxicidad."
+      },
+      {
+        "name": "Perfil Renal (Creatinina, BUN)",
+        "slug": "perfil-renal",
+        "reason": "Para evaluar función renal antes de uso prolongado en pacientes de riesgo."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de Aclaramiento de Creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de Dosis Pediátrica por Peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve el Alcohol Bencílico?",
+      "a": "Sirve principalmente para aliviar la picazón y el dolor leve en la piel causados por irritaciones, picaduras, quemaduras solares, hemorroides o infestaciones como la sarna y los piojos. También tiene un efecto antiséptico leve."
+    },
+    {
+      "q": "¿Se puede usar en bebés para la comezón del pañal?",
+      "a": "NO. Está contraindicado en recién nacidos, especialmente prematuros, y se debe usar con mucha precaución en lactantes menores de 2 años. Para la dermatitis del pañal, consulte al pediatra para opciones más seguras."
+    },
+    {
+      "q": "¿Cuántas veces al día me lo puedo aplicar?",
+      "a": "Generalmente se aplica de 3 a 4 veces al día, según sea necesario. Es importante aplicar una capa delgada y no exceder la frecuencia. Si los síntomas persisten más de 7 días, consulte a su médico."
+    },
+    {
+      "q": "¿Puedo usar Alcohol Bencílico y tomar una pastilla para la alergia (antihistamínico)?",
+      "a": "Sí, generalmente no hay interacción. El Alcohol Bencílico actúa localmente y los antihistamínicos por vía oral actúan de forma sistémica. Sin embargo, consulte con su farmacéutico o médico para estar seguro, especialmente si es la primera vez que los combina."
+    },
+    {
+      "q": "¿Sirve para los piojos en la cabeza?",
+      "a": "Sí, algunas lociones de Alcohol Bencílico al 5% o 10% están indicadas como tratamiento coadyuvante para los piojos del cuero cabelludo (pediculosis capitis). Debe aplicarse en el cabello y cuero cabelludo, dejarlo actuar según las instrucciones y luego lavar. Suele requerir una segunda aplicación a la semana."
+    },
+    {
+      "q": "¿Me puede causar alergia el Alcohol Bencílico?",
+      "a": "Sí, aunque no es muy común. Puede causar dermatitis de contacto alérgica, que se manifiesta con enrojecimiento, hinchazón, ampollas y picazón intensa en el área donde se aplicó. Si esto ocurre, suspenda su uso y consulte a su médico."
+    },
+    {
+      "q": "¿Puedo aplicarlo en una herida abierta o raspón?",
+      "a": "NO. No debe aplicarse sobre heridas abiertas, cortes profundos o quemaduras graves. Está indicado para piel intacta o irritada, pero no lesionada. En heridas abiertas, use un antiséptico específico como la clorhexidina."
+    },
+    {
+      "q": "¿El Alcohol Bencílico mancha la ropa?",
+      "a": "Generalmente no mancha si se aplica una capa delgada y se deja absorber completamente antes de vestirse. Sin embargo, algunas formulaciones en base oleosa (pomadas) pueden dejar residuos grasosos. Revise las instrucciones del producto."
+    },
+    {
+      "q": "¿Es lo mismo que el alcohol etílico (el de curar heridas)?",
+      "a": "NO. Son compuestos diferentes. El Alcohol Bencílico es un anestésico y antipruriginoso. El Alcohol Etílico (etanol) al 70% es principalmente un desinfectante y antiséptico potente, pero no alivia el dolor o la picazón de la misma manera."
+    },
+    {
+      "q": "¿Puedo usarlo si estoy embarazada?",
+      "a": "Se debe evitar, especialmente durante el primer trimestre. Si el beneficio justifica el riesgo (por ejemplo, una picazón intensa en un área pequeña), puede usarse bajo supervisión médica, aplicando la mínima cantidad necesaria y por el menor tiempo posible."
+    },
+    {
+      "q": "¿Qué hago si por accidente me lo pongo en los ojos?",
+      "a": "Lave el ojo inmediatamente con abundante agua limpia durante al menos 15 minutos, manteniendo el párpado abierto. No frote el ojo. Si persiste irritación, visión borrosa o dolor, acuda a urgencias oftalmológicas de inmediato."
+    },
+    {
+      "q": "¿El Alcohol Bencílico cura la sarna o solo quita la comezón?",
+      "a": "Tiene actividad contra el ácaro de la sarna, por lo que es un tratamiento activo, no solo sintomático. Sin embargo, su eficacia como escabicida es considerada menor comparada con la permetrina. Es crucial seguir las instrucciones de aplicación (a todo el cuerpo) y repetir el tratamiento a los 7 días para eliminar los huevos."
+    },
+    {
+      "q": "¿Puedo usar la crema de Alcohol Bencílico y después ponerme bloqueador solar?",
+      "a": "Sí, pero espere al menos 15-20 minutos a que la crema se absorba completamente en la piel antes de aplicar el bloqueador solar. Aplicar uno sobre el otro de inmediato puede diluir el efecto de ambos."
+    },
+    {
+      "q": "¿Por qué a veces arde al aplicarlo?",
+      "a": "Una sensación de ardor o escozor leve y transitorio (de segundos a un minuto) es un efecto secundario muy común, especialmente si la piel está irritada o dañada. Esto se debe a su acción inicial sobre las terminaciones nerviosas. Si el ardor es intenso o persiste, puede ser irritación o alergia."
+    },
+    {
+      "q": "¿Interfiere con los análisis de sangre u orina?",
+      "a": "El uso tópico normal en áreas pequeñas no debería interferir. Sin embargo, el uso excesivo que cause absorción sistémica podría, en teoría, aumentar los niveles de ácido hipúrico en orina. Informe a su médico sobre todos los medicamentos que usa, incluyendo los de venta libre, antes de hacerse estudios."
+    },
+    {
+      "q": "¿Qué significa el 'Síndrome del bebé gris' del que advierten?",
+      "a": "Es una intoxicación grave que ocurre en recién nacidos, especialmente prematuros, cuando su cuerpo no puede eliminar el Alcohol Bencílico. Los síntomas incluyen coloración grisácea de la piel, vómitos, dificultad para respirar, baja presión arterial y puede ser mortal. Por eso está estrictamente prohibido su uso en este grupo."
+    },
+    {
+      "q": "¿Puedo usar Alcohol Bencílico si tengo psoriasis?",
+      "a": "Se puede usar con precaución en placas pequeñas de psoriasis para aliviar la picazón. Sin embargo, la piel psoriásica puede estar más sensible. Pruebe en un área muy pequeña primero. No use en psoriasis pustulosa o eritrodérmica. El tratamiento de base para la psoriasis debe ser indicado por un dermatólogo."
+    },
+    {
+      "q": "¿Es seguro para uso a largo plazo (crónico)?",
+      "a": "No está indicado para uso crónico. Es para alivio sintomático temporal. El uso prolongado (más de 2 semanas) puede aumentar el riesgo de efectos adversos locales (dermatitis) y, si se usa en áreas extensas, el riesgo de absorción sistémica. Si necesita un tratamiento prolongado, consulte a su médico para evaluar la causa de fondo."
+    },
+    {
+      "q": "¿Cómo se compara con la lidocaína tópica para el dolor?",
+      "a": "Ambos son anestésicos locales. La Lidocaína suele tener un inicio de acción más rápido y una duración ligeramente mayor. El Alcohol Bencílico es más accesible y de venta libre, y además tiene efecto antipruriginoso. Para dolor agudo o procedimientos menores, la lidocaína puede ser más efectiva. Para picazón, el Alcohol Bencílico es una buena opción."
+    },
+    {
+      "q": "¿Cuál es el mecanismo exacto por el que causa metahemoglobinemia, un efecto raro pero grave?",
+      "a": "El Alcohol Bencílico, tras ser absorbido y metabolizado, puede generar metabolitos oxidantes (como el benzoquinoneimina) que oxidan el hierro de la hemoglobina (de Fe2+ a Fe3+), convirtiéndola en metahemoglobina. Esta forma de hemoglobina no puede transportar oxígeno eficientemente, llevando a hipoxia tisular. Este riesgo es mayor en individuos con deficiencia de la enzima metahemoglobina reductasa o en casos de sobredosis."
+    }
+  ]
+}

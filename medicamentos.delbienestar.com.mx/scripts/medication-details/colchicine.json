@@ -1,0 +1,413 @@
+{
+  "name": "Colchicina",
+  "summary": "La colchicina es un medicamento derivado de plantas, específicamente de los bulbos y semillas del cólquico (Colchicum autumnale). Es un fármaco fundamental en el tratamiento de la gota aguda y la fiebre mediterránea familiar (FMF). Su importancia clínica radica en su capacidad única para reducir la inflamación dolorosa asociada a los ataques de gota, actuando de manera rápida y efectiva cuando se inicia al inicio de los síntomas. Además, se utiliza a dosis más bajas para la prevención de nuevos ataques y es la piedra angular en el manejo de la FMF, una enfermedad genética que causa episodios recurrentes de fiebre e inflamación. A pesar de ser un medicamento antiguo, su uso requiere precaución debido a su estrecho margen terapéutico, lo que significa que la dosis efectiva y la dosis tóxica están muy cercanas, pudiendo causar efectos secundarios graves si no se toma exactamente como lo indica el médico. Su mecanismo principal es inhibir la migración de los glóbulos blancos al sitio de la inflamación, interrumpiendo así el proceso que causa el dolor y la hinchazón.",
+  "pharmacology": {
+    "mechanismOfAction": "La colchicina ejerce su efecto antiinflamatorio principalmente al unirse a la tubulina, una proteína esencial para formar los microtúbulos dentro de las células. Al unirse, impide la polimerización (ensamblaje) de los microtúbulos. Esto interrumpe funciones celulares críticas, especialmente en los neutrófilos, que son glóbulos blancos clave en la inflamación. Inhibe la migración, adhesión y degranulación de los neutrófilos hacia el sitio inflamado (como una articulación con gota). También reduce la producción y liberación de mediadores químicos proinflamatorios y la fagocitosis de cristales de ácido úrico. No tiene efecto analgésico directo ni reduce los niveles de ácido úrico en sangre; su beneficio es puramente antiinflamatorio, deteniendo la cascada inflamatoria desencadenada por los cristales.",
+    "pharmacologicClass": "Alcaloide del tropolona. Agente antimitótico. Inhibidor de la polimerización de microtúbulos.",
+    "therapeuticClass": "Agente antiinflamatorio para gota y fiebre mediterránea familiar. Agente antigotoso.",
+    "absorption": "Se absorbe rápidamente en el tracto gastrointestinal superior (yeyuno e íleon). La biodisponibilidad oral es de aproximadamente 45%, pero puede variar ampliamente entre individuos. La presencia de alimentos puede retrasar la absorción pero no afecta significativamente la cantidad total absorbida.",
+    "distribution": "Se distribuye ampliamente en el organismo, con un volumen de distribución (Vd) grande, aproximadamente de 5-8 L/kg. Se concentra mucho en los leucófilos (glóbulos blancos), alcanzando concentraciones hasta 16 veces mayores que en el plasma. Su unión a proteínas plasmáticas es moderada, alrededor del 30-50%.",
+    "metabolism": "Se metaboliza extensamente en el hígado, principalmente por desacetilación mediada por el citocromo P450 3A4 (CYP3A4). Este es un paso crucial, ya que las interacciones con inhibidores de esta enzima son comunes y peligrosas. También sufre glucuronidación.",
+    "elimination": "Se elimina principalmente por vía biliar y fecal (60-80%), con una porción menor (10-20%) excretada sin cambios por la orina. Su vida media de eliminación es prolongada, de aproximadamente 27 a 31 horas en adultos sanos, pero puede extenderse mucho más en pacientes con disfunción hepática o renal o en caso de sobredosis.",
+    "onsetOfAction": "El alivio del dolor en la gota aguda suele comenzar entre las 12 y 24 horas después de la primera dosis, con una mejoría significativa en 24-48 horas.",
+    "durationOfAction": "Su efecto antiinflamatorio persiste mientras se mantengan concentraciones terapéuticas en los leucocitos, lo que justifica esquemas de dosificación prolongados para ataques agudos (varios días) o dosis bajas diarias para profilaxis."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento y profilaxis de ataques agudos de gota (artritis gotosa aguda).",
+      "Tratamiento y profilaxis de la Fiebre Mediterránea Familiar (FMF).",
+      "Pericarditis recurrente (en combinación con otros fármacos)."
+    ],
+    "offLabel": [
+      "Estenosis aórtica calcificada (para retardar la progresión).",
+      "Enfermedad de Behçet (para úlceras orales y genitales).",
+      "Cirrosis biliar primaria (como terapia adyuvante).",
+      "Dermatosis neutrofílicas (como el eritema nudoso).",
+      "Amiloidosis secundaria a FMF."
+    ]
+  },
+  "dosage": {
+    "adults": "**Gota Aguda:** Dosis de ataque: 1.2 mg (2 tabletas de 0.6 mg) al primer signo de ataque, seguido de 0.6 mg 1 hora después. Dosis total del ataque: 1.8 mg en la primera hora. **Mantenimiento/Profilaxis de gota:** 0.6 mg una o dos veces al día. **Fiebre Mediterránea Familiar (FMF):** 1.2 a 2.4 mg al día, divididos en 1 o 2 dosis. La dosis puede ajustarse según la respuesta y tolerancia.",
+    "pediatric": "**FMF en niños:** Dosis basada en peso corporal. Generalmente 0.5 mg/día para niños menores de 5 años, y 1.0 a 1.5 mg/día para niños de 5 a 10 años. Para mayores de 10 años, se usan dosis de adulto. Debe ser prescrita y monitoreada estrictamente por un pediatra o reumatólogo.",
+    "elderly": "Se requiere extrema precaución. Iniciar con la dosis más baja posible (ej., 0.6 mg/día para profilaxis) debido a la mayor probabilidad de función renal o hepática disminuida y mayor riesgo de efectos adversos. Monitorear función renal frecuentemente.",
+    "renalImpairment": "**TFG >50 mL/min:** Dosis estándar con precaución. **TFG 30-50 mL/min:** Reducir dosis. Para gota aguda, dosis máxima total de 1.2 mg (no repetir a la hora). Para profilaxis, no exceder 0.6 mg/día. **TFG 10-30 mL/min:** Dosis máxima 0.6 mg cada 2-3 días. Evitar en gota aguda. **TFG <10 mL/min o diálisis:** CONTRAINDICADO. La colchicina no se dializa adecuadamente.",
+    "hepaticImpairment": "En insuficiencia hepática (Child-Pugh B o C), la dosis debe reducirse significativamente o evitarse, ya que el metabolismo está comprometido. Consultar con especialista. En enfermedad hepática activa o alcoholismo, está contraindicada.",
+    "maxDose": "**Dosis máxima diaria para tratamiento crónico (profilaxis):** Generalmente 2.4 mg/día, pero rara vez se usa. La mayoría de los pacientes se mantienen con 0.6 a 1.2 mg/día. **Dosis máxima en ataque agudo:** 1.8 mg en la primera hora, y no más de 1.2 mg en las siguientes 24 horas."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "0.5 mg",
+        "0.6 mg",
+        "1.0 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Solución inyectable (uso hospitalario)",
+      "strengths": [
+        "0.5 mg/mL"
+      ],
+      "route": "Intravenosa"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la colchicina.",
+      "Insuficiencia renal grave (TFG <10 mL/min) o en diálisis.",
+      "Insuficiencia hepática grave (Child-Pugh C) o enfermedad hepática activa.",
+      "Pacientes que tomen simultáneamente inhibidores potentes de CYP3A4 o P-glicoproteína (ej., claritromicina, ketoconazol, ciclosporina) y que tengan disfunción renal o hepática."
+    ],
+    "relative": [
+      "Insuficiencia renal moderada (TFG 30-50 mL/min).",
+      "Insuficiencia hepática leve-moderada (Child-Pugh A-B).",
+      "Adultos mayores (>70 años).",
+      "Pacientes con trastornos gastrointestinales severos.",
+      "Neutropenia preexistente."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Diarrea (puede ser acuosa y severa, es un signo de toxicidad temprana).",
+      "Náuseas.",
+      "Dolor abdominal o calambres."
+    ],
+    "common": [
+      "Vómitos.",
+      "Flatulencia (gases)."
+    ],
+    "uncommon": [
+      "Mialgia (dolor muscular).",
+      "Neuropatía periférica (hormigueo, debilidad en manos/pies).",
+      "Erupción cutánea.",
+      "Pérdida de cabello (alopecia).",
+      "Leucopenia (disminución de glóbulos blancos).",
+      "Trombocitopenia (disminución de plaquetas)."
+    ],
+    "rare": [
+      "Rabdomiólisis (destrucción muscular severa).",
+      "Mielosupresión grave (aplasia medular).",
+      "Insuficiencia renal aguda.",
+      "Daño hepático (hepatotoxicidad).",
+      "Síndrome de Stevens-Johnson.",
+      "Arritmias cardíacas."
+    ],
+    "blackBoxWarning": "ADVERTENCIA: TOXICIDAD POR SOBREDOSIS. La colchicina tiene un margen terapéutico estrecho. Las sobredosis, incluso leves, pueden ser FATALES. La toxicidad se manifiesta con síntomas gastrointestinales, mielosupresión, fallo multiorgánico y muerte. El riesgo aumenta drásticamente en pacientes con insuficiencia renal o hepática, adultos mayores, y cuando se combina con medicamentos que inhiben el CYP3A4 o la P-glicoproteína."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Claritromicina, Eritromicina",
+        "effect": "Inhiben CYP3A4, aumentando enormemente los niveles de colchicina. Riesgo de toxicidad grave y muerte.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Ketoconazol, Itraconazol, Fluconazol",
+        "effect": "Inhiben CYP3A4, aumentando niveles de colchicina. Contraindicados o requieren ajuste drástico de dosis.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Ciclosporina",
+        "effect": "Inhibe CYP3A4 y P-gp, aumenta niveles de colchicina. Alto riesgo de miotoxicidad (rabdomiólisis) y nefrotoxicidad.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Ritonavir, otros inhibidores de proteasa del VIH",
+        "effect": "Inhiben CYP3A4, aumentando niveles de colchicina. Combinación contraindicada.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Verapamilo, Diltiazem",
+        "effect": "Inhiben moderadamente CYP3A4 y P-gp. Pueden aumentar niveles de colchicina. Requieren monitoreo y posible reducción de dosis.",
+        "severity": "Moderada-Grave"
+      },
+      {
+        "drug": "Estatinas (Atorvastatina, Simvastatina) o Fibratos",
+        "effect": "Aumentan el riesgo de miopatía y rabdomiólisis cuando se combinan con colchicina, especialmente en pacientes con disfunción renal.",
+        "severity": "Moderada-Grave"
+      }
+    ],
+    "withFood": "Puede tomarse con o sin alimentos. Tomarla con alimentos puede ayudar a disminuir las molestias gastrointestinales. El jugo de toronja (pomelo) debe EVITARSE por completo, ya que inhibe el CYP3A4 y puede aumentar los niveles de colchicina a niveles tóxicos. El consumo de alcohol debe limitarse, ya que puede empeorar los efectos secundarios gastrointestinales y el riesgo de daño hepático.",
+    "withSupplements": "Suplementos que afectan el CYP3A4, como la hierba de San Juan (Hypericum perforatum), pueden disminuir los niveles de colchicina y reducir su efectividad. Suplementos con efectos hepatotóxicos o nefrotóxicos pueden potenciar la toxicidad de la colchicina."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "C (FDA). D (en dosis altas o uso prolongado).",
+      "recommendation": "Solo debe usarse durante el embarazo si el beneficio justifica claramente el riesgo potencial para el feto. Se utiliza en mujeres embarazadas con Fiebre Mediterránea Familiar para prevenir amiloidosis. La dosis debe ser la mínima efectiva y el monitoreo debe ser estricto. No se recomienda para el tratamiento de gota aguda durante el embarazo.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La colchicina se excreta en la leche materna en cantidades muy bajas. Se considera generalmente compatible con la lactancia, especialmente a las dosis bajas utilizadas para profilaxis de FMF. Sin embargo, se recomienda monitorear al lactante por posibles efectos como diarrea. Consultar con el médico.",
+    "pediatric": "Su uso está aprobado para FMF en niños. Debe ser manejado por un especialista. Las dosis se calculan cuidadosamente por peso. Está contraindicado en recién nacidos y lactantes menores.",
+    "geriatric": "Los pacientes mayores de 70 años son extremadamente sensibles a la colchicina. Deben iniciar con dosis más bajas (ej., 0.6 mg/día o menos para profilaxis) debido a la disminución de la función renal relacionada con la edad. El monitoreo de función renal y hemograma es esencial."
+  },
+  "administration": {
+    "howToTake": "Tome la tableta con un vaso lleno de agua. Para un ataque agudo de gota, tome la primera dosis (1.2 mg) al primer signo de dolor articular, y la segunda dosis (0.6 mg) 1 hora después. No repita este régimen por al menos 3 días. Para uso crónico (profilaxis), tome la dosis a la misma hora cada día. Si se le olvida una dosis, tómela tan pronto como lo recuerde, pero si es casi la hora de la siguiente, omita la dosis olvidada. NUNCA duplique la dosis.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (15-30°C), lejos del calor, la humedad y la luz directa. Mantener fuera del alcance de los niños y mascotas.",
+    "specialInstructions": "Este medicamento es POTENTE y PELIGROSO si se usa mal. Siga las instrucciones de su médico AL PIE DE LA LETRA. No aumente la dosis ni la frecuencia por su cuenta. Si presenta diarrea acuosa, vómitos o dolor abdominal severo, SUSPENDA el medicamento y contacte a su médico inmediatamente, ya que son signos de toxicidad. Informe a todos sus médicos y dentistas que está tomando colchicina."
+  },
+  "monitoring": {
+    "labTests": [
+      "Hemograma completo (CSC) con recuento de leucocitos y plaquetas.",
+      "Pruebas de función renal (creatinina sérica, TFG calculada).",
+      "Pruebas de función hepática (ALT, AST, bilirrubina).",
+      "Creatina fosfoquinasa (CPK) si hay quejas de dolor muscular.",
+      "Análisis de orina (en FMF para detectar proteinuria/amiloidosis)."
+    ],
+    "frequency": "Al inicio del tratamiento y luego cada 3-6 meses durante el uso crónico. Con más frecuencia (cada 1-3 meses) en pacientes con insuficiencia renal, hepática, ancianos o al ajustar dosis. En tratamiento agudo de gota, generalmente no se requiere monitoreo de laboratorio si es un episodio aislado en un paciente sano.",
+    "signsToWatch": [
+      "Diarrea severa o acuosa.",
+      "Vómitos persistentes.",
+      "Dolor abdominal intenso.",
+      "Fiebre, escalofríos, dolor de garganta (signos de infección por baja de glóbulos blancos).",
+      "Hemorragias o moretones inusuales (por baja de plaquetas).",
+      "Debilidad muscular severa, dolor o orina oscura (color café, signo de rabdomiólisis).",
+      "Hormigueo o entumecimiento en manos/pies.",
+      "Erupción cutánea severa o ampollas."
+    ]
+  },
+  "overdose": {
+    "symptoms": "La sobredosis sigue tres fases: 1) **Fase gastrointestinal (primeras 24h):** Náuseas, vómitos, diarrea acuosa y profusa, dolor abdominal, deshidratación. 2) **Fase multiorgánica (24h-7 días):** Mielosupresión (leucopenia, trombocitopenia, anemia), rabdomiólisis, insuficiencia renal, acidosis metabólica, arritmias cardíacas, daño hepático, shock. 3) **Fase de recuperación alopécica (semanas después):** Caída del cabello y rebote de leucocitos.",
+    "treatment": "NO EXISTE ANTÍDOTO ESPECÍFICO. El tratamiento es de soporte y debe ser EN UN HOSPITAL. Incluye: 1) Lavado gástrico si la ingestión fue reciente. 2) Carbón activado. 3) Soporte agresivo de fluidos y electrolitos. 4) Monitoreo cardiaco continuo. 5) Transfusiones de sangre o factores de crecimiento para la mielosupresión. 6) Diálisis NO es efectiva para eliminar la colchicina, pero puede ser necesaria para la insuficiencia renal. El pronóstico es grave; la mortalidad es alta.",
+    "antidote": "null"
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Rx). Es un medicamento de prescripción restringida por su toxicidad.",
+    "scheduleMexico": "Medicamento de la Fracción IV (F-IV) del Cuadro Básico de Medicamentos. Sujeta a control sanitario.",
+    "fdaApprovalYear": "Aprobado por la FDA desde 1939 (para gota). Formulaciones de dosis fija específicas han sido aprobadas posteriormente."
+  },
+  "brandsMexico": [
+    "Colchicina Licol",
+    "Colchimax",
+    "Colchisana",
+    "Goutnil",
+    "Colchicina Denver",
+    "Colchicina Rimsa",
+    "Colchicina Sophia",
+    "Colchicina Genfar",
+    "Colchicina PiSA",
+    "Colchicina Liomont"
+  ],
+  "clinicalPearls": [
+    "La diarrea es el efecto adverso más común y es un signo de alarma de toxicidad. Si ocurre, suspenda el medicamento y consulte.",
+    "Para la gota aguda, la efectividad es MUCHO MAYOR si se toma dentro de las primeras 12-24 horas del inicio del ataque. Después de 48 horas, su utilidad disminuye.",
+    "Nunca combine colchicina con antibióticos macrólidos (como claritromicina o azitromicina) sin consultar exhaustivamente con su médico o farmacéutico.",
+    "En pacientes con FMF, el tratamiento de por vida con colchicina previene la complicación más temida: la amiloidosis renal.",
+    "La neuropatía por colchicina (hormigueo) puede ser reversible si se detecta a tiempo y se suspende el fármaco.",
+    "En ancianos, la regla es 'start low, go slow' (iniciar bajo, avanzar lento)."
+  ],
+  "patientCounseling": "Escuche con atención: La colchicina es un medicamento muy útil pero puede ser muy peligroso si no se usa exactamente como se le indicó. Tómela solo para lo que su médico le recetó (gota o FMF). No la comparta. Si es para la gota, guárdela a la mano y tómela al primer signo de dolor en la articulación. Si es diario, establezca una rutina. La diarrea o el vómito son SEÑALES DE ALARMA; deje de tomarla y llame a su médico. Evite el jugo de toronja (pomelo) por completo. Informe a cualquier otro doctor que le recete algo nuevo que usted toma colchicina, especialmente antes de tomar antibióticos. Manténgala fuera del alcance de los niños. Si tiene dudas, consulte a su farmacéutico.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor articular agudo intenso",
+        "slug": "dolor-articular-agudo"
+      },
+      {
+        "name": "Inflamación articular (hinchazón, enrojecimiento)",
+        "slug": "inflamacion-articular"
+      },
+      {
+        "name": "Fiebre recurrente",
+        "slug": "fiebre-recurrente"
+      },
+      {
+        "name": "Dolor abdominal recurrente",
+        "slug": "dolor-abdominal-recurrente"
+      },
+      {
+        "name": "Dolor torácico (pericárdico)",
+        "slug": "dolor-toracico-pericardico"
+      },
+      {
+        "name": "Ulceras bucales dolorosas",
+        "slug": "ulceras-bucales-dolorosas"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Gota (Artritis Gotosa)",
+        "slug": "gota-artritis-gotosa"
+      },
+      {
+        "name": "Fiebre Mediterránea Familiar (FMF)",
+        "slug": "fiebre-mediterranea-familiar"
+      },
+      {
+        "name": "Pericarditis recurrente",
+        "slug": "pericarditis-recurrente"
+      },
+      {
+        "name": "Enfermedad de Behçet",
+        "slug": "enfermedad-de-behcet"
+      },
+      {
+        "name": "Estenosis aórtica calcificada",
+        "slug": "estenosis-aortica-calcificada"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Insuficiencia renal aguda",
+        "slug": "insuficiencia-renal-aguda"
+      },
+      {
+        "name": "Rabdomiólisis",
+        "slug": "rabdomiolisis"
+      },
+      {
+        "name": "Mielosupresión (Aplasia medular)",
+        "slug": "mielosupresion"
+      },
+      {
+        "name": "Hepatotoxicidad",
+        "slug": "hepatotoxicidad-farmacologica"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Recuento de leucocitos (WBC)",
+        "slug": "recuento-leucocitos",
+        "effect": "Puede disminuir (leucopenia)"
+      },
+      {
+        "name": "Recuento de plaquetas",
+        "slug": "recuento-plaquetas",
+        "effect": "Puede disminuir (trombocitopenia)"
+      },
+      {
+        "name": "Creatina fosfoquinasa (CPK)",
+        "slug": "creatina-fosfoquinasa-cpk",
+        "effect": "Puede elevarse (rabdomiólisis)"
+      },
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevarse (disfunción renal)"
+      },
+      {
+        "name": "Transaminasas (ALT/AST)",
+        "slug": "transaminasas-alt-ast",
+        "effect": "Pueden elevarse (daño hepático)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Hemograma completo",
+        "slug": "hemograma-completo",
+        "reason": "Monitorear mielosupresión (leucopenia, trombocitopenia)"
+      },
+      {
+        "name": "Pruebas de función renal",
+        "slug": "pruebas-funcion-renal",
+        "reason": "Ajustar dosis y prevenir toxicidad, clave en pacientes mayores"
+      },
+      {
+        "name": "Creatina fosfoquinasa (CPK)",
+        "slug": "creatina-fosfoquinasa-cpk",
+        "reason": "Si hay síntomas de dolor muscular para descartar rabdomiólisis"
+      },
+      {
+        "name": "Proteinuria en orina de 24h",
+        "slug": "proteinuria-orina-24h",
+        "reason": "En pacientes con FMF para detectar amiloidosis renal temprana"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La colchicina cura la gota?",
+      "a": "No, la colchicina no cura la gota. Es un tratamiento para controlar el dolor y la inflamación durante un ataque agudo y para prevenir futuros ataques. La causa de la gota (niveles altos de ácido úrico) se trata con otros medicamentos como alopurinol o febuxostat."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto para el dolor de gota?",
+      "a": "Si se toma al inicio del ataque, puede empezar a aliviar el dolor en 12 a 24 horas, con una mejoría notable en 24 a 48 horas. Si se toma tarde, puede no funcionar tan bien."
+    },
+    {
+      "q": "Me dio diarrea con la colchicina, ¿qué hago?",
+      "a": "SUSPENDA el medicamento inmediatamente y contacte a su médico. La diarrea es el efecto secundario más común y también una señal de advertencia temprana de que la dosis puede ser muy alta para usted. No tome medicamentos para la diarrea sin consultar."
+    },
+    {
+      "q": "¿Puedo tomar colchicina si tomo alopurinol?",
+      "a": "Sí, es común y seguro. De hecho, al iniciar alopurinol, su médico puede recetarle colchicina en dosis bajas por varios meses para prevenir los ataques de gota que pueden ocurrir al principio del tratamiento con alopurinol."
+    },
+    {
+      "q": "¿La colchicina afecta el hígado o los riñones?",
+      "a": "Sí, puede causar daño tanto al hígado como a los riñones, especialmente en caso de sobredosis o en personas que ya tienen problemas en estos órganos. Por eso es vital que su médico revise sus análisis de sangre regularmente."
+    },
+    {
+      "q": "¿Puedo beber alcohol si tomo colchicina?",
+      "a": "No se recomienda. El alcohol puede empeorar los efectos secundarios gastrointestinales (náuseas, diarrea) y aumentar el riesgo de daño hepático. Además, el alcohol puede desencadenar ataques de gota."
+    },
+    {
+      "q": "Olvidé una dosis diaria, ¿la tomo ahora aunque ya casi es hora de la siguiente?",
+      "a": "No. Si se acerca la hora de su siguiente dosis, omita la que olvidó y tome la siguiente a su hora habitual. NUNCA duplique la dosis para compensar."
+    },
+    {
+      "q": "¿Por qué mi médico me dice que evite el jugo de toronja (pomelo)?",
+      "a": "El jugo de toronja contiene sustancias que bloquean una enzima en el hígado (CYP3A4) que descompone la colchicina. Si la bloquea, la colchicina se acumula en su cuerpo a niveles tóxicos, pudiendo causar intoxicación grave."
+    },
+    {
+      "q": "¿Puedo tomar colchicina para el dolor de espalda o de cabeza?",
+      "a": "ABSOLUTAMENTE NO. La colchicina solo es efectiva para ciertos tipos de inflamación, como la de la gota o la FMF. No es un analgésico general y usarla para otros dolores es peligroso e inefectivo."
+    },
+    {
+      "q": "¿Necesito análisis de sangre mientras tomo colchicina?",
+      "a": "Sí, especialmente si la toma a diario por mucho tiempo (como en FMF o profilaxis de gota). Su médico pedirá hemograma y pruebas de función renal y hepática cada 3 a 6 meses para asegurarse de que no haya efectos adversos."
+    },
+    {
+      "q": "¿La colchicina causa adicción o dependencia?",
+      "a": "No, la colchicina no causa adicción física ni psicológica. Sin embargo, es un medicamento que debe usarse con mucho cuidado por su potencial toxicidad."
+    },
+    {
+      "q": "¿Puedo tomar ibuprofeno o naproxeno con colchicina para la gota?",
+      "a": "Sí, es común que los médicos receten un antiinflamatorio no esteroideo (AINE) como naproxeno junto con colchicina para un ataque de gota más fuerte. Sin embargo, ambos pueden irritar el estómago y afectar los riñones, así que solo hágalo bajo supervisión médica."
+    },
+    {
+      "q": "¿La colchicina puede hacer que se me caiga el cabello?",
+      "a": "Sí, la pérdida de cabello (alopecia) es un efecto secundario poco común, pero puede ocurrir, especialmente con el uso prolongado o en casos de toxicidad. Generalmente es reversible al suspender el medicamento."
+    },
+    {
+      "q": "¿Es seguro manejar o operar maquinaria con colchicina?",
+      "a": "La colchicina por sí misma no suele causar somnolencia. Sin embargo, si usted experimenta debilidad muscular, mareo o visión borrosa como efecto secundario, no debe conducir ni operar maquinaria peligrosa."
+    },
+    {
+      "q": "¿Qué hago si tomo más colchicina de la que me recetaron por error?",
+      "a": "Es una EMERGENCIA MÉDICA. Llame al Centro de Toxicología (01-800-00-54600 en México) o acuda inmediatamente al servicio de urgencias más cercano, llevando el frasco del medicamento. No espere a tener síntomas."
+    },
+    {
+      "q": "¿Puedo tomar colchicina si tengo diabetes o presión alta?",
+      "a": "Sí, generalmente no hay contraindicación directa. Sin embargo, informe a su médico sobre todas sus condiciones. Algunos medicamentos para la presión (como verapamilo) pueden interactuar, y la diabetes puede afectar la función renal, lo que requiere ajustes en la dosis de colchicina."
+    },
+    {
+      "q": "¿La colchicina protege el corazón?",
+      "a": "Estudios recientes han mostrado que la colchicina en dosis bajas (0.5 mg/día) puede reducir el riesgo de nuevos eventos cardiovasculares (como infartos) en pacientes con enfermedad coronaria estable, debido a su potente efecto antiinflamatorio sobre las arterias. Esto es un uso 'off-label' y debe ser indicado por un cardiólogo."
+    },
+    {
+      "q": "¿Por qué a algunos pacientes con gota les dan colchicina por tiempo indefinido y a otros solo para el ataque?",
+      "a": "Depende de la frecuencia de los ataques. Si tiene ataques frecuentes (más de 2 al año), su médico puede recomendar una dosis baja diaria para prevenirlos. Si sus ataques son raros, solo la tomará al inicio de cada uno."
+    },
+    {
+      "q": "¿Existe una alternativa más segura a la colchicina para la gota aguda?",
+      "a": "Sí, los antiinflamatorios no esteroideos (AINEs) como el naproxeno o la indometacina son una alternativa común. Para pacientes que no toleran ninguno de estos, se pueden usar corticosteroides (como prednisona). La elección depende de su historial de salud (riñones, estómago, corazón)."
+    },
+    {
+      "q": "Mi análisis de ácido úrico salió normal durante un ataque de gota, ¿por qué mi médico me recetó colchicina igual?",
+      "a": "Es normal. Durante un ataque agudo de gota, los niveles de ácido úrico en sangre pueden estar temporalmente normales o incluso bajos, porque el ácido úrico se ha depositado como cristales en la articulación. El diagnóstico se basa en los síntomas y el examen físico. La colchicina trata la inflamación causada por esos cristales, independientemente del nivel en sangre en ese momento."
+    }
+  ]
+}

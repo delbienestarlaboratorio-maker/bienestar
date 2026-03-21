@@ -1,0 +1,439 @@
+{
+  "name": "Terbinafina Clorhidrato",
+  "summary": "La Terbinafina es un medicamento antifúngico de la familia de las alilaminas, utilizado principalmente para tratar infecciones causadas por hongos en la piel, uñas y cuero cabelludo. Actúa eliminando los hongos al bloquear la producción de ergosterol, un componente esencial de su membrana celular, lo que lleva a la muerte del hongo. Es especialmente importante en el tratamiento de la onicomicosis (hongos en las uñas) y la tiña, ya que es altamente efectivo contra dermatofitos, los hongos más comunes en estas infecciones. A diferencia de otros tratamientos tópicos, la terbinafina oral ofrece una curación más rápida y con menor tasa de recurrencia, siendo un pilar en la terapia antifúngica sistémica. Su uso requiere supervisión médica debido a posibles efectos en el hígado y la necesidad de completar el tratamiento para evitar resistencias.",
+  "pharmacology": {
+    "mechanismOfAction": "La terbinafina inhibe de manera selectiva y potente la enzima escualeno epoxidasa, que se encuentra en la membrana celular de los hongos. Esta enzima es crucial en la vía biosintética del ergosterol, el principal esterol de la membrana fúngica. Al bloquear esta enzima, se detiene la producción de ergosterol y se acumula escualeno dentro de la célula del hongo. La deficiencia de ergosterol y la acumulación tóxica de escualeno alteran gravemente la estructura y función de la membrana celular, lo que provoca daño celular y finalmente la muerte del hongo (efecto fungicida). Este mecanismo es específico para los hongos, ya que la enzima humana es mucho menos sensible a la inhibición por terbinafina.",
+    "pharmacologicClass": "Antifúngico sintético derivado de la alilamina.",
+    "therapeuticClass": "Antifúngico sistémico y tópico.",
+    "absorption": "Se absorbe bien por vía oral (aproximadamente 70-80%), pero la presencia de alimentos grasos aumenta significativamente su absorción (hasta en un 40%). La concentración máxima en plasma (Cmax) se alcanza en aproximadamente 2 horas después de una dosis oral.",
+    "distribution": "Se distribuye ampliamente en los tejidos, especialmente en la piel, el tejido adiposo y las uñas, donde alcanza concentraciones mucho más altas que en el plasma. Tiene una alta unión a proteínas plasmáticas (>99%), principalmente a la albúmina. Su volumen de distribución es grande (aproximadamente 950-1000 L), lo que indica una amplia penetración en los tejidos.",
+    "metabolism": "Se metaboliza extensamente en el hígado a través de múltiples vías. Las enzimas del citocromo P450 (principalmente CYP2C9, CYP1A2, CYP3A4 y CYP2C8) están involucradas en su metabolismo, generando metabolitos inactivos. No es un inhibidor o inductor potente de las enzimas CYP, por lo que tiene un perfil de interacciones farmacológicas más bajo que otros antifúngicos azoles.",
+    "elimination": "La vida media de eliminación es larga, de aproximadamente 200-400 horas (8-17 días), lo que permite la persistencia del fármaco en los tejidos como la piel y las uñas mucho tiempo después de suspender el tratamiento. Se elimina principalmente por la orina (aproximadamente 70%) en forma de metabolitos inactivos, y el resto por las heces.",
+    "onsetOfAction": "El alivio sintomático (como la disminución del picor) puede comenzar en unos pocos días con la formulación tópica. Sin embargo, el efecto antifúngico completo y la resolución de la infección requieren semanas de tratamiento continuo, especialmente en infecciones de uñas.",
+    "durationOfAction": "Debido a su larga vida media y su acumulación en los tejidos queratinizados (piel, uñas), el efecto persiste durante semanas o incluso meses después de finalizar el tratamiento oral. Esto es clave para su éxito en la onicomicosis, donde las uñas nuevas crecen libres de hongos."
+  },
+  "indications": {
+    "approved": [
+      "Onicomicosis (infección por hongos en las uñas de manos y pies) causada por dermatofitos",
+      "Tiña corporal (Tinea corporis)",
+      "Tiña inguinal (Tinea cruris)",
+      "Tiña pedis (pie de atleta)",
+      "Tiña capitis (infección del cuero cabelludo) en pacientes pediátricos",
+      "Infecciones cutáneas por levaduras del género Candida (formulación tópica)",
+      "Pitiriasis versicolor (formulación tópica en algunos productos)"
+    ],
+    "offLabel": [
+      "Tratamiento de infecciones fúngicas sistémicas profundas (como alternativa en ciertos casos)",
+      "Profilaxis en pacientes inmunocomprometidos con riesgo de infecciones fúngicas",
+      "Tratamiento de la esporotricosis linfocutánea",
+      "Queratomicosis (infección fúngica de la córnea)"
+    ]
+  },
+  "dosage": {
+    "adults": "Onicomicosis de uñas de los pies: 250 mg una vez al día durante 12 semanas. Onicomicosis de uñas de las manos: 250 mg una vez al día durante 6 semanas. Tiña corporal/cruris/pedis: 250 mg una vez al día durante 2 a 4 semanas. Tiña capitis: 250 mg una vez al día durante 4 semanas (peso >40 kg).",
+    "pediatric": "Tiña capitis: Dosis basada en peso. Menos de 20 kg: 62.5 mg/día. 20-40 kg: 125 mg/día. Más de 40 kg: 250 mg/día. El tratamiento suele durar 4 semanas. Para otras indicaciones, el uso en niños se basa en juicio médico y no está tan estandarizado.",
+    "elderly": "No se requiere un ajuste de dosis inicial basado solo en la edad. Sin embargo, debido a la posible disminución de la función renal o hepática, se recomienda evaluar la función de estos órganos antes de iniciar el tratamiento y considerar dosis más bajas si es necesario.",
+    "renalImpairment": "Si la tasa de filtración glomerular (TFG) es menor a 50 mL/min o en pacientes con insuficiencia renal grave (TFG <30 mL/min), se recomienda reducir la dosis a la mitad (125 mg/día). En pacientes en diálisis, se recomienda administrar 125 mg/día después de la sesión de diálisis.",
+    "hepaticImpairment": "Contraindicado en enfermedad hepática activa o crónica (como cirrosis). No se recomienda su uso en pacientes con pruebas de función hepática persistentemente anormales. Si se debe usar en casos leves, requiere estrecha monitorización.",
+    "maxDose": "La dosis máxima diaria para adultos es de 250 mg. No se recomienda exceder esta dosis."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta recubierta",
+      "strengths": [
+        "250 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Crema tópica",
+      "strengths": [
+        "1% (10 mg/g)"
+      ],
+      "route": "Tópica"
+    },
+    {
+      "form": "Gel tópico",
+      "strengths": [
+        "1%"
+      ],
+      "route": "Tópica"
+    },
+    {
+      "form": "Solución tópica (spray)",
+      "strengths": [
+        "1%"
+      ],
+      "route": "Tópica"
+    },
+    {
+      "form": "Polvo tópico",
+      "strengths": [
+        "1%"
+      ],
+      "route": "Tópica"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la terbinafina o a cualquier componente de la formulación",
+      "Enfermedad hepática activa o crónica (cirrosis, hepatitis)",
+      "Insuficiencia renal grave (TFG <30 mL/min) sin ajuste de dosis y monitorización",
+      "Lactancia"
+    ],
+    "relative": [
+      "Historial previo de reacción cutánea grave (como síndrome de Stevens-Johnson) con cualquier medicamento",
+      "Pacientes con lupus eritematoso sistémico o porfiria cutánea tarda",
+      "Pacientes con psoriasis preexistente (puede exacerbarse)",
+      "Pacientes con depresión de la médula ósea",
+      "Embarazo (solo si el beneficio justifica claramente el riesgo)"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Dolor de cabeza",
+      "Malestar gastrointestinal (náuseas, dolor abdominal, diarrea, indigestión)",
+      "Sabor alterado o pérdida del gusto (disgeusia/ageusia) - suele ser reversible"
+    ],
+    "common": [
+      "Erupción cutánea, picazón (prurito)",
+      "Urticaria",
+      "Pérdida de apetito",
+      "Dolor muscular o articular (mialgia/artralgia)",
+      "Fatiga"
+    ],
+    "uncommon": [
+      "Alteraciones visuales",
+      "Mareo",
+      "Parámetros hepáticos elevados (transaminasas)",
+      "Pérdida de cabello reversible",
+      "Síntomas similares a la gripe"
+    ],
+    "rare": [
+      "Hepatitis, ictericia, insuficiencia hepática (puede ser grave)",
+      "Reacciones cutáneas graves (síndrome de Stevens-Johnson, necrólisis epidérmica tóxica)",
+      "Neutropenia, agranulocitosis, trombocitopenia",
+      "Lupus eritematoso sistémico inducido",
+      "Pancreatitis",
+      "Depresión",
+      "Parestesias (hormigueo)"
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Rifampicina",
+        "effect": "Aumenta el metabolismo de la terbinafina, reduciendo significativamente sus niveles en sangre y su efectividad. Se debe evitar la combinación o ajustar la dosis.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Cimetidina",
+        "effect": "Disminuye el metabolismo de la terbinafina, aumentando sus niveles en sangre y el riesgo de efectos adversos. Se recomienda precaución.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Antidepresivos tricíclicos (amitriptilina, nortriptilina)",
+        "effect": "La terbinafina puede inhibir su metabolismo (vía CYP2D6), aumentando sus niveles y el riesgo de toxicidad (arritmias, efectos anticolinérgicos).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Beta-bloqueadores (propranolol, metoprolol)",
+        "effect": "La terbinafina puede aumentar los niveles de algunos beta-bloqueadores metabolizados por CYP2D6, potenciando su efecto (bradicardia, hipotensión).",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inhibidores selectivos de la recaptación de serotonina (ISRS) como fluoxetina, paroxetina",
+        "effect": "Interacción por competencia en CYP2D6. Puede aumentar los niveles de ambos fármacos, incrementando el riesgo de síndrome serotoninérgico.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Se recomienda tomar las tabletas con alimentos, especialmente si son grasos, para mejorar su absorción y reducir molestias gastrointestinales. El consumo de alcohol debe evitarse durante el tratamiento, ya que aumenta el riesgo de toxicidad hepática.",
+    "withSupplements": "No se conocen interacciones clínicamente significativas con suplementos vitamínicos o herbales comunes. Sin embargo, se debe tener precaución con suplementos que también afecten al hígado (como kava, chaparral, altas dosis de vitamina A)."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA B",
+      "recommendación": "No se recomienda su uso durante el embarazo. Los estudios en animales no muestran riesgo, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. Solo debe usarse si el beneficio para la madre justifica claramente el riesgo potencial para el feto, generalmente reservado para infecciones graves que no responden a terapias tópicas. Se prefiere posponer el tratamiento de afecciones no graves (como onicomicosis) hasta después del parto.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La terbinafina se excreta en la leche materna en concentraciones similares a las del plasma. Debido al potencial de efectos adversos graves en el lactante (como toxicidad hepática) y a que las infecciones fúngicas que trata no suelen ser de riesgo vital, se recomienda NO amamantar durante el tratamiento con terbinafina oral y hasta 7 días después de la última dosis. Las formulaciones tópicas en áreas pequeñas son probablemente seguras.",
+    "pediatric": "Aprobado para el tratamiento de la tiña capitis (infección del cuero cabelludo) en niños mayores de 4 años, con dosis ajustadas por peso. Para otras indicaciones, su uso en niños se basa en evidencia limitada y debe ser evaluado cuidadosamente por un médico, considerando el balance riesgo-beneficio. Se debe evitar en niños con problemas hepáticos o renales.",
+    "geriatric": "Los pacientes mayores pueden tener una función renal o hepática reducida. Es esencial evaluar la función de estos órganos antes de iniciar el tratamiento. Pueden ser más susceptibles a efectos adversos como pérdida del gusto, problemas gastrointestinales y fatiga. Se recomienda usar la dosis efectiva más baja y monitorizar de cerca."
+  },
+  "administration": {
+    "howToTake": "Tabletas: Tragar enteras con un vaso lleno de agua. Preferiblemente con alimentos para mejorar la absorción y reducir molestias estomacales. Para infecciones de uñas, es crucial tomar la dosis diaria de manera constante durante todo el tiempo prescrito (6 a 12 semanas), incluso si las uñas empiezan a verse mejor antes. Las cremas/geles/sprays tópicos: Aplicar una capa fina sobre la piel limpia y seca afectada y la zona circundante, generalmente una o dos veces al día según la indicación. Lavarse las manos después de cada aplicación, a menos que sean las manos las tratadas.",
+    "storage": "Conservar a temperatura ambiente (entre 15°C y 30°C), en un lugar seco y fuera del alcance de la luz directa del sol y la humedad. No congelar. Mantener las tabletas en su blíster original hasta el momento de su uso. Las formulaciones tópicas deben mantenerse bien tapadas.",
+    "specialInstructions": "Para la onicomicosis, el tratamiento es largo. La mejoría visible de la uña (crecimiento de uña nueva y sana) puede tardar varios meses en notarse, ya que las uñas crecen lentamente. No suspender el tratamiento antes de lo indicado por el médico, aunque los síntomas desaparezcan, para evitar que la infección regrese. Informar inmediatamente al médico si aparece ictericia (coloración amarilla de piel u ojos), orina oscura, heces claras, fatiga extrema, pérdida de apetito, erupción cutánea grave o síntomas de depresión."
+  },
+  "monitoring": {
+    "labTests": [
+      "Pruebas de función hepática (transaminasas AST/ALT, bilirrubina) antes de iniciar el tratamiento",
+      "Conteo sanguíneo completo (CSC) en casos de tratamiento prolongado o si hay síntomas sugerentes",
+      "Función renal (creatinina sérica, TFG) antes del tratamiento, especialmente en adultos mayores"
+    ],
+    "frequency": "Pruebas hepáticas: Antes de iniciar. Se recomienda repetirlas a las 4-6 semanas de tratamiento en cursos largos (como onicomicosis). Si los resultados son normales y el paciente no tiene síntomas, no suele necesitar más monitorización. Si hay síntomas o alteraciones, se debe suspender el fármaco y monitorizar hasta la normalización.",
+    "signsToWatch": [
+      "Ictericia (piel/ojos amarillos)",
+      "Orina de color oscuro (como té)",
+      "Heces de color arcilla o muy claras",
+      "Fatiga o debilidad inusual y persistente",
+      "Náuseas/vómitos intensos o dolor abdominal superior",
+      "Pérdida de apetito significativa",
+      "Aparición de erupción cutánea, ampollas o descamación",
+      "Sangrado o moretones fáciles",
+      "Síntomas de depresión o cambios de humor",
+      "Pérdida o alteración del sentido del gusto"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Náuseas, vómitos, dolor abdominal",
+      "Mareo, dolor de cabeza",
+      "Somnolencia",
+      "En casos graves, puede potenciar el riesgo de toxicidad hepática o cardíaca"
+    ],
+    "treatment": "No hay antídoto específico. El tratamiento es de soporte y sintomático. Se debe inducir el vómito o realizar lavado gástrico si la ingestión fue reciente (dentro de 1-2 horas). Administrar carbón activado para reducir la absorción. Monitorizar funciones vitales, hepática y cardiaca. La diálisis no es efectiva debido a la alta unión a proteínas.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Rx). Las formulaciones tópicas al 1% pueden ser de venta libre en algunas presentaciones, pero es recomendable la supervisión médica.",
+    "scheduleMexico": "Medicamento de patente (no incluido en el cuadro básico de la SSA). Sujeta a prescripción médica.",
+    "fdaApprovalYear": "1996 (para la formulación oral en EE.UU.)"
+  },
+  "brandsMexico": [
+    "Lamisil",
+    "Terbix",
+    "Terbifin",
+    "Fungider",
+    "Terbin",
+    "Terbina",
+    "Fungisem",
+    "Terbifungol",
+    "Terbiderm (tópico)",
+    "Fungiter (tópico)",
+    "Terbicrem (tópico)"
+  ],
+  "clinicalPearls": [
+    "La terbinafina es fungicida (mata el hongo), a diferencia de los azoles que suelen ser fungistáticos (solo detienen su crecimiento), lo que se asocia con tasas de curación más altas y menores recaídas en onicomicosis.",
+    "La pérdida del gusto (ageusia) es un efecto adverso característico, a menudo reversible semanas o meses después de suspender el fármaco, pero puede ser persistente en raros casos.",
+    "Aunque el riesgo de hepatotoxicidad grave es bajo (aproximadamente 1 en 50,000 a 120,000 tratamientos), es imprescindible la educación al paciente para que reporte inmediatamente síntomas de daño hepático, ya que puede ocurrir incluso después de finalizar el tratamiento."
+  ],
+  "patientCounseling": "Es muy importante que tome la terbinafina exactamente como se lo indicó su médico. Para las infecciones de uñas, el tratamiento es largo (varias semanas) y debe completarlo totalmente, aunque la uña empiece a verse mejor, para evitar que el hongo regrese. Tome las tabletas con comida. Esté atento a señales de alarma: si su piel u ojos se ponen amarillos, si su orina se oscurece mucho, si tiene cansancio extremo, dolor de estómago fuerte, pérdida de apetito, o si aparece una erupción cutánea con ampollas, DEJE de tomar el medicamento y contacte a su médico de inmediato. Es común notar un cambio o pérdida del sabor de los alimentos; esto suele mejorar al terminar el tratamiento. Evite el consumo de alcohol mientras esté en tratamiento, ya que aumenta el riesgo de daño al hígado. No use este medicamento si está embarazada o planea estarlo, sin antes hablar con su médico.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Picazón en la piel",
+        "slug": "picazon-en-la-piel"
+      },
+      {
+        "name": "Descamación de la piel",
+        "slug": "descamacion-de-la-piel"
+      },
+      {
+        "name": "Uñas engrosadas y descoloridas",
+        "slug": "unas-engrosadas-y-descoloridas"
+      },
+      {
+        "name": "Enrojecimiento cutáneo",
+        "slug": "enrojecimiento-cutaneo"
+      },
+      {
+        "name": "Mal olor en los pies",
+        "slug": "mal-olor-en-los-pies"
+      },
+      {
+        "name": "Grietas entre los dedos",
+        "slug": "grietas-entre-los-dedos"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Onicomicosis",
+        "slug": "onicomicosis"
+      },
+      {
+        "name": "Tiña Pedis (Pie de Atleta)",
+        "slug": "tinea-pedis-pie-de-atleta"
+      },
+      {
+        "name": "Tiña Cruris (Eczema Marginado)",
+        "slug": "tinea-cruris"
+      },
+      {
+        "name": "Tiña Corporis",
+        "slug": "tinea-corporis"
+      },
+      {
+        "name": "Tiña Capitis",
+        "slug": "tinea-capitis"
+      },
+      {
+        "name": "Candidiasis Cutánea",
+        "slug": "candidiasis-cutanea"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Hepatitis inducida por fármacos",
+        "slug": "hepatitis-inducida-por-farmacos"
+      },
+      {
+        "name": "Síndrome de Stevens-Johnson",
+        "slug": "sindrome-de-stevens-johnson"
+      },
+      {
+        "name": "Lupus eritematoso sistémico inducido",
+        "slug": "lupus-eritematoso-sistemico-inducido"
+      },
+      {
+        "name": "Depresión",
+        "slug": "depresion"
+      },
+      {
+        "name": "Neutropenia",
+        "slug": "neutropenia"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Alanina Aminotransferasa (ALT)",
+        "slug": "alanina-aminotransferasa-alt",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Aspartato Aminotransferasa (AST)",
+        "slug": "aspartato-aminotransferasa-ast",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Bilirrubina total",
+        "slug": "bilirrubina-total",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Neutrófilos (conteo absoluto)",
+        "slug": "neutrofilos-conteo-absoluto",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Plaquetas",
+        "slug": "plaquetas",
+        "effect": "Puede disminuir"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Perfil Hepático",
+        "slug": "perfil-hepatico",
+        "reason": "Para detectar toxicidad hepática temprana"
+      },
+      {
+        "name": "Biometría Hemática Completa",
+        "slug": "biometria-hematica-completa",
+        "reason": "Para monitorear posibles efectos en la médula ósea"
+      },
+      {
+        "name": "Creatinina Sérica",
+        "slug": "creatinina-serica",
+        "reason": "Para evaluar función renal antes de ajustar dosis"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de TFG (Clearence de Creatinina)",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de IMC",
+        "slug": "calculadora-imc"
+      },
+      {
+        "name": "Calculadora de Dosis Pediátrica por Peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve la terbinafina?",
+      "a": "La terbinafina sirve para tratar infecciones causadas por hongos, principalmente en la piel (como la tiña o el pie de atleta), el cuero cabelludo y, muy especialmente, en las uñas de manos y pies (onicomicosis). Mata los hongos que causan estas infecciones."
+    },
+    {
+      "q": "¿La terbinafina es de venta libre o necesita receta?",
+      "a": "En México, las tabletas de terbinafina (250 mg) siempre requieren receta médica. Algunas cremas, geles o sprays tópicos al 1% pueden encontrarse sin receta, pero es muy recomendable consultar a un médico o farmacéutico antes de usarlos para un diagnóstico correcto."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto para los hongos en las uñas?",
+      "a": "Aunque empieza a actuar desde los primeros días, los resultados visibles en las uñas tardan mucho. Como las uñas crecen lentamente (1-2 mm al mes), puede tomar de 3 a 6 meses para que la uña nueva y sana reemplace completamente la parte infectada. Es crucial completar las 6-12 semanas de tratamiento oral que indica el médico."
+    },
+    {
+      "q": "¿Puedo tomar terbinafina si estoy embarazada?",
+      "a": "No se recomienda. La terbinafina solo debe usarse en el embarazo si el beneficio para la madre es mucho mayor que el riesgo para el bebé, generalmente en infecciones muy graves. Para hongos en uñas o piel, se sugiere posponer el tratamiento hasta después del parto o usar opciones tópicas bajo supervisión médica."
+    },
+    {
+      "q": "¿Qué pasa si tomo alcohol durante el tratamiento con terbinafina?",
+      "a": "Debe evitarse completamente el consumo de alcohol. El alcohol y la terbinafina se procesan en el hígado. Combinarlos aumenta significativamente el riesgo de daño hepático (hepatitis), que puede ser grave. Es una de las restricciones más importantes durante el tratamiento."
+    },
+    {
+      "q": "¿La terbinafina produce muchos efectos secundarios?",
+      "a": "La mayoría de las personas la toleran bien. Los efectos secundarios más comunes son leves: dolor de cabeza, malestar estomacal (náuseas, dolor) y, a veces, un cambio o pérdida temporal del gusto. Sin embargo, existen efectos raros pero graves, principalmente en el hígado, por lo que es vital estar atento a los síntomas de alarma."
+    },
+    {
+      "q": "¿Por qué me cambia el sabor de la comida con la terbinafina?",
+      "a": "La alteración o pérdida del gusto (disgeusia o ageusia) es un efecto adverso conocido de la terbinafina. Se cree que el fármaco afecta las papilas gustativas. Es común, suele ser reversible al terminar el tratamiento, pero en casos raros puede persistir por meses o más tiempo. Si ocurre, informe a su médico."
+    },
+    {
+      "q": "¿Es mejor la terbinafina en pastillas o en crema?",
+      "a": "Depende de la infección. Para infecciones superficiales y pequeñas en la piel (como un parche de tiña), la crema suele ser suficiente. Para infecciones extensas, profundas, en el cuero cabelludo o en las uñas, las pastillas (tratamiento sistémico) son mucho más efectivas, ya que el medicamento llega a través de la sangre a donde el hongo está creciendo."
+    },
+    {
+      "q": "¿Puedo dejar de tomar las pastillas cuando la uña se vea bien?",
+      "a": "NO. Es uno de los errores más comunes. Debe completar TODO el tiempo de tratamiento que le recetó el médico (generalmente 6 semanas para uñas de manos, 12 para uñas de pies). Suspenderlo antes permite que los hongos que quedan se recuperen y la infección regrese, haciendo el tratamiento inútil."
+    },
+    {
+      "q": "¿Qué marcas de terbinafina hay en México?",
+      "a": "Las marcas más comunes son Lamisil (la original), Terbix, Terbifin, Fungider y Terbin. También hay muchas versiones genéricas de laboratorios nacionales. Todas contienen el mismo principio activo, pero consulte con su médico o farmacéutico cuál es la más adecuada para usted."
+    },
+    {
+      "q": "¿La terbinafina interactúa con otros medicamentos?",
+      "a": "Sí, puede interactuar. Es importante informar a su médico si toma: antidepresivos (especialmente tricíclicos o algunos ISRS), medicamentos para el ritmo cardíaco, rifampicina (para tuberculosis) o cimetidina (para la acidez). Su médico ajustará las dosis o elegirá otro tratamiento para evitar problemas."
+    },
+    {
+      "q": "¿Qué debo hacer si olvidé una dosis?",
+      "a": "Si olvidó una dosis, tómela tan pronto como lo recuerde, pero si ya es casi la hora de la siguiente dosis, sáltese la que olvidó y continúe con su horario normal. NO tome una dosis doble para compensar la que olvidó."
+    },
+    {
+      "q": "¿Necesito hacerme análisis de sangre antes de tomar terbinafina?",
+      "a": "Sí, es muy recomendable. Su médico debería solicitarle pruebas de función hepática (perfil hepático) antes de empezar, para asegurarse de que su hígado está sano. En tratamientos largos (como para uñas), puede repetirlas a las 4-6 semanas."
+    },
+    {
+      "q": "¿Pueden los niños tomar terbinafina?",
+      "a": "Sí, pero solo bajo estricta supervisión médica. Está aprobado para tratar la tiña del cuero cabelludo (tiña capitis) en niños mayores de 4 años, con una dosis calculada según su peso. No es común usarlo para otras infecciones en niños."
+    },
+    {
+      "q": "¿La terbinafina cura definitivamente los hongos en las uñas?",
+      "a": "Tiene una alta tasa de curación (alrededor del 70-80% para uñas de los pies y más para uñas de las manos) cuando se toma correctamente y se completa el tratamiento. Sin embargo, no es 100% efectiva y existe la posibilidad de recaída, especialmente si se tienen factores de riesgo como sudoración excesiva, problemas de circulación o diabetes."
+    },
+    {
+      "q": "¿Qué síntomas me deben hacer suspender el medicamento y llamar al médico de inmediato?",
+      "a": "Suspenda y busque atención médica URGENTE si presenta: color amarillo en piel u ojos, orina muy oscura, heces blancas o claras, cansancio extremo, náuseas/vómitos intensos, dolor en la parte superior derecha del abdomen, fiebre, dolor de garganta (signos de infección), o una erupción cutánea grave con ampollas o descamación."
+    },
+    {
+      "q": "¿La terbinafina afecta el hígado de todos los pacientes?",
+      "a": "No. La mayoría de los pacientes no tienen problemas hepáticos. La elevación leve y temporal de las enzimas hepáticas puede ocurrir, pero la hepatitis grave es RARA (aproximadamente 1 caso por cada 50,000-120,000 tratamientos). El riesgo justifica la precaución y los análisis, pero no debe causar pánico innecesario si se usa bajo supervisión."
+    },
+    {
+      "q": "¿Puedo tomar terbinafina si tengo diabetes?",
+      "a": "Sí, pero con precaución y bajo estrecho control médico. Los pacientes con diabetes tienen mayor riesgo de infecciones fúngicas y de complicaciones. El médico debe evaluar la función hepática y renal. Además, es crucial un buen control de los niveles de glucosa, ya que la hiperglucemia favorece el crecimiento de hongos."
+    },
+    {
+      "q": "¿Existe alguna alternativa a la terbinafina para los hongos en las uñas?",
+      "a": "Sí. Las alternativas incluyen otros antifúngicos orales como el itraconazol, tratamientos tópicos especiales para uñas (lacas como la ciclopirox o amorolfina), y en casos resistentes, tratamientos con láser o la extracción quirúrgica de la uña. La terbinafina suele ser la primera opción por su eficacia y perfil de interacciones."
+    },
+    {
+      "q": "¿Cuál es el mecanismo por el cual la terbinafina es fungicida y cómo se compara con los azoles como el fluconazol?",
+      "a": "La terbinafina actúa inhibiendo la enzima escualeno epoxidasa, bloqueando la producción de ergosterol (esencial para la membrana del hongo) y acumulando escualeno tóxico, lo que lleva a la muerte celular (fungicida). En cambio, los azoles (fluconazol, itraconazol) inhiben una enzima posterior (lanosterol 14-alfa-demetilasa), reduciendo el ergosterol pero sin acumular escualeno, teniendo principalmente un efecto fungistático (detienen el crecimiento). Esto explica por qué la terbinafina suele tener tasas de curación más altas y menores recaídas en infecciones por dermatofitos."
+    }
+  ]
+}

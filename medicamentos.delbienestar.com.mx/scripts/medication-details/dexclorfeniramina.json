@@ -1,0 +1,445 @@
+{
+  "name": "Dexclorfeniramina",
+  "summary": "La dexclorfeniramina es un medicamento antialérgico y antihistamínico de primera generación, muy utilizado en México para el alivio rápido de los síntomas de alergias estacionales, rinitis alérgica, urticaria y picaduras de insectos. Pertenece a la clase de las alquilaminas y actúa bloqueando los receptores de histamina H1 en el cuerpo, lo que reduce o elimina síntomas molestos como estornudos, secreción nasal, picazón en ojos, nariz y garganta, y erupciones en la piel. Su importancia clínica radica en su eficacia probada durante décadas, su rápido inicio de acción y su disponibilidad en múltiples presentaciones, aunque su uso requiere precaución debido a los efectos secundarios como somnolencia, que pueden afectar la capacidad para conducir o operar maquinaria. Es un pilar en el tratamiento sintomático de condiciones alérgicas leves a moderadas, especialmente cuando se requiere un alivio inmediato.",
+  "pharmacology": {
+    "mechanismOfAction": "La dexclorfeniramina es un antagonista competitivo y reversible de los receptores de histamina H1 periféricos. La histamina es una sustancia química liberada por el cuerpo durante una reacción alérgica, que al unirse a sus receptores causa vasodilatación, aumento de la permeabilidad vascular, contracción del músculo liso bronquial y estimulación de las terminaciones nerviosas sensoriales, resultando en los síntomas clásicos de alergia. La dexclorfeniramina se une a estos receptores bloqueándolos, impidiendo así que la histamina ejerza su efecto. Además, debido a su estructura química, tiene una alta afinidad por los receptores H1 del sistema nervioso central, lo que explica su marcado efecto sedante. También posee propiedades anticolinérgicas, lo que contribuye a efectos secundarios como sequedad de boca y visión borrosa.",
+    "pharmacologicClass": "Antagonista de los receptores H1 de histamina (de primera generación, de la subclase alquilaminas).",
+    "therapeuticClass": "Antihistamínico, Antialérgico, Antipruriginoso.",
+    "absorption": "Se absorbe bien por vía oral, con una biodisponibilidad que ronda el 25-50% debido al efecto de primer paso hepático. Las concentraciones plasmáticas máximas (Cmax) se alcanzan aproximadamente en 2-3 horas después de la administración oral.",
+    "distribution": "Se distribuye ampliamente por los tejidos corporales, incluyendo el sistema nervioso central (SNC), lo que explica sus efectos centrales como la sedación. Su volumen de distribución (Vd) es de aproximadamente 3.5 L/kg. Se une moderadamente a proteínas plasmáticas, en un rango del 60-70%.",
+    "metabolism": "Se metaboliza extensamente en el hígado, principalmente por el sistema enzimático del citocromo P450, con participación de las isoenzimas CYP2D6 y, en menor medida, CYP3A4. El metabolismo da lugar a metabolitos tanto activos como inactivos. La variabilidad genética en la actividad del CYP2D6 puede influir en la respuesta al fármaco.",
+    "elimination": "La vida media de eliminación es de aproximadamente 20-24 horas, pero puede variar entre individuos. Se elimina principalmente por vía renal, tanto en forma de fármaco sin cambios (menos del 10%) como de metabolitos. Una pequeña fracción se elimina por las heces.",
+    "onsetOfAction": "El inicio de acción es relativamente rápido. Los efectos sintomáticos pueden comenzar a notarse entre 30 y 60 minutos después de la administración oral.",
+    "durationOfAction": "La duración del efecto antihistamínico es prolongada, generalmente entre 8 y 24 horas, lo que permite una dosificación de una a dos veces al día en la mayoría de los casos."
+  },
+  "indications": {
+    "approved": [
+      "Alivio sintomático de la rinitis alérgica estacional (fiebre del heno) y perenne.",
+      "Alivio sintomático de la urticaria crónica idiopática y otras dermatosis alérgicas con prurito.",
+      "Alivio sintomático de la conjuntivitis alérgica.",
+      "Como coadyuvante en el tratamiento del angioedema.",
+      "Alivio de los síntomas asociados a reacciones alérgicas a picaduras de insectos."
+    ],
+    "offLabel": [
+      "Prevención y tratamiento de náuseas y vómitos (por su efecto anticolinérgico y sedante).",
+      "Como sedante leve para el insomnio ocasional (aunque no es de primera elección).",
+      "Alivio sintomático de los resfriados comunes (para reducir secreción nasal y estornudos).",
+      "Manejo del prurito asociado a varicela."
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis oral habitual para adultos y adolescentes mayores de 12 años es de 2 mg (1 tableta) cada 8 a 12 horas. En presentaciones de liberación prolongada, la dosis puede ser de 4 a 6 mg una o dos veces al día. La dosis máxima recomendada es de 6 mg al día en dosis divididas.",
+    "pediatric": "Niños de 6 a 12 años: 1 mg (media tableta de 2 mg) cada 8 a 12 horas. Dosis máxima diaria: 3 mg. Niños de 2 a 6 años: 0.5 mg (un cuarto de tableta de 2 mg) cada 8 a 12 horas. Dosis máxima diaria: 1.5 mg. No se recomienda su uso en niños menores de 2 años sin supervisión médica estricta. Existen presentaciones en jarabe para dosificación más precisa en pediatría.",
+    "elderly": "En adultos mayores (mayores de 65 años), se recomienda iniciar con la mitad de la dosis adulta (1 mg cada 12 horas) debido a la mayor sensibilidad a los efectos anticolinérgicos y sedantes, y al posible deterioro de la función renal y hepática. Monitorizar estrechamente la aparición de confusión, somnolencia excesiva o retención urinaria.",
+    "renalImpairment": "Ajustar la dosis en insuficiencia renal. TFG 30-50 mL/min: Reducir dosis en un 25-50%. TFG 10-30 mL/min: Reducir dosis en un 50-75%. TFG <10 mL/min o diálisis: Evitar su uso o usar con extrema precaución y bajo supervisión médica, ya que se elimina principalmente por vía renal. No se elimina eficazmente mediante diálisis.",
+    "hepaticImpairment": "Usar con precaución en pacientes con insuficiencia hepática moderada a grave (Child-Pugh B o C). Se recomienda reducir la dosis inicial en al menos un 50% debido a la disminución del metabolismo hepático, lo que puede conducir a una mayor exposición al fármaco y a un riesgo aumentado de efectos adversos.",
+    "maxDose": "La dosis máxima diaria para adultos es de 6 mg. En niños, la dosis máxima varía según la edad: 3 mg/día para 6-12 años y 1.5 mg/día para 2-6 años."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "2 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tableta de liberación prolongada",
+      "strengths": [
+        "4 mg",
+        "6 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Jarabe / Solución oral",
+      "strengths": [
+        "0.4 mg/mL",
+        "2 mg/5 mL"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Inyección (ampolla)",
+      "strengths": [
+        "5 mg/mL"
+      ],
+      "route": "Intramuscular, Intravenosa (lenta)"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la dexclorfeniramina, a otros antihistamínicos de su clase (alquilaminas) o a cualquier componente de la formulación.",
+      "Pacientes en estado de coma o con depresión severa del sistema nervioso central (por ejemplo, por alcohol, barbitúricos, opioides).",
+      "Glaucoma de ángulo cerrado no tratado.",
+      "Hipertrofia prostática sintomática con retención urinaria significativa.",
+      "Estenosis piloroduodenal obstructiva.",
+      "Crisis asmática aguda (puede espesar las secreciones bronquiales).",
+      "Recién nacidos o lactantes prematuros."
+    ],
+    "relative": [
+      "Epilepsia o antecedentes de convulsiones.",
+      "Enfermedad cardiovascular (hipertensión, arritmias, cardiopatía isquémica).",
+      "Hipertiroidismo.",
+      "Enfermedad pulmonar obstructiva crónica (EPOC).",
+      "Insuficiencia renal o hepática moderada a grave.",
+      "Pacientes de edad avanzada.",
+      "Miastenia gravis."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Somnolencia, sedación.",
+      "Sequedad de boca, nariz y garganta."
+    ],
+    "common": [
+      "Mareo, vértigo.",
+      "Cefalea (dolor de cabeza).",
+      "Visión borrosa, dificultad para acomodación visual.",
+      "Trastornos gastrointestinales (náusea, dolor abdominal, estreñimiento).",
+      "Fatiga, letargo.",
+      "Aumento del apetito."
+    ],
+    "uncommon": [
+      "Nerviosismo, excitación (especialmente en niños).",
+      "Tinnitus (zumbido en los oídos).",
+      "Palpitaciones, taquicardia.",
+      "Hipotensión.",
+      "Dificultad para orinar (retención urinaria).",
+      "Erupción cutánea."
+    ],
+    "rare": [
+      "Anemia hemolítica.",
+      "Trombocitopenia (disminución de plaquetas).",
+      "Agranulocitosis (disminución grave de glóbulos blancos).",
+      "Reacciones de hipersensibilidad severa (anafilaxia, angioedema).",
+      "Convulsiones.",
+      "Alucinaciones, confusión mental."
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Alcohol (etílico)",
+        "effect": "Potencia de manera sinérgica el efecto depresor del SNC, aumentando gravemente la somnolencia, mareo y deterioro psicomotor. Riesgo de accidentes.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Benzodiacepinas (diazepam, alprazolam)",
+        "effect": "Aumento aditivo de la sedación, deterioro cognitivo y riesgo de depresión respiratoria.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores de la MAO (tranilcipromina, selegilina)",
+        "effect": "Pueden potenciar los efectos anticolinérgicos y cardiovasculares de la dexclorfeniramina, aumentando el riesgo de crisis hipertensivas, fiebre y convulsiones. Evitar combinación.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Otros depresores del SNC (opioides, barbitúricos, antipsicóticos)",
+        "effect": "Aumento significativo de la sedación, letargo y riesgo de depresión respiratoria.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Anticolinérgicos (atropina, escopolamina, antidepresivos tricíclicos)",
+        "effect": "Efectos anticolinérgicos aditivos: sequedad extrema, retención urinaria, estreñimiento, visión borrosa, confusión (especialmente en ancianos).",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "Los alimentos no afectan significativamente la absorción de la dexclorfeniramina. Sin embargo, se puede tomar con o sin alimentos para reducir posibles molestias gastrointestinales. La interacción más importante es con el ALCOHOL, el cual debe evitarse por completo durante el tratamiento, ya que potencia peligrosamente los efectos sedantes y el deterioro psicomotor.",
+    "withSupplements": "Interacciones menores. Se debe tener precaución con suplementos herbales con efectos sedantes (valeriana, kava, pasiflora) por posible potenciación de la somnolencia. La hierba de San Juan (Hypericum perforatum) puede, en teoría, reducir los niveles plasmáticos del antihistamínico al inducir enzimas CYP, pero su relevancia clínica es incierta."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "B",
+      "recommendation": "Los estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. Su uso durante el embarazo solo debe considerarse si el beneficio potencial justifica el riesgo potencial para el feto. Evitar especialmente durante el primer trimestre. No usar cerca del parto por riesgo de efectos anticolinérgicos en el recién nacido.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La dexclorfeniramina se excreta en la leche materna en pequeñas cantidades. Debido a su potencial para causar efectos adversos en el lactante (irritabilidad, somnolencia, dificultades para alimentarse) y por su acción anticolinérgica que puede inhibir la lactancia, generalmente se recomienda evitar su uso durante la lactancia. Si es estrictamente necesario, se debe valorar suspender la lactancia o buscar una alternativa más segura (loratadina, cetirizina).",
+    "pediatric": "Puede usarse en niños mayores de 2 años, pero con precaución. Los niños pueden presentar una reacción paradójica de excitación (nerviosismo, insomnio) en lugar de sedación. Evitar el uso en lactantes y recién nacidos. La dosificación debe ser estrictamente ajustada por peso o edad. Preferir formulaciones pediátricas (jarabe) para una dosificación precisa.",
+    "geriatric": "Los pacientes de edad avanzada son extremadamente sensibles a los efectos anticolinérgicos y sedantes. Aumenta el riesgo de confusión, mareo, somnolencia, hipotensión ortostática, retención urinaria, estreñimiento y sequedad de boca severa. Iniciar siempre con la dosis más baja posible y monitorizar estrechamente. Considerar antihistamínicos de segunda generación no sedantes como primera opción en este grupo."
+  },
+  "administration": {
+    "howToTake": "Tomar por vía oral con un vaso de agua. Las tabletas pueden tomarse con o sin alimentos. Las tabletas de liberación prolongada NO deben partirse, triturarse o masticarse; deben tragarse enteras. Para el jarabe, usar el dosificador proporcionado (cuchara o jeringa) para medir la dosis exacta. Si se olvida una dosis, tomarla tan pronto como se recuerde, pero si ya es casi la hora de la siguiente dosis, omitir la dosis olvidada y continuar con el horario normal. NO duplicar la dosis.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (entre 15°C y 30°C), protegido de la luz, la humedad y el calor excesivo. Mantener fuera del alcance y de la vista de los niños. No utilizar después de la fecha de caducidad impresa en el envase.",
+    "specialInstructions": "ADVERTENCIA: Este medicamento puede causar somnolencia y reducir la capacidad de reacción. Evite conducir vehículos, operar maquinaria peligrosa o realizar actividades que requieran alerta mental hasta que conozca cómo le afecta. Evite el consumo de bebidas alcohólicas durante el tratamiento. Si los síntomas no mejoran después de 7 días de tratamiento, o si empeoran, consulte a su médico. Informe a su médico o farmacéutico si está tomando cualquier otro medicamento, incluyendo productos de herboristería."
+  },
+  "monitoring": {
+    "labTests": [
+      "No se requieren monitoreos de laboratorio de rutina para un uso a corto plazo. En uso crónico o en pacientes de riesgo: Hemograma completo (para detectar raros casos de discrasias sanguíneas).",
+      "Pruebas de función hepática (en pacientes con enfermedad hepática preexistente o uso prolongado).",
+      "Pruebas de función renal (en pacientes con insuficiencia renal)."
+    ],
+    "frequency": "Para uso agudo (alergias estacionales): Monitoreo clínico de síntomas y efectos adversos. Para uso crónico: Revisión periódica de la necesidad de continuar el tratamiento y evaluación de efectos adversos, especialmente en ancianos. Hemograma ocasional si se sospecha de efectos hematológicos.",
+    "signsToWatch": [
+      "Somnolencia excesiva que interfiere con las actividades diarias.",
+      "Mareo o aturdimiento al ponerse de pie (hipotensión ortostática).",
+      "Dificultad para orinar o disminución del gasto urinario.",
+      "Visión borrosa persistente.",
+      "Latidos cardíacos rápidos o irregulares (palpitaciones).",
+      "Signos de reacción alérgica grave: dificultad para respirar, hinchazón de cara/labios/lengua, urticaria severa.",
+      "Fiebre, dolor de garganta, úlceras en la boca (signos de infección por posible agranulocitosis)."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Los síntomas de sobredosis pueden oscilar desde depresión del SNC hasta estimulación paradójica, especialmente en niños. Síntomas: Somnolencia profunda, estupor, coma.",
+      "Mareo severo, ataxia (pérdida de coordinación).",
+      "Sequedad de boca, pupilas dilatadas (midriasis), enrojecimiento facial.",
+      "Alucinaciones, convulsiones.",
+      "Taquicardia, arritmias cardíacas.",
+      "Depresión respiratoria, apnea (paro respiratorio).",
+      "En niños: Excitación, nerviosismo, insomnio, alucinaciones, convulsiones."
+    ],
+    "treatment": "No existe antídoto específico. El tratamiento es de soporte y sintomático. Medidas generales: Mantener vía aérea, respiración y circulación. Monitorización continua de signos vitales. Lavado gástrico o carbón activado si la ingestión es reciente (dentro de 1-2 horas) y el paciente está consciente. En caso de convulsiones, usar benzodiacepinas (diazepam). Para la hipotensión, usar líquidos intravenosos y vasopresores si es necesario. La diálisis no es efectiva debido a la alta unión a proteínas y amplia distribución tisular.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "En México, la mayoría de las presentaciones orales (tabletas, jarabe) son de venta libre (sin receta médica). Las formas inyectables requieren receta médica para su dispensación.",
+    "scheduleMexico": "No está incluida en la lista de psicotrópicos. Se encuentra regulada bajo la fracción III del artículo 226 de la Ley General de Salud para medicamentos de venta libre.",
+    "fdaApprovalYear": "Aprobado por la FDA desde hace décadas, su aprobación inicial data de los años 50."
+  },
+  "brandsMexico": [
+    "Polaramine",
+    "Polaratil",
+    "Dexa",
+    "Dexaclor",
+    "Dexafen",
+    "Antialergin-D",
+    "Alergix-D",
+    "Clorfen-D",
+    "Histadin",
+    "Rinaler",
+    "Deslorin",
+    "Alergicalm",
+    "Dexaplus (combinaciones)",
+    "Polaramine Expectorante (combinación)",
+    "Polaramine Jarabe"
+  ],
+  "clinicalPearls": [
+    "La somnolencia suele disminuir con el uso continuado debido al desarrollo de tolerancia, pero el deterioro psicomotor puede persistir.",
+    "Es uno de los antihistamínicos sedantes más potentes; preferir alternativas no sedantes (loratadina, fexofenadina) en pacientes que conducen o realizan trabajos de riesgo.",
+    "Su efecto anticolinérgico lo hace útil para reducir secreciones nasales, pero peligroso en pacientes con glaucoma, hiperplasia prostática o íleo.",
+    "En urgencias, la forma inyectable se usa para reacciones alérgicas agudas, pero la difenhidramina es más común.",
+    "La combinación con descongestionantes (pseudoefedrina) es común en productos para resfriado, pero aumenta el riesgo de efectos cardiovasculares."
+  ],
+  "patientCounseling": "Tome este medicamento exactamente como se lo indicó su médico o farmacéutico. Recuerde que puede causarle mucho sueño, por lo que es muy importante que no maneje carro, use herramientas peligrosas o haga actividades que requieran estar muy despierto hasta que sepa cómo le afecta. Evite tomar bebidas alcohólicas mientras use este medicamento, porque el alcohol aumenta el sueño y el mareo. Si siente la boca muy seca, puede chupar caramelos duros sin azúcar o pedazos de hielo. Si va a someterse a una cirugía o estudio médico, informe al médico que está tomando este antihistamínico. Guarde el medicamento en un lugar fresco y seco, fuera del alcance de los niños. Si los síntomas de su alergia no mejoran en una semana, o si presenta fiebre, dificultad para orinar o latidos muy rápidos, deje de tomarlo y consulte a su médico.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Estornudos",
+        "slug": "estornudos"
+      },
+      {
+        "name": "Secreción nasal acuosa (rinorrea)",
+        "slug": "secrecion-nasal"
+      },
+      {
+        "name": "Picazón en nariz, ojos o garganta",
+        "slug": "picazon-nasal-ocular"
+      },
+      {
+        "name": "Lagrimeo (epífora)",
+        "slug": "lagrimeo"
+      },
+      {
+        "name": "Urticaria (ronchas)",
+        "slug": "urticaria"
+      },
+      {
+        "name": "Prurito (comezón) generalizado",
+        "slug": "prurito"
+      },
+      {
+        "name": "Congestión nasal (leve, por efecto anticolinérgico)",
+        "slug": "congestion-nasal"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Rinitis Alérgica Estacional (Fiebre del Heno)",
+        "slug": "rinitis-alergica-estacional"
+      },
+      {
+        "name": "Rinitis Alérgica Perenne",
+        "slug": "rinitis-alergica-perenne"
+      },
+      {
+        "name": "Urticaria Crónica Idiopática",
+        "slug": "urticaria-cronica"
+      },
+      {
+        "name": "Conjuntivitis Alérgica",
+        "slug": "conjuntivitis-alergica"
+      },
+      {
+        "name": "Angioedema (como coadyuvante)",
+        "slug": "angioedema"
+      },
+      {
+        "name": "Dermatitis de Contacto Alérgica",
+        "slug": "dermatitis-contacto"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Glaucoma de Ángulo Cerrado",
+        "slug": "glaucoma-angulo-cerrado"
+      },
+      {
+        "name": "Hiperplasia Prostática Benigna (HPB)",
+        "slug": "hiperplasia-prostatica"
+      },
+      {
+        "name": "Epilepsia",
+        "slug": "epilepsia"
+      },
+      {
+        "name": "Enfermedad Cardiovascular (Arritmias)",
+        "slug": "arritmias-cardiacas"
+      },
+      {
+        "name": "Deterioro Cognitivo o Demencia",
+        "slug": "deterioro-cognitivo"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Recuento de Leucocitos",
+        "slug": "leucocitos",
+        "effect": "Puede disminuir (raro: agranulocitosis)"
+      },
+      {
+        "name": "Recuento de Plaquetas",
+        "slug": "plaquetas",
+        "effect": "Puede disminuir (raro: trombocitopenia)"
+      },
+      {
+        "name": "Hematocrito / Hemoglobina",
+        "slug": "hemoglobina",
+        "effect": "Puede disminuir (raro: anemia hemolítica)"
+      },
+      {
+        "name": "Frecuencia Cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede aumentar (taquicardia)"
+      },
+      {
+        "name": "Presión Arterial",
+        "slug": "presion-arterial",
+        "effect": "Puede disminuir (hipotensión)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Hemograma Completo",
+        "slug": "hemograma-completo",
+        "reason": "Para monitorizar posibles efectos hematológicos raros en uso crónico o en pacientes con síntomas sugerentes."
+      },
+      {
+        "name": "Pruebas de Función Hepática",
+        "slug": "pruebas-funcion-hepatica",
+        "reason": "En pacientes con enfermedad hepática preexistente o uso prolongado a altas dosis."
+      },
+      {
+        "name": "Pruebas de Función Renal",
+        "slug": "pruebas-funcion-renal",
+        "reason": "Para ajustar dosis en pacientes con insuficiencia renal, ya que se elimina por vía renal."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de Aclaramiento de Creatinina",
+        "slug": "aclaramiento-creatinina",
+        "reason": "Para ajuste de dosis en insuficiencia renal."
+      },
+      {
+        "name": "Calculadora de Dosis Pediátrica por Peso",
+        "slug": "dosis-pediatrica-peso",
+        "reason": "Para calcular la dosis precisa en niños basada en peso corporal."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La dexclorfeniramina me va a dar mucho sueño?",
+      "a": "Sí, la somnolencia es uno de sus efectos secundarios más comunes. Es muy importante que no conduzca ni realice actividades peligrosas hasta que sepa cómo le afecta. El sueño puede disminuir después de unos días de uso continuo."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si estoy tomando este medicamento?",
+      "a": "NO. Debe evitar completamente el alcohol. La combinación aumenta mucho el sueño, el mareo y el riesgo de accidentes, y puede causar depresión respiratoria."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Generalmente comienza a aliviar los síntomas de la alergia (como estornudos y picazón) entre 30 minutos y 1 hora después de tomarlo."
+    },
+    {
+      "q": "¿Puedo tomarlo si estoy embarazada?",
+      "a": "Consulte a su médico. Solo debe usarse en el embarazo si el médico lo considera estrictamente necesario, ya que no hay estudios completos en mujeres embarazadas. Evítelo especialmente en el primer trimestre."
+    },
+    {
+      "q": "¿Puedo dárselo a mi hijo de 4 años?",
+      "a": "Sí, pero con la dosis correcta. Para un niño de 2 a 6 años, la dosis usual es 0.5 mg (un cuarto de tableta de 2 mg) cada 8-12 horas. Prefiera el jarabe pediátrico para mayor precisión y consulte al pediatra."
+    },
+    {
+      "q": "¿Qué hago si se me olvida una dosis?",
+      "a": "Tómela tan pronto como lo recuerde. Pero si ya es casi la hora de la siguiente dosis, omita la que olvidó y continúe con su horario normal. NO tome una dosis doble para compensar."
+    },
+    {
+      "q": "¿La dexclorfeniramina es lo mismo que la loratadina?",
+      "a": "No. Ambas son antihistamínicos, pero la dexclorfeniramina es de 'primera generación' y causa sueño. La loratadina es de 'segunda generación' y generalmente no produce somnolencia."
+    },
+    {
+      "q": "¿Puedo tomarlo por mucho tiempo para mis alergias crónicas?",
+      "a": "Puede usarse por periodos prolongados bajo supervisión médica. Sin embargo, para alergias crónicas, los médicos suelen preferir antihistamínicos no sedantes de segunda generación por su mejor perfil de seguridad a largo plazo."
+    },
+    {
+      "q": "¿Me puede ayudar a dormir?",
+      "a": "Sí, puede causar somnolencia y a veces se usa para el insomnio ocasional. Sin embargo, no es un medicamento indicado específicamente para dormir y puede causar efectos secundarios. No es la primera opción."
+    },
+    {
+      "q": "¿Por qué me da la boca tan seca?",
+      "a": "La sequedad de boca es un efecto anticolinérgico común de este tipo de antihistamínicos. Para aliviarlo, puede chupar caramelos duros sin azúcar, pedazos de hielo o beber agua frecuentemente."
+    },
+    {
+      "q": "¿Interfiere con las pastillas anticonceptivas?",
+      "a": "No hay evidencia de una interacción clínicamente significativa que reduzca la eficacia de los anticonceptivos hormonales."
+    },
+    {
+      "q": "¿Puedo tomarlo si tengo presión alta?",
+      "a": "Con precaución. Puede causar cambios en la presión arterial (generalmente leve hipotensión) y, en combinación con descongestionantes, puede elevarla. Informe a su médico si tiene hipertensión."
+    },
+    {
+      "q": "¿Es adictiva la dexclorfeniramina?",
+      "a": "No se considera una sustancia con potencial de abuso o dependencia física significativa. Sin embargo, su uso prolongado puede generar cierta tolerancia (se necesita más dosis para el mismo efecto) y dependencia psicológica en algunos casos."
+    },
+    {
+      "q": "¿Qué pasa si tomo más de la dosis recomendada?",
+      "a": "Puede sufrir una sobredosis. Los síntomas incluyen sueño profundo, confusión, alucinaciones, latidos cardíacos rápidos y, en casos graves, convulsiones o paro respiratorio. Busque atención médica de inmediato."
+    },
+    {
+      "q": "¿Puedo tomarlo si tengo glaucoma?",
+      "a": "NO si tiene glaucoma de ángulo cerrado. Su efecto anticolinérgico puede aumentar la presión intraocular y desencadenar un ataque agudo. Si tiene glaucoma de ángulo abierto, consulte a su oftalmólogo antes de usarlo."
+    },
+    {
+      "q": "¿Alivia la congestión nasal?",
+      "a": "Alivia la secreción nasal acuosa (moquita) por su efecto anticolinérgico, pero no es un descongestionante potente. Para la nariz tapada (congestión), suele combinarse con pseudoefedrina en algunos productos."
+    },
+    {
+      "q": "¿Afecta los resultados de pruebas de laboratorio?",
+      "a": "En raros casos, puede causar disminución de glóbulos blancos o plaquetas, lo que se vería en un hemograma. Informe al laboratorio que toma este medicamento."
+    },
+    {
+      "q": "¿Es seguro en adultos mayores?",
+      "a": "Requiere mucha precaución. Los ancianos son muy sensibles a sus efectos (confusión, mareo, retención de orina). Se debe iniciar con dosis muy bajas (la mitad de la dosis adulta) y vigilarlos de cerca."
+    },
+    {
+      "q": "¿Puedo combinarlo con otros medicamentos para la alergia?",
+      "a": "Generalmente NO se deben combinar dos antihistamínicos orales, ya que aumenta el riesgo de efectos secundarios. Las combinaciones deben ser indicadas por un médico (por ejemplo, con un descongestionante)."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre Polaramine y la dexclorfeniramina genérica?",
+      "a": "Polaramine es una marca comercial. La dexclorfeniramina es el nombre del principio activo. Los genéricos contienen el mismo principio activo, en la misma dosis, y deben tener la misma eficacia y seguridad, siempre que estén aprobados por COFEPRIS."
+    }
+  ]
+}

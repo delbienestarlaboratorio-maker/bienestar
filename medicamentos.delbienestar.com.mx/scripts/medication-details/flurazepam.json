@@ -1,0 +1,391 @@
+{
+  "name": "Flurazepam",
+  "summary": "El flurazepam es un medicamento de la familia de las benzodiazepinas, utilizado principalmente como hipnótico para tratar el insomnio severo y de corta duración. Actúa en el sistema nervioso central produciendo efectos sedantes, hipnóticos, ansiolíticos y relajantes musculares. Es importante clínicamente porque ayuda a iniciar y mantener el sueño en pacientes con dificultades significativas para dormir, pero su uso debe ser limitado en el tiempo debido al alto riesgo de desarrollar dependencia física y psicológica, así como tolerancia (necesidad de aumentar la dosis para lograr el mismo efecto). En México, es un medicamento controlado que requiere receta médica especial por su potencial de abuso y efectos adversos significativos, especialmente en adultos mayores donde puede causar confusión, caídas y deterioro cognitivo. Su uso prolongado no está recomendado y siempre debe ser supervisado por un médico especialista.",
+  "pharmacology": {
+    "mechanismOfAction": "El flurazepam actúa potenciando la actividad del neurotransmisor inhibitorio ácido gamma-aminobutírico (GABA) en el sistema nervioso central. Se une específicamente al sitio de las benzodiazepinas en el receptor GABA-A, lo que aumenta la frecuencia de apertura de los canales de cloruro dependientes de GABA. Este influjo de iones cloruro hiperpolariza la neurona, haciendo que sea menos excitable. Este mecanismo produce los efectos característicos de sedación, reducción de la ansiedad, relajación muscular e inducción del sueño. Su acción es más selectiva hacia los efectos hipnóticos que otros de su clase, aunque comparte el mecanismo general de todas las benzodiazepinas.",
+    "pharmacologicClass": "Benzodiazepina de vida media larga (derivado del 1,4-benzodiazepina)",
+    "therapeuticClass": "Hipnótico, Ansiolítico, Sedante",
+    "absorption": "Se absorbe bien por vía oral, con una biodisponibilidad aproximada del 83%. La absorción no se ve significativamente afectada por los alimentos, aunque estos pueden retrasar ligeramente la velocidad de absorción. Las concentraciones plasmáticas máximas (Cmax) se alcanzan entre 0.5 y 2 horas después de la administración oral.",
+    "distribution": "Se distribuye ampliamente por los tejidos corporales. Tiene una alta unión a proteínas plasmáticas (alrededor del 97%), principalmente a la albúmina. Su volumen de distribución (Vd) es de aproximadamente 3.4 L/kg, indicando una distribución extensa en los tejidos. Cruza fácilmente la barrera hematoencefálica y la placenta.",
+    "metabolism": "Se metaboliza extensamente en el hígado por desalquilación y hidroxilación, principalmente a través del sistema enzimático del citocromo P450, específicamente CYP3A4. Su metabolito principal y activo es el N-desalquilflurazepam, que es responsable de gran parte de su efecto farmacológico y tiene una vida media muy larga.",
+    "elimination": "La vida media de eliminación del flurazepam es de aproximadamente 2-3 horas, pero la de su metabolito activo principal (N-desalquilflurazepam) es extremadamente larga, entre 40 y 250 horas. Esto significa que los efectos pueden persistir durante varios días después de una sola dosis. Se elimina principalmente por vía renal (como metabolitos conjugados) y en menor medida por las heces.",
+    "onsetOfAction": "El inicio de acción para inducir el sueño es relativamente rápido, generalmente entre 15 y 45 minutos después de la administración oral.",
+    "durationOfAction": "Debido a la vida media extremadamente larga de su metabolito activo, la duración del efecto hipnótico puede extenderse de 7 a 8 horas, y los efectos residuales (como somnolencia diurna) pueden persistir durante el día siguiente e incluso más tiempo, especialmente con uso continuado."
+  },
+  "indications": {
+    "approved": [
+      "Insomnio de conciliación (dificultad para iniciar el sueño)",
+      "Insomnio de mantenimiento (despertares frecuentes durante la noche)",
+      "Insomnio transitorio o de corta duración (menos de 2-4 semanas)"
+    ],
+    "offLabel": [
+      "Ansiedad preoperatoria",
+      "Síndrome de piernas inquietas severo",
+      "Como coadyuvante en el manejo del síndrome de abstinencia alcohólica (en contextos hospitalarios específicos)",
+      "Espasmos musculares dolorosos"
+    ]
+  },
+  "dosage": {
+    "adults": "Para el insomnio: 15 mg a 30 mg por vía oral, administrados 15-30 minutos antes de acostarse. La dosis inicial recomendada suele ser de 15 mg, especialmente en mujeres y personas de complexión delgada. La dosis puede ajustarse según la respuesta y tolerancia, pero generalmente no se debe exceder los 30 mg.",
+    "pediatric": "NO está recomendado para uso en niños y adolescentes menores de 18 años debido a la falta de estudios de seguridad y eficacia, y al riesgo de efectos paradójicos (excitación).",
+    "elderly": "En adultos mayores (mayores de 65 años) o pacientes debilitados: La dosis inicial recomendada es de 15 mg antes de acostarse. Se debe usar con extrema precaución y solo si es estrictamente necesario, debido al mayor riesgo de efectos adversos graves como confusión, ataxia, caídas, fracturas y deterioro cognitivo.",
+    "renalImpairment": "Ajuste necesario en insuficiencia renal moderada a severa (TFG < 30 mL/min). Se recomienda iniciar con 15 mg y monitorizar estrechamente. Evitar su uso en insuficiencia renal terminal debido a la acumulación de metabolitos activos.",
+    "hepaticImpairment": "Contraindicado en insuficiencia hepática severa. En insuficiencia hepática leve a moderada (Child-Pugh A y B), usar con extrema precaución, iniciando con la dosis más baja posible (15 mg) y monitorizando de cerca, ya que el metabolismo está comprometido.",
+    "maxDose": "La dosis máxima diaria recomendada para adultos es de 30 mg. Nunca se debe duplicar la dosis si se olvida una toma."
+  },
+  "dosageForms": [
+    {
+      "form": "Cápsula",
+      "strengths": [
+        "15 mg",
+        "30 mg"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al flurazepam o a cualquier benzodiazepina",
+      "Miastenia gravis",
+      "Apnea del sueño severa no tratada",
+      "Insuficiencia respiratoria aguda o severa",
+      "Insuficiencia hepática severa (cirrosis descompensada)",
+      "Embarazo (especialmente primer trimestre)",
+      "Uso concomitante con itraconazol o ketoconazol (inhibidores potentes del CYP3A4)"
+    ],
+    "relative": [
+      "Glaucoma de ángulo estrecho",
+      "Depresión mayor con ideación suicida",
+      "Historia de abuso de sustancias o alcoholismo",
+      "Edad avanzada (>65 años)",
+      "Insuficiencia renal moderada-severa",
+      "Enfermedad pulmonar obstructiva crónica (EPOC) moderada",
+      "Trastornos psiquiátricos con posible reacción paradójica"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Somnolencia diurna residual",
+      "Mareo o aturdimiento",
+      "Dolor de cabeza",
+      "Sequedad de boca"
+    ],
+    "common": [
+      "Ataxia (dificultad para coordinar movimientos)",
+      "Confusión (especialmente en ancianos)",
+      "Visión borrosa o diplopía (visión doble)",
+      "Estreñimiento",
+      "Náuseas",
+      "Debilidad muscular generalizada",
+      "\"Resaca\" al día siguiente (sedación persistente)"
+    ],
+    "uncommon": [
+      "Efecto paradójico (excitación, ansiedad, irritabilidad, agresividad)",
+      "Amnesia anterógrada (dificultad para formar nuevos recuerdos)",
+      "Disminución de la libido",
+      "Erupción cutánea",
+      "Prurito (picazón)",
+      "Hipotensión ortostática (mareo al levantarse)",
+      "Alteraciones del apetito"
+    ],
+    "rare": [
+      "Ictericia (coloración amarilla de piel y ojos)",
+      "Depresión respiratoria (en dosis altas o con otros depresores del SNC)",
+      "Anemia, leucopenia o trombocitopenia",
+      "Dependencia física y síndrome de abstinencia",
+      "Reacciones de hipersensibilidad severa (angioedema, anafilaxia)"
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Alcohol",
+        "effect": "Potenciación severa de la depresión del sistema nervioso central, con riesgo de sedación profunda, depresión respiratoria, coma y muerte.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Opioides (morfina, oxicodona, tramadol, etc.)",
+        "effect": "Depresión aditiva del SNC y respiratoria, aumenta drásticamente el riesgo de sobredosis y muerte.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Otros depresores del SNC (barbitúricos, antipsicóticos, antidepresivos sedantes, antihistamínicos H1)",
+        "effect": "Aumento de la sedación, somnolencia y deterioro psicomotor.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores potentes del CYP3A4 (ketoconazol, itraconazol, claritromicina, ritonavir)",
+        "effect": "Aumentan significativamente las concentraciones plasmáticas de flurazepam, potenciando sus efectos y toxicidad.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inductores del CYP3A4 (rifampicina, carbamazepina, fenitoína, hierba de San Juan)",
+        "effect": "Disminuyen las concentraciones plasmáticas de flurazepam, reduciendo su eficacia.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Los alimentos grasos pueden retrasar ligeramente la absorción, pero no afectan significativamente la biodisponibilidad total. El ALCOHOL está absolutamente contraindicado, ya que potencia peligrosamente los efectos sedantes y el riesgo de depresión respiratoria.",
+    "withSupplements": "La hierba de San Juan (Hypericum perforatum) puede disminuir la eficacia del flurazepam al inducir su metabolismo. Suplementos con efectos sedantes (valeriana, kava, melatonina en dosis altas) pueden potenciar la somnolencia. Consultar siempre con el médico o farmacéutico."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "X",
+      "recommendation": "El flurazepam está CONTRAINDICADO durante el embarazo, especialmente en el primer trimestre, debido al riesgo de malformaciones congénitas (como labio leporino y paladar hendido). Su uso cerca del parto puede causar síndrome de abstinencia neonatal (hipotonía, dificultad para alimentarse, irritabilidad) y depresión respiratoria en el recién nacido. Las mujeres en edad fértil deben usar métodos anticonceptivos efectivos durante el tratamiento.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "El flurazepam y sus metabolitos se excretan en la leche materna en concentraciones significativas. Puede causar sedación, dificultad para alimentarse y pérdida de peso en el lactante. Está contraindicado durante la lactancia. Si su uso es absolutamente necesario, se debe suspender la lactancia materna.",
+    "pediatric": "No está aprobado para uso en niños y adolescentes menores de 18 años. Los efectos en el sistema nervioso central en desarrollo son impredecibles, con mayor riesgo de efectos paradójicos (excitación, agresividad) y alteraciones del comportamiento.",
+    "geriatric": "Los adultos mayores son extremadamente sensibles a los efectos del flurazepam. Las dosis deben reducirse a la mitad (iniciar con 15 mg o menos) y el tratamiento debe ser de la menor duración posible. El riesgo de caídas, fracturas de cadera, confusión, delirium y deterioro cognitivo acelerado es muy alto. Se prefieren alternativas no farmacológicas o medicamentos con vida media más corta."
+  },
+  "administration": {
+    "howToTake": "Tomar por vía oral, con o sin alimentos, aproximadamente 15-30 minutos antes de la hora de acostarse. Tragar la cápsula entera con un vaso lleno de agua. No triturar, masticar ni abrir la cápsula. Planificar tener al menos 7-8 horas completas para dormir después de tomarlo. Nunca tomar una dosis adicional en medio de la noche si se despierta.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (entre 15°C y 30°C), protegido de la luz, la humedad y el calor. Mantener fuera del alcance y vista de los niños y otras personas, en un lugar seguro preferentemente bajo llave, debido a su potencial de abuso.",
+    "specialInstructions": "Este medicamento puede causar somnolencia severa al día siguiente. Evite conducir, operar maquinaria pesada o realizar actividades que requieran alerta mental durante al menos 8-12 horas después de tomarlo, y hasta que se conozca su respuesta individual. No consuma bebidas alcohólicas. No suspenda el tratamiento abruptamente después de un uso prolongado (>2-4 semanas); debe reducirse la dosis gradualmente bajo supervisión médica para evitar el síndrome de abstinencia."
+  },
+  "monitoring": {
+    "labTests": [
+      "Función hepática (ALT, AST, bilirrubina) periódica en uso prolongado",
+      "Hemograma completo ocasional (por riesgo de citopenias)",
+      "Niveles de atención y función cognitiva (especialmente en ancianos)",
+      "Signos de dependencia o tolerancia"
+    ],
+    "frequency": "Evaluación clínica de la necesidad de continuar el tratamiento cada 2-4 semanas. Pruebas de función hepática cada 6-12 meses si el uso se extiende más allá de lo recomendado.",
+    "signsToWatch": [
+      "Somnolencia diurna excesiva que interfiere con actividades",
+      "Confusión, desorientación o pérdida de memoria",
+      "Dificultad para caminar, inestabilidad, caídas",
+      "Cambios de humor, irritabilidad o conductas agresivas",
+      "Dificultad para respirar o respiración lenta",
+      "Signos de dependencia (necesidad de aumentar la dosis, ansiedad por la siguiente toma)"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Somnolencia profunda",
+      "Confusión severa",
+      "Ataxia marcada (incapacidad para caminar)",
+      "Reflejos disminuidos",
+      "Hipotensión (presión baja)",
+      "Depresión respiratoria (respiración lenta y superficial)",
+      "Coma",
+      "En casos severos, paro cardiorrespiratorio y muerte"
+    ],
+    "treatment": "Manejo de soporte. Mantener la vía aérea permeable y asistir la ventilación si es necesario. Monitorización continua de signos vitales. Lavado gástrico o carbón activado solo si la ingestión es muy reciente (menos de 1-2 horas) y el paciente está consciente. No hay diálisis efectiva. El tratamiento es sintomático. El antídoto específico (flumazenil) debe usarse con precaución en pacientes dependientes por riesgo de desencadenar convulsiones por abstinencia.",
+    "antidote": "Flumazenil (Anexate®). Es un antagonista competitivo de las benzodiazepinas. Se usa en entorno hospitalario para revertir la sedación profunda o la depresión respiratoria. NO es de primera línea en sobredosis mixtas o en pacientes epilépticos o dependientes."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (receta controlada)",
+    "scheduleMexico": "Fracción III (Tres) de la Ley General de Salud. Psicotrópico con potencial de abuso y dependencia. La receta es retenida en la farmacia y tiene validez por 30 días.",
+    "fdaApprovalYear": "Aprobado por la FDA en 1970"
+  },
+  "brandsMexico": [
+    "Dalmadorm",
+    "Flurazepam Genfar",
+    "Flurazepam Rimsa",
+    "Noctal",
+    "Somnal"
+  ],
+  "clinicalPearls": [
+    "El metabolito activo N-desalquilflurazepam tiene una vida media de hasta 250 horas, lo que explica por qué la somnolencia diurna y el deterioro psicomotor pueden persistir por 2-3 días después de una sola dosis, un fenómeno que los pacientes a menudo no atribuyen al medicamento.",
+    "Es una de las benzodiazepinas con mayor riesgo de causar caídas y fracturas de cadera en adultos mayores, incluso con dosis bajas. Su uso en este grupo de edad debe ser excepcional y por el menor tiempo posible.",
+    "A pesar de ser un hipnótico eficaz, las guías clínicas actuales ya no lo consideran de primera línea para el insomnio crónico debido a su perfil de efectos adversos y riesgo de dependencia. Se prefieren terapias cognitivo-conductuales y medicamentos como los agonistas del receptor de melatonina o algunos antidepresivos sedantes."
+  ],
+  "patientCounseling": "Este medicamento es para ayudarle a dormir SOLO por corto tiempo (unas pocas semanas). Tómelo exactamente como se lo recetó su médico, justo antes de acostarse. Planee dormir al menos 7-8 horas completas después de tomarlo. Es NORMAL que al día siguiente se sienta somnoliento, mareado o 'como con resaca'; por su seguridad, NO maneje, no opere máquinas y evite decisiones importantes hasta que estos efectos desaparezcan. El alcohol está PROHIBIDO, ya que mezclarlos puede ser mortal. Guárdelo bajo llave, lejos del alcance de otras personas. No deje de tomarlo de golpe si lo ha usado por más de dos semanas; avise a su médico para que le indique cómo reducir la dosis poco a poco y evitar ansiedad, temblores o insomnio de rebote. Si siente que 'ya no le hace efecto' y necesita más pastillas para dormir, es una señal de alarma: consulte a su médico inmediatamente.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dificultad para conciliar el sueño",
+        "slug": "dificultad-para-conciliar-el-sueno"
+      },
+      {
+        "name": "Despertares frecuentes durante la noche",
+        "slug": "despertares-frecuentes-durante-la-noche"
+      },
+      {
+        "name": "Ansiedad severa que impide dormir",
+        "slug": "ansiedad-severa-que-impide-dormir"
+      },
+      {
+        "name": "Tensión muscular",
+        "slug": "tension-muscular"
+      },
+      {
+        "name": "Inquietud psicomotora",
+        "slug": "inquietud-psicomotora"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Insomnio transitorio o de corta duración",
+        "slug": "insomnio-transitorio"
+      },
+      {
+        "name": "Trastorno de ansiedad generalizada (como coadyuvante a corto plazo)",
+        "slug": "trastorno-de-ansiedad-generalizada"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Dependencia a benzodiazepinas",
+        "slug": "dependencia-a-benzodiazepinas"
+      },
+      {
+        "name": "Deterioro cognitivo",
+        "slug": "deterioro-cognitivo"
+      },
+      {
+        "name": "Delirium",
+        "slug": "delirium"
+      },
+      {
+        "name": "Fractura de cadera",
+        "slug": "fractura-de-cadera"
+      },
+      {
+        "name": "Depresión respiratoria",
+        "slug": "depresion-respiratoria"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Enzimas hepáticas (ALT, AST)",
+        "slug": "enzimas-hepaticas-alt-ast",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Bilirrubina",
+        "slug": "bilirrubina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Recuento de leucocitos",
+        "slug": "recuento-de-leucocitos",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Recuento de plaquetas",
+        "slug": "recuento-de-plaquetas",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Tiempo de reacción",
+        "slug": "tiempo-de-reaccion",
+        "effect": "Altera (aumenta)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-de-funcion-hepatica",
+        "reason": "Para detectar hepatotoxicidad por uso prolongado"
+      },
+      {
+        "name": "Hemograma completo",
+        "slug": "hemograma-completo",
+        "reason": "Para monitorizar posibles efectos en la médula ósea (citopenias)"
+      },
+      {
+        "name": "Evaluación cognitiva breve",
+        "slug": "evaluacion-cognitiva-breve",
+        "reason": "Para detectar deterioro de memoria y atención, especialmente en adultos mayores"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de IMC",
+        "slug": "calculadora-imc"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿El flurazepam me va a ayudar a dormir toda la noche?",
+      "a": "Sí, el flurazepam está diseñado para ayudarle a conciliar el sueño más rápido y a reducir los despertares durante la noche. Sin embargo, debido a que su efecto puede extenderse muchas horas, es crucial que planee dormir al menos 7-8 horas completas después de tomarlo, de lo contrario, es probable que al despertar aún se sienta muy somnoliento."
+    },
+    {
+      "q": "¿Puedo tomar flurazepam si tomo una copa de vino en la cena?",
+      "a": "NO, ABSOLUTAMENTE NO. Combinar flurazepam con alcohol es extremadamente peligroso. Ambos son depresores del sistema nervioso y sus efectos se potencian, pudiendo causar somnolencia profunda, dificultad para respirar, pérdida del conocimiento, coma e incluso la muerte. Debe evitar el alcohol por completo durante el tratamiento."
+    },
+    {
+      "q": "¿Cuánto tiempo puedo tomar flurazepam sin volverme adicto?",
+      "a": "El riesgo de desarrollar dependencia física y psicológica aumenta significativamente después de 2 a 4 semanas de uso continuo. Por esta razón, los médicos lo recetan solo para insomnio de corta duración (usualmente menos de 4 semanas). Si siente que lo necesita por más tiempo, es fundamental que lo hable con su médico para evaluar otras causas de su insomnio y opciones de tratamiento más seguras a largo plazo."
+    },
+    {
+      "q": "Me desperté a media noche, ¿puedo tomar otra pastilla?",
+      "a": "NO. Nunca debe tomar una dosis adicional de flurazepam en la misma noche. La dosis está calculada para durar toda la noche y una dosis extra aumenta drásticamente el riesgo de efectos secundarios graves al día siguiente, como somnolencia incapacitante, confusión y depresión respiratoria. Si se despierta, intente técnicas de relajación. Comente este problema con su médico en la siguiente consulta."
+    },
+    {
+      "q": "¿El flurazepam me va a dejar 'groggy' o como 'borracho' al día siguiente?",
+      "a": "Es un efecto secundario muy común, conocido como somnolencia diurna residual o 'resaca'. Debido a que el medicamento y sus metabolitos permanecen activos en su cuerpo por mucho tiempo, es probable que al despertar se sienta mareado, aturdido, con lentitud para pensar o con problemas de coordinación. Por su seguridad, evite conducir y realizar actividades de riesgo hasta que estos efectos desaparezcan completamente."
+    },
+    {
+      "q": "¿Puedo tomar flurazepam si soy mayor de 65 años?",
+      "a": "Se debe usar con EXTREMA precaución en adultos mayores. Su médico probablemente le recetará la dosis más baja posible (15 mg o menos) y solo si es estrictamente necesario, porque el riesgo de sufrir caídas, fracturas, confusión severa y pérdida de memoria es muy alto. Existen alternativas no farmacológicas y otros medicamentos que suelen ser más seguros para las personas de la tercera edad."
+    },
+    {
+      "q": "Olvidé tomar mi dosis anoche, ¿qué debo hacer?",
+      "a": "Si olvidó tomar el flurazepam a la hora de acostarse, NO lo tome a la mañana siguiente. Simplemente omita esa dosis y tome la siguiente a la hora habitual de la noche siguiente. Nunca duplique la dosis para compensar la olvidada, ya que esto puede causar una sobredosis."
+    },
+    {
+      "q": "¿El flurazepam es lo mismo que el clonazepam o el alprazolam?",
+      "a": "No, aunque todos son benzodiazepinas, tienen diferencias importantes. El flurazepam está aprobado principalmente para el insomnio, tiene un inicio de acción rápido y un efecto de MUY LARGA duración. El clonazepam se usa más para ansiedad y ciertos tipos de epilepsia, y el alprazolam para ataques de pánico y ansiedad, y su duración es más corta. No son intercambiables."
+    },
+    {
+      "q": "¿Puedo dejar de tomar flurazepam de golpe si ya no quiero usarlo?",
+      "a": "NO si lo ha estado tomando por más de 2-4 semanas. Suspenderlo abruptamente puede desencadenar un síndrome de abstinencia desagradable y potencialmente peligroso, que incluye ansiedad intensa, insomnio de rebote (peor que el original), temblores, sudoración, náuseas y, en casos severos, convulsiones. Debe consultar a su médico para que le indique un plan de reducción gradual de la dosis (deshabituación)."
+    },
+    {
+      "q": "¿El flurazepam puede causar pérdida de memoria?",
+      "a": "Sí, un efecto secundario conocido de las benzodiazepinas como el flurazepam es la amnesia anterógrada. Esto significa que puede tener dificultad para formar nuevos recuerdos de eventos que ocurren mientras el medicamento está activo en su cuerpo (por ejemplo, lo que pasó desde que lo tomó hasta que se despertó). Este efecto suele ser temporal, pero puede ser preocupante."
+    },
+    {
+      "q": "¿Puedo tomar flurazepam si tengo problemas en el hígado?",
+      "a": "Depende de la gravedad. En problemas hepáticos leves, se puede usar con mucha precaución y a dosis bajas, bajo estrecha supervisión médica. En insuficiencia hepática moderada o severa (como cirrosis) está CONTRAINDICADO, porque el hígado no puede metabolizarlo adecuadamente, lo que lleva a una acumulación peligrosa del medicamento en la sangre."
+    },
+    {
+      "q": "¿El flurazepam interactúa con mis otros medicamentos para la presión o el corazón?",
+      "a": "Puede interactuar. Puede potenciar el efecto de medicamentos para la presión, causando mareo al ponerse de pie (hipotensión ortostática). Es crucial que le informe a su médico y farmacéutico sobre TODOS los medicamentos que toma, incluyendo los de libre venta y suplementos, para que evalúen posibles interacciones peligrosas."
+    },
+    {
+      "q": "¿Puedo tomar flurazepam si estoy amamantando?",
+      "a": "NO. El flurazepam pasa a la leche materna en cantidades significativas y puede causar sedación excesiva, dificultad para alimentarse y otros problemas en el bebé. Si el tratamiento es absolutamente necesario, se debe suspender la lactancia materna. Hable con su médico sobre alternativas más seguras si está amamantando."
+    },
+    {
+      "q": "¿Qué hago si siento que el flurazepam 'ya no me hace efecto' y necesito más para dormir?",
+      "a": "Esa es una señal clásica de que está desarrollando TOLERANCIA, uno de los mayores riesgos de este medicamento. NO aumente la dosis por su cuenta. Informe a su médico inmediatamente. Es probable que sea momento de reevaluar su insomnio y considerar cambiar a un tratamiento no farmacológico (terapia) o a un medicamento diferente con menor riesgo de dependencia."
+    },
+    {
+      "q": "¿El flurazepam puede causar pesadillas o comportamientos raros mientras duermo?",
+      "a": "Sí, aunque es menos común, algunas personas experimentan reacciones paradójicas. En lugar de calmarse, pueden volverse agitadas, agresivas, confusas o tener sueños vívidos y pesadillas. También se han reportado casos de sonambulismo o comer dormido. Si experimenta esto, deje de tomar el medicamento y consulte a su médico de inmediato."
+    },
+    {
+      "q": "¿Es seguro comprar flurazepam genérico?",
+      "a": "En México, los medicamentos genéricos intercambiables (que tienen la leyenda \"GI\" o el logotipo correspondiente) han demostrado ser bioequivalentes al producto de marca, lo que significa que contienen el mismo principio activo, en la misma cantidad y que se absorben de manera similar en el cuerpo. Por lo tanto, son una opción segura y efectiva, siempre que los compre en una farmacia autorizada."
+    },
+    {
+      "q": "¿Por qué la receta de flurazepam es 'especial' y me la retienen en la farmacia?",
+      "a": "Porque el flurazepam está clasificado como un psicotrópico (Fracción III) en México, debido a su alto potencial de abuso, dependencia y uso indebido. La receta controlada es un mecanismo de seguridad para evitar que se compre sin supervisión médica y para llevar un registro de su dispensación. Es ilegal venderlo sin esta receta."
+    },
+    {
+      "q": "¿Qué es peor para el insomnio a largo plazo, el flurazepam o no dormir?",
+      "a": "Ambas son malas opciones. El insomnio crónico afecta la salud, pero el uso prolongado de flurazepam conlleva riesgos graves: dependencia, deterioro cognitivo, caídas y tolerancia. La mejor opción es tratar la causa raíz del insomnio. Un médico puede ayudarle con terapias conductuales (las más efectivas a largo plazo) o con medicamentos más modernos y seguros si son necesarios."
+    },
+    {
+      "q": "¿El flurazepam puede afectar mis análisis de sangre?",
+      "a": "Sí, aunque es raro, el uso prolongado de flurazepam puede causar alteraciones en los análisis de laboratorio. Puede elevar ligeramente las enzimas del hígado (transaminasas) y, en casos muy infrecuentes, disminuir los glóbulos blancos o las plaquetas. Por eso, si va a usarlo por un tiempo extendido, su médico podría solicitar análisis periódicos para monitorear estos parámetros."
+    },
+    {
+      "q": "Desde el punto de vista farmacológico, ¿por qué el flurazepam tiene un efecto tan prolongado comparado con otras benzodiazepinas para dormir?",
+      "a": "La clave está en su metabolismo. El flurazepam en sí tiene una vida media corta (2-3h), pero se transforma rápidamente en el hígado en su metabolito principal, el N-desalquilflurazepam. Este metabolito es igual de activo que el medicamento original, pero tiene una vida media de eliminación extremadamente larga (entre 40 y 250 horas). Esto significa que permanece activo en el cuerpo por días, proporcionando un efecto hipnótico prolongado pero también causando los notorios efectos residuales al día siguiente. Es por esto que se clasifica como una benzodiazepina de acción ultralarga."
+    }
+  ]
+}

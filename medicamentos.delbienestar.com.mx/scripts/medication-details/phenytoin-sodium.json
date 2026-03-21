@@ -1,0 +1,426 @@
+{
+  "name": "Fenitoína Sódica",
+  "summary": "La Fenitoína Sódica es un medicamento anticonvulsivante o antiepiléptico, utilizado principalmente para controlar y prevenir las convulsiones en pacientes con epilepsia. Actúa estabilizando las membranas de las neuronas en el cerebro, reduciendo la actividad eléctrica anormal que provoca las crisis. Es un fármaco de primera línea para el tratamiento de las crisis convulsivas tónico-clónicas generalizadas y las crisis focales, y también se emplea para prevenir convulsiones después de una cirugía cerebral o un traumatismo craneoencefálico. Su importancia clínica radica en su eficacia probada durante décadas, su bajo costo y su disponibilidad en el sector salud mexicano. Sin embargo, requiere un manejo cuidadoso debido a su estrecho margen terapéutico, lo que significa que la dosis efectiva está muy cerca de la dosis que puede causar toxicidad, por lo que es fundamental el seguimiento médico y los análisis de sangre periódicos para ajustar la dosis de manera individualizada y segura.",
+  "pharmacology": {
+    "mechanismOfAction": "La fenitoína actúa principalmente bloqueando los canales de sodio dependientes de voltaje en las neuronas. Cuando una neurona se excita, estos canales se abren para permitir la entrada de sodio, generando un impulso eléctrico. La fenitoína se une a estos canales cuando están en estado inactivo, estabilizándolos y prolongando su tiempo de recuperación. Esto impide que los canales se abran repetidamente a altas frecuencias, limitando así la propagación de la actividad eléctrica anormal desde un foco epiléptico hacia otras áreas del cerebro. Este efecto es 'uso-dependiente', es decir, es más potente cuando las neuronas están disparando de manera rápida y repetitiva, como ocurre durante una convulsión, mientras que tiene poco efecto sobre la actividad neuronal normal. Este mecanismo estabilizador de membrana es fundamental para suprimir las descargas paroxísticas sin deprimir excesivamente el sistema nervioso central.",
+    "pharmacologicClass": "Hidantoína",
+    "therapeuticClass": "Anticonvulsivante, Antiepiléptico, Estabilizador de la membrana neuronal",
+    "absorption": "La absorción oral es lenta y variable. Las cápsulas y suspensiones tienen una biodisponibilidad de aproximadamente 70-90%. La absorción puede ser errática, especialmente con las suspensiones, si no se agitan bien. La administración con alimentos puede alterar la velocidad de absorción, pero no la cantidad total absorbida. La forma intravenosa ofrece una biodisponibilidad del 100%.",
+    "distribution": "Se distribuye ampliamente por todo el cuerpo. Atraviesa la barrera hematoencefálica y se encuentra en el líquido cefalorraquídeo. Su unión a proteínas plasmáticas, principalmente albúmina, es alta (90-95%). Solo la fracción libre (no unida a proteínas) es farmacológicamente activa. El volumen de distribución es de aproximadamente 0.6-0.7 L/kg.",
+    "metabolism": "Se metaboliza casi por completo en el hígado por el sistema enzimático del citocromo P450, principalmente por las isoenzimas CYP2C9 y CYP2C19. El metabolismo es saturable, lo que significa que a dosis terapéuticas, las enzimas se saturan y pequeños incrementos en la dosis pueden producir grandes aumentos en las concentraciones plasmáticas, llevando rápidamente a la toxicidad. Este es un aspecto crítico de su farmacocinética.",
+    "elimination": "Sigue una cinética de eliminación de Michaelis-Menten (no lineal). La vida media es variable y depende de la concentración plasmática: a niveles terapéuticos, puede ser de 7-42 horas. A concentraciones más altas, la vida media se prolonga considerablemente. Se elimina principalmente en forma de metabolitos inactivos por la orina (menos del 5% se excreta sin cambios).",
+    "onsetOfAction": "Oral: El inicio de acción es lento, puede tardar varios días en alcanzar un estado estable en sangre. Intravenoso: El efecto anticonvulsivante puede observarse en minutos.",
+    "durationOfAction": "La duración del efecto después de una dosis oral única es de aproximadamente 24 horas, permitiendo una dosificación una o dos veces al día una vez alcanzado el estado estable."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento y profilaxis de crisis convulsivas tónico-clónicas generalizadas (gran mal).",
+      "Tratamiento y profilaxis de crisis convulsivas focales (parciales) simples o complejas.",
+      "Prevención y tratamiento de convulsiones en el contexto de neurocirugía o traumatismo craneoencefálico.",
+      "Tratamiento del estado epiléptico (vía intravenosa)."
+    ],
+    "offLabel": [
+      "Tratamiento de ciertas arritmias cardíacas (especialmente las inducidas por digitálicos).",
+      "Manejo de la neuralgia del trigémino cuando otros tratamientos fallan.",
+      "Profilaxis de convulsiones en el síndrome de abstinencia alcohólica."
+    ]
+  },
+  "dosage": {
+    "adults": "Dosis de carga: 15-20 mg/kg por vía intravenosa (en estado epiléptico). Dosis de mantenimiento: Iniciar con 100 mg por vía oral 2-3 veces al día (200-300 mg/día). La dosis usual de mantenimiento es de 300-400 mg/día, pero puede variar de 200 a 600 mg/día. La dosificación debe ser INDIVIDUALIZADA basada en niveles plasmáticos y respuesta clínica. Nunca ajustar la dosis sin supervisión médica.",
+    "pediatric": "Dosis de carga IV: 15-20 mg/kg. Dosis de mantenimiento oral: Iniciar con 5 mg/kg/día, dividido en 2-3 dosis. La dosis de mantenimiento habitual es de 4-8 mg/kg/día, dividida en 2-3 dosis. Los niños pueden metabolizar el fármaco más rápido que los adultos, requiriendo dosis más altas por peso.",
+    "elderly": "Los adultos mayores pueden tener un metabolismo más lento y una mayor sensibilidad a los efectos adversos. Se recomienda iniciar con dosis bajas (a menudo 3 mg/kg/día o menos) y ajustar lentamente. Monitorear estrechamente los niveles plasmáticos y los signos de toxicidad.",
+    "renalImpairment": "En insuficiencia renal, la unión a proteínas disminuye, aumentando la fracción libre activa del fármaco. Puede ser necesario reducir la dosis total. En pacientes con TFG < 10 mL/min o en diálisis, se requiere un ajuste significativo y monitoreo de niveles de fenitoína libre (no solo total). La hemodiálisis elimina poca fenitoína.",
+    "hepaticImpairment": "Contraindicado en hepatopatía grave activa. En insuficiencia hepática leve a moderada, el metabolismo está reducido, por lo que se deben usar dosis más bajas y ajustes muy lentos. Monitorear niveles plasmáticos con frecuencia y vigilar signos de toxicidad.",
+    "maxDose": "No existe una dosis máxima absoluta universal; la dosis máxima es la que mantiene niveles plasmáticos terapéuticos (10-20 mcg/mL) sin causar toxicidad. Dosis diarias superiores a 600 mg requieren una justificación muy cuidadosa y monitoreo intensivo."
+  },
+  "dosageForms": [
+    {
+      "form": "Cápsulas",
+      "strengths": [
+        "30 mg",
+        "100 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tabletas masticables",
+      "strengths": [
+        "50 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Suspensión oral",
+      "strengths": [
+        "30 mg/5 mL",
+        "125 mg/5 mL"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Ampolla inyectable",
+      "strengths": [
+        "50 mg/mL",
+        "250 mg/5 mL"
+      ],
+      "route": "Intravenosa lenta"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la fenitoína, otras hidantoínas o cualquier componente de la formulación.",
+      "Bloqueo auriculoventricular (AV) de segundo o tercer grado, bradicardia sinusal o síndrome de Adams-Stokes (por su efecto antiarrítmico).",
+      "Hepatopatía activa grave."
+    ],
+    "relative": [
+      "Porfiria (puede precipitar una crisis).",
+      "Hipoglucemia.",
+      "Lupus eritematoso sistémico (puede exacerbar los síntomas).",
+      "Disfunción hepática leve a moderada (requiere extrema precaución).",
+      "Alcoholismo crónico."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Nistagmo (movimientos involuntarios de los ojos).",
+      "Ataxia (pérdida de coordinación, marcha inestable).",
+      "Mareo, vértigo.",
+      "Visión borrosa o doble.",
+      "Hiperplasia gingival (agrandamiento de las encías)."
+    ],
+    "common": [
+      "Somnolencia.",
+      "Dolor de cabeza.",
+      "Náuseas, vómitos, estreñimiento.",
+      "Hirsutismo (crecimiento excesivo de vello).",
+      "Acné.",
+      "Erupción cutánea leve (maculopapular)."
+    ],
+    "uncommon": [
+      "Fiebre.",
+      "Linfadenopatía (inflamación de ganglios).",
+      "Neuropatía periférica (hormigueo en manos/pies).",
+      "Cambios de humor, irritabilidad.",
+      "Trombocitopenia (bajo recuento de plaquetas).",
+      "Leucopenia (bajo recuento de glóbulos blancos)."
+    ],
+    "rare": [
+      "Síndrome de Stevens-Johnson / Necrólisis Epidérmica Tóxica (erupción grave con ampollas).",
+      "Lupus eritematoso inducido por fármacos.",
+      "Hepatitis tóxica.",
+      "Pancitopenia (disminución de todas las células sanguíneas).",
+      "Pseudolinfoma.",
+      "Osteomalacia (ablandamiento de los huesos por deficiencia de vitamina D)."
+    ],
+    "blackBoxWarning": "Advertencia sobre riesgo de reacciones cutáneas graves potencialmente mortales (Síndrome de Stevens-Johnson, Necrólisis Epidérmica Tóxica). El riesgo es mayor en pacientes con variante genética HLA-B*1502, prevalente en poblaciones de ascendencia asiática (incluyendo nativos americanos, por lo que en México se debe considerar)."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Warfarina / Acenocumarol",
+        "effect": "La fenitoína aumenta el metabolismo de los anticoagulantes, reduciendo su efecto. Al suspender la fenitoína, el efecto anticoagulante puede aumentar peligrosamente.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Carbamazepina, Fenobarbital",
+        "effect": "Inducen enzimas hepáticas, aumentando el metabolismo de la fenitoína y disminuyendo sus niveles en sangre.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Valproato sódico / Ácido valproico",
+        "effect": "Desplaza a la fenitoína de su unión a proteínas (aumenta la fracción libre activa) e inhibe su metabolismo. El efecto neto es un aumento impredecible de la fenitoína activa, con riesgo de toxicidad.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Amiodarona, Cloramfenicol, Isoniazida, Fluconazol",
+        "effect": "Inhiben el metabolismo de la fenitoína (CYP2C9/C19), aumentando sus niveles en sangre y el riesgo de toxicidad.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Anticonceptivos orales",
+        "effect": "La fenitoína acelera su metabolismo, reduciendo drásticamente su eficacia anticonceptiva. Riesgo alto de embarazo no deseado.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "Los alimentos pueden retrasar la absorción, pero no la cantidad total absorbida. Es importante ser constante: tomarla siempre con alimentos o siempre en ayunas para evitar fluctuaciones. El consumo de ALCOHOL debe evitarse por completo, ya que puede alterar los niveles del fármaco, aumentar la somnolencia y el riesgo de convulsiones.",
+    "withSupplements": "El ÁCIDO FÓLICO en dosis altas puede disminuir los niveles de fenitoína. La VITAMINA D debe suplementarse con precaución, ya que la fenitoína puede causar deficiencia. Los suplementos de CALCIO pueden interferir con la absorción de la fenitoína si se toman al mismo tiempo (separar al menos 2-3 horas)."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "D",
+      "recommendación": "La fenitoína es teratogénica. Puede causar el 'Síndrome fetal por hidantoína', que incluye malformaciones craneofaciales, defectos cardíacos, retraso del crecimiento y discapacidad intelectual. Su uso en el embarazo solo se justifica si los beneficios superan claramente los riesgos, y la epilepsia no está controlada con alternativas más seguras (como lamotrigina o levetiracetam). Se requiere suplementación con ÁCIDO FÓLICO en dosis altas (4-5 mg/día) antes de la concepción y durante el primer trimestre. Los niveles plasmáticos deben monitorearse estrechamente, ya que cambian durante el embarazo.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La fenitoína se excreta en la leche materna en cantidades bajas. Generalmente se considera compatible con la lactancia, ya que la cantidad que recibe el lactante es pequeña y rara vez causa efectos adversos. Sin embargo, se debe monitorear al bebé por somnolencia, irritabilidad o problemas de alimentación. Es fundamental consultar con el neurólogo y pediatra.",
+    "pediatric": "Eficaz en niños, pero requiere ajuste cuidadoso por peso. La hiperplasia gingival es más común y severa en niños. Puede afectar el aprendizaje y el comportamiento. Monitorear crecimiento, desarrollo y niveles plasmáticos con frecuencia.",
+    "geriatric": "Mayor riesgo de efectos adversos, especialmente mareo, ataxia, somnolencia y caídas. El metabolismo puede estar reducido. Iniciar con dosis bajas y aumentar muy lentamente. Evaluar función hepática y renal antes de iniciar."
+  },
+  "administration": {
+    "howToTake": "Tomar exactamente como lo indique el médico, a las mismas horas todos los días. No suspender abruptamente, ya que puede provocar crisis convulsivas de rebote. Las cápsulas se pueden tomar con o sin alimentos, pero de manera constante. Las suspensiones orales DEBEN AGITARSE VIGOROSAMENTE durante al menos 30 segundos antes de cada uso para asegurar una dosis uniforme. Usar siempre el dosificador que viene con el frasco (cuchara o jeringa), no una cuchara casera. La forma intravenosa debe administrarse lentamente (no más de 50 mg/minuto en adultos) para evitar hipotensión y arritmias graves.",
+    "storage": "Conservar a temperatura ambiente (15-30°C), en un lugar seco y fuera del alcance de los niños. Proteger de la luz. No congelar la suspensión oral. Desechar cualquier medicamento vencido.",
+    "specialInstructions": "Mantener una excelente higiene bucal (cepillado, uso de hilo dental, enjuagues) para minimizar la hiperplasia gingival. Visitar al dentista regularmente. Llevar siempre una identificación médica (brazalete o tarjeta) que indique que toma fenitoína. Informar a todos los médicos, dentistas y farmacéuticos que toma este medicamento antes de cualquier procedimiento o nueva prescripción."
+  },
+  "monitoring": {
+    "labTests": [
+      "Niveles plasmáticos de fenitoína (rango terapéutico: 10-20 mcg/mL).",
+      "Biometría hemática completa (para detectar anemia, leucopenia, trombocitopenia).",
+      "Pruebas de función hepática (ALT, AST, bilirrubina, fosfatasa alcalina).",
+      "Albúmina sérica (para interpretar correctamente los niveles totales de fenitoína).",
+      "Niveles de vitamina D y calcio."
+    ],
+    "frequency": "Niveles plasmáticos: al inicio del tratamiento, después de cada ajuste de dosis (2-3 semanas después), y luego cada 6-12 meses en régimen estable. Biometría y función hepática: al inicio y luego cada 6-12 meses. En caso de síntomas de toxicidad o enfermedad intercurrente, monitorear de inmediato.",
+    "signsToWatch": [
+      "Signos de toxicidad: Mareo intenso, visión doble, nistagmo marcado, ataxia (tambaleo), confusión, náuseas/vómitos persistentes.",
+      "Signos de reacción alérgica grave: Erupción cutánea con ampollas, descamación, úlceras en boca/ojos, fiebre alta, dolor muscular.",
+      "Signos de infección (por baja de glóbulos blancos): Fiebre, dolor de garganta, llagas en la boca.",
+      "Sangrado o moretones inusuales (por baja de plaquetas).",
+      "Ictericia (color amarillo en piel/ojos), orina oscura, dolor abdominal (daño hepático)."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Nistagmo horizontal y vertical grave.",
+      "Ataxia severa (incapacidad para caminar).",
+      "Somnolencia progresiva hasta estupor y coma.",
+      "Movimientos oculares descoordinados (oftalmoplejía).",
+      "Hipotensión (presión baja).",
+      "Bradicardia (ritmo cardíaco lento) o paro cardíaco.",
+      "Depresión respiratoria."
+    ],
+    "treatment": "Es una EMERGENCIA MÉDICA. Llamar al 911. No existe antídoto específico. El tratamiento es de soporte: mantener vía aérea, respiración y circulación. Lavado gástrico si la ingestión fue reciente (con protección de vía aérea). Carbón activado puede ser útil. La hemodiálisis NO es efectiva. El tratamiento se enfoca en controlar los síntomas y esperar a que el cuerpo elimine el fármaco.",
+    "antidote": "null"
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (receta retenida en algunas farmacias por ser psicotrópico).",
+    "scheduleMexico": "Sujeta a control sanitario (Psychotropic Substances - Schedule III según la ONU). En México, está incluida en la lista de psicotrópicos, por lo que su venta requiere receta médica expedida en formato oficial y puede estar sujeta a bitácora en la farmacia.",
+    "fdaApprovalYear": "1938"
+  },
+  "brandsMexico": [
+    "Epamin",
+    "Dilantin",
+    "Fenidantoína",
+    "Eptoin",
+    "Fenitoína Genfar",
+    "Fenitoína Liomont",
+    "Fenitoína Sophia",
+    "Fenitoína Pisa",
+    "Fenitoína Rimsa"
+  ],
+  "clinicalPearls": [
+    "La relación dosis-nivel plasmático NO es lineal. Un pequeño aumento de dosis puede duplicar el nivel en sangre (farmacocinética saturable o de Michaelis-Menten).",
+    "En hipoalbuminemia (desnutrición, enfermedad renal/hepática), los niveles TOTALES de fenitoína pueden parecer normales, pero la fracción LIBRE (activa) está elevada, causando toxicidad. En estos casos, solicitar nivel de fenitoína LIBRE.",
+    "La suspensión oral se absorbe de manera errática. Educar al paciente sobre la agitación vigorosa y la consistencia en la administración (siempre con o siempre sin alimentos).",
+    "La hiperplasia gingival se puede minimizar con una higiene bucal meticulosa y masaje gingival.",
+    "Nunca sustituir una formulación por otra (ej. cápsulas por suspensión) sin reajustar la dosis y monitorear niveles, ya que la biodisponibilidad puede diferir."
+  ],
+  "patientCounseling": "Querido paciente, la fenitoína es un medicamento muy efectivo para controlar sus convulsiones, pero requiere su compromiso y atención. Tómela exactamente a la hora que le indicó su médico, sin saltarse dosis. Si olvida una dosis, tómela tan pronto como lo recuerde, pero si ya es casi la hora de la siguiente, omita la olvidada y continúe con su horario normal. NUNCA duplique la dosis. Mantenga una excelente higiene bucal: cepíllese los dientes y encías suavemente después de cada comida y use hilo dental. Este cuidado ayuda mucho a prevenir el crecimiento excesivo de las encías. Evite el consumo de alcohol. Informe a su médico de inmediato si aparece sarpullido, fiebre, moretones fáciles, sangrado, mareo intenso, visión doble o dificultad para caminar. Lleve siempre una identificación que diga que toma fenitoína. No deje de tomarla sin hablar con su neurólogo, aunque se sienta bien, porque podría provocar una crisis grave.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Convulsiones tónico-clónicas",
+        "slug": "convulsiones-tonico-clonicas"
+      },
+      {
+        "name": "Convulsiones focales",
+        "slug": "convulsiones-focales"
+      },
+      {
+        "name": "Aura epiléptica",
+        "slug": "aura-epileptica"
+      },
+      {
+        "name": "Estado epiléptico",
+        "slug": "estado-epileptico"
+      },
+      {
+        "name": "Neuralgia del trigémino",
+        "slug": "neuralgia-del-trigemino"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Epilepsia",
+        "slug": "epilepsia"
+      },
+      {
+        "name": "Epilepsia del lóbulo temporal",
+        "slug": "epilepsia-lobulo-temporal"
+      },
+      {
+        "name": "Crisis postraumáticas",
+        "slug": "crisis-postraumaticas"
+      },
+      {
+        "name": "Crisis postquirúrgicas cerebrales",
+        "slug": "crisis-postquirurgicas-cerebrales"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Síndrome de Stevens-Johnson",
+        "slug": "sindrome-stevens-johnson"
+      },
+      {
+        "name": "Necrólisis Epidérmica Tóxica",
+        "slug": "necrolisis-epidermica-toxica"
+      },
+      {
+        "name": "Hepatitis tóxica",
+        "slug": "hepatitis-toxica"
+      },
+      {
+        "name": "Osteomalacia",
+        "slug": "osteomalacia"
+      },
+      {
+        "name": "Lupus eritematoso inducido por fármacos",
+        "slug": "lupus-inducido-farmacos"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Nivel plasmático de fenitoína",
+        "slug": "nivel-fenitoina-plasmatica",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Fosfatasa alcalina",
+        "slug": "fosfatasa-alcalina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Gamma-GT",
+        "slug": "gamma-gt",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Vitamina D",
+        "slug": "vitamina-d",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Ácido fólico",
+        "slug": "acido-folico",
+        "effect": "Puede disminuir"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Nivel de fenitoína en sangre",
+        "slug": "nivel-fenitoina-sangre",
+        "reason": "Monitoreo terapéutico y prevención de toxicidad."
+      },
+      {
+        "name": "Biometría hemática completa",
+        "slug": "biometria-hematica-completa",
+        "reason": "Detectar anemia, leucopenia o trombocitopenia."
+      },
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-funcion-hepatica",
+        "reason": "Evaluar posible hepatotoxicidad."
+      },
+      {
+        "name": "Nivel de albúmina sérica",
+        "slug": "albumina-serica",
+        "reason": "Interpretar correctamente los niveles totales de fenitoína."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La fenitoína me cura la epilepsia?",
+      "a": "No, la fenitoína no cura la epilepsia. Es un tratamiento de control que ayuda a prevenir o reducir la frecuencia e intensidad de las convulsiones. Es como un 'freno' para la actividad eléctrica anormal del cerebro. Debe tomarse de por vida o según lo indique su neurólogo."
+    },
+    {
+      "q": "¿Puedo tomar fenitoína si estoy resfriado o tengo gripe?",
+      "a": "Sí, puede tomarla. Sin embargo, debe informar a su médico sobre cualquier otro medicamento que le receten para el resfriado, ya que algunos pueden interactuar. Evite productos que contengan alcohol."
+    },
+    {
+      "q": "¿Qué hago si se me olvida una dosis?",
+      "a": "Tómela tan pronto como lo recuerde. Pero si ya es casi la hora de su siguiente dosis, omita la dosis olvidada y continúe con su horario normal. NUNCA tome una dosis doble para compensar."
+    },
+    {
+      "q": "¿Puedo beber alcohol mientras tomo fenitoína?",
+      "a": "NO. El alcohol puede interferir con el efecto de la fenitoína, aumentar el riesgo de convulsiones, potenciar los efectos secundarios como mareo y somnolencia, y dañar su hígado."
+    },
+    {
+      "q": "¿La fenitoína me va a hacer engordar o adelgazar?",
+      "a": "No es común que cause cambios de peso significativos. Algunas personas pueden notar pérdida de apetito al inicio. Lo importante es mantener una dieta balanceada."
+    },
+    {
+      "q": "¿Puedo manejar o operar maquinaria?",
+      "a": "Debe tener EXTREMA PRECAUCIÓN. La fenitoína puede causar mareo, somnolencia y visión borrosa, especialmente al inicio del tratamiento o tras un ajuste de dosis. No maneje ni opere maquinaria peligrosa hasta que esté seguro de cómo le afecta."
+    },
+    {
+      "q": "¿Por qué me sangran más las encías y se ven más grandes?",
+      "a": "Este es un efecto secundario común llamado hiperplasia gingival. No es una infección, sino un crecimiento excesivo del tejido de las encías provocado por el medicamento. Se controla con una higiene bucal EXCELENTE: cepillado suave después de cada comida, uso de hilo dental y enjuagues. Visite a su dentista cada 6 meses."
+    },
+    {
+      "q": "¿Me salió un sarpullido, es grave?",
+      "a": "CUALQUIER SARPULLIDO durante el tratamiento con fenitoína debe ser evaluado por un médico INMEDIATAMENTE. Aunque puede ser una reacción leve, existe el riesgo (bajo pero grave) de reacciones cutáneas severas que ponen en peligro la vida. No espere a que desaparezca solo."
+    },
+    {
+      "q": "¿Puedo tomar té de manzanilla o otras hierbas?",
+      "a": "Consulte siempre con su médico o farmacéutico antes de tomar cualquier producto herbal. Algunas hierbas pueden interactuar con la fenitoína, alterando sus niveles en sangre."
+    },
+    {
+      "q": "¿La fenitoína afecta los métodos anticonceptivos?",
+      "a": "SÍ, GRAVEMENTE. La fenitoína reduce drásticamente la eficacia de las pastillas anticonceptivas, parches, anillos e implantes. Si está en edad fértil, debe usar un método anticonceptivo adicional de barrera (condón) o hablar con su ginecólogo sobre opciones no hormonales (DIU de cobre)."
+    },
+    {
+      "q": "¿Por qué el médico me pide tantos análisis de sangre?",
+      "a": "Por dos razones principales: 1) Para medir la cantidad de medicamento en su sangre y asegurarse de que está en el rango efectivo y seguro (ni muy bajo ni muy alto). 2) Para detectar a tiempo posibles efectos adversos en la sangre o el hígado. Es una parte fundamental del tratamiento seguro."
+    },
+    {
+      "q": "¿Puedo tomar suplementos de calcio o vitamina D?",
+      "a": "Sí, de hecho, a menudo se recomiendan porque la fenitoína puede causar deficiencia de vitamina D y debilitar los huesos. Sin embargo, el calcio puede interferir con la absorción de la fenitoína. Separe la toma de los suplementos de calcio al menos 2-3 horas de la toma de su fenitoína."
+    },
+    {
+      "q": "¿Qué pasa si tomo más de la dosis indicada por error?",
+      "a": "Es una INTOXICACIÓN GRAVE. Los síntomas son mareo intenso, visión doble, tambaleo, confusión y somnolencia extrema. Acuda de INMEDIATO al servicio de urgencias más cercano o llame al 911. Lleve el frasco del medicamento."
+    },
+    {
+      "q": "¿Puedo dejar de tomar la fenitoína de golpe si me siento bien?",
+      "a": "ABSOLUTAMENTE NO. Suspenderla abruptamente puede desencadenar crisis convulsivas graves, incluso más fuertes que antes, o un estado epiléptico (convulsión continua que es una emergencia médica). Cualquier cambio en la dosis debe ser supervisado lentamente por su neurólogo."
+    },
+    {
+      "q": "¿La fenitoína puede afectar mi memoria o mi capacidad para estudiar?",
+      "a": "En algunos pacientes, especialmente con niveles altos en sangre, puede causar dificultad para concentrarse, lentitud de pensamiento o problemas de memoria. Si nota esto, coméntelo con su médico para evaluar si es necesario ajustar la dosis. No significa que sea menos inteligente."
+    },
+    {
+      "q": "¿Es normal sentir mucho cansancio al empezar el tratamiento?",
+      "a": "Sí, la somnolencia y el cansancio son efectos secundarios comunes durante las primeras semanas, mientras su cuerpo se adapta. Suelen mejorar con el tiempo. Si persisten o son muy intensos, informe a su médico, podría ser un signo de que la dosis es muy alta para usted."
+    },
+    {
+      "q": "¿Puedo vacunarme si tomo fenitoína?",
+      "a": "Sí, en general no hay contraindicación. Sin embargo, debe informar al personal de salud que administra la vacuna sobre todos sus medicamentos. Existe una interacción teórica con la vacuna de la influenza (gripe) de virus vivos atenuados (spray nasal), por lo que se prefiere la vacuna inyectable."
+    },
+    {
+      "q": "¿La fenitoína cambia el color de la orina?",
+      "a": "No, la fenitoína no debe cambiar el color de la orina. Si nota orina de color rosa, rojo o café, podría indicar sangrado y debe consultar a su médico, ya que podría ser un efecto adverso poco común en los riñones o la sangre."
+    },
+    {
+      "q": "¿Qué pasa si necesito una cirugía o tratamiento dental?",
+      "a": "Es CRUCIAL que informe al cirujano, anestesiólogo y dentista que toma fenitoína. Puede afectar la forma en que su cuerpo procesa algunos anestésicos y medicamentos para el dolor. Además, necesitará mantener su dosis habitual incluso el día de la cirugía (a menos que el médico indique lo contrario)."
+    },
+    {
+      "q": "Mi médico me cambió de cápsulas a suspensión, ¿es lo mismo?",
+      "a": "No exactamente. La suspensión puede absorberse de manera diferente. Este cambio debe hacerse bajo supervisión médica y es muy probable que su médico le pida un nuevo análisis de niveles en sangre unas semanas después para asegurarse de que la dosis sigue siendo la correcta. Agite muy bien la suspensión antes de cada uso."
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "name": "Imipenem/Cilastatina",
+  "summary": "El Imipenem/Cilastatina es un antibiótico de potencia excepcional, reservado para infecciones graves y potencialmente mortales. Es una combinación de dos medicamentos: el Imipenem, que mata a las bacterias, y la Cilastatina, que protege al Imipenem de ser destruido rápidamente por los riñones, permitiendo que actúe por más tiempo en el cuerpo. Se utiliza en hospitales, administrado directamente en la vena (intravenoso), para combatir infecciones causadas por una amplia gama de bacterias, incluyendo aquellas que son resistentes a otros antibióticos más comunes. Su importancia clínica es crucial en situaciones como sepsis (infección en la sangre), neumonía grave adquirida en el hospital, infecciones intraabdominales complicadas e infecciones en pacientes con defensas bajas, como los que están en quimioterapia. Es considerado un antibiótico de 'último recurso' o de amplio espectro, por lo que su uso debe ser supervisado estrictamente por especialistas para evitar el desarrollo de más resistencia bacteriana.",
+  "pharmacology": {
+    "mechanismOfAction": "El Imipenem es un antibiótico carbapenémico que actúa interfiriendo con la síntesis de la pared celular bacteriana, una estructura esencial para la supervivencia de la bacteria. Se une a proteínas específicas en la membrana bacteriana (Proteínas Fijadoras de Penicilina, PBP), lo que bloquea la etapa final de la construcción de la pared. Esto debilita la pared, permite que entre agua y la bacteria finalmente estalla y muere (efecto bactericida). La Cilastatina no tiene actividad antibacteriana por sí misma. Su función es inhibir de manera competitiva y reversible a una enzima en los riñones llamada dehidropeptidasa-I (DHP-I). Esta enzima normalmente degradaría rápidamente al Imipenem en el túbulo renal, inactivándolo. Al bloquear esta enzima, la Cilastatina aumenta significativamente la concentración y el tiempo que el Imipenem activo permanece en la orina y en el torrente sanguíneo, potenciando su efecto terapéutico.",
+    "pharmacologicClass": "Carbapenémico (Imipenem) e inhibidor enzimático renal (Cilastatina).",
+    "therapeuticClass": "Antibiótico betalactámico de amplio espectro.",
+    "absorption": "No se absorbe por vía oral. Debe administrarse por vía intravenosa (IV) o intramuscular (IM) profunda. La biodisponibilidad por vía IV es del 100%. Tras una infusión IV de 30 minutos, se alcanzan concentraciones plasmáticas máximas (Cmax) proporcionales a la dosis.",
+    "distribution": "Se distribuye ampliamente en la mayoría de los tejidos y fluidos corporales, incluyendo líquido pleural, peritoneal, bilis, hueso, líquido cefalorraquídeo (especialmente cuando hay inflamación meníngea), y órganos como pulmones, riñones, hígado y corazón. Su unión a proteínas plasmáticas es baja (aproximadamente 20% para el Imipenem y 40% para la Cilastatina). El volumen de distribución (Vd) es de aproximadamente 0.2-0.3 L/kg, similar al volumen del agua extracelular.",
+    "metabolism": "El Imipenem es metabolizado en el riñón por la enzima dehidropeptidasa-I (DHP-I) en el borde en cepillo de los túbulos renales, produciendo un metabolito inactivo. La Cilastatina inhibe este metabolismo. No es un sustrato significativo del sistema enzimático citocromo P450 (CYP) hepático. La Cilastatina sufre un metabolismo mínimo.",
+    "elimination": "Se elimina principalmente por vía renal, mediante filtración glomerular y secreción tubular. Aproximadamente el 70% de la dosis se excreta sin cambios en la orina en 10 horas. La vida media de eliminación en adultos con función renal normal es de aproximadamente 1 hora para ambos componentes. En pacientes con insuficiencia renal grave, la vida media puede prolongarse hasta 3-4 horas, requiriendo ajuste de dosis.",
+    "onsetOfAction": "El inicio de acción es rápido. Las concentraciones bactericidas en suero se alcanzan minutos después del inicio de la infusión intravenosa.",
+    "durationOfAction": "Su efecto es dependiente del tiempo. Para una eficacia óptima, se requiere que la concentración del fármaco en sangre permanezca por encima de la concentración inhibitoria mínima (CIM) de la bacteria durante al menos 40-50% del intervalo entre dosis. Por esto, se administra en infusiones frecuentes (cada 6-8 horas) o en infusión continua prolongada en casos seleccionados."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones intraabdominales graves (peritonitis, abscesos)",
+      "Infecciones del tracto respiratorio inferior graves (neumonía nosocomial, neumonía asociada a ventilador)",
+      "Infecciones del tracto urinario complicadas (pielonefritis)",
+      "Sepsis bacteriana e infecciones del torrente sanguíneo (bacteriemia)",
+      "Infecciones de piel y tejidos blandos graves",
+      "Infecciones ginecológicas (endometritis, sepsis pélvica)",
+      "Infecciones óseas y articulares (osteomielitis, artritis séptica) cuando son causadas por organismos susceptibles",
+      "Profilaxis de infecciones en cirugía colorrectal (uso perioperatorio)"
+    ],
+    "offLabel": [
+      "Tratamiento de infecciones por bacterias multirresistentes (ej. Enterobacterias productoras de betalactamasas de espectro extendido -BLEE-, algunas cepas de *Acinetobacter baumannii* y *Pseudomonas aeruginosa*) cuando otras opciones fallan",
+      "Tratamiento empírico de fiebre neutropénica en pacientes oncológicos",
+      "Meningitis bacteriana por organismos resistentes a cefalosporinas de tercera generación (bajo estricta supervisión especializada)"
+    ]
+  },
+  "dosage": {
+    "adults": "Dosis estándar: 500 mg (de Imipenem) cada 6 horas o 1 g cada 8 horas, por infusión intravenosa (IV) de 20-60 minutos. Para infecciones graves o causadas por *Pseudomonas aeruginosa* menos sensible: 1 g cada 6-8 horas. Dosis máxima diaria: 4 g/día (50 mg/kg/día, lo que sea menor). Para profilaxis quirúrgica: 1 g al inicio de la anestesia, pudiendo repetirse una dosis a las 3 horas en cirugías prolongadas.",
+    "pediatric": "Lactantes ≥ 3 meses y niños: 15-25 mg/kg (basado en el componente Imipenem) cada 6 horas. Para meningitis: 25 mg/kg cada 6 horas. Dosis máxima pediátrica: 2 g/día en niños ≤12 años y 4 g/día en adolescentes >12 años y ≥40 kg.",
+    "elderly": "Los ajustes se basan principalmente en la función renal, no en la edad cronológica. Se debe calcular la Tasa de Filtración Glomerular (TFG) y ajustar la dosis según el esquema para insuficiencia renal. Monitorear estrechamente la función renal.",
+    "renalImpairment": "Ajustes basados en TFG (mL/min/1.73m²) para dosis de 500 mg: TFG 30-50: 500 mg cada 8h. TFG 20-30: 500 mg cada 12h. TFG 10-20: 250 mg cada 12h. TFG <10: 250 mg cada 24h (administrar después de la sesión de diálisis). Para dosis de 1 g: TFG 30-50: 1 g cada 8h. TFG 20-30: 1 g cada 12h. TFG 10-20: 500 mg cada 12h. TFG <10: 500 mg cada 24h. Se elimina en hemodiálisis, por lo que se debe administrar la dosis post-diálisis.",
+    "hepaticImpairment": "No se requiere ajuste de dosis específico para insuficiencia hepática, ya que no se metaboliza significativamente en el hígado. Sin embargo, en falla hepática grave, se debe vigilar estrechamente el estado clínico.",
+    "maxDose": "4 gramos de Imipenem por día (equivalente a 4 viales de 1g/1g o 8 viales de 500mg/500mg), o 50 mg/kg/día, lo que sea menor."
+  },
+  "dosageForms": [
+    {
+      "form": "Polvo liofilizado para solución inyectable",
+      "strengths": [
+        "250 mg Imipenem / 250 mg Cilastatina",
+        "500 mg Imipenem / 500 mg Cilastatina"
+      ],
+      "route": "Intravenosa (Infusión), Intramuscular (Profunda)"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad (alergia) conocida y grave al Imipenem, Cilastatina, a cualquier otro carbapenémico (meropenem, ertapenem, doripenem) o a cualquier componente de la formulación.",
+      "Pacientes con meningitis o infección del sistema nervioso central (SNC) que reciban la formulación intramuscular, ya que esta vía no alcanza concentraciones adecuadas en líquido cefalorraquídeo."
+    ],
+    "relative": [
+      "Pacientes con antecedentes de alergia a penicilinas o cefalosporinas (riesgo de reacción cruzada, aunque bajo, existe).",
+      "Insuficiencia renal grave (requiere ajuste de dosis obligatorio).",
+      "Epilepsia no controlada o trastornos convulsivos (aumenta el riesgo de convulsiones).",
+      "Embarazo (solo usar si el beneficio justifica claramente el riesgo)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Diarrea (puede ser por alteración de la flora intestinal o por *Clostridioides difficile*).",
+      "Náuseas.",
+      "Vómitos."
+    ],
+    "common": [
+      "Erupción cutánea (rash), prurito (comezón).",
+      "Flebitis o dolor en el sitio de la inyección IV.",
+      "Aumento de transaminasas (ALT, AST) en pruebas de función hepática.",
+      "Candidiasis oral o vaginal (infección por hongos)."
+    ],
+    "uncommon": [
+      "Convulsiones (especialmente con dosis altas, insuficiencia renal o enfermedad del SNC).",
+      "Colitis pseudomembranosa (infección grave por *C. difficile* con diarrea acuosa y cólicos).",
+      "Eosinofilia (aumento de un tipo de glóbulos blancos).",
+      "Trombocitosis (aumento de plaquetas).",
+      "Sabor metálico o amargo en la boca."
+    ],
+    "rare": [
+      "Anafilaxia (reacción alérgica grave).",
+      "Síndrome de Stevens-Johnson o necrólisis epidérmica tóxica (reacciones cutáneas graves).",
+      "Agranulocitosis (disminución grave de glóbulos blancos).",
+      "Hepatitis aguda.",
+      "Nefritis intersticial (daño renal)."
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Ácido Valproico / Valproato",
+        "effect": "El Imipenem/Cilastatina puede disminuir drásticamente los niveles sanguíneos de ácido valproico, reduciendo su efecto anticonvulsivante y aumentando el riesgo de convulsiones. Es una interacción farmacocinética.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Probenecid",
+        "effect": "El probenecid compite con la secreción tubular renal del Imipenem, pudiendo aumentar y prolongar sus niveles en sangre. No se recomienda la coadministración, ya que altera la farmacocinética predecible del medicamento.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Ganciclovir",
+        "effect": "Co-administración puede aumentar el riesgo de convulsiones. Se debe usar con extrema precaución y monitoreo neurológico.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "No aplica, ya que es un medicamento exclusivamente inyectable en entorno hospitalario. No interactúa con alimentos.",
+    "withSupplements": "No se han reportado interacciones clínicamente significativas con suplementos vitamínicos o herbales. Sin embargo, se debe informar al médico sobre cualquier suplemento que se esté tomando."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "C",
+      "recommendation": "Estudios en animales han mostrado efectos adversos fetales. No hay estudios adecuados y bien controlados en mujeres embarazadas. Solo debe usarse durante el embarazo si el beneficio potencial para la madre justifica claramente el riesgo potencial para el feto. Se reserva para infecciones graves que amenacen la vida de la madre y donde alternativas más seguras no sean adecuadas.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se desconoce si Imipenem/Cilastatina se excreta en la leche humana. Debido al potencial de efectos adversos graves en el lactante (como alteración de la flora intestinal y riesgo de sensibilización), se recomienda suspender la lactancia materna durante el tratamiento o, considerando la gravedad de las infecciones para las que se indica, evaluar cuidadosamente la relación beneficio/riesgo. Generalmente, por tratarse de un tratamiento hospitalario corto, se interrumpe la lactancia.",
+    "pediatric": "Seguro y efectivo en niños mayores de 3 meses para las indicaciones aprobadas. La dosis se calcula por peso corporal. En neonatos (menores de 3 meses), la seguridad y eficacia no están establecidas; su uso requiere supervisión de un especialista en infectología pediátrica.",
+    "geriatric": "Los pacientes de edad avanzada tienen mayor probabilidad de presentar función renal disminuida. Es IMPRESCINDIBLE calcular la TFG y ajustar la dosis en consecuencia para evitar acumulación del fármaco y toxicidad (especialmente convulsiones). También son más susceptibles a desarrollar colitis por *C. difficile*. Se requiere vigilancia estrecha."
+  },
+  "administration": {
+    "howToTake": "Este medicamento se administra SOLO en un entorno hospitalario o bajo supervisión médica especializada en el hogar (terapia intravenosa domiciliaria). Se reconstituye el polvo liofilizado con un diluyente estéril (como agua para inyección o solución salina al 0.9%) según las instrucciones del fabricante. La solución resultante se diluye aún más en un volumen mayor (ej. 100-250 mL) de solución salina al 0.9% o dextrosa al 5%. Se administra por infusión intravenosa lenta, generalmente durante 20 a 60 minutos. La vía intramuscular (solo para formulaciones específicas) es profunda, en un músculo grande como el glúteo, y puede ser dolorosa.",
+    "storage": "El polvo liofilizado sin reconstituir debe almacenarse a temperatura ambiente (15-30°C), protegido de la luz. Una vez reconstituido y diluido, la solución es estable por un tiempo limitado (consultar el inserto del fabricante, generalmente 4-24 horas a temperatura ambiente o refrigerada). No congelar. Desechar cualquier solución que esté turbia o contenga partículas.",
+    "specialInstructions": "NUNCA se debe inyectar en bolo (rápido). La infusión rápida puede causar náuseas, vómitos, mareo y aumentar el riesgo de convulsiones. En pacientes con insuficiencia renal, el intervalo entre dosis debe extenderse según la TFG. Informar inmediatamente al médico o enfermera si se presenta dolor intenso, enrojecimiento o hinchazón en el sitio de la inyección, o si aparece diarrea acuosa o con sangre durante o después del tratamiento."
+  },
+  "monitoring": {
+    "labTests": [
+      "Conteo sanguíneo completo (CSC) para vigilar glóbulos blancos y plaquetas.",
+      "Pruebas de función renal (creatinina sérica, BUN) y cálculo de TFG, especialmente al inicio y periódicamente durante tratamientos prolongados.",
+      "Pruebas de función hepática (ALT, AST, bilirrubina).",
+      "Cultivos bacterianos y pruebas de sensibilidad (antibiograma) para guiar la duración y eficacia del tratamiento.",
+      "En pacientes con riesgo, monitorización de niveles de ácido valproico si se co-administra."
+    ],
+    "frequency": "Función renal: al inicio y cada 2-3 días en tratamientos largos o si hay cambios clínicos. CSC y función hepática: al inicio y semanalmente en tratamientos prolongados (>1 semana). Signos clínicos: diariamente.",
+    "signsToWatch": [
+      "Fiebre persistente o que reaparece.",
+      "Diarrea acuosa, con moco o sangre (posible colitis por *C. difficile*).",
+      "Erupción cutánea nueva o que empeora.",
+      "Convulsiones, temblores, confusión o somnolencia excesiva.",
+      "Dificultad para respirar, hinchazón de cara/lengua (signos de alergia).",
+      "Dolor abdominal intenso, náuseas/vómitos persistentes.",
+      "Llagas blancas en boca o vagina (candidiasis)."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Los síntomas de sobredosis son una extensión de los efectos adversos, principalmente: convulsiones (el riesgo más grave), náuseas, vómitos, diarrea, confusión, mareo y exacerbación de la toxicidad renal en pacientes con función renal comprometida."
+    ],
+    "treatment": "No existe un antídoto específico. El tratamiento es de soporte y sintomático. En caso de convulsiones, se administran anticonvulsivantes (benzodiacepinas). El medicamento se elimina por hemodiálisis, por lo que esta puede ser útil en casos de sobredosis grave, especialmente en pacientes con insuficiencia renal. Se debe mantener la hidratación y la función renal.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (de alta vigilancia). Es un medicamento de uso restringido, generalmente manejado por especialistas en hospitales.",
+    "scheduleMexico": "Medicamento de la Fracción IV (Psicotrópicos y otros de control especial). Requiere receta médica expedida en formato oficial y su venta está sujeta a control y registro.",
+    "fdaApprovalYear": "1985 (Estados Unidos)"
+  },
+  "brandsMexico": [
+    "Tienam",
+    "Imipen",
+    "Cilapen",
+    "Imicil",
+    "Penem",
+    "Imax",
+    "Imipenem/Cilastatina Pisa",
+    "Imipenem/Cilastatina Liomont"
+  ],
+  "clinicalPearls": [
+    "Es un antibiótico de 'última línea' o 'reserva'. Su uso indiscriminado promueve la resistencia bacteriana a los carbapenémicos, un problema de salud pública grave. Úselo solo cuando sea estrictamente necesario.",
+    "La combinación con Cilastatina es clave: sin ella, el Imipenem tendría una vida media muy corta y su eficacia clínica sería mínima.",
+    "El riesgo de convulsiones es dosis-dependiente y aumenta en pacientes con insuficiencia renal, daño cerebral previo o meningitis. Ajustar la dosis por TFG es la principal estrategia preventiva.",
+    "Puede causar falsos positivos en pruebas de glucosa en orina que usan el método de reducción de cobre (Clinitest). Use tiras reactivas con glucosa oxidasa (como Glucostix) para monitorear a pacientes diabéticos.",
+    "En infecciones por *Pseudomonas aeruginosa*, se recomiendan dosis más altas (1g cada 6-8h) y se debe considerar la terapia combinada con un aminoglucósido (como amikacina) por sinergia y para prevenir el desarrollo de resistencia."
+  ],
+  "patientCounseling": "Este es un antibiótico muy fuerte que se usa solo para infecciones graves y se administra directamente en su vena en el hospital. Es crucial que reciba todas las dosis a la hora exacta que le indique la enfermera. Informe de inmediato a su médico si siente mucho dolor donde le ponen la inyección, si le sale salpullido, si tiene mucha comezón, o si le da diarrea líquida o con sangre durante el tratamiento o incluso varias semanas después de terminarlo. Si tiene epilepsia o problemas de los riñones, asegúrese de que su médico lo sepa. Aunque se sienta mejor, NO interrumpa el tratamiento antes de lo indicado, ya que la infección podría regresar y ser más difícil de tratar. Este medicamento no se puede comprar en farmacias comunes sin una receta especial del hospital.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre alta",
+        "slug": "fiebre-alta"
+      },
+      {
+        "name": "Escalofríos y sudoración",
+        "slug": "escalofrios-sudoracion"
+      },
+      {
+        "name": "Dolor abdominal intenso",
+        "slug": "dolor-abdominal-intenso"
+      },
+      {
+        "name": "Tos con flema purulenta",
+        "slug": "tos-flema-purulenta"
+      },
+      {
+        "name": "Dificultad para respirar",
+        "slug": "disnea-dificultad-respirar"
+      },
+      {
+        "name": "Dolor o ardor al orinar",
+        "slug": "disuria-dolor-al-orinar"
+      },
+      {
+        "name": "Confusión o alteración del estado mental",
+        "slug": "confusion-alteracion-mental"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Sepsis o infección en la sangre",
+        "slug": "sepsis"
+      },
+      {
+        "name": "Neumonía nosocomial (adquirida en el hospital)",
+        "slug": "neumonia-nosocomial"
+      },
+      {
+        "name": "Peritonitis (infección del abdomen)",
+        "slug": "peritonitis"
+      },
+      {
+        "name": "Pielonefritis (infección renal grave)",
+        "slug": "pielonefritis"
+      },
+      {
+        "name": "Infecciones por bacterias multirresistentes",
+        "slug": "infecciones-bacterias-multirresistentes"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Colitis pseudomembranosa por *C. difficile*",
+        "slug": "colitis-pseudomembranosa"
+      },
+      {
+        "name": "Convulsiones",
+        "slug": "convulsiones"
+      },
+      {
+        "name": "Insuficiencia renal aguda",
+        "slug": "insuficiencia-renal-aguda"
+      },
+      {
+        "name": "Reacciones alérgicas graves (anafilaxia)",
+        "slug": "anafilaxia"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar (indicativo de daño renal)"
+      },
+      {
+        "name": "Transaminasas (ALT, AST)",
+        "slug": "transaminasas-alt-ast",
+        "effect": "Puede elevar (indicativo de daño hepático)"
+      },
+      {
+        "name": "Eosinófilos",
+        "slug": "eosinofilos",
+        "effect": "Puede elevar (indicativo de reacción alérgica)"
+      },
+      {
+        "name": "Recuento de plaquetas",
+        "slug": "plaquetas",
+        "effect": "Puede elevar (trombocitosis)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Cultivo y antibiograma",
+        "slug": "cultivo-antibiograma",
+        "reason": "Identificar la bacteria causante y su sensibilidad al Imipenem"
+      },
+      {
+        "name": "Tasa de Filtración Glomerular (TFG)",
+        "slug": "tasa-filtracion-glomerular",
+        "reason": "Ajustar la dosis de forma precisa según función renal"
+      },
+      {
+        "name": "Conteo sanguíneo completo",
+        "slug": "conteo-sanguineo-completo",
+        "reason": "Monitorear efectos en glóbulos blancos y plaquetas"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué tipo de infecciones me recetaron este antibiótico?",
+      "a": "Se usa para infecciones graves que requieren hospitalización, como infecciones en la sangre (sepsis), pulmonía grave, infecciones abdominales complicadas o infecciones causadas por bacterias resistentes a otros antibióticos."
+    },
+    {
+      "q": "¿Por qué me lo ponen en la vena y no en pastillas?",
+      "a": "Porque es un medicamento muy potente que necesita llegar rápidamente y en altas concentraciones a todo el cuerpo para combatir la infección grave. La vía intravenosa asegura que el 100% del medicamento entre al torrente sanguíneo de inmediato."
+    },
+    {
+      "q": "¿Cuánto tiempo dura el tratamiento?",
+      "a": "La duración depende de la infección y de su respuesta. Puede ser desde 5-7 días para algunas infecciones hasta varias semanas para infecciones muy profundas como en los huesos. Su médico decidirá basándose en su evolución."
+    },
+    {
+      "q": "Me da mucha diarrea, ¿es normal?",
+      "a": "La diarrea es un efecto común porque el antibiótico altera las bacterias buenas del intestino. Sin embargo, si la diarrea es muy líquida, abundante, con sangre o cólicos fuertes, AVISE INMEDIATAMENTE. Podría ser una infección grave llamada colitis por *C. difficile*."
+    },
+    {
+      "q": "¿Puedo tomar alcohol mientras me ponen este tratamiento?",
+      "a": "No se recomienda. Aunque no hay una interacción directa grave reportada, el alcohol puede debilitar su sistema inmunológico y empeorar algunos efectos secundarios como náuseas o mareo. Lo mejor es evitarlo hasta terminar el tratamiento."
+    },
+    {
+      "q": "¿Este medicamento le hará daño a mis riñones?",
+      "a": "Puede afectar la función renal, especialmente si ya tiene problemas previos. Por eso los médicos revisan sus análisis de sangre (creatinina) con frecuencia y ajustan la dosis. Beber los líquidos que le indiquen ayuda a proteger los riñones."
+    },
+    {
+      "q": "¿Puede causarme alergia?",
+      "a": "Sí, como cualquier medicamento. Los síntomas de alergia pueden ser salpullido, comezón, hinchazón de cara/labios, o dificultad para respirar. Si presenta alguno, avise de inmediato al personal de enfermería."
+    },
+    {
+      "q": "¿Por qué a veces me duele el brazo donde me lo inyectan?",
+      "a": "Es común que cause irritación en la vena (flebitis). Para minimizarlo, la infusión debe ser lenta (20-60 min). Informe si el dolor es intenso, si el área se pone muy roja, caliente o hinchada."
+    },
+    {
+      "q": "Si me siento mejor, ¿puedo irme a mi casa y terminar el tratamiento ahí?",
+      "a": "NO. Este es un medicamento de alto riesgo que requiere administración y monitoreo hospitalario. Solo en casos muy seleccionados y con un equipo especializado se puede continuar la terapia intravenosa en casa."
+    },
+    {
+      "q": "¿Este antibiótico me va a quitar el sueño o me va a poner nervioso?",
+      "a": "No es un efecto común directo, pero en dosis altas o si hay problemas renales, puede causar efectos en el sistema nervioso como confusión, somnolencia o, en raros casos, convulsiones. Reporte cualquier cambio en su estado mental."
+    },
+    {
+      "q": "¿Afecta los métodos anticonceptivos como las pastillas?",
+      "a": "No hay evidencia de que el Imipenem/Cilastatina reduzca la efectividad de los anticonceptivos hormonales (pastillas, parches, anillo). Sin embargo, si presenta vómitos o diarrea grave, la absorción de la pastilla podría verse afectada; use un método de respaldo."
+    },
+    {
+      "q": "¿Puedo comer de todo durante el tratamiento?",
+      "a": "Sí, no hay restricciones dietéticas específicas. Mantener una buena alimentación e hidratación ayuda a su recuperación. Si tiene náuseas, coma porciones pequeñas y frecuentes."
+    },
+    {
+      "q": "¿Por qué es tan importante que me lo pongan a la hora exacta?",
+      "a": "Para mantener niveles constantes del antibiótico en su sangre que sean efectivos para matar a las bacterias las 24 horas del día. Si los niveles bajan, las bacterias pueden recuperarse y volverse resistentes."
+    },
+    {
+      "q": "¿Qué pasa si me falta una dosis?",
+      "a": "En el hospital es poco probable. Si ocurriera, el personal médico evaluará cuándo administrar la siguiente dosis. Nunca se debe duplicar la dosis para compensar la que se omitió."
+    },
+    {
+      "q": "¿Este medicamento es lo mismo que la penicilina?",
+      "a": "No, pero son parientes lejanos. Ambos son antibióticos betalactámicos. El Imipenem es de la familia de los carbapenémicos, que son de espectro mucho más amplio y potencia superior. Si es alérgico a la penicilina, existe un riesgo bajo de reacción cruzada, pero se usará con precaución."
+    },
+    {
+      "q": "¿Sirve para la gripe o el COVID-19?",
+      "a": "NO. Es un ANTIBIÓTICO, por lo que solo mata BACTERIAS. La gripe y el COVID-19 son causados por VIRUS. Usarlo para infecciones virales es inútil, aumenta los efectos secundarios y promueve la resistencia bacteriana."
+    },
+    {
+      "q": "¿Qué cuidados debo tener después de terminar el tratamiento?",
+      "a": "Completar cualquier otro medicamento que le hayan recetado (como para los hongos). Estar atento a la reaparición de fiebre o diarrea (incluso semanas después). Seguir las recomendaciones de su médico para fortalecer sus defensas."
+    },
+    {
+      "q": "¿Por qué a veces lo combinan con otro antibiótico?",
+      "a": "En infecciones muy graves o por bacterias como *Pseudomonas*, se puede usar junto con otro antibiótico de una clase diferente (ej. un aminoglucósido) para atacar a la bacteria por dos frentes distintos, aumentar la potencia y reducir el riesgo de que desarrolle resistencia."
+    },
+    {
+      "q": "¿Qué es la Cilastatina y por qué va combinada?",
+      "a": "La Cilastatina es un 'protector' del Imipenem. Sin ella, los riñones destruirían rápidamente el Imipenem, haciendo que el tratamiento fuera ineficaz. La Cilastatina bloquea esa destrucción, permitiendo que el Imipenem actúe por más tiempo en su cuerpo."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre Imipenem y Meropenem?",
+      "a": "Ambos son carbapenémicos muy potentes. El Meropenem tiene un riesgo ligeramente menor de causar convulsiones, se puede infundir más rápido (en 15-30 min) y no necesita un inhibidor como la Cilastatina. La elección depende de la bacteria sospechada, el tipo de infección y el perfil del paciente."
+    }
+  ]
+}

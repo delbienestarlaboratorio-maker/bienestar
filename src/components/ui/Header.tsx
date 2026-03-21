@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { Search, Menu, Phone, User, Heart, LogOut, Settings, X, TestTube, MapPin, Tag, FileText, Gift, HelpCircle, BookOpen, Info, Calculator, Stethoscope, Activity } from 'lucide-react';
+import { Search, Menu, Phone, User, Heart, LogOut, Settings, X, TestTube, MapPin, Tag, FileText, Gift, HelpCircle, BookOpen, Info, Calculator, Stethoscope, Activity, ChevronDown } from 'lucide-react';
 import { SearchBar } from './SearchBar';
 import { CartBadge } from '@/components/cart/CartBadge';
 import { useState, useEffect } from 'react';
@@ -30,6 +30,7 @@ export const Header = () => {
     const [showSearch, setShowSearch] = useState(false);
     const [showMobileMenu, setShowMobileMenu] = useState(false);
     const [showUserMenu, setShowUserMenu] = useState(false);
+    const [showHerramientas, setShowHerramientas] = useState(false);
     const { data: session } = useSession();
 
     // Lock body scroll when mobile menu is open
@@ -44,7 +45,7 @@ export const Header = () => {
 
     return (
         <header className="bg-white border-b border-gray-100 sticky top-0 z-50 shadow-sm">
-            <div className="max-w-7xl mx-auto px-4 overflow-hidden">
+            <div className="max-w-7xl mx-auto px-4">
                 {/* Main Header Row */}
                 <div className="h-20 flex items-center justify-between gap-2">
                     {/* Logo */}
@@ -62,7 +63,7 @@ export const Header = () => {
                     </Link>
 
                     {/* Desktop Nav */}
-                    <nav className="hidden lg:flex items-center gap-1 xl:gap-2 flex-shrink min-w-0">
+                    <nav className="hidden lg:flex items-center gap-4 xl:gap-5 flex-shrink min-w-0">
                         <Link
                             href="/estudios/analisis-clinicos"
                             className="text-gray-600 hover:text-green-600 text-sm font-medium transition-colors flex items-center gap-1 whitespace-nowrap"
@@ -72,28 +73,59 @@ export const Header = () => {
                         </Link>
                         <Link href="/paquetes" className="text-gray-600 hover:text-green-600 text-sm font-medium transition-colors whitespace-nowrap">Paquetes</Link>
                         <Link href="/sucursales" className="text-gray-600 hover:text-green-600 text-sm font-medium transition-colors whitespace-nowrap">Sucursales</Link>
-                        <Link href="/sintomas" className="text-gray-600 hover:text-rose-600 text-sm font-medium transition-colors whitespace-nowrap">
-                            Síntomas
-                        </Link>
-                        <Link href="/enfermedades" className="text-gray-600 hover:text-blue-700 text-sm font-medium transition-colors whitespace-nowrap">
-                            Enfermedades
-                        </Link>
-                        <Link href="/valores-clinicos" className="text-gray-600 hover:text-indigo-600 text-sm font-medium transition-colors whitespace-nowrap">
-                            Biomarcadores
-                        </Link>
-                        <Link href="/herramientas" className="hidden xl:block text-gray-600 hover:text-green-600 text-sm font-medium transition-colors whitespace-nowrap">Herramientas</Link>
-                        <Link href="/precios" className="text-gray-600 hover:text-green-600 text-sm font-medium transition-colors whitespace-nowrap">
-                            Precios
-                        </Link>
+                        <Link href="/precios" className="text-gray-600 hover:text-green-600 text-sm font-medium transition-colors whitespace-nowrap">Precios</Link>
                         <Link href="/nosotros" className="hidden xl:block text-gray-600 hover:text-green-600 text-sm font-medium transition-colors whitespace-nowrap">Nosotros</Link>
                         <Link href="/promociones" className="hidden xl:block text-gray-600 hover:text-green-600 text-sm font-medium transition-colors whitespace-nowrap">Promociones</Link>
+
+                        {/* Herramientas Dropdown */}
+                        <div
+                            className="relative"
+                            onMouseEnter={() => setShowHerramientas(true)}
+                            onMouseLeave={() => setShowHerramientas(false)}
+                        >
+                            <button
+                                className="text-gray-600 hover:text-green-600 text-sm font-medium transition-colors flex items-center gap-1 whitespace-nowrap py-2"
+                                onClick={() => setShowHerramientas(!showHerramientas)}
+                            >
+                                Herramientas
+                                <ChevronDown size={14} className={`transition-transform ${showHerramientas ? 'rotate-180' : ''}`} />
+                            </button>
+                            {showHerramientas && (
+                                <div className="absolute top-full left-0 pt-1 z-50">
+                                    <div className="w-56 bg-white rounded-xl shadow-xl border border-gray-100 py-2">
+                                        <Link href="/sintomas" className="flex items-center gap-3 px-4 py-2.5 hover:bg-green-50 transition-colors" onClick={() => setShowHerramientas(false)}>
+                                            <Stethoscope size={18} className="text-rose-500" />
+                                            <span className="text-sm text-gray-700 font-medium">Síntomas A-Z</span>
+                                        </Link>
+                                        <Link href="/enfermedades" className="flex items-center gap-3 px-4 py-2.5 hover:bg-green-50 transition-colors" onClick={() => setShowHerramientas(false)}>
+                                            <BookOpen size={18} className="text-blue-600" />
+                                            <span className="text-sm text-gray-700 font-medium">Enfermedades CIE-10</span>
+                                        </Link>
+                                        <Link href="/valores-clinicos" className="flex items-center gap-3 px-4 py-2.5 hover:bg-green-50 transition-colors" onClick={() => setShowHerramientas(false)}>
+                                            <Activity size={18} className="text-indigo-500" />
+                                            <span className="text-sm text-gray-700 font-medium">Biomarcadores</span>
+                                        </Link>
+                                        <Link href="/herramientas" className="flex items-center gap-3 px-4 py-2.5 hover:bg-green-50 transition-colors" onClick={() => setShowHerramientas(false)}>
+                                            <Calculator size={18} className="text-teal-600" />
+                                            <span className="text-sm text-gray-700 font-medium">Calculadoras Médicas</span>
+                                        </Link>
+                                        <div className="border-t border-gray-100 my-1" />
+                                        <Link href="/blog" className="flex items-center gap-3 px-4 py-2.5 hover:bg-green-50 transition-colors" onClick={() => setShowHerramientas(false)}>
+                                            <FileText size={18} className="text-green-600" />
+                                            <span className="text-sm text-gray-700 font-medium">Blog de Salud</span>
+                                        </Link>
+                                    </div>
+                                </div>
+                            )}
+                        </div>
+
                         <Link href="/resultados" className="bg-green-50 text-green-700 px-3 py-1.5 rounded-lg text-sm font-bold hover:bg-green-100 transition-colors whitespace-nowrap">
                             Resultados
                         </Link>
                     </nav>
 
                     {/* Actions */}
-                    <div className="flex items-center gap-3">
+                    <div className="flex items-center gap-2 flex-shrink-0">
                         {/* Search Toggle (Mobile) */}
                         <button
                             onClick={() => setShowSearch(!showSearch)}
@@ -103,10 +135,10 @@ export const Header = () => {
                             <Search size={24} />
                         </button>
 
-                        {/* Phone */}
+                        {/* Phone - visible at lg+ */}
                         <a
                             href="tel:7716854026"
-                            className="hidden xl:flex items-center gap-1.5 text-gray-600 hover:text-green-600 transition-colors whitespace-nowrap flex-shrink-0"
+                            className="hidden lg:flex items-center gap-1.5 text-gray-600 hover:text-green-600 transition-colors whitespace-nowrap flex-shrink-0"
                         >
                             <Phone size={16} />
                             <span className="font-medium text-sm">771 685 4026</span>

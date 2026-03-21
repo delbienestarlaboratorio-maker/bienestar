@@ -1,0 +1,395 @@
+{
+  "name": "Meropenem",
+  "summary": "El meropenem es un antibiótico de la familia de los carbapenémicos, utilizado para combatir infecciones bacterianas graves y complejas. Actúa eliminando una amplia gama de bacterias, incluyendo muchas que son resistentes a otros antibióticos comunes. Su importancia clínica es enorme, ya que se reserva para tratar infecciones potencialmente mortales como sepsis, meningitis, neumonías graves adquiridas en hospitales e infecciones intraabdominales complicadas. Es considerado un antibiótico de 'último recurso' o de amplio espectro, lo que significa que los médicos lo usan cuando otros tratamientos han fallado o cuando la infección es causada por bacterias particularmente difíciles. Por esta razón, su uso debe ser supervisado estrictamente por un especialista para evitar el desarrollo de más resistencia bacteriana. En México, es una herramienta crucial en unidades de terapia intensiva y para pacientes con sistemas inmunológicos debilitados.",
+  "pharmacology": {
+    "mechanismOfAction": "El meropenem es un antibiótico betalactámico de la clase carbapenémico. Su mecanismo de acción principal es inhibir la síntesis de la pared celular bacteriana. Lo logra uniéndose de forma irreversible a unas proteínas esenciales llamadas Proteínas Fijadoras de Penicilina (PBP), que se encuentran en la membrana interna de la bacteria. Estas PBP son enzimas responsables de los pasos finales de entrecruzamiento (cross-linking) del peptidoglicano, el componente estructural clave de la pared celular. Al unirse a ellas, el meropenem bloquea este proceso de entrecruzamiento, lo que debilita gravemente la pared celular. Como resultado, la bacteria no puede mantener su integridad estructural, especialmente cuando está en un ambiente con presión osmótica diferente al suyo (como el cuerpo humano), lo que lleva a su lisis (ruptura) y muerte. Es bactericida, es decir, mata a las bacterias en lugar de solo detener su crecimiento.",
+    "pharmacologicClass": "Antibiótico betalactámico, Carbapenémico.",
+    "therapeuticClass": "Antibiótico de amplio espectro, Antibacteriano sistémico.",
+    "absorption": "El meropenem no se absorbe por vía oral. Debe administrarse por vía intravenosa (IV) o intramuscular (IM) profunda. Cuando se administra por infusión intravenosa, la biodisponibilidad es del 100%. Los niveles plasmáticos máximos se alcanzan inmediatamente al finalizar una infusión intravenosa.",
+    "distribution": "Se distribuye ampliamente en la mayoría de los tejidos y fluidos corporales. Atraviesa bien la barrera hematoencefálica, especialmente cuando las meninges están inflamadas (como en la meningitis), alcanrando concentraciones terapéuticas en el líquido cefalorraquídeo. Su unión a proteínas plasmáticas es baja, aproximadamente del 2%. Su volumen de distribución (Vd) es de aproximadamente 0.25-0.35 L/kg, indicando una distribución principalmente en el compartimento del agua extracelular.",
+    "metabolism": "El meropenem se metaboliza mínimamente en el hígado. La enzima principal involucrada es la dihidropeptidasa-1 (DHP-1) renal, que hidroliza el anillo betalactámico, produciendo un metabolito inactivo (IA-1). No es un sustrato, inhibidor o inductor significativo de las enzimas del citocromo P450 (CYP450).",
+    "elimination": "Se elimina principalmente por vía renal, en forma inalterada (aproximadamente 70-80% de la dosis). El resto se excreta como metabolito inactivo. Su vida media de eliminación es de aproximadamente 1 hora en adultos con función renal normal. En pacientes con insuficiencia renal grave, la vida media puede prolongarse significativamente (hasta 6-10 horas), requiriendo ajustes de dosis.",
+    "onsetOfAction": "El inicio de acción es rápido. Los niveles antibacterianos en sangre comienzan inmediatamente con la infusión intravenosa.",
+    "durationOfAction": "Su efecto es dependiente del tiempo (time-dependent killing). Para ser efectivo, la concentración del fármaco debe mantenerse por encima de la Concentración Mínima Inhibitoria (CMI) de la bacteria durante al menos el 40-50% del intervalo entre dosis. Por esto, se administra usualmente cada 8 horas (tres veces al día) en infusiones de 30 minutos a 3 horas para infecciones graves."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones intraabdominales complicadas (peritonitis, apendicitis complicada)",
+      "Meningitis bacteriana (en pacientes pediátricos mayores de 3 meses y adultos)",
+      "Neumonía adquirida en el hospital (nosocomial), incluyendo neumonía asociada a ventilador",
+      "Infecciones de piel y estructuras de la piel complicadas",
+      "Infecciones del tracto urinario complicadas (incluyendo pielonefritis)",
+      "Bacteriemia y sepsis de origen conocido o sospechado",
+      "Neutropenia febril (presunta infección bacteriana en pacientes con cáncer y conteo bajo de glóbulos blancos)"
+    ],
+    "offLabel": [
+      "Tratamiento de infecciones por bacterias multirresistentes (ej. Klebsiella pneumoniae productora de carbapenemasas - KPC, cuando la cepa es sensible)",
+      "Profilaxis de infección en cirugías de alto riesgo (en combinación con otros antibióticos)",
+      "Tratamiento de infecciones osteoarticulares complejas",
+      "Endocarditis infecciosa causada por microorganismos resistentes",
+      "Infecciones en pacientes con fibrosis quística"
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis estándar para la mayoría de las infecciones graves es de 1 gramo (1000 mg) administrado por vía intravenosa cada 8 horas. Para meningitis, la dosis es de 2 gramos cada 8 horas. Para neumonía nosocomial, puede usarse 1-2 gramos cada 8 horas, dependiendo de la gravedad. La infusión intravenosa suele durar de 30 minutos a 3 horas.",
+    "pediatric": "Para niños mayores de 3 meses y con peso menor a 50 kg: 10-20 mg/kg por dosis, administrado por vía intravenosa cada 8 horas. Para meningitis: 40 mg/kg cada 8 horas (dosis máxima por dosis: 2 gramos). Para niños con peso mayor a 50 kg, se usan las dosis de adulto.",
+    "elderly": "No se requiere un ajuste inicial basado solo en la edad. Sin embargo, es común que los adultos mayores tengan una función renal disminuida, por lo que es IMPERATIVO calcular la tasa de filtración glomerular (TFG) y ajustar la dosis según los rangos de insuficiencia renal.",
+    "renalImpairment": "Los ajustes se basan en la TFG (mL/min/1.73m²). TFG >50: Dosis normal (ej. 1g c/8h). TFG 26-50: 1g c/12h o 500mg c/8h. TFG 10-25: 500mg c/12h o 250mg c/8h. TFG <10: 500mg c/24h o 250mg c/12h. En diálisis: Administrar dosis después de la sesión de diálisis, ya que el fármaco se elimina eficientemente por hemodiálisis.",
+    "hepaticImpairment": "No se requieren ajustes de dosis específicos para la insuficiencia hepática, ya que el meropenem se elimina principalmente por vía renal. Sin embargo, se debe vigilar el estado general del paciente.",
+    "maxDose": "La dosis máxima diaria generalmente es de 6 gramos (2g cada 8h), reservada para infecciones extremadamente graves como meningitis o infecciones por microorganismos con CMI elevada."
+  },
+  "dosageForms": [
+    {
+      "form": "Polvo liofilizado para solución inyectable",
+      "strengths": [
+        "250 mg",
+        "500 mg",
+        "1 gramo (1000 mg)"
+      ],
+      "route": "Intravenosa (infusión) o Intramuscular profunda"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad (alergia) conocida y grave al meropenem, a cualquier otro carbapenémico (imipenem, ertapenem, doripenem), a otros antibióticos betalactámicos (penicilinas, cefalosporinas) o a cualquier componente de la formulación, si la reacción previa fue anafiláctica (shock, dificultad respiratoria severa)."
+    ],
+    "relative": [
+      "Historial de crisis convulsivas o trastornos del sistema nervioso central (especialmente con insuficiencia renal, ya que puede aumentar el riesgo de convulsiones).",
+      "Insuficiencia renal severa (requiere ajuste de dosis obligatorio para evitar toxicidad).",
+      "Colitis pseudomembranosa previa asociada a antibióticos."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Diarrea (puede ser desde leve hasta colitis por C. difficile)",
+      "Náuseas",
+      "Dolor de cabeza",
+      "Erupción cutánea (rash)"
+    ],
+    "common": [
+      "Vómitos",
+      "Dolor e inflamación en el sitio de la inyección (flebitis)",
+      "Dolor abdominal",
+      "Picazón (prurito)",
+      "Candidiasis oral o vaginal (infección por hongos)"
+    ],
+    "uncommon": [
+      "Convulsiones (riesgo mayor en dosis altas, insuficiencia renal o historial neurológico)",
+      "Trombocitopenia (disminución de plaquetas)",
+      "Eosinofilia (aumento de un tipo de glóbulos blancos)",
+      "Aumento de las enzimas hepáticas (transaminasas)",
+      "Colitis pseudomembranosa (diarrea severa por C. difficile)"
+    ],
+    "rare": [
+      "Anafilaxia (reacción alérgica grave)",
+      "Síndrome de Stevens-Johnson o necrólisis epidérmica tóxica (erupciones cutáneas graves)",
+      "Agranulocitosis (pérdida severa de glóbulos blancos)",
+      "Hepatitis",
+      "Alteraciones del gusto"
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Probenecid",
+        "effect": "El probenecid inhibe la secreción tubular renal del meropenem, lo que puede aumentar y prolongar sus niveles en sangre, incrementando el riesgo de efectos adversos, especialmente convulsiones. Generalmente no se recomienda la coadministración.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Ácido Valproico / Valproato",
+        "effect": "El meropenem puede disminuir DRÁSTICAMENTE los niveles sanguíneos de ácido valproico (un anticonvulsivante), reduciendo su efectividad y aumentando el riesgo de crisis epilépticas. Esta interacción es bien documentada y grave. Se requiere monitoreo estrecho de niveles de valproato y ajuste de dosis, o preferir otro antibiótico.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Otros fármacos que reducen el umbral convulsivo (ej. fluoroquinolonas, antidepresivos tricíclicos)",
+        "effect": "Puede haber un efecto aditivo, aumentando el riesgo de convulsiones.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "No aplica, ya que el meropenem se administra por vía intravenosa o intramuscular. No interactúa con alimentos.",
+    "withSupplements": "No se conocen interacciones clínicamente significativas con suplementos vitamínicos o herbales. Sin embargo, se debe evitar el uso de probióticos de manera simultánea si hay sospecha de diarrea asociada a antibióticos, hasta confirmar el diagnóstico."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "B",
+      "recommendation": "Los estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. Debe usarse durante el embarazo solo si el beneficio potencial justifica claramente el riesgo potencial para el feto. Se reserva para infecciones maternas graves donde otros antibióticos más seguros no son adecuados. La decisión debe ser tomada por un médico especialista.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "El meropenem se excreta en la leche materna en concentraciones muy bajas. Debido a su pobre absorción oral, es poco probable que cause efectos adversos significativos en el lactante. Sin embargo, se debe vigilar al bebé por posibles efectos como diarrea o candidiasis. La Academia Americana de Pediatría lo considera generalmente compatible con la lactancia, pero su uso debe ser bajo supervisión médica.",
+    "pediatric": "Aprobado para uso en niños mayores de 3 meses. La seguridad y eficacia en menores de 3 meses no están establecidas. Las dosis se calculan cuidadosamente por peso corporal. Es un fármaco valioso para infecciones pediátricas graves como meningitis.",
+    "geriatric": "Los pacientes de edad avanzada son más susceptibles a los efectos adversos relacionados con la dosis, particularmente los efectos en el sistema nervioso central (como convulsiones) y la toxicidad renal, debido a la mayor probabilidad de tener función renal disminuida. Es MANDATORIO evaluar la función renal (con TFG, no solo creatinina sérica) antes de iniciar el tratamiento y ajustar la dosis en consecuencia."
+  },
+  "administration": {
+    "howToTake": "El meropenem se administra SOLO en un entorno hospitalario o bajo supervisión médica especializada (ej. terapia intravenosa en casa con enfermera). Se reconstituye el polvo con agua estéril para inyección y luego se diluye en una solución para infusión intravenosa (como Cloruro de Sodio al 0.9% o Dextrosa al 5%). La infusión se administra lentamente por vena, generalmente durante 15 a 30 minutos (para dosis de 500 mg a 1g), aunque en algunas infecciones puede infundirse durante 3 horas para optimizar su efecto. La vía intramuscular es una alternativa para algunas infecciones menos graves, usando lidocaína como diluyente para reducir el dolor.",
+    "storage": "Los viales de polvo sin reconstituir deben almacenarse a temperatura ambiente (hasta 25°C), protegidos de la luz y la humedad. Una vez reconstituido y diluido, la solución es estable a temperatura ambiente por un tiempo limitado (consultar el instructivo de la marca, generalmente 1-24 horas) y por más tiempo si se refrigera (hasta varios días). No congelar.",
+    "specialInstructions": "Es fundamental completar TODO el tratamiento prescrito, incluso si el paciente se siente mejor después de unos días, para evitar recaídas y el desarrollo de resistencia bacteriana. Informar inmediatamente al médico si aparece diarrea acuosa o con sangre, sarpullido severo, dificultad para respirar o convulsiones. No se debe mezclar en la misma solución o línea de infusión con otros medicamentos, a menos que se haya verificado la compatibilidad."
+  },
+  "monitoring": {
+    "labTests": [
+      "Conteo sanguíneo completo (CSC) para vigilar glóbulos blancos y plaquetas",
+      "Pruebas de función renal (creatinina sérica, BUN) y cálculo de TFG",
+      "Pruebas de función hepática (ALT, AST, bilirrubina)",
+      "Cultivos bacterianos y pruebas de sensibilidad (antibiograma) para guiar la duración y eficacia del tratamiento",
+      "Niveles de ácido valproico si el paciente lo toma concurrentemente"
+    ],
+    "frequency": "La función renal debe evaluarse al inicio y periódicamente durante tratamientos prolongados (más de 3-5 días). El CSC y las enzimas hepáticas pueden monitorearse semanalmente en tratamientos largos. Los signos clínicos se evalúan diariamente.",
+    "signsToWatch": [
+      "Fiebre persistente o que reaparece",
+      "Diarrea nueva, especialmente si es acuosa, abundante o con sangre/mucosidad",
+      "Erupción cutánea, urticaria o picazón intensa",
+      "Dificultad para respirar, opresión en el pecho o hinchazón de cara/labios (signos de alergia)",
+      "Convulsiones, temblores, confusión o somnolencia extrema",
+      "Sangrado o moretones inusuales",
+      "Dolor abdominal severo o persistente"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Los síntomas de sobredosis están relacionados con una exacerbación de los efectos adversos, especialmente: Convulsiones (crisis epilépticas)",
+      "Temblores musculares",
+      "Alteraciones del estado mental (confusión, somnolencia)",
+      "Diarrea severa",
+      "Potencial exacerbación de efectos hematológicos (trombocitopenia)"
+    ],
+    "treatment": "No existe un antídoto específico. El tratamiento es de soporte y sintomático. En caso de convulsiones, se administran anticonvulsivantes (benzodiacepinas). El meropenem se elimina eficientemente por hemodiálisis, por lo que en casos de sobredosis grave, especialmente con insuficiencia renal subyacente, se puede considerar la hemodiálisis para acelerar la eliminación del fármaco.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (receta archivada en muchos hospitales por ser un antibiótico de reserva).",
+    "scheduleMexico": "Medicamento de prescripción restringida, sujeto a control sanitario. No es un psicotrópico o estupefaciente, pero su venta es exclusiva con receta médica.",
+    "fdaApprovalYear": "1996 (Estados Unidos)"
+  },
+  "brandsMexico": [
+    "Meropen",
+    "Mepen",
+    "Merrem",
+    "Penem",
+    "Merox",
+    "Merobact",
+    "Mero",
+    "Carbapen",
+    "Meropenem Genfar",
+    "Meropenem Pisa",
+    "Meropenem Liomont",
+    "Meropenem Ariston",
+    "Meropenem MK",
+    "Meropenem Denver Farma"
+  ],
+  "clinicalPearls": [
+    "El meropenem es un 'carbapenémico' de espectro ultra-amplio. Se debe reservar para infecciones graves confirmadas o sospechadas por bacterias multirresistentes, para no promover más resistencia.",
+    "La interacción con ÁCIDO VALPROICO es crítica: el meropenem reduce sus niveles a la mitad o menos en días, arriesgando crisis epilépticas en pacientes epilépticos. Buscar alternativas antibióticas.",
+    "En insuficiencia renal, el ajuste de dosis NO es opcional. La falta de ajuste es la causa principal de convulsiones inducidas por meropenem.",
+    "Para meningitis, la dosis es el DOBLE (2g c/8h) para asegurar penetración adecuada al líquido cefalorraquídeo.",
+    "La diarrea es común. Ante diarrea nueva y significativa, sospechar siempre Colitis por C. difficile y realizar prueba de toxinas en heces."
+  ],
+  "patientCounseling": "Este es un antibiótico muy fuerte que se usa para infecciones graves y se administra directamente en la vena. Es crucial que reciba todas las dosis exactamente como el médico las ordenó, generalmente cada 8 horas. Aunque se sienta mejor en unos días, debe completar TODO el tratamiento para que la infección desaparezca por completo y evitar que las bacterias se vuelvan resistentes. Avise de inmediato a su médico o enfermera si tiene diarrea líquida o con sangre, sarpullido, dificultad para respirar, mareo intenso o si nota moretones o sangrado fácil. Si es mujer, informe si está embarazada, planea estarlo o está amamantando. Este medicamento puede aumentar el riesgo de infecciones por hongos (como algodoncillo en la boca). Mantenga una buena higiene y reporte cualquier molestia.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre alta",
+        "slug": "fiebre-alta"
+      },
+      {
+        "name": "Escalofríos y sudoración",
+        "slug": "escalofrios-sudoracion"
+      },
+      {
+        "name": "Dolor abdominal intenso",
+        "slug": "dolor-abdominal-intenso"
+      },
+      {
+        "name": "Dificultad para respirar",
+        "slug": "disnea-dificultad-respirar"
+      },
+      {
+        "name": "Confusión o alteración del estado mental",
+        "slug": "confusion-alteracion-mental"
+      },
+      {
+        "name": "Dolor y ardor al orinar",
+        "slug": "disuria-dolor-al-orinar"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Sepsis o shock séptico",
+        "slug": "sepsis-shock-septico"
+      },
+      {
+        "name": "Meningitis bacteriana",
+        "slug": "meningitis-bacteriana"
+      },
+      {
+        "name": "Neumonía intrahospitalaria",
+        "slug": "neumonia-intrahospitalaria"
+      },
+      {
+        "name": "Peritonitis (infección abdominal)",
+        "slug": "peritonitis"
+      },
+      {
+        "name": "Pielonefritis (infección renal)",
+        "slug": "pielonefritis"
+      },
+      {
+        "name": "Infecciones de piel y tejidos blandos complicadas",
+        "slug": "infeccion-piel-tejidos-blandos-complicada"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Colitis pseudomembranosa por C. difficile",
+        "slug": "colitis-pseudomembranosa"
+      },
+      {
+        "name": "Convulsiones",
+        "slug": "convulsiones"
+      },
+      {
+        "name": "Resistencia bacteriana a antibióticos",
+        "slug": "resistencia-antibioticos"
+      },
+      {
+        "name": "Reacción alérgica severa (anafilaxia)",
+        "slug": "anafilaxia"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevarse (indicador de daño renal, pero el fármaco mismo no es nefrotóxico; la elevación suele deberse a la infección o otros factores)"
+      },
+      {
+        "name": "Recuento de plaquetas",
+        "slug": "plaquetas",
+        "effect": "Puede disminuir (trombocitopenia)"
+      },
+      {
+        "name": "Recuento de leucocitos",
+        "slug": "leucocitos",
+        "effect": "Puede aumentar (por infección) o disminuir (neutropenia)"
+      },
+      {
+        "name": "Enzimas hepáticas (ALT, AST)",
+        "slug": "transaminasas-alt-ast",
+        "effect": "Pueden elevarse levemente"
+      },
+      {
+        "name": "Nivel de ácido valproico",
+        "slug": "acido-valproico",
+        "effect": "Disminuye drásticamente"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Cultivo y antibiograma",
+        "slug": "cultivo-antibiograma",
+        "reason": "Esencial para identificar la bacteria causante y confirmar que es sensible al meropenem, guiando la duración del tratamiento."
+      },
+      {
+        "name": "Tasa de Filtración Glomerular (TFG)",
+        "slug": "tasa-filtracion-glomerular",
+        "reason": "Crítica para calcular la dosis correcta y segura de meropenem, especialmente en adultos mayores."
+      },
+      {
+        "name": "Hemograma o Conteo Sanguíneo Completo",
+        "slug": "hemograma",
+        "reason": "Para monitorear posibles efectos en las células sanguíneas como plaquetas y glóbulos blancos durante tratamientos prolongados."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de creatinina (Cockcroft-Gault)",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿El meropenem es una penicilina fuerte?",
+      "a": "No es una penicilina, pero es de la misma familia grande llamada betalactámicos. Es un carbapenémico, que es como un 'primo' más potente y de espectro más amplio que las penicilinas y cefalosporinas. Se usa cuando esas no funcionan."
+    },
+    {
+      "q": "¿Me lo pueden poner en una clínica pequeña o solo en hospital?",
+      "a": "Generalmente se inicia en un hospital porque se usa para infecciones graves que requieren vigilancia constante. A veces, si el paciente está estable, se puede continuar el tratamiento en casa con una enfermera que ponga la inyección intravenosa, bajo supervisión médica estrecha."
+    },
+    {
+      "q": "¿Duele la inyección?",
+      "a": "La vía intravenosa (en la vena) no duele más que cualquier otra inyección en vena. Si se pone por vía intramuscular (en el músculo), puede doler más, por lo que a veces se mezcla con un anestésico local como lidocaína."
+    },
+    {
+      "q": "¿Cuánto tiempo dura el tratamiento?",
+      "a": "Depende de la infección. Puede ser desde 5-7 días para algunas infecciones, hasta 2-3 semanas o más para infecciones muy complicadas como osteomielitis o endocarditis. El médico decidirá basándose en su evolución."
+    },
+    {
+      "q": "¿Puedo tomar alcohol mientras me ponen meropenem?",
+      "a": "No se recomienda. Aunque no hay una interacción química directa conocida, el alcohol puede debilitar su sistema inmunológico y empeorar algunos efectos secundarios como náuseas o mareo. Además, está combatiendo una infección grave, por lo que su cuerpo necesita descanso y cuidado."
+    },
+    {
+      "q": "¿Por qué me dan diarrea con este medicamento?",
+      "a": "Es un efecto secundario común. Los antibióticos matan las bacterias malas que causan la infección, pero también pueden afectar a las bacterias buenas de su intestino. Esto puede causar diarrea simple. Sin embargo, si la diarrea es muy abundante, acuosa o con sangre, puede ser una infección grave por C. difficile y debe avisar INMEDIATAMENTE."
+    },
+    {
+      "q": "¿El meropenem baja las defensas?",
+      "a": "No, no baja las defensas. Al contrario, ayuda a su sistema inmunológico a combatir la infección matando a las bacterias. Pero en tratamientos muy largos, puede causar una baja en los glóbulos blancos (neutropenia), por lo que su médico los revisará con análisis de sangre."
+    },
+    {
+      "q": "¿Sirve para la gripe o el COVID-19?",
+      "a": "NO. El meropenem solo mata BACTERIAS. La gripe y el COVID-19 son causados por VIRUS. Usar un antibiótico potente para una infección viral es inútil, puede causar efectos secundarios innecesarios y promover la resistencia bacteriana."
+    },
+    {
+      "q": "¿Puedo tener alergia si antes no era alérgico a la penicilina?",
+      "a": "Sí, es posible. Aunque hay reactividad cruzada (si es alérgico a penicilina tiene mayor riesgo de serlo a carbapenémicos), también puede desarrollar una alergia nueva específica al meropenem. Informe cualquier sarpullido, picazón o dificultad para respirar."
+    },
+    {
+      "q": "¿Afecta los métodos anticonceptivos?",
+      "a": "No hay evidencia de que el meropenem reduzca la efectividad de los anticonceptivos hormonales (pastillas, parches, anillo), a diferencia de algunos otros antibióticos. Sin embargo, si tiene vómitos o diarrea severa, la absorción de las pastillas puede verse afectada. Consulte con su ginecólogo."
+    },
+    {
+      "q": "¿Por qué me revisan tanto la sangre mientras lo uso?",
+      "a": "Para asegurarse de que los riñones e hígado estén funcionando bien y procesando el medicamento, y para detectar a tiempo cualquier efecto en la sangre (como baja de plaquetas). Es una medida de seguridad estándar para un fármaco tan potente."
+    },
+    {
+      "q": "Me salieron hongos en la boca (algodoncillo), ¿es normal?",
+      "a": "Sí, es un efecto secundario común. Al eliminar bacterias, el antibiótico puede permitir que crezcan en exceso los hongos que normalmente viven en nuestro cuerpo. Su médico puede recetarle un enjuague o pastillas antimicóticas para tratarlo."
+    },
+    {
+      "q": "¿Qué pasa si me olvidan una dosis en el hospital?",
+      "a": "Es importante que se administre a tiempo para mantener niveles constantes en la sangre. Si el retraso es corto (unas horas), se pondrá la dosis lo antes posible. Si el retraso es muy largo, el médico o farmacéutico decidirán si saltarla o ajustar el horario. Nunca duplique la dosis."
+    },
+    {
+      "q": "¿Puedo comer de todo durante el tratamiento?",
+      "a": "Sí, no hay restricciones dietéticas. De hecho, es importante mantenerse bien hidratado y nutrido para ayudar a su cuerpo a recuperarse. Si tiene náuseas, coma porciones pequeñas y frecuentes."
+    },
+    {
+      "q": "¿El meropenem es lo mismo que el ertapenem o imipenem?",
+      "a": "Son todos carbapenémicos, pero no son iguales. Tienen espectros de acción ligeramente diferentes. El ertapenem se da una vez al día y cubre menos bacterias. El imipenem se degrada en el riñón y viene combinado con cilastatina. El meropenem es uno de los más utilizados por su perfil de seguridad y espectro."
+    },
+    {
+      "q": "¿Por qué se considera un antibiótico de 'último recurso'?",
+      "a": "Porque es de los más potentes y de espectro más amplio que tenemos. Usarlo cuando no es necesario hace que las bacterias se vuelvan resistentes, y si eso pasa, podríamos quedarnos sin opciones para tratar infecciones graves en el futuro. Por eso se guarda para cuando otros fallan."
+    },
+    {
+      "q": "Si tengo insuficiencia renal, ¿puedo usarlo?",
+      "a": "SÍ se puede usar, pero la dosis DEBE ser ajustada por su médico o farmacéutico según el grado de insuficiencia renal (calculado con la TFG). Usar la dosis completa en un paciente con riñones que no funcionan bien puede causar convulsiones por acumulación del fármaco."
+    },
+    {
+      "q": "¿Es seguro en niños?",
+      "a": "Sí, está aprobado para niños mayores de 3 meses. Es muy útil en infecciones pediátricas graves como meningitis. La dosis se calcula con precisión según el peso del niño."
+    },
+    {
+      "q": "¿Qué debo hacer si empiezo a sentir mucho dolor de cabeza o me siento confundido?",
+      "a": "Debe informarlo INMEDIATAMENTE a su médico o enfermera. Aunque el dolor de cabeza es común, la confusión, somnolencia extrema o temblores pueden ser signos de toxicidad en el sistema nervioso, especialmente si tiene problemas renales. Puede requerir un ajuste de dosis."
+    },
+    {
+      "q": "¿Cómo se decide cuándo parar el tratamiento con meropenem?",
+      "a": "La decisión la toma el médico basándose en: 1) Mejoría clínica (desaparición de fiebre, mejoría de síntomas). 2) Resultados de laboratorio (normalización de marcadores de infección como leucocitos). 3) Duración estándar para el tipo de infección. A veces se cambia a un antibiótico oral más simple para completar el tratamiento."
+    }
+  ]
+}

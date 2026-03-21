@@ -1,0 +1,364 @@
+{
+  "name": "Regadenoson",
+  "summary": "El Regadenoson es un medicamento inyectable que se utiliza como agente de estrés farmacológico durante los estudios de imagen del corazón, específicamente en las pruebas de perfusión miocárdica con tomografía computarizada por emisión de fotón único (SPECT). Sirve para simular el efecto del ejercicio físico en el corazón, dilatando las arterias coronarias y aumentando temporalmente el flujo sanguíneo al músculo cardíaco. Esto permite a los médicos evaluar si existe una reducción en el suministro de sangre al corazón (isquemia) en pacientes que no pueden realizar ejercicio físico adecuado, como aquellos con artritis severa, enfermedad pulmonar o limitaciones físicas. Su importancia clínica radica en ser una alternativa segura y eficaz a la adenosina, con una administración más sencilla (una sola inyección en bolo) y un perfil de efectos secundarios generalmente bien tolerado y de corta duración. Es una herramienta crucial en el diagnóstico de la enfermedad arterial coronaria, ayudando a identificar áreas del corazón que no reciben suficiente sangre y oxígeno, lo que guía decisiones sobre tratamientos como angioplastias, stents o cirugías de bypass.",
+  "pharmacology": {
+    "mechanismOfAction": "El Regadenoson es un agonista selectivo de los receptores A2A de adenosina. Actúa uniéndose específicamente a estos receptores que se encuentran en las células del músculo liso de las arterias coronarias. Esta unión desencadena una cascada de señales intracelulares que conduce a la relajación del músculo liso vascular, resultando en una vasodilatación (ensanchamiento) de las arterias del corazón. Este efecto aumenta significativamente y de forma rápida el flujo sanguíneo coronario, similar a lo que ocurre durante el ejercicio físico intenso. Al inyectarse junto con un trazador radiactivo (como el Tecnecio-99m), las áreas del corazón con arterias sanas mostrarán una mayor captación del trazador, mientras que las áreas irrigadas por arterias estrechadas o bloqueadas mostrarán una captación reducida, revelando así la presencia y localización de la isquemia miocárdica. Su selectividad por el receptor A2A reduce la activación de otros subtipos de receptores de adenosina (A1, A2B, A3), lo que minimiza algunos efectos adversos como el bloqueo cardíaco.",
+    "pharmacologicClass": "Agonista selectivo de los receptores A2A de adenosina",
+    "therapeuticClass": "Agente de estrés farmacológico para diagnóstico cardíaco",
+    "absorption": "Se administra exclusivamente por vía intravenosa en bolo rápido, por lo que su absorción es inmediata y completa (biodisponibilidad del 100%). Alcanza su concentración plasmática máxima (Cmax) aproximadamente en 1 a 4 minutos después de la inyección.",
+    "distribution": "Se distribuye rápidamente en el torrente sanguíneo. Su volumen de distribución es de aproximadamente 1.4 L/kg, lo que sugiere una distribución moderada en los tejidos. La unión a proteínas plasmáticas es relativamente baja, menor al 30%.",
+    "metabolism": "El Regadenoson se metaboliza principalmente en el hígado, aunque no de forma extensa. No es un sustrato significativo del sistema de enzimas del citocromo P450 (CYP). El metabolismo principal ocurre por conjugación directa (glucuronidación) y, en menor medida, por desmetilación. Los metabolitos identificados son inactivos desde el punto de vista farmacológico.",
+    "elimination": "Se elimina principalmente por vía renal. Aproximadamente el 57% de la dosis se excreta sin cambios en la orina en las primeras 24 horas. Su vida media de eliminación terminal es de aproximadamente 2 horas en sujetos con función renal normal.",
+    "onsetOfAction": "Muy rápido. El efecto vasodilatador máximo sobre las arterias coronarias se alcanza generalmente entre los 30 segundos y los 2 minutos posteriores a la inyección intravenosa en bolo.",
+    "durationOfAction": "Corta. Los efectos hemodinámicos (aumento de la frecuencia cardíaca, disminución de la presión arterial) y los síntomas asociados (como rubor, dificultad para respirar) suelen durar de 2 a 10 minutos, aunque la mayoría se resuelven en menos de 5 minutos. El efecto vasodilatador coronario es transitorio."
+  },
+  "indications": {
+    "approved": [
+      "Estudio de perfusión miocárdica con estrés farmacológico en pacientes adultos con sospecha o enfermedad arterial coronaria conocida, que no pueden realizar ejercicio físico adecuado en una prueba de esfuerzo."
+    ],
+    "offLabel": [
+      "Evaluación de la reserva de flujo coronario mediante tomografía por emisión de positrones (PET).",
+      "Como agente vasodilatador en estudios de resonancia magnética cardiaca con estrés farmacológico (menos común)."
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis estándar para adultos es una sola inyección intravenosa en bolo rápido de 0.4 mg (400 microgramos) en 10 segundos, seguida inmediatamente de un lavado con 5 mL de solución salina (suero fisiológico). No se requiere ajuste por peso corporal. Esta dosis se administra una sola vez por estudio.",
+    "pediatric": "No está aprobado para uso en pacientes pediátricos (menores de 18 años). Su seguridad y eficacia no han sido establecidas en esta población.",
+    "elderly": "No se requiere un ajuste de dosis inicial específico basado únicamente en la edad. Sin embargo, se debe usar con precaución debido a la mayor frecuencia de enfermedades cardíacas, renales o hepáticas concomitantes y a una posible mayor sensibilidad a sus efectos.",
+    "renalImpairment": "No se requiere ajuste de dosis en pacientes con insuficiencia renal leve a moderada (TFG ≥30 mL/min). En pacientes con insuficiencia renal grave (TFG <30 mL/min) o en diálisis, la experiencia es limitada. Se puede usar con precaución, ya que la eliminación está reducida, pero la corta duración de la acción y la dosis única minimizan el riesgo de acumulación.",
+    "hepaticImpairment": "No se han realizado estudios específicos. Dado el metabolismo hepático limitado, no se anticipa que sea necesario un ajuste de dosis en pacientes con insuficiencia hepática leve a moderada. Se debe usar con precaución en insuficiencia hepática grave.",
+    "maxDose": "No se recomienda la administración repetida en un corto período. La dosis única recomendada es de 0.4 mg. No existe una dosis máxima diaria establecida, ya que su uso es para diagnóstico único."
+  },
+  "dosageForms": [
+    {
+      "form": "Solución inyectable (prellenada en jeringa)",
+      "strengths": [
+        "0.4 mg/5 mL"
+      ],
+      "route": "Intravenosa (IV) en bolo"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al Regadenoson o a cualquiera de los componentes de la formulación.",
+      "Bloqueo auriculoventricular (AV) de segundo o tercer grado o disfunción del nodo sinusal (síndrome del seno enfermo), en pacientes sin marcapasos artificial funcional.",
+      "Broncoespasmo activo o enfermedad reactiva de las vías respiratorias (asma, EPOC) en fase aguda."
+    ],
+    "relative": [
+      "Hipotensión arterial sintomática (presión arterial baja).",
+      "Deshidratación no corregida.",
+      "Infarto agudo de miocardio reciente (dentro de las últimas 24-48 horas).",
+      "Angina inestable o síndrome coronario agudo no controlado.",
+      "Arritmias cardíacas graves no controladas.",
+      "Estenosis aórtica crítica o miocardiopatía hipertrófica obstructiva severa.",
+      "Pacientes con convulsiones no controladas."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Dificultad para respirar (disnea) o sensación de falta de aire.",
+      "Dolor de cabeza (cefalea).",
+      "Rubor (enrojecimiento de la piel, especialmente cara y cuello).",
+      "Molestia o dolor en el pecho (angina o molestia atípica).",
+      "Mareo o aturdimiento."
+    ],
+    "common": [
+      "Molestias gastrointestinales (náusea, dolor abdominal, malestar estomacal).",
+      "Sabor metálico o extraño en la boca.",
+      "Molestias en el cuello, mandíbula, espalda o brazos.",
+      "Sensación de calor.",
+      "Tos.",
+      "Hormigueo (parestesias)."
+    ],
+    "uncommon": [
+      "Bloqueo cardíaco de primer grado (generalmente transitorio).",
+      "Arritmias (extrasístoles ventriculares o auriculares).",
+      "Hipotensión o hipertensión transitoria.",
+      "Ansiedad.",
+      "Temblor.",
+      "Sudoración.",
+      "Ronquera.",
+      "Prurito (picazón)."
+    ],
+    "rare": [
+      "Reacciones alérgicas severas (anafilaxia).",
+      "Broncoespasmo severo.",
+      "Infarto de miocardio.",
+      "Convulsiones.",
+      "Síncope (pérdida del conocimiento).",
+      "Bloqueo cardíaco avanzado (segundo o tercer grado).",
+      "Fibrilación auricular o flutter auricular de nueva aparición."
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Metilxantinas (Teofilina, Aminofilina, Cafeína)",
+        "effect": "Bloquean los receptores de adenosina, pudiendo antagonizar (reducir o anular) el efecto vasodilatador del Regadenoson, llevando a un resultado falso negativo en la prueba de esfuerzo. Se debe suspender su consumo al menos 12 horas antes (teofilina) y 24 horas para cafeína (café, té, chocolate, bebidas de cola).",
+        "severity": "Grave para la validez diagnóstica"
+      },
+      {
+        "drug": "Dipiridamol (Persantin)",
+        "effect": "Es un inhibidor de la recaptación de adenosina. Su uso reciente (dentro de las 48 horas) puede potenciar los efectos del Regadenoson, aumentando la frecuencia y severidad de los efectos adversos como rubor, dolor de cabeza, hipotensión y molestias torácicas.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Bloqueadores de los canales de calcio (Diltiazem, Verapamilo)",
+        "effect": "Pueden potenciar los efectos del Regadenoson sobre el sistema de conducción eléctrica del corazón, aumentando el riesgo de bloqueo auriculoventricular (AV) de primer grado o bradicardia sinusal.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Carbamazepina, Fenitoína",
+        "effect": "Inductores enzimáticos que podrían aumentar el aclaramiento del Regadenoson, aunque su relevancia clínica es probablemente baja debido a la administración en dosis única.",
+        "severity": "Leve"
+      }
+    ],
+    "withFood": "No hay interacciones directas con alimentos. Sin embargo, es CRUCIAL evitar alimentos y bebidas que contengan cafeína (café, té negro/verde, chocolate, bebidas energéticas, refrescos de cola) al menos 24 horas antes del estudio, ya que la cafeína antagoniza el efecto del medicamento y puede invalidar los resultados de la prueba.",
+    "withSupplements": "Evitar suplementos que contengan cafeína, guaraná, yerba mate, té verde en extracto, o cualquier producto \"energizante\" al menos 24 horas antes del estudio. Informar al médico sobre el uso de cualquier suplemento herbal."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "C",
+      "recommendation": "No se han realizado estudios adecuados en mujeres embarazadas. El Regadenoson solo debe usarse durante el embarazo si el beneficio potencial para la madre justifica claramente el riesgo potencial para el feto. Su uso se reserva para situaciones donde el diagnóstico de enfermedad coronaria es urgente y no puede posponerse, y el ejercicio físico no es una opción. Se prefiere una prueba de esfuerzo convencional si es posible.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se desconoce si el Regadenoson se excreta en la leche materna humana. Dada su administración intravenosa única y su corta vida media, es poco probable que cause efectos adversos significativos en el lactante. Sin embargo, por precaución, algunas guías sugieren suspender la lactancia durante 10-12 horas después de la administración (aproximadamente 5-6 vidas medias), extrayendo y desechando la leche producida en ese período.",
+    "pediatric": "No está indicado para uso en niños y adolescentes menores de 18 años. No hay datos de seguridad o eficacia en esta población.",
+    "geriatric": "Los pacientes de edad avanzada (mayores de 65 años) tienen mayor probabilidad de presentar enfermedades cardíacas, renales o hepáticas concomitantes. No se requiere ajuste de dosis, pero pueden ser más sensibles a los efectos del fármaco, especialmente a los efectos sobre la frecuencia cardíaca y la presión arterial. Se debe monitorizar de cerca durante y después de la administración."
+  },
+  "administration": {
+    "howToTake": "El Regadenoson es administrado ÚNICAMENTE por personal médico capacitado (médico, enfermera) en un entorno clínico equipado para manejar emergencias cardíacas, como un departamento de medicina nuclear o cardiología. El paciente estará acostado, conectado a un monitor de electrocardiograma (ECG) y de presión arterial. 1) Se prepara la jeringa prellenada con 0.4 mg/5 mL. 2) Se canaliza una vía intravenosa (IV). 3) Se inyecta el bolo completo de Regadenoson (5 mL) en la vía durante aproximadamente 10 segundos. 4) INMEDIATAMENTE después, se inyectan 5 mL de solución salina (lavado) para asegurar que todo el medicamento entre al torrente sanguíneo. 5) Entre 10 y 20 segundos después del lavado, se inyecta el trazador radiactivo (ej. Tecnecio-99m) por la misma vía IV. Los efectos se monitorean de cerca durante varios minutos.",
+    "storage": "Conservar en su empaque original (jeringa prellenada) para proteger de la luz. Almacenar refrigerado entre 2°C y 8°C. NO CONGELAR. Una vez retirado del refrigerador, puede mantenerse a temperatura ambiente (hasta 25°C) por un máximo de 10 días. No usar si la solución está turbia o contiene partículas.",
+    "specialInstructions": "El paciente DEBE abstenerse de consumir cualquier producto con CAFEÍNA (café, té, chocolate, refrescos de cola, bebidas energéticas) y de fumar tabaco al menos 24 HORAS antes del estudio. Debe informar al médico si toma teofilina o dipiridamol. Se recomienda ayuno de 4 a 6 horas antes de la prueba. Después de la inyección, es normal sentir síntomas intensos pero breves (falta de aire, rubor, dolor de cabeza); estos suelen desaparecer en pocos minutos. Un antídoto (aminofilina) está disponible en la sala para revertir efectos severos si es necesario."
+  },
+  "monitoring": {
+    "labTests": [
+      "No se requieren análisis de laboratorio de rutina específicos para el Regadenoson. Sin embargo, antes del estudio, el médico evaluará la historia clínica y puede solicitar pruebas basales como: Electrocardiograma (ECG), Función renal (creatinina, TFG), Función hepática (si hay sospecha de enfermedad)."
+    ],
+    "frequency": "Monitorización continua durante el procedimiento: Electrocardiograma (ECG) desde varios minutos antes hasta al menos 5-10 minutos después de la inyección. Presión arterial y frecuencia cardíaca cada minuto durante los primeros 5 minutos, y luego según sea necesario hasta la resolución de los síntomas. Observación clínica constante para detectar signos de anginas, dificultad respiratoria severa o reacciones alérgicas.",
+    "signsToWatch": [
+      "Dolor torácico intenso o prolongado (más de 5 minutos).",
+      "Dificultad respiratoria severa (disnea) que no mejora.",
+      "Mareo intenso, visión borrosa o sensación de desmayo.",
+      "Palpitaciones rápidas o irregulares muy marcadas.",
+      "Erupción cutánea, hinchazón de labios/lengua (signos de alergia).",
+      "Dolor de cabeza incapacitante.",
+      "Debilidad muscular severa o temblor incontrolable."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Hipotensión arterial severa (presión muy baja).",
+      "Bradicardia extrema (frecuencia cardíaca muy lenta) o bloqueo cardíaco avanzado.",
+      "Broncoespasmo severo (dificultad respiratoria con sibilancias).",
+      "Convulsiones.",
+      "Pérdida del conocimiento (síncope)."
+    ],
+    "treatment": "El tratamiento es de soporte y sintomático. 1) Mantener la vía aérea, respiración y circulación. 2) Administrar líquidos intravenosos (solución salina) para la hipotensión. 3) El antídoto específico es la AMINOFILINA (50-250 mg por vía intravenosa lenta, en 30-60 segundos). La aminofilina es una metilxantina que bloquea los receptores de adenosina, revirtiendo rápidamente los efectos del Regadenoson. 4) Para bradicardia sintomática o bloqueo AV, se puede usar atropina. 5) Los broncoespasmos se tratan con broncodilatadores inhalados (salbutamol). Las convulsiones se manejan con benzodiacepinas (diazepam).",
+    "antidote": "Aminofilina (o Teofilina)."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (prescripción médica). Es un medicamento de uso hospitalario y diagnóstico, no disponible en farmacias para dispensación al público.",
+    "scheduleMexico": "Medicamento de patente (no genérico ampliamente disponible). Sujeta a control sanitario como medicamento de prescripción. No está listado en una fracción de control especial (no es estupefaciente o psicotrópico).",
+    "fdaApprovalYear": "2008"
+  },
+  "brandsMexico": [
+    "Lexiscan (marca original de Astellas Pharma)"
+  ],
+  "clinicalPearls": [
+    "La principal ventaja del Regadenoson sobre la adenosina es la administración en un solo bolo rápido (10 segundos), en lugar de una infusión continua de 6 minutos, simplificando el procedimiento.",
+    "Aunque es selectivo para el receptor A2A, aún puede causar bloqueo AV de primer grado (hasta en 3-6% de pacientes) debido a una activación residual de receptores A1; esto suele ser asintomático y transitorio.",
+    "El efecto de \"robo coronario\" (redistribución de flujo lejos de las áreas isquémicas) es un principio diagnóstico clave: las arterias sanas se dilatan más, haciendo más evidente la falta de flujo en las zonas enfermas en las imágenes.",
+    "La cafeína es el antagonista más común y problemático. Una sola taza de café puede invalidar una prueba costosa, por lo que la educación del paciente es fundamental.",
+    "El rubor y la disnea son efectos esperados y, de hecho, indican que el fármaco está actuando; su ausencia podría sugerir interferencia por cafeína o teofilina."
+  ],
+  "patientCounseling": "Señor paciente, este medicamento se le administrará por una vena para realizar un estudio de su corazón. Es normal que justo después de la inyección sienta síntomas FUERTES pero MUY BREVES, como sofoco o enrojecimiento de la cara, falta de aire, dolor de cabeza o molestia en el pecho. Estos efectos suelen durar menos de 5 minutos y el personal médico lo estará monitoreando de cerca en todo momento. Para que la prueba sea válida y segura, es ABSOLUTAMENTE NECESARIO que NO consuma NADA con cafeína (café, té, chocolate, refrescos de cola, bebidas energéticas) ni fume tabaco durante las 24 HORAS PREVIAS al estudio. Informe a su médico si toma teofilina para el asma o Persantin (dipiridamol). Venga con ayuno de 4 a 6 horas. Después del estudio, podrá reanudar sus actividades normales una vez que los efectos hayan pasado por completo. Si los síntomas persisten o empeoran después de salir del hospital, contacte a su médico.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor de pecho (para diagnóstico)",
+        "slug": "dolor-de-pecho"
+      },
+      {
+        "name": "Falta de aire (disnea) de origen cardíaco (para diagnóstico)",
+        "slug": "falta-de-aire"
+      },
+      {
+        "name": "Fatiga inexplicable relacionada con el corazón",
+        "slug": "fatiga-cardíaca"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Enfermedad arterial coronaria",
+        "slug": "enfermedad-arterial-coronaria"
+      },
+      {
+        "name": "Isquemia miocárdica",
+        "slug": "isquemia-miocardica"
+      },
+      {
+        "name": "Angina de pecho estable",
+        "slug": "angina-de-pecho-estable"
+      },
+      {
+        "name": "Infarto de miocardio previo (evaluación de riesgo)",
+        "slug": "infarto-de-miocardio"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Broncoespasmo (en pacientes susceptibles)",
+        "slug": "broncoespasmo"
+      },
+      {
+        "name": "Bloqueo cardíaco (auriculoventricular)",
+        "slug": "bloqueo-cardiaco"
+      },
+      {
+        "name": "Hipotensión arterial severa",
+        "slug": "hipotension-arterial"
+      },
+      {
+        "name": "Reacción anafiláctica",
+        "slug": "reaccion-anafilactica"
+      },
+      {
+        "name": "Convulsiones",
+        "slug": "convulsiones"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede elevar transitoriamente"
+      },
+      {
+        "name": "Presión arterial sistólica",
+        "slug": "presion-arterial-sistolica",
+        "effect": "Puede disminuir transitoriamente"
+      },
+      {
+        "name": "Presión arterial diastólica",
+        "slug": "presion-arterial-diastolica",
+        "effect": "Puede disminuir transitoriamente"
+      },
+      {
+        "name": "Intervalo PR en ECG",
+        "slug": "intervalo-pr-ecg",
+        "effect": "Puede prolongar (bloqueo AV 1er grado)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Electrocardiograma (ECG)",
+        "slug": "electrocardiograma",
+        "reason": "Monitorización obligatoria antes, durante y después de la administración para detectar arritmias o isquemia."
+      },
+      {
+        "name": "Tasa de filtración glomerular (TFG)",
+        "slug": "tasa-filtracion-glomerular",
+        "reason": "Evaluar función renal antes del estudio, especialmente en adultos mayores o con comorbilidades."
+      },
+      {
+        "name": "Prueba de perfusión miocárdica con SPECT",
+        "slug": "perfusion-miocardica-spect",
+        "reason": "Estudio de imagen para el cual se administra el Regadenoson como agente de estrés."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de TFG (EGFR)",
+        "slug": "calculadora-egfr"
+      },
+      {
+        "name": "Calculadora de IMC",
+        "slug": "calculadora-imc"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Qué es el Regadenoson y para qué me lo van a poner?",
+      "a": "El Regadenoson es un medicamento que se inyecta en la vena para hacer un estudio especial del corazón llamado 'prueba de esfuerzo farmacológica'. Sirve para ver si las arterias de su corazón están sanas y llevan suficiente sangre, especialmente si usted no puede caminar en una banda o pedalear en una bicicleta estática por algún problema físico."
+    },
+    {
+      "q": "¿Duele la inyección de Regadenoson?",
+      "a": "La inyección en sí duele como cualquier pinchazo en la vena. Lo que puede ser intenso son los efectos que se sienten segundos después: una sensación fuerte de sofoco o calor en la cara, falta de aire, dolor de cabeza o molestia en el pecho. Son normales, esperados y duran muy poco (generalmente menos de 5 minutos)."
+    },
+    {
+      "q": "¿Cuánto tiempo duran los efectos secundarios?",
+      "a": "La gran mayoría de los efectos secundarios (como el sofoco, la falta de aire y el dolor de cabeza) son muy breves. Suelen alcanzar su máxima intensidad entre los 30 segundos y 1 minuto después de la inyección, y desaparecen casi por completo en 2 a 5 minutos. En algunos casos, un leve malestar puede persistir hasta 10-15 minutos."
+    },
+    {
+      "q": "¿Por qué no puedo tomar café antes del estudio?",
+      "a": "Porque la cafeína (presente en el café, té, chocolate y refrescos de cola) BLOQUEA el efecto del Regadenoson. Si consume cafeína, el medicamento no podrá dilatar correctamente las arterias de su corazón y el estudio saldrá mal, dando un resultado falso que no mostrará si realmente hay un problema. Podría necesitar repetir la prueba otro día."
+    },
+    {
+      "q": "¿Qué pasa si tomo café por error el día del estudio?",
+      "a": "DEBE INFORMARLO INMEDIATAMENTE al médico o técnico antes de que le apliquen la inyección. Lo más probable es que pospongan el estudio para otro día (generalmente al menos 24 horas después) para asegurar que la cafeína haya salido de su cuerpo. Si no lo dice y le ponen el medicamento, la prueba no servirá y habrá gastado tiempo y recursos."
+    },
+    {
+      "q": "¿Puedo comer antes de la prueba con Regadenoson?",
+      "a": "Generalmente se recomienda un ayuno de 4 a 6 horas antes del estudio. Puede tomar pequeños sorbos de agua. Siga las instrucciones específicas que le dé el hospital o clínica. El ayuno ayuda a obtener imágenes más claras y reduce el riesgo de náuseas."
+    },
+    {
+      "q": "¿El Regadenoson es lo mismo que el Persantin (dipiridamol)?",
+      "a": "No, son medicamentos diferentes, pero ambos se usan para el mismo propósito: como agentes de estrés farmacológico en estudios del corazón. El Regadenoson es más nuevo, se administra en una sola inyección rápida y puede tener un perfil de efectos secundarios ligeramente diferente. Su médico elegirá el más adecuado para usted."
+    },
+    {
+      "q": "¿Me puedo ir a casa solo después del estudio?",
+      "a": "Sí, en la gran mayoría de los casos. Una vez que los efectos del medicamento hayan desaparecido por completo (generalmente a los 10-15 minutos) y se le haya tomado la última serie de imágenes, podrá irse a su casa por sus propios medios. Es raro que los efectos persistan. Sin embargo, si se siente mareado o con malestar, espere hasta sentirse bien."
+    },
+    {
+      "q": "¿Cuánto tiempo debo esperar para tomar café después del estudio?",
+      "a": "Una vez finalizado el procedimiento completo (inyección y tomas de imágenes), puede reanudar su consumo normal de cafeína inmediatamente. El medicamento ya habrá hecho su efecto y se habrá eliminado casi por completo de su cuerpo."
+    },
+    {
+      "q": "¿El Regadenoson puede causar un infarto?",
+      "a": "El riesgo de causar un infarto (ataque al corazón) durante la prueba es MUY BAJO, pero existe, como en cualquier prueba de esfuerzo (física o farmacológica). Por eso el estudio se realiza en un lugar con equipo de reanimación y personal entrenado. El médico evaluará antes si los beneficios de la prueba superan este riesgo mínimo en su caso particular."
+    },
+    {
+      "q": "¿Sirve el Regadenoson para tratar la presión alta o la angina?",
+      "a": "NO. El Regadenoson es ÚNICAMENTE un medicamento de DIAGNÓSTICO. No trata ninguna enfermedad. Su único propósito es ayudar a obtener imágenes del corazón para que el médico pueda hacer un diagnóstico. No debe usarse para aliviar el dolor de pecho o controlar la presión arterial."
+    },
+    {
+      "q": "¿Puedo tomar mis medicamentos habituales el día del estudio?",
+      "a": "En general SÍ, a menos que su médico le indique lo contrario. Tome sus medicamentos para la presión, diabetes, colesterol, etc., con un pequeño sorbo de agua. EXCEPCIÓN CRUCIAL: si toma TEOfILINA (para el asma/EPOC) o DIPIRIDAMOL (Persantin), debe consultar con su médico cardiólogo y neumólogo con días de anticipación, ya que probablemente le pedirán suspenderlos temporalmente."
+    },
+    {
+      "q": "¿Qué hago si tengo asma? ¿Puedo recibir Regadenoson?",
+      "a": "Si tiene asma ACTIVA o broncoespasmo frecuente, el Regadenoson está CONTRAINDICADO porque puede desencadenar un ataque severo. Debe informar esto a su cardiólogo. Existen alternativas, como una prueba de esfuerzo con DOBUTAMINA (otro tipo de fármaco). Si su asma está bien controlada y sin síntomas, el médico evaluará el riesgo-beneficio con precaución extrema."
+    },
+    {
+      "q": "¿Es seguro si tengo problemas en los riñones?",
+      "a": "Sí, generalmente es seguro. No se requiere ajuste de dosis para la mayoría de los problemas renales. Sin embargo, es importante que su médico sepa el grado de su insuficiencia renal (su TFG) para tomar precauciones adicionales en el monitoreo, especialmente si está en diálisis."
+    },
+    {
+      "q": "¿Pueden ponerme Regadenoson si tengo marcapasos?",
+      "a": "SÍ. De hecho, tener un marcapasos funcional elimina una de las principales contraindicaciones del fármaco (el bloqueo cardíaco). El marcapasos protegerá su corazón de los efectos del medicamento sobre la frecuencia cardíaca. Asegúrese de informar al personal que tiene marcapasos antes del estudio."
+    },
+    {
+      "q": "¿Hay algún antídoto si me siento muy mal?",
+      "a": "SÍ. En la sala donde le aplican el medicamento siempre hay disponible un antídoto llamado AMINOFILINA (o teofilina). Si los efectos son muy intensos o prolongados (dificultad respiratoria severa, presión muy baja), el médico o enfermera le inyectará este antídoto, que revierte los efectos del Regadenoson en cuestión de segundos."
+    },
+    {
+      "q": "¿El Regadenoson es radiactivo?",
+      "a": "NO. El Regadenoson en sí NO es radiactivo. Es un fármaco vasodilatador. La parte radiactiva del estudio es el TRAZADOR (como el Tecnecio-99m) que se inyecta justo después del Regadenoson. Ese trazador es el que emite una pequeña cantidad de radiación que las cámaras especiales detectan para formar las imágenes de su corazón."
+    },
+    {
+      "q": "¿Qué tan preciso es el estudio con Regadenoson comparado con una prueba de esfuerzo en banda?",
+      "a": "Es muy preciso y, para diagnosticar enfermedad coronaria, se considera equivalente a la prueba de esfuerzo con ejercicio físico en la mayoría de los casos. Para pacientes que no pueden ejercitarse adecuadamente, es incluso más preciso porque el estrés farmacológico es más controlado y alcanza un nivel de esfuerzo cardíaco máximo de manera consistente."
+    },
+    {
+      "q": "¿Por qué a veces se usa junto con un ejercicio ligero (caminata en el lugar)?",
+      "a": "Algunos centros combinan una pequeña dosis de Regadenoson con ejercicio ligero (como caminar en el lugar). Esto puede reducir la frecuencia e intensidad de algunos efectos secundarios (como la falta de aire y el rubor) y mejorar la calidad de las imágenes al aumentar un poco más el flujo sanguíneo coronario. Se llama protocolo de 'estrés combinado'."
+    },
+    {
+      "q": "¿Cuál es la diferencia clave entre Regadenoson y Adenosina?",
+      "a": "La principal diferencia práctica es la forma de administración. La Adenosina se administra como una infusión continua en una bomba durante 6 minutos, lo que significa 6 minutos de efectos secundarios potenciales. El Regadenoson se da en un solo bolo rápido (10 segundos), por lo que los efectos, aunque pueden ser intensos, son mucho más cortos (generalmente 2-5 minutos). Muchos pacientes y médicos prefieren el Regadenoson por esta razón."
+    }
+  ]
+}

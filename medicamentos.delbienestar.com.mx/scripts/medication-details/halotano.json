@@ -1,0 +1,386 @@
+{
+  "name": "Halotano",
+  "summary": "El halotano es un medicamento líquido que se usa como anestésico general por inhalación. Sirve para inducir y mantener la anestesia durante cirugías, lo que significa que permite que un paciente esté completamente dormido, sin dolor y sin moverse mientras los médicos realizan una operación. Es un medicamento muy importante en la práctica clínica porque actúa rápido, es potente y permite un control preciso de la profundidad de la anestesia, aunque su uso ha disminuido en favor de otros anestésicos más modernos debido a algunos efectos secundarios. Se administra a través de una máquina especial de anestesia que vaporiza el líquido y lo mezcla con oxígeno para que el paciente lo respire. Su importancia radica en haber sido un pilar de la anestesiología por décadas, especialmente en cirugías largas y en pacientes pediátricos, pero requiere un monitoreo muy estricto por parte del anestesiólogo debido a sus posibles efectos en el corazón y el hígado.",
+  "pharmacology": {
+    "mechanismOfAction": "El halotano actúa principalmente potenciando la actividad del neurotransmisor inhibitorio GABA (ácido gamma-aminobutírico) en el cerebro, específicamente en los receptores GABA-A. Esto aumenta el flujo de iones cloruro hacia las neuronas, lo que las hiperpolariza y reduce su capacidad para generar impulsos nerviosos, produciendo una depresión generalizada del sistema nervioso central. También actúa sobre otros receptores y canales iónicos, como los receptores de glicina y los canales de potasio de dos poros (K2P), contribuyendo a sus efectos anestésicos, analgésicos y de relajación muscular. Su acción es compleja y conduce a una pérdida reversible de la conciencia, la memoria (amnesia), la sensación de dolor (analgesia) y el movimiento voluntario.",
+    "pharmacologicClass": "Anestésico general halogenado por inhalación. Éter halogenado (bromoclorotrifluoroetano).",
+    "therapeuticClass": "Anestésico general.",
+    "absorption": "Se administra por vía inhalatoria. La absorción a los pulmones es muy rápida y eficiente. La concentración alveolar mínima (CAM) es de aproximadamente 0.75%, lo que indica su alta potencia. La velocidad de inducción anestésica depende de la concentración inhalada, la ventilación del paciente y el flujo sanguíneo pulmonar.",
+    "distribution": "Se distribuye ampliamente por todo el cuerpo debido a su alta liposolubilidad. Atraviesa fácilmente la barrera hematoencefálica para llegar al cerebro. Su coeficiente de partición sangre/gas es de 2.3, lo que permite una inducción y recuperación moderadamente rápidas. Se une a proteínas plasmáticas en un grado bajo a moderado.",
+    "metabolism": "Aproximadamente del 20% al 25% del halotano absorbido es metabolizado en el hígado. El metabolismo es oxidativo, principalmente a través del sistema enzimático del citocromo P450, específicamente la isoforma CYP2E1. Los metabolitos principales son trifluoroacético, bromuro y cloruro. La producción del metabolito trifluoroacetato se ha relacionado con la hepatitis por halotano, una reacción idiosincrásica mediada por el sistema inmune.",
+    "elimination": "La mayor parte (70-80%) se elimina sin cambios por los pulmones durante la exhalación. La pequeña fracción metabolizada se elimina por la orina en forma de metabolitos. La vida media de eliminación es corta, generalmente de 5 a 15 minutos después de discontinuar su administración, lo que permite una recuperación relativamente rápida de la anestesia.",
+    "onsetOfAction": "El inicio de la acción anestésica es rápido, generalmente en 2 a 5 minutos después de comenzar la inhalación de una concentración adecuada.",
+    "durationOfAction": "La duración del efecto es corta y depende completamente de la administración continua. Los efectos comienzan a desaparecer minutos después de suspender la inhalación, con una recuperación completa de la conciencia en 15 a 30 minutos, aunque algunos efectos residuales pueden persistir.",
+    "pharmacogenomics": "Pacientes con variantes genéticas que predisponen a la hipertermia maligna (mutación en el gen RYR1) tienen un riesgo extremadamente alto de sufrir esta complicación mortal con halotano. Además, variaciones en las enzimas CYP, especialmente CYP2E1, pueden influir en la tasa de metabolismo y el riesgo de hepatotoxicidad."
+  },
+  "indications": {
+    "approved": [
+      "Inducción y mantenimiento de anestesia general en cirugías de todo tipo.",
+      "Mantenimiento de anestesia en procedimientos quirúrgicos largos.",
+      "Uso en anestesia pediátrica, especialmente por su sabor menos irritante que otros agentes."
+    ],
+    "offLabel": [
+      "Sedación prolongada en unidades de cuidados intensivos (raro, desplazado por otros agentes).",
+      "Terapia para el estatus asmático severo (histórico, ya no se usa)."
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis se expresa en porcentaje de concentración inhalada. Para inducción: 2-4% en oxígeno. Para mantenimiento: 0.5-2.0% en oxígeno u óxido nitroso/oxígeno. La dosis exacta se titula según la respuesta del paciente, la profundidad anestésica deseada y el uso de otros fármacos.",
+    "pediatric": "Similar a adultos, pero los niños pueden requerir concentraciones ligeramente más altas para la inducción (hasta 3-4%). La dosis se ajusta cuidadosamente según el peso y la respuesta clínica. La CAM es similar a la de los adultos.",
+    "elderly": "Requieren dosis significativamente menores (reducción del 20-50%) debido a cambios fisiológicos como menor gasto cardíaco, función hepática reducida y mayor sensibilidad del sistema nervioso central. Concentraciones de mantenimiento típicas de 0.5-1.0%.",
+    "renalImpairment": "No se requiere ajuste de dosis específico para la insuficiencia renal, ya que la eliminación es principalmente pulmonar. Sin embargo, se debe usar con precaución en pacientes con insuficiencia renal severa debido a posibles alteraciones hemodinámicas.",
+    "hepaticImpairment": "Uso CONTRAINDICADO en pacientes con enfermedad hepática activa o insuficiencia hepática, debido al alto riesgo de precipitar o empeorar una hepatitis por halotano. Evitar en pacientes con antecedentes de hepatitis inexplicable después de una exposición previa a halotano.",
+    "maxDose": "No existe una dosis máxima diaria fija en mg. La administración se limita por la concentración alveolar mínima (CAM) y los signos de toxicidad (hipotensión severa, arritmias). La exposición repetida en intervalos cortos (menos de 28 días) aumenta el riesgo de hepatotoxicidad."
+  },
+  "dosageForms": [
+    {
+      "form": "Líquido para inhalación",
+      "strengths": [
+        "Líquido puro al 100% (250 mL)"
+      ],
+      "route": "Inhalatoria (vaporizado)"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Antecedentes conocidos de hipertermia maligna en el paciente o familiares.",
+      "Hepatitis inexplicable o ictericia después de una exposición previa a halotano.",
+      "Enfermedad hepática activa o insuficiencia hepática.",
+      "Feocromocitoma (tumor de la glándula suprarrenal) no tratado.",
+      "Hipersensibilidad conocida al halotano o a otros anestésicos halogenados."
+    ],
+    "relative": [
+      "Antecedentes de porfiria.",
+      "Presión intracraneal elevada.",
+      "Miastenia gravis.",
+      "Enfermedad cardíaca preexistente, especialmente arritmias o insuficiencia cardíaca.",
+      "Embarazo (especialmente primer trimestre).",
+      "Obesidad mórbida (aumenta el riesgo de hepatotoxicidad)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Hipotensión (disminución de la presión arterial).",
+      "Depresión respiratoria (respiración lenta o superficial).",
+      "Bradicardia (ritmo cardíaco lento).",
+      "Escalofríos postoperatorios."
+    ],
+    "common": [
+      "Náuseas y vómitos en el postoperatorio.",
+      "Arritmias cardíacas (especialmente con el uso concomitante de adrenalina).",
+      "Aumento de la salivación y secreciones bronquiales.",
+      "Letargo o confusión transitoria al despertar."
+    ],
+    "uncommon": [
+      "Hepatitis por halotano (daño al hígado de tipo idiosincrásico).",
+      "Hipertermia maligna (reacción genética grave con fiebre alta y rigidez muscular).",
+      "Temblor muscular.",
+      "Dolor de cabeza postoperatorio."
+    ],
+    "rare": [
+      "Necrosis hepática masiva (falla hepática fulminante).",
+      "Insuficiencia renal aguda.",
+      "Reacción alérgica severa (anafilaxia).",
+      "Síndrome de distrés respiratorio agudo (SDRA)."
+    ],
+    "blackBoxWarning": "Advertencia sobre el riesgo de hepatitis fulminante (necrosis hepática masiva), que puede ser fatal. El riesgo aumenta con exposiciones repetidas, especialmente en intervalos menores a 28 días, y en pacientes obesos, de mediana edad y del sexo femenino. Advertencia sobre el riesgo de hipertermia maligna, una reacción hipermetabólica aguda que puede ser mortal."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Aminoglucósidos (Gentamicina, Amikacina)",
+        "effect": "Potencian el bloqueo neuromuscular, aumentando el riesgo de paro respiratorio prolongado.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Relajantes musculares no despolarizantes (Vecuronio, Rocuronio)",
+        "effect": "El halotano potencia su efecto, prolongando la parálisis muscular. Se requiere reducir la dosis del relajante.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Adrenalina (Epinefrina)",
+        "effect": "Aumenta el riesgo de arritmias ventriculares graves (fibrilación ventricular) si se inyecta en altas dosis localmente. Se debe limitar la dosis de adrenalina.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Teofilina",
+        "effect": "Aumenta el riesgo de arritmias cardíacas.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Bloqueadores beta (Propranolol, Metoprolol)",
+        "effect": "Potenciación de la bradicardia y la depresión miocárdica.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Oxido nitroso",
+        "effect": "Permite usar una concentración más baja de halotano para lograr el mismo efecto anestésico (sinergia).",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "El paciente debe estar en ayuno completo (al menos 6-8 horas para sólidos, 2 horas para líquidos claros) antes de recibir anestesia general con halotano para prevenir la aspiración de contenido gástrico a los pulmones. El alcohol debe evitarse antes de la cirugía.",
+    "withSupplements": "Suplementos que afectan la función hepática (como kava, hierba de San Juan, altas dosis de vitamina A) pueden teóricamente aumentar el riesgo de hepatotoxicidad. Suplementos que afectan la presión arterial o el ritmo cardíaco (efedra, guaraná) pueden interferir con la estabilidad hemodinámica durante la anestesia."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA C",
+      "recommendación": "No se recomienda su uso durante el embarazo, especialmente en el primer trimestre, a menos que el beneficio potencial justifique claramente el riesgo para el feto. Puede causar depresión fetal y se ha asociado con un riesgo ligeramente mayor de aborto espontáneo en trabajadoras de salud expuestas crónicamente. Para cirugías de emergencia en embarazadas, se prefieren otros agentes.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se considera compatible con la lactancia. El halotano se elimina rápidamente del cuerpo de la madre. La cantidad que pasa a la leche materna es mínima y es poco probable que afecte al bebé lactante. Se puede reanudar la lactancia una vez que la madre esté completamente alerta y recuperada de la anestesia.",
+    "pediatric": "Se ha utilizado históricamente en niños por su sabor menos irritante. Sin embargo, los niños son más susceptibles a la bradicardia y a la depresión cardíaca. El riesgo de hipertermia maligna es una preocupación constante. Hoy en día, el sevoflurano es el agente de elección más común en pediatría.",
+    "geriatric": "Los adultos mayores son más sensibles a los efectos del halotano. Presentan mayor riesgo de hipotensión severa, bradicardia, confusión postoperatoria (delirio) y prolongación de los efectos residuales. Se requieren dosis más bajas y una titulación cuidadosa. La función hepática y renal reducida puede alterar la eliminación."
+  },
+  "administration": {
+    "howToTake": "El halotano NO se toma por boca. Es administrado exclusivamente por un anestesiólogo o médico especialista capacitado. Se utiliza un vaporizador calibrado y específico para halotano dentro de una máquina de anestesia. El líquido se vaporiza y se mezcla con un flujo preciso de oxígeno (y a veces óxido nitroso) para crear una mezcla que el paciente inhala a través de una mascarilla o un tubo endotraqueal. La concentración se ajusta constantemente durante la cirugía para mantener el nivel adecuado de anestesia.",
+    "storage": "Conservar en su envase original, bien cerrado, protegido de la luz. Almacenar a temperatura ambiente (15-30°C). Es un líquido volátil e inflamable, debe mantenerse alejado de llamas abiertas y fuentes de calor intenso. El vaporizador debe estar alejado de campos electromagnéticos fuertes.",
+    "specialInstructions": "Nunca reutilizar o recargar un vaporizador diseñado para otro anestésico con halotano. Se debe verificar la calibración del vaporizador regularmente. Debido al riesgo de hepatotoxicidad, se recomienda evitar su uso en el mismo paciente en múltiples procedimientos si el intervalo es menor a 28 días, a menos que sea absolutamente necesario. Se debe tener disponible dantroleno sódico en el quirófano para el tratamiento inmediato de una crisis de hipertermia maligna."
+  },
+  "monitoring": {
+    "labTests": [
+      "Pruebas de función hepática (ALT, AST, bilirrubina, fosfatasa alcalina).",
+      "Creatinina y nitrógeno ureico en sangre (BUN).",
+      "Electrolitos séricos (especialmente potasio).",
+      "Gasometría arterial.",
+      "Tiempo de coagulación (TP, TTPA)."
+    ],
+    "frequency": "Continuo durante la administración: electrocardiograma (ECG), presión arterial no invasiva o invasiva, oximetría de pulso, capnografía (CO2 espirado), temperatura corporal. Pruebas de función hepática antes de la cirugía en pacientes de riesgo y después si hay síntomas sospechosos (ictericia, malestar).",
+    "signsToWatch": [
+      "Hipotensión severa o persistente.",
+      "Bradicardia marcada (<50 lpm).",
+      "Arritmias ventriculares nuevas.",
+      "Fiebre alta súbita, rigidez muscular y taquicardia (signos de hipertermia maligna).",
+      "Ictericia (color amarillo en piel y ojos), orina oscura, heces claras, náuseas persistentes días después de la cirugía (signos de hepatitis).",
+      "Dificultad respiratoria o cianosis (coloración azulada)."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Depresión cardiovascular profunda (hipotensión severa, paro cardíaco).",
+      "Depresión respiratoria severa o apnea (paro respiratorio).",
+      "Arritmias cardíacas potencialmente mortales (fibrilación ventricular).",
+      "Coma profundo."
+    ],
+    "treatment": "El tratamiento es de soporte y se realiza en un quirófano o unidad de cuidados intensivos. Incluye: 1) Suspender inmediatamente la administración de halotano. 2) Mantener la vía aérea y proporcionar ventilación con oxígeno al 100%. 3) Soporte cardiovascular con fluidos intravenosos y medicamentos vasopresores (como efedrina o fenilefrina) para la hipotensión. 4) Tratar arritmias según protocolos avanzados. 5) Para hipertermia maligna: suspender desencadenantes, hiperventilar con oxígeno, enfriamiento corporal agresivo y administrar DANTROLENO sódico por vía intravenosa (antídoto específico).",
+    "antidote": "Dantroleno sódico es el antídoto específico para la hipertermia maligna inducida por halotano y otros agentes desencadenantes. No existe un antídoto específico para la sobredosis por depresión cardiovascular o respiratoria."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial para uso hospitalario. Su venta está restringida a hospitales y clínicas con servicios de anestesiología.",
+    "scheduleMexico": "Medicamento de control especial. Sujeta a prescripción médica y registro de uso en instituciones de salud.",
+    "fdaApprovalYear": "Aprobado por la FDA en 1958."
+  },
+  "brandsMexico": [
+    "Fluothane® (marca original, ya discontinuada en muchos mercados)",
+    "Halotano PiSA®",
+    "Halotano Denver Farma®",
+    "Halotane® (genérico de varios laboratorios nacionales). Nota: Su disponibilidad en México ha disminuido significativamente, siendo reemplazado por sevoflurano e isoflurano."
+  ],
+  "clinicalPearls": [
+    "El 'olor dulce' característico del halotano es reconocible en el quirófano y puede persistir en el aliento del paciente horas después de la cirugía.",
+    "Es uno de los anestésicos más potentes por inhalación, con una CAM muy baja (0.75%), lo que significa que se necesita muy poca cantidad para mantener la anestesia.",
+    "La hepatitis por halotano es un ejemplo clásico de reacción de hipersensibilidad de tipo idiosincrásica, donde el metabolito trifluoroacetato actúa como un hapteno que desencadena una respuesta inmune contra las células del hígado."
+  ],
+  "patientCounseling": "Es muy importante que informe a su anestesiólogo sobre TODOS sus antecedentes médicos, especialmente si ha tenido problemas de hígado (hepatitis, ictericia) o reacciones adversas a anestésicos previos. Comunique si algún familiar ha tenido una reacción grave con fiebre muy alta durante o después de una cirugía (hipertermia maligna). Siga estrictamente las instrucciones de ayuno antes de la cirugía para evitar complicaciones pulmonares graves. Después de la cirugía, es normal sentirse somnoliento, con náuseas leves o escalofríos. Sin embargo, debe buscar atención médica INMEDIATA si en los días posteriores presenta fiebre, coloración amarilla en la piel u ojos, dolor abdominal intenso, orina muy oscura o dificultad para respirar. Recuerde que este medicamento solo lo administra un profesional en un entorno controlado; usted nunca lo manipulará directamente.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor agudo quirúrgico",
+        "slug": "dolor-agudo-quirurgico"
+      },
+      {
+        "name": "Ansiedad preoperatoria",
+        "slug": "ansiedad-preoperatoria"
+      },
+      {
+        "name": "Consciencia durante la cirugía",
+        "slug": "consciencia-durante-la-cirugia"
+      },
+      {
+        "name": "Movimiento involuntario durante procedimiento",
+        "slug": "movimiento-involuntario-durante-procedimiento"
+      },
+      {
+        "name": "Reflejos protectores (tos, deglución)",
+        "slug": "reflejos-protectores"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Necesidad de anestesia general",
+        "slug": "necesidad-de-anestesia-general"
+      },
+      {
+        "name": "Estado de mal epiléptico (uso histórico/resistente)",
+        "slug": "estado-de-mal-eplieptico"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Hepatitis tóxica por halotano",
+        "slug": "hepatitis-toxica-por-halotano"
+      },
+      {
+        "name": "Hipertermia maligna",
+        "slug": "hipertermia-maligna"
+      },
+      {
+        "name": "Insuficiencia hepática fulminante",
+        "slug": "insuficiencia-hepatica-fulminante"
+      },
+      {
+        "name": "Arritmias ventriculares",
+        "slug": "arritmias-ventriculares"
+      },
+      {
+        "name": "Síndrome hepatorrenal",
+        "slug": "sindrome-hepatorrenal"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Alanina Aminotransferasa (ALT)",
+        "slug": "alanina-aminotransferasa-alt",
+        "effect": "Puede elevar significativamente"
+      },
+      {
+        "name": "Aspartato Aminotransferasa (AST)",
+        "slug": "aspartato-aminotransferasa-ast",
+        "effect": "Puede elevar significativamente"
+      },
+      {
+        "name": "Bilirrubina total",
+        "slug": "bilirrubina-total",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Tiempo de Protrombina (TP)",
+        "slug": "tiempo-de-protrombina-tp",
+        "effect": "Puede prolongar (aumentar)"
+      },
+      {
+        "name": "Potasio sérico (K+)",
+        "slug": "potasio-serico-k",
+        "effect": "Puede elevar (especialmente en hipertermia maligna)"
+      },
+      {
+        "name": "Creatina fosfoquinasa (CPK)",
+        "slug": "creatina-fosfoquinasa-cpk",
+        "effect": "Puede elevar masivamente (en hipertermia maligna)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Perfil hepático completo",
+        "slug": "perfil-hepatico-completo",
+        "reason": "Para detectar tempranamente signos de hepatotoxicidad por halotano."
+      },
+      {
+        "name": "Biometría hemática completa",
+        "slug": "biometria-hematica-completa",
+        "reason": "Evaluar estado general preoperatorio y detectar anemia."
+      },
+      {
+        "name": "Electrolitos séricos",
+        "slug": "electrolitos-sericos",
+        "reason": "Monitorear desequilibrios, especialmente de potasio, durante y después de la anestesia."
+      },
+      {
+        "name": "Gasometría arterial",
+        "slug": "gasometria-arterial",
+        "reason": "Evaluar el equilibrio ácido-base y oxigenación durante la cirugía, crucial en hipertermia maligna."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de Aclaramiento de Creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de Edad Vascular",
+        "slug": "calculadora-edad-vascular"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Qué es el halotano y para qué sirve?",
+      "a": "El halotano es un medicamento líquido que se usa como anestésico general. Sirve para 'dormir' completamente a un paciente durante una cirugía, eliminando el dolor, la consciencia y los movimientos, permitiendo que los cirujanos operen de manera segura."
+    },
+    {
+      "q": "¿Cómo se administra el halotano?",
+      "a": "NO se toma en pastillas ni inyecciones. Un anestesiólogo lo coloca en una máquina especial que lo convierte en vapor. Este vapor se mezcla con oxígeno y el paciente lo respira a través de una mascarilla o un tubo en la garganta."
+    },
+    {
+      "q": "¿Duele recibir halotano?",
+      "a": "No duele. El paciente se duerme rápidamente al respirar el vapor. La colocación de la vía intravenosa o la mascarilla puede causar una leve molestia inicial, pero la propia anestesia es indolora."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda uno en dormirse con halotano?",
+      "a": "Es muy rápido. Generalmente, el paciente pierde la consciencia en 2 a 5 minutos después de comenzar a respirar la mezcla con la concentración adecuada."
+    },
+    {
+      "q": "¿Y cuánto tarda uno en despertar?",
+      "a": "También es rápido. Minutos después de que el anestesiólogo deja de administrarlo, el paciente comienza a despertar. La recuperación completa para estar alerta puede tomar de 15 a 30 minutos, aunque puede sentirse somnoliento por unas horas."
+    },
+    {
+      "q": "¿Qué se siente al despertar de la anestesia con halotano?",
+      "a": "Es común sentirse confundido, con sueño, frío (escalofríos) y con náuseas leves. La garganta puede estar irritada si se usó un tubo. Estos efectos son temporales y el personal de enfermería lo ayudará a sentirse mejor."
+    },
+    {
+      "q": "¿El halotano tiene efectos secundarios?",
+      "a": "Sí, como todos los medicamentos. Los más comunes son baja de presión, ritmo cardíaco lento, náuseas y escalofríos. Efectos graves pero menos comunes son daño al hígado o una reacción genética llamada hipertermia maligna (fiebre muy alta). Su anestesiólogo lo vigila constantemente para prevenirlos."
+    },
+    {
+      "q": "¿Por qué el médico me pregunta si algún familiar tuvo problemas con la anestesia?",
+      "a": "Para descartar el riesgo de hipertermia maligna, una reacción grave y hereditaria que algunos anestésicos, como el halotano, pueden desencadenar. Si un familiar la tuvo, usted tiene mayor riesgo y se deben usar medicamentos diferentes."
+    },
+    {
+      "q": "¿Puedo comer o tomar algo antes de una cirugía con halotano?",
+      "a": "NO. Debe estar en ayuno completo (ni comida ni agua) por lo menos 6-8 horas antes. Esto es crucial para evitar que el contenido del estómago pase a los pulmones mientras está dormido, lo que puede causar una neumonía grave."
+    },
+    {
+      "q": "¿El halotano es seguro para niños?",
+      "a": "Se ha usado mucho en niños, pero hoy en día existen anestésicos más modernos y seguros para ellos, como el sevoflurano. Si se usa en niños, la dosis se ajusta cuidadosamente y se monitorea de cerca."
+    },
+    {
+      "q": "¿Y para mujeres embarazadas?",
+      "a": "No es la primera opción. Se clasifica como categoría C de riesgo en el embarazo. Solo se usa si la cirugía es urgente y el beneficio es mayor que el riesgo potencial para el bebé. Se prefieren otros agentes."
+    },
+    {
+      "q": "Si soy alérgico a otros medicamentos, ¿puedo ser alérgico al halotano?",
+      "a": "La alergia verdadera al halotano es rara, pero puede ocurrir. Es fundamental informar TODAS sus alergias al anestesiólogo. Una reacción previa de daño al hígado después de una cirugía es una contraindicación absoluta para volver a usarlo."
+    },
+    {
+      "q": "¿El halotano afecta al hígado?",
+      "a": "Sí, puede causar una hepatitis (inflamación del hígado) en un pequeño porcentaje de pacientes. El riesgo es mayor si se usa repetidamente en poco tiempo, en personas obesas, de mediana edad y mujeres. Por eso se hacen pruebas de función hepática en casos de riesgo."
+    },
+    {
+      "q": "¿Qué es la hipertermia maligna?",
+      "a": "Es una emergencia genética rara pero mortal. Algunas personas sensibles, al recibir halotano u otros anestésicos, desarrollan fiebre extremadamente alta, rigidez muscular masiva y daño a múltiples órganos. Se trata con un medicamento llamado dantroleno y enfriamiento urgente."
+    },
+    {
+      "q": "¿Puedo tomar mis medicamentos habituales antes de una cirugía con halotano?",
+      "a": "Debe consultarlo con su cirujano y anestesiólogo. Algunos medicamentos (como para la presión o la diabetes) se toman de manera especial el día de la cirugía. Otros (como aspirina o anticoagulantes) pueden necesitar suspenderse días antes."
+    },
+    {
+      "q": "¿El halotano interactúa con el alcohol?",
+      "a": "Sí. No debe consumir alcohol antes de la cirugía, ya que puede potenciar los efectos depresores del halotano sobre el corazón y la respiración, y aumentar el riesgo de complicaciones."
+    },
+    {
+      "q": "¿Por qué ya no se usa tanto el halotano como antes?",
+      "a": "Porque se han desarrollado anestésicos inhalatorios más nuevos (como sevoflurano y desflurano) que son igual de efectivos, pero con un inicio y recuperación más rápidos, menos metabolismo hepático (menor riesgo de hepatitis) y menos efectos secundarios cardiovasculares."
+    },
+    {
+      "q": "¿Qué debo hacer si después de la cirugía me pongo amarillo (ictericia)?",
+      "a": "Es una SEÑAL DE ALARMA. Debe acudir de INMEDIATO al médico o a urgencias. Puede ser un signo de hepatitis por halotano, que requiere evaluación y tratamiento urgentes para proteger el hígado."
+    },
+    {
+      "q": "¿Cómo decide el anestesiólogo la dosis de halotano que me va a dar?",
+      "a": "La dosis no es fija. El anestesiólogo ajusta constantemente la concentración del vapor que usted respira, basándose en su edad, peso, estado de salud, la profundidad de la anestesia que se necesita (tipo de cirugía) y las señales de su cuerpo (presión, ritmo cardíaco, etc.). Es un proceso de titulación muy preciso."
+    },
+    {
+      "q": "¿Cuál es la principal ventaja del halotano sobre otros anestésicos modernos, que justifique su uso hoy en día?",
+      "a": "Su principal ventaja histórica era su potencia y su perfil de sabor menos irritante para la inducción en niños. Sin embargo, en la práctica clínica actual, sus desventajas (riesgo de hepatotoxicidad idiosincrásica, mayor depresión cardiovascular y disponibilidad de alternativas más seguras) han hecho que su uso sea muy limitado, reservado quizás para situaciones específicas donde otros agentes no estén disponibles o estén contraindicados por razones particulares. Su bajo costo puede ser un factor en algunos entornos con recursos limitados, pero el riesgo-beneficio debe evaluarse rigurosamente en cada paciente."
+    }
+  ]
+}

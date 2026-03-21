@@ -1,0 +1,376 @@
+{
+  "name": "Terazosin Hydrochloride",
+  "summary": "La Terazosina es un medicamento que pertenece a la familia de los bloqueadores alfa-adrenérgicos. Su función principal es relajar los músculos de los vasos sanguíneos y de la próstata, lo que permite que la sangre fluya con más facilidad y que la orina pase mejor. En México, es muy importante porque se usa principalmente para tratar dos problemas comunes en hombres mayores: la presión arterial alta (hipertensión) y los síntomas de la próstata agrandada (hiperplasia prostática benigna o HPB), como la dificultad para orinar, el goteo o la sensación de no vaciar completamente la vejiga. Al mejorar el flujo de orina y reducir la presión arterial, ayuda a prevenir complicaciones graves como daño al corazón, riñones o derrames cerebrales, mejorando significativamente la calidad de vida del paciente. Es un tratamiento de larga duración que requiere supervisión médica constante.",
+  "pharmacology": {
+    "mechanismOfAction": "La Terazosina actúa bloqueando de manera selectiva y competitiva los receptores alfa-1 adrenérgicos, que se encuentran en el músculo liso de las paredes de las arterias, las venas y la próstata. Al bloquear estos receptores, impide que la noradrenalina (una sustancia natural del cuerpo que contrae los vasos) ejerza su efecto. Esto provoca la relajación del músculo liso vascular, lo que dilata las arterias y las venas, reduciendo la resistencia al flujo sanguíneo y, por lo tanto, bajando la presión arterial. En la próstata y el cuello de la vejiga, este bloqueo relaja el músculo liso, disminuyendo la obstrucción y mejorando el flujo de orina. A diferencia de otros bloqueadores alfa, no afecta significativamente los receptores alfa-2, lo que minimiza algunos efectos secundarios.",
+    "pharmacologicClass": "Antagonista selectivo de los receptores alfa-1 adrenérgicos (Bloqueador alfa-1).",
+    "therapeuticClass": "Antihipertensivo; Agente para el tratamiento de los síntomas del tracto urinario inferior asociados a la hiperplasia prostática benigna (HPB).",
+    "absorption": "Se absorbe bien por vía oral, con una biodisponibilidad de aproximadamente el 90%. La presencia de alimentos puede retrasar ligeramente la absorción, pero no afecta significativamente la cantidad total de medicamento que llega a la sangre.",
+    "distribution": "Se distribuye ampliamente en los tejidos. Su unión a proteínas plasmáticas es moderada, alrededor del 90-94%. Su volumen de distribución es de aproximadamente 0.8 L/kg, indicando que se distribuye bien en los fluidos corporales.",
+    "metabolism": "Se metaboliza en el hígado, principalmente a través de procesos no enzimáticos y, en menor medida, por el sistema enzimático del citocromo P450. No es un sustrato significativo de las enzimas CYP más comunes (como CYP3A4 o CYP2D6), por lo que tiene un perfil de interacciones farmacocinéticas más bajo comparado con otros fármacos.",
+    "elimination": "Se elimina principalmente por vía biliar y fecal (aproximadamente 60%), y en menor medida por la orina (40%). Su vida media de eliminación es relativamente larga, de 9 a 12 horas, lo que permite su administración una o dos veces al día.",
+    "onsetOfAction": "El inicio del efecto hipotensor (para bajar la presión) puede observarse en 15 minutos tras la administración, con un pico máximo entre 1 y 2 horas. El alivio de los síntomas urinarios puede tardar varias semanas en ser máximo.",
+    "durationOfAction": "Su efecto antihipertensivo dura aproximadamente 24 horas, permitiendo una dosificación diaria. El efecto sobre los síntomas prostáticos se mantiene con el uso continuado."
+  },
+  "indications": {
+    "approved": [
+      "Hipertensión arterial (solo o en combinación con otros antihipertensivos)",
+      "Tratamiento de los signos y síntomas de la hiperplasia prostática benigna (HPB)"
+    ],
+    "offLabel": [
+      "Síndrome de vejiga hiperactiva refractaria",
+      "Litiasis ureteral (para facilitar la expulsión de cálculos)",
+      "Fenómeno de Raynaud",
+      "Prevención de migraña (en casos seleccionados)"
+    ]
+  },
+  "dosage": {
+    "adults": "Para Hipertensión: Iniciar con 1 mg al acostarse. La dosis puede aumentarse gradualmente según tolerancia y respuesta, usualmente a 2 mg, 5 mg y luego hasta 10 mg al día, en una o dos dosis divididas. Para HPB: Iniciar con 1 mg al acostarse. La dosis usual de mantenimiento es de 5 a 10 mg administrados una vez al día. Los incrementos de dosis deben hacerse a intervalos de 1-2 semanas.",
+    "pediatric": "No está aprobado para uso pediátrico de rutina. Su uso en niños es excepcional y solo bajo estricta supervisión especializada para indicaciones muy específicas (ej., hipertensión refractaria). La dosis se calcula por peso (ej., 0.05 mg/kg/día inicial) y debe ser determinada por un pediatra especialista.",
+    "elderly": "Los pacientes mayores de 65 años pueden ser más sensibles a los efectos hipotensores. Se recomienda iniciar con la dosis más baja posible (1 mg al acostarse) y titular con mayor precaución, monitoreando de cerca la presión arterial y los síntomas de mareo.",
+    "renalImpairment": "No se requiere ajuste de dosis en insuficiencia renal leve a moderada (TFG ≥ 30 mL/min). En insuficiencia renal grave (TFG < 30 mL/min) o en diálisis, se recomienda iniciar con 0.5 mg a 1 mg y titular con extrema precaución, ya que puede haber mayor riesgo de hipotensión.",
+    "hepaticImpairment": "Debe usarse con precaución en pacientes con enfermedad hepática. No se requiere un ajuste de dosis específico inicial, pero la titulación debe ser más lenta y el paciente debe ser monitorizado de cerca por posible acumulación del fármaco.",
+    "maxDose": "La dosis máxima diaria recomendada es de 20 mg, aunque rara vez se necesitan dosis superiores a 10 mg/día para HPB o hipertensión."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "1 mg",
+        "2 mg",
+        "5 mg"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la terazosina, a otros bloqueadores alfa-adrenérgicos (prazosina, doxazosina) o a cualquier excipiente de la formulación"
+    ],
+    "relative": [
+      "Hipotensión ortostática marcada",
+      "Insuficiencia hepática grave",
+      "Pacientes con antecedente de síncope (desmayo) con bloqueadores alfa",
+      "Estenosis aórtica o mitral significativa",
+      "En combinación con inhibidores de la fosfodiesterasa-5 (sildenafil, tadalafil) para disfunción eréctil, por riesgo de hipotensión grave"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Mareo",
+      "Cefalea (dolor de cabeza)",
+      "Astenia (debilidad o cansancio)"
+    ],
+    "common": [
+      "Hipotensión ortostática (mareo al levantarse)",
+      "Síncope (desmayo), especialmente con la primera dosis",
+      "Palpitaciones",
+      "Congestión nasal",
+      "Somnolencia",
+      "Náuseas",
+      "Edema periférico (hinchazón de pies/ tobillos)",
+      "Visión borrosa"
+    ],
+    "uncommon": [
+      "Disfunción eréctil (aunque es menos común que con otros fármacos para la próstata)",
+      "Priapismo (erección prolongada y dolorosa - URGENCIA MÉDICA)",
+      "Depresión",
+      "Parestesias (hormigueo)",
+      "Dolor abdominal"
+    ],
+    "rare": [
+      "Reacciones alérgicas (rash, urticaria)",
+      "Ictericia (coloración amarilla de piel/ojos)",
+      "Leucopenia (disminución de glóbulos blancos)"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Otros antihipertensivos (diuréticos, betabloqueadores, IECA, ARA II)",
+        "effect": "Potenciación del efecto hipotensor, aumentando el riesgo de mareo, hipotensión y síncope.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores de la fosfodiesterasa-5 (Sildenafil, Tadalafil, Vardenafil)",
+        "effect": "Riesgo de hipotensión grave, mareo y síncope. Se debe separar la administración y usar con extrema precaución.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Agentes adrenérgicos (descongestionantes como pseudoefedrina)",
+        "effect": "Pueden antagonizar el efecto hipotensor de la terazosina.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Puede tomarse con o sin alimentos. Tomarlo con una comida ligera puede ayudar a reducir molestias gastrointestinales leves. El consumo de alcohol debe evitarse o limitarse estrictamente, ya que potencia los efectos hipotensores y el mareo.",
+    "withSupplements": "Precaución con suplementos que bajen la presión arterial, como ajo en dosis altas, espino blanco (Crataegus) o aceite de pescado. Los suplementos que contienen efedra o sinefrina pueden antagonizar su efecto."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "C",
+      "recommendation": "No hay estudios adecuados en mujeres embarazadas. Solo debe usarse durante el embarazo si el beneficio potencial justifica claramente el riesgo potencial para el feto. Su uso no es común en esta población, ya que la hipertensión en el embarazo se maneja con fármacos de primera línea más seguros.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "No se sabe si la terazosina se excreta en la leche humana. Debido al potencial de efectos adversos graves en el lactante (hipotensión), se recomienda suspender la lactancia o no utilizar el medicamento, considerando la importancia del fármaco para la madre.",
+    "pediatric": "La seguridad y eficacia en niños no están establecidas. No está indicado para uso pediátrico general. Su uso queda restringido a situaciones especiales bajo supervisión de un especialista en nefrología o cardiología pediátrica.",
+    "geriatric": "Los pacientes mayores son más susceptibles a los efectos hipotensores, al mareo y al síncope. Se debe iniciar con la dosis más baja (1 mg al acostarse) y titular muy lentamente. Es crucial el monitoreo de la presión arterial en posición sentada y de pie para detectar hipotensión ortostática."
+  },
+  "administration": {
+    "howToTake": "Tome la tableta por vía oral, generalmente una vez al día, a la hora de acostarse. Esto ayuda a minimizar el mareo y el riesgo de desmayo, especialmente durante las primeras dosis y los aumentos de dosis. Puede tomarse con o sin alimentos. Trague la tableta entera con un vaso lleno de agua. No parta, mastique ni triture las tabletas a menos que su médico o farmacéutico lo indique. Si olvida una dosis, tómela tan pronto como lo recuerde, a menos que ya sea casi la hora de la siguiente dosis. En ese caso, omita la dosis olvidada y continúe con su horario regular. NO duplique la dosis para compensar.",
+    "storage": "Conservar en su empaque original, a temperatura ambiente (entre 15°C y 30°C), protegido de la luz, la humedad y el calor excesivo. Mantener fuera del alcance de los niños.",
+    "specialInstructions": "LA PRIMERA DOSIS Y CADA AUMENTO DE DOSIS PUEDEN CAUSAR MAREO O DESMAYO (SÍNCOPE). Por seguridad, tome la primera dosis y las primeras dosis después de un aumento AL ACOSTARSE. Evite levantarse rápidamente de la cama o de una silla durante las primeras horas. Si se siente mareado, siéntese o acuéstese de inmediato. Este efecto suele disminuir con el uso continuado."
+  },
+  "monitoring": {
+    "labTests": [
+      "Presión arterial (en posición sentada y de pie)",
+      "Flujo urinario máximo (en HPB)",
+      "Antígeno prostático específico (PSA) basal y periódico",
+      "Función renal (creatinina sérica, TFG)",
+      "Electrolitos séricos (potasio, sodio)",
+      "Hemograma completo (ocasionalmente)"
+    ],
+    "frequency": "Presión arterial: al inicio, tras cada cambio de dosis y luego cada 3-6 meses en control. PSA: basal antes de iniciar y anualmente si hay indicación. Función renal: al inicio y anualmente, o según comorbilidades.",
+    "signsToWatch": [
+      "Mareo intenso o desmayo al ponerse de pie",
+      "Dificultad para respirar o dolor en el pecho",
+      "Hinchazón repentina de pies, tobillos o manos",
+      "Erección prolongada y dolorosa (priapismo)",
+      "Signos de infección (fiebre, dolor de garganta) por posible baja de glóbulos blancos",
+      "Coloración amarillenta de piel u ojos"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Hipotensión severa (presión muy baja)",
+      "Mareo extremo",
+      "Síncope (pérdida del conocimiento)",
+      "Shock (piel fría y húmeda, pulso débil y rápido)",
+      "Bradicardia (ritmo cardíaco lento) o taquicardia (rápido)"
+    ],
+    "treatment": "Es una emergencia médica. Lleve al paciente al hospital. El tratamiento es de soporte: colocar al paciente en posición de shock (tumbado con las piernas elevadas), administrar líquidos intravenosos y usar vasopresores (como noradrenalina) si es necesario para subir la presión. El lavado gástrico puede ser útil si la ingestión fue reciente. No hay diálisis efectiva.",
+    "antidote": "No existe un antídoto específico. El tratamiento es sintomático y de soporte."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Rx).",
+    "scheduleMexico": "Fracción III (Medicamento de venta con receta médica retenida en primera instancia, pero su dispensación final depende de la normativa de la farmacia).",
+    "fdaApprovalYear": "1987 (para hipertensión); posteriormente para HPB."
+  },
+  "brandsMexico": [
+    "Hytrin",
+    "Terapres",
+    "Terazosin",
+    "Uroflo",
+    "Zosin",
+    "Alfapres",
+    "Prostaclin",
+    "Terazosina MK",
+    "Teraprost"
+  ],
+  "clinicalPearls": [
+    "El 'efecto de primera dosis' (hipotensión y síncope) es la complicación más temida. Mitíguese siempre iniciando con 1 mg al acostarse y advirtiendo claramente al paciente.",
+    "En HPB, el alivio sintomático (mejor flujo urinario) puede tardar de 2 a 6 semanas en ser máximo. Es importante educar al paciente para que no espere resultados inmediatos y no suspenda el tratamiento.",
+    "A diferencia de los inhibidores de la 5-alfa reductasa (finasteride, dutasteride), la terazosina no reduce el tamaño de la próstata ni los niveles de PSA. Por lo tanto, no interfiere en la detección del cáncer de próstata mediante PSA."
+  ],
+  "patientCounseling": "Querido paciente: Este medicamento le ayudará a controlar su presión arterial o a orinar con más facilidad si tiene la próstata agrandada. ES CRUCIAL que tome la primera pastilla, y la primera de cada aumento de dosis, A LA HORA DE ACOSTARSE, para evitar mareos o desmayos al pararse. Levántese lentamente de la cama o de la silla, especialmente por las mañanas. No conduzca ni opere maquinaria peligrosa hasta que sepa cómo le afecta. Evite el alcohol, ya que aumenta el mareo. No suspenda el tratamiento sin hablar con su médico, aunque se sienta mejor. Para los problemas de próstata, puede tardar varias semanas en notar mejoría completa. Informe a su médico de inmediato si se marea mucho, se desmaya, tiene dificultad para respirar, hinchazón en pies o una erección dolorosa que dura más de 4 horas. Asista a todas sus citas para revisar su presión.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dificultad para orinar",
+        "slug": "dificultad-para-orinar"
+      },
+      {
+        "name": "Chorro de orina débil",
+        "slug": "chorro-de-orina-debil"
+      },
+      {
+        "name": "Goteo al terminar de orinar",
+        "slug": "goteo-al-terminar-de-orinar"
+      },
+      {
+        "name": "Necesidad frecuente de orinar",
+        "slug": "necesidad-frecuente-de-orinar"
+      },
+      {
+        "name": "Presión arterial alta",
+        "slug": "presion-arterial-alta"
+      },
+      {
+        "name": "Mareo por hipertensión",
+        "slug": "mareo-por-hipertension"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Hipertensión arterial esencial",
+        "slug": "hipertension-arterial-esencial"
+      },
+      {
+        "name": "Hiperplasia prostática benigna (HPB)",
+        "slug": "hiperplasia-prostatica-benigna"
+      },
+      {
+        "name": "Obstrucción del tracto urinario inferior",
+        "slug": "obstruccion-del-tracto-urinario-inferior"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Hipotensión ortostática",
+        "slug": "hipotension-ortostatica"
+      },
+      {
+        "name": "Síncope vasovagal",
+        "slug": "sincope-vasovagal"
+      },
+      {
+        "name": "Priapismo",
+        "slug": "priapismo"
+      },
+      {
+        "name": "Edema periférico",
+        "slug": "edema-periferico"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Presión arterial sistólica",
+        "slug": "presion-arterial-sistolica",
+        "effect": "Disminuye"
+      },
+      {
+        "name": "Presión arterial diastólica",
+        "slug": "presion-arterial-diastolica",
+        "effect": "Disminuye"
+      },
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede aumentar ligeramente (taquicardia refleja)"
+      },
+      {
+        "name": "Leucocitos (glóbulos blancos)",
+        "slug": "leucocitos",
+        "effect": "Puede disminuir (raro)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Medición de presión arterial",
+        "slug": "medicion-de-presion-arterial",
+        "reason": "Monitorizar eficacia y seguridad del tratamiento antihipertensivo"
+      },
+      {
+        "name": "Antígeno prostático específico (PSA)",
+        "slug": "antigeno-prostatico-especifico-psa",
+        "reason": "Evaluación basal de la próstata antes de iniciar tratamiento para HPB y seguimiento"
+      },
+      {
+        "name": "Uroflujometría",
+        "slug": "uroflujometria",
+        "reason": "Evaluar objetivamente la mejoría en el flujo urinario en pacientes con HPB"
+      },
+      {
+        "name": "Biometría hemática",
+        "slug": "biometria-hematica",
+        "reason": "Detectar posibles efectos raros como leucopenia"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora IMC",
+        "slug": "calculadora-imc"
+      },
+      {
+        "name": "Aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora eGFR",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve la Terazosina?",
+      "a": "Sirve principalmente para dos cosas: 1) Bajar la presión arterial alta (hipertensión). 2) Mejorar los síntomas de la próstata agrandada en hombres, como dificultad para empezar a orinar, chorro débil, goteo y necesidad de orinar con mucha frecuencia, especialmente de noche."
+    },
+    {
+      "q": "¿Cómo debo tomar la Terazosina por primera vez?",
+      "a": "Tome la primera pastilla (y la primera de cada vez que le aumenten la dosis) A LA HORA DE ACOSTARSE. Esto es para evitar mareos o desmayos fuertes al pararse. Después de eso, puede seguir tomándola a la misma hora cada noche."
+    },
+    {
+      "q": "¿Puedo tomar Terazosina si tengo presión baja?",
+      "a": "No, la Terazosina está contraindicada si usted ya tiene presión arterial baja (hipotensión) o sufre de mareos y desmayos al ponerse de pie. Este medicamento baja la presión, por lo que podría empeorar su condición."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto para los problemas de la próstata?",
+      "a": "Puede empezar a notar mejoría en el flujo de orina en unos días, pero el efecto máximo para aliviar todos los síntomas (como la frecuencia urinaria) suele tardar entre 2 y 6 semanas de tratamiento continuo. Sea paciente y no suspenda el medicamento."
+    },
+    {
+      "q": "¿La Terazosina reduce el tamaño de la próstata?",
+      "a": "No. La Terazosina relaja los músculos de la próstata y el cuello de la vejiga para que la orina pase mejor, pero NO reduce el tamaño físico de la próstata. Otros medicamentos como la finasterida sí lo hacen."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si estoy con Terazosina?",
+      "a": "Se recomienda EVITAR o limitar MUCHO el consumo de alcohol. El alcohol potencia el efecto de bajar la presión arterial y aumenta mucho el riesgo de mareos, desmayos y caídas peligrosas."
+    },
+    {
+      "q": "¿Qué hago si se me olvida una dosis?",
+      "a": "Si se le olvida, tómela tan pronto como lo recuerde, a menos que ya sea casi la hora de la siguiente dosis. En ese caso, omita la dosis olvidada y continúe con su horario normal. NUNCA tome una dosis doble para compensar."
+    },
+    {
+      "q": "¿La Terazosina afecta la vida sexual?",
+      "a": "Puede causar algunos efectos. Aunque es menos común que con otros fármacos, en algunos hombres puede provocar disfunción eréctil o, de manera muy rara pero grave, priapismo (una erección prolongada y dolorosa que requiere atención médica urgente). También puede causar eyaculación retrógrada (el semen va hacia la vejiga). Consulte a su médico si tiene preocupaciones."
+    },
+    {
+      "q": "¿Puedo manejar o operar maquinaria con este medicamento?",
+      "a": "Tenga precaución, especialmente al inicio del tratamiento o al aumentar la dosis. El mareo y la somnolencia son efectos comunes. No conduzca ni opere maquinaria peligrosa hasta que esté seguro de cómo le afecta el medicamento y no sienta estos síntomas."
+    },
+    {
+      "q": "¿La Terazosina interactúa con el Viagra (sildenafil)?",
+      "a": "SÍ, hay una interacción GRAVE. Tomar Terazosina junto con medicamentos para la disfunción eréctil como sildenafil (Viagra), tadalafil (Cialis) o vardenafil (Levitra) puede causar una bajada de presión arterial MUY PELIGROSA, mareo extremo y desmayo. Informe siempre a su médico que toma Terazosina si le recetan algo para la disfunción eréctil."
+    },
+    {
+      "q": "¿Puedo tomar Terazosina si tengo diabetes?",
+      "a": "Sí, puede usarse, pero con precaución. Los pacientes con diabetes pueden ser más sensibles a los cambios de presión. Además, la Terazosina puede enmascarar los síntomas de una baja de azúcar (hipoglucemia), como los latidos rápidos. Monitoree su presión y glucosa con regularidad."
+    },
+    {
+      "q": "¿Qué efectos secundarios son señales de alarma para ir al médico?",
+      "a": "Acuda al médico de inmediato si presenta: desmayo, mareo intenso que no se quita, dificultad para respirar, dolor en el pecho, hinchazón rápida de pies/tobillos/manos, o una erección dolorosa que dura más de 4 horas (priapismo, es una URGENCIA)."
+    },
+    {
+      "q": "¿La Terazosina afecta los resultados del PSA para detectar cáncer de próstata?",
+      "a": "NO. A diferencia de otros medicamentos para la próstata (finasterida), la Terazosina NO reduce los niveles de Antígeno Prostático Específico (PSA). Por lo tanto, no interfiere con la interpretación de esta prueba para la detección del cáncer de próstata."
+    },
+    {
+      "q": "¿Puedo dejar de tomar Terazosina de golpe si me siento mejor?",
+      "a": "NO. Nunca suspenda este medicamento abruptamente sin consultar a su médico. Si lo deja de golpe, su presión arterial puede subir rápidamente (efecto rebote) o sus síntomas urinarios empeorarán. Cualquier cambio en la dosis debe ser supervisado por un profesional."
+    },
+    {
+      "q": "¿Es seguro usar Terazosina en adultos mayores?",
+      "a": "Sí, pero con más precaución. Las personas mayores son más sensibles a sus efectos, especialmente al mareo y a la baja de presión. Por eso, se inicia con dosis más bajas (1 mg) y se aumenta muy lentamente. Es vital checar la presión estando sentado y de pie."
+    },
+    {
+      "q": "¿Qué pasa si tomo una sobredosis de Terazosina?",
+      "a": "Una sobredosis puede causar presión arterial MUY BAJA, mareo extremo, desmayo, shock y latidos cardíacos irregulares. Es una EMERGENCIA MÉDICA. Llame a una ambulancia o acuda al hospital más cercano de inmediato. No provoque el vómito a menos que lo indique un profesional."
+    },
+    {
+      "q": "¿La Terazosina se puede usar en mujeres?",
+      "a": "Sí, pero solo para la indicación de hipertensión arterial. No se usa en mujeres para problemas urinarios a menos que sea por una indicación muy específica y fuera de lo aprobado (off-label), como vejiga hiperactiva refractaria, siempre bajo supervisión de un especialista."
+    },
+    {
+      "q": "¿Interfiere la Terazosina con medicamentos para el resfriado?",
+      "a": "Sí, debe tener cuidado. Los descongestionantes comunes que contienen pseudoefedrina o fenilefrina (que suben la presión) pueden contrarrestar el efecto de la Terazosina para bajar la presión. Consulte a su farmacéutico antes de tomar cualquier medicamento para el resfriado."
+    },
+    {
+      "q": "¿Necesito hacerme análisis de sangre periódicos con Terazosina?",
+      "a": "No es estrictamente necesario de rutina solo por tomar Terazosina, pero su médico probablemente le pida análisis periódicos para monitorear su salud general: presión arterial, función renal y, en hombres, el PSA. Si presenta síntomas como fiebre o dolor de garganta, podría pedir un hemograma para descartar baja de glóbulos blancos (efecto raro)."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre Terazosina y Tamsulosina (Flomax)?",
+      "a": "Ambos son bloqueadores alfa para la próstata, pero la Tamsulosina es más selectiva para los receptores de la próstata y menos para los vasos sanguíneos. Por eso, la Tamsulosina suele causar menos mareo e hipotensión que la Terazosina, pero más eyaculación retrógrada. La Terazosina tiene la ventaja adicional de tratar la hipertensión. La elección depende de las condiciones de cada paciente."
+    }
+  ]
+}

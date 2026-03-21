@@ -1,0 +1,436 @@
+{
+  "name": "Sulfato ferroso",
+  "summary": "El sulfato ferroso es un medicamento que pertenece al grupo de los antianémicos y hematológicos. Sirve para tratar y prevenir la anemia por deficiencia de hierro, una condición común en México donde el cuerpo no tiene suficiente hierro para producir hemoglobina, la proteína en los glóbulos rojos que transporta oxígeno a todos los tejidos. Es de gran importancia clínica porque corrige esta deficiencia, mejorando síntomas como cansancio extremo, palidez, mareos y falta de aire, y previene complicaciones graves, especialmente en grupos vulnerables como mujeres embarazadas, niños en crecimiento y personas con pérdidas crónicas de sangre. Su uso adecuado restaura los niveles de hierro, normaliza la producción de glóbulos rojos y mejora significativamente la calidad de vida y la capacidad física del paciente.",
+  "pharmacology": {
+    "mechanismOfAction": "El sulfato ferroso es una sal de hierro que actúa como fuente de hierro elemental, un mineral esencial. Una vez absorbido en el intestino delgado, el hierro se incorpora a la molécula de hemoglobina dentro de los glóbulos rojos en la médula ósea. La hemoglobina es crucial para transportar oxígeno desde los pulmones a todos los órganos y tejidos del cuerpo. En condiciones de deficiencia, el cuerpo no puede producir suficiente hemoglobina, llevando a anemia. Este medicamento repone las reservas de hierro corporales (depósitos en forma de ferritina) y proporciona el hierro necesario para la síntesis normal de hemoglobina, corrigiendo así la anemia y restaurando la capacidad de transporte de oxígeno de la sangre.",
+    "pharmacologicClass": "Suplemento mineral de hierro. Sal ferrosa (Fe2+).",
+    "therapeuticClass": "Antianémico. Hematológico (agente para el tratamiento de la anemia por deficiencia de hierro).",
+    "absorption": "Se absorbe de forma activa en el duodeno y yeyuno proximal (parte alta del intestino delgado). La absorción es variable (5-20% de la dosis) y depende de las reservas corporales de hierro, la dosis y los alimentos ingeridos concomitantemente. La presencia de ácido gástrico favorece su absorción al mantener el hierro en su forma ferrosa (Fe2+), más soluble y absorbible.",
+    "distribution": "El hierro absorbido se une a la transferrina plasmática para su transporte. Se distribuye principalmente a la médula ósea para la síntesis de hemoglobina, y el exceso se almacena en el hígado, bazo y médula ósea como ferritina y hemosiderina. Su unión a proteínas plasmáticas (transferrina) es alta. El volumen de distribución (Vd) es bajo, ya que el hierro se une rápidamente a proteínas y se incorpora a las células.",
+    "metabolism": "El hierro no se metaboliza en el sentido clásico hepático. Su estado de oxidación puede cambiar (de ferrosa Fe2+ a férrica Fe3+) en el plasma. No es sustrato significativo de enzimas del citocromo P450 (CYP). Su regulación principal es a nivel de la absorción intestinal y el reciclaje a partir de glóbulos rojos viejos.",
+    "elimination": "La vida media del hierro en plasma es de aproximadamente 60 a 120 minutos. La eliminación es mínima; el hierro se conserva y recicla eficientemente en el cuerpo. Las pérdidas normales ocurren a través de la descamación de células de la piel, mucosa intestinal, y en menor medida por la orina y el sudor (alrededor de 1 mg/día). En mujeres, la menstruación aumenta las pérdidas. La excreción fecal representa principalmente el hierro no absorbido.",
+    "onsetOfAction": "El inicio del efecto sobre la producción de nuevos glóbulos rojos (reticulocitos) se observa generalmente entre 3 a 10 días después de iniciar la terapia.",
+    "durationOfAction": "Los efectos sobre la corrección de la anemia y el relleno de las reservas de hierro son prolongados. El tratamiento suele requerirse por varios meses (3 a 6 meses) después de que la hemoglobina se normaliza, para reponer completamente los depósitos corporales."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento de la anemia ferropénica (por deficiencia de hierro) confirmada.",
+      "Prevención de la deficiencia de hierro en poblaciones de alto riesgo (embarazo, lactancia, mujeres con sangrado menstrual abundante, niños en crecimiento).",
+      "Suplementación en pacientes con requerimientos aumentados de hierro (p. ej., después de cirugía bariátrica)."
+    ],
+    "offLabel": [
+      "Síndrome de piernas inquietas asociado a deficiencia de hierro (cuando los niveles de ferritina son bajos).",
+      "Como coadyuvante en el tratamiento de la anemia en enfermedad renal crónica (antes o concurrente con agentes estimulantes de la eritropoyesis como la eritropoyetina).",
+      "Mejora de la capacidad cognitiva en niños y adolescentes con deficiencia de hierro documentada."
+    ]
+  },
+  "dosage": {
+    "adults": "Para tratamiento de anemia: 100 a 200 mg de hierro elemental al día, en 2 a 3 dosis divididas. Dosis típica: Sulfato ferroso 325 mg (equivale a ~65 mg de hierro elemental) 3 veces al día. Para prevención: 30 a 60 mg de hierro elemental al día.",
+    "pediatric": "Líquido: 3-6 mg de hierro elemental/kg/día, en 3 dosis divididas. Comprimidos: Niños >12 años: dosis de adulto. Niños 6-12 años: Dosis ajustada por peso, generalmente 3-6 mg/kg/día dividido. Siempre bajo supervisión médica.",
+    "elderly": "Mismas dosis que en adultos. Se debe usar con precaución debido a la mayor probabilidad de efectos adversos gastrointestinales y posibles comorbilidades. Monitorear estrechamente la función renal.",
+    "renalImpairment": "No se requiere ajuste de dosis específico en insuficiencia renal. Sin embargo, en enfermedad renal crónica avanzada (TFG <30 mL/min), el uso puede estar indicado junto con eritropoyetina. El riesgo de acumulación es bajo, pero se debe vigilar el estado de hierro (ferritina, saturación de transferrina).",
+    "hepaticImpairment": "No se requiere ajuste de dosis. La acumulación de hierro en el hígado (hemocromatosis) es una contraindicación.",
+    "maxDose": "La dosis máxima diaria no está bien definida, pero dosis superiores a 200 mg de hierro elemental al día aumentan significativamente los efectos adversos gastrointestinales sin mejorar la absorción. En intoxicación, dosis >20 mg/kg de hierro elemental son potencialmente graves."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "200 mg",
+        "300 mg",
+        "325 mg (equivale a ~65 mg Fe elemental)"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Cápsula",
+      "strengths": [
+        "150 mg",
+        "250 mg",
+        "300 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Jarabe / Solución oral",
+      "strengths": [
+        "25 mg Fe/5 mL",
+        "30 mg Fe/5 mL"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Gotas pediátricas",
+      "strengths": [
+        "15 mg Fe/mL"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tableta de liberación prolongada",
+      "strengths": [
+        "105 mg Fe"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hemocromatosis (exceso de hierro en el cuerpo).",
+      "Hemosiderosis (acumulación de hierro en tejidos).",
+      "Anemias no causadas por deficiencia de hierro (anemia megaloblástica por deficiencia de B12 o ácido fólico, anemia hemolítica).",
+      "Hipersensibilidad conocida al sulfato ferroso o a cualquiera de sus excipientes."
+    ],
+    "relative": [
+      "Enfermedad inflamatoria intestinal activa (Colitis ulcerosa, Enfermedad de Crohn).",
+      "Úlcera péptica activa o gastritis erosiva.",
+      "Enteritis o colitis.",
+      "Pacientes que reciben transfusiones sanguíneas frecuentes.",
+      "Insuficiencia hepática severa."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Náuseas.",
+      "Dolor o malestar abdominal (cólicos).",
+      "Estreñimiento.",
+      "Heces de color negro o verde oscuro (es inofensivo)."
+    ],
+    "common": [
+      "Pirosis (acidez estomacal).",
+      "Diarrea.",
+      "Vómito.",
+      "Sabor metálico desagradable en la boca."
+    ],
+    "uncommon": [
+      "Decoloración temporal de los dientes (con formulaciones líquidas).",
+      "Manchas en la piel alrededor de la boca (en niños con gotas).",
+      "Urticaria leve.",
+      "Prurito (comezón)."
+    ],
+    "rare": [
+      "Reacciones alérgicas severas (anafilaxia).",
+      "Úlcera gástrica o intestinal.",
+      "Obstrucción intestinal por impactación de tabletas (en pacientes con estenosis).",
+      "Sobrecarga de hierro con uso prolongado y excesivo."
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Antiácidos (Omeprazol, Ranitidina, Carbonato de calcio, Hidróxido de aluminio/magnesio)",
+        "effect": "Disminuyen la acidez estomacal, reduciendo la absorción del hierro. Separar la administración al menos 2 horas.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Tetraciclinas (Doxiciclina, Minociclina) y Fluoroquinolonas (Ciprofloxacino, Levofloxacino)",
+        "effect": "Forman complejos insolubles, disminuyendo la absorción de ambos fármacos. Separar la administración al menos 2-3 horas.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Levotiroxina",
+        "effect": "El hierro puede disminuir significativamente la absorción de la levotiroxina, empeorando el hipotiroidismo. Separar la administración al menos 4 horas.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Metildopa",
+        "effect": "El hierro puede disminuir la absorción de la metildopa y potencialmente interferir con su efecto antihipertensivo.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Penicilamina",
+        "effect": "Disminuye la absorción de la penicilamina. Separar la administración al menos 2 horas.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Los alimentos, especialmente los ricos en fitatos (cereales integrales), fosfatos (lácteos, huevos), taninos (té, café, vino tinto) y calcio, pueden reducir la absorción del hierro hasta en un 50-70%. Se recomienda tomarlo con el estómago vacío (1 hora antes o 2 horas después de comer) para una mejor absorción. Si causa malestar estomacal, puede tomarse con una pequeña cantidad de alimento, sabiendo que la absorción será menor. El alcohol puede irritar la mucosa gástrica y potenciar los efectos adversos gastrointestinales.",
+    "withSupplements": "El calcio, zinc, magnesio y el cobre en suplementos pueden competir por la absorción con el hierro, reduciéndola. Los suplementos de fibra (psyllium) también pueden interferir. La vitamina C (ácido ascórbico) aumenta significativamente la absorción del hierro no hem (como el sulfato ferroso) al mantenerlo en su forma ferrosa reducida y soluble. Se sugiere tomarlo con un vaso de jugo de naranja."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "A (en dosis recomendadas). Considerada categoría C en dosis altas.",
+      "recommendation": "Es seguro y ampliamente utilizado durante el embarazo para prevenir y tratar la anemia ferropénica, la cual es común y puede asociarse con bajo peso al nacer y parto prematuro. La dosis profiláctica típica es de 30-60 mg de hierro elemental al día. El tratamiento de anemia confirmada requiere dosis más altas bajo supervisión médica.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "El hierro se excreta en pequeñas cantidades en la leche materna, pero en las dosis terapéuticas habituales no se considera perjudicial para el lactante. Es compatible con la lactancia. Las formulaciones orales de hierro son el tratamiento de elección para la anemia materna durante la lactancia.",
+    "pediatric": "Seguro y efectivo en niños cuando se usa en las dosis adecuadas por peso. Las formulaciones líquidas o gotas son preferibles para niños pequeños. Es crucial mantener el frasco fuera del alcance de los niños, ya la intoxicación por hierro en pediatría puede ser fatal.",
+    "geriatric": "Los adultos mayores son más susceptibles a los efectos adversos gastrointestinales (estreñimiento, dolor abdominal). Se debe iniciar con dosis bajas e incrementar gradualmente. Es importante descartar causas de sangrado crónico (como cáncer de colon) antes de atribuir la anemia solo a deficiencia nutricional en este grupo."
+  },
+  "administration": {
+    "howToTake": "Tomar preferentemente con el estómago vacío, 1 hora antes o 2 horas después de las comidas, para una mejor absorción. Si causa malestar estomacal, puede tomarse con alimentos. Tragar las tabletas o cápsulas enteras con un vaso lleno de agua (no con leche, café o té). Para las formas líquidas, usar el dosificador proporcionado y puede diluirse en agua o jugo. Para evitar manchar los dientes con el jarabe, tomarlo con una pajilla o enjuagar la boca después.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (15-30°C), en un lugar seco y fuera del alcance de la luz directa y la humedad. Mantener especialmente fuera del alcance de los niños. No congelar las formas líquidas.",
+    "specialInstructions": "Las heces se volverán de color negro o verde oscuro; esto es normal y no indica sangrado. No debe tomarse al mismo tiempo que antiácidos, suplementos de calcio o lácteos; separar al menos 2 horas. Para mejorar la absorción, se puede tomar con un alimento o bebida rico en vitamina C (jugo de naranja, fresas, kiwi). No acostarse inmediatamente después de tomarlo para evitar reflujo."
+  },
+  "monitoring": {
+    "labTests": [
+      "Hemoglobina (Hb) y Hematocrito (Hto).",
+      "Conteo de Reticulocitos.",
+      "Ferritina sérica (mide reservas de hierro).",
+      "Hierro sérico y Capacidad Total de Fijación de Hierro (CTFH) o Transferrina.",
+      "Saturación de Transferrina.",
+      "Volumen Corpuscular Medio (VCM) y Hemoglobina Corpuscular Media (HCM)."
+    ],
+    "frequency": "Hemoglobina: cada 4 semanas hasta normalización. Ferritina: al inicio y después de 3 meses de tratamiento para evaluar relleno de reservas. En tratamiento preventivo, monitoreo anual puede ser suficiente.",
+    "signsToWatch": [
+      "Sangrado rectal o heces con sangre roja (no confundir con heces negras inofensivas del hierro).",
+      "Dolor abdominal severo o persistente.",
+      "Vómito con sangre o material similar a café molido.",
+      "Signos de reacción alérgica (ronchas, hinchazón de cara/lengua, dificultad para respirar).",
+      "Falta de mejoría en los síntomas de anemia después de 4 semanas de tratamiento."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Fase temprana (30 min - 6 hrs): Náusea, vómito severo (a veces con sangre), dolor abdominal, diarrea, letargo, shock.",
+      "Fase latente (6-24 hrs): Mejoría aparente.",
+      "Fase tardía (12-48 hrs): Fallo hepático, acidosis metabólica, convulsiones, coma, sangrado gastrointestinal, shock cardiovascular."
+    ],
+    "treatment": "Es una EMERGENCIA MÉDICA. No inducir el vómito. Acudir inmediatamente a urgencias. El tratamiento es de soporte e incluye lavado gástrico con solución salina, administración del antídoto (desferroxamina) por vía intravenosa o intramuscular en casos graves, y corrección de la deshidratación y acidosis. La descontaminación intestinal con polietilenglicol puede considerarse.",
+    "antidote": "Desferroxamina (Desferal®). Es un agente quelante del hierro que forma un complejo estable (ferrioxamina) que se excreta por la orina, dándole un color rojo-vinoso."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Venta libre (sin receta) en la mayoría de sus presentaciones (tabletas, jarabes). Algunas presentaciones de dosis más altas o combinadas pueden requerir receta médica.",
+    "scheduleMexico": "Fracción III (Medicamento de venta libre).",
+    "fdaApprovalYear": "Aprobado mucho antes de las leyes modernas de la FDA. Ampliamente utilizado y reconocido como seguro y efectivo."
+  },
+  "brandsMexico": [
+    "Fer-In-Sol®",
+    "Fero-Gradumet®",
+    "Ferrplex®",
+    "Hierro Fumex®",
+    "Iberol®",
+    "Nefrofer®",
+    "Sulfato Ferroso Genfar®",
+    "Sulfato Ferroso Liomont®",
+    "Sulfato Ferroso Rimsa®",
+    "Tardyferon®",
+    "Tonoférrico®",
+    "Vifor®"
+  ],
+  "clinicalPearls": [
+    "La respuesta al tratamiento se evidencia primero por un aumento en los reticulocitos (glóbulos rojos jóvenes) a los 5-10 días.",
+    "El fracaso del tratamiento suele deberse a: mala adherencia (efectos GI), dosis insuficiente, mala absorción (celiaquía, gastrectomía), diagnóstico incorrecto (anemia de enfermedad crónica) o pérdida de sangre continua no controlada.",
+    "Para mejorar la tolerancia, se puede iniciar con una dosis baja (ej., una tableta al día) e incrementar gradualmente hasta la dosis objetivo.",
+    "La ferritina es el mejor marcador de las reservas corporales de hierro; un nivel >30 ng/mL sugiere reservas adecuadas en la mayoría de pacientes.",
+    "En pacientes con enfermedad renal crónica que reciben eritropoyetina, la deficiencia de hierro es la causa más común de falta de respuesta; el sulfato ferroso oral es la primera línea de suplementación."
+  ],
+  "patientCounseling": "Es importante que tome este medicamento exactamente como se lo indicó su médico. Recuerde que es más efectivo si lo toma con el estómago vacío, pero si le cae mal, puede tomarlo con un poco de comida. No se alarme si sus heces se ponen de color negro o verde oscuro, es un efecto normal e inofensivo del hierro que no se absorbe. Para evitar el estreñimiento, aumente su consumo de agua, fibra (frutas, verduras) y haga algo de ejercicio. No tome leche, antiácidos, café o té junto con su dosis de hierro, espere al menos 2 horas. Si olvida una dosis, tómela tan pronto como lo recuerde, pero si ya es casi la hora de la siguiente, omita la olvidada y continúe con su horario normal. Nunca duplique la dosis. Guarde el frasco en un lugar seguro, lejos del alcance de los niños, ya que una sobredosis puede ser muy peligrosa. Si los síntomas de cansancio y palidez no mejoran después de un mes, o si tiene dolor abdominal fuerte, consulte a su médico.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fatiga o cansancio extremo",
+        "slug": "fatiga-cronica"
+      },
+      {
+        "name": "Palidez de piel y mucosas",
+        "slug": "palidez-cutanea"
+      },
+      {
+        "name": "Mareos o aturdimiento",
+        "slug": "mareos-vertigo"
+      },
+      {
+        "name": "Dificultad para respirar (disnea)",
+        "slug": "disnea-falta-aire"
+      },
+      {
+        "name": "Dolor de cabeza (cefalea)",
+        "slug": "cefalea-dolor-cabeza"
+      },
+      {
+        "name": "Fragilidad de uñas y cabello",
+        "slug": "cabello-uñas-fragiles"
+      },
+      {
+        "name": "Síndrome de piernas inquietas",
+        "slug": "sindrome-piernas-inquietas"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Anemia ferropénica",
+        "slug": "anemia-ferropenica"
+      },
+      {
+        "name": "Deficiencia de hierro sin anemia",
+        "slug": "deficiencia-hierro"
+      },
+      {
+        "name": "Anemia en enfermedad renal crónica",
+        "slug": "anemia-insuficiencia-renal"
+      },
+      {
+        "name": "Anemia del embarazo",
+        "slug": "anemia-embarazo"
+      },
+      {
+        "name": "Anemia por sangrado menstrual abundante (menorragia)",
+        "slug": "menorragia-sangrado-menstrual-abundante"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Hemocromatosis",
+        "slug": "hemocromatosis"
+      },
+      {
+        "name": "Enfermedad de úlcera péptica",
+        "slug": "ulcera-peptica"
+      },
+      {
+        "name": "Enfermedad inflamatoria intestinal (Crohn, Colitis)",
+        "slug": "enfermedad-inflamatoria-intestinal"
+      },
+      {
+        "name": "Insuficiencia hepática",
+        "slug": "insuficiencia-hepatica"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Hemoglobina (Hb)",
+        "slug": "hemoglobina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Ferritina sérica",
+        "slug": "ferritina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Hierro sérico",
+        "slug": "hierro-serico",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Saturación de transferrina",
+        "slug": "saturacion-transferrina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Conteo de reticulocitos",
+        "slug": "reticulocitos",
+        "effect": "Puede elevar"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Biometría hemática completa",
+        "slug": "biometria-hematica",
+        "reason": "Para diagnosticar anemia y monitorear respuesta al tratamiento."
+      },
+      {
+        "name": "Perfil de hierro (Hierro, CTFH, Ferritina)",
+        "slug": "perfil-hierro",
+        "reason": "Para confirmar deficiencia de hierro y evaluar reservas."
+      },
+      {
+        "name": "Examen general de heces",
+        "slug": "examen-general-heces",
+        "reason": "Para descartar pérdida de sangre oculta en heces como causa de anemia."
+      },
+      {
+        "name": "Endoscopia digestiva alta/Colonoscopia",
+        "slug": "endoscopia-colonoscopia",
+        "reason": "En adultos con anemia ferropénica sin causa obvia, para descartar sangrado gastrointestinal."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de IMC",
+        "slug": "calculadora-imc"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de calorías",
+        "slug": "calculadora-calorias"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Por qué me salen las heces negras con este medicamento?",
+      "a": "Es un efecto normal e inofensivo. El hierro que su cuerpo no absorbe se mezcla con las heces y las oscurece. No es sangre, a menos que vea sangre roja brillante."
+    },
+    {
+      "q": "¿Puedo tomar el sulfato ferroso si estoy embarazada?",
+      "a": "Sí, es seguro y muy común durante el embarazo para prevenir la anemia. Su médico le indicará la dosis adecuada. Es importante para su salud y la de su bebé."
+    },
+    {
+      "q": "Me causa mucho malestar en el estómago, ¿qué puedo hacer?",
+      "a": "Intente tomarlo con un poco de comida, aunque se absorba un poco menos. También puede empezar con media dosis e ir aumentando. Evite acostarse después de tomarlo. Si el malestar es muy fuerte, consulte a su médico por otras formulaciones."
+    },
+    {
+      "q": "¿A los cuántos días empiezo a sentirme mejor?",
+      "a": "Puede empezar a notar menos cansancio en 1 o 2 semanas, pero la mejoría completa de la anemia tarda de 1 a 3 meses. Es importante seguir el tratamiento todo el tiempo que su médico le indique, aunque ya se sienta bien."
+    },
+    {
+      "q": "¿Puedo tomarlo con leche o café?",
+      "a": "No es recomendable. La leche (calcio) y el café/té (taninos) reducen mucho la absorción del hierro. Espere al menos 2 horas entre tomar el hierro y consumir estos productos."
+    },
+    {
+      "q": "¿Es mejor tomarlo en la mañana o en la noche?",
+      "a": "Puede tomarlo a la hora que le sea más conveniente y que le recuerde mejor. Algunas personas prefieren la noche si les causa sueño. Lo importante es la constancia."
+    },
+    {
+      "q": "Mi hijo necesita hierro, ¿qué presentación es mejor?",
+      "a": "Para niños pequeños, las gotas o el jarabe son las más fáciles de administrar. Use siempre el dosificador que trae el frasco. Para evitar manchar los dientes, déle el medicamento hacia atrás en la boca o enjuáguele la boca después."
+    },
+    {
+      "q": "¿El sulfato ferroso engorda?",
+      "a": "No, el sulfato ferroso no contiene calorías y no causa aumento de peso. A veces, al corregir la anemia, se recupera el apetito y la energía, lo que puede llevar a una ganancia de peso saludable si antes se estaba muy débil."
+    },
+    {
+      "q": "¿Puedo dejar de tomarlo cuando mi hemoglobina sea normal?",
+      "a": "No inmediatamente. Su médico le dirá cuándo suspenderlo. Generalmente, se debe continuar por 3 a 6 meses más después de que la hemoglobina se normalice, para llenar las reservas de hierro del cuerpo y evitar que la anemia regrese pronto."
+    },
+    {
+      "q": "¿Qué pasa si olvido una dosis?",
+      "a": "Tómela tan pronto como lo recuerde. Pero si ya es casi la hora de la siguiente dosis, sáltese la que olvidó y continúe con su horario normal. Nunca tome dos dosis a la vez para compensar."
+    },
+    {
+      "q": "¿Interfiere con otros medicamentos que tomo?",
+      "a": "Sí, puede interferir. Especialmente con antiácidos, algunos antibióticos y la levotiroxina (para el hipotiroidismo). Informe siempre a su médico y farmacéutico todos los medicamentos que toma. Separe la toma del hierro de otros medicamentos al menos 2-4 horas."
+    },
+    {
+      "q": "¿Sirve para todo tipo de anemia?",
+      "a": "No. Solo sirve para la anemia causada por falta de hierro (anemia ferropénica). Tomarlo para otros tipos de anemia (por falta de vitamina B12, por ejemplo) no solo no ayuda, sino que puede ser peligroso porque retrasa el diagnóstico correcto."
+    },
+    {
+      "q": "¿Puedo tomar vitaminas junto con el sulfato ferroso?",
+      "a": "Puede, pero tenga cuidado con las que contienen calcio, zinc o cobre, ya que pueden reducir la absorción del hierro. La vitamina C, en cambio, ayuda a absorberlo mejor. Separe la toma si es necesario."
+    },
+    {
+      "q": "¿El hierro mancha los dientes?",
+      "a": "Las formas líquidas (jarabe, gotas) pueden manchar temporalmente los dientes de un color grisáceo. Para evitarlo, tome el medicamento con una pajilla, colóquelo en la parte posterior de la boca o enjuáguese la boca con agua después de tomarlo."
+    },
+    {
+      "q": "¿Qué alimentos debo comer para ayudar al tratamiento?",
+      "a": "Alimentos ricos en hierro como carnes rojas magras, hígado, lentejas, espinacas y frijoles. Combínelos con alimentos ricos en vitamina C (cítricos, pimientos, tomate) para mejorar la absorción del hierro de los vegetales."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre las diferentes marcas de sulfato ferroso?",
+      "a": "El principio activo es el mismo. Las diferencias pueden estar en los excipientes (que pueden afectar la tolerancia), la presentación (tableta, cápsula, jarabe) y el precio. Elija la que su médico le recomiende y que usted tolere mejor."
+    },
+    {
+      "q": "¿Puedo tomar alcohol mientras tomo este medicamento?",
+      "a": "Se recomienda moderación o evitarlo. El alcohol puede irritar el estómago y empeorar efectos como náuseas. Además, el consumo excesivo de alcohol puede por sí mismo causar anemia y otros problemas de salud."
+    },
+    {
+      "q": "¿Cómo sé si el tratamiento está funcionando?",
+      "a": "Su médico lo sabrá mediante análisis de sangre (hemoglobina y ferritina). Usted notará menos cansancio, más energía, mejor color en la piel y menos mareos. La primera señal en los análisis es un aumento de los 'reticulocitos' a la semana o diez días."
+    },
+    {
+      "q": "¿Qué es más efectivo, el hierro oral o las inyecciones?",
+      "a": "El hierro oral (como el sulfato ferroso) es la primera opción por ser seguro, barato y efectivo. Las inyecciones (hierro intravenoso) se reservan para casos de mala absorción, intolerancia severa al oral, necesidad de corrección rápida o enfermedad renal avanzada."
+    },
+    {
+      "q": "¿Por qué es importante tratar la anemia por falta de hierro?",
+      "a": "Porque la anemia no tratada afecta su calidad de vida, causa fatiga crónica, reduce su capacidad de trabajo y concentración. En niños, puede afectar el crecimiento y desarrollo cognitivo. En embarazadas, aumenta el riesgo de parto prematuro y bajo peso al nacer. En todos, puede agravar problemas cardíacos existentes."
+    }
+  ]
+}

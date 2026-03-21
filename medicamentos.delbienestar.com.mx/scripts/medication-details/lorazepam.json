@@ -1,0 +1,453 @@
+{
+  "name": "Lorazepam",
+  "summary": "El lorazepam es un medicamento ansiolítico y sedante perteneciente a la familia de las benzodiacepinas. Se utiliza principalmente para tratar trastornos de ansiedad, insomnio, y como premedicación antes de procedimientos médicos para reducir la ansiedad y producir sedación. También es útil en el manejo de estados de agitación y como parte del tratamiento del síndrome de abstinencia al alcohol. Su importancia clínica radica en su acción rápida y eficaz para aliviar síntomas de ansiedad intensa y promover la relajación, pero debe usarse con precaución debido a su potencial para causar dependencia, somnolencia excesiva y efectos adversos graves si se combina con alcohol u otros depresores del sistema nervioso central. Es un medicamento controlado que requiere receta médica y supervisión profesional para evitar uso prolongado y complicaciones.",
+  "pharmacology": {
+    "mechanismOfAction": "El lorazepam actúa potenciando la actividad del neurotransmisor inhibidor ácido gamma-aminobutírico (GABA) en el sistema nervioso central. Se une específicamente a los receptores GABA-A, lo que aumenta la frecuencia de apertura de los canales de cloruro en las neuronas. Este influjo de iones cloruro hiperpolariza la membrana neuronal, haciendo que la célula sea menos excitable. Este efecto inhibitorio generalizado resulta en acciones ansiolíticas, sedantes, hipnóticas, anticonvulsivantes y relajantes musculares. A diferencia de otras benzodiacepinas, no requiere metabolismo hepático para formar metabolitos activos, lo que lo hace más predecible, especialmente en pacientes con enfermedad hepática.",
+    "pharmacologicClass": "Benzodiacepina de acción intermedia; Agonista del receptor GABA-A",
+    "therapeuticClass": "Ansiolítico, Sedante, Hipnótico, Anticonvulsivante, Relajante muscular",
+    "absorption": "Se absorbe bien por vía oral, con una biodisponibilidad de aproximadamente 90%. La concentración plasmática máxima (Cmax) se alcanza en 2 horas (Tmax) después de la administración oral. La administración intramuscular también es eficaz, con absorción rápida y completa. La presencia de alimentos puede retrasar ligeramente la absorción pero no afecta significativamente la biodisponibilidad total.",
+    "distribution": "Se distribuye ampliamente por todo el cuerpo. El volumen de distribución (Vd) es de aproximadamente 1.3 L/kg. Se une extensamente (aproximadamente 85-90%) a proteínas plasmáticas, principalmente a la albúmina. Cruza fácilmente la barrera hematoencefálica y la placenta, y se excreta en la leche materna.",
+    "metabolism": "El lorazepam se metaboliza principalmente en el hígado mediante glucuronoconjugación, formando lorazepam glucurónido, un metabolito inactivo. A diferencia de muchas otras benzodiacepinas, NO es metabolizado por el sistema enzimático citocromo P450 (CYP), lo que minimiza las interacciones farmacocinéticas con medicamentos que inhiben o inducen estas enzimas. Esto lo hace una opción más segura en pacientes polimedicados o con insuficiencia hepática leve a moderada.",
+    "elimination": "La vida media de eliminación es de 10 a 20 horas (promedio 12-14 horas). Se elimina principalmente por vía renal, con aproximadamente 75-88% de la dosis excretada en la orina como lorazepam glucurónido inactivo en un período de 5 días. Una pequeña porción se elimina en las heces. La eliminación es más lenta en adultos mayores y en pacientes con insuficiencia hepática grave.",
+    "onsetOfAction": "Vía oral: 30 a 60 minutos. Vía intramuscular: 15 a 30 minutos. Vía intravenosa: 1 a 5 minutos. El inicio de acción es más rápido en condiciones de ansiedad elevada.",
+    "durationOfAction": "Los efectos clínicos duran de 6 a 12 horas después de una dosis única, dependiendo de la dosis y la sensibilidad individual. Los efectos residuales como sedación pueden persistir hasta el día siguiente."
+  },
+  "indications": {
+    "approved": [
+      "Trastorno de ansiedad generalizada",
+      "Trastorno de pánico",
+      "Insomnio (a corto plazo)",
+      "Premedicación ansiolítica y sedante antes de procedimientos médicos, dentales o quirúrgicos",
+      "Estatus epiléptico (vía intravenosa)",
+      "Síndrome de abstinencia al alcohol (como parte del manejo)",
+      "Náuseas y vómitos inducidos por quimioterapia (como coadyuvante)"
+    ],
+    "offLabel": [
+      "Trastorno de estrés postraumático (TEPT)",
+      "Agitación en trastornos psiquiátricos",
+      "Síndrome de piernas inquietas severo",
+      "Manejo de la abstinencia de benzodiacepinas (tapering)",
+      "Cefalea tensional crónica",
+      "Vértigo y mareo asociado a ansiedad",
+      "Como coadyuvante en el manejo del dolor"
+    ]
+  },
+  "dosage": {
+    "adults": "Ansiedad: 1-2 mg, 2-3 veces al día. Dosis usual: 2-6 mg/día divididos. Insomnio: 1-4 mg al acostarse. Premedicación: 2-4 mg la noche anterior y/o 1-2 horas antes del procedimiento. Dosis inicial típica: 1 mg para minimizar sedación.",
+    "pediatric": "NO es de primera elección en niños. Para ansiedad/agitación (≥12 años): 0.5-1 mg, 2-3 veces/día. Para estatus epiléptico (IV, todas las edades): 0.05-0.1 mg/kg, máximo 4 mg/dosis. Uso en <12 años solo bajo estricta supervisión especializada.",
+    "elderly": "Ajuste obligatorio por mayor sensibilidad. Dosis inicial: 0.5-1 mg/día, en dosis única o dividida. Incrementos lentos. Dosis de mantenimiento usual: 1-2 mg/día. Vigilar estrechamente por sedación excesiva, ataxia y riesgo de caídas.",
+    "renalImpairment": "Ajuste en insuficiencia renal moderada a severa (TFG <30 mL/min). Reducir dosis en un 25-50%. Monitorizar por acumulación y sedación excesiva. El lorazepam glucurónido (inactivo) puede acumularse en diálisis, pero el fármaco activo no se dializa significativamente.",
+    "hepaticImpairment": "Ajuste necesario en insuficiencia hepática (Child-Pugh B y C). Reducir dosis inicial en un 50%. Dosis inicial: 0.5 mg, 1-2 veces/día. Incrementar con extrema precaución. Es preferible a otras benzodiacepinas por su metabolismo vía glucuronidación.",
+    "maxDose": "Dosis máxima diaria recomendada: 10 mg. En hospitalización para indicaciones específicas (ej. abstinencia al alcohol) pueden usarse dosis más altas bajo supervisión estrecha."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "0.5 mg",
+        "1 mg",
+        "2 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Solución inyectable",
+      "strengths": [
+        "2 mg/mL",
+        "4 mg/mL"
+      ],
+      "route": "Intramuscular, Intravenosa"
+    },
+    {
+      "form": "Solución oral concentrada",
+      "strengths": [
+        "2 mg/mL"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al lorazepam o a cualquier benzodiacepina",
+      "Miastenia gravis",
+      "Apnea del sueño severa no tratada",
+      "Insuficiencia respiratoria aguda o severa",
+      "Glaucoma de ángulo cerrado agudo",
+      "Intoxicación aguda por alcohol, opioides u otros depresores del SNC"
+    ],
+    "relative": [
+      "Insuficiencia hepática severa (Child-Pugh C)",
+      "Insuficiencia renal severa (TFG <15)",
+      "Historia de dependencia a drogas o alcohol",
+      "Depresión mayor con ideación suicida",
+      "Edad avanzada con fragilidad",
+      "Trastornos psiquiátricos con riesgo de desinhibición"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Somnolencia",
+      "Mareo",
+      "Sedación",
+      "Debilidad muscular",
+      "Ataxia (inestabilidad al caminar)"
+    ],
+    "common": [
+      "Cefalea",
+      "Visión borrosa",
+      "Cambios en el apetito",
+      "Náusea",
+      "Estreñimiento o diarrea",
+      "Cambios en la libido",
+      "Fatiga",
+      "Confusión leve (especialmente en ancianos)"
+    ],
+    "uncommon": [
+      "Depresión",
+      "Excitación paradójica (nerviosismo, irritabilidad, agresividad)",
+      "Amnesia anterógrada (olvido de eventos después de tomar la dosis)",
+      "Alteraciones del habla",
+      "Temblor",
+      "Erupción cutánea",
+      "Hipotensión"
+    ],
+    "rare": [
+      "Leucopenia (disminución de glóbulos blancos)",
+      "Ictericia (coloración amarilla)",
+      "Reacciones de hipersensibilidad severa",
+      "Dependencia y síndrome de abstinencia con uso prolongado",
+      "Ideación suicida",
+      "Alucinaciones"
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Alcohol",
+        "effect": "Potenciación severa de la depresión del SNC. Riesgo de sedación profunda, depresión respiratoria, coma y muerte.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Opioides (morfina, oxicodona, tramadol, etc.)",
+        "effect": "Depresión respiratoria y del SNC severa, sedación profunda, coma. Riesgo elevado de muerte por sobredosis.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Otros depresores del SNC (antihistamínicos sedantes, antipsicóticos, barbitúricos, anestésicos)",
+        "effect": "Adición de efectos sedantes y deterioro psicomotor.",
+        "severity": "Moderada/Grave"
+      },
+      {
+        "drug": "Ácido valproico/Valproato",
+        "effect": "Puede aumentar las concentraciones de lorazepam, potenciando sus efectos sedantes.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Probenecid",
+        "effect": "Inhibe la glucuronidación, pudiendo aumentar los niveles de lorazepam y prolongar su efecto.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Teofilina/Aminofilina",
+        "effect": "Puede antagonizar (reducir) los efectos sedantes del lorazepam.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Los alimentos pueden retrasar ligeramente la absorción pero no afectan la cantidad total absorbida. El ALCOHOL está absolutamente contraindicado por riesgo de depresión respiratoria severa y muerte. El jugo de toronja (pomelo) no tiene interacción significativa, ya que el lorazepam no se metaboliza por CYP3A4.",
+    "withSupplements": "Hierba de San Juan (Hypericum perforatum): Puede reducir la eficacia del lorazepam al inducir enzimas de conjugación. Kava kava, valeriana, melatonina, L-triptófano: Pueden potenciar los efectos sedantes y del SNC. Suplementos que contengan alcohol: Riesgo similar al consumo de bebidas alcohólicas."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "D",
+      "recommendation": "NO RECOMENDADO durante el embarazo, especialmente en el primer trimestre y cerca del parto. Su uso se asocia con riesgo de malformaciones congénitas (labio leporino/paladar hendido), síndrome de abstinencia neonatal (hipotonía, dificultad para alimentarse, irritabilidad, problemas respiratorios) y flaccidez neonatal ('floppy infant syndrome'). Solo debe considerarse si el beneficio para la madre justifica claramente el riesgo potencial para el feto, en dosis mínimas y por el menor tiempo posible.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "El lorazepam se excreta en la leche materna en cantidades bajas. Se considera probablemente seguro en dosis ocasionales y bajas. Sin embargo, con uso crónico o dosis altas, puede causar sedación, dificultad para alimentarse y pérdida de peso en el lactante. Se recomienda evitar la lactancia si se usa de forma regular o en dosis altas. Si se usa, administrar justo después de una toma y evitar la toma siguiente (4-6 horas después). Monitorear al bebé por somnolencia excesiva.",
+    "pediatric": "Generalmente no recomendado para uso crónico en niños y adolescentes debido a efectos sobre el desarrollo del SNC, riesgo de dependencia y posibles alteraciones conductuales paradójicas. Su uso se reserva para situaciones agudas específicas (estatus epiléptico, premedicación) bajo supervisión médica hospitalaria. En adolescentes ≥12 años para ansiedad, iniciar con dosis muy bajas (0.5 mg) y monitorear estrechamente.",
+    "geriatric": "Población de ALTO RIESGO. Mayor sensibilidad por cambios farmacocinéticos y farmacodinámicos. Dosis deben iniciarse muy bajas (0.5 mg/día) y aumentarse lentamente. Riesgo elevado de sedación excesiva, confusión, ataxia, caídas y fracturas (especialmente cadera). Evitar uso combinado con otros depresores del SNC. Preferir tratamientos no farmacológicos para insomnio y ansiedad. Revisar necesidad de continuar tratamiento periódicamente."
+  },
+  "administration": {
+    "howToTake": "Tomar exactamente como lo indica el médico. Las tabletas se toman por vía oral con o sin alimentos. Si causa malestar estomacal, tomar con alimentos. NO triturar, masticar ni partir las tabletas a menos que el médico lo indique. Para el insomnio, tomar solo al acostarse, asegurándose de tener al menos 7-8 horas para dormir ininterrumpidamente. Para la ansiedad, tomar a las horas indicadas, incluso si se siente bien. NO aumentar la dosis por cuenta propia. Si olvida una dosis, tómela tan pronto como lo recuerde, pero si es casi la hora de la siguiente, omita la olvidada y continúe con su horario normal. NO duplique dosis.",
+    "storage": "Almacenar a temperatura ambiente (15-30°C), en un lugar seco, protegido de la luz y la humedad. Mantener en su envase original, bien cerrado y fuera del alcance de los niños y mascotas. No almacenar en el baño. Desechar cualquier medicamento vencido o que ya no necesite de forma segura (entregar en puntos de recolección).",
+    "specialInstructions": "Este medicamento puede causar somnolencia, mareo y disminución del estado de alerta. NO conduzca vehículos, opere maquinaria peligrosa o realice actividades que requieran concentración hasta que sepa cómo le afecta (generalmente 24-48 horas después de iniciar o cambiar dosis). Evite el consumo de alcohol por completo. Informe a su médico o dentista que toma lorazepam antes de cualquier cirugía o procedimiento. NO suspenda el medicamento abruptamente después de uso prolongado (>2-4 semanas), ya que puede causar síntomas de abstinencia (ansiedad, insomnio, temblores, convulsiones). La suspensión debe ser gradual bajo supervisión médica."
+  },
+  "monitoring": {
+    "labTests": [
+      "Función hepática (ALT, AST, bilirrubina)",
+      "Función renal (creatinina, BUN)",
+      "Hemograma completo (especialmente con uso prolongado)",
+      "Niveles de electrolitos (en ancianos o con enfermedades crónicas)"
+    ],
+    "frequency": "Evaluación clínica de eficacia y efectos adversos cada 1-4 semanas al inicio. Pruebas de laboratorio basales y luego cada 6-12 meses con uso crónico, o según síntomas.",
+    "signsToWatch": [
+      "Sedación excesiva o dificultad para despertar",
+      "Confusión o desorientación nueva",
+      "Inestabilidad al caminar o caídas",
+      "Cambios de humor (depresión, irritabilidad, ideas de hacerse daño)",
+      "Dificultad para respirar o respiración lenta",
+      "Problemas de memoria significativos",
+      "Signos de dependencia o necesidad de aumentar dosis",
+      "Erupción cutánea o reacción alérgica"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Somnolencia profunda",
+      "Confusión severa",
+      "Ataxia marcada (incapacidad para caminar)",
+      "Reflejos disminuidos",
+      "Hipotensión (presión baja)",
+      "Depresión respiratoria (respiración lenta y superficial)",
+      "Coma",
+      "En casos severos, paro cardiorrespiratorio y muerte"
+    ],
+    "treatment": "Es una EMERGENCIA MÉDICA. Llamar al 911 o acudir a urgencias. Tratamiento de soporte: Mantener vía aérea, asistencia respiratoria si es necesario, soporte cardiovascular. Lavado gástrico solo si la ingestión fue reciente (<1 hora) y con protección de vía aérea. Carbón activado puede ser útil. NO hay diálisis efectiva. El antídoto específico (flumazenil) debe usarse con PRECAUCIÓN, ya que puede precipitar convulsiones en pacientes dependientes o con trastornos convulsivos. El tratamiento es principalmente sintomático y de soporte.",
+    "antidote": "Flumazenil (Anexate®). Es un antagonista competitivo de los receptores de benzodiacepinas. Se usa en intoxicación severa con depresión respiratoria o coma. CONTRAINDICADO en pacientes con dependencia a benzodiacepinas (riesgo de abstinencia severa y convulsiones) o que usan medicamentos proconvulsivantes."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (receta controlada)",
+    "scheduleMexico": "Fracción III (Tercera) de la Ley General de Salud. Psicotrópico con potencial de abuso y dependencia. Receta por duplicado, válida por 30 días, con retención de copia en farmacia.",
+    "fdaApprovalYear": "1977"
+  },
+  "brandsMexico": [
+    "Ativan",
+    "Lorazepam Genfar",
+    "Lorazepam Rimsa",
+    "Lorazepam Liomont",
+    "Lorazepam Psicofarma",
+    "Lorazepam Best",
+    "Lorazepam Denver",
+    "Lorazepam MK",
+    "Lorazepam Sophia",
+    "Lorazepam Valdecasas",
+    "Lorazepam Chinoin",
+    "Lorazepam Pisa",
+    "Lorazepam Laproff",
+    "Lorazepam Alpharma",
+    "Lorazepam Landson",
+    "Lorazepam Biogen",
+    "Lorazepam Carnot",
+    "Lorazepam Stendhal",
+    "Lorazepam Asofarma",
+    "Lorazepam Probiomed"
+  ],
+  "clinicalPearls": [
+    "El lorazepam es una benzodiacepina 'limpia' farmacocinéticamente: no tiene metabolitos activos y no depende del CYP450, lo que lo hace más predecible en ancianos, pacientes con enfermedad hepática y polimedicados.",
+    "Su vida media intermedia (12-14h) lo hace útil para el insomnio de conciliación y mantenimiento, pero puede causar resaca ('hangover') al día siguiente, especialmente en dosis altas o en adultos mayores.",
+    "La amnesia anterógrada (olvido de eventos posteriores a la dosis) es un efecto común y a veces deseable en premedicación quirúrgica, pero puede ser un problema si el paciente necesita recordar instrucciones importantes."
+  ],
+  "patientCounseling": "El lorazepam es un medicamento efectivo para controlar la ansiedad y el insomnio, pero debe usarse con mucha responsabilidad. Tómelo EXACTAMENTE como se lo recetó su médico; nunca aumente la dosis ni la frecuencia por su cuenta. Es crucial que evite completamente el consumo de alcohol, ya que la combinación puede ser peligrosa y causar dificultad para respirar o incluso la muerte. Este medicamento puede causarle mucho sueño y mareo, especialmente al inicio del tratamiento, por lo que no debe manejar, operar maquinaria o hacer actividades que requieran estar alerta hasta que sepa cómo le afecta. Si lo usa por más de unas semanas, no lo suspenda de golpe, ya que puede causar síntomas de abstinencia como ansiedad, insomnio, temblores o convulsiones. Su médico le indicará cómo reducirlo gradualmente. Guarde el medicamento en un lugar seguro, fuera del alcance de niños y otras personas, ya que es un fármaco controlado con potencial de abuso. Si siente que el medicamento ya no hace efecto o siente necesidad de tomarlo más seguido, hable con su médico inmediatamente.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Ansiedad",
+        "slug": "ansiedad"
+      },
+      {
+        "name": "Insomnio",
+        "slug": "insomnio"
+      },
+      {
+        "name": "Nerviosismo",
+        "slug": "nerviosismo"
+      },
+      {
+        "name": "Agitacion",
+        "slug": "agitacion"
+      },
+      {
+        "name": "Tension muscular",
+        "slug": "tension-muscular"
+      },
+      {
+        "name": "Convulsiones",
+        "slug": "convulsiones"
+      },
+      {
+        "name": "Nauseas",
+        "slug": "nauseas"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Trastorno de ansiedad generalizada",
+        "slug": "trastorno-de-ansiedad-generalizada"
+      },
+      {
+        "name": "Trastorno de panico",
+        "slug": "trastorno-de-panico"
+      },
+      {
+        "name": "Estatus epileptico",
+        "slug": "estatus-epileptico"
+      },
+      {
+        "name": "Sindrome de abstinencia alcoholica",
+        "slug": "sindrome-de-abstinencia-alcoholica"
+      },
+      {
+        "name": "Trastorno de estres postraumatico",
+        "slug": "trastorno-de-estres-postraumatico"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Dependencia a benzodiacepinas",
+        "slug": "dependencia-a-benzodiacepinas"
+      },
+      {
+        "name": "Sindrome de abstinencia",
+        "slug": "sindrome-de-abstinencia"
+      },
+      {
+        "name": "Depresion respiratoria",
+        "slug": "depresion-respiratoria"
+      },
+      {
+        "name": "Demencia o deterioro cognitivo",
+        "slug": "deterioro-cognitivo"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Enzimas hepaticas (ALT, AST)",
+        "slug": "enzimas-hepaticas",
+        "effect": "Puede elevar (raro, por hipersensibilidad)"
+      },
+      {
+        "name": "Bilirrubina",
+        "slug": "bilirrubina",
+        "effect": "Puede elevar (raro, por colestasis)"
+      },
+      {
+        "name": "Recuento de leucocitos",
+        "slug": "leucocitos",
+        "effect": "Puede disminuir (leucopenia rara)"
+      },
+      {
+        "name": "Presion arterial",
+        "slug": "presion-arterial",
+        "effect": "Puede disminuir (hipotension)"
+      },
+      {
+        "name": "Frecuencia respiratoria",
+        "slug": "frecuencia-respiratoria",
+        "effect": "Puede disminuir (depresion respiratoria)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Pruebas de funcion hepatica",
+        "slug": "pruebas-funcion-hepatica",
+        "reason": "Monitorear posible toxicidad hepatica, especialmente con uso prolongado"
+      },
+      {
+        "name": "Hemograma completo",
+        "slug": "hemograma-completo",
+        "reason": "Detectar leucopenia u otras alteraciones hematologicas raras"
+      },
+      {
+        "name": "Perfil renal",
+        "slug": "perfil-renal",
+        "reason": "Ajustar dosis en pacientes con insuficiencia renal"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediatrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de filtrado glomerular (eGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve el lorazepam?",
+      "a": "El lorazepam sirve principalmente para tratar la ansiedad intensa, el insomnio (dificultad para dormir) y para calmar los nervios antes de un procedimiento médico o dental. También se usa en emergencias para detener convulsiones prolongadas (estatus epiléptico) y como parte del tratamiento para la abstinencia del alcohol."
+    },
+    {
+      "q": "¿El lorazepam es lo mismo que el clonazepam o el alprazolam?",
+      "a": "No, aunque todos son benzodiacepinas y sirven para la ansiedad, son medicamentos diferentes. El lorazepam tiene una duración de acción intermedia (6-12 horas), el alprazolam es de acción más corta y el clonazepam de acción más larga. Se usan para situaciones distintas y tienen diferentes riesgos. Nunca los intercambie sin consultar a su médico."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto el lorazepam?",
+      "a": "Cuando se toma por la boca (tabletas), empieza a hacer efecto en aproximadamente 30 a 60 minutos. El efecto máximo se siente entre 1 y 2 horas después de tomarlo. Si se inyecta, el efecto es mucho más rápido (minutos)."
+    },
+    {
+      "q": "¿Puedo tomar lorazepam y beber alcohol?",
+      "a": "NO. Es EXTREMADAMENTE PELIGROSO mezclar lorazepam con alcohol. La combinación puede causar somnolencia profunda, dificultad para respirar, pérdida del conocimiento, coma e incluso la muerte. Debe evitar el alcohol por completo mientras esté en tratamiento."
+    },
+    {
+      "q": "¿El lorazepam causa sueño? ¿Puedo manejar después de tomarlo?",
+      "a": "Sí, el lorazepam causa sueño, mareo y reduce los reflejos. NO debe manejar, operar maquinaria peligrosa o realizar actividades que requieran estar alerta (como usar herramientas) hasta que sepa cómo le afecta. Este efecto puede durar hasta el día siguiente."
+    },
+    {
+      "q": "¿Puedo volverme adicto al lorazepam?",
+      "a": "Sí, el lorazepam tiene potencial de causar dependencia física y psicológica, especialmente si se usa en dosis altas o por más de 2 a 4 semanas seguidas. Por eso es un medicamento controlado que requiere receta y debe usarse el menor tiempo posible a la dosis más baja efectiva."
+    },
+    {
+      "q": "¿Qué pasa si dejo de tomar lorazepam de golpe?",
+      "a": "Suspenderlo abruptamente después de uso prolongado puede causar un síndrome de abstinencia muy desagradable y peligroso. Los síntomas incluyen ansiedad severa, insomnio, temblores, sudoración, náuseas y, en casos graves, convulsiones. La suspensión debe ser GRADUAL y supervisada por su médico."
+    },
+    {
+      "q": "¿Puedo tomar lorazepam si estoy embarazada o planeando embarazarme?",
+      "a": "Generalmente NO se recomienda. El lorazepam puede causar daños al bebé, especialmente en el primer trimestre (riesgo de malformaciones) y cerca del parto (síndrome de abstinencia neonatal). Si está embarazada o planea estarlo, informe a su médico inmediatamente para buscar alternativas más seguras."
+    },
+    {
+      "q": "¿El lorazepam es para dormir o para los nervios?",
+      "a": "Sirve para ambas cosas. En dosis bajas ayuda a controlar la ansiedad durante el día. En dosis un poco más altas tomadas al acostarse, ayuda a conciliar el sueño y a dormir toda la noche. Su médico le indicará la dosis y el horario según su problema específico."
+    },
+    {
+      "q": "¿Qué hago si olvidé tomar una dosis?",
+      "a": "Si se acuerda poco tiempo después, tómela. Si ya es casi la hora de su siguiente dosis, omita la que olvidó y continúe con su horario normal. NUNCA duplique la dosis para compensar la olvidada, ya que puede causar una sobredosis."
+    },
+    {
+      "q": "¿El lorazepam sube o baja la presión arterial?",
+      "a": "El lorazepam puede causar una leve disminución de la presión arterial (hipotensión), especialmente al levantarse rápidamente (mareo ortostático). Si usted ya toma medicamentos para la presión alta o tiene problemas de presión baja, debe informar a su médico."
+    },
+    {
+      "q": "¿Puedo tomar lorazepam con otros medicamentos para la ansiedad o la depresión?",
+      "a": "Solo bajo estricta supervisión médica. Combinarlo con otros antidepresivos, antipsicóticos o ansiolíticos puede potenciar los efectos sedantes y el riesgo de efectos adversos. Nunca combine medicamentos psiquiátricos sin que su médico lo sepa."
+    },
+    {
+      "q": "¿El lorazepam afecta los riñones o el hígado?",
+      "a": "El lorazepam se elimina principalmente por los riñones después de ser procesado por el hígado. En personas con enfermedad hepática severa o renal avanzada, la dosis debe reducirse significativamente porque el medicamento puede acumularse en el cuerpo. Su médico le pedirá estudios para evaluar estos órganos."
+    },
+    {
+      "q": "¿Por qué a veces el lorazepam me pone más nervioso o irritable?",
+      "a": "Esto se llama 'reacción paradójica' y es un efecto adverso poco común pero posible, especialmente en niños, ancianos o personas con trastornos de personalidad. En lugar de calmar, puede causar agitación, agresividad, ansiedad e insomnio. Si le pasa, informe a su médico de inmediato."
+    },
+    {
+      "q": "¿Cuál es la dosis normal de lorazepam para un adulto?",
+      "a": "Para la ansiedad, la dosis inicial suele ser de 1 a 2 mg al día, divididos en 2 o 3 tomas. La dosis de mantenimiento oscila entre 2 y 6 mg al día. Para el insomnio, se toma 1 a 4 mg una sola vez al acostarse. La dosis máxima diaria generalmente es de 10 mg, pero solo bajo supervisión médica estrecha."
+    },
+    {
+      "q": "¿Los ancianos pueden tomar lorazepam?",
+      "a": "Sí, pero con MUCHA PRECAUCIÓN. Los adultos mayores son mucho más sensibles. La dosis debe iniciarse muy baja (0.5 mg al día) y aumentarse lentamente si es necesario. El riesgo de caídas, confusión y somnolencia excesiva es muy alto. A menudo se prefieren tratamientos no farmacológicos."
+    },
+    {
+      "q": "¿El lorazepam causa pérdida de memoria?",
+      "a": "Sí, puede causar amnesia anterógrada, que es la dificultad para formar nuevos recuerdos mientras el medicamento está en efecto. Es común olvidar lo que pasó unas horas después de tomarlo. Este efecto suele ser temporal, pero con uso crónico puede haber quejas de memoria a largo plazo."
+    },
+    {
+      "q": "¿Qué es más fuerte, 0.5 mg o 1 mg de lorazepam?",
+      "a": "1 mg es el doble de fuerte que 0.5 mg. La potencia es lineal. Siempre debe tomar la dosis exacta que le recetó su médico. No asuma que una tableta de 1 mg es 'poca cosa'; para alguien que inicia tratamiento o es sensible, puede ser una dosis significativa."
+    },
+    {
+      "q": "¿El lorazepam se puede usar para el dolor?",
+      "a": "No es un analgésico (medicamento para el dolor) propiamente dicho. Sin embargo, a veces se usa como coadyuvante (ayudante) en el manejo del dolor crónico cuando hay un componente importante de ansiedad o tensión muscular asociada. Nunca lo use como único tratamiento para el dolor."
+    },
+    {
+      "q": "¿Cuál es el mecanismo por el cual el lorazepam es preferible en pacientes con enfermedad hepática sobre otras benzodiacepinas?",
+      "a": "El lorazepam es preferible porque se metaboliza principalmente por glucuronidación (unión directa a ácido glucurónico), una vía hepática que suele estar mejor preservada en la enfermedad hepática. Otras benzodiacepinas como el diazepam se metabolizan por el sistema CYP450, que está más afectado en la cirrosis, lo que lleva a una acumulación impredecible de fármaco activo y metabolitos activos, aumentando el riesgo de sedación excesiva y encefalopatía hepática."
+    }
+  ]
+}

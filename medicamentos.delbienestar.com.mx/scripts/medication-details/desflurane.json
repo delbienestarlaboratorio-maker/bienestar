@@ -1,0 +1,363 @@
+{
+  "name": "Desflurano",
+  "summary": "El desflurano es un medicamento anestésico general inhalado que se utiliza para inducir y mantener la inconsciencia durante procedimientos quirúrgicos. Pertenece a la familia de los anestésicos halogenados y es uno de los más modernos disponibles. Su importancia clínica radica en su rápido inicio de acción y su eliminación igualmente rápida del organismo, lo que permite un control preciso de la profundidad de la anestesia y una recuperación más veloz del paciente después de la cirugía. Esto es especialmente útil en procedimientos ambulatorios o de corta duración, donde una recuperación rápida y clara es deseable. A diferencia de otros anestésicos, el desflurano requiere un vaporizador especial calentado debido a su baja presión de vapor a temperatura ambiente. Es administrado exclusivamente por anestesiólogos en un entorno hospitalario o quirúrgico controlado, donde se puede monitorear constantemente al paciente. Su uso permite realizar cirugías complejas de manera segura y eficiente, manteniendo al paciente libre de dolor y sin recuerdos del procedimiento.",
+  "pharmacology": {
+    "mechanismOfAction": "El desflurano actúa principalmente potenciando la actividad del neurotransmisor inhibitorio GABA (ácido gamma-aminobutírico) en el cerebro, específicamente en los receptores GABA-A. Esto aumenta el flujo de iones cloruro hacia las neuronas, lo que las hiperpolariza y reduce su capacidad para generar impulsos nerviosos, llevando a una depresión generalizada del sistema nervioso central. También afecta otros sistemas de neurotransmisores, como la inhibición de los receptores de glutamato (NMDA) y la activación de canales de potasio sensibles a dos puntos. Estos efectos combinados resultan en la pérdida reversible de la conciencia, la amnesia (pérdida de memoria), la analgesia (alivio del dolor) y la relajación muscular. La acción es dependiente de la concentración: a mayor concentración inhalada, mayor profundidad de anestesia. Su efecto es rápido porque llega al cerebro a través del torrente sanguíneo desde los pulmones sin necesidad de metabolismo previo.",
+    "pharmacologicClass": "Anestésico general inhalado halogenado (éter halogenado metil-etil).",
+    "therapeuticClass": "Anestésico general.",
+    "absorption": "Se administra por vía inhalatoria a través de un circuito de anestesia. La absorción pulmonar es muy rápida y eficiente. La concentración alveolar (en los pulmones) alcanza rápidamente la concentración inspirada debido a su baja solubilidad en sangre y tejidos. La velocidad de inducción anestésica depende de la concentración administrada, la ventilación del paciente y el flujo sanguíneo pulmonar.",
+    "distribution": "Debido a su baja solubilidad en sangre (coeficiente sangre/gas de 0.42), se distribuye rápidamente desde los pulmones al torrente sanguíneo y de ahí al cerebro y otros órganos. Tiene un volumen de distribución (Vd) que refleja su pobre solubilidad en tejidos grasos. Se une mínimamente a proteínas plasmáticas. Su baja solubilidad es la clave de su rápido inicio y despertar.",
+    "metabolism": "El desflurano experimenta un metabolismo hepático mínimo (aproximadamente 0.02% de la dosis administrada). Es metabolizado por el sistema del citocromo P450, principalmente por la enzima CYP2E1, a trifluoroacetato y iones de fluoruro. Este bajo grado de metabolismo lo hace más seguro en términos de toxicidad orgánica (especialmente renal y hepática) y de interacciones farmacológicas en comparación con anestésicos más antiguos.",
+    "elimination": "La eliminación es predominantemente por exhalación pulmonar sin cambios (más del 99%). La vida media de eliminación es extremadamente corta, generalmente de 5 a 10 minutos, lo que permite una recuperación rápida de la conciencia una vez que se suspende su administración. No se acumula en el organismo.",
+    "onsetOfAction": "Muy rápido. La inducción de la anestesia puede ocurrir en cuestión de 1 a 3 minutos después de comenzar la inhalación, dependiendo de la concentración utilizada y las características del paciente.",
+    "durationOfAction": "La duración del efecto es directamente proporcional al tiempo que se administra. Los efectos desaparecen rápidamente (en minutos) después de suspender la inhalación, permitiendo un despertar rápido."
+  },
+  "indications": {
+    "approved": [
+      "Inducción y mantenimiento de la anestesia general en cirugía de adultos",
+      "Mantenimiento de la anestesia general en cirugía pediátrica (incluidos lactantes)"
+    ],
+    "offLabel": [
+      "Sedación en unidades de cuidados intensivos (UCI) en ventilación mecánica (uso muy limitado y controvertido)",
+      "Potenciación de la analgesia en procedimientos dolorosos bajo sedación"
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis se expresa como Concentración Alveolar Mínima (CAM). Para inducción: 4-11% en oxígeno u oxígeno/óxido nitroso. Para mantenimiento: 2-6% en oxígeno u oxígeno/óxido nitroso (2.5-8.5% si se usa solo con oxígeno). La dosis se titula (ajusta) continuamente según signos vitales, profundidad anestésica monitorizada (ej. BIS) y respuesta del paciente.",
+    "pediatric": "Para mantenimiento en niños mayores de 1 año y adolescentes: 5.2-10% en oxígeno/óxido nitroso. En lactantes (1-12 meses): 8-10% en oxígeno/óxido nitroso. No se recomienda para la inducción en niños por su alta incidencia de irritación de vías respiratorias.",
+    "elderly": "Requiere dosis más bajas debido a la disminución de la función orgánica y cambios en la farmacocinética. La CAM disminuye aproximadamente un 20% por cada década después de los 40 años. Se inicia con concentraciones más bajas (ej. 2-4% para mantenimiento) y se titula con cuidado.",
+    "renalImpairment": "No se requiere ajuste de dosis específico en insuficiencia renal, incluso en diálisis, debido a su eliminación pulmonar y metabolismo mínimo. Sin embargo, se debe tener precaución en pacientes con insuficiencia renal severa por su estado hemodinámico general.",
+    "hepaticImpairment": "No se requiere ajuste de dosis por metabolismo mínimo. Sin embargo, se debe usar con precaución en pacientes con enfermedad hepática avanzada (ej. cirrosis) debido al riesgo de alteraciones hemodinámicas y encefalopatía.",
+    "maxDose": "No existe una dosis máxima diaria fija. La dosis se administra en un rango de concentración inhalada (%). La exposición máxima está limitada por la duración de la cirugía y la aparición de efectos adversos (principalmente depresión cardiovascular)."
+  },
+  "dosageForms": [
+    {
+      "form": "Líquido para inhalación",
+      "strengths": [
+        "240 mL"
+      ],
+      "route": "Inhalatoria (vaporizador especial calentado)"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al desflurano, a otros anestésicos halogenados o al bromuro de hexafluoroisopropilo (producto de degradación)",
+      "Pacientes con susceptibilidad a hipertermia maligna (antecedentes personales o familiares)",
+      "Inducción de anestesia general en niños (debido a alta incidencia de irritación severa de vías respiratorias, tos, apnea, laringoespasmo)",
+      "Pacientes con aumento de la presión intracraneal (a menos que se realice hiperventilación)"
+    ],
+    "relative": [
+      "Enfermedad pulmonar obstructiva crónica (EPOC) o asma bronquial (puede causar broncoespasmo)",
+      "Enfermedad neuromuscular como miastenia gravis (potencia los relajantes musculares)",
+      "Epilepsia o trastornos convulsivos (riesgo teórico de actividad convulsiva)",
+      "Enfermedad coronaria o insuficiencia cardíaca (depresión miocárdica y vasodilatación)",
+      "Hipovolemia o shock (riesgo de hipotensión severa)"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Hipotensión (presión arterial baja)",
+      "Bradicardia (ritmo cardíaco lento)",
+      "Náuseas y vómitos en el periodo postoperatorio",
+      "Tos, irritación de garganta y vías respiratorias altas durante la inducción"
+    ],
+    "common": [
+      "Aumento de la frecuencia cardíaca (taquicardia) y presión arterial durante la inducción con concentraciones altas",
+      "Retención de dióxido de carbono (hipercapnia) si la ventilación no está asistida",
+      "Escalofríos y temblores durante la recuperación",
+      "Dolor de cabeza postoperatorio",
+      "Somnolencia residual"
+    ],
+    "uncommon": [
+      "Arritmias cardíacas (extrasístoles)",
+      "Broncoespasmo (en pacientes susceptibles)",
+      "Laringoespasmo (especialmente en niños)",
+      "Hipersecreción de saliva y moco",
+      "Hipoxia (bajo nivel de oxígeno) transitoria",
+      "Agitación o confusión durante la recuperación (delirio de emergencia)"
+    ],
+    "rare": [
+      "Hepatitis o daño hepático (muy raro, similar a la hepatitis por halotano)",
+      "Nefrotoxicidad (por iones fluoruro, extremadamente rara con desflurano)",
+      "Hipertermia maligna (reacción genética grave desencadenada por anestésicos)",
+      "Reacción alérgica severa (anafilaxia)",
+      "Aumento agudo de la presión intracraneal"
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Relajantes musculares no despolarizantes (ej. Rocuronio, Vecuronio, Atracurio)",
+        "effect": "El desflurano potencia significativamente el efecto de estos relajantes musculares, aumentando su duración y profundidad. Se requiere una reducción de la dosis del relajante muscular.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Ketamina",
+        "effect": "Puede potenciar los efectos cardiovasculares de la ketamina (aumento de presión arterial y frecuencia cardíaca).",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Opioides (ej. Fentanilo, Remifentanilo)",
+        "effect": "Potenciación mutua de los efectos depresores respiratorios y cardiovasculares. Permite reducir la dosis de ambos fármacos.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Bloqueadores beta (ej. Propranolol, Metoprolol)",
+        "effect": "Aumenta el riesgo de bradicardia severa y depresión miocárdica.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores de la monoaminooxidasa (IMAOs) y antidepresivos tricíclicos",
+        "effect": "Pueden aumentar el riesgo de arritmias cardíacas e inestabilidad hemodinámica.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "El paciente debe estar en ayuno completo (generalmente 6-8 horas para sólidos, 2 horas para líquidos claros) antes de la anestesia para reducir el riesgo de aspiración pulmonar de contenido gástrico. El alcohol puede potenciar los efectos depresores del sistema nervioso central.",
+    "withSupplements": "Hierba de San Juan (Hypericum perforatum) puede inducir enzimas CYP y teóricamente alterar el metabolismo, aunque es mínimo. Suplementos con efecto sedante (valeriana, kava) pueden potenciar la sedación. Se recomienda informar al anestesiólogo sobre todo suplemento herbal."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA B",
+      "recommendación": "Los estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y controlados en mujeres embarazadas. Se puede usar durante el embarazo si es claramente necesario, especialmente para cirugías de emergencia. Se prefiere evitar durante el primer trimestre si es posible. En cesáreas, puede causar depresión neonatal (similar a otros anestésicos) si se usan concentraciones altas.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se considera compatible con la lactancia. Debido a su rápida eliminación pulmonar de la madre, la cantidad que pasa a la leche materna es insignificante. La madre puede amamantar una vez que esté completamente alerta y haya recuperado la coordinación, generalmente unas horas después de la cirugía.",
+    "pediatric": "Aprobado para el mantenimiento de la anestesia en niños mayores de 1 año, incluidos lactantes. NO se recomienda para la inducción en niños debido a la alta incidencia de irritación de vías respiratorias, tos, contención de la respiración y laringoespasmo. En niños, se requiere un equipo de vaporización y monitorización pediátrico adecuado.",
+    "geriatric": "Los pacientes mayores son más sensibles a sus efectos. Requieren dosis iniciales más bajas (la CAM disminuye con la edad) debido a cambios en la farmacocinética y farmacodinamia. Mayor riesgo de hipotensión, bradicardia y confusión postoperatoria. La recuperación cognitiva puede ser más lenta."
+  },
+  "administration": {
+    "howToTake": "El desflurano es administrado EXCLUSIVAMENTE por un anestesiólogo o médico capacitado en un entorno quirúrgico o de cuidados intensivos con equipo de reanimación. Se utiliza un vaporizador especial calentado (ej. Tec 6 o similar) que convierte el líquido en vapor preciso. Este vapor se mezcla con oxígeno y/o óxido nitroso y se administra al paciente a través de una mascarilla facial o un tubo endotraqueal. La concentración se ajusta continuamente según la profundidad de la anestesia, monitorizada por signos vitales y, a menudo, por dispositivos como el índice biespectral (BIS). El paciente está monitorizado constantemente (electrocardiograma, presión arterial, oxímetro de pulso, capnografía).",
+    "storage": "Almacenar el frasco a temperatura ambiente controlada (15-30°C). Mantener el frasco bien cerrado y en posición vertical. Proteger de la luz. Es un líquido volátil e inflamable; mantener alejado de llamas o fuentes de ignición. El vaporizador debe ser revisado y calibrado regularmente.",
+    "specialInstructions": "NUNCA se debe usar un vaporizador de anestésico estándar para desflurano; requiere su vaporizador específico calentado. Es irritante para las vías respiratorias si se inhala directamente a concentraciones altas, por lo que la inducción suele hacerse con otro agente (ej. propofol). El circuito de anestesia debe estar seco, ya que el desflurano puede degradarse en presencia de absorbentes de CO2 secos (como baralime o sodalime) produciendo monóxido de carbono tóxico."
+  },
+  "monitoring": {
+    "labTests": [
+      "No se requieren monitoreos de laboratorio de rutina específicos para el desflurano. Sin embargo, durante la anestesia se monitorea continuamente:",
+      "Electrocardiograma (ECG)",
+      "Presión arterial no invasiva o invasiva",
+      "Oximetría de pulso (SpO2)",
+      "Capnografía (CO2 espirado)",
+      "Concentración inspirada y espirada de anestésico (analizador de gases)",
+      "Temperatura corporal (riesgo de hipertermia maligna)"
+    ],
+    "frequency": "Monitorización continua durante la administración y hasta la recuperación completa en la sala de recuperación post-anestésica.",
+    "signsToWatch": [
+      "Hipotensión severa o persistente",
+      "Bradicardia o taquicardia significativa",
+      "Dificultad respiratoria, broncoespasmo o laringoespasmo",
+      "Cianosis (coloración azulada por falta de oxígeno)",
+      "Aumento inesperado y rápido de la temperatura corporal (signo de hipertermia maligna)",
+      "Arritmias cardíacas",
+      "Signos de recuperación incompleta: somnolencia excesiva, confusión, náuseas/vómitos persistentes"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Depresión cardiovascular profunda: hipotensión severa, bradicardia, paro cardíaco",
+      "Depresión respiratoria profunda: apnea (dejar de respirar), hipoxia",
+      "Arritmias cardíacas potencialmente mortales",
+      "Pérdida total de los reflejos protectores de las vías respiratorias"
+    ],
+    "treatment": "El tratamiento es de soporte y se realiza en un entorno de cuidados intensivos: 1) Suspender inmediatamente la administración de desflurano. 2) Mantener la vía aérea con oxigenación al 100%. 3) Ventilación mecánica asistida si es necesario. 4) Soporte cardiovascular: fluidos intravenosos, vasopresores (ej. efedrina, noradrenalina) para la hipotensión, atropina para la bradicardia. 5) Control de arritmias con medicamentos antiarrítmicos según sea necesario. La eliminación rápida del desflurano por los pulmones facilita la recuperación una vez suspendido.",
+    "antidote": "No existe un antídoto específico. El tratamiento es sintomático y de soporte. Para la hipertermia maligna (una forma de sobredosis fisiológica), el antídoto es Dantroleno sódico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial para uso hospitalario. Su venta y administración están restringidas a instituciones médicas.",
+    "scheduleMexico": "Medicamento de control especial, sujeto a prescripción médica y registro en instituciones de salud. Se encuentra en la Fracción IV del artículo 226 de la Ley General de Salud.",
+    "fdaApprovalYear": "1992"
+  },
+  "brandsMexico": [
+    "Suprane"
+  ],
+  "clinicalPearls": [
+    "El desflurano es el anestésico inhalado con el más rápido despertar y aclaramiento, ideal para cirugías ambulatorias donde una recuperación rápida es clave para el alta temprana.",
+    "Su principal desventaja es la alta incidencia de irritación de vías respiratorias, por lo que casi nunca se usa para inducir la anestesia, especialmente en niños, asmáticos o fumadores. La inducción se hace típicamente con propofol intravenoso.",
+    "Debido a su bajo metabolismo (0.02%), es una excelente opción para cirugías largas o en pacientes con enfermedad hepática preexistente, ya que minimiza el riesgo de hepatotoxicidad o nefrotoxicidad por metabolitos fluorados."
+  ],
+  "patientCounseling": "Usted no se administrará este medicamento por sí mismo. Será manejado completamente por su anestesiólogo durante la cirugía. Es importante que informe a su médico y anestesiólogo sobre TODOS sus antecedentes médicos, especialmente si ha tenido reacciones adversas a anestésicos previos, fiebre alta inexplicable después de una cirugía (posible hipertermia maligna en la familia), problemas hepáticos o renales, epilepsia, enfermedades del corazón, asma o si es fumador. Informe sobre todos los medicamentos que toma, incluyendo hierbas y suplementos. Siga estrictamente las instrucciones de ayuno antes de la cirugía (nada de comer o beber) para evitar complicaciones pulmonares graves. Después de la cirugía, es normal sentirse somnoliento, con náuseas leves, dolor de garganta o tener escalofríos. Recuperará completamente su lucidez en un tiempo corto. No conduzca, opere maquinaria ni tome decisiones importantes hasta por lo menos 24 horas después de la anestesia. Si presenta dificultad para respirar, fiebre alta, confusión persistente o dolor en el pecho después del alta, busque atención médica inmediata.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor agudo quirúrgico",
+        "slug": "dolor-agudo-quirurgico"
+      },
+      {
+        "name": "Ansiedad preoperatoria",
+        "slug": "ansiedad-preoperatoria"
+      },
+      {
+        "name": "Conciencia durante la cirugía",
+        "slug": "conciencia-durante-la-cirugia"
+      },
+      {
+        "name": "Reflejos musculares",
+        "slug": "reflejos-musculares"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Necesidad de procedimiento quirúrgico",
+        "slug": "necesidad-de-procedimiento-quirurgico"
+      },
+      {
+        "name": "Estado que requiere intubación y sedación en UCI",
+        "slug": "estado-que-requiere-intubacion-y-sedacion-en-uci"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Hipertermia maligna",
+        "slug": "hipertermia-maligna"
+      },
+      {
+        "name": "Hepatitis tóxica",
+        "slug": "hepatitis-toxica"
+      },
+      {
+        "name": "Broncoespasmo",
+        "slug": "broncoespasmo"
+      },
+      {
+        "name": "Delirio postoperatorio",
+        "slug": "delirio-postoperatorio"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Presión arterial",
+        "slug": "presion-arterial",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede disminuir o aumentar"
+      },
+      {
+        "name": "Concentración de fluoruro en sangre",
+        "slug": "concentracion-de-fluoruro-en-sangre",
+        "effect": "Puede elevar levemente"
+      },
+      {
+        "name": "Transaminasas hepáticas (AST/ALT)",
+        "slug": "transaminasas-hepaticas-ast-alt",
+        "effect": "Puede elevar (raro)"
+      },
+      {
+        "name": "CO2 espirado (EtCO2)",
+        "slug": "co2-espirado-etco2",
+        "effect": "Puede alterar (aumentar si hay hipoventilación)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Electrocardiograma (ECG)",
+        "slug": "electrocardiograma-ecg",
+        "reason": "Monitorización continua para detectar arritmias durante la anestesia."
+      },
+      {
+        "name": "Capnografía",
+        "slug": "capnografia",
+        "reason": "Monitorización continua del CO2 espirado para evaluar ventilación adecuada."
+      },
+      {
+        "name": "Gasometría arterial",
+        "slug": "gasometria-arterial",
+        "reason": "Para evaluar oxigenación y equilibrio ácido-base en procedimientos largos o críticos."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora IMC",
+        "slug": "calculadora-imc"
+      },
+      {
+        "name": "Calculadora Edad Vascular",
+        "slug": "calculadora-edad-vascular"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Qué es el desflurano y para qué sirve?",
+      "a": "El desflurano es un medicamento líquido que se convierte en gas para ser inhalado. Sirve como anestésico general, es decir, se usa durante las cirugías para que el paciente se duerma profundamente, no sienta dolor, no se mueva y no recuerde nada del procedimiento. Lo administra exclusivamente el anestesiólogo."
+    },
+    {
+      "q": "¿Cómo se aplica el desflurano?",
+      "a": "Se aplica por inhalación. El líquido se coloca en una máquina especial llamada vaporizador, que lo calienta y convierte en gas. Este gas se mezcla con oxígeno y se le da al paciente a respirar a través de una mascarilla o un tubo que se coloca en la tráquea durante la cirugía."
+    },
+    {
+      "q": "¿Duele que me apliquen desflurano?",
+      "a": "No duele su aplicación. Sin embargo, al comenzar a respirar el gas, algunas personas pueden sentir una ligera irritación en la garganta, tos o sensación de ahogo, por lo que muchas veces la anestesia se inicia con un medicamento intravenoso (como propofol) para dormir al paciente suavemente, y luego se mantiene con desflurano."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda uno en dormirse con desflurano?",
+      "a": "Es muy rápido. Si se usa para mantener la anestesia (después de estar dormido), su efecto es inmediato. Si se usara para iniciar el sueño (inducción), puede llevar de 1 a 3 minutos, pero no es lo común debido a la irritación que puede causar."
+    },
+    {
+      "q": "¿Y cuánto tarda uno en despertar después de una cirugía con desflurano?",
+      "a": "Una de sus grandes ventajas es que el despertar es muy rápido. Minutos después de que el anestesiólogo apaga el vaporizador, el paciente comienza a recuperar la conciencia. Esto permite una recuperación más ágil en la sala de recuperación."
+    },
+    {
+      "q": "¿Puedo elegir el tipo de anestesia que me pondrán?",
+      "a": "Usted puede y debe platicar sus preferencias y temores con su anestesiólogo antes de la cirugía. Él le explicará las opciones (anestesia general, regional, etc.) y le recomendará la más segura y adecuada para su procedimiento y su estado de salud. La decisión final la toma el especialista basado en su criterio médico."
+    },
+    {
+      "q": "¿Qué debo decirle a mi anestesiólogo antes de la cirugía?",
+      "a": "Es crucial informarle: 1) Si ha tenido malas reacciones a anestésicos previos (náuseas severas, fiebre alta después). 2) Si algún familiar ha tenido problemas graves con la anestesia (hipertermia maligna). 3) Si tiene asma, EPOC o es fumador. 4) Problemas de corazón, hígado o riñones. 5) Todos los medicamentos y suplementos que toma. 6) Si está o podría estar embarazada."
+    },
+    {
+      "q": "¿Por qué debo estar en ayunas antes de la anestesia general?",
+      "a": "Para evitar un riesgo grave llamado 'aspiración pulmonar'. Cuando está bajo anestesia, los reflejos que protegen sus pulmones (como la tos) están dormidos. Si hay comida o líquido en el estómago, podría regresarse a la garganta y pasar a los pulmones, causando una neumonía muy severa. Por su seguridad, siga las instrucciones de ayuno al pie de la letra."
+    },
+    {
+      "q": "¿El desflurano tiene efectos secundarios comunes?",
+      "a": "Sí, como todos los anestésicos. Los más comunes al despertar son: náuseas y vómitos, dolor de garganta (por el tubo respiratorio), escalofríos o temblores, somnolencia y a veces dolor de cabeza. Estos efectos suelen ser leves y pasajeros. Su equipo médico los puede prevenir o tratar."
+    },
+    {
+      "q": "¿Puede causar alergia el desflurano?",
+      "a": "Las alergias verdaderas a los anestésicos inhalados como el desflurano son extremadamente raras. Lo que a veces se confunde con alergia son los efectos secundarios normales o reacciones a otros medicamentos usados durante la cirugía. Aun así, informe cualquier antecedente alérgico."
+    },
+    {
+      "q": "¿Es seguro el desflurano para niños?",
+      "a": "Sí, es seguro y está aprobado para mantener la anestesia en niños mayores de 1 año, incluso bebés. Sin embargo, NO se usa normalmente para dormirlos al inicio (inducción) porque les causa mucha tos y molestia en la garganta. Para inducir el sueño en niños se usan otros métodos más suaves."
+    },
+    {
+      "q": "¿Y para adultos mayores?",
+      "a": "Es seguro, pero los adultos mayores son más sensibles. Requieren dosis más bajas y su recuperación puede ser un poco más lenta. El anestesiólogo ajusta la dosis cuidadosamente y vigila de cerca la presión arterial y el corazón."
+    },
+    {
+      "q": "Si tengo problemas en el hígado, ¿pueden usarme desflurano?",
+      "a": "Sí, el desflurano es una buena opción en esos casos. A diferencia de anestésicos más antiguos, el desflurano casi no se metaboliza en el hígado (solo un 0.02%), por lo que el riesgo de dañarlo es muy bajo. Aun así, su anestesiólogo tomará precauciones especiales."
+    },
+    {
+      "q": "¿Qué es la hipertermia maligna y tiene que ver con el desflurano?",
+      "a": "La hipertermia maligna es una reacción genética rara pero muy grave, desencadenada por ciertos anestésicos (incluyendo desflurano) y un relajante muscular. Causa fiebre muy alta, rigidez muscular y puede dañar órganos. Es vital informar si usted o un familiar ha tenido una reacción así o muerte súbita durante una cirugía."
+    },
+    {
+      "q": "¿Puedo amamantar después de una anestesia con desflurano?",
+      "a": "Sí, puede hacerlo. El desflurano sale del cuerpo de la madre muy rápido a través de la respiración, por lo que casi nada pasa a la leche materna. Se considera seguro amamantar una vez que la madre esté completamente despierta, alerta y capaz de sostener a su bebé con seguridad, lo que suele ser unas horas después."
+    },
+    {
+      "q": "¿El desflurano interactúa con mis medicamentos de diario?",
+      "a": "Sí, puede interactuar. Por ejemplo, potencia mucho el efecto de los relajantes musculares usados en cirugía. También puede interactuar con medicamentos para el corazón (como betabloqueadores) o antidepresivos. Por eso es tan importante darle a su anestesiólogo una lista COMPLETA de todo lo que toma, incluyendo hierbas."
+    },
+    {
+      "q": "¿Qué pasa si me dan 'demasiada' anestesia (sobredosis)?",
+      "a": "En el quirófano, esto se monitorea constantemente. Una 'sobredosis' se manifestaría como presión arterial muy baja o dificultad para respirar. El anestesiólogo ajusta la dosis segundo a segundo para evitarlo. Si ocurriera, se suspende el gas inmediatamente y se dan medicamentos y soporte para que el paciente se recupere, lo cual sucede rápido gracias a la eliminación rápida del desflurano."
+    },
+    {
+      "q": "¿Por qué a veces me duele la garganta después de la cirugía?",
+      "a": "Es muy común y no es por el desflurano en sí, sino por el tubo endotraqueal que se coloca en la tráquea para ayudarlo a respirar durante la cirugía. Puede causar irritación leve. El dolor suele mejorar en un día o dos. Hacer gárgaras con agua tibia con sal puede ayudar (si su médico lo autoriza)."
+    },
+    {
+      "q": "¿Es cierto que el desflurano es más caro que otros anestésicos?",
+      "a": "Sí, el desflurano suele ser más costoso que otros anestésicos inhalados como el sevoflurano o el isoflurano. Sin embargo, su rápido despertar puede permitir un alta más temprana del hospital o de la sala de recuperación, lo que en algunos casos puede compensar parte del costo. La decisión de usarlo la toma el anestesiólogo basándose en los beneficios para el paciente."
+    },
+    {
+      "q": "¿Cómo decide el anestesiólogo la dosis exacta que me va a dar?",
+      "a": "Es un proceso de ajuste fino continuo. El anestesiólogo no solo ve la concentración del gas que sale de la máquina, sino que monitorea constantemente sus signos vitales (presión, corazón, respiración), la profundidad de la anestesia (a veces con un monitor especial llamado BIS que mide la actividad cerebral) y su respuesta a los estímulos quirúrgicos. Con base en eso, sube o baja la concentración para mantenerlo en un nivel seguro y adecuado."
+    }
+  ]
+}

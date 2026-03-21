@@ -1,0 +1,441 @@
+{
+  "name": "Oxycodone",
+  "summary": "La oxicodona es un medicamento analgésico opioide potente, derivado de la tebaína, que se utiliza para el manejo del dolor moderado a severo cuando otros analgésicos como el paracetamol o los antiinflamatorios no son suficientes. Actúa directamente en el sistema nervioso central, uniéndose a receptores específicos para bloquear la transmisión de las señales de dolor. Es de gran importancia clínica en el tratamiento del dolor oncológico, postoperatorio y en condiciones crónicas debilitantes, pero su uso requiere estricta supervisión médica debido a su alto potencial de generar dependencia física y psicológica, así como el riesgo de depresión respiratoria, especialmente en dosis altas o cuando se combina con otros depresores del sistema nervioso. En México, es un medicamento controlado que solo puede obtenerse con receta médica especial y su prescripción debe seguir protocolos estrictos para balancear el alivio del sufrimiento del paciente con la minimización de riesgos de abuso y adicción.",
+  "pharmacology": {
+    "mechanismOfAction": "La oxicodona es un agonista puro de los receptores opioides mu (μ), kappa (κ) y delta (δ) en el sistema nervioso central y periférico, con mayor afinidad por los receptores mu. Su principal efecto analgésico se debe a la activación de los receptores mu en el cerebro, la médula espinal y los tejidos periféricos. Esta activación inhibe la liberación de neurotransmisores como la sustancia P, bloquea la transmisión de señales de dolor a lo largo de las vías nerviosas y modula la percepción emocional del dolor en áreas límbicas del cerebro. Además, produce euforia y sedación al actuar en el sistema de recompensa, lo que contribuye a su potencial de abuso. A diferencia de algunos opioides, tiene una biodisponibilidad oral relativamente alta y su metabolito activo, la oximorfona, contribuye significativamente a su efecto analgésico.",
+    "pharmacologicClass": "Agonista opioide semisintético; derivado de la tebaína (un alcaloide del opio).",
+    "therapeuticClass": "Analgésico opioide mayor; narcótico.",
+    "absorption": "Se absorbe bien por vía oral, con una biodisponibilidad de aproximadamente 60-87%. La presencia de alimentos puede aumentar ligeramente su absorción. Las formulaciones de liberación inmediata alcanzan concentraciones plasmáticas máximas (Cmax) en 1-2 horas. Las formulaciones de liberación controlada están diseñadas para una absorción prolongada durante 12 horas.",
+    "distribution": "Se distribuye ampliamente por los tejidos. Su volumen de distribución (Vd) es de aproximadamente 2.6 L/kg. Se une a proteínas plasmáticas en un 45%. Cruza la barrera hematoencefálica y la placenta.",
+    "metabolism": "Se metaboliza extensamente en el hígado, principalmente por la enzima citocromo P450 3A4 (CYP3A4) a noroxicodona (metabolito débilmente activo) y en menor medida por la CYP2D6 a oximorfona (metabolito potente, 14 veces más activo que la oxicodona). La actividad de estas enzimas, influenciada por genética y otros fármacos, puede alterar significativamente su efecto.",
+    "elimination": "La vida media de eliminación es de aproximadamente 3-5 horas para la formulación de liberación inmediata y de 4-5 horas para la de liberación controlada, aunque el efecto analgésico de esta última dura más debido a su liberación sostenida. Se elimina principalmente por vía renal (hasta un 70% como metabolitos inactivos conjugados). Una pequeña parte se excreta sin cambios en la orina.",
+    "onsetOfAction": "Para formulaciones de liberación inmediata: 10-30 minutos después de la administración oral. El pico de efecto analgésico se alcanza en 1-2 horas.",
+    "durationOfAction": "Formulaciones de liberación inmediata: 4-6 horas. Formulaciones de liberación controlada (12 horas): diseñadas para un efecto sostenido de 12 horas con dosificación cada 12 horas."
+  },
+  "indications": {
+    "approved": [
+      "Manejo del dolor moderado a severo que requiere tratamiento alrededor del reloj (uso prolongado)",
+      "Dolor oncológico",
+      "Dolor postoperatorio (cuando otras medidas no son suficientes)",
+      "Dolor asociado a trauma severo"
+    ],
+    "offLabel": [
+      "Dolor neuropático refractario (en combinación con otros fármacos)",
+      "Dispareunia severa (dolor durante las relaciones sexuales) en ciertas condiciones",
+      "Crisis de dolor vaso-oclusivo en anemia falciforme (cuando otros opioides no están disponibles o son inefectivos)",
+      "Dolor por pancreatitis crónica"
+    ]
+  },
+  "dosage": {
+    "adults": "Dosis inicial para pacientes opioide-naïve (sin tolerancia): 5-15 mg cada 4-6 horas según necesidad, para formulaciones de liberación inmediata. Para formulaciones de liberación controlada (cada 12 horas), la dosis inicial suele ser el total de la dosis de 24 horas de liberación inmediata, dividida en dos tomas. La titulación (ajuste) debe ser individualizada, aumentando en incrementos del 25-50% según la respuesta y la tolerancia. Pacientes que cambian de otro opioide requieren cálculo de equivalencia.",
+    "pediatric": "No es de primera elección en niños. Si se usa, debe ser bajo estricta supervisión especializada. Para dolor agudo en niños mayores de 11 años o >40 kg: 0.1-0.2 mg/kg cada 4-6 horas según necesidad (máximo 10 mg/dosis inicial). No se recomiendan las formulaciones de liberación controlada en niños.",
+    "elderly": "Iniciar con la dosis más baja posible (ej. 2.5-5 mg cada 6 horas en liberación inmediata), debido a la disminución del aclaramiento, mayor sensibilidad y mayor riesgo de efectos adversos. Titular lentamente.",
+    "renalImpairment": "Ajustar en insuficiencia renal. TFG 10-50 mL/min: reducir dosis inicial en un 25-50%. TFG <10 mL/min o diálisis: evitar o usar con extrema precaución, reduciendo dosis en un 50-75% y monitoreando estrechamente. Los metabolitos pueden acumularse.",
+    "hepaticImpairment": "Reducir dosis en insuficiencia hepática leve a moderada (Child-Pugh A o B). En insuficiencia hepática severa (Child-Pugh C), evitar o usar con dosis mínimas y monitoreo muy estrecho, debido al metabolismo hepático reducido y riesgo de encefalopatía.",
+    "maxDose": "No hay un límite máximo absoluto universal; la dosis se titula hasta alcanzar un balance óptimo entre analgesia y efectos adversos tolerables. En dolor oncológico, las dosis pueden ser muy altas (cientos de mg al día). En dolor no oncológico, se deben usar las dosis efectivas más bajas durante el menor tiempo posible."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta de liberación inmediata",
+      "strengths": [
+        "5 mg",
+        "10 mg",
+        "15 mg",
+        "20 mg",
+        "30 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tableta de liberación controlada (12h)",
+      "strengths": [
+        "10 mg",
+        "20 mg",
+        "40 mg",
+        "80 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Cápsula de liberación inmediata",
+      "strengths": [
+        "5 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Solución oral (concentrado)",
+      "strengths": [
+        "5 mg/5 mL",
+        "20 mg/mL"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la oxicodona o a cualquier componente de la formulación",
+      "Depresión respiratoria severa en ausencia de equipo de reanimación",
+      "Asma bronquial aguda severa o EPOC severo con hipercapnia",
+      "Obstrucción intestinal paralítica (íleo)",
+      "Uso concomitante con inhibidores de la monoaminooxidasa (IMAOs) o dentro de los 14 días posteriores a su suspensión",
+      "Hipercapnia severa"
+    ],
+    "relative": [
+      "Lesión cerebral traumática, hipertensión intracraneal",
+      "Convulsiones o trastornos convulsivos",
+      "Insuficiencia hepática severa (Child-Pugh C)",
+      "Insuficiencia renal severa (TFG <30 mL/min)",
+      "Hipotiroidismo no controlado, mixedema",
+      "Adicción a opioides activa o antecedente de abuso de sustancias",
+      "Enfermedad pancreática o biliar aguda",
+      "Prostatitis o hiperplasia prostática con retención urinaria",
+      "Edad avanzada o estado debilitado",
+      "Miastenia gravis"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Estreñimiento",
+      "Náuseas",
+      "Vómitos",
+      "Somnolencia (sedación)",
+      "Mareo",
+      "Prurito (picazón)"
+    ],
+    "common": [
+      "Sequedad de boca",
+      "Sudoración",
+      "Cefalea (dolor de cabeza)",
+      "Confusión",
+      "Euforia o disforia",
+      "Ansiedad",
+      "Retención urinaria"
+    ],
+    "uncommon": [
+      "Anorexia (pérdida de apetito)",
+      "Espasmos musculares",
+      "Temblor",
+      "Visión borrosa",
+      "Hipotensión ortostática (mareo al pararse)",
+      "Bradicardia (frecuencia cardíaca lenta)",
+      "Alucinaciones"
+    ],
+    "rare": [
+      "Convulsiones",
+      "Depresión respiratoria grave",
+      "Arritmias cardíacas",
+      "Reacción alérgica severa (anafilaxia)",
+      "Síndrome de serotonina (si se combina con otros fármacos)",
+      "Disfunción eréctil",
+      "Amenorrea (ausencia de menstruación)"
+    ],
+    "blackBoxWarning": "Advertencia de caja negra FDA: Riesgo de depresión respiratoria grave, que puede llevar a la muerte, especialmente al inicio del tratamiento o tras un aumento de dosis. Riesgo de uso incorrecto, abuso y adicción, incluso a dosis terapéuticas, lo que puede llevar a sobredosis y muerte. Exposición accidental, especialmente en niños, puede causar sobredosis fatal. Interacción con benzodiacepinas u otros depresores del SNC aumenta el riesgo de sedación profunda, depresión respiratoria, coma y muerte."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Benzodiacepinas (alprazolam, diazepam, clonazepam)",
+        "effect": "Depresión aditiva del SNC y respiratoria, riesgo extremadamente alto de sedación profunda, coma y muerte.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Alcohol (etanol)",
+        "effect": "Depresión aditiva del SNC, mayor riesgo de sedación, mareo, depresión respiratoria y sobredosis.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores de la CYP3A4 (ketoconazol, itraconazol, claritromicina, ritonavir)",
+        "effect": "Aumentan significativamente los niveles de oxicodona, potenciando sus efectos y toxicidad.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inductores de la CYP3A4 (rifampicina, carbamazepina, fenitoína, hipérico)",
+        "effect": "Disminuyen los niveles de oxicodona, reduciendo su efecto analgésico y pudiendo precipitar síndrome de abstinencia.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inhibidores de la recaptación de serotonina (ISRS), IRSN, triptanes, tramadol",
+        "effect": "Mayor riesgo de desarrollar síndrome serotoninérgico (agitación, fiebre, rigidez muscular).",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Otros depresores del SNC (antipsicóticos, antihistamínicos sedantes, barbitúricos)",
+        "effect": "Adición de efectos sedantes y depresores respiratorios.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "Los alimentos grasos pueden aumentar la absorción de las formulaciones de liberación controlada, lo que podría aumentar el riesgo de efectos adversos. El alcohol está absolutamente contraindicado por el riesgo de depresión respiratoria grave y muerte.",
+    "withSupplements": "La hierba de San Juan (hipérico) es un potente inductor enzimático que puede reducir drásticamente los niveles de oxicodona. Los suplementos con actividad sedante (valeriana, kava, melatonina en dosis altas) pueden potenciar la somnolencia."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA B (para liberación inmediata) / C (para liberación controlada)",
+      "recommendación": "Solo debe usarse durante el embarazo si el beneficio potencial justifica claramente el riesgo para el feto. Su uso prolongado puede causar dependencia física en el feto y síndrome de abstinencia neonatal (SAN) potencialmente grave después del parto, caracterizado por irritabilidad, llanto agudo, temblores, problemas de alimentación y convulsiones. No se recomienda su uso durante el trabajo de parto, ya que puede causar depresión respiratoria en el recién nacido.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La oxicodona se excreta en la leche materna en cantidades bajas. Sin embargo, existe riesgo de sedación, dificultad para alimentarse y depresión respiratoria en el lactante, especialmente si la madre es opioide-naïve, toma dosis altas, o combina con otros depresores del SNC. Se recomienda evitar su uso durante la lactancia si hay alternativas más seguras. Si se usa, se debe administrar la dosis efectiva más baja, monitorear al bebé estrechamente por signos de sedación y dificultad respiratoria, y evitar la administración justo antes de amamantar.",
+    "pediatric": "No es el opioide de primera elección en pediatría. Su uso debe restringirse a situaciones de dolor agudo o crónico severo bajo supervisión de un especialista en dolor pediátrico. No se recomiendan las formulaciones de liberación controlada en niños. Se debe calcular la dosis cuidadosamente por peso y ajustar según respuesta. Los niños pueden ser más sensibles a los efectos adversos, especialmente la depresión respiratoria.",
+    "geriatric": "Los pacientes mayores de 65 años tienen mayor sensibilidad a los opioides, mayor riesgo de efectos adversos (confusión, caídas, estreñimiento, depresión respiratoria) y eliminación más lenta. Se debe iniciar con dosis 25-50% menores que las dosis estándar para adultos (ej. 2.5-5 mg de liberación inmediata), titular muy lentamente y monitorear estrechamente la función cognitiva, el equilibrio y los signos vitales."
+  },
+  "administration": {
+    "howToTake": "Tomar exactamente como lo recetó el médico. Las tabletas de liberación inmediata se toman cada 4-6 horas según el dolor. Las tabletas de liberación controlada (12h) se toman cada 12 horas, con o sin alimentos, pero de manera consistente. Tragar las tabletas de liberación controlada ENTERAS, NUNCA partirlas, triturarlas, masticarlas o disolverlas, ya que esto liberaría toda la dosis de una vez, causando riesgo de sobredosis y muerte. Si se usa la solución oral, medir la dosis con el cuentagotas o jeringa dosificadora proporcionada. No aumentar la dosis ni la frecuencia sin consultar al médico.",
+    "storage": "Guardar en su envase original, bien cerrado, a temperatura ambiente (15-30°C), protegido de la luz y la humedad. Mantener FUERA DEL ALCANCE DE NIÑOS Y MASCOTAS, preferiblemente bajo llave. Desechar cualquier medicamento vencido o que ya no se necesite de manera segura (consultar en farmacias o centros de salud sobre programas de devolución).",
+    "specialInstructions": "Este medicamento puede causar somnolencia y mareo. No conducir vehículos ni operar maquinaria peligrosa hasta conocer su respuesta. Evitar levantarse rápidamente de la cama o de una silla. Informar al médico si el dolor no se controla o si aparecen efectos adversos severos. No suspender abruptamente después de un uso prolongado, ya que puede causar síntomas de abstinencia (ansiedad, sudoración, náuseas, dolor). El médico indicará cómo reducir la dosis gradualmente."
+  },
+  "monitoring": {
+    "labTests": [
+      "Función renal (creatinina sérica, TFG)",
+      "Pruebas de función hepática (transaminasas, bilirrubina)",
+      "Conteo sanguíneo completo (CSC) en uso crónico",
+      "Niveles de hormonas (cortisol, testosterona) en uso crónico a largo plazo"
+    ],
+    "frequency": "Al inicio del tratamiento y periódicamente según la condición del paciente y la duración del tratamiento. En uso crónico, cada 3-6 meses o según criterio médico.",
+    "signsToWatch": [
+      "Respiración lenta o superficial (menos de 8 respiraciones por minuto)",
+      "Somnolencia extrema o dificultad para despertar",
+      "Confusión, desorientación",
+      "Labios o uñas azuladas (cianosis)",
+      "Frecuencia cardíaca muy lenta",
+      "Mareo intenso al pararse",
+      "Estreñimiento severo que no mejora",
+      "Signos de abstinencia si se olvida una dosis"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Depresión respiratoria grave (respiración lenta, superficial o ausente)",
+      "Somnolencia extrema progresando a estupor o coma",
+      "Pupilas puntiformes (miosis)",
+      "Piel fría y húmeda",
+      "Hipotensión (presión baja)",
+      "Bradicardia (ritmo cardíaco lento)",
+      "Paro cardiorrespiratorio y muerte."
+    ],
+    "treatment": "EMERGENCIA MÉDICA INMEDIATA (llamar al 911 o acudir a urgencias). Medidas de soporte vital: mantener vía aérea permeable, asistencia ventilatoria, oxígeno. Administración del antídoto específico. Monitoreo continuo de signos vitales.",
+    "antidote": "NALOXONA (Narcan®). Es un antagonista competitivo de los receptores opioides que revierte rápidamente la depresión respiratoria. Puede requerir múltiples dosis debido a la vida media más corta de la naloxona comparada con la oxicodona. La administración debe ser supervisada por personal médico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (receta controlada, color rojo en México). No es de venta libre.",
+    "scheduleMexico": "Fracción I (Sustancias con alto potencial de abuso y sin uso médico aceptado en México) para algunos preparados, y Fracción II (Sustancias con alto potencial de abuso pero con uso médico aceptado, sujetas a estricto control) para las presentaciones terapéuticas. Su prescripción y dispensación están estrictamente reguladas por la COFEPRIS.",
+    "fdaApprovalYear": "Aprobado inicialmente por la FDA en 1976 (formulaciones de liberación inmediata). Las formulaciones de liberación controlada (OxyContin®) se aprobaron en 1995."
+  },
+  "brandsMexico": [
+    "OxyContin® (liberación controlada)",
+    "Oxynorm® (liberación inmediata)",
+    "Percodan® (combinación con paracetamol)",
+    "Endocodone®",
+    "Roxicodone®",
+    "Oxydose®"
+  ],
+  "clinicalPearls": [
+    "La oxicodona es aproximadamente 1.5-2 veces más potente que la morfina por vía oral. Una regla práctica común es que 10 mg de oxicodona oral equivalen a 20 mg de morfina oral, pero la conversión debe ser individualizada y cautelosa.",
+    "El estreñimiento inducido por opioides es casi universal y no desarrolla tolerancia. Se debe instituir un régimen profiláctico con laxantes (como polietilenglicol o senósidos) desde el primer día de tratamiento, junto con aumento de fibra e hidratación.",
+    "La aparición de hiperalgesia (aumento de la sensibilidad al dolor) o alodinia (dolor por estímulos no dolorosos) con dosis altas o uso prolongado puede ser una señal para reevaluar el tratamiento y considerar rotación a otro opioide, en lugar de aumentar indefinidamente la dosis."
+  ],
+  "patientCounseling": "La oxicodona es un medicamento muy efectivo para el dolor fuerte, pero debe usarse con mucho cuidado. Tómelo EXACTAMENTE como se lo recetó su médico. Nunca tome una dosis mayor ni con más frecuencia. Las tabletas de acción prolongada (como OxyContin) deben tragarse enteras; partirlas o masticarlas puede causar una sobredosis peligrosa. Este medicamento puede causar somnolencia y mareos, así que evite manejar o hacer actividades que requieran alerta hasta que sepa cómo le afecta. No consuma alcohol ni otros medicamentos para dormir o para la ansiedad mientras lo toma, ya que esta combinación puede ser mortal. El estreñimiento es muy común; hable con su médico sobre un laxante para prevenirlo desde el inicio. Guarde el medicamento en un lugar seguro, fuera del alcance de niños y visitas. Si siente que le falta el aire, está muy somnoliento o confundido, busque atención médica de inmediato. No suspenda el medicamento de golpe si lo ha tomado por mucho tiempo; su médico le dirá cómo reducirlo poco a poco para evitar síntomas de abstinencia.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor moderado a severo",
+        "slug": "dolor-moderado-a-severo"
+      },
+      {
+        "name": "Dolor oncológico",
+        "slug": "dolor-oncologico"
+      },
+      {
+        "name": "Dolor postoperatorio",
+        "slug": "dolor-postoperatorio"
+      },
+      {
+        "name": "Dolor por trauma",
+        "slug": "dolor-por-trauma"
+      },
+      {
+        "name": "Dispareunia severa",
+        "slug": "dispareunia-severa"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Cáncer",
+        "slug": "cancer"
+      },
+      {
+        "name": "Osteoartritis severa",
+        "slug": "osteoartritis-severa"
+      },
+      {
+        "name": "Pancreatitis crónica",
+        "slug": "pancreatitis-cronica"
+      },
+      {
+        "name": "Anemia falciforme (crisis vaso-oclusiva)",
+        "slug": "anemia-falciforme"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Dependencia a opioides",
+        "slug": "dependencia-a-opioides"
+      },
+      {
+        "name": "Síndrome de abstinencia neonatal",
+        "slug": "sindrome-de-abstinencia-neonatal"
+      },
+      {
+        "name": "Hipogonadismo inducido por opioides",
+        "slug": "hipogonadismo-inducido-por-opioides"
+      },
+      {
+        "name": "Hiperalgesia inducida por opioides",
+        "slug": "hiperalgesia-inducida-por-opioides"
+      },
+      {
+        "name": "Depresión respiratoria",
+        "slug": "depresion-respiratoria"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Cortisol sérico",
+        "slug": "cortisol-serico",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Testosterona sérica",
+        "slug": "testosterona-serica",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Prolactina",
+        "slug": "prolactina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Presión arterial",
+        "slug": "presion-arterial",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Frecuencia respiratoria",
+        "slug": "frecuencia-respiratoria",
+        "effect": "Puede disminuir"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Creatinina sérica y cálculo de TFG",
+        "slug": "creatinina-serica-tfg",
+        "reason": "Para ajustar dosis en pacientes con posible daño renal y monitorear función renal en uso crónico."
+      },
+      {
+        "name": "Pruebas de función hepática (TGO, TGP, bilirrubina)",
+        "slug": "pruebas-funcion-hepatica",
+        "reason": "Para evaluar capacidad metabólica y ajustar dosis en pacientes con enfermedad hepática."
+      },
+      {
+        "name": "Conteo sanguíneo completo (CSC)",
+        "slug": "conteo-sanguineo-completo",
+        "reason": "Para detectar posibles anemias o alteraciones en uso crónico a largo plazo."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve la oxicodona?",
+      "a": "Sirve para aliviar el dolor moderado a severo que no responde a analgésicos comunes como el paracetamol o el ibuprofeno. Se usa frecuentemente en dolor por cáncer, después de cirugías mayores o por lesiones graves."
+    },
+    {
+      "q": "¿La oxicodona es lo mismo que la morfina?",
+      "a": "No, son medicamentos diferentes pero de la misma familia (opioides). La oxicodona es más potente que la morfina por vía oral (aproximadamente el doble) y algunos pacientes la toleran mejor. Su médico elegirá la más adecuada para su caso."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Las tabletas de acción rápida (liberación inmediata) empiezan a aliviar el dolor en 15-30 minutos, con el máximo efecto en 1-2 horas, y duran entre 4 y 6 horas. Las de acción prolongada (liberación controlada) están diseñadas para un alivio constante durante 12 horas."
+    },
+    {
+      "q": "¿Puedo tomar oxicodona si tomo paracetamol o ibuprofeno?",
+      "a": "Sí, pero solo si su médico se lo indica. De hecho, existen presentaciones combinadas de oxicodona con paracetamol. Combinar opioides con antiinflamatorios puede mejorar el alivio del dolor, pero nunca debe hacerlo por su cuenta para evitar sobredosis de paracetamol o efectos adversos."
+    },
+    {
+      "q": "¿La oxicodona causa mucho sueño?",
+      "a": "La somnolencia es un efecto secundario muy común, especialmente al inicio del tratamiento o al aumentar la dosis. Su cuerpo suele desarrollar cierta tolerancia a este efecto con el tiempo. Es crucial no manejar ni operar maquinaria hasta que sepa cómo le afecta."
+    },
+    {
+      "q": "¿Por qué me da tanto estreñimiento con la oxicodona?",
+      "a": "Porque los opioides disminuyen el movimiento natural de los intestinos. Este efecto NO desaparece con el tiempo (no hay tolerancia). Es fundamental que desde el primer día hable con su médico para que le recete un laxante preventivo, aumente su consumo de fibra (si puede) y beba mucha agua."
+    },
+    {
+      "q": "¿Puedo beber alcohol si tomo oxicodona?",
+      "a": "ABSOLUTAMENTE NO. La combinación de alcohol y oxicodona es extremadamente peligrosa. Ambas sustancias deprimen el sistema nervioso y pueden sumar sus efectos, causando somnolencia extrema, dificultad para respirar, coma e incluso la muerte."
+    },
+    {
+      "q": "¿Qué hago si se me olvida una dosis?",
+      "a": "Tómela tan pronto como se acuerde, pero si ya es casi la hora de la siguiente dosis, sáltese la que olvidó y continúe con su horario normal. NUNCA tome dos dosis a la vez para compensar, ya que esto puede causar una sobredosis."
+    },
+    {
+      "q": "¿Puedo partir las tabletas de oxicodona?",
+      "a": "Depende del tipo. Las tabletas de liberación inmediata SÍ se pueden partir si su médico lo autoriza para ajustar la dosis. Las tabletas de liberación controlada (como OxyContin) NUNCA deben partirse, triturarse, masticarse o disolverse. Hacerlo libera todo el medicamento de golpe, pudiendo causar una sobredosis fatal."
+    },
+    {
+      "q": "¿La oxicodona es adictiva?",
+      "a": "Sí, tiene un alto potencial de causar dependencia física y psicológica (adicción), incluso cuando se toma según las indicaciones médicas. Por eso es un medicamento controlado que requiere receta especial. El riesgo es mayor en personas con antecedentes de abuso de sustancias. Siga las instrucciones de su médico al pie de la letra."
+    },
+    {
+      "q": "¿Qué es el síndrome de abstinencia y cómo lo evito?",
+      "a": "Son síntomas desagradables (ansiedad, sudoración, náuseas, dolor, diarrea) que aparecen si se suspende el medicamento abruptamente después de un uso prolongado. Para evitarlo, NUNCA deje de tomarlo de golpe. Si necesita suspenderlo, su médico creará un plan para reducir la dosis muy gradualmente (desintoxicación)."
+    },
+    {
+      "q": "¿Puedo tomar oxicodona durante el embarazo?",
+      "a": "Solo si es estrictamente necesario y bajo supervisión médica estrecha. Su uso prolongado puede causar dependencia en el bebé, quien al nacer puede presentar un síndrome de abstinencia neonatal grave que requiere tratamiento hospitalario."
+    },
+    {
+      "q": "¿Puedo amamantar si tomo oxicodona?",
+      "a": "Generalmente no se recomienda. Pasa a la leche materna y puede causar somnolencia y problemas respiratorios en el bebé. Si no hay alternativa, se debe usar la dosis más baja posible y monitorear al bebé muy de cerca. Consulte a su médico y pediatra."
+    },
+    {
+      "q": "¿Qué interacciones con otros medicamentos debo tener en cuenta?",
+      "a": "Es MUY PELIGROSO combinarla con pastillas para dormir (como alprazolam, diazepam), relajantes musculares, algunos antidepresivos y antihistamínicos para la alergia que causan sueño. También con algunos antibióticos (como claritromicina) y el jugo de toronja. Informe a TODOS sus médicos y a su farmacéutico que está tomando oxicodona."
+    },
+    {
+      "q": "¿Qué debo hacer en caso de una sobredosis?",
+      "a": "Es una EMERGENCIA MÉDICA. Si la persona no respira, está inconsciente o no se puede despertar, llame al 911 de inmediato. El antídoto es la naloxona (Narcan®), pero debe ser administrada por personal médico. Mantenga el medicamento en un lugar seguro para evitar ingestas accidentales, especialmente por niños."
+    },
+    {
+      "q": "¿Cómo debo guardar la oxicodona en casa?",
+      "a": "En su envase original, a temperatura ambiente, lejos del calor y la humedad. Lo más importante: GUÁRDELA BAJO LLAVE, fuera de la vista y del alcance de niños, adolescentes y visitas. Su mal uso o robo puede tener consecuencias graves."
+    },
+    {
+      "q": "¿Por qué mi médico me pide análisis de sangre si tomo oxicodona?",
+      "a": "Para monitorear que sus riñones e hígado estén funcionando bien, ya que son los órganos que procesan y eliminan el medicamento. En tratamientos muy largos, también puede revisar sus niveles hormonales, ya que los opioides pueden afectarlos."
+    },
+    {
+      "q": "¿La oxicodona puede afectar mi vida sexual?",
+      "a": "Sí, el uso crónico puede disminuir el deseo sexual (libido) y causar disfunción eréctil en hombres, y alteraciones del ciclo menstrual en mujeres, debido a la disminución de hormonas como la testosterona y el cortisol. Hable con su médico si esto ocurre."
+    },
+    {
+      "q": "¿Qué es la hiperalgesia inducida por opioides?",
+      "a": "Es un fenómeno paradójico donde, después de un tiempo tomando dosis altas de opioides, el paciente puede sentir MÁS dolor en lugar de menos, o sentir dolor con estímulos que antes no lo causaban (como un roce suave). Es una señal para que el médico reevalúe el tratamiento, no para aumentar más la dosis."
+    },
+    {
+      "q": "¿Cómo se realiza la conversión de morfina a oxicodona de manera segura?",
+      "a": "Es un cálculo que solo debe hacer un médico experto en manejo del dolor. Generalmente, 10 mg de oxicodona oral equivalen a 20 mg de morfina oral. Sin embargo, por seguridad, al cambiar de un opioide a otro, se suele reducir la dosis calculada en un 25-50% para evitar sobredosis, debido a la tolerancia cruzada incompleta y diferencias individuales. Nunca intente hacer este cálculo por su cuenta."
+    }
+  ]
+}

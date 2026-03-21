@@ -1,0 +1,367 @@
+{
+  "name": "Vigabatrin",
+  "summary": "El vigabatrin es un medicamento anticonvulsivo o antiepiléptico que se utiliza principalmente para controlar crisis epilépticas difíciles de tratar. Su importancia clínica radica en que es un tratamiento de elección para el Síndrome de Espasmos Infantiles (también conocido como Síndrome de West) en bebés y niños pequeños, y como terapia adicional para las crisis focales complejas (con o sin generalización secundaria) en adultos que no responden adecuadamente a otros medicamentos. Actúa de manera diferente a otros antiepilépticos, inhibiendo una enzima específica en el cerebro, lo que lo hace útil en casos resistentes. Sin embargo, su uso requiere un estricto control médico debido a un riesgo importante y potencialmente irreversible de daño en la visión (pérdida del campo visual periférico), por lo que solo se prescribe bajo un programa de farmacovigilancia especial llamado 'Programa de Acceso Controlado' en México, donde se monitorea la visión del paciente de forma regular antes, durante y después del tratamiento.",
+  "pharmacology": {
+    "mechanismOfAction": "El vigabatrin actúa como un inhibidor irreversible y selectivo de la enzima GABA-transaminasa (GABA-T). El GABA (ácido gamma-aminobutírico) es el principal neurotransmisor inhibitorio en el sistema nervioso central, es decir, ayuda a 'calmar' la actividad excesiva de las neuronas. La enzima GABA-T es responsable de degradar el GABA. Al inhibir esta enzima, el vigabatrin aumenta de manera significativa y sostenida los niveles de GABA en el cerebro. Este aumento de GABA potencia la inhibición neuronal, lo que estabiliza la actividad eléctrica anormal y previene la propagación de las descargas epilépticas que causan las convulsiones. A diferencia de otros antiepilépticos, no actúa sobre los canales de sodio o calcio, lo que explica su perfil de eficacia y efectos adversos únicos.",
+    "pharmacologicClass": "Inhibidor irreversible de la GABA-transaminasa (GABA-T). Análogo estructural del GABA.",
+    "therapeuticClass": "Anticonvulsivante. Antiepiléptico.",
+    "absorption": "Se absorbe rápida y completamente por vía oral. La biodisponibilidad es alta, aproximadamente del 80-90%. La presencia de alimentos retrasa ligeramente la absorción y reduce la concentración máxima (Cmax) en un 20-30%, pero no afecta significativamente la cantidad total de medicamento que llega a la sangre (AUC).",
+    "distribution": "Se distribuye ampliamente en los tejidos. Su unión a proteínas plasmáticas es muy baja (<5%). El volumen de distribución (Vd) es de aproximadamente 0.8 L/kg, lo que sugiere una distribución principalmente en el agua corporal. Cruza la barrera hematoencefálica y la placenta.",
+    "metabolism": "El vigabatrin no es metabolizado significativamente por el hígado. No es sustrato, inhibidor o inductor de las enzimas del citocromo P450 (CYP450). Su metabolismo es mínimo; aproximadamente el 5% puede sufrir una descarboxilación. Esto minimiza las interacciones farmacocinéticas con otros medicamentos.",
+    "elimination": "Se elimina principalmente por vía renal, en forma inalterada (sin cambios). Su vida media de eliminación es de aproximadamente 5 a 8 horas en adultos con función renal normal, y de 12 a 14 horas en niños pequeños. En pacientes con insuficiencia renal, la vida media se prolonga significativamente. La eliminación es casi completa en 24-48 horas después de la última dosis.",
+    "onsetOfAction": "Los niveles plasmáticos máximos se alcanzan en 1-2 horas después de la administración oral. Sin embargo, el efecto clínico anticonvulsivo puede tardar varios días o semanas en ser evidente, ya que depende de la acumulación del efecto inhibitorio sobre la enzima GABA-T y el aumento gradual de los niveles de GABA en el cerebro.",
+    "durationOfAction": "El efecto farmacológico es prolongado debido a su mecanismo de acción irreversible (inhibición enzimática). La recuperación de la actividad de la GABA-T depende de la síntesis de nueva enzima, lo que puede tardar varios días. Esto permite un efecto anticonvulsivo sostenido con dosificación dos veces al día, a pesar de su vida media plasmática relativamente corta."
+  },
+  "indications": {
+    "approved": [
+      "Terapia adjunta (adicional) para el tratamiento de las crisis focales complejas (con o sin generalización secundaria) en adultos y adolescentes mayores de 16 años que no han respondido adecuadamente a varias terapias antiepilépticas.",
+      "Monoterapia para el tratamiento del Síndrome de Espasmos Infantiles (Síndrome de West) en lactantes y niños de 1 mes a 2 años de edad."
+    ],
+    "offLabel": [
+      "Tratamiento de otras epilepsias refractarias en niños mayores y adultos (bajo estricta supervisión).",
+      "Posible uso en el tratamiento del síndrome de Lennox-Gastaut (aunque no es de primera línea)."
+    ]
+  },
+  "dosage": {
+    "adults": "Para crisis focales (como terapia adjunta): La dosis inicial recomendada es de 500 mg dos veces al día (1 g/día). La dosis puede incrementarse semanalmente en 500 mg/día, según la respuesta y tolerancia. La dosis de mantenimiento usual es de 1.5 g a 3 g al día, divididos en dos dosis (mañana y noche). La dosis máxima recomendada es de 3 g/día.",
+    "pediatric": "Para Síndrome de Espasmos Infantiles (monoterapia): La dosis inicial es de 50 mg/kg/día, dividida en dos dosis. Esta dosis puede incrementarse gradualmente según la respuesta, hasta un máximo de 150 mg/kg/día. Para niños mayores con otras epilepsias (uso off-label), la dosis se calcula por peso corporal, generalmente iniciando con 40 mg/kg/día, hasta un máximo de 100-150 mg/kg/día, sin exceder 3 g/día.",
+    "elderly": "Se debe usar con precaución debido a la mayor probabilidad de disminución de la función renal. Se recomienda iniciar con dosis más bajas (ej. 250 mg dos veces al día) y ajustar lentamente según la respuesta y la función renal (TFG).",
+    "renalImpairment": "El ajuste es obligatorio porque se elimina por el riñón. TFG 50-80 mL/min: Reducir dosis en un 25%. TFG 30-50 mL/min: Reducir dosis en un 50%. TFG 10-30 mL/min: Reducir dosis en un 75%. TFG <10 mL/min o diálisis: No se recomienda su uso. En pacientes en hemodiálisis, se puede administrar una dosis suplementaria después de la diálisis.",
+    "hepaticImpairment": "No se requiere ajuste de dosis específico, ya que el vigabatrin no se metaboliza en el hígado. Sin embargo, se debe usar con precaución en pacientes con enfermedad hepática grave debido a posibles alteraciones sistémicas.",
+    "maxDose": "Adultos: 3,000 mg (3 g) por día. Niños (para espasmos infantiles): 150 mg/kg/día, sin exceder los 3 g/día."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "500 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Polvo para suspensión oral (sobres granulado)",
+      "strengths": [
+        "500 mg"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al vigabatrin o a cualquier componente de la formulación.",
+      "Defectos preexistentes en el campo visual (a menos que los beneficios superen claramente los riesgos y el paciente esté en un programa de monitoreo).",
+      "Antecedentes de psicosis o reacciones psicóticas graves."
+    ],
+    "relative": [
+      "Enfermedad renal moderada a grave (requiere ajuste de dosis).",
+      "Historia de depresión mayor o ideas suicidas.",
+      "Ancianos con deterioro cognitivo.",
+      "Embarazo (solo si beneficio claramente mayor al riesgo)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Somnolencia (sueño durante el día).",
+      "Fatiga o cansancio.",
+      "Mareo.",
+      "Dolor de cabeza.",
+      "Aumento de peso.",
+      "Temblor fino en las manos."
+    ],
+    "common": [
+      "Agitación, nerviosismo o irritabilidad (especialmente en niños).",
+      "Visión borrosa o doble (transitoria).",
+      "Pérdida de memoria o dificultad para concentrarse.",
+      "Náuseas.",
+      "Diarrea o estreñimiento.",
+      "Cambios de comportamiento en niños (hiperactividad)."
+    ],
+    "uncommon": [
+      "Depresión, ansiedad.",
+      "Confusión.",
+      "Pérdida permanente del campo visual periférica (retinopatía/neuropatía óptica).",
+      "Edema periférico (hinchazón de pies/rodillas).",
+      "Erupción cutánea.",
+      "Alteraciones en pruebas de función hepática."
+    ],
+    "rare": [
+      "Psicosis (pérdida de contacto con la realidad, alucinaciones).",
+      "Ideación o comportamiento suicida.",
+      "Anemia.",
+      "Leucopenia (disminución de glóbulos blancos).",
+      "Reacciones alérgicas graves (angioedema).",
+      "Encefalopatía (confusión severa, letargo)."
+    ],
+    "blackBoxWarning": "ADVERTENCIA: El vigabatrin causa pérdida permanente bilateral del campo visual periférico (defectos en la visión lateral) en un alto porcentaje de pacientes. El riesgo de pérdida de visión aumenta con la duración del tratamiento y la dosis total acumulada. La pérdida de visión puede ser asintomática inicialmente, por lo que se requiere monitoreo oftalmológico periódico. Debido a este riesgo, el vigabatrin está disponible en México solo a través de un Programa de Acceso Controlado (PAC) que incluye evaluación y monitoreo visual obligatorio."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Fenitoína",
+        "effect": "El vigabatrin puede disminuir las concentraciones plasmáticas de fenitoína en aproximadamente un 20-30%. Se requiere monitoreo de niveles de fenitoína y ajuste de su dosis.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Cloropromazina y otros antipsicóticos",
+        "effect": "Puede aumentar el riesgo de efectos adversos en el sistema nervioso central (sedación, confusión) y potencialmente el riesgo de convulsiones. Uso con precaución.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Los alimentos pueden retrasar la absorción y reducir ligeramente la concentración máxima, pero no afectan la eficacia general. Se puede tomar con o sin alimentos, pero se recomienda ser consistente (siempre con comida o siempre sin ella) para mantener niveles estables. El consumo de alcohol debe evitarse, ya que potencia los efectos depresores del sistema nervioso central (somnolencia, mareo, riesgo de convulsiones).",
+    "withSupplements": "No se conocen interacciones clínicamente significativas con suplementos vitamínicos o herbales. Sin embargo, se debe evitar el uso de suplementos que contengan GABA, ya que teóricamente podrían potenciar los efectos del medicamento, aunque no hay evidencia clara. Se recomienda consultar al médico antes de iniciar cualquier suplemento."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "C",
+      "recommendation": "No hay estudios adecuados en mujeres embarazadas. Solo debe usarse durante el embarazo si el beneficio potencial justifica claramente el riesgo potencial para el feto. Se ha reportado toxicidad en la retina de animales en desarrollo. Las mujeres en edad fértil deben usar métodos anticonceptivos efectivos durante el tratamiento. Si una paciente queda embarazada, se debe reevaluar urgentemente la necesidad del tratamiento y se debe informar al médico de inmediato.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "El vigabatrin se excreta en la leche materna en cantidades significativas (concentraciones en leche similares a las plasmáticas). Debido al riesgo potencial de efectos adversos graves en el lactante (como efectos en la retina y el sistema nervioso central), generalmente se recomienda NO amamantar durante el tratamiento. La decisión final debe tomarla el médico junto con la madre, sopesando los beneficios de la lactancia contra los riesgos.",
+    "pediatric": "Aprobado específicamente para lactantes (desde 1 mes) con Síndrome de Espasmos Infantiles. Es crucial el monitoreo oftalmológico, aunque es más difícil en este grupo. También se debe vigilar de cerca el comportamiento, ya que puede causar agitación e hiperactividad. La dosificación se basa estrictamente en el peso corporal.",
+    "geriatric": "Los pacientes mayores son más susceptibles a los efectos adversos del sistema nervioso central (somnolencia, confusión, ataxia) y a la pérdida de visión. Es más probable que tengan deterioro de la función renal, por lo que se debe calcular la TFG y ajustar la dosis en consecuencia. Iniciar con dosis bajas y aumentar lentamente."
+  },
+  "administration": {
+    "howToTake": "Las tabletas se deben tragar enteras con un vaso de agua, sin masticar ni partir. Los sobres de polvo granulado se deben disolver en agua (aproximadamente 100 ml, o la cantidad indicada) y beber inmediatamente. Se puede tomar con o sin alimentos, pero se recomienda hacerlo de la misma manera todos los días para mantener niveles constantes. La dosis diaria total se divide generalmente en dos tomas (mañana y noche). Si se olvida una dosis, tómela tan pronto como lo recuerde, a menos que ya sea casi la hora de la siguiente dosis. En ese caso, omita la dosis olvidada y continúe con el horario normal. NUNCA duplique la dosis para compensar.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (entre 15°C y 30°C), protegido de la luz y la humedad. Mantener fuera del alcance y de la vista de los niños. No usar después de la fecha de caducidad impresa.",
+    "specialInstructions": "Este medicamento solo está disponible en México bajo un 'Programa de Acceso Controlado' (PAC). El paciente y el médico deben estar registrados. Es OBLIGATORIO realizar evaluaciones de la visión (campimetría) antes de iniciar el tratamiento, cada 3 meses durante el tratamiento, y periódicamente después de suspenderlo, para detectar cualquier pérdida del campo visual. Nunca suspenda el medicamento abruptamente, ya que puede provocar un aumento grave de las convulsiones (estado epiléptico). La suspensión debe ser gradual, bajo supervisión médica."
+  },
+  "monitoring": {
+    "labTests": [
+      "Evaluación oftalmológica completa (incluyendo campimetría o perimetría) para el campo visual.",
+      "Pruebas de agudeza visual.",
+      "Examen de fondo de ojo.",
+      "Creatinina sérica y cálculo de TFG (antes y periódicamente).",
+      "Hemograma completo (antes y ocasionalmente).",
+      "Pruebas de función hepática (antes y ocasionalmente)."
+    ],
+    "frequency": "VISIÓN: Evaluación basal antes de iniciar, luego cada 3 meses durante el tratamiento, y al menos cada 6 meses después de suspenderlo por 3-5 años. FUNCIÓN RENAL: Antes de iniciar y al menos cada 6-12 meses, o con más frecuencia si hay deterioro. COMPORTAMIENTO/ESTADO MENTAL: Evaluación clínica en cada consulta.",
+    "signsToWatch": [
+      "Dificultad para ver objetos a los lados (chocar con cosas, problemas para conducir).",
+      "Visión borrosa o nublada persistente.",
+      "Aparición o empeoramiento de somnolencia extrema, confusión o mareo.",
+      "Cambios de humor, depresión, pensamientos de hacerse daño.",
+      "Aumento en la frecuencia o intensidad de las convulsiones.",
+      "Hinchazón nueva en piernas o rodillas."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Somnolencia profunda o coma.",
+      "Mareo intenso, pérdida del equilibrio (ataxia).",
+      "Confusión, agitación, psicosis.",
+      "Pérdida del conocimiento.",
+      "Depresión respiratoria (respiración lenta y superficial).",
+      "Convulsiones (paradójicamente, en casos graves)."
+    ],
+    "treatment": "No existe un antídoto específico. El tratamiento es de soporte y sintomático. Se debe vaciar el estómago mediante lavado gástrico si la ingestión fue reciente (dentro de 1-2 horas). Administrar carbón activado para reducir la absorción. Mantener las vías respiratorias libres y proporcionar soporte respiratorio si es necesario. La hemodiálisis puede ser efectiva para eliminar el vigabatrin de la sangre, especialmente en pacientes con insuficiencia renal. Monitorear signos vitales y función neurológica en un entorno hospitalario.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (prescripción por un neurólogo) y está sujeto al Programa de Acceso Controlado (PAC).",
+    "scheduleMexico": "Medicamento de prescripción restringida (no está en una fracción de control de estupefacientes, pero su dispensación está estrictamente regulada por el PAC).",
+    "fdaApprovalYear": "Aprobado por la FDA de EE.UU. en 2009 para espasmos infantiles y en 2009 para crisis focales complejas (como terapia adjunta)."
+  },
+  "brandsMexico": [
+    "Sabril® (marca original de Sanofi)",
+    "Vigadex®",
+    "Vigatran®",
+    "Gavrilex®"
+  ],
+  "clinicalPearls": [
+    "El vigabatrin es uno de los pocos medicamentos con eficacia demostrada para el Síndrome de Espasmos Infantiles, una epilepsia catastrófica de la infancia, donde un tratamiento rápido puede impactar positivamente en el desarrollo neurológico.",
+    "A diferencia de la mayoría de los antiepilépticos, el vigabatrin no interactúa con el sistema CYP450, lo que lo hace atractivo para usar en combinación con otros fármacos sin preocuparse por interacciones metabólicas, aunque sí tiene interacciones farmacodinámicas.",
+    "La pérdida del campo visual periférico es irreversible y puede progresar incluso después de suspender el medicamento. Los pacientes pueden no notar los síntomas iniciales, por lo que el monitoreo objetivo con campimetría es no negociable y el pilar de la seguridad del tratamiento."
+  ],
+  "patientCounseling": "Es fundamental que entienda que este medicamento es muy efectivo para controlar sus crisis, pero requiere un compromiso serio con su seguridad. Debe asistir a TODAS las citas con el oftalmólogo para revisar su visión lateral, aunque usted se sienta bien y vea perfectamente. Estos estudios detectan problemas que usted no nota al inicio. Nunca deje de tomarlo de golpe; si quiere suspenderlo, su médico le dará un plan para bajarlo poco a poco durante semanas. Informe de inmediato cualquier cambio en su visión, estado de ánimo (tristeza, ideas raras) o si tiene mucho sueño. Evite manejar o usar maquinaria peligrosa hasta que sepa cómo le afecta. Lleve siempre una identificación que diga que toma vigabatrin. Si planea un embarazo, hable con su neurólogo con meses de anticipación.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Espasmos infantiles (movimientos bruscos en flexión o extensión)",
+        "slug": "espasmos-infantiles"
+      },
+      {
+        "name": "Convulsiones focales (crisis parciales)",
+        "slug": "convulsiones-focales"
+      },
+      {
+        "name": "Pérdida del conocimiento breve (ausencias complejas)",
+        "slug": "perdida-del-conocimiento-breve"
+      },
+      {
+        "name": "Movimientos automáticos (automatismos)",
+        "slug": "movimientos-automaticos"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Síndrome de Espasmos Infantiles (Síndrome de West)",
+        "slug": "sindrome-de-espasmos-infantiles"
+      },
+      {
+        "name": "Epilepsia focal (parcial) refractaria",
+        "slug": "epilepsia-focal-refractaria"
+      },
+      {
+        "name": "Epilepsia farmacorresistente",
+        "slug": "epilepsia-farmacorresistente"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Retinopatía / Neuropatía óptica por vigabatrin",
+        "slug": "retinopatia-por-vigabatrin"
+      },
+      {
+        "name": "Pérdida permanente del campo visual",
+        "slug": "perdida-permanente-del-campo-visual"
+      },
+      {
+        "name": "Psicosis inducida por fármacos",
+        "slug": "psicosis-inducida-por-farmacos"
+      },
+      {
+        "name": "Edema periférico",
+        "slug": "edema-periferico"
+      },
+      {
+        "name": "Encefalopatía",
+        "slug": "encefalopatia"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Niveles de Fenitoína",
+        "slug": "niveles-de-fenitoina",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "No altera directamente, pero su acumulación depende de su valor (TFG)"
+      },
+      {
+        "name": "Enzimas hepáticas (ALT, AST)",
+        "slug": "enzimas-hepaticas",
+        "effect": "Puede elevar levemente (raro)"
+      },
+      {
+        "name": "Conteo de glóbulos blancos",
+        "slug": "conteo-de-globulos-blancos",
+        "effect": "Puede disminuir (leucopenia rara)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Campimetría (Perimetría) computarizada",
+        "slug": "campimetria-computerizada",
+        "reason": "Para detectar pérdida del campo visual periférico, el efecto adverso más grave."
+      },
+      {
+        "name": "Examen de fondo de ojo",
+        "slug": "examen-de-fondo-de-ojo",
+        "reason": "Para evaluar la salud de la retina y el nervio óptico."
+      },
+      {
+        "name": "Tasa de Filtración Glomerular (TFG)",
+        "slug": "tasa-de-filtracion-glomerular",
+        "reason": "Para ajustar la dosis correctamente, ya que el fármaco se elimina por el riñón."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de Aclaramiento de Creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve el vigabatrin?",
+      "a": "El vigabatrin es un medicamento para tratar tipos específicos de epilepsia que son difíciles de controlar. Se usa principalmente en dos situaciones: 1) En bebés y niños pequeños con un tipo grave llamado Síndrome de Espasmos Infantiles (Síndrome de West). 2) En adultos y adolescentes mayores de 16 años como un tratamiento adicional para las crisis epilépticas focales (que empiezan en una parte del cerebro) cuando otros medicamentos no han funcionado bien."
+    },
+    {
+      "q": "¿Cómo debo tomar el vigabatrin?",
+      "a": "Generalmente se toma dos veces al día, en la mañana y en la noche. Puede tomarse con o sin alimentos, pero es mejor ser constante (siempre con comida o siempre sin ella). Trague las tabletas enteras con agua. Si usa el polvo en sobre, disuélvalo completamente en un vaso con agua y bébalo de inmediato. Siga al pie de la letra la dosis que le recetó su médico."
+    },
+    {
+      "q": "¿Qué hago si se me olvida una dosis?",
+      "a": "Si se le olvida, tómela tan pronto como lo recuerde. Sin embargo, si ya es casi la hora de su siguiente dosis programada, omita la dosis olvidada y continúe con su horario normal. Nunca tome una dosis doble para compensar la que olvidó."
+    },
+    {
+      "q": "¿El vigabatrin produce sueño?",
+      "a": "Sí, la somnolencia (mucho sueño durante el día) es uno de los efectos secundarios más comunes. También puede causar fatiga y mareo. Por esto, es importante tener cuidado al manejar, operar maquinaria o realizar actividades que requieran estar alerta, especialmente al inicio del tratamiento."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si estoy con vigabatrin?",
+      "a": "No se recomienda. El alcohol puede aumentar mucho los efectos de somnolencia y mareo causados por el vigabatrin. Además, el alcohol por sí solo puede bajar el umbral para tener convulsiones, lo que va en contra del objetivo del tratamiento."
+    },
+    {
+      "q": "¿El vigabatrin hace subir de peso?",
+      "a": "Sí, el aumento de peso es un efecto secundario muy común. Es importante llevar una dieta balanceada y hacer actividad física regular (según lo permita su médico) para manejar este efecto."
+    },
+    {
+      "q": "¿Por qué me piden tantos estudios de la vista con este medicamento?",
+      "a": "Porque el vigabatrin puede causar, como efecto adverso grave, una pérdida permanente de la visión lateral (campo visual periférico). Usted podría no notarlo al principio. Los estudios especiales (campimetría) detectan este problema temprano. Es obligatorio hacerlos antes de empezar, cada 3 meses durante el tratamiento, y por varios años después, para proteger su vista."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto el vigabatrin?",
+      "a": "Puede tomar varias semanas para que se note una mejoría significativa en el control de las crisis. El médico suele empezar con una dosis baja y aumentarla gradualmente para encontrar la dosis más efectiva y mejor tolerada. Sea paciente y no suspenda el tratamiento por su cuenta si no ve resultados inmediatos."
+    },
+    {
+      "q": "¿Puedo dejar de tomar el vigabatrin de golpe si me siento mejor?",
+      "a": "¡ABSOLUTAMENTE NO! Suspender este medicamento de forma abrupta puede provocar un aumento grave y peligroso de las convulsiones, incluso un estado epiléptico (crisis prolongadas que ponen en riesgo la vida). Si su médico decide suspenderlo, le dará un plan para reducir la dosis muy lentamente, a lo largo de semanas o meses."
+    },
+    {
+      "q": "¿El vigabatrin afecta los riñones o el hígado?",
+      "a": "El vigabatrin se elimina principalmente por los riñones, por lo que si usted tiene problemas renales, la dosis debe ajustarse. No se metaboliza en el hígado, por lo que generalmente no lo daña. Sin embargo, su médico le pedirá análisis de sangre para revisar la función renal (y ocasionalmente la hepática) antes y durante el tratamiento."
+    },
+    {
+      "q": "¿Puedo tomar vigabatrin si estoy embarazada o planeando un embarazo?",
+      "a": "El uso durante el embarazo solo se considera si los beneficios superan claramente los riesgos, ya que hay datos limitados. Puede causar daño al feto. Si es una mujer en edad fértil, debe usar un método anticonceptivo efectivo durante el tratamiento. Hable con su neurólogo y ginecólogo con mucha anticipación si planea un embarazo."
+    },
+    {
+      "q": "¿Puedo amamantar si tomo vigabatrin?",
+      "a": "Generalmente no se recomienda, porque el medicamento pasa a la leche materna en cantidades importantes y podría afectar al bebé. Debe discutir esta decisión a fondo con su médico, sopesando los beneficios de la lactancia contra los riesgos potenciales para el niño."
+    },
+    {
+      "q": "¿Qué marcas de vigabatrin hay en México?",
+      "a": "En México se encuentra disponible bajo marcas como Sabril® (la original), Vigadex®, Vigatran® y Gavrilex®. Todas contienen el mismo principio activo y están sujetas al mismo Programa de Acceso Controlado."
+    },
+    {
+      "q": "¿Qué es el Programa de Acceso Controlado (PAC) del vigabatrin?",
+      "a": "Es un sistema de farmacovigilancia especial obligatorio en México. Para que un paciente reciba vigabatrin, tanto el médico tratante (neurólogo) como el paciente deben registrarse. El paciente se compromete a realizarse los estudios de visión periódicos. La farmacia solo puede dispensar el medicamento si el paciente está activo en este programa. Es una medida de seguridad por el riesgo a la vista."
+    },
+    {
+      "q": "¿El vigabatrin puede causar problemas de humor o depresión?",
+      "a": "Sí, puede causar o empeorar la depresión, ansiedad, y en casos raros, pensamientos o comportamientos suicidas. También puede causar irritabilidad o agitación, especialmente en niños. Es muy importante informar a su médico de inmediato si experimenta cambios de humor, tristeza profunda, o pensamientos de hacerse daño."
+    },
+    {
+      "q": "¿El vigabatrin interactúa con otros medicamentos para la epilepsia?",
+      "a": "Sí, puede disminuir los niveles en sangre de la fenitoína (otro antiepiléptico), por lo que su médico deberá ajustar la dosis de ésta. Con otros medicamentos como el valproato, carbamazepina o levetiracetam, no hay interacciones importantes a nivel de metabolismo, pero sí pueden sumarse los efectos de somnolencia."
+    },
+    {
+      "q": "¿Es normal sentir temblor en las manos con vigabatrin?",
+      "a": "Sí, un temblor fino en las manos es un efecto secundario muy común. Suele ser leve y puede mejorar con el tiempo. Si el temblor es muy molesto o interfiere con sus actividades, informe a su médico para evaluar si es necesario ajustar la dosis."
+    },
+    {
+      "q": "¿Qué síntomas debo reportar URGENTEMENTE a mi médico?",
+      "a": "Reporte de inmediato: 1) Cualquier cambio en su visión, especialmente dificultad para ver a los lados. 2) Pensamientos de lastimarse o suicidarse. 3) Confusión severa, alucinaciones (ver o oír cosas que no existen). 4) Aumento repentino y grave de las convulsiones. 5) Erupción cutánea intensa o hinchazón de cara/lengua."
+    },
+    {
+      "q": "¿Por qué el vigabatrin es eficaz en el Síndrome de Espasmos Infantiles cuando otros fármacos no?",
+      "a": "El Síndrome de Espasmos Infantiles tiene una base fisiopatológica compleja donde se cree que hay un desequilibrio entre neurotransmisores excitadores e inhibidores. El vigabatrin, al aumentar fuertemente los niveles de GABA (el principal neurotransmisor inhibidor), ayuda a restaurar ese equilibrio de una manera que otros fármacos que actúan sobre canales iónicos no logran, haciéndolo particularmente efectivo para este síndrome específico."
+    },
+    {
+      "q": "¿Cómo se maneja la pérdida del campo visual si ocurre durante el tratamiento con vigabatrin?",
+      "a": "Si los estudios de campimetría muestran una pérdida significativa del campo visual, el médico neurólogo debe reevaluar urgentemente la necesidad de continuar el tratamiento. La decisión de suspenderlo se basa en sopesar el beneficio del control de las crisis (que puede ser vital) contra el grado y progresión de la pérdida visual. La suspensión puede detener la progresión, pero el daño ya ocurrido es IRREVERSIBLE. Por esto, la prevención mediante el monitoreo estricto es la estrategia clave."
+    }
+  ]
+}

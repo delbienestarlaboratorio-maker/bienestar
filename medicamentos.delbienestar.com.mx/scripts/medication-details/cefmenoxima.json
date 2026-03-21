@@ -1,0 +1,418 @@
+{
+  "name": "Cefmenoxima",
+  "summary": "La cefmenoxima es un antibiótico de la familia de las cefalosporinas de tercera generación, utilizado para combatir infecciones graves causadas por bacterias sensibles. Actúa deteniendo la formación de la pared celular de las bacterias, lo que lleva a su destrucción. Es especialmente importante en el tratamiento de infecciones intrahospitalarias, infecciones del tracto respiratorio inferior, infecciones urinarias complicadas, sepsis y meningitis bacteriana, debido a su amplio espectro de acción contra bacterias Gram-negativas, incluyendo algunas resistentes a otros antibióticos. Su uso debe ser supervisado por un médico para evitar el desarrollo de resistencia bacteriana y garantizar su efectividad.",
+  "pharmacology": {
+    "mechanismOfAction": "La cefmenoxima es un antibiótico betalactámico que pertenece a la clase de las cefalosporinas de tercera generación. Su mecanismo de acción principal es la inhibición de la síntesis de la pared celular bacteriana. Lo logra uniéndose de forma irreversible a las proteínas fijadoras de penicilina (PBP, por sus siglas en inglés), que son enzimas transpeptidasas y carboxipeptidasas esenciales para la última etapa del entrecruzamiento del peptidoglicano, el polímero que da rigidez y forma a la pared celular. Al bloquear estas enzimas, se interrumpe la formación de los enlaces cruzados de peptidoglicano, lo que debilita la pared celular. Esto hace que la bacteria sea vulnerable a la presión osmótica interna, provocando su lisis (ruptura) y muerte. Es un antibiótico bactericida, lo que significa que mata a las bacterias en lugar de solo detener su crecimiento.",
+    "pharmacologicClass": "Antibiótico betalactámico; Cefalosporina de tercera generación (cefalosporina parenteral de amplio espectro).",
+    "therapeuticClass": "Antibiótico sistémico.",
+    "absorption": "La cefmenoxima no se absorbe por vía oral. Debe administrarse por vía intramuscular (IM) o intravenosa (IV). Tras la administración IM, la absorción es rápida y completa, con una biodisponibilidad cercana al 100%. Las concentraciones plasmáticas máximas (Cmax) se alcanzan aproximadamente entre 30 y 60 minutos después de una inyección intramuscular.",
+    "distribution": "Se distribuye ampliamente en la mayoría de los tejidos y fluidos corporales. Atraviesa bien la barrera placentaria y se distribuye en el líquido amniótico. Logra concentraciones terapéuticas en hueso, líquido sinovial, líquido peritoneal, bilis y esputo. Cruza la barrera hematoencefálica inflamada, alcanzando concentraciones adecuadas en el líquido cefalorraquídeo (LCR) para tratar meningitis causadas por bacterias sensibles. Su unión a proteínas plasmáticas es moderada, aproximadamente del 77% al 85%.",
+    "metabolism": "La cefmenoxima se metaboliza en el hígado en un grado limitado. No es un sustrato significativo del sistema enzimático del citocromo P450 (CYP). Una parte del fármaco se metaboliza a un metabolito abierto del anillo betalactámico (metabolito M1), que tiene una actividad antibacteriana muy baja. La mayor parte del fármaco se excreta sin cambios.",
+    "elimination": "Se elimina principalmente por excreción renal, tanto por filtración glomerular como por secreción tubular activa. Aproximadamente del 70% al 80% de una dosis se excreta sin cambios en la orina en las primeras 24 horas, lo que resulta en concentraciones urinarias muy altas. Su vida media de eliminación en adultos con función renal normal es de aproximadamente 1.0 a 1.5 horas. En pacientes con insuficiencia renal grave, la vida media puede prolongarse significativamente (hasta 10-15 horas), requiriendo ajustes de dosis.",
+    "onsetOfAction": "El inicio de la acción antibacteriana es rápido. Las concentraciones plasmáticas efectivas se alcanzan minutos después de una administración intravenosa y alrededor de 30-60 minutos después de una administración intramuscular.",
+    "durationOfAction": "Debido a su vida media relativamente corta (1-1.5 horas), la cefmenoxima generalmente se administra en dosis divididas cada 6 a 12 horas para mantener concentraciones plasmáticas por encima de la concentración inhibitoria mínima (CIM) de las bacterias objetivo durante todo el intervalo de dosificación."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones del tracto respiratorio inferior (neumonía, bronquitis aguda exacerbada)",
+      "Infecciones del tracto urinario complicadas (pielonefritis aguda)",
+      "Infecciones intra-abdominales (peritonitis, colecistitis, colangitis)",
+      "Sepsis y bacteriemia",
+      "Meningitis bacteriana",
+      "Infecciones de piel y tejidos blandos graves (celulitis, abscesos)",
+      "Infecciones pélvicas (endometritis, enfermedad inflamatoria pélvica)",
+      "Infecciones óseas y articulares (osteomielitis, artritis séptica)",
+      "Profilaxis de infecciones en cirugía gastrointestinal, biliar y ginecológica"
+    ],
+    "offLabel": [
+      "Tratamiento empírico de fiebre neutropénica en pacientes oncológicos (en combinación con otros antibióticos)",
+      "Tratamiento de infecciones por Pseudomonas aeruginosa susceptibles (generalmente en combinación con un aminoglucósido)",
+      "Alternativa en el tratamiento de la gonorrea no complicada (aunque no es de primera línea)"
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis habitual para adultos es de 1 a 2 gramos por día, administrados en dosis divididas cada 12 horas (es decir, 0.5 a 1 g cada 12h). Para infecciones graves o que amenazan la vida (como meningitis, sepsis), la dosis puede aumentarse a 4 gramos por día, administrados en dosis divididas cada 6-8 horas (ej. 1 g cada 6h o 2 g cada 12h). La vía de administración puede ser intramuscular profunda o intravenosa (inyección lenta o infusión).",
+    "pediatric": "Para niños mayores de 1 mes: La dosis habitual es de 40 a 80 mg/kg de peso corporal por día, administrados en 2 a 4 dosis divididas (cada 6-12 horas). Para meningitis bacteriana en niños: La dosis puede ser de hasta 160-200 mg/kg/día en 4-6 dosis divididas. La dosis máxima diaria no debe exceder la dosis máxima para adultos.",
+    "elderly": "En adultos mayores con función renal normal, se pueden usar las dosis estándar para adultos. Sin embargo, es común que presenten una disminución de la función renal relacionada con la edad, por lo que es esencial calcular el aclaramiento de creatinina (CrCl) y ajustar la dosis según sea necesario, utilizando las guías para insuficiencia renal.",
+    "renalImpairment": "Los ajustes se basan en el aclaramiento de creatinina (CrCl). CrCl > 50 mL/min: Dosis normal. CrCl 10-50 mL/min: Administrar 0.5-1 g cada 12-24 horas. CrCl < 10 mL/min: Administrar 0.5-1 g cada 24-48 horas. En pacientes en diálisis intermitente (hemodiálisis): La cefmenoxima se elimina significativamente. Se recomienda administrar una dosis de 0.5-1 g después de cada sesión de diálisis. En diálisis peritoneal continua (DPCA): Administrar 0.5 g cada 24 horas.",
+    "hepaticImpairment": "No se requieren ajustes de dosis específicos para la insuficiencia hepática leve a moderada, ya que la eliminación es principalmente renal. En insuficiencia hepática grave, se debe monitorizar al paciente, pero generalmente no es necesario un ajuste basado únicamente en esta condición.",
+    "maxDose": "La dosis máxima diaria para adultos es generalmente de 4 gramos. En situaciones excepcionales de infecciones muy graves, bajo supervisión médica estrecha, se han utilizado dosis más altas."
+  },
+  "dosageForms": [
+    {
+      "form": "Polvo liofilizado para inyección (vial)",
+      "strengths": [
+        "500 mg",
+        "1 g"
+      ],
+      "route": "Intramuscular, Intravenosa"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad (alergia) conocida y grave a la cefmenoxima o a cualquier cefalosporina.",
+      "Antecedente de reacción anafiláctica grave (shock anafiláctico) a cualquier antibiótico betalactámico (penicilinas, cefalosporinas, carbapenémicos, monobactámicos)."
+    ],
+    "relative": [
+      "Hipersensibilidad leve a moderada a penicilinas u otras cefalosporinas (existe riesgo de reactividad cruzada).",
+      "Insuficiencia renal grave (CrCl <10 mL/min) sin ajuste de dosis.",
+      "Antecedentes de colitis pseudomembranosa asociada a antibióticos.",
+      "Prematuros y recién nacidos (menores de 1 mes), debido a la inmadurez de los sistemas renal y hepático."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Diarrea (puede ser leve o progresar a colitis pseudomembranosa)",
+      "Dolor, induración o inflamación en el sitio de la inyección (IM o IV)"
+    ],
+    "common": [
+      "Náuseas, vómitos",
+      "Erupción cutánea, prurito (picazón)",
+      "Aumento de enzimas hepáticas (transaminasas)",
+      "Eosinofilia (aumento de eosinófilos en sangre)",
+      "Candidiasis oral o vaginal (infección por hongos)"
+    ],
+    "uncommon": [
+      "Colitis pseudomembranosa (diarrea severa con fiebre y dolor abdominal)",
+      "Fiebre por drogas",
+      "Mareo, dolor de cabeza",
+      "Leucopenia, trombocitopenia (disminución de glóbulos blancos o plaquetas)",
+      "Pruebas de Coombs positiva (sin anemia hemolítica clínica)"
+    ],
+    "rare": [
+      "Anafilaxia (reacción alérgica grave)",
+      "Nefritis intersticial (daño renal)",
+      "Hepatitis colestásica",
+      "Anemia hemolítica",
+      "Convulsiones (especialmente con dosis altas en insuficiencia renal)",
+      "Síndrome de Stevens-Johnson / Necrólisis epidérmica tóxica"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Probenecid",
+        "effect": "El probenecid inhibe la secreción tubular renal de cefmenoxima, lo que aumenta y prolonga sus concentraciones plasmáticas. Puede utilizarse terapéuticamente para este fin, pero requiere monitorización para evitar toxicidad.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Anticoagulantes orales (Warfarina, Acenocumarol)",
+        "effect": "La cefmenoxima puede potenciar el efecto anticoagulante, aumentando el riesgo de sangrado. Se cree que es por supresión de la flora intestinal que produce vitamina K y posible interacción directa. Se debe monitorizar el INR estrechamente.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Aminoglucósidos (Gentamicina, Amikacina)",
+        "effect": "Sinergia antibacteriana contra algunos patógenos, pero aumento del riesgo potencial de nefrotoxicidad (daño renal). Se debe monitorizar la función renal.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Furosemida y otros diuréticos de asa",
+        "effect": "Pueden aumentar el riesgo de nefrotoxicidad cuando se usan con cefalosporinas. Se recomienda hidratación adecuada y monitorización de la función renal.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "No hay interacciones clínicamente significativas con alimentos, ya que se administra por vía parenteral. El alcohol (etanol) no interactúa directamente con la cefmenoxima, pero su consumo durante una infección y tratamiento antibiótico no es recomendable, ya que puede debilitar el sistema inmune y enmascarar síntomas.",
+    "withSupplements": "Los suplementos que contienen calcio (especialmente por vía intravenosa) no deben mezclarse en la misma solución o administrarse simultáneamente por la misma vía IV con cefmenoxima, ya que puede provocar la precipitación del fármaco. Los probióticos pueden ayudar a prevenir la diarrea asociada a antibióticos."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "B",
+      "recommendation": "Los estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. La cefmenoxima cruza la placenta. Debe usarse durante el embarazo solo si el beneficio potencial justifica el riesgo potencial para el feto. Es una opción considerada relativamente segura cuando se necesita un antibiótico de amplio espectro durante el embarazo, por ejemplo, para tratar una infección urinaria complicada o corioamnionitis.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La cefmenoxima se excreta en la leche materna en concentraciones bajas. Debido a que es poco absorbida por vía oral por el lactante, es poco probable que cause efectos adversos significativos. Se considera generalmente compatible con la lactancia. Sin embargo, se debe observar al bebé por posibles efectos como diarrea o candidiasis (algodoncillo).",
+    "pediatric": "Seguro y efectivo para niños mayores de 1 mes. Para prematuros y recién nacidos a término menores de 1 mes, la seguridad y eficacia no están completamente establecidas; su uso requiere una evaluación cuidadosa del riesgo-beneficio y ajuste de dosis basado en la edad gestacional y el peso. Se prefiere en pediatría para infecciones graves donde se necesita un espectro amplio.",
+    "geriatric": "Los pacientes mayores de 65 años tienen mayor probabilidad de tener una función renal disminuida. Es imperativo calcular el aclaramiento de creatinina (CrCl) antes de iniciar el tratamiento y ajustar la dosis en consecuencia para evitar la acumulación del fármaco y toxicidad (especialmente neurotoxicidad como convulsiones). También son más susceptibles a la diarrea asociada a antibióticos y a la colitis pseudomembranosa."
+  },
+  "administration": {
+    "howToTake": "La cefmenoxima es un medicamento inyectable que solo debe ser administrado por personal de salud capacitado. Vía Intramuscular (IM): El polvo se reconstituye con agua para inyección o lidocaína al 1% (sin epinefrina) para reducir el dolor. Se inyecta profundamente en un músculo grande (glúteo o muslo). Vía Intravenosa (IV): Se puede administrar como inyección lenta (durante 3-5 minutos) o, más comúnmente, como infusión intermitente diluida en 50-100 mL de solución compatible (ClNa 0.9% o dextrosa 5%) durante 20-30 minutos. Nunca se debe mezclar con soluciones que contengan alcohol o con aminoglucósidos en la misma jeringa o bolsa de infusión.",
+    "storage": "El polvo liofilizado en el vial sin reconstituir debe almacenarse a temperatura ambiente (15-30°C), protegido de la luz y la humedad. Una vez reconstituido, la solución es estable a temperatura ambiente por 24 horas y refrigerada (2-8°C) por 72 horas. Para infusiones IV, la solución final diluida debe usarse inmediatamente o refrigerarse y usarse dentro de las 24 horas.",
+    "specialInstructions": "Antes de la primera dosis, se debe interrogar exhaustivamente sobre alergias a penicilinas y cefalosporinas. Se recomienda realizar una prueba cutánea en caso de duda sobre la alergia. En pacientes con insuficiencia renal, es obligatorio ajustar la dosis y el intervalo. Si el paciente desarrolla diarrea acuosa o con sangre durante o después del tratamiento, se debe suspender el medicamento y considerar colitis pseudomembranosa por C. difficile. El tratamiento prolongado (más de 10 días) puede favorecer la sobreinfección por hongos o bacterias resistentes."
+  },
+  "monitoring": {
+    "labTests": [
+      "Recuento completo de sangre (CSC) con diferencial",
+      "Pruebas de función renal (urea, creatinina, electrolitos)",
+      "Pruebas de función hepática (ALT, AST, fosfatasa alcalina, bilirrubina)",
+      "Cultivo y antibiograma del sitio de infección (antes de iniciar, si es posible)",
+      "Examen de orina y urocultivo (para ITU)",
+      "Tiempo de protrombina (TP/INR) si el paciente recibe anticoagulantes"
+    ],
+    "frequency": "El monitoreo de la función renal y hepática debe realizarse al inicio del tratamiento y luego semanalmente si el tratamiento es prolongado (>7 días) o si el paciente tiene factores de riesgo. El CSC puede revisarse semanalmente. Los signos clínicos (fiebre, dolor, etc.) se evalúan diariamente.",
+    "signsToWatch": [
+      "Aparición de erupción cutánea, urticaria o dificultad para respirar (signos de alergia)",
+      "Diarrea severa, acuosa o con sangre, acompañada de fiebre o dolor abdominal cólico",
+      "Sangrado o moretones inusuales",
+      "Convulsiones, confusión o somnolencia extrema",
+      "Dolor o hinchazón severa en el sitio de la inyección",
+      "Fiebre persistente o que reaparece"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Convulsiones (especialmente en pacientes con insuficiencia renal)",
+      "Temblores, mioclonías",
+      "Encefalopatía (confusión, somnolencia, coma)",
+      "Náuseas y vómitos exacerbados",
+      "Acidosis metabólica"
+    ],
+    "treatment": "El tratamiento es de soporte y sintomático. No existe un antídoto específico. En caso de convulsiones, se pueden administrar benzodiacepinas (diazepam). La hemodiálisis es efectiva para eliminar la cefmenoxima de la circulación y debe considerarse en casos de sobredosis grave, especialmente en pacientes con insuficiencia renal subyacente. Se debe mantener una hidratación adecuada y el soporte de las funciones vitales.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (antibiótico de uso controlado).",
+    "scheduleMexico": "Medicamento de la Fracción IV (F-IV) del Cuadro Básico de Medicamentos. Su venta requiere receta médica retenida en la farmacia.",
+    "fdaApprovalYear": "No está aprobada por la FDA de Estados Unidos. Fue desarrollada y se utiliza principalmente en Japón, Corea, México y algunos países de Europa y América Latina."
+  },
+  "brandsMexico": [
+    "Cefmax",
+    "Cefmen",
+    "Maxcef",
+    "Menocef",
+    "Spectrox",
+    "Tacef"
+  ],
+  "clinicalPearls": [
+    "La cefmenoxima es una cefalosporina de 3ra generación con un espectro particularmente bueno contra enterobacterias (E. coli, Klebsiella, Proteus) y Haemophilus influenzae. Es menos activa contra Pseudomonas aeruginosa en comparación con la ceftazidima.",
+    "Es una excelente opción para el tratamiento empírico de infecciones intrahospitalarias de origen abdominal o urinario mientras se espera el resultado del cultivo y antibiograma.",
+    "Su administración cada 12 horas (en infecciones no graves) mejora la adherencia al tratamiento y reduce los costos de administración en comparación con cefalosporinas que se dan cada 6 u 8 horas.",
+    "En pacientes alérgicos a penicilina con reacciones no anafilácticas (exantema), el riesgo de reactividad cruzada con cefmenoxima es bajo (<5%). Sin embargo, se debe usar con precaución y bajo supervisión.",
+    "Para maximizar su eficacia en meningitis, debe administrarse en dosis altas (hasta 200 mg/kg/día en niños) y por vía intravenosa, ya que penetra bien la barrera hematoencefálica inflamada."
+  ],
+  "patientCounseling": "Este medicamento es una inyección que le pondrá un médico o enfermera. Es muy importante que complete TODO el tratamiento, incluso si se siente mejor en unos días. Si deja el tratamiento a medias, la infección puede regresar y las bacterias volverse resistentes. Avise de inmediato si le sale roncha, le da comezón, le falta el aire o se le hinchan los labios (señales de alergia). Si le da diarrea muy aguada o con sangre, con fiebre o dolor de estómago, no tome antidiarreicos como loperamida y avise a su médico, podría ser una infección grave en el intestino causada por el mismo antibiótico. Informe a su médico si está embarazada, planea estarlo o está amamantando. Manténgase bien hidratado tomando suficientes líquidos mientras esté bajo tratamiento.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre",
+        "slug": "fiebre"
+      },
+      {
+        "name": "Dolor al orinar",
+        "slug": "disuria"
+      },
+      {
+        "name": "Tos con flemas",
+        "slug": "tos-productiva"
+      },
+      {
+        "name": "Dolor abdominal",
+        "slug": "dolor-abdominal"
+      },
+      {
+        "name": "Escalofríos",
+        "slug": "escalofrios"
+      },
+      {
+        "name": "Dolor de cabeza intenso",
+        "slug": "cefalea-severa"
+      },
+      {
+        "name": "Confusión",
+        "slug": "confusion-mental"
+      },
+      {
+        "name": "Secreción purulenta",
+        "slug": "secrecion-purulenta"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Neumonía",
+        "slug": "neumonia"
+      },
+      {
+        "name": "Pielonefritis",
+        "slug": "pielonefritis"
+      },
+      {
+        "name": "Sepsis",
+        "slug": "sepsis"
+      },
+      {
+        "name": "Meningitis bacteriana",
+        "slug": "meningitis-bacteriana"
+      },
+      {
+        "name": "Peritonitis",
+        "slug": "peritonitis"
+      },
+      {
+        "name": "Osteomielitis",
+        "slug": "osteomielitis"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Colitis pseudomembranosa",
+        "slug": "colitis-pseudomembranosa"
+      },
+      {
+        "name": "Insuficiencia renal aguda",
+        "slug": "insuficiencia-renal-aguda"
+      },
+      {
+        "name": "Reacción anafiláctica",
+        "slug": "anafilaxia"
+      },
+      {
+        "name": "Candidiasis invasiva",
+        "slug": "candidiasis"
+      },
+      {
+        "name": "Síndrome de Stevens-Johnson",
+        "slug": "sindrome-stevens-johnson"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Alanina aminotransferasa (ALT)",
+        "slug": "alt",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Aspartato aminotransferasa (AST)",
+        "slug": "ast",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Eosinófilos",
+        "slug": "eosinofilos",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Tiempo de protrombina (TP/INR)",
+        "slug": "inr",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Leucocitos (Glóbulos blancos)",
+        "slug": "leucocitos",
+        "effect": "Puede disminuir"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Cultivo y antibiograma",
+        "slug": "cultivo-antibiograma",
+        "reason": "Para identificar la bacteria causante y confirmar su sensibilidad a la cefmenoxima."
+      },
+      {
+        "name": "Urocultivo",
+        "slug": "urocultivo",
+        "reason": "Esencial para diagnosticar y guiar el tratamiento de infecciones urinarias."
+      },
+      {
+        "name": "Hemocultivos",
+        "slug": "hemocultivo",
+        "reason": "Para detectar bacteriemia o sepsis."
+      },
+      {
+        "name": "Punción lumbar y análisis de LCR",
+        "slug": "analisis-lcr",
+        "reason": "Para diagnosticar meningitis y evaluar la respuesta al tratamiento."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La cefmenoxima es una inyección o pastilla?",
+      "a": "La cefmenoxima solo viene en forma de polvo para ser reconstituido e inyectado, ya sea en el músculo (intramuscular) o directamente en la vena (intravenosa). No existe en tabletas o jarabe."
+    },
+    {
+      "q": "¿Para qué tipo de infecciones me la pueden recetar?",
+      "a": "Se usa para infecciones graves como neumonía, infecciones de los riñones (pielonefritis), infecciones en la sangre (sepsis), meningitis, infecciones abdominales después de una cirugía o apendicitis, e infecciones profundas de la piel."
+    },
+    {
+      "q": "¿Duele la inyección?",
+      "a": "La inyección intramuscular puede causar dolor, ardor o endurecimiento en el sitio de la aplicación. Para reducir esto, a veces se mezcla el polvo con un anestésico local como la lidocaína. La inyección intravenosa generalmente duele menos."
+    },
+    {
+      "q": "¿Cuánto tiempo dura el tratamiento?",
+      "a": "Depende de la infección. Para una infección urinaria no complicada pueden ser 7-10 días, pero para una infección ósea o meningitis puede necesitarse 2 a 4 semanas o más. Es crucial seguir el tiempo indicado por el médico."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si me están inyectando cefmenoxima?",
+      "a": "No se recomienda. Aunque no hay una interacción química directa y peligrosa como con otros antibióticos, el alcohol debilita su sistema inmunológico y puede hacer que la infección se cure más lento. Además, puede empeorar efectos secundarios como náuseas."
+    },
+    {
+      "q": "¿Qué hago si me olvido de una dosis?",
+      "a": "Como es un medicamento inyectable administrado en un consultorio u hospital, es poco común que el paciente se lo olvide. Si por alguna razón se omite una dosis programada, debe administrarse tan pronto como se recuerde, pero si ya es casi la hora de la siguiente dosis, se debe omitir la olvidada y continuar con el horario normal. Nunca duplique la dosis."
+    },
+    {
+      "q": "¿Puede causar alergia?",
+      "a": "Sí, como cualquier medicamento. Si es alérgico a las penicilinas (como la amoxicilina) u otras cefalosporinas, tiene un riesgo mayor. Los signos de alergia son ronchas, comezón, hinchazón de cara/labios, dificultad para respirar o mareo. Avise de inmediato."
+    },
+    {
+      "q": "¿Me puede dar diarrea?",
+      "a": "Sí, la diarrea es un efecto secundario común porque el antibiótico altera la flora normal del intestino. Si la diarrea es leve, puede tomar probióticos (yogur, kéfir). Pero si es muy aguada, abundante, con sangre, fiebre o dolor abdominal fuerte, DEBE avisar a su médico, podría ser una colitis grave."
+    },
+    {
+      "q": "¿Afecta los métodos anticonceptivos?",
+      "a": "No hay evidencia de que la cefmenoxima disminuya la efectividad de los anticonceptivos hormonales (pastillas, parches, anillo). A diferencia de algunas familias de antibióticos, las cefalosporinas generalmente no interfieren con ellos. Sin embargo, si tiene vómitos o diarrea severa, la absorción de las pastillas podría verse afectada."
+    },
+    {
+      "q": "¿La pueden usar mujeres embarazadas?",
+      "a": "Sí, se considera una opción relativamente segura (Categoría B) cuando el beneficio supera el riesgo. Se usa, por ejemplo, para tratar infecciones urinarias graves o infecciones intrauterinas durante el embarazo. Siempre debe ser recetada y supervisada por el médico."
+    },
+    {
+      "q": "¿Puedo amamantar si me la están poniendo?",
+      "a": "Sí, generalmente es compatible. Pasa a la leche materna en cantidades muy pequeñas que es poco probable que le hagan daño al bebé. Solo observe si el bebé presenta diarrea o irritación en la boca (algodoncillo), y en ese caso consulte con su pediatra."
+    },
+    {
+      "q": "¿Necesito hacerme análisis de sangre durante el tratamiento?",
+      "a": "Si el tratamiento es corto (menos de una semana) y usted está sano, probablemente no. Pero si el tratamiento es prolongado, si tiene problemas en los riñones o el hígado, o si toma otros medicamentos, el médico puede pedir análisis para revisar la función renal y hepática."
+    },
+    {
+      "q": "¿Interactúa con otros medicamentos que tomo?",
+      "a": "Sí. Es muy importante que le diga a su médico TODOS los medicamentos que usa. Interactúa principalmente con anticoagulantes (como la warfarina) aumentando el riesgo de sangrado, y con diuréticos (como la furosemida) pudiendo afectar los riñones."
+    },
+    {
+      "q": "¿Es lo mismo que la ceftriaxona?",
+      "a": "No, son diferentes aunque ambas son cefalosporinas de tercera generación. La ceftriaxona se da usualmente una vez al día, mientras que la cefmenoxima se da cada 12 horas. Los espectros de acción son similares pero no idénticos. Su médico elegirá la más adecuada para su infección específica."
+    },
+    {
+      "q": "¿Por qué a veces la mezclan con otro antibiótico?",
+      "a": "Para infecciones muy graves o causadas por bacterias que se sabe son difíciles de erradicar (como Pseudomonas aeruginosa), se puede combinar con un aminoglucósido (como la gentamicina) para tener un efecto más potente y sinérgico, y para prevenir la aparición de resistencia."
+    },
+    {
+      "q": "¿Qué pasa si tengo diabetes, puedo usarla?",
+      "a": "Sí, puede usarse. Sin embargo, algunas soluciones para diluirla contienen dextrosa (azúcar). Su médico y el personal de enfermería deben saber que usted es diabético para elegir una solución de dilución adecuada (como solución salina) y monitorear sus niveles de glucosa."
+    },
+    {
+      "q": "¿La cefmenoxima sirve para la gripe o el COVID-19?",
+      "a": "NO. La cefmenoxima es un ANTIBIÓTICO, que solo mata BACTERIAS. La gripe y el COVID-19 son causados por VIRUS. Usar un antibiótico para una infección viral es inútil, puede causar efectos secundarios innecesarios y contribuir a la resistencia bacteriana."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre ponerla en el músculo o en la vena?",
+      "a": "La vía intravenosa (en la vena) permite que el medicamento actúe más rápido y alcanza niveles más altos en la sangre de inmediato, por lo que se prefiere para infecciones muy graves o en estado de shock. La vía intramuscular es para infecciones menos graves o para continuar el tratamiento una vez que el paciente está estable."
+    },
+    {
+      "q": "¿Puede dañar mis riñones?",
+      "a": "El riesgo de daño renal (nefrotoxicidad) con cefmenoxima solo es bajo. Sin embargo, el riesgo aumenta si usted ya tiene enfermedad renal, si está deshidratado, o si la combina con otros medicamentos que también dañan los riñones (como algunos antiinflamatorios o diuréticos). Por eso es importante estar bien hidratado."
+    },
+    {
+      "q": "¿Qué debo hacer si veo que la solución para inyectar tiene partículas o está turbia?",
+      "a": "NO debe usarse. La solución reconstituida de cefmenoxima debe ser transparente y de color amarillo pálido. Si ve partículas, turbidez o cambio de color, debe desecharse y preparar una nueva. Informe inmediatamente a la enfermera o farmacéutico."
+    }
+  ]
+}

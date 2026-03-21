@@ -1,0 +1,401 @@
+{
+  "name": "Capsaicina",
+  "summary": "La capsaicina es un medicamento derivado de los chiles picantes que se usa principalmente como un analgésico tópico. Pertenece a la categoría de anestésicos locales y funciona reduciendo una sustancia en los nervios llamada 'sustancia P', que es responsable de enviar señales de dolor al cerebro. Su importancia clínica radica en que ofrece alivio para dolores neuropáticos y musculoesqueléticos crónicos, como la neuralgia postherpética (dolor después del herpes zóster) y la artrosis, sin los riesgos sistémicos de los analgésicos orales. Es una opción valiosa para pacientes que no toleran otros medicamentos o que necesitan un tratamiento localizado directamente en la zona dolorosa. Aunque su aplicación inicial puede causar una sensación de ardor, este efecto generalmente disminuye con el uso continuado.",
+  "pharmacology": {
+    "mechanismOfAction": "La capsaicina es un agonista del receptor vaniloide tipo 1 (TRPV1), que se encuentra principalmente en las fibras nerviosas sensoriales de tipo C que transmiten el dolor. Al unirse a este receptor, la capsaicina permite la entrada de iones de calcio, lo que inicialmente causa una despolarización y la liberación de neuropéptidos como la sustancia P, generando una sensación de ardor. Sin embargo, con aplicaciones repetidas, agota las reservas de sustancia P e induce una desensibilización de las neuronas sensoriales. Este proceso conduce a una reducción en la capacidad de las fibras nerviosas para transmitir señales de dolor desde la piel al sistema nervioso central, produciendo un efecto analgésico local prolongado. Este mecanismo es reversible, ya que las terminaciones nerviosas pueden regenerarse con el tiempo si se suspende el tratamiento.",
+    "pharmacologicClass": "Agonista del receptor de vaniloide 1 (TRPV1); Agente desensibilizante de neuronas sensoriales.",
+    "therapeuticClass": "Analgésico tópico; Anestésico local; Agente contra el dolor neuropático.",
+    "absorption": "La absorción sistémica a través de la piel intacta es mínima y variable. Menos del 1% de la dosis aplicada se absorbe a la circulación sistémica cuando se usa en formulaciones tópicas de baja concentración (por ejemplo, cremas al 0.025% o 0.075%). En parches de alta concentración (8%), la absorción puede ser mayor, pero los niveles plasmáticos siguen siendo muy bajos y generalmente no se consideran clínicamente significativos.",
+    "distribution": "Debido a su baja absorción sistémica, la distribución es principalmente local en la piel y las terminaciones nerviosas subcutáneas. La unión a proteínas plasmáticas no está bien caracterizada por la falta de niveles sanguíneos significativos. Su volumen de distribución (Vd) no es aplicable en el sentido farmacocinético tradicional.",
+    "metabolism": "La pequeña fracción que se absorbe sistémicamente sufre un metabolismo hepático extenso, principalmente a través del sistema enzimático del citocromo P450, específicamente la isoenzima CYP2E1, y en menor medida CYP1A2 y CYP2C. Se metaboliza a compuestos inactivos.",
+    "elimination": "La vida media de eliminación es corta, aproximadamente de 1 a 2 horas para la fracción absorbida. Se elimina principalmente por vía renal (alrededor del 80%) en forma de metabolitos, y el resto por vía fecal. La eliminación del sitio de aplicación es por desensibilización local y regeneración nerviosa, no por depuración sistémica.",
+    "onsetOfAction": "El inicio del alivio del dolor puede notarse después de varios días de aplicación regular y continua. El efecto analgésico completo generalmente se alcanza después de 2 a 4 semanas de uso diario. La sensación inicial de ardor o calor ocurre minutos después de la aplicación.",
+    "durationOfAction": "La duración del efecto analgésico después de una aplicación única es limitada. Con el uso repetido y el agotamiento de la sustancia P, el alivio del dolor puede persistir durante varias horas después de cada aplicación. Para el parche de alta concentración (8%), el efecto analgésico puede durar hasta 12 semanas después de una sola aplicación de 60 minutos, debido a una desensibilización más profunda y prolongada de las fibras nerviosas."
+  },
+  "indications": {
+    "approved": [
+      "Alivio del dolor neuropático periférico (como neuralgia postherpética)",
+      "Alivio del dolor asociado a artrosis",
+      "Alivio del dolor musculoesquelético (como en hombro, rodilla)",
+      "Tratamiento tópico para el dolor de la neuropatía diabética periférica (en algunas formulaciones)"
+    ],
+    "offLabel": [
+      "Prurito (comezón) asociado a psoriasis, hemodiálisis o neurodermatitis",
+      "Dolor por neuropatía periférica por VIH",
+      "Síndrome de dolor regional complejo (Distrofia Simpático Refleja)",
+      "Cefalea en racimos (aplicación intranasal)",
+      "Dolor por mastectomía o cirugía",
+      "Alivio sintomático de la fibromialgia (aplicación local)"
+    ]
+  },
+  "dosage": {
+    "adults": "Para cremas/geles (0.025%, 0.075%): Aplicar una capa delgada en el área afectada 3 a 4 veces al día. Para parche cutáneo (8%): Aplicar un solo parche en el área más dolorosa durante 60 minutos. Puede repetirse cada 3 meses o según lo indique el médico, si el dolor regresa.",
+    "pediatric": "No se recomienda generalmente en niños menores de 18 años debido a la falta de estudios de seguridad y eficacia. En casos excepcionales bajo supervisión médica estricta, se podría considerar en adolescentes para dolor neuropático, usando dosis mínimas y con vigilancia estrecha.",
+    "elderly": "No se requieren ajustes de dosis específicos por edad. Sin embargo, se debe tener precaución debido a una posible piel más delgada y frágil, y una mayor sensibilidad a los efectos iniciales de ardor. Aplicar con cuidado.",
+    "renalImpairment": "No se requieren ajustes de dosis en insuficiencia renal de cualquier grado (TFG <15 mL/min inclusive), ya que la absorción sistémica es mínima y no se acumula.",
+    "hepaticImpairment": "No se requieren ajustes de dosis en insuficiencia hepática, debido a la absorción sistémica insignificante.",
+    "maxDose": "No existe una dosis máxima diaria sistémica definida. Para formulaciones tópicas, la dosis máxima se limita al área de aplicación: no aplicar en más del 10-20% de la superficie corporal total en un día. Para el parche del 8%, no usar más de 4 parches simultáneamente."
+  },
+  "dosageForms": [
+    {
+      "form": "Crema tópica",
+      "strengths": [
+        "0.025%",
+        "0.075%"
+      ],
+      "route": "Tópica (piel)"
+    },
+    {
+      "form": "Gel tópico",
+      "strengths": [
+        "0.025%"
+      ],
+      "route": "Tópica (piel)"
+    },
+    {
+      "form": "Parche cutáneo",
+      "strengths": [
+        "8% (179 mg de capsaicina)",
+        "0.0375%"
+      ],
+      "route": "Tópica (piel)"
+    },
+    {
+      "form": "Ungüento",
+      "strengths": [
+        "0.025%"
+      ],
+      "route": "Tópica (piel)"
+    },
+    {
+      "form": "Spray tópico",
+      "strengths": [
+        "0.075%"
+      ],
+      "route": "Tópica (piel)"
+    },
+    {
+      "form": "Roll-on tópico",
+      "strengths": [
+        "0.075%"
+      ],
+      "route": "Tópica (piel)"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la capsaicina, chiles (Capsicum) o cualquier componente de la formulación",
+      "Piel dañada, irritada o con heridas abiertas en el sitio de aplicación",
+      "Aplicación en mucosas (ojos, boca, nariz, genitales, área anal)"
+    ],
+    "relative": [
+      "Dolor agudo o inflamación severa en el sitio de aplicación",
+      "Neuropatía diabética con pérdida de sensibilidad (usar con extrema precaución)",
+      "Pacientes con hipertensión arterial no controlada (por el ardor inicial)",
+      "Mujeres embarazadas o en periodo de lactancia (consultar médico)",
+      "Niños y adolescentes menores de 18 años"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Sensación de ardor, escozor, calor o picazón en el sitio de aplicación (puede ser intensa al inicio)",
+      "Eritema (enrojecimiento de la piel)"
+    ],
+    "common": [
+      "Dolor en el sitio de aplicación",
+      "Prurito (comezón)",
+      "Pápulas o pequeñas ronchas",
+      "Sequedad de la piel",
+      "Tos o irritación de garganta (por inhalación de partículas durante la aplicación)"
+    ],
+    "uncommon": [
+      "Edema (hinchazón) local",
+      "Dolor de cabeza",
+      "Mareo",
+      "Náuseas",
+      "Hipertensión arterial transitoria (por la reacción de dolor)"
+    ],
+    "rare": [
+      "Reacción alérgica severa (anafilaxia)",
+      "Dificultad para respirar (broncoespasmo)",
+      "Aumento del dolor neuropático",
+      "Cambios en la sensibilidad de la piel de larga duración"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Inhibidores de la ECA (Ej. Enalapril, Captopril)",
+        "effect": "Mayor riesgo de tos o sensación de garganta irritada debido a un efecto irritante aditivo en las vías respiratorias.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Teofilina",
+        "effect": "La capsaicina puede aumentar los niveles plasmáticos de teofilina, incrementando el riesgo de toxicidad (náuseas, taquicardia, convulsiones).",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Otros productos tópicos irritantes",
+        "effect": "Productos que contengan alcohol, alcanfor, mentol o ácido salicílico pueden aumentar la irritación y el ardor en la piel si se aplican en la misma zona.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "No hay interacciones directas con alimentos. Sin embargo, el consumo de chiles picantes o alimentos muy condimentados no afecta al medicamento tópico. Se debe evitar el contacto de las manos con ojos, boca o mucosas después de aplicar el medicamento, ya que puede causar una intensa sensación de ardor.",
+    "withSupplements": "Suplementos que contengan capsaicina oral (para pérdida de peso o dolor) pueden aumentar el riesgo de efectos adversos sistémicos si se combinan con la formulación tópica, aunque es poco probable debido a la baja absorción de esta última."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA B (para uso tópico)",
+      "recommendation": "No se han realizado estudios adecuados en mujeres embarazadas. Su uso solo se considera si el beneficio potencial justifica el riesgo potencial para el feto. Se debe evitar la aplicación en áreas extensas o por periodos prolongados. La paciente debe consultar siempre a su médico antes de usarlo.",
+      "crossesPlacenta": false
+    },
+    "breastfeeding": "Se desconoce si la capsaicina se excreta en la leche materna, pero es poco probable debido a su baja absorción sistémica. Se considera probablemente compatible con la lactancia, especialmente si se aplica en áreas pequeñas. Se recomienda lavar bien las manos después de la aplicación para evitar el contacto accidental con el bebé.",
+    "pediatric": "La seguridad y eficacia en niños no están establecidas. No se recomienda su uso en menores de 18 años a menos que sea bajo la estricta supervisión de un especialista en dolor pediátrico, evaluando riesgos versus beneficios.",
+    "geriatric": "Los adultos mayores pueden ser más sensibles a los efectos de ardor inicial. La piel suele ser más delgada y frágil, por lo que se debe aplicar con suavidad. No se requieren ajustes de dosis, pero el monitoreo de la tolerancia es importante."
+  },
+  "administration": {
+    "howToTake": "1. Lave y seque completamente el área de la piel donde aplicará el medicamento. 2. Aplique una capa fina de crema/gel y frótela suavemente hasta que desaparezca. Para el parche del 8%, un profesional de la salud suele aplicarlo después de adormecer la zona. 3. Lávese las manos inmediatamente y minuciosamente con agua y jabón después de cada aplicación, incluso si usó guantes. 4. Evite el contacto con ojos, mucosas, heridas o piel irritada. 5. No aplique vendajes oclusivos (como plástico) sobre el área tratada a menos que lo indique el médico. 6. No se duche, bañe o nade inmediatamente después de la aplicación.",
+    "storage": "Almacenar a temperatura ambiente (entre 15°C y 30°C), en un lugar seco y fuera del alcance de los niños y mascotas. No congelar. Mantener el tubo o envase bien cerrado.",
+    "specialInstructions": "La sensación de ardor inicial es NORMAL y esperada; NO significa que sea alérgico. Este efecto suele disminuir después de varios días de uso continuo. No suspenda el tratamiento por este motivo a menos que sea intolerable. Si el ardor es muy intenso, puede aplicar una compresa fría sobre el área. Nunca use el medicamento para aliviar el ardor causado por él mismo. Para el parche del 8%, la aplicación es por un profesional en un entorno clínico."
+  },
+  "monitoring": {
+    "labTests": [
+      "No se requieren monitoreos de laboratorio de rutina específicos para la capsaicina tópica."
+    ],
+    "frequency": "Evaluación clínica del alivio del dolor y la tolerancia cutánea cada 2 a 4 semanas al inicio del tratamiento, y luego según sea necesario.",
+    "signsToWatch": [
+      "Reacción alérgica severa (urticaria generalizada, dificultad para respirar, hinchazón de cara/lengua)",
+      "Aparición de ampollas, úlceras o infección en la piel tratada",
+      "Aumento inexplicable del dolor",
+      "Mareo o sensación de desmayo tras la aplicación",
+      "Irritación ocular severa accidental"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Dolor y ardor cutáneo extremo",
+      "Eritema (enrojecimiento) intenso",
+      "Edema (hinchazón) severo",
+      "Ampollas o quemaduras químicas en la piel",
+      "Si se ingiere: dolor abdominal intenso, náuseas, vómitos, diarrea, irritación de garganta y estómago."
+    ],
+    "treatment": "1. POR CONTACTO CUTÁNEO: Retire el exceso de medicamento con una gasa seca. Lave el área abundantemente con agua y jabón suave. NO use agua caliente, ya que puede empeorar la sensación. Puede aplicar leche fría o una compresa fría para aliviar el ardor. 2. POR CONTACTO OCULAR: Enjuague inmediatamente con abundante agua corriente durante al menos 15-20 minutos y busque atención médica urgente. 3. POR INGESTIÓN: No induzca el vómito. Enjuague la boca con agua o leche. Busque atención médica de inmediato o llame al Centro de Control de Intoxicaciones. El tratamiento es de soporte.",
+    "antidote": "No existe un antídoto específico. El tratamiento es sintomático y de soporte."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Algunas formulaciones de baja concentración (0.025% y 0.075%) pueden ser de venta libre (OTC). El parche de alta concentración (8%) y algunas presentaciones específicas requieren RECETA MÉDICA.",
+    "scheduleMexico": "Generalmente se encuentra en la Fracción IV (Medicamentos de venta libre) para cremas/geles de baja concentración. Para presentaciones de prescripción, está en la Fracción III (Medicamentos que requieren receta médica retenible).",
+    "fdaApprovalYear": "La primera aprobación de la FDA para una formulación tópica de capsaicina fue en 1992 (crema Zostrix). El parche de capsaicina al 8% (Qutenza) fue aprobado en 2009."
+  },
+  "brandsMexico": [
+    "Zostrix",
+    "Zostrix HP",
+    "Capsin",
+    "Pain Doctor",
+    "Dolorex",
+    "Capzasin-P",
+    "Arthricare",
+    "No Pain-HP",
+    "Capsagel",
+    "Qutenza (parche 8%)",
+    "Capsicum Forte",
+    "Algesal",
+    "Dolgit Capsicum"
+  ],
+  "clinicalPearls": [
+    "El 'ardor inicial' es un efecto farmacológico esperado, no una alergia. Educar al paciente sobre esto mejora la adherencia al tratamiento.",
+    "Para el parche del 8%, la aplicación por un profesional tras anestesia local es clave para la tolerancia y eficacia. El alivio puede durar hasta 3 meses.",
+    "La capsaicina es especialmente útil en dolor neuropático localizado donde otros analgésicos han fallado o causan efectos sistémicos no deseados."
+  ],
+  "patientCounseling": "Señor paciente, la capsaicina es un medicamento que se aplica directamente sobre la piel para aliviar el dolor. Es muy importante que sepa que durante los primeros días sentirá una sensación de calor, ardor o picazón en la zona donde lo ponga; esto es NORMAL y significa que el medicamento está actuando. No se asuste y no suspenda el tratamiento por esto, ya que la molestia suele disminuir después de una semana de uso constante. Lávese muy bien las manos con agua y jabón inmediatamente después de cada aplicación, para evitar que accidentalmente se lleve el medicamento a los ojos, la boca o la nariz, lo que causaría un ardor muy intenso. No lo aplique sobre piel lastimada, con raspones o quemaduras. Si el dolor no mejora después de 4 semanas de uso, o si aparece un sarpullido severo, ampollas o dificultad para respirar, deje de usarlo y consulte a su médico de inmediato.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor neuropático (ardor, punzadas)",
+        "slug": "dolor-neuropatico"
+      },
+      {
+        "name": "Dolor articular",
+        "slug": "dolor-articular"
+      },
+      {
+        "name": "Dolor muscular",
+        "slug": "dolor-muscular"
+      },
+      {
+        "name": "Comezón (prurito)",
+        "slug": "comezon-prurito"
+      },
+      {
+        "name": "Ardor en la piel",
+        "slug": "ardor-en-la-piel"
+      },
+      {
+        "name": "Hipersensibilidad al tacto",
+        "slug": "hipersensibilidad-al-tacto"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Neuralgia postherpética",
+        "slug": "neuralgia-postherpetica"
+      },
+      {
+        "name": "Osteoartritis (Artrosis)",
+        "slug": "osteoartritis-artrosis"
+      },
+      {
+        "name": "Neuropatía diabética periférica",
+        "slug": "neuropatia-diabetica-periferica"
+      },
+      {
+        "name": "Artritis reumatoide (dolor localizado)",
+        "slug": "artritis-reumatoide"
+      },
+      {
+        "name": "Psoriasis (para el prurito)",
+        "slug": "psoriasis"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Dermatitis de contacto irritativa",
+        "slug": "dermatitis-de-contacto-irritativa"
+      },
+      {
+        "name": "Quemadura química de la piel",
+        "slug": "quemadura-quimica-de-la-piel"
+      },
+      {
+        "name": "Broncoespasmo (en personas susceptibles)",
+        "slug": "broncoespasmo"
+      },
+      {
+        "name": "Reacción alérgica cutánea",
+        "slug": "reaccion-alergica-cutanea"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Sustancia P en terminaciones nerviosas",
+        "slug": "sustancia-p",
+        "effect": "Disminuye significativamente"
+      },
+      {
+        "name": "Niveles de Teofilina en sangre",
+        "slug": "teofilina",
+        "effect": "Puede elevar"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Evaluación del dolor (Escala Visual Analógica)",
+        "slug": "escala-visual-analogica-dolor",
+        "reason": "Para medir la eficacia del tratamiento a lo largo del tiempo"
+      },
+      {
+        "name": "Examen neurológico",
+        "slug": "examen-neurologico",
+        "reason": "Para evaluar el estado de las neuropatías antes y durante el tratamiento"
+      },
+      {
+        "name": "Glucemia (si es diabético)",
+        "slug": "glucemia",
+        "reason": "Para controlar la enfermedad de base en neuropatía diabética"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora IMC",
+        "slug": "calculadora-imc"
+      },
+      {
+        "name": "Calculadora eGFR",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La capsaicina es lo mismo que el chile o ají?",
+      "a": "Sí, la capsaicina es el compuesto químico natural que le da el picante a los chiles, pimientos y ajíes. En el medicamento, este compuesto se purifica y se formula en cremas o parches para uso médico."
+    },
+    {
+      "q": "¿Por qué me arde tanto la piel cuando me aplico la crema?",
+      "a": "El ardor inicial es un efecto normal y esperado del medicamento. La capsaicina actúa estimulando los receptores de calor y dolor en la piel. Esta sensación, aunque molesta, es parte de su mecanismo de acción y suele disminuir o desaparecer después de varios días de uso continuo."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto para quitar el dolor?",
+      "a": "El alivio completo del dolor puede tardar de 2 a 4 semanas de aplicación regular (3-4 veces al día). Es importante ser constante y no suspenderlo por el ardor inicial, ya que el efecto analgésico se construye con el tiempo."
+    },
+    {
+      "q": "¿Puedo usar la capsaicina si soy alérgico a los picantes?",
+      "a": "No. Si tiene una alergia conocida a los chiles (Capsicum), es probable que sea alérgico a la capsaicina. No use este medicamento y consulte a su médico para una alternativa."
+    },
+    {
+      "q": "¿Qué hago si me cae el medicamento en los ojos?",
+      "a": "Lave el ojo inmediatamente con abundante agua corriente durante al menos 15-20 minutos. No se frote. Busque atención médica urgente o llame al Centro de Control de Intoxicaciones. El ardor puede ser muy intenso."
+    },
+    {
+      "q": "¿Necesito receta médica para comprarlo?",
+      "a": "Depende de la concentración. Las cremas y geles de baja concentración (0.025% y 0.075%) generalmente son de venta libre. Los parches de alta concentración (8%) y algunas marcas específicas siempre requieren receta médica."
+    },
+    {
+      "q": "¿Puedo aplicarme la crema y luego bañarme?",
+      "a": "Espere al menos varias horas después de la aplicación antes de bañarse, ducharse o nadar. El agua caliente puede reactivar la sensación de ardor. Lo ideal es aplicar el medicamento en piel seca y dejarlo actuar."
+    },
+    {
+      "q": "¿La capsaicina mancha la ropa?",
+      "a": "Generalmente no mancha, pero es recomendable dejar que la crema o gel se absorba completamente antes de vestirse. Algunas formulaciones pueden dejar un residuo. Lave la ropa que entre en contacto con el medicamento por separado si le preocupa."
+    },
+    {
+      "q": "¿Puedo usarla en el cuello o la espalda para dolor muscular?",
+      "a": "Sí, puede usarse en esas áreas para dolor musculoesquelético, siempre y cuando la piel esté intacta (sin heridas, raspones o irritación). Evite aplicarla cerca de los ojos o en la parte delantera del cuello. Lávese bien las manos después."
+    },
+    {
+      "q": "¿Es seguro usarla si tengo diabetes?",
+      "a": "Puede usarse, pero con EXTREMA precaución. La diabetes puede causar neuropatía y pérdida de sensibilidad. Si no siente bien el ardor inicial, podría aplicarse demasiado o no darse cuenta de una reacción cutánea severa. Consulte siempre a su médico antes de usarla."
+    },
+    {
+      "q": "¿Puedo usar otros analgésicos (como paracetamol o ibuprofeno) al mismo tiempo?",
+      "a": "Sí, generalmente es seguro combinar la capsaicina tópica con analgésicos orales como paracetamol, ibuprofeno o naproxeno. De hecho, su médico puede recomendarlo para un mejor control del dolor. Siempre informe a su médico sobre todos los medicamentos que toma."
+    },
+    {
+      "q": "¿Qué pasa si se me olvida una aplicación?",
+      "a": "Aplíquela tan pronto como lo recuerde, si no es casi la hora de la siguiente dosis. No duplique la dosis para compensar la olvidada. Siga con su horario normal."
+    },
+    {
+      "q": "¿La capsaicina puede subir la presión arterial?",
+      "a": "El ardor intenso inicial puede causar un aumento temporal y reflejo de la presión arterial y la frecuencia cardíaca en algunas personas. Si tiene hipertensión no controlada, consulte a su médico antes de usarla."
+    },
+    {
+      "q": "¿Sirve para el dolor de la ciática?",
+      "a": "Puede ofrecer cierto alivio si el dolor de la ciática es superficial y localizado en un área específica de la pierna o glúteo. Sin embargo, para el dolor radicular profundo, su efectividad puede ser limitada. Consulte a su médico para un plan integral."
+    },
+    {
+      "q": "¿Puedo usarla durante el embarazo o lactancia?",
+      "a": "Durante el embarazo, solo debe usarse si el médico lo considera estrictamente necesario. En lactancia, es probablemente seguro si se aplica en áreas pequeñas y se lavan bien las manos, ya que casi no se absorbe. Consulte siempre a su médico en estas situaciones."
+    },
+    {
+      "q": "¿El efecto del parche del 8% es permanente?",
+      "a": "No, el efecto no es permanente. El parche desensibiliza las fibras nerviosas de manera profunda, pero estas se regeneran con el tiempo. El alivio del dolor suele durar hasta 3 meses, después de lo cual puede ser necesario repetir la aplicación."
+    },
+    {
+      "q": "¿La capsaicina crea resistencia o dependencia?",
+      "a": "No crea dependencia psicológica ni física (adicción). Tampoco se ha reportado el desarrollo de tolerancia (necesidad de aumentar la dosis). Su efecto se basa en un mecanismo farmacológico reversible."
+    },
+    {
+      "q": "¿Cómo debo desechar los parches o tubos usados?",
+      "a": "Doble el parche usado con el lado adhesivo hacia dentro y deséchelo en la basura doméstica, fuera del alcance de niños y mascotas. Para tubos, ciérrelos bien y deséchelos con la basura normal. No los incinere."
+    },
+    {
+      "q": "¿Existen interacciones con medicamentos para el corazón?",
+      "a": "No hay interacciones farmacocinéticas directas importantes. Sin embargo, como se mencionó, el ardor inicial puede elevar temporalmente la presión y frecuencia cardíaca. Si toma medicamentos para el corazón, coméntelo con su médico para una supervisión adecuada."
+    },
+    {
+      "q": "¿Cuál es la diferencia fundamental entre el mecanismo de la capsaicina y un antiinflamatorio como el diclofenaco?",
+      "a": "El diclofenaco (un AINE) actúa bloqueando las enzimas COX que producen prostaglandinas, sustancias que causan inflamación y dolor. La capsaicina, en cambio, no es antiinflamatoria; actúa a nivel neurológico, agotando la sustancia P en las terminaciones nerviosas, lo que reduce específicamente la transmisión de señales de dolor al cerebro. Es mejor para dolores neuropáticos, mientras que los AINE son mejores para dolores inflamatorios."
+    }
+  ]
+}

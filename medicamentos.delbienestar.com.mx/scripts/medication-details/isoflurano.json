@@ -1,0 +1,365 @@
+{
+  "name": "Isoflurano",
+  "summary": "El isoflurano es un medicamento líquido que se convierte en gas y se inhala para producir anestesia general, es decir, un estado de inconsciencia profunda y ausencia de dolor durante una cirugía. Pertenece a la clase de los anestésicos inhalados halogenados y es uno de los más utilizados en los quirófanos de México y el mundo debido a su seguridad y eficacia comprobadas. Sirve para inducir (iniciar) y mantener (continuar) la anestesia en pacientes de todas las edades, desde bebés hasta adultos mayores, permitiendo realizar procedimientos quirúrgicos complejos de manera segura y controlada. Su importancia clínica radica en que permite al anestesiólogo ajustar rápidamente la profundidad de la anestesia, tiene efectos predecibles sobre el corazón y los pulmones, y el paciente se recupera de sus efectos con relativa rapidez una vez que se suspende su administración. Es fundamental para la cirugía moderna, ya que brinda las condiciones ideales para que el cirujano opere y el paciente no sienta dolor ni tenga recuerdos del procedimiento.",
+  "pharmacology": {
+    "mechanismOfAction": "El isoflurano actúa principalmente en el sistema nervioso central (cerebro y médula espinal) potenciando la actividad del neurotransmisor inhibitorio GABA (ácido gamma-aminobutírico) en sus receptores GABA-A. Esto aumenta el flujo de iones cloruro hacia las neuronas, lo que las hiperpolariza y reduce su capacidad para generar y transmitir señales eléctricas, produciendo una depresión generalizada de la actividad cerebral. También interactúa con otros canales iónicos, como los receptores de glicina y los canales de potasio de dos poros (K2P), contribuyendo a sus efectos anestésicos, analgésicos (contra el dolor) y de relajación muscular. A diferencia de los anestésicos más antiguos, el isoflurano tiene un efecto mínimo sobre la sensibilidad del corazón a las catecolaminas (como la adrenalina), lo que lo hace más seguro desde el punto de vista cardiovascular.",
+    "pharmacologicClass": "Anestésico general inhalado halogenado. Éter halogenado (metil-etil éter).",
+    "therapeuticClass": "Anestésico y Analgésico perioperatorio.",
+    "absorption": "Se administra por vía inhalatoria a través de un vaporizador especializado conectado al circuito de anestesia. Es absorbido rápidamente a través de los alvéolos pulmonares hacia el torrente sanguíneo. La velocidad de inducción anestésica depende de la concentración inhalada, la ventilación del paciente (qué tan profundo y rápido respira con ayuda del ventilador) y el flujo sanguíneo pulmonar.",
+    "distribution": "Se distribuye ampliamente por todo el cuerpo a través de la sangre. Tiene una baja solubilidad en sangre (coeficiente sangre/gas de 1.4), lo que permite un inicio y una recuperación rápidos. Se une mínimamente a proteínas plasmáticas. Su volumen de distribución (Vd) es grande, reflejando su alta liposolubilidad y acumulación en tejidos grasos.",
+    "metabolism": "El isflurano sufre un metabolismo hepático mínimo (aproximadamente el 0.2% de la dosis administrada), principalmente por el sistema del citocromo P450, específicamente la isoenzima CYP2E1. Se metaboliza a iones fluoruro y ácido trifluoroacético, que generalmente se consideran no tóxicos en las dosis clínicas utilizadas.",
+    "elimination": "La eliminación es predominantemente por exhalación pulmonar sin cambios (más del 95%). La vida media de eliminación es corta, generalmente de 2 a 5 horas después de una anestesia prolongada, ya que se elimina rápidamente de la sangre a través de los pulmones. Los metabolitos se eliminan por la orina.",
+    "onsetOfAction": "El inicio de la acción anestésica es rápido, generalmente en cuestión de minutos (2-5 minutos) después de comenzar la inhalación a concentraciones adecuadas.",
+    "durationOfAction": "La duración del efecto es muy corta una vez que se suspende la administración, ya que se elimina rápidamente por los pulmones. La profundidad de la anestesia se puede ajustar al instante cambiando la concentración en el gas inhalado. La recuperación completa de la conciencia suele ocurrir en 10 a 20 minutos después de suspenderlo, dependiendo de la duración de la cirugía."
+  },
+  "indications": {
+    "approved": [
+      "Inducción y mantenimiento de anestesia general en cirugía de adultos",
+      "Inducción y mantenimiento de anestesia general en cirugía pediátrica",
+      "Mantenimiento de anestesia general durante procedimientos quirúrgicos de cualquier duración",
+      "Sedación en cuidados intensivos para pacientes con ventilación mecánica (en algunos protocolos)"
+    ],
+    "offLabel": [
+      "Terapia para el estado epiléptico refractario (cuando las convulsiones no se controlan con medicamentos habituales)",
+      "Procedimientos diagnósticos o terapéuticos que requieren sedación profunda o anestesia"
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis se expresa como Concentración Alveolar Mínima (CAM). Para inducción: 1.5% a 3% en oxígeno puro o mezclado con óxido nitroso. Para mantenimiento: 0.5% a 2% en oxígeno/óxido nitroso. La dosis exacta es titulada por el anestesiólogo según la respuesta del paciente (signos vitales, movimiento, etc.).",
+    "pediatric": "Neonatos (0-1 mes): CAM más baja, aproximadamente 1.2-1.6%. Lactantes (1-12 meses): CAM más alta, aproximadamente 1.6-1.8%. Niños (1-12 años): CAM similar a adultos, aproximadamente 1.2-1.6%. Las concentraciones se ajustan en el vaporizador según peso y respuesta clínica.",
+    "elderly": "Los pacientes mayores requieren concentraciones más bajas (CAM reducida) debido a cambios fisiológicos como menor función cerebral, cardíaca y pulmonar. Se inicia con dosis bajas (ej. 0.5-1%) y se titula cuidadosamente.",
+    "renalImpairment": "No se requiere ajuste de dosis específico en insuficiencia renal, ya que la eliminación es pulmonar. Sin embargo, se debe usar con precaución en pacientes con insuficiencia renal grave debido a posibles alteraciones hemodinámicas. No se recomienda en pacientes con insuficiencia renal que requieren diálisis y tienen alto riesgo de hiperpotasemia.",
+    "hepaticImpairment": "No se requiere ajuste de dosis por el metabolismo mínimo. Sin embargo, se debe usar con precaución en pacientes con enfermedad hepática avanzada (cirrosis, falla hepática) debido al riesgo de alterar el flujo sanguíneo hepático y empeorar la función.",
+    "maxDose": "No hay una dosis máxima diaria definida en mg/kg como con medicamentos orales. La concentración máxima utilizada en el vaporizador rara vez supera el 3-4% para inducción. La dosis es controlada continuamente por el anestesiólogo."
+  },
+  "dosageForms": [
+    {
+      "form": "Líquido para inhalación",
+      "strengths": [
+        "100% (vol/vol) en frasco ámbar"
+      ],
+      "route": "Inhalatoria (vaporizada)"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al isoflurano o a otros anestésicos halogenados",
+      "Historia personal o familiar de hipertermia maligna (una reacción muscular grave y mortal desencadenada por anestésicos)",
+      "Pacientes con elevación aguda de la presión intracraneal (por ejemplo, por trauma craneoencefálico grave, hemorragia cerebral)",
+      "Deficiencia conocida de la enzima colinesterasa (pseudocolinesterasa) si se planea usar succinilcolina"
+    ],
+    "relative": [
+      "Miastenia gravis (puede potenciar la debilidad muscular)",
+      "Enfermedad neuromuscular como distrofia muscular",
+      "Epilepsia o trastornos convulsivos (puede tener efectos pro o anticonvulsivantes variables)",
+      "Enfermedad coronaria o insuficiencia cardíaca inestable",
+      "Enfermedad pulmonar obstructiva crónica (EPOC) severa",
+      "Insuficiencia hepática o renal grave"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Hipotensión (presión arterial baja) durante la anestesia",
+      "Depresión respiratoria (respiración lenta o superficial, manejada con ventilador)",
+      "Náuseas y vómitos en el periodo postoperatorio",
+      "Escalofríos y temblores durante la recuperación (agitación por frío)"
+    ],
+    "common": [
+      "Aritmias cardíacas (latidos irregulares), especialmente bradicardia (latidos lentos)",
+      "Broncoespasmo (cierre de los bronquios) en pacientes susceptibles",
+      "Hipersalivación (aumento de saliva) durante la inducción",
+      "Somnolencia y confusión postoperatoria temporal"
+    ],
+    "uncommon": [
+      "Hipertermia maligna (reacción rara pero mortal, requiere tratamiento inmediato con dantroleno)",
+      "Hepatitis idiosincrásica (daño hepático severo de causa inmunológica)",
+      "Aumento de la presión intracraneal",
+      "Delirio de emergencia (agitación y confusión al despertar), más común en niños"
+    ],
+    "rare": [
+      "Necrosis tubular renal aguda (por metabolitos fluorados en exposiciones muy prolongadas)",
+      "Síndrome de Oliver-Shaughnessy (daño renal con poliuria)",
+      "Reacciones alérgicas severas (anafilaxia)",
+      "Rabdomiólisis (destrucción muscular) en pacientes susceptibles"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Relajantes musculares no despolarizantes (ej. Atracurio, Rocuronio, Vecuronio)",
+        "effect": "El isoflurano potencia y prolonga significativamente el efecto de estos relajantes musculares, pudiendo causar parálisis respiratoria prolongada.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Dantroleno",
+        "effect": "Es el antídoto específico para la hipertermia maligna inducida por anestésicos como el isoflurano. Su uso es vital en esa emergencia.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Bloqueadores beta (ej. Propranolol, Metoprolol)",
+        "effect": "Puede potenciar la bradicardia (frecuencia cardíaca muy lenta) y la depresión miocárdica.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Calcio antagonistas (ej. Verapamilo, Diltiazem)",
+        "effect": "Aumenta el riesgo de depresión cardiovascular severa (presión baja, bradicardia).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Aminoglucósidos (antibióticos como Gentamicina)",
+        "effect": "Pueden potenciar el bloqueo neuromuscular de los relajantes musculares, aumentando el riesgo de parálisis respiratoria.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "El paciente debe estar en ayuno absoluto (sin alimentos sólidos ni líquidos) por al menos 6-8 horas antes de la anestesia para evitar el riesgo de aspiración pulmonar de contenido gástrico. El alcohol debe evitarse antes de la cirugía.",
+    "withSupplements": "Suplementos como Hierba de San Juan, Valeriana, Kava o Melatonina pueden tener efectos sedantes aditivos o impredecibles. El paciente debe informar al médico sobre TODO suplemento herbal que consuma."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA C",
+      "recommendación": "No se recomienda para anestesia de rutina durante el embarazo, especialmente en el primer trimestre, debido a posibles riesgos teratogénicos en estudios animales. Sin embargo, puede ser utilizado si es claramente necesario para cirugías de emergencia en la madre, ya que los beneficios pueden superar los riesgos. Se prefiere en muchos casos para cesáreas porque causa menos relajación uterina y menos sangrado que otros agentes.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se considera compatible con la lactancia. Las cantidades que pasan a la leche materna son extremadamente bajas y se eliminan rápidamente del cuerpo de la madre. Se recomienda que la madre espere hasta sentirse completamente alerta y estable después de la anestesia antes de amamantar, pero no es necesario extraer y desechar la leche.",
+    "pediatric": "Es seguro y ampliamente utilizado en niños de todas las edades, incluidos neonatos. La CAM (concentración necesaria) varía con la edad (más alta en lactantes). Se debe vigilar la aparición de broncoespasmo (más común en niños con antecedentes de asma) y de delirio de emergencia (agitación al despertar).",
+    "geriatric": "Los pacientes mayores son más sensibles a los efectos del isoflurano. Requieren dosis más bajas (CAM reducida) debido a la disminución de la función cerebral, cardiovascular y pulmonar. Mayor riesgo de hipotensión, bradicardia y confusión postoperatoria prolongada. La titulación debe ser lenta y cuidadosa."
+  },
+  "administration": {
+    "howToTake": "El isoflurano es administrado EXCLUSIVAMENTE por un anestesiólogo o médico capacitado en un entorno hospitalario o quirúrgico con equipo de reanimación. El líquido se coloca en un vaporizador calibrado y preciso que se conecta a la máquina de anestesia. El vaporizador mezcla una concentración precisa del gas con oxígeno (y a veces óxido nitroso). Esta mezcla se administra al paciente a través de una mascarilla facial o un tubo endotraqueal insertado en la tráquea. El anestesiólogo ajusta la concentración en cada momento según los signos vitales (presión, frecuencia cardíaca) y la profundidad de la anestesia requerida.",
+    "storage": "Conservar el frasco bien cerrado a temperatura ambiente (15-30°C), protegido de la luz. Es un líquido volátil e inflamable, debe mantenerse alejado de llamas o fuentes de calor intenso. Mantener fuera del alcance de los niños.",
+    "specialInstructions": "NUNCA debe ser autoadministrado. Es para uso profesional únicamente. El vaporizador debe estar certificado y calibrado para isoflurano específicamente. No usar si el líquido está descolorido o contiene partículas. Los profesionales deben usar sistemas de evacuación de gases anestésicos para evitar la exposición ocupacional crónica."
+  },
+  "monitoring": {
+    "labTests": [
+      "Gasometría arterial (para medir oxígeno y dióxido de carbono en sangre)",
+      "Electrolitos séricos (sodio, potasio)",
+      "Función hepática (transaminasas ALT, AST) en exposiciones prolongadas",
+      "Función renal (creatinina, urea) en exposiciones prolongadas",
+      "Creatinfosfoquinasa (CPK) si se sospecha hipertermia maligna o rabdomiólisis"
+    ],
+    "frequency": "Monitoreo continuo durante la administración: electrocardiograma (ECG), presión arterial no invasiva o invasiva, oximetría de pulso (SpO2), capnografía (CO2 espirado), temperatura corporal. Después de la cirugía, monitoreo en recuperación postanestésica hasta que el paciente esté estable.",
+    "signsToWatch": [
+      "Fiebre alta y rigidez muscular súbita (signo de hipertermia maligna)",
+      "Dificultad respiratoria o sibilancias (broncoespasmo)",
+      "Latidos cardíacos irregulares o muy lentos",
+      "Presión arterial muy baja que no responde a fluidos",
+      "Coloración amarillenta de piel u ojos (ictericia) días después",
+      "Disminución del gasto urinario"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Depresión cardiovascular profunda (hipotensión severa, bradicardia, paro cardíaco)",
+      "Depresión respiratoria profunda (apnea, paro respiratorio)",
+      "Arritmias cardíacas potencialmente mortales",
+      "Pérdida profunda de reflejos protectores (tos, deglución)"
+    ],
+    "treatment": "El tratamiento es de soporte y se realiza en el quirófano o unidad de cuidados intensivos. 1) Suspender inmediatamente la administración de isoflurano. 2) Mantener la vía aérea y administrar oxígeno al 100% con ventilación asistida. 3) Soporte cardiovascular con fluidos intravenosos y medicamentos vasopresores (como epinefrina o norepinefrina) si es necesario. 4) Tratar arritmias específicas. 5) En caso de hipertermia maligna, administrar Dantroleno sódico de inmediato.",
+    "antidote": "No existe un antídoto específico para la sobredosis de isoflurano en sí. Para la hipertermia maligna inducida por anestésicos, el antídoto específico es el Dantroleno sódico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial para uso hospitalario. Medicamento de control especial.",
+    "scheduleMexico": "Medicamento sujeto a control sanitario (lista de medicamentos esenciales). No es un psicotrópico, pero su venta y distribución están estrictamente reguladas para uso institucional.",
+    "fdaApprovalYear": "Aprobado por la FDA de Estados Unidos en el año 1979."
+  },
+  "brandsMexico": [
+    "Forane (AbbVie)",
+    "Isoflurane USP (PiSA)",
+    "Isoflurano (varios genéricos de laboratorios nacionales)"
+  ],
+  "clinicalPearls": [
+    "El isoflurano es el 'caballo de batalla' de muchos quirófanos por su perfil de seguridad cardiovascular, especialmente en pacientes con enfermedades del corazón, ya que no sensibiliza el miocardio a las arritmias por adrenalina como lo hacían anestésicos más antiguos.",
+    "A pesar de ser un potente depresor respiratorio, esta característica es aprovechada en la Unidad de Cuidados Intensivos (UCI) para sedar a pacientes con ventilación mecánica que son difíciles de manejar con sedantes intravenosos, facilitando la 'adaptación' al ventilador.",
+    "Su metabolismo mínimo (solo 0.2%) lo hace una excelente opción para cirugías muy largas (de varias horas) o en pacientes con enfermedad hepática, ya que no genera una carga significativa de metabolitos potencialmente tóxicos para el hígado o el riñón."
+  ],
+  "patientCounseling": "Es importante que entienda que el isoflurano es un anestésico general que lo pondrá a dormir profundamente durante la cirugía, sin que sienta dolor o tenga recuerdos del procedimiento. Usted no lo administrará; será el anestesiólogo quien controle todo mediante una máquina especial. Para su seguridad, debe seguir estrictamente el ayuno preoperatorio (nada de comer o beber desde la noche anterior) para evitar complicaciones pulmonares graves. Informe a su médico sobre TODOS sus medicamentos, suplementos herbales, alergias, y si usted o algún familiar ha tenido reacciones graves a anestésicos o fiebre muy alta durante una cirugía pasada. Después de la operación, es normal sentirse somnoliento, con náuseas leves o escalofríos; el personal de enfermería lo ayudará. Si días después presenta fiebre, coloración amarilla en la piel, o dolor muscular severo, contacte a su médico inmediatamente.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor agudo quirúrgico",
+        "slug": "dolor-agudo-quirurgico"
+      },
+      {
+        "name": "Ansiedad preoperatoria",
+        "slug": "ansiedad-preoperatoria"
+      },
+      {
+        "name": "Conciencia durante la cirugía",
+        "slug": "conciencia-durante-la-cirugia"
+      },
+      {
+        "name": "Reflejos involuntarios",
+        "slug": "reflejos-involuntarios"
+      },
+      {
+        "name": "Movimiento durante procedimiento",
+        "slug": "movimiento-durante-procedimiento"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Estado epiléptico refractario",
+        "slug": "estado-epileptico-refractario"
+      },
+      {
+        "name": "Síndrome de dificultad respiratoria aguda (SDRA) que requiere sedación profunda",
+        "slug": "sindrome-dificultad-respiratoria-aguda"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Hipertermia maligna",
+        "slug": "hipertermia-maligna"
+      },
+      {
+        "name": "Hepatitis tóxica idiosincrásica",
+        "slug": "hepatitis-toxica-idiosincrasica"
+      },
+      {
+        "name": "Necrosis tubular renal aguda",
+        "slug": "necrosis-tubular-renal-aguda"
+      },
+      {
+        "name": "Rabdomiólisis",
+        "slug": "rabdomiolisis"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Transaminasas (ALT/AST)",
+        "slug": "transaminasas-alt-ast",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Creatinfosfoquinasa (CPK)",
+        "slug": "creatinfosfoquinasa-cpk",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Iones fluoruro en sangre",
+        "slug": "iones-fluoruro-en-sangre",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Presión arterial sistólica",
+        "slug": "presion-arterial-sistolica",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede disminuir"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Gasometría arterial",
+        "slug": "gasometria-arterial",
+        "reason": "Para monitorear oxigenación y ventilación durante la anestesia prolongada"
+      },
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-funcion-hepatica",
+        "reason": "Para detectar hepatitis inducida por fármacos, especialmente en exposiciones prolongadas o repetidas"
+      },
+      {
+        "name": "Creatinfosfoquinasa (CPK)",
+        "slug": "creatinfosfoquinasa-cpk",
+        "reason": "Si se sospecha hipertermia maligna o daño muscular"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora IMC",
+        "slug": "calculadora-imc"
+      },
+      {
+        "name": "Calculadora Edad Vascular",
+        "slug": "calculadora-edad-vascular"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Qué es el isoflurano y para qué sirve?",
+      "a": "El isoflurano es un medicamento líquido que se convierte en gas y se inhala para producir anestesia general. Sirve para 'dormir' profundamente a un paciente durante una cirugía, eliminando completamente el dolor, la conciencia y los recuerdos del procedimiento, y relajando los músculos para facilitar la operación."
+    },
+    {
+      "q": "¿Cómo se administra el isoflurano?",
+      "a": "Se administra únicamente por inhalación. Un anestesiólogo coloca el líquido en una máquina especial llamada vaporizador, que convierte una cantidad precisa en gas. Este gas se mezcla con oxígeno y se le da al paciente a respirar a través de una mascarilla o un tubo en la garganta."
+    },
+    {
+      "q": "¿Duele recibir anestesia con isoflurano?",
+      "a": "No, la administración en sí no duele. El paciente puede sentir la mascarilla en la cara o un olor peculiar al inicio, pero en cuestión de minutos pierde la conciencia. El dolor de la cirugía se previene por completo mientras el medicamento esté actuando."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda uno en dormirse con isoflurano?",
+      "a": "El inicio de la acción es muy rápido. Generalmente, el paciente pierde la conciencia en 2 a 5 minutos después de comenzar a inhalar el gas a la concentración adecuada."
+    },
+    {
+      "q": "¿Y cuánto tarda uno en despertar después?",
+      "a": "La recuperación también es rápida. Una vez que el anestesiólogo suspende el gas, el paciente suele despertar y recuperar la conciencia en 10 a 20 minutos, aunque puede sentirse somnoliento o confundido por un tiempo más."
+    },
+    {
+      "q": "¿Qué se siente al despertar de la anestesia con isoflurano?",
+      "a": "Es común sentir somnolencia, confusión leve, boca seca, frío o escalofríos, y a veces náuseas. Estos efectos son temporales y el personal de enfermería en la sala de recuperación lo ayudará a sentirse mejor."
+    },
+    {
+      "q": "¿Por qué debo estar en ayunas antes de una cirugía con anestesia general?",
+      "a": "El ayuno (no comer ni beber) por al menos 6-8 horas vacía el estómago. Esto es crucial porque los anestésicos como el isoflurano relajan los reflejos que evitan que la comida o el ácido del estómago pasen a los pulmones, lo que podría causar una neumonía grave o asfixia."
+    },
+    {
+      "q": "¿El isoflurano se puede usar en niños?",
+      "a": "Sí, el isoflurano es seguro y se usa comúnmente en niños de todas las edades, incluso en bebés recién nacidos que requieren cirugía. El anestesiólogo pediatra ajusta la dosis con mucha precisión según el peso y la edad del niño."
+    },
+    {
+      "q": "¿Puede causar alergia el isoflurano?",
+      "a": "Las reacciones alérgicas verdaderas al isoflurano son extremadamente raras. Sin embargo, es fundamental informar a su anestesiólogo sobre cualquier alergia a medicamentos, alimentos o látex, así como si ha tenido una mala reacción a una anestesia previa."
+    },
+    {
+      "q": "¿Qué es la hipertermia maligna y tiene que ver con el isoflurano?",
+      "a": "La hipertermia maligna es una reacción genética rara pero mortal, donde los múrmúsculos se contraen violentamente y la temperatura corporal se eleva muchísimo, desencadenada por anestésicos como el isoflurano. Es vital informar si algún familiar ha tenido esto o murió inexplicablemente durante una cirugía."
+    },
+    {
+      "q": "Si tengo problemas del corazón, ¿pueden ponerme isoflurano?",
+      "a": "El isoflurano es una de las opciones más seguras para pacientes con problemas cardíacos, porque no hace que el corazón sea más sensible a la adrenalina (lo que causaría arritmias). Sin embargo, puede bajar la presión arterial, por lo que el anestesiólogo lo monitoreará muy de cerca."
+    },
+    {
+      "q": "¿El isoflurano daña el hígado o los riñones?",
+      "a": "En uso normal para cirugías, el riesgo es muy bajo. Se metaboliza muy poco (solo 0.2%), por lo que casi no genera productos que dañen estos órganos. En casos extremadamente raros o exposiciones muy prolongadas, se han reportado problemas hepáticos o renales."
+    },
+    {
+      "q": "¿Puedo amamantar después de una anestesia con isoflurano?",
+      "a": "Sí, es seguro. La cantidad de medicamento que pasa a la leche materna es mínima y se elimina rápidamente del cuerpo de la madre. Se recomienda amamantar una vez que usted esté completamente despierta y alerta, sin necesidad de extraer y botar la leche."
+    },
+    {
+      "q": "¿Qué pasa si tomo mis medicamentos habituales antes de la cirugía?",
+      "a": "DEBE informar a su cirujano y anestesiólogo sobre TODOS los medicamentos que toma, incluyendo hierbas y suplementos. Algunos, como medicamentos para la presión o la diabetes, pueden interactuar con el isoflurano o necesitar un ajuste el día de la cirugía. No los suspenda por su cuenta."
+    },
+    {
+      "q": "¿El isoflurano se puede usar para una cesárea?",
+      "a": "Sí, es una opción común para anestesia general en cesáreas, especialmente de emergencia. Pasa a través de la placenta y afecta al bebé, pero se elimina rápidamente. Tiene la ventaja de causar menos relajación del útero, lo que reduce el sangrado materno."
+    },
+    {
+      "q": "¿Hay personas que no deben recibir isoflurano?",
+      "a": "Sí. Está contraindicado en personas con alergia conocida al medicamento, con historia personal o familiar de hipertermia maligna, o con presión intracraneal muy alta (por un golpe grave en la cabeza, por ejemplo). En otras condiciones como enfermedades neuromusculares, se usa con mucha precaución."
+    },
+    {
+      "q": "¿Qué monitoreo me harán durante la anestesia con isoflurano?",
+      "a": "Lo monitorearán constantemente con varios aparatos: uno para el corazón (ECG), otro para la presión arterial, un sensor en el dedo para el oxígeno en sangre, uno para medir el dióxido de carbono que exhala, y un termómetro. Esto garantiza su seguridad en todo momento."
+    },
+    {
+      "q": "¿El isoflurano puede causar náuseas después de la cirugía?",
+      "a": "Sí, las náuseas y vómitos postoperatorios son un efecto secundario común de muchos anestésicos generales, incluido el isoflurano. Su anestesiólogo puede administrarle medicamentos preventivos durante la cirugía para reducir este riesgo."
+    },
+    {
+      "q": "¿Cómo se compara el isoflurano con otros anestésicos inhalados como el sevoflurano?",
+      "a": "El isoflurano es más antiguo y económico. El sevoflurano tiene un inicio y recuperación aún más rápidos y huele mejor, por lo que es preferido para inducir anestesia en niños. El isoflurano es excelente para mantener la anestesia y es muy seguro a nivel cardiovascular. El desflurano se elimina más rápido que ambos."
+    },
+    {
+      "q": "¿Cuál es el papel del anestesiólogo cuando se usa isoflurano?",
+      "a": "El anestesiólogo es el médico especialista encargado de su seguridad. Él/ella selecciona la dosis correcta de isoflurano, la ajusta segundo a segundo según su respuesta, maneja su respiración con un ventilador, controla el dolor, trata cualquier efecto adverso inmediato y vela por su despertar seguro. No es solo 'dormirlo', es proteger todas sus funciones vitales durante la cirugía."
+    }
+  ]
+}

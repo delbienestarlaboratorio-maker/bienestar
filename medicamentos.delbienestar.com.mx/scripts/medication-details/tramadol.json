@@ -1,0 +1,466 @@
+{
+  "name": "Tramadol",
+  "summary": "El tramadol es un medicamento analgésico (para el dolor) de potencia moderada, que pertenece al grupo de los opioides atípicos. Se utiliza principalmente para tratar el dolor moderado a severo, como el dolor postoperatorio, el dolor crónico por artrosis o neuropatía, y el dolor oncológico. Es importante porque ofrece un alivio del dolor efectivo con un perfil de efectos secundarios y riesgo de dependencia potencialmente menor que otros opioides más fuertes, aunque sigue siendo un medicamento controlado que requiere receta médica y supervisión estrecha debido a su potencial de abuso, adicción y efectos adversos graves como depresión respiratoria, especialmente cuando se combina con otros depresores del sistema nervioso central.",
+  "pharmacology": {
+    "mechanismOfAction": "El tramadol tiene un mecanismo de acción dual. Primero, actúa como un agonista débil de los receptores mu-opioides en el sistema nervioso central, lo que significa que se une a estos receptores (los mismos que activan la morfina) pero con mucha menos fuerza, bloqueando la transmisión de las señales de dolor. Segundo, y de manera importante, inhibe la recaptación de dos neurotransmisores: la noradrenalina y la serotonina. Esto aumenta los niveles de estas sustancias en las uniones entre las neuronas, lo que potencia los mecanismos inhibitorios descendentes del dolor en la médula espinal. Este doble mecanismo le confiere su eficacia analgésica.",
+    "pharmacologicClass": "Agonista opioide atípico; Inhibidor de la recaptación de serotonina y noradrenalina.",
+    "therapeuticClass": "Analgésico opioide.",
+    "absorption": "Se absorbe bien por vía oral, con una biodisponibilidad de aproximadamente 70-75% debido a un efecto de primer paso hepático moderado. La comida no afecta significativamente su absorción, pero puede retrasarla ligeramente.",
+    "distribution": "Se distribuye ampliamente por los tejidos. Su unión a proteínas plasmáticas es baja (alrededor del 20%). Su metabolito activo, O-desmetiltramadol (M1), tiene una unión a proteínas del 20%. El volumen de distribución es de aproximadamente 2.7 L/kg.",
+    "metabolism": "Se metaboliza extensamente en el hígado a través de dos vías principales: 1) O-desmetilación por la enzima CYP2D6 para formar el metabolito M1 (O-desmetiltramadol), que es activo y tiene una mayor afinidad por los receptores opioides. 2) N-desmetilación por las enzimas CYP3A4 y CYP2B6 para formar el metabolito M2, que es inactivo. La actividad de la enzima CYP2D6 varía genéticamente (metabolizadores rápidos vs. lentos), lo que afecta la respuesta al fármaco.",
+    "elimination": "Se elimina principalmente por vía renal (90%), tanto el fármaco sin cambios como sus metabolitos. La vida media de eliminación del tramadol es de aproximadamente 5-7 horas, mientras que la de su metabolito activo M1 es de 6-8 horas. En pacientes con insuficiencia renal o hepática, la vida media se prolonga.",
+    "onsetOfAction": "El inicio del alivio del dolor por vía oral ocurre generalmente entre 30 y 60 minutos después de la administración.",
+    "durationOfAction": "La duración del efecto analgésico es de aproximadamente 4 a 6 horas para las formulaciones de liberación inmediata."
+  },
+  "indications": {
+    "approved": [
+      "Dolor moderado a severo (agudo o crónico)",
+      "Dolor postoperatorio",
+      "Dolor oncológico",
+      "Dolor musculoesquelético severo"
+    ],
+    "offLabel": [
+      "Dolor neuropático (como neuropatía diabética dolorosa)",
+      "Síndrome de piernas inquietas severo",
+      "Disfunción temporomandibular dolorosa",
+      "Cólicos renales (cuando otros analgésicos no son suficientes)"
+    ]
+  },
+  "dosage": {
+    "adults": "Liberación inmediata (tabletas, cápsulas): Inicial 50-100 mg cada 4-6 horas según necesidad. Dosis de inicio típica: 50 mg. Dosis máxima diaria: 400 mg (en pacientes sin factores de riesgo). Para dolor severo, se puede iniciar con 100 mg. Liberación prolongada/controlada: Inicial 100-150 mg una vez al día, ajustando según respuesta. NO se debe partir o triturar.",
+    "pediatric": "NO recomendado en menores de 12 años. En adolescentes mayores de 12 años y con peso corporal adecuado, se puede usar con precaución extrema y bajo supervisión médica estricta, iniciando con dosis bajas (por ejemplo, 50 mg cada 6 horas).",
+    "elderly": "Iniciar con dosis más bajas (por ejemplo, 25-50 mg cada 6-8 horas) debido a la disminución del aclaramiento renal y a una mayor sensibilidad a los efectos adversos. Ajustar lentamente.",
+    "renalImpairment": "Ajuste necesario. TFG 30-50 mL/min: Extender intervalo a cada 12 horas. TFG <30 mL/min: NO recomendado o usar con extrema precaución y dosis reducida (máx. 200 mg/día). Hemodiálisis: Se elimina parcialmente; suplementar después de la diálisis.",
+    "hepaticImpairment": "Contraindicado en insuficiencia hepática grave (Child-Pugh C). En cirrosis leve a moderada (Child-Pugh A o B): Dosis máxima de 50 mg cada 12 horas.",
+    "maxDose": "400 mg/día para pacientes sin factores de riesgo. En ciertos casos de dolor severo y bajo supervisión médica estrecha, se puede llegar a 600 mg/día, pero aumenta significativamente el riesgo de convulsiones."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta de liberación inmediata",
+      "strengths": [
+        "50 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Cápsula de liberación inmediata",
+      "strengths": [
+        "50 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tableta de liberación prolongada/controlada",
+      "strengths": [
+        "100 mg",
+        "150 mg",
+        "200 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tableta bucodispersable",
+      "strengths": [
+        "50 mg"
+      ],
+      "route": "Sublingual/Bucal"
+    },
+    {
+      "form": "Gotas orales (solución)",
+      "strengths": [
+        "100 mg/mL"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Ampolla inyectable",
+      "strengths": [
+        "50 mg/mL",
+        "100 mg/2mL"
+      ],
+      "route": "Intramuscular, Intravenosa lenta"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad al tramadol o a cualquier componente de la fórmula",
+      "Intoxicación aguda por alcohol, hipnóticos, analgésicos centrales u otros psicotrópicos",
+      "Uso concomitante de IMAOs (inhibidores de la monoaminooxidasa) o en las 2 semanas posteriores a su suspensión",
+      "Epilepsia no controlada",
+      "Insuficiencia hepática grave (Child-Pugh C)",
+      "Insuficiencia respiratoria grave",
+      "Riesgo de íleo paralítico"
+    ],
+    "relative": [
+      "Historial de convulsiones o epilepsia controlada",
+      "Traumatismo craneoencefálico o aumento de la presión intracraneal",
+      "Insuficiencia renal moderada-severa (ajustar dosis)",
+      "Insuficiencia hepática leve-moderada (ajustar dosis)",
+      "Pacientes mayores de 75 años",
+      "Embarazo (especialmente tercer trimestre)",
+      "Pacientes con riesgo de suicidio o dependencia a sustancias",
+      "Uso concomitante de otros depresores del SNC (benzodiacepinas, otros opioides)"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Náuseas",
+      "Mareos o vértigo",
+      "Somnolencia",
+      "Estreñimiento",
+      "Sudoración (hiperhidrosis)",
+      "Dolor de cabeza (cefalea)"
+    ],
+    "common": [
+      "Vómitos",
+      "Sequedad de boca (xerostomía)",
+      "Fatiga (astenia)",
+      "Prurito (picazón)",
+      "Confusión",
+      "Euforia o disforia"
+    ],
+    "uncommon": [
+      "Taquicardia, palpitaciones",
+      "Hipotensión ortostática (mareo al levantarse)",
+      "Temblores",
+      "Cambios de humor",
+      "Dificultad para orinar (retención urinaria)",
+      "Visión borrosa",
+      "Pérdida del apetito (anorexia)"
+    ],
+    "rare": [
+      "Convulsiones (riesgo mayor en dosis altas, sobredosis o con otros fármacos proconvulsivantes)",
+      "Depresión respiratoria (dificultad para respirar, especialmente en sobredosis o combinaciones)",
+      "Reacciones alérgicas graves (anafilaxia, angioedema)",
+      "Síndrome serotoninérgico (con otros fármacos que aumentan serotonina: confusión, agitación, fiebre, rigidez muscular)",
+      "Alucinaciones",
+      "Dependencia y síndrome de abstinencia al suspender bruscamente"
+    ],
+    "blackBoxWarning": "Advertencia de la FDA: Riesgo de uso indebido, adicción y abuso que puede llevar a sobredosis y muerte. Riesgo de depresión respiratoria potencialmente mortal. Riesgo de exposición accidental por parte de niños, que puede ser fatal. Riesgo de interacción con otros depresores del SNC (como benzodiacepinas) que aumenta el riesgo de coma y muerte. Riesgo de síndrome de abstinencia neonatal con uso durante el embarazo."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Benzodiacepinas (alprazolam, clonazepam, diazepam)",
+        "effect": "Depresión severa del SNC, riesgo de sedación profunda, depresión respiratoria, coma y muerte.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores de la MAO (fenelzina, selegilina, tranilcipromina)",
+        "effect": "Riesgo de crisis hipertensiva y síndrome serotoninérgico (agitación, fiebre, rigidez). Contraindicado.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores selectivos de la recaptación de serotonina (ISRS: fluoxetina, sertralina, paroxetina)",
+        "effect": "Aumento del riesgo de síndrome serotoninérgico.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Carbamazepina",
+        "effect": "Disminuye los niveles de tramadol al inducir su metabolismo (CYP3A4), reduciendo su efecto analgésico.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inhibidores de CYP2D6 (quinidina, fluoxetina, paroxetina)",
+        "effect": "Disminuyen la formación del metabolito activo M1, reduciendo el efecto analgésico opioide.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inhibidores de CYP3A4 (ketoconazol, claritromicina, ritonavir)",
+        "effect": "Aumentan los niveles de tramadol, incrementando el riesgo de efectos adversos y convulsiones.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Warfarina",
+        "effect": "El tramadol puede potenciar el efecto anticoagulante, aumentando el riesgo de sangrado. Se requiere monitoreo de INR.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "El alcohol está estrictamente contraindicado. Potencia los efectos depresores del SNC (somnolencia, mareo) y aumenta drásticamente el riesgo de depresión respiratoria y sobredosis fatal. Los alimentos grasos pueden retrasar ligeramente la absorción, pero no afectan significativamente su eficacia.",
+    "withSupplements": "Evitar suplementos que actúen sobre el SNC, como la hierba de San Juan (Hypericum perforatum), que puede interactuar con los sistemas de serotonina. Suplementos con propiedades sedantes (valeriana, kava, melatonina en dosis altas) pueden potenciar la somnolencia."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "C",
+      "recommendation": "Solo debe usarse durante el embarazo si el beneficio potencial justifica claramente el riesgo para el feto. Su uso prolongado en el tercer trimestre puede causar síndrome de abstinencia neonatal (irritabilidad, hiperactividad, llanto agudo, temblores, vómitos, diarrea) que puede requerir tratamiento. También existe riesgo de depresión respiratoria neonatal. Se debe evitar cerca del parto.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "El tramadol y su metabolito M1 se excretan en la leche materna en cantidades bajas. Se considera probablemente compatible con la lactancia en dosis terapéuticas ocasionales, pero con precaución. En madres que son metabolizadoras ultrarrápidas de CYP2D6, los niveles de M1 en leche pueden ser más altos, lo que podría causar sedación y depresión respiratoria en el lactante. Se recomienda evitar en madres con este perfil genético o usar la dosis efectiva más baja y monitorear al bebé por somnolencia, dificultad para alimentarse o respiración lenta.",
+    "pediatric": "No está aprobado para uso en niños menores de 12 años debido al riesgo de depresión respiratoria. No debe usarse para el tratamiento del dolor post-amigdalectomía o adenoidectomía en niños de cualquier edad. En adolescentes (12-18 años), usar con extrema precaución, especialmente si tienen obesidad, apnea obstructiva del sueño o enfermedad pulmonar grave, ya que son más susceptibles a la depresión respiratoria.",
+    "geriatric": "Los pacientes mayores de 65 años son más sensibles a los efectos del tramadol. Presentan mayor riesgo de mareos, somnolencia, confusión, caídas, estreñimiento severo y depresión respiratoria. Se debe iniciar con la dosis más baja posible (25-50 mg), aumentar lentamente y monitorear estrechamente. Ajustar dosis por la disminución de la función renal común en este grupo."
+  },
+  "administration": {
+    "howToTake": "Tomar exactamente como lo indique el médico. No aumentar la dosis ni la frecuencia sin consultar. Las tabletas/cápsulas de liberación inmediata se pueden tomar con o sin alimentos. Tragar enteras con un vaso de agua. Las tabletas de liberación prolongada/controlada NUNCA deben partirse, triturarse, masticarse o disolverse, ya que esto liberaría todo el medicamento de una vez, causando riesgo de sobredosis. Las gotas orales deben medirse con el cuentagotas proporcionado. Las tabletas bucodispersables se colocan en la lengua para que se disuelvan.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (15-30°C), protegido de la luz y la humedad. Mantener fuera del alcance y vista de los niños y mascotas, en un lugar seguro y preferentemente bajo llave, debido a su potencial de abuso.",
+    "specialInstructions": "No conducir vehículos ni operar maquinaria peligrosa hasta conocer cómo le afecta el medicamento, ya que causa somnolencia y mareo. Evitar cambios bruscos de postura para prevenir mareos por hipotensión. Para prevenir el estreñimiento, aumentar la ingesta de líquidos, fibra en la dieta y hacer ejercicio si es posible. Informar al médico si el dolor no mejora. NO suspender el tratamiento de forma brusca después de un uso prolongado, ya que puede causar síntomas de abstinencia (ansiedad, sudoración, insomnio, dolor). El médico indicará cómo reducir la dosis gradualmente."
+  },
+  "monitoring": {
+    "labTests": [
+      "Función renal (creatinina sérica, TFG)",
+      "Pruebas de función hepática (transaminasas, bilirrubina)",
+      "Conteo sanguíneo completo (CSC) en uso crónico",
+      "Niveles de serotonina (clínicamente, por síntomas)"
+    ],
+    "frequency": "Función renal y hepática: Al inicio del tratamiento y periódicamente (cada 6-12 meses) en uso crónico, o si hay sospecha de deterioro. Monitoreo clínico continuo de dolor, efectos adversos y signos de uso indebido.",
+    "signsToWatch": [
+      "Dificultad para respirar o respiración lenta/superficial",
+      "Somnolencia extrema o dificultad para despertar",
+      "Confusión, desorientación o alucinaciones",
+      "Convulsiones",
+      "Ritmo cardíaco acelerado o palpitaciones",
+      "Mareo intenso o desmayo al ponerse de pie",
+      "Estreñimiento severo o dolor abdominal",
+      "Signos de síndrome serotoninérgico: agitación, alucinaciones, fiebre, sudoración, temblores, rigidez muscular",
+      "Signos de dependencia: necesidad de aumentar la dosis, búsqueda compulsiva del medicamento"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Depresión respiratoria (respiración lenta, superficial o ausente, cianosis)",
+      "Somnolencia profunda que progresa a estupor o coma",
+      "Pupilas puntiformes (miosis)",
+      "Debilidad muscular y piel fría/húmeda",
+      "Hipotensión y bradicardia (frecuencia cardíaca lenta)",
+      "Convulsiones (riesgo particular con tramadol)"
+    ],
+    "treatment": "Es una EMERGENCIA MÉDICA. Llamar al 911 o acudir a urgencias. Medidas de soporte: Mantener vía aérea permeable, asistencia respiratoria (ventilación) si es necesario. Monitorización cardiaca. Carbón activado si la ingestión fue reciente. El antídoto específico es la NALOXONA, que revierte la depresión respiratoria por el componente opioide. Sin embargo, puede requerir dosis más altas o infusiones continuas de naloxona, ya que el efecto del tramadol es prolongado. Las convulsiones se tratan con benzodiacepinas (diazepam).",
+    "antidote": "Naloxona (Narcan)."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (receta controlada).",
+    "scheduleMexico": "Fracción III (Tres) de la Ley General de Salud. Sustancia sujeta a control especial con potencial de causar dependencia de grado moderado.",
+    "fdaApprovalYear": "1995 (para formulación de liberación inmediata)."
+  },
+  "brandsMexico": [
+    "Adolonta",
+    "Dolol",
+    "Tradonal",
+    "Tramacet (combinación con paracetamol)",
+    "Tramacip",
+    "Tramadol",
+    "Tramadol MK",
+    "Tramal",
+    "Tramahexal",
+    "Tramazin",
+    "Ultradol",
+    "Zaldiar (combinación con paracetamol)"
+  ],
+  "clinicalPearls": [
+    "El perfil de metabolismo por CYP2D6 es crucial: los metabolizadores ultrarrápidos pueden convertir más tramadol en el potente metabolito M1, teniendo mayor efecto analgésico pero también mayor riesgo de efectos adversos opioides (náuseas, depresión respiratoria). Los metabolizadores lentos tienen menor formación de M1, por lo que el alivio del dolor depende más del efecto sobre la serotonina/noradrenalina, pudiendo ser menos efectivo.",
+    "A diferencia de opioides puros como la morfina, el tramadol tiene un 'techo' para la depresión respiratoria, lo que significa que a dosis terapéuticas este riesgo es menor. Sin embargo, en sobredosis o combinado con otros depresores, el riesgo es alto y real.",
+    "El riesgo de convulsiones es dosis-dependiente y se potencia significativamente con el uso concomitante de antidepresivos (ISRS, IRSN), antipsicóticos, bupropión y otros fármacos que reducen el umbral convulsivo. Nunca exceder la dosis máxima de 400 mg/día sin evaluación cuidadosa."
+  ],
+  "patientCounseling": "Este es un medicamento fuerte para el dolor que solo debe usar bajo la estricta supervisión de su médico. Tómelo exactamente como se lo recetaron, nunca aumente la dosis ni lo tome con más frecuencia. Puede causar mucho sueño y mareo, así que no maneje ni use herramientas peligrosas hasta que sepa cómo le afecta. Evite por completo el alcohol mientras lo toma, es una combinación muy peligrosa. Para ayudar con el estreñimiento, tome mucha agua, coma frutas, verduras y fibra. Guárdelo en un lugar seguro, lejos del alcance de niños y de otras personas. Si siente que le falta el aire, está muy confundido, tiene temblores fuertes o convulsiones, busque atención médica de inmediato. No lo suspenda de golpe si lo ha estado tomando por mucho tiempo; su médico le dirá cómo dejarlo poco a poco para evitar malestar.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor moderado",
+        "slug": "dolor-moderado"
+      },
+      {
+        "name": "Dolor severo",
+        "slug": "dolor-severo"
+      },
+      {
+        "name": "Dolor postoperatorio",
+        "slug": "dolor-postoperatorio"
+      },
+      {
+        "name": "Dolor cronico",
+        "slug": "dolor-cronico"
+      },
+      {
+        "name": "Dolor oncologico",
+        "slug": "dolor-oncologico"
+      },
+      {
+        "name": "Dolor musculoesqueletico",
+        "slug": "dolor-musculoesqueletico"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Osteoartritis (Artrosis) dolorosa",
+        "slug": "osteoartritis-artrosis"
+      },
+      {
+        "name": "Neuropatia diabetica dolorosa",
+        "slug": "neuropatia-diabetica"
+      },
+      {
+        "name": "Dolor postquirurgico",
+        "slug": "dolor-postquirurgico"
+      },
+      {
+        "name": "Cancer con dolor",
+        "slug": "cancer-con-dolor"
+      },
+      {
+        "name": "Lumbalgia severa",
+        "slug": "lumbalgia-severa"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Dependencia a opioides",
+        "slug": "dependencia-a-opioides"
+      },
+      {
+        "name": "Sindrome serotoninergico",
+        "slug": "sindrome-serotoninergico"
+      },
+      {
+        "name": "Depresion respiratoria",
+        "slug": "depresion-respiratoria"
+      },
+      {
+        "name": "Ileo paralitico",
+        "slug": "ileo-paralitico"
+      },
+      {
+        "name": "Convulsiones",
+        "slug": "convulsiones"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Serotonina",
+        "slug": "serotonina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Noradrenalina",
+        "slug": "noradrenalina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Tiempo de Protrombina (TP)/INR",
+        "slug": "tiempo-de-protrombina-inr",
+        "effect": "Puede prolongar (aumentar)"
+      },
+      {
+        "name": "Transaminasas (ALT, AST)",
+        "slug": "transaminasas-alt-ast",
+        "effect": "Puede elevar (raro, hepatotoxicidad)"
+      },
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede alterar (por deshidratación/efecto renal indirecto)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Perfil de funcion renal",
+        "slug": "perfil-de-funcion-renal",
+        "reason": "Para ajustar la dosis y evitar acumulacion toxica."
+      },
+      {
+        "name": "Pruebas de funcion hepatica",
+        "slug": "pruebas-de-funcion-hepatica",
+        "reason": "Para evaluar la capacidad de metabolizar el farmaco y detectar hepatotoxicidad."
+      },
+      {
+        "name": "Conteo sanguineo completo (CSC)",
+        "slug": "conteo-sanguineo-completo-csc",
+        "reason": "Para monitorizar posibles efectos hematologicos raros en uso cronico."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediatrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de FG (EGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve el tramadol?",
+      "a": "El tramadol es un medicamento para aliviar el dolor moderado a severo, como el dolor después de una cirugía, el dolor por artrosis avanzada, el dolor de cáncer o el dolor de espalda intenso. Actúa en el cerebro y la médula espinal para bloquear la sensación de dolor."
+    },
+    {
+      "q": "¿El tramadol es adictivo?",
+      "a": "Sí, el tramadol tiene un potencial de causar dependencia física y psicológica, aunque se considera menor que el de opioides más fuertes como la morfina. Por esto es un medicamento controlado que requiere receta y debe usarse exactamente como lo indica el médico, sin aumentar la dosis ni la frecuencia."
+    },
+    {
+      "q": "¿Puedo tomar tramadol si tomo paracetamol o ibuprofeno?",
+      "a": "Sí, a menudo se combina con paracetamol (como en el medicamento Tramacet o Zaldiar) para un mejor efecto analgésico. Con ibuprofeno también se puede combinar, pero siempre bajo supervisión médica para no exceder las dosis máximas de cada medicamento y proteger el estómago y los riñones."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto el tramadol?",
+      "a": "Cuando se toma por boca en su forma normal (liberación inmediata), generalmente comienza a aliviar el dolor entre 30 minutos y 1 hora después de tomarlo."
+    },
+    {
+      "q": "¿El tramadol me puede dar sueño?",
+      "a": "Sí, la somnolencia y los mareos son efectos secundarios muy comunes. Es importante no conducir, operar maquinaria peligrosa o realizar actividades que requieran alerta hasta que sepa cómo le afecta el medicamento."
+    },
+    {
+      "q": "¿Puedo beber alcohol si estoy tomando tramadol?",
+      "a": "NO. El alcohol está estrictamente prohibido. La combinación potencia mucho los efectos depresores del sistema nervioso, aumentando drásticamente el riesgo de somnolencia profunda, dificultad para respirar, coma e incluso muerte por sobredosis."
+    },
+    {
+      "q": "¿El tramadol causa estreñimiento?",
+      "a": "Sí, el estreñimiento es un efecto secundario muy común. Para prevenirlo, se recomienda tomar suficiente agua, aumentar el consumo de fibra (frutas, verduras, cereales integrales) y hacer algo de ejercicio si es posible. Si persiste, consulte a su médico para que le indique un laxante adecuado."
+    },
+    {
+      "q": "¿Qué hago si se me olvidó una dosis?",
+      "a": "Tómela tan pronto como lo recuerde, pero si ya es casi la hora de la siguiente dosis, sáltese la que olvidó y continúe con su horario normal. NUNCA tome una dosis doble para compensar la olvidada, ya que aumenta el riesgo de efectos adversos graves."
+    },
+    {
+      "q": "¿Puedo tomar tramadol en el embarazo?",
+      "a": "Solo bajo estricta supervisión médica si el beneficio justifica el riesgo. Su uso prolongado, especialmente al final del embarazo, puede causar síndrome de abstinencia en el bebé al nacer. Siempre informe a su médico si está embarazada o planea estarlo."
+    },
+    {
+      "q": "¿El tramadol es lo mismo que la morfina?",
+      "a": "No, son diferentes. Ambos son opioides, pero la morfina es más potente y tiene un mayor riesgo de efectos secundarios graves como depresión respiratoria y dependencia. El tramadol tiene un mecanismo de acción adicional (aumenta serotonina) y se usa para dolor moderado-severo, no para el dolor más extremo donde se usa morfina."
+    },
+    {
+      "q": "¿Puedo partir las tabletas de tramadol?",
+      "a": "Las tabletas o cápsulas normales (liberación inmediata) SÍ se pueden partir si el médico lo indica para ajustar la dosis. Las tabletas de LIBERACIÓN PROLONGADA o CONTROLADA NUNCA deben partirse, triturarse o masticarse, ya que esto liberaría todo el medicamento de una vez, causando riesgo de sobredosis grave."
+    },
+    {
+      "q": "¿El tramadol sube o baja la presión arterial?",
+      "a": "Puede causar una baja de presión arterial, especialmente al ponerse de pie rápidamente (hipotensión ortostática), lo que provoca mareo o desmayo. También puede causar taquicardia (ritmo cardíaco acelerado) en algunos casos. Informe a su médico si tiene problemas de corazón o presión."
+    },
+    {
+      "q": "¿Cuánto tiempo puedo tomar tramadol?",
+      "a": "La duración del tratamiento depende del tipo de dolor. Para dolor agudo (postoperatorio), se usa por unos días. Para dolor crónico, se puede usar por más tiempo, pero el médico debe reevaluar periódicamente la necesidad, la dosis y los efectos adversos, buscando siempre la dosis más baja efectiva."
+    },
+    {
+      "q": "¿Qué pasa si tomo más tramadol del que me recetaron?",
+      "a": "Es una SOBREDOSIS, que es una EMERGENCIA MÉDICA. Los síntomas son dificultad para respirar, somnolencia extrema, confusión, piel fría y húmeda, y convulsiones. Llame al 911 o acuda a urgencias inmediatamente. El antídoto es la naloxona, pero requiere atención médica."
+    },
+    {
+      "q": "¿El tramadol interactúa con los antidepresivos?",
+      "a": "SÍ, y es una interacción GRAVE. Especialmente con los antidepresivos que aumentan la serotonina (como fluoxetina, sertralina, venlafaxina) y los IMAOs. La combinación aumenta mucho el riesgo del síndrome serotoninérgico, una condición peligrosa con fiebre, agitación, rigidez muscular y temblores. Siempre informe a su médico de TODOS los medicamentos que toma."
+    },
+    {
+      "q": "¿Por qué mi médico me pidió análisis de sangre antes de recetarme tramadol?",
+      "a": "Para revisar el funcionamiento de sus riñones e hígado. Si estos órganos no trabajan bien, el cuerpo no puede eliminar el medicamento correctamente, lo que lleva a que se acumule y cause efectos tóxicos. Los análisis ayudan al médico a elegir la dosis segura para usted."
+    },
+    {
+      "q": "¿El tramadol puede causar convulsiones?",
+      "a": "Sí, aunque es raro en dosis terapéuticas, el riesgo de convulsiones aumenta con dosis altas (por encima de 400 mg/día), en sobredosis, o si se combina con otros medicamentos que también bajan el umbral convulsivo (como algunos antidepresivos o antipsicóticos). Pacientes con historial de epilepsia deben usarlo con mucha precaución."
+    },
+    {
+      "q": "¿Qué es el metabolito M1 del tramadol y por qué es importante?",
+      "a": "El M1 (O-desmetiltramadol) es la sustancia en la que el hígado convierte parte del tramadol. Este M1 es el que tiene el fuerte efecto opioide para aliviar el dolor. La velocidad a la que su cuerpo produce M1 depende de sus genes (enzima CYP2D6), lo que explica por qué algunas personas sienten más alivio o más efectos secundarios que otras con la misma dosis."
+    },
+    {
+      "q": "¿Cómo se debe suspender el tramadol después de un uso prolongado?",
+      "a": "NUNCA se debe suspender de golpe. Después de un uso prolongado, el cuerpo se acostumbra a él y una suspensión brusca puede causar síndrome de abstinencia (ansiedad, sudoración, insomnio, náuseas, dolor). El médico debe diseñar un plan para reducir la dosis gradualmente (tapering) a lo largo de varios días o semanas, dependiendo de la dosis y el tiempo de uso."
+    },
+    {
+      "q": "¿En un paciente con dolor neuropático, por qué a veces se prefiere tramadol sobre otros opioides puros?",
+      "a": "Por su mecanismo de acción dual. El dolor neuropático responde no solo al bloqueo opioide (receptores mu), sino también al aumento de los neurotransmisores noradrenalina y serotonina en la médula espinal, que inhiben la transmisión del dolor. Este efecto adicional del tramadol lo hace una opción útil para ciertos tipos de dolor neuropático, como la neuropatía diabética dolorosa, donde a veces tiene mejor perfil de eficacia/riesgo que opioides puros en dosis equivalentes."
+    }
+  ]
+}

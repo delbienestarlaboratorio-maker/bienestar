@@ -1,0 +1,417 @@
+{
+  "name": "Hidromorfona",
+  "summary": "La hidromorfona es un medicamento analgésico opioide potente, derivado semisintético de la morfina. Se utiliza principalmente para el manejo del dolor intenso, agudo o crónico, que no responde adecuadamente a otros analgésicos menos potentes, como después de una cirugía mayor, en traumatismos graves, o en el dolor asociado al cáncer. Su importancia clínica radica en su alta potencia (aproximadamente 5 a 7 veces más potente que la morfina por vía oral) y su perfil farmacocinético que permite un inicio de acción relativamente rápido y una duración de efecto de alrededor de 4 a 6 horas en sus formulaciones de liberación inmediata. Es una herramienta fundamental en la escalera analgésica de la Organización Mundial de la Salud para el tratamiento del dolor moderado a severo, permitiendo mejorar significativamente la calidad de vida de los pacientes que sufren dolor incapacitante. Sin embargo, debido a su alto potencial de causar dependencia física y psicológica, su uso está estrictamente regulado en México y requiere receta médica especial (receta controlada) y una vigilancia estrecha por parte del profesional de la salud para balancear el beneficio analgésico con los riesgos de efectos adversos y uso indebido.",
+  "pharmacology": {
+    "mechanismOfAction": "La hidromorfona ejerce su efecto analgésico principal al unirse de forma agonista a los receptores mu (μ) opioides localizados principalmente en el sistema nervioso central (cerebro y médula espinal) y en menor medida en tejidos periféricos. Esta unión activa los receptores, lo que resulta en una inhibición de la liberación de neurotransmisores involucrados en la transmisión del dolor, como la sustancia P. Concretamente, bloquea la transmisión de las señales dolorosas a nivel de la médula espinal y altera la percepción emocional del dolor en áreas cerebrales como el tálamo y el sistema límbico. Además, activa vías descendentes inhibitorias que modulan el dolor. Su acción sobre otros receptores opioides (delta y kappa) es mínima. Este mecanismo no solo alivia la sensación de dolor, sino que también puede producir euforia, sedación y depresión respiratoria, efectos que están directamente relacionados con la dosis administrada.",
+    "pharmacologicClass": "Agonista opioide puro; Derivado semisintético de la morfina (derivado de la fenantrena); Analgésico narcótico.",
+    "therapeuticClass": "Analgésico opioide mayor; Anestésico y Analgesia perioperatoria.",
+    "absorption": "Se absorbe bien por vía oral, pero sufre un importante efecto de primer paso hepático, lo que reduce su biodisponibilidad oral a aproximadamente el 30-35% en comparación con la vía intravenosa. La administración oral con alimentos puede retrasar ligeramente la absorción, pero no afecta significativamente la cantidad total absorbida. Las formas de liberación inmediata alcanzan concentraciones plasmáticas máximas (Tmax) en aproximadamente 1 hora, mientras que las formulaciones de liberación prolongada (no disponibles en todas las marcas mexicanas) lo hacen en unas 6-8 horas.",
+    "distribution": "Se distribuye ampliamente por los tejidos corporales. Su volumen de distribución (Vd) es de aproximadamente 2.9 L/kg. Se une moderadamente a proteínas plasmáticas, en un rango del 8% al 19%. Cruza la barrera hematoencefálica y la placenta.",
+    "metabolism": "Se metaboliza extensamente en el hígado, principalmente mediante glucuronidación, formando el metabolito principal, hidromorfona-3-glucurónido (H3G), que es farmacológicamente inactivo como analgésico pero puede contribuir a efectos neuroexcitatorios como mioclonías en altas dosis o insuficiencia renal. La vía del citocromo P450 (CYP) juega un papel menor en su metabolismo, por lo que tiene menos interacciones farmacocinéticas significativas con inhibidores o inductores de CYP en comparación con otros opioides como el fentanilo o la oxicodona.",
+    "elimination": "La vida media de eliminación plasmática es de aproximadamente 2 a 3 horas en adultos con función renal y hepática normal. Se elimina principalmente por vía renal; alrededor del 75% de la dosis se excreta en orina en 24 horas, mayoritariamente como metabolitos glucuronoconjugados. Menos del 5% se excreta sin cambios en la orina. En pacientes con insuficiencia renal, la vida media puede prolongarse significativamente.",
+    "onsetOfAction": "Vía oral (liberación inmediata): 15 a 30 minutos. Vía intravenosa: 5 a 10 minutos. Vía subcutánea/intramuscular: 15 a 20 minutos.",
+    "durationOfAction": "Vía oral/intravenosa/subcutánea/intramuscular (liberación inmediata): 3 a 5 horas. Las formulaciones de liberación prolongada (si disponibles) pueden durar de 12 a 24 horas por dosis."
+  },
+  "indications": {
+    "approved": [
+      "Manejo del dolor moderado a severo, agudo o crónico (ej. postoperatorio, traumático).",
+      "Manejo del dolor oncológico severo, como parte de la escalera analgésica de la OMS.",
+      "Dolor severo que no responde a opioides menores o AINEs."
+    ],
+    "offLabel": [
+      "Dolor neuropático refractario, en combinación con otros fármacos (evidencia limitada).",
+      "Dispnea refractaria en pacientes con enfermedad pulmonar obstructiva crónica (EPOC) avanzada o cáncer terminal."
+    ]
+  },
+  "dosage": {
+    "adults": "Dosis inicial individualizada. Para opioide-naïve (sin tolerancia): Oral (liberación inmediata): 2 a 4 mg cada 4 a 6 horas según necesidad. Parenteral (IV/SC/IM): 0.2 a 0.6 mg cada 2 a 3 horas según necesidad. La conversión desde otros opioides debe hacerse con tablas de equivalencia y reduciendo la dosis calculada en un 25-50% por variabilidad interindividual. Para dolor crónico, se prefiere el uso de dosis alrededor del reloj con rescates para dolor irruptivo.",
+    "pediatric": "No es de primera elección en pediatría. Debe ser prescrito y manejado por especialistas. Dosis sugerida para niños >6 meses y >50 kg: Oral: 0.03-0.08 mg/kg cada 3-4 horas. IV/SC/IM: 0.015 mg/kg cada 3-6 horas según necesidad. Dosis máxima inicial no exceder 1-2 mg.",
+    "elderly": "Iniciar con dosis bajas (25-50% de la dosis inicial adulta estándar) debido a la disminución del aclaramiento, mayor sensibilidad a los efectos y mayor riesgo de efectos adversos (sedación, confusión, caídas). Titular lentamente.",
+    "renalImpairment": "Ajuste obligatorio. TFG 50-80 mL/min: considerar reducción de dosis inicial en 25%. TFG 10-50 mL/min: reducir dosis inicial en 50% y alargar intervalos. TFG <10 mL/min o diálisis: evitar o usar con extrema precaución, dosis mínimas y monitoreo estrecho por acumulación de metabolitos. No es dializable de manera significativa.",
+    "hepaticImpairment": "Reducir dosis inicial en 25-50% en insuficiencia hepática leve a moderada (Child-Pugh A o B). Evitar o usar con extrema precaución en insuficiencia hepática severa (Child-Pugh C) debido al riesgo de encefalopatía y acumulación.",
+    "maxDose": "No hay un límite máximo absoluto definido; la dosis se titula según la respuesta analgésica y la tolerancia del paciente. En uso crónico para dolor oncológico, las dosis pueden alcanzar cientos de mg al día. El límite lo marcan los efectos adversos intolerables, principalmente la depresión respiratoria."
+  },
+  "dosageForms": [
+    {
+      "form": "Tabletas de liberación inmediata",
+      "strengths": [
+        "2 mg",
+        "4 mg",
+        "8 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Cápsulas de liberación prolongada",
+      "strengths": [
+        "8 mg",
+        "12 mg",
+        "16 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Solución oral",
+      "strengths": [
+        "1 mg/mL"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Ampollas inyectables",
+      "strengths": [
+        "2 mg/mL",
+        "10 mg/mL"
+      ],
+      "route": "Intravenosa, Intramuscular, Subcutánea"
+    },
+    {
+      "form": "Polvo liofilizado para solución inyectable",
+      "strengths": [
+        "250 mg"
+      ],
+      "route": "Intravenosa"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la hidromorfona o a cualquier componente de la formulación.",
+      "Depresión respiratoria significativa en ausencia de equipo de reanimación.",
+      "Asma bronquial aguda severa o EPOC con insuficiencia respiratoria hipercápnica.",
+      "Obstrucción intestinal paralítica o íleo.",
+      "Uso concomitante con inhibidores de la monoaminooxidasa (IMAOs) o dentro de los 14 días posteriores a su suspensión."
+    ],
+    "relative": [
+      "Lesión cerebral traumática, hipertensión intracraneal, tumores cerebrales (por riesgo de empeorar la presión intracraneal y enmascarar signos neurológicos).",
+      "Arritmias cardíacas.",
+      "Convulsiones o trastornos convulsivos.",
+      "Insuficiencia hepática o renal severa.",
+      "Hipotiroidismo o mixedema.",
+      "Hipertrofia prostática o estenosis uretral.",
+      "Adicción a opioides o alcoholismo activo.",
+      "Edad avanzada o estado debilitado.",
+      "Pancreatitis o colecistitis aguda."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Náuseas",
+      "Vómitos",
+      "Estreñimiento",
+      "Somnolencia (sedación)",
+      "Mareo",
+      "Prurito (picazón)"
+    ],
+    "common": [
+      "Sequedad de boca",
+      "Sudoración",
+      "Rubor facial (enrojecimiento)",
+      "Cefalea",
+      "Confusión",
+      "Euforia o disforia",
+      "Retención urinaria"
+    ],
+    "uncommon": [
+      "Alucinaciones",
+      "Visión borrosa",
+      "Hipotensión ortostática",
+      "Bradicardia",
+      "Espasmos musculares o mioclonías (sacudidas)",
+      "Depresión respiratoria (en dosis altas o en pacientes sensibles)"
+    ],
+    "rare": [
+      "Convulsiones (especialmente por acumulación de metabolitos en insuficiencia renal)",
+      "Reacciones alérgicas (rash, urticaria, angioedema)",
+      "Síndrome de serotonina (si se combina con otros serotonérgicos)",
+      "Dependencia física y psicológica"
+    ],
+    "blackBoxWarning": "Advertencia de caja negra de la FDA: Riesgo de uso indebido, adicción y sobredosis que puede llevar a la muerte. La hidromorfona expone a usuarios y otras personas al riesgo de adicción, abuso y uso indebido, lo que puede resultar en sobredosis y muerte. Se debe evaluar el riesgo de cada paciente antes de la prescripción y monitorear regularmente. La administración concomitante con benzodiacepinas u otros depresores del SNC resulta en sedación profunda, depresión respiratoria, coma y muerte. Se debe reservar para uso en pacientes para quienes no existen opciones de tratamiento alternativas."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Benzodiacepinas (alprazolam, diazepam)",
+        "effect": "Depresión aditiva del SNC y respiratoria, riesgo extremo de sedación profunda, coma y muerte.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Alcohol (etanol)",
+        "effect": "Depresión aditiva del SNC, mayor riesgo de sedación, mareo y depresión respiratoria potencialmente fatal.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Otros opioides (morfina, fentanilo, oxicodona)",
+        "effect": "Efectos aditivos, aumentando el riesgo de toxicidad por opioides (depresión respiratoria, sedación profunda).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores de la MAO (fenelzina, selegilina)",
+        "effect": "Puede precipitar una crisis serotoninérgica o una reacción adrenérgica (hipertensión severa, hiperpirexia, convulsiones). Contraindicado.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Antidepresivos tricíclicos (amitriptilina), ISRS (fluoxetina)",
+        "effect": "Mayor riesgo de síndrome serotoninérgico (confusión, hipertermia, rigidez muscular) y potenciación de la depresión del SNC.",
+        "severity": "Moderada/Grave"
+      }
+    ],
+    "withFood": "El alcohol está absolutamente contraindicado por el riesgo de depresión respiratoria fatal. Los alimentos grasos pueden retrasar ligeramente la absorción de las formas orales, pero no de manera clínicamente significativa. Se puede tomar con o sin alimentos para reducir molestias gástricas.",
+    "withSupplements": "Precaución con suplementos que depriman el SNC como la kava, la valeriana o la hierba de San Juan (Hypericum perforatum), ya que esta última puede reducir los niveles de opioides por inducción enzimática. Suplementos con propiedades anticolinérgicas (como la belladona en algunos remedios herbales) pueden empeorar el estreñimiento y la retención urinaria."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "C",
+      "recommendation": "Solo debe usarse durante el embarazo si el beneficio potencial justifica claramente el riesgo para el feto. Su uso prolongado puede causar síndrome de abstinencia neonatal (NAS) caracterizado por irritabilidad, llanto excesivo, temblores, vómitos y problemas respiráticos, que requiere manejo hospitalario. No se recomienda su uso durante el trabajo de parto, ya que puede causar depresión respiratoria neonatal.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La hidromorfona se excreta en la leche materna en cantidades bajas. Se debe usar con extrema precaución en madres lactantes, ya que puede causar sedación, dificultad para alimentarse y depresión respiratoria en el lactante. Se recomienda monitorizar al bebé por somnolencia excesiva, dificultad para respirar o letargo. Si se usa, se debe administrar la dosis efectiva más baja y evitar la lactancia durante los picos de concentración (2-4 horas después de la dosis oral).",
+    "pediatric": "La seguridad y eficacia en niños menores de 18 años no están completamente establecidas para todas las indicaciones. Su uso debe estar restringido a situaciones donde los beneficios superen los riesgos, bajo supervisión de un especialista en dolor pediátrico o anestesiólogo, y con dosis cuidadosamente calculadas por peso.",
+    "geriatric": "Los pacientes mayores de 65 años son más sensibles a los efectos de los opioides. Presentan mayor riesgo de sedación, confusión, delirio, caídas, estreñimiento severo y depresión respiratoria. Se debe iniciar con dosis bajas (por ejemplo, 1 mg cada 6-8 horas en liberación inmediata) y titular muy lentamente. Monitorear estrechamente la función renal."
+  },
+  "administration": {
+    "howToTake": "Tabletas/Cápsulas: Tragar enteras con un vaso lleno de agua. NO triturar, masticar o disolver las cápsulas/tabletas de liberación prolongada, ya que puede causar una liberación masiva y una sobredosis fatal. Tomar exactamente como lo indique el médico, a intervalos regulares para el dolor crónico, o según sea necesario para el dolor agudo. No aumentar la dosis ni la frecuencia sin consultar al médico. Para el estreñimiento, se recomienda iniciar un laxante estimulante (como senósidos) y un ablandador de heces (como docusato) de forma profiláctica.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (15-30°C), protegido de la luz y la humedad. Mantener fuera del alcance y vista de niños y mascotas, preferentemente bajo llave. No almacenar en el baño. Desechar cualquier medicamento vencido o que ya no se necesite de manera segura (entregar en puntos de recolección de medicamentos).",
+    "specialInstructions": "NUNCA comparta este medicamento con otra persona, incluso si tienen síntomas similares. Es un delito federal en México. Informe a todos sus médicos, dentistas y farmacéuticos que está tomando hidromorfona. Lleve una tarjeta de identificación que indique que usa este opioide. Evite conducir, operar maquinaria pesada o realizar actividades que requieran alerta hasta que conozca cómo le afecta el medicamento. No suspenda bruscamente después de un uso prolongado, ya que puede provocar síntomas de abstinencia (ansiedad, sudoración, náuseas, dolor)."
+  },
+  "monitoring": {
+    "labTests": [
+      "Función renal (creatinina sérica, TFG)",
+      "Función hepática (transaminasas, bilirrubina)",
+      "Conteo sanguíneo completo (CSC) en uso crónico"
+    ],
+    "frequency": "Evaluación inicial completa, luego cada 3-6 meses en uso crónico, o según cambios clínicos. Monitoreo de signos vitales (frecuencia respiratoria, saturación de oxígeno) especialmente al inicio y con incrementos de dosis.",
+    "signsToWatch": [
+      "Frecuencia respiratoria menor a 12 respiraciones por minuto o superficial.",
+      "Somnolencia extrema o dificultad para despertar (sedación excesiva).",
+      "Confusión, alucinaciones o agitación.",
+      "Mareo intenso o desmayos al ponerse de pie.",
+      "Ausencia de evacuaciones intestinales por más de 3 días.",
+      "Dificultad para orinar.",
+      "Hinchazón de cara, labios o lengua (signo de alergia).",
+      "Latidos cardíacos muy lentos."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Depresión respiratoria (respiración lenta y superficial, cianosis, paro respiratorio).",
+      "Somnolencia extrema progresando a estupor o coma.",
+      "Pupilas puntiformes (miosis).",
+      "Hipotensión severa y bradicardia.",
+      "Piel fría y húmeda.",
+      "Muerte por paro cardiorrespiratorio."
+    ],
+    "treatment": "Es una EMERGENCIA MÉDICA. Llamar al 911 o acudir a urgencias. El tratamiento es de soporte, con énfasis en el restablecimiento de la ventilación. El antídoto específico es la NALOXONA, que se administra por vía intravenosa, intramuscular, subcutánea o intranasal. Pueden requerirse múltiples dosis debido a la vida media más larga de la hidromorfona. Se requiere monitorización continua por varias horas por riesgo de rebote.",
+    "antidote": "Naloxona (Narcan, Nalone)."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica controlada (receta especial para psicotrópicos o estupefacientes, color rojo en México). No es de venta libre.",
+    "scheduleMexico": "Lista II (Estupefacientes) de la Ley General de Salud. Su prescripción, dispensación y posesión están estrictamente reguladas.",
+    "fdaApprovalYear": "1984 (para formulaciones orales de liberación inmediata)."
+  },
+  "brandsMexico": [
+    "Dilaudid",
+    "Hydromorph Contin (liberación prolongada)",
+    "Hidromorfona Genfar",
+    "Hidromorfona PiSA",
+    "Hidromorfona Liomont",
+    "Hidromorfona Rimsa"
+  ],
+  "clinicalPearls": [
+    "La hidromorfona es una excelente alternativa a la morfina en pacientes con insuficiencia renal leve-moderada, ya que su metabolito principal (H3G) es inactivo, a diferencia de la morfina-6-glucurónido. Sin embargo, en insuficiencia renal severa, igualmente se acumula y puede causar toxicidad.",
+    "El prurito (picazón) causado por hidromorfona es menos frecuente y severo que el causado por la morfina, lo que puede ser una ventaja en pacientes sensibles.",
+    "Para la rotación desde morfina oral a hidromorfona oral, la relación de equivalencia aproximada es 5:1 (5 mg de morfina oral ≈ 1 mg de hidromorfona oral). Siempre reducir la dosis calculada en un 25-50% por tolerancia incompleta cruzada.",
+    "La hidromorfona parenteral es aproximadamente 5 veces más potente que la oral, debido a la alta biodisponibilidad de la vía IV (100%) vs. oral (30-35%)."
+  ],
+  "patientCounseling": "Este es un medicamento muy fuerte para el dolor severo. Tómelo exactamente como se lo recetó su médico. No aumente la dosis ni la tome con más frecuencia, aunque el dolor persista, sin antes hablar con su médico. Puede causar somnolencia y mareo, así que evite manejar o usar maquinaria peligrosa. No lo combine NUNCA con alcohol, pastillas para dormir o medicamentos para la ansiedad, ya que puede dejar de respirar. Para prevenir el estreñimiento, beba mucha agua, coma fibra (frutas, verduras) y su médico probablemente le recetará un laxante. Si olvida una dosis, tómela tan pronto como lo recuerde, pero si es casi la hora de la siguiente, omita la olvidada y continúe con su horario normal. No tome dos dosis a la vez. Guarde el medicamento en un lugar seguro, lejos del alcance de niños y visitas. Si siente que le falta el aire, está muy somnoliento y no lo pueden despertar, o sus labios se ponen morados, es una EMERGENCIA, busque ayuda médica de inmediato.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor agudo severo",
+        "slug": "dolor-agudo-severo"
+      },
+      {
+        "name": "Dolor crónico oncológico",
+        "slug": "dolor-cronico-oncologico"
+      },
+      {
+        "name": "Dolor postoperatorio",
+        "slug": "dolor-postoperatorio"
+      },
+      {
+        "name": "Dispnea refractaria",
+        "slug": "disnea-refractaria"
+      },
+      {
+        "name": "Ansiedad por dolor",
+        "slug": "ansiedad-por-dolor"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Cáncer (para manejo del dolor)",
+        "slug": "cancer-dolor"
+      },
+      {
+        "name": "Traumatismo mayor",
+        "slug": "traumatismo-mayor"
+      },
+      {
+        "name": "Enfermedad terminal",
+        "slug": "enfermedad-terminal"
+      },
+      {
+        "name": "Postoperatorio de cirugía mayor",
+        "slug": "postoperatorio-cirugia-mayor"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Dependencia a opioides",
+        "slug": "dependencia-opioides"
+      },
+      {
+        "name": "Depresión respiratoria",
+        "slug": "depresion-respiratoria"
+      },
+      {
+        "name": "Estreñimiento crónico por opioides",
+        "slug": "estrenimiento-cronico-opioides"
+      },
+      {
+        "name": "Síndrome de abstinencia neonatal",
+        "slug": "sindrome-abstinencia-neonatal"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Frecuencia respiratoria",
+        "slug": "frecuencia-respiratoria",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Presión arterial",
+        "slug": "presion-arterial",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede disminuir (bradicardia)"
+      },
+      {
+        "name": "Nivel de conciencia",
+        "slug": "nivel-conciencia",
+        "effect": "Puede disminuir (sedación)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Creatinina sérica y TFG",
+        "slug": "creatinina-tfg",
+        "reason": "Para ajustar dosis en insuficiencia renal y prevenir toxicidad."
+      },
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-funcion-hepatica",
+        "reason": "Para ajustar dosis en insuficiencia hepática."
+      },
+      {
+        "name": "Pulsioximetría y gasometría arterial",
+        "slug": "pulsioximetria-gasometria",
+        "reason": "Para monitorizar depresión respiratoria en pacientes de riesgo."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La hidromorfona es lo mismo que la morfina?",
+      "a": "No, son medicamentos diferentes pero de la misma familia (opioides). La hidromorfona es más potente; aproximadamente 1 mg de hidromorfona por vía oral equivale a 5-7 mg de morfina oral. Su perfil de efectos secundarios puede ser ligeramente diferente."
+    },
+    {
+      "q": "¿Puedo tomar hidromorfona si solo tengo un dolor de cabeza fuerte?",
+      "a": "NO. La hidromorfona está reservada para dolores severos, como después de una cirugía grande, por cáncer o por un accidente grave. No está indicada para migrañas, dolores de cabeza comunes o dolores leves. Su uso inapropiado conlleva un alto riesgo de adicción y efectos graves."
+    },
+    {
+      "q": "Me da mucho sueño con la pastilla, ¿qué hago?",
+      "a": "La somnolencia es común al inicio. Evite actividades peligrosas como manejar. Informe a su médico. Este efecto suele disminuir después de unos días de uso continuo. Si la somnolencia es extrema (no lo pueden despertar) o persiste, contacte a su médico, puede necesitar un ajuste de dosis."
+    },
+    {
+      "q": "¿Puedo beber alcohol aunque sea una cerveza?",
+      "a": "ABSOLUTAMENTE NO. Combinar hidromorfona con alcohol, incluso en pequeñas cantidades, puede causar una depresión respiratoria grave (dejar de respirar), coma y la muerte. Es una de las combinaciones más peligrosas."
+    },
+    {
+      "q": "¿Qué hago si me olvido de tomar una dosis?",
+      "a": "Tómela tan pronto como lo recuerde. Sin embargo, si ya es casi la hora de su siguiente dosis programada, omita la dosis olvidada y continúe con su horario normal. NUNCA tome una dosis doble para compensar la olvidada, ya que puede causar una sobredosis."
+    },
+    {
+      "q": "¿La hidromorfona causa adicción?",
+      "a": "Sí, tiene un alto potencial de causar dependencia física y psicológica (adicción), especialmente si se usa por períodos prolongados o no según las indicaciones médicas. Por eso se vende con receta controlada especial y debe ser monitoreada de cerca por su médico."
+    },
+    {
+      "q": "¿Cómo puedo aliviar el estreñimiento que me causa?",
+      "a": "Es un efecto casi seguro. Su médico debe recetarle un laxante desde el primer día, por ejemplo, un ablandador de heces (docusato) y un estimulante (senósidos). Además, beba mucha agua (8 vasos al día), coma fibra (frutas, verduras, cereales integrales) y haga algo de ejercicio si puede."
+    },
+    {
+      "q": "¿Puedo partir o triturar las pastillas?",
+      "a": "Las tabletas de liberación INMEDIATA se pueden partir si tienen una ranura, para ajustar la dosis. Las cápsulas o tabletas de liberación PROLONGADA (como Hydromorph Contin) NUNCA deben triturarse, masticarse o abrirse. Hacerlo liberaría toda la medicina de golpe, pudiendo causar una sobredosis peligrosa."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Si es por la boca (tableta o líquido), empieza a aliviar el dolor en unos 15 a 30 minutos. Si es una inyección, puede ser en 5 a 15 minutos. El efecto máximo se siente en aproximadamente 1 hora."
+    },
+    {
+      "q": "¿Puedo tomar hidromorfona si estoy embarazada o planeando embarazarme?",
+      "a": "Solo bajo estricta supervisión médica si el beneficio justifica el riesgo. Puede causar daño al feto y, si se usa cerca del parto, el bebé puede nacer con síndrome de abstinencia (temblores, llanto, problemas para respirar). Informe a su médico inmediatamente si queda embarazada."
+    },
+    {
+      "q": "¿Interfiere con otros medicamentos que tomo?",
+      "a": "Sí, especialmente con pastillas para dormir, ansiolíticos (como alprazolam), relajantes musculares, algunos antidepresivos y medicamentos para la alergia que causan sueño. Informe a TODOS sus médicos y farmacéuticos que toma hidromorfona para evitar interacciones peligrosas."
+    },
+    {
+      "q": "¿Qué hago si siento que me falta el aire?",
+      "a": "Es un signo de ALERTA MÁXIMA. Si su respiración se vuelve lenta (menos de 12 respiraciones por minuto), superficial o siente que no puede tomar aire, BUSQUE ATENCIÓN MÉDICA DE EMERGENCIA INMEDIATAMENTE (llame al 911). Puede ser depresión respiratoria, un efecto grave de sobredosis."
+    },
+    {
+      "q": "¿Puedo dejar de tomar la hidromorfona de golpe si ya no me duele?",
+      "a": "NO, especialmente si la ha estado tomando por más de unas pocas semanas. Suspenderla bruscamente puede causar síntomas de abstinencia: ansiedad, sudoración, náuseas, diarrea, dolor muscular y escalofríos. Su médico le dará un plan para reducir la dosis gradualmente (desintoxicación)."
+    },
+    {
+      "q": "¿La hidromorfona me puede dar comezón (prurito)?",
+      "a": "Sí, es un efecto secundario común, aunque menos intenso que con la morfina. Informe a su médico. A veces se controla con antihistamínicos como la hidroxicina, pero estos también pueden aumentar la somnolencia."
+    },
+    {
+      "q": "¿Es normal sentir mareos al pararse?",
+      "a": "Sí, puede causar hipotensión ortostática (baja de presión al ponerse de pie), lo que provoca mareo o aturdimiento. Levántese lentamente de la cama o de una silla. Si los mareos son severos o se desmaya, informe a su médico."
+    },
+    {
+      "q": "¿Puedo viajar en avión con mi medicamento?",
+      "a": "Sí, pero lleve la receta médica original (la controlada, color rojo) y el medicamento en su envase original con su nombre. Guárdelo en su equipaje de mano, no en la maleta documentada. Informarse de las regulaciones del país de destino, ya que es un estupefaciente."
+    },
+    {
+      "q": "¿Qué pasa si tomo más de la dosis que me recetaron?",
+      "a": "Está tomando una SOBREDOSIS, que puede ser MORTAL. Los síntomas son sueño extremo, confusión, respiración lenta o ausente, piel fría y húmeda, y pupilas muy pequeñas. Es una emergencia médica. Llame al 911 o acuda al hospital más cercano. El antídoto es la naloxona."
+    },
+    {
+      "q": "¿Para el dolor crónico, es mejor tomarla solo cuando duele o a horas fijas?",
+      "a": "Para el dolor crónico constante (como en cáncer), el médico generalmente prescribe una dosis 'de base' que se toma a horas fijas (cada 8, 12 o 24 horas, según la formulación) para mantener un nivel constante de alivio. Además, puede recetar una dosis más baja 'de rescate' para los brotes de dolor que aparecen entre las dosis fijas."
+    },
+    {
+      "q": "¿La hidromorfona afecta los riñones o el hígado?",
+      "a": "No daña directamente estos órganos, pero si usted ya tiene problemas renales o hepáticos, la medicina se puede acumular en su cuerpo y causar más efectos secundarios o una sobredosis. Por eso su médico le pide análisis de sangre para ajustar la dosis de manera segura."
+    },
+    {
+      "q": "Mi familiar con cáncer terminal tiene mucho dolor, ¿puedo darle de mi hidromorfona para ayudarlo?",
+      "a": "NUNCA. Es ilegal y extremadamente peligroso. La dosis debe ser calculada específicamente para cada paciente por un médico, considerando su peso, edad, función renal y tolerancia. Darle su medicamento a otra persona puede causarle una sobredosis fatal. El familiar debe ser evaluado por un médico para recibir su propia prescripción adecuada."
+    }
+  ]
+}

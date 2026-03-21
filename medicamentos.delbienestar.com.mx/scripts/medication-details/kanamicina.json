@@ -1,0 +1,401 @@
+{
+  "name": "Kanamicina",
+  "summary": "La Kanamicina es un antibiótico potente del grupo de los aminoglucósidos, utilizado principalmente para tratar infecciones graves causadas por bacterias sensibles. Es especialmente importante en infecciones del tracto urinario, infecciones intraabdominales, septicemia (infección en la sangre) y como parte del tratamiento de la tuberculosis resistente a otros medicamentos. Su uso requiere supervisión médica estricta debido a que puede causar efectos secundarios graves en los riñones y el oído, por lo que generalmente se reserva para situaciones hospitalarias donde se puede monitorear al paciente de cerca. Es un medicamento que salva vidas cuando las opciones de antibióticos más seguras no son efectivas.",
+  "pharmacology": {
+    "mechanismOfAction": "La Kanamicina actúa uniéndose de manera irreversible a la subunidad 30S del ribosoma bacteriano, que es una estructura dentro de la bacteria encargada de fabricar proteínas. Al unirse allí, bloquea el proceso de síntesis de proteínas, impidiendo que la bacteria lea correctamente el código genético (ARN mensajero). Esto provoca que la bacteria produzca proteínas defectuosas o incompletas, lo que finalmente lleva a su muerte. Este mecanismo es bactericida, es decir, mata a las bacterias, y es más efectivo contra bacterias que están multiplicándose activamente. Su acción es concentración-dependiente, lo que significa que una dosis alta administrada una vez al día suele ser más efectiva y puede tener menos toxicidad.",
+    "pharmacologicClass": "Antibiótico aminoglucósido. Derivado de Streptomyces kanamyceticus.",
+    "therapeuticClass": "Antibiótico bactericida de amplio espectro.",
+    "absorption": "La absorción por vía oral es muy pobre (menos del 1%), por lo que no se usa para tratar infecciones sistémicas de esta manera. Se administra por vía intramuscular (inyección en el músculo) o intravenosa (en la vena) para lograr niveles adecuados en la sangre. Después de una inyección intramuscular, los niveles máximos en sangre se alcanzan en aproximadamente 1 hora.",
+    "distribution": "Se distribuye ampliamente en los líquidos extracelulares del cuerpo, pero penetra pobremente en el líquido cefalorraquídeo (el líquido que rodea el cerebro y la médula espinal), a menos que haya inflamación de las meninges (meningitis). Atraviesa la placenta y puede encontrarse en la leche materna. Su unión a proteínas plasmáticas es baja, generalmente menor al 10%. Su volumen de distribución (Vd) es similar al del agua extracelular, aproximadamente 0.2-0.3 L/kg.",
+    "metabolism": "La Kanamicina no sufre metabolismo hepático significativo. No es sustrato de las enzimas del citocromo P450 (CYP). Se elimina prácticamente sin cambios por el riñón.",
+    "elimination": "Se elimina casi exclusivamente por filtración glomerular en los riñones. Su vida media en personas con función renal normal es de aproximadamente 2 a 3 horas. En pacientes con insuficiencia renal grave, esta vida media puede prolongarse significativamente (hasta 60-90 horas), aumentando enormemente el riesgo de toxicidad. Menos del 1% se elimina por vías no renales.",
+    "onsetOfAction": "Los niveles antibacterianos en sangre comienzan a ser efectivos poco después de la administración intravenosa o intramuscular, con un inicio de acción rápido (minutos a una hora).",
+    "durationOfAction": "Su efecto bactericida es prolongado (efecto post-antibiótico), lo que permite en muchos casos dosificaciones de una vez al día. La duración del efecto clínico depende de la concentración alcanzada y de la sensibilidad de la bacteria."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones graves por bacterias gramnegativas sensibles (Ej. Escherichia coli, Klebsiella, Proteus, Enterobacter, Serratia).",
+      "Sepsis (infección en la sangre) y bacteriemia.",
+      "Infecciones intraabdominales graves (peritonitis).",
+      "Infecciones del tracto respiratorio inferior (neumonía nosocomial).",
+      "Infecciones complicadas del tracto urinario (pielonefritis).",
+      "Como fármaco de segunda línea en el tratamiento de la tuberculosis multidrogorresistente (TB-MDR).",
+      "Profilaxis de infección en cirugía colorectal."
+    ],
+    "offLabel": [
+      "Tratamiento de infecciones por micobacterias atípicas.",
+      "Irrigación intraperitoneal en peritonitis.",
+      "Uso tópico en soluciones para heridas (muy limitado)."
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis estándar es de 15 mg/kg de peso corporal por día, administrada en una sola dosis diaria (preferible) o dividida en 2-3 dosis. Para infecciones muy graves, la dosis puede iniciarse en 5-7.5 mg/kg cada 12 horas. La dosis MÁXIMA no debe exceder 1.5 gramos por día, independientemente del peso, para minimizar toxicidad. La duración del tratamiento generalmente no excede 7-14 días.",
+    "pediatric": "Lactantes y niños: 15-30 mg/kg/día, administrados en 2-3 dosis divididas. Recién nacidos: Dosis de carga de 10 mg/kg, seguida de 7.5 mg/kg cada 12 horas. La dosificación en niños requiere un cálculo MUY PRECISO basado en el peso corporal y la función renal.",
+    "elderly": "Los adultos mayores suelen tener una función renal disminuida, por lo que la dosis DEBE ajustarse según la Tasa de Filtración Glomerular (TFG) estimada. Se recomienda iniciar con dosis más bajas y monitorear niveles en sangre.",
+    "renalImpairment": "El ajuste es CRÍTICO. Se utiliza la fórmula: Dosis ajustada = Dosis normal × (TFG del paciente / TFG normal). TFG >50 mL/min: Dosis estándar. TFG 30-50 mL/min: Reducir dosis o aumentar intervalo (ej. cada 24-48h). TFG 10-30 mL/min: Administrar cada 48-72h. TFG <10 mL/min o diálisis: Administrar una dosis de carga y luego dosis según niveles en sangre. Se elimina eficazmente en diálisis.",
+    "hepaticImpairment": "No se requiere ajuste de dosis específico por insuficiencia hepática, ya que no se metaboliza en el hígado. Sin embargo, en pacientes con enfermedad hepática avanzada y ascitis, el volumen de distribución puede alterarse.",
+    "maxDose": "La dosis máxima diaria para adultos es de 1.5 gramos (1500 mg). En pacientes con obesidad, la dosis debe calcularse usando el peso corporal ajustado."
+  },
+  "dosageForms": [
+    {
+      "form": "Inyección (Solución inyectable)",
+      "strengths": [
+        "250 mg/mL (en ampolletas de 2 mL = 500 mg)",
+        "1 g en vial para reconstituir"
+      ],
+      "route": "Intramuscular, Intravenosa (infusión lenta)"
+    },
+    {
+      "form": "Polvo para solución oral",
+      "strengths": [
+        "1 g"
+      ],
+      "route": "Oral (solo para descontaminación intestinal)"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la Kanamicina o a otros aminoglucósidos (Ej. Gentamicina, Amikacina).",
+      "Miastenia gravis (puede agravar la debilidad muscular).",
+      "Bloqueo neuromuscular (ej. por anestésicos)."
+    ],
+    "relative": [
+      "Insuficiencia renal preexistente (requiere ajuste estricto y monitoreo).",
+      "Pérdida auditiva (hipoacusia) o trastornos del equilibrio (vestibulares).",
+      "Deshidratación (aumenta el riesgo de toxicidad renal).",
+      "Enfermedad de Parkinson (puede potenciar efectos neurológicos).",
+      "Uso concomitante con otros medicamentos nefrotóxicos u ototóxicos."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Dolor en el sitio de inyección."
+    ],
+    "common": [
+      "Nefrotoxicidad (daño renal): Aumento de creatinina y BUN en sangre, disminución del gasto urinario.",
+      "Ototoxicidad vestibular (afecta el equilibrio): Mareo, vértigo, náusea, vómito, nistagmo (movimiento involuntario de los ojos).",
+      "Ototoxicidad coclear (afecta la audición): Zumbido en los oídos (tinnitus), sensación de oídos tapados, pérdida de audición (especialmente para sonidos agudos)."
+    ],
+    "uncommon": [
+      "Bloqueo neuromuscular: Debilidad muscular, dificultad para respirar (parálisis respiratoria, especialmente con administración rápida IV).",
+      "Erupciones cutáneas, fiebre por droga.",
+      "Dolor de cabeza, parestesias (hormigueo)."
+    ],
+    "rare": [
+      "Anemia, leucopenia (disminución de glóbulos blancos), trombocitopenia (disminución de plaquetas).",
+      "Aumento de enzimas hepáticas (transaminasas).",
+      "Visión borrosa.",
+      "Síndrome de malabsorción (con uso oral prolongado)."
+    ],
+    "blackBoxWarning": "ADVERTENCIA DE CAJA NEGRA: La Kanamicina puede causar toxicidad renal (nefrotoxicidad) y toxicidad en el oído (ototoxicidad), que puede ser irreversible. El riesgo es mayor en pacientes con función renal alterada, en tratamientos prolongados, con dosis altas, o cuando se usa con otros medicamentos tóxicos para el riñón o el oído. También puede causar bloqueo neuromuscular y parálisis respiratoria. Se requiere monitoreo de función renal y de la audición durante el tratamiento."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Diuréticos de asa (Furosemida, Ácido etacrínico)",
+        "effect": "Aumentan el riesgo de ototoxicidad (daño en el oído) de manera sinérgica y pueden potenciar la nefrotoxicidad.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Otros aminoglucósidos (Gentamicina, Amikacina, Tobramicina)",
+        "effect": "Uso concurrente aumenta enormemente el riesgo de nefrotoxicidad y ototoxicidad.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Polimixinas (Colistina)",
+        "effect": "Aumento del riesgo de nefrotoxicidad y bloqueo neuromuscular.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Vancomicina",
+        "effect": "Aumento del riesgo de nefrotoxicidad y ototoxicidad.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Cisplatino",
+        "effect": "Aumento del riesgo de nefrotoxicidad y ototoxicidad.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Relajantes musculares (Succinilcolina, Tubocurarina)",
+        "effect": "La Kanamicina puede potenciar el bloqueo neuromuscular, llevando a parálisis respiratoria prolongada.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "No hay interacciones significativas con alimentos cuando se administra por vía parenteral (inyección). Si se toma por vía oral (para descontaminación intestinal), se debe administrar con el estómago vacío (1 hora antes o 2 horas después de alimentos) para una mejor acción local. El consumo de alcohol no interfiere directamente, pero puede empeorar la deshidratación, aumentando el riesgo de toxicidad renal.",
+    "withSupplements": "Evitar el uso concomitante de suplementos que contengan magnesio por vía intravenosa, ya que pueden potenciar el bloqueo neuromuscular. Los probióticos pueden ser útiles para prevenir la diarrea asociada al uso oral, pero deben tomarse con al menos 2-3 horas de diferencia."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "D (FDA). Evidencia de riesgo fetal. Beneficio potencial solo si es vital para la madre.",
+      "recommendation": "Su uso durante el embarazo generalmente está contraindicado, a menos que sea absolutamente necesario para salvar la vida de la madre y no existan alternativas más seguras. Puede causar ototoxicidad (sordera) y nefrotoxicidad en el feto. Se requiere consejería exhaustiva.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La Kanamicina se excreta en pequeñas cantidades en la leche materna. Debido al potencial de efectos adversos graves en el lactante (alteración de la flora intestinal, riesgo teórico de sensibilización), generalmente se recomienda suspender la lactancia materna durante el tratamiento o utilizar leche de fórmula. Consultar con el médico.",
+    "pediatric": "Se puede usar en niños para infecciones graves, pero con EXTREMA PRECAUCIÓN y monitoreo aún más estricto. Los recién nacidos, especialmente los prematuros, tienen una función renal inmadura y una vida media más prolongada, requiriendo ajustes de dosis y intervalos específicos. La ototoxicidad puede ser más difícil de detectar.",
+    "geriatric": "Los pacientes mayores de 65 años tienen mayor riesgo de toxicidad debido a la disminución fisiológica de la función renal (TFG más baja), mayor volumen de distribución de grasa y posible deshidratación. Se debe iniciar con dosis más bajas, ajustar según TFG y monitorear de cerca la función renal y los signos de toxicidad vestibular (mareos, caídas)."
+  },
+  "administration": {
+    "howToTake": "La Kanamicina se administra casi siempre en un hospital por personal de salud. INTRAMUSCULAR: Se inyecta profundamente en un músculo grande (glúteo o muslo). INTRAVENOSA: Se diluye en solución salina o glucosada y se administra por infusión lenta durante 30 a 60 minutos. NUNCA se inyecta en bolo rápido (de golpe) por el riesgo de bloqueo neuromuscular. La vía ORAL solo se usa para descontaminación intestinal antes de cirugía y no se absorbe para tratar infecciones en el cuerpo.",
+    "storage": "Conservar los viales y ampolletas a temperatura ambiente (15-30°C), protegidos de la luz. Las soluciones reconstituidas para infusión intravenosa son estables por 24 horas a temperatura ambiente o 7 días si se refrigeran (2-8°C). No congelar.",
+    "specialInstructions": "Es IMPERATIVO mantenerse bien hidratado durante el tratamiento (a menos que el médico indique lo contrario por otra condición) para ayudar a proteger los riñones. Informar inmediatamente al médico si se presenta zumbido en los oídos, mareo, pérdida de audición, disminución en la cantidad de orina o hinchazón de pies/piernas. No se deben administrar vacunas vivas (como la oral contra la polio) durante el tratamiento, ya que puede disminuir su efectividad."
+  },
+  "monitoring": {
+    "labTests": [
+      "Creatinina sérica y BUN (antes de iniciar, cada 2-3 días durante el tratamiento, y después de finalizar).",
+      "Niveles séricos de Kanamicina (Valor valle y pico, especialmente en pacientes con insuficiencia renal o tratamientos prolongados).",
+      "Electrolitos séricos (Sodio, Potasio, Magnesio, Calcio).",
+      "Análisis de orina (para detectar proteinuria, cilindros).",
+      "Audiometría (prueba de audición) basal y periódica si el tratamiento es prolongado (>7 días).",
+      "Pruebas de función vestibular (en casos de mareo o vértigo persistentes)."
+    ],
+    "frequency": "Función renal: Al menos 2-3 veces por semana. Niveles en sangre: Según protocolo, generalmente se miden el valle (justo antes de la siguiente dosis) y el pico (30-60 minutos después de terminar la infusión IV). Audiometría: Al inicio y al final de tratamientos largos, o ante cualquier queja de audición.",
+    "signsToWatch": [
+      "Zumbido en los oídos (tinnitus) o sensación de oídos llenos.",
+      "Mareo, vértigo, pérdida del equilibrio, náuseas.",
+      "Disminución en la cantidad de orina u orina espumosa.",
+      "Hinchazón en pies, tobillos o cara.",
+      "Dificultad para respirar o debilidad muscular extrema.",
+      "Erupción cutánea o fiebre nueva."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Pérdida auditiva severa y súbita (sordera).",
+      "Vértigo incapacitante, náuseas y vómitos violentos.",
+      "Insuficiencia renal aguda (poca o ninguna orina).",
+      "Debilidad muscular generalizada, parálisis flácida, dificultad para respirar (paro respiratorio).",
+      "Convulsiones (raras)."
+    ],
+    "treatment": "No hay antídoto específico. El tratamiento es de soporte: 1) Suspender inmediatamente el medicamento. 2) Mantener la vía aérea y la respiración (puede requerir ventilación mecánica). 3) Hemodiálisis o diálisis peritoneal: Son MUY EFECTIVAS para eliminar la Kanamicina del torrente sanguíneo y deben considerarse en casos de sobredosis, especialmente si hay insuficiencia renal. 4) Medición de niveles séricos. 5) Hidratación para mantener el flujo urinario, evitando la sobrecarga de líquidos.",
+    "antidote": "No existe un antídoto químico específico para revertir la toxicidad por Kanamicina."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (receta retenida en farmacia hospitalaria en muchos casos). No es de venta libre.",
+    "scheduleMexico": "Medicamento de la Fracción III (Sustancias medicamentosas con potencial de causar dependencia moderada, o con efectos secundarios graves que requieren supervisión médica).",
+    "fdaApprovalYear": "Aprobado por la FDA en la década de 1950 (1958 aproximadamente)."
+  },
+  "brandsMexico": [
+    "Kanamicina Sulfato (genérico, varios laboratorios)",
+    "Kantrex (marca original, ya no tan común)",
+    "Kanabiol",
+    "Kanamytrex"
+  ],
+  "clinicalPearls": [
+    "La regla de oro con los aminoglucósidos es: 'Una vez al día es mejor' (dosis única diaria) para maximizar el efecto bactericida y minimizar la toxicidad, en pacientes con función renal normal.",
+    "La ototoxicidad (sordera) por Kanamicina suele ser IRREVERSIBLE. Educar al paciente para reportar inmediatamente cualquier síntoma auditivo.",
+    "Nunca administrar por la misma línea intravenosa que penicilinas (como la ampicilina), ya que pueden inactivarse mutuamente. Lavar la línea con solución salina entre medicamentos.",
+    "En pacientes con fibrosis quística, el volumen de distribución de los aminoglucósidos es mayor, por lo que a menudo se requieren dosis más altas para alcanzar niveles terapéuticos.",
+    "La nefrotoxicidad suele ser reversible si se detecta a tiempo y se suspende el fármaco, pero puede dejar daño residual en riñones ya comprometidos."
+  ],
+  "patientCounseling": "Este es un medicamento muy fuerte que se usa solo para infecciones graves, generalmente en el hospital. Es crucial que nos informe de inmediato si siente zumbido en los oídos, mareo como si todo diera vueltas, o si nota que oye menos. También debe avisar si orina mucho menos de lo normal o si se le hinchan los pies. Manténgase bien tomando agua, a menos que su doctor le haya dicho que limite líquidos por otra razón. Este medicamento puede afectar sus riñones y su audición de forma permanente, por eso es tan importante el monitoreo con análisis de sangre. No se automedique y complete el tratamiento exactamente como se lo indiquen, ni un día más ni un día menos.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre alta",
+        "slug": "fiebre-alta"
+      },
+      {
+        "name": "Dolor al orinar",
+        "slug": "disuria"
+      },
+      {
+        "name": "Dolor abdominal intenso",
+        "slug": "dolor-abdominal"
+      },
+      {
+        "name": "Escalofríos y sudoración",
+        "slug": "escalofrios-sudoracion"
+      },
+      {
+        "name": "Tos con flema purulenta",
+        "slug": "tos-flema"
+      },
+      {
+        "name": "Confusión o desorientación (en sepsis)",
+        "slug": "confusion-aguda"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Pielonefritis aguda",
+        "slug": "pielonefritis"
+      },
+      {
+        "name": "Sepsis o Shock séptico",
+        "slug": "sepsis"
+      },
+      {
+        "name": "Peritonitis",
+        "slug": "peritonitis"
+      },
+      {
+        "name": "Neumonía nosocomial",
+        "slug": "neumonia-hospitalaria"
+      },
+      {
+        "name": "Tuberculosis multidrogorresistente",
+        "slug": "tuberculosis-mdr"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Insuficiencia renal aguda",
+        "slug": "insuficiencia-renal-aguda"
+      },
+      {
+        "name": "Hipoacusia neurosensorial",
+        "slug": "perdida-audicion"
+      },
+      {
+        "name": "Vértigo periférico",
+        "slug": "vertigo"
+      },
+      {
+        "name": "Bloqueo neuromuscular",
+        "slug": "paralisis-flacida"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Nitrógeno ureico (BUN)",
+        "slug": "bun",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Magnesio sérico",
+        "slug": "magnesio",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Potasio sérico",
+        "slug": "potasio",
+        "effect": "Puede disminuir (hipokalemia)"
+      },
+      {
+        "name": "Proteína en orina",
+        "slug": "proteinuria",
+        "effect": "Puede elevar"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Tasa de Filtración Glomerular (TFG)",
+        "slug": "tfg-estimada",
+        "reason": "Esencial para ajustar la dosis y prevenir toxicidad renal."
+      },
+      {
+        "name": "Niveles séricos de aminoglucósidos (pico y valle)",
+        "slug": "niveles-aminoglucosidos",
+        "reason": "Monitoreo terapéutico para asegurar eficacia y minimizar toxicidad."
+      },
+      {
+        "name": "Audiometría tonal",
+        "slug": "audiometria",
+        "reason": "Para detectar ototoxicidad coclear temprana."
+      },
+      {
+        "name": "Urocultivo y Antibiograma",
+        "slug": "urocultivo-antibiograma",
+        "reason": "Para confirmar la bacteria causante y su sensibilidad a la Kanamicina."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La Kanamicina es una penicilina?",
+      "a": "No, para nada. La Kanamicina pertenece a un grupo de antibióticos completamente diferente llamado aminoglucósidos. Las penicilinas son más seguras y se usan primero; la Kanamicina se reserva para infecciones más graves o cuando las bacterias son resistentes a otros antibióticos."
+    },
+    {
+      "q": "¿Me la puedo tomar en casa en pastillas?",
+      "a": "No. La Kanamicina para infecciones graves viene solo en inyección (intramuscular o intravenosa) y se administra en un hospital o bajo supervisión médica muy estrecha. Existe una presentación oral, pero solo se usa para limpiar el intestino antes de una cirugía, no para curar infecciones en el cuerpo."
+    },
+    {
+      "q": "¿Por qué me piden tantos análisis de sangre mientras me la ponen?",
+      "a": "Porque este medicamento puede dañar los riñones. Los análisis de sangre (creatinina) nos dicen cómo están trabajando sus riñones. Si vemos que empiezan a fallar, podemos ajustar la dosis o suspender el medicamento a tiempo para evitar un daño permanente."
+    },
+    {
+      "q": "¿El zumbido en los oídos es normal? ¿Se me quitará?",
+      "a": "NO es normal y es una SEÑAL DE ALARMA MUY IMPORTANTE. Indica que el medicamento podría estar afectando su audición. Debe informarlo INMEDIATAMENTE a su médico o enfermera. La pérdida de audición por Kanamicina a menudo es irreversible, por eso hay que actuar rápido."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si me están inyectando Kanamicina?",
+      "a": "No se recomienda. Aunque no hay una interacción química directa, el alcohol puede deshidratarlo, y la deshidratación aumenta el riesgo de que el medicamento dañe sus riñones. Lo más seguro es evitar el alcohol durante el tratamiento."
+    },
+    {
+      "q": "¿Cuánto tiempo dura el tratamiento?",
+      "a": "Generalmente es corto, de 7 a 14 días como máximo. Los aminoglucósidos como la Kanamicina no se usan por periodos largos debido al riesgo acumulado de toxicidad. El médico decidirá la duración exacta basándose en su infección."
+    },
+    {
+      "q": "¿La Kanamicina sirve para la gripe o el COVID-19?",
+      "a": "No. La Kanamicina solo mata bacterias. La gripe y el COVID-19 son causados por virus, contra los cuales este antibiótico es completamente inútil. Usarlo para infecciones virales es un error y solo expone al paciente a sus efectos secundarios sin ningún beneficio."
+    },
+    {
+      "q": "¿Me puede dar diarrea?",
+      "a": "Es menos común que con otros antibióticos cuando se usa inyectada, porque no pasa por el intestino. Sin embargo, si se usa la forma oral para descontaminación intestinal, es muy probable que cause diarrea y altere la flora normal del intestino."
+    },
+    {
+      "q": "¿Qué hago si me mareo mucho después de la inyección?",
+      "a": "El mareo o vértigo (sensación de que todo da vueltas) es otro efecto secundario grave que afecta el equilibrio. No intente caminar solo. Quédese sentado o acostado y LLAME INMEDIATAMENTE a su médico. Puede ser necesario ajustar o suspender el tratamiento."
+    },
+    {
+      "q": "¿Puedo recibir la vacuna contra la influenza mientras estoy en tratamiento?",
+      "a": "Sí, puede recibir la vacuna contra la influenza (inyectada, que es de virus inactivado) sin problema. Sin embargo, debe evitar las vacunas con virus vivos atenuados (como la vacuna oral contra la fiebre amarilla o la triple viral en algunos casos) porque el antibiótico podría interferir con su efectividad. Consulte a su médico."
+    },
+    {
+      "q": "¿Es seguro en personas con diabetes?",
+      "a": "Se puede usar, pero con precaución adicional. La diabetes por sí sola puede dañar los riñones (nefropatía diabética). Por lo tanto, el monitoreo de la función renal debe ser aún más estricto. Además, las infecciones en diabéticos pueden ser más severas, justificando el uso de este antibiótico potente."
+    },
+    {
+      "q": "¿Qué pasa si olvidan ponerme una dosis en el hospital?",
+      "a": "En el hospital, el personal lleva un control estricto. Si por algún motivo se retrasa o se omite una dosis, NO se debe duplicar la dosis siguiente. Se administra la dosis olvidada tan pronto como se recuerde, y se reajusta el horario de las siguientes dosis. Es importante mantener el intervalo planeado entre dosis."
+    },
+    {
+      "q": "¿La Kanamicina afecta los métodos anticonceptivos?",
+      "a": "No hay evidencia de que la Kanamicina inyectada reduzca la efectividad de los anticonceptivos hormonales (pastillas, parches, inyecciones). Sin embargo, si causa vómitos o diarrea severos (efectos poco comunes), podría afectar la absorción de las pastillas anticonceptivas orales. Consulte con su ginecólogo sobre un método de respaldo."
+    },
+    {
+      "q": "¿Por qué a veces la ponen una vez al día y otras cada 8 o 12 horas?",
+      "a": "La tendencia moderna es usar una dosis más alta una vez al día porque es más efectiva para matar bacterias y puede ser menos tóxica para los riñones y el oído. El esquema de dosis múltiples (cada 8-12h) se puede usar en infecciones muy específicas, en pacientes con función renal alterada o en neonatos, donde la farmacocinética es diferente."
+    },
+    {
+      "q": "¿Qué es más fuerte, la Kanamicina o la Amikacina?",
+      "a": "La Amikacina suele ser más resistente a las enzimas que inactivan a los aminoglucósidos, por lo que es efectiva contra un rango más amplio de bacterias resistentes. Sin embargo, 'más fuerte' no siempre es mejor. La elección depende del antibiograma (prueba de sensibilidad) de la bacteria que causa la infección. Ambas son igualmente potentes y tóxicas."
+    },
+    {
+      "q": "¿Puede causar alergia?",
+      "a": "Sí, aunque es menos común que con las penicilinas. Puede causar erupciones en la piel, picazón o, en raros casos, una reacción alérgica grave (anafilaxia). Informe a su médico si es alérgico a otros aminoglucósidos como la Gentamicina."
+    },
+    {
+      "q": "¿Sirve para las infecciones de garganta por estreptococo?",
+      "a": "No es el tratamiento de primera elección. La faringitis estreptocócica se trata perfectamente con penicilinas o amoxicilina, que son más seguras. La Kanamicina se reserva para infecciones mucho más graves y no se usa para una simple infección de garganta."
+    },
+    {
+      "q": "¿Cómo se ajusta la dosis para una persona con sobrepeso u obesidad?",
+      "a": "Es crucial ajustar la dosis. Se usa el 'peso corporal ajustado' para el cálculo, no el peso real total. Esto evita dar una dosis excesiva. La fórmula es: Peso ajustado = Peso ideal + 0.4*(Peso real - Peso ideal). El médico o farmacéutico hará este cálculo."
+    },
+    {
+      "q": "¿La diálisis elimina la Kanamicina del cuerpo?",
+      "a": "Sí, la hemodiálisis la elimina muy eficazmente. Por eso, en casos de sobredosis o intoxicación grave, la diálisis es una parte clave del tratamiento. También, en pacientes en diálisis crónica, la dosis se administra generalmente después de una sesión de diálisis."
+    },
+    {
+      "q": "¿Cuáles son los niveles terapéuticos 'pico' y 'valle' que debe buscar el médico?",
+      "a": "Estos niveles en sangre guían la terapia. Para Kanamicina en dosis una vez al día: Nivel 'pico' (30 min post-infusión) deseado: 15-30 mg/L para infecciones graves. Nivel 'valle' (justo antes de la siguiente dosis) debe ser <1 mg/L para minimizar toxicidad. En esquemas de dosis múltiple, los niveles son diferentes. Estos valores pueden variar según el protocolo hospitalario."
+    }
+  ]
+}

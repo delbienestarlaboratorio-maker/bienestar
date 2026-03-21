@@ -1,0 +1,105 @@
+{
+  "paciente": "CABANAS TIEMPOS^JIMENA",
+  "estudio": "L SPINE",
+  "fecha": "20260309",
+  "equipo": "Carestream Health DRX-1",
+  "modalidad": "DX",
+  "region": "L SPINE",
+  "vista": "AP",
+  "variantes": [
+    {
+      "id": 1,
+      "nombre": "Original del Equipo",
+      "descripcion": "Imagen tal como la genera tu Carestream Health DRX-1. Sin procesamiento.",
+      "icono": "📷",
+      "archivo": "1_original.jpg",
+      "tag": "ORIGINAL",
+      "tag_class": "",
+      "norma": "Sin procesamiento — referencia base del detector"
+    },
+    {
+      "id": 2,
+      "nombre": "Suavizado Leve",
+      "descripcion": "CLAHE suave + reducción de ruido. Para tejidos blandos, edema, masas.",
+      "icono": "🌫️",
+      "archivo": "2_suavizado.jpg",
+      "tag": "SUAVE",
+      "tag_class": "soft",
+      "norma": "CLAHE 1.5 (16×16) + Gaussiano. Partes blandas"
+    },
+    {
+      "id": 3,
+      "nombre": "Estándar Clínico",
+      "descripcion": "CLAHE moderado sobre calibración Carestream Health DRX-1. Ideal para entrega al paciente.",
+      "icono": "⭐",
+      "archivo": "3_estandar.jpg",
+      "tag": "RECOMENDADO",
+      "tag_class": "rec",
+      "norma": "NOM-229-SSA1 — CLAHE 2.0 (8×8) sobre windowing Carestream Health DRX-1",
+      "recomendado": true
+    },
+    {
+      "id": 4,
+      "nombre": "Contraste Medio",
+      "descripcion": "Balance entre tejido blando y óseo. Mayor detalle que el estándar.",
+      "icono": "◑",
+      "archivo": "4_medio.jpg",
+      "tag": "MEDIO",
+      "tag_class": "",
+      "norma": "CLAHE 3.0 (8×8). Balance óseo-blando"
+    },
+    {
+      "id": 5,
+      "nombre": "Alto Contraste",
+      "descripcion": "Contraste agresivo. Para estudios óseos y calcificaciones.",
+      "icono": "🔆",
+      "archivo": "5_alto.jpg",
+      "tag": "FUERTE",
+      "tag_class": "bone",
+      "norma": "CLAHE 4.0 (4×4). Máximo contraste"
+    },
+    {
+      "id": 6,
+      "nombre": "Bordes Realzados",
+      "descripcion": "CLAHE fuerte + Unsharp. Para fracturas sutiles y cortical ósea.",
+      "icono": "🦴",
+      "archivo": "6_bordes.jpg",
+      "tag": "BORDES",
+      "tag_class": "bone",
+      "norma": "CLAHE 4.0 + Unsharp σ=2.0. Fracturas"
+    },
+    {
+      "id": 7,
+      "nombre": "Ecualización Completa",
+      "descripcion": "Ecualización de histograma global. Maximiza rango dinámico.",
+      "icono": "📊",
+      "archivo": "7_equalizado.jpg",
+      "tag": "HEQ",
+      "tag_class": "",
+      "norma": "Ecualización global (equalizeHist)"
+    },
+    {
+      "id": 8,
+      "nombre": "Negativo (Inversión)",
+      "descripcion": "Inversión + CLAHE. Para lesiones líticas, gas y cuerpos extraños.",
+      "icono": "🔄",
+      "archivo": "8_negativo.jpg",
+      "tag": "NEGATIVO",
+      "tag_class": "neg",
+      "norma": "Inversión + CLAHE 2.0. Lesiones líticas"
+    }
+  ],
+  "guia_impresion": {
+    "region": "L SPINE",
+    "placa": "14×17\"",
+    "vistas": 2,
+    "layout": "AP + Lateral juntas en UNA placa",
+    "orientacion": "Vertical",
+    "marcadores": "L/R obligatorio (NOM-229-SSA1)",
+    "instrucciones": "Columna: AP izquierda, Lateral derecha. Misma placa 14×17. Marcador L/R obligatorio.",
+    "nota": "Escoliosis: panorámica completa. Inestabilidad: funcionales flexión/extensión."
+  },
+  "dicom_source": "NGLQZYPU",
+  "generado_at": "2026-03-11T14:19:38.171038",
+  "norma_referencia": "NOM-229-SSA1-2002"
+}

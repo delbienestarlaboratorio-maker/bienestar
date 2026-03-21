@@ -1,0 +1,407 @@
+{
+  "name": "Panipenem/Betamipron",
+  "summary": "Panipenem/Betamipron es un antibiótico de la familia de los carbapenémicos, combinado con betamipron, un inhibidor de la secreción tubular renal. Se utiliza para tratar infecciones graves causadas por bacterias que son resistentes a otros antibióticos más comunes, como infecciones intraabdominales complicadas, neumonías graves, infecciones del tracto urinario complicadas y sepsis. Su importancia clínica radica en que es un antibiótico de 'último recurso' o de amplio espectro, reservado para situaciones donde otros tratamientos han fallado o cuando se sospecha de bacterias multirresistentes. El betamipron se incluye en la fórmula para proteger los riñones, reduciendo la posible toxicidad renal del panipenem al disminuir su concentración en el tejido renal. Esto permite administrar dosis efectivas contra la infección con un mejor perfil de seguridad. Es un medicamento crítico en hospitales para combatir infecciones potencialmente mortales.",
+  "pharmacology": {
+    "mechanismOfAction": "Panipenem es un antibiótico betalactámico de la subclase carbapenémicos. Su mecanismo de acción principal es inhibir la síntesis de la pared celular bacteriana. Se une a proteínas fijadoras de penicilina (PBP) en la membrana bacteriana, interfiriendo con la etapa final de la formación de la pared celular (transpeptidación). Esto debilita la pared, lleva a la lisis (ruptura) de la bacteria y a su muerte. Tiene un espectro de actividad muy amplio, cubriendo bacterias Gram-positivas, Gram-negativas (incluyendo Pseudomonas aeruginosa) y anaerobias. El betamipron no tiene actividad antibacteriana por sí mismo. Es un inhibidor competitivo de la secreción tubular renal orgánica aniónica. Bloquea la reabsorción y el transporte activo del panipenem en las células tubulares renales, reduciendo significativamente la acumulación del antibiótico en el riñón y, por lo tanto, disminuyendo el riesgo de nefrotoxicidad, que es un efecto adverso conocido de algunos carbapenémicos.",
+    "pharmacologicClass": "Antibiótico betalactámico carbapenémico (Panipenem) combinado con un inhibidor de la secreción tubular renal orgánica aniónica (Betamipron).",
+    "therapeuticClass": "Antibiótico sistémico de amplio espectro.",
+    "absorption": "No se absorbe por vía oral. Se administra exclusivamente por vía intravenosa (infusión lenta). La biodisponibilidad es del 100% tras la administración IV. La concentración plasmática máxima (Cmax) se alcanza al finalizar la infusión.",
+    "distribution": "Se distribuye ampliamente en la mayoría de los tejidos y fluidos corporales, incluyendo líquido pleural, peritoneal, bilis, esputo, líquido cefalorraquídeo (en presencia de inflamación meníngea), hueso, próstata y útero. El volumen de distribución (Vd) es de aproximadamente 0.2-0.3 L/kg, indicando una distribución principalmente en el espacio extracelular. La unión a proteínas plasmáticas es baja, menor al 10% para el panipenem.",
+    "metabolism": "El panipenem se metaboliza mínimamente en el hígado. La enzima principal involucrada es la dehidropeptidasa-I (DHP-I) renal, que hidroliza el anillo betalactámico, inactivando el fármaco. El betamipron inhibe esta enzima a nivel tubular, aumentando la estabilidad y la vida media del panipenem. No es un sustrato significativo del sistema citocromo P450 (CYP).",
+    "elimination": "Se elimina principalmente por vía renal, en forma inalterada (activa). La vida media de eliminación (t1/2) es de aproximadamente 1 hora en adultos con función renal normal. En pacientes con insuficiencia renal grave, la vida media puede prolongarse significativamente (hasta 5-6 horas). Más del 70% de la dosis se excreta en la orina en las primeras 6 horas. Una pequeña porción se excreta en la bilis.",
+    "onsetOfAction": "El inicio de la acción antibacteriana es rápido, comenzando durante la infusión intravenosa. Las concentraciones bactericidas en suero se alcanzan inmediatamente después del final de la infusión.",
+    "durationOfAction": "Su efecto es dependiente del tiempo (time-dependent killing). Para una eficacia óptima, se requiere que la concentración del fármaco en el sitio de la infección supere la concentración inhibitoria mínima (CIM) de la bacteria durante al menos el 40-50% del intervalo entre dosis. Por esto, se administra en infusiones múltiples al día (cada 6, 8 o 12 horas)."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones intraabdominales complicadas (peritonitis, abscesos intraabdominales)",
+      "Infecciones del tracto respiratorio inferior complicadas (neumonía nosocomial, neumonía asociada a ventilador)",
+      "Infecciones del tracto urinario complicadas (pielonefritis aguda, infecciones con sepsis)",
+      "Sepsis de origen bacteriano",
+      "Infecciones de piel y tejidos blandos complicadas (incluyendo infecciones postquirúrgicas, celulitis necrotizante)",
+      "Infecciones pélvicas (endometritis, sepsis puerperal)"
+    ],
+    "offLabel": [
+      "Tratamiento empírico de fiebre en pacientes neutropénicos (con cáncer en quimioterapia)",
+      "Meningitis bacteriana (cuando los patógenos son resistentes a cefalosporinas de 3ra generación)",
+      "Profilaxis de infección en cirugía colorectal de alto riesgo (en algunos protocolos)"
+    ]
+  },
+  "dosage": {
+    "adults": "Dosis estándar: 0.5 g (500 mg de Panipenem) cada 8 horas, por infusión intravenosa lenta (30-60 minutos). Para infecciones graves o causadas por Pseudomonas aeruginosa: 1.0 g (1000 mg de Panipenem) cada 8 horas. La dosis total diaria habitual es de 1.5 g a 3.0 g de Panipenem, dividida en 3 administraciones.",
+    "pediatric": "Para niños mayores de 3 meses: 20 mg/kg de peso corporal de Panipenem por dosis, administrado cada 8 horas. La dosis máxima por administración no debe exceder los 1.0 g (1000 mg). La dosis diaria total pediátrica es típicamente de 60 mg/kg/día, dividida en 3 dosis.",
+    "elderly": "Los pacientes de edad avanzada pueden tener una función renal disminuida. Se debe calcular la tasa de filtración glomerular (TFG) y ajustar la dosis según los rangos de insuficiencia renal. No se requiere un ajuste inicial basado solo en la edad si la TFG es >60 mL/min.",
+    "renalImpairment": "Ajustes basados en TFG (Clearance de Creatinina, CrCl): CrCl 30-60 mL/min: 0.5 g cada 12 horas. CrCl 10-30 mL/min: 0.5 g cada 24 horas. CrCl <10 mL/min o en diálisis: 0.25 g cada 24 horas, administrado después de la sesión de diálisis. Es fundamental el monitoreo de niveles si es posible.",
+    "hepaticImpairment": "No se requieren ajustes de dosis específicos para insuficiencia hepática leve a moderada, ya que la eliminación es predominantemente renal. En insuficiencia hepática grave, se debe usar con precaución y monitorear función hepática.",
+    "maxDose": "La dosis máxima diaria en adultos es de 3.0 g de Panipenem (es decir, 1.0 g cada 8 horas). En situaciones excepcionales de infecciones por cepas con CIM muy alta, bajo estricta supervisión médica y monitoreo de niveles, se han utilizado dosis ligeramente superiores."
+  },
+  "dosageForms": [
+    {
+      "form": "Polvo liofilizado para solución inyectable",
+      "strengths": [
+        "250 mg/250 mg (Panipenem/Betamipron)",
+        "500 mg/500 mg (Panipenem/Betamipron)"
+      ],
+      "route": "Intravenosa (Infusión lenta)"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad (alergia) conocida y grave al panipenem, a otros carbapenémicos (meropenem, imipenem, ertapenem), a otros antibióticos betalactámicos (penicilinas, cefalosporinas) o al betamipron.",
+      "Antecedentes de reacción anafiláctica a cualquier antibiótico betalactámico.",
+      "Administración concomitante con valproato sódico o ácido valproico (alto riesgo de convulsiones y disminución de los niveles de valproato)."
+    ],
+    "relative": [
+      "Insuficiencia renal severa (CrCl <10 mL/min) sin ajuste de dosis y monitoreo.",
+      "Antecedentes de trastornos del sistema nervioso central (epilepsia, lesiones cerebrales) debido al riesgo de convulsiones.",
+      "Pacientes con colitis pseudomembranosa o antecedentes de la misma.",
+      "Embarazo (solo usar si el beneficio justifica claramente el riesgo)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Diarrea (puede ser por alteración de la flora intestinal o indicar colitis pseudomembranosa)",
+      "Náuseas",
+      "Erupción cutánea (exantema maculopapular)"
+    ],
+    "common": [
+      "Vómitos",
+      "Dolor en el sitio de la inyección/flebitis",
+      "Aumento de transaminasas hepáticas (ALT, AST)",
+      "Candidiasis oral o vaginal (infección por hongos)",
+      "Dolor de cabeza",
+      "Prurito (comezón)"
+    ],
+    "uncommon": [
+      "Convulsiones (especialmente en dosis altas, insuficiencia renal o historial neurológico)",
+      "Eosinofilia (aumento de eosinófilos en sangre)",
+      "Leucopenia (disminución de glóbulos blancos)",
+      "Trombocitopenia (disminución de plaquetas)",
+      "Colitis pseudomembranosa por Clostridioides difficile (diarrea severa, acuosa, con fiebre y dolor abdominal)",
+      "Aumento de la creatinina sérica (indicador de función renal)"
+    ],
+    "rare": [
+      "Anafilaxia (reacción alérgica grave)",
+      "Síndrome de Stevens-Johnson o necrólisis epidérmica tóxica (erupción cutánea grave y potencialmente mortal)",
+      "Hepatitis medicamentosa",
+      "Agranulocitosis (pérdida severa de glóbulos blancos)",
+      "Alucinaciones, confusión",
+      "Disgeusia (alteración del gusto)"
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Valproato sódico / Ácido valproico",
+        "effect": "Panipenem reduce drásticamente los niveles séricos de valproato (hasta en un 60-90%), aumentando el riesgo de convulsiones en pacientes epilépticos. Es una contraindicación relativa.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Probenecid",
+        "effect": "Inhibe la secreción tubular renal del panipenem, aumentando sus niveles en sangre y prolongando su vida media. Puede aumentar el riesgo de toxicidad, especialmente convulsiones. No se recomienda la coadministración.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Otros fármacos nefrotóxicos (Aminoglucósidos, Vancomicina, Anfotericina B, Cisplatino)",
+        "effect": "Aumento del riesgo de daño renal agudo. Se requiere monitoreo estricto de la función renal (creatinina, diuresis).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Anticoagulantes orales (Warfarina)",
+        "effect": "Puede potenciar el efecto anticoagulante y aumentar el riesgo de sangrado. Se debe monitorear el INR con mayor frecuencia.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "No aplica, ya que es un medicamento administrado solo por vía intravenosa en un entorno hospitalario. No hay interacciones directas con alimentos.",
+    "withSupplements": "No se conocen interacciones clínicamente significativas con suplementos vitamínicos o herbales. Sin embargo, se debe evitar el uso de probióticos sin consultar al médico si hay diarrea severa, para no enmascarar una posible colitis por C. difficile."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "C (FDA) - No hay estudios adecuados en humanos. Se ha observado toxicidad embriofetal en animales.",
+      "recommendation": "Solo debe usarse durante el embarazo si el beneficio potencial para la madre justifica claramente el riesgo potencial para el feto. Se reserva para infecciones graves que amenazan la vida y donde alternativas más seguras no son efectivas. Se debe consultar con un especialista en medicina materno-fetal.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se desconoce si panipenem/betamipron se excreta en la leche materna humana. Dado el potencial de efectos adversos graves en el lactante (alteración de la flora intestinal, riesgo de sensibilización) y porque muchos fármacos se excretan en la leche, se recomienda suspender la lactancia materna durante el tratamiento o, si es esencial, evaluar el riesgo-beneficio con el pediatra.",
+    "pediatric": "Aprobado para uso en niños mayores de 3 meses. La seguridad y eficacia en neonatos (menores de 3 meses) no están establecidas. Se debe ajustar la dosis cuidadosamente según el peso corporal. Monitorear función renal y hepática.",
+    "geriatric": "Los pacientes mayores de 65 años tienen mayor probabilidad de tener función renal disminuida. Es IMPRESCINDIBLE calcular la TFG (con la fórmula CKD-EPI o Cockcroft-Gault) y ajustar la dosis en consecuencia para evitar acumulación y toxicidad (especialmente convulsiones). También son más susceptibles a la colitis por C. difficile. Monitorear estrechamente."
+  },
+  "administration": {
+    "howToTake": "Este medicamento se administra SOLO en un hospital o bajo supervisión médica especializada, por vía intravenosa (IV). Un profesional de la salud preparará el polvo liofilizado disolviéndolo en un volumen específico de solución para infusión (como Cloruro de Sodio al 0.9% o Dextrosa al 5%). La solución se administra por goteo lento (infusión) durante 30 a 60 minutos. NO se puede inyectar rápidamente (en bolo). El paciente debe permanecer en reposo durante la infusión.",
+    "storage": "El polvo liofilizado (vial) debe almacenarse a temperatura ambiente (15-30°C), protegido de la luz y la humedad. Una vez reconstituido y diluido, la solución es estable por un tiempo limitado (consultar la información del producto, generalmente 2-6 horas a temperatura ambiente o 24 horas refrigerada). No congelar. Desechar cualquier solución no utilizada después del tiempo indicado.",
+    "specialInstructions": "1. Informar siempre al médico sobre alergias a antibióticos, especialmente penicilinas o cefalosporinas. 2. Comunicar inmediatamente cualquier signo de reacción alérgica (ronchas, dificultad para respirar, hinchazón de cara/lengua) durante la infusión. 3. Reportar diarrea severa o acuosa, con o sin fiebre y calambres abdominales, incluso semanas después de finalizar el tratamiento. 4. Mantener una hidratación adecuada a menos que el médico indique lo contrario. 5. No se debe mezclar en la misma solución o línea de infusión con otros medicamentos sin compatibilidad confirmada."
+  },
+  "monitoring": {
+    "labTests": [
+      "Conteo sanguíneo completo (CSC) con diferencial (para leucopenia, trombocitopenia, eosinofilia)",
+      "Pruebas de función renal: Creatinina sérica, Nitrógeno Ureico en Sangre (BUN), cálculo de TFG",
+      "Pruebas de función hepática: ALT (SGPT), AST (SGOT), Fosfatasa Alcalina, Bilirrubina total",
+      "Cultivos bacterianos y pruebas de sensibilidad (antibiograma) del sitio de la infección",
+      "Niveles de valproato (si el paciente lo toma concurrentemente, aunque se desaconseja)"
+    ],
+    "frequency": "CSC y función renal: al inicio del tratamiento y al menos 2-3 veces por semana durante terapia prolongada (>5 días). Función hepática: al inicio y semanalmente. Signos clínicos (fiebre, diarrea, erupción) se deben evaluar diariamente.",
+    "signsToWatch": [
+      "Fiebre nueva o persistente",
+      "Diarrea acuosa o con sangre, dolor abdominal intenso",
+      "Erupción cutánea nueva o que empeora, ampollas, descamación",
+      "Dificultad para respirar, opresión en el pecho, hinchazón de labios/lengua",
+      "Sangrado o moretones inusuales",
+      "Convulsiones, temblores, confusión o alucinaciones",
+      "Dolor o enrojecimiento severo en el sitio de la inyección IV",
+      "Disminución en la cantidad de orina"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Convulsiones (síntoma principal de toxicidad por carbapenémicos)",
+      "Temblores musculares",
+      "Confusión, alucinaciones",
+      "Náuseas y vómitos severos",
+      "Posible exacerbación de la nefrotoxicidad (aumento agudo de creatinina)"
+    ],
+    "treatment": "No existe un antídoto específico. El tratamiento es de soporte y sintomático. 1. Suspender inmediatamente la infusión. 2. En caso de convulsiones, administrar benzodiacepinas (diazepam, lorazepam) IV. 3. Mantener la vía aérea y la respiración. 4. Monitoreo cardíaco y neurológico continuo. 5. En pacientes con función renal intacta, el fármaco se eliminará rápidamente. En insuficiencia renal, puede considerarse la hemodiálisis, que es efectiva para remover panipenem (hasta un 50% en 4 horas).",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (receta archivada en muchos hospitales por ser un antibiótico de último recurso).",
+    "scheduleMexico": "Medicamento de la Fracción IV (Sustancias psicotrópicas y otros medicamentos que requieren receta médica especial y/o control especial). Su prescripción y dispensación están estrictamente reguladas.",
+    "fdaApprovalYear": "Panipenem/Betamipron no está aprobado por la FDA de Estados Unidos. Fue desarrollado y aprobado en Japón en la década de 1990. En México, su registro y uso están autorizados por la COFEPRIS."
+  },
+  "brandsMexico": [
+    "Carbenin",
+    "Panibactam"
+  ],
+  "clinicalPearls": [
+    "Es un antibiótico de 'reserva' o de último recurso. Su uso debe restringirse a infecciones graves confirmadas o con alta sospecha de ser causadas por bacterias multirresistentes (BMR).",
+    "La combinación con betamipron es clave: permite usar dosis efectivas de panipenem con un riesgo significativamente menor de nefrotoxicidad en comparación con carbapenémicos sin este protector.",
+    "NUNCA se debe administrar concomitantemente con valproato. Si un paciente epiléptico lo requiere, se debe cambiar a un anticonvulsivante alternativo bajo supervisión neurológica.",
+    "La aparición de diarrea durante o después del tratamiento debe hacer sospechar inmediatamente en colitis por C. difficile. Solicitar prueba de toxinas en heces.",
+    "En infecciones por Pseudomonas aeruginosa, se recomienda realizar un antibiograma con CIM y considerar terapia combinada (ej. con un aminoglucósido) en infecciones graves o con alto riesgo de resistencia."
+  ],
+  "patientCounseling": "Este es un antibiótico muy fuerte que se usa solo en el hospital para infecciones graves. Es normal que le pongan el suero por un tiempo largo (media hora a una hora) cada 8 o 12 horas. Es MUY IMPORTANTE que le avise de inmediato a la enfermera o al doctor si siente comezón, le salen ronchas, le falta el aire o se le hincha la cara o la lengua durante el suero. También debe avisar si le da diarrea muy aguada o con sangre, aunque sea días después de que le den el alta. Tome suficiente agua si el médico se lo permite. Este medicamento puede hacer que le salgan hongos en la boca o en zonas íntimas; si nota placas blancas o comezón, avise. No deje el tratamiento antes de tiempo aunque se sienta mejor; el médico decidirá cuándo suspenderlo. Si tiene epilepsia o toma medicamentos para las convulsiones, INFORME a su médico antes de empezar.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre alta",
+        "slug": "fiebre-alta"
+      },
+      {
+        "name": "Dolor abdominal intenso",
+        "slug": "dolor-abdominal-intenso"
+      },
+      {
+        "name": "Escalofríos y sudoración",
+        "slug": "escalofrios-sudoracion"
+      },
+      {
+        "name": "Dificultad para respirar",
+        "slug": "disnea-dificultad-respirar"
+      },
+      {
+        "name": "Tos con flemas purulentas",
+        "slug": "tos-flemas-purulentas"
+      },
+      {
+        "name": "Dolor o ardor al orinar",
+        "slug": "disuria-dolor-al-orinar"
+      },
+      {
+        "name": "Confusión o desorientación (en sepsis)",
+        "slug": "confusion-desorientacion"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Neumonía nosocomial",
+        "slug": "neumonia-nosocomial"
+      },
+      {
+        "name": "Peritonitis",
+        "slug": "peritonitis"
+      },
+      {
+        "name": "Pielonefritis aguda complicada",
+        "slug": "pielonefritis-aguda"
+      },
+      {
+        "name": "Sepsis bacteriana",
+        "slug": "sepsis-bacteriana"
+      },
+      {
+        "name": "Infección intraabdominal complicada",
+        "slug": "infeccion-intraabdominal-complicada"
+      },
+      {
+        "name": "Celulitis necrotizante",
+        "slug": "celulitis-necrotizante"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Insuficiencia renal aguda",
+        "slug": "insuficiencia-renal-aguda"
+      },
+      {
+        "name": "Colitis pseudomembranosa",
+        "slug": "colitis-pseudomembranosa"
+      },
+      {
+        "name": "Convulsiones",
+        "slug": "convulsiones"
+      },
+      {
+        "name": "Reacción anafiláctica",
+        "slug": "anafilaxia"
+      },
+      {
+        "name": "Hepatitis medicamentosa",
+        "slug": "hepatitis-medicamentosa"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar (indicador de toxicidad renal)"
+      },
+      {
+        "name": "Transaminasas (ALT, AST)",
+        "slug": "transaminasas-alt-ast",
+        "effect": "Puede elevar (indicador de toxicidad hepática)"
+      },
+      {
+        "name": "Recuento de leucocitos",
+        "slug": "leucocitos",
+        "effect": "Puede disminuir (leucopenia)"
+      },
+      {
+        "name": "Recuento de eosinófilos",
+        "slug": "eosinofilos",
+        "effect": "Puede elevar (eosinofilia, indicador de alergia)"
+      },
+      {
+        "name": "Recuento de plaquetas",
+        "slug": "plaquetas",
+        "effect": "Puede disminuir (trombocitopenia)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Cultivo y antibiograma",
+        "slug": "cultivo-antibiograma",
+        "reason": "Identificar la bacteria causante y su sensibilidad al panipenem"
+      },
+      {
+        "name": "Creatinina sérica y cálculo de TFG",
+        "slug": "creatinina-tfg",
+        "reason": "Ajustar dosis y monitorear toxicidad renal"
+      },
+      {
+        "name": "Conteo sanguíneo completo",
+        "slug": "conteo-sanguineo-completo",
+        "reason": "Monitorear efectos en células sanguíneas"
+      },
+      {
+        "name": "Prueba de toxinas de C. difficile en heces",
+        "slug": "toxinas-c-difficile-heces",
+        "reason": "Diagnosticar colitis pseudomembranosa si hay diarrea"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de creatinina (Cockcroft-Gault)",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de TFG (CKD-EPI)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué tipo de infecciones me recetaron este antibiótico?",
+      "a": "Se usa para infecciones graves que requieren hospitalización, como neumonías complicadas, infecciones en el abdomen (peritonitis), infecciones de la sangre (sepsis) o del riñón graves, especialmente cuando otros antibióticos más comunes no funcionan."
+    },
+    {
+      "q": "¿Por qué me lo ponen por el suero y no en pastillas?",
+      "a": "Porque es un medicamento muy potente que necesita llegar rápidamente y en concentraciones altas a la sangre y a los tejidos infectados. La vía intravenosa (suero) asegura que el 100% del medicamento entre a su cuerpo de manera controlada."
+    },
+    {
+      "q": "¿Cuánto tiempo dura cada 'suero' o infusión?",
+      "a": "Cada dosis se administra lentamente, en un goteo que dura entre 30 y 60 minutos. No se puede poner rápido porque podría causar efectos secundarios."
+    },
+    {
+      "q": "¿Me puede dar alergia este medicamento?",
+      "a": "Sí, como cualquier antibiótico, puede causar reacciones alérgicas. Es muy importante que avise de inmediato si le sale roncha, le da comezón, se le hincha la cara o la lengua, o le falta el aire durante la infusión."
+    },
+    {
+      "q": "¿Por qué me dan este y no otro antibiótico más común?",
+      "a": "Este es un antibiótico de 'último recurso'. Su médico lo eligió porque su infección es muy grave o porque es probable que esté causada por bacterias resistentes a otros antibióticos. Se usa con cuidado para no generar más resistencia."
+    },
+    {
+      "q": "¿Me va a doler el riñón o el hígado?",
+      "a": "El medicamento tiene un protector (betamipron) que ayuda a reducir el riesgo de daño en el riñón. Sin embargo, se le harán análisis de sangre periódicos para monitorear la función de sus riñones e hígado durante el tratamiento."
+    },
+    {
+      "q": "¿Puedo tomar alcohol mientras me dan este tratamiento?",
+      "a": "No. Está hospitalizado por una infección grave. El alcohol puede debilitar su sistema inmune, interferir con la recuperación y potencialmente aumentar algunos efectos secundarios del medicamento."
+    },
+    {
+      "q": "¿Me puede dar diarrea?",
+      "a": "Sí, la diarrea es un efecto común. Pero si la diarrea es muy abundante, acuosa, con sangre o viene acompañada de fiebre y dolor de estómago, DEBE AVISAR INMEDIATAMENTE. Podría ser una infección intestinal grave llamada colitis por C. difficile."
+    },
+    {
+      "q": "¿Cuántos días voy a estar con este tratamiento?",
+      "a": "La duración depende de la gravedad y tipo de infección. Puede ser desde 5 hasta 14 días o más. Su médico decidirá basándose en su mejoría clínica y en los resultados de los estudios."
+    },
+    {
+      "q": "¿Puedo recibir visitas mientras me ponen el suero?",
+      "a": "Sí, pero es importante que sus visitas estén sanas (sin gripa, tos o diarrea) para no exponerlo a más gérmenes. Usted está con las defensas bajas por la infección."
+    },
+    {
+      "q": "¿Este medicamento afecta las pastillas anticonceptivas?",
+      "a": "No hay evidencia de que interfiera directamente con los anticonceptivos hormonales. Sin embargo, si presenta vómitos o diarrea severa, la absorción de las pastillas puede verse afectada. Consulte con su ginecólogo sobre métodos de respaldo."
+    },
+    {
+      "q": "Si me siento mejor, ¿puedo pedir que me den de alta antes?",
+      "a": "NO. Es crucial completar TODO el ciclo de tratamiento que indique el médico, aunque usted ya se sienta bien. Suspenderlo antes de tiempo puede hacer que la infección regrese, más fuerte y resistente."
+    },
+    {
+      "q": "¿Qué pasa si la enfermera se tarda en cambiarme el suero?",
+      "a": "Es importante que las dosis se administren a tiempo (cada 8 o 12 horas) para mantener niveles constantes del antibiótico en su sangre y vencer a la bacteria. Si hay un retraso significativo, informe al personal de enfermería."
+    },
+    {
+      "q": "¿Me puede dar comezón en la piel sin ser alergia?",
+      "a": "Sí, la comezón (prurito) puede ser un efecto secundario común que no necesariamente indica una alergia grave. Sin embargo, siempre debe reportarlo para que el médico lo evalúe y descarte una reacción alérgica."
+    },
+    {
+      "q": "¿Por qué me sacan sangre tan seguido?",
+      "a": "Para monitorear que el medicamento esté funcionando (bajando los glóbulos blancos de la infección) y que no esté causando efectos adversos en sus riñones, hígado o células de la sangre. Es una parte esencial de la seguridad del tratamiento."
+    },
+    {
+      "q": "¿Este antibiótico me baja las defensas?",
+      "a": "No baja las defensas directamente. Al contrario, ayuda a su sistema inmune a combatir la bacteria. Pero al eliminar bacterias 'buenas' del intestino, puede predisponer a otras infecciones, como por hongos (candidiasis) o la colitis por C. difficile."
+    },
+    {
+      "q": "¿Qué debo comer mientras estoy con este tratamiento?",
+      "a": "Siga las indicaciones del médico o nutriólogo del hospital. En general, se recomienda una dieta balanceada que ayude a la recuperación. Si tiene diarrea, pueden indicarle una dieta astringente (como plátano, arroz, manzana). Mantenga una buena hidratación."
+    },
+    {
+      "q": "Si soy diabético, ¿afecta mis niveles de glucosa?",
+      "a": "Panipenem/Betamipron no tiene un efecto directo conocido sobre la glucosa en sangre. Sin embargo, la infección grave por sí misma puede descontrolar la diabetes. Se monitorearán sus niveles de glucosa con frecuencia durante la hospitalización."
+    },
+    {
+      "q": "¿Puede este medicamento causar convulsiones?",
+      "a": "Es un efecto adverso poco común, pero posible, especialmente si se usan dosis muy altas, si el paciente tiene insuficiencia renal (por acumulación del fármaco) o si tiene antecedentes de epilepsia o lesiones cerebrales. El equipo médico está alerta a este riesgo."
+    },
+    {
+      "q": "¿Por qué es tan importante el ajuste de dosis en la insuficiencia renal?",
+      "a": "Porque el panipenem se elimina casi completamente por los riñones. Si los riñones no funcionan bien, el medicamento se acumula en la sangre. Esto puede llevar a niveles tóxicos y aumentar mucho el riesgo de efectos graves, como convulsiones. Por eso la dosis se reduce según la función renal."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "examen-de-pesquisa-especial-para-otras-enfermedades-bacterianas",
+  "name": "Examen de pesquisa especial para otras enfermedades bacterianas",
+  "cie10": "Z112",
+  "category": "Z11",
+  "shortDescription": "Es un chequeo especial para buscar infecciones causadas por bacterias, aunque no tengas síntomas.",
+  "intro": "Este código no es una enfermedad en sí, sino que se usa cuando un médico ordena estudios de laboratorio para buscar infecciones bacterianas específicas, incluso si la persona se siente bien. Se hace para 'pescar' a tiempo infecciones que pueden ser graves pero que al inicio no dan síntomas claros. En México, es especialmente importante en personas con trabajos de riesgo (como en el campo o la salud), que viven en zonas con brotes, o que tienen defensas bajas (por diabetes, VIH o tratamientos como quimioterapia). Diagnosticar a tiempo una infección bacteriana oculta puede evitar complicaciones serias y salvar vidas.",
+  "symptoms": [
+    "Este código se usa cuando NO hay síntomas. Es un chequeo preventivo.",
+    "Si ya hay síntomas, el médico usará otro código para la enfermedad específica."
+  ],
+  "causes": [
+    "No aplica como causa. La 'causa' de este examen es la sospecha médica de una posible infección bacteriana oculta.",
+    "Exposición a bacterias en el trabajo (ej. veterinarios, trabajadores agrícolas).",
+    "Vivir en o visitar zonas con brotes conocidos de enfermedades bacterianas.",
+    "Tener un sistema inmunológico debilitado (por enfermedades crónicas o medicamentos).",
+    "Haber tenido contacto cercano con alguien diagnosticado con una infección bacteriana específica."
+  ],
+  "redFlags": [
+    "NO aplica para este código. Las señales de alarma dependerán de la enfermedad bacteriana específica que se esté buscando.",
+    "Si durante el chequeo preventivo aparecen fiebre alta repentina (más de 39°C) con escalofríos.",
+    "Si aparece dificultad para respirar o dolor en el pecho.",
+    "Si hay confusión, desorientación o pérdida del conocimiento."
+  ],
+  "tests": [
+    "Cultivo bacteriano de esputo (flema)",
+    "Hemograma completo con diferencial (para ver glóbulos blancos)",
+    "Urocultivo (cultivo de orina)",
+    "Cultivo de exudado faríngeo (de la garganta)",
+    "Prueba de tuberculina (PPD) para tuberculosis"
+  ],
+  "relatedSymptoms": [],
+  "prevention": [
+    "Vacúnate según el esquema nacional, especialmente contra influenza, neumococo y otras recomendadas para tu edad y condición.",
+    "Si trabajas en el campo, con animales o en la salud, usa el equipo de protección personal (guantes, cubrebocas, batas) que te indiquen.",
+    "Lávate las manos frecuentemente con agua y jabón, sobre todo antes de comer y después de ir al baño o tocar superficies públicas."
+  ],
+  "relatedStudies": [
+    {
+      "slug": "cultivo-de-esputo",
+      "name": "CULTIVO DE ESPUTO",
+      "reason": "Cultivo bacteriano de esputo (flema)"
+    },
+    {
+      "slug": "cultivo-de-orina-urocultivo",
+      "name": "CULTIVO DE ORINA (urocultivo)",
+      "reason": "Urocultivo (cultivo de orina)"
+    },
+    {
+      "slug": "cultivo-de-exudado-faringeo",
+      "name": "CULTIVO DE EXUDADO FARÍNGEO",
+      "reason": "Cultivo de exudado faríngeo (de la garganta)"
+    },
+    {
+      "slug": "cultivo-de-exudado-nasal",
+      "name": "CULTIVO DE EXUDADO NASAL",
+      "reason": "Cultivo de exudado faríngeo (de la garganta)"
+    },
+    {
+      "slug": "cultivo-de-exudado-uretral",
+      "name": "CULTIVO DE EXUDADO URETRAL",
+      "reason": "Cultivo de exudado faríngeo (de la garganta)"
+    }
+  ]
+}

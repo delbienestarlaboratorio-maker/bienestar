@@ -1,0 +1,414 @@
+{
+  "name": "Tetracaína",
+  "summary": "La tetracaína es un anestésico local de tipo éster, muy potente y de acción prolongada, que se utiliza principalmente para bloquear temporalmente la sensación de dolor en áreas específicas del cuerpo. Sirve principalmente en procedimientos oftalmológicos (como cirugías de cataratas o exámenes del ojo), otorrinolaringológicos (para examinar oídos, nariz y garganta) y en algunos procedimientos diagnósticos menores. Su importancia clínica radica en que permite realizar intervenciones médicas y quirúrgicas de manera más cómoda y segura para el paciente, al eliminar o reducir significativamente el dolor sin necesidad de anestesia general, lo que disminuye los riesgos asociados y facilita la recuperación. Es un medicamento que debe ser manejado con cuidado por profesionales de la salud debido a su potencia y potencial de efectos adversos sistémicos si se absorbe en grandes cantidades al torrente sanguíneo.",
+  "pharmacology": {
+    "mechanismOfAction": "La tetracaína actúa bloqueando de manera reversible la generación y conducción de los impulsos nerviosos responsables de la sensación de dolor. Lo hace uniéndose a receptores específicos en el interior de los canales de sodio de las membranas de las neuronas sensoriales. Esta unión estabiliza la membrana neuronal, impidiendo la entrada de iones de sodio (Na+) que es necesaria para iniciar y propagar el potencial de acción (la 'señal eléctrica' del dolor). Al no poder generarse este impulso, la señal de dolor no viaja desde el sitio de aplicación hasta el cerebro, produciendo anestesia local. Su efecto es más potente y duradero que el de otros anestésicos locales como la lidocaína, pero también tiene un mayor riesgo de toxicidad sistémica.",
+    "pharmacologicClass": "Anestésico local del grupo de los aminoésteres (éster del ácido paraaminobenzoico - PABA).",
+    "therapeuticClass": "Anestésico local.",
+    "absorption": "La absorción sistémica depende en gran medida del sitio y la vía de administración, así como de la vascularización del área. Cuando se aplica en mucosas (ojos, nariz, garganta) o en piel dañada, la absorción puede ser rápida y significativa, alcanzando concentraciones plasmáticas considerables. La administración tópica ocular tiene una absorción limitada a través de la córnea. Las formulaciones en gel o crema para piel intacta tienen una absorción mínima.",
+    "distribution": "Una vez en el torrente sanguíneo, se distribuye ampliamente por todos los tejidos. Es altamente lipofílico, lo que le permite atravesar fácilmente las membranas celulares y la barrera hematoencefálica. Su unión a proteínas plasmáticas es moderada. Su volumen de distribución (Vd) es grande, indicando una amplia distribución en los tejidos corporales.",
+    "metabolism": "La tetracaína se metaboliza extensamente en el plasma y el hígado mediante hidrólisis enzimática (pseudocolinesterasas plasmáticas). Se convierte en ácido paraaminobenzoico (PABA) y otros metabolitos inactivos. No es metabolizado significativamente por el sistema de citocromo P450 (CYP), por lo que tiene menos interacciones farmacocinéticas por esta vía en comparación con los anestésicos del tipo amida.",
+    "elimination": "Los metabolitos inactivos se eliminan principalmente por vía renal (a través de la orina). Una pequeña porción puede eliminarse sin cambios. Su vida media en plasma es relativamente corta (aproximadamente 1-2 horas) debido a su rápido metabolismo, pero la duración del efecto anestésico en el sitio de aplicación es mucho más prolongada porque permanece localizado en el tejido nervioso.",
+    "onsetOfAction": "El inicio de acción es rápido. En aplicaciones oftálmicas tópicas, la anestesia corneal comienza en aproximadamente 30 segundos a 1 minuto. En aplicaciones en mucosas (nasal, faríngea), el efecto comienza en 1 a 3 minutos.",
+    "durationOfAction": "La duración del efecto anestésico es prolongada en comparación con otros anestésicos locales. En el ojo, puede durar de 20 a 30 minutos o más después de una sola instilación. En otras mucosas, el efecto puede persistir de 30 minutos a 1 hora, dependiendo de la dosis y la vascularización del área."
+  },
+  "indications": {
+    "approved": [
+      "Anestesia tópica ocular para procedimientos diagnósticos y quirúrgicos menores (tonometría, extracción de cuerpos extraños, cirugía de cataratas).",
+      "Anestesia de la mucosa nasal y faríngea para procedimientos de endoscopia (laringoscopia, nasofaringoscopia).",
+      "Anestesia tópica para procedimientos otológicos menores.",
+      "Anestesia de la mucosa antes de intubación endotraqueal o colocación de sonda nasogástrica en algunos protocolos."
+    ],
+    "offLabel": [
+      "Anestesia tópica para pequeñas heridas o abrasiones cutáneas (en formulaciones específicas).",
+      "Como componente en mezclas anestésicas para anestesia espinal (subaracnoidea) en algunos contextos especializados.",
+      "Para aliviar el dolor asociado con úlceras bucales o aftas (uso muy limitado y controlado)."
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis varía según la formulación y el procedimiento. OFTÁLMICA: 1-2 gotas de solución al 0.5% en el saco conjuntival, puede repetirse cada 5-10 minutos según necesidad. OTOLÓGICA/NASAL/FARÍNGEA: Aplicar una pequeña cantidad de gel o solución (usualmente al 1-2%) en el área, la dosis total no debe exceder los 20 mg (2 mL de solución al 1%). La dosis mínima efectiva debe ser siempre utilizada.",
+    "pediatric": "Uso limitado y solo bajo supervisión médica estricta. La dosis se calcula por peso corporal y superficie corporal. Para procedimientos oftálmicos, 1 gota de solución al 0.5% puede ser suficiente. La dosis máxima total no debe exceder 1 mg/kg de peso corporal. No se recomienda en recién nacidos por riesgo de metahemoglobinemia.",
+    "elderly": "Los pacientes mayores pueden ser más sensibles a los efectos del medicamento y a la toxicidad sistémica debido a cambios en la farmacocinética (menor masa muscular, posible disminución de la función renal/hepática). Se deben usar las dosis más bajas efectivas y con mayor intervalo entre aplicaciones. Monitorear estrechamente signos de toxicidad.",
+    "renalImpairment": "No se requiere ajuste de dosis específico para insuficiencia renal leve o moderada (TFG >30 mL/min), ya que los metabolitos inactivos se eliminan por orina pero tienen baja toxicidad. En insuficiencia renal grave (TFG <30 mL/min) o diálisis, usar con precaución y a dosis mínimas, ya que puede haber acumulación de metabolitos. Monitorear.",
+    "hepaticImpairment": "Usar con extrema precaución en insuficiencia hepática, ya que el metabolismo por pseudocolinesterasas puede estar disminuido, aumentando el riesgo de toxicidad sistémica y prolongando la vida media del fármaco. Evitar su uso si es posible; si es indispensable, usar dosis muy reducidas y con monitorización estrecha.",
+    "maxDose": "La dosis máxima recomendada para evitar toxicidad sistémica es de 20 mg por aplicación en adultos (equivalente a 2 mL de una solución al 1%). En términos de dosis total por procedimiento, no se debe exceder 1 mg/kg de peso corporal. Nunca exceder estas dosis."
+  },
+  "dosageForms": [
+    {
+      "form": "Solución oftálmica",
+      "strengths": [
+        "0.5%"
+      ],
+      "route": "Tópica ocular"
+    },
+    {
+      "form": "Gel oftálmico",
+      "strengths": [
+        "0.5%"
+      ],
+      "route": "Tópica ocular"
+    },
+    {
+      "form": "Solución tópica",
+      "strengths": [
+        "1%",
+        "2%"
+      ],
+      "route": "Tópica (mucosa nasal, faríngea, otológica)"
+    },
+    {
+      "form": "Gel tópico",
+      "strengths": [
+        "1%",
+        "2%"
+      ],
+      "route": "Tópica (mucosa nasal, faríngea)"
+    },
+    {
+      "form": "Crema tópica",
+      "strengths": [
+        "1%"
+      ],
+      "route": "Tópica cutánea"
+    },
+    {
+      "form": "Polvo para solución inyectable (uso hospitalario especializado)",
+      "strengths": [
+        "10 mg",
+        "20 mg"
+      ],
+      "route": "Intratecal/Subaracnoidea"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la tetracaína, a otros anestésicos locales del tipo éster (como procaína, benzocaína) o al ácido paraaminobenzoico (PABA).",
+      "Pacientes con deficiencia congénita o adquirida de pseudocolinesterasas plasmáticas.",
+      "Aplicación en áreas con infección activa o sepsis.",
+      "Uso en el conducto auditivo externo si existe perforación del tímpano (para formulaciones óticas).",
+      "Anestesia espinal (intratecal) en pacientes con hipertensión intracraneal, septicemia o problemas graves de coagulación."
+    ],
+    "relative": [
+      "Enfermedades cardíacas graves (insuficiencia cardíaca, bloqueos cardíacos, bradicardia severa).",
+      "Epilepsia o trastornos convulsivos.",
+      "Miastenia gravis.",
+      "Hipovolemia o shock.",
+      "Insuficiencia hepática severa.",
+      "Insuficiencia renal terminal.",
+      "Pacientes ancianos o debilitados.",
+      "Embarazo (especialmente primer trimestre) y lactancia."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Ardor o escozor transitorio en el sitio de aplicación (especialmente en ojos).",
+      "Visión borrosa temporal después de aplicación ocular."
+    ],
+    "common": [
+      "Enrojecimiento (hiperemia) local.",
+      "Sensación de cuerpo extraño en el ojo.",
+      "Sequedad ocular.",
+      "Hipoestesia (entumecimiento) prolongada más allá del tiempo deseado.",
+      "Sabor metálico o amargo si se drena a la garganta."
+    ],
+    "uncommon": [
+      "Reacciones alérgicas locales (dermatitis de contacto, prurito, urticaria).",
+      "Queratitis puntata (lesiones diminutas en la córnea) por uso repetido.",
+      "Fotosensibilidad en áreas de aplicación cutánea.",
+      "Mareo o aturdimiento leve por absorción sistémica.",
+      "Náuseas."
+    ],
+    "rare": [
+      "Reacciones alérgicas sistémicas severas (anafilaxia).",
+      "Toxicidad sistémica del Sistema Nervioso Central (ansiedad, confusión, temblores, convulsiones).",
+      "Toxicidad cardiovascular (hipotensión, bradicardia, arritmias, paro cardíaco).",
+      "Metahemoglobinemia (especialmente en lactantes y niños).",
+      "Úlcera corneal por uso excesivo o abusivo."
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Inhibidores de la colinesterasa (Neostigmina, Fisostigmina, Donepezilo, Rivastigmina)",
+        "effect": "Pueden antagonizar el efecto anestésico de la tetracaína y aumentar el riesgo de toxicidad por competencia por las enzimas metabolizadoras.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Sulfonamidas (Sulfametoxazol/Trimetoprim, Sulfadiazina)",
+        "effect": "La tetracaína se metaboliza a PABA, que puede antagonizar el efecto antibacteriano de las sulfas.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Otros anestésicos locales (Lidocaína, Bupivacaína) administrados sistémicamente",
+        "effect": "Efectos tóxicos aditivos sobre el sistema nervioso central y cardiovascular.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Fármacos que causan metahemoglobinemia (Dapsona, Nitritos, Nitroprusiato)",
+        "effect": "Riesgo aumentado de desarrollar metahemoglobinemia, especialmente en niños.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Bloqueadores neuromusculares (Succinilcolina)",
+        "effect": "La tetracaína puede potenciar el efecto bloqueante neuromuscular de la succinilcolina, prolongando la parálisis.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "No se conocen interacciones clínicamente significativas con alimentos. El alcohol puede potenciar los efectos depresores del SNC si hay absorción sistémica significativa.",
+    "withSupplements": "Los suplementos que contienen PABA (ácido paraaminobenzoico) podrían, en teoría, aumentar el riesgo de reacciones de hipersensibilidad en pacientes alérgicos a los anestésicos éster. No se recomienda su uso concomitante."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "C",
+      "recommendation": "No hay estudios adecuados y bien controlados en mujeres embarazadas. La tetracaína debe usarse durante el embarazo solo si el beneficio potencial justifica claramente el riesgo potencial para el feto. Se prefiere evitar su uso, especialmente durante el primer trimestre. En procedimientos necesarios, se debe usar la dosis efectiva más baja posible y por el menor tiempo.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se desconoce si la tetracaína se excreta en la leche materna. Dado su potencial de ser absorbida sistémicamente y causar efectos adversos graves en el lactante, se recomienda precaución. Si es necesario su uso, se debe aconsejar a la madre no amamantar durante varias horas después de la aplicación (consultar con el médico el tiempo específico) o extraer y desechar la leche de ese período.",
+    "pediatric": "Puede usarse en niños para procedimientos específicos (oftalmológicos, otológicos) bajo estricta supervisión médica y con dosis ajustadas por peso. Está CONTRAINDICADO en recién nacidos y lactantes pequeños debido al alto riesgo de metahemoglobinemia, una condición grave en la que la sangre no puede transportar oxígeno adecuadamente. En niños mayores, usar siempre la concentración y dosis mínimas efectivas.",
+    "geriatric": "Los pacientes de edad avanzada pueden ser más sensibles a los efectos de la tetracaína, presentando mayor riesgo de efectos adversos sistémicos (mareo, confusión, toxicidad cardiovascular) debido a cambios fisiológicos como disminución de la función hepática/renal, menor masa muscular y mayor sensibilidad del SNC. Se requiere ajuste a la dosis más baja del rango y monitorización cuidadosa."
+  },
+  "administration": {
+    "howToTake": "Este medicamento es para uso profesional y NO debe ser auto-administrado por el paciente. OFTÁLMICO: El médico o enfermera inclinará su cabeza hacia atrás, tirará suavemente del párpado inferior hacia abajo para formar un saco y aplicará la cantidad prescrita de gotas o gel. Debe mantener el ojo cerrado por 1-2 minutos sin parpadear fuerte. OTOLÓGICO/NASAL/FARÍNGEO: Se aplicará el gel o solución con un aplicador o gasa estéril solo en el área indicada. Después de la aplicación, no debe comer ni beber hasta que pase el efecto anestésico (aproximadamente 1 hora) para evitar morderse o quemarse sin darse cuenta.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (entre 15°C y 30°C). Proteger de la luz y del calor excesivo. No congelar. Mantener fuera del alcance de los niños. No usar si la solución está turbia, cambió de color o contiene partículas. Desechar los envases de un solo uso después de abiertos.",
+    "specialInstructions": "Después de la aplicación ocular, la visión estará borrosa y la sensibilidad corneal estará disminuida. NO se frote el ojo hasta que recupere la sensibilidad completa (para evitar lesiones). Evite conducir vehículos o operar maquinaria peligrosa hasta que la visión y la sensibilidad hayan vuelto a la normalidad. Informe inmediatamente a su médico si experimenta dolor ocular intenso, cambios en la visión, enrojecimiento severo o dificultad para respirar después de la aplicación."
+  },
+  "monitoring": {
+    "labTests": [
+      "No se requieren monitoreos de laboratorio de rutina para uso tópico ocasional.",
+      "En casos de uso repetido o sospecha de toxicidad: Gasometría arterial para detectar metahemoglobinemia (especialmente en niños).",
+      "Niveles de pseudocolinesterasas plasmáticas (en casos de respuesta anormal o historial familiar)."
+    ],
+    "frequency": "Monitoreo clínico constante durante el procedimiento: Signos vitales (frecuencia cardíaca, presión arterial, saturación de oxígeno) y estado neurológico (nivel de conciencia).",
+    "signsToWatch": [
+      "Signos de toxicidad del SNC: Mareo, tinnitus (zumbido en oídos), visión borrosa, temblores, nerviosismo, convulsiones.",
+      "Signos de toxicidad cardiovascular: Palpitaciones, dolor en el pecho, latidos irregulares, mareo al ponerse de pie, desmayo.",
+      "Signos de reacción alérgica: Erupción cutánea, picazón, hinchazón de cara/lengua/garganta, dificultad para respirar.",
+      "Signos de metahemoglobinemia: Coloración azulada/grisácea de piel (cianosis), especialmente en labios y lechos ungueales, dolor de cabeza, fatiga, dificultad para respirar que no mejora con oxígeno."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Síntomas del SNC: Ansiedad, inquietud, vértigo, tinnitus, visión borrosa, temblores, convulsiones, depresión respiratoria, coma.",
+      "Síntomas cardiovasculares: Hipotensión, bradicardia, bloqueo cardíaco, arritmias ventriculares, paro cardíaco.",
+      "Metahemoglobinemia: Cianosis (coloración azulada) resistente al oxígeno, disnea, dolor de cabeza, fatiga."
+    ],
+    "treatment": "Es una EMERGENCIA MÉDICA. Suspender inmediatamente la administración. Medidas de soporte: Mantener vía aérea, administrar oxígeno, asistir ventilación si es necesario. Para convulsiones: Benzodiacepinas (diazepam o midazolam). Para hipotensión y bradicardia: Fluidos intravenosos, atropina, vasopresores según necesidad. Para arritmias: Tratamiento antiarrítmico avanzado. Para metahemoglobinemia severa (>30% o síntomas): Administrar azul de metileno 1-2 mg/kg IV en 5 minutos. Puede requerirse oxigenación por membrana extracorpórea (ECMO) en casos extremos.",
+    "antidote": "El antídoto específico para la metahemoglobinemia inducida por tetracaína es el Azul de Metileno. No existe un antídoto específico para la toxicidad neurológica o cardiovascular; el tratamiento es de soporte."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Medicamento de prescripción).",
+    "scheduleMexico": "No está incluido en las fracciones de control especial (no es estupefaciente ni psicotrópico). Es un medicamento de uso profesional controlado.",
+    "fdaApprovalYear": "Aprobado por la FDA desde la década de 1940."
+  },
+  "brandsMexico": [
+    "Anestalcon",
+    "Pontocaína",
+    "Tetravisc",
+    "Visine Lágrimas Artificiales con Tetracaína (ya no comercializada comúnmente)",
+    "Tetracain",
+    "Tetraject (solución inyectable para uso hospitalario)"
+  ],
+  "clinicalPearls": [
+    "La tetracaína es uno de los anestésicos tópicos más potentes, pero su margen de seguridad es más estrecho que el de la lidocaína. La regla de oro es 'usar la mínima dosis efectiva'.",
+    "Es un éster del PABA, por lo que los pacientes alérgicos a los protectores solares que contienen PABA, a la benzocaína o a las sulfonamidas pueden presentar reacción cruzada.",
+    "En oftalmología, su uso prolongado o repetido puede causar queratopatía (daño corneal) y retrasar la cicatrización. Nunca debe ser recetado para uso domiciliario continuo en el ojo.",
+    "Para procedimientos en la faringe, siempre advertir al paciente que no coma ni beba hasta que pase el efecto para evitar aspiración o quemaduras inadvertidas."
+  ],
+  "patientCounseling": "La tetracaína es un anestésico muy fuerte que solo debe ser aplicado por un médico o personal de salud calificado. Usted NO debe comprarlo ni usarlo por su cuenta. Después de que le apliquen tetracaína en los ojos, no se los frote, ya que no sentirá si se lastima. Su visión estará borrosa y el ojo estará insensible por un tiempo (20-30 minutos), así que evite conducir o usar maquinaria hasta que se le pase. Si le aplican en la garganta o boca, no coma ni beba nada caliente hasta que recupere la sensibilidad completa (al menos 1 hora) para no quemarse o morderse sin darse cuenta. Si después de la aplicación siente mareo intenso, palpitaciones, dificultad para respirar, o si el ojo se pone muy rojo y duele mucho, avise al médico INMEDIATAMENTE. Guarde el medicamento fuera del alcance de los niños, en un lugar fresco y seco.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor ocular",
+        "slug": "dolor-ocular"
+      },
+      {
+        "name": "Dolor de oído",
+        "slug": "dolor-de-oido"
+      },
+      {
+        "name": "Dolor de garganta (procedimental)",
+        "slug": "dolor-de-garganta"
+      },
+      {
+        "name": "Sensibilidad corneal",
+        "slug": "sensibilidad-corneal"
+      },
+      {
+        "name": "Reflejo nauseoso excesivo",
+        "slug": "reflejo-nauseoso"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Cataratas (para cirugía)",
+        "slug": "cataratas"
+      },
+      {
+        "name": "Glaucoma (para tonometría)",
+        "slug": "glaucoma"
+      },
+      {
+        "name": "Cuerpo extraño ocular",
+        "slug": "cuerpo-extrano-ocular"
+      },
+      {
+        "name": "Otitis externa (para limpieza)",
+        "slug": "otitis-externa"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Metahemoglobinemia",
+        "slug": "metahemoglobinemia"
+      },
+      {
+        "name": "Queratitis",
+        "slug": "queratitis"
+      },
+      {
+        "name": "Reacción anafiláctica",
+        "slug": "reaccion-anafilactica"
+      },
+      {
+        "name": "Arritmia cardíaca",
+        "slug": "arritmia-cardiaca"
+      },
+      {
+        "name": "Convulsiones",
+        "slug": "convulsiones"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Metahemoglobina",
+        "slug": "metahemoglobina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Presión arterial",
+        "slug": "presion-arterial",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Saturación de oxígeno (SpO2)",
+        "slug": "saturacion-de-oxigeno",
+        "effect": "Puede disminuir (falsamente en metahemoglobinemia)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Gasometría arterial",
+        "slug": "gasometria-arterial",
+        "reason": "Para diagnosticar metahemoglobinemia en caso de cianosis o sospecha de toxicidad."
+      },
+      {
+        "name": "Nivel de pseudocolinesterasas",
+        "slug": "pseudocolinesterasas",
+        "reason": "En pacientes con respuesta prolongada o historial familiar de sensibilidad a anestésicos éster."
+      },
+      {
+        "name": "Electrocardiograma (ECG)",
+        "slug": "electrocardiograma",
+        "reason": "Para monitorear efectos cardíacos durante sobredosis o en pacientes con cardiopatía."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve la tetracaína?",
+      "a": "La tetracaína sirve para adormecer o anestesiar temporalmente una zona específica del cuerpo, como el ojo, el oído, la nariz o la garganta. Se usa para que los médicos puedan realizar procedimientos como exámenes, sacar una basurita del ojo, o poner una cámara por la nariz sin que usted sienta dolor."
+    },
+    {
+      "q": "¿La tetracaína es lo mismo que la lidocaína?",
+      "a": "No, son anestésicos locales diferentes. La tetracaína es más potente y dura más tiempo, pero también tiene más riesgo de efectos secundarios si se absorbe. La lidocaína es más común para procedimientos dentales o en la piel. Su médico elige una u otra según el procedimiento."
+    },
+    {
+      "q": "¿Puedo comprar tetracaína en la farmacia sin receta?",
+      "a": "NO. En México, la tetracaína es un medicamento que requiere receta médica y es de uso profesional. No se vende libremente porque su mal uso puede causar problemas graves en los ojos, intoxicación o incluso la muerte."
+    },
+    {
+      "q": "¿Duele ponerse las gotas de tetracaína en el ojo?",
+      "a": "Generalmente duele muy poco o nada. Al momento de caer la gota, puede sentir un leve ardor o escozor que desaparece en segundos, seguido de un adormecimiento que quita cualquier dolor durante el procedimiento."
+    },
+    {
+      "q": "¿Cuánto tiempo dura el efecto de la tetracaína en el ojo?",
+      "a": "El efecto anestésico suele durar entre 20 y 30 minutos después de una sola gota. Durante ese tiempo, el ojo estará insensible y la visión borrosa. Es importante no frotarse el ojo hasta que pase el efecto."
+    },
+    {
+      "q": "¿Puedo conducir después de que me pongan tetracaína en los ojos?",
+      "a": "NO es seguro conducir inmediatamente después. La tetracaína nubla la visión y reduce los reflejos. Debe esperar al menos 30-60 minutos hasta que la visión vuelva a la normalidad y pueda parpadear y sentir el ojo normalmente."
+    },
+    {
+      "q": "¿La tetracaína puede causar alergia?",
+      "a": "Sí, algunas personas son alérgicas a la tetracaína, especialmente si son alérgicas a otros anestésicos como la benzocaína (usada para el dolor de dientes) o a algunos protectores solares. Informe a su médico si ha tenido reacciones alérgicas a medicamentos similares."
+    },
+    {
+      "q": "¿Qué debo hacer si me cae tetracaína en la boca o la trago?",
+      "a": "Si durante un procedimiento en nariz o garganta traga un poco, es normal y suele ser inofensivo en la cantidad usada por el médico. Puede sentir un sabor amargo. Si por accidente ingiere una cantidad grande (como un frasco), es una EMERGENCIA: acuda de inmediato al hospital o llame al 911."
+    },
+    {
+      "q": "¿Los niños pueden usar tetracaína?",
+      "a": "Sí, pero solo bajo supervisión médica estricta y en dosis muy pequeñas calculadas por su peso. Está PROHIBIDO usarla en bebés recién nacidos porque puede causar una enfermedad grave de la sangre llamada metahemoglobinemia."
+    },
+    {
+      "q": "¿La tetracaína sirve para el dolor de muelas?",
+      "a": "NO se recomienda para el dolor de muelas. Existen anestésicos locales más seguros y específicos para la boca, como la lidocaína. Usar tetracaína en la boca sin control puede llevar a una intoxicación si se traga mucho."
+    },
+    {
+      "q": "¿Puedo usar las gotas de tetracaína que me sobraron de otro tratamiento?",
+      "a": "ABSOLUTAMENTE NO. Las gotas oftálmicas son de un solo uso en consultorio y se desechan después. Usar sobrantes puede causar infecciones graves en el ojo, daño a la córnea o intoxicación. Nunca se automedique con tetracaína."
+    },
+    {
+      "q": "¿Qué efectos secundarios son señales de alarma después de usar tetracaína?",
+      "a": "Debe buscar atención médica urgente si presenta: Dificultad para respirar o tragar, hinchazón de cara/lengua, latidos cardíacos muy rápidos o irregulares, mareo intenso o desmayo, convulsiones, o si el ojo se pone muy rojo, duele mucho o ve peor después de que pasa el efecto."
+    },
+    {
+      "q": "¿La tetracaína afecta a la presión arterial?",
+      "a": "Cuando se usa correctamente de forma tópica, generalmente no afecta la presión arterial. Sin embargo, si hay una absorción excesiva hacia la sangre (sobredosis), puede causar una caída peligrosa de la presión arterial (hipotensión) y bradicardia (latidos muy lentos)."
+    },
+    {
+      "q": "¿Puedo usar tetracaína si estoy embarazada o amamantando?",
+      "a": "Solo si es estrictamente necesario y bajo supervisión médica. Durante el embarazo (Categoría C) se evita, especialmente en el primer trimestre. Si está amamantando, consulte con su médico; es posible que le indique no dar pecho por unas horas después del procedimiento."
+    },
+    {
+      "q": "¿Por qué el médico me dice que no coma después de ponerme tetracaína en la garganta?",
+      "a": "Porque la tetracaína adormece la sensibilidad. Si come o bebe algo caliente, podría quemarse la boca o la garganta sin darse cuenta. También podría atragantarse porque no sentirá bien el paso de la comida. Espere al menos 1 hora hasta que recupere la sensación normal."
+    },
+    {
+      "q": "¿La tetracaína interactúa con otros medicamentos que tomo?",
+      "a": "Sí, puede interactuar. Es importante decirle a su médico TODOS los medicamentos que toma, incluyendo los de presión, corazón, sulfas (como el Bactrim), o medicamentos para el Alzheimer (como el Donepezilo), ya que pueden aumentar el riesgo de efectos secundarios."
+    },
+    {
+      "q": "¿Qué es la metahemoglobinemia y por qué la causa la tetracaína?",
+      "a": "La metahemoglobinemia es una condición rara pero grave donde la sangre no puede llevar oxígeno a los tejidos. La tetracaína, especialmente en bebés, puede convertir la hemoglobina normal en metahemoglobina, haciendo que la piel se ponga azulada (cianosis) y causando falta de aire. Requiere tratamiento urgente en el hospital."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre la solución y el gel de tetracaína?",
+      "a": "La solución (gotas) se usa más en ojos y oídos. El gel es más espeso, se adhiere mejor a las mucosas de nariz y garganta, y tiene un efecto un poco más prolongado. El médico elige la presentación según la zona a anestesiar y el tipo de procedimiento."
+    },
+    {
+      "q": "¿Cómo se metaboliza y elimina la tetracaína del cuerpo?",
+      "a": "La tetracaína se descompone (metaboliza) rápidamente en la sangre por unas enzimas llamadas pseudocolinesterasas. Se convierte en sustancias inactivas que el cuerpo elimina principalmente a través de la orina. Por eso, en personas con problemas graves de hígado, el efecto puede durar más y ser más tóxico."
+    },
+    {
+      "q": "En un contexto de anestesia espinal, ¿cómo se compara la tetracaína con la bupivacaína?",
+      "a": "La tetracaína para uso espinal (subaracnoideo) es un anestésico de acción prolongada, pero su uso es mucho menos común hoy en día. Comparada con la bupivacaína, la tetracaína tiene un inicio de acción más lento y un perfil de toxicidad sistémica diferente (es un éster). La bupivacaína (una amida) es generalmente preferida por su perfil más predecible y menor riesgo de reacciones alérgicas. La elección depende del tipo de cirugía y la experiencia del anestesiólogo."
+    }
+  ]
+}

@@ -1,0 +1,420 @@
+{
+  "name": "Gabapentin",
+  "summary": "Gabapentin es un medicamento que originalmente se desarrolló para tratar la epilepsia, pero que hoy en día se usa principalmente para aliviar el dolor neuropático, como el que causa la neuropatía diabética o la neuralgia postherpética (dolor después del herpes zóster). Actúa en el sistema nervioso para 'calmar' los nervios hiperactivos que envían señales de dolor incorrectas. Es un fármaco muy importante en la práctica clínica porque ofrece una alternativa a los analgésicos opioides para el manejo del dolor crónico, con un perfil de seguridad diferente y un menor riesgo de dependencia física grave. Sin embargo, requiere un uso cuidadoso porque puede causar mareos, somnolencia y, en algunos casos, pensamientos o comportamientos inusuales. Su efectividad y versatilidad lo han convertido en una herramienta clave en neurología, medicina del dolor y psiquiatría.",
+  "pharmacology": {
+    "mechanismOfAction": "Gabapentin es un análogo estructural del neurotransmisor GABA (ácido gamma-aminobutírico), pero no actúa directamente sobre los receptores de GABA. Su mecanismo principal de acción es unirse a una subunidad específica (la subunidad α2δ) de los canales de calcio dependientes de voltaje en las neuronas del sistema nervioso central. Al unirse a este sitio, modula la entrada de calcio a la neurona, lo que reduce la liberación de neurotransmisores excitatorios (como el glutamato y la sustancia P) que están involucrados en la transmisión del dolor y en la actividad convulsiva. En términos simples, 'calma' la actividad eléctrica excesiva de los nervios. No afecta los canales de sodio, por lo que su mecanismo es distinto al de otros antiepilépticos como la carbamazepina.",
+    "pharmacologicClass": "Análogo del ácido gamma-aminobutírico (GABA). Inhibidor de la subunidad α2δ de los canales de calcio presinápticos dependientes de voltaje.",
+    "therapeuticClass": "Anticonvulsivante. Analgésico para dolor neuropático.",
+    "absorption": "La absorción por vía oral es saturable y no lineal. Se absorbe en el intestino delgado principalmente a través de un transportador de aminoácidos L. La biodisponibilidad disminuye a medida que aumenta la dosis única (aproximadamente 60% para 900 mg/día, 35% para 3600 mg/día). Los alimentos, especialmente los ricos en grasas, aumentan ligeramente su absorción y biodisponibilidad.",
+    "distribution": "Se distribuye ampliamente por todo el cuerpo. Atraviesa la barrera hematoencefálica. Su unión a proteínas plasmáticas es insignificante (<3%). Su volumen de distribución (Vd) es de aproximadamente 0.65-1.04 L/kg.",
+    "metabolism": "Gabapentin NO se metaboliza significativamente en el hígado. No es sustrato, inhibidor o inductor de las enzimas del citocromo P450 (CYP450). Se elimina sin cambios principalmente por el riñón. Una pequeña cantidad sufre N-metilación para formar N-metilgabapentin, que es farmacológicamente inactivo.",
+    "elimination": "Se elimina casi exclusivamente por excreción renal sin cambios. Su vida media de eliminación es de 5 a 7 horas en adultos con función renal normal. En pacientes con insuficiencia renal, la vida media se prolonga significativamente. La eliminación es proporcional a la tasa de filtración glomerular (TFG).",
+    "onsetOfAction": "El alivio del dolor neuropático puede comenzar a notarse en unos días, pero el efecto máximo suele alcanzarse después de 1 a 2 semanas de tratamiento con la dosis terapéutica adecuada. Para la epilepsia, el efecto anticonvulsivante se establece una vez que se alcanzan niveles sanguíneos estables.",
+    "durationOfAction": "Su efecto clínico está relacionado con la concentración en sangre. Debido a su vida media, generalmente se administra de 2 a 3 veces al día para mantener un efecto constante durante las 24 horas."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento coadyuvante de las crisis epilépticas parciales con o sin generalización secundaria en adultos y niños mayores de 3 años.",
+      "Manejo del dolor neuropático postherpético (neuralgia postherpética) en adultos.",
+      "Manejo del dolor neuropático periférico diabético en adultos."
+    ],
+    "offLabel": [
+      "Dolor neuropático central (por ejemplo, después de un accidente cerebrovascular).",
+      "Fibromialgia.",
+      "Trastorno de ansiedad generalizada.",
+      "Trastorno de pánico.",
+      "Trastorno por estrés postraumático (TEPT).",
+      "Síndrome de piernas inquietas (moderado a severo).",
+      "Prevención de la migraña.",
+      "Manejo de los síntomas de abstinencia de alcohol y benzodiacepinas.",
+      "Dolor neuropático oncológico.",
+      "Vasos sanguíneos (sofocos) asociados a la menopausia."
+    ]
+  },
+  "dosage": {
+    "adults": "Epilepsia: Iniciar con 300 mg el día 1, 300 mg dos veces al día el día 2, 300 mg tres veces al día el día 3. Dosis de mantenimiento: 900 a 1800 mg/día divididos en 3 dosis. Dolor Neuropático: Iniciar con 300 mg el día 1, 300 mg dos veces al día el día 2, 300 mg tres veces al día el día 3. Puede incrementarse según respuesta y tolerancia. Dosis efectiva usual: 1800 a 3600 mg/día divididos en 3 dosis. Las dosis superiores a 1800 mg/día deben dividirse en más de 3 tomas al día (ej. 4 veces) debido a la absorción saturable.",
+    "pediatric": "Epilepsia (niños de 3 a 12 años): Iniciar con 10-15 mg/kg/día divididos en 3 dosis. Dosis de mantenimiento: 25-35 mg/kg/día (hasta 50 mg/kg/día en algunos casos) divididos en 3 dosis. La dosis debe calcularse con base en el peso corporal.",
+    "elderly": "Los adultos mayores suelen tener una función renal disminuida. Se debe calcular la tasa de filtración glomerular (TFG) y ajustar la dosis en consecuencia. Iniciar con dosis bajas (ej. 100-300 mg/día) y aumentar lentamente para minimizar mareos y somnolencia.",
+    "renalImpairment": "Ajuste obligatorio según TFG (mL/min/1.73m²): TFG ≥60: Dosis habitual (300-1200 mg cada 8h). TFG 30-59: 200-700 mg cada 12h. TFG 15-29: 200-700 mg cada 24h. TFG <15: 100-300 mg cada 24h. En diálisis: Carga de 300-400 mg, luego 200-300 mg después de cada sesión de hemodiálisis de 4 horas.",
+    "hepaticImpairment": "No se requiere ajuste de dosis específico, ya que no se metaboliza en el hígado. Sin embargo, en casos de insuficiencia hepática grave con ascitis y edema, puede haber alteración de la función renal, por lo que se debe evaluar la TFG.",
+    "maxDose": "La dosis máxima diaria recomendada es de 3600 mg, aunque algunos protocolos para dolor pueden usar hasta 4800 mg/día bajo estricta supervisión médica. Dosis superiores a 3600 mg/día no suelen proporcionar beneficio adicional debido a la absorción saturable."
+  },
+  "dosageForms": [
+    {
+      "form": "Cápsula",
+      "strengths": [
+        "100 mg",
+        "300 mg",
+        "400 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tableta",
+      "strengths": [
+        "600 mg",
+        "800 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Solución oral",
+      "strengths": [
+        "250 mg/5 mL"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a gabapentin o a cualquiera de los componentes de la formulación."
+    ],
+    "relative": [
+      "Insuficiencia renal severa (requiere ajuste drástico de dosis).",
+      "Pacientes con historial de o en riesgo de dependencia a sustancias o conductas adictivas (por riesgo de mal uso).",
+      "Pacientes con depresión mayor no tratada o ideación suicida.",
+      "Miastenia gravis (puede empeorar la debilidad muscular)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Mareo",
+      "Somnolencia",
+      "Fatiga"
+    ],
+    "common": [
+      "Ataxia (pérdida de coordinación)",
+      "Temblor",
+      "Nistagmo (movimientos oculares involuntarios)",
+      "Visión borrosa o doble",
+      "Edema periférico (hinchazón de pies y manos)",
+      "Aumento de peso",
+      "Náuseas",
+      "Boca seca",
+      "Dolor de cabeza"
+    ],
+    "uncommon": [
+      "Cambios en el estado de ánimo (agitación, hostilidad)",
+      "Dificultad para concentrarse",
+      "Amnesia (pérdida de memoria)",
+      "Artralgias (dolor articular)",
+      "Mialgias (dolor muscular)",
+      "Infecciones respiratorias",
+      "Disfunción eréctil"
+    ],
+    "rare": [
+      "Reacciones alérgicas graves (angioedema, rash cutáneo)",
+      "Síndrome de Stevens-Johnson",
+      "Pensamientos o comportamientos suicidas",
+      "Rabdomiólisis (descomposición muscular)",
+      "Hepatitis",
+      "Leucopenia (disminución de glóbulos blancos)",
+      "Hiperactividad psicomotora en niños"
+    ],
+    "blackBoxWarning": "Advertencia de la FDA: Los medicamentos antiepilépticos, incluido gabapentin, aumentan el riesgo de pensamientos y comportamientos suicidas. Los pacientes deben ser monitorizados para detectar la aparición o el empeoramiento de la depresión, pensamientos o comportamientos suicidas, o cualquier cambio inusual en el estado de ánimo o el comportamiento."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Alcohol",
+        "effect": "Potencia los efectos depresores del sistema nervioso central (SNC), aumentando severamente el riesgo de mareos, somnolencia, deterioro cognitivo y accidentes.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Opioides (morfina, oxicodona, hidrocodona, tramadol)",
+        "effect": "Aumenta el riesgo de depresión respiratoria severa, sedación profunda, mareo y muerte. Esta combinación requiere extrema precaución y monitoreo cercano.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Benzodiacepinas (alprazolam, clonazepam, diazepam)",
+        "effect": "Potenciación de los efectos sedantes y del deterioro psicomotor. Mayor riesgo de caídas, especialmente en adultos mayores.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Antidepresivos (amitriptilina, duloxetina) y antipsicóticos",
+        "effect": "Puede potenciar los efectos anticolinérgicos (boca seca, estreñimiento) y los efectos sedantes.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Los alimentos, especialmente aquellos con alto contenido de grasa, aumentan ligeramente la absorción de gabapentin (aproximadamente un 14%). Se recomienda tomar las dosis de manera constante, siempre con o sin alimentos, para mantener niveles sanguíneos estables. El alcohol debe evitarse por completo debido al riesgo grave de sedación y depresión respiratoria.",
+    "withSupplements": "Interacciones menores. Los suplementos con efectos sedantes (como la valeriana, la kava o la melatonina en dosis altas) pueden potenciar la somnolencia. Los antiácidos que contienen aluminio y magnesio (como el hidróxido de aluminio/magnesio) pueden reducir la absorción de gabapentin hasta en un 24%. Se recomienda separar la administración de gabapentin y el antiácido por al menos 2 horas."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "C",
+      "recommendation": "Solo debe usarse durante el embarazo si el beneficio potencial justifica claramente el riesgo para el feto. Existen datos limitados en humanos. Los estudios en animales han mostrado toxicidad para el desarrollo. Se ha asociado con un aumento pequeño del riesgo de malformaciones congénitas mayores (como defectos cardíacos) cuando se usa en el primer trimestre. Si una mujer queda embarazada mientras toma gabapentin, no debe suspenderlo abruptamente por riesgo de crisis epilépticas; debe consultar inmediatamente a su médico para una reevaluación. Puede ser parte de un registro de embarazo.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Gabapentin se excreta en la leche materna en bajas concentraciones. Se considera probablemente compatible con la lactancia, pero se recomienda precaución. Se debe monitorizar al lactante por posibles efectos como somnolencia, succión deficiente o aumento de peso lento. La decisión de amamantar debe tomarse considerando la necesidad materna del medicamento y los beneficios de la lactancia.",
+    "pediatric": "Aprobado para epilepsia en niños mayores de 3 años. La seguridad y eficacia para el dolor neuropático en niños no están establecidas. En niños, se debe monitorizar de cerca el comportamiento, ya que pueden presentar hiperactividad, agresión o cambios emocionales con mayor frecuencia. La dosificación se basa estrictamente en el peso corporal.",
+    "geriatric": "Población de alto riesgo debido a la disminución de la función renal relacionada con la edad, mayor sensibilidad a los efectos del SNC y mayor riesgo de caídas. Se debe iniciar con dosis bajas, aumentar lentamente y ajustar según la TFG. La educación sobre el riesgo de mareos y caídas es crucial."
+  },
+  "administration": {
+    "howToTake": "Tomar exactamente como lo indique el médico. Las cápsulas/tabletas deben tragarse enteras con un vaso de agua. Puede tomarse con o sin alimentos, pero se recomienda hacerlo de manera consistente. Si se olvida una dosis, tomarla tan pronto como se recuerde, a menos que esté cerca de la hora de la siguiente dosis. En ese caso, omitir la dosis olvidada y continuar con el horario normal. NO duplicar la dosis. Para la suspensión oral, agitar bien el frasco antes de cada uso y medir la dosis con el dosificador proporcionado (cuchara, jeringa oral).",
+    "storage": "Conservar a temperatura ambiente (15-30°C), en un lugar seco y fuera del alcance de la luz directa. Mantener el frasco de solución oral bien cerrado. No congelar.",
+    "specialInstructions": "NUNCA suspenda gabapentin abruptamente, especialmente si lo toma para epilepsia. Esto puede provocar crisis convulsivas de rebote o síntomas de abstinencia (ansiedad, insomnio, náuseas). La suspensión debe ser gradual, bajo supervisión médica, reduciendo la dosis a lo largo de al menos una semana. Informe a su médico si planea someterse a una cirugía, incluidos procedimientos dentales."
+  },
+  "monitoring": {
+    "labTests": [
+      "Función renal (creatinina sérica, TFG) al inicio y periódicamente.",
+      "Conteo sanguíneo completo (CSC) en casos de sospecha de infección o si hay síntomas de leucopenia.",
+      "Niveles de gabapentin en sangre (solo en casos especiales, como mala respuesta, sospecha de toxicidad o para verificar adherencia en pacientes renales)."
+    ],
+    "frequency": "Función renal: Al inicio del tratamiento y al menos cada 6-12 meses, o con mayor frecuencia en pacientes de edad avanzada o con enfermedad renal conocida. Monitoreo clínico (estado de ánimo, comportamiento): En cada visita, especialmente al inicio y después de cambios de dosis.",
+    "signsToWatch": [
+      "Aparición o empeoramiento de depresión, ansiedad, irritabilidad.",
+      "Pensamientos de hacerse daño a sí mismo o a otros.",
+      "Cambios de comportamiento inusuales o agitación.",
+      "Mareo o somnolencia severa que interfiera con las actividades diarias.",
+      "Hinchazón nueva o que empeora en pies, tobillos o manos.",
+      "Dificultad para respirar o erupción cutánea (signos de alergia).",
+      "Pérdida de coordinación o aumento de caídas.",
+      "Dolor muscular severo inexplicable u orina oscura (signo de rabdomiólisis)."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Somnolencia profunda",
+      "Letargo",
+      "Ataxia severa (inestabilidad)",
+      "Diarrea",
+      "Debilidad muscular",
+      "Depresión respiratoria (respiración lenta y superficial)",
+      "Coma (en casos extremos)"
+    ],
+    "treatment": "No existe un antídoto específico. El tratamiento es de soporte y sintomático. Se debe mantener la vía aérea, la respiración y la circulación. Monitorización en un entorno hospitalario. La diuresis forzada, la diálisis o la hemoperfusión no son efectivas debido a la baja unión a proteínas y al gran volumen de distribución. La hemodiálisis puede ser útil en pacientes con insuficiencia renal para eliminar el fármaco.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Rx).",
+    "scheduleMexico": "Medicamento de patente (no está en el cuadro básico de la Secretaría de Salud como genérico de primera línea, pero hay genéricos disponibles). No es una sustancia controlada (no está en listas de estupefacientes o psicotrópicos), pero su prescripción está regulada.",
+    "fdaApprovalYear": "1993 (para epilepsia). 2002 (para neuralgia postherpética)."
+  },
+  "brandsMexico": [
+    "Neurontin",
+    "Gabapentina",
+    "Gaba",
+    "Gaptin",
+    "Neurotin",
+    "Gabator",
+    "Gralise",
+    "Gabarone",
+    "Fanatrex",
+    "Gantin",
+    "Progaba",
+    "Gabax",
+    "Gabica",
+    "Gabisal",
+    "Gabium",
+    "Gabix",
+    "Gabylan",
+    "Neugaba",
+    "Gabastar",
+    "Gabatrol"
+  ],
+  "clinicalPearls": [
+    "El efecto analgésico para el dolor neuropático es independiente de su efecto anticonvulsivante; muchas veces se usan dosis más bajas para el dolor que para la epilepsia.",
+    "La 'gabapentinoid abuse' (uso indebido de gabapentinoides) es un problema emergente de salud pública, a menudo en combinación con opioides o benzodiacepinas para potenciar los efectos euforizantes o sedantes.",
+    "El edema periférico causado por gabapentin suele ser dependiente de la dosis y puede mejorar con diuréticos suaves, pero es una razón común para la suspensión del tratamiento."
+  ],
+  "patientCounseling": "Gabapentin es un medicamento que ayuda a controlar el dolor de los nervios o las convulsiones, pero debe usarse con mucho cuidado. Lo más importante es que NUNCA lo deje de tomar de golpe; si necesita suspenderlo, su médico le dará un plan para reducir la dosis poco a poco durante varios días. Este medicamento puede causar mucho sueño y mareo, especialmente al principio, por lo que NO debe manejar, operar maquinaria peligrosa o tomar decisiones importantes hasta que sepa cómo le afecta. Evite completamente el alcohol, ya que aumenta estos efectos peligrosamente. Esté atento a cambios en su estado de ánimo, como sentirse más triste, ansioso o con pensamientos de hacerse daño, y comuníquelos a su médico de inmediato. Tome las dosis a la misma hora todos los días para mantener un nivel constante en su cuerpo. Si olvida una dosis, tómela cuando se acuerde, pero si ya es casi la hora de la siguiente, omita la que olvidó y continúe con su horario normal. Informe a todos sus médicos y dentistas que está tomando gabapentin antes de cualquier procedimiento.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor neuropático (ardor, punzadas)",
+        "slug": "dolor-neuropatico"
+      },
+      {
+        "name": "Convulsiones o crisis epilépticas",
+        "slug": "convulsiones"
+      },
+      {
+        "name": "Hormigueo o entumecimiento doloroso",
+        "slug": "hormigueo"
+      },
+      {
+        "name": "Ansiedad",
+        "slug": "ansiedad"
+      },
+      {
+        "name": "Sofocos o bochornos",
+        "slug": "sofocos"
+      },
+      {
+        "name": "Movimientos involuntarios de piernas (síndrome de piernas inquietas)",
+        "slug": "piernas-inquietas"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Neuralgia postherpética",
+        "slug": "neuralgia-postherpetica"
+      },
+      {
+        "name": "Neuropatía diabética periférica",
+        "slug": "neuropatia-diabetica"
+      },
+      {
+        "name": "Epilepsia parcial",
+        "slug": "epilepsia-parcial"
+      },
+      {
+        "name": "Fibromialgia",
+        "slug": "fibromialgia"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Depresión o ideación suicida",
+        "slug": "depresion"
+      },
+      {
+        "name": "Edema periférico",
+        "slug": "edema-periferico"
+      },
+      {
+        "name": "Rabdomiólisis",
+        "slug": "rabdomiolisis"
+      },
+      {
+        "name": "Síndrome de Stevens-Johnson",
+        "slug": "sindrome-stevens-johnson"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevarse si hay deterioro de la función renal (es un marcador de monitorización, no un efecto directo del fármaco)."
+      },
+      {
+        "name": "Tasa de Filtración Glomerular (TFG)",
+        "slug": "tasa-filtracion-glomerular",
+        "effect": "Disminuye con la edad/enfermedad, lo que requiere ajuste de dosis."
+      },
+      {
+        "name": "Leucocitos (glóbulos blancos)",
+        "slug": "leucocitos",
+        "effect": "Puede disminuir (leucopenia) raramente."
+      },
+      {
+        "name": "Creatina fosfoquinasa (CPK)",
+        "slug": "creatina-fosfoquinasa",
+        "effect": "Puede elevarse significativamente en caso de rabdomiólisis."
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Biometría Hemática Completa",
+        "slug": "biometria-hematica",
+        "reason": "Para detectar posibles efectos en los glóbulos blancos (leucopenia)."
+      },
+      {
+        "name": "Química Sanguínea (con creatinina)",
+        "slug": "quimica-sanguinea",
+        "reason": "Fundamental para evaluar la función renal y ajustar la dosis correctamente."
+      },
+      {
+        "name": "Nivel de gabapentin en sangre",
+        "slug": "nivel-gabapentin-sangre",
+        "reason": "En casos seleccionados para verificar adherencia al tratamiento, toxicidad o en pacientes con insuficiencia renal severa."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de Aclaramiento de Creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve la gabapentina?",
+      "a": "Sirve principalmente para dos cosas: 1) Como auxiliar en el tratamiento de un tipo de epilepsia (crisis parciales). 2) Para aliviar el dolor neuropático, que es un dolor causado por daño en los nervios, como el que queda después de un herpes zóster (culebrilla) o el que sufren algunas personas con diabetes en pies y manos. También se usa para otras condiciones como fibromialgia o ansiedad, pero eso es 'uso fuera de indicación' y debe ser supervisado por un médico."
+    },
+    {
+      "q": "¿La gabapentina es un calmante para el dolor común?",
+      "a": "No. No es como el paracetamol, el ibuprofeno o la morfina. Es un analgésico específico para el dolor neuropático, que se siente como ardor, corriente eléctrica, punzadas o hormigueo doloroso. No es efectivo para dolores comunes como de cabeza, muscular o por artritis."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto la gabapentina para el dolor?",
+      "a": "Puede empezar a notar algo de alivio en los primeros días, pero el efecto completo generalmente tarda entre 1 y 2 semanas después de alcanzar la dosis que su médico considere adecuada para usted. La paciencia es clave, ya que la dosis se aumenta lentamente para evitar efectos secundarios."
+    },
+    {
+      "q": "¿La gabapentina da sueño?",
+      "a": "Sí, la somnolencia y el mareo son efectos secundarios muy comunes, especialmente cuando se inicia el tratamiento o se aumenta la dosis. Por eso se recomienda empezar con una dosis baja por la noche. Con el tiempo, el cuerpo puede acostumbrarse y este efecto puede disminuir."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si estoy con gabapentina?",
+      "a": "NO. Es muy peligroso. El alcohol potencia mucho los efectos de somnolencia y mareo de la gabapentina, aumentando enormemente el riesgo de sufrir accidentes, caídas graves e incluso depresión respiratoria (dificultad para respirar)."
+    },
+    {
+      "q": "¿La gabapentina engorda?",
+      "a": "El aumento de peso es un efecto secundario común. Algunas personas pueden subir varios kilos. Esto se debe a varios factores, incluyendo aumento del apetito y retención de líquidos (edema). Si esto ocurre, hable con su médico; no suspenda el medicamento por su cuenta."
+    },
+    {
+      "q": "¿Puedo manejar carro tomando gabapentina?",
+      "a": "Al principio del tratamiento o después de un aumento de dosis, NO debe manejar ni operar maquinaria peligrosa hasta que esté seguro de que el medicamento no le causa mareo o somnolencia. Espere a conocer cómo reacciona su cuerpo. Muchos accidentes ocurren por esta causa."
+    },
+    {
+      "q": "¿Qué pasa si olvido una dosis de gabapentina?",
+      "a": "Si se acuerda poco después de la hora, tómela de inmediato. Si ya está cerca de la hora de su siguiente dosis, omita la que olvidó y continúe con su horario normal. NUNCA tome una dosis doble para compensar la que olvidó."
+    },
+    {
+      "q": "¿Puedo dejar de tomar gabapentina de golpe si me siento mejor?",
+      "a": "JAMÁS lo haga. Suspender gabapentina abruptamente, especialmente si la toma para epilepsia, puede provocar crisis convulsivas graves. También puede causar síntomas de abstinencia como ansiedad, insomnio, náuseas y dolor. La suspensión debe ser gradual, reduciendo la dosis poco a poco según las indicaciones de su médico, durante al menos una semana."
+    },
+    {
+      "q": "¿La gabapentina es adictiva?",
+      "a": "Gabapentin no causa una adictividad física como los opioides, pero puede producir dependencia física (su cuerpo se acostumbra) y síndrome de abstinencia si se suspende bruscamente. Además, existe un riesgo de uso indebido y abuso, especialmente en personas con historial de adicciones, ya que en dosis altas puede producir euforia. Por esto, se debe usar con precaución y siempre bajo receta médica."
+    },
+    {
+      "q": "¿Puedo tomar gabapentina si estoy embarazada o planeando embarazarme?",
+      "a": "Debe consultarlo urgentemente con su médico. Gabapentin (Categoría C de la FDA) puede representar riesgos para el feto, especialmente en el primer trimestre. Si usted está tomando gabapentina para epilepsia, suspenderla sin control es más peligroso por el riesgo de convulsiones. Su médico evaluará los riesgos y beneficios. Si queda embarazada, informe a su médico de inmediato."
+    },
+    {
+      "q": "¿La gabapentina afecta los riñones?",
+      "a": "Gabapentin no daña los riñones directamente, pero se elimina casi completamente por la orina. Si sus riñones no funcionan bien (común en adultos mayores o diabéticos), el medicamento se acumula en la sangre y puede causar toxicidad. Por eso, su médico debe revisar su función renal con un análisis de sangre antes de empezar y periódicamente, para ajustar la dosis."
+    },
+    {
+      "q": "¿Qué interacciones peligrosas tiene la gabapentina?",
+      "a": "Las más peligrosas son: 1) Con OPIOIDES (como tramadol, oxicodona, morfina): Aumenta el riesgo de depresión respiratoria (dejar de respirar) y muerte. 2) Con ALCOHOL: Sedación extrema y accidentes. 3) Con otros depresores del sistema nervioso como benzodiacepinas (clonazepam, alprazolam). Siempre informe a su médico de TODOS los medicamentos, hierbas y suplementos que toma."
+    },
+    {
+      "q": "¿Por qué mi médico me pidió análisis de sangre para recetar gabapentina?",
+      "a": "Principalmente para revisar la función de sus riñones (creatinina y TFG). Esto es esencial para calcular la dosis correcta y segura para usted. También puede pedir un hemograma para tener una línea base, ya que en raros casos puede afectar los glóbulos blancos."
+    },
+    {
+      "q": "¿La gabapentina puede causar depresión o ideas suicidas?",
+      "a": "Sí, existe una advertencia importante (caja negra de la FDA) sobre este riesgo. Aunque es poco común, gabapentina y medicamentos similares pueden aumentar el riesgo de pensamientos o acciones suicidas, especialmente en las primeras semanas de tratamiento o tras un cambio de dosis. Esté alerta a cambios de humor, tristeza, irritabilidad o pensamientos de muerte, y repórtelos a su médico y familiares de inmediato."
+    },
+    {
+      "q": "¿Es normal que se me hinchen los pies con gabapentina?",
+      "a": "Sí, el edema (hinchazón) en pies, tobillos y manos es un efecto secundario común, dependiente de la dosis. Si la hinchazón es leve, puede mejorar elevando las piernas. Si es severa, dolorosa o afecta la respiración, consulte a su médico. A veces se requiere ajustar la dosa, añadir un diurético suave o cambiar de medicamento."
+    },
+    {
+      "q": "¿Existe diferencia entre la marca Neurontin y los genéricos de gabapentina?",
+      "a": "En teoría, los medicamentos genéricos deben tener la misma cantidad de principio activo y producir el mismo efecto que la marca original (Neurontin). Sin embargo, algunos pacientes reportan diferencias en los efectos secundarios o la eficacia al cambiar entre marcas o entre marca y genérico, posiblemente por los excipientes (componentes inactivos). Si nota un cambio significativo, coméntelo con su médico o farmacéutico."
+    },
+    {
+      "q": "¿Puedo tomar gabapentina para los nervios o la ansiedad?",
+      "a": "Sí, pero es un uso 'off-label' (fuera de la indicación oficial aprobada). Algunos psiquiatras la recetan para trastornos de ansiedad, ataques de pánico o TEPT cuando otros tratamientos no han funcionado. Solo debe usarse para esto bajo la estricta supervisión de un especialista en salud mental, ya que no es la primera opción."
+    },
+    {
+      "q": "¿Qué hago si tengo una sobredosis de gabapentina?",
+      "a": "Busque atención médica de EMERGENCIA o llame al 911. Los síntomas de sobredosis incluyen somnolencia extrema, mareo severo, pérdida del equilibrio, dificultad para hablar y, en casos graves, depresión respiratoria. No induzca el vómito a menos que lo indique un profesional. Informe al personal médico qué, cuánto y cuándo tomó."
+    },
+    {
+      "q": "¿Cómo se ajusta la dosis de gabapentina en un paciente anciano con diabetes e hipertensión?",
+      "a": "Este es un escenario clínico muy común. El ajuste es CRUCIAL. Primero, se debe calcular la TFG (tasa de filtración glomerular), que suele estar disminuida en ancianos, diabéticos e hipertensos. Se inicia con una dosis muy baja (ej. 100 mg al día) y se aumenta lentamente (cada 1-2 semanas). Se monitoriza de cerca la función renal, la presión arterial (por el riesgo de edema) y los signos de mareo/somnolencia (riesgo de caídas). La dosis de mantenimiento suele ser menor que en adultos jóvenes sanos."
+    }
+  ]
+}

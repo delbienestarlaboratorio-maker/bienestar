@@ -1,0 +1,405 @@
+{
+  "name": "Cefazolina",
+  "summary": "La cefazolina es un antibiótico de la familia de las cefalosporinas de primera generación, utilizado principalmente para combatir infecciones causadas por bacterias. Sirve para tratar una variedad de infecciones graves como neumonía, infecciones de la piel y tejidos blandos, infecciones del tracto urinario, infecciones óseas y articulares, y es fundamental en la profilaxis (prevención) de infecciones antes de cirugías, especialmente en procedimientos ortopédicos, cardíacos y vasculares. Su importancia clínica radica en su potente actividad contra bacterias Gram-positivas como Staphylococcus aureus (incluyendo cepas productoras de penicilinasa) y algunos Gram-negativos, siendo un pilar en el tratamiento empírico inicial de infecciones graves en el ámbito hospitalario y comunitario. Es un medicamento que requiere administración intravenosa o intramuscular, por lo que su uso está supervisado por profesionales de la salud, y su correcta dosificación es crucial para evitar el desarrollo de resistencia bacteriana y asegurar la efectividad del tratamiento.",
+  "pharmacology": {
+    "mechanismOfAction": "La cefazolina ejerce su efecto bactericida (mata bacterias) al interferir con la síntesis de la pared celular bacteriana. Se une de forma irreversible a unas proteínas específicas llamadas Proteínas Fijadoras de Penicilina (PBP), que son enzimas esenciales para la construcción y mantenimiento de la pared celular. Al unirse a estas proteínas, la cefazolina inhibe la transpeptidación, que es el paso final de entrecruzamiento de las cadenas de peptidoglicano que le dan rigidez y forma a la pared. Esto debilita la estructura de la pared celular, especialmente durante el proceso de división y crecimiento bacteriano. Como consecuencia, la presión osmótica interna de la bacteria no puede ser contenida, lo que lleva a la lisis (ruptura) y muerte de la célula bacteriana. Su espectro es particularmente efectivo contra bacterias que tienen una pared celular gruesa.",
+    "pharmacologicClass": "Antibiótico beta-lactámico; Cefalosporina de primera generación.",
+    "therapeuticClass": "Antibiótico sistémico.",
+    "absorption": "La cefazolina no se absorbe por vía oral. Debe administrarse por vía parenteral (intramuscular o intravenosa). La administración intramuscular es bien tolerada y la absorción es rápida y casi completa, alcanzando concentraciones plasmáticas máximas (Cmax) en aproximadamente 1-2 horas después de la inyección.",
+    "distribution": "Se distribuye ampliamente en la mayoría de los tejidos y fluidos corporales, incluyendo líquido sinovial, pleural, peritoneal y bilis. Atraviesa la barrera placentaria y se encuentra en el líquido amniótico. Sin embargo, su penetración al líquido cefalorraquídeo (LCR) y al humor vítreo del ojo es pobre en ausencia de inflamación meningeal. Su unión a proteínas plasmáticas es moderada, aproximadamente del 74-86%. Su volumen de distribución (Vd) es de aproximadamente 0.12 L/kg, indicando una distribución principalmente en el espacio plasmático y extracelular.",
+    "metabolism": "La cefazolina sufre un metabolismo hepático mínimo. No es un sustrato significativo de las enzimas del citocromo P450 (CYP). Se excreta mayoritariamente sin cambios.",
+    "elimination": "Se elimina principalmente por excreción renal, a través de la filtración glomerular y, en menor medida, por secreción tubular. Aproximadamente el 80-100% de la dosis se recupera sin cambios en la orina en las primeras 24 horas. Su vida media de eliminación (t1/2) es de aproximadamente 1.4 a 1.8 horas en adultos con función renal normal. Esta vida media se prolonga significativamente en pacientes con insuficiencia renal.",
+    "onsetOfAction": "El inicio de acción es rápido. Las concentraciones bactericidas en suero se alcanzan minutos después de una administración intravenosa y en 1-2 horas después de una administración intramuscular.",
+    "durationOfAction": "Su efecto bactericida es dependiente del tiempo. Para la mayoría de las infecciones, se requiere mantener concentraciones séricas por encima de la Concentración Mínima Inhibitoria (CMI) del patogeno durante un período prolongado. Por esto, las dosis se administran generalmente cada 6-8 horas en pacientes con función renal normal, lo que proporciona una cobertura continua."
+  },
+  "indications": {
+    "approved": [
+      "Profilaxis de infecciones en cirugías limpias o limpias-contaminadas (ej. cirugía cardíaca, vascular, ortopédica con implantes, cesárea).",
+      "Infecciones del tracto respiratorio inferior (neumonía bacteriana).",
+      "Infecciones de la piel y estructuras de la piel (celulitis, abscesos, heridas infectadas).",
+      "Infecciones del tracto urinario complicadas (pielonefritis aguda).",
+      "Infecciones óseas y articulares (osteomielitis, artritis séptica).",
+      "Endocarditis bacteriana (causada por estafilococos o estreptococos susceptibles, a menudo en combinación con otros antibióticos).",
+      "Septicemia (infección en la sangre)."
+    ],
+    "offLabel": [
+      "Profilaxis en procedimientos urológicos de alto riesgo.",
+      "Tratamiento empírico de infecciones intraabdominales en combinación con un agente contra anaerobios (ej. metronidazol).",
+      "Tratamiento de infecciones de tejidos blandos por mordeduras de animales (en combinación)."
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis varía según la gravedad y localización de la infección. Infecciones leves a moderadas: 250-500 mg cada 8 horas. Infecciones moderadas a graves: 500 mg a 1 g cada 6-8 horas. Infecciones graves o potencialmente mortales (ej. endocarditis, septicemia): 1-2 g cada 6-8 horas. Dosis máxima común: 6-12 g al día en dosis divididas. Para profilaxis quirúrgica: 1-2 g administrados 30-60 minutos antes de la incisión cutánea. Dosis adicionales pueden ser necesarias en cirugías prolongadas (>4 horas) o con sangrado masivo.",
+    "pediatric": "Recién nacidos (0-1 mes): 20 mg/kg/día divididos cada 12 horas. Lactantes y niños (>1 mes): 25-100 mg/kg/día divididos en 3-4 dosis (cada 6-8 horas). Para infecciones graves, se pueden usar dosis de hasta 100 mg/kg/día, sin exceder las dosis máximas de adulto.",
+    "elderly": "Los pacientes de edad avanzada pueden tener una función renal disminuida. Es esencial calcular el aclaramiento de creatinina (CrCl) y ajustar la dosis según los parámetros de insuficiencia renal. No se requiere un ajuste inicial basado solo en la edad si la función renal es normal.",
+    "renalImpairment": "Ajustes basados en el aclaramiento de creatinina (CrCl). CrCl >55 mL/min: Dosis normal. CrCl 35-54 mL/min: Dosis normal, pero intervalo cada 8 horas. CrCl 11-34 mL/min: 50% de la dosis normal, intervalo cada 12 horas. CrCl ≤10 mL/min: 50% de la dosis normal, intervalo cada 18-24 horas. En diálisis: Se elimina significativamente. Administrar una dosis de carga normal, luego 0.5-1 g después de cada sesión de diálisis.",
+    "hepaticImpairment": "No se requieren ajustes de dosis específicos, ya que la cefazolina se elimina principalmente por vía renal. Sin embargo, en insuficiencia hepática grave, se debe vigilar el estado general y la función renal.",
+    "maxDose": "Hasta 12 gramos al día en infecciones muy graves, aunque dosis superiores a 6 g/día se usan con precaución y monitoreo estrecho de función renal."
+  },
+  "dosageForms": [
+    {
+      "form": "Polvo liofilizado para inyección (vial, frasco ampula)",
+      "strengths": [
+        "250 mg",
+        "500 mg",
+        "1 g",
+        "2 g",
+        "5 g",
+        "10 g"
+      ],
+      "route": "Intramuscular, Intravenosa (inyección directa lenta o infusión)"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad (alergia) conocida y grave a la cefazolina o a cualquier cefalosporina.",
+      "Antecedente de reacción anafiláctica (alergia grave con dificultad para respirar) a cualquier antibiótico beta-lactámico (penicilinas, cefalosporinas, carbapenémicos, monobactámicos)."
+    ],
+    "relative": [
+      "Hipersensibilidad leve a penicilinas (como rash cutáneo). En este caso, se puede usar con precaución y bajo supervisión médica estrecha (riesgo de reactividad cruzada ~1-10%).",
+      "Insuficiencia renal severa (requiere ajuste de dosis obligatorio).",
+      "Antecedentes de colitis asociada a antibióticos."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Dolor, induración (endurecimiento) o flebitis (inflamación de la vena) en el sitio de inyección."
+    ],
+    "common": [
+      "Diarrea (puede ser por alteración de la flora intestinal o señal de colitis).",
+      "Náuseas.",
+      "Erupción cutánea (rash) pruriginosa.",
+      "Aumento de enzimas hepáticas transaminasas (AST, ALT).",
+      "Prurito (comezón)."
+    ],
+    "uncommon": [
+      "Vómitos.",
+      "Dolor abdominal.",
+      "Colitis pseudomembranosa (diarrea severa por Clostridioides difficile).",
+      "Candidiasis vaginal u oral (infección por hongos).",
+      "Mareo.",
+      "Dolor de cabeza.",
+      "Reacción de hipersensibilidad (urticaria, angioedema).",
+      "Eosinofilia (aumento de un tipo de glóbulos blancos)."
+    ],
+    "rare": [
+      "Anafilaxia (reacción alérgica grave).",
+      "Nefritis intersticial (daño renal).",
+      "Leucopenia, neutropenia, trombocitopenia (disminución de glóbulos blancos o plaquetas).",
+      "Anemia hemolítica.",
+      "Convulsiones (especialmente con dosis muy altas en insuficiencia renal).",
+      "Hepatitis colestásica.",
+      "Prueba de Coombs positiva (sin anemia clínica)."
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Aminoglucósidos (ej. Gentamicina, Amikacina)",
+        "effect": "Sinergia antibacteriana, pero aumento del riesgo de nefrotoxicidad (daño renal). Se debe monitorear la función renal estrechamente.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Probenecid",
+        "effect": "El probenecid bloquea la secreción tubular renal de la cefazolina, aumentando y prolongando sus concentraciones séricas. Puede usarse intencionalmente para este fin, pero requiere ajuste de dosis.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Anticoagulantes orales (Warfarina)",
+        "effect": "La cefazolina puede potenciar el efecto anticoagulante, aumentando el riesgo de sangrado, posiblemente por alteración de la flora intestinal que sintetiza vitamina K. Monitorear INR.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "No aplica, ya que se administra por vía parenteral. El alcohol no interactúa directamente con el medicamento, pero su consumo durante una infección grave no es recomendable y puede enmascarar síntomas o afectar la recuperación.",
+    "withSupplements": "No se conocen interacciones clínicamente significativas con suplementos vitamínicos o herbales. Sin embargo, se debe evitar el uso concomitante de probióticos sin consultar al médico si hay diarrea severa, para no enmascarar una posible colitis por C. difficile."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "B",
+      "recommendation": "Estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. La cefazolina cruza la placenta. Se usa ampliamente durante el embarazo, especialmente para profilaxis en cesárea y tratamiento de infecciones urinarias, cuando los beneficios potenciales justifican el riesgo potencial para el feto. Debe ser prescrita solo por un médico.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La cefazolina se excreta en la leche materna en bajas concentraciones. Se considera compatible con la lactancia, ya que es poco probable que cause efectos adversos significativos en el lactante, salvo posible alteración de la flora intestinal (diarrea, candidiasis). Se recomienda observar al bebé. Es uno de los antibióticos de elección para infecciones maternas durante la lactancia.",
+    "pediatric": "Seguro y efectivo en niños para las indicaciones aprobadas. La dosificación se basa estrictamente en el peso corporal. En neonatos, especialmente prematuros, la función renal inmadura requiere intervalos de dosificación más largos (cada 12 horas).",
+    "geriatric": "Los pacientes mayores de 65 años tienen mayor probabilidad de tener función renal disminuida. Es IMPRESCINDIBLE calcular el aclaramiento de creatinina (CrCl) antes de iniciar el tratamiento y ajustar la dosis en consecuencia para evitar toxicidad por acumulación (convulsiones, nefrotoxicidad). También son más susceptibles a la colitis por C. difficile."
+  },
+  "administration": {
+    "howToTake": "La cefazolina es un medicamento inyectable que solo debe ser administrado por un profesional de la salud en un entorno clínico (hospital, clínica, consultorio). Se puede administrar por vía intramuscular (IM) profunda en un músculo grande (glúteo, muslo) o por vía intravenosa (IV) lenta (durante 3-5 minutos) o en infusión (diluido en solución salina o dextrosa, durante 15-30 minutos). Nunca se debe tomar por boca. El polvo se reconstituye con un diluyente estéril (agua para inyección, solución salina) según las instrucciones del fabricante.",
+    "storage": "El polvo liofilizado en su envase original debe almacenarse a temperatura ambiente (15-30°C), protegido de la luz y la humedad. Una vez reconstituido, la solución es estable a temperatura ambiente por 24 horas y refrigerada (2-8°C) por 10 días, aunque se recomienda usar inmediatamente después de la preparación. Las soluciones para infusión deben usarse en un plazo de 24 horas. Desechar cualquier solución turbia o con partículas.",
+    "specialInstructions": "Antes de la primera dosis, se debe indagar sobre antecedentes de alergia a penicilinas o cefalosporinas. En pacientes con alergia a penicilina, la administración debe ser supervisada. Para inyección IM, se puede mezclar con lidocaína al 1% (sin epinefrina) para reducir el dolor, si está autorizado. No mezclar en la misma jeringa o sistema de infusión con aminoglucósidos, ya pueden inactivarse mutuamente; administrar por vías separadas."
+  },
+  "monitoring": {
+    "labTests": [
+      "Recuento completo de sangre (CSC) con diferencial para vigilar leucocitos, eosinófilos.",
+      "Pruebas de función renal (creatinina sérica, BUN, cálculo de CrCl) antes y durante el tratamiento, especialmente en dosis altas o terapia prolongada.",
+      "Pruebas de función hepática (AST, ALT, fosfatasa alcalina, bilirrubina).",
+      "Cultivos y pruebas de sensibilidad (antibiograma) del sitio de infección para confirmar la susceptibilidad de la bacteria.",
+      "En pacientes con diarrea significativa: prueba de toxina para Clostridioides difficile."
+    ],
+    "frequency": "Función renal y CSC: al inicio y luego 1-2 veces por semana en tratamientos prolongados (>7 días) o en pacientes de riesgo. Signos de infección: diariamente. En profilaxis quirúrgica, el monitoreo es clínico post-operatorio.",
+    "signsToWatch": [
+      "Aparición de sarpullido, urticaria, hinchazón de cara/lengua, dificultad para respirar (signos de alergia).",
+      "Diarrea acuosa o con sangre, dolor abdominal severo, fiebre (signos de colitis por C. difficile).",
+      "Sangrado o moretones inusuales.",
+      "Fiebre persistente o que reaparece.",
+      "Dolor o hinchazón severa en el sitio de inyección.",
+      "Convulsiones o confusión nueva."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Convulsiones (especialmente en pacientes con insuficiencia renal).",
+      "Náuseas, vómitos, dolor epigástrico.",
+      "Pérdida de audición, tinnitus (con dosis extremadamente altas).",
+      "Agitación, confusión.",
+      "Pérdida de la función renal (elevación de creatinina)."
+    ],
+    "treatment": "El tratamiento es de soporte. No hay antídoto específico. En caso de sobredosis, se debe suspender inmediatamente el medicamento. Las convulsiones se tratan con benzodiacepinas (diazepam). La hemodiálisis es efectiva para eliminar la cefazolina del torrente sanguíneo (elimina aproximadamente el 50-70% de la dosis en 4-6 horas) y está indicada en casos graves, especialmente con insuficiencia renal subyacente.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica para su dispensación. Es un medicamento de uso hospitalario y ambulatorio controlado.",
+    "scheduleMexico": "No está listado en las fracciones de control especial (no es psicotrópico ni estupefaciente). Es un antibiótico de venta con receta retenida (según la NOM-048-SSA1-1993 y actualizaciones).",
+    "fdaApprovalYear": "Aprobado por la FDA de Estados Unidos en 1971."
+  },
+  "brandsMexico": [
+    "Cefamezin",
+    "Kefzol",
+    "Ancef",
+    "Zolicef",
+    "Cefacidal",
+    "Cefazil",
+    "Cefazolina Sódica Genfar",
+    "Cefazolina Sódica Pisa",
+    "Cefazolina Sódica Liomont",
+    "Cefazolina Sódica Alpharma",
+    "Cefazolina Sódica Laproff",
+    "Cefazolina Sódica Denver Farma"
+  ],
+  "clinicalPearls": [
+    "Es el antibiótico de elección para la profilaxis quirúrgica en procedimientos cardíacos, vasculares y ortopédicos con implantes debido a su excelente cobertura contra S. aureus y S. epidermidis.",
+    "A pesar de ser una cefalosporina de 1ra generación, tiene una actividad notablemente buena contra E. coli y Klebsiella spp., lo que la hace útil en infecciones urinarias complicadas.",
+    "La reactividad cruzada con penicilinas es baja (~1-10%), pero existe. Se puede usar con precaución en pacientes con alergia a penicilina no anafiláctica, pero NUNCA en aquellos con antecedente de anafilaxia, angioedema o urticaria inmediata.",
+    "Su vida media prolongada en comparación con otras cefalosporinas de 1ra generación permite intervalos de dosificación de 8 horas, lo que es una ventaja logística.",
+    "Para infecciones por S. aureus meticilino-resistente (MRSA), la cefazolina NO es efectiva. Se requiere confirmar la sensibilidad mediante antibiograma."
+  ],
+  "patientCounseling": "La cefazolina es un antibiótico fuerte que se pone en la vena o el músculo para combatir infecciones graves. Es muy importante que complete TODO el tratamiento, incluso si se siente mejor a los pocos días, para evitar que la infección regrese o que las bacterias se hagan resistentes. Informe inmediatamente a su médico o enfermera si le aparece un sarpullido, comezón, dificultad para respirar, o hinchazón en la cara o garganta. La diarrea es común, pero si es muy líquida, con sangre o tiene calambres fuertes y fiebre, avise de inmediato, ya que puede ser una infección intestinal grave. Este medicamento puede alterar los resultados de algunas pruebas de orina para glucosa. Informe a todos sus médicos que está recibiendo cefazolina. No conduzca si siente mareos. Asista a todas sus citas para que le tomen muestras de sangre y controlen su función renal.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre",
+        "slug": "fiebre"
+      },
+      {
+        "name": "Dolor al orinar",
+        "slug": "disuria"
+      },
+      {
+        "name": "Escalofríos",
+        "slug": "escalofrios"
+      },
+      {
+        "name": "Tos con flemas",
+        "slug": "tos-productiva"
+      },
+      {
+        "name": "Enrojecimiento e hinchazón de la piel",
+        "slug": "eritema-edema"
+      },
+      {
+        "name": "Dolor articular severo",
+        "slug": "artralgia-severa"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Neumonía adquirida en la comunidad",
+        "slug": "neumonia-comunitaria"
+      },
+      {
+        "name": "Pielonefritis aguda",
+        "slug": "pielonefritis-aguda"
+      },
+      {
+        "name": "Celulitis",
+        "slug": "celulitis"
+      },
+      {
+        "name": "Artritis séptica",
+        "slug": "artritis-septica"
+      },
+      {
+        "name": "Endocarditis infecciosa",
+        "slug": "endocarditis-infecciosa"
+      },
+      {
+        "name": "Osteomielitis",
+        "slug": "osteomielitis"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Colitis pseudomembranosa",
+        "slug": "colitis-pseudomembranosa"
+      },
+      {
+        "name": "Insuficiencia renal aguda",
+        "slug": "insuficiencia-renal-aguda"
+      },
+      {
+        "name": "Reacción anafiláctica",
+        "slug": "anafilaxia"
+      },
+      {
+        "name": "Candidiasis vaginal/oral",
+        "slug": "candidiasis"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Nitrógeno ureico (BUN)",
+        "slug": "bun",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Transaminasas (AST/ALT)",
+        "slug": "transaminasas",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Eosinófilos",
+        "slug": "eosinofilos",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Prueba de Coombs directa",
+        "slug": "prueba-coombs",
+        "effect": "Puede dar positiva"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Antibiograma",
+        "slug": "antibiograma",
+        "reason": "Para confirmar la sensibilidad de la bacteria a la cefazolina."
+      },
+      {
+        "name": "Cultivo y sensibilidad de orina",
+        "slug": "urocultivo",
+        "reason": "En infecciones urinarias, para guiar el tratamiento."
+      },
+      {
+        "name": "Hemocultivos",
+        "slug": "hemocultivo",
+        "reason": "En sepsis o endocarditis sospechada."
+      },
+      {
+        "name": "Prueba de toxina para C. difficile",
+        "slug": "toxina-c-difficile",
+        "reason": "En caso de diarrea severa durante o después del tratamiento."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La cefazolina es una penicilina?",
+      "a": "No, la cefazolina NO es una penicilina. Pertenece a otra familia de antibióticos llamada cefalosporinas. Sin embargo, son 'primas' químicas (ambas son beta-lactámicos), por lo que existe un pequeño riesgo de alergia cruzada en personas alérgicas a la penicilina."
+    },
+    {
+      "q": "¿Me puedo poner la inyección de cefazolina en casa?",
+      "a": "Generalmente NO. La cefazolina se usa para infecciones graves que suelen requerir supervisión médica hospitalaria o en clínica. Además, al ser intravenosa o intramuscular profunda, debe ser administrada por un profesional de la salud capacitado."
+    },
+    {
+      "q": "¿Duele la inyección de cefazolina?",
+      "a": "La inyección intramuscular puede causar dolor, ardor o endurecimiento en el sitio. La intravenosa puede causar irritación de la vena (flebitis). Para reducir el dolor, a veces se mezcla con un anestésico local (como lidocaína) antes de la inyección intramuscular."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Comienza a actuar rápidamente, en minutos si es intravenosa. Sin embargo, puede tomar de 24 a 72 horas para que usted note una mejoría significativa en los síntomas como la fiebre. Es crucial completar todo el tratamiento prescrito."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si me están poniendo cefazolina?",
+      "a": "No hay una interacción química directa peligrosa, pero NO se recomienda. El alcohol puede debilitar su sistema inmunológico, retrasar la recuperación y enmascarar síntomas como mareo o fiebre. Lo mejor es evitarlo hasta terminar el tratamiento."
+    },
+    {
+      "q": "¿La cefazolina me puede dar diarrea?",
+      "a": "Sí, es un efecto secundario común. Ocurre porque el antibiótico altera el equilibrio de bacterias buenas en su intestino. Si la diarrea es leve, puede comer yogur con probióticos (consultando a su médico). Si es muy líquida, con sangre, o tiene fiebre y dolor abdominal, DEBE avisar a su médico de inmediato."
+    },
+    {
+      "q": "¿Sirve para la infección de garganta o gripa?",
+      "a": "NO. La cefazolina es para infecciones bacterianas graves. La mayoría de las infecciones de garganta y todas las gripes son causadas por virus, contra los cuales los antibióticos como la cefazolina NO funcionan. Su uso incorrecto solo crea bacterias resistentes."
+    },
+    {
+      "q": "¿Puedo usar cefazolina si soy alérgico a la penicilina?",
+      "a": "Depende del tipo de alergia. Si su alergia fue leve (solo un sarpullido), su médico podría usarla con precaución. Si su alergia fue grave (dificultad para respirar, hinchazón de garganta, anafilaxia), está CONTRAINDICADO. NUNCA se automedique y siempre informe su alergia."
+    },
+    {
+      "q": "¿Afecta los métodos anticonceptivos?",
+      "a": "No hay evidencia de que la cefazolina reduzca la efectividad de las pastillas anticonceptivas hormonales, a diferencia de algunos otros antibióticos. Sin embargo, si tiene vómitos o diarrea severa, la absorción de la pastilla puede verse afectada. Consulte con su ginecólogo."
+    },
+    {
+      "q": "¿La cefazolina sube o baja la presión arterial?",
+      "a": "Generalmente no tiene un efecto directo sobre la presión arterial. Sin embargo, si causa una reacción alérgica grave (anafilaxia), la presión puede bajar peligrosamente. En pacientes con problemas renales por la medicación, se puede retener líquido y subir la presión. Su médico lo vigilará."
+    },
+    {
+      "q": "¿Puedo comer de todo durante el tratamiento?",
+      "a": "No hay restricciones dietéticas específicas. Se recomienda una dieta balanceada para ayudar a la recuperación. Si tiene malestar estomacal, coma alimentos suaves y evite lo muy grasoso o picante. Beba mucha agua."
+    },
+    {
+      "q": "¿Cuántos días dura un tratamiento normal?",
+      "a": "Varía mucho según la infección. Para una infección de piel simple, pueden ser 7-10 días. Para una infección ósea (osteomielitis) o endocarditis, el tratamiento puede durar 4 a 6 semanas o más, a menudo iniciado en el hospital y continuado de manera ambulatoria."
+    },
+    {
+      "q": "¿Qué hago si me olvido de una dosis en el hospital?",
+      "a": "Informe inmediatamente a la enfermera o al médico. Ellos reprogramarán la dosis. No espere hasta la siguiente dosis programada. Es importante mantener niveles constantes del antibiótico en la sangre."
+    },
+    {
+      "q": "¿La cefazolina daña los riñones?",
+      "a": "Puede causar daño renal (nefrotoxicidad), especialmente en dosis altas, tratamientos largos, en adultos mayores o si se usa con otros medicamentos que también dañan los riñones (como algunos antiinflamatorios o aminoglucósidos). Por eso su médico pide análisis de sangre para vigilar la creatinina."
+    },
+    {
+      "q": "¿Es segura en el embarazo?",
+      "a": "Se clasifica como Categoría B, lo que significa que es uno de los antibióticos más seguros para usar durante el embarazo cuando es necesario. Se usa comúnmente, por ejemplo, para prevenir infecciones en una cesárea. La decisión final la toma su médico evaluando riesgos y beneficios."
+    },
+    {
+      "q": "¿Puedo amamantar si me ponen cefazolina?",
+      "a": "Sí, se considera compatible con la lactancia. Pasa a la leche materna en cantidades muy pequeñas que es poco probable que le hagan daño al bebé. Solo esté atenta a si el bebé presenta diarrea o irritabilidad, y coméntelo con su pediatra."
+    },
+    {
+      "q": "¿Para qué se usa antes de una operación?",
+      "a": "Se usa como 'profilaxis' para prevenir una infección en la herida quirúrgica. Se administra una dosis 30-60 minutos antes de que el cirujano haga el primer corte, para que haya suficiente antibiótico en la sangre y los tejidos durante la operación."
+    },
+    {
+      "q": "¿Qué bacteria mata la cefazolina?",
+      "a": "Mata principalmente bacterias Gram-positivas como Staphylococcus aureus (infecciones de piel, huesos) y Streptococcus pyogenes. También es buena contra algunas Gram-negativas como Escherichia coli (infecciones urinarias) y Klebsiella pneumoniae. NO sirve contra bacterias resistentes como el MRSA o contra Pseudomonas."
+    },
+    {
+      "q": "¿Por qué me piden tantos análisis de sangre cuando me la ponen?",
+      "a": "Para monitorear dos cosas principales: 1) Que el antibiótico esté funcionando (bajando los glóbulos blancos si estaban altos). 2) Que no esté causando efectos adversos, como daño renal (creatinina) o hepático (transaminasas), o afectando las células de la sangre (recuento de plaquetas, glóbulos blancos)."
+    },
+    {
+      "q": "¿Qué pasa si me pongo más dosis de la que me recetaron?",
+      "a": "Una sobredosis puede ser muy peligrosa, especialmente para los riñones y el sistema nervioso, pudiendo causar convulsiones. Si por error recibe una dosis mayor, el personal médico lo vigilará de cerca y podría realizar una hemodiálisis para eliminar el exceso del medicamento de la sangre."
+    }
+  ]
+}

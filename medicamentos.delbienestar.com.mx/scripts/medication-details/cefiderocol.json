@@ -1,0 +1,398 @@
+{
+  "name": "Cefiderocol",
+  "summary": "El cefiderocol es un antibiótico intravenoso de última generación, perteneciente al grupo de las cefalosporinas. Es un medicamento de importancia crítica, diseñado específicamente para combatir infecciones graves causadas por bacterias Gram-negativas que se han vuelto resistentes a casi todos los demás antibióticos disponibles, incluyendo aquellas productoras de carbapenemasas (como KPC, NDM, VIM, OXA-48). Su importancia clínica radica en ser una de las pocas opciones efectivas contra infecciones complicadas del tracto urinario, neumonía asociada a ventilador y bacteriemia, cuando no hay alternativas viables. Actúa como un 'caballo de Troya' para entrar en la bacteria, utilizando el propio sistema de transporte de hierro del microorganismo en su contra. Este medicamento es considerado de reserva, es decir, se utiliza solo en situaciones de vida o muerte donde otros tratamientos han fallado, para preservar su eficacia y combatir la creciente amenaza de las 'superbacterias'.",
+  "pharmacology": {
+    "mechanismOfAction": "El cefiderocol posee un mecanismo de acción único y potente. Es una cefalosporina de espectro extendido con un grupo sideróforo en su estructura química. Este sideróforo le permite 'engañar' a la bacteria, imitando al hierro, un nutriente esencial para el crecimiento bacteriano. Las bacterias Gram-negativas, especialmente en condiciones de deficiencia de hierro (como las que ocurren durante una infección), activan sistemas de transporte especializados para captar hierro del ambiente. El cefiderocol se une a estos transportadores (como el sistema de permeasa FepA y CirA) y es activamente introducido al interior de la bacteria, superando así las barreras de resistencia más comunes, como las porinas alteradas y las bombas de eflujo. Una vez dentro del periplasma bacteriano, se une de manera irreversible a las proteínas fijadoras de penicilina (PBP), principalmente PBP3, bloqueando la síntesis de la pared celular bacteriana. Esto lleva a la lisis y muerte de la célula bacteriana. Su capacidad de utilizar las vías de captación de hierro le confiere una potente actividad incluso contra cepas con resistencia a carbapenémicos y cefalosporinas de última generación.",
+    "pharmacologicClass": "Antibiótico beta-lactámico; Cefalosporina de cuarta generación (o cefalosporina sideróforo); Agente antimicrobiano sistémico.",
+    "therapeuticClass": "Antibiótico de reserva para infecciones por bacterias Gram-negativas multirresistentes.",
+    "absorption": "No se administra por vía oral. La administración es exclusivamente intravenosa (infusión lenta). La biodisponibilidad sistémica después de una infusión intravenosa es del 100%. La concentración máxima en plasma (Cmax) se alcanza al final de la infusión.",
+    "distribution": "Se distribuye ampliamente en los tejidos y fluidos corporales. El volumen de distribución en estado estacionario es de aproximadamente 18 litros, lo que indica una buena penetración tisular. Se une a proteínas plasmáticas en un grado moderado, aproximadamente del 40-60%. Penetra bien en el líquido cefalorraquídeo, pulmón, riñón y tejidos del tracto urinario. Su característica de sideróforo facilita su penetración incluso en sitios de infección con barreras.",
+    "metabolism": "El cefiderocol sufre un metabolismo hepático mínimo. No es un sustrato significativo de las enzimas del citocromo P450 (CYP450), como CYP1A2, CYP2B6, CYP2C8, CYP2C9, CYP2C19, CYP2D6 o CYP3A4. La mayor parte del fármaco se elimina sin cambios. No se esperan interacciones farmacocinéticas mediadas por CYP.",
+    "elimination": "Se elimina principalmente por vía renal, en forma inalterada (activa). Aproximadamente el 60-70% de la dosis administrada se recupera sin cambios en la orina en 24 horas. La vida media de eliminación es de aproximadamente 2 a 3 horas en individuos con función renal normal. En pacientes con insuficiencia renal grave, la vida media puede prolongarse significativamente, requiriendo ajustes de dosis.",
+    "onsetOfAction": "El inicio de la acción bactericida es rápido, comenzando poco después de alcanzar concentraciones terapéuticas en el sitio de la infección, generalmente dentro de la primera hora post-infusión.",
+    "durationOfAction": "Su efecto es dependiente del tiempo (time-dependent killing). Para mantener la eficacia, es crucial que la concentración del fármaco en el sitio de la infección se mantenga por encima de la concentración inhibitoria mínima (CIM) de la bacteria durante la mayor parte del intervalo entre dosis. Por esto se administra cada 8 horas en infusiones prolongadas (3 horas)."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones complicadas del tracto urinario (cITU), incluyendo pielonefritis, en pacientes ≥18 años causadas por bacterias Gram-negativas susceptibles cuando las opciones de tratamiento son limitadas.",
+      "Neumonía asociada al ventilador (NAV) y neumonía hospitalaria (NH) en pacientes ≥18 años, causada por bacterias Gram-negativas susceptibles.",
+      "Infecciones por bacterias Gram-negativas aeróbicas susceptibles en pacientes ≥18 años con opciones de tratamiento limitadas (indicación aprobada por COFEPRIS basada en datos de eficacia)."
+    ],
+    "offLabel": [
+      "Tratamiento de infecciones intraabdominales complicadas por bacterias Gram-negativas multirresistentes.",
+      "Tratamiento de bacteriemia por bacilos Gram-negativos multirresistentes (BGN-MDR) no cubiertos en indicaciones aprobadas.",
+      "Infecciones osteoarticulares por BGN-MDR (uso muy limitado y bajo supervisión de infectología)."
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis estándar para pacientes con función renal normal (TFG ≥90 mL/min) es de 2 gramos (2000 mg) administrados por vía intravenosa cada 8 horas. La infusión debe durar 3 horas para optimizar la farmacodinamia (administración en infusión prolongada).",
+    "pediatric": "No está aprobado para uso en niños y adolescentes menores de 18 años. Su uso en población pediátrica es extremadamente limitado, experimental y solo bajo protocolos de uso compasivo o estudios clínicos, supervisado por un infectólogo pediatra.",
+    "elderly": "No se requiere un ajuste de dosis inicial basado únicamente en la edad. Sin embargo, la función renal suele estar disminuida en adultos mayores, por lo que es IMPRESCINDIBLE calcular la TFG (con la fórmula de Cockcroft-Gault o CKD-EPI) y ajustar la dosis según los rangos de insuficiencia renal.",
+    "renalImpairment": "Los ajustes son CRÍTICOS. Dosis para infusión de 3 horas cada 8 horas: TFG 60-89 mL/min: 2 g. TFG 30-59 mL/min: 1.5 g. TFG 15-29 mL/min: 1 g. TFG <15 mL/min (incluidos pacientes en diálisis): 0.75 g. En pacientes en hemodiálisis, administrar la dosis después de la sesión de diálisis.",
+    "hepaticImpairment": "No se requiere ajuste de dosis en insuficiencia hepática leve a moderada (Child-Pugh A y B). No hay datos suficientes para recomendar una dosis específica en insuficiencia hepática grave (Child-Pugh C); usar con precaución y monitoreo estrecho.",
+    "maxDose": "La dosis máxima diaria en pacientes con función renal normal es de 6 gramos (3 dosis de 2 g cada 8h). En insuficiencia renal, la dosis máxima se reduce según el esquema anterior."
+  },
+  "dosageForms": [
+    {
+      "form": "Polvo liofilizado para solución inyectable (infusión intravenosa)",
+      "strengths": [
+        "1 gramo (1000 mg)",
+        "2 gramos (2000 mg)"
+      ],
+      "route": "Intravenosa (solo infusión)"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida (alergia grave) al cefiderocol, a cualquier cefalosporina, o a cualquier componente de la formulación.",
+      "Antecedentes de reacción anafiláctica a cualquier antibiótico beta-lactámico (penicilinas, cefalosporinas, carbapenémicos, monobactámicos)."
+    ],
+    "relative": [
+      "Insuficiencia renal grave (TFG <15 mL/min) no en diálisis, por riesgo de acumulación.",
+      "Historial de colitis asociada a antibióticos.",
+      "Pacientes con deficiencia de vitamina K o en tratamiento con anticoagulantes cumarínicos (warfarina), por riesgo de alterar el INR."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Aumento de transaminasas (ALT, AST)",
+      "Diarrea",
+      "Náuseas"
+    ],
+    "common": [
+      "Vómitos",
+      "Dolor de cabeza",
+      "Reacción en el sitio de la infusión (dolor, flebitis)",
+      "Aumento de la creatinina sérica",
+      "Candidiasis oral o vaginal",
+      "Erupción cutánea",
+      "Prurito (comezón)"
+    ],
+    "uncommon": [
+      "Colitis por Clostridioides difficile (diarrea asociada a antibióticos)",
+      "Hipopotasemia (bajos niveles de potasio)",
+      "Prolongación del intervalo QT en el electrocardiograma",
+      "Trombocitopenia (bajas plaquetas)",
+      "Eosinofilia"
+    ],
+    "rare": [
+      "Anafilaxia (reacción alérgica grave)",
+      "Neutropenia (bajos glóbulos blancos)",
+      "Agranulocitosis",
+      "Síndrome de Stevens-Johnson",
+      "Necrólisis epidérmica tóxica",
+      "Encefalopatía (confusión, convulsiones)"
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Probenecid",
+        "effect": "El probenecid puede inhibir la secreción tubular renal del cefiderocol, aumentando sus concentraciones plasmáticas y el riesgo de efectos adversos. No se recomienda su uso conjunto.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Anticoagulantes orales (Warfarina, Acenocumarol)",
+        "effect": "Los antibióticos de amplio espectro, incluyendo cefiderocol, pueden alterar la flora intestinal que produce vitamina K, potenciando el efecto anticoagulante y aumentando el riesgo de sangrado. Se requiere monitoreo frecuente del INR.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Vacunas de bacterias vivas atenuadas (ej. vacuna oral contra fiebre tifoidea, BCG)",
+        "effect": "El cefiderocol puede reducir la eficacia de estas vacunas. Se debe posponer la vacunación hasta después de finalizar el tratamiento antibiótico.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "No aplica, ya que es un medicamento intravenoso. No interactúa con alimentos.",
+    "withSupplements": "Suplementos que contienen hierro por vía intravenosa podrían, en teoría, competir con el mecanismo de transporte del cefiderocol. Se recomienda separar la administración. Los probióticos pueden ser útiles para prevenir la diarrea asociada a antibióticos, pero no hay interacción farmacológica directa."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "B",
+      "recommendation": "No hay estudios adecuados y bien controlados en mujeres embarazadas. Los estudios en animales no mostraron riesgo fetal. Solo debe usarse durante el embarazo si el beneficio potencial para la madre justifica claramente el riesgo potencial para el feto. Su uso estaría restringido a infecciones graves por bacterias multirresistentes que amenacen la vida de la madre. La decisión debe ser tomada por un equipo multidisciplinario (obstetricia, infectología).",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se desconoce si el cefiderocol se excreta en la leche materna humana. Considerando que muchos antibióticos beta-lactámicos sí se excretan y el potencial de efectos adversos graves en el lactante (como alteración de la flora intestinal, diarrea, candidiasis), se recomienda suspender la lactancia materna durante el tratamiento o, si es absolutamente necesario, tomar la decisión evaluando el riesgo-beneficio. Se puede extraer y desechar la leche durante el tratamiento.",
+    "pediatric": "La seguridad y eficacia en pacientes menores de 18 años no están establecidas. No está aprobado para uso pediátrico. Su uso sería excepcional, en casos de infecciones por bacterias panresistentes sin otra alternativa, bajo supervisión de un infectólogo pediatra y con consentimiento informado detallado.",
+    "geriatric": "Los pacientes de edad avanzada (≥65 años) tienen mayor probabilidad de presentar función renal disminuida. Es fundamental calcular la TFG y ajustar la dosis en consecuencia para evitar toxicidad por acumulación. También pueden ser más susceptibles a los efectos adversos gastrointestinales y a la colitis por C. difficile. Monitorear estrechamente la función renal y los electrolitos."
+  },
+  "administration": {
+    "howToTake": "Este medicamento SOLO se administra en un hospital, por un profesional de la salud, a través de una vena (vía intravenosa). Nunca se toma por boca. El polvo se reconstituye y luego se diluye en una bolsa de solución para infusión (generalmente solución salina al 0.9% o dextrosa al 5%). La infusión debe durar EXACTAMENTE 3 horas para que el medicamento sea más efectivo y cause menos irritación en la vena. Se administra cada 8 horas (tres veces al día). Es importante informar inmediatamente al personal de enfermería si siente dolor, ardor, enrojecimiento o hinchazón en el sitio donde está el suero.",
+    "storage": "El polvo liofilizado sin reconstituir debe almacenarse en su empaque original, a temperatura controlada (entre 2°C y 8°C, es decir, refrigerado). NO CONGELAR. Una vez reconstituido y diluido, la solución es estable a temperatura ambiente por un tiempo limitado (consultar la ficha técnica específica del producto, generalmente 1-6 horas). No debe almacenarse la solución preparada por largos periodos.",
+    "specialInstructions": "1) Es un antibiótico de RESERVA. Su uso debe ser autorizado y supervisado por un médico especialista en enfermedades infecciosas (infectólogo). 2) Antes de iniciar el tratamiento, se deben tomar muestras para cultivo y prueba de sensibilidad (antibiograma) para confirmar que la bacteria causante es susceptible al cefiderocol. 3) Se debe realizar un hemograma completo y pruebas de función renal y hepática antes de iniciar y periódicamente durante el tratamiento. 4) Informar al médico si se presenta diarrea acuosa o con sangre, incluso semanas después de terminar el tratamiento, ya que puede ser una colitis grave."
+  },
+  "monitoring": {
+    "labTests": [
+      "Cultivo y antibiograma del sitio de infección (antes de iniciar).",
+      "Creatinina sérica y cálculo de TFG (antes y cada 48-72 horas durante el tratamiento).",
+      "Pruebas de función hepática (ALT, AST) (antes y semanalmente).",
+      "Hemograma completo (antes y semanalmente).",
+      "Electrolitos séricos (especialmente potasio).",
+      "INR (si el paciente recibe warfarina)."
+    ],
+    "frequency": "Monitoreo diario clínico (signos de mejoría de la infección, efectos adversos). Monitoreo de laboratorio: Función renal cada 2-3 días, función hepática y hemograma al menos una vez por semana. En pacientes con insuficiencia renal, monitoreo más frecuente.",
+    "signsToWatch": [
+      "Fiebre persistente o que reaparece.",
+      "Diarrea acuosa, con moco o sangre (posible colitis).",
+      "Erupción cutánea grave, ampollas o descamación.",
+      "Dificultad para respirar, hinchazón de cara/lengua (signos de alergia).",
+      "Sangrado inusual (encías, moretones, sangre en orina/heces).",
+      "Confusión, somnolencia excesiva o convulsiones.",
+      "Dolor o inflamación severa en el sitio de la infusión."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Los síntomas de sobredosis estarían relacionados con una exacerbación de los efectos adversos, especialmente neurológicos (convulsiones, encefalopatía) y renales (deterioro agudo de la función renal). También podría exacerbar la prolongación del intervalo QT."
+    ],
+    "treatment": "No existe un antídoto específico. El tratamiento es de soporte y sintomático. En caso de sobredosis, se debe suspender inmediatamente la administración del medicamento. La hemodiálisis puede eliminar parcialmente el cefiderocol de la circulación (aproximadamente 60% en 3 horas) y puede ser considerada en casos graves, especialmente en pacientes con función renal subyacente deteriorada.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (receta archivada). Es un medicamento de control sanitario.",
+    "scheduleMexico": "Medicamento de patente, sujeto a prescripción médica. No es un psicotrópico ni estupefaciente, pero su dispensación está altamente controlada por su carácter de antibiótico de último recurso.",
+    "fdaApprovalYear": "Aprobado por la FDA de Estados Unidos en 2019. Aprobado por COFEPRIS en México posteriormente (consulta año específico según registro, aprox. 2020-2021)."
+  },
+  "brandsMexico": [
+    "Fetroja® (Shionogi)",
+    "Cefiderocol (genérico de diversos laboratorios, sujeto a disponibilidad)"
+  ],
+  "clinicalPearls": [
+    "El cefiderocol es un 'arma' de último recurso. Su uso indiscriminado acelerará la aparición de resistencia. Siempre debe guiarse por cultivo y antibiograma.",
+    "La infusión prolongada de 3 horas cada 8h es clave para optimizar la farmacodinamia (tiempo >CIM) y mejorar los resultados clínicos.",
+    "En pacientes con TFG <15 mL/min, el ajuste de dosis es obligatorio. Administrar POST-diálisis en pacientes en hemodiálisis.",
+    "Monitorizar estrechamente la aparición de diarrea. Considerar C. difficile hasta que se demuestre lo contrario, especialmente en pacientes hospitalizados.",
+    "Aunque es una cefalosporina, su perfil de seguridad es similar al de otros beta-lactámicos, con bajo riesgo de toxicidad grave cuando se usa correctamente."
+  ],
+  "patientCounseling": "Estimado paciente, este es un antibiótico muy potente que se usa solo en infecciones graves y resistentes. Se administrará directamente en su vena en el hospital, tres veces al día, en infusiones largas. Es normal que le tomen muestras de sangre con frecuencia para asegurarse de que la dosis es correcta y que no hay efectos secundarios en sus riñones o hígado. Es MUY IMPORTANTE que informe de inmediato a la enfermera o al médico si siente mucho dolor donde está el suero, si le sale salpullido, si tiene dificultad para respirar o si le da diarrea, especialmente si es líquida o con sangre. Aunque se sienta mejor, es crucial recibir TODO el tratamiento indicado por el médico para eliminar por completo la infección y evitar que la bacteria se vuelva aún más resistente. Este medicamento es una herramienta valiosa que debemos usar con mucha responsabilidad.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre alta",
+        "slug": "fiebre-alta"
+      },
+      {
+        "name": "Escalofríos y sudoración",
+        "slug": "escalofrios-sudoracion"
+      },
+      {
+        "name": "Dolor al orinar y urgencia",
+        "slug": "dolor-orinar-urgencia"
+      },
+      {
+        "name": "Dolor en el costado (riñón)",
+        "slug": "dolor-costado-rinon"
+      },
+      {
+        "name": "Tos con flema purulenta",
+        "slug": "tos-flema-purulenta"
+      },
+      {
+        "name": "Dificultad para respirar",
+        "slug": "dificultad-respirar-dispnea"
+      },
+      {
+        "name": "Confusión o alteración del estado mental",
+        "slug": "confusion-alteracion-mental"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Pielonefritis aguda complicada",
+        "slug": "pielonefritis-aguda-complicada"
+      },
+      {
+        "name": "Neumonía asociada al ventilador (NAV)",
+        "slug": "neumonia-asociada-ventilador"
+      },
+      {
+        "name": "Neumonía intrahospitalaria",
+        "slug": "neumonia-intrahospitalaria"
+      },
+      {
+        "name": "Bacteriemia por Gram-negativos",
+        "slug": "bacteriemia-gram-negativos"
+      },
+      {
+        "name": "Infección del tracto urinario complicada",
+        "slug": "infeccion-tracto-urinario-complicada"
+      },
+      {
+        "name": "Infecciones por bacterias productoras de carbapenemasas (KPC, NDM)",
+        "slug": "infecciones-bacterias-carbapenemasas"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Insuficiencia renal aguda",
+        "slug": "insuficiencia-renal-aguda"
+      },
+      {
+        "name": "Colitis por Clostridioides difficile",
+        "slug": "colitis-clostridioides-difficile"
+      },
+      {
+        "name": "Hepatotoxicidad inducida por fármacos",
+        "slug": "hepatotoxicidad-inducida-farmacos"
+      },
+      {
+        "name": "Prolongación del intervalo QT",
+        "slug": "prolongacion-intervalo-qt"
+      },
+      {
+        "name": "Sobrecarga de hierro (en teoría, por su mecanismo)",
+        "slug": "sobrecarga-hierro"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Transaminasas (ALT, AST)",
+        "slug": "transaminasas-alt-ast",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Potasio sérico (K+)",
+        "slug": "potasio-serico",
+        "effect": "Puede disminuir (hipopotasemia)"
+      },
+      {
+        "name": "Recuento de plaquetas",
+        "slug": "recuento-plaquetas",
+        "effect": "Puede disminuir (trombocitopenia)"
+      },
+      {
+        "name": "INR (International Normalized Ratio)",
+        "slug": "inr-ratio-normalizado-internacional",
+        "effect": "Puede elevar (aumenta riesgo de sangrado)"
+      },
+      {
+        "name": "Recuento de neutrófilos",
+        "slug": "recuento-neutrofilos",
+        "effect": "Puede disminuir (neutropenia)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Urocultivo con antibiograma",
+        "slug": "urocultivo-antibiograma",
+        "reason": "Para identificar la bacteria y confirmar sensibilidad al cefiderocol antes de iniciar."
+      },
+      {
+        "name": "Hemocultivos",
+        "slug": "hemocultivos",
+        "reason": "En casos de sospecha de bacteriemia o sepsis."
+      },
+      {
+        "name": "Cultivo de esputo o aspirado bronquial",
+        "slug": "cultivo-esputo-aspirado-bronquial",
+        "reason": "Para neumonía, identificar el patógeno causal."
+      },
+      {
+        "name": "Prueba de toxina para C. difficile en heces",
+        "slug": "prueba-toxina-c-difficile-heces",
+        "reason": "Si el paciente desarrolla diarrea durante o después del tratamiento."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de creatinina (Cockcroft-Gault)",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de TFG (CKD-EPI)",
+        "slug": "calculadora-egfr"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿El cefiderocol es una inyección o una pastilla?",
+      "a": "Es exclusivamente una inyección que se administra lentamente en la vena (infusión intravenosa). No existe en forma de pastillas o jarabe."
+    },
+    {
+      "q": "¿Por qué me ponen este antibiótico si hay otros más comunes?",
+      "a": "Porque la bacteria que le está causando la infección ha demostrado ser resistente a los antibióticos comunes y de primera línea. El cefiderocol es un medicamento de 'último recurso' para estos casos graves donde otras opciones no funcionarían."
+    },
+    {
+      "q": "¿Cuánto tiempo dura el tratamiento?",
+      "a": "La duración depende de la gravedad y el tipo de infección. Para una infección urinaria complicada suelen ser 7 a 14 días. Para una neumonía o bacteriemia, puede ser de 10 a 14 días o más. Su médico determinará el tiempo exacto basándose en su respuesta clínica."
+    },
+    {
+      "q": "¿Puedo recibir este medicamento en casa o debo estar hospitalizado?",
+      "a": "Debe estar HOSPITALIZADO. Es un tratamiento intravenoso complejo que requiere monitoreo médico y de enfermería estrecho, infusiones largas cada 8 horas y análisis de sangre frecuentes. No se administra de forma ambulatoria."
+    },
+    {
+      "q": "¿Qué efectos secundarios son los más comunes?",
+      "a": "Los más frecuentes son malestar gastrointestinal (diarrea, náuseas), dolor de cabeza, y alteraciones en las pruebas de laboratorio del hígado (transaminasas elevadas). También puede causar irritación en la vena donde se pone el suero."
+    },
+    {
+      "q": "¿Me puede dar alergia este medicamento?",
+      "a": "Sí, como cualquier antibiótico, puede causar reacciones alérgicas. Si es alérgico a penicilinas u otras cefalosporinas, tiene mayor riesgo. Informe de inmediato si presenta ronchas, comezón, hinchazón de cara/labios o dificultad para respirar."
+    },
+    {
+      "q": "¿Puedo tomar alcohol mientras recibo cefiderocol?",
+      "a": "No se recomienda. Aunque no hay una interacción directa grave conocida, el alcohol puede afectar su sistema inmunológico y su hígado, y usted ya está combatiendo una infección grave. Es mejor evitarlo durante el tratamiento."
+    },
+    {
+      "q": "Si tengo problemas de los riñones, ¿me pueden dar la misma dosis?",
+      "a": "NO. La dosis debe ajustarse estrictamente según la función de sus riñones. Su médico calculará su TFG (tasa de filtración glomerular) y reducirá la dosis y/o espaciará las infusiones para evitar que el medicamento se acumule y cause toxicidad."
+    },
+    {
+      "q": "¿Este antibiótico me va a dar diarrea? ¿Qué hago si me da?",
+      "a": "Es un efecto común. Si la diarrea es leve, informe a su médico o enfermera. Si es severa, acuosa, con sangre o fiebre, informe INMEDIATAMENTE, ya que podría ser una colitis grave por una bacteria llamada C. difficile, que requiere tratamiento específico."
+    },
+    {
+      "q": "¿Interfiere con mis otros medicamentos para el corazón o la presión?",
+      "a": "No tiene interacciones graves conocidas con la mayoría de medicamentos para hipertensión o el corazón. Sin embargo, puede prolongar levemente el intervalo QT (una medida en el electrocardiograma). Su médico lo vigilará si toma otros fármacos que también lo prolonguen."
+    },
+    {
+      "q": "¿Puedo comer normalmente durante el tratamiento?",
+      "a": "Sí, no hay restricciones dietéticas específicas. Mantener una buena hidratación y una dieta balanceada ayuda a la recuperación. Si tiene náuseas, puede preferir comidas pequeñas y frecuentes."
+    },
+    {
+      "q": "¿Qué pasa si me salto una dosis o la infusión se retrasa?",
+      "a": "En el hospital, el personal se encarga del horario. Si hay un retraso significativo, se administra lo antes posible y se reajusta el horario para mantener el intervalo de 8 horas. Es importante no acortar ni alargar demasiado los intervalos para que el antibiótico sea efectivo."
+    },
+    {
+      "q": "¿El cefiderocol es muy caro?",
+      "a": "Sí, es uno de los antibióticos más costosos del mercado debido a su novedad y mecanismo único. Su uso en hospitales públicos o privados suele estar sujeto a autorizaciones especiales por su alto costo y para evitar uso indiscriminado."
+    },
+    {
+      "q": "¿Sirve para infecciones por COVID-19 o influenza?",
+      "a": "NO. El cefiderocol es un ANTIBIÓTICO, es decir, mata BACTERIAS. El COVID-19 y la influenza son causados por VIRUS. No tiene ningún efecto contra los virus. Solo se usa para infecciones bacterianas específicas y resistentes."
+    },
+    {
+      "q": "¿Me van a hacer muchos análisis de sangre?",
+      "a": "Sí, es parte fundamental del tratamiento. Se harán análisis frecuentes (cada 2-3 días) para revisar la función de sus riñones e hígado, y un hemograma para vigilar sus células sanguíneas. Esto asegura que la dosis sea segura y efectiva."
+    },
+    {
+      "q": "¿Qué tan rápido empieza a hacer efecto?",
+      "a": "Empieza a actuar rápidamente, pero la mejoría clínica (bajar la fiebre, sentirse mejor) puede tardar de 48 a 72 horas en notarse, dependiendo de la gravedad de la infección. Es importante tener paciencia y completar todo el tratamiento."
+    },
+    {
+      "q": "Si soy diabético, ¿afecta mis niveles de azúcar?",
+      "a": "No hay evidencia de que el cefiderocol afecte directamente la glucosa en sangre. Sin embargo, cualquier infección grave puede descontrolar la diabetes. Se debe monitorear la glucosa con más frecuencia durante la enfermedad."
+    },
+    {
+      "q": "¿Puede este medicamento dañar mis riñones permanentemente?",
+      "a": "Puede causar un aumento temporal de la creatinina (indicador de función renal), que generalmente es reversible al ajustar la dosis o terminar el tratamiento. El daño renal permanente es raro si se monitorea y ajusta la dosis correctamente según la función renal."
+    },
+    {
+      "q": "¿Por qué la infusión dura 3 horas? ¿No puede ser más rápido?",
+      "a": "No, es crucial que dure 3 horas. Esta 'infusión prolongada' permite que el nivel del antibiótico en su sangre se mantenga por encima del necesario para matar la bacteria durante más tiempo, haciéndolo mucho más efectivo y reduciendo el riesgo de que la bacteria desarrolle resistencia."
+    },
+    {
+      "q": "¿Qué pruebas se hicieron antes de decidir usar cefiderocol en mi caso?",
+      "a": "Lo más probable es que su médico haya enviado un cultivo (de orina, sangre o esputo) al laboratorio. El resultado mostró una bacteria Gram-negativa (como E. coli, Klebsiella, Pseudomonas) que era resistente a casi todos los antibióticos probados, pero SENSIBLE al cefiderocol. Esa es la razón principal para su uso."
+    }
+  ]
+}

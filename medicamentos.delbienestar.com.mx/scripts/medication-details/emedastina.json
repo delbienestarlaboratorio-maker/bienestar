@@ -1,0 +1,375 @@
+{
+  "name": "Emedastina",
+  "summary": "La emedastina es un medicamento antihistamínico de segunda generación que se utiliza principalmente para tratar los síntomas de la rinitis alérgica y la urticaria (ronchas). Funciona bloqueando la acción de la histamina, una sustancia química que tu cuerpo libera durante una reacción alérgica y que causa síntomas molestos como picazón, estornudos, secreción nasal y lagrimeo. Es importante clínicamente porque ofrece alivio de estos síntomas con un menor riesgo de causar somnolencia en comparación con los antihistamínicos más antiguos, lo que permite a los pacientes mantener sus actividades diarias normales. Su acción selectiva sobre los receptores H1 de histamina lo hace eficaz y generalmente bien tolerado para el control de afecciones alérgicas comunes, mejorando significativamente la calidad de vida de quienes las padecen.",
+  "pharmacology": {
+    "mechanismOfAction": "La emedastina es un antagonista selectivo y competitivo de los receptores H1 de histamina periféricos. Esto significa que se une a estos receptores en las células, impidiendo que la histamina liberada durante una reacción alérgica se una a ellos y desencadene la cascada de síntomas. Al bloquear estos receptores, inhibe la vasodilatación, la permeabilidad vascular aumentada (que causa hinchazón), el prurito (picazón) y la contracción del músculo liso bronquial. Tiene una baja penetración en el sistema nervioso central, lo que explica su bajo potencial para causar sedación en comparación con los antihistamínicos clásicos.",
+    "pharmacologicClass": "Antagonista selectivo de los receptores H1 de histamina. Derivado de la piperazina.",
+    "therapeuticClass": "Antihistamínico H1 de segunda generación (no sedante).",
+    "absorption": "Se absorbe bien por vía oral. La biodisponibilidad oral es aproximadamente del 70-80%. La concentración plasmática máxima (Cmax) se alcanza entre 1 y 2 horas después de la administración oral.",
+    "distribution": "Se distribuye ampliamente en los tejidos. Su unión a proteínas plasmáticas es moderada, aproximadamente del 55-60%. Tiene un volumen de distribución (Vd) de alrededor de 5-7 L/kg, lo que indica una buena distribución en los tejidos. Su baja liposolubilidad limita su paso a través de la barrera hematoencefálica.",
+    "metabolism": "Se metaboliza extensamente en el hígado, principalmente a través del sistema enzimático del citocromo P450, específicamente por la isoenzima CYP3A4. Los metabolitos principales son la desalquil-emedastina y otros derivados oxidados, que en su mayoría son farmacológicamente inactivos o tienen una actividad muy reducida.",
+    "elimination": "La vida media de eliminación es de aproximadamente 10 a 12 horas en adultos sanos. Se elimina principalmente por vía renal; alrededor del 60-70% de la dosis se excreta en la orina en forma de metabolitos, y menos del 5% como fármaco sin cambios. El resto se elimina en las heces.",
+    "onsetOfAction": "El inicio de acción es relativamente rápido. Los efectos antihistamínicos comienzan a notarse aproximadamente entre 1 y 2 horas después de la administración oral.",
+    "durationOfAction": "La duración del efecto es prolongada, permitiendo una dosificación de una o dos veces al día. Su efecto clínico puede durar hasta 24 horas después de una sola dosis."
+  },
+  "indications": {
+    "approved": [
+      "Rinitis alérgica estacional (fiebre del heno)",
+      "Rinitis alérgica perenne",
+      "Urticaria crónica idiopática (ronchas)"
+    ],
+    "offLabel": [
+      "Conjuntivitis alérgica (en formulaciones oftálmicas, aunque en México la presentación oral es la principal)",
+      "Prurito (picazón) asociado a dermatitis atópica leve",
+      "Alivio sintomático de alergias cutáneas leves"
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis habitual para adultos y adolescentes mayores de 12 años es de 2 mg dos veces al día (cada 12 horas). En algunos casos, puede iniciarse con 1 mg dos veces al día y ajustarse según la respuesta. La dosis máxima recomendada es de 4 mg al día.",
+    "pediatric": "Niños de 6 a 12 años: 1 mg dos veces al día (cada 12 horas). Niños menores de 6 años: No se recomienda su uso, ya que la seguridad y eficacia no están establecidas en este grupo. Siempre debe ser prescrito por un pediatra.",
+    "elderly": "En pacientes mayores de 65 años sin problemas hepáticos o renales significativos, puede usarse la dosis estándar de adultos (2 mg dos veces al día). Sin embargo, se recomienda iniciar con la dosis más baja efectiva (ej. 1 mg dos veces al día) debido a posibles cambios en la farmacocinética y mayor sensibilidad.",
+    "renalImpairment": "Ajuste necesario. Insuficiencia renal leve (TFG 60-89 mL/min): Puede requerir ajuste a 1 mg dos veces al día. Insuficiencia renal moderada a grave (TFG < 60 mL/min): Se recomienda reducir la dosis a 1 mg una vez al día o evitar su uso. Consultar al médico.",
+    "hepaticImpairment": "Ajuste necesario. En pacientes con insuficiencia hepática leve a moderada (Child-Pugh A o B), se recomienda reducir la dosis a 1 mg dos veces al día. En insuficiencia hepática grave (Child-Pugh C), se debe evitar su uso debido al metabolismo hepático extenso.",
+    "maxDose": "La dosis máxima diaria para adultos es de 4 mg (ej., 2 mg cada 12 horas). No se debe exceder esta dosis."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "1 mg",
+        "2 mg"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la emedastina o a cualquier componente de la formulación",
+      "Pacientes con porfiria aguda intermitente",
+      "Niños menores de 6 años de edad"
+    ],
+    "relative": [
+      "Insuficiencia renal grave (TFG < 30 mL/min)",
+      "Insuficiencia hepática grave (Child-Pugh C)",
+      "Antecedentes de arritmias cardíacas (especialmente prolongación del intervalo QT)",
+      "Embarazo y lactancia (evaluar riesgo-beneficio)",
+      "Uso concomitante con inhibidores potentes de CYP3A4 (como ketoconazol)"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Dolor de cabeza (cefalea)"
+    ],
+    "common": [
+      "Somnolencia (aunque menos que con antihistamínicos clásicos)",
+      "Sequedad de boca",
+      "Mareo",
+      "Fatiga",
+      "Náuseas leves",
+      "Dolor abdominal"
+    ],
+    "uncommon": [
+      "Nerviosismo o ansiedad",
+      "Insomnio",
+      "Aumento del apetito",
+      "Diarrea o estreñimiento",
+      "Erupción cutánea",
+      "Faringitis"
+    ],
+    "rare": [
+      "Reacciones de hipersensibilidad (urticaria, angioedema)",
+      "Palpitaciones o taquicardia",
+      "Visión borrosa",
+      "Aumento de enzimas hepáticas (transaminasas)",
+      "Convulsiones (en casos muy raros, especialmente con sobredosis)"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Ketoconazol, Itraconazol, Fluconazol",
+        "effect": "Aumentan significativamente los niveles plasmáticos de emedastina al inhibir su metabolismo por CYP3A4, incrementando el riesgo de efectos adversos, incluida posible prolongación del QT.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Eritromicina, Claritromicina",
+        "effect": "Inhiben CYP3A4, pudiendo aumentar los niveles de emedastina y el riesgo de efectos cardíacos como prolongación del intervalo QT.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Antidepresivos tricíclicos (amitriptilina)",
+        "effect": "Potenciación de efectos anticolinérgicos (sequedad de boca, estreñimiento, retención urinaria) y posible efecto aditivo en la prolongación del intervalo QT.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Alcohol",
+        "effect": "Puede potenciar el efecto depresor del sistema nervioso central, aumentando la somnolencia y el deterioro de la coordinación. Se debe evitar o limitar su consumo.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Otros depresores del SNC (benzodiacepinas, opioides)",
+        "effect": "Adición de efectos sedantes, aumentando el riesgo de somnolencia excesiva y deterioro psicomotor.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Los alimentos no afectan significativamente la absorción de la emedastina. Puede tomarse con o sin alimentos. Sin embargo, se recomienda evitar el consumo de jugo de toronja (pomelo), ya que puede inhibir la enzima CYP3A4 y aumentar los niveles del fármaco. El consumo de alcohol debe evitarse o ser mínimo, ya que potencia los efectos sedantes.",
+    "withSupplements": "Interacciones no bien documentadas con suplementos herbales comunes. Sin embargo, se debe tener precaución con hierbas que tengan efectos sedantes (valeriana, kava, pasiflora) por posible potenciación de la somnolencia. La hierba de San Juan (Hypericum perforatum) puede inducir CYP3A4 y potencialmente disminuir los niveles de emedastina, reduciendo su eficacia."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA B",
+      "recommendation": "Los estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. Solo debe usarse durante el embarazo si el beneficio potencial justifica claramente el riesgo potencial para el feto. Se prefiere evitar su uso en el primer trimestre. Consultar siempre al obstetra.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se desconoce si la emedastina se excreta en la leche materna humana. Dado que muchos fármacos se excretan en la leche y por la falta de datos, se recomienda precaución. Se debe decidir entre suspender la lactancia o suspender el fármaco, teniendo en cuenta la importancia del medicamento para la madre. Se consideran alternativas más seguras durante la lactancia.",
+    "pediatric": "Aprobado para niños a partir de 6 años de edad a dosis reducidas (1 mg dos veces al día). En menores de 6 años no se recomienda por falta de datos de seguridad. En niños, vigilar posibles efectos paradójicos como excitación o nerviosismo en lugar de somnolencia.",
+    "geriatric": "Los pacientes mayores pueden ser más sensibles a los efectos anticolinérgicos (sequedad, estreñimiento, confusión) y a los efectos sedantes. Es recomendable iniciar con la dosis más baja posible (1 mg dos veces al día) y monitorear la respuesta. Evaluar función renal y hepática antes de iniciar."
+  },
+  "administration": {
+    "howToTake": "Tomar las tabletas por vía oral con un vaso de agua. Pueden tomarse con o sin alimentos. Si se prescribe dos veces al día, tomar las dosis aproximadamente cada 12 horas para mantener un nivel constante en sangre (por ejemplo, a las 8 am y a las 8 pm). No triturar, masticar ni partir las tabletas a menos que lo indique el médico o farmacéutico. Si olvida una dosis, tómela tan pronto como lo recuerde, pero si es casi la hora de la siguiente dosis, omita la dosis olvidada y continúe con su horario normal. Nunca duplique la dosis para compensar.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (entre 15°C y 30°C). Proteger de la luz, la humedad y el calor excesivo. Mantener fuera del alcance y de la vista de los niños. No utilizar después de la fecha de caducidad impresa en el empaque.",
+    "specialInstructions": "Aunque es menos sedante que otros antihistamínicos, algunas personas pueden experimentar somnolencia. Se recomienda precaución al conducir vehículos o operar maquinaria peligrosa hasta conocer cómo les afecta el medicamento. Informar al médico si los síntomas no mejoran después de unos días de tratamiento o si empeoran. No utilizar para tratar síntomas de resfriado común a menos que sea por indicación médica específica para alergias."
+  },
+  "monitoring": {
+    "labTests": [
+      "Pruebas de función hepática (ALT, AST) en uso prolongado",
+      "Creatinina sérica y TFG en pacientes con riesgo renal",
+      "Electrocardiograma (ECG) en pacientes con riesgo cardíaco o que tomen otros fármacos que prolonguen el QT"
+    ],
+    "frequency": "Monitoreo clínico de síntomas y efectos adversos en cada consulta. Pruebas de laboratorio (hígado, riñón) cada 6-12 meses si el tratamiento es crónico, o antes si hay síntomas sugerentes de toxicidad. ECG solo si hay indicación clínica.",
+    "signsToWatch": [
+      "Somnolencia excesiva que interfiere con actividades",
+      "Mareo intenso o desmayo",
+      "Palpitaciones o latidos irregulares",
+      "Dificultad para orinar (retención urinaria)",
+      "Erupción cutánea o hinchazón (signos de alergia)",
+      "Ictericia (color amarillo en piel/ojos) o dolor abdominal superior (posible daño hepático)"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Somnolencia extrema",
+      "Mareo intenso",
+      "Confusión o agitación",
+      "Náuseas y vómitos",
+      "Taquicardia o palpitaciones",
+      "Convulsiones (en casos graves)",
+      "Prolongación del intervalo QT (riesgo de arritmia)"
+    ],
+    "treatment": "No existe antídoto específico. El tratamiento es de soporte y sintomático. Inducir el vómito o realizar lavado gástrico solo si la ingestión es reciente (dentro de 1-2 horas) y el paciente está consciente. Administrar carbón activado para reducir la absorción. Monitorear signos vitales, función cardíaca (ECG) y neurológica. En caso de convulsiones, usar benzodiacepinas. La hemodiálisis no es efectiva debido a la alta unión a proteínas.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Rx)",
+    "scheduleMexico": "Fracción III (Medicamento de venta con receta médica retenida o no, según criterio de la autoridad sanitaria).",
+    "fdaApprovalYear": "No aprobado por la FDA de EE.UU. para uso sistémico. Aprobado en otros países y en México por la COFEPRIS."
+  },
+  "brandsMexico": [
+    "Emadine",
+    "Emedastin",
+    "Emedine",
+    "Emestin",
+    "Alergix",
+    "Histamed",
+    "Emeda",
+    "Alermed"
+  ],
+  "clinicalPearls": [
+    "Aunque se clasifica como 'no sedante', un pequeño porcentaje de pacientes (alrededor del 5-10%) puede experimentar somnolencia significativa. Siempre se debe advertir sobre la precaución al conducir.",
+    "Su eficacia en la urticaria crónica puede tardar hasta 2 semanas en ser máxima. Se debe instruir al paciente a ser constante en el tratamiento y no suspenderlo prematuramente si no ve mejora inmediata.",
+    "En pacientes polimedicados, especialmente ancianos, revisar interacciones con inhibidores de CYP3A4 (antifúngicos azoles, algunos antibióticos) es crucial para evitar toxicidad por acumulación del fármaco."
+  ],
+  "patientCounseling": "Tome la emedastina exactamente como se lo indicó su médico, generalmente dos veces al día con agua. Puede tomarla con o sin alimentos. Aunque causa menos sueño que otros antihistamínicos, algunas personas pueden sentirse somnolientas, especialmente al inicio del tratamiento. Evite conducir o usar maquinaria peligrosa hasta que sepa cómo le afecta. No consuma alcohol mientras esté en tratamiento, ya que puede aumentar la somnolencia. Informe a su médico si está tomando otros medicamentos, especialmente para hongos (como ketoconazol) o antibióticos (como eritromicina). Si olvida una dosis, tómela tan pronto como lo recuerde, pero nunca duplique la dosis. Los síntomas de alergia deben mejorar en unos días; si no es así o si presenta palpitaciones, mareo intenso, erupción en la piel o dificultad para orinar, contacte a su médico de inmediato. Guarde el medicamento en un lugar fresco y seco, fuera del alcance de los niños.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Estornudos",
+        "slug": "estornudos"
+      },
+      {
+        "name": "Picazón en la nariz",
+        "slug": "picazon-en-la-nariz"
+      },
+      {
+        "name": "Secreción nasal acuosa",
+        "slug": "secrecion-nasal-acuosa"
+      },
+      {
+        "name": "Lagrimeo",
+        "slug": "lagrimeo"
+      },
+      {
+        "name": "Picazón en la piel (prurito)",
+        "slug": "picazon-en-la-piel"
+      },
+      {
+        "name": "Ronchas (urticaria)",
+        "slug": "ronchas-urticaria"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Rinitis alérgica estacional",
+        "slug": "rinitis-alergica-estacional"
+      },
+      {
+        "name": "Rinitis alérgica perenne",
+        "slug": "rinitis-alergica-perenne"
+      },
+      {
+        "name": "Urticaria crónica idiopática",
+        "slug": "urticaria-cronica-idiopatica"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Somnolencia excesiva",
+        "slug": "somnolencia-excesiva"
+      },
+      {
+        "name": "Retención urinaria",
+        "slug": "retencion-urinaria"
+      },
+      {
+        "name": "Arritmia cardíaca (prolongación QT)",
+        "slug": "arritmia-cardiaca-prolongacion-qt"
+      },
+      {
+        "name": "Hepatotoxicidad",
+        "slug": "hepatotoxicidad"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Alanina aminotransferasa (ALT)",
+        "slug": "alanina-aminotransferasa-alt",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Aspartato aminotransferasa (AST)",
+        "slug": "aspartato-aminotransferasa-ast",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar (indirectamente por deshidratación)"
+      },
+      {
+        "name": "Intervalo QT en ECG",
+        "slug": "intervalo-qt-ecg",
+        "effect": "Puede prolongar"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Pruebas de función hepática (Perfil hepático)",
+        "slug": "pruebas-funcion-hepatica",
+        "reason": "Para monitorear posible daño hepático por metabolismo del fármaco"
+      },
+      {
+        "name": "Creatinina sérica y TFG",
+        "slug": "creatinina-tfg",
+        "reason": "Para ajustar dosis en pacientes con riesgo de insuficiencia renal"
+      },
+      {
+        "name": "Electrocardiograma (ECG)",
+        "slug": "electrocardiograma-ecg",
+        "reason": "En pacientes con riesgo cardíaco o que tomen otros fármacos que afecten el QT"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve la emedastina?",
+      "a": "La emedastina sirve para aliviar los síntomas de las alergias, como los estornudos, la picazón en la nariz y los ojos, la secreción nasal acuosa y las ronchas (urticaria) en la piel. Es un antihistamínico que bloquea la sustancia que causa estos malestares."
+    },
+    {
+      "q": "¿La emedastina da sueño?",
+      "a": "Es menos probable que cause sueño en comparación con los antihistamínicos más antiguos (como la difenhidramina). Sin embargo, algunas personas pueden sentir algo de somnolencia, especialmente al empezar a tomarlo. Se recomienda precaución al manejar o realizar actividades que requieran alerta."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto la emedastina?",
+      "a": "Generalmente, comienza a hacer efecto entre 1 y 2 horas después de tomarla. Para el alivio completo de los síntomas de alergia, puede necesitarse unos días de tratamiento constante."
+    },
+    {
+      "q": "¿Puedo tomar emedastina si estoy embarazada?",
+      "a": "Solo debe usarse durante el embarazo si su médico considera que el beneficio es mayor que el riesgo potencial. Generalmente se prefieren otras alternativas más estudiadas. Consulte siempre a su médico antes de tomar cualquier medicamento si está embarazada o planea estarlo."
+    },
+    {
+      "q": "¿La emedastina se puede tomar con alcohol?",
+      "a": "No se recomienda. El alcohol puede aumentar el efecto de somnolencia causado por la emedastina, haciendo que se sienta más cansado o mareado, y afectando su capacidad para concentrarse o manejar."
+    },
+    {
+      "q": "¿Qué hago si olvidé tomar una dosis de emedastina?",
+      "a": "Tómela tan pronto como lo recuerde. Pero si ya es casi la hora de su siguiente dosis, omita la que olvidó y continúe con su horario normal. Nunca tome una dosis doble para compensar la que olvidó."
+    },
+    {
+      "q": "¿Los niños pueden tomar emedastina?",
+      "a": "Sí, pero solo a partir de los 6 años de edad y bajo la supervisión de un pediatra. La dosis para niños es menor que para adultos. No se debe administrar a niños menores de 6 años."
+    },
+    {
+      "q": "¿La emedastina es buena para la gripe o el resfriado?",
+      "a": "No está indicada específicamente para la gripe o el resfriado común. Solo alivia los síntomas de tipo alérgico (como estornudos y secreción nasal acuosa). Para un resfriado, consulte a su médico para un tratamiento adecuado."
+    },
+    {
+      "q": "¿Puedo tomar emedastina por mucho tiempo?",
+      "a": "Sí, se puede usar para tratamientos prolongados (como en la rinitis alérgica perenne o urticaria crónica) bajo supervisión médica. Su médico puede recomendarle chequeos periódicos para asegurarse de que no haya efectos adversos."
+    },
+    {
+      "q": "¿La emedastina sube la presión arterial?",
+      "a": "No es un efecto común de la emedastina. Sin embargo, si tiene problemas de presión arterial, consulte a su médico antes de iniciar el tratamiento, ya que todos los medicamentos deben ser evaluados en el contexto de su salud general."
+    },
+    {
+      "q": "¿Qué marcas de emedastina hay en México?",
+      "a": "En las farmacias mexicanas puede encontrar marcas como Emadine, Emedastin, Emedine, Emestin, Alergix, Histamed, Emeda y Alermed. Todas contienen el mismo principio activo."
+    },
+    {
+      "q": "¿La emedastina interactúa con otros medicamentos?",
+      "a": "Sí. Puede interactuar con medicamentos para hongos (como ketoconazol), algunos antibióticos (como eritromicina), antidepresivos y alcohol. Siempre informe a su médico sobre todos los medicamentos y suplementos que toma."
+    },
+    {
+      "q": "¿Puedo tomar emedastina si tengo problemas del hígado?",
+      "a": "Si tiene problemas hepáticos, debe usarse con mucha precaución y probablemente a una dosis más baja, ya que el hígado es responsable de metabolizar el medicamento. Su médico debe evaluar su caso y ajustar la dosis o recomendar una alternativa."
+    },
+    {
+      "q": "¿La emedastina causa aumento de peso?",
+      "a": "El aumento de peso no es un efecto adverso comúnmente reportado con la emedastina. Los efectos más frecuentes son dolor de cabeza, sequedad de boca y, en algunos casos, somnolencia."
+    },
+    {
+      "q": "¿Es mejor tomar emedastina en la mañana o en la noche?",
+      "a": "Depende de la dosis prescrita. Si es una vez al día, algunas personas prefieren tomarla en la noche si les causa algo de somnolencia. Si es dos veces al día, se debe tomar cada 12 horas (por ejemplo, 8 am y 8 pm) para mantener un efecto constante."
+    },
+    {
+      "q": "¿La emedastina sirve para la picazón en la piel por alergia?",
+      "a": "Sí, es efectiva para aliviar el prurito (picazón) causado por reacciones alérgicas en la piel, como en la urticaria (ronchas)."
+    },
+    {
+      "q": "¿Qué diferencia hay entre emedastina y loratadina?",
+      "a": "Ambos son antihistamínicos de segunda generación (menos sedantes). La principal diferencia está en su estructura química y su perfil de metabolismo. La elección depende de la respuesta individual del paciente y de las interacciones con otros medicamentos. Su médico puede recomendar uno u otro según su caso."
+    },
+    {
+      "q": "¿Puedo dejar de tomar emedastina de golpe?",
+      "a": "Sí, generalmente se puede suspender de golpe sin problemas de abstinencia, ya que no causa dependencia. Sin embargo, si la tomaba para una alergia crónica, los síntomas pueden regresar. Es mejor consultar a su médico para planificar la suspensión."
+    },
+    {
+      "q": "¿La emedastina afecta los resultados de laboratorio?",
+      "a": "En raras ocasiones, puede causar un aumento leve de las enzimas hepáticas (ALT, AST) en los análisis de sangre. Por eso, en tratamientos largos, el médico puede solicitar pruebas de función hepática periódicamente."
+    },
+    {
+      "q": "¿En pacientes con riesgo cardíaco, qué precauciones se deben tener con la emedastina?",
+      "a": "En pacientes con antecedentes de arritmias cardíacas, especialmente aquellos con síndrome de QT largo, o que tomen otros fármacos que prolonguen el QT, se debe usar con extrema precaución. La emedastina, aunque el riesgo es bajo, puede potencialmente prolongar el intervalo QT. Se recomienda una evaluación cardiológica y posiblemente un electrocardiograma (ECG) antes de iniciar el tratamiento en estos pacientes de alto riesgo."
+    }
+  ]
+}

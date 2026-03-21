@@ -1,0 +1,372 @@
+{
+  "name": "Dexmedetomidina",
+  "summary": "La dexmedetomidina es un medicamento inyectable que se usa principalmente en hospitales para sedar a pacientes que están conectados a un respirador en la Unidad de Cuidados Intensivos (UCI) o durante ciertos procedimientos quirúrgicos. Pertenece a una clase de fármacos llamados agonistas alfa-2 adrenérgicos, lo que significa que actúa en el cerebro y la médula espinal para producir un estado de sedación y analgesia (alivio del dolor) muy peculiar: el paciente está tranquilo y somnoliento, pero puede despertarse fácilmente cuando se le habla y colaborar con las indicaciones del personal médico. Su importancia clínica radica en que ofrece una sedación 'cooperativa' o 'arousable', reduce la necesidad de otros sedantes y analgésicos más potentes (como los opioides), y tiene un perfil de seguridad favorable al no deprimir significativamente la respiración, lo que puede acortar el tiempo de estancia en la UCI y facilitar el destete del respirador. Es una herramienta fundamental en anestesiología y medicina crítica para manejar a pacientes graves de manera más segura y confortable.",
+  "pharmacology": {
+    "mechanismOfAction": "La dexmedetomidina es un agonista altamente selectivo de los receptores alfa-2 adrenérgicos, con una afinidad aproximadamente 8 veces mayor que la clonidina. Su acción principal ocurre en el locus coeruleus del tronco cerebral, un núcleo crucial para la vigilia y la respuesta al estrés. Al activar estos receptores, inhibe la liberación de norepinefrina (noradrenalina), lo que resulta en una disminución de la actividad neuronal y produce efectos sedantes y ansiolíticos. A nivel de la médula espinal, la activación de receptores alfa-2 en las neuronas del asta posterior inhibe la transmisión de señales de dolor, proporcionando analgesia. Este mecanismo dual produce un estado único de sedación consciente donde el paciente está tranquilo, somnoliento, pero fácilmente despertable y capaz de seguir órdenes simples. Además, produce efectos simpaticolíticos, reduciendo la frecuencia cardíaca y la presión arterial.",
+    "pharmacologicClass": "Agonista alfa-2 adrenérgico de acción central, selectivo y potente.",
+    "therapeuticClass": "Sedante, analgésico coadyuvante, agente de sedación en cuidados intensivos.",
+    "absorption": "Tras la administración intravenosa, la biodisponibilidad es del 100%. La concentración plasmática máxima se alcanza inmediatamente al final de la infusión en bolo. La administración por vía intramuscular también es eficaz, con un tiempo para alcanzar la concentración máxima (Tmax) de aproximadamente 15 minutos.",
+    "distribution": "Se distribuye ampliamente en los tejidos. El volumen de distribución en estado estacionario (Vss) es de aproximadamente 118 litros, indicando una amplia distribución en tejidos periféricos. Se une extensamente a las proteínas plasmáticas (aproximadamente 94%), principalmente a la albúmina. Cruza la barrera hematoencefálica fácilmente debido a su alta liposolubilidad.",
+    "metabolism": "La dexmedetomidina sufre un metabolismo hepático extenso, principalmente mediante glucuronidación directa (por enzimas UGT2B10 y UGT1A4) y, en menor medida, mediante hidroxilación mediada por el sistema del citocromo P450 (principalmente CYP2A6). La metabolización es rápida y casi completa.",
+    "elimination": "La vida media de eliminación terminal es de aproximadamente 2 horas. La depuración sistémica es de alrededor de 39 L/h. Se elimina principalmente en la orina (95%) como metabolitos inactivos, y menos del 1% se excreta sin cambios. En pacientes con insuficiencia hepática grave, la vida media puede prolongarse significativamente.",
+    "onsetOfAction": "El inicio de acción tras una dosis en bolo intravenoso es rápido, generalmente entre 5 y 10 minutos. Los efectos máximos se observan en 15 a 30 minutos después del inicio de una infusión continua.",
+    "durationOfAction": "La duración del efecto clínico es relativamente corta después de suspender la infusión, generalmente de 1 a 4 horas, dependiendo de la duración de la infusión. Esto se debe a su corta vida media de eliminación, lo que permite un despertar rápido y predecible."
+  },
+  "indications": {
+    "approved": [
+      "Sedación inicial y mantenimiento de pacientes adultos intubados y con ventilación mecánica en un entorno de cuidados intensivos.",
+      "Sedación para procedimientos médicos no invasivos y/o invasivos en adultos (como colonoscopías, broncoscopías, procedimientos dermatológicos, cirugía menor), donde el paciente permanece despierto o ligeramente dormido pero capaz de despertarse con estímulos verbales."
+    ],
+    "offLabel": [
+      "Prevención y tratamiento del delirium en la UCI (especialmente delirium hiperactivo).",
+      "Sedación en pacientes pediátricos en UCI.",
+      "Adyuvante en anestesia general balanceada para reducir dosis de otros anestésicos y opioides, y mejorar la estabilidad hemodinámica.",
+      "Tratamiento del síndrome de abstinencia a opioides o benzodiacepinas.",
+      "Manejo de la agitación severa en contextos psiquiátricos o de urgencias.",
+      "Analgesia postoperatoria como parte de un régimen multimodal.",
+      "Sedación para pacientes con ventilación no invasiva (CPAP/BiPAP)."
+    ]
+  },
+  "dosage": {
+    "adults": "Para sedación en UCI (intubados): Carga de 1 mcg/kg administrada en infusión durante 10 minutos, seguida de infusión continua de mantenimiento de 0.2 a 0.7 mcg/kg/hora, ajustable según respuesta. Para sedación procedimental: Carga de 1 mcg/kg en infusión durante 10 minutos, seguida de infusión de 0.2 a 1 mcg/kg/hora, titulada para lograr el efecto deseado. Las dosis pueden ajustarse cada 15-30 minutos.",
+    "pediatric": "No está oficialmente aprobado en México para niños, pero en uso clínico (off-label): Dosis de carga de 0.5-1 mcg/kg en 10 min, seguida de infusión de 0.2-0.7 mcg/kg/hora para sedación en UCI. En procedimientos, dosis similares a adultos, con extrema precaución en neonatos y lactantes. Debe ser manejado exclusivamente por especialistas en pediatría o anestesiología pediátrica.",
+    "elderly": "Los pacientes de edad avanzada pueden ser más sensibles a los efectos del fármaco. Se recomienda iniciar con dosis más bajas (ej., carga de 0.5 mcg/kg y mantenimiento en el rango inferior de 0.2 mcg/kg/hora) y titular cuidadosamente debido a cambios en la farmacocinética y mayor riesgo de bradicardia e hipotensión.",
+    "renalImpairment": "No se requiere ajuste de dosis en insuficiencia renal leve a moderada (TFG > 30 mL/min). En insuficiencia renal grave (TFG < 30 mL/min) o en diálisis, se debe usar con precaución, aunque los estudios no muestran cambios significativos en la farmacocinética. Se recomienda iniciar con dosis bajas y monitorizar estrechamente.",
+    "hepaticImpairment": "En insuficiencia hepática, el metabolismo está reducido. En insuficiencia hepática leve (Child-Pugh A) no se requiere ajuste. En insuficiencia hepática moderada a grave (Child-Pugh B o C), se recomienda reducir la dosis significativamente (iniciar con 50% o menos de la dosis habitual) debido al riesgo de acumulación y efectos prolongados.",
+    "maxDose": "No hay una dosis máxima diaria absoluta definida. La dosis de infusión de mantenimiento rara vez excede 1.5 mcg/kg/hora en adultos, y dosis superiores a 1 mcg/kg/hora se asocian con mayor incidencia de efectos adversos. La titulación debe ser siempre al efecto clínico deseado."
+  },
+  "dosageForms": [
+    {
+      "form": "Solución inyectable (ampolla o vial)",
+      "strengths": [
+        "100 mcg/mL",
+        "200 mcg/2mL"
+      ],
+      "route": "Intravenosa, Intramuscular"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la dexmedetomidina o a cualquier componente de la formulación.",
+      "Pacientes con bloqueo cardíaco avanzado (de segundo o tercer grado) que no tengan marcapasos permanente.",
+      "Hipotensión arterial severa no controlada o shock."
+    ],
+    "relative": [
+      "Bradicardia sinusal significativa (frecuencia cardíaca < 50 lpm) o enfermedad del nodo sinusal.",
+      "Hipotensión arterial (PAS < 90 mmHg).",
+      "Insuficiencia hepática grave (Child-Pugh C).",
+      "Enfermedad cerebrovascular aguda (ej., accidente cerebrovascular reciente).",
+      "Pacientes ancianos o debilitados.",
+      "Uso concomitante con otros depresores del sistema nervioso central o fármacos que causan bradicardia."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Hipotensión arterial (presión baja).",
+      "Bradicardia (frecuencia cardíaca lenta)."
+    ],
+    "common": [
+      "Sequedad de boca.",
+      "Náuseas.",
+      "Dolor en el sitio de la inyección.",
+      "Agitación transitoria durante la recuperación.",
+      "Fiebre."
+    ],
+    "uncommon": [
+      "Hipertensión transitoria (especialmente con dosis de carga rápida).",
+      "Taquicardia (frecuencia cardíaca rápida).",
+      "Dificultad respiratoria (disnea).",
+      "Dolor de cabeza (cefalea).",
+      "Vómitos.",
+      "Aumento de la sudoración.",
+      "Ansiedad."
+    ],
+    "rare": [
+      "Paro cardíaco, arritmias ventriculares (como fibrilación ventricular).",
+      "Bloqueo cardíaco.",
+      "Edema pulmonar.",
+      "Reacción alérgica severa (anafilaxia).",
+      "Alucinaciones.",
+      "Síndrome de abstinencia (con la suspensión brusca después de infusiones prolongadas)."
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Anestésicos (Propofol, Isoflurano, Sevoflurano)",
+        "effect": "Potenciación de los efectos sedantes y cardiovasculares (hipotensión, bradicardia).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Opioides (Fentanilo, Morfina)",
+        "effect": "Potenciación de los efectos analgésicos y sedantes, mayor riesgo de depresión respiratoria (aunque la dexmedetomidina sola no la causa).",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Benzodiacepinas (Midazolam, Lorazepam)",
+        "effect": "Potenciación de la sedación, mayor riesgo de delirium.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Bloqueadores beta (Atenolol, Metoprolol)",
+        "effect": "Efecto aditivo en la disminución de la frecuencia cardíaca, riesgo elevado de bradicardia severa.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Bloqueadores de canales de calcio (Verapamilo, Diltiazem)",
+        "effect": "Efecto aditivo en la disminución de la frecuencia cardíaca y la contractilidad, riesgo de bradicardia y bloqueo cardíaco.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Digoxina",
+        "effect": "Aumenta el riesgo de bradicardia y bloqueo cardíaco.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "No aplica, ya que es un medicamento de uso exclusivamente hospitalario por vía intravenosa o intramuscular. No se administra por vía oral.",
+    "withSupplements": "Interacciones clínicamente significativas no bien documentadas. Sin embargo, se debe tener precaución con suplementos que tengan efectos sedantes (como valeriana, kava, melatonina en dosis altas) o que afecten la frecuencia cardíaca (como algunos suplementos para 'quemar grasa' que contienen estimulantes)."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA C",
+      "recommendation": "No hay estudios adecuados y bien controlados en mujeres embarazadas. La dexmedetomidina debe usarse durante el embarazo solo si el beneficio potencial justifica el riesgo potencial para el feto. Se ha utilizado en cesáreas como adyuvante anestésico sin reportes de daño fetal significativo, pero su uso debe ser decidido por el obstetra y anestesiólogo. No se recomienda para uso rutinario.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se desconoce si la dexmedetomidina se excreta en la leche humana. Debido a su potencial de efectos adversos graves en lactantes (bradicardia, sedación), se recomienda suspender la lactancia materna durante la administración del fármaco y por al menos 24 horas después de la última dosis, o extraer y desechar la leche de ese período.",
+    "pediatric": "Su uso en niños (especialmente menores de 1 mes) es off-label y debe reservarse para entornos de cuidados intensivos pediátricos o quirófanos con personal altamente especializado. Los neonatos y lactantes son más susceptibles a la bradicardia y la hipotensión. Las dosis se calculan meticulosamente por peso y se titulan con extrema precaución.",
+    "geriatric": "Los pacientes mayores de 65 años pueden presentar una farmacocinética alterada (mayor vida media) y mayor sensibilidad a los efectos del fármaco, especialmente a la bradicardia y la hipotensión. Se debe iniciar con dosis más bajas, titulando lentamente, y monitorizar continuamente los signos vitales."
+  },
+  "administration": {
+    "howToTake": "La dexmedetomidina es EXCLUSIVAMENTE para administración por personal médico calificado en un entorno hospitalario con monitorización continua (electrocardiograma, presión arterial, oxigenación). Se administra por vía intravenosa, ya sea como una infusión lenta en bolo (generalmente durante 10 minutos) seguida de una infusión continua controlada por una bomba de infusión. También puede administrarse por vía intramuscular en situaciones específicas. NUNCA debe tomarse por vía oral. La solución debe diluirse antes de la infusión (por ejemplo, en solución salina al 0.9%) para lograr la concentración deseada.",
+    "storage": "Las ampollas o viales sin abrir deben almacenarse a temperatura controlada (entre 15°C y 30°C), protegidos de la luz y el congelamiento. Una vez diluida, la solución es estable a temperatura ambiente por varias horas, pero se recomienda su uso inmediato. No mezclar en la misma jeringa o línea de infusión con otros medicamentos sin verificar la compatibilidad.",
+    "specialInstructions": "Debido al riesgo de bradicardia e hipotensión, se debe tener disponible atropina y líquidos intravenosos para contrarrestar estos efectos si son severos. La suspensión brusca después de infusiones prolongadas (>24 horas) puede provocar síntomas de abstinencia (nerviosismo, agitación, hipertensión); se recomienda disminuir la dosis gradualmente. El paciente debe ser informado de que puede sentir una somnolencia profunda pero que podrá despertarse si se le habla con firmeza."
+  },
+  "monitoring": {
+    "labTests": [
+      "No requiere monitoreo de laboratorio específico de rutina.",
+      "En infusiones prolongadas (>72h), puede considerarse un hemograma completo (poco frecuente efecto en glóbulos blancos).",
+      "Pruebas de función hepática (si hay insuficiencia hepática preexistente)."
+    ],
+    "frequency": "Monitorización continua y en tiempo real de: frecuencia cardíaca, ritmo cardíaco (ECG), presión arterial (no invasiva o invasiva) y saturación de oxígeno (pulsioxímetro). La evaluación del nivel de sedación (usando escalas como RASS o Ramsay) debe realizarse al menos cada hora durante la infusión.",
+    "signsToWatch": [
+      "Frecuencia cardíaca por debajo de 50 latidos por minuto (bradicardia severa).",
+      "Presión arterial sistólica por debajo de 90 mmHg (hipotensión sintomática).",
+      "Dificultad para respirar o disminución de la frecuencia respiratoria.",
+      "Signos de reacción alérgica (ronchas, hinchazón, dificultad para respirar).",
+      "Agitación o nerviosismo inusual al despertar.",
+      "Dolor o enrojecimiento intenso en el sitio de la inyección."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Bradicardia profunda (ritmo cardíaco muy lento) que puede progresar a paro cardíaco.",
+      "Hipotensión arterial severa (choque).",
+      "Sedación excesiva que progresa a coma (en combinación con otros sedantes).",
+      "Paro respiratorio (principalmente si se combina con otros depresores respiratorios)."
+    ],
+    "treatment": "1. Suspender inmediatamente la infusión de dexmedetomidina. 2. Mantener la vía aérea, ventilación y circulación (soporte vital avanzado). 3. Para la bradicardia: Administrar Atropina (0.5-1 mg IV, repetible). Si es refractaria, considerar isoproterenol o marcapasos transitorio. 4. Para la hipotensión: Administrar líquidos intravenosos y vasopresores (como noradrenalina o fenilefrina). 5. El soporte es sintomático, ya que no hay antídoto específico. La hemodiálisis no es efectiva debido a la alta unión a proteínas.",
+    "antidote": "No existe un antídoto específico. La atropina es el fármaco de elección para revertir la bradicardia inducida por dexmedetomidina."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial para uso hospitalario (medicamento de control). No está disponible para venta libre.",
+    "scheduleMexico": "Medicamento de la Fracción III (Sustancias Médicas de Control Especial). Su prescripción y dispensación están sujetas a control sanitario.",
+    "fdaApprovalYear": "Aprobado por la FDA en 1999 para sedación en UCI y en 2008 para sedación procedimental."
+  },
+  "brandsMexico": [
+    "Dexdor",
+    "Precedex",
+    "Dexmed",
+    "Dexmedet",
+    "Sedadex"
+  ],
+  "clinicalPearls": [
+    "La 'sedación cooperativa' es su sello distintivo: el paciente está tranquilo pero despierta fácilmente al contacto verbal, lo que es invaluable para evaluar el estado neurológico en UCI o para procedimientos donde se necesita cooperación.",
+    "A diferencia de muchos sedantes, la dexmedetomidina tiene propiedades analgésicas intrínsecas, reduciendo la necesidad de opioides y sus efectos secundarios (estreñimiento, depresión respiratoria, riesgo de adicción).",
+    "Es uno de los pocos sedantes que no deprime la respiración de manera significativa cuando se usa en dosis terapéuticas, lo que lo hace más seguro para pacientes con problemas respiratorios o para facilitar el destete del respirador.",
+    "Su efecto simpaticolítico (reduce la 'adrenalina') puede ser beneficioso en pacientes con taquicardia o hipertensión inducidas por el estrés, pero es un arma de doble filo que requiere vigilancia estrecha para evitar bradicardia e hipotensión excesivas."
+  ],
+  "patientCounseling": "Es importante que usted y su familia entiendan que la dexmedetomidina es un medicamento poderoso que solo se usa en el hospital, bajo la supervisión constante de médicos y enfermeras. Le producirá una sensación de mucha calma y sueño, pero es probable que aún pueda escuchar y responder brevemente cuando le hablen. Es normal que su boca se sienta seca y que su corazón lata un poco más lento. El equipo médico estará monitoreando su corazón y presión arterial en todo momento para asegurarse de que esté seguro. Si siente algún malestar intenso, dificultad para respirar o nota que su corazón late muy lento, informe inmediatamente a la enfermera. Recuerde que no podrá conducir ni tomar decisiones importantes hasta varias horas después de que se suspenda el medicamento, ya que los efectos de somnolencia pueden persistir.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Ansiedad",
+        "slug": "ansiedad"
+      },
+      {
+        "name": "Dolor agudo",
+        "slug": "dolor-agudo"
+      },
+      {
+        "name": "Agitación",
+        "slug": "agitacion"
+      },
+      {
+        "name": "Insomnio en UCI",
+        "slug": "insomnio-en-uci"
+      },
+      {
+        "name": "Estrés por procedimiento médico",
+        "slug": "estres-por-procedimiento-medico"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Síndrome de dificultad respiratoria aguda (SDRA) que requiere sedación",
+        "slug": "sindrome-de-dificultad-respiratoria-aguda"
+      },
+      {
+        "name": "Delirium en UCI",
+        "slug": "delirium-en-uci"
+      },
+      {
+        "name": "Dependencia a ventilador mecánico",
+        "slug": "dependencia-a-ventilador-mecanico"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Bradicardia sinusal",
+        "slug": "bradicardia-sinusal"
+      },
+      {
+        "name": "Hipotensión arterial",
+        "slug": "hipotension-arterial"
+      },
+      {
+        "name": "Bloqueo cardíaco",
+        "slug": "bloqueo-cardiaco"
+      },
+      {
+        "name": "Xerostomía (sequedad de boca severa)",
+        "slug": "xerostomia"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede disminuir significativamente"
+      },
+      {
+        "name": "Presión arterial sistólica y diastólica",
+        "slug": "presion-arterial",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Niveles de catecolaminas en plasma",
+        "slug": "catecolaminas-en-plasma",
+        "effect": "Puede disminuir"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Electrocardiograma (ECG) continuo",
+        "slug": "electrocardiograma",
+        "reason": "Para monitorear ritmo cardíaco y detectar bradicardia o bloqueos."
+      },
+      {
+        "name": "Monitoreo de presión arterial no invasiva continua",
+        "slug": "monitoreo-presion-arterial",
+        "reason": "Para detectar y tratar rápidamente hipotensión."
+      },
+      {
+        "name": "Pulsioximetría continua",
+        "slug": "pulsioximetria",
+        "reason": "Para asegurar una adecuada oxigenación, aunque el fármaco no deprime la respiración de forma primaria."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve la dexmedetomidina?",
+      "a": "Sirve principalmente para mantener a los pacientes en estado de calma y somnolencia, pero despiertos, cuando están graves en terapia intensiva con respirador, o para sedarlos ligeramente durante procedimientos médicos como endoscopías, sin necesidad de dormirlos completamente."
+    },
+    {
+      "q": "¿Me va a dormir completamente?",
+      "a": "No necesariamente. Uno de sus efectos especiales es producir una 'sedación cooperativa'. Usted estará muy somnoliento y relajado, pero generalmente podrá abrir los ojos y responder brevemente si el médico o la enfermera le hablan con firmeza."
+    },
+    {
+      "q": "¿Duele la aplicación?",
+      "a": "La aplicación es por una vía intravenosa, por lo que solo sentirá la pequeña punción de la aguja al poner el suero. El medicamento en sí no duele al pasar, aunque algunas personas pueden sentir una leve molestia o frío en el brazo."
+    },
+    {
+      "q": "¿Cuánto tiempo dura el efecto después de que lo apagan?",
+      "a": "Los efectos principales desaparecen en 1 a 4 horas después de suspender la infusión, por lo que se despierta relativamente rápido. Sin embargo, puede sentir algo de somnolencia residual por varias horas más."
+    },
+    {
+      "q": "¿Puedo tomar alcohol después de recibir este medicamento?",
+      "a": "No. Debe evitar el alcohol por al menos 24 horas después del último uso, ya que puede potenciar los efectos de somnolencia y mareo, aumentando el riesgo de accidentes."
+    },
+    {
+      "q": "¿Qué efectos secundarios son los más comunes?",
+      "a": "Los más frecuentes son la presión arterial baja y que el corazón lata más lento de lo normal (bradicardia). También es muy común tener la boca muy seca. Su equipo médico está preparado para manejar estos efectos."
+    },
+    {
+      "q": "¿Puede causar adicción o dependencia?",
+      "a": "No se considera un medicamento con alto potencial de abuso como los opioides. Sin embargo, si se usa por muchos días seguidos y se suspende de golpe, puede causar síntomas de abstinencia como nerviosismo, agitación o presión alta, por lo que los médicos la disminuyen gradualmente."
+    },
+    {
+      "q": "¿Por qué mi boca está tan seca?",
+      "a": "La sequedad de boca (xerostomía) es un efecto secundario muy común porque el medicamento reduce la producción de saliva. Es temporal. Pueden ofrecerle hielo para chupar o humedecer sus labios con gasas húmedas."
+    },
+    {
+      "q": "¿Puedo recibir dexmedetomidina si soy alérgico a otros medicamentos?",
+      "a": "Debe informar TODAS sus alergias al médico. Si es alérgico específicamente a la dexmedetomidina o a la clonidina (un medicamento similar), NO debe recibirla. Su médico evaluará el riesgo-beneficio."
+    },
+    {
+      "q": "¿Es seguro para personas mayores?",
+      "a": "Sí, pero con precaución. Los adultos mayores son más sensibles, por lo que se usan dosis más bajas y se vigila más de cerca la presión y el corazón, ya que tienen mayor riesgo de efectos secundarios."
+    },
+    {
+      "q": "¿Se puede usar en niños?",
+      "a": "Sí, pero su uso en niños, especialmente bebés, es 'off-label' (fuera de la indicación oficial) y solo debe ser manejado por médicos especialistas en terapia intensiva pediátrica o anestesiólogos pediatras, en un hospital con el equipo adecuado."
+    },
+    {
+      "q": "¿Qué pasa si tengo problemas en el hígado o los riñones?",
+      "a": "Si tiene problemas hepáticos graves, la dosis debe reducirse mucho porque el cuerpo tarda más en eliminarlo. En problemas renales, generalmente no se requiere ajuste, pero se usa con precaución. Su médico hará los cálculos necesarios."
+    },
+    {
+      "q": "¿Interfiere con mis otros medicamentos para el corazón?",
+      "a": "SÍ, puede interferir de manera GRAVE. Si toma medicamentos para bajar la frecuencia cardíaca (como beta-bloqueadores: metoprolol, atenolol) o para la presión (como verapamilo, diltiazem), el riesgo de que el corazón lata demasiado lento es mayor. Informe a su médico TODOS los medicamentos que toma."
+    },
+    {
+      "q": "¿Por qué lo prefieren sobre otros sedantes en la UCI?",
+      "a": "Lo prefieren porque permite que el paciente esté sedado pero evaluable neurológicamente, no deprime la respiración (facilitando quitar el respirador), y puede reducir la incidencia de delirium, un estado de confusión grave común en terapia intensiva."
+    },
+    {
+      "q": "¿Puede usarse para el dolor después de una cirugía?",
+      "a": "Sí, como parte de un 'manejo multimodal del dolor'. No es un analgésico fuerte por sí solo, pero ayuda a reducir la cantidad de opioides (como la morfina) que se necesitan, disminuyendo así sus efectos secundarios (náuseas, estreñimiento)."
+    },
+    {
+      "q": "¿Qué es el 'delirium' y cómo ayuda este medicamento?",
+      "a": "El delirium es un estado de confusión aguda, agitación y alucinaciones que sufren muchos pacientes graves en la UCI. La dexmedetomidina, al producir una sedación más 'fisiológica' y no interferir con los neurotransmisores como lo hacen otras drogas, ha demostrado ser efectiva para prevenir y tratar este cuadro, especialmente el delirium hiperactivo (con agitación)."
+    },
+    {
+      "q": "¿Hay riesgo de que me deje de respirar?",
+      "a": "La dexmedetomidina sola, en las dosis terapéuticas recomendadas, NO deprime el centro respiratorio del cerebro. Este es uno de sus grandes beneficios. Sin embargo, si se combina con otros sedantes o analgésicos fuertes (opioides), SÍ puede haber depresión respiratoria. Por eso la monitorización constante es esencial."
+    },
+    {
+      "q": "¿Cómo se calcula la dosis exacta que voy a recibir?",
+      "a": "La dosis se calcula con base en su peso corporal (microgramos por kilogramo) y se ajusta minuto a minuto según su respuesta: nivel de sedación, presión arterial y frecuencia cardíaca. Una bomba de infusión electrónica administra la cantidad exacta programada por el médico."
+    },
+    {
+      "q": "¿Qué hago si siento que mi corazón late muy lento o me mareo mucho?",
+      "a": "Si está recibiendo el medicamento y está consciente, debe INFORMAR INMEDIATAMENTE a la enfermera o al médico. Ellos revisarán sus monitores y están entrenados para manejar estos efectos, administrando medicamentos (como atropina) o ajustando/parando la infusión."
+    },
+    {
+      "q": "¿En qué se diferencia la dexmedetomidina de la midazolam o el propofol, que también se usan para sedar?",
+      "a": "La principal diferencia es el perfil de seguridad y el tipo de sedación. Midazolam y propofol producen una sedación más profunda que sí deprime la respiración, y pueden causar más delirium. La dexmedetomidina ofrece sedación 'arousable' (se despierta fácil), no deprime la respiración, y tiene propiedades analgésicas y anti-delirium. A menudo se usan en combinación para lograr el efecto deseado con menores dosis de cada uno."
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+{
+  "name": "Cream",
+  "summary": "Cream es un anestésico local tópico que contiene lidocaína y prilocaína como principios activos. Sirve para adormecer temporalmente la piel y las mucosas, bloqueando las señales de dolor en las terminaciones nerviosas. Es de gran importancia clínica porque permite realizar procedimientos médicos menores, como la extracción de sangre, la colocación de catéteres, pequeñas cirugías de piel o tratamientos dentales, con mucho menos dolor o incluso sin dolor para el paciente, mejorando significativamente la experiencia y reduciendo la ansiedad asociada a estos procedimientos. Su aplicación en crema o parche permite un efecto anestésico profundo sin necesidad de inyecciones, lo que es especialmente valioso en niños y personas con fobia a las agujas. Es un medicamento seguro y eficaz cuando se usa correctamente y bajo supervisión médica.",
+  "pharmacology": {
+    "mechanismOfAction": "Cream actúa bloqueando los canales de sodio dependientes de voltaje en las membranas de las neuronas sensoriales. La lidocaína y la prilocaína, sus componentes, son amidas que se difunden a través de la membrana neuronal en su forma no ionizada. Una vez dentro, se unen a receptores específicos en el interior del canal de sodio, estabilizando la membrana neuronal e impidiendo la iniciación y conducción de los impulsos nerviosos. Esto evita que la señal de dolor viaje desde el sitio de aplicación hasta el cerebro. El bloqueo es reversible, dependiente de la concentración y del tiempo de contacto, y afecta principalmente a las fibras nerviosas finas (las que transmiten el dolor) antes que a las gruesas (las que transmiten el tacto y la presión).",
+    "pharmacologicClass": "Anestésico local, tipo amida. Agente tópico eutéctico de anestésicos locales.",
+    "therapeuticClass": "Anestésico local tópico.",
+    "absorption": "La absorción percutánea depende del grosor de la piel, el tiempo de aplicación, la superficie tratada y la oclusión. En piel intacta, la absorción sistémica es baja. En mucosas (boca, genitales) la absorción es más rápida y completa. La concentración plasmática máxima se alcanza aproximadamente 2 a 3 horas después de la aplicación en piel.",
+    "distribution": "Se distribuye ampliamente en los tejidos. Ambos componentes (lidocaína y prilocaína) se unen moderadamente a proteínas plasmáticas, principalmente a la alfa-1 glicoproteína ácida. El volumen de distribución es elevado, indicando una amplia distribución en los tejidos corporales.",
+    "metabolism": "La lidocaína y la prilocaína sufren metabolismo hepático extenso de primer paso. La lidocaína es metabolizada principalmente por la isoenzima CYP3A4 del citocromo P450 a metabolitos activos (monoetilglicinaxilidida) e inactivos. La prilocaína se metaboliza a orto-toluidina, un metabolito que puede causar metahemoglobinemia, especialmente en dosis altas o en poblaciones susceptibles como lactantes.",
+    "elimination": "La vida media de eliminación de la lidocaína es de aproximadamente 1.5 a 2 horas, y la de la prilocaína es de 1 a 1.5 horas. Los metabolitos y una pequeña fracción del fármaco sin cambios se eliminan principalmente por vía renal (más del 90%).",
+    "onsetOfAction": "El inicio de la anestesia depende del sitio de aplicación. En piel intacta, bajo oclusión, el efecto anestésico significativo comienza después de 60 minutos de aplicación. En mucosas (como la boca o la vagina), el efecto puede comenzar en 5 a 15 minutos.",
+    "durationOfAction": "La duración del efecto anestésico después de retirar la crema es de aproximadamente 1 a 2 horas en piel. En mucosas, la duración puede ser menor, alrededor de 15 a 30 minutos después del retiro."
+  },
+  "indications": {
+    "approved": [
+      "Anestesia local tópica en piel intacta para procedimientos como venopunción (extracción de sangre), colocación de catéteres intravenosos periféricos y punción arterial.",
+      "Anestesia local tópica para procedimientos dermatológicos superficiales como la extirpación de condilomas acuminados (verrugas genitales) mediante escisión quirúrgica.",
+      "Anestesia local de la mucosa genital para procedimientos menores en mujeres adultas, como la escisión quirúrgica o el tratamiento con láser de lesiones."
+    ],
+    "offLabel": [
+      "Alivio del dolor asociado a úlceras bucales (aftas) o estomatitis.",
+      "Reducción del dolor en procedimientos de depilación láser.",
+      "Anestesia tópica antes de la aplicación de toxina botulínica (Botox).",
+      "Alivio del dolor y picor en quemaduras solares leves o dermatitis irritativas (uso muy limitado y bajo supervisión)."
+    ]
+  },
+  "dosage": {
+    "adults": "Para piel intacta: Aplicar una capa gruesa (aproximadamente 1/2 del tubo por cada 10 cm²) sobre la piel intacta y cubrir con un apósito oclusivo (como el que viene en el empaque). El tiempo de aplicación mínimo es de 60 minutos, y no debe exceder las 5 horas. Para mucosas genitales: Aplicar hasta 10 g durante 5 a 10 minutos. No exceder 10 g en una sola aplicación.",
+    "pediatric": "Niños mayores de 1 año y con peso superior a 10 kg: Para procedimientos en piel intacta, la dosis máxima y el tiempo de aplicación dependen del peso y la superficie corporal. Como guía general: No aplicar en una superficie mayor a 100 cm² en niños. El tiempo máximo de aplicación no debe exceder las 4 horas. En lactantes menores de 3 meses o con peso menor a 5 kg, está contraindicado debido al alto riesgo de metahemoglobinemia.",
+    "elderly": "Los pacientes de edad avanzada pueden tener una función hepática o renal disminuida, lo que puede retrasar la eliminación. Se recomienda usar la dosis efectiva más baja y el tiempo de aplicación más corto posible. Monitorear signos de toxicidad sistémica.",
+    "renalImpairment": "No se requieren ajustes de dosis específicos en insuficiencia renal leve a moderada (TFG >30 mL/min). En insuficiencia renal grave (TFG <30 mL/min) o en diálisis, existe riesgo de acumulación de metabolitos. Usar con precaución, aplicando la dosis mínima efectiva y evitando áreas extensas o tiempos prolongados.",
+    "hepaticImpairment": "La lidocaína y prilocaína son metabolizadas en el hígado. En pacientes con enfermedad hepática grave (cirrosis, hepatitis), el aclaramiento se reduce significativamente, aumentando el riesgo de toxicidad sistémica. Está contraindicado en insuficiencia hepática grave. En enfermedad hepática leve a moderada, usar con extrema precaución, dosis mínimas y tiempos cortos.",
+    "maxDose": "La dosis máxima no debe exceder: Adultos: 10 g por aplicación (aproximadamente 1/2 tubo grande) o 60 g en 24 horas. Niños (1-12 años): Dosis máxima calculada por peso y superficie. No aplicar en una superficie mayor a 100 cm². El tiempo máximo de aplicación es de 4 horas en niños y 5 horas en adultos."
+  },
+  "dosageForms": [
+    {
+      "form": "Crema tópica",
+      "strengths": [
+        "Lidocaína 2.5% / Prilocaína 2.5%"
+      ],
+      "route": "Tópica (sobre piel o mucosas)"
+    },
+    {
+      "form": "Parche o apósito medicado",
+      "strengths": [
+        "Lidocaína 2.5% / Prilocaína 2.5%"
+      ],
+      "route": "Tópica"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a las amidas anestésicas locales (lidocaína, prilocaína, bupivacaína, etc.) o a cualquier componente de la formulación.",
+      "Pacientes con metahemoglobinemia congénita o idiopática.",
+      "Lactantes menores de 3 meses de edad o con un peso inferior a 5 kg.",
+      "Insuficiencia hepática grave.",
+      "Aplicación sobre piel dañada o con heridas abiertas, eczema, dermatitis o quemaduras."
+    ],
+    "relative": [
+      "Enfermedad hepática leve a moderada.",
+      "Insuficiencia renal grave.",
+      "Anemia grave o trastornos de la oxigenación (como insuficiencia cardíaca o respiratoria).",
+      "Tratamiento concomitante con otros fármacos que puedan inducir metahemoglobinemia (sulfonamidas, dapsona, nitritos).",
+      "Aplicación en áreas muy extensas de la piel o por tiempos prolongados."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Enrojecimiento (eritema) en el sitio de aplicación.",
+      "Sensación de ardor o escozor transitorio al aplicar."
+    ],
+    "common": [
+      "Palidez (blanqueamiento) de la piel en el sitio de aplicación.",
+      "Edema leve (hinchazón) local.",
+      "Prurito (comezón) local.",
+      "Alteración temporal de la sensación (entumecimiento) más allá del área deseada."
+    ],
+    "uncommon": [
+      "Erupciones cutáneas (urticaria) en el sitio o generalizadas.",
+      "Mareo o dolor de cabeza.",
+      "Sabor metálico en la boca (si se absorbe sistémicamente).",
+      "Metahemoglobinemia leve (coloración azulada de labios y uñas) en poblaciones de riesgo."
+    ],
+    "rare": [
+      "Reacciones alérgicas graves (anafilaxia) con dificultad para respirar e hinchazón de cara/lengua.",
+      "Toxicidad sistémica por anestésicos locales: zumbido de oídos (tinnitus), visión borrosa, somnolencia, convulsiones, arritmias cardíacas y paro cardiorrespiratorio.",
+      "Metahemoglobinemia sintomática grave con cianosis, fatiga, dificultad para respirar y taquicardia."
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Antiarrítmicos de clase I (procainamida, mexiletina)",
+        "effect": "Aumentan el riesgo de efectos cardiotóxicos y neurotóxicos aditivos.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Fármacos que inducen metahemoglobinemia (sulfametoxazol/trimetoprima, dapsona, nitritos)",
+        "effect": "Riesgo aumentado de desarrollar metahemoglobinemia, una condición donde la sangre no puede transportar oxígeno adecuadamente.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Bloqueadores beta (propranolol, metoprolol)",
+        "effect": "Pueden reducir el metabolismo hepático de la lidocaína, aumentando sus niveles en sangre y el riesgo de toxicidad.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "No se conocen interacciones clínicamente significativas con alimentos. El alcohol puede potenciar los efectos depresores del sistema nervioso central si hay absorción sistémica significativa.",
+    "withSupplements": "No se conocen interacciones bien documentadas con suplementos herbales o vitamínicos comunes."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "B",
+      "recommendation": "Los estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. Se debe usar durante el embarazo solo si el beneficio potencial justifica el riesgo potencial para el feto. Evitar aplicaciones extensas o prolongadas que puedan llevar a una absorción sistémica significativa.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Ambos componentes (lidocaína y prilocaína) se excretan en la leche materna en cantidades muy pequeñas tras la aplicación tópica en áreas limitadas. Se considera compatible con la lactancia cuando se usa en las dosis y tiempos recomendados para procedimientos menores. Se recomienda aplicar después de una toma y evitar el contacto directo del bebé con la zona tratada.",
+    "pediatric": "Puede usarse en niños mayores de 1 año y con peso superior a 10 kg para procedimientos en piel intacta. Está CONTRAINDICADO en lactantes menores de 3 meses o <5 kg por el alto riesgo de metahemoglobinemia grave. En niños, es crucial respetar las dosis máximas basadas en peso/superficie y el tiempo máximo de aplicación (4 horas).",
+    "geriatric": "Los pacientes mayores pueden tener una función hepática y renal reducida, piel más delgada (mayor absorción) y mayor sensibilidad a los efectos de los anestésicos locales. Se debe usar la dosis mínima efectiva, en el área más pequeña posible y por el tiempo más corto necesario. Monitorear estrechamente."
+  },
+  "administration": {
+    "howToTake": "1. Limpiar y secar el área de la piel intacta donde se aplicará. 2. Aplicar una capa GRUESA de crema (no una capa fina). Debe cubrir completamente el área y verse como una pasta blanca espesa. 3. Cubrir inmediatamente con el apósito oclusivo de plástico que viene en el empaque, asegurándose de que los bordes queden bien sellados para evitar que se seque. 4. Anotar la hora de aplicación. 5. Dejar actuar el tiempo recomendado por el médico (mínimo 60 min para adultos). 6. Retirar el apósito y limpiar toda la crema con una gasa seca antes del procedimiento. La piel estará pálida y adormecida.",
+    "storage": "Conservar a temperatura ambiente (entre 15°C y 30°C), en un lugar seco y fuera del alcance de los niños. No congelar. Proteger de la luz directa.",
+    "specialInstructions": "NO aplicar sobre heridas abiertas, mucosas (excepto en indicaciones específicas como genitales), ojos, oídos internos. No ingerir. Después de retirar la crema, lavarse bien las manos. La piel puede estar pálida y sin sensibilidad por 1-2 horas; hay que protegerla de lesiones (golpes, calor, frío extremo) durante ese tiempo. No conducir o manejar maquinaria si se ha aplicado en áreas extensas, ya que puede causar mareo."
+  },
+  "monitoring": {
+    "labTests": [
+      "Nivel de metahemoglobina (en casos de sospecha de metahemoglobinemia: cianosis, dificultad respiratoria).",
+      "Pruebas de función hepática (en pacientes con enfermedad hepática previa o uso extenso)."
+    ],
+    "frequency": "No se requiere monitoreo de laboratorio de rutina para aplicaciones únicas y en áreas pequeñas. En aplicaciones repetidas, extensas o en pacientes de riesgo, el médico puede solicitar metahemoglobina si hay síntomas.",
+    "signsToWatch": [
+      "Aparición de coloración azulada/grisácea en labios, lecho ungueal (uñas) o piel (cianosis).",
+      "Dificultad para respirar, fatiga extrema, mareo o confusión.",
+      "Palpitaciones o latidos cardíacos irregulares.",
+      "Hinchazón, enrojecimiento intenso o ampollas en el sitio de aplicación.",
+      "Signos de reacción alérgica: urticaria generalizada, hinchazón de cara/lengua, dificultad para tragar o respirar."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Síntomas del Sistema Nervioso Central (SNC): Mareo, somnolencia, zumbido de oídos (tinnitus), visión borrosa, sensación de calor/frío, temblores, convulsiones, coma.",
+      "Síntomas Cardiovasculares: Hipotensión (presión baja), bradicardia (ritmo cardíaco lento), arritmias ventriculares, paro cardíaco.",
+      "Metahemoglobinemia: Cianosis (coloración azulada) que no mejora con oxígeno, dolor de cabeza, fatiga, disnea (dificultad para respirar)."
+    ],
+    "treatment": "1. Retirar inmediatamente la crema y limpiar el área. 2. Medidas de soporte: Mantener vía aérea, administrar oxígeno. 3. Para convulsiones: benzodiacepinas (diazepam). 4. Para arritmias cardíacas y paro: Protocolos de Soporte Vital Avanzado (ACLS). 5. Para metahemoglobinemia sintomática: Administrar azul de metileno por vía intravenosa (1-2 mg/kg).",
+    "antidote": "El antídoto específico para la metahemoglobinemia inducida por prilocaína es el Azul de Metileno. No existe un antídoto específico para la toxicidad por lidocaína; el tratamiento es de soporte."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Rx).",
+    "scheduleMexico": "Medicamento de Venta bajo Receta Médica (no controlado).",
+    "fdaApprovalYear": "Aprobado por la FDA en 1992."
+  },
+  "brandsMexico": [
+    "EMLA",
+    "Anestop",
+    "Dermoanestésico",
+    "Lidopril",
+    "Anesderm",
+    "Cutanest",
+    "Topicaína",
+    "Dermocaína"
+  ],
+  "clinicalPearls": [
+    "La clave de su eficacia es aplicar una capa GRUESA (como una pasta de dientes) y cubrirla con un apósito oclusivo. Una capa fina no penetra lo suficiente.",
+    "En niños, el mayor riesgo es la metahemoglobinemia por prilocaína. Nunca usar en menores de 3 meses y limitar estrictamente la superficie y el tiempo de aplicación.",
+    "Es excelente para reducir el dolor de la vacunación o extracción de sangre en niños cooperadores, pero el tiempo de aplicación (60+ min) requiere planificación anticipada con los padres."
+  ],
+  "patientCounseling": "Esta crema es para adormecer la piel y debe usarse EXACTAMENTE como se le indica. Aplique una capa MUY GRUESA, como una pasta blanca espesa, solo sobre la piel sana y cúbrala bien con el parche plástico que viene en la caja. Anote la hora en que la puso. Déjela el tiempo que le dijo el médico o farmacéutico (generalmente más de una hora). Antes del procedimiento, retire el parche y limpie TODA la crema. La piel se verá pálida y no sentirá dolor ni frío/calor por unas horas, así que tenga cuidado de no lastimarla. NUNCA la use en heridas, quemaduras, cerca de los ojos o en bebés menores de 3 meses. Si después de usarla usted o su hijo se ponen muy somnolientos, mareados, con los labios morados o con dificultad para respirar, retire la crema y busque atención médica de INMEDIATO. Guarde el tubo fuera del alcance de los niños.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor agudo por punción",
+        "slug": "dolor-agudo-por-puncion"
+      },
+      {
+        "name": "Dolor en procedimientos dermatológicos",
+        "slug": "dolor-en-procedimientos-dermatologicos"
+      },
+      {
+        "name": "Ardor en la piel",
+        "slug": "ardor-en-la-piel"
+      },
+      {
+        "name": "Molestia por verrugas genitales",
+        "slug": "molestia-por-verrugas-genitales"
+      },
+      {
+        "name": "Ansiedad por procedimientos médicos",
+        "slug": "ansiedad-por-procedimientos-medicos"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Dolor procedimental",
+        "slug": "dolor-procedimental"
+      },
+      {
+        "name": "Condilomas acuminados (verrugas genitales)",
+        "slug": "condilomas-acuminados"
+      },
+      {
+        "name": "Fobia a las agujas",
+        "slug": "fobia-a-las-agujas"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Metahemoglobinemia",
+        "slug": "metahemoglobinemia"
+      },
+      {
+        "name": "Reacción alérgica cutánea",
+        "slug": "reaccion-alergica-cutanea"
+      },
+      {
+        "name": "Neurotoxicidad por anestésicos locales",
+        "slug": "neurotoxicidad-por-anestesicos-locales"
+      },
+      {
+        "name": "Arritmia cardíaca",
+        "slug": "arritmia-cardiaca"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Metahemoglobina",
+        "slug": "metahemoglobina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Nivel plasmático de lidocaína",
+        "slug": "nivel-plasmatico-de-lidocaina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede disminuir (bradicardia)"
+      },
+      {
+        "name": "Presión arterial",
+        "slug": "presion-arterial",
+        "effect": "Puede disminuir (hipotensión)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Nivel de metahemoglobina",
+        "slug": "nivel-de-metahemoglobina",
+        "reason": "Para diagnosticar metahemoglobinemia en caso de cianosis o uso de alto riesgo."
+      },
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-de-funcion-hepatica",
+        "reason": "En pacientes con enfermedad hepática conocida o uso extenso, para evaluar riesgo de toxicidad."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora IMC",
+        "slug": "calculadora-imc"
+      },
+      {
+        "name": "Dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve la crema Cream?",
+      "a": "Sirve para adormecer la piel y reducir o eliminar el dolor de procedimientos médicos menores como sacar sangre, poner vacunas, quitar verrugas pequeñas o hacer pequeñas cirugías en la piel, sin necesidad de una inyección anestésica."
+    },
+    {
+      "q": "¿Cómo se aplica correctamente?",
+      "a": "Se limpia y seca la piel sana. Se pone una capa muy gruesa de crema (como pasta de dientes), se cubre con el parche plástico que trae la caja y se sella bien. Se deja actuar por lo menos 1 hora (en adultos) antes del procedimiento. Luego se retira todo y se limpia la zona."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "En piel intacta, necesita aplicarse bajo el parche por un mínimo de 60 minutos para un buen efecto. A mayor tiempo (hasta 2-3 horas), mayor profundidad de anestesia. En mucosas como la boca, puede hacer efecto en 5 a 15 minutos."
+    },
+    {
+      "q": "¿Duele al aplicarla?",
+      "a": "Puede causar una leve sensación de ardor o frío al momento de la aplicación, que desaparece en segundos. El objetivo es que después, durante el procedimiento, no se sienta dolor."
+    },
+    {
+      "q": "¿Se puede usar en niños?",
+      "a": "Sí, pero SOLO en niños mayores de 1 año y que pesen más de 10 kg. Está PROHIBIDO usarlo en bebés menores de 3 meses o que pesen menos de 5 kg, porque les puede causar una enfermedad grave en la sangre (metahemoglobinemia)."
+    },
+    {
+      "q": "¿Puedo usarla para el dolor de una quemadura solar?",
+      "a": "No está aprobado para ese uso. Está diseñado para piel intacta antes de un procedimiento. Usarlo sobre piel dañada (quemada, con heridas) aumenta mucho la absorción y el riesgo de efectos secundarios graves. Consulte a su médico para el alivio del dolor por quemaduras."
+    },
+    {
+      "q": "¿Cuánto dura el efecto después de quitarla?",
+      "a": "La piel permanece adormecida aproximadamente de 1 a 2 horas después de retirar la crema. Durante ese tiempo, tenga cuidado de no lastimarse la zona (con calor, frío o golpes), ya que no sentirá dolor."
+    },
+    {
+      "q": "¿Puedo conducir después de usarla?",
+      "a": "Si se usa en un área pequeña (como para una vacuna), no hay problema. Si se aplica en un área muy grande o por mucho tiempo, existe la posibilidad de que una pequeña cantidad se absorba y cause mareo. En ese caso, es mejor no conducir hasta que pase el efecto."
+    },
+    {
+      "q": "¿Qué hago si se me olvida retirarla a tiempo?",
+      "a": "Retírela inmediatamente y limpie la zona. El tiempo máximo de aplicación en adultos es de 5 horas y en niños de 4 horas. Pasarse de ese tiempo aumenta el riesgo de que el medicamento entre al torrente sanguíneo y cause efectos no deseados como mareo o, en casos raros, problemas más serios."
+    },
+    {
+      "q": "¿Puede causar alergia?",
+      "a": "Sí, aunque es poco común. Si después de usarla aparece enrojecimiento intenso, granitos, comezón fuerte o hinchazón en la zona o en otras partes del cuerpo, puede ser una reacción alérgica. Suspenda su uso y consulte a su médico."
+    },
+    {
+      "q": "¿Por qué la piel se pone blanca después de usarla?",
+      "a": "Es un efecto normal y esperado llamado vasoconstricción. El medicamento hace que los pequeños vasos sanguíneos de la piel se contraigan, reduciendo el flujo de sangre y dando ese color pálido. Es una señal de que está actuando y desaparece en unas horas."
+    },
+    {
+      "q": "¿Se puede usar en los labios o dentro de la boca para las aftas?",
+      "a": "No está aprobado para uso en mucosas de la boca en su presentación estándar. Existen formulaciones específicas para mucosa oral. Usar la crema para piel en la boca puede llevar a una absorción rápida y excesiva. Consulte a su dentista o médico para el dolor de aftas."
+    },
+    {
+      "q": "¿Interfiere con otros medicamentos que tomo?",
+      "a": "Sí, puede interferir. Es importante decirle a su médico si toma medicamentos para el corazón (como antiarrítmicos o betabloqueadores), algunos antibióticos (como Bactrim) o medicamentos para la malaria. Estos pueden aumentar el riesgo de efectos secundarios."
+    },
+    {
+      "q": "¿La puede usar una mujer embarazada?",
+      "a": "Se clasifica como categoría B. Esto significa que en estudios con animales no ha mostrado daño al feto, pero no hay estudios concluyentes en mujeres embarazadas. Debe usarse solo si el médico lo considera estrictamente necesario, aplicando la mínima cantidad necesaria y por el menor tiempo."
+    },
+    {
+      "q": "¿Puedo amamantar si uso esta crema?",
+      "a": "Sí, es compatible con la lactancia cuando se usa en áreas pequeñas y por el tiempo recomendado. La cantidad que pasa a la leche es mínima. Se recomienda aplicarla justo después de amamantar para que los niveles en la leche sean aún más bajos en la siguiente toma."
+    },
+    {
+      "q": "¿Qué es la metahemoglobinemia y por qué es un riesgo?",
+      "a": "Es un efecto adverso raro pero grave donde la prilocaína (uno de los componentes) transforma la hemoglobina de la sangre en metahemoglobina, que no puede transportar oxígeno. Los síntomas son coloración azulada de labios y uñas, dificultad para respirar y fatiga. Es más riesgoso en bebés y con dosis altas."
+    },
+    {
+      "q": "¿Qué debo hacer si veo que los labios se ponen morados después de usarla?",
+      "a": "ES UNA EMERGENCIA MÉDICA. Retire inmediatamente toda la crema, limpie la zona y acuda de inmediato al servicio de urgencias más cercano o llame al 911. Puede ser signo de metahemoglobinemia y necesita tratamiento específico (azul de metileno)."
+    },
+    {
+      "q": "¿Es lo mismo que la pomada de lidocaína sola?",
+      "a": "No. Cream es una mezcla eutéctica de lidocaína y prilocaína, lo que le permite penetrar mejor la piel intacta. Las pomadas de lidocaína sola al 5% son menos efectivas para penetrar la piel sana y se usan más para mucosas o piel ya dañada."
+    },
+    {
+      "q": "¿Se necesita receta para comprarla en México?",
+      "a": "Sí, en México es un medicamento que requiere receta médica para su venta en farmacias. No se vende libremente."
+    },
+    {
+      "q": "¿Cuál es la diferencia clave en el manejo de la toxicidad por Cream comparado con otros anestésicos locales inyectables?",
+      "a": "La diferencia clave es el riesgo añadido de metahemoglobinemia por la prilocaína. En una sobredosis o toxicidad, además del soporte estándar para la toxicidad por lidocaína (control de convulsiones, arritmias), se debe medir urgentemente el nivel de metahemoglobina y, si es alto y sintomático, administrar el antídoto específico: Azul de Metileno intravenoso. Esto no es necesario en la toxicidad por anestésicos locales que no contienen prilocaína."
+    }
+  ]
+}

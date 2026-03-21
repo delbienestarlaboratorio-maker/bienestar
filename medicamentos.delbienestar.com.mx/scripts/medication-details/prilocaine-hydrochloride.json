@@ -1,0 +1,435 @@
+{
+  "name": "Clorhidrato de Prilocaína",
+  "summary": "El clorhidrato de prilocaína es un medicamento anestésico local de la familia de las amidas, utilizado para bloquear temporalmente la sensación de dolor en áreas específicas del cuerpo durante procedimientos médicos y dentales. Sirve principalmente para realizar intervenciones menores como extracciones dentales, suturas de heridas, biopsias de piel y algunos procedimientos ginecológicos, permitiendo que el paciente no sienta dolor mientras permanece consciente. Su importancia clínica radica en que es uno de los anestésicos locales más seguros debido a su metabolismo rápido y menor toxicidad cardiaca comparado con otros anestésicos similares, además de que se elimina rápidamente del organismo reduciendo el riesgo de efectos secundarios sistémicos cuando se usa en las dosis adecuadas. En México es especialmente valioso para procedimientos ambulatorios donde se requiere una recuperación rápida del paciente.",
+  "pharmacology": {
+    "mechanismOfAction": "La prilocaína actúa bloqueando de manera reversible los canales de sodio en las membranas de las neuronas, específicamente en las fibras nerviosas que transmiten las señales de dolor. Al unirse a estos canales desde el interior de la célula nerviosa, impide la entrada de iones sodio necesarios para generar y propagar los potenciales de acción. Esto interrumpe la conducción del impulso nervioso a lo largo del axón, resultando en una pérdida temporal de la sensación en el área inervada por esos nervios. El bloqueo es dependiente de la frecuencia, lo que significa que es más efectivo en neuronas que están disparando repetidamente, como ocurre durante un estímulo doloroso. Su acción es reversible y selectiva, afectando primero las fibras finas que transmiten dolor y temperatura, antes que las fibras motoras más gruesas.",
+    "pharmacologicClass": "Anestésico local del grupo de las amidas (derivado de la toluidina)",
+    "therapeuticClass": "Anestésico local",
+    "absorption": "La absorción depende de la vía de administración y del sitio de inyección. Cuando se inyecta por vía subcutánea o perineural, la absorción sistémica es lenta y depende del flujo sanguíneo local. La concentración plasmática máxima se alcanza en 10-30 minutos después de la inyección. La adición de vasoconstrictores como la epinefrina reduce significativamente la absorción sistémica al disminuir el flujo sanguíneo local, prolongando la duración de la anestesia y reduciendo los niveles plasmáticos máximos.",
+    "distribution": "Se distribuye ampliamente en los tejidos después de la absorción sistémica. El volumen de distribución es de aproximadamente 1.5-2 L/kg. Se une moderadamente a proteínas plasmáticas (aproximadamente 55%), principalmente a la alfa-1 glicoproteína ácida. Cruza la barrera placentaria y se distribuye en la leche materna en pequeñas cantidades. Su liposolubilidad moderada le permite difundir a través de las membranas nerviosas para alcanzar su sitio de acción.",
+    "metabolism": "La prilocaína se metaboliza extensamente en el hígado por las enzimas CYP1A2 y, en menor medida, CYP3A4. El metabolismo principal ocurre por desalquilación y posterior hidrólisis, produciendo metabolitos como la o-toluidina y la N-propilalanina. La o-toluidina es responsable del efecto adverso raro de metahemoglobinemia, ya que puede oxidar la hemoglobina a metahemoglobina. El metabolismo es rápido, con un aclaramiento hepático de aproximadamente 2 L/min.",
+    "elimination": "La vida media de eliminación es de aproximadamente 1.5-2 horas en adultos con función hepática normal. Se elimina principalmente por vía renal, con aproximadamente el 90% de la dosis excretada como metabolitos en la orina en las primeras 24 horas. Solo el 1-5% se excreta sin cambios. En pacientes con insuficiencia hepática, la vida media puede prolongarse significativamente debido a la reducción del metabolismo.",
+    "onsetOfAction": "El inicio de acción es rápido: 2-5 minutos para bloqueo nervioso periférico y 1-3 minutos para infiltración local. Para anestesia epidural, el inicio es de 5-15 minutos. La velocidad de inicio depende de la concentración, la formulación (con o sin vasoconstrictor) y las características del tejido donde se aplica.",
+    "durationOfAction": "La duración del efecto anestésico varía según la formulación y el sitio de administración: 1-2 horas para infiltración simple, 2-4 horas para bloqueos nerviosos periféricos cuando se usa sin vasoconstrictor, y 3-6 horas cuando se combina con epinefrina. Para anestesia epidural, la duración es de 1.5-2.5 horas."
+  },
+  "indications": {
+    "approved": [
+      "Anestesia local para procedimientos dentales (extracciones, tratamientos de conducto, cirugía oral menor)",
+      "Anestesia por infiltración para sutura de heridas y procedimientos dermatológicos menores",
+      "Bloqueo nervioso periférico para cirugía de extremidades",
+      "Anestesia epidural para procedimientos obstétricos y quirúrgicos de la región pélvica y miembros inferiores",
+      "Anestesia intravenosa regional (técnica de Bier) para cirugía de mano y antebrazo"
+    ],
+    "offLabel": [
+      "Anestesia tópica en combinación con lidocaína (crema EMLA) para procedimientos dermatológicos pediátricos",
+      "Bloqueo del plexo braquial para cirugía de hombro y brazo",
+      "Anestesia para cirugía de cataratas (bloqueo retrobulbar)",
+      "Analgesia continua por infusión epidural para manejo del dolor postoperatorio",
+      "Anestesia para procedimientos ginecológicos menores como biopsia de cuello uterino"
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis varía según el procedimiento: Para infiltración local y bloqueos nerviosos menores: 50-200 mg (5-20 mL de solución al 1%). Para bloqueos nerviosos mayores (plexo braquial, epidural): 150-400 mg (15-40 mL de solución al 1% o 7.5-20 mL de solución al 2%). Para anestesia intravenosa regional (Bier): 40-80 mL de solución al 0.5% (200-400 mg). Dosis máxima absoluta: 400 mg sin vasoconstrictor, 600 mg con vasoconstrictor. Siempre usar la dosis efectiva mínima.",
+    "pediatric": "Para niños mayores de 6 meses: Dosis máxima de 5-6 mg/kg sin vasoconstrictor, 7-8 mg/kg con vasoconstrictor. En práctica dental: 0.5-1.0 mL de solución al 2% con epinefrina 1:200,000 por sitio de inyección. Para procedimientos menores: 1-2 mg/kg por infiltración. En neonatos y lactantes menores de 6 meses, usar con extrema precaución y solo por especialistas experimentados.",
+    "elderly": "Reducir dosis en un 20-30% debido a disminución de la masa muscular, reducción del flujo sanguíneo hepático y posible disminución de la función hepática y renal. Monitorear estrechamente por posible acumulación. Usar siempre la dosis efectiva mínima.",
+    "renalImpairment": "No se requiere ajuste de dosis en insuficiencia renal leve a moderada (TFG >30 mL/min). En insuficiencia renal severa (TFG <30 mL/min) o diálisis: reducir dosis en 25-50% debido a acumulación de metabolitos. Evitar dosis repetidas. Monitorear signos de toxicidad.",
+    "hepaticImpairment": "En insuficiencia hepática leve (Child-Pugh A): reducir dosis en 25%. En insuficiencia hepática moderada a severa (Child-Pugh B y C): reducir dosis en 50% o evitar su uso debido a riesgo de toxicidad por acumulación. La vida media se prolonga significativamente.",
+    "maxDose": "Dosis máxima absoluta: 400 mg (sin vasoconstrictor) o 600 mg (con vasoconstrictor) en adultos. En niños: 5-6 mg/kg sin vasoconstrictor, 7-8 mg/kg con vasoconstrictor. Estas dosis máximas no deben excederse en un período de 24 horas."
+  },
+  "dosageForms": [
+    {
+      "form": "Solución inyectable",
+      "strengths": [
+        "10 mg/mL (1%)",
+        "20 mg/mL (2%)",
+        "30 mg/mL (3%)"
+      ],
+      "route": "Inyección (infiltración, bloqueo nervioso, epidural)"
+    },
+    {
+      "form": "Solución inyectable con epinefrina",
+      "strengths": [
+        "20 mg/mL con epinefrina 1:200,000",
+        "30 mg/mL con epinefrina 1:200,000"
+      ],
+      "route": "Inyección"
+    },
+    {
+      "form": "Crema tópica (combinada con lidocaína)",
+      "strengths": [
+        "Prilocaína 2.5% + Lidocaína 2.5%"
+      ],
+      "route": "Tópica"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a anestésicos locales del tipo amida o a cualquier componente de la formulación",
+      "Metahemoglobinemia congénita o adquirida",
+      "Deficiencia de metahemoglobina reductasa",
+      "Porfiria aguda intermitente",
+      "Infección activa en el sitio de inyección propuesto",
+      "Bloqueo epidural o espinal en pacientes con coagulopatía, tratamiento anticoagulante o trombocitopenia severa"
+    ],
+    "relative": [
+      "Insuficiencia hepática severa (Child-Pugh C)",
+      "Insuficiencia cardiaca severa (clase III-IV NYHA)",
+      "Bloqueo cardíaco avanzado",
+      "Epilepsia no controlada",
+      "Miastenia gravis",
+      "Tratamiento concurrente con medicamentos que inducen metahemoglobinemia (dapsona, nitritos, sulfonamidas)",
+      "Embarazo (especialmente primer trimestre, excepto cuando sea médicamente necesario)"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Hormigueo o sensación de calor en el sitio de inyección (transitorio)",
+      "Adormecimiento temporal más allá del área objetivo"
+    ],
+    "common": [
+      "Mareo (5-10%)",
+      "Cefalea (3-8%)",
+      "Náuseas (2-5%)",
+      "Hipotensión ortostática (especialmente con anestesia epidural)",
+      "Bradicardia transitoria"
+    ],
+    "uncommon": [
+      "Metahemoglobinemia (dosis-dependiente, más común con dosis >400 mg)",
+      "Reacciones alérgicas cutáneas (urticaria, prurito)",
+      "Temblor muscular",
+      "Visión borrosa o tinnitus",
+      "Ansiedad o nerviosismo"
+    ],
+    "rare": [
+      "Reacción anafiláctica (<0.01%)",
+      "Convulsiones por toxicidad del SNC",
+      "Arritmias cardíacas graves (bloqueo AV completo, asistolia)",
+      "Parálisis nerviosa permanente (por inyección intraneural)",
+      "Síndrome de cauda equina (con anestesia espinal)"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Inhibidores de CYP1A2 (fluvoxamina, ciprofloxacino)",
+        "effect": "Aumentan las concentraciones plasmáticas de prilocaína, incrementando el riesgo de toxicidad del SNC y metahemoglobinemia",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inductores de CYP1A2 (tabaco, carbamazepina)",
+        "effect": "Disminuyen las concentraciones plasmáticas de prilocaína, posiblemente reduciendo su efecto anestésico",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Otros anestésicos locales (lidocaína, bupivacaína)",
+        "effect": "Efectos tóxicos aditivos sobre SNC y sistema cardiovascular",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Vasoconstrictores (epinefrina, norepinefrina)",
+        "effect": "Prolongan la duración de la anestesia y reducen la absorción sistémica, pero aumentan el riesgo de isquemia local en áreas con circulación terminal",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inhibidores de la MAO y antidepresivos tricíclicos",
+        "effect": "Potencian los efectos presores de los vasoconstrictores añadidos a la prilocaína",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "No hay interacciones clínicamente significativas con alimentos. El alcohol puede potenciar los efectos depresores del SNC. Se recomienda evitar el consumo de alcohol 24 horas antes y después de la administración.",
+    "withSupplements": "Los suplementos que contienen nitritos (como algunos para disfunción eréctil) pueden aumentar el riesgo de metahemoglobinemia. Los suplementos hepatotóxicos (kava, chaparral) pueden reducir el metabolismo de la prilocaína. La vitamina C en altas dosis puede reducir la metahemoglobinemia inducida por prilocaína."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "B",
+      "recommendation": "Solo usar cuando los beneficios justifiquen claramente los riesgos potenciales, especialmente durante el primer trimestre. Puede usarse para anestesia epidural durante el trabajo de parto. Evitar dosis altas que puedan causar metahemoglobinemia fetal. Monitorear al feto durante procedimientos extensos.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La prilocaína se excreta en leche materna en cantidades mínimas (menos del 2% de la dosis materna). Considerada compatible con la lactancia, especialmente para procedimientos dentales o menores donde se usan dosis bajas. Para procedimientos mayores con dosis altas, se recomienda extraer y desechar la leche durante 4-6 horas después de la administración.",
+    "pediatric": "Seguro en niños mayores de 6 meses cuando se usa en dosis apropiadas por peso. En neonatos y lactantes menores de 6 meses, usar con extrema precaución debido a inmadurez hepática y mayor riesgo de metahemoglobinemia. Monitorear estrechamente la saturación de oxígeno. Evitar el uso de formulaciones con conservadores (como metilparabeno) en recién nacidos.",
+    "geriatric": "Los pacientes mayores tienen mayor riesgo de efectos adversos debido a disminución de la función hepática y renal, mayor sensibilidad a los anestésicos locales, y mayor prevalencia de comorbilidades cardiovasculares. Reducir dosis en 20-30%. Monitorear presión arterial y frecuencia cardiaca estrechamente. Mayor riesgo de caídas por hipotensión ortostática y pérdida de sensibilidad."
+  },
+  "administration": {
+    "howToTake": "La prilocaína se administra exclusivamente por personal médico capacitado. Para inyección: el área se limpia con antiséptico, se aspira antes de inyectar para evitar inyección intravascular accidental, y se administra lentamente. Para crema EMLA: aplicar una capa gruesa (aproximadamente 2g por 10cm²) sobre piel intacta, cubrir con apósito oclusivo y dejar actuar 60 minutos para procedimientos cutáneos o 120-180 minutos para venopunción. No aplicar sobre mucosas o piel lesionada.",
+    "storage": "Almacenar a temperatura controlada (15-30°C), protegido de la luz. No congelar. Las soluciones con vasoconstrictor deben protegerse especialmente de la luz. Desechar cualquier solución que esté descolorida o contenga partículas. Mantener fuera del alcance de los niños.",
+    "specialInstructions": "Siempre tener equipo de reanimación disponible cuando se administre. Usar la concentración más baja que proporcione anestesia adecuada. En pacientes con riesgo de metahemoglobinemia, considerar monitorización de la saturación de oxígeno. Para anestesia epidural o espinal, usar solo soluciones específicamente etiquetadas para este uso (libres de conservadores)."
+  },
+  "monitoring": {
+    "labTests": [
+      "Nivel de metahemoglobina en pacientes con cianosis inexplicable o con dosis >400 mg",
+      "Pruebas de función hepática en pacientes con enfermedad hepática conocida",
+      "Creatinina sérica y TFG en pacientes con insuficiencia renal"
+    ],
+    "frequency": "Monitoreo continuo de signos vitales durante la administración y por lo menos 30 minutos después. En procedimientos mayores o en pacientes de riesgo, monitorear por 2-4 horas. Evaluar retorno de la sensibilidad y función motora después del procedimiento.",
+    "signsToWatch": [
+      "Cianosis central (labios, lecho ungueal) que no mejora con oxígeno suplementario (sospecha de metahemoglobinemia)",
+      "Signos de toxicidad del SNC (mareo, tinnitus, visión borrosa, temblores, convulsiones)",
+      "Signos de toxicidad cardiovascular (hipotensión, bradicardia, arritmias)",
+      "Dificultad respiratoria o sibilancias (reacción alérgica)",
+      "Pérdida prolongada de sensibilidad o función motora (>12 horas)"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Convulsiones (primera manifestación de toxicidad del SNC)",
+      "Depresión respiratoria o apnea",
+      "Hipotensión severa",
+      "Bradicardia, bloqueo AV, asistolia",
+      "Cianosis por metahemoglobinemia (niveles >10-15%)",
+      "Pérdida de conciencia, coma"
+    ],
+    "treatment": "Soporte vital avanzado inmediato. Para convulsiones: benzodiacepinas (diazepam 5-10 mg IV). Para hipotensión: fluidos IV y vasopresores (epinefrina). Para bradicardia: atropina 0.5-1 mg IV. Para metahemoglobinemia severa (>30% o síntomas): azul de metileno 1-2 mg/kg IV en 5 minutos, puede repetirse en 1 hora si es necesario. Oxigenoterapia al 100%. Considerar lípidos intravenosos (emulsión lipídica al 20%) en intoxicación grave por anestésicos locales.",
+    "antidote": "Azul de metileno para metahemoglobinemia. Emulsión lipídica intravenosa (Intralipid) para toxicidad cardiovascular por anestésicos locales."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica para todas las presentaciones",
+    "scheduleMexico": "Medicamento de control especial (Grupo III) según la COFEPRIS",
+    "fdaApprovalYear": "1965 (aproximado)"
+  },
+  "brandsMexico": [
+    "Citanest",
+    "Prilotekal",
+    "Prilocaína Normon",
+    "Xylonest",
+    "Prilostesin",
+    "Prilopen",
+    "Anestacaina",
+    "Dentocaine-P",
+    "Prilodont",
+    "Nervocain"
+  ],
+  "clinicalPearls": [
+    "La prilocaína tiene el menor potencial de toxicidad cardiaca entre los anestésicos locales de tipo amida, haciéndola más segura en pacientes con cardiopatía.",
+    "La metahemoglobinemia inducida por prilocaína es dosis-dependiente y generalmente ocurre con dosis >400 mg; es reversible con azul de metileno.",
+    "En combinación con lidocaína (crema EMLA), proporciona anestesia tópica efectiva para venopunción en niños, reduciendo el trauma psicológico.",
+    "Para procedimientos dentales, la formulación con epinefrina 1:200,000 proporciona hemostasia adecuada con menor riesgo de efectos sistémicos que concentraciones más altas.",
+    "En anestesia epidural para trabajo de parto, la prilocaína proporciona un bloqueo motor menos intenso que la bupivacaína, permitiendo mayor movilidad de la madre."
+  ],
+  "patientCounseling": "Es importante que comprenda que la prilocaína le causará adormecimiento temporal en el área tratada. No mastique, beba líquidos calientes o se muerda el área anestesiada hasta que recupere completamente la sensibilidad (generalmente 2-4 horas) para evitar lesiones inadvertidas. Después de un procedimiento dental, tenga cuidado al hablar y comer. Si recibe anestesia en un brazo o pierna, evite apoyar peso sobre esa extremidad hasta que recupere la sensibilidad y fuerza normal. Reporte inmediatamente cualquier dificultad para respirar, mareo intenso, palpitaciones, temblores o coloración azulada de labios o uñas. No conduzca ni opere maquinaria hasta que los efectos hayan desaparecido completamente. Si le aplicaron crema anestésica, la piel puede estar pálida o enrojecida temporalmente, lo cual es normal.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor agudo durante procedimientos médicos",
+        "slug": "dolor-agudo-procedimientos"
+      },
+      {
+        "name": "Dolor dental",
+        "slug": "dolor-dental"
+      },
+      {
+        "name": "Dolor por sutura de heridas",
+        "slug": "dolor-suturas"
+      },
+      {
+        "name": "Dolor durante biopsias de piel",
+        "slug": "dolor-biopsias-piel"
+      },
+      {
+        "name": "Molestia por venopunción",
+        "slug": "molestia-venopuncion"
+      },
+      {
+        "name": "Dolor durante procedimientos ginecológicos menores",
+        "slug": "dolor-ginecologico-menor"
+      },
+      {
+        "name": "Dolor en cirugía de mano",
+        "slug": "dolor-cirugia-mano"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Caries dental que requiere intervención",
+        "slug": "caries-dental"
+      },
+      {
+        "name": "Abscesos dentales que drenaje",
+        "slug": "absceso-dental"
+      },
+      {
+        "name": "Enfermedad periodontal que requiere cirugía",
+        "slug": "enfermedad-periodontal"
+      },
+      {
+        "name": "Lesiones cutáneas que requieren sutura",
+        "slug": "lesiones-cutaneas-sutura"
+      },
+      {
+        "name": "Fracturas menores que requieren reducción cerrada",
+        "slug": "fracturas-menores"
+      },
+      {
+        "name": "Condilomas acuminados que requieren excisión",
+        "slug": "condilomas-acuminados"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Metahemoglobinemia",
+        "slug": "metahemoglobinemia"
+      },
+      {
+        "name": "Hipersensibilidad a anestésicos locales",
+        "slug": "hipersensibilidad-anestesicos-locales"
+      },
+      {
+        "name": "Porfilia aguda intermitente",
+        "slug": "porfiria-aguda-intermitente"
+      },
+      {
+        "name": "Deficiencia de metahemoglobina reductasa",
+        "slug": "deficiencia-metahemoglobina-reductasa"
+      },
+      {
+        "name": "Cardiopatía isquémica severa",
+        "slug": "cardiopatia-isquemica-severa"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Metahemoglobina",
+        "slug": "metahemoglobina",
+        "effect": "Puede elevar significativamente"
+      },
+      {
+        "name": "Presión arterial",
+        "slug": "presion-arterial",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Saturación de oxígeno (SpO2)",
+        "slug": "saturacion-oxigeno",
+        "effect": "Puede disminuir falsamente en pulsioximetría"
+      },
+      {
+        "name": "Nivel de conciencia",
+        "slug": "nivel-conciencia",
+        "effect": "Puede disminuir en sobredosis"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Nivel de metahemoglobina",
+        "slug": "metahemoglobina-sangre",
+        "reason": "En pacientes con cianosis inexplicable después de la administración o con dosis altas"
+      },
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-funcion-hepatica",
+        "reason": "En pacientes con enfermedad hepática conocida o sospechada"
+      },
+      {
+        "name": "Creatinina sérica y TFG",
+        "slug": "creatinina-tfg",
+        "reason": "En pacientes con insuficiencia renal o ancianos"
+      },
+      {
+        "name": "Electrocardiograma",
+        "slug": "electrocardiograma",
+        "reason": "En pacientes con cardiopatía conocida o síntomas cardiovasculares"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de TFG",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La prilocaína duele al aplicarla?",
+      "a": "La inyección inicial puede causar una breve sensación de ardor o pinchazo, pero esto dura solo unos segundos. Una vez que el medicamento comienza a actuar (en 1-2 minutos), el área se adormece completamente y no sentirá dolor durante el procedimiento."
+    },
+    {
+      "q": "¿Cuánto tiempo dura el efecto de la prilocaína?",
+      "a": "Depende del tipo de procedimiento y si se usa con vasoconstrictor. Para procedimientos dentales simples, el adormecimiento dura 2-3 horas. Para procedimientos más extensos o con vasoconstrictor, puede durar 3-6 horas. La sensación completa regresa gradualmente."
+    },
+    {
+      "q": "¿Puedo comer después de que me apliquen prilocaína en la boca?",
+      "a": "Espere hasta que recupere completamente la sensibilidad en la boca (generalmente 3-4 horas). Comer antes puede causar que se muerda sin darse cuenta. Comience con alimentos blandos y evite los calientes hasta que pueda sentir la temperatura normalmente."
+    },
+    {
+      "q": "¿La prilocaína puede causar alergia?",
+      "a": "Las alergias verdaderas a anestésicos locales de tipo amida como la prilocaína son muy raras. La mayoría de las reacciones son por ansiedad, efectos secundarios o sensibilidad a los conservadores. Informe a su médico si ha tenido reacciones previas a anestésicos."
+    },
+    {
+      "q": "¿Es seguro usar prilocaína en niños?",
+      "a": "Sí, es seguro en niños mayores de 6 meses cuando se usa en las dosis adecuadas por peso. En México se usa comúnmente en odontopediatría. Para lactantes menores de 6 meses, se usa con precaución especial y solo cuando es necesario."
+    },
+    {
+      "q": "¿Puedo conducir después de un procedimiento con prilocaína?",
+      "a": "No se recomienda conducir hasta que el efecto haya desaparecido completamente, especialmente si el procedimiento fue en la boca (puede afectar el habla y la deglución) o si recibió sedación adicional. Espere al menos 4-6 horas o hasta el día siguiente."
+    },
+    {
+      "q": "¿Por qué a veces se pone azul la piel después de prilocaína?",
+      "a": "En raras ocasiones, con dosis altas, la prilocaína puede causar metahemoglobinemia, que hace que la sangre transporte menos oxígeno, dando un tono azulado a piel y mucosas. Esto es reversible con tratamiento. Informe inmediatamente si nota coloración azul."
+    },
+    {
+      "q": "¿La prilocaína es lo mismo que la lidocaína?",
+      "a": "No, son anestésicos locales diferentes aunque ambos son del tipo amida. La prilocaína es menos tóxica para el corazón pero tiene riesgo de metahemoglobinemia. La lidocaína es más común pero más cardiotóxica. Su médico elegirá la más adecuada para su caso."
+    },
+    {
+      "q": "¿Puedo tomar alcohol después de recibir prilocaína?",
+      "a": "Se recomienda evitar el alcohol por 24 horas antes y después, ya que puede potenciar los efectos secundarios como mareo y aumentar el riesgo de complicaciones. El alcohol también puede interferir con la coagulación después de procedimientos quirúrgicos."
+    },
+    {
+      "q": "¿Qué hago si el adormecimiento no se quita después de varias horas?",
+      "a": "Si el adormecimiento persiste más de 8-12 horas, contacte a su médico. Aunque es raro, puede indicar daño nervioso temporal. Evite masticar en el área y tenga cuidado al hablar y beber hasta que se resuelva."
+    },
+    {
+      "q": "¿La prilocaína afecta a la presión arterial?",
+      "a": "Puede causar una leve disminución de la presión arterial, especialmente en anestesia epidural. Esto generalmente es temporal. Si usted tiene presión baja o toma medicamentos para la presión, informe a su médico antes del procedimiento."
+    },
+    {
+      "q": "¿Es segura la prilocaína durante el embarazo?",
+      "a": "Se clasifica como categoría B y puede usarse cuando es médicamente necesario, especialmente durante el trabajo de parto. Para procedimientos electivos, generalmente se posponen hasta después del primer trimestre. Su médico evaluará riesgos y beneficios."
+    },
+    {
+      "q": "¿Puedo amamantar después de recibir prilocaína?",
+      "a": "Sí, la cantidad que pasa a la leche materna es mínima. Para procedimientos dentales o menores, puede amamantar normalmente. Para procedimientos mayores con dosis altas, algunos médicos recomiendan extraer y desechar la leche de las primeras 4-6 horas."
+    },
+    {
+      "q": "¿La prilocaína interactúa con mis otros medicamentos?",
+      "a": "Puede interactuar con algunos medicamentos como ciertos antibióticos, antidepresivos y medicamentos para el corazón. Informe a su médico TODOS los medicamentos que toma, incluyendo hierbas y suplementos, antes de recibir cualquier anestésico."
+    },
+    {
+      "q": "¿Por qué a veces añaden epinefrina a la prilocaína?",
+      "a": "La epinefrina es un vasoconstrictor que reduce el sangrado en el área, prolonga la duración de la anestesia y disminuye la absorción del anestésico hacia la sangre, reduciendo el riesgo de efectos secundarios sistémicos."
+    },
+    {
+      "q": "¿Qué es la crema EMLA y contiene prilocaína?",
+      "a": "EMLA es una crema anestésica tópica que contiene prilocaína 2.5% y lidocaína 2.5%. Se aplica sobre la piel intacta 1-2 horas antes de procedimientos como venopunción o colocación de catéteres, adormeciendo la superficie de la piel."
+    },
+    {
+      "q": "¿La prilocaína puede causar daño permanente a los nervios?",
+      "a": "El daño nervioso permanente es extremadamente raro (<0.01%). Puede ocurrir por inyección directa en un nervio, compresión por hematoma o isquemia. La mayoría de las parestesias (hormigueo persistente) son temporales y se resuelven en semanas o meses."
+    },
+    {
+      "q": "¿Cómo se trata la sobredosis de prilocaína?",
+      "a": "El tratamiento incluye soporte vital, oxígeno, medicamentos para convulsiones (benzodiacepinas) y para arritmias. Para metahemoglobinemia severa se usa azul de metileno. Hoy también se usa emulsión lipídica intravenosa (Intralipid) para neutralizar la toxicidad de anestésicos locales."
+    },
+    {
+      "q": "¿Qué pacientes tienen mayor riesgo con prilocaína?",
+      "a": "Pacientes con deficiencia de metahemoglobina reductasa, enfermedad hepática severa, insuficiencia cardiaca, ancianos frágiles y aquellos que toman medicamentos que causan metahemoglobinemia (como dapsona o nitritos)."
+    },
+    {
+      "q": "¿Por qué la prilocaína es preferible en algunos procedimientos cardíacos?",
+      "a": "Entre los anestésicos locales de tipo amida, la prilocaína tiene el menor potencial de toxicidad cardíaca, lo que la hace más segura en pacientes con cardiopatía conocida o riesgo de arritmias, cuando se necesita anestesia local para procedimientos menores."
+    }
+  ]
+}

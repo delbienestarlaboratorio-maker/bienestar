@@ -1,0 +1,419 @@
+{
+  "name": "Flunarizina",
+  "summary": "La flunarizina es un medicamento que pertenece al grupo de los bloqueadores de canales de calcio selectivos para el sistema nervioso central. Se utiliza principalmente para prevenir y tratar los episodios de migraña, ya que reduce la frecuencia e intensidad de estos dolores de cabeza debilitantes. También es útil en el tratamiento de ciertos tipos de vértigo y mareo, ya que mejora el flujo sanguíneo en el oído interno y el cerebro. Su importancia clínica radica en ser una opción profiláctica para pacientes con migrañas frecuentes que no responden bien a otros tratamientos, ayudando a mejorar significativamente su calidad de vida. Sin embargo, su uso requiere supervisión médica debido al riesgo de efectos adversos, como somnolencia, aumento de peso y, en tratamientos prolongados, síntomas de parkinsonismo o depresión. Es un fármaco que se toma por vía oral, generalmente por la noche, y su efecto completo puede tardar varias semanas en manifestarse.",
+  "pharmacology": {
+    "mechanismOfAction": "La flunarizina actúa principalmente bloqueando los canales de calcio dependientes de voltaje tipo L en las células del músculo liso vascular y en las neuronas del sistema nervioso central. Este bloqueo inhibe la entrada de calcio a las células, lo que produce vasodilatación (ensanchamiento de los vasos sanguíneos), especialmente en las arterias cerebrales, mejorando el flujo sanguíneo al cerebro y al oído interno. Además, posee propiedades antihistamínicas al bloquear los receptores H1, lo que contribuye a su efecto contra el vértigo y la cinetosis (mareo por movimiento). También estabiliza las membranas celulares y tiene un leve efecto antagonista sobre los receptores de dopamina, lo que explica algunos de sus efectos adversos a largo plazo. Su acción principal es prevenir la vasoconstricción excesiva y la hipoxia cerebral que se cree están involucradas en la migraña.",
+    "pharmacologicClass": "Bloqueador de canales de calcio selectivo para vasos cerebrales; Antihistamínico (antagonista del receptor H1); Estabilizador de membrana; Vasodilatador cerebral selectivo.",
+    "therapeuticClass": "Antimigrañoso profiláctico; Antivertiginoso; Antiarrítmico (clase IV).",
+    "absorption": "Se absorbe bien por vía oral después de la administración. La absorción es lenta pero casi completa (aproximadamente 80-90%). La presencia de alimentos puede retrasar la absorción pero no afecta significativamente la cantidad total de fármaco que llega a la circulación.",
+    "distribution": "Tiene una amplia distribución en los tejidos, especialmente en el tejido adiposo (grasa), donde se acumula. Su volumen de distribución es grande (aproximadamente 43 L/kg), lo que indica una alta penetración en los tejidos. Se une extensamente a proteínas plasmáticas (aproximadamente 99%). Cruza la barrera hematoencefálica, lo que le permite ejercer su efecto en el sistema nervioso central.",
+    "metabolism": "Se metaboliza extensamente en el hígado, principalmente por desalquilación y glucuronidación. Las enzimas del citocromo P450 (CYP), particularmente CYP2D6, están involucradas en su metabolismo. Su metabolito principal es la 4-hidroxiflunarizina, que tiene una actividad farmacológica mínima.",
+    "elimination": "Tiene una vida media de eliminación muy larga, que puede variar entre 18 y 30 días, debido a su alta liposolubilidad y acumulación en el tejido adiposo. Se elimina principalmente por vía biliar y fecal (aproximadamente 70-80%), y una pequeña parte por la orina (menos del 10%). La eliminación completa puede tardar varias semanas después de suspender el tratamiento.",
+    "onsetOfAction": "El inicio de acción para el alivio sintomático puede notarse en días, pero su efecto profiláctico completo (por ejemplo, en la prevención de migrañas) generalmente tarda de 2 a 4 semanas en manifestarse.",
+    "durationOfAction": "Debido a su larga vida media y acumulación en tejidos, su efecto es prolongado y permite una dosificación de una vez al día. Los efectos pueden persistir durante varias semanas después de suspender el medicamento."
+  },
+  "indications": {
+    "approved": [
+      "Profilaxis de la migraña (para reducir la frecuencia e intensidad de las crisis)",
+      "Tratamiento de trastornos vestibulares periféricos (vértigo, mareo) como la enfermedad de Ménière y vértigo posicional paroxístico benigno",
+      "Tratamiento sintomático de trastornos de la circulación cerebral (insuficiencia vertebrobasilar)"
+    ],
+    "offLabel": [
+      "Prevención del mareo por movimiento (cinetosis)",
+      "Tratamiento coadyuvante en algunos tipos de epilepsia refractaria",
+      "Síndrome de Raynaud",
+      "Acúfenos (tinnitus) de origen vascular",
+      "Trastornos de la circulación periférica"
+    ]
+  },
+  "dosage": {
+    "adults": "Para migraña y vértigo: Dosis inicial de 10 mg (2 tabletas de 5 mg) por vía oral, una vez al día, preferentemente por la noche. Después de 1-2 meses, si la respuesta es satisfactoria, la dosis puede reducirse a 5 mg (1 tableta) una vez al día, 5 días a la semana (por ejemplo, de lunes a viernes).",
+    "pediatric": "No se recomienda su uso en niños menores de 18 años para la migraña. Para otras indicaciones en niños mayores, la dosis debe ser determinada estrictamente por un médico especialista, generalmente basada en el peso corporal.",
+    "elderly": "En pacientes mayores de 65 años, se recomienda iniciar con la dosis más baja posible (5 mg/día) debido al mayor riesgo de efectos adversos, especialmente somnolencia, depresión y síntomas extrapiramidales. Se requiere monitorización estrecha.",
+    "renalImpairment": "No se requiere ajuste de dosis en insuficiencia renal leve a moderada (TFG >30 mL/min). En insuficiencia renal grave (TFG <30 mL/min) o en diálisis, se debe usar con precaución y posiblemente a dosis reducidas, ya que la experiencia es limitada.",
+    "hepaticImpairment": "Contraindicado en insuficiencia hepática grave. En insuficiencia hepática leve a moderada, se debe usar con extrema precaución y a dosis reducidas, ya que el fármaco se metaboliza en el hígado. Monitorizar signos de toxicidad.",
+    "maxDose": "La dosis máxima diaria recomendada es de 10 mg. No se deben exceder los 70 mg por semana en regímenes de 5 días/semana."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "5 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Cápsula",
+      "strengths": [
+        "5 mg"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la flunarizina o a cualquier componente de la formulación",
+      "Historia de depresión mayor o trastornos depresivos",
+      "Enfermedad de Parkinson u otros síndromes parkinsonianos",
+      "Síndrome de Parkinson plus",
+      "Temblor esencial",
+      "Insuficiencia hepática grave",
+      "Embarazo",
+      "Lactancia"
+    ],
+    "relative": [
+      "Edad avanzada (mayor de 65 años)",
+      "Insuficiencia renal grave",
+      "Epilepsia (puede reducir el umbral convulsivo)",
+      "Bradicardia (ritmo cardíaco lento) o trastornos de la conducción cardíaca",
+      "Hipotensión (presión arterial baja)",
+      "Obesidad (por riesgo de aumento de peso)",
+      "Uso concomitante de otros depresores del sistema nervioso central",
+      "Historia de trastornos extrapiramidales"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Somnolencia",
+      "Fatiga",
+      "Aumento de peso"
+    ],
+    "common": [
+      "Mareo",
+      "Dolor de cabeza",
+      "Náuseas",
+      "Dolor abdominal",
+      "Acidez estomacal",
+      "Sequedad de boca",
+      "Dolor muscular (mialgia)",
+      "Temblor",
+      "Rigidez muscular",
+      "Depresión",
+      "Ansiedad",
+      "Insomnio"
+    ],
+    "uncommon": [
+      "Agitación",
+      "Alucinaciones",
+      "Parkinsonismo (lentitud de movimientos, rigidez, temblor en reposo)",
+      "Distonía (contracciones musculares involuntarias)",
+      "Acatisia (inquietud motora)",
+      "Visión borrosa",
+      "Erupción cutánea",
+      "Prurito (comezón)",
+      "Galactorrea (secreción láctea no relacionada con lactancia)",
+      "Ginecomastia (aumento de senos en hombres)"
+    ],
+    "rare": [
+      "Trombocitopenia (bajo recuento de plaquetas)",
+      "Leucopenia (bajo recuento de glóbulos blancos)",
+      "Hepatitis colestásica (daño hepático)",
+      "Síndrome neuroléptico maligno (muy raro, pero grave)",
+      "Prolongación del intervalo QT en el electrocardiograma",
+      "Arritmias cardíacas"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Alcohol",
+        "effect": "Potencia los efectos depresores del sistema nervioso central, aumentando la somnolencia y el riesgo de accidentes. Evitar su consumo.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Antipsicóticos (ej. Haloperidol, Risperidona)",
+        "effect": "Aumenta significativamente el riesgo de síntomas extrapiramidales (parkinsonismo, distonía) y sedación.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Antidepresivos tricíclicos (ej. Amitriptilina)",
+        "effect": "Potencia los efectos anticolinérgicos (sequedad de boca, estreñimiento, visión borrosa) y la sedación.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Benzodiacepinas (ej. Diazepam, Clonazepam)",
+        "effect": "Aumenta la sedación, somnolencia y riesgo de deterioro psicomotor.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Antihipertensivos",
+        "effect": "Puede potenciar el efecto reductor de la presión arterial, causando hipotensión (presión baja) y mareo.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Carbamazepina, Fenitoína (Antiepilépticos)",
+        "effect": "La flunarizina puede reducir el umbral convulsivo. Monitorizar control de crisis.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inhibidores de CYP2D6 (ej. Fluoxetina, Paroxetina)",
+        "effect": "Pueden aumentar los niveles sanguíneos de flunarizina, incrementando el riesgo de efectos adversos.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Puede tomarse con o sin alimentos. Tomarlo con alimentos puede ayudar a reducir molestias gastrointestinales como náuseas. El alcohol debe evitarse completamente.",
+    "withSupplements": "Interacciones no bien documentadas con suplementos. Se recomienda precaución con suplementos que causen somnolencia (como la melatonina o la valeriana) o que afecten el estado de ánimo (como la hierba de San Juan). Consultar al médico."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "C",
+      "recommendation": "No se recomienda su uso durante el embarazo. Estudios en animales han mostrado toxicidad fetal. En mujeres en edad fértil, se debe usar solo si el beneficio justifica claramente el riesgo potencial para el feto, y se debe emplear un método anticonceptivo efectivo durante el tratamiento. Si se planea un embarazo, se debe suspender el medicamento con suficiente antelación.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La flunarizina se excreta en la leche materna. Debido al riesgo potencial de efectos adversos graves en el lactante (somnolencia, efectos extrapiramidales), está contraindicada durante la lactancia. Se debe suspender la lactancia o suspender el fármaco.",
+    "pediatric": "La seguridad y eficacia en niños y adolescentes menores de 18 años no están establecidas para la profilaxis de la migraña. Su uso en pediatría se reserva para otras indicaciones muy específicas bajo estricta supervisión de un neurólogo pediatra, evaluando cuidadosamente el riesgo-beneficio.",
+    "geriatric": "Los pacientes mayores de 65 años son más susceptibles a los efectos adversos, especialmente somnolencia, mareo, depresión y síntomas parkinsonianos (temblor, rigidez, lentitud). Se debe iniciar con la dosis más baja posible (5 mg/día o en días alternos) y monitorizar de cerca. Considerar alternativas más seguras."
+  },
+  "administration": {
+    "howToTake": "Tomar la tableta o cápsula entera con un vaso de agua. La dosis habitual es una vez al día, preferentemente por la noche antes de acostarse, para minimizar la somnolencia diurna. Puede tomarse con alimentos si causa malestar estomacal. No triturar, masticar ni partir las tabletas. Seguir exactamente las indicaciones del médico respecto a la dosis y duración del tratamiento.",
+    "storage": "Conservar en su empaque original, a temperatura ambiente (entre 15°C y 30°C), en un lugar seco y fuera del alcance de la luz directa y la humedad. Mantener fuera del alcance de los niños y las mascotas.",
+    "specialInstructions": "El tratamiento para la migraña es preventivo (profiláctico), no para aliviar un ataque agudo. Puede tardar varias semanas en hacer efecto. No suspender abruptamente sin consultar al médico. Informar inmediatamente al médico si aparece depresión, pensamientos suicidas, temblores, rigidez muscular o movimientos anormales. Puede causar somnolencia; tener precaución al conducir o operar maquinaria peligrosa hasta conocer su respuesta individual."
+  },
+  "monitoring": {
+    "labTests": [
+      "Función hepática (transaminasas, bilirrubina) periódicamente",
+      "Hemograma completo (conteo de glóbulos blancos y plaquetas) ocasionalmente",
+      "Perfil de lípidos y glucosa (por riesgo de aumento de peso)"
+    ],
+    "frequency": "Evaluación clínica cada 1-3 meses al inicio del tratamiento para evaluar eficacia y efectos adversos. Pruebas de laboratorio al inicio y luego cada 6-12 meses, o según síntomas.",
+    "signsToWatch": [
+      "Aparición o empeoramiento de síntomas depresivos, ansiedad o pensamientos suicidas",
+      "Temblor en reposo, rigidez muscular, lentitud de movimientos (bradicinesia), inestabilidad al caminar",
+      "Aumento de peso significativo",
+      "Somnolencia diurna excesiva que interfiere con actividades",
+      "Mareo intenso o desmayos",
+      "Erupción cutánea o picazón severa",
+      "Coloración amarillenta de piel u ojos (ictericia)"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Somnolencia profunda",
+      "Coma",
+      "Agitación psicomotora",
+      "Convulsiones",
+      "Bradicardia severa (ritmo cardíaco muy lento)",
+      "Hipotensión severa (presión arterial muy baja)",
+      "Arritmias cardíacas",
+      "Depresión respiratoria"
+    ],
+    "treatment": "No hay antídoto específico. El tratamiento es de soporte y sintomático. En caso de ingestión reciente (menos de 1-2 horas), considerar lavado gástrico o carbón activado. Monitorizar constantes vitales (frecuencia cardíaca, presión arterial, respiración). Tratar la hipotensión con fluidos intravenosos y vasopresores si es necesario. Para la bradicardia, puede usarse atropina. Las convulsiones se tratan con benzodiacepinas. El paciente debe ser hospitalizado para observación prolongada debido a la larga vida media del fármaco.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Rx)",
+    "scheduleMexico": "Medicamento de patente, sujeto a prescripción médica. No está en la lista de psicotrópicos o estupefacientes.",
+    "fdaApprovalYear": "No aprobado por la FDA de Estados Unidos. Está aprobado en muchos otros países, incluido México."
+  },
+  "brandsMexico": [
+    "Sibelium",
+    "Flunagen",
+    "Flunarin",
+    "Cerebloc",
+    "Vertizin",
+    "Migraless",
+    "Cinnarizina (análogo estructural, a veces usado de forma intercambiable)"
+  ],
+  "clinicalPearls": [
+    "La flunarizina es más efectiva como preventivo de migraña que para tratar el ataque agudo. Pacientes y médicos deben tener paciencia, ya que el beneficio máximo puede tardar hasta 3 meses.",
+    "El efecto adverso más limitante a largo plazo es el parkinsonismo inducido, que puede ser irreversible o tardar meses en resolverse tras suspender el fármaco. Es más común en mujeres mayores y con tratamientos prolongados (>6 meses).",
+    "Debido a su acumulación en grasa, la dosis de mantenimiento a menudo se reduce a 5 mg/día, 5 días a la semana, para minimizar efectos adversos manteniendo la eficacia."
+  ],
+  "patientCounseling": "Querido paciente: La flunarizina es un medicamento que se toma diariamente para prevenir las migrañas, no para quitarlas cuando ya empezaron. Es muy importante que sea constante y no olvide sus tomas. Tómelo preferentemente en la noche, porque puede dar mucho sueño. Evite manejar o usar maquinaria peligrosa si se siente adormilado. Este medicamento puede hacerlo subir de peso, por lo que le recomiendo llevar una dieta balanceada y hacer ejercicio regular si su médico lo autoriza. Esté muy atento a su estado de ánimo: si se siente triste, sin ganas de nada, con mucha ansiedad o tiene pensamientos negativos, DEBE avisar a su médico de inmediato. También avise si nota temblores en las manos, rigidez en los músculos o si se mueve más lento. No suspenda el tratamiento por su cuenta, aunque se sienta mejor. Asista a todas sus citas de seguimiento para que el médico ajuste la dosis si es necesario. Guarde el medicamento en un lugar seguro, lejos de los niños. No tome alcohol mientras esté en este tratamiento.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor de cabeza por migraña",
+        "slug": "dolor-de-cabeza-por-migrana"
+      },
+      {
+        "name": "Vértigo (sensación de giro)",
+        "slug": "vertigo-sensacion-de-giro"
+      },
+      {
+        "name": "Mareo",
+        "slug": "mareo"
+      },
+      {
+        "name": "Náuseas por vértigo",
+        "slug": "nauseas-por-vertigo"
+      },
+      {
+        "name": "Sensibilidad a la luz y al sonido (fotofonofobia)",
+        "slug": "sensibilidad-a-la-luz-y-al-sonido"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Migraña crónica o episódica",
+        "slug": "migrana-cronica-o-episodica"
+      },
+      {
+        "name": "Enfermedad de Ménière",
+        "slug": "enfermedad-de-meniere"
+      },
+      {
+        "name": "Vértigo posicional paroxístico benigno (VPPB)",
+        "slug": "vertigo-posicional-paroxistico-benigno"
+      },
+      {
+        "name": "Insuficiencia vertebrobasilar",
+        "slug": "insuficiencia-vertebrobasilar"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Parkinsonismo inducido por fármacos",
+        "slug": "parkinsonismo-inducido-por-farmacos"
+      },
+      {
+        "name": "Depresión mayor",
+        "slug": "depresion-mayor"
+      },
+      {
+        "name": "Aumento de peso y obesidad",
+        "slug": "aumento-de-peso-y-obesidad"
+      },
+      {
+        "name": "Hepatitis colestásica",
+        "slug": "hepatitis-colestasica"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Transaminasas (TGO/TGP)",
+        "slug": "transaminasas-tgo-tgp",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Peso corporal",
+        "slug": "peso-corporal",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Prolactina",
+        "slug": "prolactina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Recuento de plaquetas",
+        "slug": "recuento-de-plaquetas",
+        "effect": "Puede disminuir"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-de-funcion-hepatica",
+        "reason": "Para detectar daño hepático inducido por el fármaco"
+      },
+      {
+        "name": "Hemograma completo",
+        "slug": "hemograma-completo",
+        "reason": "Para monitorear posibles efectos en células sanguíneas como plaquetas y glóbulos blancos"
+      },
+      {
+        "name": "Evaluación neurológica para parkinsonismo",
+        "slug": "evaluacion-neurologica-para-parkinsonismo",
+        "reason": "Para detectar tempranamente síntomas extrapiramidales"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora IMC",
+        "slug": "calculadora-imc"
+      },
+      {
+        "name": "Calculadora eGFR",
+        "slug": "calculadora-egfr"
+      },
+      {
+        "name": "Dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve la flunarizina?",
+      "a": "Sirve principalmente para prevenir los ataques de migraña (dolor de cabeza intenso) y para tratar problemas de vértigo y mareo severo. No quita el dolor cuando ya empezó la migraña, sino que reduce la frecuencia con la que aparecen."
+    },
+    {
+      "q": "¿Cómo debo tomar la flunarizina?",
+      "a": "Generalmente se toma una vez al día, preferentemente por la noche con un vaso de agua, porque puede causar sueño. Siga exactamente las indicaciones de su médico sobre la dosis (por ejemplo, 5 mg o 10 mg) y si debe tomarla todos los días o solo ciertos días de la semana."
+    },
+    {
+      "q": "¿La flunarizina da sueño?",
+      "a": "Sí, la somnolencia es uno de sus efectos secundarios más comunes. Por eso se recomienda tomarla en la noche. Si persiste el sueño durante el día, tenga precaución al manejar o realizar actividades que requieran alerta."
+    },
+    {
+      "q": "¿Engorda la flunarizina?",
+      "a": "Sí, el aumento de peso es un efecto adverso frecuente. Puede aumentar el apetito. Se recomienda llevar una dieta balanceada y hacer ejercicio regularmente para controlar el peso durante el tratamiento."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto para la migraña?",
+      "a": "Es un tratamiento preventivo. Puede empezar a notar mejoría en unas 2 a 4 semanas, pero el efecto completo máximo puede tardar hasta 2 o 3 meses. Sea constante y no lo suspenda antes de tiempo."
+    },
+    {
+      "q": "¿Puedo tomar flunarizina si ya tengo un dolor de cabeza fuerte?",
+      "a": "No, la flunarizina no está diseñada para aliviar un ataque de migraña agudo. Para eso existen otros medicamentos como los triptanes o analgésicos. Consulte a su médico sobre qué tomar durante la crisis."
+    },
+    {
+      "q": "¿La flunarizina es lo mismo que la cinnarizina?",
+      "a": "Son medicamentos muy parecidos (análogos), con efectos similares para el vértigo. Sin embargo, la flunarizina es más potente y específica para la prevención de la migraña. No los intercambie sin consultar a su médico."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si estoy tomando flunarizina?",
+      "a": "No se recomienda. El alcohol aumenta mucho la somnolencia y el mareo causados por el medicamento, lo que puede ser peligroso. Es mejor evitarlo por completo durante el tratamiento."
+    },
+    {
+      "q": "¿Qué hago si olvido una dosis?",
+      "a": "Si se olvida, tómela tan pronto como lo recuerde, a menos que ya sea casi la hora de la siguiente dosis. En ese caso, omita la dosis olvidada y continúe con su horario normal. Nunca duplique la dosis para compensar."
+    },
+    {
+      "q": "¿La flunarizina puede causar depresión?",
+      "a": "Sí, es un efecto adverso importante. Puede causar o empeorar la depresión, ansiedad e incluso pensamientos suicidas. Informe INMEDIATAMENTE a su médico si se siente triste, sin esperanza, con cambios de humor o pensamientos negativos."
+    },
+    {
+      "q": "¿Por cuánto tiempo se toma la flunarizina?",
+      "a": "El tratamiento suele ser prolongado, de varios meses a años, dependiendo de la respuesta. Sin embargo, el médico evaluará periódicamente si es necesario continuar. No se recomienda usarla indefinidamente sin supervisión por el riesgo de efectos adversos a largo plazo."
+    },
+    {
+      "q": "¿Puede la flunarizina causar temblores?",
+      "a": "Sí, puede causar síntomas parecidos al Parkinson, como temblor en las manos (especialmente en reposo), rigidez muscular y movimientos lentos. Esto es más común en tratamientos largos y en personas mayores. Avise a su médico si nota estos síntomas."
+    },
+    {
+      "q": "¿Quiénes NO deben tomar flunarizina?",
+      "a": "No deben tomarla personas con depresión, enfermedad de Parkinson, problemas hepáticos graves, mujeres embarazadas o en lactancia, y quienes sean alérgicos al medicamento. Tampoco se recomienda en adultos mayores sin estrecha supervisión."
+    },
+    {
+      "q": "¿Interfiere la flunarizina con otros medicamentos?",
+      "a": "Sí. Interactúa con muchos fármacos, especialmente aquellos que también dan sueño (como ansiolíticos), algunos antidepresivos y medicamentos para la presión alta. Siempre informe a su médico y farmacéutico sobre TODOS los medicamentos que toma, incluyendo hierbas y suplementos."
+    },
+    {
+      "q": "¿Puedo dejar de tomar la flunarizina de golpe?",
+      "a": "No se recomienda suspenderla abruptamente, especialmente si la ha estado tomando por mucho tiempo. Puede provocar un rebote de las migrañas. Siempre consulte a su médico para que le indique cómo reducir la dosis gradualmente."
+    },
+    {
+      "q": "¿La flunarizina afecta el hígado?",
+      "a": "En raras ocasiones puede causar daño hepático (hepatitis). Su médico probablemente le pedirá análisis de sangre periódicos para revisar la función del hígado. Avise si tiene cansancio extremo, piel u ojos amarillos, orina oscura o dolor abdominal."
+    },
+    {
+      "q": "¿Es seguro usar flunarizina en niños?",
+      "a": "Generalmente no se recomienda para prevenir migrañas en niños menores de 18 años, ya que su seguridad y eficacia no están bien establecidas en este grupo. Su uso en niños debe ser decidido únicamente por un neurólogo pediatra en casos muy específicos."
+    },
+    {
+      "q": "¿Qué diferencia hay entre Sibelium y otras marcas de flunarizina?",
+      "a": "Sibelium es el nombre comercial original y más conocido. Otras marcas (Flunagen, Flunarin, etc.) son versiones genéricas o similares que contienen el mismo principio activo. Todas deben tener la misma eficacia y seguridad si son de calidad, pero algunos pacientes reportan diferencias. Consulte a su médico o farmacéutico."
+    },
+    {
+      "q": "¿La flunarizina sirve para el tinnitus (zumbido en los oídos)?",
+      "a": "A veces se usa 'off-label' (fuera de sus indicaciones oficiales) para el tinnitus de origen vascular, ya que mejora la circulación en el oído interno. Sin embargo, la evidencia de su eficacia es limitada y no es su uso principal. Consulte a un otorrinolaringólogo."
+    },
+    {
+      "q": "¿Cuál es el mecanismo por el que la flunarizina puede inducir parkinsonismo y cómo se maneja?",
+      "a": "Bloquea los canales de calcio en las neuronas de los ganglios basales del cerebro y tiene un leve efecto antagonista de la dopamina, lo que altera el equilibrio químico necesario para el movimiento. El manejo consiste en suspender el fármaco inmediatamente al detectar los primeros síntomas (temblor, rigidez). La recuperación puede ser lenta (meses) y a veces incompleta, requiriendo tratamiento con medicamentos para el Parkinson como levodopa. La prevención es clave: usar la dosis mínima efectiva y por el menor tiempo posible, con vigilancia neurológica estrecha."
+    }
+  ]
+}

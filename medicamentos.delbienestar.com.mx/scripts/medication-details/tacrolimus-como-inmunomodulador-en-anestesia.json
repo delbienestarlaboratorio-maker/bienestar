@@ -1,0 +1,393 @@
+{
+  "name": "Tacrolimus (como inmunomodulador en anestesia)",
+  "summary": "El tacrolimus es un medicamento inmunosupresor potente que se utiliza principalmente para prevenir el rechazo de órganos trasplantados, como riñón, hígado o corazón. En el contexto de la anestesia y el cuidado perioperatorio, se emplea por su capacidad para modular la respuesta inmunológica, reduciendo la inflamación y ayudando a controlar el dolor neuropático en ciertas cirugías complejas. Su importancia clínica radica en que permite realizar procedimientos quirúrgicos en pacientes que ya están tomando este medicamento por un trasplante previo, o bien, en situaciones seleccionadas donde se busca un efecto antiinflamatorio específico durante el periodo alrededor de la cirugía. Es un fármaco de manejo delicado que requiere monitoreo estrecho de sus niveles en sangre y de posibles efectos adversos, especialmente en la función renal y neurológica. Su uso en anestesia es especializado y siempre bajo supervisión de un equipo médico experimentado.",
+  "pharmacology": {
+    "mechanismOfAction": "El tacrolimus actúa como un inhibidor de la calcineurina, una enzima clave en la activación de los linfocitos T, que son células fundamentales del sistema inmunológico. Se une a una proteína intracelular llamada FKBP-12, formando un complejo que bloquea la actividad de la calcineurina. Esto impide la translocación al núcleo de un factor de transcripción llamado NF-AT (factor nuclear de células T activadas), que es necesario para la producción de citocinas proinflamatorias como la interleucina-2 (IL-2). Al suprimir la síntesis de IL-2 y otras citocinas, el tacrolimus inhibe la proliferación y activación de los linfocitos T, generando así un potente efecto inmunosupresor. En el contexto perioperatorio, este mecanismo ayuda a atenuar la respuesta inflamatoria sistémica asociada a la cirugía y al trauma tisular.",
+    "pharmacologicClass": "Inhibidor de la calcineurina; macrólido inmunosupresor.",
+    "therapeuticClass": "Inmunosupresor; Agente inmunomodulador.",
+    "absorption": "La absorción oral es variable e incompleta, con una biodisponibilidad promedio de alrededor del 20-25%. La presencia de alimentos, especialmente aquellos con alto contenido de grasa, puede reducir significativamente la absorción y los niveles sanguíneos. La administración intravenosa ofrece una biodisponibilidad del 100%.",
+    "distribution": "Se distribuye ampliamente en el organismo. Tiene un alto volumen de distribución (aproximadamente 1300 L), lo que indica una extensa distribución en los tejidos. Se une en gran medida (>99%) a las proteínas plasmáticas, principalmente a la albúmina y a la alfa-1-glicoproteína ácida.",
+    "metabolism": "El tacrolimus se metaboliza extensamente en el hígado, principalmente a través del sistema enzimático del citocromo P450, específicamente por la isoenzima CYP3A4. También puede ser metabolizado por CYP3A5. Esto genera metabolitos que son en su mayoría inactivos desde el punto de vista inmunosupresor.",
+    "elimination": "La eliminación es principalmente a través de las heces (más del 90%), con menos del 2% excretado sin cambios en la orina. Su vida media de eliminación es variable, generalmente entre 12 y 24 horas en pacientes con función hepática normal, pero puede prolongarse significativamente en casos de disfunción hepática.",
+    "onsetOfAction": "Tras la administración intravenosa, los efectos inmunosupresores comienzan rápidamente, en cuestión de horas. Con la administración oral, el inicio del efecto es más gradual, alcanzando concentraciones estables después de varios días de dosificación regular.",
+    "durationOfAction": "La duración del efecto inmunosupresor es prolongada y depende de mantener niveles sanguíneos terapéuticos. Requiere administración continua una o dos veces al día para mantener su efecto."
+  },
+  "indications": {
+    "approved": [
+      "Profilaxis del rechazo de aloinjerto en trasplante de órganos sólidos (riñón, hígado, corazón).",
+      "Tratamiento del rechazo agudo resistente a otros inmunosupresores en pacientes con trasplante."
+    ],
+    "offLabel": [
+      "Modulación de la respuesta inflamatoria en cirugías mayores de alto riesgo (uso perioperatorio).",
+      "Manejo de enfermedades autoinmunes severas (como miastenia gravis, lupus nefrítico) en el contexto perioperatorio.",
+      "Prevención de la enfermedad de injerto contra huésped (EICH) en trasplante de médula ósea.",
+      "Tratamiento de síndromes de dolor neuropático complejo en pacientes seleccionados para cirugía."
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis es HIGHLY INDIVIDUALIZADA y se ajusta según niveles sanguíneos (trough). En trasplante: Inicio típico 0.1-0.2 mg/kg/día por vía oral, en dos dosis divididas cada 12 horas, o 0.03-0.05 mg/kg/día por infusión intravenosa continua de 24 horas. En contexto perioperatorio, la dosis se basa en el régimen de base del paciente y se ajusta para mantener niveles terapéuticos, a menudo requiriendo reducciones por interacciones con otros fármacos anestésicos.",
+    "pediatric": "Niños: Pueden requerir dosis más altas por kg de peso que los adultos para alcanzar niveles terapéuticos similares. Dosis inicial típica: 0.15-0.3 mg/kg/día por vía oral en dos dosis divididas. La dosificación intravenosa es aproximadamente 1/5 de la dosis oral. El monitoreo de niveles es CRÍTICO.",
+    "elderly": "Los pacientes de edad avanzada pueden presentar una farmacocinética alterada (menor metabolismo hepático, menor función renal). Se recomienda iniciar en el extremo inferior del rango de dosificación y realizar ajustes lentos basados en niveles sanguíneos y tolerancia.",
+    "renalImpairment": "No se requiere ajuste de dosis inicial basado únicamente en la función renal. Sin embargo, el tacrolimus es nefrotóxico, por lo que en pacientes con TFG <30 mL/min se debe usar con extrema precaución, iniciando con dosis bajas y monitoreando estrechamente la función renal y los niveles del fármaco.",
+    "hepaticImpairment": "El metabolismo está significativamente reducido. En insuficiencia hepática moderada a severa (Child-Pugh B o C), la dosis debe reducirse sustancialmente (hasta un 50-75%) y los niveles deben monitorearse con mucha mayor frecuencia debido al riesgo de acumulación y toxicidad.",
+    "maxDose": "No existe una dosis máxima diaria absoluta universal; la dosis se titula para alcanzar un rango terapéutico de niveles sanguíneos (generalmente 5-20 ng/mL para trasplante, pero puede ser menor en uso perioperatorio). Las dosis muy altas se asocian con toxicidad severa."
+  },
+  "dosageForms": [
+    {
+      "form": "Cápsula",
+      "strengths": [
+        "0.5 mg",
+        "1 mg",
+        "5 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Solución inyectable",
+      "strengths": [
+        "5 mg/mL"
+      ],
+      "route": "Intravenosa (Infusión)"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al tacrolimus, a otros macrólidos o a cualquier componente de la formulación.",
+      "Uso concomitante con ciclosporina (aumenta el riesgo de nefrotoxicidad)."
+    ],
+    "relative": [
+      "Insuficiencia renal severa no controlada.",
+      "Insuficiencia hepática severa (Child-Pugh C).",
+      "Hipertensión arterial maligna no controlada.",
+      "Infecciones activas no controladas (bacterianas, virales, fúngicas).",
+      "Embarazo (solo si el beneficio justifica claramente el riesgo).",
+      "Pacientes con trastornos electrolíticos no corregidos (especialmente hipomagnesemia, hiperkalemia)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Temblor fino en las manos.",
+      "Dolor de cabeza.",
+      "Náuseas y diarrea.",
+      "Alteraciones en la función renal (elevación de creatinina).",
+      "Hipertensión arterial.",
+      "Alteraciones electrolíticas (hipomagnesemia, hiperkalemia)."
+    ],
+    "common": [
+      "Insomnio.",
+      "Parestesias (hormigueos).",
+      "Pérdida de apetito.",
+      "Molestias abdominales.",
+      "Anemia.",
+      "Hiperglucemia (puede inducir o empeorar diabetes)."
+    ],
+    "uncommon": [
+      "Convulsiones.",
+      "Neurotoxicidad (confusión, alucinaciones, coma).",
+      "Cardiotoxicidad (hipertrofia ventricular, arritmias).",
+      "Pancreatitis.",
+      "Alopecia (caída del cabello).",
+      "Fotosensibilidad."
+    ],
+    "rare": [
+      "Síndrome hemolítico urémico (SHU).",
+      "Miocardiopatía.",
+      "Anafilaxia.",
+      "Linfoma y otros trastornos linfoproliferativos (asociados a inmunosupresión prolongada).",
+      "Toxicidad pulmonar."
+    ],
+    "blackBoxWarning": "Aumenta el riesgo de infecciones graves y el desarrollo de linfomas y otros cánceres debido a la inmunosupresión. Puede causar nefrotoxicidad y neurotoxicidad severas. Su uso requiere manejo por médicos con experiencia."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Ketoconazol, Itraconazol, Voriconazol, Fluconazol (altas dosis)",
+        "effect": "Inhiben CYP3A4, aumentando MUCHO los niveles de tacrolimus (riesgo de toxicidad severa).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Claritromicina, Eritromicina",
+        "effect": "Inhiben CYP3A4, aumentando niveles de tacrolimus.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Rifampicina, Rifabutina",
+        "effect": "Inducen CYP3A4, disminuyendo MUCHO los niveles de tacrolimus (riesgo de rechazo o falla terapéutica).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Ciclosporina",
+        "effect": "Aumento sinérgico de la nefrotoxicidad. NO deben administrarse juntos.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Antiinflamatorios no esteroideos (AINEs) como Ibuprofeno, Naproxeno, Diclofenaco",
+        "effect": "Aumentan el riesgo de daño renal agudo.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores de la bomba de protones (Omeprazol, Esomeprazol)",
+        "effect": "Pueden alterar la absorción y aumentar los niveles de tacrolimus.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Los alimentos, especialmente los ricos en grasa, reducen la absorción y los niveles máximos del fármaco. Se debe tomar con el estómago vacío, al menos 1 hora antes o 2-3 horas después de comer, para una absorción consistente. El jugo de toronja (pomelo) está PROHIBIDO, ya que inhibe el CYP3A4 intestinal y puede aumentar los niveles del fármaco de manera peligrosa. El consumo de alcohol puede aumentar el riesgo de toxicidad hepática.",
+    "withSupplements": "La hierba de San Juan (Hypericum perforatum) induce el CYP3A4 y puede reducir drásticamente los niveles de tacrolimus, poniendo en riesgo el trasplante. Los suplementos que afectan al sistema inmunológico (equinácea, astrágalo) pueden interferir con la acción del fármaco. Los suplementos de magnesio y potasio deben usarse con precaución debido al riesgo de hiperkalemia e hipomagnesemia inducidas por el tacrolimus."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "C",
+      "recommendation": "El tacrolimus cruza la placenta. Su uso durante el embarazo solo debe considerarse si el beneficio para la madre justifica claramente el riesgo potencial para el feto. Se asocia con bajo peso al nacer y prematuridad. En mujeres en edad fértil bajo tratamiento, se debe usar un método anticonceptivo efectivo. Si se requiere durante el embarazo, el manejo debe ser multidisciplinario (nefrólogo/trasplantólogo, obstetra, neonatólogo).",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "El tacrolimus se excreta en la leche materna en bajas concentraciones. Debido al potencial de efectos adversos graves en el lactante (inmunosupresión, toxicidad renal), generalmente se recomienda NO amamantar durante el tratamiento. La decisión final debe tomarla el médico evaluando riesgo-beneficio individual.",
+    "pediatric": "Se utiliza en niños para prevención de rechazo en trasplantes. Requieren monitoreo aún más estrecho por mayor variabilidad farmacocinética y mayor susceptibilidad a efectos neurotóxicos (convulsiones). Las formulaciones orales deben medirse con precisión.",
+    "geriatric": "Mayor riesgo de efectos adversos, especialmente nefrotoxicidad, neurotoxicidad e infecciones. Es probable que requieran dosis más bajas y ajustes más lentos. La función renal y los niveles del fármaco deben vigilarse de cerca."
+  },
+  "administration": {
+    "howToTake": "VÍA ORAL: Tomar las cápsulas con el estómago vacío, al menos 1 hora antes o 2-3 horas después de los alimentos, para una absorción óptima y consistente. Tragar la cápsula entera con un vaso de agua; no masticar, partir ni disolver. Administrar a la misma hora todos los días, generalmente cada 12 horas. VÍA INTRAVENOSA: Solo para uso hospitalario. Se administra como una infusión intravenosa continua (generalmente en bomba de infusión) durante 24 horas. NO debe administrarse en bolo rápido. La solución debe diluirse según las instrucciones del fabricante (generalmente en solución salina al 0.9% o glucosada al 5%).",
+    "storage": "Cápsulas: Almacenar a temperatura ambiente (15-30°C), en su envase original, protegido de la luz y la humedad. Solución inyectable: Antes de la dilución, conservar en refrigeración (2-8°C). Proteger de la luz. La solución diluida para infusión es estable por un tiempo limitado (consultar información del producto); generalmente se usa inmediatamente.",
+    "specialInstructions": "NUNCA cambie de marca de tacrolimus sin la supervisión de su médico, ya que la biodisponibilidad puede variar. Mantenga un horario estricto de administración. Si olvida una dosis y falta poco para la siguiente, NO duplique la dosis; tome la siguiente dosis a la hora habitual. Informe a todos sus médicos (incluido el dentista) que está tomando tacrolimus. Evite el contacto con personas enfermas y practique una higiene rigurosa. Use protector solar alto, ya que el fármaco puede aumentar el riesgo de cáncer de piel."
+  },
+  "monitoring": {
+    "labTests": [
+      "Nivel sanguíneo de tacrolimus (trough level).",
+      "Creatinina sérica y tasa de filtración glomerular (TFG).",
+      "Electrolitos séricos (Magnesio, Potasio, Sodio).",
+      "Pruebas de función hepática (ALT, AST, bilirrubina).",
+      "Glucosa en sangre en ayunas y hemoglobina glucosilada (HbA1c).",
+      "Biometría hemática completa (hemoglobina, leucocitos, plaquetas).",
+      "Perfil lipídico (colesterol, triglicéridos).",
+      "Presión arterial."
+    ],
+    "frequency": "Al inicio del tratamiento: Monitoreo diario o cada 2-3 días de niveles sanguíneos y función renal. Una vez estabilizado: Niveles de tacrolimus 1-2 veces por semana inicialmente, luego cada 1-3 meses. Función renal, electrolitos y glucosa al menos mensualmente. Presión arterial en cada consulta.",
+    "signsToWatch": [
+      "Fiebre, dolor de garganta, tos persistente (signos de infección).",
+      "Disminución en la cantidad de orina o hinchazón en pies/tobillos.",
+      "Temblores severos, dolor de cabeza intenso, confusión, convulsiones.",
+      "Palpitaciones, dolor en el pecho, dificultad para respirar.",
+      "Náuseas/vómitos persistentes, dolor abdominal fuerte.",
+      "Hemorragias o moretones inusuales.",
+      "Cualquier lesión nueva o cambiante en la piel."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Nefrotoxicidad aguda (falla renal).",
+      "Neurotoxicidad severa (convulsiones, alteración del estado de conciencia, coma).",
+      "Hiperglucemia severa.",
+      "Alteraciones electrolíticas marcadas (hiperkalemia peligrosa).",
+      "Bradicardia, prolongación del intervalo QT.",
+      "Náuseas, vómitos, diarrea."
+    ],
+    "treatment": "No existe un antídoto específico. El tratamiento es de soporte y sintomático. Suspender inmediatamente el tacrolimus. Medidas generales: Monitoreo continuo de signos vitales, función renal y electrolitos. Puede requerirse hemodiálisis, aunque esta NO elimina eficazmente el tacrolimus debido a su alta unión a proteínas, pero puede ser necesaria para corregir la falla renal o la hiperkalemia severa. El carbón activado puede ser útil si la ingestión fue oral reciente. El manejo de convulsiones con benzodiacepinas.",
+    "antidote": "null"
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (receta retenida en farmacia hospitalaria en muchos casos).",
+    "scheduleMexico": "Medicamento de control especial (sujeto a vigilancia sanitaria).",
+    "fdaApprovalYear": "1994 (para trasplante de hígado)."
+  },
+  "brandsMexico": [
+    "Prograf",
+    "Advagraf",
+    "Modigraf",
+    "Tacrobell",
+    "Tacromed",
+    "Envarsus XR (formulación de liberación prolongada)"
+  ],
+  "clinicalPearls": [
+    "La variabilidad inter e intraindividual en la farmacocinética del tacrolimus es enorme. La dosificación basada en peso es solo un punto de partida; la titulación guiada por niveles sanguíneos (Trough levels) es IMPRESCINDIBLE para el éxito y la seguridad.",
+    "La hipomagnesemia es un efecto adverso casi universal y a menudo subestimado. Puede contribuir a temblores, arritmias y convulsiones. La suplementación con magnesio oral suele ser necesaria de forma crónica.",
+    "En el periodo perioperatorio, múltiples fármacos comunes en anestesia (como los opioides metabolizados por CYP3A) pueden interactuar. Además, el estrés quirúrgico y los cambios en la perfusión hepática/renal pueden alterar dramáticamente los niveles del fármaco, requiriendo monitoreo intensivo."
+  ],
+  "patientCounseling": "Este medicamento es vital para prevenir el rechazo de su órgano trasplantado, pero requiere un manejo muy cuidadoso. Tómelo EXACTAMENTE como se lo recetó su médico, siempre con el estómago vacío. Nunca deje de tomarlo ni cambie la dosis por su cuenta. Asista a TODAS sus citas de laboratorio para medir los niveles en sangre; esto es tan importante como tomar las pastillas. Evite el jugo de toronja (pomelo) por completo y consulte a su médico antes de tomar cualquier otro medicamento, incluso los de venta libre, vitaminas o hierbas. Lávese las manos con frecuencia, evite multitudes y personas enfermas, y use protector solar diario. Esté atento a signos de alarma como fiebre, temblores fuertes, cambios en la cantidad de orina o confusión, y repórtelos de inmediato. Lleve siempre una identificación que indique que está tomando tacrolimus.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor neuropático",
+        "slug": "dolor-neuropatico"
+      },
+      {
+        "name": "Inflamación sistémica",
+        "slug": "inflamacion-sistemica"
+      },
+      {
+        "name": "Riesgo de rechazo de órgano",
+        "slug": "riesgo-de-rechazo-de-organo"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Rechazo de trasplante de órgano sólido",
+        "slug": "rechazo-de-trasplante-de-organo-solido"
+      },
+      {
+        "name": "Enfermedad de injerto contra huésped",
+        "slug": "enfermedad-de-injerto-contra-huesped"
+      },
+      {
+        "name": "Miastenia gravis (en contexto perioperatorio)",
+        "slug": "miastenia-gravis"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Nefrotoxicidad (Daño renal agudo o crónico)",
+        "slug": "nefrotoxicidad"
+      },
+      {
+        "name": "Neurotoxicidad (Convulsiones, encefalopatía)",
+        "slug": "neurotoxicidad"
+      },
+      {
+        "name": "Diabetes mellitus postrasplante",
+        "slug": "diabetes-mellitus-postrasplante"
+      },
+      {
+        "name": "Linfoma postrasplante",
+        "slug": "linfoma-postrasplante"
+      },
+      {
+        "name": "Infecciones oportunistas",
+        "slug": "infecciones-oportunistas"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Magnesio sérico",
+        "slug": "magnesio-serico",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Potasio sérico",
+        "slug": "potasio-serico",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Glucosa en sangre",
+        "slug": "glucosa-en-sangre",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Nivel de tacrolimus en sangre",
+        "slug": "nivel-de-tacrolimus-en-sangre",
+        "effect": "Se monitorea para ajustar dosis"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Nivel de tacrolimus (trough)",
+        "slug": "nivel-de-tacrolimus-trough",
+        "reason": "Fundamental para ajustar la dosis y evitar toxicidad o falla terapéutica."
+      },
+      {
+        "name": "Perfil renal (Creatinina, TFG)",
+        "slug": "perfil-renal",
+        "reason": "Para detectar nefrotoxicidad inducida por el fármaco de manera temprana."
+      },
+      {
+        "name": "Electrolitos séricos (Mg, K)",
+        "slug": "electrolitos-sericos",
+        "reason": "El tacrolimus causa comúnmente hipomagnesemia e hiperkalemia."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora TFG (EGFR)",
+        "slug": "calculadora-egfr"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve el tacrolimus?",
+      "a": "Sirve principalmente para prevenir que su cuerpo rechace un órgano trasplantado (como un riñón o hígado nuevo). En algunos casos especiales alrededor de una cirugía, se usa para moderar la inflamación y el dolor."
+    },
+    {
+      "q": "¿Cómo debo tomar las cápsulas de tacrolimus?",
+      "a": "Debe tomarlas con el estómago vacío, al menos 1 hora antes o 2-3 horas después de comer. Trague la cápsula entera con agua, sin masticar. Trate de tomarlas siempre a la misma hora todos los días."
+    },
+    {
+      "q": "¿Qué pasa si olvido una dosis?",
+      "a": "Si se acerca la hora de su siguiente dosis, sáltese la que olvidó y tome la siguiente a la hora habitual. NUNCA tome una dosis doble para compensar. Si falta mucho tiempo, tome la dosis olvidada tan pronto como se acuerde, pero siempre manteniendo un intervalo mínimo de 8 horas entre dosis. Consulte a su médico o farmacéutico."
+    },
+    {
+      "q": "¿El tacrolimus tiene muchos efectos secundarios?",
+      "a": "Sí, puede tener varios. Los más comunes son temblor en las manos, dolor de cabeza, malestar estomacal y cambios en la función de los riñones. Por eso es tan importante el monitoreo con análisis de sangre frecuentes."
+    },
+    {
+      "q": "¿Puedo tomar tacrolimus si estoy embarazada o planeando un embarazo?",
+      "a": "Es un medicamento de riesgo durante el embarazo. Si está en edad fértil, debe usar un método anticonceptivo efectivo. Si está embarazada o planea estarlo, HABLE CON SU MÉDICO INMEDIATAMENTE para evaluar los riesgos y beneficios. No suspenda el medicamento por su cuenta."
+    },
+    {
+      "q": "¿Puedo beber alcohol mientras tomo tacrolimus?",
+      "a": "No se recomienda. El alcohol puede aumentar el riesgo de daño al hígado y puede interactuar con el medicamento. Es mejor evitarlo por completo."
+    },
+    {
+      "q": "¿Por qué me piden tantos análisis de sangre?",
+      "a": "Por dos razones principales: 1) Para medir la cantidad de tacrolimus en su sangre y ajustar la dosis a un nivel seguro y efectivo. 2) Para vigilar que no esté dañando sus riñones, alterando sus electrolitos o causando otros problemas. Es una parte esencial del tratamiento."
+    },
+    {
+      "q": "¿Puedo vacunarme si tomo tacrolimus?",
+      "a": "Puede recibir vacunas inactivadas (como la de la influenza o neumococo), pero debe EVITAR las vacunas con virus vivos atenuados (como sarampión, paperas, rubeola, varicela, fiebre amarilla, influenza nasal) porque su sistema inmunológico está debilitado y podría desarrollar la enfermedad. Siempre informe al personal de salud que está inmunosuprimido."
+    },
+    {
+      "q": "¿Interfiere con otros medicamentos?",
+      "a": "SÍ, INTERFIERE CON MUCHOS. No tome ningún otro medicamento, ni siquiera de venta libre, hierbas o suplementos, sin consultar primero a su médico o farmacéutico. Algunos, como ciertos antibióticos o antifúngicos, pueden aumentar peligrosamente sus niveles. Otros, como la hierba de San Juan, pueden disminuirlos."
+    },
+    {
+      "q": "¿Por qué me dicen que evite el jugo de toronja (pomelo)?",
+      "a": "El jugo de toronja bloquea una enzima en su intestino que normalmente descompone parte del tacrolimus. Si la bloquea, su cuerpo absorberá MUCHO más medicamento de lo normal, pudiendo llegar a niveles tóxicos y peligrosos. Evítelo por completo."
+    },
+    {
+      "q": "¿El tacrolimus me hará subir de peso?",
+      "a": "No es un efecto común directo del tacrolimus. Sin embargo, algunos de los otros medicamentos que se toman junto con él (como los corticoesteroides) sí pueden causar aumento de peso. El tacrolimus sí puede elevar el azúcar en la sangre, los lípidos (colesterol) y la presión arterial, lo que requiere una dieta saludable."
+    },
+    {
+      "q": "¿Puedo cambiar de marca de tacrolimus?",
+      "a": "NO lo haga por su cuenta. Diferentes marcas pueden absorberse de manera distinta en su cuerpo. Si su farmacia le ofrece una marca diferente a la que usa normalmente, CONSULTE PRIMERO CON SU MÉDICO. Un cambio no supervisado puede provocar que los niveles en sangre bajen (riesgo de rechazo) o suban (toxicidad)."
+    },
+    {
+      "q": "¿El tacrolimus causa cáncer?",
+      "a": "El tacrolimus, como todos los inmunosupresores potentes y prolongados, aumenta el riesgo de desarrollar ciertos tipos de cáncer, especialmente linfoma y cáncer de piel. Este riesgo es mayor mientras más alta sea la dosis y más tiempo lo tome. Por eso es crucial la dosificación precisa, el uso de protector solar y los chequeos dermatológicos regulares."
+    },
+    {
+      "q": "¿Qué debo hacer si tengo fiebre o me siento muy enfermo?",
+      "a": "Contacte a su médico INMEDIATAMENTE. Cuando su sistema inmunológico está suprimido, una infección común puede volverse grave rápidamente. No espere a que se pase solo."
+    },
+    {
+      "q": "¿Puedo donar sangre si tomo tacrolimus?",
+      "a": "No. Los pacientes que toman inmunosupresores como el tacrolimus no son candidatos para donar sangre."
+    },
+    {
+      "q": "¿El tacrolimus afecta la fertilidad?",
+      "a": "No hay evidencia clara de que afecte la fertilidad en hombres o mujeres. Sin embargo, debido a los riesgos en el embarazo, es crucial la planificación y el consejo médico."
+    },
+    {
+      "q": "¿Por qué a veces me duele la cabeza o siento hormigueos?",
+      "a": "El dolor de cabeza y las parestesias (hormigueos) son efectos secundarios neurológicos comunes del tacrolimus, relacionados con su toxicidad sobre el sistema nervioso. Generalmente son leves, pero si son severos, persistentes o vienen acompañados de confusión o temblores incontrolables, debe informarlo a su médico, ya que podría requerir un ajuste de dosis."
+    },
+    {
+      "q": "¿Qué significa 'nivel trough' de tacrolimus?",
+      "a": "Es la concentración más baja del medicamento en su sangre, medida justo antes de tomar su siguiente dosis programada. Es el momento en que el nivel es más estable y predecible. Monitorear este 'nivel valle' permite a los médicos ajustar su dosis para mantenerla dentro de un rango terapéutico: ni muy alta (para evitar toxicidad) ni muy baja (para evitar el rechazo)."
+    },
+    {
+      "q": "¿Por qué me dan suplementos de magnesio?",
+      "a": "Porque el tacrolimus hace que sus riñones eliminen demasiado magnesio a través de la orina, causando hipomagnesemia (niveles bajos de magnesio en sangre). Esto puede provocar calambres musculares, temblores, arritmias cardíacas y convulsiones. Los suplementos ayudan a mantener niveles normales."
+    },
+    {
+      "q": "En el contexto de una cirugía, ¿por qué un anestesiólogo se preocuparía por mi tacrolimus?",
+      "a": "Por varias razones críticas: 1) Muchos fármacos usados en anestesia (como midazolam, fentanilo, algunos relajantes musculares) se metabolizan por la misma vía (CYP3A4) y pueden interactuar, alterando sus efectos o los niveles de tacrolimus. 2) El estrés de la cirugía puede cambiar la farmacocinética del tacrolimus. 3) El tacrolimus puede potenciar los efectos de los bloqueantes neuromusculares. 4) Su función renal ya puede estar afectada. Por todo ello, el anestesiólogo necesita saber su dosis, su último nivel en sangre y planificar la anestesia y el monitoreo postoperatorio en consecuencia."
+    }
+  ]
+}

@@ -1,0 +1,413 @@
+{
+  "name": "Bromazepam",
+  "summary": "El Bromazepam es un medicamento ansiolítico y sedante perteneciente a la familia de las benzodiacepinas. Se utiliza principalmente para tratar los síntomas de la ansiedad, como nerviosismo excesivo, tensión, preocupación constante y agitación, ya que actúa calmando el sistema nervioso central. También se puede usar para aliviar la ansiedad asociada a otras condiciones médicas y, en ocasiones, para ayudar a dormir. Es un medicamento de importancia clínica porque proporciona un alivio rápido de los síntomas de ansiedad severa, mejorando la calidad de vida del paciente. Sin embargo, debido a su potencial para causar dependencia y somnolencia, debe usarse bajo estricta supervisión médica, por periodos cortos y siempre como parte de un tratamiento integral que puede incluir terapia psicológica. Su uso inadecuado puede llevar a graves problemas de salud.",
+  "pharmacology": {
+    "mechanismOfAction": "El Bromazepam actúa potenciando la acción del ácido gamma-aminobutírico (GABA), que es el principal neurotransmisor inhibitorio del sistema nervioso central. Se une de forma específica a un sitio en el receptor GABA-A, lo que facilita la apertura del canal de cloruro asociado al receptor. Esto permite que más iones cloruro entren en la neurona, lo que hiperpolariza la membrana celular y hace que la neurona sea menos excitable. Este aumento en la inhibición neuronal resulta en efectos ansiolíticos (reduce la ansiedad), sedantes (calma y produce sueño), hipnóticos (induce el sueño), relajantes musculares y anticonvulsivantes. No cura la causa de la ansiedad, pero modula la actividad cerebral excesiva que la produce.",
+    "pharmacologicClass": "Benzodiacepina; Derivado de las 1,4-benzodiacepinas; Agonista del receptor GABA-A.",
+    "therapeuticClass": "Ansiolítico; Sedante; Hipnótico.",
+    "absorption": "Se absorbe bien por vía oral, con una biodisponibilidad de aproximadamente el 60-70%. La concentración máxima en sangre (Cmax) se alcanza entre 1 y 4 horas después de la administración. La presencia de alimentos puede retrasar ligeramente la absorción, pero no afecta significativamente la cantidad total de medicamento que llega a la circulación.",
+    "distribution": "Se distribuye ampliamente por los tejidos del cuerpo. Tiene una unión a proteínas plasmáticas relativamente baja, de alrededor del 70%. Su volumen de distribución (Vd) es de aproximadamente 0.9 a 1.3 L/kg, lo que indica una distribución moderada en los tejidos.",
+    "metabolism": "Se metaboliza extensamente en el hígado. El metabolismo principal ocurre por desalquilación y posterior hidroxilación, formando metabolitos inactivos o de actividad muy reducida. Las enzimas del citocromo P450 (principalmente CYP3A4 y en menor medida CYP2C19) están involucradas en su metabolismo. No tiene metabolitos activos clínicamente significativos.",
+    "elimination": "Se elimina principalmente por la orina en forma de metabolitos conjugados (glucurónidos). Menos del 1% se excreta sin cambios. Su vida media de eliminación es intermedia, oscilando entre 10 y 20 horas en adultos sanos, pero puede prolongarse significativamente en adultos mayores o personas con enfermedad hepática.",
+    "onsetOfAction": "El inicio de acción para el alivio de la ansiedad suele notarse entre 30 minutos y 2 horas después de la ingestión.",
+    "durationOfAction": "La duración del efecto ansiolítico es de aproximadamente 6 a 12 horas, lo que lo clasifica como una benzodiacepina de acción intermedia."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento de los trastornos de ansiedad (ansiedad generalizada, trastorno de pánico)",
+      "Alivio sintomático de la ansiedad aguda y situacional",
+      "Ansiedad asociada a trastornos depresivos",
+      "Trastornos de adaptación con ansiedad"
+    ],
+    "offLabel": [
+      "Insomnio de corta duración (especialmente si está relacionado con ansiedad)",
+      "Síndrome de abstinencia alcohólica (como parte de un protocolo de desintoxicación)",
+      "Premedicación ansiolítica antes de procedimientos médicos o dentales",
+      "Espasmos musculares de origen central"
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis inicial habitual es de 1.5 mg a 3 mg, dos o tres veces al día. La dosis puede ajustarse según la respuesta y tolerancia del paciente. El rango de dosis terapéutica típica es de 3 mg a 18 mg al día, dividida en 2-3 tomas. Para ansiedad severa, se pueden requerir dosis más altas bajo supervisión médica estricta.",
+    "pediatric": "No se recomienda su uso en niños y adolescentes menores de 18 años, ya que la seguridad y eficacia no están establecidas en este grupo. Su uso es excepcional y solo bajo supervisión de un especialista en psiquiatría infantil.",
+    "elderly": "En pacientes mayores de 65 años, se debe iniciar con la dosis más baja posible, generalmente 1.5 mg una o dos veces al día. El ajuste debe ser muy lento y cauteloso debido al mayor riesgo de sedación, confusión, ataxia y caídas. Se prefiere el uso de dosis divididas.",
+    "renalImpairment": "En insuficiencia renal leve a moderada (TFG 30-89 mL/min), se recomienda precaución y posible reducción de dosis. En insuficiencia renal severa (TFG <30 mL/min) o en diálisis, está contraindicado o debe evitarse, ya que puede acumularse y aumentar el riesgo de efectos adversos graves.",
+    "hepaticImpairment": "Está contraindicado en insuficiencia hepática severa. En insuficiencia hepática leve a moderada (Child-Pugh A y B), se debe usar con extrema precaución, iniciando con dosis muy bajas (ej. 1.5 mg/día) y monitoreando de cerca, debido a la reducción del metabolismo hepático.",
+    "maxDose": "La dosis máxima diaria generalmente no debe exceder los 60 mg, pero rara vez se utilizan dosis tan altas. La dosis óptima suele estar por debajo de 30 mg/día para minimizar riesgos."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "1.5 mg",
+        "3 mg",
+        "6 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tableta de liberación prolongada",
+      "strengths": [
+        "3 mg"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad al bromazepam o a cualquier benzodiacepina",
+      "Miastenia gravis",
+      "Insuficiencia respiratoria severa (ej. EPOC grave, apnea del sueño no tratada)",
+      "Insuficiencia hepática severa (cirrosis descompensada)",
+      "Síndrome de apnea del sueño severo",
+      "Intoxicación aguda por alcohol, hipnóticos, analgésicos opioides o psicotrópicos"
+    ],
+    "relative": [
+      "Insuficiencia renal moderada a severa",
+      "Insuficiencia hepática leve a moderada",
+      "Glaucoma de ángulo cerrado (riesgo agudo)",
+      "Depresión mayor con ideación suicida",
+      "Historial de dependencia a drogas o alcohol",
+      "Edad avanzada (requiere ajuste)",
+      "Enfermedad pulmonar obstructiva crónica (EPOC) leve/moderada",
+      "Ataxia, trastornos del equilibrio"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Somnolencia, sedación durante el día",
+      "Mareo, sensación de inestabilidad",
+      "Fatiga, cansancio",
+      "Disminución de la atención y concentración"
+    ],
+    "common": [
+      "Ataxia (dificultad para coordinar movimientos)",
+      "Confusión (especialmente en ancianos)",
+      "Debilidad muscular",
+      "Cefalea (dolor de cabeza)",
+      "Visión borrosa o doble",
+      "Sequedad de boca",
+      "Alteraciones gastrointestinales (náusea, estreñimiento)"
+    ],
+    "uncommon": [
+      "Paradoja de excitación (ansiedad, irritabilidad, agresividad)",
+      "Amnesia anterógrada (dificultad para formar nuevos recuerdos)",
+      "Depresión del estado de ánimo",
+      "Erupción cutánea",
+      "Cambios en la libido",
+      "Hipotensión ortostática (mareo al levantarse)"
+    ],
+    "rare": [
+      "Ictericia (coloración amarilla de piel y ojos)",
+      "Alteraciones sanguíneas (leucopenia, trombocitopenia)",
+      "Dependencia psicológica y física",
+      "Síndrome de abstinencia al suspender bruscamente",
+      "Reacciones alérgicas severas (anafilaxia)"
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Alcohol (etílico)",
+        "effect": "Potenciación severa de la depresión del sistema nervioso central (SNC). Aumenta enormemente el riesgo de sedación profunda, depresión respiratoria, coma y muerte.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Opioides (Morfina, Tramadol, Codeína)",
+        "effect": "Depresión aditiva del SNC y respiratoria. Riesgo muy alto de sedación excesiva, paro respiratorio y muerte.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Otros depresores del SNC (Hidroxicina, Mirtazapina, antipsicóticos)",
+        "effect": "Aumento de efectos sedantes y deterioro psicomotor.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inhibidores de CYP3A4 (Ketoconazol, Itraconazol, Claritromicina, Ritonavir)",
+        "effect": "Disminuyen el metabolismo del bromazepam, aumentando sus niveles en sangre y el riesgo de toxicidad (sedación excesiva).",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inductores de CYP3A4 (Rifampicina, Carbamazepina, Fenitoína, Hierba de San Juan)",
+        "effect": "Aceleran el metabolismo del bromazepam, disminuyendo su efecto terapéutico.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "El alcohol está estrictamente prohibido. Las comidas grasas pueden retrasar ligeramente la absorción, pero no afectan la eficacia global. Se puede tomar con o sin alimentos para reducir molestias estomacales.",
+    "withSupplements": "Evitar la Hierba de San Juan (Hypericum perforatum), ya que puede reducir la efectividad del bromazepam. Suplementos con efectos sedantes (Valeriana, Kava, Melatonina en dosis altas) pueden potenciar la somnolencia. Consultar siempre con el médico o farmacéutico."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "D",
+      "recommendation": "NO se recomienda su uso durante el embarazo, especialmente en el primer trimestre y cerca del parto. Su uso se asocia con riesgo de malformaciones congénitas (labio leporino, paladar hendido) si se usa en el primer trimestre, y con síndrome de abstinencia en el recién nacido (hipotonía, dificultad para alimentarse, irritabilidad, problemas respiratorios) si se usa cerca del parto. Solo debe considerarse si el beneficio para la madre justifica claramente el riesgo potencial para el feto, en casos de ansiedad severa e incapacitante que no responde a otras terapias más seguras.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "El bromazepam se excreta en la leche materna en cantidades significativas. Puede causar sedación, dificultad para alimentarse y pérdida de peso en el lactante. Se recomienda EVITAR la lactancia materna si la madre está en tratamiento con bromazepam. Si es absolutamente necesario, se debe usar la dosis efectiva más baja, administrar justo después de una toma y monitorizar al bebé por somnolencia excesiva.",
+    "pediatric": "No está aprobado para uso en niños y adolescentes. Su uso puede estar asociado con efectos paradójicos (excitación, agresividad) y mayor riesgo de dependencia. Cualquier uso en esta población debe ser excepcional, por un psiquiatra infantil, y por el menor tiempo posible.",
+    "geriatric": "Los adultos mayores son extremadamente sensibles a los efectos del bromazepam. Tienen mayor riesgo de sedación, confusión, desorientación, ataxia, caídas con fracturas (especialmente de cadera) y deterioro cognitivo. Se debe iniciar con dosis muy bajas (50% o menos de la dosis adulta), usar por periodos cortos y monitorear de cerca. Preferir benzodiacepinas de vida media más corta o alternativas no benzodiacepínicas."
+  },
+  "administration": {
+    "howToTake": "Tomar exactamente como lo recetó el médico. Las tabletas se tragan enteras con un vaso de agua, con o sin alimentos. No partir, triturar ni masticar las tabletas de liberación prolongada. Si se usa para la ansiedad, se suele dividir la dosis total en 2-3 tomas al día. Si se usa para dormir, tomar la dosis completa 30-60 minutos antes de acostarse. Nunca aumentar la dosis por cuenta propia. Si olvida una dosis, tómela tan pronto como lo recuerde, pero si ya es casi la hora de la siguiente, omita la dosis olvidada y continúe con su horario normal. NO duplique la dosis.",
+    "storage": "Conservar en su empaque original, bien cerrado, a temperatura ambiente (entre 15°C y 30°C), protegido de la luz, la humedad y el calor excesivo. Mantener fuera del alcance y vista de los niños y mascotas.",
+    "specialInstructions": "Este medicamento puede causar somnolencia y reducir la capacidad de reacción. NO conduzca vehículos, opere maquinaria peligrosa o realice actividades que requieran alerta hasta que conozca cómo le afecta. Los efectos pueden persistir al día siguiente. Evite cambios bruscos de postura para prevenir mareos. No suspenda el tratamiento abruptamente después de un uso prolongado; debe reducirse la dosis gradualmente bajo supervisión médica para evitar un síndrome de abstinencia potencialmente grave (ansiedad, insomnio, temblores, convulsiones)."
+  },
+  "monitoring": {
+    "labTests": [
+      "Función hepática (AST, ALT, bilirrubina, albúmina)",
+      "Función renal (creatinina, nitrógeno ureico en sangre)",
+      "Hemograma completo (glóbulos blancos, rojos, plaquetas)",
+      "Niveles de electrolitos"
+    ],
+    "frequency": "Al inicio del tratamiento y luego periódicamente (cada 6-12 meses) en tratamientos de larga duración. Con mayor frecuencia en pacientes con enfermedad hepática o renal, o ancianos.",
+    "signsToWatch": [
+      "Somnolencia diurna excesiva que interfiere con actividades",
+      "Confusión, desorientación o problemas de memoria nuevos",
+      "Dificultad para caminar, inestabilidad, caídas",
+      "Cambios en el estado de ánimo (depresión, ideas de suicidio, irritabilidad)",
+      "Signos de dependencia (necesidad de aumentar la dosis para el mismo efecto)",
+      "Síntomas de abstinencia al reducir la dosis (ansiedad, insomnio, temblores)",
+      "Dificultad para respirar"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Somnolencia profunda que progresa a estupor y coma",
+      "Confusión severa",
+      "Ataxia marcada (incapacidad para caminar)",
+      "Reflejos disminuidos o ausentes",
+      "Hipotensión (presión arterial baja)",
+      "Depresión respiratoria (respiración lenta y superficial, coloración azulada)",
+      "En casos muy graves, paro cardiorrespiratorio y muerte"
+    ],
+    "treatment": "Es una EMERGENCIA MÉDICA. Llamar al 911 o acudir de inmediato al hospital. El tratamiento es de soporte: mantener vía aérea, respiración y circulación. Lavado gástrico o carbón activado solo si la ingestión fue reciente (menos de 1-2 horas) y el paciente está consciente. No hay antídoto específico. Se puede usar Flumazenil (antagonista de benzodiacepinas) en casos seleccionados en un entorno hospitalario para revertir la depresión del SNC, pero con precaución por riesgo de convulsiones, especialmente en pacientes dependientes.",
+    "antidote": "Flumazenil (Anexate®), pero su uso es hospitalario y con riesgos."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica por ser un psicotrópico.",
+    "scheduleMexico": "Fracción III de la Ley General de Salud. Psicotrópico con potencial de abuso y dependencia. La receta debe expedirse en formato oficial y es retenida en la farmacia.",
+    "fdaApprovalYear": "No aprobado por la FDA en Estados Unidos. Está aprobado y disponible en México, Canadá, Europa y muchos otros países."
+  },
+  "brandsMexico": [
+    "Lexotanil",
+    "Lexatin",
+    "Bromazepam Genfar",
+    "Bromazepam Rimsa",
+    "Bromazepam Liomont",
+    "Bromaz",
+    "Sedazepam",
+    "Calmepam",
+    "Anxipam",
+    "Bromaze",
+    "Bromax",
+    "Ansium"
+  ],
+  "clinicalPearls": [
+    "El Bromazepam es una benzodiacepina de acción intermedia, ideal para el control de la ansiedad diurna, ya que su efecto dura lo suficiente para cubrir el día sin necesidad de muchas tomas, pero su vida media no es tan larga como para causar acumulación excesiva.",
+    "Una de las mayores precauciones es el riesgo de amnesia anterógrada, especialmente con dosis altas. Los pacientes pueden no recordar eventos que ocurrieron horas después de tomar la dosis. Es crucial advertir sobre esto, especialmente si toman una dosis extra 'para dormir'.",
+    "En pacientes con ansiedad e insomnio coexistente, una sola dosis nocturna de Bromazepam puede ayudar con ambos problemas, pero se debe evaluar el riesgo de somnolencia residual al día siguiente. En estos casos, a veces se prefiere iniciar con dosis divididas."
+  ],
+  "patientCounseling": "Este medicamento es para controlar su ansiedad y debe usarse solo como su médico se lo indicó. Tomarlo por más tiempo o en mayor cantidad del prescrito puede causar dependencia. Le causará sueño y puede marearlo, especialmente las primeras dosis. Por su seguridad, NO maneje, no use herramientas peligrosas y tenga cuidado al subir escaleras hasta que sepa cómo le afecta. Bajo NINGUNA circunstancia mezcle este medicamento con alcohol, pastillas para dormir o calmantes para el dolor sin consultar a su médico, ya que la combinación puede ser muy peligrosa. Si siente que ya no le hace efecto o necesita más para sentirse bien, HABLE CON SU MÉDICO, no aumente la dosis solo. Para dejar de tomarlo, su médico le dará un plan para reducir la dosis poco a poco durante varias semanas; suspenderlo de golpe puede causarle mucha ansiedad, insomnio, temblores o incluso convulsiones. Guarde las pastillas en un lugar seguro, lejos del alcance de niños y de otras personas.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Ansiedad",
+        "slug": "ansiedad"
+      },
+      {
+        "name": "Nerviosismo",
+        "slug": "nerviosismo"
+      },
+      {
+        "name": "Tension muscular",
+        "slug": "tension-muscular"
+      },
+      {
+        "name": "Insomnio",
+        "slug": "insomnio"
+      },
+      {
+        "name": "Agitacion psicomotora",
+        "slug": "agitacion-psicomotora"
+      },
+      {
+        "name": "Preocupacion excesiva",
+        "slug": "preocupacion-excesiva"
+      },
+      {
+        "name": "Palpitaciones por ansiedad",
+        "slug": "palpitaciones-por-ansiedad"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Trastorno de ansiedad generalizada",
+        "slug": "trastorno-de-ansiedad-generalizada"
+      },
+      {
+        "name": "Trastorno de panico",
+        "slug": "trastorno-de-panico"
+      },
+      {
+        "name": "Trastorno de adaptacion con ansiedad",
+        "slug": "trastorno-de-adaptacion-con-ansiedad"
+      },
+      {
+        "name": "Ansiedad asociada a depresion",
+        "slug": "ansiedad-asociada-a-depresion"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Dependencia a benzodiacepinas",
+        "slug": "dependencia-a-benzodiacepinas"
+      },
+      {
+        "name": "Sindrome de abstinencia",
+        "slug": "sindrome-de-abstinencia-benzodiacepinas"
+      },
+      {
+        "name": "Deterioro cognitivo",
+        "slug": "deterioro-cognitivo"
+      },
+      {
+        "name": "Caidas y fracturas en ancianos",
+        "slug": "caidas-y-fracturas-en-ancianos"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Enzimas hepaticas (ALT, AST)",
+        "slug": "enzimas-hepaticas-alt-ast",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Bilirrubina",
+        "slug": "bilirrubina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Conteo de leucocitos",
+        "slug": "conteo-de-leucocitos",
+        "effect": "Puede disminuir (leucopenia)"
+      },
+      {
+        "name": "Conteo de plaquetas",
+        "slug": "conteo-de-plaquetas",
+        "effect": "Puede disminuir (trombocitopenia)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Pruebas de funcion hepatica",
+        "slug": "pruebas-de-funcion-hepatica",
+        "reason": "Para monitorear toxicidad hepatica, especialmente en tratamientos largos o en pacientes con riesgo."
+      },
+      {
+        "name": "Pruebas de funcion renal",
+        "slug": "pruebas-de-funcion-renal",
+        "reason": "Para ajustar la dosis y evitar acumulacion en pacientes con insuficiencia renal."
+      },
+      {
+        "name": "Hemograma completo",
+        "slug": "hemograma-completo",
+        "reason": "Para detectar posibles alteraciones en las celulas sanguineas (leucopenia)."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediatrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de IMC",
+        "slug": "calculadora-imc"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve el Bromazepam?",
+      "a": "Sirve principalmente para tratar los síntomas de la ansiedad, como nerviosismo excesivo, preocupación constante, tensión y agitación. También puede ayudar a conciliar el sueño cuando el insomnio es causado por ansiedad."
+    },
+    {
+      "q": "¿El Bromazepam es lo mismo que el Clonazepam o el Alprazolam?",
+      "a": "No, son medicamentos diferentes, aunque todos son benzodiacepinas. El Bromazepam es de acción intermedia (dura 6-12 horas), el Alprazolam es de acción corta y el Clonazepam de acción larga. Su médico elige uno u otro según la duración del efecto que necesite."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Generalmente comienza a hacer efecto entre 30 minutos y 2 horas después de tomarlo. Sentirá una disminución de la ansiedad y puede que sueño."
+    },
+    {
+      "q": "¿Puedo tomar Bromazepam y manejar?",
+      "a": "NO es seguro. El Bromazepam causa somnolencia y reduce los reflejos, aumentando mucho el riesgo de sufrir un accidente. Espere a conocer cómo le afecta. Nunca maneje si se siente somnoliento o mareado."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si estoy con Bromazepam?",
+      "a": "ABSOLUTAMENTE NO. La mezcla de alcohol y Bromazepam es muy peligrosa. Potencia los efectos sedantes, pudiendo causar somnolencia extrema, dificultad para respirar, pérdida del conocimiento e incluso la muerte."
+    },
+    {
+      "q": "¿El Bromazepam crea adicción?",
+      "a": "Sí, tiene un potencial de causar dependencia psicológica y física, especialmente si se usa por periodos largos (más de 4 semanas) o en dosis altas. Por eso se receta por tiempos cortos y bajo supervisión."
+    },
+    {
+      "q": "¿Qué pasa si dejo de tomar el Bromazepam de golpe?",
+      "a": "Si lo suspende abruptamente después de un uso prolongado, puede sufrir un síndrome de abstinencia: ansiedad severa, insomnio, temblores, sudoración, náuseas y, en casos graves, convulsiones. Siempre debe reducir la dosis gradualmente según las indicaciones de su médico."
+    },
+    {
+      "q": "¿Puedo tomar Bromazepam para dormir todas las noches?",
+      "a": "No es recomendable. Está indicado para el insomnio ocasional relacionado con ansiedad, no para uso crónico como pastilla para dormir. Su uso prolongado puede perder efectividad (tolerancia) y aumentar el riesgo de dependencia."
+    },
+    {
+      "q": "¿Qué hago si se me olvida una dosis?",
+      "a": "Tómela tan pronto como lo recuerde. Pero si ya es casi la hora de su siguiente dosis, omita la que olvidó y continúe con su horario normal. NUNCA tome una dosis doble para compensar."
+    },
+    {
+      "q": "¿Pueden tomarlo niños o adolescentes?",
+      "a": "Generalmente no. No está aprobado para menores de 18 años porque su seguridad y eficacia no están bien establecidas en ellos, y puede tener efectos adversos diferentes."
+    },
+    {
+      "q": "¿Las personas mayores pueden tomarlo?",
+      "a": "Sí, pero con mucha precaución. Los ancianos son más sensibles, por lo que la dosis debe ser mucho más baja (a veces la mitad) para evitar caídas, confusión y somnolencia excesiva."
+    },
+    {
+      "q": "¿Puedo tomar Bromazepam si estoy embarazada o planeando embarazarme?",
+      "a": "Se debe evitar. Su uso, especialmente en el primer trimestre, se asocia con riesgo de malformaciones en el bebé. Si está en tratamiento y planea un embarazo, hable con su médico para buscar alternativas más seguras."
+    },
+    {
+      "q": "¿Interfiere con otros medicamentos?",
+      "a": "Sí, especialmente con otros que causen sueño (pastillas para dormir, relajantes musculares, algunos antidepresivos), con algunos antibióticos y antimicóticos, y con analgésicos opioides. Siempre informe a su médico de TODOS los medicamentos que toma."
+    },
+    {
+      "q": "¿Qué efectos secundarios son los más comunes?",
+      "a": "Los más frecuentes son sueño durante el día, mareo, cansancio y falta de coordinación. Estos suelen mejorar después de los primeros días de tratamiento."
+    },
+    {
+      "q": "¿Qué es un efecto paradójico?",
+      "a": "Es cuando en lugar de calmar, el medicamento causa el efecto contrario: más ansiedad, irritabilidad, agresividad o insomnio. Es más común en niños y ancianos, pero puede pasar en cualquier persona. Si le ocurre, contacte a su médico."
+    },
+    {
+      "q": "¿El Bromazepam sube o baja la presión arterial?",
+      "a": "Puede causar una leve disminución de la presión arterial, lo que se manifiesta como mareo al levantarse rápido (hipotensión ortostática). Si toma medicamentos para la presión, consulte con su médico."
+    },
+    {
+      "q": "¿Afecta los riñones o el hígado?",
+      "a": "Se metaboliza en el hígado, por lo que personas con problemas hepáticos deben usarlo con mucho cuidado o evitarlo. En raros casos puede afectar la función hepática. En insuficiencia renal severa también puede acumularse. Su médico puede pedirle análisis para monitorear estos órganos."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre Lexotanil y Bromazepam genérico?",
+      "a": "Lexotanil es una marca comercial original del Bromazepam. Los genéricos (Bromazepam Genfar, Rimsa, etc.) contienen el mismo principio activo, en la misma cantidad, y deben tener la misma eficacia y seguridad. La diferencia principal puede estar en los excipientes (componentes inactivos) y el precio."
+    },
+    {
+      "q": "¿Por qué la receta de Bromazepam se queda en la farmacia?",
+      "a": "Porque en México el Bromazepam es un psicotrópico de la Fracción III. La ley excribe que la receta oficial (color rosa) debe ser retenida por la farmacia para controlar su dispensación y prevenir el abuso."
+    },
+    {
+      "q": "¿En qué situaciones debo llamar al médico de inmediato mientras tomo Bromazepam?",
+      "a": "Si presenta dificultad para respirar, somnolencia extrema de la que no puede despertar, confusión severa, erupción cutánea, coloración amarilla en piel/ojos, pensamientos de hacerse daño, o signos de abstinencia si está reduciendo la dosis (temblores, ansiedad incontrolable)."
+    }
+  ]
+}

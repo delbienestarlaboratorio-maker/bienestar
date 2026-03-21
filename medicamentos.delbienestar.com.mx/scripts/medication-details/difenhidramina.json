@@ -1,0 +1,463 @@
+{
+  "name": "Difenhidramina",
+  "summary": "La difenhidramina es un medicamento antihistamínico de primera generación, muy conocido y utilizado en México. Sirve principalmente para aliviar los síntomas de las alergias, como estornudos, comezón, ojos llorosos y secreción nasal, ya que bloquea la acción de la histamina, una sustancia que el cuerpo produce durante una reacción alérgica. También es muy efectivo para prevenir y tratar el mareo por movimiento, y se usa comúnmente como auxiliar para dormir debido a su marcado efecto sedante. Su importancia clínica radica en ser un fármaco de venta libre, accesible y de acción rápida para aliviar molestias comunes, aunque su uso debe ser cuidadoso por los efectos secundarios como somnolencia y sequedad de boca. Es fundamental que los pacientes, especialmente adultos mayores, conozcan sus riesgos y lo usen bajo supervisión para evitar caídas o interacciones peligrosas con otros medicamentos.",
+  "pharmacology": {
+    "mechanismOfAction": "La difenhidramina actúa como un antagonista competitivo y reversible de los receptores H1 de histamina, principalmente en el sistema nervioso central y los tejidos periféricos. Al bloquear estos receptores, inhibe los efectos de la histamina liberada durante una reacción alérgica, como la vasodilatación, el aumento de la permeabilidad capilar (que causa hinchazón y comezón), la contracción del músculo liso bronquial y la estimulación de las terminaciones nerviosas sensoriales. Además, debido a su estructura química, tiene una alta afinidad por los receptores muscarínicos de acetilcolina, lo que explica sus efectos anticolinérgicos como sequedad de boca, visión borrosa y retención urinaria. Su potente efecto sedante se debe a su capacidad para cruzar fácilmente la barrera hematoencefálica y bloquear los receptores H1 centrales, lo que afecta el estado de alerta.",
+    "pharmacologicClass": "Antagonista del receptor H1 de histamina (de primera generación, etanolamina). Agente anticolinérgico.",
+    "therapeuticClass": "Antihistamínico, Antialérgico, Antiemético, Hipnótico sedante.",
+    "absorption": "Se absorbe bien por vía oral, con una biodisponibilidad aproximada del 40-60%. Las concentraciones plasmáticas máximas se alcanzan en un plazo de 2 a 3 horas después de la administración oral.",
+    "distribution": "Se distribuye ampliamente por todo el cuerpo, incluyendo el sistema nervioso central (SNC). Cruza fácilmente la barrera hematoencefálica y la placenta. Su volumen de distribución (Vd) es de aproximadamente 3-4 L/kg. Se une a proteínas plasmáticas en un 78-85%.",
+    "metabolism": "Se metaboliza extensamente en el hígado, principalmente por el sistema enzimático del citocromo P450, con contribución de las isoenzimas CYP2D6, CYP1A2 y CYP2C9. Se somete a una desmetilación y posterior oxidación a metabolitos inactivos.",
+    "elimination": "La vida media de eliminación es de aproximadamente 4 a 10 horas. Se elimina principalmente por la orina en forma de metabolitos inactivos en un plazo de 24 horas. Menos del 5% se excreta sin cambios en la orina.",
+    "onsetOfAction": "El inicio de acción es relativamente rápido. Los efectos sedantes y antihistamínicos suelen comenzar entre 15 y 30 minutos después de la administración oral.",
+    "durationOfAction": "La duración del efecto clínico es de 4 a 8 horas, lo que justifica su administración varias veces al día para el control de síntomas."
+  },
+  "indications": {
+    "approved": [
+      "Alivio sintomático de rinitis alérgica estacional y perenne (fiebre del heno)",
+      "Alivio sintomático de urticaria aguda y otras alergias cutáneas",
+      "Tratamiento y prevención del mareo por movimiento (cinetosis)",
+      "Tratamiento del insomnio ocasional (como auxiliar para dormir)",
+      "Alivio de la tos no productiva (en formulaciones combinadas con otros agentes)",
+      "Alivio de síntomas del resfriado común (en combinaciones)"
+    ],
+    "offLabel": [
+      "Manejo de reacciones extrapiramidales inducidas por fármacos antipsicóticos",
+      "Alivio sintomático de náuseas y vómitos leves",
+      "Tratamiento coadyuvante en reacciones anafilácticas leves (junto con epinefrina)",
+      "Alivio de la ansiedad preoperatoria en niños",
+      "Tratamiento del temblor inducido por parkinsonismo"
+    ]
+  },
+  "dosage": {
+    "adults": "Para alergias e insomnio: 25 a 50 mg por vía oral cada 4 a 6 horas, según sea necesario. Dosis máxima: 300 mg en 24 horas. Para mareo: 25 a 50 mg 30-60 minutos antes del viaje, repetir cada 4-6 horas si es necesario.",
+    "pediatric": "NIÑOS (6-12 años): 12.5 a 25 mg por vía oral cada 4 a 6 horas (máximo 150 mg/día). NIÑOS (2-6 años): 6.25 mg cada 4-6 horas (máximo 37.5 mg/día). NO se recomienda en menores de 2 años sin supervisión médica estricta debido al riesgo de efectos paradójicos y depresión del SNC.",
+    "elderly": "Adultos mayores (>65 años): Iniciar con dosis más bajas (12.5 a 25 mg) debido a la mayor sensibilidad a los efectos anticolinérgicos y sedantes, y al riesgo aumentado de caídas, confusión y retención urinaria. Monitorear estrechamente.",
+    "renalImpairment": "Insuficiencia renal leve a moderada (TFG 30-89 mL/min): Considerar reducción de dosis o aumento del intervalo entre dosis. Insuficiencia renal severa (TFG <30 mL/min) o diálisis: Evitar o usar con extrema precaución y bajo supervisión médica, ya que los metabolitos pueden acumularse.",
+    "hepaticImpairment": "Pacientes con enfermedad hepática significativa (cirrosis, hepatitis activa): Usar con precaución, iniciar con dosis bajas debido al metabolismo hepático reducido, lo que puede prolongar la vida media y aumentar los efectos adversos.",
+    "maxDose": "Dosis máxima diaria para adultos: 300 mg en 24 horas. No exceder esta dosis."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "25 mg",
+        "50 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Cápsula",
+      "strengths": [
+        "25 mg",
+        "50 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tableta masticable",
+      "strengths": [
+        "12.5 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Jarabe/Elixir",
+      "strengths": [
+        "12.5 mg/5 mL"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Crema/Gel tópico",
+      "strengths": [
+        "1%",
+        "2%"
+      ],
+      "route": "Tópica"
+    },
+    {
+      "form": "Solución inyectable",
+      "strengths": [
+        "50 mg/mL"
+      ],
+      "route": "Intramuscular/Intravenosa (uso hospitalario)"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la difenhidramina o a cualquier componente de la formulación",
+      "Pacientes con glaucoma de ángulo cerrado no tratado",
+      "Pacientes con estenosis piloroduodenal u obstrucción del cuello vesical (vejiga)",
+      "Pacientes que están tomando inhibidores de la monoaminooxidasa (IMAOs) o han suspendido su uso en las últimas 2 semanas",
+      "Lactantes prematuros o recién nacidos",
+      "Crisis asmática aguda (no es un broncodilatador)"
+    ],
+    "relative": [
+      "Hipertrofia prostática benigna con síntomas urinarios",
+      "Enfermedad pulmonar obstructiva crónica (EPOC)",
+      "Hipertiroidismo",
+      "Enfermedad cardiovascular (hipertensión, arritmias)",
+      "Epilepsia o trastornos convulsivos",
+      "Enfermedad hepática severa",
+      "Insuficiencia renal severa",
+      "Adultos mayores (>65 años)",
+      "Mujeres embarazadas o en periodo de lactancia"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Somnolencia, sedación",
+      "Sequedad de boca, nariz y garganta",
+      "Mareo",
+      "Dificultad para la coordinación (ataxia)"
+    ],
+    "common": [
+      "Visión borrosa",
+      "Estreñimiento",
+      "Retención urinaria",
+      "Náuseas",
+      "Dolor de cabeza",
+      "Agitación (especialmente en niños)"
+    ],
+    "uncommon": [
+      "Excitación paradójica (nerviosismo, insomnio) en niños y ancianos",
+      "Temblor",
+      "Pérdida del apetito",
+      "Molestias gastrointestinales",
+      "Sudoración disminuida"
+    ],
+    "rare": [
+      "Reacciones alérgicas (erupción cutánea, urticaria)",
+      "Anemia hemolítica",
+      "Trombocitopenia",
+      "Arritmias cardíacas (taquicardia, palpitaciones)",
+      "Confusión severa",
+      "Alucinaciones",
+      "Convulsiones"
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Alcohol",
+        "effect": "Potencia marcadamente el efecto depresor del SNC (somnolencia, deterioro psicomotor), riesgo de accidentes.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores de la MAO (Isocarboxazida, Fenelzina, Tranilcipromina)",
+        "effect": "Puede potenciar los efectos anticolinérgicos y del SNC, riesgo de crisis hipertensiva y fiebre.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Otros depresores del SNC (Benzodiacepinas, Opioides, Antipsicóticos, Antidepresivos tricíclicos)",
+        "effect": "Adición de efectos sedantes y deterioro cognitivo/motor.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Anticolinérgicos (Escopolamina, Ipratropio, Oxibutinina, Antidepresivos tricíclicos)",
+        "effect": "Efectos anticolinérgicos aditivos (sequedad, retención urinaria, visión borrosa, confusión).",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Los alimentos no afectan significativamente su absorción, pero tomarlo con el estómago lleno puede minimizar molestias gastrointestinales. El ALCOHOL debe evitarse estrictamente por el riesgo de sedación excesiva y accidentes.",
+    "withSupplements": "Interactúa con suplementos que tienen efectos sedantes o anticolinérgicos, como la valeriana, la kava, la hierba de San Juan y la belladona. Puede potenciar la somnolencia o los efectos adversos."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA B",
+      "recommendation": "Su uso durante el embarazo solo debe considerarse si el beneficio potencial justifica el riesgo potencial para el feto. No se recomienda su uso rutinario, especialmente cerca del término, ya que puede causar efectos anticolinérgicos en el recién nacido. Consultar siempre al médico.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La difenhidramina se excreta en la leche materna en pequeñas cantidades. Puede causar irritabilidad, somnolencia o efectos anticolinérgicos en el lactante. Se ha reportado disminución de la producción de leche por sus efectos anticolinérgicos. Se recomienda evitar su uso durante la lactancia o, si es esencial, usarlo con precaución y monitorear al bebé.",
+    "pediatric": "Puede usarse en niños mayores de 2 años para alergias o mareo, con las dosis ajustadas por peso. Es más probable que cause excitación paradójica (nerviosismo, insomnio) en lugar de sedación. NO USAR en menores de 2 años para síntomas de resfriado o tos por riesgo de efectos graves, incluyendo convulsiones y muerte. Evitar el uso como hipnótico en niños.",
+    "geriatric": "Los adultos mayores son extremadamente sensibles a los efectos anticolinérgicos y sedantes. Aumenta significativamente el riesgo de caídas, fracturas, confusión, delirio, retención urinaria y estreñimiento. Se debe evitar o usar a la dosis efectiva más baja y por el menor tiempo posible. Es un fármaco que figura en los criterios de Beers (potencialmente inapropiado en ancianos)."
+  },
+  "administration": {
+    "howToTake": "Las tabletas o cápsulas deben tragarse enteras con un vaso de agua. Pueden tomarse con o sin alimentos. Para el mareo por movimiento, tomar 30-60 minutos antes de iniciar el viaje. Para el insomnio, tomar aproximadamente 30 minutos antes de acostarse. No triturar o masticar las formas de liberación inmediata a menos que sean masticables. Para la forma tópica, aplicar una capa delgada sobre la piel limpia y seca, solo en el área con comezón, evitando ojos, boca y mucosas.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (15-30°C), protegido de la luz y la humedad. Mantener fuera del alcance de los niños. No congelar el jarabe.",
+    "specialInstructions": "Este medicamento causa somnolencia. NO manejar vehículos, operar maquinaria peligrosa o realizar actividades que requieran alerta hasta conocer su respuesta individual (generalmente 6-8 horas después de tomarlo). Evitar el consumo de alcohol. Si los síntomas no mejoran en 7 días para alergias, o si empeoran, consultar al médico. No usar para el insomnio por más de 2 semanas seguidas sin evaluación médica."
+  },
+  "monitoring": {
+    "labTests": [
+      "No se requieren monitoreos de laboratorio de rutina para uso ocasional a corto plazo."
+    ],
+    "frequency": "Para uso crónico o en pacientes de riesgo, evaluación clínica periódica de estado mental, función renal y hepática.",
+    "signsToWatch": [
+      "Somnolencia extrema o confusión",
+      "Dificultad para orinar (retención urinaria)",
+      "Visión borrosa persistente",
+      "Latidos cardíacos irregulares o rápidos",
+      "Convulsiones",
+      "Erupción cutánea o signos de reacción alérgica",
+      "Sangrado o moretones inusuales (signos de afectación plaquetaria)"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Somnolencia profunda que progresa a estupor y coma",
+      "Convulsiones",
+      "Alucinaciones",
+      "Midriasis (pupilas dilatadas)",
+      "Piel caliente, seca y enrojecida",
+      "Taquicardia (latidos rápidos)",
+      "Retención urinaria",
+      "Fiebre",
+      "Depresión respiratoria (dificultad para respirar)"
+    ],
+    "treatment": "Es una emergencia médica. Buscar atención inmediata. El tratamiento es de soporte: mantener vía aérea, respiración y circulación. Lavado gástrico o carbón activado si la ingestión es reciente. No hay antídoto específico. Pueden usarse benzodiacepinas para controlar las convulsiones. Los síntomas anticolinérgicos severos pueden tratarse con fisostigmina, pero solo en entornos hospitalarios por riesgo de bradicardia y convulsiones.",
+    "antidote": "La fisostigmina puede usarse como antídoto para revertir los efectos anticolinérgicos centrales y periféricos en casos graves, pero su uso es controvertido y requiere monitoreo intensivo."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Venta libre (OTC) para presentaciones orales en dosis estándar. La forma inyectable y algunas combinaciones requieren receta médica.",
+    "scheduleMexico": "No está sujeto a control especial en México. Se encuentra en la Fracción III (Medicamentos de venta libre) del Cuadro Básico.",
+    "fdaApprovalYear": "Aprobado por la FDA en 1946."
+  },
+  "brandsMexico": [
+    "Benadryl",
+    "Dramamine (en combinación con dimenhidrinato)",
+    "Dolestin",
+    "Difedril",
+    "Alergix",
+    "Somnil",
+    "Nytol",
+    "Dormidina",
+    "Histergan",
+    "Valergán",
+    "Dormicum (no confundir con midazolam)",
+    "Genérico de múltiples laboratorios (Farmacias Similares, Farmacias del Ahorro, etc.)"
+  ],
+  "clinicalPearls": [
+    "La difenhidramina es el antihistamínico sedante por excelencia. Su efecto 'para dormir' es un efecto secundario que se aprovecha clínicamente, pero no es un hipnótico de primera línea.",
+    "Es uno de los medicamentos más comunes involucrados en intoxicaciones accidentales o intencionales en niños y adultos mayores, debido a su fácil acceso.",
+    "En urgencias, la difenhidramina intravenosa o intramuscular se usa comúnmente para tratar reacciones alérgicas leves a moderadas y reacciones extrapiramidales por antipsicóticos.",
+    "Su perfil anticolinérgico lo hace un fármaco a evitar en adultos mayores, ya que puede precipitar o empeorar un delirio, incluso con dosis únicas.",
+    "La 'regla de la D' ayuda a recordar sus efectos anticolinérgicos: Delirio, Diaforesis ausente (sequedad), Distensión abdominal (íleo), Deposición ausente (estreñimiento), Disuria (retención), Dificultad para acomodar la vista (visión borrosa)."
+  ],
+  "patientCounseling": "Señor paciente, la difenhidramina le ayudará con su alergia o le permitirá dormir, pero es MUY IMPORTANTE que sepa que causa mucho sueño. No maneje ni opere máquinas después de tomarla. Evite completamente las bebidas alcohólicas. Tómela exactamente como se indica, no aumente la dosis ni la tome por más tiempo del necesario. Si la usa para dormir, no la tome más de 2 semanas seguidas. En adultos mayores, puede causar confusión y aumentar el riesgo de caídas, úsela con mucha precaución. Manténgala fuera del alcance de los niños, ya que una sobredosis puede ser muy grave. Si presenta dificultad para orinar, visión muy borrosa, latidos irregulares del corazón o siente mucha agitación en lugar de sueño, suspenda el medicamento y consulte a su médico o farmacéutico de inmediato.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Estornudos",
+        "slug": "estornudos"
+      },
+      {
+        "name": "Comezón en la piel",
+        "slug": "comezon-en-la-piel"
+      },
+      {
+        "name": "Ojos llorosos y rojos",
+        "slug": "ojos-llorosos-y-rojos"
+      },
+      {
+        "name": "Secreción nasal",
+        "slug": "secrecion-nasal"
+      },
+      {
+        "name": "Mareo por movimiento",
+        "slug": "mareo-por-movimiento"
+      },
+      {
+        "name": "Insomnio ocasional",
+        "slug": "insomnio-ocasional"
+      },
+      {
+        "name": "Tos seca",
+        "slug": "tos-seca"
+      },
+      {
+        "name": "Náuseas leves",
+        "slug": "nauseas-leves"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Rinitis alérgica",
+        "slug": "rinitis-alergica"
+      },
+      {
+        "name": "Urticaria aguda",
+        "slug": "urticaria-aguda"
+      },
+      {
+        "name": "Cinetosis (mareo por movimiento)",
+        "slug": "cinetosis"
+      },
+      {
+        "name": "Insomnio de inicio",
+        "slug": "insomnio-de-inicio"
+      },
+      {
+        "name": "Resfriado común",
+        "slug": "resfriado-comun"
+      },
+      {
+        "name": "Conjuntivitis alérgica",
+        "slug": "conjuntivitis-alergica"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Delirio agudo",
+        "slug": "delirio-agudo"
+      },
+      {
+        "name": "Retención urinaria",
+        "slug": "retencion-urinaria"
+      },
+      {
+        "name": "Glaucoma de ángulo cerrado",
+        "slug": "glaucoma-de-angulo-cerrado"
+      },
+      {
+        "name": "Íleo paralítico",
+        "slug": "ileo-paralitico"
+      },
+      {
+        "name": "Arritmias cardíacas",
+        "slug": "arritmias-cardiacas"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Presión arterial",
+        "slug": "presion-arterial",
+        "effect": "Puede alterar (generalmente disminuir levemente)"
+      },
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede elevar (taquicardia)"
+      },
+      {
+        "name": "Recuento de plaquetas",
+        "slug": "recuento-de-plaquetas",
+        "effect": "Puede disminuir (trombocitopenia)"
+      },
+      {
+        "name": "Hematocrito",
+        "slug": "hematocrito",
+        "effect": "Puede disminuir (anemia hemolítica rara)"
+      },
+      {
+        "name": "Tiempos de coagulación",
+        "slug": "tiempos-de-coagulacion",
+        "effect": "Puede alterar"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Biometría hemática completa",
+        "slug": "biometria-hematica-completa",
+        "reason": "Para monitorear posibles efectos en glóbulos rojos y plaquetas con uso prolongado."
+      },
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-de-funcion-hepatica",
+        "reason": "Por su metabolismo hepático, para ajustar dosis en pacientes con enfermedad hepática."
+      },
+      {
+        "name": "Pruebas de función renal",
+        "slug": "pruebas-de-funcion-renal",
+        "reason": "Para ajustar dosis en pacientes con insuficiencia renal, ya que los metabolitos se eliminan por riñón."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de eGFR",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La difenhidramina me da sueño?",
+      "a": "Sí, la somnolencia es su efecto secundario más común. Por eso se usa también como auxiliar para dormir. Debe evitar actividades que requieran alerta, como manejar, hasta que sepa cómo le afecta."
+    },
+    {
+      "q": "¿Puedo tomar difenhidramina si tomo alcohol?",
+      "a": "NO. El alcohol potencia mucho el efecto sedante, aumentando el riesgo de somnolencia profunda, accidentes y depresión respiratoria. Es una combinación peligrosa."
+    },
+    {
+      "q": "¿Sirve para la gripe o el resfriado?",
+      "a": "Sí, ayuda a aliviar algunos síntomas del resfriado como los estornudos, la secreción nasal y la tos seca, pero NO cura la infección viral. A menudo se combina con descongestionantes y analgésicos en medicamentos para el resfriado."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto para dormir?",
+      "a": "Generalmente comienza a causar somnolencia entre 15 y 30 minutos después de tomarla. Se recomienda tomarla unos 30 minutos antes de acostarse."
+    },
+    {
+      "q": "¿Puedo darle difenhidramina a mi hijo para que duerma en un viaje?",
+      "a": "NO se recomienda usar difenhidramina como somnífero en niños. Puede causar excitación paradójica (que se ponga más activo o irritable) y es riesgoso. Consulte al pediatra para opciones seguras."
+    },
+    {
+      "q": "¿La difenhidramina es lo mismo que el Dramamine?",
+      "a": "No exactamente. El Dramamine original contiene dimenhidrinato, que es una combinación de difenhidramina con un estimulante suave. Ambos sirven para el mareo, pero no son idénticos."
+    },
+    {
+      "q": "¿Puedo tomarla todos los días para mis alergias?",
+      "a": "Sí, puede usarse diariamente para controlar los síntomas de alergia estacional, pero si los síntomas persisten por más de 7 días, debe consultar a un médico para evaluar otras opciones de tratamiento."
+    },
+    {
+      "q": "¿Qué pasa si tomo más de la dosis recomendada?",
+      "a": "Una sobredosis es GRAVE. Puede causar somnolencia extrema, convulsiones, alucinaciones, latidos cardíacos irregulares y hasta la muerte. En caso de sobredosis, acuda a urgencias inmediatamente."
+    },
+    {
+      "q": "¿La difenhidramina causa adicción?",
+      "a": "No se considera un fármaco adictivo en el sentido clásico (como los opioides o benzodiacepinas). Sin embargo, su uso prolongado como hipnótico puede generar dependencia psicológica y tolerancia (necesitar más dosis para el mismo efecto)."
+    },
+    {
+      "q": "¿Puedo tomarla si estoy embarazada?",
+      "a": "Solo bajo supervisión médica estricta. Aunque es categoría B, no se recomienda su uso rutinario, especialmente en el último trimestre. Su médico debe evaluar si el beneficio justifica el riesgo."
+    },
+    {
+      "q": "¿Por qué me da la boca tan seca?",
+      "a": "La sequedad de boca es un efecto anticolinérgico común de la difenhidramina. Bloquea los receptores de acetilcolina que estimulan la producción de saliva. Beber agua, masticar chicle sin azúcar o usar sustitutos de saliva puede ayudar."
+    },
+    {
+      "q": "¿Interfiere con mis pastillas para la presión o el corazón?",
+      "a": "Puede interactuar. Puede potenciar el efecto de algunos medicamentos para la presión, causando mareo al levantarse. También puede causar taquicardia (latidos rápidos). Informe a su médico todos los medicamentos que toma."
+    },
+    {
+      "q": "¿Es seguro para un adulto mayor con problemas para dormir?",
+      "a": "Generalmente NO es seguro. Los adultos mayores son muy sensibles. Puede causar confusión, delirio, aumento del riesgo de caídas y retención urinaria. Existen opciones más seguras; consulte a un geriatra."
+    },
+    {
+      "q": "¿La crema de difenhidramina sirve para las picaduras de mosquito?",
+      "a": "Sí, la crema o gel tópico alivia eficazmente la comezón causada por picaduras de insectos, hiedra venenosa o dermatitis de contacto, ya que bloquea la histamina localmente."
+    },
+    {
+      "q": "¿Puedo tomarla si tengo glaucoma?",
+      "a": "NO si tiene glaucoma de ángulo cerrado. La difenhidramina puede aumentar la presión intraocular y desencadenar un ataque agudo. Si tiene glaucoma de ángulo abierto, consulte a su oftalmólogo antes de usarla."
+    },
+    {
+      "q": "¿Qué hago si me olvidé de una dosis?",
+      "a": "Tómela tan pronto como lo recuerde, pero si ya es casi la hora de la siguiente dosis, omita la que olvidó y continúe con su horario normal. NO duplique la dosis para compensar."
+    },
+    {
+      "q": "¿La difenhidramina sube o baja la presión arterial?",
+      "a": "Puede causar una ligera disminución de la presión arterial en algunas personas, lo que se manifiesta como mareo al ponerse de pie (hipotensión ortostática). En otras, puede causar taquicardia que podría elevar la presión. Monitoree si es hipertenso."
+    },
+    {
+      "q": "¿Por qué a veces me pone nervioso en lugar de dar sueño?",
+      "a": "Esto se llama 'excitación paradójica' y es más común en niños y adultos mayores. En lugar de sedación, el sistema nervioso central reacciona con agitación, nerviosismo e insomnio. Si ocurre, suspenda el medicamento."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre Benadryl y la difenhidramina genérica?",
+      "a": "Benadryl es una marca comercial. La difenhidramina genérica contiene el mismo principio activo, en la misma dosis, y debe tener la misma eficacia y seguridad. La diferencia suele ser el precio y los excipientes (componentes inactivos)."
+    },
+    {
+      "q": "¿En qué situaciones de urgencia se usa la difenhidramina inyectable en el hospital?",
+      "a": "En urgencias se usa para tratar reacciones alérgicas moderadas (como a contrastes o medicamentos), reacciones extrapiramidales por antipsicóticos (distonía, acatisia), como premedicación para prevenir náuseas por anestésicos, y en el manejo inicial de la anafilaxia junto con epinefrina."
+    }
+  ]
+}

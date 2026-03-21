@@ -1,0 +1,369 @@
+{
+  "name": "Biapenem",
+  "summary": "El Biapenem es un antibiótico de la familia de los carbapenémicos, utilizado para combatir infecciones bacterianas graves causadas por una amplia variedad de microorganismos, incluyendo aquellos que son resistentes a otros antibióticos más comunes. Se administra exclusivamente por vía intravenosa en un entorno hospitalario, ya sea en el hospital o en algunos casos seleccionados a través de programas de terapia intravenosa en el hogar, bajo estricta supervisión médica. Su importancia clínica radica en ser un fármaco de 'último recurso' o de amplio espectro para tratar infecciones complicadas como neumonías graves, infecciones intraabdominales, infecciones de la piel y tejidos blandos de alta complejidad, y sepsis, especialmente cuando se sospecha o se confirma la presencia de bacterias productoras de betalactamasas de espectro extendido (BLEE) que inactivan a otros antibióticos como las penicilinas y cefalosporinas. Es un medicamento crítico para salvar vidas en situaciones de infecciones severas y su uso debe ser racional para evitar el desarrollo de más resistencia bacteriana.",
+  "pharmacology": {
+    "mechanismOfAction": "El Biapenem ejerce su efecto bactericida (mata a las bacterias) al unirse de manera irreversible a unas proteínas específicas en la pared de la bacteria llamadas Proteínas Fijadoras de Penicilina (PBP). Esta unión bloquea la última etapa de la síntesis de la pared celular bacteriana, que es esencial para la supervivencia de la bacteria. Al no poder formar o reparar su pared celular, la bacteria se debilita, se hincha por la presión interna y finalmente estalla (lisis), muriendo. Su estructura química lo hace muy resistente a la acción de la mayoría de las enzimas betalactamasas (incluidas las BLEE y algunas carbapenemasas) que producen las bacterias para destruir otros antibióticos como las penicilinas, lo que le permite ser efectivo contra muchas bacterias resistentes.",
+    "pharmacologicClass": "Antibiótico betalactámico, subclase Carbapenémico.",
+    "therapeuticClass": "Antibiótico de amplio espectro, antibacteriano sistémico.",
+    "absorption": "No se absorbe por vía oral. Debe administrarse por vía intravenosa (IV) para lograr concentraciones terapéuticas adecuadas en sangre y tejidos. La administración IV proporciona una biodisponibilidad del 100%.",
+    "distribution": "Se distribuye ampliamente en la mayoría de los fluidos y tejidos corporales, incluyendo líquido pleural, líquido peritoneal, bilis, tejido pulmonar y líquido cefalorraquídeo (especialmente cuando las meninges están inflamadas). Su unión a proteínas plasmáticas es baja (aproximadamente del 3-10%), lo que significa que la mayor parte del fármaco está libre y activa para combatir la infección. Su volumen de distribución (Vd) es de aproximadamente 0.2-0.3 L/kg, indicando una distribución principalmente en el plasma y líquido extracelular.",
+    "metabolism": "El Biapenem se metaboliza de manera mínima en el hígado. No es un sustrato significativo del sistema enzimático del citocromo P450 (CYP450), por lo que tiene un bajo potencial de interacciones farmacocinéticas con otros medicamentos que afecten estas enzimas. Una pequeña porción se hidroliza en el riñón por una enzima llamada dehidropeptidasa-I (DHP-I), pero es más estable a esta enzima que otros carbapenémicos como el imipenem.",
+    "elimination": "Se elimina principalmente sin cambios por vía renal, a través de la filtración glomerular. Aproximadamente el 60-70% de la dosis se recupera sin cambios en la orina en las primeras 12 horas. Su vida media de eliminación en adultos con función renal normal es de aproximadamente 1 hora. En pacientes con insuficiencia renal grave, esta vida media puede prolongarse significativamente, requiriendo ajustes de dosis.",
+    "onsetOfAction": "Las concentraciones antibacterianas en sangre se alcanzan inmediatamente después de finalizar la infusión intravenosa. El efecto bactericida comienza rápidamente una vez que el fármaco entra en contacto con la bacteria.",
+    "durationOfAction": "Su corta vida media requiere administraciones frecuentes, generalmente cada 6, 8 o 12 horas, para mantener concentraciones en sangre y tejidos por encima de la concentración inhibitoria mínima (CIM) de las bacterias causantes de la infección durante todo el intervalo de dosificación."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones intraabdominales complicadas (peritonitis, abscesos)",
+      "Infecciones del tracto respiratorio inferior complicadas (neumonía nosocomial, neumonía asociada a ventilador)",
+      "Infecciones complicadas de la piel y estructuras de la piel (celulitis extensa, infecciones postquirúrgicas)",
+      "Infecciones del tracto urinario complicadas (pielonefritis aguda complicada)",
+      "Sepsis de origen bacteriano",
+      "Profilaxis de infecciones en cirugía de alto riesgo (uso perioperatorio)"
+    ],
+    "offLabel": [
+      "Tratamiento de infecciones por bacterias multirresistentes (ej., Enterobacterias productoras de BLEE) cuando otras opciones son limitadas",
+      "Tratamiento empírico de fiebre en pacientes neutropénicos (con recuentos bajos de glóbulos blancos)",
+      "Meningitis bacteriana causada por patógenos resistentes (cuando la sensibilidad está confirmada)"
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis habitual es de 300 mg a 600 mg, administrados por vía intravenosa cada 12 horas. La dosis y el intervalo (cada 8 o 12 horas) dependen de la gravedad de la infección, el sitio de la infección y la función renal del paciente. Para infecciones graves o causadas por patógenos menos sensibles, se pueden usar dosis de 600 mg cada 12 horas o 300 mg cada 8 horas. La infusión intravenosa debe durar entre 30 minutos y 1 hora.",
+    "pediatric": "No está aprobado de forma rutinaria en niños en muchos países, incluido México. Su uso en pediatría es limitado y bajo estricta supervisión de un infectólogo pediatra, con dosis basadas en peso corporal (ej., 10-20 mg/kg cada 8-12 horas, con un máximo de 600 mg por dosis).",
+    "elderly": "Los pacientes de edad avanzada suelen tener una función renal disminuida. Es fundamental calcular la tasa de filtración glomerular (TFG) y ajustar la dosis según los rangos de insuficiencia renal. No se requiere un ajuste solo por edad si la función renal es normal.",
+    "renalImpairment": "Ajustes obligatorios basados en la TFG (mL/min/1.73m²): TFG 30-50: 300 mg cada 12 horas. TFG 10-29: 300 mg cada 24 horas. TFG <10 o en diálisis: 300 mg cada 48 horas, administrado después de la sesión de diálisis. En diálisis peritoneal continua ambulatoria (DPCA): 300 mg cada 48 horas.",
+    "hepaticImpairment": "No se requieren ajustes de dosis específicos para insuficiencia hepática leve a moderada, ya que el fármaco se elimina principalmente por vía renal. En insuficiencia hepática grave, se debe usar con precaución y monitorear la función renal.",
+    "maxDose": "La dosis máxima diaria generalmente no debe exceder los 1200 mg (600 mg cada 12 horas), excepto en situaciones excepcionales bajo supervisión especializada."
+  },
+  "dosageForms": [
+    {
+      "form": "Polvo liofilizado para solución inyectable",
+      "strengths": [
+        "300 mg"
+      ],
+      "route": "Intravenosa (Infusión)"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad (alergia) conocida y grave al Biapenem, a cualquier otro carbapenémico (meropenem, imipenem, ertapenem, doripenem), a otros antibióticos betalactámicos (penicilinas, cefalosporinas) o a cualquier componente de la formulación. Pacientes con antecedentes de reacción anafiláctica a estos fármacos."
+    ],
+    "relative": [
+      "Pacientes con trastornos convulsivos o epilepsia no controlada (los carbapenémicos pueden reducir el umbral convulsivo). Insuficiencia renal severa (requiere ajuste de dosis obligatorio). Antecedentes de colitis pseudomembranosa."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Diarrea (puede ser desde leve hasta colitis pseudomembranosa por C. difficile)",
+      "Náuseas",
+      "Dolor de cabeza",
+      "Flebitis o irritación en el sitio de la inyección"
+    ],
+    "common": [
+      "Vómitos",
+      "Dolor abdominal",
+      "Erupción cutánea (rash)",
+      "Prurito (comezón)",
+      "Aumento de transaminasas (enzimas hepáticas en sangre)",
+      "Candidiasis oral o vaginal (infección por hongos)"
+    ],
+    "uncommon": [
+      "Convulsiones (especialmente en dosis altas, insuficiencia renal o historial de epilepsia)",
+      "Colitis pseudomembranosa (diarrea severa con fiebre y dolor abdominal)",
+      "Eosinofilia (aumento de un tipo de glóbulos blancos)",
+      "Trombocitopenia (disminución de plaquetas)",
+      "Leucopenia (disminución de glóbulos blancos)"
+    ],
+    "rare": [
+      "Reacción anafiláctica severa (dificultad para respirar, hinchazón de cara/lengua)",
+      "Síndrome de Stevens-Johnson o necrólisis epidérmica tóxica (erupción cutánea grave y extensa)",
+      "Hepatitis aguda",
+      "Alteración del gusto (disgeusia)",
+      "Mareo"
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Probenecid",
+        "effect": "El probenecid bloquea la secreción tubular renal del Biapenem, aumentando sus niveles en sangre y prolongando su vida media. Esto puede aumentar el riesgo de efectos adversos, especialmente convulsiones. Generalmente no se recomienda la coadministración.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Valproato sódico / Ácido valproico",
+        "effect": "El Biapenem puede disminuir drásticamente los niveles sanguíneos de valproato, reduciendo su efectividad para controlar las convulsiones en pacientes epilépticos. Este efecto puede ocurrir incluso después de una sola dosis. Se debe evitar la combinación y monitorear estrechamente los niveles de valproato o usar un anticonvulsivante alternativo.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "No aplica, ya que se administra por vía intravenosa. No hay interacciones directas con alimentos.",
+    "withSupplements": "No se han reportado interacciones clínicamente significativas con suplementos vitamínicos, minerales o herbales. Sin embargo, se debe informar al médico sobre cualquier suplemento que se esté tomando."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "B",
+      "recommendation": "Los estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. Solo debe usarse durante el embarazo si el beneficio potencial para la madre justifica claramente el riesgo potencial para el feto. Se reserva para infecciones graves donde otros antibióticos más seguros no son adecuados.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se desconoce si el Biapenem se excreta en la leche materna humana. Dado que muchos fármacos se excretan en la leche y por el potencial de efectos adversos graves en el lactante (como alteración de la flora intestinal y riesgo de diarrea o candidiasis), se recomienda suspender la lactancia materna durante el tratamiento o, si es esencial el tratamiento con Biapenem para la madre, valorar con el médico los riesgos y beneficios de continuar amamantando.",
+    "pediatric": "La seguridad y eficacia en niños menores de 18 años no están completamente establecidas. Su uso en pediatría es excepcional y está restringido a casos de infecciones graves por bacterias multirresistentes, bajo la supervisión de un especialista en infectología pediátrica y con dosis calculadas cuidadosamente por peso.",
+    "geriatric": "Los pacientes mayores de 65 años tienen mayor probabilidad de tener función renal disminuida. Es imperativo calcular la TFG antes de iniciar el tratamiento y ajustar la dosis en consecuencia para evitar acumulación del fármaco y toxicidad (especialmente convulsiones). También son más susceptibles a desarrollar diarrea asociada a C. difficile."
+  },
+  "administration": {
+    "howToTake": "El Biapenem se administra SOLO por vía intravenosa (IV) en un hospital o en un entorno ambulatorio supervisado. Un profesional de la salud prepara el polvo liofilizado disolviéndolo en solución salina (suero fisiológico) o solución glucosada al 5%. La solución resultante se administra mediante una infusión lenta en una vena, generalmente a través de un catéter venoso. La infusión suele durar entre 30 minutos y 1 hora. Nunca se debe inyectar rápidamente (en bolo). El paciente debe permanecer en observación durante la infusión por si ocurre una reacción.",
+    "storage": "El vial de polvo liofilizado debe almacenarse a temperatura ambiente (15-30°C), protegido de la luz y la humedad. Una vez reconstituido y diluido, la solución es estable por un tiempo limitado (consultar el instructivo del fabricante, generalmente 24 horas si se refrigera). No congelar.",
+    "specialInstructions": "Es crucial completar TODO el tratamiento prescrito por el médico, incluso si el paciente se siente mejor después de unos días, para asegurar que la infección esté completamente erradicada y prevenir la recurrencia o el desarrollo de resistencia. Informar inmediatamente al médico si aparece diarrea acuosa o con sangre, fiebre, dolor abdominal fuerte o erupción cutánea severa."
+  },
+  "monitoring": {
+    "labTests": [
+      "Recuento completo de células sanguíneas (CSC) periódico",
+      "Pruebas de función renal (creatinina sérica, TFG) antes y durante el tratamiento",
+      "Pruebas de función hepática (transaminasas, bilirrubina)",
+      "Cultivos bacterianos y pruebas de sensibilidad (antibiograma) del sitio de la infección"
+    ],
+    "frequency": "La función renal debe evaluarse al inicio y al menos cada 2-3 días durante el tratamiento, especialmente en pacientes con función renal variable. El CSC y las pruebas hepáticas se pueden realizar semanalmente en tratamientos prolongados (>7 días).",
+    "signsToWatch": [
+      "Fiebre persistente o que reaparece",
+      "Diarrea líquida o con sangre, dolor abdominal intenso (posible colitis por C. difficile)",
+      "Erupción cutánea, urticaria, dificultad para respirar (signos de alergia)",
+      "Convulsiones o cambios en el estado mental",
+      "Dolor, enrojecimiento o hinchazón excesiva en el sitio de la infusión IV"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Convulsiones (síntoma principal de toxicidad por exceso)",
+      "Temblores musculares",
+      "Confusión",
+      "Náuseas y vómitos severos",
+      "Diarrea profusa"
+    ],
+    "treatment": "No existe un antídoto específico. El tratamiento es de soporte y sintomático. En caso de convulsiones, se administran anticonvulsivantes (benzodiacepinas). La hemodiálisis es efectiva para eliminar el Biapenem de la circulación y debe considerarse en casos de sobredosis significativa, especialmente en pacientes con función renal comprometida.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (receta retenida en farmacia hospitalaria en muchos casos). Es un antibiótico de uso restringido, generalmente manejado por especialistas en hospitales.",
+    "scheduleMexico": "Medicamento de la Fracción IV (Medicamentos que requieren receta médica y cuya venta se hace exclusivamente en farmacias). Por su potencia y para promover su uso racional, su dispensación suele estar controlada dentro del ámbito hospitalario.",
+    "fdaApprovalYear": "No está aprobado por la FDA de Estados Unidos. Está aprobado y disponible en varios países de Asia, Europa y Latinoamérica, incluido México. Su aprobación en Japón (primer país) fue en la década de 2000."
+  },
+  "brandsMexico": [
+    "Biapem",
+    "Biapen",
+    "Biapenem (genérico de diversos laboratorios hospitalarios)"
+  ],
+  "clinicalPearls": [
+    "El Biapenem es una alternativa válida al meropenem, con un perfil de estabilidad a la DHP-I renal similar, lo que evita la necesidad de un inhibidor como la cilastatina (que requiere el imipenem).",
+    "Su espectro cubre bacterias Gram-positivas, Gram-negativas y anaerobias, pero tiene poca actividad contra la Pseudomonas aeruginosa en comparación con meropenem o doripenem.",
+    "Es fundamental realizar cultivos y antibiograma ANTES de iniciar el tratamiento empírico con Biapenem para poder desescalar la terapia a un antibiótico más específico y de espectro más reducido una vez conocidos los resultados, ayudando a combatir la resistencia bacteriana.",
+    "En pacientes con alergia a penicilina o cefalosporinas, el riesgo de reacción cruzada con carbapenémicos como el Biapenem es bajo pero existe (alrededor del 1%). Se debe usar con extrema precaución y bajo supervisión médica estrecha en estos casos."
+  ],
+  "patientCounseling": "Este medicamento es muy fuerte y solo se usa para infecciones graves, por lo que se administra directamente en su vena en el hospital o en un centro especializado. Es fundamental que nos avise inmediatamente si durante la infusión siente falta de aire, mareo intenso, comezón o ve ronchas en la piel. Una vez que empiece a sentirse mejor, no debe suspender el tratamiento; debe completar todos los días que el médico le indicó para evitar que la infección regrese más fuerte. La diarrea es un efecto común, pero si es muy líquida, con sangre, o viene acompañada de fiebre y dolor de estómago fuerte, debe decírnoslo de inmediato, ya que podría ser una infección intestinal seria. Mantenga una buena higiene en el sitio donde le ponen la inyección intravenosa y repórtelo si se enrojece, duele mucho o se hincha.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre",
+        "slug": "fiebre"
+      },
+      {
+        "name": "Dolor abdominal intenso",
+        "slug": "dolor-abdominal"
+      },
+      {
+        "name": "Tos con flemas purulentas",
+        "slug": "tos-con-flemas"
+      },
+      {
+        "name": "Escalofríos",
+        "slug": "escalofrios"
+      },
+      {
+        "name": "Dolor al orinar",
+        "slug": "disuria"
+      },
+      {
+        "name": "Enrojecimiento e hinchazón de la piel",
+        "slug": "celulitis"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Neumonía Nosocomial",
+        "slug": "neumonia-nosocomial"
+      },
+      {
+        "name": "Peritonitis",
+        "slug": "peritonitis"
+      },
+      {
+        "name": "Sepsis",
+        "slug": "sepsis"
+      },
+      {
+        "name": "Pielonefritis Aguda",
+        "slug": "pielonefritis"
+      },
+      {
+        "name": "Infección Intraabdominal Complicada",
+        "slug": "infeccion-intraabdominal"
+      },
+      {
+        "name": "Celulitis Infecciosa Grave",
+        "slug": "celulitis-infecciosa"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Colitis Pseudomembranosa",
+        "slug": "colitis-pseudomembranosa"
+      },
+      {
+        "name": "Convulsiones",
+        "slug": "convulsiones"
+      },
+      {
+        "name": "Insuficiencia Renal Aguda",
+        "slug": "insuficiencia-renal-aguda"
+      },
+      {
+        "name": "Reacción Anafiláctica",
+        "slug": "anafilaxia"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina",
+        "effect": "Puede elevar (por nefrotoxicidad, aunque es raro)"
+      },
+      {
+        "name": "Transaminasas (ALT/AST)",
+        "slug": "transaminasas",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Recuento de Plaquetas",
+        "slug": "plaquetas",
+        "effect": "Puede disminuir (trombocitopenia)"
+      },
+      {
+        "name": "Recuento de Leucocitos",
+        "slug": "leucocitos",
+        "effect": "Puede disminuir (leucopenia)"
+      },
+      {
+        "name": "Eosinófilos",
+        "slug": "eosinofilos",
+        "effect": "Puede elevar"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Cultivo y Antibiograma",
+        "slug": "cultivo-antibiograma",
+        "reason": "Para identificar la bacteria causante y su sensibilidad al Biapenem"
+      },
+      {
+        "name": "Tasa de Filtración Glomerular (TFG)",
+        "slug": "tasa-filtracion-glomerular",
+        "reason": "Esencial para ajustar la dosis y evitar toxicidad"
+      },
+      {
+        "name": "Biometría Hemática Completa",
+        "slug": "biometria-hematica",
+        "reason": "Para monitorear efectos en células sanguíneas"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de Creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Dosis Pediátrica por Peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿El Biapenem es una penicilina fuerte?",
+      "a": "No es una penicilina, pero pertenece a una familia relacionada llamada carbapenémicos, que son antibióticos de espectro muy amplio y alta potencia, considerados entre los más fuertes que existen para infecciones bacterianas graves."
+    },
+    {
+      "q": "¿Me lo pueden poner en una inyección en el glúteo o tomarlo en pastillas?",
+      "a": "No. El Biapenem SOLO se puede administrar por vía intravenosa (directamente en la vena), mediante una infusión lenta que dura entre 30 minutos y 1 hora. No existe en forma de pastillas, jarabe o inyección intramuscular."
+    },
+    {
+      "q": "¿Cuánto tiempo dura el tratamiento usualmente?",
+      "a": "La duración depende de la infección que se esté tratando. Puede variar desde 5 a 14 días, o incluso más en infecciones muy complicadas. Su médico determinará el tiempo exacto basándose en su respuesta clínica."
+    },
+    {
+      "q": "Si soy alérgico a la penicilina (como la amoxicilina), ¿puedo recibir Biapenem?",
+      "a": "Existe un riesgo bajo (alrededor del 1%) de reacción cruzada. Por lo tanto, se debe usar con MUCHA PRECAUCIÓN y solo si es absolutamente necesario, bajo la supervisión estrecha de un médico en un entorno hospitalario donde puedan manejar una posible reacción alérgica grave."
+    },
+    {
+      "q": "¿Puedo tomar alcohol mientras me ponen este tratamiento?",
+      "a": "No se recomienda el consumo de alcohol durante cualquier enfermedad grave que requiera antibióticos intravenosos. El alcohol puede debilitar su sistema inmunológico y enmascarar o empeorar algunos efectos secundarios."
+    },
+    {
+      "q": "¿Qué hago si me da mucha diarrea durante el tratamiento?",
+      "a": "Informe INMEDIATAMENTE a su médico o enfermera. La diarrea puede ser un efecto secundario común, pero también puede ser señal de una infección intestinal grave llamada colitis por C. difficile, que requiere tratamiento específico."
+    },
+    {
+      "q": "¿El Biapenem afecta los métodos anticonceptivos como las pastillas?",
+      "a": "No hay evidencia de que el Biapenem reduzca la efectividad de los anticonceptivos hormonales orales (pastillas). Sin embargo, si el antibiótico causa vómitos o diarrea severa, la absorción de la pastilla puede verse afectada. Consulte con su médico sobre el uso de un método anticonceptivo adicional (como condón) durante la enfermedad."
+    },
+    {
+      "q": "¿Me va a doler la infusión?",
+      "a": "Puede sentir una sensación de frío o leve molestia en el brazo donde se administra. Si siente dolor intenso, ardor, enrojecimiento o hinchazón en el sitio de la inyección, informe a la enfermera de inmediato, ya que puede ser irritación de la vena (flebitis)."
+    },
+    {
+      "q": "¿Puedo recibir este tratamiento en mi casa?",
+      "a": "En algunos casos seleccionados y con infecciones estables, se puede organizar la terapia intravenosa en el hogar (TIVD), pero requiere una evaluación médica, una vía intravenosa segura (como un catéter central) y personal de enfermería capacitado que visite su hogar. No es un tratamiento que el paciente pueda autoadministrarse."
+    },
+    {
+      "q": "¿Qué pasa si me salto una dosis?",
+      "a": "En un entorno hospitalario, el personal de salud se encarga de la administración puntual. Si está en tratamiento domiciliario y se salta una dosis, administre la dosis olvidada tan pronto como lo recuerde, a menos que ya sea casi la hora de la siguiente dosis. En ese caso, omita la dosis olvidada y continúe con su horario normal. NO duplique la dosis para compensar la olvidada."
+    },
+    {
+      "q": "¿Este antibiótico baja las defensas?",
+      "a": "No baja las defensas directamente. Su función es matar bacterias. Sin embargo, como efecto adverso poco común, puede causar una disminución temporal en el recuento de glóbulos blancos (leucopenia), que son parte del sistema inmunológico. Su médico lo monitoreará con análisis de sangre."
+    },
+    {
+      "q": "¿Por qué es importante terminar todos los días de tratamiento si ya me siento bien?",
+      "a": "Detener el tratamiento antes de tiempo puede dejar bacterias vivas pero debilitadas. Estas bacterias pueden multiplicarse nuevamente, causando una recaída de la infección que será más difícil de tratar porque pueden haber desarrollado resistencia al antibiótico."
+    },
+    {
+      "q": "¿El Biapenem sirve para la gripe o el COVID-19?",
+      "a": "NO. El Biapenem solo es efectivo contra infecciones causadas por BACTERIAS. La gripe y el COVID-19 son causados por VIRUS. Usar un antibiótico potente para una infección viral es inútil, aumenta el riesgo de efectos secundarios y contribuye a la resistencia bacteriana."
+    },
+    {
+      "q": "¿Qué diferencia hay entre Biapenem y Meropenem?",
+      "a": "Ambos son carbapenémicos muy similares. El Biapenem puede tener un perfil ligeramente mejor de estabilidad química y un riesgo teórico menor de causar convulsiones. La elección entre uno y otro la hace el médico basándose en el tipo de bacteria sospechada, los patrones de resistencia del hospital y la experiencia local."
+    },
+    {
+      "q": "¿Puede afectar mis riñones?",
+      "a": "La toxicidad renal directa por Biapenem es poco común. Sin embargo, si usted ya tiene problemas renales, el fármaco puede acumularse en su cuerpo si no se ajusta la dosis, lo que aumenta el riesgo de otros efectos adversos, principalmente convulsiones. Por eso es vital monitorear la función renal."
+    },
+    {
+      "q": "¿Interfiere con mis medicamentos para la presión o la diabetes?",
+      "a": "No se conocen interacciones farmacológicas directas con la mayoría de los antihipertensivos o antidiabéticos. Sin embargo, su condición médica general será monitoreada de cerca durante la infección grave, ya que ésta por sí sola puede descontrolar la presión arterial y los niveles de glucosa."
+    },
+    {
+      "q": "¿Qué debo comer mientras estoy con este tratamiento?",
+      "a": "Mantenga una dieta balanceada según lo tolere. Si tiene náuseas, coma porciones pequeñas y frecuentes. Es importante mantenerse bien hidratado. Si tiene diarrea, evite alimentos grasosos, picantes o muy azucarados, y prefiera una dieta astringente (plátano, arroz, manzana, pan tostado)."
+    },
+    {
+      "q": "¿Por qué me hicieron tantos análisis de sangre durante el tratamiento?",
+      "a": "Para monitorear: 1) La función renal y ajustar la dosis. 2) La función hepática. 3) El recuento de células sanguíneas (glóbulos blancos, rojos y plaquetas). 4) Los marcadores de infección (como la proteína C reactiva) para ver si el tratamiento está funcionando."
+    },
+    {
+      "q": "¿El Biapenem es lo mismo que el 'penem' que a veces mencionan los médicos?",
+      "a": "Sí, 'penem' es un término coloquial que los médicos usan para referirse a los antibióticos de la clase carbapenémicos, que incluyen Biapenem, Meropenem, Imipenem, Ertapenem y Doripenem. Son los antibióticos de más amplio espectro disponibles."
+    },
+    {
+      "q": "¿Cuál es la bacteria más peligrosa contra la que se usa el Biapenem?",
+      "a": "Se usa frecuentemente contra bacterias Gram-negativas multirresistentes, como Escherichia coli o Klebsiella pneumoniae productoras de Betalactamasas de Espectro Extendido (BLEE), que han dejado de responder a los antibióticos comunes como las cefalosporinas. También es activo contra muchos anaerobios, importantes en infecciones abdominales."
+    }
+  ]
+}

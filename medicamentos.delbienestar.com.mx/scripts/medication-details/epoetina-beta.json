@@ -1,0 +1,401 @@
+{
+  "name": "Epoetina beta",
+  "summary": "La epoetina beta es un medicamento biotecnológico que actúa como un agente estimulante de la eritropoyesis (ESA). Es una versión sintética (recombinante) de la hormona natural eritropoyetina, la cual es producida principalmente por los riñones y es esencial para la producción de glóbulos rojos en la médula ósea. Este medicamento se utiliza principalmente para tratar la anemia, una condición caracterizada por niveles bajos de hemoglobina y glóbulos rojos, que puede causar fatiga extrema, palidez y dificultad para respirar. Su importancia clínica es crucial en pacientes con enfermedad renal crónica (especialmente aquellos en diálisis), en pacientes con cáncer que desarrollan anemia debido a la quimioterapia, y para reducir la necesidad de transfusiones de sangre en ciertas cirugías programadas. Al estimular la producción de glóbulos rojos, mejora significativamente la calidad de vida, la capacidad para realizar actividades diarias y la tolerancia al ejercicio en estos pacientes. Sin embargo, su uso requiere un control médico estricto debido al riesgo de efectos adversos graves, como eventos trombóticos (coágulos) e incremento de la presión arterial.",
+  "pharmacology": {
+    "mechanismOfAction": "La epoetina beta es una glicoproteína idéntica en su estructura y función a la eritropoyetina humana endógena. Se une de forma específica y con alta afinidad al receptor de la eritropoyetina (EpoR) en la superficie de las células progenitoras eritroides en la médula ósea. Esta unión activa una cascada de señales intracelulares (principalmente vía JAK2/STAT5) que promueve la proliferación, diferenciación y supervivencia de estas células precursoras, estimulando así la producción de nuevos glóbulos rojos (eritrocitos). El resultado final es un aumento en el recuento de reticulocitos (glóbulos rojos jóvenes) en la sangre periférica en 7-10 días, seguido de un incremento sostenido en los niveles de hemoglobina y hematocrito. A diferencia de la eritropoyetina endógena, cuya producción depende de la oxigenación tisular, la epoetina beta proporciona un estímulo farmacológico constante e independiente del estado de los riñones, lo que la hace efectiva incluso en pacientes con insuficiencia renal.",
+    "pharmacologicClass": "Agente estimulante de la eritropoyesis (ESA), Eritropoyetina humana recombinante, Factor de crecimiento hematopoyético, Citocina glicoproteica.",
+    "therapeuticClass": "Antianémico, Hematológico, Agente estimulante de la médula ósea.",
+    "absorption": "Se administra por vía subcutánea o intravenosa, por lo que su biodisponibilidad es del 100% cuando se administra por vía intravenosa. La biodisponibilidad por vía subcutánea es de aproximadamente 23-42%, pero la absorción es más lenta y sostenida, lo que puede permitir una administración menos frecuente. La concentración plasmática máxima se alcanza entre 12 y 28 horas después de una inyección subcutánea.",
+    "distribution": "Su distribución se limita principalmente al espacio intravascular. El volumen de distribución en estado estacionario es bajo, aproximadamente equivalente al volumen plasmático (40-60 mL/kg). No se distribuye ampliamente a los tejidos extravasculares. No se conoce una unión significativa a proteínas plasmáticas distintas de su receptor específico.",
+    "metabolism": "El metabolismo de la epoetina beta no está mediado por las enzimas del citocromo P450 (CYP). Su catabolismo (degradación) ocurre principalmente en las células diana de la médula ósea después de la internalización del complejo fármaco-receptor. Una pequeña parte es metabolizada en el hígado y eliminada por los riñones, pero estos no son los mecanismos principales de eliminación.",
+    "elimination": "La vida media de eliminación depende de la vía de administración. Tras administración intravenosa, la vida media es de aproximadamente 4 a 13 horas en pacientes con insuficiencia renal. Tras administración subcutánea, la vida media es más prolongada, de 13 a 28 horas, debido a la lenta absorción desde el sitio de inyección. Se elimina principalmente por degradación metabólica en las células diana y, en menor medida, por el sistema reticuloendotelial. Una porción insignificante se excreta sin cambios por la orina.",
+    "onsetOfAction": "El inicio de la acción biológica (aumento de reticulocitos) se observa generalmente entre los 7 y 10 días posteriores al inicio del tratamiento.",
+    "durationOfAction": "El efecto sobre el aumento de la hemoglobina es sostenido y depende del régimen de dosificación. Con dosis de mantenimiento administradas 1 a 3 veces por semana, el efecto se mantiene de forma continua. Tras la suspensión, los niveles de hemoglobina regresan gradualmente a los valores basales en un período de varias semanas."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento de la anemia sintomática asociada a insuficiencia renal crónica (IRC) en pacientes adultos y pediátricos en diálisis y no en diálisis.",
+      "Tratamiento de la anemia en pacientes adultos con neoplasias malignas no mieloides que reciben quimioterapia con platino, cuando la anemia es causada por la quimioterapia y se espera una duración mínima de la misma de 2 meses.",
+      "Para aumentar el volumen de sangre del donante (autodonación) en pacientes programados para cirugía electiva con riesgo moderado a alto de pérdida sanguínea, cuando no se puede utilizar un suplemento de hierro oral."
+    ],
+    "offLabel": [
+      "Tratamiento de la anemia en pacientes con síndrome mielodisplásico (bajo criterio estricto y respuesta previa).",
+      "Anemia en pacientes con infección por VIH tratados con zidovudina (AZT).",
+      "Anemia asociada a trasplante de médula ósea.",
+      "Anemia en pacientes con insuficiencia cardíaca crónica (en investigación)."
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis es individualizada. **Insuficiencia Renal:** Inicial 50-100 UI/kg, 3 veces por semana, vía IV o SC. Ajustar según respuesta (incrementos de 25 UI/kg) para alcanzar un aumento de Hb de 1-2 g/dL por mes, sin exceder 12-13 g/dL. **Anemia por Quimioterapia:** 30,000 UI una vez por semana o 450 UI/kg una vez por semana, vía SC. **Autodonación:** 600 UI/kg, vía SC, 2 veces por semana durante 3 semanas antes de la cirugía.",
+    "pediatric": "**Insuficiencia Renal (≥1 mes):** Similar a adultos, iniciando con 50 UI/kg, 3 veces por semana, vía IV o SC. La dosis debe ajustarse cuidadosamente según peso y respuesta.",
+    "elderly": "No se requieren ajustes de dosis basados únicamente en la edad. Sin embargo, los pacientes mayores pueden tener mayor riesgo de eventos cardiovasculares y trombóticos, por lo que el objetivo de hemoglobina debe ser conservador y el monitoreo más estrecho.",
+    "renalImpairment": "Este es el grupo principal de uso. No requiere ajuste por TFG, ya que se usa precisamente para tratar la anemia causada por la insuficiencia renal. La dosis se titula según la respuesta de hemoglobina. En diálisis, puede administrarse intravenosamente al final de la sesión.",
+    "hepaticImpairment": "No se han establecido recomendaciones específicas de ajuste de dosis. Se debe usar con precaución y monitorizar la respuesta, ya que la anemia puede tener múltiples causas en estos pacientes.",
+    "maxDose": "No se ha establecido una dosis máxima absoluta. Sin embargo, se recomienda no exceder los incrementos de dosis recomendados (ej. 25 UI/kg por ajuste) y suspender el tratamiento si la hemoglobina supera los 13 g/dL. En algunos protocolos, dosis superiores a 300 UI/kg/semana se consideran altas y aumentan el riesgo."
+  },
+  "dosageForms": [
+    {
+      "form": "Solución inyectable en jeringa precargada",
+      "strengths": [
+        "1000 UI/0.5 mL",
+        "2000 UI/0.3 mL",
+        "3000 UI/0.3 mL",
+        "4000 UI/0.3 mL",
+        "5000 UI/0.3 mL",
+        "6000 UI/0.3 mL",
+        "10,000 UI/0.6 mL",
+        "20,000 UI/0.6 mL",
+        "30,000 UI/0.6 mL"
+      ],
+      "route": "Subcutánea, Intravenosa"
+    },
+    {
+      "form": "Polvo liofilizado para solución inyectable en vial",
+      "strengths": [
+        "1000 UI",
+        "2000 UI",
+        "5000 UI",
+        "10,000 UI"
+      ],
+      "route": "Subcutánea, Intravenosa"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la epoetina beta, a otros productos derivados de células de mamífero o a cualquier excipiente de la formulación.",
+      "Hipertensión arterial no controlada.",
+      "Anemia no causada por deficiencia de eritropoyetina (ej., anemia por deficiencia de hierro, vitamina B12 o ácido fólico no tratada, anemia hemolítica).",
+      "Porfiria eritropoyética congénita (eritropoyética)."
+    ],
+    "relative": [
+      "Enfermedad cardiovascular o cerebrovascular inestable (infarto reciente, angina inestable, accidente cerebrovascular reciente).",
+      "Historia de trombosis relacionada con un ESA.",
+      "Enfermedad hepática severa.",
+      "Cáncer con potencial de curación (riesgo de progresión tumoral)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Aumento de la presión arterial (hipertensión)",
+      "Dolor de cabeza (cefalea)"
+    ],
+    "common": [
+      "Reacciones en el sitio de inyección (dolor, enrojecimiento, hinchazón)",
+      "Síntomas similares a la gripe (fiebre, escalofríos, malestar general)",
+      "Náuseas",
+      "Dolor articular (artralgia)",
+      "Trombosis vascular (formación de coágulos en accesos de diálisis, venas profundas)"
+    ],
+    "uncommon": [
+      "Convulsiones (especialmente en pacientes renales con hipertensión mal controlada)",
+      "Reacciones alérgicas (rash cutáneo, urticaria)",
+      "Hiperpotasemia (aumento de potasio en sangre)",
+      "Trombocitosis (aumento de plaquetas)"
+    ],
+    "rare": [
+      "Aplasia pura de serie roja (PRCA): desarrollo de anticuerpos neutralizantes que bloquean la acción de la epoetina y la eritropoyetina natural, causando anemia grave y resistente.",
+      "Reacciones anafilácticas severas.",
+      "Síndrome de encefalopatía posterior reversible (PRES) con dolor de cabeza, convulsiones y alteración visual."
+    ],
+    "blackBoxWarning": "Aumento del riesgo de muerte, eventos cardiovasculares graves (infarto, insuficiencia cardíaca, accidente cerebrovascular) y trombosis cuando se administra para alcanzar una hemoglobina mayor a 11 g/dL en pacientes con enfermedad renal crónica. Aumento del riesgo de progresión tumoral y muerte en pacientes con cáncer cuando se administra a niveles de hemoglobina mayores a 12 g/dL."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Heparina",
+        "effect": "Puede aumentar el riesgo de sangrado en pacientes en diálisis. Sin embargo, el mayor riesgo con la epoetina es la trombosis, por lo que se requiere un cuidadoso equilibrio.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inhibidores de la ECA (ej., enalapril, lisinopril)",
+        "effect": "Pueden atenuar la respuesta a la epoetina, posiblemente requiriendo dosis más altas para lograr el mismo efecto sobre la hemoglobina.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "No tiene interacciones directas con alimentos. Sin embargo, es fundamental que el paciente mantenga una dieta adecuada en nutrientes necesarios para la formación de glóbulos rojos, especialmente hierro, vitamina B12 y ácido fólico. El alcohol en exceso puede contribuir a la anemia y debe evitarse.",
+    "withSupplements": "**Suplementos de hierro:** Son casi siempre necesarios de forma concomitante, ya que la epoetina estimula la producción de glóbulos rojos, consumiendo las reservas de hierro del cuerpo. La deficiencia de hierro limitará la respuesta al tratamiento. **Antioxidantes en altas dosis (Vitamina C, E):** Teóricamente podrían interferir con el mecanismo de acción, pero la evidencia clínica no es concluyente. Se recomienda consultar al médico antes de tomar cualquier suplemento."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "C",
+      "recommendation": "Solo debe usarse durante el embarazo si el beneficio potencial justifica claramente el riesgo para el feto. Los datos en humanos son limitados. Se ha observado en animales un aumento del peso fetal y del esqueleto. Su uso se reserva para casos graves de anemia que no responden a hierro y que ponen en riesgo la salud de la madre y el feto, bajo estricta supervisión médica.",
+      "crossesPlacenta": "Se desconoce, pero debido a su alto peso molecular, es poco probable que cruce en cantidades significativas."
+    },
+    "breastfeeding": "Se desconoce si la epoetina beta se excreta en la leche materna. Debido a su alto peso molecular, es improbable. Sin embargo, se debe tomar una decisión considerando la necesidad esencial del medicamento para la madre, ya que una anemia severa también puede afectar la lactancia.",
+    "pediatric": "Está aprobado para su uso en niños mayores de 1 mes con anemia por insuficiencia renal. La eficacia y seguridad son similares a los adultos. La dosis se calcula por peso corporal. Se debe monitorizar cuidadosamente el crecimiento y el desarrollo.",
+    "geriatric": "Los pacientes de edad avanzada (≥65 años) pueden tener una mayor frecuencia de efectos adversos, especialmente eventos cardiovasculares e hipertensión. Se recomienda iniciar con la dosis más baja posible y aumentar lentamente, manteniendo un objetivo de hemoglobina conservador (generalmente no más de 11-12 g/dL)."
+  },
+  "administration": {
+    "howToTake": "La epoetina beta es un medicamento inyectable. **Nunca se toma por boca.** Un profesional de la salud o el paciente/cuidador debidamente entrenado la administra. **Vía Subcutánea (SC):** Es la vía preferida para la mayoría de las indicaciones (excepto pacientes en diálisis). Se inyecta en el tejido graso del muslo, abdomen o brazo, rotando los sitios de inyección. **Vía Intravenosa (IV):** Principalmente para pacientes en hemodiálisis, se administra en la línea de diálisis al final de la sesión. La jeringa precargada está lista para usar; el vial liofilizado debe reconstituirse con el diluyente proporcionado, sin agitar vigorosamente. Inspeccionar la solución antes de usar: debe ser transparente e incolora.",
+    "storage": "Conservar en refrigeración (2°C - 8°C) en su empaque original para proteger de la luz. **No congelar.** Una vez retirado del refrigerador, la jeringa precargada puede mantenerse a temperatura ambiente (hasta 25°C) por un máximo de 7 días. El producto reconstituido del vial debe usarse inmediatamente. Mantener fuera del alcance de los niños.",
+    "specialInstructions": "**Es fundamental la suplementación con hierro.** La mayoría de los pacientes requieren hierro oral o intravenoso para tener reservas adecuadas y responder al tratamiento. No agitar el producto, ya que puede desnaturalizar la proteína. Desechar cualquier producto que esté turbio o contenga partículas. No mezclar con otras soluciones medicamentosas en la misma jeringa."
+  },
+  "monitoring": {
+    "labTests": [
+      "Hemoglobina (Hb) y Hematocrito (Hto) - parámetros principales",
+      "Recuento de Reticulocitos",
+      "Ferritina sérica y Saturación de Transferrina (TSAT) - para evaluar reservas de hierro",
+      "Presión arterial",
+      "Potasio sérico (K+)",
+      "Recuento de plaquetas"
+    ],
+    "frequency": "**Hemoglobina/Hierro:** Al inicio y cada 1-2 semanas durante el ajuste de dosis, luego cada 2-4 semanas en mantenimiento. **Presión arterial:** En cada visita médica y frecuentemente al inicio del tratamiento. En pacientes renales, antes de cada sesión de diálisis.",
+    "signsToWatch": [
+      "Dolor de cabeza intenso o repentino, mareo, visión borrosa (signos de hipertensión o PRES)",
+      "Dolor, enrojecimiento o hinchazón inusual en piernas o brazos (signo de trombosis)",
+      "Dificultad para respirar, dolor en el pecho (signos de evento cardiovascular)",
+      "Convulsiones",
+      "Fatiga o palidez que empeora a pesar del tratamiento (posible PRCA)"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Policitemia (hematocrito excesivamente alto)",
+      "Hipertensión arterial severa",
+      "Dolor de cabeza intenso",
+      "Riesgo elevado de eventos trombóticos (infarto, embolia)",
+      "Convulsiones"
+    ],
+    "treatment": "No existe un antídoto específico. El tratamiento es de soporte y sintomático. Se debe suspender inmediatamente la administración de epoetina beta. En casos de policitemia severa, puede considerarse una flebotomía (sangría terapéutica) bajo supervisión médica especializada. El control agresivo de la hipertensión es prioritario.",
+    "antidote": "null"
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (receta retenida en farmacia en algunos estados de México por su alto costo y riesgos).",
+    "scheduleMexico": "Medicamento de Prescripción (no está en la lista de psicotrópicos o estupefacientes). Su dispensación está sujeta a control en instituciones de salud pública (IMSS, ISSSTE) y farmacias privadas con receta.",
+    "fdaApprovalYear": "Aprobado por la FDA en 1989 (epoetina alfa, similar). La epoetina beta fue desarrollada posteriormente y aprobada en Europa y otros mercados, incluido México."
+  },
+  "brandsMexico": [
+    "NeoRecormon",
+    "Recormon",
+    "Epoetin Beta (genérico de diversos laboratorios)"
+  ],
+  "clinicalPearls": [
+    "La respuesta 'fracaso a la epoetina' se define comúnmente por la necesidad de dosis altas (>300 UI/kg/semana) o la incapacidad para mantener la Hb. La causa más frecuente es la deficiencia absoluta o funcional de hierro.",
+    "En pacientes renales, el objetivo de Hb debe individualizarse, pero generalmente no debe exceder 11-12 g/dL. Niveles >13 g/dL se asocian claramente con mayor riesgo cardiovascular.",
+    "Antes de aumentar la dosis por falta de respuesta, siempre descartar y corregir: 1) Deficiencia de hierro, 2) Infección/Inflamación, 3) Pérdida de sangre oculta, 4) Hiperparatiroidismo severo, 5) Deficiencia de folato o B12.",
+    "La vía subcutánea es más eficiente (requiere dosis totales menores) que la intravenosa para el mantenimiento en pacientes no dializados."
+  ],
+  "patientCounseling": "La epoetina beta es un tratamiento muy efectivo para su anemia, pero requiere su compromiso activo. Deberá aplicarse las inyecciones según le enseñó su enfermera o médico, rotando los sitios (muslo, abdomen). Tomar los suplementos de hierro que le recetaron es TAN IMPORTANTE como la inyección misma; sin hierro, el medicamento no funcionará bien. Debe controlarse la presión arterial en casa regularmente y anotar los valores. Asista a todas sus citas para análisis de sangre; estos controles son vitales para ajustar su dosis y evitar efectos secundarios graves. Reporte de inmediato a su médico si tiene dolor de cabeza muy fuerte, mareo, visión borrosa, dolor o hinchazón en las piernas, o dificultad para respirar. Este medicamento no es una 'vitamina' ni un estimulante; es un tratamiento serio que debe manejarse con cuidado para mejorar su calidad de vida de forma segura.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fatiga extrema",
+        "slug": "fatiga-cronica"
+      },
+      {
+        "name": "Palidez (piel y mucosas)",
+        "slug": "palidez-cutanea"
+      },
+      {
+        "name": "Dificultad para respirar (disnea)",
+        "slug": "disnea"
+      },
+      {
+        "name": "Mareos o aturdimiento",
+        "slug": "mareos"
+      },
+      {
+        "name": "Taquicardia (corazón acelerado)",
+        "slug": "taquicardia"
+      },
+      {
+        "name": "Dolor de cabeza",
+        "slug": "cefalea"
+      },
+      {
+        "name": "Intolerancia al frío",
+        "slug": "intolerancia-al-frio"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Anemia de la enfermedad renal crónica",
+        "slug": "anemia-insuficiencia-renal"
+      },
+      {
+        "name": "Anemia inducida por quimioterapia",
+        "slug": "anemia-neoplasias"
+      },
+      {
+        "name": "Anemia en síndrome mielodisplásico (selectivo)",
+        "slug": "sindrome-mielodisplasico"
+      },
+      {
+        "name": "Anemia en pacientes con VIH bajo tratamiento con AZT",
+        "slug": "anemia-vih"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Trombosis venosa profunda (TVP)",
+        "slug": "trombosis-venosa-profunda"
+      },
+      {
+        "name": "Embolia pulmonar",
+        "slug": "embolia-pulmonar"
+      },
+      {
+        "name": "Infarto agudo de miocardio",
+        "slug": "infarto-miocardio"
+      },
+      {
+        "name": "Accidente cerebrovascular (ACV)",
+        "slug": "accidente-cerebrovascular"
+      },
+      {
+        "name": "Hipertensión arterial",
+        "slug": "hipertension-arterial"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Hemoglobina (Hb)",
+        "slug": "hemoglobina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Hematocrito (Hto)",
+        "slug": "hematocrito",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Recuento de Reticulocitos",
+        "slug": "reticulocitos",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Ferritina sérica",
+        "slug": "ferritina",
+        "effect": "Puede disminuir (por consumo)"
+      },
+      {
+        "name": "Saturación de Transferrina (TSAT)",
+        "slug": "saturacion-transferrina",
+        "effect": "Puede disminuir (por consumo)"
+      },
+      {
+        "name": "Presión arterial sistólica y diastólica",
+        "slug": "presion-arterial",
+        "effect": "Puede elevar"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Biometría Hemática Completa",
+        "slug": "biometria-hematica",
+        "reason": "Monitoreo principal de hemoglobina, hematocrito y recuento de reticulocitos."
+      },
+      {
+        "name": "Hierro Sérico, Ferritina y Capacidad Total de Fijación de Hierro (CTFH)",
+        "slug": "estudios-hierro",
+        "reason": "Evaluar reservas de hierro antes y durante el tratamiento."
+      },
+      {
+        "name": "Perfil de Lípidos",
+        "slug": "perfil-lipidos",
+        "reason": "Evaluar riesgo cardiovascular global, especialmente en pacientes renales."
+      },
+      {
+        "name": "Electrocardiograma (ECG)",
+        "slug": "electrocardiograma",
+        "reason": "En pacientes con alto riesgo cardiovascular o síntomas sugerentes."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de Aclaramiento de Creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      },
+      {
+        "name": "Calculadora de Dosis Pediátrica por Peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La epoetina beta es una vitamina o un hierro inyectable?",
+      "a": "No, no es ni una vitamina ni hierro. Es una hormona sintética (proteína) que le indica a su médula ósea que fabrique más glóbulos rojos. Por eso casi siempre se necesita tomar hierro aparte, como 'material de construcción'."
+    },
+    {
+      "q": "¿Duele la inyección?",
+      "a": "Puede haber una leve molestia, ardor o dolor en el sitio de la inyección, similar a otras inyecciones subcutáneas (como la insulina). Rotar los sitios de aplicación ayuda a minimizar esta molestia."
+    },
+    {
+      "q": "¿Puedo dejar de tomar mis suplementos de hierro si me están poniendo la epoetina?",
+      "a": "NO. Es un error común y grave. La epoetina estimula la fábrica, pero sin hierro (la materia prima), no se pueden hacer glóbulos rojos nuevos. Tomar el hierro es esencial para que el tratamiento funcione."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Generalmente se empieza a ver un aumento en los glóbulos rojos jóvenes (reticulocitos) en la primera o segunda semana. El aumento estable de la hemoglobina, que se nota como menos cansancio, puede tardar de 4 a 8 semanas."
+    },
+    {
+      "q": "¿Me va a curar la anemia para siempre?",
+      "a": "No es una cura, sino un tratamiento de control. Mientras reciba la epoetina, su cuerpo producirá más glóbulos rojos. Si se suspende (a menos que se corrija la causa original, como un trasplante renal), la anemia muy probablemente regresará."
+    },
+    {
+      "q": "¿Puedo aplicarme la inyección yo mismo en casa?",
+      "a": "Sí, muchos pacientes aprenden a auto-aplicársela por vía subcutánea, después de un entrenamiento adecuado por un profesional de la salud. Es importante seguir las técnicas de higiene y rotación de sitios."
+    },
+    {
+      "q": "¿Qué hago si se me olvida una dosis?",
+      "a": "Aplíquesela tan pronto como lo recuerde. Si ya está cerca de la hora de la siguiente dosis, NO se aplique el doble. Continúe con su horario normal. Consulte a su médico o farmacéutico si tiene dudas."
+    },
+    {
+      "q": "¿Este medicamento puede subirme la presión?",
+      "a": "SÍ. El aumento de glóbulos rojos hace la sangre más 'espesa' y puede subir la presión arterial. Por eso es fundamental que se la controle regularmente en casa y reporte cualquier aumento a su médico."
+    },
+    {
+      "q": "¿Puedo hacer ejercicio mientras uso epoetina?",
+      "a": "Sí, de hecho, uno de los objetivos del tratamiento es que recupere la energía para realizar sus actividades, incluyendo ejercicio moderado. Empiece gradualmente y escuche a su cuerpo."
+    },
+    {
+      "q": "¿Hay alimentos que debo evitar o comer más?",
+      "a": "No hay alimentos prohibidos, pero es crucial llevar una dieta rica en hierro (carnes rojas, lentejas, espinacas) y los nutrientes que le indique su médico o nutriólogo. Evite el exceso de sal para ayudar a controlar la presión."
+    },
+    {
+      "q": "¿La epoetina beta es lo mismo que la que usan los deportistas?",
+      "a": "Sí, es la misma sustancia (eritropoyetina recombinante), cuyo uso en deportistas (dopaje) está prohibido porque aumenta artificialmente la capacidad de transportar oxígeno. En medicina, su uso está estrictamente controlado por razones de salud."
+    },
+    {
+      "q": "¿Puede causar cáncer?",
+      "a": "En pacientes CON cáncer, existe una advertencia de que usar epoetina para alcanzar niveles de hemoglobina muy altos (por encima de 12 g/dL) podría hacer que algunos tumores crezcan más rápido. En personas sin cáncer, no se ha demostrado que cause cáncer."
+    },
+    {
+      "q": "¿Qué es la Aplasia Pura de Serie Roja (PRCA) que mencionan?",
+      "a": "Es un efecto adverso muy raro pero grave donde el cuerpo produce anticuerpos que destruyen tanto la epoetina como su eritropoyetina natural, causando una anemia severa y repentina. Si su anemia empeora rápidamente a pesar del tratamiento, es una señal de alerta."
+    },
+    {
+      "q": "¿Por qué me piden tantos análisis de sangre?",
+      "a": "Porque la dosis debe ajustarse con mucha precisión. Muy poca dosis no corrige la anemia, y demasiada puede elevar la hemoglobina a niveles peligrosos, aumentando el riesgo de coágulos e infartos. Los análisis guían estos ajustes."
+    },
+    {
+      "q": "¿Es seguro para mi riñón que ya está enfermo?",
+      "a": "Sí, es seguro y de hecho es uno de sus usos principales. La epoetina reemplaza la hormona que sus riñones ya no pueden producir en suficiente cantidad. Ayuda a tratar la anemia causada por la enfermedad renal en sí."
+    },
+    {
+      "q": "¿Interfiere con mis otros medicamentos para la presión o el colesterol?",
+      "a": "No interfiere directamente en su mecanismo de acción. Sin embargo, algunos medicamentos para la presión (como los IECA: enalapril, lisinopril) pueden hacer que necesite una dosis un poco más alta de epoetina. Nunca deje de tomar sus otros medicamentos sin consultar a su médico."
+    },
+    {
+      "q": "¿Qué pasa si mi hemoglobina sube demasiado?",
+      "a": "Es un riesgo. Su médico reducirá o suspenderá temporalmente la dosis de epoetina. Niveles muy altos de hemoglobina aumentan mucho el riesgo de formar coágulos en la sangre, lo que puede provocar trombosis, infartos o embolias."
+    },
+    {
+      "q": "¿Se puede usar en niños?",
+      "a": "Sí, está aprobado para su uso en niños mayores de 1 mes que tienen anemia por enfermedad renal crónica. La dosis se calcula cuidadosamente según el peso del niño."
+    },
+    {
+      "q": "¿Es mejor la inyección en la vena o debajo de la piel?",
+      "a": "Para pacientes que NO están en diálisis, la vía subcutánea (debajo de la piel) es generalmente más eficiente, permite usar dosis totales más bajas y a veces menos aplicaciones. Para pacientes en hemodiálisis, suele administrarse en la vena (intravenosa) durante la sesión por conveniencia."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre Epoetina Alfa y Epoetina Beta?",
+      "a": "Ambas son versiones sintéticas de la misma hormona (eritropoyetina) y son igual de efectivas y seguras. La diferencia principal está en su estructura molecular ligeramente distinta (glicosilación) y en el fabricante. En México, la marca más común de epoetina beta es NeoRecormon."
+    }
+  ]
+}

@@ -1,0 +1,417 @@
+{
+  "name": "Clorhidrato de Vancomicina",
+  "summary": "La Vancomicina es un antibiótico potente de la clase de los glucopéptidos, considerado un medicamento de 'último recurso' o 'reserva' en México. Se utiliza principalmente para tratar infecciones graves causadas por bacterias Gram-positivas que son resistentes a otros antibióticos más comunes, como la meticilina. Su importancia clínica es enorme, ya que es uno de los pocos tratamientos efectivos contra infecciones peligrosas como la producida por el Staphylococcus aureus resistente a la meticilina (SARM), infecciones de válvulas cardíacas (endocarditis), infecciones del sistema nervioso central (meningitis) e infecciones asociadas a catéteres y prótesis. También es el tratamiento de elección para la colitis pseudomembranosa grave causada por Clostridioides difficile, cuando otros tratamientos fallan. Debido a su potencia y al riesgo de efectos secundarios significativos, como daño renal y auditivo, su uso está estrictamente reservado para hospitales y bajo supervisión médica especializada, requiriendo monitoreo constante de los niveles del medicamento en la sangre para asegurar su eficacia y minimizar su toxicidad.",
+  "pharmacology": {
+    "mechanismOfAction": "La Vancomicina actúa inhibiendo la síntesis de la pared celular de las bacterias Gram-positivas. Lo hace uniéndose con alta afinidad a los precursores de la pared celular, específicamente a la terminación D-alanil-D-alanina de los péptidos que forman parte del peptidoglicano. Esta unión bloquea la acción de las enzimas transglicosilasas y transpeptidasas, que son esenciales para el entrecruzamiento y la polimerización de las cadenas de peptidoglicano. Como resultado, la bacteria no puede construir una pared celular fuerte y rígida, lo que lleva a la debilitación de su estructura, la entrada de agua y, finalmente, a la muerte de la bacteria (efecto bactericida). Es importante destacar que no es efectiva contra bacterias Gram-negativas porque su molécula grande no puede atravesar la membrana externa de estas bacterias.",
+    "pharmacologicClass": "Antibiótico glucopéptido tricíclico.",
+    "therapeuticClass": "Antibiótico sistémico.",
+    "absorption": "La absorción por vía oral es muy pobre (menos del 10%) en el tracto gastrointestinal en personas con función intestinal normal. Por esta razón, para tratar infecciones sistémicas (en la sangre, pulmones, etc.) se administra exclusivamente por vía intravenosa. La administración oral solo es efectiva para tratar infecciones localizadas en el intestino, como la colitis por C. difficile, ya que el medicamento no se absorbe y actúa directamente en la luz intestinal.",
+    "distribution": "Se distribuye ampliamente en la mayoría de los tejidos y fluidos corporales. Su volumen de distribución es de aproximadamente 0.4-1.0 L/kg. Penetra bien en líquido pleural, sinovial, pericárdico y ascítico. La penetración al líquido cefalorraquídeo (LCR) es variable y generalmente pobre en meninges no inflamadas (10-20%), pero mejora significativamente cuando hay inflamación meníngea (hasta 50%). Se une a proteínas plasmáticas en un grado bajo a moderado, aproximadamente del 30-55%.",
+    "metabolism": "La Vancomicina no sufre un metabolismo hepático significativo. No es sustrato, inhibidor o inductor de las enzimas del citocromo P450 (CYP450). Se elimina principalmente sin cambios por el riñón.",
+    "elimination": "Se elimina principalmente por filtración glomerular en el riñón, en forma inalterada (más del 90% de la dosis). Su vida media de eliminación en adultos con función renal normal es de aproximadamente 4 a 6 horas. En pacientes con insuficiencia renal, la vida media se prolonga considerablemente (puede ser de varios días), lo que aumenta el riesgo de toxicidad y requiere ajustes importantes en la dosis.",
+    "onsetOfAction": "Los niveles séricos terapéuticos se alcanzan rápidamente al final de una infusión intravenosa. Sin embargo, la respuesta clínica (disminución de fiebre, mejoría de síntomas) puede tardar de 48 a 72 horas en manifestarse, dependiendo de la gravedad y localización de la infección.",
+    "durationOfAction": "Su efecto es dependiente del tiempo, lo que significa que es más efectivo cuando las concentraciones séricas se mantienen por encima de la concentración inhibitoria mínima (CIM) del microorganismo durante un período prolongado. Por ello, los regímenes de dosificación están diseñados para mantener niveles valle (trough) dentro de un rango terapéutico específico (generalmente 10-20 mg/L para la mayoría de las infecciones)."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones graves por bacterias Gram-positivas susceptibles, especialmente cuando hay resistencia a penicilinas y cefalosporinas.",
+      "Infecciones por Staphylococcus aureus resistente a meticilina (SARM).",
+      "Infecciones por Staphylococcus epidermidis resistente a meticilina.",
+      "Endocarditis infecciosa (infección de las válvulas del corazón) causada por estafilococos o estreptococos, especialmente en pacientes alérgicos a penicilina.",
+      "Infecciones asociadas a catéteres y dispositivos médicos.",
+      "Profilaxis para cirugías cardíacas o ortopédicas de alto riesgo en pacientes alérgicos a penicilina o con colonización por SARM.",
+      "Colitis pseudomembranosa grave o recurrente causada por Clostridioides difficile (administración oral).",
+      "Meningitis bacteriana por bacterias Gram-positivas resistentes."
+    ],
+    "offLabel": [
+      "Tratamiento de infecciones por Enterococcus faecalis o faecium resistente a vancomicina (VRE) en combinación con otros antibióticos (como linezolid o daptomicina).",
+      "Profilaxis de la endocarditis infecciosa en procedimientos dentales para pacientes de alto riesgo alérgicos a penicilina (aunque las guías actuales la recomiendan menos).",
+      "Tratamiento de infecciones óseas y articulares (osteomielitis, artritis séptica) por SARM."
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis es altamente individualizada y basada en el peso, función renal y niveles séricos. Para infecciones sistémicas graves (IV): Dosis de carga: 20-25 mg/kg (basado en peso corporal real). Dosis de mantenimiento: 15-20 mg/kg cada 8-12 horas, ajustada según niveles valle (trough). Para colitis por C. difficile (Oral): 125 mg cada 6 horas, durante 10 días. En algunos casos graves, se pueden usar dosis de 250 a 500 mg cada 6 horas.",
+    "pediatric": "Recién nacidos y lactantes: Dosis varían según edad posnatal y peso. Ejemplo: 10-15 mg/kg cada 12-24 horas. Niños y adolescentes: 40-60 mg/kg/día, dividido en dosis cada 6-8 horas (máximo 2-4 g/día). Siempre ajustar según niveles séricos y función renal.",
+    "elderly": "Los adultos mayores suelen tener una función renal disminuida (TFG más baja). Es crucial calcular la TFG (con fórmulas como Cockcroft-Gault o MDRD) y ajustar la dosis y el intervalo de administración en consecuencia para evitar toxicidad. Se recomienda iniciar con dosis más bajas y monitorear niveles séricos estrechamente.",
+    "renalImpairment": "El ajuste es MANDATORIO. Se basa en la tasa de filtración glomerular (TFG) estimada. TFG >50 mL/min: Dosis habitual. TFG 30-50 mL/min: Reducir frecuencia a cada 12-24 horas. TFG 10-29 mL/min: Reducir frecuencia a cada 24-48 horas. TFG <10 mL/min o diálisis: Dosis cada 48-72 horas o según niveles. Los pacientes en hemodiálisis reciben dosis después de cada sesión, ya que el medicamento se elimina parcialmente por diálisis.",
+    "hepaticImpairment": "No se requiere ajuste de dosis específico por insuficiencia hepática, ya que la Vancomicina no se metaboliza en el hígado. Sin embargo, se debe evaluar la función renal, que puede estar afectada en enfermedad hepática avanzada (síndrome hepatorrenal).",
+    "maxDose": "La dosis máxima diaria no está estrictamente definida por un número fijo, sino por los niveles séricos terapéuticos y la tolerancia del paciente. Rara vez se exceden los 4 gramos al día en adultos, y solo en casos de infecciones muy graves con monitoreo intensivo. Las dosis altas (>4g/día) aumentan significativamente el riesgo de nefrotoxicidad."
+  },
+  "dosageForms": [
+    {
+      "form": "Polvo liofilizado para inyección (infusión intravenosa)",
+      "strengths": [
+        "500 mg",
+        "1 g"
+      ],
+      "route": "Intravenosa (IV)"
+    },
+    {
+      "form": "Cápsulas",
+      "strengths": [
+        "125 mg",
+        "250 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Polvo para solución oral",
+      "strengths": [
+        "1 g",
+        "5 g"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida (alergia grave) a la Vancomicina o a cualquier componente de la formulación."
+    ],
+    "relative": [
+      "Insuficiencia renal grave (requiere ajuste extremo de dosis y monitoreo).",
+      "Pérdida auditiva neurosensorial preexistente (riesgo de empeoramiento).",
+      "Embarazo (solo si el beneficio justifica claramente el riesgo).",
+      "Administración concomitante con otros medicamentos nefrotóxicos (aminoglucósidos, anfotericina B, ciclosporina)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Reacción de 'Síndrome del Hombre Rojo' (eritema, prurito, enrojecimiento de cara, cuello y parte superior del torso) - relacionado con la velocidad de infusión."
+    ],
+    "common": [
+      "Nefrotoxicidad (daño renal, elevación de creatinina).",
+      "Flebitis (irritación de la vena) en el sitio de infusión.",
+      "Náuseas.",
+      "Escalofríos.",
+      "Fiebre."
+    ],
+    "uncommon": [
+      "Ototoxicidad (daño auditivo, tinnitus, vértigo).",
+      "Eosinofilia.",
+      "Rash cutáneo (erupción en la piel).",
+      "Neutropenia (disminución de glóbulos blancos).",
+      "Trombocitopenia (disminución de plaquetas)."
+    ],
+    "rare": [
+      "Reacción anafiláctica (alergia grave).",
+      "Síndrome de Stevens-Johnson / Necrólisis epidérmica tóxica (reacciones cutáneas graves).",
+      "Vasculitis.",
+      "Fármaco-inducida por Vancomicina (DRESS).",
+      "Paro cardíaco con infusión rápida."
+    ],
+    "blackBoxWarning": "Nefrotoxicidad: La Vancomicina puede causar daño renal, el riesgo aumenta con dosis altas, uso prolongado, en pacientes con insuficiencia renal preexistente o con el uso concurrente de otros medicamentos tóxicos para el riñón. Ototoxicidad: Puede causar daño permanente en el oído, resultando en pérdida auditiva o tinnitus. Este riesgo es mayor con dosis altas, uso prolongado, en pacientes con insuficiencia renal o que reciben otros medicamentos ototóxicos. La monitorización de la función renal y auditiva es esencial."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Aminoglucósidos (Gentamicina, Amikacina)",
+        "effect": "Aumento SINÉRGICO del riesgo de nefrotoxicidad y ototoxicidad. La combinación debe evitarse a menos que sea absolutamente necesaria, con monitoreo muy estricto.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Anfotericina B",
+        "effect": "Aumento del riesgo de daño renal. Se requiere monitoreo estrecho de la función renal.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Fármacos anestésicos (Succinilcolina, Atracurio)",
+        "effect": "La Vancomicina puede potenciar el efecto bloqueante neuromuscular de estos fármacos, aumentando el riesgo de parálisis muscular prolongada después de la anestesia.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Fármacos diuréticos de asa (Furosemida)",
+        "effect": "Pueden aumentar el riesgo de ototoxicidad. Evitar el uso conjunto o monitorear la audición.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "No hay interacciones clínicamente significativas con alimentos. Para la formulación oral, se puede tomar con o sin alimentos, aunque tomarla con comida puede ayudar a reducir las náuseas.",
+    "withSupplements": "No se conocen interacciones significativas con suplementos vitamínicos o herbales comunes. Sin embargo, se debe evitar el uso de suplementos que puedan afectar la función renal (como altas dosis de vitamina C o algunos productos herbales nefrotóxicos) sin consultar al médico."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "C (FDA) / D (si se usa por vía IV a largo plazo o en dosis altas)",
+      "recommendation": "La Vancomicina cruza la placenta. Su uso durante el embarazo solo debe considerarse cuando no hay alternativas más seguras y el beneficio para la madre supera claramente el riesgo potencial para el feto. Se ha asociado con ototoxicidad fetal en algunos casos. Requiere supervisión médica estricta.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La Vancomicina se excreta en la leche materna en cantidades muy bajas. Dado que su absorción oral es mínima, es poco probable que cause efectos adversos en el lactante. Generalmente se considera compatible con la lactancia, pero se recomienda precaución y monitoreo del bebé por posibles efectos en la flora intestinal.",
+    "pediatric": "Se puede usar en niños de todas las edades para infecciones graves. La dosificación debe ser precisa según el peso corporal y la función renal. El monitoreo de niveles séricos es igual de crucial que en adultos. La presentación oral se usa en niños para colitis por C. difficile.",
+    "geriatric": "Los pacientes mayores son más susceptibles a los efectos adversos renales y auditivos debido a la disminución fisiológica de la función renal y la posible presencia de otras enfermedades. Es imperativo usar la dosis más baja efectiva, ajustar según TFG y monitorear niveles séricos y función renal con frecuencia."
+  },
+  "administration": {
+    "howToTake": "INTRAVENOSA: Se administra siempre por un profesional de la salud en un hospital. El polvo se reconstituye y luego se diluye en solución salina o glucosada. La infusión debe ser LENTA, generalmente durante al menos 60 minutos (para una dosis de 1 g) para minimizar el riesgo del 'Síndrome del Hombre Rojo'. En algunos casos, para dosis altas, la infusión puede durar 90-120 minutos. ORAL: Para colitis por C. difficile. Las cápsulas o la solución oral reconstituida se togan por vía oral, generalmente cada 6 horas. Es crucial completar todo el tratamiento prescrito, incluso si se siente mejor antes.",
+    "storage": "Polvo para inyección: Conservar a temperatura ambiente (15-30°C), protegido de la luz. Las soluciones reconstituidas y diluidas son estables por un tiempo limitado (consultar prospecto) y deben usarse inmediatamente o refrigerarse según indicaciones. Formas orales: Conservar a temperatura ambiente, en un lugar seco.",
+    "specialInstructions": "NUNCA se inyecta la Vancomicina en forma rápida (bolo). La infusión lenta es clave para la seguridad. Informar inmediatamente al médico o enfermera si durante la infusión se siente picazón, enrojecimiento, opresión en el pecho o dificultad para respirar. Para la forma oral, no usar para tratar infecciones fuera del intestino, ya que no se absorbe."
+  },
+  "monitoring": {
+    "labTests": [
+      "Niveles séricos de Vancomicina (valle y pico, especialmente el valle).",
+      "Creatinina sérica y Tasa de Filtración Glomerular (TFG) estimada.",
+      "Urianálisis.",
+      "Recuento completo de células sanguíneas (CSC).",
+      "Cultivos y pruebas de sensibilidad bacteriana.",
+      "Pruebas de función auditiva (audiometría) en tratamientos prolongados (>1 semana) o en pacientes de riesgo."
+    ],
+    "frequency": "Niveles valle: Antes de la 4ta dosis y luego al menos 1-2 veces por semana, o después de cualquier cambio de dosis. Función renal (creatinina): Diaria o cada 2-3 días durante el tratamiento. CSC: Semanalmente. Audiometría: Según evaluación de riesgo y duración del tratamiento.",
+    "signsToWatch": [
+      "Disminución en la producción de orina.",
+      "Hinchazón en pies o tobillos (edema).",
+      "Zumbido en los oídos (tinnitus) o sensación de oídos tapados.",
+      "Pérdida de audición.",
+      "Fiebre o escalofríos nuevos.",
+      "Erupción cutánea o picazón intensa.",
+      "Dolor o enrojecimiento en el sitio de la infusión IV."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Empeoramiento de la nefrotoxicidad (insuficiencia renal aguda).",
+      "Empeoramiento de la ototoxicidad (pérdida auditiva, vértigo).",
+      "Síndrome del Hombre Rojo' exagerado.",
+      "Posible paro cardíaco con infusión extremadamente rápida."
+    ],
+    "treatment": "No existe un antídoto específico. El tratamiento es de soporte y sintomático. Suspender inmediatamente la infusión. Mantener la hidratación y la diuresis para proteger el riñón. En casos de insuficiencia renal grave, puede ser necesario diálisis. La hemodiálisis de alto flujo puede ayudar a eliminar parte de la Vancomicina del torrente sanguíneo.",
+    "antidote": "No existe."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (receta archivada en muchos hospitales). Es un antibiótico de uso restringido en hospitales.",
+    "scheduleMexico": "Medicamento de la Fracción IV (Sustancias que requieren receta médica y cuya venta se hace reteniendo la receta). Considerado un antibiótico de 'último recurso' con controles estrictos.",
+    "fdaApprovalYear": "1958 (aproximado)."
+  },
+  "brandsMexico": [
+    "Vancomicina",
+    "Vancocin",
+    "Vanco",
+    "Vancoled",
+    "Vancomix",
+    "Vancoquina",
+    "Vancos",
+    "Vancofarm",
+    "Vancoplus",
+    "Vancobiotic"
+  ],
+  "clinicalPearls": [
+    "El nivel valle (trough) es el parámetro más importante para guiar la dosificación y prevenir toxicidad. Objetivo típico: 10-20 mg/L para infecciones graves.",
+    "La 'Síndrome del Hombre Rojo' NO es una verdadera alergia. Se puede prevenir/manejar con infusión más lenta, premedicación con antihistamínicos (difenhidramina) o hidrocortisona.",
+    "En pacientes obesos, usar el peso corporal ajustado para calcular la dosis, no el peso real total, para evitar sobredosificación.",
+    "La combinación con piperacilina/tazobactam ('pip-tazo') aumenta significativamente el riesgo de nefrotoxicidad aguda. Monitorear creatinina diariamente si se usan juntos.",
+    "Para la colitis por C. difficile, la Vancomicina oral es superior al metronidazol en casos graves o recurrentes."
+  ],
+  "patientCounseling": "La Vancomicina es un medicamento muy fuerte que se usa solo para infecciones graves en el hospital. Es fundamental que reciba la infusión lentamente, tal como lo indica el personal médico. Avise de inmediato si siente picazón, enrojecimiento en la cara o el cuello, mareo, zumbido en los oídos o dificultad para respirar durante la infusión. Si recibe el tratamiento en casa por vía oral (para infección intestinal), tómelo exactamente a las horas indicadas y termine todo el frasco o las cápsulas, aunque se sienta mejor. Manténgase bien hidratado bebiendo agua. Asista a todas las citas de control para que le tomen muestras de sangre y verifiquen que el medicamento esté en el nivel correcto y que sus riñones estén funcionando bien. Informe a todos sus médicos que está tomando o ha tomado Vancomicina.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre alta",
+        "slug": "fiebre-alta"
+      },
+      {
+        "name": "Escalofríos y sudoración",
+        "slug": "escalofrios-sudoracion"
+      },
+      {
+        "name": "Dolor e inflamación en heridas o catéteres",
+        "slug": "dolor-inflamacion-herida"
+      },
+      {
+        "name": "Diarrea acuosa y cólicos intensos (colitis)",
+        "slug": "diarrea-acuosa-colitis"
+      },
+      {
+        "name": "Dificultad para respirar (en endocarditis)",
+        "slug": "disnea"
+      },
+      {
+        "name": "Dolor de cabeza y rigidez de cuello (en meningitis)",
+        "slug": "cefalea-rigidez-cuello"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Infección por Staphylococcus aureus resistente a meticilina (SARM)",
+        "slug": "infeccion-sarm"
+      },
+      {
+        "name": "Endocarditis infecciosa",
+        "slug": "endocarditis-infecciosa"
+      },
+      {
+        "name": "Meningitis bacteriana",
+        "slug": "meningitis-bacteriana"
+      },
+      {
+        "name": "Colitis pseudomembranosa por Clostridioides difficile",
+        "slug": "colitis-pseudomembranosa"
+      },
+      {
+        "name": "Bacteriemia (infección en la sangre)",
+        "slug": "bacteriemia"
+      },
+      {
+        "name": "Osteomielitis (infección en el hueso)",
+        "slug": "osteomielitis"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Insuficiencia renal aguda",
+        "slug": "insuficiencia-renal-aguda"
+      },
+      {
+        "name": "Hipoacusia neurosensorial",
+        "slug": "hipoacusia-neurosensorial"
+      },
+      {
+        "name": "Neutropenia",
+        "slug": "neutropenia"
+      },
+      {
+        "name": "Síndrome de Stevens-Johnson",
+        "slug": "sindrome-stevens-johnson"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Nitrógeno ureico en sangre (BUN)",
+        "slug": "nitrogeno-ureico-sangre",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Recuento de neutrófilos",
+        "slug": "recuento-neutrofilos",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Recuento de plaquetas",
+        "slug": "recuento-plaquetas",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Nivel de Vancomicina en suero (trough)",
+        "slug": "nivel-vancomicina-suero",
+        "effect": "Se monitorea para mantener en rango"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Hemograma o biometría hemática completa",
+        "slug": "biometria-hematica",
+        "reason": "Monitorear neutropenia y trombocitopenia"
+      },
+      {
+        "name": "Química sanguínea (creatinina, BUN)",
+        "slug": "quimica-sanguinea",
+        "reason": "Evaluar función renal y riesgo de nefrotoxicidad"
+      },
+      {
+        "name": "Niveles séricos de Vancomicina (valle y pico)",
+        "slug": "niveles-vancomicina",
+        "reason": "Ajustar dosis para eficacia y seguridad"
+      },
+      {
+        "name": "Audiometría",
+        "slug": "audiometria",
+        "reason": "Detectar ototoxicidad temprana en tratamientos prolongados"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de creatinina (Cockcroft-Gault)",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de TFG (MDRD)",
+        "slug": "calculadora-egfr"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La Vancomicina es una penicilina?",
+      "a": "No. La Vancomicina pertenece a una clase de antibióticos completamente diferente llamada glucopéptidos. Se usa precisamente cuando las bacterias son resistentes a las penicilinas y cefalosporinas."
+    },
+    {
+      "q": "¿Por qué me ponen la Vancomicina tan lento en el suero?",
+      "a": "Para prevenir un efecto secundario común llamado 'Síndrome del Hombre Rojo', que causa picazón, enrojecimiento y malestar. La infusión lenta (generalmente más de 60 minutos) permite que el cuerpo la tolere mejor."
+    },
+    {
+      "q": "Me dio mucha comezón y me puse rojo cuando me la pusieron, ¿soy alérgico?",
+      "a": "Probablemente no es una alergia verdadera, sino el 'Síndrome del Hombre Rojo'. Es una reacción común relacionada con la velocidad de infusión. Informe a la enfermera para que la próxima dosis la pongan más lento y le puedan dar un medicamento antes para prevenirla."
+    },
+    {
+      "q": "¿Puedo tomar Vancomicina en casa?",
+      "a": "La forma intravenosa NO, requiere supervisión médica hospitalaria. La forma oral (cápsulas) SÍ se puede tomar en casa, pero solo para tratar una infección intestinal específica (colitis por C. difficile), bajo prescripción y seguimiento médico."
+    },
+    {
+      "q": "¿La Vancomicina daña los riñones?",
+      "a": "Sí, puede causar daño renal (nefrotoxicidad), especialmente con dosis altas, tratamientos largos, o si ya tiene problemas renales. Por eso le toman muestras de sangre frecuentemente para monitorear su función renal."
+    },
+    {
+      "q": "¿Puedo quedar sordo por este medicamento?",
+      "a": "Es un efecto secundario posible pero menos común (ototoxicidad), sobre todo con dosis altas o uso prolongado. Se manifiesta como zumbido en los oídos (tinnitus) o pérdida de audición. Avise de inmediato si nota estos síntomas."
+    },
+    {
+      "q": "¿Cuánto tiempo dura el tratamiento con Vancomicina?",
+      "a": "Depende de la infección. Puede ser desde 7-10 días para algunas infecciones, hasta 4-6 semanas o más para infecciones graves como endocarditis u osteomielitis. Es crucial completar TODO el tratamiento."
+    },
+    {
+      "q": "¿La Vancomicina sirve para la gripe o el COVID-19?",
+      "a": "NO. La Vancomicina solo mata bacterias, no virus. No tiene ningún efecto contra la gripe, COVID-19, resfriados o cualquier enfermedad viral."
+    },
+    {
+      "q": "¿Puedo beber alcohol mientras me dan Vancomicina?",
+      "a": "No se recomienda. El alcohol puede deshidratarlo y potencialmente afectar la función renal, aumentando el riesgo de toxicidad del medicamento. Además, puede interferir con la recuperación de su infección."
+    },
+    {
+      "q": "¿Qué pasa si olvido una dosis de la Vancomicina oral?",
+      "a": "Tómela tan pronto como lo recuerde, pero si ya es casi la hora de la siguiente dosis, sáltese la olvidada y continúe con su horario normal. NO duplique la dosis para compensar."
+    },
+    {
+      "q": "¿La Vancomicina afecta los métodos anticonceptivos?",
+      "a": "No hay evidencia de que la Vancomicina reduzca la efectividad de los anticonceptivos hormonales (pastillas, parches, anillos). Sin embargo, si tiene vómitos o diarrea severos por la infección, la absorción de las pastillas podría verse afectada."
+    },
+    {
+      "q": "¿Por qué me toman tanta sangre cuando estoy con Vancomicina?",
+      "a": "Para medir los 'niveles de Vancomicina' en su sangre. Es necesario asegurarse de que la dosis sea suficiente para matar la bacteria (nivel no muy bajo) pero no tan alta que cause daño a los riñones u oídos (nivel no muy alto)."
+    },
+    {
+      "q": "¿Qué es el 'nivel valle' (trough) de Vancomicina?",
+      "a": "Es la concentración más baja del medicamento en su sangre, justo antes de que le pongan la siguiente dosis. Es el número más importante que el médico usa para ajustar su dosis y evitar toxicidad."
+    },
+    {
+      "q": "¿La Vancomicina puede causar diarrea?",
+      "a": "La forma intravenosa rara vez causa diarrea. La forma oral SÍ puede causar náuseas o dolor abdominal, pero su propósito es tratar una diarrea grave específica (la causada por C. difficile)."
+    },
+    {
+      "q": "¿Es normal sentir frío o escalofríos con la infusión?",
+      "a": "Sí, los escalofríos son un efecto secundario relativamente común. Informe a la enfermera, ya que a veces pueden confundirse con fiebre por la infección. Ellos pueden ayudarle a sentirse más cómodo."
+    },
+    {
+      "q": "Tuve infección por C. difficile y me dieron Vancomicina oral, ¿puede volver?",
+      "a": "Sí, las infecciones por C. difficile tienen un riesgo de recurrencia (vuelven) de aproximadamente un 20-30%. Si la diarrea regresa después de terminar el tratamiento, contacte a su médico inmediatamente."
+    },
+    {
+      "q": "¿Por qué a veces combinan la Vancomicina con otro antibiótico?",
+      "a": "Para ampliar el espectro de acción (cubrir más tipos de bacterias) o para lograr un efecto sinérgico (mayor potencia) contra una bacteria específica. También es común en infecciones graves donde no se conoce la bacteria causante al inicio."
+    },
+    {
+      "q": "¿La Vancomicina es cara?",
+      "a": "Sí, es un medicamento costoso, especialmente las presentaciones intravenosas. En México, su uso en hospitales del sector público está sujeto a disponibilidad y protocolos estrictos debido a su costo y para evitar el desarrollo de resistencias."
+    },
+    {
+      "q": "¿Qué hago si el sitio donde me ponen el suero se pone rojo, caliente y duele?",
+      "a": "Eso se llama flebitis. Informe de inmediato a la enfermera. Es un efecto secundario común. Probablemente necesitarán cambiar el sitio de la vía intravenosa."
+    },
+    {
+      "q": "Mi médico dijo que tengo un 'SARM', ¿qué es y por qué usan Vancomicina?",
+      "a": "SARM significa Staphylococcus Aureus Resistente a la Meticilina. Es una bacteria 'superresistente' a la mayoría de los antibióticos comunes. La Vancomicina es uno de los pocos antibióticos que aún es efectivo contra ella, por eso se usa como tratamiento de primera línea en infecciones graves por SARM."
+    }
+  ]
+}

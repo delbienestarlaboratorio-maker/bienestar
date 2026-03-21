@@ -1,0 +1,468 @@
+{
+  "name": "Buprenorfina",
+  "summary": "La buprenorfina es un medicamento analgésico opioide de potencia alta, clasificado como un agonista parcial de los receptores mu. Sirve principalmente para el tratamiento del dolor moderado a severo, especialmente en contextos perioperatorios y crónicos, y también es una herramienta fundamental en el tratamiento de la dependencia a opioides. Su importancia clínica radica en su perfil de seguridad único: tiene un 'techo' en sus efectos depresores respiratorios, lo que significa que después de cierta dosis, el riesgo de paro respiratorio grave es menor comparado con otros opioides como la morfina o el fentanilo. Esto la convierte en una opción valiosa para manejar dolor intenso con un margen de seguridad más amplio. Además, en su formulación combinada con naloxona, es el pilar farmacológico para el tratamiento de mantenimiento de la dependencia a opioides, ayudando a reducir el craving (deseo intenso) y el síndrome de abstinencia, permitiendo a las personas estabilizarse y reintegrarse a la vida social y laboral. Es un medicamento controlado que requiere receta médica especial y supervisión estrecha.",
+  "pharmacology": {
+    "mechanismOfAction": "La buprenorfina actúa principalmente como un agonista parcial de los receptores opioides mu en el sistema nervioso central. Esto significa que se une fuertemente a estos receptores, activándolos, pero con una actividad intrínseca menor que un agonista puro como la morfina. Este mecanismo produce alivio del dolor (analgesia) y otros efectos opioides, pero con una respuesta máxima limitada ('techo'), particularmente para la depresión respiratoria. También es un antagonista de los receptores kappa, lo que puede contribuir a sus efectos analgésicos y a un perfil de efectos disfóricos menor. Su unión a los receptores es muy fuerte y lenta para disociarse, lo que le confiere una larga duración de acción y hace que desplace a otros opioides de los receptores. Esta alta afinidad y disociación lenta son la base de su uso en el tratamiento de la dependencia, ya que bloquea los efectos de otros opioides y reduce los síntomas de abstinencia.",
+    "pharmacologicClass": "Agonista parcial de receptores opioides mu; Antagonista de receptores opioides kappa.",
+    "therapeuticClass": "Analgésico opioide; Agente para el tratamiento de la dependencia a opioides.",
+    "absorption": "La absorción por vía sublingual es variable pero buena, con una biodisponibilidad de aproximadamente 30-55% debido al metabolismo de primer paso hepático cuando se traga. La absorción transdérmica (parche) es lenta y constante a través de la piel. La administración parenteral (intramuscular/intravenosa) tiene una biodisponibilidad del 100%.",
+    "distribution": "Se distribuye ampliamente por los tejidos. Su volumen de distribución es grande (aproximadamente 2-3 L/kg). Se une extensamente (aproximadamente 96%) a las proteínas plasmáticas, principalmente a la alfa y beta globulina.",
+    "metabolism": "Se metaboliza principalmente en el hígado mediante la enzima CYP3A4 del citocromo P450, transformándose en norbuprenorfina (activa) y otros metabolitos. La norbuprenorfina se conjuga posteriormente con glucurónido. El metabolismo por CYP3A4 la hace susceptible a interacciones medicamentosas importantes.",
+    "elimination": "Se elimina principalmente por vía biliar y fecal (70%), y en menor medida por orina (30%). La vida media de eliminación es larga, de aproximadamente 20 a 73 horas (dependiendo de la formulación y vía), lo que permite dosificaciones menos frecuentes.",
+    "onsetOfAction": "Vía sublingual: el inicio de la analgesia ocurre en 30-60 minutos. Vía parenteral (IV/IM): 15-30 minutos. Parche transdérmico: el inicio es lento, puede tomar 12-24 horas para el inicio del efecto analgésico.",
+    "durationOfAction": "Vía sublingual: 6-12 horas para analgesia. Vía parenteral: 6-8 horas. Parche transdérmico: el efecto es continuo durante 7 días (parches de una semana). Para el tratamiento de la dependencia, el efecto de bloqueo y supresión de abstinencia puede durar 24-72 horas debido a su lenta disociación del receptor."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento del dolor moderado a severo, agudo y crónico (perioperatorio, oncológico, neuropático).",
+      "Tratamiento de mantenimiento de la dependencia a opioides (en combinación con naloxona, sublingual)."
+    ],
+    "offLabel": [
+      "Tratamiento del síndrome de piernas inquietas severo refractario.",
+      "Manejo del prurito (comezón) refractario, especialmente en colestasis.",
+      "Tratamiento coadyuvante del dolor neuropático."
+    ]
+  },
+  "dosage": {
+    "adults": "Dolor: Sublingual: 0.2-0.8 mg cada 6-8 horas según necesidad. IM/IV: 0.3 mg cada 6-8 horas. Parche transdérmico: Iniciar con 5, 10 o 20 mcg/hora, cambiando cada 7 días. Dependencia a opioides (Suboxone® y similares): Dosis inicial bajo supervisión médica estricta, usualmente 2-8 mg/día sublingual, titulando hasta dosis de mantenimiento de 4-24 mg/día. La dosis debe individualizarse.",
+    "pediatric": "No se recomienda de rutina en niños por falta de datos de seguridad. Para dolor severo en adolescentes (>16 años) bajo estricta supervisión especializada, se pueden usar dosis similares a adultos ajustadas por peso (consultar con especialista en dolor pediátrico).",
+    "elderly": "Iniciar con dosis bajas (50% de la dosis inicial adulta) debido a la disminución del aclaramiento, mayor sensibilidad a opioides y mayor riesgo de efectos adversos. Titular lentamente.",
+    "renalImpairment": "No se requiere ajuste de dosis significativo en insuficiencia renal leve a moderada (TFG >30 mL/min). En insuficiencia renal severa (TFG <30 mL/min) o diálisis, usar con precaución, iniciando con dosis bajas y monitoreando estrechamente, ya que puede acumularse el metabolito norbuprenorfina.",
+    "hepaticImpairment": "Ajuste obligatorio. En insuficiencia hepática leve, reducir dosis inicial. En insuficiencia hepática moderada a severa (Child-Pugh B o C), está contraindicado o debe usarse con extrema precaución y dosis muy reducidas, debido al metabolismo hepático y riesgo de encefalopatía.",
+    "maxDose": "No hay una dosis máxima absoluta universal debido al efecto techo, pero en práctica clínica para analgesia, rara vez se superan los 2.4 mg/día por vía sublingual o 1.2 mg/día por vía parenteral. En dependencia, las dosis de mantenimiento pueden llegar a 32 mg/día sublingual."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta sublingual",
+      "strengths": [
+        "0.2 mg",
+        "0.4 mg",
+        "2 mg",
+        "8 mg"
+      ],
+      "route": "Sublingual"
+    },
+    {
+      "form": "Tableta sublingual combinada con Naloxona",
+      "strengths": [
+        "2 mg/0.5 mg",
+        "8 mg/2 mg"
+      ],
+      "route": "Sublingual"
+    },
+    {
+      "form": "Solución inyectable",
+      "strengths": [
+        "0.3 mg/mL"
+      ],
+      "route": "Intramuscular, Intravenosa lenta"
+    },
+    {
+      "form": "Parche transdérmico",
+      "strengths": [
+        "5 mcg/h",
+        "10 mcg/h",
+        "20 mcg/h"
+      ],
+      "route": "Transdérmica"
+    },
+    {
+      "form": "Película sublingual",
+      "strengths": [
+        "2 mg/0.5 mg",
+        "4 mg/1 mg",
+        "8 mg/2 mg",
+        "12 mg/3 mg"
+      ],
+      "route": "Sublingual"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la buprenorfina.",
+      "Depresión respiratoria severa o aguda.",
+      "Intoxicación aguda por alcohol, hipnóticos, narcóticos u otros depresores del SNC.",
+      "Ileo paralítico (intestino paralizado).",
+      "Insuficiencia hepática severa (Child-Pugh C).",
+      "Uso concomitante con inhibidores potentes de CYP3A4 en ciertos contextos (ej. ketoconazol, itraconazol)."
+    ],
+    "relative": [
+      "Alteraciones de la conciencia o coma.",
+      "Trauma craneoencefálico o hipertensión intracraneal.",
+      "Enfermedad pulmonar obstructiva crónica (EPOC) severa, cor pulmonale, hipoxia o hipercapnia significativa.",
+      "Insuficiencia hepática moderada (Child-Pugh B).",
+      "Prostatitis o obstrucción uretral (riesgo de retención urinaria).",
+      "Trastornos convulsivos.",
+      "Pacientes con dependencia a opioides no inductados (puede precipitar abstinencia).",
+      "Edad pediátrica."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Náuseas",
+      "Vómito",
+      "Estreñimiento",
+      "Somnolencia",
+      "Mareo",
+      "Dolor de cabeza"
+    ],
+    "common": [
+      "Sudoración",
+      "Sequedad de boca",
+      "Prurito (comezón)",
+      "Vértigo",
+      "Hipotensión ortostática",
+      "Insomnio",
+      "Ansiedad"
+    ],
+    "uncommon": [
+      "Alucinaciones",
+      "Confusión",
+      "Depresión respiratoria (usualmente leve)",
+      "Retención urinaria",
+      "Visión borrosa",
+      "Síncope",
+      "Rash cutáneo"
+    ],
+    "rare": [
+      "Convulsiones",
+      "Hepatitis o elevación de transaminasas",
+      "Reacción anafiláctica",
+      "Dependencia y síndrome de abstinencia al suspender",
+      "Alucinaciones auditivas",
+      "Síndrome serotoninérgico (con otros fármacos)"
+    ],
+    "blackBoxWarning": "Advertencia de caja negra FDA: Riesgo de uso indebido, adicción y abuso. La inyección intravenosa de formulaciones sublinguales, especialmente las que contienen naloxona, puede precipitar un síndrome de abstinencia severo. Riesgo de depresión respiratoria grave, especialmente al inicio del tratamiento o al aumentar la dosis. Riesgo de daño hepático (hepatitis, citólisis) reportado, principalmente con las formulaciones para dependencia."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Benzodiacepinas (diazepam, alprazolam, clonazepam)",
+        "effect": "Depresión respiratoria, sedación profunda, coma y muerte. La combinación es extremadamente peligrosa.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Alcohol",
+        "effect": "Potenciación de la depresión del sistema nervioso central y respiratoria. Riesgo de sobredosis y muerte.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores potentes de CYP3A4 (ketoconazol, itraconazol, ritonavir, claritromicina)",
+        "effect": "Aumentan significativamente los niveles de buprenorfina, incrementando el riesgo de toxicidad y depresión respiratoria.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inductores potentes de CYP3A4 (rifampicina, carbamazepina, fenitoína)",
+        "effect": "Disminuyen los niveles de buprenorfina, reduciendo su eficacia y pudiendo precipitar abstinencia en pacientes dependientes.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Otros depresores del SNC (hipnóticos, antipsicóticos, antidepresivos tricíclicos, relajantes musculares)",
+        "effect": "Aditividad en la depresión del SNC y respiratoria.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Agonistas opioides puros (morfina, fentanilo, metadona)",
+        "effect": "La buprenorfina puede antagonizar parcialmente su efecto analgésico o precipitar abstinencia por su alta afinidad al receptor.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "No hay interacciones significativas con alimentos. Sin embargo, se recomienda tomar las tabletas sublinguales con el estómago vacío o después de un alimento ligero para facilitar la absorción. El alcohol está estrictamente contraindicado.",
+    "withSupplements": "Precaución con suplementos que depriman el SNC (ej. kava, valeriana, melatonina en altas dosis). La hierba de San Juan (Hypericum perforatum) es un inductor enzimático y puede disminuir los niveles de buprenorfina."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría C",
+      "recommendation": "Solo debe usarse si el beneficio justifica claramente el riesgo potencial para el feto. Puede causar síndrome de abstinencia neonatal (NAS) si se usa crónicamente cerca del parto. En mujeres embarazadas con dependencia a opioides, el tratamiento con buprenorfina (sola o combinada) es una opción preferida sobre la metadona en muchos protocolos, bajo estricta supervisión especializada.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se excreta en la leche materna en cantidades bajas. Considerada generalmente compatible con la lactancia, especialmente en dosis terapéuticas para el tratamiento de la dependencia materna, ya que los beneficios suelen superar los riesgos. Sin embargo, se debe monitorear al lactante por somnolencia, dificultad para alimentarse o depresión respiratoria.",
+    "pediatric": "No está aprobado para uso rutinario en niños. Su seguridad y eficacia no están establecidas. Solo debe ser considerado por especialistas en dolor pediátrico o adicciones en adolescentes seleccionados.",
+    "geriatric": "Los pacientes mayores son más sensibles a los efectos de los opioides. Mayor riesgo de confusión, mareo, sedación, caídas, estreñimiento severo y retención urinaria. Se debe iniciar con la dosis efectiva más baja posible (generalmente 50% de la dosis adulta) y titular muy lentamente. Monitorear función renal y hepática."
+  },
+  "administration": {
+    "howToTake": "Tabletas sublinguales: Colocar la tableta debajo de la lengua y dejar que se disuelva completamente (5-10 minutos). No masticar, tragar ni partir la tableta. No comer, beber ni fumar hasta que se haya disuelto totalmente. Parche transdérmico: Aplicar sobre la piel limpia, seca, sin vello y sin irritaciones en la parte superior del brazo, pecho, espalda o costado. Presionar firmemente durante 30 segundos. Cambiar cada 7 días, rotando el sitio de aplicación. No cortar el parche. Inyectable: Solo administrado por personal de salud por vía intramuscular profunda o intravenosa lenta.",
+    "storage": "Conservar a temperatura ambiente (15-30°C), en un lugar seco, protegido de la luz y fuera del alcance de niños y otras personas. Las formulaciones sublinguales son especialmente atractivas para el uso indebido.",
+    "specialInstructions": "Nunca aumentar la dosis ni la frecuencia sin consultar al médico. No suspender bruscamente después de uso prolongado (puede causar abstinencia). Para el tratamiento de dependencia, la primera dosis debe administrarse bajo supervisión médica cuando el paciente ya tenga síntomas leves-moderados de abstinencia, para evitar precipitación de abstinencia severa. Informar al médico sobre cualquier otro medicamento que se esté tomando."
+  },
+  "monitoring": {
+    "labTests": [
+      "Pruebas de función hepática (ALT, AST, bilirrubina) al inicio y periódicamente.",
+      "Función renal (creatinina, TFG).",
+      "Niveles de oxígeno en sangre (oximetría de pulso) en pacientes de riesgo."
+    ],
+    "frequency": "Función hepática: Cada 3-6 meses durante tratamiento crónico, o ante síntomas de hepatitis. Monitoreo clínico de dolor y efectos adversos en cada consulta. En tratamiento por dependencia, supervisión frecuente al inicio (semanas) y luego mensual.",
+    "signsToWatch": [
+      "Dificultad para respirar o respiración lenta y superficial.",
+      "Somnolencia extrema o dificultad para despertar.",
+      "Mareo o desmayo al ponerse de pie.",
+      "Confusión, alucinaciones.",
+      "Náuseas/vómito persistentes.",
+      "Dolor abdominal superior, orina oscura, ictericia (piel amarilla) - signos de daño hepático.",
+      "Falta de evacuaciones por más de 3 días.",
+      "Dificultad para orinar."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Depresión respiratoria (principal peligro): respiración lenta, superficial o ausente).",
+      "Somnolencia extrema progresando a estupor o coma.",
+      "Pupilas puntiformes (miosis).",
+      "Hipotensión severa y bradicardia.",
+      "Piel fría y húmeda.",
+      "Músculos flácidos."
+    ],
+    "treatment": "Mantener vía aérea y asistir la ventilación (oxígeno, intubación si es necesario). Administrar el antídoto específico (naloxona) en dosis titradas, pero puede requerir dosis más altas y infusiones continuas debido a la alta afinidad de la buprenorfina. Soporte cardiovascular. Lavado gástrico si ingestión reciente. Hospitalización y monitoreo prolongado (24-48h) por riesgo de recaída por la larga vida media de la buprenorfina.",
+    "antidote": "Naloxona (Narcan®). Es el antídoto específico, pero su efecto puede ser parcial y de corta duración comparado con la acción prolongada de la buprenorfina."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial para psicotrópicos (receta color rojo en México, con varias copias). Está sujeto a estricto control por su potencial de abuso.",
+    "scheduleMexico": "Fracción III (Tres) de la Ley General de Salud. Sustancia sujeta a control especial con potencial de abuso menor que las de la Fracción II (como morfina), pero con riesgo de dependencia física o psicológica.",
+    "fdaApprovalYear": "Aprobación inicial para analgesia: 1981 (inyectable). Para tratamiento de dependencia a opioides (Suboxone®): 2002."
+  },
+  "brandsMexico": [
+    "Subutex®",
+    "Suboxone®",
+    "Bunondol®",
+    "Buprex®",
+    "Temgesic®",
+    "Norspan® (parche)",
+    "Butrans® (parche)",
+    "Buprenorfina Normon®",
+    "Buprenorfina Aranda®"
+  ],
+  "clinicalPearls": [
+    "La buprenorfina tiene un 'techo' para la depresión respiratoria, lo que la hace más segura en sobredosis comparada con agonistas puros.",
+    "Su alta afinidad por el receptor mu puede 'desplazar' a otros opioides y precipitar abstinencia si no se induce correctamente.",
+    "La combinación con naloxona (Suboxone®) está diseñada para disuadir el uso intravenoso: la naloxona se absorbe poco por vía sublingual, pero si se inyecta, bloquea los efectos de la buprenorfina y causa abstinencia.",
+    "El parche transdérmico (Norspan®/Butrans®) es excelente para dolor crónico estable, evitando picos plasmáticos y mejorando la adherencia.",
+    "En el tratamiento de la dependencia, el objetivo es la dosis que suprime el craving y la abstinencia por 24h, no necesariamente la dosis más alta."
+  ],
+  "patientCounseling": "Este es un medicamento fuerte para el dolor o para ayudarle a dejar el consumo de otras drogas opioides. Tómelo EXACTAMENTE como se lo indicó su médico. No aumente la dosis ni lo tome con más frecuencia. Las tabletas van DEBAJO DE LA LENGUA hasta que se disuelvan; no las trague. Evite manejar o operar maquinaria hasta que sepa cómo le afecta, porque puede causar mucho sueño y mareo. NUNCA lo combine con alcohol, pastillas para dormir o ansiolíticos (como el clonazepam), esta mezcla puede causar que deje de respirar y morir. Si olvida una dosis, tómela en cuanto se acuerde, pero si es casi hora de la siguiente, omita la olvidada. No suspenda el tratamiento de golpe; su médico le dará un plan para reducir la dosis poco a poco. Informe a su médico si tiene estreñimiento severo, dificultad para orinar, mucho sueño, o si la piel se le pone amarilla. Guárdelo en un lugar seguro, lejos del alcance de otras personas.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor moderado a severo",
+        "slug": "dolor-moderado-severo"
+      },
+      {
+        "name": "Dolor crónico",
+        "slug": "dolor-cronico"
+      },
+      {
+        "name": "Dolor postoperatorio",
+        "slug": "dolor-postoperatorio"
+      },
+      {
+        "name": "Craving (deseo intenso por opioides)",
+        "slug": "craving-opioides"
+      },
+      {
+        "name": "Síndrome de abstinencia a opioides",
+        "slug": "sindrome-abstinencia-opioides"
+      },
+      {
+        "name": "Prurito (comezón) refractario",
+        "slug": "prurito-refractario"
+      },
+      {
+        "name": "Síndrome de piernas inquietas",
+        "slug": "sindrome-piernas-inquietas"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Dependencia a opioides (Trastorno por uso de opioides)",
+        "slug": "dependencia-opioides"
+      },
+      {
+        "name": "Dolor oncológico",
+        "slug": "dolor-oncologico"
+      },
+      {
+        "name": "Dolor neuropático",
+        "slug": "dolor-neuropatico"
+      },
+      {
+        "name": "Colestasis crónica",
+        "slug": "colestasis-cronica"
+      },
+      {
+        "name": "Artritis reumatoide severa",
+        "slug": "artritis-reumatoide-severa"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Depresión respiratoria",
+        "slug": "depresion-respiratoria"
+      },
+      {
+        "name": "Hepatotoxicidad",
+        "slug": "hepatotoxicidad-farmacos"
+      },
+      {
+        "name": "Síndrome serotoninérgico",
+        "slug": "sindrome-serotoninergico"
+      },
+      {
+        "name": "Ileo paralítico",
+        "slug": "ileo-paralitico"
+      },
+      {
+        "name": "Síndrome de abstinencia neonatal",
+        "slug": "sindrome-abstinencia-neonatal"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Alanina aminotransferasa (ALT)",
+        "slug": "alt",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Aspartato aminotransferasa (AST)",
+        "slug": "ast",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Bilirrubina total",
+        "slug": "bilirrubina-total",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Frecuencia respiratoria",
+        "slug": "frecuencia-respiratoria",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Presión arterial",
+        "slug": "presion-arterial",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede disminuir"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Pruebas de función hepática (PFH)",
+        "slug": "pruebas-funcion-hepatica",
+        "reason": "Monitoreo de hepatotoxicidad"
+      },
+      {
+        "name": "Aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina",
+        "reason": "Ajuste de dosis en insuficiencia renal"
+      },
+      {
+        "name": "Oximetría de pulso",
+        "slug": "oximetria-pulso",
+        "reason": "Monitoreo de depresión respiratoria en pacientes de riesgo"
+      },
+      {
+        "name": "Escala de dolor",
+        "slug": "escala-dolor",
+        "reason": "Evaluación de la eficacia analgésica"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de edad vascular",
+        "slug": "calculadora-edad-vascular"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La buprenorfina es lo mismo que la metadona?",
+      "a": "No, son medicamentos diferentes. Ambos se usan para tratar la dependencia a opioides y el dolor, pero la buprenorfina es un agonista parcial (con techo de efecto) y la metadona es un agonista puro. La buprenorfina suele considerarse más segura en términos de riesgo de sobredosis."
+    },
+    {
+      "q": "¿Puedo tomar buprenorfina si tomo clonazepam para la ansiedad?",
+      "a": "NO. Esta combinación es EXTREMADAMENTE PELIGROSA. Puede causar depresión respiratoria severa, coma y muerte. Informe a su médico que toma clonazepam para que evalúe alternativas seguras."
+    },
+    {
+      "q": "¿La buprenorfina me va a 'drogar' o poner 'high'?",
+      "a": "En pacientes que no tienen tolerancia a opioides, puede producir euforia o sedación. En pacientes con dolor crónico o en tratamiento por dependencia, en la dosis correcta, el objetivo es aliviar el dolor o el craving SIN producir esa sensación de 'high', permitiéndole funcionar con normalidad."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto la tableta debajo de la lengua?",
+      "a": "El alivio del dolor suele comenzar a los 30-60 minutos de que la tableta se disuelve completamente. Para el tratamiento de la dependencia, la supresión de los síntomas de abstinencia puede notarse en 30-90 minutos."
+    },
+    {
+      "q": "¿Puedo partir la tableta sublingual si mi médico me indica media dosis?",
+      "a": "Sí, muchas tabletas tienen una ranura para partirlas. Sin embargo, algunas formulaciones (como las películas) no deben cortarse. Siempre siga las instrucciones específicas de su médico y del empaque."
+    },
+    {
+      "q": "¿Qué hago si se me olvida una dosis?",
+      "a": "Tómela en cuanto se acuerde. Si ya es casi la hora de la siguiente dosis, omita la que olvidó y continúe con su horario normal. NO tome una dosis doble para compensar."
+    },
+    {
+      "q": "¿La buprenorfina causa estreñimiento?",
+      "a": "Sí, el estreñimiento es un efecto secundario MUY común. Es importante aumentar la ingesta de fibra (frutas, verduras), tomar suficiente agua y hacer ejercicio. Su médico puede recetarle un laxante si es necesario. No lo ignore."
+    },
+    {
+      "q": "¿Puedo beber alcohol mientras tomo buprenorfina?",
+      "a": "ABSOLUTAMENTE NO. El alcohol potencia los efectos depresores de la buprenorfina en el cerebro y la respiración, aumentando enormemente el riesgo de sobredosis, pérdida del conocimiento y muerte."
+    },
+    {
+      "q": "¿Es adictiva la buprenorfina?",
+      "a": "Sí, tiene potencial de abuso y puede causar dependencia física y psicológica, especialmente si no se usa como está indicado. Por eso es un medicamento controlado. Sin embargo, en el tratamiento supervisado de la dependencia, su riesgo es menor que el de consumir opioides ilegales."
+    },
+    {
+      "q": "¿Cuánto tiempo puedo tomar buprenorfina para el dolor?",
+      "a": "El tiempo depende de la causa del dolor. Para dolor postoperatorio agudo, unos días o semanas. Para dolor crónico (como por cáncer), puede ser por meses o años, bajo supervisión médica constante y reevaluando periódicamente la necesidad."
+    },
+    {
+      "q": "¿Qué es el 'síndrome de abstinencia neonatal' que mencionan?",
+      "a": "Si una mujer toma buprenorfina de forma crónica durante el embarazo, el bebé puede nacer dependiente y presentar síntomas de abstinencia después del parto (llanto agudo, temblores, problemas para alimentarse). Esto se maneja en el hospital y NO es razón para suspender el tratamiento abruptamente durante el embarazo sin supervisión médica."
+    },
+    {
+      "q": "¿El parche de buprenorfina se puede mojar al bañarme?",
+      "a": "Sí, puede ducharse, bañarse o nadar con el parche puesto. Asegúrese de secar la zona suavemente con la toalla, sin frotar. Evite fuentes de calor directo (como saunas o almohadillas eléctricas) sobre el parche."
+    },
+    {
+      "q": "¿La buprenorfina interactúa con los antidepresivos?",
+      "a": "Puede interactuar. Con los ISRS/SNRI (como sertralina, venlafaxina) el riesgo es bajo, pero se debe monitorear. La combinación con antidepresivos tricíclicos (como amitriptilina) o con IMAOs aumenta el riesgo de efectos depresores del SNC y del síndrome serotoninérgico. Siempre informe a su médico todos sus medicamentos."
+    },
+    {
+      "q": "¿Por qué a veces la buprenorfina viene combinada con naloxona (Suboxone®)?",
+      "a": "La naloxona es un antagonista opioide. Por vía sublingual, casi no se absorbe y no interfiere con la buprenorfina. Pero si alguien trata de inyectarse la tableta disuelta, la naloxona sí se absorbe y bloquea los efectos de la buprenorfina, causando abstinencia inmediata. Esto desalienta el uso indebido intravenoso."
+    },
+    {
+      "q": "¿Qué pasa si tomo una sobredosis?",
+      "a": "Es una EMERGENCIA MÉDICA. Los síntomas son respiración lenta o que se detiene, sueño extremo, dificultad para despertar, piel fría y húmeda. Llame inmediatamente a una ambulancia (066 en México). El antídoto (naloxona) existe, pero su efecto puede ser más corto que el de la buprenorfina, requiriendo hospitalización."
+    },
+    {
+      "q": "¿Puedo manejar automóvil mientras uso buprenorfina?",
+      "a": "Al inicio del tratamiento o al cambiar la dosis, puede causar somnolencia, mareo y reducir sus reflejos. No maneje ni opere maquinaria peligrosa hasta que esté seguro de cómo le afecta, usualmente después de varios días de estabilidad."
+    },
+    {
+      "q": "¿La buprenorfina afecta los análisis de orina para drogas?",
+      "a": "Sí. Dará positivo para opiáceos/opioides en la mayoría de los tests de tamizaje. Si usted está en un programa de tratamiento, su médico debe proporcionarle una constancia de que la toma legalmente. Los tests de confirmación (como cromatografía) pueden diferenciar la buprenorfina de otras drogas."
+    },
+    {
+      "q": "¿Qué es el 'efecto techo' de la buprenorfina?",
+      "a": "Significa que después de cierta dosis, aumentar más la cantidad de medicamento no produce más efecto analgésico ni, lo más importante, más depresión respiratoria. Esto le da un perfil de seguridad mayor frente a una sobredosis accidental comparada con la morfina o el fentanilo."
+    },
+    {
+      "q": "¿Cómo se suspende el tratamiento con buprenorfina después de mucho tiempo?",
+      "a": "NUNCA se debe suspender de golpe. Su médico diseñará un plan de reducción gradual (tapering) de la dosis a lo largo de semanas o meses, para minimizar los síntomas de abstinencia (ansiedad, dolor, insomnio, náuseas). Hacerlo por su cuenta puede ser muy desagradable y provocar una recaída."
+    },
+    {
+      "q": "¿Por qué mi médico me pide análisis del hígado periódicamente si tomo buprenorfina?",
+      "a": "Porque en algunos pacientes, la buprenorfina puede causar elevación de las enzimas hepáticas (ALT, AST) e incluso hepatitis. Esto es más común en las formulaciones sublinguales para dependencia. Los análisis periódicos permiten detectar cualquier problema hepático temprano y tomar medidas."
+    }
+  ]
+}

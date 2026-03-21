@@ -1,0 +1,448 @@
+{
+  "name": "Gentamicina Sulfato",
+  "summary": "La Gentamicina Sulfato es un antibiótico potente de la familia de los aminoglucósidos, utilizado principalmente para combatir infecciones graves causadas por bacterias Gram-negativas. Sirve para tratar infecciones como septicemia (infección en la sangre), meningitis, infecciones del tracto urinario complicadas, infecciones abdominales, neumonía y como profilaxis en cirugías. Su importancia clínica radica en que es un medicamento de 'rescate' o de última línea para infecciones que no responden a otros antibióticos más comunes, debido a su potencia y también a sus riesgos significativos de toxicidad en los riñones y en el oído, por lo que su uso requiere supervisión médica estrecha, generalmente en un entorno hospitalario. No es un antibiótico para infecciones leves como un resfriado o una gripe, y su administración incorrecta puede causar daños permanentes.",
+  "pharmacology": {
+    "mechanismOfAction": "La Gentamicina actúa uniéndose de forma irreversible a la subunidad 30S de los ribosomas bacterianos, que son las 'fábricas' de proteínas dentro de las bacterias. Al unirse, bloquea la síntesis de proteínas esenciales para que la bacteria viva y se reproduzca. Específicamente, interfiere con el paso de iniciación de la traducción del ARN mensajero y causa una lectura errónea del código genético, lo que resulta en la producción de proteínas defectuosas y no funcionales. Este mecanismo es bactericida, es decir, mata a las bacterias en lugar de solo detener su crecimiento. Su actividad es mayor contra bacterias aerobias Gram-negativas como Pseudomonas aeruginosa, Escherichia coli, Klebsiella, Enterobacter y Proteus.",
+    "pharmacologicClass": "Antibiótico aminoglucósido. Es un compuesto producido por la bacteria Micromonospora purpurea. Su estructura química contiene aminoazúcares unidos por enlaces glucosídicos.",
+    "therapeuticClass": "Antibiótico bactericida de amplio espectro, con actividad primaria contra bacterias Gram-negativas aerobias.",
+    "absorption": "La absorción por vía oral es muy pobre (menos del 1%), por lo que no es efectiva para infecciones sistémicas si se toma por boca. Se administra por vía intramuscular (IM) o intravenosa (IV) para lograr niveles terapéuticos en sangre. Después de una inyección intramuscular, la absorción es rápida y completa, alcanzando concentraciones máximas en sangre en aproximadamente 30 a 90 minutos.",
+    "distribution": "Se distribuye ampliamente en el líquido extracelular, pero tiene una penetración pobre en el líquido cefalorraquídeo (LCR), a menos que haya inflamación de las meninges (como en la meningitis). Atraviesa la placenta y se puede encontrar en la leche materna en bajas concentraciones. Su unión a proteínas plasmáticas es baja (menos del 10%). Su volumen de distribución (Vd) es similar al del agua extracelular (aproximadamente 0.25 L/kg). Se acumula en la corteza renal y en el oído interno (cóclea y vestíbulo), lo que explica su toxicidad principal.",
+    "metabolism": "La Gentamicina no sufre metabolismo hepático significativo. No es sustrato de las enzimas del citocromo P450 (CYP). Se elimina prácticamente sin cambios por el riñón.",
+    "elimination": "Se elimina casi exclusivamente por filtración glomerular en el riñón. Su vida media en adultos con función renal normal es de aproximadamente 2 a 3 horas. En pacientes con insuficiencia renal, la vida media se prolonga considerablemente (hasta 24-48 horas o más), lo que aumenta enormemente el riesgo de toxicidad. Menos del 1% se elimina por vías no renales.",
+    "onsetOfAction": "El inicio de acción bactericida es rápido, comenzando poco después de alcanzar concentraciones terapéuticas en sangre (minutos a una hora post-administración).",
+    "durationOfAction": "Tiene un efecto post-antibiótico prolongado, lo que significa que continúa suprimiendo el crecimiento bacteriano incluso después de que sus niveles en sangre hayan caído por debajo de la concentración inhibitoria mínima (CIM). Esto permite en algunos esquemas de dosificación administrarla una vez al día."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones graves por bacterias Gram-negativas susceptibles (Pseudomonas, E. coli, Klebsiella, Enterobacter, Serratia, Proteus).",
+      "Septicemia (infección en la sangre).",
+      "Meningitis bacteriana (usualmente en combinación con otros antibióticos).",
+      "Infecciones intraabdominales graves (peritonitis, abscesos).",
+      "Infecciones del tracto respiratorio inferior complicadas (neumonía nosocomial).",
+      "Infecciones complicadas del tracto urinario (pielonefritis).",
+      "Infecciones de piel y tejidos blandos graves.",
+      "Endocarditis infecciosa (en combinación con un betalactámico para sinergia).",
+      "Profilaxis de infecciones en cirugía colorectal y otras cirugías de alto riesgo."
+    ],
+    "offLabel": [
+      "Infecciones oculares graves (administrada como inyección intravítrea).",
+      "Como parte de regímenes combinados para infecciones por micobacterias atípicas.",
+      "Irrigación de heridas infectadas en soluciones diluidas (uso tópico en ámbito hospitalario)."
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis depende del peso, función renal y del esquema utilizado. Esquema tradicional: 3-5 mg/kg/día, dividido en dosis cada 8 horas (Ej: 1.5-2 mg/kg cada 8h). Esquema de dosis única diaria (más común hoy): 5-7 mg/kg administrados UNA VEZ al día (en infusión IV de 30-60 min o IM). La dosis debe ser ajustada basándose en niveles séricos del medicamento.",
+    "pediatric": "Recién nacidos y lactantes: Dosis de carga de 4-5 mg/kg, seguida de 2.5-4 mg/kg cada 12-24 horas, ajustando según edad posnatal y función renal. Niños mayores de 1 mes: Similar a adultos, 5-7.5 mg/kg/día en una dosis diaria o dividida en 2-3 dosis. El monitoreo de niveles es crucial.",
+    "elderly": "Los adultos mayores suelen tener una disminución de la función renal (aún con creatinina sérica normal). Se debe calcular la Tasa de Filtración Glomerular (TFG) y ajustar la dosis en consecuencia. Se prefiere el esquema de dosis única diaria con monitoreo estricto de niveles en valle.",
+    "renalImpairment": "El ajuste es MANDATORIO. Se utiliza la fórmula de Cockcroft-Gault para estimar el aclaramiento de creatinina (CrCl). Dosis de carga usual (2 mg/kg), luego dosis de mantenimiento reducida o intervalo extendido. Guía general: CrCl >60 mL/min: dosis normal; CrCl 40-60: 60-80% de dosis o cada 12h; CrCl 20-40: 30-60% de dosis o cada 24h; CrCl <20: 15-30% de dosis o cada 48h. SIEMPRE guiado por niveles séricos.",
+    "hepaticImpairment": "No se requiere ajuste de dosis específico por insuficiencia hepática, ya que no se metaboliza en el hígado. Sin embargo, en pacientes con enfermedad hepática avanzada y ascitis, el volumen de distribución puede alterarse.",
+    "maxDose": "La dosis máxima diaria rara vez debe exceder los 7 mg/kg/día en el esquema de dosis única diaria. En esquemas convencionales, no más de 5 mg/kg/día divididos. Los niveles séricos son el mejor guía para evitar toxicidad."
+  },
+  "dosageForms": [
+    {
+      "form": "Inyección (Solución inyectable)",
+      "strengths": [
+        "10 mg/mL",
+        "40 mg/mL",
+        "80 mg/2 mL",
+        "120 mg/3 mL",
+        "160 mg/4 mL"
+      ],
+      "route": "Intramuscular, Intravenosa (infusión)"
+    },
+    {
+      "form": "Crema o ungüento tópico",
+      "strengths": [
+        "0.1%"
+      ],
+      "route": "Tópica"
+    },
+    {
+      "form": "Gotas óticas",
+      "strengths": [
+        "3 mg/mL (0.3%)"
+      ],
+      "route": "Ótica"
+    },
+    {
+      "form": "Gotas oftálmicas",
+      "strengths": [
+        "3 mg/mL (0.3%)"
+      ],
+      "route": "Oftálmica"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la gentamicina o a otros aminoglucósidos (como amikacina, tobramicina).",
+      "Miastenia gravis (puede agravar la debilidad muscular)."
+    ],
+    "relative": [
+      "Insuficiencia renal preexistente (requiere ajuste extremo y monitoreo).",
+      "Trastornos auditivos preexistentes (hipoacusia, tinnitus).",
+      "Enfermedad de Parkinson (riesgo de bloqueo neuromuscular).",
+      "Deshidratación (aumenta el riesgo de nefrotoxicidad).",
+      "Uso concomitante con otros medicamentos nefrotóxicos u ototóxicos (diuréticos de asa, cisplatino)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Nefrotoxicidad (daño renal) - especialmente con uso prolongado (>5 días) o niveles altos.",
+      "Ototoxicidad vestibular (mareo, vértigo, pérdida del equilibrio, nistagmo).",
+      "Ototoxicidad coclear (tinnitus (zumbido en oídos), hipoacusia (pérdida de audición), especialmente de tonos altos)."
+    ],
+    "common": [
+      "Dolor en el sitio de inyección intramuscular.",
+      "Erupción cutánea o prurito (picazón).",
+      "Náuseas y vómitos."
+    ],
+    "uncommon": [
+      "Bloqueo neuromuscular (parálisis respiratoria, especialmente con administración rápida IV o en pacientes con miastenia).",
+      "Cefalea (dolor de cabeza).",
+      "Parestesias (hormigueo).",
+      "Anemia, leucopenia o trombocitopenia (bajas en células sanguíneas)."
+    ],
+    "rare": [
+      "Síndrome de dificultad respiratoria aguda (SDRA).",
+      "Convulsiones.",
+      "Artralgias (dolor en articulaciones).",
+      "Hipersensibilidad severa (anafilaxia)."
+    ],
+    "blackBoxWarning": "ADVERTENCIA DE CAJA NEGRA: La gentamicina tiene el potencial de causar NEFROTOXICIDAD (daño renal) y OTOTOXICIDAD (daño auditivo y vestibular), que pueden ser irreversibles. El riesgo es mayor con dosis altas, tratamiento prolongado, en pacientes con insuficiencia renal preexistente, y cuando se usa con otros medicamentos tóxicos para el riñón o el oído. Se requiere monitoreo de la función renal y de la audición. También puede causar bloqueo neuromuscular y parálisis respiratoria."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Furosemida, Bumetanida, Ácido Etacrínico (diuréticos de asa)",
+        "effect": "Aumentan SINÉRGICAMENTE el riesgo de OTOTOXICIDAD (daño en el oído). La combinación debe evitarse o usarse con extrema precaución.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Vancomicina",
+        "effect": "Aumenta SINÉRGICAMENTE el riesgo de NEFROTOXICIDAD (daño renal). Requiere monitoreo renal muy estricto.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Cisplatino",
+        "effect": "Aumenta el riesgo de nefrotoxicidad y ototoxicidad.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Relajantes musculares (Succinilcolina, Atracurio, etc.) y Anestésicos generales",
+        "effect": "Puede potenciar el BLOQUEO NEUROMUSCULAR, llevando a parálisis respiratoria y apnea (dejar de respirar).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Cefalosporinas (especialmente cefaloridina, cefalotina)",
+        "effect": "Pueden aumentar el riesgo de nefrotoxicidad.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "AINEs (Ibuprofeno, Naproxeno, Diclofenaco)",
+        "effect": "Pueden reducir el flujo sanguíneo renal y aumentar el riesgo de nefrotoxicidad por gentamicina.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Penicilinas en altas dosis (Ampicilina, Carbenicilina)",
+        "effect": "Físicamente pueden inactivar a la gentamicina si se mezclan en la misma jeringa o bolsa de infusión intravenosa. Deben administrarse por separado.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "No tiene interacciones significativas con alimentos, ya que no se administra por vía oral para efectos sistémicos. El alcohol no interactúa directamente, pero puede empeorar mareos por ototoxicidad vestibular.",
+    "withSupplements": "Evitar suplementos que contengan magnesio en altas dosis (como algunos antiácidos o laxantes) por riesgo potencial de potenciar el bloqueo neuromuscular."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "D",
+      "recommendación": "La gentamicina CRUZA la placenta. Los estudios en animales han mostrado toxicidad fetal (ototoxicidad). Su uso en embarazadas solo está justificado si el beneficio para la madre supera claramente el riesgo potencial para el feto, en situaciones de infecciones graves que amenazan la vida. Debe ser administrada bajo estricta supervisión médica y con monitoreo de niveles séricos.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La gentamicina se excreta en la leche materna en bajas concentraciones. Debido a su pobre absorción oral, es poco probable que cause efectos sistémicos en el lactante. Sin embargo, existe un riesgo teórico de alterar la flora intestinal del bebé o causar sensibilización. Se considera generalmente compatible con la lactancia, pero se recomienda precaución y observación del bebé por posibles diarrea o candidiasis.",
+    "pediatric": "Se puede usar en recién nacidos, lactantes y niños para infecciones graves. La dosificación debe ser MUY PRECISA por peso corporal. Los recién nacidos, especialmente prematuros, tienen una función renal inmadura y una vida media más larga, requiriendo intervalos de dosificación más prolongados (cada 12-24h). El monitoreo de niveles séricos es esencial.",
+    "geriatric": "Los pacientes mayores de 65 años tienen mayor riesgo de toxicidad debido a la disminución fisiológica de la función renal (aún con creatinina sérica normal), menor masa muscular y mayor probabilidad de comorbilidades. Se debe calcular la TFG (Tasa de Filtración Glomerular) para ajustar la dosis. Son más susceptibles a la ototoxicidad vestibular (mareos, caídas)."
+  },
+  "administration": {
+    "howToTake": "La gentamicina para infecciones sistémicas se administra SOLO por personal de salud, generalmente en un hospital. Vía Intramuscular (IM): Se inyecta en un músculo grande (glúteo, muslo). Vía Intravenosa (IV): NUNCA se inyecta directamente en vena (bolo). Debe diluirse en solución salina o glucosada y administrarse en infusión lenta, generalmente durante 30 a 60 minutos para reducir el riesgo de bloqueo neuromuscular. Las gotas óticas/oftálmicas se usan según indicación médica, evitando el contacto del gotero con el ojo u oído.",
+    "storage": "Las ampolletas o viales inyectables deben almacenarse a temperatura ambiente (15-30°C), protegidas de la luz. No congelar. Las soluciones diluidas para infusión son estables por 24 horas a temperatura ambiente. Las formas tópicas y óticas deben guardarse según las instrucciones del empaque, generalmente a temperatura ambiente.",
+    "specialInstructions": "1) La duración del tratamiento suele ser de 7 a 14 días, pero depende de la infección. 2) Es CRUCIAL completar el tratamiento completo prescrito, incluso si el paciente se siente mejor. 3) Los niveles séricos de gentamicina (nivel pico y nivel valle) deben monitorearse regularmente, especialmente en tratamientos >3 días, en insuficiencia renal o en dosis altas. 4) Mantener una buena hidratación para ayudar a la función renal. 5) Reportar inmediatamente cualquier zumbido en los oídos, mareo, pérdida de audición, aumento de sed, disminución de la orina o hinchazón de pies."
+  },
+  "monitoring": {
+    "labTests": [
+      "Creatinina sérica y BUN (al menos cada 2-3 días durante el tratamiento).",
+      "Niveles séricos de gentamicina (pico y valle). El nivel valle (justo antes de la siguiente dosis) es crítico para prevenir toxicidad.",
+      "Análisis de orina y medición de la producción de orina (diuresis).",
+      "Electrolitos séricos (potasio, magnesio).",
+      "Audiometría (prueba de audición) basal y periódica en tratamientos prolongados (>7 días).",
+      "Pruebas de función vestibular si hay síntomas."
+    ],
+    "frequency": "Función renal: Cada 48-72 horas. Niveles séricos: Según el esquema. En dosis única diaria, se mide un nivel valle antes de la 3ra o 4ta dosis. En esquema convencional, se miden pico y valle después de la 3ra dosis. Audiometría: Al inicio y semanalmente en tratamientos largos.",
+    "signsToWatch": [
+      "Zumbido, silbido o sensación de llenura en los oídos (tinnitus).",
+      "Pérdida de audición, especialmente para sonidos agudos.",
+      "Mareo, vértigo (sensación de que todo da vueltas), pérdida del equilibrio, dificultad para caminar.",
+      "Disminución en la cantidad de orina producida (oliguria).",
+      "Hinchazón en pies, tobillos o cara.",
+      "Sed excesiva.",
+      "Debilidad muscular inusual o dificultad para respirar."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Síntomas de ototoxicidad severa (vértigo incapacitante, sordera).",
+      "Insuficiencia renal aguda (poca o nada de orina, edema).",
+      "Bloqueo neuromuscular (debilidad muscular progresiva, parálisis flácida, paro respiratorio).",
+      "Convulsiones."
+    ],
+    "treatment": "Suspender la gentamicina INMEDIATAMENTE. El tratamiento es de soporte. La hemodiálisis es EFECTIVA para eliminar la gentamicina de la sangre y debe considerarse en casos de sobredosis significativa, especialmente con insuficiencia renal. Para el bloqueo neuromuscular, puede administrarse gluconato de calcio IV y/o neostigmina. Soporte respiratorio (ventilación mecánica) si es necesario.",
+    "antidote": "No existe un antídoto específico. El calcio intravenoso puede revertir parcialmente el bloqueo neuromuscular."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica archivada (prescripción especial). Es un antibiótico de uso restringido, generalmente para ámbito hospitalario.",
+    "scheduleMexico": "Medicamento sujeto a control especial (lista de medicamentos esenciales y de alto impacto en la salud). Se encuentra en el Cuadro Básico de Medicamentos del Sector Salud.",
+    "fdaApprovalYear": "Aprobado por la FDA de Estados Unidos en la década de 1960 (1963 para inyección)."
+  },
+  "brandsMexico": [
+    "Gentamicina Sulfato Genfar",
+    "Garamicina (Schering-Plough)",
+    "Gentalyn (Bayer)",
+    "Gentamicina Sulfato Pisa",
+    "Gentamicina Sulfato Liomont",
+    "Gentamicina Sulfato Alpharma",
+    "Gentamicina Sanfer",
+    "Gentamicina Laproff",
+    "Gentamicina Denver Farma",
+    "Gentacín",
+    "Gentavena",
+    "Genta-B",
+    "Gentamicina Sulfato Rimsa"
+  ],
+  "clinicalPearls": [
+    "La 'regla de oro' con los aminoglucósidos es: 'Mide niveles o mide sorderas'. El monitoreo de niveles séricos (especialmente el valle) no es opcional.",
+    "El esquema de dosis única diaria (5-7 mg/kg/día) es tan efectivo como el múltiple y puede ser MENOS tóxico para el riñón, debido al efecto post-antibióico y menor acumulación en las células renales.",
+    "La ototoxicidad vestibular (mareos) suele ser reversible si se detecta a tiempo, mientras que la coclear (pérdida de audición) suele ser permanente.",
+    "En combinación con un betalactámico (como penicilina o ceftazidima) para enterococos o Pseudomonas, hay un efecto sinérgico bactericida.",
+    "Nunca mezclar en la misma jeringa o bolsa de suero con penicilinas o heparina, ya que se inactivan físicamente."
+  ],
+  "patientCounseling": "Estimado paciente: La gentamicina es un antibiótico muy fuerte que se usa solo para infecciones graves, generalmente en el hospital. No es para infecciones comunes. Es fundamental que informe a su médico si tiene problemas previos de riñón, oído, mareos o miastenia gravis. Durante el tratamiento, debe mantenerse bien hidratado (tomar agua). Esté muy atento a señales de alarma: si escucha un zumbido nuevo en los oídos, se marea, siente que pierde el equilibrio, o nota que orina mucho menos de lo normal, INFORME INMEDIATAMENTE a su enfermera o médico. Estos pueden ser signos de efectos secundarios graves. No suspenda el tratamiento por su cuenta. Complete todos los días de tratamiento que le indique su médico para asegurar que la infección desaparezca por completo.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre alta",
+        "slug": "fiebre-alta"
+      },
+      {
+        "name": "Escalofríos y sudoración",
+        "slug": "escalofrios-sudoracion"
+      },
+      {
+        "name": "Dolor abdominal intenso",
+        "slug": "dolor-abdominal-intenso"
+      },
+      {
+        "name": "Dolor al orinar y frecuencia urinaria",
+        "slug": "disuria-polaquiuria"
+      },
+      {
+        "name": "Tos con flemas purulentas",
+        "slug": "tos-flemas-purulentas"
+      },
+      {
+        "name": "Confusión o alteración del estado mental",
+        "slug": "confusion-delirio"
+      },
+      {
+        "name": "Enrojecimiento y calor en una herida",
+        "slug": "enrojecimiento-calor-herida"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Sepsis o Septicemia",
+        "slug": "sepsis"
+      },
+      {
+        "name": "Meningitis bacteriana",
+        "slug": "meningitis-bacteriana"
+      },
+      {
+        "name": "Pielonefritis aguda",
+        "slug": "pielonefritis-aguda"
+      },
+      {
+        "name": "Neumonía nosocomial",
+        "slug": "neumonia-nosocomial"
+      },
+      {
+        "name": "Endocarditis infecciosa",
+        "slug": "endocarditis-infecciosa"
+      },
+      {
+        "name": "Peritonitis",
+        "slug": "peritonitis"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Insuficiencia Renal Aguda",
+        "slug": "insuficiencia-renal-aguda"
+      },
+      {
+        "name": "Hipoacusia Neurosensorial",
+        "slug": "hipoacusia-neurosensorial"
+      },
+      {
+        "name": "Vértigo y trastornos del equilibrio",
+        "slug": "vertigo"
+      },
+      {
+        "name": "Bloqueo Neuromuscular",
+        "slug": "bloqueo-neuromuscular"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar significativamente"
+      },
+      {
+        "name": "Nitrógeno Ureico en Sangre (BUN)",
+        "slug": "bun",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Magnesio sérico",
+        "slug": "magnesio-serico",
+        "effect": "Puede disminuir (por pérdida renal)"
+      },
+      {
+        "name": "Potasio sérico",
+        "slug": "potasio-serico",
+        "effect": "Puede disminuir (hipokalemia)"
+      },
+      {
+        "name": "Recuento de glóbulos blancos",
+        "slug": "leucocitos",
+        "effect": "Puede disminuir (leucopenia)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Creatinina sérica y cálculo de TFG",
+        "slug": "creatinina-tfg",
+        "reason": "Monitoreo esencial de la función renal antes y durante el tratamiento."
+      },
+      {
+        "name": "Niveles séricos de gentamicina (pico y valle)",
+        "slug": "niveles-sericos-antibioticos",
+        "reason": "Fundamental para ajustar la dosis y minimizar toxicidad."
+      },
+      {
+        "name": "Audiometría",
+        "slug": "audiometria",
+        "reason": "Para detectar ototoxicidad coclear temprana, especialmente en tratamientos prolongados."
+      },
+      {
+        "name": "Uroanálisis y medición de diuresis",
+        "slug": "uroanalisis-diuresis",
+        "reason": "Para vigilar la función renal de manera práctica."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de Aclaramiento de Creatinina (Cockcroft-Gault)",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de TFG (MDRD o CKD-EPI)",
+        "slug": "calculadora-egfr"
+      },
+      {
+        "name": "Calculadora de Dosis Pediátrica por Peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La gentamicina es para la gripe o el dolor de gargante?",
+      "a": "NO. La gentamicina es un antibiótico muy fuerte para infecciones bacterianas graves, generalmente adquiridas en el hospital. No sirve para la gripe (que es viral), ni para infecciones leves de garganta o oído."
+    },
+    {
+      "q": "¿Me la puedo tomar en pastillas en casa?",
+      "a": "No. Para infecciones graves, la gentamicina no se absorbe por el estómago, por lo que no existe en pastillas para ese fin. Se administra como inyección intramuscular o intravenosa, casi siempre en un hospital o bajo supervisión médica estrecha."
+    },
+    {
+      "q": "¿Cuáles son los efectos secundarios más peligrosos?",
+      "a": "Los más peligrosos son: 1) Daño a los riñones (puede dejar de orinar), y 2) Daño a los oídos (puede causar sordera permanente o mareos severos). Por eso requiere monitoreo constante."
+    },
+    {
+      "q": "¿Por qué me tienen que sacar sangre tan seguido cuando me la ponen?",
+      "a": "Para medir el nivel del medicamento en su sangre. Es como 'afinar' la dosis. Si está muy alto, puede intoxicarse; si está muy bajo, no cura la infección. También revisan la función de sus riñones."
+    },
+    {
+      "q": "¿La gentamicina duele cuando la inyectan?",
+      "a": "La inyección intramuscular puede causar dolor o ardor en el sitio de la aplicación. La infusión intravenosa generalmente no duele si se administra correctamente."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si me están dando gentamicina?",
+      "a": "No se recomienda. Aunque no hay una interacción química directa, el alcohol puede deshidratarlo y empeorar el riesgo de daño renal. Además, si la gentamicina le causa mareos, el alcohol los empeorará."
+    },
+    {
+      "q": "¿Cuánto tiempo dura el tratamiento?",
+      "a": "Depende de la infección, pero usualmente es de 7 a 14 días. Es MUY IMPORTANTE completar todos los días que le recete el médico, aunque usted ya se sienta mejor."
+    },
+    {
+      "q": "¿Qué hago si empiezo a escuchar un zumbido en los oídos?",
+      "a": "Es una SEÑAL DE ALARMA. Debe informarlo INMEDIATAMENTE a su enfermera o médico. Podría ser el primer signo de daño en el oído y tal vez sea necesario ajustar la dosis o cambiar el antibiótico."
+    },
+    {
+      "q": "¿Puede la gentamicina causar diarrea?",
+      "a": "No es común, porque no se toma por boca para infecciones generales. Sin embargo, como cualquier antibiótico potente, puede alterar la flora intestinal si se usa por mucho tiempo, pero es menos frecuente que con otros."
+    },
+    {
+      "q": "¿Sirve la gentamicina en gotas para los oídos?",
+      "a": "Sí, existe una presentación en gotas óticas para tratar infecciones externas del oído (otitis externa). Es DIFERENTE a la inyección. Nunca use las gotas óticas si tiene un tímpano perforado, a menos que su médico lo indique."
+    },
+    {
+      "q": "¿Qué pasa si olvido una dosis en el hospital?",
+      "a": "En el hospital, el personal de enfermería lleva un control estricto. Si por algún error se omite, informe al personal. NO intente 'ponerse al día' con una dosis doble. Espere a la siguiente dosis programada."
+    },
+    {
+      "q": "¿La gentamicina afecta los métodos anticonceptivos?",
+      "a": "No hay evidencia de que interfiera con pastillas anticonceptivas, parches o dispositivos intrauterinos. Su mecanismo de acción es diferente."
+    },
+    {
+      "q": "¿Puedo manejar o operar maquinaria mientras me la administran?",
+      "a": "NO se recomienda. La gentamicina puede causar mareos, vértigo y pérdida del equilibrio (efecto en el oído interno), lo que hace muy peligroso manejar o operar maquinaria pesada."
+    },
+    {
+      "q": "¿Es seguro en niños recién nacidos?",
+      "a": "Sí, se usa en recién nacidos para infecciones graves, pero con DOSIFICACIÓN MUY PRECISA según su peso y edad gestacional, y con MONITOREO ESTRICTO de niveles en sangre, porque sus riñones son inmaduros."
+    },
+    {
+      "q": "¿Por qué a veces la dan una vez al día y otras cada 8 horas?",
+      "a": "Ambos esquemas son válidos. El de una vez al día (dosis más alta) puede ser igual de efectivo y a veces menos tóxico para el riñón. La elección depende del protocolo del hospital, el tipo de infección y la función renal del paciente."
+    },
+    {
+      "q": "¿Qué medicamentos NO debo mezclar con gentamicina?",
+      "a": "Debe informar a su médico si toma: diuréticos como furosemida (Lasix), medicamentos para el dolor como ibuprofeno o diclofenaco, o algún otro antibiótico. Estas mezclas pueden aumentar el riesgo de daño en oídos o riñones."
+    },
+    {
+      "q": "¿La gentamicina puede causar alergia?",
+      "a": "Sí, aunque no es muy común. Los signos de alergia pueden ser ronchas, picazón, hinchazón de cara/lengua, o dificultad para respirar. Si presenta alguno, avise de inmediato."
+    },
+    {
+      "q": "¿Qué es el 'nivel valle' de gentamicina que miden?",
+      "a": "Es la concentración más baja del medicamento en su sangre, justo antes de que le pongan la siguiente dosis. Si este nivel está muy alto, significa que el medicamento se está acumulando y hay mayor riesgo de toxicidad. Es la medición más importante para su seguridad."
+    },
+    {
+      "q": "Si tengo diabetes, ¿afecta la gentamicina mis niveles de azúcar?",
+      "a": "No tiene un efecto directo sobre la glucosa en sangre. Sin embargo, si la infección que se está tratando es grave, ésta por sí sola puede descontrolar la diabetes. Siga monitoreando su glucosa como lo hace normalmente."
+    },
+    {
+      "q": "¿Por qué a algunos pacientes les hacen prueba de audición (audiometría) durante el tratamiento?",
+      "a": "Para detectar de manera temprana la ototoxicidad (daño al oído interno). Si la prueba muestra pérdida de audición, especialmente en tonos agudos, el médico puede decidir cambiar el antibiótico para evitar un daño permanente. Es una medida de prevención crucial en tratamientos largos."
+    }
+  ]
+}

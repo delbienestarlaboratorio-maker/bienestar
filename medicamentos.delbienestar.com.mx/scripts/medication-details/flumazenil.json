@@ -1,0 +1,358 @@
+{
+  "name": "Flumazenil",
+  "summary": "El flumazenil es un medicamento inyectable que actúa como un antídoto específico. Se utiliza principalmente en hospitales para revertir los efectos sedantes y de pérdida de conciencia causados por medicamentos llamados benzodiacepinas, que se usan comúnmente para la ansiedad, el insomnio o como parte de la anestesia. Su importancia clínica es crucial en situaciones de emergencia, como sobredosis por estos fármacos o para despertar rápidamente a un paciente después de un procedimiento quirúrgico o diagnóstico donde se utilizaron sedantes. Al bloquear el efecto de las benzodiacepinas en el cerebro, el flumazenil puede restaurar la conciencia y la respiración normal en minutos, siendo una herramienta vital para los médicos en cuidados intensivos, salas de emergencia y quirófanos. No es un medicamento para uso doméstico y su administración requiere supervisión médica estrecha debido al riesgo de que los efectos sedantes regresen (resedación) o de desencadenar convulsiones en pacientes dependientes.",
+  "pharmacology": {
+    "mechanismOfAction": "El flumazenil es un antagonista competitivo específico de los receptores de benzodiacepinas en el sistema nervioso central. Actúa uniéndose con alta afinidad al sitio de las benzodiacepinas en el complejo del receptor GABA-A, pero sin activarlo. Al ocupar este sitio, desplaza a las moléculas de benzodiacepinas (como midazolam, diazepam o lorazepam) que están allí, bloqueando así sus efectos. Las benzodiacepinas normalmente potencian la acción inhibitoria del neurotransmisor GABA, lo que resulta en sedación, relajación muscular, reducción de la ansiedad y amnesia. Al bloquear este efecto, el flumazenil revierte rápidamente la depresión del sistema nervioso central, restaurando el nivel de conciencia y la función respiratoria. No revierte los efectos de otros depresores del SNC como opioides, alcohol o barbitúricos.",
+    "pharmacologicClass": "Antagonista de los receptores de benzodiacepinas; Derivado de la imidazobenzodiazepina.",
+    "therapeuticClass": "Antídoto; Agente de reversión de benzodiacepinas.",
+    "absorption": "Tras la administración intravenosa, la absorción es completa y rápida, con concentraciones plasmáticas máximas alcanzadas al final de la infusión. La biodisponibilidad por vía intravenosa es del 100%.",
+    "distribution": "Se distribuye ampliamente en los tejidos. El volumen de distribución es alto (aproximadamente 1.0 L/kg), lo que indica una amplia distribución en el organismo. Se une moderadamente a proteínas plasmáticas (aproximadamente 50%), principalmente a la albúmina.",
+    "metabolism": "Se metaboliza extensamente en el hígado. El metabolismo principal es por desmetilación y descarboxilación, seguido de conjugación con ácido glucurónico. Las enzimas del citocromo P450 (principalmente CYP3A4) están involucradas en su metabolismo. Los metabolitos son farmacológicamente inactivos o mucho menos activos que el compuesto original.",
+    "elimination": "Se elimina principalmente por vía renal (90-95%) en forma de metabolitos conjugados, y una pequeña parte en heces. Su vida media de eliminación es corta, aproximadamente de 40 a 80 minutos. La corta vida media es un factor importante a considerar, ya que puede ser menor que la de la benzodiacepina que se intenta revertir, lo que lleva a resedación.",
+    "onsetOfAction": "Muy rápido. El inicio de acción se observa generalmente en 1 a 2 minutos después de la administración intravenosa. La mejoría máxima en el nivel de conciencia suele ocurrir entre los 6 y 10 minutos.",
+    "durationOfAction": "La duración del efecto clínico es variable y generalmente corta (de 30 minutos a 2 horas), dependiendo de la dosis administrada y, más críticamente, de la vida media y la dosis de la benzodiacepina que se está revirtiendo. Debido a su corta duración, es necesario un monitoreo continuo por varias horas para detectar resedación."
+  },
+  "indications": {
+    "approved": [
+      "Reversión completa o parcial de los efectos sedantes de las benzodiacepinas en la anestesia general o en procedimientos de sedación consciente.",
+      "Manejo de la sobredosis por benzodiacepinas (intoxicación aguda) como antídoto específico."
+    ],
+    "offLabel": [
+      "Ayuda en el diagnóstico diferencial del coma de causa desconocida.",
+      "Reversión de la sedación prolongada por benzodiacepinas en pacientes críticos en la Unidad de Cuidados Intensivos (UCI).",
+      "Tratamiento de la encefalopatía hepática inducida por benzodiacepinas (en investigación).",
+      "Manejo de los efectos adversos graves de las benzodiacepinas, como depresión respiratoria grave."
+    ]
+  },
+  "dosage": {
+    "adults": "Para reversión de sedación post-anestésica/procedimiento: Dosis inicial de 0.2 mg IV en 15 segundos. Si no se logra el nivel de conciencia deseado después de 60 segundos, se puede administrar una segunda dosis de 0.2 mg. Se pueden repetir dosis adicionales de 0.2 mg a intervalos de 60 segundos hasta un máximo de 1 mg (5 dosis de 0.2 mg). Para sobredosis conocida o sospechada: Dosis inicial de 0.2 mg IV en 30 segundos. Si no hay respuesta después de 30 segundos, administrar 0.3 mg en otros 30 segundos. Si aún no hay respuesta, administrar 0.5 mg a intervalos de 60 segundos hasta un máximo total de 3 mg. En ambos casos, si el paciente se reseda, se puede repetir la dosis a intervalos de 20 minutos, sin exceder 1 mg por dosis ni 3 mg por hora.",
+    "pediatric": "Para niños mayores de 1 año: Dosis inicial de 0.01 mg/kg (hasta 0.2 mg) IV en 15 segundos. Repetir a intervalos de 45-60 segundos con dosis de 0.01 mg/kg (hasta 0.2 mg adicionales) si es necesario, hasta una dosis máxima total de 0.05 mg/kg o 1 mg, lo que sea menor. No se recomienda su uso de rutina en recién nacidos, especialmente si la madre ha recibido benzodiacepinas crónicas antes del parto, por riesgo de convulsiones graves en el neonato.",
+    "elderly": "Se recomienda usar las dosis más bajas efectivas dentro del rango para adultos, debido a una posible mayor sensibilidad y a la mayor prevalencia de deterioro de la función hepática o renal. Iniciar con 0.1-0.15 mg y titular cuidadosamente.",
+    "renalImpairment": "No se requieren ajustes de dosis específicos en insuficiencia renal leve a moderada. En insuficiencia renal grave (TFG <30 mL/min) o en diálisis, se debe usar con precaución y monitorear de cerca, ya que puede haber acumulación de metabolitos (aunque son inactivos). No se elimina significativamente por hemodiálisis.",
+    "hepaticImpairment": "Se requiere precaución y ajuste de dosis. En pacientes con enfermedad hepática (cirrosis, hepatitis), el aclaramiento del flumazenil se reduce significativamente y su vida media se prolonga (hasta 1.5-2 horas). Se recomienda reducir la dosis inicial en un 50% (ej. 0.1 mg) y titular muy lentamente, con intervalos más largos entre dosis (2-3 minutos). El riesgo de resedación puede ser menor debido a la vida media más prolongada del antídoto.",
+    "maxDose": "Para reversión de sedación: 1 mg como dosis total inicial. Para sobredosis: 3 mg como dosis total inicial. En mantenimiento para prevenir resedación: no más de 1 mg por dosis ni 3 mg por hora."
+  },
+  "dosageForms": [
+    {
+      "form": "Inyectable (ampolla o vial)",
+      "strengths": [
+        "0.1 mg/mL (en viales de 5 mL = 0.5 mg)",
+        "0.5 mg/5 mL"
+      ],
+      "route": "Intravenosa (IV)"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Pacientes con hipersensibilidad conocida al flumazenil o a cualquier componente de la formulación.",
+      "Pacientes que están recibiendo tratamiento con medicamentos que reducen el umbral convulsivo (ej. antidepresivos tricíclicos) y que han ingerido una sobredosis de benzodiacepinas, debido al alto riesgo de desencadenar convulsiones.",
+      "Pacientes con dependencia física a las benzodiacepinas que presentan signos de síndrome de abstinencia grave, ya que el flumazenil puede precipitar un síndrome de abstinencia agudo y potencialmente mortal."
+    ],
+    "relative": [
+      "Pacientes con epilepsia o trastornos convulsivos conocidos, especialmente si están controlados con benzodiacepinas.",
+      "Pacientes con enfermedad hepática grave (riesgo de vida media prolongada y efectos impredecibles).",
+      "Pacientes con lesión intracraneal o presión intracraneal elevada (la reversión brusca puede aumentar el riesgo).",
+      "Pacientes intoxicados con múltiples sustancias, especialmente si hay ciclosporina, antidepresivos tricíclicos o cocaína."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Náuseas",
+      "Vómitos",
+      "Sofocos o enrojecimiento facial (rubor)"
+    ],
+    "common": [
+      "Mareo o vértigo",
+      "Sudoración",
+      "Dolor en el sitio de inyección",
+      "Ansiedad, agitación o inquietud",
+      "Visión borrosa o alteraciones visuales"
+    ],
+    "uncommon": [
+      "Dolor de cabeza (cefalea)",
+      "Sequedad de boca",
+      "Hipo",
+      "Temblor",
+      "Taquicardia (aumento de la frecuencia cardíaca)",
+      "Hipertensión arterial transitoria"
+    ],
+    "rare": [
+      "Convulsiones (especialmente en pacientes dependientes o con sobredosis mixta)",
+      "Arritmias cardíacas (taquicardia ventricular, fibrilación auricular)",
+      "Reacciones alérgicas (rash, prurito, dificultad para respirar)",
+      "Resedación (vuelta al estado de somnolencia después del efecto inicial)",
+      "Síndrome de abstinencia agudo (ansiedad, confusión, alucinaciones, taquicardia)"
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Benzodiacepinas (Diazepam, Midazolam, Lorazepam, Clonazepam, etc.)",
+        "effect": "El flumazenil antagoniza (bloquea) los efectos sedantes, ansiolíticos, anticonvulsivos y amnésicos de las benzodiacepinas. Esta es la interacción terapéutica deseada.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Antidepresivos Tricíclicos (Amitriptilina, Imipramina)",
+        "effect": "En casos de sobredosis mixta (benzodiacepina + antidepresivo tricíclico), el flumazenil puede desenmascarar los efectos convulsivantes del antidepresivo, provocando convulsiones graves y de difícil control.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Medicamentos Proconvulsivantes (Bupropion, Teofilina, Ciclosporina)",
+        "effect": "El flumazenil puede disminuir el umbral convulsivo, potenciando el riesgo de convulsiones cuando se usa con estos fármacos.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Isoniazida",
+        "effect": "Puede aumentar el riesgo de convulsiones cuando se administra flumazenil.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "No aplica, ya que el medicamento se administra exclusivamente por vía intravenosa en un entorno hospitalario. No hay interacciones documentadas con alimentos.",
+    "withSupplements": "No hay interacciones bien documentadas con suplementos dietéticos o herbales. Sin embargo, en teoría, suplementos con actividad en el sistema GABA (como la valeriana, kava kava) podrían tener sus efectos antagonizados por el flumazenil, aunque esto es poco probable en el contexto clínico de su uso."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría C",
+      "recommendation": "Solo debe usarse durante el embarazo si el beneficio potencial justifica claramente el riesgo potencial para el feto. Se reserva para situaciones de emergencia que amenazan la vida de la madre, como una sobredosis grave de benzodiacepinas. Los estudios en animales han mostrado efectos adversos fetales. El médico evaluará cuidadosamente la relación riesgo-beneficio.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "No se sabe si el flumazenil se excreta en la leche materna humana. Debido a su administración intravenosa única en situaciones de emergencia y a su corta vida media, es poco probable que represente un riesgo significativo para el lactante. Sin embargo, se recomienda precaución. Si se administra a una madre lactante, se puede aconsejar extraer y desechar la leche durante las 12-24 horas posteriores a la dosis.",
+    "pediatric": "Puede usarse en niños mayores de 1 año para las indicaciones aprobadas. La dosis se calcula por peso corporal. Está contraindicado en recién nacidos (especialmente si la madre usó benzodiacepinas crónicamente) debido al riesgo extremadamente alto de convulsiones graves y síndrome de abstinencia. Se debe monitorizar estrechamente la función cardiorrespiratoria.",
+    "geriatric": "Los pacientes mayores pueden ser más sensibles a los efectos del flumazenil. Es más probable que tengan una función hepática o renal disminuida, lo que puede prolongar su efecto. Se deben usar dosis iniciales más bajas y titular con mayor lentitud. El riesgo de efectos adversos cardiovasculares (arritmias) o neurológicos (agitación, confusión) puede ser mayor."
+  },
+  "administration": {
+    "howToTake": "El flumazenil se administra ÚNICAMENTE por vía intravenosa (IV), en un entorno hospitalario con capacidad de reanimación (quirófano, sala de recuperación, urgencias, UCI). Se puede administrar como una inyección lenta en bolo directo en una vena periférica o a través de una vía intravenosa ya establecida. La velocidad de administración es CRÍTICA: la dosis inicial suele administrarse en 15-30 segundos. No se debe mezclar con otros medicamentos en la misma jeringa o solución para infusión. Después de la administración, el paciente debe ser observado de cerca por personal médico durante al menos 2 horas para detectar signos de resedación (vuelta a la somnolencia) o de excitación del sistema nervioso.",
+    "storage": "Conservar las ampollas o viales en su empaque original, protegidos de la luz, a temperatura ambiente (15-30°C). No congelar. Una vez preparado para su uso, la solución debe administrarse inmediatamente. No almacenar soluciones diluidas.",
+    "specialInstructions": "1) Es un antídoto, no un estimulante general. Solo revierte los efectos de las benzodiacepinas. 2) El riesgo de resedación es alto, especialmente si la benzodiacepina tiene una vida media larga (ej. diazepam). El paciente NO debe conducir, operar maquinaria ni tomar decisiones importantes durante las 24 horas siguientes. 3) Estar preparado para manejar convulsiones, especialmente en pacientes dependientes de benzodiacepinas o con sobredosis mixta. 4) No acelere la administración; puede precipitar ansiedad o convulsiones."
+  },
+  "monitoring": {
+    "labTests": [
+      "No se requieren monitoreos de laboratorio de rutina específicos para el flumazenil."
+    ],
+    "frequency": "Monitoreo clínico continuo durante la administración y durante al menos 2 horas después. Evaluar: nivel de conciencia (escala de Glasgow), frecuencia y patrón respiratorio, frecuencia cardíaca, presión arterial, saturación de oxígeno y signos de excitación o convulsiones.",
+    "signsToWatch": [
+      "Resedación (el paciente vuelve a dormirse o a estar somnoliento).",
+      "Dificultad para respirar o depresión respiratoria.",
+      "Ansiedad, agitación, confusión o alucinaciones.",
+      "Temblor, movimientos musculares anormales o convulsiones.",
+      "Dolor torácico, palpitaciones o latidos cardíacos irregulares.",
+      "Signos de reacción alérgica: ronchas, hinchazón de cara/labios, dificultad para respirar."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Los síntomas de sobredosis son una extensión de sus efectos adversos: agitación severa, ansiedad, confusión, alucinaciones, convulsiones, taquicardia, arritmias ventriculares, hipertensión."
+    ],
+    "treatment": "El tratamiento es de soporte. No existe un antídoto específico para el flumazenil. 1) Mantener la vía aérea, ventilación y circulación. 2) Controlar las convulsiones con benzodiacepinas de acción rápida (ej. lorazepam IV) u otros anticonvulsivantes. 3) Controlar la agitación severa con sedación cuidadosa. 4) Monitoreo cardíaco continuo para detectar y tratar arritmias. La vida media corta del flumazenil significa que los efectos suelen ser autolimitados.",
+    "antidote": "No existe un antídoto específico. Las benzodiacepinas pueden usarse para contrarrestar los efectos proconvulsivantes o de agitación severa."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial para uso hospitalario. Es un medicamento de control (psicotrópico) en algunos contextos.",
+    "scheduleMexico": "Pertenece a la Fracción IV del artículo 226 de la Ley General de Salud (medicamentos que requieren receta médica y pueden causar farmacodependencia, pero con menor potencial que los de la Fracción I). Su venta está estrictamente controlada para uso hospitalario.",
+    "fdaApprovalYear": "Aprobado por la FDA de Estados Unidos en el año 1991."
+  },
+  "brandsMexico": [
+    "Anexate",
+    "Flumazenil Pisa",
+    "Flumazenil Genfar",
+    "Flumazenil MK",
+    "Flumazenil Liomont",
+    "Flumazenil Rimsa",
+    "Flumazenil Alpharma",
+    "Flumazenil Denver Farma"
+  ],
+  "clinicalPearls": [
+    "La regla de oro: 'La vida media del antídoto (flumazenil: ~1h) es más corta que la del veneno (benzodiacepina: 2-100h)'. Por esto, la resedación es común y requiere monitoreo prolongado.",
+    "En sobredosis de causa desconocida, el flumazenil puede usarse como prueba diagnóstica. Si el paciente despierta, confirma intoxicación por benzodiacepinas. Si no despierta, se debe buscar otra causa (opioides, traumatismo, etc.).",
+    "El mayor peligro no es la falta de efecto, sino su efecto excesivo: precipitar abstinencia o convulsiones en un paciente dependiente de benzodiacepinas. Siempre preguntar por uso crónico antes de administrar."
+  ],
+  "patientCounseling": "El flumazenil es un medicamento de uso exclusivamente hospitalario, administrado por un médico en situaciones controladas. Usted, como paciente, no lo tomará en casa. Si le es administrado para despertar después de una cirugía o procedimiento, es crucial que comprenda que sus efectos pueden durar menos que los del sedante original. Esto significa que puede sentir sueño nuevamente después de un tiempo. Por su seguridad, NO debe levantarse de la cama sin ayuda, conducir, operar maquinaria, firmar documentos legales ni tomar decisiones importantes durante al menos 24 horas después de recibirlo. Informe inmediatamente a la enfermera o médico si siente ansiedad extrema, confusión, temblores, visión borrosa, palpitaciones o dificultad para respirar. Recuerde que este medicamento revierte solo los efectos de ciertos sedantes (benzodiacepinas), no de otros como los derivados de la morfina.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Somnolencia excesiva",
+        "slug": "somnolencia-excesiva"
+      },
+      {
+        "name": "Depresión respiratoria",
+        "slug": "depresion-respiratoria"
+      },
+      {
+        "name": "Pérdida del conocimiento (coma)",
+        "slug": "perdida-del-conocimiento-coma"
+      },
+      {
+        "name": "Amnesia (pérdida de memoria)",
+        "slug": "amnesia-perdida-de-memoria"
+      },
+      {
+        "name": "Sedación profunda",
+        "slug": "sedacion-profunda"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Sobredosis por benzodiacepinas",
+        "slug": "sobredosis-por-benzodiacepinas"
+      },
+      {
+        "name": "Sedación post-anestésica",
+        "slug": "sedacion-post-anestesica"
+      },
+      {
+        "name": "Intoxicación aguda por fármacos depresores del SNC",
+        "slug": "intoxicacion-aguda-por-farmacos-depresores-del-snc"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Convulsiones",
+        "slug": "convulsiones"
+      },
+      {
+        "name": "Síndrome de abstinencia agudo",
+        "slug": "sindrome-de-abstinencia-agudo"
+      },
+      {
+        "name": "Arritmias cardíacas",
+        "slug": "arritmias-cardiacas"
+      },
+      {
+        "name": "Ansiedad y trastornos de pánico",
+        "slug": "ansiedad-y-trastornos-de-panico"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Presión arterial",
+        "slug": "presion-arterial",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Frecuencia respiratoria",
+        "slug": "frecuencia-respiratoria",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Nivel de conciencia (Escala de Glasgow)",
+        "slug": "nivel-de-conciencia-escala-de-glasgow",
+        "effect": "Puede elevar"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Gasometría arterial",
+        "slug": "gasometria-arterial",
+        "reason": "Para evaluar el estado ácido-base y la oxigenación tras depresión respiratoria por benzodiacepinas."
+      },
+      {
+        "name": "Electrocardiograma (ECG)",
+        "slug": "electrocardiograma-ecg",
+        "reason": "Para monitorear posibles arritmias cardíacas inducidas por el flumazenil."
+      },
+      {
+        "name": "Panel toxicológico en orina/sangre",
+        "slug": "panel-toxicologico-en-orina-sangre",
+        "reason": "Para confirmar la presencia de benzodiacepinas u otras sustancias en casos de sobredosis."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve exactamente el flumazenil?",
+      "a": "Sirve como un antídoto específico para 'despertar' a personas que están muy dormidas o inconscientes debido a una sobredosis de medicamentos para los nervios o el sueño llamados benzodiacepinas (como el diazepam o el clonazepam), o para revertir la sedación después de una cirugía donde se usaron estos fármacos."
+    },
+    {
+      "q": "¿Me lo pueden recetar para tener en casa por si acaso?",
+      "a": "No. Es un medicamento de uso exclusivamente hospitalario que se administra por una vena (intravenoso). Solo lo aplican médicos o enfermeras en hospitales, quirófanos o ambulancias de emergencia, bajo supervisión constante. No existe en pastillas para uso doméstico."
+    },
+    {
+      "q": "¿Duele cuando lo inyectan?",
+      "a": "Puede causar una molestia leve o dolor en el sitio de la inyección en la vena, pero esto es temporal. Lo más común es que el paciente, al estar sedado, no lo recuerde."
+    },
+    {
+      "q": "¿Cuánto tarda en hacer efecto?",
+      "a": "Actúa muy rápido. Generalmente, la persona empieza a despertar y responder entre 1 y 2 minutos después de que el médico lo inyecta."
+    },
+    {
+      "q": "¿El efecto es permanente? ¿Me voy a dormir otra vez?",
+      "a": "No siempre es permanente. Su efecto dura menos (30 min - 2 horas) que el del sedante original. Existe un riesgo real de que usted vuelva a dormirse (resedación) después de un tiempo, por eso lo vigilan de cerca en el hospital durante varias horas."
+    },
+    {
+      "q": "¿Puedo conducir o irme a casa solo después de que me lo pongan?",
+      "a": "Absolutamente NO. Debido al riesgo de volver a tener sueño, mareos o visión borrosa, no debe conducir, operar máquinas, ni tomar decisiones importantes durante al menos 24 horas. Necesitará que alguien lo lleve a casa."
+    },
+    {
+      "q": "¿Tiene efectos secundarios?",
+      "a": "Sí, los más comunes son náuseas, vómitos, sofocos (cara caliente y roja), mareo, sudoración y ansiedad. Los más graves, pero raros, son convulsiones o problemas del corazón, por eso se usa solo en hospital."
+    },
+    {
+      "q": "¿Sirve para revertir la intoxicación por alcohol o drogas como la heroína?",
+      "a": "No. El flumazenil solo funciona contra las benzodiacepinas. No revierte los efectos del alcohol, los opioides (morfina, heroína), la cocaína ni otras drogas. Para los opioides existe otro antídoto llamado naloxona."
+    },
+    {
+      "q": "¿Qué pasa si tomo benzodiacepinas todos los días y me ponen flumazenil?",
+      "a": "Es MUY PELIGROSO. Si su cuerpo depende de las benzodiacepinas (uso crónico), el flumazenil puede provocar un 'síndrome de abstinencia' brusco y grave, con ansiedad extrema, confusión, alucinaciones, temblores y convulsiones. Por eso el médico siempre debe preguntar si usted usa estos medicamentos."
+    },
+    {
+      "q": "¿Se puede usar en niños?",
+      "a": "Sí, pero con mucha precaución y solo en niños mayores de 1 año. La dosis se calcula con base en su peso. No se usa en recién nacidos."
+    },
+    {
+      "q": "¿Y en mujeres embarazadas?",
+      "a": "Solo se usa en casos de emergencia que pongan en peligro la vida de la madre, como una sobredosis grave. El médico evaluará los riesgos y beneficios. No es de uso rutinario."
+    },
+    {
+      "q": "¿Qué marcas de flumazenil hay en las farmacias de México?",
+      "a": "Las marcas más comunes son Anexate, Flumazenil Pisa, Flumazenil Genfar y Flumazenil MK, entre otras. Todas son para uso intravenoso hospitalario."
+    },
+    {
+      "q": "Si tengo epilepsia, ¿pueden usarlo en mí?",
+      "a": "Se debe usar con EXTREMA precaución. El flumazenil puede bajar el 'umbral convulsivo' y provocar una crisis epiléptica. El médico debe saber de su condición y estar preparado para tratar una convulsión si ocurre."
+    },
+    {
+      "q": "¿Cómo sabe el médico cuánta dosis ponerme?",
+      "a": "Empieza con una dosis pequeña (ej. 0.2 mg) y observa su respuesta. Si no despierta lo suficiente, espera un minuto y pone otra dosis pequeña. Repite esto hasta que usted responda adecuadamente o hasta alcanzar una dosis máxima segura. Es un proceso de 'titulación'."
+    },
+    {
+      "q": "¿Qué monitoreo necesito después de recibirlo?",
+      "a": "Lo vigilarán constantemente: si está despierto, cómo respira, su frecuencia cardíaca y presión arterial. Esto se hace durante al menos 2 horas para detectar si vuelve a dormirse o si presenta efectos adversos."
+    },
+    {
+      "q": "¿El flumazenil puede causar adicción?",
+      "a": "No. El flumazenil en sí no causa dependencia física ni psicológica porque no produce euforia o sedación. De hecho, su efecto es el contrario: quita la sedación."
+    },
+    {
+      "q": "¿Qué hago si veo que a un familiar le dan flumazenil y empieza a convulsionar?",
+      "a": "Grite inmediatamente para llamar a la enfermera o al médico. Ellos están entrenados y tienen a la mano medicamentos (como más benzodiacepinas) para controlar la convulsión rápidamente. No intente sujetar a la persona con fuerza ni meterle nada en la boca."
+    },
+    {
+      "q": "¿Por qué a veces no funciona para despertar a una persona inconsciente?",
+      "a": "Porque la causa de la inconsciencia puede no ser por benzodiacepinas. Podría ser por un derrame cerebral, un golpe en la cabeza, intoxicación por otras drogas, problemas metabólicos (diabetes) o por opioides. El flumazenil solo funciona si la causa son las benzodiacepinas."
+    },
+    {
+      "q": "¿Existe algún antídoto para una sobredosis de flumazenil?",
+      "a": "No hay un antídoto específico. Si se administra demasiado flumazenil y causa agitación o convulsiones, el tratamiento es de soporte: controlar las convulsiones con otros medicamentos (como lorazepam) y esperar a que el cuerpo elimine el flumazenil, lo cual sucede en pocas horas debido a su corta vida media."
+    },
+    {
+      "q": "En un paciente crítico de la UCI sedado con midazolam por días, ¿cuál es la estrategia segura para usar flumazenil y evaluar su estado neurológico?",
+      "a": "Se requiere un protocolo estricto: 1) Asegurar vía aérea y ventilación. 2) Administrar dosis muy bajas y lentas (ej. 0.1 mg cada minuto) titulando hasta la respuesta mínima necesaria. 3) Tener benzodiacepinas (ej. midazolam) listas para reinfundir si aparece abstinencia o convulsiones. 4) Realizar la evaluación neurológica breve y luego permitir que la sedación regrese de manera controlada o mantener una infusión continua de flumazenil a dosis bajas si es necesario, monitoreando constantemente. El objetivo no es despertar completamente al paciente, sino permitir una evaluación intermitente."
+    }
+  ]
+}

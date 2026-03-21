@@ -17,15 +17,44 @@ module.exports = {
         {
             name: 'bienestar',
             cwd: 'd:\\Paginas_web\\pagina\\laboratorio-bienestar',
-            script: 'd:\\Paginas_web\\pagina\\laboratorio-bienestar\\node_modules\\.bin\\next',
+            script: 'server.js',
             // ⚠️ PUERTO 30200 — NO CAMBIAR. NO usar 3000.
-            args: 'start -p 30200',
+            // Custom server.js fixes Next.js 16 CSS chunk serving bug
+            exec_mode: 'fork',
             instances: 1,
             autorestart: true,
             watch: false,
             max_memory_restart: '1G',
             env: {
-                NODE_ENV: 'production'
+                NODE_ENV: 'production',
+                PORT: '30200'
+            }
+        },
+        {
+            name: 'dicom-studio',
+            cwd: 'd:\\\\Paginas_web\\\\pagina\\\\laboratorio-bienestar\\\\tools\\\\dicom-studio',
+            script: 'server.js',
+            exec_mode: 'fork',
+            instances: 1,
+            autorestart: true,
+            watch: false,
+            max_memory_restart: '512M',
+            env: {
+                NODE_ENV: 'production',
+            }
+        },
+        {
+            name: 'medicamentos',
+            cwd: 'd:/Paginas_web/pagina/laboratorio-bienestar/medicamentos.delbienestar.com.mx',
+            script: './server.js',
+            exec_mode: 'fork',
+            instances: 1,
+            autorestart: true,
+            watch: false,
+            max_memory_restart: '1G',
+            env: {
+                NODE_ENV: 'production',
+                PORT: '30221'
             }
         },
         {

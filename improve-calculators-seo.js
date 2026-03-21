@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const glob = require('glob');
 
-const API_KEY = 'AIzaSyBqF81oXZyktHBcjShorbKgz21Z1u4naPM';
+const API_KEY = 'AIzaSyAuvCfkcaZzhlNq73BuM4Dnl5Tw6VSxYeE';
 const MODEL = 'gemini-2.5-flash';
 
 // Configuración de Límites (Nivel Gratuito de Google API = 15 RPM)

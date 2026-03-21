@@ -1,0 +1,412 @@
+{
+  "name": "Cefepima",
+  "summary": "La cefepima es un antibiótico potente de la familia de las cefalosporinas de cuarta generación, utilizado para combatir infecciones graves causadas por una amplia variedad de bacterias. Sirve principalmente para tratar neumonías adquiridas en el hospital, infecciones complicadas del tracto urinario, infecciones de la piel y tejidos blandos, y fiebre en pacientes con defensas bajas (neutropenia febril). Su importancia clínica radica en su capacidad para atacar bacterias que son resistentes a otros antibióticos más antiguos, y porque es estable contra muchas enzimas (beta-lactamasas) que las bacterias producen para defenderse. Esto la convierte en una herramienta crucial en hospitales, especialmente en unidades de cuidados intensivos, para manejar infecciones difíciles y potencialmente mortales. Sin embargo, su uso debe ser supervisado por un médico para evitar el desarrollo de más resistencia bacteriana y solo se administra por vía intravenosa o intramuscular en un entorno médico.",
+  "pharmacology": {
+    "mechanismOfAction": "La cefepima actúa como un antibiótico bactericida, lo que significa que mata directamente a las bacterias. Su mecanismo se basa en interferir con la síntesis de la pared celular bacteriana, una estructura esencial que protege y da forma a la bacteria. La cefepima se une a unas proteínas específicas en la membrana de la bacteria llamadas Proteínas Fijadoras de Penicilina (PBP). Esta unión bloquea el proceso final de entrecruzamiento (cross-linking) de los peptidoglicanos, que son los ladrillos principales de la pared celular. Al no poder formar una pared celular fuerte y estable, la bacteria se debilita, absorbe agua y finalmente estalla (lisis) y muere. Su ventaja como cefalosporina de cuarta generación es su estructura molecular, que le confiere mayor estabilidad frente a las enzimas beta-lactamasas (como las AmpC y algunas ESBL) que muchas bacterias producen para destruir otros antibióticos similares, permitiéndole actuar contra un espectro más amplio de microorganismos resistentes.",
+    "pharmacologicClass": "Antibiótico beta-lactámico; Cefalosporina de cuarta generación.",
+    "therapeuticClass": "Antibiótico sistémico.",
+    "absorption": "La cefepima no se absorbe por vía oral. Debe administrarse por vía parenteral (intramuscular o intravenosa). Cuando se administra por vía intramuscular, la absorción es rápida y casi completa, con una biodisponibilidad cercana al 100%. La concentración máxima en sangre (Cmax) se alcanza aproximadamente entre 1 y 1.5 horas después de una inyección intramuscular.",
+    "distribution": "La cefepima se distribuye ampliamente en los fluidos y tejidos del cuerpo. Atraviesa bien la barrera hematoencefálica cuando las meninges están inflamadas (como en la meningitis), alcanzando concentraciones terapéuticas en el líquido cefalorraquídeo. Se distribuye en líquido pleural, peritoneal, biliar y en hueso. Su unión a proteínas plasmáticas es baja, aproximadamente del 20%, lo que significa que una gran parte del fármaco está libre y disponible para actuar contra las bacterias. Su volumen de distribución (Vd) es de alrededor de 18-20 litros, similar al volumen del agua extracelular.",
+    "metabolism": "La cefepima no sufre un metabolismo hepático significativo. No es sustrato del sistema de enzimas citocromo P450 (CYP450). Se elimina principalmente sin cambios por los riñones. Esto simplifica su perfil de interacciones con otros medicamentos que se metabolizan en el hígado.",
+    "elimination": "La cefepima se elimina casi exclusivamente por los riñones, mediante filtración glomerular. Aproximadamente el 85% de la dosis administrada se excreta sin cambios en la orina en las primeras 24 horas. Su vida media de eliminación en adultos con función renal normal es de aproximadamente 2 horas. En pacientes con insuficiencia renal grave, esta vida media puede prolongarse significativamente (hasta 13-18 horas), por lo que es crucial ajustar la dosis.",
+    "onsetOfAction": "El inicio de acción es rápido. Los niveles en sangre que superan la concentración mínima inhibitoria (CMI) para bacterias sensibles se alcanzan minutos después del final de una infusión intravenosa o poco después de una inyección intramuscular. El efecto bactericida comienza casi de inmediato al alcanzar el sitio de la infección.",
+    "durationOfAction": "Su efecto es dependiente del tiempo, lo que significa que para ser eficaz, los niveles del fármaco deben mantenerse por encima de la CMI de la bacteria durante un porcentaje significativo del intervalo entre dosis. Por esta razón, se administra generalmente cada 8 o 12 horas (en algunos casos cada 24 horas con ajuste por función renal) para mantener una cobertura antibiótica constante."
+  },
+  "indications": {
+    "approved": [
+      "Neumonía adquirida en el hospital (nosocomial)",
+      "Neumonía adquirida en la comunidad de moderada a grave",
+      "Infecciones complicadas del tracto urinario (incluyendo pielonefritis)",
+      "Infecciones complicadas de la piel y estructuras de la piel (como celulitis extensa, heridas infectadas)",
+      "Fiebre en pacientes con neutropenia (defensas bajas) cuando se sospecha infección bacteriana",
+      "Infecciones intraabdominales complicadas (en combinación con metronidazol)"
+    ],
+    "offLabel": [
+      "Tratamiento empírico de meningitis bacteriana (cuando se sospechan patógenos resistentes)",
+      "Profilaxis perioperatoria en cirugías de alto riesgo",
+      "Tratamiento de infecciones por Pseudomonas aeruginosa resistente a otros antibióticos",
+      "Infecciones osteoarticulares (osteomielitis, artritis séptica) por bacilos gramnegativos"
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis habitual para adultos con función renal normal es de 1 a 2 gramos cada 8 a 12 horas, por vía intravenosa. Para infecciones graves o causadas por Pseudomonas aeruginosa, la dosis típica es de 2 gramos cada 8 horas. La vía intramuscular (1 gramo) puede usarse para infecciones menos graves cuando la vía IV no es posible.",
+    "pediatric": "Para niños mayores de 2 meses: 50 mg/kg de peso corporal cada 8 o 12 horas (dosis máxima por dosis: 2 gramos). Para fiebre neutropénica: 50 mg/kg cada 8 horas. La dosis debe calcularse cuidadosamente según el peso y la gravedad de la infección.",
+    "elderly": "En adultos mayores, la función renal suele estar disminuida. Es esencial calcular la tasa de filtración glomerular (TFG) y ajustar la dosis según los esquemas para insuficiencia renal. No se requiere un ajuste solo por edad si la función renal es normal.",
+    "renalImpairment": "Ajustes basados en TFG (ml/min): TFG >60: Dosis normal. TFG 30-60: 1-2 g cada 12-24h. TFG 10-30: 1-2 g cada 24h. TFG <10: 0.5-1 g cada 24h. En diálisis: Administrar dosis después de cada sesión de hemodiálisis, ya que se elimina eficazmente por esta vía.",
+    "hepaticImpairment": "No se requiere ajuste de dosis en insuficiencia hepática, ya que la cefepima no se metaboliza en el hígado. Sin embargo, en casos de insuficiencia hepática y renal combinadas, se deben seguir las recomendaciones para insuficiencia renal.",
+    "maxDose": "La dosis máxima diaria recomendada es de 6 gramos (por ejemplo, 2 gramos cada 8 horas), aunque en infecciones muy graves y bajo estricta supervisión médica se han utilizado dosis más altas."
+  },
+  "dosageForms": [
+    {
+      "form": "Polvo liofilizado para inyección (vial)",
+      "strengths": [
+        "500 mg",
+        "1 g",
+        "2 g"
+      ],
+      "route": "Intravenosa, Intramuscular"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad (alergia) conocida y grave a la cefepima, a cualquier cefalosporina o a cualquier componente de la fórmula.",
+      "Antecedentes de reacción alérgica inmediata o grave (anafilaxia) a cualquier antibiótico beta-lactámico (penicilinas, cefalosporinas, carbapenémicos, monobactámicos)."
+    ],
+    "relative": [
+      "Insuficiencia renal grave (ajustar dosis, no contraindicar si se ajusta).",
+      "Antecedentes de colitis pseudomembranosa (diarrea asociada a antibióticos).",
+      "Pacientes con historial de convulsiones o enfermedad del sistema nervioso central (riesgo de neurotoxicidad)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Dolor e inflamación en el sitio de la inyección (vía IM o IV).",
+      "Dolor de cabeza.",
+      "Náuseas."
+    ],
+    "common": [
+      "Diarrea (puede ser por alteración de la flora intestinal o por colitis).",
+      "Erupción cutánea (rash), prurito (comezón).",
+      "Vómitos.",
+      "Flebitis (inflamación de la vena) con administración IV.",
+      "Pruebas de función hepática elevadas (transaminasas).",
+      "Candidiasis vaginal (infección por hongos)."
+    ],
+    "uncommon": [
+      "Colitis pseudomembranosa (diarrea grave por Clostridioides difficile).",
+      "Reacciones alérgicas como urticaria.",
+      "Mareo.",
+      "Alteración del gusto (disgeusia).",
+      "Trombocitopenia (baja en plaquetas).",
+      "Eosinofilia (aumento de un tipo de glóbulos blancos)."
+    ],
+    "rare": [
+      "Reacción anafiláctica severa.",
+      "Neurotoxicidad: encefalopatía, confusión, alucinaciones, mioclonías (espasmos musculares) y convulsiones (especialmente en pacientes con insuficiencia renal o dosis altas).",
+      "Neutropenia (baja en glóbulos blancos defensivos).",
+      "Anemia hemolítica.",
+      "Nefritis intersticial (daño renal).",
+      "Síndrome de Stevens-Johnson o necrólisis epidérmica tóxica (erupciones cutáneas graves)."
+    ],
+    "blackBoxWarning": "En pacientes con insuficiencia renal que reciben dosis inadecuadamente altas, se ha asociado con un mayor riesgo de neurotoxicidad (incluyendo encefalopatía, alucinaciones, estupor, mioclonías y convulsiones). También existe una advertencia sobre el aumento del riesgo de mortalidad en comparación con carbapenémicos en el tratamiento de neumonía nosocomial, según algunos estudios, por lo que su uso debe basarse en la susceptibilidad bacteriana."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Aminoglucósidos (Gentamicina, Amikacina)",
+        "effect": "Sinergia antibacteriana contra algunas bacterias, pero aumenta el riesgo potencial de daño renal (nefrotoxicidad). Se debe monitorear la función renal.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Diuréticos de asa potentes (Furosemida)",
+        "effect": "Pueden aumentar el riesgo de daño renal cuando se usan con cefepima. Monitorear función renal.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Probenecid",
+        "effect": "Bloquea la excreción renal de la cefepima, aumentando y prolongando sus niveles en sangre. Esto puede aumentar el riesgo de efectos adversos, especialmente neurotoxicidad. Generalmente no se recomienda la combinación.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Anticoagulantes (Warfarina)",
+        "effect": "La cefepima puede alterar la flora intestinal que produce vitamina K, potencialmente potenciando el efecto anticoagulante y aumentando el riesgo de sangrado. Se debe monitorear el INR estrechamente.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "No aplica, ya que se administra por vía parenteral. No hay interacciones directas con alimentos. El alcohol no interfiere directamente con el fármaco, pero su consumo durante una infección grave no es recomendable y puede empeorar algunos efectos secundarios como náuseas o mareo.",
+    "withSupplements": "No se conocen interacciones clínicamente significativas con suplementos vitamínicos o herbales. Sin embargo, suplementos que afecten la función renal (como altas dosis de vitamina C) podrían, en teoría, influir en la eliminación del fármaco."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "B",
+      "recommendation": "Estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. La cefepima debe usarse durante el embarazo solo si claramente es necesario, después de que el médico evalúe los beneficios versus los riesgos potenciales. Cruza la placenta y puede llegar al feto.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La cefepima se excreta en la leche materna en concentraciones bajas. Debido al potencial de efectos adversos graves en el lactante (como alteración de la flora intestinal, diarrea o candidiasis) y la posibilidad de sensibilización/alergia, se recomienda precaución. Se sugiere suspender la lactancia temporalmente o usar leche materna extraída y desechada durante el tratamiento y por 48 horas después de la última dosis, según criterio médico.",
+    "pediatric": "Seguro y efectivo para niños mayores de 2 meses. La dosis se basa en el peso corporal. En neonatos (menores de 2 meses), su uso debe ser bajo estricta supervisión médica y con ajustes de dosis especiales debido a la inmadurez de la función renal.",
+    "geriatric": "Los pacientes mayores de 65 años tienen mayor probabilidad de tener función renal disminuida. Es IMPRESCINDIBLE calcular la TFG y ajustar la dosis para evitar acumulación del fármaco, neurotoxicidad (convulsiones, confusión) y nefrotoxicidad. También son más susceptibles a la colitis por C. difficile. Se debe vigilar estrechamente el estado mental y la función renal."
+  },
+  "administration": {
+    "howToTake": "La cefepima se administra SOLO por un profesional de la salud en un hospital, clínica o, excepcionalmente, en casa por enfermería especializada. Se puede dar por inyección lenta en un músculo (IM) o, más comúnmente, diluida en un líquido (suero) que se infunde lentamente en una vena (IV) durante 30 minutos. Nunca se toma por boca. El polvo del vial se reconstituye con un líquido estéril (agua para inyección, suero salino) según las instrucciones del fabricante antes de su uso.",
+    "storage": "Los viales de polvo sin reconstituir deben almacenarse a temperatura ambiente (15-30°C), protegidos de la luz y la humedad. Una vez reconstituido, la solución es estable a temperatura ambiente por 24 horas, y refrigerada (2-8°C) por 7 días. Las soluciones para infusión IV preparadas en bolsas de suero son estables por 24 horas a temperatura ambiente y 7 días refrigeradas. No congelar.",
+    "specialInstructions": "Informar siempre al médico si se es alérgico a penicilinas u otros antibióticos. Completar TODO el tratamiento prescrito, incluso si se siente mejor, para evitar que la infección regrese y que las bacterias se vuelvan resistentes. La diarrea acuosa o con sangre durante o después del tratamiento puede ser un signo de colitis grave; informar al médico de inmediato. En pacientes con diabetes, la cefepima puede causar falsos positivos en pruebas de glucosa en orina con métodos que usan cobre reductores (como Clinitest); usar tiras reactivas con glucosa oxidasa."
+  },
+  "monitoring": {
+    "labTests": [
+      "Conteo sanguíneo completo (CSC) para vigilar glóbulos blancos y plaquetas.",
+      "Pruebas de función renal (creatinina sérica, TFG calculada).",
+      "Pruebas de función hepática (transaminasas AST/ALT).",
+      "Cultivos bacterianos y pruebas de sensibilidad (antibiograma) para guiar la terapia.",
+      "Niveles de electrolitos (sodio, potasio)."
+    ],
+    "frequency": "En tratamientos prolongados (>7 días), se recomienda monitorear CSC y función renal 1-2 veces por semana. La función renal debe evaluarse al inicio y periódicamente, especialmente en pacientes de riesgo.",
+    "signsToWatch": [
+      "Signos de reacción alérgica: erupción cutánea, comezón, hinchazón de cara/lengua, dificultad para respirar.",
+      "Diarrea acuosa o con sangre, dolor abdominal fuerte o fiebre (posible colitis).",
+      "Convulsiones, confusión, alucinaciones, espasmos musculares (neurotoxicidad).",
+      "Sangrado o moretones inusuales.",
+      "Fiebre persistente o que empeora a pesar del tratamiento.",
+      "Dolor, enrojecimiento o hinchazón excesiva en el sitio de la inyección."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Los síntomas de sobredosis están relacionados principalmente con efectos neurotóxicos y renales: convulsiones, encefalopatía (confusión, agitación, estupor), mioclonías (espasmos).",
+      "Náuseas y vómitos exacerbados.",
+      "Pérdida de la audición o acúfenos (zumbido en oídos) en casos muy graves.",
+      "Insuficiencia renal aguda."
+    ],
+    "treatment": "No existe un antídoto específico. El tratamiento es de soporte y sintomático. En caso de convulsiones, se administran anticonvulsivantes (benzodiacepinas). La hemodiálisis es MUY EFECTIVA para eliminar la cefepima del torrente sanguíneo (elimina aproximadamente el 68% de la dosis en 3 horas) y es el tratamiento de elección en casos de sobredosis grave, especialmente en pacientes con insuficiencia renal. Se debe mantener la hidratación y monitorear funciones vitales.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (receta archivada en México para antibióticos inyectables de alto impacto).",
+    "scheduleMexico": "Medicamento de prescripción restringida, sujeto a control sanitario. Pertenece al grupo de antibióticos de uso hospitalario y vigilancia epidemiológica.",
+    "fdaApprovalYear": "1996"
+  },
+  "brandsMexico": [
+    "Cefepima Genfar",
+    "Cefepima Pisa",
+    "Cefepima Liomont",
+    "Maxipime",
+    "Cefepima Ariston",
+    "Cefepima Denver Farma",
+    "Cefepima Valdecasas",
+    "Cefepima Best",
+    "Cefepima Sanfer",
+    "Cefepima Laproff",
+    "Cefepima Rimsa",
+    "Cefepima Alpharma",
+    "Cefepima MK",
+    "Cefepima Landsteiner"
+  ],
+  "clinicalPearls": [
+    "La cefepima es un 'antibiótico de amplio espectro' reservado para infecciones graves, principalmente intrahospitalarias. No debe usarse para infecciones leves como una gripa o un dolor de garganta común.",
+    "Su mayor ventaja es la estabilidad frente a beta-lactamasas de tipo AmpC, común en bacterias como Enterobacter, Serratia y Citrobacter, que inactivan cefalosporinas de tercera generación.",
+    "El ajuste de dosis por función renal es NO NEGOCIABLE. Administrar la dosis estándar a un paciente con TFG baja es la causa principal de neurotoxicidad (convulsiones).",
+    "En pacientes con alergia a penicilina de tipo retardado (erupción cutánea), el riesgo de reacción cruzada con cefepima es bajo (<5%). En alergia inmediata (anafilaxia), el riesgo es mayor y generalmente se contraindica.",
+    "Para infecciones por Pseudomonas aeruginosa, a menudo se usa en combinación con un aminoglucósido (como amikacina) por sinergia, pero se monitorea la función renal estrechamente."
+  ],
+  "patientCounseling": "La cefepima es un antibiótico fuerte que se pone en la vena o el músculo, solo en un hospital o clínica. Es muy importante que complete todas las dosis que le indique el médico, aunque ya se sienta mejor, para matar todas las bacterias y evitar que la infección regrese más fuerte. Avise de inmediato si le sale roncha, le da comezón, se le hincha la cara o le cuesta respirar. Si le da diarrea líquida o con sangre, o mucho dolor de estómago, no se automedique y avise a su médico, podría ser una infección en el intestino por el mismo tratamiento. Si tiene diabetes, este medicamento puede alterar algunas pruebas de azúcar en orina; coméntelo con su médico. Manténgase bien hidratado tomando agua. Este medicamento no se debe compartir ni guardar para otra ocasión.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre alta",
+        "slug": "fiebre-alta"
+      },
+      {
+        "name": "Escalofríos",
+        "slug": "escalofrios"
+      },
+      {
+        "name": "Dolor al orinar",
+        "slug": "dolor-al-orinar"
+      },
+      {
+        "name": "Tos con flemas purulentas",
+        "slug": "tos-con-flemas"
+      },
+      {
+        "name": "Dolor e hinchazón en la piel",
+        "slug": "dolor-hinchazon-piel"
+      },
+      {
+        "name": "Dolor abdominal intenso",
+        "slug": "dolor-abdominal-intenso"
+      },
+      {
+        "name": "Confusión o desorientación",
+        "slug": "confusion-desorientacion"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Neumonía",
+        "slug": "neumonia"
+      },
+      {
+        "name": "Pielonefritis (infección del riñón)",
+        "slug": "pielonefritis"
+      },
+      {
+        "name": "Sepsis",
+        "slug": "sepsis"
+      },
+      {
+        "name": "Celulitis",
+        "slug": "celulitis"
+      },
+      {
+        "name": "Infección intraabdominal",
+        "slug": "infeccion-intraabdominal"
+      },
+      {
+        "name": "Neutropenia febril",
+        "slug": "neutropenia-febril"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Insuficiencia renal aguda",
+        "slug": "insuficiencia-renal-aguda"
+      },
+      {
+        "name": "Colitis pseudomembranosa",
+        "slug": "colitis-pseudomembranosa"
+      },
+      {
+        "name": "Encefalopatía tóxica",
+        "slug": "encefalopatia-toxica"
+      },
+      {
+        "name": "Reacción anafiláctica",
+        "slug": "reaccion-anafilactica"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar (indicativo de daño renal)"
+      },
+      {
+        "name": "Recuento de neutrófilos",
+        "slug": "recuento-neutrofilos",
+        "effect": "Puede disminuir (neutropenia)"
+      },
+      {
+        "name": "Recuento de plaquetas",
+        "slug": "recuento-plaquetas",
+        "effect": "Puede disminuir (trombocitopenia)"
+      },
+      {
+        "name": "Transaminasas (AST/ALT)",
+        "slug": "transaminasas",
+        "effect": "Puede elevar (hepatotoxicidad)"
+      },
+      {
+        "name": "Eosinófilos",
+        "slug": "eosinofilos",
+        "effect": "Puede elevar (reacción alérgica)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Cultivo y antibiograma",
+        "slug": "cultivo-antibiograma",
+        "reason": "Identificar la bacteria causante y su sensibilidad a la cefepima."
+      },
+      {
+        "name": "Creatinina sérica y TFG",
+        "slug": "creatinina-tfg",
+        "reason": "Esencial para ajustar la dosis y prevenir toxicidad."
+      },
+      {
+        "name": "Conteo sanguíneo completo",
+        "slug": "conteo-sanguineo-completo",
+        "reason": "Monitorear efectos en células sanguíneas."
+      },
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-funcion-hepatica",
+        "reason": "Detectar posible hepatotoxicidad."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La cefepima es para la gripa o el dolor de garganta?",
+      "a": "No. La cefepima es un antibiótico muy fuerte reservado para infecciones bacterianas graves, generalmente tratadas en el hospital. Para la gripa (causada por virus) o una infección de garganta común, no sirve y su uso inadecuado crea bacterias resistentes."
+    },
+    {
+      "q": "¿Me la puedo tomar en pastillas?",
+      "a": "No. La cefepima solo existe en forma de inyección (en la vena o el músculo). No hay tabletas, cápsulas ni jarabe. Debe ser administrada por un profesional de la salud."
+    },
+    {
+      "q": "¿Cuánto tiempo dura el tratamiento?",
+      "a": "La duración depende de la infección. Puede ser desde 7 a 14 días, o más en infecciones muy graves como osteomielitis. Su médico determinará el tiempo exacto. Es crucial completar TODO el tratamiento."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si me están poniendo cefepima?",
+      "a": "No es recomendable. Aunque no hay una interacción química directa grave, el alcohol puede debilitar su sistema inmunológico, empeorar efectos como náuseas o mareo, y su cuerpo necesita energía para combatir la infección."
+    },
+    {
+      "q": "¿La cefepima me puede dar diarrea?",
+      "a": "Sí, la diarrea es un efecto común porque el antibiótico altera la flora normal del intestino. Si la diarrea es muy líquida, abundante, con sangre o fiebre, DEBE avisar a su médico de inmediato, podría ser una colitis grave."
+    },
+    {
+      "q": "¿Es cierto que puede causar convulsiones?",
+      "a": "Sí, pero es un efecto raro que ocurre principalmente si la dosis es muy alta para la función renal del paciente (no se ajustó en insuficiencia renal) o en personas con enfermedades del sistema nervioso. Por eso es vital el monitoreo médico."
+    },
+    {
+      "q": "¿Si soy alérgico a la penicilina, puedo usar cefepima?",
+      "a": "Depende del tipo de alergia. Si fue una alergia leve (como salpullido), el riesgo es bajo pero existe. Si fue una reacción grave (dificultad para respirar, hinchazón), generalmente NO se debe usar. INFORME SIEMPRE SU ALERGIA ANTES DE RECIBIR EL MEDICAMENTO."
+    },
+    {
+      "q": "¿Me puede afectar los riñones?",
+      "a": "Puede, especialmente si ya tiene problemas renales o si se usa con otros medicamentos que dañan el riñón. Por eso el médico pide exámenes de creatinina y ajusta la dosis según su función renal."
+    },
+    {
+      "q": "¿Duele la inyección?",
+      "a": "La inyección intramuscular puede doler. La intravenosa no duele si se coloca bien, pero puede causar irritación en la vena (flebitis). Comunique si el sitio de la inyección se pone muy rojo, caliente o doloroso."
+    },
+    {
+      "q": "¿Puedo manejar o operar maquinaria durante el tratamiento?",
+      "a": "Tenga precaución. La cefepima puede causar mareo, dolor de cabeza y, raramente, confusión. Si experimenta estos efectos, evite actividades que requieran alerta hasta que se sienta bien."
+    },
+    {
+      "q": "¿Qué hago si olvidé una dosis en el hospital?",
+      "a": "En el hospital, el personal de enfermería lleva el control. Si usted es responsable de su administración domiciliaria (raro), contacte a su médico o enfermera para reprogramar la dosis olvidada. Nunca duplique la dosis."
+    },
+    {
+      "q": "¿La cefepima anula el efecto de las pastillas anticonceptivas?",
+      "a": "No hay evidencia de que la cefepima reduzca la efectividad de los anticonceptivos hormonales orales. Sin embargo, si presenta vómitos o diarrea severa, la absorción de la pastilla puede verse afectada; use un método de respaldo."
+    },
+    {
+      "q": "¿Sirve para infecciones de los dientes o muelas?",
+      "a": "No es el antibiótico de primera elección para infecciones dentales comunes. Se reserva para casos muy graves y complicados con extensión a otros tejidos, siempre bajo supervisión de un especialista."
+    },
+    {
+      "q": "¿Puedo comer de todo durante el tratamiento?",
+      "a": "No hay restricciones dietéticas específicas. Se recomienda una dieta balanceada para ayudar a la recuperación. Si tiene diarrea, evite alimentos grasosos, picantes o muy azucarados. Manténgase bien hidratado."
+    },
+    {
+      "q": "¿Por qué a veces la combinan con otro antibiótico?",
+      "a": "Para cubrir un espectro más amplio de bacterias (tratamiento empírico) o para lograr un efecto sinérgico (más potente) contra bacterias difíciles como la Pseudomonas. También para reducir el riesgo de que se desarrolle resistencia."
+    },
+    {
+      "q": "¿Qué significa 'cefalosporina de cuarta generación'?",
+      "a": "Significa que es una versión más avanzada y resistente de los antibióticos tipo cefalosporina. Tiene la capacidad de atacar tanto bacterias Gram-positivas como Gram-negativas, y es más estable contra las enzimas que destruyen otros antibióticos similares."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre cefepima y ceftriaxona?",
+      "a": "Ambas son cefalosporinas, pero la ceftriaxona es de tercera generación. La cefepima (4ta) tiene un espectro más amplio contra bacterias Gram-negativas resistentes (como algunas con enzimas AmpC) y penetra mejor en algunos tejidos. La elección la hace el médico según la bacteria sospechosa."
+    },
+    {
+      "q": "¿Es seguro en niños?",
+      "a": "Sí, es seguro y efectivo en niños mayores de 2 meses. La dosis se calcula con precisión según el peso del niño. En recién nacidos, se usa con mucha precaución y ajuste especial."
+    },
+    {
+      "q": "¿Puede alterar los resultados de laboratorio?",
+      "a": "Sí. Puede causar falso positivo en pruebas de glucosa en orina que usan métodos de reducción del cobre (no en tiras reactivas modernas). También puede elevar transaminasas y alterar los conteos sanguíneos."
+    },
+    {
+      "q": "¿Cuándo se considera que el tratamiento con cefepima ha fallado?",
+      "a": "Si después de 48-72 horas de tratamiento adecuado, la fiebre persiste o empeora, los síntomas no mejoran, o los cultivos muestran que la bacteria es resistente. En ese caso, el médico reevaluará y posiblemente cambiará el antibiótico según el antibiograma."
+    }
+  ]
+}

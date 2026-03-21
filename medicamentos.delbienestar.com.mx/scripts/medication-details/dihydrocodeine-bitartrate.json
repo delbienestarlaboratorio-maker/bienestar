@@ -1,0 +1,439 @@
+{
+  "name": "Dihidrocodeína Bitartrato",
+  "summary": "La dihidrocodeína bitartrato es un medicamento analgésico opioide semisintético derivado de la codeína, utilizado para el alivio del dolor moderado a severo cuando otros analgésicos no opioides no son suficientes. Actúa en el sistema nervioso central para reducir la percepción del dolor y también tiene propiedades antitusígenas (para la tos). Es un medicamento de importancia clínica en el manejo del dolor postoperatorio, dolor oncológico y dolor crónico no oncológico, pero debido a su potencial de causar dependencia y depresión respiratoria, su uso está estrictamente regulado y requiere supervisión médica estrecha. En México, es un fármaco de segunda línea dentro de los opioides débiles y su prescripción debe seguir los lineamientos de la Norma Oficial Mexicana para el manejo del dolor. Su utilidad radica en ofrecer una alternativa a la codeína con un perfil de potencia intermedia, pero conlleva los mismos riesgos de efectos adversos y abuso que caracterizan a esta clase de medicamentos.",
+  "pharmacology": {
+    "mechanismOfAction": "La dihidrocodeína ejerce su efecto analgésico principal al unirse a los receptores opioides mu (μ) en el sistema nervioso central, especialmente en el cerebro y la médula espinal. Esta unión activa los receptores, lo que resulta en una inhibición de la liberación de neurotransmisores como la sustancia P y modula la transmisión de las señales de dolor hacia el cerebro, elevando el umbral del dolor. Además, activa receptores kappa (κ), contribuyendo al efecto analgésico. Al igual que otros opioides, su acción en el tronco encefálico produce depresión respiratoria y supresión de la tos (acción antitusígena), y en el sistema límbico altera la respuesta emocional al dolor. Su metabolito activo, la dihidromorfina, tiene una afinidad aún mayor por los receptores mu, potenciando el efecto. Es un agonista opioide puro, sin actividad antagonista.",
+    "pharmacologicClass": "Agonista de receptores opioides mu y kappa; Derivado semisintético del alcaloide del opio; Analgésico narcótico; Antitusígeno.",
+    "therapeuticClass": "Analgésico Opioide (Opioide Débil).",
+    "absorption": "Se absorbe bien por vía oral, con una biodisponibilidad aproximada del 20-30% debido a un efecto de primer paso hepático significativo. La concentración plasmática máxima (Cmax) se alcanza en aproximadamente 1.5 a 2 horas después de la administración oral. La presencia de alimentos puede retrasar ligeramente la absorción pero no afecta de manera clínicamente significativa la biodisponibilidad total.",
+    "distribution": "Se distribuye ampliamente por los tejidos corporales. Cruza la barrera hematoencefálica, lo que permite su acción central. También cruza la placenta y se excreta en la leche materna. Su volumen de distribución (Vd) es de aproximadamente 1-1.5 L/kg. La unión a proteínas plasmáticas es baja, menor al 20%.",
+    "metabolism": "Se metaboliza extensamente en el hígado a través de dos vías principales: O-desmetilación (mediada principalmente por la enzima CYP2D6) para formar dihidromorfina, su metabolito activo y más potente; y N-desmetilación (mediada por CYP3A4) para formar nordihidrocodeína. La actividad de la CYP2D6 es polimórfica, lo que significa que los pacientes metabolizadores ultrarrápidos pueden tener un efecto mayor y más rápido (riesgo de toxicidad), mientras que los metabolizadores pobres pueden tener una respuesta analgésica disminuida. También sufre glucuronidación.",
+    "elimination": "La vida media de eliminación de la dihidrocodeína es de aproximadamente 3.5 a 5 horas. Se elimina principalmente por vía renal, donde aproximadamente el 30-40% de la dosis se excreta sin cambios en la orina en 24 horas. El resto se excreta como metabolitos (dihidromorfina, nordihidrocodeína y sus conjugados). En pacientes con insuficiencia renal, la vida media se prolonga significativamente.",
+    "onsetOfAction": "El inicio del alivio del dolor por vía oral ocurre generalmente entre 30 y 60 minutos después de la administración.",
+    "durationOfAction": "La duración del efecto analgésico es de aproximadamente 4 a 6 horas, lo que requiere administraciones múltiples al día para el control del dolor continuo."
+  },
+  "indications": {
+    "approved": [
+      "Alivio del dolor moderado a severo (por ejemplo, postoperatorio, dolor musculoesquelético agudo)",
+      "Tos seca e irritativa no productiva (como antitusígeno), cuando otros tratamientos no son efectivos"
+    ],
+    "offLabel": [
+      "Manejo del dolor neuropático (en combinación con otros fármacos)",
+      "Dolor oncológico (como opioide de segunda o tercera línea)",
+      "Crisis de dolor en pacientes con dolor crónico no oncológico"
+    ]
+  },
+  "dosage": {
+    "adults": "Para el dolor: Inicial, 30 mg cada 4-6 horas según sea necesario. La dosis puede ajustarse según la respuesta y tolerancia. Rango habitual: 30-60 mg cada 4-6 horas. Para la tos: Dosis menores, típicamente 10-15 mg cada 4-6 horas, sin exceder 60 mg en 24 horas.",
+    "pediatric": "NO recomendado de rutina en niños menores de 12 años debido al riesgo de depresión respiratoria y variabilidad en el metabolismo por CYP2D6. En algunos contextos hospitalarios bajo estricta supervisión, para mayores de 12 años puede usarse una dosis de 0.5-1 mg/kg/día dividida en 4-6 dosis, con un máximo de 30 mg por dosis.",
+    "elderly": "Iniciar con la dosis más baja posible (ej. 15-20 mg cada 6-8 horas) debido a la disminución del aclaramiento renal, mayor sensibilidad a los efectos y mayor riesgo de efectos adversos (confusión, mareo, estreñimiento). Ajustar lentamente.",
+    "renalImpairment": "Ajuste necesario. TFG 30-60 mL/min: Reducir dosis en un 25-50% y aumentar el intervalo a cada 6-8 horas. TFG 15-30 mL/min: Reducir dosis en un 50-75% y administrar cada 8-12 horas. TFG <15 mL/min o diálisis: Evitar o usar con extrema precaución, dosis mínima y monitoreo estrecho. Se elimina por hemodiálisis.",
+    "hepaticImpairment": "Usar con precaución y en dosis reducidas (iniciar con 50% de la dosis) en insuficiencia hepática leve a moderada, debido a la disminución del metabolismo y mayor riesgo de acumulación. Contraindicado en insuficiencia hepática severa.",
+    "maxDose": "La dosis máxima diaria para adultos no debe exceder los 240 mg en 24 horas, aunque la dosis efectiva suele ser menor. Siempre usar la dosis efectiva más baja durante el menor tiempo posible."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "15 mg",
+        "30 mg",
+        "60 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tableta de liberación prolongada",
+      "strengths": [
+        "60 mg",
+        "90 mg",
+        "120 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Jarabe o solución oral",
+      "strengths": [
+        "10 mg/5 mL"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tableta efervescente",
+      "strengths": [
+        "30 mg"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la dihidrocodeína, codeína u otros opioides",
+      "Depresión respiratoria aguda o severa",
+      "Asma bronquial aguda o severa (en ausencia de equipo de reanimación)",
+      "Parálisis intestinal (íleo paralítico)",
+      "Uso concomitante con inhibidores de la monoaminooxidasa (IMAOs) o en las 2 semanas posteriores a su suspensión",
+      "Insuficiencia hepática severa",
+      "Apnea del sueño no tratada o hipoventilación"
+    ],
+    "relative": [
+      "Lesión cerebral traumática, hipertensión intracraneal",
+      "Enfermedad pulmonar obstructiva crónica (EPOC) severa, cor pulmonale",
+      "Arritmias cardíacas",
+      "Insuficiencia renal moderada a severa",
+      "Hipotiroidismo, mixedema",
+      "Adicción a opioides (activa o en remisión)",
+      "Hipertrofia prostática o estenosis uretral",
+      "Enfermedades de la vesícula biliar o pancreatitis",
+      "Convulsiones o trastornos convulsivos",
+      "Edad avanzada o estado debilitado"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Estreñimiento",
+      "Náuseas",
+      "Vómitos",
+      "Mareo, vértigo",
+      "Somnolencia, sedación"
+    ],
+    "common": [
+      "Sequedad de boca",
+      "Sudoración",
+      "Prurito (picazón) generalizado o localizado",
+      "Rubor facial",
+      "Confusión mental (especialmente en ancianos)",
+      "Cefalea"
+    ],
+    "uncommon": [
+      "Cambios de humor, euforia, disforia",
+      "Visión borrosa",
+      "Hipotensión ortostática (mareo al levantarse)",
+      "Retención urinaria",
+      "Bradicardia (frecuencia cardíaca lenta)",
+      "Espasmos biliares"
+    ],
+    "rare": [
+      "Alucinaciones",
+      "Depresión respiratoria severa",
+      "Dependencia física y psicológica",
+      "Síndrome de serotonina (si se combina con otros serotonérgicos)",
+      "Convulsiones",
+      "Reacciones alérgicas (rash, angioedema)"
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Alcohol, benzodiacepinas (diazepam, alprazolam), hipnóticos (zolpidem)",
+        "effect": "Depresión del sistema nervioso central aditiva. Riesgo severo de sedación profunda, depresión respiratoria, coma y muerte.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores de la CYP2D6 (Fluoxetina, Paroxetina, Quinidina, Bupropión)",
+        "effect": "Disminuyen la conversión a dihidromorfina (metabolito activo), reduciendo potencialmente el efecto analgésico y aumentando los niveles de dihidrocodeína.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inductores de la CYP3A4 (Rifampicina, Carbamazepina, Fenitoína, Hierba de San Juan)",
+        "effect": "Aumentan el metabolismo de la dihidrocodeína, disminuyendo su concentración plasmática y efecto analgésico.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inhibidores de la CYP3A4 (Ketoconazol, Itraconazol, Claritromicina, Ritonavir)",
+        "effect": "Disminuyen el metabolismo de la dihidrocodeína, aumentando sus niveles plasmáticos y el riesgo de toxicidad (sedación, depresión respiratoria).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Otros opioides (morfina, oxicodona, tramadol), relajantes musculares (ciclobenzaprina)",
+        "effect": "Efectos aditivos sobre el SNC y depresión respiratoria.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores de la recaptación de serotonina (ISRS), IRSN, triptanes, IMAOs",
+        "effect": "Riesgo de síndrome serotoninérgico (agitación, alucinaciones, taquicardia, hipertermia).",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "El alcohol está absolutamente contraindicado por el riesgo de depresión respiratoria severa y muerte. Los alimentos grasos pueden retrasar ligeramente la absorción pero no contraindican su toma con comida, lo cual puede ayudar a reducir las náuseas.",
+    "withSupplements": "Evitar la Hierba de San Juan (inductor de CYP3A4). Tener precaución con suplementos que causen sedación (valeriana, kava, melatonina en dosis altas)."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "C",
+      "recommendación": "Solo debe usarse durante el embarazo si el beneficio potencial justifica claramente el riesgo para el feto. Su uso prolongado puede causar dependencia física en el recién nacido y síndrome de abstinencia neonatal (irritabilidad, hipertonía, llanto agudo, dificultad para alimentarse). Evitar su uso cerca del parto por riesgo de depresión respiratoria neonatal.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La dihidrocodeína se excreta en la leche materna en cantidades bajas. Sin embargo, debido a su potencial de causar sedación, dificultad respiratoria y dependencia en el lactante, y a la variabilidad en el metabolismo materno (riesgo en madres metabolizadoras ultrarrápidas), generalmente se recomienda NO USAR durante la lactancia. Si es absolutamente necesario, se debe usar la dosis más baja posible y monitorear al bebé por somnolencia excesiva, dificultad para alimentarse o respiración lenta.",
+    "pediatric": "No se recomienda para el tratamiento del dolor o la tos en niños menores de 12 años. En adolescentes (12-18 años), usar con extrema precaución, especialmente si tienen factores de riesgo como obesidad, apnea del sueño o problemas respiratorios, debido al riesgo aumentado de depresión respiratoria. La dosis debe calcularse cuidadosamente por peso.",
+    "geriatric": "Los pacientes mayores de 65 años son más sensibles a los efectos de los opioides. Presentan mayor riesgo de confusión, mareo, sedación, caídas, estreñimiento severo y retención urinaria. Se debe iniciar con dosis bajas (25-50% de la dosis adulta) y aumentar muy lentamente. Monitorear estrechamente la función renal."
+  },
+  "administration": {
+    "howToTake": "Tomar exactamente como lo recetó el médico. Las tabletas se toman por vía oral con un vaso lleno de agua. Pueden tomarse con o sin alimentos para reducir las náuseas. Las tabletas de liberación prolongada NO deben partirse, triturarse o masticarse, ya que esto liberaría toda la dosis de una vez, causando riesgo de sobredosis. Para el jarabe, usar el dosificador proporcionado (cuchara o jeringa). No aumentar la dosis ni la frecuencia por cuenta propia. Si el dolor no se controla, consultar al médico.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (15-30°C), lejos del calor, la humedad y la luz directa. Mantener fuera del alcance y vista de los niños y mascotas, en un lugar seguro preferentemente bajo llave, debido a su potencial de abuso.",
+    "specialInstructions": "Este medicamento puede causar somnolencia y mareo. No conducir vehículos, operar maquinaria peligrosa o realizar actividades que requieran alerta hasta conocer cómo le afecta. Evitar levantarse rápidamente de la cama o de una silla. Para prevenir el estreñimiento, aumentar la ingesta de líquidos, fibra en la dieta y hacer ejercicio si es posible; el médico puede recomendar un laxante. Informar al médico si se presenta dificultad para respirar, somnolencia extrema o confusión."
+  },
+  "monitoring": {
+    "labTests": [
+      "Función renal (creatinina sérica, TFG)",
+      "Pruebas de función hepática (transaminasas, bilirrubina)",
+      "Conteo sanguíneo completo (CSC) en uso crónico",
+      "Niveles de gasometría arterial si hay sospecha de depresión respiratoria"
+    ],
+    "frequency": "Evaluación clínica del dolor y efectos adversos en cada consulta. Pruebas de laboratorio basal y periódicamente (cada 6-12 meses) en uso crónico, o según la condición del paciente.",
+    "signsToWatch": [
+      "Dificultad para respirar o respiración lenta/superficial",
+      "Somnolencia extrema o dificultad para despertar",
+      "Confusión, alucinaciones",
+      "Frecuencia cardíaca muy lenta",
+      "Mareo intenso o desmayo",
+      "Ausencia de evacuaciones por 3 días o más (estreñimiento severo)",
+      "Náuseas o vómitos persistentes",
+      "Signos de dependencia o uso inadecuado"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Depresión respiratoria (respiración lenta, superficial o ausente)",
+      "Somnolencia extrema progresando a estupor o coma",
+      "Pupilas puntiformes (miosis)",
+      "Hipotensión severa y shock",
+      "Bradicardia (ritmo cardíaco lento)",
+      "Hipotermia (temperatura corporal baja)",
+      "Músculos flácidos",
+      "Paro cardiorrespiratorio y muerte."
+    ],
+    "treatment": "EMERGENCIA MÉDICA INMEDIATA. Mantener la vía aérea y asistir la ventilación (oxígeno, intubación si es necesario). Administrar el antídoto específico. Monitoreo continuo de signos vitales. Descontaminación gástrica (carbón activado) solo si el paciente llega dentro de 1-2 horas de la ingestión y está consciente. Soporte de fluidos y vasopresores para la hipotensión.",
+    "antídote": "NALOXONA (Narcan). Es un antagonista competitivo de los receptores opioides. Se administra por vía intravenosa, intramuscular, subcutánea o intranasal. La dosis se repite según sea necesario, ya que su vida media es más corta que la de la dihidrocodeína, pudiendo requerirse infusiones continuas."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (receta controlada).",
+    "scheduleMexico": "Fracción II (Dos) del Cuadro Básico de la Ley General de Salud. Sustancia sujeta a control especial por su potencial de abuso y dependencia. La receta debe expedirse en formato oficial y retenerse en la farmacia.",
+    "fdaApprovalYear": "No está aprobado por la FDA de EE. UU. como monodroga. Está disponible y regulado en Europa, México y otros países."
+  },
+  "brandsMexico": [
+    "DHC Continus",
+    "Dolvan",
+    "Paramol",
+    "DF-118",
+    "Rikodeine",
+    "Novicodina",
+    "Dihydrin",
+    "Codhydrine"
+  ],
+  "clinicalPearls": [
+    "La respuesta analgésica varía significativamente entre pacientes debido al polimorfismo genético de la enzima CYP2D6. Los 'metabolizadores ultrarrápidos' convierten más dihidrocodeína en dihidromorfina, teniendo mayor efecto y riesgo de toxicidad, mientras que los 'metabolizadores pobres' pueden tener poco alivio del dolor.",
+    "Aunque se clasifica como un 'opioide débil', su potencia es aproximadamente el doble que la de la codeína. 30 mg de dihidrocodeína son equipotentes a aproximadamente 200 mg de ibuprofeno en términos analgésicos, pero con un perfil de riesgo completamente diferente.",
+    "Para el manejo del dolor crónico no oncológico, debe ser parte de un plan multimodal que incluya analgésicos no opioides, terapia física y manejo psicológico. Nunca debe ser el único tratamiento.",
+    "El estreñimiento inducido por opioides es casi universal y no desarrolla tolerancia. Se debe instituir un régimen profiláctico con laxantes (como polietilenglicol o lactulosa) desde el primer día de tratamiento.",
+    "La suspensión brusca después de un uso prolongado (más de 2-3 semanas) puede desencadenar un síndrome de abstinencia (ansiedad, insomnio, sudoración, diarrea, dolor abdominal). Se debe realizar una disminución gradual (destete) de la dosis bajo supervisión médica."
+  ],
+  "patientCounseling": "Este medicamento es para aliviar su dolor y debe usarse exactamente como se lo recetó su médico. No aumente la dosis ni la tome con más frecuencia, aunque el dolor regrese, porque eso puede causar una sobredosis peligrosa. Puede causarle sueño y mareo, así que evite manejar o hacer actividades peligrosas hasta que sepa cómo le afecta. Es muy importante que no consuma alcohol, pastillas para dormir o tranquilizantes mientras lo toma, ya que esta combinación puede detener su respiración. Para evitar el estreñimiento, tome mucha agua, coma frutas, verduras y fibra, y avise a su médico si no evacua por varios días. Guarde el medicamento en un lugar seguro, lejos del alcance de otras personas. Si siente que le falta el aire, está muy somnoliento o confundido, busque atención médica de inmediato. Cuando ya no lo necesite, no lo suspenda de golpe; su médico le indicará cómo reducirlo poco a poco.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor moderado",
+        "slug": "dolor-moderado"
+      },
+      {
+        "name": "Dolor severo",
+        "slug": "dolor-severo"
+      },
+      {
+        "name": "Tos seca",
+        "slug": "tos-seca"
+      },
+      {
+        "name": "Tos irritativa",
+        "slug": "tos-irritativa"
+      },
+      {
+        "name": "Dolor postoperatorio",
+        "slug": "dolor-postoperatorio"
+      },
+      {
+        "name": "Dolor musculoesqueletico",
+        "slug": "dolor-musculoesqueletico"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Dolor agudo",
+        "slug": "dolor-agudo"
+      },
+      {
+        "name": "Dolor cronico no oncologico",
+        "slug": "dolor-cronico-no-oncologico"
+      },
+      {
+        "name": "Dolor oncologico",
+        "slug": "dolor-oncologico"
+      },
+      {
+        "name": "Traumatismo",
+        "slug": "traumatismo"
+      },
+      {
+        "name": "Artrosis severa",
+        "slug": "artrosis-severa"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Dependencia a opioides",
+        "slug": "dependencia-a-opioides"
+      },
+      {
+        "name": "Depresion respiratoria",
+        "slug": "depresion-respiratoria"
+      },
+      {
+        "name": "Ileo paralitico",
+        "slug": "ileo-paralitico"
+      },
+      {
+        "name": "Sindrome serotoninergico",
+        "slug": "sindrome-serotoninergico"
+      },
+      {
+        "name": "Hipotension ortostatica",
+        "slug": "hipotension-ortostatica"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Frecuencia respiratoria",
+        "slug": "frecuencia-respiratoria",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Presion arterial",
+        "slug": "presion-arterial",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Frecuencia cardiaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Nivel de conciencia",
+        "slug": "nivel-de-conciencia",
+        "effect": "Puede alterar (sedacion)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Creatinina serica y TFG",
+        "slug": "creatinina-serica-y-tfg",
+        "reason": "Para ajustar dosis por funcion renal"
+      },
+      {
+        "name": "Pruebas de funcion hepatica",
+        "slug": "pruebas-de-funcion-hepatica",
+        "reason": "Para evaluar metabolismo y riesgo de acumulacion"
+      },
+      {
+        "name": "Gasometria arterial",
+        "slug": "gasometria-arterial",
+        "reason": "Si hay sospecha de depresion respiratoria"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediatrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de filtrado glomerular (eGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve la dihidrocodeína?",
+      "a": "Sirve principalmente para aliviar el dolor de intensidad moderada a severa, como el dolor después de una cirugía, por una lesión o por enfermedades como el cáncer. También se puede usar, en dosis más bajas, para calmar la tos seca y molesta que no produce flemas, cuando otros medicamentos para la tos no han funcionado."
+    },
+    {
+      "q": "¿Es lo mismo que la codeína?",
+      "a": "No es exactamente lo mismo, pero son parientes muy cercanos. La dihidrocodeína es un derivado semisintético de la codeína y es aproximadamente el doble de potente para aliviar el dolor. Ambas actúan de manera similar en el cuerpo y comparten muchos de los mismos riesgos y efectos secundarios."
+    },
+    {
+      "q": "¿Puedo tomar dihidrocodeína si tomo paracetamol o ibuprofeno?",
+      "a": "Sí, a menudo se combina con analgésicos como el paracetamol o antiinflamatorios como el ibuprofeno para un mejor control del dolor, ya que actúan por mecanismos diferentes. Sin embargo, esto SOLO debe hacerse bajo la indicación y supervisión de su médico, quien determinará las dosis seguras."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Cuando se toma por la boca (tabletas o jarabe), generalmente comienza a aliviar el dolor entre 30 minutos y 1 hora después de tomarlo."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si estoy con este medicamento?",
+      "a": "NO. Es MUY PELIGROSO. El alcohol potencia los efectos depresores del medicamento en el cerebro y la respiración. La combinación puede causar somnolencia extrema, dificultad para respirar, pérdida del conocimiento e incluso la muerte."
+    },
+    {
+      "q": "¿Por qué me da tanto sueño y mareo?",
+      "a": "La somnolencia y el mareo son efectos secundarios muy comunes de los opioides como la dihidrocodeína. Son la forma en que el medicamento actúa en su sistema nervioso. Estos efectos suelen ser más fuertes al inicio del tratamiento y pueden mejorar después de unos días. Si son muy intensos o no mejoran, consulte a su médico."
+    },
+    {
+      "q": "¿Qué hago si me olvido de tomar una dosis?",
+      "a": "Tómela tan pronto como se acuerde, pero si ya es casi la hora de su siguiente dosis, sáltese la que olvidó y continúe con su horario normal. NUNCA tome dos dosis juntas para compensar la que olvidó, ya que eso aumenta el riesgo de sobredosis."
+    },
+    {
+      "q": "¿Puedo partir o triturar las tabletas?",
+      "a": "Depende del tipo. Las tabletas comunes SÍ se pueden partir si tiene dificultad para tragarlas. Pero las tabletas de 'liberación prolongada' (que suelen decir Continus, LP o ER) NO deben partirse, triturarse ni masticarse. Hacerlo liberaría todo el medicamento de golpe, pudiendo causar una sobredosis."
+    },
+    {
+      "q": "¿La dihidrocodeína causa adicción?",
+      "a": "Sí, tiene un potencial de causar dependencia física y psicológica (adicción), especialmente si se usa por períodos prolongados, en dosis altas o sin supervisión médica. Por eso es un medicamento controlado que requiere receta especial y debe usarse solo para el propósito y tiempo indicados por el médico."
+    },
+    {
+      "q": "¿Cómo puedo evitar el estreñimiento que produce?",
+      "a": "Para prevenirlo, aumente la ingesta de agua, consuma alimentos ricos en fibra (frutas, verduras, cereales integrales) y manténgase activo si puede. Es muy probable que su médico también le recomiende tomar un laxante desde el primer día, como polietilenglicol o lactulosa. No espere a tener el problema."
+    },
+    {
+      "q": "¿Puedo manejar o operar maquinaria mientras lo tomo?",
+      "a": "No es recomendable, especialmente al inicio del tratamiento o después de un aumento de dosis. Este medicamento puede afectar su capacidad de reacción, coordinación y juicio. Espere a saber cómo le afecta. Si se siente somnoliento o mareado, no conduzca."
+    },
+    {
+      "q": "¿Es seguro en adultos mayores?",
+      "a": "Se debe usar con mucha precaución. Las personas mayores son más sensibles a sus efectos (más sueño, mareo, confusión) y tienen mayor riesgo de caídas. El médico generalmente inicia con dosis más bajas y aumenta muy lentamente."
+    },
+    {
+      "q": "¿Qué hago si tengo náuseas o vómitos?",
+      "a": "Tomarlo con un poco de comida puede ayudar. Estos efectos suelen mejorar después de unos días de uso continuo. Si son muy intensos o persistentes, su médico puede recetarle un medicamento para las náuseas. No suspenda el tratamiento sin consultar."
+    },
+    {
+      "q": "¿Puedo tomarlo durante el embarazo o lactancia?",
+      "a": "Durante el embarazo, solo si el médico lo considera estrictamente necesario, ya que puede afectar al bebé. Durante la lactancia, generalmente NO se recomienda, porque pasa a la leche materna y puede causar somnolencia y problemas respiratorios en el bebé. Consulte siempre a su médico."
+    },
+    {
+      "q": "¿Qué síntomas indican una reacción grave o sobredosis?",
+      "a": "Busque ayuda médica URGENTE si presenta: dificultad para respirar o respiración muy lenta/superficial, somnolencia extrema y dificultad para despertar, confusión severa, labios o uñas moradas, latidos del corazón muy lentos, desmayo o piel fría y húmeda."
+    },
+    {
+      "q": "¿Cómo se debe suspender el tratamiento?",
+      "a": "NO lo suspenda de golpe si lo ha estado tomando por más de 2-3 semanas. Esto puede causar síntomas de abstinencia (ansiedad, sudoración, diarrea, dolor). El médico le dará un plan para reducir la dosis gradualmente (destete) durante varios días o semanas."
+    },
+    {
+      "q": "¿Interfiere con otros medicamentos?",
+      "a": "Sí, de manera importante. Interactúa peligrosamente con pastillas para dormir, tranquilizantes, relajantes musculares, algunos antidepresivos y medicamentos para hongos o infecciones. POR ESO es fundamental informar a su médico sobre TODOS los medicamentos, hierbas y suplementos que toma."
+    },
+    {
+      "q": "¿Por qué mi médico me pidió análisis de sangre?",
+      "a": "Para revisar el funcionamiento de sus riñones e hígado. Si estos órganos no trabajan bien, el medicamento se puede acumular en su cuerpo, aumentando el riesgo de efectos secundarios graves. Los análisis ayudan al médico a ajustar la dosis de manera segura."
+    },
+    {
+      "q": "¿Qué es el síndrome serotoninérgico y cómo lo relaciono con este medicamento?",
+      "a": "Es una reacción grave y potencialmente mortal que ocurre cuando hay un exceso de serotonina en el cerebro. La dihidrocodeína, especialmente si se combina con antidepresivos (como fluoxetina o sertralina), migrañeros (triptanes) o otros, puede desencadenarlo. Los síntomas son agitación, alucinaciones, fiebre alta, sudoración, temblores, rigidez muscular y latidos rápidos. Es una emergencia médica."
+    },
+    {
+      "q": "¿Por qué la respuesta al medicamento puede ser muy diferente entre una persona y otra?",
+      "a": "Esto se debe principalmente a diferencias genéticas en una enzima del hígado llamada CYP2D6. Algunas personas la tienen muy activa ('metabolizadores ultrarrápidos') y convierten el medicamento en su forma más potente muy rápido, teniendo mayor efecto y riesgo. Otras la tienen poco activa ('metabolizadores pobres') y pueden sentir poco alivio. Por eso la dosis debe ser personalizada."
+    }
+  ]
+}

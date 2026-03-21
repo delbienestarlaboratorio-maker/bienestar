@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { Search, ChevronRight, HelpCircle } from 'lucide-react';
+import Image from 'next/image';
+import { Search, ChevronRight, HelpCircle, Stethoscope, BookOpen, Activity, Calculator } from 'lucide-react';
 import { SearchBar } from '@/components/ui/SearchBar';
 import { TestimonialsCarousel } from '@/components/social/TestimonialsCarousel';
 import { SymptomSearchWidget } from '@/components/search/SymptomSearchWidget';
@@ -57,6 +58,80 @@ export default function Home() {
                 />
               </div>
             </AnimatedSection>
+          </div>
+        </div>
+
+        {/* ═══════ DISCOVERY TOOLS - Icon Cards ═══════ */}
+        <div className="bg-gradient-to-b from-green-900 to-white py-16 px-4 -mt-1 relative z-10">
+          <div className="max-w-5xl mx-auto">
+            <AnimatedSection delay={0}>
+              <h2 className="text-2xl md:text-3xl font-bold text-white text-center mb-3">
+                Explora Nuestras Herramientas
+              </h2>
+              <p className="text-green-200 text-center mb-10 text-lg">
+                Información clínica confiable al alcance de tu mano
+              </p>
+            </AnimatedSection>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+              {[
+                {
+                  href: '/sintomas',
+                  title: 'Síntomas',
+                  desc: 'Busca por síntoma y descubre qué estudios necesitas',
+                  img: '/images/tools/sintomas.png',
+                  icon: Stethoscope,
+                  gradient: 'from-rose-600/80 to-rose-900/90',
+                  iconColor: 'text-rose-200',
+                },
+                {
+                  href: '/enfermedades',
+                  title: 'Enfermedades',
+                  desc: 'Directorio CIE-10 con estudios relacionados',
+                  img: '/images/tools/enfermedades.png',
+                  icon: BookOpen,
+                  gradient: 'from-blue-600/80 to-blue-900/90',
+                  iconColor: 'text-blue-200',
+                },
+                {
+                  href: '/valores-clinicos',
+                  title: 'Biomarcadores',
+                  desc: '300+ valores de referencia y análisis con IA',
+                  img: '/images/tools/biomarcadores.png',
+                  icon: Activity,
+                  gradient: 'from-indigo-600/80 to-indigo-900/90',
+                  iconColor: 'text-indigo-200',
+                },
+                {
+                  href: '/herramientas',
+                  title: 'Calculadoras',
+                  desc: 'IMC, Glasgow, dosis pediátricas y más',
+                  img: '/images/tools/calculadoras.png',
+                  icon: Calculator,
+                  gradient: 'from-teal-600/80 to-teal-900/90',
+                  iconColor: 'text-teal-200',
+                },
+              ].map((tool) => (
+                <AnimatedSection key={tool.title} delay={0.1}>
+                  <Link
+                    href={tool.href}
+                    className="group relative h-48 md:h-56 rounded-2xl shadow-lg hover:shadow-2xl transition-all hover:-translate-y-2 overflow-hidden block"
+                  >
+                    <Image
+                      src={tool.img}
+                      alt={tool.title}
+                      fill
+                      className="object-cover group-hover:scale-110 transition-transform duration-500"
+                    />
+                    <div className={`absolute inset-0 bg-gradient-to-t ${tool.gradient}`} />
+                    <div className="relative h-full flex flex-col items-center justify-end p-4 md:p-6 text-center">
+                      <tool.icon size={32} className={`${tool.iconColor} mb-2 drop-shadow-lg`} />
+                      <h3 className="text-lg md:text-xl font-bold text-white drop-shadow-lg">{tool.title}</h3>
+                      <p className="text-xs md:text-sm text-white/80 mt-1 drop-shadow-md line-clamp-2">{tool.desc}</p>
+                    </div>
+                  </Link>
+                </AnimatedSection>
+              ))}
+            </div>
           </div>
         </div>
 

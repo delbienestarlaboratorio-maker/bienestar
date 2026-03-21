@@ -1,0 +1,411 @@
+{
+  "name": "Sulfato de Colistina",
+  "summary": "El sulfato de colistina es un antibiótico potente que pertenece a la familia de los aminoglucósidos. Se utiliza específicamente para tratar infecciones graves causadas por bacterias Gram-negativas que son resistentes a la mayoría de los otros antibióticos disponibles, como Pseudomonas aeruginosa, Acinetobacter baumannii y Klebsiella pneumoniae resistente a carbapenémicos. Su importancia clínica es crítica, ya que es considerado un medicamento de 'último recurso' o 'rescate' para infecciones potencialmente mortales en pacientes hospitalizados, especialmente en unidades de cuidados intensivos. Actúa dañando la membrana externa de las bacterias, lo que lleva a su muerte. Debido a su potencial toxicidad, particularmente en los riñones y el sistema nervioso, su uso está estrictamente reservado para situaciones donde otros tratamientos han fallado o no son adecuados, y siempre bajo supervisión médica especializada y monitoreo constante. Es un pilar fundamental en la lucha contra las 'superbacterias' resistentes a múltiples fármacos.",
+  "pharmacology": {
+    "mechanismOfAction": "El sulfato de colistina es un antibiótico polimixina. Su mecanismo de acción principal es actuar como un detergente catiónico que se une a los lipopolisacáridos (LPS) en la membrana externa de las bacterias Gram-negativas. Esta unión electrostática desplaza los iones de calcio y magnesio que estabilizan la membrana, lo que provoca una alteración en la permeabilidad de la membrana externa. Como consecuencia, se pierde la integridad de la barrera celular, permitiendo la fuga de componentes celulares esenciales hacia el exterior y la entrada de moléculas dañinas desde el exterior. Este daño estructural conduce finalmente a la lisis (ruptura) y muerte de la bacteria. Su acción es principalmente bactericida, lo que significa que mata a las bacterias en lugar de solo detener su crecimiento.",
+    "pharmacologicClass": "Antibiótico polimixina (Polimixina E). Aminoglucósido cíclico catiónico.",
+    "therapeuticClass": "Antibiótico sistémico para infecciones por bacterias Gram-negativas multirresistentes.",
+    "absorption": "La colistina administrada por vía intravenosa (como colistimetato sódico, que es un profármaco) se convierte parcialmente en colistina activa en el organismo. Cuando se administra por vía oral (sulfato de colistina), la absorción desde el tracto gastrointestinal es mínima (menos del 1%), por lo que su uso oral está destinado principalmente a la descontaminación intestinal selectiva o al tratamiento de infecciones intestinales locales.",
+    "distribution": "Se distribuye ampliamente en la mayoría de los tejidos y fluidos corporales, pero su penetración en el líquido cefalorraquídeo (LCR), hueso, próstata y bilis es limitada en ausencia de inflamación meningeal. Su unión a proteínas plasmáticas es baja (aproximadamente 50%). El volumen de distribución (Vd) es moderado, similar al del agua corporal total.",
+    "metabolism": "La colistina no sufre un metabolismo hepático significativo a través del sistema del citocromo P450 (CYP). El compuesto administrado por vía intravenosa (colistimetato sódico) se hidroliza de forma lenta y no enzimática en el torrente sanguíneo y los tejidos para convertirse en colistina activa.",
+    "elimination": "Se elimina principalmente por filtración glomerular en los riñones, en su forma activa (colistina). La vida media de eliminación es de aproximadamente 2 a 3 horas en personas con función renal normal, pero puede prolongarse significativamente (hasta 48 horas o más) en pacientes con insuficiencia renal grave, lo que aumenta enormemente el riesgo de toxicidad.",
+    "onsetOfAction": "El inicio de la acción bactericida es rápido, generalmente dentro de la primera hora después de la administración intravenosa, una vez que se alcanzan concentraciones terapéuticas en el sitio de la infección.",
+    "durationOfAction": "Presenta un efecto post-antibiótico prolongado contra algunas bacterias Gram-negativas, lo que significa que continúa suprimiendo el crecimiento bacteriano incluso después de que sus niveles en sangre hayan disminuido por debajo de la concentración inhibitoria mínima (CIM). Esto puede permitir intervalos de dosificación más largos en algunos regímenes."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones sistémicas graves por bacterias Gram-negativas sensibles y multirresistentes (MDR)",
+      "Neumonía asociada a ventilador (NAV) causada por Pseudomonas aeruginosa, Acinetobacter spp. o Enterobacterales resistentes",
+      "Bacteriemia e infecciones del torrente sanguíneo por bacterias Gram-negativas MDR",
+      "Infecciones intraabdominales complicadas por bacterias MDR",
+      "Infecciones de piel y tejidos blandos complicadas por bacterias Gram-negativas MDR",
+      "Infecciones del tracto urinario complicadas por bacterias Gram-negativas MDR (cuando otras opciones fallan)",
+      "Descontaminación intestinal selectiva en pacientes de UCI para prevenir infecciones por bacterias MDR (uso oral)"
+    ],
+    "offLabel": [
+      "Tratamiento de infecciones por Mycobacterium abscessus (en combinación)",
+      "Inhalación nebulizada para el tratamiento de neumonía por Pseudomonas en pacientes con fibrosis quística o bronquiectasias",
+      "Instilación intraventricular o intratecal para meningitis o ventriculitis por bacterias Gram-negativas MDR",
+      "Irrigación de herdas o cavidades con infecciones locales por bacterias MDR"
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis se expresa en Unidades Internacionales (UI) de colistina base o en mg de Colistimetato Sódico (CMS). Dosis de carga: 9 millones de UI (aproximadamente 300 mg de CMS) en una o dos dosis divididas el primer día. Dosis de mantenimiento: 4.5 millones de UI (aproximadamente 150 mg de CMS) cada 12 horas, ajustada según función renal. En infecciones muy graves, se pueden usar dosis más altas bajo monitoreo estricto.",
+    "pediatric": "Dosis basada en peso corporal. Dosis de carga: 80,000 a 100,000 UI/kg (2.6-3.3 mg/kg de CMS). Dosis de mantenimiento: 50,000 a 75,000 UI/kg/día (1.6-2.5 mg/kg/día de CMS), dividida en 2-3 dosis, ajustada según función renal. Uso restringido a hospitales con experiencia.",
+    "elderly": "Los adultos mayores suelen tener una función renal disminuida. Es IMPRESCINDIBLE calcular la tasa de filtración glomerular (TFG) y ajustar la dosis en consecuencia, comenzando con las dosis más bajas del rango recomendado. Monitoreo renal y neurológico intensivo.",
+    "renalImpairment": "AJUSTE OBLIGATORIO. Se basa en la TFG (mL/min/1.73m²). TFG >50-80: Dosis estándar. TFG 30-50: 4.5 millones de UI cada 12-24h. TFG 10-30: 4.5 millones de UI cada 36-48h. TFG <10 o diálisis: 4.5 millones de UI cada 48-72h, con dosis suplementaria post-diálisis. La dosificación debe guiarse por niveles séricos (monitoreo terapéutico de fármacos, TDM) cuando sea posible.",
+    "hepaticImpairment": "No se requieren ajustes específicos de dosis por insuficiencia hepática, ya que no se metaboliza en el hígado. Sin embargo, se debe tener precaución en pacientes con enfermedad hepática avanzada debido a posibles alteraciones en el estado general y la farmacocinética.",
+    "maxDose": "La dosis máxima diaria recomendada es de 10 millones de UI (aproximadamente 330 mg de CMS) en pacientes con función renal normal, aunque en situaciones de vida o muerte y bajo monitoreo de niveles, se han utilizado dosis más altas."
+  },
+  "dosageForms": [
+    {
+      "form": "Polvo liofilizado para inyección (vial)",
+      "strengths": [
+        "1 millón UI",
+        "2 millones UI"
+      ],
+      "route": "Intramuscular, Intravenosa (infusión)"
+    },
+    {
+      "form": "Solución oral (gotas o suspensión)",
+      "strengths": [
+        "25 mg/mL",
+        "50 mg/mL"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Polvo para solución nebulizada",
+      "strengths": [
+        "1 millón UI"
+      ],
+      "route": "Inhalación (nebulización)"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la colistina o a otros antibióticos polimixinas (polimixina B)",
+      "Miastenia gravis (riesgo elevado de bloqueo neuromuscular y paro respiratorio)"
+    ],
+    "relative": [
+      "Insuficiencia renal grave (requiere ajuste extremo de dosis y monitoreo)",
+      "Enfermedades neurológicas preexistentes (neuropatía, Parkinson)",
+      "Uso concomitante con otros fármacos nefrotóxicos o neurotóxicos",
+      "Prematuros y neonatos (riesgo elevado de toxicidad)"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Nefrotoxicidad (daño renal), especialmente con dosis altas o uso prolongado",
+      "Neurotoxicidad (mareo, vértigo, parestesias - hormigueo)"
+    ],
+    "common": [
+      "Alteraciones en pruebas de función renal (elevación de creatinina, BUN)",
+      "Debilidad muscular",
+      "Erupción cutánea",
+      "Fiebre por el medicamento"
+    ],
+    "uncommon": [
+      "Neurotoxicidad grave (ataxia - pérdida de coordinación, confusión, visión borrosa)",
+      "Bloqueo neuromuscular (dificultad respiratoria, parálisis flácida)",
+      "Diarrea (especialmente con formulación oral)",
+      "Dolor en el sitio de inyección"
+    ],
+    "rare": [
+      "Anafilaxia (reacción alérgica grave)",
+      "Síndrome de Stevens-Johnson (reacción cutánea grave)",
+      "Pérdida auditiva (ototoxicidad, menos común que con otros aminoglucósidos)",
+      "Alteraciones electrolíticas (hipocalcemia, hipokalemia)"
+    ],
+    "blackBoxWarning": "ADVERTENCIA: NEFROTOXICIDAD y NEUROTOXICIDAD. El sulfato de colistina puede causar insuficiencia renal aguda y daño al sistema nervioso (incluyendo mareos, hormigueo, entumecimiento, dificultad para respirar y parálisis). El riesgo es mayor en pacientes con función renal disminuida, con dosis altas, o con uso concomitante de otros medicamentos tóxicos para los riñones o los nervios. Se requiere un ajuste cuidadoso de la dosis según la función renal y un monitoreo estrecho."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Aminoglucósidos (Gentamicina, Amikacina)",
+        "effect": "Aumento SINÉRGICO del riesgo de nefrotoxicidad y ototoxicidad. Evitar la combinación.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Vancomicina",
+        "effect": "Aumento del riesgo de nefrotoxicidad. Monitoreo renal muy estrecho si se combinan.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Diuréticos de asa (Furosemida)",
+        "effect": "Pueden potenciar la ototoxicidad y la nefrotoxicidad. Usar con precaución.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Relajantes musculares (Succinilcolina, Atracurio)",
+        "effect": "La colistina puede potenciar el bloqueo neuromuscular, aumentando el riesgo de parálisis respiratoria.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Fármacos nefrotóxicos (AINEs como Ibuprofeno, Cisplatino, Ciclosporina)",
+        "effect": "Aumento aditivo del riesgo de daño renal. Evitar o monitorear rigurosamente.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "No hay interacciones significativas con alimentos. La formulación oral puede tomarse con o sin alimentos para reducir molestias gastrointestinales. El alcohol no interfiere directamente, pero su consumo debe evitarse durante una infección grave y por el riesgo general de toxicidad.",
+    "withSupplements": "Evitar suplementos que contengan altas dosis de magnesio (como algunos antiácidos o laxantes) por vía intravenosa, ya que teóricamente podrían antagonizar el efecto antibacteriano de la colistina. Los suplementos de creatina pueden interferir con la interpretación de los niveles de creatinina sérica, usados para monitorear la función renal."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA C",
+      "recommendation": "Solo debe usarse durante el embarazo si el beneficio potencial justifica claramente el riesgo potencial para el feto. Los estudios en animales han mostrado toxicidad. No hay estudios adecuados y bien controlados en mujeres embarazadas. Su uso está reservado para infecciones maternas graves que amenazan la vida y donde no hay alternativas más seguras disponibles.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se desconoce si la colistina se excreta en la leche materna humana. Dado el potencial de toxicidad grave en el lactante (riesgo de nefrotoxicidad y neurotoxicidad), se recomienda suspender la lactancia materna durante el tratamiento con colistina sistémica. Para la formulación oral de descontaminación intestinal, la absorción es mínima, por lo que el riesgo para el lactante es probablemente bajo, pero se debe consultar con el médico.",
+    "pediatric": "Puede usarse en niños para infecciones graves por bacterias MDR, pero con EXTREMA PRECAUCIÓN. Los recién nacidos y lactantes son especialmente susceptibles a la toxicidad neuromuscular (riesgo de paro respiratorio). La dosificación debe ser precisa según el peso y la función renal. Solo debe administrarse en un entorno hospitalario con capacidad de monitoreo intensivo.",
+    "geriatric": "Los pacientes de edad avanzada tienen mayor probabilidad de tener función renal disminuida, lo que aumenta el riesgo de toxicidad por acumulación del fármaco. Es fundamental calcular la TFG y ajustar la dosis en consecuencia. También son más susceptibles a los efectos neurotóxicos como mareos y confusión, lo que aumenta el riesgo de caídas. Se requiere monitoreo muy estrecho."
+  },
+  "administration": {
+    "howToTake": "INYECCIÓN INTRAVENOSA: El polvo liofilizado se debe reconstituir con agua para inyección según las instrucciones del fabricante. La solución reconstituida se debe diluir adicionalmente en 50-100 mL de solución salina normal (NaCl 0.9%) o dextrosa al 5%. Administrar por infusión intravenosa lenta durante 30 a 60 minutos. NO administrar en bolo rápido. USO ORAL: Agitar bien la suspensión. Medir la dosis con el dosificador proporcionado. Puede tomarse con o sin alimentos. USO INHALADO: Solo para nebulización, siguiendo protocolos específicos de la institución. NO INYECTAR la solución para inhalación.",
+    "storage": "Conservar los viales sin reconstituir a temperatura ambiente (15-30°C), protegidos de la luz. Una vez reconstituido y diluido para infusión intravenosa, la solución es estable por 24 horas a temperatura ambiente o 7 días si se refrigera (2-8°C). Las suspensiones orales deben guardarse según las instrucciones del envase, generalmente a temperatura ambiente y protegidas de la luz, desechando el sobrante después del tiempo indicado.",
+    "specialInstructions": "1) Este medicamento es de USO HOSPITALARIO principalmente. 2) La dosis DEBE ser calculada y ajustada por un médico especialista, considerando el peso, la función renal y la gravedad de la infección. 3) Es IMPRESCINDIBLE realizar análisis de sangre frecuentes (creatinina, BUN) para monitorear la función renal. 4) Informar inmediatamente al médico si aparece hormigueo, entumecimiento, mareo intenso, debilidad muscular o dificultad para respirar. 5) Mantenerse bien hidratado (a menos que el médico indique lo contrario) para ayudar a proteger los riñones."
+  },
+  "monitoring": {
+    "labTests": [
+      "Creatinina sérica (SCr) y cálculo de TFG (diario al inicio, luego 2-3 veces por semana)",
+      "Nitrógeno ureico en sangre (BUN)",
+      "Electrolitos séricos (sodio, potasio, calcio, magnesio)",
+      "Recuento sanguíneo completo (CSC)",
+      "Niveles séricos de colistina (Monitoreo Terapéutico de Fármacos - TDM) en centros especializados",
+      "Análisis de orina"
+    ],
+    "frequency": "Al inicio del tratamiento y al menos 2-3 veces por semana durante el tratamiento. En insuficiencia renal o con dosis altas, puede requerirse monitoreo diario.",
+    "signsToWatch": [
+      "Disminución en la producción de orina (oliguria)",
+      "Hinchazón de pies, tobillos o cara (edema)",
+      "Falta de aire o dificultad para respirar",
+      "Mareo, vértigo o sensación de que todo da vueltas",
+      "Hormigueo, ardor o entumecimiento en manos, pies o alrededor de la boca",
+      "Debilidad muscular progresiva, especialmente en piernas y brazos",
+      "Visión borrosa o dificultad para hablar",
+      "Erupción cutánea o picazón severa"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Insuficiencia renal aguda (anuria - falta de producción de orina)",
+      "Parálisis flácida (incluyendo músculos respiratorios, llevando a paro respiratorio)",
+      "Convulsiones",
+      "Coma",
+      "Alteraciones electrolíticas graves"
+    ],
+    "treatment": "NO EXISTE ANTÍDOTO ESPECÍFICO. El tratamiento es de soporte e inmediato: 1) Suspender la administración de colistina. 2) Medidas de soporte respiratorio (ventilación mecánica si hay parálisis). 3) Hemodiálisis o diálisis peritoneal para eliminar el fármaco del torrente sanguíneo y corregir la insuficiencia renal. Sin embargo, la eliminación por diálisis es variable e incompleta. 4) Corrección de alteraciones electrolíticas. 5) Monitoreo en una unidad de cuidados intensivos.",
+    "antidote": "No disponible."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especializada (de uso restringido en hospitales).",
+    "scheduleMexico": "Medicamento de la Fracción IV (Sustancias psicotrópicas y medicamentos de control especial). Requiere receta por triplicado y registro de dispensación.",
+    "fdaApprovalYear": "Aprobado inicialmente en la década de 1960. Re-evaluado y con guías modernas de dosificación publicadas a partir de los años 2000."
+  },
+  "brandsMexico": [
+    "Colimycin",
+    "Colistin Sulfate GPO",
+    "Colistina Sulfato",
+    "Promixin",
+    "Coly-Mycin M",
+    "Colistin (genérico de diversos laboratorios nacionales)"
+  ],
+  "clinicalPearls": [
+    "La colistina es un 'antibiótico de último recurso'. Su uso debe ser guiado por cultivos y pruebas de sensibilidad (antibiograma) que confirmen la resistencia a todas o casi todas las demás opciones.",
+    "La nefrotoxicidad es dosis-dependiente y a menudo reversible si se detecta a tiempo y se ajusta la dosis o se suspende el fármaco. La hidratación adecuada es una medida preventiva clave.",
+    "Existe una gran confusión entre las dosis expresadas en mg de Colistimetato Sódico (CMS) y en Unidades Internacionales (UI) de colistina base. 1 mg de CMS ≈ 30,000 UI de colistina base. Es crucial verificar en qué unidades está prescrita la dosis para evitar errores graves de sobredosificación o subdosificación."
+  ],
+  "patientCounseling": "Este es un medicamento muy fuerte que se usa solo para infecciones graves causadas por bacterias resistentes a otros antibióticos. Es fundamental que siga al pie de la letra las instrucciones de su médico. Recibirá el medicamento por una vena (suero) en el hospital. Los médicos le harán análisis de sangre con frecuencia para revisar cómo están funcionando sus riñones, ya que este medicamento puede afectarlos. Esté muy atento a cualquier señal de alarma: si deja de orinar o orina mucho menos, si se le hinchan los pies, si siente mareos intensos, si tiene sensación de hormigueo o adormecimiento en manos o pies, o si siente debilidad muscular. Informe de inmediato a la enfermera o al médico si presenta alguno de estos síntomas. No suspenda el tratamiento por su cuenta, incluso si se siente mejor, ya que la infección podría reaparecer. Manténgase bien hidratado bebiendo agua, a menos que su médico le indique lo contrario por otra condición. Este tratamiento es un esfuerzo conjunto entre usted y el equipo médico.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre alta",
+        "slug": "fiebre-alta"
+      },
+      {
+        "name": "Escalofríos",
+        "slug": "escalofrios"
+      },
+      {
+        "name": "Dificultad para respirar",
+        "slug": "dificultad-para-respirar"
+      },
+      {
+        "name": "Tos con flemas",
+        "slug": "tos-con-flemas"
+      },
+      {
+        "name": "Dolor abdominal intenso",
+        "slug": "dolor-abdominal-intenso"
+      },
+      {
+        "name": "Quemazón al orinar",
+        "slug": "quemazon-al-orinar"
+      },
+      {
+        "name": "Enrojecimiento e hinchazón de una herida",
+        "slug": "enrojecimiento-e-hinchazon-de-una-herida"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Neumonía asociada a ventilador",
+        "slug": "neumonia-asociada-a-ventilador"
+      },
+      {
+        "name": "Bacteriemia por bacterias multirresistentes",
+        "slug": "bacteriemia-por-bacterias-multirresistentes"
+      },
+      {
+        "name": "Infecciones intraabdominales complicadas",
+        "slug": "infecciones-intraabdominales-complicadas"
+      },
+      {
+        "name": "Infecciones de piel y tejidos blandos necrotizantes",
+        "slug": "infecciones-de-piel-y-tejidos-blandos-necrotizantes"
+      },
+      {
+        "name": "Infecciones del tracto urinario complicadas",
+        "slug": "infecciones-del-tracto-urinario-complicadas"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Insuficiencia renal aguda",
+        "slug": "insuficiencia-renal-aguda"
+      },
+      {
+        "name": "Neuropatía periférica",
+        "slug": "neuropatia-periferica"
+      },
+      {
+        "name": "Miastenia gravis (agravamiento)",
+        "slug": "miastenia-gravis-agravamiento"
+      },
+      {
+        "name": "Síndrome de Stevens-Johnson",
+        "slug": "sindrome-de-stevens-johnson"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Nitrógeno ureico (BUN)",
+        "slug": "nitrogeno-ureico-bun",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Tasa de Filtración Glomerular (TFG)",
+        "slug": "tasa-de-filtracion-glomerular-tfg",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Calcio sérico",
+        "slug": "calcio-serico",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Magnesio sérico",
+        "slug": "magnesio-serico",
+        "effect": "Puede disminuir"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Creatinina sérica y TFG",
+        "slug": "creatinina-serica-y-tfg",
+        "reason": "Monitoreo esencial de la función renal para prevenir y detectar nefrotoxicidad."
+      },
+      {
+        "name": "Urocultivo y Antibiograma",
+        "slug": "urocultivo-y-antibiograma",
+        "reason": "Para identificar la bacteria causante de la infección y confirmar su sensibilidad a la colistina antes de iniciar el tratamiento."
+      },
+      {
+        "name": "Hemograma completo",
+        "slug": "hemograma-completo",
+        "reason": "Para evaluar la respuesta inflamatoria a la infección y monitorear posibles efectos adversos hematológicos."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de Aclaramiento de Creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      },
+      {
+        "name": "Calculadora de Dosis Pediátrica por Peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve el sulfato de colistina?",
+      "a": "Sirve para tratar infecciones graves y potencialmente mortales causadas por bacterias que se han vuelto resistentes a la mayoría de los otros antibióticos disponibles. Se usa comúnmente en neumonías graves, infecciones en la sangre, del abdomen o de heridas complejas en pacientes hospitalizados."
+    },
+    {
+      "q": "¿Es un antibiótico fuerte?",
+      "a": "Sí, es uno de los antibióticos más potentes que existen y se considera un tratamiento de 'último recurso'. Su uso está estrictamente reservado para cuando las bacterias no responden a otros medicamentos, debido a que puede tener efectos secundarios importantes."
+    },
+    {
+      "q": "¿Cómo se administra?",
+      "a": "Principalmente se administra por vía intravenosa (a través de un suero) en un hospital. También existe en forma de suspensión oral para tratar infecciones solo en el intestino, y en forma para inhalar (nebulizar) en casos específicos de neumonía."
+    },
+    {
+      "q": "¿Cuáles son los efectos secundarios más comunes?",
+      "a": "Los más comunes y preocupantes son el daño a los riñones (nefrotoxicidad) y efectos en el sistema nervioso (neurotoxicidad), como mareos, vértigo y hormigueo en manos y pies. Por eso requiere análisis de sangre frecuentes."
+    },
+    {
+      "q": "¿Puedo tomarlo si tengo problemas en los riñones?",
+      "a": "Se puede usar, pero con EXTREMA precaución y ajuste obligatorio de la dosis. Los pacientes con insuficiencia renal son mucho más propensos a sufrir toxicidad. El médico calculará una dosis mucho más baja y hará monitoreo muy estrecho."
+    },
+    {
+      "q": "¿Cuánto tiempo dura el tratamiento?",
+      "a": "La duración depende de la gravedad y tipo de infección. Generalmente, para infecciones graves, el tratamiento intravenoso dura de 7 a 14 días, pero puede extenderse en casos complejos. Nunca debe suspenderse antes de lo indicado por el médico."
+    },
+    {
+      "q": "¿Puedo beber alcohol mientras me inyectan colistina?",
+      "a": "No se recomienda. Aunque no hay una interacción directa grave conocida, el alcohol puede deshidratar y afectar los riñones, aumentando el riesgo de toxicidad. Además, durante una infección grave, el cuerpo necesita descansar y recuperarse."
+    },
+    {
+      "q": "¿La colistina causa diarrea como otros antibióticos?",
+      "a": "Puede causarla, especialmente la formulación oral. Sin embargo, a diferencia de antibióticos de amplio espectro, no es común que cause colitis por C. difficile, ya que su espectro es más dirigido a bacterias Gram-negativas."
+    },
+    {
+      "q": "¿Qué debo hacer si olvido una dosis en el hospital?",
+      "a": "En el hospital, el personal de enfermería administra las dosis. Si por algún error se omite, informe inmediatamente. No intente 'ponerse al día' con una dosis doble. El médico reevaluará el horario."
+    },
+    {
+      "q": "¿Puede causar alergia?",
+      "a": "Sí, como cualquier medicamento, puede causar reacciones alérgicas, desde erupciones leves hasta reacciones graves (anafilaxia). Informe a su médico si es alérgico a otros antibióticos, especialmente a la polimixina B."
+    },
+    {
+      "q": "¿Es lo mismo Colistina que Polimixina B?",
+      "a": "No, son antibióticos hermanos (ambos son polimixinas), pero son medicamentos distintos (Polimixina E vs. Polimixina B). Tienen mecanismos de acción similares, pero diferencias en potencia y efectos secundarios. La alergia a uno suele significar alergia al otro."
+    },
+    {
+      "q": "¿Por qué me hacen tantos análisis de sangre durante el tratamiento?",
+      "a": "Para monitorear la función de sus riñones (creatinina, BUN) y detectar cualquier signo de toxicidad lo antes posible. Esto permite al médico ajustar la dosis a tiempo y prevenir daños graves. Es una parte fundamental de la seguridad del tratamiento."
+    },
+    {
+      "q": "¿La colistina afecta el hígado?",
+      "a": "No es su principal órgano de toxicidad. La colistina no se metaboliza significativamente en el hígado, por lo que no suele causar daño hepático directo. Sin embargo, en pacientes con enfermedad hepática grave, se debe tener precaución por el estado general del paciente."
+    },
+    {
+      "q": "¿Puede usarse en niños?",
+      "a": "Sí, pero solo en casos de infecciones muy graves por bacterias resistentes y en un hospital con experiencia. En niños, especialmente recién nacidos, el riesgo de un efecto secundario grave llamado 'bloqueo neuromuscular' (que puede paralizar los músculos de la respiración) es mayor."
+    },
+    {
+      "q": "¿Qué es el 'monitoreo terapéutico de fármacos' (TDM) para colistina?",
+      "a": "Es un análisis de sangre especial que mide la concentración exacta del medicamento en su sangre. No está disponible en todos los hospitales, pero en centros especializados ayuda a ajustar la dosis de manera perfecta: suficiente para matar la bacteria, pero no tan alta como para causar toxicidad."
+    },
+    {
+      "q": "¿Interfiere con mis otros medicamentos para la presión o el corazón?",
+      "a": "No tiene interacciones directas graves comunes con la mayoría de los medicamentos para la presión. Sin embargo, debe informar a su médico TODOS los medicamentos que toma, especialmente diuréticos como la furosemida, que pueden aumentar el riesgo de daño renal y auditivo."
+    },
+    {
+      "q": "¿Por qué a veces se usa por inhalación (nebulización)?",
+      "a": "Se usa por inhalación para tratar neumonías causadas por bacterias resistentes (como Pseudomonas) en los pulmones de pacientes con fibrosis quística o bronquiectasias. Esto permite llevar una dosis alta directamente al sitio de la infección en el pulmón, minimizando los efectos secundarios en el resto del cuerpo."
+    },
+    {
+      "q": "¿Qué significa que una bacteria sea 'multirresistente' (MDR)?",
+      "a": "Significa que la bacteria ha desarrollado mecanismos para sobrevivir y crecer a pesar de la presencia de múltiples clases de antibióticos que normalmente la matarían. Esto hace que las infecciones sean muy difíciles de tratar. La colistina es una de las pocas opciones que quedan para algunas de estas 'superbacterias'."
+    },
+    {
+      "q": "¿La resistencia a la colistina es común?",
+      "a": "Afortunadamente, aún es poco común, pero existe y está aumentando en algunas partes del mundo. Por eso su uso debe ser muy racional y solo cuando sea estrictamente necesario, para preservar su efectividad como último recurso. El mal uso acelera la aparición de resistencia."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre 'colistimetato sódico' (CMS) y 'colistina base', y por qué es importante?",
+      "a": "El Colistimetato Sódico (CMS) es la forma inactiva (profármaco) que se inyecta por vía intravenosa. En el cuerpo, se convierte lentamente en la forma activa, la 'colistina base'. La dosis se puede expresar en miligramos (mg) de CMS o en Unidades Internacionales (UI) de colistina base. 1 mg de CMS ≈ 30,000 UI. Confundir estas unidades puede llevar a errores de dosis de 2 a 3 veces mayores o menores, con consecuencias graves. Siempre se debe verificar en qué unidad está prescrita."
+    }
+  ]
+}

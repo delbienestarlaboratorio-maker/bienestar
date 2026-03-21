@@ -1,0 +1,449 @@
+{
+  "name": "Sulfato de Morfina",
+  "summary": "El sulfato de morfina es un medicamento analgésico opioide fuerte, derivado del opio, que se utiliza para tratar el dolor intenso que no responde a otros analgésicos más suaves. Actúa directamente en el sistema nervioso central, modificando la percepción del dolor y la respuesta emocional a este. Es de importancia clínica fundamental en el manejo del dolor oncológico, el dolor postoperatorio agudo y en cuidados paliativos, donde el objetivo es brindar alivio y mejorar la calidad de vida del paciente. Su uso requiere supervisión médica estricta debido a su alto potencial de causar efectos secundarios graves, como depresión respiratoria, y de generar dependencia física y psicológica. Es un medicamento controlado en México, disponible solo con receta médica especial que se retiene en la farmacia, y su administración debe seguir pautas precisas para maximizar los beneficios y minimizar los riesgos.",
+  "pharmacology": {
+    "mechanismOfAction": "La morfina ejerce su efecto analgésico principal al unirse de forma agonista a los receptores mu (μ) opioides, que se encuentran principalmente en el sistema nervioso central (cerebro y médula espinal) y en el tracto gastrointestinal. Esta unión activa los receptores, lo que inhibe la liberación de neurotransmisores como la sustancia P y modula la transmisión de las señales de dolor hacia el cerebro. Además, activa vías descendentes inhibitorias del dolor y altera la percepción emocional del mismo, proporcionando no solo alivio físico sino también una sensación de bienestar o euforia. También actúa sobre receptores en el tronco encefálico, lo que puede causar depresión respiratoria, y en el intestino, produciendo estreñimiento.",
+    "pharmacologicClass": "Agonista opioide puro; Alcaloide fenantreno del opio.",
+    "therapeuticClass": "Analgésico narcótico; Analgésico opioide mayor.",
+    "absorption": "La absorción tras la administración oral es variable, con una biodisponibilidad de aproximadamente 20-40% debido al metabolismo de primer paso en el hígado. La absorción es más rápida y completa por vías parenterales (intramuscular, subcutánea, intravenosa). Las formas de liberación controlada o prolongada están diseñadas para una absorción lenta y sostenida.",
+    "distribution": "Se distribuye ampliamente por los tejidos corporales. El volumen de distribución es de aproximadamente 1 a 4 L/kg. Cruza la barrera hematoencefálica y la placenta. Se une a proteínas plasmáticas en un grado bajo a moderado (aproximadamente 20-35%).",
+    "metabolism": "Se metaboliza extensamente en el hígado, principalmente por glucuronidación. La enzima principal es la UGT2B7. Se convierte en sus metabolitos activos: morfina-6-glucurónido (M6G, más potente que la morfina) y morfina-3-glucurónido (M3G, sin actividad analgésica pero con efectos neuroexcitatorios). El sistema CYP450 tiene una participación mínima en su metabolismo.",
+    "elimination": "La vida media de eliminación es de aproximadamente 2 a 4 horas en adultos con función renal normal. Se elimina principalmente por vía renal (70-80%), en forma de metabolitos glucuronados y una pequeña fracción sin cambios. Una porción menor se elimina en las heces a través de la bilis.",
+    "onsetOfAction": "Vía oral (liberación inmediata): 15-60 minutos. Vía intravenosa: 5-10 minutos. Vía intramuscular/subcutánea: 10-30 minutos. Vía rectal: 20-60 minutos.",
+    "durationOfAction": "Vía oral/rectal (liberación inmediata): 3-6 horas. Vía intravenosa/intramuscular/subcutánea: 3-5 horas. Formas de liberación controlada/prolongada (oral): 8-24 horas, dependiendo de la formulación."
+  },
+  "indications": {
+    "approved": [
+      "Alivio del dolor intenso agudo y crónico (ej. dolor oncológico, postoperatorio).",
+      "Dolor asociado con infarto agudo de miocardio (cuando otros analgésicos no son adecuados).",
+      "Premedicación anestésica y analgesia durante procedimientos."
+    ],
+    "offLabel": [
+      "Dispnea refractaria en pacientes con insuficiencia cardíaca o enfermedad pulmonar obstructiva crónica (EPOC) terminal.",
+      "Sedación en pacientes críticos bajo ventilación mecánica.",
+      "Manejo del dolor neuropático refractario a otros tratamientos (generalmente en combinación)."
+    ]
+  },
+  "dosage": {
+    "adults": "Dosis individualizada. Inicio típico para opioide-naïve: Oral (liberación inmediata): 10-30 mg cada 3-4 horas según necesidad. Intramuscular/Subcutánea: 5-20 mg cada 4 horas. Intravenosa: 2.5-15 mg cada 2-6 horas. Para dolor crónico, se prefiere el uso de formulaciones de liberación controlada/prolongada con dosis cada 8, 12 o 24 horas, calculadas a partir de la dosis total diaria de liberación inmediata.",
+    "pediatric": "Individualizado por peso. Opioide-naïve: Oral: 0.2-0.5 mg/kg cada 4-6 horas. Intramuscular/Subcutánea/Intravenosa: 0.05-0.2 mg/kg cada 2-4 horas según necesidad. Máximo: 15 mg/dosis. Requiere supervisión especializada.",
+    "elderly": "Iniciar con dosis bajas (25-50% de la dosis inicial para adultos), debido a la disminución del aclaramiento, mayor sensibilidad y mayor riesgo de efectos adversos. Titular lentamente.",
+    "renalImpairment": "Ajuste necesario. TFG 10-50 mL/min: Reducir dosis inicial en un 25-50%. TFG <10 mL/min: Reducir dosis inicial en un 50-75% y/o aumentar el intervalo entre dosis. Los metabolitos (M6G y M3G) se acumulan, aumentando el riesgo de toxicidad.",
+    "hepaticImpairment": "Reducir la dosis inicial en un 50% o más en insuficiencia hepática moderada a grave (Child-Pugh B o C), debido a la disminución del metabolismo. Titular con extrema precaución.",
+    "maxDose": "No existe un límite máximo absoluto definido; la dosis se titula según la respuesta analgésica y la tolerancia del paciente. En dolor oncológico, pueden requerirse dosis muy altas. El límite lo marcan los efectos adversos intolerables, principalmente la depresión respiratoria."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta de liberación inmediata",
+      "strengths": [
+        "10 mg",
+        "20 mg",
+        "30 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tableta de liberación controlada/prolongada",
+      "strengths": [
+        "10 mg",
+        "15 mg",
+        "30 mg",
+        "60 mg",
+        "100 mg",
+        "200 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Cápsula de liberación prolongada",
+      "strengths": [
+        "10 mg",
+        "20 mg",
+        "30 mg",
+        "50 mg",
+        "60 mg",
+        "80 mg",
+        "100 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Solución oral (gotas o jarabe)",
+      "strengths": [
+        "10 mg/mL",
+        "20 mg/mL"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Ampolla o vial inyectable",
+      "strengths": [
+        "10 mg/mL",
+        "15 mg/mL",
+        "20 mg/mL",
+        "30 mg/mL"
+      ],
+      "route": "Intramuscular, Subcutánea, Intravenosa"
+    },
+    {
+      "form": "Supositorio",
+      "strengths": [
+        "5 mg",
+        "10 mg",
+        "20 mg",
+        "30 mg"
+      ],
+      "route": "Rectal"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la morfina u otros opioides.",
+      "Depresión respiratoria significativa en ausencia de equipo de reanimación.",
+      "Asma bronquial aguda o grave.",
+      "Obstrucción intestinal paralítica (íleo).",
+      "Intoxicación aguda por alcohol, hipnóticos o psicofármacos.",
+      "Uso concomitante con inhibidores de la MAO o dentro de los 14 días posteriores a su suspensión."
+    ],
+    "relative": [
+      "Lesión cerebral traumática o hipertensión intracraneal.",
+      "Enfermedad pulmonar obstructiva crónica (EPOC) o cor pulmonale.",
+      "Arritmias cardíacas.",
+      "Insuficiencia hepática o renal severa.",
+      "Hipotiroidismo o mixedema.",
+      "Adicción a opioides (requiere manejo especializado).",
+      "Hipertrofia prostática o estenosis uretral.",
+      "Enfermedad inflamatoria intestinal aguda."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Estreñimiento.",
+      "Náuseas y vómitos.",
+      "Somnolencia, sedación.",
+      "Mareo, vértigo."
+    ],
+    "common": [
+      "Prurito (picazón), especialmente facial.",
+      "Sudoración.",
+      "Sequedad de boca.",
+      "Confusión (especialmente en ancianos).",
+      "Retención urinaria."
+    ],
+    "uncommon": [
+      "Bradicardia (frecuencia cardíaca lenta).",
+      "Hipotensión ortostática.",
+      "Espasmos de las vías biliares.",
+      "Alteraciones del estado de ánimo (euforia, disforia).",
+      "Miosis (pupilas puntiformes)."
+    ],
+    "rare": [
+      "Alucinaciones.",
+      "Convulsiones (principalmente por acumulación del metabolito M3G).",
+      "Depresión respiratoria grave.",
+      "Dependencia física y psicológica.",
+      "Síndrome de serotonina (si se combina con otros fármacos serotonérgicos)."
+    ],
+    "blackBoxWarning": "Advertencia de caja negra de la FDA: Riesgo de depresión respiratoria grave o mortal, especialmente durante la iniciación o aumento de dosis. Riesgo de uso incorrecto, abuso y adicción. Riesgo de exposición accidental, especialmente en niños, que puede ser fatal. Riesgo de interacción con benzodiacepínas u otros depresores del SNC que conduce a coma o muerte."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Benzodiacepinas (diazepam, alprazolam)",
+        "effect": "Potenciación de la depresión del sistema nervioso central y respiratoria, riesgo de sedación profunda, coma y muerte.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Alcohol",
+        "effect": "Potenciación de los efectos depresores del SNC, riesgo de sedación excesiva, mareo y depresión respiratoria grave.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores de la MAO (fenelzina, selegilina)",
+        "effect": "Puede desencadenar una reacción serotoninérgica grave (síndrome serotoninérgico) o potenciar excesivamente los efectos de los opioides.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Otros depresores del SNC (hipnóticos, antipsicóticos, antidepresivos tricíclicos)",
+        "effect": "Aditividad en la depresión del SNC, aumentando el riesgo de sedación y depresión respiratoria.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Agonistas/antagonistas opioides mixtos (pentazocina, buprenorfina)",
+        "effect": "Pueden precipitar un síndrome de abstinencia en pacientes dependientes o reducir el efecto analgésico de la morfina.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Los alimentos grasos pueden aumentar la absorción de algunas formulaciones de liberación controlada. El alcohol está estrictamente contraindicado, ya que potencia los efectos depresores del sistema nervioso central y aumenta el riesgo de sobredosis fatal.",
+    "withSupplements": "Hierba de San Juan (Hypericum perforatum): Puede disminuir los niveles de morfina al inducir enzimas metabólicas, reduciendo su efecto. Suplementos con efectos sedantes (valeriana, kava, melatonina en dosis altas): Pueden potenciar la somnolencia. Suplementos que afectan la serotonina (5-HTP, triptófano): Pueden aumentar el riesgo de síndrome serotoninérgico."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "C",
+      "recommendación": "Solo debe usarse durante el embarazo si el beneficio potencial justifica claramente el riesgo para el feto. Su uso prolongado o en dosis altas cerca del parto puede causar depresión respiratoria en el recién nacido y síndrome de abstinencia neonatal. Se clasifica como categoría D si se usa por períodos prolongados o en dosis altas cerca del término.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La morfina se excreta en la leche materna en cantidades bajas. Sin embargo, puede causar sedación, dificultad para alimentarse y depresión respiratoria en el lactante, especialmente si la madre es opioide-naïve o recibe dosis altas. Se recomienda precaución extrema, monitoreo del bebé y evitar dosis altas o uso crónico. En madres dependientes de opioides, la lactancia puede ayudar a mitigar los síntomas de abstinencia en el bebé.",
+    "pediatric": "Puede usarse en niños bajo estricta supervisión médica, con dosis ajustadas por peso. Los niños pueden ser más sensibles a los efectos depresores respiratorios. Las formulaciones de liberación controlada no están aprobadas para todos los grupos de edad pediátrica; consultar ficha técnica específica.",
+    "geriatric": "Los pacientes mayores de 65 años son más sensibles a los efectos de la morfina. Presentan mayor riesgo de confusión, mareo, sedación, estreñimiento severo, retención urinaria y caídas. Se debe iniciar con dosis bajas (generalmente 25-50% de la dosis adulta) y titular muy lentamente. Monitorear estrechamente la función renal."
+  },
+  "administration": {
+    "howToTake": "Seguir exactamente las indicaciones del médico. Las tabletas de liberación inmediata se pueden tomar con o sin alimentos. Las tabletas o cápsulas de liberación controlada/prolongada DEBEN tragarse enteras, NUNCA partir, masticar, triturar o disolver, ya que esto libera toda la dosis de una vez, pudiendo causar una sobredosis grave o muerte. Tomar a intervalos regulares para el dolor crónico, no solo cuando duele. Para el dolor irruptivo, el médico puede recetar una dosis de rescate con morfina de liberación inmediata. No suspender bruscamente después de un uso prolongado.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (15-30°C), protegido de la luz y la humedad. Mantener fuera del alcance y vista de los niños y de personas para quienes no está prescrito, en un lugar seguro y preferiblemente bajo llave. Desechar los medicamentos no utilizados o vencidos de forma segura (entregar en puntos de recolección).",
+    "specialInstructions": "Informar al médico sobre todos los medicamentos que toma, incluyendo hierbas y suplementos. No conducir ni operar maquinaria peligrosa hasta conocer cómo le afecta, ya que causa somnolencia. Evitar el consumo de alcohol. Para prevenir el estreñimiento, aumentar la ingesta de líquidos, fibra en la dieta y usar laxantes según lo indique el médico. Si olvida una dosis de liberación controlada, tómela en cuanto lo recuerde, pero si es casi la hora de la siguiente, omita la dosis olvidada. No duplique la dosis."
+  },
+  "monitoring": {
+    "labTests": [
+      "Función renal (creatinina, TFG).",
+      "Función hepática (transaminasas, bilirrubina).",
+      "Conteo sanguíneo completo (en uso crónico)."
+    ],
+    "frequency": "Evaluación frecuente del alivio del dolor y efectos adversos al inicio y con cada cambio de dosis. Monitoreo de signos vitales (frecuencia respiratoria, presión arterial, frecuencia cardíaca) especialmente al inicio. En uso crónico, revisiones periódicas según criterio médico (cada 1-3 meses).",
+    "signsToWatch": [
+      "Respiración lenta o superficial (menos de 8-10 respiraciones por minuto).",
+      "Somnolencia extrema o dificultad para despertar.",
+      "Confusión, desorientación o alucinaciones.",
+      "Mareo intenso o desmayo al ponerse de pie.",
+      "Dificultad para orinar.",
+      "Estreñimiento severo.",
+      "Hinchazón de cara, labios, lengua o garganta (signo de alergia).",
+      "Latidos cardíacos muy lentos."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Depresión respiratoria grave (respiración lenta, superficial o ausente).",
+      "Somnolencia extrema progresando a estupor o coma.",
+      "Pupilas puntiformes (miosis).",
+      "Piel fría y húmeda.",
+      "Hipotensión severa y bradicardia.",
+      "Paro cardiorrespiratorio y muerte."
+    ],
+    "treatment": "EMERGENCIA MÉDICA INMEDIATA (llamar al 911 o acudir al hospital). Medidas de soporte vital: Mantener vía aérea, asistencia ventilatoria, soporte circulatorio. Administración del antídoto específico. El vómito inducido no está recomendado por riesgo de aspiración.",
+    "antidote": "Naloxona (Narcan). Es un antagonista opioide competitivo que revierte rápidamente los efectos de la sobredosis, especialmente la depresión respiratoria. Se administra por vía intravenosa, intramuscular, subcutánea o intranasal. Pueden requerirse dosis repetidas debido a la vida media más corta de la naloxona comparada con la morfina."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial por ser estupefaciente (receta que se retiene en la farmacia).",
+    "scheduleMexico": "Fracción I (Estupefacientes) de la Ley General de Salud. Sujeta a estricto control y registro.",
+    "fdaApprovalYear": "Aprobado antes de 1938 (cuando se estableció la FDA)."
+  },
+  "brandsMexico": [
+    "MS Contin (liberación controlada)",
+    "Kadian (liberación prolongada)",
+    "M-Eslon (liberación controlada)",
+    "Statex (liberación inmediata y solución)",
+    "Morphine Sulfate Sandoz",
+    "Morphine Sulfate Pisa",
+    "Morphine Sulfate Denver Farma",
+    "Morfina Genfar",
+    "Morfina Laproff",
+    "Morfina Liomont"
+  ],
+  "clinicalPearls": [
+    "La 'dosis correcta' de morfina es la que alivia el dolor con efectos adversos manejables; no existe un techo máximo para el efecto analgésico.",
+    "El estreñimiento es un efecto adverso casi universal y NO desarrolla tolerancia; se debe instituir un régimen laxante profiláctico desde el primer día.",
+    "En pacientes con dolor oncológico, es preferible el uso de formulaciones de liberación controlada para el dolor basal, más una dosis de rescate de liberación inmediata para el dolor irruptivo.",
+    "La depresión respiratoria es rara en pacientes con dolor crónico que desarrollan tolerancia, pero es el mayor riesgo al iniciar el tratamiento o aumentar la dosis.",
+    "La morfina es el opioide de referencia contra el cual se comparan todos los demás; su metabolito M6G es más potente y puede acumularse en insuficiencia renal, causando toxicidad."
+  ],
+  "patientCounseling": "Este medicamento es muy efectivo para el dolor fuerte, pero debe usarse con mucho cuidado. Tómelo exactamente como se lo recetó su médico. No aumente la dosis ni la frecuencia por su cuenta. Las pastillas de acción prolongada NUNCA se deben partir o masticar. Puede causar mucho sueño y mareo, así que evite manejar o hacer actividades que requieran estar alerta hasta que sepa cómo le afecta. No tome alcohol. Es muy probable que le cause estreñimiento; beba mucha agua, coma frutas y verduras, y hable con su médico sobre un laxante. Si siente que no puede respirar bien, está muy somnoliento y no lo pueden despertar, o se marea mucho al pararse, busque ayuda médica de inmediato. Guárdelo en un lugar seguro, lejos del alcance de los niños y de otras personas. No lo suspenda de golpe si lo ha estado tomando por mucho tiempo.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor intenso",
+        "slug": "dolor-intenso"
+      },
+      {
+        "name": "Dolor oncológico",
+        "slug": "dolor-oncologico"
+      },
+      {
+        "name": "Dolor postoperatorio",
+        "slug": "dolor-postoperatorio"
+      },
+      {
+        "name": "Dispnea (dificultad para respirar) refractaria",
+        "slug": "dispnea-refractaria"
+      },
+      {
+        "name": "Ansiedad relacionada con el dolor",
+        "slug": "ansiedad-dolor"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Cáncer",
+        "slug": "cancer"
+      },
+      {
+        "name": "Infarto agudo de miocardio",
+        "slug": "infarto-agudo-miocardio"
+      },
+      {
+        "name": "Enfermedades terminales (cuidados paliativos)",
+        "slug": "cuidados-paliativos"
+      },
+      {
+        "name": "Traumatismos graves",
+        "slug": "traumatismos-graves"
+      },
+      {
+        "name": "Quemaduras extensas",
+        "slug": "quemaduras-extensas"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Dependencia a opioides",
+        "slug": "dependencia-opioides"
+      },
+      {
+        "name": "Depresión respiratoria",
+        "slug": "depresion-respiratoria"
+      },
+      {
+        "name": "Estreñimiento crónico",
+        "slug": "estrenimiento-cronico"
+      },
+      {
+        "name": "Síndrome de abstinencia neonatal",
+        "slug": "sindrome-abstinencia-neonatal"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Frecuencia respiratoria",
+        "slug": "frecuencia-respiratoria",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Presión arterial",
+        "slug": "presion-arterial",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Nivel de conciencia (escala de Glasgow)",
+        "slug": "escala-glasgow",
+        "effect": "Puede disminuir"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Tasa de filtración glomerular (TFG)",
+        "slug": "tfg",
+        "reason": "Monitorear función renal para ajustar dosis y evitar acumulación de metabolitos tóxicos."
+      },
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-funcion-hepatica",
+        "reason": "Evaluar capacidad metabólica del hígado, especialmente al iniciar tratamiento."
+      },
+      {
+        "name": "Gasometría arterial",
+        "slug": "gasometria-arterial",
+        "reason": "Evaluar oxigenación y ventilación en caso de sospecha de depresión respiratoria."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de edad vascular",
+        "slug": "calculadora-edad-vascular"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La morfina es lo mismo que la heroína?",
+      "a": "No. Ambas son opioides derivados de la amapola, pero la heroína es una droga ilegal, más potente y adictiva, creada por una modificación química de la morfina. La morfina es un medicamento legal, usado bajo estricta supervisión médica para aliviar el dolor."
+    },
+    {
+      "q": "¿Tomar morfina significa que mi enfermedad es terminal?",
+      "a": "Para nada. La morfina se usa para muchos tipos de dolor intenso, no solo al final de la vida. Es común después de cirugías grandes, en fracturas graves o en crisis dolorosas. Su uso depende de la intensidad del dolor, no de la etapa de la enfermedad."
+    },
+    {
+      "q": "¿Me voy a volver adicto si tomo morfina para el dolor?",
+      "a": "El riesgo de adicción (búsqueda compulsiva de la droga por el 'viaje') es bajo cuando se usa correctamente para el dolor real. Sin embargo, puede desarrollar dependencia física (el cuerpo se acostumbra), por lo que no debe suspenderse bruscamente. Su médico lo guiará para un uso seguro."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si estoy con morfina?",
+      "a": "NO. El alcohol potencia los efectos peligrosos de la morfina, como la somnolencia extrema y la dificultad para respirar, pudiendo causar una sobredosis grave o la muerte. Es una combinación muy peligrosa."
+    },
+    {
+      "q": "¿Por qué me dan laxantes junto con la morfina?",
+      "a": "Porque el estreñimiento es un efecto secundario casi seguro de la morfina y no mejora con el tiempo. Para prevenirlo desde el primer día, los médicos suelen recetar laxantes, además de recomendar beber mucha agua y comer fibra."
+    },
+    {
+      "q": "¿Puedo manejar mi auto mientras tomo morfina?",
+      "a": "No es seguro, especialmente al inicio del tratamiento o cuando se ajusta la dosis. La morfina causa somnolencia, mareo y reduce los reflejos. Espere a saber cómo le afecta y solo maneje cuando su médico le indique que es seguro."
+    },
+    {
+      "q": "¿Qué hago si se me olvida una dosis?",
+      "a": "Si es una dosis de acción prolongada y falta poco para la siguiente, omita la olvidada y tome la siguiente a su hora habitual. NO duplique la dosis. Si es de acción rápida para dolor, tómela cuando se acuerde, pero si ya pasó mucho tiempo y el dolor está controlado, puede esperar a la siguiente. Consulte siempre con su médico o farmacéutico."
+    },
+    {
+      "q": "¿La morfina me va a dejar 'dopado' o sin emociones?",
+      "a": "Al inicio puede causar somnolencia o una sensación de bienestar, pero esto suele mejorar en unos días. El objetivo es que usted esté alerta y sin dolor. Si se siente demasiado sedado o 'ausente', informe a su médico para ajustar la dosis."
+    },
+    {
+      "q": "¿Puedo partir la pastilla si la dosis es muy alta?",
+      "a": "Depende del tipo. Las pastillas de LIBERACIÓN INMEDIATA a veces tienen una ranura y se pueden partir. Las de LIBERACIÓN CONTROLADA o PROLONGADA NUNCA se deben partir, masticar o triturar, porque liberarían toda la medicina de golpe, causando una sobredosis peligrosa. Consulte la caja o a su farmacéutico."
+    },
+    {
+      "q": "¿La morfina daña el hígado o los riñones?",
+      "a": "La morfina en sí no es tóxica para estos órganos, pero se procesa en el hígado y se elimina por los riñones. Si su hígado o riñones no funcionan bien, la medicina puede acumularse y causar efectos secundarios graves. Por eso su médico revisará sus estudios antes y durante el tratamiento."
+    },
+    {
+      "q": "¿Qué es el dolor 'irruptivo' y la dosis de 'rescate'?",
+      "a": "El dolor irruptivo es un aumento breve e intenso del dolor que 'irrumpe' sobre el dolor constante. La dosis de rescate es una cantidad extra de morfina de acción rápida que su médico le receta para tomar solo cuando ocurre este dolor, además de su dosis regular."
+    },
+    {
+      "q": "¿Puedo tomar morfina si soy alérgico a la codeína?",
+      "a": "Debe tener MUCHA PRECAUCIÓN. La codeína se convierte en parte en morfina dentro del cuerpo. Si es alérgico a la codeína, existe un riesgo de que también lo sea a la morfina. Informe a todos sus médicos sobre esta alergia antes de recibir cualquier opioide."
+    },
+    {
+      "q": "¿La morfina afecta el corazón?",
+      "a": "Puede causar que los latidos del corazón sean más lentos (bradicardia) y bajar la presión arterial, especialmente al ponerse de pie (mareo). Es importante monitorear estos signos, sobre todo al iniciar el tratamiento."
+    },
+    {
+      "q": "¿Por qué a veces me pica mucho la piel con la morfina?",
+      "a": "El prurito (picazón), especialmente en la cara, es un efecto común de los opioides, no necesariamente por alergia. Ocurre porque la morfina activa ciertos receptores. Suele mejorar con el tiempo. Si es muy molesto, su médico puede recetar un antihistamínico para aliviarlo."
+    },
+    {
+      "q": "¿Qué pasa si tomo más morfina de la recetada porque el dolor no se quita?",
+      "a": "NUNCA se automedique. Tomar más de lo indicado puede llevar a una sobredosis grave, con riesgo de paro respiratorio y muerte. Si el dolor no se controla con la dosis actual, contacte a su médico para que evalúe ajustarla de manera segura."
+    },
+    {
+      "q": "¿Puedo usar morfina para un dolor de cabeza o de muelas?",
+      "a": "NO. La morfina no está indicada para dolores comunes como migrañas, dolor de muelas o lumbalgia leve. Es un medicamento reservado para dolores muy intensos que no responden a otros analgésicos, debido a sus riesgos. Usarlo para dolores menores es inapropiado y peligroso."
+    },
+    {
+      "q": "¿Cómo se suspende la morfina después de un uso prolongado?",
+      "a": "NO se debe suspender de golpe. El médico elaborará un plan para reducir la dosis gradualmente (desescalada) a lo largo de días o semanas. Esto permite que su cuerpo se adapte y evita los síntomas de abstinencia, como ansiedad, sudoración, náuseas y dolor."
+    },
+    {
+      "q": "¿La morfina interactúa con medicamentos para la presión o la diabetes?",
+      "a": "Puede interactuar. Con medicamentos para la presión, puede potenciar la bajada de presión y causar mareo. Con algunos para la diabetes, puede enmascarar los síntomas de una bajada de azúcar (hipoglucemia). Es crucial que informe a su médico sobre TODOS los medicamentos que toma."
+    },
+    {
+      "q": "¿Qué es más fuerte, la morfina o el fentanilo?",
+      "a": "El fentanilo es mucho más potente que la morfina (aproximadamente 50 a 100 veces más). Por eso se usa en parches para dolor crónico severo o en anestesia. Su potencia hace que el riesgo de sobredosis sea aún mayor si no se usa correctamente."
+    },
+    {
+      "q": "¿Cuál es el signo MÁS PELIGROSO de una sobredosis de morfina y qué debo hacer?",
+      "a": "El signo más peligroso es la RESPIRACIÓN LENTA O SUPERFICIAL (menos de 8 respiraciones por minuto) junto con somnolencia extrema y dificultad para despertar a la persona. Es una EMERGENCIA MÉDICA. Llame al 911 de inmediato, coloque a la persona de lado y esté preparado para que los paramédicos le administren el antídoto (naloxona)."
+    }
+  ]
+}

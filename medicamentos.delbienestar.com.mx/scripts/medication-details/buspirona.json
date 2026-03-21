@@ -1,0 +1,408 @@
+{
+  "name": "Buspirona",
+  "summary": "La buspirona es un medicamento ansiolítico, es decir, que se usa para tratar la ansiedad. Pertenece a una clase diferente a las benzodiacepinas (como el diazepam o alprazolam), lo que significa que no causa sueño excesivo, dependencia o síndrome de abstinencia de la misma manera. Su importancia clínica radica en ser una opción de primera línea para el tratamiento del trastorno de ansiedad generalizada (TAG), especialmente en pacientes que necesitan un tratamiento prolongado, ya que no produce sedación significativa ni afecta la memoria y la coordinación como otros ansiolíticos. Es un tratamiento que ayuda a controlar la preocupación excesiva, la tensión y la irritabilidad asociadas a la ansiedad, permitiendo a las personas retomar sus actividades diarias con mayor normalidad. Su efecto no es inmediato; puede tardar de 2 a 4 semanas en hacer efecto completo, por lo que es fundamental la paciencia y la adherencia al tratamiento prescrito por el médico.",
+  "pharmacology": {
+    "mechanismOfAction": "La buspirona actúa como un agonista parcial de los receptores de serotonina 5-HT1A en el cerebro. Esto significa que se une a estos receptores y los activa, pero con un efecto menor que el de la serotonina natural. Al modular la actividad de este neurotransmisor, ayuda a regular el estado de ánimo y reduce los síntomas de ansiedad. A diferencia de las benzodiacepinas, NO actúa sobre los receptores GABA, por lo que no tiene efectos sedantes, hipnóticos, anticonvulsivos o relajantes musculares significativos. Su acción es específica para la ansiedad, sin el riesgo de depresión del sistema nervioso central que caracteriza a otros ansiolíticos. Este mecanismo único la hace no adictiva y con un perfil de efectos secundarios más favorable en términos de somnolencia.",
+    "pharmacologicClass": "Agonista parcial del receptor de serotonina 5-HT1A; Agente ansiolítico no benzodiacepínico, no barbitúrico.",
+    "therapeuticClass": "Ansiolítico.",
+    "absorption": "Se absorbe bien por vía oral, pero sufre un extenso metabolismo de primer paso en el hígado, lo que reduce su biodisponibilidad a aproximadamente del 1% al 5%. La presencia de alimentos puede retrasar la absorción y aumentar ligeramente la biodisponibilidad. Se recomienda tomarla de manera constante, siempre con o siempre sin alimentos, para mantener niveles estables.",
+    "distribution": "Se distribuye ampliamente por los tejidos. Su unión a proteínas plasmáticas es moderada (alrededor del 86%-95%). Su volumen de distribución (Vd) es de aproximadamente 5.3 L/kg, indicando una buena distribución en los tejidos.",
+    "metabolism": "Se metaboliza extensamente en el hígado, principalmente a través de la enzima citocromo P450 3A4 (CYP3A4). Su metabolito principal, el 1-pirimidilpiperazina (1-PP), tiene actividad farmacológica mínima. Las interacciones con otros medicamentos que inhiban o induzcan la CYP3A4 son clínicamente significativas.",
+    "elimination": "Se elimina principalmente por la orina (29%-63%) y las heces (18%-38%). Su vida media de eliminación es de aproximadamente 2 a 3 horas, pero sus efectos clínicos son más prolongados debido a su acción en el receptor. La vida media del metabolito 1-PP es más larga (alrededor de 6 horas).",
+    "onsetOfAction": "El inicio del efecto ansiolítico es gradual. Pueden notarse algunas mejoras en 1-2 semanas, pero el efecto terapéutico completo generalmente se alcanza después de 3 a 4 semanas de uso continuo.",
+    "durationOfAction": "Debido a su mecanismo de acción y a la necesidad de ajustes neuroquímicos, su efecto es sostenido durante el día con dos o tres dosis diarias. No tiene un pico agudo de efecto como las benzodiacepinas."
+  },
+  "indications": {
+    "approved": [
+      "Trastorno de ansiedad generalizada (TAG)",
+      "Tratamiento a corto plazo de los síntomas de ansiedad"
+    ],
+    "offLabel": [
+      "Trastorno de ansiedad social (fobia social)",
+      "Síntomas de ansiedad asociados a la depresión (como coadyuvante)",
+      "Síndrome premenstrual (para irritabilidad y tensión)",
+      "Trastorno por estrés postraumático (TEPT)",
+      "Trastorno obsesivo-compulsivo (TOC) como terapia complementaria",
+      "Síntomas de abstinencia de benzodiacepinas (para reducir la ansiedad durante la deshabituación)"
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis inicial típica es de 7.5 mg dos veces al día (15 mg/día). La dosis puede aumentarse en incrementos de 5 mg por día cada 2-3 días, según la tolerancia y la respuesta. La dosis terapéutica habitual oscila entre 15 mg y 30 mg al día, divididos en 2 o 3 dosis. En algunos casos, se pueden usar dosis de hasta 60 mg/día, pero esto debe ser bajo estricta supervisión médica.",
+    "pediatric": "No está aprobado para uso en niños y adolescentes menores de 18 años. Su seguridad y eficacia no están establecidas en esta población. Cualquier uso debe ser decidido por un psiquiatra infantil con experiencia.",
+    "elderly": "En adultos mayores (mayores de 65 años), se recomienda iniciar con una dosis más baja, como 5 mg dos veces al día (10 mg/día), debido a una posible mayor sensibilidad y a cambios en el metabolismo. Los ajustes deben ser más lentos y cautelosos.",
+    "renalImpairment": "No se requieren ajustes de dosis específicos en insuficiencia renal leve a moderada. En insuficiencia renal grave (TFG <30 mL/min) o en diálisis, se recomienda precaución y posible reducción de la dosis, ya que la experiencia es limitada.",
+    "hepaticImpairment": "Debe usarse con extrema precaución en pacientes con insuficiencia hepática (cirrosis, hepatitis). Se recomienda reducir significativamente la dosis (ej., iniciar con 5 mg una vez al día) o evitar su uso, debido al metabolismo hepático extenso. Puede haber acumulación del fármaco.",
+    "maxDose": "La dosis máxima diaria recomendada es de 60 mg, aunque la mayoría de los pacientes responden a dosis entre 20-30 mg/día."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "5 mg",
+        "7.5 mg",
+        "10 mg",
+        "15 mg",
+        "30 mg"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la buspirona o a cualquier componente de la formulación",
+      "Uso concomitante con inhibidores de la monoaminooxidasa (IMAOs) o haberlos suspendido en los últimos 14 días (riesgo de síndrome serotoninérgico)",
+      "Insuficiencia hepática grave (contraindicación relativa que puede ser absoluta según el caso)"
+    ],
+    "relative": [
+      "Insuficiencia hepática leve a moderada",
+      "Insuficiencia renal grave",
+      "Embarazo y lactancia (evaluar riesgo-beneficio)",
+      "Historial de convulsiones",
+      "Pacientes con miastenia gravis (por posibles efectos anticolinérgicos leves)",
+      "Glaucoma de ángulo cerrado no tratado"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Mareo",
+      "Dolor de cabeza",
+      "Náuseas"
+    ],
+    "common": [
+      "Nerviosismo",
+      "Somnolencia leve",
+      "Insomnio",
+      "Sequedad de boca",
+      "Fatiga",
+      "Excitación",
+      "Trastornos de la atención",
+      "Sudoración",
+      "Dolor abdominal",
+      "Estreñimiento",
+      "Diarrea"
+    ],
+    "uncommon": [
+      "Visión borrosa",
+      "Temblor fino de las manos",
+      "Debilidad muscular",
+      "Dolor muscular",
+      "Zumbido en los oídos (tinnitus)",
+      "Alteraciones del sueño (pesadillas)",
+      "Sensación de 'aturdimiento' o atontamiento",
+      "Congestión nasal"
+    ],
+    "rare": [
+      "Reacciones alérgicas (erupción cutánea, picazón)",
+      "Síntomas serotoninérgicos (agitación, confusión, taquicardia, rigidez muscular) especialmente con otros fármacos",
+      "Alteraciones en las pruebas de función hepática",
+      "Hipomanía o manía (en pacientes susceptibles)"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Inhibidores de la MAO (IMAOs) como fenelzina, tranilcipromina, selegilina",
+        "effect": "Riesgo grave de síndrome serotoninérgico (hipertermia, rigidez, convulsiones, coma). Contraindicado.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores potentes del CYP3A4 (ketoconazol, itraconazol, claritromicina, ritonavir, jugo de toronja)",
+        "effect": "Aumentan significativamente los niveles de buspirona, incrementando el riesgo de efectos adversos (mareo, somnolencia).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inductores potentes del CYP3A4 (rifampicina, carbamazepina, fenitoína, hierba de San Juan)",
+        "effect": "Disminuyen drásticamente los niveles de buspirona, haciendo que pierda su efecto terapéutico.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Otros fármacos serotoninérgicos (ISRS como sertralina, fluoxetina; IRSN como venlafaxina; tramadol; triptanes)",
+        "effect": "Mayor riesgo de síndrome serotoninérgico. Se requiere precaución extrema y monitoreo.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Digoxina",
+        "effect": "La buspirona puede aumentar los niveles de digoxina en sangre, aumentando el riesgo de toxicidad (náuseas, visión amarilla, arritmias).",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Haloperidol",
+        "effect": "Puede aumentar los niveles de haloperidol, potenciando sus efectos adversos extrapiramidales (temblores, rigidez).",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Tomarla con alimentos puede aumentar su biodisponibilidad y reducir las molestias gastrointestinales como náuseas. El alcohol debe evitarse por completo, ya que puede potenciar los efectos de mareo y somnolencia, aunque este efecto es menor que con las benzodiacepinas. El jugo de toronja (pomelo) está contraindicado porque inhibe el CYP3A4 y aumenta mucho los niveles del fármaco.",
+    "withSupplements": "La HIERBA DE SAN JUAN (Hypericum perforatum) es un potente inductor del CYP3A4 y puede hacer que la buspirona no funcione. Suplementos que afecten la serotonina (como el 5-HTP o el triptófano en dosis altas) pueden aumentar el riesgo de síndrome serotoninérgico. Consultar siempre con el médico o farmacéutico antes de tomar cualquier suplemento."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA B",
+      "recommendation": "Los estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. Solo debe usarse durante el embarazo si el beneficio potencial justifica claramente el riesgo potencial para el feto. Se prefiere evitar su uso, especialmente en el primer trimestre. La ansiedad no tratada también conlleva riesgos, por lo que la decisión debe ser individualizada con un psiquiatra y ginecólogo.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La buspirona se excreta en la leche materna en cantidades muy bajas. No se conocen bien los efectos en el lactante. Se recomienda precaución y, generalmente, se sugiere evitar la lactancia si la madre está en tratamiento, o considerar alternativas más estudiadas. Se debe evaluar el riesgo-beneficio con el médico.",
+    "pediatric": "No está aprobado para menores de 18 años. Su uso en niños y adolescentes es off-label y solo debe ser considerado por un psiquiatra infantil en casos muy específicos, tras agotar otras opciones terapéuticas y con un monitoreo muy estrecho por el riesgo de efectos adversos y posible activación (aumento de ideas suicidas o conductas de riesgo).",
+    "geriatric": "Los adultos mayores son más sensibles a los efectos de la buspirona, especialmente a los mareos y la somnolencia, lo que aumenta el riesgo de caídas y fracturas. Se debe iniciar con dosis bajas (5 mg 1-2 veces al día) y aumentar muy lentamente. Monitorear de cerca la función hepática y renal."
+  },
+  "administration": {
+    "howToTake": "Tomar exactamente como lo recetó el médico. Generalmente se toma 2 o 3 veces al día, con o sin alimentos, pero de manera consistente (siempre con o siempre sin). Tragar la tableta entera con un vaso lleno de agua. No partir, triturar ni masticar a menos que el médico lo indique (algunas presentaciones no son divisibles). Es fundamental tomarla todos los días, incluso si al principio no se siente mejoría. No deje de tomarla abruptamente.",
+    "storage": "Conservar en su empaque original, bien cerrado, a temperatura ambiente (entre 15°C y 30°C), en un lugar seco y fuera del alcance de la luz directa y la humedad. Mantener fuera del alcance de los niños y las mascotas.",
+    "specialInstructions": "Este medicamento NO es para el alivio inmediato de un ataque de pánico o ansiedad aguda. Su efecto es gradual. No conduzca vehículos ni opere maquinaria peligrosa hasta que sepa cómo le afecta, especialmente durante las primeras semanas. Lleve un registro de sus síntomas para comentarlos con su médico en las citas de seguimiento. Informe a todos sus médicos y dentistas que está tomando buspirona antes de cualquier procedimiento o nueva prescripción."
+  },
+  "monitoring": {
+    "labTests": [
+      "Pruebas de función hepática (transaminasas AST/ALT, bilirrubina) al inicio y periódicamente",
+      "Función renal (creatinina, TFG) al inicio",
+      "Conteo sanguíneo completo (CSC) ocasionalmente"
+    ],
+    "frequency": "Monitoreo clínico (evaluación de síntomas y efectos adversos) cada 2-4 semanas al inicio, y luego cada 3-6 meses una vez estabilizado. Pruebas hepáticas cada 6-12 meses en tratamiento a largo plazo, o antes si hay síntomas como fatiga extrema, ictericia (piel amarilla) o dolor abdominal.",
+    "signsToWatch": [
+      "Aparición o empeoramiento de ideas suicidas, especialmente en jóvenes adultos",
+      "Síntomas de síndrome serotoninérgico: agitación, confusión, taquicardia, fiebre, sudoración, rigidez muscular, temblores",
+      "Mareo intenso o desmayos que puedan provocar caídas",
+      "Signos de daño hepático: coloración amarillenta de piel/ojos, orina muy oscura, heces claras, dolor abdominal superior",
+      "Reacciones alérgicas: ronchas, dificultad para respirar, hinchazón de cara/labios/lengua"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Náuseas y vómitos intensos",
+      "Mareo y vértigo extremos",
+      "Somnolencia profunda o estupor",
+      "Visión borrosa o doble",
+      "Pupilas pequeñas (miosis)",
+      "Malestar estomacal severo",
+      "En casos muy graves y raros, con combinación de otros fármacos: convulsiones, síndrome serotoninérgico, depresión respiratoria"
+    ],
+    "treatment": "No existe un antídoto específico. El tratamiento es de soporte y sintomático. Se debe buscar atención médica de inmediato en un hospital. Se realiza lavado gástrico o carbón activado si la ingestión fue reciente. Se monitorean signos vitales, función cardíaca y respiratoria. Los síntomas suelen resolverse en 24-36 horas.",
+    "antidote": "No hay antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Rx).",
+    "scheduleMexico": "Medicamento de la Fracción III (sustancias con potencial de abuso bajo, pero que requieren receta médica).",
+    "fdaApprovalYear": "Aprobado por la FDA en 1986."
+  },
+  "brandsMexico": [
+    "Ansial",
+    "Ansiced",
+    "Buspar",
+    "Buspimen",
+    "Buspirex",
+    "Buspirona",
+    "Buspirona MK",
+    "Neurosine",
+    "Sobril",
+    "Tranquinal",
+    "Vesperon"
+  ],
+  "clinicalPearls": [
+    "La buspirona NO es adictiva y no produce síndrome de abstinencia al suspenderla, a diferencia de las benzodiacepinas. Esto la hace ideal para tratamientos prolongados.",
+    "Un error común es esperar un efecto 'tranquilizante' inmediato. Educar al paciente sobre el inicio de acción gradual (2-4 semanas) es clave para la adherencia al tratamiento.",
+    "Es particularmente útil en pacientes con antecedentes de abuso de sustancias o alcohol, ya que no tiene potencial de abuso y no interactúa con el alcohol de manera tan peligrosa como las benzodiacepinas (aunque igual se debe evitar)."
+  ],
+  "patientCounseling": "Querido paciente: La buspirona es un medicamento seguro y efectivo para controlar la ansiedad a largo plazo, pero requiere tu compromiso. No sentirás alivio inmediato; es como subir una escalera, paso a paso. Tómala todos los días a la misma hora, como te indicó tu médico, aunque al principio tengas dudas. Los efectos secundarios como mareo leve o náuseas suelen desaparecer en una o dos semanas. Evita completamente el alcohol y el jugo de toronja. No dejes de tomarla de golpe; si quieres suspenderla, habla con tu médico para planear una reducción gradual. Es fundamental que asistas a todas tus citas de seguimiento para ajustar la dosis y platicar cómo te sientes. Este medicamento es una herramienta, pero la terapia psicológica y los hábitos de vida saludable (dormir bien, ejercicio, alimentación) son igual de importantes para tu recuperación. Si tienes pensamientos de hacerte daño, busca ayuda de inmediato.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Ansiedad excesiva",
+        "slug": "ansiedad-excesiva"
+      },
+      {
+        "name": "Preocupación constante",
+        "slug": "preocupacion-constante"
+      },
+      {
+        "name": "Tensión muscular",
+        "slug": "tension-muscular"
+      },
+      {
+        "name": "Irritabilidad",
+        "slug": "irritabilidad"
+      },
+      {
+        "name": "Inquietud",
+        "slug": "inquietud"
+      },
+      {
+        "name": "Dificultad para concentrarse",
+        "slug": "dificultad-para-concentrarse"
+      },
+      {
+        "name": "Fatiga por ansiedad",
+        "slug": "fatiga-por-ansiedad"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Trastorno de ansiedad generalizada",
+        "slug": "trastorno-de-ansiedad-generalizada"
+      },
+      {
+        "name": "Trastorno de ansiedad social",
+        "slug": "trastorno-de-ansiedad-social"
+      },
+      {
+        "name": "Síntomas de ansiedad en depresión",
+        "slug": "sintomas-de-ansiedad-en-depresion"
+      },
+      {
+        "name": "Síndrome premenstrual",
+        "slug": "sindrome-premenstrual"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Síndrome serotoninérgico",
+        "slug": "sindrome-serotoninergico"
+      },
+      {
+        "name": "Hepatotoxicidad",
+        "slug": "hepatotoxicidad"
+      },
+      {
+        "name": "Mareo y riesgo de caídas",
+        "slug": "mareo-y-riesgo-de-caidas"
+      },
+      {
+        "name": "Activación maníaca",
+        "slug": "activacion-maniaca"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Transaminasas (AST/ALT)",
+        "slug": "transaminasas-ast-alt",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Bilirrubina",
+        "slug": "bilirrubina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Niveles de digoxina",
+        "slug": "niveles-de-digoxina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Niveles de haloperidol",
+        "slug": "niveles-de-haloperidol",
+        "effect": "Puede elevar"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-de-funcion-hepatica",
+        "reason": "Para detectar hepatotoxicidad inducida por el fármaco"
+      },
+      {
+        "name": "Función renal (creatinina, TFG)",
+        "slug": "funcion-renal-creatinina-tfg",
+        "reason": "Para ajustar dosis en pacientes con enfermedad renal"
+      },
+      {
+        "name": "Conteo sanguíneo completo",
+        "slug": "conteo-sanguineo-completo",
+        "reason": "Monitoreo general de seguridad"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de IMC",
+        "slug": "calculadora-imc"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La buspirona me va a dar sueño como otros calmantes?",
+      "a": "No, generalmente no. A diferencia de los tranquilizantes comunes (benzodiacepinas), la buspirona no es sedante. Puede causar algo de somnolencia leve al inicio en algunas personas, pero no es su efecto principal. La mayoría de los pacientes pueden realizar sus actividades normales, incluyendo conducir, una vez que se acostumbran al medicamento."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto la buspirona?",
+      "a": "La buspirona NO actúa de inmediato. Es normal no sentir mejoría en los primeros días. Pueden empezar a notarse algunos cambios a la 1-2 semanas, pero el efecto completo y estable para controlar la ansiedad generalmente se alcanza después de 3 a 4 semanas de tomarla todos los días sin falta. La paciencia es clave."
+    },
+    {
+      "q": "¿Puedo tomar buspirona solo cuando me sienta ansioso?",
+      "a": "NO. La buspirona no es un medicamento de rescate para los ataques de ansiedad o pánico agudos. Se debe tomar de manera continua y regular, según la receta del médico (usualmente 2 o 3 veces al día), para construir un nivel constante en el cuerpo y prevenir la ansiedad. Tomarla 'según se necesite' no funciona."
+    },
+    {
+      "q": "¿La buspirona crea adicción o dependencia?",
+      "a": "No. La buspirona no tiene potencial de abuso y no produce dependencia física ni psicológica como las benzodiacepinas (alprazolam, clonazepam). Por eso es una opción preferida para tratamientos a largo plazo. Puede suspenderse sin un síndrome de abstinencia grave, aunque siempre se recomienda hacerlo bajo supervisión médica."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si estoy con buspirona?",
+      "a": "Se recomienda NO tomar alcohol. Aunque el riesgo de depresión grave del sistema nervioso es menor que con otros ansiolíticos, el alcohol puede aumentar los efectos de mareo, somnolencia y dificultad de concentración. Lo más seguro es evitarlo por completo durante el tratamiento."
+    },
+    {
+      "q": "¿Qué pasa si olvido una dosis de buspirona?",
+      "a": "Si se acerca la hora de tu siguiente dosis, omite la que olvidaste y toma la siguiente a su hora habitual. NO tomes una dosis doble para compensar. Si falta mucho tiempo para la siguiente dosis, toma la olvidada en cuanto te acuerdes. Intenta establecer una rutina (por ejemplo, con las comidas) para no olvidarla."
+    },
+    {
+      "q": "¿La buspirona sube o baja de peso?",
+      "a": "La buspirona generalmente no está asociada con cambios significativos de peso, a diferencia de algunos antidepresivos. Algunas personas pueden perder un poco de peso al inicio por las náuseas, y otras pueden ganar un poco, pero no es un efecto común ni pronunciado."
+    },
+    {
+      "q": "¿Puedo tomar buspirona en el embarazo o si estoy lactando?",
+      "a": "Su uso en embarazo y lactancia no está completamente establecido. Es categoría B en embarazo, lo que significa que en estudios con animales no hubo riesgo, pero en humanos no hay suficientes datos. Solo debe usarse si el médico considera que el beneficio supera el riesgo. Pasa a la leche materna, por lo que generalmente se recomienda no amamantar o buscar alternativas. Consulta a tu ginecólogo y psiquiatra."
+    },
+    {
+      "q": "¿La buspirona me puede dar dolor de cabeza o mareos?",
+      "a": "Sí, el dolor de cabeza y el mareo son los efectos secundarios más comunes, especialmente al inicio del tratamiento. Suelen ser leves y temporales, desapareciendo en una o dos semanas a medida que tu cuerpo se adapta. Si son muy intensos o no ceden, informa a tu médico."
+    },
+    {
+      "q": "¿Puedo tomar buspirona con mis otros medicamentos?",
+      "a": "Debes informar a TODOS tus médicos sobre todos los medicamentos que tomas, incluyendo hierbas y suplementos. La buspirona tiene interacciones importantes, especialmente con antimicóticos (como ketoconazol), algunos antibióticos (como claritromicina), medicamentos para el VIH, la hierba de San Juan y los IMAOs (un tipo de antidepresivo). Nunca combines sin supervisión."
+    },
+    {
+      "q": "¿Qué es el síndrome serotoninérgico y tengo riesgo con buspirona?",
+      "a": "Es una reacción grave por exceso de serotonina en el cerebro. Los síntomas son agitación, confusión, taquicardia, fiebre, sudoración, rigidez muscular y temblores. El riesgo es BAJO con buspirona sola, pero aumenta MUCHO si se combina con otros fármacos que suban la serotonina (como muchos antidepresivos, tramadol, triptanes). Si presentas estos síntomas, busca ayuda médica de inmediato."
+    },
+    {
+      "q": "¿La buspirona sirve para los ataques de pánico?",
+      "a": "No es el tratamiento de primera elección para el trastorno de pánico con ataques agudos. Su acción es lenta y no detiene un ataque en curso. Para el trastorno de pánico, se usan otros medicamentos (como ISRS) o benzodiacepinas de rescate. Sin embargo, puede ayudar a reducir la ansiedad general de fondo en algunos pacientes con pánico."
+    },
+    {
+      "q": "¿Pueden los niños o adolescentes tomar buspirona?",
+      "a": "No está aprobado oficialmente para menores de 18 años. Su uso en esta población es 'off-label' (fuera de indicación) y solo debe ser considerado por un psiquiatra infantil en casos muy específicos, cuando otros tratamientos hayan fallado y con un monitoreo muy cercano, debido a posibles efectos adversos."
+    },
+    {
+      "q": "¿Necesito hacerme análisis de sangre mientras tomo buspirona?",
+      "a": "Tu médico puede recomendarte pruebas de función hepática (del hígado) antes de empezar y periódicamente durante el tratamiento a largo plazo, ya que en raros casos puede afectar el hígado. También es común revisar la función renal al inicio. No es necesario un monitoreo muy frecuente, pero sí seguimiento clínico regular."
+    },
+    {
+      "q": "¿Puedo suspender la buspirona de golpe cuando me sienta mejor?",
+      "a": "Aunque no produce abstinencia como las benzodiacepinas, NO se recomienda suspenderla abruptamente. Puede causar un 'rebote' de los síntomas de ansiedad o malestar. Siempre consulta a tu médico para planear una reducción gradual de la dosis a lo largo de varias semanas."
+    },
+    {
+      "q": "¿La buspirona afecta la presión arterial?",
+      "a": "Generalmente no tiene un efecto significativo sobre la presión arterial. Sin embargo, puede causar mareos posturales (al levantarse rápido), lo que podría relacionarse con una leve baja de presión. Si tienes problemas de presión, coméntaselo a tu médico para que te monitoree."
+    },
+    {
+      "q": "¿Qué hago si tomo una sobredosis de buspirona?",
+      "a": "Busca atención médica de URGENCIA en un hospital o llama al centro de toxicología. Los síntomas pueden ser náuseas, vómitos, mareo extremo y somnolencia. Lleva contigo el frasco del medicamento. No existe un antídoto, pero el tratamiento de soporte en un hospital es efectivo."
+    },
+    {
+      "q": "¿Por qué mi médico me recetó buspirona en lugar de un 'clonazepam'?",
+      "a": "Probablemente porque la buspirona es más segura para un tratamiento prolongado. No causa dependencia, no afecta la memoria ni la coordinación, y no produce somnolencia diurna. Es la opción preferida para la ansiedad crónica (TAG), mientras que el clonazepam (una benzodiacepina) se usa más para crisis agudas o a corto plazo por su riesgo de adicción."
+    },
+    {
+      "q": "¿La buspirona interactúa con la pastilla anticonceptiva?",
+      "a": "No hay una interacción clínicamente significativa conocida entre la buspirona y los anticonceptivos hormonales orales. Puedes tomarlos con normalidad. Sin embargo, siempre informa a tu ginecólogo sobre todos los medicamentos que usas."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre buspirona y un antidepresivo ISRS para la ansiedad?",
+      "a": "Ambos son tratamientos de primera línea para la ansiedad. Los ISRS (como sertralina, escitalopram) también aumentan la serotonina, pero de una manera diferente y más amplia. Suelen ser la primera opción, especialmente si hay depresión coexistente. La buspirona es más específica para la ansiedad, tiene menos efectos secundarios sexuales y puede ser una alternativa o un complemento si los ISRS no se toleran o no son suficientes. La elección la hace el médico según tu caso."
+    }
+  ]
+}

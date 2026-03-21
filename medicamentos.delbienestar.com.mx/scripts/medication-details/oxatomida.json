@@ -1,0 +1,434 @@
+{
+  "name": "Oxatomida",
+  "summary": "La Oxatomida es un medicamento antialérgico y antihistamínico que pertenece a la clase de los antagonistas de los receptores H1 de segunda generación. Sirve principalmente para tratar y prevenir los síntomas de diversas alergias, como la rinitis alérgica (estornudos, flujo nasal, picazón), la urticaria (ronchas y comezón en la piel) y la conjuntivitis alérgica (ojos rojos y llorosos). Su importancia clínica radica en que bloquea la acción de la histamina, una sustancia química que el cuerpo libera durante una reacción alérgica, aliviando así los molestos síntomas sin causar tanto sueño como algunos antihistamínicos más antiguos. Es un tratamiento de mantenimiento útil para personas con alergias crónicas o estacionales, ayudando a mejorar su calidad de vida al reducir la frecuencia e intensidad de las crisis alérgicas. Aunque es eficaz, es fundamental tomarlo bajo supervisión médica para ajustar la dosis correcta y vigilar posibles efectos secundarios, especialmente en poblaciones sensibles como niños o personas con problemas hepáticos.",
+  "pharmacology": {
+    "mechanismOfAction": "La Oxatomida ejerce su efecto antialérgico principalmente a través de dos mecanismos. En primer lugar, actúa como un potente y selectivo antagonista competitivo de los receptores H1 de histamina periféricos. Esto significa que se une a estos receptores en las células, bloqueándolos e impidiendo que la histamina liberada durante la reacción alérgica se una a ellos y desencadene síntomas como picazón, enrojecimiento, hinchazón y aumento de la permeabilidad vascular. En segundo lugar, posee una acción estabilizadora de membrana sobre los mastocitos y basófilos, que son las células que almacenan y liberan histamina y otros mediadores inflamatorios. Al estabilizar estas células, la Oxatomida reduce su degranulación (liberación de contenido), previniendo así la liberación inicial de histamina y otros compuestos como leucotrienos y prostaglandinas, lo que proporciona un efecto preventivo contra las reacciones alérgicas.",
+    "pharmacologicClass": "Antagonista selectivo de los receptores H1 de histamina. Derivado de la benzimidazol. Antialérgico con propiedades estabilizadoras de membrana de mastocitos.",
+    "therapeuticClass": "Antihistamínico H1 de segunda generación. Antialérgico.",
+    "absorption": "La Oxatomida se absorbe bien por vía oral después de la administración. Sin embargo, su absorción es lenta e irregular, y puede verse afectada por la presencia de alimentos en el estómago, los cuales pueden aumentar su biodisponibilidad. La concentración plasmática máxima (Cmax) se alcanza aproximadamente entre 2 y 4 horas después de la ingestión.",
+    "distribution": "La Oxatomida se distribuye ampliamente en los tejidos. Se une extensamente a las proteínas plasmáticas, en un porcentaje superior al 90%. Su volumen de distribución (Vd) es grande, lo que indica una amplia distribución en los tejidos corporales más allá del plasma sanguíneo.",
+    "metabolism": "La Oxatomida sufre un extenso metabolismo de primer paso en el hígado. Es metabolizada principalmente por el sistema enzimático del citocromo P450 (CYP), aunque la isoenzima específica no está tan bien definida como con otros fármacos. Se transforma en varios metabolitos, algunos de los cuales pueden contribuir a la actividad farmacológica general del medicamento.",
+    "elimination": "La vida media de eliminación de la Oxatomida es relativamente larga, aproximadamente de 14 horas. Esto permite una dosificación generalmente de dos veces al día. La eliminación ocurre principalmente a través de la bilis y las heces, en forma de metabolitos. Una porción menor se excreta por la orina.",
+    "onsetOfAction": "El inicio de la acción antialérgica puede notarse a partir de la primera dosis, pero el efecto completo de estabilización de mastocitos y el control óptimo de los síntomas suele alcanzarse después de varios días de tratamiento continuo, generalmente entre 3 y 7 días.",
+    "durationOfAction": "Debido a su vida media prolongada, la duración del efecto antihistamínico es de aproximadamente 12 a 24 horas, lo que justifica la dosificación de una o dos veces al día para mantener un control constante de los síntomas."
+  },
+  "indications": {
+    "approved": [
+      "Rinitis alérgica estacional (fiebre del heno) y perenne",
+      "Urticaria crónica idiopática (ronchas y picazón de causa desconocida)",
+      "Conjuntivitis alérgica",
+      "Dermatitis atópica (eczema) como terapia coadyuvante para el control del prurito (comezón)",
+      "Prurito (comezón) de origen alérgico"
+    ],
+    "offLabel": [
+      "Profilaxis de migraña en algunos casos (debido a su efecto estabilizador de mastocitos)",
+      "Síndrome de mastocitosis cutánea (para reducir la liberación de mediadores)",
+      "Alivio sintomático de picaduras de insectos con reacción alérgica local exagerada"
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis habitual para adultos y adolescentes mayores de 14 años es de 30 mg dos veces al día (cada 12 horas), preferentemente por la mañana y por la noche. En algunos casos, el médico puede iniciar con 30 mg una vez al día y ajustar según la respuesta. La dosis puede variar entre 30 mg y 60 mg al día, dividida en dos tomas.",
+    "pediatric": "Niños de 6 a 14 años: La dosis recomendada es de 15 mg a 30 mg dos veces al día (cada 12 horas). La dosis exacta debe ser calculada por el pediatra basándose en el peso del niño (aproximadamente 1 mg/kg de peso corporal al día, dividido en dos dosis). Niños menores de 6 años: No se recomienda su uso por falta de datos de seguridad establecidos; se prefieren otros antihistamínicos con perfil pediátrico mejor estudiado.",
+    "elderly": "En adultos mayores (mayores de 65 años), se recomienda iniciar con la dosis más baja efectiva, generalmente 30 mg una vez al día, debido a la posible disminución de la función hepática y renal, y a una mayor sensibilidad a los efectos anticolinérgicos leves. El ajuste se hará según la tolerancia y respuesta clínica.",
+    "renalImpairment": "En insuficiencia renal leve a moderada (TFG ≥ 30 mL/min), generalmente no se requieren ajustes de dosis significativos, pero se recomienda vigilancia. En insuficiencia renal grave (TFG < 30 mL/min) o en pacientes en diálisis, se debe usar con precaución, posiblemente reduciendo la dosis o aumentando el intervalo entre dosis, ya que puede haber acumulación de metabolitos. Consultar siempre al médico.",
+    "hepaticImpairment": "La Oxatomida está contraindicada en insuficiencia hepática grave. En pacientes con insuficiencia hepática leve a moderada (Child-Pugh A o B), se debe usar con extrema precaución y a dosis reducidas (por ejemplo, 30 mg una vez al día), ya que el metabolismo hepático está comprometido, pudiendo llevar a una acumulación del fármaco y aumento del riesgo de efectos adversos.",
+    "maxDose": "La dosis máxima diaria para adultos no debe exceder los 120 mg, aunque la dosis habitual máxima efectiva y segura rara vez supera los 60 mg al día (30 mg cada 12 horas). En niños, la dosis máxima se calcula por peso y no debe superar las recomendaciones pediátricas."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "15 mg",
+        "30 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tableta recubierta",
+      "strengths": [
+        "30 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Jarabe/Suspensión oral",
+      "strengths": [
+        "5 mg/mL"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la Oxatomida o a cualquier componente de la formulación",
+      "Insuficiencia hepática grave (cirrosis descompensada)",
+      "Embarazo (especialmente el primer trimestre, categoría C)",
+      "Lactancia materna",
+      "Porfiria (enfermedad metabólica)"
+    ],
+    "relative": [
+      "Insuficiencia hepática leve a moderada",
+      "Insuficiencia renal grave",
+      "Obstrucción pilórica o estenosis pilórica",
+      "Glaucoma de ángulo cerrado",
+      "Hipertrofia prostática sintomática o retención urinaria",
+      "Epilepsia o antecedentes de convulsiones",
+      "Pacientes de edad avanzada con deterioro cognitivo",
+      "Uso concomitante con otros depresores del Sistema Nervioso Central (alcohol, benzodiacepinas)"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Somnolencia (sueño), especialmente al inicio del tratamiento",
+      "Dolor de cabeza (cefalea)",
+      "Sequedad de boca (xerostomía)"
+    ],
+    "common": [
+      "Mareos",
+      "Fatiga o cansancio",
+      "Náuseas, molestias gastrointestinales",
+      "Aumento del apetito y posible aumento de peso",
+      "Dolor abdominal"
+    ],
+    "uncommon": [
+      "Nerviosismo o agitación (paradójicamente, especialmente en niños)",
+      "Visión borrosa",
+      "Estreñimiento",
+      "Erupción cutánea",
+      "Elevación de enzimas hepáticas (transaminasas)"
+    ],
+    "rare": [
+      "Hepatitis medicamentosa (inflamación del hígado)",
+      "Arritmias cardíacas (en pacientes predispuestos)",
+      "Convulsiones",
+      "Reacciones de hipersensibilidad severa (angioedema, anafilaxia)",
+      "Temblor",
+      "Alteraciones en los análisis de sangre (trombocitopenia, agranulocitosis)"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Alcohol (etílico)",
+        "effect": "Potencia los efectos depresores del Sistema Nervioso Central (SNC), aumentando significativamente la somnolencia, mareos y deterioro psicomotor. Aumenta el riesgo de accidentes.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Benzodiacepinas (Diazepam, Alprazolam, Clonazepam)",
+        "effect": "Potenciación de la sedación, somnolencia y deterioro cognitivo y motor. Riesgo aumentado de caídas en adultos mayores.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Antidepresivos tricíclicos (Amitriptilina, Imipramina)",
+        "effect": "Potenciación de los efectos anticolinérgicos (sequedad de boca, estreñimiento, retención urinaria, visión borrada) y sedantes.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Antipsicóticos (Haloperidol, Quetiapina)",
+        "effect": "Aumento del efecto sedante y de los efectos anticolinérgicos.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inhibidores de la MAO (como Tranilcipromina, Fenelzina)",
+        "effect": "Interacción teórica que puede potenciar los efectos anticolinérgicos y sedantes. Se recomienda evitar la combinación.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Ketoconazol, Itraconazol, Eritromicina",
+        "effect": "Son inhibidores del citocromo P450 y pueden disminuir el metabolismo de la Oxatomida, aumentando sus niveles en sangre y el riesgo de efectos adversos.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Se recomienda tomar la Oxatomida con alimentos o inmediatamente después de comer. Esto puede mejorar su absorción y reducir la irritación gastrointestinal. El alcohol debe evitarse estrictamente por la potente interacción sedante.",
+    "withSupplements": "No se conocen interacciones clínicamente significativas con suplementos vitamínicos o minerales comunes. Sin embargo, se debe tener precaución con suplementos herbales con efectos sedantes (como Valeriana, Pasiflora, Kava) ya que pueden potenciar la somnolencia."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "C",
+      "recommendation": "Los estudios en animales han mostrado efectos embriotóxicos y fetotóxicos. No hay estudios adecuados y bien controlados en mujeres embarazadas. Su uso durante el embarazo, especialmente en el primer trimestre, no está recomendado. Solo debe usarse si el beneficio potencial para la madre justifica claramente el riesgo potencial para el feto, bajo estricta supervisión médica. Para el manejo de alergias en el embarazo, se prefieren antihistamínicos con mayor perfil de seguridad establecido (como la Loratadina o Cetirizina en ciertos trimestres).",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La Oxatomida se excreta en la leche materna en cantidades desconocidas. Debido al potencial de efectos adversos serios en el lactante (somnolencia, irritabilidad, efectos anticolinérgicos) y a la falta de datos de seguridad, se contraindica su uso durante la lactancia. Se recomienda suspender la lactancia o elegir un antihistamínico alternativo más seguro para la lactancia, según indique el médico.",
+    "pediatric": "Puede usarse en niños a partir de los 6 años de edad, con dosis ajustadas por peso. En niños menores de 6 años no se recomienda por falta de datos suficientes. En la población pediátrica, se debe vigilar de cerca la aparición de efectos paradójicos como excitación, nerviosismo o insomnio, en lugar de somnolencia. El jarabe es la forma farmacéutica más adecuada para esta población.",
+    "geriatric": "Los adultos mayores son más sensibles a los efectos anticolinérgicos (sequedad de boca, estreñimiento, retención urinaria, confusión) y sedantes de la Oxatomida. Aumenta el riesgo de mareos, somnolencia, hipotensión y caídas. Se debe iniciar con la dosis más baja posible (15-30 mg/día) y monitorear de cerca. Se recomienda especial precaución en pacientes con deterioro cognitivo leve o demencia, ya que puede empeorar la confusión."
+  },
+  "administration": {
+    "howToTake": "Tomar las tabletas o el jarabe por vía oral, preferentemente con alimentos o inmediatamente después de una comida para mejorar la tolerancia gastrointestinal y la absorción. Tragar las tabletas enteras con un vaso de agua, sin masticar ni partir (a menos que el médico o farmacéutico lo indique). Para el jarabe, usar el dosificador (cuchara o jeringa) que viene en la caja para medir la dosis exacta. Si se prescribe dos veces al día, tomar una dosis por la mañana y otra por la noche, tratando de espaciarlas cada 12 horas para mantener un efecto constante.",
+    "storage": "Conservar en su envase original, bien cerrado, para protegerlo de la luz y la humedad. Almacenar a temperatura ambiente (entre 15°C y 30°C), en un lugar fresco y seco, fuera del alcance y de la vista de los niños. No refrigerar a menos que el envase lo indique específicamente (como algunos jarabes). No usar después de la fecha de caducidad impresa en el envase.",
+    "specialInstructions": "Este medicamento puede causar somnolencia, especialmente al inicio del tratamiento. Evite conducir vehículos, operar maquinaria pesada o realizar actividades que requieran alerta mental hasta que conozca cómo le afecta. Los efectos sedantes pueden potenciarse con alcohol. Si olvida una dosis, tómela tan pronto como lo recuerde, pero si ya es casi la hora de la siguiente dosis, omita la dosis olvidada y continúe con su horario normal. NO duplique la dosis para compensar la olvidada. Informe a su médico si los síntomas de alergia no mejoran después de una semana de tratamiento o si empeoran."
+  },
+  "monitoring": {
+    "labTests": [
+      "Pruebas de función hepática (AST/TGO, ALT/TGP, bilirrubina) especialmente al inicio y con uso prolongado",
+      "Conteo sanguíneo completo (CSC) en tratamientos muy prolongados para vigilar células sanguíneas",
+      "Función renal (creatinina sérica, TFG) en pacientes de riesgo"
+    ],
+    "frequency": "En tratamientos a corto plazo (alergias estacionales), generalmente no se requiere monitoreo de laboratorio de rutina. En tratamientos crónicos (urticaria crónica, dermatitis atópica), se recomienda una evaluación de función hepática cada 6 a 12 meses, o antes si el paciente presenta síntomas como fatiga extrema, ictericia (piel amarilla) o dolor abdominal.",
+    "signsToWatch": [
+      "Somnolencia extrema o mareo que interfiera con las actividades diarias",
+      "Síntomas de daño hepático: coloración amarillenta de piel/ojos (ictericia), orina oscura, heces claras, dolor abdominal superior, fatiga intensa",
+      "Síntomas de reacción alérgica grave: dificultad para respirar, hinchazón de cara/lengua/garganta, urticaria intensa",
+      "Latidos cardíacos irregulares, rápidos o fuertes (palpitaciones)",
+      "Convulsiones",
+      "Sangrado o moretones inusuales (signo de alteración sanguínea)"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Somnolencia extrema y profunda (estupor)",
+      "Mareo intenso",
+      "Confusión, agitación (especialmente en niños)",
+      "Náuseas y vómitos",
+      "Midriasis (dilatación de las pupilas)",
+      "Sequedad de boca y piel severa",
+      "Taquicardia (ritmo cardíaco acelerado)",
+      "En casos graves: convulsiones, depresión cardiorrespiratoria y coma"
+    ],
+    "treatment": "No existe un antídoto específico. El tratamiento es de soporte y sintomático. Si la ingestión es reciente (menos de 1-2 horas), se puede considerar el lavado gástrico o la administración de carbón activado para reducir la absorción. Se debe mantener la vía aérea, la respiración y la circulación. Monitorizar signos vitales y función cardíaca. Los síntomas anticolinérgicos severos pueden tratarse con fisostigmina, pero solo en entornos hospitalarios y bajo estricta vigilancia. La diálisis no es efectiva debido a la alta unión a proteínas.",
+    "antidote": "No hay antídoto específico. La fisostigmina puede usarse como antídoto para los efectos anticolinérgicos centrales graves en un entorno de cuidados intensivos."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Rx). Es un medicamento de patente que debe ser prescrito por un médico.",
+    "scheduleMexico": "No está listado en las fracciones de control especial (no es psicotrópico ni estupefaciente). Es un medicamento de venta con receta médica archivada (Grupo 3).",
+    "fdaApprovalYear": "La Oxatomida no está aprobada por la FDA de Estados Unidos. Su uso y registro son comunes en otros países, incluyendo México, Japón y varios de Europa y América Latina."
+  },
+  "brandsMexico": [
+    "Tinset",
+    "Cenacort",
+    "Oxat",
+    "Oxatom",
+    "Alergix",
+    "Histaloc",
+    "Oxa",
+    "Rinaler",
+    "Atopix"
+  ],
+  "clinicalPearls": [
+    "A diferencia de algunos antihistamínicos de 2da generación, la Oxatomida tiene un efecto estabilizador de mastocitos adicional, similar al de la Ketotifeno, lo que le confiere un perfil más preventivo, útil en alergias crónicas.",
+    "La somnolencia, aunque menor que con antihistamínicos clásicos como la Difenhidramina, es un efecto adverso frecuente al inicio. Aconsejar al paciente que la tome inicialmente por la noche hasta conocer su tolerancia.",
+    "En pacientes pediátricos con dermatitis atópica que no responden solo a emolientes y corticoides tópicos, la Oxatomida puede ser un buen coadyuvante oral para romper el ciclo de picazón-rascado debido a su efecto antipruriginoso.",
+    "Su lenta absorción y vida media prolongada permiten una dosificación de 12 horas, mejorando la adherencia al tratamiento comparado con fármacos de vida media más corta."
+  ],
+  "patientCounseling": "La Oxatomida le ayudará a controlar los síntomas de su alergia, como estornudos, flujo nasal, picazón en ojos o ronchas. Es importante que la tome exactamente como se lo indicó su médico, generalmente con comida para evitar malestar estomacal. Recuerde que puede causarle sueño, especialmente los primeros días, así que evite manejar o usar maquinaria hasta que sepa cómo le afecta. Bajo ninguna circunstancia mezcle este medicamento con bebidas alcohólicas, ya que aumenta mucho el sueño y el riesgo de accidentes. Si olvida una dosis, tómela cuando se acuerde, pero nunca tome dos dosis juntas para compensar. Los efectos completos para controlar la alergia pueden tardar unos días en notarse. Comuníquese con su médico de inmediato si presenta mucho sueño que no le permite funcionar, si la piel se pone amarilla, si tiene dificultad para respirar o si los síntomas de alergia no mejoran después de una semana. Guarde el medicamento en un lugar seguro, fuera del alcance de los niños.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Estornudos",
+        "slug": "estornudos"
+      },
+      {
+        "name": "Picazón en la nariz",
+        "slug": "picazon-en-la-nariz"
+      },
+      {
+        "name": "Flujo nasal acuoso",
+        "slug": "flujo-nasal-acuoso"
+      },
+      {
+        "name": "Picazón en los ojos",
+        "slug": "picazon-en-los-ojos"
+      },
+      {
+        "name": "Ojos rojos y llorosos",
+        "slug": "ojos-rojos-y-llorosos"
+      },
+      {
+        "name": "Ronchas en la piel",
+        "slug": "ronchas-en-la-piel"
+      },
+      {
+        "name": "Picazón en la piel",
+        "slug": "picazon-en-la-piel"
+      },
+      {
+        "name": "Congestión nasal",
+        "slug": "congestion-nasal"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Rinitis Alérgica",
+        "slug": "rinitis-alergica"
+      },
+      {
+        "name": "Urticaria Crónica",
+        "slug": "urticaria-cronica"
+      },
+      {
+        "name": "Conjuntivitis Alérgica",
+        "slug": "conjuntivitis-alergica"
+      },
+      {
+        "name": "Dermatitis Atópica",
+        "slug": "dermatitis-atopica"
+      },
+      {
+        "name": "Prurito Alérgico",
+        "slug": "prurito-alergico"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Hepatitis Tóxica",
+        "slug": "hepatitis-toxica"
+      },
+      {
+        "name": "Somnolencia Excesiva",
+        "slug": "somnolencia-excesiva"
+      },
+      {
+        "name": "Retención Urinaria",
+        "slug": "retencion-urinaria"
+      },
+      {
+        "name": "Glaucoma de Ángulo Cerrado",
+        "slug": "glaucoma-de-angulo-cerrado"
+      },
+      {
+        "name": "Arritmia Cardíaca",
+        "slug": "arritmia-cardiaca"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Transaminasas (AST/TGO, ALT/TGP)",
+        "slug": "transaminasas",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Bilirrubina",
+        "slug": "bilirrubina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Recuento de Plaquetas",
+        "slug": "recuento-de-plaquetas",
+        "effect": "Puede disminuir (raro)"
+      },
+      {
+        "name": "Recuento de Glóbulos Blancos",
+        "slug": "recuento-de-globulos-blancos",
+        "effect": "Puede disminuir (raro)"
+      },
+      {
+        "name": "Frecuencia Cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede alterar (aumentar)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Perfil Hepático",
+        "slug": "perfil-hepatico",
+        "reason": "Para monitorear posible daño hepático inducido por el fármaco, especialmente en tratamientos prolongados."
+      },
+      {
+        "name": "Biometría Hemática Completa",
+        "slug": "biometria-hematica-completa",
+        "reason": "Para vigilar posibles efectos en las células sanguíneas como plaquetas y glóbulos blancos en uso crónico."
+      },
+      {
+        "name": "Pruebas de Función Renal",
+        "slug": "pruebas-de-funcion-renal",
+        "reason": "Para ajustar la dosis en pacientes con insuficiencia renal, ya que puede acumularse."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de IMC",
+        "slug": "calculadora-imc"
+      },
+      {
+        "name": "Calculadora de Edad Vascular",
+        "slug": "calculadora-edad-vascular"
+      },
+      {
+        "name": "Dosis Pediátrica por Peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve la Oxatomida?",
+      "a": "Sirve para tratar y prevenir los síntomas de alergias como la rinitis alérgica (estornudos, flujo nasal, picazón), la urticaria (ronchas) y la conjuntivitis alérgica (ojos rojos y con comezón). Bloquea la histamina, la sustancia que causa estos síntomas."
+    },
+    {
+      "q": "¿La Oxatomida da sueño?",
+      "a": "Sí, la somnolencia es uno de sus efectos secundarios más comunes, especialmente durante los primeros días de tratamiento. Por eso se recomienda tener precaución al manejar o realizar actividades que requieran estar alerta hasta que conozca cómo le afecta."
+    },
+    {
+      "q": "¿Cómo debo tomar la Oxatomida, antes o después de comer?",
+      "a": "Se recomienda tomarla con alimentos o inmediatamente después de comer. Esto ayuda a que se absorba mejor y reduce la posibilidad de malestar estomacal o náuseas."
+    },
+    {
+      "q": "¿Puedo tomar Oxatomida si tomo alcohol?",
+      "a": "NO. Es muy importante evitar completamente el alcohol mientras toma Oxatomida. La combinación potencia mucho el efecto de sueño y mareo, aumentando el riesgo de accidentes y deterioro severo."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto la Oxatomida?",
+      "a": "Puede notar alivio de algunos síntomas desde el primer día, pero su efecto completo y de prevención suele alcanzarse después de varios días de tratamiento continuo, generalmente entre 3 y 7 días."
+    },
+    {
+      "q": "¿La Oxatomida es para la gripe o el resfriado?",
+      "a": "No. La Oxatomida es específica para síntomas causados por alergias. Los resfriados y gripes son causados por virus. Aunque puede aliviar síntomas similares como flujo nasal o estornudos, no trata la infección viral."
+    },
+    {
+      "q": "¿Pueden tomarla los niños?",
+      "a": "Sí, pero solo a partir de los 6 años de edad y con la dosis ajustada por el pediatra según el peso del niño. Para menores de 6 años no se recomienda, existen otras opciones más seguras."
+    },
+    {
+      "q": "¿Qué hago si se me olvida una dosis?",
+      "a": "Tómela tan pronto como lo recuerde. Pero si ya es casi la hora de su siguiente dosis, omita la que olvidó y continúe con su horario normal. NUNCA duplique la dosis para compensar."
+    },
+    {
+      "q": "¿La Oxatomida sube de peso?",
+      "a": "El aumento del apetito y un posible aumento de peso son efectos secundarios que pueden ocurrir en algunas personas, aunque no es muy común. Si nota un aumento de peso significativo, coméntelo con su médico."
+    },
+    {
+      "q": "¿Puedo tomar Oxatomida en el embarazo?",
+      "a": "Generalmente NO se recomienda, especialmente durante los primeros tres meses. Los estudios en animales han mostrado riesgos. Solo debe usarse si el médico considera que el beneficio para la madre es mayor que el riesgo para el bebé. Consulte siempre a su médico."
+    },
+    {
+      "q": "¿Puedo tomar Oxatomida si estoy amamantando?",
+      "a": "No. La Oxatomida pasa a la leche materna y puede causar efectos adversos en el bebé, como somnolencia excesiva. Se debe suspender la lactancia o elegir un antihistamínico alternativo más seguro durante este periodo."
+    },
+    {
+      "q": "¿La Oxatomida interactúa con otros medicamentos?",
+      "a": "Sí. Interactúa de forma grave con alcohol, pastillas para dormir (benzodiacepinas) y algunos antidepresivos, potenciando el sueño. También con algunos antifúngicos (como Ketoconazol). Informe siempre a su médico de TODOS los medicamentos que toma."
+    },
+    {
+      "q": "¿Qué efectos secundarios graves debo vigilar?",
+      "a": "Debe buscar atención médica urgente si presenta: color amarillo en piel/ojos, orina muy oscura, dolor abdominal fuerte (signos de daño hepático); dificultad para respirar o hinchazón de cara/lengua (reacción alérgica grave); o latidos cardíacos muy irregulares."
+    },
+    {
+      "q": "¿Por cuánto tiempo puedo tomar Oxatomida?",
+      "a": "Para alergias estacionales, se toma durante la temporada. Para alergias crónicas (como urticaria), puede tomarse por periodos prolongados bajo supervisión médica, quien realizará chequeos periódicos (como pruebas de hígado) para vigilar la seguridad."
+    },
+    {
+      "q": "¿Es mejor tomar la dosis completa por la noche?",
+      "a": "Al inicio del tratamiento, si la somnolencia es muy marcada, el médico puede sugerir tomar la dosis completa por la noche. Sin embargo, la pauta habitual es dos veces al día para mantener un efecto constante de 24 horas."
+    },
+    {
+      "q": "¿La Oxatomida cura la alergia?",
+      "a": "No. La Oxatomida controla y alivia los síntomas de la alergia, pero no cura la causa subyacente (la hipersensibilidad del sistema inmune). Es un tratamiento sintomático y preventivo."
+    },
+    {
+      "q": "¿Puede la Oxatomida causar daño en el hígado?",
+      "a": "Sí, aunque es poco común, la Oxatomida puede causar hepatitis medicamentosa (inflamación del hígado). Por eso se recomienda hacer pruebas de función hepática antes y durante tratamientos largos, y estar atento a síntomas como cansancio extremo o piel amarilla."
+    },
+    {
+      "q": "¿Qué diferencia hay entre Oxatomida y otros antihistamínicos como Loratadina?",
+      "a": "La Oxatomida, además de bloquear la histamina, estabiliza los mastocitos (células que liberan sustancias alérgicas), dándole un efecto preventivo adicional. La Loratadina generalmente no causa sueño. La elección depende del tipo de alergia y la tolerancia del paciente."
+    },
+    {
+      "q": "¿Se puede usar Oxatomida para la picazón de la varicela o la dermatitis?",
+      "a": "Sí, puede usarse como coadyuvante para aliviar el prurito (picazón) intenso en enfermedades de la piel como la dermatitis atópica, ya que tiene un buen efecto antipruriginoso. Siempre bajo prescripción médica."
+    },
+    {
+      "q": "En un paciente con insuficiencia hepática leve, ¿cómo se ajusta la dosis de Oxatomida?",
+      "a": "En insuficiencia hepática leve (Child-Pugh A), se debe usar con precaución y generalmente se inicia con la mitad de la dosis habitual (ej. 15-30 mg una vez al día). Está contraindicada en insuficiencia hepática grave. Es crucial monitorear estrechamente la función hepática y los signos de toxicidad."
+    }
+  ]
+}

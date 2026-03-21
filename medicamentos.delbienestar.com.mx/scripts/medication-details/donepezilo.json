@@ -1,0 +1,432 @@
+{
+  "name": "Donepezilo",
+  "summary": "El donepezilo es un medicamento que se usa para tratar los síntomas de la enfermedad de Alzheimer de leve a moderada y, en ocasiones, la demencia grave. Pertenece a una clase de fármacos llamados inhibidores de la colinesterasa, que actúan aumentando los niveles de una sustancia química en el cerebro llamada acetilcolina, la cual es crucial para la memoria, el pensamiento y el razonamiento. Este aumento ayuda a mejorar temporalmente los síntomas cognitivos y funcionales, como la pérdida de memoria, la confusión y los problemas para realizar las actividades diarias, aunque no cura la enfermedad ni detiene su progresión a largo plazo. Su importancia clínica radica en ser uno de los tratamientos farmacológicos de primera línea para el Alzheimer, ofreciendo a los pacientes y sus familias una mejoría en la calidad de vida y una posible estabilización de los síntomas durante un tiempo, lo que puede retrasar la necesidad de cuidados más intensivos. Es fundamental que su uso sea supervisado por un médico especialista, ya que requiere un ajuste cuidadoso de la dosis y un monitoreo constante de los efectos y posibles reacciones adversas.",
+  "pharmacology": {
+    "mechanismOfAction": "El donepezilo es un inhibidor reversible, específico y no competitivo de la enzima acetilcolinesterasa. En el cerebro de pacientes con enfermedad de Alzheimer, hay una deficiencia de la acetilcolina, un neurotransmisor esencial para la memoria y el aprendizaje. La acetilcolinesterasa es la enzima responsable de descomponer la acetilcolina en la sinapsis (el espacio entre las neuronas). Al inhibir esta enzima, el donepezilo reduce la degradación de la acetilcolina, aumentando así su concentración y disponibilidad en las áreas del cerebro relacionadas con la cognición. Este mecanismo ayuda a compensar parcialmente el déficit colinérgico característico del Alzheimer, mejorando la transmisión de señales entre las neuronas. Su acción es más selectiva para la acetilcolinesterasa del sistema nervioso central que para la butirilcolinesterasa periférica, lo que contribuye a su perfil de efectos secundarios. El aumento de acetilcolina puede mejorar temporalmente síntomas como la memoria, la atención y la capacidad para realizar tareas cotidianas.",
+    "pharmacologicClass": "Inhibidor de la acetilcolinesterasa (de tipo piperidina).",
+    "therapeuticClass": "Agente antidemencia; Agente para el tratamiento de los síntomas de la enfermedad de Alzheimer.",
+    "absorption": "Se absorbe bien por vía oral, con una biodisponibilidad de aproximadamente 100%. La presencia de alimentos no afecta significativamente su absorción, por lo que puede tomarse con o sin alimentos. La concentración plasmática máxima (Cmax) se alcanza en un promedio de 3 a 4 horas después de la administración oral.",
+    "distribution": "Se distribuye ampliamente en el organismo. Su volumen de distribución (Vd) es de aproximadamente 12 L/kg. Se une extensamente (aproximadamente 96%) a las proteínas plasmáticas, principalmente a la albúmina. Cruza la barrera hematoencefálica, lo que le permite ejercer su acción en el sistema nervioso central.",
+    "metabolism": "El donepezilo se metaboliza extensamente en el hígado, principalmente a través del sistema enzimático del citocromo P450. Las isoenzimas CYP2D6 y CYP3A4 son las principales responsables de su metabolismo. También se metaboliza por glucuronidación. Se convierte en múltiples metabolitos, algunos de los cuales son farmacológicamente activos, pero en menor medida que el compuesto original.",
+    "elimination": "La vida media de eliminación es larga, aproximadamente de 70 horas. Esto permite una administración una vez al día. Se elimina principalmente por vía renal; aproximadamente el 57% de una dosis se excreta en la orina y el 15% en las heces, en su mayoría como metabolitos inactivos. Menos del 20% se excreta sin cambios en la orina.",
+    "onsetOfAction": "Los efectos sobre la cognición pueden comenzar a observarse en algunas semanas, pero la respuesta terapéutica óptima generalmente se alcanza después de varios meses de tratamiento continuo.",
+    "durationOfAction": "Debido a su larga vida media, su efecto farmacológico es sostenido durante 24 horas, permitiendo la dosificación una vez al día. Los beneficios clínicos sobre los síntomas pueden mantenerse mientras se continúe el tratamiento, aunque la enfermedad subyacente sigue progresando."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento sintomático de la enfermedad de Alzheimer de leve a moderada",
+      "Tratamiento sintomático de la demencia grave por enfermedad de Alzheimer",
+      "Tratamiento sintomático de la demencia tipo Alzheimer (en todas sus etapas, según criterio médico)"
+    ],
+    "offLabel": [
+      "Deterioro cognitivo leve (DCL)",
+      "Demencia vascular (como terapia coadyuvante)",
+      "Demencia por cuerpos de Lewy",
+      "Deterioro cognitivo asociado a la esclerosis múltiple",
+      "Síndrome de Down con deterioro cognitivo"
+    ]
+  },
+  "dosage": {
+    "adults": "Enfermedad de Alzheimer leve a moderada: Dosis inicial de 5 mg una vez al día, preferentemente por la noche. Después de 4 a 6 semanas, la dosis puede aumentarse a 10 mg una vez al día, si es bien tolerado y se considera clínicamente necesario. Enfermedad de Alzheimer grave: Dosis inicial de 5 mg/día, con posibilidad de aumentar a 10 mg/día tras 4-6 semanas. En algunos casos, bajo supervisión médica estricta, se puede considerar una dosis de 23 mg/día para pacientes en etapas moderadas a graves que han estado en tratamiento con 10 mg/día durante al menos 3 meses.",
+    "pediatric": "No está aprobado para uso en niños. Su seguridad y eficacia en la población pediátrica no han sido establecidas.",
+    "elderly": "No se requiere ajuste de dosis basado únicamente en la edad. Sin embargo, se debe iniciar con la dosis más baja (5 mg) y titular con cautela debido a la mayor susceptibilidad a efectos adversos y la posible presencia de otras enfermedades o polifarmacia.",
+    "renalImpairment": "No se requiere ajuste de dosis en insuficiencia renal leve a moderada. En insuficiencia renal grave (TFG < 30 mL/min), se recomienda precaución al iniciar el tratamiento y al aumentar la dosis, aunque los estudios no muestran cambios significativos en la farmacocinética. Monitorizar estrechamente.",
+    "hepaticImpairment": "En pacientes con insuficiencia hepática leve a moderada (Child-Pugh A o B), no se requiere ajuste de dosis, pero se recomienda precaución. En insuficiencia hepática grave (Child-Pugh C), el uso no está recomendado debido a la falta de datos y al metabolismo hepático del fármaco.",
+    "maxDose": "La dosis máxima diaria recomendada es de 10 mg para la mayoría de los pacientes. La dosis de 23 mg/día solo debe usarse bajo estricta supervisión médica en casos específicos de Alzheimer moderado a grave."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "5 mg",
+        "10 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tableta de liberación prolongada (ODT)",
+      "strengths": [
+        "5 mg",
+        "10 mg",
+        "23 mg"
+      ],
+      "route": "Oral (se desintegra en la boca)"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al donepezilo, a los derivados de la piperidina o a cualquier excipiente de la formulación",
+      "Pacientes con síndrome del QT largo congénito o adquirido (riesgo de arritmias)",
+      "Historial de reacciones cutáneas graves como el síndrome de Stevens-Johnson"
+    ],
+    "relative": [
+      "Enfermedad ulcerosa péptica activa o sangrado gastrointestinal",
+      "Trastornos de la conducción cardíaca (bloqueo sinusal, bradicardia sinusal)",
+      "Asma bronquial o enfermedad pulmonar obstructiva crónica (EPOC) grave",
+      "Epilepsia o trastornos convulsivos no controlados",
+      "Insuficiencia hepática grave (Child-Pugh C)",
+      "Cirugía mayor programada (por riesgo de bradicardia con anestesia)"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Náuseas",
+      "Diarrea",
+      "Dolor de cabeza",
+      "Insomnio",
+      "Fatiga"
+    ],
+    "common": [
+      "Vómitos",
+      "Pérdida del apetito (anorexia)",
+      "Calambres musculares",
+      "Mareos",
+      "Agitación",
+      "Contusiones (moretones) debido a caídas",
+      "Pérdida de peso",
+      "Síncope (desmayo)",
+      "Bradicardia (ritmo cardíaco lento)"
+    ],
+    "uncommon": [
+      "Alucinaciones",
+      "Agresión",
+      "Convulsiones",
+      "Bloqueo cardíaco",
+      "Úlcera péptica o sangrado gastrointestinal",
+      "Erupción cutánea con picazón",
+      "Hipersalivación",
+      "Incontinencia urinaria"
+    ],
+    "rare": [
+      "Síndrome neuroléptico maligno (signos: fiebre, rigidez muscular, confusión)",
+      "Rabdomiólisis (degradación muscular)",
+      "Hepatitis",
+      "Síndrome de Stevens-Johnson",
+      "Prolongación del intervalo QT en el electrocardiograma",
+      "Pancreatitis"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Atropina, Ipratropio, Glicopirrolato",
+        "effect": "Antagonizan los efectos colinérgicos del donepezilo, reduciendo su eficacia.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Betabloqueadores (Propranolol, Metoprolol), Digoxina, Bloqueadores de canales de calcio (Diltiazem, Verapamilo)",
+        "effect": "Pueden potenciar los efectos de bradicardia (ritmo cardíaco lento) del donepezilo, aumentando el riesgo de síncope y caídas.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Anticolinérgicos (Difenhidramina, Oxibutinina, Amitriptilina)",
+        "effect": "Reducen la eficacia del donepezilo al antagonizar la acetilcolina. Pueden empeorar los síntomas cognitivos.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inhibidores de la CYP2D6 o CYP3A4 (Fluoxetina, Paroxetina, Quinidina, Ketoconazol, Eritromicina)",
+        "effect": "Pueden aumentar las concentraciones plasmáticas de donepezilo, incrementando el riesgo de efectos adversos.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inductores de la CYP2D6 o CYP3A4 (Carbamazepina, Fenitoína, Rifampicina)",
+        "effect": "Pueden disminuir las concentraciones plasmáticas de donepezilo, reduciendo su eficacia terapéutica.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Succinilcolina y otros relajantes musculares despolarizantes",
+        "effect": "El donepezilo puede potenciar y prolongar el efecto de bloqueo neuromuscular, aumentando el riesgo de apnea durante la anestesia.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Antiinflamatorios no esteroideos (AINEs) como Ibuprofeno, Naproxeno",
+        "effect": "Aumentan el riesgo de sangrado gastrointestinal, especialmente en pacientes mayores.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Puede tomarse con o sin alimentos. Tomarlo con alimentos puede ayudar a reducir las molestias gastrointestinales como náuseas. El alcohol puede aumentar el riesgo de efectos secundarios como mareos y somnolencia, y puede empeorar el deterioro cognitivo. Se recomienda evitar o limitar estrictamente el consumo de alcohol.",
+    "withSupplements": "La hierba de San Juan (Hypericum perforatum) puede disminuir los niveles de donepezilo al inducir enzimas CYP, reduciendo su efectividad. Los suplementos con efectos anticolinérgicos (como algunos remedios para el insomnio a base de plantas) pueden antagonizar su efecto. Los suplementos de Ginkgo biloba pueden tener efectos aditivos, pero también aumentar el riesgo de sangrado. Siempre consulte con su médico o farmacéutico antes de tomar cualquier suplemento."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "C",
+      "recommendation": "No hay estudios adecuados en mujeres embarazadas. El donepezilo solo debe usarse durante el embarazo si el beneficio potencial justifica claramente el riesgo potencial para el feto. No está indicado para mujeres en edad fértil a menos que la enfermedad de Alzheimer sea el diagnóstico (extremadamente raro). Se debe evitar su uso.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "No se sabe si el donepezilo se excreta en la leche materna humana. Dado el potencial de efectos adversos graves en el lactante y porque la enfermedad de Alzheimer no es una condición que afecte a mujeres lactantes, se contraindica su uso durante la lactancia.",
+    "pediatric": "No está indicado para niños ni adolescentes. Su seguridad y eficacia no han sido establecidas en esta población. No se recomienda su uso.",
+    "geriatric": "Es la población principal de uso. Los adultos mayores son más sensibles a los efectos colinérgicos y a los efectos adversos, especialmente bradicardia, síncope, caídas y pérdida de peso. Se debe iniciar siempre con la dosis más baja (5 mg) y titular lentamente. La polifarmacía es común, por lo que es crucial revisar todas las interacciones medicamentosas."
+  },
+  "administration": {
+    "howToTake": "Tomar exactamente como lo recetó el médico, generalmente una vez al día, a la misma hora. Las tabletas regulares se tragan enteras con un vaso de agua, con o sin alimentos. Las tabletas de liberación prolongada (ODT) se colocan en la lengua, donde se desintegran en segundos; luego se tragan con o sin agua. No parta, mastique ni triture las tabletas ODT. Si se olvida una dosis, tómela tan pronto como lo recuerde, pero si ya es casi la hora de la siguiente dosis, omita la dosis olvidada y continúe con su horario regular. No duplique la dosis para compensar.",
+    "storage": "Conservar en su empaque original, a temperatura ambiente (entre 15°C y 30°C), en un lugar seco y fuera del alcance de la luz directa y la humedad. Mantener fuera del alcance de los niños. No usar después de la fecha de caducidad impresa.",
+    "specialInstructions": "Este medicamento no cura el Alzheimer, pero puede ayudar a controlar los síntomas. La mejoría puede ser sutil y tomar semanas o meses en notarse. Es importante no suspender el tratamiento abruptamente sin consultar al médico, ya que puede haber un empeoramiento rápido de los síntomas. Informe a todos sus médicos y dentistas que está tomando donepezilo antes de cualquier procedimiento o cirugía. Lleve una identificación que indique que toma este medicamento."
+  },
+  "monitoring": {
+    "labTests": [
+      "Función hepática (transaminasas AST, ALT)",
+      "Función renal (creatinina, nitrógeno ureico)",
+      "Electrocardiograma (ECG) basal y periódico",
+      "Peso corporal",
+      "Hemograma completo (si hay signos de sangrado)"
+    ],
+    "frequency": "Evaluación clínica (síntomas, efectos adversos) cada 1-3 meses al inicio, luego cada 6 meses. ECG antes de iniciar y después de aumentar la dosis, especialmente en pacientes con riesgo cardíaco. Pruebas de función hepática y renal al inicio y luego anualmente, o si hay síntomas sugerentes.",
+    "signsToWatch": [
+      "Ritmo cardíaco muy lento o irregular, mareos, desmayos",
+      "Sangrado en heces (negras o con sangre) o vómito con sangre",
+      "Dolor abdominal intenso (posible úlcera o pancreatitis)",
+      "Rigidez muscular severa, fiebre alta, confusión (síndrome neuroléptico maligno)",
+      "Coloración amarillenta de piel u ojos (ictericia)",
+      "Convulsiones",
+      "Pérdida de peso significativa no intencional",
+      "Aumento de la confusión, agitación o alucinaciones"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Náuseas y vómitos severos",
+      "Salivación excesiva",
+      "Sudoración profusa",
+      "Bradicardia severa (ritmo cardíaco muy lento)",
+      "Hipotensión (presión arterial baja)",
+      "Convulsiones",
+      "Debilidad muscular que puede progresar a parálisis (incluyendo músculos respiratorios)",
+      "Pérdida de la conciencia (coma)",
+      "Muerte por paro cardiorrespiratorio"
+    ],
+    "treatment": "Es una emergencia médica. Llamar al servicio de urgencias (911 en México). El tratamiento es de soporte y sintomático. No hay antídoto específico. Se debe asegurar la vía aérea y la respiración. La bradicardia sintomática puede tratarse con atropina intravenosa, titulando la dosis según la respuesta. Pueden requerirse medidas de soporte vital avanzado. El carbón activado puede ser útil si la ingestión fue reciente. La diálisis no es efectiva debido a la alta unión a proteínas.",
+    "antidote": "La atropina es el antídoto para los efectos muscarínicos (colinérgicos) excesivos, como la bradicardia y la salivación. Sin embargo, su uso debe ser cuidadoso y bajo supervisión médica en un entorno hospitalario."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Medicamento de patente y genérico sujeto a prescripción).",
+    "scheduleMexico": "No está incluido en la lista de psicotrópicos. Es un medicamento de la Fracción IV (Sustancias Medicinales) del Cuadro Básico, que requiere receta médica para su dispensación.",
+    "fdaApprovalYear": 1996
+  },
+  "brandsMexico": [
+    "Aricept",
+    "Donecept",
+    "Donep",
+    "Memac",
+    "Alzdon",
+    "Cognidón",
+    "Donepzil",
+    "Eranz",
+    "Memantin-D (combinación con memantina)",
+    "Donepezilo Genérico (varios laboratorios como Psicofarma, Liomont, Sanfer, etc.)"
+  ],
+  "clinicalPearls": [
+    "La mejoría con donepezilo suele ser modesta (aproximadamente un 20-30% de mejoría en escalas cognitivas) y es más efectivo para síntomas cognitivos que para los conductuales (como la agitación).",
+    "La pérdida de peso y la anorexia son efectos adversos comunes y subestimados; monitorear el peso regularmente es crucial, especialmente en adultos mayores frágiles.",
+    "La dosis de 23 mg/día no ha demostrado ser superior a 10 mg/día en mejorar la cognición, pero sí tiene una mayor incidencia de efectos gastrointestinales adversos; su uso debe reservarse para casos seleccionados y con estrecha supervisión."
+  ],
+  "patientCounseling": "Querido paciente o cuidador: El donepezilo es un aliado para manejar los síntomas de la memoria y el pensamiento en el Alzheimer. Tómelo exactamente como se lo indicó el médico, generalmente una vez al día, preferentemente por la noche si le causa malestar estomacal. Es normal que pasen varias semanas antes de notar algún cambio, y la mejoría puede ser sutil, como recordar mejor nombres o seguir una conversación. No deje de tomarlo aunque se sienta bien, a menos que su médico se lo indique. Esté atento a efectos como mareos, latidos cardíacos lentos, desmayos, sangrado o dolor de estómago fuerte, y repórtelos de inmediato. Este medicamento no mezcla bien con muchos otros; informe a todos sus doctores que lo está tomando, especialmente antes de una operación. Lleve una tarjeta en la cartera que lo indique. Los cuidados, la paciencia y una rutina son igual de importantes que la pastilla. Acuda a todas sus citas de control.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Pérdida de memoria",
+        "slug": "perdida-de-memoria"
+      },
+      {
+        "name": "Confusión o desorientación",
+        "slug": "confusion-o-desorientacion"
+      },
+      {
+        "name": "Dificultad para pensar y razonar",
+        "slug": "dificultad-para-pensar-y-razonar"
+      },
+      {
+        "name": "Problemas con el lenguaje (encontrar palabras)",
+        "slug": "problemas-con-el-lenguaje"
+      },
+      {
+        "name": "Dificultad para realizar tareas cotidianas",
+        "slug": "dificultad-para-realizar-tareas-cotidianas"
+      },
+      {
+        "name": "Cambios en el juicio",
+        "slug": "cambios-en-el-juicio"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Enfermedad de Alzheimer",
+        "slug": "enfermedad-de-alzheimer"
+      },
+      {
+        "name": "Demencia tipo Alzheimer",
+        "slug": "demencia-tipo-alzheimer"
+      },
+      {
+        "name": "Demencia por cuerpos de Lewy",
+        "slug": "demencia-por-cuerpos-de-lewy"
+      },
+      {
+        "name": "Deterioro cognitivo leve",
+        "slug": "deterioro-cognitivo-leve"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Bradicardia sinusal",
+        "slug": "bradicardia-sinusal"
+      },
+      {
+        "name": "Síncope (desmayo)",
+        "slug": "sincope-desmayo"
+      },
+      {
+        "name": "Úlcera péptica o sangrado gastrointestinal",
+        "slug": "ulcera-peptica-o-sangrado-gastrointestinal"
+      },
+      {
+        "name": "Convulsiones",
+        "slug": "convulsiones"
+      },
+      {
+        "name": "Rabdomiólisis",
+        "slug": "rabdomiolisis"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinquinasa (CK)",
+        "slug": "creatinquinasa-ck",
+        "effect": "Puede elevar (riesgo de rabdomiólisis)"
+      },
+      {
+        "name": "Transaminasas (AST, ALT)",
+        "slug": "transaminasas-ast-alt",
+        "effect": "Puede elevar (hepatotoxicidad)"
+      },
+      {
+        "name": "Amilasa y Lipasa",
+        "slug": "amilasa-y-lipasa",
+        "effect": "Puede elevar (riesgo de pancreatitis)"
+      },
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede disminuir (bradicardia)"
+      },
+      {
+        "name": "Intervalo QT en ECG",
+        "slug": "intervalo-qt-en-ecg",
+        "effect": "Puede prolongar"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Electrocardiograma (ECG)",
+        "slug": "electrocardiograma-ecg",
+        "reason": "Para evaluar la frecuencia cardíaca y el intervalo QT antes y durante el tratamiento, por riesgo de bradicardia."
+      },
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-de-funcion-hepatica",
+        "reason": "Para monitorear posibles daños al hígado, ya que el medicamento se metaboliza allí."
+      },
+      {
+        "name": "Creatinina sérica y TFG",
+        "slug": "creatinina-serica-y-tfg",
+        "reason": "Para evaluar la función renal, aunque no requiere ajuste mayor, es parte de la evaluación general del paciente geriátrico."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de TFG (aclaramiento de creatinina)",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de IMC",
+        "slug": "calculadora-imc"
+      },
+      {
+        "name": "Calculadora de edad vascular",
+        "slug": "calculadora-edad-vascular"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve el donepezilo?",
+      "a": "Sirve para tratar los síntomas de la enfermedad de Alzheimer, como la pérdida de memoria, la confusión y los problemas para pensar o realizar actividades diarias. No cura la enfermedad, pero puede ayudar a mejorar o estabilizar estos síntomas por un tiempo."
+    },
+    {
+      "q": "¿Cómo debo tomar el donepezilo?",
+      "a": "Generalmente se toma una vez al día, a la misma hora, con o sin alimentos. Las tabletas normales se tragan con agua. Las tabletas que se deshacen en la boca (ODT) se colocan en la lengua y se tragan solas o con agua. Siga siempre las instrucciones de su médico."
+    },
+    {
+      "q": "¿A qué hora del día es mejor tomarlo?",
+      "a": "Muchos médicos recomiendan tomarlo por la noche antes de dormir, porque puede causar mareos o somnolencia al inicio, y así el paciente duerme mientras pasa ese efecto. También puede ayudar a reducir las náuseas. Consulte con su médico la mejor hora para usted."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Puede tomar de 4 a 6 semanas para empezar a notar alguna mejoría, y hasta 3 meses para ver el efecto completo. La mejoría suele ser gradual y a veces sutil, como recordar un poco mejor o estar menos confundido."
+    },
+    {
+      "q": "¿El donepezilo cura el Alzheimer?",
+      "a": "No, el donepezilo no cura el Alzheimer. Es un tratamiento sintomático, lo que significa que ayuda a controlar los síntomas y puede retrasar su empeoramiento por un tiempo, pero no detiene la progresión de la enfermedad a largo plazo."
+    },
+    {
+      "q": "¿Qué pasa si olvido una dosis?",
+      "a": "Si se le olvida, tómela tan pronto como lo recuerde. Pero si ya es casi la hora de la siguiente dosis, omita la que olvidó y continúe con su horario normal. Nunca tome dos dosis al mismo tiempo para compensar."
+    },
+    {
+      "q": "¿Puedo tomar donepezilo si tengo problemas del corazón?",
+      "a": "Debe informar a su médico si tiene problemas del corazón, especialmente ritmo cardíaco lento (bradicardia), bloqueos o toma medicamentos para el corazón. El donepezilo puede hacer que el corazón lata más lento, por lo que su médico necesitará evaluar los riesgos y posiblemente hacer un electrocardiograma."
+    },
+    {
+      "q": "¿Qué efectos secundarios son los más comunes?",
+      "a": "Los más comunes son náuseas, diarrea, dolor de cabeza, insomnio y cansancio. Estos suelen ser leves y a menudo mejoran después de las primeras semanas de tratamiento. Tomarlo con comida puede ayudar con las náuseas."
+    },
+    {
+      "q": "¿El donepezilo hace que aumente o baje de peso?",
+      "a": "Es más común que cause pérdida de peso y pérdida del apetito (anorexia). Es importante monitorear el peso regularmente, especialmente en adultos mayores, ya que la pérdida de peso no intencional puede ser un problema serio."
+    },
+    {
+      "q": "¿Puedo beber alcohol mientras tomo donepezilo?",
+      "a": "No se recomienda. El alcohol puede aumentar el riesgo de efectos secundarios como mareos y somnolencia, y puede empeorar la confusión y los problemas de equilibrio, aumentando el riesgo de caídas."
+    },
+    {
+      "q": "¿El donepezilo interactúa con otros medicamentos?",
+      "a": "Sí, interactúa con muchos. Es crucial informar a todos sus médicos que lo está tomando. Interactúa especialmente con medicamentos para el corazón, algunos analgésicos (como ibuprofeno), medicamentos para la alergia (como la difenhidramina) y algunos antidepresivos."
+    },
+    {
+      "q": "¿Por cuánto tiempo debo tomar donepezilo?",
+      "a": "El tratamiento suele ser a largo plazo, mientras siga siendo beneficioso y se tolere bien. La decisión de continuar o suspenderlo la debe tomar el médico especialista, evaluando regularmente los beneficios versus los efectos adversos."
+    },
+    {
+      "q": "¿Qué hago si los efectos secundarios son muy fuertes?",
+      "a": "Contacte a su médico de inmediato. No suspenda el medicamento abruptamente por su cuenta. El médico puede ajustar la dosis (por ejemplo, regresar a 5 mg), sugerir tomarlo con alimentos o, si es necesario, cambiar a otro tratamiento."
+    },
+    {
+      "q": "¿El donepezilo se puede partir o triturar?",
+      "a": "Las tabletas regulares de 5 mg y 10 mg sí se pueden partir si es necesario. Las tabletas de liberación prolongada (ODT) y las de 23 mg NO se deben partir, masticar o triturar; deben tomarse enteras."
+    },
+    {
+      "q": "¿Sirve para otros tipos de demencia que no sean Alzheimer?",
+      "a": "Su uso principal y aprobado es para el Alzheimer. Sin embargo, algunos médicos lo recetan 'off-label' (fuera de indicación) para otros tipos de demencia, como la demencia por cuerpos de Lewy o la demencia vascular, cuando hay síntomas similares. Esto debe ser decidido por un neurólogo o psiquiatra geriátrico."
+    },
+    {
+      "q": "¿Puede el donepezilo causar alucinaciones o hacer a la persona más agresiva?",
+      "a": "Sí, aunque no es muy común, el donepezilo puede causar efectos adversos neuropsiquiátricos como alucinaciones (ver o escuchar cosas que no existen), agitación, agresión o pesadillas. Si esto ocurre, es importante informarlo al médico rápidamente."
+    },
+    {
+      "q": "¿Qué precauciones debo tener si el paciente se va a operar?",
+      "a": "Informe al cirujano y al anestesiólogo que el paciente toma donepezilo. Puede ser necesario suspenderlo temporalmente antes de la cirugía, ya que puede interactuar con los medicamentos anestésicos y aumentar el riesgo de bradicardia y problemas respiratorios. El médico decidirá cuándo suspenderlo y cuándo reiniciarlo."
+    },
+    {
+      "q": "¿Hay alguna prueba de laboratorio especial que necesite antes de empezar?",
+      "a": "No es obligatoria una prueba específica, pero es recomendable que el médico solicite un electrocardiograma (ECG) para ver el ritmo cardíaco, y pruebas básicas de sangre (función hepática y renal) para tener un punto de referencia antes de iniciar el tratamiento, especialmente en adultos mayores."
+    },
+    {
+      "q": "¿Qué diferencia hay entre la dosis de 5 mg, 10 mg y 23 mg?",
+      "a": "La dosis de 5 mg es la inicial, para que el cuerpo se adapte. La de 10 mg es la dosis de mantenimiento estándar, más efectiva para muchos pacientes. La de 23 mg está aprobada solo para Alzheimer moderado a grave en pacientes que ya han estado tomando 10 mg por al menos 3 meses, pero tiene más efectos secundarios gastrointestinales y no es significativamente mejor para la cognición en todos los casos."
+    },
+    {
+      "q": "¿Cuál es el mecanismo por el cual el donepezilo puede causar bradicardia y síncope, y cómo se maneja este riesgo en la práctica clínica?",
+      "a": "El donepezilo aumenta la acetilcolina, la cual actúa en receptores muscarínicos del corazón (nodo sinusal y auriculoventricular), lo que puede enlentecer la frecuencia cardíaca (bradicardia). Una bradicardia severa puede reducir el flujo de sangre al cerebro, causando síncope (desmayo) y aumentando el riesgo de caídas y fracturas. En la práctica clínica, se maneja: 1) Realizando un ECG basal en pacientes con factores de riesgo cardíaco. 2) Iniciando siempre con 5 mg/día. 3) Preguntando activamente por síntomas de mareo o desmayos en cada visita. 4) Revisando y ajustando medicamentos concomitantes que también causen bradicardia (como betabloqueadores). 5) Considerando la reducción de la dosis o la suspensión si la frecuencia cardíaca en reposo es persistentemente menor de 50-55 latidos por minuto o si hay síntomas."
+    }
+  ]
+}

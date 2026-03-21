@@ -1,0 +1,421 @@
+{
+  "name": "Clorhidrato de Ketamina",
+  "summary": "El clorhidrato de ketamina es un medicamento anestésico general disociativo, lo que significa que produce un estado de inconsciencia donde la persona no siente dolor pero puede parecer despierta y con los ojos abiertos. Se utiliza principalmente para inducir y mantener la anestesia en procedimientos quirúrgicos cortos, especialmente en niños, y en situaciones de emergencia como trauma o quemaduras debido a que mantiene estable la presión arterial y la respiración. Su importancia clínica ha crecido enormemente en los últimos años, ya que también se emplea, en dosis más bajas, para el tratamiento del dolor crónico neuropático y como una opción rápida y efectiva para la depresión resistente a otros tratamientos, bajo estricta supervisión médica. Es un fármaco de uso hospitalario y controlado, con un perfil único que lo hace valioso en anestesiología, psiquiatría y manejo del dolor, pero que también conlleva riesgos de efectos psicológicos temporales y potencial de abuso.",
+  "pharmacology": {
+    "mechanismOfAction": "La ketamina actúa principalmente como un antagonista no competitivo del receptor de N-metil-D-aspartato (NMDA) en el cerebro. Este receptor está involucrado en la transmisión del dolor, la memoria y la percepción. Al bloquearlo, la ketamina interrumpe la comunicación entre las áreas del cerebro que procesan la información sensorial (como el dolor) y las áreas que la interpretan (la corteza cerebral), produciendo un estado disociativo o de 'separación' de la mente y el cuerpo. Además, aumenta la liberación de glutamato y promueve la formación de nuevas conexiones neuronales (sinapsis) en áreas como la corteza prefrontal, lo que explica su efecto antidepresivo rápido. También tiene efectos sobre los sistemas opioide, colinérgico y monoaminérgico, contribuyendo a su complejo perfil farmacológico.",
+    "pharmacologicClass": "Antagonista del receptor de N-metil-D-aspartato (NMDA). Anestésico general disociativo. Derivado de la fenciclidina.",
+    "therapeuticClass": "Anestésico General. Analgésico. Agente Antidepresivo de Acción Rápida (uso off-label).",
+    "absorption": "Tras administración intravenosa (IV), la acción es casi inmediata. Por vía intramuscular (IM), la absorción es rápida y completa, con inicio de acción en 3-5 minutos. Por vía oral, la biodisponibilidad es baja (aproximadamente 17-20%) debido a un extenso metabolismo de primer paso en el hígado. La administración intranasal tiene una biodisponibilidad de aproximadamente 45-50%.",
+    "distribution": "Se distribuye ampliamente en los tejidos. El volumen de distribución es alto (alrededor de 3 L/kg), indicando una gran distribución en tejidos periféricos. Cruza fácilmente la barrera hematoencefálica. Su unión a proteínas plasmáticas es baja (aproximadamente 12%).",
+    "metabolism": "Se metaboliza extensamente en el hígado, principalmente por el sistema enzimático del citocromo P450. La N-desmetilación, mediada principalmente por la enzima CYP3A4 (y en menor medida por CYP2B6 y CYP2C9), convierte la ketamina en su metabolito activo principal, la norketamina. La norketamina tiene aproximadamente 1/3 de la potencia anestésica de la ketamina pero contribuye a los efectos analgésicos y posiblemente a los efectos secundarios.",
+    "elimination": "La vida media de eliminación de la ketamina es de aproximadamente 2-3 horas. La vida media de la norketamina es más larga (alrededor de 12 horas). Se elimina principalmente por vía renal: más del 90% de los metabolitos se excretan en la orina, y menos del 4% se excreta como ketamina sin cambios. Una pequeña porción se elimina en las heces.",
+    "onsetOfAction": "Intravenosa (IV): 30-60 segundos. Intramuscular (IM): 3-5 minutos. Intranasal: 5-10 minutos. Oral: 20-30 minutos (para efectos psiquiátricos/analgésicos).",
+    "durationOfAction": "Depende de la dosis y vía. Anestésico (IV): 5-10 minutos de inconsciencia, con recuperación completa en 1-2 horas. Analgésico (dosis bajas IV/IM): 30-60 minutos de alivio del dolor. Efectos psiquiátricos (intranasal/oral): pueden durar desde horas hasta semanas tras una serie de infusiones."
+  },
+  "indications": {
+    "approved": [
+      "Inducción y mantenimiento de anestesia general (como agente único o complementario)",
+      "Anestesia disociativa para procedimientos diagnósticos y quirúrgicos cortos",
+      "Analgesia para procedimientos dolorosos en el servicio de urgencias (ej. reducción de fracturas, curaciones de quemaduras)",
+      "Inducción de anestesia en pacientes con shock o hipotensión, donde otros anestésicos están contraindicados"
+    ],
+    "offLabel": [
+      "Tratamiento de la depresión mayor resistente al tratamiento (TDR)",
+      "Manejo del dolor crónico neuropático y por cáncer",
+      "Prevención y tratamiento del dolor fantasma",
+      "Terapia para el trastorno de estrés postraumático (TEPT)",
+      "Estatus epiléptico refractario",
+      "Asma severa (broncodilatador)"
+    ]
+  },
+  "dosage": {
+    "adults": "ANESTESIA: IV: 1-2 mg/kg (inducción), 0.5-1 mg/kg (mantenimiento). IM: 4-8 mg/kg. ANALGESIA: IV/IM: 0.2-0.5 mg/kg, puede repetirse. INFUSIÓN PARA DOLOR/DEPRESIÓN: 0.1-0.5 mg/kg/h en infusión IV lenta, o 0.5 mg/kg IV en 40 minutos, protocolos varían.",
+    "pediatric": "ANESTESIA: IV: 1-2 mg/kg. IM: 3-7 mg/kg. ANALGESIA: IV/IM: 0.1-0.5 mg/kg. Siempre bajo supervisión pediátrica especializada.",
+    "elderly": "Reducir dosis en un 30-50% debido a disminución del aclaramiento, mayor sensibilidad y riesgo de confusión/delirio. Iniciar con la dosis más baja efectiva.",
+    "renalImpairment": "No se requiere ajuste de dosis principal en insuficiencia renal leve-moderada (TFG >30 mL/min). En insuficiencia renal severa (TFG <30 mL/min) o diálisis, usar con precaución y considerar reducción de dosis, ya que los metabolitos activos pueden acumularse. Monitorizar efectos adversos.",
+    "hepaticImpairment": "Usar con precaución y reducir dosis en insuficiencia hepática moderada-severa (Child-Pugh B o C), ya que el metabolismo está disminuido, pudiendo prolongar la duración del efecto y aumentar la incidencia de reacciones adversas. Evitar en falla hepática aguda.",
+    "maxDose": "No hay una dosis máxima diaria absoluta definida; depende de la indicación y vía. Para anestesia, las dosis superiores a 10 mg/kg IM no se recomiendan. En infusiones para depresión/dolor, las dosis totales rara vez superan 1-2 mg/kg por sesión."
+  },
+  "dosageForms": [
+    {
+      "form": "Solución inyectable",
+      "strengths": [
+        "10 mg/mL",
+        "50 mg/mL"
+      ],
+      "route": "Intravenosa, Intramuscular"
+    },
+    {
+      "form": "Tableta o cápsula (compuesta)",
+      "strengths": [
+        "Variable"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Spray nasal (compuesto)",
+      "strengths": [
+        "Variable"
+      ],
+      "route": "Intranasal"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la ketamina o a cualquier componente de la formulación",
+      "Porfiria aguda intermitente",
+      "Situaciones donde un aumento de la presión arterial constituiría un riesgo vital (ej. aneurisma intracraneal, hemorragia cerebral activa, feocromocitoma)",
+      "Pacientes con psicosis activa no controlada (para uso psiquiátrico)"
+    ],
+    "relative": [
+      "Hipertensión arterial no controlada",
+      "Insuficiencia cardíaca descompensada",
+      "Aumento de la presión intracraneal o intraocular (glaucoma)",
+      "Hipertiroidismo no tratado",
+      "Epilepsia no controlada",
+      "Historia de abuso de sustancias o alcoholismo",
+      "Embarazo (solo en casos estrictamente necesarios)",
+      "Trastornos psicóticos o esquizofrenia (puede exacerbar síntomas)"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Alteraciones sensoriales (visión borrosa, nistagmo)",
+      "Hipertensión arterial y taquicardia",
+      "Náuseas y vómitos durante la recuperación",
+      "Aumento de secreciones salivales y bronquiales",
+      "Desorientación y confusión al despertar"
+    ],
+    "common": [
+      "Sueños vívidos o pesadillas",
+      "Mareo y ataxia (dificultad para caminar)",
+      "Sensación de 'flotar' o disociación",
+      "Erupción cutánea transitoria",
+      "Doble visión (diplopía)"
+    ],
+    "uncommon": [
+      "Hipertonía muscular o movimientos involuntarios",
+      "Laringoespasmo (espasmo de las cuerdas vocales)",
+      "Depresión respiratoria (en dosis altas o combinada con otros sedantes)",
+      "Alucinaciones persistentes",
+      "Excitación psicomotora (agitación)"
+    ],
+    "rare": [
+      "Aumento severo de la presión intracraneal",
+      "Reacciones alérgicas severas (anafilaxia)",
+      "Paro cardiorrespiratorio",
+      "Delirio de recuperación prolongado",
+      "Ulceración vesical o cistitis (con uso crónico y abusivo a altas dosis)"
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Benzodiacepinas (diazepam, midazolam)",
+        "effect": "Pueden reducir las reacciones psicomiméticas (alucinaciones) de la ketamina, pero también potencian la depresión del sistema nervioso central y respiratoria.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Halotano y otros anestésicos inhalados",
+        "effect": "Potencian los efectos depresores cardiovasculares y respiratorios de la ketamina. La ketamina puede aumentar el riesgo de arritmias con halotano.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores de la CYP3A4 (ketoconazol, claritromicina, ritonavir)",
+        "effect": "Aumentan las concentraciones plasmáticas de ketamina, potenciando sus efectos y toxicidad. Requiere reducción de dosis.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inductores de la CYP3A4 (rifampicina, carbamazepina, fenitoína)",
+        "effect": "Disminuyen las concentraciones plasmáticas de ketamina, pudiendo reducir su eficacia.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Relajantes musculares no despolarizantes (tubocurarina)",
+        "effect": "La ketamina potencia su efecto bloqueante neuromuscular, prolongando la parálisis muscular.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Alcohol etílico",
+        "effect": "Potenciación severa de la depresión del sistema nervioso central, riesgo de paro respiratorio, aumento de efectos psicodélicos y amnesia.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "No hay interacciones significativas documentadas con alimentos. Sin embargo, para administración oral (off-label), se recomienda tomarla según indicación médica, que puede ser con o sin alimentos para mejorar la tolerancia.",
+    "withSupplements": "Hierba de San Juan (Hypericum perforatum): Puede inducir enzimas CYP3A4, reduciendo los niveles de ketamina. Kava y Valeriana: Pueden potenciar los efectos sedantes y sobre el sistema nervioso central. Teobromina (presente en altas dosis en algunos suplementos): Puede potenciar los efectos cardiovasculares estimulantes de la ketamina."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA C",
+      "recommendation": "Solo debe usarse durante el embarazo si el beneficio potencial justifica claramente el riesgo potencial para el feto. Puede usarse para anestesia en cesáreas de emergencia, ya que mantiene la presión arterial materna y no deprime significivamente al recién nacido. No se recomienda para uso psiquiátrico o crónico durante el embarazo debido a la falta de datos de seguridad.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La ketamina se excreta en la leche materna en cantidades muy pequeñas. Tras una dosis anestésica única, se recomienda descartar la leche durante las primeras 12-24 horas. Para tratamientos repetidos (ej. para depresión), se debe evaluar el riesgo-beneficio y posiblemente suspender la lactancia debido a la falta de datos a largo plazo sobre el lactante.",
+    "pediatric": "Es un anestésico de elección en pediatría por su seguridad cardiovascular. Sin embargo, los niños pueden ser más susceptibles a las reacciones de emergencia (alucinaciones, agitación). Se debe usar premedicación con benzodiacepinas para mitigar estos efectos. Está contraindicado en procedimientos de faringe, laringe o broncoscopia sin intubación debido al riesgo de laringoespasmo.",
+    "geriatric": "Los pacientes mayores son más sensibles a los efectos de la ketamina. Mayor riesgo de confusión, delirio, agitación y alucinaciones prolongadas. Mayor riesgo de efectos cardiovasculares (hipertensión). Las dosis deben reducirse significativamente (hasta un 50%) y la titulación debe ser lenta y cuidadosa."
+  },
+  "administration": {
+    "howToTake": "La ketamina es un medicamento de uso exclusivo en entornos médicos (hospitales, clínicas, consultorios especializados) bajo supervisión directa de un médico. NUNCA debe autoadministrarse. Vía Intravenosa (IV): Se inyecta lentamente (durante al menos 60 segundos) para minimizar efectos adversos. Vía Intramuscular (IM): Se inyecta en un músculo grande (glúteo, deltoides). Vía Intranasal: Usualmente administrada por un profesional en un entorno controlado. Vía Oral: Solo como formulación compuesta para usos off-label, bajo estricta supervisión médica.",
+    "storage": "Las ampolletas o viales de solución inyectable deben almacenarse a temperatura ambiente controlada (15-30°C), protegidas de la luz. No congelar. Las formulaciones compuestas (tabletas, spray nasal) deben almacenarse según las indicaciones de la farmacia que las prepara, generalmente refrigeradas y con una vida útil corta. Mantener fuera del alcance de los niños y en un lugar seguro por su potencial de abuso.",
+    "specialInstructions": "El paciente debe estar en ayunas para procedimientos anestésicos. Se recomienda premedicación con un anticolinérgico (como atropina) para reducir secreciones y con una benzodiacepina (como midazolam) para reducir reacciones psicomiméticas. Durante la recuperación, el paciente debe permanecer en un ambiente tranquilo y con poca luz (sala de recuperación) para minimizar alucinaciones y agitación. No debe conducir ni operar maquinaria hasta por lo menos 24 horas después de la administración."
+  },
+  "monitoring": {
+    "labTests": [
+      "Presión arterial y frecuencia cardíaca (monitoreo continuo durante y después)",
+      "Frecuencia respiratoria y saturación de oxígeno (pulsioxímetro)",
+      "Función hepática (ALT, AST) en uso crónico",
+      "Función renal (creatinina, BUN) en uso crónico",
+      "Análisis de orina en pacientes con uso crónico para detectar cistitis"
+    ],
+    "frequency": "Durante la administración: Monitoreo continuo de signos vitales. En tratamientos crónicos (ej. para dolor/depresión): Evaluación clínica antes de cada sesión, pruebas de función hepática y renal cada 3-6 meses, y evaluación psiquiátrica regular.",
+    "signsToWatch": [
+      "Dolor o ardor al orinar, sangre en la orina (signos de cistitis)",
+      "Alucinaciones o pensamientos inusuales que persisten días después",
+      "Dolor en el pecho, palpitaciones fuertes o irregulares",
+      "Dificultad severa para respirar",
+      "Confusión, agitación o comportamiento agresivo prolongado",
+      "Signos de reacción alérgica (ronchas, hinchazón de cara/labios, dificultad para respirar)"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Depresión respiratoria severa o paro respiratorio",
+      "Apnea (dejar de respirar)",
+      "Coma profundo y prolongado",
+      "Hipertensión severa o crisis hipertensiva",
+      "Convulsiones",
+      "Arritmias cardíacas potencialmente mortales",
+      "Laringoespasmo y cianosis"
+    ],
+    "treatment": "Manejo en unidad de cuidados intensivos. Soporte vital avanzado: Mantener vía aérea, ventilación asistida y oxigenación. Control de la presión arterial con medicamentos si es necesario. Las convulsiones se tratan con benzodiacepinas (diazepam IV). La diuresis forzada y la acidificación de la orina NO son útiles. La hemodiálisis no es efectiva debido al alto volumen de distribución.",
+    "antidote": "No existe un antídoto específico para la ketamina. El tratamiento es sintomático y de soporte."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial controlada (prescripción por triplicado, según la NOM-028-SSA2-2009). Es una sustancia sujeta a control especial (Lista I).",
+    "scheduleMexico": "Lista I (Estupefacientes) de la Ley General de Salud. Fracción I del artículo 245. Su posesión, distribución y prescripción están estrictamente reguladas.",
+    "fdaApprovalYear": "Aprobado por la FDA en 1970 como anestésico."
+  },
+  "brandsMexico": [
+    "Ketalar",
+    "Ketamina",
+    "Ketamax",
+    "Ketanest",
+    "Calypsol"
+  ],
+  "clinicalPearls": [
+    "La ketamina es uno de los pocos anestésicos que estimula el sistema cardiovascular, aumentando la presión arterial y la frecuencia cardíaca, lo que la hace ideal para pacientes en shock o hipotensos.",
+    "Su efecto antidepresivo puede observarse en cuestión de horas, a diferencia de los antidepresivos tradicionales que tardan semanas. Este efecto parece estar relacionado con el aumento de la plasticidad sináptica en el cerebro.",
+    "El uso crónico y recreativo de ketamina en dosis altas puede causar una cistitis ulcerativa severa y dolorosa, conocida como 'cistitis por ketamina', que puede llevar a daño renal permanente y vejiga reducida."
+  ],
+  "patientCounseling": "La ketamina es un medicamento poderoso que solo debe usarse bajo la supervisión directa de un médico en un entorno médico seguro. Es normal experimentar sensaciones extrañas como 'flotar', ver luces o colores, o sentirse desconectado del cuerpo durante su efecto; estas sensaciones son temporales. Es crucial que informe a su médico sobre todos los medicamentos, suplementos y condiciones de salud que tenga, especialmente problemas cardíacos, hipertensión, glaucoma, historial de psicosis o abuso de sustancias. Después de recibir ketamina, NO debe conducir, operar maquinaria, tomar decisiones legales importantes o consumir alcohol durante al menos 24 horas. Si recibe tratamiento para depresión o dolor, asista a todas sus citas de seguimiento y reporte inmediatamente cualquier efecto secundario persistente o preocupante, como cambios de humor, pensamientos inusuales o dolor al orinar.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor agudo severo",
+        "slug": "dolor-agudo-severo"
+      },
+      {
+        "name": "Dolor crónico neuropático",
+        "slug": "dolor-cronico-neuropatico"
+      },
+      {
+        "name": "Ansiedad y angustia",
+        "slug": "ansiedad-y-angustia"
+      },
+      {
+        "name": "Síntomas depresivos severos",
+        "slug": "sintomas-depresivos-severos"
+      },
+      {
+        "name": "Disociación patológica (en TEPT)",
+        "slug": "disociacion-patologica"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Depresión Mayor Resistente al Tratamiento",
+        "slug": "depresion-mayor-resistente-al-tratamiento"
+      },
+      {
+        "name": "Trastorno de Estrés Postraumático (TEPT)",
+        "slug": "trastorno-de-estres-postraumatico-tept"
+      },
+      {
+        "name": "Dolor Neuropático",
+        "slug": "dolor-neuropatico"
+      },
+      {
+        "name": "Síndrome de Dolor Regional Complejo",
+        "slug": "sindrome-de-dolor-regional-complejo"
+      },
+      {
+        "name": "Estatus Epiléptico Refractario",
+        "slug": "estatus-epileptico-refractario"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Cistitis Ulcerativa (por uso crónico/abusivo)",
+        "slug": "cistitis-ulcerativa"
+      },
+      {
+        "name": "Delirio o Psicosis Aguda",
+        "slug": "delirio-o-psicosis-aguda"
+      },
+      {
+        "name": "Dependencia y Trastorno por Uso de Sustancias",
+        "slug": "dependencia-y-trastorno-por-uso-de-sustancias"
+      },
+      {
+        "name": "Hipertensión Arterial Severa",
+        "slug": "hipertension-arterial-severa"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Presión Arterial Sistólica",
+        "slug": "presion-arterial-sistolica",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Frecuencia Cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Presión Intraocular",
+        "slug": "presion-intraocular",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Presión Intracraneal",
+        "slug": "presion-intracraneal",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Enzimas Hepáticas (ALT/AST)",
+        "slug": "enzimas-hepaticas-alt-ast",
+        "effect": "Puede elevar (uso crónico)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Monitoreo de Signos Vitales Continuo",
+        "slug": "monitoreo-de-signos-vitales-continuo",
+        "reason": "Esencial durante la administración para detectar cambios en presión arterial, frecuencia cardíaca y respiratoria."
+      },
+      {
+        "name": "Pruebas de Función Hepática",
+        "slug": "pruebas-de-funcion-hepatica",
+        "reason": "Recomendado en tratamientos de largo plazo, ya que la ketamina se metaboliza en el hígado."
+      },
+      {
+        "name": "Análisis General de Orina",
+        "slug": "analisis-general-de-orina",
+        "reason": "Para detectar signos tempranos de cistitis o daño renal en pacientes con uso crónico."
+      },
+      {
+        "name": "Evaluación Psiquiátrica Periódica",
+        "slug": "evaluacion-psiquiatrica-periodica",
+        "reason": "Fundamental en tratamientos para depresión o TEPT para evaluar respuesta y efectos adversos psicológicos."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de Dosis Pediátrica por Peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de Aclaramiento de Creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de Edad Vascular",
+        "slug": "calculadora-edad-vascular"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve la ketamina?",
+      "a": "La ketamina sirve principalmente como anestésico general para cirugías cortas y procedimientos dolorosos, especialmente en niños y en emergencias. También se usa, en dosis más bajas y bajo estricto control médico, para tratar la depresión que no mejora con otros medicamentos y para aliviar ciertos tipos de dolor crónico muy intenso."
+    },
+    {
+      "q": "¿La ketamina es una droga de abuso?",
+      "a": "Sí, la ketamina tiene un potencial de abuso y dependencia. Fuera del entorno médico, se usa ilegalmente por sus efectos alucinógenos y disociativos. Por esta razón, en México es una sustancia controlada (Lista I) y solo puede obtenerse con receta médica especial y usarse en hospitales o clínicas autorizadas."
+    },
+    {
+      "q": "¿Qué se siente al estar bajo los efectos de la ketamina?",
+      "a": "Se describe como una sensación de 'desconexión' o 'flotar' fuera del propio cuerpo, con distorsión del tiempo y la realidad. Pueden presentarse visiones, colores brillantes o sonidos alterados. Estas sensaciones, llamadas reacciones psicomiméticas, suelen desaparecer al terminar el efecto del medicamento, pero pueden ser angustiosas."
+    },
+    {
+      "q": "¿Es peligrosa la ketamina?",
+      "a": "En manos médicas y dosis controladas, es un medicamento seguro y muy útil. El peligro existe cuando se usa sin supervisión médica: puede causar paro respiratorio, problemas cardíacos graves, accidentes por falta de coordinación, dependencia y daño permanente en la vejiga y los riñones con el uso crónico."
+    },
+    {
+      "q": "¿La ketamina puede ayudar con la depresión?",
+      "a": "Sí, en los últimos años se ha comprobado que infusiones intravenosas de dosis bajas de ketamina, administradas en un entorno clínico controlado, pueden aliviar rápidamente los síntomas de la depresión severa en pacientes que no responden a otros tratamientos. Este es un uso 'off-label' (fuera de la indicación original) que debe ser manejado por un psiquiatra especializado."
+    },
+    {
+      "q": "¿Cuánto tiempo dura el efecto de la ketamina?",
+      "a": "Depende de la dosis y cómo se aplique. Como anestésico (inyectada), la inconsciencia dura 5-10 minutos, pero los efectos de aturdimiento y desorientación pueden durar 1-2 horas. Los efectos analgésicos o antidepresivos de una dosis baja pueden durar desde horas hasta varios días o semanas, dependiendo del caso."
+    },
+    {
+      "q": "¿Qué debo hacer antes de recibir ketamina?",
+      "a": "Debe estar en ayunas (no comer ni beber) según las indicaciones de su médico, usualmente 6-8 horas antes. Informe a su médico sobre todas sus alergias, medicamentos, suplementos, y su historial de salud mental y cardíaca. Es recomendable que alguien lo acompañe y lo lleve a casa después."
+    },
+    {
+      "q": "¿Puedo volverme adicto a la ketamina médica?",
+      "a": "El riesgo de adicción con el uso médico controlado y por tiempo limitado es bajo. Sin embargo, existe un potencial de dependencia psicológica, especialmente en personas con historial de abuso de sustancias. Por eso, los médicos evalúan cuidadosamente a los pacientes antes de iniciar tratamientos prolongados."
+    },
+    {
+      "q": "¿Qué efectos secundarios son más comunes?",
+      "a": "Los más comunes son: aumento de la presión arterial y latidos rápidos, náuseas y vómitos al despertar, visión borrosa, mareo, aumento de saliva y, frecuentemente, sueños raros o sensación de estar 'desconectado'. Estos efectos suelen ser temporales."
+    },
+    {
+      "q": "¿La ketamina duele al inyectarse?",
+      "a": "La inyección intravenosa puede causar una sensación de ardor o dolor en el sitio de inyección. La inyección intramuscular duele como cualquier otra inyección en el músculo. Los médicos pueden mezclarla con otros medicamentos o administrarla lentamente para reducir esta molestia."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si me están tratando con ketamina?",
+      "a": "NO. El alcohol potencia peligrosamente los efectos de la ketamina, aumentando el riesgo de depresión respiratoria severa (dejar de respirar), pérdida del conocimiento, amnesia y accidentes. Evite el alcohol por lo menos 24 horas antes y después del tratamiento."
+    },
+    {
+      "q": "¿La ketamina se puede usar en niños?",
+      "a": "Sí, la ketamina es uno de los anestésicos más utilizados en pediatría para procedimientos cortos y dolorosos (como suturar una herida) porque es segura para el corazón y la respiración. Sin embargo, los niños también pueden tener reacciones de alucinaciones al despertar, por lo que se manejan en un ambiente tranquilo."
+    },
+    {
+      "q": "¿Qué es la 'cistitis por ketamina'?",
+      "a": "Es un daño grave e inflamación de la vejiga que ocurre por el uso crónico y abusivo de ketamina en dosis altas (uso recreativo). Los síntomas son dolor y ardor al orinar, urgencia para orinar y sangre en la orina. Puede llevar a que la vejiga se reduzca de tamaño y cause daño renal permanente."
+    },
+    {
+      "q": "¿Existe un antídoto si me paso de dosis?",
+      "a": "No existe un antídoto específico. En caso de sobredosis (que solo ocurre fuera del entorno médico), es una emergencia vital. El tratamiento en el hospital es de soporte: mantener al paciente respirando con ayuda de máquinas, controlar la presión arterial y tratar las convulsiones si se presentan."
+    },
+    {
+      "q": "¿Puedo conducir después de un tratamiento con ketamina?",
+      "a": "ABSOLUTAMENTE NO. Sus reflejos, juicio y coordinación estarán alterados durante varias horas, incluso si se siente bien. No debe conducir, operar maquinaria ni tomar decisiones importantes hasta al menos el día siguiente, después de haber descansado completamente."
+    },
+    {
+      "q": "¿Cómo se compara la ketamina con otros anestésicos?",
+      "a": "La ketamina es única porque, a diferencia de la mayoría de los anestésicos que bajan la presión, la ketamina la sube y mantiene la respiración espontánea. Esto la hace ideal para pacientes en shock o con sangrado. La desventaja son sus efectos alucinógenos, que otros anestésicos no tienen."
+    },
+    {
+      "q": "¿La ketamina afecta la memoria?",
+      "a": "Puede causar amnesia temporal para los eventos que ocurren durante su administración, lo cual es deseable en anestesia. No hay evidencia de que cause daño permanente a la memoria con su uso médico ocasional. El uso crónico y abusivo sí se ha asociado con problemas cognitivos."
+    },
+    {
+      "q": "¿Qué pasa si tengo glaucoma y me dan ketamina?",
+      "a": "La ketamina puede aumentar la presión dentro del ojo (presión intraocular), lo cual es peligroso si tiene glaucoma. Es una contraindicación relativa. Su médico debe saber que usted tiene glaucoma para evaluar el riesgo y posiblemente elegir otro anestésico o tomar precauciones adicionales."
+    },
+    {
+      "q": "¿La ketamina interactúa con medicamentos para la presión alta?",
+      "a": "Sí, puede interactuar. La ketamina sube la presión arterial, lo que podría contrarrestar el efecto de sus medicamentos para la hipertensión. Es crucial que su anestesiólogo o médico conozca todos los medicamentos que toma para ajustar las dosis y monitorearlo de cerca durante el procedimiento."
+    },
+    {
+      "q": "¿Cuál es el mecanismo por el que la ketamina alivia la depresión tan rápido?",
+      "a": "A diferencia de los antidepresivos tradicionales que actúan sobre la serotonina o noradrenalina, la ketamina bloquea un receptor cerebral llamado NMDA. Esto desencadena una cascada de eventos que, en horas, promueve el crecimiento de nuevas conexiones entre neuronas en áreas del cerebro relacionadas con el estado de ánimo, 'reiniciando' circuitos que estaban dañados por la depresión."
+    }
+  ]
+}

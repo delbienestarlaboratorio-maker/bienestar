@@ -1,0 +1,380 @@
+{
+  "name": "Clobazam",
+  "summary": "El Clobazam es un medicamento ansiolítico y anticonvulsivo que pertenece a la familia de las benzodiazepinas. Sirve principalmente para controlar las crisis epilépticas, especialmente en el síndrome de Lennox-Gastaut, y también se usa para tratar trastornos de ansiedad severa. Su importancia clínica radica en que es una opción de tratamiento de larga duración con un perfil de efectos secundarios de sedación y dependencia potencialmente menor que otras benzodiazepinas más antiguas, lo que puede mejorar la adherencia al tratamiento y la calidad de vida de los pacientes. Actúa calmando la actividad eléctrica excesiva del cerebro, lo que ayuda a prevenir las convulsiones y reduce los síntomas de ansiedad intensa. Es un medicamento controlado que requiere receta médica y supervisión estrecha debido al riesgo de desarrollar tolerancia (necesitar dosis más altas para el mismo efecto) y dependencia física o psicológica si se usa por periodos prolongados o de forma inadecuada.",
+  "pharmacology": {
+    "mechanismOfAction": "El Clobazam actúa potenciando la acción del ácido gamma-aminobutírico (GABA), que es el principal neurotransmisor inhibitorio del sistema nervioso central. Se une de forma selectiva a un subtipo específico de los receptores GABA-A, conocidos como receptores que contienen la subunidad alfa-1. Esta unión facilita la apertura de los canales de cloruro en las neuronas, permitiendo la entrada de iones de cloruro cargados negativamente al interior de la célula. Este influjo hiperpolariza la neurona, haciendo que sea más difícil que se excite y genere un potencial de acción. El resultado neto es una depresión generalizada de la actividad neuronal, lo que reduce la propagación de descargas eléctricas anormales que causan convulsiones y produce efectos ansiolíticos, sedantes y relajantes musculares. Su selectividad parcial por ciertos receptores puede explicar su perfil de efectos secundarios diferente al de otras benzodiazepinas.",
+    "pharmacologicClass": "Benzodiazepina de 1,5 (uno-cinco); Derivado de la 1,5-benzodiazepina; Modulador alostérico positivo del receptor GABA-A.",
+    "therapeuticClass": "Ansiolítico; Anticonvulsivante; Agente para el tratamiento del síndrome de Lennox-Gastaut.",
+    "absorption": "Se absorbe bien por vía oral. La administración con alimentos puede retrasar ligeramente la velocidad de absorción, pero no afecta significativamente la cantidad total de medicamento que llega a la sangre (biodisponibilidad).",
+    "distribution": "Se distribuye ampliamente por los tejidos del cuerpo. Se une en un alto porcentaje (alrededor del 80-90%) a las proteínas del plasma sanguíneo. Su volumen de distribución es moderado.",
+    "metabolism": "Se metaboliza extensamente en el hígado. El paso principal es la desmetilación por la enzima CYP3A4 y, en menor medida, CYP2C19 y CYP2B6, para formar su metabolito activo principal, el N-desmetilclobazam (norclobazam). Este metabolito es luego procesado (hidroxilado) principalmente por la enzima CYP2C19. Las variaciones genéticas en la actividad de la CYP2C19 pueden afectar significativamente los niveles sanguíneos del metabolito activo.",
+    "elimination": "La vida media de eliminación del Clobazam es de aproximadamente 18 horas. La vida media de su metabolito activo, el N-desmetilclobazam, es mucho más larga, entre 36 y 46 horas, y es la que contribuye mayormente a la duración del efecto terapéutico. Se elimina principalmente por la orina (en forma de metabolitos) y en menor medida por las heces.",
+    "onsetOfAction": "El inicio de acción tras la administración oral es relativamente rápido, generalmente entre 30 minutos y 2 horas.",
+    "durationOfAction": "Debido a la larga vida media de su metabolito activo, tiene una duración de acción prolongada, permitiendo comúnmente una o dos dosis al día para controlar las convulsiones o la ansiedad."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento coadyuvante de las crisis epilépticas en el síndrome de Lennox-Gastaut en pacientes a partir de 2 años de edad.",
+      "Tratamiento de los trastornos de ansiedad (indicación aprobada en México, aunque en algunos países su aprobación principal es para epilepsia)."
+    ],
+    "offLabel": [
+      "Tratamiento coadyuvante en otros tipos de epilepsia refractaria (difíciles de controlar).",
+      "Tratamiento de la agitación psicomotriz en algunos contextos psiquiátricos.",
+      "Manejo de síntomas de abstinencia alcohólica.",
+      "Tratamiento del trastorno de pánico."
+    ]
+  },
+  "dosage": {
+    "adults": "Para ansiedad: Dosis inicial típica de 10 a 20 mg al día, dividida en 1 o 2 tomas. Puede ajustarse según respuesta, usualmente hasta 30-40 mg/día. Para epilepsia (como coadyuvante): Dosis inicial de 5 a 10 mg/día, titulando gradualmente según respuesta y tolerancia. Dosis de mantenimiento común: 20 a 40 mg/día, en 1 o 2 dosis divididas.",
+    "pediatric": "Para síndrome de Lennox-Gastaut (≥2 años): Basado en el peso corporal. Dosis inicial: 0.25 a 0.5 mg/kg/día, dividida en 2 dosis. Dosis de mantenimiento: Titular hasta 1 mg/kg/día, sin exceder 40 mg/día. Se debe iniciar con dosis bajas y aumentar lentamente.",
+    "elderly": "En pacientes mayores de 65 años, se recomienda iniciar con la mitad de la dosis inicial adulta (ej. 5 mg/día) debido a una mayor sensibilidad, metabolismo más lento y mayor riesgo de efectos secundarios como sedación, confusión y caídas. La titulación debe ser más lenta y cautelosa.",
+    "renalImpairment": "En insuficiencia renal leve a moderada (TFG ≥30 mL/min): No se requieren ajustes de dosis iniciales significativos, pero se debe monitorizar. En insuficiencia renal severa (TFG <30 mL/min) o en diálisis: Se recomienda iniciar con dosis bajas y titulación lenta, ya que puede haber acumulación del medicamento o sus metabolitos. La diálisis no elimina eficazmente el Clobazam.",
+    "hepaticImpairment": "En insuficiencia hepática leve a moderada (Child-Pugh A o B): Se recomienda iniciar con dosis bajas (ej. 5 mg/día) y aumentar muy lentamente. En insuficiencia hepática severa (Child-Pugh C): Está contraindicado o debe usarse con extrema precaución y a las dosis más bajas posibles, debido al metabolismo hepático comprometido y alto riesgo de encefalopatía.",
+    "maxDose": "La dosis máxima diaria recomendada generalmente es de 40 mg para adultos. En niños, no debe exceder 40 mg/día o 1 mg/kg/día, lo que sea menor."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "10 mg"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al Clobazam, a otras benzodiazepinas o a cualquier componente de la formulación.",
+      "Miastenia gravis.",
+      "Insuficiencia respiratoria severa (no controlada).",
+      "Apnea del sueño severa.",
+      "Insuficiencia hepática severa (Child-Pugh C).",
+      "Intoxicación aguda por alcohol, hipnóticos, analgésicos opioides, antipsicóticos o antidepresivos."
+    ],
+    "relative": [
+      "Insuficiencia hepática leve o moderada.",
+      "Insuficiencia renal severa.",
+      "Antecedentes de dependencia a drogas o alcohol.",
+      "Glaucoma de ángulo cerrado (no tratado).",
+      "Depresión mayor o ideas suicidas.",
+      "Edad avanzada (>65 años).",
+      "Enfermedad pulmonar obstructiva crónica (EPOC) moderada."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Somnolencia (sueño durante el día).",
+      "Sedación.",
+      "Mareo.",
+      "Fatiga."
+    ],
+    "common": [
+      "Ataxia (pérdida de coordinación, tambaleo).",
+      "Irritabilidad o agresividad (especialmente en niños).",
+      "Estreñimiento.",
+      "Sequedad de boca.",
+      "Aumento del apetito y de peso.",
+      "Dificultad para hablar (disartria).",
+      "Visión borrosa.",
+      "Dolor de cabeza.",
+      "Náuseas."
+    ],
+    "uncommon": [
+      "Erupción cutánea.",
+      "Incontinencia urinaria.",
+      "Dificultad para orinar.",
+      "Cambios en la libido (deseo sexual).",
+      "Confusión (especialmente en ancianos).",
+      "Depresión.",
+      "Alteraciones de la memoria."
+    ],
+    "rare": [
+      "Reacciones alérgicas severas (anafilaxia).",
+      "Síndrome de Stevens-Johnson.",
+      "Ictericia (coloración amarilla de piel y ojos).",
+      "Alucinaciones.",
+      "Comportamientos inusuales o agitación paradójica (efecto contrario al esperado).",
+      "Deterioro cognitivo severo."
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Alcohol",
+        "effect": "Potencia enormemente los efectos depresores del sistema nervioso central (SNC), aumentando el riesgo de sedación profunda, depresión respiratoria, coma y muerte.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Opioides (ej. morfina, tramadol, codeína)",
+        "effect": "Aumento sinérgico de la depresión del SNC y del riesgo de sedación severa, paro respiratorio y muerte. Combinación de alto riesgo.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Otros depresores del SNC (ej. otras benzodiazepinas, zolpidem, barbitúricos, antipsicóticos sedantes, algunos antidepresivos)",
+        "effect": "Aumento aditivo de la sedación, somnolencia y riesgo de accidentes.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inhibidores de CYP2C19 (ej. fluconazol, fluvoxamina, omeprazol, ticlopidina)",
+        "effect": "Pueden aumentar significativamente los niveles en sangre del metabolito activo N-desmetilclobazam, incrementando el riesgo de toxicidad y efectos secundarios.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inductores de CYP3A4 (ej. carbamazepina, fenitoína, rifampicina, hierba de San Juan)",
+        "effect": "Pueden disminuir los niveles en sangre del Clobazam, reduciendo su efectividad y posiblemente provocando crisis convulsivas.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Puede tomarse con o sin alimentos. Tomarlo con una comida grasosa puede retrasar ligeramente su absorción, pero no afecta su eficacia final. El ALCOHOL está estrictamente prohibido por el riesgo de interacción grave.",
+    "withSupplements": "La hierba de San Juan (Hypericum perforatum), un inductor enzimático, puede reducir la efectividad del Clobazam. Suplementos con efectos sedantes (como valeriana, kava, melatonina en dosis altas) pueden potenciar la somnolencia. Se debe consultar siempre al médico o farmacéutico antes de combinar con cualquier suplemento herbal."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA C",
+      "recommendation": "Solo debe usarse durante el embarazo si el beneficio potencial justifica claramente el riesgo para el feto. Su uso, especialmente en el primer trimestre, se ha asociado con un posible aumento del riesgo de malformaciones congénitas (como labio leporino). El uso cerca del parto puede causar síndrome de abstinencia en el recién nacido (hipotonía, dificultad para alimentarse, irritabilidad, problemas respiratorias) y depresión del SNC ('síndrome del bebé flácido'). Si una mujer en tratamiento queda embarazada, NO debe suspender el medicamento abruptamente por riesgo de crisis convulsivas; debe consultar urgentemente a su neurólogo para evaluar riesgos/beneficios.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "El Clobazam y su metabolito activo pasan a la leche materna en cantidades bajas. Puede causar sedación, dificultad para alimentarse y pérdida de peso en el lactante. Se considera que su uso durante la lactancia debe ser evaluado cuidadosamente. Si se usa, se debe monitorizar al bebé para detectar somnolencia excesiva, succión débil y ganancia de peso inadecuada. Se recomienda evitar la lactancia si es posible, o en su caso, administrar la dosis justo después de una toma para minimizar la exposición del bebé.",
+    "pediatric": "Aprobado para uso en niños a partir de 2 años para el síndrome de Lennox-Gastaut. En niños, se debe monitorizar de cerca el comportamiento, ya que pueden presentar con mayor frecuencia efectos paradójicos como irritabilidad, agresividad, hiperactividad o alteraciones del sueño. El ajuste de dosis debe ser estrictamente basado en el peso corporal. El uso a largo plazo puede afectar el desarrollo cognitivo y el aprendizaje.",
+    "geriatric": "Los pacientes mayores son más sensibles a los efectos del Clobazam. Tienen mayor riesgo de sedación excesiva, confusión, ataxia, caídas y fracturas. Se deben usar las dosis más bajas efectivas, iniciando con la mitad de la dosis adulta. Es crucial evaluar el equilibrio y el riesgo de caídas. El uso prolongado puede contribuir al deterioro cognitivo."
+  },
+  "administration": {
+    "howToTake": "Tomar por vía oral, con un vaso de agua. Las tabletas pueden partirse si es necesario para ajustar la dosis, pero no deben triturarse. Puede tomarse con o sin alimentos. Si se prescribe una dosis diaria, es preferible tomarla por la noche para minimizar la somnolencia diurna. Si se prescribe en dos dosis, la mayor puede tomarse por la noche. Nunca suspender el medicamento de forma abrupta después de un uso prolongado; debe reducirse la dosis gradualmente bajo supervisión médica para evitar síndrome de abstinencia o rebote de convulsiones.",
+    "storage": "Conservar en su envase original, bien cerrado, a temperatura ambiente (entre 15°C y 30°C), protegido de la luz, la humedad y el calor. Mantener fuera del alcance y de la vista de los niños y mascotas.",
+    "specialInstructions": "Este medicamento puede causar somnolencia y reducir la capacidad de reacción. No conduzca vehículos, opere maquinaria peligrosa o realice actividades que requieran alerta total hasta que conozca cómo le afecta. Evite completamente el consumo de bebidas alcohólicas. Informe a todos sus médicos y dentistas que está tomando Clobazam antes de cualquier procedimiento o nueva prescripción. Lleve una identificación que indique que toma este medicamento para epilepsia/ansiedad."
+  },
+  "monitoring": {
+    "labTests": [
+      "Pruebas de función hepática (ALT, AST, bilirrubina) periódicas.",
+      "Conteo sanguíneo completo (CSC) ocasional.",
+      "Niveles plasmáticos de Clobazam y N-desmetilclobazam (en casos de falta de respuesta, toxicidad o interacciones medicamentosas).",
+      "Evaluación del estado nutricional y peso (por riesgo de aumento)."
+    ],
+    "frequency": "Evaluación clínica (efectividad y efectos secundarios) cada 1-3 meses al inicio, luego cada 6-12 meses en tratamiento estable. Pruebas hepáticas al inicio y luego cada 6-12 meses, o si hay síntomas de daño hepático.",
+    "signsToWatch": [
+      "Somnolencia diurna excesiva que interfiere con actividades.",
+      "Cambios de humor, irritabilidad, ideas de hacerse daño.",
+      "Problemas de coordinación, tropiezos o caídas frecuentes.",
+      "Dificultad para hablar o pensar con claridad.",
+      "Erupción cutánea severa, ampollas o fiebre.",
+      "Coloración amarillenta de piel u ojos (ictericia).",
+      "Aumento en la frecuencia o intensidad de las crisis convulsivas."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Somnolencia profunda (letargia).",
+      "Confusión severa.",
+      "Ataxia marcada (incapacidad para caminar).",
+      "Dificultad para hablar (disartria).",
+      "Hipotensión (presión baja).",
+      "Depresión respiratoria (respiración lenta y superficial).",
+      "Coma.",
+      "En casos muy raros, paro cardiorrespiratorio y muerte."
+    ],
+    "treatment": "Es una emergencia médica. Llamar al 911 o acudir a urgencias. El tratamiento es de soporte: mantener vía aérea, respiración y circulación. Monitoreo continuo de signos vitales. Puede usarse carbón activado si la ingestión fue reciente. No hay un antídoto específico. La flumazenil (antídoto para benzodiazepinas) puede revertir la depresión del SNC, pero su uso es controversial en pacientes epilépticos porque puede precipitar crisis convulsivas graves; solo debe ser administrado por personal médico en un entorno hospitalario con capacidad para manejar convulsiones.",
+    "antidote": "Flumazenil (uso hospitalario y con precaución extrema en pacientes epilépticos)."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (receta controlada).",
+    "scheduleMexico": "Fracción IV (Cuarta) del Cuadro Básico de Medicamentos. Psicotrópico sujeto a control especial.",
+    "fdaApprovalYear": "Aprobado por la FDA en 2011 para el síndrome de Lennox-Gastaut."
+  },
+  "brandsMexico": [
+    "Frisium",
+    "Urbanyl",
+    "Clobazam Genérico (varios laboratorios nacionales)"
+  ],
+  "clinicalPearls": [
+    "A diferencia de otras benzodiazepinas como el diazepam, el Clobazam tiene una estructura química de '1,5-benzodiazepina', lo que le confiere una mayor potencia anticonvulsivante en relación con sus efectos sedantes y de relajación muscular.",
+    "Su metabolito activo, el N-desmetilclobazam, tiene una vida media muy larga (hasta 2 días), lo que permite una dosificación una o dos veces al día y proporciona un efecto más estable, con menos fluctuaciones entre dosis y potencialmente menos riesgo de abstinencia interdiaria.",
+    "En pacientes que son 'metabolizadores ultrarrápidos' de la enzima CYP2C19 (una variación genética), los niveles del metabolito activo pueden ser muy bajos, llevando a una falta de respuesta terapéutica. Por el contrario, en 'metabolizadores lentos', los niveles pueden ser muy altos, aumentando el riesgo de efectos secundarios. Esto puede justificar pruebas farmacogenéticas en casos de respuesta inesperada."
+  ],
+  "patientCounseling": "El Clobazam es un medicamento efectivo para controlar sus crisis o su ansiedad, pero debe usarse con mucha responsabilidad. Tómelo exactamente como se lo recetó su médico, nunca aumente la dosis por su cuenta. Puede causarle mucho sueño y mareo, especialmente al inicio; evite manejar o hacer actividades peligrosas hasta que su cuerpo se adapte. El alcohol está completamente prohibido, ya que mezclarlos es muy peligroso. No deje de tomarlo de golpe si lo ha usado por más de unas semanas, porque puede causar crisis de rebote, ansiedad severa o síntomas de abstinencia como temblores e insomnio. Si olvida una dosis, tómela tan pronto como se acuerde, pero si ya es casi la hora de la siguiente, omita la que olvidó y continúe con su horario normal. Nunca tome dos dosis para compensar. Mantenga este y todos los medicamentos fuera del alcance de los niños. Si planea un embarazo o queda embarazada, consulte a su médico inmediatamente.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Ansiedad",
+        "slug": "ansiedad"
+      },
+      {
+        "name": "Crisis convulsivas",
+        "slug": "crisis-convulsivas"
+      },
+      {
+        "name": "Agitacion psicomotriz",
+        "slug": "agitacion-psicomotriz"
+      },
+      {
+        "name": "Insomnio (secundario a ansiedad)",
+        "slug": "insomnio"
+      },
+      {
+        "name": "Tension muscular por ansiedad",
+        "slug": "tension-muscular"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Sindrome de Lennox-Gastaut",
+        "slug": "sindrome-de-lennox-gastaut"
+      },
+      {
+        "name": "Epilepsia refractaria",
+        "slug": "epilepsia-refractaria"
+      },
+      {
+        "name": "Trastorno de ansiedad generalizada",
+        "slug": "trastorno-de-ansiedad-generalizada"
+      },
+      {
+        "name": "Trastorno de panico",
+        "slug": "trastorno-de-panico"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Dependencia a benzodiazepinas",
+        "slug": "dependencia-a-benzodiazepinas"
+      },
+      {
+        "name": "Sindrome de abstinencia",
+        "slug": "sindrome-de-abstinencia"
+      },
+      {
+        "name": "Encefalopatia hepatica",
+        "slug": "encefalopatia-hepatica"
+      },
+      {
+        "name": "Depresion respiratoria",
+        "slug": "depresion-respiratoria"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Enzimas hepaticas (ALT, AST)",
+        "slug": "enzimas-hepaticas",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Bilirrubina",
+        "slug": "bilirrubina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Recuento de globulos blancos",
+        "slug": "globulos-blancos",
+        "effect": "Puede alterar (raro)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Pruebas de funcion hepatica",
+        "slug": "pruebas-funcion-hepatica",
+        "reason": "Para monitorear posible toxicidad hepatica"
+      },
+      {
+        "name": "Niveles plasmaticos de Clobazam",
+        "slug": "niveles-plasmaticos-clobazam",
+        "reason": "Para optimizar dosis en falta de respuesta o toxicidad"
+      },
+      {
+        "name": "Farmacogenetica CYP2C19",
+        "slug": "farmacogenetica-cyp2c19",
+        "reason": "Para predecir respuesta y riesgo de efectos secundarios basado en el metabolismo"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de dosis pediatrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve el Clobazam?",
+      "a": "El Clobazam sirve principalmente para dos cosas: 1) Como tratamiento coadyuvante (de apoyo) para controlar las crisis epilépticas, especialmente en un tipo severo llamado síndrome de Lennox-Gastaut en niños y adultos. 2) Para tratar los trastornos de ansiedad severa que no responden a otros tratamientos. Actúa calmando la actividad excesiva del cerebro."
+    },
+    {
+      "q": "¿El Clobazam da sueño?",
+      "a": "Sí, la somnolencia (sueño durante el día) y la sedación son efectos secundarios muy comunes, especialmente cuando se inicia el tratamiento o se aumenta la dosis. Por eso es importante no manejar ni operar maquinaria hasta que se sepa cómo afecta. Este efecto puede disminuir con el tiempo a medida que el cuerpo se adapta."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si tomo Clobazam?",
+      "a": "NO. Está estrictamente prohibido consumir cualquier bebida alcohólica mientras se toma Clobazam. La mezcla potencia enormemente los efectos depresores del sistema nervioso, pudiendo causar somnolencia profunda, dificultad para respirar, pérdida del conocimiento, coma e incluso la muerte."
+    },
+    {
+      "q": "¿Es adictivo el Clobazam?",
+      "a": "Sí, como todas las benzodiazepinas, el Clobazam tiene potencial para causar dependencia física y psicológica, especialmente si se usa en dosis altas o por periodos prolongados (más de 4-6 semanas). Por eso se vende con receta controlada y el médico debe supervisar su uso. Nunca se debe suspender de golpe."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Empieza a hacer efecto relativamente rápido, generalmente entre 30 minutos y 2 horas después de tomarlo. Sin embargo, para ver su efecto completo en el control de las crisis o la ansiedad, pueden necesitarse varios días o semanas de tratamiento constante a la dosis adecuada."
+    },
+    {
+      "q": "¿Qué hago si olvidé una dosis?",
+      "a": "Si se acuerda poco tiempo después de la hora programada, tómela de inmediato. Si ya es casi la hora de la siguiente dosis, omita la que olvidó y continúe con su horario normal. NUNCA tome una dosis doble para compensar la olvidada, ya que aumenta el riesgo de efectos secundarios."
+    },
+    {
+      "q": "¿Puedo dejar de tomar Clobazam de repente?",
+      "a": "NO. Suspenderlo abruptamente después de un uso prolongado es peligroso. Puede provocar un síndrome de abstinencia con síntomas como ansiedad intensa, insomnio, temblores, sudoración, náuseas y, en pacientes epilépticos, puede desencadenar crisis convulsivas graves (estado epiléptico). La suspensión debe ser gradual, supervisada por su médico."
+    },
+    {
+      "q": "¿El Clobazam sube o baja de peso?",
+      "a": "Puede causar un aumento del apetito, lo que a su vez puede llevar a un aumento de peso en algunas personas. Es un efecto secundario común. Se recomienda llevar una dieta balanceada y hacer ejercicio regular (si su condición lo permite) para controlar el peso."
+    },
+    {
+      "q": "¿Puedo tomar Clobazam si estoy embarazada o planeando un embarazo?",
+      "a": "Debe consultar URGENTEMENTE a su médico. El Clobazam puede causar daño al feto, especialmente en el primer trimestre. Si ya está tomándolo y descubre que está embarazada, no lo suspenda sola por el riesgo de crisis. Su médico evaluará los riesgos y beneficios y le dará la mejor opción, que podría ser cambiar a un medicamento más seguro o ajustar dosis."
+    },
+    {
+      "q": "¿Puedo amamantar si tomo Clobazam?",
+      "a": "Se debe evaluar con el médico. El medicamento pasa a la leche materna en pequeñas cantidades y puede causar somnolencia, succión débil y bajo peso en el bebé. Si es estrictamente necesario, se puede intentar tomando la dosis justo después de amamantar para reducir la exposición del bebé, pero se debe monitorizar al niño muy de cerca."
+    },
+    {
+      "q": "¿El Clobazam interactúa con otros medicamentos?",
+      "a": "Sí, tiene interacciones importantes. Potencia los efectos de otros depresores del SNC (alcohol, opioides, pastillas para dormir). Algunos medicamentos como el omeprazol o fluconazol pueden aumentar sus niveles y efectos secundarios. Otros como la carbamazepina pueden disminuir su efecto. INFORME A TODOS SUS MÉDICOS que toma Clobazam antes de que le receten algo nuevo."
+    },
+    {
+      "q": "¿Es lo mismo Clobazam que Clonazepam?",
+      "a": "No, son medicamentos diferentes, aunque ambos son benzodiazepinas y se usan para epilepsia y ansiedad. El Clobazam es una benzodiazepina de tipo 1,5, mientras que el Clonazepam es de tipo 1,4. Tienen perfiles de efectos secundarios, potencia y duración de acción distintos. Su médico elige uno u otro según el tipo de epilepsia, la edad del paciente y la tolerancia."
+    },
+    {
+      "q": "¿Qué marcas de Clobazam hay en México?",
+      "a": "Las marcas comerciales más conocidas en México son Frisium y Urbanyl. También existen versiones genéricas de diversos laboratorios nacionales, las cuales contienen el mismo principio activo (Clobazam) y deben cumplir con los mismos estándares de calidad."
+    },
+    {
+      "q": "¿El Clobazam se puede partir?",
+      "a": "Sí, las tabletas de Clobazam suelen tener una ranura para poder partirlas por la mitad y ajustar la dosis según lo indique el médico. No se recomienda triturarlas o disolverlas a menos que el médico o farmacéutico lo indique."
+    },
+    {
+      "q": "¿A qué hora del día debo tomar el Clobazam?",
+      "a": "Depende de la prescripción. Si es una dosis al día, generalmente se recomienda tomarla por la noche para minimizar la somnolencia diurna. Si son dos dosis, la mayor suele tomarse por la noche. Siga siempre las instrucciones específicas de su médico."
+    },
+    {
+      "q": "¿El Clobazam causa pérdida de memoria?",
+      "a": "Puede causar alteraciones de la memoria, especialmente a dosis altas o en personas mayores. Es un efecto secundario de la clase de medicamentos. Suele ser temporal y mejorar al reducir la dosis o con el tiempo. Si nota problemas severos de memoria o confusión, consulte a su médico."
+    },
+    {
+      "q": "¿Qué pasa si tomo una sobredosis de Clobazam?",
+      "a": "Una sobredosis es una EMERGENCIA MÉDICA. Los síntomas incluyen somnolencia profunda, confusión, dificultad para respirar, coma y puede ser mortal. Si sospecha una sobredosis, llame al 911 o acuda inmediatamente al hospital más cercano. No induzca el vómito a menos que lo indique el personal médico."
+    },
+    {
+      "q": "¿Por qué mi médico me pide análisis de sangre si tomo Clobazam?",
+      "a": "Para monitorear su seguridad. Principalmente revisa las pruebas de función hepática (hígado), ya que el Clobazam se metaboliza allí y raramente puede causar daño. También puede revisar otros parámetros de forma periódica para asegurarse de que el tratamiento sea seguro a largo plazo."
+    },
+    {
+      "q": "¿El Clobazam es para toda la vida?",
+      "a": "No necesariamente. En el caso de la epilepsia, especialmente el síndrome de Lennox-Gastaut, suele ser un tratamiento de largo plazo, a veces por años. Para la ansiedad, idealmente se usa por periodos limitados (semanas a pocos meses) mientras se establecen otras terapias (como psicoterapia). La duración la determina su médico basándose en su evolución."
+    },
+    {
+      "q": "¿Cómo se ajusta la dosis de Clobazam en un paciente con problemas de hígado?",
+      "a": "En pacientes con insuficiencia hepática, el ajuste es crucial. En casos leves a moderados, se inicia con la dosis más baja posible (ej. 5 mg/día) y se aumenta muy lentamente. En insuficiencia hepática severa, generalmente está contraindicado porque el hígado no puede procesarlo, lo que lleva a una acumulación tóxica y riesgo de encefalopatía hepática. El médico debe evaluar la función hepática antes de iniciar el tratamiento."
+    }
+  ]
+}

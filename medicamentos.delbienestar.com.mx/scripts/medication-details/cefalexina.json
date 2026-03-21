@@ -1,0 +1,432 @@
+{
+  "name": "Cefalexina",
+  "summary": "La cefalexina es un antibiótico de la familia de las cefalosporinas de primera generación, utilizado para combatir infecciones causadas por bacterias. Sirve para tratar una amplia variedad de infecciones comunes como las de la piel, vías respiratorias, oídos, huesos, tracto urinario y algunas infecciones dentales. Su importancia clínica radica en que es un antibiótico de amplio espectro, bien tolerado, de administración oral y que actúa eficazmente contra muchas bacterias grampositivas y algunas gramnegativas, siendo una opción de primera línea para infecciones no complicadas en pacientes mexicanos. Es crucial tomarlo exactamente como lo indica el médico, completando todo el tratamiento, para evitar que las bacterias desarrollen resistencia y la infección regrese más fuerte. No sirve para infecciones virales como la gripe o el resfriado común.",
+  "pharmacology": {
+    "mechanismOfAction": "La cefalexina es un antibiótico bactericida, lo que significa que mata a las bacterias. Su mecanismo de acción consiste en inhibir la síntesis de la pared celular bacteriana. Lo logra al unirse de forma irreversible a unas proteínas específicas llamadas Proteínas Fijadoras de Penicilina (PBP), que son enzimas esenciales para la construcción y reparación de la pared celular. Al bloquear estas enzimas, la bacteria no puede formar una pared celular fuerte y estable. Esto provoca que la pared se debilite, se rompa y finalmente la bacteria muera por lisis osmótica. Es especialmente activa contra bacterias que se están multiplicando activamente.",
+    "pharmacologicClass": "Antibiótico beta-lactámico; Cefalosporina de primera generación.",
+    "therapeuticClass": "Antibiótico sistémico.",
+    "absorption": "Se absorbe bien por vía oral en el tracto gastrointestinal. La presencia de alimentos puede retrasar ligeramente su absorción, pero no reduce la cantidad total de medicamento que llega a la sangre (biodisponibilidad). Alcanza su concentración máxima en sangre (Cmax) aproximadamente 1 hora después de la administración.",
+    "distribution": "Se distribuye ampliamente en la mayoría de los tejidos y fluidos corporales, incluyendo hueso, bilis, líquido sinovial y pleural. Atraviesa la placenta y se excreta en la leche materna en pequeñas cantidades. Su unión a proteínas plasmáticas es baja, aproximadamente del 10-15%. Esto significa que una gran parte del medicamento está libre en la sangre para ejercer su efecto.",
+    "metabolism": "La cefalexina no sufre un metabolismo hepático significativo. Más del 90% del fármaco se excreta sin cambios. No es sustrato de las enzimas del citocromo P450 (CYP), por lo que las interacciones farmacocinéticas por esta vía son mínimas.",
+    "elimination": "Se elimina principalmente por los riñones a través de la filtración glomerular y la secreción tubular. Más del 90% de la dosis se excreta sin cambios en la orina en las primeras 6-8 horas. Su vida media de eliminación en adultos con función renal normal es de aproximadamente 0.5 a 1.2 horas. En pacientes con insuficiencia renal grave, esta vida media puede prolongarse significativamente.",
+    "onsetOfAction": "Los niveles en sangre comienzan a ser efectivos poco después de la absorción, generalmente dentro de la primera hora tras la ingesta. Sin embargo, la mejoría clínica de los síntomas (como la fiebre o el dolor) puede tardar de 24 a 48 horas en notarse.",
+    "durationOfAction": "Debido a su corta vida media, se requiere administración múltiple al día (cada 6, 8 o 12 horas) para mantener concentraciones en sangre y tejidos por encima del nivel necesario para inhibir el crecimiento bacteriano (concentración inhibitoria mínima, CIM) durante todo el tratamiento."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones del tracto respiratorio (faringoamigdalitis estreptocócica, sinusitis aguda, bronquitis aguda exacerbada)",
+      "Infecciones de la piel y tejidos blandos (celulitis, impétigo, forúnculos, abscesos)",
+      "Infecciones del tracto urinario no complicadas (cistitis aguda)",
+      "Otitis media aguda",
+      "Infecciones óseas (osteomielitis aguda) causadas por Staphylococcus aureus sensible",
+      "Infecciones dentales (abscesos dentales, periodontitis)"
+    ],
+    "offLabel": [
+      "Profilaxis de endocarditis infecciosa en pacientes de alto riesgo sometidos a procedimientos dentales (cuando no se tolera la amoxicilina)",
+      "Profilaxis en cirugía ortopédica",
+      "Tratamiento de la fiebre reumática aguda (alternativa a la penicilina)",
+      "Infecciones por Streptococcus pyogenes (erisipela)"
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis habitual para adultos es de 250 mg a 500 mg cada 6 horas, o de 500 mg a 1 g cada 12 horas, dependiendo de la gravedad y el tipo de infección. Para infecciones de piel y vías urinarias no complicadas, suelen usarse 500 mg cada 12 horas. Para infecciones más graves como neumonía o infecciones óseas, se requieren dosis de 500 mg a 1 g cada 6 horas.",
+    "pediatric": "La dosis se calcula por peso corporal. La dosis habitual es de 25 a 50 mg/kg/día, dividida en dosis cada 6, 8 o 12 horas. Para infecciones más graves (como otitis media), la dosis puede aumentarse hasta 75-100 mg/kg/día, con un máximo de 4 g/día. Se debe usar la presentación en suspensión oral para niños pequeños.",
+    "elderly": "En adultos mayores con función renal normal, se pueden usar las dosis estándar para adultos. Sin embargo, es común que presenten disminución de la función renal asociada a la edad, por lo que es esencial evaluar la TFG y ajustar la dosis si es necesario.",
+    "renalImpairment": "Se requiere ajuste de dosis según el aclaramiento de creatinina (CrCl). CrCl >60 mL/min: dosis normal. CrCl 30-59 mL/min: dosis máxima de 500 mg cada 8-12 horas. CrCl 15-29 mL/min: 250 mg cada 12-24 horas. CrCl 5-14 mL/min: 250 mg cada 24-48 horas. CrCl <5 mL/min: 250 mg cada 48-96 horas. En diálisis, administrar dosis después de cada sesión.",
+    "hepaticImpairment": "No se requiere ajuste de dosis específico para la insuficiencia hepática, ya que la cefalexina no se metaboliza en el hígado. Sin embargo, en casos de enfermedad hepática grave, se debe vigilar la función renal.",
+    "maxDose": "La dosis máxima diaria para adultos es de 4 gramos (4000 mg). En niños, el máximo es de 4 g/día o 100 mg/kg/día, lo que sea menor."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "250 mg",
+        "500 mg",
+        "1 g (1000 mg)"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Cápsula",
+      "strengths": [
+        "250 mg",
+        "500 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Suspensión oral (polvo para reconstituir)",
+      "strengths": [
+        "125 mg/5 mL",
+        "250 mg/5 mL"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad (alergia) conocida y grave a la cefalexina o a cualquier cefalosporina.",
+      "Pacientes con antecedente de reacción anafiláctica (reacción alérgica grave) a cualquier antibiótico beta-lactámico (penicilinas, cefalosporinas, carbapenémicos, monobactámicos)."
+    ],
+    "relative": [
+      "Insuficiencia renal grave (ajustar dosis).",
+      "Antecedente de colitis pseudomembranosa asociada a antibióticos.",
+      "Enfermedad gastrointestinal severa (como colitis ulcerosa).",
+      "Hipersensibilidad a penicilinas (existe riesgo de reacción cruzada del 5-10%)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Diarrea (puede ser acuosa o con sangre, indicando posible colitis)",
+      "Náuseas",
+      "Malestar estomacal o indigestión"
+    ],
+    "common": [
+      "Vómitos",
+      "Dolor abdominal",
+      "Candidiasis vaginal (infección por hongos) o candidiasis oral (algodoncillo)",
+      "Comezón (prurito) o salpullido (erupción cutánea)",
+      "Dolor de cabeza",
+      "Mareos"
+    ],
+    "uncommon": [
+      "Colitis pseudomembranosa (diarrea severa por Clostridioides difficile)",
+      "Vaginitis",
+      "Prurito genital",
+      "Elevación de enzimas hepáticas (transaminasas)",
+      "Confusión",
+      "Somnolencia"
+    ],
+    "rare": [
+      "Reacciones de hipersensibilidad severa (anafilaxia, angioedema, síndrome de Stevens-Johnson)",
+      "Nefritis intersticial (daño renal)",
+      "Anemia hemolítica",
+      "Neutropenia (bajada de glóbulos blancos)",
+      "Trombocitopenia (bajada de plaquetas)",
+      "Hepatitis colestásica",
+      "Convulsiones (en casos de sobredosis o fallo renal)"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Probenecid",
+        "effect": "El probenecid bloquea la secreción tubular renal de la cefalexina, aumentando sus niveles en sangre y prolongando su efecto. Puede ser utilizado terapéuticamente para este fin, pero requiere vigilancia.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Anticoagulantes orales (Warfarina, Acenocumarol)",
+        "effect": "La cefalexina puede potenciar el efecto anticoagulante, aumentando el riesgo de sangrado. Se debe monitorear estrechamente el INR.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Metotrexato",
+        "effect": "La cefalexina puede disminuir la eliminación renal del metotrexato, aumentando su toxicidad (mielosupresión, mucositis).",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "Puede tomarse con o sin alimentos. Tomarlo con alimentos puede ayudar a reducir las molestias estomacales como náuseas. El alcohol no interactúa directamente con la cefalexina, pero puede empeorar algunos efectos secundarios como mareos y malestar gastrointestinal, y puede interferir con la recuperación del sistema inmunológico.",
+    "withSupplements": "Los suplementos que contienen altas dosis de calcio, hierro, zinc o magnesio pueden interferir con la absorción de la cefalexina si se toman al mismo tiempo. Se recomienda separar la toma del antibiótico y estos suplementos por al menos 2 horas. Los probióticos pueden ayudar a prevenir la diarrea asociada a antibióticos."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA B",
+      "recommendation": "Los estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. La cefalexina se considera generalmente segura durante el embarazo cuando es claramente necesaria, ya que atraviesa la placenta. Debe usarse solo si el beneficio potencial justifica el riesgo potencial para el feto, bajo supervisión médica estricta.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La cefalexina se excreta en la leche materna en pequeñas cantidades (aproximadamente el 0.5-1% de la dosis materna). Se considera compatible con la lactancia materna, ya que es poco probable que cause efectos adversos en el lactante, salvo posiblemente alteración de la flora intestinal o diarrea. Se recomienda observar al bebé por si aparece salpullido, diarrea o candidiasis oral.",
+    "pediatric": "Es seguro y efectivo en niños para las indicaciones aprobadas. La dosis se calcula cuidadosamente por peso. La presentación en suspensión es la más adecuada para niños pequeños. Es importante completar el tratamiento completo para prevenir complicaciones como la fiebre reumática tras una infección estreptocócica.",
+    "geriatric": "Los adultos mayores son más susceptibles a los efectos adversos, especialmente la diarrea y la colitis por C. diff. La función renal suele estar disminuida, por lo que es imperativo calcular la TFG y ajustar la dosis para evitar toxicidad por acumulación del fármaco. También pueden ser más propensos a presentar confusión o mareos."
+  },
+  "administration": {
+    "howToTake": "Tomar exactamente como lo recetó el médico, respetando la dosis y los horarios (ej. cada 8 horas). Puede tomarse con o sin alimentos. Si usa la suspensión oral, agitar bien el frasco antes de cada uso. Medir la dosis con la jeringa o cuchara dosificadora que viene en la caja, NO con una cuchara de cocina. Tragar las tabletas o cápsulas enteras con un vaso lleno de agua. Continuar tomando el medicamento hasta completar el número total de días recetados, incluso si se siente mejor después de unos días.",
+    "storage": "Conservar las tabletas y cápsulas a temperatura ambiente (15-30°C), en un lugar seco y fuera del alcance de los niños. La suspensión oral reconstituida debe guardarse en el refrigerador (2-8°C) y desecharse después de 14 días. No congelar.",
+    "specialInstructions": "Mantener una hidratación adecuada bebiendo abundantes líquidos durante el tratamiento. Si se olvida una dosis, tomarla tan pronto como se recuerde, a menos que ya sea casi la hora de la siguiente dosis. En ese caso, saltar la dosis olvidada y continuar con el horario normal. NO duplicar la dosis para compensar. Informar al médico inmediatamente si aparece diarrea severa, acuosa o con sangre."
+  },
+  "monitoring": {
+    "labTests": [
+      "Cultivo y antibiograma del sitio de infección (antes de iniciar, si es posible)",
+      "Recuento completo de células sanguíneas (CSC) en tratamientos prolongados",
+      "Pruebas de función renal (creatinina sérica, BUN) especialmente en ancianos o tratamientos largos",
+      "Pruebas de función hepática (transaminasas) en tratamientos prolongados",
+      "INR en pacientes que toman anticoagulantes"
+    ],
+    "frequency": "La función renal debe evaluarse al inicio del tratamiento en pacientes de riesgo. En tratamientos prolongados (>2 semanas), se recomienda monitorear CSC y función renal/hepática cada 1-2 semanas. Monitoreo clínico diario de signos de mejoría o efectos adversos.",
+    "signsToWatch": [
+      "Fiebre que no cede o empeora después de 48-72 horas de tratamiento",
+      "Aparición de salpullido, urticaria, hinchazón de cara/lengua (signos de alergia)",
+      "Diarrea acuosa o con sangre, dolor abdominal severo (posible colitis)",
+      "Dificultad para respirar o tragar",
+      "Ampollas o descamación de la piel",
+      "Ictericia (coloración amarilla de piel/ojos)",
+      "Sangrado o moretones inusuales"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Náuseas y vómitos severos",
+      "Dolor abdominal intenso",
+      "Diarrea profusa",
+      "Sangre en la orina",
+      "Convulsiones (especialmente en pacientes con fallo renal)",
+      "Confusión, alucinaciones",
+      "Erupción cutánea generalizada"
+    ],
+    "treatment": "El tratamiento es de soporte y sintomático. No hay antídoto específico. Inducir el vómito o realizar lavado gástrico si la ingestión fue reciente. Mantener la hidratación y el equilibrio electrolítico. En casos de insuficiencia renal aguda, puede ser necesaria la hemodiálisis, ya que la cefalexina es dializable (se elimina eficazmente por diálisis).",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Rx). Es un antibiótico de uso controlado.",
+    "scheduleMexico": "Medicamento sujeto a prescripción médica (no está en las fracciones de psicotrópicos o estupefacientes). Su venta requiere receta médica archivada.",
+    "fdaApprovalYear": "Aprobado por la FDA en 1971."
+  },
+  "brandsMexico": [
+    "Keflex",
+    "Ceporex",
+    "Cefalin",
+    "Cefalex",
+    "Cefax",
+    "Lexin",
+    "Cefabiotic",
+    "Cefal",
+    "Cefalospor",
+    "Cefix",
+    "Ceforal",
+    "Cefspan",
+    "Keftab",
+    "Zartan",
+    "Biolexina",
+    "Farmacef",
+    "Larotid",
+    "Novolexin",
+    "Rilexine",
+    "Sporidex"
+  ],
+  "clinicalPearls": [
+    "La cefalexina tiene una reactividad cruzada del 5-10% con las penicilinas. Pacientes con alergia a penicilina (especialmente reacciones inmediatas o anafilaxia) deben usarla con extrema precaución o evitarse.",
+    "Es uno de los pocos antibióticos orales que alcanza concentraciones adecuadas en el hueso, por lo que es una opción útil para el tratamiento oral de seguimiento de osteomielitis aguda por S. aureus sensible, después de un curso inicial intravenoso.",
+    "Aunque es una cefalosporina de 1ra generación con cobertura principalmente grampositiva, conserva buena actividad contra E. coli y Klebsiella spp., lo que la hace útil para infecciones urinarias no complicadas en la comunidad, donde la resistencia no es aún muy alta."
+  ],
+  "patientCounseling": "Es fundamental que tome la cefalexina exactamente como se lo indicó su médico, respetando los horarios y la duración completa del tratamiento, aunque se sienta mejor en unos días. Suspenderlo antes de tiempo puede hacer que la infección regrese y que las bacterias se vuelvan resistentes. Tómela con un vaso de agua; puede hacerlo con alimentos si le causa malestar estomacal. Esté alerta a señales de una posible reacción alérgica, como salpullido, hinchazón de cara o dificultad para respirar, y deje de tomarla y consulte de inmediato si esto ocurre. La diarrea es común, pero si se vuelve muy líquida, abundante o con sangre, no la ignore, puede ser una infección grave y debe avisar a su médico. No comparta este antibiótico con otras personas, ya que cada infección es diferente. Complete todo el frasco de suspensión o las tabletas recetadas.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre",
+        "slug": "fiebre"
+      },
+      {
+        "name": "Dolor de garganta",
+        "slug": "dolor-de-garganta"
+      },
+      {
+        "name": "Dolor al orinar",
+        "slug": "dolor-al-orinar"
+      },
+      {
+        "name": "Secreción purulenta",
+        "slug": "secrecion-purulenta"
+      },
+      {
+        "name": "Enrojecimiento e hinchazón de la piel",
+        "slug": "enrojecimiento-e-hinchazon-de-la-piel"
+      },
+      {
+        "name": "Dolor de oído",
+        "slug": "dolor-de-oido"
+      },
+      {
+        "name": "Tos con flemas",
+        "slug": "tos-con-flemas"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Faringoamigdalitis estreptocócica",
+        "slug": "faringoamigdalitis-estreptococica"
+      },
+      {
+        "name": "Infección de vías urinarias (Cistitis)",
+        "slug": "infeccion-de-vias-urinarias-cistitis"
+      },
+      {
+        "name": "Celulitis",
+        "slug": "celulitis"
+      },
+      {
+        "name": "Otitis media aguda",
+        "slug": "otitis-media-aguda"
+      },
+      {
+        "name": "Sinusitis aguda bacteriana",
+        "slug": "sinusitis-aguda-bacteriana"
+      },
+      {
+        "name": "Impetigo",
+        "slug": "impetigo"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Colitis pseudomembranosa",
+        "slug": "colitis-pseudomembranosa"
+      },
+      {
+        "name": "Candidiasis vaginal u oral",
+        "slug": "candidiasis-vaginal-u-oral"
+      },
+      {
+        "name": "Reacción de hipersensibilidad (Anafilaxia)",
+        "slug": "reaccion-de-hipersensibilidad-anafilaxia"
+      },
+      {
+        "name": "Nefritis intersticial",
+        "slug": "nefritis-intersticial"
+      },
+      {
+        "name": "Diarrea asociada a antibióticos",
+        "slug": "diarrea-asociada-a-antibioticos"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar (por nefrotoxicidad)"
+      },
+      {
+        "name": "Transaminasas (ALT, AST)",
+        "slug": "transaminasas-alt-ast",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Recuento de neutrófilos",
+        "slug": "recuento-de-neutrofilos",
+        "effect": "Puede disminuir (neutropenia)"
+      },
+      {
+        "name": "INR (Razón Normalizada Internacional)",
+        "slug": "inr-razon-normalizada-internacional",
+        "effect": "Puede elevar (aumenta riesgo de sangrado)"
+      },
+      {
+        "name": "Recuento de plaquetas",
+        "slug": "recuento-de-plaquetas",
+        "effect": "Puede disminuir (trombocitopenia)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Cultivo y antibiograma",
+        "slug": "cultivo-y-antibiograma",
+        "reason": "Para identificar la bacteria causante y confirmar que es sensible a la cefalexina."
+      },
+      {
+        "name": "Creatinina sérica y BUN",
+        "slug": "creatinina-serica-y-bun",
+        "reason": "Para evaluar la función renal y ajustar la dosis si es necesario."
+      },
+      {
+        "name": "Biometría hemática completa",
+        "slug": "biometria-hematica-completa",
+        "reason": "Para monitorear posibles efectos en las células sanguíneas en tratamientos prolongados."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve la cefalexina?",
+      "a": "La cefalexina es un antibiótico que sirve para tratar infecciones causadas por bacterias, como infecciones de la garganta (amigdalitis), de la piel (como forúnculos o celulitis), de los oídos (otitis), de las vías urinarias (cistitis) y de los huesos. No sirve para infecciones virales como la gripe o el resfriado."
+    },
+    {
+      "q": "¿Cómo debo tomar la cefalexina, antes o después de los alimentos?",
+      "a": "Puede tomarla con o sin alimentos. Si le causa malestar estomacal, náuseas o indigestión, se recomienda tomarla con alimentos para reducir estos efectos. Lo más importante es seguir el horario indicado por su médico (ej. cada 8 horas)."
+    },
+    {
+      "q": "¿Qué hago si se me olvida una dosis?",
+      "a": "Tome la dosis olvidada tan pronto como lo recuerde. Sin embargo, si ya es casi la hora de su siguiente dosis programada, sáltese la dosis olvidada y continúe con su horario normal. Nunca duplique la dosis para compensar la que olvidó."
+    },
+    {
+      "q": "¿La cefalexina produce sueño o mareos?",
+      "a": "Sí, el mareo es un efecto secundario posible, aunque no muy común. La somnolencia también puede ocurrir. Si experimenta estos efectos, evite conducir vehículos o manejar maquinaria peligrosa hasta que sepa cómo le afecta el medicamento."
+    },
+    {
+      "q": "¿Puedo tomar alcohol mientras tomo cefalexina?",
+      "a": "No se recomienda. Aunque no hay una interacción química directa y grave como con otros antibióticos, el alcohol puede empeorar efectos secundarios como mareos, malestar estomacal y náuseas. Además, puede debilitar su sistema inmunológico y retrasar su recuperación."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto la cefalexina?",
+      "a": "Los niveles en la sangre comienzan a ser efectivos en la primera hora. Sin embargo, usted puede empezar a sentirse mejor (menos fiebre, menos dolor) después de 24 a 48 horas de tratamiento. Es crucial continuar tomándolo hasta terminar el tratamiento completo, aunque se sienta bien."
+    },
+    {
+      "q": "¿La cefalexina sirve para el dolor de muelas?",
+      "a": "Sí, puede ser recetada por un dentista para tratar infecciones dentales bacterianas, como abscesos dentales o infecciones de las encías (periodontitis). Sin embargo, no es un analgésico; alivia el dolor al combatir la infección que lo causa. Es posible que también necesite un medicamento para el dolor como el ibuprofeno."
+    },
+    {
+      "q": "¿Puede la cefalexina causar diarrea?",
+      "a": "Sí, la diarrea es uno de los efectos secundarios más comunes. Suele ser leve. Sin embargo, si la diarrea se vuelve muy acuosa, abundante, con sangre o moco, o se acompaña de fiebre y dolor abdominal fuerte, DEBE contactar a su médico de inmediato. Podría ser una colitis pseudomembranosa, una infección intestinal grave."
+    },
+    {
+      "q": "¿Qué pasa si tomo cefalexina y soy alérgico a la penicilina?",
+      "a": "Existe un riesgo de reacción cruzada de aproximadamente 5-10%. Si su alergia a la penicilina fue leve (solo salpullido), su médico podría considerar usar cefalexina con precaución. Si su alergia fue grave (dificultad para respirar, hinchazón de cara/lengua, anafilaxia), generalmente se EVITA el uso de cefalosporinas como la cefalexina. Informe siempre a su médico sobre todas sus alergias."
+    },
+    {
+      "q": "¿La cefalexina afecta los métodos anticonceptivos?",
+      "a": "No hay evidencia de que la cefalexina reduzca la efectividad de los anticonceptivos hormonales orales (pastillas), parches o anillos. A diferencia de otros antibióticos, no se ha demostrado una interacción significativa. Puede continuar con su método anticonceptivo con normalidad."
+    },
+    {
+      "q": "¿Puedo tomar cefalexina si estoy embarazada o amamantando?",
+      "a": "Embarazo: Se usa si el beneficio justifica el riesgo (Categoría B). Consulte a su médico. Lactancia: Se excreta en pequeñas cantidades en la leche materna y generalmente se considera compatible. Puede observar al bebé por si aparece diarrea o salpullido. Siempre informe a su médico si está embarazada, planeando estarlo o amamantando."
+    },
+    {
+      "q": "¿La cefalexina sube o baja la presión arterial?",
+      "a": "La cefalexina no tiene un efecto directo conocido sobre la presión arterial. No se considera un medicamento que cause hipertensión o hipotensión de manera común. Sin embargo, si experimenta mareos, podría sentirse aturdido al levantarse."
+    },
+    {
+      "q": "¿Por qué es importante terminar todo el tratamiento de cefalexina?",
+      "a": "Completar el tratamiento asegura que todas las bacterias causantes de la infección sean eliminadas. Si lo suspende antes porque 'ya se siente bien', las bacterias más débiles mueren pero las más fuertes pueden sobrevivir, multiplicarse y causar una nueva infección que será más difícil de tratar porque se habrán vuelto resistentes al antibiótico."
+    },
+    {
+      "q": "¿Qué presentaciones tiene y cuál es la diferencia entre tabletas y suspensión?",
+      "a": "Existen tabletas o cápsulas de 250 mg, 500 mg y 1 g para adultos y niños mayores. La suspensión oral (líquida) viene en frascos de polvo que se mezclan con agua, en concentraciones de 125 mg/5mL o 250 mg/5mL. Es la presentación ideal para niños pequeños o personas con dificultad para tragar pastillas. La dosis activa es la misma, solo cambia la forma de administración."
+    },
+    {
+      "q": "¿La cefalexina interactúa con otros medicamentos comunes?",
+      "a": "Sí. Interactúa de forma importante con: 1) Anticoagulantes como la warfarina (aumenta el riesgo de sangrado), 2) El probenecid (aumenta los niveles de cefalexina), y 3) El metotrexato (aumenta su toxicidad). También, los antiácidos o suplementos con calcio, hierro o magnesio pueden reducir su absorción si se toman juntos; sepárelos por al menos 2 horas. Informe a su médico de TODOS los medicamentos que toma."
+    },
+    {
+      "q": "¿Puede la cefalexina causar infección por hongos (candidiasis)?",
+      "a": "Sí, es común. Al eliminar las bacterias 'buenas' y 'malas' del cuerpo, puede alterar el equilibrio natural, permitiendo que crezcan en exceso hongos como la Candida. Esto puede manifestarse como candidiasis vaginal (flujo blanco espeso y comezón) o candidiasis oral (algodoncillo, manchas blancas en la boca). Consulte a su médico si esto ocurre; puede necesitar un tratamiento antimicótico."
+    },
+    {
+      "q": "¿Cómo se ajusta la dosis de cefalexina en una persona con problemas de los riñones?",
+      "a": "Es MUY importante ajustar la dosis. El médico calculará su tasa de filtración glomerular (TFG) basándose en su creatinina en sangre, edad y peso. A menor función renal, menor será la dosis y mayor el intervalo entre dosis (ej. cada 12, 24 o 48 horas en lugar de cada 8). Esto previene la acumulación del medicamento y efectos tóxicos como convulsiones."
+    },
+    {
+      "q": "¿Qué es la colitis pseudomembranosa y cómo la relaciono con la cefalexina?",
+      "a": "Es una inflamación grave del colon causada por la bacteria Clostridioides difficile, que puede crecer cuando los antibióticos como la cefalexina eliminan la flora intestinal normal. Los síntomas son diarrea acuosa muy abundante (a veces con sangre), fiebre, calambres abdominales severos y deshidratación. Es una emergencia médica que requiere tratamiento específico (con otros antibióticos como metronidazol o vancomicina) y a veces hospitalización."
+    },
+    {
+      "q": "¿Por qué a veces la cefalexina no funciona para una infección de garganta?",
+      "a": "Puede no funcionar por varias razones: 1) La infección es viral (la mayoría de los dolores de garganta), no bacteriana. 2) La bacteria causante es resistente a la cefalexina (aunque es raro en estreptococos). 3) La dosis o duración del tratamiento fue incorrecta. 4) No se completó el tratamiento. Si no hay mejoría después de 48-72 horas, consulte a su médico para re-evaluación."
+    },
+    {
+      "q": "En el contexto de la resistencia bacteriana, ¿cuál es el papel actual de la cefalexina como terapia empírica en infecciones de la comunidad en México?",
+      "a": "La cefalexina sigue siendo una opción válida para terapia empírica (inicio del tratamiento antes de conocer el cultivo) en infecciones comunitarias no complicadas en México, como infecciones de piel por S. aureus sensible o infecciones urinarias por E. coli sensible. Sin embargo, debido al aumento global de la resistencia, es crucial basar la elección en guías locales de sensibilidad bacteriana. Para infecciones más graves o en entornos hospitalarios, su uso empírico es limitado, prefiriéndose cefalosporinas de espectro más amplio. Su mayor valor está en su perfil de seguridad, costo y administración oral."
+    }
+  ]
+}

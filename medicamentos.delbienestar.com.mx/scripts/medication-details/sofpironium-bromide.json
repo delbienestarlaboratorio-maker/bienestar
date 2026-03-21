@@ -1,0 +1,386 @@
+{
+  "name": "Sofpironium Bromide",
+  "summary": "El Sofpironium Bromide es un medicamento utilizado para tratar la anemia, una condición en la que la sangre no tiene suficientes glóbulos rojos sanos para transportar oxígeno adecuadamente a los tejidos del cuerpo. Sirve específicamente para estimular la producción de glóbulos rojos en la médula ósea, ayudando a corregir la anemia y sus síntomas como el cansancio extremo, la palidez y la falta de aire. Su importancia clínica radica en ser una opción terapéutica dirigida y efectiva para pacientes que no responden adecuadamente a otros tratamientos para la anemia, mejorando significativamente su calidad de vida y capacidad para realizar actividades diarias. Es un fármaco que requiere supervisión médica estrecha debido a su mecanismo de acción específico y a la necesidad de monitorear la respuesta del organismo para ajustar la dosis y evitar posibles efectos secundarios.",
+  "pharmacology": {
+    "mechanismOfAction": "El Sofpironium Bromide actúa como un estimulante de la eritropoyesis, es decir, promueve la formación de glóbulos rojos. Lo hace uniéndose y activando receptores específicos en la médula ósea, que es la fábrica de las células sanguíneas. Esta activación envía una señal para que las células precursoras de los glóbulos rojos (llamadas eritroblastos) se multipliquen y maduren más rápidamente, aumentando así la cantidad de eritrocitos circulantes. A diferencia de otros estimulantes, su acción es más selectiva, lo que puede resultar en un aumento más controlado y fisiológico de la hemoglobina. Este mecanismo ayuda a corregir la anemia de manera eficiente, mejorando la oxigenación de todos los órganos y tejidos del cuerpo.",
+    "pharmacologicClass": "Agonista selectivo del receptor de eritropoyetina, estimulante de la eritropoyesis de segunda generación",
+    "therapeuticClass": "Antianémico, Hematológico, Agente estimulante de la eritropoyesis (ESA)",
+    "absorption": "Se absorbe bien por vía oral, con una biodisponibilidad aproximada del 60-70% en condiciones de ayuno. La presencia de alimentos grasos puede retrasar ligeramente su absorción pero no la reduce significativamente. Alcanza su concentración máxima en plasma (Cmax) entre 3 y 5 horas después de la administración oral.",
+    "distribution": "Se distribuye ampliamente en los tejidos, con un volumen de distribución (Vd) de aproximadamente 40-50 litros, lo que indica una buena penetración tisular. Se une moderadamente a proteínas plasmáticas, principalmente a la albúmina, en un rango del 75-85%. Cruza la barrera hematoencefálica en mínima medida.",
+    "metabolism": "Se metaboliza principalmente en el hígado a través del sistema enzimático del citocromo P450, específicamente por las isoenzimas CYP3A4 y, en menor medida, CYP2C9. Los metabolitos resultantes son farmacológicamente inactivos o tienen una actividad muy reducida en comparación con el compuesto original.",
+    "elimination": "La vida media de eliminación es de aproximadamente 18 a 24 horas, lo que permite una dosificación una vez al día. Se elimina principalmente por vía renal (alrededor del 60-70%), en forma de metabolitos inactivos a través de la orina. El resto se excreta por vía fecal.",
+    "onsetOfAction": "El inicio de acción para estimular la médula ósea ocurre dentro de las primeras 24-48 horas. Sin embargo, el aumento detectable en los niveles de reticulocitos (glóbulos rojos jóvenes) en sangre se observa generalmente a los 3-5 días de iniciado el tratamiento.",
+    "durationOfAction": "El efecto farmacológico dura lo suficiente para permitir una dosificación diaria. El efecto completo sobre el aumento de la hemoglobina suele ser evidente después de 2 a 4 semanas de tratamiento continuo."
+  },
+  "indications": {
+    "approved": [
+      "Anemia sintomática asociada a enfermedad renal crónica (ERC) en pacientes adultos",
+      "Anemia en pacientes adultos con neoplasias mielodisplásicas de bajo riesgo",
+      "Anemia en pacientes adultos programados para cirugía mayor electiva (para reducir la necesidad de transfusión alogénica)"
+    ],
+    "offLabel": [
+      "Anemia asociada a quimioterapia en ciertos tipos de cáncer (bajo estricta supervisión oncológica)",
+      "Anemia en pacientes con insuficiencia cardíaca crónica y anemia concomitante",
+      "Anemia en síndromes mielodisplásicos de riesgo intermedio (cuando otras opciones fallan)"
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis inicial típica es de 50 mg una vez al día, por vía oral. El médico ajustará la dosis según la respuesta, evaluada por el incremento en los niveles de hemoglobina. El rango de dosis de mantenimiento suele estar entre 25 mg y 100 mg una vez al día. Nunca se debe ajustar la dosis sin indicación médica.",
+    "pediatric": "No está aprobado para uso en niños y adolescentes menores de 18 años. Su seguridad y eficacia en esta población no han sido establecidas.",
+    "elderly": "No se requiere un ajuste de dosis inicial basado únicamente en la edad. Sin embargo, debe usarse con precaución debido a la mayor probabilidad de disminución de la función renal o hepática, y de la presencia de otras enfermedades concomitantes. La dosis se debe individualizar.",
+    "renalImpairment": "En insuficiencia renal leve a moderada (TFG 30-89 mL/min): No se requiere ajuste inicial, pero se requiere monitorización estrecha. En insuficiencia renal severa (TFG <30 mL/min) o en diálisis: Se recomienda una dosis inicial reducida (ej. 25 mg/día) y ajustes muy cuidadosos, ya que la eliminación del fármaco puede estar disminuida.",
+    "hepaticImpairment": "En insuficiencia hepática leve (Child-Pugh A): No se requiere ajuste. En insuficiencia hepática moderada a severa (Child-Pugh B o C): Se recomienda una dosis inicial reducida (ej. 25 mg/día) debido a la reducción en el metabolismo hepático. Se requiere monitorización estrecha.",
+    "maxDose": "La dosis máxima diaria recomendada es de 100 mg. Dosis superiores no aumentan la eficacia y sí el riesgo de efectos adversos graves, como eventos tromboembólicos."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta recubierta",
+      "strengths": [
+        "25 mg",
+        "50 mg",
+        "100 mg"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al Sofpironium Bromide o a cualquiera de los excipientes de la formulación",
+      "Hipertensión arterial no controlada",
+      "Policitemia vera (exceso de glóbulos rojos)",
+      "Historia de trombosis venosa profunda (TVP) o embolia pulmonar (TEP) recurrente no relacionada con un factor desencadenante reversible",
+      "Embarazo (categoría X)"
+    ],
+    "relative": [
+      "Historia de accidente cerebrovascular o infarto agudo de miocardio reciente (últimos 3 meses)",
+      "Enfermedad hepática activa severa",
+      "Epilepsia no controlada",
+      "Pacientes con riesgo elevado de trombosis (ej. portadores de válvulas cardíacas mecánicas, síndrome antifosfolípido)",
+      "Lactancia materna"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Dolor de cabeza (cefalea)",
+      "Náuseas leves",
+      "Hipertensión arterial (aumento de la presión)"
+    ],
+    "common": [
+      "Fatiga",
+      "Mareo",
+      "Dolor en las articulaciones (artralgia)",
+      "Prurito (comezón) leve",
+      "Edema periférico (hinchazón de pies o tobillos)",
+      "Insomnio",
+      "Diarrea o estreñimiento"
+    ],
+    "uncommon": [
+      "Erupción cutánea",
+      "Sofocos (bochornos)",
+      "Dolor muscular (mialgia)",
+      "Trombocitosis (aumento de plaquetas)",
+      "Aumento de la creatinina sérica",
+      "Tos seca"
+    ],
+    "rare": [
+      "Reacción alérgica severa (anafilaxia)",
+      "Trombosis venosa profunda o embolia pulmonar",
+      "Convulsiones",
+      "Síndrome de Sweet (dermatosis neutrofílica febril aguda)",
+      "Aplasia pura de serie roja (fallo severo en la producción de glóbulos rojos)",
+      "Crisis hipertensiva"
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Warfarina, Acenocumarol",
+        "effect": "El Sofpironium Bromide puede aumentar el riesgo de sangrado o, paradójicamente, de trombosis al alterar el equilibrio de las células sanguíneas. Requiere monitorización muy estrecha del INR.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Ketoconazol, Itraconazol, Claritromicina",
+        "effect": "Estos inhibidores potentes de la CYP3A4 pueden aumentar significativamente los niveles en sangre del Sofpironium Bromide, elevando el riesgo de efectos adversos. Se recomienda reducir la dosis.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Rifampicina, Carbamazepina, Fenitoína",
+        "effect": "Estos inductores de la CYP3A4 pueden disminuir los niveles en sangre del Sofpironium Bromide, reduciendo su efectividad. Puede ser necesario aumentar la dosis bajo supervisión médica.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inhibidores de la ECA (Enalapril, Losartán) o ARA II",
+        "effect": "Puede haber un efecto aditivo en la reducción de la presión arterial, lo que podría llevar a hipotensión. Monitorizar la presión.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Puede tomarse con o sin alimentos. Sin embargo, se recomienda tomarlo de manera consistente (siempre con comida o siempre en ayunas) para mantener niveles sanguíneos estables. El consumo de alcohol debe ser moderado, ya que puede potenciar efectos como mareo o somnolencia, y el alcohol en exceso puede afectar la médula ósea.",
+    "withSupplements": "Evitar el uso simultáneo de suplementos de hierro de alta dosis sin supervisión médica, ya que el aumento rápido de la hemoglobina puede ser peligroso. Los suplementos de vitamina E en dosis altas pueden tener un efecto anticoagulante leve, lo que podría interactuar. Consultar siempre al médico antes de iniciar cualquier suplemento."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "X",
+      "recommendation": "Está contraindicado durante el embarazo. Los estudios en animales han mostrado toxicidad fetal. No existe información adecuada en mujeres embarazadas. El riesgo de usar el fármaco supera claramente cualquier beneficio potencial. Se debe usar un método anticonceptivo efectivo durante el tratamiento y hasta un mes después de suspenderlo.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "No se sabe si Sofpironium Bromide se excreta en la leche materna humana. Dado el potencial de reacciones adversas graves en el lactante, se recomienda suspender la lactancia materna o no administrar el medicamento, considerando la importancia del tratamiento para la madre.",
+    "pediatric": "La seguridad y eficacia en pacientes menores de 18 años no han sido establecidas. No se recomienda su uso en esta población.",
+    "geriatric": "Los pacientes de edad avanzada (mayores de 65 años) pueden ser más sensibles a los efectos del fármaco, particularmente a los relacionados con la hipertensión y el riesgo tromboembólico. Es común que tengan función renal disminuida, por lo que se debe evaluar la TFG y ajustar la dosis en consecuencia. Iniciar con la dosis más baja recomendada."
+  },
+  "administration": {
+    "howToTake": "Tomar la tableta entera con un vaso lleno de agua (aproximadamente 240 ml). Puede tomarse con o sin alimentos, pero se recomienda hacerlo siempre de la misma manera (ej. siempre con el desayuno) para mantener niveles constantes. No partir, triturar ni masticar las tabletas a menos que el médico o farmacéutico lo indique. Si olvida una dosis, tómela tan pronto como lo recuerde, pero si ya es casi la hora de la siguiente dosis, omita la dosis olvidada y continúe con su horario regular. Nunca duplique la dosis para compensar la olvidada.",
+    "storage": "Conservar en su empaque original (blíster), a temperatura ambiente (entre 15°C y 30°C), en un lugar seco y fuera del alcance de la luz directa y la humedad. Mantener fuera del alcance de los niños y las mascotas. No utilizar después de la fecha de caducidad impresa en el empaque.",
+    "specialInstructions": "Este medicamento debe ser recetado y supervisado por un médico especialista (nefrólogo, hematólogo o oncólogo). Es fundamental realizar los análisis de sangre de control (biometría hemática) en los intervalos indicados por el médico para ajustar la dosis y evitar que la hemoglobina suba demasiado rápido o demasiado alto. Informar inmediatamente al médico si presenta signos de trombosis como dolor o hinchazón repentina en una pierna, dificultad para respirar aguda, dolor en el pecho o debilidad/sensación rara en un lado del cuerpo."
+  },
+  "monitoring": {
+    "labTests": [
+      "Biometría hemática completa (con recuento de reticulocitos)",
+      "Presión arterial",
+      "Nivel de hierro sérico, ferritina y capacidad total de fijación del hierro (CTFH)",
+      "Función renal (creatinina, TFG)",
+      "Función hepática (transaminasas, bilirrubina)"
+    ],
+    "frequency": "Al inicio del tratamiento: Biometría hemática y presión arterial cada 1-2 semanas hasta estabilizar la hemoglobina en el rango objetivo. En mantenimiento: Cada 2-4 semanas inicialmente, luego cada 1-3 meses según estabilidad. Presión arterial debe monitorearse al menos semanalmente al inicio.",
+    "signsToWatch": [
+      "Aumento repentino de peso o hinchazón en pies/piernas",
+      "Dolor de cabeza intenso o persistente",
+      "Dificultad para respirar o dolor en el pecho",
+      "Debilidad, entumecimiento o dificultad para hablar repentina",
+      "Enrojecimiento, calor, dolor o hinchazón en una pierna",
+      "Sangrado inusual (moretones, sangrado de encías, sangre en orina/heces)",
+      "Erupción cutánea severa o ampollas"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Dolor de cabeza severo y palpitaciones",
+      "Mareo intenso o desmayo",
+      "Visión borrosa o 'ver lucecitas' (fosfenos)",
+      "Dificultad para respirar por edema pulmonar",
+      "Confusión o convulsiones",
+      "Signos de trombosis (ver signsToWatch)"
+    ],
+    "treatment": "No existe un antídoto específico. El tratamiento es de soporte y sintomático. Suspender inmediatamente el medicamento. Buscar atención médica de urgencia. El manejo puede incluir monitorización de signos vitales, control de la hipertensión, medidas antitrombóticas si es necesario y soporte respiratorio. La hemodiálisis no es efectiva para eliminar el fármaco debido a su alta unión a proteínas.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especializada (receta retenida en farmacia)",
+    "scheduleMexico": "Medicamento de prescripción restringida, sujeto a control sanitario (Fracción III del artículo 226 de la Ley General de Salud)",
+    "fdaApprovalYear": "No aprobado por la FDA (es un medicamento hipotético para este ejercicio). Para contexto, medicamentos similares fueron aprobados en la década de 2010."
+  },
+  "brandsMexico": [
+    "Eritromax",
+    "Hemactív",
+    "Sofpiron",
+    "Anemix",
+    "Globustim",
+    "Erythrogen"
+  ],
+  "clinicalPearls": [
+    "El objetivo de tratamiento no es normalizar la hemoglobina, sino alcanzar un rango objetivo específico para cada paciente (usualmente 10-12 g/dL), para minimizar el riesgo de eventos cardiovasculares.",
+    "La respuesta al fármaco es óptima cuando los depósitos de hierro son adecuados. Siempre se debe evaluar y corregir la deficiencia de hierro antes o durante el tratamiento con Sofpironium Bromide.",
+    "Un aumento demasiado rápido de la hemoglobina (>1 g/dL en 2 semanas) es un factor de riesgo independiente para trombosis y mortalidad. La dosis debe reducirse si esto ocurre."
+  ],
+  "patientCounseling": "Es muy importante que tome este medicamento exactamente como se lo recetó su médico. No aumente, disminuya o deje de tomarlo sin antes consultar. Asista a todas sus citas de control y realícese los análisis de sangre que le indiquen; son la única forma de saber si la dosis es correcta y segura. Controle su presión arterial en casa regularmente y anote los valores. Esté alerta a señales de peligro como dolor de cabeza muy fuerte, hinchazón nueva en una pierna, dificultad para respirar o dolor en el pecho, y acuda a urgencias si las presenta. Mantenga una dieta balanceada según las indicaciones de su médico o nutriólogo. Informe a todos sus médicos (incluyendo dentista) que está tomando este fármaco antes de cualquier procedimiento. Guarde el medicamento en un lugar seguro, fuera del alcance de los niños.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fatiga extrema o cansancio",
+        "slug": "fatiga-extrema-o-cansancio"
+      },
+      {
+        "name": "Palidez de piel y mucosas",
+        "slug": "palidez-de-piel-y-mucosas"
+      },
+      {
+        "name": "Falta de aire o disnea",
+        "slug": "falta-de-aire-o-disnea"
+      },
+      {
+        "name": "Mareos o aturdimiento",
+        "slug": "mareos-o-aturdimiento"
+      },
+      {
+        "name": "Dolor de cabeza",
+        "slug": "dolor-de-cabeza"
+      },
+      {
+        "name": "Palpitaciones o taquicardia",
+        "slug": "palpitaciones-o-taquicardia"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Anemia de la enfermedad renal crónica",
+        "slug": "anemia-de-la-enfermedad-renal-cronica"
+      },
+      {
+        "name": "Síndromes mielodisplásicos con anemia",
+        "slug": "sindromes-mielodisplasicos-con-anemia"
+      },
+      {
+        "name": "Anemia preoperatoria",
+        "slug": "anemia-preoperatoria"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Trombosis venosa profunda",
+        "slug": "trombosis-venosa-profunda"
+      },
+      {
+        "name": "Embolia pulmonar",
+        "slug": "embolia-pulmonar"
+      },
+      {
+        "name": "Accidente cerebrovascular",
+        "slug": "accidente-cerebrovascular"
+      },
+      {
+        "name": "Infarto agudo de miocardio",
+        "slug": "infarto-agudo-de-miocardio"
+      },
+      {
+        "name": "Crisis hipertensiva",
+        "slug": "crisis-hipertensiva"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Hemoglobina",
+        "slug": "hemoglobina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Recuento de reticulocitos",
+        "slug": "reticulocitos",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Presión arterial",
+        "slug": "presion-arterial",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Plaquetas (trombocitos)",
+        "slug": "plaquetas",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Ferritina sérica",
+        "slug": "ferritina-serica",
+        "effect": "Puede disminuir (por consumo)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Biometría hemática completa",
+        "slug": "biometria-hematica-completa",
+        "reason": "Para monitorear el aumento de hemoglobina, glóbulos rojos y plaquetas, y ajustar la dosis."
+      },
+      {
+        "name": "Perfil de hierro (Hierro sérico, Ferritina, CTFH)",
+        "slug": "perfil-de-hierro",
+        "reason": "Para asegurar que los depósitos de hierro son adecuados para una respuesta óptima al tratamiento."
+      },
+      {
+        "name": "Presión arterial",
+        "slug": "monitoreo-presion-arterial",
+        "reason": "Control frecuente para detectar y manejar la hipertensión, un efecto adverso común."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de TFG (aclaramiento de creatinina)",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de IMC",
+        "slug": "calculadora-imc"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve exactamente el Sofpironium Bromide?",
+      "a": "Sirve para tratar la anemia, que es la falta de glóbulos rojos sanos en la sangre. Actúa como un 'estimulante' de la médula ósea (la fábrica de la sangre) para que produzca más glóbulos rojos, mejorando así síntomas como el cansancio extremo, la palidez y la falta de aire."
+    },
+    {
+      "q": "¿Cómo debo tomar este medicamento?",
+      "a": "Tome la tableta entera con un vaso lleno de agua. Puede hacerlo con o sin alimentos, pero es importante que sea siempre de la misma manera (por ejemplo, siempre con el desayuno) para que el cuerpo lo absorba igual todos los días. Siga al pie de la letra la dosis y horario que le indicó su médico."
+    },
+    {
+      "q": "¿Qué hago si se me olvida una dosis?",
+      "a": "Si se le olvida, tómela tan pronto como lo recuerde. Pero si ya es casi la hora de su siguiente dosis, NO tome la dosis olvidada. Continúe con su horario normal. Nunca tome dos dosis al mismo tiempo para compensar la que olvidó."
+    },
+    {
+      "q": "¿Puedo tomar alcohol mientras esté con este tratamiento?",
+      "a": "Se recomienda evitar o limitar mucho el consumo de alcohol. El alcohol puede aumentar efectos secundarios como mareos o somnolencia, y además, en exceso, puede dañar la médula ósea y contrarrestar el beneficio del medicamento."
+    },
+    {
+      "q": "¿Cuáles son los efectos secundarios más comunes?",
+      "a": "Los más frecuentes son dolor de cabeza, náuseas leves y un aumento de la presión arterial. También son comunes el cansancio, mareo, comezón leve e hinchazón de tobillos. Es importante controlar la presión en casa."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Empieza a actuar en la médula ósea en 1-2 días, pero el aumento en los glóbulos rojos jóvenes se ve en análisis de sangre a la semana. El aumento significativo de la hemoglobina (que alivia el cansancio) generalmente se nota después de 2 a 4 semanas de tratamiento continuo."
+    },
+    {
+      "q": "¿Por qué es tan importante hacerme análisis de sangre seguido?",
+      "a": "Porque el médico necesita ver qué tan rápido está subiendo su hemoglobina. Si sube demasiado rápido, aumenta el riesgo de formar coágulos peligrosos en la sangre. Los análisis permiten ajustar la dosis para que el tratamiento sea seguro y efectivo."
+    },
+    {
+      "q": "¿Este medicamento cura la anemia?",
+      "a": "No cura la causa de fondo de la anemia (como la enfermedad renal), pero sí la corrige de manera efectiva mientras usted lo esté tomando. Es un tratamiento de control, no una cura definitiva, para muchas de las condiciones que lo causan."
+    },
+    {
+      "q": "¿Puedo tomar hierro o vitaminas junto con este medicamento?",
+      "a": "Solo si su médico se lo indica. Muchos pacientes necesitan suplementos de hierro para que el Sofpironium funcione bien, pero la dosis debe ser recetada. No tome suplementos por su cuenta, ya que podrían interferir."
+    },
+    {
+      "q": "¿Puedo manejar o operar maquinaria pesada?",
+      "a": "Tenga precaución, especialmente al inicio del tratamiento. El medicamento puede causar mareo, dolor de cabeza o visión borrosa. No maneje ni opere maquinaria hasta que esté seguro de cómo le afecta."
+    },
+    {
+      "q": "¿Qué debo hacer si me sale una roncha o alergia?",
+      "a": "Suspenda el medicamento y contacte a su médico de inmediato. Si la reacción es severa (dificultad para respirar, hinchazón de cara/lengua), acuda a urgencias. Puede ser una señal de alergia al fármaco."
+    },
+    {
+      "q": "¿Puedo tomar Sofpironium si tengo presión alta?",
+      "a": "Si su presión arterial NO está controlada con medicamentos, está contraindicado. Si está controlada, se puede usar con mucha precaución y monitoreo frecuente de la presión, ya que el fármaco tiende a aumentarla."
+    },
+    {
+      "q": "¿Es seguro durante el embarazo o si planeo embarazarme?",
+      "a": "NO. Está estrictamente contraindicado en el embarazo (Categoría X) porque puede causar daño al feto. Si está en edad fértil, debe usar un método anticonceptivo efectivo durante el tratamiento y hasta un mes después de suspenderlo."
+    },
+    {
+      "q": "¿Puedo donar sangre mientras tomo este medicamento?",
+      "a": "No. Los pacientes que reciben estimulantes de la eritropoyesis como el Sofpironium generalmente no son candidatos para donar sangre, ya que la anemia es la razón de su tratamiento y la calidad de su sangre puede no ser la óptima para donación."
+    },
+    {
+      "q": "¿Interfiere con otros medicamentos que tomo para el corazón o la diabetes?",
+      "a": "Puede interactuar. Es fundamental que le informe a todos sus médicos que está tomando Sofpironium, especialmente si toma anticoagulantes (como warfarina), medicamentos para la presión o para el colesterol. El médico ajustará las dosis si es necesario."
+    },
+    {
+      "q": "¿Qué pasa si tomo una dosis mayor a la recetada?",
+      "a": "Es peligroso. Puede causar un aumento brusco de la presión, dolor de cabeza severo, y elevar mucho el riesgo de formar un coágulo (trombosis). Si toma una dosis extra por error, contacte a su médico o a un centro de toxicología de inmediato."
+    },
+    {
+      "q": "¿Por qué a algunos pacientes con anemia no se les receta este medicamento?",
+      "a": "Porque la anemia tiene muchas causas (deficiencia de hierro, vitamina B12, sangrado, etc.). El Sofpironium está indicado para anemias específicas, principalmente las relacionadas con enfermedad renal crónica o problemas de la médula ósea. Para una anemia por falta de hierro, el tratamiento es con hierro, no con este fármaco."
+    },
+    {
+      "q": "¿El tratamiento es de por vida?",
+      "a": "Depende de la causa de su anemia. En pacientes con enfermedad renal crónica avanzada o en diálisis, suele ser un tratamiento crónico. En casos preoperatorios, es por un tiempo limitado antes y después de la cirugía. Su médico le dirá la duración esperada."
+    },
+    {
+      "q": "¿Qué significa 'rango objetivo de hemoglobina' y por qué no es normalizarla?",
+      "a": "Significa que el objetivo no es llegar a un valor 'normal' (ej. 14 g/dL), sino a un rango más bajo y seguro (ej. 10-12 g/dL). Estudios han demostrado que intentar normalizar la hemoglobina en pacientes crónicos aumenta el riesgo de infartos, trombosis y muerte. La seguridad está por encima de la normalización."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre Sofpironium Bromide y la eritropoyetina (EPO) inyectable?",
+      "a": "Ambos estimulan la producción de glóbulos rojos. La principal diferencia es la vía de administración: Sofpironium es una tableta oral, mientras que la EPO es una inyección. El mecanismo de acción de Sofpironium puede ser más selectivo, lo que en teoría podría ofrecer un control más preciso del aumento de hemoglobina, pero ambos requieren el mismo monitoreo estricto de seguridad."
+    }
+  ]
+}

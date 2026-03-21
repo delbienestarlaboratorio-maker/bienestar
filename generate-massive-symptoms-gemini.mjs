@@ -20,11 +20,10 @@ if (!GEMINI_API_KEY) {
 // Inicializar la API de Gemini (Usamos 1.5-flash por su excelente manejo de JSON y velocidad masiva)
 const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
 const model = genAI.getGenerativeModel({
-    model: "gemini-1.5-flash",
+    model: "gemini-2.0-flash",
     // Aseguramos formato JSON para evitar que invente markdown
     generationConfig: {
-        temperature: 0.1, // Baja temperatura para precisión clínica
-        responseMimeType: "application/json",
+        temperature: 0.1 // Baja temperatura para precisión clínica
     }
 });
 
@@ -77,12 +76,25 @@ Ejemplo de formato: ["Dolor de pecho", "Palpitaciones", "Hipertensión", "Soplo 
         `;
         const result = await model.generateContent(prompt);
         const text = result.response.text();
-        const lista = JSON.parse(text);
+        const lista = parseAIJson(text);
         return Array.isArray(lista) ? lista : [];
     } catch (e) {
         console.error(`❌ Error generando semillas para ${specialty}:`, e.message);
         return [];
     }
+}
+
+// Helper to reliably parse AI Json
+function parseAIJson(text) {
+    let cleanText = text.trim();
+    if (cleanText.startsWith('```json')) {
+        cleanText = cleanText.substring(7);
+        if (cleanText.endsWith('```')) cleanText = cleanText.slice(0, -3);
+    } else if (cleanText.startsWith('```')) {
+        cleanText = cleanText.substring(3);
+        if (cleanText.endsWith('```')) cleanText = cleanText.slice(0, -3);
+    }
+    return JSON.parse(cleanText.trim());
 }
 
 async function generateClinicalDetailForSymptom(symptomName) {
@@ -91,7 +103,7 @@ Eres un historiador médico, editor clínico experto y director de un importante
 Tu tarea es generar documentación SUPER EXTENSA, enciclopédica y fascinante (más de 1,000 palabras) sobre el síntoma o padecimiento: "${symptomName}".
 
 REGLAS ESTRICTAS:
-1. Retorna ÚNICAMENTE un objeto JSON válido acorde al esquema.
+1. Retorna ÚNICAMENTE un objeto JSON válido acorde al esquema. No Markdown.
 2. Sigue EXACTAMENTE esta estructura y llaves:
 ${JSON.stringify(schemaExample, null, 2)}
 
@@ -105,7 +117,7 @@ ${JSON.stringify(schemaExample, null, 2)}
     try {
         const result = await model.generateContent(prompt);
         const text = result.response.text();
-        const jsonData = JSON.parse(text);
+        const jsonData = parseAIJson(text);
         return jsonData;
     } catch (e) {
         console.error(`❌ Error clínico generando [${symptomName}]:`, e.message);
@@ -137,9 +149,9 @@ async function runMassivePipeline() {
 
         // 2. Iterar sobre cada uno
         for (const symptom of sypmtomsList) {
-            // Detener si llegamos al tope (ejemplo 1000)
-            if (massiveDB.length >= 1000) {
-                console.log(`\n🎉 ¡MISIÓN COMPLIDA! Se han alcanzado los 1000 padecimientos enciclopédicos.`);
+            // Detener si llegamos al tope (ejemplo 3500)
+            if (massiveDB.length >= 5000) {
+                console.log(`\n🎉 ¡MISIÓN COMPLIDA! Se han alcanzado los 5000 padecimientos enciclopédicos.`);
                 return;
             }
 

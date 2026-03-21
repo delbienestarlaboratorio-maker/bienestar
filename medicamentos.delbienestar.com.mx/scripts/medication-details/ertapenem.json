@@ -1,0 +1,403 @@
+{
+  "name": "Ertapenem",
+  "summary": "El ertapenem es un antibiótico de la familia de los carbapenémicos, utilizado para combatir infecciones graves causadas por bacterias. Se administra por inyección en el músculo o por vía intravenosa (directo a la vena) y es especialmente útil cuando otros antibióticos más comunes no funcionan o cuando se trata de infecciones complejas adquiridas en el hospital o en la comunidad. Su importancia clínica radica en su amplio espectro de acción, lo que significa que puede eliminar una gran variedad de bacterias, incluyendo algunas que son resistentes a otros medicamentos. Es una herramienta poderosa que los médicos reservan para situaciones específicas y graves, como infecciones abdominales complicadas, neumonías, infecciones de la piel y tejidos blandos, e infecciones urinarias complicadas, con el fin de evitar que las bacterias desarrollen resistencia a él. Su uso debe ser supervisado estrechamente por un profesional de la salud.",
+  "pharmacology": {
+    "mechanismOfAction": "El ertapenem actúa interfiriendo con la síntesis de la pared celular de las bacterias, una estructura esencial para su supervivencia. Pertenece a la clase de los antibióticos betalactámicos, específicamente a los carbapenémicos. Su mecanismo principal es inhibir las enzimas llamadas proteínas fijadoras de penicilina (PBP, por sus siglas en inglés), que son cruciales para el entrecruzamiento de los peptidoglicanos, los componentes que dan fuerza y rigidez a la pared bacteriana. Al bloquear estas enzimas, el ertapenem impide que la bacteria construya y repare su pared celular de manera adecuada. Esto debilita la estructura de la bacteria, provocando que se hinche y finalmente se rompa (lisis), lo que lleva a su muerte. Es especialmente activo porque es resistente a la degradación por muchas betalactamasas, que son enzimas que producen algunas bacterias para inactivar a otros antibióticos como las penicilinas y cefalosporinas.",
+    "pharmacologicClass": "Antibiótico carbapenémico, antibiótico betalactámico.",
+    "therapeuticClass": "Antibiótico de amplio espectro, agente antinfeccioso sistémico.",
+    "absorption": "No se absorbe por vía oral. Cuando se administra por vía intramuscular, la absorción es lenta pero completa, con una biodisponibilidad de aproximadamente 90%. La concentración máxima en sangre (Cmax) se alcanza en aproximadamente 2.3 horas después de una inyección intramuscular.",
+    "distribution": "Se distribuye ampliamente en los tejidos y fluidos corporales. Se une moderadamente a proteínas plasmáticas, principalmente a la albúmina, en un porcentaje de aproximadamente 85-95%. Su volumen de distribución en estado estacionario es de aproximadamente 0.12 L/kg en adultos, indicando una distribución principalmente en el espacio plasmático y el líquido extracelular. Penetra bien en líquidos como el peritoneal, intersticial y biliar.",
+    "metabolism": "El ertapenem no se metaboliza significativamente en el hígado. No es un sustrato, inhibidor o inductor significativo del sistema enzimático del citocromo P450 (CYP). Su metabolismo es mínimo; se hidroliza en el anillo betalactámico para formar un metabolito inactivo. La vía principal de eliminación no implica transformación metabólica hepática compleja.",
+    "elimination": "Se elimina principalmente por los riñones sin cambios. Aproximadamente el 80% de la dosis se excreta en la orina, de la cual alrededor del 38% es fármaco sin cambios y el resto es el metabolito inactivo de hidrólisis del anillo betalactámico. Una pequeña porción (alrededor del 10%) se excreta en las heces. Su vida media de eliminación en adultos con función renal normal es de aproximadamente 4 horas, lo que permite una administración una vez al día.",
+    "onsetOfAction": "Las concentraciones antibacterianas en sangre se alcanzan rápidamente después del inicio de la infusión intravenosa (en 30 minutos) o tras la absorción de la inyección intramuscular (en unas 2-3 horas). El efecto bactericida (muerte de bacterias) comienza poco después de que se alcanzan concentraciones suficientes en el sitio de la infección.",
+    "durationOfAction": "Debido a su vida media de aproximadamente 4 horas y su efecto post-antibiótico (capacidad de seguir suprimiendo el crecimiento bacteriano incluso después de que la concentración del fármaco cae por debajo del nivel mínimo inhibitorio), la dosificación de una vez al día es efectiva para mantener concentraciones terapéuticas durante 24 horas para muchas bacterias sensibles."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones intraabdominales complicadas (apendicitis complicada, peritonitis, abscesos intraabdominales)",
+      "Infecciones de la piel y estructuras de la piel complicadas (celulitis extensa, infecciones de herida quirúrgica, úlceras infectadas)",
+      "Neumonía adquirida en la comunidad (bacteriana, de moderada a grave)",
+      "Infecciones del tracto urinario complicadas (incluyendo pielonefritis)",
+      "Profilaxis de infecciones posteriores a cirugía colorrectal electiva"
+    ],
+    "offLabel": [
+      "Tratamiento de infecciones por bacterias multirresistentes susceptibles (cuando otras opciones son limitadas)",
+      "Infecciones osteoarticulares (osteomielitis, artritis séptica) por organismos susceptibles",
+      "Tratamiento empírico de neutropenia febril en algunos protocolos (aunque no es de primera línea)"
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis habitual para adultos y adolescentes mayores de 13 años es de 1 gramo (1000 mg) administrado una vez al día. Se puede administrar por infusión intravenosa (IV) durante 30 minutos o por inyección intramuscular (IM) profunda. La duración del tratamiento depende del tipo y gravedad de la infección, generalmente de 3 a 14 días.",
+    "pediatric": "Para niños de 3 meses a 12 años: 15 mg/kg dos veces al día (cada 12 horas), con una dosis máxima de 1 gramo al día. Para niños de 13 años y mayores: se usa la dosis de adulto de 1 gramo una vez al día. La vía es intravenosa o intramuscular.",
+    "elderly": "No se requiere un ajuste de dosis inicial basado únicamente en la edad avanzada. Sin embargo, es común que los adultos mayores tengan una función renal disminuida, por lo que la dosis debe ajustarse según el aclaramiento de creatinina (CrCl).",
+    "renalImpairment": "Ajustes necesarios según el aclaramiento de creatinina (CrCl): CrCl >30 mL/min/1.73m²: 1 gramo cada 24 horas. CrCl ≤30 mL/min/1.73m² (incluyendo pacientes en diálisis): 500 mg cada 24 horas. Para pacientes en hemodiálisis, si la dosis se administra en un día de diálisis, se debe dar después de la sesión. No se elimina significativamente por diálisis peritoneal.",
+    "hepaticImpairment": "No se requieren ajustes de dosis en pacientes con insuficiencia hepática leve a moderada. No hay datos suficientes para recomendar un ajuste en insuficiencia hepática grave, pero no se espera que sea necesario dado su metabolismo hepático mínimo.",
+    "maxDose": "La dosis máxima diaria recomendada es de 1 gramo (1000 mg) en pacientes con función renal normal. En insuficiencia renal grave, la dosis máxima es de 500 mg cada 24 horas."
+  },
+  "dosageForms": [
+    {
+      "form": "Polvo liofilizado para solución inyectable",
+      "strengths": [
+        "500 mg",
+        "1 g"
+      ],
+      "route": "Intramuscular, Intravenosa"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad (alergia) conocida al ertapenem, a otros carbapenémicos (imipenem, meropenem, doripenem), a otros antibióticos betalactámicos (penicilinas, cefalosporinas) o a cualquier componente de la formulación, si la reacción ha sido grave (anafilaxia).",
+      "Pacientes que han presentado reacciones anafilácticas a cualquier antibiótico betalactámico."
+    ],
+    "relative": [
+      "Pacientes con trastornos convulsivos o con factores de riesgo para convulsiones (lesión cerebral, accidente cerebrovascular).",
+      "Pacientes con insuficiencia renal grave (ajuste de dosis obligatorio, no contraindicación absoluta).",
+      "Pacientes con diarrea asociada a Clostridioides difficile previa o actual."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Diarrea",
+      "Náuseas",
+      "Dolor de cabeza",
+      "Flebitis o irritación en el sitio de la inyección intravenosa"
+    ],
+    "common": [
+      "Vómitos",
+      "Dolor abdominal",
+      "Estreñimiento",
+      "Sabor metálico o desagradable en la boca",
+      "Mareos",
+      "Somnolencia",
+      "Insomnio",
+      "Erupción cutánea (rash)",
+      "Prurito (comezón)",
+      "Dolor, induración o inflamación en el sitio de la inyección intramuscular"
+    ],
+    "uncommon": [
+      "Convulsiones",
+      "Confusión",
+      "Ansiedad",
+      "Temblor",
+      "Hipotensión (presión baja)",
+      "Taquicardia (ritmo cardíaco acelerado)",
+      "Disfunción hepática (aumento de transaminasas)",
+      "Candidiasis vaginal (infección por hongos)",
+      "Colitis pseudomembranosa (diarrea grave por C. difficile)",
+      "Trombocitopenia (disminución de plaquetas)",
+      "Eosinofilia (aumento de eosinófilos)"
+    ],
+    "rare": [
+      "Anafilaxia (reacción alérgica grave)",
+      "Síndrome de Stevens-Johnson o necrólisis epidérmica tóxica (erupciones cutáneas graves)",
+      "Agranulocitosis (disminución grave de glóbulos blancos)",
+      "Anemia hemolítica",
+      "Alucinaciones",
+      "Pérdida auditiva",
+      "Insuficiencia renal aguda"
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Probenecid",
+        "effect": "El probenecid inhibe la secreción tubular renal del ertapenem, lo que aumenta sus concentraciones en sangre y prolonga su vida media. No se recomienda la administración conjunta.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Valproato sódico / Ácido valproico",
+        "effect": "El ertapenem puede disminuir drásticamente los niveles sanguíneos de valproato, aumentando el riesgo de convulsiones en pacientes epilépticos. Es una interacción grave que requiere monitorización estrecha o cambio de terapia antiepiléptica.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Otros fármacos que reducen el umbral convulsivo (ej. fluoroquinolonas, antidepresivos tricíclicos)",
+        "effect": "Puede haber un efecto aditivo, aumentando el riesgo de convulsiones. Se requiere precaución.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "No hay interacciones clínicamente significativas con alimentos. El medicamento se administra por vía parenteral (inyección), por lo que los alimentos no afectan su absorción. No se debe consumir alcohol durante el tratamiento, ya que puede aumentar el riesgo de efectos secundarios como náuseas y mareos, y no es compatible con un estado de enfermedad grave.",
+    "withSupplements": "No se han reportado interacciones significativas con suplementos vitamínicos o herbales comunes. Sin embargo, se debe informar al médico sobre cualquier suplemento que se esté tomando."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "B",
+      "recommendation": "Los estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. Debe usarse durante el embarazo solo si claramente es necesario, después de que el médico evalúe cuidadosamente los beneficios para la madre versus los riesgos potenciales para el feto.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se desconoce si el ertapenem se excreta en la leche materna humana. Debido al potencial de efectos adversos graves en el lactante, como alteración de la flora intestinal y riesgo de sensibilización, se debe decidir si suspender la lactancia o suspender el fármaco, considerando la importancia del medicamento para la madre. Se recomienda precaución.",
+    "pediatric": "Seguro y efectivo para niños a partir de los 3 meses de edad. Las dosis se calculan por peso corporal. La seguridad en menores de 3 meses no está establecida.",
+    "geriatric": "Los pacientes de edad avanzada (65 años o más) tienen mayor probabilidad de tener función renal disminuida. Es esencial calcular el aclaramiento de creatinina y ajustar la dosis en consecuencia para evitar toxicidad por acumulación. También pueden ser más susceptibles a efectos adversos como diarrea o confusión."
+  },
+  "administration": {
+    "howToTake": "El ertapenem es un medicamento inyectable que SOLO debe ser administrado por un profesional de la salud en un entorno clínico (hospital, clínica, consultorio con capacidad para infusiones). Se prepara disolviendo el polvo en un líquido específico (agua para inyección, solución salina). Para la vía intravenosa (IV), la solución se infunde lentamente en una vena durante 30 minutos. Para la vía intramuscular (IM), se inyecta profundamente en un músculo grande (glúteo o muslo), a veces con anestésico local para reducir el dolor. El paciente no debe auto-administrárselo.",
+    "storage": "El vial de polvo liofilizado sin reconstituir debe almacenarse a temperatura ambiente (hasta 25°C), protegido de la luz. Una vez reconstituido y diluido para infusión IV, la solución es estable a temperatura ambiente por 6 horas, o por 24 horas si se refrigera (2-8°C). La solución para inyección IM debe usarse inmediatamente después de su preparación.",
+    "specialInstructions": "La solución para inyección intramuscular NUNCA debe administrarse por vía intravenosa. La solución intravenosa NO debe mezclarse con otras soluciones que contengan dextrosa (azúcar) ni administrarse simultáneamente con otros medicamentos a través del mismo catéter, a menos que se haya verificado la compatibilidad. Es fundamental completar todo el tratamiento prescrito, incluso si el paciente se siente mejor, para evitar recaídas y desarrollo de resistencia bacteriana."
+  },
+  "monitoring": {
+    "labTests": [
+      "Recuento sanguíneo completo (CSC) con diferencial",
+      "Pruebas de función renal (creatinina sérica, nitrógeno ureico en sangre - BUN)",
+      "Pruebas de función hepática (transaminasas AST/ALT, bilirrubina)",
+      "Cultivos bacterianos y pruebas de sensibilidad (antibiograma) del sitio de infección",
+      "Niveles de valproato (si el paciente lo toma concurrentemente)"
+    ],
+    "frequency": "El monitoreo de la función renal y hepática debe realizarse al inicio del tratamiento y periódicamente durante terapias prolongadas (más de 7-10 días). Los signos clínicos deben evaluarse diariamente.",
+    "signsToWatch": [
+      "Signos de reacción alérgica: urticaria, dificultad para respirar, hinchazón de cara/labios/lengua",
+      "Diarrea acuosa o con sangre, dolor abdominal intenso o fiebre (posible colitis por C. difficile)",
+      "Convulsiones, temblores, confusión o somnolencia extrema",
+      "Erupción cutánea grave o ampollas",
+      "Dolor o enrojecimiento severo en el sitio de la inyección",
+      "Sangrado o moretones inusuales"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "En caso de sobredosis, se esperaría una exageración de los efectos adversos conocidos, especialmente: convulsiones, confusión severa, somnolencia profunda, movimientos musculares involuntarios (mioclonías) y posiblemente exacerbación de síntomas gastrointestinales como náuseas y diarrea."
+    ],
+    "treatment": "No existe un antídoto específico. El tratamiento es de soporte y sintomático. En caso de convulsiones, se administran anticonvulsivantes. El ertapenem se elimina por hemodiálisis, por lo que en casos de sobredosis grave con insuficiencia renal, la hemodiálisis puede ayudar a eliminar el fármaco del torrente sanguíneo. Se debe mantener la hidratación y las funciones vitales.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (antibiótico de uso restringido, generalmente para uso hospitalario o bajo supervisión estrecha).",
+    "scheduleMexico": "Medicamento de la Fracción IV (F-IV) del Cuadro Básico de Medicamentos, sujeto a prescripción médica y control sanitario.",
+    "fdaApprovalYear": "2001"
+  },
+  "brandsMexico": [
+    "Invanz",
+    "Ertacil",
+    "Ertapenem Sandoz",
+    "Ertapenem Pisa",
+    "Ertapenem MK",
+    "Ertapenem Liomont"
+  ],
+  "clinicalPearls": [
+    "El ertapenem tiene un espectro que cubre bacterias grampositivas, gramnegativas y anaerobias, pero NO es activo contra Pseudomonas aeruginosa ni Enterococcus faecalis, a diferencia de otros carbapenémicos como el meropenem.",
+    "Su dosificación de una vez al día (24h) es una ventaja significativa para tratamientos ambulatorios con antibióticos intravenosos (TAAI), reduciendo costos y mejorando la calidad de vida del paciente.",
+    "La interacción con el valproato es crítica: puede reducir los niveles de valproato en más de un 50% en 2 días, poniendo al paciente epiléptico en alto riesgo de crisis. Se debe evitar la combinación o monitorizar niveles de valproato muy de cerca.",
+    "Para la inyección intramuscular, la dilución debe hacerse con agua para inyección y lidocaína al 1% (sin epinefrina) para reducir el dolor. Nunca usar esta mezcla para vía intravenosa.",
+    "Es un fármaco de 'reserva', por lo que su uso debe estar justificado para evitar la selección de bacterias resistentes a los carbapenémicos."
+  ],
+  "patientCounseling": "Es muy importante que comprenda que este es un antibiótico fuerte que se usa para infecciones graves. Usted recibirá la inyección diaria por parte de una enfermera o médico. Informe de inmediato cualquier signo de alergia como ronchas, dificultad para respirar o hinchazón. La diarrea es común, pero si se vuelve muy líquida, con sangre o con mucho dolor abdominal, avise, ya que podría ser una infección intestinal grave. Complete TODO el tratamiento, aunque se sienta mejor en unos días, para asegurar que la infección desaparezca por completo y evitar que regrese. Informe a su médico si tiene historial de convulsiones o si toma medicamentos para la epilepsia (como ácido valproico). No consuma alcohol durante el tratamiento. Asista a todas sus citas para que el médico pueda evaluar su evolución y realizar los análisis de sangre necesarios.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre",
+        "slug": "fiebre"
+      },
+      {
+        "name": "Dolor abdominal intenso",
+        "slug": "dolor-abdominal"
+      },
+      {
+        "name": "Escalofríos",
+        "slug": "escalofrios"
+      },
+      {
+        "name": "Tos con flemas purulentas",
+        "slug": "tos-con-flemas"
+      },
+      {
+        "name": "Dolor o ardor al orinar",
+        "slug": "disuria"
+      },
+      {
+        "name": "Enrojecimiento y calor en la piel",
+        "slug": "eritema-calor-piel"
+      },
+      {
+        "name": "Hinchazón localizada",
+        "slug": "edema-localizado"
+      },
+      {
+        "name": "Secreción purulenta de herida",
+        "slug": "secrecion-purulenta"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Peritonitis",
+        "slug": "peritonitis"
+      },
+      {
+        "name": "Neumonía adquirida en la comunidad",
+        "slug": "neumonia-comunitaria"
+      },
+      {
+        "name": "Pielonefritis",
+        "slug": "pielonefritis"
+      },
+      {
+        "name": "Celulitis infecciosa",
+        "slug": "celulitis"
+      },
+      {
+        "name": "Absceso intraabdominal",
+        "slug": "absceso-intraabdominal"
+      },
+      {
+        "name": "Infección de herida quirúrgica",
+        "slug": "infeccion-herida-quirurgica"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Colitis pseudomembranosa por C. difficile",
+        "slug": "colitis-pseudomembranosa"
+      },
+      {
+        "name": "Convulsiones",
+        "slug": "convulsiones"
+      },
+      {
+        "name": "Insuficiencia renal aguda",
+        "slug": "insuficiencia-renal-aguda"
+      },
+      {
+        "name": "Reacción anafiláctica",
+        "slug": "anafilaxia"
+      },
+      {
+        "name": "Síndrome de Stevens-Johnson",
+        "slug": "sindrome-stevens-johnson"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Transaminasas (AST/ALT)",
+        "slug": "transaminasas",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Recuento de plaquetas",
+        "slug": "plaquetas",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Eosinófilos",
+        "slug": "eosinofilos",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Nivel de valproato sérico",
+        "slug": "valproato-sérico",
+        "effect": "Disminuye drásticamente"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Cultivo y antibiograma",
+        "slug": "cultivo-antibiograma",
+        "reason": "Identificar la bacteria causante y confirmar su sensibilidad al ertapenem."
+      },
+      {
+        "name": "Aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina",
+        "reason": "Determinar la función renal para ajustar la dosis correctamente."
+      },
+      {
+        "name": "Biometría hemática completa",
+        "slug": "biometria-hematica",
+        "reason": "Monitorear posibles efectos en células sanguíneas como plaquetas y eosinófilos."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de aclaramiento de creatinina (Cockcroft-Gault)",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿El ertapenem es una penicilina?",
+      "a": "No es una penicilina, pero está relacionado. Ambos son antibióticos 'betalactámicos'. El ertapenem pertenece a un subgrupo más nuevo y de espectro más amplio llamado carbapenémicos. Si es alérgico a la penicilina, existe un riesgo de reacción cruzada, por lo que debe informarlo a su médico antes de recibirlo."
+    },
+    {
+      "q": "¿Duele la inyección de ertapenem?",
+      "a": "La inyección intramuscular puede ser dolorosa. Por eso, a menudo se mezcla con un anestésico local (como lidocaína) para reducir el dolor. La infusión intravenosa generalmente no duele, pero puede causar irritación en la vena si se administra muy rápido."
+    },
+    {
+      "q": "¿Puedo beber alcohol mientras me inyectan ertapenem?",
+      "a": "No se recomienda. El alcohol puede debilitar su sistema inmunológico y dificultar la recuperación. Además, puede empeorar efectos secundarios como náuseas, mareos o somnolencia."
+    },
+    {
+      "q": "¿Cuánto tiempo dura el tratamiento usualmente?",
+      "a": "Depende de la infección. Puede ser desde 3 días para una profilaxis quirúrgica hasta 10-14 días o más para infecciones graves como una neumonía complicada o una infección intraabdominal. Su médico determinará la duración exacta."
+    },
+    {
+      "q": "¿El ertapenem me puede dar diarrea?",
+      "a": "Sí, la diarrea es uno de los efectos secundarios más comunes. Es importante mantenerse hidratado. Sin embargo, si la diarrea es muy abundante, acuosa, con sangre, o viene acompañada de fiebre o dolor abdominal fuerte, debe avisar a su médico de inmediato, ya que podría ser una infección intestinal grave."
+    },
+    {
+      "q": "¿Puedo recibir ertapenem si estoy embarazada?",
+      "a": "Solo si es estrictamente necesario y su médico lo considera la mejor opción. Los estudios en animales no han mostrado daño, pero en humanos no hay datos completos. Se debe sopesar el beneficio para la madre contra el riesgo potencial para el bebé."
+    },
+    {
+      "q": "¿Qué hago si olvido una dosis?",
+      "a": "Como el medicamento lo administra un profesional de la salud, es poco probable que olvide una dosis en el hospital. Si está en tratamiento ambulatorio y se salta una cita para la inyección, contacte a su clínica o médico lo antes posible para reprogramarla. No duplique la dosis."
+    },
+    {
+      "q": "¿El ertapenem afecta los métodos anticonceptivos?",
+      "a": "No hay evidencia de que el ertapenem reduzca la efectividad de los anticonceptivos hormonales (pastillas, parches, anillos). Sin embargo, si presenta vómitos o diarrea severa por el antibiótico, la absorción de las pastillas anticonceptivas orales podría verse afectada. Consulte con su ginecólogo sobre medidas de respaldo."
+    },
+    {
+      "q": "¿Me puedo vacunar mientras tomo este antibiótico?",
+      "a": "En general, los antibióticos no afectan la respuesta a la mayoría de las vacunas inactivadas (como la influenza o neumococo). Sin embargo, es mejor consultar con su médico, quien considerará su estado inmunológico general."
+    },
+    {
+      "q": "¿Por qué me hicieron pruebas de sangre antes de empezar?",
+      "a": "Para revisar principalmente la función de sus riñones (creatinina) y, a veces, del hígado. Esto es crucial para calcular la dosis correcta de ertapenem y evitar efectos tóxicos por acumulación del medicamento si los riñones no trabajan bien."
+    },
+    {
+      "q": "¿El ertapenem sirve para la gripe o el COVID-19?",
+      "a": "No. El ertapenem solo mata bacterias. La gripe y el COVID-19 son causados por virus, contra los cuales este antibiótico es completamente inútil. Su uso incorrecto en infecciones virales contribuye a la resistencia bacteriana."
+    },
+    {
+      "q": "¿Qué significa que sea un antibiótico de 'reserva'?",
+      "a": "Significa que es un medicamento potente que los médicos guardan para tratar infecciones graves causadas por bacterias que ya no responden a antibióticos más comunes y simples. Usarlo cuando no es necesario hace que las bacterias se vuelvan resistentes a él, perdiendo una herramienta valiosa."
+    },
+    {
+      "q": "¿Puede el ertapenem causar infecciones por hongos?",
+      "a": "Sí, como muchos antibióticos de amplio espectro, puede alterar el equilibrio normal de bacterias y hongos en el cuerpo, permitiendo el sobrecrecimiento de cándida (hongo). Esto puede manifestarse como candidiasis vaginal o oral (algodoncillo). Informe a su médico si presenta comezón, flujo vaginal anormal o manchas blancas en la boca."
+    },
+    {
+      "q": "¿Es mejor la vía intravenosa o la intramuscular?",
+      "a": "Depende de la situación. La vía intravenosa (IV) es la más común para infecciones graves en el hospital, ya que asegura que todo el medicamento llegue rápido a la sangre. La intramuscular (IM) es una alternativa útil para tratamientos ambulatorios o cuando el acceso IV es difícil, pero puede ser más dolorosa."
+    },
+    {
+      "q": "¿Qué pasa si soy alérgico a las cefalosporinas (como la ceftriaxona)?",
+      "a": "Existe un riesgo de reacción alérgica cruzada porque tanto las cefalosporinas como el ertapenem son betalactámicos. Debe informar esta alergia a su médico. Él evaluará el riesgo y podría optar por un antibiótico de una clase diferente o realizar una prueba de sensibilidad bajo supervisión."
+    },
+    {
+      "q": "¿Por qué me advirtieron sobre las convulsiones?",
+      "a": "Los carbapenémicos, incluido el ertapenem, pueden reducir el umbral convulsivo en el cerebro, especialmente en dosis altas, en personas con enfermedad renal, o con historial de trastornos convulsivos. Es un efecto adverso poco común pero grave. Informe cualquier temblor, espasmo muscular o sensación rara."
+    },
+    {
+      "q": "¿Interfiere el ertapenem con mis medicamentos para la presión o el corazón?",
+      "a": "No se conocen interacciones directas graves con la mayoría de los fármacos para la presión o el corazón. Sin embargo, siempre debe proporcionar a su médico una lista completa de todos sus medicamentos, incluyendo hierbas y suplementos, para una evaluación de seguridad completa."
+    },
+    {
+      "q": "¿Cómo sabrá el médico si el antibiótico está funcionando?",
+      "a": "El médico evaluará la mejoría de sus síntomas (disminución de fiebre, menos dolor, mejor estado general) y los signos clínicos. Además, si se tomó un cultivo, los resultados del laboratorio mostrarán si la bacteria es sensible al ertapenem. Los análisis de sangre como el conteo de glóbulos blancos también pueden normalizarse."
+    },
+    {
+      "q": "¿Puedo recibir ertapenem en casa?",
+      "a": "Sí, es posible a través de un programa de Terapia Antimicrobiana Ambulatoria Intravenosa (TAAI). Una enfermera capacitada le enseñaría a usted o a un familiar a administrar la infusión IV, o una enfermera visitaría su casa para aplicarla. Esto requiere una evaluación médica y logística cuidadosa."
+    },
+    {
+      "q": "¿Qué bacteria NO cubre el ertapenem que sí cubren otros carbapenémicos?",
+      "a": "El ertapenem NO es activo contra dos bacterias importantes: Pseudomonas aeruginosa y Enterococcus faecalis. Si su médico sospecha una infección por alguna de estas bacterias, probablemente elegirá otro carbapenémico como el meropenem o el imipenem, que sí las cubren."
+    }
+  ]
+}

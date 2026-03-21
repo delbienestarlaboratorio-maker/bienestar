@@ -1,0 +1,396 @@
+{
+  "name": "Cefalotina",
+  "summary": "La cefalotina es un antibiótico de la familia de las cefalosporinas de primera generación, utilizado principalmente para tratar infecciones causadas por bacterias sensibles. Es especialmente importante en el ámbito hospitalario para combatir infecciones de la piel, tejidos blandos, huesos, articulaciones, vías urinarias y para la profilaxis quirúrgica. Su importancia clínica radica en su eficacia contra bacterias Gram-positivas como Staphylococcus aureus (incluyendo cepas productoras de penicilinasa) y algunos Gram-negativos, aunque ha sido desplazada en gran medida por cefalosporinas más nuevas en la práctica ambulatoria. Sin embargo, sigue siendo un pilar en ciertos protocolos hospitalarios debido a su perfil de seguridad y costo. Es un medicamento que requiere administración intravenosa o intramuscular, por lo que su uso está supervisado por profesionales de la salud. Es fundamental completar el tratamiento prescrito para evitar recaídas y el desarrollo de resistencia bacteriana, un problema de salud pública grave.",
+  "pharmacology": {
+    "mechanismOfAction": "La cefalotina ejerce su efecto bactericida (mata bacterias) al interferir con la síntesis de la pared celular bacteriana. Lo hace uniéndose de forma irreversible a unas proteínas específicas llamadas Proteínas Fijadoras de Penicilina (PBP, por sus siglas en inglés), que son enzimas esenciales para la construcción y mantenimiento de la pared celular. Al bloquear estas enzimas, la cefalotina impide la formación de los enlaces cruzados de peptidoglicano, que son como los 'ladrillos y cemento' de la pared bacteriana. Esto debilita la pared, la hace frágil y, debido a la alta presión osmótica dentro de la bacteria, provoca que esta se hinche y finalmente estalle (lisis celular). Es más activa contra bacterias que se están multiplicando activamente, ya que es cuando la síntesis de la pared es más intensa.",
+    "pharmacologicClass": "Antibiótico beta-lactámico; Cefalosporina de primera generación.",
+    "therapeuticClass": "Antibiótico sistémico.",
+    "absorption": "La cefalotina se absorbe muy pobremente por vía oral y es destruida por el ácido gástrico. Por lo tanto, debe administrarse por vía parenteral (intramuscular o intravenosa). La administración intramuscular es bien tolerada y proporciona concentraciones séricas adecuadas. La biodisponibilidad por vía intramuscular es cercana al 100%.",
+    "distribution": "Se distribuye ampliamente en la mayoría de los tejidos y fluidos corporales, incluyendo hueso, líquido sinovial, líquido pleural, pericardio y peritoneo. Atraviesa la barrera placentaria y se excreta en la leche materna en bajas concentraciones. Su unión a proteínas plasmáticas es moderada, aproximadamente del 65-80%. Su volumen de distribución (Vd) es de aproximadamente 0.26 L/kg, indicando una distribución principalmente en el espacio plasmático y líquido extracelular.",
+    "metabolism": "La cefalotina sufre un metabolismo hepático limitado. Se desacetila en el hígado para formar el metabolito desacetilcefalotina, que tiene una actividad antibacteriana significativamente menor (aproximadamente 1/4 a 1/8 de la actividad de la cefalotina). No es un sustrato significativo de las enzimas del citocromo P450 (CYP). La vía principal de eliminación es renal, en forma inalterada.",
+    "elimination": "La vida media de eliminación en adultos con función renal normal es de aproximadamente 30 a 50 minutos. En neonatos y pacientes con insuficiencia renal grave, esta vida media se prolonga considerablemente (hasta 3-18 horas). Se elimina principalmente por filtración glomerular y secreción tubular activa en los riñones. Aproximadamente del 60% al 90% de una dosis se excreta sin cambios en la orina en las primeras 6 horas. La hemodiálisis elimina eficazmente la cefalotina.",
+    "onsetOfAction": "Las concentraciones séricas máximas se alcanzan rápidamente: a los 30 minutos después de una inyección intramuscular y casi inmediatamente al finalizar una infusión intravenosa. El efecto bactericida comienza poco después de alcanzar concentraciones inhibitorias mínimas (CIM) en el sitio de la infección.",
+    "durationOfAction": "Debido a su corta vida media, la cefalotina requiere administraciones frecuentes, generalmente cada 4 a 6 horas en pacientes con función renal normal, para mantener concentraciones terapéuticas en sangre y tejidos durante todo el día."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones de la piel y estructuras de la piel (celulitis, abscesos, heridas infectadas) causadas por estafilococos y estreptococos sensibles.",
+      "Infecciones del tracto respiratorio inferior (neumonía) causadas por bacterias sensibles.",
+      "Infecciones del tracto urinario (pielonefritis, cistitis) no complicadas causadas por cepas sensibles de Escherichia coli, Proteus mirabilis y Klebsiella spp.",
+      "Infecciones óseas y articulares (osteomielitis, artritis séptica) causadas por Staphylococcus aureus sensible.",
+      "Septicemia (infección en la sangre) causada por organismos sensibles.",
+      "Profilaxis de infecciones en cirugías contaminadas o potencialmente contaminadas (ej. cirugía gastrointestinal, vascular, ortopédica).",
+      "Endocarditis infecciosa (en combinación con otros antibióticos, para organismos sensibles)."
+    ],
+    "offLabel": [
+      "Profilaxis de endocarditis infecciosa en pacientes de alto riesgo sometidos a procedimientos dentales o respiratorios (aunque las guías actuales suelen preferir amoxicilina).",
+      "Tratamiento empírico inicial de infecciones intraabdominales en combinación con un agente contra anaerobios (metronidazol), aunque cefalosporinas de segunda/tercera generación son más comunes."
+    ]
+  },
+  "dosage": {
+    "adults": "Dosis usual: 500 mg a 2 g cada 4-6 horas por vía IV o IM. Para infecciones moderadas a graves: 1-2 g cada 4-6 horas. Dosis máxima común: 12 g/día en infecciones que amenazan la vida (ej. endocarditis, meningitis). La vía IV es preferida para dosis altas (>1 g) y en infecciones graves.",
+    "pediatric": "Recién nacidos (0-7 días, >2000 g): 20 mg/kg cada 12 horas. Recién nacidos (8-28 días): 20 mg/kg cada 8 horas. Lactantes y niños (>1 mes): 75-100 mg/kg/día divididos en 4 dosis (cada 6 horas). Para infecciones graves: 100-150 mg/kg/día divididos en 4-6 dosis. Dosis máxima diaria pediátrica: 12 g/día.",
+    "elderly": "Los pacientes mayores suelen tener una función renal disminuida. La dosis debe ajustarse según el aclaramiento de creatinina (CrCl). Se recomienda iniciar con la dosis más baja del rango y ajustar según función renal.",
+    "renalImpairment": "Ajuste según aclaramiento de creatinina (CrCl): CrCl >50 mL/min: Dosis normal. CrCl 30-50 mL/min: 1-2 g cada 8 horas. CrCl 10-30 mL/min: 1-2 g cada 12 horas. CrCl <10 mL/min: 0.5-1 g cada 12-24 horas. En diálisis: 1 g después de cada sesión de diálisis, ya que se elimina eficazmente.",
+    "hepaticImpairment": "No se requiere ajuste de dosis específico para insuficiencia hepática leve a moderada, ya que la eliminación principal es renal. En insuficiencia hepática grave, monitorizar por posible acumulación del metabolito (aunque es poco activo).",
+    "maxDose": "12 gramos por día (en adultos, para infecciones que amenazan la vida como meningitis o endocarditis). En la práctica clínica habitual, rara vez se superan los 8-10 g/día."
+  },
+  "dosageForms": [
+    {
+      "form": "Polvo liofilizado para inyección (vial)",
+      "strengths": [
+        "500 mg",
+        "1 g",
+        "2 g",
+        "10 g (frasco para farmacia hospitalaria)"
+      ],
+      "route": "Intramuscular (IM), Intravenosa (IV) en infusión o bolo lento."
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad (alergia) conocida y grave a la cefalotina o a cualquier cefalosporina.",
+      "Antecedente de reacción anafiláctica (severa, que pone en riesgo la vida) a cualquier antibiótico beta-lactámico (penicilinas, cefalosporinas, carbapenems, monobactams)."
+    ],
+    "relative": [
+      "Hipersensibilidad leve a penicilinas (como rash cutáneo). En este caso, se puede usar con precaución, ya que el riesgo de reacción cruzada es bajo (~5-10%).",
+      "Insuficiencia renal grave (requiere ajuste de dosis, no está contraindicado per se).",
+      "Antecedente de colitis asociada a antibióticos."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Dolor, induración (endurecimiento) o flebitis (inflamación de la vena) en el sitio de inyección intramuscular o intravenosa."
+    ],
+    "common": [
+      "Diarrea (puede ser por alteración de la flora intestinal o por colitis pseudomembranosa).",
+      "Náuseas.",
+      "Erupción cutánea (rash) maculopapular (ronchas y granitos).",
+      "Prurito (comezón).",
+      "Pruebas de función hepática elevadas (transaminasas) de forma transitoria.",
+      "Candidiasis vaginal (infección por hongos) o oral."
+    ],
+    "uncommon": [
+      "Vómitos.",
+      "Mareo.",
+      "Dolor de cabeza.",
+      "Eosinofilia (aumento de un tipo de glóbulos blancos en análisis de sangre).",
+      "Trombocitosis (aumento de plaquetas).",
+      "Reacción de hipersensibilidad tipo I (urticaria, broncoespasmo)."
+    ],
+    "rare": [
+      "Anafilaxia (reacción alérgica severa).",
+      "Nefritis intersticial (inflamación del riñón).",
+      "Neutropenia (disminución de glóbulos blancos).",
+      "Trombocitopenia (disminución de plaquetas).",
+      "Anemia hemolítica (destrucción de glóbulos rojos).",
+      "Colitis pseudomembranosa severa por Clostridioides difficile (diarrea acuosa y severa, con fiebre y dolor abdominal).",
+      "Convulsiones (especialmente en pacientes con insuficiencia renal que reciben dosis altas)."
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Probenecid",
+        "effect": "El probenecid bloquea la secreción tubular renal de la cefalotina, lo que aumenta y prolonga sus concentraciones en sangre. Esto puede aumentar la eficacia pero también el riesgo de toxicidad, especialmente neurotoxicidad (convulsiones).",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Anticoagulantes orales (Warfarina)",
+        "effect": "La cefalotina puede potenciar el efecto anticoagulante de la warfarina, aumentando el riesgo de sangrado. Se cree que es por supresión de la flora intestinal que produce vitamina K. Se debe monitorizar estrechamente el INR.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Aminoglucósidos (Gentamicina, Amikacina)",
+        "effect": "Sinergia antibacteriana contra algunos organismos, pero aumento del riesgo de nefrotoxicidad (daño renal). Se debe monitorizar la función renal.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Diuréticos de asa (Furosemida)",
+        "effect": "El uso concomitante puede aumentar el riesgo de daño renal (nefrotoxicidad).",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "No hay interacciones clínicamente significativas con alimentos, ya que se administra por vía parenteral. El alcohol no interactúa directamente con la cefalotina, pero su consumo durante una infección y tratamiento antibiótico no es recomendable, ya que puede debilitar el sistema inmune y enmascarar síntomas.",
+    "withSupplements": "No se conocen interacciones significativas con suplementos vitamínicos o herbales comunes. Sin embargo, se debe evitar el uso de probióticos que contengan bacterias resistentes a cefalosporinas de forma simultánea, ya que el antibiótico los destruiría."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "B",
+      "recommendation": "Estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. La cefalotina cruza la placenta. Debe usarse durante el embarazo solo si claramente es necesario, evaluando el beneficio para la madre versus el riesgo potencial para el feto. Es considerado uno de los antibióticos beta-lactámicos más seguros para usar en el embarazo cuando se requiere.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La cefalotina se excreta en la leche materna en bajas concentraciones. Se considera compatible con la lactancia, ya que es poco probable que cause efectos adversos significativos en el lactante, especialmente si es mayor de 2 meses. Puede, en raros casos, alterar la flora intestinal del bebé, causando diarrea o candidiasis. Se recomienda observar al bebé. La Academia Americana de Pediatría la clasifica como compatible.",
+    "pediatric": "Es seguro y efectivo en niños para las indicaciones aprobadas. Las dosis se calculan por peso corporal. En recién nacidos, especialmente prematuros, la vida media está prolongada, por lo que se requieren intervalos de dosificación más largos (cada 8-12 horas).",
+    "geriatric": "Los pacientes de edad avanzada tienen mayor probabilidad de presentar función renal disminuida, lo que requiere ajuste de dosis. También son más susceptibles a desarrollar colitis por C. difficile con diarrea severa. Se debe iniciar con la dosis más baja del rango y ajustar según la función renal (CrCl). Monitorizar signos de toxicidad."
+  },
+  "administration": {
+    "howToTake": "La cefalotina SOLO se administra por inyección intramuscular profunda o por infusión intravenosa lenta (durante 3-5 minutos) o en infusión intermitente (diluida en 50-100 mL de solución salina o dextrosa al 5%, administrada en 20-30 minutos). Para inyección IM: reconstituir el vial con agua estéril para inyección o lidocaína al 1% sin epinefrina (para reducir el dolor). La solución IM debe usarse inmediatamente. Para IV: reconstituir y luego diluir en el fluido apropiado. NO se mezcla físicamente con aminoglucósidos en la misma jeringa o bolsa de infusión, ya que pueden inactivarse mutuamente.",
+    "storage": "El polvo liofilizado en el vial sin reconstituir debe almacenarse a temperatura ambiente (15-30°C), protegido de la luz. Una vez reconstituido, la solución es estable a temperatura ambiente por 12 horas, y refrigerada (2-8°C) por 96 horas (4 días) si se usa agua estéril o solución salina. Si se reconstituye con dextrosa, es estable por 24 horas a temperatura ambiente y 96 horas refrigerada. Las soluciones pueden tener un color ligeramente amarillo que no afecta la potencia.",
+    "specialInstructions": "Antes de administrar, preguntar siempre por alergias a penicilinas o cefalosporinas. En pacientes con alergia a penicilina, el riesgo de reacción cruzada con cefalosporinas de primera generación como la cefalotina es mayor (~5-10%) que con generaciones posteriores. Administrar con precaución en estos casos. Para reducir la flebitis, rotar los sitios de infusión IV y usar concentraciones diluidas. En pacientes con insuficiencia renal, seguir estrictamente los ajustes de dosis para evitar neurotoxicidad (convulsiones)."
+  },
+  "monitoring": {
+    "labTests": [
+      "Recuento completo de sangre (CSC) con diferencial (para detectar eosinofilia, neutropenia).",
+      "Pruebas de función renal (creatinina sérica, BUN) al inicio y periódicamente, especialmente en terapia prolongada o con dosis altas.",
+      "Pruebas de función hepática (ALT, AST) en terapia prolongada.",
+      "Cultivo y antibiograma del sitio de infección (para confirmar sensibilidad).",
+      "En pacientes con diarrea, prueba para toxina de Clostridioides difficile."
+    ],
+    "frequency": "Función renal: al inicio y cada 3-5 días en terapia prolongada o si hay factores de riesgo. CSC y función hepática: semanalmente en terapia prolongada (>2 semanas). Signos de infección: diariamente para evaluar respuesta clínica.",
+    "signsToWatch": [
+      "Signos de reacción alérgica: urticaria, dificultad para respirar, hinchazón de cara/lengua (buscar atención médica inmediata).",
+      "Diarrea acuosa o con sangre, dolor abdominal severo, fiebre (posible colitis por C. difficile).",
+      "Sangrado o moretones inusuales (por posible interacción con anticoagulantes o trombocitopenia).",
+      "Convulsiones o confusión (signo de neurotoxicidad por acumulación en insuficiencia renal).",
+      "Dolor o enrojecimiento severo en el sitio de inyección.",
+      "Fiebre persistente o que empeora a pesar del tratamiento."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Convulsiones (es el síntoma principal de neurotoxicidad por altas concentraciones en el sistema nervioso central).",
+      "Náuseas, vómitos severos.",
+      "Temblores, mioclonías (espasmos musculares).",
+      "Encefalopatía (confusión, letargo).",
+      "Puede precipitar o empeorar la insuficiencia renal."
+    ],
+    "treatment": "El tratamiento es de soporte y sintomático. No hay antídoto específico. En caso de convulsiones, administrar benzodiacepinas (diazepam, lorazepam). La hemodiálisis es MUY EFECTIVA para eliminar la cefalotina de la circulación y es el tratamiento de elección en casos graves de sobredosis, especialmente en pacientes con insuficiencia renal. También se puede utilizar diálisis peritoneal, aunque es menos eficaz.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (receta archivada) para su adquisición en farmacias, ya que es un antibiótico inyectable de uso hospitalario y ambulatorio controlado.",
+    "scheduleMexico": "Medicamento de la Fracción IV (Sustancias Medicinales de la Farmacopea de los Estados Unidos Mexicanos que requieren receta médica y cuya venta al público requiere prescripción médica y se expende en farmacias).",
+    "fdaApprovalYear": "Aprobada por la FDA de Estados Unidos en 1964."
+  },
+  "brandsMexico": [
+    "Cefalotina Sódica® (Pisa)",
+    "Cefalotina® (Liomont)",
+    "Keflin® (antigua marca de Lilly, puede encontrarse como genérico)",
+    "Cefalotina Genérica (varios laboratorios nacionales: Alpharma, Psicofarma, etc.)"
+  ],
+  "clinicalPearls": [
+    "La cefalotina es el 'patrón oro' histórico para la profilaxis quirúrgica en cirugías limpias o limpias-contaminadas, aunque cefazolina (otra cefalosporina de 1ra gen) es más usada por su mayor vida media.",
+    "Tiene una cobertura EXCELENTE contra Staphylococcus aureus sensible a meticilina (MSSA) y estreptococos, pero POCO o NULA contra enterococos y Staphylococcus aureus resistente a meticilina (MRSA).",
+    "Es una de las cefalosporinas más nefrotóxicas, especialmente cuando se combina con aminoglucósidos; monitorizar creatinina es crucial.",
+    "La reacción de 'Coomb's positivo' (prueba de antiglobulina directa positiva) es común y benigna, pero puede interferir en pruebas cruzadas para transfusión de sangre.",
+    "Para infecciones del SNC (meningitis), no es una buena opción porque penetra pobremente la barrera hematoencefálica, incluso cuando está inflamada."
+  ],
+  "patientCounseling": "La cefalotina es un antibiótico fuerte que se pone en la vena o el músculo, por lo que un enfermero o médico le lo administrará. Es MUY IMPORTANTE que complete TODO el tratamiento, aunque se sienta mejor a los pocos días. Si deja el tratamiento a medias, la infección puede regresar y las bacterias volverse resistentes. Avise de inmediato si le sale roncha, le da comezón, dificultad para respirar o se le hincha la cara o lengua (señales de alergia). También si le da diarrea líquida o con sangre, fiebre o dolor abdominal fuerte. La cefalotina puede hacer que le salgan hongos en la boca o zona vaginal; si pasa, consulte a su médico. Si le duele mucho el lugar de la inyección, coméntelo. No consuma alcohol mientras esté enfermo y en tratamiento. Informe a todos sus médicos que está recibiendo este antibiótico, especialmente si toma medicamentos para 'adelgazar la sangre' como warfarina.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre",
+        "slug": "fiebre"
+      },
+      {
+        "name": "Dolor e inflamación en la piel",
+        "slug": "dolor-inflamacion-piel"
+      },
+      {
+        "name": "Dolor al orinar",
+        "slug": "disuria-dolor-orinar"
+      },
+      {
+        "name": "Escalofríos",
+        "slug": "escalofrios"
+      },
+      {
+        "name": "Secreción purulenta (pus)",
+        "slug": "secrecion-purulenta-pus"
+      },
+      {
+        "name": "Dolor articular severo",
+        "slug": "dolor-articular-severo"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Celulitis",
+        "slug": "celulitis"
+      },
+      {
+        "name": "Pielonefritis (infección del riñón)",
+        "slug": "pielonefritis-infeccion-rinon"
+      },
+      {
+        "name": "Osteomielitis (infección del hueso)",
+        "slug": "osteomielitis-infeccion-hueso"
+      },
+      {
+        "name": "Neumonía adquirida en la comunidad",
+        "slug": "neumonia-comunitaria"
+      },
+      {
+        "name": "Artritis séptica",
+        "slug": "artritis-septica"
+      },
+      {
+        "name": "Sepsis",
+        "slug": "sepsis"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Colitis pseudomembranosa por C. difficile",
+        "slug": "colitis-pseudomembranosa-cdiff"
+      },
+      {
+        "name": "Insuficiencia renal aguda",
+        "slug": "insuficiencia-renal-aguda"
+      },
+      {
+        "name": "Reacción anafiláctica",
+        "slug": "reaccion-anafilactica"
+      },
+      {
+        "name": "Candidiasis vaginal u oral",
+        "slug": "candidiasis-vaginal-oral"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar (nefrotoxicidad)"
+      },
+      {
+        "name": "ALT/AST (transaminasas)",
+        "slug": "transaminasas-alt-ast",
+        "effect": "Puede elevar transitoriamente"
+      },
+      {
+        "name": "Eosinófilos",
+        "slug": "eosinofilos",
+        "effect": "Puede elevar (eosinofilia)"
+      },
+      {
+        "name": "Prueba de Coombs directa",
+        "slug": "prueba-coombs-directa",
+        "effect": "Puede dar positivo (falso)"
+      },
+      {
+        "name": "INR (International Normalized Ratio)",
+        "slug": "inr-ratio-normalizado-internacional",
+        "effect": "Puede elevar (aumenta riesgo sangrado con warfarina)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Cultivo y antibiograma",
+        "slug": "cultivo-antibiograma",
+        "reason": "Para identificar la bacteria causante y confirmar su sensibilidad a la cefalotina."
+      },
+      {
+        "name": "Creatinina sérica y BUN",
+        "slug": "creatinina-bun",
+        "reason": "Para evaluar función renal antes y durante el tratamiento, y ajustar dosis."
+      },
+      {
+        "name": "Recuento completo de sangre (CSC)",
+        "slug": "recuento-completo-sangre-csc",
+        "reason": "Para monitorizar efectos en células sanguíneas (eosinofilia, neutropenia)."
+      },
+      {
+        "name": "Prueba de toxina para C. difficile",
+        "slug": "prueba-toxina-cdiff",
+        "reason": "Si el paciente desarrolla diarrea severa durante o después del tratamiento."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de creatinina (CrCl)",
+        "slug": "aclaramiento-creatinina",
+        "reason": "Esencial para ajustar la dosis de cefalotina en pacientes con insuficiencia renal."
+      },
+      {
+        "name": "Dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso",
+        "reason": "Para calcular con precisión la dosis en niños basada en su peso corporal."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La cefalotina es una penicilina?",
+      "a": "No, no es una penicilina. Pertenece a otra familia llamada cefalosporinas, pero son 'primas' químicas. Si es alérgico a la penicilina, tiene un riesgo bajo (5-10%) de ser alérgico también a la cefalotina. Su médico lo evaluará."
+    },
+    {
+      "q": "¿Me la puedo tomar en pastillas?",
+      "a": "No. La cefalotina solo viene en forma de polvo para inyectarse en el músculo o la vena. No existe en tabletas o cápsulas porque el estómago la destruye."
+    },
+    {
+      "q": "¿Duele la inyección?",
+      "a": "La inyección intramuscular puede doler o causar molestia en el sitio. La intravenosa puede causar irritación de la vena (flebitis). Comunique cualquier dolor severo o enrojecimiento a su enfermero."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si me están inyectando cefalotina?",
+      "a": "No hay una interacción química directa peligrosa, pero NO se recomienda. El alcohol debilita su sistema de defensas y puede hacer que la infección se cure más lento. Además, si tiene fiebre o malestar, el alcohol lo empeorará."
+    },
+    {
+      "q": "¿Cuánto tiempo dura el tratamiento?",
+      "a": "Depende de la infección. Puede ser desde 3 días para una infección urinaria simple, hasta 4-6 semanas para una infección de hueso. Es CRUCIAL completar TODOS los días que le recetó el médico, aunque se sienta bien."
+    },
+    {
+      "q": "¿La cefalotina me puede dar diarrea?",
+      "a": "Sí, es un efecto común. La mayoría de las veces es leve. Pero si la diarrea es muy aguada, abundante, con sangre, fiebre o dolor abdominal fuerte, DEJE de tomarla y avise a su médico INMEDIATAMENTE. Podría ser una colitis grave."
+    },
+    {
+      "q": "¿Me puede causar alergia?",
+      "a": "Sí, como cualquier medicamento. Los signos son salpullido (ronchas), comezón, hinchazón de labios/lengua, mareo o dificultad para respirar. Si presenta alguno, busque atención médica urgente."
+    },
+    {
+      "q": "¿Afecta los métodos anticonceptivos?",
+      "a": "No hay evidencia de que la cefalotina reduzca la efectividad de las pastillas anticonceptivas hormonales, a diferencia de algunos otros antibióticos. Sin embargo, si tiene vómitos o diarrea severa, la absorción de la pastilla podría verse afectada. Use un método de respaldo (condón) durante el ciclo si eso ocurre."
+    },
+    {
+      "q": "¿Puedo usarla si estoy embarazada o amamantando?",
+      "a": "Embarazo: Se usa si es estrictamente necesario, ya que es uno de los antibióticos más seguros en esta situación, pero solo bajo supervisión médica. Lactancia: Se puede usar, pasa muy poco a la leche, pero observe al bebé por si tiene diarrea o salpullido. Consulte siempre a su médico."
+    },
+    {
+      "q": "¿Qué hago si me olvido una dosis?",
+      "a": "Como es un medicamento inyectado en un hospital o clínica, es poco probable que se la olvide. Si es un tratamiento ambulatorio y usted se aplica las inyecciones, aplíquesela tan pronto como se acuerde, a menos que ya sea casi la hora de la siguiente. En ese caso, omita la que olvidó y continúe con el horario normal. NO duplique la dosis."
+    },
+    {
+      "q": "¿La cefalotina sirve para la gripe o el COVID-19?",
+      "a": "NO. La cefalotina solo mata bacterias. La gripe y el COVID-19 son causados por virus. Usar antibióticos para infecciones virales es inútil y contribuye a crear bacterias resistentes."
+    },
+    {
+      "q": "¿Por qué me miden la creatinina en la sangre cuando me dan este medicamento?",
+      "a": "Porque la cefalotina se elimina por los riñones y puede dañarlos, especialmente en dosis altas o si ya tiene problemas renales. Medir la creatinina ayuda al médico a ajustar la dosis correcta y segura para usted."
+    },
+    {
+      "q": "¿Puede manchar o dañar los dientes?",
+      "a": "No, la cefalotina no se sabe que cause manchas en los dientes, a diferencia de algunos antibióticos como las tetraciclinas."
+    },
+    {
+      "q": "¿Interactúa con otros medicamentos?",
+      "a": "Sí. Es importante decirle a su médico TODOS los medicamentos que toma. Interactúa especialmente con: medicamentos para 'adelgazar la sangre' (como warfarina, aumentando el riesgo de sangrado), probenecid (para la gota, que puede aumentar sus niveles) y otros que puedan dañar el riñón (como algunos antiinflamatorios)."
+    },
+    {
+      "q": "¿Qué significa que sea un antibiótico de 'primera generación'?",
+      "a": "Significa que fue una de las primeras cefalosporinas descubiertas. Es muy buena para matar bacterias Gram-positivas (como estafilococos y estreptococos) y algunas Gram-negativas simples. Las generaciones más nuevas (2da, 3ra) cubren más bacterias Gram-negativas, pero a veces son menos potentes contra las Gram-positivas."
+    },
+    {
+      "q": "¿Es lo mismo que la cefazolina?",
+      "a": "No, son dos cefalosporinas de primera generación diferentes, pero muy parecidas. La cefazolina se usa más hoy en día porque se pone cada 8 horas (en vez de cada 6) y duele menos al inyectarla. Su médico elegirá la más adecuada."
+    },
+    {
+      "q": "¿La cefalotina cubre todas las infecciones de vías urinarias?",
+      "a": "No. Es efectiva contra las causadas por bacterias sensibles, como E. coli. Pero muchas bacterias hoy son resistentes. Por eso, el médico debe pedir un urocultivo para saber con certeza si la cefalotina es el antibiótico correcto."
+    },
+    {
+      "q": "¿Puede causar convulsiones?",
+      "a": "Es un efecto RARO, pero puede ocurrir si el medicamento se acumula en el cuerpo, principalmente en pacientes con insuficiencia renal grave que reciben dosis altas. Por eso es vital el ajuste de dosis según la función renal."
+    },
+    {
+      "q": "¿Qué debo comer mientras estoy en tratamiento?",
+      "a": "No hay restricciones dietéticas específicas. Mantenga una dieta balanceada e hidratación adecuada para ayudar a su cuerpo a combatir la infección. Si tiene diarrea, evite alimentos grasosos, picantes o con mucha fibra."
+    },
+    {
+      "q": "¿Por qué a veces la usan antes de una cirugía?",
+      "a": "Se usa como 'profilaxis' (prevención) para evitar que bacterias de la piel o del ambiente entren a la herida quirúrgica y causen una infección. Se administra generalmente 30-60 minutos antes de hacer el primer corte, para que ya esté en su sangre en el momento de la cirugía."
+    }
+  ]
+}

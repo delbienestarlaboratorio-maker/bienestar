@@ -1,0 +1,436 @@
+{
+  "name": "Lanolin",
+  "summary": "Lanolin es un anestésico local de tipo amida, utilizado para bloquear temporalmente la transmisión de señales de dolor en nervios específicos. Sirve para realizar procedimientos médicos menores, cirugías y control del dolor postoperatorio sin necesidad de anestesia general, lo que reduce riesgos y permite una recuperación más rápida. Su importancia clínica radica en que es una herramienta fundamental en odontología, dermatología, cirugía menor y obstetricia, permitiendo intervenciones seguras y cómodas para el paciente. Al actuar de forma localizada, evita los efectos sistémicos de la anestesia general, siendo una opción más segura para pacientes con condiciones médicas complejas. Su uso correcto requiere conocimiento anatómico preciso para maximizar su eficacia y minimizar complicaciones.",
+  "pharmacology": {
+    "mechanismOfAction": "Lanolin actúa bloqueando de forma reversible los canales de sodio dependientes de voltaje en las membranas de las neuronas. Al unirse a un sitio específico dentro del canal, impide la entrada de iones sodio (Na+) a la célula nerviosa, lo cual es esencial para la generación y propagación del potencial de acción. Sin este influjo de sodio, la señal eléctrica del dolor no puede viajar a lo largo de la fibra nerviosa hacia el sistema nervioso central. Tiene mayor afinidad por las neuronas en estado activado o inactivado, estabilizando la membrana neuronal en reposo. Su efecto es concentración-dependiente y afecta primero a las fibras nerviosas más finas (las que transmiten dolor y temperatura) antes que a las más gruesas (las motoras y táctiles).",
+    "pharmacologicClass": "Anestésico local del grupo de las amidas. Bloqueador de canales de sodio.",
+    "therapeuticClass": "Anestésico local.",
+    "absorption": "La absorción sistémica depende del sitio de inyección, la dosis, la concentración, la vascularización del área y la presencia de vasoconstrictores. Las inyecciones en áreas altamente vascularizadas (como la mucosa intercostal o cervical) resultan en niveles plasmáticos máximos más rápidos y altos. La adición de un vasoconstrictor como la epinefrina reduce significativamente la absorción sistémica, prolonga la duración de la anestesia y disminuye la toxicidad.",
+    "distribution": "Se distribuye ampliamente por todo el cuerpo. Se une moderadamente a proteínas plasmáticas, principalmente a la alfa-1 glicoproteína ácida (AAG). El volumen de distribución (Vd) es variable pero generalmente amplio, indicando una buena distribución tisular. La unión a proteínas es mayor en estados inflamatorios donde aumentan las proteínas de fase aguda.",
+    "metabolism": "Se metaboliza extensamente en el hígado mediante el sistema enzimático del citocromo P450, específicamente por la isoenzima CYP3A4 y en menor medida por CYP1A2. El metabolismo de primer paso es significativo. Se convierte en metabolitos activos e inactivos a través de reacciones de desalquilación e hidroxilación.",
+    "elimination": "Los metabolitos y una pequeña fracción del fármaco sin cambios se eliminan principalmente por vía renal. La vida media de eliminación es de aproximadamente 1.5 a 2 horas en adultos con función hepática normal. En pacientes con insuficiencia hepática o cardiaca, la vida media puede prolongarse considerablemente.",
+    "onsetOfAction": "El inicio de acción es relativamente rápido, generalmente entre 2 a 5 minutos después de la inyección para el bloqueo nervioso, dependiendo de la concentración, el pH de la solución y la proximidad al nervio.",
+    "durationOfAction": "La duración del efecto anestésico varía según la técnica, la dosis y el uso de vasoconstrictor. Para infiltración simple, dura de 1 a 2 horas. Cuando se combina con un vasoconstrictor como epinefrina, la duración puede extenderse de 2 a 6 horas para bloqueos nerviosos periféricos."
+  },
+  "indications": {
+    "approved": [
+      "Anestesia local por infiltración para procedimientos quirúrgicos menores",
+      "Bloqueo nervioso periférico (ej. bloqueo del plexo braquial, bloqueo intercostal)",
+      "Anestesia regional intravenosa (técnica de Bier)",
+      "Anestesia epidural y espinal (en formulaciones específicas)",
+      "Anestesia tópica en mucosas (en formulaciones específicas en gel o spray)"
+    ],
+    "offLabel": [
+      "Infusión continua para analgesia postoperatoria a través de catéteres perineurales",
+      "Bloqueo del ganglio estrellado para el manejo del dolor neuropático complejo",
+      "Infiltración para el manejo del dolor en cefaleas en racimos"
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis varía según el procedimiento. Para infiltración simple: 1-5 mg/kg, sin exceder 300 mg (sin vasoconstrictor) o 500 mg (con vasoconstrictor). Para bloqueo epidural: 100-200 mg. Para bloqueo del plexo braquial: 225-300 mg. La dosis máxima segura es 4.5 mg/kg sin vasoconstrictor y 7 mg/kg con vasoconstrictor.",
+    "pediatric": "Dosis calculada por peso corporal. Generalmente 1-2.5 mg/kg para infiltración. La dosis máxima total no debe exceder los cálculos por peso (ej., 5 mg/kg). Se requiere extrema precaución en neonatos y lactantes debido a la inmadurez metabólica.",
+    "elderly": "Reducir la dosis en un 20-30% debido a la disminución de la masa muscular, el aumento de la grasa corporal, la posible reducción del flujo hepático y la mayor sensibilidad a los efectos del fármaco. Monitorizar estrechamente los signos de toxicidad.",
+    "renalImpairment": "No se requiere ajuste de dosis principal por insuficiencia renal leve a moderada (TFG >30 mL/min). En insuficiencia renal severa (TFG <30 mL/min) o diálisis, se debe usar con precaución ya que los metabolitos pueden acumularse. Considerar reducir la dosis en un 25%.",
+    "hepaticImpairment": "Reducir la dosis significativamente (hasta un 50%) en insuficiencia hepática moderada a severa (Child-Pugh B o C), debido a la reducción del aclaramiento hepático y al riesgo de toxicidad por acumulación. Evitar el uso en insuficiencia hepática aguda.",
+    "maxDose": "Dosis máxima absoluta: 300 mg sin vasoconstrictor, 500 mg con vasoconstrictor (epinefrina 1:200,000). En términos de mg/kg: 4.5 mg/kg sin vasoconstrictor, 7 mg/kg con vasoconstrictor."
+  },
+  "dosageForms": [
+    {
+      "form": "Solución inyectable",
+      "strengths": [
+        "0.5% (5 mg/mL)",
+        "1% (10 mg/mL)",
+        "1.5% (15 mg/mL)",
+        "2% (20 mg/mL)"
+      ],
+      "route": "Inyección (infiltración, bloqueo nervioso, epidural, espinal)"
+    },
+    {
+      "form": "Solución inyectable con epinefrina",
+      "strengths": [
+        "1% con epinefrina 1:200,000",
+        "2% con epinefrina 1:100,000"
+      ],
+      "route": "Inyección"
+    },
+    {
+      "form": "Gel tópico",
+      "strengths": [
+        "2%",
+        "5%"
+      ],
+      "route": "Tópica (mucosas)"
+    },
+    {
+      "form": "Spray tópico",
+      "strengths": [
+        "10%"
+      ],
+      "route": "Tópica (mucosas)"
+    },
+    {
+      "form": "Crema tópica",
+      "strengths": [
+        "2.5%",
+        "5%"
+      ],
+      "route": "Tópica (piel)"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a Lanolin o a otros anestésicos locales del tipo amida",
+      "Hipersensibilidad a los componentes de la formulación (ej., metabisulfito en soluciones con vasoconstrictor)",
+      "Bloqueo cardíaco avanzado de segundo o tercer grado sin marcapasos",
+      "Septicemia en el sitio de inyección propuesto",
+      "Hipovolemia severa o shock (para técnicas neuroaxiales como epidural)"
+    ],
+    "relative": [
+      "Miastenia gravis",
+      "Porfiria",
+      "Arritmias cardíacas no controladas",
+      "Insuficiencia hepática severa",
+      "Deficiencia de colinesterasa (pseudocolinesterasa)",
+      "Tratamiento concurrente con antiarrítmicos de clase I (ej., mexiletina)"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Parestesias (hormigueo) transitorias en el sitio de inyección",
+      "Hipotensión ortostática leve (especialmente con técnicas neuroaxiales)"
+    ],
+    "common": [
+      "Náuseas",
+      "Vómitos",
+      "Mareo",
+      "Somnolencia",
+      "Temblor muscular leve",
+      "Bradicardia (frecuencia cardíaca lenta)"
+    ],
+    "uncommon": [
+      "Reacciones alérgicas (urticaria, rash cutáneo)",
+      "Retención urinaria (con anestesia espinal/epidural)",
+      "Cefalea post-punción dural",
+      "Hematoma en el sitio de inyección",
+      "Infección en el sitio de inyección"
+    ],
+    "rare": [
+      "Toxicidad del Sistema Nervioso Central (CNS): convulsiones, pérdida del conocimiento, paro respiratorio",
+      "Toxicidad Cardiovascular: arritmias ventriculares, depresión miocárdica, paro cardíaco",
+      "Methemoglobinemia (con dosis muy altas o en pacientes susceptibles)",
+      "Daño neurológico permanente (por inyección intraneural directa)",
+      "Síndrome de Horner transitorio (con bloqueos cervicales)"
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Antiarrítmicos de clase I (Mexiletina, Flecainida)",
+        "effect": "Aumento del riesgo de toxicidad cardiovascular y del SNC por efectos aditivos en el bloqueo de canales de sodio.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores del CYP3A4 (Ketoconazol, Claritromicina, Ritonavir)",
+        "effect": "Disminución del metabolismo de Lanolin, aumentando sus niveles plasmáticos y el riesgo de toxicidad.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Bloqueadores beta no selectivos (Propranolol)",
+        "effect": "Pueden potenciar la bradicardia y la hipotensión inducidas por Lanolin, y reducir el metabolismo hepático.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Vasoconstrictores (Epinefrina, Norepinefrina) en soluciones anestésicas",
+        "effect": "Interacción beneficiosa. La epinefrina reduce la absorción sistémica, prolonga la duración y reduce la toxicidad. Sin embargo, en pacientes con cardiopatía isquémica puede precipitar angina.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "No hay interacciones clínicamente significativas con alimentos. Se recomienda evitar el consumo de alcohol antes de un procedimiento con anestesia local, ya que puede potenciar los efectos depresores del SNC.",
+    "withSupplements": "Suplementos que inhiben el CYP3A4 (como el extracto de pomelo en altas dosis) pueden teóricamente aumentar los niveles de Lanolin. Hierbas con efectos sedantes (valeriana, kava) pueden potenciar la somnolencia."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "B",
+      "recommendation": "Lanolin puede usarse durante el embarazo cuando es claramente necesario, especialmente para procedimientos odontológicos o analgesia para el trabajo de parto (epidural). Los estudios en animales no muestran riesgo, pero no hay estudios adecuados y controlados en mujeres embarazadas. Cruza la placenta, pero en dosis clínicas para anestesia regional es considerado seguro. Se prefiere a otros anestésicos para analgesia epidural durante el parto.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se considera compatible con la lactancia. Las cantidades que pasan a la leche materna después de una dosis anestésica regional son mínimas y es poco probable que afecten al lactante. No se requiere interrupción de la lactancia.",
+    "pediatric": "Se puede usar en niños, pero con precaución extrema en el cálculo de la dosis por peso. Los neonatos y lactantes tienen una capacidad reducida para metabolizar el fármaco (inmadurez del CYP3A4) y mayor unión a proteínas, lo que aumenta el riesgo de toxicidad. Se deben usar las concentraciones y dosis más bajas efectivas.",
+    "geriatric": "Los pacientes mayores son más sensibles a los efectos de Lanolin debido a cambios fisiológicos: disminución de la masa muscular, aumento de la grasa corporal (mayor Vd), reducción del flujo hepático y de la función renal. Esto lleva a un aclaramiento más lento y mayor riesgo de toxicidad. Se deben usar dosis reducidas y monitorizar estrechamente los signos vitales."
+  },
+  "administration": {
+    "howToTake": "Lanolin es administrado exclusivamente por profesionales de la salud capacitados (médicos, dentistas, anestesiólogos). La técnica (infiltración, bloqueo nervioso, epidural) depende del procedimiento. Se inyecta lentamente, aspirando frecuentemente para evitar la inyección intravascular accidental. Para uso tópico en gel o spray, se aplica sobre la mucosa limpia y seca según las indicaciones del profesional.",
+    "storage": "Conservar las ampolletas o viales en su empaque original, protegidos de la luz, a temperatura ambiente (15-30°C). No congelar. Las soluciones que contienen vasoconstrictor (epinefrina) son más sensibles a la oxidación y deben inspeccionarse visualmente antes de su uso; si están descoloridas (marrón, rosa) o contienen partículas, deben desecharse.",
+    "specialInstructions": "Siempre se debe tener disponible equipo de reanimación (oxígeno, equipo para intubación, medicamentos anticonvulsivantes y para soporte cardiovascular) antes de administrar cualquier anestésico local. Nunca se debe inyectar en áreas infectadas o inflamadas. La solución sin conservantes debe usarse para anestesia espinal o epidural."
+  },
+  "monitoring": {
+    "labTests": [
+      "No se requiere monitoreo de laboratorio rutinario para dosis únicas. En infusiones prolongadas o en pacientes de riesgo, puede considerarse monitorizar niveles plasmáticos en centros especializados."
+    ],
+    "frequency": "Monitorización continua de signos vitales (frecuencia cardíaca, presión arterial, saturación de oxígeno) durante la administración y en el periodo post-anestésico inmediato. Observación clínica para signos de toxicidad del SNC o cardiovascular.",
+    "signsToWatch": [
+      "Zumbido en los oídos (tinnitus)",
+      "Sabor metálico en la boca",
+      "Entumecimiento de la lengua o labios",
+      "Visión borrosa",
+      "Somnolencia excesiva o agitación",
+      "Dificultad para hablar",
+      "Temblores musculares",
+      "Convulsiones",
+      "Bradicardia severa",
+      "Hipotensión",
+      "Dificultad para respirar"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Manifestaciones del SNC: hormigueo perioral, tinnitus, visión borrosa, agitación, somnolencia, convulsiones, depresión respiratoria, coma.",
+      "Manifestaciones Cardiovasculares: hipotensión, bradicardia, bloqueo cardíaco, arritmias ventriculares (taquicardia ventricular, fibrilación ventricular), paro cardíaco.",
+      "Reacciones alérgicas: angioedema, broncoespasmo, anafilaxia."
+    ],
+    "treatment": "1. Suspender inmediatamente la inyección. 2. Mantener la vía aérea, administrar oxígeno al 100% y asistir la ventilación si es necesario. 3. Para convulsiones: benzodiacepinas (midazolam, diazepam) IV. 4. Para bradicardia: atropina IV. 5. Para hipotensión: fluidos IV y vasopresores (epinefrina). 6. Para arritmias ventriculares: amiodarona o lidocaína (aunque es otro anestésico local, puede ser útil). 7. Considerar Reanimación Cardiopulmonar (RCP) avanzada si hay paro cardíaco. 8. En casos de inyección intravascular masiva, considerar el uso de emulsión lipídica al 20% (rescate lipídico) según protocolos establecidos.",
+    "antidote": "La emulsión lipídica intravenosa al 20% es el antídoto de elección para la toxicidad cardiovascular severa por anestésicos locales. Actúa como un sumidero lipídico, secuestrando el fármaco del plasma y los tejidos."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica archivada (Rx). Su administración está restringida a personal de salud calificado.",
+    "scheduleMexico": "Medicamento de la Fracción IV (Psicotrópicos) del Cuadro Básico de la COFEPRIS, sujeto a control especial por su potencial de abuso y toxicidad.",
+    "fdaApprovalYear": "Aprobado por la FDA desde la década de 1940. Las formulaciones específicas (como con vasoconstrictor) han sido aprobadas en diferentes años."
+  },
+  "brandsMexico": [
+    "Lidocaína PiSA",
+    "Xylocaine (AstraZeneca)",
+    "Lidocain Normon",
+    "Lidocain Genfar",
+    "Lidoject (Pisa)",
+    "Anestal (Chinoin)",
+    "Lidostesin (Sanderson)",
+    "Dolicaina (Dolphi)",
+    "Lidocaína Inyectable (Various Genéricos)"
+  ],
+  "clinicalPearls": [
+    "La toxicidad del SNC suele preceder a la toxicidad cardiovascular. Los síntomas prodrómicos (tinnitus, sabor metálico) son una señal de ALARMA para detener la inyección.",
+    "La adición de epinefrina 1:200,000 no solo prolonga la duración, sino que también sirve como marcador de inyección intravascular: si el paciente presenta taquicardia transitoria tras la inyección, sospechar punción vascular.",
+    "En pacientes con cardiopatía isquémica, usar con precaución soluciones con vasoconstrictor (epinefrina) debido al riesgo de isquemia miocárdica.",
+    "Para bloqueos en extremidades, el tiempo de inicio puede acelerarse alcalinizando la solución con bicarbonato de sodio (1 mEq por cada 10 mL de lidocaína al 1%), siempre que sea compatible químicamente.",
+    "La methemoglobinemia es un efecto raro pero grave, más asociado a la prilocaína, aunque puede ocurrir con dosis altas de lidocaína. El antídoto es el azul de metileno."
+  ],
+  "patientCounseling": "Es normal sentir entumecimiento y pesadez en el área anestesiada. Esta sensación puede durar varias horas. Evite masticar, beber líquidos calientes o tocarse la zona adormecida (especialmente después de procedimientos dentales) para prevenir mordeduras o quemaduras accidentales. Si la anestesia fue en un brazo o pierna, tenga cuidado al caminar o usar esa extremidad hasta que regrese la sensación normal para evitar caídas. Comuníque de inmediato a su médico o dentista si después de la inyección siente mareo intenso, zumbido en los oídos, visión borrosa, dificultad para respirar, palpitaciones o si el entumecimiento dura mucho más de lo esperado. No conduzca vehículos ni opere maquinaria hasta que los efectos hayan desaparecido por completo.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor agudo",
+        "slug": "dolor-agudo"
+      },
+      {
+        "name": "Dolor postoperatorio",
+        "slug": "dolor-postoperatorio"
+      },
+      {
+        "name": "Dolor neuropático localizado",
+        "slug": "dolor-neuropatico"
+      },
+      {
+        "name": "Prurito (picazón) en dermatitis",
+        "slug": "prurito"
+      },
+      {
+        "name": "Dolor de garganta severo",
+        "slug": "dolor-de-garganta"
+      },
+      {
+        "name": "Dolor por quemaduras menores",
+        "slug": "dolor-por-quemaduras"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Arritmias ventriculares (en su forma IV como antiarrítmico)",
+        "slug": "arritmias-ventriculares"
+      },
+      {
+        "name": "Neuralgia postherpética",
+        "slug": "neuralgia-postherpetica"
+      },
+      {
+        "name": "Síndrome del túnel carpiano",
+        "slug": "sindrome-del-tunel-carpiano"
+      },
+      {
+        "name": "Episiotomía y desgarros perineales (analgesia)",
+        "slug": "dolor-perineal-postparto"
+      },
+      {
+        "name": "Artritis localizada",
+        "slug": "artritis"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Methemoglobinemia",
+        "slug": "methemoglobinemia"
+      },
+      {
+        "name": "Hipotensión severa",
+        "slug": "hipotension"
+      },
+      {
+        "name": "Convulsiones",
+        "slug": "convulsiones"
+      },
+      {
+        "name": "Arritmias cardíacas",
+        "slug": "arritmias-cardiacas"
+      },
+      {
+        "name": "Daño neurológico periférico",
+        "slug": "neuropatia-periferica"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Nivel plasmático de Lanolin",
+        "slug": "nivel-plasmatico-lidocaina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Methemoglobina",
+        "slug": "methemoglobina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Frecuencia Cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Presión Arterial",
+        "slug": "presion-arterial",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Actividad eléctrica cerebral (EEG)",
+        "slug": "actividad-electrica-cerebral",
+        "effect": "Puede suprimir"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Pruebas de función hepática (TGP, TGO)",
+        "slug": "pruebas-funcion-hepatica",
+        "reason": "Evaluar capacidad metabólica antes de dosis altas o infusiones prolongadas."
+      },
+      {
+        "name": "Tiempo de coagulación",
+        "slug": "tiempo-de-coagulacion",
+        "reason": "Antes de técnicas neuroaxiales (epidural, espinal) para reducir riesgo de hematoma."
+      },
+      {
+        "name": "Electrocardiograma (ECG)",
+        "slug": "electrocardiograma",
+        "reason": "En pacientes con historia cardíaca para evaluar riesgo de arritmias."
+      },
+      {
+        "name": "Nivel de Methemoglobina",
+        "slug": "nivel-methemoglobina",
+        "reason": "En casos de cianosis inexplicable después de la administración."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Duele la inyección de Lanolin?",
+      "a": "La inyección inicial puede causar una breve sensación de ardor o pinchazo. Para minimizarlo, el médico a menudo aplica un anestésico tópico en gel o enfría la zona antes, o inyecta muy lentamente."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Generalmente comienza a adormecer el área en 2 a 5 minutos después de la inyección, alcanzando su efecto máximo en unos 10-15 minutos."
+    },
+    {
+      "q": "¿Cuánto tiempo dura el adormecimiento?",
+      "a": "Depende de la técnica y si lleva vasoconstrictor. Para un procedimiento dental simple, puede durar de 1 a 3 horas. En bloqueos más profundos, con vasoconstrictor, puede durar de 2 a 6 horas."
+    },
+    {
+      "q": "¿Puedo comer o beber después de que me pongan anestesia dental?",
+      "a": "Espere a que desaparezca por completo el adormecimiento de la boca, labios y lengua. Masticar o beber líquidos calientes con la boca dormida puede causar mordeduras accidentales o quemaduras."
+    },
+    {
+      "q": "¿Por qué a veces el corazón late rápido después de la inyección?",
+      "a": "Algunas formulaciones contienen epinefrina (adrenalina) para prolongar el efecto. Si una pequeña cantidad entra en un vaso sanguíneo, puede causar palpitaciones breves (segundos). Es normal, pero infórmeselo a su médico."
+    },
+    {
+      "q": "¿Puedo conducir después de un procedimiento con anestesia local?",
+      "a": "Si la anestesia fue solo local y no recibió sedantes, puede conducir una vez que haya recuperado la sensibilidad y el control motor completo de la zona (ej., la pierna o el brazo). Si se siente mareado, espere."
+    },
+    {
+      "q": "¿La Lanolin puede causar alergia?",
+      "a": "Es raro, pero posible. Las alergias verdaderas son más comunes con los anestésicos del tipo éster (como la procaína). Si es alérgico, informe siempre a su médico y dentista."
+    },
+    {
+      "q": "¿Qué hago si el adormecimiento no se quita después de muchas horas?",
+      "a": "Contacte a su médico o dentista inmediatamente. Aunque es poco común, la persistencia del adormecimiento puede indicar una complicación que requiere evaluación."
+    },
+    {
+      "q": "¿Es seguro en niños?",
+      "a": "Sí, pero se usa con mucha precaución. La dosis se calcula cuidadosamente según el peso del niño. Es común en procedimientos dentales y cirugías menores infantiles."
+    },
+    {
+      "q": "¿Pueden usarla mujeres embarazadas?",
+      "a": "Sí, se considera uno de los anestésicos locales más seguros durante el embarazo. Se usa comúnmente para tratamientos dentales y como analgesia epidural durante el parto."
+    },
+    {
+      "q": "¿Qué diferencia hay entre la inyección y el gel de Lanolin?",
+      "a": "La inyección adormece capas más profundas de tejido y nervios, ideal para procedimientos. El gel o spray se usa en superficies (mucosas de la boca, garganta) para procedimientos superficiales o para reducir las náuseas durante la intubación."
+    },
+    {
+      "q": "¿Interfiere con mis otros medicamentos?",
+      "a": "Puede interactuar con algunos medicamentos para el corazón (antiarrítmicos) y con antibióticos fuertes como la claritromicina. Siempre informe a su médico TODOS los medicamentos que toma."
+    },
+    {
+      "q": "¿Por qué a veces me dan sueño después?",
+      "a": "Si una pequeña cantidad del anestésico llega al torrente sanguíneo, puede tener un efecto leve sedante en el cerebro. Esto es normal y pasa rápido."
+    },
+    {
+      "q": "¿La anestesia local es lo mismo que estar dormido?",
+      "a": "No. Con anestesia local usted está despierto y consciente, pero sin dolor en un área específica. La anestesia general lo hace dormir profundamente y es para cirugías mayores."
+    },
+    {
+      "q": "¿Puedo tomar alcohol el mismo día?",
+      "a": "Se recomienda evitar el alcohol el día del procedimiento, ya que puede potenciar los efectos secundarios como mareo y somnolencia."
+    },
+    {
+      "q": "¿Qué es una \"reacción vasovagal\" y es por la anestesia?",
+      "a": "Es un desmayo o mareo por ansiedad o dolor (a veces por la vista de la aguja), no por el fármaco en sí. El cuerpo baja la presión arterial y la frecuencia cardíaca. Es común y el personal está entrenado para manejarlo."
+    },
+    {
+      "q": "¿La Lanolin puede dañar un nervio?",
+      "a": "El daño neurológico permanente es extremadamente raro. Puede ocurrir si la aguja lesiona directamente un nervio o si se inyecta una concentración muy alta dentro del nervio. Su médico usa técnicas para minimizar este riesgo."
+    },
+    {
+      "q": "¿Para qué sirve la Lanolin intravenosa (en la vena)?",
+      "a": "En forma intravenosa, a dosis diferentes, se usa como medicamento para tratar ciertas arritmias cardíacas graves (taquicardia ventricular). Es un uso hospitalario especializado."
+    },
+    {
+      "q": "¿Qué es la emulsión lipídica y por qué la tienen en algunos consultorios?",
+      "a": "Es un antídoto (como un \"antiveneno\") para intoxicación severa por anestésicos locales que afecta al corazón. Su presencia es una medida de seguridad avanzada, especialmente en clínicas donde se usan grandes dosis."
+    },
+    {
+      "q": "¿Cómo decide el médico si usar Lanolin con o sin epinefrina (adrenalina)?",
+      "a": "Se usa SIN epinefrina en áreas con pobre circulación (dedos, nariz, pene) para evitar isquemia. Se usa CON epinefrina en áreas muy vascularizadas (boca, cuero cabelludo) para que dure más, sangre menos y haya menos toxicidad sistémica."
+    }
+  ]
+}

@@ -1,0 +1,375 @@
+{
+  "name": "Probenecid",
+  "summary": "El probenecid es un medicamento que pertenece a la clase de los uricosúricos. Su función principal es ayudar a los riñones a eliminar el ácido úrico del cuerpo a través de la orina, lo que reduce los niveles de esta sustancia en la sangre. Se utiliza principalmente para tratar la gota crónica y prevenir los ataques de gota, especialmente en pacientes que no responden bien a otros medicamentos o que tienen problemas para eliminar el ácido úrico. Además, tiene un uso importante en combinación con ciertos antibióticos, como la penicilina, para aumentar y prolongar sus niveles en la sangre, mejorando así su efectividad contra infecciones graves. Su importancia clínica radica en ser una opción terapéutica clave para el manejo a largo plazo de la hiperuricemia (exceso de ácido úrico) y en potenciar la terapia antibiótica, aunque su uso ha disminuido con la llegada de otros fármacos. Es crucial que el paciente mantenga una buena hidratación durante su uso para prevenir la formación de cálculos renales.",
+  "pharmacology": {
+    "mechanismOfAction": "El probenecid actúa principalmente a nivel de los túbulos renales. Inhibe de manera reversible y competitiva el transportador de aniones orgánicos 1 (OAT1) y el transportador de aniones orgánicos 3 (OAT3) en la membrana basolateral de las células del túbulo proximal del riñón. Estos transportadores son responsables de la reabsorción (recaptación) del ácido úrico desde la orina de vuelta a la sangre. Al bloquear esta reabsorción, el probenecid aumenta la excreción urinaria de ácido úrico, reduciendo así sus niveles en el plasma sanguíneo (hiperuricemia). Además, el probenecid compite con otros ácidos orgánicos, como los antibióticos beta-lactámicos (penicilinas, cefalosporinas), por los sistemas de secreción tubular activa, lo que retrasa su eliminación renal y aumenta sus concentraciones plasmáticas y su duración de acción.",
+    "pharmacologicClass": "Inhibidor del transportador de aniones orgánicos renal (OAT1/OAT3). Agente uricosúrico.",
+    "therapeuticClass": "Agente antigotoso. Potenciador de antibióticos.",
+    "absorption": "Se absorbe bien por vía oral después de la administración. La absorción es casi completa (aproximadamente 90-95%) desde el tracto gastrointestinal. La presencia de alimentos puede retrasar ligeramente su absorción, pero no afecta significativamente la cantidad total absorbida.",
+    "distribution": "Se distribuye ampliamente en los fluidos corporales. Su unión a proteínas plasmáticas es alta, aproximadamente del 85% al 95%. Su volumen de distribución (Vd) es relativamente bajo, alrededor de 0.15-0.2 L/kg, lo que indica que se distribuye principalmente en el plasma y el líquido extracelular.",
+    "metabolism": "El probenecid se metaboliza extensamente en el hígado. Se glucuronida (conjugado con ácido glucurónico) para formar metabolitos inactivos. También se oxida para formar metabolitos activos menores, como el probenecid glucurónido y el N-propil análogo. Las enzimas del citocromo P450 (CYP) no están significativamente involucradas en su metabolismo principal.",
+    "elimination": "La vida media de eliminación es de aproximadamente 4 a 12 horas, dependiendo de la dosis y la función renal. Se elimina principalmente por vía renal. Aproximadamente del 5% al 10% se excreta sin cambios en la orina, y el resto se elimina como metabolitos glucurónidos. La excreción es más rápida a pH alcalino de la orina.",
+    "onsetOfAction": "La reducción de los niveles séricos de ácido úrico comienza dentro de las primeras 24 a 48 horas después de iniciar la dosis terapéutica. Sin embargo, el efecto completo para prevenir ataques de gota puede tardar varias semanas.",
+    "durationOfAction": "Su efecto uricosúrico dura aproximadamente de 8 a 12 horas después de una dosis única, por lo que generalmente se administra en dos dosis diarias para mantener un efecto constante."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento de la hiperuricemia asociada con gota y artritis gotosa crónica.",
+      "Profilaxis (prevención) de ataques agudos de gota durante la fase inicial de terapia con agentes hipouricemiantes.",
+      "Adyuvante para prolongar y elevar los niveles plasmáticos de antibióticos beta-lactámicos (penicilinas, cefalosporinas) en infecciones graves."
+    ],
+    "offLabel": [
+      "Tratamiento coadyuvante en infecciones de transmisión sexual (ITS) como gonorrea, para potenciar la ceftriaxona (aunque este uso es menos común actualmente).",
+      "Potenciación de otros fármacos excretados renalmente por los transportadores OAT."
+    ]
+  },
+  "dosage": {
+    "adults": "Para Gota/Hiperuricemia: Inicial: 250 mg dos veces al día por una semana. Luego aumentar a 500 mg dos veces al día. Dosis de mantenimiento: 500 mg a 1 gramo dos veces al día. La dosis máxima común es de 2 gramos al día. Para Potenciar Antibióticos: 2 gramos al día en dosis divididas (ej. 500 mg cada 6 horas o 1 gramo cada 12 horas), generalmente iniciando antes o junto con el antibiótico.",
+    "pediatric": "Para Potenciar Antibióticos (mayores de 2 años): Dosis inicial: 25 mg/kg (o 700 mg/m² de superficie corporal). Dosis de mantenimiento: 10 mg/kg (o 300 mg/m²) cada 6 horas. No se recomienda para el tratamiento de la gota en niños.",
+    "elderly": "Iniciar con dosis más bajas (ej. 250 mg dos veces al día) debido a la posible disminución de la función renal. Ajustar según la función renal (TFG) y la tolerancia.",
+    "renalImpairment": "Contraindicado en insuficiencia renal grave (TFG <30 mL/min). En insuficiencia renal moderada (TFG 30-50 mL/min), usar con precaución y a dosis reducidas, ya que su eficacia disminuye y el riesgo de toxicidad aumenta. Monitorizar niveles de ácido úrico y función renal.",
+    "hepaticImpairment": "No se requieren ajustes de dosis específicos en insuficiencia hepática leve a moderada. Usar con precaución en insuficiencia hepática grave debido a alteraciones en el metabolismo y la unión a proteínas.",
+    "maxDose": "Dosis máxima diaria: 3 gramos (3000 mg), aunque rara vez se exceden los 2 gramos al día en la práctica clínica habitual."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "500 mg"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al probenecid.",
+      "Insuficiencia renal aguda o crónica grave (TFG <30 mL/min).",
+      "Cálculos renales de ácido úrico activos o historia de ellos.",
+      "Hiperuricemia secundaria a neoplasias (ej. leucemia, linfoma) o tratamiento citotóxico (riesgo de síndrome de lisis tumoral).",
+      "Niños menores de 2 años.",
+      "Porfiria aguda intermitente."
+    ],
+    "relative": [
+      "Historia de úlcera péptica activa.",
+      "Deficiencia de glucosa-6-fosfato deshidrogenasa (G6PD) (riesgo de anemia hemolítica).",
+      "Insuficiencia renal moderada (TFG 30-50 mL/min).",
+      "Embarazo y lactancia (evaluar riesgo-beneficio)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Dolor de cabeza.",
+      "Náuseas.",
+      "Vómitos."
+    ],
+    "common": [
+      "Pérdida del apetito (anorexia).",
+      "Mareos.",
+      "Sensación de malestar general.",
+      "Dolor en las articulaciones (artralgias) al inicio del tratamiento.",
+      "Sarpullido o erupciones cutáneas leves."
+    ],
+    "uncommon": [
+      "Fiebre.",
+      "Picazón (prurito).",
+      "Caída del cabello (alopecia).",
+      "Sabor metálico en la boca.",
+      "Sofocos (flushing).",
+      "Formación de cálculos renales (urolitiasis) o cólico renal.",
+      "Anemia hemolítica (en pacientes con deficiencia de G6PD)."
+    ],
+    "rare": [
+      "Reacciones de hipersensibilidad graves (anafilaxia, síndrome de Stevens-Johnson, necrólisis epidérmica tóxica).",
+      "Síndrome nefrótico (daño renal grave).",
+      "Anemia aplásica.",
+      "Crisis gotosa aguda al inicio del tratamiento.",
+      "Hepatitis tóxica."
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Salicilatos (Aspirina en dosis bajas)",
+        "effect": "Los salicilatos antagonizan el efecto uricosúrico del probenecid, reduciendo su eficacia para bajar el ácido úrico. En dosis altas, ambos pueden aumentar los niveles de ácido úrico.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Metotrexato",
+        "effect": "El probenecid reduce la eliminación renal del metotrexato, aumentando significativamente sus niveles en sangre y el riesgo de toxicidad grave (mielosupresión, mucositis).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "AINEs (Ibuprofeno, Naproxeno, etc.)",
+        "effect": "Puede aumentar las concentraciones plasmáticas de algunos AINEs, potencialmente incrementando el riesgo de efectos adversos gastrointestinales y renales.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Penicilinas y Cefalosporinas",
+        "effect": "El probenecid aumenta y prolonga los niveles sanguíneos de estos antibióticos. Esta interacción es deseable y terapéutica cuando se busca potenciar el antibiótico.",
+        "severity": "Moderada (terapéutica)"
+      },
+      {
+        "drug": "Zidovudina (AZT)",
+        "effect": "El probenecid puede disminuir la eliminación de la zidovudina, aumentando su concentración y el riesgo de toxicidad (como anemia).",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Fármacos que inhiben la secreción tubular (ej. Diuréticos tiazídicos)",
+        "effect": "Pueden reducir el efecto uricosúrico del probenecid y aumentar los niveles de ácido úrico.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Se puede tomar con alimentos o leche para disminuir las molestias gastrointestinales. Se debe evitar el consumo excesivo de alcohol, ya que puede aumentar los niveles de ácido úrico y contrarrestar el efecto del medicamento, además de aumentar el riesgo de daño hepático. Mantener una ingesta abundante de líquidos (agua) para prevenir cálculos renales.",
+    "withSupplements": "Evitar el uso de suplementos que contengan altas dosis de vitamina C (ácido ascórbico), ya que pueden acidificar la orina y aumentar el riesgo de formación de cálculos de ácido úrico. Los suplementos de salicilatos (como la corteza de sauce) pueden interferir con su efecto."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA B",
+      "recommendation": "Los estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. Solo debe usarse durante el embarazo si el beneficio potencial justifica claramente el riesgo potencial para el feto. Su uso para potenciar antibióticos en infecciones graves maternas puede considerarse.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se desconoce si el probenecid se excreta en la leche materna humana. Debido al potencial de reacciones adversas graves en lactantes, se debe decidir si se suspende la lactancia o se suspende el medicamento, teniendo en cuenta la importancia del fármaco para la madre. Consultar con el médico.",
+    "pediatric": "No se recomienda para el tratamiento de la gota en niños. Su uso está aprobado para potenciar antibióticos en niños mayores de 2 años. La seguridad y eficacia en menores de 2 años no están establecidas.",
+    "geriatric": "Los pacientes mayores de 65 años tienen mayor probabilidad de tener función renal disminuida. Se debe iniciar con dosis bajas y ajustar según la TFG. Son más susceptibles a los efectos adversos, especialmente mareos y problemas renales. Monitorizar de cerca."
+  },
+  "administration": {
+    "howToTake": "Tomar las tabletas por vía oral, generalmente dos veces al día (cada 12 horas) para la gota. Se puede tomar con alimentos o un vaso lleno de agua (al menos 240 ml) para reducir el malestar estomacal y prevenir cálculos renales. Para potenciar antibióticos, seguir estrictamente el horario indicado por el médico (ej. cada 6 horas). No triturar ni masticar las tabletas a menos que lo indique el médico o farmacéutico.",
+    "storage": "Almacenar a temperatura ambiente (entre 15°C y 30°C), en un lugar seco y fuera del alcance de la luz directa y la humedad. Mantener en su envase original, bien cerrado. No almacenar en el baño ni cerca de la cocina.",
+    "specialInstructions": "Es fundamental beber al menos de 2 a 3 litros de líquidos al día (preferentemente agua) para mantener la orina diluida y prevenir la formación de cálculos renales de ácido úrico. Al inicio del tratamiento para la gota, el médico puede recetar un antiinflamatorio (como colchicina) para prevenir un ataque agudo. No tomar aspirina en dosis bajas (para el corazón) a menos que el médico lo autorice, ya que puede anular el efecto del probenecid."
+  },
+  "monitoring": {
+    "labTests": [
+      "Nivel sérico de ácido úrico (para evaluar eficacia).",
+      "Creatinina sérica y TFG (para monitorear función renal).",
+      "Análisis de orina (para detectar cristales de ácido úrico).",
+      "Hemograma completo (especialmente al inicio, por riesgo de anemia).",
+      "Pruebas de función hepática (en casos seleccionados)."
+    ],
+    "frequency": "Al inicio del tratamiento y luego cada 3 a 6 meses para monitorear ácido úrico y función renal. En terapia a largo plazo para la gota, al menos una vez al año. Si se usa para potenciar antibióticos, el monitoreo se centra en la infección y la función renal.",
+    "signsToWatch": [
+      "Dolor intenso en la espalda baja o lateral (cólico renal).",
+      "Sangre en la orina (hematuria).",
+      "Dolor articular agudo e inflamación (ataque de gota).",
+      "Erupción cutánea grave, ampollas o descamación.",
+      "Fiebre, dolor de garganta, moretones o sangrado inusual (signos de problemas sanguíneos).",
+      "Ictericia (coloración amarilla de piel u ojos).",
+      "Náuseas o vómitos severos y persistentes."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Náuseas, vómitos y dolor estomacal intensos.",
+      "Mareos, confusión o convulsiones.",
+      "Dificultad para respirar.",
+      "Síntomas de toxicidad por fármacos potenciados (ej. neurotoxicidad por penicilina en dosis altas)."
+    ],
+    "treatment": "No hay antídoto específico. El tratamiento es de soporte y sintomático. Inducir el vómito o realizar lavado gástrico si la ingestión es reciente. Administrar carbón activado. Mantener una diuresis alcalina forzada (con bicarbonato de sodio intravenoso) para aumentar la excreción del probenecid y prevenir la cristalización de ácido úrico. Monitorear y tratar las convulsiones o la depresión del SNC si ocurren. La diálisis no es muy efectiva debido a la alta unión a proteínas.",
+    "antidote": "No existe un antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Rx).",
+    "scheduleMexico": "Fracción III (Medicamento de venta con receta médica).",
+    "fdaApprovalYear": "Aprobado por la FDA en 1951."
+  },
+  "brandsMexico": [
+    "Probenecid Genfar",
+    "Probenecid Rimsa",
+    "Probenecid Liomont",
+    "Probenecid PiSA",
+    "Benemid (marca original, posiblemente descontinuada)"
+  ],
+  "clinicalPearls": [
+    "El probenecid puede desencadenar un ataque agudo de gota al inicio del tratamiento, ya que la movilización de los depósitos de ácido úrico puede causar inflamación. Por esto, a menudo se inicia junto con colchicina o un AINE en dosis profiláctica durante los primeros 3-6 meses.",
+    "Su eficacia disminuye considerablemente en pacientes con insuficiencia renal (TFG <50 mL/min), ya que depende de una filtración glomerular adecuada para ejercer su efecto en los túbulos.",
+    "Aunque ha sido desplazado por los inhibidores de la xantina oxidasa (como alopurinol y febuxostat) como terapia de primera línea para la gota crónica, el probenecid sigue siendo una opción valiosa en pacientes con hipoexcretores de ácido úrico (aquellos que eliminan poco ácido úrico por la orina) y función renal normal."
+  ],
+  "patientCounseling": "Es muy importante que tome este medicamento exactamente como se lo recetó su médico, generalmente dos veces al día. Para evitar problemas estomacales, tómelo con alimentos o un vaso lleno de agua. La regla de oro es BEBER MUCHA AGUA: intente tomar al menos 8 vasos grandes (unos 2-3 litros) de líquidos al día. Esto ayuda a que sus riñones trabajen bien y previene la formación de piedras dolorosas. Al empezar el tratamiento, es normal que pueda tener un ataque de gota; no suspenda el medicamento, su médico puede darle algo para prevenirlo o tratarlo. Evite tomar aspirina (ácido acetilsalicílico) para el dolor de cabeza o corazón a menos que su médico lo sepa, porque puede hacer que el probenecid no funcione. Informe a su médico si presenta dolor lumbar intenso, sangre en la orina, sarpullido grave o fiebre. No deje de tomarlo sin hablar con su médico, aunque se sienta mejor.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor articular por gota",
+        "slug": "dolor-articular-por-gota"
+      },
+      {
+        "name": "Inflamación de articulaciones",
+        "slug": "inflamacion-de-articulaciones"
+      },
+      {
+        "name": "Nódulos bajo la piel (tofos)",
+        "slug": "nodulos-bajo-la-piel-tofos"
+      },
+      {
+        "name": "Hiperuricemia (ácido úrico alto)",
+        "slug": "hiperuricemia-acido-urico-alto"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Gota crónica",
+        "slug": "gota-cronica"
+      },
+      {
+        "name": "Artritis gotosa",
+        "slug": "artritis-gotosa"
+      },
+      {
+        "name": "Hiperuricemia asintomática (en casos seleccionados)",
+        "slug": "hiperuricemia-asintomatica"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Cálculos renales (urolitiasis)",
+        "slug": "calculos-renales-urolitiasis"
+      },
+      {
+        "name": "Cólico renal",
+        "slug": "colico-renal"
+      },
+      {
+        "name": "Ataque agudo de gota",
+        "slug": "ataque-agudo-de-gota"
+      },
+      {
+        "name": "Anemia hemolítica",
+        "slug": "anemia-hemolitica"
+      },
+      {
+        "name": "Reacción alérgica cutánea grave",
+        "slug": "reaccion-alergica-cutanea-grave"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Ácido úrico sérico",
+        "slug": "acido-urico-serico",
+        "effect": "Disminuye"
+      },
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar (si hay daño renal)"
+      },
+      {
+        "name": "Concentración de penicilina en sangre",
+        "slug": "concentracion-de-penicilina-en-sangre",
+        "effect": "Aumenta"
+      },
+      {
+        "name": "pH de la orina",
+        "slug": "ph-de-la-orina",
+        "effect": "Puede alterar (se busca alcalinizar)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Ácido úrico en sangre",
+        "slug": "acido-urico-en-sangre",
+        "reason": "Para monitorear la eficacia del tratamiento en la gota."
+      },
+      {
+        "name": "Creatinina y TFG",
+        "slug": "creatinina-y-tfg",
+        "reason": "Para evaluar la función renal antes y durante el tratamiento, ya que es crucial para su uso seguro."
+      },
+      {
+        "name": "Análisis general de orina",
+        "slug": "analisis-general-de-orina",
+        "reason": "Para detectar cristales de ácido úrico y signos de daño renal."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora eGFR",
+        "slug": "calculadora-egfr"
+      },
+      {
+        "name": "Aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve el probenecid?",
+      "a": "El probenecid sirve principalmente para dos cosas: 1) Para tratar la gota crónica y bajar los niveles altos de ácido úrico en la sangre, ayudando a prevenir ataques dolorosos. 2) Para potenciar el efecto de ciertos antibióticos (como penicilinas) en infecciones graves, haciendo que duren más tiempo en su cuerpo y sean más efectivos."
+    },
+    {
+      "q": "¿Cómo debo tomar el probenecid?",
+      "a": "Tómelo por vía oral, generalmente dos veces al día (cada 12 horas) para la gota, o según el horario específico si se usa con un antibiótico. Es mejor tomarlo con alimentos o un vaso grande de agua para evitar malestar estomacal. No triture las tabletas a menos que su médico o farmacéutico se lo indique."
+    },
+    {
+      "q": "¿Qué pasa si olvido una dosis?",
+      "a": "Si olvida una dosis, tómela tan pronto como lo recuerde. Sin embargo, si ya es casi la hora de su siguiente dosis, omita la dosis olvidada y continúe con su horario normal. No tome una dosis doble para compensar la que olvidó."
+    },
+    {
+      "q": "¿El probenecid causa sueño o mareos?",
+      "a": "Sí, el mareo es un efecto secundario común. Algunas personas también pueden sentir somnolencia. Evite manejar maquinaria pesada o conducir hasta que sepa cómo le afecta este medicamento. Si los mareos son severos, consulte a su médico."
+    },
+    {
+      "q": "¿Puedo tomar alcohol mientras uso probenecid?",
+      "a": "No se recomienda. El alcohol puede aumentar los niveles de ácido úrico, contrarrestando el efecto del medicamento para la gota. Además, puede empeorar los efectos secundarios como mareos y aumentar el riesgo de daño hepático."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto para la gota?",
+      "a": "Comienza a bajar el ácido úrico en la sangre en 1 o 2 días, pero puede tomar varias semanas o incluso meses de tratamiento constante para prevenir por completo los ataques de gota y reducir los depósitos de ácido úrico (tofos)."
+    },
+    {
+      "q": "¿Puede el probenecid causar un ataque de gota al principio?",
+      "a": "Sí, es posible. Al empezar el tratamiento, los depósitos de ácido úrico en las articulaciones pueden movilizarse y desencadenar un ataque agudo. Por eso, a menudo los médicos recetan otro medicamento (como colchicina) durante los primeros meses para prevenir esto."
+    },
+    {
+      "q": "¿Por qué debo tomar tanta agua con este medicamento?",
+      "a": "Beber mucha agua (al menos 2-3 litros al día) es crucial porque el probenecid aumenta la cantidad de ácido úrico en la orina. Si la orina está muy concentrada, el ácido úrico puede formar cristales y piedras en los riñones, lo cual es muy doloroso. El agua diluye la orina y previene esto."
+    },
+    {
+      "q": "¿Puedo tomar aspirina (ácido acetilsalicílico) con probenecid?",
+      "a": "Generalmente NO, especialmente la aspirina en dosis bajas (como la que se usa para el corazón). La aspirina puede bloquear el efecto del probenecid para bajar el ácido úrico. Consulte siempre a su médico antes de tomar cualquier medicamento que contenga aspirina."
+    },
+    {
+      "q": "¿El probenecid es lo mismo que el alopurinol?",
+      "a": "No, son diferentes. Ambos se usan para la gota, pero funcionan de manera distinta. El alopurinol reduce la producción de ácido úrico en el cuerpo, mientras que el probenecid ayuda a los riñones a eliminarlo. Su médico elegirá el más adecuado para su caso."
+    },
+    {
+      "q": "¿Qué alimentos debo evitar si tomo probenecid para la gota?",
+      "a": "Debe seguir una dieta baja en purinas para ayudar al tratamiento. Evite o limite: carnes rojas, vísceras (hígado, riñón), mariscos, alcohol (especialmente cerveza) y bebidas azucaradas con fructosa. Prefiera lácteos bajos en grasa, vegetales y tome mucha agua."
+    },
+    {
+      "q": "¿Puedo usar probenecid si tengo problemas en los riñones?",
+      "a": "Depende de la gravedad. Si su función renal está muy disminuida (insuficiencia renal grave), el probenecid está contraindicado porque no funcionará bien y puede ser peligroso. Si el problema es leve o moderado, su médico puede ajustar la dosis y monitorearlo de cerca. Es esencial hacerse análisis de función renal."
+    },
+    {
+      "q": "¿El probenecid sube o baja la presión arterial?",
+      "a": "El probenecid no tiene un efecto directo significativo sobre la presión arterial. Sin embargo, algunos medicamentos para la presión (diuréticos como la hidroclorotiazida) pueden interferir con su efecto y aumentar el ácido úrico. Informe a su médico todos los medicamentos que toma."
+    },
+    {
+      "q": "¿Es seguro en el embarazo o lactancia?",
+      "a": "En el embarazo (Categoría B), solo debe usarse si el beneficio justifica el riesgo. En lactancia, no se sabe si pasa a la leche materna, por lo que se debe evaluar con el médico si se suspende la lactancia o el medicamento. No se automedique."
+    },
+    {
+      "q": "¿Qué hago si tengo dolor de espalda fuerte o sangre en la orina?",
+      "a": "¡Detenga el medicamento y busque atención médica INMEDIATAMENTE! Estos pueden ser signos de un cálculo renal (piedra en el riñón), que es una complicación posible del probenecid si no se toma suficiente agua."
+    },
+    {
+      "q": "¿Puedo dejar de tomar probenecid de golpe cuando me sienta mejor?",
+      "a": "NO. Para la gota crónica, el probenecid es un tratamiento a largo plazo. Si lo suspende abruptamente, los niveles de ácido úrico volverán a subir y los ataques de gota reaparecerán. Solo suspéndalo bajo la supervisión de su médico."
+    },
+    {
+      "q": "¿El probenecid interactúa con otros medicamentos comunes?",
+      "a": "Sí, interactúa con varios. Los más importantes: Metotrexato (puede causar toxicidad grave), algunos antibióticos (los potencia), AINEs (como ibuprofeno, puede aumentar sus efectos) y diuréticos (pueden reducir su efecto). Siempre informe a su médico y farmacéutico sobre TODOS los medicamentos que usa, incluyendo hierbas y suplementos."
+    },
+    {
+      "q": "¿Por qué a veces se receta probenecid junto con un antibiótico?",
+      "a": "Porque el probenecid retrasa la eliminación del antibiótico por los riñones, manteniendo niveles más altos y duraderos en la sangre. Esto es útil para tratar infecciones difíciles, como algunas de transmisión sexual (ej. gonorrea) o infecciones graves por estafilococos, con penicilinas."
+    },
+    {
+      "q": "¿Cómo se ajusta la dosis en una persona mayor?",
+      "a": "En adultos mayores, se suele iniciar con una dosis más baja (ej. 250 mg dos veces al día) porque es común que tengan la función renal disminuida. Luego, la dosis se ajusta lentamente según la respuesta y los resultados de los análisis de sangre (creatinina, TFG)."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre el efecto uricosúrico del probenecid y otros fármacos como la benzbromarona?",
+      "a": "Ambos son uricosúricos, pero actúan en diferentes transportadores renales. La benzbromarona es más potente y puede ser efectiva incluso con cierta insuficiencia renal, pero tiene un riesgo mayor de toxicidad hepática grave. El probenecid es más seguro a nivel hepático pero menos potente y depende de una buena función renal. La elección depende del perfil del paciente y la disponibilidad del medicamento."
+    }
+  ]
+}

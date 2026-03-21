@@ -1,0 +1,397 @@
+{
+  "name": "Cefdinir",
+  "summary": "El Cefdinir es un antibiótico de la familia de las cefalosporinas de tercera generación, utilizado para combatir infecciones bacterianas. Actúa eliminando las bacterias que causan enfermedades, impidiendo que formen su pared celular, lo que las debilita y mata. Es especialmente importante en México para tratar infecciones comunes como faringitis estreptocócica, sinusitis, otitis media y bronquitis aguda, causadas por bacterias sensibles. Su amplio espectro de acción y su administración oral (una o dos veces al día) lo hacen una opción conveniente y efectiva para pacientes de todas las edades, ayudando a reducir la necesidad de antibióticos inyectables y facilitando el cumplimiento del tratamiento. Es crucial tomarlo exactamente como lo indica el médico para asegurar la curación completa y prevenir el desarrollo de resistencia bacteriana, un problema de salud pública creciente.",
+  "pharmacology": {
+    "mechanismOfAction": "El Cefdinir es un antibiótico bactericida, lo que significa que mata directamente a las bacterias. Su mecanismo de acción principal es inhibir la síntesis de la pared celular bacteriana. Lo logra al unirse de forma irreversible a unas proteínas específicas llamadas Proteínas Fijadoras de Penicilina (PBP), que son enzimas esenciales para la construcción y reparación de la pared celular. Al bloquear estas enzimas, el Cefdinir impide la formación de los enlaces cruzados de peptidoglicano, que son como los 'ladrillos y cemento' de la pared bacteriana. Esto debilita gravemente la pared, la bacteria no puede mantener su integridad estructural, absorbe agua en exceso y finalmente estalla (lisis celular), muriendo. Es especialmente activo contra bacterias Gram-positivas y Gram-negativas.",
+    "pharmacologicClass": "Antibiótico beta-lactámico; Cefalosporina de tercera generación (oral).",
+    "therapeuticClass": "Antibiótico sistémico.",
+    "absorption": "Se absorbe bien por vía oral en el tracto gastrointestinal. La presencia de alimentos, especialmente aquellos con alto contenido de grasa, retrasa ligeramente la absorción y puede disminuir ligeramente la concentración máxima en sangre (Cmax), pero la cantidad total absorbida (AUC) no se afecta de manera clínicamente significativa. Por lo tanto, puede tomarse con o sin alimentos. La biodisponibilidad oral es aproximadamente del 16-25%.",
+    "distribution": "Se distribuye ampliamente en los fluidos y tejidos del cuerpo. Se une moderadamente a las proteínas plasmáticas, en un rango del 60% al 70%, principalmente a la albúmina. Su volumen de distribución (Vd) es de aproximadamente 0.35 L/kg, indicando una distribución principalmente en el espacio extracelular. Penetra bien en tejidos como amígdalas, líquido del oído medio, senos paranasales, pulmón, piel y líquido prostático.",
+    "metabolism": "El Cefdinir no se metaboliza significativamente en el hígado. No es sustrato del sistema de enzimas citocromo P450 (CYP450). Se elimina mayoritariamente sin cambios. Esto reduce el riesgo de interacciones farmacológicas mediadas por el hígado.",
+    "elimination": "Se elimina principalmente por vía renal, a través de la filtración glomerular. Aproximadamente el 85-90% de la dosis se excreta sin cambios en la orina en las primeras 24 horas. Su vida media de eliminación en adultos con función renal normal es de aproximadamente 1.7 horas. En pacientes con insuficiencia renal grave, esta vida media puede prolongarse significativamente, requiriendo ajustes de dosis.",
+    "onsetOfAction": "Las concentraciones plasmáticas terapéuticas se alcanzan entre 1 a 4 horas después de la administración de una dosis oral.",
+    "durationOfAction": "Debido a su vida media y efecto post-antibiótico, su dosificación típica es cada 12 o 24 horas, manteniendo concentraciones efectivas en el sitio de la infección durante ese período."
+  },
+  "indications": {
+    "approved": [
+      "Faringitis/amigdalitis aguda causada por Streptococcus pyogenes (estreptococo del grupo A)",
+      "Otitis media aguda causada por Haemophilus influenzae (cepas productoras y no productoras de beta-lactamasa), Moraxella catarrhalis (cepas productoras de beta-lactamasa) y Streptococcus pneumoniae",
+      "Sinusitis aguda (maxilar y etmoidal) causada por Haemophilus influenzae, Moraxella catarrhalis y Streptococcus pneumoniae",
+      "Bronquitis aguda y exacerbaciones agudas de bronquitis crónica causadas por Haemophilus influenzae, Haemophilus parainfluenzae, Moraxella catarrhalis y Streptococcus pneumoniae",
+      "Infecciones de piel y estructuras de la piel no complicadas (como celulitis, impétigo) causadas por Staphylococcus aureus (cepas meticilina-sensibles) y Streptococcus pyogenes"
+    ],
+    "offLabel": [
+      "Profilaxis de infecciones en procedimientos dentales en pacientes de alto riesgo (cuando no se tolera penicilina)",
+      "Infecciones del tracto urinario no complicadas causadas por Escherichia coli y Klebsiella pneumoniae",
+      "Neumonía adquirida en la comunidad de leve a moderada"
+    ]
+  },
+  "dosage": {
+    "adults": "Para la mayoría de las infecciones: 300 mg cada 12 horas O 600 mg una vez al día, durante 5 a 10 días. Para faringitis/amigdalitis: 300 mg cada 12 horas O 600 mg una vez al día, durante 10 días. Para infecciones de piel: 300 mg cada 12 horas, durante 10 días.",
+    "pediatric": "Se dosifica por peso corporal. Dosis habitual: 7 mg/kg cada 12 horas O 14 mg/kg una vez al día. Dosis máxima pediátrica: 600 mg al día. Para otitis media: 7 mg/kg cada 12 horas durante 5-10 días, o 14 mg/kg una vez al día durante 10 días. Para faringitis: 7 mg/kg cada 12 horas durante 10 días.",
+    "elderly": "No se requiere ajuste inicial basado solo en la edad. Sin embargo, es común que los adultos mayores tengan disminución de la función renal, por lo que la dosis debe ajustarse según el aclaramiento de creatinina (CrCl).",
+    "renalImpairment": "Ajustes necesarios: CrCl ≥ 30 mL/min: dosis estándar. CrCl < 30 mL/min (incluyendo diálisis): 300 mg una vez al día. En pacientes en hemodiálisis, administrar la dosis después de la sesión de diálisis, ya que el fármaco se elimina durante el procedimiento.",
+    "hepaticImpairment": "No se requiere ajuste de dosis, ya que el cefdinir no se metaboliza en el hígado. Sin embargo, se debe vigilar en casos de insuficiencia hepática grave por posibles alteraciones generales.",
+    "maxDose": "600 mg por día en adultos y adolescentes. En niños, la dosis máxima se basa en 14 mg/kg/día, sin exceder los 600 mg diarios."
+  },
+  "dosageForms": [
+    {
+      "form": "Cápsula",
+      "strengths": [
+        "300 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tableta",
+      "strengths": [
+        "300 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Suspensión oral (polvo para reconstituir)",
+      "strengths": [
+        "125 mg/5 mL",
+        "250 mg/5 mL"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad (alergia) conocida y grave al cefdinir o a cualquier cefalosporina.",
+      "Pacientes con antecedente de reacción anafiláctica (alergia grave) a cualquier antibiótico beta-lactámico (penicilinas, cefalosporinas, carbapenémicos, monobactámicos)."
+    ],
+    "relative": [
+      "Antecedente de hipersensibilidad leve a penicilinas (como solo salpullido). En este caso, puede usarse con precaución, ya que el riesgo de reacción cruzada es bajo (1-7%).",
+      "Insuficiencia renal grave (ajustar dosis, no contraindicación absoluta).",
+      "Colitis pseudomembranosa previa asociada a antibióticos (usar con extrema precaución)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Diarrea (puede ser acuosa o con sangre, indicando posible colitis)",
+      "Náuseas"
+    ],
+    "common": [
+      "Dolor abdominal",
+      "Cefalea (dolor de cabeza)",
+      "Vaginitis (infección por hongos o irritación)",
+      "Erupciones cutáneas",
+      "Vómitos"
+    ],
+    "uncommon": [
+      "Flatulencia (gases)",
+      "Mareo",
+      "Indigestión",
+      "Prurito (comezón)",
+      "Elevación transitoria de enzimas hepáticas (ALT, AST)"
+    ],
+    "rare": [
+      "Colitis pseudomembranosa (infección grave por Clostridioides difficile)",
+      "Reacciones alérgicas graves (anafilaxia, angioedema)",
+      "Síndrome de Stevens-Johnson",
+      "Necrólisis epidérmica tóxica",
+      "Anemia hemolítica",
+      "Alteraciones en los valores de laboratorio (eosinofilia, neutropenia, elevación de BUN/creatinina)"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Antiácidos que contienen magnesio o aluminio (Ej. Alka-Seltzer, Maalox, Mylanta)",
+        "effect": "Disminuyen significativamente la absorción del cefdinir, reduciendo su efectividad. Se debe separar la administración al menos 2 horas.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Suplementos de hierro o multivitamínicos con hierro",
+        "effect": "Reducen la absorción del cefdinir. También, el cefdinir puede formar un complejo insoluble con el hierro, dando una coloración rojiza a las heces (no es sangre). Separar la administración al menos 2 horas.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Probióticos (como Saccharomyces boulardii, Lactobacillus)",
+        "effect": "Los antibióticos pueden reducir la eficacia de los probióticos. Se recomienda separar su administración al menos 2-3 horas.",
+        "severity": "Leve"
+      }
+    ],
+    "withFood": "Puede tomarse con o sin alimentos. Tomarlo con alimentos puede ayudar a reducir molestias estomacales como náuseas. Sin embargo, NO debe tomarse con suplementos de hierro o antiácidos (ver interacciones mayores). El consumo de alcohol no interactúa directamente con el cefdinir, pero se desaconseja porque puede empeorar efectos secundarios como náuseas y mareo, y porque el alcohol puede debilitar el sistema inmunológico, interfiriendo con la recuperación.",
+    "withSupplements": "Interactúa con suplementos que contienen hierro, aluminio, calcio o magnesio (como carbonato de calcio, óxido de magnesio). Separar la administración al menos 2 horas. No se conocen interacciones significativas con vitaminas comunes (sin hierro), omega-3 o la mayoría de los suplementos herbales."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "B",
+      "recommendation": "Estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. Debe usarse durante el embarazo solo si el beneficio potencial justifica claramente el riesgo potencial para el feto. Consultar siempre al médico.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "El cefdinir se excreta en la leche materna en cantidades muy bajas. Se considera generalmente compatible con la lactancia, ya que es poco probable que cause efectos adversos en el lactante. Sin embargo, se debe observar al bebé por posibles efectos como diarrea o candidiasis (hongos en la boca). Consultar al médico.",
+    "pediatric": "Aprobado para uso en niños a partir de los 6 meses de edad en presentación de suspensión oral. La dosis se calcula cuidadosamente según el peso. Es una opción común para otitis media y faringitis estreptocócica en pediatría. La suspensión reconstituida debe guardarse en refrigeración y desecharse después de 10 días.",
+    "geriatric": "Los pacientes mayores de 65 años son más susceptibles a los efectos adversos, especialmente diarrea y colitis por C. difficile. Es fundamental evaluar la función renal (con cálculo de TFG) antes de iniciar el tratamiento y ajustar la dosis si es necesario, ya que el declive renal es común en este grupo."
+  },
+  "administration": {
+    "howToTake": "Tragar las cápsulas o tabletas enteras con un vaso lleno de agua (240 mL). Puede tomarse con o sin alimentos para reducir malestar estomacal. Para la suspensión oral: agitar bien el frasco antes de cada uso. Usar el dosificador (jeringa o cuchara) que viene con el medicamento para medir la dosis exacta. NO usar una cuchara de cocina. Completa TODO el tratamiento recetado, incluso si te sientes mejor a los pocos días, para evitar que la infección regrese o que las bacterias se vuelvan resistentes.",
+    "storage": "Cápsulas/Tabletas: Guardar a temperatura ambiente (15-30°C), en un lugar seco y fuera del alcance de los niños. Suspensión oral: Una vez reconstituida con agua, guardar en el refrigerador (2-8°C). NO congelar. La suspensión reconstituida es estable por 10 días; desechar cualquier sobrante después de este tiempo. Agitar bien antes de cada uso.",
+    "specialInstructions": "Si olvida una dosis, tómela tan pronto como lo recuerde. Sin embargo, si ya es casi la hora de la siguiente dosis, omita la dosis olvidada y continúe con su horario regular. NO duplique la dosis para compensar la olvidada. Informe a su médico si desarrolla diarrea acuosa o con sangre durante o después del tratamiento. Las heces de color rojo o naranja pueden ser un efecto inofensivo del medicamento (especialmente si toma suplementos de hierro), pero si hay duda, consulte a su médico."
+  },
+  "monitoring": {
+    "labTests": [
+      "Cultivo y antibiograma (para confirmar bacteria sensible)",
+      "Conteo sanguíneo completo (CSC) en tratamientos prolongados",
+      "Pruebas de función renal (creatinina sérica, BUN) en ancianos o pacientes con riesgo",
+      "Pruebas de función hepática (ALT, AST) en casos seleccionados",
+      "Examen de heces (si hay diarrea persistente, para descartar C. difficile)"
+    ],
+    "frequency": "Generalmente no se requiere monitoreo de laboratorio de rutina en tratamientos cortos (5-10 días) en pacientes sanos. En tratamientos prolongados, en pacientes con insuficiencia renal, o si aparecen síntomas de alarma, se pueden solicitar pruebas según criterio médico.",
+    "signsToWatch": [
+      "Diarrea acuosa o con sangre, dolor abdominal intenso o fiebre (posible colitis)",
+      "Erupción cutánea, urticaria, picazón, hinchazón de cara/lengua/garganta, dificultad para respirar (signos de alergia)",
+      "Fiebre persistente o que empeora después de 2-3 días de tratamiento",
+      "Aparición de manchas blancas en la boca o lengua (candidiasis oral)",
+      "Sarpullido en la zona genital (vaginitis)"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Náuseas y vómitos severos",
+      "Diarrea profusa",
+      "Dolor abdominal cólico",
+      "Convulsiones (en casos muy graves y raros)"
+    ],
+    "treatment": "El tratamiento es de soporte y sintomático. No hay antídoto específico. En caso de ingestión reciente, se puede considerar el lavado gástrico o la administración de carbón activado. Se debe mantener una hidratación adecuada y corregir los desequilibrios electrolíticos. La hemodiálisis puede eliminar parcialmente el cefdinir de la sangre y puede ser considerada en casos de sobredosis masiva, especialmente en pacientes con insuficiencia renal.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Rx).",
+    "scheduleMexico": "Medicamento de la Fracción IV del Cuadro Básico de la COFEPRIS. Sujetos a control sanitario, venta solo con receta.",
+    "fdaApprovalYear": "1997 (Estados Unidos)"
+  },
+  "brandsMexico": [
+    "Cefdin",
+    "Cefdinir",
+    "Dinecef",
+    "Kefnir",
+    "Omnicef",
+    "Zemdri"
+  ],
+  "clinicalPearls": [
+    "El cefdinir tiene un sabor agradable en suspensión (sabor a fresa), lo que mejora la adherencia en niños.",
+    "Puede causar una coloración rojiza o naranja inofensiva en las heces, especialmente si se toma con suplementos de hierro. No confundir con sangre.",
+    "Es una excelente alternativa oral para pacientes alérgicos a la penicilina (con antecedentes no anafilácticos), debido al bajo riesgo de reacción cruzada.",
+    "Su dosificación de una vez al día mejora el cumplimiento del tratamiento comparado con antibióticos que se toman 3 o 4 veces al día.",
+    "No es efectivo contra bacterias resistentes como MRSA (Staphylococcus aureus resistente a meticilina) o enterococos."
+  ],
+  "patientCounseling": "Toma el cefdinir exactamente como te lo recetó tu médico. No dejes de tomarlo aunque te sientas mejor, porque la infección podría regresar y las bacterias volverse más fuertes (resistentes). Si tomas antiácidos (como Gelox) o vitaminas con hierro, tómalos al menos 2 horas antes o después del cefdinir. Bebe mucha agua durante el tratamiento. Si presentas diarrea líquida o con sangre, dolor de estómago fuerte, sarpullido, dificultad para respirar o hinchazón de cara/labios, DEJAS de tomar el medicamento y contacta a tu médico INMEDIATAMENTE. Guarda la suspensión en el refrigerador y agítala bien antes de medir cada dosis con el dosificador que viene en la caja.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor de garganta intenso",
+        "slug": "dolor-de-garganta"
+      },
+      {
+        "name": "Fiebre",
+        "slug": "fiebre"
+      },
+      {
+        "name": "Tos con flemas",
+        "slug": "tos-con-flemas"
+      },
+      {
+        "name": "Dolor de oído",
+        "slug": "dolor-de-oido"
+      },
+      {
+        "name": "Congestión y dolor facial",
+        "slug": "congestion-nasal"
+      },
+      {
+        "name": "Enrojecimiento e hinchazón de la piel",
+        "slug": "eritema-piel"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Faringitis estreptocócica",
+        "slug": "faringitis-estreptococica"
+      },
+      {
+        "name": "Otitis media aguda",
+        "slug": "otitis-media"
+      },
+      {
+        "name": "Sinusitis aguda",
+        "slug": "sinusitis-aguda"
+      },
+      {
+        "name": "Bronquitis aguda",
+        "slug": "bronquitis-aguda"
+      },
+      {
+        "name": "Celulitis",
+        "slug": "celulitis"
+      },
+      {
+        "name": "Impetigo",
+        "slug": "impetigo"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Colitis pseudomembranosa",
+        "slug": "colitis-pseudomembranosa"
+      },
+      {
+        "name": "Candidiasis oral o vaginal",
+        "slug": "candidiasis"
+      },
+      {
+        "name": "Reacción alérgica medicamentosa",
+        "slug": "alergia-medicamentos"
+      },
+      {
+        "name": "Resistencia bacteriana a antibióticos",
+        "slug": "resistencia-antibioticos"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevarse levemente"
+      },
+      {
+        "name": "Nitrógeno ureico (BUN)",
+        "slug": "nitrogeno-ureico",
+        "effect": "Puede elevarse levemente"
+      },
+      {
+        "name": "Enzimas hepáticas (ALT, AST)",
+        "slug": "transaminasas",
+        "effect": "Puede elevarse transitoriamente"
+      },
+      {
+        "name": "Eosinófilos",
+        "slug": "eosinofilos",
+        "effect": "Puede elevarse (eosinofilia)"
+      },
+      {
+        "name": "Neutrófilos",
+        "slug": "neutrofilos",
+        "effect": "Puede disminuir (neutropenia)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Cultivo y antibiograma",
+        "slug": "cultivo-antibiograma",
+        "reason": "Confirmar bacteria causante y sensibilidad al cefdinir"
+      },
+      {
+        "name": "Prueba rápida para estreptococo",
+        "slug": "prueba-rapida-estreptococo",
+        "reason": "Diagnosticar faringitis estreptocócica antes de iniciar antibiótico"
+      },
+      {
+        "name": "Tasa de filtración glomerular (TFG)",
+        "slug": "tasa-filtracion-glomerular",
+        "reason": "Ajustar dosis en pacientes con posible daño renal"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de IMC",
+        "slug": "calculadora-imc"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿El cefdinir es lo mismo que la penicilina?",
+      "a": "No, son antibióticos de familias diferentes (cefalosporina vs. penicilina), pero son parientes lejanos. Si es alérgico a la penicilina, puede usarse cefdinir con precaución, pero debe informar a su médico sobre su alergia."
+    },
+    {
+      "q": "¿Puedo tomar cefdinir si estoy embarazada o amamantando?",
+      "a": "Solo bajo estricta supervisión médica. Los estudios en humanos son limitados. Consulte a su médico para evaluar riesgos y beneficios. En lactancia, se excreta poco en la leche, pero se debe vigilar al bebé."
+    },
+    {
+      "q": "¿Con qué alimentos o medicamentos NO debo tomarlo?",
+      "a": "Evite tomarlo al mismo tiempo que antiácidos (como Mylanta) o suplementos/vitaminas con hierro. Separe la toma al menos 2 horas. Puede tomarse con o sin comida."
+    },
+    {
+      "q": "Mis heces se volvieron rojas/naranjas, ¿es grave?",
+      "a": "No, es un efecto secundario inofensivo y común del cefdinir, especialmente si también toma hierro. No es sangre. Pero si tiene dudas o ve sangre roja brillante, consulte a su médico."
+    },
+    {
+      "q": "¿Qué hago si olvido una dosis?",
+      "a": "Tómela tan pronto como lo recuerde. Si ya es casi la hora de la siguiente, omita la olvidada y continúe con su horario normal. NUNCA duplique la dosis."
+    },
+    {
+      "q": "¿El cefdinir me puede dar sueño o mareo?",
+      "a": "El mareo es un efecto secundario poco común. Si lo experimenta, evite manejar o operar maquinaria hasta que sepa cómo le afecta. No suele causar sueño."
+    },
+    {
+      "q": "¿Sirve para la gripe o el resfriado?",
+      "a": "NO. El cefdinir solo combate infecciones BACTERIANAS. La gripe y el resfriado común son causados por VIRUS. Usarlo para eso es inútil y contribuye a la resistencia bacteriana."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Puede empezar a sentirse mejor en 2 a 3 días. Sin embargo, es crucial completar TODOS los días de tratamiento recetados, aunque ya no tenga síntomas."
+    },
+    {
+      "q": "¿Puedo tomar alcohol mientras uso cefdinir?",
+      "a": "No se recomienda. Aunque no hay una interacción química grave, el alcohol puede empeorar efectos como náuseas y mareo, y debilita sus defensas, retrasando la curación."
+    },
+    {
+      "q": "Mi hijo tiene otitis, ¿la suspensión sabe mal?",
+      "a": "No, generalmente la suspensión de cefdinir tiene un sabor a fresa muy agradable, lo que facilita que los niños la acepten. Debe guardarse en el refrigerador."
+    },
+    {
+      "q": "¿El cefdinir baja las defensas?",
+      "a": "No, los antibióticos no bajan las defensas. Lo que puede pasar es que al eliminar bacterias buenas del intestino, favorezca infecciones por hongos (como candidiasis). Tomar probióticos (separados 2-3 horas) puede ayudar."
+    },
+    {
+      "q": "¿Puede causar diarrea?",
+      "a": "Sí, la diarrea es el efecto secundario más común. Si es leve, beba mucha agua. Si es líquida, abundante, con sangre o fiebre, DEJE el medicamento y llame a su médico, podría ser una colitis grave."
+    },
+    {
+      "q": "¿Necesito ajuste de dosis si tengo problemas de riñón?",
+      "a": "SÍ. Si tiene insuficiencia renal, su médico debe calcular su función renal y probablemente reducir la dosis o espaciar las tomas. Es muy importante informar este padecimiento."
+    },
+    {
+      "q": "¿Es mejor tomarlo en la mañana o en la noche?",
+      "a": "Depende de la frecuencia. Si es una vez al día, elija la hora que le sea más fácil recordar. Si es dos veces al día, sepárelas 12 horas (ej. 8 am y 8 pm). Lo importante es la regularidad."
+    },
+    {
+      "q": "¿El cefdinir mancha los dientes?",
+      "a": "No se conoce que manche los dientes de forma permanente. La suspensión puede tener colorante, pero cepillarse los dientes después de cada dosis es suficiente para prevenirlo."
+    },
+    {
+      "q": "¿Qué pasa si tomo más de la dosis recetada por error?",
+      "a": "Podría tener náuseas, vómitos y diarrea severos. Contacte a su médico o acuda a un servicio de urgencias. Lleve el medicamento consigo."
+    },
+    {
+      "q": "¿Por qué el tratamiento es de exactamente 10 días para la garganta?",
+      "a": "Para la faringitis estreptocócica, 10 días son necesarios para erradicar completamente la bacteria y prevenir complicaciones graves como fiebre reumática o daño renal."
+    },
+    {
+      "q": "¿El cefdinir interactúa con pastillas anticonceptivas?",
+      "a": "No hay evidencia de que el cefdinir reduzca la efectividad de los anticonceptivos hormonales orales. No se requiere protección adicional, a diferencia de otros antibióticos."
+    },
+    {
+      "q": "¿Es normal sentir más cansancio con el antibiótico?",
+      "a": "El cansancio suele ser por la infección misma, no por el medicamento. A medida que la infección cede, la energía regresa. Si el cansancio es extremo o va acompañado de otros síntomas raros, consulte."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre cefdinir y otras cefalosporinas como cefalexina?",
+      "a": "El cefdinir es de tercera generación y tiene un espectro de acción más amplio contra bacterias Gram-negativas. La cefalexina (de primera generación) es mejor para infecciones de piel por estafilococos. Su médico elige según el tipo de infección."
+    }
+  ]
+}

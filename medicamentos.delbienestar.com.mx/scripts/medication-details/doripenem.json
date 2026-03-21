@@ -1,0 +1,368 @@
+{
+  "name": "Doripenem",
+  "summary": "El Doripenem es un antibiótico de la familia de los carbapenémicos, utilizado para combatir infecciones graves causadas por bacterias que son resistentes a otros antibióticos más comunes. Sirve específicamente para tratar infecciones intraabdominales complicadas (como peritonitis o apendicitis con ruptura) e infecciones del tracto urinario complicadas (incluyendo pielonefritis), especialmente cuando son causadas por bacterias Gram-negativas como Pseudomonas aeruginosa. Su importancia clínica es enorme, ya que es un medicamento de 'última línea' o reservado, lo que significa que se usa cuando otros tratamientos han fallado o cuando se sabe que la bacteria causante es multirresistente. Esto ayuda a salvar vidas en situaciones críticas, pero su uso debe ser muy cuidadoso para evitar que las bacterias desarrollen aún más resistencia. Solo se administra por vía intravenosa en un hospital, bajo estricta supervisión médica.",
+  "pharmacology": {
+    "mechanismOfAction": "El Doripenem actúa como un antibiótico bactericida, es decir, mata directamente a las bacterias. Su mecanismo principal es inhibir la síntesis de la pared celular bacteriana, una estructura esencial que protege y da forma a la bacteria. Lo hace uniéndose de forma irreversible a unas proteínas específicas llamadas Proteínas Fijadoras de Penicilina (PBP, por sus siglas en inglés), que son enzimas cruciales para construir y mantener esa pared. Al bloquear estas proteínas, el Doripenem interrumpe el proceso de formación de la pared celular. Como resultado, la bacteria no puede reparar su cubierta externa, se debilita, absorbe demasiada agua y finalmente estalla (un proceso llamado lisis). Es especialmente potente contra bacterias Gram-negativas porque penetra bien su membrana externa y es resistente a muchas enzimas (beta-lactamasas) que otras bacterias producen para destruir antibióticos comunes.",
+    "pharmacologicClass": "Antibiótico betalactámico, subclase Carbapenémico.",
+    "therapeuticClass": "Antibiótico de amplio espectro, antibacteriano sistémico.",
+    "absorption": "No se absorbe por vía oral. Debe administrarse exclusivamente por infusión intravenosa (IV) lenta. La biodisponibilidad por vía IV es del 100%.",
+    "distribution": "Se distribuye ampliamente en los tejidos y fluidos corporales. Penetra bien en líquidos como el peritoneal, pleural y en órganos como los riñones. Su unión a proteínas plasmáticas es baja, aproximadamente del 8%. El volumen de distribución (Vd) en estado estacionario es de unos 16.8 litros, similar al volumen del agua extracelular, lo que indica que se distribuye principalmente en ese compartimento.",
+    "metabolism": "El Doripenem sufre un metabolismo hepático mínimo. No es un sustrato significativo del sistema enzimático del citocromo P450 (CYP). Su metabolismo principal es no enzimático, mediante la apertura del anillo betalactámico, formando un metabolito inactivo (derivado del anillo abierto). Por lo tanto, las interacciones farmacológicas debidas al metabolismo por CYP son muy improbables.",
+    "elimination": "Se elimina principalmente por vía renal, en forma inalterada (activa). Aproximadamente el 70-80% de la dosis se recupera sin cambios en la orina en las primeras 24 horas. Su vida media de eliminación es de aproximadamente 1 hora en adultos con función renal normal. En pacientes con insuficiencia renal grave, esta vida media se prolonga significativamente, requiriendo ajustes en la dosis.",
+    "onsetOfAction": "Los niveles antibacterianos en sangre comienzan inmediatamente después del inicio de la infusión intravenosa. Sin embargo, la mejoría clínica de los síntomas (como la fiebre) puede tardar de 48 a 72 horas, dependiendo de la gravedad de la infección y de la respuesta del paciente.",
+    "durationOfAction": "El efecto antibacteriano es dependiente del tiempo. Esto significa que para ser efectivo, los niveles del medicamento en sangre deben mantenerse por encima de la concentración mínima inhibitoria (CMI) de la bacteria durante un porcentaje significativo del intervalo entre dosis. Por esta razón, se administra generalmente cada 8 horas en infusiones prolongadas (ej., 1 hora o más) para optimizar su eficacia."
+  },
+  "indications": {
+    "approved": [
+      "Infección intraabdominal complicada en adultos (causada por bacterias susceptibles como Escherichia coli, Klebsiella pneumoniae, Pseudomonas aeruginosa, Bacteroides fragilis, Streptococcus anginosus, etc.).",
+      "Infección del tracto urinario complicada, incluyendo pielonefritis, en adultos (causada por bacterias susceptibles como Escherichia coli, incluyendo casos con bacteriemia, Klebsiella pneumoniae, Proteus mirabilis, Pseudomonas aeruginosa, Acinetobacter baumannii)."
+    ],
+    "offLabel": [
+      "Tratamiento de neumonía nosocomial (adquirida en el hospital) o asociada a ventilador, cuando hay sospecha o confirmación de patógenos multirresistentes.",
+      "Infecciones de piel y tejidos blandos complicadas por bacterias Gram-negativas multirresistentes.",
+      "Tratamiento empírico de sepsis de origen desconocido en pacientes de alto riesgo en entornos hospitalarios con alta prevalencia de bacterias resistentes a carbapenémicos."
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis habitual para adultos con función renal normal (TFG ≥ 50 mL/min) es de 500 mg, administrados por infusión intravenosa durante 1 hora, cada 8 horas. La duración del tratamiento depende del sitio y gravedad de la infección, generalmente de 5 a 14 días, y al menos 3 días después de que los síntomas mejoren.",
+    "pediatric": "No está aprobado para uso en niños y adolescentes menores de 18 años en México. Su seguridad y eficacia en esta población no están establecidas.",
+    "elderly": "En adultos mayores con función renal normal, no se requiere un ajuste de dosis inicial basado solo en la edad. Sin embargo, es común que los adultos mayores tengan una función renal disminuida, por lo que es IMPRESCINDIBLE calcular la TFG (tasa de filtración glomerular) y ajustar la dosis según los rangos de insuficiencia renal.",
+    "renalImpairment": "Los ajustes son CRÍTICOS. Se basa en la TFG (mL/min/1.73 m²): TFG ≥ 50: 500 mg cada 8 horas. TFG 30-49: 250 mg cada 8 horas. TFG 10-29: 250 mg cada 12 horas. TFG < 10 (incluyendo diálisis): 250 mg cada 24 horas, administrado después de una sesión de hemodiálisis si es posible. En diálisis peritoneal continua ambulatoria (DPCA): 250 mg cada 12 horas.",
+    "hepaticImpairment": "No se requieren ajustes de dosis específicos para la insuficiencia hepática leve a moderada, ya que el doripenem no se metaboliza significativamente en el hígado. En insuficiencia hepática grave, se debe usar con precaución y monitorear la función renal, que puede estar afectada.",
+    "maxDose": "La dosis máxima diaria recomendada en pacientes con función renal normal es de 1500 mg (tres dosis de 500 mg). En insuficiencia renal, la dosis máxima se reduce según el esquema de ajuste."
+  },
+  "dosageForms": [
+    {
+      "form": "Polvo liofilizado para solución inyectable (infusión intravenosa)",
+      "strengths": [
+        "250 mg",
+        "500 mg"
+      ],
+      "route": "Intravenosa (IV)"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad (alergia) conocida y grave al doripenem, a cualquier otro antibiótico carbapenémico (meropenem, imipenem, ertapenem) o a cualquier componente de la formulación.",
+      "Pacientes con antecedentes de reacción anafiláctica (alergia severa) a cualquier antibiótico betalactámico (penicilinas, cefalosporinas, monobactámicos), debido al riesgo de reactividad cruzada, aunque es bajo."
+    ],
+    "relative": [
+      "Pacientes con trastornos del sistema nervioso central (epilepsia, lesiones cerebrales, meningitis) debido al riesgo potencial de convulsiones.",
+      "Insuficiencia renal grave (TFG < 30 mL/min) sin ajuste de dosis adecuado.",
+      "Enfermedad gastrointestinal, especialmente colitis (inflamación del colon), ya que los antibióticos de amplio espectro pueden provocar colitis pseudomembranosa."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Dolor de cabeza.",
+      "Náuseas.",
+      "Diarrea (puede ser desde leve hasta severa).",
+      "Flebitis (irritación de la vena) en el sitio de la infusión."
+    ],
+    "common": [
+      "Erupción cutánea (ronchas, salpullido).",
+      "Vómitos.",
+      "Picazón (prurito).",
+      "Aumento de las enzimas hepáticas (transaminasas) en análisis de sangre.",
+      "Candidiasis vaginal (infección por hongos)."
+    ],
+    "uncommon": [
+      "Colitis pseudomembranosa (diarrea severa con sangre o moco, causada por la bacteria Clostridioides difficile).",
+      "Convulsiones (especialmente en pacientes con factores de riesgo).",
+      "Anafilaxia (reacción alérgica grave, pero rara).",
+      "Trombocitopenia (disminución de plaquetas).",
+      "Eosinofilia (aumento de un tipo de glóbulos blancos)."
+    ],
+    "rare": [
+      "Síndrome de Stevens-Johnson o necrólisis epidérmica tóxica (reacciones cutáneas graves y potencialmente mortales).",
+      "Anemia hemolítica (destrucción de glóbulos rojos).",
+      "Agranulocitosis (pérdida severa de glóbulos blancos).",
+      "Hepatitis (inflamación del hígado).",
+      "Alteraciones del gusto."
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Probenecid",
+        "effect": "El probenecid inhibe la secreción tubular renal del doripenem, lo que puede aumentar y prolongar significativamente sus niveles en sangre. Esto aumenta el riesgo de efectos adversos, especialmente convulsiones.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Ácido Valproico / Valproato",
+        "effect": "El doripenem (y otros carbapenémicos) pueden disminuir DRÁSTICAMENTE los niveles sanguíneos de ácido valproico, reduciendo su efectividad para controlar las convulsiones o el trastorno bipolar. Este efecto puede ocurrir incluso con dosis múltiples y el riesgo de convulsiones aumenta. Se debe evitar la combinación; si es absolutamente necesaria, se requiere un monitoreo muy estrecho de los niveles de valproato y posiblemente un cambio de medicamento antiepiléptico.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "No aplica, ya que el medicamento se administra solo por vía intravenosa en un entorno hospitalario. No hay interacciones directas con alimentos.",
+    "withSupplements": "No se conocen interacciones clínicamente significativas con suplementos vitamínicos, minerales o herbales. Sin embargo, siempre se debe informar al médico sobre cualquier suplemento que se esté tomando."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría B",
+      "recommendation": "Los estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. El doripenem solo debe usarse durante el embarazo si el beneficio potencial para la madre justifica claramente el riesgo potencial para el feto. Se reserva para infecciones graves donde otros antibióticos más seguros no son adecuados. La decisión debe ser tomada por un médico especialista.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se desconoce si el doripenem se excreta en la leche materna humana. Debido al potencial de efectos adversos graves en el lactante (como alteración de la flora intestinal y riesgo de diarrea o candidiasis), se recomienda suspender la lactancia materna durante el tratamiento con doripenem y por al menos 48 horas después de la última dosis, o considerar una alternativa terapéutica si es posible.",
+    "pediatric": "No recomendado para uso en niños menores de 18 años. La seguridad y eficacia no están establecidas en esta población.",
+    "geriatric": "Los pacientes de edad avanzada (≥65 años) tienen mayor probabilidad de tener una función renal disminuida. Es esencial calcular la TFG y ajustar la dosis en consecuencia para evitar toxicidad por acumulación del medicamento. También pueden ser más susceptibles a efectos adversos como diarrea o convulsiones. Se requiere vigilancia estrecha."
+  },
+  "administration": {
+    "howToTake": "El doripenem se administra SOLO en un hospital, por un profesional de la salud. Se reconstituye el polvo con agua para inyección y luego se diluye en una bolsa de solución para infusión (generalmente solución salina al 0.9% o dextrosa al 5%). La infusión intravenosa debe ser LENTA, durante un período de 1 hora (para la dosis de 500 mg) o según indique el médico. Nunca se debe inyectar en bolo (rápidamente). El paciente debe informar inmediatamente si siente dolor, enrojecimiento o hinchazón en el sitio de la inyección, o si presenta dificultad para respirar o erupción cutánea durante la infusión.",
+    "storage": "El polvo liofilizado sin reconstituir debe almacenarse a temperatura ambiente (hasta 25°C), protegido de la luz y la humedad. Una vez reconstituido y diluido, la solución es estable por un tiempo limitado (consultar el instructivo del fabricante, generalmente 1-24 horas a temperatura ambiente o refrigerada). No congelar. Desechar cualquier solución no utilizada.",
+    "specialInstructions": "Es fundamental completar TODO el tratamiento prescrito, incluso si el paciente se siente mejor después de unos días. Suspenderlo antes de tiempo puede hacer que la infección regrese y que las bacterias desarrollen resistencia al medicamento. El doripenem es un antibiótico de 'reserva'; su uso inapropiado o excesivo contribuye a la creación de 'superbacterias' imposibles de tratar."
+  },
+  "monitoring": {
+    "labTests": [
+      "Cultivo y antibiograma del sitio de la infección (antes de iniciar el tratamiento, si es posible).",
+      "Conteo sanguíneo completo (CSC) para vigilar glóbulos blancos, rojos y plaquetas.",
+      "Pruebas de función renal (creatinina sérica, TFG) antes del inicio y periódicamente durante el tratamiento.",
+      "Pruebas de función hepática (transaminasas, bilirrubina).",
+      "Niveles de electrolitos (sodio, potasio)."
+    ],
+    "frequency": "La función renal debe evaluarse al inicio y al menos cada 48-72 horas durante el tratamiento, especialmente si hay cambios en el estado del paciente. El CSC y las pruebas hepáticas suelen hacerse al inicio y semanalmente, o según síntomas. Se debe vigilar diariamente la aparición de diarrea.",
+    "signsToWatch": [
+      "Aparición de DIARREA ACUOSA, CON SANGRE O CON MUCOSIDAD (posible colitis por C. difficile).",
+      "Fiebre que no cede o que reaparece después de mejorar.",
+      "Erupción cutánea, urticaria, picazón intensa o dificultad para respirar (signos de alergia).",
+      "Convulsiones, temblores, confusión o somnolencia extrema.",
+      "Dolor abdominal severo o calambres.",
+      "Llagas o ampollas en la boca o en la piel."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "En caso de sobredosis (administración de una dosis excesiva), los síntomas esperados serían una exageración de los efectos adversos, especialmente: Convulsiones (crisis epilépticas).",
+      "Temblores musculares y confusión.",
+      "Diarrea severa y náuseas/vómitos intensos.",
+      "En casos extremos, podría haber depresión del sistema nervioso central."
+    ],
+    "treatment": "No existe un antídoto específico. El tratamiento es de soporte y sintomático. En caso de convulsiones, se administran anticonvulsivantes. El doripenem se elimina principalmente por los riñones, por lo que en pacientes con función renal normal, la eliminación es relativamente rápida. En casos de insuficiencia renal, se puede considerar la hemodiálisis, que es efectiva para eliminar el doripenem del torrente sanguíneo (elimina aproximadamente el 30-40% de la dosis en 4 horas).",
+    "antidote": "No existe un antídoto específico para el doripenem."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (de alta vigilancia). Es un medicamento de uso hospitalario.",
+    "scheduleMexico": "Medicamento de la Fracción IV (Psicotrópicos y otros de control especial). Su venta y dispensación están estrictamente controladas.",
+    "fdaApprovalYear": "Aprobado por la FDA de Estados Unidos en el año 2007."
+  },
+  "brandsMexico": [
+    "Finibax® (Shionogi, comercializado por diversos laboratorios en presentación hospitalaria). Nota: La disponibilidad de marcas comerciales específicas en México puede variar y es común que se utilice la presentación genérica del proveedor hospitalario."
+  ],
+  "clinicalPearls": [
+    "El doripenem es un 'carbapenémico' de espectro similar al meropenem, pero con mayor potencia in vitro contra Pseudomonas aeruginosa en algunas cepas.",
+    "La administración en infusión prolongada (ej., 500 mg en 4 horas) puede mejorar la farmacodinamia contra bacterias con CMI elevada, optimizando el tiempo por encima de la CMI.",
+    "NUNCA debe usarse como tratamiento empírico de primera línea. Su uso debe estar guiado por cultivos y antibiogramas, o reservarse para situaciones de alto riesgo de resistencia.",
+    "La interacción con el ácido valproico es una de las más importantes en la práctica clínica; puede reducir los niveles de valproato a la mitad en pocos días, provocando crisis epilépticas.",
+    "En pacientes con alergia a penicilina o cefalosporinas, el riesgo de reacción cruzada con carbapenémicos es bajo (aproximadamente 1%), pero existe. Se debe usar con extrema precaución y bajo supervisión."
+  ],
+  "patientCounseling": "Estimado paciente: Este medicamento es muy fuerte y solo se usa para infecciones graves en el hospital. Usted lo recibirá por una vena (suero) lentamente, durante aproximadamente una hora, cada 8 horas. Es MUY IMPORTANTE que nos avise de inmediato si durante la infusión siente comezón, le salen ronchas, le falta el aire o le duele mucho el brazo. También debe decirnos si tiene diarrea, especialmente si es líquida, con sangre o moco, o si le duele mucho el estómago. Aunque se sienta mejor, es crucial que reciba todas las dosis que el médico le indique; no suspenda el tratamiento antes de tiempo porque la infección podría regresar y ser más difícil de tratar. Si es mujer y está embarazada, planea estarlo o está amamantando, debe informárnoslo antes de iniciar el tratamiento.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre",
+        "slug": "fiebre"
+      },
+      {
+        "name": "Dolor abdominal intenso",
+        "slug": "dolor-abdominal"
+      },
+      {
+        "name": "Escalofríos",
+        "slug": "escalofrios"
+      },
+      {
+        "name": "Dolor al orinar (disuria)",
+        "slug": "dolor-al-orinar"
+      },
+      {
+        "name": "Orina turbia o con mal olor",
+        "slug": "orina-turbia"
+      },
+      {
+        "name": "Náuseas y vómitos",
+        "slug": "nauseas-vomitos"
+      },
+      {
+        "name": "Sensibilidad en el costado (flanco)",
+        "slug": "dolor-costado"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Peritonitis",
+        "slug": "peritonitis"
+      },
+      {
+        "name": "Pielonefritis (infección del riñón)",
+        "slug": "pielonefritis"
+      },
+      {
+        "name": "Infección intraabdominal complicada",
+        "slug": "infeccion-intraabdominal"
+      },
+      {
+        "name": "Sepsis o septicemia",
+        "slug": "sepsis"
+      },
+      {
+        "name": "Infección del tracto urinario complicada",
+        "slug": "infeccion-urinaria-complicada"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Colitis pseudomembranosa (por C. difficile)",
+        "slug": "colitis-pseudomembranosa"
+      },
+      {
+        "name": "Convulsiones",
+        "slug": "convulsiones"
+      },
+      {
+        "name": "Insuficiencia renal aguda",
+        "slug": "insuficiencia-renal-aguda"
+      },
+      {
+        "name": "Reacción anafiláctica",
+        "slug": "anafilaxia"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina",
+        "effect": "Puede elevar (indicador de daño renal)"
+      },
+      {
+        "name": "Transaminasas (ALT, AST)",
+        "slug": "transaminasas",
+        "effect": "Puede elevar (indicador de daño hepático)"
+      },
+      {
+        "name": "Recuento de plaquetas",
+        "slug": "plaquetas",
+        "effect": "Puede disminuir (trombocitopenia)"
+      },
+      {
+        "name": "Recuento de eosinófilos",
+        "slug": "eosinofilos",
+        "effect": "Puede elevar (reacción alérgica)"
+      },
+      {
+        "name": "Nivel de ácido valproico",
+        "slug": "valproato",
+        "effect": "Puede disminuir drásticamente"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Cultivo y antibiograma",
+        "slug": "antibiograma",
+        "reason": "Para identificar la bacteria causante y confirmar su sensibilidad al doripenem."
+      },
+      {
+        "name": "Tasa de Filtración Glomerular (TFG)",
+        "slug": "tfg",
+        "reason": "Esencial para ajustar la dosis y evitar toxicidad en pacientes con insuficiencia renal."
+      },
+      {
+        "name": "Conteo sanguíneo completo",
+        "slug": "conteo-sanguineo-completo",
+        "reason": "Para monitorear efectos adversos como trombocitopenia o eosinofilia."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿El Doripenem es una penicilina fuerte?",
+      "a": "No es una penicilina, pero pertenece a la misma gran familia de antibióticos llamados 'betalactámicos'. Los carbapenémicos como el doripenem son mucho más potentes y tienen un espectro de acción más amplio que las penicilinas comunes, actuando contra bacterias que son resistentes a muchos otros antibióticos."
+    },
+    {
+      "q": "¿Me lo pueden poner en el consultorio o necesito estar hospitalizado?",
+      "a": "Siempre requiere hospitalización. El doripenem se administra por vía intravenosa (suero) cada 8 horas, en infusiones lentas, y está reservado para infecciones graves que necesitan vigilancia médica estrecha. No existe en forma de pastillas ni inyecciones para casa."
+    },
+    {
+      "q": "¿Cuánto tiempo dura el tratamiento?",
+      "a": "La duración depende de la infección, pero generalmente es de 5 a 14 días. Lo más importante es que el médico decidirá cuándo suspenderlo, basándose en su mejoría y en los estudios de laboratorio. Nunca debe suspenderse antes porque 'ya me siento bien'."
+    },
+    {
+      "q": "¿Puedo tomar alcohol mientras me ponen este suero?",
+      "a": "No se recomienda el consumo de alcohol durante cualquier enfermedad grave que requiera antibióticos intravenosos. El alcohol puede debilitar su sistema inmunológico y enmascarar síntomas como mareo o somnolencia que podrían ser efectos del medicamento."
+    },
+    {
+      "q": "¿Qué hago si me da mucha diarrea?",
+      "a": "¡AVISE INMEDIATAMENTE AL PERSONAL DE ENFERMERÍA O MÉDICO! La diarrea puede ser un efecto adverso común, pero si es muy líquida, abundante, con sangre o moco, podría ser una infección grave llamada colitis por C. difficile, que requiere tratamiento específico. No se automedique con antidiarreicos como loperamida."
+    },
+    {
+      "q": "¿Me puede dar alergia?",
+      "a": "Sí, como cualquier medicamento. Los signos de alergia son: salpullido, ronchas, picazón intensa, hinchazón de cara/labios/lengua, dificultad para respirar o mareo. Si presenta alguno DURANTE la infusión, pida ayuda de inmediato."
+    },
+    {
+      "q": "¿Es normal que me duela el brazo donde me ponen el suero?",
+      "a": "Puede haber una molestia leve o enrojecimiento en el sitio de la inyección (flebitis). Sin embargo, si el dolor es intenso, hay hinchazón importante, la zona se pone dura o caliente, debe informarlo para que cambien el sitio de la vía."
+    },
+    {
+      "q": "Si soy alérgico a la penicilina, ¿puedo usar Doripenem?",
+      "a": "Existe un riesgo bajo (alrededor del 1%) de reacción cruzada. Por lo tanto, se puede usar con EXTREMA PRECAUCIÓN y bajo supervisión médica estrecha en un hospital, solo si es absolutamente necesario y no hay alternativas más seguras. Su médico evaluará el riesgo/beneficio."
+    },
+    {
+      "q": "¿Afecta los métodos anticonceptivos?",
+      "a": "No hay evidencia de que el doripenem disminuya la efectividad de los anticonceptivos hormonales (pastillas, parches, anillos). Sin embargo, si presenta vómitos o diarrea severa, la absorción de las pastillas puede verse afectada. Consulte con su médico sobre el uso de un método de respaldo."
+    },
+    {
+      "q": "¿Puedo comer de todo durante el tratamiento?",
+      "a": "No hay restricciones dietéticas específicas, pero se recomienda una dieta balanceada para ayudar a la recuperación. Si tiene diarrea, puede necesitar una dieta blanda (arroz, pollo, plátano, manzana). Beba suficientes líquidos."
+    },
+    {
+      "q": "¿Qué pasa si me olvidan una dosis o se retrasa?",
+      "a": "En el hospital, el personal está programado para administrar las dosis a tiempo. Si nota un retraso significativo, coméntelo con la enfermera. Es importante mantener los intervalos de 8 horas para que el nivel del medicamento en sangre sea efectivo."
+    },
+    {
+      "q": "¿El Doripenem baja las defensas?",
+      "a": "No baja las defensas directamente. Es un antibiótico que mata bacterias, tanto las malas como algunas buenas de la flora intestinal. Por eso puede haber diarrea o candidiasis (hongos). Una vez terminado el tratamiento, la flora normal se recupera."
+    },
+    {
+      "q": "¿Sirve para la gripe o el COVID-19?",
+      "a": "NO. El doripenem solo mata BACTERIAS. La gripe y el COVID-19 son causados por VIRUS. Usar un antibiótico potente para una infección viral es incorrecto, no sirve de nada, puede causar efectos adversos y contribuye a la resistencia bacteriana."
+    },
+    {
+      "q": "¿Por qué me hacen tantos análisis de sangre mientras lo uso?",
+      "a": "Para monitorear su función renal (creatinina) y ajustar la dosis si es necesario, vigilar el hígado, y detectar posibles efectos adversos como baja de plaquetas. Es una medida de seguridad estándar con este tipo de medicamentos."
+    },
+    {
+      "q": "¿Puede dañar mis riñones?",
+      "a": "El doripenem en sí tiene un bajo potencial de daño directo al riñón. Sin embargo, si se usa en dosis altas en un paciente con insuficiencia renal no detectada, puede acumularse y causar toxicidad (como convulsiones). Por eso es vital medir la función renal antes y durante el tratamiento."
+    },
+    {
+      "q": "¿Es mejor que el meropenem?",
+      "a": "No se trata de ser 'mejor' en general. Son muy similares. La elección depende de la bacteria específica que cause la infección (según el antibiograma), del perfil de resistencia del hospital, y de consideraciones de dosificación y costo. Su médico infectólogo decidirá cuál es el más apropiado para su caso."
+    },
+    {
+      "q": "¿Qué significa que sea un antibiótico de 'último recurso'?",
+      "a": "Significa que se reserva para infecciones muy graves causadas por bacterias que son resistentes a la mayoría de los otros antibióticos disponibles. Usarlo de forma indiscriminada haría que las bacterias desarrollen resistencia contra él también, dejándonos sin opciones terapéuticas. Por eso su uso es controlado."
+    },
+    {
+      "q": "Si tengo diabetes, ¿afecta mis niveles de glucosa?",
+      "a": "No hay una interacción directa conocida. Sin embargo, las infecciones graves por sí mismas pueden descontrolar la glucosa en sangre. Es importante que el equipo médico monitoree sus niveles de glucosa durante la hospitalización, independientemente del antibiótico."
+    },
+    {
+      "q": "¿Puedo recibir la vacuna contra la influenza o COVID mientras estoy en tratamiento?",
+      "a": "Generalmente, una infección aguda grave es una razón para posponer la vacunación hasta que se haya recuperado. Consulte con su médico. El doripenem en sí no interfiere con la respuesta inmune a las vacunas inactivadas (como la de influenza o COVID), pero el estado de enfermedad sí puede afectarla."
+    },
+    {
+      "q": "¿Por qué es tan importante el ajuste de dosis en insuficiencia renal?",
+      "a": "Porque el doripenem se elimina casi completamente por la orina. Si los riñones no funcionan bien, el medicamento se acumula en el cuerpo. Esto puede llevar a niveles tóxicos que aumentan drásticamente el riesgo de efectos graves, especialmente CONVULSIONES. Un ajuste preciso previene esto."
+    }
+  ]
+}

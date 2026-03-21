@@ -1,0 +1,390 @@
+{
+  "name": "Cefditoreno",
+  "summary": "El Cefditoreno es un antibiótico de la familia de las cefalosporinas de tercera generación, utilizado para combatir infecciones bacterianas. Actúa eliminando las bacterias que causan enfermedades, siendo especialmente útil para tratar infecciones respiratorias como la sinusitis, la bronquitis y la neumonía adquirida en la comunidad, así como infecciones de la piel y tejidos blandos. Su importancia clínica radica en que es activo contra una amplia gama de bacterias, incluyendo algunas que han desarrollado resistencia a otros antibióticos más comunes. Es un medicamento que requiere receta médica y debe usarse exactamente como lo indica el profesional de la salud para asegurar su efectividad y prevenir el desarrollo de bacterias resistentes, un problema grave de salud pública. El tratamiento completo es crucial, incluso si el paciente se siente mejor antes de terminarlo, para evitar que la infección regrese.",
+  "pharmacology": {
+    "mechanismOfAction": "El Cefditoreno es un antibiótico bactericida, lo que significa que mata directamente a las bacterias. Su mecanismo de acción se basa en inhibir la síntesis de la pared celular bacteriana, una estructura esencial que protege y da forma a la bacteria. Lo logra al unirse de forma irreversible a unas proteínas específicas llamadas Proteínas Fijadoras de Penicilina (PBP), que son enzimas cruciales para el ensamblaje final de la pared celular. Al bloquear estas proteínas, el Cefditoreno interrumpe la formación de los enlaces cruzados de peptidoglicano, debilitando gravemente la pared. Esto hace que la bacteria no pueda mantener su integridad estructural, especialmente cuando está creciendo y dividiéndose, lo que finalmente provoca su ruptura (lisis) y muerte. Es particularmente activo contra bacterias Gram-positivas y Gram-negativas.",
+    "pharmacologicClass": "Antibiótico beta-lactámico; Cefalosporina de tercera generación (cefem).",
+    "therapeuticClass": "Antibiótico sistémico.",
+    "absorption": "Se absorbe bien por vía oral. La presencia de alimentos, especialmente aquellos con alto contenido de grasa, aumenta significativamente su absorción y biodisponibilidad. Se recomienda administrarlo con alimentos para maximizar su efecto.",
+    "distribution": "Se distribuye ampliamente en los tejidos y fluidos corporales, incluyendo el pulmón, la piel, el tejido blando y las amígdalas. Tiene una buena penetración en el sitio de la infección. Su unión a proteínas plasmáticas es moderada.",
+    "metabolism": "El Cefditoreno pivoxilo (la forma profármaco oral) se hidroliza rápidamente en la mucosa intestinal y en el plasma a Cefditoreno, el compuesto activo. El metabolismo hepático es mínimo. No es un sustrato significativo de las enzimas del citocromo P450 (CYP), por lo que las interacciones farmacocinéticas a nivel hepático son poco probables.",
+    "elimination": "Se elimina principalmente sin cambios por vía renal, a través de la filtración glomerular y la secreción tubular. Su vida media de eliminación es de aproximadamente 1.5 a 2 horas en adultos con función renal normal. En pacientes con insuficiencia renal grave, la vida media se prolonga significativamente.",
+    "onsetOfAction": "Los niveles plasmáticos efectivos se alcanzan entre 1 y 3 horas después de la administración oral con alimentos.",
+    "durationOfAction": "Debido a su vida media y efecto post-antibiótico, generalmente se administra cada 12 horas para mantener concentraciones por encima de la concentración inhibitoria mínima (CIM) de las bacterias sensibles."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones del tracto respiratorio inferior (bronquitis aguda, exacerbación aguda de bronquitis crónica, neumonía adquirida en la comunidad)",
+      "Infecciones del tracto respiratorio superior (sinusitis aguda, faringoamigdalitis)",
+      "Infecciones de piel y estructuras de la piel no complicadas (como celulitis, impétigo, forúnculos)"
+    ],
+    "offLabel": [
+      "Profilaxis en cirugía (en casos seleccionados)",
+      "Infecciones del tracto urinario complicadas (cuando los patógenos son sensibles)"
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis habitual es de 200 mg cada 12 horas para infecciones respiratorias y de piel. Para infecciones más graves, la dosis puede aumentarse a 400 mg cada 12 horas, según criterio médico. El tratamiento suele durar de 5 a 14 días.",
+    "pediatric": "Para niños mayores de 12 años, se utiliza la dosis de adulto. Para niños menores de 12 años, la dosis se calcula por peso corporal, típicamente 6 mg/kg cada 12 horas, hasta un máximo de 400 mg al día. Su uso en menores debe ser estrictamente supervisado por un médico.",
+    "elderly": "No se requiere un ajuste de dosis inicial basado solo en la edad. Sin embargo, es común que los adultos mayores tengan una función renal disminuida, por lo que es esencial evaluar la TFG y ajustar la dosis si es necesario.",
+    "renalImpairment": "Ajuste necesario según la tasa de filtración glomerular (TFG). TFG ≥ 50 mL/min: sin ajuste. TFG 30-49 mL/min: 200 mg cada 12 horas (dosis máxima 400 mg/día). TFG < 30 mL/min (incluyendo diálisis): 200 mg cada 24 horas. Se administra después de la sesión de diálisis en pacientes en hemodiálisis.",
+    "hepaticImpairment": "No se requiere ajuste de dosis en insuficiencia hepática leve a moderada. En insuficiencia hepática grave, se debe usar con precaución debido a la falta de datos específicos.",
+    "maxDose": "800 mg por día (400 mg cada 12 horas)."
+  },
+  "dosageForms": [
+    {
+      "form": "Tabletas recubiertas",
+      "strengths": [
+        "200 mg"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad (alergia) conocida al Cefditoreno, a cualquier cefalosporina o a cualquier componente de la fórmula.",
+      "Pacientes con alergia grave (anafilaxia) a penicilinas u otros antibióticos beta-lactámicos (debido al riesgo de reactividad cruzada).",
+      "Niños menores de 12 años (para la formulación disponible en México, salvo indicación médica específica)."
+    ],
+    "relative": [
+      "Insuficiencia renal grave (TFG < 30 mL/min) sin ajuste de dosis.",
+      "Antecedentes de colitis pseudomembranosa.",
+      "Pacientes con desnutrición o que reciben nutrición parenteral total (riesgo de deficiencia de vitamina K)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Diarrea",
+      "Náuseas",
+      "Dolor abdominal"
+    ],
+    "common": [
+      "Cefalea (dolor de cabeza)",
+      "Vómitos",
+      "Flatulencia (gases)",
+      "Mareo",
+      "Erupciones cutáneas",
+      "Candidiasis vaginal (infección por hongos)"
+    ],
+    "uncommon": [
+      "Colitis pseudomembranosa (diarrea grave por C. difficile)",
+      "Prurito (comezón)",
+      "Urticaria",
+      "Aumento de enzimas hepáticas (transaminasas)",
+      "Leucopenia (disminución de glóbulos blancos)"
+    ],
+    "rare": [
+      "Reacción anafiláctica (alergia grave)",
+      "Síndrome de Stevens-Johnson",
+      "Necrólisis epidérmica tóxica",
+      "Hepatitis",
+      "Nefritis intersticial (inflamación del riñón)",
+      "Anemia hemolítica"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Probenecid",
+        "effect": "El probenecid bloquea la secreción tubular renal del Cefditoreno, aumentando sus niveles en sangre y prolongando su efecto. Puede ser utilizado terapéuticamente para este fin, pero requiere monitoreo.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Anticoagulantes orales (Warfarina, Acenocumarol)",
+        "effect": "El Cefditoreno puede potenciar el efecto anticoagulante, aumentando el riesgo de sangrado. Esto se debe a la supresión de la flora intestinal que produce vitamina K y posible interacción directa. Se debe monitorear el INR estrechamente.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Antiácidos que contienen magnesio o aluminio",
+        "effect": "Pueden reducir la absorción del Cefditoreno, disminuyendo su efectividad. Se recomienda separar la administración al menos 2 horas.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Debe administrarse CON ALIMENTOS, preferentemente con un contenido moderado a alto de grasa (como la comida principal), para mejorar significativamente su absorción. El alcohol no interfiere directamente con el medicamento, pero su consumo durante una infección y tratamiento no es recomendable, ya que puede debilitar el sistema inmune y aumentar el riesgo de efectos secundarios gastrointestinales.",
+    "withSupplements": "Los suplementos que contienen hierro, zinc, calcio o magnesio pueden interferir con la absorción del Cefditoreno. Se debe tomar el antibiótico al menos 2 horas antes o 4-6 horas después de estos suplementos. Los probióticos pueden ayudar a prevenir la diarrea asociada a antibióticos."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "B",
+      "recommendation": "Los estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. Debe usarse durante el embarazo solo si el beneficio potencial justifica el riesgo potencial para el feto. Siempre bajo estricta supervisión médica.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "El Cefditoreno se excreta en la leche materna en cantidades bajas. Debido al potencial de efectos adversos graves en el lactante (como alteración de la flora intestinal, diarrea o candidiasis), se debe decidir entre suspender la lactancia o suspender el medicamento, teniendo en cuenta la importancia del tratamiento para la madre. Consultar al médico.",
+    "pediatric": "Aprobado para uso en niños mayores de 12 años con la dosis de adulto. En niños menores, su uso es off-label y debe ser evaluado cuidadosamente por un pediatra, considerando el balance riesgo-beneficio y las alternativas disponibles.",
+    "geriatric": "Los pacientes de edad avanzada tienen mayor probabilidad de presentar función renal disminuida, lo que requiere ajuste de dosis. También son más susceptibles a la colitis por C. difficile y a las deficiencias de vitamina K (riesgo de sangrado). Se requiere vigilancia estrecha."
+  },
+  "administration": {
+    "howToTake": "Tragar la tableta entera con un vaso lleno de agua (aproximadamente 240 ml). NO partir, masticar ni triturar. Tomar siempre CON ALIMENTOS (desayuno, comida o cena), preferentemente con algo que contenga grasa, para asegurar una absorción completa. Respetar horarios (cada 12 horas).",
+    "storage": "Conservar en su empaque original, a temperatura ambiente (entre 15°C y 30°C), en un lugar seco y fuera del alcance de la luz directa y la humedad. Mantener fuera del alcance de los niños.",
+    "specialInstructions": "Completar TODO el tratamiento prescrito por el médico, incluso si se siente mejor a los pocos días. Suspenderlo antes de tiempo puede hacer que la infección regrese y que las bacterias desarrollen resistencia. Si olvida una dosis, tómela en cuanto se acuerde, pero si ya es casi la hora de la siguiente, omita la olvidada y continúe con su horario normal. NO duplique la dosis."
+  },
+  "monitoring": {
+    "labTests": [
+      "Conteo sanguíneo completo (CSC) para detectar leucopenia o anemia",
+      "Pruebas de función renal (creatinina sérica, TFG)",
+      "Pruebas de función hepática (transaminasas, bilirrubina)",
+      "Cultivo y antibiograma del sitio de infección (si es posible)",
+      "INR/Tiempo de protrombina (en pacientes que toman anticoagulantes)"
+    ],
+    "frequency": "En tratamientos prolongados (>10 días) o en pacientes de riesgo (ancianos, insuficiencia renal), se recomienda un CSC y perfil renal/hepático a la semana. Monitoreo clínico diario de síntomas y signos de mejoría o efectos adversos.",
+    "signsToWatch": [
+      "Diarrea acuosa o con sangre (posible colitis pseudomembranosa)",
+      "Erupción cutánea, urticaria o dificultad para respirar (signos de alergia)",
+      "Moretones o sangrado inusual (encías, nariz)",
+      "Ictericia (coloración amarilla de piel/ojos)",
+      "Fiebre persistente o que empeora"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Náuseas y vómitos severos",
+      "Diarrea profusa",
+      "Convulsiones (en casos extremos)",
+      "Alteraciones en el examen de orina (cristaluria)"
+    ],
+    "treatment": "El tratamiento es de soporte y sintomático. No existe un antídoto específico. En caso de sobredosis reciente, se puede considerar el lavado gástrico. El Cefditoreno es eliminable por hemodiálisis, la cual puede ser útil en casos de intoxicación grave, especialmente en pacientes con insuficiencia renal.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Rx).",
+    "scheduleMexico": "Medicamento de patente, sujeto a prescripción médica. No está incluido en un cuadro básico de fármacos de primer nivel, por lo que su costo es mayor.",
+    "fdaApprovalYear": "Aprobado por la FDA en 2001."
+  },
+  "brandsMexico": [
+    "Spectracef",
+    "Cefditoren"
+  ],
+  "clinicalPearls": [
+    "Es una de las pocas cefalosporinas orales con actividad confiable contra Streptococcus pneumoniae resistente a penicilina.",
+    "Su biodisponibilidad se DUPLICA cuando se toma con alimentos grasos. Esta es una instrucción crítica para el éxito del tratamiento.",
+    "Tiene un espectro que cubre bien los patógenos respiratorios atípicos como Moraxella catarrhalis y Haemophilus influenzae productor de beta-lactamasa.",
+    "Debido a su estructura del grupo lateral en la posición 3, tiene menor impacto en la flora intestinal anaerobia comparado con otras cefalosporinas, reduciendo ligeramente el riesgo de colitis por C. difficile.",
+    "Es una excelente opción de paso de terapia intravenosa a oral (terapia secuencial) en neumonía."
+  ],
+  "patientCounseling": "Tome este medicamento exactamente como se lo recetó su médico. No lo comparta con otras personas, aunque tengan síntomas similares. Tome cada dosis con comida, esto es muy importante para que el medicamento funcione bien. Termine todo el tratamiento, aunque se sienta mejor en unos días; dejar de tomarlo pronto puede hacer que la infección regrese más fuerte. Beba abundantes líquidos. Esté atento a efectos secundarios como diarrea severa (líquida o con sangre), salpullido, o moretones fáciles, y si los presenta, contacte a su médico de inmediato. Si usa pastillas anticonceptivas, el antibiótico puede reducir su efectividad; use un método anticonceptivo adicional (como condón) durante el tratamiento y hasta una semana después. Guarde el medicamento en un lugar fresco y seco, fuera del alcance de los niños.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre",
+        "slug": "fiebre"
+      },
+      {
+        "name": "Tos con flemas",
+        "slug": "tos-con-flemas"
+      },
+      {
+        "name": "Dolor de garganta",
+        "slug": "dolor-de-garganta"
+      },
+      {
+        "name": "Dificultad para respirar",
+        "slug": "disnea"
+      },
+      {
+        "name": "Dolor en el pecho al respirar",
+        "slug": "dolor-toracico"
+      },
+      {
+        "name": "Secreción nasal purulenta",
+        "slug": "rinorrea-purulenta"
+      },
+      {
+        "name": "Enrojecimiento e hinchazón de la piel",
+        "slug": "eritema-edema-piel"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Neumonía adquirida en la comunidad",
+        "slug": "neumonia-comunitaria"
+      },
+      {
+        "name": "Bronquitis aguda y crónica exacerbada",
+        "slug": "bronquitis"
+      },
+      {
+        "name": "Sinusitis aguda",
+        "slug": "sinusitis-aguda"
+      },
+      {
+        "name": "Faringoamigdalitis bacteriana",
+        "slug": "faringoamigdalitis"
+      },
+      {
+        "name": "Celulitis",
+        "slug": "celulitis"
+      },
+      {
+        "name": "Impétigo",
+        "slug": "impetigo"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Colitis pseudomembranosa",
+        "slug": "colitis-pseudomembranosa"
+      },
+      {
+        "name": "Insuficiencia renal aguda",
+        "slug": "insuficiencia-renal-aguda"
+      },
+      {
+        "name": "Reacción anafiláctica",
+        "slug": "anafilaxia"
+      },
+      {
+        "name": "Síndrome de Stevens-Johnson",
+        "slug": "sindrome-stevens-johnson"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevarse (raro, por nefritis)"
+      },
+      {
+        "name": "Transaminasas (ALT, AST)",
+        "slug": "transaminasas",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Recuento de leucocitos",
+        "slug": "leucocitos",
+        "effect": "Puede disminuir (leucopenia)"
+      },
+      {
+        "name": "INR (Razón Normalizada Internacional)",
+        "slug": "inr",
+        "effect": "Puede elevar (aumenta riesgo de sangrado)"
+      },
+      {
+        "name": "Bilirrubina",
+        "slug": "bilirrubina",
+        "effect": "Puede elevar (raro)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Cultivo y antibiograma",
+        "slug": "cultivo-antibiograma",
+        "reason": "Para confirmar la bacteria causante y su sensibilidad al Cefditoreno."
+      },
+      {
+        "name": "Biometría hemática",
+        "slug": "biometria-hematica",
+        "reason": "Para monitorear posibles efectos en glóbulos blancos y rojos."
+      },
+      {
+        "name": "Química sanguínea (función renal y hepática)",
+        "slug": "quimica-sanguinea",
+        "reason": "Para ajustar dosis y detectar toxicidad."
+      },
+      {
+        "name": "Radiografía de tórax",
+        "slug": "radiografia-torax",
+        "reason": "Para diagnosticar y evaluar la evolución de una neumonía."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de creatinina (Cockcroft-Gault)",
+        "slug": "aclaramiento-creatinina",
+        "reason": "Esencial para ajustar la dosis en pacientes con insuficiencia renal."
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso",
+        "reason": "Para calcular la dosis precisa en niños."
+      },
+      {
+        "name": "Calculadora de TFG (MDRD o CKD-EPI)",
+        "slug": "calculadora-egfr",
+        "reason": "Otra forma de evaluar la función renal para ajuste de dosis."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Con qué debo tomar el Cefditoreno, con el estómago vacío o con comida?",
+      "a": "Siempre debe tomarlo CON COMIDA, preferentemente con su desayuno, comida o cena. Tomarlo con alimentos, especialmente aquellos que contengan algo de grasa, hace que su cuerpo absorba mucho mejor el medicamento, por lo que será más efectivo para combatir la infección."
+    },
+    {
+      "q": "¿Qué hago si se me olvida tomar una dosis?",
+      "a": "Tómela en cuanto se acuerde. Sin embargo, si ya es casi la hora de su siguiente dosis programada, omita la dosis olvidada y continúe con su horario normal. NUNCA tome una dosis doble para compensar la que olvidó."
+    },
+    {
+      "q": "¿Puedo tomar alcohol mientras estoy en tratamiento con Cefditoreno?",
+      "a": "No se recomienda. Aunque no hay una interacción química directa grave, el alcohol puede debilitar su sistema inmunológico, dificultando la lucha contra la infección, y puede aumentar el riesgo de malestar estomacal o náuseas."
+    },
+    {
+      "q": "¿El Cefditoreno le quita efecto a las pastillas anticonceptivas?",
+      "a": "Sí, algunos antibióticos, incluyendo el Cefditoreno, pueden reducir la efectividad de las pastillas anticonceptivas hormonales. Se recomienda usar un método anticonceptivo adicional (como condones) durante todo el tratamiento y hasta 7 días después de terminarlo."
+    },
+    {
+      "q": "¿Cuántos días debo tomar el medicamento?",
+      "a": "Debe tomar el medicamento exactamente el número de días que su médico le recetó, aunque usted se sienta mejor después de 2 o 3 días. Terminar el tratamiento completo es vital para eliminar todas las bacterias y evitar que la infección regrese o que las bacterias se vuelvan resistentes."
+    },
+    {
+      "q": "¿Puede el Cefditoreno causar diarrea?",
+      "a": "Sí, la diarrea es un efecto secundario común. Si la diarrea es leve, puede intentar comer yogur con probióticos. Pero si la diarrea es muy líquida, abundante, con sangre o moco, o se acompaña de fiebre y dolor abdominal fuerte, DEBE dejar de tomar el medicamento y contactar a su médico de inmediato, ya que podría ser una colitis grave."
+    },
+    {
+      "q": "¿Es normal sentir náuseas o dolor de estómago?",
+      "a": "Sí, son efectos secundarios frecuentes. Tomar el medicamento con comida ayuda a reducirlos. Si las náuseas son muy intensas o si vomita poco después de tomar la pastilla, consulte a su médico o farmacéutico."
+    },
+    {
+      "q": "¿Puedo tomarlo si soy alérgico a la penicilina (como la amoxicilina)?",
+      "a": "Debe tener MUCHA PRECAUCIÓN. Existe un riesgo de reacción cruzada, lo que significa que si es alérgico a la penicilina, también podría serlo al Cefditoreno. Solo su médico, conociendo su historial, puede decidir si es seguro usarlo. Informe siempre a cualquier profesional de la salud sobre sus alergias."
+    },
+    {
+      "q": "¿Sirve para la gripe o el resfriado?",
+      "a": "NO. El Cefditoreno es un antibiótico que solo combate infecciones causadas por BACTERIAS. La gripe y el resfriado común son causados por VIRUS. Usar un antibiótico para una infección viral es inútil, puede causar efectos secundarios innecesarios y contribuye a la resistencia bacteriana."
+    },
+    {
+      "q": "¿Puedo partir o triturar la tableta si me cuesta tragarla?",
+      "a": "NO. Las tabletas de Cefditoreno están diseñadas para tragarse enteras con agua. Partirlas o triturarlas puede afectar la forma en que se libera el medicamento en su cuerpo y puede causar un sabor muy desagradable."
+    },
+    {
+      "q": "¿Qué debo hacer si me sale un sarpullido o ronchas en la piel?",
+      "a": "Suspenda el medicamento y contacte a su médico lo antes posible. Un sarpullido puede ser el primer signo de una reacción alérgica, que en casos raros puede ser grave."
+    },
+    {
+      "q": "¿Puedo tomarlo si tengo problemas en los riñones?",
+      "a": "Sí, pero la dosis probablemente necesite ajustarse. Es fundamental que su médico conozca sus niveles de creatinina o su tasa de filtración glomerular (TFG) para recetarle la dosis correcta y segura."
+    },
+    {
+      "q": "¿Es seguro durante el embarazo?",
+      "a": "Solo debe usarse si el médico considera que el beneficio para la madre supera el riesgo potencial para el bebé. Está clasificado en Categoría B. No se automedique y consulte siempre a su ginecólogo."
+    },
+    {
+      "q": "¿Puedo amamantar si estoy tomando Cefditoreno?",
+      "a": "El medicamento pasa a la leche materna en pequeñas cantidades. Su médico evaluará si es necesario suspender la lactancia temporalmente o si se puede continuar con vigilancia, dependiendo de la gravedad de la infección materna."
+    },
+    {
+      "q": "¿Interactúa con otros medicamentos comunes?",
+      "a": "Sí. Es importante informar a su médico si toma: anticoagulantes (como warfarina, por riesgo de sangrado), antiácidos (separar las dosis), probenecid (para la gota) o suplementos de hierro/calcio."
+    },
+    {
+      "q": "¿Por qué es más caro que otros antibióticos como la amoxicilina?",
+      "a": "El Cefditoreno es un antibiótico de espectro más amplio y de última generación, efectivo contra bacterias que ya son resistentes a otros. Es un medicamento de patente (no genérico ampliamente disponible) y su fabricación es más compleja, lo que explica su mayor costo."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre Cefditoreno y otras cefalosporinas como la cefalexina?",
+      "a": "El Cefditoreno es de tercera generación, lo que le da un espectro de acción más amplio contra bacterias Gram-negativas y una mayor estabilidad frente a enzimas bacterianas destructoras (beta-lactamasas). La cefalexina (de primera generación) es mejor para infecciones de piel por estafilococos, pero no para infecciones respiratorias complejas."
+    },
+    {
+      "q": "¿Es necesario hacer análisis de sangre durante el tratamiento?",
+      "a": "En tratamientos cortos (5-7 días) generalmente no. Pero si el tratamiento es prolongado (>10 días), si usted es adulto mayor o tiene problemas renales/hepáticos, su médico podría solicitar análisis para revisar sus glóbulos blancos y la función de sus riñones e hígado."
+    },
+    {
+      "q": "¿Qué bacterias cubre específicamente el Cefditoreno?",
+      "a": "Cubre bacterias respiratorias clave como Streptococcus pneumoniae (incluyendo cepas resistentes a penicilina), Haemophilus influenzae, Moraxella catarrhalis y Streptococcus pyogenes. También es activo contra Staphylococcus aureus sensible a meticilina y algunas bacterias de la piel."
+    },
+    {
+      "q": "¿Cuándo se considera una opción de primera línea el Cefditoreno en neumonía?",
+      "a": "Se considera una excelente opción oral para el tratamiento de la neumonía adquirida en la comunidad de leve a moderada, especialmente en pacientes con factores de riesgo para patógenos resistentes (como adultos mayores, comorbilidades, uso reciente de antibióticos) o como paso de terapia intravenosa a oral (terapia secuencial)."
+    }
+  ]
+}

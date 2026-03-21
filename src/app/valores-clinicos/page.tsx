@@ -3,6 +3,7 @@ import { BiomarkerClientList } from './components/BiomarkerClientList';
 import rawBiomarkers from '@/data/biomarkers.json';
 import { Metadata } from 'next';
 import { Beaker } from 'lucide-react';
+import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export const metadata: Metadata = {
     title: 'test metadata',
@@ -37,6 +38,8 @@ export default async function ValoresHub() {
                 </div>
 
                 <BiomarkerClientList biomarkers={biomarkers} />
+            
+                <RelatedTools currentPath="/valores-clinicos" className="mb-8" />
             </div>
         </main>
     );

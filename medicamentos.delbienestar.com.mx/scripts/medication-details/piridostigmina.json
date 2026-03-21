@@ -1,0 +1,418 @@
+{
+  "name": "Piridostigmina",
+  "summary": "La Piridostigmina es un medicamento que pertenece al grupo de los inhibidores de la colinesterasa. Su función principal es mejorar la fuerza muscular en pacientes con una enfermedad autoinmune llamada Miastenia Gravis, donde el sistema inmunológico ataca los receptores que permiten que los nervios controlen los músculos. También se utiliza para revertir los efectos de ciertos medicamentos que bloquean la función muscular durante cirugías, ayudando al paciente a recuperar la capacidad de respirar y moverse por sí mismo después de la anestesia. Es un fármaco de importancia crítica, ya que para muchos pacientes con Miastenia Gravis es el tratamiento de base que les permite realizar actividades diarias como hablar, tragar, caminar y respirar con normalidad, mejorando significativamente su calidad de vida. Su uso perioperatorio es igualmente vital para garantizar una recuperación segura después de procedimientos quirúrgicos que requieren relajación muscular profunda.",
+  "pharmacology": {
+    "mechanismOfAction": "La Piridostigmina actúa inhibiendo reversiblemente a la enzima acetilcolinesterasa. Esta enzima normalmente se encarga de degradar el neurotransmisor acetilcolina en la unión neuromuscular (el punto donde el nervio se comunica con el músculo). Al bloquear esta enzima, la Piridostigmina permite que la acetilcolina permanezca activa por más tiempo en el espacio sináptico. Esto potencia y prolonga los efectos de la acetilcolina sobre los receptores nicotínicos en los músculos, lo que resulta en una mejor transmisión del impulso nervioso y, en consecuencia, en un aumento de la fuerza y la contractilidad muscular. En la Miastenia Gravis, compensa la destrucción de estos receptores. Cuando se usa para revertir bloqueantes neuromusculares no despolarizantes, aumenta la concentración de acetilcolina para competir y desplazar al bloqueante de los receptores, restaurando así la función muscular.",
+    "pharmacologicClass": "Inhibidor reversible de la colinesterasa; Agonista colinérgico indirecto.",
+    "therapeuticClass": "Agente anticolinesterasa; Agente para el tratamiento de la Miastenia Gravis; Antídoto para bloqueantes neuromusculares.",
+    "absorption": "Se absorbe de manera irregular e incompleta en el tracto gastrointestinal. La biodisponibilidad oral es de aproximadamente 10-20%. La presencia de alimentos puede retrasar la absorción pero no afecta significativamente la cantidad total absorbida. La acción comienza en 30 a 45 minutos tras la administración oral.",
+    "distribution": "Se distribuye ampliamente por el organismo. Su unión a proteínas plasmáticas es baja. Atraviesa la barrera hematoencefálica de forma mínima. El volumen de distribución (Vd) es de aproximadamente 1-1.4 L/kg.",
+    "metabolism": "Se metaboliza en el hígado, principalmente por hidrólisis mediada por esterasas plasmáticas y hepáticas. No es un sustrato significativo del sistema de citocromo P450 (CYP). Una pequeña porción se desmetila.",
+    "elimination": "Se elimina principalmente por vía renal, tanto como fármaco sin cambios (75-90%) como metabolitos. Su vida media de eliminación es de aproximadamente 1.5 a 2 horas en pacientes con función renal normal. En pacientes con insuficiencia renal, la vida media se prolonga significativamente.",
+    "onsetOfAction": "Vía oral: 30 a 45 minutos. Vía intravenosa: 2 a 5 minutos.",
+    "durationOfAction": "Vía oral: 3 a 6 horas. Vía intravenosa: 2 a 3 horas."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento sintomático de la Miastenia Gravis.",
+      "Reversión de los efectos de los bloqueantes neuromusculares no despolarizantes (como rocuronio, vecuronio) en el período postoperatorio o postanestésico."
+    ],
+    "offLabel": [
+      "Tratamiento del íleo paralítico (parálisis intestinal) postoperatorio.",
+      "Síndrome de taquicardia ortostática postural (POTS) en algunos casos.",
+      "Xerostomía (boca seca) severa por radioterapia o síndrome de Sjögren (en investigación)."
+    ]
+  },
+  "dosage": {
+    "adults": "Miastenia Gravis: Inicio típico de 30-60 mg por vía oral cada 3-6 horas, ajustando según respuesta. Dosis de mantenimiento usual: 60 mg a 1.5 g al día, fraccionada en 5-6 dosis. Dosis individual no suele exceder 120 mg. Reversión de bloqueantes neuromusculares: 10-20 mg por vía intravenosa lenta, administrada junto con Atropina o Glicopirrolato para prevenir efectos muscarínicos.",
+    "pediatric": "Miastenia Gravis: 7 mg/kg/día por vía oral, dividida en 5-6 dosis. Dosis inicial común: 1 mg/kg/dosis cada 4-6 horas. Neonatos de madres miasténicas: 0.05-0.15 mg/kg por vía intramuscular cada 4-6 horas. Reversión de bloqueantes: 0.1-0.25 mg/kg por vía intravenosa, máximo 10 mg.",
+    "elderly": "Iniciar con dosis bajas (ej. 30 mg cada 6-8 horas) debido a la mayor probabilidad de disminución de la función renal y hepática. Ajustar con base en la respuesta clínica y la tolerancia, monitorizando efectos adversos colinérgicos.",
+    "renalImpairment": "Ajuste necesario. TFG 10-50 mL/min: Reducir dosis en un 25-50%. TFG <10 mL/min: Reducir dosis en un 50% o aumentar el intervalo entre dosis. En diálisis: Administrar dosis después de la sesión; se elimina significativamente en diálisis.",
+    "hepaticImpairment": "Usar con precaución. Puede requerir reducción de dosis debido a la disminución del metabolismo hepático. Monitorizar estrechamente la respuesta y los efectos adversos.",
+    "maxDose": "No hay una dosis máxima diaria absoluta definida, pero en Miastenia Gravis rara vez se superan los 1.5 g/día. Las dosis individuales por vía oral no deben exceder los 120 mg. La dosis intravenosa máxima para reversión es de 20 mg en adultos."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "60 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tableta de liberación prolongada",
+      "strengths": [
+        "180 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Solución inyectable",
+      "strengths": [
+        "5 mg/mL"
+      ],
+      "route": "Intramuscular, Intravenosa lenta"
+    },
+    {
+      "form": "Jarabe",
+      "strengths": [
+        "60 mg/5 mL"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la Piridostigmina, bromuros o a otros inhibidores de la colinesterasa.",
+      "Obstrucción mecánica intestinal o urinaria.",
+      "Peritonitis aguda."
+    ],
+    "relative": [
+      "Historia de asma bronquial o enfermedad pulmonar obstructiva crónica (EPOC).",
+      "Bradicardia, arritmias cardíacas, insuficiencia cardíaca.",
+      "Úlcera péptica activa.",
+      "Hipertiroidismo.",
+      "Epilepsia o trastornos convulsivos.",
+      "Enfermedad de Parkinson."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Calambres o dolor abdominal.",
+      "Náuseas.",
+      "Aumento de la salivación.",
+      "Diarrea o heces blandas.",
+      "Sudoración aumentada."
+    ],
+    "common": [
+      "Fasciculaciones musculares (temblor fino de los músculos).",
+      "Micción frecuente o urgente.",
+      "Lagrimeo.",
+      "Visión borrosa.",
+      "Sensación de debilidad muscular (puede indicar dosificación excesiva o insuficiente)."
+    ],
+    "uncommon": [
+      "Vómitos.",
+      "Sialorrea (salivación excesiva).",
+      "Miosis (pupilas contraídas).",
+      "Aumento de las secreciones bronquiales.",
+      "Erupción cutánea."
+    ],
+    "rare": [
+      "Bradicardia severa, bloqueo cardíaco.",
+      "Crisis colinérgica (debilidad muscular severa por sobredosis).",
+      "Laringoespasmo, broncoespasmo.",
+      "Convulsiones.",
+      "Reacciones alérgicas severas (anafilaxia)."
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Bloqueantes neuromusculares no despolarizantes (Rocuronio, Vecuronio)",
+        "effect": "La Piridostigmina revierte su efecto. Su uso conjunto debe ser supervisado en quirófano.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Succinilcolina",
+        "effect": "La Piridostigmina puede potenciar y prolongar su efecto despolarizante, aumentando el riesgo de apnea prolongada.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Atropina, Glicopirrolato",
+        "effect": "Antagonizan los efectos muscarínicos adversos de la Piridostigmina (salivación, cólicos). Se usan juntos en reversión de bloqueantes.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Aminoglucósidos (Gentamicina), Polimixinas, Clindamicina",
+        "effect": "Pueden antagonizar el efecto de la Piridostigmina y empeorar la debilidad miasténica.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Betabloqueadores (Propranolol), Bloqueadores de canales de calcio",
+        "effect": "Pueden potenciar los efectos de bradicardia e hipotensión.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Corticosteroides (Prednisona)",
+        "effect": "Al iniciar esteroides puede haber empeoramiento temporal de la debilidad, requiriendo ajuste de dosis de Piridostigmina.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inhibidores de la colinesterasa tópicos (Gotas para glaucoma como Ecotiopato)",
+        "effect": "Riesgo aditivo de efectos colinérgicos sistémicos.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Los alimentos pueden retrasar la absorción del medicamento, pero no afectan su eficacia global. Se recomienda tomar con alimentos o leche para minimizar molestias gastrointestinales. El alcohol puede potenciar los efectos de mareo o debilidad.",
+    "withSupplements": "Suplementos de magnesio (como citrato de magnesio) pueden antagonizar el efecto de la Piridostigmina y empeorar la debilidad muscular. Los productos a base de hierbas con efectos anticolinérgicos (como la Belladona) pueden contrarrestar su efecto terapéutico."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA C",
+      "recommendation": "Solo debe usarse durante el embarazo si el beneficio potencial justifica el riesgo para el feto. La Miastenia Gravis no tratada supone un riesgo mayor para la madre y el feto. La dosis puede necesitar ajustes, especialmente en el tercer trimestre. El recién nacido debe ser monitorizado por posibles efectos colinérgicos o miastenia neonatal transitoria.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La Piridostigmina se excreta en la leche materna en cantidades muy pequeñas, consideradas compatibles con la lactancia. Se considera de bajo riesgo para el lactante. Se debe observar al bebé por posibles efectos como diarrea o irritabilidad, aunque son raros.",
+    "pediatric": "Seguro y efectivo para el tratamiento de la Miastenia Gravis en niños. La dosificación se basa en el peso corporal. La forma de liberación prolongada no se recomienda en niños menores de 12 años. En neonatos, se usa para tratar la miastenia neonatal transitoria.",
+    "geriatric": "Los pacientes mayores son más susceptibles a los efectos adversos, especialmente los cardíacos (bradicardia) y gastrointestinales. La función renal disminuida es común, requiriendo ajustes de dosis. Iniciar con dosis bajas y aumentar gradualmente."
+  },
+  "administration": {
+    "howToTake": "Tabletas: Tragar enteras con un vaso de agua, con o sin alimentos (tomar con comida reduce molestias estomacales). Tabletas de liberación prolongada (180 mg): NO partirlas, triturarlas ni masticarlas. Tomar a la misma hora cada día, generalmente al acostarse. Jarabe: Medir con la jeringa o cuchara dosificadora proporcionada. Inyectable: Solo para uso hospitalario, administrado por personal médico por vía intravenosa lenta o intramuscular.",
+    "storage": "Conservar a temperatura ambiente (15-30°C), en un lugar seco y fuera del alcance de la luz directa. No congelar. Mantener el frasco del jarabe bien cerrado.",
+    "specialInstructions": "Para Miastenia Gravis, es crucial tomar las dosis a horas exactas para mantener fuerza muscular constante. Llevar un diario de síntomas puede ayudar al médico a ajustar la dosis. Nunca duplicar una dosis si se olvida. En caso de cirugía, informar siempre al anestesiólogo que se toma Piridostigmina. Las tabletas de liberación prolongada están diseñadas para liberar el medicamento durante la noche y deben tomarse al menos 6 horas después de la última dosis de tableta regular."
+  },
+  "monitoring": {
+    "labTests": [
+      "Función renal (creatinina sérica, TFG).",
+      "Electrolitos séricos (potasio, magnesio).",
+      "Pruebas de función hepática (TGO, TGP).",
+      "Niveles de acetilcolina y anti-MuSK (para seguimiento de Miastenia, no del fármaco)."
+    ],
+    "frequency": "Función renal y hepática: Al inicio del tratamiento y cada 6-12 meses, o con mayor frecuencia si hay enfermedad de base o síntomas. Evaluación clínica de fuerza muscular en cada consulta.",
+    "signsToWatch": [
+      "Debilidad muscular nueva o que empeora (puede ser por dosis baja o crisis miasténica).",
+      "Dificultad para respirar, tragar o hablar.",
+      "Salivación excesiva, calambres abdominales severos, diarrea (posible sobredosis).",
+      "Latidos cardíacos muy lentos (bradicardia), mareo, desmayo.",
+      "Erupción cutánea o signos de alergia."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Debilidad muscular severa (paradojal, por crisis colinérgica).",
+      "Dificultad respiratoria, broncoespasmo.",
+      "Náuseas, vómitos, cólicos abdominales intensos, diarrea profusa.",
+      "Salivación, sudoración y lagrimeo excesivos.",
+      "Bradicardia severa, hipotensión, colapso cardiovascular.",
+      "Visión borrosa, miosis.",
+      "Ansiedad, agitación, convulsiones."
+    ],
+    "treatment": "Suspender inmediatamente el medicamento. Medidas de soporte vital, con énfasis en el apoyo respiratorio (oxígeno, intubación si es necesario). Administración de ATROPINA (antídoto) por vía intravenosa para antagonizar los efectos muscarínicos (dosis inicial de 0.5-1 mg en adulto, repetible cada 3-10 minutos según respuesta). Control de convulsiones. Descontaminación gastrointestinal si la ingestión es reciente. Monitorización cardíaca continua.",
+    "antidote": "Atropina sulfato."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Medicamento de patente y genérico).",
+    "scheduleMexico": "Fracción III (Sustancias medicinales de venta con receta médica).",
+    "fdaApprovalYear": "Aprobado por la FDA en 1955."
+  },
+  "brandsMexico": [
+    "Mestinon",
+    "Regonol",
+    "Piridostigmina Genfar",
+    "Piridostigmina Rimsa",
+    "Piridostigmina Liomont",
+    "Piridostigmina Psicofarma",
+    "Mestinon Timespan (liberación prolongada)"
+  ],
+  "clinicalPearls": [
+    "La debilidad muscular paradojal (empeoramiento con la dosis) es un signo clave de crisis colinérgica por sobredosis, que se distingue de la crisis miasténica (por dosis baja) por la presencia de síntomas muscarínicos intensos como salivación, diarrea y fasciculaciones.",
+    "En el postoperatorio, la reversión exitosa con Piridostigmina se confirma clínicamente con la capacidad del paciente de sostener la cabeza por 5 segundos, respirar profundamente y mantener un apretón de manos firme, no solo con el monitoreo neuromuscular.",
+    "Las tabletas de liberación prolongada (Mestinon Timespan) son útiles para controlar los síntomas nocturnos y matutinos en Miastenia Gravis, pero su biodisponibilidad es solo del 60% comparada con la tableta regular, por lo que 180 mg LP no equivalen a tres tabletas de 60 mg regulares."
+  ],
+  "patientCounseling": "La Piridostigmina es su aliada para controlar la debilidad muscular, pero requiere disciplina. Tómela exactamente a las horas que le indicó su médico, incluso si se siente bien, para mantener un nivel constante en la sangre. Si se le olvida una dosis, tómela en cuanto se acuerde, pero si ya es casi la hora de la siguiente, omita la que olvidó y continúe con su horario normal; NUNCA tome dos dosis juntas. Tomarla con un poco de comida o leche puede ayudar a evitar malestar estomacal. Esté muy atento a su cuerpo: si nota más debilidad, dificultad para tragar saliva o respirar, puede ser una señal de que necesita ajuste de dosis y debe contactar a su médico de inmediato. De igual forma, si tiene calambres fuertes, mucha diarrea o el corazón muy lento, también avise. Lleve siempre una identificación que diga que tiene Miastenia Gravis y toma este medicamento, especialmente en caso de emergencia. No suspenda el tratamiento sin hablar con su neurólogo.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Debilidad muscular",
+        "slug": "debilidad-muscular"
+      },
+      {
+        "name": "Ptosis palpebral (párpado caído)",
+        "slug": "ptosis-palpebral-parpado-caido"
+      },
+      {
+        "name": "Visión doble (diplopía)",
+        "slug": "vision-doble-diplopia"
+      },
+      {
+        "name": "Dificultad para tragar (disfagia)",
+        "slug": "dificultad-para-tragar-disfagia"
+      },
+      {
+        "name": "Dificultad para hablar (disartria)",
+        "slug": "dificultad-para-hablar-disartria"
+      },
+      {
+        "name": "Dificultad para respirar (disnea)",
+        "slug": "dificultad-para-respirar-disnea"
+      },
+      {
+        "name": "Fatiga muscular",
+        "slug": "fatiga-muscular"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Miastenia Gravis",
+        "slug": "miastenia-gravis"
+      },
+      {
+        "name": "Síndrome miasténico de Lambert-Eaton",
+        "slug": "sindrome-miastenico-de-lambert-eaton"
+      },
+      {
+        "name": "Parálisis por bloqueantes neuromusculares",
+        "slug": "paralisis-por-bloqueantes-neuromusculares"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Crisis colinérgica",
+        "slug": "crisis-colinergica"
+      },
+      {
+        "name": "Bradicardia sinusal",
+        "slug": "bradicardia-sinusal"
+      },
+      {
+        "name": "Broncoespasmo",
+        "slug": "broncoespasmo"
+      },
+      {
+        "name": "Íleo paralítico",
+        "slug": "ileo-paralitico"
+      },
+      {
+        "name": "Retención urinaria",
+        "slug": "retencion-urinaria"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Acetilcolinesterasa sérica",
+        "slug": "acetilcolinesterasa-serica",
+        "effect": "Disminuye su actividad"
+      },
+      {
+        "name": "Potasio sérico",
+        "slug": "potasio-serico",
+        "effect": "Puede alterar (aumentar o disminuir) indirectamente"
+      },
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevarse en caso de deshidratación por efectos adversos"
+      },
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede disminuir (bradicardia)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Tasa de Filtración Glomerular (TFG)",
+        "slug": "tasa-de-filtracion-glomerular-tfg",
+        "reason": "Para ajustar la dosis ya que el fármaco se elimina por el riñón."
+      },
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-de-funcion-hepatica",
+        "reason": "Para evaluar el metabolismo del fármaco, especialmente en pacientes con enfermedad hepática."
+      },
+      {
+        "name": "Electrolitos séricos (Potasio, Magnesio)",
+        "slug": "electrolitos-sericos-potasio-magnesio",
+        "reason": "Porque alteraciones pueden afectar la transmisión neuromuscular y la respuesta al fármaco."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve la Piridostigmina?",
+      "a": "Sirve principalmente para tratar la debilidad muscular causada por la enfermedad Miastenia Gravis, ayudando a mejorar la fuerza para actividades como mover los ojos, hablar, tragar y respirar. También se usa en hospitales para ayudar a los pacientes a recuperar la fuerza muscular después de una cirugía donde se usaron relajantes musculares."
+    },
+    {
+      "q": "¿Cómo debo tomar las pastillas de Piridostigmina?",
+      "a": "Debe tomarlas por vía oral, tragándolas enteras con un vaso de agua. Puede tomarlas con o sin alimentos, pero si le causan malestar estomacal, tomarlas con comida o leche ayuda. Siga estrictamente el horario que le dio su médico, por ejemplo, cada 4, 6 u 8 horas."
+    },
+    {
+      "q": "¿Qué hago si se me olvida una dosis?",
+      "a": "Tómela tan pronto como se acuerde. Sin embargo, si ya es casi la hora de su siguiente dosis programada, omita la dosis olvidada y continúe con su horario normal. Nunca tome dos dosis al mismo tiempo para compensar la que olvidó."
+    },
+    {
+      "q": "¿La Piridostigmina tiene efectos secundarios?",
+      "a": "Sí, los efectos secundarios comunes incluyen calambres o dolor de estómago, náuseas, diarrea, aumento de la salivación y sudoración. Estos suelen ser leves. Si presenta latidos muy lentos, dificultad para respirar, debilidad severa o erupción en la piel, contacte a su médico de inmediato."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si estoy con Piridostigmina?",
+      "a": "No se recomienda. El alcohol puede aumentar la sensación de mareo, debilidad o somnolencia, y podría interferir con la estabilidad de su fuerza muscular."
+    },
+    {
+      "q": "¿La Piridostigmina es lo mismo que la Neostigmina?",
+      "a": "No, son medicamentos similares (ambos son inhibidores de colinesterasa) pero no iguales. La Piridostigmina se usa más para el tratamiento diario de la Miastenia Gravis por vía oral, mientras que la Neostigmina se usa más en hospitales por vía inyectable. Su médico elige el más adecuado para su caso."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Cuando se toma por boca, comienza a hacer efecto en aproximadamente 30 a 45 minutos, y su efecto dura entre 3 y 6 horas. Por eso es importante seguir el horario para mantener la fuerza constante."
+    },
+    {
+      "q": "¿Puedo partir o triturar las tabletas?",
+      "a": "Las tabletas regulares de 60 mg sí pueden partirse si su médico lo indica. Pero las tabletas de liberación prolongada de 180 mg (como Mestinon Timespan) NO deben partirse, triturarse ni masticarse, porque perderían su efecto de liberación lenta."
+    },
+    {
+      "q": "¿Este medicamento es adictivo o crea hábito?",
+      "a": "No, la Piridostigmina no es adictiva ni crea dependencia psicológica. Sin embargo, es un tratamiento de mantenimiento para la Miastenia Gravis, por lo que debe tomarse de forma crónica según la indicación médica."
+    },
+    {
+      "q": "¿Interfiere con otros medicamentos que tomo?",
+      "a": "Sí, puede interferir. Es muy importante que le informe a todos sus médicos y a su farmacéutico que toma Piridostigmina, especialmente si le recetan antibióticos, medicamentos para el corazón, gotas para los ojos o relajantes musculares."
+    },
+    {
+      "q": "¿Puedo manejar o operar maquinaria mientras tomo este fármaco?",
+      "a": "Tenga precaución. El medicamento puede causar visión borrosa, mareo o debilidad muscular variable, lo que puede afectar su capacidad para manejar con seguridad. Conozca cómo reacciona usted al medicamento antes de realizar estas actividades."
+    },
+    {
+      "q": "¿Qué es una 'crisis miasténica' y cómo la identifico?",
+      "a": "Es un empeoramiento severo y repentino de la debilidad muscular, que puede poner en peligro la vida si afecta los músculos respiratorios. Señales de alarma: mayor dificultad para respirar, tragar o hablar, sensación de ahogo. Esto requiere atención médica URGENTE."
+    },
+    {
+      "q": "¿Y qué es una 'crisis colinérgica'?",
+      "a": "Es lo contrario, causada por un exceso del medicamento (sobredosis). Los síntomas incluyen debilidad muscular PARADOJAL (aún más debilidad), junto con calambres abdominales intensos, diarrea profusa, salivación excesiva y latidos muy lentos. También es una emergencia médica."
+    },
+    {
+      "q": "¿Necesito ajustar la dosis si tengo problemas de riñón?",
+      "a": "Sí, absolutamente. Si sus riñones no funcionan bien, el medicamento se elimina más lentamente y puede acumularse, aumentando el riesgo de efectos secundarios. Su médico debe ajustar su dosis basándose en exámenes de función renal."
+    },
+    {
+      "q": "¿Pueden las mujeres embarazadas o en lactancia tomar Piridostigmina?",
+      "a": "Embarazo: Se puede usar si el beneficio supera el riesgo (Categoría C). La Miastenia no controlada es más peligrosa. Lactancia: Se considera compatible, ya que pasa a la leche en cantidades mínimas. Siempre consulte con su médico para evaluar su caso particular."
+    },
+    {
+      "q": "¿Por qué a veces me dan Atropina junto con la Piridostigmina en el hospital?",
+      "a": "La Atropina bloquea los efectos secundarios molestos de la Piridostigmina (como salivación, cólicos, latidos lentos) sin afectar su acción beneficiosa sobre los músculos. Se usan juntas cuando se administra una dosis alta por vía intravenosa para revertir anestésicos."
+    },
+    {
+      "q": "¿La Piridostigmina cura la Miastenia Gravis?",
+      "a": "No, no es una cura. Es un tratamiento sintomático, es decir, alivia los síntomas (la debilidad) pero no modifica la enfermedad autoinmune de base. Para eso se usan otros medicamentos como los inmunosupresores. La Piridostigmina es fundamental para el manejo diario de la calidad de vida."
+    },
+    {
+      "q": "¿Cómo se ajusta la dosis para un niño con Miastenia Gravis?",
+      "a": "La dosis en niños se calcula cuidadosamente según el peso corporal (mg por kg), y se divide en varias tomas al día. El neurólogo pediatra iniciará con una dosis baja y la irá aumentando gradualmente mientras observa la respuesta y los efectos secundarios."
+    },
+    {
+      "q": "¿Existen interacciones con suplementos o hierbas?",
+      "a": "Sí. Evite suplementos con altas dosis de Magnesio (como citrato de magnesio para el estreñimiento), ya que pueden antagonizar el efecto de la Piridostigmina y empeorar la debilidad. Algunas hierbas con efectos anticolinérgicos (como la Belladona) también pueden interferir."
+    },
+    {
+      "q": "¿Qué parámetros de laboratorio debo monitorear periódicamente mientras tomo este medicamento de por vida?",
+      "a": "Es crucial monitorear la función renal (creatinina y TFG) al menos una vez al año, ya que el fármaco se elimina por el riñón. También se recomiendan pruebas de función hepática y electrolitos (potasio, magnesio), ya que alteraciones pueden afectar la respuesta al tratamiento y la seguridad."
+    }
+  ]
+}

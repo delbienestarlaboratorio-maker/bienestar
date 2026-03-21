@@ -1,0 +1,457 @@
+{
+  "name": "Clindamicina",
+  "summary": "La clindamicina es un antibiótico de la familia de las lincosamidas, utilizado principalmente para tratar infecciones graves causadas por bacterias anaerobias (que no necesitan oxígeno) y ciertas bacterias grampositivas. Es especialmente importante en infecciones dentales, de la piel y tejidos blandos, abdominales, ginecológicas y óseas, donde otros antibióticos más comunes podrían no ser efectivos. Su importancia clínica radica en su capacidad para penetrar bien en huesos, abscesos y tejidos infectados, y en ser una alternativa clave para pacientes alérgicos a la penicilina. Sin embargo, su uso debe ser cuidadoso y bajo supervisión médica estricta debido al riesgo significativo de causar colitis pseudomembranosa, una inflamación grave del colon por una bacteria llamada Clostridioides difficile, que puede aparecer incluso después de terminar el tratamiento. Por ello, nunca debe usarse para infecciones leves como un resfriado común.",
+  "pharmacology": {
+    "mechanismOfAction": "La clindamicina actúa uniéndose de forma reversible a la subunidad 50S de los ribosomas bacterianos, que son las 'fábricas' donde la bacteria produce las proteínas que necesita para vivir y multiplicarse. Al unirse allí, bloquea el proceso de formación de enlaces peptídicos, impidiendo así la síntesis de proteínas bacterianas. Esto detiene el crecimiento de la bacteria (efecto bacteriostático) y, a altas concentraciones o contra bacterias muy sensibles, puede incluso matarla (efecto bactericida). Es particularmente efectiva contra bacterias que se multiplican activamente. Su mecanismo es similar al de otros antibióticos como los macrólidos (eritromicina), por lo que puede existir resistencia cruzada.",
+    "pharmacologicClass": "Antibiótico lincosamida. Derivado semisintético de la lincomicina.",
+    "therapeuticClass": "Antibiótico sistémico y tópico.",
+    "absorption": "Se absorbe bien por vía oral (aproximadamente 90%), pero la presencia de alimentos en el estómago no afecta significativamente su absorción, aunque puede retrasarla ligeramente. Las formas tópicas y vaginales tienen una absorción sistémica mínima.",
+    "distribution": "Se distribuye ampliamente en la mayoría de los fluidos y tejidos corporales, incluyendo hueso, bilis, líquido sinovial y pleural. Atraviesa la placenta y se distribuye en la leche materna. Su unión a proteínas plasmáticas es alta, superior al 90%. Tiene un volumen de distribución (Vd) de aproximadamente 0.6 a 1.2 L/kg, indicando una buena distribución en los tejidos.",
+    "metabolism": "Se metaboliza extensamente en el hígado, principalmente por el sistema de enzimas del citocromo P450 (CYP3A4 y, en menor medida, CYP2C19), transformándose en metabolitos activos (como la clindamicina sulfóxido) e inactivos. La actividad de estas enzimas puede verse afectada por otros medicamentos.",
+    "elimination": "La vida media de eliminación es de aproximadamente 2 a 3 horas en adultos con función renal y hepática normal. Se elimina principalmente por el hígado (metabolismo y excreción biliar) y, en menor medida, por los riñones (solo el 10% de la dosis se excreta sin cambios en la orina). En pacientes con insuficiencia hepática grave, la vida media puede prolongarse significativamente.",
+    "onsetOfAction": "Los niveles en sangre alcanzan su punto máximo (concentración máxima) entre 45 minutos y 1 hora después de una dosis oral, y en 3 horas después de una inyección intramuscular. El alivio sintomático puede comenzar en 24-48 horas.",
+    "durationOfAction": "Su efecto antibacteriano persiste durante varias horas después de que los niveles en sangre disminuyen, debido a su efecto post-antibiótico (EPA) contra algunas bacterias. Por ello, las dosis suelen administrarse cada 6 a 8 horas para mantener niveles terapéuticos."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones por bacterias anaerobias: abdominales (peritonitis, abscesos), pélvicas (enfermedad inflamatoria pélvica, endometritis), pulmonares (empiema, absceso pulmonar).",
+      "Infecciones de piel y tejidos blandos graves: celulitis, erisipela, abscesos, heridas infectadas, fascitis necrotizante (como parte de un régimen combinado).",
+      "Infecciones odontológicas: abscesos dentales, periodontitis aguda, osteomielitis de los maxilares.",
+      "Infecciones óseas y articulares: osteomielitis, artritis séptica.",
+      "Sepsis pélvica y septicemia.",
+      "Neumonía por Pneumocystis jirovecii (en combinación con primaquina, para casos moderados a graves).",
+      "Toxoplasmosis cerebral (en combinación con pirimetamina, como terapia alternativa).",
+      "Acné vulgar inflamatorio moderado a grave (formulación tópica).",
+      "Vaginosis bacteriana (formulación vaginal)."
+    ],
+    "offLabel": [
+      "Profilaxis de endocarditis infecciosa en pacientes de alto riesgo alérgicos a la penicilina que se someterán a procedimientos dentales.",
+      "Tratamiento complementario en la malaria por Plasmodium falciparum (en combinación con quinina).",
+      "Tratamiento de infecciones por Staphylococcus aureus resistente a meticilina (SARM) en ciertos contextos, como infecciones de piel y partes blandas.",
+      "Terapia intravenosa para infecciones graves en pacientes alérgicos a beta-lactámicos."
+    ]
+  },
+  "dosage": {
+    "adults": "Vía oral: 150 a 450 mg cada 6 a 8 horas. Dosis habitual: 300 mg cada 8 horas. Vía intravenosa o intramuscular: 600 a 2700 mg al día, divididos en 2 a 4 dosis (ej. 600 mg cada 8 horas o 900 mg cada 8 horas para infecciones graves). Para neumonía por Pneumocystis: 600 mg cada 8 horas IV, combinado con primaquina.",
+    "pediatric": "Vía oral: 8 a 25 mg/kg/día, divididos en 3 a 4 dosis (cada 6-8 horas). Vía parenteral (IV/IM): 20 a 40 mg/kg/día, divididos en 3 a 4 dosis. Para infecciones graves, se pueden usar dosis de hasta 40 mg/kg/día. No se recomienda en recién nacidos (menores de 1 mes) por inmadurez hepática.",
+    "elderly": "Ajustar según la función renal y hepática. Iniciar con dosis en el extremo inferior del rango, ya que la eliminación puede estar disminuida. Monitorear estrechamente función renal y hepática.",
+    "renalImpairment": "No se requiere ajuste de dosis significativo en insuficiencia renal leve a moderada (TFG >10 mL/min), ya que se elimina principalmente por vía hepática. En insuficiencia renal grave (TFG <10 mL/min) o en diálisis, puede considerarse una reducción de dosis o un aumento del intervalo entre dosis, debido a la acumulación de metabolitos. No se elimina eficazmente por hemodiálisis o diálisis peritoneal.",
+    "hepaticImpairment": "Se requiere ajuste de dosis en insuficiencia hepática grave (Child-Pugh C). Se recomienda reducir la dosis a la mitad o aumentar el intervalo entre dosis. Monitorear niveles y signos de toxicidad.",
+    "maxDose": "Dosis máxima diaria: 2700 mg (2.7 gramos) por vía parenteral en adultos, para infecciones que amenazan la vida. Vía oral: generalmente no exceder 1800 mg/día en dosis divididas."
+  },
+  "dosageForms": [
+    {
+      "form": "Cápsula o tableta",
+      "strengths": [
+        "75 mg",
+        "150 mg",
+        "300 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Solución inyectable",
+      "strengths": [
+        "150 mg/mL"
+      ],
+      "route": "Intramuscular, Intravenosa"
+    },
+    {
+      "form": "Crema o gel tópico",
+      "strengths": [
+        "1% (10 mg/g)"
+      ],
+      "route": "Tópica"
+    },
+    {
+      "form": "Solución tópica",
+      "strengths": [
+        "1%"
+      ],
+      "route": "Tópica"
+    },
+    {
+      "form": "Óvulos vaginales",
+      "strengths": [
+        "100 mg"
+      ],
+      "route": "Vaginal"
+    },
+    {
+      "form": "Crema vaginal",
+      "strengths": [
+        "2%"
+      ],
+      "route": "Vaginal"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la clindamicina, lincomicina o cualquier componente de la formulación.",
+      "Antecedentes de colitis pseudomembranosa asociada a clindamicina o a otros antibióticos.",
+      "Infecciones menores (como resfriados, gripe) donde no está indicado un antibiótico."
+    ],
+    "relative": [
+      "Enfermedad gastrointestinal grave, especialmente colitis (enfermedad de Crohn, colitis ulcerosa).",
+      "Insuficiencia hepática grave (Child-Pugh C).",
+      "Miastenia gravis (puede exacerbar la debilidad muscular).",
+      "Uso concomitante de medicamentos que inhiben la motilidad intestinal (como opioides, loperamida)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Diarrea (puede ser acuosa o con moco).",
+      "Náuseas.",
+      "Dolor o irritación en el sitio de inyección (formas IM/IV).",
+      "Erupción cutánea (exantema maculopapular)."
+    ],
+    "common": [
+      "Vómitos.",
+      "Dolor abdominal o cólicos.",
+      "Sabor metálico.",
+      "Prurito (comezón).",
+      "Sequedad de la piel (formas tópicas)."
+    ],
+    "uncommon": [
+      "Colitis pseudomembranosa (diarrea severa, acuosa o con sangre, fiebre, dolor abdominal intenso).",
+      "Elevación de enzimas hepáticas (transaminasas).",
+      "Leucopenia (disminución de glóbulos blancos).",
+      "Trombocitopenia (disminución de plaquetas).",
+      "Reacciones de hipersensibilidad (urticaria)."
+    ],
+    "rare": [
+      "Anafilaxia (reacción alérgica grave).",
+      "Síndrome de Stevens-Johnson o necrólisis epidérmica tóxica.",
+      "Ictericia colestásica (coloración amarilla de piel por daño hepático).",
+      "Bloqueo neuromuscular (agravamiento de miastenia gravis).",
+      "Flebitis (inflamación de la vena con administración IV)."
+    ],
+    "blackBoxWarning": "La clindamicina puede causar colitis pseudomembranosa (CDAD - Clostridioides difficile-associated diarrhea), la cual puede variar en severidad desde diarrea leve hasta colitis fatal. Es importante considerar este diagnóstico en pacientes que presenten diarrea posterior a la administración de agentes antibacterianos. Esta condición ha sido observada con el uso de prácticamente todos los agentes antibacterianos, incluyendo la clindamicina."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Eritromicina, claritromicina",
+        "effect": "Competencia por el mismo sitio de unión en el ribosoma bacteriano. Puede antagonizar el efecto antibacteriano de la clindamicina.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Bloqueadores neuromusculares (ej. succinilcolina, pancuronio)",
+        "effect": "La clindamicina puede potenciar el efecto bloqueador neuromuscular, aumentando el riesgo de parálisis muscular prolongada y dificultad respiratoria.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Opioides (morfina, codeína), Loperamida, Anticolinérgicos",
+        "effect": "Disminuyen la motilidad intestinal, lo que puede aumentar el riesgo y la severidad de la colitis pseudomembranosa al retener la toxina de C. difficile en el colon.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores de CYP3A4 (ketoconazol, itraconazol, ritonavir, claritromicina)",
+        "effect": "Pueden aumentar los niveles en sangre de clindamicina, incrementando el riesgo de efectos adversos.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inductores de CYP3A4 (rifampicina, carbamazepina, fenitoína)",
+        "effect": "Pueden disminuir los niveles en sangre de clindamicina, reduciendo su eficacia.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Los alimentos no afectan de manera clínicamente significativa la absorción total de la clindamicina oral, pero pueden retrasar ligeramente la velocidad a la que alcanza su nivel máximo en sangre. Se puede tomar con o sin alimentos para reducir molestias estomacales. El consumo de alcohol debe evitarse, ya que puede aumentar el riesgo de toxicidad hepática y potenciar molestias gastrointestinales.",
+    "withSupplements": "Evitar el uso de probióticos que contengan Saccharomyces boulardii de manera concurrente en pacientes con riesgo de infección por C. difficile, a menos que lo indique un médico. Los suplementos con alto contenido de calcio (como antiácidos) pueden quelar ligeramente el fármaco, pero la interacción no es clínicamente relevante con las formulaciones orales."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "B",
+      "recommendation": "Estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. Debe usarse durante el embarazo solo si claramente se necesita. Cruza la placenta. Se ha utilizado para el tratamiento de infecciones como la vaginosis bacteriana y la enfermedad inflamatoria pélvica en el embarazo, evaluando riesgo-beneficio.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La clindamicina se excreta en la leche materna en bajas concentraciones. Puede causar efectos en el tracto gastrointestinal del lactante, como diarrea o candidiasis (hongos). Se han reportado casos de colitis sanguinolenta en lactantes. Se recomienda usar con precaución, monitoreando al bebé. Si la madre requiere dosis altas IV, se puede considerar suspender la lactancia temporalmente.",
+    "pediatric": "Eficaz y aprobado para niños mayores de 1 mes. La dosificación se basa estrictamente en el peso corporal. Las formas tópicas para acné pueden usarse en adolescentes. Evitar el uso en recién nacidos por inmadurez en la función hepática. Monitorear estrechamente la aparición de diarrea.",
+    "geriatric": "Los pacientes mayores pueden tener una función renal o hepática reducida, lo que aumenta el riesgo de efectos adversos. Iniciar con dosis más bajas y ajustar según la función orgánica. Son más susceptibles a desarrollar colitis por C. difficile, con mayor riesgo de complicaciones graves. Monitorear hidratación y función renal."
+  },
+  "administration": {
+    "howToTake": "Oral: Tomar con un vaso lleno de agua, con o sin alimentos para reducir malestar estomacal. No partir ni masticar las cápsulas. Tópico: Limpiar y secar el área afectada. Aplicar una capa delgada de crema o gel 1 o 2 veces al día. Vaginal: Usar el aplicador provisto para insertar la crema o el óvulo a la hora de acostarse. IV/IM: La administración intravenosa debe ser en infusión lenta (no en bolo), diluida, durante al menos 10-60 minutos para evitar irritación cardiovascular y flebitis. La intramuscular se inyecta profundamente en un músculo grande para reducir dolor.",
+    "storage": "Conservar a temperatura ambiente (15-30°C), en un lugar seco y fuera del alcance de la luz directa. No congelar. Las soluciones inyectables diluidas son estables por un tiempo limitado; consultar el instructivo. Mantener todas las formas fuera del alcance de los niños.",
+    "specialInstructions": "Completar TODO el tratamiento prescrito, incluso si se siente mejor a los pocos días, para evitar que la infección regrese y desarrolle resistencia bacteriana. Si se presenta diarrea acuosa o con sangre, fiebre o dolor abdominal intenso DURANTE o DESPUÉS del tratamiento, suspender el medicamento y contactar al médico INMEDIATAMENTE (posible colitis). Para la forma tópica del acné, puede causar sequedad o descamación inicial; usar protector solar ya que puede aumentar la sensibilidad al sol. Informar al médico o dentista sobre el uso de clindamicina antes de cualquier cirugía."
+  },
+  "monitoring": {
+    "labTests": [
+      "Conteo sanguíneo completo (CSC) para detectar leucopenia o trombocitopenia.",
+      "Pruebas de función hepática (transaminasas, bilirrubina).",
+      "Cultivo y sensibilidad del sitio de infección (antes de iniciar, si es posible).",
+      "Prueba de toxina para Clostridioides difficile en heces (si hay diarrea severa).",
+      "Función renal (creatinina sérica, TFG) en pacientes de riesgo."
+    ],
+    "frequency": "Evaluación clínica a los 2-3 días de iniciado el tratamiento para ver respuesta. Monitoreo de laboratorio según la condición del paciente y duración de la terapia; en tratamientos prolongados (>2 semanas), revisar CSC y función hepática periódicamente.",
+    "signsToWatch": [
+      "Diarrea nueva o que empeora (especialmente acuosa, con moco o sangre).",
+      "Fiebre y calosfríos.",
+      "Dolor o distensión abdominal severa.",
+      "Erupción cutánea grave, ampollas o descamación.",
+      "Coloración amarilla de piel u ojos (ictericia).",
+      "Dificultad para respirar o tragar (signos de anafilaxia).",
+      "Hinchazón de cara, labios o lengua.",
+      "Sangrado o moretones inusuales."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Náuseas, vómitos y diarrea severos.",
+      "Dolor abdominal cólico intenso.",
+      "Síntomas neurológicos como mareo, vértigo o convulsiones (raros).",
+      "Bloqueo neuromuscular (debilidad muscular, parálisis, dificultad respiratoria)."
+    ],
+    "treatment": "No hay antídoto específico. El tratamiento es de soporte y sintomático. Inducir el vómito o realizar lavado gástrico si la ingestión fue reciente. Mantener la vía aérea y la respiración. Administrar líquidos intravenosos para corregir la deshidratación por diarrea y vómito. La hemodiálisis no es efectiva para eliminar la clindamicina. En caso de bloqueo neuromuscular, puede requerirse ventilación asistida y administración de antagonistas (como neostigmina, con precaución).",
+    "antidote": "null"
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Rx) para todas sus formas sistémicas (oral, inyectable) y para la forma vaginal. La forma tópica para acné puede ser de venta libre en algunas presentaciones, pero se recomienda supervisión médica.",
+    "scheduleMexico": "Medicamento de la Fracción IV del Cuadro Básico de la Secretaría de Salud. Sujeta a control sanitario, requiere receta médica para su dispensación.",
+    "fdaApprovalYear": "Aprobada por la FDA en 1970."
+  },
+  "brandsMexico": [
+    "Dalacin",
+    "Cleocin",
+    "Clindan",
+    "Clindam",
+    "Clindabiotic",
+    "Clindamicina",
+    "Clindamox",
+    "Clindesse",
+    "Clindets",
+    "Clindamicina Genfar",
+    "Clindamicina PiSA",
+    "Clindamicina Liomont",
+    "Clindamicina Sophia",
+    "Clindamicina Rimsa",
+    "Clindamicina Best",
+    "Acnatac (combinación con tretinoína tópica)",
+    "Zindaclin",
+    "Duac (combinación con peróxido de benzoilo)"
+  ],
+  "clinicalPearls": [
+    "La clindamicina es una excelente alternativa para infecciones anaerobias y en pacientes alérgicos a penicilina, pero su perfil de riesgo de colitis la reserva para casos donde otros antibióticos no son adecuados.",
+    "Para infecciones odontológicas, su penetración ósea la hace superior a muchos otros antibióticos orales. Es el fármaco de elección para abscesos dentales de origen anaerobio.",
+    "Nunca tratar la diarrea asociada a clindamicina con antidiarreicos (loperamida); esto puede empeorar la colitis pseudomembranosa. El diagnóstico y tratamiento específico para C. difficile es crucial.",
+    "En infecciones de piel por SARM, la resistencia a clindamicina es común. Siempre solicitar prueba de sensibilidad (prueba D) para descartar resistencia inducible antes de usarla.",
+    "La combinación IV de clindamicina con un aminoglucósido (como gentamicina) es un régimen clásico para cubrir anaerobios y gramnegativos en infecciones abdominales y pélvicas polimicrobianas."
+  ],
+  "patientCounseling": "Tome este medicamento exactamente como se lo recetó su médico. No lo comparta con otras personas aunque tengan síntomas similares. Es fundamental que termine todo el tratamiento, aunque se sienta mejor, para eliminar completamente la bacteria y evitar que la infección regrese. Beba abundantes líquidos mientras esté bajo tratamiento. Esté muy atento a cualquier cambio en sus evacuaciones; si presenta diarrea acuosa o con sangre, fiebre o dolor abdominal fuerte, DEJE de tomar el medicamento y llame a su médico de inmediato, ya que puede ser una infección grave en el colon. Si usa la crema para el acné, aplique una capa fina y evite el contacto con ojos, boca y mucosas. Use protector solar, ya que puede hacer su piel más sensible al sol. Informe a su médico sobre todos los demás medicamentos, vitaminas o suplementos que esté tomando.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor abdominal intenso por infección",
+        "slug": "dolor-abdominal-infeccioso"
+      },
+      {
+        "name": "Fiebre por infección bacteriana",
+        "slug": "fiebre-infecciosa"
+      },
+      {
+        "name": "Hinchazón y enrojecimiento de la piel (celulitis)",
+        "slug": "hinchazon-enrojecimiento-piel"
+      },
+      {
+        "name": "Dolor de muelas intenso con inflamación",
+        "slug": "dolor-muelas-infeccion"
+      },
+      {
+        "name": "Secreción vaginal anormal (olor fuerte)",
+        "slug": "secrecion-vaginal-anormal"
+      },
+      {
+        "name": "Tos con flema purulenta",
+        "slug": "tos-flema-purulenta"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Absceso dental",
+        "slug": "absceso-dental"
+      },
+      {
+        "name": "Celulitis infecciosa",
+        "slug": "celulitis-infecciosa"
+      },
+      {
+        "name": "Enfermedad inflamatoria pélvica",
+        "slug": "enfermedad-inflamatoria-pelvica"
+      },
+      {
+        "name": "Osteomielitis (infección en el hueso)",
+        "slug": "osteomielitis"
+      },
+      {
+        "name": "Vaginosis bacteriana",
+        "slug": "vaginosis-bacteriana"
+      },
+      {
+        "name": "Neumonía por Pneumocystis",
+        "slug": "neumonia-pneumocystis"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Colitis pseudomembranosa por C. difficile",
+        "slug": "colitis-pseudomembranosa"
+      },
+      {
+        "name": "Síndrome de Stevens-Johnson",
+        "slug": "sindrome-stevens-johnson"
+      },
+      {
+        "name": "Hepatitis colestásica",
+        "slug": "hepatitis-colestasica"
+      },
+      {
+        "name": "Sobrecrecimiento de Candida (candidiasis)",
+        "slug": "candidiasis-sobrecrecimiento"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Recuento de leucocitos (glóbulos blancos)",
+        "slug": "leucocitos",
+        "effect": "Puede disminuir (leucopenia)"
+      },
+      {
+        "name": "Recuento de plaquetas",
+        "slug": "plaquetas",
+        "effect": "Puede disminuir (trombocitopenia)"
+      },
+      {
+        "name": "ALT (Alanina aminotransferasa)",
+        "slug": "alt-enzima-hepatica",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "AST (Aspartato aminotransferasa)",
+        "slug": "ast-enzima-hepatica",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Bilirrubina total",
+        "slug": "bilirrubina-total",
+        "effect": "Puede elevar"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Cultivo y antibiograma",
+        "slug": "cultivo-antibiograma",
+        "reason": "Para identificar la bacteria causante y confirmar su sensibilidad a la clindamicina."
+      },
+      {
+        "name": "Prueba de toxina para C. difficile en heces",
+        "slug": "prueba-toxina-c-difficile",
+        "reason": "Diagnóstico esencial si aparece diarrea durante o después del tratamiento."
+      },
+      {
+        "name": "Biometría hemática completa",
+        "slug": "biometria-hematica",
+        "reason": "Para monitorear posibles efectos en glóbulos blancos y plaquetas en tratamientos prolongados."
+      },
+      {
+        "name": "Perfil hepático",
+        "slug": "perfil-hepatico",
+        "reason": "Para evaluar posible toxicidad hepática, especialmente en tratamientos largos o en pacientes con enfermedad hepática."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La clindamicina es para la gripe o el dolor de garganta común?",
+      "a": "No. La clindamicina es un antibiótico fuerte para infecciones bacterianas específicas, como abscesos dentales o infecciones graves de la piel. No sirve para infecciones virales como la gripe, el resfriado común o la mayoría de los dolores de garganta. Usarla para eso es innecesario y peligroso."
+    },
+    {
+      "q": "¿Puedo tomar clindamicina si soy alérgico a la penicilina?",
+      "a": "Sí, en muchos casos la clindamicina es una alternativa segura y efectiva para pacientes con alergia a la penicilina. Sin embargo, debe ser su médico quien lo decida después de evaluar su alergia específica y el tipo de infección."
+    },
+    {
+      "q": "¿Con qué alimentos debo o no debo tomarla?",
+      "a": "Puede tomarla con o sin alimentos. Tomarla con un poco de comida puede ayudar a reducir las náuseas o malestar estomacal. No hay alimentos específicos que deba evitar, pero es recomendable mantener una buena hidratación."
+    },
+    {
+      "q": "¿Qué hago si se me olvida una dosis?",
+      "a": "Tómela tan pronto como lo recuerde. Sin embargo, si ya es casi la hora de su siguiente dosis, omita la dosis olvidada y continúe con su horario normal. Nunca duplique la dosis para compensar la olvidada."
+    },
+    {
+      "q": "¿Puedo beber alcohol mientras tomo clindamicina?",
+      "a": "No se recomienda. El alcohol puede aumentar el riesgo de malestar estomacal, náuseas y potencialmente el riesgo de daño al hígado. Es mejor evitarlo hasta terminar el tratamiento."
+    },
+    {
+      "q": "¿La clindamicina mancha los dientes?",
+      "a": "No, la clindamicina oral no mancha los dientes. Este es un efecto asociado a otros antibióticos como las tetraciclinas, especialmente en niños."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Puede comenzar a sentir alivio de síntomas como fiebre o dolor en 24 a 48 horas. Es crucial completar todos los días de tratamiento recetados, aunque se sienta mejor antes."
+    },
+    {
+      "q": "¿La diarrea es normal con este medicamento?",
+      "a": "La diarrea leve puede ser común. Pero si la diarrea es acuosa, muy frecuente, tiene sangre o moco, o viene acompañada de fiebre o dolor abdominal fuerte, NO es normal. Debe suspender el medicamento y contactar a su médico de inmediato, podría ser una colitis grave."
+    },
+    {
+      "q": "¿Puedo usar la crema de clindamicina para el acné junto con mi rutina de skincare?",
+      "a": "Sí, pero con precaución. Aplique la crema después de lavar y secar suavemente la cara. Espere a que se absorba antes de aplicar otros productos. Evite usar productos muy abrasivos o que resequen mucho la piel al mismo tiempo, y siempre use protector solar por la mañana."
+    },
+    {
+      "q": "¿La clindamicina afecta los métodos anticonceptivos como las pastillas?",
+      "a": "No hay evidencia de que la clindamicina reduzca la efectividad de los anticonceptivos hormonales (pastillas, parches, anillo). Sin embargo, si presenta vómito o diarrea severa, la absorción de las pastillas podría verse afectada; use un método de respaldo como condón en esos casos."
+    },
+    {
+      "q": "¿Puedo tomar clindamicina si tengo problemas en el hígado?",
+      "a": "Se debe usar con mucha precaución y bajo estricta supervisión médica. Su médico probablemente ajustará la dosis y le pedirá análisis de sangre para monitorear su hígado durante el tratamiento."
+    },
+    {
+      "q": "¿Es segura durante el embarazo?",
+      "a": "Se clasifica como categoría B. Esto significa que se puede usar si el beneficio justifica el riesgo, pero solo debe ser bajo prescripción médica. Su médico evaluará su caso específico."
+    },
+    {
+      "q": "¿Puedo amamantar si tomo clindamicina?",
+      "a": "Pasa a la leche materna en pequeñas cantidades. Puede usarse con precaución, observando al bebé por posible diarrea o irritación. En dosis altas intravenosas, el médico podría recomendar suspender la lactancia temporalmente."
+    },
+    {
+      "q": "¿Qué pasa si tomo más de la dosis recetada por error?",
+      "a": "Podría sufrir náuseas, vómitos y diarrea severos. Contacte a su médico o al centro de toxicología de inmediato. No induzca el vómito a menos que un profesional se lo indique."
+    },
+    {
+      "q": "¿Por qué me recetaron clindamicina para una infección dental?",
+      "a": "Porque penetra muy bien en el hueso y los tejidos profundos de la boca, y es muy efectiva contra las bacterias anaerobias que suelen causar abscesos dentales. Es uno de los antibióticos de elección para este tipo de infecciones."
+    },
+    {
+      "q": "¿La clindamicina puede debilitar mi sistema inmune?",
+      "a": "No debilita directamente su sistema inmune. Es un antibiótico que mata bacterias. Sin embargo, al alterar la flora normal del intestino, puede permitir que bacterias dañinas como C. difficile crezcan, lo que causa infecciones oportunistas."
+    },
+    {
+      "q": "¿Es lo mismo Dalacin que Clindamicina genérica?",
+      "a": "Sí, en principio. Dalacin es una marca comercial, mientras que 'Clindamicina' es el nombre genérico. Ambos contienen el mismo principio activo y deben tener la misma eficacia y seguridad, siempre que estén fabricados bajo estándares de calidad."
+    },
+    {
+      "q": "¿Interfiere con mis medicamentos para la presión o el corazón?",
+      "a": "Generalmente no tiene interacciones directas graves con medicamentos comunes para la presión (como los IECA) o el corazón. Sin embargo, siempre informe a su médico sobre TODOS los medicamentos que toma para una evaluación completa."
+    },
+    {
+      "q": "¿Necesito hacerme análisis de sangre mientras la tomo?",
+      "a": "Para tratamientos cortos (7-10 días), generalmente no es necesario. Si el tratamiento es prolongado (más de 2 semanas), si tiene enfermedades crónicas del hígado o riñón, o si presenta síntomas de alarma, su médico probablemente solicitará análisis para monitorear sus células sanguíneas y función hepática."
+    },
+    {
+      "q": "¿Cuál es la diferencia clave entre la clindamicina y la amoxicilina con ácido clavulánico?",
+      "a": "Ambos son antibióticos, pero cubren bacterias diferentes. La amoxicilina/clavulánico es de amplio espectro y cubre muchas bacterias comunes. La clindamicina es más específica para anaerobios y ciertas bacterias grampositivas, y se usa cuando se sospechan estos tipos de infecciones o cuando hay alergia a penicilina. La clindamicina tiene un riesgo más alto de causar colitis por C. difficile."
+    }
+  ]
+}

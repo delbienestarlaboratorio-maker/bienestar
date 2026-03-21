@@ -1,0 +1,453 @@
+{
+  "name": "Fenilefrina",
+  "summary": "La fenilefrina es un medicamento simpaticomimético que actúa principalmente como vasoconstrictor. Se utiliza ampliamente en la práctica clínica para elevar la presión arterial en situaciones de hipotensión, como en el shock séptico, la hipotensión inducida por anestesia espinal o general, y como descongestionante nasal en formulaciones tópicas o sistémicas. Su importancia clínica radica en su capacidad para aumentar rápidamente la presión arterial media mediante la constricción de los vasos sanguíneos, lo que mejora la perfusión de órganos vitales. A diferencia de otros vasopresores, tiene un efecto predominantemente alfa-adrenérgico, con un efecto beta-adrenérgico mínimo, lo que la hace útil en pacientes con taquicardia o arritmias donde se desea evitar una mayor estimulación cardíaca. También es un componente común en soluciones anestésicas locales, donde prolonga la duración de la anestesia y reduce el sangrado al causar vasoconstricción local. Su uso requiere monitoreo cuidadoso debido al riesgo de isquemia en tejidos periféricos y órganos con circulación terminal.",
+  "pharmacology": {
+    "mechanismOfAction": "La fenilefrina es un agonista adrenérgico sintético que actúa predominantemente sobre los receptores alfa-1 adrenérgicos. Su unión a estos receptores, ubicados en el músculo liso vascular, desencadena una cascada de señalización que resulta en la activación de la fosfolipasa C, generando inositol trifosfato (IP3) y diacilglicerol (DAG). El IP3 libera calcio del retículo sarcoplásmico, aumentando la concentración intracelular de calcio. Este ión calcio se une a la calmodulina, activando la cadena ligera de miosina quinasa (MLCK), lo que conduce a la fosforilación de la miosina y la contracción del músculo liso vascular. Esta contracción resulta en vasoconstricción arteriolar y venosa, aumentando la resistencia vascular sistémica (RVS) y, por consiguiente, la presión arterial. Tiene una afinidad muy baja por los receptores beta-adrenérgicos, por lo que sus efectos cronotrópicos e inotrópicos positivos son mínimos. En uso tópico nasal, produce vasoconstricción de los capilares de la mucosa nasal, reduciendo la congestión.",
+    "pharmacologicClass": "Agonista adrenérgico alfa-1 selectivo, simpaticomimético de acción directa.",
+    "therapeuticClass": "Vasopresor, descongestionante nasal, agente que prolonga anestésicos locales.",
+    "absorption": "La absorción varía según la vía. Por vía intravenosa, la biodisponibilidad es del 100%. Por vía intramuscular o subcutánea, se absorbe bien. Por vía oral, sufre un extenso metabolismo de primer paso en el hígado y la mucosa intestinal, lo que resulta en una biodisponibilidad oral baja (aproximadamente 38%). La administración intranasal tópica tiene una absorción sistémica mínima pero puede ser significativa si se usa en exceso o en mucosas dañadas.",
+    "distribution": "Se distribuye ampliamente por el torrente sanguíneo. Su unión a proteínas plasmáticas es moderada. El volumen de distribución (Vd) es de aproximadamente 2-3 L/kg, indicando una distribución en los espacios extravasculares. Cruza la placenta.",
+    "metabolism": "Se metaboliza principalmente en el hígado y también en la pared intestinal por la enzima monoamino oxidasa (MAO), específicamente la isoforma MAO-A. No es un sustrato significativo del sistema citocromo P450 (CYP). El metabolito principal es el ácido 3-hidroximandélico, que es inactivo.",
+    "elimination": "La vida media de eliminación es corta, aproximadamente de 2 a 3 horas. Se elimina principalmente por vía renal, con un 80-90% de la dosis excretada en orina como metabolitos inactivos en 24 horas. Una pequeña porción se excreta sin cambios.",
+    "onsetOfAction": "Intravenoso: Efecto casi inmediato (30-60 segundos). Intramuscular/Subcutáneo: 10-15 minutos. Oral/Intranasal: 15-30 minutos.",
+    "durationOfAction": "Intravenoso: 15-20 minutos. Intramuscular/Subcutáneo: 1-2 horas. Oral: 4-6 horas. Intranasal tópico: 4-6 horas."
+  },
+  "indications": {
+    "approved": [
+      "Hipotensión aguda (shock, hipotensión inducida por anestesia)",
+      "Descongestión nasal (rinosinusitis, rinitis alérgica)",
+      "Adyuvante en anestesia local para prolongar su efecto y reducir el sangrado",
+      "Midriasis (dilatación pupilar) en exámenes oftalmológicos",
+      "Paro cardíaco (como vasopresor alternativo)"
+    ],
+    "offLabel": [
+      "Hipotensión ortostática en disautonomías",
+      "Priapismo isquémico (inyección intracavernosa)",
+      "Reflejo oculocardíaco durante cirugía ocular",
+      "Cefalea post-punción dural"
+    ]
+  },
+  "dosage": {
+    "adults": "Hipotensión/Shock (IV): Bolo de 40-100 mcg, puede repetirse cada 1-2 minutos según respuesta. Infusión continua: 0.5-9 mcg/kg/min, titulando para lograr presión objetivo. Descongestión nasal (tópico 0.25-1%): 1-2 pulverizaciones o gotas en cada fosa nasal cada 4 horas. Oral: 10 mg cada 4 horas, no exceder 60 mg/día. Anestesia local: Concentración típica 1:100,000 a 1:200,000.",
+    "pediatric": "Hipotensión (IV): 5-20 mcg/kg/dosis cada 10-15 minutos, o infusión de 0.1-0.5 mcg/kg/min. Descongestión nasal (tópico 0.125-0.25%): En niños >6 años, 1-2 gotas cada 4 horas. Oral: No recomendado generalmente en <12 años. Uso en anestesia local con precaución y dosis mínima.",
+    "elderly": "Iniciar con dosis más bajas (50% de la dosis adulta) debido a la mayor sensibilidad a los efectos adrenérgicos, mayor riesgo de hipertensión y bradicardia refleja. Monitorizar estrechamente.",
+    "renalImpairment": "No se requiere ajuste de dosis en insuficiencia renal leve a moderada (TFG >30 mL/min). En insuficiencia renal severa (TFG <30 mL/min) o diálisis, usar con precaución y monitorizar presión arterial, ya que puede haber alteración en la eliminación. Evitar dosis altas.",
+    "hepaticImpairment": "Usar con precaución en insuficiencia hepática moderada a severa. El metabolismo puede estar reducido, aumentando la exposición sistémica. Iniciar con dosis bajas y titular cuidadosamente.",
+    "maxDose": "Vía IV en infusión: Hasta 9 mcg/kg/min (dosis máximas absolutas rara vez superan 200-300 mcg/min). Oral: 60 mg en 24 horas. Tópico nasal: No más de 2 aplicaciones por fosa nasal cada 4 horas, no usar más de 3-5 días consecutivos."
+  },
+  "dosageForms": [
+    {
+      "form": "Solución inyectable",
+      "strengths": [
+        "1 mg/mL (1:1000)",
+        "10 mg/mL (1:100)"
+      ],
+      "route": "Intravenosa, Intramuscular, Subcutánea"
+    },
+    {
+      "form": "Solución nasal",
+      "strengths": [
+        "0.125%",
+        "0.25%",
+        "0.5%",
+        "1%"
+      ],
+      "route": "Intranasal"
+    },
+    {
+      "form": "Tabletas",
+      "strengths": [
+        "10 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Gotas oftálmicas",
+      "strengths": [
+        "2.5%",
+        "10%"
+      ],
+      "route": "Oftálmica"
+    },
+    {
+      "form": "Solución para anestesia local (con lidocaína, bupivacaína, etc.)",
+      "strengths": [
+        "1:100,000",
+        "1:200,000"
+      ],
+      "route": "Infiltración, Bloqueo nervioso"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad a fenilefrina o componentes",
+      "Hipertensión arterial severa no controlada",
+      "Taquicardia ventricular o fibrilación ventricular",
+      "Feocromocitoma",
+      "Pacientes en tratamiento con inhibidores de la monoamino oxidasa (IMAOs) o dentro de las 2 semanas posteriores a su suspensión",
+      "Anestesia con ciclopropano o halotano (riesgo de arritmias)"
+    ],
+    "relative": [
+      "Enfermedad arterial coronaria, angina inestable",
+      "Cardiopatía isquémica",
+      "Estenosis aórtica o hipertrófica",
+      "Enfermedad vascular periférica (enfermedad de Raynaud)",
+      "Hipertiroidismo",
+      "Diabetes mellitus",
+      "Hipertrofia prostática benigna con retención urinaria",
+      "Glaucoma de ángulo cerrado (para formulaciones oftálmicas)",
+      "Embarazo y lactancia (evaluar riesgo-beneficio)"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Dolor de cabeza",
+      "Reflejo de bradicardia (disminución de la frecuencia cardíaca)",
+      "Hormigueo o sensación de frío en extremidades"
+    ],
+    "common": [
+      "Ansiedad, nerviosismo, inquietud",
+      "Palpitaciones (menos común que con otros vasopresores)",
+      "Hipotensión paradójica con dosis muy bajas",
+      "Náuseas, vómitos",
+      "Sequedad de boca y nariz (con uso tópico)"
+    ],
+    "uncommon": [
+      "Hipertensión arterial severa",
+      "Arritmias cardíacas (extrasístoles)",
+      "Isquemia periférica (dedos, piel)",
+      "Dificultad para orinar (retención urinaria)",
+      "Dolor en el sitio de inyección o necrosis con extravasación"
+    ],
+    "rare": [
+      "Infarto agudo de miocardio",
+      "Accidente cerebrovascular",
+      "Edema pulmonar",
+      "Isquemia mesentérica o renal",
+      "Convulsiones",
+      "Rinitis medicamentosa (congestión de rebote por uso nasal prolongado)",
+      "Fenómeno de Raynaud"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Inhibidores de la MAO (IMAOs: fenelzina, tranilcipromina, selegilina)",
+        "effect": "Pueden potenciar enormemente los efectos presores de la fenilefrina, causando crisis hipertensiva severa. Riesgo de muerte.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Antidepresivos tricíclicos (imipramina, amitriptilina)",
+        "effect": "Potencian los efectos vasopresores, aumentando el riesgo de hipertensión y arritmias.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Bloqueadores beta no selectivos (propranolol)",
+        "effect": "Pueden exacerbar la hipertensión por bloqueo de la vasodilatación beta-2, dejando sin oposición la vasoconstricción alfa. También riesgo de bradicardia severa.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Digoxina",
+        "effect": "Aumenta el riesgo de arritmias cardíacas graves.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Oxitócicos (ergometrina)",
+        "effect": "Puede provocar hipertensión severa.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "No hay interacciones significativas con alimentos. El alcohol puede potenciar los efectos vasodilatadores y contrarrestar el efecto presor, además de aumentar el riesgo de hipotensión ortostática.",
+    "withSupplements": "Suplementos que contienen efedra, naranja amarga (sinefrina) o cafeína en altas dosis pueden potenciar los efectos adrenérgicos, aumentando el riesgo de hipertensión, taquicardia y efectos cardiovasculares adversos."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "C",
+      "recommendation": "Solo debe usarse durante el embarazo si el beneficio potencial justifica claramente el riesgo potencial para el feto. Puede reducir el flujo sanguíneo uterino y causar hipoxia fetal. Su uso en el parto puede causar hipertensión materna y bradicardia fetal. Evitar dosis altas y uso prolongado.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se excreta en la leche materna en cantidades pequeñas. Se considera probablemente compatible con la lactancia, pero se debe usar con precaución. Monitorizar al lactante por posibles efectos como irritabilidad. Preferir dosis únicas o uso tópico nasal después de la toma para minimizar la exposición.",
+    "pediatric": "Puede usarse en niños para hipotensión en entornos hospitalarios bajo estricta supervisión. El uso como descongestionante nasal en menores de 6 años no está recomendado por riesgo de efectos sistémicos y sobredosis. En niños de 6 a 12 años, usar solo formulaciones pediátricas (0.125-0.25%) y por periodos cortos.",
+    "geriatric": "Los pacientes mayores son más sensibles a los efectos adrenérgicos. Mayor riesgo de hipertensión, bradicardia refleja, isquemia cardíaca o cerebral, y retención urinaria. Emplear la dosis efectiva más baja. Monitorizar función renal y presión arterial de cerca."
+  },
+  "administration": {
+    "howToTake": "Intravenosa: Para bolos, diluir y administrar lentamente. Para infusión, diluir en solución salina o glucosada y usar bomba de infusión. Nasal: Sonarse la nariz suavemente antes de aplicar. Inclinar la cabeza ligeramente hacia adelante, insertar la boquilla en la fosa nasal, apretar y respirar suavemente. Evitar que la boquilla toque la nariz. Oral: Tomar con un vaso de agua. No triturar las tabletas. Anestesia local: Administrada solo por profesionales capacitados, aspirando antes de inyectar para evitar inyección intravascular.",
+    "storage": "Conservar a temperatura ambiente (15-30°C), protegido de la luz y la humedad. No congelar. Mantener fuera del alcance de los niños. Las soluciones inyectables deben inspeccionarse visualmente antes de su uso; desechar si están turbias o contienen partículas.",
+    "specialInstructions": "Para uso nasal: No usar por más de 3 a 5 días consecutivos para evitar congestión de rebote (rinosinusitis medicamentosa). No compartir el frasco para evitar contagios. Informar al médico si los síntomas no mejoran en 3 días. Para uso sistémico: El tratamiento debe ser monitorizado con mediciones frecuentes de presión arterial y frecuencia cardíaca. Reportar inmediatamente dolor en el pecho, dolor de cabeza severo, dificultad para respirar, o entumecimiento/frialdad en dedos de manos o pies."
+  },
+  "monitoring": {
+    "labTests": [
+      "Presión arterial y frecuencia cardíaca (monitoreo continuo o frecuente)",
+      "Electrolitos séricos (sodio, potasio)",
+      "Función renal (creatinina, BUN)",
+      "Lactato sérico (en uso por shock para evaluar perfusión)",
+      "Gases arteriales (en pacientes críticos)"
+    ],
+    "frequency": "Durante infusión IV: Monitoreo continuo de presión arterial (preferiblemente invasiva) y ECG. Medición de presión no invasiva cada 2-5 minutos al inicio de la titración. En uso ambulatorio (nasal/oral): Medir presión arterial al inicio del tratamiento y periódicamente si se usa crónicamente.",
+    "signsToWatch": [
+      "Dolor opresivo en el pecho, mandíbula o brazo",
+      "Dolor de cabeza severo y repentino, visión borrosa",
+      "Dificultad para respirar o edema (hinchazón)",
+      "Frialdad, palidez, dolor o entumecimiento en dedos o extremidades",
+      "Disminución marcada en la producción de orina",
+      "Frecuencia cardíaca muy lenta (<50 lpm) o muy rápida",
+      "Ansiedad extrema, confusión"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Hipertensión arterial severa (crisis hipertensiva)",
+      "Cefalea pulsátil intensa",
+      "Bradicardia refleja severa",
+      "Arritmias ventriculares",
+      "Edema pulmonar agudo",
+      "Convulsiones",
+      "Hemorragia cerebral",
+      "Isquemia periférica con posible gangrena",
+      "Náuseas, vómitos"
+    ],
+    "treatment": "Suspender inmediatamente el medicamento. Medidas de soporte: Mantener vía aérea, oxígeno. Para hipertensión severa: Administrar un vasodilatador de acción corta como nitroprusiato de sodio IV o nitroglicerina sublingual. Para bradicardia: Atropina IV. Para arritmias: Tratamiento antiarrítmico según protocolo. La extravasación de solución IV requiere infiltración con un antagonista alfa (p.ej., fentolamina) en el área. No hay diálisis efectiva.",
+    "antidote": "No existe un antídoto específico. Los antagonistas alfa-adrenérgicos como la fentolamina (5-10 mg IV) o la tolazolina pueden revertir los efectos vasoconstrictores. Para la hipertensión, se usan vasodilatadores."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Las soluciones nasales en bajas concentraciones (0.125-0.25%) y algunas tabletas son de Venta Libre (OTC). Las soluciones inyectables, concentraciones nasales altas (0.5-1%) y su uso en anestesia requieren Receta Médica (Rx).",
+    "scheduleMexico": "No está incluido en las fracciones de control especial (no es psicotrópico ni estupefaciente). Su venta está regulada por la COFEPRIS según la concentración y forma farmacéutica.",
+    "fdaApprovalYear": "Aprobado por la FDA desde antes de 1938 (producto pre-1938)."
+  },
+  "brandsMexico": [
+    "Afrin (oximetazolina, a veces combinada)",
+    "Neo-Synephrine",
+    "Fenilefrina Genfar",
+    "Fenilefrina Liomont",
+    "Fenilefrina Sophia",
+    "Rino Ebal",
+    "Desenfriol D (combinado con paracetamol)",
+    "Antigripales múltiples (como componente descongestionante)",
+    "Lidocaína con Epinefrina (aunque comúnmente es epinefrina, algunas marcas usan fenilefrina)",
+    "Vasoconstrictor en soluciones oftálmicas (Isopto Frin)"
+  ],
+  "clinicalPearls": [
+    "La fenilefrina es el vasopresor de elección en pacientes con hipotensión y taquicardia, ya que al aumentar la presión arterial puede provocar una bradicardia refleja (barorreflejo) que disminuye la frecuencia cardíaca, a diferencia de la adrenalina o noradrenalina.",
+    "En anestesia local, la adición de fenilefrina (en lugar de epinefrina) es útil en pacientes con contraindicaciones para epinefrina, como hipertiroidismo o ciertas cardiopatías, aunque su potencia vasoconstrictora es menor.",
+    "El 'síndrome de la congestión de rebote' o rinitis medicamentosa es un efecto común por el uso de descongestionantes nasales tópicos como la fenilefrina por más de 5 días, llevando a un ciclo de dependencia donde el paciente necesita usarlo cada vez más seguido."
+  ],
+  "patientCounseling": "Es muy importante que siga las instrucciones de su médico o farmacéutico al pie de la letra. Si usa el spray nasal, no lo utilice por más de 3 a 5 días seguidos porque puede empeorar la congestión. Informe a su médico si tiene presión alta, problemas del corazón, diabetes, agrandamiento de la próstata o glaucoma. Evite el alcohol mientras toma este medicamento, ya que puede afectar su presión. Si se inyecta, el personal de salud le monitoreará la presión y el corazón de cerca. Si toma pastillas, no las use para dormir o para mantenerse despierto. Reporte de inmediato cualquier dolor en el pecho, dolor de cabeza muy fuerte, latidos irregulares, dificultad para respirar, o si nota que sus dedos se ponen pálidos, fríos o le duelen. No deje de tomar otros medicamentos para la presión sin hablar con su médico, ya que este fármaco puede interactuar con muchos de ellos. Guarde el medicamento en un lugar fresco y seco, fuera del alcance de los niños.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Congestion nasal",
+        "slug": "congestion-nasal"
+      },
+      {
+        "name": "Hipotension",
+        "slug": "hipotension"
+      },
+      {
+        "name": "Presion arterial baja",
+        "slug": "presion-arterial-baja"
+      },
+      {
+        "name": "Mareo por baja presion",
+        "slug": "mareo-por-baja-presion"
+      },
+      {
+        "name": "Secrecion nasal",
+        "slug": "secrecion-nasal"
+      },
+      {
+        "name": "Dificultad para respirar por la nariz",
+        "slug": "dificultad-para-respirar-por-la-nariz"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Shock septico",
+        "slug": "shock-septico"
+      },
+      {
+        "name": "Rinitis alergica",
+        "slug": "rinitis-alergica"
+      },
+      {
+        "name": "Sinusitis aguda",
+        "slug": "sinusitis-aguda"
+      },
+      {
+        "name": "Hipotension inducida por anestesia",
+        "slug": "hipotension-inducida-por-anestesia"
+      },
+      {
+        "name": "Resfriado comun",
+        "slug": "resfriado-comun"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Crisis hipertensiva",
+        "slug": "crisis-hipertensiva"
+      },
+      {
+        "name": "Isquemia periferica",
+        "slug": "isquemia-periferica"
+      },
+      {
+        "name": "Infarto agudo de miocardio",
+        "slug": "infarto-agudo-de-miocardio"
+      },
+      {
+        "name": "Rinitis medicamentosa",
+        "slug": "rinitis-medicamentosa"
+      },
+      {
+        "name": "Retencion urinaria aguda",
+        "slug": "retencion-urinaria-aguda"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Presion arterial sistolica",
+        "slug": "presion-arterial-sistolica",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Frecuencia cardiaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede disminuir (bradicardia refleja)"
+      },
+      {
+        "name": "Lactato serico",
+        "slug": "lactato-serico",
+        "effect": "Puede disminuir si mejora la perfusion"
+      },
+      {
+        "name": "Creatinina serica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar si hay isquemia renal"
+      },
+      {
+        "name": "Glucemia",
+        "slug": "glucemia",
+        "effect": "Puede elevar levemente"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Presion arterial",
+        "slug": "monitoreo-presion-arterial",
+        "reason": "Monitorizar respuesta terapéutica y evitar hipertensión"
+      },
+      {
+        "name": "Electrocardiograma (ECG)",
+        "slug": "electrocardiograma",
+        "reason": "Detectar arritmias o bradicardia"
+      },
+      {
+        "name": "Perfil renal (creatinina, BUN)",
+        "slug": "perfil-renal",
+        "reason": "Evaluar función renal, especialmente en infusión prolongada"
+      },
+      {
+        "name": "Lactato serico",
+        "slug": "lactato-serico",
+        "reason": "Evaluar adecuación de la perfusión tisular en estado de shock"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de dosis pediatrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de indice de masa corporal (IMC)",
+        "slug": "calculadora-imc"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve la fenilefrina?",
+      "a": "Sirve principalmente para subir la presión arterial en emergencias hospitalarias (como shock o baja presión por anestesia) y como descongestionante nasal para aliviar la congestión por resfriados o alergias. También se usa en gotas para los ojos para dilatar la pupila en exámenes."
+    },
+    {
+      "q": "¿La fenilefrina es lo mismo que la efedrina?",
+      "a": "No, son medicamentos diferentes. Ambas pueden subir la presión, pero la fenilefrina actúa casi exclusivamente en los vasos sanguíneos (constriñéndolos), mientras que la efedrina también acelera el corazón y tiene efectos en el sistema nervioso. La fenilefrina se considera más segura en pacientes con ciertos problemas cardíacos."
+    },
+    {
+      "q": "¿Puedo comprar fenilefrina sin receta en México?",
+      "a": "Sí, las presentaciones en spray nasal de baja concentración (como 0.25%) y algunas pastillas para el resfriado que la contienen se venden sin receta en farmacias. Sin embargo, las inyecciones y concentraciones más altas requieren receta médica."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto el spray nasal de fenilefrina?",
+      "a": "Generalmente comienza a aliviar la congestión en 5 a 10 minutos, y su efecto máximo se siente alrededor de los 15-30 minutos. La sensación de despeje nasal puede durar entre 4 y 6 horas."
+    },
+    {
+      "q": "¿Por qué no debo usar el spray nasal por más de 5 días seguidos?",
+      "a": "Porque puede causar 'congestión de rebote' o rinitis medicamentosa. Tus vasos nasales se acostumbran al medicamento y, cuando dejas de usarlo, se dilatan aún más, causando una congestión peor que la inicial, creando un ciclo de dependencia."
+    },
+    {
+      "q": "¿La fenilefrina sube la presión arterial en personas sanas?",
+      "a": "Sí, puede subirla. Por eso las personas con presión arterial normal o alta deben usarla con precaución, especialmente las formas orales o inyectables. El spray nasal en dosis correctas tiene poco efecto sistémico, pero un exceso sí puede aumentar la presión."
+    },
+    {
+      "q": "¿Puedo tomar fenilefrina si tengo diabetes?",
+      "a": "Sí, pero con precaución y bajo supervisión médica. La fenilefrina puede elevar levemente los niveles de azúcar en sangre. Además, algunos síntomas de baja azúcar (como sudoración y palpitaciones) pueden enmascararse o confundirse con efectos del medicamento."
+    },
+    {
+      "q": "¿Qué hago si me olvidé de una dosis del spray nasal?",
+      "a": "Aplícala tan pronto como te acuerdes. Sin embargo, si ya es casi la hora de la siguiente dosis, omite la que olvidaste y continúa con el horario normal. Nunca dupliques la dosis para compensar."
+    },
+    {
+      "q": "¿La fenilefrina causa somnolencia?",
+      "a": "No, generalmente no causa somnolencia. De hecho, al ser un estimulante leve del sistema nervioso, puede causar nerviosismo, inquietud o insomnio en algunas personas, especialmente en dosis altas."
+    },
+    {
+      "q": "¿Puedo tomar fenilefrina si estoy amamantando?",
+      "a": "Se excreta en pequeñas cantidades en la leche materna. Se considera probablemente seguro si se usa ocasionalmente y en dosis bajas (como spray nasal). Para uso sistémico (inyecciones), debe evaluarse el riesgo-beneficio con el médico. Se recomienda aplicarlo justo después de amamantar para minimizar la exposición del bebé."
+    },
+    {
+      "q": "¿Interactúa la fenilefrina con el alcohol?",
+      "a": "Sí, se recomienda evitar el alcohol. El alcohol es un vasodilatador (ensancha los vasos) y puede contrarrestar el efecto de la fenilefrina (que los contrae). Además, la combinación puede aumentar el riesgo de mareos, baja presión al ponerse de pie (hipotensión ortostática) y arritmias."
+    },
+    {
+      "q": "¿Qué efectos secundarios debo reportar inmediatamente al médico?",
+      "a": "Dolor fuerte de cabeza, dolor en el pecho, latidos irregulares o muy lentos, dificultad para respirar, debilidad o entumecimiento repentino en un lado del cuerpo, visión borrosa, o si notas que tus dedos de manos o pies se ponen pálidos, azulados, fríos o dolorosos."
+    },
+    {
+      "q": "¿La fenilefrina es segura para niños?",
+      "a": "En menores de 6 años, NO se recomienda el uso de descongestionantes nasales con fenilefrina debido al riesgo de efectos sistémicos graves (convulsiones, taquicardia). En niños de 6 a 12 años, solo debe usarse bajo supervisión médica y con la concentración pediátrica (0.125%). Para hipotensión en hospitales, su uso es bajo estricto control."
+    },
+    {
+      "q": "¿Puede la fenilefrina causar daño en los riñones?",
+      "a": "En dosis terapéuticas y uso corto, es poco probable. Sin embargo, en sobredosis o uso IV prolongado en estado de shock, la vasoconstricción excesiva puede reducir el flujo de sangre a los riñones, causando isquemia y posible daño renal agudo. Por eso se monitorea la función renal en estos casos."
+    },
+    {
+      "q": "¿Por qué a veces me late el corazón más lento cuando me ponen fenilefrina intravenosa?",
+      "a": "Es un efecto normal y esperado llamado 'reflejo barorreceptor'. Cuando la presión arterial sube rápidamente, unos sensores en las arterias le avisan al corazón que debe latir más lento para compensar. Esta bradicardia refleja es una señal de que el medicamento está funcionando."
+    },
+    {
+      "q": "¿Hay alimentos que debo evitar mientras tomo fenilefrina?",
+      "a": "No hay alimentos prohibidos específicamente, pero debes limitar o evitar los que contengan mucha cafeína (café, té, chocolate, bebidas energéticas) o suplementos como naranja amarga, ya que pueden potenciar los efectos estimulantes y aumentar la presión arterial y el riesgo de efectos secundarios."
+    },
+    {
+      "q": "¿Cómo se usa la fenilefrina en las cirugías dentales?",
+      "a": "Se mezcla en bajas concentraciones (ej. 1:100,000) con el anestésico local (como lidocaína). Esto hace que el anestésico dure más tiempo (porque se absorbe más lentamente) y reduce el sangrado en la zona de la inyección, permitiendo una mejor visibilidad para el dentista."
+    },
+    {
+      "q": "¿Qué pasa si uso fenilefrina y tomo antidepresivos?",
+      "a": "Es MUY PELIGROSO si tomas inhibidores de la MAO (IMAOs, como tranilcipromina) o antidepresivos tricíclicos (como amitriptilina). La combinación puede desencadenar una crisis hipertensiva severa (presión extremadamente alta) que puede causar un derrame cerebral o un infarto. Siempre informa a tu médico todos los medicamentos que tomas."
+    },
+    {
+      "q": "¿La fenilefrina pierde efectividad con el tiempo (tolerancia)?",
+      "a": "Sí, especialmente con el uso tópico nasal repetido. Los vasos sanguíneos de la nariz pueden volverse menos sensibles (taquifilaxia), requiriendo dosis más frecuentes o más altas para el mismo efecto, lo que lleva a la congestión de rebote. Por eso se limita su uso a pocos días."
+    },
+    {
+      "q": "En un paciente crítico con shock séptico, ¿cuándo se prefiere la fenilefrina sobre la noradrenalina?",
+      "a": "La noradrenalina es el vasopresor de primera línea en el shock séptico. La fenilefrina se reserva usualmente como agente de segunda línea o en situaciones específicas: 1) Cuando hay arritmias ventriculares significativas con noradrenalina. 2) En taquicardia extrema donde se desea aprovechar la bradicardia refleja. 3) Como rescate temporal durante una bradicardia severa inducida por otros fármacos. Su uso aislado puede reducir el gasto cardíaco y no se recomienda como monoterapia de primera elección en la mayoría de los casos de shock distributivo."
+    }
+  ]
+}

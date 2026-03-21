@@ -1,0 +1,401 @@
+{
+  "name": "Bupivacaína",
+  "summary": "La bupivacaína es un medicamento anestésico local de tipo amida, utilizado para bloquear temporalmente las señales de dolor en nervios específicos. Se usa principalmente en procedimientos quirúrgicos, partos (como anestesia epidural) y para el manejo del dolor postoperatorio o crónico, proporcionando un alivio prolongado. Su importancia clínica radica en su larga duración de acción y su potencia, lo que permite realizar intervenciones con mayor comodidad para el paciente y reducir el consumo de otros analgésicos más fuertes. Es fundamental en anestesia regional, como bloqueos nerviosos periféricos y neuroaxiales (espinal y epidural). Sin embargo, requiere administración por profesionales capacitados debido a su potencial toxicidad cardíaca y neurológica, especialmente si se inyecta accidentalmente en un vaso sanguíneo. Su uso correcto mejora significativamente la experiencia del paciente durante y después de procedimientos médicos.",
+  "pharmacology": {
+    "mechanismOfAction": "La bupivacaína actúa bloqueando de manera reversible los canales de sodio dependientes de voltaje en las membranas de las neuronas. Al unirse a estos canales desde el interior de la célula nerviosa, impide la entrada de iones sodio, lo cual es necesario para iniciar y propagar los impulsos eléctricos (potenciales de acción). Esto interrumpe la conducción nerviosa, especialmente en fibras finas que transmiten dolor (fibras C y A-delta), produciendo primero pérdida de la sensación al dolor, luego al tacto, y finalmente a la presión y movimiento. Su alta liposolubilidad y unión a proteínas le confieren un inicio de acción moderado y una duración muy prolongada en comparación con otros anestésicos locales.",
+    "pharmacologicClass": "Anestésico local del grupo de las amidas. Agente bloqueador de canales de sodio.",
+    "therapeuticClass": "Anestésico local de acción prolongada.",
+    "absorption": "La absorción sistémica depende del sitio de inyección, la dosis, la concentración y la adición de vasoconstrictores como la epinefrina. Tras inyección peridural o en bloqueos nerviosos periféricos, la absorción es lenta y sostenida. La administración intravascular accidental resulta en absorcción inmediata y completa, con riesgo de toxicidad sistémica.",
+    "distribution": "Se distribuye ampliamente en los tejidos. Tiene un alto grado de unión a proteínas plasmáticas (aproximadamente 95%), principalmente a la alfa-1 glicoproteína ácida. Su volumen de distribución (Vd) es de aproximadamente 0.6-1.2 L/kg. Cruza la barrera placentaria y se distribuye en la leche materna en pequeñas cantidades.",
+    "metabolism": "Se metaboliza extensamente en el hígado mediante el sistema enzimático del citocromo P450, específicamente por la isoenzima CYP3A4. El metabolismo es más lento que el de la lidocaína, contribuyendo a su mayor duración de acción. Se convierte en metabolitos inactivos, principalmente la 2,6-pipecoloxylidida (PPX).",
+    "elimination": "La vida media de eliminación es de aproximadamente 1.5 a 5.5 horas en adultos, pero puede prolongarse en pacientes con insuficiencia hepática. Se elimina principalmente por vía renal; más del 95% de los metabolitos inactivos se excretan en la orina, y menos del 5% se excreta sin cambios.",
+    "onsetOfAction": "El inicio de acción es moderado: de 5 a 15 minutos para bloqueos nerviosos periféricos y de 15 a 30 minutos para anestesia epidural.",
+    "durationOfAction": "La duración del efecto es muy prolongada. Para bloqueos nerviosos periféricos dura de 4 a 12 horas. Para anestesia epidural, la analgesia puede durar de 2 a 5 horas. La adición de epinefrina puede prolongar la duración y reducir la absorción sistémica."
+  },
+  "indications": {
+    "approved": [
+      "Anestesia de infiltración local y bloqueos nerviosos periféricos",
+      "Anestesia epidural lumbar y caudal para procedimientos quirúrgicos y obstétricos (parto)",
+      "Anestesia espinal (subaracnoidea) para cirugía de abdomen inferior y extremidades",
+      "Bloqueo del plexo braquial y otros bloqueos de nervios principales",
+      "Analgesia epidural continua para manejo del dolor postoperatorio o del trabajo de parto"
+    ],
+    "offLabel": [
+      "Bloqueo del ganglio estrellado para el manejo del dolor neuropático complejo (como el síndrome de dolor regional complejo)",
+      "Infiltración intraarticular para analgesia post-artroscopia",
+      "Bloqueo del nervio occipital mayor para cefaleas",
+      "Anestesia tópica en formulaciones especiales (aunque no es común)"
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis varía según el tipo de bloqueo, la concentración y el uso de vasoconstrictor. Dosis máximas recomendadas: Sin epinefrina: 175 mg (aproximadamente 2.5 mg/kg). Con epinefrina (1:200,000): 225 mg (aproximadamente 3 mg/kg). Ejemplos: Infiltración local: 0.25% solución, hasta 70 mL. Bloqueo epidural: 10-20 mL de solución al 0.25%, 0.5% o 0.75%. Bloqueo espinal: 1-2 mL de solución hipertensa al 0.75%. Bloqueo del plexo braquial: 30-40 mL de solución al 0.25% o 0.5%.",
+    "pediatric": "Dosis basada en peso. Dosis máxima segura: 2-2.5 mg/kg sin epinefrina. Para bloqueo caudal en niños: 0.5-1 mL/kg de solución al 0.25% (máximo 20-30 mL). Debe ser administrado únicamente por anestesiólogos con experiencia en pediatría.",
+    "elderly": "Reducir la dosis en un 20-30% debido a la disminución de la masa muscular, el aumento de la grasa corporal, la posible reducción del flujo hepático y la mayor sensibilidad a los efectos tóxicos. Monitorizar estrechamente los signos vitales.",
+    "renalImpairment": "No se requiere ajuste de dosis principal para la bupivacaína en sí, ya que se metaboliza en el hígado. Sin embargo, la acumulación de metabolitos en insuficiencia renal grave (TFG <30 mL/min) es posible, aunque su relevancia clínica es baja. Monitorizar por efectos adversos.",
+    "hepaticImpairment": "Reducir la dosis significativamente (hasta un 50%) en insuficiencia hepática moderada a grave (Child-Pugh B o C), debido a la reducción del metabolismo y al mayor riesgo de toxicidad sistémica por acumulación. Evitar su uso en falla hepática aguda.",
+    "maxDose": "Dosis máxima absoluta recomendada para un adulto sano: 175 mg (sin epinefrina) o 225 mg (con epinefrina 1:200,000) en un período de 24 horas, fraccionada en diferentes inyecciones."
+  },
+  "dosageForms": [
+    {
+      "form": "Solución inyectable",
+      "strengths": [
+        "0.25%",
+        "0.5%",
+        "0.75%"
+      ],
+      "route": "Inyección peridural, espinal, infiltración, bloqueo nervioso"
+    },
+    {
+      "form": "Solución inyectable con epinefrina",
+      "strengths": [
+        "0.25% con epinefrina 1:200,000",
+        "0.5% con epinefrina 1:200,000"
+      ],
+      "route": "Inyección peridural, infiltración, bloqueo nervioso"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a los anestésicos locales del tipo amida (p. ej., lidocaína, mepivacaína)",
+      "Hipersensibilidad a los componentes de la solución (como metabisulfito en presentaciones con epinefrina)",
+      "Infección activa en el sitio de punción prevista",
+      "Hipovolemia grave o shock",
+      "Bloqueo cardíaco de segundo o tercer grado sin marcapasos",
+      "Septicemia",
+      "Coagulopatía grave o tratamiento anticoagulante que contraindique la punción (para técnicas neuroaxiales)"
+    ],
+    "relative": [
+      "Enfermedad cardíaca grave (insuficiencia cardíaca, bradicardia severa)",
+      "Enfermedad hepática avanzada",
+      "Epilepsia no controlada",
+      "Miastenia gravis",
+      "Trastornos de la conducción cardíaca de primer grado o bloqueo de rama",
+      "Hiponatremia (para anestesia espinal)",
+      "Deformidades graves de la columna vertebral"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Hipotensión (especialmente en anestesia espinal/epidural)",
+      "Bradicardia",
+      "Náuseas",
+      "Vómitos",
+      "Temblor muscular leve"
+    ],
+    "common": [
+      "Cefalea (pospunción dural)",
+      "Retención urinaria",
+      "Dolor de espalda transitorio",
+      "Hormigueo o entumecimiento prolongado",
+      "Debilidad muscular en el área bloqueada"
+    ],
+    "uncommon": [
+      "Reacciones alérgicas (rash, prurito)",
+      "Hematoma en el sitio de inyección",
+      "Infección en el sitio de inyección",
+      "Parestesias persistentes",
+      "Mareo"
+    ],
+    "rare": [
+      "Toxicidad del sistema nervioso central (convulsiones, pérdida del conocimiento, visión borrosa, tinnitus)",
+      "Toxicidad cardiovascular (arritmias ventriculares, paro cardíaco, depresión miocárdica severa)",
+      "Síndrome de cauda equina (por inyección intratecal de alta concentración)",
+      "Metemoglobinemia (muy raro, asociado a ciertos conservadores)"
+    ],
+    "blackBoxWarning": "ADVERTENCIA: RIESGO DE PARO CARDÍACO. Las soluciones de bupivacaína al 0.75% NO están indicadas para anestesia obstétrica epidural. La inyección intravascular accidental puede causar toxicidad sistémica aguda, incluyendo convulsiones y paro cardíaco de difícil reanimación, especialmente con la solución al 0.75%."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Otros anestésicos locales (lidocaína, ropivacaína)",
+        "effect": "Efectos tóxicos aditivos sobre el sistema nervioso central y cardiovascular. Aumenta el riesgo de convulsiones y arritmias.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Antiarrítmicos de clase I (procainamida, quinidina)",
+        "effect": "Potencian los efectos cardiotóxicos de la bupivacaína, aumentando el riesgo de arritmias ventriculares y depresión miocárdica.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores de la CYP3A4 (ketoconazol, eritromicina, ritonavir)",
+        "effect": "Disminuyen el metabolismo hepático de la bupivacaína, aumentando sus niveles plasmáticos y el riesgo de toxicidad.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Vasoconstrictores (epinefrina, norepinefrina) en la misma jeringa",
+        "effect": "La epinefrina añadida prolonga la duración de la anestesia y reduce la absorción sistémica. Sin embargo, si se inyecta en un vaso, puede causar hipertensión y taquicardia severas.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "No hay interacciones directas con alimentos, ya que se administra por inyección. Sin embargo, se recomienda ayuno antes de procedimientos quirúrgicos o anestésicos para reducir el riesgo de aspiración.",
+    "withSupplements": "Suplementos que afectan la coagulación (como Ginkgo biloba, ajo, aceite de pescado en altas dosis) pueden aumentar el riesgo de sangrado o hematoma en el sitio de inyección, especialmente en técnicas neuroaxiales. Informar al médico sobre su uso."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "C",
+      "recommendation": "La bupivacaína se utiliza comúnmente durante el embarazo, especialmente para analgesia epidural durante el trabajo de parto. Los beneficios generalmente superan los riesgos. Sin embargo, las soluciones al 0.75% están contraindicadas para anestesia obstétrica epidural debido al mayor riesgo de toxicidad cardiovascular. Debe ser administrada solo por especialistas en un entorno controlado.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La bupivacaína se excreta en la leche materna en cantidades mínimas y es improbable que cause efectos adversos en el lactante, especialmente tras dosis únicas para anestesia regional. Se considera compatible con la lactancia. No se requiere interrupción.",
+    "pediatric": "Se puede usar en niños para bloqueos caudales, epidurales o periféricos, pero requiere cálculo preciso de dosis por peso y experiencia del anestesiólogo pediátrico. La toxicidad puede presentarse con dosis más bajas que en adultos.",
+    "geriatric": "Los pacientes mayores son más sensibles a los efectos de la bupivacaína. Presentan mayor unión a proteínas (por aumento de alfa-1 glicoproteína), pero el metabolismo hepático reducido y los cambios en la distribución aumentan el riesgo de toxicidad. Se deben usar dosis más bajas y monitorización cardiovascular estrecha."
+  },
+  "administration": {
+    "howToTake": "La bupivacaína es administrada SOLO por profesionales de la salud capacitados (anestesiólogos, cirujanos) mediante inyección en el espacio epidural, espinal, o alrededor de nervios específicos. El paciente debe estar en posición adecuada (sentado o acostado de lado para punción espinal). Se utiliza técnica estéril. Antes de inyectar la dosis completa, se debe realizar una aspiración para descartar punción vascular. La administración es lenta y fraccionada, observando constantemente al paciente por signos de toxicidad.",
+    "storage": "Conservar en su envase original, protegido de la luz, a temperatura ambiente (15-30°C). No congelar. Las soluciones con epinefrina pueden oscurecerse ligeramente con el tiempo; si el color es rosa o marrón, no usar. Mantener fuera del alcance de los niños.",
+    "specialInstructions": "NUNCA se debe inyectar solución de bupivacaína al 0.75% por vía intravenosa. Siempre debe haber disponible equipo de reanimación (oxígeno, medicamentos anticonvulsivantes, desfibrilador) cuando se administre. Para técnicas neuroaxiales, se recomienda esperar al menos 12 horas después de la última dosis de anticoagulantes como heparina de bajo peso molecular."
+  },
+  "monitoring": {
+    "labTests": [
+      "No se requieren análisis de laboratorio de rutina para una dosis única. En uso prolongado (infusión epidural): función hepática (ALT, AST) y niveles de alfa-1 glicoproteína ácida (puede alterar la fracción libre del fármaco)."
+    ],
+    "frequency": "Monitorización continua durante la inyección y al menos 30 minutos después: frecuencia cardíaca, presión arterial, saturación de oxígeno y estado neurológico (nivel de conciencia, signos de toxicidad del SNC). En infusiones epidurales continuas, monitorizar cada 1-2 horas.",
+    "signsToWatch": [
+      "Entumecimiento o debilidad progresiva fuera del área esperada",
+      "Zumbido en los oídos (tinnitus)",
+      "Visión borrosa o doble",
+      "Sabor metálico en la boca",
+      "Ansiedad, confusión, somnolencia excesiva",
+      "Temblores musculares o fasciculaciones",
+      "Dificultad para respirar",
+      "Dolor torácico, palpitaciones o latidos irregulares",
+      "Hipotensión severa o bradicardia"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Síntomas del SNC: Mareo, tinnitus, visión borrosa, parestesias alrededor de la boca, ansiedad, confusión, convulsiones, coma y paro respiratorio.",
+      "Síntomas cardiovasculares: Hipotensión, bradicardia, bloqueo cardíaco, arritmias ventriculares (taquicardia ventricular, fibrilación ventricular), depresión miocárdica y paro cardíaco (de difícil reanimación)."
+    ],
+    "treatment": "1. Suspender inmediatamente la inyección. 2. Mantener la vía aérea, administrar oxígeno al 100% y asistir la ventilación si es necesario. 3. Para convulsiones: benzodiacepinas (midazolam, diazepam) IV. 4. Para arritmias cardíacas y paro cardíaco: iniciar RCP avanzada. La bupivacaína responde mal a la adrenalina y a la desfibrilación. Se puede considerar el uso de lípidos intravenosos (emulsión lipídica al 20%) como antídoto específico. 5. Controlar la hipotensión con fluidos IV y vasopresores.",
+    "antidote": "Emulsión lipídica intravenosa al 20% (Intralipid). Dosis: Bolo de 1.5 mL/kg en 1 minuto, seguido de infusión de 0.25 mL/kg/minuto. Repetir bolo si es necesario. El mecanismo es la 'secuestración' del anestésico lipofílico en la fase lipídica ('teoría del sumidero de lípidos')."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especializada (de anestesiólogo o cirujano). Medicamento de uso hospitalario y en consultorios especializados.",
+    "scheduleMexico": "No está listado en las fracciones de psicotrópicos o estupefacientes. Es un medicamento de control sanitario que requiere prescripción médica.",
+    "fdaApprovalYear": "Aprobado por la FDA en 1972."
+  },
+  "brandsMexico": [
+    "Bupivastésico",
+    "Marcaina",
+    "Sensorcaina",
+    "Anestésico Local Bupivacaína PiSA",
+    "Bupinex",
+    "Bupivacaine Hospira",
+    "Bupivacaine Clorhidrato Genfar",
+    "Bupicain",
+    "Bupivan",
+    "Bupivacaína con Epinefrina PiSA"
+  ],
+  "clinicalPearls": [
+    "La toxicidad cardíaca por bupivacaína es de 'lenta resolución' y responde mal a las medidas de reanimación estándar; tener siempre disponible emulsión lipídica al 20% donde se administre.",
+    "En anestesia epidural para parto, usar concentraciones bajas (0.0625%-0.125%) combinadas con un opioide como fentanilo para lograr 'walking epidural' con menor bloqueo motor.",
+    "La adición de epinefrina 1:200,000 no solo prolonga la duración, sino que sirve como 'marcador' de inyección intravascular: si el paciente presenta taquicardia súbita tras la dosis de prueba, se debe suspender.",
+    "Para bloqueos nerviosos periféricos de larga duración (ej. analgesia postoperatoria de hombro), la bupivacaína 0.5% puede proporcionar más de 12 horas de alivio.",
+    "En pacientes con miastenia gravis, usar con extrema precaución, ya que puede potenciar la debilidad muscular."
+  ],
+  "patientCounseling": "Es normal sentir entumecimiento, pesadez y calor en la zona del cuerpo donde se aplicó la anestesia. Este efecto puede durar varias horas. No intente caminar o mover la extremidad afectada hasta que la sensación y la fuerza regresen por completo para evitar caídas. Si recibió anestesia epidural o espinal, es común tener dolor de cabeza al sentarse o pararse; descanse boca arriba, tome líquidos y avise a su enfermera. No aplique calor (como almohadillas térmicas) en el área adormecida, ya que podría quemarse sin darse cuenta. Informe inmediatamente a su médico si siente dificultad para respirar, palpitaciones fuertes, zumbido en los oídos, visión borrosa, temblores o si el entumecimiento no desaparece después de 24 horas. Siga todas las instrucciones de su equipo médico después del procedimiento.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor agudo postoperatorio",
+        "slug": "dolor-agudo-postoperatorio"
+      },
+      {
+        "name": "Dolor de parto",
+        "slug": "dolor-de-parto"
+      },
+      {
+        "name": "Dolor neuropático localizado",
+        "slug": "dolor-neuropatico"
+      },
+      {
+        "name": "Espasmos musculares dolorosos",
+        "slug": "espasmos-musculares"
+      },
+      {
+        "name": "Dolor articular post-traumático",
+        "slug": "dolor-articular"
+      },
+      {
+        "name": "Hipersensibilidad al tacto (alodinia)",
+        "slug": "alodinia"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Osteoartritis (para analgesia intraarticular)",
+        "slug": "osteoartritis"
+      },
+      {
+        "name": "Síndrome de dolor regional complejo (Tipo I y II)",
+        "slug": "sindrome-dolor-regional-complejo"
+      },
+      {
+        "name": "Neuralgia postherpética",
+        "slug": "neuralgia-postherpetica"
+      },
+      {
+        "name": "Cefalea cervicogénica",
+        "slug": "cefalea-cervicogenica"
+      },
+      {
+        "name": "Síndrome del túnel carpiano (en bloqueos diagnósticos/terapéuticos)",
+        "slug": "sindrome-tunel-carpiano"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Arritmias cardíacas",
+        "slug": "arritmias-cardiacas"
+      },
+      {
+        "name": "Insuficiencia cardíaca",
+        "slug": "insuficiencia-cardiaca"
+      },
+      {
+        "name": "Enfermedad hepática crónica",
+        "slug": "enfermedad-hepatica-cronica"
+      },
+      {
+        "name": "Epilepsia",
+        "slug": "epilepsia"
+      },
+      {
+        "name": "Trastornos de la coagulación",
+        "slug": "trastornos-coagulacion"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede disminuir (bradicardia)"
+      },
+      {
+        "name": "Presión arterial",
+        "slug": "presion-arterial",
+        "effect": "Puede disminuir (hipotensión)"
+      },
+      {
+        "name": "Nivel de alfa-1 glicoproteína ácida",
+        "slug": "alfa-1-glicoproteina-acida",
+        "effect": "Aumenta su unión, reduciendo fracción libre"
+      },
+      {
+        "name": "Actividad enzimática CYP3A4",
+        "slug": "citocromo-p450-3a4",
+        "effect": "Es metabolizada por esta enzima"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Electrocardiograma (ECG)",
+        "slug": "electrocardiograma",
+        "reason": "Para evaluar conducción cardíaca antes de su uso en pacientes con riesgo"
+      },
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-funcion-hepatica",
+        "reason": "Para evaluar capacidad metabólica antes de dosis altas o infusiones"
+      },
+      {
+        "name": "Tiempo de Protrombina (TP) y TTPA",
+        "slug": "tiempo-protrombina-ttpa",
+        "reason": "Para descartar coagulopatía antes de técnicas neuroaxiales"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La bupivacaína es lo mismo que la anestesia que me ponen en el dentista?",
+      "a": "No, son diferentes. La del dentista suele ser lidocaína o articaína, que actúan más rápido pero duran menos. La bupivacaína es más potente y su efecto dura muchas horas, por lo que se usa en cirugías mayores o para el dolor después de la operación."
+    },
+    {
+      "q": "¿Duele la inyección de bupivacaína?",
+      "a": "La punción inicial puede causar una breve molestia, similar a un piquete. Sin embargo, el médico suele aplicar primero un anestésico local superficial. Una vez que la bupivacaína empieza a hacer efecto (en unos minutos), el área se adormece completamente y ya no duele."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto y cuánto dura?",
+      "a": "Empieza a adormecer en unos 5 a 15 minutos, pero puede tardar hasta 30 minutos en hacer efecto completo en la espalda (epidural). El efecto puede durar entre 4 y 12 horas, dependiendo de la dosis y el lugar donde se aplicó."
+    },
+    {
+      "q": "¿Puedo comer o beber antes de que me apliquen bupivacaína?",
+      "a": "Si es para una cirugía o procedimiento planificado, debe seguir las instrucciones de ayuno de su médico (generalmente nada de comer o beber 6-8 horas antes). Si es para un bloqueo nervioso menor en consultorio, su médico le dará indicaciones específicas."
+    },
+    {
+      "q": "¿Qué debo hacer si el entumecimiento no se me quita después de un día?",
+      "a": "Debe contactar a su médico inmediatamente. Aunque es raro, el entumecimiento prolongado puede indicar irritación nerviosa. Es importante una evaluación para descartar complicaciones."
+    },
+    {
+      "q": "¿Puedo conducir después de recibir bupivacaína?",
+      "a": "NO. La bupivacaína puede debilitar una pierna o un brazo, y sus efectos pueden durar muchas horas. No debe conducir, operar maquinaria o tomar decisiones importantes hasta que la sensación y fuerza hayan regresado por completo, lo que puede ser al día siguiente."
+    },
+    {
+      "q": "¿La bupivacaína puede causar alergia?",
+      "a": "Es poco común, pero posible. Las alergias verdaderas suelen ser a los anestésicos del tipo éster (como la procaína). Si es alérgico a otros anestésicos locales (como la lidocaína), debe informarlo, ya que podría haber reacción cruzada."
+    },
+    {
+      "q": "¿Es seguro usar bupivacaína si estoy embarazada?",
+      "a": "Sí, es uno de los anestésicos más usados y seguros para la analgesia epidural durante el trabajo de parto. Sin embargo, la decisión y la dosis deben ser manejadas por su anestesiólogo y ginecólogo."
+    },
+    {
+      "q": "¿Puedo amamantar después de recibir una epidural con bupivacaína?",
+      "a": "Sí, no hay problema. La cantidad de medicamento que pasa a la leche materna es mínima y no afecta al bebé. Puede amamantar con normalidad una vez que se sienta recuperada."
+    },
+    {
+      "q": "¿Qué es el dolor de cabeza post-punción dural y cómo se trata?",
+      "a": "Es un dolor de cabeza intenso que empeora al sentarse o pararse, y mejora al acostarse. Ocurre si la aguja atraviesa accidentalmente la duramadre durante una epidural. El tratamiento incluye reposo, líquidos, cafeína y, en casos graves, un 'parche sanguíneo' realizado por el anestesiólogo."
+    },
+    {
+      "q": "¿La bupivacaína sube la presión arterial?",
+      "a": "Por lo general, la baja, especialmente en anestesia espinal o epidural. Esto se controla con líquidos intravenosos y, si es necesario, medicamentos. La epinefrina que a veces se añade puede causar un breve aumento, pero es parte del procedimiento controlado."
+    },
+    {
+      "q": "¿Qué pasa si me inyectan bupivacaína en una vena por error?",
+      "a": "Es una emergencia médica que puede causar convulsiones, problemas graves del corazón o paro cardíaco. Por eso los médicos siempre aspiran antes de inyectar y administran la dosis lentamente. En un entorno médico, tienen el equipo y medicamentos (como la emulsión lipídica) para tratar esta complicación."
+    },
+    {
+      "q": "¿Puedo tomar alcohol después de un bloqueo con bupivacaína?",
+      "a": "Se recomienda evitar el alcohol por lo menos 24 horas después. El alcohol puede potenciar los efectos secundarios como mareo y somnolencia, y también puede interferir con otros medicamentos para el dolor que le hayan recetado."
+    },
+    {
+      "q": "¿La bupivacaína es adictiva?",
+      "a": "No, la bupivacaína en sí no tiene potencial de abuso o adicción, ya que no produce euforia. Es un anestésico, no un narcótico. Sin embargo, a veces se combina con opioides (como fentanilo) en la epidural, los cuales sí tienen ese riesgo, pero en dosis controladas."
+    },
+    {
+      "q": "¿Para qué tipos de cirugía se usa más comúnmente?",
+      "a": "Se usa en cirugías ortopédicas (hombro, rodilla, cadera), cirugías abdominales bajas (hernias, próstata), cesáreas, cirugías vasculares de piernas y en procedimientos para aliviar dolor crónico."
+    },
+    {
+      "q": "¿Existe una pomada de bupivacaína?",
+      "a": "No hay una pomada comercial común en México. Existen parches de lidocaína para dolor neuropático. La bupivacaína se usa principalmente en forma inyectable porque es más potente y actúa en profundidad."
+    },
+    {
+      "q": "¿Cómo se calcula la dosis segura para un niño?",
+      "a": "Se calcula con precisión basándose en el peso corporal del niño (miligramos por kilo). La dosis máxima es mucho menor que en adultos. Solo un anestesiólogo pediátrico experimentado debe realizar este cálculo y la administración."
+    },
+    {
+      "q": "¿Qué es la emulsión lipídica y para qué sirve?",
+      "a": "Es un 'antídoto' que se usa en emergencias para tratar la intoxicación grave por anestésicos locales como la bupivacaína. Es una solución de grasa intravenosa que 'atrapa' el medicamento en la sangre, reduciendo su toxicidad en el corazón y el cerebro."
+    },
+    {
+      "q": "¿Por qué a veces añaden epinefrina (adrenalina) a la bupivacaína?",
+      "a": "Por tres razones principales: 1) Hace que los vasos sanguíneos se contraigan, lo que mantiene el medicamento más tiempo en el área del nervio, prolongando la anestesia. 2) Reduce la absorción hacia la sangre, disminuyendo el riesgo de toxicidad. 3) Sirve como señal de alarma: si se inyecta en una vena, el paciente siente palpitaciones rápidas, alertando al médico."
+    },
+    {
+      "q": "¿Cuál es la diferencia clave entre bupivacaína y ropivacaína, otro anestésico de larga duración?",
+      "a": "La ropivacaína es químicamente muy similar, pero es menos tóxica para el corazón. Por esto, se prefiere en infusiones epidurales continuas o en pacientes con riesgo cardíaco. La bupivacaína puede producir un bloqueo motor (debilidad) más profundo, lo que a veces es deseable en cirugía."
+    }
+  ]
+}

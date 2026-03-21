@@ -1,0 +1,433 @@
+{
+  "name": "Nickel",
+  "summary": "Nickel es un anestésico local de tipo amida, utilizado para bloquear temporalmente la sensación de dolor en áreas específicas del cuerpo durante procedimientos médicos, dentales o quirúrgicos menores. Actúa impidiendo que los nervios envíen señales de dolor al cerebro, lo que permite realizar intervenciones con mayor comodidad para el paciente. Su importancia clínica radica en ser una herramienta fundamental para el control del dolor agudo en procedimientos como suturas, extracciones dentales, biopsias o cirugías menores, ofreciendo un alivio rápido y localizado que mejora la experiencia del paciente y facilita el trabajo del profesional de la salud. Es especialmente valioso por su perfil de seguridad cuando se usa correctamente y por su capacidad de proporcionar anestesia sin necesidad de sedación general, lo que reduce riesgos y tiempos de recuperación.",
+  "pharmacology": {
+    "mechanismOfAction": "Nickel, como anestésico local del grupo de las amidas, ejerce su efecto al bloquear de manera reversible los canales de sodio dependientes de voltaje en las membranas de las neuronas. Esto impide la entrada de iones sodio a la célula nerviosa, lo cual es un paso esencial para la generación y propagación del potencial de acción, es decir, el impulso nervioso. Al estabilizar la membrana neuronal, interrumpe específicamente la conducción de señales de dolor (nocicepción) desde el sitio de aplicación hacia la médula espinal y el cerebro. Su acción es más potente en fibras nerviosas finas (como las que transmiten dolor y temperatura) que en las gruesas (motoras), lo que permite adormecer la zona con un efecto motor mínimo. La molécula debe difundirse a través de la membrana celular en su forma no ionizada para luego ionizarse en el interior y unirse al receptor dentro del canal de sodio.",
+    "pharmacologicClass": "Anestésico local, tipo amida. Derivado de la xilidina. Agente bloqueador de canales de sodio.",
+    "therapeuticClass": "Anestésico local inyectable y tópico.",
+    "absorption": "La absorción sistémica depende en gran medida de la vía de administración y del sitio de inyección. Tras la administración por infiltración o bloqueo nervioso periférico, la absorción a la circulación general es lenta y variable, influenciada por la vascularización del área. La administración epidural o intravenosa regional resulta en una absorción más rápida y completa. La presencia de vasoconstrictores (como epinefrina) en la formulación retrasa significativamente la absorción, prolonga la duración de la anestesia local y reduce las concentraciones plasmáticas máximas, disminuyendo el riesgo de toxicidad sistémica.",
+    "distribution": "Tras la absorción sistémica, Nickel se distribuye ampliamente por todos los tejidos. El volumen de distribución (Vd) es moderadamente alto. Se une a proteínas plasmáticas, principalmente a la alfa-1-glicoproteína ácida (AAG), en un porcentaje que varía según la concentración plasmática y las condiciones del paciente (la unión es mayor en estados inflamatorios donde aumenta la AAG). Atraviesa la barrera hematoencefálica y, en menor medida en condiciones normales, la barrera placentaria. La distribución a tejidos adiposos es limitada debido a su moderada liposolubilidad.",
+    "metabolism": "Nickel es metabolizado extensamente en el hígado por el sistema enzimático del citocromo P450, específicamente por la isoenzima CYP3A4, y en menor medida por CYP1A2. El metabolismo es de tipo N-desalquilación e hidroxilación, dando lugar a metabolitos activos y inactivos. La capacidad metabólica hepática es el principal factor que determina su aclaramiento. La función hepática alterada puede reducir significativamente su metabolismo, llevando a una acumulación y mayor riesgo de efectos adversos sistémicos.",
+    "elimination": "Los metabolitos de Nickel, junto con una pequeña fracción del fármaco sin cambios, se eliminan principalmente por vía renal. La vida media de eliminación terminal es de aproximadamente 1.5 a 2 horas en pacientes con función hepática y renal normales. En pacientes con insuficiencia hepática, la vida media puede prolongarse considerablemente. Menos del 10% del fármaco se excreta sin cambios en la orina.",
+    "onsetOfAction": "El inicio de acción es relativamente rápido. Tras la inyección por infiltración, el efecto anestésico comienza generalmente entre 2 y 5 minutos. Para bloqueos nerviosos más profundos, el inicio puede tardar entre 5 y 15 minutos, dependiendo de la concentración, la proximidad al nervio y la presencia de vasoconstrictor.",
+    "durationOfAction": "La duración del efecto anestésico varía según la formulación y el sitio de administración. Para soluciones sin vasoconstrictor, la duración es de aproximadamente 1 a 2 horas. Cuando se combina con un vasoconstrictor como la epinefrina, la duración puede prolongarse hasta 2 a 4 horas o más, ya que se reduce el lavado vascular del fármaco de la zona de acción."
+  },
+  "indications": {
+    "approved": [
+      "Anestesia por infiltración para procedimientos quirúrgicos menores",
+      "Bloqueo nervioso periférico (ej. bloqueo digital, intercostal, de plexo braquial)",
+      "Anestesia epidural para analgesia en trabajo de parto y procedimientos quirúrgicos bajo el ombligo",
+      "Anestesia espinal (subaracnoidea) para cirugía de miembros inferiores y abdomen bajo",
+      "Anestesia tópica para membranas mucosas (en formulaciones específicas)",
+      "Anestesia intravenosa regional (Bier Block) para cirugía de extremidades"
+    ],
+    "offLabel": [
+      "Infusión continua epidural o perineural para analgesia postoperatoria",
+      "Bloqueo del ganglio estrellado para el manejo del dolor neuropático complejo",
+      "Infiltración para el manejo del dolor crónico (ej. puntos gatillo)",
+      "Como componente de soluciones anestésicas para bloqueos del plano transverso abdominal (TAP block)"
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis varía según el tipo de bloqueo, la concentración del producto y el uso de vasoconstrictor. Dosis máxima recomendada para soluciones SIN vasoconstrictor: 4.5 mg/kg, no exceder 300 mg por procedimiento. Para soluciones CON epinefrina (1:200,000): 7 mg/kg, no exceder 500 mg por procedimiento. Ejemplos: Infiltración local: 1-5 mL de solución al 1-2%. Bloqueo epidural: 10-20 mL de solución al 1-2%. Bloqueo espinal: 50-100 mg (1-2 mL de solución al 5%). Bloqueo de nervio periférico: 5-40 mL de solución al 1-1.5%.",
+    "pediatric": "La dosis se calcula cuidadosamente por peso corporal. Dosis máxima: 4.5-5 mg/kg para soluciones sin vasoconstrictor. Para soluciones con epinefrina: hasta 7 mg/kg. Se requieren cálculos precisos y el uso de la concentración más baja efectiva. No se recomienda en recién nacidos sin supervisión especializada debido a la inmadurez metabólica.",
+    "elderly": "Se requieren dosis más bajas, generalmente reducidas en un 20-30%, debido a la disminución de la masa muscular, posible reducción de la función hepática/renal y mayor sensibilidad a los efectos del fármaco. Monitorización estrecha por mayor riesgo de toxicidad sistémica y efectos cardiovasculares.",
+    "renalImpairment": "No se requiere ajuste de dosis inicial específico para la insuficiencia renal leve a moderada (TFG >30 mL/min), ya que la excreción renal del fármaco sin cambios es mínima. En insuficiencia renal grave (TFG <30 mL/min) o en diálisis, existe riesgo de acumulación de metabolitos. Se recomienda usar la dosis efectiva más baja y monitorizar por posibles efectos adversos neurológicos.",
+    "hepaticImpairment": "Ajuste obligatorio. En insuficiencia hepática (Child-Pugh B o C), el metabolismo está significativamente reducido, lo que aumenta el riesgo de toxicidad. Se deben reducir las dosis en un 50% o más, evitar dosis repetidas y considerar alternativas. Contraindicado en insuficiencia hepática grave.",
+    "maxDose": "Dosis máxima absoluta para adultos sanos: 300 mg (sin vasoconstrictor) o 500 mg (con vasoconstrictor). Estas dosis son guías y deben individualizarse según el paciente, el sitio de inyección y la presencia de factores de riesgo."
+  },
+  "dosageForms": [
+    {
+      "form": "Solución inyectable para infiltración/ bloqueo",
+      "strengths": [
+        "0.5%",
+        "1%",
+        "1.5%",
+        "2%"
+      ],
+      "route": "Inyección"
+    },
+    {
+      "form": "Solución inyectable para anestesia espinal",
+      "strengths": [
+        "5% en solución hipertónica"
+      ],
+      "route": "Inyección intratecal"
+    },
+    {
+      "form": "Solución inyectable con vasoconstrictor (epinefrina)",
+      "strengths": [
+        "1% con epinefrina 1:200,000",
+        "2% con epinefrina 1:200,000"
+      ],
+      "route": "Inyección"
+    },
+    {
+      "form": "Gel o solución tópica",
+      "strengths": [
+        "2%",
+        "4%"
+      ],
+      "route": "Tópica (mucosas)"
+    },
+    {
+      "form": "Crema anestésica",
+      "strengths": [
+        "2.5%",
+        "5%"
+      ],
+      "route": "Tópica (piel)"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a Nickel o a otros anestésicos locales del tipo amida (ej. bupivacaína, mepivacaína)",
+      "Hipersensibilidad a los componentes de la formulación (ej. metabisulfito en soluciones con epinefrina)",
+      "Bloqueo cardíaco de segundo o tercer grado sin marcapasos",
+      "Hipovolemia grave o shock",
+      "Septicemia en el sitio de punción previsto (para bloqueos centrales)",
+      "Hipertensión intracraneal (para anestesia espinal)",
+      "Infección de la piel en el sitio de inyección"
+    ],
+    "relative": [
+      "Insuficiencia hepática grave (Child-Pugh C)",
+      "Insuficiencia cardíaca congestiva descompensada",
+      "Trastornos de la coagulación o terapia anticoagulante (para bloqueos profundos o centrales)",
+      "Epilepsia no controlada",
+      "Miastenia gravis",
+      "Porfiria",
+      "Bradicardia severa o bloqueo cardíaco de primer grado",
+      "Tratamiento con antiarrítmicos de clase I (ej. mexiletina)"
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Adormecimiento y sensación de pesadez en la zona anestesiada",
+      "Hipotensión postural (especialmente tras anestesia espinal o epidural)"
+    ],
+    "common": [
+      "Náuseas y vómitos (especialmente post-operatorios o por hipotensión)",
+      "Dolor de cabeza (cefalea post-punción dural)",
+      "Temblor o sensación de frío",
+      "Mareo (vértigo)",
+      "Zumbido en los oídos (tinnitus)",
+      "Visión borrosa",
+      "Somnolencia",
+      "Ansiedad o nerviosismo"
+    ],
+    "uncommon": [
+      "Bradicardia (frecuencia cardíaca lenta)",
+      "Reacciones alérgicas cutáneas (urticaria, prurito)",
+      "Retención urinaria (especialmente con bloqueos centrales)",
+      "Dolor de espalda",
+      "Hematoma en el sitio de inyección",
+      "Parestesias (hormigueo) persistentes"
+    ],
+    "rare": [
+      "Convulsiones (por toxicidad del SNC)",
+      "Arritmias cardíacas graves (fibrilación ventricular, asistolia)",
+      "Paro cardiorrespiratorio",
+      "Síndrome de cauda equina (daño neurológico permanente tras anestesia espinal)",
+      "Methemoglobinemia (con dosis muy altas o en pacientes susceptibles)",
+      "Reacción anafiláctica severa"
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Antiarrítmicos de clase I (Mexiletina, Flecainida)",
+        "effect": "Aumentan el riesgo de toxicidad cardíaca y neurológica por efectos aditivos en el bloqueo de canales de sodio.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inhibidores de CYP3A4 (Ketoconazol, Claritromicina, Ritonavir)",
+        "effect": "Disminuyen el metabolismo de Nickel, aumentando sus niveles en sangre y el riesgo de toxicidad.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Inductores de CYP3A4 (Rifampicina, Carbamazepina, Fenitoína)",
+        "effect": "Aumentan el metabolismo de Nickel, pudiendo reducir su efecto anestésico.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Bloqueadores beta no selectivos (Propranolol)",
+        "effect": "Pueden potenciar la bradicardia y la hipotensión inducidas por Nickel, y enmascarar los signos de taquicardia por sobredosis.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Otros anestésicos locales",
+        "effect": "La administración simultánea o consecutiva aumenta el riesgo de toxicidad sistémica acumulativa.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "No hay interacciones significativas con alimentos. Sin embargo, se recomienda no consumir alcohol antes de un procedimiento con anestesia local, ya que puede potenciar la depresión del sistema nervioso central y aumentar el riesgo de mareo y náuseas.",
+    "withSupplements": "Suplementos que afectan la coagulación (como Ginkgo biloba, Ajo, Ginseng, Vitamina E en altas dosis) pueden aumentar el riesgo de sangrado y hematoma en el sitio de inyección, especialmente en bloqueos profundos. Suplementos con efectos sedantes (como Valeriana, Kava) pueden potenciar la somnolencia."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA B",
+      "recommendación": "Nickel puede usarse durante el embarazo cuando es claramente necesario, especialmente para procedimientos dentales o anestesia epidural para el trabajo de parto. Los estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. Se prefiere su uso en el segundo y tercer trimestre. Para anestesia obstétrica, es una opción estándar y segura cuando es administrada por un profesional capacitado.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Nickel se excreta en la leche materna en cantidades muy pequeñas, consideradas clínicamente insignificantes. No se esperan efectos adversos en el lactante, especialmente tras dosis únicas para procedimientos. No se requiere interrumpir la lactancia. Sin embargo, si la madre presenta signos de toxicidad sistémica, se debe evaluar la suspensión temporal.",
+    "pediatric": "Puede usarse en niños para procedimientos menores, con ajuste estricto de dosis por peso. Se debe utilizar la concentración más baja efectiva. Los niños pueden ser más susceptibles a los efectos tóxicos del SNC. No se recomienda para anestesia tópica en mucosas extensas en lactantes por riesgo de methemoglobinemia.",
+    "geriatric": "Los adultos mayores son más sensibles a los efectos de Nickel. Presentan mayor riesgo de toxicidad sistémica debido a cambios en la farmacocinética (menor masa muscular, reducción del flujo hepático, disminución de la función renal) y farmacodinamia (mayor sensibilidad del SNC y sistema cardiovascular). Se deben usar dosis reducidas, monitorizar estrechamente la presión arterial y la frecuencia cardíaca, y vigilar por confusión o somnolencia post-procedimiento."
+  },
+  "administration": {
+    "howToTake": "Nickel es administrado exclusivamente por profesionales de la salud (médicos, dentistas, anestesiólogos). La técnica (infiltración, bloqueo nervioso, epidural, espinal) depende del procedimiento. El sitio de inyección se limpia con un antiséptico. Se utiliza una aguja estéril del calibre y longitud apropiados. Se debe aspirar antes de inyectar para asegurar que no se está en un vaso sanguíneo. La inyección se realiza lentamente. Para formulaciones tópicas (gel, crema), se aplica una capa generosa sobre la piel o mucosa limpia y seca, y se deja actuar el tiempo indicado (generalmente 15-30 minutos).",
+    "storage": "Conservar en su envase original, protegido de la luz. Almacenar a temperatura ambiente (15-30°C). No congelar. Las soluciones inyectables son estériles y de un solo uso; desechar cualquier sobrante. Mantener fuera del alcance de los niños.",
+    "specialInstructions": "NUNCA se debe inyectar en un vaso sanguíneo. La presencia de sangre en la jeringa durante la aspiración obliga a reposicionar la aguja. Para procedimientos prolongados, calcular la dosis total acumulada para no exceder el máximo. Las soluciones que contienen vasoconstrictor (epinefrina) NO deben usarse en áreas con circulación terminal (dedos, nariz, orejas, pene) debido al riesgo de isquemia y necrosis. Estar preparado para manejar reacciones adversas graves, incluyendo equipo de reanimación."
+  },
+  "monitoring": {
+    "labTests": [
+      "No se requieren análisis de laboratorio de rutina para dosis únicas. En uso crónico o en pacientes de riesgo: Pruebas de función hepática (ALT, AST, bilirrubina)",
+      "Pruebas de función renal (creatinina sérica, TFG)",
+      "Nivel de methemoglobina (si hay cianosis inexplicable tras uso tópico extenso)"
+    ],
+    "frequency": "Monitorización continua durante el procedimiento y en la fase de recuperación inmediata: Signos vitales (presión arterial, frecuencia cardíaca, saturación de oxígeno) cada 5-15 minutos. Evaluación neurológica post-procedimiento hasta que desaparezca el bloqueo motor y sensorial.",
+    "signsToWatch": [
+      "Signos de toxicidad del SNC: hormigueo perioral, zumbido de oídos, visión borrosa, mareo, somnolencia, confusión, temblores, convulsiones",
+      "Signos de toxicidad cardiovascular: bradicardia, hipotensión, arritmias, paro cardíaco",
+      "Signos de reacción alérgica: urticaria, picazón, dificultad para respirar, hinchazón de cara/lengua",
+      "Signos de bloqueo motor prolongado o parestesia persistente"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Síntomas neurológicos progresivos: mareo, somnolencia, zumbido de oídos (tinnitus), visión borrosa, parestesias (hormigueo) perioral y en extremidades, temblor muscular, agitación, convulsiones",
+      "Síntomas cardiovasculares: bradicardia, hipotensión, bloqueo cardíaco, arritmias ventriculares (taquicardia ventricular, fibrilación ventricular), paro cardiorrespiratorio",
+      "Depresión respiratoria central",
+      "Cianosis por methemoglobinemia (piel de color azulada/grisácea)"
+    ],
+    "treatment": "Suspender inmediatamente la administración. Medidas de soporte vital ABC (vía aérea, respiración, circulación). Oxigenación al 100%. Para convulsiones: benzodiacepinas (midazolam, diazepam) IV. Para bradicardia: atropina. Para hipotensión: fluidos IV y vasopresores (epinefrina). Para arritmias ventriculares: amiodarona. Considerar reanimación cardiopulmonar (RCP) avanzada si es necesario. La hemodiálisis no es efectiva para eliminar el fármaco debido a su alta unión a proteínas.",
+    "antidote": "No existe un antídoto específico. El tratamiento es de soporte. Para la methemoglobinemia sintomática (>30%), el antídoto es Azul de Metileno, administrado por vía intravenosa lenta (1-2 mg/kg de una solución al 1%)."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica para su adquisición y solo debe ser administrado por un profesional de la salud.",
+    "scheduleMexico": "Medicamento de la Fracción IV (Sustancias Medicinales de Venta con Receta Médica).",
+    "fdaApprovalYear": "Aprobado por la FDA desde la década de 1940. Las formulaciones específicas tienen años de aprobación variables."
+  },
+  "brandsMexico": [
+    "Anestésico Nickel",
+    "Nickel Braun",
+    "Nickel Inyectable Pisa",
+    "Nickel MK",
+    "Nickel Solution",
+    "Xylocaine (nombre original de la lidocaína, a menudo usado como sinónimo)",
+    "Lidocaína (genérico, múltiples laboratorios)",
+    "Dentanest",
+    "Lidopen",
+    "Lidogel",
+    "EMLA (crema que combina lidocaína y prilocaína)"
+  ],
+  "clinicalPearls": [
+    "La adición de epinefrina (1:200,000) no solo prolonga la duración de la anestesia, sino que reduce el pico sérico máximo en aproximadamente un 30%, disminuyendo significativamente el riesgo de toxicidad sistémica.",
+    "Para revertir rápidamente los efectos de un bloqueo dental, se puede aplicar un algodón con Phentolamine mesilato en el sitio de inyección, acelerando la recuperación de la sensibilidad.",
+    "En pacientes con dolor crónico, la infusión continua de Nickel a través de un catéter perineural puede proporcionar analgesia postoperatoria superior y reducir el consumo de opioides, minimizando sus efectos secundarios."
+  ],
+  "patientCounseling": "Es muy importante que comprenda que la zona anestesiada estará completamente insensible al dolor y al tacto por varias horas. No aplique calor (como almohadillas térmicas) ni se exponga a temperaturas extremas en esa área, ya que podría quemarse sin darse cuenta. Evite masticar si la anestesia es en la boca, para no morderse la mejilla, labio o lengua. No conduzca vehículos ni opere maquinaria hasta que haya recuperado completamente la sensibilidad y la fuerza muscular, lo que puede tardar más de lo que cree. Es normal sentir una sensación de hormigueo o 'pinchazos' cuando el efecto está desapareciendo. Comuníquele inmediatamente a su médico o dentista si después del procedimiento siente un dolor intenso, hinchazón creciente, dificultad para respirar, palpitaciones, mareo severo o si la falta de sensibilidad persiste por más de 12 horas. Recuerde que este medicamento solo lo administra un profesional de la salud.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor agudo",
+        "slug": "dolor-agudo"
+      },
+      {
+        "name": "Dolor durante procedimientos médicos",
+        "slug": "dolor-procedimientos-medicos"
+      },
+      {
+        "name": "Dolor dental",
+        "slug": "dolor-dental"
+      },
+      {
+        "name": "Hipersensibilidad en la piel",
+        "slug": "hipersensibilidad-piel"
+      },
+      {
+        "name": "Dolor postoperatorio",
+        "slug": "dolor-postoperatorio"
+      },
+      {
+        "name": "Dolor de parto",
+        "slug": "dolor-de-parto"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Dolor agudo perioperatorio",
+        "slug": "dolor-agudo-perioperatorio"
+      },
+      {
+        "name": "Traumatismos menores que requieren sutura",
+        "slug": "traumatismos-menores-sutura"
+      },
+      {
+        "name": "Procedimientos dentales invasivos",
+        "slug": "procedimientos-dentales-invasivos"
+      },
+      {
+        "name": "Neuralgia (en contextos de bloqueos terapéuticos)",
+        "slug": "neuralgia"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Methemoglobinemia",
+        "slug": "methemoglobinemia"
+      },
+      {
+        "name": "Neuropatía periférica por lesión nerviosa",
+        "slug": "neuropatia-periferica"
+      },
+      {
+        "name": "Síndrome de cauda equina",
+        "slug": "sindrome-cauda-equina"
+      },
+      {
+        "name": "Arritmias cardíacas",
+        "slug": "arritmias-cardiacas"
+      },
+      {
+        "name": "Reacción anafiláctica",
+        "slug": "reaccion-anafilactica"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Methemoglobina",
+        "slug": "methemoglobina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Presión arterial",
+        "slug": "presion-arterial",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Nivel de conciencia (escala GCS)",
+        "slug": "nivel-conciencia",
+        "effect": "Puede disminuir"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-funcion-hepatica",
+        "reason": "Para evaluar la capacidad metabólica antes de dosis altas o repetidas"
+      },
+      {
+        "name": "Coagulograma (TP, TTP)",
+        "slug": "coagulograma",
+        "reason": "Antes de bloqueos nerviosos profundos o centrales para evaluar riesgo de sangrado"
+      },
+      {
+        "name": "Nivel de Methemoglobina",
+        "slug": "nivel-methemoglobina",
+        "reason": "Si hay cianosis inexplicable tras el uso, especialmente en niños o con anestésicos tópicos"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve el Nickel (lidocaína)?",
+      "a": "Sirve para adormecer o 'dormir' una parte específica de su cuerpo y bloquear el dolor durante procedimientos médicos o dentales como sacar una muela, poner puntos, hacer una pequeña cirugía, o durante el trabajo de parto (epidural)."
+    },
+    {
+      "q": "¿Duele la inyección de Nickel?",
+      "a": "La inyección inicial puede causar una breve sensación de ardor o pinchazo, pero esto dura solo unos segundos. Luego, el área se adormece rápidamente y ya no sentirá dolor durante el procedimiento."
+    },
+    {
+      "q": "¿Cuánto tiempo dura el efecto del Nickel?",
+      "a": "Depende del tipo usado. Sin epinefrina, el adormecimiento dura entre 1 y 2 horas. Con epinefrina, puede durar de 2 a 4 horas o más. La sensación de 'hormigueo' al pasar el efecto puede persistir un poco más."
+    },
+    {
+      "q": "¿Puedo comer o beber después de que me pongan Nickel en la boca?",
+      "a": "NO debe comer ni beber hasta que recupere completamente la sensibilidad en la boca, labios y lengua. Si lo hace, podría morderse o quemarse sin darse cuenta. Espere al menos 2-3 horas después de un procedimiento dental."
+    },
+    {
+      "q": "¿Puedo conducir después de un procedimiento con anestesia local?",
+      "a": "NO se recomienda conducir hasta que el efecto haya desaparecido por completo y usted se sienta totalmente alerta. Si la anestesia fue en un brazo o pierna, no podrá controlar bien el vehículo. Si fue una epidural, puede sentirse débil o mareado."
+    },
+    {
+      "q": "¿El Nickel puede causar alergia?",
+      "a": "Sí, aunque es poco común. Las reacciones alérgicas verdaderas son más frecuentes con anestésicos del tipo éster (como la procaína). Si es alérgico a otros anestésicos locales, informe a su médico antes de cualquier procedimiento."
+    },
+    {
+      "q": "¿Qué debo hacer si el adormecimiento no se me quita después de muchas horas?",
+      "a": "Es una señal de alarma. Comuníquese de inmediato con su médico o dentista, o acuda a un servicio de urgencias. Podría indicar una lesión nerviosa o otra complicación que requiere evaluación."
+    },
+    {
+      "q": "¿Es seguro el Nickel en el embarazo?",
+      "a": "Sí, se considera seguro y es de uso común, especialmente para anestesia dental y para la epidural durante el parto. Su médico evaluará los beneficios y riesgos en su caso particular."
+    },
+    {
+      "q": "¿Puedo usar crema de Nickel (como EMLA) para tatuajes o piercings?",
+      "a": "Sí, las cremas anestésicas con Nickel (lidocaína) se usan para reducir el dolor en estos procedimientos. Debe aplicarse según las instrucciones, con suficiente tiempo de antelación (30-60 minutos) y en la cantidad correcta."
+    },
+    {
+      "q": "¿Por qué a veces me late el corazón rápido después de la inyección?",
+      "a": "Algunas formulaciones de Nickel contienen epinefrina (adrenalina), un vasoconstrictor. Una pequeña cantidad puede absorberse y causar palpitaciones o ansiedad por unos minutos. Es un efecto temporal. Informe a su médico si la sensación es muy intensa."
+    },
+    {
+      "q": "¿El Nickel afecta la presión arterial?",
+      "a": "Sí, puede bajarla, especialmente en procedimientos como la epidural o la raquia. Su médico lo monitorizará durante y después del procedimiento. Si se siente mareado al ponerse de pie, hágalo lentamente."
+    },
+    {
+      "q": "¿Qué es una cefalea post-punción dural?",
+      "a": "Es un dolor de cabeza intenso que puede aparecer después de una anestesia espinal o epidural si se perfora accidentalmente la duramadre. Suele empeorar al sentarse o pararse y mejorar al acostarse. Requiere atención médica para su manejo."
+    },
+    {
+      "q": "¿Puedo tomar alcohol después de un procedimiento con Nickel?",
+      "a": "No se recomienda, ya que el alcohol puede potenciar los efectos secundarios como mareo y somnolencia. Espere hasta que el efecto del anestésico haya pasado por completo y se sienta totalmente bien."
+    },
+    {
+      "q": "¿El Nickel interactúa con mis otros medicamentos?",
+      "a": "Sí, puede interactuar, especialmente con medicamentos para el corazón (antiarrítmicos), algunos antibióticos y antimicóticos. SIEMPRE informe a su médico sobre TODOS los medicamentos y suplementos que toma."
+    },
+    {
+      "q": "¿Por qué no se usa Nickel con epinefrina en dedos, nariz u orejas?",
+      "a": "Porque la epinefrina reduce mucho el flujo de sangre. En áreas con circulación terminal como los dedos, esto puede causar falta de oxígeno en los tejidos (isquemia) y hasta necrosis (muerte del tejido)."
+    },
+    {
+      "q": "¿Qué es la methemoglobinemia y cómo se relaciona con el Nickel?",
+      "a": "Es una condición rara donde la sangre no puede transportar oxígeno eficientemente, causando piel azulada (cianosis). Puede ocurrir con dosis muy altas de anestésicos locales, especialmente en niños o con el uso tópico en mucosas extensas. Tiene tratamiento específico."
+    },
+    {
+      "q": "¿Cómo se trata una sobredosis o reacción tóxica por Nickel?",
+      "a": "Se requiere atención de urgencia. El tratamiento es de soporte: oxígeno, medicamentos para controlar convulsiones (benzodiacepinas), para subir la presión y la frecuencia cardíaca, y reanimación avanzada si es necesario. No hay un antídoto específico."
+    },
+    {
+      "q": "¿En qué se diferencia el Nickel (lidocaína) de la bupivacaína?",
+      "a": "Ambos son anestésicos locales tipo amida, pero la bupivacaína es más potente y tiene una duración mucho más larga (hasta 8-12 horas), por lo que se usa más para analgesia postoperatoria. Sin embargo, la bupivacaína es más tóxica para el corazón en caso de inyección accidental en un vaso."
+    },
+    {
+      "q": "¿Puede el Nickel causar daño permanente a los nervios?",
+      "a": "Es muy raro, pero puede ocurrir, especialmente con inyecciones intraneurales (directamente en el nervio), concentraciones muy altas, o por la técnica quirúrgica en sí. Se manifiesta como adormecimiento, hormigueo o debilidad persistente más allá de lo esperado."
+    },
+    {
+      "q": "¿Cuál es el papel del Nickel en el manejo del dolor crónico?",
+      "a": "Más allá de su uso agudo, el Nickel se usa en bloqueos nerviosos diagnósticos y terapéuticos para el dolor crónico (ej. neuralgias). También en infusiones continuas a través de catéteres para analgesia postoperatoria prolongada, reduciendo la necesidad de opioides y sus efectos secundarios."
+    }
+  ]
+}

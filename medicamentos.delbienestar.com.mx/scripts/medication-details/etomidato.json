@@ -1,0 +1,359 @@
+{
+  "name": "Etomidato",
+  "summary": "El etomidato es un medicamento inyectable que se utiliza como anestésico general de acción ultracorta, principalmente para inducir la anestesia (es decir, para 'dormir' al paciente) antes de una cirugía o procedimiento médico. Pertenece a la clase de los hipnóticos no barbitúricos y es especialmente valorado en situaciones donde es crucial mantener la estabilidad cardiovascular, como en pacientes con problemas graves del corazón, presión arterial baja o que están en estado de shock. Su importancia clínica radica en que permite que el paciente pierda la conciencia de manera rápida y controlada, con un efecto mínimo sobre la respiración y la presión arterial, lo que lo hace más seguro que otros anestésicos para personas en condiciones críticas o de alto riesgo. Sin embargo, su uso está estrictamente limitado al ambiente hospitalario, bajo la supervisión directa de un anestesiólogo, debido a que puede causar efectos secundarios significativos como dolor en la vena de inyección, movimientos musculares involuntarios y, con un uso prolongado, puede afectar la producción de hormonas por las glándulas suprarrenales.",
+  "pharmacology": {
+    "mechanismOfAction": "El etomidato actúa principalmente potenciando la actividad del ácido gamma-aminobutírico (GABA), que es el principal neurotransmisor inhibitorio del sistema nervioso central. Se une de manera selectiva y con alta afinidad a un sitio específico en el receptor GABA-A, lo que aumenta la entrada de iones cloruro a la neurona. Este influjo de cloruro hiperpolariza la membrana neuronal, haciendo que sea más difícil para la célula 'disparar' o transmitir señales eléctricas. Este efecto inhibitorio generalizado en el cerebro, especialmente en la formación reticular, el tálamo y la corteza cerebral, conduce rápidamente a una pérdida de conciencia (hipnosis) y amnesia. A diferencia de otros anestésicos, el etomidato tiene un efecto mínimo sobre otros receptores, lo que explica su perfil cardiovascular favorable y su falta de propiedades analgésicas (no quita el dolor).",
+    "pharmacologicClass": "Derivado imidazólico carboxilado. Agonista del receptor GABA-A. Hipnótico no barbitúrico de acción ultracorta.",
+    "therapeuticClass": "Anestésico general intravenoso. Inductor de la anestesia.",
+    "absorption": "Administración exclusivamente intravenosa, por lo que la biodisponibilidad es del 100%. La concentración plasmática máxima se alcanza inmediatamente al final de la inyección.",
+    "distribution": "Se distribuye rápidamente y de forma extensa en los tejidos. Tiene un volumen de distribución alto (2.2 - 4.5 L/kg). Se une en un 75% a las proteínas plasmáticas, principalmente a la albúmina. Cruza rápidamente la barrera hematoencefálica y la placenta.",
+    "metabolism": "Se metaboliza extensamente en el hígado por hidrólisis esterásica (principalmente por esterasas hepáticas y plasmáticas) y por N-desalquilación. Las enzimas del citocromo P450 (CYP3A4) participan en menor medida. Sus metabolitos son inactivos desde el punto de vista farmacológico.",
+    "elimination": "Vida media de eliminación terminal: 2 - 5 horas. Se elimina principalmente por vía renal (aproximadamente 85% de la dosis en 24 horas, mayormente como metabolitos) y en menor medida por vía biliar (10-15%).",
+    "onsetOfAction": "Muy rápido. La pérdida de conciencia (inducción anestésica) ocurre en un tiempo de circulación cerebro-circulatorio, generalmente entre 10 y 60 segundos después de una inyección intravenosa en bolo.",
+    "durationOfAction": "Corta. El efecto hipnótico dura aproximadamente 3 a 5 minutos después de una dosis única en bolo, debido a su rápida redistribución desde el cerebro hacia otros tejidos grasos y músculo."
+  },
+  "indications": {
+    "approved": [
+      "Inducción de la anestesia general en adultos y niños mayores de 10 años.",
+      "Inducción de anestesia en pacientes con riesgo cardiovascular elevado (ej. cardiopatía isquémica, valvulopatías, hipertensión pulmonar, hipovolemia).",
+      "Inducción de anestesia para procedimientos de corta duración o como parte de una secuencia de inducción de secuencia rápida (RSI) en pacientes con riesgo de aspiración."
+    ],
+    "offLabel": [
+      "Sedación para procedimientos diagnósticos o terapéuticos de corta duración (ej. cardioversión eléctrica, reducción de fracturas).",
+      "Sedación en el paciente crítico en Unidades de Cuidados Intensivos (UCI) - uso controversial debido a su efecto inhibitorio suprarrenal.",
+      "Componente de protocolos de sedación para procedimientos neurorradiológicos."
+    ]
+  },
+  "dosage": {
+    "adults": "Inducción de anestesia: 0.2 - 0.6 mg/kg de peso corporal, administrados por vía intravenosa en bolo durante 30 a 60 segundos. La dosis usual es de 0.3 mg/kg. En pacientes de edad avanzada o debilitados, se recomienda iniciar con la dosis más baja del rango (0.2 mg/kg).",
+    "pediatric": "Niños mayores de 10 años: 0.2 - 0.3 mg/kg IV. Niños menores de 10 años: No se recomienda de forma rutinaria debido a la mayor incidencia de efectos adversos como mioclonías y vómitos. Su uso debe ser evaluado cuidadosamente por el anestesiólogo pediátrico.",
+    "elderly": "Reducir la dosis en un 20-50%. Iniciar con 0.2 mg/kg o menos, debido a la disminución del volumen de distribución, del aclaramiento y a la mayor sensibilidad del sistema nervioso central.",
+    "renalImpairment": "No se requieren ajustes de dosis específicos en insuficiencia renal leve a moderada. En insuficiencia renal grave (TFG <30 mL/min) o en diálisis, se debe usar con precaución debido a posibles alteraciones en la unión a proteínas y acumulación de vehículo (propilenglicol).",
+    "hepaticImpairment": "No se requieren ajustes de dosis para una inducción única. Sin embargo, en insuficiencia hepática grave (Child-Pugh C), el aclaramiento puede estar reducido y la duración de acción prolongada. Se recomienda usar dosis más bajas y monitorizar estrechamente.",
+    "maxDose": "No hay una dosis máxima diaria absoluta definida. La dosis se titula según el efecto clínico. Sin embargo, el uso en infusión continua para sedación en UCI está contraindicado debido al riesgo de supresión suprarrenal."
+  },
+  "dosageForms": [
+    {
+      "form": "Solución inyectable",
+      "strengths": [
+        "2 mg/mL"
+      ],
+      "route": "Intravenosa (IV) exclusivamente"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al etomidato o a cualquiera de los excipientes de la formulación (ej. propilenglicol, agua para inyección).",
+      "Porfiria aguda intermitente.",
+      "Uso para sedación continua o mantenimiento de la anestesia (debido a la supresión suprarrenal)."
+    ],
+    "relative": [
+      "Historia de reacciones adversas graves como anafilaxia o mioclonías severas con su uso previo.",
+      "Pacientes con insuficiencia suprarrenal conocida o sospechada (Enfermedad de Addison, síndrome de Waterhouse-Friderichsen).",
+      "Embarazo (especialmente en el primer trimestre).",
+      "Lactancia.",
+      "Niños menores de 10 años."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Dolor en el sitio de inyección (flebitis química).",
+      "Movimientos musculares involuntarios (mioclonías).",
+      "Náuseas y vómitos en el periodo post-anestésico."
+    ],
+    "common": [
+      "Hipo.",
+      "Tos transitoria.",
+      "Erupción cutánea transitoria (eritema).",
+      "Apnea (suspensión de la respiración) de corta duración."
+    ],
+    "uncommon": [
+      "Reacciones alérgicas (urticaria, prurito).",
+      "Supresión de la función de la corteza suprarrenal (con dosis únicas o repetidas).",
+      "Tromboflebitis."
+    ],
+    "rare": [
+      "Anafilaxia (reacción alérgica grave).",
+      "Convulsiones (especialmente en pacientes epilépticos).",
+      "Hemólisis (destrucción de glóbulos rojos) por el vehículo de propilenglicol en dosis altas.",
+      "Hipertonía muscular severa."
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Fentanilo, otros opioides",
+        "effect": "Potenciación de la depresión respiratoria y cardiovascular. Aumenta el riesgo de apnea prolongada y bradicardia.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Benzodiacepinas (midazolam, diazepam)",
+        "effect": "Potenciación del efecto hipnótico y de la amnesia. Puede prolongar el tiempo de recuperación.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Relajantes musculares no despolarizantes (rocuronio, vecuronio)",
+        "effect": "El etomidato puede potenciar la acción de estos relajantes musculares.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inhibidores de la CYP3A4 (ketoconazol, claritromicina, ritonavir)",
+        "effect": "Pueden disminuir el metabolismo del etomidato, prolongando su efecto sedante.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Inductores de la CYP3A4 (rifampicina, carbamazepina, fenitoína)",
+        "effect": "Pueden aumentar el metabolismo del etomidato, acortando su duración de efecto.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "No aplica, ya que el medicamento se administra exclusivamente por vía intravenosa en un entorno controlado. El paciente debe estar en ayuno previo a la anestesia.",
+    "withSupplements": "No se conocen interacciones clínicamente relevantes con suplementos dietéticos o herbales, debido a su vía y contexto de administración."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "C",
+      "recommendación": "Los estudios en animales han mostrado efectos adversos fetales (embriotoxicidad). No hay estudios adecuados y bien controlados en mujeres embarazadas. Debe usarse durante el embarazo solo si el beneficio potencial justifica el riesgo potencial para el feto. Se prefiere evitar su uso en el primer trimestre. Cruza la placenta y puede causar depresión neonatal.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se desconoce si el etomidato se excreta en la leche humana. Debido a su administración intravenosa única y rápida eliminación, es poco probable que afecte al lactante. Sin embargo, se recomienda precaución. Se puede considerar un periodo de espera de 4-6 horas después de la administración antes de reanudar la lactancia, aunque la evidencia es limitada.",
+    "pediatric": "No se recomienda de forma rutinaria en niños menores de 10 años debido a una mayor incidencia de vómitos y movimientos involuntarios (mioclonías). En niños mayores, la dosis debe calcularse cuidadosamente por peso. Siempre debe ser administrado por un anestesiólogo con experiencia en pediatría.",
+    "geriatric": "Los pacientes de edad avanzada son más sensibles a sus efectos. Se deben usar dosis más bajas (0.2 mg/kg o menos) debido a cambios farmacocinéticos (menor volumen de distribución, aclaramiento reducido) y farmacodinámicos (mayor sensibilidad del SNC). Mayor riesgo de efectos cardiovasculares y respiratorios."
+  },
+  "administration": {
+    "howToTake": "EXCLUSIVAMENTE por vía INTRAVENOSA (IV), administrado por un profesional de la salud calificado (anestesiólogo, médico intensivista) en un entorno con equipo de reanimación disponible. Se administra como un bolo lento (durante 30 a 60 segundos) en una vena de buen calibre, preferentemente en una vena grande del antebrazo para minimizar el dolor. NO debe administrarse por vía intramuscular, subcutánea o intraarterial. Siempre se administra como parte de un protocolo de anestesia balanceada, que incluye analgésicos y relajantes musculares.",
+    "storage": "Conservar el vial en su empaque original, protegido de la luz. Almacenar a temperatura ambiente (15-30°C). No congelar. Una vez abierto el vial, el producto debe usarse inmediatamente. No mezclar con otras soluciones en la misma jeringa, a menos que se conozca su compatibilidad.",
+    "specialInstructions": "La solución es ligeramente amarillenta. No usar si la solución está descolorida o contiene partículas. El dolor en la inyección se puede reducir diluyendo la solución con solución salina normal al 0.9% o administrándola a través de una vía que tenga un flujo rápido de solución salina. Premedicar con un opioide (fentanilo) o lidocaína IV puede disminuir la incidencia de mioclonías y dolor."
+  },
+  "monitoring": {
+    "labTests": [
+      "No se requieren monitoreos de laboratorio de rutina para una dosis única. En caso de uso prolongado o sospecha de supresión suprarrenal: Cortisol sérico (basal y post-ACTH).",
+      "Electrolitos séricos (sodio, potasio).",
+      "Función hepática (si hay enfermedad hepática preexistente)."
+    ],
+    "frequency": "Monitorización continua DURANTE la administración: Electrocardiograma (ECG), presión arterial no invasiva o invasiva, saturación de oxígeno (SpO2). Monitorización clínica del nivel de conciencia y función respiratoria.",
+    "signsToWatch": [
+      "Dificultad respiratoria o apnea.",
+      "Caída significativa de la presión arterial (aunque es poco común con etomidato).",
+      "Movimientos musculares anormales o convulsiones.",
+      "Signos de reacción alérgica: enrojecimiento, ronchas, dificultad para respirar.",
+      "Dolor intenso o enrojecimiento en la vena de inyección."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Depresión respiratoria profunda o apnea.",
+      "Depresión cardiovascular (hipotensión, bradicardia) - aunque es menos pronunciada que con otros anestésicos.",
+      "Pérdida prolongada de la conciencia.",
+      "Movimientos musculares excesivos o convulsiones."
+    ],
+    "treatment": "El tratamiento es de SOPORTE. No existe un antídoto específico. 1) Mantener la vía aérea permeable y administrar oxígeno. 2) Asistir la ventilación con un ambú o colocar al paciente en ventilación mecánica. 3) Mantener la circulación con fluidos intravenosos y vasopresores si es necesario. 4) Controlar las convulsiones con benzodiacepinas (midazolam). 5) La diálisis no es efectiva debido a su alta unión a proteínas y amplia distribución.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial para estupefacientes y psicotrópicos. Medicamento de uso hospitalario.",
+    "scheduleMexico": "Sustancia sujeta a control especial (Lista III). Requiere receta oficial (color rosa) y registro de dispensación.",
+    "fdaApprovalYear": "Aprobado por la FDA en 1972."
+  },
+  "brandsMexico": [
+    "Hypnomidate",
+    "Etomidato Lipuro",
+    "Amidate",
+    "Etomidato Pisa"
+  ],
+  "clinicalPearls": [
+    "El etomidato es el anestésico de elección para la inducción en pacientes con shock séptico o trauma grave con hipovolemia, debido a su excelente estabilidad hemodinámica.",
+    "Una sola dosis de etomidato puede inhibir la síntesis de cortisol por hasta 24 horas, lo que es relevante en pacientes críticos con sepsis. Por esto, su uso en infusión continua para sedación en UCI está absolutamente contraindicado.",
+    "El dolor en la inyección, su efecto adverso más común, se debe principalmente al vehículo de propilenglicol. La formulación 'Lipuro' (etomidato en emulsión lipídica) reduce significativamente este dolor y la tromboflebitis."
+  ],
+  "patientCounseling": "El etomidato es un medicamento que solo le administrarán en el hospital, directamente en la vena, para 'dormirle' de manera controlada antes de una operación. Usted no lo tomará por su cuenta. Es importante que informe a su anestesiólogo sobre TODOS los medicamentos que toma, alergias, si está o podría estar embarazada, y si tiene problemas de las glándulas suprarrenales. Después de recibirlo, es normal sentirse somnoliento, con náuseas leves o notar un sabor metálico en la boca. Puede sentir dolor donde le pusieron la inyección, lo cual mejora con el tiempo. Es crucial que después del procedimiento, mientras los efectos desaparecen, evite conducir, operar maquinaria o tomar decisiones importantes durante al menos 24 horas. Si después de ir a casa presenta dificultad para respirar, hinchazón, sarpullido severo o el dolor en el brazo empeora, debe buscar atención médica de inmediato.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Ansiedad preoperatoria",
+        "slug": "ansiedad-preoperatoria"
+      },
+      {
+        "name": "Conciencia durante la cirugía",
+        "slug": "conciencia-durante-la-cirugia"
+      },
+      {
+        "name": "Dolor por procedimiento",
+        "slug": "dolor-por-procedimiento"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Necesidad de anestesia general",
+        "slug": "necesidad-de-anestesia-general"
+      },
+      {
+        "name": "Cardiopatía isquémica que requiere cirugía",
+        "slug": "cardiopatia-isquemica-que-requiere-cirugia"
+      },
+      {
+        "name": "Hipovolemia o shock que requiere inducción anestésica",
+        "slug": "hipovolemia-o-shock-que-requiere-induccion-anestesica"
+      },
+      {
+        "name": "Hipertensión pulmonar",
+        "slug": "hipertension-pulmonar"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Insuficiencia suprarrenal aguda",
+        "slug": "insuficiencia-suprarrenal-aguda"
+      },
+      {
+        "name": "Tromboflebitis",
+        "slug": "tromboflebitis"
+      },
+      {
+        "name": "Náuseas y vómitos postoperatorios",
+        "slug": "nauseas-y-vomitos-postoperatorios"
+      },
+      {
+        "name": "Reacción anafiláctica",
+        "slug": "reaccion-anafilactica"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Cortisol sérico",
+        "slug": "cortisol-serico",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Aldosterona",
+        "slug": "aldosterona",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Actividad eléctrica cerebral (EEG)",
+        "slug": "actividad-electrica-cerebral-eeg",
+        "effect": "Puede alterar"
+      },
+      {
+        "name": "Presión arterial",
+        "slug": "presion-arterial",
+        "effect": "Puede mantener o disminuir levemente"
+      },
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede mantener o disminuir levemente"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Cortisol sérico basal y post-ACTH",
+        "slug": "cortisol-serico-basal-y-post-acth",
+        "reason": "Para evaluar supresión de la función suprarrenal si se usa en infusión o en paciente crítico."
+      },
+      {
+        "name": "Electrolitos séricos",
+        "slug": "electrolitos-sericos",
+        "reason": "Para monitorear desequilibrios en caso de insuficiencia suprarrenal inducida."
+      },
+      {
+        "name": "Presión arterial y frecuencia cardíaca monitorizadas",
+        "slug": "presion-arterial-y-frecuencia-cardiaca-monitorizadas",
+        "reason": "Monitorización continua obligatoria durante su administración."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve el etomidato?",
+      "a": "Sirve para inducir la anestesia general, es decir, para hacer que un paciente se duerma de manera rápida y controlada antes de una cirugía o procedimiento médico, especialmente cuando es importante no bajar mucho la presión arterial."
+    },
+    {
+      "q": "¿Cómo se aplica el etomidato?",
+      "a": "Exclusivamente por una inyección en la vena (vía intravenosa). Un médico anestesiólogo lo administra lentamente en un entorno hospitalario con equipo de emergencia disponible."
+    },
+    {
+      "q": "¿Duele la inyección de etomidato?",
+      "a": "Sí, es común sentir un dolor ardiente o escozor en el lugar de la inyección cuando se administra. Este dolor suele ser breve. El médico puede tomar medidas para reducirlo, como diluirlo o ponerlo en una vena más grande."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Es muy rápido. La persona suele quedarse dormida entre 10 y 60 segundos después de que el medicamento entra en la vena."
+    },
+    {
+      "q": "¿Cuánto tiempo dura dormido con una dosis?",
+      "a": "El efecto de 'dormir' dura aproximadamente de 3 a 5 minutos. Esto permite al médico anestesiólogo colocar otros medicamentos para mantener la anestesia durante toda la cirugía."
+    },
+    {
+      "q": "¿Puedo comprar etomidato en la farmacia?",
+      "a": "No. Es un medicamento de uso exclusivamente hospitalario y controlado. Solo se usa bajo la supervisión directa de un anestesiólogo y no está disponible para venta al público."
+    },
+    {
+      "q": "¿Qué debo sentir después de despertar de la anestesia con etomidato?",
+      "a": "Es común sentir somnolencia, un poco de confusión, náuseas leves o tener un sabor metálico en la boca. También puede notar dolor donde le pusieron la inyección. Estos efectos son temporales."
+    },
+    {
+      "q": "¿El etomidato es seguro para el corazón?",
+      "a": "Sí, es uno de los anestésicos más seguros para el corazón y la presión arterial. Por eso se prefiere en pacientes con problemas cardíacos, presión baja o que están muy graves."
+    },
+    {
+      "q": "¿Puede causar alergias el etomidato?",
+      "a": "Sí, como cualquier medicamento, puede causar reacciones alérgicas, desde leves (ronchas) hasta graves (dificultad para respirar). Es muy importante informar al médico de todas sus alergias antes de la cirugía."
+    },
+    {
+      "q": "¿Por qué a veces el paciente se mueve o tiene espasmos al recibir etomidato?",
+      "a": "Es un efecto secundario común llamado 'mioclonías'. Son movimientos musculares involuntarios y breves que no son convulsiones. El médico puede darle un medicamento antes para reducir este efecto."
+    },
+    {
+      "q": "¿Se puede usar etomidato en niños?",
+      "a": "Sí, pero generalmente solo en niños mayores de 10 años. En niños más pequeños se usa con mucha precaución porque tienen más riesgo de presentar vómitos y movimientos involuntarios."
+    },
+    {
+      "q": "¿Y en personas mayores?",
+      "a": "Sí, pero se usa una dosis más baja porque son más sensibles a sus efectos. El anestesiólogo ajusta la cantidad según la edad y el estado de salud."
+    },
+    {
+      "q": "¿Una mujer embarazada puede recibir etomidato?",
+      "a": "Solo si es estrictamente necesario y el beneficio supera el riesgo. Se evita especialmente en el primer trimestre. Cruza la placenta y puede afectar al bebé. El anestesiólogo evaluará la situación."
+    },
+    {
+      "q": "¿Qué pasa si me dan una dosis muy alta (sobredosis)?",
+      "a": "En el hospital, el equipo médico lo maneja. La sobredosis puede causar que la persona deje de respirar por más tiempo o que la presión baje. No hay antídoto, pero los médicos dan soporte con oxígeno, ventilación y medicamentos para la presión hasta que el cuerpo elimine el fármaco."
+    },
+    {
+      "q": "¿El etomidato afecta los riñones o el hígado?",
+      "a": "Una sola dosis generalmente no causa problemas. En personas con enfermedad hepática o renal muy avanzada, el efecto puede durar un poco más, por lo que el médico usará una dosis más baja."
+    },
+    {
+      "q": "¿Por qué no se usa para mantener a alguien dormido en la UCI?",
+      "a": "Porque el etomidato, cuando se usa de forma continua (en goteo), inhibe la producción de hormonas importantes por las glándulas suprarrenales, lo que puede empeorar el estado de pacientes críticos, especialmente con infecciones graves (sepsis)."
+    },
+    {
+      "q": "¿Qué es la 'supresión suprarrenal' que causa el etomidato?",
+      "a": "Es cuando el medicamento bloquea temporalmente una enzima en las glándulas suprarrenales, impidiendo que produzcan hormonas como el cortisol, que es vital para manejar el estrés, la inflamación y mantener la presión arterial. Con una dosis única, este efecto es breve."
+    },
+    {
+      "q": "¿Hay diferentes marcas de etomidato? ¿Cuál es mejor?",
+      "a": "En México existen marcas como Hypnomidate, Amidate y Etomidato Lipuro. La formulación 'Lipuro' (en emulsión grasa) causa mucho menos dolor en la inyección y menos irritación en la vena que las formulaciones con propilenglicol."
+    },
+    {
+      "q": "¿Qué debo informarle a mi anestesiólogo antes de recibir etomidato?",
+      "a": "Debe informar: 1) Todas sus alergias. 2) Si tiene o ha tenido problemas con sus glándulas suprarrenales (como Enfermedad de Addison). 3) Si está tomando medicamentos, hierbas o suplementos. 4) Si consume alcohol o drogas. 5) Si está embarazada o podría estarlo."
+    },
+    {
+      "q": "¿Cuál es la ventaja clave del etomidato frente a otros inductores anestésicos como el propofol o la ketamina?",
+      "a": "Su ventaja clave es la estabilidad cardiovascular excepcional. Mientras que el propofol puede bajar significativamente la presión arterial y la ketamina puede subirla y acelerar el corazón, el etomidato mantiene la presión y la frecuencia cardíaca casi sin cambios, lo que lo hace ideal para pacientes en shock, con hipovolemia o con cardiopatía severa. Su desventaja principal es la supresión suprarrenal y el dolor en la inyección."
+    }
+  ]
+}

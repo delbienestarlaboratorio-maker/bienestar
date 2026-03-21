@@ -1,0 +1,401 @@
+{
+  "name": "Cefaclor",
+  "summary": "El cefaclor es un antibiótico de la familia de las cefalosporinas de segunda generación, utilizado para combatir infecciones causadas por bacterias. Sirve para tratar una variedad de infecciones comunes como otitis media (infección del oído), faringitis estreptocócica (infección de garganta), sinusitis, bronquitis, infecciones de la piel y del tracto urinario. Su importancia clínica radica en su espectro de acción más amplio que las penicilinas, siendo efectivo contra bacterias que producen betalactamasas, unas enzimas que inactivan otros antibióticos. Es un medicamento de uso común en consultorios y hospitales mexicanos debido a su eficacia y perfil de seguridad generalmente bien tolerado cuando se usa correctamente bajo prescripción médica. Es crucial completar el tratamiento completo aunque el paciente se sienta mejor, para evitar que la infección regrese y para prevenir el desarrollo de bacterias resistentes a los antibióticos, un problema de salud pública grave.",
+  "pharmacology": {
+    "mechanismOfAction": "El cefaclor actúa como un antibiótico bactericida, lo que significa que mata a las bacterias. Su mecanismo de acción principal es inhibir la síntesis de la pared celular bacteriana. Lo hace uniéndose a unas proteínas específicas llamadas Proteínas Fijadoras de Penicilina (PBP, por sus siglas en inglés) que se encuentran en la membrana interna de la bacteria. Esta unión bloquea la etapa final de la formación de la pared celular, específicamente la reticulación de las cadenas de peptidoglicano. Al no poder formar una pared celular fuerte y rígida, la bacteria se vuelve inestable, absorbe agua y finalmente se rompe (lisis), muriendo. Es especialmente activo contra bacterias Gram-positivas como *Streptococcus pneumoniae* y *pyogenes*, y algunas Gram-negativas como *Haemophilus influenzae*, *Escherichia coli* y *Klebsiella pneumoniae*.",
+    "pharmacologicClass": "Antibiótico beta-lactámico; Cefalosporina de segunda generación.",
+    "therapeuticClass": "Antibiótico sistémico.",
+    "absorption": "Se absorbe bien por vía oral, con una biodisponibilidad aproximada del 90%. La presencia de alimentos en el estómago puede retrasar ligeramente su absorción, pero no reduce la cantidad total de medicamento que llega a la sangre. Los niveles máximos en sangre (concentración sérica máxima) se alcanzan entre 30 y 60 minutos después de la administración.",
+    "distribution": "Se distribuye ampliamente en la mayoría de los tejidos y fluidos corporales, incluyendo hueso, próstata, bilis, líquido sinovial y pleural. Atraviesa la barrera placentaria y se excreta en la leche materna en pequeñas cantidades. Su unión a proteínas plasmáticas es baja, aproximadamente del 25%. Esto significa que una gran parte del medicamento está libre en la sangre para ejercer su efecto antibacteriano.",
+    "metabolism": "El cefaclor no se metaboliza significativamente en el hígado. Más del 90% del fármaco se excreta sin cambios. Por lo tanto, no hay interacciones significativas mediadas por enzimas del sistema citocromo P450 (CYP).",
+    "elimination": "Se elimina principalmente por los riñones a través de la filtración glomerular y la secreción tubular. La vida media de eliminación en adultos con función renal normal es de aproximadamente 0.6 a 0.9 horas. En pacientes con insuficiencia renal grave, esta vida media puede prolongarse significativamente, requiriendo ajustes en la dosis. Aproximadamente el 60-85% de la dosis se recupera sin cambios en la orina en las primeras 8 horas.",
+    "onsetOfAction": "El inicio de la acción antibacteriana comienza poco después de alcanzar concentraciones terapéuticas en sangre, generalmente dentro de la primera hora tras la administración. Sin embargo, la mejoría clínica de los síntomas (como la fiebre o el dolor) puede tardar de 24 a 48 horas en ser evidente.",
+    "durationOfAction": "Debido a su vida media corta, se requiere administración cada 8 o 12 horas (dependiendo de la formulación y la infección) para mantener concentraciones en sangre por encima de la concentración inhibitoria mínima (CIM) de las bacterias sensibles durante todo el día."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones del tracto respiratorio superior (otitis media aguda, sinusitis aguda, faringitis estreptocócica, amigdalitis)",
+      "Infecciones del tracto respiratorio inferior (bronquitis aguda y exacerbación aguda de bronquitis crónica, neumonía adquirida en la comunidad)",
+      "Infecciones de la piel y estructuras de la piel (celulitis, impétigo, forúnculos)",
+      "Infecciones del tracto urinario no complicadas (cistitis, pielonefritis)"
+    ],
+    "offLabel": [
+      "Profilaxis de endocarditis infecciosa en pacientes de alto riesgo sometidos a procedimientos dentales (cuando no se tolera la amoxicilina)",
+      "Tratamiento de infecciones por *Pasteurella multocida* por mordeduras de animales",
+      "Alternativa en el tratamiento de la enfermedad de Lyme en etapas tempranas (eritema migratorio) en pacientes alérgicos a penicilina y doxiciclina, bajo supervisión especializada"
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis habitual para adultos y adolescentes (mayores de 16 años) es de 250 a 500 mg cada 8 horas. Para infecciones más graves, como neumonía, la dosis puede aumentarse a 500 mg cada 8 horas. La dosis total diaria oscila entre 750 mg y 1500 mg, dividida en 3 tomas.",
+    "pediatric": "La dosis se calcula por peso corporal. La dosis habitual es de 20 a 40 mg/kg/día, dividida en 2 o 3 dosis (cada 12 o 8 horas). Para otitis media aguda o infecciones más graves, se puede usar hasta 40 mg/kg/día. La dosis máxima diaria no debe exceder los 1000 mg/día en niños. Existen suspensiones orales para facilitar la administración.",
+    "elderly": "En adultos mayores con función renal normal, se pueden usar las dosis estándar para adultos. Sin embargo, es común que en este grupo la función renal esté disminuida, por lo que es esencial evaluar la TFG (tasa de filtración glomerular) y ajustar la dosis si es necesario.",
+    "renalImpairment": "Se requiere ajuste de dosis en insuficiencia renal. Para TFG entre 10-50 mL/min: administrar dosis estándar cada 8-12 horas. Para TFG <10 mL/min: administrar dosis estándar cada 12-24 horas. En pacientes en hemodiálisis, se administra una dosis después de cada sesión de diálisis, ya que el fármaco se elimina parcialmente por esta vía.",
+    "hepaticImpairment": "No se requieren ajustes de dosis específicos en insuficiencia hepática leve a moderada, ya que el cefaclor no se metaboliza en el hígado. En insuficiencia hepática grave, se debe monitorizar al paciente, pero el ajuste principal sigue siendo por función renal.",
+    "maxDose": "La dosis máxima diaria para adultos es de 1500 mg (1.5 gramos). En niños, la dosis máxima se basa en peso (40 mg/kg/día) y no debe superar los 1000 mg/día."
+  },
+  "dosageForms": [
+    {
+      "form": "Cápsula",
+      "strengths": [
+        "250 mg",
+        "500 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tableta",
+      "strengths": [
+        "500 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Suspensión oral (polvo para reconstituir)",
+      "strengths": [
+        "125 mg/5 mL",
+        "250 mg/5 mL",
+        "375 mg/5 mL"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad (alergia) conocida al cefaclor, a cualquier cefalosporina o a cualquier componente de la formulación.",
+      "Antecedente de reacción alérgica grave (anafilaxia) a cualquier antibiótico beta-lactámico (penicilinas, cefalosporinas, carbapenémicos, monobactámicos)."
+    ],
+    "relative": [
+      "Antecedente de colitis pseudomembranosa asociada a antibióticos.",
+      "Insuficiencia renal grave (ajustar dosis, no contraindicación absoluta).",
+      "Historial de enfermedad hepática (precaución)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Diarrea (puede ser acuosa o con sangre, indicando posible colitis)",
+      "Náuseas",
+      "Malestar estomacal o dolor abdominal"
+    ],
+    "common": [
+      "Vómitos",
+      "Dolor de cabeza",
+      "Mareos",
+      "Erupción cutánea o urticaria (puede indicar alergia)",
+      "Prurito (comezón)",
+      "Candidiasis vaginal (infección por hongos)"
+    ],
+    "uncommon": [
+      "Colitis pseudomembranosa (diarrea grave por *C. difficile*)",
+      "Aumento de enzimas hepáticas (transaminasas)",
+      "Eosinofilia (aumento de un tipo de glóbulos blancos)",
+      "Vaginitis"
+    ],
+    "rare": [
+      "Reacción anafiláctica grave (dificultad para respirar, hinchazón de cara/lengua)",
+      "Síndrome de Stevens-Johnson o necrólisis epidérmica tóxica (erupción cutánea grave con ampollas)",
+      "Nefritis intersticial (daño renal)",
+      "Anemia hemolítica",
+      "Prolongación del tiempo de protrombina (riesgo de sangrado)"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Probenecid",
+        "effect": "El probenecid bloquea la secreción tubular renal del cefaclor, aumentando sus niveles en sangre y prolongando su efecto. Puede ser utilizado intencionalmente para este fin, pero requiere monitorización.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Anticoagulantes orales (Warfarina, Acenocumarol)",
+        "effect": "El cefaclor puede potenciar el efecto anticoagulante, aumentando el riesgo de sangrado. Se debe monitorizar estrechamente el INR (tiempo de protrombina).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Metotrexato",
+        "effect": "Los antibióticos como el cefaclor pueden disminuir la eliminación renal del metotrexato, aumentando su toxicidad (mielosupresión, mucositis).",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "Puede tomarse con o sin alimentos. Tomarlo con alimentos puede ayudar a reducir las molestias estomacales (náuseas, malestar). El alcohol no interactúa directamente con el cefaclor, pero su consumo durante una infección y tratamiento puede debilitar el sistema inmune y empeorar efectos secundarios como mareos o malestar gastrointestinal. Se recomienda evitarlo.",
+    "withSupplements": "Los suplementos que contienen altas dosis de calcio, hierro, zinc o magnesio (como multivitamínicos o antiácidos) pueden unirse al cefaclor en el intestino y reducir su absorción. Se recomienda tomar el antibiótico al menos 2 horas antes o 4-6 horas después de tomar estos suplementos. Los probióticos pueden ayudar a prevenir la diarrea asociada a antibióticos."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "B",
+      "recommendación": "Estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. Debe usarse durante el embarazo solo si claramente es necesario y el beneficio justifica el riesgo potencial para el feto. Se considera una opción relativamente segura cuando se necesita una cefalosporina.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "El cefaclor se excreta en la leche materna en concentraciones bajas. Se considera compatible con la lactancia, ya que es poco probable que cause efectos adversos significativos en el lactante. Se han reportado casos raros de diarrea o candidiasis (hongos) en el bebé. Se debe observar al lactante por posibles efectos como diarrea o erupción cutánea.",
+    "pediatric": "Aprobado para uso en niños mayores de 1 mes para suspensiones. Es un antibiótico de uso común en pediatría para otitis, faringitis e infecciones de la piel. Es crucial calcular la dosis con precisión según el peso y utilizar la formulación en suspensión adecuada. La adherencia al tratamiento completo es vital.",
+    "geriatric": "Los pacientes mayores son más susceptibles a los efectos adversos, especialmente la diarrea y la colitis por *C. difficile*. La función renal suele estar disminuida, por lo que es MANDATORIO evaluar la TFG y ajustar la dosis para evitar acumulación del fármaco y toxicidad. Monitorizar signos de deshidratación si hay diarrea."
+  },
+  "administration": {
+    "howToTake": "Tome este medicamento exactamente como se lo recetó su médico. No aumente la dosis ni lo tome por más tiempo del indicado. Las cápsulas o tabletas deben tragarse enteras con un vaso lleno de agua (aproximadamente 240 mL). La suspensión oral debe agitarse bien antes de cada uso. Use el dosificador (cuchara, jeringa oral) que viene con el medicamento para medir la dosis exacta. Puede tomarse con o sin alimentos. Si toma una dosis cada 8 horas, trate de espaciarlas uniformemente (por ejemplo, a las 7 am, 3 pm y 11 pm).",
+    "storage": "Conservar las cápsulas y tabletas a temperatura ambiente (15-30°C), en un lugar seco y fuera del alcance de los niños. La suspensión oral reconstituida debe guardarse en el refrigerador (2-8°C) y desecharse después de 14 días. No congelar. Agitar bien antes de usar.",
+    "specialInstructions": "COMPLETE TODO EL TRATAMIENTO, incluso si se siente mejor después de unos días. Suspenderlo antes de tiempo puede hacer que la infección regrese y que las bacterias se vuelvan resistentes. Si desarrolla diarrea acuosa o con sangre, fiebre o dolor abdominal intenso durante o después del tratamiento, suspenda el medicamento y contacte a su médico de inmediato (podría ser colitis por *C. difficile*). Informe a su médico si tiene alergia a penicilinas u otros antibióticos."
+  },
+  "monitoring": {
+    "labTests": [
+      "Cultivo y antibiograma (para confirmar sensibilidad bacteriana)",
+      "Conteo sanguíneo completo (CSC) si tratamiento prolongado",
+      "Pruebas de función renal (creatinina sérica, TFG) en adultos mayores o con enfermedad renal",
+      "Pruebas de función hepática (transaminasas) en tratamientos largos",
+      "Tiempo de protrombina (TP/INR) si está en anticoagulantes"
+    ],
+    "frequency": "La monitorización de rutina no suele ser necesaria en tratamientos cortos (7-10 días) en pacientes sanos. En tratamientos prolongados (>2 semanas), en pacientes con insuficiencia renal o que toman anticoagulantes, se recomienda evaluación a la semana y luego según criterio médico.",
+    "signsToWatch": [
+      "Erupción cutánea, urticaria, hinchazón de cara/labios/lengua, dificultad para respirar (signos de alergia)",
+      "Diarrea acuosa o con sangre, calambres abdominales fuertes, fiebre (signos de colitis)",
+      "Sangrado o moretones inusuales",
+      "Fatiga extrema, palidez (signos de anemia)",
+      "Dolor al orinar o cambios en la cantidad de orina (posible daño renal)"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Náuseas y vómitos severos",
+      "Diarrea profusa",
+      "Dolor abdominal cólico",
+      "Convulsiones (en casos muy graves de acumulación por falla renal)"
+    ],
+    "treatment": "El tratamiento es de soporte y sintomático. No hay antídoto específico. En caso de ingestión reciente (menos de 2-3 horas), se puede considerar lavado gástrico o carbón activado. Mantener la hidratación y el equilibrio electrolítico. La hemodiálisis puede eliminar parcialmente el cefaclor del torrente sanguíneo y es útil en casos de sobredosis masiva o en pacientes con insuficiencia renal grave.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Rx). Es un antibiótico de venta controlada.",
+    "scheduleMexico": "Medicamento de la Fracción IV del Cuadro Básico de la COFEPRIS (sujeto a prescripción médica y control sanitario).",
+    "fdaApprovalYear": "Aprobado por la FDA de Estados Unidos en 1979."
+  },
+  "brandsMexico": [
+    "Cefaclor MK®",
+    "Cefaclor Sanfer®",
+    "Cefaclor Genfar®",
+    "Cefaclor Rimsa®",
+    "Cefaclor Liomont®",
+    "Cefaclor PiSA®",
+    "Cefaclor Denver Farma®",
+    "Cefaclor Best®",
+    "Cefaclor Chinoin®",
+    "Cefaclor Laproff®",
+    "Cefaclor Alpharma®",
+    "Cefaclor Valdecasas®",
+    "Cefaclor Asofarma®",
+    "Cefaclor Siegfried®",
+    "Cefaclor Stendhal®"
+  ],
+  "clinicalPearls": [
+    "Es una excelente alternativa a la amoxicilina/clavulánico en pacientes que no toleran esta última debido a efectos gastrointestinales, aunque su espectro contra anaerobios es menor.",
+    "En la otitis media aguda, es efectivo contra cepas de *H. influenzae* y *M. catarrhalis* productoras de betalactamasas, donde la amoxicilina simple puede fallar.",
+    "La erupción maculopapular que aparece varios días después de iniciar el tratamiento puede confundirse con alergia, pero a veces es un exantema viral no relacionado. Evaluar cuidadosamente.",
+    "En pacientes con alergia a penicilina de tipo retardado (exantema), el riesgo de reacción cruzada con cefalosporinas como el cefaclor es bajo (<5%). En alergia inmediata (anafilaxia), el riesgo es mayor y generalmente se contraindica."
+  ],
+  "patientCounseling": "Tome el cefaclor exactamente como su médico se lo indicó, respetando horarios y duración del tratamiento. No lo comparta con otra persona aunque tengan síntomas similares. Si toma antiácidos, suplementos de hierro, calcio o zinc, sepárelos al menos 2 horas de su dosis de antibiótico. Beba abundantes líquidos. Esté atento a señales de alergia como ronchas o dificultad para respirar, y a diarrea severa con sangre o fiebre, que requieren atención médica inmediata. Si usa pastillas anticonceptivas hormonales, el antibiótico puede reducir su efectividad; use un método anticonceptivo adicional (condón) durante el tratamiento y hasta 7 días después. Guarde la suspensión en el refrigerador y bótela después de 14 días. Nunca suspenda el tratamiento antes de tiempo aunque se sienta mejor.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre",
+        "slug": "fiebre"
+      },
+      {
+        "name": "Dolor de garganta",
+        "slug": "dolor-de-garganta"
+      },
+      {
+        "name": "Tos con flemas",
+        "slug": "tos-con-flemas"
+      },
+      {
+        "name": "Dolor de oído",
+        "slug": "dolor-de-oido"
+      },
+      {
+        "name": "Dolor al orinar",
+        "slug": "disuria"
+      },
+      {
+        "name": "Enrojecimiento e hinchazón de la piel",
+        "slug": "eritema-edema-piel"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Otitis Media Aguda",
+        "slug": "otitis-media-aguda"
+      },
+      {
+        "name": "Faringitis Estreptocócica",
+        "slug": "faringitis-estreptococica"
+      },
+      {
+        "name": "Sinusitis Aguda",
+        "slug": "sinusitis-aguda"
+      },
+      {
+        "name": "Bronquitis Aguda",
+        "slug": "bronquitis-aguda"
+      },
+      {
+        "name": "Infección de Vías Urinarias (IVU)",
+        "slug": "infeccion-vias-urinarias"
+      },
+      {
+        "name": "Celulitis",
+        "slug": "celulitis"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Colitis Pseudomembranosa",
+        "slug": "colitis-pseudomembranosa"
+      },
+      {
+        "name": "Reacción Anafiláctica",
+        "slug": "reaccion-anafilactica"
+      },
+      {
+        "name": "Síndrome de Stevens-Johnson",
+        "slug": "sindrome-stevens-johnson"
+      },
+      {
+        "name": "Nefritis Intersticial",
+        "slug": "nefritis-intersticial"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevarse (indicativo de posible daño renal)"
+      },
+      {
+        "name": "Transaminasas (ALT, AST)",
+        "slug": "transaminasas-alt-ast",
+        "effect": "Puede elevar (hepatotoxicidad)"
+      },
+      {
+        "name": "Eosinófilos",
+        "slug": "eosinofilos",
+        "effect": "Puede elevar (reacción alérgica/hipersensibilidad)"
+      },
+      {
+        "name": "Tiempo de Protrombina (INR)",
+        "slug": "tiempo-de-protrombina-inr",
+        "effect": "Puede prolongar (aumento riesgo sangrado)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Cultivo y Antibiograma",
+        "slug": "cultivo-antibiograma",
+        "reason": "Confirmar bacteria causante y su sensibilidad al cefaclor."
+      },
+      {
+        "name": "Creatinina sérica y TFG",
+        "slug": "creatinina-tfg",
+        "reason": "Evaluar función renal para ajuste de dosis, especialmente en adultos mayores."
+      },
+      {
+        "name": "Conteo Sanguíneo Completo",
+        "slug": "conteo-sanguineo-completo",
+        "reason": "Monitorizar posibles efectos en células sanguíneas como eosinofilia o anemia."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de Creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿El cefaclor es lo mismo que la penicilina?",
+      "a": "No, son antibióticos diferentes pero de la misma familia grande (beta-lactámicos). El cefaclor es una cefalosporina. Si es alérgico a la penicilina, debe informarlo a su médico, ya que existe un riesgo bajo de reacción cruzada."
+    },
+    {
+      "q": "¿Puedo tomar cefaclor si estoy embarazada o amamantando?",
+      "a": "Embarazo: Solo si su médico lo considera estrictamente necesario (Categoría B). Lactancia: Se considera seguro, pero se excreta en poca cantidad en la leche. Consulte siempre a su médico."
+    },
+    {
+      "q": "¿Con o sin alimentos?",
+      "a": "Puede tomarlo con o sin alimentos. Tomarlo con comida puede ayudar a reducir las náuseas o el malestar estomacal."
+    },
+    {
+      "q": "Olvidé una dosis, ¿qué hago?",
+      "a": "Tómela tan pronto como lo recuerde. Si ya es casi la hora de la siguiente dosis, omita la que olvidó y continúe con su horario normal. NO duplique la dosis para compensar."
+    },
+    {
+      "q": "¿El cefaclor causa sueño?",
+      "a": "No es un efecto común, pero algunas personas pueden experimentar mareos. Si le causa sueño o mareo, evite manejar o usar maquinaria hasta que sepa cómo le afecta."
+    },
+    {
+      "q": "¿Puedo tomar alcohol mientras tomo cefaclor?",
+      "a": "No se recomienda. El alcohol no interactúa directamente, pero puede empeorar efectos secundarios como malestar estomacal o mareos, y debilita las defensas contra la infección."
+    },
+    {
+      "q": "Me salió una roncha, ¿debo suspenderlo?",
+      "a": "Sí, suspenda el medicamento y contacte a su médico de inmediato. Una erupción puede ser signo de una reacción alérgica."
+    },
+    {
+      "q": "¿Por qué me dió diarrea con el antibiótico?",
+      "a": "Es un efecto secundario común porque el antibiótico altera la flora normal del intestino. Si la diarrea es muy acuosa, con sangre o con fiebre, DEJE de tomarlo y llame a su médico, podría ser una infección grave por *C. difficile*."
+    },
+    {
+      "q": "¿El cefaclor afecta las pastillas anticonceptivas?",
+      "a": "Algunos antibióticos, incluyendo cefaclor, pueden reducir la efectividad de los anticonceptivos hormonales. Use un método de respaldo (como condón) durante el tratamiento y hasta 7 días después."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Los niveles en sangre son rápidos, pero la mejoría de síntomas como fiebre o dolor puede tardar de 24 a 48 horas. Es importante completar TODO el tratamiento."
+    },
+    {
+      "q": "¿Sirve para la gripe o el resfriado?",
+      "a": "NO. El cefaclor solo combate infecciones por BACTERIAS. La gripe y el resfriado común son causados por VIRUS, contra los cuales los antibióticos no funcionan. Usarlo innecesariamente es dañino."
+    },
+    {
+      "q": "¿Puedo partirlo o triturarlo?",
+      "a": "Las cápsulas no deben abrirse y las tabletas no deben triturarse a menos que su médico o farmacéutico lo indique, ya que puede alterar su liberación. Existe suspensión líquida para quienes tienen dificultad para tragar."
+    },
+    {
+      "q": "¿Cómo debo guardar la suspensión líquida?",
+      "a": "Una vez preparada, guárdela en el REFRIGERADOR (no congelar). Agítela bien antes de cada uso. Bótela después de 14 días, aunque le sobre."
+    },
+    {
+      "q": "¿Qué hago si mi niño vomita después de tomar la dosis?",
+      "a": "Si vomita dentro de los 30-60 minutos posteriores a la toma, es probable que no se haya absorbido. Consulte con su médico o farmacéutico si debe repetir la dosis. No lo haga por su cuenta."
+    },
+    {
+      "q": "¿El cefaclor sube la presión arterial?",
+      "a": "No es un efecto conocido de este medicamento. Si nota cambios en su presión, consulte a su médico, ya que podría estar relacionado con la infección u otra condición."
+    },
+    {
+      "q": "¿Puedo tomar ibuprofeno o paracetamol con cefaclor?",
+      "a": "Sí, generalmente no hay interacción. Puede tomar paracetamol para la fiebre o el dolor. Sin embargo, siempre informe a su médico sobre todos los medicamentos que toma."
+    },
+    {
+      "q": "¿Es normal que la orina se oscurezca?",
+      "a": "No es un efecto común del cefaclor. La deshidratación por fiebre o diarrea puede concentrar la orina. Beba muchos líquidos. Si la orina es muy oscura o tiene sangre, consulte a su médico."
+    },
+    {
+      "q": "¿Por qué mi médico me pidió un cultivo antes de recetarlo?",
+      "a": "Para identificar exactamente qué bacteria está causando la infección y confirmar que el cefaclor es el antibiótico correcto. Esto evita tratamientos innecesarios y combate la resistencia bacteriana."
+    },
+    {
+      "q": "Tengo diabetes, ¿afecta mis niveles de glucosa?",
+      "a": "El cefaclor por sí solo no afecta directamente la glucosa en sangre. Sin embargo, las infecciones pueden descontrolar la diabetes. Monitorice sus niveles de glucosa con más frecuencia durante la enfermedad."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre cefaclor de 250mg y 500mg?",
+      "a": "La diferencia es la potencia (cantidad de medicamento). La dosis de 500mg se usa para infecciones más graves o en adultos. Su médico elige la dosis según el tipo y gravedad de la infección, su peso y función renal. Nunca se automedique."
+    }
+  ]
+}

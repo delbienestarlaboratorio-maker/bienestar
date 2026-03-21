@@ -1,0 +1,51 @@
+{
+  "slug": "persona-en-contacto-con-los-servicios-de-salud-para-procedimientos-especificos-n",
+  "name": "Persona en contacto con los servicios de salud para procedimientos específicos no realizados",
+  "cie10": "Z53",
+  "category": "Z00-Z99",
+  "shortDescription": "Es cuando vas al médico o al hospital para que te hagan un tratamiento o estudio, pero por alguna razón no se pudo realizar.",
+  "intro": "Este código no es una enfermedad, sino una situación que se registra en tu ficha clínica. Ocurre cuando acudes a un servicio de salud (como un hospital del IMSS, ISSSTE o una clínica privada) con la intención de recibir un procedimiento específico, como una cirugía, una vacuna o un estudio especial, pero este no se lleva a cabo. En México, esto puede afectar a cualquier persona que use el sistema de salud, ya sea público o privado. Es importante registrarlo porque ayuda a documentar la razón por la que no se pudo completar tu atención, para que el personal médico pueda planear mejor tu seguimiento y garantizar que recibas el cuidado que necesitas en el futuro.",
+  "symptoms": [
+    "No es una enfermedad, por lo que no causa síntomas físicos.",
+    "La persona puede sentir frustración o preocupación por no haber recibido el tratamiento planeado.",
+    "Puede existir incertidumbre sobre cuándo se podrá realizar el procedimiento.",
+    "En algunos casos, la condición de salud por la que se iba a realizar el procedimiento puede persistir sin mejora."
+  ],
+  "causes": [
+    "Razones del paciente — la persona decide no proceder por miedo, falta de recursos económicos o cambio de opinión.",
+    "Razones del sistema de salud — falta de disponibilidad de equipo, medicamentos, personal o camas en el hospital (muy frecuente en servicios públicos saturados).",
+    "Contraindicación médica — el médico encuentra una razón de salud (como una infección o descontrol de otra enfermedad) que hace riesgoso realizar el procedimiento en ese momento.",
+    "Problemas administrativos — errores en la programación, falta de autorización de la aseguradora (como el IMSS o seguro privado) o pérdida de estudios previos necesarios.",
+    "Emergencias mayores — el servicio de salud tiene que priorizar otras urgencias, posponiendo los procedimientos programados."
+  ],
+  "redFlags": [
+    "NO aplica como una emergencia médica en sí misma. Sin embargo, si la razón para posponer el procedimiento fue una complicación de tu enfermedad original (ejemplo: dolor intenso, fiebre alta, sangrado), debes acudir a urgencias INMEDIATAMENTE.",
+    "Si presentas los síntomas graves por los cuales originalmente iban a operarte o tratarte, y estos empeoran, ve a urgencias.",
+    "Si desarrollas signos de una infección (fiebre mayor a 38.5°C, enrojecimiento o pus en una herida) después de una cirugía cancelada en el último intento, acude de inmediato."
+  ],
+  "tests": [
+    "Este código no requiere estudios de laboratorio específicos. Los estudios que se soliciten dependerán de la enfermedad original del paciente.",
+    "Biometría Hemática Completa (para evaluar infección o anemia antes de un procedimiento)",
+    "Química Sanguínea (para revisar función de riñones e hígado)",
+    "Tiempo de Protrombina y Tiempo de Tromboplastina Parcial (TP y TTP, para evaluar coagulación)",
+    "Electrocardiograma (para evaluar el corazón antes de una cirugía)"
+  ],
+  "relatedSymptoms": [],
+  "prevention": [
+    "Antes de cualquier procedimiento, pregunta todas tus dudas al médico para sentirte seguro y tomar una decisión informada.",
+    "Si el procedimiento es en una institución pública, lleva contigo todos tus estudios previos y citas impresas para agilizar el proceso.",
+    "Sigue al pie de la letra las indicaciones previas al procedimiento (como ayuno o suspender ciertos medicamentos) para evitar cancelaciones de último momento."
+  ],
+  "relatedStudies": [
+    {
+      "slug": "biometria-hematica-completa",
+      "name": "BIOMETRIA HEMATICA COMPLETA",
+      "reason": "Biometría Hemática Completa (para evaluar infección o anemia antes de un procedimiento)"
+    },
+    {
+      "slug": "ttp-tiempo-de-tromboplastina-parcial",
+      "name": "TTP (tiempo de tromboplastina parcial)",
+      "reason": "Tiempo de Protrombina y Tiempo de Tromboplastina Parcial (TP y TTP, para evaluar coagulación)"
+    }
+  ]
+}

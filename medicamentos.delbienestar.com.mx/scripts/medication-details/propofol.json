@@ -1,0 +1,381 @@
+{
+  "name": "Propofol",
+  "summary": "El propofol es un medicamento anestésico intravenoso de acción ultracorta, conocido por su apariencia lechosa blanca. Se utiliza principalmente para inducir y mantener la anestesia general durante cirugías y procedimientos médicos, así como para la sedación consciente en procedimientos menores y en cuidados intensivos. Su importancia clínica radica en su rápido inicio de acción (30-60 segundos) y su corta duración, lo que permite un control preciso del nivel de sedación y una recuperación rápida con menos efectos secundarios como náuseas y vómitos en comparación con otros anestésicos. Es una herramienta fundamental en quirófanos, salas de endoscopía y unidades de terapia intensiva en todo México.",
+  "pharmacology": {
+    "mechanismOfAction": "El propofol actúa principalmente potenciando la actividad del neurotransmisor inhibitorio GABA (ácido gamma-aminobutírico) en el cerebro. Se une a los receptores GABA-A, aumentando la frecuencia de apertura de los canales de cloruro en la membrana neuronal. Este influjo de iones cloruro hiperpolariza la neurona, haciendo que sea menos excitable y disminuyendo la transmisión de señales. Este efecto inhibidor generalizado en el sistema nervioso central produce pérdida de conciencia, amnesia (falta de memoria del evento) y sedación profunda. También tiene propiedades antieméticas (contra las náuseas) y puede causar depresión respiratoria y cardiovascular a dosis más altas.",
+    "pharmacologicClass": "Agente anestésico general intravenoso de acción corta. Derivado del alquilfenol.",
+    "therapeuticClass": "Anestésico general / Hipnótico sedante.",
+    "absorption": "Administración exclusivamente intravenosa. La absorción es inmediata y completa al torrente sanguíneo.",
+    "distribution": "Se distribuye rápidamente y ampliamente en el organismo. Tiene un gran volumen de distribución (Vd: 3-4 L/kg en adultos, mayor en niños). Se une extensamente (95-99%) a proteínas plasmáticas, principalmente a la albúmina. Cruza rápidamente la barrera hematoencefálica y la placenta.",
+    "metabolism": "Se metaboliza rápidamente en el hígado, principalmente por conjugación con ácido glucurónico (glucuronidación) a través de la enzima UGT1A9. También sufre metabolismo extrahepático significativo en los pulmones y los riñones. No depende en gran medida del sistema de enzimas CYP450, lo que reduce el riesgo de interacciones farmacocinéticas importantes.",
+    "elimination": "Vida media de eliminación terminal: 4-7 horas (puede prolongarse en infusiones prolongadas). Vida media de distribución rápida: 2-4 minutos. Se elimina principalmente por vía renal como metabolitos inactivos (glucurónidos). Menos del 1% se excreta sin cambios en la orina. La eliminación es más rápida en niños que en adultos.",
+    "onsetOfAction": "Muy rápido. La pérdida de conciencia ocurre generalmente en 30 a 60 segundos después de una dosis en bolo intravenoso.",
+    "durationOfAction": "Corta. El efecto de una sola dosis en bolo dura de 5 a 10 minutos, debido a su rápida redistribución desde el cerebro hacia otros tejidos grasos. La recuperación es rápida y clara."
+  },
+  "indications": {
+    "approved": [
+      "Inducción de anestesia general en adultos y niños mayores de 3 años.",
+      "Mantenimiento de anestesia general en adultos y niños mayores de 2 meses mediante infusión continua.",
+      "Sedación para procedimientos diagnósticos y terapéuticos en adultos (como endoscopías).",
+      "Sedación en pacientes intubados y con ventilación mecánica en unidades de cuidados intensivos (UCI)."
+    ],
+    "offLabel": [
+      "Tratamiento del estatus epiléptico refractario.",
+      "Prevención y tratamiento de las náuseas y vómitos postoperatorios.",
+      "Sedación en procedimientos de cardioversión eléctrica.",
+      "Sedación en bloqueos nerviosos regionales.",
+      "Componente de la sedación profunda en procedimientos fuera del quirófano."
+    ]
+  },
+  "dosage": {
+    "adults": "Dosis varía según indicación y estado del paciente. INDUCCIÓN: 1.5 a 2.5 mg/kg por vía intravenosa en bolo. MANTENIMIENTO: Infusión continua de 100 a 200 mcg/kg/minuto (6-12 mg/kg/hora). SEDACIÓN CONSCIENTE: Bolo inicial de 0.5 mg/kg, seguido de infusiones de 25 a 75 mcg/kg/minuto (1.5-4.5 mg/kg/hora). En UCI: Infusión de 5 a 50 mcg/kg/minuto (0.3-3 mg/kg/hora), titulando al efecto deseado.",
+    "pediatric": "NIÑOS MAYORES DE 3 AÑOS (Inducción): 2.5 a 3.5 mg/kg IV. NIÑOS DE 2 MESES A 16 AÑOS (Mantenimiento): Infusión de 125 a 300 mcg/kg/minuto (7.5-18 mg/kg/hora). Requiere titulación cuidadosa; los niños pueden necesitar dosis más altas por kg que los adultos.",
+    "elderly": "Pacientes mayores de 55-65 años requieren dosis REDUCIDAS en un 20-50%. Inducción: 1 a 1.5 mg/kg. Mantenimiento: Infusión de 50 a 100 mcg/kg/minuto. Titular lentamente debido a mayor sensibilidad y cambios en farmacocinética.",
+    "renalImpairment": "No se requiere ajuste de dosis en insuficiencia renal leve a moderada (TFG >30 mL/min). En insuficiencia renal grave (TFG <30 mL/min) o diálisis, usar con precaución y titulación lenta, ya que puede haber alteraciones en la unión a proteínas y mayor efecto farmacológico. No es dializable.",
+    "hepaticImpairment": "En insuficiencia hepática leve a moderada, no se requieren ajustes significativos, pero se debe titular con cuidado. En insuficiencia hepática grave (Child-Pugh C), reducir la dosis de inducción y mantenimiento en un 25-50% debido a la disminución del aclaramiento y mayor sensibilidad.",
+    "maxDose": "No hay una dosis máxima diaria absoluta definida. La dosis se titula al efecto clínico deseado (pérdida de conciencia, respuesta a estímulos). Las infusiones prolongadas en UCI pueden alcanzar dosis acumulativas muy altas sin toxicidad específica de órgano, pero se debe vigilar el síndrome de infusión de propofol."
+  },
+  "dosageForms": [
+    {
+      "form": "Emulsión inyectable",
+      "strengths": [
+        "10 mg/mL (1%) en ampollas de 20 mL (200 mg)",
+        "10 mg/mL (1%) en frascos ampolla de 50 mL (500 mg)",
+        "10 mg/mL (1%) en frascos ampolla de 100 mL (1000 mg)",
+        "20 mg/mL (2%) en frascos ampolla de 50 mL (1000 mg)"
+      ],
+      "route": "Intravenosa (IV)"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al propofol, a la soya, al huevo, a la fosfatidilcolina (lectina) o a cualquiera de los excipientes (como el edetato disódico).",
+      "No utilizar para anestesia obstétrica (parto) o en madres lactantes.",
+      "No utilizar en pacientes con alergia grave a los productos de soya o huevo.",
+      "No utilizar para sedación en pacientes pediátricos menores de 2 meses en UCI (riesgo de acidosis metabólica)."
+    ],
+    "relative": [
+      "Epilepsia o trastornos convulsivos (puede desencadenar actividad convulsiva).",
+      "Cardiopatía descompensada, hipovolemia o shock.",
+      "Aumento de la presión intracraneal (PIC).",
+      "Pancreatitis aguda o hiperlipidemia (por su contenido en lípidos).",
+      "Trastornos de la vía aérea o riesgo alto de aspiración."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Dolor en el sitio de inyección (hasta 70% de los pacientes si no se usa lidocaína).",
+      "Depresión respiratoria (disminución de la frecuencia y profundidad de la respiración).",
+      "Hipotensión arterial (baja de presión).",
+      "Sensación de ardor o escozor al inyectar."
+    ],
+    "common": [
+      "Movimientos involuntarios (mioclonías) durante la inducción o recuperación.",
+      "Náuseas y vómitos (menos frecuente que con otros anestésicos).",
+      "Cambios en el estado de ánimo (euforia, desinhibición, llanto).",
+      "Dolor de cabeza postoperatorio.",
+      "Prurito (comezón)."
+    ],
+    "uncommon": [
+      "Bradicardia (frecuencia cardíaca lenta).",
+      "Temblor o rigidez muscular.",
+      "Coloración verde de la orina (benigno, por metabolitos).",
+      "Reacciones alérgicas (erupción cutánea, broncoespasmo).",
+      "Tromboflebitis (inflamación de la vena)."
+    ],
+    "rare": [
+      "Síndrome de infusión de propofol (PRIS): acidosis metabólica, rabdomiólisis, fallo renal y cardíaco, asociado a infusiones de alta dosis y prolongadas (>48h).",
+      "Convulsiones.",
+      "Edema pulmonar.",
+      "Pancreatitis.",
+      "Hiperlipidemia (por la emulsión grasa).",
+      "Paro cardiorrespiratorio."
+    ],
+    "blackBoxWarning": "Advertencia: El uso para sedación en pacientes pediátricos en UCI se ha asociado con un aumento de la mortalidad. No se recomienda para sedación en pacientes pediátricos críticos menores de 16 años, a menos que los beneficios superen claramente los riesgos. Riesgo de síndrome de infusión de propofol (PRIS) con infusiones de alta dosis y prolongadas."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Benzodiacepinas (midazolam, diazepam)",
+        "effect": "Potenciación de los efectos sedantes, hipnóticos y de depresión respiratoria y cardiovascular. Se deben reducir las dosis de ambos fármacos.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Opiáceos (fentanilo, morfina)",
+        "effect": "Aumento sinérgico de la sedación, analgesia, depresión respiratoria e hipotensión. Requiere monitorización estrecha y ajuste de dosis.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Bloqueadores neuromusculares (succinilcolina, rocuronio)",
+        "effect": "El propofol puede potenciar el efecto de estos relajantes musculares. El médico anestesiólogo ajusta las dosis en consecuencia.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Alcohol etílico",
+        "effect": "Potenciación severa de la depresión del sistema nervioso central. Contraindicado su consumo antes de un procedimiento con propofol.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "No aplica directamente, ya que se administra por vía intravenosa en un entorno médico. Sin embargo, el paciente debe estar en AYUNAS (no comer ni beber) por lo menos 6-8 horas antes de un procedimiento electivo para reducir el riesgo de aspiración pulmonar durante la sedación/anestesia.",
+    "withSupplements": "Suplementos con efecto sedante o depresor del SNC (como valeriana, kava, melatonina en dosis altas) podrían potenciar los efectos del propofol. Se recomienda informar al médico sobre cualquier suplemento herbal antes de la cirugía."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA B",
+      "recommendación": "Sólo debe usarse durante el embarazo si es claramente necesario, generalmente para procedimientos quirúrgicos de emergencia. No se recomienda para anestesia durante el parto (cesárea) porque cruza la placenta rápidamente y puede causar depresión en el recién nacido. Su uso debe ser decidido por el obstetra y el anestesiólogo.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se excreta en cantidades mínimas en la leche materna. Debido a su rápida eliminación, se considera compatible con la lactancia después de un procedimiento único. Se recomienda esperar un período de 4 a 6 horas después de la última dosis antes de reanudar la lactancia, para permitir la eliminación del fármaco del organismo de la madre. En infusiones prolongadas en UCI, se debe evaluar individualmente.",
+    "pediatric": "Aprobado para inducción en >3 años y mantenimiento en >2 meses. Los niños a menudo requieren dosis mg/kg más altas que los adultos, pero son más susceptibles a la depresión cardiorrespiratoria. CONTRAINDICADO para sedación en UCI en <16 años por riesgo de acidosis y muerte (ver caja negra). Monitorización estricta es esencial.",
+    "geriatric": "Los pacientes mayores son más sensibles a los efectos del propofol. Presentan mayor incidencia de hipotensión, bradicardia y depresión respiratoria. Las dosis deben reducirse significativamente (hasta un 50%) y administrarse lentamente. La recuperación puede ser más lenta. Evaluar función hepática y renal."
+  },
+  "administration": {
+    "howToTake": "EXCLUSIVAMENTE ADMINISTRADO POR PERSONAL MÉDICO CALIFICADO (anestesiólogo, intensivista) en un entorno con equipo de reanimación. Se administra por vía intravenosa (IV), ya sea como una inyección en bolo lento (para inducción) o como una infusión continua controlada por bomba (para mantenimiento o sedación). Para reducir el dolor en la inyección, a menudo se mezcla con un anestésico local como lidocaína o se inyecta en una vena grande. NO se puede administrar por vía intramuscular o oral.",
+    "storage": "Conservar entre 2°C y 25°C (refrigeración no es obligatoria pero se recomienda para prolongar estabilidad). Proteger de la luz. No congelar. Una vez abierto el frasco, debe usarse inmediatamente por riesgo de contaminación bacteriana (el propofol es un excelente medio de cultivo). No mezclar con otros medicamentos en la misma jeringa o línea IV, a menos que se conozca su compatibilidad.",
+    "specialInstructions": "La emulsión es de color blanco lechoso. Agitar suavemente antes de usar. Inspeccionar visualmente antes de administrar: no usar si hay separación de fases, partículas o decoloración. Es estéril pero no contiene conservantes antimicrobianos. La línea de infusión debe cambiarse cada 6-12 horas para minimizar el riesgo de infección. En infusiones prolongadas, monitorear triglicéridos séricos."
+  },
+  "monitoring": {
+    "labTests": [
+      "Nivel de triglicéridos en sangre (en infusiones >24h).",
+      "Gasometría arterial (para detectar acidosis).",
+      "Creatinina quinasa (CK) y mioglobina en orina (para detectar rabdomiólisis en PRIS).",
+      "Función hepática (enzimas hepáticas).",
+      "Electrolitos séricos (sodio, potasio)."
+    ],
+    "frequency": "Continuo durante la administración: monitoreo de signos vitales (presión arterial, frecuencia cardíaca, saturación de oxígeno, frecuencia respiratoria). Electrocardiograma (ECG). En infusiones de UCI prolongadas (>24h): monitoreo de triglicéridos cada 48-72h y evaluación clínica diaria para PRIS.",
+    "signsToWatch": [
+      "Dificultad para respirar o apnea (deja de respirar).",
+      "Presión arterial muy baja (hipotensión severa).",
+      "Frecuencia cardíaca muy lenta (bradicardia severa).",
+      "Coloración oscura de la orina (posible rabdomiólisis).",
+      "Dolor o hinchazón severos en el sitio de inyección.",
+      "Confusión o agitación prolongada después de despertar."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Depresión respiratoria profunda (apnea).",
+      "Hipotensión arterial grave (shock).",
+      "Bradicardia extrema o paro cardíaco.",
+      "Pérdida profunda de la conciencia (coma)."
+    ],
+    "treatment": "El tratamiento es de SOPORTE y se realiza en un entorno de cuidados intensivos. Incluye: 1) Mantener la vía aérea y administrar oxígeno. 2) Ventilación mecánica asistida si hay apnea. 3) Soporte de la presión arterial con fluidos intravenosos y medicamentos vasopresores (como efedrina, noradrenalina). 4) Tratamiento de la bradicardia con atropina. 5) No hay diálisis efectiva. La recuperación depende del metabolismo y redistribución del fármaco.",
+    "antidote": "No existe un antídoto específico para el propofol. La flumazenil (antídoto de benzodiacepinas) NO revierte sus efectos. El tratamiento es sintomático y de soporte vital."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial controlada (sólo para uso hospitalario). No disponible en farmacias para el público.",
+    "scheduleMexico": "Medicamento de control especial. Sujeta a prescripción por un médico especialista (anestesiólogo, intensivista) y dispensación exclusiva en hospitales.",
+    "fdaApprovalYear": "Aprobado por la FDA en 1989."
+  },
+  "brandsMexico": [
+    "Diprivan",
+    "Propoven",
+    "Fresofol",
+    "Propofol Lipuro",
+    "Anepol",
+    "Provive",
+    "Propolipid",
+    "Propofol Abbott",
+    "Propofol Pisa",
+    "Propofol Fresenius Kabi",
+    "Recofol"
+  ],
+  "clinicalPearls": [
+    "El dolor en la inyección es el efecto adverso más común. Se puede prevenir eficazmente inyectando previamente 20-40 mg de lidocaína en la misma vena o mezclándola con el propofol.",
+    "El 'Síndrome de Infusión de Propofol' (PRIS) es una complicación rara pero mortal, asociada a infusiones de alta dosis (>4-5 mg/kg/hora) por más de 48 horas. Se manifiesta con acidosis metabólica, rabdomiólisis, fallo renal y cardíaco.",
+    "Aunque el propofol tiene propiedades antieméticas intrínsecas, su uso en bolo rápido puede causar náuseas y vómitos durante la fase de recuperación, especialmente si se combina con opioides."
+  ],
+  "patientCounseling": "El propofol es un medicamento muy seguro cuando es administrado por un anestesiólogo o médico especialista en un entorno controlado como un quirófano o sala de procedimientos. Usted estará dormido profundamente y no recordará el procedimiento. Es fundamental que informe a su médico sobre todas sus alergias, especialmente al huevo, soya o medicamentos previos. Debe estar en ayunas totales (sin comer ni beber) desde la noche anterior para evitar complicaciones pulmonares graves. Después de la sedación, no podrá conducir, operar maquinaria, tomar decisiones legales ni consumir alcohol durante al menos 24 horas, ya que sus reflejos y juicio estarán alterados. Es normal sentir somnolencia, mareo leve o falta de memoria por algunas horas. Comunique cualquier dolor intenso en el brazo donde le pusieron la inyección o dificultad para respirar después del procedimiento.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Ansiedad preoperatoria",
+        "slug": "ansiedad-preoperatoria"
+      },
+      {
+        "name": "Dolor agudo",
+        "slug": "dolor-agudo"
+      },
+      {
+        "name": "Náuseas y vómitos postoperatorios",
+        "slug": "nauseas-y-vomitos-postoperatorios"
+      },
+      {
+        "name": "Insomnio inducido por procedimientos",
+        "slug": "insomnio-inducido-por-procedimientos"
+      },
+      {
+        "name": "Agitación en cuidados intensivos",
+        "slug": "agitacion-en-cuidados-intensivos"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Estatus epiléptico refractario",
+        "slug": "estatus-epileptico-refractario"
+      },
+      {
+        "name": "Síndrome de dificultad respiratoria aguda (SDRA) que requiere sedación",
+        "slug": "sindrome-de-dificultad-respiratoria-aguda"
+      },
+      {
+        "name": "Traumatismo craneoencefálico severo (para control de PIC)",
+        "slug": "traumatismo-craneoencefalico-severo"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Síndrome de infusión de propofol (PRIS)",
+        "slug": "sindrome-de-infusion-de-propofol"
+      },
+      {
+        "name": "Pancreatitis aguda",
+        "slug": "pancreatitis-aguda"
+      },
+      {
+        "name": "Hipertrigliceridemia",
+        "slug": "hipertrigliceridemia"
+      },
+      {
+        "name": "Rabdomiólisis",
+        "slug": "rabdomiolisis"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Triglicéridos séricos",
+        "slug": "trigliceridos-sericos",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Creatinina quinasa (CK)",
+        "slug": "creatinina-quinasa-ck",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "pH arterial",
+        "slug": "ph-arterial",
+        "effect": "Puede disminuir (acidosis)"
+      },
+      {
+        "name": "Presión arterial sistólica",
+        "slug": "presion-arterial-sistolica",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Frecuencia cardíaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede disminuir"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Perfil de lípidos (triglicéridos)",
+        "slug": "perfil-de-lipidos-trigliceridos",
+        "reason": "Para monitorear el riesgo de hipertrigliceridemia en infusiones prolongadas."
+      },
+      {
+        "name": "Gasometría arterial",
+        "slug": "gasometria-arterial",
+        "reason": "Para detectar acidosis metabólica temprana en el síndrome de infusión de propofol (PRIS)."
+      },
+      {
+        "name": "Creatinina quinasa (CK)",
+        "slug": "creatinina-quinasa-ck",
+        "reason": "Para detectar rabdomiólisis en casos de sospecha de PRIS."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Qué es el propofol y para qué me lo van a poner?",
+      "a": "El propofol es un medicamento anestésico muy potente que se administra directamente en la vena. Su función principal es 'dormirlo' de manera rápida y controlada durante una cirugía o un procedimiento médico (como una endoscopía), para que no sienta dolor ni recuerde lo sucedido. También se usa para mantener a pacientes en coma inducido en la terapia intensiva cuando están conectados a un respirador."
+    },
+    {
+      "q": "¿Duele que me pongan el propofol?",
+      "a": "Sí, es muy común sentir un dolor intenso, ardor o quemazón en el brazo en el momento de la inyección. Para evitarlo, el anestesiólogo suele mezclar el propofol con un poco de anestesia local (como lidocaína) o la inyecta en una vena más grande. El dolor dura sólo unos segundos, justo antes de quedarse dormido."
+    },
+    {
+      "q": "¿Cuánto tiempo tardo en dormirme con propofol?",
+      "a": "Es extremadamente rápido. Generalmente, en menos de un minuto (entre 30 y 60 segundos) después de que el médico inyecta el medicamento en su vena, usted pierde completamente la conciencia."
+    },
+    {
+      "q": "¿Y cuánto tiempo tardo en despertar?",
+      "a": "La recuperación también es rápida. Después de una dosis única para un procedimiento corto, la mayoría de las personas se despiertan y están alerta en 5 a 10 minutos. Sin embargo, puede sentir somnolencia, mareo o confusión leve durante algunas horas. La recuperación completa de sus reflejos puede tardar hasta 24 horas."
+    },
+    {
+      "q": "¿Puedo tener alergia al propofol?",
+      "a": "Sí, aunque es poco común. El riesgo es mayor si usted es alérgico al HUEVO, a la SOYA o al CACAHUATE, ya que el propofol contiene una sustancia derivada de la yema de huevo (fosfatidilcolina) y aceite de soya. Es VITAL que informe a su médico y al anestesiólogo sobre estas alergias antes de cualquier procedimiento."
+    },
+    {
+      "q": "¿Por qué debo estar en ayunas antes de recibir propofol?",
+      "a": "Por seguridad. Cuando está bajo el efecto del propofol, pierde los reflejos normales que evitan que la comida o líquidos del estómago pasen a los pulmones (esto se llama aspiración). Estar con el estómago vacío (en ayunas de 6-8 horas para sólidos y 2 horas para líquidos claros) reduce muchísimo el riesgo de esta complicación grave, que puede causar neumonía severa."
+    },
+    {
+      "q": "¿El propofol me va a dar náuseas después?",
+      "a": "Afortunadamente, el propofol en sí tiene propiedades contra las náuseas, por lo que es menos probable que cause vómitos después de la cirugía en comparación con otros anestésicos. Sin embargo, si se combina con medicamentos para el dolor (opioides), el riesgo puede aumentar."
+    },
+    {
+      "q": "¿Puedo conducir o irme solo a casa después de que me den propofol?",
+      "a": "NO, ABSOLUTAMENTE NO. Después de recibir propofol, sus reflejos, coordinación y capacidad de juicio estarán alterados por varias horas, similar a estar ebrio. Es obligatorio que un adulto responsable lo acompañe y lo lleve a su casa. No debe conducir, operar maquinaria ni tomar decisiones importantes durante al menos 24 horas."
+    },
+    {
+      "q": "¿Es cierto que el propofol es la 'leche' que usan para dormir?",
+      "a": "Sí, es una expresión común. El propofol es una emulsión blanca y lechosa, por lo que en el ambiente médico a menudo se le llama coloquialmente 'la leche'. Esta apariencia se debe a que está disuelto en una solución de aceite de soya."
+    },
+    {
+      "q": "¿Qué efectos secundarios son los más comunes al despertar?",
+      "a": "Además del dolor en el sitio de inyección, es común sentirse somnoliento, con mareo leve, dolor de cabeza o tener lagunas mentales (no recordar bien lo que pasó justo antes o después del procedimiento). Algunas personas pueden sentirse eufóricas, emocionales (llorar) o confundidas por un corto tiempo."
+    },
+    {
+      "q": "¿El propofol es adictivo como otros sedantes?",
+      "a": "El potencial de adicción o dependencia física del propofol es muy bajo cuando se usa de manera controlada en un entorno médico para procedimientos únicos. Sin embargo, existe un riesgo de abuso y dependencia psicológica entre el personal de salud que tiene acceso a él, debido a sus efectos euforizantes. Para pacientes en tratamientos largos en UCI, puede haber tolerancia (necesitar dosis más altas) pero no adicción en el sentido tradicional."
+    },
+    {
+      "q": "¿Puedo tomar alcohol el mismo día después de un procedimiento con propofol?",
+      "a": "No. El alcohol potencia los efectos depresores del propofol que aún pueden estar presentes en su cuerpo. Combinarlos puede causar depresión respiratoria severa, hipotensión peligrosa y pérdida de conciencia. Evite el consumo de alcohol por lo menos durante 24 horas después del procedimiento."
+    },
+    {
+      "q": "¿Qué pasa si me dan demasiado propofol (sobredosis)?",
+      "a": "Una sobredosis causa depresión profunda del cerebro y del corazón: deja de respirar (apnea) y la presión arterial cae peligrosamente (shock). Por eso se administra siempre en un lugar con equipo de reanimación (quirófano, sala de procedimientos). El anestesiólogo está entrenado para manejar esto con ventilación asistida, medicamentos para subir la presión y soporte vital hasta que el cuerpo elimine el exceso del fármaco."
+    },
+    {
+      "q": "¿Por qué a veces el paciente se mueve o tiene espasmos al dormirse con propofol?",
+      "a": "Es un efecto común llamado 'mioclonías' o movimientos involuntarios breves. No son convulsiones epilépticas y son inofensivas. Ocurren durante la fase de inducción (al dormirse) o de recuperación (al despertar), y desaparecen solos en segundos. El médico está preparado para distinguirlos de una verdadera convulsión."
+    },
+    {
+      "q": "¿El propofol afecta a los riñones o al hígado?",
+      "a": "En uso normal para procedimientos cortos, no causa daño directo a estos órganos. Sin embargo, en infusiones prolongadas de días en UCI (especialmente a dosis altas), existe un riesgo raro pero grave llamado 'Síndrome de Infusión de Propofol' (PRIS) que puede dañar los músculos, los riñones y el corazón. Por eso en esos casos se monitorean exámenes de sangre como triglicéridos y creatinina quinasa."
+    },
+    {
+      "q": "¿Se puede usar propofol en niños?",
+      "a": "Sí, está aprobado para inducir y mantener anestesia en niños mayores de 2 meses. Sin embargo, hay una ADVERTENCIA MUY IMPORTANTE: NO debe usarse para sedación prolongada en niños críticos en terapia intensiva, ya que se ha asociado con un mayor riesgo de acidosis metabólica y muerte. Su uso en niños siempre debe ser bajo estricta supervisión de un anestesiólogo pediátrico."
+    },
+    {
+      "q": "¿Y en personas mayores? ¿Hay algún cuidado especial?",
+      "a": "Sí, los adultos mayores son mucho más sensibles al propofol. Las dosis necesarias son mucho más bajas (a veces la mitad que en un adulto joven) y se administran más lentamente. Tienen mayor riesgo de sufrir baja de presión arterial (hipotensión) y frecuencia cardíaca lenta (bradicardia) durante y después de la administración."
+    },
+    {
+      "q": "¿Qué es el 'Síndrome de Infusión de Propofol' (PRIS) del que hablan los médicos?",
+      "a": "Es una complicación rara, pero muy grave y a menudo mortal, que ocurre cuando se administra propofol en infusiones continuas a dosis altas (generalmente >4 mg/kg/hora) por más de 48 horas. Los síntomas incluyen acidosis en la sangre, fallo cardíaco, destrucción muscular (rabdomiólisis) e insuficiencia renal. Por esto, en UCI se evitan infusiones prolongadas de propofol a altas dosis y se monitorean cuidadosamente los signos."
+    },
+    {
+      "q": "¿Por qué a veces la orina se pone verde después de recibir propofol?",
+      "a": "Es un efecto inofensivo y temporal. Algunos metabolitos (productos de la descomposición) del propofol se eliminan por la orina y pueden teñirla de un color verde pálido. No indica daño renal y desaparece en unas horas o días una vez que se suspende el medicamento."
+    },
+    {
+      "q": "¿Cómo decide el anestesiólogo la dosis exacta de propofol que me va a dar?",
+      "a": "La dosis se 'titula' o ajusta individualmente para cada paciente. El anestesiólogo considera su peso, edad, estado de salud general (presión, corazón), si ha comido, y la duración/complejidad del procedimiento. Comienza con una dosis calculada y observa su respuesta (pérdida de conciencia, cambios en la respiración y presión) para administrar más si es necesario. Es un arte y una ciencia que requiere años de entrenamiento."
+    }
+  ]
+}

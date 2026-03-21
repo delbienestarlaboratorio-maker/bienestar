@@ -1,0 +1,406 @@
+{
+  "name": "Neostigmina Metilsulfato",
+  "summary": "La Neostigmina Metilsulfato es un medicamento que pertenece al grupo de los inhibidores de la colinesterasa. Su función principal es aumentar los niveles de una sustancia química llamada acetilcolina en el cerebro y en las uniones neuromusculares, lo cual es crucial para la transmisión de señales nerviosas. En el contexto de las demencias, como la enfermedad de Alzheimer, ayuda a mejorar temporalmente los síntomas cognitivos, como la memoria y la capacidad de pensar, aunque no detiene la progresión de la enfermedad subyacente. También es de vital importancia en el tratamiento de la miastenia gravis, una enfermedad que causa debilidad muscular, y para revertir los efectos de ciertos medicamentos anestésicos que relajan los músculos durante una cirugía. Su uso requiere supervisión médica estrecha debido a sus efectos potentes sobre el sistema nervioso y muscular.",
+  "pharmacology": {
+    "mechanismOfAction": "La Neostigmina actúa como un inhibidor reversible de la enzima acetilcolinesterasa. Esta enzima es responsable de descomponer la acetilcolina, un neurotransmisor esencial para la comunicación entre las neuronas y entre los nervios y los músculos. Al bloquear esta enzima, la Neostigmina aumenta la concentración y la duración de acción de la acetilcolina en las sinapsis colinérgicas. Esto mejora la transmisión nerviosa en el sistema nervioso central (ayudando con síntomas cognitivos) y en la unión neuromuscular (mejorando la fuerza muscular en condiciones como la miastenia gravis). A diferencia de otros inhibidores, también tiene un efecto agonista directo leve sobre los receptores nicotínicos.",
+    "pharmacologicClass": "Inhibidor reversible de la acetilcolinesterasa; Agonista colinérgico indirecto; Derivado de la carbamato.",
+    "therapeuticClass": "Agente anticolinesterasa; Agente para el tratamiento de la miastenia gravis; Agente reversor de bloqueo neuromuscular.",
+    "absorption": "La absorción después de una inyección intramuscular o subcutánea es rápida y casi completa. La biodisponibilidad por vía oral es muy baja (aproximadamente 1-2%) debido a un extenso metabolismo de primer paso en el hígado y la mucosa intestinal, por lo que la administración parenteral (inyectable) es la principal vía para efectos sistémicos.",
+    "distribution": "Se distribuye ampliamente por todo el cuerpo. Atraviesa la barrera hematoencefálica en grado limitado, lo que explica sus efectos centrales. Su volumen de distribución es de aproximadamente 0.7 a 1.4 L/kg. La unión a proteínas plasmáticas es baja, menor al 15-25%.",
+    "metabolism": "La Neostigmina se metaboliza principalmente en el hígado por hidrólisis enzimática (pseudocolinesterasas plasmáticas y esterasas hepáticas). No es un sustrato significativo del sistema de citocromo P450 (CYP), por lo que las interacciones farmacocinéticas mediadas por CYP son mínimas.",
+    "elimination": "La vida media de eliminación es de aproximadamente 50 a 90 minutos. Se elimina principalmente por vía renal, con aproximadamente un 50% de la dosis excretada sin cambios en la orina en las primeras 24 horas. El resto se excreta como metabolitos inactivos.",
+    "onsetOfAction": "Intramuscular/Subcutánea: 20 a 30 minutos. Intravenosa: 4 a 8 minutos. El efecto máximo se alcanza en aproximadamente 1 hora tras la administración intramuscular.",
+    "durationOfAction": "La duración del efecto es de 2 a 4 horas después de una dosis intramuscular o subcutánea, y de 1 a 2 horas después de una dosis intravenosa."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento sintomático de la miastenia gravis.",
+      "Reversión de los efectos de los bloqueadores neuromusculares no despolarizantes (como el rocuronio o el vecuronio) después de la cirugía.",
+      "Prevención y tratamiento del íleo paralítico postoperatorio o postparto (distensión abdominal por falta de movimiento intestinal).",
+      "Tratamiento de la retención urinaria neurogénica (cuando la vejiga no se vacía por problemas nerviosos)."
+    ],
+    "offLabel": [
+      "Mejora de síntomas cognitivos en demencias (como Alzheimer), aunque otros inhibidores de colinesterasa como donepezilo son de primera línea.",
+      "Tratamiento del síndrome de taquicardia ortostática postural (POTS).",
+      "Como prueba diagnóstica en la miastenia gravis (prueba de Tensilon, aunque el edrofonio es más común)."
+    ]
+  },
+  "dosage": {
+    "adults": "MI ASTENIA GRAVIS: Diagnóstico: 0.022 mg/kg IM. Tratamiento: 0.5-2.5 mg por vía subcutánea o IM cada 1-4 horas según necesidad. Dosis total diaria no debe exceder usualmente 10 mg. REVERSIÓN DE BLOQUEO NEUROMUSCULAR: 0.5-2.5 mg por vía IV lenta, usualmente con atropina o glicopirrolato para prevenir efectos colinérgicos. Dosis máxima única: 5 mg. ÍLEO PARALÍTICO/RETENCIÓN URINARIA: 0.5-1 mg por vía IM o subcutánea cada 4-6 horas según necesidad.",
+    "pediatric": "MI ASTENIA GRAVIS: 0.01-0.04 mg/kg por vía IM, IV o subcutánea cada 2-4 horas. Dosis máxima por dosis: 0.5 mg en lactantes, 2 mg en niños mayores. REVERSIÓN DE BLOQUEO NEUROMUSCULAR: 0.025-0.08 mg/kg por vía IV, máximo 2.5 mg. Siempre bajo estricta supervisión médica en entorno hospitalario.",
+    "elderly": "Iniciar con las dosis más bajas del rango debido a la mayor probabilidad de disminución de la función renal, mayor sensibilidad a los efectos colinérgicos y presencia de comorbilidades cardiacas. Monitorizar estrechamente la frecuencia cardiaca y la aparición de efectos adversos.",
+    "renalImpairment": "Ajustar dosis en insuficiencia renal. TFG 10-50 mL/min: Reducir dosis en un 25-50%. TFG <10 mL/min: Reducir dosis en un 50% o evitar su uso debido al riesgo de acumulación. La droga se elimina principalmente por el riñón.",
+    "hepaticImpairment": "No se requieren ajustes de dosis específicos basados únicamente en insuficiencia hepática, ya que el metabolismo hepático es limitado. Sin embargo, usar con precaución en enfermedad hepática grave debido a posibles alteraciones en el metabolismo de las pseudocolinesterasas.",
+    "maxDose": "La dosis máxima diaria en adultos para miastenia gravis no debe exceder generalmente los 10 mg, aunque en situaciones hospitalarias controladas pueden usarse dosis más altas. Para reversión de bloqueo neuromuscular, la dosis máxima única IV es de 5 mg."
+  },
+  "dosageForms": [
+    {
+      "form": "Solución inyectable",
+      "strengths": [
+        "0.5 mg/mL",
+        "1 mg/mL"
+      ],
+      "route": "Intramuscular, Intravenosa, Subcutánea"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida a la Neostigmina o a bromuros.",
+      "Obstrucción mecánica del intestino o de las vías urinarias (por riesgo de perforación).",
+      "Peritonitis (inflamación del abdomen).",
+      "Historia de reacción de hipersensibilidad a otros inhibidores de colinesterasa."
+    ],
+    "relative": [
+      "Enfermedad cardiaca (especialmente bradicardia, arritmias, bloqueo auriculoventricular).",
+      "Asma bronquial o enfermedad pulmonar obstructiva crónica (EPOC).",
+      "Úlcera péptica activa.",
+      "Epilepsia o trastornos convulsivos.",
+      "Hipertiroidismo.",
+      "Enfermedad de Parkinson (puede empeorar los síntomas)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Aumento de la salivación y secreciones bronquiales.",
+      "Náuseas y vómitos.",
+      "Calambres y dolor abdominal.",
+      "Diarrea."
+    ],
+    "common": [
+      "Sudoración excesiva.",
+      "Lagrimeo.",
+      "Micción frecuente o urgente.",
+      "Visión borrosa (por miosis).",
+      "Bradicardia (ritmo cardiaco lento).",
+      "Debilidad muscular (por sobrestimulación, 'crisis colinérgica')."
+    ],
+    "uncommon": [
+      "Sialorrea (babeo).",
+      "Fasciculaciones musculares (pequeñas contracciones).",
+      "Dolor de cabeza.",
+      "Mareo.",
+      "Erupción cutánea."
+    ],
+    "rare": [
+      "Convulsiones.",
+      "Arritmias cardiacas graves (bloqueo AV, paro cardiaco).",
+      "Broncoespasmo (dificultad para respirar).",
+      "Reacciones alérgicas/anafilaxia.",
+      "Crisis colinérgica (debilidad muscular severa por exceso de medicamento)."
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Atropina, Glicopirrolato, Ipratropio",
+        "effect": "Estos fármacos antagonizan los efectos muscarínicos (como bradicardia, secreciones) de la Neostigmina. A menudo se administran juntos para mitigar efectos adversos, pero pueden enmascarar signos de sobredosis.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Bloqueadores neuromusculares despolarizantes (Succinilcolina)",
+        "effect": "La Neostigmina puede prolongar la fase I del bloqueo de la succinilcolina y precipitar una fase II, llevando a un bloqueo neuromuscular prolongado y difícil de revertir. Está contraindicada para revertir este tipo de bloqueantes.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Procaína, otros anestésicos locales tipo éster",
+        "effect": "Pueden competir por la metabolización por las pseudocolinesterasas plasmáticas, prolongando la acción de ambos fármacos.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Betabloqueadores (Propranolol, Atenolol), Bloqueadores de canales de calcio (Verapamilo, Diltiazem)",
+        "effect": "Aumentan el riesgo de bradicardia severa y bloqueo cardiaco.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Corticosteroides (Prednisona)",
+        "effect": "En miastenia gravis, el inicio de corticosteroides puede causar debilidad muscular transitoria, lo que puede confundir la evaluación de la dosis de Neostigmina.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Aminoglucósidos (Gentamicina), Polimixinas, Clindamicina",
+        "effect": "Estos antibióticos tienen efectos bloqueadores neuromusculares que pueden antagonizar los efectos de la Neostigmina y empeorar la debilidad muscular.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "No hay interacciones significativas con alimentos cuando se administra por vía parenteral. Si se usara por vía oral (formulaciones especiales), tomar con alimentos puede reducir las molestias gastrointestinales.",
+    "withSupplements": "Suplementos con efectos colinérgicos (como Citicolina, Alpha-GPC, Huperzina A) pueden potenciar los efectos de la Neostigmina y aumentar el riesgo de efectos adversos. Suplementos que afectan el ritmo cardiaco (como Digitalis/ Digital) pueden aumentar el riesgo de arritmias."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría FDA C",
+      "recommendación": "Solo debe usarse durante el embarazo si el beneficio potencial justifica claramente el riesgo para el feto. Cruza la placenta y puede causar efectos colinérgicos en el feto, incluyendo bradicardia fetal. Se usa en obstetricia para revertir bloqueo neuromuscular en cesáreas. Requiere monitorización fetal.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Se desconoce si la Neostigmina se excreta en la leche materna humana. Debido a su potencial para causar efectos adversos graves en un lactante, se debe decidir si suspender la lactancia o suspender el medicamento, considerando la importancia del fármaco para la madre. Generalmente, se considera compatible con la lactancia en dosis terapéuticas para procedimientos únicos (como reversión post-cirugía).",
+    "pediatric": "Se puede usar en niños para las mismas indicaciones que en adultos (miastenia gravis, reversión de bloqueo neuromuscular), pero las dosis deben calcularse cuidadosamente por peso corporal. Es de uso casi exclusivo en entornos hospitalarios bajo supervisión médica estrecha. La seguridad y eficacia en recién nacidos no están bien establecidas.",
+    "geriatric": "Los pacientes mayores son más sensibles a los efectos colinérgicos, especialmente a la bradicardia y los efectos gastrointestinales. La función renal disminuida es común, lo que puede llevar a una acumulación del fármaco. Se debe iniciar con las dosis más bajas posibles y aumentar lentamente, con monitorización frecuente de la frecuencia cardiaca y la función renal."
+  },
+  "administration": {
+    "howToTake": "Este medicamento se administra casi siempre por inyección (intramuscular, subcutánea o intravenosa lenta) por un profesional de la salud. Para la miastenia gravis, los pacientes pueden ser entrenados para auto-administrarse inyecciones subcutáneas. La inyección intravenosa debe ser lenta (durante al menos 1 minuto) para minimizar efectos adversos. Nunca se debe inyectar en un músculo que esté inflamado o enrojecido. Para el tratamiento del íleo, se puede administrar con el paciente acostado sobre el lado izquierdo para facilitar la expulsión de gases.",
+    "storage": "Conservar el vial o ampolleta en su empaque original, protegido de la luz. Almacenar a temperatura ambiente controlada (15-30°C). No congelar. Mantener fuera del alcance de los niños. Una vez abierto o preparado para inyección, debe usarse inmediatamente. No usar si la solución está turbia o contiene partículas.",
+    "specialInstructions": "En pacientes con miastenia gravis, es crucial distinguir entre una 'crisis miasténica' (falta de medicamento, que mejora con Neostigmina) y una 'crisis colinérgica' (exceso de medicamento, que empeora con Neostigmina). El médico debe evaluar esto. Para la reversión del bloqueo neuromuscular, siempre se administra junto con un agente anticolinérgico (como atropina) para prevenir bradicardia severa. Los pacientes deben llevar una identificación médica que indique que usan Neostigmina."
+  },
+  "monitoring": {
+    "labTests": [
+      "Creatinina sérica y Tasa de Filtración Glomerular (TFG) basal y periódica.",
+      "Electrolitos séricos (potasio, magnesio).",
+      "Función hepática (transaminasas) basal.",
+      "Niveles de anticuerpos contra receptores de acetilcolina (en miastenia gravis) para seguimiento de la enfermedad."
+    ],
+    "frequency": "Antes de iniciar el tratamiento y periódicamente según la condición del paciente y la función renal. En uso hospitalario agudo, se monitoriza constantemente la frecuencia cardiaca, presión arterial y saturación de oxígeno.",
+    "signsToWatch": [
+      "Ritmo cardiaco muy lento (bradicardia) o irregular.",
+      "Dificultad para respirar, sibilancias o aumento de secreciones bronquiales.",
+      "Debilidad muscular nueva o que empeora (posible crisis colinérgica).",
+      "Dolor abdominal intenso, náuseas, vómitos o diarrea profusa.",
+      "Visión borrosa o sudoración excesiva.",
+      "Dificultad para orinar a pesar del medicamento."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Debilidad muscular severa (parálisis flácida) que puede llevar a insuficiencia respiratoria.",
+      "Bradicardia extrema, paro cardiaco.",
+      "Broncoespasmo y aumento masivo de secreciones bronquiales (pulmones 'ahogados').",
+      "Calambres abdominales intensos, vómitos, diarrea acuosa.",
+      "Pupilas puntiformes (miosis extrema).",
+      "Ansiedad, confusión, convulsiones."
+    ],
+    "treatment": "Suspender inmediatamente el medicamento. Medidas de soporte vital: Mantener vía aérea, administrar oxígeno y asistir la ventilación si es necesario. El antídoto específico es la ATROPINA. Se administra por vía intravenosa en dosis de 0.6 a 1.2 mg, repitiendo cada 3-10 minutos según la respuesta (hasta que se reviertan los efectos muscarínicos). La bradicardia puede requerir marcapasos temporal. La debilidad muscular por sobredosis (crisis colinérgica) NO se trata con más Neostigmina.",
+    "antidote": "Sulfato de Atropina."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (receta archivada). Es un medicamento de uso delicado.",
+    "scheduleMexico": "Medicamento sujeto a control especial (lista de medicamentos que requieren receta médica especial y/o tienen potencial de abuso).",
+    "fdaApprovalYear": "Aprobado por la FDA desde la década de 1930."
+  },
+  "brandsMexico": [
+    "Neostigmina Methylsulfate (genérico de varios laboratorios)",
+    "Prostigmine® (marca original, ya puede no estar disponible)",
+    "Neostigmina Braun®",
+    "Neostigmina Biosano®",
+    "Neostigmina Pisa®"
+  ],
+  "clinicalPearls": [
+    "La 'prueba de Tensilon' para diagnosticar miastenia gravis usa edrofonio, no Neostigmina, por su inicio de acción más rápido, aunque el mecanismo es similar.",
+    "En la reversión del bloqueo neuromuscular, la Neostigmina es efectiva solo contra los bloqueantes NO despolarizantes (ej. rocuronio). Empeora el bloqueo si se usa con succinilcolina (despolarizante).",
+    "Los efectos gastrointestinales (cólicos, diarrea) son tan comunes que a veces limitan la dosis en pacientes con miastenia gravis, requiriendo el uso concurrente de anticolinérgicos como la propantelina."
+  ],
+  "patientCounseling": "La Neostigmina es un medicamento potente que debe usarse exactamente como lo indica su médico. Si se auto-administra para la miastenia gravis, aprenda la técnica de inyección correcta y rote los sitios de aplicación. Es crucial que lleve una identificación médica que diga que usa este fármaco. Informe a su médico de inmediato si nota latidos cardiacos muy lentos, dificultad para respirar nueva o empeoramiento de la debilidad muscular, ya que esto puede ser una emergencia (crisis colinérgica). Lleve un diario de sus síntomas y la hora de sus dosis para ayudar a su médico a ajustar el tratamiento. No aumente ni disminuya la dosis por su cuenta. Informe a todos sus médicos y dentistas que está usando Neostigmina antes de cualquier procedimiento. Evite el alcohol, ya que puede potenciar algunos efectos adversos.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Debilidad muscular",
+        "slug": "debilidad-muscular"
+      },
+      {
+        "name": "Dificultad para tragar (disfagia)",
+        "slug": "dificultad-para-tragar"
+      },
+      {
+        "name": "Visión doble (diplopía)",
+        "slug": "vision-doble"
+      },
+      {
+        "name": "Párpado caído (ptosis)",
+        "slug": "parpado-caido"
+      },
+      {
+        "name": "Dificultad para respirar",
+        "slug": "dificultad-para-respirar"
+      },
+      {
+        "name": "Distensión abdominal (por íleo)",
+        "slug": "distension-abdominal"
+      },
+      {
+        "name": "Retención urinaria",
+        "slug": "retencion-urinaria"
+      },
+      {
+        "name": "Problemas de memoria (en demencia)",
+        "slug": "problemas-de-memoria"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Miastenia Gravis",
+        "slug": "miastenia-gravis"
+      },
+      {
+        "name": "Bloqueo neuromuscular post-anestésico",
+        "slug": "bloqueo-neuromuscular"
+      },
+      {
+        "name": "Íleo paralítico",
+        "slug": "ileo-paralitico"
+      },
+      {
+        "name": "Retención urinaria neurogénica",
+        "slug": "retencion-urinaria-neurogenica"
+      },
+      {
+        "name": "Enfermedad de Alzheimer (uso off-label)",
+        "slug": "enfermedad-de-alzheimer"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Crisis colinérgica",
+        "slug": "crisis-colinergica"
+      },
+      {
+        "name": "Bradicardia sinusal",
+        "slug": "bradicardia-sinusal"
+      },
+      {
+        "name": "Bloqueo auriculoventricular",
+        "slug": "bloqueo-auriculoventricular"
+      },
+      {
+        "name": "Broncoespasmo",
+        "slug": "broncoespasmo"
+      },
+      {
+        "name": "Síndrome de intestino irritable (exacerbación)",
+        "slug": "sindrome-de-intestino-irritable"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Frecuencia Cardiaca",
+        "slug": "frecuencia-cardiaca",
+        "effect": "Puede disminuir (bradicardia)"
+      },
+      {
+        "name": "Actividad de la colinesterasa plasmática",
+        "slug": "colinesterasa-plasmatica",
+        "effect": "Disminuye"
+      },
+      {
+        "name": "Potasio sérico",
+        "slug": "potasio-serico",
+        "effect": "Puede alterarse (generalmente disminuir) por efectos autonómicos"
+      },
+      {
+        "name": "Amilasa y Lipasa",
+        "slug": "amilasa-lipasa",
+        "effect": "Puede elevarse por aumento de secreciones pancreáticas"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Creatinina sérica y Tasa de Filtración Glomerular (TFG)",
+        "slug": "creatinina-tfg",
+        "reason": "Para ajustar dosis, ya que se elimina por el riñón."
+      },
+      {
+        "name": "Electrocardiograma (ECG)",
+        "slug": "electrocardiograma",
+        "reason": "Para detectar bradicardia o arritmias antes y durante el tratamiento."
+      },
+      {
+        "name": "Pruebas de función pulmonar (espirometría)",
+        "slug": "espirometria",
+        "reason": "En pacientes con miastenia gravis o asma para monitorear capacidad respiratoria."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de Aclaramiento de Creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué sirve la Neostigmina?",
+      "a": "Sirve principalmente para tratar la debilidad muscular de la miastenia gravis, para 'despertar' los músculos después de una cirugía donde se usaron relajantes musculares, y para tratar problemas de inflamación intestinal (íleo) o retención de orina causados por problemas nerviosos."
+    },
+    {
+      "q": "¿La Neostigmina cura el Alzheimer?",
+      "a": "No. En el Alzheimer, la Neostigmina (y medicamentos similares) solo ayuda a mejorar temporalmente algunos síntomas como la memoria y la claridad mental, pero no detiene ni cura la enfermedad. Hoy en día se usan otros fármacos como primera opción."
+    },
+    {
+      "q": "¿Cómo se aplica la Neostigmina?",
+      "a": "Casi siempre se aplica como una inyección en el músculo (intramuscular), bajo la piel (subcutánea) o directamente en la vena (intravenosa) por un médico o enfermera. Rara vez se toma por boca."
+    },
+    {
+      "q": "¿Cuáles son los efectos secundarios más comunes?",
+      "a": "Los más comunes son: mucho sudor, aumento de saliva, calambres y dolor de estómago, diarrea, náuseas, ganas frecuentes de orinar, visión borrosa y latidos del corazón más lentos."
+    },
+    {
+      "q": "¿Qué debo hacer si me olvido una dosis?",
+      "a": "Si se le olvida una dosis programada, aplíquesela tan pronto como lo recuerde. Pero si ya es casi la hora de la siguiente dosis, sáltese la que olvidó y continúe con su horario normal. Nunca se aplique el doble de dosis para compensar."
+    },
+    {
+      "q": "¿Puedo tomar alcohol si uso Neostigmina?",
+      "a": "No se recomienda. El alcohol puede aumentar algunos efectos secundarios como mareo, somnolencia y malestar estomacal, y puede interferir con el control de su enfermedad."
+    },
+    {
+      "q": "¿La Neostigmina sube o baja la presión arterial?",
+      "a": "Generalmente puede causar una ligera disminución de la presión arterial, pero su efecto más notable es hacer que el corazón lata más lento (bradicardia). Su médico debe monitorear esto."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Si se inyecta en el músculo o bajo la piel, empieza a hacer efecto en 20 a 30 minutos. Si se pone en la vena, en 4 a 8 minutos. El efecto máximo se siente alrededor de 1 hora después."
+    },
+    {
+      "q": "¿Puedo manejar o operar maquinaria mientras uso este medicamento?",
+      "a": "Tenga cuidado. La Neostigmina puede causar visión borrosa, mareo o debilidad muscular, lo que puede afectar su capacidad para manejar con seguridad. No maneje hasta que sepa cómo le afecta."
+    },
+    {
+      "q": "¿Qué es una crisis colinérgica y cómo la identifico?",
+      "a": "Es una intoxicación por exceso del medicamento. Los síntomas son MUY SIMILARES a los de una crisis miasténica (falta de medicamento): debilidad muscular SEVERA que empeora, dificultad para respirar, babeo excesivo, calambres abdominales fuertes y latidos muy lentos. Es una EMERGENCIA médica."
+    },
+    {
+      "q": "¿Neostigmina y fisostigmina son lo mismo?",
+      "a": "No. Ambos son inhibidores de colinesterasa, pero la fisostigmina cruza mejor al cerebro y se usa más para intoxicaciones por medicamentos anticolinérgicos (como atropina). La Neostigmina se usa más para problemas musculares e intestinales."
+    },
+    {
+      "q": "¿Puedo usar Neostigmina si tengo glaucoma?",
+      "a": "Debe informar a su médico. La Neostigmina puede causar miosis (pupilas pequeñas), lo que podría afectar algunos tipos de glaucoma, especialmente el glaucoma de ángulo estrecho. Su oftalmólogo debe evaluarlo."
+    },
+    {
+      "q": "¿Interfiere con otros medicamentos para el corazón?",
+      "a": "Sí, puede tener interacciones graves. Con medicamentos que también bajan el ritmo cardiaco (como betabloqueadores o verapamilo) puede causar bradicardia extrema. Informe a su cardiólogo sobre todos sus medicamentos."
+    },
+    {
+      "q": "¿Se puede usar en niños?",
+      "a": "Sí, pero solo bajo estricta supervisión médica en un hospital. La dosis se calcula con base en el peso del niño. No es de uso común en casa."
+    },
+    {
+      "q": "¿Qué pasa si me aplico una dosis muy alta por error?",
+      "a": "Es una emergencia. Puede causar paro respiratorio por debilidad muscular extrema, paro cardiaco y otros síntomas graves. Busque atención médica INMEDIATA o llame al 911. El antídoto es la atropina."
+    },
+    {
+      "q": "¿La Neostigmina afecta los riñones?",
+      "a": "No daña directamente los riñones, pero se elimina por la orina. Si sus riñones no funcionan bien, el medicamento puede acumularse en su cuerpo y causar intoxicación. Por eso su médico revisará su función renal con análisis de sangre."
+    },
+    {
+      "q": "¿Por qué a veces me ponen atropina junto con la Neostigmina en el hospital?",
+      "a": "La atropina bloquea los efectos secundarios molestos y peligrosos de la Neostigmina en el corazón (bradicardia) y en las glándulas (saliva, sudor), permitiendo que actúe solo en los músculos e intestinos."
+    },
+    {
+      "q": "¿Puedo usar Neostigmina si estoy embarazada o amamantando?",
+      "a": "Solo si su médico lo considera absolutamente necesario. Cruza la placenta y puede afectar al bebé. Durante la lactancia, se desconoce si pasa a la leche, por lo que se debe evaluar riesgo-beneficio. Informe a su médico si está embarazada o planea estarlo."
+    },
+    {
+      "q": "¿Hay alimentos que debo evitar?",
+      "a": "No hay interacciones directas con alimentos, ya que se inyecta. Sin embargo, si tiene muchos efectos gastrointestinales (diarrea, cólicos), una dieta blanda y evitar irritantes puede ayudar."
+    },
+    {
+      "q": "¿Cómo se ajusta la dosis de Neostigmina en un paciente con miastenia gravis que va a cirugía?",
+      "a": "Es un manejo complejo. Generalmente, la dosis matutina se omite el día de la cirugía para evitar interacciones con los anestésicos. El anestesiólogo debe saber que el paciente es miasténico. Después de la cirugía, se reinicia cuidadosamente, monitorizando la fuerza muscular y la respiración, ya que el estrés de la cirugía puede alterar los requerimientos del fármaco."
+    }
+  ]
+}
