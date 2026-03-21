@@ -91,11 +91,7 @@ async function main() {
             'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-            files: [
-                'https://laboratorio.delbienestar.com.mx/_next/static/chunks/19444aecd88b2f8d.css',
-                'https://laboratorio.delbienestar.com.mx/_next/static/chunks/69e6fc0910450081.js',
-                'https://laboratorio.delbienestar.com.mx/',
-            ]
+            purge_everything: true
         })
     });
 
