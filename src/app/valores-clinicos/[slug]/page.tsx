@@ -4,8 +4,7 @@ import { ChevronRight, ArrowUp, ArrowDown, Beaker, ArrowRight, TestTube, ShieldC
 import { AdBanner } from '@/components/ui/AdBanner';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import fs from 'fs';
-import path from 'path';
+// fs and path are used only at build time via dynamic require()
 import rawManifest from '@/data/biomarkers.json';
 import { checkUpPackages, type CheckUpPackage } from '@/data/checkups-data';
 
@@ -65,16 +64,21 @@ function getRecommendedCheckUps(panel: string, biomarkerName: string): CheckUpPa
 const manifest: any[] = Array.isArray(rawManifest) ? rawManifest : [];
 
 function loadBiomarkerData(slug: string): any | null {
-    const candidates = [
-        path.join(process.cwd(), 'src', 'data', 'biomarkers-fragments', `${slug}.json`),
-        path.join(process.cwd(), '..', 'src', 'data', 'biomarkers-fragments', `${slug}.json`),
-        path.resolve('D:\\Paginas_web\\pagina\\laboratorio-bienestar\\src\\data\\biomarkers-fragments', `${slug}.json`),
-    ];
-    for (const p of candidates) {
-        try {
-            if (fs.existsSync(p)) return JSON.parse(fs.readFileSync(p, 'utf8'));
-        } catch { /* try next */ }
-    }
+    try {
+        // eslint-disable-next-line @typescript-eslint/no-require-imports
+        const fs = require('fs') as typeof import('fs');
+        // eslint-disable-next-line @typescript-eslint/no-require-imports
+        const path = require('path') as typeof import('path');
+        const candidates = [
+            path.join(process.cwd(), 'src', 'data', 'biomarkers-fragments', `${slug}.json`),
+            path.join(process.cwd(), '..', 'src', 'data', 'biomarkers-fragments', `${slug}.json`),
+        ];
+        for (const p of candidates) {
+            try {
+                if (fs.existsSync(p)) return JSON.parse(fs.readFileSync(p, 'utf8'));
+            } catch { /* try next */ }
+        }
+    } catch { /* fs not available in edge runtime */ }
     return null;
 }
 

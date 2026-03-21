@@ -3,8 +3,7 @@ import { getAllBlogPosts } from '@/data/blog';
 import { db } from '@/db';
 import { studies } from '@/db/schema';
 import { eq } from 'drizzle-orm';
-import fs from 'fs';
-import path from 'path';
+// fs and path are used only at build time via dynamic require()
 
 const BASE_URL = 'https://laboratorio.delbienestar.com.mx';
 
@@ -38,6 +37,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     // 2. Herramientas (calculadoras médicas — 111 páginas)
     let dynamicTools: MetadataRoute.Sitemap = [];
     try {
+        // eslint-disable-next-line @typescript-eslint/no-require-imports
+        const fs = require('fs') as typeof import('fs');
+        // eslint-disable-next-line @typescript-eslint/no-require-imports
+        const path = require('path') as typeof import('path');
         const herramientasDir = path.join(process.cwd(), 'src', 'app', 'herramientas');
         if (fs.existsSync(herramientasDir)) {
             const folders = fs.readdirSync(herramientasDir)
@@ -58,6 +61,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     // los ~19,962 archivos de symptoms-fragments/ para evitar URLs fantasma en el sitemap.
     let sintomasRoutes: MetadataRoute.Sitemap = [];
     try {
+        // eslint-disable-next-line @typescript-eslint/no-require-imports
+        const fs = require('fs') as typeof import('fs');
+        // eslint-disable-next-line @typescript-eslint/no-require-imports
+        const path = require('path') as typeof import('path');
         const manifestPath = path.join(process.cwd(), 'src', 'data', 'symptoms.json');
         if (fs.existsSync(manifestPath)) {
             const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
@@ -78,6 +85,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     // 4. Biomarcadores / Valores clínicos
     let biomarkerRoutes: MetadataRoute.Sitemap = [];
     try {
+        // eslint-disable-next-line @typescript-eslint/no-require-imports
+        const fs = require('fs') as typeof import('fs');
+        // eslint-disable-next-line @typescript-eslint/no-require-imports
+        const path = require('path') as typeof import('path');
         const biomarkersPath = path.join(process.cwd(), 'src', 'data', 'biomarkers-fragments');
         if (fs.existsSync(biomarkersPath)) {
             const slugs = fs.readdirSync(biomarkersPath)
@@ -97,6 +108,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     // 4.5 Páginas de precios (alto CPC — intención comercial)
     let precioRoutes: MetadataRoute.Sitemap = [];
     try {
+        // eslint-disable-next-line @typescript-eslint/no-require-imports
+        const fs = require('fs') as typeof import('fs');
+        // eslint-disable-next-line @typescript-eslint/no-require-imports
+        const path = require('path') as typeof import('path');
         const preciosDir = path.join(process.cwd(), 'src', 'app', 'precios');
         if (fs.existsSync(preciosDir)) {
             const slugs = fs.readdirSync(preciosDir)
@@ -150,6 +165,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     // 7. Enfermedades (guías clínicas CIE-10 — desde fragments)
     let enfermedadesRoutes: MetadataRoute.Sitemap = [];
     try {
+        // eslint-disable-next-line @typescript-eslint/no-require-imports
+        const fs = require('fs') as typeof import('fs');
+        // eslint-disable-next-line @typescript-eslint/no-require-imports
+        const path = require('path') as typeof import('path');
         const diseasesDir = path.join(process.cwd(), 'src', 'data', 'diseases-fragments');
         if (fs.existsSync(diseasesDir)) {
             const slugs = fs.readdirSync(diseasesDir)

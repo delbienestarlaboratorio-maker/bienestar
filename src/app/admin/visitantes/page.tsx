@@ -1,22 +1,13 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { ArrowLeft, Users, Zap, Search, Activity, Clock, MapPin, Globe, CheckCircle2, XCircle } from 'lucide-react';
-import { Pool } from 'pg';
+import { neon } from '@neondatabase/serverless';
+
+export const runtime = 'edge';
 
 export const metadata: Metadata = {
     title: 'Visitantes | Inteligencia | Tilde Admin',
 };
-
-// Configuración de la conexión DB (Neon)
-async function getDbConnection() {
-    try {
-        const connectionString = process.env.DATABASE_URL || process.env.NEON_DATABASE_URL;
-        if (!connectionString) return null;
-        return new Pool({ connectionString, ssl: { rejectUnauthorized: false } });
-    } catch {
-        return null;
-    }
-}
 
 // Interfaces
 interface VisitorRow {
@@ -33,8 +24,6 @@ interface VisitorRow {
 }
 
 export default async function VisitorsDashboardPage() {
-    // 1. Obtener conexión y datos
-    const db = await getDbConnection();
     let visitors: VisitorRow[] = [];
     let errorMsg = null;
     let metrics = {
@@ -44,27 +33,25 @@ export default async function VisitorsDashboardPage() {
         mobileUsers: 0,
     };
 
-    if (db) {
-        try {
-            // Leer todos los visitantes ordenados por fecha más reciente
-            const result = await db.query(`
-                SELECT * FROM user_behavior
-                ORDER BY last_visit DESC
-                LIMIT 100
-            `);
-            visitors = result.rows;
-
-            // Calcular métricas
-            metrics.totalVisitors = visitors.length;
-            metrics.fromCompetitors = visitors.filter(v => v.from_competitor).length;
-            metrics.conversions = visitors.filter(v => v.conversion).length;
-            metrics.mobileUsers = visitors.filter(v => v.device_type === 'mobile').length;
-        } catch (err: any) {
-            console.error('Error reading visitor DB:', err);
-            errorMsg = 'No se pudieron cargar los datos de la base de datos.';
-        }
-    } else {
-        errorMsg = 'No hay conexión a la base de datos (DATABASE_URL no encontrada).';
+    try {
+        const connectionString = process.env.DATABASE_URL;
+        if (!connectionString) throw new Error('DATABASE_URL not set');
+        const sql = neon(connectionString);
+        const rows = await sql`
+            SELECT * FROM user_behavior
+            ORDER BY last_visit DESC
+            LIMIT 100
+        `;
+        visitors = rows as VisitorRow[];
+        metrics.totalVisitors = visitors.length;
+        metrics.fromCompetitors = visitors.filter(v => v.from_competitor).length;
+        metrics.conversions = visitors.filter(v => v.conversion).length;
+        metrics.mobileUsers = visitors.filter(v => v.device_type === 'mobile').length;
+    } catch (err: any) {
+        console.error('Error reading visitor DB:', err);
+        errorMsg = err.message?.includes('DATABASE_URL')
+            ? 'No hay conexión a la base de datos (DATABASE_URL no encontrada).'
+            : 'No se pudieron cargar los datos de la base de datos.';
     }
 
     // 2. Renderizar UI
