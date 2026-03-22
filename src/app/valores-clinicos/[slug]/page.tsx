@@ -4,7 +4,7 @@ import { ChevronRight, ArrowUp, ArrowDown, Beaker, ArrowRight, TestTube, ShieldC
 import { AdBanner } from '@/components/ui/AdBanner';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-// fs and path are used only at build time via dynamic require()
+import { loadBiomarkerData } from '@/lib/data-loader';
 import rawManifest from '@/data/biomarkers.json';
 import { checkUpPackages, type CheckUpPackage } from '@/data/checkups-data';
 
@@ -63,25 +63,6 @@ function getRecommendedCheckUps(panel: string, biomarkerName: string): CheckUpPa
 
 const manifest: any[] = Array.isArray(rawManifest) ? rawManifest : [];
 
-function loadBiomarkerData(slug: string): any | null {
-    try {
-        // eslint-disable-next-line @typescript-eslint/no-require-imports
-        const fs = require('fs') as typeof import('fs');
-        // eslint-disable-next-line @typescript-eslint/no-require-imports
-        const path = require('path') as typeof import('path');
-        const candidates = [
-            path.join(process.cwd(), 'src', 'data', 'biomarkers-fragments', `${slug}.json`),
-            path.join(process.cwd(), '..', 'src', 'data', 'biomarkers-fragments', `${slug}.json`),
-        ];
-        for (const p of candidates) {
-            try {
-                if (fs.existsSync(p)) return JSON.parse(fs.readFileSync(p, 'utf8'));
-            } catch { /* try next */ }
-        }
-    } catch { /* fs not available in edge runtime */ }
-    return null;
-}
-
 export async function generateStaticParams() {
     return manifest.map((bm) => ({ slug: bm.slug }));
 }
@@ -90,7 +71,7 @@ export const dynamicParams = false;
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
     const resolvedParams = await params;
-    const bm = loadBiomarkerData(resolvedParams.slug);
+    const bm = await loadBiomarkerData(resolvedParams.slug);
     if (!bm) {
         const fallback = manifest.find(b => b.slug === resolvedParams.slug);
         return { title: fallback ? `${fallback.name} - Valores Normales` : 'Biomarcador no encontrado' };
@@ -107,8 +88,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 }
 
 export default async function BiomarkerPage({ params }: { params: Promise<{ slug: string }> }) {
-    const resolvedParams = await params;
-    const bm = loadBiomarkerData(resolvedParams.slug);
+    const { slug } = await params;
+    const bm = await loadBiomarkerData(slug);
 
     if (!bm) notFound();
 

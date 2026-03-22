@@ -23,15 +23,29 @@ async function tryKV(binding: string, slug: string): Promise<any | null> {
     return null;
 }
 
-function tryFS(fragmentsDir: string, slug: string): any | null {
+/**
+ * Helper to prevent bundlers from statically analyzing and embedding large directories
+ */
+function safeRequire(moduleName: string) {
     try {
-        const fs = require('fs');
-        const path = require('path');
+        // eval('require') hides the dependency from static analysis tools like Turbopack/Esbuild
+        return eval('require')(moduleName);
+    } catch {
+        return null;
+    }
+}
+
+function tryFS(fragmentsDir: string, slug: string): any | null {
+    const fs = safeRequire('fs');
+    const path = safeRequire('path');
+    if (!fs || !path) return null;
+
+    try {
         const candidates = [
             path.join(process.cwd(), 'src', 'data', fragmentsDir, `${slug}.json`),
             path.join(process.cwd(), '..', 'src', 'data', fragmentsDir, `${slug}.json`),
-            path.resolve(`D:\\Paginas_web\\pagina\\laboratorio-bienestar\\src\\data\\${fragmentsDir}`, `${slug}.json`),
         ];
+
         for (const p of candidates) {
             try {
                 if (fs.existsSync(p)) {
@@ -39,15 +53,19 @@ function tryFS(fragmentsDir: string, slug: string): any | null {
                 }
             } catch { /* next */ }
         }
-    } catch { /* fs not available (edge runtime) */ }
+    } catch { /* fs errors */ }
     return null;
 }
 
 export async function loadSymptomData(slug: string): Promise<any | null> {
-    // Try Cloudflare KV first, fallback to local fs
     return (await tryKV('SYMPTOMS_KV', slug)) ?? tryFS('symptoms-fragments', slug);
 }
 
 export async function loadDiseaseData(slug: string): Promise<any | null> {
     return (await tryKV('DISEASES_KV', slug)) ?? tryFS('diseases-fragments', slug);
+}
+
+export async function loadBiomarkerData(slug: string): Promise<any | null> {
+    // Note: No KV yet for biomarkers, but we use the safe FS loader
+    return tryFS('biomarkers-fragments', slug);
 }
