@@ -3,9 +3,9 @@ import { getAllBlogPosts } from '@/data/blog';
 import { db } from '@/db';
 import { studies } from '@/db/schema';
 import { eq } from 'drizzle-orm';
-import symptomsManifest from '@/data/symptoms.json';
-import biomarkersManifest from '@/data/biomarkers.json';
-import diseasesManifest from '@/data/diseases.json';
+import symptomsManifest from '@/data/symptoms-slugs.json';
+import biomarkersManifest from '@/data/biomarkers-slugs.json';
+import diseasesManifest from '@/data/diseases-slugs.json';
 
 /**
  * Helper to prevent bundlers from statically analyzing and embedding large directories
