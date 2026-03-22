@@ -1,5 +1,4 @@
 import { MetadataRoute } from 'next';
-import { getAllBlogPosts } from '@/data/blog';
 import { db } from '@/db';
 import { studies } from '@/db/schema';
 import { eq } from 'drizzle-orm';
@@ -140,16 +139,19 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         // En caso de fallo de DB en el build
     }
 
-    // 6. Blog Posts
+    // 6. Blog Posts (use safeRequire to avoid bundling 2MB of blog data)
     let blogRoutes: MetadataRoute.Sitemap = [];
     try {
-        const blogPosts = getAllBlogPosts();
-        blogRoutes = blogPosts.map((post: any) => ({
-            url: `${BASE_URL}/blog/${post.slug}`,
-            lastModified: new Date(post.date),
-            changeFrequency: 'monthly' as const,
-            priority: 0.6,
-        }));
+        const blogModule = safeRequire('@/data/blog') || safeRequire(require('path').join(process.cwd(), 'src', 'data', 'blog'));
+        if (blogModule && blogModule.getAllBlogPosts) {
+            const blogPosts = blogModule.getAllBlogPosts();
+            blogRoutes = blogPosts.map((post: any) => ({
+                url: `${BASE_URL}/blog/${post.slug}`,
+                lastModified: new Date(post.date),
+                changeFrequency: 'monthly' as const,
+                priority: 0.6,
+            }));
+        }
     } catch {
         // Blog data may not be available
     }
