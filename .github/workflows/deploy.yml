@@ -28,16 +28,15 @@ jobs:
         env:
           NODE_OPTIONS: '--max-old-space-size=4096'
 
-      - name: Prepare Pages assets (copy _worker.js for Advanced Mode)
+      - name: Prepare for Pages Advanced Mode (rename worker.js → _worker.js)
         run: |
-          echo "Copying worker.js to assets/_worker.js for Cloudflare Pages Advanced Mode..."
-          cp .open-next/worker.js .open-next/assets/_worker.js
-          echo "Worker file size: $(du -sh .open-next/assets/_worker.js)"
-          echo "Total assets size: $(du -sh .open-next/assets/)"
+          mv .open-next/worker.js .open-next/_worker.js
+          echo "Worker renamed. Structure:"
+          ls -la .open-next/
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy .open-next/assets --project-name=bienestar --branch=main
+          command: pages deploy .open-next --project-name=bienestar --branch=main
