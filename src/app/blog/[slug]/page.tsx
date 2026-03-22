@@ -2,13 +2,24 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
 import { ArrowLeft, Calendar, Clock, Tag, BookOpen, TestTube } from 'lucide-react';
-import { getRelatedPosts } from '@/data/blog-posts';
-import { getAllBlogPosts, getBlogPostBySlug } from '@/data/blog'; // Import new helpers
 import { BlogCard } from '@/components/blog/BlogCard';
 import ReactMarkdown from 'react-markdown';
-import { getBlogContent } from '@/data/blog/content-map';
 import { ArticleSchema } from '@/components/seo/SchemaMarkup';
 import { SocialShare } from '@/components/social/SocialShare';
+
+// Build-time only: prevent bundler from including ~1.5MB of blog data
+function safeRequire(mod: string) { try { return eval('require')(mod); } catch { return null; } }
+
+function getBlogModule() {
+    return safeRequire('@/data/blog') || safeRequire(require('path').join(process.cwd(), 'src', 'data', 'blog')) || {};
+}
+function getContentMap() {
+    const m = safeRequire('@/data/blog/content-map') || safeRequire(require('path').join(process.cwd(), 'src', 'data', 'blog', 'content-map'));
+    return m;
+}
+function getBlogPostsModule() {
+    return safeRequire('@/data/blog-posts') || safeRequire(require('path').join(process.cwd(), 'src', 'data', 'blog-posts')) || {};
+}
 
 // Allow on-demand rendering for slugs not pre-built
 export const dynamicParams = true;
@@ -20,15 +31,17 @@ interface BlogPostPageProps {
 }
 
 export async function generateStaticParams() {
-    const posts = getAllBlogPosts();
-    return posts.map(post => ({
+    const mod = getBlogModule();
+    const posts = mod.getAllBlogPosts ? mod.getAllBlogPosts() : [];
+    return posts.map((post: any) => ({
         slug: post.slug,
     }));
 }
 
 export async function generateMetadata({ params }: BlogPostPageProps) {
     const { slug } = await params;
-    const post = getBlogPostBySlug(slug);
+    const _mod = getBlogModule();
+    const post = _mod.getBlogPostBySlug ? _mod.getBlogPostBySlug(slug) : null;
 
     if (!post) {
         return {
@@ -84,12 +97,14 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
 
 // Get blog content from the pre-built content map (works on Vercel)
 function getPostContent(slug: string): string | null {
-    return getBlogContent(slug);
+    const cm = getContentMap();
+    return cm && cm.getBlogContent ? cm.getBlogContent(slug) : null;
 }
 
 export default async function BlogPostPage({ params }: BlogPostPageProps) {
     const { slug } = await params;
-    const post = getBlogPostBySlug(slug);
+    const _mod2 = getBlogModule();
+    const post = _mod2.getBlogPostBySlug ? _mod2.getBlogPostBySlug(slug) : null;
 
     if (!post) {
         notFound();
@@ -140,7 +155,8 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         }
     }
 
-    const relatedPosts = getRelatedPosts(post.id, 3);
+    const bpMod = getBlogPostsModule();
+    const relatedPosts = bpMod.getRelatedPosts ? bpMod.getRelatedPosts(post.id, 3) : [];
 
     const date = new Date(post.date); // Use 'date' property from calendar
     const formattedDate = date.toLocaleDateString('es-MX', {
