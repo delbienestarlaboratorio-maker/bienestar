@@ -1,13 +1,6 @@
 export const runtime = 'edge';
 import { NextResponse } from 'next/server';
-
-// Build-time only: prevent bundler from including 884KB studies array
-function safeRequire(mod: string) { try { return eval('require')(mod); } catch { return null; } }
-
-function getStudies(): any[] {
-    const m = safeRequire('@/data/studies') || safeRequire(require('path').join(process.cwd(), 'src', 'data', 'studies'));
-    return m?.studies || m?.default || [];
-}
+import { studies } from '@/data/studies';
 
 // POST: Enriquecer estudio con IA
 export async function POST(
@@ -17,7 +10,7 @@ export async function POST(
     try {
         const { id } = await params;
 
-        const studies = getStudies();
+        // Buscar el estudio para obtener su nombre
         const study = studies.find(s => s.id === id);
         if (!study) {
             return NextResponse.json({ error: 'Estudio no encontrado' }, { status: 404 });

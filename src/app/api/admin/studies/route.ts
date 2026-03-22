@@ -1,18 +1,11 @@
 export const runtime = 'edge';
 import { NextResponse } from 'next/server';
-
-// Build-time only: prevent bundler from including 884KB studies array
-function safeRequire(mod: string) { try { return eval('require')(mod); } catch { return null; } }
-
-function getStudies(): any[] {
-    const m = safeRequire('@/data/studies') || safeRequire(require('path').join(process.cwd(), 'src', 'data', 'studies'));
-    return m?.studies || m?.default || [];
-}
+import { studies } from '@/data/studies';
 
 // GET: Obtener todos los estudios con su estado
 export async function GET() {
     try {
-        const studies = getStudies();
+        // Retornamos los estudios reales con su estado
         const studiesWithStatus = studies.map(study => ({
             ...study,
             hasAIContent: study.hasAIContent || false
@@ -38,7 +31,8 @@ export async function POST(request: Request) {
             );
         }
 
-        const studies = getStudies();
+        // Aquí deberías guardar en la base de datos
+        // Por ahora solo retornamos el estudio creado
         const newStudy = {
             id: String(studies.length + 1),
             slug: body.name.toLowerCase().replace(/\s+/g, '-'),
