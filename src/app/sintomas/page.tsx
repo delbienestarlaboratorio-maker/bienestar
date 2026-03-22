@@ -2,8 +2,7 @@ import React from 'react';
 import { BookOpen } from 'lucide-react';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { SymptomClientList } from './components/SymptomClientList';
-import rawQuality from '@/data/symptoms.json';
-import rawCIE10 from '@/data/todas-enfermedades-cie10.json';
+import { loadJsonData } from '@/lib/build-time-data';
 import { Metadata } from 'next';
 import { RelatedTools } from '@/components/ui/RelatedTools';
 
@@ -18,9 +17,11 @@ export const metadata: Metadata = {
 
 export default async function SintomasHub() {
     // Quality symptoms with full clinical data (links to individual pages)
-    const qualitySymptoms = Array.isArray(rawQuality) ? [...rawQuality].sort((a, b) => a.name.localeCompare(b.name)) : [];
+    const rawQuality = loadJsonData<any[]>('symptoms.json');
+    const qualitySymptoms = Array.isArray(rawQuality) ? [...rawQuality].sort((a: any, b: any) => a.name.localeCompare(b.name)) : [];
 
     // Full CIE-10 catalog for the directory (no individual pages, just reference)
+    const rawCIE10 = loadJsonData<any[]>('todas-enfermedades-cie10.json');
     const cie10Catalog = Array.isArray(rawCIE10) ? rawCIE10 : [];
 
     // ═══ PERFORMANCE: Strip heavy fields from props to reduce RSC payload ═══

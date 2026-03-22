@@ -1,9 +1,9 @@
 import React from 'react';
-import { BookOpen, Search } from 'lucide-react';
+import { BookOpen } from 'lucide-react';
 import { AdBanner } from '@/components/ui/AdBanner';
 import { Metadata } from 'next';
 import Link from 'next/link';
-import rawDiseases from '@/data/diseases.json';
+import { loadJsonData } from '@/lib/build-time-data';
 import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export const metadata: Metadata = {
@@ -14,8 +14,6 @@ export const metadata: Metadata = {
         description: 'El directorio de enfermedades más completo de México: 14,000+ padecimientos con código CIE-10, causas, y estudios recomendados.',
     }
 };
-
-const diseases: any[] = Array.isArray(rawDiseases) ? rawDiseases : [];
 
 // Group diseases by first letter
 function groupByLetter(items: any[]) {
@@ -29,6 +27,8 @@ function groupByLetter(items: any[]) {
 }
 
 export default async function EnfermedadesHub() {
+    const rawDiseases = loadJsonData<any[]>('diseases.json');
+    const diseases: any[] = Array.isArray(rawDiseases) ? rawDiseases : [];
     const grouped = groupByLetter(diseases);
     const letters = Object.keys(grouped).sort();
 
@@ -119,7 +119,6 @@ export default async function EnfermedadesHub() {
             </div>
 
             <div className="max-w-6xl mx-auto px-4 mt-8 relative z-20 mb-12">
-                
                 <RelatedTools currentPath="/enfermedades" className="mb-8" />
                 <AdBanner variant="horizontal" />
             </div>

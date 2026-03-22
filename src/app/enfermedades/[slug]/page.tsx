@@ -5,10 +5,13 @@ import { AdBanner } from '@/components/ui/AdBanner';
 import { GoogleAd } from '@/components/ui/GoogleAd';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import rawManifest from '@/data/diseases.json';
+import { loadJsonData } from '@/lib/build-time-data';
 import { loadDiseaseData } from '@/lib/data-loader';
 
-const manifest: any[] = Array.isArray(rawManifest) ? rawManifest : [];
+function getManifest(): any[] {
+    const raw = loadJsonData<any[]>('diseases.json');
+    return Array.isArray(raw) ? raw : [];
+}
 
 // SSG - empty for Cloudflare Workers (SSR on-demand)
 export const dynamicParams = true;

@@ -3,9 +3,7 @@ import { getAllBlogPosts } from '@/data/blog';
 import { db } from '@/db';
 import { studies } from '@/db/schema';
 import { eq } from 'drizzle-orm';
-import symptomsManifest from '@/data/symptoms-slugs.json';
-import biomarkersManifest from '@/data/biomarkers-slugs.json';
-import diseasesManifest from '@/data/diseases-slugs.json';
+import { loadJsonData } from '@/lib/build-time-data';
 
 /**
  * Helper to prevent bundlers from statically analyzing and embedding large directories
@@ -75,6 +73,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
     try {
         // Síntomas
+        const symptomsManifest = loadJsonData<any[]>('symptoms-slugs.json');
         sintomasRoutes = (Array.isArray(symptomsManifest) ? symptomsManifest : [])
             .filter((s: any) => s.slug)
             .map((s: any) => ({
@@ -85,6 +84,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             }));
 
         // Biomarcadores
+        const biomarkersManifest = loadJsonData<any[]>('biomarkers-slugs.json');
         biomarkerRoutes = (Array.isArray(biomarkersManifest) ? biomarkersManifest : [])
             .filter((b: any) => b.slug)
             .map((b: any) => ({
@@ -157,6 +157,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     // 7. Enfermedades (Usamos manifest importado)
     let enfermedadesRoutes: MetadataRoute.Sitemap = [];
     try {
+        const diseasesManifest = loadJsonData<any[]>('diseases-slugs.json');
         enfermedadesRoutes = (Array.isArray(diseasesManifest) ? diseasesManifest : [])
             .filter((d: any) => d.slug)
             .map((d: any) => ({

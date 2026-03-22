@@ -1,7 +1,7 @@
 import React from 'react';
 import { Metadata } from 'next';
 import { AnalyzerClient } from './components/AnalyzerClient';
-import rawBiomarkers from '@/data/biomarkers.json';
+import { loadJsonData } from '@/lib/build-time-data';
 import { Activity, ShieldCheck, Sparkles } from 'lucide-react';
 
 export const metadata: Metadata = {
@@ -10,7 +10,8 @@ export const metadata: Metadata = {
 };
 
 export default function AnalyzerPage() {
-    const biomarkers = Array.isArray(rawBiomarkers) ? [...rawBiomarkers].sort((a, b) => a.name.localeCompare(b.name, 'es', { sensitivity: 'base' })) : [];
+    const rawBiomarkers = loadJsonData<any[]>('biomarkers.json');
+    const biomarkers = Array.isArray(rawBiomarkers) ? [...rawBiomarkers].sort((a: any, b: any) => a.name.localeCompare(b.name, 'es', { sensitivity: 'base' })) : [];
 
     return (
         <main className="min-h-screen bg-gray-50 pt-24 pb-20">

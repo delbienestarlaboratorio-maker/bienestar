@@ -5,7 +5,7 @@ import { AdBanner } from '@/components/ui/AdBanner';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { loadBiomarkerData } from '@/lib/data-loader';
-import rawManifest from '@/data/biomarkers.json';
+import { loadJsonData } from '@/lib/build-time-data';
 import { checkUpPackages, type CheckUpPackage } from '@/data/checkups-data';
 
 // ═══════════════════════════════════════════════════════════════
@@ -61,10 +61,13 @@ function getRecommendedCheckUps(panel: string, biomarkerName: string): CheckUpPa
         .slice(0, 2); // Máximo 2 recomendaciones
 }
 
-const manifest: any[] = Array.isArray(rawManifest) ? rawManifest : [];
+function getManifest(): any[] {
+    const raw = loadJsonData<any[]>('biomarkers.json');
+    return Array.isArray(raw) ? raw : [];
+}
 
 export async function generateStaticParams() {
-    return manifest.map((bm) => ({ slug: bm.slug }));
+    return getManifest().map((bm) => ({ slug: bm.slug }));
 }
 
 export const dynamicParams = false;
@@ -73,7 +76,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     const resolvedParams = await params;
     const bm = await loadBiomarkerData(resolvedParams.slug);
     if (!bm) {
-        const fallback = manifest.find(b => b.slug === resolvedParams.slug);
+        const fallback = getManifest().find(b => b.slug === resolvedParams.slug);
         return { title: fallback ? `${fallback.name} - Valores Normales` : 'Biomarcador no encontrado' };
     }
 

@@ -6,13 +6,16 @@ import { AdBanner } from '@/components/ui/AdBanner';
 import { GoogleAd } from '@/components/ui/GoogleAd';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import rawManifest from '@/data/symptoms.json';
+import { loadJsonData } from '@/lib/build-time-data';
 import specialistsData from '@/data/specialists.json';
 import { FeaturedSpecialistCard } from '@/components/ui/FeaturedSpecialistCard';
 import { loadSymptomData } from '@/lib/data-loader';
 
-// Slim manifest — slug list only (statically imported, fast)
-const manifest: any[] = Array.isArray(rawManifest) ? rawManifest : [];
+// Slim manifest — loaded at build time only (not bundled)
+function getManifest(): any[] {
+    const raw = loadJsonData<any[]>('symptoms.json');
+    return Array.isArray(raw) ? raw : [];
+}
 
 // ============================================================================
 // SSG - empty for Cloudflare Workers (SSR on-demand), populated for local build
@@ -33,7 +36,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     const resolvedParams = await params;
     const symptom = await loadSymptomData(resolvedParams.slug);
     if (!symptom) {
-        const fallback = manifest.find(s => s.slug === resolvedParams.slug);
+        const fallback = getManifest().find(s => s.slug === resolvedParams.slug);
         return { title: fallback ? `${fallback.name} - Guía Médica` : 'Síntoma no encontrado' };
     }
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { BiomarkerClientList } from './components/BiomarkerClientList';
-import rawBiomarkers from '@/data/biomarkers.json';
+import { loadJsonData } from '@/lib/build-time-data';
 import { Metadata } from 'next';
 import { Beaker } from 'lucide-react';
 import { RelatedTools } from '@/components/ui/RelatedTools';
@@ -11,8 +11,8 @@ export const metadata: Metadata = {
 };
 
 export default async function ValoresHub() {
-    // Validate we have biomarkers
-    const biomarkers = Array.isArray(rawBiomarkers) ? [...rawBiomarkers].sort((a, b) => a.name?.localeCompare?.(b.name || '', 'es', { sensitivity: 'base' })) : [];
+    const rawBiomarkers = loadJsonData<any[]>('biomarkers.json');
+    const biomarkers = Array.isArray(rawBiomarkers) ? [...rawBiomarkers].sort((a: any, b: any) => a.name?.localeCompare?.(b.name || '', 'es', { sensitivity: 'base' })) : [];
     const panelCount = new Set(biomarkers.map((b: any) => b.panel)).size;
 
     return (
@@ -38,7 +38,7 @@ export default async function ValoresHub() {
                 </div>
 
                 <BiomarkerClientList biomarkers={biomarkers} />
-            
+
                 <RelatedTools currentPath="/valores-clinicos" className="mb-8" />
             </div>
         </main>
