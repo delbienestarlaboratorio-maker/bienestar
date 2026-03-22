@@ -3,6 +3,9 @@ import { getAllBlogPosts } from '@/data/blog';
 import { db } from '@/db';
 import { studies } from '@/db/schema';
 import { eq } from 'drizzle-orm';
+import symptomsManifest from '@/data/symptoms.json';
+import biomarkersManifest from '@/data/biomarkers.json';
+import diseasesManifest from '@/data/diseases.json';
 
 /**
  * Helper to prevent bundlers from statically analyzing and embedding large directories
@@ -66,42 +69,30 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         console.error("Sitemap Tools Error:", e);
     }
 
-    // 3 & 4. Síntomas y Biomarcadores (Usamos manifests para evitar readdirSync masivo)
+    // 3 & 4. Síntomas y Biomarcadores (Usamos manifests importados)
     let sintomasRoutes: MetadataRoute.Sitemap = [];
     let biomarkerRoutes: MetadataRoute.Sitemap = [];
 
     try {
-        const fs = safeRequire('fs');
-        const path = safeRequire('path');
-        if (fs && path) {
-            // Síntomas
-            const symptomsManifestPath = path.join(process.cwd(), 'src', 'data', 'symptoms.json');
-            if (fs.existsSync(symptomsManifestPath)) {
-                const manifest = JSON.parse(fs.readFileSync(symptomsManifestPath, 'utf8'));
-                sintomasRoutes = (Array.isArray(manifest) ? manifest : [])
-                    .filter((s: any) => s.slug)
-                    .map((s: any) => ({
-                        url: `${BASE_URL}/sintomas/${s.slug}`,
-                        lastModified: new Date(),
-                        changeFrequency: 'monthly' as const,
-                        priority: 0.75,
-                    }));
-            }
+        // Síntomas
+        sintomasRoutes = (Array.isArray(symptomsManifest) ? symptomsManifest : [])
+            .filter((s: any) => s.slug)
+            .map((s: any) => ({
+                url: `${BASE_URL}/sintomas/${s.slug}`,
+                lastModified: new Date(),
+                changeFrequency: 'monthly' as const,
+                priority: 0.75,
+            }));
 
-            // Biomarcadores
-            const biomarkersManifestPath = path.join(process.cwd(), 'src', 'data', 'biomarkers.json');
-            if (fs.existsSync(biomarkersManifestPath)) {
-                const manifest = JSON.parse(fs.readFileSync(biomarkersManifestPath, 'utf8'));
-                biomarkerRoutes = (Array.isArray(manifest) ? manifest : [])
-                    .filter((b: any) => b.slug)
-                    .map((b: any) => ({
-                        url: `${BASE_URL}/valores-clinicos/${b.slug}`,
-                        lastModified: new Date(),
-                        changeFrequency: 'monthly' as const,
-                        priority: 0.75,
-                    }));
-            }
-        }
+        // Biomarcadores
+        biomarkerRoutes = (Array.isArray(biomarkersManifest) ? biomarkersManifest : [])
+            .filter((b: any) => b.slug)
+            .map((b: any) => ({
+                url: `${BASE_URL}/valores-clinicos/${b.slug}`,
+                lastModified: new Date(),
+                changeFrequency: 'monthly' as const,
+                priority: 0.75,
+            }));
     } catch (e) {
         console.error("Sitemap Data Error:", e);
     }
@@ -163,25 +154,17 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         // Blog data may not be available
     }
 
-    // 7. Enfermedades (Usamos manifest para evitar readdirSync masivo)
+    // 7. Enfermedades (Usamos manifest importado)
     let enfermedadesRoutes: MetadataRoute.Sitemap = [];
     try {
-        const fs = safeRequire('fs');
-        const path = safeRequire('path');
-        if (fs && path) {
-            const diseasesManifestPath = path.join(process.cwd(), 'src', 'data', 'diseases.json');
-            if (fs.existsSync(diseasesManifestPath)) {
-                const manifest = JSON.parse(fs.readFileSync(diseasesManifestPath, 'utf8'));
-                enfermedadesRoutes = (Array.isArray(manifest) ? manifest : [])
-                    .filter((d: any) => d.slug)
-                    .map((d: any) => ({
-                        url: `${BASE_URL}/enfermedades/${d.slug}`,
-                        lastModified: new Date(),
-                        changeFrequency: 'monthly' as const,
-                        priority: 0.75,
-                    }));
-            }
-        }
+        enfermedadesRoutes = (Array.isArray(diseasesManifest) ? diseasesManifest : [])
+            .filter((d: any) => d.slug)
+            .map((d: any) => ({
+                url: `${BASE_URL}/enfermedades/${d.slug}`,
+                lastModified: new Date(),
+                changeFrequency: 'monthly' as const,
+                priority: 0.75,
+            }));
     } catch (e) {
         console.error("Sitemap Enfermedades Error:", e);
     }

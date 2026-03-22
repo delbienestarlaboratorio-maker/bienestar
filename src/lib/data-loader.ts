@@ -42,8 +42,8 @@ function tryFS(fragmentsDir: string, slug: string): any | null {
 
     try {
         const candidates = [
-            path.join(process.cwd(), 'src', 'data', fragmentsDir, `${slug}.json`),
-            path.join(process.cwd(), '..', 'src', 'data', fragmentsDir, `${slug}.json`),
+            path.join(process.cwd(), 'data-fragments', fragmentsDir, `${slug}.json`),
+            path.join(process.cwd(), '..', 'data-fragments', fragmentsDir, `${slug}.json`),
         ];
 
         for (const p of candidates) {
