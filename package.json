@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "next dev -p 30200",
     "build": "next build",
-    "build:cf": "npx opennextjs-cloudflare build && node -e \"require('fs').copyFileSync('.open-next/worker.js', '.open-next/assets/_worker.js')\"",
+    "build:cf": "npx @opennextjs/cloudflare build && node scripts/move-opennext.mjs",
     "start": "next start -p 30200",
     "lint": "eslint",
     "db:generate": "drizzle-kit generate",
