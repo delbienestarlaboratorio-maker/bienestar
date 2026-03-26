@@ -6,7 +6,10 @@ import { Activity, ShieldCheck, Sparkles } from 'lucide-react';
 
 export const metadata: Metadata = {
     title: 'Analizador Inteligente de Resultados de Laboratorio | AI Médica',
-    description: 'Ingresa los números de tus estudios de laboratorio y nuestra IA los analizará gratuitamente para darte una interpretación médica simple, rápida y confiable.',
+    description: 'Ingresa los números de tus estudios de laboratorio y nuestra IA los analizará gratuitamente para darte una interpretación médica simple, rápida y confiable.',,
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/valores-clinicos/analizador',
+    },
 };
 
 export default function AnalyzerPage() {

@@ -10,7 +10,10 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Guía Médica: Hinchazón Piernas (Edema)",
         description: "Todo lo que necesitas saber antes de ir de urgencias sobre hinchazón piernas (edema)."
-    }
+    },
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/sintomas/hinchazon-piernas',
+    },
 };
 
 export default function SymptomPage() {

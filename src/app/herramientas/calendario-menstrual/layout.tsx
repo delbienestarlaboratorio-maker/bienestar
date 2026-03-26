@@ -7,7 +7,10 @@ export const metadata: Metadata = {
         title: 'Calendario Menstrual',
         description: 'Calculadora e información médica sobre Calendario Menstrual. Cotiza tus estudios de laboratorio hoy mismo en Pachuca, Tulancingo y CDMX.',
         type: 'website',
-    }
+    },
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/herramientas/calendario-menstrual',
+    },
 };
 
 export default function ToolLayout({ children }: { children: React.ReactNode }) {

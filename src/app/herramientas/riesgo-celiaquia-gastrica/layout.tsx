@@ -7,7 +7,10 @@ export const metadata: Metadata = {
         title: '🌾 Riesgo de Enfermedad Celíaca',
         description: 'Calculadora e información médica sobre 🌾 Riesgo de Enfermedad Celíaca. Cotiza tus estudios de laboratorio hoy mismo en Pachuca, Tulancingo y CDMX.',
         type: 'website',
-    }
+    },
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/herramientas/riesgo-celiaquia-gastrica',
+    },
 };
 
 export default function ToolLayout({ children }: { children: React.ReactNode }) {

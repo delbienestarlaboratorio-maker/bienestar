@@ -12,7 +12,10 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'Enfermedades A-Z | 14,000+ Padecimientos CIE-10',
         description: 'El directorio de enfermedades más completo de México: 14,000+ padecimientos con código CIE-10, causas, y estudios recomendados.',
-    }
+    },
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/enfermedades',
+    },
 };
 
 // Group diseases by first letter

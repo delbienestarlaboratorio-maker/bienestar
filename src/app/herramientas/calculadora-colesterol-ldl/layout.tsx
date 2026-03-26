@@ -7,7 +7,10 @@ export const metadata: Metadata = {
         title: '🩸 Calculadora de Colesterol LDL',
         description: 'Calculadora e información médica sobre 🩸 Calculadora de Colesterol LDL. Cotiza tus estudios de laboratorio hoy mismo en Pachuca, Tulancingo y CDMX.',
         type: 'website',
-    }
+    },
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/herramientas/calculadora-colesterol-ldl',
+    },
 };
 
 export default function ToolLayout({ children }: { children: React.ReactNode }) {

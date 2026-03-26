@@ -83,6 +83,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     return {
         title: `${bm.name} - Valores Normales, Altos y Bajos | Laboratorio del Bienestar`,
         description: `¿Qué es ${bm.name}? Conoce los rangos normales (${bm.rangeM} ${bm.unit}), qué significa tenerlo alto o bajo, y cuándo preocuparte. Guía médica completa.`,
+        alternates: {
+            canonical: `https://laboratorio.delbienestar.com.mx/valores-clinicos/${resolvedParams.slug}`,
+        },
         openGraph: {
             title: `${bm.name} - Rangos Normales y Significado Clínico`,
             description: `Todo sobre ${bm.name}: valores normales para hombres, mujeres y niños. Qué significa alto o bajo.`

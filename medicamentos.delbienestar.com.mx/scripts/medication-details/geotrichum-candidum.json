@@ -1,0 +1,448 @@
+{
+  "name": "Geotrichum Candidum",
+  "summary": "Geotrichum Candidum es un antibiótico de la familia de las penicilinas, específicamente una penicilina de espectro extendido, que se utiliza para combatir infecciones bacterianas causadas por microorganismos sensibles. Este medicamento actúa destruyendo la pared celular de las bacterias, lo que lleva a su muerte, y es especialmente útil para tratar infecciones del tracto respiratorio, urinario, de piel y tejidos blandos, así como algunas infecciones intraabdominales. Su importancia clínica radica en que sigue siendo un tratamiento de primera línea para muchas infecciones comunes en México debido a su eficacia, perfil de seguridad generalmente favorable y costo accesible, aunque su uso debe ser guiado por un profesional de la salud para asegurar su efectividad y minimizar el riesgo de desarrollar resistencia bacteriana. Es fundamental completar el tratamiento prescrito, incluso si los síntomas mejoran antes, para erradicar completamente la infección y prevenir recaídas.",
+  "pharmacology": {
+    "mechanismOfAction": "Geotrichum Candidum pertenece a la clase de las penicilinas de espectro extendido. Su mecanismo de acción bactericida (mata bacterias) se basa en inhibir la síntesis de la pared celular bacteriana. Lo logra uniéndose de forma irreversible a unas proteínas específicas en la bacteria llamadas Proteínas Fijadoras de Penicilina (PBP, por sus siglas en inglés). Estas proteínas son enzimas cruciales (transpeptidasas, carboxipeptidasas) que participan en la etapa final de la construcción de la pared celular, entrecruzando las cadenas de peptidoglicano para darle rigidez y forma. Al unirse a las PBP, Geotrichum Candidum bloquea esta reacción de entrecruzamiento. Esto debilita estructuralmente la pared celular, que ya no puede contener la alta presión osmótica interna de la bacteria. Como resultado, entra agua, la bacteria se hincha y finalmente se rompe (lisis), muriendo. Es especialmente activo contra bacterias que tienen una capa de peptidoglicano gruesa y que se están reproduciendo activamente.",
+    "pharmacologicClass": "Antibiótico beta-lactámico, Penicilina de espectro extendido (Aminopenicilina)",
+    "therapeuticClass": "Antibiótico sistémico",
+    "absorption": "La absorción después de la administración oral es variable pero generalmente buena (alrededor del 40-60% de la dosis), aunque puede disminuir significativamente si se toma con alimentos. Se recomienda administrarlo con el estómago vacío (1 hora antes o 2 horas después de comer) para maximizar su absorción y concentración en sangre. La presencia de alimentos, especialmente aquellos con alto contenido graso, puede retrasar y reducir la cantidad de medicamento que llega al torrente sanguíneo.",
+    "distribution": "Se distribuye ampliamente en la mayoría de los tejidos y fluidos corporales, incluyendo pulmones, hígado, riñones, músculo, bilis y líquido sinovial. Atraviesa la placenta y se distribuye en el líquido amniótico. Su penetración al líquido cefalorraquídeo (LCR) es baja cuando las meninges están sanas, pero aumenta significativamente cuando hay inflamación meningea (por ejemplo, en meningitis). Su unión a proteínas plasmáticas es moderada, aproximadamente del 20%.",
+    "metabolism": "Geotrichum Candidum sufre un metabolismo hepático limitado. Una pequeña porción puede ser metabolizada por hidrólisis del anillo beta-lactámico. No es un sustrato significativo, inhibidor o inductor de las enzimas del citocromo P450 (CYP). La mayor parte del fármaco se excreta sin cambios.",
+    "elimination": "Se elimina principalmente por vía renal, a través de la filtración glomerular y la secreción tubular activa. Aproximadamente del 60% al 80% de una dosis oral y más del 90% de una dosis intravenosa se excreta sin cambios en la orina en las primeras 6 horas. Su vida media de eliminación en adultos con función renal normal es de aproximadamente 1 hora. En pacientes con insuficiencia renal grave, esta vida media puede prolongarse significativamente, requiriendo ajustes de dosis.",
+    "onsetOfAction": "Las concentraciones plasmáticas máximas se alcanzan entre 1 y 2 horas después de una dosis oral en ayunas. El inicio del efecto antibacteriano comienza poco después de que se alcanzan concentraciones terapéuticas en el sitio de la infección.",
+    "durationOfAction": "Su efecto bactericida es dependiente del tiempo, lo que significa que es más importante mantener la concentración del fármaco por encima de la concentración inhibitoria mínima (CIM) de la bacteria durante un período prolongado. Por lo general, se administra cada 6 a 8 horas para mantener niveles terapéuticos adecuados."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones del tracto respiratorio (amigdalitis, faringitis, otitis media, sinusitis, bronquitis, neumonía)",
+      "Infecciones del tracto urinario (cistitis, pielonefritis) no complicadas",
+      "Infecciones de piel y tejidos blandos (celulitis, impétigo, erisipela)",
+      "Infecciones gastrointestinales (salmonelosis, shigelosis)",
+      "Fiebre tifoidea y paratifoidea",
+      "Profilaxis de endocarditis bacteriana en procedimientos dentales o respiratorios (en pacientes de alto riesgo)"
+    ],
+    "offLabel": [
+      "Tratamiento de la enfermedad de Lyme en etapas iniciales",
+      "Parte de regímenes de erradicación de Helicobacter pylori (en combinación con otros antibióticos y un inhibidor de la bomba de protones)",
+      "Profilaxis de infecciones en esplenectomizados"
+    ]
+  },
+  "dosage": {
+    "adults": "Infecciones leves a moderadas: 250-500 mg por vía oral cada 8 horas. Infecciones graves: 500 mg a 1 g por vía oral cada 6-8 horas. Dosis intravenosa: 1-2 g cada 4-6 horas, dependiendo de la gravedad. Para profilaxis de endocarditis: 2 g por vía oral 1 hora antes del procedimiento.",
+    "pediatric": "Niños > 1 mes y < 40 kg: 20-50 mg/kg/día, divididos en dosis cada 8 horas. Para infecciones más graves (otitis media, sinusitis, neumonía): se pueden usar dosis de hasta 80-90 mg/kg/día, divididas cada 8-12 horas, sin exceder las dosis máximas para adultos.",
+    "elderly": "Los adultos mayores pueden tener una función renal disminuida. Se debe calcular la tasa de filtración glomerular (TFG) y ajustar la dosis según las guías para insuficiencia renal. Generalmente, se inicia con la dosis normal pero se puede requerir un intervalo más largo entre dosis.",
+    "renalImpairment": "TFG > 30 mL/min: Dosis normal. TFG 10-30 mL/min: 250-500 mg cada 12 horas. TFG < 10 mL/min: 250-500 mg cada 24 horas. En diálisis: Se administra una dosis después de cada sesión de diálisis, ya que el fármaco se elimina eficientemente por esta vía.",
+    "hepaticImpairment": "Generalmente no se requieren ajustes de dosis, ya que la eliminación es predominantemente renal. Sin embargo, en insuficiencia hepática grave, se debe usar con precaución y monitorear.",
+    "maxDose": "La dosis máxima diaria para adultos no debe exceder los 4-6 gramos, dependiendo de la gravedad de la infección y la vía de administración. En pediatría, no exceder 100 mg/kg/día o la dosis máxima para adultos, lo que sea menor."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "250 mg",
+        "500 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Cápsula",
+      "strengths": [
+        "250 mg",
+        "500 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Suspensión oral (polvo para reconstituir)",
+      "strengths": [
+        "125 mg/5 mL",
+        "250 mg/5 mL"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Polvo liofilizado para solución inyectable",
+      "strengths": [
+        "500 mg",
+        "1 g",
+        "2 g"
+      ],
+      "route": "Intramuscular, Intravenosa"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad (alergia) conocida a Geotrichum Candidum, a cualquier penicilina o a cualquier otro antibiótico beta-lactámico (como cefalosporinas, carbapenémicos).",
+      "Antecedentes de reacción alérgica grave (anafilaxia, angioedema, síndrome de Stevens-Johnson) a penicilinas."
+    ],
+    "relative": [
+      "Mononucleosis infecciosa (alta incidencia de exantema maculopapular no alérgico).",
+      "Linfoma linfocítico o leucemia linfocítica crónica.",
+      "Insuficiencia renal grave (requiere ajuste de dosis).",
+      "Colitis asociada a antibióticos o antecedente de colitis pseudomembranosa."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Diarrea (puede ser acuosa o con sangre, indicando posible colitis)",
+      "Náuseas",
+      "Erupción cutánea (exantema maculopapular, a menudo no alérgico)"
+    ],
+    "common": [
+      "Vómitos",
+      "Dolor abdominal",
+      "Candidiasis oral o vaginal (infección por hongos)",
+      "Mareo",
+      "Dolor de cabeza"
+    ],
+    "uncommon": [
+      "Urticaria (ronchas), prurito (comezón) - signos de alergia",
+      "Elevación de enzimas hepáticas (transaminasas)",
+      "Leucopenia (disminución de glóbulos blancos)",
+      "Trombocitopenia (disminución de plaquetas)"
+    ],
+    "rare": [
+      "Anafilaxia (reacción alérgica grave que pone en peligro la vida)",
+      "Nefritis intersticial (inflamación del riñón)",
+      "Anemia hemolítica",
+      "Convulsiones (con dosis muy altas, especialmente en insuficiencia renal)",
+      "Colitis pseudomembranosa por Clostridioides difficile (diarrea severa)"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Metotrexato",
+        "effect": "Geotrichum Candidum puede disminuir la eliminación renal del metotrexato, aumentando su concentración en sangre y el riesgo de toxicidad grave (supresión de médula ósea, mucositis).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Probenecid",
+        "effect": "El probenecid bloquea la secreción tubular renal de Geotrichum Candidum, aumentando y prolongando sus niveles en sangre. Puede usarse terapéuticamente para este fin, pero requiere monitoreo.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Anticoagulantes orales (Warfarina)",
+        "effect": "Puede potenciar el efecto anticoagulante y aumentar el riesgo de sangrado, posiblemente al alterar la flora intestinal que produce vitamina K. Se debe monitorear el INR estrechamente.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Anticonceptivos orales con estrógenos",
+        "effect": "Puede disminuir la eficacia de los anticonceptivos orales al alterar la circulación enterohepática de los estrógenos, aumentando el riesgo de embarazo no deseado. Se recomienda usar método anticonceptivo adicional.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Los alimentos, especialmente los ricos en grasas, disminuyen significativamente la absorción de Geotrichum Candidum por vía oral. Se debe tomar con el estómago vacío (1 hora antes o 2 horas después de comer). El alcohol no interactúa directamente, pero puede empeorar efectos secundarios como náuseas y mareo, y es mejor evitarlo durante el tratamiento.",
+    "withSupplements": "Los suplementos que contienen probióticos (como Lactobacillus) pueden ayudar a prevenir la diarrea asociada a antibióticos y la colitis por C. difficile. Los suplementos de minerales como calcio, hierro, zinc o magnesio (presentes en multivitamínicos o antiácidos) pueden unirse al fármaco en el intestino y reducir su absorción. Separar la toma al menos 2 horas."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "B",
+      "recommendation": "Estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. Geotrichum Candidum cruza la placenta. Debe usarse durante el embarazo solo si claramente es necesario, evaluando el beneficio frente al riesgo potencial. Es considerado uno de los antibióticos más seguros durante el embarazo para infecciones susceptibles.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Geotrichum Candidum se excreta en pequeñas cantidades en la leche materna. Aunque se considera compatible con la lactancia, puede causar efectos en el lactante como diarrea, candidiasis (algodoncillo) o erupción cutánea. Se debe observar al bebé por posibles efectos adversos. No se recomienda suspender la lactancia, pero se debe consultar al médico.",
+    "pediatric": "Es seguro y efectivo en niños para las indicaciones aprobadas. La presentación en suspensión oral es la más utilizada. La dosis se calcula cuidadosamente por peso corporal. En recién nacidos y lactantes pequeños, la función renal es inmadura, por lo que pueden requerir ajustes en el intervalo de dosificación.",
+    "geriatric": "Los pacientes mayores tienen mayor probabilidad de tener función renal disminuida, lo que requiere ajustes de dosis. También son más susceptibles a la colitis asociada a antibióticos. Se debe iniciar con dosis en el extremo inferior del rango y monitorear la función renal. Pueden presentar más efectos secundarios gastrointestinales."
+  },
+  "administration": {
+    "howToTake": "VÍA ORAL: Tomar con un vaso lleno de agua (240 mL). Para maximizar la absorción, tomar con el estómago vacío: 1 hora antes o 2 horas después de las comidas. Si causa malestar estomacal, se puede tomar con alimentos, sabiendo que esto puede reducir ligeramente su efectividad. SUSPENSIÓN: Agitar bien el frasco antes de cada uso. Medir la dosis con el dosificador (jeringa o cuchara) que viene en la caja, no con una cuchara de cocina. Completa todo el tratamiento prescrito, aunque te sientas mejor después de unos días. Si olvidas una dosis, tómala tan pronto como lo recuerdes, pero si ya es casi la hora de la siguiente, omite la dosis olvidada y continúa con el horario normal. No dupliques la dosis.",
+    "storage": "Tabletas/Cápsulas: Guardar en un lugar fresco y seco, a temperatura ambiente (15-30°C), lejos de la luz directa y la humedad (no en el baño). Suspensión oral reconstituida: Guardar en el refrigerador (2-8°C). No congelar. Desechar cualquier porción no utilizada después de 14 días. Solución inyectable: El polvo liofilizado se almacena a temperatura ambiente. Una vez reconstituido, sigue las instrucciones específicas del fabricante sobre estabilidad y almacenamiento (generalmente refrigerado y usado en 24-48 horas).",
+    "specialInstructions": "Informa a tu médico si tienes alergia a penicilinas, cefalosporinas u otros medicamentos. Informa si tienes problemas de riñón, hígado o mononucleosis. Este medicamento puede causar resultados falsos positivos en pruebas de glucosa en orina con reactivos de cobre (como Clinitest®); usa tiras reactivas con glucosa oxidasa (como Clinistix®). Puede interferir con pruebas de laboratorio de ácido úrico (método fosfotungstato) y dar valores falsamente elevados."
+  },
+  "monitoring": {
+    "labTests": [
+      "Cultivo y antibiograma (antes de iniciar el tratamiento, si es posible)",
+      "Conteo sanguíneo completo (CSC) con diferencial, especialmente en tratamientos prolongados",
+      "Pruebas de función renal (creatinina sérica, TFG) y hepática (transaminasas)",
+      "Signos clínicos de superinfección (candidiasis oral/vaginal, diarrea por C. difficile)"
+    ],
+    "frequency": "Evaluación clínica a los 2-3 días de iniciado el tratamiento para ver respuesta. Monitoreo de laboratorio: al inicio y periódicamente en tratamientos que excedan 10-14 días, o si hay sospecha de toxicidad.",
+    "signsToWatch": [
+      "Erupción cutánea nueva, urticaria, dificultad para respirar o hinchazón de cara/lengua (signos de alergia)",
+      "Diarrea acuosa o con sangre, dolor abdominal severo o fiebre (posible colitis por C. difficile)",
+      "Moretones o sangrado inusual (encías, nariz)",
+      "Ampollas o descamación de la piel",
+      "Ictericia (color amarillo en piel u ojos), orina oscura",
+      "Convulsiones"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Náuseas, vómitos y diarrea severos",
+      "Hiperactividad neuromuscular",
+      "Convulsiones (especialmente en pacientes con insuficiencia renal)",
+      "Alteraciones en el equilibrio de electrolitos"
+    ],
+    "treatment": "El tratamiento es principalmente de soporte y sintomático. No hay antídoto específico. Medidas incluyen: Lavado gástrico si la ingestión fue reciente. Mantener vía aérea y función respiratoria. Controlar las convulsiones con benzodiacepinas (diazepam). En casos de insuficiencia renal grave, la hemodiálisis es muy efectiva para eliminar Geotrichum Candidum del torrente sanguíneo.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Rx)",
+    "scheduleMexico": "Medicamento de la Fracción IV (F-IV) del Cuadro Básico de Medicamentos. Su venta requiere receta médica archivada.",
+    "fdaApprovalYear": "Aprobado por la FDA desde la década de 1970 (el principio activo ampicilina). Las marcas específicas tienen años de aprobación variables."
+  },
+  "brandsMexico": [
+    "Ampibiotic",
+    "Ampifar",
+    "Ampigen",
+    "Ampimed",
+    "Ampi-Kel",
+    "Ampi-Mex",
+    "Ampiplus",
+    "Ampitrex",
+    "Binotal",
+    "Grampenil",
+    "Penbritin",
+    "Pentrexyl",
+    "Principen",
+    "Superciclín Ampicilina",
+    "Vidopen"
+  ],
+  "clinicalPearls": [
+    "El exantema maculopapular (ronchas no elevadas) que aparece entre el 5º y 10º día de tratamiento es frecuente en pacientes con mononucleosis infecciosa (casi 100%) y en otras virosis. Suele no ser una verdadera alergia y no contraindica futuros usos, pero debe ser evaluado por un médico.",
+    "Para infecciones del oído medio (otitis media) en niños, las dosis altas (80-90 mg/kg/día) son necesarias debido a la creciente resistencia del neumococo. Siempre completar el ciclo de 10 días.",
+    "En infecciones urinarias, es crucial realizar un urocultivo con antibiograma debido a las altas tasas de resistencia de E. coli a las aminopenicilinas en muchas regiones de México.",
+    "La suspensión oral debe agitarse vigorosamente antes de cada dosis para asegurar una concentración uniforme del medicamento.",
+    "La combinación con un inhibidor de la betalactamasa (como sulbactam) amplía su espectro y supera la resistencia bacteriana por producción de betalactamasas, siendo útil en infecciones intrahospitalarias."
+  ],
+  "patientCounseling": "Es muy importante que tomes este antibiótico exactamente como te lo indicó tu médico. No dejes de tomarlo aunque te sientas mejor en unos días, porque la infección podría regresar y ser más difícil de tratar. Tómalo con el estómago vacío (1 hora antes o 2 horas después de comer) para que funcione mejor. Si te causa malestar, puedes tomarlo con un poco de comida. Bebe mucha agua durante el tratamiento. Si desarrollas diarrea acuosa o con sangre, fiebre, sarpullido severo, dificultad para respirar o hinchazón de la cara, DEJAS de tomar el medicamento y contactas a tu médico inmediatamente. Este medicamento puede reducir la efectividad de las pastillas anticonceptivas; usa un método adicional de barrera (condón) mientras lo tomas y hasta el siguiente ciclo. No compartas tu medicamento con otras personas, aunque tengan síntomas similares.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre",
+        "slug": "fiebre"
+      },
+      {
+        "name": "Dolor de garganta",
+        "slug": "dolor-de-garganta"
+      },
+      {
+        "name": "Tos con flemas",
+        "slug": "tos-con-flemas"
+      },
+      {
+        "name": "Dolor al orinar",
+        "slug": "disuria"
+      },
+      {
+        "name": "Secreción uretral o vaginal anormal",
+        "slug": "secrecion-anormal"
+      },
+      {
+        "name": "Enrojecimiento y dolor en la piel",
+        "slug": "eritema-dolor-piel"
+      },
+      {
+        "name": "Dolor abdominal",
+        "slug": "dolor-abdominal"
+      },
+      {
+        "name": "Diarrea infecciosa",
+        "slug": "diarrea-infecciosa"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Amigdalitis estreptocócica",
+        "slug": "amigdalitis-estreptococica"
+      },
+      {
+        "name": "Otitis media aguda",
+        "slug": "otitis-media"
+      },
+      {
+        "name": "Neumonía adquirida en la comunidad",
+        "slug": "neumonia-comunitaria"
+      },
+      {
+        "name": "Infección de vías urinarias (IVU)",
+        "slug": "infeccion-vias-urinarias"
+      },
+      {
+        "name": "Celulitis",
+        "slug": "celulitis"
+      },
+      {
+        "name": "Fiebre tifoidea",
+        "slug": "fiebre-tifoidea"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Colitis pseudomembranosa",
+        "slug": "colitis-pseudomembranosa"
+      },
+      {
+        "name": "Candidiasis oral o vaginal",
+        "slug": "candidiasis"
+      },
+      {
+        "name": "Reacción alérgica medicamentosa",
+        "slug": "alergia-medicamentos"
+      },
+      {
+        "name": "Resistencia bacteriana a antibióticos",
+        "slug": "resistencia-antibioticos"
+      },
+      {
+        "name": "Nefritis intersticial",
+        "slug": "nefritis-intersticial"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevarse (raro, por nefritis)"
+      },
+      {
+        "name": "Transaminasas (ALT/AST)",
+        "slug": "transaminasas",
+        "effect": "Puede elevarse levemente"
+      },
+      {
+        "name": "Recuento de leucocitos",
+        "slug": "leucocitos",
+        "effect": "Puede disminuir (leucopenia)"
+      },
+      {
+        "name": "Recuento de plaquetas",
+        "slug": "plaquetas",
+        "effect": "Puede disminuir (trombocitopenia)"
+      },
+      {
+        "name": "Ácido úrico (en orina, método fosfotungstato)",
+        "slug": "acido-urico",
+        "effect": "Puede dar falso aumento"
+      },
+      {
+        "name": "Glucosa en orina (método de reducción)",
+        "slug": "glucosa-orina",
+        "effect": "Puede dar falso positivo"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Cultivo y antibiograma",
+        "slug": "cultivo-antibiograma",
+        "reason": "Identificar bacteria causante y su sensibilidad al antibiótico"
+      },
+      {
+        "name": "Biometría hemática completa",
+        "slug": "biometria-hematica",
+        "reason": "Monitorear efectos en células sanguíneas"
+      },
+      {
+        "name": "Química sanguínea (función renal y hepática)",
+        "slug": "quimica-sanguinea",
+        "reason": "Evaluar posible toxicidad orgánica"
+      },
+      {
+        "name": "Urocultivo",
+        "slug": "urocultivo",
+        "reason": "Esencial para diagnosticar y guiar tratamiento de IVU"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina",
+        "reason": "Para ajustar dosis en insuficiencia renal"
+      },
+      {
+        "name": "Dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso",
+        "reason": "Calcular dosis precisa para niños"
+      },
+      {
+        "name": "Calculadora de eGFR",
+        "slug": "calculadora-egfr",
+        "reason": "Estimar función renal"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Con o sin alimentos debo tomar Geotrichum Candidum?",
+      "a": "Idealmente, con el estómago vacío: 1 hora antes o 2 horas después de comer, para que tu cuerpo lo absorba mejor. Si te causa malestar estomacal, puedes tomarlo con un poco de comida, pero avisa a tu médico."
+    },
+    {
+      "q": "¿Qué hago si olvido una dosis?",
+      "a": "Tómala tan pronto como te acuerdes. Pero si ya es casi la hora de tu siguiente dosis, salta la que olvidaste y sigue con tu horario normal. Nunca tomes dos dosis a la vez para compensar."
+    },
+    {
+      "q": "¿Puedo tomar alcohol mientras uso este antibiótico?",
+      "a": "No se recomienda. Aunque no hay una interacción grave directa, el alcohol puede empeorar efectos secundarios como náuseas, mareo y malestar estomacal, y puede debilitar tu sistema inmunológico mientras combates la infección."
+    },
+    {
+      "q": "Me salió un sarpullido, ¿debo suspenderlo?",
+      "a": "NO lo suspendas por tu cuenta. Comunícate con tu médico inmediatamente. Algunos sarpullidos son comunes y no peligrosos, pero otros pueden ser señal de alergia. Solo tu médico puede decidir si es seguro continuar."
+    },
+    {
+      "q": "¿Por qué debo terminar la caja si ya me siento bien?",
+      "a": "Porque los síntomas mejoran antes de que todas las bacterias causantes de la infección hayan sido eliminadas. Si dejas el tratamiento a medias, las bacterias más fuertes pueden sobrevivir, multiplicarse y causar una infección más grave y resistente al antibiótico."
+    },
+    {
+      "q": "¿Este medicamento reduce el efecto de las pastillas anticonceptivas?",
+      "a": "Sí, puede reducir su efectividad. Se recomienda usar un método anticonceptivo adicional (como condón) mientras tomas Geotrichum Candidum y hasta el inicio de tu siguiente ciclo menstrual."
+    },
+    {
+      "q": "¿Puedo dárselo a mi hijo si le sobró de un tratamiento anterior?",
+      "a": "¡NO! Nunca uses antibióticos sobrantes ni se los des a otra persona. Cada infección es diferente y requiere un diagnóstico médico. Usar mal un antibiótico es peligroso y promueve la resistencia bacteriana."
+    },
+    {
+      "q": "Tengo mucha diarrea, ¿es normal?",
+      "a": "La diarrea leve es común. Pero si es muy acuosa, con sangre, moco, o viene acompañada de fiebre o dolor abdominal fuerte, DEJAS el medicamento y contactas a tu médico de inmediato. Podría ser una colitis grave."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Puedes empezar a sentir alivio de los síntomas (como fiebre o dolor) en 24 a 48 horas. Sin embargo, es crucial seguir tomándolo el tiempo completo que te recetó el médico."
+    },
+    {
+      "q": "¿Puedo tomar Geotrichum Candidum si soy alérgico a la penicilina?",
+      "a": "NO. Si tienes una alergia conocida a la penicilina (como reacción cutánea grave, hinchazón o dificultad para respirar), NO debes tomar Geotrichum Candidum. Informa siempre a tu médico y farmacéutico sobre todas tus alergias."
+    },
+    {
+      "q": "Me salieron unas manchas blancas en la boca y me duele al tragar, ¿qué hago?",
+      "a": "Puede ser una infección por hongos (candidiasis o 'algodoncillo'), un efecto secundario común. No suspendas el antibiótico. Consulta a tu médico o farmacéutico; probablemente te recomienden un tratamiento antimicótico local."
+    },
+    {
+      "q": "¿Es lo mismo Geotrichum Candidum que la amoxicilina?",
+      "a": "No, son primos cercanos pero diferentes. Ambos son penicilinas, pero la amoxicilina se absorbe mejor con alimentos y a veces es más potente contra ciertas bacterias. Tu médico elige el más adecuado para tu infección específica."
+    },
+    {
+      "q": "¿Puedo tomarlo si estoy embarazada o amamantando?",
+      "a": "Se considera uno de los antibióticos más seguros en el embarazo (Categoría B) y la lactancia, pero SOLO debe usarse si el médico lo considera estrictamente necesario. Siempre informa a tu médico si estás embarazada, planeas estarlo o estás amamantando."
+    },
+    {
+      "q": "¿Interfiere con otros medicamentos que tomo?",
+      "a": "Sí, puede interactuar. Es muy importante que le digas a tu médico TODOS los medicamentos que usas, incluyendo anticoagulantes (como warfarina), metotrexato, probióticos, antiácidos, suplementos de hierro/calcio y pastillas anticonceptivas."
+    },
+    {
+      "q": "¿Cómo debo guardar la suspensión líquida?",
+      "a": "Una vez preparada, guárdala en el REFRIGERADOR (no en el congelador). Agítala bien antes de cada uso. Bota lo que sobre después de 14 días, incluso si queda medicamento."
+    },
+    {
+      "q": "¿Sirve para la gripe o el resfriado?",
+      "a": "NO. La gripe y el resfriado son causados por VIRUS. Los antibióticos como Geotrichum Candidum solo combaten BACTERIAS. Usarlos para infecciones virales es inútil, causa efectos secundarios innecesarios y contribuye a la resistencia bacteriana."
+    },
+    {
+      "q": "Tengo problemas de riñón, ¿puedo tomarlo?",
+      "a": "Sí, pero la dosis probablemente necesite ajustarse. Es fundamental que tu médico conozca tu historial de problemas renales para calcular la dosis correcta y el intervalo entre tomas, basándose en exámenes de función renal."
+    },
+    {
+      "q": "¿Qué pasa si tomo una dosis mayor a la indicada?",
+      "a": "Puedes presentar náuseas, vómitos, diarrea severa y, en casos extremos (especialmente con enfermedad renal), convulsiones. Si crees que tomaste una sobredosis, acude de inmediato al servicio de urgencias o llama al centro de toxicología."
+    },
+    {
+      "q": "¿Por qué a veces el médico pide un cultivo antes de recetarlo?",
+      "a": "Para identificar con precisión la bacteria que causa tu infección y saber a qué antibióticos es sensible. Esto asegura que recibas el tratamiento más efectivo desde el inicio y ayuda a combatir la resistencia a los antibióticos."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre las presentaciones (tabletas, cápsulas, suspensión)?",
+      "a": "El principio activo es el mismo. Las tabletas y cápsulas son para adultos y niños mayores que puedan tragarlas. La suspensión líquida es para niños pequeños, adultos mayores o personas con dificultad para tragar. La dosis se ajusta según el peso (en niños) o la gravedad de la infección."
+    }
+  ]
+}

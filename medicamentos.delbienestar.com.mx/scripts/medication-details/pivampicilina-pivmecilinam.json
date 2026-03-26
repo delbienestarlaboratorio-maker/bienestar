@@ -1,0 +1,420 @@
+{
+  "name": "Pivampicilina/Pivmecilinam",
+  "summary": "La Pivampicilina/Pivmecilinam es un antibiótico combinado que pertenece a la familia de las penicilinas. Se utiliza principalmente para tratar infecciones bacterianas comunes como las de las vías urinarias (cistitis), infecciones respiratorias, de la piel y tejidos blandos, y algunas infecciones gastrointestinales. Su importancia clínica radica en que es un medicamento de amplio espectro, lo que significa que combate muchos tipos de bacterias diferentes, y es especialmente útil cuando se sospecha que una infección es causada por bacterias que pueden ser resistentes a otros antibióticos más simples. En México, es un tratamiento de primera línea para muchas infecciones ambulatorias debido a su buen perfil de seguridad y eficacia. Es crucial que el paciente complete todo el tratamiento recetado por el médico, incluso si se siente mejor antes de terminarlo, para evitar que la infección regrese o que las bacterias se vuelvan resistentes al medicamento. Este antibiótico no sirve para infecciones virales como la gripe o el resfriado común.",
+  "pharmacology": {
+    "mechanismOfAction": "La Pivampicilina es un profármaco de la ampicilina. Esto significa que al ingerirse, el cuerpo la transforma en ampicilina, que es el compuesto activo. La Pivmecilinam es un profármaco de la mecillinam. Ambos componentes actúan interfiriendo con la síntesis de la pared celular de las bacterias. La pared celular es como un escudo protector que las bacterias necesitan para sobrevivir. Estos medicamentos inhiben la acción de unas proteínas llamadas PBPs (Proteínas Fijadoras de Penicilina), que son esenciales para construir y reparar esa pared. Al bloquear este proceso, la pared celular bacteriana se debilita, se rompe y finalmente la bacteria muere. Este mecanismo es específico para las bacterias y no afecta a las células humanas, lo que lo hace un tratamiento relativamente seguro. Es un antibiótico bactericida, es decir, mata a las bacterias en lugar de solo detener su crecimiento.",
+    "pharmacologicClass": "Antibiótico beta-lactámico; Penicilina aminopenicilina (Pivampicilina) y Penicilina amidinopenicilina (Pivmecilinam).",
+    "therapeuticClass": "Antibiótico de amplio espectro.",
+    "absorption": "La Pivampicilina y la Pivmecilinam son profármacos diseñados para mejorar la absorción oral. Se absorben bien en el tracto gastrointestinal. La presencia de alimentos puede retrasar ligeramente la absorción, pero no reduce significativamente la cantidad total de medicamento que llega a la sangre. Después de la absorción, se hidrolizan rápidamente en el intestino y en la sangre para liberar sus componentes activos: ampicilina y mecillinam, respectivamente.",
+    "distribution": "Una vez activos, la ampicilina y la mecillinam se distribuyen ampliamente por el cuerpo. Atraviesan la placenta y se encuentran en la leche materna. La ampicilina se une a proteínas plasmáticas en un 15-25%, mientras que la mecillinam se une en un 5-10%. Esto significa que una gran parte del medicamento está libre en la sangre para combatir la infección. Su volumen de distribución (Vd) es moderado, indicando que se distribuye bien en los fluidos y tejidos corporales, incluyendo orina, bilis, líquido pleural y sinovial.",
+    "metabolism": "El metabolismo hepático es mínimo. Como se mencionó, el principal proceso es la hidrólisis (ruptura por agua) de los profármacos (Pivampicilina y Pivmecilinam) en el intestino y la sangre para formar los compuestos activos (ampicilina y mecillinam). Estas moléculas activas no son metabolizadas significativamente por el sistema de enzimas CYP del hígado. Se eliminan principalmente sin cambios.",
+    "elimination": "La vida media de eliminación es de aproximadamente 1 hora para ambos componentes activos. La vía principal de eliminación es renal, a través de la orina. Entre el 50-70% de una dosis se excreta sin cambios en la orina en las primeras 6-8 horas. Una pequeña parte se elimina por la bilis. En pacientes con función renal normal, el medicamento se elimina rápidamente del cuerpo.",
+    "onsetOfAction": "Los niveles en sangre comienzan a ser detectables entre 1 y 2 horas después de la administración oral. Sin embargo, el alivio de los síntomas (como la fiebre o el dolor) puede tardar de 24 a 48 horas en notarse, dependiendo de la gravedad de la infección.",
+    "durationOfAction": "Debido a su vida media corta, el efecto antibacteriano dura aproximadamente de 6 a 8 horas. Por esta razón, la dosis suele dividirse en 2 o 3 tomas al día para mantener niveles constantes y efectivos del medicamento en la sangre y los tejidos infectados."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones del tracto urinario no complicadas (cistitis aguda)",
+      "Infecciones del tracto respiratorio inferior (bronquitis aguda, exacerbación de EPOC)",
+      "Infecciones de la piel y tejidos blandos (celulitis, impétigo)",
+      "Infecciones gastrointestinales bacterianas (salmonelosis, shigelosis)",
+      "Infecciones de oído, nariz y garganta (otitis media, sinusitis, faringoamigdalitis) cuando se sospecha origen bacteriano"
+    ],
+    "offLabel": [
+      "Profilaxis de infecciones en procedimientos dentales en pacientes de alto riesgo",
+      "Tratamiento de infecciones por Helicobacter pylori en regímenes de segunda o tercera línea (en combinación con otros antibióticos)"
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis habitual para adultos es de 500 mg a 750 mg cada 12 horas (dos veces al día). Para infecciones más graves, el médico puede indicar 500 mg cada 8 horas (tres veces al día). El tratamiento típico dura de 5 a 14 días, dependiendo del tipo y gravedad de la infección.",
+    "pediatric": "Para niños, la dosis se calcula por peso corporal. La dosis habitual es de 20 a 40 mg/kg de peso al día, dividida en 2 o 3 dosis. Por ejemplo, un niño de 20 kg podría tomar 200 mg (aproximadamente 10 mg/kg) cada 12 horas. No se recomienda en recién nacidos o lactantes menores de 3 meses sin supervisión médica especializada.",
+    "elderly": "En adultos mayores con función renal normal, se puede usar la dosis estándar para adultos. Sin embargo, es común que los adultos mayores tengan una función renal disminuida, por lo que es esencial evaluar la TFG (Tasa de Filtración Glomerular) y ajustar la dosis si es necesario, como se describe en 'renalImpairment'.",
+    "renalImpairment": "El ajuste es necesario porque el medicamento se elimina por los riñones. Con TFG > 50 mL/min: dosis normal. Con TFG entre 10-50 mL/min: reducir la dosis a 250-500 mg cada 12 horas. Con TFG < 10 mL/min o en diálisis: 250-500 mg cada 24 horas. Se puede administrar una dosis suplementaria después de la sesión de diálisis.",
+    "hepaticImpairment": "No se requieren ajustes de dosis específicos en insuficiencia hepática leve o moderada, ya que el metabolismo hepático es mínimo. En insuficiencia hepática grave, se debe usar con precaución y monitorear al paciente, pero no hay una guía de dosificación estandarizada.",
+    "maxDose": "La dosis máxima diaria en adultos no debe exceder los 3000 mg (3 gramos) en casos excepcionales de infecciones muy graves, siempre bajo estricta supervisión médica. La dosis habitual máxima es de 1500 mg/día."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "250 mg",
+        "500 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Suspensión oral (polvo para reconstituir)",
+      "strengths": [
+        "125 mg/5 mL",
+        "250 mg/5 mL"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad (alergia) conocida a cualquier penicilina, cefalosporina u otros antibióticos beta-lactámicos.",
+      "Antecedentes de reacción alérgica grave (anafilaxia) a cualquier componente de la fórmula.",
+      "Mononucleosis infecciosa (por alto riesgo de desarrollar exantema ampicilínico)."
+    ],
+    "relative": [
+      "Insuficiencia renal grave (ajustar dosis como se indica).",
+      "Colitis pseudomembranosa o antecedentes de diarrea asociada a antibióticos.",
+      "Fenilcetonuria (algunas formulaciones pueden contener aspartamo)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Diarrea (puede ser acuosa o con sangre, importante reportarla)",
+      "Náuseas"
+    ],
+    "common": [
+      "Vómitos",
+      "Dolor abdominal",
+      "Erupción cutánea (exantema)",
+      "Picazón (prurito)",
+      "Candidiasis oral o vaginal (infección por hongos)"
+    ],
+    "uncommon": [
+      "Dolor de cabeza",
+      "Mareo",
+      "Alteración en las pruebas de función hepática (elevación de transaminasas)",
+      "Colitis pseudomembranosa (diarrea severa con fiebre y dolor abdominal)"
+    ],
+    "rare": [
+      "Reacción alérgica grave (anafilaxia: dificultad para respirar, hinchazón de cara/lengua)",
+      "Anemia, leucopenia (bajada de glóbulos blancos)",
+      "Nefritis intersticial (inflamación del riñón)",
+      "Convulsiones (en dosis muy altas o en insuficiencia renal)"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Metotrexato",
+        "effect": "La Pivampicilina/Pivmecilinam puede disminuir la eliminación renal del metotrexato, aumentando su toxicidad (riesgo de daño a la médula ósea, mucositis).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Anticoagulantes orales (Warfarina, Acenocumarol)",
+        "effect": "Puede potenciar el efecto anticoagulante, aumentando el riesgo de sangrado. Se debe monitorear el INR estrechamente.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Probenecid",
+        "effect": "El probenecid bloquea la eliminación renal del antibiótico, aumentando y prolongando sus niveles en sangre. Puede usarse intencionalmente para este fin, pero también aumenta el riesgo de efectos adversos.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Anticonceptivos orales (estrógenos)",
+        "effect": "Puede disminuir la efectividad de los anticonceptivos hormonales, aumentando el riesgo de embarazo no planeado. Se recomienda usar método de barrera adicional durante el tratamiento y hasta el siguiente ciclo.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Puede tomarse con o sin alimentos. Tomarlo con comida puede ayudar a reducir las molestias estomacales como náuseas. El alcohol no interactúa directamente con el medicamento, pero se desaconseja su consumo porque puede debilitar el sistema inmunológico y empeorar efectos secundarios como mareo o malestar estomacal.",
+    "withSupplements": "Los suplementos que contienen probióticos (como Lactobacillus) pueden ayudar a prevenir la diarrea asociada a antibióticos. Se recomienda tomarlos con al menos 2-3 horas de diferencia del antibiótico. Los suplementos de hierro, zinc o calcio pueden reducir ligeramente la absorción del antibiótico; se sugiere separar su ingesta por al menos 2 horas."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "B",
+      "recommendation": "Estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. Se debe usar durante el embarazo solo si el beneficio potencial justifica el riesgo potencial para el feto. Es una opción considerada relativamente segura para tratar infecciones bacterianas en el embarazo cuando es necesario, bajo supervisión médica.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La ampicilina y la mecillinam se excretan en la leche materna en pequeñas cantidades. Se considera compatible con la lactancia, ya que es poco probable que cause efectos adversos en el lactante, excepto posiblemente diarrea o candidiasis (algodoncillo). Se debe observar al bebé por si aparece erupción cutánea o alteraciones en las heces. No es motivo para suspender la lactancia.",
+    "pediatric": "Se puede usar en niños mayores de 3 meses. La presentación en suspensión es la más adecuada. Es importante calcular la dosis con precisión según el peso del niño y usar el dispositivo de medición (jeringa o dosificador) que viene con el frasco, no una cuchara casera.",
+    "geriatric": "Los adultos mayores son más susceptibles a los efectos adversos, especialmente la diarrea y la colitis pseudomembranosa. La función renal suele estar disminuida, por lo que es imperativo evaluar la TFG y ajustar la dosis para evitar acumulación del medicamento y toxicidad. Monitorear el estado de hidratación si hay diarrea."
+  },
+  "administration": {
+    "howToTake": "Trague las tabletas enteras con un vaso lleno de agua (aproximadamente 240 ml). No las parta, mastique ni triture. Para la suspensión oral: agite bien el frasco antes de cada uso. Mida la dosis exacta con la jeringa o el dosificador que viene en la caja. Puede tomarse con o sin alimentos. Si se olvida una dosis, tómela tan pronto como lo recuerde, pero si ya es casi la hora de la siguiente dosis, omita la dosis olvidada y continúe con su horario normal. NO duplique la dosis para compensar.",
+    "storage": "Tabletas: Almacenar a temperatura ambiente (15-30°C), en un lugar seco y fuera del alcance de los niños. Suspensión reconstituida: Conservar en refrigeración (2-8°C). No congelar. La suspensión generalmente es estable por 7 a 14 días después de preparada; verificar la fecha de caducidad en el frasco. Deseche cualquier sobrante después de ese tiempo.",
+    "specialInstructions": "Complete TODO el tratamiento recetado por su médico, incluso si se siente mejor después de unos días. Suspenderlo antes de tiempo puede hacer que la infección regrese y que las bacterias se vuelvan resistentes. Beba abundantes líquidos mientras esté bajo este tratamiento, especialmente si tiene una infección urinaria. Si desarrolla diarrea acuosa o con sangre, fiebre y dolor abdominal intenso, suspenda el medicamento y contacte a su médico inmediatamente (podría ser colitis pseudomembranosa)."
+  },
+  "monitoring": {
+    "labTests": [
+      "Cultivo y antibiograma (para confirmar la bacteria causante y su sensibilidad)",
+      "Conteo sanguíneo completo (CSC) en tratamientos prolongados",
+      "Pruebas de función renal (creatinina sérica, TFG) especialmente en adultos mayores",
+      "Pruebas de función hepática (transaminasas) en tratamientos largos",
+      "INR si está tomando anticoagulantes"
+    ],
+    "frequency": "Generalmente no se requiere monitoreo de laboratorio de rutina para tratamientos cortos (5-10 días) en pacientes sanos. En tratamientos prolongados (>2 semanas), en pacientes con insuficiencia renal o hepática, o con otros medicamentos interactuantes, se recomienda monitoreo según criterio médico, posiblemente a la semana y al final del tratamiento.",
+    "signsToWatch": [
+      "Erupción cutánea, urticaria, hinchazón de cara/labios/lengua (signos de alergia)",
+      "Dificultad para respirar o tragar",
+      "Diarrea acuosa o con sangre, dolor abdominal severo con fiebre",
+      "Moretones o sangrado inusual (encías, nariz)",
+      "Ampollas o descamación de la piel",
+      "Ictericia (color amarillo en piel u ojos)",
+      "Convulsiones"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Náuseas y vómitos severos",
+      "Diarrea profusa",
+      "Alteraciones electrolíticas",
+      "Convulsiones (especialmente en pacientes con insuficiencia renal)",
+      "Cristaluria (cristales en orina, raro)"
+    ],
+    "treatment": "El tratamiento es de soporte y sintomático. No hay antídoto específico. Inducir el vómito o realizar lavado gástrico si la ingestión fue reciente. Mantener la hidratación y el equilibrio electrolítico. En casos de insuficiencia renal, puede considerarse la diálisis, aunque la ampicilina y la mecillinam son dializables en cierta medida.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Rx). Es un antibiótico de venta controlada.",
+    "scheduleMexico": "Medicamento de la Fracción IV del Cuadro Básico de Medicamentos. Su venta requiere receta médica archivada o retenida en farmacia, según la normativa local.",
+    "fdaApprovalYear": "La combinación específica Pivampicilina/Pivmecilinam no está aprobada por la FDA de EE.UU. como tal. Sus componentes individuales (ampicilina, mecillinam) tienen aprobaciones desde los años 60 y 70."
+  },
+  "brandsMexico": [
+    "Pivampicilina/Pivmecilinam genérico (varios laboratorios)",
+    "Duopac",
+    "Pivamec",
+    "Amdin",
+    "Uro-Ampi",
+    "Bacterol Duo",
+    "Pivamox",
+    "Amdipen"
+  ],
+  "clinicalPearls": [
+    "Es una excelente opción de primera línea para cistitis no complicada en mujeres jóvenes, con buena cobertura contra E. coli.",
+    "La combinación sinérgica de ampicilina (activa contra cocos Gram positivos) y mecillinam (muy activa contra bacilos Gram negativos) proporciona un espectro ampliado.",
+    "El exantema (ronchas) que aparece durante la mononucleosis infecciosa con ampicilina NO es una alergia verdadera y no contraindica el uso futuro de penicilinas una vez resuelta la enfermedad viral.",
+    "En infecciones urinarias recurrentes, siempre solicitar urocultivo con antibiograma para guiar la terapia y evitar resistencia.",
+    "Educar al paciente sobre la importancia de completar el tratamiento es la intervención más importante para prevenir resistencia bacteriana."
+  ],
+  "patientCounseling": "Este medicamento es un antibiótico que solo sirve para infecciones causadas por bacterias. Tómel exactamente como se lo indicó su médico, respetando las horas y la duración total del tratamiento, aunque se sienta mejor. Beber mucha agua ayuda, especialmente para infecciones de la vejiga. Esté atento a señales de alergia como ronchas, hinchazón o dificultad para respirar, y deje de tomarlo y busque ayuda médica si esto ocurre. Si tiene diarrea líquida o con sangre, con fiebre o dolor de estómago fuerte, también debe suspenderlo y avisar a su médico. Si usa pastillas anticonceptivas, este antibiótico puede hacerlas menos efectivas; use un método de respaldo como condón mientras lo toma y hasta su siguiente periodo. No comparta este medicamento con otras personas, aunque tengan síntomas similares. Guarde la suspensión en el refrigerador y bótela después del tiempo indicado en el frasco.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor o ardor al orinar",
+        "slug": "disuria"
+      },
+      {
+        "name": "Fiebre",
+        "slug": "fiebre"
+      },
+      {
+        "name": "Tos con flemas",
+        "slug": "tos-productiva"
+      },
+      {
+        "name": "Dolor de garganta",
+        "slug": "odinofagia"
+      },
+      {
+        "name": "Dolor e inflamación en la piel",
+        "slug": "eritema-dolor-piel"
+      },
+      {
+        "name": "Diarrea infecciosa",
+        "slug": "diarrea-aguda"
+      },
+      {
+        "name": "Dolor abdominal",
+        "slug": "dolor-abdominal"
+      },
+      {
+        "name": "Secreción nasal espesa",
+        "slug": "rinorrea-purulenta"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Cistitis aguda no complicada",
+        "slug": "cistitis-aguda"
+      },
+      {
+        "name": "Bronquitis aguda bacteriana",
+        "slug": "bronquitis-aguda"
+      },
+      {
+        "name": "Celulitis",
+        "slug": "celulitis"
+      },
+      {
+        "name": "Faringitis estreptocócica",
+        "slug": "faringoamigdalitis-estreptococica"
+      },
+      {
+        "name": "Sinusitis bacteriana aguda",
+        "slug": "sinusitis-aguda"
+      },
+      {
+        "name": "Gastroenteritis por Salmonella/Shigella",
+        "slug": "gastroenteritis-bacteriana"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Colitis pseudomembranosa",
+        "slug": "colitis-pseudomembranosa"
+      },
+      {
+        "name": "Reacción anafiláctica",
+        "slug": "anafilaxia"
+      },
+      {
+        "name": "Candidiasis oral o vaginal",
+        "slug": "candidiasis"
+      },
+      {
+        "name": "Resistencia antibiótica",
+        "slug": "resistencia-antibioticos"
+      },
+      {
+        "name": "Nefritis intersticial",
+        "slug": "nefritis-intersticial"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevarse levemente (reversible)"
+      },
+      {
+        "name": "Transaminasas (ALT, AST)",
+        "slug": "transaminasas",
+        "effect": "Puede elevarse levemente (reversible)"
+      },
+      {
+        "name": "Recuento de leucocitos",
+        "slug": "leucocitos",
+        "effect": "Puede disminuir (leucopenia)"
+      },
+      {
+        "name": "INR (International Normalized Ratio)",
+        "slug": "inr",
+        "effect": "Puede elevarse (aumenta riesgo de sangrado)"
+      },
+      {
+        "name": "Cultivo de orina",
+        "slug": "urocultivo",
+        "effect": "Elimina bacterias, normaliza el resultado"
+      },
+      {
+        "name": "Eosinófilos",
+        "slug": "eosinofilos",
+        "effect": "Puede elevarse en reacciones de hipersensibilidad"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Urocultivo con antibiograma",
+        "slug": "urocultivo-antibiograma",
+        "reason": "Confirmar infección bacteriana y sensibilidad al medicamento"
+      },
+      {
+        "name": "Creatinina sérica y TFG",
+        "slug": "tfg-calculadora",
+        "reason": "Ajustar dosis en adultos mayores o sospecha de daño renal"
+      },
+      {
+        "name": "Cultivo y antibiograma de esputo",
+        "slug": "cultivo-esputo",
+        "reason": "Para infecciones respiratorias bajas persistentes"
+      },
+      {
+        "name": "Cultivo de exudado faríngeo",
+        "slug": "cultivo-faringeo",
+        "reason": "Para confirmar faringitis estreptocócica"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Puedo tomar este medicamento si soy alérgico a la penicilina?",
+      "a": "NO. Si tiene alergia conocida a la penicilina (como amoxicilina, ampicilina) o a las cefalosporinas (como cefalexina), NO debe tomar Pivampicilina/Pivmecilinam. Informe a su médico sobre su alergia para que le recete un antibiótico de otra familia."
+    },
+    {
+      "q": "¿Con o sin alimentos?",
+      "a": "Puede tomarlo con o sin alimentos. Si le causa malestar estomacal (náuseas), se recomienda tomarlo con un poco de comida para reducir esta molestia."
+    },
+    {
+      "q": "¿Qué hago si se me olvida una dosis?",
+      "a": "Tómela tan pronto como lo recuerde. Pero si ya es casi la hora de su siguiente dosis, omita la que olvidó y continúe con su horario normal. NO tome una dosis doble para compensar la que olvidó."
+    },
+    {
+      "q": "¿Puedo tomar alcohol mientras estoy en tratamiento?",
+      "a": "No se recomienda. Aunque no hay una interacción química grave conocida, el alcohol puede empeorar efectos secundarios como mareos o malestar estomacal, y puede debilitar su sistema inmunológico, haciendo que la infección sea más difícil de tratar."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Puede empezar a notar mejoría en sus síntomas (como fiebre o dolor) después de 24 a 48 horas de empezar a tomarlo. Es importante completar TODO el tratamiento aunque se sienta mejor antes."
+    },
+    {
+      "q": "Me salieron ronchas en la piel, ¿debo suspenderlo?",
+      "a": "SÍ. Una erupción cutánea (ronchas) puede ser signo de una reacción alérgica. Suspenda el medicamento y contacte a su médico de inmediato para una evaluación."
+    },
+    {
+      "q": "¿Este antibiótico anula el efecto de las pastillas anticonceptivas?",
+      "a": "SÍ, puede disminuir su efectividad. Se recomienda usar un método anticonceptivo de respaldo (como condón) durante todo el tratamiento con el antibiótico y hasta el inicio de su siguiente ciclo menstrual."
+    },
+    {
+      "q": "Tengo diarrea, ¿es normal?",
+      "a": "La diarrea es un efecto secundario común. Beba muchos líquidos para evitar deshidratación. Sin embargo, si la diarrea es muy acuosa, con sangre, mucosidad, o viene acompañada de fiebre y dolor abdominal fuerte, SUSPENDA el medicamento y consulte a su médico urgentemente, ya que podría ser una colitis grave."
+    },
+    {
+      "q": "¿Puedo dárselo a mi hijo?",
+      "a": "Sí, pero SOLO bajo prescripción médica. La dosis para niños se calcula cuidadosamente según su peso. Existe una presentación en suspensión líquida que es más adecuada para ellos."
+    },
+    {
+      "q": "¿Sirve para la gripe o el resfriado?",
+      "a": "NO. Este medicamento es un antibiótico que solo combate infecciones causadas por BACTERIAS. La gripe y el resfriado común son causados por VIRUS, contra los cuales los antibióticos no tienen ningún efecto."
+    },
+    {
+      "q": "¿Puedo partir la tableta si no la puedo tragar entera?",
+      "a": "No se recomienda partir, masticar o triturar las tabletas, ya que pueden tener un recubrimiento especial. Si tiene dificultad para tragar, consulte a su médico sobre la posibilidad de usar la suspensión líquida."
+    },
+    {
+      "q": "¿Cómo debo guardar la suspensión líquida?",
+      "a": "Una vez preparada (reconstituida), debe guardarse en el REFRIGERADOR (no en el congelador). Agítela bien antes de cada uso. Bote cualquier sobrante después de la fecha de caducidad indicada en el frasco (generalmente 7-14 días después de preparada)."
+    },
+    {
+      "q": "¿Es seguro durante el embarazo?",
+      "a": "Se clasifica como categoría B, lo que significa que es relativamente seguro y se puede usar si el médico lo considera necesario. Sin embargo, NUNCA se automedique durante el embarazo. Solo úselo bajo la supervisión estricta de su médico."
+    },
+    {
+      "q": "¿Y si estoy amamantando?",
+      "a": "Se considera compatible con la lactancia. Pasa a la leche materna en cantidades muy pequeñas, por lo que es poco probable que cause problemas al bebé. Observe a su bebé por si aparece diarrea o irritación en la boca (algodoncillo)."
+    },
+    {
+      "q": "¿Interactúa con otros medicamentos?",
+      "a": "Sí. Es importante informar a su médico si toma anticoagulantes (como warfarina), metotrexato, probenecid o suplementos de hierro/calcio. También puede interactuar con algunos análisis de orina para glucosa, dando falsos positivos."
+    },
+    {
+      "q": "¿Por qué debo terminar la caja si ya me siento bien?",
+      "a": "Porque si suspende el tratamiento antes de tiempo, es posible que no todas las bacterias hayan sido eliminadas. Las sobrevivientes pueden multiplicarse nuevamente, causando una recaída de la infección que será más difícil de tratar, y pueden volverse resistentes al antibiótico."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre este y la amoxicilina?",
+      "a": "Este medicamento combina dos antibióticos (derivados de ampicilina y mecillinam), lo que le da un espectro de acción más amplio contra ciertas bacterias, especialmente algunas que causan infecciones urinarias. Su médico elige uno u otro según el tipo de infección que sospeche."
+    },
+    {
+      "q": "Tengo problemas en los riñones, ¿puedo tomarlo?",
+      "a": "Sí, pero la dosis DEBE ser ajustada por su médico según su función renal (calculada con su nivel de creatinina). Tomar la dosis normal con insuficiencia renal puede causar acumulación del medicamento y efectos adversos graves."
+    },
+    {
+      "q": "¿Puede causar cansancio o somnolencia?",
+      "a": "No es un efecto común, pero algunas personas pueden experimentar mareo o dolor de cabeza. Si se siente muy somnoliento o mareado, evite conducir o manejar maquinaria hasta que sepa cómo le afecta."
+    },
+    {
+      "q": "Mi infección de orina no mejora después de 3 días con este medicamento, ¿qué hago?",
+      "a": "Debe contactar a su médico. Es posible que la bacteria causante sea resistente a este antibiótico. Es probable que su médico le solicite un urocultivo con antibiograma para identificar la bacteria exacta y el antibiótico más efectivo contra ella."
+    }
+  ]
+}

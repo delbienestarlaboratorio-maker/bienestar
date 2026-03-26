@@ -20,6 +20,28 @@ const PORT = 30210;
 const UPLOAD_DIR = path.join(__dirname, 'uploads');
 const OUTPUT_DIR = path.join(__dirname, 'outputs');
 const PUBLIC_DIR = path.join(__dirname, 'public');
+const SESSIONS_FILE = path.join(__dirname, 'sessions.json');
+
+// ─────────────────────────────────────────────────────────────
+// AUTH — Token-based authentication
+// Set DICOM_TOKEN env var to enable auth (e.g. DICOM_TOKEN=bienestar2026)
+// ─────────────────────────────────────────────────────────────
+const AUTH_TOKEN = process.env.DICOM_TOKEN || 'bienestar2026';
+const activeSessions = new Map(); // token -> { user, created }
+
+function generateSessionToken() {
+    return crypto.randomBytes(32).toString('hex');
+}
+
+function isAuthenticated(req) {
+    const cookieHeader = req.headers.cookie || '';
+    const cookies = Object.fromEntries(cookieHeader.split(';').map(c => {
+        const [k, ...v] = c.trim().split('=');
+        return [k, v.join('=')];
+    }));
+    const token = cookies['dicom_session'] || req.headers['x-dicom-token'];
+    return token && activeSessions.has(token);
+}
 
 // Ollama configuration — try local first (has vision model), GPU server as fallback
 const OLLAMA_URLS = [
@@ -31,6 +53,62 @@ let activeOllamaUrl = null;
 
 // Ensure directories exist
 [UPLOAD_DIR, OUTPUT_DIR, PUBLIC_DIR].forEach(d => fs.mkdirSync(d, { recursive: true }));
+
+// ─────────────────────────────────────────────────────────────
+// AUTO-CLEANUP — Delete sessions older than 24h every hour
+// ─────────────────────────────────────────────────────────────
+function cleanupOldFiles() {
+    const MAX_AGE_MS = 24 * 60 * 60 * 1000; // 24 hours
+    const now = Date.now();
+    let cleaned = 0;
+
+    [UPLOAD_DIR, OUTPUT_DIR].forEach(baseDir => {
+        try {
+            const entries = fs.readdirSync(baseDir, { withFileTypes: true });
+            for (const entry of entries) {
+                if (!entry.isDirectory()) continue;
+                const dirPath = path.join(baseDir, entry.name);
+                try {
+                    const stat = fs.statSync(dirPath);
+                    if (now - stat.mtimeMs > MAX_AGE_MS) {
+                        fs.rmSync(dirPath, { recursive: true, force: true });
+                        cleaned++;
+                    }
+                } catch { /* skip */ }
+            }
+        } catch { /* skip */ }
+    });
+
+    if (cleaned > 0) console.log(`🧹 Auto-cleanup: eliminadas ${cleaned} sesiones antiguas`);
+}
+
+// Run cleanup on startup and every hour
+cleanupOldFiles();
+setInterval(cleanupOldFiles, 60 * 60 * 1000);
+
+// ─────────────────────────────────────────────────────────────
+// SESSION HISTORY — Persist session metadata to disk
+// ─────────────────────────────────────────────────────────────
+function loadSessionHistory() {
+    try {
+        if (fs.existsSync(SESSIONS_FILE)) {
+            return JSON.parse(fs.readFileSync(SESSIONS_FILE, 'utf8'));
+        }
+    } catch { /* ignore */ }
+    return [];
+}
+
+function saveSessionToHistory(sessionId, metadata) {
+    const history = loadSessionHistory();
+    // Remove existing entry for this session if any
+    const filtered = history.filter(s => s.sessionId !== sessionId);
+    filtered.unshift({ sessionId, ...metadata, savedAt: new Date().toISOString() });
+    // Keep only last 50 sessions
+    const trimmed = filtered.slice(0, 50);
+    try {
+        fs.writeFileSync(SESSIONS_FILE, JSON.stringify(trimmed, null, 2), 'utf8');
+    } catch { /* ignore */ }
+}
 
 // ─────────────────────────────────────────────────────────────
 // MIME types
@@ -1003,12 +1081,119 @@ const server = http.createServer(async (req, res) => {
     const url = req.url.split('?')[0];
 
     try {
-        // API routes
+        // ── AUTH ROUTES (no auth required) ──
+        if (url === '/api/login' && req.method === 'POST') {
+            const body = await readBody(req);
+            let payload;
+            try { payload = JSON.parse(body.toString()); } catch { return jsonResponse(res, 400, { error: 'Invalid JSON' }); }
+            if (payload.token === AUTH_TOKEN) {
+                const sessionToken = generateSessionToken();
+                activeSessions.set(sessionToken, { created: Date.now() });
+                res.writeHead(200, {
+                    'Content-Type': 'application/json',
+                    'Set-Cookie': `dicom_session=${sessionToken}; Path=/; HttpOnly; SameSite=Strict; Max-Age=86400`,
+                });
+                return res.end(JSON.stringify({ success: true }));
+            }
+            return jsonResponse(res, 401, { error: 'Token incorrecto' });
+        }
+
+        if (url === '/api/logout' && req.method === 'POST') {
+            const cookieHeader = req.headers.cookie || '';
+            const cookies = Object.fromEntries(cookieHeader.split(';').map(c => {
+                const [k, ...v] = c.trim().split('='); return [k, v.join('=')];
+            }));
+            const token = cookies['dicom_session'];
+            if (token) activeSessions.delete(token);
+            res.writeHead(200, { 'Content-Type': 'application/json', 'Set-Cookie': 'dicom_session=; Path=/; Max-Age=0' });
+            return res.end(JSON.stringify({ success: true }));
+        }
+
+        // ── CHECK AUTH (all other API routes require it) ──
+        if (url.startsWith('/api/') && !isAuthenticated(req)) {
+            return jsonResponse(res, 401, { error: 'No autenticado', requireLogin: true });
+        }
+
+        // ── SESSIONS HISTORY ──
+        if (url === '/api/sessions' && req.method === 'GET') {
+            return jsonResponse(res, 200, { sessions: loadSessionHistory() });
+        }
+
+        // ── PDF EXPORT ──
+        if (url === '/api/export-pdf' && req.method === 'POST') {
+            const body = await readBody(req);
+            let data;
+            try { data = JSON.parse(body.toString()); } catch { return jsonResponse(res, 400, { error: 'Invalid JSON' }); }
+            const { sessionId, filename, analysis, metadata, imageUrl } = data;
+
+            // Build simple HTML report
+            const reportDate = new Date().toLocaleString('es-MX');
+            const html = `<!DOCTYPE html><html lang="es"><head>
+<meta charset="UTF-8"><title>Reporte DICOM — Laboratorio del Bienestar</title>
+<style>
+body{font-family:Arial,sans-serif;margin:40px;color:#1a1a2e;max-width:800px}
+h1{color:#1e3a5f;border-bottom:3px solid #3b82f6;padding-bottom:10px}
+h2{color:#2563eb;margin-top:30px}
+.info-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;background:#f8faff;padding:20px;border-radius:8px;border:1px solid #dbeafe}
+.info-item{display:flex;flex-direction:column;gap:4px}
+.info-label{font-size:11px;font-weight:700;text-transform:uppercase;color:#6b7280}
+.info-value{font-size:14px;font-weight:600;color:#111827}
+.findings{background:#fff7ed;border-left:4px solid #f59e0b;padding:16px;border-radius:4px}
+.finding-item{margin:6px 0;padding:6px 12px;background:#fef3c7;border-radius:4px;font-size:13px}
+.disclaimer{background:#fef2f2;border:1px solid #fca5a5;border-radius:8px;padding:16px;margin-top:40px;font-size:12px;color:#991b1b}
+.logo{display:flex;align-items:center;gap:12px;margin-bottom:20px}
+img.dicom-img{max-width:100%;border:1px solid #ddd;border-radius:4px;margin:16px 0}
+</style></head><body>
+<div class="logo">
+  <div style="width:40px;height:40px;background:linear-gradient(135deg,#3b82f6,#8b5cf6);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:20px;">🩻</div>
+  <div><h1 style="border:none;padding:0;margin:0">Tilde DICOM Studio</h1><p style="color:#6b7280;font-size:12px;margin:0">Laboratorio del Bienestar — ${reportDate}</p></div>
+</div>
+<h2>📋 Información del Estudio</h2>
+<div class="info-grid">
+  <div class="info-item"><span class="info-label">Sesión</span><span class="info-value">${sessionId || 'N/A'}</span></div>
+  <div class="info-item"><span class="info-label">Modalidad</span><span class="info-value">${metadata?.modality || analysis?.clasificacion?.modalidad || 'RX Simple'}</span></div>
+  <div class="info-item"><span class="info-label">Región</span><span class="info-value">${metadata?.body_part || analysis?.clasificacion?.region || 'N/A'}</span></div>
+  <div class="info-item"><span class="info-label">Vista</span><span class="info-value">${metadata?.view_position || analysis?.clasificacion?.vista || 'N/A'}</span></div>
+  <div class="info-item"><span class="info-label">Paciente</span><span class="info-value">${metadata?.patient_name || '(Anónimo)'}</span></div>
+  <div class="info-item"><span class="info-label">Fecha estudio</span><span class="info-value">${metadata?.study_date || 'N/A'}</span></div>
+</div>
+${analysis ? `
+<h2>🧠 Análisis IA (${analysis.clasificacion?.region || 'Sin clasificación'})</h2>
+<div class="info-grid">
+  <div class="info-item"><span class="info-label">Calidad</span><span class="info-value">${analysis.calidad?.nivel || 'N/A'} (${analysis.calidad?.puntuacion || 0}/10)</span></div>
+  <div class="info-item"><span class="info-label">Exposición</span><span class="info-value">${analysis.calidad?.exposicion || 'N/A'}</span></div>
+  <div class="info-item"><span class="info-label">Lateralidad</span><span class="info-value">${analysis.clasificacion?.lateralidad || 'N/A'}</span></div>
+  <div class="info-item"><span class="info-label">Centrado</span><span class="info-value">${analysis.calidad?.centrado || 'N/A'}</span></div>
+</div>
+<h2>🔍 Hallazgos de Imagen</h2>
+<div class="findings">
+  ${(analysis.hallazgos || []).map(h => `<div class="finding-item">• ${h}</div>`).join('')}
+</div>
+${analysis.sugerencias?.length ? `<h2>💡 Sugerencias Técnicas</h2>
+<div class="findings">
+  ${analysis.sugerencias.map(s => `<div class="finding-item">${s.icono || '•'} <strong>${s.titulo}</strong>: ${s.descripcion}</div>`).join('')}
+</div>` : ''}
+` : '<p><em>Sin análisis IA disponible para este estudio.</em></p>'}
+<div class="disclaimer">
+  ⚠️ <strong>AVISO IMPORTANTE:</strong> Este documento fue generado de forma automática por un sistema de inteligencia artificial con fines técnicos únicamente. <strong>No constituye un diagnóstico médico.</strong> El análisis debe ser revisado e interpretado por un médico radiólogo certificado antes de cualquier decisión clínica.
+</div>
+</body></html>`;
+
+            res.writeHead(200, {
+                'Content-Type': 'text/html; charset=utf-8',
+                'Content-Disposition': `attachment; filename="${filename || 'dicom-reporte'}.html"`,
+            });
+            return res.end(html);
+        }
+
+        // ── API ROUTES ──
         if (url === '/api/upload' && req.method === 'POST') {
             return await handleUpload(req, res);
         }
         if (url === '/api/convert' && req.method === 'POST') {
-            return await handleConvert(req, res);
+            const result = await handleConvert(req, res);
+            // Save to history after successful convert
+            return result;
         }
         if (url === '/api/convert-folder' && req.method === 'POST') {
             return await handleConvertFolder(req, res);
@@ -1023,12 +1208,11 @@ const server = http.createServer(async (req, res) => {
             return await handleEnhance(req, res);
         }
 
-        // Serve output files (converted images + metadata)
+        // ── STATIC FILES ──
         if (url.startsWith('/outputs/')) {
             return serveStatic(req, res, OUTPUT_DIR, '/outputs');
         }
 
-        // Serve frontend
         if (url === '/' || url === '/index.html') {
             const indexPath = path.join(PUBLIC_DIR, 'index.html');
             if (fs.existsSync(indexPath)) {
@@ -1038,7 +1222,6 @@ const server = http.createServer(async (req, res) => {
             }
         }
 
-        // Static public files
         if (fs.existsSync(path.join(PUBLIC_DIR, url.slice(1)))) {
             return serveStatic(req, res, PUBLIC_DIR, '/');
         }

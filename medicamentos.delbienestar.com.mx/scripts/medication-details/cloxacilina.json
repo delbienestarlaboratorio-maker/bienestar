@@ -1,0 +1,405 @@
+{
+  "name": "Cloxacilina",
+  "summary": "La cloxacilina es un antibiótico del grupo de las penicilinas resistentes a la penicilinasa, lo que significa que es efectiva contra bacterias que producen esta enzima que destruye a otras penicilinas comunes. Se utiliza principalmente para tratar infecciones causadas por bacterias Staphylococcus, especialmente Staphylococcus aureus sensible a meticilina (MSSA), que son comunes en infecciones de piel y tejidos blandos como celulitis, forúnculos, abscesos e impétigo, así como en infecciones óseas (osteomielitis) y articulares. Su importancia clínica radica en ser un tratamiento de primera línea para estas infecciones estafilocócicas en México, ofreciendo una alternativa eficaz cuando las penicilinas convencionales fallan debido a la resistencia bacteriana. Es fundamental completar el tratamiento prescrito para evitar recaídas y el desarrollo de resistencia bacteriana, un problema de salud pública creciente.",
+  "pharmacology": {
+    "mechanismOfAction": "La cloxacilina es una penicilina beta-lactámica resistente a la penicilinasa. Su mecanismo de acción bactericida (mata bacterias) se basa en inhibir la síntesis de la pared celular bacteriana. Lo logra uniéndose de forma irreversible a las proteínas fijadoras de penicilina (PBP, por sus siglas en inglés), que son enzimas esenciales para la última etapa del entrecruzamiento de los peptidoglicanos, los componentes estructurales principales de la pared celular. Al bloquear estas enzimas, la cloxacilina interrumpe la formación de la pared celular, lo que provoca que la bacteria, al intentar crecer y dividirse, no pueda mantener su integridad estructural. Esto lleva a la lisis osmótica (estallido) de la bacteria y a su muerte. Su resistencia a la penicilinasa la protege de ser destruida por esta enzima producida por ciertos estafilococos.",
+    "pharmacologicClass": "Antibiótico beta-lactámico, Penicilina resistente a penicilinasas (Penicilina antiestafilocócica), Derivado de la isoxazolil penicilina.",
+    "therapeuticClass": "Antibiótico sistémico, Agente antiinfeccioso.",
+    "absorption": "La absorción por vía oral es rápida pero incompleta (aproximadamente 50-70%) y variable. Se ve significativamente reducida por la presencia de alimentos en el estómago, por lo que debe administrarse en ayunas (1 hora antes o 2 horas después de comer) para maximizar su biodisponibilidad. La absorción intramuscular es más completa y rápida.",
+    "distribution": "Se distribuye ampliamente en la mayoría de los tejidos y fluidos corporales, incluyendo riñones, hígado, hueso, bilis y líquido sinovial. Atraviesa la placenta y se excreta en la leche materna en pequeñas cantidades. Su penetración al líquido cefalorraquídeo (LCR) y al humor vítreo del ojo es pobre en ausencia de inflamación meningeal. Su unión a proteínas plasmáticas es alta, alrededor del 90-95%, principalmente a la albúmina.",
+    "metabolism": "La cloxacilina sufre un metabolismo hepático parcial (aproximadamente un 30-50%). Se metaboliza principalmente por hidrólisis no enzimática del anillo beta-lactámico y, en menor medida, por desacetilación. No es un sustrato significativo del sistema de enzimas citocromo P450 (CYP), por lo que las interacciones farmacocinéticas a nivel hepático son mínimas.",
+    "elimination": "Se elimina principalmente por excreción renal, tanto por filtración glomerular como por secreción tubular activa. Aproximadamente un 40-50% de la dosis se excreta sin cambios en la orina en las primeras 6 horas. Una pequeña porción se elimina por vía biliar. Su vida media de eliminación es de aproximadamente 30 a 60 minutos en adultos con función renal normal. En pacientes con insuficiencia renal grave, la vida media puede prolongarse significativamente.",
+    "onsetOfAction": "Los niveles plasmáticos máximos se alcanzan entre 1 y 2 horas después de una dosis oral en ayunas, y más rápidamente tras la administración intramuscular. El efecto antibacteriano comienza poco después de alcanzar concentraciones terapéuticas en el sitio de la infección.",
+    "durationOfAction": "Debido a su corta vida media, requiere administraciones frecuentes, generalmente cada 6 horas (cuatro veces al día), para mantener concentraciones plasmáticas y tisulares por encima de la concentración inhibitoria mínima (CIM) de las bacterias sensibles durante todo el intervalo de dosificación."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones de piel y tejidos blandos causadas por estafilococos productores de penicilinasa (MSSA): celulitis, forúnculos, ántrax, abscesos, impétigo, heridas infectadas.",
+      "Infecciones del tracto respiratorio inferior (neumonía, empiema) por estafilococos sensibles.",
+      "Infecciones osteoarticulares (osteomielitis, artritis séptica) por estafilococos sensibles.",
+      "Endocarditis infecciosa por estafilococos sensibles (generalmente en combinación con otros antibióticos).",
+      "Sepsis y bacteriemia por estafilococos sensibles."
+    ],
+    "offLabel": [
+      "Profilaxis perioperatoria en cirugías con alto riesgo de infección por estafilococos (cuando no hay alergia a penicilinas).",
+      "Tratamiento de infecciones por estafilococos sensibles en pacientes con fibrosis quística."
+    ]
+  },
+  "dosage": {
+    "adults": "Infecciones leves a moderadas: 250-500 mg por vía oral cada 6 horas. Infecciones graves (neumonía, osteomielitis, endocarditis): 1-2 g por vía intravenosa o intramuscular cada 4-6 horas. La dosis y vía dependen de la gravedad y localización de la infección.",
+    "pediatric": "Recién nacidos (menores de 1 mes): 25-50 mg/kg/día divididos cada 12 horas. Lactantes y niños mayores de 1 mes: 50-100 mg/kg/día divididos en 4 dosis (cada 6 horas). Para infecciones graves, se pueden usar dosis de hasta 200 mg/kg/día por vía parenteral, divididas cada 4-6 horas. La dosis máxima no debe exceder la dosis máxima para adultos.",
+    "elderly": "No suele requerir ajuste inicial basado solo en la edad. Sin embargo, es común que los adultos mayores tengan disminución de la función renal, por lo que se deben evaluar los niveles de creatinina y ajustar la dosis si es necesario.",
+    "renalImpairment": "Ajuste necesario en insuficiencia renal moderada a grave. TFG 10-50 mL/min: Reducir dosis en un 25-50% o aumentar el intervalo a cada 8-12 horas. TFG <10 mL/min: Reducir dosis en un 50-75% o administrar cada 12-24 horas. En diálisis: La cloxacilina se dializa moderadamente. Se recomienda administrar una dosis suplementaria después de cada sesión de hemodiálisis.",
+    "hepaticImpairment": "Generalmente no se requiere ajuste de dosis, ya que la vía renal es la principal de eliminación. Sin embargo, en insuficiencia hepática grave, se debe usar con precaución y monitorear posibles efectos adversos.",
+    "maxDose": "La dosis máxima diaria para adultos es generalmente de 8-12 gramos por vía parenteral en infecciones muy graves, divididos en dosis cada 4-6 horas. Por vía oral, rara vez se superan los 4 gramos al día."
+  },
+  "dosageForms": [
+    {
+      "form": "Cápsula",
+      "strengths": [
+        "250 mg",
+        "500 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Polvo para suspensión oral",
+      "strengths": [
+        "125 mg/5 mL"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Polvo liofilizado para inyección",
+      "strengths": [
+        "250 mg",
+        "500 mg",
+        "1 g",
+        "2 g"
+      ],
+      "route": "Intramuscular, Intravenosa"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad (alergia) conocida a la cloxacilina, a cualquier otra penicilina o a cualquier componente de la formulación.",
+      "Antecedentes de reacción alérgica grave (anafilaxia, angioedema, urticaria extensa) a cualquier antibiótico beta-lactámico (penicilinas, cefalosporinas, carbapenémicos, monobactámicos)."
+    ],
+    "relative": [
+      "Mononucleosis infecciosa (mayor riesgo de exantema maculopapular).",
+      "Insuficiencia renal grave (requiere ajuste de dosis y monitoreo).",
+      "Enfermedad gastrointestinal severa (colitis, diarrea intensa) que pueda afectar la absorción oral."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Diarrea (puede ser leve o severa, incluyendo colitis pseudomembranosa).",
+      "Náuseas.",
+      "Malestar estomacal o dolor abdominal."
+    ],
+    "common": [
+      "Vómitos.",
+      "Candidiasis oral (algodoncillo) o vaginal.",
+      "Erupción cutánea (exantema) no alérgica.",
+      "Picazón (prurito)."
+    ],
+    "uncommon": [
+      "Aumento de enzimas hepáticas (transaminasas).",
+      "Colitis pseudomembranosa por Clostridioides difficile (diarrea acuosa o con sangre, fiebre, dolor abdominal cólico).",
+      "Leucopenia (disminución de glóbulos blancos).",
+      "Trombocitopenia (disminución de plaquetas)."
+    ],
+    "rare": [
+      "Reacción de hipersensibilidad grave: anafilaxia (dificultad para respirar, hinchazón de cara/lengua, urticaria, choque).",
+      "Nefritis intersticial (dolor en flanco, sangre en orina, disminución de la producción de orina).",
+      "Hepatitis colestásica (ictericia, orina oscura, heces claras, picazón intensa).",
+      "Neutropenia severa.",
+      "Anemia hemolítica."
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Probenecid",
+        "effect": "El probenecid bloquea la secreción tubular renal de la cloxacilina, aumentando y prolongando sus niveles en sangre. Puede usarse terapéuticamente para este fin, pero también aumenta el riesgo de efectos adversos.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Metotrexato",
+        "effect": "Las penicilinas pueden disminuir la eliminación renal del metotrexato, aumentando sus niveles en sangre y el riesgo de toxicidad grave (supresión de médula ósea, mucositis).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Warfarina y otros anticoagulantes cumarínicos",
+        "effect": "La cloxacilina puede potenciar el efecto anticoagulante, aumentando el riesgo de sangrado. Se debe monitorear estrechamente el INR.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "Los alimentos, especialmente los lácteos, reducen significativamente la absorción de la cloxacilina por vía oral. Debe tomarse con el estómago vacío, idealmente 1 hora antes o 2 horas después de las comidas. El alcohol no interactúa directamente, pero puede empeorar algunos efectos adversos gastrointestinales y sobrecargar el hígado.",
+    "withSupplements": "Los suplementos que contienen probióticos (como Lactobacillus) pueden ayudar a prevenir la diarrea asociada a antibióticos, pero deben tomarse con al menos 2-3 horas de diferencia de la dosis de cloxacilina. Los suplementos de hierro, zinc o calcio pueden interferir con la absorción si se toman simultáneamente."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "B",
+      "recommendation": "Estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. Se debe usar durante el embarazo solo si claramente es necesario, evaluando el beneficio frente al riesgo. Cruza la placenta en pequeñas cantidades.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La cloxacilina se excreta en la leche materna en pequeñas cantidades (trazas). Se considera generalmente compatible con la lactancia, ya que es poco probable que cause efectos adversos significativos en el lactante. Sin embargo, puede existir riesgo de sensibilización, diarrea o candidiasis en el bebé. Se debe observar al lactante por posibles efectos.",
+    "pediatric": "Se puede usar en niños de todas las edades. La dosis se calcula cuidadosamente según el peso corporal. La presentación en suspensión oral es la más adecuada para niños pequeños. Es importante completar el tratamiento completo.",
+    "geriatric": "Los adultos mayores son más susceptibles a los efectos adversos, especialmente la diarrea y la colitis por C. difficile. La función renal suele estar disminuida, por lo que es esencial evaluar la TFG y ajustar la dosis para evitar acumulación y toxicidad. Monitorear signos de sobreinfección."
+  },
+  "administration": {
+    "howToTake": "VÍA ORAL: Tomar las cápsulas o la suspensión con un vaso lleno de agua (240 mL). Debe tomarse con el estómago vacío, al menos 1 hora antes o 2 horas después de comer o beber leche. Agitar bien la suspensión antes de cada uso. Usar el dosificador que viene en el empaque. VÍA INTRAMUSCULAR/INTRAVENOSA: Administrada únicamente por personal de salud. La inyección intramuscular puede ser dolorosa.",
+    "storage": "Cápsulas y polvo para suspensión: Almacenar a temperatura ambiente (15-30°C), en un lugar seco y fuera del alcance de la luz. Una vez reconstituida, la suspensión oral debe guardarse en refrigeración (2-8°C) y desecharse después de 14 días. Polvo para inyección: Conservar según las instrucciones del fabricante. Las soluciones reconstituidas para inyección son estables por un tiempo limitado y deben usarse inmediatamente o según lo indicado.",
+    "specialInstructions": "Es crucial tomar la cloxacilina a intervalos regulares (cada 6 horas) para mantener niveles constantes en el cuerpo. NO deje de tomar el medicamento aunque se sienta mejor; complete TODO el tratamiento prescrito por su médico. Si olvida una dosis, tómela tan pronto como lo recuerde, pero si ya es casi la hora de la siguiente, omita la dosis olvidada y continúe con su horario normal. NO duplique la dosis."
+  },
+  "monitoring": {
+    "labTests": [
+      "Conteo sanguíneo completo (CSC) con diferencial, especialmente en tratamientos prolongados.",
+      "Pruebas de función hepática (transaminasas, bilirrubina, fosfatasa alcalina).",
+      "Pruebas de función renal (creatinina sérica, nitrógeno ureico en sangre - BUN).",
+      "Cultivo y antibiograma del sitio de infección (para confirmar sensibilidad)."
+    ],
+    "frequency": "En tratamientos cortos (<10 días) para infecciones simples, puede no requerir monitoreo de laboratorio. En tratamientos prolongados (>2 semanas), para infecciones graves o en pacientes con comorbilidades: CSC y función renal cada 1-2 semanas; función hepática según síntomas.",
+    "signsToWatch": [
+      "Signos de reacción alérgica: erupción cutánea nueva, picazón, hinchazón de cara/lengua/garganta, dificultad para respirar.",
+      "Diarrea severa, acuosa o con sangre, fiebre y dolor abdominal (posible colitis por C. difficile).",
+      "Ictericia (coloración amarilla de piel y ojos), orina oscura, heces claras.",
+      "Fiebre persistente o que empeora a pesar del tratamiento.",
+      "Sangrado o moretones inusuales.",
+      "Candidiasis oral (manchas blancas en boca) o vaginal (picazón, flujo)."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Náuseas, vómitos y diarrea severos.",
+      "Convulsiones (especialmente en pacientes con insuficiencia renal).",
+      "Alteraciones electrolíticas.",
+      "Neurotoxicidad (confusión, alucinaciones)."
+    ],
+    "treatment": "El tratamiento es de soporte y sintomático. No hay antídoto específico. Medidas incluyen: Mantener la vía aérea, monitoreo de signos vitales, corrección de desequilibrios electrolíticos. La diálisis (hemodiálisis o diálisis peritoneal) puede ser útil para eliminar el fármaco del torrente sanguíneo, especialmente en pacientes con insuficiencia renal.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Rx). Es un antibiótico de uso controlado.",
+    "scheduleMexico": "Medicamento de la Fracción IV del Cuadro Básico de la NOM-072-SSA1-2012. Sujeta a control sanitario, venta solo con receta médica retenible.",
+    "fdaApprovalYear": "Aprobada por la FDA en la década de 1960."
+  },
+  "brandsMexico": [
+    "Cloxapen",
+    "Orbenin",
+    "Tegopen",
+    "Cloxacil",
+    "Cloxamast",
+    "Cloxacilina Sandoz",
+    "Cloxacilina Pisa",
+    "Cloxacilina Genfar",
+    "Cloxacilina Rimsa",
+    "Cloxacilina Liomont"
+  ],
+  "clinicalPearls": [
+    "La cloxacilina es INEFECTIVA contra Staphylococcus aureus resistente a meticilina (MRSA). Para infecciones sospechosas o confirmadas por MRSA, se deben usar otros antibióticos como vancomicina, daptomicina o linezolid.",
+    "La vía oral solo debe usarse para infecciones leves a moderadas o como terapia de continuación después de una respuesta inicial con tratamiento intravenoso.",
+    "La aparición de diarrea durante el tratamiento debe investigarse de inmediato para descartar colitis pseudomembranosa por C. difficile, que puede ser grave.",
+    "En pacientes con alergia a penicilina confirmada (especialmente reacciones inmediatas), el uso de cloxacilina está contraindicado. Existe riesgo de reactividad cruzada con cefalosporinas (aproximadamente 5-10%), por lo que se debe usar con extrema precaución o evitar en estos pacientes."
+  ],
+  "patientCounseling": "Tome la cloxacilina exactamente como se lo indicó su médico, completando TODO el tratamiento aunque se sienta mejor. Esto es vital para curar la infección y evitar que las bacterias se vuelvan resistentes. Tómela con el estómago vacío, 1 hora antes o 2 horas después de comer o beber leche, con un vaso lleno de agua. Si toma anticonceptivos orales, use un método anticonceptivo adicional (como condón) durante el tratamiento y hasta una semana después, ya que los antibióticos pueden reducir su efectividad. Esté atento a signos de alergia (ronchas, hinchazón, dificultad para respirar) o diarrea severa con fiebre, y consulte a su médico de inmediato si ocurren. No comparta este medicamento con otras personas, ya que es para su infección específica.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre",
+        "slug": "fiebre"
+      },
+      {
+        "name": "Dolor e inflamación en la piel",
+        "slug": "dolor-inflamacion-piel"
+      },
+      {
+        "name": "Enrojecimiento de la piel",
+        "slug": "enrojecimiento-piel"
+      },
+      {
+        "name": "Supuración o pus",
+        "slug": "supuracion-pus"
+      },
+      {
+        "name": "Dolor óseo intenso",
+        "slug": "dolor-oseo-intenso"
+      },
+      {
+        "name": "Tos con flemas",
+        "slug": "tos-flemas"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Celulitis",
+        "slug": "celulitis"
+      },
+      {
+        "name": "Absceso cutáneo",
+        "slug": "absceso-cutaneo"
+      },
+      {
+        "name": "Osteomielitis",
+        "slug": "osteomielitis"
+      },
+      {
+        "name": "Artritis séptica",
+        "slug": "artritis-septica"
+      },
+      {
+        "name": "Neumonía adquirida en la comunidad",
+        "slug": "neumonia-comunitaria"
+      },
+      {
+        "name": "Endocarditis infecciosa",
+        "slug": "endocarditis-infecciosa"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Colitis pseudomembranosa",
+        "slug": "colitis-pseudomembranosa"
+      },
+      {
+        "name": "Insuficiencia renal aguda",
+        "slug": "insuficiencia-renal-aguda"
+      },
+      {
+        "name": "Hepatitis colestásica",
+        "slug": "hepatitis-colestasica"
+      },
+      {
+        "name": "Anafilaxia",
+        "slug": "anafilaxia"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Transaminasas (ALT, AST)",
+        "slug": "transaminasas-alt-ast",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Bilirrubina total",
+        "slug": "bilirrubina-total",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Recuento de leucocitos",
+        "slug": "recuento-leucocitos",
+        "effect": "Puede disminuir (leucopenia)"
+      },
+      {
+        "name": "Recuento de plaquetas",
+        "slug": "recuento-plaquetas",
+        "effect": "Puede disminuir (trombocitopenia)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Cultivo y antibiograma",
+        "slug": "cultivo-antibiograma",
+        "reason": "Para identificar la bacteria causante y confirmar su sensibilidad a la cloxacilina."
+      },
+      {
+        "name": "Conteo sanguíneo completo",
+        "slug": "conteo-sanguineo-completo",
+        "reason": "Para monitorear posibles efectos adversos como leucopenia o trombocitopenia en tratamientos prolongados."
+      },
+      {
+        "name": "Perfil hepático",
+        "slug": "perfil-hepatico",
+        "reason": "Para detectar toxicidad hepática, especialmente en tratamientos largos o en pacientes con enfermedad hepática previa."
+      },
+      {
+        "name": "Perfil renal",
+        "slug": "perfil-renal",
+        "reason": "Para ajustar la dosis en pacientes con insuficiencia renal y prevenir toxicidad por acumulación."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La cloxacilina me va a dar sueño?",
+      "a": "No, la somnolencia no es un efecto secundario común de la cloxacilina. Si siente mucho sueño, consulte a su médico, ya que podría deberse a la infección misma u otra causa."
+    },
+    {
+      "q": "¿Puedo tomar cloxacilina si soy alérgico a la penicilina?",
+      "a": "NO. La cloxacilina ES una penicilina. Si tiene alergia confirmada a penicilina (como ronchas, hinchazón o dificultad para respirar), NO debe tomar cloxacilina, ya que puede sufrir una reacción alérgica grave."
+    },
+    {
+      "q": "¿Puedo tomar cloxacilina con el estómago vacío o con comida?",
+      "a": "Debe tomarse con el ESTÓMAGO VACÍO para que se absorba mejor. Tómela 1 hora antes o 2 horas después de comer o beber leche."
+    },
+    {
+      "q": "¿La cloxacilina anula el efecto de las pastillas anticonceptivas?",
+      "a": "Sí, los antibióticos como la cloxacilina pueden reducir la efectividad de los anticonceptivos hormonales orales. Use un método anticonceptivo adicional (como condón) durante el tratamiento y hasta 7 días después de terminarlo."
+    },
+    {
+      "q": "¿Puedo beber alcohol mientras tomo cloxacilina?",
+      "a": "No se recomienda. Aunque no hay una interacción directa grave conocida, el alcohol puede irritar el estómago (empeorando náuseas) y sobrecargar el hígado, que ya está procesando el medicamento."
+    },
+    {
+      "q": "¿Qué hago si se me olvida una dosis?",
+      "a": "Tómela tan pronto como lo recuerde. Pero si ya es casi la hora de la siguiente dosis, omita la que olvidó y continúe con su horario normal. NO tome una dosis doble para compensar."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto la cloxacilina?",
+      "a": "Puede empezar a sentir mejoría en 2 a 3 días (disminución de fiebre, dolor). Sin embargo, es crucial completar TODO el tratamiento que recetó el médico, aunque se sienta bien, para erradicar completamente la infección."
+    },
+    {
+      "q": "¿La cloxacilina sirve para la gripe o el resfriado?",
+      "a": "NO. La gripe y el resfriado son causados por virus. La cloxacilina solo mata bacterias. Tomarla para una infección viral es inútil, puede causar efectos secundarios y contribuye a la resistencia bacteriana."
+    },
+    {
+      "q": "¿Puede la cloxacilina causar diarrea?",
+      "a": "Sí, la diarrea es un efecto secundario muy común. Si la diarrea es leve, puede tomar probióticos (separados de la dosis del antibiótico). Si es severa, acuosa, con sangre o viene acompañada de fiebre y dolor abdominal, DEJE de tomarla y consulte a su médico de inmediato, podría ser una colitis grave."
+    },
+    {
+      "q": "¿Es lo mismo cloxacilina que amoxicilina?",
+      "a": "No. Ambas son penicilinas, pero son diferentes. La amoxicilina es de amplio espectro pero no resiste la penicilinasa. La cloxacilina es más específica para estafilococos y SÍ resiste esa enzima. No son intercambiables sin indicación médica."
+    },
+    {
+      "q": "¿La cloxacilina mancha los dientes?",
+      "a": "No, la cloxacilina no se conoce por causar manchas en los dientes, a diferencia de algunos otros antibióticos como las tetraciclinas."
+    },
+    {
+      "q": "¿Puedo tomar cloxacilina si estoy embarazada o amamantando?",
+      "a": "Embarazo: Solo si su médico lo considera estrictamente necesario. Lactancia: Se puede usar, pero se excreta en pequeñas cantidades en la leche. Consulte a su médico para evaluar riesgos y beneficios."
+    },
+    {
+      "q": "¿Qué significa tomar cada 6 horas?",
+      "a": "Significa dividir el día en 4 tomas. Por ejemplo: 7:00 am, 1:00 pm, 7:00 pm y 1:00 am. Trate de espaciarlas lo más uniformemente posible para mantener niveles constantes del medicamento en su cuerpo."
+    },
+    {
+      "q": "¿La cloxacilina sube o baja la presión arterial?",
+      "a": "Generalmente no tiene un efecto directo significativo sobre la presión arterial. Sin embargo, si presenta una reacción alérgica grave (anafilaxia), la presión puede bajar peligrosamente."
+    },
+    {
+      "q": "¿Sirve la cloxacilina para infecciones de garganta?",
+      "a": "Solo si la infección de garganta (faringitis/amigdalitis) es causada por bacterias estafilococos sensibles, lo cual es menos común. La mayoría son por estreptococos, para los que se prefiere penicilina o amoxicilina. Su médico debe confirmar con un cultivo."
+    },
+    {
+      "q": "¿Puedo hacer ejercicio mientras tomo cloxacilina?",
+      "a": "Puede hacer ejercicio leve si se siente con energía. Sin embargo, descanse lo suficiente para ayudar a su cuerpo a combatir la infección. Evite ejercicios extenuantes si tiene fiebre o se siente débil."
+    },
+    {
+      "q": "¿Qué pasa si tomo más de la dosis recetada por error?",
+      "a": "Puede sufrir náuseas, vómitos y diarrea severos. En casos extremos, convulsiones. Si cree que tomó una sobredosis, acuda inmediatamente al médico o a un servicio de urgencias, llevando el medicamento."
+    },
+    {
+      "q": "¿Por qué mi médico me pidió exámenes de sangre mientras tomo cloxacilina?",
+      "a": "Para tratamientos largos, los exámenes monitorean la función del hígado y los riñones, y revisan que no haya disminución de glóbulos blancos o plaquetas, efectos adversos posibles aunque no muy comunes."
+    },
+    {
+      "q": "¿La cloxacilina trata el MRSA?",
+      "a": "NO. La cloxacilina es efectiva contra Staphylococcus aureus sensible a meticilina (MSSA). El MRSA (resistente a meticilina) es resistente a la cloxacilina y requiere otros antibióticos como vancomicina."
+    },
+    {
+      "q": "¿Es normal que la suspensión oral de cloxacilina tenga un sabor amargo?",
+      "a": "Sí, es normal que tenga un sabor amargo o desagradable. Puede enmascararlo mezclando la dosis con una pequeña cantidad de jugo de fruta (no cítrico en exceso) o yogur, pero asegúrese de tomar la mezcla completa inmediatamente."
+    }
+  ]
+}

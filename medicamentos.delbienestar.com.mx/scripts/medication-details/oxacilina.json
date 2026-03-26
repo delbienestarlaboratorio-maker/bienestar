@@ -1,0 +1,396 @@
+{
+  "name": "Oxacilina",
+  "summary": "La oxacilina es un antibiótico del grupo de las penicilinas resistentes a la penicilinasa, una enzima producida por algunas bacterias que destruye a las penicilinas comunes. Sirve específicamente para tratar infecciones graves causadas por bacterias sensibles, principalmente Staphylococcus aureus resistente a la penicilina G, incluyendo infecciones de la piel, huesos, pulmones, válvulas del corazón y del torrente sanguíneo. Su importancia clínica radica en que fue uno de los primeros antibióticos desarrollados para combatir cepas de estafilococos que se habían vuelto resistentes a la penicilina tradicional, siendo un pilar en el tratamiento de infecciones por estafilococos antes de la aparición de la meticilina y otros antibióticos más modernos. Aunque su uso ha disminuido con la llegada de cefalosporinas y otros fármacos, sigue siendo una opción terapéutica válida en ciertos contextos, especialmente cuando se confirma la sensibilidad de la bacteria a este medicamento. Es fundamental completar el tratamiento prescrito para erradicar completamente la infección y prevenir la aparición de resistencias bacterianas.",
+  "pharmacology": {
+    "mechanismOfAction": "La oxacilina ejerce su efecto bactericida (mata bacterias) al interferir con la síntesis de la pared celular bacteriana. Actúa uniéndose a proteínas específicas llamadas Proteínas Fijadoras de Penicilina (PBP), que son enzimas esenciales para la construcción y mantenimiento de la capa de peptidoglicano, un componente estructural crucial de la pared celular. Al bloquear estas enzimas, la oxacilina impide la formación de enlaces cruzados en el peptidoglicano, lo que debilita gravemente la pared celular. Como las bacterias tienen una presión osmótica interna muy alta, la pared celular debilitada no puede contenerla, provocando la entrada masiva de agua, la hinchazón y finalmente la ruptura (lisis) y muerte de la bacteria. Su ventaja clave es que es resistente a la degradación por la enzima betalactamasa (penicilinasa) producida por muchos estafilococos, lo que le permite actuar donde otras penicilinas no pueden.",
+    "pharmacologicClass": "Antibiótico betalactámico; Penicilina semisintética resistente a penicilinasa; Penicilina antiestafilocócica.",
+    "therapeuticClass": "Antibiótico sistémico.",
+    "absorption": "La absorción por vía oral es variable e incompleta (30-35%), y se ve significativamente reducida por la presencia de alimentos en el estómago. Por esta razón, debe administrarse con el estómago vacío, al menos 1 hora antes o 2 horas después de las comidas. La vía intramuscular (IM) y especialmente la intravenosa (IV) ofrecen una biodisponibilidad del 100%, siendo las vías preferidas para infecciones graves.",
+    "distribution": "Se distribuye ampliamente en la mayoría de los tejidos y fluidos corporales, incluyendo riñones, hígado, hueso, bilis y líquido sinovial y pleural. Atraviesa la barrera placentaria y se excreta en la leche materna. Su unión a proteínas plasmáticas es alta, aproximadamente del 90-94%. Su volumen de distribución (Vd) es de aproximadamente 0.4 L/kg, indicando una distribución principalmente en el espacio plasmático y el líquido extracelular. Penetra pobremente en el líquido cefalorraquídeo (LCR) a menos que las meninges estén inflamadas.",
+    "metabolism": "La oxacilina sufre un metabolismo hepático limitado. Una parte se metaboliza en el hígado a metabolitos inactivos. No es un sustrato significativo de las enzimas del citocromo P450 (CYP). Su metabolismo no es el principal mecanismo de eliminación.",
+    "elimination": "Se elimina principalmente por excreción renal inalterada (aproximadamente 30-40% de la dosis) a través de la filtración glomerular y secreción tubular. Una porción menor se excreta por la bilis. Su vida media de eliminación es relativamente corta, de aproximadamente 0.5 a 1 hora en adultos con función renal normal. En pacientes con insuficiencia renal grave, la vida media puede prolongarse. La hemodiálisis elimina una cantidad mínima del fármaco.",
+    "onsetOfAction": "Los niveles plasmáticos máximos se alcanzan entre 30 y 60 minutos después de una inyección intramuscular y casi inmediatamente después de una infusión intravenosa. El efecto bactericida comienza una vez que se alcanzan concentraciones suficientes en el sitio de la infección.",
+    "durationOfAction": "Debido a su corta vida media, requiere administraciones frecuentes, generalmente cada 4 a 6 horas, para mantener niveles terapéuticos en sangre y tejidos durante todo el día."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones causadas por cepas productoras de penicilinasa de Staphylococcus aureus: Infecciones de piel y tejidos blandos (celulitis, abscesos, forúnculos).",
+      "Infecciones osteoarticulares (osteomielitis, artritis séptica).",
+      "Neumonía bacteriana.",
+      "Endocarditis infecciosa (generalmente en combinación con otros antibióticos como gentamicina).",
+      "Bacteriemia y sepsis."
+    ],
+    "offLabel": [
+      "Profilaxis perioperatoria en cirugías con alto riesgo de infección por estafilococos (uso muy limitado, reemplazado por cefazolina).",
+      "Tratamiento empírico inicial de infecciones graves sospechosas de ser por S. aureus sensible a meticilina (MSSA) hasta obtener resultados de cultivo y sensibilidad."
+    ]
+  },
+  "dosage": {
+    "adults": "Vía IV/IM: 1-2 gramos cada 4-6 horas. Para infecciones graves (endocarditis, osteomielitis): 2 gramos cada 4 horas. Vía Oral: 500 mg - 1 gramo cada 4-6 horas, en ayunas.",
+    "pediatric": "Recién nacidos < 7 días y < 2000g: 25 mg/kg cada 12 horas IV/IM. Recién nacidos < 7 días y > 2000g: 25 mg/kg cada 8 horas. Recién nacidos 8-28 días: 25 mg/kg cada 6 horas. Lactantes y niños: 100-200 mg/kg/día divididos en 4-6 dosis (cada 4-6 horas). Dosis máxima pediátrica: 12 g/día.",
+    "elderly": "Ajustar según la función renal. La dosis no suele reducirse inicialmente, pero se debe monitorear la función renal y ajustar si hay deterioro. Pueden ser más susceptibles a efectos adversos renales.",
+    "renalImpairment": "TFG > 50 mL/min: Sin ajuste. TFG 10-50 mL/min: Sin ajuste necesario generalmente, pero se recomienda monitoreo. TFG < 10 mL/min o diálisis: Reducir dosis o extender el intervalo (ej. 1-2 g cada 8-12 horas). La hemodiálisis elimina poco fármaco; administrar dosis después de la diálisis.",
+    "hepaticImpairment": "No se requieren ajustes de dosis específicos. Usar con precaución en insuficiencia hepática grave, ya que puede aumentar el riesgo de hepatotoxicidad.",
+    "maxDose": "Hasta 12 gramos al día por vía parenteral en infecciones muy graves (meningitis, endocarditis). La dosis oral máxima suele ser de 4-6 g/día debido a la mala absorción."
+  },
+  "dosageForms": [
+    {
+      "form": "Polvo liofilizado para inyección (vial)",
+      "strengths": [
+        "500 mg",
+        "1 g",
+        "2 g"
+      ],
+      "route": "Intramuscular, Intravenosa"
+    },
+    {
+      "form": "Cápsula",
+      "strengths": [
+        "500 mg"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad (alergia) conocida y grave a la oxacilina, a cualquier penicilina o a cualquier otro antibiótico betalactámico (como cefalosporinas).",
+      "Antecedentes de reacción anafiláctica (severa) a penicilinas."
+    ],
+    "relative": [
+      "Mononucleosis infecciosa (mayor riesgo de exantema).",
+      "Insuficiencia renal grave (requiere ajuste de dosis).",
+      "Enfermedad hepática preexistente (riesgo de hepatotoxicidad).",
+      "Antecedentes de colitis (inflamación del colon)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Diarrea (puede ser desde leve hasta colitis pseudomembranosa).",
+      "Náuseas.",
+      "Dolor e irritación en el sitio de inyección (IM/IV).",
+      "Exantema (ronchas o salpullido) cutáneo."
+    ],
+    "common": [
+      "Vómitos.",
+      "Dolor abdominal.",
+      "Candidiasis oral o vaginal (infección por hongos).",
+      "Elevación reversible de enzimas hepáticas (transaminasas)."
+    ],
+    "uncommon": [
+      "Fiebre por droga.",
+      "Colitis pseudomembranosa (diarrea severa con sangre/moco, causada por C. difficile).",
+      "Hepatitis colestásica (ictericia, picazón).",
+      "Leucopenia (disminución de glóbulos blancos).",
+      "Tromboflebitis (con IV)."
+    ],
+    "rare": [
+      "Nefritis intersticial (daño renal).",
+      "Anemia hemolítica.",
+      "Neutropenia severa.",
+      "Reacción de Jarisch-Herxheimer (empeoramiento temporal de síntomas al iniciar tratamiento de infecciones como sífilis).",
+      "Convulsiones (con dosis muy altas en insuficiencia renal)."
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Probenecid",
+        "effect": "El probenecid bloquea la secreción tubular renal de la oxacilina, aumentando y prolongando sus niveles en sangre. Puede usarse intencionalmente para este fin, pero requiere ajuste de dosis.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Metotrexato",
+        "effect": "Las penicilinas pueden reducir la eliminación renal del metotrexato, aumentando su toxicidad (mielosupresión, mucositis).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Warfarina y otros anticoagulantes orales",
+        "effect": "Puede potenciar el efecto anticoagulante, aumentando el riesgo de sangrado. Se debe monitorear estrechamente el INR.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "Los alimentos, especialmente los lácteos, reducen significativamente la absorción de la oxacilina por vía oral. Debe tomarse con el estómago vacío, 1 hora antes o 2 horas después de comer. El alcohol no interactúa directamente, pero puede empeorar la hepatotoxicidad potencial del fármaco y debe evitarse.",
+    "withSupplements": "Los suplementos que contienen probióticos (como Lactobacillus) pueden ayudar a prevenir la diarrea asociada a antibióticos, pero deben tomarse con al menos 2-3 horas de diferencia de la dosis de oxacilina. No se conocen interacciones graves con vitaminas o minerales comunes."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "B",
+      "recommendación": "Estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. Debe usarse durante el embarazo solo si claramente es necesario, evaluando el beneficio vs. riesgo. Penetra la placenta. No se asocia a malformaciones congénitas importantes en la experiencia clínica.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La oxacilina se excreta en la leche materna en bajas concentraciones. Se considera generalmente compatible con la lactancia, ya que es poco probable que cause efectos adversos significativos en el lactante. Puede, en raros casos, alterar la flora intestinal del bebé, causando diarrea o candidiasis. Se debe observar al bebé por posibles reacciones.",
+    "pediatric": "Se puede usar en niños de todas las edades para las indicaciones aprobadas. La dosificación se basa estrictamente en el peso corporal. La forma inyectable es la más utilizada en infecciones graves. La seguridad en recién nacidos está establecida.",
+    "geriatric": "Los adultos mayores pueden tener una función renal disminuida, por lo que es crucial evaluar la TFG y ajustar la dosis si es necesario. Son más susceptibles a los efectos adversos renales y a la colitis por C. difficile. Requieren un monitoreo más estrecho."
+  },
+  "administration": {
+    "howToTake": "Vía Oral: Tomar las cápsulas con un vaso lleno de agua, con el estómago vacío (1 hora antes o 2 horas después de alimentos). Vía Intramuscular: Inyectar profundamente en un músculo grande (glúteo o muslo). La solución se reconstituye con agua estéril. Vía Intravenosa: Se reconstituye y luego se diluye en solución salina o dextrosa al 5% para infusión lenta durante 20-30 minutos. Nunca mezclar con aminoglucósidos (como gentamicina) en la misma jeringa o bolsa, ya que se inactivan mutuamente.",
+    "storage": "Polvo para inyección: Conservar a temperatura ambiente (15-30°C), protegido de la luz y la humedad. Una vez reconstituido, la solución es estable a temperatura ambiente por 24 horas y refrigerada por 3 días. Cápsulas: Almacenar a temperatura ambiente en su envase original.",
+    "specialInstructions": "Es crucial completar TODO el tratamiento prescrito, incluso si se siente mejor a los pocos días, para evitar recaídas y desarrollo de resistencia bacteriana. Informar inmediatamente al médico si aparece diarrea severa, acuosa o con sangre. En caso de olvido de una dosis oral, tomarla tan pronto como se recuerde, pero si ya es casi la hora de la siguiente, omitir la dosis olvidada y continuar con el horario normal. NO duplicar dosis."
+  },
+  "monitoring": {
+    "labTests": [
+      "Cultivo y antibiograma del sitio de infección (antes o durante el inicio del tratamiento).",
+      "Conteo sanguíneo completo (CSC) semanal para vigilar leucopenia/neutropenia.",
+      "Pruebas de función hepática (ALT, AST, fosfatasa alcalina, bilirrubina) semanales o según síntomas.",
+      "Pruebas de función renal (creatinina, BUN) periódicas.",
+      "En tratamientos prolongados (>2 semanas): Monitoreo más frecuente de función hepática y renal."
+    ],
+    "frequency": "Al inicio del tratamiento y luego semanalmente durante terapias prolongadas, o según la evolución clínica.",
+    "signsToWatch": [
+      "Fiebre persistente o que empeora.",
+      "Erupción cutánea, picazón o urticaria.",
+      "Diarrea severa, acuosa o con sangre/moco.",
+      "Ictericia (color amarillo en piel/ojos), orina oscura, heces claras.",
+      "Dificultad para respirar, hinchazón de cara/lengua (signos de alergia grave).",
+      "Fatiga extrema, moretones o sangrado inusual (signos de afectación sanguínea)."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Convulsiones (especialmente en pacientes con insuficiencia renal).",
+      "Náuseas, vómitos y diarrea severa.",
+      "Alteraciones electrolíticas.",
+      "Excitabilidad neuromuscular."
+    ],
+    "treatment": "El tratamiento es de soporte y sintomático. No hay antídoto específico. En caso de convulsiones, se pueden usar benzodiacepinas. La hemodiálisis es de utilidad limitada para eliminar el fármaco, pero puede ayudar a corregir desequilibrios electrolíticos y apoyar la función renal.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (antibiótico de uso controlado).",
+    "scheduleMexico": "Medicamento de la Fracción IV (Sustancias Medicinales de Venta con Receta Médica).",
+    "fdaApprovalYear": "Aprobada por la FDA en la década de 1960."
+  },
+  "brandsMexico": [
+    "Oxacilina Sódica (genérico de varios laboratorios)",
+    "Bactocill",
+    "Prostaphlin",
+    "Oxacilina Sódica Pisa",
+    "Oxacilina Sódica Liomont"
+  ],
+  "clinicalPearls": [
+    "La oxacilina es INEFECTIVA contra Staphylococcus aureus resistente a la meticilina (MRSA). Su uso debe basarse en resultados de cultivo y sensibilidad que confirmen MSSA (S. aureus sensible a meticilina/oxacilina).",
+    "La vía oral solo debe usarse para infecciones leves a moderadas o como continuación de terapia parenteral, debido a su absorción errática.",
+    "Es un agente de 'espectro estrecho': excelente para MSSA y algunos estafilococos, pero no para infecciones por estreptococos o bacterias gramnegativas.",
+    "La hepatotoxicidad (elevación de enzimas, hepatitis colestásica) es una reacción adversa característica y más común que con otras penicilinas, especialmente con tratamientos prolongados (>2 semanas).",
+    "Para endocarditis por MSSA, suele usarse en combinación con un aminoglucósido (gentamicina) durante los primeros 3-5 días para lograr un efecto sinérgico bactericida más rápido."
+  ],
+  "patientCounseling": "Este medicamento es un antibiótico fuerte que solo debe usarse para la infección bacteriana que su médico le diagnosticó. Tómelo exactamente como se lo indicaron, respetando horarios y duración completa del tratamiento, aunque se sienta mejor. Si lo toma en cápsulas, hágalo con el estómago vacío para que funcione bien. Es común que cause malestar estomacal o diarrea leve; si la diarrea se vuelve muy fuerte, acuosa o con sangre, deje de tomarlo y llame a su médico de inmediato. Esté atento a signos de alergia como ronchas, hinchazón de cara o dificultad para respirar, y si ocurren, busque atención médica urgente. Este medicamento no sirve para gripes o resfriados causados por virus. No comparta sus pastillas ni use sobrantes para otra enfermedad. Mantenga una buena hidratación mientras esté en tratamiento.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre",
+        "slug": "fiebre"
+      },
+      {
+        "name": "Dolor e inflamación en la piel",
+        "slug": "dolor-inflamacion-piel"
+      },
+      {
+        "name": "Tos con flemas purulentas",
+        "slug": "tos-flemas-purulentas"
+      },
+      {
+        "name": "Dolor óseo intenso",
+        "slug": "dolor-oseo-intenso"
+      },
+      {
+        "name": "Escalofríos y sudoración",
+        "slug": "escalofrios-sudoracion"
+      },
+      {
+        "name": "Fatiga extrema",
+        "slug": "fatiga-extrema"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Celulitis infecciosa",
+        "slug": "celulitis-infecciosa"
+      },
+      {
+        "name": "Osteomielitis",
+        "slug": "osteomielitis"
+      },
+      {
+        "name": "Neumonía bacteriana",
+        "slug": "neumonia-bacteriana"
+      },
+      {
+        "name": "Endocarditis infecciosa",
+        "slug": "endocarditis-infecciosa"
+      },
+      {
+        "name": "Artritis séptica",
+        "slug": "artritis-septica"
+      },
+      {
+        "name": "Bacteriemia",
+        "slug": "bacteriemia"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Colitis pseudomembranosa",
+        "slug": "colitis-pseudomembranosa"
+      },
+      {
+        "name": "Hepatitis inducida por fármacos",
+        "slug": "hepatitis-inducida-farmacos"
+      },
+      {
+        "name": "Nefritis intersticial",
+        "slug": "nefritis-intersticial"
+      },
+      {
+        "name": "Reacción alérgica severa (anafilaxia)",
+        "slug": "reaccion-alergica-severa"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "ALT (Alanina Aminotransferasa)",
+        "slug": "alt-alanina-aminotransferasa",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "AST (Aspartato Aminotransferasa)",
+        "slug": "ast-aspartato-aminotransferasa",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Fosfatasa Alcalina",
+        "slug": "fosfatasa-alcalina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Leucocitos (Glóbulos Blancos)",
+        "slug": "leucocitos-globulos-blancos",
+        "effect": "Puede disminuir"
+      },
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Cultivo y Antibiograma",
+        "slug": "cultivo-antibiograma",
+        "reason": "Confirmar bacteria causante y su sensibilidad a la oxacilina."
+      },
+      {
+        "name": "Biometría Hemática Completa",
+        "slug": "biometria-hematica-completa",
+        "reason": "Monitorear posibles efectos en glóbulos blancos."
+      },
+      {
+        "name": "Perfil Hepático",
+        "slug": "perfil-hepatico",
+        "reason": "Vigilar hepatotoxicidad, efecto adverso característico."
+      },
+      {
+        "name": "Perfil Renal",
+        "slug": "perfil-renal",
+        "reason": "Evaluar función renal para ajuste de dosis."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de Creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Dosis Pediátrica por Peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora eGFR",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La oxacilina es para la gripe o el dolor de garganta?",
+      "a": "No. La oxacilina es un antibiótico para infecciones bacterianas específicas, principalmente por un tipo de bacteria llamado Staphylococcus. Las gripes y la mayoría de los dolores de garganta son causados por virus, contra los cuales los antibióticos no funcionan."
+    },
+    {
+      "q": "¿Puedo tomar oxacilina si soy alérgico a la penicilina?",
+      "a": "NO. Si tiene una alergia conocida a la penicilina (como amoxicilina, ampicilina), es muy probable que también sea alérgico a la oxacilina, ya que pertenece a la misma familia. Informe siempre a su médico sobre sus alergias antes de recibir cualquier medicamento."
+    },
+    {
+      "q": "¿Con o sin alimentos? ¿Cómo debo tomar las cápsulas?",
+      "a": "Debe tomar las cápsulas de oxacilina con el estómago VACÍO, es decir, 1 hora antes o 2 horas después de comer o beber leche. Los alimentos reducen mucho la cantidad de medicina que su cuerpo absorbe."
+    },
+    {
+      "q": "Me dieron una inyección y duele mucho el brazo/glúteo, ¿es normal?",
+      "a": "Sí, es un efecto común. La oxacilina inyectable puede causar dolor, endurecimiento e irritación en el sitio de la inyección. Aplicar compresas frías o tibias (según lo que le alivie) puede ayudar. Si el enrojecimiento, dolor o hinchazón empeoran mucho, informe a su médico."
+    },
+    {
+      "q": "Empecé con diarrea, ¿debo suspender el tratamiento?",
+      "a": "La diarrea leve es común. No suspenda el tratamiento, pero aumente la ingesta de líquidos. Si la diarrea es muy intensa, acuosa, con sangre o moco, o viene con fiebre y dolor abdominal, DEJE de tomar el medicamento y contacte a su médico INMEDIATAMENTE, podría ser una colitis grave."
+    },
+    {
+      "q": "¿Puedo tomar alcohol mientras uso oxacilina?",
+      "a": "No se recomienda. Aunque no hay una interacción directa fuerte, el alcohol puede sobrecargar el hígado, y la oxacilina ya tiene riesgo de afectarlo. Además, el alcohol puede debilitar su sistema inmunológico, haciendo más lenta la recuperación."
+    },
+    {
+      "q": "Olvidé una dosis, ¿qué hago?",
+      "a": "Tómela tan pronto como lo recuerde. Pero si ya es casi la hora de su siguiente dosis programada, omita la dosis olvidada y continúe con su horario normal. NO tome una dosis doble para compensar la que olvidó."
+    },
+    {
+      "q": "¿La oxacilina afecta los métodos anticonceptivos como las pastillas?",
+      "a": "No hay evidencia sólida de que la oxacilina reduzca la efectividad de los anticonceptivos hormonales (pastillas, parches, anillo). Sin embargo, algunos antibióticos sí lo hacen. Como precaución general, se recomienda usar un método de barrera adicional (como condón) durante el tratamiento y hasta 7 días después, para mayor seguridad."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Puede empezar a sentir mejoría en los síntomas (como disminución de la fiebre) en 48 a 72 horas después de iniciar el tratamiento, si la bacteria es sensible. Sin embargo, es crucial completar TODO el tiempo que le recetó el médico, aunque se sienta bien antes."
+    },
+    {
+      "q": "¿Puede la oxacilina causar hongos o aftas en la boca?",
+      "a": "Sí. Los antibióticos pueden alterar el equilibrio normal de bacterias y hongos en el cuerpo, permitiendo que crezcan hongos como la Candida, causando aftas blancas en la boca o infección vaginal. Si esto ocurre, consulte a su médico para un tratamiento antimicótico."
+    },
+    {
+      "q": "Mi hijo tiene una infección, ¿se le puede dar oxacilina?",
+      "a": "Sí, la oxacilina se puede usar en niños, incluso en recién nacidos, pero la dosis se calcula cuidadosamente según el peso del niño. Siempre debe ser recetada y supervisada por un pediatra."
+    },
+    {
+      "q": "¿Qué pasa si tomo más de la dosis indicada por error?",
+      "a": "Una sobredosis puede causar síntomas graves como convulsiones, vómitos intensos y desequilibrios corporales. Si toma una dosis mucho mayor a la recetada, acuda de inmediato a un servicio de urgencias o llame al centro de toxicología, llevando el medicamento."
+    },
+    {
+      "q": "¿La oxacilina sirve para infecciones de vías urinarias (IVU)?",
+      "a": "Generalmente NO. La oxacilina tiene un espectro de acción muy específico para ciertas bacterias (principalmente estafilococos), que no son las causas comunes de las IVU (que suelen ser E. coli). Su médico elegirá un antibiótico más apropiado para ese tipo de infección."
+    },
+    {
+      "q": "¿Por qué me piden tantos análisis de sangre mientras me inyectan oxacilina?",
+      "a": "Para monitorear dos cosas principales: 1) La función del hígado, porque la oxacilina puede causar inflamación hepática (hepatitis). 2) Los glóbulos blancos, porque en raros casos puede bajarlos. Es una medida de seguridad en tratamientos largos."
+    },
+    {
+      "q": "¿Es lo mismo oxacilina que amoxicilina/clavulánico (Augmentin)?",
+      "a": "No. Ambas son penicilinas, pero son diferentes. La oxacilina es resistente a una enzima específica de los estafilococos. El Augmentin combina amoxicilina con clavulanato para cubrir un espectro más amplio de bacterias, incluyendo algunas que la oxacilina no cubre."
+    },
+    {
+      "q": "Me salieron ronchas en la piel, ¿es alergia?",
+      "a": "Puede ser. La aparición de un exantema (ronchas, salpullido) es un efecto secundario común de las penicilinas. Debe informar a su médico de inmediato. Si las ronchas vienen con dificultad para respirar, hinchazón de cara/lengua o mareo, es una emergencia médica (anafilaxia)."
+    },
+    {
+      "q": "¿La oxacilina es buena para el acné?",
+      "a": "No es un tratamiento de primera línea para el acné. Aunque algunos estafilococos pueden estar involucrados, existen antibióticos tópicos y orales más específicos y seguros para el tratamiento prolongado del acné. No se automedique con oxacilina para esto."
+    },
+    {
+      "q": "¿Puedo guardar lo que sobró del tratamiento para usarlo después?",
+      "a": "NO. Nunca guarde antibióticos sobrantes para automedicarse en el futuro. Cada infección es diferente y requiere un diagnóstico preciso. El uso inadecuado de antibióticos promueve la resistencia bacteriana, haciendo que después no funcionen cuando de verdad se necesiten."
+    },
+    {
+      "q": "¿Qué significa que una bacteria sea 'resistente a la oxacilina' (ORSA/MRSA)?",
+      "a": "Significa que la bacteria (generalmente Staphylococcus aureus) ha desarrollado mecanismos para que la oxacilina no pueda matarla. MRSA es la abreviatura de 'Staphylococcus aureus resistente a la meticilina' (y por tanto, también a la oxacilina). Para estas bacterias, se necesitan otros antibióticos más potentes."
+    },
+    {
+      "q": "¿Por qué a veces combinan la oxacilina con otro antibiótico como la gentamicina?",
+      "a": "En infecciones muy graves como la endocarditis (infección de las válvulas del corazón), usar dos antibióticos (oxacilina + gentamicina) durante los primeros días tiene un efecto 'sinérgico', es decir, juntos matan a la bacteria más rápido y de manera más completa que cada uno por separado, mejorando las posibilidades de curación."
+    }
+  ]
+}

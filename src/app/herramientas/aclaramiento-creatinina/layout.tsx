@@ -7,7 +7,10 @@ export const metadata: Metadata = {
         title: '🧪 Aclaramiento de Creatinina',
         description: 'mL / minuto',
         type: 'website',
-    }
+    },
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/herramientas/aclaramiento-creatinina',
+    },
 };
 
 export default function ToolLayout({ children }: { children: React.ReactNode }) {

@@ -7,7 +7,10 @@ export const metadata: Metadata = {
         title: '🚹 Índice PSA Libre/Total',
         description: 'Calculadora e información médica sobre 🚹 Índice PSA Libre/Total. Cotiza tus estudios de laboratorio hoy mismo en Pachuca, Tulancingo y CDMX.',
         type: 'website',
-    }
+    },
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/herramientas/indice-psa',
+    },
 };
 
 export default function ToolLayout({ children }: { children: React.ReactNode }) {

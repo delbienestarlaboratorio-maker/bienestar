@@ -7,7 +7,10 @@ export const metadata: Metadata = {
         title: '🍻 Alcoholímetro Virtual',
         description: 'Calculadora predictiva de Intoxicación y Cruda (Resaca)',
         type: 'website',
-    }
+    },
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/herramientas/calculadora-alcohol',
+    },
 };
 
 export default function ToolLayout({ children }: { children: React.ReactNode }) {

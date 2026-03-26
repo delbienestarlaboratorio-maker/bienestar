@@ -8,6 +8,8 @@ import { db } from '@/db';
 import { studies as dbStudies } from '@/db/schema';
 import { eq, and } from 'drizzle-orm';
 
+import { Metadata } from 'next';
+
 const categories = [
     {
         id: 'analisis-clinicos',
@@ -22,6 +24,20 @@ interface PageProps {
         categoria: string;
     }>;
 }
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+    const { categoria } = await params;
+    const category = categories.find(cat => cat.id === categoria);
+    const name = category?.name || categoria.replace(/-/g, ' ');
+    return {
+        title: `${name} | Estudios de Laboratorio — Laboratorio Del Bienestar`,
+        description: category?.description || `Explora todos los estudios de ${name} disponibles en Laboratorio Del Bienestar, Tizayuca, Hidalgo.`,
+        alternates: {
+            canonical: `https://laboratorio.delbienestar.com.mx/estudios/${categoria}`,
+        },
+    };
+}
+
 
 export default async function CategoryPage({ params }: PageProps) {
     const { categoria } = await params;

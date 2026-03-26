@@ -1,0 +1,406 @@
+{
+  "name": "Nafcilina",
+  "summary": "La nafcilina es un antibiótico potente del grupo de las penicilinas resistentes a penicilinasas, diseñado específicamente para combatir infecciones graves causadas por bacterias del tipo estafilococo, especialmente aquellas que han desarrollado resistencia a la penicilina común. Se utiliza principalmente en el tratamiento de infecciones como la endocarditis (infección del corazón), osteomielitis (infección de los huesos), neumonía, sepsis (infección en la sangre) y abscesos profundos causados por Staphylococcus aureus sensible a meticilina (MSSA). Su importancia clínica radica en que sigue siendo un pilar fundamental en el manejo de infecciones estafilocócicas graves, especialmente en entornos hospitalarios, donde estas bacterias pueden causar enfermedades que ponen en riesgo la vida. A diferencia de otras penicilinas, la nafcilina es estable frente a enzimas bacterianas (penicilinasas) que destruyen a la penicilina G, lo que la hace efectiva contra un espectro más amplio de infecciones por estafilococos. Debido a su potencia y a que generalmente se administra por vía intravenosa en un hospital, es un medicamento que requiere supervisión médica estrecha para asegurar su efectividad y minimizar sus posibles efectos adversos.",
+  "pharmacology": {
+    "mechanismOfAction": "La nafcilina actúa como un antibiótico bactericida, lo que significa que mata directamente a las bacterias. Su mecanismo se basa en interferir con la síntesis de la pared celular bacteriana, una estructura esencial que protege y da forma a la bacteria. Específicamente, la nafcilina se une a unas proteínas llamadas Proteínas Fijadoras de Penicilina (PBP) que se encuentran en la membrana bacteriana. Estas proteínas son cruciales para el último paso de la construcción de la pared celular, que es la formación de enlaces cruzados entre las cadenas de peptidoglicano. Al unirse a las PBP, la nafcilina bloquea esta actividad de entrecruzamiento. Como resultado, la pared celular se debilita, se vuelve defectuosa y no puede soportar la presión osmótica interna de la bacteria. Esto lleva a la entrada masiva de agua, la hinchazón y finalmente la ruptura (lisis) y muerte de la bacteria. Su ventaja clave es que es resistente a la hidrólisis por las enzimas penicilinasas (beta-lactamasas) producidas por muchos estafilococos, lo que le permite mantener su actividad donde otras penicilinas fallan.",
+    "pharmacologicClass": "Antibiótico beta-lactámico; Penicilina semisintética resistente a penicilinasas (antiestafilocócica).",
+    "therapeuticClass": "Antibiótico sistémico.",
+    "absorption": "La absorción oral es errática e incompleta (aprox. 10-30%), por lo que su uso por vía oral es limitado y poco recomendado. Para lograr concentraciones terapéuticas adecuadas en infecciones graves, se administra casi exclusivamente por vía intravenosa (IV) o intramuscular (IM) profunda. Por vía IV, la biodisponibilidad es del 100%, alcanzando concentraciones plasmáticas máximas inmediatamente al final de la infusión.",
+    "distribution": "Se distribuye ampliamente en la mayoría de los tejidos y fluidos corporales, incluyendo hueso, líquido sinovial, pleural y peritoneal. Atraviesa la barrera placentaria y se encuentra en la leche materna en bajas concentraciones. Su penetración al líquido cefalorraquídeo (LCR) es pobre en meninges no inflamadas, pero mejora significativamente cuando hay meningitis. Su unión a proteínas plasmáticas es alta, aproximadamente del 70-90%.",
+    "metabolism": "La nafcilina sufre metabolismo hepático extenso, principalmente por desacetilación. No es un sustrato significativo del sistema de enzimas citocromo P450 (CYP), por lo que las interacciones farmacocinéticas a nivel de este sistema son mínimas. Una parte del fármaco se convierte en metabolitos inactivos que se excretan.",
+    "elimination": "Se elimina principalmente por vía biliar (hasta un 80%) en forma de metabolitos activos e inactivos, y una porción menor (10-30%) se excreta sin cambios por la orina. Su vida media de eliminación es de aproximadamente 30 a 60 minutos en adultos con función hepática normal. En pacientes con disfunción hepática, la vida media puede prolongarse significativamente. La hemodiálisis no elimina eficazmente la nafcilina del torrente sanguíneo.",
+    "onsetOfAction": "El inicio de acción es rápido. Las concentraciones bactericidas en suero se alcanzan minutos después del inicio de una infusión intravenosa.",
+    "durationOfAction": "Debido a su corta vida media, requiere administraciones frecuentes (cada 4-6 horas) para mantener concentraciones séricas por encima de la Concentración Inhibitoria Mínima (CIM) de las bacterias objetivo y así garantizar un efecto continuo."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones graves por Staphylococcus aureus sensible a meticilina (MSSA): Incluyendo bacteriemia, sepsis y endocarditis.",
+      "Infecciones del tracto respiratorio inferior: Neumonía estafilocócica grave.",
+      "Infecciones de piel y tejidos blandos graves: Celulitis, abscesos, heridas infectadas.",
+      "Infecciones osteoarticulares: Osteomielitis (infección del hueso) y artritis séptica.",
+      "Meningitis estafilocócica (aunque la penetración al LCR puede ser variable)."
+    ],
+    "offLabel": [
+      "Profilaxis perioperatoria en cirugías con alto riesgo de infección por estafilococos (cuando no hay disponibilidad de otros agentes o por resistencia).",
+      "Tratamiento de infecciones por estafilococos coagulasa-negativos sensibles en dispositivos médicos (ej. catéteres) cuando no se puede retirar el dispositivo de inmediato."
+    ]
+  },
+  "dosage": {
+    "adults": "Dosis intravenosa típica: 1 a 2 gramos cada 4-6 horas, dependiendo de la gravedad de la infección. Para endocarditis o infecciones del sistema nervioso central, las dosis pueden ser de 2 gramos cada 4 horas. La infusión IV debe realizarse en 30-60 minutos.",
+    "pediatric": "Recién nacidos (≤ 7 días, ≤ 2000 g): 25 mg/kg cada 12 horas. Recién nacidos (≤ 7 días, >2000 g): 25 mg/kg cada 8 horas. Recién nacidos (8-28 días): 25 mg/kg cada 6 horas. Lactantes y niños: 50 a 100 mg/kg/día divididos en 4-6 dosis (cada 4-6 horas). Dosis máxima pediátrica: 12 g/día (pero rara vez se necesita).",
+    "elderly": "No se requiere ajuste de dosis basado únicamente en la edad. Sin embargo, se debe evaluar la función renal y hepática, y considerar una posible reducción de la dosis o un intervalo más largo si hay disfunción hepática significativa.",
+    "renalImpairment": "No se requiere ajuste significativo en insuficiencia renal leve a moderada (TFG >30 mL/min). En insuficiencia renal grave (TFG <30 mL/min) o en diálisis, la dosis puede requerir ajuste debido a la acumulación de metabolitos y al riesgo aumentado de neurotoxicidad. Se recomienda monitoreo estrecho. La hemodiálisis no elimina la nafcilina de manera eficiente.",
+    "hepaticImpairment": "Se requiere AJUSTE DE DOSIS. La nafcilina se metaboliza y elimina principalmente por el hígado. En pacientes con enfermedad hepática (cirrosis, colestasis), la vida media se prolonga y puede haber acumulación del fármaco. Se recomienda reducir la dosis total diaria o aumentar el intervalo entre dosis (ej., cada 8 horas) y monitorear signos de toxicidad.",
+    "maxDose": "La dosis máxima diaria en adultos es generalmente de 12 gramos, aunque en infecciones muy graves (como endocarditis por S. aureus) se han utilizado dosis de hasta 12-18 g/día bajo estricta supervisión médica."
+  },
+  "dosageForms": [
+    {
+      "form": "Polvo liofilizado para inyección (reconstituir)",
+      "strengths": [
+        "500 mg",
+        "1 g",
+        "2 g"
+      ],
+      "route": "Intravenosa (IV) o Intramuscular (IM) profunda"
+    },
+    {
+      "form": "Cápsula",
+      "strengths": [
+        "250 mg"
+      ],
+      "route": "Oral (uso limitado y poco común)"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad (alergia) conocida y grave a la nafcilina, a cualquier otra penicilina o a cualquier componente de la formulación.",
+      "Antecedentes de reacción alérgica inmediata o grave (anafilaxia) a cualquier antibiótico beta-lactámico (penicilinas, cefalosporinas, carbapenémicos, monobactámicos)."
+    ],
+    "relative": [
+      "Enfermedad hepática significativa (cirrosis, hepatitis activa).",
+      "Mononucleosis infecciosa (aumenta el riesgo de exantema).",
+      "Insuficiencia renal grave (ajustar dosis y monitorear).",
+      "Antecedentes de colitis asociada a antibióticos."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Dolor, flebitis (irritación de la vena), induración o inflamación en el sitio de la inyección intravenosa."
+    ],
+    "common": [
+      "Náuseas, vómitos, diarrea.",
+      "Erupción cutánea (exantema) no alérgica.",
+      "Prurito (comezón).",
+      "Pruebas de función hepática elevadas (transaminasas)."
+    ],
+    "uncommon": [
+      "Fiebre por fármaco.",
+      "Eosinofilia (aumento de un tipo de glóbulos blancos).",
+      "Leucopenia o neutropenia (disminución de glóbulos blancos).",
+      "Trombocitopenia (disminución de plaquetas).",
+      "Colitis pseudomembranosa (diarrea grave por C. difficile)."
+    ],
+    "rare": [
+      "Reacción anafiláctica (alergia grave con dificultad para respirar).",
+      "Nefritis intersticial (daño renal agudo).",
+      "Hepatitis colestásica (ictericia, picazón intensa).",
+      "Neurotoxicidad (convulsiones, especialmente con dosis altas en insuficiencia renal).",
+      "Agranulocitosis (pérdida severa de glóbulos blancos)."
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Warfarina y otros anticoagulantes cumarínicos",
+        "effect": "La nafcilina puede INDUCIR las enzimas hepáticas que metabolizan la warfarina, disminuyendo su efecto anticoagulante y aumentando el riesgo de coágulos. Se requiere monitoreo frecuente del INR y ajuste de dosis.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Ciclosporina",
+        "effect": "La nafcilina puede disminuir las concentraciones plasmáticas de ciclosporina al inducir su metabolismo, reduciendo su efectividad inmunosupresora y aumentando el riesgo de rechazo de trasplante.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Metotrexato",
+        "effect": "Las penicilinas pueden reducir la eliminación renal del metotrexato, aumentando sus concentraciones en sangre y el riesgo de toxicidad grave (mielosupresión, mucositis).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Anticonceptivos orales con estrógenos",
+        "effect": "Puede disminuir la efectividad de los anticonceptivos hormonales al alterar la flora intestinal y posiblemente inducir enzimas hepáticas, aumentando el riesgo de embarazo no deseado. Se recomienda método anticonceptivo de respaldo.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Si se administra por vía oral (raro), debe tomarse con el estómago vacío (1 hora antes o 2 horas después de los alimentos) para mejorar su absorción errática, aunque sigue siendo baja. El alcohol debe evitarse, ya que puede aumentar el riesgo de efectos adversos gastrointestinales y hepatotóxicos.",
+    "withSupplements": "No se conocen interacciones clínicamente significativas con suplementos vitamínicos o herbales comunes. Sin embargo, se debe evitar el uso concomitante de probióticos sin consultar al médico, ya que en algunos casos de diarrea grave podría no ser recomendable."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "B",
+      "recommendation": "Estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. La nafcilina cruza la placenta. Debe usarse durante el embarazo solo si claramente es necesario, evaluando el beneficio para la madre frente al riesgo potencial para el feto. Es una opción considerada para el tratamiento de infecciones estafilocócicas graves en embarazadas.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La nafcilina se excreta en la leche materna en bajas concentraciones. Se considera generalmente compatible con la lactancia, ya que es poco probable que cause efectos adversos significativos en el lactante. Sin embargo, se debe observar al bebé por posibles efectos como diarrea, candidiasis (hongos) o erupción cutánea. Se recomienda consultar con el médico.",
+    "pediatric": "Es seguro y efectivo en niños para el tratamiento de infecciones graves por estafilococos sensibles. Las dosis se calculan cuidadosamente según el peso corporal. La vía de elección es la intravenosa. Se debe monitorizar la función hepática y los recuentos sanguíneos durante tratamientos prolongados.",
+    "geriatric": "Los pacientes mayores pueden tener una función renal o hepática disminuida, lo que afecta la eliminación de la nafcilina. Se requiere evaluación de la función hepática antes y durante el tratamiento. Son más susceptibles a los efectos adversos, especialmente la colitis por C. difficile y las alteraciones electrolíticas por diarrea. La dosis debe ajustarse según la función hepática."
+  },
+  "administration": {
+    "howToTake": "La nafcilina se administra casi siempre en un hospital por vía intravenosa (IV). Un profesional de la salud reconstituye el polvo con un líquido estéril (agua para inyección o solución salina) y lo administra mediante una infusión lenta en una vena, generalmente durante 30 a 60 minutos, para minimizar la irritación. Si se prescribe por vía intramuscular (IM), se inyecta profundamente en un músculo grande (glúteo). La administración oral es muy poco común y debe seguirse estrictamente según las indicaciones del médico, generalmente con el estómago vacío.",
+    "storage": "El polvo liofilizado para inyección debe almacenarse a temperatura ambiente (15-30°C), protegido de la luz y la humedad. Una vez reconstituido, la solución es estable a temperatura ambiente por 24 horas y refrigerada (2-8°C) por 96 horas, dependiendo del diluyente. Consulte la información del fabricante. Nunca congelar.",
+    "specialInstructions": "Es fundamental completar TODO el tratamiento prescrito, incluso si el paciente se siente mejor a los pocos días, para evitar que la infección regrese y para prevenir el desarrollo de bacterias resistentes. Informar inmediatamente al médico si aparece sarpullido, dificultad para respirar, hinchazón de cara/lengua, diarrea acuosa o con sangre, o ictericia (coloración amarilla de piel/ojos)."
+  },
+  "monitoring": {
+    "labTests": [
+      "Cultivo y antibiograma del sitio de infección (antes de iniciar tratamiento).",
+      "Recuento sanguíneo completo (CSC) con diferencial: semanalmente en tratamientos prolongados (>2 semanas).",
+      "Pruebas de función hepática (AST, ALT, FA, bilirrubina): al inicio y periódicamente.",
+      "Pruebas de función renal (creatinina sérica, BUN): al inicio.",
+      "Tiempos de coagulación (INR) si el paciente toma warfarina."
+    ],
+    "frequency": "CSC y función hepática: semanal o cada 2 semanas en tratamientos prolongados. Monitoreo clínico diario de signos de mejoría de la infección y de efectos adversos.",
+    "signsToWatch": [
+      "Fiebre persistente o que reaparece.",
+      "Diarrea acuosa, con moco o sangre (posible colitis por C. difficile).",
+      "Erupción cutánea, urticaria, picazón intensa.",
+      "Hinchazón de cara, labios, lengua o garganta; dificultad para respirar (anafilaxia).",
+      "Coloración amarillenta de piel u ojos (ictericia).",
+      "Moretones o sangrado inusuales (por trombocitopenia).",
+      "Dolor o hinchazón severa en el sitio de la inyección IV."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Convulsiones (especialmente en pacientes con insuficiencia renal).",
+      "Alteraciones neurológicas (confusión, alucinaciones).",
+      "Náuseas, vómitos y diarrea severa.",
+      "Alteraciones electrolíticas (por pérdida gastrointestinal).",
+      "Posible exacerbación de efectos adversos hematológicos y hepáticos."
+    ],
+    "treatment": "El tratamiento es de soporte y sintomático. No hay antídoto específico. Se debe suspender inmediatamente la administración de nafcilina. Mantener la vía aérea, la respiración y la circulación. Las convulsiones se tratan con benzodiacepinas (diazepam, lorazepam). La hemodiálisis NO es efectiva para eliminar la nafcilina, pero puede ser útil para corregir desequilibrios electrolíticos o en caso de insuficiencia renal concurrente.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especializada (generalmente de uso hospitalario).",
+    "scheduleMexico": "Medicamento de la Fracción IV (sustancias que requieren receta médica y pueden causar dependencia, aunque la nafcilina no causa dependencia, su potencia la clasifica aquí).",
+    "fdaApprovalYear": "Aprobado por la FDA de Estados Unidos en la década de 1960."
+  },
+  "brandsMexico": [
+    "Nafcil® (Pfizer)",
+    "Nafcilina Sódica® (varios genéricos de laboratorios nacionales como PISA, Liomont, etc.)"
+  ],
+  "clinicalPearls": [
+    "La nafcilina es el antibiótico de referencia para el tratamiento de infecciones graves por S. aureus sensible a meticilina (MSSA). No es activa contra S. aureus resistente a meticilina (MRSA).",
+    "La flebitis (irritación de la vena) es un efecto adverso común. Se puede minimizar usando venas grandes para la infusión, diluyendo bien el fármaco e infundiendo lentamente (30-60 min).",
+    "La inducción enzimática hepática por nafcilina puede disminuir los niveles de muchos fármacos (warfarina, ciclosporina, anticonceptivos), requiriendo ajustes de dosis y monitoreo estrecho.",
+    "En infecciones por estafilococos, la terapia debe ser prolongada (semanas) para evitar recaídas, especialmente en endocarditis y osteomielitis.",
+    "La resistencia a la nafcilina en estafilococos es rara pero puede ocurrir; siempre se debe guiar el tratamiento por cultivo y antibiograma."
+  ],
+  "patientCounseling": "La nafcilina es un antibiótico fuerte que se usa para infecciones graves y generalmente se administra en el hospital por una vena (suero). Es crucial que reciba todas las dosis indicadas por el tiempo que su médico le diga, aunque se sienta mejor pronto. Si le dan de alta con tratamiento oral (muy raro), tómelo con el estómago vacío. Informe de inmediato a su médico o enfermera si presenta sarpullido, comezón, dificultad para respirar, hinchazón de cara o lengua, diarrea líquida o con sangre, o si la piel se pone amarilla. Este medicamento puede reducir la efectividad de las pastillas anticonceptivas; use un método adicional de barrera (condón) durante el tratamiento. Si está embarazada, planea estarlo o está amamantando, informe a su médico antes de iniciar el tratamiento.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre",
+        "slug": "fiebre"
+      },
+      {
+        "name": "Dolor óseo intenso",
+        "slug": "dolor-oseo"
+      },
+      {
+        "name": "Escalofríos y sudoración",
+        "slug": "escalofrios-sudoracion"
+      },
+      {
+        "name": "Tos con flemas purulentas",
+        "slug": "tos-flemas"
+      },
+      {
+        "name": "Enrojecimiento e hinchazón de la piel",
+        "slug": "enrojecimiento-hinchazon-piel"
+      },
+      {
+        "name": "Dificultad para respirar",
+        "slug": "disnea"
+      },
+      {
+        "name": "Fatiga extrema",
+        "slug": "fatiga-extrema"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Endocarditis infecciosa",
+        "slug": "endocarditis-infecciosa"
+      },
+      {
+        "name": "Osteomielitis",
+        "slug": "osteomielitis"
+      },
+      {
+        "name": "Neumonía adquirida en la comunidad (grave)",
+        "slug": "neumonia-comunitaria"
+      },
+      {
+        "name": "Sepsis o bacteriemia",
+        "slug": "sepsis"
+      },
+      {
+        "name": "Artritis séptica",
+        "slug": "artritis-septica"
+      },
+      {
+        "name": "Celulitis grave",
+        "slug": "celulitis"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Colitis pseudomembranosa",
+        "slug": "colitis-pseudomembranosa"
+      },
+      {
+        "name": "Hepatitis colestásica",
+        "slug": "hepatitis-colestasica"
+      },
+      {
+        "name": "Nefritis intersticial aguda",
+        "slug": "nefritis-intersticial"
+      },
+      {
+        "name": "Anafilaxia",
+        "slug": "anafilaxia"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "AST (TGO)",
+        "slug": "ast-tgo",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "ALT (TGP)",
+        "slug": "alt-tgp",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Fosfatasa Alcalina",
+        "slug": "fosfatasa-alcalina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Recuento de neutrófilos",
+        "slug": "neutrofilos",
+        "effect": "Puede disminuir (neutropenia)"
+      },
+      {
+        "name": "Recuento de plaquetas",
+        "slug": "plaquetas",
+        "effect": "Puede disminuir (trombocitopenia)"
+      },
+      {
+        "name": "INR (si toma warfarina)",
+        "slug": "inr",
+        "effect": "Puede disminuir (reduce efecto anticoagulante)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Cultivo y antibiograma",
+        "slug": "cultivo-antibiograma",
+        "reason": "Para identificar la bacteria causante y confirmar su sensibilidad a la nafcilina."
+      },
+      {
+        "name": "Biometría Hemática Completa",
+        "slug": "biometria-hematica",
+        "reason": "Para monitorear posibles efectos en glóbulos blancos y plaquetas durante tratamientos largos."
+      },
+      {
+        "name": "Perfil Hepático",
+        "slug": "perfil-hepatico",
+        "reason": "Para detectar tempranamente toxicidad hepática inducida por el fármaco."
+      },
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "reason": "Para evaluar la función renal antes y durante el tratamiento."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de eGFR",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué tipo de infecciones me recetaron nafcilina?",
+      "a": "La nafcilina se usa para infecciones graves causadas por un tipo específico de bacteria llamada estafilococo, como infecciones en la sangre (sepsis), en los huesos (osteomielitis), en el corazón (endocarditis) o neumonías graves. Es un antibiótico muy fuerte que generalmente se administra en el hospital."
+    },
+    {
+      "q": "¿Por qué me la ponen en el suero y no en pastillas?",
+      "a": "Porque la nafcilina no se absorbe bien del estómago si se toma en pastillas. Para asegurar que llegue suficiente medicina a su sangre y combata la infección de manera efectiva, es necesario administrarla directamente en una vena (intravenosa)."
+    },
+    {
+      "q": "¿Cuánto tiempo voy a estar con este tratamiento?",
+      "a": "El tiempo depende de la infección que tenga. Para infecciones graves como en los huesos o el corazón, el tratamiento puede durar varias semanas (4 a 6 semanas o más). Es MUY IMPORTANTE completar todo el tratamiento, aunque se sienta mejor, para evitar que la infección regrese."
+    },
+    {
+      "q": "La vena donde me ponen el suero se me pone roja y duele, ¿es normal?",
+      "a": "Sí, es un efecto común llamado flebitis. La nafcilina puede irritar la vena. Informe a la enfermera para que pueda cambiar el sitio de la inyección, usar una vena más grande o ajustar la velocidad del suero. Aplicar compresas tibias puede ayudar a aliviar la molestia."
+    },
+    {
+      "q": "¿Puedo tomar alcohol mientras estoy con nafcilina?",
+      "a": "No se recomienda. El alcohol puede aumentar el riesgo de malestar estomacal y, lo más importante, puede empeorar el posible efecto de la nafcilina en el hígado. Es mejor evitarlo hasta terminar el tratamiento."
+    },
+    {
+      "q": "Me salió un sarpullido, ¿debo preocuparme?",
+      "a": "Un sarpullido puede ser un efecto secundario común, pero también puede ser signo de alergia. DEBE INFORMARLO INMEDIATAMENTE a su médico o enfermera, especialmente si viene acompañado de comezón intensa, hinchazón de cara/labios o dificultad para respirar."
+    },
+    {
+      "q": "¿La nafcilina afecta a las pastillas anticonceptivas?",
+      "a": "Sí, puede disminuir su efectividad. Durante el tratamiento con nafcilina y hasta una semana después de terminarlo, debe usar un método anticonceptivo adicional de barrera, como condón, para prevenir un embarazo no planeado."
+    },
+    {
+      "q": "¿Puedo comer normalmente mientras me dan este medicamento?",
+      "a": "Sí, puede comer normalmente. Si por alguna razón rara le dieran nafcilina en pastillas, debería tomarla con el estómago vacío (1 hora antes o 2 horas después de comer). Pero como casi siempre es intravenosa, su alimentación no interfiere."
+    },
+    {
+      "q": "Tengo diarrea desde que empecé el tratamiento, ¿qué hago?",
+      "a": "La diarrea leve es común. Sin embargo, si la diarrea es muy líquida, abundante, con sangre o moco, o viene con fiebre y dolor abdominal, puede ser una infección grave llamada colitis por C. difficile. DEBE AVISAR A SU MÉDICO DE INMEDIATO."
+    },
+    {
+      "q": "¿La nafcilina me puede dar sueño o mareos?",
+      "a": "No es un efecto común. Sin embargo, si recibe dosis muy altas o tiene problemas renales, podría causar efectos neurológicos como confusión o convulsiones. Si siente algo inusual, informe a su médico."
+    },
+    {
+      "q": "¿Es lo mismo nafcilina que penicilina?",
+      "a": "Son de la misma familia (penicilinas), pero la nafcilina es una versión más resistente. Muchas bacterias han aprendido a destruir la penicilina común, pero no pueden con la nafcilina. Por eso se usa para infecciones por estafilococos resistentes."
+    },
+    {
+      "q": "Si soy alérgico a la penicilina, ¿puedo usar nafcilina?",
+      "a": "NO. La nafcilina ES una penicilina. Si tiene alergia conocida y grave a la penicilina (como dificultad para respirar o hinchazón), está absolutamente contraindicado usarla. Su médico le recetará un antibiótico de otra familia."
+    },
+    {
+      "q": "¿Qué pasa si me olvido de una dosis en el hospital?",
+      "a": "En el hospital, el personal está programado para administrar las dosis a tiempo. Si por algún error se retrasa, avise a la enfermera. Nunca intente 'ponerse doble dosis' para compensar. El médico ajustará el horario."
+    },
+    {
+      "q": "¿La nafcilina daña los riñones o el hígado?",
+      "a": "Puede afectar al hígado, causando elevación de enzimas hepáticas y, en raros casos, hepatitis. Por eso se hacen análisis de sangre para monitorearlo. El daño renal directo es menos común, pero puede ocurrir. Su médico vigilará ambos órganos con análisis."
+    },
+    {
+      "q": "¿Por qué me hacen tantos análisis de sangre mientras estoy con este tratamiento?",
+      "a": "Para asegurarse de que el medicamento esté funcionando y no esté causando efectos adversos graves. Revisan los glóbulos blancos, las plaquetas y la función del hígado, especialmente si el tratamiento es prolongado (más de 2 semanas)."
+    },
+    {
+      "q": "¿Puedo recibir nafcilina si estoy embarazada?",
+      "a": "Solo si es estrictamente necesario y bajo supervisión médica. La nafcilina cruza la placenta, pero es una opción considerada para infecciones graves en embarazadas cuando los beneficios superan los riesgos. Su médico lo decidirá."
+    },
+    {
+      "q": "¿Sirve la nafcilina para todas las infecciones por estafilococos?",
+      "a": "No. Solo sirve para los estafilococos 'sensibles a meticilina' (MSSA). Existe una variedad resistente llamada MRSA, contra la cual la nafcilina NO funciona. Por eso es crucial hacer un cultivo para saber qué bacteria es y a qué antibiótico es sensible."
+    },
+    {
+      "q": "¿Qué hago si veo que la solución del suero tiene partículas o está turbia?",
+      "a": "No debe usarse. La solución reconstituida de nafcilina debe ser clara. Avise inmediatamente a la enfermera o farmacéutico para que preparen una nueva dosis. Nunca use medicamentos intravenosos que parezcan anormales."
+    },
+    {
+      "q": "¿La nafcilina interactúa con otros medicamentos que tomo?",
+      "a": "Sí, de manera importante. Puede disminuir el efecto de la warfarina (anticoagulante), la ciclosporina (para trasplantes) y los anticonceptivos orales. INFORME A SU MÉDICO SOBRE TODOS los medicamentos, hierbas o suplementos que usa."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre nafcilina y vancomicina?",
+      "a": "Ambas son para infecciones graves por estafilococos, pero la vancomicina se usa principalmente para los resistentes (MRSA), mientras que la nafcilina es la primera opción para los sensibles (MSSA). La nafcilina suele ser más efectiva y menos tóxica para los riñones que la vancomicina cuando la bacteria es sensible."
+    }
+  ]
+}

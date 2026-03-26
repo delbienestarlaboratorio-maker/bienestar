@@ -7,7 +7,10 @@ export const metadata: Metadata = {
         title: '💼 Test de Burnout (Síndrome del Quemado)',
         description: 'Descubre si tu trabajo está acabando con tu cuerpo y mente',
         type: 'website',
-    }
+    },
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/herramientas/sindrome-burnout',
+    },
 };
 
 export default function ToolLayout({ children }: { children: React.ReactNode }) {

@@ -4,7 +4,10 @@ import { InvoiceForm } from '@/components/facturacion/InvoiceForm';
 
 export const metadata = {
     title: 'Facturación Electrónica | Laboratorio Del Bienestar',
-    description: 'Solicita tu factura electrónica CFDI 4.0. Proceso rápido y seguro. Recibe tu factura en 24-48 horas.',
+    description: 'Solicita tu factura electrónica CFDI 4.0. Proceso rápido y seguro. Recibe tu factura en 24-48 horas.',,
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/facturacion',
+    },
 };
 
 // Force rebuild - 2026-02-08

@@ -7,7 +7,10 @@ export const metadata: Metadata = {
         title: '✨ Cuestionario: Personas Altamente Sensibles (PAS)',
         description: '¿Sientes el mundo con más intensidad que los demás?',
         type: 'website',
-    }
+    },
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/herramientas/toxicidad-religiosa',
+    },
 };
 
 export default function ToolLayout({ children }: { children: React.ReactNode }) {

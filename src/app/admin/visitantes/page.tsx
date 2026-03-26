@@ -6,7 +6,10 @@ import { neon } from '@neondatabase/serverless';
 export const runtime = 'edge';
 
 export const metadata: Metadata = {
-    title: 'Visitantes | Inteligencia | Tilde Admin',
+    title: 'Visitantes | Inteligencia | Tilde Admin',,
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/admin/visitantes',
+    },
 };
 
 // Interfaces

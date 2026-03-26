@@ -10,7 +10,10 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Guía Médica: Ardor al Orinar (Disuria)",
         description: "Todo lo que necesitas saber antes de ir de urgencias sobre ardor al orinar (disuria)."
-    }
+    },
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/sintomas/ardor-al-orinar',
+    },
 };
 
 export default function SymptomPage() {

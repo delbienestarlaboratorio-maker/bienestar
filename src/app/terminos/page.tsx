@@ -3,7 +3,10 @@ import { ArrowLeft, FileText, Scale, AlertCircle, CheckCircle } from 'lucide-rea
 
 export const metadata = {
     title: 'Términos y Condiciones | Laboratorio Del Bienestar',
-    description: 'Términos y Condiciones de Uso del sitio web y servicios de Laboratorio Del Bienestar. Derechos y obligaciones de los usuarios.',
+    description: 'Términos y Condiciones de Uso del sitio web y servicios de Laboratorio Del Bienestar. Derechos y obligaciones de los usuarios.',,
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/terminos',
+    },
 };
 
 // Force rebuild - 2026-02-08

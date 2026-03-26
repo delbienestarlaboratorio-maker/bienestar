@@ -7,7 +7,10 @@ export const metadata: Metadata = {
         title: '🦵 Test Rápido de Daño Articular (Rodillas)',
         description: 'Saber si tu desgaste es normal, o inminente artritis/lesión',
         type: 'website',
-    }
+    },
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/herramientas/calculadora-tipo-pisada',
+    },
 };
 
 export default function ToolLayout({ children }: { children: React.ReactNode }) {

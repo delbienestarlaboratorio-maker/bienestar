@@ -10,7 +10,10 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Guía Médica: Tos Productiva (Flemas)",
         description: "Todo lo que necesitas saber antes de ir de urgencias sobre tos productiva (flemas)."
-    }
+    },
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/sintomas/tos-con-flemas',
+    },
 };
 
 export default function SymptomPage() {

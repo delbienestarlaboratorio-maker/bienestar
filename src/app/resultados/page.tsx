@@ -7,7 +7,10 @@ const GOOGLE_REVIEW_LINK = "https://www.google.com/search?q=Laboratorio+Clinico+
 
 export const metadata = {
     title: 'Resultados en Línea | Laboratorio Del Bienestar',
-    description: 'Próximamente podrás consultar tus resultados de laboratorio en línea. Mientras tanto, contáctanos por WhatsApp.',
+    description: 'Próximamente podrás consultar tus resultados de laboratorio en línea. Mientras tanto, contáctanos por WhatsApp.',,
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/resultados',
+    },
 };
 
 export default function ResultadosPage() {

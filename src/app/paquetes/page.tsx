@@ -8,7 +8,10 @@ import { AdBanner } from '@/components/ui/AdBanner';
 export const metadata: Metadata = {
     title: 'Paquetes de Estudios Médicos | Laboratorio del Bienestar',
     description: '14 paquetes diseñados para tu salud con hasta 30% de descuento. Check-ups para ella, él, por edad y condición. Prevención, fertilidad, diabetes y más en Tizayuca.',
-    keywords: ['paquetes médicos', 'check-up mujer', 'check-up hombre', 'análisis clínicos paquete', 'estudios médicos descuento', 'tizayuca']
+    keywords: ['paquetes médicos', 'check-up mujer', 'check-up hombre', 'análisis clínicos paquete', 'estudios médicos descuento', 'tizayuca'],
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/paquetes',
+    },
 };
 
 // Mapeo de categorías a imágenes e íconos únicos

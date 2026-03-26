@@ -10,7 +10,10 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Guía Médica: Falta de Aire (Disnea)",
         description: "Todo lo que necesitas saber antes de ir de urgencias sobre falta de aire (disnea)."
-    }
+    },
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/sintomas/dificultad-respirar',
+    },
 };
 
 export default function SymptomPage() {

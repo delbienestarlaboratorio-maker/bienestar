@@ -10,7 +10,10 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Guía Médica: Sangre en Orina (Hematuria)",
         description: "Todo lo que necesitas saber antes de ir de urgencias sobre sangre en orina (hematuria)."
-    }
+    },
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/sintomas/sangre-orina',
+    },
 };
 
 export default function SymptomPage() {

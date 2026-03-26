@@ -10,7 +10,10 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Guía Médica: Retraso Menstrual Alarmante",
         description: "Todo lo que necesitas saber antes de ir de urgencias sobre retraso menstrual alarmante."
-    }
+    },
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/sintomas/retraso-menstrual',
+    },
 };
 
 export default function SymptomPage() {

@@ -7,7 +7,10 @@ export const metadata: Metadata = {
         title: '🤰 Fecha Probable de Parto',
         description: '{resultado.trimestre}',
         type: 'website',
-    }
+    },
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/herramientas/fecha-parto',
+    },
 };
 
 export default function ToolLayout({ children }: { children: React.ReactNode }) {

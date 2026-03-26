@@ -7,7 +7,10 @@ export const metadata: Metadata = {
         title: '❤️ Las 5 Formas de Amar',
         description: 'Descubre qué idioma del amor exiges y ofreces',
         type: 'website',
-    }
+    },
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/herramientas/test-lenguaje-amor',
+    },
 };
 
 export default function ToolLayout({ children }: { children: React.ReactNode }) {

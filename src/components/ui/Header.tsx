@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { Search, Menu, Phone, User, Heart, LogOut, Settings, X, TestTube, MapPin, Tag, FileText, Gift, HelpCircle, BookOpen, Info, Calculator, Stethoscope, Activity, ChevronDown } from 'lucide-react';
+import { Search, Menu, Phone, User, Heart, LogOut, Settings, X, TestTube, MapPin, Tag, FileText, Gift, HelpCircle, BookOpen, Info, Calculator, Stethoscope, Activity, ChevronDown, Pill } from 'lucide-react';
 import { SearchBar } from './SearchBar';
 import { CartBadge } from '@/components/cart/CartBadge';
 import { useState, useEffect } from 'react';
@@ -13,15 +13,16 @@ const mobileNavLinks = [
     { href: '/estudios/analisis-clinicos', label: 'Estudios', icon: TestTube, accent: 'text-green-600' },
     { href: '/paquetes', label: 'Paquetes', icon: Gift, accent: 'text-blue-600' },
     { href: '/check-ups', label: 'Check-Ups', icon: Heart, accent: 'text-pink-600' },
-    { href: '/sintomas', label: 'Síntomas A-Z', icon: Stethoscope, accent: 'text-rose-600' },
-    { href: '/enfermedades', label: 'Enfermedades CIE-10', icon: BookOpen, accent: 'text-blue-700' },
-    { href: '/valores-clinicos', label: 'Biomarcadores', icon: Activity, accent: 'text-indigo-600' },
+    { href: 'https://salud.delbienestar.com.mx/sintomas/', label: 'Síntomas A-Z', icon: Stethoscope, accent: 'text-rose-600' },
+    { href: 'https://salud.delbienestar.com.mx/enfermedades/', label: 'Enfermedades CIE-10', icon: BookOpen, accent: 'text-blue-700' },
+    { href: 'https://salud.delbienestar.com.mx/valores-clinicos/', label: 'Biomarcadores', icon: Activity, accent: 'text-indigo-600' },
+    { href: 'https://medicamentos.delbienestar.com.mx', label: 'Medicamentos', icon: Pill, accent: 'text-emerald-600' },
     { href: '/sucursales', label: 'Sucursales', icon: MapPin, accent: 'text-purple-600' },
     { href: '/promociones', label: 'Promociones', icon: Tag, accent: 'text-orange-600' },
     { href: '/nosotros', label: 'Nosotros', icon: Info, accent: 'text-cyan-600' },
-    { href: '/herramientas', label: 'Herramientas de Salud', icon: Calculator, accent: 'text-teal-600' },
+    { href: 'https://herramientas.delbienestar.com.mx/herramientas/', label: 'Herramientas de Salud', icon: Calculator, accent: 'text-teal-600' },
     { href: '/precios', label: 'Precios de Estudios', icon: Tag, accent: 'text-green-600' },
-    { href: '/blog', label: 'Blog de Salud', icon: BookOpen, accent: 'text-indigo-600' },
+    { href: 'https://salud.delbienestar.com.mx/blog/', label: 'Blog de Salud', icon: BookOpen, accent: 'text-indigo-600' },
     { href: '/faq', label: 'Preguntas Frecuentes', icon: HelpCircle, accent: 'text-amber-600' },
     { href: '/resultados', label: 'Resultados', icon: FileText, accent: 'text-emerald-700' },
 ];
@@ -93,27 +94,31 @@ export const Header = () => {
                             {showHerramientas && (
                                 <div className="absolute top-full left-0 pt-1 z-50">
                                     <div className="w-56 bg-white rounded-xl shadow-xl border border-gray-100 py-2">
-                                        <Link href="/sintomas" className="flex items-center gap-3 px-4 py-2.5 hover:bg-green-50 transition-colors" onClick={() => setShowHerramientas(false)}>
+                                        <a href="https://salud.delbienestar.com.mx/sintomas/" className="flex items-center gap-3 px-4 py-2.5 hover:bg-green-50 transition-colors" onClick={() => setShowHerramientas(false)}>
                                             <Stethoscope size={18} className="text-rose-500" />
                                             <span className="text-sm text-gray-700 font-medium">Síntomas A-Z</span>
-                                        </Link>
-                                        <Link href="/enfermedades" className="flex items-center gap-3 px-4 py-2.5 hover:bg-green-50 transition-colors" onClick={() => setShowHerramientas(false)}>
+                                        </a>
+                                        <a href="https://salud.delbienestar.com.mx/enfermedades/" className="flex items-center gap-3 px-4 py-2.5 hover:bg-green-50 transition-colors" onClick={() => setShowHerramientas(false)}>
                                             <BookOpen size={18} className="text-blue-600" />
                                             <span className="text-sm text-gray-700 font-medium">Enfermedades CIE-10</span>
-                                        </Link>
-                                        <Link href="/valores-clinicos" className="flex items-center gap-3 px-4 py-2.5 hover:bg-green-50 transition-colors" onClick={() => setShowHerramientas(false)}>
+                                        </a>
+                                        <a href="https://salud.delbienestar.com.mx/valores-clinicos/" className="flex items-center gap-3 px-4 py-2.5 hover:bg-green-50 transition-colors" onClick={() => setShowHerramientas(false)}>
                                             <Activity size={18} className="text-indigo-500" />
                                             <span className="text-sm text-gray-700 font-medium">Biomarcadores</span>
-                                        </Link>
-                                        <Link href="/herramientas" className="flex items-center gap-3 px-4 py-2.5 hover:bg-green-50 transition-colors" onClick={() => setShowHerramientas(false)}>
+                                        </a>
+                                        <a href="https://herramientas.delbienestar.com.mx/herramientas/" className="flex items-center gap-3 px-4 py-2.5 hover:bg-green-50 transition-colors" onClick={() => setShowHerramientas(false)}>
                                             <Calculator size={18} className="text-teal-600" />
                                             <span className="text-sm text-gray-700 font-medium">Calculadoras Médicas</span>
-                                        </Link>
+                                        </a>
+                                        <a href="https://medicamentos.delbienestar.com.mx" className="flex items-center gap-3 px-4 py-2.5 hover:bg-green-50 transition-colors" onClick={() => setShowHerramientas(false)}>
+                                            <Pill size={18} className="text-emerald-600" />
+                                            <span className="text-sm text-gray-700 font-medium">Medicamentos</span>
+                                        </a>
                                         <div className="border-t border-gray-100 my-1" />
-                                        <Link href="/blog" className="flex items-center gap-3 px-4 py-2.5 hover:bg-green-50 transition-colors" onClick={() => setShowHerramientas(false)}>
+                                        <a href="https://salud.delbienestar.com.mx/blog/" className="flex items-center gap-3 px-4 py-2.5 hover:bg-green-50 transition-colors" onClick={() => setShowHerramientas(false)}>
                                             <FileText size={18} className="text-green-600" />
                                             <span className="text-sm text-gray-700 font-medium">Blog de Salud</span>
-                                        </Link>
+                                        </a>
                                     </div>
                                 </div>
                             )}

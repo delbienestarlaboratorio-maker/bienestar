@@ -24,13 +24,16 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     const resolvedParams = await params;
     const disease = await loadDiseaseData(resolvedParams.slug);
     if (!disease) {
-        const fallback = manifest.find(d => d.slug === resolvedParams.slug);
+        const fallback = getManifest().find(d => d.slug === resolvedParams.slug);
         return { title: fallback ? `${fallback.name} (${fallback.code}) - Guía Médica` : 'Enfermedad no encontrada' };
     }
 
     return {
         title: `${disease.name} (${disease.cie10}) - Causas, Síntomas y Estudios | Laboratorio del Bienestar`,
         description: disease.shortDescription || `Guía clínica completa sobre ${disease.name}. Causas, señales de alarma, estudios de laboratorio recomendados. Código CIE-10: ${disease.cie10}.`,
+        alternates: {
+            canonical: `https://laboratorio.delbienestar.com.mx/enfermedades/${resolvedParams.slug}`,
+        },
         openGraph: {
             title: `${disease.name} - Guía Médica CIE-10`,
             description: `Todo sobre ${disease.name}: causas, diagnóstico y estudios recomendados.`
@@ -44,7 +47,7 @@ export default async function DiseasePage({ params }: { params: Promise<{ slug: 
 
     if (!disease) {
         // Try to show basic info from manifest
-        const basic = manifest.find(d => d.slug === resolvedParams.slug);
+        const basic = getManifest().find(d => d.slug === resolvedParams.slug);
         if (!basic) notFound();
 
         // Minimal page with just the name and code

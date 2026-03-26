@@ -7,7 +7,10 @@ export const metadata: Metadata = {
         title: '📏 Prógnosis de Crecimiento Infantil',
         description: 'Descubre la talla diana de tu pequeñ@ basándote en su herencia',
         type: 'website',
-    }
+    },
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/herramientas/cuanto-medira',
+    },
 };
 
 export default function ToolLayout({ children }: { children: React.ReactNode }) {

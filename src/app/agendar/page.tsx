@@ -4,7 +4,10 @@ import Link from 'next/link';
 
 export const metadata = {
     title: 'Agendar Cita - Laboratorio Bienestar',
-    description: 'Agenda tu cita para estudios médicos de forma rápida y sencilla. Más de 2,000 estudios disponibles.',
+    description: 'Agenda tu cita para estudios médicos de forma rápida y sencilla. Más de 2,000 estudios disponibles.',,
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/agendar',
+    },
 };
 
 export default function AgendarPage() {

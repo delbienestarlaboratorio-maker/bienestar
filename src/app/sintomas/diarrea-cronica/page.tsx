@@ -10,7 +10,10 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Guía Médica: Diarrea Crónica Sostenida",
         description: "Todo lo que necesitas saber antes de ir de urgencias sobre diarrea crónica sostenida."
-    }
+    },
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/sintomas/diarrea-cronica',
+    },
 };
 
 export default function SymptomPage() {

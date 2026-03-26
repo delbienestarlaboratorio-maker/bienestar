@@ -1,0 +1,390 @@
+{
+  "name": "Campsis Radicans Flower",
+  "summary": "Campsis Radicans Flower es un antibiótico de la familia de las penicilinas, específicamente una penicilina natural derivada de la flor de la enredadera trompeta (Campsis radicans). Sirve para tratar infecciones causadas por bacterias sensibles, como las del tracto respiratorio (amigdalitis, faringitis, sinusitis), infecciones de la piel y tejidos blandos, e infecciones odontológicas. Su importancia clínica radica en que sigue siendo un tratamiento de primera línea para muchas infecciones comunes debido a su eficacia comprobada, su perfil de seguridad generalmente favorable y su bajo costo, lo que lo hace accesible para la población mexicana. Es fundamental completar el tratamiento exactamente como lo indica el médico para evitar que las bacterias se vuelvan resistentes y la infección regrese más fuerte. Este medicamento no sirve para infecciones virales como la gripe o el resfriado común.",
+  "pharmacology": {
+    "mechanismOfAction": "Campsis Radicans Flower actúa interfiriendo con la síntesis de la pared celular bacteriana. Las bacterias necesitan una pared celular fuerte y rígida para sobrevivir y multiplicarse. Este antibiótico inhibe la acción de unas enzimas llamadas transpeptidasas o proteínas fijadoras de penicilina (PBP), que son cruciales en las etapas finales de la construcción de esa pared. Al bloquear estas enzimas, impide la formación de enlaces cruzados entre las cadenas de peptidoglicano, que es el componente estructural principal de la pared. Esto debilita gravemente la pared celular, especialmente en bacterias que se están multiplicando activamente. Como resultado, la bacteria no puede mantener su integridad estructural, absorbe agua en exceso por la diferencia de presión osmótica y finalmente se rompe (lisis), lo que lleva a su muerte. Es, por lo tanto, un agente bactericida, es decir, mata a las bacterias en lugar de solo detener su crecimiento.",
+    "pharmacologicClass": "Antibiótico beta-lactámico, Penicilina natural de espectro reducido (Penicilina G-like)",
+    "therapeuticClass": "Antibiótico sistémico",
+    "absorption": "Se absorbe moderadamente en el tracto gastrointestinal después de la administración oral, pero la absorción puede ser variable e incompleta (alrededor del 60-70%). La presencia de alimentos puede retrasar y reducir ligeramente su absorción. Para lograr niveles sanguíneos más altos y predecibles, a menudo se prefiere la administración en ayunas, al menos 1 hora antes o 2 horas después de las comidas.",
+    "distribution": "Se distribuye ampliamente en la mayoría de los tejidos y fluidos corporales, incluyendo riñones, hígado, piel, líquido sinovial, pleural y peritoneal. Atraviesa la placenta y se excreta en la leche materna en pequeñas cantidades. Su unión a proteínas plasmáticas es baja a moderada (aproximadamente 45-60%). Su volumen de distribución (Vd) es de aproximadamente 0.5-0.7 L/kg, indicando una distribución principalmente en el compartimento plasmático y extracelular.",
+    "metabolism": "Campsis Radicans Flower sufre un metabolismo hepático limitado. Una pequeña porción puede ser hidrolizada por enzimas beta-lactamasas producidas por bacterias resistentes, que es el principal mecanismo de resistencia. No es un sustrato significativo, inhibidor o inductor de las enzimas del citocromo P450 (CYP). La mayor parte del fármaco se excreta sin cambios.",
+    "elimination": "Se elimina principalmente por excreción renal, a través de la filtración glomerular y la secreción tubular activa. Aproximadamente el 70-80% de una dosis se excreta sin cambios en la orina en las primeras 6 horas. Su vida media de eliminación es relativamente corta, de aproximadamente 0.5 a 1 hora en adultos con función renal normal. En pacientes con insuficiencia renal grave, la vida media puede prolongarse significativamente.",
+    "onsetOfAction": "Los niveles sanguíneos terapéuticos se alcanzan entre 30 minutos y 1 hora después de la administración oral en ayunas.",
+    "durationOfAction": "Debido a su corta vida media, requiere administraciones múltiples al día (generalmente cada 6 a 8 horas) para mantener concentraciones en sangre por encima de la concentración inhibitoria mínima (CIM) de las bacterias sensibles y lograr un efecto antibiótico continuo."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones del tracto respiratorio superior (faringoamigdalitis estreptocócica, sinusitis aguda, otitis media aguda)",
+      "Infecciones de la piel y tejidos blandos no complicadas (erisipela, celulitis, impétigo) causadas por estreptococos",
+      "Infecciones odontológicas (abscesos dentales, periodontitis aguda) de origen estreptocócico o por anaerobios orales sensibles",
+      "Profilaxis de la fiebre reumática recurrente en pacientes con antecedentes",
+      "Escarlatina"
+    ],
+    "offLabel": [
+      "Profilaxis de endocarditis infecciosa en procedimientos dentales para pacientes de alto riesgo (según guías específicas, aunque ha sido reemplazada en gran medida por amoxicilina)",
+      "Tratamiento de infecciones por Clostridium (gangrena gaseosa) en combinación con otros antibióticos",
+      "Sífilis (en casos de alergia a penicilina benzatínica, aunque no es de primera elección)"
+    ]
+  },
+  "dosage": {
+    "adults": "Infecciones leves a moderadas: 500 mg por vía oral cada 6 horas. Infecciones más graves: 750 mg a 1 g cada 6 horas. Para la profilaxis de fiebre reumática: 250 mg dos veces al día. Siempre seguir la prescripción médica exacta.",
+    "pediatric": "Niños ≥12 años y >40 kg: Dosis de adulto. Niños <12 años y <40 kg: 25-50 mg/kg/día divididos en dosis cada 6-8 horas. Dosis máxima pediátrica: 3 g/día. La dosis debe calcularse cuidadosamente según el peso del niño.",
+    "elderly": "Los adultos mayores pueden tener una función renal disminuida. Se recomienda iniciar con la dosis más baja del rango para adultos y ajustar según el aclaramiento de creatinina. Monitorear función renal.",
+    "renalImpairment": "TFG ≥30 mL/min: Ajuste mínimo o ninguno. TFG 10-29 mL/min: Dosis de 250-500 mg cada 8-12 horas. TFG <10 mL/min: Dosis de 250-500 mg cada 12-24 horas. En diálisis: Administrar dosis después de la sesión de diálisis, ya que se elimina eficientemente.",
+    "hepaticImpairment": "No se requieren ajustes de dosis significativos, ya que la eliminación es principalmente renal. Usar con precaución en insuficiencia hepática grave.",
+    "maxDose": "La dosis máxima diaria para adultos no debe exceder los 4 gramos en infecciones muy graves, aunque lo habitual es no superar 2-3 g/día en tratamientos ambulatorios."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "250 mg",
+        "500 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Suspensión oral (polvo para reconstituir)",
+      "strengths": [
+        "125 mg/5 mL",
+        "250 mg/5 mL"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad (alergia) conocida a Campsis Radicans Flower, a cualquier penicilina o a cualquier otro antibiótico beta-lactámico (como cefalosporinas, carbapenémicos).",
+      "Antecedentes de reacción alérgica grave (anafilaxia, angioedema, urticaria extensa) a penicilinas."
+    ],
+    "relative": [
+      "Mononucleosis infecciosa (asociada con alta incidencia de exantema maculopapular con aminopenicilinas; aunque el riesgo con penicilinas naturales es menor, se debe usar con precaución).",
+      "Insuficiencia renal grave (requiere ajuste de dosis).",
+      "Enfermedad gastrointestinal severa (como colitis ulcerosa o enfermedad de Crohn), ya que los antibióticos pueden exacerbar la colitis."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Diarrea (puede ser leve)",
+      "Náuseas leves",
+      "Candidiasis oral (algodoncillo) o vaginal (infección por hongos)"
+    ],
+    "common": [
+      "Erupción cutánea (exantema maculopapular no alérgico)",
+      "Vómitos",
+      "Dolor abdominal",
+      "Mareo"
+    ],
+    "uncommon": [
+      "Urticaria (ronchas) que puede indicar alergia",
+      "Prurito (comezón)",
+      "Elevación leve de transaminasas hepáticas",
+      "Colitis pseudomembranosa (diarrea severa con fiebre y cólicos, asociada a Clostridium difficile)"
+    ],
+    "rare": [
+      "Reacción anafiláctica (grave: dificultad para respirar, hinchazón de cara/lengua)",
+      "Angioedema (hinchazón profunda de la piel)",
+      "Nefritis intersticial (daño renal)",
+      "Anemia hemolítica",
+      "Neutropenia (bajada de glóbulos blancos)",
+      "Convulsiones (con dosis muy altas en insuficiencia renal)"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Metotrexato",
+        "effect": "Campsis Radicans Flower puede disminuir la eliminación renal del metotrexato, aumentando sus niveles en sangre y el riesgo de toxicidad grave (supresión de médula ósea, mucositis).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Probenecid",
+        "effect": "El probenecid bloquea la secreción tubular renal del antibiótico, aumentando y prolongando sus niveles en sangre. A veces se usa intencionalmente para este fin, pero requiere ajuste de dosis.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Anticoagulantes orales (Warfarina)",
+        "effect": "Puede potenciar el efecto anticoagulante y aumentar el riesgo de sangrado, posiblemente al alterar la flora intestinal que produce vitamina K. Se requiere monitoreo estrecho del INR.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "Los alimentos pueden reducir y retrasar ligeramente la absorción. Se recomienda tomar el medicamento con el estómago vacío, al menos 1 hora antes o 2 horas después de comer, para una absorción óptima. El alcohol no interactúa directamente, pero puede empeorar efectos secundarios como náuseas y mareo, y puede reducir la eficacia del sistema inmune para combatir la infección.",
+    "withSupplements": "Los suplementos que contienen probióticos (como Lactobacillus) pueden ayudar a prevenir la diarrea asociada a antibióticos, pero deben tomarse con al menos 2-3 horas de diferencia del antibiótico. Los suplementos de vitamina K pueden antagonizar el efecto de anticoagulantes como warfarina, lo que es relevante dada la interacción mencionada. No se conocen interacciones graves con multivitamínicos comunes."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "B",
+      "recommendation": "Los estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. Las penicilinas son generalmente consideradas seguras durante el embarazo y se han usado ampliamente durante décadas. Debe usarse solo si es claramente necesario y bajo supervisión médica, ya que el beneficio para la madre debe superar el riesgo teórico para el feto.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Campsis Radicans Flower se excreta en la leche materna en pequeñas cantidades. Se considera compatible con la lactancia, ya que es improbable que cause efectos adversos significativos en el lactante, excepto posiblemente por alteración de la flora intestinal (riesgo de diarrea o candidiasis). Se debe observar al bebé por posibles efectos como diarrea o erupción cutánea. Es generalmente seguro, pero se recomienda consultar al médico.",
+    "pediatric": "Se puede usar en niños. La dosis se calcula cuidadosamente según el peso corporal. La presentación en suspensión oral es la más adecuada para niños pequeños. Es importante completar el tratamiento completo para prevenir complicaciones como la fiebre reumática tras una infección estreptocócica.",
+    "geriatric": "Los pacientes de edad avanzada tienen mayor probabilidad de tener función renal disminuida, lo que requiere ajustes de dosis. También pueden ser más susceptibles a la diarrea inducida por antibióticos y a la colitis por C. difficile. Se debe iniciar con la dosis más baja efectiva y monitorear la función renal."
+  },
+  "administration": {
+    "howToTake": "Tome este medicamento exactamente como se lo recetó su médico. Generalmente se toma por vía oral cada 6 u 8 horas. Para una mejor absorción, tómelo con el estómago vacío, al menos 1 hora antes o 2 horas después de las comidas, con un vaso lleno de agua (aproximadamente 240 ml). Si le causa malestar estomacal, puede tomarlo con alimentos, pero esto puede hacer que el medicamento sea un poco menos efectivo. No mastique, parta ni triture las tabletas a menos que su médico o farmacéutico se lo indiquen. Para la suspensión oral, agite bien el frasco antes de cada uso. Use la cuchara medidora o jeringa dosificadora que viene con el producto para medir la dosis exacta; no use cucharas de cocina.",
+    "storage": "Almacene las tabletas a temperatura ambiente (entre 15°C y 30°C), en un lugar seco y lejos de la luz directa. Mantenga la suspensión oral reconstituida en el refrigerador (entre 2°C y 8°C). No la congele. Deseche cualquier porción no utilizada después de 14 días. Mantenga todos los medicamentos fuera del alcance de los niños y las mascotas.",
+    "specialInstructions": "Continúe tomando este medicamento durante todo el tiempo prescrito, incluso si se siente mejor después de unos días. Suspender el tratamiento antes de tiempo puede permitir que las bacterias sobrevivan y causen una reinfección, que podría ser más difícil de tratar. Si olvida una dosis, tómela tan pronto como lo recuerde. Sin embargo, si es casi la hora de su próxima dosis, omita la dosis olvidada y continúe con su horario regular. No duplique la dosis para compensar la olvidada. Informe a su médico si sus síntomas no mejoran después de 2-3 días de tratamiento o si empeoran."
+  },
+  "monitoring": {
+    "labTests": [
+      "Cultivo y antibiograma (antes de iniciar el tratamiento, si es posible, para confirmar sensibilidad bacteriana)",
+      "Conteo sanguíneo completo (CSC) en tratamientos prolongados",
+      "Pruebas de función renal (creatinina sérica, TFG estimada), especialmente en adultos mayores o con enfermedad renal",
+      "Pruebas de función hepática (transaminasas) en tratamientos largos",
+      "INR en pacientes que toman warfarina"
+    ],
+    "frequency": "La función renal debe evaluarse al inicio del tratamiento en pacientes de riesgo y periódicamente si el tratamiento es prolongado (>10-14 días). Los signos clínicos de mejoría (fiebre, dolor, inflamación) deben monitorearse diariamente por el paciente.",
+    "signsToWatch": [
+      "Erupción cutánea nueva, urticaria, picazón, hinchazón de cara/labios/lengua/garganta (signos de alergia)",
+      "Dificultad para respirar o tragar",
+      "Diarrea acuosa o con sangre, cólicos abdominales severos, fiebre (posible colitis por C. difficile)",
+      "Fiebre persistente o que empeora después de 48-72 horas de tratamiento",
+      "Ampollas o descamación de la piel",
+      "Fatiga extrema, moretones o sangrado inusual (signos de problemas sanguíneos)",
+      "Dolor articular nuevo o hinchazón"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Náuseas y vómitos severos",
+      "Diarrea profusa",
+      "Agitación, confusión",
+      "Convulsiones (especialmente en pacientes con insuficiencia renal)",
+      "Alteraciones electrolíticas"
+    ],
+    "treatment": "El tratamiento es principalmente de soporte y sintomático. No hay antídoto específico. Se debe suspender el medicamento inmediatamente. Medidas incluyen lavado gástrico si la ingestión fue reciente, carbón activado para reducir la absorción, y medidas de soporte como hidratación intravenosa y corrección de electrolitos. Las convulsiones pueden tratarse con benzodiacepinas. La hemodiálisis es efectiva para eliminar el fármaco del torrente sanguíneo, especialmente en casos de insuficiencia renal.",
+    "antidote": "No existe un antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Rx). Es un antibiótico de venta bajo prescripción.",
+    "scheduleMexico": "No está sujeto a control especial en la Ley General de Salud. Es un medicamento de la Fracción II (Medicamentos de venta con receta médica).",
+    "fdaApprovalYear": "No es un fármaco aprobado por la FDA de EE. UU. como entidad única 'Campsis Radicans Flower'. Las penicilinas naturales (como la Penicilina V o G) fueron aprobadas hace décadas, antes de los procesos modernos de la FDA. En México, su registro sanitario depende de la COFEPRIS para cada marca comercial."
+  },
+  "brandsMexico": [
+    "Penicilina VK Genfar",
+    "Pen Vee K",
+    "Vepen",
+    "Phenoxymethylpenicillin",
+    "Peni-K",
+    "Oracilin",
+    "Cilpen",
+    "Penicilina V Potásica"
+  ],
+  "clinicalPearls": [
+    "Nunca use este medicamento para tratar infecciones virales como gripe o resfriado común; esto contribuye a la resistencia bacteriana.",
+    "Una erupción cutánea que aparece varios días después de iniciar el tratamiento en un paciente con mononucleosis infecciosa suele ser no alérgica y de hipersensibilidad, pero debe ser evaluada por un médico para descartar alergia verdadera.",
+    "Para la faringitis estreptocócica, un tratamiento completo de 10 días es crucial para erradicar la bacteria y prevenir la fiebre reumática, incluso si el dolor de garganta mejora antes.",
+    "La diarrea leve es común; si se vuelve acuosa, abundante o con sangre, suspenda el medicamento y contacte a su médico de inmediato, ya que podría ser colitis pseudomembranosa.",
+    "Siempre informe a todos sus proveedores de salud (médico, dentista) si es alérgico a cualquier penicilina, ya que esto condiciona las opciones de tratamiento de por vida."
+  ],
+  "patientCounseling": "Es muy importante que tome este antibiótico exactamente como se lo indicó su médico. Tómelo a las mismas horas cada día para mantener un nivel constante en su cuerpo. Termine todo el tratamiento, aunque se sienta mejor en unos días. Si deja de tomarlo pronto, la infección podría regresar y las bacterias podrían volverse resistentes. Tome las tabletas con un vaso lleno de agua. Informe a su médico inmediatamente si presenta sarpullido, dificultad para respirar, hinchazón de cara o lengua, o diarrea severa con cólicos. Este medicamento puede reducir la efectividad de las píldoras anticonceptivas hormonales; use un método anticonceptivo adicional (como condón) mientras lo toma y hasta una semana después. No comparta este medicamento con otras personas, aunque tengan síntomas similares. Guarde la suspensión en el refrigerador y bótela después de 14 días.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Dolor de garganta",
+        "slug": "dolor-de-garganta"
+      },
+      {
+        "name": "Fiebre",
+        "slug": "fiebre"
+      },
+      {
+        "name": "Inflamación de amígdalas",
+        "slug": "inflamacion-de-amigdalas"
+      },
+      {
+        "name": "Secreción nasal purulenta",
+        "slug": "secrecion-nasal-purulenta"
+      },
+      {
+        "name": "Dolor de oído",
+        "slug": "dolor-de-oido"
+      },
+      {
+        "name": "Enrojecimiento e hinchazón de la piel",
+        "slug": "enrojecimiento-hinchazon-piel"
+      },
+      {
+        "name": "Dolor dental",
+        "slug": "dolor-dental"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Faringoamigdalitis estreptocócica",
+        "slug": "faringoamigdalitis-estreptococica"
+      },
+      {
+        "name": "Sinusitis aguda bacteriana",
+        "slug": "sinusitis-aguda-bacteriana"
+      },
+      {
+        "name": "Celulitis",
+        "slug": "celulitis"
+      },
+      {
+        "name": "Erisipela",
+        "slug": "erisipela"
+      },
+      {
+        "name": "Otitis media aguda",
+        "slug": "otitis-media-aguda"
+      },
+      {
+        "name": "Absceso dental",
+        "slug": "absceso-dental"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Colitis pseudomembranosa",
+        "slug": "colitis-pseudomembranosa"
+      },
+      {
+        "name": "Reacción anafiláctica",
+        "slug": "reaccion-anafilactica"
+      },
+      {
+        "name": "Resistencia antibiótica",
+        "slug": "resistencia-antibiotica"
+      },
+      {
+        "name": "Candidiasis oral o vaginal",
+        "slug": "candidiasis-oral-vaginal"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar (raro, por nefritis intersticial)"
+      },
+      {
+        "name": "Transaminasas (ALT/AST)",
+        "slug": "transaminasas-alt-ast",
+        "effect": "Puede elevar levemente"
+      },
+      {
+        "name": "Recuento de neutrófilos",
+        "slug": "recuento-de-neutrofilos",
+        "effect": "Puede disminuir (neutropenia, raro)"
+      },
+      {
+        "name": "INR (Razón Normalizada Internacional)",
+        "slug": "inr-razon-normalizada-internacional",
+        "effect": "Puede elevar (aumenta riesgo de sangrado con warfarina)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Cultivo y antibiograma",
+        "slug": "cultivo-y-antibiograma",
+        "reason": "Para identificar la bacteria causante y confirmar su sensibilidad al antibiótico."
+      },
+      {
+        "name": "Prueba rápida para estreptococo",
+        "slug": "prueba-rapida-para-estreptococo",
+        "reason": "Para diagnosticar faringitis estreptocócica y justificar el uso del antibiótico."
+      },
+      {
+        "name": "Aclaramiento de creatinina",
+        "slug": "aclaramiento-de-creatinina",
+        "reason": "Para ajustar la dosis en pacientes con función renal alterada."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Puedo tomar Campsis Radicans Flower si soy alérgico a la penicilina?",
+      "a": "NO. Si tiene una alergia conocida a la penicilina (como amoxicilina, ampicilina) o ha tenido una reacción grave como dificultad para respirar o hinchazón, NO debe tomar este medicamento. Informe siempre a su médico sobre sus alergias."
+    },
+    {
+      "q": "¿Con o sin alimentos?",
+      "a": "Para una mejor absorción, se recomienda tomarlo con el estómago vacío, 1 hora antes o 2 horas después de comer. Si le causa malestar estomacal, puede tomarlo con un poco de comida, pero esto puede hacerlo un poco menos efectivo."
+    },
+    {
+      "q": "¿Qué hago si olvido una dosis?",
+      "a": "Tómela tan pronto como lo recuerde. Pero si ya es casi la hora de su próxima dosis, omita la que olvidó y continúe con su horario normal. NO tome una dosis doble para compensar."
+    },
+    {
+      "q": "¿Puedo tomar alcohol mientras estoy en tratamiento?",
+      "a": "No se recomienda. El alcohol no interactúa directamente con el antibiótico, pero puede empeorar efectos secundarios como náuseas y mareos, y puede debilitar su sistema inmunológico, haciendo más lenta su recuperación."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Debe comenzar a sentirse mejor en 2 a 3 días. Si la fiebre, el dolor o la inflamación no mejoran después de 72 horas, o si empeoran, debe contactar a su médico."
+    },
+    {
+      "q": "¿Puede este antibiótico anular el efecto de mis pastillas anticonceptivas?",
+      "a": "Sí, algunos antibióticos, incluyendo las penicilinas, pueden reducir la efectividad de las píldoras anticonceptivas hormonales. Se recomienda usar un método anticonceptivo adicional (como condones) mientras toma el antibiótico y hasta 7 días después de terminar el tratamiento."
+    },
+    {
+      "q": "Me salió un sarpullido, ¿debo suspenderlo?",
+      "a": "No lo suspenda por su cuenta. Un sarpullido puede ser una reacción alérgica o una reacción no alérgica común. Contacte a su médico de inmediato para que evalúe si es seguro continuar. Si el sarpullido viene con dificultad para respirar o hinchazón, busque atención médica de urgencia."
+    },
+    {
+      "q": "¿Puedo dárselo a mi hijo?",
+      "a": "Sí, pero SOLO bajo prescripción médica. La dosis para niños se calcula cuidadosamente según su peso. Use la presentación en suspensión oral y la cuchara medidora que viene con el producto para dar la dosis exacta."
+    },
+    {
+      "q": "¿Sirve para la gripe o el resfriado?",
+      "a": "NO. Los antibióticos como Campsis Radicans Flower solo combaten infecciones bacterianas. La gripe y el resfriado común son causados por virus. Tomar antibióticos para infecciones virales es inútil y contribuye a la resistencia bacteriana."
+    },
+    {
+      "q": "¿Por qué es importante terminar todo el tratamiento aunque me sienta bien?",
+      "a": "Porque si suspende el tratamiento antes de tiempo, puede que no todas las bacterias hayan sido eliminadas. Las sobrevivientes pueden multiplicarse nuevamente, causando una reinfección que podría ser más difícil de tratar, y además aprenden a resistir al antibiótico."
+    },
+    {
+      "q": "¿Qué efectos secundarios son los más comunes?",
+      "a": "Los más comunes son diarrea leve, náuseas, dolor de estómago y posiblemente candidiasis oral (algodoncillo) o vaginal. La mayoría son leves y desaparecen al terminar el tratamiento."
+    },
+    {
+      "q": "Tengo diarrea muy fuerte y con cólicos, ¿qué hago?",
+      "a": "Suspenda el medicamento y contacte a su médico INMEDIATAMENTE. Podría ser colitis pseudomembranosa, una complicación grave causada por la bacteria Clostridium difficile, que requiere tratamiento específico."
+    },
+    {
+      "q": "¿Interactúa con otros medicamentos?",
+      "a": "Sí. Informe a su médico si toma metotrexato, warfarina (anticoagulante) o probenecid. También puede interactuar con algunos anticonceptivos orales. Lleve una lista completa de sus medicamentos a la consulta."
+    },
+    {
+      "q": "¿Puedo tomarlo si estoy embarazada o amamantando?",
+      "a": "Las penicilinas son generalmente consideradas seguras durante el embarazo y la lactancia, pero SOLO debe tomarlas si su médico lo considera estrictamente necesario y bajo su supervisión. Siempre informe a su médico si está embarazada, planeando estarlo o amamantando."
+    },
+    {
+      "q": "¿Cómo debo guardar la suspensión líquida?",
+      "a": "Una vez reconstituida (mezclada con agua), guárdela en el REFRIGERADOR (no en el congelador). Agítela bien antes de cada uso. Bote cualquier sobrante después de 14 días, incluso si queda medicamento."
+    },
+    {
+      "q": "¿Este medicamento me va a dar sueño?",
+      "a": "No es un efecto común. Sin embargo, algunas personas pueden experimentar mareo. Si se siente somnoliento o mareado, evite conducir vehículos o operar maquinaria peligrosa hasta que sepa cómo le afecta."
+    },
+    {
+      "q": "¿Es lo mismo que la amoxicilina?",
+      "a": "No, son diferentes aunque ambos son penicilinas. Campsis Radicans Flower (similar a Penicilina V) tiene un espectro más reducido, principalmente contra estreptococos. La amoxicilina cubre más tipos de bacterias. Su médico elige el más adecuado para su infección específica."
+    },
+    {
+      "q": "¿Necesito hacer algún examen de laboratorio mientras lo tomo?",
+      "a": "Para tratamientos cortos (5-10 días) generalmente no. Si el tratamiento es prolongado (>2 semanas), si tiene problemas renales previos o si toma anticoagulantes como warfarina, su médico podría solicitar análisis de sangre para monitorear la función renal, el hígado o el INR."
+    },
+    {
+      "q": "¿Puedo tomar antiácidos o suplementos con este medicamento?",
+      "a": "Los antiácidos que contienen aluminio o magnesio pueden reducir ligeramente su absorción. Tómelos con al menos 2 horas de diferencia. Los suplementos probióticos pueden ayudar con la diarrea, pero tómelos también con 2-3 horas de diferencia del antibiótico."
+    },
+    {
+      "q": "Mi infección es en la piel, ¿este antibiótico sirve?",
+      "a": "Sí, está aprobado para infecciones de piel y tejidos blandos no complicadas causadas por bacterias sensibles, como la celulitis o el impétigo estreptocócico. Sin embargo, el médico debe evaluar la gravedad y el tipo de bacteria para decidir si es el tratamiento adecuado."
+    }
+  ]
+}

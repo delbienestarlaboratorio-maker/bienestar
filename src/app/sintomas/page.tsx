@@ -12,7 +12,10 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'Directorio Médico A-Z | 14,000+ Enfermedades CIE-10',
         description: 'El directorio médico más completo de México: 14,000+ enfermedades con código CIE-10 oficial de la OMS.',
-    }
+    },
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/sintomas',
+    },
 };
 
 export default async function SintomasHub() {

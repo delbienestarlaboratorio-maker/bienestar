@@ -7,7 +7,10 @@ export const metadata: Metadata = {
         title: '⚖️ Calculadora: Tu Cuerpo de Verano',
         description: 'Meta de déficit calórico y tiempo exacto para tu objetivo',
         type: 'website',
-    }
+    },
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/herramientas/calculadora-calorias-peso-ideal',
+    },
 };
 
 export default function ToolLayout({ children }: { children: React.ReactNode }) {

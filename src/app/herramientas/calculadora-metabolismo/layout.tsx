@@ -7,7 +7,10 @@ export const metadata: Metadata = {
         title: '🔥 Calculadora de Metabolismo Basal',
         description: 'calorías/día',
         type: 'website',
-    }
+    },
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/herramientas/calculadora-metabolismo',
+    },
 };
 
 export default function ToolLayout({ children }: { children: React.ReactNode }) {

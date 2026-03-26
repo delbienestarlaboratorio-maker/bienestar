@@ -7,7 +7,10 @@ export const metadata: Metadata = {
         title: '🔄 Convertidor HbA1c ↔ Glucosa',
         description: '{c.label}',
         type: 'website',
-    }
+    },
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/herramientas/convertidor-hba1c',
+    },
 };
 
 export default function ToolLayout({ children }: { children: React.ReactNode }) {

@@ -7,7 +7,10 @@ export const metadata: Metadata = {
         title: '🤧 Riesgo Alérgico Global',
         description: 'Calculadora e información médica sobre 🤧 Riesgo Alérgico Global. Cotiza tus estudios de laboratorio hoy mismo en Pachuca, Tulancingo y CDMX.',
         type: 'website',
-    }
+    },
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/herramientas/riesgo-alergico',
+    },
 };
 
 export default function ToolLayout({ children }: { children: React.ReactNode }) {

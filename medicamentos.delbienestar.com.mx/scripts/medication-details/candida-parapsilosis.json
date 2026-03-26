@@ -1,0 +1,449 @@
+{
+  "name": "Candida Parapsilosis",
+  "summary": "Candida Parapsilosis NO es un medicamento, sino una especie de hongo levaduriforme que puede causar infecciones en humanos, conocidas como candidiasis. Es un patógeno oportunista, lo que significa que generalmente infecta a personas con el sistema inmunológico debilitado, como pacientes hospitalizados, recién nacidos prematuros o personas con dispositivos médicos implantados como catéteres. Su importancia clínica radica en que es una causa frecuente de infecciones del torrente sanguíneo (candidemia), infecciones de heridas, e infecciones asociadas a dispositivos médicos, especialmente en unidades de cuidados intensivos. A diferencia de otras especies de Candida, como C. albicans, la C. parapsilosis tiene una alta capacidad para formar biopelículas en superficies plásticas y médicas, lo que facilita su transmisión a través de las manos del personal sanitario y contamina soluciones intravenosas. El tratamiento requiere antifúngicos específicos, no antibióticos como las penicilinas. Es crucial identificar correctamente la especie para elegir el tratamiento adecuado, ya que algunos antifúngicos pueden ser menos efectivos contra esta especie en particular.",
+  "pharmacology": {
+    "mechanismOfAction": "Como agente infeccioso, Candida parapsilosis no tiene un mecanismo de acción farmacológico, sino mecanismos de patogenicidad. Para su tratamiento, se utilizan fármacos antifúngicos cuyo mecanismo varía. Los azoles (como fluconazol) inhiben la síntesis del ergosterol, un componente esencial de la membrana celular fúngica. Las equinocandinas (como caspofungina) inhiben la síntesis de la pared celular fúngica al bloquear la enzima 1,3-β-D-glucano sintasa. Las polienos (como la anfotericina B) se unen al ergosterol de la membrana, creando poros que provocan la pérdida de componentes celulares y la muerte del hongo. La capacidad de C. parapsilosis para formar biopelículas densas sobre superficies médicas es un factor clave de su virulencia, ya que estas biopelículas actúan como una barrera que reduce la penetración y eficacia de los antifúngicos, complicando el tratamiento.",
+    "pharmacologicClass": "No aplica para el patógeno. Para el tratamiento: Agentes Antifúngicos. Subclases: Azoles (Triazoles), Equinocandinas, Polienos.",
+    "therapeuticClass": "Antifúngico Sistémico",
+    "absorption": "No aplica para el patógeno. Para los antifúngicos usados: La absorción varía según el fármaco. El fluconazol oral tiene una biodisponibilidad excelente (>90%). Las equinocandinas y la anfotericina B se administran solo por vía intravenosa.",
+    "distribution": "No aplica para el patógeno. Para los antifúngicos: Se distribuyen ampliamente en los fluidos y tejidos corporales, incluyendo el sistema nervioso central (fluconazol penetra bien). La unión a proteínas plasmáticas es variable: fluconazol (~11%), voriconazol (~58%), equinocandinas (>95%). El volumen de distribución (Vd) es generalmente alto, indicando buena penetración tisular.",
+    "metabolism": "No aplica para el patógeno. Para los antifúngicos: El metabolismo es principalmente hepático. Fluconazol se metaboliza mínimamente y se excreta mayormente sin cambios. Voriconazol es metabolizado extensamente por el citocromo P450 (CYP2C19, CYP2C9, CYP3A4). Las equinocandinas son metabolizadas por hidrólisis y N-acetilación. Las interacciones por inhibición o inducción de enzimas CYP son comunes con los azoles.",
+    "elimination": "No aplica para el patógeno. Para los antifúngicos: La vida media varía: Fluconazol ~30 horas (permite dosificación una vez al día), Voriconazol ~6 horas, Equinocandinas (Caspofungina) 9-11 horas. La eliminación es principalmente renal para fluconazol, y hepática/metabólica para voriconazol y equinocandinas.",
+    "onsetOfAction": "No aplica para el patógeno. El inicio de acción de los antifúngicos es dependiente de la concentración y la sensibilidad del hongo. La mejoría clínica en infecciones sistémicas puede observarse en 48-72 horas tras iniciar un tratamiento efectivo.",
+    "durationOfAction": "No aplica para el patógeno. La duración del tratamiento antifúngico para candidemia por C. parapsilosis es típicamente de 14 días después del primer hemocultivo negativo y resolución de los síntomas, pudiendo extenderse en casos complicados o con focos metastásicos."
+  },
+  "indications": {
+    "approved": [
+      "Tratamiento de candidemia (infección en la sangre) causada por Candida parapsilosis.",
+      "Tratamiento de infecciones invasoras y diseminadas por Candida parapsilosis (ej. peritonitis, endocarditis, infección de prótesis articulares).",
+      "Tratamiento de infecciones de heridas, tejidos blandos e infecciones asociadas a catéteres por C. parapsilosis."
+    ],
+    "offLabel": [
+      "Profilaxis antifúngica en pacientes de alto riesgo en UCI neonatal o unidades de trasplante (el uso específico contra C. parapsilosis es parte de una estrategia general).",
+      "Tratamiento de onicomicosis (infección de uñas) por Candida, aunque menos común con esta especie."
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis depende del antifúngico elegido. Ejemplos: Fluconazol: 400-800 mg/día por vía oral o intravenosa (dosis de carga de 800 mg el primer día puede usarse). Caspofungina: Dosis de carga de 70 mg IV el día 1, seguido de 50 mg IV diarios. Anidulafungina: Dosis de carga de 200 mg IV, luego 100 mg IV diarios. Micafungina: 100 mg IV diarios. Voriconazol: 6 mg/kg IV cada 12h por 2 dosis (carga), luego 4 mg/kg IV cada 12h; o 400 mg oral cada 12h (carga), luego 200 mg cada 12h.",
+    "pediatric": "Fluconazol: 6-12 mg/kg/día IV/PO. Caspofungina: Para >3 meses, 70 mg/m² IV día 1 (máx. 70 mg), luego 50 mg/m² diarios (máx. 70 mg). Micafungina: 2-4 mg/kg/día IV. Las dosis deben ser calculadas cuidadosamente por peso o superficie corporal por un pediatra o farmacéutico.",
+    "elderly": "Ajustar según función renal y hepática. No se requiere reducción de dosis inicial solo por edad, pero la farmacocinética puede estar alterada. Monitorear estrechamente función renal y hepática.",
+    "renalImpairment": "Fluconazol: Ajustar si TFG <50 mL/min. Reducir dosis en 50% para cargas de dosis altas. Hemodiálisis: administrar dosis después de la diálisis. Equinocandinas (Caspofungina, Micafungina, Anidulafungina): No se requiere ajuste. Anfotericina B liposomal: Monitorizar función renal; puede requerir ajuste de hidratación.",
+    "hepaticImpairment": "Fluconazol: Ajustar en insuficiencia hepática grave. Voriconazol: Contraindicado en insuficiencia hepática moderada a grave (Child-Pugh B y C). Caspofungina: Reducir dosis de mantenimiento a 35 mg/día en insuficiencia hepática moderada (Child-Pugh B). Micafungina: Usar con precaución.",
+    "maxDose": "Depende del antifúngico: Fluconazol hasta 800-1200 mg/día en infecciones graves. Caspofungina: Dosis máxima de carga 70 mg, mantenimiento 70 mg/día. Los límites están definidos por toxicidad y guías clínicas."
+  },
+  "dosageForms": [
+    {
+      "form": "Cápsula",
+      "strengths": [
+        "50 mg",
+        "100 mg",
+        "150 mg",
+        "200 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tableta",
+      "strengths": [
+        "50 mg",
+        "100 mg",
+        "150 mg",
+        "200 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Suspensión Oral",
+      "strengths": [
+        "10 mg/mL",
+        "40 mg/mL"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Solución Inyectable",
+      "strengths": [
+        "2 mg/mL"
+      ],
+      "route": "Intravenosa"
+    },
+    {
+      "form": "Polvo liofilizado para solución inyectable",
+      "strengths": [
+        "50 mg",
+        "70 mg"
+      ],
+      "route": "Intravenosa"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida al principio activo del antifúngico prescrito (ej. fluconazol, voriconazol, caspofungina).",
+      "Uso concomitante de medicamentos con interacción grave y contraindicada (ej. terfenadina, cisaprida, quinidina con fluconazol/voriconazol; rifampicina con voriconazol).",
+      "Insuficiencia hepática moderada-severa (Child-Pugh B y C) para voriconazol."
+    ],
+    "relative": [
+      "Insuficiencia renal severa (ajustar dosis de fluconazol).",
+      "Alteraciones en la conducción cardíaca o prolongación del intervalo QT (para azoles).",
+      "Embarazo (especialmente primer trimestre).",
+      "Pacientes con porfiria."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Náuseas",
+      "Dolor de cabeza",
+      "Dolor abdominal",
+      "Diarrea"
+    ],
+    "common": [
+      "Erupción cutánea",
+      "Prurito (comezón)",
+      "Aumento de enzimas hepáticas (transaminasas)",
+      "Vómitos",
+      "Mareo"
+    ],
+    "uncommon": [
+      "Hepatitis",
+      "Reacción de hipersensibilidad",
+      "Alopecia (caída de cabello)",
+      "Prolongación del intervalo QT",
+      "Alteraciones del gusto (disgeusia)",
+      "Fotosensibilidad (voriconazol)"
+    ],
+    "rare": [
+      "Síndrome de Stevens-Johnson / Necrólisis epidérmica tóxica",
+      "Anafilaxia",
+      "Arritmias ventriculares graves (Torsade de Pointes)",
+      "Insuficiencia hepática aguda",
+      "Pancreatitis"
+    ],
+    "blackBoxWarning": "Para Voriconazol: Puede causar reacciones cutáneas graves (SJS/TEN), hepatotoxicidad, y alteraciones visuales. Para Anfotericina B: Nefrotoxicidad, frecuentemente severa."
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Warfarina / Acenocumarol",
+        "effect": "Los azoles (fluconazol) inhiben su metabolismo, aumentando el riesgo de sangrado. Requiere monitoreo estrecho de INR.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Fenitoína / Carbamazepina / Fenobarbital",
+        "effect": "Inductores enzimáticos que reducen las concentraciones de azoles. Los azoles también pueden aumentar los niveles de estos anticonvulsivos.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Ciclosporina / Tacrolimus / Sirolimus",
+        "effect": "Los azoles aumentan significativamente sus niveles, con riesgo de nefrotoxicidad y neurotoxicidad. Ajustar dosis y monitorear niveles.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Rifampicina / Rifabutina",
+        "effect": "Reducen drásticamente los niveles de azoles y voriconazol. La rifabutina aumenta su toxicidad con fluconazol.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Estatinas (Simvastatina, Atorvastatina)",
+        "effect": "Aumento del riesgo de miopatía y rabdomiólisis por inhibición de su metabolismo.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "Voriconazol debe tomarse 1 hora antes o después de las comidas, ya que los alimentos ricos en grasas reducen su absorción. Fluconazol puede tomarse con o sin alimentos. Evitar el consumo de alcohol durante el tratamiento para no sobrecargar el hígado.",
+    "withSupplements": "La Hierba de San Juan (Hypericum perforatum) reduce los niveles de azoles y voriconazol, pudiendo causar fallo terapéutico. Evitar su uso. Consultar con el médico antes de tomar cualquier suplemento."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "Categoría C (Fluconazol) / D (dosis altas y prolongadas)",
+      "recommendation": "El uso durante el embarazo, especialmente en el primer trimestre y con dosis altas, se asocia a defectos congénitos y aborto espontáneo. Solo debe usarse si el beneficio justifica claramente el riesgo potencial para el feto, en infecciones graves que amenacen la vida. Se prefiere el uso de equinocandinas en estos casos, aunque su seguridad en embarazo no está bien establecida.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Fluconazol se excreta en la leche materna en concentraciones similares al plasma. Se considera probablemente seguro en dosis únicas bajas para candidiasis vaginal. Para tratamientos prolongados con dosis altas, se debe evaluar suspender la lactancia o usar leche de fórmula, debido al riesgo potencial para el lactante.",
+    "pediatric": "Se puede usar en niños. La dosificación debe ser precisa según peso o superficie corporal. En neonatos, especialmente prematuros, la farmacocinética es diferente (vida media más larga para fluconazol). Monitorear función hepática. La formulación oral debe ser dosificada cuidadosamente.",
+    "geriatric": "Mayor probabilidad de disminución de la función renal y hepática. Iniciar con dosis en el rango bajo y ajustar según función renal (para fluconazol). Mayor riesgo de interacciones medicamentosas por polifarmacia. Monitorear estrechamente efectos adversos."
+  },
+  "administration": {
+    "howToTake": "Seguir exactamente las indicaciones del médico. Las tabletas/cápsulas de fluconazol suelen tomarse una vez al día, con o sin alimentos. Tragar enteras con un vaso de agua. Para la suspensión oral, agitar bien antes de cada uso y usar el dosificador proporcionado. Las infusiones intravenosas (equinocandinas, anfotericina B) son administradas por personal de salud en un entorno hospitalario, generalmente en 1 hora o más para evitar reacciones.",
+    "storage": "Conservar a temperatura ambiente (15-30°C), en un lugar seco y fuera del alcance de los niños. Proteger de la luz. No congelar. La suspensión reconstituida tiene una vida útil limitada; verificar en el envase.",
+    "specialInstructions": "Completar TODO el tratamiento prescrito, incluso si se siente mejor antes, para evitar recaídas o resistencia. Informar al médico si se olvida una dosis. No compartir el medicamento con otras personas. Para infecciones asociadas a catéteres, a menudo se requiere la retirada o cambio del catéter para lograr la curación."
+  },
+  "monitoring": {
+    "labTests": [
+      "Hemocultivos seriados (para documentar eliminación del hongo)",
+      "Pruebas de función hepática (ALT, AST, fosfatasa alcalina) semanalmente o según criterio médico",
+      "Pruebas de función renal (creatinina, BUN) especialmente con anfotericina B o en pacientes con riesgo",
+      "Electrolitos séricos (potasio, magnesio) con anfotericina B",
+      "Niveles séricos del antifúngico (si está disponible, para voriconazol o posaconazol en casos complejos)"
+    ],
+    "frequency": "Función hepática y renal: al inicio, a la semana y luego periódicamente según duración del tratamiento. Hemocultivos: diarios hasta negativización, luego según evolución.",
+    "signsToWatch": [
+      "Fiebre persistente o recurrente",
+      "Aparición de erupción cutánea grave, ampollas o descamación",
+      "Ictericia (coloración amarilla de piel/ojos), orina oscura, heces claras",
+      "Sangrado o moretones inusuales",
+      "Latidos cardíacos irregulares, mareo o desmayo",
+      "Dificultad para respirar",
+      "Dolor abdominal intenso"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Náuseas y vómitos severos",
+      "Alucinaciones",
+      "Comportamiento paranoico (con sobredosis de voriconazol)",
+      "Convulsiones",
+      "Arritmias cardíacas"
+    ],
+    "treatment": "Tratamiento de soporte. No hay antídoto específico. Lavado gástrico si la ingestión es reciente. Monitoreo cardíaco y de signos vitales. Hemodiálisis puede ser útil para eliminar fluconazol (es dializable).",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica para todos los antifúngicos sistémicos.",
+    "scheduleMexico": "Medicamento de la Fracción IV (Sustancias activas de acción farmacológica, medicamentos que requieren receta médica).",
+    "fdaApprovalYear": "Los antifúngicos tienen diferentes años: Fluconazol (1990), Caspofungina (2001), Voriconazol (2002)."
+  },
+  "brandsMexico": [
+    "Fluconazol: Flucoral (Liomont), Fluzol (Sanfer), Zoltec (Pfizer), Fungata (Asofarma), Flucon (Chinoin).",
+    "Voriconazol: Vfend (Pfizer).",
+    "Caspofungina: Cancidas (MSD).",
+    "Micafungina: Mycamine (Astellas).",
+    "Anidulafungina: Ecalta (Pfizer).",
+    "Anfotericina B liposomal: Ambisome (Gilead)."
+  ],
+  "clinicalPearls": [
+    "Candida parapsilosis es una causa importante de candidemia en unidades neonatales y asociada a catéteres. La higiene de manos estricta del personal sanitario es clave para prevenir su transmisión.",
+    "Tiene menor susceptibilidad intrínseca a las equinocandinas que C. albicans. Siempre se recomienda realizar pruebas de sensibilidad (CIM) para guiar la terapia, especialmente en infecciones graves.",
+    "La formación de biopelículas en dispositivos médicos es su principal mecanismo de patogenicidad. La retirada del catéter infectado es a menudo un componente esencial del tratamiento.",
+    "En pacientes estables sin exposición previa a azoles, el fluconazol es una opción efectiva y de menor costo una vez confirmada la sensibilidad.",
+    "La terapia combinada (ej. equinocandina + anfotericina B) no está recomendada de rutina y se reserva para casos refractarios bajo supervisión especializada."
+  ],
+  "patientCounseling": "Este tratamiento es para combatir una infección por un hongo en la sangre o tejidos profundos. Es muy importante que tome el medicamento exactamente como se lo recetó el médico, a la misma hora todos los días. No deje de tomarlo aunque se sienta mejor, porque la infección podría regresar y ser más difícil de tratar. Informe a su médico sobre todos los demás medicamentos, vitaminas o suplementos que esté tomando, para evitar interacciones peligrosas. Esté atento a señales de alarma como sarpullido severo, color amarillo en la piel o los ojos, sangrado fácil o latidos del corazón muy rápidos o irregulares, y repórtelas de inmediato. Evite el alcohol durante el tratamiento. Asista a todas sus citas de seguimiento y a los análisis de sangre que le soliciten para monitorear su hígado y riñones. Si tiene un catéter intravenoso, siga las instrucciones de cuidado del sitio de inserción para prevenir nuevas infecciones.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre",
+        "slug": "fiebre"
+      },
+      {
+        "name": "Escalofríos",
+        "slug": "escalofrios"
+      },
+      {
+        "name": "Hipotensión (presión baja)",
+        "slug": "hipotension"
+      },
+      {
+        "name": "Taquicardia (ritmo cardíaco acelerado)",
+        "slug": "taquicardia"
+      },
+      {
+        "name": "Malestar general",
+        "slug": "malestar-general"
+      },
+      {
+        "name": "Dolor o enrojecimiento en sitio de catéter",
+        "slug": "dolor-cateter"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Candidemia",
+        "slug": "candidemia"
+      },
+      {
+        "name": "Endocarditis infecciosa",
+        "slug": "endocarditis-infecciosa"
+      },
+      {
+        "name": "Peritonitis",
+        "slug": "peritonitis"
+      },
+      {
+        "name": "Osteomielitis",
+        "slug": "osteomielitis"
+      },
+      {
+        "name": "Artritis séptica",
+        "slug": "artritis-septica"
+      },
+      {
+        "name": "Infección asociada a catéter venoso central",
+        "slug": "infeccion-cateter-venoso-central"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Diabetes mellitus",
+        "slug": "diabetes-mellitus"
+      },
+      {
+        "name": "Insuficiencia renal crónica",
+        "slug": "insuficiencia-renal-cronica"
+      },
+      {
+        "name": "Neutropenia (bajos glóbulos blancos)",
+        "slug": "neutropenia"
+      },
+      {
+        "name": "Síndrome de Inmunodeficiencia Adquirida (VIH/SIDA)",
+        "slug": "vih-sida"
+      },
+      {
+        "name": "Enfermedad hepática crónica",
+        "slug": "enfermedad-hepatica-cronica"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Alanina Aminotransferasa (ALT)",
+        "slug": "alt",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Aspartato Aminotransferasa (AST)",
+        "slug": "ast",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Fosfatasa Alcalina",
+        "slug": "fosfatasa-alcalina",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar (especialmente con anfotericina B)"
+      },
+      {
+        "name": "Potasio sérico (K+)",
+        "slug": "potasio-serico",
+        "effect": "Puede disminuir (con anfotericina B)"
+      },
+      {
+        "name": "Relación Normalizada Internacional (INR)",
+        "slug": "inr",
+        "effect": "Puede elevar (con interacción con warfarina)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Hemocultivo",
+        "slug": "hemocultivo",
+        "reason": "Diagnóstico y confirmación de la candidemia, seguimiento de la respuesta al tratamiento."
+      },
+      {
+        "name": "Pruebas de Sensibilidad Antifúngica (CIM)",
+        "slug": "sensibilidad-antifungica",
+        "reason": "Determinar el antifúngico más efectivo contra la cepa específica de Candida parapsilosis."
+      },
+      {
+        "name": "Ecocardiograma",
+        "slug": "ecocardiograma",
+        "reason": "Descartar endocarditis por hongos, una complicación grave de la candidemia."
+      },
+      {
+        "name": "Tomografía Computarizada (TC) de abdomen",
+        "slug": "tomografia-abdomen",
+        "reason": "Buscar focos metastásicos de infección (ej. abscesos hepáticos o esplénicos)."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de Creatinina",
+        "slug": "aclaramiento-creatinina",
+        "reason": "Para ajustar dosis de fluconazol en pacientes con insuficiencia renal."
+      },
+      {
+        "name": "Dosis Pediátrica por Peso",
+        "slug": "dosis-pediatrica-peso",
+        "reason": "Para calcular con precisión la dosis de antifúngicos en niños."
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr",
+        "reason": "Evaluar la función renal y guiar ajustes de dosis."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Candida parapsilosis es lo mismo que una infección por hongos en las uñas o la vagina?",
+      "a": "No exactamente. Es la misma familia de hongos (Candida), pero la especie 'parapsilosis' es más común causar infecciones graves en la sangre, heridas o por catéteres, especialmente en personas hospitalizadas. Las infecciones comunes de uñas o vagina suelen ser por otra especie llamada Candida albicans."
+    },
+    {
+      "q": "¿Cómo me contagie de Candida parapsilosis?",
+      "a": "Generalmente no es un contagio de persona a persona en la comunidad. Es más común en hospitales. El hongo puede estar en la piel de las personas o en superficies. Se introduce al cuerpo a través de catéteres intravenosos, heridas quirúrgicas, o las manos del personal médico si no hay una higiene adecuada. Los recién nacidos prematuros son muy susceptibles."
+    },
+    {
+      "q": "¿El tratamiento es con pastillas o inyecciones?",
+      "a": "Depende de la gravedad. Las infecciones en la sangre (candidemia) son graves y requieren tratamiento intravenoso (inyecciones en la vena) al inicio, generalmente en el hospital. Luego, si el paciente mejora y el hongo es sensible, se puede cambiar a pastillas (como fluconazol) para completar el tratamiento en casa."
+    },
+    {
+      "q": "¿Cuánto tiempo dura el tratamiento?",
+      "a": "Es un tratamiento prolongado. Para una candidemia sin complicaciones, el tratamiento mínimo suele ser de 14 días CONTADOS desde que el primer análisis de sangre sale negativo y desaparece la fiebre. En infecciones más complicadas (como en el corazón o huesos), puede durar semanas o incluso meses."
+    },
+    {
+      "q": "¿Puedo tomar alcohol durante el tratamiento?",
+      "a": "No se recomienda. Los medicamentos antifúngicos se procesan en el hígado, al igual que el alcohol. Tomar ambos juntos puede aumentar el riesgo de daño hepático (hígado) y de efectos secundarios como náuseas y mareo."
+    },
+    {
+      "q": "¿Qué pasa si olvido una dosis?",
+      "a": "Tómela tan pronto como se acuerde, pero si ya es casi la hora de la siguiente dosis, sáltese la que olvidó y continúe con su horario normal. NO tome una dosis doble para compensar. Si olvida varias dosis, informe a su médico."
+    },
+    {
+      "q": "¿Este medicamento afecta las pastillas anticonceptivas?",
+      "a": "Algunos antifúngicos, especialmente los del tipo azol (como fluconazol), pueden interferir con la efectividad de los anticonceptivos hormonales (pastillas, parches, anillo). Use un método anticonceptivo de respaldo (como condón) durante todo el tratamiento y hasta el siguiente ciclo menstrual. Consulte a su ginecólogo."
+    },
+    {
+      "q": "¿Puede causar alergia?",
+      "a": "Sí, como cualquier medicamento. Los signos de alergia pueden ser sarpullido leve con comezón. Una reacción alérgica GRAVE (pero rara) incluye dificultad para respirar, hinchazón de cara/lengua, o un sarpullido con ampollas y descamación (como quemadura). Si presenta esto, busque atención médica de inmediato."
+    },
+    {
+      "q": "¿Me van a hacer muchos análisis de sangre?",
+      "a": "Sí, es parte fundamental del tratamiento. Se harán análisis de sangre para: 1) Verificar que el hongo desaparezca (hemocultivos), 2) Controlar que el medicamento no dañe su hígado (pruebas hepáticas) y sus riñones, y 3) En algunos casos, medir la cantidad de medicamento en la sangre."
+    },
+    {
+      "q": "¿Si tengo un catéter, me lo tienen que quitar?",
+      "a": "En la mayoría de los casos de infección por Candida parapsilosis asociada a un catéter, SÍ es muy recomendable quitarlo o cambiarlo por uno nuevo en un sitio diferente. Este hongo tiene una gran capacidad de pegarse al plástico del catéter, formando una 'capa protectora' que hace muy difícil que los medicamentos lo eliminen por completo."
+    },
+    {
+      "q": "¿Una vez curado, puedo volver a tener la misma infección?",
+      "a": "Sí, es posible, especialmente si los factores de riesgo persisten (como necesitar un nuevo catéter, tener diabetes mal controlada o un sistema inmune débil). Es importante seguir las medidas preventivas y controlar las enfermedades de base."
+    },
+    {
+      "q": "¿Es contagiosa para mi familia?",
+      "a": "No, las infecciones invasivas por Candida parapsilosis no se contagian como un resfriado. Su familia no está en riesgo de contraer la infección en la sangre por contacto casual. Sin embargo, la higiene de manos es siempre importante, especialmente si tienen contacto con sus heridas o dispositivos médicos."
+    },
+    {
+      "q": "¿Puedo tomar antiácidos o omeprazol con los antifúngicos?",
+      "a": "Los antiácidos pueden reducir la absorción de algunos antifúngicos orales como el ketoconazol o el itraconazol. Con fluconazol y voriconazol el efecto es menor, pero se recomienda separar la toma de antiácidos/omeprazol al menos 2 horas. Informe a su médico qué está tomando."
+    },
+    {
+      "q": "¿Qué alimentos debo evitar?",
+      "a": "No hay alimentos prohibidos específicos. Con VORICONAZOL, se debe evitar tomar el medicamento con comidas muy grasosas, porque reduce su absorción. Lleve una dieta balanceada para ayudar a su sistema inmunológico a recuperarse."
+    },
+    {
+      "q": "¿El tratamiento afecta la conducción o el manejo de maquinaria?",
+      "a": "Algunos antifúngicos, como el voriconazol, pueden causar visión borrosa, alteraciones en la percepción de la luz o mareo. Si experimenta estos efectos, no conduzca vehículos ni opere maquinaria peligrosa hasta que desaparezcan y hable con su médico."
+    },
+    {
+      "q": "¿Por qué a veces se usa más de un antifúngico a la vez?",
+      "a": "El uso combinado de dos antifúngicos (terapia combinada) no es la regla, sino la excepción. Se reserva para infecciones muy graves, que no responden a un solo medicamento, o por hongos resistentes. Tiene más riesgos de efectos secundarios y toxicidad, y debe ser manejado por especialistas en un hospital."
+    },
+    {
+      "q": "¿Qué es la prueba de sensibilidad (CIM) y por qué es importante?",
+      "a": "La Concentración Inhibitoria Mínima (CIM) es un análisis de laboratorio que se le hace al hongo que salió en su cultivo. Determina qué tan susceptible o resistente es a cada antifúngico. Es crucial porque Candida parapsilosis puede ser naturalmente menos sensible a ciertos medicamentos (como las equinocandinas). Guía al médico para elegir el tratamiento más efectivo."
+    },
+    {
+      "q": "¿Existen medicamentos naturales o alternativos para tratarla?",
+      "a": "No. Las infecciones invasivas por Candida parapsilosis son graves y potencialmente mortales. NO existen remedios herbales, dietas (como la dieta 'anti-cándida'), ni suplementos que puedan curar una candidemia. El tratamiento debe ser con antifúngicos recetados por un médico, bajo supervisión médica estricta. Usar alternativas puede retrasar el tratamiento correcto y empeorar el pronóstico."
+    },
+    {
+      "q": "¿La Candida parapsilosis es resistente a los medicamentos?",
+      "a": "Puede desarrollar resistencia, especialmente si el tratamiento no es completo o adecuado. Además, tiene una susceptibilidad disminuida intrínseca a las equinocandinas comparada con otras Candidas. Por eso la prueba de sensibilidad es clave. El uso excesivo o incorrecto de antifúngicos en hospitales también promueve la resistencia."
+    },
+    {
+      "q": "¿Cuál es el pronóstico de una infección por Candida parapsilosis?",
+      "a": "El pronóstico depende de varios factores: la rapidez con que se inicia el tratamiento correcto, la gravedad de la infección, si se puede retirar el foco (como un catéter), y la salud general del paciente (si tiene otras enfermedades graves). Con diagnóstico y tratamiento oportuno y adecuado, muchas personas se recuperan completamente. Sin embargo, la candidemia invasiva tiene una mortalidad significativa, especialmente en pacientes críticamente enfermos."
+    }
+  ]
+}

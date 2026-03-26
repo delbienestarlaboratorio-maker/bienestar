@@ -52,6 +52,9 @@ export const metadata: Metadata = {
     title: "Laboratorio Bienestar - Estudios Clínicos",
     description: "Tu salud es nuestra prioridad. Más de 2,000 estudios disponibles.",
   },
+  alternates: {
+    canonical: 'https://laboratorio.delbienestar.com.mx',
+  },
   robots: {
     index: true,
     follow: true,

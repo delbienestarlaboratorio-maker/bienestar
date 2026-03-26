@@ -3,7 +3,10 @@ import { ArrowLeft, Shield, Lock, FileText, Mail } from 'lucide-react';
 
 export const metadata = {
     title: 'Aviso de Privacidad | Laboratorio Del Bienestar',
-    description: 'Aviso de Privacidad conforme a la Ley Federal de Protección de Datos Personales en Posesión de Particulares y normativas de COFEPRIS.',
+    description: 'Aviso de Privacidad conforme a la Ley Federal de Protección de Datos Personales en Posesión de Particulares y normativas de COFEPRIS.',,
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/privacidad',
+    },
 };
 
 // Force rebuild - 2026-02-08

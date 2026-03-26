@@ -7,7 +7,10 @@ export const metadata: Metadata = {
         title: '🫁 Índice FIB-4',
         description: '{c.label}',
         type: 'website',
-    }
+    },
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/herramientas/indice-fib4',
+    },
 };
 
 export default function ToolLayout({ children }: { children: React.ReactNode }) {

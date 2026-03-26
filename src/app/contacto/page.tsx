@@ -4,7 +4,10 @@ import { CONTACT_INFO, BRANCHES, getWhatsAppLink } from '@/lib/branches';
 
 export const metadata = {
     title: 'Contacto | Laboratorio Del Bienestar — Tizayuca, Hidalgo',
-    description: 'Contáctanos por WhatsApp al 771-685-4026 o visítanos en nuestras 2 sucursales en Tizayuca, Hidalgo. Atención personalizada.',
+    description: 'Contáctanos por WhatsApp al 771-685-4026 o visítanos en nuestras 2 sucursales en Tizayuca, Hidalgo. Atención personalizada.',,
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/contacto',
+    },
 };
 
 export default function ContactoPage() {

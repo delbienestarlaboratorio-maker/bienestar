@@ -9,7 +9,10 @@ export const metadata: Metadata = {
         title: '¿Qué Estudio Necesito? - Buscador por Síntomas',
         description: 'Encuentra qué estudios de laboratorio necesitas basándote en tus síntomas',
         type: 'website'
-    }
+    },
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/asistente',
+    },
 };
 
 export default function AsistentePage() {

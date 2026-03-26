@@ -10,7 +10,10 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Guía Médica: Caída Severa de Cabello",
         description: "Todo lo que necesitas saber antes de ir de urgencias sobre caída severa de cabello."
-    }
+    },
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/sintomas/caida-cabello',
+    },
 };
 
 export default function SymptomPage() {

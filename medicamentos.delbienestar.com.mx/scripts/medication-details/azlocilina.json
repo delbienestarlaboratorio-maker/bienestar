@@ -1,0 +1,406 @@
+{
+  "name": "Azlocilina",
+  "summary": "La Azlocilina es un antibiótico potente del grupo de las penicilinas, específicamente una ureidopenicilina, que se utiliza principalmente en hospitales para combatir infecciones graves causadas por bacterias. Su importancia clínica radica en su amplio espectro de acción, siendo especialmente útil contra bacterias Gram-negativas como Pseudomonas aeruginosa, una bacteria común y peligrosa en infecciones hospitalarias, neumonías, infecciones del tracto urinario complicadas e infecciones en pacientes con defensas bajas. A diferencia de otros antibióticos, la Azlocilina se administra casi exclusivamente por vía intravenosa o intramuscular profunda, lo que la convierte en un tratamiento de segunda línea reservado para situaciones donde otros antibióticos han fallado o se sospecha de bacterias resistentes, manejando así infecciones potencialmente mortales bajo estricta supervisión médica.",
+  "pharmacology": {
+    "mechanismOfAction": "La Azlocilina actúa como un antibiótico bactericida, lo que significa que mata directamente a las bacterias. Su mecanismo se basa en interferir con la síntesis de la pared celular bacteriana, una estructura esencial que protege a la bacteria. Lo hace uniéndose a unas proteínas específicas llamadas Proteínas Fijadoras de Penicilina (PBP, por sus siglas en inglés) que están en la membrana de la bacteria. Esta unión bloquea la última etapa de la formación de la pared celular, impidiendo que se forme correctamente. Como resultado, la bacteria no puede mantener su integridad, absorbe agua en exceso y finalmente estalla (lisis), muriendo. Es particularmente activa porque puede penetrar mejor la capa externa de las bacterias Gram-negativas.",
+    "pharmacologicClass": "Antibiótico beta-lactámico; Penicilina semisintética; Subclase: Ureidopenicilina.",
+    "therapeuticClass": "Antibiótico de amplio espectro, antibacteriano sistémico.",
+    "absorption": "La Azlocilina no se absorbe por vía oral, por lo que debe administrarse por vía parenteral (intramuscular profunda o, más comúnmente, intravenosa). Después de una inyección intramuscular, la absorción es buena, alcanzando concentraciones máximas en el plasma aproximadamente a la hora. La biodisponibilidad por vía intramuscular es cercana al 100%.",
+    "distribution": "Se distribuye ampliamente en la mayoría de los fluidos y tejidos corporales, incluyendo riñones, hígado, pulmones, bilis, hueso, líquido pleural y peritoneal. Cruza la barrera placentaria y se excreta en la leche materna en pequeñas cantidades. Su unión a proteínas plasmáticas es moderada, aproximadamente del 20-30%. Su volumen de distribución (Vd) es de alrededor de 0.2-0.3 L/kg, indicando una distribución principalmente en el plasma y líquido extracelular.",
+    "metabolism": "La Azlocilina sufre un metabolismo hepático limitado. No es un sustrato significativo del sistema de enzimas CYP450 (citocromo P450). Una pequeña porción se metaboliza a metabolitos inactivos. La mayor parte del fármaco se elimina sin cambios.",
+    "elimination": "Se elimina principalmente por vía renal, a través de la filtración glomerular y secreción tubular. Aproximadamente el 60-70% de una dosis se excreta sin cambios en la orina en las primeras 24 horas. Una pequeña cantidad se excreta en la bilis. Su vida media de eliminación en adultos con función renal normal es de aproximadamente 0.8 a 1.2 horas. En pacientes con insuficiencia renal grave, esta vida media puede prolongarse significativamente (hasta 5-6 horas).",
+    "onsetOfAction": "Los niveles plasmáticos terapéuticos se alcanzan rápidamente después del final de una infusión intravenosa (en minutos). El efecto bactericida comienza una vez que la concentración en el sitio de la infección supera la Concentración Inhibitoria Mínima (CIM) de la bacteria.",
+    "durationOfAction": "Debido a su corta vida media, requiere administraciones frecuentes (generalmente cada 4, 6 u 8 horas) para mantener concentraciones terapéuticas en sangre y tejidos a lo largo del día."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones graves por Pseudomonas aeruginosa (neumonía, sepsis, infecciones de heridas, infecciones del tracto urinario complicadas)",
+      "Infecciones intraabdominales graves (peritonitis, colecistitis)",
+      "Infecciones de piel y tejidos blandos complicadas",
+      "Infecciones del tracto respiratorio inferior graves",
+      "Infecciones del tracto urinario complicadas (pielonefritis aguda)",
+      "Sepsis de origen desconocido o polimicrobiana (a menudo en combinación con otros antibióticos como un aminoglucósido)",
+      "Profilaxis de infecciones en cirugía de alto riesgo (ej. cirugía colorrectal)"
+    ],
+    "offLabel": [
+      "Tratamiento de infecciones en pacientes con fibrosis quística exacerbadas por Pseudomonas",
+      "Tratamiento empírico de neutropenia febril (en combinación)",
+      "Infecciones osteoarticulares por bacilos Gram-negativos"
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis habitual para infecciones moderadas a graves es de 2 a 4 gramos, administrados por vía intravenosa cada 6 a 8 horas. Para infecciones muy graves o por Pseudomonas aeruginosa, la dosis puede aumentarse a 4-5 gramos cada 6 horas. La dosis diaria total típica oscila entre 8 y 20 gramos, dividida en 3-4 dosis.",
+    "pediatric": "En niños mayores de 1 mes y adolescentes: 75 mg/kg de peso corporal por dosis, administrados cada 6 a 8 horas. Para infecciones graves (especialmente por Pseudomonas), la dosis puede aumentarse a 100-125 mg/kg cada 6 horas, sin exceder la dosis máxima para adultos. La dosis debe calcularse cuidadosamente según el peso.",
+    "elderly": "Los pacientes de edad avanzada pueden tener una función renal disminuida. Se recomienda iniciar con la dosis estándar para adultos, pero es IMPRESCINDIBLE ajustar la dosis según la función renal (Tasa de Filtración Glomerular, TFG). Se debe monitorear la función renal antes y durante el tratamiento.",
+    "renalImpairment": "Ajustes necesarios según TFG (ml/min): TFG >30: Dosis normal. TFG 10-30: 2-3 g cada 8-12 horas. TFG <10: 2 g cada 12-24 horas. En pacientes en diálisis: Administrar 2 g después de cada sesión de diálisis, ya que el fármaco se elimina eficazmente por hemodiálisis. La dosificación en diálisis peritoneal es variable.",
+    "hepaticImpairment": "No se requieren ajustes de dosis específicos para la insuficiencia hepática leve a moderada, ya que la eliminación es principalmente renal. En insuficiencia hepática grave, se recomienda precaución y monitorización clínica, pero no hay guías de ajuste estandarizadas.",
+    "maxDose": "La dosis máxima diaria generalmente no debe exceder los 24 gramos (en casos excepcionales de infecciones muy graves y bajo estricta monitorización)."
+  },
+  "dosageForms": [
+    {
+      "form": "Polvo liofilizado para inyección o infusión",
+      "strengths": [
+        "1 g",
+        "2 g",
+        "3 g",
+        "4 g",
+        "5 g"
+      ],
+      "route": "Intravenosa (IV) / Intramuscular profunda (IM)"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida (alergia) a la Azlocilina, a cualquier otra penicilina o a cualquier componente de la formulación.",
+      "Antecedentes de reacción alérgica grave (anafilaxia) a cualquier antibiótico beta-lactámico (penicilinas, cefalosporinas, carbapenémicos, monobactámicos)."
+    ],
+    "relative": [
+      "Insuficiencia renal grave (requiere ajuste de dosis obligatorio).",
+      "Antecedentes de colitis asociada a antibióticos.",
+      "Mononucleosis infecciosa (mayor riesgo de exantema).",
+      "Leucemia linfática (mayor riesgo de exantema)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Diarrea (puede ser desde leve hasta colitis pseudomembranosa)",
+      "Náuseas",
+      "Reacciones en el sitio de la inyección (dolor, flebitis, induración)"
+    ],
+    "common": [
+      "Erupción cutánea (exantema maculopapular, no siempre alérgico)",
+      "Vómitos",
+      "Dolor de cabeza",
+      "Prurito (picazón)",
+      "Elevación transitoria de enzimas hepáticas (AST, ALT)",
+      "Candidiasis (infección por hongos) oral o vaginal"
+    ],
+    "uncommon": [
+      "Fiebre por droga",
+      "Eosinofilia (aumento de un tipo de glóbulos blancos)",
+      "Leucopenia (disminución de glóbulos blancos)",
+      "Trombocitopenia (disminución de plaquetas)",
+      "Hipokalemia (bajos niveles de potasio en sangre)",
+      "Mareo"
+    ],
+    "rare": [
+      "Reacción anafiláctica grave (dificultad para respirar, hinchazón, shock)",
+      "Nefritis intersticial (daño renal)",
+      "Hepatitis colestásica",
+      "Neurotoxicidad (convulsiones, especialmente con dosis altas en insuficiencia renal)",
+      "Anemia hemolítica",
+      "Síndrome de Stevens-Johnson / Necrólisis epidérmica tóxica (extremadamente raro)"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Aminoglucósidos (Ej. Gentamicina, Amikacina)",
+        "effect": "Sinergia antibacteriana contra bacterias como Pseudomonas, pero la Azlocilina puede INACTIVAR FÍSICAMENTE al aminoglucósido si se mezclan en la misma jeringa o bolsa de infusión. Deben administrarse por vías separadas y con un intervalo de tiempo.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Anticoagulantes orales (Warfarina)",
+        "effect": "La Azlocilina puede potenciar el efecto anticoagulante, aumentando el riesgo de sangrado. Se debe monitorizar estrechamente el INR.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Metotrexato",
+        "effect": "La Azlocilina puede disminuir la eliminación renal del metotrexato, aumentando su toxicidad (mucositis, supresión de médula ósea).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Probenecid",
+        "effect": "Bloquea la secreción tubular renal de la Azlocilina, aumentando y prolongando sus niveles en sangre. Puede usarse intencionalmente para este fin, pero requiere ajuste de dosis.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "No aplica, ya que se administra por vía parenteral. Sin embargo, el estado nutricional del paciente puede afectar la unión a proteínas y la respuesta al tratamiento.",
+    "withSupplements": "Suplementos que contienen altas dosis de vitamina K (como algunos multivitamínicos o suplementos herbales como el té verde concentrado) pueden antagonizar el efecto de warfarina, cuya interacción con Azlocilina ya es riesgosa. Consultar con el médico."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "B",
+      "recommendation": "Estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. Debe usarse durante el embarazo solo si el beneficio potencial justifica claramente el riesgo potencial para el feto. Cruza la placenta. Se prefiere en infecciones graves donde otros antibiónicos no son adecuados.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La Azlocilina se excreta en la leche materna en pequeñas cantidades. Se considera generalmente compatible con la lactancia, ya que la cantidad absorbida por el lactante es baja y es poco probable que cause efectos adversos significativos. Sin embargo, se debe observar al bebé por posibles efectos como diarrea o candidiasis (algodoncillo).",
+    "pediatric": "Seguro y efectivo para niños mayores de 1 mes. La dosificación se basa estrictamente en el peso corporal. No se recomienda en recién nacidos prematuros o menores de 1 mes debido a la inmadurez de los sistemas renal y hepático.",
+    "geriatric": "Los pacientes mayores tienen mayor probabilidad de tener función renal disminuida, lo que requiere ajustes de dosis. También son más susceptibles a los efectos adversos, especialmente diarrea/colitis y alteraciones electrolíticas (hipokalemia). Se requiere monitorización estrecha de la función renal y electrolitos."
+  },
+  "administration": {
+    "howToTake": "1. RECONSTITUCIÓN: El polvo se debe reconstituir con agua para inyección, solución salina (NaCl 0.9%) o dextrosa al 5%, según las instrucciones del fabricante, para formar una solución. 2. ADMINISTRACIÓN IV: La dosis reconstituida se puede administrar como una inyección intravenosa lenta (en 3-5 minutos) o, más comúnmente, diluida en 50-100 ml de un líquido compatible (suero salino o dextrosa) e infundida en 20-30 minutos. 3. ADMINISTRACIÓN IM: Solo para presentaciones específicas y en músculos grandes (glúteo). Es dolorosa, por lo que se prefiere la vía IV. NO MEZCLAR con otros medicamentos en la misma jeringa o bolsa.",
+    "storage": "El polvo liofilizado sin reconstituir debe almacenarse a temperatura ambiente (15-30°C), protegido de la luz y la humedad. Una vez reconstituido, la solución es estable a temperatura ambiente por un tiempo limitado (consultar prospecto, usualmente 24 horas si se guarda en refrigeración). No congelar.",
+    "specialInstructions": "Se debe realizar una PRUEBA DE SENSIBILIDAD (antibiograma) antes del tratamiento para confirmar que la bacteria causante es susceptible a la Azlocilina. En infecciones graves por Pseudomonas, a menudo se usa en COMBINACIÓN con un aminoglucósido (ej. gentamicina) para efecto sinérgico y prevenir el desarrollo de resistencia. Las dosis deben estar espaciadas uniformemente (ej. cada 6 horas) para mantener niveles terapéuticos constantes."
+  },
+  "monitoring": {
+    "labTests": [
+      "Recuento completo de sangre (CSC) con diferencial (para leucopenia, eosinofilia)",
+      "Pruebas de función renal (creatinina sérica, BUN, cálculo de TFG) antes y durante el tratamiento",
+      "Pruebas de función hepática (AST, ALT, fosfatasa alcalina, bilirrubina)",
+      "Electrolitos séricos (especialmente potasio - K+)",
+      "Cultivo y sensibilidad del sitio de la infección",
+      "Tiempo de protrombina (TP)/INR si se usa con anticoagulantes"
+    ],
+    "frequency": "Función renal y CSC: al inicio y al menos 2 veces por semana durante el tratamiento. Electrolitos y función hepática: al inicio y semanalmente, o según síntomas. Monitoreo clínico diario para signos de mejoría o efectos adversos.",
+    "signsToWatch": [
+      "Signos de reacción alérgica: erupción cutánea con picazón, hinchazón de cara/lengua, dificultad para respirar.",
+      "Diarrea acuosa o con sangre, dolor abdominal intenso (posible colitis pseudomembranosa).",
+      "Fiebre nueva o persistente.",
+      "Sangrado o moretones inusuales.",
+      "Convulsiones o confusión.",
+      "Dolor o enrojecimiento intenso en el sitio de la inyección IV."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Convulsiones (especialmente en pacientes con insuficiencia renal)",
+      "Alteraciones neuromusculares (hiperreflexia)",
+      "Náuseas, vómitos, diarrea severa",
+      "Alteraciones electrolíticas (hipernatremia, hipokalemia)"
+    ],
+    "treatment": "El tratamiento es de soporte y sintomático. No hay antídoto específico. En caso de convulsiones, se pueden usar benzodiacepinas. La hemodiálisis es EFICAZ para eliminar la Azlocilina de la circulación y debe considerarse en casos de sobredosis grave, especialmente con insuficiencia renal.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (receta retenida en farmacia hospitalaria en muchos casos). Es un medicamento de uso hospitalario.",
+    "scheduleMexico": "Medicamento de la Fracción IV (Medicamentos que requieren receta médica y cuya venta se hace conservando la misma).",
+    "fdaApprovalYear": "Aprobado por la FDA en la década de 1980. Su uso ha disminuido en algunos países en favor de otras penicilinas y cefalosporinas, pero sigue disponible y en uso."
+  },
+  "brandsMexico": [
+    "Azlin® (original, ya puede estar descontinuada o de difícil acceso)",
+    "Azlocilina Sódica® (genérico, diversos laboratorios nacionales)",
+    "Seclan®",
+    "Azlocin®"
+  ],
+  "clinicalPearls": [
+    "La Azlocilina es un arma clave contra Pseudomonas aeruginosa, pero su uso debe ser racional para evitar el desarrollo de resistencia bacteriana.",
+    "NUNCA se debe mezclar en la misma solución con un aminoglucósido (ej. gentamicina); se inactivan mutuamente. Administrar por vías separadas con al menos 1 hora de diferencia.",
+    "La diarrea es un efecto común; es crucial diferenciar una diarrea simple de una colitis pseudomembranosa por C. difficile, que es una complicación grave.",
+    "En pacientes con insuficiencia renal, el ajuste de dosis no es una opción, es una NECESIDAD para evitar neurotoxicidad (convulsiones).",
+    "La erupción cutánea que aparece varios días después de iniciado el tratamiento no siempre es alérgica; en mononucleosis o leucemia, es un efecto frecuente y no contraindica necesariamente futuros usos."
+  ],
+  "patientCounseling": "Este medicamento se le administrará directamente en la vena (suero) o en un músculo por un profesional de la salud en un hospital o clínica. Es muy importante que informe inmediatamente a su médico o enfermera si siente picazón, le sale roncha en la piel, se le hincha la cara o tiene dificultad para respirar. También debe avisar si tiene diarrea líquida o con sangre, dolor abdominal fuerte o fiebre nueva. Aunque esté en el hospital, comente cualquier malestar. Complete TODO el tratamiento indicado, incluso si se siente mejor, para asegurar que la infección desaparezca por completo y evitar que la bacteria se haga resistente. Informe a su médico si está embarazada, planea estarlo o está amamantando.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre",
+        "slug": "fiebre"
+      },
+      {
+        "name": "Dolor o ardor al orinar",
+        "slug": "disuria"
+      },
+      {
+        "name": "Tos con flemas purulentas",
+        "slug": "tos-con-flemas"
+      },
+      {
+        "name": "Dolor abdominal intenso",
+        "slug": "dolor-abdominal"
+      },
+      {
+        "name": "Escalofríos",
+        "slug": "escalofrios"
+      },
+      {
+        "name": "Enrojecimiento e hinchazón de heridas",
+        "slug": "celulitis"
+      },
+      {
+        "name": "Dificultad para respirar",
+        "slug": "disnea"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Neumonía nosocomial",
+        "slug": "neumonia-nosocomial"
+      },
+      {
+        "name": "Sepsis",
+        "slug": "sepsis"
+      },
+      {
+        "name": "Pielonefritis aguda",
+        "slug": "pielonefritis-aguda"
+      },
+      {
+        "name": "Peritonitis",
+        "slug": "peritonitis"
+      },
+      {
+        "name": "Infección de herida quirúrgica",
+        "slug": "infeccion-herida-quirurgica"
+      },
+      {
+        "name": "Fibrosis quística (exacerbación pulmonar)",
+        "slug": "fibrosis-quistica"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Insuficiencia renal crónica",
+        "slug": "insuficiencia-renal-cronica"
+      },
+      {
+        "name": "Colitis pseudomembranosa",
+        "slug": "colitis-pseudomembranosa"
+      },
+      {
+        "name": "Alergia a penicilina",
+        "slug": "alergia-penicilina"
+      },
+      {
+        "name": "Mononucleosis infecciosa",
+        "slug": "mononucleosis"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar (por nefritis)"
+      },
+      {
+        "name": "Potasio sérico (K+)",
+        "slug": "potasio-serico",
+        "effect": "Puede disminuir (hipokalemia)"
+      },
+      {
+        "name": "Recuento de leucocitos",
+        "slug": "leucocitos",
+        "effect": "Puede disminuir (leucopenia)"
+      },
+      {
+        "name": "Enzimas hepáticas (ALT/AST)",
+        "slug": "transaminasas",
+        "effect": "Puede elevar transitoriamente"
+      },
+      {
+        "name": "Tiempo de Protrombina (INR)",
+        "slug": "inr",
+        "effect": "Puede elevar (aumenta riesgo de sangrado)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Urocultivo y Antibiograma",
+        "slug": "urocultivo-antibiograma",
+        "reason": "Para identificar la bacteria y su sensibilidad a Azlocilina en ITU."
+      },
+      {
+        "name": "Hemocultivos",
+        "slug": "hemocultivos",
+        "reason": "Para detectar bacteriemia o sepsis y guiar el tratamiento."
+      },
+      {
+        "name": "Cultivo de esputo",
+        "slug": "cultivo-esputo",
+        "reason": "Para identificar el patógeno en neumonía."
+      },
+      {
+        "name": "Prueba de sensibilidad cutánea a penicilinas",
+        "slug": "prueba-alergia-penicilina",
+        "reason": "En pacientes con antecedentes de alergia incierta."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La Azlocilina es una penicilina? ¿Si soy alérgico a la penicilina la puedo usar?",
+      "a": "SÍ, la Azlocilina es un tipo de penicilina (ureidopenicilina). Si tiene una alergia VERDADERA y confirmada a la penicilina (especialmente reacción grave como dificultad para respirar o hinchazón), NO debe recibir Azlocilina, ya que existe un alto riesgo de reacción cruzada alérgica. Informe siempre su alergia al médico."
+    },
+    {
+      "q": "¿Por qué me ponen este antibiótico en el suero y no me dan pastillas?",
+      "a": "Porque la Azlocilina no se absorbe por el estómago si se toma en pastillas. Para que llegue en cantidad suficiente a la sangre y combata infecciones graves, debe administrarse directamente en la vena (intravenosa) o, menos común, en un músculo (intramuscular)."
+    },
+    {
+      "q": "¿Cuánto tiempo dura el tratamiento con Azlocilina?",
+      "a": "La duración depende de la infección que tenga. Para infecciones graves, el tratamiento suele durar entre 7 y 14 días, a veces más. Es crucial completar TODO el tratamiento que le indique el médico, aunque se sienta mejor a los pocos días, para evitar que la infección regrese o que las bacterias se hagan resistentes."
+    },
+    {
+      "q": "¿La Azlocilina causa mucho dolor donde la inyectan?",
+      "a": "Sí, la inyección intramuscular (en el músculo) puede ser bastante dolorosa. Por eso, la vía más utilizada es la intravenosa (en el suero). Si la recibe por vía intravenosa, puede sentir dolor o ver enrojecimiento en la vena (flebitis). Informe a la enfermera si esto ocurre."
+    },
+    {
+      "q": "¿Me puede dar diarrea con este medicamento?",
+      "a": "Sí, la diarrea es un efecto común de muchos antibióticos, incluida la Azlocilina. Si la diarrea es leve, puede manejarse con dieta. Pero si es muy líquida, abundante, con sangre, mucosidad o se acompaña de fiebre y dolor abdominal fuerte, AVISE INMEDIATAMENTE a su médico, ya que podría ser una colitis grave por una bacteria llamada C. difficile."
+    },
+    {
+      "q": "¿Puedo tomar alcohol mientras me ponen este tratamiento?",
+      "a": "No se recomienda consumir alcohol durante cualquier tratamiento antibiótico para una infección grave. El alcohol puede debilitar su sistema inmunológico, interferir con la recuperación y aumentar el riesgo de algunos efectos secundarios como malestar estomacal. Además, usted está enfermo y necesita descansar."
+    },
+    {
+      "q": "¿La Azlocilina afecta los métodos anticonceptivos como las pastillas?",
+      "a": "No hay evidencia sólida de que la Azlocilina reduzca la efectividad de los anticonceptivos hormonales orales (pastillas). Sin embargo, algunos antibióticos sí lo hacen, y si la diarrea o vómitos son severos, podrían interferir con la absorción de la pastilla. Como precaución, se recomienda usar un método de barrera adicional (condón) durante el tratamiento y hasta el siguiente ciclo menstrual."
+    },
+    {
+      "q": "¿Este antibiótico me va a dar sueño o mareos?",
+      "a": "El mareo es un efecto secundario poco común. La Azlocilina no suele causar somnolencia significativa. Si experimenta mareos intensos, confusión o, en casos raros, convulsiones, es una SEÑAL DE ALARMA y debe informarse de inmediato al personal médico, especialmente si tiene problemas renales."
+    },
+    {
+      "q": "¿Puedo recibir Azlocilina si estoy embarazada?",
+      "a": "Solo si su médico lo considera estrictamente necesario. La categoría de riesgo en el embarazo es B, lo que significa que no se han demostrado riesgos en animales, pero los estudios en humanos son limitados. Se usa cuando el beneficio de tratar una infección grave en la madre supera el riesgo potencial para el bebé."
+    },
+    {
+      "q": "¿Si estoy amamantando, le hará daño a mi bebé?",
+      "a": "La Azlocilina pasa a la leche materna en cantidades muy pequeñas. Generalmente se considera seguro amamantar durante el tratamiento, ya que es poco probable que cause efectos en el bebé. Sin embargo, observe a su bebé por si presenta diarrea, irritación en la zona del pañal (candidiasis) o cambios en sus hábitos. Consulte con su pediatra."
+    },
+    {
+      "q": "¿Por qué me hacen tantos análisis de sangre mientras me la ponen?",
+      "a": "Para monitorear que el medicamento esté funcionando y no causando efectos adversos. Revisan la función de los riñones (creatinina) para ajustar la dosis, el recuento de glóbulos blancos, las enzimas del hígado y los niveles de potasio, ya que la Azlocilina puede alterarlos."
+    },
+    {
+      "q": "¿La Azlocilina sirve para la gripe o el COVID-19?",
+      "a": "NO. La Azlocilina es un ANTIBIÓTICO, que solo mata BACTERIAS. La gripe y el COVID-19 son causados por VIRUS. Usar antibióticos para infecciones virales es inútil, puede causar efectos secundarios innecesarios y contribuye a la resistencia bacteriana."
+    },
+    {
+      "q": "¿Qué hago si se me pasa una dosis del suero?",
+      "a": "En el hospital, el personal de enfermería se encarga del horario. Si por algún error se pasa una dosis, se administra tan pronto como se descubra, a menos que ya sea casi la hora de la siguiente dosis. En ese caso, se omite la dosis olvidada y se continúa con el horario normal. NO se debe duplicar la dosis."
+    },
+    {
+      "q": "¿Puedo comer de todo mientras me dan este antibiótico?",
+      "a": "No hay restricciones dietéticas específicas con la Azlocilina. Se recomienda una dieta balanceada para apoyar la recuperación. Si tiene diarrea, evite alimentos grasos, picantes, lácteos (si le caen mal) y prefiera dieta astringente (plátano, arroz, manzana, pan tostado). Beba suficientes líquidos."
+    },
+    {
+      "q": "¿La Azlocilina interactúa con otros medicamentos que tomo?",
+      "a": "SÍ, puede interactuar de manera importante. Es fundamental que le diga a su médico TODOS los medicamentos que usa, incluyendo anticoagulantes (como warfarina), medicamentos para la gota (probenecid), metotrexato o suplementos. La interacción más crítica es con ciertos antibióticos inyectables (aminoglucósidos), que no se deben mezclar."
+    },
+    {
+      "q": "¿Qué bacteria combate específicamente la Azlocilina?",
+      "a": "Es especialmente potente contra bacterias Gram-negativas como Pseudomonas aeruginosa, Escherichia coli, Proteus spp., y algunas Enterobacterias. También tiene actividad contra algunos Gram-positivos, pero no es su fuerte. Su uso principal es contra Pseudomonas, una bacteria difícil de tratar."
+    },
+    {
+      "q": "¿Por qué a veces la combinan con otro antibiótico (como la gentamicina)?",
+      "a": "Para infecciones muy graves por Pseudomonas, se usa en combinación con un aminoglucósido (ej. gentamicina) por dos razones: 1) Tienen un efecto SINÉRGICO, es decir, juntos matan a la bacteria mejor que por separado. 2) Disminuye el riesgo de que la bacteria desarrolle resistencia al tratamiento."
+    },
+    {
+      "q": "¿Qué es la resistencia bacteriana y por qué es importante con este medicamento?",
+      "a": "La resistencia ocurre cuando las bacterias \"aprenden\" a defenderse del antibiótico y este deja de funcionar. La Azlocilina es un recurso valioso para infecciones graves. Usarla cuando no es necesaria (ej. para un virus) o no completar el tratamiento, favorece que las bacterias se hagan resistentes, y en el futuro, podría no servirle a usted ni a otras personas."
+    },
+    {
+      "q": "¿Cuáles son los signos de que el tratamiento está funcionando?",
+      "a": "La mejoría clínica es la señal principal: disminución de la fiebre, menos dolor, mejoría del estado general, normalización de los glóbulos blancos en sangre. Los cultivos de control que se negativizan también confirman la eficacia. Esta mejoría suele verse entre 48 y 72 horas después de iniciado el tratamiento correcto."
+    },
+    {
+      "q": "¿Qué debo hacer si después de terminar el tratamiento, los síntomas regresan?",
+      "a": "Debe contactar a su médico INMEDIATAMENTE. El regreso de los síntomas puede indicar que la infección no se erradicó completamente, que hay una complicación (como un absceso) o que se desarrolló una nueva infección. No se automedique ni reinicie antibióticos por su cuenta."
+    }
+  ]
+}

@@ -10,6 +10,9 @@ export const metadata: Metadata = {
         title: 'Sucursales - Laboratorio Del Bienestar | Tizayuca',
         description: '2 ubicaciones en Tizayuca con toma de muestras y sueroterapia. Abierto L-V 7am–8pm, Sáb 7am–6pm, Dom 8am–2pm.',
         type: 'website',
+    },,
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/sucursales',
     },
 };
 

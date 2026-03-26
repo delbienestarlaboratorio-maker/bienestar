@@ -10,7 +10,10 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Guía Médica: Dolor en el Pecho (Angina)",
         description: "Todo lo que necesitas saber antes de ir de urgencias sobre dolor en el pecho (angina)."
-    }
+    },
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/sintomas/dolor-pecho',
+    },
 };
 
 export default function SymptomPage() {

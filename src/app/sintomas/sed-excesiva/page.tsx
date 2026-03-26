@@ -10,7 +10,10 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Guía Médica: Sed Ansiosa (Polidipsia)",
         description: "Todo lo que necesitas saber antes de ir de urgencias sobre sed ansiosa (polidipsia)."
-    }
+    },
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/sintomas/sed-excesiva',
+    },
 };
 
 export default function SymptomPage() {

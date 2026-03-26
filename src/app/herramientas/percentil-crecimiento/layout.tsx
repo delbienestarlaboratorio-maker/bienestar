@@ -7,7 +7,10 @@ export const metadata: Metadata = {
         title: '👶 Percentil de Crecimiento Infantil',
         description: 'Calculadora e información médica sobre 👶 Percentil de Crecimiento Infantil. Cotiza tus estudios de laboratorio hoy mismo en Pachuca, Tulancingo y CDMX.',
         type: 'website',
-    }
+    },
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/herramientas/percentil-crecimiento',
+    },
 };
 
 export default function ToolLayout({ children }: { children: React.ReactNode }) {

@@ -7,7 +7,10 @@ import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export const metadata: Metadata = {
     title: 'test metadata',
-    description: 'test'
+    description: 'test',
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/valores-clinicos',
+    },
 };
 
 export default async function ValoresHub() {

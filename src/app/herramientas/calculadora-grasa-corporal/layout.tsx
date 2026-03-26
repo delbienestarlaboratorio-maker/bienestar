@@ -7,7 +7,10 @@ export const metadata: Metadata = {
         title: '🏋️ Calculadora de Grasa Corporal',
         description: 'Calculadora e información médica sobre 🏋️ Calculadora de Grasa Corporal. Cotiza tus estudios de laboratorio hoy mismo en Pachuca, Tulancingo y CDMX.',
         type: 'website',
-    }
+    },
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/herramientas/calculadora-grasa-corporal',
+    },
 };
 
 export default function ToolLayout({ children }: { children: React.ReactNode }) {

@@ -9,6 +9,9 @@ export const metadata: Metadata = {
         title: 'Nosotros — Laboratorio Del Bienestar',
         description: 'Más de 10 años brindando diagnósticos precisos con tecnología de vanguardia.',
         type: 'website',
+    },,
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/nosotros',
     },
 };
 

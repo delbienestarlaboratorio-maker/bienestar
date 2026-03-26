@@ -1,0 +1,412 @@
+{
+  "name": "Carbenicilina",
+  "summary": "La carbenicilina es un antibiótico del grupo de las penicilinas, específicamente una penicilina de amplio espectro con actividad contra bacterias Gram-negativas. Se utiliza principalmente para tratar infecciones graves causadas por bacterias sensibles, especialmente aquellas del tracto urinario, respiratorio, abdominal y de la piel. Su importancia clínica radica en que fue una de las primeras penicilinas efectivas contra Pseudomonas aeruginosa, una bacteria que puede causar infecciones peligrosas en pacientes hospitalizados o con defensas bajas. Sin embargo, debido al desarrollo de resistencia bacteriana y la aparición de antibióticos más modernos y con mejor perfil de seguridad, su uso actual en México es limitado y generalmente se reserva para casos específicos donde otros tratamientos no son adecuados. Es fundamental que este medicamento sea administrado bajo estricta supervisión médica, ya que requiere ajustes de dosis en pacientes con problemas renales y puede causar efectos secundarios significativos.",
+  "pharmacology": {
+    "mechanismOfAction": "La carbenicilina, como todas las penicilinas, es un antibiótico bactericida. Su mecanismo de acción principal es inhibir la síntesis de la pared celular bacteriana. Lo hace al unirse de forma irreversible a unas proteínas específicas llamadas Proteínas Fijadoras de Penicilina (PBP), que son enzimas esenciales para la última etapa de la formación de la pared celular (transpeptidación y carboxipeptidación). Al bloquear estas enzimas, la carbenicilina impide que la bacteria forme una pared celular fuerte y rígida. Esto debilita la estructura de la bacteria, especialmente durante su proceso de multiplicación, lo que provoca que absorba demasiada agua, se hinche y finalmente se rompa (lisis celular). Es más activa contra bacterias que se están multiplicando activamente, ya que es cuando la síntesis de la pared celular es más intensa.",
+    "pharmacologicClass": "Antibiótico beta-lactámico; Penicilina semisintética de amplio espectro; Penicilina anti-pseudomonal (del grupo de las carboxipenicilinas).",
+    "therapeuticClass": "Antibiótico sistémico.",
+    "absorption": "La carbenicilina administrada por vía oral (como la sal sódica) se absorbe de manera irregular e incompleta en el tracto gastrointestinal, por lo que su uso oral es limitado. La forma oral (carbenicilina indanil sódica) se diseñó para mejorar la absorción y se utiliza específicamente para infecciones urinarias, ya que se concentra en la orina. Para infecciones sistémicas graves, la vía de administración es exclusivamente parenteral (intramuscular o intravenosa), donde la biodisponibilidad es del 100%.",
+    "distribution": "Se distribuye ampliamente en la mayoría de los fluidos y tejidos corporales, incluyendo riñones, hígado, pulmón, bilis, líquido sinovial y pleural. Atraviesa la barrera placentaria y se excreta en la leche materna. Su penetración al líquido cefalorraquídeo (LCR) es pobre en meninges no inflamadas, pero mejora cuando hay inflamación meníngea. Su unión a proteínas plasmáticas es relativamente baja, aproximadamente del 50%.",
+    "metabolism": "La carbenicilina sufre un metabolismo hepático mínimo. No es un sustrato significativo del sistema de enzimas citocromo P450 (CYP). Una pequeña porción puede metabolizarse inactiva en el hígado, pero la mayor parte se elimina sin cambios por los riñones.",
+    "elimination": "Se elimina principalmente por excreción renal inalterada, a través de la filtración glomerular y la secreción tubular. Su vida media de eliminación en adultos con función renal normal es de aproximadamente 1 hora. En pacientes con insuficiencia renal grave, la vida media puede prolongarse significativamente (hasta 12-15 horas), lo que requiere ajustes obligatorios de la dosis para evitar toxicidad por acumulación.",
+    "onsetOfAction": "Los niveles plasmáticos máximos se alcanzan rápidamente después de una inyección intravenosa (al final de la infusión) y en 30-60 minutos después de una inyección intramuscular. El efecto bactericida comienza una vez que se alcanzan concentraciones suficientes en el sitio de la infección.",
+    "durationOfAction": "Su corta vida media requiere que se administre en dosis múltiples al día, generalmente cada 4 a 6 horas en regímenes intravenosos, para mantener niveles terapéuticos constantes en sangre y tejidos."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones del tracto urinario complicadas y no complicadas causadas por organismos susceptibles (especialmente Pseudomonas aeruginosa, Proteus spp., Escherichia coli).",
+      "Infecciones del tracto respiratorio inferior (neumonía, bronquiectasias infectadas) por bacterias Gram-negativas sensibles.",
+      "Infecciones intraabdominales (peritonitis, colecistitis, abscesos).",
+      "Sepsis y bacteriemia por organismos sensibles.",
+      "Infecciones de piel y tejidos blandos graves.",
+      "Infecciones óseas y articulares."
+    ],
+    "offLabel": [
+      "Profilaxis perioperatoria en cirugías con alto riesgo de infección por flora Gram-negativa (uso muy limitado actualmente).",
+      "Tratamiento de infecciones por Pseudomonas aeruginosa en pacientes con fibrosis quística (aunque otros betalactámicos como la ceftazidima o las penicilinas antipseudomónicas más nuevas son preferidas)."
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis varía según la gravedad de la infección y la sensibilidad del microorganismo. Para infecciones urinarias no complicadas: 1-2 g cada 6 horas por vía oral. Para infecciones sistémicas graves (vía IV/IM): 300-500 mg/kg/día, divididos en dosis cada 4-6 horas. Una dosis típica para un adulto de 70 kg es de 4-5 g IV cada 4-6 horas (dosis diaria total de 24-30 g). En infecciones por Pseudomonas aeruginosa muy graves, se pueden requerir dosis de hasta 40 g/día.",
+    "pediatric": "Recién nacidos a término (≤7 días): 100 mg/kg/día, divididos cada 12 horas. Recién nacidos a término (>7 días) y lactantes: 225-300 mg/kg/día, divididos cada 6-8 horas. Niños: 300-500 mg/kg/día (máximo 40 g/día), divididos en dosis cada 4-6 horas. La dosis debe calcularse cuidadosamente según el peso.",
+    "elderly": "Los pacientes de edad avanzada suelen tener una función renal disminuida. Es imperativo calcular la tasa de filtración glomerular (TFG) y ajustar la dosis según los rangos de insuficiencia renal. Se recomienda iniciar con dosis más bajas y monitorear la función renal estrechamente.",
+    "renalImpairment": "Ajustes basados en la TFG (ml/min): TFG >50: Dosis normal. TFG 10-50: 1.5-2 g cada 8-12 horas. TFG <10: 1.5-2 g cada 12-24 horas. En diálisis: La carbenicilina se elimina en hemodiálisis. Se recomienda administrar una dosis suplementaria de 2 g después de cada sesión de diálisis. En diálisis peritoneal: 2 g cada 12 horas.",
+    "hepaticImpairment": "No se requieren ajustes de dosis específicos por insuficiencia hepática leve a moderada, ya que la eliminación es principalmente renal. En insuficiencia hepática grave, monitorizar signos de sobrecarga de sodio o alteraciones electrolíticas.",
+    "maxDose": "La dosis máxima diaria en adultos es generalmente de 40 gramos. En niños, el máximo es de 500 mg/kg/día, sin exceder la dosis máxima adulta."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "500 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Polvo liofilizado para inyección (vial)",
+      "strengths": [
+        "1 g",
+        "2 g",
+        "5 g"
+      ],
+      "route": "Intramuscular, Intravenosa"
+    },
+    {
+      "form": "Polvo para suspensión oral",
+      "strengths": [
+        "500 mg/5 mL"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida (alergia) a la carbenicilina, a cualquier otra penicilina o a cualquier componente de la formulación.",
+      "Antecedentes de reacción alérgica grave (anafilaxia) a cualquier antibiótico beta-lactámico (penicilinas, cefalosporinas, carbapenémicos, monobactámicos)."
+    ],
+    "relative": [
+      "Insuficiencia renal grave (requiere ajuste de dosis obligatorio, no es una contraindicación absoluta si se ajusta).",
+      "Historia de colitis asociada a antibióticos.",
+      "Hipopotasemia (bajos niveles de potasio) preexistente.",
+      "Insuficiencia cardíaca congestiva o condiciones que requieran restricción de sodio (por el alto contenido de sodio en la formulación)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Diarrea (puede progresar a colitis pseudomembranosa).",
+      "Náuseas."
+    ],
+    "common": [
+      "Erupciones cutáneas (exantema maculopapular).",
+      "Dolor e inflamación en el sitio de inyección (vía IM).",
+      "Flebitis (irritación de la vena) con administración IV.",
+      "Candidiasis vaginal u oral (infección por hongos)."
+    ],
+    "uncommon": [
+      "Fiebre por droga.",
+      "Vómitos.",
+      "Prurito (picazón).",
+      "Elevación reversible de las enzimas hepáticas (transaminasas).",
+      "Hipopotasemia (pérdida de potasio).",
+      "Sobrecarga de sodio (edema, aumento de la presión arterial)."
+    ],
+    "rare": [
+      "Reacción anafiláctica grave (dificultad para respirar, hinchazón de cara/lengua).",
+      "Nefritis intersticial (daño renal).",
+      "Anemia hemolítica.",
+      "Leucopenia (disminución de glóbulos blancos).",
+      "Trombocitopenia (disminución de plaquetas).",
+      "Convulsiones (especialmente con dosis muy altas en insuficiencia renal).",
+      "Síndrome de Stevens-Johnson o necrólisis epidérmica tóxica (erupciones cutáneas graves)."
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Probenecid",
+        "effect": "El probenecid bloquea la secreción tubular renal de la carbenicilina, aumentando y prolongando sus niveles en sangre. Esto puede aumentar tanto la eficacia como el riesgo de toxicidad.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Aminoglucósidos (Gentamicina, Amikacina, Tobramicina)",
+        "effect": "La carbenicilina puede inactivar físicamente a los aminoglucósidos si se mezclan en la misma solución para infusión, reduciendo su efectividad. Además, ambos pueden aumentar el riesgo de daño renal (nefrotoxicidad). Deben administrarse por vías separadas y con un intervalo de tiempo.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Metotrexato",
+        "effect": "La carbenicilina puede disminuir la eliminación renal del metotrexato, aumentando sus niveles en sangre y el riesgo de toxicidad grave (supresión de médula ósea, mucositis).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Anticoagulantes orales (Warfarina)",
+        "effect": "Puede potenciar el efecto anticoagulante y aumentar el riesgo de sangrado, posiblemente al alterar la flora intestinal que produce vitamina K. Se requiere monitoreo estrecho del INR.",
+        "severity": "Grave"
+      }
+    ],
+    "withFood": "Las tabletas de carbenicilina deben tomarse con el estómago vacío (1 hora antes o 2 horas después de las comidas) para una absorción óptima. Sin embargo, si causa malestar estomacal, puede tomarse con alimentos, sabiendo que la absorción puede disminuir ligeramente. Evitar el consumo de alcohol durante el tratamiento, ya que puede aumentar el riesgo de malestar gastrointestinal y no es compatible con un proceso infeccioso.",
+    "withSupplements": "Los suplementos que contienen potasio deben usarse con precaución, ya que la carbenicilina puede causar pérdida de potasio (hipopotasemia). Por otro lado, los probióticos pueden ser beneficiosos para prevenir la diarrea asociada a antibióticos, pero deben tomarse con al menos 2-3 horas de diferencia de la dosis del antibiótico."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "B",
+      "recommendation": "Estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. Debe usarse durante el embarazo solo si claramente es necesario y los beneficios superan los riesgos potenciales. Atraviesa la placenta y puede exponer al feto.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La carbenicilina se excreta en la leche materna en pequeñas cantidades. Si bien es poco probable que cause efectos adversos significativos en el lactante, puede existir riesgo de sensibilización, diarrea o candidiasis (hongos) en el bebé. Se recomienda precaución y monitoreo del lactante. Consultar con el médico para evaluar riesgo-beneficio.",
+    "pediatric": "Puede usarse en niños para las indicaciones aprobadas. La dosis debe calcularse meticulosamente según el peso corporal. La seguridad y eficacia en recién nacidos prematuros no está completamente establecida, por lo que se requiere supervisión médica estrecha.",
+    "geriatric": "Los pacientes mayores de 65 años tienen mayor probabilidad de tener función renal disminuida. Es esencial calcular la TFG y ajustar la dosis en consecuencia para evitar acumulación y toxicidad (especialmente convulsiones, alteraciones electrolíticas). También son más susceptibles a la diarrea asociada a antibióticos y a las alteraciones en los electrolitos (sodio, potasio)."
+  },
+  "administration": {
+    "howToTake": "Vía Oral: Tomar las tabletas con un vaso lleno de agua, preferentemente con el estómago vacío (1 hora antes o 2 horas después de comer). Vía Intramuscular (IM): La inyección es dolorosa; se debe administrar profundamente en un músculo grande (glúteo o muslo). Vía Intravenosa (IV): Debe ser administrada por personal de salud. Se reconstituye el polvo y se diluye en un volumen adecuado de solución (ej. Cloruro de sodio 0.9% o Dextrosa al 5%). Se administra por infusión lenta, generalmente en 30 minutos a 2 horas, dependiendo de la dosis. Nunca mezclar con aminoglucósidos en la misma solución.",
+    "storage": "Conservar las tabletas y el polvo sin reconstituir en un lugar fresco y seco, a temperatura ambiente (15-30°C), protegido de la luz y la humedad. Las soluciones reconstituidas para inyección son estables por un tiempo limitado (consultar el prospecto, generalmente 24 horas si se refrigera). Desechar cualquier solución que esté turbia o contenga partículas.",
+    "specialInstructions": "Es crucial completar TODO el tratamiento prescrito, incluso si el paciente se siente mejor a los pocos días, para evitar que la infección reaparezca y para prevenir el desarrollo de bacterias resistentes. Informar inmediatamente al médico si aparece diarrea acuosa o con sangre, sarpullido severo, dificultad para respirar o hinchazón de cara/lengua. Mantener una buena hidratación durante el tratamiento."
+  },
+  "monitoring": {
+    "labTests": [
+      "Cultivo y antibiograma del sitio de la infección (antes de iniciar el tratamiento, si es posible).",
+      "Recuento completo de células sanguíneas (CSC) periódico.",
+      "Pruebas de función renal (creatinina sérica, nitrógeno ureico en sangre - BUN) y cálculo de TFG.",
+      "Electrolitos séricos (especialmente sodio y potasio).",
+      "Pruebas de función hepática (transaminasas).",
+      "Tiempo de protrombina (TP) o INR si el paciente toma anticoagulantes."
+    ],
+    "frequency": "La función renal y los electrolitos deben monitorearse al inicio del tratamiento y al menos 2-3 veces por semana durante terapias prolongadas o con dosis altas. El CSC y las pruebas hepáticas pueden hacerse semanalmente. La respuesta clínica (fiebre, síntomas) se evalúa diariamente.",
+    "signsToWatch": [
+      "Fiebre persistente o que reaparece.",
+      "Diarrea acuosa o con sangre (posible colitis pseudomembranosa).",
+      "Erupción cutánea nueva o que empeora.",
+      "Dificultad para respirar, opresión en el pecho, hinchazón de labios/lengua/garganta (signos de alergia grave).",
+      "Hinchazón inusual en pies o tobillos (edema por retención de sodio).",
+      "Debilidad muscular, calambres, palpitaciones (signos de hipopotasemia).",
+      "Sangrado o moretones inusuales.",
+      "Convulsiones o cambios en el estado mental."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Convulsiones (especialmente en pacientes con insuficiencia renal).",
+      "Alteraciones neurológicas (confusión, alucinaciones).",
+      "Alteraciones electrolíticas graves (hipernatremia, hipopotasemia).",
+      "Sobrecarga de volumen (edema pulmonar, empeoramiento de insuficiencia cardíaca).",
+      "Alteraciones en la coagulación."
+    ],
+    "treatment": "El tratamiento es de soporte y sintomático. No existe un antídoto específico. En caso de sobredosis reciente, se puede considerar el lavado gástrico si la ingesta fue oral. La hemodiálisis es ALTAMENTE EFECTIVA para eliminar la carbenicilina de la circulación y es el tratamiento de elección en casos graves, especialmente en pacientes con insuficiencia renal o con síntomas neurológicos. Corregir las alteraciones electrolíticas (potasio, sodio) según sea necesario. Controlar las convulsiones con benzodiacepinas.",
+    "antidote": "No existe un antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (receta archivada). Es un antibiótico de uso controlado.",
+    "scheduleMexico": "Medicamento sujeto a control sanitario (lista de medicamentos esenciales, pero su disponibilidad comercial en México es muy limitada o puede estar descontinuada).",
+    "fdaApprovalYear": "Aprobada por la FDA en la década de 1970 (la forma oral, carbenicilina indanil sódica, en 1970)."
+  },
+  "brandsMexico": [
+    "Pyopen® (disponibilidad histórica, puede no estar actualmente en el mercado)",
+    "Geopen® (disponibilidad histórica)",
+    "Carbenicilina Sódica (genérico, disponibilidad muy limitada). NOTA: Debido a la resistencia bacteriana y la llegada de alternativas más modernas, es posible que la carbenicilina ya no se comercialice de forma activa en México. Siempre consultar con el centro de información de medicamentos (CIM) o la COFEPRIS."
+  ],
+  "clinicalPearls": [
+    "La carbenicilina contiene aproximadamente 5 mEq (115 mg) de sodio por gramo. Esto es significativo y debe considerarse en pacientes con insuficiencia cardíaca, hipertensión o restricción de sodio.",
+    "Es un antibiótico de 'reserva' o segunda línea para infecciones por Pseudomonas aeruginosa en la era actual, superada por piperacilina/tazobactam, ceftazidima, cefepima o carbapenémicos.",
+    "La hipopotasemia es un efecto adverso característico, causado por la excreción del anión no reabsorbible (carbenicilina) en el túbulo renal, que arrastra potasio.",
+    "Nunca debe mezclarse en la misma jeringa o bolsa de infusión con un aminoglucósido, ya que se inactivan mutuamente.",
+    "Un cultivo de sensibilidad (antibiograma) es MANDATORIO antes de iniciar terapia empírica con carbenicilina, dada la alta prevalencia de resistencia."
+  ],
+  "patientCounseling": "Estimado paciente: La carbenicilina es un antibiótico fuerte que solo debe usarse bajo la estricta supervisión de su médico. Es fundamental que tome todas las dosis exactamente como se le indicó, respetando los horarios, incluso si se siente mejor. No suspenda el tratamiento antes de tiempo. Tome las tabletas con agua, preferentemente con el estómago vacío. Beba abundantes líquidos durante el tratamiento. Esté alerta a señales de alarma: si presenta diarrea líquida o con sangre, sarpullido intenso, dificultad para respirar, hinchazón de cara o lengua, moretones o sangrado inusual, o debilidad muscular extrema, comuníquese de inmediato con su médico o acuda al servicio de urgencias. Informe a todos sus médicos que está tomando este medicamento, especialmente si le van a realizar algún análisis de sangre. No comparta este medicamento con otras personas, ya que es específico para su infección.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre",
+        "slug": "fiebre"
+      },
+      {
+        "name": "Dolor al orinar (disuria)",
+        "slug": "dolor-al-orinar-disuria"
+      },
+      {
+        "name": "Escalofríos",
+        "slug": "escalofrios"
+      },
+      {
+        "name": "Tos con flemas purulentas",
+        "slug": "tos-con-flemas"
+      },
+      {
+        "name": "Dolor abdominal",
+        "slug": "dolor-abdominal"
+      },
+      {
+        "name": "Enrojecimiento e hinchazón de la piel",
+        "slug": "enrojecimiento-e-hinchazon-piel"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Pielonefritis (infección renal)",
+        "slug": "pielonefritis-infeccion-renal"
+      },
+      {
+        "name": "Neumonía adquirida en el hospital",
+        "slug": "neumonia-intrahospitalaria"
+      },
+      {
+        "name": "Sepsis",
+        "slug": "sepsis"
+      },
+      {
+        "name": "Peritonitis",
+        "slug": "peritonitis"
+      },
+      {
+        "name": "Infección de herida quirúrgica",
+        "slug": "infeccion-herida-quirurgica"
+      },
+      {
+        "name": "Osteomielitis (infección ósea)",
+        "slug": "osteomielitis"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Colitis pseudomembranosa",
+        "slug": "colitis-pseudomembranosa"
+      },
+      {
+        "name": "Insuficiencia renal aguda",
+        "slug": "insuficiencia-renal-aguda"
+      },
+      {
+        "name": "Hipopotasemia",
+        "slug": "hipopotasemia"
+      },
+      {
+        "name": "Sobrecarga de volumen e hipernatremia",
+        "slug": "sobrecarga-volumen"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Potasio sérico (K+)",
+        "slug": "potasio-serico",
+        "effect": "Puede disminuir (hipopotasemia)"
+      },
+      {
+        "name": "Sodio sérico (Na+)",
+        "slug": "sodio-serico",
+        "effect": "Puede aumentar (hipernatremia) por carga de sodio"
+      },
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede aumentar (disfunción renal)"
+      },
+      {
+        "name": "Recuento de plaquetas",
+        "slug": "recuento-plaquetas",
+        "effect": "Puede disminuir (trombocitopenia)"
+      },
+      {
+        "name": "Tiempo de Protrombina (TP/INR)",
+        "slug": "tiempo-protrombina-inr",
+        "effect": "Puede aumentar (riesgo de sangrado)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Urocultivo con antibiograma",
+        "slug": "urocultivo-antibiograma",
+        "reason": "Para identificar la bacteria causante de la infección urinaria y su sensibilidad a la carbenicilina."
+      },
+      {
+        "name": "Hemocultivos",
+        "slug": "hemocultivos",
+        "reason": "Para detectar bacteriemia o sepsis y guiar el tratamiento antibiótico."
+      },
+      {
+        "name": "Creatinina sérica y cálculo de TFG",
+        "slug": "creatinina-tfg",
+        "reason": "Esencial para ajustar la dosis y prevenir toxicidad por acumulación del medicamento."
+      },
+      {
+        "name": "Electrolitos séricos (Na, K)",
+        "slug": "electrolitos-sericos",
+        "reason": "Para monitorear y corregir la hipopotasemia y los desequilibrios de sodio."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de Aclaramiento de Creatinina (Cockcroft-Gault)",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de TFG (MDRD o CKD-EPI)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La carbenicilina es lo mismo que la penicilina común?",
+      "a": "No exactamente. Ambas son de la misma familia (penicilinas), pero la carbenicilina es un tipo especial llamado 'penicilina de amplio espectro' que sirve para combatir un rango más grande de bacterias, incluyendo algunas que la penicilina común no puede eliminar, como ciertas bacterias del tracto urinario y la Pseudomonas."
+    },
+    {
+      "q": "¿Puedo tomar carbenicilina si soy alérgico a la penicilina?",
+      "a": "NO. Si tiene alergia conocida a la penicilina (como sarpullido, hinchazón o dificultad para respirar después de tomarla), NO debe usar carbenicilina. Existe un riesgo muy alto de tener una reacción alérgica similar o incluso más grave. Informe siempre a su médico sobre todas sus alergias."
+    },
+    {
+      "q": "¿Con qué alimentos debo o no debo tomarla?",
+      "a": "Para que se absorba mejor, se recomienda tomar las tabletas con el estómago vacío, es decir, 1 hora antes o 2 horas después de comer. Si le causa malestar estomacal, puede tomarla con un poco de comida, pero avise a su médico."
+    },
+    {
+      "q": "¿Qué hago si se me olvida una dosis?",
+      "a": "Tómela tan pronto como se acuerde. Sin embargo, si ya es casi la hora de su siguiente dosis, sáltese la dosis olvidada y continúe con su horario normal. NO tome una dosis doble para compensar la que olvidó."
+    },
+    {
+      "q": "¿Puedo beber alcohol mientras estoy en tratamiento?",
+      "a": "No se recomienda. El alcohol puede interferir con la efectividad del antibiótico, empeorar los efectos secundarios como náuseas o mareo, y no es bueno para su cuerpo mientras combate una infección."
+    },
+    {
+      "q": "¿La carbenicilina anula el efecto de las pastillas anticonceptivas?",
+      "a": "Algunos antibióticos pueden reducir la efectividad de los anticonceptivos hormonales (pastillas, parches, anillo). Aunque el riesgo con la carbenicilina se considera bajo, se recomienda usar un método anticonceptivo adicional (como condón) durante el tratamiento y hasta 7 días después de terminarlo, para mayor seguridad."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Puede empezar a sentirse mejor (menos fiebre, menos dolor) en 48 a 72 horas después de iniciar el tratamiento. Sin embargo, es crucial terminar TODOS los días de tratamiento que le recetó el médico, aunque ya se sienta bien, para eliminar completamente la bacteria."
+    },
+    {
+      "q": "¿Puede causar diarrea?",
+      "a": "Sí, la diarrea es un efecto secundario común. Si la diarrea es leve, puede ayudar tomar probióticos (como yogur con cultivos activos). Pero si la diarrea es muy líquida, abundante, con sangre o moco, o si tiene fiebre y dolor abdominal fuerte, DEJE de tomar el medicamento y contacte a su médico INMEDIATAMENTE, ya que podría ser una colitis grave."
+    },
+    {
+      "q": "¿Es segura para mujeres embarazadas?",
+      "a": "Solo debe usarse en el embarazo si el médico considera que es estrictamente necesario y los beneficios superan los riesgos. Se clasifica en la categoría B, lo que significa que los estudios en animales no han mostrado riesgo, pero no hay estudios concluyentes en humanos. Su médico decidirá lo mejor para usted y su bebé."
+    },
+    {
+      "q": "¿Puedo manejar o operar maquinaria mientras la tomo?",
+      "a": "Generalmente no afecta la capacidad para conducir. Sin embargo, si experimenta efectos secundarios como mareos, somnolencia o visión borrosa (lo cual es raro), evite actividades que requieran alerta hasta que se sienta normal."
+    },
+    {
+      "q": "¿Por qué el médico me pide tantos análisis de sangre mientras me la inyectan?",
+      "a": "Porque la carbenicilina puede afectar los riñones y alterar los niveles de sales (como el potasio y el sodio) en la sangre. Los análisis permiten ajustar la dosis para que sea efectiva y segura, y detectar problemas a tiempo."
+    },
+    {
+      "q": "¿Sirve para la gripe o el resfriado?",
+      "a": "NO. La carbenicilina es un antibiótico que solo mata bacterias. La gripe y el resfriado común son causados por virus. Usar antibióticos para infecciones virales no sirve de nada, puede causar efectos secundarios innecesarios y contribuye a que las bacterias se vuelvan resistentes."
+    },
+    {
+      "q": "¿Qué significa que tenga 'alto contenido de sodio'?",
+      "a": "Cada gramo de carbenicilina inyectable contiene una cantidad significativa de sodio (similar a la sal). Esto es importante para pacientes con problemas del corazón, presión alta o que necesitan dieta baja en sal, porque puede causar hinchazón de pies o aumentar la presión arterial. Su médico lo considerará."
+    },
+    {
+      "q": "¿Puedo tomar antiácidos o suplementos de hierro junto con ella?",
+      "a": "Los antiácidos, suplementos de hierro, calcio o magnesio pueden interferir con la absorción de la carbenicilina si se toman al mismo tiempo. Separe la toma de estos productos al menos 2 horas de la dosis del antibiótico."
+    },
+    {
+      "q": "¿La carbenicilina es cara?",
+      "a": "En comparación con otros antibióticos más modernos, la carbenicilina en sí puede no ser extremadamente cara. Sin embargo, su uso actual es limitado y puede no estar disponible fácilmente en todas las farmacias. El costo real incluye los análisis de monitoreo y la posible hospitalización para administrarla por vía intravenosa."
+    },
+    {
+      "q": "¿Qué pasa si tomo más de la dosis recetada por error?",
+      "a": "Una sobredosis puede ser grave, especialmente para los riñones y el sistema nervioso (puede causar convulsiones). Si toma una dosis excesiva por error, acuda inmediatamente al servicio de urgencias o llame al centro de toxicología, incluso si no tiene síntomas."
+    },
+    {
+      "q": "¿Por qué a veces la inyectan muy despacio en la vena?",
+      "a": "Para reducir el riesgo de irritación de la vena (flebitis) y para que el cuerpo la tolere mejor. Una infusión lenta ayuda a distribuir el medicamento de manera más segura."
+    },
+    {
+      "q": "¿La resistencia bacteriana afecta a la carbenicilina?",
+      "a": "Sí, y mucho. Debido a su uso durante décadas, muchas bacterias, especialmente la Escherichia coli y la Pseudomonas aeruginosa, han desarrollado mecanismos para resistir su efecto. Por eso es crucial hacer un cultivo para confirmar que la bacteria que causa su infección sea sensible a este medicamento."
+    },
+    {
+      "q": "¿Es mejor la carbenicilina que otros antibióticos para infecciones urinarias?",
+      "a": "No necesariamente. Hoy en día existen muchas alternativas más modernas, con menos efectos secundarios (especialmente sobre el potasio y el sodio) y menos dosis al día. La carbenicilina se reserva para casos específicos donde otras opciones no son adecuadas por resistencia bacteriana o alergias del paciente."
+    },
+    {
+      "q": "¿Qué ajuste necesita un paciente diabético que toma carbenicilina?",
+      "a": "Los pacientes con diabetes deben saber que algunas formulaciones intravenosas de carbenicilina se diluyen en soluciones que contienen dextrosa (azúcar). Esto puede elevar temporalmente los niveles de glucosa en sangre. Deben monitorear su glucosa con más frecuencia y comentarlo con su médico para ajustar su medicación para la diabetes si es necesario."
+    }
+  ]
+}

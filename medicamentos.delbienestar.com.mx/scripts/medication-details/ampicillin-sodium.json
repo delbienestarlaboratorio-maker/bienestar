@@ -1,0 +1,402 @@
+{
+  "name": "Ampicillin Sodium",
+  "summary": "La Ampicillin Sodium es un antibiótico de la familia de las penicilinas, específicamente una aminopenicilina, que se administra por inyección (intramuscular o intravenosa). Sirve para tratar infecciones graves causadas por bacterias sensibles, como neumonía, meningitis, infecciones del tracto urinario, septicemia e infecciones abdominales. Su importancia clínica radica en que es un antibiótico de amplio espectro, eficaz contra muchas bacterias comunes, y es una opción fundamental en el tratamiento de infecciones intrahospitalarias y comunitarias graves. Al ser una penicilina, es generalmente bien tolerada, pero su uso requiere supervisión médica debido al riesgo de reacciones alérgicas y al desarrollo de resistencia bacteriana. Es crucial completar el tratamiento prescrito para erradicar completamente la infección y prevenir recaídas o la aparición de 'superbacterias' resistentes.",
+  "pharmacology": {
+    "mechanismOfAction": "La Ampicillin actúa como un antibiótico bactericida, es decir, mata directamente a las bacterias. Su mecanismo se basa en interferir con la síntesis de la pared celular bacteriana, una estructura esencial que protege a la bacteria. Lo hace uniéndose a unas proteínas específicas llamadas Proteínas Fijadoras de Penicilina (PBP), que son enzimas encargadas de construir y reparar la pared. Al unirse a ellas, la Ampicillin bloquea la última etapa de la formación de la pared celular (la transpeptidación o entrecruzamiento de las cadenas de peptidoglicano). Esto debilita la pared, la bacteria no puede mantener su integridad estructural, absorbe agua en exceso y finalmente se rompe (lisis), muriendo. Es importante destacar que este mecanismo es específico para las bacterias; las células humanas no tienen pared celular, por lo que el medicamento no las daña directamente.",
+    "pharmacologicClass": "Antibiótico beta-lactámico; Aminopenicilina; Penicilina de espectro extendido.",
+    "therapeuticClass": "Antibiótico sistémico.",
+    "absorption": "La Ampicillin Sodium por vía intramuscular se absorbe bien y rápidamente, alcanzando concentraciones máximas en sangre (Cmax) aproximadamente 1 hora después de la inyección. Por vía intravenosa, la biodisponibilidad es del 100%, ya que se administra directamente al torrente sanguíneo, logrando niveles séricos inmediatos y precisos, lo que es crucial en infecciones graves. La administración oral de ampicilina (en otras presentaciones) tiene una absorción variable e incompleta (30-50%), pero la forma sódica inyectable evita este problema del tracto gastrointestinal.",
+    "distribution": "La Ampicillin se distribuye ampliamente en la mayoría de los tejidos y fluidos corporales. Atraviesa bien la barrera placentaria y se distribuye en el líquido amniótico. Cruza la barrera hematoencefálica cuando las meninges están inflamadas (como en la meningitis), logrando concentraciones terapéuticas en el líquido cefalorraquídeo. Su unión a proteínas plasmáticas es baja, aproximadamente del 15-25%, lo que significa que una gran proporción del fármaco está libre y activa para combatir la infección. Su volumen de distribución (Vd) es de aproximadamente 0.3 L/kg, indicando una distribución principalmente en el espacio extracelular.",
+    "metabolism": "La Ampicillin sufre un metabolismo hepático mínimo. No es un sustrato significativo del sistema de enzimas citocromo P450 (CYP). Una pequeña porción (menos del 10-20%) puede ser metabolizada a metabolitos inactivos. La mayor parte del fármaco (alrededor del 80-90%) se excreta sin cambios, principalmente por los riñones. Esto simplifica su perfil de interacciones medicamentosas relacionadas con el hígado.",
+    "elimination": "La vida media de eliminación de la Ampicillin es de aproximadamente 1 hora en adultos con función renal normal. En recién nacidos y pacientes con insuficiencia renal grave, esta vida media se prolonga significativamente (hasta 7-20 horas). La vía principal de eliminación es renal, a través de la filtración glomerular y, en menor medida, por secreción tubular. Aproximadamente del 75% al 90% de una dosis intravenosa se excreta sin cambios en la orina en las primeras 6-8 horas, lo que la hace muy efectiva para infecciones del tracto urinario. Una pequeña fracción se excreta en la bilis.",
+    "onsetOfAction": "Tras la administración intravenosa, el inicio de acción es casi inmediato, con niveles séricos terapéuticos alcanzados al final de la infusión. Por vía intramuscular, los niveles terapéuticos se alcanzan en 30 a 60 minutos.",
+    "durationOfAction": "La duración del efecto es de aproximadamente 4 a 6 horas en pacientes con función renal normal, lo que justifica la necesidad de administraciones frecuentes (cada 4-6 horas) para mantener concentraciones séricas por encima de la Concentración Inhibitoria Mínima (CIM) de la bacteria causante de la infección."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones del tracto respiratorio (neumonía, bronquitis) causadas por bacterias sensibles.",
+      "Infecciones del tracto genitourinario (cistitis, pielonefritis, prostatitis) por organismos sensibles.",
+      "Meningitis bacteriana (especialmente por *Listeria monocytogenes*, *Haemophilus influenzae*, *Neisseria meningitidis*, *Streptococcus pneumoniae*).",
+      "Septicemia (infección en la sangre).",
+      "Infecciones intraabdominales (peritonitis, colecistitis) y gastrointestinales (fiebre tifoidea, salmonelosis).",
+      "Endocarditis infecciosa (profilaxis y tratamiento, a menudo en combinación con otros antibióticos).",
+      "Infecciones de piel y tejidos blandos causadas por bacterias sensibles."
+    ],
+    "offLabel": [
+      "Profilaxis de infección en cirugía gastrointestinal o genitourinaria.",
+      "Tratamiento de la enfermedad de Lyme en etapas tempranas (como alternativa a doxiciclina).",
+      "Tratamiento de infecciones por *Enterococcus faecalis* resistente a vancomicina (en combinación con otros fármacos)."
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis varía según la gravedad y el sitio de la infección. Para infecciones moderadas: 250-500 mg por vía IM/IV cada 6 horas. Para infecciones graves (meningitis, septicemia): 1-2 g por vía IV cada 4-6 horas. Dosis máxima común: 8-12 g al día en infecciones muy graves, divididas en dosis cada 4-6 horas.",
+    "pediatric": "Recién nacidos (0-7 días, >2000g): 50 mg/kg/día IV/IM divididos cada 12 horas. Recién nacidos (8-28 días): 75 mg/kg/día IV/IM divididos cada 8 horas. Lactantes y niños (>1 mes): 100-200 mg/kg/día IV/IM divididos cada 6 horas. Para meningitis: 200-400 mg/kg/día IV divididos cada 4-6 horas (dosis máxima como en adultos).",
+    "elderly": "Los pacientes mayores suelen tener una función renal disminuida. Se debe calcular la tasa de filtración glomerular (TFG) y ajustar la dosis según los rangos de insuficiencia renal. También pueden ser más susceptibles a efectos adversos gastrointestinales.",
+    "renalImpairment": "TFG >50 mL/min: Dosis normal. TFG 10-50 mL/min: Extender el intervalo a cada 6-12 horas. TFG <10 mL/min: Extender el intervalo a cada 12-24 horas. En diálisis: La ampicilina se elimina en hemodiálisis; se debe administrar una dosis suplementaria después de cada sesión.",
+    "hepaticImpairment": "No se requiere ajuste de dosis específico, ya que la eliminación es principalmente renal. Sin embargo, en insuficiencia hepática grave, se debe vigilar por posible encefalopatía.",
+    "maxDose": "Hasta 12 gramos al día en adultos, en infecciones que amenazan la vida como meningitis o endocarditis, bajo estricta supervisión médica hospitalaria."
+  },
+  "dosageForms": [
+    {
+      "form": "Polvo liofilizado para inyección (vial)",
+      "strengths": [
+        "250 mg",
+        "500 mg",
+        "1 g",
+        "2 g"
+      ],
+      "route": "Intramuscular (IM), Intravenosa (IV) directa o en infusión"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Historia de reacción alérgica grave (anafilaxia) a cualquier penicilina.",
+      "Historia de reacción alérgica grave (anafilaxia) a cualquier antibiótico beta-lactámico (ej. cefalosporinas, carbapenémicos, monobactámicos) debido al riesgo de reactividad cruzada."
+    ],
+    "relative": [
+      "Historia de alergia leve a penicilinas (como rash cutáneo).",
+      "Mononucleosis infecciosa (alto riesgo de desarrollar exantema maculopapular).",
+      "Insuficiencia renal grave (requiere ajuste de dosis).",
+      "Leucemia linfática (mayor riesgo de rash)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Diarrea (puede ser desde leve hasta colitis pseudomembranosa).",
+      "Náuseas.",
+      "Erupción cutánea (rash) maculopapular, especialmente en pacientes con mononucleosis."
+    ],
+    "common": [
+      "Vómito.",
+      "Dolor en el sitio de la inyección (IM).",
+      "Flebitis (inflamación de la vena) con administración IV.",
+      "Candidiasis oral o vaginal (infección por hongos)."
+    ],
+    "uncommon": [
+      "Colitis pseudomembranosa (diarrea severa por *Clostridioides difficile*).",
+      "Elevación de enzimas hepáticas (transaminasas).",
+      "Anemia, leucopenia, trombocitopenia (disminución de células sanguíneas).",
+      "Reacción de Jarisch-Herxheimer (fiebre, escalofríos tras tratar sífilis)."
+    ],
+    "rare": [
+      "Reacción anafiláctica grave (dificultad para respirar, hinchazón, shock).",
+      "Nefritis intersticial (daño renal).",
+      "Convulsiones (con dosis muy altas en insuficiencia renal).",
+      "Hepatitis colestásica.",
+      "Síndrome de Stevens-Johnson o necrólisis epidérmica tóxica (erupciones cutáneas graves)."
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Probenecid",
+        "effect": "El probenecid bloquea la secreción tubular renal de la ampicilina, aumentando y prolongando sus niveles en sangre. Esto puede ser beneficioso para aumentar la eficacia, pero también el riesgo de toxicidad.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Metotrexato",
+        "effect": "La ampicilina puede disminuir la eliminación renal del metotrexato, aumentando sus niveles sanguíneos y el riesgo de toxicidad grave (mielosupresión, mucositis).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Anticoagulantes orales (Warfarina)",
+        "effect": "Puede potenciar el efecto anticoagulante, aumentando el riesgo de sangrado. Se debe monitorear estrechamente el INR.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Anticonceptivos orales",
+        "effect": "La ampicilina puede reducir la eficacia de los anticonceptivos hormonales al alterar la flora intestinal y reducir la recirculación enterohepática de los estrógenos. Se recomienda usar método de barrera adicional.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "No aplica directamente para la forma inyectable. Para formas orales, los alimentos disminuyen la absorción. El alcohol no interactúa directamente con la ampicilina, pero puede empeorar efectos secundarios como náuseas y debilitar el sistema inmunológico, perjudicando la recuperación.",
+    "withSupplements": "Los probióticos pueden ayudar a prevenir la diarrea asociada a antibióticos. Los suplementos que contienen calcio, hierro, zinc o magnesio pueden interferir con la absorción de las formas orales, pero no con la inyectable."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "B",
+      "recommendation": "La Ampicillin se considera generalmente segura durante el embarazo. Es uno de los antibióticos de elección para tratar infecciones bacterianas en embarazadas, como las infecciones del tracto urinario o la profilaxis del estreptococo del grupo B. Sin embargo, solo debe usarse si es claramente necesario y bajo prescripción médica, evaluando el riesgo-beneficio.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La Ampicillin se excreta en la leche materna en pequeñas cantidades. Se considera compatible con la lactancia, ya que las cantidades ingeridas por el lactante son bajas y es poco probable que causen efectos adversos significativos, salvo posible diarrea o candidiasis. Se debe observar al bebé por posibles reacciones.",
+    "pediatric": "Es seguro y efectivo en niños para las indicaciones aprobadas. Las dosis se calculan cuidadosamente por peso corporal. En recién nacidos, especialmente prematuros, la eliminación es más lenta, requiriendo ajustes en el intervalo de dosificación.",
+    "geriatric": "Los pacientes mayores tienen mayor probabilidad de tener función renal disminuida, lo que requiere ajuste de dosis. También pueden ser más susceptibles a la diarrea inducida por antibióticos y a la colitis por *C. difficile*. Se debe vigilar el estado de hidratación y la función renal."
+  },
+  "administration": {
+    "howToTake": "Este medicamento se administra SOLO por personal de salud capacitado, mediante inyección intramuscular profunda o infusión intravenosa lenta (durante 3-5 minutos) o en infusión diluida en solución salina o dextrosa durante 15-30 minutos. Nunca se autoadministre. Para inyección IM, el polvo se reconstituye con agua estéril para inyección. Para IV, se diluye en un volumen mayor de solución. Informe cualquier dolor intenso, enrojecimiento o hinchazón en el sitio de la inyección.",
+    "storage": "Los viales de polvo sin reconstituir deben almacenarse a temperatura ambiente (15-30°C), protegidos de la luz y la humedad. Una vez reconstituido, la solución es estable a temperatura ambiente por 1 hora, y refrigerada (2-8°C) por 24 horas. Las soluciones para infusión IV deben usarse inmediatamente después de su preparación.",
+    "specialInstructions": "Es IMPERATIVO informar al médico o farmacéutico sobre cualquier alergia previa a penicilinas o cefalosporinas antes de recibir la primera dosis. Complete TODO el tratamiento prescrito, incluso si se siente mejor, para evitar que la infección regrese o desarrolle resistencia. Si presenta diarrea acuosa o con sangre, fiebre, o erupción cutánea severa, contacte a su médico de inmediato."
+  },
+  "monitoring": {
+    "labTests": [
+      "Cultivo y antibiograma del sitio de la infección (antes o durante el tratamiento).",
+      "Conteo sanguíneo completo (CSC) para vigilar células sanguíneas.",
+      "Pruebas de función renal (creatinina sérica, BUN) y hepática (ALT, AST).",
+      "Tiempo de protrombina (TP)/INR si está en warfarina."
+    ],
+    "frequency": "Los cultivos se toman al inicio. La función renal y hepática se pueden monitorear semanalmente en tratamientos prolongados o en pacientes con enfermedades de base. El CSC puede revisarse periódicamente.",
+    "signsToWatch": [
+      "Signos de reacción alérgica: dificultad para respirar, hinchazón de cara/lengua/garganta, urticaria intensa.",
+      "Diarrea severa o acuosa, especialmente si contiene sangre o moco.",
+      "Erupción cutánea nueva o que empeora.",
+      "Fiebre persistente o que reaparece.",
+      "Sangrado o moretones inusuales.",
+      "Convulsiones o confusión."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Convulsiones (especialmente en pacientes con insuficiencia renal).",
+      "Náuseas, vómitos y diarrea severa.",
+      "Alteraciones electrolíticas (por diarrea).",
+      "Exacerbación de efectos adversos neurológicos."
+    ],
+    "treatment": "El tratamiento es de soporte y sintomático. No hay antídoto específico. En caso de convulsiones, se pueden usar benzodiacepinas. La hemodiálisis es efectiva para eliminar la ampicilina del torrente sanguíneo y se recomienda en casos graves, especialmente con insuficiencia renal.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (antibiótico de uso controlado).",
+    "scheduleMexico": "Medicamento sujeto a prescripción médica (no es un psicotrópico o estupefaciente). Se encuentra en el Cuadro Básico de Medicamentos del Sector Salud.",
+    "fdaApprovalYear": "Aprobado por la FDA en la década de 1960."
+  },
+  "brandsMexico": [
+    "Ampi-Kel",
+    "Amplital",
+    "Binotal",
+    "Penbritin",
+    "Pentrexyl",
+    "Principen",
+    "Vidopen",
+    "Ampicillin Sodium genérico de diversos laboratorios (Pisa, Liomont, etc.)"
+  ],
+  "clinicalPearls": [
+    "La erupción cutánea maculopapular no pruriginosa que aparece 3-14 días después de iniciar el tratamiento en pacientes con mononucleosis infecciosa NO es una alergia a la penicilina y no contraindica su uso futuro.",
+    "Es el antibiótico de elección para la meningitis por *Listeria monocytogenes*, una causa importante en recién nacidos, adultos mayores e inmunocomprometidos.",
+    "La combinación de ampicilina con un inhibidor de betalactamasas (como sulbactam) amplía su espectro contra bacterias productoras de betalactamasas, como muchas cepas de *E. coli* y *Klebsiella*.",
+    "En infecciones del tracto urinario, su alta concentración en orina la hace muy efectiva, pero la resistencia es común; siempre se debe solicitar urocultivo.",
+    "Para profilaxis de endocarditis, ya no se recomienda de rutina, solo en pacientes de muy alto riesgo sometidos a procedimientos dentales."
+  ],
+  "patientCounseling": "Este antibiótico se le administrará mediante inyecciones en el hospital o clínica. Es fundamental que nos informe SIEMPRE si alguna vez ha tenido una reacción alérgica a una penicilina (como amoxicilina) o a una cefalosporina (como ceftriaxona). Aunque se sienta mejor en unos días, es crucial recibir todas las dosis programadas para eliminar por completo la bacteria y evitar que la infección regrese más fuerte. Los efectos secundarios comunes incluyen diarrea; si esta se vuelve muy líquida, abundante o con sangre, avise de inmediato. Puede desarrollar una infección por hongos (candidiasis) en la boca o zona genital; si nota placas blancas o comezón, consulte. Manténgase bien hidratado. Este medicamento puede reducir la efectividad de las pastillas anticonceptivas; use un método de barrera adicional durante el tratamiento y hasta el siguiente ciclo. Asista a todas sus citas para que el médico evalúe su respuesta al tratamiento.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre",
+        "slug": "fiebre"
+      },
+      {
+        "name": "Dolor al orinar",
+        "slug": "disuria"
+      },
+      {
+        "name": "Tos con flemas",
+        "slug": "tos-productiva"
+      },
+      {
+        "name": "Dolor abdominal",
+        "slug": "dolor-abdominal"
+      },
+      {
+        "name": "Escalofríos",
+        "slug": "escalofrios"
+      },
+      {
+        "name": "Confusión o somnolencia (en meningitis)",
+        "slug": "alteracion-del-estado-mental"
+      },
+      {
+        "name": "Erupción cutánea (en sífilis)",
+        "slug": "rash-cutaneo"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Neumonía",
+        "slug": "neumonia"
+      },
+      {
+        "name": "Meningitis",
+        "slug": "meningitis"
+      },
+      {
+        "name": "Infección del tracto urinario (ITU)",
+        "slug": "infeccion-tracto-urinario"
+      },
+      {
+        "name": "Septicemia",
+        "slug": "sepsis"
+      },
+      {
+        "name": "Endocarditis infecciosa",
+        "slug": "endocarditis"
+      },
+      {
+        "name": "Fiebre tifoidea",
+        "slug": "fiebre-tifoidea"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Colitis pseudomembranosa",
+        "slug": "colitis-pseudomembranosa"
+      },
+      {
+        "name": "Reacción anafiláctica",
+        "slug": "anafilaxia"
+      },
+      {
+        "name": "Candidiasis oral/vaginal",
+        "slug": "candidiasis"
+      },
+      {
+        "name": "Nefritis intersticial",
+        "slug": "nefritis-intersticial"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina",
+        "effect": "Puede elevar (por nefritis)"
+      },
+      {
+        "name": "ALT/AST (transaminasas)",
+        "slug": "transaminasas",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Recuento de glóbulos blancos",
+        "slug": "leucocitos",
+        "effect": "Puede disminuir (leucopenia)"
+      },
+      {
+        "name": "Recuento de plaquetas",
+        "slug": "plaquetas",
+        "effect": "Puede disminuir (trombocitopenia)"
+      },
+      {
+        "name": "INR",
+        "slug": "inr",
+        "effect": "Puede elevar (aumenta riesgo de sangrado)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Cultivo y antibiograma",
+        "slug": "cultivo-antibiograma",
+        "reason": "Determinar la bacteria causante y su sensibilidad a la ampicilina."
+      },
+      {
+        "name": "Creatinina sérica y TFG",
+        "slug": "tasa-filtracion-glomerular",
+        "reason": "Para ajustar la dosis según la función renal."
+      },
+      {
+        "name": "Conteo sanguíneo completo",
+        "slug": "conteo-sanguineo-completo",
+        "reason": "Monitorear posibles efectos en la médula ósea."
+      },
+      {
+        "name": "Pruebas de función hepática",
+        "slug": "pruebas-funcion-hepatica",
+        "reason": "Detectar posible hepatotoxicidad."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de eGFR",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La Ampicillin inyectable duele mucho?",
+      "a": "La inyección intramuscular puede causar dolor, ardor o molestia en el sitio de la aplicación, que generalmente es temporal. La intravenosa puede causar irritación de la vena (flebitis). El personal de salud utilizará técnicas para minimizar estas molestias."
+    },
+    {
+      "q": "¿Puedo tomar alcohol mientras me ponen estas inyecciones?",
+      "a": "No se recomienda. Aunque no hay una interacción química directa grave, el alcohol puede debilitar su sistema inmunológico, dificultando la lucha contra la infección, y puede empeorar efectos secundarios como náuseas o mareos."
+    },
+    {
+      "q": "Me salió un sarpullido, ¿soy alérgico y debo suspenderlo?",
+      "a": "NO se suspenda por su cuenta. Informe inmediatamente al médico. No todos los sarpullidos son alergia grave. Un rash leve y que no pica puede ser un efecto secundario común, especialmente si tiene mononucleosis. Solo el médico puede determinar si es una alergia y decidir cambiar el tratamiento."
+    },
+    {
+      "q": "¿La ampicilina sirve para la gripe o el COVID-19?",
+      "a": "NO. La ampicilina es un antibiótico que solo mata bacterias. La gripe y el COVID-19 son causados por virus. Usar antibióticos para infecciones virales es inútil, puede causar efectos secundarios innecesarios y contribuir a la resistencia bacteriana."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Comienza a actuar casi inmediatamente al entrar en la sangre (vía IV). Sin embargo, puede tomar de 24 a 72 horas para que usted note una mejoría significativa en sus síntomas, como la disminución de la fiebre. Es crucial completar todo el tratamiento."
+    },
+    {
+      "q": "Me dio diarrea, ¿qué hago?",
+      "a": "Es un efecto común. Manténgase bien hidratado con suero oral. Si la diarrea es muy abundante, acuosa, persiste por días o tiene sangre/moco, DEBE informar a su médico de inmediato, ya que podría ser una colitis grave por *C. difficile*."
+    },
+    {
+      "q": "¿Puedo recibir ampicilina si soy alérgico a la amoxicilina?",
+      "a": "NO. La amoxicilina es una penicilina muy similar. Si es alérgico a una, tiene un riesgo muy alto de ser alérgico a la otra. Debe informar esta alergia a todo el personal de salud antes de recibir cualquier medicamento."
+    },
+    {
+      "q": "¿Afecta los anticonceptivos orales?",
+      "a": "SÍ. La ampicilina puede reducir la efectividad de las pastillas anticonceptivas. Se recomienda usar un método de barrera adicional (como condón) durante todo el tratamiento y hasta el inicio del siguiente ciclo menstrual para evitar un embarazo no planeado."
+    },
+    {
+      "q": "¿Por qué me la ponen cada 6 o 8 horas y no una sola vez al día?",
+      "a": "Porque el cuerpo la elimina rápidamente por la orina (vida media corta). Para mantener niveles constantes en la sangre que sean efectivos contra la bacteria las 24 horas, se necesitan dosis frecuentes."
+    },
+    {
+      "q": "¿Es segura en el embarazo?",
+      "a": "Sí, la ampicilina es uno de los antibióticos considerados más seguros durante el embarazo (Categoría B) y se usa comúnmente para tratar infecciones en embarazadas. Sin embargo, solo debe usarse bajo estricta prescripción médica."
+    },
+    {
+      "q": "¿Puedo amamantar mientras me la administran?",
+      "a": "Sí, generalmente es compatible. Pasa a la leche en cantidades muy pequeñas que son poco probables de dañar al bebé. Se debe observar al lactante por posible diarrea o candidiasis (algodoncillo). Consulte con su médico."
+    },
+    {
+      "q": "¿Qué pasa si olvido una dosis en el hospital?",
+      "a": "El personal de enfermería lleva un control estricto. Si por algún motivo se retrasa, se administrará tan pronto como sea posible. No se debe duplicar la dosis para compensar. Hable con la enfermera si tiene dudas sobre su horario."
+    },
+    {
+      "q": "¿La ampicilina sube o baja la presión arterial?",
+      "a": "No tiene un efecto directo significativo sobre la presión arterial. Sin embargo, si causa una reacción alérgica grave (anafilaxia), la presión puede bajar peligrosamente. En pacientes con insuficiencia renal, la acumulación del fármaco podría contribuir a desequilibrios."
+    },
+    {
+      "q": "¿Puede causar sueño o mareos?",
+      "a": "No es un efecto común directo de la ampicilina. Sin embargo, la infección de base (como la fiebre) o una reacción alérgica pueden causar mareo. Si experimenta estos síntomas de manera intensa, informe a su médico."
+    },
+    {
+      "q": "¿Qué hago si veo que la solución para la inyección tiene partículas o está turbia?",
+      "a": "No debe usarse. La solución reconstituida de ampicilina debe ser clara e incolora o ligeramente amarillenta. Informe inmediatamente al personal de salud para que preparen una nueva dosis."
+    },
+    {
+      "q": "¿Por qué a veces la combinan con otro medicamento (como sulbactam)?",
+      "a": "El sulbactam es un inhibidor de betalactamasas. Muchas bacterias producen esta enzima que destruye a la ampicilina. El sulbactam la bloquea, permitiendo que la ampicilina actúe contra bacterias que de otra manera serían resistentes. Esta combinación se llama \"Ampicilina/Sulbactam\"."
+    },
+    {
+      "q": "¿Es lo mismo Ampicillin que Penicilina G?",
+      "a": "No, son parientes pero diferentes. Ambas son penicilinas. La Penicilina G (bencilpenicilina) es de espectro más estrecho, excelente para ciertas bacterias como estreptococos y sífilis. La Ampicilina tiene un espectro más amplio, cubriendo más tipos de bacterias, como algunas E. coli y H. influenzae."
+    },
+    {
+      "q": "¿La resistencia a la ampicilina es común?",
+      "a": "Sí, lamentablemente es muy común, especialmente en bacterias como E. coli y Klebsiella. Por esta razón, es fundamental que su médico solicite un cultivo y antibiograma para confirmar que la bacteria causante de su infección es sensible a la ampicilina antes o durante el tratamiento."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre la forma oral (cápsulas) y la inyectable?",
+      "a": "La forma oral se absorbe de manera incompleta y variable en el intestino, por lo que se usa para infecciones menos graves. La forma inyectable (sódica) garantiza que el 100% del medicamento llegue a la sangre, logrando niveles más altos y confiables, necesarios para infecciones graves, sistémicas o en pacientes que no pueden tomar pastillas."
+    },
+    {
+      "q": "En un paciente con insuficiencia renal, ¿cómo se ajusta la dosis?",
+      "a": "Se ajusta PRINCIPALMENTE extendiendo el intervalo entre dosis (no reduciendo la dosis única). Por ejemplo, en lugar de cada 6 horas, se puede administrar cada 8, 12 o hasta 24 horas, dependiendo de la gravedad de la insuficiencia renal (valorada por la TFG). Esto evita la acumulación del fármaco y reduce el riesgo de toxicidad, especialmente convulsiones. El médico realizará este cálculo preciso."
+    }
+  ]
+}

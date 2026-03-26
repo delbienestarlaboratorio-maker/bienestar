@@ -7,7 +7,10 @@ export const metadata: Metadata = {
         title: '☕ Rastreador de Toxicidad de Cafeína',
         description: '¿Es ataque de pánico o tomaste demasiado café/energizante?',
         type: 'website',
-    }
+    },
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/herramientas/test-cafeina-corazon',
+    },
 };
 
 export default function ToolLayout({ children }: { children: React.ReactNode }) {

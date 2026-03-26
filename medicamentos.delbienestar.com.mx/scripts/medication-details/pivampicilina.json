@@ -1,0 +1,419 @@
+{
+  "name": "Pivampicilina",
+  "summary": "La pivampicilina es un antibiótico de la familia de las penicilinas, específicamente una aminopenicilina. Sirve para tratar infecciones causadas por bacterias sensibles, como las que afectan las vías respiratorias (bronquitis, sinusitis, faringitis), las vías urinarias (cistitis), la piel y tejidos blandos. Es un profármaco, lo que significa que se transforma en ampicilina dentro del cuerpo, mejorando así su absorción cuando se toma por vía oral. Su importancia clínica radica en ser una opción de amplio espectro contra bacterias comunes, con un buen perfil de seguridad y que se ha utilizado durante décadas en México para combatir infecciones bacterianas de manera efectiva. Sin embargo, su uso debe ser siempre bajo prescripción médica para evitar la resistencia bacteriana, un problema de salud pública grave. Es fundamental completar el tratamiento indicado, incluso si los síntomas mejoran antes, para asegurar la eliminación total de la bacteria y prevenir recaídas.",
+  "pharmacology": {
+    "mechanismOfAction": "La pivampicilina es un profármaco de la ampicilina. Por sí misma, tiene una actividad antibacteriana mínima. Una vez ingerida, las enzimas esterasas en la pared intestinal y el hígado la hidrolizan rápidamente, liberando ampicilina activa. La ampicilina actúa como un antibiótico bactericida, es decir, mata a las bacterias. Lo hace interfiriendo con la síntesis de la pared celular bacteriana, una estructura esencial que protege a la bacteria. La ampicilina se une a unas proteínas específicas en la bacteria llamadas Proteínas Fijadoras de Penicilina (PBP). Esta unión bloquea la etapa final de la construcción de la pared celular (transpeptidación y entrecruzamiento de las cadenas de peptidoglicano). Como resultado, la pared celular se debilita y no se puede formar correctamente, especialmente cuando la bacteria está creciendo y dividiéndose. La presión interna de la bacteria (osmótica) hace que absorba agua, se hinche y finalmente estalle (lisis celular), eliminando así la infección.",
+    "pharmacologicClass": "Antibiótico beta-lactámico; Penicilina; Aminopenicilina (derivado de la ampicilina); Profármaco (éster pivaloiloximetil de la ampicilina).",
+    "therapeuticClass": "Antibiótico de amplio espectro, antibacteriano sistémico.",
+    "absorption": "Se absorbe bien por vía oral. Como es un profármaco lipofílico, su absorción es más completa e independiente de los alimentos en comparación con la ampicilina sola. La biodisponibilidad oral de la ampicilina liberada es de aproximadamente 70-80%. La concentración plasmática máxima (Cmax) se alcanza entre 1 y 2 horas después de la administración.",
+    "distribution": "La ampicilina liberada se distribuye ampliamente en la mayoría de los tejidos y fluidos corporales, incluyendo pulmones, hígado, riñones, bilis, líquido pleural, sinovial y peritoneal. Atraviesa la placenta y se encuentra en la leche materna en bajas concentraciones. Su unión a proteínas plasmáticas es baja (aproximadamente 15-25%). El volumen de distribución (Vd) es de aproximadamente 0.3-0.4 L/kg, indicando una distribución principalmente en el compartimento plasmático y extracelular.",
+    "metabolism": "La pivampicilina en sí no sufre metabolismo hepático complejo. Su transformación es principalmente hidrolítica (no oxidativa). Es rápidamente hidrolizada por esterasas no específicas en la mucosa intestinal y, en menor medida, en el hígado y el plasma, liberando ampicilina activa y pivaloato. La ampicilina liberada no es metabolizada significativamente por el sistema del citocromo P450 (CYP). Se excreta mayoritariamente sin cambios.",
+    "elimination": "La vida media de eliminación de la ampicilina es de aproximadamente 1 hora en adultos con función renal normal. La vía principal de eliminación es renal, a través de la filtración glomerular y secreción tubular activa. Aproximadamente del 70% al 90% de una dosis oral se excreta sin cambios en la orina en las primeras 6-8 horas. Una pequeña porción se excreta en la bilis.",
+    "onsetOfAction": "Las concentraciones antibacterianas en sangre comienzan a ser efectivas entre 1 y 2 horas después de la ingestión, coincidiendo con el pico plasmático.",
+    "durationOfAction": "Debido a su vida media corta (~1 hora), para mantener concentraciones terapéuticas efectivas, se requiere administración cada 8 horas (tres veces al día) o cada 12 horas, dependiendo de la gravedad de la infección."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones del tracto respiratorio (faringoamigdalitis, sinusitis, bronquitis aguda, otitis media) causadas por bacterias sensibles como Streptococcus pyogenes, Streptococcus pneumoniae, Haemophilus influenzae no productor de beta-lactamasa.",
+      "Infecciones del tracto urinario no complicadas (cistitis aguda) causadas por Escherichia coli, Proteus mirabilis y enterococos sensibles.",
+      "Infecciones de la piel y tejidos blandos (piodermas, celulitis, erisipela) causadas por Streptococcus pyogenes y Staphylococcus aureus no productor de penicilinasa.",
+      "Infecciones gastrointestinales (salmonelosis, shigelosis) causadas por cepas sensibles."
+    ],
+    "offLabel": [
+      "Profilaxis de endocarditis infecciosa en pacientes de riesgo sometidos a procedimientos dentales (en desuso frente a otras opciones).",
+      "Tratamiento de infecciones odontogénicas.",
+      "Parte de regímenes de erradicación de Helicobacter pylori en combinación con otros antibióticos y un inhibidor de la bomba de protones (uso poco común actual)."
+    ]
+  },
+  "dosage": {
+    "adults": "Infecciones leves a moderadas: 500 mg cada 8 horas (1.5 g al día). Infecciones más graves: 700 mg cada 8 horas (2.1 g al día). Para infecciones del tracto urinario no complicadas, a veces se usa 350 mg cada 8 horas. La dosis debe ajustarse en insuficiencia renal.",
+    "pediatric": "Niños mayores de 10 kg: 40-80 mg/kg de peso corporal al día, dividido en 3 dosis (cada 8 horas). Por ejemplo, para un niño de 20 kg: 800-1600 mg/día, es decir, aproximadamente 270-530 mg por dosis cada 8h. Para niños menores, se prefiere la suspensión de ampicilina u otras presentaciones. No se recomienda en recién nacidos.",
+    "elderly": "Los adultos mayores pueden tener una función renal disminuida. Se debe calcular la tasa de filtración glomerular (TFG) y ajustar la dosis según los rangos de insuficiencia renal. Iniciar con dosis estándar pero monitorear función renal.",
+    "renalImpairment": "TFG > 50 mL/min: Dosis normal. TFG 10-50 mL/min: 250-500 mg cada 12 horas. TFG < 10 mL/min: 250-500 mg cada 24 horas. En diálisis: La ampicilina se elimina en hemodiálisis. Administrar dosis después de cada sesión de diálisis.",
+    "hepaticImpairment": "No se requiere ajuste de dosis específico, ya que la hidrólisis del profármaco no depende en gran medida del hígado. Sin embargo, en insuficiencia hepática grave, usar con precaución.",
+    "maxDose": "La dosis máxima diaria en adultos no debe exceder los 3 gramos de pivampicilina (equivalente a ~2.1 g de ampicilina base), salvo en situaciones excepcionales bajo estricta supervisión médica."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "350 mg",
+        "500 mg",
+        "700 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Cápsula",
+      "strengths": [
+        "350 mg"
+      ],
+      "route": "Oral"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad (alergia) conocida a la pivampicilina, ampicilina, a cualquier otra penicilina o a cualquier componente de la formulación.",
+      "Antecedentes de reacción alérgica grave (anafilaxia, angioedema, urticaria extensa) a cualquier antibiótico beta-lactámico (penicilinas, cefalosporinas, carbapenémicos, monobactámicos).",
+      "Mononucleosis infecciosa (por alto riesgo de desarrollar exantema maculopapular)."
+    ],
+    "relative": [
+      "Insuficiencia renal grave (requiere ajuste de dosis y monitoreo).",
+      "Leucemia linfática (mayor riesgo de exantema).",
+      "Enfermedad gastrointestinal severa (colitis, diarrea intensa) que pueda afectar la absorción.",
+      "Fenilcetonuria (algunas formulaciones pueden contener aspartamo)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Diarrea (puede ser acuosa o leve).",
+      "Náuseas."
+    ],
+    "common": [
+      "Erupciones cutáneas (exantema maculopapular no alérgico, especialmente en mononucleosis).",
+      "Vómitos.",
+      "Dolor abdominal.",
+      "Candidiasis vaginal (infección por hongos) o oral."
+    ],
+    "uncommon": [
+      "Urticaria (ronchas) que puede indicar alergia.",
+      "Prurito (comezón).",
+      "Mareo.",
+      "Cefalea (dolor de cabeza).",
+      "Elevación transitoria de enzimas hepáticas (AST, ALT)."
+    ],
+    "rare": [
+      "Reacción anafiláctica (grave alergia con dificultad para respirar, hinchazón).",
+      "Colitis pseudomembranosa (diarrea severa con sangre/moco, por Clostridioides difficile).",
+      "Nefritis intersticial (daño renal).",
+      "Anemia, leucopenia, trombocitopenia (bajas en células sanguíneas).",
+      "Síndrome de Stevens-Johnson o necrólisis epidérmica tóxica (reacciones cutáneas graves)."
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Probenecid",
+        "effect": "El probenecid bloquea la secreción tubular renal de la ampicilina, aumentando y prolongando sus concentraciones en sangre. Puede usarse intencionalmente para este fin, pero requiere ajuste de dosis.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Metotrexato",
+        "effect": "Las penicilinas pueden disminuir la eliminación renal del metotrexato, aumentando su toxicidad (mielosupresión, mucositis).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Anticoagulantes orales (Warfarina, Acenocumarol)",
+        "effect": "Puede potenciar el efecto anticoagulante y aumentar el riesgo de sangrado, posiblemente por alteración de la flora intestinal que produce vitamina K. Monitorear INR.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Alopurinol",
+        "effect": "La combinación con ampicilina aumenta significativamente la incidencia de erupciones cutáneas no alérgicas.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Anticonceptivos orales (estrógenos)",
+        "effect": "Los antibióticos de amplio espectro pueden alterar la flora intestinal y reducir la reabsorción de los estrógenos, disminuyendo la eficacia del anticonceptivo. Se recomienda método de barrera adicional.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Puede tomarse con o sin alimentos. Tomarlo con comida puede ayudar a disminuir las molestias gastrointestinales (náuseas). Sin embargo, los alimentos no afectan significativamente su absorción, a diferencia de la ampicilina simple. Evitar el consumo de alcohol durante el tratamiento, ya que puede aumentar el riesgo de efectos secundarios gastrointestinales y reducir la eficacia del tratamiento.",
+    "withSupplements": "Suplementos que contienen probióticos (Lactobacillus, Saccharomyces boulardii) pueden ayudar a prevenir la diarrea asociada a antibióticos. Los suplementos de hierro, zinc o antiácidos que contienen magnesio/aluminio pueden quelatar la ampicilina y reducir su absorción. Se recomienda separar la toma de pivampicilina y estos suplementos/alimentos por al menos 2-3 horas."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "B",
+      "recommendation": "Estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. La ampicilina cruza la placenta. Se usa ampliamente durante el embarazo para tratar infecciones bacterianas (ej., ITU, corioamnionitis) y se considera generalmente seguro cuando es claramente necesario. Debe ser prescrita solo por un médico que evalúe el balance beneficio/riesgo.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La ampicilina se excreta en la leche materna en bajas concentraciones (menos del 1% de la dosis materna). Se considera compatible con la lactancia, ya que es poco probable que cause efectos adversos en el lactante, excepto posiblemente diarrea o candidiasis (algodoncillo). Se debe observar al bebé por posibles reacciones. Es un antibiótico de elección para infecciones maternas durante la lactancia.",
+    "pediatric": "Se puede usar en niños con el peso y dosis adecuados. Sin embargo, las presentaciones en tabletas/cápsulas de pivampicilina no son prácticas para niños pequeños. Para lactantes y niños pequeños, se prefieren las suspensiones orales de ampicilina o amoxicilina. No se recomienda en recién nacidos por inmadurez renal.",
+    "geriatric": "Los adultos mayores tienen mayor probabilidad de tener función renal disminuida, lo que requiere ajuste de dosis. Son más susceptibles a la diarrea asociada a antibióticos y a la colitis por C. difficile. Monitorear hidratación y función renal. Iniciar con la dosis más baja efectiva."
+  },
+  "administration": {
+    "howToTake": "Tragar la tableta o cápsula entera con un vaso lleno de agua (aproximadamente 240 ml). Puede tomarse con alimentos para reducir malestar estomacal. Es muy importante respetar los horarios de las dosis (ej., cada 8 horas) para mantener niveles constantes del antibiótico en la sangre. Si olvida una dosis, tómela tan pronto como lo recuerde, pero si ya es casi la hora de la siguiente, omita la dosis olvidada y continúe con su horario normal. NO duplique la dosis para compensar.",
+    "storage": "Conservar en su empaque original, bien cerrado, a temperatura ambiente (entre 15°C y 30°C), en un lugar seco y fuera del alcance de la luz directa y la humedad. No refrigerar. Mantener fuera del alcance de los niños.",
+    "specialInstructions": "COMPLETE TODO EL TRATAMIENTO RECETADO por su médico, incluso si se siente mejor después de unos días. Suspenderlo antes de tiempo puede hacer que la infección regrese y que las bacterias se vuelvan resistentes. Este medicamento solo trata infecciones bacterianas, no sirve para resfriados o gripe causados por virus. Si desarrolla diarrea severa, acuosa o con sangre/moco durante o después del tratamiento, contacte a su médico inmediatamente (podría ser colitis pseudomembranosa)."
+  },
+  "monitoring": {
+    "labTests": [
+      "Cultivo y antibiograma del sitio de infección (orina, esputo, exudado) para confirmar sensibilidad bacteriana.",
+      "Función renal: Creatinina sérica y cálculo de TFG (especialmente en adultos mayores o tratamientos prolongados).",
+      "Pruebas de función hepática (AST, ALT) en tratamientos largos.",
+      "Conteo sanguíneo completo (CSC) si hay sospecha de trastornos hematológicos."
+    ],
+    "frequency": "Monitoreo clínico diario de síntomas. Las pruebas de laboratorio (cultivo) se hacen al inicio. La función renal y hepática se monitorean si el tratamiento es mayor a 7-10 días o en pacientes con riesgo.",
+    "signsToWatch": [
+      "Signos de reacción alérgica: Erupción cutánea con picazón, urticaria, hinchazón de cara/lengua/garganta, dificultad para respirar, mareo intenso. BUSQUE ATENCIÓN MÉDICA INMEDIATA.",
+      "Diarrea severa o con sangre/moco.",
+      "Fiebre que no cede o empeora después de 2-3 días de tratamiento.",
+      "Aparición de manchas blancas en la boca o cambios en el flujo vaginal (signos de candidiasis).",
+      "Cualquier sangrado o moretones inusuales."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Náuseas y vómitos severos.",
+      "Diarrea profusa.",
+      "Cristaluria (cristales en orina, riesgo en deshidratación).",
+      "Convulsiones (raro, en insuficiencia renal grave).",
+      "Alteraciones electrolíticas."
+    ],
+    "treatment": "El tratamiento es de soporte y sintomático. No hay antídoto específico. Inducir el vómito o realizar lavado gástrico si la ingestión es reciente. Mantener una adecuada hidratación con líquidos intravenosos para asegurar diuresis y prevenir la cristalización renal. Monitorear función renal y electrolitos. La ampicilina se elimina eficazmente mediante hemodiálisis en casos graves.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (antibiótico de venta controlada).",
+    "scheduleMexico": "Medicamento de la Fracción III (sustancias medicamentosas que requieren receta médica y pueden producir farmacodependencia, aunque las penicilinas no la producen, están en este listado por ser antibióticos).",
+    "fdaApprovalYear": "No aprobada específicamente por la FDA de EE.UU. como pivampicilina. La ampicilina (su metabolito activo) fue aprobada en la década de 1960. La pivampicilina está aprobada y comercializada en muchos otros países, incluido México."
+  },
+  "brandsMexico": [
+    "Pondocilina",
+    "Pivampic",
+    "Maxcilin",
+    "Pivacef",
+    "Pivamox",
+    "Pondocil",
+    "Pivam",
+    "Ampibiotic"
+  ],
+  "clinicalPearls": [
+    "El exantema maculopapular que aparece con frecuencia (hasta 10%) NO es necesariamente una alergia a la penicilina. Es común en mononucleosis, leucemia linfática o con alopurinol. Una verdadera alergia se manifiesta con urticaria, angioedema o anafilaxia.",
+    "Aunque es un profármaco con mejor absorción, la resistencia bacteriana ha limitado su uso de primera línea. Muchas cepas de E. coli y H. influenzae ahora producen beta-lactamasas que inactivan la ampicilina.",
+    "Para infecciones del tracto urinario, asegurar una buena hidratación del paciente para promover diuresis y reducir el riesgo de cristaluria.",
+    "Nunca debe usarse para tratar infecciones de garganta sin confirmación de origen bacteriano (cultivo o prueba rápida para estreptococo), para evitar contribuir a la resistencia.",
+    "Es una alternativa para pacientes alérgicos a las sulfas (sulfametoxazol) que requieren tratamiento para ITU no complicada, siempre que el germen sea sensible."
+  ],
+  "patientCounseling": "Tome este antibiótico exactamente como se lo indicó su médico, respetando los horarios y la duración completa del tratamiento, aunque se sienta mejor. Tomarlo con comida puede ayudar a evitar malestar estomacal. Beba abundante agua durante el día. Este medicamento puede causar diarrea; si es leve, coma yogur con probióticos. Si la diarrea es muy fuerte o con sangre, deje de tomarlo y llame a su médico de inmediato. Esté alerta a signos de alergia como ronchas, hinchazón de cara o dificultad para respirar; si ocurren, acuda a urgencias. La pivampicilina puede reducir la efectividad de las pastillas anticonceptivas; use un método adicional de barrera. No comparta este medicamento con otras personas, ya que es para su infección específica. Guarde las sobras y deséchelas adecuadamente, no las reutilice.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre",
+        "slug": "fiebre"
+      },
+      {
+        "name": "Dolor de garganta",
+        "slug": "dolor-de-garganta"
+      },
+      {
+        "name": "Tos con flemas",
+        "slug": "tos-con-flemas"
+      },
+      {
+        "name": "Dolor al orinar",
+        "slug": "dolor-al-orinar"
+      },
+      {
+        "name": "Urgencia urinaria",
+        "slug": "urgencia-urinaria"
+      },
+      {
+        "name": "Enrojecimiento de la piel",
+        "slug": "enrojecimiento-de-la-piel"
+      },
+      {
+        "name": "Dolor de oído",
+        "slug": "dolor-de-oido"
+      },
+      {
+        "name": "Dolor sinusal",
+        "slug": "dolor-sinusal"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Faringitis estreptocócica",
+        "slug": "faringitis-estreptococica"
+      },
+      {
+        "name": "Bronquitis aguda bacteriana",
+        "slug": "bronquitis-aguda-bacteriana"
+      },
+      {
+        "name": "Sinusitis bacteriana",
+        "slug": "sinusitis-bacteriana"
+      },
+      {
+        "name": "Cistitis aguda",
+        "slug": "cistitis-aguda"
+      },
+      {
+        "name": "Pioderma",
+        "slug": "pioderma"
+      },
+      {
+        "name": "Otitis media aguda",
+        "slug": "otitis-media-aguda"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Colitis pseudomembranosa",
+        "slug": "colitis-pseudomembranosa"
+      },
+      {
+        "name": "Anafilaxia",
+        "slug": "anafilaxia"
+      },
+      {
+        "name": "Candidiasis vaginal/oral",
+        "slug": "candidiasis"
+      },
+      {
+        "name": "Nefritis intersticial",
+        "slug": "nefritis-intersticial"
+      },
+      {
+        "name": "Resistencia antibiótica",
+        "slug": "resistencia-antibiotica"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevarse en casos de nefrotoxicidad (raro)"
+      },
+      {
+        "name": "AST (TGO)",
+        "slug": "ast-tgo",
+        "effect": "Puede elevarse transitoriamente"
+      },
+      {
+        "name": "ALT (TGP)",
+        "slug": "alt-tgp",
+        "effect": "Puede elevarse transitoriamente"
+      },
+      {
+        "name": "Recuento de glóbulos blancos",
+        "slug": "recuento-de-globulos-blancos",
+        "effect": "Puede disminuir (leucopenia rara)"
+      },
+      {
+        "name": "INR",
+        "slug": "inr",
+        "effect": "Puede elevarse (aumento del riesgo de sangrado)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Urocultivo y antibiograma",
+        "slug": "urocultivo-antibiograma",
+        "reason": "Para confirmar infección urinaria bacteriana y sensibilidad a la ampicilina."
+      },
+      {
+        "name": "Cultivo de exudado faríngeo",
+        "slug": "cultivo-exudado-faringeo",
+        "reason": "Para diagnosticar faringitis estreptocócica antes de iniciar antibiótico."
+      },
+      {
+        "name": "Creatinina sérica y TFG",
+        "slug": "creatinina-tfg",
+        "reason": "Para ajustar dosis en pacientes con riesgo de insuficiencia renal."
+      },
+      {
+        "name": "Conteo sanguíneo completo",
+        "slug": "conteo-sanguineo-completo",
+        "reason": "Para monitorizar posibles efectos hematológicos en tratamientos prolongados."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La pivampicilina es lo mismo que la amoxicilina?",
+      "a": "No, son antibióticos hermanos (ambas son aminopenicilinas), pero son medicamentos diferentes. La pivampicilina se convierte en ampicilina en el cuerpo, mientras que la amoxicilina se absorbe directamente. Tienen espectros similares, pero la amoxicilina se usa más comúnmente como primera opción hoy en día."
+    },
+    {
+      "q": "¿Puedo tomar pivampicilina si soy alérgico a la penicilina?",
+      "a": "NO. Si tiene una alergia confirmada a la penicilina o ampicilina, NO debe tomar pivampicilina, ya que puede desencadenar una reacción alérgica grave. Informe siempre a su médico sobre sus alergias."
+    },
+    {
+      "q": "¿Con o sin alimentos?",
+      "a": "Puede tomarla con o sin alimentos. Tomarla con comida puede ayudar a reducir la posibilidad de malestar estomacal o náuseas."
+    },
+    {
+      "q": "¿Qué hago si olvidé una dosis?",
+      "a": "Tómela tan pronto como lo recuerde. Pero si ya es casi la hora de su siguiente dosis, omita la que olvidó y continúe con su horario normal. Nunca tome dos dosis juntas para compensar."
+    },
+    {
+      "q": "¿Puedo tomar alcohol mientras uso este antibiótico?",
+      "a": "No se recomienda. El alcohol puede aumentar el riesgo de efectos secundarios como náuseas y mareo, y puede interferir con la capacidad de su cuerpo para combatir la infección."
+    },
+    {
+      "q": "¿La pivampicilina anula el efecto de las pastillas anticonceptivas?",
+      "a": "Sí, existe la posibilidad. Los antibióticos de amplio espectro como la pivampicilina pueden reducir la efectividad de los anticonceptivos hormonales orales. Use un método anticonceptivo adicional (como condón) durante todo el tratamiento y hasta 7 días después."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Puede comenzar a sentirse mejor en 24 a 48 horas. Sin embargo, es crucial completar todos los días de tratamiento que le recetó el médico, aunque los síntomas desaparezcan antes."
+    },
+    {
+      "q": "¿Puede causar sueño o mareos?",
+      "a": "El mareo es un efecto secundario poco común. Si experimenta mareo, evite conducir o operar maquinaria pesada hasta que sepa cómo le afecta."
+    },
+    {
+      "q": "Me salieron ronchas en la piel, ¿debo suspenderlo?",
+      "a": "SÍ. Las ronchas (urticaria) pueden ser un signo de reacción alérgica. Suspenda el medicamento y contacte a su médico de inmediato para evaluación."
+    },
+    {
+      "q": "¿Sirve para la gripe o el resfriado?",
+      "a": "NO. La pivampicilina solo mata bacterias. La gripe y el resfriado común son causados por virus. Usar antibióticos para infecciones virales es inútil y contribuye a la resistencia bacteriana."
+    },
+    {
+      "q": "¿Puedo dárselo a mi hijo?",
+      "a": "Sí, pero solo bajo prescripción médica pediátrica. La dosis se calcula cuidadosamente según el peso del niño. Para niños muy pequeños, existen otras presentaciones más adecuadas que las tabletas."
+    },
+    {
+      "q": "¿Qué pasa si tomo más de la dosis indicada?",
+      "a": "Podría sufrir náuseas, vómitos y diarrea severos. En caso de sobredosis accidental, busque atención médica inmediata o llame al Centro de Toxicología."
+    },
+    {
+      "q": "¿Interfiere con otros medicamentos?",
+      "a": "Sí. Informe a su médico sobre TODOS los medicamentos que toma, incluyendo anticoagulantes (warfarina), metotrexato, probenecid, alopurinol y suplementos (hierro, zinc)."
+    },
+    {
+      "q": "¿Por qué me dio diarrea con el tratamiento?",
+      "a": "Es un efecto secundario común porque el antibiótico altera el equilibrio de bacterias buenas en su intestino. Si es diarrea leve, coma yogur. Si es severa, acuosa o con sangre, pare el medicamento y llame a su médico (podría ser una infección grave por C. difficile)."
+    },
+    {
+      "q": "¿Es seguro durante el embarazo?",
+      "a": "Se clasifica como categoría B y se ha usado ampliamente. Sin embargo, SOLO debe usarse si su médico determina que el beneficio para usted supera cualquier riesgo potencial para el feto. No se automedique."
+    },
+    {
+      "q": "¿Puedo amamantar si tomo pivampicilina?",
+      "a": "Sí, generalmente se considera seguro. Se excreta en la leche en cantidades muy bajas. Esté atenta a si su bebé desarrolla diarrea o candidiasis oral (algodoncillo) y consulte con su pediatra."
+    },
+    {
+      "q": "¿Cómo debo guardar las tabletas?",
+      "a": "En un lugar fresco y seco, a temperatura ambiente, en su empaque original y fuera del alcance de los niños. No las refrigere."
+    },
+    {
+      "q": "¿Qué marcas de pivampicilina existen en México?",
+      "a": "Algunas marcas comerciales son Pondocilina, Pivampic, Maxcilin, Pivacef, Pivamox, entre otras. El principio activo es el mismo."
+    },
+    {
+      "q": "¿Necesito hacer algún examen de laboratorio mientras la tomo?",
+      "a": "Para tratamientos cortos (5-7 días), generalmente no. Si el tratamiento es prolongado, o si tiene problemas renales, su médico podría solicitar pruebas de función renal o hepática."
+    },
+    {
+      "q": "¿Por qué mi médico me cambió de amoxicilina a pivampicilina?",
+      "a": "Posiblemente porque el cultivo de su infección mostró que la bacteria era sensible a la ampicilina (a lo que se convierte la pivampicilina) pero no a la amoxicilina, o por consideraciones de tolerancia gastrointestinal o historial de tratamiento previo."
+    }
+  ]
+}

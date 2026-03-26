@@ -62,6 +62,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     return {
         title: `${study.name} | Laboratorio Del Bienestar — Tizayuca`,
         description,
+        alternates: {
+            canonical: `https://laboratorio.delbienestar.com.mx/estudios/${categoria}/${slug}`,
+        },
         openGraph: {
             title: `${study.name} — $${Math.round(price)} MXN`,
             description,

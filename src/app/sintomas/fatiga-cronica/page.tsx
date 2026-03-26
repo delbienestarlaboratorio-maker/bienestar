@@ -10,7 +10,10 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Guía Médica: Fatiga Extrema y Cansancio",
         description: "Todo lo que necesitas saber antes de ir de urgencias sobre fatiga extrema y cansancio."
-    }
+    },
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/sintomas/fatiga-cronica',
+    },
 };
 
 export default function SymptomPage() {

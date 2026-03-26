@@ -5,7 +5,10 @@ import { CheckCircle2, TrendingUp, Users, Smartphone, ArrowRight, ShieldCheck } 
 
 export const metadata: Metadata = {
     title: 'Anúnciate con Nosotros: Directorio Médico de Élite | Laboratorio Bienestar',
-    description: 'Capta cientos de pacientes mensuales posicionando tu consulta directamente en nuestros artículos clínicos. Únete al Directorio de Especialistas.',
+    description: 'Capta cientos de pacientes mensuales posicionando tu consulta directamente en nuestros artículos clínicos. Únete al Directorio de Especialistas.',,
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/especialistas/anunciate',
+    },
 };
 
 export default function AdvertisePage() {

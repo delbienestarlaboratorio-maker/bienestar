@@ -7,7 +7,10 @@ export const metadata: Metadata = {
         title: '🍼 Escala de Deshidratación Pediátrica',
         description: 'Calculadora e información médica sobre 🍼 Escala de Deshidratación Pediátrica. Cotiza tus estudios de laboratorio hoy mismo en Pachuca, Tulancingo y CDMX.',
         type: 'website',
-    }
+    },
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/herramientas/escala-deshidratacion-pediatrica',
+    },
 };
 
 export default function ToolLayout({ children }: { children: React.ReactNode }) {

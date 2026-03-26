@@ -10,7 +10,10 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Guía Médica: Tos Seca Persistente",
         description: "Todo lo que necesitas saber antes de ir de urgencias sobre tos seca persistente."
-    }
+    },
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/sintomas/tos-seca-persistente',
+    },
 };
 
 export default function SymptomPage() {

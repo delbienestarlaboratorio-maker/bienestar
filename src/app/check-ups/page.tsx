@@ -7,7 +7,10 @@ import { RelatedTools } from '@/components/ui/RelatedTools';
 
 export const metadata = {
     title: 'Check-Ups y Paquetes Médicos | Laboratorio Del Bienestar',
-    description: 'Check-ups integrales y paquetes médicos especializados. Cuida tu salud con estudios preventivos completos a precios accesibles.',
+    description: 'Check-ups integrales y paquetes médicos especializados. Cuida tu salud con estudios preventivos completos a precios accesibles.',,
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/check-ups',
+    },
 };
 
 export default function CheckUpsPage() {

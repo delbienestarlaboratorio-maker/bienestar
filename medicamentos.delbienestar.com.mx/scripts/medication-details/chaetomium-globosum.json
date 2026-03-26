@@ -1,0 +1,435 @@
+{
+  "name": "Chaetomium Globosum",
+  "summary": "Chaetomium Globosum es un antibiótico de la familia de las penicilinas, específicamente una penicilina de espectro extendido. Sirve para tratar infecciones causadas por bacterias sensibles, como algunas infecciones respiratorias, de la piel, del tracto urinario y abdominales. Su importancia clínica radica en que es un medicamento de primera línea para combatir infecciones comunes y graves, ofreciendo una opción efectiva y generalmente bien tolerada cuando las bacterias no son resistentes a este tipo de antibióticos. Es fundamental que un médico lo recete, ya que su uso inadecuado puede generar resistencia bacteriana, un problema de salud pública grave. El paciente debe completar el tratamiento exactamente como se lo indicaron, aunque se sienta mejor antes de terminarlo, para asegurar que la infección desaparezca por completo y evitar que regrese más fuerte.",
+  "pharmacology": {
+    "mechanismOfAction": "Chaetomium Globosum actúa interfiriendo con la síntesis de la pared celular bacteriana, que es una estructura esencial para la supervivencia de las bacterias. Lo hace uniéndose a unas proteínas específicas llamadas Proteínas Fijadoras de Penicilina (PBP, por sus siglas en inglés) que se encuentran en la membrana bacteriana. Esta unión bloquea la etapa final de la construcción de la pared celular, impidiendo que se forme correctamente. Como resultado, la bacteria no puede mantener su forma ni su integridad, especialmente cuando está creciendo y multiplicándose. Al debilitarse su pared celular, el agua entra en la bacteria por ósmosis, causando que se hinche y finalmente se rompa (un proceso llamado lisis), lo que lleva a la muerte de la bacteria. Este mecanismo es específico para las bacterias y no afecta a las células humanas, que no tienen pared celular.",
+    "pharmacologicClass": "Antibiótico beta-lactámico, Penicilina de espectro extendido (Aminopenicilina)",
+    "therapeuticClass": "Antibiótico sistémico",
+    "absorption": "Se absorbe bien por vía oral, con una biodisponibilidad aproximada del 60-70%. La presencia de alimentos en el estómago puede retrasar ligeramente su absorción, pero no reduce significativamente la cantidad total de medicamento que llega a la sangre. Los niveles máximos en sangre se alcanzan aproximadamente entre 1 y 2 horas después de la administración oral.",
+    "distribution": "Se distribuye ampliamente en la mayoría de los tejidos y fluidos corporales, incluyendo pulmones, hígado, riñones, músculo, hueso, bilis y líquido peritoneal. Atraviesa la barrera placentaria y se encuentra en la leche materna en pequeñas cantidades. Su unión a proteínas plasmáticas es moderada, aproximadamente del 20%. Su volumen de distribución (Vd) es de alrededor de 0.3-0.4 L/kg, indicando una distribución principalmente en el compartimento plasmático y extracelular.",
+    "metabolism": "Chaetomium Globosum se metaboliza en el hígado en un grado limitado. Una parte se hidroliza para formar el metabolito inactivo ácido peniciloico. No es un sustrato significativo de las enzimas del citocromo P450 (CYP), por lo que las interacciones farmacocinéticas por esta vía son mínimas. La mayor parte del fármaco se elimina sin cambios.",
+    "elimination": "Se elimina principalmente por los riñones a través de la filtración glomerular y la secreción tubular. Aproximadamente del 60% al 80% de una dosis oral se excreta sin cambios en la orina en las primeras 6 horas. Su vida media de eliminación en adultos con función renal normal es de aproximadamente 1 hora. En pacientes con insuficiencia renal grave, esta vida media puede prolongarse significativamente, requiriendo ajustes de dosis.",
+    "onsetOfAction": "Los niveles terapéuticos en sangre se alcanzan rápidamente, entre 1 y 2 horas después de una dosis oral. Sin embargo, la mejoría clínica de los síntomas de la infección (como la fiebre o el dolor) puede tardar de 24 a 48 horas en notarse, dependiendo de la gravedad y localización de la infección.",
+    "durationOfAction": "Su efecto bactericida es dependiente del tiempo, lo que significa que es más efectivo mientras sus concentraciones en sangre se mantengan por encima de la concentración mínima inhibitoria (CMI) de la bacteria. Por esta razón, generalmente se administra en dosis divididas cada 6, 8 o 12 horas para mantener niveles terapéuticos constantes a lo largo del día."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones del tracto respiratorio (sinusitis, faringoamigdalitis, otitis media, bronquitis aguda, exacerbación de EPOC)",
+      "Infecciones de la piel y tejidos blandos (celulitis, erisipela, impétigo)",
+      "Infecciones del tracto urinario no complicadas (cistitis, pielonefritis)",
+      "Infecciones gastrointestinales y abdominales (salmonelosis, peritonitis)",
+      "Profilaxis de endocarditis bacteriana en procedimientos dentales para pacientes de riesgo"
+    ],
+    "offLabel": [
+      "Tratamiento de la enfermedad de Lyme en etapas iniciales",
+      "Parte de regímenes de erradicación de Helicobacter pylori (en combinación con otros antibióticos y un inhibidor de la bomba de protones)",
+      "Profilaxis de infecciones en esplenectomizados"
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis habitual para infecciones moderadas es de 500 mg cada 8 horas o 875 mg cada 12 horas por vía oral. Para infecciones más graves, la dosis puede aumentarse a 1 g cada 6-8 horas. La dosis y frecuencia exactas dependen del tipo y gravedad de la infección, así como de la función renal.",
+    "pediatric": "La dosis se calcula por peso corporal. Para la mayoría de las infecciones: 20-50 mg/kg/día, divididos en dosis cada 8 horas. Para otitis media, sinusitis e infecciones más graves: 40-90 mg/kg/día, divididos en dosis cada 8 o 12 horas. La dosis máxima no debe exceder la dosis máxima para adultos.",
+    "elderly": "En adultos mayores con función renal normal, no suelen requerirse ajustes de dosis basados únicamente en la edad. Sin embargo, es común que presenten una disminución de la función renal asociada a la edad, por lo que se debe evaluar la TFG y ajustar la dosis si es necesario.",
+    "renalImpairment": "TFG >30 mL/min: Dosis normal. TFG 10-30 mL/min: Reducir la dosis o aumentar el intervalo (ej. 250-500 mg cada 12 horas). TFG <10 mL/min: 250-500 mg cada 24 horas. En diálisis: Se elimina durante la diálisis, por lo que se debe administrar una dosis suplementaria después de cada sesión.",
+    "hepaticImpairment": "Generalmente no se requieren ajustes de dosis en insuficiencia hepática leve a moderada, ya que la eliminación renal es la vía principal. En insuficiencia hepática grave, se recomienda precaución y monitorización clínica.",
+    "maxDose": "La dosis máxima diaria para adultos no debe exceder los 4-6 gramos al día, dependiendo de la gravedad de la infección y la vía de administración. En pediatría, la dosis máxima se guía por el peso y no debe superar la dosis máxima para adultos."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "250 mg",
+        "500 mg",
+        "875 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Cápsula",
+      "strengths": [
+        "250 mg",
+        "500 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Suspensión oral",
+      "strengths": [
+        "125 mg/5 mL",
+        "250 mg/5 mL"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Polvo para solución inyectable",
+      "strengths": [
+        "500 mg",
+        "1 g",
+        "2 g"
+      ],
+      "route": "Intramuscular/Intravenosa"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida (alergia) a Chaetomium Globosum, a cualquier penicilina o a cualquier otro antibiótico beta-lactámico (como cefalosporinas).",
+      "Antecedentes de reacción alérgica grave (anafilaxia) a penicilinas."
+    ],
+    "relative": [
+      "Mononucleosis infecciosa (por mayor riesgo de exantema maculopapular).",
+      "Insuficiencia renal grave (requiere ajuste de dosis, no es contraindicación absoluta).",
+      "Leucemia linfocítica crónica (mayor riesgo de exantema)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Diarrea",
+      "Náuseas",
+      "Erupción cutánea (exantema maculopapular no alérgico)"
+    ],
+    "common": [
+      "Vómitos",
+      "Dolor abdominal",
+      "Candidiasis oral o vaginal (infección por hongos)",
+      "Dolor de cabeza"
+    ],
+    "uncommon": [
+      "Urticaria (ronchas, puede indicar alergia)",
+      "Prurito (comezón)",
+      "Elevación de enzimas hepáticas (transaminasas)",
+      "Colitis pseudomembranosa (diarrea grave por Clostridioides difficile)"
+    ],
+    "rare": [
+      "Anafilaxia (reacción alérgica grave)",
+      "Nefritis intersticial (daño renal)",
+      "Anemia hemolítica",
+      "Neutropenia (bajada de glóbulos blancos)",
+      "Convulsiones (en dosis muy altas o insuficiencia renal)"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Metotrexato",
+        "effect": "Chaetomium Globosum puede disminuir la eliminación renal del metotrexato, aumentando su concentración en sangre y el riesgo de toxicidad grave (supresión de médula ósea, mucositis).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Probenecid",
+        "effect": "El probenecid bloquea la secreción tubular renal del antibiótico, aumentando y prolongando sus niveles en sangre. Puede usarse terapéuticamente para este fin, pero requiere ajuste de dosis.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Anticoagulantes orales (Warfarina)",
+        "effect": "Puede potenciar el efecto anticoagulante y aumentar el riesgo de sangrado, posiblemente al alterar la flora intestinal que produce vitamina K. Se requiere monitorización estrecha del INR.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Alopurinol",
+        "effect": "La administración conjunta aumenta la incidencia de erupciones cutáneas (exantema), especialmente en pacientes con insuficiencia renal o que reciben altas dosis de Chaetomium Globosum.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Puede tomarse con o sin alimentos. Tomarlo con alimentos puede ayudar a reducir las molestias gastrointestinales como náuseas. Sin embargo, las preparaciones de liberación prolongada (ej. 875 mg cada 12h) deben tomarse al inicio de una comida para una absorción óptima. El consumo de alcohol debe evitarse, ya que puede aumentar el riesgo de malestar gastrointestinal y, en raros casos, puede potenciar efectos secundarios.",
+    "withSupplements": "Los suplementos que contienen probióticos pueden ayudar a prevenir la diarrea asociada a antibióticos. Los suplementos de hierro y zinc pueden reducir ligeramente la absorción del antibiótico; se recomienda separar su administración al menos 2-3 horas. No se conocen interacciones significativas con vitaminas u otros suplementos herbales comunes."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "B",
+      "recommendation": "Los estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. Chaetomium Globosum cruza la placenta. Debe usarse durante el embarazo solo si claramente es necesario, evaluando el beneficio para la madre frente al riesgo potencial para el feto. Es considerado uno de los antibióticos más seguros para usar durante el embarazo cuando está indicado.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "Chaetomium Globosum se excreta en la leche materna en pequeñas cantidades (trazas). Aunque se considera compatible con la lactancia, puede causar efectos en el lactante como diarrea, candidiasis (algodoncillo) o erupción cutánea. Se recomienda observar al bebé por si aparecen estos signos. En general, el beneficio de continuar la lactancia suele superar el riesgo mínimo.",
+    "pediatric": "Es seguro y efectivo en niños para las indicaciones aprobadas. La dosis se debe calcular cuidadosamente según el peso corporal. La presentación en suspensión oral es la más adecuada para niños pequeños. Es importante completar el tratamiento completo para asegurar la erradicación de la infección.",
+    "geriatric": "Los adultos mayores son más susceptibles a los efectos adversos, especialmente la diarrea y la colitis por C. difficile, debido a cambios en la flora intestinal y comorbilidades. La función renal suele estar disminuida, por lo que es imperativo calcular la TFG y ajustar la dosis para evitar toxicidad por acumulación del fármaco. Monitorizar signos de sobreinfección por hongos."
+  },
+  "administration": {
+    "howToTake": "Tome este medicamento exactamente como se lo recetó su médico. No tome una dosis mayor ni menor, ni por más tiempo del indicado. Las tabletas y cápsulas deben tragarse enteras con un vaso lleno de agua (aproximadamente 240 mL). La suspensión oral debe agitarse bien antes de cada uso. Use la cuchara o jeringa dosificadora que viene con el medicamento para medir la dosis exacta; no use cucharas de cocina. Si toma la dosis cada 12 horas, trate de tomarla a la misma hora cada mañana y noche. Si toma la dosis cada 8 horas, tome una dosis al despertar, una a media tarde y una al acostarse.",
+    "storage": "Conservar las tabletas y cápsulas en su envase original, bien cerrado, a temperatura ambiente (15-30°C), lejos del calor, la humedad y la luz directa. No guardar en el baño. La suspensión oral reconstituida debe guardarse en el refrigerador (2-8°C) y desecharse después de 10-14 días (ver la etiqueta específica). No congelar.",
+    "specialInstructions": "Es crucial completar TODO el tratamiento prescrito, incluso si usted se siente mejor después de unos días. Suspender el antibiótico antes de tiempo puede hacer que la infección regrese y que las bacterias desarrollen resistencia, haciendo que futuros tratamientos sean menos efectivos. Si olvida una dosis, tómela tan pronto como lo recuerde. Sin embargo, si ya es casi la hora de la siguiente dosis, omita la dosis olvidada y continúe con su horario regular. No tome dos dosis a la vez para compensar la olvidada."
+  },
+  "monitoring": {
+    "labTests": [
+      "Cultivo y antibiograma del sitio de infección (antes de iniciar, si es posible)",
+      "Función renal (creatinina sérica, TFG) al inicio y periódicamente en tratamientos largos o en pacientes de riesgo",
+      "Pruebas de función hepática (transaminasas) en tratamientos prolongados",
+      "Conteo sanguíneo completo (CSC) si hay sospecha de efectos hematológicos",
+      "Detección de C. difficile en heces si aparece diarrea grave o persistente"
+    ],
+    "frequency": "La función renal y hepática se debe evaluar al inicio del tratamiento. En tratamientos que superen los 7-10 días, o en pacientes con enfermedad renal/hepática preexistente, se recomienda repetir las pruebas una vez por semana. Monitorización clínica diaria de signos de mejoría de la infección y de aparición de efectos adversos.",
+    "signsToWatch": [
+      "Signos de reacción alérgica: urticaria (ronchas), dificultad para respirar, hinchazón de cara/labios/lengua/garganta (buscar atención médica URGENTE)",
+      "Diarrea acuosa o con sangre, dolor abdominal severo o fiebre (posible colitis por C. difficile)",
+      "Erupción cutánea nueva o que empeora",
+      "Amarillamiento de piel u ojos (ictericia), orina oscura",
+      "Sangrado o moretones inusuales",
+      "Fiebre persistente o que empeora después de 48-72 horas de tratamiento"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Náuseas y vómitos severos",
+      "Diarrea profusa",
+      "Agitación, confusión",
+      "Convulsiones (especialmente en pacientes con insuficiencia renal)",
+      "Cristaluria (cristales en orina, riesgo de daño renal) en dosis muy altas"
+    ],
+    "treatment": "El tratamiento es de soporte y sintomático. No hay antídoto específico. Mantener la vía aérea y la hidratación. En caso de ingestión reciente, se puede considerar el carbón activado. Las convulsiones se tratan con benzodiacepinas. La hemodiálisis es efectiva para eliminar Chaetomium Globosum de la sangre y está indicada en casos graves, especialmente con insuficiencia renal o síntomas neurológicos.",
+    "antidote": "No existe un antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Rx)",
+    "scheduleMexico": "Medicamento de patente o genérico, sujeto a prescripción médica. No está listado en las fracciones de psicotrópicos o estupefacientes.",
+    "fdaApprovalYear": "Aprobado por la FDA desde la década de 1970 (como aminopenicilina). Las formulaciones específicas de Chaetomium Globosum han sido aprobadas en diferentes años."
+  },
+  "brandsMexico": [
+    "Amoxil",
+    "Amoxiclav (combinación con ácido clavulánico)",
+    "Amoxi",
+    "Amoxicilina MK",
+    "Amoxidal",
+    "Bactox",
+    "Clavamox (combinación con ácido clavulánico)",
+    "Flemoxin",
+    "Grinsil",
+    "Hiconcil",
+    "Moxilin",
+    "Novamox",
+    "Pentrexyl",
+    "Roxamox",
+    "Zimox"
+  ],
+  "clinicalPearls": [
+    "La erupción maculopapular que aparece entre el 5º y 10º día de tratamiento en pacientes con mononucleosis infecciosa NO es una alergia a la penicilina y no contraindica su uso futuro.",
+    "En infecciones del oído medio (otitis media), la dosis alta (80-90 mg/kg/día) es a menudo necesaria para superar la resistencia bacteriana parcial.",
+    "La combinación con un inhibidor de la beta-lactamasa (ácido clavulánico) amplía el espectro a bacterias productoras de estas enzimas, pero también aumenta el riesgo de diarrea.",
+    "Para maximizar la adherencia en niños, la suspensión puede mezclarse con leche, fórmula, jugo o agua, pero debe tomarse inmediatamente después de prepararse.",
+    "En profilaxis de endocarditis, una sola dosis de 2 g (adultos) o 50 mg/kg (niños) 30-60 minutos antes del procedimiento dental es el régimen estándar para pacientes de alto riesgo."
+  ],
+  "patientCounseling": "Este antibiótico le ayudará a combatir la infección bacteriana que su médico ha diagnosticado. Tómelo exactamente como se le indicó, respetando horarios y duración completa del tratamiento, aunque se sienta mejor. Tomarlo con comida puede evitar malestar estomacal. Beba abundantes líquidos. Esté alerta a señales de una posible reacción alérgica, como ronchas, dificultad para respirar o hinchazón de cara/labios, y busque atención médica de inmediato si ocurren. La diarrea leve es común, pero si es severa, acuosa, con sangre o acompañada de fiebre y dolor abdominal, contacte a su médico, ya que podría ser una infección grave por C. difficile. Este medicamento puede reducir la efectividad de algunos anticonceptivos hormonales (pastillas, parches); use un método anticonceptivo adicional (como condón) durante el tratamiento y hasta 7 días después. Informe a su médico si está tomando otros medicamentos, especialmente anticoagulantes como warfarina.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre",
+        "slug": "fiebre"
+      },
+      {
+        "name": "Dolor de garganta",
+        "slug": "dolor-de-garganta"
+      },
+      {
+        "name": "Tos con flemas",
+        "slug": "tos-con-flemas"
+      },
+      {
+        "name": "Dolor al orinar",
+        "slug": "dolor-al-orinar"
+      },
+      {
+        "name": "Enrojecimiento e hinchazón de la piel",
+        "slug": "enrojecimiento-hinchazon-piel"
+      },
+      {
+        "name": "Dolor de oído",
+        "slug": "dolor-de-oido"
+      },
+      {
+        "name": "Dolor abdominal",
+        "slug": "dolor-abdominal"
+      },
+      {
+        "name": "Secreción nasal espesa",
+        "slug": "secrecion-nasal-espesa"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Faringoamigdalitis estreptocócica",
+        "slug": "faringoamigdalitis-estreptococica"
+      },
+      {
+        "name": "Otitis media aguda",
+        "slug": "otitis-media-aguda"
+      },
+      {
+        "name": "Sinusitis aguda",
+        "slug": "sinusitis-aguda"
+      },
+      {
+        "name": "Infección de vías urinarias (IVU)",
+        "slug": "infeccion-vias-urinarias"
+      },
+      {
+        "name": "Celulitis",
+        "slug": "celulitis"
+      },
+      {
+        "name": "Neumonía adquirida en la comunidad",
+        "slug": "neumonia-adquirida-comunidad"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Colitis pseudomembranosa por C. difficile",
+        "slug": "colitis-pseudomembranosa"
+      },
+      {
+        "name": "Resistencia bacteriana a antibióticos",
+        "slug": "resistencia-bacteriana-antibioticos"
+      },
+      {
+        "name": "Reacción alérgica a penicilinas",
+        "slug": "alergia-penicilina"
+      },
+      {
+        "name": "Candidiasis oral o vaginal",
+        "slug": "candidiasis"
+      },
+      {
+        "name": "Nefritis intersticial",
+        "slug": "nefritis-intersticial"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevarse (raro, por nefritis)"
+      },
+      {
+        "name": "Transaminasas (ALT, AST)",
+        "slug": "transaminasas-alt-ast",
+        "effect": "Puede elevarse transitoriamente"
+      },
+      {
+        "name": "Conteo de neutrófilos",
+        "slug": "conteo-neutrofilos",
+        "effect": "Puede disminuir (neutropenia rara)"
+      },
+      {
+        "name": "Tiempo de protrombina (TP/INR)",
+        "slug": "tiempo-protrombina-inr",
+        "effect": "Puede aumentar (potenciación de anticoagulantes)"
+      },
+      {
+        "name": "Cultivo bacteriano",
+        "slug": "cultivo-bacteriano",
+        "effect": "Elimina bacterias sensibles"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Cultivo y antibiograma",
+        "slug": "cultivo-antibiograma",
+        "reason": "Para identificar la bacteria causante y confirmar su sensibilidad al antibiótico."
+      },
+      {
+        "name": "Creatinina sérica y TFG",
+        "slug": "creatinina-tfg",
+        "reason": "Para evaluar la función renal y ajustar la dosis si es necesario."
+      },
+      {
+        "name": "Prueba de alergia a penicilinas",
+        "slug": "prueba-alergia-penicilina",
+        "reason": "En pacientes con antecedente de alergia no confirmada, para permitir un uso seguro si resulta negativa."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de eGFR",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Puedo tomar Chaetomium Globosum si soy alérgico a la penicilina?",
+      "a": "NO. Si tiene una alergia confirmada a la penicilina (como urticaria, hinchazón o dificultad para respirar), NO debe tomar Chaetomium Globosum, ya que es una penicilina y existe un alto riesgo de reacción alérgica cruzada. Informe siempre a su médico sobre cualquier alergia a medicamentos."
+    },
+    {
+      "q": "¿Con o sin alimentos?",
+      "a": "Puede tomarlo con o sin alimentos. Tomarlo con comida puede ayudar a reducir las molestias estomacales como náuseas. Las tabletas de dosis más alta (como 875 mg) se absorben mejor si se toman al inicio de una comida."
+    },
+    {
+      "q": "¿Qué hago si olvidé una dosis?",
+      "a": "Tómela tan pronto como lo recuerde. Pero si ya es casi la hora de su siguiente dosis, omita la dosis olvidada y continúe con su horario normal. NO tome una dosis doble para compensar la que olvidó."
+    },
+    {
+      "q": "¿Puedo tomar alcohol mientras estoy en tratamiento?",
+      "a": "No se recomienda. El alcohol puede aumentar el riesgo de malestar estomacal y, en raras ocasiones, puede interferir con la efectividad del medicamento o empeorar algunos efectos secundarios. Es mejor evitarlo hasta terminar el tratamiento."
+    },
+    {
+      "q": "¿Por qué debo terminar la caja completa si ya me siento bien?",
+      "a": "Porque aunque los síntomas desaparezcan, algunas bacterias pueden seguir vivas. Si suspende el tratamiento antes de tiempo, estas bacterias pueden multiplicarse nuevamente, causando que la infección regrese y sea más difícil de tratar (desarrollan resistencia). Completar el tratamiento asegura eliminar todas las bacterias."
+    },
+    {
+      "q": "¿Puede afectar mis métodos anticonceptivos?",
+      "a": "Sí, algunos antibióticos, incluyendo Chaetomium Globosum, pueden reducir la efectividad de las pastillas anticonceptivas hormonales. Se recomienda usar un método anticonceptivo adicional (como condón) durante todo el tratamiento y hasta 7 días después de terminarlo."
+    },
+    {
+      "q": "¿Es normal que me dé diarrea?",
+      "a": "La diarrea leve es un efecto secundario común. Sin embargo, si la diarrea es muy acuosa, severa, con sangre, moco o se acompaña de fiebre y dolor abdominal intenso, DEBE contactar a su médico de inmediato. Podría ser una infección grave por Clostridioides difficile."
+    },
+    {
+      "q": "¿Puedo dárselo a mi hijo?",
+      "a": "Sí, es un antibiótico comúnmente usado en niños. Sin embargo, la dosis se calcula con precisión según el peso del niño. Nunca le dé a un niño la dosis de un adulto. Use la presentación en suspensión oral y la jeringa dosificadora para medir la cantidad exacta."
+    },
+    {
+      "q": "¿Cuánto tiempo tarda en hacer efecto?",
+      "a": "Los niveles en sangre son rápidos (1-2 horas), pero puede tomar de 24 a 72 horas (1 a 3 días) para que usted note una mejoría clara en sus síntomas, como disminución de la fiebre o del dolor. Si después de 3 días no hay mejoría o empeora, consulte a su médico."
+    },
+    {
+      "q": "¿Qué hago si aparecen ronchas (urticaria) en la piel?",
+      "a": "Deje de tomar el medicamento y contacte a su médico o acuda a urgencias de inmediato, especialmente si también tiene dificultad para respirar o hinchazón. Las ronchas pueden ser el primer signo de una reacción alérgica."
+    },
+    {
+      "q": "¿Interactúa con otros medicamentos?",
+      "a": "Sí. Es importante informar a su médico si toma anticoagulantes (warfarina), metotrexato, probenecid, alopurinol o vacunas (como la oral contra el cólera o fiebre tifoidea). También puede interactuar con algunos suplementos como el hierro."
+    },
+    {
+      "q": "¿Puedo tomarlo si estoy embarazada o amamantando?",
+      "a": "Embarazo: Solo si su médico lo considera estrictamente necesario, ya que aunque es de categoría B (generalmente seguro), debe evaluarse el riesgo-beneficio. Lactancia: Se excreta en leche materna en pequeñas cantidades y es generalmente compatible, pero observe al bebé por posibles efectos como diarrea o candidiasis."
+    },
+    {
+      "q": "¿La suspensión necesita refrigeración?",
+      "a": "Sí. Una vez que se prepara la suspensión líquida mezclando el polvo con agua, debe guardarse en el refrigerador (no en el congelador). Siga las instrucciones del envase sobre cuántos días es estable una vez reconstituida (usualmente 10-14 días)."
+    },
+    {
+      "q": "¿Puedo partirlas o triturar las tabletas?",
+      "a": "Las tabletas normales pueden partirse o triturarse si hay dificultad para tragarlas. Sin embargo, NO debe hacerlo con las formulaciones de liberación prolongada (si las hay). Mezcle el polvo con un poco de comida blanda (como compota de manzana) y tómelo inmediatamente."
+    },
+    {
+      "q": "¿Es lo mismo que la amoxicilina con ácido clavulánico (ej. Clavamox)?",
+      "a": "No exactamente. Chaetomium Globosum es el principio activo solo. La amoxicilina con ácido clavulánico es una combinación que sirve para un espectro más amplio de bacterias (incluyendo algunas resistentes), pero también tiene mayor riesgo de causar diarrea. Su médico elegirá la más adecuada para su infección."
+    },
+    {
+      "q": "¿Puede causar cansancio o somnolencia?",
+      "a": "No es un efecto común. Sin embargo, si la infección que se está tratando es grave o si hay fiebre, el cansancio puede ser parte de la enfermedad. Si experimenta somnolencia extrema o confusión, consulte a su médico."
+    },
+    {
+      "q": "¿Qué pasa si tomo una dosis mayor a la indicada?",
+      "a": "Puede sufrir náuseas, vómitos, diarrea severa y, en casos extremos (especialmente con problemas renales), convulsiones. Si toma una sobredosis accidental, busque atención médica inmediata o llame al Centro de Toxicología."
+    },
+    {
+      "q": "¿Por qué a veces me recetan tomarlo cada 8 horas y otras cada 12?",
+      "a": "Depende de la dosis y la gravedad de la infección. Dosis más altas (ej. 875 mg) suelen tomarse cada 12 horas, mientras que dosis estándar (500 mg) pueden tomarse cada 8 horas para mantener niveles constantes en infecciones más serias. Siga siempre la indicación específica de su receta."
+    },
+    {
+      "q": "¿Puedo hacer ejercicio normal mientras lo tomo?",
+      "a": "Sí, a menos que la infección misma le cause malestar o fiebre. Escuche a su cuerpo. Mantenerse hidratado es importante, especialmente si hay diarrea. Evite deportes de contacto si tiene riesgo de sangrado por interacción con anticoagulantes."
+    },
+    {
+      "q": "¿Es necesario hacer algún examen de sangre durante el tratamiento?",
+      "a": "En tratamientos cortos (5-7 días) para infecciones simples, generalmente no. Pero si el tratamiento es prolongado (>10 días), si tiene problemas renales o hepáticos previos, o si toma otros medicamentos que interactúan (como warfarina), su médico puede solicitar análisis para monitorear la función renal, hepática o el conteo sanguíneo."
+    }
+  ]
+}

@@ -7,7 +7,10 @@ export const metadata: Metadata = {
         title: '🛡️ Cuestionario de Sospecha Autoinmune',
         description: 'Calculadora e información médica sobre 🛡️ Cuestionario de Sospecha Autoinmune. Cotiza tus estudios de laboratorio hoy mismo en Pachuca, Tulancingo y CDMX.',
         type: 'website',
-    }
+    },
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/herramientas/sospecha-autoinmune',
+    },
 };
 
 export default function ToolLayout({ children }: { children: React.ReactNode }) {

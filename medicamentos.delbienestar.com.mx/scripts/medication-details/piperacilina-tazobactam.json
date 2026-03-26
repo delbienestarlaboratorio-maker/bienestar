@@ -1,0 +1,404 @@
+{
+  "name": "Piperacilina/Tazobactam",
+  "summary": "Piperacilina/Tazobactam es un antibiótico combinado de amplio espectro que se utiliza para tratar infecciones graves causadas por bacterias. Está compuesto por piperacilina, una penicilina que mata las bacterias, y tazobactam, un protector que evita que algunas bacterias destruyan la piperacilina, haciendo que el tratamiento sea más efectivo. Es de gran importancia clínica en México para combatir infecciones intrahospitalarias complejas, como neumonías asociadas a ventilador, infecciones abdominales, de la piel y tejidos blandos, e infecciones urinarias complicadas, especialmente cuando se sospecha la presencia de bacterias resistentes a otros antibióticos. Se administra casi exclusivamente por vía intravenosa en un hospital, ya que su potencia y espectro lo reservan para situaciones donde infecciones menos graves no han respondido o se anticipa resistencia bacteriana. Su uso adecuado es crucial para evitar el desarrollo de más resistencia a los antibióticos, un problema de salud pública mundial.",
+  "pharmacology": {
+    "mechanismOfAction": "Piperacilina es una penicilina de amplio espectro (ureidopenicilina) que actúa uniéndose a unas proteínas llamadas Proteínas Fijadoras de Penicilina (PBP) en la pared celular de las bacterias. Al unirse, bloquea la última etapa de la síntesis de esta pared, lo que debilita y finalmente rompe la bacteria, causando su muerte (efecto bactericida). El tazobactam es un inhibidor de las betalactamasas, que son enzimas producidas por muchas bacterias resistentes (como algunas E. coli, Klebsiella, y Bacteroides) para destruir antibióticos como la piperacilina. El tazobactam se une irreversiblemente a estas enzimas, desactivándolas y 'protegiendo' a la piperacilina, permitiéndole así ejercer su efecto antibacteriano. Juntos, la combinación amplía significativamente el espectro de acción para cubrir bacterias Gram-positivas, Gram-negativas y anaerobias, incluyendo muchas productoras de betalactamasas.",
+    "pharmacologicClass": "Antibiótico betalactámico; Combinación de penicilina (ureidopenicilina) e inhibidor de betalactamasas.",
+    "therapeuticClass": "Antibiótico de amplio espectro para infecciones graves.",
+    "absorption": "No se absorbe por vía oral. Debe administrarse por vía intravenosa (IV) o intramuscular (IM) profunda, aunque la vía IV es la más común y recomendada para infecciones graves. Tras una infusión IV de 30 minutos, se alcanzan concentraciones plasmáticas máximas (Cmax) al final de la infusión.",
+    "distribution": "Se distribuye ampliamente en la mayoría de los tejidos y fluidos corporales, incluyendo hueso, líquido peritoneal, bilis, piel y tejidos blandos. Atraviesa la barrera hematoencefálica cuando las meninges están inflamadas (en meningitis). La unión a proteínas plasmáticas es moderada: piperacilina 30%, tazobactam 20-23%. El volumen de distribución (Vd) es de aproximadamente 0.2-0.3 L/kg, similar al volumen del líquido extracelular.",
+    "metabolism": "El metabolismo hepático es mínimo. La piperacilina se metaboliza parcialmente a un metabolito inactivo (ácido desetilpiperacilínico). El tazobactam se metaboliza a un metabolito inactivo (M1). No es un sustrato, inhibidor o inductor significativo de las enzimas del citocromo P450 (CYP).",
+    "elimination": "Se elimina principalmente por excreción renal sin cambios. Aproximadamente el 68-80% de la dosis de piperacilina y el 80% de tazobactam se recuperan en la orina en 24 horas. Una pequeña porción se excreta en la bilis. La vida media de eliminación es de aproximadamente 0.7 a 1.2 horas para ambos componentes en adultos con función renal normal. Esta vida media se prolonga significativamente en pacientes con insuficiencia renal.",
+    "onsetOfAction": "Las concentraciones bactericidas en suero se alcanzan rápidamente al final de la infusión intravenosa (en minutos). El efecto clínico (mejoría de fiebre, síntomas) puede observarse en 48-72 horas si la bacteria es sensible.",
+    "durationOfAction": "Debido a su corta vida media, requiere administraciones múltiples al día (generalmente cada 6 u 8 horas) para mantener concentraciones en sangre y tejidos por encima de la concentración inhibitoria mínima (CIM) de las bacterias objetivo durante todo el intervalo de dosificación."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones intra-abdominales complicadas (apendicitis, peritonitis, abscesos)",
+      "Infecciones de la piel y estructuras de la piel (celulitis, infecciones de herida quirúrgica, pie diabético infectado)",
+      "Neumonía adquirida en el hospital (incluyendo neumonía asociada a ventilador)",
+      "Infecciones del tracto urinario complicadas (incluyendo pielonefritis)",
+      "Neutropenia febril (en pacientes con cáncer y conteo bajo de glóbulos blancos)",
+      "Infecciones ginecológicas (endometritis, sepsis pélvica)"
+    ],
+    "offLabel": [
+      "Tratamiento empírico de sepsis de origen desconocido",
+      "Profilaxis perioperatoria en cirugías de alto riesgo (ej. colorectal)",
+      "Infecciones osteoarticulares (osteomielitis, artritis séptica) por bacterias multirresistentes",
+      "Exacerbaciones infecciosas graves en fibrosis quística",
+      "Tratamiento de infecciones por Pseudomonas aeruginosa resistente a otros betalactámicos"
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis estándar es 4.5 g (4 g de piperacilina + 0.5 g de tazobactam) administrados por vía intravenosa cada 6 u 8 horas. Para infecciones graves como neumonía nosocomial o neutropenia febril, la dosis puede ser de 4.5 g cada 6 horas. La infusión IV debe durar 30 minutos (recomendado) o hasta 3-4 horas en infusión prolongada para optimizar la farmacodinamia.",
+    "pediatric": "Para niños mayores de 2 meses y hasta 12 años: 100 mg de piperacilina/12.5 mg de tazobactam por kg de peso corporal, administrados cada 8 horas. Para infecciones graves (ej. Pseudomonas), puede usarse cada 6 horas. Para adolescentes ≥12 años y ≥40 kg, se usa la dosis de adulto.",
+    "elderly": "No se requiere ajuste inicial basado solo en la edad. Sin embargo, es común que los adultos mayores tengan disminución de la función renal, por lo que la dosis DEBE ajustarse según el aclaramiento de creatinina (CrCl).",
+    "renalImpairment": "Ajustes CRUCIALES basados en aclaramiento de creatinina (CrCl): CrCl >40 mL/min: Dosis estándar. CrCl 20-40 mL/min: 4.5 g cada 8 horas. CrCl <20 mL/min: 4.5 g cada 12 horas. Para pacientes en hemodiálisis: La dosis es 4.5 g cada 12 horas, administrando una dosis adicional de 1.125 g después de cada sesión de diálisis (ya que se elimina por diálisis). En diálisis peritoneal continua (DPCA) o hemofiltración, los ajustes varían; consultar guías específicas.",
+    "hepaticImpairment": "No se requiere ajuste de dosis específico para insuficiencia hepática, ya que la eliminación es principalmente renal. Sin embargo, se debe vigilar estrechamente por posible alteración de la coagulación (riesgo de sangrado) y encefalopatía, ya que las penicilinas en dosis altas pueden afectar estos sistemas.",
+    "maxDose": "La dosis máxima diaria generalmente no excede los 18 g de piperacilina / 2.25 g de tazobactam (equivalente a 4 dosis de 4.5 g cada 6 horas). En situaciones excepcionales de infecciones por Pseudomonas muy resistentes, bajo monitoreo estricto, se han usado dosis más altas, pero aumenta el riesgo de toxicidad neurológica (convulsiones)."
+  },
+  "dosageForms": [
+    {
+      "form": "Polvo liofilizado para solución inyectable",
+      "strengths": [
+        "2.25 g (2g/0.25g)",
+        "4.5 g (4g/0.5g)"
+      ],
+      "route": "Intravenosa (Infusión), Intramuscular (Profunda)"
+    },
+    {
+      "form": "Polvo liofilizado para solución para infusión (bolsa lista para usar)",
+      "strengths": [
+        "2.25 g",
+        "4.5 g"
+      ],
+      "route": "Intravenosa (Infusión)"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Historia de reacción alérgica grave (anafilaxia) a cualquier penicilina (amoxicilina, ampicilina, etc.)",
+      "Historia de reacción alérgica grave a cualquier otro antibiótico betalactámico (cefalosporinas, carbapenems, monobactams) si hay reactividad cruzada confirmada."
+    ],
+    "relative": [
+      "Historia de diarrea asociada a Clostridioides difficile (C. diff)",
+      "Insuficiencia renal severa no corregida (requiere ajuste de dosis, no contraindicación absoluta)",
+      "Trastornos de la coagulación o uso concomitante de anticoagulantes (aumenta riesgo de sangrado)",
+      "Epilepsia no controlada o antecedentes de convulsiones (riesgo de neurotoxicidad)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Diarrea (puede ser por alteración de flora o por C. difficile)",
+      "Náuseas",
+      "Dolor de cabeza",
+      "Alteraciones en pruebas de función hepática (elevación de transaminasas)"
+    ],
+    "common": [
+      "Vómitos",
+      "Erupción cutánea (rash), prurito (comezón)",
+      "Flebitis (inflamación de la vena) en el sitio de la infusión",
+      "Candidiasis (infección por hongos) oral o vaginal",
+      "Hipo o hiperkalemia (alteración del potasio en sangre)"
+    ],
+    "uncommon": [
+      "Fiebre por el medicamento",
+      "Leucopenia o trombocitopenia (disminución de glóbulos blancos o plaquetas)",
+      "Nefritis intersticial (daño renal agudo)",
+      "Colitis pseudomembranosa por C. difficile (diarrea severa)",
+      "Vértigo",
+      "Hemorragia o equimosis (moretones) por alteración de la función plaquetaria"
+    ],
+    "rare": [
+      "Reacción anafiláctica severa",
+      "Síndrome de Stevens-Johnson o necrólisis epidérmica tóxica",
+      "Hepatitis colestásica",
+      "Convulsiones (especialmente con dosis altas en insuficiencia renal)",
+      "Anemia hemolítica",
+      "Prolongación del tiempo de sangrado (por disfunción plaquetaria)"
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Metotrexato",
+        "effect": "La piperacilina puede disminuir la eliminación renal del metotrexato, aumentando drásticamente sus niveles en sangre y su toxicidad (mielosupresión, mucositis).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Anticoagulantes (Warfarina, Acenocumarol)",
+        "effect": "Puede potenciar el efecto anticoagulante y aumentar el riesgo de sangrado, por alteración de la función plaquetaria y posible interacción farmacocinética. Se debe monitorear el INR estrechamente.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Aminoglucósidos (Gentamicina, Amikacina)",
+        "effect": "Físicamente incompatible si se mezclan en la misma solución (se inactivan). Además, la piperacilina puede inactivar a los aminoglucósidos in vitro. Se deben administrar por vías separadas y en horarios diferentes.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Vecuronio, Rocuronio (relajantes musculares)",
+        "effect": "Puede prolongar el bloqueo neuromuscular, aumentando la duración de la parálisis y el tiempo de recuperación post-anestésica.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "No aplica, ya que se administra por vía intravenosa u intramuscular. El paciente puede comer con normalidad, aunque si tiene náuseas, se recomiendan comidas ligeras. El alcohol debe evitarse durante el tratamiento, ya que puede empeorar las náuseas y el malestar gastrointestinal, y no es compatible con un estado de enfermedad grave.",
+    "withSupplements": "Suplementos que contienen probióticos (Lactobacillus, Saccharomyces boulardii) pueden ser útiles para prevenir la diarrea asociada a antibióticos, pero deben tomarse con al menos 2-3 horas de diferencia de la dosis del antibiótico. Los suplementos de ajo o Ginkgo biloba pueden aumentar el riesgo de sangrado cuando se combinan con piperacilina/tazobactam. Consultar siempre con el médico."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "B",
+      "recommendation": "Estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. Se debe usar durante el embarazo solo si claramente es necesario, evaluando el beneficio vs. riesgo. Atraviesa la placenta. Su uso en el tercer trimestre puede alterar la flora intestinal del recién nacido y, teóricamente, aumentar el riesgo de enterocolitis necrotizante.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La piperacilina y el tazobactam se excretan en la leche materna en bajas concentraciones. Se considera generalmente compatible con la lactancia, ya que es poco probable que cause efectos adversos significativos en el lactante, excepto posible diarrea o candidiasis por alteración de la flora intestinal. Se debe observar al bebé por posibles erupciones cutáneas o alteraciones gastrointestinales.",
+    "pediatric": "Aprobado para uso en niños mayores de 2 meses. La seguridad y eficacia en menores de 2 meses no está establecida. La dosis se calcula cuidadosamente por peso corporal. En neonatos y lactantes pequeños, la función renal es inmadura, por lo que el ajuste de dosis y el intervalo deben ser supervisados por un pediatra o farmacéutico especializado.",
+    "geriatric": "Los pacientes de edad avanzada tienen mayor probabilidad de tener función renal disminuida, lo que requiere ajustes obligatorios de dosis según el aclaramiento de creatinina. Son más susceptibles a los efectos adversos relacionados con la dosis, como convulsiones (por acumulación) y alteraciones electrolíticas (hipernatremia, hipokalemia). También tienen mayor riesgo de diarrea por C. difficile. Se requiere vigilancia estrecha de función renal, electrolitos y signos de toxicidad."
+  },
+  "administration": {
+    "howToTake": "Este medicamento se administra casi siempre en un hospital o clínica por un profesional de la salud. Se reconstituye el polvo con un diluyente estéril (agua para inyección, cloruro de sodio 0.9%) y luego se diluye en un volumen mayor (ej. 50-150 mL) de solución para infusión (suero salino o dextrosa). La infusión intravenosa se administra lentamente durante 30 minutos (estándar) o en infusión prolongada (ej. 3-4 horas) para optimizar su efectividad contra bacterias resistentes. La vía intramuscular es poco frecuente, dolorosa y solo para formulaciones específicas. NUNCA se inyecta en forma de bolo rápido.",
+    "storage": "El polvo liofilizado sin reconstituir debe almacenarse a temperatura ambiente (hasta 25°C), protegido de la luz y la humedad. Una vez reconstituido y diluido, la solución es estable a temperatura ambiente por un tiempo limitado (generalmente 24 horas) o hasta 7 días si se refrigera (2-8°C), dependiendo del diluyente. Consultar la información del fabricante específica. Las soluciones listas para usar en bolsa tienen sus propias instrucciones de almacenamiento.",
+    "specialInstructions": "Informar inmediatamente al personal de salud si se presenta dolor, enrojecimiento o hinchazón en el sitio de la inyección. Es fundamental completar TODO el tratamiento prescrito, incluso si el paciente se siente mejor a los pocos días, para evitar que la infección regrese y que las bacterias desarrollen resistencia. Si aparece diarrea acuosa o con sangre, fiebre o dolor abdominal durante o después del tratamiento, informar de inmediato, ya que puede ser colitis por C. difficile."
+  },
+  "monitoring": {
+    "labTests": [
+      "Conteo sanguíneo completo (CSC) con plaquetas (para detectar anemia, leucopenia, trombocitopenia)",
+      "Pruebas de función renal (creatinina sérica, BUN) y cálculo de CrCl (al inicio y periódicamente)",
+      "Pruebas de función hepática (ALT, AST, fosfatasa alcalina, bilirrubina)",
+      "Electrolitos séricos (sodio, potasio)",
+      "Cultivos y pruebas de sensibilidad bacteriana (antibiograma) del sitio de la infección",
+      "Tiempo de protrombina (TP)/INR si está con anticoagulantes"
+    ],
+    "frequency": "Evaluación clínica diaria (signos vitales, síntomas). Monitoreo de laboratorio: al inicio del tratamiento, luego cada 2-3 días durante terapia prolongada (>5-7 días), o según la condición clínica del paciente.",
+    "signsToWatch": [
+      "Fiebre persistente o que reaparece",
+      "Erupción cutánea nueva o severa, ampollas",
+      "Diarrea acuosa o con sangre, dolor abdominal fuerte",
+      "Sangrado inusual (encías, nariz, moretones)",
+      "Convulsiones, confusión, somnolencia extrema",
+      "Dificultad para respirar, hinchazón de cara/lengua (signos de alergia)",
+      "Disminución en la cantidad de orina"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Convulsiones (el síntoma neurológico más grave)",
+      "Alteraciones neuromusculares (hiperreflexia, mioclonías)",
+      "Náuseas, vómitos, diarrea profusa",
+      "Alteraciones electrolíticas (hipernatremia, hipokalemia)",
+      "Manifestaciones de sangrado por disfunción plaquetaria"
+    ],
+    "treatment": "El tratamiento es de soporte y sintomático. No hay antídoto específico. En caso de convulsiones, se pueden usar benzodiacepinas (diazepam). La hemodiálisis es efectiva para eliminar tanto la piperacilina como el tazobactam del torrente sanguíneo (elimina aproximadamente 30-40% de la dosis en 4 horas) y está indicada en casos de sobredosis grave, especialmente si hay insuficiencia renal subyacente. Se debe corregir los desequilibrios electrolíticos.",
+    "antidote": "No existe antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (receta archivada en muchos hospitales por ser antibiótico de reserva).",
+    "scheduleMexico": "No está listado en una fracción de control especial (como los psicotrópicos), pero su venta está estrictamente regulada y suele manejarse como medicamento de uso hospitalario.",
+    "fdaApprovalYear": "1993 en Estados Unidos."
+  },
+  "brandsMexico": [
+    "Tazocin",
+    "Piptaz",
+    "P/Taz",
+    "Piptazo",
+    "Zosyn",
+    "Piperaz",
+    "Tazobac",
+    "Piperacilina/Tazobactam Genérico (varios laboratorios nacionales)"
+  ],
+  "clinicalPearls": [
+    "La infusión prolongada (ej. 4.5 g en 250 mL durante 4 horas cada 8h) mejora la farmacodinamia contra bacterias Gram-negativas con CIM elevada, optimizando el tiempo por encima de la CIM (fT>MIC).",
+    "Es una causa frecuente de hipokalemia, ya que la piperacilina actúa como un diurético ahorrador de potasio no competitivo en el túbulo renal; monitorear potasio sérico.",
+    "Puede causar falsos positivos en pruebas de glucosa en orina con el método de reducción de cobre (Clinitest); usar métodos con glucosa oxidasa (tiras reactivas) para un resultado confiable.",
+    "La resistencia a piperacilina/tazobactam en Pseudomonas aeruginosa y Enterobacterales productores de betalactamasas de espectro extendido (BLEE) es un problema creciente en México; siempre guiar el tratamiento con antibiograma."
+  ],
+  "patientCounseling": "Este es un antibiótico fuerte que se usa para infecciones graves y se administra directamente en la vena. Es normal que sienta un sabor metálico o amargo durante la infusión. Es muy importante que nos informe de inmediato si presenta salpullido, dificultad para respirar, o hinchazón de cara o lengua. También debe avisar si tiene diarrea, especialmente si es líquida, abundante o con sangre, ya que puede ser una infección secundaria grave. Completa todo el tratamiento aunque te sientas mejor, para asegurar que la infección desaparezca por completo y evitar que las bacterias se hagan resistentes. Puedes comer con normalidad, pero evita el alcohol. Si está tomando anticoagulantes (como warfarina) o metotrexato, asegúrese de que su médico lo sepa. Después del tratamiento, si presenta nuevamente fiebre o síntomas, contacte a su médico.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre",
+        "slug": "fiebre"
+      },
+      {
+        "name": "Dolor abdominal severo",
+        "slug": "dolor-abdominal"
+      },
+      {
+        "name": "Escalofríos",
+        "slug": "escalofrios"
+      },
+      {
+        "name": "Tos con flemas purulentas",
+        "slug": "tos-con-flemas"
+      },
+      {
+        "name": "Dolor o ardor al orinar",
+        "slug": "disuria"
+      },
+      {
+        "name": "Enrojecimiento e hinchazón de la piel",
+        "slug": "celulitis"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Neumonía intrahospitalaria",
+        "slug": "neumonia-nosocomial"
+      },
+      {
+        "name": "Peritonitis",
+        "slug": "peritonitis"
+      },
+      {
+        "name": "Pielonefritis aguda",
+        "slug": "pielonefritis"
+      },
+      {
+        "name": "Sepsis",
+        "slug": "sepsis"
+      },
+      {
+        "name": "Infección de pie diabético",
+        "slug": "pie-diabetico-infectado"
+      },
+      {
+        "name": "Absceso intraabdominal",
+        "slug": "absceso-abdominal"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Colitis por Clostridioides difficile",
+        "slug": "colitis-pseudomembranosa"
+      },
+      {
+        "name": "Insuficiencia renal aguda",
+        "slug": "insuficiencia-renal-aguda"
+      },
+      {
+        "name": "Hepatitis medicamentosa",
+        "slug": "hepatitis-toxica"
+      },
+      {
+        "name": "Convulsiones",
+        "slug": "convulsiones"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina",
+        "effect": "Puede elevar (nefrotoxicidad)"
+      },
+      {
+        "name": "Transaminasas (ALT, AST)",
+        "slug": "transaminasas",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Potasio sérico (K+)",
+        "slug": "potasio",
+        "effect": "Puede disminuir (hipokalemia)"
+      },
+      {
+        "name": "Conteo de plaquetas",
+        "slug": "plaquetas",
+        "effect": "Puede disminuir (trombocitopenia)"
+      },
+      {
+        "name": "Tiempo de Protrombina (INR)",
+        "slug": "inr",
+        "effect": "Puede elevar (aumenta riesgo de sangrado)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Cultivo y Antibiograma",
+        "slug": "antibiograma",
+        "reason": "Para identificar la bacteria causante y confirmar su sensibilidad a piperacilina/tazobactam."
+      },
+      {
+        "name": "Aclaramiento de Creatinina",
+        "slug": "aclaramiento-creatinina",
+        "reason": "Esencial para ajustar la dosis y evitar toxicidad por acumulación."
+      },
+      {
+        "name": "Conteo Sanguíneo Completo",
+        "slug": "conteo-sanguineo-completo",
+        "reason": "Para monitorear efectos adversos hematológicos como leucopenia y trombocitopenia."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Calculadora de Aclaramiento de Creatinina (Cockcroft-Gault)",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de Dosis Pediátrica por Peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Para qué tipo de infecciones me recetaron este antibiótico?",
+      "a": "Se usa para infecciones graves como neumonía complicada, infecciones del abdomen (apendicitis, peritonitis), infecciones de la piel profundas, infecciones urinarias complicadas y en pacientes con defensas bajas y fiebre. Es un antibiótico de amplio espectro para cuando se sospechan bacterias resistentes."
+    },
+    {
+      "q": "¿Por qué me lo ponen en la vena y no en pastillas?",
+      "a": "Porque es un medicamento muy potente que no se absorbe por el estómago. Administrarlo directamente en la vena (intravenoso) asegura que llegue rápidamente y en la concentración adecuada a todo el cuerpo para combatir la infección grave."
+    },
+    {
+      "q": "¿Cuánto tiempo dura el tratamiento normalmente?",
+      "a": "La duración depende de la infección. Puede ser desde 5 a 7 días para algunas infecciones, hasta 10-14 días o más para infecciones muy graves como osteomielitis o endocarditis. Su médico determinará el tiempo basándose en su respuesta."
+    },
+    {
+      "q": "¿Duele cuando me lo inyectan?",
+      "a": "La infusión en la vena no debería doler. Si siente dolor, ardor, enrojecimiento o hinchazón en el sitio de la inyección, informe de inmediato a la enfermera, ya que puede ser irritación de la vena (flebitis)."
+    },
+    {
+      "q": "¿Puedo beber alcohol mientras me están dando este tratamiento?",
+      "a": "No se recomienda. El alcohol puede debilitar su sistema inmunológico, interferir con la recuperación y aumentar las náuseas o el malestar estomacal. Es mejor evitarlo hasta que termine el tratamiento y se recupere por completo."
+    },
+    {
+      "q": "¿Qué hago si me da diarrea durante el tratamiento?",
+      "a": "Informe de inmediato a su médico o enfermera. La diarrea es un efecto común, pero si es muy líquida, abundante, con sangre o se acompaña de fiebre y dolor abdominal, puede ser una infección grave por una bacteria llamada C. difficile, que requiere tratamiento específico."
+    },
+    {
+      "q": "¿Este antibiótico le hará daño a mis riñones?",
+      "a": "Puede afectar la función renal, especialmente si ya tiene problemas o si la dosis no se ajusta. Por eso le toman muestras de sangre para medir la creatinina. Con el monitoreo y ajuste adecuado de la dosis, el riesgo se minimiza."
+    },
+    {
+      "q": "¿Puedo tomar probióticos (yogur, pastillas) para evitar la diarrea?",
+      "a": "Sí, puede ayudar a mantener la flora intestinal. Consuma yogur con cultivos activos o probióticos en cápsulas, pero tómelos con al menos 2-3 horas de diferencia de la dosis del antibiótico para que no los destruya."
+    },
+    {
+      "q": "¿Me puede dar alergia este medicamento?",
+      "a": "Sí, como cualquier penicilina. Si es alérgico a la penicilina o amoxicilina (le salió roncha, se hinchó, tuvo dificultad para respirar), NO debe recibirlo. Informe siempre a todo el personal de salud sobre sus alergias."
+    },
+    {
+      "q": "¿Por qué a veces me dan una bolsa que dura 30 minutos y otras una que dura 4 horas?",
+      "a": "Depende de la estrategia del médico. La infusión prolongada (3-4 horas) puede ser más efectiva contra bacterias difíciles de tratar, ya que mantiene el antibiótico en la sangre por más tiempo por encima del nivel necesario para matar la bacteria."
+    },
+    {
+      "q": "Si me siento mejor en 2 días, ¿pueden suspender el antibiótico?",
+      "a": "NO. Es crucial completar TODO el tratamiento prescrito. Sentirse mejor significa que el antibiótico está funcionando, pero las bacterias pueden no estar completamente eliminadas. Suspenderlo antes de tiempo puede hacer que la infección regrese, más fuerte y resistente."
+    },
+    {
+      "q": "¿Este medicamento afecta los métodos anticonceptivos?",
+      "a": "No hay evidencia de que la piperacilina/tazobactam reduzca la efectividad de los anticonceptivos hormonales (pastillas, parches, anillo). Sin embargo, si presenta vómitos o diarrea severa, la absorción de las pastillas puede verse afectada; use un método de respaldo (condón) en ese caso."
+    },
+    {
+      "q": "¿Qué significa la combinación piperacilina + tazobactam?",
+      "a": "Piperacilina es el antibiótico que mata la bacteria. Tazobactam es un 'protector' que bloquea las defensas (enzimas) que algunas bacterias usan para destruir a la piperacilina. Juntos son más potentes y cubren más tipos de bacterias."
+    },
+    {
+      "q": "¿Por qué me revisan tan seguido la presión y me toman sangre?",
+      "a": "Para monitorear su respuesta al tratamiento (si baja la fiebre) y detectar efectos adversos a tiempo. Los análisis de sangre revisan la función renal, el hígado, las células de la sangre y los electrolitos, que pueden alterarse con este medicamento."
+    },
+    {
+      "q": "¿Puedo recibir este antibiótico si estoy embarazada o amamantando?",
+      "a": "En embarazo, solo si es estrictamente necesario y bajo supervisión médica. En lactancia, generalmente es seguro, pero se excreta en poca cantidad en la leche. Consulte siempre a su médico para evaluar riesgos y beneficios en su situación específica."
+    },
+    {
+      "q": "¿Qué pasa si olvidan ponerme una dosis a la hora exacta?",
+      "a": "En el hospital, el personal sigue un horario estricto. Si hay un retraso significativo, se administra lo antes posible y se ajusta el horario de las siguientes dosis para mantener el intervalo correcto. No se debe duplicar la dosis."
+    },
+    {
+      "q": "¿Este antibiótico sirve para la gripe o el COVID-19?",
+      "a": "NO. Este antibiótico solo mata bacterias. La gripe y el COVID-19 son causados por virus, contra los cuales los antibióticos son completamente inútiles. Su uso incorrecto para virus contribuye a la resistencia bacteriana."
+    },
+    {
+      "q": "¿Por qué a veces lo cambian por otro antibiótico después de unos días?",
+      "a": "Porque ya tienen los resultados del cultivo (antibiograma), que identifica exactamente la bacteria y muestra a qué antibióticos es sensible. Entonces pueden cambiar a un antibiótico más específico, menos amplio, para reducir efectos secundarios y prevenir resistencia."
+    },
+    {
+      "q": "¿Qué es la resistencia bacteriana y por qué es importante con este medicamento?",
+      "a": "Es cuando las bacterias aprenden a defenderse del antibiótico y este deja de funcionar. Piperacilina/tazobactam es un recurso valioso para infecciones graves. Usarlo cuando no es necesario, o no completar el tratamiento, promueve que las bacterias se hagan resistentes, dejándonos sin opciones para infecciones futuras."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre este medicamento y un carbapenémico como el meropenem?",
+      "a": "Ambos son betalactámicos de amplio espectro para infecciones graves. Los carbapenémicos (meropenem, imipenem) suelen ser más potentes y cubren bacterias más resistentes, pero también son considerados de 'último recurso'. Piperacilina/tazobactam se usa antes, para tratar de preservar a los carbapenémicos para cuando sean absolutamente necesarios, estrategia llamada 'escalonamiento'."
+    }
+  ]
+}

@@ -79,6 +79,9 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
     return {
         title: `${post.title} | Blog de Salud`,
         description: description,
+        alternates: {
+            canonical: `https://laboratorio.delbienestar.com.mx/blog/${slug}`,
+        },
         openGraph: {
             title: post.title,
             description: description,

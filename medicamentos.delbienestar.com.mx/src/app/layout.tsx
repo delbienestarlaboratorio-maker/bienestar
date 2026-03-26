@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Medicamentos | Laboratorio del Bienestar",
   description: "Buscador de Medicamentos, Sustancias Activas y Marcas en México.",
+  verification: {
+    google: "zgkG82dFyxIExD37zuxeopeuwH6QVaFtmZLJXKFKML8",
+  },
 };
 
 export default function RootLayout({

@@ -10,7 +10,10 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Guía Médica: Dolor de Cabeza (Cefalea)",
         description: "Todo lo que necesitas saber antes de ir de urgencias sobre dolor de cabeza (cefalea)."
-    }
+    },
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/sintomas/dolor-cabeza-cefalea',
+    },
 };
 
 export default function SymptomPage() {

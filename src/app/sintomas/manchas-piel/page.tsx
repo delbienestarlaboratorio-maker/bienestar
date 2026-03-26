@@ -10,7 +10,10 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Guía Médica: Manchas Extrañas en la Piel",
         description: "Todo lo que necesitas saber antes de ir de urgencias sobre manchas extrañas en la piel."
-    }
+    },
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/sintomas/manchas-piel',
+    },
 };
 
 export default function SymptomPage() {

@@ -1,0 +1,450 @@
+{
+  "name": "Helminthosporium Carbonum Toxin I",
+  "summary": "El Helminthosporium Carbonum Toxin I, conocido comúnmente como HCT-I, es un antibiótico de la familia de las penicilinas semisintéticas de amplio espectro. Se utiliza principalmente para tratar infecciones bacterianas causadas por microorganismos sensibles, como infecciones del tracto respiratorio (neumonía, bronquitis), infecciones de la piel y tejidos blandos, infecciones del tracto urinario y otitis media. Su importancia clínica radica en su eficacia contra una amplia gama de bacterias grampositivas y algunas gramnegativas, siendo una opción terapéutica de primera línea en muchos casos debido a su perfil de seguridad generalmente favorable y su costo-efectividad en el sistema de salud mexicano. Es fundamental completar el tratamiento prescrito para evitar recaídas y el desarrollo de resistencia bacteriana, un problema de salud pública creciente.",
+  "pharmacology": {
+    "mechanismOfAction": "El Helminthosporium Carbonum Toxin I actúa como un antibiótico betalactámico que inhibe la síntesis de la pared celular bacteriana. Su mecanismo principal consiste en unirse irreversiblemente a las proteínas fijadoras de penicilina (PBP, por sus siglas en inglés), que son enzimas transpeptidasas y carboxipeptidasas esenciales para la formación de los enlaces cruzados de peptidoglicano en la pared celular bacteriana. Al inhibir estas enzimas, el medicamento interrumpe la etapa final de la síntesis del peptidoglicano, lo que debilita gravemente la pared celular. Esto conduce a la lisis osmótica y muerte de la bacteria, especialmente durante su fase de crecimiento y multiplicación activa. Su estructura química le confiere resistencia a muchas betalactamasas, ampliando su espectro de acción.",
+    "pharmacologicClass": "Antibiótico betalactámico, Penicilina semisintética resistente a penicilinasas, Derivado de la 6-aminopenicilánico ácido.",
+    "therapeuticClass": "Antibiótico sistémico de amplio espectro.",
+    "absorption": "Se absorbe bien por vía oral, con una biodisponibilidad aproximada del 75-90% en condiciones de ayuno. La presencia de alimentos puede retrasar ligeramente su absorción pero no reduce significativamente la cantidad total absorbida. Alcanza concentraciones plasmáticas máximas (Cmax) en aproximadamente 1-2 horas después de la administración oral.",
+    "distribution": "Se distribuye ampliamente en la mayoría de los tejidos y fluidos corporales, incluyendo pulmón, hígado, riñón, músculo, hueso, bilis, líquido pleural, sinovial y peritoneal. Atraviesa moderadamente la barrera hematoencefálica solo cuando las meninges están inflamadas (ej. meningitis). Su unión a proteínas plasmáticas es moderada, aproximadamente del 20-30%. Su volumen de distribución (Vd) es de aproximadamente 0.3-0.4 L/kg, indicando una distribución principalmente en el compartimento plasmático y extracelular.",
+    "metabolism": "El Helminthosporium Carbonum Toxin I sufre un metabolismo hepático limitado. Una pequeña porción (menos del 10%) es metabolizada por hidrólisis del anillo betalactámico, formando metabolitos inactivos. No es un sustrato significativo de las enzimas del citocromo P450 (CYP), por lo que las interacciones farmacocinéticas mediadas por CYP son mínimas. La mayor parte del fármaco se excreta sin cambios.",
+    "elimination": "Se elimina principalmente por excreción renal, a través de filtración glomerular y secreción tubular activa. Aproximadamente el 60-80% de la dosis se excreta sin cambios en la orina en las primeras 6 horas. Su vida media de eliminación es de aproximadamente 1-1.5 horas en adultos con función renal normal. En pacientes con insuficiencia renal grave, la vida media puede prolongarse significativamente, requiriendo ajustes de dosis.",
+    "onsetOfAction": "El inicio de acción es relativamente rápido, con concentraciones antibacterianas efectivas alcanzadas en plasma y tejidos dentro de 1-2 horas posteriores a la administración oral. Los síntomas clínicos (como fiebre) pueden comenzar a mejorar en 24-48 horas.",
+    "durationOfAction": "El efecto antibacteriano es dependiente del tiempo, requiriendo que las concentraciones del fármaco se mantengan por encima de la concentración inhibitoria mínima (CIM) del patógeno durante un porcentaje significativo del intervalo de dosificación (aproximadamente 40-50%). Por ello, se administra usualmente cada 8 o 12 horas para mantener la eficacia."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones del tracto respiratorio inferior (neumonía adquirida en la comunidad, bronquitis aguda exacerbación)",
+      "Infecciones del tracto respiratorio superior (sinusitis aguda, faringoamigdalitis estreptocócica, otitis media aguda)",
+      "Infecciones de la piel y estructuras de la piel (celulitis, erisipela, impétigo, abscesos)",
+      "Infecciones del tracto urinario no complicadas (cistitis aguda, pielonefritis aguda no complicada)",
+      "Profilaxis de endocarditis infecciosa en procedimientos dentales en pacientes de alto riesgo (según guías)"
+    ],
+    "offLabel": [
+      "Tratamiento de la enfermedad de Lyme en etapas iniciales",
+      "Profilaxis de infecciones posteriores a mordeduras de animales (en combinación)",
+      "Tratamiento de infecciones por Clostridioides difficile leve a moderado (en formulaciones específicas)"
+    ]
+  },
+  "dosage": {
+    "adults": "Infecciones leves a moderadas: 500 mg cada 12 horas o 250 mg cada 8 horas por vía oral. Infecciones graves: 875 mg cada 12 horas o 500 mg cada 8 horas por vía oral. Dosis máxima habitual: 4 g al día en infecciones muy graves. La duración del tratamiento varía según la infección, típicamente de 5 a 14 días.",
+    "pediatric": "Niños ≥ 3 meses: Basado en el componente de amoxicilina. 20-45 mg/kg/día divididos en 2 o 3 dosis (cada 12 o 8 horas). Para otitis media, sinusitis e infecciones de vías respiratorias bajas: Dosis alta de 80-90 mg/kg/día divididos en 2 dosis (máximo 3 g/día). Para faringitis estreptocócica: 50 mg/kg/día en 2 dosis por 10 días (máximo 1 g/día).",
+    "elderly": "En adultos mayores con función renal normal, se utilizan las dosis estándar para adultos. Sin embargo, es común la disminución de la función renal asociada a la edad, por lo que se debe calcular la TFG y ajustar la dosis si es necesario (ver ajuste por insuficiencia renal).",
+    "renalImpairment": "TFG ≥ 30 mL/min: Dosis estándar. TFG 10-29 mL/min: 250-500 mg cada 12 horas (según severidad de la infección). TFG < 10 mL/min (incluyendo diálisis): 250-500 mg cada 24 horas. Administrar dosis después de la sesión de hemodiálisis.",
+    "hepaticImpairment": "No se requieren ajustes de dosis específicos en insuficiencia hepática leve a moderada. En insuficiencia hepática grave, monitorizar por posibles efectos adversos, aunque el ajuste no está bien definido.",
+    "maxDose": "La dosis máxima diaria en adultos es de 4 gramos. En niños, la dosis máxima se basa en peso, pero no debe exceder la dosis máxima para adultos."
+  },
+  "dosageForms": [
+    {
+      "form": "Tableta",
+      "strengths": [
+        "250 mg",
+        "500 mg",
+        "875 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Tableta masticable",
+      "strengths": [
+        "125 mg",
+        "250 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Suspensión oral",
+      "strengths": [
+        "125 mg/5 mL",
+        "250 mg/5 mL",
+        "400 mg/5 mL",
+        "600 mg/5 mL"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Cápsula",
+      "strengths": [
+        "250 mg",
+        "500 mg"
+      ],
+      "route": "Oral"
+    },
+    {
+      "form": "Polvo para solución inyectable",
+      "strengths": [
+        "500 mg",
+        "1 g",
+        "2 g"
+      ],
+      "route": "Intramuscular/Intravenosa"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad conocida (alergia) a cualquier penicilina o a cualquier otro antibiótico betalactámico (ej. cefalosporinas, carbapenémicos, monobactámicos).",
+      "Antecedente de reacción alérgica grave (anafilaxia, angioedema, síndrome de Stevens-Johnson) a HCT-I o penicilinas.",
+      "Infecciones por virus (gripe, resfriado común) donde no hay evidencia de infección bacteriana secundaria."
+    ],
+    "relative": [
+      "Mononucleosis infecciosa (aumenta riesgo de exantema maculopapular).",
+      "Insuficiencia renal grave (requiere ajuste de dosis, no contraindicación absoluta).",
+      "Colitis pseudomembranosa o antecedente de diarrea asociada a antibióticos.",
+      "Fenilcetonuria (algunas formulaciones contienen aspartamo)."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Diarrea (puede ser acuosa o con moco)",
+      "Náuseas",
+      "Candidiasis oral o vaginal (infección por hongos)"
+    ],
+    "common": [
+      "Vómito",
+      "Dolor abdominal",
+      "Erupción cutánea (exantema maculopapular no alérgico)",
+      "Cefalea (dolor de cabeza)",
+      "Alteración del gusto"
+    ],
+    "uncommon": [
+      "Urticaria (ronchas) - puede indicar alergia",
+      "Prurito (comezón)",
+      "Mareo",
+      "Elevación reversible de transaminasas hepáticas (AST/ALT)",
+      "Leucopenia (disminución de glóbulos blancos) reversible"
+    ],
+    "rare": [
+      "Anafilaxia (reacción alérgica grave)",
+      "Angioedema (hinchazón de labios, lengua, garganta)",
+      "Colitis pseudomembranosa (diarrea grave por C. difficile)",
+      "Nefritis intersticial (daño renal)",
+      "Síndrome de Stevens-Johnson / Necrólisis epidérmica tóxica (muy raro)",
+      "Anemia hemolítica",
+      "Convulsiones (en dosis muy altas o insuficiencia renal)"
+    ],
+    "blackBoxWarning": null
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Probenecid",
+        "effect": "El probenecid bloquea la secreción tubular renal del HCT-I, aumentando y prolongando sus niveles en sangre. Puede usarse terapéuticamente para este fin, pero requiere monitorización.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Metotrexato",
+        "effect": "El HCT-I puede disminuir la eliminación renal del metotrexato, aumentando su toxicidad (mielosupresión, mucositis).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Anticoagulantes orales (Warfarina)",
+        "effect": "Puede potenciar el efecto anticoagulante y aumentar el riesgo de sangrado, posiblemente por alteración de la flora intestinal que produce vitamina K.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Alopurinol",
+        "effect": "Aumenta la incidencia de erupciones cutáneas, especialmente en pacientes con hiperuricemia o insuficiencia renal.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "Puede tomarse con o sin alimentos. Tomarlo con alimentos puede ayudar a disminuir las molestias gastrointestinales (náuseas, diarrea). Sin embargo, para una absorción óptima y consistente, se recomienda tomarlo a la misma hora respecto a las comidas cada día. El consumo de alcohol debe evitarse, ya que puede aumentar el riesgo de efectos adversos gastrointestinales y sobrecargar el hígado.",
+    "withSupplements": "Los suplementos que contienen minerales como calcio, hierro, zinc o magnesio pueden unirse al medicamento en el intestino y reducir su absorción. Se recomienda separar la administración del HCT-I y estos suplementos o multivitamínicos por al menos 2-3 horas. Los probióticos pueden ayudar a prevenir la diarrea asociada a antibióticos."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "B",
+      "recommendation": "Estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. Se usa ampliamente durante el embarazo y se considera generalmente seguro para tratar infecciones bacterianas cuando son necesarias. Debe usarse solo si el beneficio justifica el riesgo potencial. Consultar siempre al médico.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "El HCT-I se excreta en pequeñas cantidades en la leche materna. Se considera compatible con la lactancia, ya que las cantidades transferidas son bajas y es poco probable que causen efectos adversos significativos en el lactante. Puede ocasionalmente causar diarrea o candidiasis (hongos) en el bebé. Se recomienda observar al bebé. Consultar al médico.",
+    "pediatric": "Seguro y efectivo en niños mayores de 3 meses. Las suspensiones orales y tabletas masticables son las formas preferidas. La dosis se calcula cuidadosamente por peso corporal. No usar en recién nacidos prematuros o menores de 3 meses debido a la inmadurez renal.",
+    "geriatric": "Los adultos mayores son más susceptibles a los efectos adversos, especialmente la diarrea y la colitis por C. difficile. La función renal suele estar disminuida, por lo que es MANDATORIO evaluar la TFG y ajustar la dosis para evitar toxicidad (convulsiones). Monitorizar signos de sobreinfección por hongos."
+  },
+  "administration": {
+    "howToTake": "Tomar exactamente como lo indique el médico, completando TODO el tratamiento aunque se sienta mejor. Las tabletas/tragar con un vaso lleno de agua (240 mL). Las tabletas masticables: masticar completamente antes de tragar. Suspensión oral: Agitar vigorosamente el frasco durante al menos 10-15 segundos antes de cada uso. Usar el dosificador (jeringa o cuchara) que viene con el medicamento para medir la dosis exacta. Puede tomarse con alimentos para reducir malestar estomacal. Si se olvida una dosis, tomarla tan pronto como se recuerde, pero si ya es casi la hora de la siguiente, omitir la dosis olvidada y continuar con el horario normal. NO duplicar la dosis.",
+    "storage": "Tabletas/Cápsulas: Almacenar a temperatura ambiente (15-30°C), en un lugar seco y fuera del alcance de los niños. Suspensión oral reconstituida: Conservar en refrigeración (2-8°C). No congelar. La suspensión generalmente es estable por 7-14 días una vez mezclada; ver la fecha de caducidad en la etiqueta. Desechar cualquier sobrante después de ese tiempo. Polvo para inyección: Seguir instrucciones específicas del fabricante para reconstitución y almacenamiento post-reconstitución.",
+    "specialInstructions": "Informar al médico o farmacéutico si tiene alergia a penicilinas o cefalosporinas. En caso de diarrea acuosa o con sangre, fiebre y dolor abdominal intenso durante o después del tratamiento, suspender el medicamento y contactar al médico inmediatamente (podría ser colitis por C. difficile). Si aparece erupción cutánea, urticaria, dificultad para respirar o hinchazón de cara/lengua, buscar atención médica URGENTE (posible reacción alérgica). Los anticonceptivos hormonales orales pueden ser menos efectivos; usar método anticonceptivo adicional (condón) durante el tratamiento y hasta 7 días después."
+  },
+  "monitoring": {
+    "labTests": [
+      "Cultivo y antibiograma del sitio de infección (antes o durante el inicio del tratamiento)",
+      "Función renal (creatinina sérica, TFG) especialmente en adultos mayores o tratamiento prolongado",
+      "Pruebas de función hepática (AST, ALT) en tratamientos largos",
+      "Conteo sanguíneo completo (CSC) en tratamientos prolongados para detectar leucopenia",
+      "Pruebas de coagulación (INR) si se usa con warfarina"
+    ],
+    "frequency": "Evaluación clínica a los 2-3 días de iniciado el tratamiento para ver respuesta. Monitoreo de laboratorio: al inicio y luego según duración del tratamiento y condición del paciente (ej. semanal en tratamientos largos). En insuficiencia renal, monitorizar creatinina y ajustar dosis según cambios.",
+    "signsToWatch": [
+      "Fiebre que no cede o reaparece después de 48-72 horas de tratamiento",
+      "Erupción cutánea nueva, urticaria, picazón",
+      "Dificultad para respirar, opresión en el pecho, hinchazón de cara/labios/lengua",
+      "Diarrea acuosa o con sangre, dolor abdominal severo",
+      "Llagas blancas en boca o vagina (candidiasis)",
+      "Sangrado o moretones inusuales",
+      "Convulsiones",
+      "Orina oscura o disminución en la cantidad de orina"
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Náuseas y vómitos severos",
+      "Diarrea profusa",
+      "Agitación, confusión",
+      "Convulsiones (especialmente en insuficiencia renal)",
+      "Cristaluria (cristales en orina) potencialmente llevando a daño renal"
+    ],
+    "treatment": "El tratamiento es principalmente de soporte y sintomático. Inducir el vómito o realizar lavado gástrico si la ingestión fue reciente. Mantener hidratación y equilibrio electrolítico. Las convulsiones pueden tratarse con benzodiacepinas (diazepam). La hemodiálisis es EFECTIVA para eliminar el HCT-I de la circulación y debe considerarse en casos graves, especialmente con insuficiencia renal o síntomas neurológicos.",
+    "antidote": "No existe un antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica (Rx).",
+    "scheduleMexico": "Medicamento de la Fracción IV del Cuadro Básico de la NOM-072-SSA1-2012. No es una sustancia controlada.",
+    "fdaApprovalYear": "Aprobación inicial por la FDA en la década de 1970 (varía según la formulación específica y sal)."
+  },
+  "brandsMexico": [
+    "Amoxil",
+    "Amoxiclav (combinación con ácido clavulánico)",
+    "Clavamox (combinación con ácido clavulánico)",
+    "Amoxicilina Genfar",
+    "Amoxicilina PiSA",
+    "Amoxicilina Rimsa",
+    "Amoxicilina Liomont",
+    "Amoxicilina Sophía",
+    "Novamox",
+    "Bactox",
+    "Moxilin",
+    "Lamoxy",
+    "Hiconcil",
+    "Amoxi",
+    "Amoxidal",
+    "Clavulin (combinación)",
+    "Augmentine (combinación)",
+    "Duomox",
+    "Amoxibiotic",
+    "Amoxiplus"
+  ],
+  "clinicalPearls": [
+    "La erupción maculopapular que aparece entre el 5º y 10º día de tratamiento en pacientes con mononucleosis infecciosa NO es una alergia a penicilina y no contraindica su uso futuro.",
+    "Para otitis media y sinusitis, se prefieren dosis altas (80-90 mg/kg/día en niños) debido a la creciente resistencia de Streptococcus pneumoniae.",
+    "La combinación con un inhibidor de betalactamasa (ácido clavulánico) amplía el espectro a bacterias productoras de betalactamasas, pero también aumenta el riesgo de diarrea.",
+    "En infecciones estreptocócicas (faringitis), se debe administrar por 10 días completos para erradicar la bacteria y prevenir fiebre reumática, incluso si los síntomas mejoran antes.",
+    "La suspensión reconstituida debe agitarse bien para garantizar una dosificación uniforme, ya que el polvo se sedimenta."
+  ],
+  "patientCounseling": "Es crucial que tome este antibiótico exactamente como se lo recetó su médico. No deje de tomarlo aunque se sienta mejor en unos días, porque la infección podría no estar completamente curada y volver, además de promover que las bacterias se hagan resistentes. Tome la dosis completa indicada. Si toma pastillas anticonceptivas, este medicamento puede reducir su efectividad; use un método de respaldo como condón durante el tratamiento y una semana después. Esté atento a señales de alergia como ronchas, dificultad para respirar o hinchazón de cara, y busque ayuda médica de inmediato si ocurren. La diarrea es común, pero si es muy líquida, con sangre o tiene calambres fuertes, avise a su médico. Para reducir malestar estomacal, tómelo con comida. Guarde la suspensión líquida en el refrigerador y bótela después del tiempo que le indique el farmacéutico.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre",
+        "slug": "fiebre"
+      },
+      {
+        "name": "Dolor de garganta",
+        "slug": "dolor-de-garganta"
+      },
+      {
+        "name": "Tos con flemas",
+        "slug": "tos-con-flemas"
+      },
+      {
+        "name": "Dolor al orinar",
+        "slug": "dolor-al-orinar"
+      },
+      {
+        "name": "Enrojecimiento e hinchazón de la piel",
+        "slug": "enrojecimiento-hinchazon-piel"
+      },
+      {
+        "name": "Secreción nasal espesa",
+        "slug": "secrecion-nasal-espesa"
+      },
+      {
+        "name": "Dolor de oído",
+        "slug": "dolor-de-oido"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Neumonía adquirida en la comunidad",
+        "slug": "neumonia-adquirida-comunidad"
+      },
+      {
+        "name": "Faringitis estreptocócica",
+        "slug": "faringitis-estreptococica"
+      },
+      {
+        "name": "Infección del tracto urinario (ITU)",
+        "slug": "infeccion-tracto-urinario"
+      },
+      {
+        "name": "Celulitis",
+        "slug": "celulitis"
+      },
+      {
+        "name": "Sinusitis aguda",
+        "slug": "sinusitis-aguda"
+      },
+      {
+        "name": "Otitis media aguda",
+        "slug": "otitis-media-aguda"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Colitis pseudomembranosa",
+        "slug": "colitis-pseudomembranosa"
+      },
+      {
+        "name": "Candidiasis oral/vaginal",
+        "slug": "candidiasis"
+      },
+      {
+        "name": "Resistencia bacteriana a antibióticos",
+        "slug": "resistencia-bacteriana-antibioticos"
+      },
+      {
+        "name": "Reacción alérgica medicamentosa",
+        "slug": "reaccion-alergica-medicamentosa"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevarse (raro, nefritis intersticial)"
+      },
+      {
+        "name": "Transaminasas (AST/ALT)",
+        "slug": "transaminasas-ast-alt",
+        "effect": "Puede elevarse reversiblemente"
+      },
+      {
+        "name": "Recuento de leucocitos",
+        "slug": "recuento-leucocitos",
+        "effect": "Puede disminuir (leucopenia reversible)"
+      },
+      {
+        "name": "Tiempo de protrombina (INR)",
+        "slug": "tiempo-protrombina-inr",
+        "effect": "Puede aumentar (potenciación warfarina)"
+      },
+      {
+        "name": "Cultivo bacteriano",
+        "slug": "cultivo-bacteriano",
+        "effect": "Eradicación del patógeno sensible"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Cultivo y antibiograma",
+        "slug": "cultivo-antibiograma",
+        "reason": "Identificar bacteria causal y sensibilidad al HCT-I"
+      },
+      {
+        "name": "Biometría hemática completa",
+        "slug": "biometria-hematica-completa",
+        "reason": "Monitorear leucocitos y detectar leucopenia"
+      },
+      {
+        "name": "Química sanguínea (función renal y hepática)",
+        "slug": "quimica-sanguinea",
+        "reason": "Evaluar creatinina, TFG y enzimas hepáticas"
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿Puedo tomar este medicamento si soy alérgico a la penicilina?",
+      "a": "NO. Si tiene una alergia conocida y confirmada a la penicilina (como urticaria, hinchazón o dificultad para respirar), NO debe tomar Helminthosporium Carbonum Toxin I (HCT-I), ya que es una penicilina y puede desencadenar una reacción alérgica grave. Informe siempre a su médico sobre sus alergias."
+    },
+    {
+      "q": "¿Con o sin alimentos?",
+      "a": "Puede tomarlo con o sin alimentos. Tomarlo con alimentos puede ayudar a reducir las molestias estomacales como náuseas. Lo importante es ser constante: tómelo siempre de la misma manera respecto a las comidas."
+    },
+    {
+      "q": "¿Qué hago si se me olvida una dosis?",
+      "a": "Tómela tan pronto como lo recuerde. Pero si ya es casi la hora de su siguiente dosis, omita la dosis olvidada y continúe con su horario normal. NUNCA tome una dosis doble para compensar la que olvidó."
+    },
+    {
+      "q": "¿Puedo tomar alcohol mientras estoy en tratamiento?",
+      "a": "No se recomienda. El alcohol puede aumentar el riesgo de malestar estomacal y, aunque no interfiere directamente con la acción del antibiótico, puede sobrecargar el hígado. Es mejor evitarlo hasta terminar el tratamiento."
+    },
+    {
+      "q": "¿Por qué me salieron manchas blancas en la boca o tengo comezón vaginal?",
+      "a": "Estos son signos de una infección por hongos (candidiasis), un efecto secundario común porque el antibiótico elimina bacterias buenas que controlan los hongos. Consulte a su médico o farmacéutico para que le indique un tratamiento antimicótico adecuado."
+    },
+    {
+      "q": "¿Cuánto tiempo debo tomar el medicamento?",
+      "a": "Debe tomar el medicamento durante TODO el tiempo que su médico le recetó, aunque se sienta mejor en unos días. Suspenderlo antes puede hacer que la infección regrese y que las bacterias se vuelvan resistentes."
+    },
+    {
+      "q": "¿Este medicamento anula el efecto de las pastillas anticonceptivas?",
+      "a": "Sí, puede reducir la efectividad de las pastillas anticonceptivas hormonales. Durante el tratamiento y hasta 7 días después de terminarlo, debe usar un método anticonceptivo adicional de barrera, como condón."
+    },
+    {
+      "q": "Mi hijo tiene fiebre y el médico le recetó esto, pero no quiere tomar la medicina. ¿Qué hago?",
+      "a": "Para los niños, use la presentación en suspensión con sabor. Asegúrese de agitar bien el frasco y medir la dosis exacta con el dosificador. Puede mezclar la dosis con una pequeña cantidad de jugo, leche o puré de manzana FRÍOS (no calientes) para enmascarar el sabor, asegurándose de que tome toda la mezcla."
+    },
+    {
+      "q": "¿Puedo guardar la suspensión líquida que sobró para otra vez?",
+      "a": "La suspensión reconstituida se guarda en el refrigerador y tiene una vida útil limitada (generalmente 7-14 días, ver la etiqueta). Pasado ese tiempo, debe desecharse. No guarde sobrantes para infecciones futuras."
+    },
+    {
+      "q": "¿Es normal tener diarrea con este medicamento?",
+      "a": "Sí, la diarrea leve es un efecto secundario muy común. Coma yogur con probióticos o tome suplementos de probióticos (separados del antibiótico por 2-3 horas) para ayudar. Pero si la diarrea es muy acuosa, abundante, con sangre o moco, o viene con fiebre y dolor abdominal, DEJE de tomarlo y consulte a su médico URGENTE, podría ser una colitis grave."
+    },
+    {
+      "q": "¿Sirve para la gripe o el resfriado?",
+      "a": "NO. Los antibióticos como el HCT-I solo combaten infecciones bacterianas. La gripe y el resfriado común son causados por virus. Tomar un antibiótico para un virus no sirve de nada, puede causar efectos secundarios y contribuir a la resistencia bacteriana."
+    },
+    {
+      "q": "¿Puedo tomar ibuprofeno o paracetamol junto con este antibiótico?",
+      "a": "Sí, generalmente es seguro tomar paracetamol o ibuprofeno para el dolor o la fiebre mientras está bajo tratamiento con HCT-I. Sin embargo, siempre es mejor consultar con su médico o farmacéutico, especialmente si tiene problemas renales o hepáticos."
+    },
+    {
+      "q": "¿Qué pasa si tomo una dosis mayor a la indicada por error?",
+      "a": "Si toma una dosis significativamente mayor, puede presentar malestar estomacal severo, vómito, diarrea y, en casos raros (especialmente con problemas renales), confusión o convulsiones. Contacte a su médico, a un centro de toxicología (07) o acuda a urgencias de inmediato."
+    },
+    {
+      "q": "¿Necesito hacer algún examen de sangre mientras tomo este medicamento?",
+      "a": "Para tratamientos cortos (5-10 días) en personas sanas, generalmente no. Pero si el tratamiento es prolongado (>2 semanas), si tiene problemas renales o hepáticos, o si toma otros medicamentos como warfarina, su médico podría solicitar análisis de sangre para monitorear su función renal, hepática o conteo de glóbulos blancos."
+    },
+    {
+      "q": "¿Por qué hay tantas marcas diferentes? ¿Todas son iguales?",
+      "a": "El principio activo (Helminthosporium Carbonum Toxin I) es el mismo en todas las marcas. Las diferentes marcas son versiones genéricas o comerciales del mismo medicamento, fabricadas por distintos laboratorios. Todas deben cumplir con los mismos estándares de calidad y eficacia establecidos por la COFEPRIS en México."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre el HCT-I solo y el que viene combinado con 'clavulánico' (ej. Amoxiclav)?",
+      "a": "El HCT-I solo es efectivo contra bacterias sensibles. El ácido clavulánico es un inhibidor de betalactamasas, enzimas que producen algunas bacterias para destruir la penicilina. La combinación (HCT-I + clavulánico) sirve para infecciones causadas por bacterias resistentes que producen esas enzimas, pero tiene mayor riesgo de causar diarrea."
+    },
+    {
+      "q": "Tengo insuficiencia renal, ¿puedo tomarlo?",
+      "a": "SÍ, pero la dosis DEBE ser ajustada por su médico según su función renal (Tasa de Filtración Glomerular - TFG). Tomar la dosis estándar con insuficiencia renal puede llevar a una acumulación del medicamento y causar efectos tóxicos, como convulsiones. Nunca se automedique."
+    },
+    {
+      "q": "¿Puedo usarlo durante el embarazo o la lactancia?",
+      "a": "Embarazo: Se considera de categoría B, generalmente seguro y se usa comúnmente cuando es necesario. Siempre bajo supervisión médica. Lactancia: Se excreta en leche materna en cantidades mínimas, se considera compatible. Observe al bebé por posible diarrea o candidiasis. Consulte a su médico."
+    },
+    {
+      "q": "¿Qué debo hacer si me aparece un sarpullido o ronchas en la piel?",
+      "a": "Suspenda el medicamento y contacte a su médico INMEDIATAMENTE. Un sarpullido puede ser una simple irritación o el inicio de una reacción alérgica. Si además tiene dificultad para respirar, hinchazón de cara/lengua o mareo, es una EMERGENCIA médica. Acuda a urgencias."
+    },
+    {
+      "q": "¿Por qué es importante completar el tratamiento aunque me sienta bien?",
+      "a": "Completar el tratamiento asegura que todas las bacterias causantes de la infección sean eliminadas. Si se suspende antes, las bacterias más débiles mueren, pero las más fuertes pueden sobrevivir, multiplicarse y causar una recaída. Además, estas bacterias supervivientes aprenden a resistir el antibiótico, creando 'superbacterias' difíciles de tratar en el futuro, un grave problema de salud pública."
+    }
+  ]
+}

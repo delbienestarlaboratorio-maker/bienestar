@@ -1,0 +1,410 @@
+{
+  "name": "Mezlocilina",
+  "summary": "La mezlocilina es un antibiótico potente del grupo de las penicilinas de amplio espectro, específicamente una ureidopenicilina. Sirve para tratar infecciones graves causadas por bacterias, especialmente aquellas que afectan el tracto urinario, el abdomen, la piel, los huesos, las articulaciones y la sangre (sepsis), y es muy útil contra infecciones hospitalarias. Su importancia clínica radica en que es activa contra una amplia gama de bacterias, incluyendo algunas que son resistentes a otras penicilinas, como ciertos tipos de Pseudomonas aeruginosa y bacterias anaerobias. Esto la convierte en una herramienta valiosa para los médicos cuando se enfrentan a infecciones complicadas, especialmente en pacientes hospitalizados o con defensas bajas. Sin embargo, debido a que se administra por inyección y a su espectro específico, su uso debe ser supervisado cuidadosamente por un profesional de la salud para asegurar su efectividad y minimizar el riesgo de desarrollar resistencia bacteriana.",
+  "pharmacology": {
+    "mechanismOfAction": "La mezlocilina actúa como un antibiótico bactericida, lo que significa que mata directamente a las bacterias. Su mecanismo se basa en interferir con la síntesis de la pared celular bacteriana, una estructura esencial que protege y da forma a la bacteria. La mezlocilina se une a unas proteínas específicas en la membrana bacteriana llamadas Proteínas Fijadoras de Penicilina (PBP). Esta unión bloquea la acción de enzimas cruciales (transpeptidasas y carboxipeptidasas) que son responsables de entrecruzar y fortalecer la malla de peptidoglicano que forma la pared celular. Al inhibir este proceso, la pared celular se debilita y no se puede formar correctamente. Como resultado, la bacteria no puede mantener su integridad estructural, especialmente cuando intenta crecer y dividirse, lo que lleva a su lisis (ruptura) y muerte. Es más activa contra bacterias que están en fase de crecimiento activo.",
+    "pharmacologicClass": "Antibiótico beta-lactámico; Penicilina semisintética; Ureidopenicilina; Antibiótico de amplio espectro.",
+    "therapeuticClass": "Antibiótico sistémico.",
+    "absorption": "La mezlocilina no se absorbe por vía oral, por lo que debe administrarse por vía parenteral (intramuscular o intravenosa). Cuando se inyecta por vía intramuscular, la absorción es buena y rápida, alcanzando concentraciones máximas en el plasma sanguíneo aproximadamente en 1 hora. La administración intravenosa directa o en infusión proporciona niveles plasmáticos inmediatos y más altos, lo que es crucial para infecciones graves.",
+    "distribution": "Se distribuye ampliamente en la mayoría de los tejidos y fluidos corporales, incluyendo riñones, hígado, pulmones, bilis, hueso, líquido peritoneal y pleural. Atraviesa la barrera placentaria y se excreta en la leche materna en pequeñas cantidades. Su unión a proteínas plasmáticas es moderada, aproximadamente del 16 al 42%. Su volumen de distribución (Vd) es de alrededor de 0.2 a 0.3 L/kg, indicando una distribución principalmente en el espacio plasmático y el líquido extracelular.",
+    "metabolism": "La mezlocilina sufre un metabolismo hepático limitado. No es un sustrato significativo del sistema enzimático del citocromo P450 (CYP). Una pequeña porción se metaboliza a un metabolito inactivo (peniciloato). La mayor parte del fármaco se elimina sin cambios.",
+    "elimination": "Se elimina principalmente por excreción renal, en su mayor parte sin cambios (aproximadamente el 70-80% de la dosis) a través de la filtración glomerular y secreción tubular activa. Una pequeña cantidad se excreta por la bilis. Su vida media de eliminación en adultos con función renal normal es de aproximadamente 0.8 a 1.2 horas. En pacientes con insuficiencia renal grave, esta vida media puede prolongarse significativamente (hasta 4-6 horas o más), requiriendo ajustes de dosis.",
+    "onsetOfAction": "Los niveles plasmáticos terapéuticos se alcanzan rápidamente: minutos después de una inyección intravenosa y alrededor de 1 hora después de una inyección intramuscular.",
+    "durationOfAction": "Debido a su corta vida media, la mezlocilina generalmente requiere administraciones frecuentes (cada 4, 6 u 8 horas) para mantener concentraciones efectivas en sangre y tejidos contra las bacterias."
+  },
+  "indications": {
+    "approved": [
+      "Infecciones del tracto urinario complicadas (incluyendo pielonefritis)",
+      "Infecciones intraabdominales (peritonitis, abscesos, colecistitis)",
+      "Infecciones de la piel y estructuras de la piel (celulitis, infecciones postquirúrgicas)",
+      "Infecciones del tracto respiratorio inferior (neumonía bacteriana, especialmente nosocomial)",
+      "Sepsis (infección del torrente sanguíneo)",
+      "Infecciones ginecológicas (endometritis, enfermedad inflamatoria pélvica)",
+      "Infecciones osteoarticulares (osteomielitis, artritis séptica)",
+      "Profilaxis de infecciones en cirugía gastrointestinal y biliar"
+    ],
+    "offLabel": [
+      "Tratamiento empírico de fiebre en pacientes neutropénicos (con recuento bajo de glóbulos blancos)",
+      "Infecciones por Pseudomonas aeruginosa en pacientes con fibrosis quística (a menudo en combinación con otros antibióticos)",
+      "Tratamiento de infecciones por enterococos sensibles"
+    ]
+  },
+  "dosage": {
+    "adults": "La dosis varía según la gravedad y localización de la infección. Para infecciones moderadas: 2-3 g por vía intravenosa o intramuscular cada 6 horas. Para infecciones graves o que amenazan la vida (como sepsis, neumonía nosocomial): 4-5 g por vía intravenosa cada 6-8 horas, o dosis de carga inicial. La dosis diaria total suele oscilar entre 6 y 24 g, dividida en 3-4 administraciones.",
+    "pediatric": "Para niños mayores de 1 mes y con peso corporal normal: 50-75 mg/kg por dosis, administrados cada 6-8 horas por vía intravenosa. Para infecciones graves, la dosis puede aumentarse hasta 100 mg/kg por dosis cada 6 horas. La dosis diaria máxima no debe exceder los 400-450 mg/kg/día.",
+    "elderly": "Los pacientes de edad avanzada pueden tener una función renal disminuida. Es esencial calcular la tasa de filtración glomerular (TFG) y ajustar la dosis según los parámetros de insuficiencia renal. No se requiere un ajuste basado únicamente en la edad si la función renal es normal.",
+    "renalImpairment": "Ajustes necesarios según la TFG (mL/min): TFG >30: Dosis normal. TFG 10-30: 1.5-2 g cada 8-12 horas. TFG <10: 1.5-2 g cada 12-24 horas. En pacientes en diálisis: Administrar una dosis de carga normal, seguida de 1.5-2 g después de cada sesión de diálisis, ya que el fármaco se elimina eficazmente por hemodiálisis.",
+    "hepaticImpairment": "No se requieren ajustes de dosis específicos para la insuficiencia hepática leve a moderada, ya que la eliminación es principalmente renal. En insuficiencia hepática grave, monitorizar signos de toxicidad, aunque el riesgo es bajo.",
+    "maxDose": "La dosis máxima diaria en adultos es generalmente de 24 gramos. En pediatría, la dosis máxima es de 400-450 mg/kg/día, sin exceder las dosis adultas."
+  },
+  "dosageForms": [
+    {
+      "form": "Polvo liofilizado para inyección (vial)",
+      "strengths": [
+        "1 g",
+        "2 g",
+        "3 g",
+        "4 g",
+        "5 g"
+      ],
+      "route": "Intramuscular, Intravenosa"
+    }
+  ],
+  "contraindications": {
+    "absolute": [
+      "Hipersensibilidad (alergia) conocida a la mezlocilina, a cualquier penicilina o a cualquier otro antibiótico beta-lactámico (como cefalosporinas, carbapenémicos).",
+      "Antecedentes de reacción alérgica grave (anafilaxia) a penicilinas."
+    ],
+    "relative": [
+      "Mononucleosis infecciosa (mayor riesgo de erupción cutánea).",
+      "Insuficiencia renal grave (requiere ajuste de dosis, no contraindica su uso).",
+      "Antecedentes de colitis (inflamación del intestino) asociada a antibióticos."
+    ]
+  },
+  "sideEffects": {
+    "veryCommon": [
+      "Diarrea (puede ser desde leve hasta colitis pseudomembranosa)",
+      "Náuseas",
+      "Dolor o irritación en el sitio de la inyección (flebitis con administración IV, dolor intramuscular)"
+    ],
+    "common": [
+      "Erupción cutánea (exantema maculopapular)",
+      "Vómitos",
+      "Dolor de cabeza",
+      "Mareo",
+      "Alteraciones en las pruebas de función hepática (elevación de transaminasas)"
+    ],
+    "uncommon": [
+      "Fiebre",
+      "Prurito (comezón)",
+      "Candidiasis (infección por hongos, como candidiasis oral o vaginal)",
+      "Trombocitopenia (disminución de plaquetas)",
+      "Leucopenia (disminución de glóbulos blancos)",
+      "Eosinofilia (aumento de un tipo de glóbulos blancos)"
+    ],
+    "rare": [
+      "Reacción anafiláctica (alergia grave)",
+      "Nefritis intersticial (daño renal)",
+      "Hepatitis colestásica (daño hepático)",
+      "Neurotoxicidad (convulsiones, especialmente con dosis altas en insuficiencia renal)",
+      "Hipopotasemia (bajos niveles de potasio en sangre)",
+      "Síndrome de Stevens-Johnson / Necrólisis epidérmica tóxica (reacciones cutáneas graves)"
+    ],
+    "blackBoxWarning": "null"
+  },
+  "interactions": {
+    "major": [
+      {
+        "drug": "Probenecid",
+        "effect": "El probenecid bloquea la secreción tubular renal de la mezlocilina, aumentando y prolongando sus niveles en sangre. Esto puede potenciar tanto el efecto terapéutico como el riesgo de toxicidad.",
+        "severity": "Moderada"
+      },
+      {
+        "drug": "Anticoagulantes orales (Warfarina)",
+        "effect": "La mezlocilina puede potenciar el efecto anticoagulante de la warfarina, aumentando el riesgo de sangrado. Se debe monitorizar estrechamente el INR.",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Metotrexato",
+        "effect": "La mezlocilina puede disminuir la eliminación renal del metotrexato, elevando sus niveles en sangre y aumentando el riesgo de toxicidad grave (mielosupresión, mucositis).",
+        "severity": "Grave"
+      },
+      {
+        "drug": "Aminoglucósidos (Gentamicina, Amikacina)",
+        "effect": "Físicamente incompatible si se mezclan en la misma jeringa o bolsa de infusión, ya que la mezlocilina puede inactivar al aminoglucósido. Deben administrarse por separado. Sin embargo, la combinación es sinérgica contra algunas bacterias como Pseudomonas.",
+        "severity": "Moderada"
+      }
+    ],
+    "withFood": "No aplica, ya que se administra por inyección. El alcohol no interactúa directamente con el fármaco, pero su consumo durante una infección grave no es recomendable, ya que puede debilitar el sistema inmune y enmascarar síntomas.",
+    "withSupplements": "No se conocen interacciones clínicamente significativas con suplementos vitamínicos o herbales. Sin embargo, suplementos que afecten la coagulación (como altas dosis de vitamina E, ajo, ginkgo biloba) podrían sumar su efecto al de la mezlocilina si esta está interactuando con anticoagulantes."
+  },
+  "specialPopulations": {
+    "pregnancy": {
+      "category": "B",
+      "recommendation": "Estudios en animales no han mostrado riesgo fetal, pero no hay estudios adecuados y bien controlados en mujeres embarazadas. Debe usarse durante el embarazo solo si claramente es necesario, evaluando el beneficio para la madre frente al riesgo potencial para el feto. Atraviesa la placenta.",
+      "crossesPlacenta": true
+    },
+    "breastfeeding": "La mezlocilina se excreta en la leche materna en bajas concentraciones. Se considera generalmente compatible con la lactancia, ya que es poco probable que cause efectos adversos significativos en el lactante. Sin embargo, puede existir riesgo de sensibilización, diarrea o candidiasis en el bebé. Se recomienda observar al lactante por posibles efectos.",
+    "pediatric": "Seguro y efectivo para niños mayores de 1 mes. La dosificación se basa estrictamente en el peso corporal. En neonatos (menores de 1 mes), la farmacocinética es diferente (vida media más prolongada) y debe usarse con precaución y bajo supervisión especializada.",
+    "geriatric": "Los pacientes mayores tienen mayor probabilidad de tener función renal disminuida. Es imperativo evaluar la función renal (TFG) antes de iniciar el tratamiento y ajustar la dosis en consecuencia para evitar acumulación y toxicidad (especialmente neurotoxicidad). También son más susceptibles a la colitis por C. difficile asociada a antibióticos."
+  },
+  "administration": {
+    "howToTake": "Este medicamento se administra SOLO por inyección, en un hospital o clínica por personal de salud capacitado. Para administración intramuscular (IM): El polvo se reconstituye con agua para inyección o anestésico local (como lidocaína) para reducir el dolor. Se inyecta profundamente en un músculo grande (glúteo, muslo). Para administración intravenosa (IV): Se reconstituye y luego se puede administrar como inyección lenta directa (bolo) durante 3-5 minutos, o más comúnmente, se diluye en un volumen adecuado de solución (como cloruro de sodio al 0.9% o dextrosa al 5%) para infusión continua durante 20-30 minutos. Siga estrictamente el horario indicado por su médico (ej. cada 6 horas).",
+    "storage": "Los viales de polvo sin reconstituir deben almacenarse a temperatura ambiente (15-30°C), protegidos de la luz y la humedad. Una vez reconstituido, la solución es estable a temperatura ambiente por 24-48 horas dependiendo del diluyente, y por más tiempo si se refrigera (consultar información del producto específica). Las soluciones para infusión deben usarse inmediatamente después de su preparación. No congelar.",
+    "specialInstructions": "Informe a su médico si es alérgico a penicilinas, cefalosporinas u otros medicamentos. Informe sobre todos los medicamentos que toma, incluyendo anticoagulantes. Es crucial completar TODO el tratamiento prescrito, incluso si se siente mejor, para evitar que la infección regrese y para prevenir el desarrollo de bacterias resistentes. La mezlocilina puede dar falsos positivos en pruebas de glucosa en orina con reactivos que usan el método de reducción del cobre (Clinitest); use tiras reactivas con glucosa oxidasa (como Glucostix)."
+  },
+  "monitoring": {
+    "labTests": [
+      "Recuento completo de sangre (CSC) con diferencial",
+      "Pruebas de función renal (creatinina sérica, nitrógeno ureico en sangre - BUN)",
+      "Pruebas de función hepática (transaminasas AST/ALT, fosfatasa alcalina, bilirrubina)",
+      "Cultivos bacterianos y pruebas de sensibilidad (antibiograma) del sitio de infección",
+      "Tiempo de protrombina (TP)/INR si está tomando anticoagulantes",
+      "Electrolitos séricos (especialmente potasio)"
+    ],
+    "frequency": "El monitoreo de la función renal y hepática debe realizarse al inicio del tratamiento y periódicamente durante terapias prolongadas (más de 7-10 días). El CSC se debe revisar semanalmente en tratamientos largos. Los signos clínicos se evalúan diariamente.",
+    "signsToWatch": [
+      "Signos de reacción alérgica: erupción cutánea, picazón, hinchazón de cara/lengua/garganta, dificultad para respirar.",
+      "Diarrea acuosa o con sangre, dolor abdominal severo o fiebre (posible colitis por C. difficile).",
+      "Sangrado o moretones inusuales (por posible afectación de plaquetas).",
+      "Convulsiones, confusión o espasmos musculares (signos de neurotoxicidad).",
+      "Dolor intenso, enrojecimiento o hinchazón en el sitio de la inyección intravenosa (flebitis)."
+    ]
+  },
+  "overdose": {
+    "symptoms": [
+      "Convulsiones (es el síntoma principal de neurotoxicidad por altas concentraciones)",
+      "Alteraciones neuromusculares (hiperreflexia, mioclonías)",
+      "Náuseas, vómitos, diarrea severa",
+      "Alteraciones electrolíticas (especialmente hipernatremia por la sal sódica del fármaco)"
+    ],
+    "treatment": "El tratamiento es principalmente de soporte. No hay un antídoto específico. En caso de convulsiones, se administran anticonvulsivantes (como benzodiacepinas). La hemodiálisis es MUY EFECTIVA para eliminar la mezlocilina de la sangre y debe considerarse en casos de sobredosis grave, especialmente en pacientes con insuficiencia renal subyacente. Se corrige el desequilibrio hidroelectrolítico.",
+    "antidote": "No existe un antídoto específico."
+  },
+  "regulatoryStatus": {
+    "otcOrRx": "Requiere receta médica especial (antibiótico de uso hospitalario principalmente).",
+    "scheduleMexico": "Medicamento de la Fracción IV (sujeto a receta médica retenible).",
+    "fdaApprovalYear": "Aprobado por la FDA en 1980."
+  },
+  "brandsMexico": [
+    "Mezlin",
+    "Baypen",
+    "Mezlocilina Sandoz",
+    "Mezlocilina Pisa",
+    "Mezlocilina Liomont"
+  ],
+  "clinicalPearls": [
+    "La mezlocilina es una excelente opción para el tratamiento empírico de infecciones intraabdominales polimicrobianas, ya que cubre gramnegativos (incluyendo algunas Pseudomonas), grampositivos y anaerobios.",
+    "Su actividad contra enterococos es una ventaja sobre otras penicilinas anti-pseudomonas como la piperacilina, aunque la piperacilina/tazobactam tiene un espectro más amplio actualmente.",
+    "La resistencia bacteriana a la mezlocilina ha ido en aumento, especialmente por la producción de betalactamasas de espectro extendido (BLEE). Siempre guiar el tratamiento con cultivos y antibiograma.",
+    "Para infecciones por Pseudomonas aeruginosa graves, la mezlocilina debe usarse en combinación con un aminoglucósido (ej. gentamicina) por su efecto sinérgico y para prevenir el desarrollo de resistencia.",
+    "En pacientes con insuficiencia renal, el ajuste de dosis es CRÍTICO para evitar la acumulación y el riesgo de convulsiones."
+  ],
+  "patientCounseling": "Este antibiótico se le administrará por inyección en el hospital o clínica. Es muy importante que informe de inmediato a la enfermera o médico si siente comezón, le sale roncha, le falta el aire o se le hincha la cara o garganta, ya que podría ser una alergia. Aunque se sienta mejor después de unos días, es fundamental recibir todas las dosis que el médico le recetó para matar completamente a las bacterias y evitar que la infección regrese más fuerte. Puede causar diarrea; si esta es muy líquida, con sangre o le da fiebre y dolor de estómago fuerte, avise de inmediato. Mantenga una buena hidratación bebiendo agua. Informe a su médico de todos los demás medicamentos que toma, especialmente si usa 'adelgazantes de la sangre' como la warfarina. No se automedique ni guarde el medicamento para después.",
+  "crossLinks": {
+    "symptomsTreated": [
+      {
+        "name": "Fiebre",
+        "slug": "fiebre"
+      },
+      {
+        "name": "Dolor al orinar",
+        "slug": "disuria"
+      },
+      {
+        "name": "Dolor abdominal",
+        "slug": "dolor-abdominal"
+      },
+      {
+        "name": "Escalofríos",
+        "slug": "escalofrios"
+      },
+      {
+        "name": "Tos con flemas",
+        "slug": "tos-productiva"
+      },
+      {
+        "name": "Enrojecimiento e hinchazón de la piel",
+        "slug": "eritema-edema-piel"
+      },
+      {
+        "name": "Dolor en huesos o articulaciones",
+        "slug": "dolor-oseo-artritis"
+      }
+    ],
+    "diseasesTreated": [
+      {
+        "name": "Pielonefritis",
+        "slug": "pielonefritis"
+      },
+      {
+        "name": "Peritonitis",
+        "slug": "peritonitis"
+      },
+      {
+        "name": "Neumonía adquirida en el hospital",
+        "slug": "neumonia-nosocomial"
+      },
+      {
+        "name": "Sepsis",
+        "slug": "sepsis"
+      },
+      {
+        "name": "Celulitis",
+        "slug": "celulitis"
+      },
+      {
+        "name": "Osteomielitis",
+        "slug": "osteomielitis"
+      }
+    ],
+    "diseasesRisk": [
+      {
+        "name": "Colitis pseudomembranosa",
+        "slug": "colitis-pseudomembranosa"
+      },
+      {
+        "name": "Insuficiencia renal aguda",
+        "slug": "insuficiencia-renal-aguda"
+      },
+      {
+        "name": "Hepatitis colestásica",
+        "slug": "hepatitis-colestasica"
+      },
+      {
+        "name": "Reacción anafiláctica",
+        "slug": "anafilaxia"
+      }
+    ],
+    "biomarkersAffected": [
+      {
+        "name": "Creatinina sérica",
+        "slug": "creatinina-serica",
+        "effect": "Puede elevar (por nefritis)"
+      },
+      {
+        "name": "Transaminasas (AST/ALT)",
+        "slug": "transaminasas",
+        "effect": "Puede elevar"
+      },
+      {
+        "name": "Recuento de plaquetas",
+        "slug": "plaquetas",
+        "effect": "Puede disminuir (trombocitopenia)"
+      },
+      {
+        "name": "Recuento de leucocitos",
+        "slug": "leucocitos",
+        "effect": "Puede disminuir (leucopenia)"
+      },
+      {
+        "name": "Potasio sérico",
+        "slug": "potasio-serico",
+        "effect": "Puede disminuir (hipopotasemia)"
+      },
+      {
+        "name": "INR",
+        "slug": "inr",
+        "effect": "Puede elevar (aumenta riesgo de sangrado)"
+      }
+    ],
+    "recommendedStudies": [
+      {
+        "name": "Urocultivo con antibiograma",
+        "slug": "urocultivo-antibiograma",
+        "reason": "Para identificar la bacteria causante de infección urinaria y su sensibilidad a la mezlocilina."
+      },
+      {
+        "name": "Hemocultivos",
+        "slug": "hemocultivos",
+        "reason": "Para detectar bacterias en la sangre (sepsis) y guiar el tratamiento antibiótico."
+      },
+      {
+        "name": "Cultivo de secreción de herida",
+        "slug": "cultivo-herida",
+        "reason": "Para identificar el germen en infecciones de piel y tejidos blandos."
+      },
+      {
+        "name": "Tomografía abdominal",
+        "slug": "tomografia-abdominal",
+        "reason": "Para diagnosticar y evaluar la extensión de infecciones intraabdominales como abscesos."
+      }
+    ],
+    "relatedCalculators": [
+      {
+        "name": "Aclaramiento de creatinina",
+        "slug": "aclaramiento-creatinina"
+      },
+      {
+        "name": "Calculadora de TFG (eGFR)",
+        "slug": "calculadora-egfr"
+      },
+      {
+        "name": "Dosis pediátrica por peso",
+        "slug": "dosis-pediatrica-peso"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "¿La mezlocilina es una inyección o una pastilla?",
+      "a": "La mezlocilina es SOLO un medicamento inyectable. Se administra en un músculo (intramuscular) o directamente en la vena (intravenosa) por un profesional de la salud en un hospital o clínica."
+    },
+    {
+      "q": "¿Para qué tipo de infecciones me la pueden recetar?",
+      "a": "Se usa para infecciones graves como infecciones de la orina complicadas, infecciones del abdomen (apendicitis, peritonitis), pulmonía grave, infecciones de la sangre, de la piel profunda o de los huesos."
+    },
+    {
+      "q": "¿Duele la inyección?",
+      "a": "La inyección intramuscular puede causar dolor y molestia en el sitio. A veces se mezcla con un anestésico local para reducirlo. La inyección intravenosa puede irritar la vena, causando dolor o flebitis (inflamación)."
+    },
+    {
+      "q": "¿Puedo tomarla si soy alérgico a la penicilina?",
+      "a": "NO. Si tiene alergia conocida a la penicilina (como amoxicilina, ampicilina) o a las cefalosporinas, NO debe recibir mezlocilina, ya que puede causar una reacción alérgica grave."
+    },
+    {
+      "q": "¿Qué hago si me da diarrea mientras me la están aplicando?",
+      "a": "Informe de inmediato a su médico o enfermera. La diarrea es un efecto común, pero si es muy líquida, abundante, con sangre o viene con fiebre y dolor abdominal fuerte, puede ser una infección intestinal grave (colitis) y necesita atención urgente."
+    },
+    {
+      "q": "¿Puedo beber alcohol mientras estoy en tratamiento con mezlocilina?",
+      "a": "No se recomienda. Aunque no hay una interacción química directa fuerte, el alcohol puede debilitar su sistema de defensas y hacer más lenta la recuperación. Además, si tiene fiebre o malestar, el alcohol puede empeorarlo."
+    },
+    {
+      "q": "¿Cuánto tiempo dura el tratamiento?",
+      "a": "La duración depende de la infección. Puede ser desde 5-7 días para una infección urinaria no complicada, hasta 4-6 semanas o más para una infección de huesos (osteomielitis). Su médico le dirá el tiempo exacto."
+    },
+    {
+      "q": "¿La mezlocilina afecta los métodos anticonceptivos?",
+      "a": "No hay evidencia de que la mezlocilina disminuya la efectividad de los anticonceptivos hormonales (pastillas, parches, anillos). Sin embargo, si la mezlocilina le causa vómito o diarrea severa, la absorción de la pastilla anticonceptiva oral podría verse afectada. Use un método de respaldo (como condón) en ese caso."
+    },
+    {
+      "q": "¿Puedo recibirla si estoy embarazada o amamantando?",
+      "a": "Solo si su médico lo considera estrictamente necesario. Pasa a la leche materna en pequeñas cantidades, por lo que generalmente es compatible, pero se debe observar al bebé. Consulte siempre a su médico."
+    },
+    {
+      "q": "¿Qué pasa si me salto una dosis?",
+      "a": "En un tratamiento hospitalario, el personal de salud se encarga del horario. Si es un tratamiento ambulatorio con inyecciones programadas, es muy importante no saltarse dosis. Si olvida una, aplíquesela tan pronto como lo recuerde, pero si ya es casi la hora de la siguiente, omita la que olvidó y continúe con su horario normal. NO duplique la dosis."
+    },
+    {
+      "q": "¿La mezlocilina baja las defensas?",
+      "a": "No, la mezlocilina no baja las defensas. Es un antibiótico que mata bacterias. Sin embargo, como cualquier antibiótico de amplio espectro, puede alterar la flora normal del cuerpo, lo que a veces permite que otros gérmenes (como hongos) crezcan, dando lugar a candidiasis."
+    },
+    {
+      "q": "¿Me puede dar sueño o mareo?",
+      "a": "Sí, el mareo es un efecto secundario común. Si se presenta, evite conducir o operar maquinaria hasta que sepa cómo le afecta. Las convulsiones son un efecto raro pero grave, especialmente con dosis altas o si tiene problemas renales."
+    },
+    {
+      "q": "¿Interfiere con mis otros medicamentos?",
+      "a": "Sí, puede interferir. Es MUY importante que le diga a su médico si toma anticoagulantes (como warfarina), medicamentos para la gota (probenecid) o para el cáncer (metotrexato). También informe sobre cualquier suplemento o hierba que use."
+    },
+    {
+      "q": "¿Por qué me hacen análisis de sangre mientras me la dan?",
+      "a": "Para monitorear que el medicamento no esté afectando sus riñones o hígado, y para revisar sus glóbulos blancos y plaquetas. También para asegurarse de que la dosis es correcta, especialmente si tiene problemas renales."
+    },
+    {
+      "q": "¿Es lo mismo mezlocilina que amoxicilina?",
+      "a": "No, aunque ambas son penicilinas, son diferentes. La amoxicilina es de espectro más limitado y se toma por boca para infecciones comunes. La mezlocilina es de espectro más amplio, cubre bacterias más resistentes y se administra por inyección para infecciones graves."
+    },
+    {
+      "q": "¿Qué significa que sea un antibiótico de 'amplio espectro'?",
+      "a": "Significa que es efectivo contra una amplia variedad de bacterias diferentes (grampositivas, gramnegativas y algunas anaerobias), a diferencia de los de 'espectro reducido' que solo atacan a tipos específicos."
+    },
+    {
+      "q": "¿Puede la mezlocilina causar daño en los riñones?",
+      "a": "Es raro, pero puede causar inflamación en los riñones (nefritis intersticial). Por eso se monitorea la función renal. El riesgo es mayor si ya tiene enfermedad renal o si se usa en dosis muy altas sin ajuste."
+    },
+    {
+      "q": "¿Por qué a veces la mezlocilina se combina con otro antibiótico?",
+      "a": "Se combina, por ejemplo, con un aminoglucósido (como gentamicina) para tratar infecciones muy graves por Pseudomonas aeruginosa. La combinación tiene un efecto más potente (sinergia) y ayuda a prevenir que la bacteria desarrolle resistencia."
+    },
+    {
+      "q": "¿Qué es la resistencia bacteriana y cómo la evito con este medicamento?",
+      "a": "Es cuando las bacterias aprenden a defenderse del antibiótico y este deja de funcionar. Para evitarlo, la mezlocilina solo debe usarse cuando sea realmente necesario (infecciones graves), en la dosis y tiempo exactos que recete el médico, y NUNCA para infecciones virales como la gripe."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre mezlocilina y piperacilina/tazobactam?",
+      "a": "Ambas son ureidopenicilinas. La piperacilina combinada con tazobactam (un inhibidor de betalactamasas) tiene un espectro aún más amplio, cubriendo bacterias productoras de enzimas que inactivan a la mezlocilina. Por esto, la piperacilina/tazobactam se usa más comúnmente hoy en día en muchos hospitales."
+    }
+  ]
+}

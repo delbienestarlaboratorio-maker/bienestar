@@ -10,7 +10,10 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Guía Médica: Mareos y Vértigo Frecuente",
         description: "Todo lo que necesitas saber antes de ir de urgencias sobre mareos y vértigo frecuente."
-    }
+    },
+    alternates: {
+        canonical: 'https://laboratorio.delbienestar.com.mx/sintomas/mareos-vertigo',
+    },
 };
 
 export default function SymptomPage() {
