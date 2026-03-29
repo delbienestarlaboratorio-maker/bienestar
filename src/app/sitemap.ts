@@ -44,27 +44,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         { url: `${BASE_URL}/enfermedades`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.85 },
     ];
 
-    // 2. Herramientas (calculadoras médicas)
+    // 2. [REMOVIDO] Herramientas (calculadoras médicas) - Ahora viven en el subdominio herramientas.delbienestar.com.mx
     let dynamicTools: MetadataRoute.Sitemap = [];
-    try {
-        const fs = safeRequire('fs');
-        const path = safeRequire('path');
-        if (fs && path) {
-            const herramientasDir = path.join(process.cwd(), 'src', 'app', 'herramientas');
-            if (fs.existsSync(herramientasDir)) {
-                const folders = fs.readdirSync(herramientasDir)
-                    .filter((f: string) => fs.statSync(path.join(herramientasDir, f)).isDirectory() && !f.startsWith('['));
-                dynamicTools = folders.map((slug: string) => ({
-                    url: `${BASE_URL}/herramientas/${slug}`,
-                    lastModified: new Date(),
-                    changeFrequency: 'weekly' as const,
-                    priority: 0.8,
-                }));
-            }
-        }
-    } catch (e) {
-        console.error("Sitemap Tools Error:", e);
-    }
 
     // 3 & 4. Síntomas y Biomarcadores (Usamos manifests importados)
     let sintomasRoutes: MetadataRoute.Sitemap = [];
